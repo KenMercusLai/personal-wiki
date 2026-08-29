@@ -13,6 +13,10 @@ EXPECTED = {
     "wiki/index.html",
     "wiki/sources/index.html",
     "wiki/sources/wei-jie-pun-translation-woman-communication/index.html",
+    "wiki/sources/wei-jie-pun-translation-woman-communication/semantic-search-candidates.png",
+    "wiki/sources/wei-jie-pun-translation-woman-communication/localized-character-name.png",
+    "wiki/sources/wei-jie-pun-translation-woman-communication/weak-guidance-japanese.png",
+    "wiki/sources/wei-jie-pun-translation-woman-communication/weak-guidance-chinese.jpg",
     "wiki/concepts/index.html",
     "wiki/concepts/semantic-retrieval-for-pun-translation/index.html",
     "wiki/concepts/functional-equivalence-in-pun-localization/index.html",
@@ -23,6 +27,98 @@ EXPECTED = {
     "sitemap.xml",
     "robots.txt",
 }
+
+PRIVATE_PATH_PATTERNS = (
+    re.compile(r"(?i)(?:file:/+)?/Users/[^/\s<>\"']+/"),
+    re.compile(r"(?i)(?:file:/+)?/home/[^/\s<>\"']+/"),
+    re.compile(r"(?i)(?:file:/+)?[a-z]:[\\/]+Users[\\/]+[^\\/\s<>\"']+[\\/]"),
+    re.compile(r"(?i)(?:^|[\s=\"'(:])~/"),
+)
+PRIVATE_PATH_MARKERS = (
+    "com~apple~CloudDocs",
+    "Mobile Documents/com~apple~CloudDocs",
+    "98. static/img",
+)
+PRIVATE_DIRECTORY_NAMES = {"raw", "inbox", "archive", "metadata"}
+RAW_IMAGE_SUFFIXES = {".gif", ".jpeg", ".jpg", ".png", ".svg", ".webp"}
+GENERATED_TEXT_SUFFIXES = {
+    ".css",
+    ".csv",
+    ".html",
+    ".js",
+    ".json",
+    ".map",
+    ".md",
+    ".svg",
+    ".txt",
+    ".webmanifest",
+    ".xml",
+}
+HTTP_URL_PATTERN = re.compile(r"(?i)https?://[^\s<>\"'\[\](){};,!，；！]+")
+MAX_DECODE_PASSES = 16
+
+
+def without_http_url_paths(text: str) -> str:
+    query_and_fragment = []
+
+    def replace(match: re.Match[str]) -> str:
+        parsed = urlsplit(match.group(0))
+        query_and_fragment.extend((parsed.query, parsed.fragment))
+        return " "
+
+    remaining = HTTP_URL_PATTERN.sub(replace, text)
+    return " ".join((remaining, *query_and_fragment))
+
+
+def find_private_path_leaks(text: str) -> list[str]:
+    normalized = text
+    decode_limit_reached = False
+    for _ in range(MAX_DECODE_PASSES):
+        decoded = unquote(html.unescape(normalized))
+        if decoded == normalized:
+            break
+        normalized = decoded
+    else:
+        decode_limit_reached = True
+
+    filesystem_text = without_http_url_paths(normalized)
+    leaks = [
+        match.group(0)
+        for pattern in PRIVATE_PATH_PATTERNS
+        for match in pattern.finditer(filesystem_text)
+    ]
+    leaks.extend(
+        marker
+        for marker in PRIVATE_PATH_MARKERS
+        if marker.casefold() in filesystem_text.casefold()
+    )
+    if decode_limit_reached:
+        leaks.append("excessive nested URL/HTML encoding")
+    return sorted(set(leaks))
+
+
+def find_private_path_leaks_in_bytes(raw: bytes) -> list[str]:
+    text = raw.decode("utf-8", errors="replace")
+    return find_private_path_leaks(text)
+
+
+def is_generated_text_artifact(path: pathlib.Path) -> bool:
+    return path.suffix.casefold() in GENERATED_TEXT_SUFFIXES
+
+
+def find_forbidden_public_files(paths: list[str]) -> list[str]:
+    forbidden = []
+    for raw_path in paths:
+        path = pathlib.PurePosixPath(raw_path)
+        parts = {part.casefold() for part in path.parts}
+        name = path.name.casefold()
+        if parts & PRIVATE_DIRECTORY_NAMES:
+            forbidden.append(raw_path)
+        elif name in {"asset-manifest.json", "source.original.md", "source-registry.json"}:
+            forbidden.append(raw_path)
+        elif path.suffix.casefold() in RAW_IMAGE_SUFFIXES and "_md5" in name:
+            forbidden.append(raw_path)
+    return forbidden
 
 
 class PageParser(HTMLParser):
@@ -89,6 +185,19 @@ def main() -> int:
         if "![[" in text:
             errors.append(f"{rel}: unresolved private image reference leaked into HTML")
 
+    for path in sorted(
+        item
+        for item in public.rglob("*")
+        if item.is_file() and is_generated_text_artifact(item)
+    ):
+        try:
+            raw = path.read_bytes()
+        except OSError:
+            continue
+        rel = path.relative_to(public)
+        for leak in find_private_path_leaks_in_bytes(raw):
+            errors.append(f"{rel}: private source path leaked into generated text: {leak}")
+
     if parsed_pages:
         root = parsed_pages.get(public / "index.html")
         if root and root.canonical:
@@ -121,7 +230,14 @@ def main() -> int:
     source_html = public / "wiki/sources/wei-jie-pun-translation-woman-communication/index.html"
     if source_html.is_file():
         rendered = source_html.read_text(encoding="utf-8")
-        for phrase in ("语义检索辅助谐音梗翻译", "功能对等与游戏本地化", "游戏文本中的弱引导", "15个图片引用均缺少对应资源"):
+        for phrase in (
+            "语义检索辅助谐音梗翻译",
+            "功能对等与游戏本地化",
+            "游戏文本中的弱引导",
+            "本次图文Ingest已完整读取并检查15个原始图片引用",
+            "精选4张公开嵌入",
+            "另外11张不嵌入是编辑选择，不代表private分类",
+        ):
             if phrase not in rendered:
                 errors.append(f"source page missing expected text: {phrase}")
 
