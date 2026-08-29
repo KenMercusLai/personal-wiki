@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="hero">
+  <p class="eyebrow">Living knowledge, compiled once</p>
+  <h1>{{ .Site.Title }}</h1>
+  <p class="hero-copy">把阅读材料编译成可维护、可追溯、互相连接的知识，而不是每次查询时重新发现。</p>
+  <div class="hero-actions"><a class="primary" href="{{ "wiki/" | relURL }}">浏览知识库</a><a href="{{ "wiki/sources/" | relURL }}">查看来源笔记</a></div>
+</section>
+
+{{ $sourcePages := where .Site.RegularPages "Section" "wiki" }}
+<section class="stats" aria-label="知识库统计">
+  <div><strong>{{ len (where $sourcePages "Params.type" "source") }}</strong><span>来源笔记</span></div>
+  <div><strong>{{ len (where $sourcePages "Params.type" "concept") }}</strong><span>概念</span></div>
+  <div><strong>{{ len (where $sourcePages "Params.type" "entity") }}</strong><span>实体</span></div>
+</section>
+
+<section class="home-section">
+  <div class="section-heading"><div><p class="eyebrow">First ingest</p><h2>从一篇文章开始建立连接</h2></div><a href="{{ "wiki/" | relURL }}">全部知识 →</a></div>
+  <div class="card-grid">
+    {{ range first 6 (where $sourcePages.ByTitle "Params.featured" true) }}
+    <article class="card"><p class="card-label">{{ .Params.type }}</p><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

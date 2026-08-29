@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section>
+  <p class="eyebrow">知识集合</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="lede prose">{{ . }}</div>{{ end }}
+  {{ if .Sections }}
+  <div class="card-grid">
+    {{ range .Sections.ByWeight }}
+    <article class="card"><p class="card-label">集合</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p><span>{{ len .RegularPagesRecursive }} 个页面</span></article>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ if .RegularPages }}
+  <div class="page-list">
+    {{ range .RegularPages.ByTitle }}
+    <article><p class="card-label">{{ .Params.type | default "知识页" }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p></article>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

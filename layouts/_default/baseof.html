@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  {{ partial "seo.html" . }}
+  {{ with resources.Get "css/site.css" }}{{ $css := . | minify | fingerprint }}<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">{{ end }}
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ "" | relURL }}">个人知识 Wiki</a>
+    <nav aria-label="主导航">
+      <a href="{{ "wiki/" | relURL }}">知识库</a>
+      <a href="{{ "wiki/sources/" | relURL }}">来源</a>
+      <a href="{{ "wiki/concepts/" | relURL }}">概念</a>
+      <a href="{{ "wiki/entities/" | relURL }}">实体</a>
+    </nav>
+  </header>
+  <main>{{ block "main" . }}{{ end }}</main>
+  <footer class="site-footer">由 Hugo 构建 · 原始材料不随网站发布</footer>
+</body>
+</html>
