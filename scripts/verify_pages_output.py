@@ -8,25 +8,67 @@ import sys
 from html.parser import HTMLParser
 from urllib.parse import unquote, urlsplit
 
-EXPECTED = {
+BASE_EXPECTED = {
     "index.html",
     "wiki/index.html",
     "wiki/sources/index.html",
-    "wiki/sources/wei-jie-pun-translation-woman-communication/index.html",
-    "wiki/sources/wei-jie-pun-translation-woman-communication/semantic-search-candidates.png",
-    "wiki/sources/wei-jie-pun-translation-woman-communication/localized-character-name.png",
-    "wiki/sources/wei-jie-pun-translation-woman-communication/weak-guidance-japanese.png",
-    "wiki/sources/wei-jie-pun-translation-woman-communication/weak-guidance-chinese.jpg",
     "wiki/concepts/index.html",
-    "wiki/concepts/semantic-retrieval-for-pun-translation/index.html",
-    "wiki/concepts/functional-equivalence-in-pun-localization/index.html",
-    "wiki/concepts/weak-guidance-in-game-localization/index.html",
     "wiki/entities/index.html",
-    "wiki/entities/woman-communication/index.html",
-    "wiki/entities/wei-jie/index.html",
     "sitemap.xml",
     "robots.txt",
 }
+
+SOURCE_CONTRACTS = {
+    "wei-jie-pun-translation-woman-communication": {
+        "derived": {
+            "wiki/concepts/semantic-retrieval-for-pun-translation/index.html",
+            "wiki/concepts/functional-equivalence-in-pun-localization/index.html",
+            "wiki/concepts/weak-guidance-in-game-localization/index.html",
+            "wiki/entities/woman-communication/index.html",
+            "wiki/entities/wei-jie/index.html",
+        },
+        "images": {
+            "semantic-search-candidates.png": "程序输出展示语义相近的谐音候选",
+            "localized-character-name.png": "《女性交流》中文本地化后的角色姓名示例",
+            "weak-guidance-japanese.png": "日文画面标出やりチン与チンゲ的重叠部分",
+            "weak-guidance-chinese.jpg": "中文画面标出口鲍与鲍鱼的重叠部分",
+        },
+        "phrases": {
+            "语义检索辅助谐音梗翻译",
+            "功能对等与游戏本地化",
+            "游戏文本中的弱引导",
+            "本次图文Ingest已完整读取并检查15个原始图片引用",
+            "精选4张公开嵌入",
+            "另外11张不嵌入是编辑选择，不代表private分类",
+        },
+    },
+    "shensiquan-private-data-chatgpt-langchain": {
+        "derived": {
+            "wiki/concepts/retrieval-augmented-generation-pipeline/index.html",
+            "wiki/concepts/document-chunking-retrieval-tradeoff/index.html",
+            "wiki/entities/langchain/index.html",
+        },
+        "images": {
+            "rag-query-flow.png": "带聊天历史与向量检索的问答流程",
+            "document-embedding-vectorstore.png": "文档切片、生成嵌入并写入向量库的流程",
+            "generative-ai-stack.jpg": "生成式人工智能技术栈中的模型、框架与应用层",
+        },
+        "phrases": {
+            "原文处于GPT-4发布和LangChain早期发展的时间窗口",
+            "本次图文Ingest完整读取并检查17个原始图片引用",
+            "精选3张能解释数据摄取、查询检索和应用技术栈的图片公开嵌入",
+            "其余14张多为操作界面、产品截图、增长图、推广图或往期文章封面",
+            "并非private处理",
+        },
+    },
+}
+
+EXPECTED = set(BASE_EXPECTED)
+for source_key, contract in SOURCE_CONTRACTS.items():
+    bundle = f"wiki/sources/{source_key}"
+    EXPECTED.add(f"{bundle}/index.html")
+    EXPECTED.update(f"{bundle}/{filename}" for filename in contract["images"])
+    EXPECTED.update(contract["derived"])
 
 PRIVATE_PATH_PATTERNS = (
     re.compile(r"(?i)(?:file:/+)?/Users/[^/\s<>\"']+/"),
@@ -126,6 +168,7 @@ class PageParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.canonical: list[str] = []
         self.links: list[str] = []
+        self.images: list[tuple[str, str]] = []
         self.jsonld: list[str] = []
         self._json = False
         self._buffer: list[str] = []
@@ -138,6 +181,9 @@ class PageParser(HTMLParser):
             self.canonical.append(href)
         if tag == "a" and href:
             self.links.append(href)
+        src = values.get("src")
+        if tag == "img" and isinstance(src, str):
+            self.images.append((src, values.get("alt") or ""))
         if tag == "script" and values.get("type") == "application/ld+json":
             self._json = True
             self._buffer = []
@@ -227,19 +273,29 @@ def main() -> int:
                     if not candidate.exists():
                         errors.append(f"{rel}: broken internal link: {href}")
 
-    source_html = public / "wiki/sources/wei-jie-pun-translation-woman-communication/index.html"
-    if source_html.is_file():
+    for source_key, contract in SOURCE_CONTRACTS.items():
+        rel = pathlib.Path(f"wiki/sources/{source_key}/index.html")
+        source_html = public / rel
+        if not source_html.is_file():
+            continue
         rendered = source_html.read_text(encoding="utf-8")
-        for phrase in (
-            "语义检索辅助谐音梗翻译",
-            "功能对等与游戏本地化",
-            "游戏文本中的弱引导",
-            "本次图文Ingest已完整读取并检查15个原始图片引用",
-            "精选4张公开嵌入",
-            "另外11张不嵌入是编辑选择，不代表private分类",
-        ):
+        parser = parsed_pages[source_html]
+        for phrase in contract["phrases"]:
             if phrase not in rendered:
-                errors.append(f"source page missing expected text: {phrase}")
+                errors.append(f"{rel}: missing expected text: {phrase}")
+        for filename, expected_alt in contract["images"].items():
+            matching = [
+                alt
+                for src, alt in parser.images
+                if (
+                    urlsplit(src).path == filename
+                    or urlsplit(src).path.endswith(f"/{filename}")
+                )
+            ]
+            if not matching:
+                errors.append(f"{rel}: missing selected image src: {filename}")
+            elif matching != [expected_alt]:
+                errors.append(f"{rel}: unexpected alt text for {filename}: {matching}")
 
     if errors:
         print("Generated-site verification failed:")
