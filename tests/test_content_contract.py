@@ -104,6 +104,12 @@ SOURCES = {
         "image_status": 'image_status: "原文没有图片引用"',
         "selected": {},
     },
+    "hulatu-forward-reference-learning-friction": {
+        "path": "sources/hulatu-forward-reference-learning-friction/index.md",
+        "url": "https://sspai.com/post/93798",
+        "image_status": 'image_status: "2张全部解析；2张因装饰性或概念证据错位省略；无private分类"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -140,6 +146,7 @@ EXPECTED_DERIVED = {
     "concepts/acute-chronic-stress-boundary.md",
     "concepts/systematic-learning-breadth-depth.md",
     "concepts/dikw-as-information-transformation-model.md",
+    "concepts/learning-with-unresolved-dependencies.md",
 }
 
 

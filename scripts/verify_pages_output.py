@@ -228,6 +228,21 @@ SOURCE_CONTRACTS = {
             "原文没有图片引用",
         },
     },
+    "hulatu-forward-reference-learning-friction": {
+        "derived": {
+            "wiki/concepts/learning-with-unresolved-dependencies/index.html",
+            "wiki/concepts/systematic-learning-breadth-depth/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "未解析知识依赖",
+            "编程术语与学习类比",
+            "全局地图",
+            "局部回补",
+            "死记硬背",
+            "2张全部解析",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)

@@ -3,7 +3,7 @@ title: "系统性学习的广度、深度与依赖顺序"
 description: "先建立领域地图，再沿关键问题深入，并优先学习被大量后续内容依赖的基础。"
 type: "concept"
 updated: "2026-08-30"
-source_keys: ["program-think-systematic-learning"]
+source_keys: ["program-think-systematic-learning", "hulatu-forward-reference-learning-friction"]
 featured: true
 ---
 
@@ -13,7 +13,7 @@ featured: true
 - **深度：** 能解释关键机制、证据、限制，并在新情境中运用。
 - **依赖顺序：** 优先补足被多个后续主题复用的概念与技能。
 
-只追广度容易形成术语清单，只追局部深度可能缺少位置感。实践中可先用入门材料建立地图，再由真实任务选择专题材料，并持续返回基础层修正误解。
+只追广度容易形成术语清单，只追局部深度可能缺少位置感。实践中可先用入门材料建立地图，再由真实任务选择专题材料，并持续返回基础层修正误解。学习材料无法总按完美拓扑顺序展开；遇到尚未解释的术语时，可先标记为[未解析知识依赖]({{< relref "/wiki/concepts/learning-with-unresolved-dependencies.md" >}})，继续建立全局地图，再定向回补。
 
 ## 媒介适配
 
@@ -24,3 +24,4 @@ featured: true
 ## 来源
 
 - [《如何系统性学习》]({{< relref "/wiki/sources/program-think-systematic-learning.md" >}})
+- [《关于前置引用现象，学习卡顿的根源》]({{< relref "/wiki/sources/hulatu-forward-reference-learning-friction.md" >}})
