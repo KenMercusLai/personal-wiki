@@ -76,6 +76,22 @@ SOURCE_CONTRACTS = {
             "RFC 9114",
         },
     },
+    "spacewander-ai-inference-load-balancing": {
+        "derived": {
+            "wiki/concepts/inference-load-balancer-design/index.html",
+            "wiki/concepts/kv-cache-aware-routing/index.html",
+            "wiki/concepts/distributed-scheduler-state-collection/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "推理负载均衡器",
+            "Tokenization",
+            "KV Cache",
+            "O(n²)",
+            "原文没有图片引用",
+            "作者评价与可复核事实",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)

@@ -35,6 +35,12 @@ SOURCES = {
         "image_status": 'image_status: "原文没有图片引用"',
         "selected": {},
     },
+    "spacewander-ai-inference-load-balancing": {
+        "path": "sources/spacewander-ai-inference-load-balancing/index.md",
+        "url": "https://segmentfault.com/a/1190000047682071",
+        "image_status": 'image_status: "原文没有图片引用"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -49,6 +55,9 @@ EXPECTED_DERIVED = {
     "concepts/http-version-evolution.md",
     "concepts/http-head-of-line-blocking.md",
     "entities/quic.md",
+    "concepts/inference-load-balancer-design.md",
+    "concepts/kv-cache-aware-routing.md",
+    "concepts/distributed-scheduler-state-collection.md",
 }
 
 
