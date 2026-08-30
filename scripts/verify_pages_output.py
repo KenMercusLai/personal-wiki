@@ -175,6 +175,27 @@ SOURCE_CONTRACTS = {
             "原文没有图片引用",
         },
     },
+    "yuan-chaofa-agentic-rag-evolution": {
+        "derived": {
+            "wiki/concepts/agentic-rag-control-loop/index.html",
+            "wiki/concepts/coarse-to-fine-evidence-retrieval/index.html",
+            "wiki/concepts/search-policy-learning/index.html",
+        },
+        "images": {
+            "native-rag-offline-online.png": "传统RAG的离线入库与在线检索生成链路",
+            "agentic-rag-tool-loop.png": "模型按需调用搜索工具并根据结果继续决策的Agentic RAG循环",
+            "chatbox-agentic-search-flow.png": "Chatbox在普通检索与多轮Agentic Search之间选择的流程",
+            "search-r1-reason-search-loop.png": "Search-R1在推理中决定搜索、接收结果并继续推理的循环",
+        },
+        "phrases": {
+            "检索策略控制器",
+            "先粗后细",
+            "Search-R1",
+            "示意代码不能视为可运行训练实现",
+            "精选4张公开嵌入",
+            "3张省略",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
