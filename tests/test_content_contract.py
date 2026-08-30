@@ -51,6 +51,16 @@ SOURCES = {
             "trajectory-epsilon-0-001.png": "epsilon为0.001时由35个点近似的车辆轨迹",
         },
     },
+    "indigo-feynman-information-knowledge-output": {
+        "path": "sources/indigo-feynman-information-knowledge-output/index.md",
+        "url": "https://www.indigox.me/feynman-technique-in-practice/",
+        "image_status": 'image_status: "9个原始图片引用已解析；精选3张公开嵌入；6张省略；无private分类"',
+        "selected": {
+            "feynman-learning-cycle.png": "目标、理解、输出、回顾与内化组成的费曼学习循环",
+            "information-to-knowledge-output.png": "从随机阅读和聚焦阅读到笔记、长文与课程输出的流程",
+            "structured-output-workflow.png": "围绕主题页面完成精读、研究、长文和课程输出的工作流",
+        },
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -70,6 +80,9 @@ EXPECTED_DERIVED = {
     "concepts/distributed-scheduler-state-collection.md",
     "concepts/ramer-douglas-peucker-algorithm.md",
     "concepts/geospatial-simplification-tolerance.md",
+    "concepts/explanation-driven-learning-loop.md",
+    "concepts/topic-driven-reading-and-output.md",
+    "concepts/ai-assisted-note-retrieval.md",
 }
 
 

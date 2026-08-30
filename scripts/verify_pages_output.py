@@ -111,6 +111,26 @@ SOURCE_CONTRACTS = {
             "3张因信息重复而省略",
         },
     },
+    "indigo-feynman-information-knowledge-output": {
+        "derived": {
+            "wiki/concepts/explanation-driven-learning-loop/index.html",
+            "wiki/concepts/topic-driven-reading-and-output/index.html",
+            "wiki/concepts/ai-assisted-note-retrieval/index.html",
+        },
+        "images": {
+            "feynman-learning-cycle.png": "目标、理解、输出、回顾与内化组成的费曼学习循环",
+            "information-to-knowledge-output.png": "从随机阅读和聚焦阅读到笔记、长文与课程输出的流程",
+            "structured-output-workflow.png": "围绕主题页面完成精读、研究、长文和课程输出的工作流",
+        },
+        "phrases": {
+            "解释驱动学习",
+            "随机漫步",
+            "聚焦阅读",
+            "Dale",
+            "9张原始图片引用已解析",
+            "6张省略",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
