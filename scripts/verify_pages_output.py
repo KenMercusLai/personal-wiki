@@ -61,6 +61,21 @@ SOURCE_CONTRACTS = {
             "并非private处理",
         },
     },
+    "chen-hao-http-history": {
+        "derived": {
+            "wiki/concepts/http-version-evolution/index.html",
+            "wiki/concepts/http-head-of-line-blocking/index.html",
+            "wiki/entities/quic/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "HTTP版本演进",
+            "队头阻塞",
+            "2019年的协议生态快照",
+            "原文没有图片引用",
+            "RFC 9114",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)

@@ -29,6 +29,12 @@ SOURCES = {
             "generative-ai-stack.jpg": "生成式人工智能技术栈中的模型、框架与应用层",
         },
     },
+    "chen-hao-http-history": {
+        "path": "sources/chen-hao-http-history/index.md",
+        "url": "https://coolshell.cn/articles/19840.html",
+        "image_status": 'image_status: "原文没有图片引用"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -40,6 +46,9 @@ EXPECTED_DERIVED = {
     "concepts/retrieval-augmented-generation-pipeline.md",
     "concepts/document-chunking-retrieval-tradeoff.md",
     "entities/langchain.md",
+    "concepts/http-version-evolution.md",
+    "concepts/http-head-of-line-blocking.md",
+    "entities/quic.md",
 }
 
 
