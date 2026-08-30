@@ -5,6 +5,7 @@ import subprocess
 import unittest
 
 from scripts.verify_pages_output import (
+    find_external_image_sources,
     find_forbidden_public_files,
     find_private_path_leaks,
     find_private_path_leaks_in_bytes,
@@ -15,6 +16,22 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
 class OutputPrivacyTest(unittest.TestCase):
+    def test_output_verifier_rejects_external_image_sources(self):
+        images = [
+            ("https://remote.example/tracker.png", "tracker"),
+            ("//remote.example/tracker.png", "tracker"),
+            ("data:image/png;base64,AAAA", "inline"),
+            ("/personal-wiki/wiki/sources/example/local.png", "local"),
+        ]
+        self.assertEqual(
+            find_external_image_sources(images),
+            [
+                "https://remote.example/tracker.png",
+                "//remote.example/tracker.png",
+                "data:image/png;base64,AAAA",
+            ],
+        )
+
     def test_generated_text_artifact_classification_excludes_binary_images(self):
         self.assertTrue(is_generated_text_artifact(pathlib.Path("index.html")))
         self.assertTrue(is_generated_text_artifact(pathlib.Path("sitemap.xml")))

@@ -18,7 +18,7 @@ disableKinds = ['taxonomy', 'term']
     source = 'content'
     target = 'content'
   [[module.mounts]]
-    source = 'wiki'
+    source = '.generated/wiki'
     target = 'content/wiki'
 
 [outputs]

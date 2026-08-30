@@ -56,4 +56,6 @@ if [[ ! -x "${HUGO_BIN}" ]] || [[ "$("${HUGO_BIN}" version 2>/dev/null)" != *"v$
 fi
 
 "${HUGO_BIN}" version
+python3 -m tools.validate_publish
+python3 -m tools.postprocess_publish
 "${HUGO_BIN}" --gc --minify --cleanDestinationDir "$@"
