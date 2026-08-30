@@ -98,6 +98,12 @@ SOURCES = {
             "problem-difficulty-expected-reward.png": "问题难度、成功概率、奖励与期望收益之间的示意关系",
         },
     },
+    "program-think-systematic-learning": {
+        "path": "sources/program-think-systematic-learning/index.md",
+        "url": "https://program-think.blogspot.com/2019/10/Systematic-Learning.html",
+        "image_status": 'image_status: "原文没有图片引用"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -132,6 +138,8 @@ EXPECTED_DERIVED = {
     "concepts/search-policy-learning.md",
     "concepts/challenge-reward-control-balance.md",
     "concepts/acute-chronic-stress-boundary.md",
+    "concepts/systematic-learning-breadth-depth.md",
+    "concepts/dikw-as-information-transformation-model.md",
 }
 
 

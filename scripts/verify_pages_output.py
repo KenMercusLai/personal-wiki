@@ -212,6 +212,22 @@ SOURCE_CONTRACTS = {
             "1个原始图片引用已解析并公开嵌入",
         },
     },
+    "program-think-systematic-learning": {
+        "derived": {
+            "wiki/concepts/systematic-learning-breadth-depth/index.html",
+            "wiki/concepts/dikw-as-information-transformation-model/index.html",
+            "wiki/concepts/explanation-driven-learning-loop/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "广度、深度与依赖顺序",
+            "媒介适配",
+            "DIKW",
+            "描述性框架而非公认定律",
+            "熵的跨领域类比",
+            "原文没有图片引用",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
