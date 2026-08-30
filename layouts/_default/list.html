@@ -1,21 +1,39 @@
 {{ define "main" }}
-<section>
-  <p class="eyebrow">知识集合</p>
+<section class="wiki-landing-hero">
+  <p class="wiki-label">知识集合</p>
   <h1>{{ .Title }}</h1>
-  {{ with .Content }}<div class="lede prose">{{ . }}</div>{{ end }}
-  {{ if .Sections }}
-  <div class="card-grid">
-    {{ range .Sections.ByWeight }}
-    <article class="card"><p class="card-label">集合</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p><span>{{ len .RegularPagesRecursive }} 个页面</span></article>
-    {{ end }}
-  </div>
-  {{ end }}
-  {{ if .RegularPages }}
-  <div class="page-list">
-    {{ range .RegularPages.ByTitle }}
-    <article><p class="card-label">{{ .Params.type | default "知识页" }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p></article>
-    {{ end }}
-  </div>
-  {{ end }}
+  {{ with .Content }}<div class="lede content">{{ . }}</div>{{ end }}
 </section>
+
+{{ if .Sections }}
+<section class="wiki-landing-section" aria-labelledby="subsections-heading">
+  <h2 id="subsections-heading">知识分类</h2>
+  <div class="knowledge-collection-grid">
+    {{ range .Sections.ByWeight }}
+    <article class="knowledge-collection-card">
+      <span class="knowledge-collection-label">{{ len .RegularPagesRecursive }} 个页面</span>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Description }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+{{ if .RegularPages }}
+<section class="wiki-landing-section" aria-labelledby="pages-heading">
+  <h2 id="pages-heading">页面</h2>
+  <ul class="page-list">
+    {{ range .RegularPages.ByTitle }}
+    <li>
+      <div>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p class="page-meta">{{ .Description }}</p>
+      </div>
+      <span class="page-kind">{{ .Params.type | default "知识页" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
 {{ end }}

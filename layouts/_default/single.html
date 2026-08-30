@@ -1,13 +1,13 @@
 {{ define "main" }}
-<article class="knowledge-page">
-  <p class="eyebrow">{{ .Params.type | default "知识页" }}</p>
+<article>
+  <p class="wiki-label">{{ .Params.type | default "知识页" }}</p>
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
-  <div class="page-meta">
+  <div class="wiki-meta page-meta">
     {{ with .Params.author }}<span>作者：{{ . }}</span>{{ end }}
     {{ with .Params.source_date }}<span>原文日期：{{ . }}</span>{{ end }}
     {{ with .Params.updated }}<span>知识页更新：{{ . }}</span>{{ end }}
   </div>
-  <div class="prose">{{ .Content }}</div>
+  <div class="content">{{ .Content }}</div>
 </article>
 {{ end }}
