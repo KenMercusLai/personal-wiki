@@ -67,6 +67,12 @@ SOURCES = {
         "image_status": 'image_status: "原文没有图片引用"',
         "selected": {},
     },
+    "bernard-marr-timeless-productivity-habits": {
+        "path": "sources/bernard-marr-timeless-productivity-habits/index.md",
+        "url": "https://www.mifengtd.cn/articles/10-timeless-work-habits-to-boost-productivity.html",
+        "image_status": 'image_status: "原文没有图片引用"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -91,6 +97,9 @@ EXPECTED_DERIVED = {
     "concepts/ai-assisted-note-retrieval.md",
     "concepts/goals-as-attentional-valuation.md",
     "concepts/small-step-interest-cultivation.md",
+    "concepts/attention-protection-work-design.md",
+    "concepts/task-prioritization-and-batching.md",
+    "concepts/workload-reduction-by-elimination-automation-delegation.md",
 }
 
 

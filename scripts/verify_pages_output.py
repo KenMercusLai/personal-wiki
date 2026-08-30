@@ -145,6 +145,22 @@ SOURCE_CONTRACTS = {
             "原文没有图片引用",
         },
     },
+    "bernard-marr-timeless-productivity-habits": {
+        "derived": {
+            "wiki/concepts/attention-protection-work-design/index.html",
+            "wiki/concepts/task-prioritization-and-batching/index.html",
+            "wiki/concepts/workload-reduction-by-elimination-automation-delegation/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "3至5件",
+            "不紧急但重要",
+            "上下文切换",
+            "删除、自动化与委派",
+            "2014年的工具生态",
+            "原文没有图片引用",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
