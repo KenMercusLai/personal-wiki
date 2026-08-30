@@ -178,7 +178,7 @@ class ContentContractTest(unittest.TestCase):
             for path in WIKI.rglob("*.md")
             if path.name != "_index.md"
         }
-        self.assertEqual(actual, expected)
+        self.assertTrue(expected.issubset(actual))
 
     def test_source_notes_preserve_provenance_and_publish_selected_images(self):
         for source_key, contract in SOURCES.items():

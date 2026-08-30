@@ -8,6 +8,12 @@ import sys
 from html.parser import HTMLParser
 from urllib.parse import unquote, urlsplit
 
+REPOSITORY_ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(REPOSITORY_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPOSITORY_ROOT))
+
+from tools.validate_publish import ValidationError, validate_publish
+
 BASE_EXPECTED = {
     "index.html",
     "wiki/index.html",
@@ -288,6 +294,13 @@ for source_key, contract in SOURCE_CONTRACTS.items():
     EXPECTED.update(f"{bundle}/{filename}" for filename in contract["images"])
     EXPECTED.update(contract["derived"])
 
+
+def dynamic_expected_artifacts(repository: pathlib.Path | str) -> set[str]:
+    """Derive the complete public contract from the current validated canonical tree."""
+    report = validate_publish(repository)
+    route_artifacts = {f"{route.rstrip('/')}/index.html" for route in report.routes}
+    return route_artifacts | set(report.assets)
+
 PRIVATE_PATH_PATTERNS = (
     re.compile(r"(?i)(?:file:/+)?/Users/[^/\s<>\"']+/"),
     re.compile(r"(?i)(?:file:/+)?/home/[^/\s<>\"']+/"),
@@ -381,6 +394,15 @@ def find_forbidden_public_files(paths: list[str]) -> list[str]:
     return forbidden
 
 
+def find_external_image_sources(images: list[tuple[str, str]]) -> list[str]:
+    external: list[str] = []
+    for src, _alt in images:
+        parsed = urlsplit(html.unescape(src))
+        if parsed.scheme or parsed.netloc:
+            external.append(src)
+    return external
+
+
 class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -419,13 +441,27 @@ class PageParser(HTMLParser):
 def main() -> int:
     public = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "public").resolve()
     errors: list[str] = []
-    for rel in EXPECTED:
+    try:
+        current_expected = dynamic_expected_artifacts(REPOSITORY_ROOT)
+    except ValidationError as exc:
+        print(f"Generated-site verification failed:\n- canonical contract invalid: {exc}")
+        return 1
+    required = EXPECTED | current_expected
+    for rel in required:
         if not (public / rel).is_file():
             errors.append(f"missing artifact: {rel}")
 
     html_files = sorted(public.rglob("*.html"))
     if not html_files:
         errors.append("no HTML files generated")
+    expected_wiki_html = {rel for rel in current_expected if rel.endswith(".html")}
+    actual_wiki_html = {
+        path.relative_to(public).as_posix()
+        for path in html_files
+        if path.relative_to(public).parts[:1] == ("wiki",)
+    }
+    for rel in sorted(actual_wiki_html - expected_wiki_html):
+        errors.append(f"unexpected canonical wiki route artifact: {rel}")
 
     parsed_pages: dict[pathlib.Path, PageParser] = {}
     for path in html_files:
@@ -448,6 +484,8 @@ def main() -> int:
                 errors.append(f"{rel}: JSON-LD URL differs from canonical")
         if "![[" in text:
             errors.append(f"{rel}: unresolved private image reference leaked into HTML")
+        for src in find_external_image_sources(parser.images):
+            errors.append(f"{rel}: external image source is forbidden: {src}")
 
     for path in sorted(
         item
@@ -520,7 +558,7 @@ def main() -> int:
         for error in errors:
             print(f"- {error}")
         return 1
-    print(f"Verified {len(html_files)} HTML pages and {len(EXPECTED)} required artifacts.")
+    print(f"Verified {len(html_files)} HTML pages and {len(required)} required baseline + dynamic artifacts.")
     return 0
 
 
