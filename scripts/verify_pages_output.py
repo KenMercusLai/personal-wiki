@@ -196,6 +196,22 @@ SOURCE_CONTRACTS = {
             "3张省略",
         },
     },
+    "piotr-wozniak-mechanics-of-eustress": {
+        "derived": {
+            "wiki/concepts/challenge-reward-control-balance/index.html",
+            "wiki/concepts/acute-chronic-stress-boundary/index.html",
+        },
+        "images": {
+            "problem-difficulty-expected-reward.png": "问题难度、成功概率、奖励与期望收益之间的示意关系",
+        },
+        "phrases": {
+            "自主性、可控性与恢复",
+            "急性挑战与慢性压力",
+            "示意模型而非实测曲线",
+            "不构成医学建议",
+            "1个原始图片引用已解析并公开嵌入",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)

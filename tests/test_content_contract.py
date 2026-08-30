@@ -90,6 +90,14 @@ SOURCES = {
             "search-r1-reason-search-loop.png": "Search-R1在推理中决定搜索、接收结果并继续推理的循环",
         },
     },
+    "piotr-wozniak-mechanics-of-eustress": {
+        "path": "sources/piotr-wozniak-mechanics-of-eustress/index.md",
+        "url": "https://supermemo.guru/wiki/Mechanics_of_eustress",
+        "image_status": 'image_status: "1个原始图片引用已解析并公开嵌入；无省略或private分类"',
+        "selected": {
+            "problem-difficulty-expected-reward.png": "问题难度、成功概率、奖励与期望收益之间的示意关系",
+        },
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -122,6 +130,8 @@ EXPECTED_DERIVED = {
     "concepts/agentic-rag-control-loop.md",
     "concepts/coarse-to-fine-evidence-retrieval.md",
     "concepts/search-policy-learning.md",
+    "concepts/challenge-reward-control-balance.md",
+    "concepts/acute-chronic-stress-boundary.md",
 }
 
 
