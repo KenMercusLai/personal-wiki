@@ -73,6 +73,12 @@ SOURCES = {
         "image_status": 'image_status: "原文没有图片引用"',
         "selected": {},
     },
+    "tuimo-gpv-career-path": {
+        "path": "sources/tuimo-gpv-career-path/index.md",
+        "url": "https://www.mifengtd.cn/articles/figure-out-your-career-path-with-the-gpv-formula.html",
+        "image_status": 'image_status: "原文没有图片引用"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -100,6 +106,8 @@ EXPECTED_DERIVED = {
     "concepts/attention-protection-work-design.md",
     "concepts/task-prioritization-and-batching.md",
     "concepts/workload-reduction-by-elimination-automation-delegation.md",
+    "concepts/gpv-career-hypothesis.md",
+    "concepts/career-path-not-job-title.md",
 }
 
 

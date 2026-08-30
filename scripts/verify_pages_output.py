@@ -161,6 +161,20 @@ SOURCE_CONTRACTS = {
             "原文没有图片引用",
         },
     },
+    "tuimo-gpv-career-path": {
+        "derived": {
+            "wiki/concepts/gpv-career-hypothesis/index.html",
+            "wiki/concepts/career-path-not-job-title/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "Gifts、Passion与Values",
+            "职业假设",
+            "职业生涯不等于单一工作",
+            "市场需求与现实约束",
+            "原文没有图片引用",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
