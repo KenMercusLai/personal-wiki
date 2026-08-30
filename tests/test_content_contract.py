@@ -41,6 +41,16 @@ SOURCES = {
         "image_status": 'image_status: "原文没有图片引用"',
         "selected": {},
     },
+    "matianjiangxin-douglas-peucker-trajectory-simplification": {
+        "path": "sources/matianjiangxin-douglas-peucker-trajectory-simplification/index.md",
+        "url": "https://zulu.wang/posts/2020/09/08/ramer-douglas-peucker-algorithm.html",
+        "image_status": 'image_status: "6个原始图片引用已解析；精选3张公开嵌入；3张因信息重复而省略；无private分类"',
+        "selected": {
+            "douglas-peucker-simplification.gif": "道格拉斯-普克算法递归保留关键点的示意动画",
+            "trajectory-original.png": "抽稀前由812个采样点构成的车辆轨迹",
+            "trajectory-epsilon-0-001.png": "epsilon为0.001时由35个点近似的车辆轨迹",
+        },
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -58,6 +68,8 @@ EXPECTED_DERIVED = {
     "concepts/inference-load-balancer-design.md",
     "concepts/kv-cache-aware-routing.md",
     "concepts/distributed-scheduler-state-collection.md",
+    "concepts/ramer-douglas-peucker-algorithm.md",
+    "concepts/geospatial-simplification-tolerance.md",
 }
 
 

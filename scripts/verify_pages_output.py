@@ -92,6 +92,25 @@ SOURCE_CONTRACTS = {
             "作者评价与可复核事实",
         },
     },
+    "matianjiangxin-douglas-peucker-trajectory-simplification": {
+        "derived": {
+            "wiki/concepts/ramer-douglas-peucker-algorithm/index.html",
+            "wiki/concepts/geospatial-simplification-tolerance/index.html",
+        },
+        "images": {
+            "douglas-peucker-simplification.gif": "道格拉斯-普克算法递归保留关键点的示意动画",
+            "trajectory-original.png": "抽稀前由812个采样点构成的车辆轨迹",
+            "trajectory-epsilon-0-001.png": "epsilon为0.001时由35个点近似的车辆轨迹",
+        },
+        "phrases": {
+            "Ramer–Douglas–Peucker",
+            "812个轨迹点",
+            "35个点",
+            "坐标系与距离单位",
+            "精选3张公开嵌入",
+            "3张因信息重复而省略",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
