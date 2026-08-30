@@ -61,6 +61,12 @@ SOURCES = {
             "structured-output-workflow.png": "围绕主题页面完成精读、研究、长文和课程输出的工作流",
         },
     },
+    "piotr-wozniak-goals-and-learn-drive": {
+        "path": "sources/piotr-wozniak-goals-and-learn-drive/index.md",
+        "url": "https://supermemo.guru/wiki/Setting_goals_can_change_your_life",
+        "image_status": 'image_status: "原文没有图片引用"',
+        "selected": {},
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -83,6 +89,8 @@ EXPECTED_DERIVED = {
     "concepts/explanation-driven-learning-loop.md",
     "concepts/topic-driven-reading-and-output.md",
     "concepts/ai-assisted-note-retrieval.md",
+    "concepts/goals-as-attentional-valuation.md",
+    "concepts/small-step-interest-cultivation.md",
 }
 
 

@@ -131,6 +131,20 @@ SOURCE_CONTRACTS = {
             "6张省略",
         },
     },
+    "piotr-wozniak-goals-and-learn-drive": {
+        "derived": {
+            "wiki/concepts/goals-as-attentional-valuation/index.html",
+            "wiki/concepts/small-step-interest-cultivation/index.html",
+        },
+        "images": {},
+        "phrases": {
+            "目标作为注意力与知识估值中心",
+            "学习内驱力",
+            "5–10分钟",
+            "作者观点与证据边界",
+            "原文没有图片引用",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)
