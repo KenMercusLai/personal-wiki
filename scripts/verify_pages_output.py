@@ -243,6 +243,23 @@ SOURCE_CONTRACTS = {
             "2张全部解析",
         },
     },
+    "hutusi-silver-bullet-software-engineering-history": {
+        "derived": {
+            "wiki/concepts/essential-and-accidental-software-work/index.html",
+            "wiki/concepts/ai-assisted-software-development-verification-loop/index.html",
+        },
+        "images": {
+            "fred-brooks-mythical-man-month.jpg": "弗雷德·布鲁克斯演讲照片与《人月神话》封面的组合图",
+        },
+        "phrases": {
+            "本质性工作与附属性工作",
+            "软件工程历史",
+            "LLM是银弹",
+            "2024年的预测",
+            "历史校正",
+            "5张全部解析",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)

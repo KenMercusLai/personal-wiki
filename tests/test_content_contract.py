@@ -110,6 +110,14 @@ SOURCES = {
         "image_status": 'image_status: "2张全部解析；2张因装饰性或概念证据错位省略；无private分类"',
         "selected": {},
     },
+    "hutusi-silver-bullet-software-engineering-history": {
+        "path": "sources/hutusi-silver-bullet-software-engineering-history/index.md",
+        "url": "https://hutusi.com/articles/the-history-of-software-engineering",
+        "image_status": 'image_status: "5张全部解析；1张公开，4张因装饰性、历史肖像或低知识增量省略；无private分类"',
+        "selected": {
+            "fred-brooks-mythical-man-month.jpg": "弗雷德·布鲁克斯演讲照片与《人月神话》封面的组合图",
+        },
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -147,6 +155,8 @@ EXPECTED_DERIVED = {
     "concepts/systematic-learning-breadth-depth.md",
     "concepts/dikw-as-information-transformation-model.md",
     "concepts/learning-with-unresolved-dependencies.md",
+    "concepts/essential-and-accidental-software-work.md",
+    "concepts/ai-assisted-software-development-verification-loop.md",
 }
 
 
