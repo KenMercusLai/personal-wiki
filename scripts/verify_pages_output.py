@@ -260,6 +260,25 @@ SOURCE_CONTRACTS = {
             "5张全部解析",
         },
     },
+    "yuanming-hu-ten-claude-code-agents": {
+        "derived": {
+            "wiki/concepts/parallel-coding-agent-worktree-orchestration/index.html",
+            "wiki/concepts/agent-operational-memory/index.html",
+            "wiki/concepts/ai-assisted-software-development-verification-loop/index.html",
+        },
+        "images": {
+            "worktree-parallel-agent-architecture.png": "用独立Git worktree运行多个编码代理并共享任务状态的架构图",
+        },
+        "phrases": {
+            "并行代理吞吐",
+            "权限与隔离边界",
+            "Git worktree",
+            "结构化日志",
+            "标准化软件的终结",
+            "不晚于2026-02-15",
+            "12张全部解析",
+        },
+    },
 }
 
 EXPECTED = set(BASE_EXPECTED)

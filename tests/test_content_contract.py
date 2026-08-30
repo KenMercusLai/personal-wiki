@@ -118,6 +118,14 @@ SOURCES = {
             "fred-brooks-mythical-man-month.jpg": "弗雷德·布鲁克斯演讲照片与《人月神话》封面的组合图",
         },
     },
+    "yuanming-hu-ten-claude-code-agents": {
+        "path": "sources/yuanming-hu-ten-claude-code-agents/index.md",
+        "url": "https://mp.weixin.qq.com/s/9qPD3gXj3HLmrKC64Q6fbQ",
+        "image_status": 'image_status: "12张全部解析；1张公开，11张因装饰性、个人界面、宣传或工具时效性省略；无private分类"',
+        "selected": {
+            "worktree-parallel-agent-architecture.png": "用独立Git worktree运行多个编码代理并共享任务状态的架构图",
+        },
+    },
 }
 
 EXPECTED_DERIVED = {
@@ -157,6 +165,8 @@ EXPECTED_DERIVED = {
     "concepts/learning-with-unresolved-dependencies.md",
     "concepts/essential-and-accidental-software-work.md",
     "concepts/ai-assisted-software-development-verification-loop.md",
+    "concepts/parallel-coding-agent-worktree-orchestration.md",
+    "concepts/agent-operational-memory.md",
 }
 
 
