@@ -3,12 +3,14 @@ title: "Minimum viable product validation"
 description: "Minimum viable product validation uses the smallest credible product, service, or demand test to learn whether a market wants the core value before a full build."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review", "323-startup-failure-post-mortems", "maderight-failed-startup-lessons"]
+source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review", "323-startup-failure-post-mortems", "maderight-failed-startup-lessons", "mind-the-product-outsourced-developers-lessons"]
 ---
 
-来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})；[323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}})；[4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}})
+来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})；[323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}})；[4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}})；[7 Lessons on Building Product with Outsourced Developers - Mind the Product]({{< relref "/wiki/sources/mind-the-product-outsourced-developers-lessons.md" >}})
 
 Minimum viable product validation 指用尽可能小但仍能交付或模拟核心价值的产品形态，验证用户是否真的需要某个解决方案。它关注的证据不是创始人觉得功能合理，而是用户是否注册、付款、留下邮箱、发起订单、反复使用，或在真实场景中表现出愿意继续采用的信号。
+
+Mind the Product 的外包开发文章补充了交付方式的角度：早期团队可以用外部开发者较低成本做出概念原型，把市场验证提前；但如果这种代码后续需要重构、交给内部团队继续维护，或在验证完成后直接丢弃，这些成本必须一开始就进入路线图和商业计划。这里的 MVP 价值来自便宜地学习，而不是来自便宜地获得长期产品代码。
 
 Maderight 的复盘把 MVP 验证进一步拆成假设管理。团队后来用一组固定问题追踪：当前要验证哪些产品市场匹配假设，用客户访谈、销售、落地页等什么方式测试，何时评估结果，需要先建设什么，正在做的工作为什么必要，上周测试得到什么，以及怎样加快学习速度。这个案例说明，MVP 不只是产品形态选择，也是一套防止日常运营吞掉学习目标的管理机制。
 
