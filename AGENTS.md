@@ -50,7 +50,9 @@ Quoted text fields must be non-empty strings, `updated` must be a real
 lists cannot substitute for text fields.
 When present, `source_date` preserves the source's non-empty display text. If it
 starts with `YYYY`, `YYYY-MM`, or `YYYY-MM-DD`, that leading calendar value must
-be real; a source-supplied annotation may follow it.
+be real; a source-supplied annotation may follow it. When the input supplies an
+ISO timestamp, write `source_date` as its `YYYY-MM-DD` calendar date only; never
+include the time or timezone.
 
 Route/output controls are forbidden, including `url`, `aliases`, `slug`,
 `draft`, `outputs`, `layout`, `build`, and framework equivalents. A source has

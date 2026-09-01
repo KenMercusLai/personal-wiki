@@ -29,6 +29,14 @@ class AgentIngestContractTest(unittest.TestCase):
         self.assertNotIn("immutable staged", normalized.lower())
         self.assertNotIn("repeat until it passes", normalized.lower())
 
+    def test_agent_contract_normalizes_iso_timestamp_to_source_date(self):
+        text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        normalized = " ".join(text.split())
+        self.assertIn(
+            "When the input supplies an ISO timestamp, write `source_date` as its `YYYY-MM-DD` calendar date only; never include the time or timezone",
+            normalized,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
