@@ -3,10 +3,10 @@ title: "Minimum viable product validation"
 description: "Minimum viable product validation uses the smallest credible product, service, or demand test to learn whether a market wants the core value before a full build."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review"]
+source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review", "323-startup-failure-post-mortems"]
 ---
 
-来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})
+来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})；[323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}})
 
 Minimum viable product validation 指用尽可能小但仍能交付或模拟核心价值的产品形态，验证用户是否真的需要某个解决方案。它关注的证据不是创始人觉得功能合理，而是用户是否注册、付款、留下邮箱、发起订单、反复使用，或在真实场景中表现出愿意继续采用的信号。
 
@@ -17,6 +17,8 @@ Software Brothers 的案例把 MVP 描述成一种学习机制。Facebook 先服
 CS183C 的规模化笔记从相反方向强化了同一判断：在产品市场匹配之前，公司不应急着招聘和扩张，而应先找到少数真正热爱产品的用户。Brian Chesky 对 Airbnb 早期工作的回顾说明，人工拜访房东、帮他们拍照和写第一批评价，本质上是在验证产品是否能产生足够强的需求。
 
 王子亭的 2018 年技术小结把同一逻辑放到业余项目的发布节奏中。DeployBeta 持续两年仍未达到对外发布标准，让项目难以获得反馈；Elecpass 先快速发布可用版本，后续长期自用，再集中时间发布 v3。这里的 MVP 验证不是创业市场测试，而是通过阶段性可用版本尽早进入真实使用状态，避免项目在功能扩张中失去反馈和维护动力。
+
+CB Insights 的创业失败汇编从反面强化了这个判断。许多公司不是缺少愿景或工程投入，而是太晚才发现用户不会高频使用、不会付出足够价格、不会改变既有习惯，或不会在竞争产品存在时继续留下来。Dinnr、IntroNet、FindIt、37Coins、App.net、Vidme、Besomebody、Wattage 等案例都说明，真正的 MVP 验证必须尽早观察行动证据，而不是把兴趣、媒体关注或内部信心当作市场证明。
 
 ## 判断标准
 
