@@ -3,10 +3,10 @@ title: "产品营销信息简化"
 description: "产品营销信息简化是在介绍新产品、新品类或关键差异时，把复杂能力压缩成受众能马上理解和复述的一句话、一个画面或一个具体收益。"
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["40-lessons-from-40-years-of-apple-ads", "mind-the-product-app-sticky-from-start", "anand-sanwal-54-screwups-startup-ceo"]
+source_keys: ["40-lessons-from-40-years-of-apple-ads", "mind-the-product-app-sticky-from-start", "anand-sanwal-54-screwups-startup-ceo", "8-pr-strategies-for-bootstrapped-startups"]
 ---
 
-来源：[40 Lessons from 40 Years of Apple Ads]({{< relref "/wiki/sources/40-lessons-from-40-years-of-apple-ads.md" >}})；[5 Product Design Tips: Making Your App Sticky From the Start]({{< relref "/wiki/sources/mind-the-product-app-sticky-from-start.md" >}})；[54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}})
+来源：[40 Lessons from 40 Years of Apple Ads]({{< relref "/wiki/sources/40-lessons-from-40-years-of-apple-ads.md" >}})；[5 Product Design Tips: Making Your App Sticky From the Start]({{< relref "/wiki/sources/mind-the-product-app-sticky-from-start.md" >}})；[54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}})；[8 PR Strategies for Bootstrapped Startups]({{< relref "/wiki/sources/8-pr-strategies-for-bootstrapped-startups.md" >}})
 
 产品营销信息简化适合用在受众还没有现成理解框架的时候。Mission.org 对 Apple 广告的回顾把 1977 年 Apple II 的 "Simplicity" 作为早期例子：个人电脑对大众仍然陌生，因此广告需要先解释它会怎样改变人们对电脑的想法，而不是堆叠复杂规格。
 
@@ -18,6 +18,8 @@ Mind the Product 的文章把同一原则用于 App 首次体验。它认为用�
 
 Anand Sanwal 的 CB Insights 复盘把简化问题放到 B2B 营销里。他曾用“best practices”“synergy”等术语让公司显得更正式，后来认为这与品牌语气相反；早期定价页还使用过过度可爱的套餐名，反而让客户更难判断产品价值。更直接、像人一样说话的文案，能让复杂数据产品更容易被理解和转述。
 
+PR 策略文章把同一原则用于媒体投递。它要求创业公司先把故事压缩成一句话，避免 buzzwords 和不必要的技术黑话，并说明要解决的问题、面向的人群或市场，以及方案的独特价值。这样的表达不是完整商业计划，而是让记者能迅速判断为什么这家公司值得报道。
+
 ## 判断问题
 
 - 受众是否已经理解这个品类，还是需要先知道它为什么存在。
@@ -25,3 +27,4 @@ Anand Sanwal 的 CB Insights 复盘把简化问题放到 B2B 营销里。他曾�
 - 广告是否在说明用户结果，而不是让受众自己从功能表里推理价值。
 - 复杂细节是否服务核心记忆点，而不是稀释它。
 - 术语、套餐名或“显得专业”的表达是否让客户更难复述真实价值。
+- 媒体 pitch 是否能在一句话里说明问题、人群、解决方案和报道理由。
