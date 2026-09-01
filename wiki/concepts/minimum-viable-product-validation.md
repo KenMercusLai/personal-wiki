@@ -2,11 +2,11 @@
 title: "Minimum viable product validation"
 description: "Minimum viable product validation uses the smallest credible product, service, or demand test to learn whether a market wants the core value before a full build."
 type: "concept"
-updated: "2026-09-01"
-source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling"]
+updated: "2026-09-02"
+source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review"]
 ---
 
-来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})
+来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})
 
 Minimum viable product validation 指用尽可能小但仍能交付或模拟核心价值的产品形态，验证用户是否真的需要某个解决方案。它关注的证据不是创始人觉得功能合理，而是用户是否注册、付款、留下邮箱、发起订单、反复使用，或在真实场景中表现出愿意继续采用的信号。
 
@@ -15,6 +15,8 @@ Software Brothers 的案例把 MVP 描述成一种学习机制。Facebook 先服
 这个概念也强调，MVP 的“最小”不等于随意削减质量。有效的最小版本仍然要抓住用户判断价值所需的关键体验：Dropbox 用视频展示文件同步结果，Buffer 用定价和排队页面测试购买意愿，Zappos 用人工买鞋履约来确认网上买鞋是否成立。MVP 的边界应围绕需要验证的假设设计，而不是围绕团队已经会做什么来设计。
 
 CS183C 的规模化笔记从相反方向强化了同一判断：在产品市场匹配之前，公司不应急着招聘和扩张，而应先找到少数真正热爱产品的用户。Brian Chesky 对 Airbnb 早期工作的回顾说明，人工拜访房东、帮他们拍照和写第一批评价，本质上是在验证产品是否能产生足够强的需求。
+
+王子亭的 2018 年技术小结把同一逻辑放到业余项目的发布节奏中。DeployBeta 持续两年仍未达到对外发布标准，让项目难以获得反馈；Elecpass 先快速发布可用版本，后续长期自用，再集中时间发布 v3。这里的 MVP 验证不是创业市场测试，而是通过阶段性可用版本尽早进入真实使用状态，避免项目在功能扩张中失去反馈和维护动力。
 
 ## 判断标准
 
