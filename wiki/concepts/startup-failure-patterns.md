@@ -3,12 +3,14 @@ title: "Startup failure patterns"
 description: "Startup failure patterns are recurring ways young companies collapse when funding, demand, timing, competition, regulation, or operational complexity break the business before it becomes self-sustaining."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["323-startup-failure-post-mortems"]
+source_keys: ["323-startup-failure-post-mortems", "maderight-failed-startup-lessons"]
 ---
 
-Source: [323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}})
+Sources: [323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}}); [4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}})
 
 Startup failure patterns are the repeated failure modes that appear across shutdown notices and post-mortems. The CB Insights compilation shows that startup death is rarely explained by a single mistake. A company can have good technology, press attention, venture backing, and sincere customer enthusiasm while still failing if the business cannot convert those signals into repeat use, revenue, financing, and operational control.
+
+Maderight adds a compact first-person version of the same pattern. It had accelerator validation, venture funding, a real operating business, and apparel production volume, but still shut down after three years without product-market fit. The post-mortem points to several learning failures: not using a hypothesis framework from day one, optimizing runway for time instead of test count, hiring sales leadership before the founder had learned the sales motion, and trying to keep both a service business and a product business alive at once.
 
 The clearest pattern is dependence on external capital before the business has proven enough economics to survive without it. Many companies shut down after a financing round, acquisition, or strategic investment collapsed late, leaving no runway for a new plan. This makes fundraising risk part of the product strategy: if a company needs the next round to manufacture, expand, or finish the product, missed timing can become fatal.
 
@@ -26,3 +28,4 @@ Finally, the compilation shows why startup risk is often systemic. Platform poli
 - The market requires education, infrastructure, or regulation to change faster than the company can wait.
 - A single platform, channel, supplier, partner, or regulator can change the company's survival odds.
 - The product creates operational complexity that software alone cannot absorb.
+- Conservative spending or legacy revenue protects calendar runway while slowing decisive product-market-fit learning.

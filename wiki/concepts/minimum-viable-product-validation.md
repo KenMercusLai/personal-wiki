@@ -3,12 +3,14 @@ title: "Minimum viable product validation"
 description: "Minimum viable product validation uses the smallest credible product, service, or demand test to learn whether a market wants the core value before a full build."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review", "323-startup-failure-post-mortems"]
+source_keys: ["software-brothers-successful-mvp-examples", "cs183c-16-lessons-on-scaling", "jysperm-2018-technical-year-review", "323-startup-failure-post-mortems", "maderight-failed-startup-lessons"]
 ---
 
-来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})；[323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}})
+来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[2018 年度小结（技术方面）]({{< relref "/wiki/sources/jysperm-2018-technical-year-review.md" >}})；[323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}})；[4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}})
 
 Minimum viable product validation 指用尽可能小但仍能交付或模拟核心价值的产品形态，验证用户是否真的需要某个解决方案。它关注的证据不是创始人觉得功能合理，而是用户是否注册、付款、留下邮箱、发起订单、反复使用，或在真实场景中表现出愿意继续采用的信号。
+
+Maderight 的复盘把 MVP 验证进一步拆成假设管理。团队后来用一组固定问题追踪：当前要验证哪些产品市场匹配假设，用客户访谈、销售、落地页等什么方式测试，何时评估结果，需要先建设什么，正在做的工作为什么必要，上周测试得到什么，以及怎样加快学习速度。这个案例说明，MVP 不只是产品形态选择，也是一套防止日常运营吞掉学习目标的管理机制。
 
 Software Brothers 的案例把 MVP 描述成一种学习机制。Facebook 先服务校园社交连接，Amazon 先卖书，Spotify 先验证音乐流媒体，Uber 先在旧金山连接 iPhone 用户和司机，Airbnb 先围绕一次设计会议验证短租需求。这些例子都没有从完整愿景开始，而是选择一个可以暴露核心需求的窄入口。
 
@@ -26,3 +28,4 @@ CB Insights 的创业失败汇编从反面强化了这个判断。许多公司�
 - 是否保留了产品最核心的价值承诺。
 - 是否推迟了库存、后台、移动端、扩张市场等尚未被验证的复杂度。
 - 是否能让团队从真实用户行为中决定下一步建设什么。
+- 是否预先定义了假设、测试方式和评估时间，而不是把运营收入或存活时间本身当作验证。
