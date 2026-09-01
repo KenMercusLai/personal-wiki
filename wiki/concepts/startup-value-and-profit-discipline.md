@@ -3,16 +3,18 @@ title: "Startup value and profit discipline"
 description: "Startup value and profit discipline filters startup advice through whether the business is delivering customer value and earning profit, treating other tactics as optional experiments."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["no-nonsense-startup-advice", "8-lessons-from-one-of-silicon-valleys-top-vcs-drift"]
+source_keys: ["no-nonsense-startup-advice", "8-lessons-from-one-of-silicon-valleys-top-vcs-drift", "mathilde-collin-nine-useful-pieces-of-advice"]
 ---
 
-Sources: [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started]({{< relref "/wiki/sources/no-nonsense-startup-advice.md" >}}); [8 Lessons From One of Silicon Valley's Top VCs | Drift]({{< relref "/wiki/sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md" >}})
+Sources: [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started]({{< relref "/wiki/sources/no-nonsense-startup-advice.md" >}}); [8 Lessons From One of Silicon Valley's Top VCs | Drift]({{< relref "/wiki/sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md" >}}); [9 Most Useful Pieces of Advice I've Received]({{< relref "/wiki/sources/mathilde-collin-nine-useful-pieces-of-advice.md" >}})
 
 Startup value and profit discipline is the habit of reducing startup advice to two survival requirements: create something valuable for a real customer and make a profit from it. The Groove source presents this as a guardrail against advice that turns one founder's tactic, one vendor's product, or one fashionable channel into a universal requirement.
 
 The Drift source adds a venture investor's version of the same filter. Pat Grady says companies do not exist to make founders or investors rich; they exist to solve a problem in a unique, compelling, and durable way. His advice to avoid hype, avoid chasing unicorn status, raise less money in many cases, and hire for the mission keeps attention on durable customer value instead of startup theater.
 
 The concept does not say tactics are useless. Marketing, support, partnerships, culture work, product work, and distribution experiments can matter, but their importance depends on whether they move the business toward value creation or profitable operation. Without that filter, founders can spend scarce time chasing guilt-inducing "must-do" lists before they know whether their current strategy works.
+
+Mathilde Collin's advice collection adds a benchmarking and advice-filter version. The source warns founders not to benchmark too heavily against other startups, because companies trying to do something different will often be strong in unusual areas and weaker in others. It also treats advice itself as a single data point whose original context should be requested before adoption.
 
 This discipline is useful because startup attention is finite. A tactic that is valuable in one company's context can become a distraction in another company if it interrupts a strategy that is still being tested. The source's operating advice is to keep experiments focused long enough to learn from them, instead of reacting to every external claim that the company is missing a necessary activity.
 
@@ -22,3 +24,4 @@ This discipline is useful because startup attention is finite. A tactic that is 
 - Does it improve the business's path to profit, pricing power, or sustainable economics?
 - Is the advice based on evidence from this company's context, or on someone else's story?
 - Would adopting the tactic interrupt a strategy that has not yet had enough time to show results?
+- Is the benchmark measuring a context similar enough to matter, or only making the company look abnormal?
