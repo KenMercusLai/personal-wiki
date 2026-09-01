@@ -3,10 +3,10 @@ title: "团队级工程生产力"
 description: "将工程产出的基本单位视为团队，而不是单个高产开发者或明星工程师。"
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["parker-thompson-ten-x-ing-your-team", "cs183c-16-lessons-on-scaling", "jeanette-head-picking-battles-software-developer", "grant-ammons-level-up-dev-team"]
+source_keys: ["parker-thompson-ten-x-ing-your-team", "cs183c-16-lessons-on-scaling", "jeanette-head-picking-battles-software-developer", "grant-ammons-level-up-dev-team", "asana-uplevel-code-review-skills"]
 ---
 
-来源：[10x-ing Your Team]({{< relref "/wiki/sources/parker-thompson-ten-x-ing-your-team.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[3 Strategies for Picking Your Battles as a Software Developer]({{< relref "/wiki/sources/jeanette-head-picking-battles-software-developer.md" >}})；[Grant Ammons 的工程团队学习实践]({{< relref "/wiki/sources/grant-ammons-level-up-dev-team.md" >}})
+来源：[10x-ing Your Team]({{< relref "/wiki/sources/parker-thompson-ten-x-ing-your-team.md" >}})；[16 lessons on scaling]({{< relref "/wiki/sources/cs183c-16-lessons-on-scaling.md" >}})；[3 Strategies for Picking Your Battles as a Software Developer]({{< relref "/wiki/sources/jeanette-head-picking-battles-software-developer.md" >}})；[Grant Ammons 的工程团队学习实践]({{< relref "/wiki/sources/grant-ammons-level-up-dev-team.md" >}})；[7 Ways to Uplevel Your Code Review Skills]({{< relref "/wiki/sources/asana-uplevel-code-review-skills.md" >}})
 
 团队级工程生产力指把优化对象从个人编码速度转向整个产品团队的有效产出。Parker Thompson 认为，当公司从验证产品需求进入快速扩张阶段后，问题不再只是找到少数特别强的工程师，而是让几十名工程师、设计师和产品经理能围绕同一产品目标稳定协作。
 
@@ -19,3 +19,5 @@ CS183C 笔记补充了规模化公司内部仍需小团队突破的角度。Eric
 Jeanette Head 的文章把团队级生产力落到日常分歧处理上。她提醒，团队既会因为缺少早期批评而让产品受损，也会因为代码评审或需求争论中的个人化表达而损害协作关系。能提升产品可靠性、可行性、稳定性或维护性的争论值得推动；纯粹风格差异或收益很小的改动则可能不值得消耗团队信任。
 
 Grant Ammons 的文章补充了能力建设的时间分配问题：如果技术领导者希望团队持续变强，就需要有意从日常交付中拿出时间给工程师共同学习。lunch and learn、共同观看技术视频、读书会和公开演讲训练，都是把个人成长转成团队共享能力和共同语言的机制。
+
+Asana engineering 的代码评审文章把同样的团队视角放进日常开发流程。它不把评审主要定义为一个人替另一个人找 bug 或执行风格偏好，而是强调让团队学习彼此的思考方式、传播最近改动的上下文，并确保出现问题时不只有作者一个人理解相关代码。代码评审因此成为共享所有权和团队吞吐量的一部分。

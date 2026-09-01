@@ -3,10 +3,10 @@ title: "Engineering disagreement triage"
 description: "在软件团队中判断何时推动、放手或刻意开启一次低胜率分歧的协作方法。"
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["jeanette-head-picking-battles-software-developer"]
+source_keys: ["jeanette-head-picking-battles-software-developer", "asana-uplevel-code-review-skills"]
 ---
 
-来源：[3 Strategies for Picking Your Battles as a Software Developer]({{< relref "/wiki/sources/jeanette-head-picking-battles-software-developer.md" >}})
+来源：[3 Strategies for Picking Your Battles as a Software Developer]({{< relref "/wiki/sources/jeanette-head-picking-battles-software-developer.md" >}})；[7 Ways to Uplevel Your Code Review Skills]({{< relref "/wiki/sources/asana-uplevel-code-review-skills.md" >}})
 
 Engineering disagreement triage 指软件团队在代码评审、需求讨论和产品取舍中，对分歧进行轻量分级：这个分歧能否被说服、是否值得消耗协作成本、以及升级讨论后会给产品或团队带来什么可见收益。
 
@@ -17,3 +17,5 @@ Jeanette Head 的核心判断是，工程争论不应以个人胜负为目标。
 在产品和业务讨论中，triage 的问题则变成收益是否足够明显。为了节省几小时而推翻业务需求，通常不值得；如果替代方案能节省一周工作量，或明显提升可靠性、可用性和产品可行性，就值得被带到桌面上。
 
 Head 还提醒，低胜率分歧不一定没有价值。一次没有被采纳的 UI 替代方案可能促成用户测试，一次代码争论可能让双方发现第三个更好的方案。关键是让争论围绕产品、代码和学习展开，而不是滑向“我不喜欢你的做法”这样的个人评价。
+
+Asana engineering 的文章给出了代码评审中的相近分级：除非评审者能证明存在 bug，否则应倾向于批准，并相信作者会处理简单命名、抽方法或去重建议。基础风格规则应交给 linter，而不是用人工评论消耗信任；如果评审者没有资格批准，也要明确说出并安排下一步，避免让作者在沉默中等待。
