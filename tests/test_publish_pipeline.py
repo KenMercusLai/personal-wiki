@@ -500,8 +500,17 @@ class ValidatorTest(unittest.TestCase):
 
     def test_repository_validator_accepts_current_live_worktree(self):
         report = validate_publish(ROOT)
-        self.assertGreaterEqual(report.pages, 1)
-        self.assertGreaterEqual(len(report.source_keys), 1)
+        expected_pages = sum(
+            1
+            for path in (ROOT / "wiki").rglob("*.md")
+            if path.name != "_index.md"
+        )
+        expected_sources = {
+            path.parent.name
+            for path in (ROOT / "wiki" / "sources").glob("*/index.md")
+        }
+        self.assertEqual(report.pages, expected_pages)
+        self.assertEqual(set(report.source_keys), expected_sources)
 
     def test_dynamic_artifact_oracle_includes_every_current_route_and_asset(self):
         self.add_source("future-source")
