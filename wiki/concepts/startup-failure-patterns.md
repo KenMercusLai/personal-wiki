@@ -3,12 +3,14 @@ title: "Startup failure patterns"
 description: "Startup failure patterns are recurring ways young companies collapse when funding, demand, timing, competition, regulation, or operational complexity break the business before it becomes self-sustaining."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["323-startup-failure-post-mortems", "maderight-failed-startup-lessons", "anand-sanwal-54-screwups-startup-ceo", "7-questions-founders-before-joining-startup"]
+source_keys: ["323-startup-failure-post-mortems", "maderight-failed-startup-lessons", "anand-sanwal-54-screwups-startup-ceo", "7-questions-founders-before-joining-startup", "99-vc-problems-but-a-batch-aint-one"]
 ---
 
-Sources: [323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}}); [4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}}); [54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}}); [7 Questions to Ask Founders Before Joining Their Startup]({{< relref "/wiki/sources/7-questions-founders-before-joining-startup.md" >}})
+Sources: [323 Startup Failure Post-Mortems]({{< relref "/wiki/sources/323-startup-failure-post-mortems.md" >}}); [4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}}); [54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}}); [7 Questions to Ask Founders Before Joining Their Startup]({{< relref "/wiki/sources/7-questions-founders-before-joining-startup.md" >}}); [99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns]({{< relref "/wiki/sources/99-vc-problems-but-a-batch-aint-one.md" >}})
 
 Startup failure patterns are the repeated failure modes that appear across shutdown notices and post-mortems. The CB Insights compilation shows that startup death is rarely explained by a single mistake. A company can have good technology, press attention, venture backing, and sincere customer enthusiasm while still failing if the business cannot convert those signals into repeat use, revenue, financing, and operational control.
+
+The 500 Startups portfolio-sizing source adds an investor-level view of the same base-rate problem. It estimates that 50-80% of investments never reach an exit or return less than 1X invested capital, while only a small tail becomes centaur or unicorn-scale companies. That distribution shows why failure is not an exceptional edge case in venture-backed startups; it is the expected majority outcome that portfolio construction must absorb.
 
 Maderight adds a compact first-person version of the same pattern. It had accelerator validation, venture funding, a real operating business, and apparel production volume, but still shut down after three years without product-market fit. The post-mortem points to several learning failures: not using a hypothesis framework from day one, optimizing runway for time instead of test count, hiring sales leadership before the founder had learned the sales motion, and trying to keep both a service business and a product business alive at once.
 
