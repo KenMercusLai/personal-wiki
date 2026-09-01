@@ -1,12 +1,12 @@
 ---
 title: "信息获取与知识输出流程"
-description: "通过随机漫步、聚焦阅读、主题研究、长文和课程输出，把碎片信息转化为可讲解知识的个人工作流。"
+description: "通过筛选输入、主题研究、长文、课程或讲解，把碎片信息转化为体系化、可讲解知识的个人工作流。"
 type: "concept"
 updated: "2026-09-01"
-source_keys: ["indigo-feynman-information-knowledge-output", "bernard-marr-timeless-productivity-habits"]
+source_keys: ["indigo-feynman-information-knowledge-output", "bernard-marr-timeless-productivity-habits", "program-think-systematic-learning"]
 ---
 
-来源：[INDIGO 的费曼学习法实践]({{< relref "/wiki/sources/indigo-feynman-information-knowledge-output.md" >}})、[提高工作效率的十条好习惯]({{< relref "/wiki/sources/bernard-marr-timeless-productivity-habits.md" >}})
+来源：[INDIGO 的费曼学习法实践]({{< relref "/wiki/sources/indigo-feynman-information-knowledge-output.md" >}})、[提高工作效率的十条好习惯]({{< relref "/wiki/sources/bernard-marr-timeless-productivity-habits.md" >}})、[编程随想的系统性学习方法]({{< relref "/wiki/sources/program-think-systematic-learning.md" >}})
 
 信息获取与知识输出流程把个人学习分成输入和输出两段。输入先通过随机阅读、社交媒体、邮件列表、播客和视频发现材料，再在明确创作主题后进入聚焦阅读，围绕少数主题筛选信息并沉淀标签。
 
@@ -15,3 +15,5 @@ source_keys: ["indigo-feynman-information-knowledge-output", "bernard-marr-timel
 这个流程的关键不是囤积材料，而是让输入服务于输出。收藏工具、阅读工具和笔记工具承担检索、摘录和链接管理，最终帮助学习者把杂乱信息转换为可复用的知识结构。
 
 Bernard Marr 的效率习惯把同一问题放到日常工作语境中：信息输入需要先精简来源，只保留重要、有价值的渠道，再借助 RSS 订阅和离线阅读工具提高输入质量；知识或工作输出则应保持简洁，尤其是在报告和邮件中优先表达重点。
+
+编程随想的来源用 DIKW 模型为这个流程补上层级区分：data 和 information 只有经过汇总、组织和理解，才可能变成较长寿、可成体系的 knowledge。费曼学习法中的讲解输出，则进一步要求学习者回答 WHY 型问题，检验自己是否真的从碎片信息进入了可运用的知识。
