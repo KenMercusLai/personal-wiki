@@ -2,15 +2,17 @@
 title: "AI 创作中的材料与品味"
 description: "当生成成本下降，作品质量更取决于真实材料和长期训练出的判断品味，AI 主要改变人与材料交互的效率。"
 type: "concept"
-updated: "2026-09-01"
-source_keys: ["hanyang-ai-guide-for-humanities-workers"]
+updated: "2026-09-02"
+source_keys: ["hanyang-ai-guide-for-humanities-workers", "roriri-persona-summary"]
 ---
 
-来源：[汉洋的 AI 使用指南]({{< relref "/wiki/sources/hanyang-ai-guide-for-humanities-workers.md" >}})
+来源：[汉洋的 AI 使用指南]({{< relref "/wiki/sources/hanyang-ai-guide-for-humanities-workers.md" >}})、[螺莉莉的人格摘要文章]({{< relref "/wiki/sources/roriri-persona-summary.md" >}})
 
 AI 创作中的材料与品味指这样一种判断：模型能力会变化，生成成本会下降，但作品质量仍然取决于使用者掌握的真实材料和长期训练出的判断能力。汉洋的来源把这一点概括为材料和品味共同决定作品质量。
 
 材料来自真实世界。来源认为，完整档案、口述史、实地采访和亲自整理的资料，往往比只依赖最新模型和网上公开资料更能支撑好作品。AI 的作用是提高人与材料交互的效率，例如清理格式、提取事实、压缩结构和生成候选，而不是替代材料本身。
+
+[螺莉莉的人格摘要文章]({{< relref "/wiki/sources/roriri-persona-summary.md" >}}) 补充了材料充分仍然不够的反例。作者把博客、社交媒体、频道内容和近十年群聊记录都交给模型，得到的肖像摘要仍只能模仿长度、emoji 和部分词汇，漏掉许多她认为关键的个人特质。这说明材料数量会影响拟合，但材料被如何提取、压缩和判断同样决定输出质量。
 
 品味来自长期训练。使用者需要知道什么值得写、哪些证据更硬、哪种叙述更有力量，也要愿意为材料付出体力劳动。当 AI 能廉价生成多个版本时，人的价值更集中在选题、结构、证据、品味和取舍上。
 
