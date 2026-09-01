@@ -31,7 +31,8 @@ Create or update only these forms:
 - Source page bundle: `wiki/sources/<slug>/index.md`
 - Concept: `wiki/concepts/<slug>.md`
 - Entity: `wiki/entities/<slug>.md`
-- Public media: selected input assets beside their source bundle's `index.md`
+- Public media: every source-image manifest asset beside its source bundle's
+  `index.md`
 
 Slugs, canonical concept/entity filenames, and `source_key` values use lowercase
 ASCII words separated by single hyphens. `_index.md` is reserved to exactly
@@ -76,10 +77,20 @@ an exact visible Hugo `relref` Markdown link of the form
 `[label]({{< relref "/wiki/sources/<source_key>.md" >}})`. Plain text,
 ordinary links, comments, and code do not count. Preserve useful existing
 synthesis when adding evidence; do not silently delete another source's
-contribution. Each selected input asset must be a non-SVG image whose bytes
-match its filename format and whose dimensions are reasonable. It must have a
-real visible Markdown image reference using only its relative filename;
-comments, code, ordinary links, and filename substrings do not select an asset.
+contribution. Every local or remote image referenced by the selected source
+must become a local validated asset in the source bundle; image omission is not
+an editorial choice. The parent-provided source-image manifest is exhaustive.
+Every filename in the source-image manifest must be present in the bundle and
+have a real visible Markdown image reference using only that relative filename.
+No bundle image or image reference may be absent from that manifest. Each asset
+must be a non-SVG image whose bytes match its filename format and whose
+dimensions are reasonable; comments, code, ordinary links, and filename
+substrings do not reference an asset.
+
+Set `image_status` to exactly `image_status: "none"` when the source-image
+manifest is empty, or exactly `image_status: "embedded-all:N"` when it contains
+`N` filenames. Values that authorize image loss, including `not_selected` and
+`remote-images-omitted`, are forbidden for new candidates.
 Only inline local Markdown image syntax is accepted. Reference-style images,
 absolute/protocol-relative/data URLs, remote resources, and raw image markup are
 forbidden. JPEG selection additionally requires a working `djpeg` or `ffmpeg`
@@ -99,8 +110,10 @@ Perform these steps for exactly the source file named by the parent prompt:
    bundle.
 4. Update or create only concepts and entities directly supported by this
    source. Every `source_keys` entry must have its required visible `relref`.
-5. Select input images only when necessary, valid, and visibly referenced from
-   the one source bundle. Never copy an unselected asset.
+5. Preserve every source-image manifest entry as a valid local bundle asset and
+   visibly reference every manifest filename from the one source page. Preserve
+   local and remote source references alike; never omit an image or leave a
+   remote canonical target.
 6. Inspect every changed and untracked path with
    `git status --porcelain=v1 --untracked-files=all`. The only source path must
    end exactly in `/index.md`; remove accidental suffixes, temporary files,

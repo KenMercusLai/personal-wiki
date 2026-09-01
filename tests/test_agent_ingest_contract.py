@@ -33,6 +33,20 @@ class AgentIngestContractTest(unittest.TestCase):
             normalized,
         )
 
+    def test_agent_contract_requires_lossless_source_image_preservation(self):
+        text = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        normalized = " ".join(text.split())
+        for requirement in (
+            "Every local or remote image referenced by the selected source",
+            "local validated asset in the source bundle",
+            "Every filename in the source-image manifest",
+            '`image_status: "none"`',
+            '`image_status: "embedded-all:N"`',
+            "`not_selected`",
+            "`remote-images-omitted`",
+        ):
+            self.assertIn(requirement, normalized)
+
 
 if __name__ == "__main__":
     unittest.main()
