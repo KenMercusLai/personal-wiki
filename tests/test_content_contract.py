@@ -48,6 +48,13 @@ class ContentContractTest(unittest.TestCase):
                 self.assertIn(source_key, source_keys, str(path))
                 self.assertIn(f"/wiki/sources/{source_key}.md", text, str(path))
 
+    def test_ingest_protocol_accepts_the_exact_parent_selected_source(self):
+        protocol = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        self.assertIn("Read exactly the source file named by the parent prompt", protocol)
+        self.assertNotIn("ephemeral input snapshot", protocol)
+        self.assertNotIn("## Lint workflow", protocol)
+        self.assertNotIn("python3 -m tools.validate_publish", protocol)
+
     def test_raw_source_directories_are_not_hugo_mounts(self):
         config = (ROOT / "hugo.toml").read_text(encoding="utf-8")
         self.assertNotIn("source = 'raw'", config)

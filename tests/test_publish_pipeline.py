@@ -574,15 +574,14 @@ class RepositoryIntegrationTest(unittest.TestCase):
     def test_ingest_protocol_defines_scriptbin_boundaries(self):
         protocol = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         for requirement in (
-            "llm_wiki_ingest",
-            "ephemeral input snapshot",
+            "personal_wiki_direct",
+            "Read exactly the source file named by the parent prompt",
             "wiki/**",
-            "python3 -m tools.validate_publish",
             "wiki/sources/<slug>/index.md",
             "selected input assets",
             "raw/private paths",
-            "must not commit",
-            "--baseline <observed-upstream-commit>",
+            "Do not commit",
+            "authoritative candidate-only",
             "exact visible Hugo `relref`",
             "Route/output controls are forbidden",
             "Do not require or fabricate `author`, `source_date`, or",
