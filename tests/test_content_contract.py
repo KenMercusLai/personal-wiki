@@ -54,6 +54,8 @@ class ContentContractTest(unittest.TestCase):
         self.assertNotIn("ephemeral input snapshot", protocol)
         self.assertNotIn("## Lint workflow", protocol)
         self.assertNotIn("python3 -m tools.validate_publish", protocol)
+        self.assertIn('updated: "YYYY-MM-DD"', protocol)
+        self.assertIn("Unquoted YAML dates are invalid", protocol)
 
     def test_raw_source_directories_are_not_hugo_mounts(self):
         config = (ROOT / "hugo.toml").read_text(encoding="utf-8")
