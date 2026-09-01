@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from collections.abc import Collection, Mapping
 from dataclasses import dataclass
 from datetime import date
 import json
@@ -152,9 +153,72 @@ def _image_targets(body: str, page: PurePosixPath) -> set[str]:
         raise ValidationError(f"{exc} in {page}") from exc
 
 
+def validate_source_image_manifest(
+    source_key: str,
+    meta: Mapping[str, object],
+    body: str,
+    manifest_filenames: Collection[str],
+    inventory: Mapping[PurePosixPath, bytes],
+) -> None:
+    """Enforce the lossless image contract for one staged ingest candidate."""
+    page = PurePosixPath("sources") / source_key / "index.md"
+    if isinstance(manifest_filenames, (str, bytes)):
+        raise ValidationError(f"source image manifest must be a filename collection in {page}")
+    filenames = tuple(manifest_filenames)
+    for filename in filenames:
+        relative = PurePosixPath(filename) if isinstance(filename, str) else None
+        if (
+            relative is None
+            or not filename
+            or relative.name != filename
+            or filename in {".", ".."}
+            or relative.suffix.casefold() not in {".png", ".gif", ".jpg", ".jpeg", ".webp"}
+        ):
+            raise ValidationError(f"invalid source image manifest filename in {page}: {filename!r}")
+    if len(filenames) != len(set(filenames)):
+        raise ValidationError(f"duplicate source image manifest filename in {page}")
+    _assert_casefold_unique(list(filenames), label="source image manifest filename")
+
+    expected_status = "none" if not filenames else f"embedded-all:{len(filenames)}"
+    if meta.get("image_status") != expected_status:
+        raise ValidationError(
+            f"image_status must be {expected_status} for source image manifest in {page}"
+        )
+    expected = set(filenames)
+    targets = _image_targets(body, page)
+    missing_references = sorted(expected - targets)
+    if missing_references:
+        raise ValidationError(
+            f"every manifest filename must be referenced by a visible local Markdown image in {page}: "
+            + ", ".join(missing_references)
+        )
+    unexpected_references = sorted(targets - expected)
+    if unexpected_references:
+        raise ValidationError(
+            f"image reference is absent from source image manifest in {page}: "
+            + ", ".join(unexpected_references)
+        )
+    bundle_prefix = PurePosixPath("sources") / source_key
+    actual_assets = {
+        relative.name
+        for relative in inventory
+        if relative.parent == bundle_prefix and relative.suffix.casefold() != ".md"
+    }
+    if actual_assets != expected:
+        missing_assets = sorted(expected - actual_assets)
+        unexpected_assets = sorted(actual_assets - expected)
+        details = []
+        if missing_assets:
+            details.append("missing " + ", ".join(missing_assets))
+        if unexpected_assets:
+            details.append("unexpected " + ", ".join(unexpected_assets))
+        raise ValidationError(f"source image manifest does not match bundle assets in {page}: {'; '.join(details)}")
+
+
 def validate_publish(
     repository: Path | str = ".", *, baseline: str | None = None,
     inventory: dict[PurePosixPath, bytes] | None = None,
+    source_image_manifests: Mapping[str, Collection[str]] | None = None,
 ) -> ValidationReport:
     root = Path(repository).resolve()
     wiki = root / "wiki"
@@ -271,6 +335,13 @@ def validate_publish(
                 raise ValidationError(
                     f"image references must be local validated assets in {page}: {target}"
                 )
+
+    if source_image_manifests is not None:
+        for key, manifest in source_image_manifests.items():
+            if key not in source_meta:
+                raise ValidationError(f"source image manifest has no candidate source bundle: {key}")
+            _page, meta, body = source_meta[key]
+            validate_source_image_manifest(key, meta, body, manifest, inventory)
 
     assets: list[str] = []
     for relative in sorted(path for path in inventory if path.suffix != ".md"):

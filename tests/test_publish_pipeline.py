@@ -229,6 +229,87 @@ class ValidatorTest(unittest.TestCase):
         self.assertEqual(report.source_keys, ("brand-new-source",))
         self.assertEqual(report.pages, 2)
 
+    def test_strict_candidate_rejects_legacy_omission_status_for_empty_manifest(self):
+        self.add_source()
+
+        with self.assertRaisesRegex(ValidationError, "image_status must be none"):
+            validate_publish(
+                self.root,
+                source_image_manifests={"brand-new-source": ()},
+            )
+
+    def test_strict_candidate_requires_every_manifest_filename_to_be_referenced(self):
+        self.add_source()
+        page = self.wiki / "sources" / "brand-new-source" / "index.md"
+        page.write_text(
+            page.read_text(encoding="utf-8").replace(
+                'image_status: "原文没有图片引用"',
+                'image_status: "embedded-all:1"',
+            ),
+            encoding="utf-8",
+        )
+        (page.parent / "source-image.png").write_bytes(png_1x1())
+
+        with self.assertRaisesRegex(ValidationError, "manifest filename must be referenced"):
+            validate_publish(
+                self.root,
+                source_image_manifests={"brand-new-source": ("source-image.png",)},
+            )
+
+    def test_strict_candidate_accepts_exact_lossless_image_bundle(self):
+        self.add_source()
+        page = self.wiki / "sources" / "brand-new-source" / "index.md"
+        page.write_text(
+            page.read_text(encoding="utf-8").replace(
+                'image_status: "原文没有图片引用"',
+                'image_status: "embedded-all:1"',
+            ) + "\n![source image](source-image.png)\n",
+            encoding="utf-8",
+        )
+        (page.parent / "source-image.png").write_bytes(png_1x1())
+
+        report = validate_publish(
+            self.root,
+            source_image_manifests={"brand-new-source": ("source-image.png",)},
+        )
+
+        self.assertEqual(report.assets, ("wiki/sources/brand-new-source/source-image.png",))
+
+    def test_strict_candidate_rejects_image_absent_from_manifest(self):
+        self.add_source()
+        page = self.wiki / "sources" / "brand-new-source" / "index.md"
+        page.write_text(
+            page.read_text(encoding="utf-8").replace(
+                'image_status: "原文没有图片引用"',
+                'image_status: "embedded-all:1"',
+            ) + "\n![one](one.png)\n![two](two.png)\n",
+            encoding="utf-8",
+        )
+        (page.parent / "one.png").write_bytes(png_1x1())
+        (page.parent / "two.png").write_bytes(png_1x1())
+
+        with self.assertRaisesRegex(ValidationError, "absent from source image manifest"):
+            validate_publish(
+                self.root,
+                source_image_manifests={"brand-new-source": ("one.png",)},
+            )
+
+    def test_strict_candidate_rejects_unsafe_or_duplicate_manifest_filenames(self):
+        self.add_source()
+        bad_manifests = (
+            ("../escape.png",),
+            ("https://remote.example/image.png",),
+            ("one.svg",),
+            ("one.png", "one.png"),
+            ("One.png", "one.png"),
+        )
+        for manifest in bad_manifests:
+            with self.subTest(manifest=manifest), self.assertRaises(ValidationError):
+                validate_publish(
+                    self.root,
+                    source_image_manifests={"brand-new-source": manifest},
+                )
+
     def test_validator_rejects_remote_markdown_image_references(self):
         self.add_source()
         page = self.wiki / "sources" / "brand-new-source" / "index.md"
@@ -578,7 +659,7 @@ class RepositoryIntegrationTest(unittest.TestCase):
             "Read exactly the source file named by the parent prompt",
             "wiki/**",
             "wiki/sources/<slug>/index.md",
-            "selected input assets",
+            "source-image manifest asset",
             "raw/private paths",
             "Do not commit",
             "authoritative candidate-only",
