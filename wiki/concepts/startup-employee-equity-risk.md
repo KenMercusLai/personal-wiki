@@ -1,16 +1,18 @@
 ---
 title: "Startup employee equity risk"
-description: "Startup employee equity risk is the chance that options or shares never become liquid, survive vesting and preference terms, or justify a lower cash salary."
+description: "Startup employee equity risk is the chance that options or shares never become liquid, survive vesting and preference terms, or justify a lower cash salary or multi-year career bet."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["whilewest-4-hard-truths-about-equity"]
+source_keys: ["whilewest-4-hard-truths-about-equity", "7-questions-founders-before-joining-startup"]
 ---
 
-Source: [4 Hard Truths about Equity]({{< relref "/wiki/sources/whilewest-4-hard-truths-about-equity.md" >}})
+Sources: [4 Hard Truths about Equity]({{< relref "/wiki/sources/whilewest-4-hard-truths-about-equity.md" >}}); [7 Questions to Ask Founders Before Joining Their Startup]({{< relref "/wiki/sources/7-questions-founders-before-joining-startup.md" >}})
 
 Startup employee equity risk is the gap between a grant's imagined future value and what an employee can actually control, sell, or spend today. The whilewest.com source argues that employee equity is usually a contingent upside claim rather than cash-equivalent compensation.
 
 The risk starts with outcome uncertainty. The source's Slack example shows how an apparently bad equity sale can be reasonable at the time: before the pivot from Tiny Speck to Slack, the company looked like an unsuccessful game studio, so liquid cash could be a rational choice. Winners are obvious in hindsight, but employees must decide before the company outcome is known.
+
+The startup joining source adds that outcome uncertainty is not the same as helplessness. A candidate cannot know the future, but they can ask about cash, burn, runway, investors, founder qualifications, board structure, early employee quality, milestones, and belief in the idea before accepting years of career and compensation risk.
 
 The risk also comes from contract structure. One-year cliffs, termination before vesting, liquidation preferences, and secondary-sale access can all separate nominal ownership from practical wealth. The article stresses that founders and investors often have more ways to use or sell equity than employees do.
 
@@ -20,6 +22,7 @@ In compensation decisions, the concept implies that equity should be priced as r
 
 - The offer presents future exit math without showing current liquidity or downside cases.
 - The employee must accept lower salary for equity that cannot be sold or spent.
+- The company treats equity as a lottery-like bonus while avoiding concrete questions about runway, governance, or traction.
 - Vesting cliffs or termination rules can remove the grant before ownership is secure.
 - Investor preferences may absorb exit proceeds before common shareholders are paid.
 - Founders or investors can access secondary liquidity while ordinary employees cannot.
