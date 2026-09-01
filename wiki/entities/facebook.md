@@ -1,13 +1,13 @@
 ---
 title: "Facebook"
-description: "社交平台；相关来源分别把 Facebook 作为早期单功能 MVP、移动迁移、Messenger 增长迁移和 App Store 榜单竞争者。"
+description: "社交平台；相关来源分别把 Facebook 作为早期单功能 MVP、移动迁移、Messenger 增长迁移、App Store 榜单竞争者和数字媒体平台收入对象。"
 type: "entity"
 updated: "2026-09-02"
-source_keys: ["software-brothers-successful-mvp-examples", "benedict-evans-16-mobile-theses", "51-examples-growth-hacking-strategies", "sensor-tower-number-one-iphone-apps-top-25"]
+source_keys: ["software-brothers-successful-mvp-examples", "benedict-evans-16-mobile-theses", "51-examples-growth-hacking-strategies", "sensor-tower-number-one-iphone-apps-top-25", "nine-boxes"]
 entity_kind: "company"
 ---
 
-来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})、[16 mobile theses]({{< relref "/wiki/sources/benedict-evans-16-mobile-theses.md" >}})、[51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses]({{< relref "/wiki/sources/51-examples-growth-hacking-strategies.md" >}})、[74% of No. 1 iPhone Apps Don't Last a Month in the Top 25]({{< relref "/wiki/sources/sensor-tower-number-one-iphone-apps-top-25.md" >}})
+来源：[15+ Examples of Successful MVPs - Startups & Web Pages]({{< relref "/wiki/sources/software-brothers-successful-mvp-examples.md" >}})、[16 mobile theses]({{< relref "/wiki/sources/benedict-evans-16-mobile-theses.md" >}})、[51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses]({{< relref "/wiki/sources/51-examples-growth-hacking-strategies.md" >}})、[74% of No. 1 iPhone Apps Don't Last a Month in the Top 25]({{< relref "/wiki/sources/sensor-tower-number-one-iphone-apps-top-25.md" >}})、[9 Boxes]({{< relref "/wiki/sources/nine-boxes.md" >}})
 
 Software Brothers 将 Facebook 的早期形态 Thefacebook 作为 MVP 案例。来源称，这个早期产品主要连接同一大学或班级里的学生，并允许他们在留言板上发布信息。
 
@@ -18,3 +18,5 @@ Software Brothers 将 Facebook 的早期形态 Thefacebook 作为 MVP 案例。�
 增长黑客来源把 Facebook Messenger 作为强制迁移式增长案例。文章称，Facebook 逐步关闭主应用中的移动消息功能，要求用户下载 Messenger，从而把既有用户基础迁移到独立消息产品，并为后续聊天机器人和广告能力铺路。
 
 Sensor Tower 的来源从 App Store 榜单竞争角度提到 Facebook。文章认为，许多首次冲到下载榜 No. 1 的应用很快跌出前 25，一个重要障碍是 Facebook、Instagram、Snapchat、Messenger 等大型应用凭借品牌认知和营销预算长期占据榜单注意力。
+
+BuzzFeed 的 memo 则把 Facebook 放在平台与出版方的商业关系中。来源认为 Facebook 和 Google 等平台吸收了数字广告经济中的主要收益，需要更公平地奖励有价值内容；同时，Facebook 也是 BuzzFeed 已经产生直接平台收入的对象之一。
