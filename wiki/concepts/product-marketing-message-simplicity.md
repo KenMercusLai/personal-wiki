@@ -3,10 +3,10 @@ title: "产品营销信息简化"
 description: "产品营销信息简化是在介绍新产品、新品类或关键差异时，把复杂能力压缩成受众能马上理解和复述的一句话、一个画面或一个具体收益。"
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["40-lessons-from-40-years-of-apple-ads", "mind-the-product-app-sticky-from-start"]
+source_keys: ["40-lessons-from-40-years-of-apple-ads", "mind-the-product-app-sticky-from-start", "anand-sanwal-54-screwups-startup-ceo"]
 ---
 
-来源：[40 Lessons from 40 Years of Apple Ads]({{< relref "/wiki/sources/40-lessons-from-40-years-of-apple-ads.md" >}})；[5 Product Design Tips: Making Your App Sticky From the Start]({{< relref "/wiki/sources/mind-the-product-app-sticky-from-start.md" >}})
+来源：[40 Lessons from 40 Years of Apple Ads]({{< relref "/wiki/sources/40-lessons-from-40-years-of-apple-ads.md" >}})；[5 Product Design Tips: Making Your App Sticky From the Start]({{< relref "/wiki/sources/mind-the-product-app-sticky-from-start.md" >}})；[54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}})
 
 产品营销信息简化适合用在受众还没有现成理解框架的时候。Mission.org 对 Apple 广告的回顾把 1977 年 Apple II 的 "Simplicity" 作为早期例子：个人电脑对大众仍然陌生，因此广告需要先解释它会怎样改变人们对电脑的想法，而不是堆叠复杂规格。
 
@@ -16,9 +16,12 @@ source_keys: ["40-lessons-from-40-years-of-apple-ads", "mind-the-product-app-sti
 
 Mind the Product 的文章把同一原则用于 App 首次体验。它认为用户并不关心产品有多先进，而是关心自己能得到什么收益；首屏和早期文案应先说明安全感、便利、安心等结果，再让技术特性作为支撑出现。
 
+Anand Sanwal 的 CB Insights 复盘把简化问题放到 B2B 营销里。他曾用“best practices”“synergy”等术语让公司显得更正式，后来认为这与品牌语气相反；早期定价页还使用过过度可爱的套餐名，反而让客户更难判断产品价值。更直接、像人一样说话的文案，能让复杂数据产品更容易被理解和转述。
+
 ## 判断问题
 
 - 受众是否已经理解这个品类，还是需要先知道它为什么存在。
 - 产品最值得记住的差异是否能被压缩成一个短句或一个画面。
 - 广告是否在说明用户结果，而不是让受众自己从功能表里推理价值。
 - 复杂细节是否服务核心记忆点，而不是稀释它。
+- 术语、套餐名或“显得专业”的表达是否让客户更难复述真实价值。
