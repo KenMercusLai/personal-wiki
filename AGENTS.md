@@ -50,9 +50,11 @@ Front matter uses the exact per-type allowlists below; no other key is accepted:
 
 Quoted text fields must be non-empty strings, `updated` must be a real
 `YYYY-MM-DD` calendar date, `featured` is boolean, `weight` is an integer, and
-`source_keys` is a non-empty list of non-empty strings. Write date-valued strings
-with quotes, for example `updated: "YYYY-MM-DD"`. Unquoted YAML dates are invalid.
-Booleans, integers, or lists cannot substitute for text fields.
+`source_keys` is a non-empty list of non-empty strings. Write it in JSON-style
+inline syntax, for example `source_keys: ["source-key"]`. Every source_keys item
+must be double-quoted. Write date-valued strings with quotes, for example
+`updated: "YYYY-MM-DD"`. Unquoted YAML dates are invalid. Booleans, integers, or
+lists cannot substitute for text fields.
 When present, `source_date` preserves the source's non-empty display text. If it
 starts with `YYYY`, `YYYY-MM`, or `YYYY-MM-DD`, that leading calendar value must
 be real; a source-supplied annotation may follow it. When the input supplies an

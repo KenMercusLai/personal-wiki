@@ -50,12 +50,15 @@ class ContentContractTest(unittest.TestCase):
 
     def test_ingest_protocol_accepts_the_exact_parent_selected_source(self):
         protocol = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        normalized = " ".join(protocol.split())
         self.assertIn("Read exactly the source file named by the parent prompt", protocol)
         self.assertNotIn("ephemeral input snapshot", protocol)
         self.assertNotIn("## Lint workflow", protocol)
         self.assertNotIn("python3 -m tools.validate_publish", protocol)
         self.assertIn('updated: "YYYY-MM-DD"', protocol)
         self.assertIn("Unquoted YAML dates are invalid", protocol)
+        self.assertIn('source_keys: ["source-key"]', protocol)
+        self.assertIn("Every source_keys item must be double-quoted", normalized)
 
     def test_raw_source_directories_are_not_hugo_mounts(self):
         config = (ROOT / "hugo.toml").read_text(encoding="utf-8")
