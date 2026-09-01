@@ -566,11 +566,11 @@ class RepositoryIntegrationTest(unittest.TestCase):
         protocol = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         for requirement in (
             "llm_wiki_ingest",
-            "immutable staged input",
+            "ephemeral input snapshot",
             "wiki/**",
             "python3 -m tools.validate_publish",
             "wiki/sources/<slug>/index.md",
-            "selected staged assets",
+            "selected input assets",
             "raw/private paths",
             "must not commit",
             "--baseline <observed-upstream-commit>",
