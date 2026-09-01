@@ -2,11 +2,11 @@
 title: "系统学习中的媒介选择"
 description: "根据知识复杂度选择能承载广度、深度和反复理解的媒介，尤其重视书籍在系统学习中的作用。"
 type: "concept"
-updated: "2026-09-01"
-source_keys: ["program-think-systematic-learning", "hulatu-forward-reference-learning-friction"]
+updated: "2026-09-02"
+source_keys: ["program-think-systematic-learning", "hulatu-forward-reference-learning-friction", "grant-ammons-level-up-dev-team"]
 ---
 
-来源：[编程随想的系统性学习方法]({{< relref "/wiki/sources/program-think-systematic-learning.md" >}})、[胡拉图的前置引用学习卡顿文章]({{< relref "/wiki/sources/hulatu-forward-reference-learning-friction.md" >}})
+来源：[编程随想的系统性学习方法]({{< relref "/wiki/sources/program-think-systematic-learning.md" >}})、[胡拉图的前置引用学习卡顿文章]({{< relref "/wiki/sources/hulatu-forward-reference-learning-friction.md" >}})、[Grant Ammons 的工程团队学习实践]({{< relref "/wiki/sources/grant-ammons-level-up-dev-team.md" >}})
 
 系统学习中的媒介选择，是这篇来源解释复杂学习成败的第一层条件。作者借 McLuhan 的媒介观点指出，知识越复杂、越艰深，媒介形态越会影响学习者能否获得有组织的广度和深度。
 
@@ -15,3 +15,5 @@ source_keys: ["program-think-systematic-learning", "hulatu-forward-reference-lea
 在书籍内部，来源又区分通俗性读物、入门性读物和专题性读物。通俗性读物适合外行建立初步直觉，入门性读物负责覆盖领域广度和适中深度，专题性读物则面向具体分支追求深度。选书时，作者强调精品筛选、多样化视角和写作风格匹配，避免被低质量材料或单一流派限制理解。
 
 胡拉图的来源从前置引用的角度补充了媒介选择中的阅读体验差异：入门书往往比专业书更容易读下去，不只是因为内容浅，也因为它们减少、弱化或具象化了过早出现的专业概念。对学习者来说，材料的难度还体现在它是否允许自己先带着模糊继续推进，并在第二遍、后续轮次中补足理解。
+
+Grant Ammons 的文章把媒介选择放进工程团队语境。视频和书籍不只被当作个人输入材料，而是被安排成共同观看、暂停讨论、分段阅读和读书会复盘的团队活动。这里的选择标准除了材料本身的深度，还包括它能否引发讨论、形成共同语言，并让工程师把测试、设计、业务和领导力经验转成团队共享知识。
