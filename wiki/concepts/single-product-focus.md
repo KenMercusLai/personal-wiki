@@ -3,10 +3,10 @@ title: "Single-product focus"
 description: "Single-product focus favors concentrating scarce maker time on one proven product or strategic path over spreading effort across tempting alternatives."
 type: "concept"
 updated: "2026-09-02"
-source_keys: ["2023-focusing-on-a-single-product-pays-off", "3-years-as-a-one-man-startup", "maderight-failed-startup-lessons", "anand-sanwal-54-screwups-startup-ceo"]
+source_keys: ["2023-focusing-on-a-single-product-pays-off", "3-years-as-a-one-man-startup", "maderight-failed-startup-lessons", "anand-sanwal-54-screwups-startup-ceo", "no-nonsense-startup-advice"]
 ---
 
-Sources: [2023: Focusing on a single product pays off]({{< relref "/wiki/sources/2023-focusing-on-a-single-product-pays-off.md" >}}); [3 Years as a One Man Startup]({{< relref "/wiki/sources/3-years-as-a-one-man-startup.md" >}}); [4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}}); [54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}})
+Sources: [2023: Focusing on a single product pays off]({{< relref "/wiki/sources/2023-focusing-on-a-single-product-pays-off.md" >}}); [3 Years as a One Man Startup]({{< relref "/wiki/sources/3-years-as-a-one-man-startup.md" >}}); [4 Lessons From a Failed Startup - From and For First Time Founders]({{< relref "/wiki/sources/maderight-failed-startup-lessons.md" >}}); [54 Screwups as a Startup CEO]({{< relref "/wiki/sources/anand-sanwal-54-screwups-startup-ceo.md" >}}); [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started]({{< relref "/wiki/sources/no-nonsense-startup-advice.md" >}})
 
 Single-product focus is the strategy of continuing to improve one product with evidence of traction instead of repeatedly starting unrelated products in search of diversification. In the OnlineOrNot source, the contrast is with the indie-maker "small bets" idea: launching many products may look diversified, but each new product repeats the hardest work of finding users, positioning the product, and reaching the first meaningful revenue.
 
@@ -15,6 +15,8 @@ Steve Ridout's Readlang update adds a lower-revenue version of the same pattern.
 Maderight adds a pre-product-market-fit version. The company had repeat service revenue from existing customers while new customers were beginning to adopt its technology product. Choosing to do both protected the current revenue stream, but it split time and resources enough that both efforts suffered. In this setting, focus is not only about avoiding unrelated products; it can require choosing between two plausible operating models when each one needs different customers, processes, and attention.
 
 Anand Sanwal adds a management-attention version. At CB Insights, distraction came from fads, small opportunities, competitor anxiety, new acquisition channels, networking, integrations, and low-quality leads. The lesson is not only to keep one product alive, but to exploit what is already working before chasing the next seemingly clever path.
+
+The Groove source adds an advice-filter version of focus. It argues that a business only truly needs to create value for a customer and make a profit; every other alleged "must-do" tactic should be treated as negotiable until evidence shows it is working. In this form, focus protects experiments already underway from guilt-driven tactic chasing.
 
 The operating reason is compounding learning. The article says that OnlineOrNot improvements can build on one another: fixing one adoption problem creates a small gain, then improving that fix can create more gains. A product that stays alive long enough also accumulates customer memory and delayed feedback, such as rejected prospects returning later, early free users converting, and long-tail bugs becoming visible only after months of use.
 
@@ -29,3 +31,4 @@ The concept does not reject risk management. Instead, it shifts the risk control
 - Current revenue may still be unattractive, but usage, customer value, or growth rate provide a concrete reason to keep investing in the same product.
 - Two paths both show promise, but serving both would divide the same scarce people across incompatible sales, service, and product-learning loops.
 - The team keeps inventing new channels or reacting to competitors while underinvesting in a channel, customer segment, or product loop that already works.
+- A new tactic is called mandatory without showing how it improves customer value, profit, or a strategy the team is already testing.
