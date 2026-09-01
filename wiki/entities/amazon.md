@@ -1,9 +1,9 @@
 ---
 title: "Amazon"
-description: "公司；来源分别借 Amazon 六页备忘录讨论写作流程价值，并用其早期在线书店说明 MVP 可以从清晰品类切入。"
+description: "公司；来源分别借 Amazon 讨论写作流程、早期在线书店 MVP，并用 Kindle Store 与 1-click 说明低摩擦内容购买。"
 type: "entity"
-updated: "2026-09-01"
-source_keys: ["sinofsky-writing-is-thinking-annotated-twitter-thread", "software-brothers-successful-mvp-examples"]
+updated: "2026-09-02"
+source_keys: ["sinofsky-writing-is-thinking-annotated-twitter-thread", "software-brothers-successful-mvp-examples", "david-humphrey-402-payment-required"]
 entity_kind: "company"
 ---
 
@@ -18,3 +18,7 @@ Amazon 在这篇来源中作为写作型管理流程的代表被讨论。Sinofsk
 Software Brothers 将 Amazon 的早期在线书店作为 MVP 案例。文章称，Amazon 在 1994 年先以低价图书和简单网页设计切入，挑战仍以线下门店为主的图书零售商。
 
 这个来源中的 Amazon 说明，MVP 可以先从一个明确品类验证渠道和购买行为，再逐步扩展到更大的零售业务，而不是一开始就覆盖完整商业愿景。
+
+来源：[402: Payment Required]({{< relref "/wiki/sources/david-humphrey-402-payment-required.md" >}})
+
+David Humphrey 用 Kindle Store 和 1-click 购买说明内容付费可以做到低摩擦。用户在网页上找到想读的书，点击明确的购买按钮后获得访问权；这个模式被文章用来类比浏览器中介的 Web 内容购买、租用或订阅。
