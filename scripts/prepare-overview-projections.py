@@ -72,12 +72,29 @@ def _digest_value(value: object) -> str:
     return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
 
 
+def _reject_duplicate_json_keys(pairs: list[tuple[str, object]]) -> dict[str, object]:
+    value: dict[str, object] = {}
+    for key, item in pairs:
+        if key in value:
+            raise ValueError(f"duplicate JSON key: {key}")
+        value[key] = item
+    return value
+
+
+def _reject_invalid_json_constant(value: str) -> object:
+    raise ValueError(f"invalid JSON constant: {value}")
+
+
 def _load_json_object(path: Path, label: str) -> dict[str, object]:
     if path.is_symlink() or not path.is_file():
         raise ValueError(f"topic synthesis bundle is missing {label}")
     try:
-        value = json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as exc:
+        value = json.loads(
+            path.read_text(encoding="utf-8"),
+            object_pairs_hook=_reject_duplicate_json_keys,
+            parse_constant=_reject_invalid_json_constant,
+        )
+    except (json.JSONDecodeError, ValueError) as exc:
         raise ValueError(f"topic synthesis bundle has invalid {label}") from exc
     if not isinstance(value, dict):
         raise ValueError(f"topic synthesis bundle {label} must be an object")
@@ -326,10 +343,7 @@ def _compact(
     manifest_path = base / "manifest.json"
     if current.is_symlink() or manifest_path.is_symlink() or not current.is_file() or not manifest_path.is_file():
         raise ValueError("compact synthesis current.md and manifest.json are required")
-    try:
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as exc:
-        raise ValueError("compact synthesis manifest is invalid") from exc
+    manifest = _load_json_object(manifest_path, "manifest")
     if not isinstance(manifest, dict) or manifest.get("schema_version") != 1 or manifest.get("generated") is not True:
         raise ValueError("compact synthesis manifest has an unsupported schema")
     if set(manifest) != {

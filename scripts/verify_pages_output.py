@@ -906,7 +906,17 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
         if not is_generated_text_artifact(path):
             continue
         raw = path.read_bytes()
-        if b"[[" in raw:
+        decoded = raw.decode("utf-8")
+        for _ in range(16):
+            unescaped = html.unescape(decoded)
+            if unescaped == decoded:
+                break
+            decoded = unescaped
+        else:
+            raise ValueError(
+                f"{path.relative_to(public)}: excessive entity encoding in generated text"
+            )
+        if "[[" in decoded:
             raise ValueError(
                 f"{path.relative_to(public)}: unresolved canonical syntax leaked into generated text"
             )

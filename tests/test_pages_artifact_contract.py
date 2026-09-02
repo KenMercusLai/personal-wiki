@@ -101,6 +101,19 @@ class PagesArtifactContractTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "unresolved canonical syntax"):
                 verifier.verify_site(copied, ROOT)
 
+    def test_entity_encoded_wikilink_in_non_html_public_text_is_rejected(self):
+        verifier = load_verifier("personal_artifact_encoded_text_wikilink")
+        with tempfile.TemporaryDirectory() as td:
+            copied = Path(td) / "public"
+            shutil.copytree(PUBLIC, copied)
+            (copied / "index.xml").unlink(missing_ok=True)
+            (copied / "leaked-feed.xml").write_text(
+                "<rss><description>See &#91;&#91;AIProductionPipeline&#93;&#93;</description></rss>\n",
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "unresolved canonical syntax"):
+                verifier.verify_site(copied, ROOT)
+
     def test_section_scoped_schema_date_provenance_and_jsonld_are_enforced(self):
         verifier = load_verifier("personal_artifact_section_scopes")
 

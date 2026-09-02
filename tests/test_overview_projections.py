@@ -135,6 +135,30 @@ class OverviewProjectionTest(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "(?:topic synthesis bundle|global identity)"):
                     overview.project(fixture)
 
+    def test_duplicate_keys_in_release_synthesis_json_fail_closed(self):
+        overview = load_script("personal_overview_duplicate_json")
+        files_and_keys = (
+            ("manifest.json", '  "schema_version": 1,\n'),
+            (
+                "paragraph-ledger.json",
+                '  "overview_commit": "9dbf2381f5120326a4ba2dc4f5bd66cae5636d7e",\n',
+            ),
+            (
+                "claims/ai-and-technology.json",
+                '      "status": "supported",\n',
+            ),
+        )
+        for relative, field in files_and_keys:
+            with self.subTest(relative=relative), tempfile.TemporaryDirectory() as td:
+                fixture = Path(td)
+                shutil.copytree(ROOT / "wiki", fixture / "wiki")
+                target = fixture / "wiki/_generated/synthesis" / relative
+                original = target.read_text(encoding="utf-8")
+                self.assertEqual(original.count(field), 1)
+                target.write_text(original.replace(field, field + field, 1), encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "topic synthesis bundle has invalid"):
+                    overview.project(fixture)
+
 
 if __name__ == "__main__":
     unittest.main()
