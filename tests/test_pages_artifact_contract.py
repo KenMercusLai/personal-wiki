@@ -3,6 +3,7 @@ from __future__ import annotations
 import importlib.util
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -23,6 +24,10 @@ def load_verifier(name: str):
 
 
 class PagesArtifactContractTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        subprocess.run(["./build.sh"], cwd=ROOT, check=True)
+
     def test_built_artifact_has_required_routes_and_dom_signals(self):
         verifier = load_verifier("personal_artifact")
         report = verifier.verify_site(PUBLIC, ROOT)

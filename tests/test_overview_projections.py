@@ -41,7 +41,10 @@ class OverviewProjectionTest(unittest.TestCase):
         questions = (ROOT / ".generated/wiki-projections/open-questions.md").read_text()
         self.assertIn("不同人文学科任务需要怎样的最低证据", questions)
         history = (ROOT / ".generated/wiki-projections/update-history/_index.md").read_text()
-        self.assertIn("First synchronized canonical overview", history)
+        canonical = (ROOT / "wiki/overview.md").read_text(encoding="utf-8")
+        canonical_intro = overview._overview_sections(canonical)[1]
+        self.assertTrue(canonical_intro)
+        self.assertIn(canonical_intro, history)
         self.assertEqual(hashlib.sha256((ROOT / "wiki/overview.md").read_bytes()).hexdigest(), before)
 
     def test_check_and_owned_stale_cleanup_are_deterministic(self):
