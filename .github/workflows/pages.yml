@@ -24,13 +24,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install JPEG decoder
-        run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends -y libjpeg-turbo-progs
-          command -v djpeg
-
-      - name: Run content contract tests
+      - name: Run deterministic consumer contract tests
         run: python3 -m unittest discover -s tests -v
 
       - name: Configure Pages

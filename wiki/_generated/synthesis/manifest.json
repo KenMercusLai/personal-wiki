@@ -1,0 +1,40 @@
+{
+  "content_date": "2026-09-02",
+  "corpus": {
+    "episode_count": 1,
+    "source_count": 1
+  },
+  "generated": true,
+  "global": {
+    "candidate_digest": "c9e26002926d61e660e553e323fd8a85fd024997dfb065b460d62d03ef70ff19",
+    "compacted_at": "2026-09-02T12:00:00Z",
+    "content_date": "2026-09-02",
+    "corpus": {
+      "episode_count": 1,
+      "source_count": 1
+    },
+    "output_digest": "65588c88f6dc51b9e40acd8d3e6b06f5159dbedefb8465e97e6375c2e205ec77",
+    "overview_commit": "838e5e5294ca25c616ed1936d6bbc7b1fe0bef29",
+    "overview_digest": "b83254156d38a569a3e9b6a9bd5a7bd57ec531af2793ea0fba229ab606ff5abd",
+    "pending_ingests": 0,
+    "pending_topics": []
+  },
+  "overview_commit": "838e5e5294ca25c616ed1936d6bbc7b1fe0bef29",
+  "overview_digest": "b83254156d38a569a3e9b6a9bd5a7bd57ec531af2793ea0fba229ab606ff5abd",
+  "paragraph_count": 1,
+  "schema_version": 1,
+  "topics": {
+    "ai-and-technology": {
+      "claim_digest": "b5ad3f491cfc085f6b2a9747e03ea0d049d1ef42909ef7ab6148ac0dda28261f",
+      "input_digest": "fbb8bd258726c74e7403183b840b727ce0308f7d95e3e509eb04a6df5255e02e",
+      "output_digest": "bc452b011d3424fdac44e771870bb54f3e9e2d9fa15c455c8aa2a6415c43e2df",
+      "title": "AI and Technology"
+    },
+    "history-and-geopolitics": {
+      "claim_digest": "240060773a6278177daa3d3269da796e2470b23ce54b817e9d6228c14e97c3a8",
+      "input_digest": "fbb8bd258726c74e7403183b840b727ce0308f7d95e3e509eb04a6df5255e02e",
+      "output_digest": "0ac02d44e83bd389ce705f0bf0e97b096913bfafbc91f9d9ea17849419cba972",
+      "title": "History and Geopolitics"
+    }
+  }
+}

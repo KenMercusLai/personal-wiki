@@ -1,13 +1,37 @@
 {{ define "main" }}
-<article>
-  <p class="wiki-label">{{ .Params.type | default "知识页" }}</p>
-  <h1>{{ .Title }}</h1>
-  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
-  <div class="wiki-meta page-meta">
-    {{ with .Params.author }}<span>作者：{{ . }}</span>{{ end }}
-    {{ with .Params.source_date }}<span>原文日期：{{ . }}</span>{{ end }}
-    {{ with .Params.updated }}<span>知识页更新：{{ . }}</span>{{ end }}
-  </div>
-  <div class="content">{{ .Content }}</div>
-</article>
+  {{ if or (eq .Section "wiki") (eq .Type "wiki") }}
+    {{ if .Params.synthesis_source }}
+      <article class="current-synthesis" data-synthesis-source="{{ .Params.synthesis_source }}" data-summary="{{ .Params.summary }}" data-source-count="{{ .Params.source_count }}">
+    {{ else }}
+      <article class="wiki-page">
+    {{ end }}
+      <p class="wiki-label">{{ if .Params.synthesis_source }}Living synthesis{{ else }}{{ .Params.type | default "知识页" }}{{ end }}</p>
+      {{ $knowledgeSignal := false }}
+      {{ if eq .Params.knowledge_schema "synthesis-v1" }}
+        {{ $knowledgeSignal = index hugo.Data.wiki_knowledge_signals.pages .File.BaseFileName }}
+        {{ if not $knowledgeSignal }}{{ errorf "missing synthesis-v1 knowledge signals for %s" .File.Path }}{{ end }}
+      {{ end }}
+      {{ if not (findRE `(?m)^#\s+` .RawContent 1) }}<h1>{{ .Title }}</h1>{{ end }}
+      {{ with $knowledgeSignal }}
+        <p class="wiki-knowledge-signals" data-knowledge-schema="synthesis-v1" data-source-count="{{ .source_note_count }}">
+          Updated <time datetime="{{ .updated }}">{{ .updated }}</time> · {{ lang.FormatNumber 0 .source_note_count }} {{ if eq (int .source_note_count) 1 }}source note{{ else }}source notes{{ end }}
+        </p>
+      {{ end }}
+      {{ if .Params.synthesis_source }}
+        <p class="synthesis-updated">Updated <time datetime="{{ .Params.last_updated }}">{{ .Params.last_updated }}</time></p>
+        <p class="current-synthesis-coverage">Coverage snapshot: {{ lang.FormatNumber 0 .Params.source_count }} {{ if eq (int .Params.source_count) 1 }}source note{{ else }}source notes{{ end }}</p>
+      {{ else }}
+        <div class="wiki-meta page-meta">
+          {{ if eq .Params.type "source" }}<span>Source note</span>{{ else }}{{ with .Params.type }}<span>{{ . }}</span>{{ end }}{{ end }}
+          {{ with .Params.last_updated }}<span>Updated {{ . }}</span>{{ end }}
+          {{ with .Params.date }}<span>Source date {{ . }}</span>{{ end }}
+          {{ with .Params.source_url }}<span><a href="{{ . }}" rel="noopener noreferrer">Original source</a></span>{{ end }}
+        </div>
+      {{ end }}
+      <div class="content">{{ partial "wiki-content.html" . }}</div>
+      {{ with $knowledgeSignal }}{{ partial "wiki-knowledge-sources.html" . }}{{ end }}
+    </article>
+  {{ else }}
+    <article><h1>{{ .Title }}</h1><div class="content">{{ .Content }}</div></article>
+  {{ end }}
 {{ end }}

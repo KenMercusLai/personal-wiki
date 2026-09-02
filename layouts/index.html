@@ -5,40 +5,18 @@
   <h1>{{ .Site.Title }}</h1>
   <p class="lede">把阅读材料编译成可维护、可追溯、互相连接的知识，而不是每次查询时重新发现。</p>
 </section>
-
+{{ partial "current-knowledge-section.html" (dict "site" .Site "sectionClass" "wiki-landing-section" "headingID" "current-knowledge-heading" "introClass" "wiki-section-intro") }}
 <section class="wiki-landing-section" aria-labelledby="collections-heading">
   <h2 id="collections-heading">浏览知识库</h2>
   <p class="wiki-section-intro">从来源笔记进入，再沿着概念与实体之间的连接继续探索。</p>
   <div class="knowledge-collection-grid">
-    <article class="knowledge-collection-card">
-      <span class="knowledge-collection-label">{{ len (where $wikiPages "Params.type" "source") }} 个页面</span>
-      <h3><a href="{{ "wiki/sources/" | relURL }}">来源笔记</a></h3>
-      <p>查看每次Ingest保留的来源、摘要、证据边界和关联知识。</p>
-    </article>
-    <article class="knowledge-collection-card">
-      <span class="knowledge-collection-label">{{ len (where $wikiPages "Params.type" "concept") }} 个页面</span>
-      <h3><a href="{{ "wiki/concepts/" | relURL }}">概念</a></h3>
-      <p>浏览从多个来源中提炼并持续修订的方法、机制与认识。</p>
-    </article>
-    <article class="knowledge-collection-card">
-      <span class="knowledge-collection-label">{{ len (where $wikiPages "Params.type" "entity") }} 个页面</span>
-      <h3><a href="{{ "wiki/entities/" | relURL }}">实体</a></h3>
-      <p>查看人物、作品与其他实体在知识网络中的上下文。</p>
-    </article>
-  </div>
-</section>
-
-<section class="wiki-landing-section" aria-labelledby="featured-heading">
-  <h2 id="featured-heading">精选知识</h2>
-  <p class="wiki-section-intro">从当前知识库中选择的来源、概念与实体页面。</p>
-  <div class="wiki-recent-grid">
-    {{ range first 6 (where $wikiPages.ByTitle "Params.featured" true) }}
-    <article class="wiki-recent">
-      <span class="wiki-label">{{ .Params.type }}</span>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <p>{{ .Description }}</p>
-    </article>
+    {{ range $path := (slice "/wiki/sources" "/wiki/concepts" "/wiki/entities") }}
+      {{ with $.Site.GetPage $path }}<article class="knowledge-collection-card"><span class="knowledge-collection-label">{{ len .RegularPagesRecursive }} 个页面</span><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
     {{ end }}
   </div>
+</section>
+<section class="wiki-landing-section" aria-labelledby="featured-heading">
+  <h2 id="featured-heading">精选知识</h2>
+  <div class="wiki-recent-grid">{{ range first 6 (where $wikiPages.ByTitle "Params.featured" true) }}<article class="wiki-recent"><span class="wiki-label">{{ .Params.type }}</span><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}</div>
 </section>
 {{ end }}

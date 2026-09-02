@@ -1,0 +1,27 @@
+{{ $site := .site }}
+{{ $currentSynthesis := $site.GetPage "/wiki-projections/current-synthesis" }}
+{{ $openQuestions := $site.GetPage "/wiki-projections/open-questions" }}
+{{ $updateHistory := $site.GetPage "/wiki-projections/update-history" }}
+<section class="{{ .sectionClass }}" aria-labelledby="{{ .headingID }}">
+  <h2 id="{{ .headingID }}">当前知识状态</h2>
+  <p class="{{ .introClass }}">先阅读跨来源的当前综合，再查看证据仍不完整的问题。</p>
+  <div class="current-knowledge-grid">
+    {{ with $currentSynthesis }}
+      <article class="wiki-feature current-knowledge-card current-synthesis-card" data-synthesis-source="{{ .Params.synthesis_source }}" data-summary="{{ .Params.summary }}" data-source-count="{{ .Params.source_count }}">
+        <span class="wiki-label current-knowledge-label">Living synthesis</span>
+        <h3><a href="{{ .RelPermalink }}">Current Synthesis</a></h3>
+        <p class="wiki-feature-summary current-knowledge-summary">{{ .Params.summary }}</p>
+        <p class="wiki-feature-updated current-knowledge-updated">Updated <time datetime="{{ .Params.last_updated }}">{{ .Params.last_updated }}</time></p>
+        <p class="wiki-feature-coverage current-knowledge-coverage">Based on {{ .Params.source_count }} {{ if eq (int .Params.source_count) 1 }}source note{{ else }}source notes{{ end }}</p>
+      </article>
+    {{ end }}
+    {{ with $openQuestions }}
+      <article class="wiki-feature current-knowledge-card">
+        <span class="wiki-label current-knowledge-label">Unresolved</span>
+        <h3><a href="{{ .RelPermalink }}">Open Questions</a></h3>
+        <p>随着新来源进入 Wiki，仍需补充证据、比较或质疑的问题。</p>
+      </article>
+    {{ end }}
+  </div>
+  {{ with $updateHistory }}<p><a href="{{ .RelPermalink }}">查看知识库如何变化 →</a></p>{{ end }}
+</section>

@@ -1,0 +1,13 @@
+<section class="wiki-knowledge-sources" data-source-count="{{ .source_note_count }}">
+  <h2>Sources</h2>
+  <details>
+    <summary>{{ lang.FormatNumber 0 .source_note_count }} {{ if eq (int .source_note_count) 1 }}source note{{ else }}source notes{{ end }}</summary>
+    <ol>
+      {{ range .sources }}
+        <li data-source-key="{{ .key }}">
+          <a href="{{ strings.TrimPrefix "/" .url | relURL }}">{{ .title }}</a>
+        </li>
+      {{ end }}
+    </ol>
+  </details>
+</section>

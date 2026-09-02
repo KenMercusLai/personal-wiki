@@ -1,0 +1,39 @@
+{{ define "main" }}
+  {{ if .Params.wiki_projection }}
+    <article>
+      {{ if not (findRE `(?m)^#\s+` .RawContent 1) }}<h1>{{ .Title }}</h1>{{ end }}
+      <div class="content">{{ partial "wiki-content.html" . }}</div>
+    </article>
+  {{ else if eq .Path "/wiki" }}
+    <section class="wiki-landing-hero">
+      <p class="wiki-label">持续演进的知识层</p>
+      <h1>{{ .Title }}</h1>
+      <p class="lede">浏览从个人阅读来源中综合出的概念、实体、来源笔记，以及仍待解决的问题。</p>
+    </section>
+    {{ partial "current-knowledge-section.html" (dict "site" .Site "sectionClass" "wiki-landing-section" "headingID" "current-knowledge-heading" "introClass" "wiki-section-intro") }}
+    <section class="wiki-landing-section" aria-labelledby="collections-heading">
+      <h2 id="collections-heading">知识集合</h2>
+      <div class="knowledge-collection-grid">
+        {{ range $path := (slice "/wiki/sources" "/wiki/concepts" "/wiki/entities") }}
+          {{ with $.Site.GetPage $path }}<article class="knowledge-collection-card"><span class="knowledge-collection-label">{{ len .RegularPagesRecursive }} 个页面</span><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></article>{{ end }}
+        {{ end }}
+      </div>
+    </section>
+    <section class="wiki-landing-section" aria-labelledby="health-heading">
+      <h2 id="health-heading">历史与健康</h2>
+      <p><a href="{{ "wiki/updates/" | relURL }}">Update History →</a> · <a href="{{ "wiki/stats/" | relURL }}">Wiki Stats →</a></p>
+    </section>
+  {{ else }}
+    <section class="wiki-landing-hero"><h1>{{ .Title }}</h1>{{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}</section>
+    {{ if .Params.wiki_alphabetical }}
+      <nav class="wiki-alphabetical-nav" aria-label="Alphabetical index">
+        {{ range (slice "0-9" "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z") }}<a href="{{ printf "wiki/%s/by-letter/%s/" $.Params.wiki_section . | relURL }}">{{ upper . }}</a> {{ end }}
+      </nav>
+      <p class="count">{{ .Params.wiki_total_pages }} total pages</p>
+      <ul class="page-list">{{ range .Params.wiki_pages }}<li><a href="{{ strings.TrimPrefix "/" .url | relURL }}">{{ .title }}</a></li>{{ end }}</ul>
+    {{ else }}
+      <p class="count">{{ len .RegularPages }} pages</p>
+      <ul class="page-list">{{ range .RegularPages.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Description }}<p>{{ . }}</p>{{ end }}</li>{{ end }}</ul>
+    {{ end }}
+  {{ end }}
+{{ end }}
