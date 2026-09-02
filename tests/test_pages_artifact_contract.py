@@ -114,6 +114,299 @@ class PagesArtifactContractTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "unresolved canonical syntax"):
                 verifier.verify_site(copied, ROOT)
 
+    def test_synthesis_pages_require_the_exact_complete_ordered_h2_schema(self):
+        verifier = load_verifier("personal_artifact_exact_h2_schema")
+        cases = (
+            (
+                "concept-wrong-heading",
+                "wiki/concepts/aiproductionpipeline/index.html",
+                "<h2 id=definition>Definition</h2>",
+                "<h2 id=wrong>Wrong</h2>",
+            ),
+            (
+                "concept-extra-heading",
+                "wiki/concepts/aiproductionpipeline/index.html",
+                "<h2 id=current-synthesis>Current Synthesis</h2>",
+                "<h2 id=unexpected>Unexpected</h2><h2 id=current-synthesis>Current Synthesis</h2>",
+            ),
+            (
+                "concept-misordered-headings",
+                "wiki/concepts/aiproductionpipeline/index.html",
+                "<h2 id=definition>Definition</h2>",
+                "<h2 id=current-synthesis>Current Synthesis</h2>",
+            ),
+            (
+                "entity-wrong-heading",
+                "wiki/entities/funes/index.html",
+                "<h2 id=overview>Overview</h2>",
+                "<h2 id=wrong>Wrong</h2>",
+            ),
+            (
+                "entity-extra-heading",
+                "wiki/entities/funes/index.html",
+                "<h2 id=current-profile>Current Profile</h2>",
+                "<h2 id=unexpected>Unexpected</h2><h2 id=current-profile>Current Profile</h2>",
+            ),
+            (
+                "entity-misordered-headings",
+                "wiki/entities/funes/index.html",
+                "<h2 id=overview>Overview</h2>",
+                "<h2 id=current-profile>Current Profile</h2>",
+            ),
+        )
+        for name, relative, old, new in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as td:
+                copied = Path(td) / "public"
+                shutil.copytree(PUBLIC, copied)
+                page = copied / relative
+                text = page.read_text(encoding="utf-8")
+                if "misordered" in name:
+                    other = new
+                    self.assertIn(old, text)
+                    self.assertIn(other, text)
+                    text = text.replace(old, "__H2_SWAP__", 1).replace(other, old, 1).replace("__H2_SWAP__", other, 1)
+                else:
+                    text = text.replace(old, new, 1)
+                self.assertNotEqual(text, page.read_text(encoding="utf-8"))
+                page.write_text(text, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "exact ordered H2 schema"):
+                    verifier.verify_site(copied, ROOT)
+
+    def test_relationship_anchors_match_exact_canonical_targets_and_titles(self):
+        verifier = load_verifier("personal_artifact_exact_relationships")
+        cases = (
+            (
+                "concept-existing-source-route",
+                "wiki/concepts/aiproductionpipeline/index.html",
+                "/wiki/concepts/aiworkflowforhumanitiesworkers/",
+                "/wiki/sources/ai-guide-for-humanities-workers/",
+            ),
+            (
+                "concept-unrelated-existing-route",
+                "wiki/concepts/aiproductionpipeline/index.html",
+                "/wiki/concepts/aiworkflowforhumanitiesworkers/",
+                "/wiki/entities/funes/",
+            ),
+            (
+                "concept-wrong-label",
+                "wiki/concepts/aiproductionpipeline/index.html",
+                ">人文工作者的 AI 工作流</a>",
+                ">Wrong relationship label</a>",
+            ),
+            (
+                "entity-existing-source-route",
+                "wiki/entities/funes/index.html",
+                "/wiki/entities/hanyang/",
+                "/wiki/sources/ai-guide-for-humanities-workers/",
+            ),
+            (
+                "entity-wrong-label",
+                "wiki/entities/funes/index.html",
+                ">汉洋</a>",
+                ">Wrong relationship label</a>",
+            ),
+        )
+        for name, relative, old, new in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as td:
+                copied = Path(td) / "public"
+                shutil.copytree(PUBLIC, copied)
+                page = copied / relative
+                text = page.read_text(encoding="utf-8")
+                relationship_id = "related-concepts" if "/concepts/" in relative else "relationships"
+                prefix, relationship = text.split(f"<h2 id={relationship_id}>", 1)
+                changed = relationship.replace(old, new, 1)
+                self.assertNotEqual(changed, relationship)
+                page.write_text(prefix + f"<h2 id={relationship_id}>" + changed, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "relationship anchor mismatch"):
+                    verifier.verify_site(copied, ROOT)
+
+    def test_sources_inventory_matches_exact_canonical_key_route_and_title(self):
+        verifier = load_verifier("personal_artifact_exact_sources_inventory")
+        cases = (
+            (
+                "wrong-key",
+                "data-source-key=ai-guide-for-humanities-workers",
+                "data-source-key=wrong-source-key",
+            ),
+            (
+                "wrong-existing-route",
+                "/wiki/sources/ai-guide-for-humanities-workers/",
+                "/wiki/concepts/aiproductionpipeline/",
+            ),
+            (
+                "reviewer-wrong-title",
+                ">给人文工作者的 AI 使用指南</a>",
+                ">Wrong source title</a>",
+            ),
+        )
+        for name, old, new in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as td:
+                copied = Path(td) / "public"
+                shutil.copytree(PUBLIC, copied)
+                page = copied / "wiki/concepts/aiproductionpipeline/index.html"
+                text = page.read_text(encoding="utf-8")
+                prefix, inventory = text.split("<section class=wiki-knowledge-sources", 1)
+                changed = inventory.replace(old, new, 1)
+                self.assertNotEqual(changed, inventory)
+                page.write_text(prefix + "<section class=wiki-knowledge-sources" + changed, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "source inventory link/title mismatch"):
+                    verifier.verify_site(copied, ROOT)
+
+    def test_every_verifier_json_input_rejects_duplicate_keys_at_any_depth(self):
+        verifier = load_verifier("personal_artifact_strict_duplicate_json")
+        cases = (
+            (
+                "reviewer-synthesis-manifest-top-level",
+                "wiki/_generated/synthesis/manifest.json",
+                '  "schema_version": 1,',
+                '  "schema_version": 1,\n  "schema_version": 1,',
+            ),
+            (
+                "synthesis-manifest-nested",
+                "wiki/_generated/synthesis/manifest.json",
+                '      "source_count": 1',
+                '      "source_count": 1,\n      "source_count": 1',
+            ),
+            (
+                "paragraph-ledger",
+                "wiki/_generated/synthesis/paragraph-ledger.json",
+                '  "schema_version": 1',
+                '  "schema_version": 1,\n  "schema_version": 1',
+            ),
+            (
+                "claims-nested",
+                "wiki/_generated/synthesis/claims/ai-and-technology.json",
+                '      "global_candidate": true,',
+                '      "global_candidate": true,\n      "global_candidate": true,',
+            ),
+            (
+                "image-sidecar-nested",
+                "wiki-assets/ai-guide-for-humanities-workers/manifest.json",
+                '      "file": "0001-c6a9ce8a8360b26d.jpg",',
+                '      "file": "0001-c6a9ce8a8360b26d.jpg",\n      "file": "0001-c6a9ce8a8360b26d.jpg",',
+            ),
+            (
+                "generated-wiki-links",
+                ".generated/data/wiki_links.json",
+                '    "url": "/wiki/concepts/aiproductionpipeline/"',
+                '    "url": "/wiki/concepts/aiproductionpipeline/",\n    "url": "/wiki/concepts/aiproductionpipeline/"',
+            ),
+            (
+                "generated-knowledge-signals-nested",
+                ".generated/data/wiki_knowledge_signals.json",
+                '      "source_note_count": 1,',
+                '      "source_note_count": 1,\n      "source_note_count": 1,',
+            ),
+            (
+                "generated-prepare-manifest",
+                ".generated/data/prepare-wiki-manifest.json",
+                '  "_generated_by": "scripts/prepare-wiki-content.py",',
+                '  "_generated_by": "scripts/prepare-wiki-content.py",\n  "_generated_by": "scripts/prepare-wiki-content.py",',
+            ),
+        )
+        for name, relative, old, new in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as td:
+                repository = Path(td) / "repository"
+                for directory in ("wiki", "wiki-assets", ".generated"):
+                    shutil.copytree(ROOT / directory, repository / directory)
+                path = repository / relative
+                text = path.read_text(encoding="utf-8")
+                changed = text.replace(old, new, 1)
+                self.assertNotEqual(changed, text)
+                path.write_text(changed, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, r"strict JSON object.*duplicate JSON key"):
+                    verifier.verify_site(PUBLIC, repository)
+
+    def test_verifier_json_inputs_reject_constants_malformed_and_nonobject_roots(self):
+        verifier = load_verifier("personal_artifact_strict_invalid_json")
+        cases = (
+            (
+                "synthesis-nan",
+                "wiki/_generated/synthesis/manifest.json",
+                '  "schema_version": 1,',
+                '  "schema_version": NaN,',
+            ),
+            (
+                "paragraph-ledger-nonobject",
+                "wiki/_generated/synthesis/paragraph-ledger.json",
+                None,
+                "[]\n",
+            ),
+            (
+                "claims-negative-infinity",
+                "wiki/_generated/synthesis/claims/ai-and-technology.json",
+                '      "global_candidate": true,',
+                '      "global_candidate": -Infinity,',
+            ),
+            (
+                "image-sidecar-infinity",
+                "wiki-assets/ai-guide-for-humanities-workers/manifest.json",
+                '  "version": 1,',
+                '  "version": Infinity,',
+            ),
+            (
+                "generated-wiki-links-nan",
+                ".generated/data/wiki_links.json",
+                '    "section": "concepts",',
+                '    "section": NaN,',
+            ),
+            (
+                "generated-knowledge-signals-malformed",
+                ".generated/data/wiki_knowledge_signals.json",
+                None,
+                "{\n",
+            ),
+            (
+                "generated-prepare-manifest-nonobject",
+                ".generated/data/prepare-wiki-manifest.json",
+                None,
+                '"not an object"\n',
+            ),
+        )
+        for name, relative, old, replacement in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as td:
+                repository = Path(td) / "repository"
+                for directory in ("wiki", "wiki-assets", ".generated"):
+                    shutil.copytree(ROOT / directory, repository / directory)
+                path = repository / relative
+                original = path.read_text(encoding="utf-8")
+                changed = replacement if old is None else original.replace(old, replacement, 1)
+                self.assertNotEqual(changed, original)
+                path.write_text(changed, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, r"strict JSON object"):
+                    verifier.verify_site(PUBLIC, repository)
+
+    def test_rendered_jsonld_uses_the_independent_strict_object_parser(self):
+        verifier = load_verifier("personal_artifact_strict_jsonld")
+        cases = (
+            (
+                "duplicate-top-level",
+                '"@type":"WebSite"',
+                '"@type":"WebSite","@type":"WebSite"',
+            ),
+            (
+                "duplicate-nested",
+                '{"@context"',
+                '{"probe":{"key":1,"key":1},"@context"',
+            ),
+            (
+                "non-standard-constant",
+                '{"@context"',
+                '{"probe":NaN,"@context"',
+            ),
+        )
+        for name, old, new in cases:
+            with self.subTest(name=name), tempfile.TemporaryDirectory() as td:
+                copied = Path(td) / "public"
+                shutil.copytree(PUBLIC, copied)
+                page = copied / "index.html"
+                text = page.read_text(encoding="utf-8")
+                changed = text.replace(old, new, 1)
+                self.assertNotEqual(changed, text)
+                page.write_text(changed, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, r"strict JSON object"):
+                    verifier.verify_site(copied, ROOT)
+
     def test_section_scoped_schema_date_provenance_and_jsonld_are_enforced(self):
         verifier = load_verifier("personal_artifact_section_scopes")
 

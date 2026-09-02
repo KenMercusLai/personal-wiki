@@ -29,6 +29,16 @@ ALPHABETICAL_SECTIONS = ("concepts", "entities")
 ALPHABETICAL_BUCKETS = ("0-9", *(chr(code) for code in range(ord("a"), ord("z") + 1)))
 KEY_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_-]*")
 WIKILINK_RE = re.compile(r"\[\[([^\]\n]+)\]\]")
+REQUIRED_SYNTHESIS_H2 = {
+    "concepts": (
+        "Definition", "Current Synthesis", "Key Claims", "Evidence",
+        "Counterevidence & Qualifications", "What Changed", "Related Concepts",
+    ),
+    "entities": (
+        "Overview", "Current Profile", "Key Characteristics", "Evidence",
+        "Qualifications", "What Changed", "Relationships",
+    ),
+}
 
 PRIVATE_PATH_PATTERNS = (
     re.compile(r"(?i)(?:file:/+)?/Users/[^/\s<>\"']+/"),
@@ -58,6 +68,7 @@ class CanonicalPage:
     section: str
     route: str
     metadata: dict[str, object]
+    body: str
 
 
 @dataclass(frozen=True)
@@ -115,6 +126,7 @@ class PageParser(HTMLParser):
         self.images: list[dict[str, str]] = []
         self.jsonld: list[str] = []
         self.h1: list[str] = []
+        self.h2: list[str] = []
         self.elements: list[tuple[str, dict[str, str]]] = []
         self.source_items: list[tuple[str, str, str]] = []
         self.section_items: list[SectionItem] = []
@@ -230,6 +242,7 @@ class PageParser(HTMLParser):
             self._h1_chunks = None
         if tag == "h2" and self._h2_chunks is not None:
             heading = " ".join("".join(self._h2_chunks).split())
+            self.h2.append(heading)
             self._current_section = heading
             if self._h2_in_source_scope:
                 self.source_section_headings.append(heading)
@@ -349,6 +362,43 @@ def find_external_image_sources(images: list[tuple[str, str]]) -> list[str]:
     return external
 
 
+def _strict_json_object(text: str, label: str) -> dict[str, object]:
+    """Parse one verifier input without sharing a projection-script parser."""
+
+    def reject_duplicate_keys(pairs: list[tuple[str, object]]) -> dict[str, object]:
+        value: dict[str, object] = {}
+        for key, item in pairs:
+            if key in value:
+                raise ValueError(f"duplicate JSON key: {key}")
+            value[key] = item
+        return value
+
+    def reject_nonstandard_constant(value: str) -> object:
+        raise ValueError(f"non-standard JSON constant: {value}")
+
+    try:
+        value = json.loads(
+            text,
+            object_pairs_hook=reject_duplicate_keys,
+            parse_constant=reject_nonstandard_constant,
+        )
+    except (json.JSONDecodeError, ValueError) as exc:
+        raise ValueError(f"{label}: invalid strict JSON object: {exc}") from exc
+    if not isinstance(value, dict):
+        raise ValueError(f"{label}: strict JSON object root must be an object")
+    return value
+
+
+def _load_strict_json_object(path: pathlib.Path, label: str) -> dict[str, object]:
+    if path.is_symlink() or not path.is_file():
+        raise ValueError(f"{label}: strict JSON object is missing or not a regular file")
+    try:
+        text = path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        raise ValueError(f"{label}: invalid strict JSON object: {exc}") from exc
+    return _strict_json_object(text, label)
+
+
 def _scalar(raw: str) -> object:
     value = raw.strip()
     if not value:
@@ -419,6 +469,35 @@ def _load_contract(repository: pathlib.Path) -> CanonicalContract:
             if path.is_symlink():
                 raise ValueError(f"canonical producer mirror contains a symlink: {path}")
 
+    synthesis_json_root = wiki / "_generated/synthesis"
+    synthesis_json_paths = sorted(synthesis_json_root.rglob("*.json"))
+    required_synthesis_json = {
+        synthesis_json_root / "manifest.json",
+        synthesis_json_root / "paragraph-ledger.json",
+    }
+    if not required_synthesis_json.issubset(synthesis_json_paths):
+        raise ValueError("canonical synthesis strict JSON object inventory is incomplete")
+    for path in synthesis_json_paths:
+        _load_strict_json_object(
+            path,
+            f"canonical synthesis {path.relative_to(synthesis_json_root).as_posix()}",
+        )
+
+    generated_data_root = repository / ".generated/data"
+    required_generated_data = {
+        generated_data_root / "wiki_links.json",
+        generated_data_root / "wiki_knowledge_signals.json",
+        generated_data_root / "prepare-wiki-manifest.json",
+    }
+    generated_json_paths = set(generated_data_root.rglob("*.json")) if generated_data_root.is_dir() else set()
+    if not required_generated_data.issubset(generated_json_paths):
+        raise ValueError("generated verifier data strict JSON object inventory is incomplete")
+    for path in sorted(generated_json_paths):
+        _load_strict_json_object(
+            path,
+            f"generated verifier data {path.relative_to(generated_data_root).as_posix()}",
+        )
+
     pages: list[CanonicalPage] = []
     for section in PUBLIC_SECTIONS:
         directory = wiki / section
@@ -427,18 +506,34 @@ def _load_contract(repository: pathlib.Path) -> CanonicalContract:
         for path in sorted(directory.glob("*.md")):
             if not KEY_RE.fullmatch(path.stem):
                 raise ValueError(f"invalid canonical key: {path.stem}")
-            metadata, _body = _front_matter(path)
+            metadata, body = _front_matter(path)
             title = metadata.get("title")
             expected_type = {"concepts": "concept", "entities": "entity", "sources": "source"}[section]
             if not isinstance(title, str) or not title.strip() or metadata.get("type") != expected_type:
                 raise ValueError(f"invalid canonical identity: {path}")
-            pages.append(CanonicalPage(path.stem, title.strip(), section, f"wiki/{section}/{path.stem.casefold()}/", metadata))
+            pages.append(CanonicalPage(
+                path.stem,
+                title.strip(),
+                section,
+                f"wiki/{section}/{path.stem.casefold()}/",
+                metadata,
+                body,
+            ))
     by_key = {page.key: page for page in pages}
     if len(by_key) != len(pages):
         raise ValueError("duplicate canonical Wiki key")
     folded_routes = {page.route.casefold() for page in pages}
     if len(folded_routes) != len(pages):
         raise ValueError("case-folded canonical Wiki route collision")
+
+    for page in pages:
+        if page.section not in REQUIRED_SYNTHESIS_H2 or page.metadata.get("knowledge_schema") != "synthesis-v1":
+            continue
+        canonical_h2 = tuple(re.findall(r"(?m)^##[ \t]+(.+?)[ \t]*$", page.body))
+        if canonical_h2 != REQUIRED_SYNTHESIS_H2[page.section]:
+            raise ValueError(
+                f"canonical synthesis page has invalid exact ordered H2 schema: {page.key}"
+            )
 
     for path in sorted(wiki.rglob("*.md")):
         if "_generated" in path.parts or path.name in {"index.md", "log.md", "overview.md"}:
@@ -456,19 +551,19 @@ def _load_contract(repository: pathlib.Path) -> CanonicalContract:
     for source_key in sorted(actual_asset_dirs):
         directory = assets_root / source_key
         manifest_path = directory / "manifest.json"
-        try:
-            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError) as exc:
-            raise ValueError(f"invalid canonical image manifest: {source_key}") from exc
+        manifest = _load_strict_json_object(
+            manifest_path,
+            f"canonical image sidecar {source_key}/manifest.json",
+        )
+        images = manifest.get("images")
         if (
-            not isinstance(manifest, dict)
-            or manifest.get("version") != 1
+            manifest.get("version") != 1
             or manifest.get("source_key") != source_key
-            or not isinstance(manifest.get("images"), list)
+            or not isinstance(images, list)
         ):
             raise ValueError(f"invalid canonical image manifest: {source_key}")
         listed: set[str] = set()
-        for record in manifest["images"]:
+        for record in images:
             if not isinstance(record, dict) or set(record) != {"file", "alt"}:
                 raise ValueError(f"invalid canonical image record: {source_key}")
             name, alt = record["file"], record["alt"]
@@ -512,10 +607,10 @@ def _load_contract(repository: pathlib.Path) -> CanonicalContract:
     synthesis_path = wiki / "_generated/synthesis/current.md"
     synthesis_meta, synthesis_body = _front_matter_after_marker(synthesis_path)
     manifest_path = wiki / "_generated/synthesis/manifest.json"
-    try:
-        synthesis_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        raise ValueError("invalid canonical compact synthesis manifest") from exc
+    synthesis_manifest = _load_strict_json_object(
+        manifest_path,
+        "canonical compact synthesis manifest",
+    )
     global_state = synthesis_manifest.get("global") if isinstance(synthesis_manifest, dict) else None
     if (
         not isinstance(global_state, dict)
@@ -621,6 +716,7 @@ def _verify_identity_page(
     parser: PageParser,
     root_url: str,
     relative: str,
+    pages_by_key: dict[str, CanonicalPage],
 ) -> None:
     expected_title = f"{page.title} · {SITE_TITLE}"
     if parser.title != expected_title:
@@ -629,14 +725,20 @@ def _verify_identity_page(
         raise ValueError(f"{relative}: H1 does not preserve canonical identity")
     if _require_one(parser.og_titles, "Open Graph title", relative) != expected_title:
         raise ValueError(f"{relative}: Open Graph title does not preserve canonical identity")
-    try:
-        schema = json.loads(_require_one(parser.jsonld, "JSON-LD block", relative))
-    except json.JSONDecodeError as exc:
-        raise ValueError(f"{relative}: invalid JSON-LD: {exc}") from exc
+    schema = _strict_json_object(
+        _require_one(parser.jsonld, "JSON-LD block", relative),
+        f"{relative}: JSON-LD strict JSON object",
+    )
     if not isinstance(schema, dict) or schema.get("name") != expected_title:
         raise ValueError(f"{relative}: JSON-LD name does not preserve canonical identity")
 
     if page.section in {"concepts", "entities"} and page.metadata.get("knowledge_schema") == "synthesis-v1":
+        expected_h2 = [*REQUIRED_SYNTHESIS_H2[page.section], "Sources"]
+        if parser.h2 != expected_h2:
+            raise ValueError(
+                f"{relative}: exact ordered H2 schema mismatch: "
+                f"expected={expected_h2!r}, actual={parser.h2!r}"
+            )
         sources = page.metadata.get("sources")
         if not isinstance(sources, list) or not sources or not all(isinstance(key, str) for key in sources):
             raise ValueError(f"invalid canonical synthesis source inventory: {page.key}")
@@ -648,17 +750,25 @@ def _verify_identity_page(
             raise ValueError(f"{relative}: source-derived knowledge signal mismatch")
         expected_items = []
         for key in sources:
-            route = f"wiki/sources/{key.casefold()}/"
-            expected_items.append((key, urljoin(root_url, route), key))
+            source_page = pages_by_key.get(key)
+            if source_page is None or source_page.section != "sources":
+                raise ValueError(f"invalid canonical synthesis source target: {page.key}: {key}")
+            expected_items.append((
+                key,
+                urljoin(root_url, source_page.route),
+                source_page.title,
+            ))
         if parser.source_sections != 1 or parser.source_section_headings != ["Sources"]:
             raise ValueError(f"{relative}: source inventory is not scoped to exactly one Sources section")
         if len(parser.source_items) != len(expected_items):
             raise ValueError(f"{relative}: source inventory is incomplete")
-        for (actual_key, href, visible), (key, expected_href, _label) in zip(parser.source_items, expected_items):
-            if actual_key != key or urljoin(_require_one(parser.canonical, "canonical", relative), href) != expected_href:
-                raise ValueError(f"{relative}: source inventory link mismatch: {key}")
-            if not visible:
-                raise ValueError(f"{relative}: source inventory has an empty visible label")
+        for (actual_key, href, visible), (key, expected_href, expected_title) in zip(parser.source_items, expected_items):
+            if (
+                actual_key != key
+                or urljoin(_require_one(parser.canonical, "canonical", relative), href) != expected_href
+                or visible != expected_title
+            ):
+                raise ValueError(f"{relative}: source inventory link/title mismatch: {key}")
         updated = page.metadata.get("last_updated")
         if (
             not isinstance(updated, str)
@@ -679,6 +789,34 @@ def _verify_identity_page(
         relationship_items = [item for item in parser.section_items if item.section == relationship]
         if not relationship_items or any(not item.hrefs for item in relationship_items):
             raise ValueError(f"{relative}: each {relationship} item must contain a relationship anchor")
+        relationship_match = re.search(
+            rf"(?ms)^##[ \t]+{re.escape(relationship)}[ \t]*$\n(.*?)(?=^##[ \t]+|\Z)",
+            page.body,
+        )
+        if relationship_match is None:
+            raise ValueError(f"invalid canonical relationship section: {page.key}")
+        expected_relationships: list[tuple[str, str]] = []
+        for raw in WIKILINK_RE.findall(relationship_match.group(1)):
+            target_key = _wikilink_target(raw)
+            target = pages_by_key.get(target_key)
+            if target is None or target.section not in {"concepts", "entities"}:
+                raise ValueError(
+                    f"invalid canonical Concept/Entity relationship target: {page.key}: {target_key}"
+                )
+            expected_relationships.append((urljoin(root_url, target.route), target.title))
+        actual_relationships = [
+            (
+                urljoin(canonical, anchor.attrs.get("href", "")),
+                " ".join(anchor.text.split()),
+            )
+            for anchor in parser.anchors
+            if anchor.section == relationship
+        ]
+        if actual_relationships != expected_relationships:
+            raise ValueError(
+                f"{relative}: relationship anchor mismatch: "
+                f"expected={expected_relationships!r}, actual={actual_relationships!r}"
+            )
 
 
 def _verify_images(
@@ -807,6 +945,12 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
             raise ValueError(f"symbolic link not allowed in public artifact: {path.relative_to(public)}")
     files = [path for path in all_paths if path.is_file()]
     relative_files = [path.relative_to(public).as_posix() for path in files]
+    for path in files:
+        if path.suffix.casefold() == ".json":
+            _load_strict_json_object(
+                path,
+                f"public JSON artifact {path.relative_to(public).as_posix()}",
+            )
     forbidden = find_forbidden_public_files(relative_files)
     if forbidden:
         raise ValueError(f"forbidden public file: {forbidden[0]}")
@@ -843,6 +987,7 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
         raise ValueError(f"invalid site-root canonical: {root_url}")
 
     pages_by_relative = {f"{page.route}index.html": page for page in contract.pages}
+    pages_by_key = {page.key: page for page in contract.pages}
     for relative, parser in parsers.items():
         expected_url = _expected_url(root_url, relative)
         canonical = _require_one(parser.canonical, "canonical", relative)
@@ -850,10 +995,10 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
         description = _require_one(parser.descriptions, "meta description", relative)
         if canonical != expected_url or og_url != expected_url:
             raise ValueError(f"{relative}: canonical/Open Graph URL mismatch for deployment prefix")
-        try:
-            schema = json.loads(_require_one(parser.jsonld, "JSON-LD block", relative))
-        except json.JSONDecodeError as exc:
-            raise ValueError(f"{relative}: invalid JSON-LD: {exc}") from exc
+        schema = _strict_json_object(
+            _require_one(parser.jsonld, "JSON-LD block", relative),
+            f"{relative}: JSON-LD strict JSON object",
+        )
         if (
             not isinstance(schema, dict)
             or schema.get("@context") != "https://schema.org"
@@ -877,7 +1022,7 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
                 raise ValueError(f"{relative}: unresolved internal URL: {href}")
         page = pages_by_relative.get(relative)
         if page is not None:
-            _verify_identity_page(page, parser, root_url, relative)
+            _verify_identity_page(page, parser, root_url, relative, pages_by_key)
 
     _verify_images(contract, parsers, public, root_url)
     _verify_projection(contract, parsers, root_url)
