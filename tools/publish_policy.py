@@ -21,6 +21,15 @@ PRIVATE_PATHS = (
     re.compile(r"(?i)(?:^|[\s=\"'(:])~/"),
 )
 IMAGE_RE = re.compile(r"!\[[^\]\n]*\]\(\s*<?([^\s)>]+)>?(?:\s+(?:\"[^\"]*\"|'[^']*'|\([^)]*\)))?\s*\)")
+RAW_IMAGE_MARKUP_RE = re.compile(
+    r"<\s*(?:img|picture|source|object|embed|svg|image)\b"
+    r"|<\s*input\b(?=[^>]*\btype\s*=\s*(?:[\"']\s*)?image(?:\s*[\"'])?(?:\s|/?>))",
+    flags=re.IGNORECASE,
+)
+IMAGE_SHORTCODE_RE = re.compile(
+    r"\{\{[<%]\s*/?\s*(?:figure|img|image|picture|source)\b",
+    flags=re.IGNORECASE,
+)
 
 
 def _decoded(text: str) -> str:
@@ -117,8 +126,11 @@ def visible_markdown(text: str) -> str:
 
 
 def markdown_image_targets(body: str) -> set[str]:
+    # Hugo expands shortcodes before Markdown code spans/blocks are rendered.
+    if IMAGE_SHORTCODE_RE.search(body):
+        raise ValueError("raw image markup is forbidden")
     visible = visible_markdown(body)
-    if re.search(r"<\s*(?:img|picture|source)\b", visible, flags=re.IGNORECASE):
+    if RAW_IMAGE_MARKUP_RE.search(visible):
         raise ValueError("raw image markup is forbidden")
     matches = list(IMAGE_RE.finditer(visible))
     inline_starts = {match.start() for match in matches}

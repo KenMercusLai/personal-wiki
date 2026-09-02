@@ -4,7 +4,6 @@ description: "A practical article on using the Ramer-Douglas-Peucker algorithm t
 type: "source"
 updated: "2026-09-02"
 source_key: "ramer-douglas-peucker-algorithm"
-image_status: "embedded-all:6"
 source_date: "2026-03-31"
 source_url: "https://zulu.wang/posts/2020/09/08/ramer-douglas-peucker-algorithm.html"
 ---

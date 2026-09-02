@@ -4,7 +4,6 @@ description: "A Chinese tutorial on building a ChatGPT-style assistant over priv
 type: "source"
 updated: "2026-09-02"
 source_key: "build-chatgpt-with-private-data"
-image_status: "embedded-all:17"
 author: "深思圈"
 source_date: "2026-03-19"
 ---
