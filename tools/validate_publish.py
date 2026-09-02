@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-from collections.abc import Collection, Mapping
 from dataclasses import dataclass
 from datetime import date
 import json
@@ -19,11 +18,11 @@ SOURCE_DATE_PREFIX_RE = re.compile(r"^(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?")
 SCALAR_RE = re.compile(r'^([A-Za-z_][A-Za-z0-9_]*):\s*(.*)$')
 ALLOWED_INDEXES = {PurePosixPath("_index.md"), PurePosixPath("sources/_index.md"), PurePosixPath("concepts/_index.md"), PurePosixPath("entities/_index.md")}
 INDEX_KEYS = {"title", "description", "weight"}
-SOURCE_KEYS = {"title", "description", "type", "updated", "source_key", "image_status", "author", "translator", "source_date", "source_url", "featured"}
+SOURCE_KEYS = {"title", "description", "type", "updated", "source_key", "author", "translator", "source_date", "source_url", "featured"}
 CONCEPT_KEYS = {"title", "description", "type", "updated", "source_keys", "featured"}
 ENTITY_KEYS = CONCEPT_KEYS | {"entity_kind"}
 STRING_FIELDS = {
-    "title", "description", "type", "updated", "source_key", "image_status",
+    "title", "description", "type", "updated", "source_key",
     "author", "translator", "source_date", "source_url", "entity_kind",
 }
 
@@ -103,9 +102,7 @@ def _validate_front_matter_schema(meta: dict[str, object], path: PurePosixPath) 
             )
         if not valid:
             raise ValidationError(f"invalid front matter schema in {path}: {key}")
-    status = meta.get("image_status")
-    if type(status) is str and len(status) > 500:
-        raise ValidationError(f"invalid front matter schema in {path}: image_status")
+
 
 
 def _valid_source_date(value: object) -> bool:
@@ -151,74 +148,9 @@ def _image_targets(body: str, page: PurePosixPath) -> set[str]:
         return markdown_image_targets(body)
     except ValueError as exc:
         raise ValidationError(f"{exc} in {page}") from exc
-
-
-def validate_source_image_manifest(
-    source_key: str,
-    meta: Mapping[str, object],
-    body: str,
-    manifest_filenames: Collection[str],
-    inventory: Mapping[PurePosixPath, bytes],
-) -> None:
-    """Enforce the lossless image contract for one staged ingest candidate."""
-    page = PurePosixPath("sources") / source_key / "index.md"
-    if isinstance(manifest_filenames, (str, bytes)):
-        raise ValidationError(f"source image manifest must be a filename collection in {page}")
-    filenames = tuple(manifest_filenames)
-    for filename in filenames:
-        relative = PurePosixPath(filename) if isinstance(filename, str) else None
-        if (
-            relative is None
-            or not filename
-            or relative.name != filename
-            or filename in {".", ".."}
-            or relative.suffix.casefold() not in {".png", ".gif", ".jpg", ".jpeg", ".webp"}
-        ):
-            raise ValidationError(f"invalid source image manifest filename in {page}: {filename!r}")
-    if len(filenames) != len(set(filenames)):
-        raise ValidationError(f"duplicate source image manifest filename in {page}")
-    _assert_casefold_unique(list(filenames), label="source image manifest filename")
-
-    expected_status = "none" if not filenames else f"embedded-all:{len(filenames)}"
-    if meta.get("image_status") != expected_status:
-        raise ValidationError(
-            f"image_status must be {expected_status} for source image manifest in {page}"
-        )
-    expected = set(filenames)
-    targets = _image_targets(body, page)
-    missing_references = sorted(expected - targets)
-    if missing_references:
-        raise ValidationError(
-            f"every manifest filename must be referenced by a visible local Markdown image in {page}: "
-            + ", ".join(missing_references)
-        )
-    unexpected_references = sorted(targets - expected)
-    if unexpected_references:
-        raise ValidationError(
-            f"image reference is absent from source image manifest in {page}: "
-            + ", ".join(unexpected_references)
-        )
-    bundle_prefix = PurePosixPath("sources") / source_key
-    actual_assets = {
-        relative.name
-        for relative in inventory
-        if relative.parent == bundle_prefix and relative.suffix.casefold() != ".md"
-    }
-    if actual_assets != expected:
-        missing_assets = sorted(expected - actual_assets)
-        unexpected_assets = sorted(actual_assets - expected)
-        details = []
-        if missing_assets:
-            details.append("missing " + ", ".join(missing_assets))
-        if unexpected_assets:
-            details.append("unexpected " + ", ".join(unexpected_assets))
-        raise ValidationError(f"source image manifest does not match bundle assets in {page}: {'; '.join(details)}")
-
-
 def validate_publish(
     repository: Path | str = ".", *, baseline: str | None = None,
     inventory: dict[PurePosixPath, bytes] | None = None,
-    source_image_manifests: Mapping[str, Collection[str]] | None = None,
 ) -> ValidationReport:
     root = Path(repository).resolve()
     wiki = root / "wiki"
@@ -276,7 +208,7 @@ def validate_publish(
                 raise ValidationError(f"invalid source bundle key: {key}")
             _allow_only(meta, SOURCE_KEYS, relative)
             _validate_front_matter_schema(meta, relative)
-            _require(meta, ("source_key", "image_status"), relative)
+            _require(meta, ("source_key",), relative)
             if meta["type"] != "source" or meta["source_key"] != key:
                 raise ValidationError(f"source_key/type does not match bundle: {relative}")
             if "source_date" in meta:
@@ -336,12 +268,6 @@ def validate_publish(
                     f"image references must be local validated assets in {page}: {target}"
                 )
 
-    if source_image_manifests is not None:
-        for key, manifest in source_image_manifests.items():
-            if key not in source_meta:
-                raise ValidationError(f"source image manifest has no candidate source bundle: {key}")
-            _page, meta, body = source_meta[key]
-            validate_source_image_manifest(key, meta, body, manifest, inventory)
 
     assets: list[str] = []
     for relative in sorted(path for path in inventory if path.suffix != ".md"):
@@ -350,7 +276,7 @@ def validate_publish(
             raise ValidationError(f"asset outside a registered source bundle: {relative}")
         targets = source_image_targets[parts[1]]
         if parts[2] not in targets:
-            raise ValidationError(f"selected asset is not referenced by a real visible Markdown image: {relative}")
+            raise ValidationError(f"bundle image asset is not referenced by a real visible Markdown image: {relative}")
         assets.append(f"wiki/{relative.as_posix()}")
 
     known = set(source_meta)

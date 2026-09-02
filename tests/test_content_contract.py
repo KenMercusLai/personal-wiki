@@ -48,11 +48,14 @@ class ContentContractTest(unittest.TestCase):
                 self.assertIn(source_key, source_keys, str(path))
                 self.assertIn(f"/wiki/sources/{source_key}.md", text, str(path))
 
-    def test_ingest_protocol_accepts_the_exact_parent_selected_source(self):
+    def test_ingest_protocol_accepts_only_parent_selected_snapshots(self):
         protocol = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         normalized = " ".join(protocol.split())
-        self.assertIn("Read exactly the source file named by the parent prompt", protocol)
-        self.assertNotIn("ephemeral input snapshot", protocol)
+        self.assertIn("Read exactly the disposable source snapshot named by the parent prompt", protocol)
+        self.assertIn(
+            "selected source snapshot and the attached\n  candidate images are the only external inputs",
+            protocol,
+        )
         self.assertNotIn("## Lint workflow", protocol)
         self.assertNotIn("python3 -m tools.validate_publish", protocol)
         self.assertIn('updated: "YYYY-MM-DD"', protocol)
