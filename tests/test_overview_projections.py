@@ -47,6 +47,16 @@ class OverviewProjectionTest(unittest.TestCase):
         self.assertIn(canonical_intro, history)
         self.assertEqual(hashlib.sha256((ROOT / "wiki/overview.md").read_bytes()).hexdigest(), before)
 
+    def test_first_sync_history_never_labels_consumer_commit_as_producer_revision(self):
+        overview = load_script("personal_overview_first_sync")
+        overview.project(ROOT)
+        history = (ROOT / ".generated/wiki-projections/update-history/_index.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("First synchronized canonical overview", history)
+        self.assertNotIn("e1a9c4ac63a1", history)
+        self.assertNotIn("Canonical overview revision", history)
+
     def test_check_and_owned_stale_cleanup_are_deterministic(self):
         overview = load_script("personal_overview_stale")
         overview.project(ROOT)
@@ -68,6 +78,62 @@ class OverviewProjectionTest(unittest.TestCase):
             current.write_text(current.read_text() + "tampered\n", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "digest"):
                 overview.project(fixture)
+
+    def test_tampered_topic_and_matching_manifest_digest_fail_closed(self):
+        overview = load_script("personal_overview_tampered_topic")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            synthesis = fixture / "wiki/_generated/synthesis"
+            topic = synthesis / "topics/ai-and-technology.md"
+            original_topic = topic.read_text(encoding="utf-8")
+            tampered_topic = original_topic.replace(
+                "Humanistic AI practice is strongest",
+                "Tampered topic prose claims AI is infallible",
+                1,
+            )
+            self.assertNotEqual(tampered_topic, original_topic)
+            topic.write_text(tampered_topic, encoding="utf-8")
+            manifest_path = synthesis / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["topics"]["ai-and-technology"]["output_digest"] = hashlib.sha256(
+                topic.read_bytes()
+            ).hexdigest()
+            manifest_path.write_text(
+                json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "topic synthesis bundle"):
+                overview.project(fixture)
+
+    def test_complete_bundle_inventory_ledger_and_global_identity_are_authenticated(self):
+        overview = load_script("personal_overview_complete_bundle")
+        mutations = ("extra-topic", "ledger-coverage", "global-overview")
+        for mutation in mutations:
+            with self.subTest(mutation=mutation), tempfile.TemporaryDirectory() as td:
+                fixture = Path(td)
+                shutil.copytree(ROOT / "wiki", fixture / "wiki")
+                synthesis = fixture / "wiki/_generated/synthesis"
+                if mutation == "extra-topic":
+                    (synthesis / "topics/injected.md").write_text("injected\n", encoding="utf-8")
+                elif mutation == "ledger-coverage":
+                    ledger_path = synthesis / "paragraph-ledger.json"
+                    ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+                    ledger["coverage"]["assigned_paragraph_ids"] = []
+                    ledger_path.write_text(
+                        json.dumps(ledger, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                        encoding="utf-8",
+                    )
+                else:
+                    manifest_path = synthesis / "manifest.json"
+                    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                    manifest["global"]["overview_digest"] = "0" * 64
+                    manifest_path.write_text(
+                        json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                        encoding="utf-8",
+                    )
+                with self.assertRaisesRegex(ValueError, "(?:topic synthesis bundle|global identity)"):
+                    overview.project(fixture)
 
 
 if __name__ == "__main__":

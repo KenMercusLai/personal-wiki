@@ -9,6 +9,8 @@ compares those expectations with the final rendered files and DOM.
 from __future__ import annotations
 
 import argparse
+from collections import defaultdict
+import datetime as dt
 import hashlib
 import html
 import json
@@ -80,10 +82,27 @@ class VerificationReport:
 class Anchor:
     attrs: dict[str, str]
     text: str = ""
+    section: str = ""
+
+
+@dataclass
+class SectionItem:
+    section: str
+    hrefs: list[str]
+    text: str = ""
 
 
 class PageParser(HTMLParser):
     """Collect the final DOM signals used by the independent verifier."""
+
+    VOID_ELEMENTS = {
+        "area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta",
+        "param", "source", "track", "wbr",
+    }
+    TRACKED_SCOPES = {
+        "wiki-knowledge-sources", "wiki-knowledge-signals", "current-synthesis",
+        "current-synthesis-card",
+    }
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
@@ -98,15 +117,25 @@ class PageParser(HTMLParser):
         self.h1: list[str] = []
         self.elements: list[tuple[str, dict[str, str]]] = []
         self.source_items: list[tuple[str, str, str]] = []
+        self.section_items: list[SectionItem] = []
+        self.source_sections = 0
+        self.source_section_headings: list[str] = []
+        self.times_by_scope: dict[str, list[str]] = defaultdict(list)
         self.visible_chunks: list[str] = []
         self.title = ""
         self._title_chunks: list[str] | None = None
         self._h1_chunks: list[str] | None = None
+        self._h2_chunks: list[str] | None = None
+        self._h2_in_source_scope = False
+        self._current_section = ""
         self._anchor: Anchor | None = None
+        self._list_items: list[SectionItem] = []
         self._json_chunks: list[str] | None = None
         self._source_key: str | None = None
         self._source_href = ""
         self._source_text: list[str] = []
+        self._stack: list[tuple[str, set[str]]] = []
+        self._scope_depth: dict[str, int] = defaultdict(int)
 
     @staticmethod
     def _attrs(attrs: list[tuple[str, str | None]]) -> dict[str, str]:
@@ -115,6 +144,13 @@ class PageParser(HTMLParser):
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         tag = tag.casefold()
         values = self._attrs(attrs)
+        entered_scopes = set(values.get("class", "").split()) & self.TRACKED_SCOPES
+        for scope in entered_scopes:
+            self._scope_depth[scope] += 1
+        if tag not in self.VOID_ELEMENTS:
+            self._stack.append((tag, entered_scopes))
+        if tag == "section" and "wiki-knowledge-sources" in entered_scopes:
+            self.source_sections += 1
         self.elements.append((tag, values))
         if tag == "link" and "canonical" in values.get("rel", "").casefold().split():
             self.canonical.append(values.get("href", ""))
@@ -126,12 +162,14 @@ class PageParser(HTMLParser):
             if values.get("name", "").casefold() == "description":
                 self.descriptions.append(values.get("content", ""))
         if tag == "a":
-            anchor = Anchor(values)
+            anchor = Anchor(values, section=self._current_section)
             self.anchors.append(anchor)
             self._anchor = anchor
             href = values.get("href", "")
             if href:
                 self.links.append(href)
+                if self._list_items:
+                    self._list_items[-1].hrefs.append(href)
             if self._source_key is not None and not self._source_href:
                 self._source_href = href
         if tag == "img":
@@ -142,13 +180,27 @@ class PageParser(HTMLParser):
             self._title_chunks = []
         if tag == "h1":
             self._h1_chunks = []
-        if tag == "li" and values.get("data-source-key"):
+        if tag == "h2":
+            self._h2_chunks = []
+            self._h2_in_source_scope = self._scope_depth["wiki-knowledge-sources"] > 0
+        if tag == "li":
+            self._list_items.append(SectionItem(self._current_section, []))
+        if (
+            tag == "li"
+            and values.get("data-source-key")
+            and self._scope_depth["wiki-knowledge-sources"] > 0
+        ):
             self._source_key = values["data-source-key"]
             self._source_href = ""
             self._source_text = []
+        if tag == "time":
+            for scope in self.TRACKED_SCOPES:
+                if self._scope_depth[scope] > 0:
+                    self.times_by_scope[scope].append(values.get("datetime", ""))
 
     def handle_startendtag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         self.handle_starttag(tag, attrs)
+        self.handle_endtag(tag)
 
     def handle_data(self, data: str) -> None:
         if data.strip():
@@ -157,8 +209,12 @@ class PageParser(HTMLParser):
             self._title_chunks.append(data)
         if self._h1_chunks is not None:
             self._h1_chunks.append(data)
+        if self._h2_chunks is not None:
+            self._h2_chunks.append(data)
         if self._anchor is not None:
             self._anchor.text += data
+        if self._list_items:
+            self._list_items[-1].text += data
         if self._json_chunks is not None:
             self._json_chunks.append(data)
         if self._source_key is not None:
@@ -172,6 +228,13 @@ class PageParser(HTMLParser):
         if tag == "h1" and self._h1_chunks is not None:
             self.h1.append(" ".join("".join(self._h1_chunks).split()))
             self._h1_chunks = None
+        if tag == "h2" and self._h2_chunks is not None:
+            heading = " ".join("".join(self._h2_chunks).split())
+            self._current_section = heading
+            if self._h2_in_source_scope:
+                self.source_section_headings.append(heading)
+            self._h2_chunks = None
+            self._h2_in_source_scope = False
         if tag == "a":
             self._anchor = None
         if tag == "script" and self._json_chunks is not None:
@@ -184,6 +247,17 @@ class PageParser(HTMLParser):
             self._source_key = None
             self._source_href = ""
             self._source_text = []
+        if tag == "li" and self._list_items:
+            self.section_items.append(self._list_items.pop())
+        for index in range(len(self._stack) - 1, -1, -1):
+            if self._stack[index][0] != tag:
+                continue
+            closed = self._stack[index:]
+            del self._stack[index:]
+            for _closed_tag, scopes in closed:
+                for scope in scopes:
+                    self._scope_depth[scope] -= 1
+            break
 
     def elements_with_class(self, class_name: str, tag: str | None = None) -> list[dict[str, str]]:
         return [
@@ -576,6 +650,8 @@ def _verify_identity_page(
         for key in sources:
             route = f"wiki/sources/{key.casefold()}/"
             expected_items.append((key, urljoin(root_url, route), key))
+        if parser.source_sections != 1 or parser.source_section_headings != ["Sources"]:
+            raise ValueError(f"{relative}: source inventory is not scoped to exactly one Sources section")
         if len(parser.source_items) != len(expected_items):
             raise ValueError(f"{relative}: source inventory is incomplete")
         for (actual_key, href, visible), (key, expected_href, _label) in zip(parser.source_items, expected_items):
@@ -584,9 +660,25 @@ def _verify_identity_page(
             if not visible:
                 raise ValueError(f"{relative}: source inventory has an empty visible label")
         updated = page.metadata.get("last_updated")
-        times = [attrs for tag, attrs in parser.elements if tag == "time"]
-        if not isinstance(updated, str) or not any(attrs.get("datetime") == updated for attrs in times):
+        if (
+            not isinstance(updated, str)
+            or parser.times_by_scope["wiki-knowledge-signals"] != [updated]
+        ):
             raise ValueError(f"{relative}: source-derived update date mismatch")
+
+        canonical = _require_one(parser.canonical, "canonical", relative)
+        evidence_items = [item for item in parser.section_items if item.section == "Evidence"]
+        expected_source_urls = {item[1] for item in expected_items}
+        if not evidence_items or any(
+            not item.hrefs
+            or not any(urljoin(canonical, href) in expected_source_urls for href in item.hrefs)
+            for item in evidence_items
+        ):
+            raise ValueError(f"{relative}: each Evidence item must contain a canonical source anchor")
+        relationship = "Related Concepts" if page.section == "concepts" else "Relationships"
+        relationship_items = [item for item in parser.section_items if item.section == relationship]
+        if not relationship_items or any(not item.hrefs for item in relationship_items):
+            raise ValueError(f"{relative}: each {relationship} item must contain a relationship anchor")
 
 
 def _verify_images(
@@ -648,6 +740,16 @@ def _verify_projection(contract: CanonicalContract, parsers: dict[str, PageParse
             raise ValueError(f"Current Synthesis {label} source marker mismatch")
         if marker.get("data-summary") != summary or marker.get("data-source-count") != source_count:
             raise ValueError(f"Current Synthesis {label} derived metadata mismatch")
+    updated = str(contract.synthesis.get("last_updated", ""))
+    try:
+        parsed_updated = dt.date.fromisoformat(updated)
+    except ValueError as exc:
+        raise ValueError("canonical Current Synthesis date is invalid") from exc
+    del parsed_updated
+    if detail.times_by_scope["current-synthesis"] != [updated]:
+        raise ValueError("Current Synthesis detail date mismatch")
+    if landing.times_by_scope["current-synthesis-card"] != [updated]:
+        raise ValueError("Current Synthesis card date mismatch")
     for required_heading in ("Executive Summary", "Synthesis by Domain"):
         if required_heading not in detail.visible_text:
             raise ValueError(f"Current Synthesis detail is missing {required_heading}")
@@ -759,6 +861,8 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
             or schema.get("description") != description
         ):
             raise ValueError(f"{relative}: JSON-LD metadata differs from rendered metadata")
+        if schema.get("name") != parser.title:
+            raise ValueError(f"{relative}: JSON-LD name differs from the document title")
         raw = (public / relative).read_bytes()
         if b"[[" in raw or b"![[" in raw:
             raise ValueError(f"{relative}: unresolved canonical syntax leaked into HTML")
@@ -801,7 +905,12 @@ def verify_site(public: pathlib.Path | str, repository: pathlib.Path | str = REP
     for path in files:
         if not is_generated_text_artifact(path):
             continue
-        for leak in find_private_path_leaks_in_bytes(path.read_bytes()):
+        raw = path.read_bytes()
+        if b"[[" in raw:
+            raise ValueError(
+                f"{path.relative_to(public)}: unresolved canonical syntax leaked into generated text"
+            )
+        for leak in find_private_path_leaks_in_bytes(raw):
             raise ValueError(
                 f"{path.relative_to(public)}: private source path leaked into generated text: {leak}"
             )

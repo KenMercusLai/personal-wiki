@@ -71,7 +71,15 @@ class ExactConsumerContractTest(unittest.TestCase):
             self.assertFalse(forbidden.exists(), str(forbidden))
         for path in (PREPARE, OVERVIEW):
             text = path.read_text(encoding="utf-8").casefold()
-            for token in ("openai", "anthropic", "codex", "claude", "tools.synthesis"):
+            for token in (
+                "openai",
+                "anthropic",
+                "codex",
+                "claude",
+                "from tools import synthesis",
+                "import tools.synthesis",
+                "-m tools.synthesis",
+            ):
                 self.assertNotIn(token, text, f"{path}: {token}")
 
     def test_consumer_has_no_retired_producer_runtime(self):
@@ -134,6 +142,41 @@ class ExactConsumerContractTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "unowned output collision"):
                 prepare.prepare(fixture)
             self.assertEqual(collision.read_text(), "manual\n")
+
+    def test_unowned_stale_binary_is_never_deleted(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_binary_collision")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+            collision = fixture / ".generated/wiki/sources/manual/unowned.jpg"
+            collision.parent.mkdir(parents=True)
+            collision.write_bytes(b"manual binary")
+            with self.assertRaisesRegex(ValueError, "unowned stale output"):
+                prepare.prepare(fixture)
+            self.assertEqual(collision.read_bytes(), b"manual binary")
+
+    def test_manifest_digest_allows_generated_image_lifecycle(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_binary_lifecycle")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+            prepare.prepare(fixture)
+            source_assets = fixture / "wiki-assets/ai-guide-for-humanities-workers"
+            manifest_path = source_assets / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            removed = manifest["images"].pop()
+            manifest_path.write_text(
+                json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
+            (source_assets / removed["file"]).unlink()
+            generated = fixture / ".generated/wiki/sources/ai-guide-for-humanities-workers" / removed["file"]
+            self.assertTrue(generated.is_file())
+            prepare.prepare(fixture)
+            self.assertFalse(generated.exists())
+            prepare.prepare(fixture, check=True)
 
 
 if __name__ == "__main__":

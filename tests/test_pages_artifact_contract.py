@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -86,6 +87,78 @@ class PagesArtifactContractTest(unittest.TestCase):
             page.write_text(page.read_text().replace("wiki/concepts/materialstimestaste/", "wiki/concepts/missing/", 1))
             with self.assertRaisesRegex(ValueError, "unresolved internal URL"):
                 verifier.verify_site(copied, ROOT)
+
+    def test_unresolved_wikilink_in_non_html_public_text_is_rejected(self):
+        verifier = load_verifier("personal_artifact_text_wikilink")
+        with tempfile.TemporaryDirectory() as td:
+            copied = Path(td) / "public"
+            shutil.copytree(PUBLIC, copied)
+            (copied / "index.xml").unlink(missing_ok=True)
+            (copied / "leaked-feed.xml").write_text(
+                "<rss><description>See [[AIProductionPipeline]]</description></rss>\n",
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "unresolved canonical syntax"):
+                verifier.verify_site(copied, ROOT)
+
+    def test_section_scoped_schema_date_provenance_and_jsonld_are_enforced(self):
+        verifier = load_verifier("personal_artifact_section_scopes")
+
+        def strip_anchors(text: str, start: str, end: str) -> str:
+            prefix, remainder = text.split(start, 1)
+            section, suffix = remainder.split(end, 1)
+            stripped = re.sub(r"<a\b[^>]*>(.*?)</a>", r"\1", section)
+            self.assertNotEqual(stripped, section)
+            return prefix + start + stripped + end + suffix
+
+        def mutate(name: str, copied: Path) -> None:
+            if name in {"evidence-anchor", "relationship-anchor", "sources-scope"}:
+                page = copied / "wiki/concepts/aiproductionpipeline/index.html"
+                text = page.read_text(encoding="utf-8")
+                if name == "evidence-anchor":
+                    text = strip_anchors(text, "<h2 id=evidence>", "<h2 id=counterevidence--qualifications>")
+                elif name == "relationship-anchor":
+                    text = strip_anchors(text, "<h2 id=related-concepts>", "</div><section class=wiki-knowledge-sources")
+                else:
+                    pattern = re.compile(
+                        r"(<section class=wiki-knowledge-sources\b.*?<ol>)(<li data-source-key=.*?</li>)(</ol>)"
+                    )
+                    match = pattern.search(text)
+                    self.assertIsNotNone(match)
+                    assert match is not None
+                    text = text[: match.start()] + match.group(2) + match.group(1) + match.group(3) + text[match.end() :]
+                page.write_text(text, encoding="utf-8")
+                return
+            page = copied / "wiki/current-synthesis/index.html"
+            text = page.read_text(encoding="utf-8")
+            if name == "current-date":
+                changed = text.replace(
+                    "class=synthesis-updated>Updated <time datetime=2026-09-02",
+                    "class=synthesis-updated>Updated <time datetime=not-a-date",
+                    1,
+                )
+            else:
+                changed = text.replace(
+                    '"name":"Current Synthesis · Ken 的个人知识 Wiki"',
+                    '"name":"Wrong synthesis identity"',
+                    1,
+                )
+            self.assertNotEqual(changed, text)
+            page.write_text(changed, encoding="utf-8")
+
+        for mutation in (
+            "evidence-anchor",
+            "relationship-anchor",
+            "sources-scope",
+            "current-date",
+            "jsonld-name",
+        ):
+            with self.subTest(mutation=mutation), tempfile.TemporaryDirectory() as td:
+                copied = Path(td) / "public"
+                shutil.copytree(PUBLIC, copied)
+                mutate(mutation, copied)
+                with self.assertRaisesRegex(ValueError, "(?:Evidence|Related Concepts|source inventory|date|JSON-LD name)"):
+                    verifier.verify_site(copied, ROOT)
 
 
 if __name__ == "__main__":

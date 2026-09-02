@@ -477,7 +477,7 @@ def _is_owned(path: Path, root: Path, previous_manifest: dict[str, str]) -> bool
         except (UnicodeDecodeError, json.JSONDecodeError):
             return False
         return isinstance(data, dict) and data.get(GENERATED_JSON_KEY) == GENERATOR_ID
-    return True
+    return False
 
 
 def _safe_output(path: Path, root: Path) -> None:

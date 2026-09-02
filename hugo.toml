@@ -35,6 +35,6 @@ ignoreFiles = ['(^|/)(wiki/)?(index|log|overview)\\.md$', '(^|/)wiki/_generated/
     target = 'static'
 
 [outputs]
-  home = ['HTML', 'RSS']
+  home = ['HTML']
   section = ['HTML']
   page = ['HTML']
