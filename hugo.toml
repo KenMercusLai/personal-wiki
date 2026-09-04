@@ -4,6 +4,7 @@ defaultContentLanguage = 'zh'
 title = 'Ken 的个人知识 Wiki'
 enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
+ignoreFiles = ['(^|/)(wiki/)?(index|log|overview)\\.md$', '(^|/)wiki/_generated/']
 
 [params]
   description = '从个人阅读材料中持续提炼、连接和维护的知识库。'
@@ -20,8 +21,20 @@ disableKinds = ['taxonomy', 'term']
   [[module.mounts]]
     source = '.generated/wiki'
     target = 'content/wiki'
+  [[module.mounts]]
+    source = '.generated/wiki-projections'
+    target = 'content/wiki-projections'
+  [[module.mounts]]
+    source = '.generated/data'
+    target = 'data'
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
 
 [outputs]
-  home = ['HTML', 'RSS']
+  home = ['HTML']
   section = ['HTML']
   page = ['HTML']

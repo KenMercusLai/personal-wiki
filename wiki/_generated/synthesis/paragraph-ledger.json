@@ -1,0 +1,31 @@
+{
+  "coverage": {
+    "assigned_paragraph_ids": [
+      "a42fe8858db7a3aee8907c460e784d9ef514d85c7db0a5fa4dcffe13605bde9e"
+    ],
+    "paragraph_count": 1
+  },
+  "overview_commit": "9dbf2381f5120326a4ba2dc4f5bd66cae5636d7e",
+  "overview_digest": "b83254156d38a569a3e9b6a9bd5a7bd57ec531af2793ea0fba229ab606ff5abd",
+  "paragraphs": [
+    {
+      "id": "a42fe8858db7a3aee8907c460e784d9ef514d85c7db0a5fa4dcffe13605bde9e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "可靠的人文 AI 实践以 [[AIWorkflowForHumanitiesWorkers]] 为责任框架，以 [[AIProductionPipeline]] 将复杂任务拆成可复现步骤，并用 [[MaterialsTimesTaste]] 约束最终质量。[[HanYang]] 的来源限定经验显示，模型可以协助整理、生成与审稿，但真实材料、证据判断、品味和署名责任仍由人类承担。",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AIProductionPipeline",
+        "AIWorkflowForHumanitiesWorkers",
+        "HanYang",
+        "MaterialsTimesTaste"
+      ]
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "claims": [
+    {
+      "global_candidate": false,
+      "id": "humanities-method-claim-remains-source-bounded",
+      "qualifications": [
+        "No historical or geopolitical proposition is established by the current single-source corpus."
+      ],
+      "statement": "[[MaterialsTimesTaste]] keeps humanistic evidence gathering and interpretive judgment visible even when AI assists production.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MaterialsTimesTaste",
+        "AIWorkflowForHumanitiesWorkers"
+      ]
+    }
+  ],
+  "summary": "The current corpus contributes a source-bounded humanities-method perspective rather than a substantive historical or geopolitical conclusion.",
+  "topic_id": "history-and-geopolitics"
+}

@@ -1,0 +1,21 @@
+{
+  "claims": [
+    {
+      "global_candidate": true,
+      "id": "human-accountability-bounds-ai-workflows",
+      "qualifications": [
+        "The current synthesis is grounded in one source and should not be generalized to every discipline without further evidence."
+      ],
+      "statement": "[[AIWorkflowForHumanitiesWorkers]] and [[AIProductionPipeline]] make reliability depend on traceable steps, explicit standards, and retained human judgment.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AIWorkflowForHumanitiesWorkers",
+        "AIProductionPipeline",
+        "MaterialsTimesTaste",
+        "HanYang"
+      ]
+    }
+  ],
+  "summary": "Humanistic AI practice is strongest when models operate inside explicit, inspectable workflows and people retain responsibility for evidence, quality, and authorship.",
+  "topic_id": "ai-and-technology"
+}
