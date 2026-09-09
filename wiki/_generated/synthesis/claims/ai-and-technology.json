@@ -38,8 +38,22 @@
         "AbstractionInLearning",
         "LearningDrive"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "explanation-and-knowledge-systems-form-a-learning-loop",
+      "qualifications": [
+        "The workflow is based on one author's practice rather than comparative evidence.",
+        "Automatic summaries and associations may introduce errors, privacy risks, and portability constraints."
+      ],
+      "statement": "[[FeynmanTechnique]] uses failures of plain-language explanation to direct further study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "FeynmanTechnique",
+        "PersonalKnowledgeManagement"
+      ]
     }
   ],
-  "summary": "The corpus links practical control of tools and information environments with goal-directed learning: automation, offline work, and controlled information delivery may reduce friction, while goals and abstraction can organize attention and knowledge. Both strands remain source-scoped heuristics without comparative evidence across tasks or learners.",
+  "summary": "The corpus links control of tools and information environments with output-driven learning. Automation, offline work, goals, abstraction, plain-language explanation, and theme-based knowledge systems may reduce friction and expose gaps, but these practices remain source-scoped and AI organization adds accuracy, privacy, and portability risks.",
   "topic_id": "ai-and-technology"
 }

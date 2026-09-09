@@ -29,3 +29,9 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added concepts `GoalDirectedLearning`, `LearningDrive`, and `AbstractionInLearning`.
 - Added entities `PiotrWozniak` and `PeterThiel` with source-bounded profiles.
 - Recorded goals as learning scaffolding, their limits for curiosity-driven experts, and the evidence boundary of the article's explanatory model.
+
+## [2026-09-09] ingest | 费曼学习法实践 / INDIGO 的信息获取与知识输出方法论
+
+- Added the source note and concepts `FeynmanTechnique` and `PersonalKnowledgeManagement`.
+- Added a source-bounded profile for `RichardFeynman`.
+- Recorded the output-driven learning workflow, AI knowledge-tool hypothesis, and the unsupported status of fixed retention percentages.

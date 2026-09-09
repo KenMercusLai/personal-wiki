@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-09
-as_of_overview_commit: 0b6deb758d83ffb2cbaa5dd250ba795acda856c5
-input_digest: 05d154d2d3ec5264c5db9bd343cf92bc0fb303da92cd64b1ac53eadfac8d3820
+as_of_overview_commit: deebab4e67069ff60cd59eae252990d257063867
+input_digest: 26505307aae7c7100b8348ff9d7e24155f10011be693781c1809bafa02b55075
 ---
 
 # AI and Technology
 
 ## Current State
 
-The corpus links practical control of tools and information environments with goal-directed learning: automation, offline work, and controlled information delivery may reduce friction, while goals and abstraction can organize attention and knowledge. Both strands remain source-scoped heuristics without comparative evidence across tasks or learners.
+The corpus links control of tools and information environments with output-driven learning. Automation, offline work, goals, abstraction, plain-language explanation, and theme-based knowledge systems may reduce friction and expose gaps, but these practices remain source-scoped and AI organization adds accuracy, privacy, and portability risks.
 
 ## Cross-source Findings
 
@@ -46,3 +46,14 @@ The corpus links practical control of tools and information environments with go
 
 - The mechanism is drawn from one author's explanatory model and anecdotes, not comparative empirical evidence.
 - The controlled-topic assignment reflects the paragraph's vocabulary rather than evidence that this is specifically a technology finding.
+
+### Explanation And Knowledge Systems Form A Learning Loop
+
+[[FeynmanTechnique]] uses failures of plain-language explanation to direct further study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.
+
+**Evidence:** [[FeynmanTechnique]], [[PersonalKnowledgeManagement]]
+
+**Qualifications:**
+
+- The workflow is based on one author's practice rather than comparative evidence.
+- Automatic summaries and associations may introduce errors, privacy risks, and portability constraints.

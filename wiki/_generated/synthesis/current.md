@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: 0b6deb758d83ffb2cbaa5dd250ba795acda856c5
-summary: "Across geometry, careers, productivity, and learning, the corpus favors selective simplification while preserving limits on fidelity, feasibility, and evidence."
-episode_count: 4
-source_count: 4
-paragraph_count: 5
+as_of_overview_commit: deebab4e67069ff60cd59eae252990d257063867
+summary: "Across geometry, careers, productivity, and learning, the corpus favors selective structure and feedback while preserving limits on fidelity, feasibility, and evidence."
+episode_count: 5
+source_count: 5
+paragraph_count: 6
 topic_count: 3
 ---
 
@@ -22,15 +22,17 @@ topic_count: 3
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
 - [[WorkHabits]] combines [[TaskPrioritization]], [[AttentionManagement]], and workload reduction to focus effort on a small number of valuable tasks.
 - [[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.
+- [[FeynmanTechnique]] and [[PersonalKnowledgeManagement]] connect explanation, focused reading, reusable notes, and progressively deeper outputs, but the workflow remains source-scoped.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The corpus links practical control of tools and information environments with goal-directed learning: automation, offline work, and controlled information delivery may reduce friction, while goals and abstraction can organize attention and knowledge. Both strands remain source-scoped heuristics without comparative evidence across tasks or learners.
+The corpus links control of tools and information environments with output-driven learning. Automation, offline work, goals, abstraction, plain-language explanation, and theme-based knowledge systems may reduce friction and expose gaps, but these practices remain source-scoped and AI organization adds accuracy, privacy, and portability risks.
 
 - [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction. Evidence: [[WorkHabits]].
 - [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
+- [[FeynmanTechnique]] uses failures of plain-language explanation to direct further study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use. Evidence: [[FeynmanTechnique]], [[PersonalKnowledgeManagement]].
 
 ### Work, Education, and Society
 

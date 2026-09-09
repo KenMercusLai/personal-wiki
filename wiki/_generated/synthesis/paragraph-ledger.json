@@ -6,11 +6,12 @@
       "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e",
       "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6",
       "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7"
+      ,"03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8"
     ],
-    "paragraph_count": 5
+    "paragraph_count": 6
   },
-  "overview_commit": "0b6deb758d83ffb2cbaa5dd250ba795acda856c5",
-  "overview_digest": "1b006233bf83430c0a9101fde7e922eca6f752b989f629eb63bacbdcd02fe13e",
+  "overview_commit": "deebab4e67069ff60cd59eae252990d257063867",
+  "overview_digest": "191e7f85158043a98018a632caa26185d8c6d8983173c10ad3522d55ea4ee283",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -77,6 +78,20 @@
         "AbstractionInLearning",
         "GoalDirectedLearning",
         "LearningDrive"
+      ]
+    },
+    {
+      "id": "03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "[[FeynmanTechnique]] adds an output-driven loop to that learning model: organize a topic, explain it plainly, use failures of explanation to select further study, and simplify the result into a reusable structure. [[PersonalKnowledgeManagement]] supplies the external workflow around that loop, moving from open discovery to focused reading and then from short notes to long-form and course output. Its theme pages connect books, links, excerpts, drafts, and research around future use rather than collection alone. The proposed AI layer—automatic summaries, tags, associations, and retrieval—remains a forward-looking claim with accuracy, privacy, and portability questions. The article's fixed learning-retention percentages are not treated as established evidence.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FeynmanTechnique",
+        "PersonalKnowledgeManagement"
       ]
     }
   ],
