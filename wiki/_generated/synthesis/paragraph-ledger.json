@@ -9,12 +9,14 @@
       "03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8",
       "7fa1e3319af81729e7dfbcba80898fb24310008081991a81574fc31bf44b4c4a",
       "07fe6e8797e9ad99c4db15812485d20ceb62ed7b1bd29b18656c6c42ec7c4011",
+      "165acce44a55c2c8e292269a3663e96a80bbe7004a70d23a71cef7a8be0bf25f",
+      "5c703953a3ceba380089e5b9feb622be143eaeb94469d4437531534f6028550c",
       "613769f1985a0cebe514aa83bc9fd62c7639b4e86dbc33d36f563b62a7234c87"
     ],
-    "paragraph_count": 9
+    "paragraph_count": 11
   },
-  "overview_commit": "1699cd969141b6e70e57ac7369c15a339b31e71e",
-  "overview_digest": "443194db66babe28bc7f19a9b07991ca52982efe9a7f8e8e51a5bd84c4715f8f",
+  "overview_commit": "582e7014dfaa0a7b44f82c712496177b2336ac52",
+  "overview_digest": "b6c7914049f189f8406596bbe08763072a0f7b32a83f68220325fb6ad021bd44",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -128,6 +130,33 @@
         "LangChain",
         "Replit",
         "RetrievalAugmentedGeneration"
+      ]
+    },
+    {
+      "id": "165acce44a55c2c8e292269a3663e96a80bbe7004a70d23a71cef7a8be0bf25f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "For creative translation, [[MachineAssistedPunTranslation]] applies a related retrieve-then-compose pattern to a different objective: phonetic matching first extracts pun-bearing authentic dialogue, semantic similarity ranks candidates against a source line, and a translator or model produces the final wording. [[MancoDB]] is the source's project-specific implementation for [[WomanCommunication]]. This reduces open-ended search but does not automate judgments about tone, naturalness, humor, or cultural fit; the reported gains come from one practitioner account without comparative evaluation.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "MachineAssistedPunTranslation",
+        "MancoDB",
+        "WomanCommunication"
+      ]
+    },
+    {
+      "id": "5c703953a3ceba380089e5b9feb622be143eaeb94469d4437531534f6028550c",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The same localization shows why text cannot always be handled in isolation. [[GameLocalizationDomestication]] coordinates character names and setting so Chinese puns feel native to the target version, accepting possible continuity costs. [[WeakPlayerGuidance]] coordinates repeated wording, first-character score rewards, screen placement, and combat distraction to lead players toward a hidden overlap mechanic without explicit instruction. The Chinese 鲍/口鲍 reconstruction preserves that causal sequence but is judged less reliable because the overlap is shorter and visually easier to analyze.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "GameLocalizationDomestication",
+        "WeakPlayerGuidance"
       ]
     },
     {

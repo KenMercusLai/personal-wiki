@@ -11,6 +11,7 @@ sources:
   - rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian
   - chen-hao-http-de-qian-shi-jin-sheng
   - ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt
+  - wei-jie-ru-he-yong-bao-li-ji-suan-fan-yi-xie-yin-geng-nu-xing-jiao-liu-fan-yi-bi-ji
 last_updated: 2026-09-09
 ---
 # Overview
@@ -35,6 +36,10 @@ For AI infrastructure, [[InferenceLoadBalancing]] links model-aware request sizi
 
 For AI application construction, [[RetrievalAugmentedGeneration]] separates a model's language capability from external knowledge by splitting documents, embedding and indexing chunks, retrieving material similar to a question, and passing it with dialogue history into generation. [[LLMApplicationFrameworks]] such as [[LangChain]] package those steps alongside prompts, memory, model access, and tools; the tutorial uses [[Replit]] to reduce local setup. This is a small historical demonstration rather than evidence of retrieval accuracy or production readiness, and its API interfaces, knowledge-cutoff statements, funding figures, and ecosystem claims are time-sensitive.
 
+For creative translation, [[MachineAssistedPunTranslation]] applies a related retrieve-then-compose pattern to a different objective: phonetic matching first extracts pun-bearing authentic dialogue, semantic similarity ranks candidates against a source line, and a translator or model produces the final wording. [[MancoDB]] is the source's project-specific implementation for [[WomanCommunication]]. This reduces open-ended search but does not automate judgments about tone, naturalness, humor, or cultural fit; the reported gains come from one practitioner account without comparative evaluation.
+
+The same localization shows why text cannot always be handled in isolation. [[GameLocalizationDomestication]] coordinates character names and setting so Chinese puns feel native to the target version, accepting possible continuity costs. [[WeakPlayerGuidance]] coordinates repeated wording, first-character score rewards, screen placement, and combat distraction to lead players toward a hidden overlap mechanic without explicit instruction. The Chinese 鲍/口鲍 reconstruction preserves that causal sequence but is judged less reliable because the overlap is shorter and visually easier to analyze.
+
 For Web infrastructure, [[HTTPProtocolEvolution]] moves from HTTP/1.0 metadata and per-resource connections through HTTP/1.1 persistence to HTTP/2 binary framing and multiplexing. HTTP/2 improves concurrency but retains TCP-level head-of-line blocking: loss in the shared ordered byte stream can stall unrelated HTTP streams. HTTP/3 therefore uses [[QUIC]], which implements secure reliable transport and independent streams over UDP, adds connection IDs for path migration, and must coexist with middleboxes and load balancers built around conventional flow tuples. The source is a 2019 overview; its adoption figures are historical, several mechanism descriptions are simplified, and future displacement of TCP remains speculative.
 
 ## Open Questions
@@ -56,3 +61,6 @@ For Web infrastructure, [[HTTPProtocolEvolution]] moves from HTTP/1.0 metadata a
 - Which deployment environments still block or degrade QUIC, and how effective are fallback strategies?
 - How do chunk size, embedding choice, retrieval strategy, and context assembly affect answer recall and faithfulness on representative private corpora?
 - What evaluation, access-control, deletion, and prompt-injection defenses are required before a hosted RAG prototype can handle sensitive organizational data?
+- How much do phonetic pre-filtering and semantic retrieval improve pun-translation speed and quality against unaided translators or model-only baselines?
+- Which corpus licensing, privacy, and bias controls are needed when mining authentic dialogue for creative translation candidates?
+- How can implicit tutorial cues be tested causally across languages without relying only on selected playthroughs?

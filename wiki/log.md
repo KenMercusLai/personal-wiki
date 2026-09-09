@@ -53,3 +53,15 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added the source note and concepts `RetrievalAugmentedGeneration` and `LLMApplicationFrameworks`.
 - Added source-bounded profiles for `LangChain` and `Replit`.
 - Recorded the document-to-vector retrieval workflow, application-framework abstractions, and security, evaluation, and time-sensitivity qualifications.
+
+## [2026-09-09] ingest | 如何用暴力计算翻译谐音梗——《女性交流》翻译笔记
+
+- Added the source note and concepts `MachineAssistedPunTranslation`, `GameLocalizationDomestication`, and `WeakPlayerGuidance`.
+- Added source-bounded profiles for `WeiJie`, `MancoDB`, and `WomanCommunication`.
+- Distinguished creative retrieve-then-compose from factual RAG and recorded the limits of the reported translation and guidance outcomes.
+
+## [2026-09-09] lint | Wiki health check
+
+- Confirmed unique identities, complete inbound and outbound link coverage, and no broken wikilinks or missing repeated entities.
+- Reviewed the new source-bounded synthesis for contradictions, staleness, and unsupported generalization; no repair was required.
+- Noted that the machine-assisted translation evidence remains a single practitioner account without comparative evaluation or implementation details.

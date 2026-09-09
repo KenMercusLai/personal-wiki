@@ -60,9 +60,9 @@
       "id": "retrieval-connects-external-knowledge-to-generation",
       "qualifications": [
         "The evidence is a small historical tutorial rather than an evaluation of retrieval accuracy, answer faithfulness, security, or production readiness.",
-        "The described interfaces, model knowledge cutoff, funding figures, and ecosystem adoption are time-sensitive."
+        "The described interfaces and ecosystem claims are time-sensitive."
       ],
-      "statement": "[[RetrievalAugmentedGeneration]] can connect external knowledge to model responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and hosted environments such as [[Replit]] can package the prototype workflow.",
+      "statement": "[[RetrievalAugmentedGeneration]] can connect external knowledge to responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and environments such as [[Replit]] can package a prototype workflow.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "RetrievalAugmentedGeneration",
@@ -70,8 +70,23 @@
         "LangChain",
         "Replit"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "phonetic-and-semantic-retrieval-supports-pun-translation",
+      "qualifications": [
+        "Retrieval does not resolve tone, naturalness, humor, or cultural fit.",
+        "The reported gains come from one practitioner account without a comparative evaluation."
+      ],
+      "statement": "[[MachineAssistedPunTranslation]] can use phonetic filtering and semantic retrieval to narrow creative candidates, as the project-specific [[MancoDB]] workflow did for [[WomanCommunication]].",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MachineAssistedPunTranslation",
+        "MancoDB",
+        "WomanCommunication"
+      ]
     }
   ],
-  "summary": "The corpus connects practical information control, learning workflows, AI-serving infrastructure, and retrieval-based application construction. These accounts remain source-scoped: personal practices lack comparative evidence, routing judgments lack common benchmarks, and the RAG tutorial does not establish retrieval accuracy or production security.",
+  "summary": "The corpus connects practical information control and learning workflows with AI-serving infrastructure, knowledge-grounded generation, and constrained creative retrieval. All conclusions remain source-scoped: personal practices lack comparative evidence, routing lacks common benchmarks, the RAG tutorial lacks production evaluation, and the pun workflow is a single practitioner account.",
   "topic_id": "ai-and-technology"
 }

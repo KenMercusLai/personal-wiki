@@ -14,6 +14,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [锐评主流AI推理负载均衡开源实现](sources/rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian.md) - 从 tokenization、指标采集与路由决策比较四种开源推理负载均衡实现。
 - [陈皓 - HTTP的前世今生](sources/chen-hao-http-de-qian-shi-jin-sheng.md) - 从工程化、性能与传输层约束梳理 HTTP/0.9 至 HTTP/3 的演进。
 - [零基础｜搭建基于私域数据的ChatGPT](sources/ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt.md) - 用 Replit、LangChain、嵌入和向量检索演示基于私域文本的问答流程。
+- [如何用暴力计算翻译谐音梗——《女性交流》翻译笔记](sources/wei-jie-ru-he-yong-bao-li-ji-suan-fan-yi-xie-yin-geng-nu-xing-jiao-liu-fan-yi-bi-ji.md) - 以语音筛选、语义检索和人工判断规模化处理游戏谐音梗，并重建归化命名与弱引导。
 
 ## Entities
 - [Richard Feynman](entities/RichardFeynman.md) - 与解释式学习方法相关联的物理学家。
@@ -29,6 +30,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - 当前来源所述 HTTP 与万维网的发明者。
 - [LangChain](entities/LangChain.md) - 连接模型、提示、记忆、检索与工具的 LLM 应用开发框架。
 - [Replit](entities/Replit.md) - 托管教程示例、凭据与运行环境的在线开发平台。
+- [Wei Jie](entities/WeiJie.md) - 《女性交流》中文关卡对话与程序负责人及 MancoDB 工作流作者。
+- [MancoDB](entities/MancoDB.md) - 面向谐音梗翻译的语音约束与语义检索工作流。
+- [Woman Communication](entities/WomanCommunication.md) - 以识别对话中敏感词谐音为核心玩法的日本独立游戏。
 
 ## Concepts
 - [Feynman Technique](concepts/FeynmanTechnique.md) - 通过简洁解释发现理解缺口并迭代修正的学习循环。
@@ -49,5 +53,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [QUIC](concepts/QUIC.md) - 在 UDP 之上实现可靠、安全且流感知的 HTTP/3 传输。
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - 检索外部材料并作为上下文交给生成模型的问答模式。
 - [LLM Application Frameworks](concepts/LLMApplicationFrameworks.md) - 组合模型、提示、记忆、检索和工具的开发抽象层。
+- [Machine-Assisted Pun Translation](concepts/MachineAssistedPunTranslation.md) - 以语音约束和语义检索为译者生成目标语言双关候选。
+- [Game Localization Domestication](concepts/GameLocalizationDomestication.md) - 协调改写姓名、舞台与文化线索以保存目标玩家体验。
+- [Weak Player Guidance](concepts/WeakPlayerGuidance.md) - 通过重复、奖励、显著性与注意力负荷隐式引导玩家行动。
 
 ## Syntheses

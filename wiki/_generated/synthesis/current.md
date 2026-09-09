@@ -4,30 +4,32 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: 1699cd969141b6e70e57ac7369c15a339b31e71e
-summary: "A source-scoped map of learning, work, trajectory simplification, Web transport, AI serving, and retrieval-based application construction."
-episode_count: 8
-source_count: 8
-paragraph_count: 9
-topic_count: 4
+as_of_overview_commit: 582e7014dfaa0a7b44f82c712496177b2336ac52
+summary: "A source-scoped map of learning, work, translation, game localization, trajectory simplification, Web transport, AI serving, and retrieval-based systems."
+episode_count: 9
+source_count: 9
+paragraph_count: 11
+topic_count: 5
 ---
 
 # Current Synthesis
 
 ## Executive Summary
 
-- [[RetrievalAugmentedGeneration]] can connect external knowledge to model responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and hosted environments such as [[Replit]] can package the prototype workflow.
+- [[MachineAssistedPunTranslation]] can use phonetic filtering and semantic retrieval to narrow creative candidates, as the project-specific [[MancoDB]] workflow did for [[WomanCommunication]].
+- [[WeakPlayerGuidance]] can combine prior wording, reward rules, placement, and attention load to suggest a hidden action without explicit instruction.
+- [[RetrievalAugmentedGeneration]] can connect external knowledge to responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and environments such as [[Replit]] can package a prototype workflow.
 - [[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefixes against active decode load.
-- [[FeynmanTechnique]] uses failures of plain-language explanation to direct study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.
 - [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint.
 - [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior.
 - [[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.
+- [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The corpus connects information control, learning workflows, inference infrastructure, and RAG application construction, with evidence and production-readiness limits.
+The corpus connects information control and learning workflows with AI-serving infrastructure, knowledge-grounded generation, and constrained creative retrieval; each remains limited by source-scoped evidence or missing evaluation.
 
 - [[WorkHabits]] can combine prioritization, reduced switching, automation, delegation, and offline work to lower execution friction. Evidence: [[WorkHabits]], [[TaskPrioritization]], [[AttentionManagement]].
 - [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also persist through curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
@@ -38,6 +40,13 @@ Trajectory simplification reduces data volume while requiring application-specif
 
 - [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint. Evidence: [[TrajectorySimplification]].
 - [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition. Evidence: [[RamerDouglasPeuckerAlgorithm]].
+
+### Culture and Media
+
+Game localization can coordinate names, setting, wording, mechanics, and interface cues to preserve player experience, but the current case does not establish behavioral equivalence across audiences.
+
+- [[GameLocalizationDomestication]] can coordinate names and setting so target-language wordplay feels internally coherent, while accepting possible continuity and source-culture costs. Evidence: [[GameLocalizationDomestication]].
+- [[WeakPlayerGuidance]] can combine prior wording, reward rules, placement, and attention load to suggest a hidden action without explicit instruction. Evidence: [[WeakPlayerGuidance]].
 
 ### History and Geopolitics
 

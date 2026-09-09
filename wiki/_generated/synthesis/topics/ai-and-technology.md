@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-09
-as_of_overview_commit: 1699cd969141b6e70e57ac7369c15a339b31e71e
-input_digest: d968979a009b8bccce3f3947e6ec8e199a1607ae8f8c9de05569cd8035ba32b6
+as_of_overview_commit: 582e7014dfaa0a7b44f82c712496177b2336ac52
+input_digest: 8f112ff5a8cc60594b39fab3b9c644ca7b995451fb307ce4ee698ffc8fd82070
 ---
 
 # AI and Technology
 
 ## Current State
 
-The corpus connects practical information control, learning workflows, AI-serving infrastructure, and retrieval-based application construction. These accounts remain source-scoped: personal practices lack comparative evidence, routing judgments lack common benchmarks, and the RAG tutorial does not establish retrieval accuracy or production security.
+The corpus connects practical information control and learning workflows with AI-serving infrastructure, knowledge-grounded generation, and constrained creative retrieval. All conclusions remain source-scoped: personal practices lack comparative evidence, routing lacks common benchmarks, the RAG tutorial lacks production evaluation, and the pun workflow is a single practitioner account.
 
 ## Cross-source Findings
 
@@ -59,11 +59,22 @@ The corpus connects practical information control, learning workflows, AI-servin
 
 ### Retrieval Connects External Knowledge To Generation
 
-[[RetrievalAugmentedGeneration]] can connect external knowledge to model responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and hosted environments such as [[Replit]] can package the prototype workflow.
+[[RetrievalAugmentedGeneration]] can connect external knowledge to responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and environments such as [[Replit]] can package a prototype workflow.
 
 **Evidence:** [[RetrievalAugmentedGeneration]], [[LLMApplicationFrameworks]], [[LangChain]], [[Replit]]
 
 **Qualifications:**
 
 - The evidence is a small historical tutorial rather than an evaluation of retrieval accuracy, answer faithfulness, security, or production readiness.
-- The described interfaces, model knowledge cutoff, funding figures, and ecosystem adoption are time-sensitive.
+- The described interfaces and ecosystem claims are time-sensitive.
+
+### Phonetic And Semantic Retrieval Supports Pun Translation
+
+[[MachineAssistedPunTranslation]] can use phonetic filtering and semantic retrieval to narrow creative candidates, as the project-specific [[MancoDB]] workflow did for [[WomanCommunication]].
+
+**Evidence:** [[MachineAssistedPunTranslation]], [[MancoDB]], [[WomanCommunication]]
+
+**Qualifications:**
+
+- Retrieval does not resolve tone, naturalness, humor, or cultural fit.
+- The reported gains come from one practitioner account without a comparative evaluation.

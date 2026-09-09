@@ -1,0 +1,31 @@
+{
+  "claims": [
+    {
+      "global_candidate": true,
+      "id": "domestication-coordinates-wordplay-and-setting",
+      "qualifications": [
+        "The conclusion comes from one localizer's account and selected streamer reactions rather than systematic audience research."
+      ],
+      "statement": "[[GameLocalizationDomestication]] can coordinate names and setting so target-language wordplay feels internally coherent, while accepting possible continuity and source-culture costs.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "GameLocalizationDomestication"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "implicit-guidance-depends-on-multiple-cues",
+      "qualifications": [
+        "The Chinese reconstruction was judged less reliable because its overlap was shorter and visually easier to analyze.",
+        "Selected playthroughs do not isolate which cue caused player behavior."
+      ],
+      "statement": "[[WeakPlayerGuidance]] can combine prior wording, reward rules, placement, and attention load to suggest a hidden action without explicit instruction.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "WeakPlayerGuidance"
+      ]
+    }
+  ],
+  "summary": "The corpus treats game localization as reconstruction of player experience across names, setting, wording, mechanics, timing, and interface salience. The single case shows a plausible coordinated strategy while preserving continuity costs and language-specific limits on behavioral equivalence.",
+  "topic_id": "culture-and-media"
+}
