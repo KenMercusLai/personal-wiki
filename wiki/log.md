@@ -22,3 +22,10 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added concepts `WorkHabits`, `TaskPrioritization`, and `AttentionManagement`.
 - Added entities `BernardMarr` and `StephenCovey` with source-bounded profiles.
 - Recorded evidence limits around the article's general productivity recommendations.
+
+## [2026-09-09] ingest | 设立目标可以改变你的生活
+
+- Added source note `she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo`.
+- Added concepts `GoalDirectedLearning`, `LearningDrive`, and `AbstractionInLearning`.
+- Added entities `PiotrWozniak` and `PeterThiel` with source-bounded profiles.
+- Recorded goals as learning scaffolding, their limits for curiosity-driven experts, and the evidence boundary of the article's explanatory model.

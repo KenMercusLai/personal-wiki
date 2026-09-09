@@ -38,8 +38,34 @@
         "TaskPrioritization",
         "AttentionManagement"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "goals-scaffold-but-do-not-guarantee-learning-drive",
+      "qualifications": [
+        "The claim rests on one author's model and illustrative cases rather than comparative studies.",
+        "Externally imposed or overly rigid goals may suppress exploration instead of supporting it."
+      ],
+      "statement": "[[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "GoalDirectedLearning",
+        "LearningDrive"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "abstraction-organizes-changing-knowledge",
+      "qualifications": [
+        "The legal-learning example does not establish how much factual fluency other domains require."
+      ],
+      "statement": "[[AbstractionInLearning]] prioritizes stable patterns and principles while leaving case-specific detail available for lookup in dense, changing fields.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AbstractionInLearning"
+      ]
     }
   ],
-  "summary": "The corpus presents career design and daily productivity as heuristic allocation problems: align longer-term direction with gifts, interests, and values, then protect a small set of important tasks through prioritization and attention controls, while recognizing feasibility and evidence limits.",
+  "summary": "The corpus treats careers, productivity, and learning as related allocation problems: explore a feasible direction, focus effort through priorities and attention controls, and use meaningful but non-coercive goals to organize learning. The frameworks are practical heuristics supported by secondary articles and anecdotes rather than validated outcome studies.",
   "topic_id": "work-education-and-society"
 }

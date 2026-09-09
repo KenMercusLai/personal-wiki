@@ -4,12 +4,13 @@
       "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
       "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
       "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e",
-      "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6"
+      "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6",
+      "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7"
     ],
-    "paragraph_count": 4
+    "paragraph_count": 5
   },
-  "overview_commit": "4852b533036baa20cde8bd68dab53115bae0685d",
-  "overview_digest": "bd483a1f094a69936c4c923c890f8adaa400b8720d44757e7c465a51c65d9b31",
+  "overview_commit": "0b6deb758d83ffb2cbaa5dd250ba795acda856c5",
+  "overview_digest": "1b006233bf83430c0a9101fde7e922eca6f752b989f629eb63bacbdcd02fe13e",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -59,6 +60,23 @@
         "AttentionManagement",
         "TaskPrioritization",
         "WorkHabits"
+      ]
+    },
+    {
+      "id": "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "For learning, [[GoalDirectedLearning]] treats meaningful goals as scaffolding that focuses attention and gives knowledge a value structure. This can help learners protect [[LearningDrive]] from external credential competition and forced study, but goals are not presented as universally necessary: strong curiosity and a mature knowledge base may sustain exploration without them. Goals should emerge through low-friction experiments rather than coercion. When a field is dense and fast-changing, [[AbstractionInLearning]] complements this approach by prioritizing patterns and stable principles while leaving case-specific detail available for lookup. These mechanisms are grounded in one author's explanatory model and anecdotes, not comparative empirical evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AbstractionInLearning",
+        "GoalDirectedLearning",
+        "LearningDrive"
       ]
     }
   ],

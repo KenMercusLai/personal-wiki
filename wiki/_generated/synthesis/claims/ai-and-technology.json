@@ -23,8 +23,23 @@
       "supporting_wikilinks": [
         "AttentionManagement"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "goals-and-abstraction-organize-learning",
+      "qualifications": [
+        "The mechanism is drawn from one author's explanatory model and anecdotes, not comparative empirical evidence.",
+        "The controlled-topic assignment reflects the paragraph's vocabulary rather than evidence that this is specifically a technology finding."
+      ],
+      "statement": "[[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "GoalDirectedLearning",
+        "AbstractionInLearning",
+        "LearningDrive"
+      ]
     }
   ],
-  "summary": "Personal productivity practices can use simple tools and environmental controls to reduce avoidable work and distraction, but the current corpus does not establish that automation or disconnection is universally appropriate.",
+  "summary": "The corpus links practical control of tools and information environments with goal-directed learning: automation, offline work, and controlled information delivery may reduce friction, while goals and abstraction can organize attention and knowledge. Both strands remain source-scoped heuristics without comparative evidence across tasks or learners.",
   "topic_id": "ai-and-technology"
 }

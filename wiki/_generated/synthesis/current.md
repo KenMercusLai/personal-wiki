@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: 4852b533036baa20cde8bd68dab53115bae0685d
-summary: "The wiki connects route simplification, adaptable career design, and evidence-limited productivity habits as practical ways to allocate data, direction, time, and attention."
-episode_count: 3
-source_count: 3
-paragraph_count: 4
+as_of_overview_commit: 0b6deb758d83ffb2cbaa5dd250ba795acda856c5
+summary: "Across geometry, careers, productivity, and learning, the corpus favors selective simplification while preserving limits on fidelity, feasibility, and evidence."
+episode_count: 4
+source_count: 4
+paragraph_count: 5
 topic_count: 3
 ---
 
@@ -21,19 +21,20 @@ topic_count: 3
 - [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
 - [[WorkHabits]] combines [[TaskPrioritization]], [[AttentionManagement]], and workload reduction to focus effort on a small number of valuable tasks.
-- [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction.
+- [[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-Personal productivity practices can use simple tools and environmental controls to reduce avoidable work and distraction, but the current corpus does not establish that automation or disconnection is universally appropriate.
+The corpus links practical control of tools and information environments with goal-directed learning: automation, offline work, and controlled information delivery may reduce friction, while goals and abstraction can organize attention and knowledge. Both strands remain source-scoped heuristics without comparative evidence across tasks or learners.
 
 - [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction. Evidence: [[WorkHabits]].
+- [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
 
 ### Work, Education, and Society
 
-The corpus presents career design and daily productivity as heuristic allocation problems: align longer-term direction with gifts, interests, and values, then protect a small set of important tasks through prioritization and attention controls, while recognizing feasibility and evidence limits.
+The corpus treats careers, productivity, and learning as related allocation problems: explore a feasible direction, focus effort through priorities and attention controls, and use meaningful but non-coercive goals to organize learning. The frameworks are practical heuristics supported by secondary articles and anecdotes rather than validated outcome studies.
 
 - [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions. Evidence: [[GPVCareerFramework]].
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction. Evidence: [[CareerPathDesign]].

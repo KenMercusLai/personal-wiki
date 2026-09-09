@@ -6,11 +6,12 @@ sources:
   - guiji-chouxi-douglas-peucker-suanfa
   - shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya
   - tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan
+  - she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo
 last_updated: 2026-09-09
 ---
 # Overview
 
-The corpus currently spans geometric simplification of dense vehicle trajectories, heuristic career-path design, and practical habits for personal productivity.
+The corpus currently spans geometric simplification of dense vehicle trajectories, heuristic career-path design, practical habits for personal productivity, and the role of goals and abstraction in sustaining learning.
 
 ## Current Synthesis
 
@@ -22,6 +23,8 @@ In career planning, [[GPVCareerFramework]] proposes looking for alignment among 
 
 For personal productivity, [[WorkHabits]] combines three moves: use [[TaskPrioritization]] to choose a small number of valuable tasks, use [[AttentionManagement]] to reduce switching and low-value inputs, and shrink the workload through deletion, automation, or delegation. Morning routines, concise communication, and doing a resisted task early complement that system. These are practical heuristics from a single popular article rather than validated universal rules; the corpus does not yet establish their effect sizes or suitability across different kinds of work.
 
+For learning, [[GoalDirectedLearning]] treats meaningful goals as scaffolding that focuses attention and gives knowledge a value structure. This can help learners protect [[LearningDrive]] from external credential competition and forced study, but goals are not presented as universally necessary: strong curiosity and a mature knowledge base may sustain exploration without them. Goals should emerge through low-friction experiments rather than coercion. When a field is dense and fast-changing, [[AbstractionInLearning]] complements this approach by prioritizing patterns and stable principles while leaving case-specific detail available for lookup. These mechanisms are grounded in one author's explanatory model and anecdotes, not comparative empirical evidence.
+
 ## Open Questions
 
 - How should epsilon be calibrated against application-specific map scale and allowable route error?
@@ -31,3 +34,5 @@ For personal productivity, [[WorkHabits]] combines three moves: use [[TaskPriori
 - Which low-risk experiments can distinguish enjoyment of an activity from enjoyment of its professional working conditions?
 - Which productivity habits have reliable causal evidence, and how do their effects vary by task and work environment?
 - When does batching communication improve focus, and when does delayed response create unacceptable coordination costs?
+- Under what conditions do explicit goals strengthen learning motivation, and when do they narrow useful exploration?
+- How should learners balance abstract principles, memorized facts, and external lookup in different domains?
