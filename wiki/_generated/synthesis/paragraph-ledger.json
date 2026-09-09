@@ -2,12 +2,13 @@
   "coverage": {
     "assigned_paragraph_ids": [
       "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
-      "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326"
+      "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
+      "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e"
     ],
-    "paragraph_count": 2
+    "paragraph_count": 3
   },
-  "overview_commit": "0ba15317337e1f4e85adb075223b2dd7c89ac12f",
-  "overview_digest": "93a5749c95f94315f5c9a1d858ae056acf43e6d5cd72cc72a4c1cc6be6a821aa",
+  "overview_commit": "f335a56147fa6adb64d096d4ec29e56621652760",
+  "overview_digest": "8e9caf762fb5c239a62c661ceb404cc6548b1557b849f0bbdb889a7bc65375be",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -15,9 +16,7 @@
       "secondary_topics": [],
       "text": "High-frequency vehicle tracking can produce repeated, stationary, or nearly collinear points that increase storage, transfer, and client-rendering costs without proportionally improving the visible route. [[TrajectorySimplification]] treats point reduction as a controlled tradeoff between data volume and geometric fidelity, with bends and corners requiring particular attention.",
       "topic_scores": {},
-      "wikilinks": [
-        "TrajectorySimplification"
-      ]
+      "wikilinks": ["TrajectorySimplification"]
     },
     {
       "id": "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
@@ -25,9 +24,15 @@
       "secondary_topics": [],
       "text": "[[RamerDouglasPeuckerAlgorithm]] implements this tradeoff by comparing the farthest intermediate point from a segment against epsilon and recursively splitting when the tolerance is met or exceeded. In the current source's 812-point example, increasing epsilon reduced the retained count from 676 to 35; the strongest compression kept about 4% of points but introduced some corner differences. This is a source-scoped example, and the corpus does not yet establish a transferable epsilon because the coordinate system and distance calculation are unspecified.",
       "topic_scores": {},
-      "wikilinks": [
-        "RamerDouglasPeuckerAlgorithm"
-      ]
+      "wikilinks": ["RamerDouglasPeuckerAlgorithm"]
+    },
+    {
+      "id": "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "In career planning, [[GPVCareerFramework]] proposes looking for alignment among gifts, passion, and values. [[CareerPathDesign]] broadens this from choosing one job to shaping a sequence of roles: an unwanted feature of work may sometimes be avoided by changing customers, work arrangements, or roles while retaining the underlying field. The source also supplies an important limit—the three-way fit is a prompt for exploring options, not proof that an interest is commercially viable or enjoyable when professionalized.",
+      "topic_scores": {"work-education-and-society": 3},
+      "wikilinks": ["CareerPathDesign", "GPVCareerFramework"]
     }
   ],
   "schema_version": 1

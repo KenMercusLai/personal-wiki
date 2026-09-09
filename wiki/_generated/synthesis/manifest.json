@@ -1,27 +1,21 @@
 {
   "content_date": "2026-09-09",
-  "corpus": {
-    "episode_count": 1,
-    "source_count": 1
-  },
+  "corpus": {"episode_count": 2, "source_count": 2},
   "generated": true,
   "global": {
-    "candidate_digest": "2b7cb717d34abdfe1da822900143444e7d1187e90c90a3076c95b80cad4f0aaf",
-    "compacted_at": "2026-09-09T05:04:55.093787Z",
+    "candidate_digest": "41474e728dc66eb409531d95cf7861adcb996b5d757b16f5b302ddbf977aa34a",
+    "compacted_at": "2026-09-09T08:55:58.626739Z",
     "content_date": "2026-09-09",
-    "corpus": {
-      "episode_count": 1,
-      "source_count": 1
-    },
-    "output_digest": "8822486e868fc85082e286fff7517ea689a45da90ff49355874a16c3c237d08c",
-    "overview_commit": "0ba15317337e1f4e85adb075223b2dd7c89ac12f",
-    "overview_digest": "93a5749c95f94315f5c9a1d858ae056acf43e6d5cd72cc72a4c1cc6be6a821aa",
+    "corpus": {"episode_count": 2, "source_count": 2},
+    "output_digest": "163060a85410952d301ffb7a44871495d33d053649c454be5fd6470f3d8cb4f3",
+    "overview_commit": "f335a56147fa6adb64d096d4ec29e56621652760",
+    "overview_digest": "8e9caf762fb5c239a62c661ceb404cc6548b1557b849f0bbdb889a7bc65375be",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "0ba15317337e1f4e85adb075223b2dd7c89ac12f",
-  "overview_digest": "93a5749c95f94315f5c9a1d858ae056acf43e6d5cd72cc72a4c1cc6be6a821aa",
-  "paragraph_count": 2,
+  "overview_commit": "f335a56147fa6adb64d096d4ec29e56621652760",
+  "overview_digest": "8e9caf762fb5c239a62c661ceb404cc6548b1557b849f0bbdb889a7bc65375be",
+  "paragraph_count": 3,
   "schema_version": 1,
   "topics": {
     "cross-domain": {
@@ -29,6 +23,12 @@
       "input_digest": "26fd1ae08536ce29b14df081a31ecc20aac74cc7619b415875a3862ce5aea1a6",
       "output_digest": "da4f5c250309efdcd6bca8d03a0b66a5f03554bd4e85ad79d8724ff0039a314e",
       "title": "Cross-domain"
+    },
+    "work-education-and-society": {
+      "claim_digest": "cca9ee43baab64ce709f621d3b2607faf21366e8aa4d3a3dd11b63128dc84809",
+      "input_digest": "e2fd66c81b9d2a445cfb8b948d07673e9048b8eea79e27325e2f8d93fca532d8",
+      "output_digest": "41a1bc7046a4792d1af176c95e8e2e6b278fc2c5e986f473014e6a3e8b6c0e0c",
+      "title": "Work, Education, and Society"
     }
   }
 }

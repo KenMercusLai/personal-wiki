@@ -4,12 +4,12 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: 0ba15317337e1f4e85adb075223b2dd7c89ac12f
-summary: "Dense vehicle trajectories can be compressed with geometric simplification, but epsilon must be calibrated against corner fidelity and the coordinate-distance model."
-episode_count: 1
-source_count: 1
-paragraph_count: 2
-topic_count: 1
+as_of_overview_commit: f335a56147fa6adb64d096d4ec29e56621652760
+summary: "The corpus connects calibrated simplification with adaptable career design: both use explicit tradeoffs, and current findings remain source-scoped."
+episode_count: 2
+source_count: 2
+paragraph_count: 3
+topic_count: 2
 ---
 
 # Current Synthesis
@@ -18,8 +18,17 @@ topic_count: 1
 
 - [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint.
 - [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition.
+- [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.
+- [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
 
 ## Synthesis by Domain
+
+### Work, Education, and Society
+
+Career planning can combine strengths, interests, and values with adaptable role sequences, while treating professional feasibility and working conditions as separate constraints.
+
+- [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions. Evidence: [[GPVCareerFramework]].
+- [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction. Evidence: [[CareerPathDesign]].
 
 ### Cross-domain
 
