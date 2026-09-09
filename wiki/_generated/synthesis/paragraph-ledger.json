@@ -1,29 +1,32 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
-      "a42fe8858db7a3aee8907c460e784d9ef514d85c7db0a5fa4dcffe13605bde9e"
+      "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
+      "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326"
     ],
-    "paragraph_count": 1
+    "paragraph_count": 2
   },
-  "overview_commit": "9dbf2381f5120326a4ba2dc4f5bd66cae5636d7e",
-  "overview_digest": "b83254156d38a569a3e9b6a9bd5a7bd57ec531af2793ea0fba229ab606ff5abd",
+  "overview_commit": "0ba15317337e1f4e85adb075223b2dd7c89ac12f",
+  "overview_digest": "93a5749c95f94315f5c9a1d858ae056acf43e6d5cd72cc72a4c1cc6be6a821aa",
   "paragraphs": [
     {
-      "id": "a42fe8858db7a3aee8907c460e784d9ef514d85c7db0a5fa4dcffe13605bde9e",
-      "primary_topic": "ai-and-technology",
-      "secondary_topics": [
-        "history-and-geopolitics"
-      ],
-      "text": "可靠的人文 AI 实践以 [[AIWorkflowForHumanitiesWorkers]] 为责任框架，以 [[AIProductionPipeline]] 将复杂任务拆成可复现步骤，并用 [[MaterialsTimesTaste]] 约束最终质量。[[HanYang]] 的来源限定经验显示，模型可以协助整理、生成与审稿，但真实材料、证据判断、品味和署名责任仍由人类承担。",
-      "topic_scores": {
-        "ai-and-technology": 1,
-        "history-and-geopolitics": 1
-      },
+      "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "High-frequency vehicle tracking can produce repeated, stationary, or nearly collinear points that increase storage, transfer, and client-rendering costs without proportionally improving the visible route. [[TrajectorySimplification]] treats point reduction as a controlled tradeoff between data volume and geometric fidelity, with bends and corners requiring particular attention.",
+      "topic_scores": {},
       "wikilinks": [
-        "AIProductionPipeline",
-        "AIWorkflowForHumanitiesWorkers",
-        "HanYang",
-        "MaterialsTimesTaste"
+        "TrajectorySimplification"
+      ]
+    },
+    {
+      "id": "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "[[RamerDouglasPeuckerAlgorithm]] implements this tradeoff by comparing the farthest intermediate point from a segment against epsilon and recursively splitting when the tolerance is met or exceeded. In the current source's 812-point example, increasing epsilon reduced the retained count from 676 to 35; the strongest compression kept about 4% of points but introduced some corner differences. This is a source-scoped example, and the corpus does not yet establish a transferable epsilon because the coordinate system and distance calculation are unspecified.",
+      "topic_scores": {},
+      "wikilinks": [
+        "RamerDouglasPeuckerAlgorithm"
       ]
     }
   ],

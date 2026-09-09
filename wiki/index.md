@@ -3,19 +3,15 @@
 This file is maintained by the LLM. Updated on every ingest.
 
 ## Overview
-- [Overview](overview.md) — living synthesis across all sources
+- [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
-- [给人文工作者的 AI 使用指南](sources/ai-guide-for-humanities-workers.md) — 人文内容与研究工作中的可监督 AI 方法。
+- [轨迹抽稀之道格拉斯-普克算法](sources/guiji-chouxi-douglas-peucker-suanfa.md) - 用几何误差阈值压缩车辆轨迹点的算法说明与案例。
 
 ## Entities
-- [汉洋](entities/HanYang.md) — 人文 AI 工作流的讲述者。
-- [FUNES](entities/Funes.md) — 来源中提到的内容与研究项目。
-- [诗梳风](entities/ShiShuFeng.md) — 公开分享所在的播客语境。
 
 ## Concepts
-- [人文工作者的 AI 工作流](concepts/AIWorkflowForHumanitiesWorkers.md) — 可追溯、可监督、可验证的人机协作方法。
-- [把 AI 当作可迭代产线](concepts/AIProductionPipeline.md) — 将复杂生产拆成可复现和可质检步骤。
-- [材料 × 品味](concepts/MaterialsTimesTaste.md) — 生成廉价后内容质量的双重约束。
+- [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - 递归保留超出误差阈值的折线特征点。
+- [Trajectory Simplification](concepts/TrajectorySimplification.md) - 在几何保真度与数据量之间取舍的轨迹点简化。
 
 ## Syntheses

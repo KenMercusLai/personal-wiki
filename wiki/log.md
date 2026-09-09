@@ -4,8 +4,8 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
----
+## [2026-09-09] ingest | 轨迹抽稀之道格拉斯-普克算法
 
-## [2026-09-02] ingest | 给人文工作者的 AI 使用指南
-
-Created the canonical source note; added synthesis-first concept pages for humanistic AI workflow, iterative production pipelines, and materials-times-taste; added source-bounded entity profiles for Han Yang, FUNES, and Shi Shu Feng; updated `index` and `overview`. No settled contradiction found; model-capability and efficiency claims remain source-scoped.
+- Added source note `guiji-chouxi-douglas-peucker-suanfa`.
+- Added concepts `RamerDouglasPeuckerAlgorithm` and `TrajectorySimplification`.
+- Recorded the source-scoped epsilon results and coordinate-distance limitation.

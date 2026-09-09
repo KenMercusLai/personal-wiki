@@ -1,21 +1,23 @@
 ---
 title: "Overview"
 type: synthesis
-tags: [ai, humanities, workflow]
-sources: [ai-guide-for-humanities-workers]
-last_updated: 2026-09-02
+tags: []
+sources:
+  - guiji-chouxi-douglas-peucker-suanfa
+last_updated: 2026-09-09
 ---
-
 # Overview
 
-Personal Wiki 当前围绕人文工作者如何负责任地使用 AI 建立知识连接。
+The corpus currently covers geometric simplification of dense vehicle trajectories.
 
 ## Current Synthesis
 
-可靠的人文 AI 实践以 [[AIWorkflowForHumanitiesWorkers]] 为责任框架，以 [[AIProductionPipeline]] 将复杂任务拆成可复现步骤，并用 [[MaterialsTimesTaste]] 约束最终质量。[[HanYang]] 的来源限定经验显示，模型可以协助整理、生成与审稿，但真实材料、证据判断、品味和署名责任仍由人类承担。
+High-frequency vehicle tracking can produce repeated, stationary, or nearly collinear points that increase storage, transfer, and client-rendering costs without proportionally improving the visible route. [[TrajectorySimplification]] treats point reduction as a controlled tradeoff between data volume and geometric fidelity, with bends and corners requiring particular attention.
+
+[[RamerDouglasPeuckerAlgorithm]] implements this tradeoff by comparing the farthest intermediate point from a segment against epsilon and recursively splitting when the tolerance is met or exceeded. In the current source's 812-point example, increasing epsilon reduced the retained count from 676 to 35; the strongest compression kept about 4% of points but introduced some corner differences. This is a source-scoped example, and the corpus does not yet establish a transferable epsilon because the coordinate system and distance calculation are unspecified.
 
 ## Open Questions
 
-- 不同人文学科任务需要怎样的最低证据与人工复核标准？
-- 如何衡量流程化带来的可靠性提升与维护成本？
-- 后续来源会如何补充或挑战材料、品味与生产效率之间的关系？
+- How should epsilon be calibrated against application-specific map scale and allowable route error?
+- Which distance model or projected coordinate system should be used for longitude-latitude trajectories?
+- How does Ramer-Douglas-Peucker compare with alternatives on runtime, storage, and shape fidelity across multiple routes?

@@ -3,29 +3,27 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-02
-as_of_overview_commit: 838e5e5294ca25c616ed1936d6bbc7b1fe0bef29
-summary: "Personal Wiki currently centers on accountable humanistic AI workflows: explicit steps, strong source material, visible quality gates, and retained human authorship."
+last_updated: 2026-09-09
+as_of_overview_commit: 0ba15317337e1f4e85adb075223b2dd7c89ac12f
+summary: "Dense vehicle trajectories can be compressed with geometric simplification, but epsilon must be calibrated against corner fidelity and the coordinate-distance model."
 episode_count: 1
 source_count: 1
-paragraph_count: 1
-topic_count: 2
+paragraph_count: 2
+topic_count: 1
 ---
 
 # Current Synthesis
 
 ## Executive Summary
 
-- [[AIWorkflowForHumanitiesWorkers]] and [[AIProductionPipeline]] make reliability depend on traceable steps, explicit standards, and retained human judgment.
+- [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint.
+- [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition.
 
 ## Synthesis by Domain
 
-### AI and Technology
+### Cross-domain
 
-Humanistic AI is most reliable inside traceable workflows with explicit standards and human responsibility.
+Trajectory simplification reduces redundant location points; Ramer-Douglas-Peucker provides an epsilon-controlled method whose observed compression remains route- and coordinate-dependent.
 
-- [[AIWorkflowForHumanitiesWorkers]] and [[AIProductionPipeline]] make reliability depend on traceable steps, explicit standards, and retained human judgment. Evidence: [[AIWorkflowForHumanitiesWorkers]], [[AIProductionPipeline]], [[MaterialsTimesTaste]], [[HanYang]].
-
-### History and Geopolitics
-
-The current corpus adds a source-bounded humanities-method lens, not an independent historical or geopolitical conclusion.
+- [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint. Evidence: [[TrajectorySimplification]].
+- [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition. Evidence: [[RamerDouglasPeuckerAlgorithm]].
