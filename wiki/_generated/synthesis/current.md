@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: 1fd3d79e34bfef801b52de8bfb357a81776ccd08
-summary: "Across geometry, careers, learning, and network infrastructure, the corpus favors selective structure and standards while preserving evidence and deployment limits."
-episode_count: 7
-source_count: 7
-paragraph_count: 8
+as_of_overview_commit: 1699cd969141b6e70e57ac7369c15a339b31e71e
+summary: "A source-scoped map of learning, work, trajectory simplification, Web transport, AI serving, and retrieval-based application construction."
+episode_count: 8
+source_count: 8
+paragraph_count: 9
 topic_count: 4
 ---
 
@@ -16,41 +16,39 @@ topic_count: 4
 
 ## Executive Summary
 
+- [[RetrievalAugmentedGeneration]] can connect external knowledge to model responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and hosted environments such as [[Replit]] can package the prototype workflow.
+- [[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefixes against active decode load.
+- [[FeynmanTechnique]] uses failures of plain-language explanation to direct study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.
 - [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint.
-- [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.
-- [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
-- [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals.
-- [[FeynmanTechnique]] uses failures of plain-language explanation to direct further study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.
-- [[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefix blocks against active decode load.
-- [[HTTPProtocolEvolution]] progressed from explicit metadata and persistent connections to multiplexed streams, while each generation shifted rather than eliminated performance and complexity tradeoffs.
 - [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior.
+- [[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The corpus links practical control of tools and information with output-driven learning and AI-serving infrastructure. The personal workflows remain source-scoped; for inference systems, model-matched tokenization, fresh state, and cache-aware placement appear important, while event-driven coordination trades polling cost for temporary inconsistency.
+The corpus connects information control, learning workflows, inference infrastructure, and RAG application construction, with evidence and production-readiness limits.
 
-- [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction. Evidence: [[WorkHabits]].
-- [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
+- [[WorkHabits]] can combine prioritization, reduced switching, automation, delegation, and offline work to lower execution friction. Evidence: [[WorkHabits]], [[TaskPrioritization]], [[AttentionManagement]].
+- [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also persist through curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
+
+### Cross-domain
+
+Trajectory simplification reduces data volume while requiring application-specific calibration of geometric fidelity and coordinate distance.
+
+- [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint. Evidence: [[TrajectorySimplification]].
+- [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition. Evidence: [[RamerDouglasPeuckerAlgorithm]].
 
 ### History and Geopolitics
 
-The corpus currently treats HTTP's history as a sequence of engineering responses to metadata, connection, concurrency, and transport constraints. HTTP/3's use of QUIC addresses connection-wide TCP blocking but adds deployment dependencies on UDP-capable networks, connection-aware routing, and revised compression state.
+Web transport evolution and early RAG tooling illustrate time-bounded responses to lower-layer constraints and changing interfaces.
 
 - [[HTTPProtocolEvolution]] progressed from explicit metadata and persistent connections to multiplexed streams, while each generation shifted rather than eliminated performance and complexity tradeoffs. Evidence: [[HTTPProtocolEvolution]].
 - [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior. Evidence: [[QUIC]].
 
 ### Work, Education, and Society
 
-The corpus treats careers, productivity, and learning as related allocation problems: explore a feasible direction, focus effort through priorities and attention controls, and use meaningful but non-coercive goals to organize learning. The frameworks are practical heuristics supported by secondary articles and anecdotes rather than validated outcome studies.
+Career, productivity, and learning frameworks allocate attention and effort but remain practical heuristics rather than validated outcome models.
 
 - [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions. Evidence: [[GPVCareerFramework]].
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction. Evidence: [[CareerPathDesign]].
-
-### Cross-domain
-
-Dense vehicle trajectories can be simplified to reduce storage, transfer, and rendering load, but the tolerance must be calibrated against geometric fidelity and the coordinate-distance model.
-
-- [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint. Evidence: [[TrajectorySimplification]].
-- [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition. Evidence: [[RamerDouglasPeuckerAlgorithm]].

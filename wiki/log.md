@@ -47,3 +47,9 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added the source note and concepts `HTTPProtocolEvolution` and `QUIC`.
 - Added a source-bounded profile for `TimBernersLee`.
 - Recorded HTTP version transitions, transport-layer head-of-line blocking, and QUIC deployment qualifications.
+
+## [2026-09-09] ingest | 零基础｜搭建基于私域数据的ChatGPT
+
+- Added the source note and concepts `RetrievalAugmentedGeneration` and `LLMApplicationFrameworks`.
+- Added source-bounded profiles for `LangChain` and `Replit`.
+- Recorded the document-to-vector retrieval workflow, application-framework abstractions, and security, evaluation, and time-sensitivity qualifications.

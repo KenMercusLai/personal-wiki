@@ -4,15 +4,15 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-09
-as_of_overview_commit: 1fd3d79e34bfef801b52de8bfb357a81776ccd08
-input_digest: 9a959ef3d3f92f5b1cf101cd1da7a23518e60ad7f165d412eb779d9840674f82
+as_of_overview_commit: 1699cd969141b6e70e57ac7369c15a339b31e71e
+input_digest: 5577d3b2a7a0efe1845b6624a083a21ace9300c452030c0314aa1de36279d925
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The corpus currently treats HTTP's history as a sequence of engineering responses to metadata, connection, concurrency, and transport constraints. HTTP/3's use of QUIC addresses connection-wide TCP blocking but adds deployment dependencies on UDP-capable networks, connection-aware routing, and revised compression state.
+The topic currently combines a historical account of Web transport evolution with a time-bounded early-generative-AI application tutorial. Both show software layers responding to limitations below them, while their adoption, interface, and capability claims require historical rather than current interpretation.
 
 ## Cross-source Findings
 
@@ -34,5 +34,16 @@ The corpus currently treats HTTP's history as a sequence of engineering response
 
 **Qualifications:**
 
-- UDP alone does not provide these properties; they come from QUIC's stream, recovery, congestion-control, security, and connection-ID design.
+- UDP alone does not provide these properties; they come from QUIC's broader transport design.
 - The corpus contains no controlled HTTP/2-versus-HTTP/3 measurements.
+
+### Early Rag Tooling Claims Are Time Bounded
+
+The described [[RetrievalAugmentedGeneration]] workflow and [[LLMApplicationFrameworks]] represented an early application pattern implemented with [[LangChain]] and [[Replit]].
+
+**Evidence:** [[RetrievalAugmentedGeneration]], [[LLMApplicationFrameworks]], [[LangChain]], [[Replit]]
+
+**Qualifications:**
+
+- The tutorial demonstrates a prototype, not retrieval accuracy or production readiness.
+- Its API interfaces, knowledge-cutoff statement, funding figures, and ecosystem claims are historical and time-sensitive.

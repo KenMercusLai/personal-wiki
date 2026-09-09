@@ -1,28 +1,16 @@
 {
-  "topic_id": "ai-and-technology",
-  "summary": "The corpus links practical control of tools and information with output-driven learning and AI-serving infrastructure. The personal workflows remain source-scoped; for inference systems, model-matched tokenization, fresh state, and cache-aware placement appear important, while event-driven coordination trades polling cost for temporary inconsistency.",
   "claims": [
     {
       "global_candidate": true,
       "id": "tools-and-offline-controls-can-reduce-friction",
       "qualifications": [
-        "The current evidence is a single popular article and does not specify which tasks are safe to automate or which roles can work offline."
+        "The current evidence is a single popular article and does not establish effect sizes or suitability across work settings."
       ],
-      "statement": "[[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction.",
+      "statement": "[[WorkHabits]] can combine prioritization, reduced switching, automation, delegation, and offline work to lower execution friction.",
       "status": "source-scoped",
       "supporting_wikilinks": [
-        "WorkHabits"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "information-tools-do-not-guarantee-quality",
-      "qualifications": [
-        "The source recommends RSS-style tools without comparing outcomes or addressing information-selection errors."
-      ],
-      "statement": "[[AttentionManagement]] can use subscriptions and offline reading to control when information arrives, but delivery format alone does not establish relevance or quality.",
-      "status": "qualified",
-      "supporting_wikilinks": [
+        "WorkHabits",
+        "TaskPrioritization",
         "AttentionManagement"
       ]
     },
@@ -30,10 +18,9 @@
       "global_candidate": true,
       "id": "goals-and-abstraction-organize-learning",
       "qualifications": [
-        "The mechanism is drawn from one author's explanatory model and anecdotes, not comparative empirical evidence.",
-        "The controlled-topic assignment reflects the paragraph's vocabulary rather than evidence that this is specifically a technology finding."
+        "The mechanism is drawn from one author's explanatory model and anecdotes rather than comparative evidence."
       ],
-      "statement": "[[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals.",
+      "statement": "[[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also persist through curiosity without explicit goals.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "GoalDirectedLearning",
@@ -45,10 +32,9 @@
       "global_candidate": true,
       "id": "explanation-and-knowledge-systems-form-a-learning-loop",
       "qualifications": [
-        "The workflow is based on one author's practice rather than comparative evidence.",
-        "Automatic summaries and associations may introduce errors, privacy risks, and portability constraints."
+        "The workflow reflects one author's practice, and proposed AI automation introduces accuracy, privacy, and portability risks."
       ],
-      "statement": "[[FeynmanTechnique]] uses failures of plain-language explanation to direct further study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.",
+      "statement": "[[FeynmanTechnique]] uses failures of plain-language explanation to direct study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "FeynmanTechnique",
@@ -59,15 +45,33 @@
       "global_candidate": true,
       "id": "inference-routing-combines-model-aware-load-and-fresh-state",
       "qualifications": [
-        "This conclusion comes from one architectural critique rather than a controlled cross-project benchmark.",
-        "Event-driven router replicas can still observe temporarily inconsistent state."
+        "This judgment comes from one architectural critique rather than a controlled cross-project benchmark.",
+        "Event-driven router replicas can observe temporarily inconsistent state."
       ],
-      "statement": "[[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefix blocks against active decode load.",
+      "statement": "[[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefixes against active decode load.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "InferenceLoadBalancing",
         "KVCacheAwareRouting"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "retrieval-connects-external-knowledge-to-generation",
+      "qualifications": [
+        "The evidence is a small historical tutorial rather than an evaluation of retrieval accuracy, answer faithfulness, security, or production readiness.",
+        "The described interfaces, model knowledge cutoff, funding figures, and ecosystem adoption are time-sensitive."
+      ],
+      "statement": "[[RetrievalAugmentedGeneration]] can connect external knowledge to model responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and hosted environments such as [[Replit]] can package the prototype workflow.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "RetrievalAugmentedGeneration",
+        "LLMApplicationFrameworks",
+        "LangChain",
+        "Replit"
+      ]
     }
-  ]
+  ],
+  "summary": "The corpus connects practical information control, learning workflows, AI-serving infrastructure, and retrieval-based application construction. These accounts remain source-scoped: personal practices lack comparative evidence, routing judgments lack common benchmarks, and the RAG tutorial does not establish retrieval accuracy or production security.",
+  "topic_id": "ai-and-technology"
 }

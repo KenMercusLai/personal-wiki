@@ -13,6 +13,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [褪墨 - 提高工作效率的十条好习惯](sources/tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan.md) - 以优先级、专注、简化和委派构成轻量的日常效率实践。
 - [锐评主流AI推理负载均衡开源实现](sources/rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian.md) - 从 tokenization、指标采集与路由决策比较四种开源推理负载均衡实现。
 - [陈皓 - HTTP的前世今生](sources/chen-hao-http-de-qian-shi-jin-sheng.md) - 从工程化、性能与传输层约束梳理 HTTP/0.9 至 HTTP/3 的演进。
+- [零基础｜搭建基于私域数据的ChatGPT](sources/ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt.md) - 用 Replit、LangChain、嵌入和向量检索演示基于私域文本的问答流程。
 
 ## Entities
 - [Richard Feynman](entities/RichardFeynman.md) - 与解释式学习方法相关联的物理学家。
@@ -26,6 +27,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - 通过中心化 EPP 为外部数据面选择推理端点。
 - [NVIDIA Dynamo](entities/NvidiaDynamo.md) - 以 KV 事件、路由历史和成本函数驱动路由的推理平台。
 - [Tim Berners-Lee](entities/TimBernersLee.md) - 当前来源所述 HTTP 与万维网的发明者。
+- [LangChain](entities/LangChain.md) - 连接模型、提示、记忆、检索与工具的 LLM 应用开发框架。
+- [Replit](entities/Replit.md) - 托管教程示例、凭据与运行环境的在线开发平台。
 
 ## Concepts
 - [Feynman Technique](concepts/FeynmanTechnique.md) - 通过简洁解释发现理解缺口并迭代修正的学习循环。
@@ -44,5 +47,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - 综合前缀缓存复用与 worker 负载选择推理节点。
 - [HTTP Protocol Evolution](concepts/HTTPProtocolEvolution.md) - 从元数据边界、连接复用到基于 QUIC 的多路复用演进。
 - [QUIC](concepts/QUIC.md) - 在 UDP 之上实现可靠、安全且流感知的 HTTP/3 传输。
+- [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - 检索外部材料并作为上下文交给生成模型的问答模式。
+- [LLM Application Frameworks](concepts/LLMApplicationFrameworks.md) - 组合模型、提示、记忆、检索和工具的开发抽象层。
 
 ## Syntheses

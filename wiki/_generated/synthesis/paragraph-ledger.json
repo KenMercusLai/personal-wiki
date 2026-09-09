@@ -8,12 +8,13 @@
       "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7",
       "03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8",
       "7fa1e3319af81729e7dfbcba80898fb24310008081991a81574fc31bf44b4c4a",
+      "07fe6e8797e9ad99c4db15812485d20ceb62ed7b1bd29b18656c6c42ec7c4011",
       "613769f1985a0cebe514aa83bc9fd62c7639b4e86dbc33d36f563b62a7234c87"
     ],
-    "paragraph_count": 8
+    "paragraph_count": 9
   },
-  "overview_commit": "1fd3d79e34bfef801b52de8bfb357a81776ccd08",
-  "overview_digest": "3fd83c12c5d2bd8c903527339308610d794e0049903138d6f3086dd9cc957f5e",
+  "overview_commit": "1699cd969141b6e70e57ac7369c15a339b31e71e",
+  "overview_digest": "443194db66babe28bc7f19a9b07991ca52982efe9a7f8e8e51a5bd84c4715f8f",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -109,6 +110,24 @@
       "wikilinks": [
         "InferenceLoadBalancing",
         "KVCacheAwareRouting"
+      ]
+    },
+    {
+      "id": "07fe6e8797e9ad99c4db15812485d20ceb62ed7b1bd29b18656c6c42ec7c4011",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "For AI application construction, [[RetrievalAugmentedGeneration]] separates a model's language capability from external knowledge by splitting documents, embedding and indexing chunks, retrieving material similar to a question, and passing it with dialogue history into generation. [[LLMApplicationFrameworks]] such as [[LangChain]] package those steps alongside prompts, memory, model access, and tools; the tutorial uses [[Replit]] to reduce local setup. This is a small historical demonstration rather than evidence of retrieval accuracy or production readiness, and its API interfaces, knowledge-cutoff statements, funding figures, and ecosystem claims are time-sensitive.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "history-and-geopolitics": 2
+      },
+      "wikilinks": [
+        "LLMApplicationFrameworks",
+        "LangChain",
+        "Replit",
+        "RetrievalAugmentedGeneration"
       ]
     },
     {

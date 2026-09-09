@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_key": "ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt",
+  "images": [
+    {
+      "file": "0002-6bcbeb1e5bcfa9c8.png",
+      "alt": "ChatPDF upload interface illustrating document-based conversational question answering"
+    },
+    {
+      "file": "0003-df2c1f8846105b57.png",
+      "alt": "OpenAI API key creation dialog with the secret value obscured"
+    },
+    {
+      "file": "0004-5ad4b96b0add94ee.png",
+      "alt": "Replit Secrets panel configured with API environment-variable names"
+    },
+    {
+      "file": "0005-c465d6f8f05e0942.png",
+      "alt": "Replit project showing a private text file in the training facts folder"
+    },
+    {
+      "file": "0006-b6de87edac08b16a.png",
+      "alt": "Console menu offering model training, chatbot conversation, and API server modes"
+    },
+    {
+      "file": "0007-f291ee53bbd05727.png",
+      "alt": "Console demonstration answering Chinese questions from newer English source data"
+    },
+    {
+      "file": "0008-1ecdcb6da216cc96.png",
+      "alt": "Unaugmented chat responses declining questions about events beyond the model knowledge cutoff"
+    },
+    {
+      "file": "0009-8f4e95cb28bf0b03.png",
+      "alt": "Diagram of question rewriting, vector similarity search, retrieved context, and answer generation"
+    },
+    {
+      "file": "0010-c6602424e2a50e66.png",
+      "alt": "Diagram of documents being split into chunks, embedded, and stored in a vector database"
+    },
+    {
+      "file": "0013-3e736e451ee33cb4.png",
+      "alt": "Prompt template combining chatbot instructions, conversation history, retrieved context, and the user question"
+    }
+  ]
+}
