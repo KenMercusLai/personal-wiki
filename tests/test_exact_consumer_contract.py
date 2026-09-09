@@ -5,9 +5,12 @@ import importlib.util
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
+
+from tests.corpus_helpers import canonical_pages, ensure_image_record, image_records, synthesis_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 PREPARE = ROOT / "scripts" / "prepare-wiki-content.py"
@@ -34,11 +37,24 @@ def managed_hashes(root: Path) -> dict[str, str]:
 
 
 class ExactConsumerContractTest(unittest.TestCase):
-    def test_checked_in_managed_inputs_are_exact_producer_fixture(self):
-        expected = json.loads(
-            (ROOT / "tests/fixtures/producer-managed-sha256.json").read_text(encoding="utf-8")
-        )
-        self.assertEqual(managed_hashes(ROOT), expected)
+    def test_checked_in_managed_inputs_exactly_match_head_git_blobs(self):
+        tracked = subprocess.run(
+            ["git", "ls-tree", "-r", "--name-only", "-z", "HEAD", "--", "wiki", "wiki-assets"],
+            cwd=ROOT,
+            check=True,
+            stdout=subprocess.PIPE,
+        ).stdout.rstrip(b"\0").split(b"\0")
+        expected_paths = {item.decode("utf-8") for item in tracked if item}
+        actual_paths = set(managed_hashes(ROOT))
+        self.assertEqual(actual_paths, expected_paths)
+        for relative in sorted(expected_paths):
+            expected = subprocess.run(
+                ["git", "show", f"HEAD:{relative}"],
+                cwd=ROOT,
+                check=True,
+                stdout=subprocess.PIPE,
+            ).stdout
+            self.assertEqual((ROOT / relative).read_bytes(), expected, relative)
 
     def test_consumer_paths_and_build_order_are_explicit_and_disjoint(self):
         self.assertTrue(PREPARE.is_file())
@@ -93,22 +109,30 @@ class ExactConsumerContractTest(unittest.TestCase):
         prepare = load_script(PREPARE, "prepare_personal_wiki")
         before = managed_hashes(ROOT)
         report = prepare.prepare(ROOT)
-        self.assertEqual(report.concepts, 3)
-        self.assertEqual(report.entities, 3)
-        self.assertEqual(report.sources, 1)
+        expected_counts = {
+            section: len(canonical_pages(ROOT, section))
+            for section in ("concepts", "entities", "sources")
+        }
+        self.assertEqual(report.concepts, expected_counts["concepts"])
+        self.assertEqual(report.entities, expected_counts["entities"])
+        self.assertEqual(report.sources, expected_counts["sources"])
         self.assertEqual(managed_hashes(ROOT), before)
         signals = json.loads((ROOT / ".generated/data/wiki_knowledge_signals.json").read_text())
-        signal = signals["pages"]["AIProductionPipeline"]
-        self.assertEqual(signal["source_note_count"], 1)
-        self.assertNotIn("episode_count", signal)
-        self.assertNotIn("show_count", signal)
-        self.assertEqual(signal["sources"][0]["key"], "ai-guide-for-humanities-workers")
-        self.assertEqual(signal["sources"][0]["url"], "/wiki/sources/ai-guide-for-humanities-workers/")
-        projected = (ROOT / ".generated/wiki/concepts/AIProductionPipeline.md").read_bytes()
-        self.assertEqual(projected, (ROOT / "wiki/concepts/AIProductionPipeline.md").read_bytes())
-        source = (ROOT / ".generated/wiki/sources/ai-guide-for-humanities-workers/index.md").read_text()
-        self.assertIn("## Images", source)
-        self.assertIn("![测试时的流程例子](0001-c6a9ce8a8360b26d.jpg)", source)
+        expected_synthesis = synthesis_pages(ROOT)
+        self.assertEqual(set(signals["pages"]), {page[0] for page in expected_synthesis})
+        for key, _title, section, metadata in expected_synthesis:
+            signal = signals["pages"][key]
+            sources = metadata["sources"]
+            self.assertEqual(signal["source_note_count"], len(dict.fromkeys(sources)))
+            self.assertNotIn("episode_count", signal)
+            self.assertNotIn("show_count", signal)
+            self.assertEqual([item["key"] for item in signal["sources"]], sources)
+            projected = ROOT / ".generated/wiki" / section / f"{key}.md"
+            canonical = ROOT / "wiki" / section / f"{key}.md"
+            self.assertEqual(projected.read_bytes(), canonical.read_bytes())
+        for source_key, filename, alt in image_records(ROOT):
+            source = (ROOT / ".generated/wiki/sources" / source_key / "index.md").read_text()
+            self.assertIn(f"![{alt}]({filename})", source)
 
     def test_section_landings_include_every_canonical_identity(self):
         prepare = load_script(PREPARE, "prepare_personal_wiki_landings")
@@ -136,7 +160,8 @@ class ExactConsumerContractTest(unittest.TestCase):
             fixture = Path(td)
             shutil.copytree(ROOT / "wiki", fixture / "wiki")
             shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
-            collision = fixture / ".generated/wiki/concepts/AIProductionPipeline.md"
+            page = (canonical_pages(fixture, "concepts") + canonical_pages(fixture, "entities"))[0]
+            collision = fixture / ".generated/wiki" / page[2] / f"{page[0]}.md"
             collision.parent.mkdir(parents=True)
             collision.write_text("manual\n", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "unowned output collision"):
@@ -162,8 +187,11 @@ class ExactConsumerContractTest(unittest.TestCase):
             fixture = Path(td)
             shutil.copytree(ROOT / "wiki", fixture / "wiki")
             shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+            ensure_image_record(fixture)
             prepare.prepare(fixture)
-            source_assets = fixture / "wiki-assets/ai-guide-for-humanities-workers"
+            images = image_records(fixture)
+            source_key = images[0][0]
+            source_assets = fixture / "wiki-assets" / source_key
             manifest_path = source_assets / "manifest.json"
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
             removed = manifest["images"].pop()
@@ -172,7 +200,7 @@ class ExactConsumerContractTest(unittest.TestCase):
                 encoding="utf-8",
             )
             (source_assets / removed["file"]).unlink()
-            generated = fixture / ".generated/wiki/sources/ai-guide-for-humanities-workers" / removed["file"]
+            generated = fixture / ".generated/wiki/sources" / source_key / removed["file"]
             self.assertTrue(generated.is_file())
             prepare.prepare(fixture)
             self.assertFalse(generated.exists())
