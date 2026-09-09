@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-09
-as_of_overview_commit: deebab4e67069ff60cd59eae252990d257063867
-input_digest: 26505307aae7c7100b8348ff9d7e24155f10011be693781c1809bafa02b55075
+as_of_overview_commit: e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9
+input_digest: 4f2a57d1a347e58034dcfa89ab3258fecc276e40dde60c0cbd74e2c8973a87c4
 ---
 
 # AI and Technology
 
 ## Current State
 
-The corpus links control of tools and information environments with output-driven learning. Automation, offline work, goals, abstraction, plain-language explanation, and theme-based knowledge systems may reduce friction and expose gaps, but these practices remain source-scoped and AI organization adds accuracy, privacy, and portability risks.
+The corpus links practical control of tools and information with output-driven learning and AI-serving infrastructure. The personal workflows remain source-scoped; for inference systems, model-matched tokenization, fresh state, and cache-aware placement appear important, while event-driven coordination trades polling cost for temporary inconsistency.
 
 ## Cross-source Findings
 
@@ -57,3 +57,14 @@ The corpus links control of tools and information environments with output-drive
 
 - The workflow is based on one author's practice rather than comparative evidence.
 - Automatic summaries and associations may introduce errors, privacy risks, and portability constraints.
+
+### Inference Routing Combines Model Aware Load And Fresh State
+
+[[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefix blocks against active decode load.
+
+**Evidence:** [[InferenceLoadBalancing]], [[KVCacheAwareRouting]]
+
+**Qualifications:**
+
+- This conclusion comes from one architectural critique rather than a controlled cross-project benchmark.
+- Event-driven router replicas can still observe temporarily inconsistent state.

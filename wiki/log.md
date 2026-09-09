@@ -35,3 +35,9 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added the source note and concepts `FeynmanTechnique` and `PersonalKnowledgeManagement`.
 - Added a source-bounded profile for `RichardFeynman`.
 - Recorded the output-driven learning workflow, AI knowledge-tool hypothesis, and the unsupported status of fixed retention percentages.
+
+## [2026-09-09] ingest | 锐评主流AI推理负载均衡开源实现
+
+- Added the source note and concepts `InferenceLoadBalancing` and `KVCacheAwareRouting`.
+- Added source-bounded profiles for `AIBrix`, `Kthena`, `GatewayAPIInferenceExtension`, and `NvidiaDynamo`.
+- Recorded tokenization accuracy, metric-collection scaling, cache-aware routing, and distributed-state qualifications.

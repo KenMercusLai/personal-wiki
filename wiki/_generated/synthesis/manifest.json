@@ -1,33 +1,33 @@
 {
   "content_date": "2026-09-09",
   "corpus": {
-    "episode_count": 5,
-    "source_count": 5
+    "episode_count": 6,
+    "source_count": 6
   },
   "generated": true,
   "global": {
-    "candidate_digest": "ebd229c217d8ee1d2264c654c438ec6c25a5edb409056d156ddefb5d574de4ee",
+    "candidate_digest": "13e4d96e859913fd863e93cae2ceaa7cb9ca15dde6aa445cf98d53bf04d0d006",
     "compacted_at": "2026-09-09T10:00:00Z",
     "content_date": "2026-09-09",
     "corpus": {
-      "episode_count": 5,
-      "source_count": 5
+      "episode_count": 6,
+      "source_count": 6
     },
-    "output_digest": "6cba6bd69fd2465e4c3fa852f484932be3bc32f8f104dcd7ffb01f1c56e02f70",
-    "overview_commit": "deebab4e67069ff60cd59eae252990d257063867",
-    "overview_digest": "191e7f85158043a98018a632caa26185d8c6d8983173c10ad3522d55ea4ee283",
+    "output_digest": "278d549fa97b40e6020300469a31dd88e8eafd5d8f1fd4b77a4ca7472619bf62",
+    "overview_commit": "e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9",
+    "overview_digest": "22cc61268592221dbcd9114bb3b758abe7fbd618e5ba65ff36823a4945701914",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "deebab4e67069ff60cd59eae252990d257063867",
-  "overview_digest": "191e7f85158043a98018a632caa26185d8c6d8983173c10ad3522d55ea4ee283",
-  "paragraph_count": 6,
+  "overview_commit": "e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9",
+  "overview_digest": "22cc61268592221dbcd9114bb3b758abe7fbd618e5ba65ff36823a4945701914",
+  "paragraph_count": 7,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
-      "claim_digest": "152f2f1257062fef4e0d49aaf7077c6e47f4e5fe931aee39d715c43d9661aea5",
-      "input_digest": "26505307aae7c7100b8348ff9d7e24155f10011be693781c1809bafa02b55075",
-      "output_digest": "2f221b5b6109ddca4519707bc66fb5157db58f7e310cfd8bb86521f3497a8c2d",
+      "claim_digest": "4ede665e6f54e59e9326173f126c850597c21e9113d64586d201950a23506e55",
+      "input_digest": "4f2a57d1a347e58034dcfa89ab3258fecc276e40dde60c0cbd74e2c8973a87c4",
+      "output_digest": "4afcd7db0536924965dd36749e042ec2bd8757997c91769f2874b8eabcf4bb51",
       "title": "AI and Technology"
     },
     "cross-domain": {

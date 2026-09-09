@@ -11,6 +11,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [轨迹抽稀之道格拉斯-普克算法](sources/guiji-chouxi-douglas-peucker-suanfa.md) - 用几何误差阈值压缩车辆轨迹点的算法说明与案例。
 - [使用 G+P+V 思考你的职业生涯](sources/shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya.md) - 以天赋、爱好和价值观探索职业方向，并将职业生涯视为可调整的长期路径。
 - [褪墨 - 提高工作效率的十条好习惯](sources/tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan.md) - 以优先级、专注、简化和委派构成轻量的日常效率实践。
+- [锐评主流AI推理负载均衡开源实现](sources/rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian.md) - 从 tokenization、指标采集与路由决策比较四种开源推理负载均衡实现。
 
 ## Entities
 - [Richard Feynman](entities/RichardFeynman.md) - 与解释式学习方法相关联的物理学家。
@@ -19,6 +20,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Leider](entities/RichardLeider.md) - 文中归因的美国职场专家与 G+P+V 公式分享者。
 - [Bernard Marr](entities/BernardMarr.md) - 十条工作效率习惯原文的署名作者。
 - [Stephen Covey](entities/StephenCovey.md) - 来源提及的作家及时间管理四象限关联人物。
+- [AIBrix](entities/AIBrix.md) - 结合多种指标路径与 KV 缓存感知路由的开源推理平台。
+- [Kthena](entities/Kthena.md) - 支持加权组合路由策略的单二进制 Go 推理路由器。
+- [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - 通过中心化 EPP 为外部数据面选择推理端点。
+- [NVIDIA Dynamo](entities/NvidiaDynamo.md) - 以 KV 事件、路由历史和成本函数驱动路由的推理平台。
 
 ## Concepts
 - [Feynman Technique](concepts/FeynmanTechnique.md) - 通过简洁解释发现理解缺口并迭代修正的学习循环。
@@ -33,5 +38,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Work Habits](concepts/WorkHabits.md) - 通过可重复的选择、执行和削减行为改善日常工作。
 - [Task Prioritization](concepts/TaskPrioritization.md) - 按重要性、紧迫性和执行阻力安排有限资源。
 - [Attention Management](concepts/AttentionManagement.md) - 通过减少切换和控制信息入口保护专注。
+- [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - 根据请求工作量与后端状态分配 AI 推理流量。
+- [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - 综合前缀缓存复用与 worker 负载选择推理节点。
 
 ## Syntheses

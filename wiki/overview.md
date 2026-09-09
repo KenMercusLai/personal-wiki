@@ -8,11 +8,12 @@ sources:
   - tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan
   - she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo
   - fei-man-xue-xi-fa-shi-jian-indigo-de-xin-xi-huo-qu-yu-zhi-shi-shu-chu-fang-fa-lun
+  - rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian
 last_updated: 2026-09-09
 ---
 # Overview
 
-The corpus currently spans geometric simplification of dense vehicle trajectories, heuristic career-path design, practical habits for personal productivity, and output-driven approaches to learning and personal knowledge management.
+The corpus currently spans geometric simplification of dense vehicle trajectories, AI inference infrastructure, heuristic career-path design, practical habits for personal productivity, and output-driven approaches to learning and personal knowledge management.
 
 ## Current Synthesis
 
@@ -28,6 +29,8 @@ For learning, [[GoalDirectedLearning]] treats meaningful goals as scaffolding th
 
 [[FeynmanTechnique]] adds an output-driven loop to that learning model: organize a topic, explain it plainly, use failures of explanation to select further study, and simplify the result into a reusable structure. [[PersonalKnowledgeManagement]] supplies the external workflow around that loop, moving from open discovery to focused reading and then from short notes to long-form and course output. Its theme pages connect books, links, excerpts, drafts, and research around future use rather than collection alone. The proposed AI layer—automatic summaries, tags, associations, and retrieval—remains a forward-looking claim with accuracy, privacy, and portability questions. The article's fixed learning-retention percentages are not treated as established evidence.
 
+For AI infrastructure, [[InferenceLoadBalancing]] links model-aware request sizing, fresh worker state, and routing decisions. The current comparison criticizes fixed or mismatched tokenizers and the multiplicative cost of every gateway polling every engine, while presenting event-driven KV state plus router history as a more scalable alternative. [[KVCacheAwareRouting]] can avoid repeated prefix computation, but cache affinity must be weighed against decode load and distributed routers still face short-lived state inconsistency. These conclusions are architectural judgments from one source rather than cross-project benchmarks.
+
 ## Open Questions
 
 - How should epsilon be calibrated against application-specific map scale and allowable route error?
@@ -41,3 +44,5 @@ For learning, [[GoalDirectedLearning]] treats meaningful goals as scaffolding th
 - How should learners balance abstract principles, memorized facts, and external lookup in different domains?
 - Does explanation-driven learning improve durable recall and transfer compared with retrieval practice or spaced study?
 - Which parts of personal knowledge organization can AI automate without obscuring provenance or introducing false associations?
+- How do the compared inference routers perform under the same workloads, cluster sizes, and model-specific tokenizers?
+- When does event-driven KV state remain accurate enough to replace direct engine metrics for routing decisions?

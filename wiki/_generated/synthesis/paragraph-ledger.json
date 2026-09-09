@@ -5,13 +5,14 @@
       "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
       "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e",
       "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6",
-      "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7"
-      ,"03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8"
+      "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7",
+      "03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8",
+      "7fa1e3319af81729e7dfbcba80898fb24310008081991a81574fc31bf44b4c4a"
     ],
-    "paragraph_count": 6
+    "paragraph_count": 7
   },
-  "overview_commit": "deebab4e67069ff60cd59eae252990d257063867",
-  "overview_digest": "191e7f85158043a98018a632caa26185d8c6d8983173c10ad3522d55ea4ee283",
+  "overview_commit": "e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9",
+  "overview_digest": "22cc61268592221dbcd9114bb3b758abe7fbd618e5ba65ff36823a4945701914",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -92,6 +93,21 @@
       "wikilinks": [
         "FeynmanTechnique",
         "PersonalKnowledgeManagement"
+      ]
+    },
+    {
+      "id": "7fa1e3319af81729e7dfbcba80898fb24310008081991a81574fc31bf44b4c4a",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "For AI infrastructure, [[InferenceLoadBalancing]] links model-aware request sizing, fresh worker state, and routing decisions. The current comparison criticizes fixed or mismatched tokenizers and the multiplicative cost of every gateway polling every engine, while presenting event-driven KV state plus router history as a more scalable alternative. [[KVCacheAwareRouting]] can avoid repeated prefix computation, but cache affinity must be weighed against decode load and distributed routers still face short-lived state inconsistency. These conclusions are architectural judgments from one source rather than cross-project benchmarks.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "InferenceLoadBalancing",
+        "KVCacheAwareRouting"
       ]
     }
   ],

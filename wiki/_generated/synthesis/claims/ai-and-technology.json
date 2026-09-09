@@ -1,4 +1,6 @@
 {
+  "topic_id": "ai-and-technology",
+  "summary": "The corpus links practical control of tools and information with output-driven learning and AI-serving infrastructure. The personal workflows remain source-scoped; for inference systems, model-matched tokenization, fresh state, and cache-aware placement appear important, while event-driven coordination trades polling cost for temporary inconsistency.",
   "claims": [
     {
       "global_candidate": true,
@@ -52,8 +54,20 @@
         "FeynmanTechnique",
         "PersonalKnowledgeManagement"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "inference-routing-combines-model-aware-load-and-fresh-state",
+      "qualifications": [
+        "This conclusion comes from one architectural critique rather than a controlled cross-project benchmark.",
+        "Event-driven router replicas can still observe temporarily inconsistent state."
+      ],
+      "statement": "[[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefix blocks against active decode load.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "InferenceLoadBalancing",
+        "KVCacheAwareRouting"
+      ]
     }
-  ],
-  "summary": "The corpus links control of tools and information environments with output-driven learning. Automation, offline work, goals, abstraction, plain-language explanation, and theme-based knowledge systems may reduce friction and expose gaps, but these practices remain source-scoped and AI organization adds accuracy, privacy, and portability risks.",
-  "topic_id": "ai-and-technology"
+  ]
 }
