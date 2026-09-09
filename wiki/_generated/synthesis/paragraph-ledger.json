@@ -3,12 +3,13 @@
     "assigned_paragraph_ids": [
       "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
       "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
-      "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e"
+      "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e",
+      "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6"
     ],
-    "paragraph_count": 3
+    "paragraph_count": 4
   },
-  "overview_commit": "f335a56147fa6adb64d096d4ec29e56621652760",
-  "overview_digest": "8e9caf762fb5c239a62c661ceb404cc6548b1557b849f0bbdb889a7bc65375be",
+  "overview_commit": "4852b533036baa20cde8bd68dab53115bae0685d",
+  "overview_digest": "bd483a1f094a69936c4c923c890f8adaa400b8720d44757e7c465a51c65d9b31",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -16,7 +17,9 @@
       "secondary_topics": [],
       "text": "High-frequency vehicle tracking can produce repeated, stationary, or nearly collinear points that increase storage, transfer, and client-rendering costs without proportionally improving the visible route. [[TrajectorySimplification]] treats point reduction as a controlled tradeoff between data volume and geometric fidelity, with bends and corners requiring particular attention.",
       "topic_scores": {},
-      "wikilinks": ["TrajectorySimplification"]
+      "wikilinks": [
+        "TrajectorySimplification"
+      ]
     },
     {
       "id": "2014fa8997ce0fa26d42ec560967d7af2fd759c890291da9ef9e4ff9a7bc6326",
@@ -24,15 +27,39 @@
       "secondary_topics": [],
       "text": "[[RamerDouglasPeuckerAlgorithm]] implements this tradeoff by comparing the farthest intermediate point from a segment against epsilon and recursively splitting when the tolerance is met or exceeded. In the current source's 812-point example, increasing epsilon reduced the retained count from 676 to 35; the strongest compression kept about 4% of points but introduced some corner differences. This is a source-scoped example, and the corpus does not yet establish a transferable epsilon because the coordinate system and distance calculation are unspecified.",
       "topic_scores": {},
-      "wikilinks": ["RamerDouglasPeuckerAlgorithm"]
+      "wikilinks": [
+        "RamerDouglasPeuckerAlgorithm"
+      ]
     },
     {
       "id": "d5b0373ac4ce5140e8c02a6386e80d5458700b0d79d484ce90057c8a0f10726e",
       "primary_topic": "work-education-and-society",
       "secondary_topics": [],
       "text": "In career planning, [[GPVCareerFramework]] proposes looking for alignment among gifts, passion, and values. [[CareerPathDesign]] broadens this from choosing one job to shaping a sequence of roles: an unwanted feature of work may sometimes be avoided by changing customers, work arrangements, or roles while retaining the underlying field. The source also supplies an important limit—the three-way fit is a prompt for exploring options, not proof that an interest is commercially viable or enjoyable when professionalized.",
-      "topic_scores": {"work-education-and-society": 3},
-      "wikilinks": ["CareerPathDesign", "GPVCareerFramework"]
+      "topic_scores": {
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "CareerPathDesign",
+        "GPVCareerFramework"
+      ]
+    },
+    {
+      "id": "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "For personal productivity, [[WorkHabits]] combines three moves: use [[TaskPrioritization]] to choose a small number of valuable tasks, use [[AttentionManagement]] to reduce switching and low-value inputs, and shrink the workload through deletion, automation, or delegation. Morning routines, concise communication, and doing a resisted task early complement that system. These are practical heuristics from a single popular article rather than validated universal rules; the corpus does not yet establish their effect sizes or suitability across different kinds of work.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "TaskPrioritization",
+        "WorkHabits"
+      ]
     }
   ],
   "schema_version": 1

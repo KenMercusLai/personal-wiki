@@ -1,0 +1,30 @@
+{
+  "claims": [
+    {
+      "global_candidate": true,
+      "id": "tools-and-offline-controls-can-reduce-friction",
+      "qualifications": [
+        "The current evidence is a single popular article and does not specify which tasks are safe to automate or which roles can work offline."
+      ],
+      "statement": "[[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "WorkHabits"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "information-tools-do-not-guarantee-quality",
+      "qualifications": [
+        "The source recommends RSS-style tools without comparing outcomes or addressing information-selection errors."
+      ],
+      "statement": "[[AttentionManagement]] can use subscriptions and offline reading to control when information arrives, but delivery format alone does not establish relevance or quality.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AttentionManagement"
+      ]
+    }
+  ],
+  "summary": "Personal productivity practices can use simple tools and environmental controls to reduce avoidable work and distraction, but the current corpus does not establish that automation or disconnection is universally appropriate.",
+  "topic_id": "ai-and-technology"
+}

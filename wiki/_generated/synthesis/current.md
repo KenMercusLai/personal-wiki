@@ -4,12 +4,12 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: f335a56147fa6adb64d096d4ec29e56621652760
-summary: "The corpus connects calibrated simplification with adaptable career design: both use explicit tradeoffs, and current findings remain source-scoped."
-episode_count: 2
-source_count: 2
-paragraph_count: 3
-topic_count: 2
+as_of_overview_commit: 4852b533036baa20cde8bd68dab53115bae0685d
+summary: "The wiki connects route simplification, adaptable career design, and evidence-limited productivity habits as practical ways to allocate data, direction, time, and attention."
+episode_count: 3
+source_count: 3
+paragraph_count: 4
+topic_count: 3
 ---
 
 # Current Synthesis
@@ -20,19 +20,27 @@ topic_count: 2
 - [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition.
 - [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
+- [[WorkHabits]] combines [[TaskPrioritization]], [[AttentionManagement]], and workload reduction to focus effort on a small number of valuable tasks.
+- [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction.
 
 ## Synthesis by Domain
 
+### AI and Technology
+
+Personal productivity practices can use simple tools and environmental controls to reduce avoidable work and distraction, but the current corpus does not establish that automation or disconnection is universally appropriate.
+
+- [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction. Evidence: [[WorkHabits]].
+
 ### Work, Education, and Society
 
-Career planning can combine strengths, interests, and values with adaptable role sequences, while treating professional feasibility and working conditions as separate constraints.
+The corpus presents career design and daily productivity as heuristic allocation problems: align longer-term direction with gifts, interests, and values, then protect a small set of important tasks through prioritization and attention controls, while recognizing feasibility and evidence limits.
 
 - [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions. Evidence: [[GPVCareerFramework]].
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction. Evidence: [[CareerPathDesign]].
 
 ### Cross-domain
 
-Trajectory simplification reduces redundant location points; Ramer-Douglas-Peucker provides an epsilon-controlled method whose observed compression remains route- and coordinate-dependent.
+Dense vehicle trajectories can be simplified to reduce storage, transfer, and rendering load, but the tolerance must be calibrated against geometric fidelity and the coordinate-distance model.
 
 - [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint. Evidence: [[TrajectorySimplification]].
 - [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition. Evidence: [[RamerDouglasPeuckerAlgorithm]].

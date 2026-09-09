@@ -3,20 +3,43 @@
     {
       "global_candidate": true,
       "id": "gpv-aligns-strength-interest-and-values",
-      "qualifications": ["The current evidence is a brief secondary article rather than a validated assessment method or outcome study."],
+      "qualifications": [
+        "The current evidence is a brief secondary article rather than a validated assessment method or outcome study."
+      ],
       "statement": "[[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.",
       "status": "qualified",
-      "supporting_wikilinks": ["GPVCareerFramework"]
+      "supporting_wikilinks": [
+        "GPVCareerFramework"
+      ]
     },
     {
       "global_candidate": true,
       "id": "career-is-an-adaptable-path",
-      "qualifications": ["The examples are anecdotes; financial, credential, geographic, and labor-market constraints may limit transitions."],
+      "qualifications": [
+        "The examples are anecdotes; financial, credential, geographic, and labor-market constraints may limit transitions."
+      ],
       "statement": "[[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.",
       "status": "source-scoped",
-      "supporting_wikilinks": ["CareerPathDesign"]
+      "supporting_wikilinks": [
+        "CareerPathDesign"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "productivity-combines-selection-focus-and-reduction",
+      "qualifications": [
+        "The recommendations come from one popular article without effect sizes or evidence across different jobs and working conditions.",
+        "Delayed communication, rigid routines, and delegation may be unsuitable where rapid response, unpredictability, or limited authority dominate."
+      ],
+      "statement": "[[WorkHabits]] combines [[TaskPrioritization]], [[AttentionManagement]], and workload reduction to focus effort on a small number of valuable tasks.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "WorkHabits",
+        "TaskPrioritization",
+        "AttentionManagement"
+      ]
     }
   ],
-  "summary": "Career fit can be explored through gifts, passion, and values, then translated into an adaptable sequence of roles, but personal alignment does not by itself establish professional feasibility.",
+  "summary": "The corpus presents career design and daily productivity as heuristic allocation problems: align longer-term direction with gifts, interests, and values, then protect a small set of important tasks through prioritization and attention controls, while recognizing feasibility and evidence limits.",
   "topic_id": "work-education-and-society"
 }

@@ -15,3 +15,10 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added source note `shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya`.
 - Added concepts `GPVCareerFramework` and `CareerPathDesign`, plus entity `RichardLeider`.
 - Recorded career fit, adaptable pathways, and the limits of turning passion into work.
+
+## [2026-09-09] ingest | 褪墨 - 提高工作效率的十条好习惯
+
+- Added source note `tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan`.
+- Added concepts `WorkHabits`, `TaskPrioritization`, and `AttentionManagement`.
+- Added entities `BernardMarr` and `StephenCovey` with source-bounded profiles.
+- Recorded evidence limits around the article's general productivity recommendations.
