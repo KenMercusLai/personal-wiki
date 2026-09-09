@@ -41,3 +41,9 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 - Added the source note and concepts `InferenceLoadBalancing` and `KVCacheAwareRouting`.
 - Added source-bounded profiles for `AIBrix`, `Kthena`, `GatewayAPIInferenceExtension`, and `NvidiaDynamo`.
 - Recorded tokenization accuracy, metric-collection scaling, cache-aware routing, and distributed-state qualifications.
+
+## [2026-09-09] ingest | 陈皓 - HTTP的前世今生
+
+- Added the source note and concepts `HTTPProtocolEvolution` and `QUIC`.
+- Added a source-bounded profile for `TimBernersLee`.
+- Recorded HTTP version transitions, transport-layer head-of-line blocking, and QUIC deployment qualifications.

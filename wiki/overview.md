@@ -9,11 +9,12 @@ sources:
   - she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo
   - fei-man-xue-xi-fa-shi-jian-indigo-de-xin-xi-huo-qu-yu-zhi-shi-shu-chu-fang-fa-lun
   - rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian
+  - chen-hao-http-de-qian-shi-jin-sheng
 last_updated: 2026-09-09
 ---
 # Overview
 
-The corpus currently spans geometric simplification of dense vehicle trajectories, AI inference infrastructure, heuristic career-path design, practical habits for personal productivity, and output-driven approaches to learning and personal knowledge management.
+The corpus currently spans geometric simplification of dense vehicle trajectories, HTTP and AI infrastructure, heuristic career-path design, practical habits for personal productivity, and output-driven approaches to learning and personal knowledge management.
 
 ## Current Synthesis
 
@@ -31,6 +32,8 @@ For learning, [[GoalDirectedLearning]] treats meaningful goals as scaffolding th
 
 For AI infrastructure, [[InferenceLoadBalancing]] links model-aware request sizing, fresh worker state, and routing decisions. The current comparison criticizes fixed or mismatched tokenizers and the multiplicative cost of every gateway polling every engine, while presenting event-driven KV state plus router history as a more scalable alternative. [[KVCacheAwareRouting]] can avoid repeated prefix computation, but cache affinity must be weighed against decode load and distributed routers still face short-lived state inconsistency. These conclusions are architectural judgments from one source rather than cross-project benchmarks.
 
+For Web infrastructure, [[HTTPProtocolEvolution]] moves from HTTP/1.0 metadata and per-resource connections through HTTP/1.1 persistence to HTTP/2 binary framing and multiplexing. HTTP/2 improves concurrency but retains TCP-level head-of-line blocking: loss in the shared ordered byte stream can stall unrelated HTTP streams. HTTP/3 therefore uses [[QUIC]], which implements secure reliable transport and independent streams over UDP, adds connection IDs for path migration, and must coexist with middleboxes and load balancers built around conventional flow tuples. The source is a 2019 overview; its adoption figures are historical, several mechanism descriptions are simplified, and future displacement of TCP remains speculative.
+
 ## Open Questions
 
 - How should epsilon be calibrated against application-specific map scale and allowable route error?
@@ -46,3 +49,5 @@ For AI infrastructure, [[InferenceLoadBalancing]] links model-aware request sizi
 - Which parts of personal knowledge organization can AI automate without obscuring provenance or introducing false associations?
 - How do the compared inference routers perform under the same workloads, cluster sizes, and model-specific tokenizers?
 - When does event-driven KV state remain accurate enough to replace direct engine metrics for routing decisions?
+- How do HTTP/2 and HTTP/3 compare under controlled latency, loss, and middlebox conditions?
+- Which deployment environments still block or degrade QUIC, and how effective are fallback strategies?

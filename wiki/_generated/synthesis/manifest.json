@@ -1,27 +1,27 @@
 {
   "content_date": "2026-09-09",
   "corpus": {
-    "episode_count": 6,
-    "source_count": 6
+    "episode_count": 7,
+    "source_count": 7
   },
   "generated": true,
   "global": {
-    "candidate_digest": "13e4d96e859913fd863e93cae2ceaa7cb9ca15dde6aa445cf98d53bf04d0d006",
+    "candidate_digest": "0fa7a8daefe742c376ea466d45dd162e3b22b2a5bdfe777c0ad9341b4b38c919",
     "compacted_at": "2026-09-09T10:00:00Z",
     "content_date": "2026-09-09",
     "corpus": {
-      "episode_count": 6,
-      "source_count": 6
+      "episode_count": 7,
+      "source_count": 7
     },
-    "output_digest": "278d549fa97b40e6020300469a31dd88e8eafd5d8f1fd4b77a4ca7472619bf62",
-    "overview_commit": "e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9",
-    "overview_digest": "22cc61268592221dbcd9114bb3b758abe7fbd618e5ba65ff36823a4945701914",
+    "output_digest": "af5e7b06f4b2ec7a219ef5d6517ae94de2df1e29bae0e2edaad7dbdabf83d922",
+    "overview_commit": "1fd3d79e34bfef801b52de8bfb357a81776ccd08",
+    "overview_digest": "3fd83c12c5d2bd8c903527339308610d794e0049903138d6f3086dd9cc957f5e",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9",
-  "overview_digest": "22cc61268592221dbcd9114bb3b758abe7fbd618e5ba65ff36823a4945701914",
-  "paragraph_count": 7,
+  "overview_commit": "1fd3d79e34bfef801b52de8bfb357a81776ccd08",
+  "overview_digest": "3fd83c12c5d2bd8c903527339308610d794e0049903138d6f3086dd9cc957f5e",
+  "paragraph_count": 8,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -35,6 +35,12 @@
       "input_digest": "26fd1ae08536ce29b14df081a31ecc20aac74cc7619b415875a3862ce5aea1a6",
       "output_digest": "da4f5c250309efdcd6bca8d03a0b66a5f03554bd4e85ad79d8724ff0039a314e",
       "title": "Cross-domain"
+    },
+    "history-and-geopolitics": {
+      "claim_digest": "1f3f9e0ddad7c570c843e67ad3ef8ef9e407acd5b7f6a61e7464495061599f5d",
+      "input_digest": "9a959ef3d3f92f5b1cf101cd1da7a23518e60ad7f165d412eb779d9840674f82",
+      "output_digest": "51114a9fe09692d6c02c52b08466b144f6edb8eab98263dde3a51855a7f480b9",
+      "title": "History and Geopolitics"
     },
     "work-education-and-society": {
       "claim_digest": "f7f46b8ec69fe852a88a887acb8dddc2904799adf89a21f57f360ca09ca4f0b7",

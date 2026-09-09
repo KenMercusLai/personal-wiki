@@ -7,12 +7,13 @@
       "f32ea711699973f7ba5eb213b6fdc575b67713a2544687340aa06a48ddd806a6",
       "a8e7ec89d08968bab7f9d95f933322618f93cc668fd44b5d22a3323ae23514d7",
       "03b7ada11de38a64120409a9357105f31d69cdbc3de817eefa091bbe0301eeb8",
-      "7fa1e3319af81729e7dfbcba80898fb24310008081991a81574fc31bf44b4c4a"
+      "7fa1e3319af81729e7dfbcba80898fb24310008081991a81574fc31bf44b4c4a",
+      "613769f1985a0cebe514aa83bc9fd62c7639b4e86dbc33d36f563b62a7234c87"
     ],
-    "paragraph_count": 7
+    "paragraph_count": 8
   },
-  "overview_commit": "e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9",
-  "overview_digest": "22cc61268592221dbcd9114bb3b758abe7fbd618e5ba65ff36823a4945701914",
+  "overview_commit": "1fd3d79e34bfef801b52de8bfb357a81776ccd08",
+  "overview_digest": "3fd83c12c5d2bd8c903527339308610d794e0049903138d6f3086dd9cc957f5e",
   "paragraphs": [
     {
       "id": "f36187e3c4fa807a49372af9bfcd7c1e7929ed643dc3113d37d1bc173b90f25c",
@@ -108,6 +109,19 @@
       "wikilinks": [
         "InferenceLoadBalancing",
         "KVCacheAwareRouting"
+      ]
+    },
+    {
+      "id": "613769f1985a0cebe514aa83bc9fd62c7639b4e86dbc33d36f563b62a7234c87",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [],
+      "text": "For Web infrastructure, [[HTTPProtocolEvolution]] moves from HTTP/1.0 metadata and per-resource connections through HTTP/1.1 persistence to HTTP/2 binary framing and multiplexing. HTTP/2 improves concurrency but retains TCP-level head-of-line blocking: loss in the shared ordered byte stream can stall unrelated HTTP streams. HTTP/3 therefore uses [[QUIC]], which implements secure reliable transport and independent streams over UDP, adds connection IDs for path migration, and must coexist with middleboxes and load balancers built around conventional flow tuples. The source is a 2019 overview; its adoption figures are historical, several mechanism descriptions are simplified, and future displacement of TCP remains speculative.",
+      "topic_scores": {
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "HTTPProtocolEvolution",
+        "QUIC"
       ]
     }
   ],

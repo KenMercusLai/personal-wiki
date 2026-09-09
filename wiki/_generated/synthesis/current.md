@@ -4,12 +4,12 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-09
-as_of_overview_commit: e2049b8b90d2d8d7aadc6bfdc876f44588c67ce9
-summary: "Across geometry, careers, learning, and AI infrastructure, the corpus favors selective structure and feedback while preserving evidence and consistency limits."
-episode_count: 6
-source_count: 6
-paragraph_count: 7
-topic_count: 3
+as_of_overview_commit: 1fd3d79e34bfef801b52de8bfb357a81776ccd08
+summary: "Across geometry, careers, learning, and network infrastructure, the corpus favors selective structure and standards while preserving evidence and deployment limits."
+episode_count: 7
+source_count: 7
+paragraph_count: 8
+topic_count: 4
 ---
 
 # Current Synthesis
@@ -17,13 +17,13 @@ topic_count: 3
 ## Executive Summary
 
 - [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint.
-- [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition.
 - [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.
 - [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
-- [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction.
 - [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals.
 - [[FeynmanTechnique]] uses failures of plain-language explanation to direct further study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.
 - [[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefix blocks against active decode load.
+- [[HTTPProtocolEvolution]] progressed from explicit metadata and persistent connections to multiplexed streams, while each generation shifted rather than eliminated performance and complexity tradeoffs.
+- [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior.
 
 ## Synthesis by Domain
 
@@ -33,6 +33,13 @@ The corpus links practical control of tools and information with output-driven l
 
 - [[WorkHabits]] can include automation for suitable tasks and offline work when network access creates distraction. Evidence: [[WorkHabits]].
 - [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also be sustained by curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
+
+### History and Geopolitics
+
+The corpus currently treats HTTP's history as a sequence of engineering responses to metadata, connection, concurrency, and transport constraints. HTTP/3's use of QUIC addresses connection-wide TCP blocking but adds deployment dependencies on UDP-capable networks, connection-aware routing, and revised compression state.
+
+- [[HTTPProtocolEvolution]] progressed from explicit metadata and persistent connections to multiplexed streams, while each generation shifted rather than eliminated performance and complexity tradeoffs. Evidence: [[HTTPProtocolEvolution]].
+- [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior. Evidence: [[QUIC]].
 
 ### Work, Education, and Society
 
