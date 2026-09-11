@@ -1,0 +1,1 @@
+"""Personal Wiki consumer contract tests."""

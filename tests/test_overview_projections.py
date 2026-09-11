@@ -5,9 +5,12 @@ import importlib.util
 import json
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
+
+from tests.corpus_helpers import duplicate_scalar_key, synthesis_topic_ids
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = ROOT / "scripts/prepare-overview-projections.py"
@@ -29,7 +32,7 @@ class OverviewProjectionTest(unittest.TestCase):
         before = hashlib.sha256((ROOT / "wiki/overview.md").read_bytes()).hexdigest()
         report = overview.project(ROOT)
         self.assertEqual(report.synthesis_source, "compact")
-        self.assertEqual(report.source_count, 1)
+        self.assertEqual(report.source_count, len(list((ROOT / "wiki/sources").glob("*.md"))))
         namespace = (ROOT / ".generated/wiki-projections/_index.md").read_text()
         self.assertIn("render: never", namespace)
         self.assertIn("list: never", namespace)
@@ -39,9 +42,11 @@ class OverviewProjectionTest(unittest.TestCase):
         self.assertIn("## Executive Summary", current)
         self.assertNotIn("episode_count:", current)
         questions = (ROOT / ".generated/wiki-projections/open-questions.md").read_text()
-        self.assertIn("不同人文学科任务需要怎样的最低证据", questions)
-        history = (ROOT / ".generated/wiki-projections/update-history/_index.md").read_text()
         canonical = (ROOT / "wiki/overview.md").read_text(encoding="utf-8")
+        canonical_questions = overview._overview_sections(canonical)[3]
+        self.assertTrue(canonical_questions)
+        self.assertIn(canonical_questions, questions)
+        history = (ROOT / ".generated/wiki-projections/update-history/_index.md").read_text()
         canonical_intro = overview._overview_sections(canonical)[1]
         self.assertTrue(canonical_intro)
         self.assertIn(canonical_intro, history)
@@ -54,7 +59,14 @@ class OverviewProjectionTest(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("First synchronized canonical overview", history)
-        self.assertNotIn("e1a9c4ac63a1", history)
+        consumer_revision = subprocess.run(
+            ["git", "rev-parse", "--short=12", "HEAD"],
+            cwd=ROOT,
+            check=True,
+            text=True,
+            stdout=subprocess.PIPE,
+        ).stdout.strip()
+        self.assertNotIn(consumer_revision, history)
         self.assertNotIn("Canonical overview revision", history)
 
     def test_check_and_owned_stale_cleanup_are_deterministic(self):
@@ -85,18 +97,14 @@ class OverviewProjectionTest(unittest.TestCase):
             fixture = Path(td)
             shutil.copytree(ROOT / "wiki", fixture / "wiki")
             synthesis = fixture / "wiki/_generated/synthesis"
-            topic = synthesis / "topics/ai-and-technology.md"
+            topic_id = synthesis_topic_ids(fixture)[0]
+            topic = synthesis / "topics" / f"{topic_id}.md"
             original_topic = topic.read_text(encoding="utf-8")
-            tampered_topic = original_topic.replace(
-                "Humanistic AI practice is strongest",
-                "Tampered topic prose claims AI is infallible",
-                1,
-            )
-            self.assertNotEqual(tampered_topic, original_topic)
+            tampered_topic = original_topic.rstrip() + "\n\nTampered topic prose.\n"
             topic.write_text(tampered_topic, encoding="utf-8")
             manifest_path = synthesis / "manifest.json"
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-            manifest["topics"]["ai-and-technology"]["output_digest"] = hashlib.sha256(
+            manifest["topics"][topic_id]["output_digest"] = hashlib.sha256(
                 topic.read_bytes()
             ).hexdigest()
             manifest_path.write_text(
@@ -137,25 +145,19 @@ class OverviewProjectionTest(unittest.TestCase):
 
     def test_duplicate_keys_in_release_synthesis_json_fail_closed(self):
         overview = load_script("personal_overview_duplicate_json")
-        files_and_keys = (
-            ("manifest.json", '  "schema_version": 1,\n'),
-            (
-                "paragraph-ledger.json",
-                '  "overview_commit": "9dbf2381f5120326a4ba2dc4f5bd66cae5636d7e",\n',
-            ),
-            (
-                "claims/ai-and-technology.json",
-                '      "status": "supported",\n',
-            ),
+        topic_id = synthesis_topic_ids(ROOT)[0]
+        files = (
+            "manifest.json",
+            "paragraph-ledger.json",
+            f"claims/{topic_id}.json",
         )
-        for relative, field in files_and_keys:
+        for relative in files:
             with self.subTest(relative=relative), tempfile.TemporaryDirectory() as td:
                 fixture = Path(td)
                 shutil.copytree(ROOT / "wiki", fixture / "wiki")
                 target = fixture / "wiki/_generated/synthesis" / relative
                 original = target.read_text(encoding="utf-8")
-                self.assertEqual(original.count(field), 1)
-                target.write_text(original.replace(field, field + field, 1), encoding="utf-8")
+                target.write_text(duplicate_scalar_key(original, nested=True), encoding="utf-8")
                 with self.assertRaisesRegex(ValueError, "topic synthesis bundle has invalid"):
                     overview.project(fixture)
 
