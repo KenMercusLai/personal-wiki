@@ -1,39 +1,38 @@
 ---
 title: "陈皓 - HTTP的前世今生"
 type: source
-tags: [http, networking, protocol-history, web]
+tags: [http, networking, protocol, web]
 date: 2019-10-01
-source_file: Articles/陈皓 - HTTP的前世今生.md
+source_file: /mnt/ken_personal_wiki/Articles/陈皓 - HTTP的前世今生.md
 ---
 
 ## Summary
-
-陈皓以性能、工程化和标准化为主线，回顾 HTTP/0.9、HTTP/1.0、HTTP/1.1、HTTP/2 到当时尚在发展的 HTTP/3，并将协议演进概括为元数据与业务数据分离、连接复用、多路复用及传输层变更。文章重点解释 HTTP/2 在单一 TCP 连接上多路复用仍受传输层队头阻塞影响，以及 [[QUIC]] 如何在 UDP 上重新实现可靠传输、拥塞控制、加密握手和连接迁移；文中的采用率与浏览器支持状态仅代表 2019 年 10 月。
+This article traces [[HTTP]] from its early request-response origins through [[HTTP11]], [[HTTP2]], and [[HTTP3]]. [[ChenHao]] frames the protocol's history as a series of engineering moves: separating metadata from payloads, standardizing errors through status codes, improving connection reuse and caching, then addressing performance limits through binary framing, multiplexing, and [[QUIC]]. The source argues that protocol standardization gives architecture teams practical leverage because widely adopted standards improve interoperability and access to open-source ecosystems.
 
 ## Key Claims
-
-- HTTP/1.0 通过版本号、首部、状态码与内容类型，使 HTTP 从极简请求协议发展为更具工程化边界的通用协议，但每个资源建立新 TCP 连接的方式成本高。
-- HTTP/1.1 以持久连接、流水线、分块传输、缓存控制、内容协商和 `Host` 首部扩展性能与应用范围，但流水线仍存在应用层队头阻塞。
-- HTTP/2 使用二进制分帧、连接内多路复用、HPACK 首部压缩和服务端推送提高传输效率，同时增加优先级调度等协议复杂度。
-- 多个 HTTP/2 流共享一条 TCP 连接时，单个丢包会阻塞该连接上的所有流；这是 TCP 有序字节流造成的传输层队头阻塞。
-- [[QUIC]] 在 UDP 上集成可靠性、拥塞控制、加密和流多路复用，使不同流可独立处理丢包，并以连接 ID 支持网络路径变化。
-- HTTP/3 的部署不仅取决于协议设计，还受 NAT、四元组负载均衡、中间设备 UDP 策略及 QPACK 状态同步等现实网络条件约束。
-- 作者主张企业采用行业标准可更有效地利用开源生态，但文章未用跨组织数据验证这一架构建议。
+- Early [[HTTP]] became more engineering-friendly when versioning, headers, status codes, and content types separated control metadata from business data.
+- [[HTTP11]] improved HTTP/1.0 by adding persistent connections, pipelining, chunked responses, cache control, negotiation headers, the Host header, and OPTIONS for CORS.
+- The 2014 HTTP/1.1 RFC series broadened HTTP's role as a general application-layer protocol and reduced the case for private RPC reinvention.
+- [[HTTP2]] addressed HTTP/1.1 performance constraints with binary framing, request multiplexing, HPACK header compression, and server push, while increasing protocol complexity.
+- [[HeadOfLineBlocking]] remained a problem for HTTP/2 because multiple HTTP streams still shared one TCP connection.
+- [[HTTP3]] moved HTTP over [[QUIC]] and UDP to reduce TCP-level head-of-line blocking, combine transport and TLS setup, and support connection identity across network changes.
+- [[QUIC]] faces deployment challenges because many NATs, load balancers, and network devices understand UDP packets rather than QUIC's connection IDs and stream semantics.
 
 ## Key Quotes
+> "一种工程文明" - on HTTP/1.0's versioning, headers, status codes, and content types.
 
-> “一个协议有没有版本管理，是一个工程化的象征。” — 作者以版本管理说明 HTTP/1.0 的工程化意义
-
-> “这个问题又叫Head-of-Line Blocking问题，这也是一个比较经典的流量调度的问题。” — 作者概括 HTTP/1.1 流水线与 HTTP/2 over TCP 的阻塞问题
+> "HTTP/3破天荒地把HTTP底层的TCP协议改成了UDP" - on the protocol-stack shift in HTTP/3.
 
 ## Connections
-
-- [[HTTPProtocolEvolution]] — 提供各代 HTTP 的功能、性能动机与标准化脉络。
-- [[QUIC]] — 解释 HTTP/3 所依赖传输协议的多路复用、握手和连接迁移特性。
-- [[TimBernersLee]] — 文章将 HTTP 与 WWW 的发明归于 Tim Berners-Lee，并以此作为历史起点。
+- [[HTTP]] - the article's central protocol lineage.
+- [[HTTP11]] - presented as the version that made HTTP persistent, cacheable, negotiable, and broadly useful for application APIs.
+- [[HTTP2]] - presented as the major performance upgrade built from Google's SPDY work.
+- [[HTTP3]] - presented as the QUIC-based successor intended to address TCP limitations.
+- [[QUIC]] - described as the UDP-based transport foundation for HTTP/3.
+- [[HeadOfLineBlocking]] - used to explain why HTTP/2 still had transport-level blocking.
+- [[ChenHao]] - author of the article.
+- [[TimBernersLee]] - credited as the inventor of HTTP and the WWW.
+- [[Google]] - associated with SPDY, QUIC, Chrome, and congestion-control experimentation in the article.
 
 ## Contradictions
-
-- 暂未发现与现有 wiki 内容直接矛盾；当前语料此前没有 HTTP 或 QUIC 主题。
-- 文章关于 2019 年 HTTP/2 采用率、HTTP/3 浏览器支持和未来取代 TCP 的判断具有时间边界，不应视为当前状态。
-- 若干技术表述是教学性简化：分块传输不等同于通用“服务端推送”，UDP/NAT 并非原则上无法使用四元组映射，TLS 建连轮次也随版本与恢复机制变化。
+- No direct contradictions with existing wiki content. This source adds a networking-protocol thread to the technology portion of the wiki.

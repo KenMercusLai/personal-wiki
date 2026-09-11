@@ -65,6 +65,17 @@ class PagesArtifactContractTest(unittest.TestCase):
         self.assertEqual(report.wiki_pages, sum(route.startswith("/wiki/") for route in expected_routes))
         self.assertEqual(report.local_images, len(image_records(ROOT)))
 
+    def test_visible_prose_normalizes_hugo_smart_quotes_only(self):
+        verifier = load_verifier("personal_artifact_smart_quotes")
+        self.assertEqual(
+            verifier._normalize_visible_prose("the source\u2019s \u201cclaim\u201d"),
+            verifier._normalize_visible_prose("the source's \"claim\""),
+        )
+        self.assertNotEqual(
+            verifier._normalize_visible_prose("the source omits a claim"),
+            verifier._normalize_visible_prose("the source includes a claim"),
+        )
+
     def test_hidden_canonical_pages_and_projection_namespace_are_absent(self):
         for route in (
             "wiki/index/index.html",

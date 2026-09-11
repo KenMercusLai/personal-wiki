@@ -285,6 +285,13 @@ class PageParser(HTMLParser):
         return " ".join(" ".join(self.visible_chunks).split())
 
 
+def _normalize_visible_prose(text: str) -> str:
+    """Normalize Hugo smart quotes without weakening prose comparison."""
+    return " ".join(
+        text.translate(str.maketrans({"\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"'})).split()
+    )
+
+
 def without_http_url_paths(text: str) -> str:
     query_and_fragment: list[str] = []
 
@@ -892,9 +899,10 @@ def _verify_projection(contract: CanonicalContract, parsers: dict[str, PageParse
         if required_heading not in detail.visible_text:
             raise ValueError(f"Current Synthesis detail is missing {required_heading}")
     open_page = parsers["wiki/open-questions/index.html"]
+    normalized_open_text = _normalize_visible_prose(open_page.visible_text)
     for line in contract.open_questions.splitlines():
         visible = line.removeprefix("-").strip()
-        if visible and visible not in open_page.visible_text:
+        if visible and _normalize_visible_prose(visible) not in normalized_open_text:
             raise ValueError(f"Open Questions projection omitted canonical text: {visible}")
     expected_projection_links = {
         urljoin(root_url, "wiki/current-synthesis/"),

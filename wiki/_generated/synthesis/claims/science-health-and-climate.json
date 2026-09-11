@@ -1,0 +1,20 @@
+{
+  "claims": [
+    {
+      "global_candidate": true,
+      "id": "attention-is-treated-as-scarce",
+      "qualifications": [
+        "This is an advice-source framing, not a health or cognitive-science evidence review.",
+        "The topic assignment is indirect because the paragraph concerns mental focus rather than medicine, climate, or natural science."
+      ],
+      "statement": "[[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AttentionManagement",
+        "TimeManagementQuadrants"
+      ]
+    }
+  ],
+  "summary": "The current health-adjacent material is limited to attention and mental load in productivity advice: single-tasking, reduced distractions, offline work, and early completion of avoided tasks are presented as ways to protect focus.",
+  "topic_id": "science-health-and-climate"
+}

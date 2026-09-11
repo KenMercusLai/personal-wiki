@@ -1,53 +1,36 @@
 ---
 title: "Bernard Marr"
 type: entity
-tags:
-  - author
+tags: [author, productivity]
 sources:
-  - tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan
-last_updated: 2026-09-09
+  - tuimo-10-timeless-work-habits-to-boost-productivity
+last_updated: 2026-09-11
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-
-Bernard Marr 是《提高工作效率的十条好习惯》所标注的原文作者。
+[[BernardMarr]] is the original author credited by the ingested 褪墨 article on ten work habits for improving productivity.
 
 ## Current Profile
-
-在当前语料中，Bernard Marr 仅作为一篇通俗生产力建议文章的作者出现。文章倡导用优先级、单任务、例行安排、信息精简、批处理、委派和离线工作等低门槛习惯提高工作效率；语料未提供他的履历或这些建议的研究依据。
+Within this wiki, Marr is currently represented only through a translated productivity article. The source attributes to him a practical habit-based view of work efficiency centered on priority setting, single-tasking, simplified information input, concise output, batching, delegation, offline work, and doing avoided tasks early.
 
 ## Key Characteristics
-
-- 被标注为十条工作效率习惯原文的作者。
-- 将生产力改善表述为无需复杂系统的日常行为改变。
-- 其文中的部分经验性主张没有附具体证据。
+- Credited as the original author of the translated article.
+- Associated in this wiki with habit-based productivity advice.
+- Presents productivity as achievable through simple behavioral adjustments rather than a large system.
 
 ## Evidence
-
-### 作者身份
-
-- [[tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan]]在文首将原文归于 Bernard Marr。
-
-### 生产力取向
-
-- [[tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan]]以十项简短习惯构成其效率建议。
-
-### 证据边界
-
-- [[tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan]]没有为单任务等经验性主张列出研究来源。
+- Authorship: [[tuimo-10-timeless-work-habits-to-boost-productivity]] credits Bernard Marr as the original author.
+- Productivity advice: [[tuimo-10-timeless-work-habits-to-boost-productivity]] presents ten habits for improving work efficiency.
+- Lightweight approach: [[tuimo-10-timeless-work-habits-to-boost-productivity]] concludes that productivity does not require an elaborate framework.
 
 ## Qualifications
-
-- 当前语料不足以验证作者身份细节、专业背景或文章的原始发表语境。
-- 文章为译文，措辞可能同时反映译者的表达选择。
+This profile is source-scoped. The wiki has not yet ingested independent biographical sources about Bernard Marr or his broader body of work.
 
 ## What Changed
-
-- 首次建立 Bernard Marr 在语料中的作者身份及其生产力建议概况。
+- Created the initial entity profile for Bernard Marr from the article attribution.
 
 ## Relationships
-
-- [[WorkHabits]] - 其文章以十条习惯阐释这一主题。
-- [[TaskPrioritization]] - 其建议包含每日要事与重要性象限。
-- [[AttentionManagement]] - 其建议包含单任务、批处理和离线工作。
+- [[PersonalProductivity]] - Marr is associated here with practical productivity habits.
+- [[WorkHabits]] - the credited article presents work habits as the route to better efficiency.
+- [[AttentionManagement]] - several habits attributed to the article focus on preserving attention.

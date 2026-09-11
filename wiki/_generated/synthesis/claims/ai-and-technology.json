@@ -2,91 +2,61 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "tools-and-offline-controls-can-reduce-friction",
+      "id": "ai-assisted-knowledge-organization",
       "qualifications": [
-        "The current evidence is a single popular article and does not establish effect sizes or suitability across work settings."
+        "The source frames this as an expected direction, not a validated capability across mature tools."
       ],
-      "statement": "[[WorkHabits]] can combine prioritization, reduced switching, automation, delegation, and offline work to lower execution friction.",
+      "statement": "[[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines.",
       "status": "source-scoped",
       "supporting_wikilinks": [
-        "WorkHabits",
-        "TaskPrioritization",
-        "AttentionManagement"
+        "AIKnowledgeAssistant",
+        "PersonalKnowledgeManagement",
+        "SecondBrain"
       ]
     },
     {
       "global_candidate": true,
-      "id": "goals-and-abstraction-organize-learning",
+      "id": "second-brain-as-active-system",
       "qualifications": [
-        "The mechanism is drawn from one author's explanatory model and anecdotes rather than comparative evidence."
+        "The corpus does not yet address provenance, privacy, hallucinated associations, or user audit practices."
       ],
-      "statement": "[[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also persist through curiosity without explicit goals.",
+      "statement": "[[SecondBrain]] describes the aspiration for personal notes to become an active external thinking system rather than a static archive.",
       "status": "source-scoped",
       "supporting_wikilinks": [
-        "GoalDirectedLearning",
-        "AbstractionInLearning",
-        "LearningDrive"
+        "SecondBrain",
+        "AIKnowledgeAssistant"
       ]
     },
     {
       "global_candidate": true,
-      "id": "explanation-and-knowledge-systems-form-a-learning-loop",
+      "id": "ai-infrastructure-needs-workload-aware-routing",
       "qualifications": [
-        "The workflow reflects one author's practice, and proposed AI automation introduces accuracy, privacy, and portability risks."
+        "The evidence is an architectural critique rather than a production benchmark."
       ],
-      "statement": "[[FeynmanTechnique]] uses failures of plain-language explanation to direct study, while [[PersonalKnowledgeManagement]] connects focused reading, notes, and progressively deeper outputs around future use.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "FeynmanTechnique",
-        "PersonalKnowledgeManagement"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "inference-routing-combines-model-aware-load-and-fresh-state",
-      "qualifications": [
-        "This judgment comes from one architectural critique rather than a controlled cross-project benchmark.",
-        "Event-driven router replicas can observe temporarily inconsistent state."
-      ],
-      "statement": "[[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefixes against active decode load.",
-      "status": "source-scoped",
+      "statement": "[[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.",
+      "status": "supported",
       "supporting_wikilinks": [
         "InferenceLoadBalancing",
+        "InferenceTokenization",
         "KVCacheAwareRouting"
       ]
     },
     {
       "global_candidate": true,
-      "id": "retrieval-connects-external-knowledge-to-generation",
+      "id": "inference-routing-architecture-matters",
       "qualifications": [
-        "The evidence is a small historical tutorial rather than an evaluation of retrieval accuracy, answer faithfulness, security, or production readiness.",
-        "The described interfaces and ecosystem claims are time-sensitive."
+        "The corpus compares selected open-source implementations and does not yet cover proprietary serving stacks or measured deployment data."
       ],
-      "statement": "[[RetrievalAugmentedGeneration]] can connect external knowledge to responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and environments such as [[Replit]] can package a prototype workflow.",
-      "status": "source-scoped",
+      "statement": "The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that inference routing quality depends on architecture as well as algorithms: polling, centralized endpoint picking, and event-driven KV-cache state carry different scaling tradeoffs.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "RetrievalAugmentedGeneration",
-        "LLMApplicationFrameworks",
-        "LangChain",
-        "Replit"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "phonetic-and-semantic-retrieval-supports-pun-translation",
-      "qualifications": [
-        "Retrieval does not resolve tone, naturalness, humor, or cultural fit.",
-        "The reported gains come from one practitioner account without a comparative evaluation."
-      ],
-      "statement": "[[MachineAssistedPunTranslation]] can use phonetic filtering and semantic retrieval to narrow creative candidates, as the project-specific [[MancoDB]] workflow did for [[WomanCommunication]].",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "MachineAssistedPunTranslation",
-        "MancoDB",
-        "WomanCommunication"
+        "AIBrix",
+        "Kthena",
+        "GatewayAPIInferenceExtension",
+        "DynamoInferencePlatform"
       ]
     }
   ],
-  "summary": "The corpus connects practical information control and learning workflows with AI-serving infrastructure, knowledge-grounded generation, and constrained creative retrieval. All conclusions remain source-scoped: personal practices lack comparative evidence, routing lacks common benchmarks, the RAG tutorial lacks production evaluation, and the pun workflow is a single practitioner account.",
+  "summary": "The current corpus now covers two AI infrastructure layers: personal knowledge systems that may use AI for summaries, associations, classification, and retrieval, and inference-serving systems that need workload-aware tokenization, fresh metrics, quota controls, cache-aware routing, and scalable gateway architecture.",
   "topic_id": "ai-and-technology"
 }

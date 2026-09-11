@@ -1,0 +1,21 @@
+{
+  "claims": [
+    {
+      "global_candidate": false,
+      "id": "inference-gateway-architecture-shapes-control",
+      "qualifications": [
+        "This is a secondary topic assignment from an infrastructure paragraph; the corpus does not yet discuss governance, regulation, or institutional policy around AI serving."
+      ],
+      "statement": "[[InferenceLoadBalancing]] includes quota counters and gateway architecture choices that affect how control is applied across inference systems.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "InferenceLoadBalancing",
+        "AIBrix",
+        "GatewayAPIInferenceExtension",
+        "DynamoInferencePlatform"
+      ]
+    }
+  ],
+  "summary": "The current governance-related material is narrow and technical: inference gateways apply quotas and architectural control points, but the corpus does not yet address broader AI governance or regulation.",
+  "topic_id": "governance-and-institutions"
+}

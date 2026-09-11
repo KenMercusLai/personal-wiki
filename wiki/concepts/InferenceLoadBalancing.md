@@ -1,52 +1,42 @@
 ---
 title: "Inference Load Balancing"
 type: concept
-tags: [ai-inference, load-balancing]
+tags: [ai, inference, infrastructure, load-balancing]
 sources:
   - rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-
-Inference load balancing is the routing and admission-control layer that estimates the work represented by AI inference requests, observes serving-engine state, and assigns requests to keep latency and resource use acceptably distributed.
+[[InferenceLoadBalancing]] is the routing, quota, and scheduling layer that distributes AI inference requests across model-serving workers while accounting for tokenized workload, live system state, and cache reuse opportunities.
 
 ## Current Synthesis
+The source frames inference load balancing as a specialized form of load balancing whose unit of work is not just a request count. A capable implementation needs to understand prompt size through tokenization, collect timely metrics that approximate worker load, and choose routing policies that balance fairness, throughput, and cache reuse. The article treats quota enforcement as comparatively straightforward once workload accounting is reliable.
 
-An inference load balancer needs a model-aware estimate of incoming work, sufficiently fresh backend state, and a routing rule that converts both into a placement decision. The current source favors local, model-matched tokenization and event-driven state over generic token estimates, remote tokenization calls, or every-router-to-every-engine polling. [[KVCacheAwareRouting]] adds reuse potential to the decision but must be balanced against current worker load.
+The strongest architectural distinction is how implementations obtain live state. Polling every inference engine from every gateway can create large fan-out costs, while event-driven designs that consume KV-cache events reduce collection overhead. Centralized endpoint-picking avoids some duplicate collection but may move the bottleneck into the picker if request and response paths pass through it.
 
 ## Key Claims
-
-- Token counts are useful only when the tokenizer matches the served model closely enough.
-- Metric freshness can improve balance, but polling cost grows with both router and engine counts.
-- Event-driven KV state plus router-owned request history can replace much backend polling.
-- A routing architecture must account for request and response paths, not only picker logic.
+- Inference load balancers need workload-aware tokenization rather than request-count-only routing.
+- Metric freshness matters because routing quality depends on how current the load picture is.
+- Distributed high-frequency polling can become expensive as gateway and engine counts both grow.
+- KV-cache state is a first-class routing signal because prefix reuse changes the true cost of a request.
+- Quota enforcement is easier once token-level workload estimates are already available.
 
 ## Evidence
-
-### Model-aware load estimation
-
-- [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] compares byte estimates, tiktoken encodings, remote APIs, and local Hugging Face tokenizers, arguing that model mismatch is especially visible for text without word separators.
-
-### State collection and routing architecture
-
-- [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] estimates that AIBrix-style router-to-engine polling has multiplicative scaling cost and contrasts it with Dynamo's KV-event and routing-history design.
-- [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] also notes that sidecar and centralized-picker designs can limit response-side measurement or create an additional request-path bottleneck.
+- Evaluation criteria: [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] defines tokenizer choice, balancing metrics, and metric-driven routing as the basic questions for judging an inference load balancer.
+- Freshness and scale: [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] argues that more timely metrics produce more even upstream load, while every-gateway-to-every-engine polling can approach O(n^2) behavior.
+- KV-cache routing: [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] explains that block-prefix cache reuse can avoid recomputing already cached token blocks.
+- Quotas: [[rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian]] treats quotas as policies over already-known load counters.
 
 ## Counterevidence & Qualifications
-
-- The source is an expert architectural critique, not a controlled performance comparison.
-- Its large-cluster request-rate calculation depends on assumed engine, gateway, and refresh counts.
-- Event-driven designs still face delayed or inconsistent state across router replicas.
-- The article does not quantify when simpler estimates are accurate enough to justify lower implementation complexity.
+The source is an implementation critique rather than a benchmark study. Its judgments are grounded in architectural reasoning and source-code behavior, but it does not provide measured latency, throughput, or failure-mode data across comparable deployments.
 
 ## What Changed
-
-- Established the wiki's first comparison framework for inference load balancers.
-- Added model-matched tokenization and metric topology as primary design criteria.
-- Identified event-driven state as a promising scaling alternative with consistency limits.
+- Created the concept page for inference-specific load balancing.
+- Added the core evaluation frame of tokenization, metric collection, routing, and quota enforcement.
 
 ## Related Concepts
-
-- [[KVCacheAwareRouting]] - supplies cache-reuse information to inference placement decisions.
+- [[InferenceTokenization]] - token accounting is the first step in estimating request load.
+- [[KVCacheAwareRouting]] - cache-aware routing is one way inference load balancers reduce work.
+- [[AIKnowledgeAssistant]] - both concern AI systems, but this page focuses on serving infrastructure rather than personal knowledge workflows.
