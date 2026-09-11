@@ -1,45 +1,37 @@
 ---
 title: "Tim Berners-Lee"
 type: entity
-tags: [people, web, http]
+tags: [web, inventor, networking]
 sources:
   - chen-hao-http-de-qian-shi-jin-sheng
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-
-Tim Berners-Lee is the British engineer whom the current source identifies as the inventor of HTTP and the World Wide Web while working at CERN.
+[[TimBernersLee]] is identified in the HTTP history source as the CERN engineer who invented [[HTTP]] and the World Wide Web.
 
 ## Current Profile
-
-Within this corpus, Berners-Lee appears only as the historical origin point for [[HTTPProtocolEvolution]]. The source credits him with creating HTTP to transfer information represented in HTML, but it does not provide a biographical account or distinguish his work from the broader institutional and standards community that subsequently developed the protocol.
+Within this wiki, Tim Berners-Lee is represented through the source's origin story for HTTP. The article credits him with creating the protocol as part of the early web system for transferring HTML-wrapped hypertext data.
 
 ## Key Characteristics
-
-- British engineer associated with CERN.
-- Credited by the source with inventing HTTP.
-- Credited by the source with inventing the World Wide Web.
-- Serves as the historical starting point for the article's HTTP chronology.
+- Serves as the named origin figure for HTTP in the ingested source.
+- Is associated with CERN and the early World Wide Web.
+- Is linked to HTTP's first role as a protocol for transferring HTML-based hypertext.
 
 ## Evidence
-
-### HTTP and Web origin
-
-- [[chen-hao-http-de-qian-shi-jin-sheng]] attributes both HTTP and the World Wide Web to Berners-Lee and situates the earliest HTTP version in 1991.
+- Origin role: [[chen-hao-http-de-qian-shi-jin-sheng]] credits Tim Berners-Lee with inventing [[HTTP]].
+- Web association: [[chen-hao-http-de-qian-shi-jin-sheng]] also identifies him as the inventor of the WWW.
+- Early use case: [[chen-hao-http-de-qian-shi-jin-sheng]] says the protocol was initially used to transfer data wrapped in HTML.
 
 ## Qualifications
-
-- The current profile rests on one retrospective article rather than primary historical documents.
-- The source offers only a brief attribution and does not cover collaborators, CERN's institutional role, or later standards bodies.
-- No broader personal or professional profile can be inferred from the available material.
+This page reflects the source's brief attribution rather than a full biographical treatment. It does not cover later standards work, governance roles, or broader web history.
 
 ## What Changed
-
-- Established a source-bounded profile connecting Berners-Lee to HTTP and the Web.
+- Created an entity profile for Tim Berners-Lee as the source's origin figure for HTTP and the WWW.
 
 ## Relationships
-
-- [[HTTPProtocolEvolution]] - Berners-Lee is presented as the inventor at the beginning of this protocol history.
-- [[QUIC]] - represents a much later transport development in the HTTP lineage initiated by his work.
+- [[HTTP]] - Tim Berners-Lee is credited by the source as HTTP's inventor.
+- [[HTTP11]] - later HTTP versions extend the protocol lineage that began with the early web.
+- [[HTTP2]] - HTTP/2 belongs to the later standardization path following the original web protocol.
+- [[HTTP3]] - HTTP/3 continues the protocol family credited in origin to Tim Berners-Lee's early HTTP work.

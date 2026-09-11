@@ -1,58 +1,45 @@
 ---
 title: "QUIC"
 type: concept
-tags: [quic, http3, networking, transport]
+tags: [networking, protocol, transport, udp]
 sources:
   - chen-hao-http-de-qian-shi-jin-sheng
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-
-QUIC is a secure, reliable, multiplexed transport built over UDP and used as the transport substrate for HTTP/3.
+[[QUIC]] is a UDP-based transport protocol used by [[HTTP3]] to provide reliable delivery behavior, TLS integration, multiplexing, congestion control, and connection identity above UDP.
 
 ## Current Synthesis
+The source presents QUIC as the key transport innovation behind HTTP/3. QUIC uses UDP as its substrate but rebuilds many TCP-like responsibilities above it: retransmission, congestion control, connection establishment, TLS integration, and stream multiplexing. This design is meant to avoid TCP's transport-level [[HeadOfLineBlocking]] and reduce connection setup overhead.
 
-The current source frames QUIC as a response to HTTP/2's dependence on TCP's single ordered byte stream. QUIC implements loss recovery and congestion control above UDP, integrates cryptographic setup, and exposes independent streams so loss affecting one stream need not block unrelated streams. Connection IDs decouple a logical connection from one network four-tuple, enabling connection migration, but network devices and load balancers that understand only conventional TCP/UDP flow keys can complicate deployment. [[HTTPProtocolEvolution]] supplies the application-protocol context for these choices.
+The article also emphasizes that QUIC's strength creates infrastructure challenges. Existing network devices often route, map, or balance traffic using IP and port tuples; QUIC's connection ID gives applications a better identity mechanism, but devices that cannot understand it may split a connection across backends or mishandle UDP traffic.
 
 ## Key Claims
-
-- Independent QUIC streams limit cross-stream head-of-line blocking caused by transport loss.
-- QUIC supplies reliability and congestion control rather than inheriting them from UDP.
-- Integrated secure setup can reduce connection-establishment latency relative to separate TCP and TLS setup.
-- Connection IDs allow a connection to persist across some address or network changes.
-- UDP-unfriendly middleboxes and four-tuple-based load balancers can impede deployment.
-- HTTP/3 requires QPACK rather than directly reusing HTTP/2's order-dependent HPACK design.
+- QUIC is the transport foundation that lets [[HTTP3]] run over UDP instead of TCP.
+- QUIC avoids TCP-level [[HeadOfLineBlocking]] by managing streams above UDP.
+- QUIC includes its own retransmission and congestion-control behavior.
+- QUIC can reduce HTTPS connection setup by integrating transport and TLS handshakes.
+- QUIC connection IDs support continuity across IP or network-interface changes.
+- QUIC deployment is constrained by network infrastructure that only understands UDP packets and four-tuples.
 
 ## Evidence
-
-### Stream independence and connection setup
-
-- [[chen-hao-http-de-qian-shi-jin-sheng]] describes QUIC's own retransmission and congestion control, its integration with cryptographic setup, and its avoidance of connection-wide blocking between independent HTTP streams.
-
-### Connection identity and infrastructure
-
-- [[chen-hao-http-de-qian-shi-jin-sheng]] explains connection IDs through mobile-to-Wi-Fi migration and notes that four-tuple-based routing can send packets from one logical connection to different servers.
-
-### Header compression
-
-- [[chen-hao-http-de-qian-shi-jin-sheng]] presents QPACK as a redesign needed because HPACK's shared dynamic state assumes the ordering properties available over TCP.
+- HTTP/3 foundation: [[chen-hao-http-de-qian-shi-jin-sheng]] says QUIC entered the standardization path as the basis for [[HTTP3]].
+- Blocking behavior: [[chen-hao-http-de-qian-shi-jin-sheng]] says UDP avoids TCP's ordered-delivery blocking, while QUIC supplies its own reliability.
+- Congestion control: [[chen-hao-http-de-qian-shi-jin-sheng]] discusses QUIC using CUBIC and potentially BBR-style congestion control.
+- Handshake integration: [[chen-hao-http-de-qian-shi-jin-sheng]] contrasts TCP plus TLS handshakes with QUIC's integrated setup.
+- Connection identity: [[chen-hao-http-de-qian-shi-jin-sheng]] describes connection ID as a way to keep a connection through mobile/Wi-Fi changes.
+- Infrastructure constraints: [[chen-hao-http-de-qian-shi-jin-sheng]] explains how NATs and four-tuple load balancers can fail to preserve QUIC's intended routing.
 
 ## Counterevidence & Qualifications
-
-- UDP itself does not remove head-of-line blocking; QUIC avoids connection-wide blocking through its stream and recovery design.
-- NAT devices can and commonly do map UDP flows using tuples and timers, so the source's categorical NAT contrast is simplified.
-- Faster setup depends on protocol version, prior connection state, address validation, and resumption conditions.
-- The source predates mature HTTP/3 deployment and offers no measurements of loss recovery, migration success, or middlebox failure rates.
-- Whether QUIC will displace TCP outside its current uses remains speculative in this corpus.
+The source is conceptually favorable toward QUIC but does not present production measurements. It also notes significant deployment risk from network devices and backend routing behavior that were not designed around QUIC connection IDs.
 
 ## What Changed
-
-- Established QUIC as the wiki's first UDP-based reliable transport concept.
-- Distinguished stream-aware loss recovery from UDP's native behavior.
-- Added connection migration, middlebox compatibility, and QPACK synchronization as deployment considerations.
+- Created the QUIC concept page as the transport-protocol foundation for HTTP/3.
 
 ## Related Concepts
-
-- [[HTTPProtocolEvolution]] - explains why HTTP/3 adopted QUIC after HTTP/2's TCP-level blocking limits.
+- [[HTTP3]] - HTTP/3 uses QUIC as its transport layer.
+- [[HTTP2]] - QUIC carries an HTTP/2-like multiplexing model while avoiding TCP constraints.
+- [[HeadOfLineBlocking]] - QUIC is presented as a response to TCP-level blocking.
+- [[HTTP]] - QUIC changes the transport layer beneath the HTTP family.

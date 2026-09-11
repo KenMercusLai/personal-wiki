@@ -2,70 +2,63 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "gpv-aligns-strength-interest-and-values",
+      "id": "practical-work-systems-reduce-friction",
       "qualifications": [
-        "The current evidence is a brief secondary article rather than a validated assessment method or outcome study."
+        "The claim is grounded in one productivity-habits source and may vary across interruption-heavy roles."
       ],
-      "statement": "[[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions.",
-      "status": "qualified",
+      "statement": "[[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "GPVCareerFramework"
+        "PersonalProductivity",
+        "WorkHabits"
       ]
     },
     {
       "global_candidate": true,
-      "id": "career-is-an-adaptable-path",
+      "id": "attention-and-priority-shape-work-quality",
       "qualifications": [
-        "The examples are anecdotes; financial, credential, geographic, and labor-market constraints may limit transitions."
+        "The available evidence emphasizes knowledge-work habits and does not yet compare outcomes across occupations."
       ],
-      "statement": "[[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.",
-      "status": "source-scoped",
+      "statement": "[[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "CareerPathDesign"
+        "AttentionManagement",
+        "TimeManagementQuadrants"
       ]
     },
     {
       "global_candidate": true,
-      "id": "productivity-combines-selection-focus-and-reduction",
+      "id": "learning-deepens-through-output",
       "qualifications": [
-        "The recommendations come from one popular article without effect sizes or evidence across different jobs and working conditions.",
-        "Delayed communication, rigid routines, and delegation may be unsuitable where rapid response, unpredictability, or limited authority dominate."
+        "The source describes a practitioner workflow, not a comparative education study."
       ],
-      "statement": "[[WorkHabits]] combines [[TaskPrioritization]], [[AttentionManagement]], and workload reduction to focus effort on a small number of valuable tasks.",
-      "status": "qualified",
+      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "WorkHabits",
-        "TaskPrioritization",
-        "AttentionManagement"
+        "FeynmanTechnique",
+        "ActiveLearning",
+        "FocusedReading",
+        "KnowledgeOutput"
       ]
     },
     {
       "global_candidate": true,
-      "id": "goals-scaffold-but-do-not-guarantee-learning-drive",
+      "id": "technical-standards-create-architectural-leverage",
       "qualifications": [
-        "The claim rests on one author's model and illustrative cases rather than comparative studies.",
-        "Externally imposed or overly rigid goals may suppress exploration instead of supporting it."
+        "The HTTP adoption and support details are source-scoped to a 2019 publication context."
       ],
-      "statement": "[[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.",
-      "status": "qualified",
+      "statement": "[[HTTP]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] show protocol evolution as a standards-driven way to reduce operational and performance friction.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "GoalDirectedLearning",
-        "LearningDrive"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "abstraction-organizes-changing-knowledge",
-      "qualifications": [
-        "The legal-learning example does not establish how much factual fluency other domains require."
-      ],
-      "statement": "[[AbstractionInLearning]] prioritizes stable patterns and principles while leaving case-specific detail available for lookup in dense, changing fields.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AbstractionInLearning"
+        "HTTP",
+        "HTTP11",
+        "HTTP2",
+        "HTTP3",
+        "QUIC",
+        "HeadOfLineBlocking"
       ]
     }
   ],
-  "summary": "The corpus treats careers, productivity, and learning as related allocation problems: explore a feasible direction, focus effort through priorities and attention controls, and use meaningful but non-coercive goals to organize learning. The frameworks are practical heuristics supported by secondary articles and anecdotes rather than validated outcome studies.",
+  "summary": "The topic now spans practical work habits, output-centered learning, attention protection, and a standards-oriented view of technical architecture: useful systems reduce avoidable friction, make priorities explicit, and turn reusable conventions into leverage.",
   "topic_id": "work-education-and-society"
 }

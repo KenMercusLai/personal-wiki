@@ -4,64 +4,42 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
-## [2026-09-09] ingest | 轨迹抽稀之道格拉斯-普克算法
+## [2026-09-11] ingest | 陈皓 - HTTP的前世今生
 
-- Added source note `guiji-chouxi-douglas-peucker-suanfa`.
-- Added concepts `RamerDouglasPeuckerAlgorithm` and `TrajectorySimplification`.
-- Recorded the source-scoped epsilon results and coordinate-distance limitation.
+Added source note and synthesis pages for HTTP, HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking. Added entity profiles for Chen Hao, Tim Berners-Lee, and Google. Key claims: HTTP evolved through metadata separation, status semantics, persistent connections, multiplexing, header compression, and a QUIC-based transport shift; standards adoption is framed as an architecture advantage.
 
-## [2026-09-09] ingest | 使用 G+P+V 思考你的职业生涯
+## [2026-09-11] ingest | 褪墨 - 提高工作效率的十条好习惯
 
-- Added source note `shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya`.
-- Added concepts `GPVCareerFramework` and `CareerPathDesign`, plus entity `RichardLeider`.
-- Recorded career fit, adaptable pathways, and the limits of turning passion into work.
+Added source note and initial concept/entity pages for productivity habits. Key claims: define daily MITs, avoid multitasking, simplify inputs and outputs, prioritize important non-urgent work, batch similar tasks, delegate or delete low-value work, work offline when distractions dominate, and do the most resisted task first.
 
-## [2026-09-09] ingest | 褪墨 - 提高工作效率的十条好习惯
+## [2026-09-11] lint | Wiki health check
 
-- Added source note `tui-mo-ti-gao-gong-zuo-xiao-lv-de-shi-tiao-hao-xi-guan`.
-- Added concepts `WorkHabits`, `TaskPrioritization`, and `AttentionManagement`.
-- Added entities `BernardMarr` and `StephenCovey` with source-bounded profiles.
-- Recorded evidence limits around the article's general productivity recommendations.
+Ran lint. See lint-report.md for details.
 
-## [2026-09-09] ingest | 设立目标可以改变你的生活
+## [2026-09-11] ingest | 锐评主流AI推理负载均衡开源实现
 
-- Added source note `she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo`.
-- Added concepts `GoalDirectedLearning`, `LearningDrive`, and `AbstractionInLearning`.
-- Added entities `PiotrWozniak` and `PeterThiel` with source-bounded profiles.
-- Recorded goals as learning scaffolding, their limits for curiosity-driven experts, and the evidence boundary of the article's explanatory model.
+Added source note and synthesis pages for inference load balancing, inference tokenization, and KV-cache-aware routing. Added entity profiles for AIBrix, Kthena, Gateway API Inference Extension, and Dynamo Inference Platform. Key claims: inference routers need model-aligned tokenization, fresh metrics, scalable metric collection, cache-aware routing, and careful gateway architecture.
 
-## [2026-09-09] ingest | 费曼学习法实践 / INDIGO 的信息获取与知识输出方法论
+## [2026-09-11] ingest | 费曼学习法实践 / INDIGO 的信息获取与知识输出方法论
 
-- Added the source note and concepts `FeynmanTechnique` and `PersonalKnowledgeManagement`.
-- Added a source-bounded profile for `RichardFeynman`.
-- Recorded the output-driven learning workflow, AI knowledge-tool hypothesis, and the unsupported status of fixed retention percentages.
+Added source note and synthesis pages for the Feynman Technique, active learning, focused reading, knowledge output, personal knowledge management, AI knowledge assistants, and second-brain systems. Added entity profiles for INDIGO, Richard Feynman, Edgar Dale, and Dan Shipper, and updated the overview plus attention-management synthesis.
 
-## [2026-09-09] ingest | 锐评主流AI推理负载均衡开源实现
+## [2026-09-11] lint | Wiki health check
 
-- Added the source note and concepts `InferenceLoadBalancing` and `KVCacheAwareRouting`.
-- Added source-bounded profiles for `AIBrix`, `Kthena`, `GatewayAPIInferenceExtension`, and `NvidiaDynamo`.
-- Recorded tokenization accuracy, metric-collection scaling, cache-aware routing, and distributed-state qualifications.
+Ran lint. See lint-report.md for details.
 
-## [2026-09-09] ingest | 陈皓 - HTTP的前世今生
+## [2026-09-11] lint | Wiki health check
 
-- Added the source note and concepts `HTTPProtocolEvolution` and `QUIC`.
-- Added a source-bounded profile for `TimBernersLee`.
-- Recorded HTTP version transitions, transport-layer head-of-line blocking, and QUIC deployment qualifications.
+Ran lint. See lint-report.md for details.
 
-## [2026-09-09] ingest | 零基础｜搭建基于私域数据的ChatGPT
+## [2026-09-11] graph | Knowledge graph rebuilt
 
-- Added the source note and concepts `RetrievalAugmentedGeneration` and `LLMApplicationFrameworks`.
-- Added source-bounded profiles for `LangChain` and `Replit`.
-- Recorded the document-to-vector retrieval workflow, application-framework abstractions, and security, evaluation, and time-sensitivity qualifications.
+28 nodes, 103 edges (103 extracted, 0 inferred).
 
-## [2026-09-09] ingest | 如何用暴力计算翻译谐音梗——《女性交流》翻译笔记
+## [2026-09-11] lint | Wiki health check
 
-- Added the source note and concepts `MachineAssistedPunTranslation`, `GameLocalizationDomestication`, and `WeakPlayerGuidance`.
-- Added source-bounded profiles for `WeiJie`, `MancoDB`, and `WomanCommunication`.
-- Distinguished creative retrieve-then-compose from factual RAG and recorded the limits of the reported translation and guidance outcomes.
+Ran lint. See lint-report.md for details.
 
-## [2026-09-09] lint | Wiki health check
+## [2026-09-11] lint | Wiki health check
 
-- Confirmed unique identities, complete inbound and outbound link coverage, and no broken wikilinks or missing repeated entities.
-- Reviewed the new source-bounded synthesis for contradictions, staleness, and unsupported generalization; no repair was required.
-- Noted that the machine-assisted translation evidence remains a single practitioner account without comparative evaluation or implementation details.
+Ran lint. See lint-report.md for details.

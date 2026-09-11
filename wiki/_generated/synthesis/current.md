@@ -3,61 +3,50 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-09
-as_of_overview_commit: 582e7014dfaa0a7b44f82c712496177b2336ac52
-summary: "A source-scoped map of learning, work, translation, game localization, trajectory simplification, Web transport, AI serving, and retrieval-based systems."
-episode_count: 9
-source_count: 9
-paragraph_count: 11
-topic_count: 5
+last_updated: 2026-09-11
+as_of_overview_commit: 73b057eaf8b0519481026b6ccd4398d6bccb52d4
+summary: "The wiki maps practical systems for work, learning, AI knowledge, inference routing, and web protocol standards."
+episode_count: 4
+source_count: 4
+paragraph_count: 6
+topic_count: 4
 ---
 
 # Current Synthesis
 
 ## Executive Summary
 
-- [[MachineAssistedPunTranslation]] can use phonetic filtering and semantic retrieval to narrow creative candidates, as the project-specific [[MancoDB]] workflow did for [[WomanCommunication]].
-- [[WeakPlayerGuidance]] can combine prior wording, reward rules, placement, and attention load to suggest a hidden action without explicit instruction.
-- [[RetrievalAugmentedGeneration]] can connect external knowledge to responses through chunking, embeddings, vector retrieval, and context assembly, while [[LLMApplicationFrameworks]] such as [[LangChain]] and environments such as [[Replit]] can package a prototype workflow.
-- [[InferenceLoadBalancing]] benefits from model-matched tokenization and fresh worker state, while [[KVCacheAwareRouting]] must balance reusable prefixes against active decode load.
-- [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint.
-- [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior.
-- [[GoalDirectedLearning]] can give knowledge a value structure and protect [[LearningDrive]], while curiosity and mature knowledge may reduce the need for explicit goals.
-- [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction.
+- [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology.
+- [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks.
+- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output.
+- [[HTTP]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] show protocol evolution as a standards-driven way to reduce operational and performance friction.
+- [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines.
+- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
+- The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that inference routing quality depends on architecture as well as algorithms: polling, centralized endpoint picking, and event-driven KV-cache state carry different scaling tradeoffs.
+- [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The corpus connects information control and learning workflows with AI-serving infrastructure, knowledge-grounded generation, and constrained creative retrieval; each remains limited by source-scoped evidence or missing evaluation.
+The current corpus covers two AI infrastructure layers: personal knowledge systems that may use AI for summaries, associations, classification, and retrieval, and inference-serving systems that need workload-aware tokenization, fresh metrics, quota controls, cache-aware routing, and scalable gateway architecture.
 
-- [[WorkHabits]] can combine prioritization, reduced switching, automation, delegation, and offline work to lower execution friction. Evidence: [[WorkHabits]], [[TaskPrioritization]], [[AttentionManagement]].
-- [[GoalDirectedLearning]] and [[AbstractionInLearning]] can organize attention around valued aims and stable principles, while [[LearningDrive]] may also persist through curiosity without explicit goals. Evidence: [[GoalDirectedLearning]], [[AbstractionInLearning]], [[LearningDrive]].
+- [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
+- [[SecondBrain]] describes the aspiration for personal notes to become an active external thinking system rather than a static archive. Evidence: [[SecondBrain]], [[AIKnowledgeAssistant]].
 
-### Cross-domain
+### Governance and Institutions
 
-Trajectory simplification reduces data volume while requiring application-specific calibration of geometric fidelity and coordinate distance.
+The current governance-related material is narrow and technical: inference gateways apply quotas and architectural control points, but the corpus does not yet address broader AI governance or regulation.
 
-- [[TrajectorySimplification]] can remove repeated, stationary, or nearly collinear points to reduce data volume, while bends and corners remain the main fidelity constraint. Evidence: [[TrajectorySimplification]].
-- [[RamerDouglasPeuckerAlgorithm]] reduced one 812-point route to 35 points at epsilon 0.001, but that ratio and tolerance are not transferable without the route geometry and coordinate-distance definition. Evidence: [[RamerDouglasPeuckerAlgorithm]].
+### Science, Health, and Climate
 
-### Culture and Media
+The current health-adjacent material is limited to attention and mental load in productivity advice: single-tasking, reduced distractions, offline work, and early completion of avoided tasks are presented as ways to protect focus.
 
-Game localization can coordinate names, setting, wording, mechanics, and interface cues to preserve player experience, but the current case does not establish behavioral equivalence across audiences.
-
-- [[GameLocalizationDomestication]] can coordinate names and setting so target-language wordplay feels internally coherent, while accepting possible continuity and source-culture costs. Evidence: [[GameLocalizationDomestication]].
-- [[WeakPlayerGuidance]] can combine prior wording, reward rules, placement, and attention load to suggest a hidden action without explicit instruction. Evidence: [[WeakPlayerGuidance]].
-
-### History and Geopolitics
-
-Web transport evolution and early RAG tooling illustrate time-bounded responses to lower-layer constraints and changing interfaces.
-
-- [[HTTPProtocolEvolution]] progressed from explicit metadata and persistent connections to multiplexed streams, while each generation shifted rather than eliminated performance and complexity tradeoffs. Evidence: [[HTTPProtocolEvolution]].
-- [[QUIC]] gives HTTP/3 stream-aware reliable transport over UDP, reducing cross-stream loss blocking and supporting connection migration while requiring compatible middleboxes and load-balancing behavior. Evidence: [[QUIC]].
+- [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Career, productivity, and learning frameworks allocate attention and effort but remain practical heuristics rather than validated outcome models.
+The current corpus treats productive work, learning, and technical architecture as systems for reducing friction: daily work improves through habits and attention protection, learning deepens through output, and standards such as HTTP and QUIC accumulate reusable operational leverage.
 
-- [[GPVCareerFramework]] uses gifts, passion, and values to generate possible career directions, but the three-way fit does not establish market viability or acceptable day-to-day work conditions. Evidence: [[GPVCareerFramework]].
-- [[CareerPathDesign]] treats a career as a sequence in which people may change roles, customers, or work arrangements while building toward a longer-term direction. Evidence: [[CareerPathDesign]].
+- [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
+- [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
