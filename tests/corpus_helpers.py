@@ -110,12 +110,9 @@ def expected_html_routes(root: Path) -> set[str]:
         routes.add(f"/wiki/{section}/")
         routes.add(f"/wiki/{section}/by-letter/")
         routes.update(f"/wiki/{section}/by-letter/{bucket}/" for bucket in LETTER_BUCKETS)
-    for key, _title, section, metadata in canonical_pages(root):
+    for key, _title, section, _metadata in canonical_pages(root):
         if section == "sources":
-            source_key = metadata.get("source_key")
-            if not isinstance(source_key, str) or not source_key:
-                raise AssertionError(f"canonical source {key} has no source_key")
-            routes.add(f"/wiki/sources/{source_key}/")
+            routes.add(f"/wiki/sources/{key}/")
         else:
             routes.add(f"/wiki/{section}/{key.casefold()}/")
     return routes
