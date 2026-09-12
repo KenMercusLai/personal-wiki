@@ -17,6 +17,7 @@
       "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
       "77e0f9c585e6f6d60a7b15dc52991730239c65d90a3f72f5e4dfd0371163eac3",
+      "c38b0d21d9ac465269ddd25f3fb6a1f7013bac458490dec30d863d5b51f5806b",
       "2d44cddf9578e07cb940fa9c85024feb523704733754e4378048fd075c4a9c12",
       "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
       "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
@@ -36,10 +37,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 34
+    "paragraph_count": 35
   },
-  "overview_commit": "425048969a1579b00c7f1023f5979fc0003f3ad1",
-  "overview_digest": "ac2e73eb8de080740b511f6c07abe151b080c80b41698955e559dbe17e151ef9",
+  "overview_commit": "7a2e302ac6396b6f53f24e123213c7c5d5621ea7",
+  "overview_digest": "49100caeb8d09fe8e0dac89421abab5041eb90348e57432f487c50bc00be1963",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -323,6 +324,22 @@
         "LinuxVirtualServer",
         "NetworkLoadBalancing",
         "Plantegg"
+      ]
+    },
+    {
+      "id": "c38b0d21d9ac465269ddd25f3fb6a1f7013bac458490dec30d863d5b51f5806b",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest security checklist adds a defensive counterpart to the wiki's networking material. [[Infvie]]'s port summary treats [[DefensivePortTriage]] as a first-pass map from exposed services to likely validation priorities: [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. The source's practical value is classification rather than proof. An open FTP, SSH, Telnet, RDP, Redis, MongoDB, WebLogic, Tomcat, or database port does not by itself prove compromise, but it tells a defender which questions to ask first about authentication, encryption, configuration, version age, management boundaries, and application-layer abuse paths.",
+      "topic_scores": {},
+      "wikilinks": [
+        "CleartextProtocolExposure",
+        "DatabaseServiceExposure",
+        "DefensivePortTriage",
+        "Infvie",
+        "RemoteAdministrationExposure",
+        "UnauthenticatedServiceExposure",
+        "WeakCredentialExposure"
       ]
     },
     {

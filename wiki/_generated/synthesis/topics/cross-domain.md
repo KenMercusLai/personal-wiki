@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-11
-as_of_overview_commit: d574704513c7ccedbc94cd034ba47d39bed8aa12
-input_digest: 4a54d5776bd8ecbd1b7f430d8430feb29bac9571cfa648feedd0743e900609aa
+last_updated: 2026-09-12
+as_of_overview_commit: 7a2e302ac6396b6f53f24e123213c7c5d5621ea7
+input_digest: 8e465e5d146d22c7fd31f78836794236bf29ccf524c8e0fe3b0df9b4999ba51d
 ---
 
 # Cross-domain
 
 ## Current State
 
-Trajectory simplification adds an applied-algorithm example where dense GPS data is reduced for faster map display and transfer. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade fine-grained path fidelity for lower point count in [[MapTrajectoryRendering]].
+Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
 
 ## Cross-source Findings
+
+### Exposed Ports Guide Defensive Security Triage
+
+[[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
+
+**Evidence:** [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]]
+
+**Qualifications:**
+
+- The supplied paragraph frames port exposure as classification rather than proof; defenders still need to validate authentication, encryption, configuration, service version, reachability, management boundaries, and application-layer behavior.
 
 ### Trajectory Simplification Trades Fidelity For Rendering Cost
 

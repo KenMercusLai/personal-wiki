@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "exposed-ports-guide-defensive-security-triage",
+      "qualifications": [
+        "The supplied paragraph frames port exposure as classification rather than proof; defenders still need to validate authentication, encryption, configuration, service version, reachability, management boundaries, and application-layer behavior."
+      ],
+      "statement": "[[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "DefensivePortTriage",
+        "WeakCredentialExposure",
+        "CleartextProtocolExposure",
+        "UnauthenticatedServiceExposure",
+        "RemoteAdministrationExposure",
+        "DatabaseServiceExposure"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "trajectory-simplification-trades-fidelity-for-rendering-cost",
       "qualifications": [
         "This claim is display-oriented; the supplied paragraph does not establish suitability for audit, analytics, or exact reconstruction use cases."
@@ -27,6 +44,6 @@
       ]
     }
   ],
-  "summary": "Trajectory simplification adds an applied-algorithm example where dense GPS data is reduced for faster map display and transfer. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade fine-grained path fidelity for lower point count in [[MapTrajectoryRendering]].",
+  "summary": "Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].",
   "topic_id": "cross-domain"
 }

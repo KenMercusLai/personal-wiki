@@ -112,6 +112,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 常用端口利用总结
+
+Added source note and synthesis pages for defensive port triage, weak credential exposure, unauthenticated service exposure, cleartext protocol exposure, remote administration exposure, and database service exposure. Added Infvie as the source attribution entity. Key claims: port inventories are useful first-pass security triage maps, but findings still require defensive validation of authentication, encryption, configuration, network reachability, service version, and application-layer behavior.
+
 ## [2026-09-12] ingest | 就是要你懂负载均衡--lvs和转发模式
 
 Added source note and synthesis pages for network load balancing, LVS forwarding modes, Linux Virtual Server, and Alibaba Cloud. Updated Plantegg and the overview to reflect packet-flow reasoning about DR, NAT, full NAT, ENAT, IP TUN, direct server return, client-IP preservation, cloud SLB/NGLB high availability, DPDK, and flow offload.
@@ -257,6 +261,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 差异化战略指南：What、Why与How-36氪
 
 Added source note and synthesis pages for differentiation strategy, brand distinctiveness, category creation, and blue ocean strategy. Added entity profiles for Michael Porter, Byron Sharp, ConvertKit, Drift, and Mailchimp. Key claims: copyable features and competitor benchmarking drive sameness; market share and familiarity can beat subtle product superiority; and durable differentiation usually comes from positioning, customer experience, category framing, brand meaning, or personal presence.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

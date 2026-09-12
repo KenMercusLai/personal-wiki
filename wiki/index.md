@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [常用端口利用总结](sources/chang-yong-duan-kou-li-yong-zong-jie-infvies-blog.md) - A security checklist mapping common service ports to defensive triage categories such as weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, middleware consoles, and database service risk.
 - [差异化战略指南：What、Why与How-36氪](sources/cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr.md) - A business-strategy guide arguing that durable differentiation depends on positioning, brand distinctiveness, category creation, customer experience, and executive-level strategic choice rather than copyable features.
 - [选题、专业性、完美主义、数据和灵感，这些创作焦虑该如何应对？](sources/xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui.md) - A creator-anxiety retrospective arguing that purpose-led positioning, learner-mode publishing, draft feedback, platform-aware metrics, and idea-management systems make creation more sustainable.
 - [如何在工作中学习](sources/ru-he-zai-gong-zuo-zhong-xue-xi.md) - A workplace-learning essay arguing that engineers learn by reviewing real problems, reconstructing expert reasoning, finding big-picture anchors, and verifying abstractions through hands-on experiments.
@@ -81,6 +82,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hawstein](entities/Hawstein.md) - Independent creator who moved from AlgoCasts to overseas bootstrapped SaaS.
 - [idoubi](entities/Idoubi.md) - Independent developer-author describing a cost-driven migration from Vercel to AWS and Cloudflare.
 - [INDIGO](entities/INDIGO.md) - Practitioner-author describing a personal learning, research, writing, and note-system workflow.
+- [Infvie](entities/Infvie.md) - Security blog/source attribution for the common port exploitation summary.
 - [Imooc](entities/Imooc.md) - Programming course platform that supplied Zhang Xuan's main freelancer income.
 - [Kong](entities/Kong.md) - Infrastructure company mentioned as part of Guanlan's distributed systems background.
 - [Kubernetes](entities/Kubernetes.md) - Container orchestration system discussed as process isolation that cannot see agent tool-call semantics.
@@ -160,6 +162,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
+- [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
+- [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
+- [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
 - [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
@@ -221,6 +226,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - Recursive curve-simplification algorithm that retains points according to maximum deviation from segment chords.
 - [Reading Note Workflow](concepts/ReadingNoteWorkflow.md) - Practical workflow for turning books, metadata, booklists, summaries, and opinions into linked notes for recall, discovery, and writing.
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - LLM pattern that retrieves external information and supplies it as answer context.
+- [Remote Administration Exposure](concepts/RemoteAdministrationExposure.md) - Risk created when login, file-transfer, remote-desktop, command, or management-console services are reachable beyond their intended administration boundary.
 - [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
@@ -234,8 +240,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
 - [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
+- [Unauthenticated Service Exposure](concepts/UnauthenticatedServiceExposure.md) - Risk created when a reachable service permits meaningful reads, writes, or control actions without valid authentication.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
 - [Vibe Coding](concepts/VibeCoding.md) - AI-assisted software work mode centered on fast agent-driven iteration, planning, small steps, context care, and verification.
+- [Weak Credential Exposure](concepts/WeakCredentialExposure.md) - Security risk created when externally reachable services can be accessed with guessed, default, reused, blank, or weak credentials.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
 - [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems by reconstructing expert reasoning, replaying traces, and verifying abstractions hands-on.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
