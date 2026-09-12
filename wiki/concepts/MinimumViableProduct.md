@@ -4,6 +4,7 @@ type: concept
 tags: [startup, product-development, validation]
 sources:
   - 15-examples-of-successful-mvps-startups-web-pages-software-brothers
+  - 4-lessons-from-a-failed-startup-from-and-for-first-time-founders
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[MinimumViableProduct]] is the smallest product, workflow, artifact, or market test that can expose whether a target user wants the core value strongly enough to justify further building.
 
 ## Current Synthesis
-The Software Brothers source presents MVPs as demand probes rather than miniature complete products. The examples show several forms: a simple web page, a manually delivered service, a WordPress-and-PDF workflow, a video, a pricing landing page, a closed beta, an internal prototype, or a single feature placed on a powerful platform. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, and broad platform support until real usage, orders, signups, or community traction suggest the core bet is worth expanding.
+The sources present MVPs and related early tests as demand probes rather than miniature complete products. The examples show several forms: a simple web page, a manually delivered service, a WordPress-and-PDF workflow, a video, a pricing landing page, a closed beta, an internal prototype, a single feature placed on a powerful platform, or a hypothesis-specific operational experiment. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, and broad platform support until real usage, orders, signups, service learning, or community traction suggest the core bet is worth expanding. Maderight adds that an MVP-like service path must eventually clarify whether it is validating software, validating a services company, or delaying a hard choice.
 
 ## Key Claims
 - MVPs test core value before teams invest in full systems.
@@ -21,6 +22,7 @@ The Software Brothers source presents MVPs as demand probes rather than miniatur
 - Distribution context can be part of the MVP, not just the product itself.
 - A narrow feature set can still be viable when it proves the main user experience.
 - Successful MVP stories require caution because later company success can make early experiments look more deterministic than they were.
+- MVP-like tests should be tied to explicit hypotheses and evaluated against the strategic path they are meant to validate.
 
 ## Evidence
 - Core-value focus: [[15-examples-of-successful-mvps-startups-web-pages-software-brothers]] describes Facebook connecting students, Spotify testing music streaming, Foursquare starting with check-ins and badges, Uber connecting iPhone users with drivers, and the first iPhone omitting many expected features.
@@ -28,12 +30,14 @@ The Software Brothers source presents MVPs as demand probes rather than miniatur
 - Non-product demand tests: [[15-examples-of-successful-mvps-startups-web-pages-software-brothers]] says Dropbox used an explainer video and Buffer used a pricing landing page and waitlist before full product completion.
 - Distribution as test: [[15-examples-of-successful-mvps-startups-web-pages-software-brothers]] frames Zynga's Facebook launch and Product Hunt's Linkydink group as examples where platform/community placement mattered.
 - Narrow feature viability: [[15-examples-of-successful-mvps-startups-web-pages-software-brothers]] repeatedly contrasts small first versions with later broad platforms.
+- Hypothesis discipline: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] recommends asking what assumptions need testing, how they will be tested, how results will be evaluated, and what must be built for the test.
+- Service-path warning: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] says Maderight's service business produced customers and learning but later competed with the software product for attention.
 
 ## Counterevidence & Qualifications
-The source is a retrospective list of famous winners, so it risks survivorship bias and compressed origin stories. It does not prove that any given MVP pattern will work, nor does it separate the MVP's causal role from timing, founder network, funding, brand, or later execution. Several examples are venture-backed or platform-dependent, so they may not transfer directly to small independent software.
+One source is a retrospective list of famous winners, so it risks survivorship bias and compressed origin stories. The other is a single failure retrospective. Together they do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, or operationally complex, so they may not transfer directly to small independent software.
 
 ## What Changed
-- Created the initial concept page for MVP as a product-validation pattern.
+- Added a failure-case qualification that MVP-like service work must be tied to explicit hypotheses and strategic choices.
 
 ## Related Concepts
 - [[CustomerLedProductDevelopment]] - MVPs create evidence about what customers want before larger buildout.
@@ -42,3 +46,5 @@ The source is a retrospective list of famous winners, so it risks survivorship b
 - [[BuildInPublic]] - public early tests can create feedback and first-user communities.
 - [[SmallProductPortfolio]] - small creators also use narrow tests to limit product-bet risk.
 - [[BootstrappedSaaS]] - lean SaaS builders can use MVPs before committing to full systems.
+- [[StartupHypothesisTesting]] - MVPs are useful when they test named assumptions with evaluation criteria.
+- [[StartupFocus]] - MVP evidence should help founders choose a path rather than maintain every option.

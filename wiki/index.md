@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
 - [3 Years as a One Man Startup](sources/3-years-as-a-one-man-startup-steve-ridout-medium.md) - Steve Ridout's retrospective on three years building Readlang, showing strong signup and revenue growth, real user impact, and ramen profitability alongside weak founder earnings and high opportunity cost.
 - [4 Hard Truths about Equity](sources/4-hard-truths-about-equity-while-west.md) - While West's employee-side critique of startup equity, arguing that illiquidity, vesting, preferences, founder asymmetry, and hindsight bias make cash safer when company prospects are doubtful.
+- [4 Lessons From a Failed Startup - From and For First Time Founders](sources/4-lessons-from-a-failed-startup-from-and-for-first-time-founders.md) - Maderight's shutdown retrospective arguing that first-time founders should test hypotheses explicitly, spend runway on learning capacity, keep sales founder-led before product-market fit, and avoid unfocused service/product hybrids.
 - [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
 - [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
@@ -258,6 +259,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hillary Clinton](entities/HillaryClinton.md) - 2016 comparison candidate for a more hierarchical, professionally staffed campaign technology operation.
 - [Joanna Wiebe](entities/JoannaWiebe.md) - Conversion copywriter whose landing-page article frames social proof as an unavoidable trust signal.
 - [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
+- [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
+- [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 
 ## Concepts
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
@@ -461,6 +464,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
 - [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
 - [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.
+- [Founder-Led Sales](concepts/FounderLedSales.md) - Pre-product-market-fit sales practice where founders personally lead customer conversations as problem discovery and solution testing.
+- [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
+- [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
+- [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, and scarce founder attention conflict.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, and adjacent devices away from the PC-era center.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
 - [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users find services when search, app stores, operating systems, notifications, messaging, and traffic holders shape attention.

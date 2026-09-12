@@ -144,6 +144,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 4 Lessons From a Failed Startup - From and For First Time Founders
+
+Ingested Maderight's shutdown retrospective. Added source and pages for Maderight, StartX, startup hypothesis testing, founder-led sales, startup runway, and startup focus; updated product-market-fit, customer-led development, MVP, unscalable work, and Y Combinator pages with the new failure-case evidence.
+
 ## [2026-09-12] ingest | Bernie's Army of Coders
 
 Ingested POLITICO's article on the 2016 Sanders volunteer technology ecosystem. Added source, entity, and concept pages for volunteer campaign software, key projects, campaign staff links, and political-software accountability risks.
@@ -515,6 +519,10 @@ Ingested Steve Ridout's Readlang retrospective. Added source and entity pages fo
 ## [2026-09-12] ingest | 4 Hard Truths about Equity
 
 Ingested While West's startup-equity essay. Added source, concept, and entity pages for employee equity risk, Slack/Tiny Speck hindsight bias, and founder-employee equity asymmetry; updated Startup Equity Transparency with liquidity, vesting, and preference-risk disclosure.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
