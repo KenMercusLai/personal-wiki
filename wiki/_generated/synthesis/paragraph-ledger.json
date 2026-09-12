@@ -14,12 +14,13 @@
       "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
       "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
       "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
-      "d496a39101147653ffc1bbcf77a9196657cdc9bcc86e8f5e9522be36053d625b"
+      "d496a39101147653ffc1bbcf77a9196657cdc9bcc86e8f5e9522be36053d625b",
+      "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98"
     ],
-    "paragraph_count": 14
+    "paragraph_count": 15
   },
-  "overview_commit": "19553138d89fe20fa03d847d32f3824156f59de9",
-  "overview_digest": "11258b952da302b6bd3e2adbc505b876950b98cc73b1260e0a0d4b7306a7386d",
+  "overview_commit": "4c699b636ca5e7eed5480016bb3adf4046aa1e3b",
+  "overview_digest": "8c5255d1d66ba87fb76de968d6d75a8eaa0216e30cf30ce9f4128be972d6b390",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -268,6 +269,26 @@
         "MicroCompany",
         "SaaSMarketing",
         "Stripe"
+      ]
+    },
+    {
+      "id": "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest AI coding source adds a human-practice layer to the wiki's AI material. [[Piglei]] frames [[AICodingPractice]] as a set of engineering norms rather than a bag of prompts: agents can accelerate implementation, but [[HumanCodeResponsibility]] remains with the developer who submits the code. The article's preferred working model is [[AIAgentCollaboration]], where engineers use planning, questioning, design exploration, skepticism, and curiosity to keep judgment active. It also adds workflow controls through [[PRReviewHygiene]] and [[SoftwareVerification]]: AI can create large diffs quickly, so teams need small PRs, design notes for unavoidable large changes, pre-PR AI review, automated tests, self-checks, and validation-fix loops. For [[JuniorEngineerLearning]], the article qualifies pure efficiency advice by arguing that early-career engineers should sometimes choose slower manual debugging, prior design thinking, official documentation, and architecture study because those activities build durable judgment.",
+      "topic_scores": {
+        "ai-and-technology": 6,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIAgentCollaboration",
+        "AICodingPractice",
+        "HumanCodeResponsibility",
+        "JuniorEngineerLearning",
+        "PRReviewHygiene",
+        "Piglei",
+        "SoftwareVerification"
       ]
     }
   ],

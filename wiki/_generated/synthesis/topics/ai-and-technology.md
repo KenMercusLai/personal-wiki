@@ -3,16 +3,16 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-09-11
-as_of_overview_commit: 6bf7389c34a870369415ed835e4f5414b46e19d8
-input_digest: 36c165f9ede64495cde3b9ef551e456ca502f5df56c290b32637e1dd091ff9da
+last_updated: 2026-09-12
+as_of_overview_commit: 4c699b636ca5e7eed5480016bb3adf4046aa1e3b
+input_digest: 2131f16cb4031b35036522317d91c75c0ffb58ccc54b6c1fb8ebf512645ba206
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and a small adjacent learning-motivation thread. The strongest AI claims remain technical: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, and retrieval-augmented chatbots connect LLMs to user-held documents.
+The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and human engineering practice around AI coding agents. The strongest AI claims now span both systems and behavior: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, and AI-assisted coding still requires accountable collaboration, review hygiene, verification, and learning protection.
 
 ## Cross-source Findings
 
@@ -75,3 +75,14 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 **Qualifications:**
 
 - The claim is forward-looking and does not compare natural-language workflows with conventional interfaces across real users or production tasks.
+
+### Ai Coding Requires Human Engineering Controls
+
+[[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].
+
+**Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[JuniorEngineerLearning]], [[Piglei]]
+
+**Qualifications:**
+
+- The evidence is a practitioner guide from [[Piglei]] rather than a measured productivity or defect-rate study.
+- The article's advice may vary by team maturity, production risk, review culture, and the learning stage of the engineer.

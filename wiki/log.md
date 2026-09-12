@@ -88,9 +88,17 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 一份关于 AI 编程的简明行为指南 | Piglei
+
+Added source note and synthesis pages for AI coding practice, human code responsibility, AI agent collaboration, PR review hygiene, software verification, and junior engineer learning. Added an entity profile for Piglei. Key claims: AI coding agents can accelerate software work, but humans remain accountable for understanding, reviewability, maintainability, verification, library choices, and the learning habits of junior engineers.
+
 ## [2026-09-12] ingest | 一个独立创造者的五年
 
 Added source note and synthesis pages for independent creators, bootstrapped SaaS, micro-companies, SaaS marketing, customer-led product development, and business as art. Added entity profiles for Hawstein, AlgoCasts, Stripe, and Derek Sivers. Key claims: solo SaaS can combine global distribution, modular infrastructure, recurring revenue, practical marketing, and close customer support, but the model is shaped by autonomy preferences and real operational constraints.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

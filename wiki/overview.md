@@ -14,11 +14,12 @@ sources:
   - tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya
   - wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai
   - yi-ge-du-li-chuang-zao-zhe-de-wu-nian
+  - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, AI-assisted coding practice, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
 
 ## Current Synthesis
 
@@ -50,6 +51,8 @@ The newest deployment source adds a practical cloud-cost thread. [[Idoubi]] fram
 
 The newest independent-creator source adds an entrepreneurship thread to the career and productivity material. [[Hawstein]]'s path from [[AlgoCasts]] to overseas [[BootstrappedSaaS]] shows [[IndependentCreator]] work as staged experimentation: start with the best available entry point, learn from communities, then shift toward a model with recurring revenue, global customers, and better fit. [[MicroCompany]] captures the operating philosophy behind staying solo: modular services such as [[Stripe]] can provide payment and business infrastructure, while avoiding hiring preserves autonomy and reduces coordination overhead. The source also broadens the wiki's view of product work through [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]]: technical building matters, but so do social proof, outreach, content, ads, affiliate programs, support quality, fast customer-specific solutions, and the creator's own taste.
 
+The newest AI coding source adds a human-practice layer to the wiki's AI material. [[Piglei]] frames [[AICodingPractice]] as a set of engineering norms rather than a bag of prompts: agents can accelerate implementation, but [[HumanCodeResponsibility]] remains with the developer who submits the code. The article's preferred working model is [[AIAgentCollaboration]], where engineers use planning, questioning, design exploration, skepticism, and curiosity to keep judgment active. It also adds workflow controls through [[PRReviewHygiene]] and [[SoftwareVerification]]: AI can create large diffs quickly, so teams need small PRs, design notes for unavoidable large changes, pre-PR AI review, automated tests, self-checks, and validation-fix loops. For [[JuniorEngineerLearning]], the article qualifies pure efficiency advice by arguing that early-career engineers should sometimes choose slower manual debugging, prior design thinking, official documentation, and architecture study because those activities build durable judgment.
+
 ## Open Questions
 
 - How do these productivity habits vary across roles that require rapid responsiveness or collaborative interruption?
@@ -73,3 +76,6 @@ The newest independent-creator source adds an entrepreneurship thread to the car
 - Which parts of Hawstein's independent SaaS path depend on unusually favorable prerequisites such as engineering skill, savings, payment access, or market timing?
 - When should a solo creator preserve autonomy, and when does support load or reliability risk make hiring the wiser tradeoff?
 - How can micro-company SaaS builders measure whether customer-led feature work is pragmatic focus or overfitting to a single customer?
+- Which AI coding practices should vary by codebase risk, team maturity, review culture, and production criticality?
+- How can teams measure whether AI-assisted coding is improving quality and learning rather than only increasing diff volume?
+- What balance of manual debugging and agent assistance best protects junior-engineer growth while still meeting delivery deadlines?

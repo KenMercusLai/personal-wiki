@@ -87,8 +87,27 @@
         "OpenAI",
         "Replit"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ai-coding-requires-human-engineering-controls",
+      "qualifications": [
+        "The evidence is a practitioner guide from [[Piglei]] rather than a measured productivity or defect-rate study.",
+        "The article's advice may vary by team maturity, production risk, review culture, and the learning stage of the engineer."
+      ],
+      "statement": "[[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AICodingPractice",
+        "AIAgentCollaboration",
+        "HumanCodeResponsibility",
+        "PRReviewHygiene",
+        "SoftwareVerification",
+        "JuniorEngineerLearning",
+        "Piglei"
+      ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and a small adjacent learning-motivation thread. The strongest AI claims remain technical: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, and retrieval-augmented chatbots connect LLMs to user-held documents.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and human engineering practice around AI coding agents. The strongest AI claims now span both systems and behavior: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, and AI-assisted coding still requires accountable collaboration, review hygiene, verification, and learning protection.",
   "topic_id": "ai-and-technology"
 }
