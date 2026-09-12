@@ -7,15 +7,16 @@ sources:
   - jiao-yu-de-xia-yi-bu-qi-er-luo-li-li-de-shu-ju-zhong-xin
   - li-jie-fang-cha-de-ke-jia-xing-luo-li-li-de-shu-ju-zhong-xin
   - li-jie-wu-cha-luo-li-li-de-shu-ju-zhong-xin
+  - yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[RORIRI]] is the author of sources explaining LLM terminology, context management, AI-era education, and statistical reasoning.
+[[RORIRI]] is the author of sources explaining LLM terminology, context management, AI-era education, statistical reasoning, and UX research report design.
 
 ## Current Profile
-Within this wiki, RORIRI appears as an AI commentator and educator who connects practical agent tooling terms to broader questions of cognition, learning, and statistical judgment. One source ties MCP, Skills, RAG, Memory, prompt caching, and Computer Use to the shared problem of shaping LLM context; the education source asks what abilities humans need when AI handles more execution; and the statistics sources turn model thinking into concrete lessons about data generation, variance, covariance, orthogonality, regression error, residuals, omitted variables, and heteroskedasticity.
+Within this wiki, RORIRI appears as an AI commentator and educator who connects practical agent tooling terms to broader questions of cognition, learning, statistical judgment, and research interpretation. One source ties MCP, Skills, RAG, Memory, prompt caching, and Computer Use to the shared problem of shaping LLM context; the education source asks what abilities humans need when AI handles more execution; the statistics sources turn model thinking into concrete lessons about data generation, variance, covariance, orthogonality, regression error, residuals, omitted variables, and heteroskedasticity; and the UX research source shows how conflicting evidence can be arranged into an explanatory report structure.
 
 ## Key Characteristics
 - Explains LLM tooling concepts through the common problem of context management.
@@ -23,8 +24,8 @@ Within this wiki, RORIRI appears as an AI commentator and educator who connects 
 - Frames Computer Use as a packaging layer over lower-level agent action mechanisms.
 - Extends computational thinking for AI-era education through statistics, abstraction/programming, and academic writing.
 - Treats taste as the human capacity to notice and care about real questions before AI execution begins.
-- Explains statistics through examples that distinguish data-generation assumptions, sample relationships, model error, residuals, and inference uncertainty.
-- Warns that plausible statistical explanations can fail when they blur assumptions, diagnostics, and target quantities.
+- Explains statistics through examples that distinguish data-generation assumptions, sample relationships, model error, residuals, inference uncertainty, and plausible explanations that blur diagnostics or target quantities.
+- Treats UX research reporting as information design, where data layers and contradictions require an explicit explanatory chain.
 
 ## Evidence
 - Context frame: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] ties Skills, MCP, RAG, Memory, and Computer Use to context pollution and context limits.
@@ -37,13 +38,14 @@ Within this wiki, RORIRI appears as an AI commentator and educator who connects 
 - LLM caution: [[li-jie-fang-cha-de-ke-jia-xing-luo-li-li-de-shu-ju-zhong-xin]] says many LLMs confuse independence, sample size, and orthogonality when explaining variance examples.
 - Error mechanics: [[li-jie-wu-cha-luo-li-li-de-shu-ju-zhong-xin]] distinguishes sampling bias, model specification error, residuals as proxies, omitted-variable bias, and heteroskedasticity.
 - Inference caution: [[li-jie-wu-cha-luo-li-li-de-shu-ju-zhong-xin]] shows that different assumption failures damage different judgments: intercepts, slopes, predictions, or uncertainty estimates.
+- UX report design: [[yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin]] argues that observations, questionnaires, cognitive walkthroughs, and heuristic evaluations become useful only when arranged into a coherent report logic.
+- Contradiction handling: [[yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin]] uses a Jamovi study to explain why subjective ease, repeated user errors, and expert ratings can coexist once hidden cognitive load is modeled.
 
 ## Qualifications
-The wiki's RORIRI evidence is still limited to explanatory essays rather than formal specifications, empirical education research, statistical textbooks, or broad benchmarks.
+The wiki's RORIRI evidence is still limited to explanatory essays and a practitioner UX research case rather than formal specifications, empirical education research, statistical textbooks, broad benchmarks, or peer-reviewed UX-method studies.
 
 ## What Changed
-- Created an entity profile for RORIRI as the source author.
-- Added RORIRI's error article as evidence of regression-assumption pedagogy around residuals, omitted variables, and heteroskedasticity.
+- Added RORIRI's UX research article as evidence that their teaching style also covers report architecture, mixed-method interpretation, and cognitive explanations for contradictory usability findings.
 
 ## Relationships
 - [[LLMContextManagement]] - RORIRI uses this as the unifying frame for LLM tooling terms.
@@ -58,3 +60,6 @@ The wiki's RORIRI evidence is still limited to explanatory essays rather than fo
 - [[StatisticalError]] - RORIRI treats error as the unobserved remainder created by sampling and modeling choices.
 - [[OmittedVariableBias]] - RORIRI uses this as the slope-bias case for model specification error.
 - [[Heteroskedasticity]] - RORIRI uses this to distinguish coefficient direction from uncertainty quality.
+- [[UXResearchInformationDesign]] - RORIRI frames UX reporting as deliberate design of relationships among data.
+- [[MixedMethodUXResearch]] - RORIRI uses layered UX methods to explain conflicting findings.
+- [[CognitiveLoadInUXResearch]] - RORIRI treats hidden cognitive failure as a bridge between interface design and user behavior.

@@ -118,14 +118,20 @@
       "id": "learning-goals-protect-motivation",
       "qualifications": [
         "The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.",
-        "The claim is theoretical and source-scoped rather than experimentally validated."
+        "The knowledge-valuation and anti-schooling claims are theoretical and source-scoped rather than experimentally validated.",
+        "Formal education is not identical to coercive learning; the risk mechanism is imposed low-value pressure overriding personal valuation."
       ],
-      "statement": "[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity from rote or status-driven pressure.",
+      "statement": "[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.",
       "status": "qualified",
       "supporting_wikilinks": [
         "GoalSetting",
         "LearnDrive",
-        "KnowledgeValuationNetwork"
+        "KnowledgeValuationNetwork",
+        "FreeLearning",
+        "CoerciveLearning",
+        "ReverseLearning",
+        "SuperMemo",
+        "CommonCurrencyModel"
       ]
     },
     {
@@ -283,6 +289,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic now adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, and knowledge valuation protect motivation against rote or coercive pressure. The topic now treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. The topic also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit, while mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
   "topic_id": "work-education-and-society"
 }

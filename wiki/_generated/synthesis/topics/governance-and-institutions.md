@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-12
-as_of_overview_commit: cb13ce5e41eff8bff05131c9c29b5772a6f92344
-input_digest: 38435609b757fa6a94f375e6e3b070acbf82da15a9fe6a25bb153e59ed900c7b
+as_of_overview_commit: 630b345f04b4846db5561e1fc023845ce94cb3b0
+input_digest: 880be20d269743150fc73eb13fb0edbe79a1aea8376305b8a9d5931a5711ea60
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans three control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans four control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -45,3 +45,14 @@ The governance-related material is still narrow but now spans three control prob
 **Qualifications:**
 
 - This is a secondary topic assignment from an infrastructure paragraph; the corpus does not yet discuss governance, regulation, or institutional policy around AI serving.
+
+### Operations Governance Shifts Responsibility Into Engineering
+
+[[LowOpsGameServer]] and [[GameServerCloudNativeDelivery]] shift operational governance toward engineering-owned workflows: teams reduce manual coordination by standardizing service units, deployment environments, configuration paths, recovery automation, and [[ContinuousGameServerUpdates]].
+
+**Evidence:** [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[GameServerSLA]], [[XiaoshuojunFp]]
+
+**Qualifications:**
+
+- This is a secondary governance assignment from a game-server operations essay, not a broad organizational governance study.
+- The source describes one practitioner's desired evolution from development-operations separation toward DevOps ownership.

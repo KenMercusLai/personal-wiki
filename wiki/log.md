@@ -4,6 +4,18 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 知识估值网络
+
+Added source note and synthesis pages for SuperMemo, free learning, coercive learning, reverse learning, and the common currency model. Updated Piotr Wozniak, knowledge valuation network, learn drive, goal setting, index, and overview to reflect the source's model of knowledge valuation as goal-rooted, semantic, partly neural, and vulnerable to coercive schooling.
+
+## [2026-09-12] ingest | 用研报告中的信息设计要素 | 螺莉莉的数据中心
+
+Added source note and pages for Jamovi, UX research information design, mixed-method UX research, cognitive load in UX research, and heuristic evaluation. Updated RORIRI, index, and overview to reflect the source's claim that UX reports must design relationships among data layers and that contradictory questionnaire, behavior, PURE, and heuristic findings can become coherent once hidden cognitive load is modeled.
+
+## [2026-09-12] ingest | 用 Claude Code 将三万行 Go 项目移植到 Rust：Agent Team 实践与 Harness 效率优化
+
+Added source note and pages for Max Lv, mihomo-rust, Agent Team, spec-driven agent development, and upstream divergence policy. Updated Claude Code, harness engineering, AI coding practice, AI agent collaboration, vibe coding, LLM context management, agent memory, software verification, index, and overview to reflect the source's claim that large coding-agent work becomes reliable through role-owned files, specs, ADRs, feedback memory, milestone respawns, and layered CI rather than model fluency alone.
+
 ## [2026-09-12] ingest | 为什么你不该沉迷知识管理
 
 Added source note and Liang Mouyin entity. Updated personal knowledge management, knowledge output, note-tool fit, Obsidian, index, overview, and generated synthesis inputs to reflect the source's warning that PKM can become self-referential tool-chasing unless simplified around personal fit and tested by real output.
@@ -64,6 +76,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 由「上线」产生的思考
+
+Ingested Xiaoshuojun Fp's game-server launch experience essay, including embedded diagrams about resource curves, service-unit architecture, CI/CD, and continuous-update mindset.
+
 ## [2026-09-11] ingest | 设立目标可以改变你的生活
 
 Added source note and synthesis pages for goal setting, learn drive, knowledge valuation networks, and creative abstraction. Added entity profiles for Piotr Wozniak and Peter Thiel. Key claims: goals can focus attention and help learners value knowledge, but they are most useful when they protect curiosity rather than impose painful discipline or credential compliance.
@@ -115,6 +131,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-12] ingest | 稳定性，难的不是技术，而是
+
+Added source note and synthesis pages for Bixuan's reliability article. Key claims: robust code, dependency degradation, capacity protection, canary rollout, monitoring, rollback, and restoration-first incident handling are known reliability practices, but sustained organizational investment is the harder condition.
 
 ## [2026-09-12] ingest | 理解误差 | 螺莉莉的数据中心
 
@@ -347,6 +367,38 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] graph | Knowledge graph rebuilt
+
+327 nodes, 1661 edges (1661 extracted, 0 inferred).
+
+## [2026-09-12] report | Graph health report generated
+
+327 nodes analyzed.
 
 ## [2026-09-12] lint | Wiki health check
 

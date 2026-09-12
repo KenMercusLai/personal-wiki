@@ -12,12 +12,14 @@
       "fde66a6b0b6dc03dc843920da4d29116e9ea536527452f29e2ea11870fb70f82",
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
+      "9599ef2e89914245702ee835f6f63d0c0780ab8a165ae25b34da7a01626db0e2",
       "26fad3154a558d143d54869744a2d68780495ffc0876f779fee905778c4caa3e",
       "f83fb85c15dca48e465666611d7cf898b8874cbf4f0bff042f189885832f81cc",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
+      "7eccff1471dcd2983f879fc03cea8610eb73fca55f96ea5342d94f42d0df495e",
       "43bc7fbc8010dfa7185fa34ac099eeb0769a930cd51554bbed5c3a7d921c8d7b",
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
       "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
@@ -42,15 +44,18 @@
       "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
       "d4e8cb2d1247336696e714bf8d888a8054e80f92d9ecf71e429da47e374206a4",
       "87372e1220f85618d1b4311fb58d51036a4b0fe5846a70292bd81e6bb0b9e542",
+      "af7ad09ac7000caeb278383d9e9591a0f0c4adb94bf68f0ba94bcf89845a530f",
       "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
-      "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
+      "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa",
+      "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
+      "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d"
     ],
-    "paragraph_count": 45
+    "paragraph_count": 50
   },
-  "overview_commit": "9f81d30d4d70b8576e275b567785ed158ae6f38b",
-  "overview_digest": "e25dafce047ca87fb473c78991ec781bc14d501cff6a0151076b05d86aaf1792",
+  "overview_commit": "017d82d620b7cab662b4e2a24ff5155b357882f2",
+  "overview_digest": "eac5861e102953d40ec4db9b4231692530e273e2f46567bbc0a7254a3737d24c",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -251,6 +256,27 @@
       ]
     },
     {
+      "id": "9599ef2e89914245702ee835f6f63d0c0780ab8a165ae25b34da7a01626db0e2",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest UX research source applies that evidence-chain mindset to research reporting. [[UXResearchInformationDesign]] treats a report as an information architecture problem: observations, questionnaires, expert walkthroughs, and [[HeuristicEvaluation]] findings become useful only when the researcher designs relationships among them. In the [[Jamovi]] case, [[MixedMethodUXResearch]] resolves apparent contradictions by placing interface design elements, [[CognitiveLoadInUXResearch]], subjective ratings, and observed behavior into one explanatory chain. This also strengthens [[AcademicWriting]] and [[StatisticalModelThinking]]: data needs a model of how layers relate, and a report needs an argument structure that lets conflicting evidence explain rather than cancel itself.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AcademicWriting",
+        "CognitiveLoadInUXResearch",
+        "HeuristicEvaluation",
+        "Jamovi",
+        "MixedMethodUXResearch",
+        "StatisticalModelThinking",
+        "UXResearchInformationDesign"
+      ]
+    },
+    {
       "id": "26fad3154a558d143d54869744a2d68780495ffc0876f779fee905778c4caa3e",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
@@ -343,6 +369,27 @@
         "GoalSetting",
         "KnowledgeValuationNetwork",
         "LearnDrive"
+      ]
+    },
+    {
+      "id": "7eccff1471dcd2983f879fc03cea8610eb73fca55f96ea5342d94f42d0df495e",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Wozniak knowledge-valuation source deepens that learning-motivation cluster with a cognitive and neural model. [[KnowledgeValuationNetwork]] is now framed as a fast personalized system that values knowledge by coherence, consistency, and applicability to personal goals, with semantic networks passing value from goals to details. [[LearnDrive]] becomes a real-time match between available information and those valuation signals; [[FreeLearning]], play, broad behavioral space, and low chronic stress support that match, while [[CoerciveLearning]] and [[ReverseLearning]] can attach negative value to study contexts and suppress memory consolidation. The source also adds [[CommonCurrencyModel]] as a neuroscience bridge, using OFC-centered reward integration to explain how knowledge, bodily reward, and expected value may converge. [[SuperMemo]] becomes the autobiographical case: Wozniak presents programming for SuperMemo as the high-value learning path that school nearly obstructed.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CoerciveLearning",
+        "CommonCurrencyModel",
+        "FreeLearning",
+        "KnowledgeValuationNetwork",
+        "LearnDrive",
+        "ReverseLearning",
+        "SuperMemo"
       ]
     },
     {
@@ -821,6 +868,27 @@
       ]
     },
     {
+      "id": "af7ad09ac7000caeb278383d9e9591a0f0c4adb94bf68f0ba94bcf89845a530f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Claude Code migration source adds a large-system version of the same AI coding cluster. [[MaxLv]] presents [[MihomoRust]] as a 31,000-line Rust port whose success depends less on raw model fluency than on [[AgentTeam]] role design, [[SpecDrivenAgentDevelopment]], and [[HarnessEngineering]]. PM, Architect, Engineer, and QA agents share state through roadmaps, gap analyses, ADRs, specs, test plans, CI reports, and `CLAUDE.md`, while milestone respawn and feedback-only [[AgentMemory]] manage context decay across long-running work. The source also adds [[UpstreamDivergencePolicy]] as a porting-specific control: safety, privacy, or routing-intent divergences should fail as Class A hard errors, while compatibility or performance divergences can warn once and continue. Most importantly, it reinforces [[SoftwareVerification]] as the merge boundary for agent output through unit, async, integration, protocol, Dockerized TProxy, MSRV, and CI checks.",
+      "topic_scores": {
+        "ai-and-technology": 6,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgentMemory",
+        "AgentTeam",
+        "HarnessEngineering",
+        "MaxLv",
+        "MihomoRust",
+        "SoftwareVerification",
+        "SpecDrivenAgentDevelopment",
+        "UpstreamDivergencePolicy"
+      ]
+    },
+    {
       "id": "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
@@ -896,6 +964,50 @@
         "ObjectOrientedOntology",
         "ObjectWithdrawal",
         "VincentVanGogh"
+      ]
+    },
+    {
+      "id": "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "culture-and-media"
+      ],
+      "text": "The newest game-server operations source adds a non-AI production-engineering cluster. [[XiaoshuojunFp]] frames [[GameServerLaunchExperience]] as evidence-backed judgment gained only when real user scale and live operations expose the limits of pre-launch reasoning. [[GameServerScaleAndStability]] captures the article's core lesson: concurrency, data volume, static-file distribution, asynchronous bottlenecks, configuration, resource curves, disaster recovery, and incident handling all become different problems after PCU/DAU scale multiplies them. The source then names a target architecture direction through [[GameServerSLA]], [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], and [[ContinuousGameServerUpdates]]: game-server teams should pursue reliability above cloud-provider baselines through service governance, automated recovery, and observability; reduce operational friction through early workflow and configuration design; treat service units, containers, and DevOps as delivery architecture; and replace stop-the-world maintenance with version coexistence, traffic shifting, and compatibility-aware progressive updates.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ContinuousGameServerUpdates",
+        "GameServerCloudNativeDelivery",
+        "GameServerLaunchExperience",
+        "GameServerSLA",
+        "GameServerScaleAndStability",
+        "LowOpsGameServer",
+        "XiaoshuojunFp"
+      ]
+    },
+    {
+      "id": "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest reliability source generalizes that production-engineering thread beyond game servers. [[Bixuan]] argues that [[SystemReliability]] is not blocked by a lack of known principles, because postmortems repeatedly rediscover the same controls: [[RobustProgramming]] through input boundaries, API understanding, and fail-fast behavior; [[DependencyDegradation]] through strong/weak dependency recognition, fallback, capacity protection, and disaster recovery; and [[ChangeSafety]] through mandatory canarying, monitoring, rollback, blast-radius control, and restoration-first incident response. The harder constraint is [[ReliabilityInvestment]]: reliable systems require sustained staffing, process enforcement, and business priority even though prevented incidents are hard to credit and reliability work often becomes episodic unless outages are existential to the business.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Bixuan",
+        "ChangeSafety",
+        "DependencyDegradation",
+        "ReliabilityInvestment",
+        "RobustProgramming",
+        "SystemReliability"
       ]
     }
   ],

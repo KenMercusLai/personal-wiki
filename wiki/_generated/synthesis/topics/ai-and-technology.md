@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 9f81d30d4d70b8576e275b567785ed158ae6f38b
-input_digest: 5f3273bd5829d0159786f9cf43a42a8d45fb8c289021d64de22bcfe76c8ddcf6
+as_of_overview_commit: 017d82d620b7cab662b4e2a24ff5155b357882f2
+input_digest: d5fcd0054f2bf6d1a3e4e1b1ec09fb7e3c6a430165e6efb0e342d88b054484cc
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current AI and technology material spans AI-supported knowledge work, education, statistics, application architecture, inference/network infrastructure, coding agents, prompt caching, production-agent safety, and LLM-assisted data analysis. A recurring pattern is that AI value depends less on tool novelty than on the surrounding model of work: humans need problem definition, statistical judgment about data-generating processes and error assumptions, authorship, verification, context management, retrieval design, serving-aware infrastructure, and capability boundaries that keep fast automation accountable.
+The AI and technology thread now treats AI systems, data work, and production software less as standalone tools than as socio-technical infrastructure: knowledge assistants, writing helpers, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.
 
 ## Cross-source Findings
 
@@ -47,6 +47,17 @@ The current AI and technology material spans AI-supported knowledge work, educat
 
 - The claim is grounded in conceptual education essays rather than measured curriculum interventions.
 - The sources explicitly treat the ability frame as adaptable rather than exhaustive.
+
+### Evidence Chain Design Links Data To Judgment
+
+[[UXResearchInformationDesign]] extends the topic's model-judgment thread by showing that research data needs an explanatory architecture: [[MixedMethodUXResearch]] can align [[HeuristicEvaluation]], [[CognitiveLoadInUXResearch]], subjective ratings, and observed behavior so conflicting findings explain rather than cancel one another.
+
+**Evidence:** [[UXResearchInformationDesign]], [[MixedMethodUXResearch]], [[HeuristicEvaluation]], [[CognitiveLoadInUXResearch]], [[Jamovi]], [[AcademicWriting]], [[StatisticalModelThinking]]
+
+**Qualifications:**
+
+- The UX research source is a practitioner case study rather than a controlled comparison of report formats.
+- Its four-layer Jamovi explanation is explicitly source-specific and should not be treated as a universal UX research template.
 
 ### Statistical Model Thinking Needs Covariance And Orthogonality
 
@@ -145,27 +156,37 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 ### Ai Coding Requires Human Engineering Controls
 
-[[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] also requires small steps, precise task decomposition, context control, and humane pacing.
+[[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] and large [[AgentTeam]] work require small steps, precise task decomposition, context control, specs, memory hygiene, and humane pacing.
 
-**Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[JuniorEngineerLearning]], [[VibeCoding]], [[Piglei]], [[ChunYinUncle]]
+**Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[JuniorEngineerLearning]], [[VibeCoding]], [[AgentTeam]], [[SpecDrivenAgentDevelopment]], [[HarnessEngineering]], [[Piglei]], [[ChunYinUncle]], [[MaxLv]], [[MihomoRust]]
 
 **Qualifications:**
 
 - The evidence is practitioner essay material rather than a measured productivity or defect-rate study.
-- The AI coding sources emphasize different levels: Piglei centers collaboration, responsibility, reviewability, and learning protection; the AI-first case study centers organization-level automation and role redesign; the Claude Code retrospective centers day-to-day task sizing, context pressure, verification, and human pace; Chun Yin Uncle's source centers independent-developer task decomposition and precise expression.
-- The independent-developer source shows that high AI-written code share can be either controlled or dangerous depending on human specification, review, and acceptance.
+- The AI coding sources emphasize different levels: Piglei centers collaboration, responsibility, reviewability, and learning protection; the AI-first case study centers organization-level automation and role redesign; the Claude Code retrospective centers day-to-day task sizing, context pressure, verification, and human pace; Chun Yin Uncle centers independent-developer task decomposition; Max Lv centers large-project Agent Team harness design.
+- The independent-developer and MihomoRust sources show that high AI-written code share or large agent teams can be either controlled or dangerous depending on human specification, file-backed state, review, verification, and acceptance.
+
+### Large Agent Team Work Needs Specs And Verification
+
+Large coding-agent projects become more reliable when [[AgentTeam]] roles are coordinated through [[SpecDrivenAgentDevelopment]], [[HarnessEngineering]], [[AgentMemory]], [[UpstreamDivergencePolicy]], and layered [[SoftwareVerification]] rather than by relying on one long conversation or raw model fluency.
+
+**Evidence:** [[AgentTeam]], [[SpecDrivenAgentDevelopment]], [[HarnessEngineering]], [[AgentMemory]], [[UpstreamDivergencePolicy]], [[SoftwareVerification]], [[ClaudeCode]], [[MaxLv]], [[MihomoRust]]
+
+**Qualifications:**
+
+- The evidence is a single large Rust port case study, so the source itself limits Agent Team use to larger projects with enough documentation and test infrastructure to justify the overhead.
 
 ### Llm Tooling Manages Context And Actions
 
-[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, and [[TapeAndAnchors]]-style context reconstruction.
+[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, milestone respawns, file-backed state, and [[TapeAndAnchors]]-style context reconstruction.
 
-**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]], [[ClaudeCode]], [[TapeAndAnchors]]
+**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]], [[ClaudeCode]], [[AgentTeam]], [[TapeAndAnchors]]
 
 **Qualifications:**
 
 - The source is a conceptual essay and does not benchmark these mechanisms across systems.
 - The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present.
-- The Claude Code and PsiACE sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts.
+- The Claude Code, Max Lv, and PsiACE sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts.
 
 ### Prompt Caching Turns Context Shape Into Infrastructure
 
@@ -210,3 +231,14 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 - The source is a strategic essay rather than a sector-by-sector empirical study.
 - High-stakes automation still raises privacy, regulation, accountability, and human-override questions not resolved by the source.
+
+### Production Engineering Needs Live Scale Evidence
+
+[[GameServerLaunchExperience]] shows production engineering as evidence-backed judgment: [[GameServerScaleAndStability]], [[GameServerSLA]], [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], and [[ContinuousGameServerUpdates]] all depend on real user scale, operational recovery, observability, service units, and compatibility-aware rollout rather than pre-launch reasoning alone.
+
+**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[XiaoshuojunFp]]
+
+**Qualifications:**
+
+- The evidence is a game-server practitioner essay, so its strongest claims fit online games with large PCU/DAU scale, live operations, and progressive update needs.
+- The source explicitly warns that launch-validated decisions are context-bound evidence rather than timeless authority.

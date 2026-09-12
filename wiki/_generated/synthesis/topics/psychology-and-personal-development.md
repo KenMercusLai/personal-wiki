@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-12
-as_of_overview_commit: 833f295a1ad80b450914894c723271e44298839e
-input_digest: 79f3535dae0eed83e31778bb657c289eaa149300c5539538cd204ed79166b483
+as_of_overview_commit: da1d4cf154c2ae6d32663371e66e4d9c5fb048a6
+input_digest: aea28e02d04ce795873c98a348ec83abf94b7aea61f00e86709c054eda65ae77
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development topic centers on motivation, creator anxiety, and learning agency. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. A prompt-cache paragraph is present only as technical classifier spillover.
+The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. Prompt-cache material is present only as technical classifier spillover.
 
 ## Cross-source Findings
 
@@ -26,6 +26,17 @@ The psychology and personal-development topic centers on motivation, creator anx
 
 - The claim is grounded in a personal creator retrospective and cited interviews, not clinical or platform-wide evidence.
 - Platform-data advice may vary for creators whose income, obligations, or editorial contracts require closer metric tracking.
+
+### Ux Research Contradictions Need Cognitive Mediation
+
+[[UXResearchInformationDesign]] uses [[CognitiveLoadInUXResearch]] to explain why subjective ratings, expert findings, and observed behavior can diverge: in the [[Jamovi]] case, a hidden cognitive prerequisite makes user errors visible while subjective difficulty remains low.
+
+**Evidence:** [[UXResearchInformationDesign]], [[CognitiveLoadInUXResearch]], [[MixedMethodUXResearch]], [[HeuristicEvaluation]], [[Jamovi]]
+
+**Qualifications:**
+
+- This is a secondary topic assignment; the paragraph primarily belongs to UX research and evidence design rather than general personal development.
+- The Jamovi example is source-scoped and does not measure cognitive load directly.
 
 ### Goals Can Protect Learn Drive
 

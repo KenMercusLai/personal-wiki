@@ -5,6 +5,7 @@ tags: [ai, developer-tools, software-engineering]
 sources:
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
+  - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -17,6 +18,8 @@ The usage retrospective presents Claude Code as the strongest available tool for
 
 The prompt-cache article adds an infrastructure-facing profile. Claude Code is presented as carefully shaping requests to [[Anthropic]] so stable system prompts, tools, message prefixes, and cache breakpoints can be reused. Its private microcompact path marks large tool results with cache references and later sends cache-edit deletion instructions, logically changing the provider-side cached view without rewriting local conversation history.
 
+The mihomo-rust case study adds a project-management profile. Claude Code is used not only as a single assistant but as an [[AgentTeam]] environment with PM, Architect, Engineer, and QA roles, each assigned a model and file-backed responsibilities. In that account, Claude Code becomes effective because the surrounding harness supplies `CLAUDE.md`, ADRs, specs, memory, milestone resets, and tests.
+
 ## Key Characteristics
 - Operates as a command-line coding agent with project-wide context rather than an editor-only assistant.
 - Supports planning, custom commands, hooks, and subagents as workflow primitives.
@@ -24,6 +27,7 @@ The prompt-cache article adds an infrastructure-facing profile. Claude Code is p
 - Is constrained by context-window pressure, compaction behavior, model choice, usage limits, and model-domain unevenness.
 - Works best when paired with small steps, version control, tests, compilation, linting, and human review.
 - Uses provider-aware [[PromptCaching]] tactics to preserve stable request shape while managing high-volume tool results.
+- Supports role-specialized Agent Team workflows for large projects when paired with file-backed state and verification infrastructure.
 
 ## Evidence
 - Project-wide operation: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] contrasts Claude Code's command-line project view with editor AI interactions centered on a file or selected lines.
@@ -32,6 +36,7 @@ The prompt-cache article adds an infrastructure-facing profile. Claude Code is p
 - Constraints: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] reports pain around 200k context windows, auto-compaction, weekly limits, Opus/Sonnet tradeoffs, and uneven performance across technology stacks.
 - Guardrails: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] recommends small iterations, tests, version control, modular work, cross-review, and compilation/lint/test loops.
 - Prompt-cache behavior: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] describes Claude Code's use of cache breakpoints, stable tool definitions, `cache_reference`, and `cache_edits` to preserve cache reuse while logically removing low-value tool-result blocks.
+- Agent Team use: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] uses Claude Code to coordinate PM, Architect, Engineer, and QA agents during a 31,000-line Rust port.
 
 ## Qualifications
 The profile partly reflects one practitioner's 2025 usage experience, not official product documentation or a current benchmark. The prompt-cache behavior is based on source-code reading and inference about private API fields, so it should not be treated as stable public Anthropic API guidance.
@@ -39,6 +44,7 @@ The profile partly reflects one practitioner's 2025 usage experience, not offici
 ## What Changed
 - Created the entity page for Claude Code as a command-line coding agent and workflow object.
 - Added Claude Code's prompt-cache and microcompact behavior as an infrastructure-facing characteristic.
+- Added Claude Code's Agent Team and harness role in a large Rust migration case study.
 
 ## Relationships
 - [[Claude]] - Claude Code is built around the Claude model family in the source's account.
@@ -49,3 +55,5 @@ The profile partly reflects one practitioner's 2025 usage experience, not offici
 - [[LLMContextManagement]] - context windows, subagents, and compaction constrain Claude Code workflows.
 - [[SoftwareVerification]] - testing and compilation are necessary checks on Claude Code output.
 - [[PromptCaching]] - Claude Code uses stable request shape and cache edits to improve cache reuse.
+- [[AgentTeam]] - Claude Code provides the multi-agent workflow discussed in the source.
+- [[MihomoRust]] - case-study project built through Claude Code.

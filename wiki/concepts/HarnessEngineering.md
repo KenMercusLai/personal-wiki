@@ -5,6 +5,7 @@ tags: [ai, software-engineering, agents]
 sources:
   - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
+  - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -15,13 +16,15 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources use harness engineering to name a shift in engineering work: when agents can generate code or operate external systems, the scarce skill becomes designing the environment in which they operate. At the software-workflow layer, that environment includes repository architecture, structured tasks, deterministic CI/CD, review gates, tests, feature flags, logs, metrics, triage loops, and rollback mechanisms. The production-agent source adds a runtime layer: effect logs, capability gateways, scoped credentials, and forkable checkpoints are also harnesses because they make model errors predictable, bounded, and recoverable.
 
+The mihomo-rust case study adds a project-local harness layer. For coding agents, the harness can include `CLAUDE.md`, role-owned docs, ADRs, specs, test plans, milestone resets, narrow feedback memory, and explicit state documents. These artifacts make large-agent work repeatable by moving durable state out of fragile conversation context and into reviewable files.
+
 ## Key Claims
 - Harness engineering treats agent failure as a scaffold problem rather than a prompt-effort problem.
 - The more system state agents can inspect, validate, and modify, the more useful leverage they provide.
 - Monorepos or unified architecture can improve agent reasoning by making cross-system effects visible.
 - Deterministic pipelines let agents and humans reason about failures consistently.
 - Observability and structured logs are part of the agent work environment, not only human operations tools.
-- Feature flags, A/B tests, rollback, and triage loops turn production feedback into a controlled learning cycle.
+- Feature flags, A/B tests, rollback, triage loops, concise project instructions, specs, role documents, memory rules, and milestone resets turn agent work into a controlled cycle.
 - High-permission agents also need runtime harnesses for side effects, capabilities, and resumability.
 
 ## Evidence
@@ -32,12 +35,14 @@ The sources use harness engineering to name a shift in engineering work: when ag
 - Feedback loop: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes daily health summaries, automatic issue triage, duplicate detection, regression reopening, post-deploy verification, and automatic ticket closure.
 - Release controls: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes feature flags, staged rollout, A/B testing, one-click disablement, and circuit-breaker rollback.
 - Runtime boundaries: [[wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong]] argues that production agents need [[EffectLog]], [[CapabilityGateway]], and [[ForkRecovery]] so real side effects and credentials remain bounded across crashes and attacks.
+- Project-local harness: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] shows `CLAUDE.md`, ADRs, specs, test plans, state documents, and feedback memory coordinating a large [[ClaudeCode]] port.
 
 ## Counterevidence & Qualifications
 The AI-first source presents harness engineering through one company's reported practice and the article's interpretation of an OpenAI term. The agent-infrastructure source is also a design argument rather than a validated standard. Together they do not prove that every team should adopt monorepos, AI review gates, fully automated triage, effect logs, or capability gateways immediately; the payoff depends on product risk, agent autonomy, permission scope, test quality, architecture, observability maturity, and tolerance for organizational disruption.
 
 ## What Changed
 - Expanded harness engineering from software-delivery scaffolds into runtime boundaries for high-permission production agents.
+- Added project-local coding-agent harnesses: concise instructions, file-backed state, specs, memory, milestone respawn, and layered tests.
 
 ## Related Concepts
 - [[AIFirstEngineering]] - harness engineering is the enabling discipline for AI-first software workflows.
@@ -49,3 +54,5 @@ The AI-first source presents harness engineering through one company's reported 
 - [[ProductionAgentInfrastructure]] - production agent infrastructure is a runtime form of harness engineering.
 - [[CapabilityGateway]] - capability gateways enforce the capability side of an agent harness.
 - [[EffectLog]] - effect logs make side effects inspectable and recoverable inside the harness.
+- [[AgentTeam]] - role separation is one concrete harness pattern for large coding-agent work.
+- [[SpecDrivenAgentDevelopment]] - specs and ADRs turn the harness into agent-readable interfaces.

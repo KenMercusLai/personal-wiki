@@ -6,6 +6,7 @@ sources:
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
   - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
+  - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -16,6 +17,8 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources introduce software verification through the specific risk of AI-generated code. Piglei focuses on the developer workflow: code review cannot expose every behavior issue, so engineers need automated tests and self-checks before asking others to review. The AI-first source raises the bar from local testing to production-speed verification: deterministic CI/CD, AI review, end-to-end tests, feature flags, staged rollout, monitoring, rollback, and post-deploy triage must make validation as fast as implementation. Onevcat adds the day-to-day coding-agent routine: compile after small features, run relevant tests, lint and format, use TDD when possible, and split work or use worktrees when verification latency becomes the bottleneck.
 
+The mihomo-rust case study shows verification as the hard boundary that makes multi-agent code generation acceptable. Its layered test infrastructure spans unit, async, integration, protocol, E2E, and CI jobs, and the author treats full test-suite execution as non-negotiable before merging agent work.
+
 ## Key Claims
 - AI-generated code should be accompanied by automated tests and self-testing.
 - Unverified code should not be handed to review as if review were the final safety net.
@@ -23,7 +26,7 @@ The sources introduce software verification through the specific risk of AI-gene
 - Later bug discovery raises repair cost.
 - Agent-verifiable tests support a validation-fix loop that can improve iteration quality.
 - AI-first workflows need verification pipelines that continue through deployment, monitoring, rollback, and ticket closure.
-- Coding-agent workflows should make verification habitual and close to each small change, not deferred until a large generated diff is complete.
+- Coding-agent workflows should make verification habitual, close to each small change, and broad enough to cover regressions, protocol behavior, external dependencies, and claimed platform support.
 
 ## Evidence
 - Testing expectation: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] recommends automated tests and self-testing for AI-implemented code.
@@ -34,6 +37,7 @@ The sources introduce software verification through the specific risk of AI-gene
 - Pipeline verification: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes validation CI, environment deployment, development and production tests, release gates, and monitoring-backed rollback.
 - Operational verification: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes production-health summaries, error triage, regression reopening, and automatic ticket closure after metrics confirm a fix.
 - Local loop: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] recommends recording build/test/lint commands in project instructions, compiling after each small feature, running relevant tests, and using TDD or worktrees when helpful.
+- Layered test stack: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] reports 619 test functions, 24 integration suites, Dockerized TProxy E2E tests, MSRV checks, and CI jobs for lint, test, TProxy, MSRV, and macOS.
 
 ## Counterevidence & Qualifications
 No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, staged rollout, and production monitoring depends on product risk, language, architecture, available observability, build latency, and the cost of false positives or false negatives.
@@ -41,6 +45,7 @@ No source defines a universal testing strategy. The appropriate mix of unit test
 ## What Changed
 - Expanded software verification from pre-review tests and self-checks into a full AI-first delivery, observability, and rollback loop.
 - Added the Claude Code source's local compile-test-lint habit loop for agent-generated changes.
+- Added a large-port case where layered CI and E2E testing are the merge boundary for Agent Team output.
 
 ## Related Concepts
 - [[AICodingPractice]] - verification is required to make AI-assisted changes trustworthy.
@@ -50,3 +55,5 @@ No source defines a universal testing strategy. The appropriate mix of unit test
 - [[AIFirstEngineering]] - AI-first work depends on verification moving as quickly as implementation.
 - [[WorkHabits]] - repeatable validation loops are a disciplined work habit.
 - [[VibeCoding]] - fast agent iteration raises the cost of weak verification.
+- [[AgentTeam]] - QA role and CI state make verification a first-class agent-team responsibility.
+- [[SpecDrivenAgentDevelopment]] - test plans verify whether specs were implemented.

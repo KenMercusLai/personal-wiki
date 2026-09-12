@@ -4,15 +4,15 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-12
-as_of_overview_commit: c3bcdb8f9fc3320d6ed0ce7f10c413cbe946948e
-input_digest: 34e2b4fec59fad939f942f12203c8db1a54dcb93e301304d895b68e8b8763dfa
+as_of_overview_commit: 630b345f04b4846db5561e1fc023845ce94cb3b0
+input_digest: 04acd9f6a6d1b68b7efe9f15012222290aee96b32d85b7048888c5482cd40ff1
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer now connects three experience-centered practices: reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
+The culture-and-media layer now connects experience-centered practices across reading, games, and aesthetics: reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations form a hidden delivery layer for live-game experience; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
 
 ## Cross-source Findings
 
@@ -85,3 +85,14 @@ Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [
 **Qualifications:**
 
 - The examples are interpretive and source-scoped, especially the use of Van Gogh's shoes and Homer's wine-dark sea.
+
+### Game Operations Are Cultural Delivery Infrastructure
+
+[[GameServerLaunchExperience]] adds a production layer beneath games as media: [[ContinuousGameServerUpdates]] and [[GameServerCloudNativeDelivery]] shape whether live-game updates, testing, and maintenance are perceptible to players.
+
+**Evidence:** [[GameServerLaunchExperience]], [[ContinuousGameServerUpdates]], [[GameServerCloudNativeDelivery]], [[LowOpsGameServer]], [[XiaoshuojunFp]]
+
+**Qualifications:**
+
+- This is a secondary culture-and-media assignment; the source primarily concerns game-server engineering rather than player-facing criticism or game studies.
+- The current corpus has only one operations essay for this point.

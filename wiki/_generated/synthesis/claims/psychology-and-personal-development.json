@@ -25,6 +25,23 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "ux-research-contradictions-need-cognitive-mediation",
+      "qualifications": [
+        "This is a secondary topic assignment; the paragraph primarily belongs to UX research and evidence design rather than general personal development.",
+        "The Jamovi example is source-scoped and does not measure cognitive load directly."
+      ],
+      "statement": "[[UXResearchInformationDesign]] uses [[CognitiveLoadInUXResearch]] to explain why subjective ratings, expert findings, and observed behavior can diverge: in the [[Jamovi]] case, a hidden cognitive prerequisite makes user errors visible while subjective difficulty remains low.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "UXResearchInformationDesign",
+        "CognitiveLoadInUXResearch",
+        "MixedMethodUXResearch",
+        "HeuristicEvaluation",
+        "Jamovi"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "goals-can-protect-learn-drive",
       "qualifications": [
@@ -101,6 +118,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development topic centers on motivation, creator anxiety, and learning agency. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. A prompt-cache paragraph is present only as technical classifier spillover.",
+  "summary": "The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. Prompt-cache material is present only as technical classifier spillover.",
   "topic_id": "psychology-and-personal-development"
 }

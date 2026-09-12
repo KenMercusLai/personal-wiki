@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: e807f0768a3b5688e59157fd95cab4a4b78bbb0b
-input_digest: 24f0b401c4d88f9c5bd629430232284efb120549a2efe4c01fae1b1fd51773cf
+as_of_overview_commit: 78adea01d3d910884e079d454afb0a711aff58b7
+input_digest: b28b99aba7d174674cbd9871b26a1af2f4c37fa02eecfdd44f0d113a2f92d524
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic now adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, and knowledge valuation protect motivation against rote or coercive pressure. The topic now treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. The topic also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit, while mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
 
 ## Cross-source Findings
 
@@ -88,14 +88,15 @@ Work, education, and society sources frame improvement as designed loops: practi
 
 ### Learning Goals Protect Motivation
 
-[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity from rote or status-driven pressure.
+[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.
 
-**Evidence:** [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]]
+**Evidence:** [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[FreeLearning]], [[CoerciveLearning]], [[ReverseLearning]], [[SuperMemo]], [[CommonCurrencyModel]]
 
 **Qualifications:**
 
 - The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.
-- The claim is theoretical and source-scoped rather than experimentally validated.
+- The knowledge-valuation and anti-schooling claims are theoretical and source-scoped rather than experimentally validated.
+- Formal education is not identical to coercive learning; the risk mechanism is imposed low-value pressure overriding personal valuation.
 
 ### Abstraction Supports Learning In Unstable Domains
 

@@ -136,8 +136,26 @@
         "FounderLedOrganizationalEvolution",
         "WangNing"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "reliability-requires-sustained-business-investment",
+      "qualifications": [
+        "The reliability source is a practitioner essay rather than a quantified economic model.",
+        "It explicitly leaves the right staffing ratio and evaluation method dependent on business criticality, company stage, and competitive context."
+      ],
+      "statement": "[[SystemReliability]] depends on known technical practices such as [[RobustProgramming]], [[DependencyDegradation]], and [[ChangeSafety]], but [[ReliabilityInvestment]] is the harder business constraint because avoided failures are hard to credit and reliability work can become episodic without sustained priority.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "SystemReliability",
+        "RobustProgramming",
+        "DependencyDegradation",
+        "ChangeSafety",
+        "ReliabilityInvestment",
+        "Bixuan"
+      ]
     }
   ],
-  "summary": "The business-and-markets material combines independent creator economics, market-positioning strategy, and consumer-IP operations. One thread shows that bootstrapped SaaS, programmer freelancing, and small product portfolios depend on revenue stability, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, personal branding, and build-in-public distribution rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business.",
+  "summary": "The business-and-markets material combines independent creator economics, market-positioning strategy, consumer-IP operations, and the organizational side of software reliability. One thread shows that bootstrapped SaaS, programmer freelancing, and small product portfolios depend on revenue stability, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, personal branding, and build-in-public distribution rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business. The reliability source adds that operational excellence is also a business investment problem: known technical practices only become durable when staffing, process enforcement, and business priority keep them alive.",
   "topic_id": "business-and-markets"
 }

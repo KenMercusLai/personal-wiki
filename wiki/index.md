@@ -6,6 +6,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [稳定性，难的不是技术，而是](sources/wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi.md) - Bixuan's reliability essay arguing that robust code, dependency degradation, capacity protection, canarying, monitoring, rollback, and restore-first incident response only work when backed by sustained organizational investment.
+- [知识估值网络](sources/zhi-shi-gu-zhi-wang-luo.md) - Piotr Wozniak's learning-neuroscience essay arguing that personal goals, semantic networks, free learning, and neural valuation circuitry shape how knowledge becomes valuable or aversive.
+- [由「上线」产生的思考](sources/you-shang-xian-chan-sheng-de-si-kao.md) - Xiaoshuojun Fp's game-server operations essay arguing that launch experience becomes useful when scale, stability, SLA, low-ops design, cloud-native delivery, and continuous updates reshape engineering judgment.
+- [用研报告中的信息设计要素 | 螺莉莉的数据中心](sources/yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's UX research essay arguing that reports must design relationships among methods, evidence layers, contradictions, and conclusions instead of dumping raw observations.
+- [用 Claude Code 将三万行 Go 项目移植到 Rust：Agent Team 实践与 Harness 效率优化](sources/yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua.md) - A large-project Claude Code case study showing how Agent Team roles, specs, ADRs, memory, CLAUDE.md, milestone respawns, and layered CI made a 31,000-line Rust port reviewable.
 - [为什么你不该沉迷知识管理](sources/liang-mouyin-wei-shen-me-ni-bu-gai-chen-mi-zhi-shi-guan-li.md) - Liang Mouyin's critique of knowledge-management tool-chasing, arguing that PKM should be simplified around personal fit and tested by actual output.
 - [李沐 - 用随机梯度下降来优化人生](sources/li-mu-yong-sui-ji-ti-du-xia-jiang-lai-you-hua-ren-sheng.md) - A machine-learning metaphor essay using stochastic gradient descent to frame life strategy around large goals, small repeated steps, rest, exploration, humility about starting points, and restart after failure.
 - [木匠,锤子,钉子](sources/mu-jiang-chui-zi-ding-zi.md) - A practitioner essay by PsiACE on coding-agent minimal tools, RAG limits for live codebases, OpenClaw versus Bub agent paradigms, group-chat agents, and tape-and-anchor context management.
@@ -50,6 +55,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
 - [Li Mu](entities/LiMu.md) - Machine-learning educator-author who uses stochastic gradient descent as a metaphor for life optimization.
 - [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, and context-management models.
@@ -115,7 +121,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lex Fridman](entities/LexFridman.md) - Interviewer whose Durov podcast prompts the source essay's reflections on team focus and discipline.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
 - [Martin Heidegger](entities/MartinHeidegger.md) - Philosopher whose hammer example introduces tool transparency, breakdown, and object withdrawal in the source.
+- [Max Lv](entities/MaxLv.md) - Practitioner-author/site identity for the mihomo-rust Claude Code Agent Team case study.
 - [MemGPT](entities/MemGPT.md) - Hierarchical LLM memory system used as an example of active context and memory management.
+- [mihomo-rust](entities/MihomoRust.md) - Rust proxy-core port used as a concrete case for Agent Team, specs, divergence policy, and verification harnesses.
 - [Modal](entities/Modal.md) - Python-native execution platform discussed as reducing deployment friction without solving agent semantic recovery.
 - [Neon](entities/Neon.md) - Edge-compatible Postgres access option used as a replacement for Node's `pg` client in the migration article.
 - [Netflix Conductor](entities/NetflixConductor.md) - Workflow orchestrator discussed as useful above, but not instead of, agent-specific semantic primitives.
@@ -133,10 +141,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
 - [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
 - [Piotr Wozniak](entities/PiotrWozniak.md) - Learning theorist and author arguing that goals, curiosity, and knowledge valuation shape learning drive.
+- [SuperMemo](entities/SuperMemo.md) - Spaced-repetition learning software presented by Piotr Wozniak as the outcome of goal-directed self-learning.
 - [Richard Leider](entities/RichardLeider.md) - Career expert credited with the gifts, passion, and values formula for career reflection.
 - [Richard Feynman](entities/RichardFeynman.md) - Physicist cited as the origin figure for the Feynman Technique.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
 - [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM terminology, AI-era education, and statistical reasoning.
+- [Jamovi](entities/Jamovi.md) - Open-source statistics software used as RORIRI's UX research case for reconciling subjective ratings, behavior errors, PURE walkthroughs, and heuristic findings.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
@@ -158,8 +168,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chun Yin Uncle](entities/ChunYinUncle.md) - Author sharing an authorized independent-developer account of controlled AI coding practice.
 - [QuanXiao](entities/QuanXiao.md) - PM discussion community cited as the venue for senior-programmer discussion about AI coding granularity, tools, and model choice.
 - [Cursor](entities/Cursor.md) - AI coding tool mentioned in a team workflow that records implementation conventions for agent use.
+- [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [Continuous Game Server Updates](concepts/ContinuousGameServerUpdates.md) - Progressive online-game update model where old and new versions coexist while traffic gradually moves with minimal player-visible maintenance.
+- [Game Server Cloud-Native Delivery](concepts/GameServerCloudNativeDelivery.md) - Applying service units, standardized runtime environments, container delivery, and DevOps ownership to game-server architecture.
+- [Game Server Launch Experience](concepts/GameServerLaunchExperience.md) - Production learning from shipping and operating an online game at real user scale, converted into reusable engineering judgment.
+- [Game Server Scale and Stability](concepts/GameServerScaleAndStability.md) - Combined game-server challenge of correctness, resilience, capacity, recovery, and operability under real user scale.
+- [Game Server SLA](concepts/GameServerSLA.md) - Application-level game-server reliability target built above cloud-provider guarantees through governance, recovery, and observability.
+- [Low-Ops Game Server](concepts/LowOpsGameServer.md) - Game-server design approach that reduces operational cost, manual intervention, and player-visible maintenance through early workflow and framework design.
 - [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that read, write, edit, and bash can form a small but powerful coding-agent tool surface.
 - [Agentic RAG](concepts/AgenticRAG.md) - Retrieval pattern where an agent searches and reads current material iteratively instead of relying only on static indexes.
 - [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
@@ -178,6 +195,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alcohol Abstinence](concepts/AlcoholAbstinence.md) - Avoiding alcohol as a discipline practice for protecting cognitive clarity and agency.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
+- [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, and tools.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
@@ -198,10 +216,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
+- [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
+- [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
+- [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
+- [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
@@ -209,6 +231,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
+- [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
 - [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
 - [Environmental Field](concepts/EnvironmentalField.md) - Invisible social, material, emotional, and normative surroundings that shape behavior, character, creativity, and moral judgment.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
@@ -219,11 +242,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
 - [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
+- [Free Learning](concepts/FreeLearning.md) - Self-directed learning guided by curiosity, play, personal goals, and real-time knowledge valuation.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
 - [GPV Career Formula](concepts/GPVCareerFormula.md) - Career-reflection framework combining gifts, passion, and values to reason about fit.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
 - [Head-of-Line Blocking](concepts/HeadOfLineBlocking.md) - A blocking pattern where later HTTP work waits behind stalled earlier work or lost TCP data.
+- [Heuristic Evaluation](concepts/HeuristicEvaluation.md) - Expert UX evaluation method for inspecting interfaces against usability principles such as feedback, consistency, error recovery, and help.
 - [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
 - [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
@@ -247,6 +272,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
 - [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
+- [Mixed-Method UX Research](concepts/MixedMethodUXResearch.md) - Combining user behavior, subjective experience, expert inference, and interface-design evidence into one explanatory UX research structure.
 - [Metaphor Aesthetics](concepts/MetaphorAesthetics.md) - Account of metaphor as an aesthetic event completed through the reader's theatrical participation.
 - [Metacognitive Feedback](concepts/MetacognitiveFeedback.md) - Feedback that lets learners notice how their own thinking has changed through visible artifacts and reflection.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
@@ -271,18 +297,23 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Production Agent Infrastructure](concepts/ProductionAgentInfrastructure.md) - Infrastructure for long-running, high-permission AI agents with nondeterministic decisions and real side effects.
 - [QUIC](concepts/QUIC.md) - UDP-based transport protocol used by HTTP/3 for multiplexing, reliability, TLS integration, and connection identity.
 - [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - Recursive curve-simplification algorithm that retains points according to maximum deviation from segment chords.
+- [Reliability Investment](concepts/ReliabilityInvestment.md) - Sustained staffing, time, process enforcement, and business priority needed to make reliability practices real.
+- [Reverse Learning](concepts/ReverseLearning.md) - Negative learning in which aversive context associations suppress valuation and memory consolidation.
 - [Reading Note Workflow](concepts/ReadingNoteWorkflow.md) - Practical workflow for turning books, metadata, booklists, summaries, and opinions into linked notes for recall, discovery, and writing.
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - LLM pattern that retrieves external information and supplies it as answer context.
+- [Robust Programming](concepts/RobustProgramming.md) - Code-level reliability practice of enforcing boundaries, understanding APIs, and failing predictably under unexpected conditions.
 - [Remote Administration Exposure](concepts/RemoteAdministrationExposure.md) - Risk created when login, file-transfer, remote-desktop, command, or management-console services are reachable beyond their intended administration boundary.
 - [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
+- [Spec-Driven Agent Development](concepts/SpecDrivenAgentDevelopment.md) - Coding-agent workflow where specs, ADRs, test plans, and status documents act as formal interfaces.
 - [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
 - [Stochastic Gradient Descent](concepts/StochasticGradientDescent.md) - Optimization method used as a life-strategy metaphor for goals, feedback, small steps, exploration, rest, and restart.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
+- [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, dependencies, capacity, change, recovery, and organizational investment.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
 - [Taste as Problem Sense](concepts/TasteAsProblemSense.md) - Ability to notice a real, personally compelling question and care enough to investigate it deeply.
@@ -291,6 +322,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
 - [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
+- [UX Research Information Design](concepts/UXResearchInformationDesign.md) - Practice of designing UX research reports so observations, methods, contradictions, and conclusions form an explanatory structure.
+- [Upstream Divergence Policy](concepts/UpstreamDivergencePolicy.md) - Rule set for deciding when a rewrite should preserve, warn about, or reject upstream behavior.
 - [Unauthenticated Service Exposure](concepts/UnauthenticatedServiceExposure.md) - Risk created when a reachable service permits meaningful reads, writes, or control actions without valid authentication.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
 - [Variance Additivity](concepts/VarianceAdditivity.md) - Variance decomposition principle where component variances add cleanly only when covariance terms vanish.
