@@ -117,6 +117,24 @@
     },
     {
       "global_candidate": true,
+      "id": "language-modeling-links-probability-to-generation",
+      "qualifications": [
+        "The tutorial supplies conceptual scaffolding and screenshots, but its package names and APIs are 2019-era details rather than current implementation guidance."
+      ],
+      "statement": "[[LanguageModeling]] connects foundational [[NaturalLanguageProcessing]] tasks to generative AI by moving from [[NGramLanguageModel]] and [[StatisticalLanguageModel]] probability counts toward [[NeuralLanguageModel]] examples such as [[GPT2]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "LanguageModeling",
+        "NaturalLanguageProcessing",
+        "NGramLanguageModel",
+        "StatisticalLanguageModel",
+        "NeuralLanguageModel",
+        "GPT2",
+        "PyTorchTransformers"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "llm-apps-depend-on-context-action-boundaries",
       "qualifications": [
         "Several claims are practitioner or code-reading inferences; private cache-edit behavior and serving-side recomputation semantics remain uncertain."
@@ -240,6 +258,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, and transferable principles before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
   "topic_id": "ai-and-technology"
 }

@@ -588,6 +588,10 @@ Ran lint. See lint-report.md for details.
 
 Ingested Amy Wibowo's career retrospective. Added the source note plus entity pages for Amy Wibowo, MIT, Honda Research Institute, ASIMO, Igarashi Lab, Legoizer, and Bubblesort Zines; added concept pages for reinforcement learning, creative technical careers, workplace sexism in tech, and computer-science zines; updated Airbnb, career planning, independent creator, active learning, explanatory writing, creative presence, index, and overview. Inspected every referenced image path: small author illustrations were treated as contextual/decorative, while emotion-recognition robotics screenshots, garment-pattern interface images, Legoizer mural photos, knitting-machine images, and zine photos were incorporated as source evidence.
 
+## [2026-09-13] ingest | A Comprehensive Guide to Build your own Language Model in Python!
+
+Ingested the Analytics Vidhya language-model tutorial. Added source, concept, and entity pages for language modeling, NLP, statistical/N-gram/neural language models, natural-language generation, Sanad Rizvi, Analytics Vidhya, NLTK, Reuters Corpus, GPT-2, and PyTorch-Transformers; updated OpenAI, index, and overview. Inspected all embedded images: screenshots of probability outputs, Reuters-generated text, Declaration training sequences/encodings, GPT-2 completion, and conditional generation were incorporated as evidence; the neural-network illustration, Declaration image, GPT-2 visual, and author avatar were treated as contextual or decorative.
+
 ## [2026-09-13] ingest | 为什么，以及如何处理孤儿笔记
 
 Ingested the orphan-note PKM article. Added source, Orphan Notes concept, and Anki entity pages; updated Personal Knowledge Management, Zettelkasten Method, Note Tool Fit, Obsidian, index, and overview to capture orphan notes as a normal result of precise semantic linking, with handling paths through contextual expansion, standalone databases, spaced-repetition review, and patient dormancy. Inspected all four embedded images: Obsidian graph and note screenshots were incorporated as evidence for isolated nodes, listing workflows, standalone databases, and Anki cards.
@@ -639,6 +643,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

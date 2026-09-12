@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
+- [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
 - [9 Tricks to Appear Smart in Brainstorming Meetings](sources/9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium.md) - Sarah Cooper's corporate satire arguing that brainstorming meetings can reward performative helpfulness, jargon, meta-framing, executive name-dropping, and premature decisiveness over real ideas.
 - [9 Ways to Build Virality into your Product](sources/9-ways-to-build-virality-into-your-product-gabor-cselle-medium.md) - Gabor Cselle's product-growth taxonomy arguing that consumer virality should be built into core mechanics through rewards, vanity, collaboration, embeds, artifacts, messaging, signatures, and visible hardware.
@@ -95,6 +96,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Igarashi Lab](entities/IgarashiLab.md) - University of Tokyo lab where Wibowo led a mannequin-based clothing-pattern interface project.
 - [Legoizer](entities/Legoizer.md) - Creative web app that converts images into Lego mural plans.
 - [MIT](entities/MIT.md) - Engineering-school and Media Lab context for Wibowo's technical formation and emotion-recognition tooling.
+- [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
@@ -197,6 +199,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
 - [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
 - [ChatGPT](entities/ChatGPT.md) - AI assistant used in the source for cross-checking draft facts.
+- [GPT-2](entities/GPT2.md) - OpenAI pretrained transformer language model used in the tutorial for sentence completion and conditional text generation.
 - [Zhang Xiaoji](entities/ZhangXiaoji.md) - Slash programmer and independent creator behind Table To Figma, Fit Curve, and Glimmer Card.
 - [Table To Figma](entities/TableToFigma.md) - Figma plugin for applying structured data to designs and batch-generating visual assets.
 - [Fit Curve](entities/FitCurve.md) - Narrow Figma plugin for drawing smooth curves.
@@ -280,6 +283,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Netflix Conductor](entities/NetflixConductor.md) - Workflow orchestrator discussed as useful above, but not instead of, agent-specific semantic primitives.
 - [Next.js](entities/NextJS.md) - Full-stack web framework whose Vercel, EC2, Docker, and Cloudflare deployment paths are compared.
 - [Nicky Case](entities/NickyCase.md) - Creator whose explanation-design advice informs concrete-first tutorial writing and early reader testing.
+- [NLTK](entities/NLTK.md) - Python NLP toolkit used for Reuters corpus access and trigram construction in the language-model tutorial.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
@@ -292,12 +296,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
 - [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
 - [Piotr Wozniak](entities/PiotrWozniak.md) - Learning theorist and author arguing that goals, curiosity, and knowledge valuation shape learning drive.
+- [PyTorch-Transformers](entities/PyTorchTransformers.md) - 2019-era Python library used in the tutorial to load GPT-2 tokenizer/model components.
 - [SuperMemo](entities/SuperMemo.md) - Spaced-repetition learning software presented by Piotr Wozniak as the outcome of goal-directed self-learning.
 - [Richard Leider](entities/RichardLeider.md) - Career expert credited with the gifts, passion, and values formula for career reflection.
 - [Richard Feynman](entities/RichardFeynman.md) - Physicist cited as the origin figure for the Feynman Technique.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
 - [Readlang](entities/Readlang.md) - Language-learning web app used as a one-person bootstrapped startup case.
+- [Reuters Corpus](entities/ReutersCorpus.md) - News-text corpus used as the training data for the tutorial's trigram language model.
 - [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM terminology, AI-era education, and statistical reasoning.
+- [Sanad Rizvi](entities/SanadRizvi.md) - Analytics Vidhya author explaining language modeling through N-grams, neural models, and GPT-2.
 - [Jamovi](entities/Jamovi.md) - Open-source statistics software used as RORIRI's UX research case for reconciling subjective ratings, behavior errors, PURE walkthroughs, and heuristic findings.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
@@ -504,6 +511,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Knowledge Output](concepts/KnowledgeOutput.md) - Turning intake and research into notes, articles, explanations, or courses that deepen learning and test knowledge systems.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
+- [Language Modeling](concepts/LanguageModeling.md) - Estimating probabilities over word or character sequences so systems can predict, score, or generate language.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
 - [LVS Forwarding Modes](concepts/LVSForwardingModes.md) - Packet-forwarding strategies such as DR, NAT, full NAT, ENAT, and IP TUN in LVS-like systems.
 - [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
@@ -516,7 +524,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Metaphor Aesthetics](concepts/MetaphorAesthetics.md) - Account of metaphor as an aesthetic event completed through the reader's theatrical participation.
 - [Metacognitive Feedback](concepts/MetacognitiveFeedback.md) - Feedback that lets learners notice how their own thinking has changed through visible artifacts and reflection.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
+- [Natural Language Generation](concepts/NaturalLanguageGeneration.md) - Producing text continuations or passages by repeatedly predicting tokens or characters from language-model context.
+- [Natural Language Processing](concepts/NaturalLanguageProcessing.md) - Computational methods for analyzing, transforming, recognizing, retrieving, or generating human language.
 - [Network Load Balancing](concepts/NetworkLoadBalancing.md) - Packet-level distribution of client traffic across backend servers while preserving routing, connection identity, performance, and availability.
+- [Neural Language Model](concepts/NeuralLanguageModel.md) - Language model using neural representations and layers to predict or generate language.
+- [N-Gram Language Model](concepts/NGramLanguageModel.md) - Statistical model that predicts a token from a fixed-size local history of previous tokens.
 - [Native systemd in WSL](concepts/NativeSystemdInWSL.md) - WSL configuration pattern for enabling built-in systemd support through `/etc/wsl.conf` instead of the older genie workaround.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Note Granularity](concepts/NoteGranularity.md) - Choosing whether ideas live as small notes, large structured notes, or hybrid heading/block-level units.
@@ -559,6 +571,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Staging Environment](concepts/StagingEnvironment.md) - Pre-production environment for verifying software under production-like architecture, data, monitoring, traffic, internet exposure, and failure conditions.
 - [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, architecture, dependencies, capacity, staging realism, change, recovery, and organizational investment.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
+- [Statistical Language Model](concepts/StatisticalLanguageModel.md) - Count-based or rule-based language-modeling approach using techniques such as N-grams, HMMs, and linguistic rules.
 - [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
 - [Taste as Problem Sense](concepts/TasteAsProblemSense.md) - Ability to notice a real, personally compelling question and care enough to investigate it deeply.
 - [Team Focus](concepts/TeamFocus.md) - Shared collaborator capacity to sustain competent attention without avoidable coordination, morale, or distraction costs.
