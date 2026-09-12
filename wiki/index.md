@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [9 Boxes](sources/9-boxes.md) - Jonah Peretti's BuzzFeed strategy memo arguing for fairer platform revenue, diversified digital media monetization, a portfolio of consumer-service brands, and a nine-box brand-by-revenue operating model.
 - [8 Lessons From One of Silicon Valley's Top VCs | Drift](sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md) - Drift interview summary with Sequoia's Pat Grady arguing for durable problem-solving, category-defining ambition, narrow entry into big markets, capital discipline, and culture/systems after the 150-person scaling threshold.
 - [8 PR Strategies for Bootstrapped Startups](sources/8-pr-strategies-for-bootstrapped-startups-the-startup-medium.md) - Josiah Humphrey's startup PR article arguing that bootstrapped founders can win useful publicity through specific goals, concise pitches, targeted journalist outreach, guest posts, and reverse pitching.
 - [7 Ways to Uplevel Your Code Review Skills](sources/7-best-practices-for-doing-code-reviews.md) - Asana engineering article arguing that code reviews work best as team learning, execution-backed verification, prompt feedback, and non-blocking approval unless a bug is proven.
@@ -113,6 +114,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gmail](entities/Gmail.md) - Google email service used as an invitation-scarcity growth example.
 - [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
 - [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
+- [Jonah Peretti](entities/JonahPeretti.md) - BuzzFeed executive author of the nine-box strategy memo on platform revenue, diversified monetization, and media-brand portfolios.
+- [Tasty](entities/Tasty.md) - BuzzFeed food media brand used as the source's flagship example of a service-oriented, multi-revenue media brand.
 - [CS183C](entities/CS183C.md) - Stanford technology-enabled blitzscaling course context for the scaling source's operator lessons.
 - [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor and scaling theorist used to define blitzscaling and stage-specific startup advice.
 - [Eric Schmidt](entities/EricSchmidt.md) - Google operator cited for scaling timing, recruiting, small-team product creation, and CEO path-clearing.
@@ -386,6 +389,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
 - [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
+- [Digital Media Monetization](concepts/DigitalMediaMonetization.md) - Turning digital media audience attention, brands, platform distribution, commerce, and studio work into diversified revenue.
 - [Creator Positioning](concepts/CreatorPositioning.md) - Choosing a creator direction by defining audience, value, credibility, and a defensible point of view.
 - [Idea Management](concepts/IdeaManagement.md) - Capturing, storing, reviewing, and cultivating ideas so passing inspiration can become future work.
 - [Accessibility Tree](concepts/AccessibilityTree.md) - Semantic UI tree used by assistive technology and agentic Computer Use workflows.
@@ -550,6 +554,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, and adjacent devices away from the PC-era center.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
 - [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users find services when search, app stores, operating systems, notifications, messaging, and traffic holders shape attention.
+- [Media Brand Portfolio](concepts/MediaBrandPortfolio.md) - Operating multiple distinct audience-facing media brands with different consumer uses and revenue surfaces.
+- [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.
+- [Platform Publisher Revenue](concepts/PlatformPublisherRevenue.md) - Revenue-share and fair-payment problem between professional publishers and large technology platforms.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
 - [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, and customer-acquisition channel.
 - [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.

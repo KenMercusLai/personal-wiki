@@ -139,8 +139,25 @@
         "ServerSideGameLogic",
         "LeanCloud"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "media-brand-portfolios-shape-shared-culture-through-platform-economics",
+      "qualifications": [
+        "The claim is source-scoped to BuzzFeed's internal memo and does not prove the broader social impact of BuzzFeed's strategy or later outcomes.",
+        "The memo argues from a publisher perspective and should not be treated as a neutral account of platform obligations."
+      ],
+      "statement": "[[MediaBrandPortfolio]] in the BuzzFeed memo connects media business strategy to public culture: [[Tasty]] is framed as a service-oriented brand that can create shared nonpolitical touchpoints, while [[PlatformPublisherRevenue]] and [[DigitalMediaMonetization]] are presented as conditions for keeping quality journalism and entertainment broadly accessible.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MediaBrandPortfolio",
+        "Tasty",
+        "PlatformPublisherRevenue",
+        "DigitalMediaMonetization",
+        "Buzzfeed"
+      ]
     }
   ],
-  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations and server-side game logic form a hidden delivery layer for live-game experience; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations and server-side game logic form a hidden delivery layer for live-game experience; BuzzFeed's media-brand portfolio frames Tasty-style service brands and platform revenue as conditions for shared culture and broadly accessible journalism or entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }
