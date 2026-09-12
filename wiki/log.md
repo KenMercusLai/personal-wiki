@@ -580,6 +580,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 为什么，以及如何处理孤儿笔记
+
+Ingested the orphan-note PKM article. Added source, Orphan Notes concept, and Anki entity pages; updated Personal Knowledge Management, Zettelkasten Method, Note Tool Fit, Obsidian, index, and overview to capture orphan notes as a normal result of precise semantic linking, with handling paths through contextual expansion, standalone databases, spaced-repetition review, and patient dormancy. Inspected all four embedded images: Obsidian graph and note screenshots were incorporated as evidence for isolated nodes, listing workflows, standalone databases, and Anki cards.
+
 ## [2026-09-13] ingest | 9 Tricks to Appear Smart in Brainstorming Meetings
 
 Ingested Sarah Cooper's brainstorming-meeting satire. Added source, Sarah Cooper entity, and concept pages for corporate satire and performative meeting behavior; updated index and overview to capture meeting-status performance through helpful exits, meaningless sketches, pseudo-depth, jargon, CEO references, and premature decisiveness. Inspected the embedded article images: duplicate thumbnails were treated as repeats, the book-cover/promo image was contextual, and the line illustrations were incorporated as evidence for the meeting-performance tropes.
@@ -627,6 +631,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

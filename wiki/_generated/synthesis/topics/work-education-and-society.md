@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-13
-as_of_overview_commit: f3a2df9f6ce24c9a0c3d2e1ca0a4d70485385464
-input_digest: d170d140d3367d8db35354a8c60c3f96d1955368229d45764a61f479bca32bf6
+as_of_overview_commit: 301ece1cc6f2c8c2fd671c48b14ced74c489d186
+input_digest: 7698c33922cdfecb73f1f0bc770e701607c1374b2ca84d6c3d7b55faf0f6e544
 ---
 
 # Work, Education, and Society
@@ -62,9 +62,9 @@ Work, education, and society sources frame improvement as designed loops: practi
 
 ### Learning Deepens Through Output And Situated Practice
 
-[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
+[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[OrphanNotes]] add maintenance practices for earning links, containing bounded research, using [[Anki]] for random review, and allowing dormancy.
 
-**Evidence:** [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[DerekLieu]], [[NickyCase]], [[PersonalKnowledgeManagement]], [[WorkplaceLearning]], [[CodeReviewPractice]], [[JuniorEngineerLearning]], [[Plantegg]], [[NoteToolFit]], [[Obsidian]]
+**Evidence:** [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[DerekLieu]], [[NickyCase]], [[PersonalKnowledgeManagement]], [[WorkplaceLearning]], [[CodeReviewPractice]], [[JuniorEngineerLearning]], [[Plantegg]], [[NoteToolFit]], [[Obsidian]], [[OrphanNotes]], [[ZettelkastenMethod]], [[Anki]]
 
 **Qualifications:**
 
@@ -76,6 +76,7 @@ Work, education, and society sources frame improvement as designed loops: practi
 - Book-centered systematic learning is strongest for durable domains and may need to be paired with faster online sources in rapidly changing fields.
 - Creator feedback can be noisy or emotionally destabilizing when it is mistaken for a verdict rather than learning signal.
 - Using output as a PKM test is a practical guardrail, but complex research, collaboration, or archival needs may justify heavier systems.
+- Orphan-note handling assumes inbound links matter to a knowledge system; search-first, folder-first, or project-database workflows may experience isolation differently.
 
 ### Ai Era Education Extends Computational Thinking
 

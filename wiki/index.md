@@ -60,6 +60,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [你大概不会想用 LLM 做数据分析](sources/ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi.md) - A cautionary data-analysis essay arguing that LLMs can generate polished but invalid statistical work, especially around p-hacking, unless users understand and verify the method.
 - [从海德格尔的锤子到隐喻的戏剧性](sources/cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing.md) - A philosophical aesthetics essay using Heidegger's broken hammer and Harman's object-oriented ontology to explain art as object-quality tension and metaphor as readerly performance.
 - [卡片笔记实操篇：推理小说与读书笔记（以 Obsidian 为例）](sources/ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li.md) - A practical card-note workflow using mystery-fiction reading notes in Obsidian, built from entry notes, outline booklists, opinion notes, backlinks, local graphs, and lightweight review habits.
+- [为什么，以及如何处理孤儿笔记](sources/wei-shen-me-yi-ji-ru-he-chu-li-gu-er-bi-ji.md) - A PKM essay arguing that orphan notes are normal in precise link-centered systems and can be handled through contextual reading, standalone research clusters, spaced-repetition review, or patient dormancy.
 - [众口难调的笔记，各取所需的工具](sources/zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju.md) - A PKM essay arguing that big notes and small notes serve different knowledge goals and require different note-tool affordances.
 - [为什么现有的 Agent Infra 无法支撑生产级应用？](sources/wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong.md) - An agent-infrastructure essay arguing that production agents need effect logs, capability gateways, fork recovery, resumability, and semantic isolation because existing sandboxes and workflow engines operate at the wrong abstraction layer.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
@@ -85,6 +86,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
 - [Google Docs](entities/GoogleDocs.md) - Collaboration-product example where sharing documents creates an invitation loop.
@@ -503,6 +505,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Note Granularity](concepts/NoteGranularity.md) - Choosing whether ideas live as small notes, large structured notes, or hybrid heading/block-level units.
 - [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods, software features, domain needs, and personal friction.
+- [Orphan Notes](concepts/OrphanNotes.md) - Unreferenced notes in a knowledge base and the maintenance choices around contextualizing, reviewing, separating, or deferring them.
 - [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.

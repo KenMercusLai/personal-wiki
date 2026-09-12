@@ -20,6 +20,7 @@
       "f83fb85c15dca48e465666611d7cf898b8874cbf4f0bff042f189885832f81cc",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
+      "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "e3fcd2209563ed4b4a13479a52459407e8033b02fcb4badc8f3f45aa0003e4e4",
@@ -80,10 +81,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 78
+    "paragraph_count": 79
   },
-  "overview_commit": "f3a2df9f6ce24c9a0c3d2e1ca0a4d70485385464",
-  "overview_digest": "b43838d93af7a8456d0aa80bcc592680ea7394ddf47935cef2b5619b046f1be0",
+  "overview_commit": "301ece1cc6f2c8c2fd671c48b14ced74c489d186",
+  "overview_digest": "966b8c19a4e1f2a5f15512946c61af58b1ccf78befea34cc06c68fdfeadc55db",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -420,6 +421,22 @@
         "NoteToolFit",
         "Obsidian",
         "ReadingNoteWorkflow",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest orphan-note source adds a maintenance layer to that card-note cluster. [[OrphanNotes]] are defined by the absence of incoming links, not merely by whether a note points outward, so they expose whether a linked note system is actually reusing its fragments. The article strengthens [[ZettelkastenMethod]] by insisting that semantic links should be earned rather than fabricated for graph aesthetics: isolated notes can need more adjacent reading, comments, or peer discussion before they deserve links. It also broadens [[NoteToolFit]] beyond graph features: [[Obsidian]] can reveal isolated nodes and host standalone databases for bounded research, while [[Anki]] and other spaced-repetition tools can keep excerpts active until random review produces useful associations. The main qualification is patience: some notes should remain dormant because a person's knowledge, work, or life context is not yet ready to connect them.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Anki",
+        "NoteToolFit",
+        "Obsidian",
+        "OrphanNotes",
         "ZettelkastenMethod"
       ]
     },
