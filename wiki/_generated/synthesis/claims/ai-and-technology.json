@@ -58,16 +58,20 @@
       "id": "statistical-model-thinking-needs-covariance-and-orthogonality",
       "qualifications": [
         "The variance source uses pedagogical simulations and conceptual explanation rather than a full causal-inference or mathematical statistics treatment.",
-        "The LLM caution is source-scoped: it flags a common conceptual failure mode without benchmarking models systematically."
+        "The regression-error source is likewise pedagogical and does not cover formal tests, robust standard errors, or causal identification remedies.",
+        "The LLM caution is source-scoped: it flags common conceptual failure modes without benchmarking models systematically."
       ],
-      "statement": "[[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], and [[Orthogonality]]: formulas for variation only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, and shared variation.",
+      "statement": "[[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.",
       "status": "supported",
       "supporting_wikilinks": [
         "StatisticalModelThinking",
         "DataGeneratingProcess",
         "VarianceAdditivity",
         "Covariance",
-        "Orthogonality"
+        "Orthogonality",
+        "StatisticalError",
+        "OmittedVariableBias",
+        "Heteroskedasticity"
       ]
     },
     {
@@ -284,7 +288,7 @@
       "id": "llm-data-analysis-needs-methodological-control",
       "qualifications": [
         "The evidence combines a cited experiment and a personal analysis case rather than a complete benchmark of LLM statistical reliability.",
-        "The new variance source reinforces the same caution from a different angle: plausible explanations may still confuse independence, covariance, and orthogonality."
+        "The new statistics sources reinforce the same caution from different angles: plausible explanations may still confuse independence, covariance, orthogonality, residuals, omitted-variable bias, and heteroskedasticity."
       ],
       "statement": "[[LLMDataAnalysis]] is useful for transformation, visualization, clustering support, and [[CodebookDevelopment]], but statistical inference needs human methodological control because prompt framing can turn models toward [[PHacking]]-like specification search and polished but invalid analysis.",
       "status": "qualified",
@@ -315,6 +319,6 @@
       ]
     }
   ],
-  "summary": "The current AI and technology material spans AI-supported knowledge work, education, statistics, application architecture, inference/network infrastructure, coding agents, prompt caching, production-agent safety, and LLM-assisted data analysis. A recurring pattern is that AI value depends less on tool novelty than on the surrounding model of work: humans need problem definition, statistical judgment, authorship, verification, context management, retrieval design, serving-aware infrastructure, and capability boundaries that keep fast automation accountable.",
+  "summary": "The current AI and technology material spans AI-supported knowledge work, education, statistics, application architecture, inference/network infrastructure, coding agents, prompt caching, production-agent safety, and LLM-assisted data analysis. A recurring pattern is that AI value depends less on tool novelty than on the surrounding model of work: humans need problem definition, statistical judgment about data-generating processes and error assumptions, authorship, verification, context management, retrieval design, serving-aware infrastructure, and capability boundaries that keep fast automation accountable.",
   "topic_id": "ai-and-technology"
 }

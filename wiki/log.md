@@ -116,6 +116,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 理解误差 | 螺莉莉的数据中心
+
+Added source note and synthesis pages for statistical error, omitted-variable bias, and heteroskedasticity. Updated RORIRI, statistical model thinking, and data-generating process pages to include regression error, residual proxy limits, zero-mean assumptions, and unequal error variance.
+
 ## [2026-09-12] ingest | 理解方差的可加性 | 螺莉莉的数据中心
 
 Added source note and statistics concept pages for data generating process, variance additivity, covariance, and orthogonality. Updated RORIRI and statistical model thinking to reflect the article's main distinction: variance components add cleanly only under orthogonality, while independently generated finite samples can still show nonzero sample covariance or correlation.
@@ -315,6 +319,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 是的，我用AI写文章，咋滴
 
 Added source note for Feng Ruohang's AI-assisted writing workflow, created pages for AI-Assisted Writing, Feng Ruohang, Gemini, and ChatGPT, and updated related writing/output/Claude synthesis pages.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

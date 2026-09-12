@@ -32,6 +32,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
 - [教育的下一步 · 其二 | 螺莉莉的数据中心](sources/jiao-yu-de-xia-yi-bu-qi-er-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's AI-era education essay arguing for expanded computational thinking through statistical model judgment, abstraction/programming, academic writing, PBL, metacognitive feedback, and taste as problem sense.
 - [理解方差的可加性 | 螺莉莉的数据中心](sources/li-jie-fang-cha-de-ke-jia-xing-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's statistics explainer showing that variance additivity requires covariance and orthogonality, and warning against confusing independent generation with zero sample correlation.
+- [理解误差 | 螺莉莉的数据中心](sources/li-jie-wu-cha-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's regression-error explainer distinguishing sampling bias, model specification error, residuals, omitted-variable bias, and heteroskedasticity.
 - [一份关于 AI 编程的简明行为指南 | Piglei](sources/yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei.md) - A software-engineering guide arguing that AI coding agents should be used through accountable collaboration, small reviewable changes, verification, stable libraries, and learning-protective habits for junior engineers.
 - [一个独立创造者的五年](sources/yi-ge-du-li-chuang-zao-zhe-de-wu-nian.md) - A five-year Indie Hacker retrospective on moving from a domestic content product to overseas subscription SaaS, using modular infrastructure, solo-company discipline, customer-led product work, and practical marketing.
 - [我把网站迁移到 cf，省了几万块](sources/wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai.md) - A practical migration report showing how a Next.js project moved from Vercel to AWS and Cloudflare to reduce hosting cost, with notes on PM2, Docker, Cloudflare Pages, and edge-runtime compatibility.
@@ -223,6 +224,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
 - [Head-of-Line Blocking](concepts/HeadOfLineBlocking.md) - A blocking pattern where later HTTP work waits behind stalled earlier work or lost TCP data.
+- [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
 - [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
@@ -255,6 +257,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
+- [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
@@ -280,6 +283,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Stochastic Gradient Descent](concepts/StochasticGradientDescent.md) - Optimization method used as a life-strategy metaphor for goals, feedback, small steps, exploration, rest, and restart.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
+- [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
 - [Taste as Problem Sense](concepts/TasteAsProblemSense.md) - Ability to notice a real, personally compelling question and care enough to investigate it deeply.
 - [Team Focus](concepts/TeamFocus.md) - Shared collaborator capacity to sustain competent attention without avoidable coordination, morale, or distraction costs.

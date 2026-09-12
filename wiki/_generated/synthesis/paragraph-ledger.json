@@ -13,6 +13,7 @@
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
       "26fad3154a558d143d54869744a2d68780495ffc0876f779fee905778c4caa3e",
+      "f83fb85c15dca48e465666611d7cf898b8874cbf4f0bff042f189885832f81cc",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
@@ -46,10 +47,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 44
+    "paragraph_count": 45
   },
-  "overview_commit": "2846f6dbd484b27fdc7d383914feb48b15a74dd2",
-  "overview_digest": "72804f3dd991aa3950f29146a52310bb0ed56b810e04338e8e7cec242c50974a",
+  "overview_commit": "9f81d30d4d70b8576e275b567785ed158ae6f38b",
+  "overview_digest": "e25dafce047ca87fb473c78991ec781bc14d501cff6a0151076b05d86aaf1792",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -262,6 +263,20 @@
         "DataGeneratingProcess",
         "Orthogonality",
         "VarianceAdditivity"
+      ]
+    },
+    {
+      "id": "f83fb85c15dca48e465666611d7cf898b8874cbf4f0bff042f189885832f81cc",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest regression-error source adds the assumption layer behind that same statistical model thinking. [[StatisticalError]] is not treated as a visible leftover but as the unobserved gap between the true target or true model and the finite, simplified model an analyst can actually fit. Residuals are only proxies for that error, and the zero-mean assumption has to be protected through sampling, measurement, and model design rather than proven directly from the data. [[OmittedVariableBias]] shows the dangerous slope case: if an omitted cause affects the outcome and correlates with the predictor, the coefficient becomes a mixed effect. [[Heteroskedasticity]] adds a different warning: coefficient direction may remain usable while standard errors and uncertainty judgments become unreliable.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "Heteroskedasticity",
+        "OmittedVariableBias",
+        "StatisticalError"
       ]
     },
     {

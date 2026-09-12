@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 2846f6dbd484b27fdc7d383914feb48b15a74dd2
-input_digest: bd51497a3fa37d899b4b8d17ea68932bf504c58fb11a727d2f7817c3f7554bee
+as_of_overview_commit: 9f81d30d4d70b8576e275b567785ed158ae6f38b
+input_digest: 5f3273bd5829d0159786f9cf43a42a8d45fb8c289021d64de22bcfe76c8ddcf6
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current AI and technology material spans AI-supported knowledge work, education, statistics, application architecture, inference/network infrastructure, coding agents, prompt caching, production-agent safety, and LLM-assisted data analysis. A recurring pattern is that AI value depends less on tool novelty than on the surrounding model of work: humans need problem definition, statistical judgment, authorship, verification, context management, retrieval design, serving-aware infrastructure, and capability boundaries that keep fast automation accountable.
+The current AI and technology material spans AI-supported knowledge work, education, statistics, application architecture, inference/network infrastructure, coding agents, prompt caching, production-agent safety, and LLM-assisted data analysis. A recurring pattern is that AI value depends less on tool novelty than on the surrounding model of work: humans need problem definition, statistical judgment about data-generating processes and error assumptions, authorship, verification, context management, retrieval design, serving-aware infrastructure, and capability boundaries that keep fast automation accountable.
 
 ## Cross-source Findings
 
@@ -50,14 +50,15 @@ The current AI and technology material spans AI-supported knowledge work, educat
 
 ### Statistical Model Thinking Needs Covariance And Orthogonality
 
-[[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], and [[Orthogonality]]: formulas for variation only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, and shared variation.
+[[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
 
-**Evidence:** [[StatisticalModelThinking]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]]
+**Evidence:** [[StatisticalModelThinking]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], [[StatisticalError]], [[OmittedVariableBias]], [[Heteroskedasticity]]
 
 **Qualifications:**
 
 - The variance source uses pedagogical simulations and conceptual explanation rather than a full causal-inference or mathematical statistics treatment.
-- The LLM caution is source-scoped: it flags a common conceptual failure mode without benchmarking models systematically.
+- The regression-error source is likewise pedagogical and does not cover formal tests, robust standard errors, or causal identification remedies.
+- The LLM caution is source-scoped: it flags common conceptual failure modes without benchmarking models systematically.
 
 ### Note Systems Need Granularity Tool Fit
 
@@ -197,7 +198,7 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 **Qualifications:**
 
 - The evidence combines a cited experiment and a personal analysis case rather than a complete benchmark of LLM statistical reliability.
-- The new variance source reinforces the same caution from a different angle: plausible explanations may still confuse independence, covariance, and orthogonality.
+- The new statistics sources reinforce the same caution from different angles: plausible explanations may still confuse independence, covariance, orthogonality, residuals, omitted-variable bias, and heteroskedasticity.
 
 ### Big Data Automation Needs Behavioral Signal And Closed Loop Action
 
