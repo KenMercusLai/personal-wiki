@@ -4,6 +4,7 @@ type: concept
 tags: [saas, marketing, entrepreneurship]
 sources:
   - yi-ge-du-li-chuang-zao-zhe-de-wu-nian
+  - bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[SaaSMarketing]] is the set of activities that help potential users discover, trust, try, and continue paying for a software-as-a-service product.
 
 ## Current Synthesis
-The source treats SaaS marketing as practical, repeated distribution work rather than a mysterious growth hack. For a technical founder, building the product is not enough; the product also needs initial social proof, direct outreach, discoverable content, paid acquisition experiments, affiliate incentives, and support experiences strong enough to produce word of mouth. The author's marketing stance is modest but persistent: many tactics are obvious, yet creators often fail to try them seriously or long enough.
+The sources treat SaaS marketing as practical, repeated distribution work rather than a mysterious growth hack. For a technical founder, building the product is not enough; the product also needs social proof, outreach, discoverable content, paid acquisition experiments, affiliate incentives, support experiences, and in Zhang Xuan's case a [[PersonalBranding]] channel that can send traffic to products. The shared lesson is that marketing is learned by doing, not by reading advice alone.
 
 ## Key Claims
 - Technical founders need selling skill in addition to building skill.
@@ -21,6 +22,7 @@ The source treats SaaS marketing as practical, repeated distribution work rather
 - Content marketing can create long-term organic traffic when matched to product keywords.
 - Paid ads can be an effective short-term acquisition channel when tested across platforms.
 - Affiliate incentives and strong support can turn existing users into distribution.
+- Personal audience can function as owned or semi-owned product traffic for a small creator.
 
 ## Evidence
 - Build and sell: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] cites the need to learn both building and selling.
@@ -29,15 +31,17 @@ The source treats SaaS marketing as practical, repeated distribution work rather
 - Content: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] presents articles and videos as marketing assets for organic traffic.
 - Ads: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] reports trying several ad platforms and finding Google Ads most effective for the product.
 - Referral and support: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] describes a 25% affiliate program and support-driven word of mouth.
+- Personal brand traffic: [[bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua]] says [[ZhangXuan]] used platform audiences as traffic sources and learned cold-start promotion through [[EasyCV]].
 
 ## Counterevidence & Qualifications
-The source does not provide conversion metrics or controlled comparisons across channels. Its tactics are grounded in one product context, so channel effectiveness may vary by market, price, audience, and product category.
+The sources do not provide conversion metrics or controlled comparisons across channels. Their tactics are grounded in specific product and creator contexts, so channel effectiveness may vary by market, price, audience, geography, platform algorithms, and product category.
 
 ## What Changed
-- Created the initial concept page for SaaS marketing as distribution practice for independent software products.
+- Added personal-brand traffic and hands-on cold-start learning as marketing evidence from a programmer product experiment.
 
 ## Related Concepts
 - [[BootstrappedSaaS]] - SaaS marketing turns the product into recurring revenue.
 - [[IndependentCreator]] - independent creators often must perform marketing themselves.
 - [[CustomerLedProductDevelopment]] - customer support and customer conversations can feed both product and word of mouth.
 - [[BusinessAsArt]] - the source treats marketing as a space for creativity rather than template following.
+- [[PersonalBranding]] - creator audiences can become product traffic channels.

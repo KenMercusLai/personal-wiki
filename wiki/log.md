@@ -88,6 +88,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking
+
+Added source note and synthesis pages for programmer freelancing and personal branding. Added entity profiles for Zhang Xuan, EasyCV, and Imooc, and updated independent creator, career planning, knowledge output, SaaS marketing, personal productivity, and overview synthesis. Key claims: freelancing needs financial runway and stable baseline income; course platforms can fund independent work; product experiments teach technical and marketing skills before they become meaningful revenue; personal branding can become a distribution channel; solo work needs routines and a stop-loss option.
+
 ## [2026-09-12] ingest | 一口气把所有让你目眩的 LLM 名词全都过一遍
 
 Added source note and synthesis pages for LLM context management, LLM tooling Skills, Model Context Protocol, agent memory, dynamic context compression, Computer Use, and Accessibility Tree. Added entity profiles for RORIRI, MemGPT, Letta, Anthropic, and NotebookLM. Key claims: many LLM buzzwords are different ways to manage context quality, retrieve external information, constrain action spaces, or expose external computer actions; dynamic compression must also account for prompt-cache stability.
@@ -99,6 +103,10 @@ Added source note and synthesis pages for AI coding practice, human code respons
 ## [2026-09-12] ingest | 一个独立创造者的五年
 
 Added source note and synthesis pages for independent creators, bootstrapped SaaS, micro-companies, SaaS marketing, customer-led product development, and business as art. Added entity profiles for Hawstein, AlgoCasts, Stripe, and Derek Sivers. Key claims: solo SaaS can combine global distribution, modular infrastructure, recurring revenue, practical marketing, and close customer support, but the model is shaped by autonomy preferences and real operational constraints.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

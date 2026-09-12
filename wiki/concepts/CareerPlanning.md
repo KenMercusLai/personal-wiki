@@ -4,6 +4,7 @@ type: concept
 tags: [career, personal-development, work]
 sources:
   - tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya
+  - bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[CareerPlanning]] is the practice of choosing and revising a longer-term work direction by considering strengths, interests, values, constraints, and the sequence of steps needed to reach better-fit work.
 
 ## Current Synthesis
-The source frames career planning as broader than picking a job title. A career is treated as a path through a field or kind of work, which means a person can use the same gifts and interests in multiple forms. The practical judgment is not simply whether a hobby or passion can become a job, but whether there is a career route that preserves the valued part of the activity while avoiding conditions that would make the work undesirable.
+The sources frame career planning as broader than picking a job title. A career is treated as a path through a field or kind of work, which means a person can use the same gifts and interests in multiple forms. The freelancer source adds a more tactical version of that idea: a programmer can treat leaving employment as a reversible experiment, but only after considering money, stable income, isolation, routines, and a fallback.
 
 ## Key Claims
 - Career planning should account for gifts, passion, and values together.
@@ -20,20 +21,23 @@ The source frames career planning as broader than picking a job title. A career 
 - Hobbies may need translation into adjacent roles before they become sustainable work.
 - Better-fit career choices can come from redesigning the work context rather than abandoning an interest.
 - Interim roles can be necessary steps toward the intended career direction.
+- Alternative career paths should be tested against financial constraints and a time-boxed exit option.
 
 ## Evidence
 - Fit dimensions: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] presents gifts, passion, and values as the elements behind career reflection.
 - Career as path: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] distinguishes a career from a specific job and describes it as a route forward.
 - Adjacent roles: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] uses cooking and baking examples to show how someone might shift from direct service to supplying cafes, teaching, or writing.
 - Interim steps: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] notes that desired career outcomes may require earlier roles before the preferred work becomes available.
+- Reversible experiment: [[bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua]] presents [[ProgrammerFreelancing]] as a gap-year-like trial that should preserve a route back to employment if it fails.
 
 ## Counterevidence & Qualifications
-The source is a short advice article and comment-thread discussion, not a systematic career-outcomes study. It also acknowledges that some hobbies may not become reliable careers in a direct form.
+The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, and freelancing may be unwise under heavy debt, family support obligations, or weak income prospects.
 
 ## What Changed
-- Created the initial concept page for career planning as path design rather than job-title selection.
+- Added freelancer experimentation as a career-planning case where financial runway, stability, and fallback design matter.
 
 ## Related Concepts
 - [[GPVCareerFormula]] - provides the source's three-factor method for judging career fit.
 - [[GoalSetting]] - career paths may require explicit goals and interim steps.
 - [[PersonalProductivity]] - daily work effectiveness is distinct from, but can support, longer-term career direction.
+- [[ProgrammerFreelancing]] - a concrete alternative career path that must be planned around constraints.

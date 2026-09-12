@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 37271a343d5a57562a41ec7bd4cf925cb9c591bd
-summary: "A personal wiki on work, learning, AI systems, creator business, web infrastructure, algorithms, and localization, with emphasis on judgment."
-episode_count: 13
-source_count: 13
-paragraph_count: 16
+as_of_overview_commit: 93f7cea3f726dce73c4192c651025cf7b5ef3500
+summary: "A personal wiki on work, learning, AI systems, creator business, web infrastructure, algorithms, and localization, with emphasis on judgment and tradeoffs."
+episode_count: 14
+source_count: 14
+paragraph_count: 17
 topic_count: 8
 ---
 
@@ -20,28 +20,30 @@ topic_count: 8
 - [[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
+- [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside.
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
-- [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure.
+- [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values, while [[ProgrammerFreelancing]] adds a reversible experiment that must account for money, isolation, and fallback design.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI coverage now spans knowledge assistants, retrieval-augmented chatbots, inference routing, reusable LLM application tooling, AI coding practice, and context/action architecture. The topic links technical architecture with human controls: useful AI systems need retrieval, context management, workload-aware infrastructure, and accountable engineering practice.
+AI coverage spans knowledge assistants, retrieval-augmented chatbots, inference routing, reusable LLM tooling, AI coding practice, and context/action architecture. Useful AI systems need retrieval, context management, workload-aware infrastructure, and accountable human engineering controls.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. Evidence: [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]].
 
 ### Business and Markets
 
-The business-and-markets material centers on independent SaaS entrepreneurship. A creator can combine recurring revenue, modular infrastructure, practical marketing, customer-led development, and creative support, but the model depends on market choice, founder skill, payment access, autonomy preferences, and tolerance for operating risk.
+Business coverage centers on independent creator economics. Viable paths include overseas bootstrapped SaaS and programmer freelancing, but both require more than technical building: income stability, distribution, infrastructure, customer learning, and founder constraints shape outcomes.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
+- [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].
 
 ### Cross-domain
 
-The cross-domain material currently adds an applied algorithm example: trajectory simplification reduces dense GPS paths for cheaper transfer, storage, and map rendering. The tradeoff is explicitly display-oriented because different audit, analytics, or reconstruction uses may require more fidelity.
+Cross-domain coverage currently adds an applied algorithm example: trajectory simplification reduces dense GPS paths for cheaper transfer, storage, and map rendering when broad route shape is enough.
 
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
 
@@ -70,7 +72,7 @@ Science, health, and climate is currently only indirectly represented through at
 
 ### Work, Education, and Society
 
-Work, education, and society spans productivity habits, active learning, learning goals, career design, technical standards, cloud deployment choices, and independent creator work. Across these sources, durable practice means reducing friction, choosing useful abstractions, protecting attention and curiosity, and matching tools or institutions to long-term fit.
+Work, education, and society spans productivity habits, active learning, learning goals, career design, technical standards, cloud deployment choices, independent creator work, and programmer freelancing. Durable practice means reducing friction, protecting attention and curiosity, and matching tools or work models to long-term fit.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].

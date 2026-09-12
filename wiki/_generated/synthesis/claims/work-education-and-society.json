@@ -30,15 +30,17 @@
       "global_candidate": true,
       "id": "learning-deepens-through-output",
       "qualifications": [
-        "The source describes a practitioner workflow, not a comparative education study."
+        "The learning source describes a practitioner workflow, not a comparative education study.",
+        "Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions."
       ],
-      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output.",
-      "status": "supported",
+      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "FeynmanTechnique",
         "ActiveLearning",
         "FocusedReading",
-        "KnowledgeOutput"
+        "KnowledgeOutput",
+        "Imooc"
       ]
     },
     {
@@ -91,16 +93,17 @@
       "global_candidate": true,
       "id": "career-fit-requires-path-design",
       "qualifications": [
-        "The source is a short advice article and comment-thread discussion, not a systematic career-outcomes study.",
-        "It qualifies passion advice by noting that some hobbies may be poor direct jobs and may need adjacent roles or interim steps."
+        "The career source is a short advice article and comment-thread discussion, not a systematic career-outcomes study.",
+        "The freelancer source cautions that heavy financial pressure can make the experiment unsafe."
       ],
-      "statement": "[[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values rather than a direct jump from hobby to job.",
+      "statement": "[[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values, while [[ProgrammerFreelancing]] adds a reversible experiment that must account for money, isolation, and fallback design.",
       "status": "qualified",
       "supporting_wikilinks": [
         "CareerPlanning",
         "GPVCareerFormula",
         "GoalSetting",
-        "RichardLeider"
+        "RichardLeider",
+        "ProgrammerFreelancing"
       ]
     },
     {
@@ -129,10 +132,10 @@
       "global_candidate": true,
       "id": "independent-creator-work-requires-business-design",
       "qualifications": [
-        "The claim is grounded in one independent-creator retrospective and may depend on engineering skill, payment access, market choice, and the founder's autonomy preferences.",
-        "The source frames solo operation as a chosen tradeoff, not as a universal model for every product or workload."
+        "The claim is grounded in creator retrospectives and may depend on engineering skill, savings, payment access, market choice, platform fit, and the founder's autonomy preferences.",
+        "Solo operation and freelancing are chosen tradeoffs, not universal models for every product, workload, or personal situation."
       ],
-      "statement": "[[IndependentCreator]] work can become a staged career and business path when [[BootstrappedSaaS]], [[MicroCompany]] operations, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] are combined rather than treating technical building as sufficient by itself.",
+      "statement": "[[IndependentCreator]] work can become a staged career and business path when [[BootstrappedSaaS]], [[MicroCompany]] operations, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[PersonalBranding]], and [[ProgrammerFreelancing]] are combined rather than treating technical building as sufficient by itself.",
       "status": "qualified",
       "supporting_wikilinks": [
         "IndependentCreator",
@@ -143,10 +146,14 @@
         "BusinessAsArt",
         "Hawstein",
         "AlgoCasts",
-        "Stripe"
+        "Stripe",
+        "PersonalBranding",
+        "ProgrammerFreelancing",
+        "ZhangXuan",
+        "EasyCV"
       ]
     }
   ],
-  "summary": "The topic now spans practical work habits, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, and independent creator entrepreneurship. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose abstractions, standards, infrastructure, or company shape according to the tradeoff between convenience, effort, autonomy, and long-term fit.",
+  "summary": "The topic spans practical work habits, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit.",
   "topic_id": "work-education-and-society"
 }

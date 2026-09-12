@@ -34,8 +34,26 @@
         "Stripe",
         "BootstrappedSaaS"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "freelancer-business-model-needs-income-before-product-upside",
+      "qualifications": [
+        "The source is one programmer's retrospective and depends on low financial pressure, teaching ability, and tolerance for solo-work risk.",
+        "The product experiment is valuable in the source even though early product revenue is not enough to fund the full freelancer period."
+      ],
+      "statement": "[[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ProgrammerFreelancing",
+        "ZhangXuan",
+        "Imooc",
+        "EasyCV",
+        "SaaSMarketing",
+        "PersonalBranding"
+      ]
     }
   ],
-  "summary": "The business-and-markets material currently centers on independent SaaS entrepreneurship: a creator can move from an initial content product into subscription software by combining community learning, recurring revenue, global customers, modular infrastructure, practical marketing, and close customer support. The synthesis is qualified because the path depends on founder skill, payment access, market fit, and a deliberate choice to preserve autonomy over team scale.",
+  "summary": "The business-and-markets material centers on independent creator economics. One path is overseas bootstrapped SaaS built from modular infrastructure, customer learning, marketing, and support; another is a programmer-freelancer mix where platform course income funds product experiments and personal branding becomes a traffic channel. Both cases qualify technical building with distribution, revenue stability, and founder constraints.",
   "topic_id": "business-and-markets"
 }
