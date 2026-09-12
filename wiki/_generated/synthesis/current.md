@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 1297321473f2c8905426780b8587b260399a003f
-summary: "The wiki maps how tools, work, learning, markets, and personal systems need trust, evidence, context, verification, and human judgment."
-episode_count: 91
-source_count: 91
-paragraph_count: 92
+as_of_overview_commit: 70d92362459f2e4966092daf6a2755deacf735e6
+summary: "The wiki maps how tools, work, learning, markets, and personal systems need trust, evidence, context, verification, restraint, and human judgment."
+episode_count: 92
+source_count: 92
+paragraph_count: 93
 topic_count: 9
 ---
 
@@ -19,17 +19,17 @@ topic_count: 9
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them.
 - [[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility.
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.
+- [[TechnologyStackComplexity]], [[DatabaseConsolidation]], and [[PostgreSQL]] show that data architecture should add specialized systems only when critical capability or scale benefits outweigh added language, consistency, operations, and cross-system data-flow costs.
+- [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
 - [[MinimumViableProduct]] reframes startup product work as early evidence gathering: [[SoftwareBrothers]] shows teams testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, and platform/community placement before building full systems; [[OutsourcedProductDevelopment]] adds outsourced concept builds as a validation path when later refactoring or disposal is expected; and [[StartupHypothesisTesting]] adds that tests should be tied to explicit assumptions and evaluation criteria.
 - [[MobileEcosystem]] adds a platform-market layer to product strategy: [[Apple]] and [[Google]] both win mobile in different ways, [[Microsoft]] becomes the legacy PC-platform contrast case, and [[MobilePlatformDiscovery]], [[MobileRuntime]], and [[MessagingAsPlatform]] show that distribution, discovery, and runtime control are business strategy rather than neutral technical plumbing.
-- Goals, abstraction, and optimization metaphors help learners focus attention without reducing learning to rote status competition.
-- Personalized infrastructure can feel empowering only when users can trust its data practices, moderation, and abstractions; digital maps make this visible through location privacy, user contributions, and platform-controlled cartography.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources emphasize that models, agents, data systems, developer tools, networking, platform traffic, and infrastructure become useful only when context, evidence, verification, workload contracts, segmentation, and human accountability are explicit.
+AI and technology sources emphasize that models, agents, data systems, developer tools, networking, platform traffic, and infrastructure become useful only when context, evidence, verification, workload contracts, segmentation, architectural restraint, and human accountability are explicit.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]].
@@ -50,22 +50,22 @@ Cross-domain material turns technical specifics into transferable patterns, from
 
 ### Culture and Media
 
-Culture and media sources show that form and platform shape meaning: learning media, indie games, aesthetic theory, and media-brand portfolios all mediate how people interpret, participate, and remember.
+Culture and media sources show that form and platform shape meaning: learning media, indie games, aesthetics, localization, video infrastructure, and media-brand portfolios all mediate how people interpret, participate, and remember.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]].
 - [[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability. Evidence: [[IndieGameDevelopment]], [[AmirRajan]], [[ADarkRoom]], [[AppStore]], [[CreativeTechnicalCareer]].
 
 ### Governance and Institutions
 
-Governance sources focus on accountability when distributed actors or powerful systems affect real people, including campaign technology, institutional rules, public safety, and platform-controlled infrastructure.
+Governance sources focus on accountability when distributed actors or powerful systems affect real people, including campaign technology, institutional rules, public information spaces, local developer environments, and platform-controlled infrastructure.
 
 ### History and Geopolitics
 
-History and geopolitics material situates technical and business systems inside older institutional, platform, and geopolitical shifts rather than treating them as purely present-tense inventions.
+History and geopolitics material is mostly source-scoped in the current bounded input, situating software-product chronology, editor lineage, and technical infrastructure inside older platform and institutional shifts rather than a broad geopolitical thesis.
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources treat agency as a product of reflective practice, goals, social feedback, interface legibility, and trusted personalized infrastructure rather than willpower alone.
+Psychology and personal-development sources treat agency as a product of reflective practice, goals, social feedback, interface legibility, environmental fields, and trusted personalized infrastructure rather than willpower alone.
 
 - Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
 - Work and creative behavior are vulnerable to status performances and platform feedback loops, so apparent productivity or creativity needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].
@@ -78,7 +78,7 @@ Science, health, and climate material is mostly source-scoped: it covers attenti
 
 ### Work, Education, and Society
 
-Work and education sources argue that learning and work quality improve through output, situated practice, feedback, attention discipline, supportive environments, and clear path design.
+Work and education sources argue that learning and work quality improve through output, situated practice, feedback, attention discipline, supportive environments, clear path design, and restraint against self-referential method collecting.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

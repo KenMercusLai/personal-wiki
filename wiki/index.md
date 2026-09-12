@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG](sources/shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog.md) - 黄健宏 argues for a PostgreSQL-first database architecture that reduces stack complexity by avoiding premature splits across specialized transaction, search, time-series, vector, and analytics systems.
 - [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
 - [A Selfie For The Planet](sources/a-selfie-for-the-planet.md) - Fast Company profile of Ed Parsons and Google's Geo work, framing Google Maps, Google Earth, Street View, location data, user contributions, and OpenStreetMap as a shift from static maps to personalized platform cartography.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
@@ -99,6 +100,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
 
 ## Entities
+- [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
+- [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
 - [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform used as a traffic data source for comparing technology attention across countries.
 - [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
@@ -432,6 +435,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Job-Application Side Projects](concepts/JobApplicationSideProjects.md) - Shipped personal projects designed to make ability, judgment, and fit credible to employers.
 - [Declarative Infrastructure](concepts/DeclarativeInfrastructure.md) - Infrastructure model where desired-state resources and controllers reconcile actual system state.
 - [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications work with container storage, health, lifecycle, and build assumptions rather than merely packaging old programs.
+- [Database Consolidation](concepts/DatabaseConsolidation.md) - Architectural strategy of using one sufficiently capable database for multiple workload types before adding specialized stores.
+- [Technology Stack Complexity](concepts/TechnologyStackComplexity.md) - Operational and reasoning burden created by many distinct technologies and their cross-system data boundaries.
 - [Server-Side Game Logic](concepts/ServerSideGameLogic.md) - Game backend pattern for running authoritative or anti-cheat logic on the server while coordinating with clients through a message service.
 - [Task Queue Design](concepts/TaskQueueDesign.md) - Backend design of asynchronous scheduling, state, timeout, concurrency, recovery, and queue product fit.
 - [Runtime Configuration](concepts/RuntimeConfiguration.md) - Supplying environment-specific settings when an application runs rather than baking them into image variants.

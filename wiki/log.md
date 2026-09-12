@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | 使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG
+
+Added source note plus pages for PostgreSQL, Timescale, database consolidation, and technology stack complexity. Updated index and overview to capture the article's PostgreSQL-first architecture heuristic: avoid premature splits across specialized transaction, search, time-series, vector, and analytics databases unless the added capability outweighs the operational and reasoning cost. Inspected the local Timescale cartoon image and treated it as evidentiary support for the article's database-sprawl contrast.
+
 ## [2026-09-13] ingest | A New Beginning: MyCrypto.com
 
 Added a source note plus pages for Taylor Monahan, MyCrypto, MyEtherWallet, Kvhnuke, Ethereum, crypto wallet security, and support load scaling. Updated startup scaling, index, overview, and downstream synthesis inputs to capture the article's account of a two-person Ethereum wallet side project becoming high-stakes infrastructure under ICO, ENS, phishing, support, and security pressure. Inspected the local image embed and classified it as the MyCrypto logo with no additional evidentiary content beyond brand identification.
@@ -748,6 +752,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

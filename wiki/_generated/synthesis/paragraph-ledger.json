@@ -84,6 +84,7 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
       "df361a0e6fc21fce303fab30c4a727e414df9dbda2907c604b1ea7bb8b2987a6",
+      "30ed48f56e075f561145e9f74835f19e25cf967cba5925df63bbb606b9648262",
       "e805ce0774618fca94b82ccdc071abbc420d8bd94edef48deca2048c2e89e3e6",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "7945feaa8bda011bebcbd3390acfa8d971dea35e0c93c43d92be09f41d7c9f85",
@@ -94,10 +95,10 @@
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 92
+    "paragraph_count": 93
   },
-  "overview_commit": "1297321473f2c8905426780b8587b260399a003f",
-  "overview_digest": "1596917d80f50e4575188e846bbbb0f84354f3614ad4a7094903967a9d74b5de",
+  "overview_commit": "70d92362459f2e4966092daf6a2755deacf735e6",
+  "overview_digest": "b6ea7a5b7bafb36eea01fd899ddf8c6690f4d020796630a27839d47a6920dac9",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1732,6 +1733,21 @@
         "InfrastructureAsCode",
         "InternalDeveloperPlatform",
         "ServiceObservability"
+      ]
+    },
+    {
+      "id": "30ed48f56e075f561145e9f74835f19e25cf967cba5925df63bbb606b9648262",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The PostgreSQL simplification source adds a database-architecture counterweight to that production-engineering material. [[TechnologyStackComplexity]] grows when teams split transactions, search, time series, vectors, and analytics across separate data systems before they have proven need, because every datastore adds language, consistency, operations, and cross-system data-flow costs. [[DatabaseConsolidation]] therefore becomes an architectural restraint principle: use [[PostgreSQL]] as a mature, extensible default when it meets current needs, then add a specialized database only when a critical missing capability or scale limit outweighs the extra complexity. [[Timescale]] appears as ecosystem support for scaling PostgreSQL-centered systems, while the source's own qualification keeps the claim from becoming absolutist: PostgreSQL-first is not \"never use another database.\"",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "DatabaseConsolidation",
+        "PostgreSQL",
+        "TechnologyStackComplexity",
+        "Timescale"
       ]
     },
     {

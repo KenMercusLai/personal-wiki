@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 1297321473f2c8905426780b8587b260399a003f
-input_digest: a930c32f6bc03e4b3a0f07dc3db1814066ae34b4f57ea73c3b18c0cc7e916ca2
+as_of_overview_commit: 70d92362459f2e4966092daf6a2755deacf735e6
+input_digest: ea317fa68e6696e3d3523daffc0af2dd7586dd803fbad177ab5e6bdeae0d64a5
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, developer-economy traffic, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, Stack Overflow traffic segmentation, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, developer-economy traffic, data architecture, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, Stack Overflow traffic segmentation, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
 
 ## Cross-source Findings
 
@@ -75,6 +75,16 @@ The AI and technology thread treats software, AI systems, data work, reading and
 **Qualifications:**
 
 - The routing evidence is architectural critique and packet-flow explanation rather than neutral cross-provider benchmarking.
+
+### Data Architecture Needs Restraint Before Specialization
+
+[[TechnologyStackComplexity]], [[DatabaseConsolidation]], and [[PostgreSQL]] show that data architecture should add specialized systems only when critical capability or scale benefits outweigh added language, consistency, operations, and cross-system data-flow costs.
+
+**Evidence:** [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], [[Timescale]]
+
+**Qualifications:**
+
+- The PostgreSQL-first evidence is an advocacy essay and does not define exact workload thresholds where specialized databases become necessary.
 
 ### Language Modeling Links Probability To Generation
 
