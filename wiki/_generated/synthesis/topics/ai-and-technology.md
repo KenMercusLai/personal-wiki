@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 28ebdf11796ed7168057c3e09da6962048c74af6
-input_digest: 7fb96cc8de32dd83a53eaf1f6ad5f3fad8c2e7864905f1d1653d032fe0f68c29
+as_of_overview_commit: 5980fa429dece22ced10cd69579cbdf817e6829d
+input_digest: d9b33989b748d98ef58b93619add4b165ad5250f66108cd39f4e765e0d63a088
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and black-box exploration before AI assistants or retrieval systems can help without hollowing out skill formation. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and black-box exploration before AI assistants or retrieval systems can help without hollowing out skill formation. AI-assisted writing, AI voice input, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
 
 ## Cross-source Findings
 
@@ -28,13 +28,13 @@ The AI and technology thread treats software, AI systems, data work, reading and
 
 ### Ai Authorship Requires Human Accountability
 
-[[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility.
+[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention.
 
-**Evidence:** [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]]
+**Evidence:** [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]], [[AIVoiceInput]], [[Soniox]], [[Spokenly]], [[Typeless]], [[VoiceInk]], [[Grok4]]
 
 **Qualifications:**
 
-- The evidence comes from creator and practitioner accounts, and multi-model checking can still share blind spots without original-source verification.
+- The evidence comes from creator and practitioner accounts, custom voice-input impressions are not benchmarked, and multi-model checking can still share blind spots without original-source verification.
 
 ### Ai Era Education Centers Problem Definition
 

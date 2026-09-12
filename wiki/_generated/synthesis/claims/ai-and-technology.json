@@ -21,9 +21,9 @@
       "global_candidate": true,
       "id": "ai-authorship-requires-human-accountability",
       "qualifications": [
-        "The evidence comes from creator and practitioner accounts, and multi-model checking can still share blind spots without original-source verification."
+        "The evidence comes from creator and practitioner accounts, custom voice-input impressions are not benchmarked, and multi-model checking can still share blind spots without original-source verification."
       ],
-      "statement": "[[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility.",
+      "statement": "[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention.",
       "status": "supported",
       "supporting_wikilinks": [
         "AIAssistedWriting",
@@ -33,7 +33,13 @@
         "Claude",
         "Gemini",
         "ChatGPT",
-        "TasteAsProblemSense"
+        "TasteAsProblemSense",
+        "AIVoiceInput",
+        "Soniox",
+        "Spokenly",
+        "Typeless",
+        "VoiceInk",
+        "Grok4"
       ]
     },
     {
@@ -355,6 +361,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and black-box exploration before AI assistants or retrieval systems can help without hollowing out skill formation. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and black-box exploration before AI assistants or retrieval systems can help without hollowing out skill formation. AI-assisted writing, AI voice input, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
   "topic_id": "ai-and-technology"
 }

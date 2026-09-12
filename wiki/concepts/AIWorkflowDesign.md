@@ -4,7 +4,8 @@ type: concept
 tags: [ai, workflow, humanities, productivity]
 sources:
   - gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan
-last_updated: 2026-09-12
+  - ai-yu-yin-shu-ru-gong-ju-ti-shi-ci
+last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,11 +17,13 @@ The source frames AI workflow design as the practical alternative to magical pro
 
 The article also treats workflow design as model management. Different models have different strengths, context limits, shortcut tendencies, and styles, so the user should compare outputs, assign roles, and supervise them like a small team. Good workflows push AI toward compression, organization, and local subtasks where it is more reliable, while keeping direction, judgment, evidence standards, and taste with the human.
 
+The voice-input prompt adds a narrower operational example. It turns transcript cleanup into an explicit role with ordered rules, formatting constraints, and prohibitions against adding information. The workflow separates capture, transcription, AI cleanup, and final written output, showing how prompt design can make a small everyday task repeatable without treating the model as a creative author.
+
 ## Key Claims
 - Effective AI use requires traceability, supervision, verification, and control over process, not only satisfaction with a final output.
 - Vague prompts should be rewritten into tasks with audience, purpose, background, structure, tone, constraints, and quality criteria.
 - AI should be managed like a diligent but context-poor intern or production station rather than a source of oracle-like judgment.
-- Repeatable pipelines raise the average quality of AI-assisted work more reliably than trying to perfect a single generated draft.
+- Repeatable pipelines raise the average quality of AI-assisted work more reliably than trying to perfect a single generated draft, including small pipelines such as voice-transcript cleanup.
 - Clean text, staged compression, retrieval, and explicit subtasks make better use of limited model context.
 - Quantity can be a quality tactic when multiple candidates, structures, or phrasings expose better samples for human selection.
 - Real-world materials and trained taste remain the scarce human inputs in cultural and humanities production.
@@ -33,12 +36,15 @@ The article also treats workflow design as model management. Different models ha
 - Context handling: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] advises converting materials to clean Markdown or text, extracting structure from long sources before writing, and using compression rather than thin-prompt expansion.
 - Variant generation: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] recommends generating several summaries, openings, structures, topic candidates, or phrasings so human judgment can select from a better distribution.
 - Material and taste: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] argues that complete archives, oral history, field interviews, photographs, and trained taste can matter more than the newest model.
+- Bounded transcript cleanup: [[ai-yu-yin-shu-ru-gong-ju-ti-shi-ci]] specifies role, background, punctuation rules, filler removal, repetition cleanup, false-start handling, structural formatting rules, output constraints, and explicit prohibitions against invention.
+- Modular stack: [[ai-yu-yin-shu-ru-gong-ju-ti-shi-ci]] separates [[Soniox]] transcription, [[Grok4]] AI cleanup, [[Spokenly]] local customization, and [[Typeless]] performance-oriented voice input.
 
 ## Counterevidence & Qualifications
 The source is a practitioner guide, not a controlled productivity study. Its advice is strongest for knowledge work where tasks can be decomposed, source material can be prepared, and the user has enough taste or domain knowledge to review outputs. The method may be less helpful for exploratory work whose process is not yet describable, or for users who cannot verify factual claims, judge quality, or supply real source material.
 
 ## What Changed
 - Created this concept to capture the source's cross-cutting method for accountable AI use beyond writing or coding alone.
+- Added AI voice-input cleanup as a compact example of bounded workflow design.
 
 ## Related Concepts
 - [[AIAssistedWriting]] - writing is one major domain where workflow design keeps authorship and verification human-owned.
@@ -46,3 +52,4 @@ The source is a practitioner guide, not a controlled productivity study. Its adv
 - [[KnowledgeOutput]] - AI workflow design accelerates turning research and notes into publishable outputs.
 - [[TasteAsProblemSense]] - taste supplies the human judgment needed to choose questions, materials, and final versions.
 - [[HarnessEngineering]] - both design scaffolds around AI, though harness engineering focuses on software and agent systems while this page focuses on humanities and content work.
+- [[AIVoiceInput]] - voice-input cleanup demonstrates workflow design at the prompt and tool-configuration layer.

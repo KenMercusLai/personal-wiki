@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
+- [AI 语音输入工具提示词](sources/ai-yu-yin-shu-ru-gong-ju-ti-shi-ci.md) - Practical prompt and tool note for turning raw Chinese voice transcripts into clean written text without adding unsupported information.
 - [AI winter is well on its way - Piekniewski's blog](sources/ai-winter-is-well-on-its-way-piekniewskis-blog.md) - Filip Piekniewski's 2018 essay arguing that deep-learning hype was cracking through compute-scaling limits, self-driving failures, spurious visual patterns, and the Uber fatal crash.
 - [Bump: 10 Years of Lessons Learned](sources/bump-10-years-of-lessons-learned.md) - David Lieb's retrospective on Bump, showing small-team leverage, user-behavior discovery, photo-sharing pivots, cofounder bonds, Google acquisition, and Google Photos continuity.
 - [A thing I wonder: do companies have too many employees?](sources/a-thing-i-wonder-do-companies-have-too-many-employees.md) - Coach Tony questions headcount-as-success assumptions by arguing that talent needs real opportunity and that large teams can hide underutilization.
@@ -268,6 +269,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
 - [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
 - [ChatGPT](entities/ChatGPT.md) - AI assistant used in the source for cross-checking draft facts.
+- [Spokenly](entities/Spokenly.md) - AI voice-input tool used by the author as a local customizable fallback.
+- [Typeless](entities/Typeless.md) - AI voice-input tool valued by the author for strong performance.
+- [VoiceInk](entities/VoiceInk.md) - AI voice-input tool named as a target for customizable cleanup prompts.
+- [Soniox](entities/Soniox.md) - Transcription model used in the author's Spokenly voice-input setup.
+- [Grok4](entities/Grok4.md) - AI model used for transcript cleanup in the author's Spokenly setup.
 - [GPT-2](entities/GPT2.md) - OpenAI pretrained transformer language model used in the tutorial for sentence completion and conditional text generation.
 - [Zhang Xiaoji](entities/ZhangXiaoji.md) - Slash programmer and independent creator behind Table To Figma, Fit Curve, and Glimmer Card.
 - [Table To Figma](entities/TableToFigma.md) - Figma plugin for applying structured data to designs and batch-generating visual assets.
@@ -567,6 +573,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
 - [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates drafting, checking, titles, visuals, and layout while human authors retain question, argument, taste, verification, and accountability.
 - [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines grounded in source material and human judgment.
+- [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing.
 - [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
