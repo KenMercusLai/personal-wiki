@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
+- [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
@@ -246,6 +247,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
+- [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
 - [Apple](entities/Apple.md) - Mobile platform winner whose iOS ecosystem concentrates high-value users and platform-control power in the source's 2015 framing.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the advertising source's humble-origin and hands-on engineering narrative.
@@ -600,6 +602,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
 - [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.
 - [Founder-Led Sales](concepts/FounderLedSales.md) - Pre-product-market-fit sales practice where founders personally lead customer conversations as problem discovery and solution testing.
+- [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, and scarce founder attention conflict.

@@ -80,15 +80,16 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
+      "7945feaa8bda011bebcbd3390acfa8d971dea35e0c93c43d92be09f41d7c9f85",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
       "098b082e442368c4ff563026d380d92d2d03995bb9617d70a88d33a9ab1c0110",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 83
+    "paragraph_count": 84
   },
-  "overview_commit": "0068d5aeca9d3a5e9255adf9accb245f7ba949e9",
-  "overview_digest": "d5c89993392a961a7ed29ba4f728498adf28fc428631c90bfd8a1119683997ab",
+  "overview_commit": "7e8072634345228f06ab5b8e1e7db3d75a4951dc",
+  "overview_digest": "00d8f17e25b71cffae111eca2cbb310c8bf2e76bfe71214e0b19d13204508bfe",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1652,6 +1653,22 @@
         "Slack",
         "StartupEquityTransparency",
         "YCombinator"
+      ]
+    },
+    {
+      "id": "7945feaa8bda011bebcbd3390acfa8d971dea35e0c93c43d92be09f41d7c9f85",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Microsoft IPO retrospective adds an origin-stage software-business case to the startup and platform material. [[Microsoft]] is presented as the opposite of a cash-starved IPO candidate: by 1986 it had years of profitability, cash comparable to expected IPO proceeds, and a product path from BASIC and MS-DOS through Word, Excel, and Windows. [[BillGates]] supplies the financing lens behind [[SelfFundedSoftwareGrowth]]: the source says Microsoft's $1 million venture investment was mainly for board advice rather than operating need, and Gates reportedly resisted a price range that would imply too large a market value. This qualifies the wiki's [[StartupRunway]] and equity threads by showing that software economics can reduce IPO pressure when product revenue funds growth, while also setting up the later contrast with Microsoft's mobile-era legacy-platform problem.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5
+      },
+      "wikilinks": [
+        "BillGates",
+        "Microsoft",
+        "SelfFundedSoftwareGrowth",
+        "StartupRunway"
       ]
     },
     {
