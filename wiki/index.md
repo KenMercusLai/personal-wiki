@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [10-Year Exercise Periods Make Sense](sources/10-year-exercise-periods-make-sense-thoughts-quora.md) - Adam D'Angelo's defense of Quora's 10-year stock-option exercise periods, arguing that transparent extended windows protect vested equity without undermining market-based startup compensation.
 - [10 Years of Instapaper](sources/10-years-of-instapaper.md) - Instapaper's ten-year retrospective tracing the read-later product from Marco Arment's side project through parser rewrites, mobile-platform milestones, acquisitions, pricing shifts, notes, search, and outage recovery.
 - [编程随想 - 如何系统性学习](sources/bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi.md) - 编程随想's systematic-learning essay arguing that durable understanding requires breadth, depth, book-centered source selection, Feynman-style explanation, foundational priority, DIKW distinctions, and cross-domain wisdom.
 - [给人文工作者的 AI 使用指南](sources/gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan.md) - Hanyang's guide for humanities workers arguing that AI becomes useful when embedded in traceable, controllable, verifiable workflows grounded in real materials and trained taste.
@@ -58,6 +59,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
+- [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to Scott Kupor's critique of extended option exercise periods.
+- [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
+- [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
+- [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
 - [Instapaper](entities/Instapaper.md) - Read-later service whose first decade shows product evolution around distraction-reduced reading, parsing, offline access, notes, search, business-model changes, and reliability.
 - [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
@@ -183,6 +189,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
+- [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
 - [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.

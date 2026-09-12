@@ -53,12 +53,13 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa",
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
-      "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d"
+      "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
+      "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9"
     ],
-    "paragraph_count": 53
+    "paragraph_count": 54
   },
-  "overview_commit": "fc4370f290d05356385bdad8dbc301429e5c781f",
-  "overview_digest": "f9e479fdb371f5eab7afeb2b4223ea00fd56ac01dddcf128550e3c08edfe857c",
+  "overview_commit": "245edaa0493ebcd2d4a523aeb172437e24cdedfa",
+  "overview_digest": "c794e90c71ba77fb248c6c030ac078b261140abd9a30e683c84748b92e6ced05",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1079,6 +1080,26 @@
         "ReliabilityInvestment",
         "RobustProgramming",
         "SystemReliability"
+      ]
+    },
+    {
+      "id": "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest startup-equity source adds a compensation-design thread. [[AdamDAngelo]] presents [[Quora]]'s [[ExtendedStockOptionExerciseWindow]] policy as a fairness and market-competition issue: departing employees should not lose already vested equity simply because a company remains private for many years, and future employee grants can still be set by current market compensation rather than by recovered-share accounting. [[StartupEquityTransparency]] is the broader norm: companies can choose different option-window and retention strategies, but candidates need clear disclosure about exercise costs, liquidity risk, and whether leaving before an IPO can erase vested upside. [[ScottKupor]] and [[AndreessenHorowitz]] supply the investor-side concern that former employees retaining options may shift value away from current contributors, while [[YCombinator]] is cited as a sign that 10-year windows were becoming a startup-norm recommendation.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AdamDAngelo",
+        "AndreessenHorowitz",
+        "ExtendedStockOptionExerciseWindow",
+        "Quora",
+        "ScottKupor",
+        "StartupEquityTransparency",
+        "YCombinator"
       ]
     }
   ],

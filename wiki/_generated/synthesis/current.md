@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: fc4370f290d05356385bdad8dbc301429e5c781f
-summary: "A personal knowledge map on AI, learning, product evolution, reliability, business, data judgment, and culture."
-episode_count: 50
-source_count: 50
-paragraph_count: 53
+as_of_overview_commit: 245edaa0493ebcd2d4a523aeb172437e24cdedfa
+summary: "A personal knowledge map on AI, learning, product evolution, reliability, business, data judgment, culture, and startup equity."
+episode_count: 51
+source_count: 51
+paragraph_count: 54
 topic_count: 9
 ---
 
@@ -19,11 +19,11 @@ topic_count: 9
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation.
 - [[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.
 - [[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
-- [[ReadLaterProduct]] design turns [[AttentionManagement]] and [[FocusedReading]] into software infrastructure: [[Instapaper]] combines saving, parsing, offline access, cross-device reading, search, highlights, notes, exports, platform integrations, and accessibility-minded fonts so web reading can be separated from noisy discovery contexts.
 - [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
 - [[ProductEvolution]] in the [[Instapaper]] case shows a long-lived software product adapting through [[AppStore]] timing, parser rewrites, search infrastructure, [[Betaworks]] team development, [[Pinterest]] ownership, freemium and subscription shifts, developer APIs, sponsorships, and reliability recovery while preserving a stable reading promise.
 - [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - [[SystemReliability]] depends on known technical practices such as [[RobustProgramming]], [[DependencyDegradation]], and [[ChangeSafety]], but [[ReliabilityInvestment]] is the harder business constraint because avoided failures are hard to credit and reliability work can become episodic without sustained priority.
+- [[StartupEquityTransparency]] frames startup option terms as market-design information: [[Quora]]'s [[ExtendedStockOptionExerciseWindow]] lets employees preserve vested equity longer, while [[ScottKupor]] and [[AndreessenHorowitz]] represent the concern that retained former-employee options may shift value away from current contributors.
 
 ## Synthesis by Domain
 
@@ -36,7 +36,7 @@ The AI and technology thread treats AI systems, data work, reading software, and
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics, long-lived software-product evolution, market-positioning strategy, consumer-IP operations, and the organizational side of software reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, and Instapaper-style consumer software depend on revenue stability, platform timing, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, business-model adaptation, and product promise rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business. The reliability source adds that operational excellence is also a business investment problem: known technical practices only become durable when staffing, process enforcement, and business priority keep them alive.
+The business-and-markets material combines independent creator economics, long-lived software-product evolution, market-positioning strategy, consumer-IP operations, startup equity design, and the organizational side of software reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, and Instapaper-style consumer software depend on revenue stability, platform timing, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, business-model adaptation, and product promise rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business. The startup-equity thread treats option exercise windows as compensation-market design: transparency and liquidity risk determine whether vested equity is practically usable. The reliability source adds that operational excellence is also a business investment problem: known technical practices only become durable when staffing, process enforcement, and business priority keep them alive.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProductEvolution]] in the [[Instapaper]] case shows a long-lived software product adapting through [[AppStore]] timing, parser rewrites, search infrastructure, [[Betaworks]] team development, [[Pinterest]] ownership, freemium and subscription shifts, developer APIs, sponsorships, and reliability recovery while preserving a stable reading promise. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]].

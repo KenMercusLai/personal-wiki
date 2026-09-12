@@ -132,6 +132,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 10-Year Exercise Periods Make Sense
+
+Added source note for Adam D'Angelo's defense of Quora's 10-year stock-option exercise periods, created startup-equity entity and concept pages, and updated the overview with the new compensation-transparency thread.
+
 ## [2026-09-12] ingest | 10 Years of Instapaper
 
 Ingested Instapaper's ten-year retrospective and added pages for Instapaper, Marco Arment, Betaworks, Pinterest, App Store, Read-Later Product, and Product Evolution.
@@ -411,6 +415,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] report | Graph health report generated
 
 327 nodes analyzed.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
