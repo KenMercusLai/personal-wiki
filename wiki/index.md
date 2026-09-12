@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何像 Claude Code 一样使用私有 API 管理 prompt cache](sources/ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache.md) - A technical analysis of Claude Code's Anthropic prompt-cache strategy, including cache breakpoints, stable request shape, private cache edits, and microcompact as logical deletion.
 - [一个半月高强度 Claude Code 使用后感受](sources/yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou.md) - A Claude Code retrospective arguing that vibe coding accelerates iteration but requires planning, small steps, context management, verification, and humane pacing.
 - [场](sources/chang.md) - A reflective essay arguing that invisible environmental fields shape work, family, intimacy, creativity, and moral behavior.
 - [大数据是否能够改造你的行业](sources/da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye.md) - A big-data article arguing that industry transformation requires behavior data, full-population processing, and closed-loop automated applications.
@@ -180,6 +181,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material for future thinking.
 - [Private Data Chatbot](concepts/PrivateDataChatbot.md) - Chatbot pattern that answers from user-provided or organization-held data rather than only built-in model knowledge.
 - [Programmer Freelancing](concepts/ProgrammerFreelancing.md) - Self-directed programmer work supported by financial runway, course income, product experiments, branding, and routines.
+- [Prompt Caching](concepts/PromptCaching.md) - LLM serving mechanism that reuses stable prompt prefixes or marked segments to reduce repeated input processing cost.
 - [PR Review Hygiene](concepts/PRReviewHygiene.md) - Practices that keep code changes small, explainable, and inspectable for reviewers.
 - [Player Guidance](concepts/PlayerGuidance.md) - Cues, mechanics, timing, and layout that steer player attention and action without explicit instruction.
 - [Production Agent Infrastructure](concepts/ProductionAgentInfrastructure.md) - Infrastructure for long-running, high-permission AI agents with nondeterministic decisions and real side effects.

@@ -39,8 +39,25 @@
         "PeterThiel",
         "PiotrWozniak"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "prompt-cache-paragraph-is-technical-spillover",
+      "qualifications": [
+        "This is a secondary classifier assignment; the paragraph is about AI infrastructure and context mechanics rather than psychology or personal development."
+      ],
+      "statement": "[[PromptCaching]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], and [[InferenceLoadBalancing]] appear here only as a spillover from technical context-management language.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "PromptCaching",
+        "ClaudeCode",
+        "Anthropic",
+        "DynamicContextCompression",
+        "KVCacheAwareRouting",
+        "InferenceLoadBalancing"
+      ]
     }
   ],
-  "summary": "The new psychology and personal-development topic centers on motivation for learning. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, but they can be counterproductive when they become imposed pressure or credential compliance.",
+  "summary": "The psychology and personal-development topic centers on motivation for learning. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, but they can be counterproductive when they become imposed pressure or credential compliance. A prompt-cache paragraph is present only as technical classifier spillover.",
   "topic_id": "psychology-and-personal-development"
 }

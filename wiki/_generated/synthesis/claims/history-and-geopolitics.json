@@ -1,0 +1,23 @@
+{
+  "claims": [
+    {
+      "global_candidate": false,
+      "id": "prompt-cache-paragraph-is-technical-spillover",
+      "qualifications": [
+        "This topic contains only one paragraph, and it was assigned here because of generic terms rather than substantive history or geopolitics content."
+      ],
+      "statement": "[[PromptCaching]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], and [[InferenceLoadBalancing]] are technical AI infrastructure concepts rather than a history or geopolitics finding in this bounded input.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "PromptCaching",
+        "ClaudeCode",
+        "Anthropic",
+        "DynamicContextCompression",
+        "KVCacheAwareRouting",
+        "InferenceLoadBalancing"
+      ]
+    }
+  ],
+  "summary": "The history and geopolitics topic currently has no substantive historical or geopolitical synthesis in this bounded input; the lone paragraph is a technical AI prompt-caching discussion assigned here as classifier spillover.",
+  "topic_id": "history-and-geopolitics"
+}

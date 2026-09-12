@@ -3,16 +3,16 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-09-11
-as_of_overview_commit: 6bf7389c34a870369415ed835e4f5414b46e19d8
-input_digest: abec7a96a04d0e4c7c4a1fa87b716ad35b901bde3308f21f448d22fe6266fc16
+last_updated: 2026-09-12
+as_of_overview_commit: 49fb0ed061f4a21ddd6ea1f06fd1f218005b3399
+input_digest: 1a5ec438da089e3a0703fd291864b5949bbb319270064c9bfaf4d8c1a3dfb5bd
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The new psychology and personal-development topic centers on motivation for learning. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, but they can be counterproductive when they become imposed pressure or credential compliance.
+The psychology and personal-development topic centers on motivation for learning. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, but they can be counterproductive when they become imposed pressure or credential compliance. A prompt-cache paragraph is present only as technical classifier spillover.
 
 ## Cross-source Findings
 
@@ -45,3 +45,13 @@ The new psychology and personal-development topic centers on motivation for lear
 **Qualifications:**
 
 - The wiki has not yet ingested independent biographical sources about the example.
+
+### Prompt Cache Paragraph Is Technical Spillover
+
+[[PromptCaching]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], and [[InferenceLoadBalancing]] appear here only as a spillover from technical context-management language.
+
+**Evidence:** [[PromptCaching]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], [[InferenceLoadBalancing]]
+
+**Qualifications:**
+
+- This is a secondary classifier assignment; the paragraph is about AI infrastructure and context mechanics rather than psychology or personal development.

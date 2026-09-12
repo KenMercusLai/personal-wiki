@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: f876dc86247ec33562afd68eaf628c9cfa566379
-input_digest: 8b1987e19a650b473170c91f629a95d01dea8700ed1ce076c9cabe981090aaf4
+as_of_overview_commit: 49fb0ed061f4a21ddd6ea1f06fd1f218005b3399
+input_digest: 227652191416754d98300c72ec04916f877d2eec532ba9d901aad00f84f72371
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
+The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
 
 ## Cross-source Findings
 
@@ -109,6 +109,17 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 - The source is a conceptual essay and does not benchmark these mechanisms across systems.
 - The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present.
 - The Claude Code source turns context management into operational advice, but its evidence remains a single practitioner account.
+
+### Prompt Caching Turns Context Shape Into Infrastructure
+
+[[PromptCaching]] turns [[LLMContextManagement]] into an infrastructure concern: [[ClaudeCode]] preserves stable request shape for [[Anthropic]] cache reuse, while private [[DynamicContextCompression]] cache edits can logically remove large tool results without rewriting local history and may still fit [[KVCacheAwareRouting]] and [[InferenceLoadBalancing]] prefix assumptions.
+
+**Evidence:** [[PromptCaching]], [[LLMContextManagement]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], [[InferenceLoadBalancing]]
+
+**Qualifications:**
+
+- The cache-edit behavior is based on code reading and inferred private provider semantics rather than public API documentation.
+- The source leaves serving-side recomputation behavior uncertain after cache-edited blocks are logically deleted.
 
 ### Semantic Ui State Supports Computer Use
 

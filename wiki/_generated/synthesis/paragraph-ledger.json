@@ -23,6 +23,7 @@
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
+      "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
       "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
       "d4e8cb2d1247336696e714bf8d888a8054e80f92d9ecf71e429da47e374206a4",
       "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
@@ -30,10 +31,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 28
+    "paragraph_count": 29
   },
-  "overview_commit": "f876dc86247ec33562afd68eaf628c9cfa566379",
-  "overview_digest": "490f94ee9914453fc03926403bdba910469a07be816ca3887ff67b9d6ae6cb1b",
+  "overview_commit": "49fb0ed061f4a21ddd6ea1f06fd1f218005b3399",
+  "overview_digest": "baff1084c5d4b241dc14c598038afca638176bdb3cc5dd6f6c94b4ea4013f2cc",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -429,6 +430,28 @@
         "ModelContextProtocol",
         "RORIRI",
         "RetrievalAugmentedGeneration"
+      ]
+    },
+    {
+      "id": "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Claude Code prompt-cache source makes that cache tension concrete through [[PromptCaching]]. It argues that [[Anthropic]] cache reuse depends on stable request parts such as system prompts, tools, model, message prefix, thinking configuration, and beta headers, so [[ClaudeCode]] preserves request shape through tactics such as stable tool definitions and appended system-reminder messages. Its private microcompact path adds a sharper [[DynamicContextCompression]] pattern: selected large tool results receive cache references, later requests replay cache-edit deletion instructions, and the provider-side cached view can drop those blocks without rewriting local history. The source also qualifies [[KVCacheAwareRouting]] and [[InferenceLoadBalancing]] by suggesting this remains closer to cached-prefix-plus-edit-script behavior than arbitrary non-contiguous cache reuse.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Anthropic",
+        "ClaudeCode",
+        "DynamicContextCompression",
+        "InferenceLoadBalancing",
+        "KVCacheAwareRouting",
+        "PromptCaching"
       ]
     },
     {

@@ -108,6 +108,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 如何像 Claude Code 一样使用私有 API 管理 prompt cache
+
+Added source note and the Prompt Caching concept. Updated Claude Code, Anthropic, LLM Context Management, Dynamic Context Compression, KV-Cache-Aware Routing, Inference Load Balancing, and the overview to reflect Claude Code's Anthropic prompt-cache strategy, private cache edits, and microcompact as provider-side logical deletion rather than local history rewriting.
+
 ## [2026-09-12] ingest | 场
 
 Added source note and synthesis pages for environmental field, work environment, family of origin, third field, creative presence, and situational morality. Added an entity profile for Wulc. Key claims: people are shaped by fields made of incentives, relationships, routines, and norms; agency begins with perceiving those fields and sometimes choosing a better one.
@@ -214,6 +218,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 大数据是否能够改造你的行业
 
 Added source note and synthesis pages for big-data industry transformation, behavior data, automated data applications, and deep learning. Updated Wulc to reflect both reflective field writing and technical-business synthesis. Key claims: big data transforms industries when behavior data, full-population processing, and closed-loop automated application let data outrank unsupported prior experience.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

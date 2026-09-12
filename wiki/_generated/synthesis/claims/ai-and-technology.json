@@ -148,6 +148,25 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "prompt-caching-turns-context-shape-into-infrastructure",
+      "qualifications": [
+        "The cache-edit behavior is based on code reading and inferred private provider semantics rather than public API documentation.",
+        "The source leaves serving-side recomputation behavior uncertain after cache-edited blocks are logically deleted."
+      ],
+      "statement": "[[PromptCaching]] turns [[LLMContextManagement]] into an infrastructure concern: [[ClaudeCode]] preserves stable request shape for [[Anthropic]] cache reuse, while private [[DynamicContextCompression]] cache edits can logically remove large tool results without rewriting local history and may still fit [[KVCacheAwareRouting]] and [[InferenceLoadBalancing]] prefix assumptions.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "PromptCaching",
+        "LLMContextManagement",
+        "ClaudeCode",
+        "Anthropic",
+        "DynamicContextCompression",
+        "KVCacheAwareRouting",
+        "InferenceLoadBalancing"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "semantic-ui-state-supports-computer-use",
       "qualifications": [
@@ -254,6 +273,6 @@
       ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.",
   "topic_id": "ai-and-technology"
 }
