@@ -86,6 +86,21 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "sgd-metaphor-is-technical-spillover",
+      "qualifications": [
+        "This is a classifier spillover from a machine-learning metaphor; the paragraph primarily belongs to personal development rather than AI systems or machine-learning engineering."
+      ],
+      "statement": "[[StochasticGradientDescent]] appears here as a life-design metaphor connecting [[GoalSetting]], [[PersonalProductivity]], and [[SelfDiscipline]], not as a technical machine-learning finding.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "StochasticGradientDescent",
+        "GoalSetting",
+        "PersonalProductivity",
+        "SelfDiscipline"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "ai-infrastructure-needs-workload-aware-routing",
       "qualifications": [
@@ -348,6 +363,6 @@
       ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, agentic RAG for live codebases, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-assisted writing needs human authorship and verification, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents while coding agents may need live agent-loop retrieval, AI-assisted coding needs human and organizational controls, minimal coding-agent tools can be powerful when paired with iterative context search, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, tape-and-anchor reconstruction, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, agentic RAG for live codebases, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. One stochastic-gradient-descent paragraph appears only as technical metaphor spillover; the substantive AI claims remain about knowledge systems, human authorship and verification, AI-era education judgment, tool-method fit, workload-aware routing, retrieval-augmented chatbots, human engineering controls, context/action mechanisms, prompt-cache infrastructure, production-agent boundaries, methodological control in data analysis, and automation loops grounded in behavior data.",
   "topic_id": "ai-and-technology"
 }

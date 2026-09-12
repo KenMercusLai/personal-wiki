@@ -112,6 +112,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 李沐 - 用随机梯度下降来优化人生
+
+Added source note plus pages for Li Mu and stochastic gradient descent as a life-strategy metaphor. Updated goal setting, personal productivity, and self-discipline with the essay's emphasis on large objectives, small repeated steps, variable pacing, exploration, comfort-zone escape, humility about starting points, and restart after instability.
+
 ## [2026-09-12] ingest | 木匠,锤子,钉子
 
 Added source note and synthesis pages for coding-agent minimal tooling, agentic RAG, and tape-and-anchor context management. Added entity profiles for PsiACE and Bub, and updated OpenClaw, RAG, memory, dynamic compression, LLM context management, the index, and overview. Key claims: coding agents can be powerful with a small read/write/edit/bash surface; naive RAG is fragile for changing codebases; group-chat agents need identity and communication awareness; and durable history can be treated as a tape reconstructed through minimal anchors rather than inherited wholesale.
@@ -295,6 +299,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 是的，我用AI写文章，咋滴
 
 Added source note for Feng Ruohang's AI-assisted writing workflow, created pages for AI-Assisted Writing, Feng Ruohang, Gemini, and ChatGPT, and updated related writing/output/Claude synthesis pages.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

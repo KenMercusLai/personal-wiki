@@ -15,6 +15,7 @@
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
+      "43bc7fbc8010dfa7185fa34ac099eeb0769a930cd51554bbed5c3a7d921c8d7b",
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
       "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
@@ -41,10 +42,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 39
+    "paragraph_count": 40
   },
-  "overview_commit": "0e2430a47cce4875b2e79b81633fdb773a340a5d",
-  "overview_digest": "4a3f412198d7e1073f8811646d1bbd23e182e00b1fe24f046e1dac0524fa01f3",
+  "overview_commit": "833f295a1ad80b450914894c723271e44298839e",
+  "overview_digest": "95aaeb9f38c819f6d5cd495bc2ec3c3aeb5fbef9ffb513fbdc46817d511b8f39",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -293,6 +294,24 @@
         "GoalSetting",
         "KnowledgeValuationNetwork",
         "LearnDrive"
+      ]
+    },
+    {
+      "id": "43bc7fbc8010dfa7185fa34ac099eeb0769a930cd51554bbed5c3a7d921c8d7b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The Li Mu essay adds an optimization metaphor to the same life-design cluster. [[StochasticGradientDescent]] becomes a practical model for [[GoalSetting]], [[PersonalProductivity]], and [[SelfDiscipline]]: choose a large enough objective, take repeated good-enough steps, vary step size through rest and renewed effort, explore beyond comfort zones, and restart after unstable failures. The metaphor also adds humility to the wiki's agency material by noting that starting position matters, early speed can lead to later stagnation, and discomfort only helps when it reflects directionally useful change rather than movement away from the goal.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "GoalSetting",
+        "PersonalProductivity",
+        "SelfDiscipline",
+        "StochasticGradientDescent"
       ]
     },
     {

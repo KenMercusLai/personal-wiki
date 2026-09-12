@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [李沐 - 用随机梯度下降来优化人生](sources/li-mu-yong-sui-ji-ti-du-xia-jiang-lai-you-hua-ren-sheng.md) - A machine-learning metaphor essay using stochastic gradient descent to frame life strategy around large goals, small repeated steps, rest, exploration, humility about starting points, and restart after failure.
 - [木匠,锤子,钉子](sources/mu-jiang-chui-zi-ding-zi.md) - A practitioner essay by PsiACE on coding-agent minimal tools, RAG limits for live codebases, OpenClaw versus Bub agent paradigms, group-chat agents, and tape-and-anchor context management.
 - [是的，我用AI写文章，咋滴](sources/shi-de-wo-yong-ai-xie-wen-zhang-za-di.md) - A creator essay defending AI-assisted writing as a human-owned workflow of topic selection, structure, model-supported drafting, cross-checking, revision, visual generation, and accountable publication.
 - [年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅](sources/zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu.md) - A slash-programmer retrospective on leaving employment, abandoning a failed short-video experiment, and building a small portfolio of paid tools through user validation, early monetization, build-in-public distribution, and platform tailwinds.
@@ -44,6 +45,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Li Mu](entities/LiMu.md) - Machine-learning educator-author who uses stochastic gradient descent as a metaphor for life optimization.
 - [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, and context-management models.
 - [Bub](entities/Bub.md) - PsiACE's group-chat-oriented coding-agent project contrasted with personal-assistant agents such as OpenClaw.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
@@ -257,6 +259,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
 - [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
+- [Stochastic Gradient Descent](concepts/StochasticGradientDescent.md) - Optimization method used as a life-strategy metaphor for goals, feedback, small steps, exploration, rest, and restart.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
 - [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
