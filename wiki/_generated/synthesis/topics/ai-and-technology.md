@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 9ee540906c6d945c9a2371235d2b3055f21411df
-input_digest: 24979a6736873aa846e77f34034b4a2f0da6a4ab7031ee5af467b9ea7de9075d
+as_of_overview_commit: c8121b5aa035a7387e02ded5e3373d411be721db
+input_digest: 2bc1607c21c022d55c2267d4e31536a8fb552f97338355ef44fc1e88326ffc40
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, and AI-first engineering workflow design. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, and AI-first engineering only becomes plausible when harnesses make agent output testable, observable, reversible, and bounded.
+The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, and production agent infrastructure. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, and high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability.
 
 ## Cross-source Findings
 
@@ -110,11 +110,23 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 ### Ai First Engineering Needs Harnesses
 
-[[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; the [[CREAO]] and [[Claude]] case study makes this more automation-first than earlier collaboration-first guidance.
+[[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; production autonomy also needs runtime boundaries for side effects, capabilities, and recovery.
 
 **Evidence:** [[AIFirstEngineering]], [[HarnessEngineering]], [[SoftwareVerification]], [[CREAO]], [[Claude]], [[JuniorEngineerLearning]], [[PeterPang]]
 
 **Qualifications:**
 
-- The claim is grounded in a skeptical commentary plus a single company case study, not independently verified multi-team evidence.
+- The AI-first claim is grounded in a skeptical commentary plus a single company case study, not independently verified multi-team evidence.
 - The source explicitly limits fit for UI-dense, quality-sensitive, and safety-critical products.
+- The production-agent source implies that workflow harnesses are necessary but insufficient for high-permission, long-running agents.
+
+### Production Agents Need Semantic Runtime Infrastructure
+
+[[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
+
+**Evidence:** [[ProductionAgentInfrastructure]], [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], [[SemanticIsolation]], [[Guanlan]]
+
+**Qualifications:**
+
+- The source is a design argument, not evidence from a standardized production platform.
+- The urgency depends on agents becoming long-running, high-permission, and autonomous; short, approval-driven agents need less of this machinery.

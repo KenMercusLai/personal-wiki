@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [为什么现有的 Agent Infra 无法支撑生产级应用？](sources/wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong.md) - An agent-infrastructure essay arguing that production agents need effect logs, capability gateways, fork recovery, resumability, and semantic isolation because existing sandboxes and workflow engines operate at the wrong abstraction layer.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
@@ -32,28 +33,38 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Claude](entities/Claude.md) - AI assistant used in the CREAO case study for pull-request review, debugging, production-health summaries, and issue triage.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
+- [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
 - [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
 - [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer cited for product-idea filtering, business creativity, and open email connection.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
+- [E2B](entities/E2B.md) - Agent code-execution sandbox discussed as useful execution isolation but insufficient for capability and side-effect semantics.
 - [EasyCV](entities/EasyCV.md) - Zhang Xuan's programmer resume-builder product and product-development experiment.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
+- [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
+- [Guanlan](entities/Guanlan.md) - Author arguing for production-agent infrastructure built around effect logs, capability gateways, and resumability.
+- [gVisor](entities/GVisor.md) - User-space kernel sandbox discussed as execution isolation rather than semantic agent isolation.
 - [Hawstein](entities/Hawstein.md) - Independent creator who moved from AlgoCasts to overseas bootstrapped SaaS.
 - [idoubi](entities/Idoubi.md) - Independent developer-author describing a cost-driven migration from Vercel to AWS and Cloudflare.
 - [INDIGO](entities/INDIGO.md) - Practitioner-author describing a personal learning, research, writing, and note-system workflow.
 - [Imooc](entities/Imooc.md) - Programming course platform that supplied Zhang Xuan's main freelancer income.
+- [Kong](entities/Kong.md) - Infrastructure company mentioned as part of Guanlan's distributed systems background.
+- [Kubernetes](entities/Kubernetes.md) - Container orchestration system discussed as process isolation that cannot see agent tool-call semantics.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
 - [Letta](entities/Letta.md) - Open-source framework described as the later continuation of the MemGPT memory-management line.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
 - [MemGPT](entities/MemGPT.md) - Hierarchical LLM memory system used as an example of active context and memory management.
+- [Modal](entities/Modal.md) - Python-native execution platform discussed as reducing deployment friction without solving agent semantic recovery.
 - [Neon](entities/Neon.md) - Edge-compatible Postgres access option used as a replacement for Node's `pg` client in the migration article.
+- [Netflix Conductor](entities/NetflixConductor.md) - Workflow orchestrator discussed as useful above, but not instead of, agent-specific semantic primitives.
 - [Next.js](entities/NextJS.md) - Full-stack web framework whose Vercel, EC2, Docker, and Cloudflare deployment paths are compared.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
+- [OpenClaw](entities/OpenClaw.md) - Agent-related project or incident cited as making real system-permission risks concrete.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
 - [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
@@ -66,6 +77,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
+- [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
 - [Vercel](entities/Vercel.md) - Hosted deployment platform valued for Next.js convenience but criticized in the source for high metered costs.
 - [Wei Jie](entities/WeiJie.md) - Translator-programmer and author of the Women Communication localization note.
@@ -81,10 +93,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
+- [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
+- [Capability Gateway](concepts/CapabilityGateway.md) - Infrastructure boundary that mediates agent actions through scoped, temporary, revocable credentials and tool semantics.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
@@ -93,8 +107,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
+- [Effect Log](concepts/EffectLog.md) - Write-ahead log for agent tool calls and external side effects.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
+- [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
 - [GPV Career Formula](concepts/GPVCareerFormula.md) - Career-reflection framework combining gifts, passion, and values to reason about fit.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
@@ -128,12 +144,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Programmer Freelancing](concepts/ProgrammerFreelancing.md) - Self-directed programmer work supported by financial runway, course income, product experiments, branding, and routines.
 - [PR Review Hygiene](concepts/PRReviewHygiene.md) - Practices that keep code changes small, explainable, and inspectable for reviewers.
 - [Player Guidance](concepts/PlayerGuidance.md) - Cues, mechanics, timing, and layout that steer player attention and action without explicit instruction.
+- [Production Agent Infrastructure](concepts/ProductionAgentInfrastructure.md) - Infrastructure for long-running, high-permission AI agents with nondeterministic decisions and real side effects.
 - [QUIC](concepts/QUIC.md) - UDP-based transport protocol used by HTTP/3 for multiplexing, reliability, TLS integration, and connection identity.
 - [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - Recursive curve-simplification algorithm that retains points according to maximum deviation from segment chords.
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - LLM pattern that retrieves external information and supplies it as answer context.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
+- [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
 - [Time Management Quadrants](concepts/TimeManagementQuadrants.md) - Sorting tasks by urgency and importance to protect important work.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.

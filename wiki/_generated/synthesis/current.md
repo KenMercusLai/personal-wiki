@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 9ee540906c6d945c9a2371235d2b3055f21411df
-summary: "A personal wiki linking AI systems, software practice, learning, productivity, indie work, infrastructure, and creative localization."
-episode_count: 15
-source_count: 15
-paragraph_count: 18
+as_of_overview_commit: c8121b5aa035a7387e02ded5e3373d411be721db
+summary: "A personal wiki linking AI systems, software practice, learning, indie work, infrastructure, and creative localization."
+episode_count: 16
+source_count: 16
+paragraph_count: 19
 topic_count: 8
 ---
 
@@ -16,20 +16,20 @@ topic_count: 8
 
 ## Executive Summary
 
-- [[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; the [[CREAO]] and [[Claude]] case study makes this more automation-first than earlier collaboration-first guidance.
+- [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
+- [[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; production autonomy also needs runtime boundaries for side effects, capabilities, and recovery.
 - [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.
-- [[IndependentCreator]] work can become a staged career and business path when [[BootstrappedSaaS]], [[MicroCompany]] operations, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[PersonalBranding]], and [[ProgrammerFreelancing]] are combined rather than treating technical building as sufficient by itself.
-- [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside.
+- [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI is treated as both product capability and engineering workload: useful systems need retrieval, context control, workload-aware infrastructure, responsible coding practice, and harnesses that make agent work testable, observable, reversible, and bounded.
+AI is treated as both product capability and engineering workload: useful systems need retrieval, context control, workload-aware inference infrastructure, responsible coding practice, harnesses, and semantic runtime boundaries for high-permission agents.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. Evidence: [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]].

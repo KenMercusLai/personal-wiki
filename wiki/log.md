@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 为什么现有的 Agent Infra 无法支撑生产级应用？
+
+Added source note and synthesis pages for production agent infrastructure, effect logs, capability gateways, fork recovery, agent resumability, and semantic isolation. Added entity profiles for Guanlan, Kong, Kubernetes, Firecracker, gVisor, Modal, E2B, Temporal, Netflix Conductor, OpenClaw, and ClawShell, and updated AI-first engineering, harness engineering, and overview synthesis. Key claims: high-permission long-running agents need semantic side-effect logs, scoped credentials, and resumable checkpoints because existing sandboxes and workflow orchestrators operate at the wrong abstraction layer.
+
 ## [2026-09-12] ingest | 我把网站迁移到 cf，省了几万块
 
 Added source note and synthesis pages for Next.js deployment, cloud cost optimization, and edge runtime. Added entity profiles for idoubi, Vercel, Cloudflare, AWS, Next.js, Supabase, and Neon. Key claims: Vercel's integrated developer experience can become expensive under metered usage; AWS self-hosting trades platform cost for operations work; Cloudflare Pages can lower cost but requires edge-runtime compatibility changes.
@@ -107,6 +111,10 @@ Added source note and synthesis pages for AI coding practice, human code respons
 ## [2026-09-12] ingest | 一个独立创造者的五年
 
 Added source note and synthesis pages for independent creators, bootstrapped SaaS, micro-companies, SaaS marketing, customer-led product development, and business as art. Added entity profiles for Hawstein, AlgoCasts, Stripe, and Derek Sivers. Key claims: solo SaaS can combine global distribution, modular infrastructure, recurring revenue, practical marketing, and close customer support, but the model is shaped by autonomy preferences and real operational constraints.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

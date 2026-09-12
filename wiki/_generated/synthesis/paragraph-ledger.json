@@ -18,12 +18,13 @@
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
-      "716a663d3751d8c35bc7dd9192194c70c08fc4556077e00e91661f9623e72177"
+      "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
+      "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185"
     ],
-    "paragraph_count": 18
+    "paragraph_count": 19
   },
-  "overview_commit": "9ee540906c6d945c9a2371235d2b3055f21411df",
-  "overview_digest": "fd89500305380d72a92ba0ebde9421031f9b2e10d59f2559936c22533404cf9e",
+  "overview_commit": "c8121b5aa035a7387e02ded5e3373d411be721db",
+  "overview_digest": "a74af12e1256741b801e426f7e24e56b1e6e4379674aefcf81718516ba9ae4ff",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -335,10 +336,10 @@
       ]
     },
     {
-      "id": "716a663d3751d8c35bc7dd9192194c70c08fc4556077e00e91661f9623e72177",
+      "id": "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
-      "text": "The newest AI-first source extends the AI coding thread from individual practice into organization design. [[AIFirstEngineering]] is presented as more than putting AI tools into an existing agile workflow: it means redesigning planning, coding, review, testing, deployment, monitoring, and even non-engineering functions around agents as primary builders. The source's strongest qualification is that this only works when [[HarnessEngineering]] and [[SoftwareVerification]] are already strong: automated tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture make AI speed usable rather than chaotic. The translated [[PeterPang]] case study of [[CREAO]] and [[Claude]] is therefore more automation-first than Piglei's collaboration-first advice, but both converge on the same limiting factor: human value moves toward architecture, critical judgment, product taste, risk review, and the design of the systems that constrain agent output. For [[JuniorEngineerLearning]], the source adds a tension: juniors may adapt faster to AI-native workflows, but that does not remove the need to deliberately protect debugging, design, documentation, and architecture learning.",
+      "text": "The AI-first source extends the AI coding thread from individual practice into organization design. [[AIFirstEngineering]] is presented as more than putting AI tools into an existing agile workflow: it means redesigning planning, coding, review, testing, deployment, monitoring, and even non-engineering functions around agents as primary builders. The source's strongest qualification is that this only works when [[HarnessEngineering]] and [[SoftwareVerification]] are already strong: automated tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture make AI speed usable rather than chaotic. The translated [[PeterPang]] case study of [[CREAO]] and [[Claude]] is therefore more automation-first than Piglei's collaboration-first advice, but both converge on the same limiting factor: human value moves toward architecture, critical judgment, product taste, risk review, and the design of the systems that constrain agent output. For [[JuniorEngineerLearning]], the source adds a tension: juniors may adapt faster to AI-native workflows, but that does not remove the need to deliberately protect debugging, design, documentation, and architecture learning.",
       "topic_scores": {
         "ai-and-technology": 6,
         "business-and-markets": 1,
@@ -353,6 +354,27 @@
         "JuniorEngineerLearning",
         "PeterPang",
         "SoftwareVerification"
+      ]
+    },
+    {
+      "id": "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The production agent infrastructure source adds a runtime-safety layer to the wiki's agent material. [[Guanlan]] argues that agents become structurally different infrastructure workloads when they are long-running, read hostile inputs, hold real credentials, make nondeterministic decisions, and create irreversible side effects. [[ProductionAgentInfrastructure]] therefore needs [[EffectLog]] records for side-effecting tool calls, [[CapabilityGateway]] boundaries for scoped and revocable credentials, [[ForkRecovery]] checkpoints for decision-graph resumption, and [[AgentResumability]] as a reliability target beyond uptime. This qualifies the existing [[HarnessEngineering]] and [[AIFirstEngineering]] pages: tests, CI/CD, observability, and rollback are necessary workflow scaffolds, but high-permission autonomous agents also need [[SemanticIsolation]] so legitimate API calls cannot become unbounded damage when model output is wrong or prompt-injected.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AIFirstEngineering",
+        "AgentResumability",
+        "CapabilityGateway",
+        "EffectLog",
+        "ForkRecovery",
+        "Guanlan",
+        "HarnessEngineering",
+        "ProductionAgentInfrastructure",
+        "SemanticIsolation"
       ]
     }
   ],
