@@ -79,6 +79,23 @@
     },
     {
       "global_candidate": true,
+      "id": "indie-games-combine-expression-and-platform-volatility",
+      "qualifications": [
+        "The claim is grounded in one retrospective about one mobile indie game, not a representative game-industry dataset.",
+        "The source distinguishes creative success, gross revenue, passive income, and a durable full-time livelihood."
+      ],
+      "statement": "[[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "IndieGameDevelopment",
+        "AmirRajan",
+        "ADarkRoom",
+        "AppStore",
+        "CreativeTechnicalCareer"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "object-aesthetics-centers-participatory-disclosure",
       "qualifications": [
         "The claim is grounded in one Harman-oriented essay and should not be treated as a general account of all aesthetics or metaphor theory."
@@ -158,6 +175,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations and server-side game logic form a hidden delivery layer for live-game experience; BuzzFeed's media-brand portfolio frames Tasty-style service brands and platform revenue as conditions for shared culture and broadly accessible journalism or entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; independent game creation can turn software into evocative personal expression while remaining exposed to platform discovery and luck; game-server operations and server-side game logic form a hidden delivery layer for live-game experience; BuzzFeed's media-brand portfolio frames Tasty-style service brands and platform revenue as conditions for shared culture and broadly accessible journalism or entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }

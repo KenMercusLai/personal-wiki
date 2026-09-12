@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
@@ -89,6 +90,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Amir Rajan](entities/AmirRajan.md) - Indie game developer whose sabbatical produced the iOS version of A Dark Room and a deeply qualified success story about luck, runway, and returning to work.
+- [A Dark Room](entities/ADarkRoom.md) - Sparse text-based indie game whose iOS port reached #1 on the App Store and became Rajan's central creative and economic case.
+- [RubyMotion](entities/RubyMotion.md) - Mobile development platform Rajan used for his games and later acquired as part of his post-hit income mix.
 - [Amy Wibowo](entities/AmyWibowo.md) - Engineer, artist, researcher, and educator whose retrospective connects robotics, creative computing, Airbnb growth work, and computer-science zines.
 - [ASIMO](entities/ASIMO.md) - Honda humanoid robot used in Amy Wibowo's emotion-aware reinforcement-learning work.
 - [Bubblesort Zines](entities/BubblesortZines.md) - Amy Wibowo's illustrated computer-science zine project for accessible, inclusive technical education.
@@ -347,6 +351,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
 
 ## Concepts
+- [Sabbatical Career Experiment](concepts/SabbaticalCareerExperiment.md) - Savings-backed employment break used to recover from burnout, search for meaningful work, and risk personal runway on a creative or entrepreneurial bet.
+- [Indie Game Development](concepts/IndieGameDevelopment.md) - Solo or small-team game creation where expressive technical work meets platform discovery, monetization choices, and volatile sustainability.
 - [Computer Science Zines](concepts/ComputerScienceZines.md) - Self-published, illustration-heavy educational works that explain CS topics with approachable visual framing.
 - [Creative Technical Career](concepts/CreativeTechnicalCareer.md) - Career pattern where technical work, art, craft, education, and product-building become one evolving path.
 - [Reinforcement Learning](concepts/ReinforcementLearning.md) - Machine-learning approach where agents improve decisions through rewards, penalties, and repeated action.
