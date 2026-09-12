@@ -6,6 +6,7 @@ sources:
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
   - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
+  - du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -14,7 +15,7 @@ knowledge_schema: synthesis-v1
 [[AICodingPractice]] is the set of engineering behaviors, team norms, and review habits used when software developers work with AI coding agents.
 
 ## Current Synthesis
-The sources frame AI coding practice as a sociotechnical discipline rather than a prompt library. Piglei emphasizes the individual and team practice layer: understand generated code, shape the design, control review size, prefer stable libraries for mature problems, verify behavior, and protect learning. The AI-first source expands the frame to organization-level workflow design: agents become useful at production speed only when surrounded by tests, CI/CD, monitoring, task management, architecture, feature flags, and human strategic review. Onevcat adds a practitioner workflow view from intensive [[ClaudeCode]] use: fast [[VibeCoding]] works best when tasks are planned or prototyped deliberately, kept small enough to understand, verified continuously, and paced so the tool does not dictate the human tempo.
+The sources frame AI coding practice as a sociotechnical discipline rather than a prompt library. Piglei emphasizes the individual and team practice layer: understand generated code, shape the design, control review size, prefer stable libraries for mature problems, verify behavior, and protect learning. The AI-first source expands the frame to organization-level workflow design: agents become useful at production speed only when surrounded by tests, CI/CD, monitoring, task management, architecture, feature flags, and human strategic review. Onevcat adds a practitioner workflow view from intensive [[ClaudeCode]] use: fast [[VibeCoding]] works best when tasks are planned or prototyped deliberately, kept small enough to understand, verified continuously, and paced so the tool does not dictate the human tempo. [[ChunYinUncle]]'s source sharpens the task-granularity rule: "AI wrote 99%" can be controlled when the human writes precise file-aware instructions, but becomes dangerous when broad delegation produces code nobody can explain.
 
 ## Key Claims
 - AI coding practice requires shared team expectations because inconsistent agent-use habits can create collaboration friction.
@@ -22,7 +23,7 @@ The sources frame AI coding practice as a sociotechnical discipline rather than 
 - Collaboration with agents should include design exploration and implementation reasoning, not only natural-language task assignment.
 - Fast AI output increases the need for small PRs, review aids, and pre-PR self-review.
 - Verification through tests and self-checks is part of the workflow, not a later review responsibility.
-- Junior engineers and intensive coding-agent users need practices that protect learning, human pace, and task control rather than optimize only for speed.
+- Junior engineers, independent developers, and intensive coding-agent users need practices that protect learning, human pace, and task control rather than optimize only for speed.
 - AI-first coding practice depends on engineering systems that let agent output be checked, shipped, observed, and rolled back quickly.
 
 ## Evidence
@@ -34,13 +35,16 @@ The sources frame AI coding practice as a sociotechnical discipline rather than 
 - Learning stage: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] gives junior engineers stricter advice on debugging, independent design, documentation, and architecture learning.
 - Production harness: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] argues that AI coding speed only helps when automated tests, CI/CD, feature flags, monitoring, task decomposition, and architecture are already strong.
 - Task boundary and pace: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] recommends small iterations, version-control safety, modular work, and remembering that faster tools still need human thinking time and life space.
+- Task granularity: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] contrasts project-breaking large-grain delegation with small, explicit instructions that name files, functions, state flow, UI behavior, localization needs, and acceptance targets.
+- Independent-developer control: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] shows an independent developer using AI to build unfamiliar iOS and Flutter work while still reviewing code, inspecting changed files, and accepting the result deliberately.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, and the strength of the surrounding verification harness.
+The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, and the strength of the surrounding verification harness.
 
 ## What Changed
 - Added the AI-first source's organization-level workflow view while preserving Piglei's responsibility, reviewability, and learning constraints.
 - Added the Claude Code source's practitioner emphasis on small iterations, context-aware task boundaries, and human pace.
+- Added the independent-developer source's distinction between dangerous large-grain delegation and controlled file-aware task slicing.
 
 ## Related Concepts
 - [[HumanCodeResponsibility]] - accountability is the foundation of the article's practice model.

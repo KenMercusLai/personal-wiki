@@ -45,6 +45,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [费曼学习法实践 / INDIGO 的信息获取与知识输出方法论](sources/feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology.md) - A Feynman-style learning workflow connecting focused reading, structured output, personal knowledge bases, and AI-assisted note organization.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 - [泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳](sources/pao-pao-ma-te-yin-wei-du-te-du-hou-gan-he-wang-ning-mai-xing-xing-bang-de-gu-shi-li-ji-ao.md) - A Pop Mart investment reading note arguing that revenue rests on designer-toy demand, series-based blind boxes, Labubu category expansion, and Wang Ning's founder-led organizational evolution.
+- [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
@@ -152,6 +153,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sonny Angel](entities/SonnyAngel.md) - External designer-toy IP whose strong sales helped Pop Mart discover the category and pursue controlled IP.
 - [MOLLY](entities/MOLLY.md) - Pop Mart IP milestone marking the company's shift toward self-operated designer-toy characters.
 - [Li Jiaoao](entities/LiJiaoao.md) - Blogger-investor author of the Pop Mart reading note.
+- [Chun Yin Uncle](entities/ChunYinUncle.md) - Author sharing an authorized independent-developer account of controlled AI coding practice.
+- [QuanXiao](entities/QuanXiao.md) - PM discussion community cited as the venue for senior-programmer discussion about AI coding granularity, tools, and model choice.
+- [Cursor](entities/Cursor.md) - AI coding tool mentioned in a team workflow that records implementation conventions for agent use.
 
 ## Concepts
 - [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that read, write, edit, and bash can form a small but powerful coding-agent tool surface.

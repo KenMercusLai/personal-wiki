@@ -5,6 +5,7 @@ tags: [ai, software-engineering, collaboration]
 sources:
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
+  - du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -13,7 +14,7 @@ knowledge_schema: synthesis-v1
 [[AIAgentCollaboration]] is a working mode where an engineer uses an AI agent as a reasoning partner for design, debugging, implementation, and review while retaining active understanding and decision authority.
 
 ## Current Synthesis
-The sources contrast collaboration with blind delegation. Piglei argues that collaboration requires the engineer to inspect assumptions, understand implementation details, ask questions, challenge proposals, and use the agent to broaden design exploration. Onevcat adds a workflow-level view: Plan Mode can act as a rubber-duck and architecture discussion partner, while exploratory prototypes may justify faster implementation-first loops when the developer is still discovering the problem.
+The sources contrast collaboration with blind delegation. Piglei argues that collaboration requires the engineer to inspect assumptions, understand implementation details, ask questions, challenge proposals, and use the agent to broaden design exploration. Onevcat adds a workflow-level view: Plan Mode can act as a rubber-duck and architecture discussion partner, while exploratory prototypes may justify faster implementation-first loops when the developer is still discovering the problem. Chun Yin Uncle's source adds an intern-management analogy: the human may type little code, but still specifies exact tasks, architecture, files, naming conventions, tests, and acceptance conditions.
 
 ## Key Claims
 - Collaboration and delegation are different mental models for AI agent use.
@@ -22,7 +23,7 @@ The sources contrast collaboration with blind delegation. Piglei argues that col
 - Plan-mode or explicit questioning helps clarify requirements before implementation starts.
 - Skepticism and counter-questioning prevent the engineer from being led passively by AI output.
 - Curiosity about unfamiliar agent-generated libraries or patterns can expand the engineer's capability boundary.
-- Collaboration style should vary with task risk, codebase familiarity, and whether the work is maintenance or exploration.
+- Collaboration style should vary with task risk, codebase familiarity, and whether the work is maintenance, exploration, or detailed natural-language implementation specification.
 
 ## Evidence
 - Mental models: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] defines collaboration as joint decision-making based on understanding, while delegation focuses on results.
@@ -32,13 +33,16 @@ The sources contrast collaboration with blind delegation. Piglei argues that col
 - Skepticism: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] encourages independent thinking, skeptical questions, and not being led by the agent.
 - Curiosity: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] says engineers should ask deeply about surprising libraries, patterns, or code fragments.
 - Situational workflow: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] recommends planning for existing architecture and maintenance work, but notes that quick prototypes can reveal unknowns faster than abstract planning alone.
+- Intern-like management: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] quotes programmers describing AI coding as like managing an intern whose tasks must be decomposed almost to the function level.
+- Written conventions: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] says one team records implementation ideas, file habits, and naming habits for AI to follow in [[Cursor]].
 
 ## Counterevidence & Qualifications
-The sources do not fully map when delegation is acceptable for low-risk or disposable work. Their strongest warnings apply to production code, maintainability, and learning contexts where misunderstanding has real cost; Onevcat's prototype exception should not be generalized to safety-critical or long-lived systems.
+The sources do not fully map when delegation is acceptable for low-risk or disposable work. Their strongest warnings apply to production code, maintainability, and learning contexts where misunderstanding has real cost; Onevcat's prototype exception should not be generalized to safety-critical or long-lived systems. The new source also depends on high human skill in decomposition and expression, which it explicitly says many programmers may not yet have.
 
 ## What Changed
 - Created the concept page for collaboration-first use of AI coding agents.
 - Added a situational distinction between planning-heavy collaboration and exploratory prototype loops.
+- Added the independent-developer source's intern-management and convention-file model of collaboration.
 
 ## Related Concepts
 - [[AICodingPractice]] - agent collaboration is the source's preferred working model for AI coding.

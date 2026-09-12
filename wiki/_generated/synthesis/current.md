@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 1a8d7c2812998f40878412df06997c430783ae59
+as_of_overview_commit: 8e791c19b51c5cee8cc2786c46a43817a29a85ae
 summary: "A personal wiki on AI practice, learning, creator work, infrastructure, strategy, consumer IP, and agency, emphasizing human judgment, feedback loops, and context."
-episode_count: 39
-source_count: 39
-paragraph_count: 42
+episode_count: 40
+source_count: 40
+paragraph_count: 43
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking.
-- [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] also requires small steps, context control, and humane pacing.
+- [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] also requires small steps, precise task decomposition, context control, and humane pacing.
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
 - [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - [[DifferentiationStrategy]] argues that crowded markets require a customer-visible reason to choose because copyable features, category saturation, and competitor benchmarking make offers converge.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-The AI and technology material centers on human-controlled use of AI systems: knowledge tools, AI-assisted writing, education for model judgment, note-system fit, inference routing, retrieval apps, coding-agent practice, context/action mechanisms, prompt caching, production-agent infrastructure, LLM data-analysis caution, and big-data automation. The SGD paragraph is treated only as metaphor spillover, not as an AI systems finding.
+The AI and technology material centers on human-controlled use of AI systems: knowledge tools, AI-assisted writing, education for model judgment, note-system fit, inference routing, retrieval apps, coding-agent practice, vibe coding, context/action mechanisms, prompt caching, production-agent infrastructure, LLM data-analysis caution, and big-data automation. The newest AI-coding source adds that agent speed stays accountable only when developers decompose work precisely and prevent hidden risk from accumulating in code they cannot understand.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking. Evidence: [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]].
@@ -57,28 +57,28 @@ The culture and media topic focuses on translation, reading-note practice, and a
 
 ### Governance and Institutions
 
-The governance topic is a spillover home for infrastructure, security, and learning material that touches institutions without being primarily about them. Its strongest content concerns how operational constraints, standards, and environments shape action.
+The governance-related material is still narrow but spans three control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains only secondary spillover from prompt-caching and context-management material rather than a substantive historical or geopolitical synthesis.
+The history and geopolitics topic currently has no substantive historical or geopolitical synthesis in this bounded input; the lone paragraph is a technical AI prompt-caching discussion assigned here as classifier spillover.
 
 ### Psychology and Personal Development
 
-The psychology and personal-development material centers on motivation, creator anxiety, and agency. Goals can protect curiosity and knowledge valuation; Li Mu's SGD metaphor adds iterative life design through large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when tied to controllable actions and audience value rather than raw metrics.
+The psychology and personal-development topic centers on motivation, creator anxiety, and learning agency. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics.
 
 - [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]], and can guide iterative action when paired with good-enough steps, exploration, rest, and [[SelfDiscipline]]. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[SelfDiscipline]], [[PersonalProductivity]], [[StochasticGradientDescent]].
 
 ### Science, Health, and Climate
 
-The science, health, and climate topic currently holds indirect health-adjacent material: attention is treated as a scarce cognitive resource, and alcohol abstinence is framed as protecting cognition. The evidence is advice-oriented rather than a scientific review.
+The topic remains mostly indirect. It covers attention and mental load in productivity advice, and now includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-The work, education, and society topic links productivity, attention, environmental fields, active learning, workplace learning, AI-era education, PKM restraint, creator systems, career planning, and independent work. Its strongest synthesis is that sustainable agency depends on practical routines, feedback-rich learning loops, simplified systems that serve output, supportive environments, and business or career structures that account for constraints.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic includes work-adjacent infrastructure lessons where mature standards, cloud deployment choices, and data automation reshape workflows when their constraints are understood.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].
