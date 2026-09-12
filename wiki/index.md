@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
 - [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
@@ -85,6 +86,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer.
 - [Software Brothers](entities/SoftwareBrothers.md) - Software agency/source publisher using famous startup MVP examples to promote core-value validation before full product buildout.
+- [Hack Career](entities/HackCareer.md) - Career-advice publisher/source for the job-application side-project framework.
+- [Feross Aboukhadijeh](entities/FerossAboukhadijeh.md) - Developer cited for the rare attention-generating YouTube Instant side project.
+- [YouTube Instant](entities/YouTubeInstant.md) - Side project used as the source's exceptional viral project and job-offer example.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Wang Ziting](entities/WangZiting.md) - Developer-blogger reflecting on side-project release discipline, container platforms, game backend architecture, and Redis-backed task queues.
@@ -255,6 +259,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.
 - [Container Application Startup](concepts/ContainerApplicationStartup.md) - Application-owned initialization design for optional config, env overrides, local directories, dependency retry, and startup logs in containers.
 - [Release-Focused Side Projects](concepts/ReleaseFocusedSideProjects.md) - Side-project discipline of focusing on one project, reaching usable releases quickly, and preserving feedback before scope expands.
+- [Job-Application Side Projects](concepts/JobApplicationSideProjects.md) - Shipped personal projects designed to make ability, judgment, and fit credible to employers.
 - [Declarative Infrastructure](concepts/DeclarativeInfrastructure.md) - Infrastructure model where desired-state resources and controllers reconcile actual system state.
 - [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications work with container storage, health, lifecycle, and build assumptions rather than merely packaging old programs.
 - [Server-Side Game Logic](concepts/ServerSideGameLogic.md) - Game backend pattern for running authoritative or anti-cheat logic on the server while coordinating with clients through a message service.

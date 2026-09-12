@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech
+
+Added source note plus pages for job-application side projects, Hack Career, Feross Aboukhadijeh, and YouTube Instant. Updated release-focused side projects, career planning, personal branding, index, and overview to reflect the source's claim that career-helpful side projects must be relevant, deep, iterated, shipped, and made visible to employers. Inspected the Field of Dreams image as contextual; the repeated newsletter portrait image was not present at the resolved local path.
+
 ## [2026-09-12] ingest | 2018 年度小结（技术方面）
 
 Ingested Wang Ziting's 2018 technical retrospective. Added source, entity, and concept pages for release-focused side projects, LeanCloud game backend work, Client Engine, Redis-backed task queue design, declarative infrastructure, container-native practice, and server-side game logic. Updated Docker, Kubernetes, Product Evolution, index, and overview; inspected the referenced logo image and classified it as decorative.
@@ -467,6 +471,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 12 Fractured Apps
 
 Ingested Kelsey Hightower's Docker application startup essay. Added source, entity, and concept pages for Docker-friendly startup, runtime configuration, and twelve-factor deployment behavior.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 4b0ae730e14ed686a5ce23a262b1c7c3297b87bf
+as_of_overview_commit: 62323243385545f7a71ac448477797cddff344a0
 summary: "A map of learning, AI, products, infrastructure, culture, and governance as feedback systems grounded in judgment, constraints, and accountable ownership."
-episode_count: 58
-source_count: 58
-paragraph_count: 61
+episode_count: 59
+source_count: 59
+paragraph_count: 62
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ The AI and technology thread treats AI systems, mobile platforms, data work, rea
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics, MVP-based startup validation, startup scaling, long-lived software-product evolution, mobile platform strategy, developer-tool UX, container-friendly deployment, backend-platform product design, market positioning, consumer-IP operations, startup equity design, and the organizational side of reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, MVP tests, release-focused side projects, CLI tools, Dockerized applications, Instapaper-style consumer software, and mobile-era products depend on revenue stability, platform timing, modular infrastructure, customer learning, runtime configuration, lifecycle behavior, early willingness-to-pay tests, marketing, support, contribution surfaces, business-model adaptation, discovery control, and product promise rather than technical building alone. A newer backend-platform thread adds that Kubernetes-style declarative infrastructure, container-native practice, server-side game logic, and Redis-backed task queues only become products when they fit user concepts, operational state, and recovery needs.
+The business-and-markets material combines independent creator economics, MVP-based startup validation, startup scaling, long-lived software-product evolution, mobile platform strategy, developer-tool UX, container-friendly deployment, backend-platform product design, market positioning, consumer-IP operations, startup equity design, and the organizational side of reliability. Bootstrapped SaaS, programmer freelancing, small product portfolios, MVP tests, release-focused side projects, CLI tools, Dockerized applications, Instapaper-style consumer software, and mobile-era products depend on revenue stability, platform timing, modular infrastructure, customer learning, runtime configuration, lifecycle behavior, early willingness-to-pay tests, marketing, support, contribution surfaces, business-model adaptation, discovery control, and product promise rather than technical building alone. Kubernetes-style declarative infrastructure, container-native practice, server-side game logic, and Redis-backed task queues only become products when they fit user concepts, operational state, and recovery needs.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; and [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]].
@@ -65,7 +65,7 @@ The history and geopolitics topic currently has no substantive geopolitical synt
 
 ### Psychology and Personal Development
 
-The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, user-facing cognitive friction, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; iterative life design, field awareness, and creator feedback loops help people convert pressure into controllable action while avoiding metric traps and coercive learning.
+The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, user-facing cognitive friction, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. The CLI source appears here as a secondary UX-friction case: explicit help, flags, errors, prompts, command grammar, and automation contracts make technical tools easier to understand and trust. Prompt-cache material is present only as technical classifier spillover.
 
 - [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 - [[CommandLineUX]] reduces user confusion when [[CLIApplicationDesign]] makes help, flags, errors, prompts, [[StructuredCLIOutput]], and [[CLICommandGrammar]] explicit while [[AutomationFriendlyCLI]] keeps rich terminal behavior from breaking scripts and pipelines. Evidence: [[CommandLineUX]], [[CLIApplicationDesign]], [[StructuredCLIOutput]], [[CLICommandGrammar]], [[AutomationFriendlyCLI]], [[JeffDickey]], [[Heroku]], [[Oclif]].
@@ -78,7 +78,7 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. Career, creator, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, long-term fit, and employer-facing evidence; side projects help a job search only when shipped, relevant, iterated, and made visible.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

@@ -219,16 +219,22 @@
       "id": "career-fit-requires-path-design",
       "qualifications": [
         "The career source is a short advice article and comment-thread discussion, not a systematic career-outcomes study.",
-        "The freelancer source cautions that heavy financial pressure can make the experiment unsafe."
+        "The freelancer source cautions that heavy financial pressure can make the experiment unsafe.",
+        "Side projects may have little hiring impact when they are irrelevant, shallow, unshipped, uniterated, or hidden from reviewers."
       ],
-      "statement": "[[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values, while [[ProgrammerFreelancing]] adds a reversible experiment that must account for money, isolation, and fallback design.",
+      "statement": "[[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values; [[ProgrammerFreelancing]] adds a reversible experiment around money, isolation, and fallback design, while [[JobApplicationSideProjects]] make career-transition claims credible only when projects are relevant, deep, iterated, shipped, and visible.",
       "status": "qualified",
       "supporting_wikilinks": [
         "CareerPlanning",
         "GPVCareerFormula",
         "GoalSetting",
         "RichardLeider",
-        "ProgrammerFreelancing"
+        "ProgrammerFreelancing",
+        "JobApplicationSideProjects",
+        "ReleaseFocusedSideProjects",
+        "PersonalBranding",
+        "YouTubeInstant",
+        "FerossAboukhadijeh"
       ]
     },
     {
@@ -313,6 +319,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, and long-term fit, while mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, long-term fit, and employer-facing evidence; side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
   "topic_id": "work-education-and-society"
 }

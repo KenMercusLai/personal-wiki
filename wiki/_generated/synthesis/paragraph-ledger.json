@@ -37,6 +37,7 @@
       "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
       "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
       "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
+      "c7a67598d7ba9da2bc85ed454ae9e8740b80c0e94bd8a2fd2e9701e4c2c010b9",
       "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
@@ -63,10 +64,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 61
+    "paragraph_count": 62
   },
-  "overview_commit": "4b0ae730e14ed686a5ce23a262b1c7c3297b87bf",
-  "overview_digest": "3c1c2d27d84b461d3b7abeb0db90e9bcd5628100b2342e4913da61c4832040a4",
+  "overview_commit": "62323243385545f7a71ac448477797cddff344a0",
+  "overview_digest": "a92e5b3bf040f6b5fe121c5926c2815d812a6caadb94810bb08c2951a6be3fc0",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -733,6 +734,22 @@
         "GPVCareerFormula",
         "GoalSetting",
         "RichardLeider"
+      ]
+    },
+    {
+      "id": "c7a67598d7ba9da2bc85ed454ae9e8740b80c0e94bd8a2fd2e9701e4c2c010b9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The Hack Career side-project source adds a narrower job-search tactic to that career thread. [[JobApplicationSideProjects]] are treated as evidence for employers, not proof of effort by themselves: a useful project should be relevant to the target role, deep enough to represent likely work quality, and iterated after launch or feedback. This strengthens [[ReleaseFocusedSideProjects]] by insisting that learning a skill is not enough unless the candidate ships something inspectable, and it sharpens [[PersonalBranding]] by making resume placement, credibility indicators, public process notes, screenshots, demos, and profile links part of the evidence chain. [[YouTubeInstant]] and [[FerossAboukhadijeh]] define the rare viral \"Field of Dreams\" path, but the source's practical advice is aimed at ordinary projects that help answer concrete hiring concerns.",
+      "topic_scores": {
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "FerossAboukhadijeh",
+        "JobApplicationSideProjects",
+        "PersonalBranding",
+        "ReleaseFocusedSideProjects",
+        "YouTubeInstant"
       ]
     },
     {
