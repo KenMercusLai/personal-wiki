@@ -58,6 +58,9 @@ GENERATED_TEXT_SUFFIXES = {
     ".txt", ".webmanifest", ".xml",
 }
 HTTP_URL_PATTERN = re.compile(r"(?i)https?://[^\s<>\"'\[\](){};,!，；！]+")
+INLINE_CODE_SPAN_PATTERN = re.compile(
+    r"(?<!`)(?P<delimiter>`+)(?!`)(?P<content>.*?)(?<!`)(?P=delimiter)(?!`)"
+)
 MAX_DECODE_PASSES = 16
 
 
@@ -290,6 +293,18 @@ def _normalize_visible_prose(text: str) -> str:
     return " ".join(
         text.translate(str.maketrans({"\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"'})).split()
     )
+
+
+def _canonical_markdown_visible_text(text: str) -> str:
+    """Project canonical inline code to the text visible after Goldmark rendering."""
+
+    def replace_code_span(match: re.Match[str]) -> str:
+        content = re.sub(r"[\r\n]", " ", match.group("content"))
+        if content.startswith(" ") and content.endswith(" ") and content.strip(" "):
+            content = content[1:-1]
+        return content
+
+    return INLINE_CODE_SPAN_PATTERN.sub(replace_code_span, text)
 
 
 def without_http_url_paths(text: str) -> str:
@@ -899,11 +914,25 @@ def _verify_projection(contract: CanonicalContract, parsers: dict[str, PageParse
         if required_heading not in detail.visible_text:
             raise ValueError(f"Current Synthesis detail is missing {required_heading}")
     open_page = parsers["wiki/open-questions/index.html"]
-    normalized_open_text = _normalize_visible_prose(open_page.visible_text)
+    expected_questions = []
     for line in contract.open_questions.splitlines():
-        visible = line.removeprefix("-").strip()
-        if visible and _normalize_visible_prose(visible) not in normalized_open_text:
-            raise ValueError(f"Open Questions projection omitted canonical text: {visible}")
+        canonical = line.removeprefix("-").strip()
+        if canonical:
+            expected_questions.append(
+                _normalize_visible_prose(_canonical_markdown_visible_text(canonical))
+            )
+    actual_questions = [
+        _normalize_visible_prose(item.text)
+        for item in open_page.section_items
+    ]
+    if actual_questions != expected_questions:
+        missing = next(
+            (question for question in expected_questions if question not in actual_questions),
+            None,
+        )
+        if missing is not None:
+            raise ValueError(f"Open Questions projection omitted canonical text: {missing}")
+        raise ValueError("Open Questions projection order/content mismatch")
     expected_projection_links = {
         urljoin(root_url, "wiki/current-synthesis/"),
         urljoin(root_url, "wiki/open-questions/"),
