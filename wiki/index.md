@@ -44,6 +44,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [褪墨 - 使用 G+P+V 思考你的职业生涯](sources/tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya.md) - A career-reflection article using gifts, passion, and values to treat career as a path rather than a single job.
 - [费曼学习法实践 / INDIGO 的信息获取与知识输出方法论](sources/feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology.md) - A Feynman-style learning workflow connecting focused reading, structured output, personal knowledge bases, and AI-assisted note organization.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
+- [泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳](sources/pao-pao-ma-te-yin-wei-du-te-du-hou-gan-he-wang-ning-mai-xing-xing-bang-de-gu-shi-li-ji-ao.md) - A Pop Mart investment reading note arguing that revenue rests on designer-toy demand, series-based blind boxes, Labubu category expansion, and Wang Ning's founder-led organizational evolution.
 
 ## Entities
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
@@ -144,6 +145,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wei Jie](entities/WeiJie.md) - Translator-programmer and author of the Women Communication localization note.
 - [女性交流](entities/WomenCommunication.md) - Pun-heavy Japanese indie game whose Chinese localization is used as a translation case study.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
+- [Pop Mart](entities/PopMart.md) - Chinese designer-toy and consumer-IP company presented as evolving from retail toward IP operations.
+- [Wang Ning](entities/WangNing.md) - Pop Mart founder characterized through early retail practice, product sense, and iterative business-model evolution.
+- [Labubu](entities/Labubu.md) - Pop Mart character IP used as a case for revenue concentration, trend risk, and category expansion.
+- [Because Unique](entities/BecauseUnique.md) - Book about Pop Mart and Wang Ning used by Li Jiaoao as context for business-model interpretation.
+- [Sonny Angel](entities/SonnyAngel.md) - External designer-toy IP whose strong sales helped Pop Mart discover the category and pursue controlled IP.
+- [MOLLY](entities/MOLLY.md) - Pop Mart IP milestone marking the company's shift toward self-operated designer-toy characters.
+- [Li Jiaoao](entities/LiJiaoao.md) - Blogger-investor author of the Pop Mart reading note.
 
 ## Concepts
 - [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that read, write, edit, and bash can form a small but powerful coding-agent tool surface.
@@ -279,5 +287,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems by reconstructing expert reasoning, replaying traces, and verifying abstractions hands-on.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
 - [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.
+- [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
+- [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
+- [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.
 
 ## Syntheses

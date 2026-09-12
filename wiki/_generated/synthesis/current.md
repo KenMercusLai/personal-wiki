@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: e807f0768a3b5688e59157fd95cab4a4b78bbb0b
-summary: "A personal wiki on AI practice, learning, creator work, infrastructure, strategy, and agency, emphasizing human judgment, feedback loops, and context."
-episode_count: 38
-source_count: 38
-paragraph_count: 41
+as_of_overview_commit: 1a8d7c2812998f40878412df06997c430783ae59
+summary: "A personal wiki on AI practice, learning, creator work, infrastructure, strategy, consumer IP, and agency, emphasizing human judgment, feedback loops, and context."
+episode_count: 39
+source_count: 39
+paragraph_count: 42
 topic_count: 9
 ---
 
@@ -21,9 +21,9 @@ topic_count: 9
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
 - [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - [[DifferentiationStrategy]] argues that crowded markets require a customer-visible reason to choose because copyable features, category saturation, and competitor benchmarking make offers converge.
+- [[PopMart]] adds a consumer-IP variant of business strategy: [[BlindBoxRetail]] can monetize designs customers already want, while [[Labubu]] concentration risk is managed, if at all, through [[DesignerToyIPOperations]] and [[FounderLedOrganizationalEvolution]] under [[WangNing]].
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]], and can guide iterative action when paired with good-enough steps, exploration, rest, and [[SelfDiscipline]].
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
-- [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
 
 ## Synthesis by Domain
 
@@ -36,7 +36,7 @@ The AI and technology material centers on human-controlled use of AI systems: kn
 
 ### Business and Markets
 
-The business topic connects independent SaaS, programmer freelancing, small-product portfolios, and differentiation strategy. The shared pattern is that technical building needs product validation, payment and distribution infrastructure, customer feedback, positioning, brand distinctiveness, and realistic income sequencing.
+The business topic connects independent SaaS, programmer freelancing, small-product portfolios, differentiation strategy, and consumer-IP operations. The shared pattern is that technical building or product popularity is insufficient by itself: durable business work also needs validation, payment and distribution infrastructure, customer feedback, positioning, brand distinctiveness, revenue sequencing, controlled IP, design renewal, and realistic handling of concentration risk.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].

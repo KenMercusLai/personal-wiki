@@ -32,6 +32,7 @@
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
       "fcaef8947722538a926064e7052b84774f3ff0a6ec693bcb38db34141d3277c1",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
+      "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
       "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
@@ -43,10 +44,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 41
+    "paragraph_count": 42
   },
-  "overview_commit": "e807f0768a3b5688e59157fd95cab4a4b78bbb0b",
-  "overview_digest": "592140222bde97584be7db39c8d2334bae76ddc7e4cf53375d8c2709a3f2fbe3",
+  "overview_commit": "1a8d7c2812998f40878412df06997c430783ae59",
+  "overview_digest": "463ccc35d25919ba553c7adbdfc58ae1a43efcbb3e03b452e5fce88c7173368f",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -615,6 +616,30 @@
         "Drift",
         "Mailchimp",
         "PersonalBranding"
+      ]
+    },
+    {
+      "id": "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Pop Mart source adds a consumer-IP case to the business and brand cluster. [[LiJiaoao]] argues that [[PopMart]] should not be reduced to irrational blind-box demand: [[BlindBoxRetail]] in this account works through series-level randomness layered over designs customers already want, while extreme scarcity would require a more lottery-like whole-IP prize pool. [[Labubu]] becomes both proof of hit-IP power and concentration risk because the source says it grew to 14.1 billion yuan and 38% of 2025 revenue; the offsetting thesis is [[DesignerToyIPOperations]], where new styling, plush goods, accessories, daily-use categories, licensing, collaborations, and spaces can maintain recognition and widen revenue. The source also adds [[FounderLedOrganizationalEvolution]] through [[WangNing]]: student retail, the star-wand recovery story, [[SonnyAngel]] category discovery, and [[MOLLY]]-era self-operated IP are treated as evidence that Pop Mart's deeper capability may be business-model adaptation rather than one static product cycle.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 6,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BlindBoxRetail",
+        "DesignerToyIPOperations",
+        "FounderLedOrganizationalEvolution",
+        "Labubu",
+        "LiJiaoao",
+        "MOLLY",
+        "PopMart",
+        "SonnyAngel",
+        "WangNing"
       ]
     },
     {

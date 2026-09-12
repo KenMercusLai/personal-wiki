@@ -116,6 +116,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳
+
+Added source note and new profiles for Pop Mart, Wang Ning, Labubu, Because Unique, Sonny Angel, MOLLY, and Li Jiaoao. Added concepts for blind-box retail, designer-toy IP operations, and founder-led organizational evolution. Key claims: Pop Mart's blind-box format is framed as series-level randomness over real product demand; Labubu is both a large concentration risk and an expansion platform; and Wang Ning's long retail iteration is treated as evidence of adaptive organizational capability.
+
 ## [2026-09-12] ingest | 李沐 - 用随机梯度下降来优化人生
 
 Added source note plus pages for Li Mu and stochastic gradient descent as a life-strategy metaphor. Updated goal setting, personal productivity, and self-discipline with the essay's emphasis on large objectives, small repeated steps, variable pacing, exploration, comfort-zone escape, humility about starting points, and restart after instability.
@@ -303,6 +307,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 是的，我用AI写文章，咋滴
 
 Added source note for Feng Ruohang's AI-assisted writing workflow, created pages for AI-Assisted Writing, Feng Ruohang, Gemini, and ChatGPT, and updated related writing/output/Claude synthesis pages.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
