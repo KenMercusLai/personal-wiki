@@ -148,6 +148,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 7 Lessons on Building Product with Outsourced Developers - Mind the Product
+
+Ingested Mind the Product's outsourced-development article. Added source, entity, and concept pages for outsourced product development; updated MVP, customer-led development, startup hypothesis testing, and product evolution to capture outsourced prototype validation, QA/specification responsibility, and later refactoring or replacement costs.
+
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -561,5 +565,9 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

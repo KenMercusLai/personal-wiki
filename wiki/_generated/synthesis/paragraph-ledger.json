@@ -68,13 +68,14 @@
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
+      "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 69
+    "paragraph_count": 70
   },
-  "overview_commit": "77a1b9d239471774c41a8003b34ba7ae55071f73",
-  "overview_digest": "1ce8b04ddd88392a137f7a2e74793aa246a2b3fbd8e3153736cbacabf0a7ccff",
+  "overview_commit": "3d927a811343edd122b4fdf40964892ff486a6cf",
+  "overview_digest": "7ece2a4724ec9fca4b3de1360895f66c5fe25dff3a3676b05af95d1dd1ac2021",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1398,6 +1399,24 @@
         "Slack",
         "StartupEquityTransparency",
         "YCombinator"
+      ]
+    },
+    {
+      "id": "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The outsourced-development source adds an execution and ownership layer to the wiki's MVP and product-evolution material. [[MindTheProduct]] frames [[OutsourcedProductDevelopment]] as potentially useful when an external team is building a bounded concept prototype or [[MinimumViableProduct]] to test market demand, but risky when treated as a generic cheap replacement for internal capability. The article's core qualification is that outsourced work shifts responsibility back onto the product owner: references, fit tests, critical scope, developer-preferred communication, product-manager QA, granular technical documentation, and explicit issue tracking are what turn external code into usable learning. This also sharpens [[ProductEvolution]]: early externally built code may be refactored, handed off slowly, or discarded after validation rather than treated as the permanent foundation.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "MindTheProduct",
+        "MinimumViableProduct",
+        "OutsourcedProductDevelopment",
+        "ProductEvolution"
       ]
     },
     {

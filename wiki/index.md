@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [7 Lessons on Building Product with Outsourced Developers - Mind the Product](sources/7-lessons-on-building-product-with-outsourced-developers-mind-the-product.md) - Mind the Product article arguing that outsourced development can support MVP validation when hiring, fit testing, scope, QA, technical documentation, and issue tracking are managed explicitly.
 - [51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses](sources/51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses.md) - Practitioner catalog of growth-hacking cases showing how product-integrated sharing, referrals, freemium entry, content, trust systems, stunts, partnerships, and paid search can drive user or revenue growth.
 - [4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support](sources/4wk-clean-uninstall-then-reinstall-of-wsl-on-windows-10-with-systemd-support.md) - Procedural WSL note explaining how to cleanly remove and reinstall WSL on Windows 10, choose a distribution, enable native systemd through `/etc/wsl.conf`, and verify the result.
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
@@ -75,6 +76,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of seeding early adoption through tech-community events and free rides.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging and content-led acquisition case.
@@ -296,6 +298,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 
 ## Concepts
+- [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.

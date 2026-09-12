@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-12
-as_of_overview_commit: 77a1b9d239471774c41a8003b34ba7ae55071f73
+last_updated: 2026-09-13
+as_of_overview_commit: 3d927a811343edd122b4fdf40964892ff486a6cf
 summary: "A living map of AI practice, learning, work, product strategy, infrastructure, markets, media, and trust across source-backed wiki notes."
-episode_count: 67
-source_count: 67
-paragraph_count: 69
+episode_count: 68
+source_count: 68
+paragraph_count: 70
 topic_count: 9
 ---
 
@@ -19,7 +19,7 @@ topic_count: 9
 - [[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
 - [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] and large [[AgentTeam]] work require small steps, precise task decomposition, context control, specs, memory hygiene, and humane pacing.
 - [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
-- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
+- [[OutsourcedProductDevelopment]] is useful in the supplied evidence only when [[MindTheProduct]]'s product owner treats external code as a bounded validation artifact, keeps [[MinimumViableProduct]] scope explicit, and plans for [[ProductEvolution]] through later refactoring, handoff, or replacement.
 - [[GrowthHacking]] adds an acquisition-pattern layer to startup and SaaS strategy: [[ViralLoops]] use product behavior such as [[Hotmail]] footers, [[Dropbox]] sharing, [[LinkedIn]] profiles, [[TripAdvisor]] badges, and [[Spotify]] widgets; [[FreemiumAcquisition]] lowers trial friction through [[Shopify]], [[HubSpot]], [[Spotify]], and [[PokemonGo]]; [[ContentLedAcquisition]] turns useful or entertaining media from [[Buffer]], [[Moz]], [[Buzzfeed]], and [[OneDollarShaveClub]] into demand; and [[MarketplaceTrust]] unlocks participation through [[EBay]], [[PayPal]], [[Zappos]], [[TripAdvisor]], and [[Kickstarter]].
 - [[StartupScaling]] extends MVP validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], and disciplined [[TalentDensity]]; [[Maderight]] shows how failing to reach fit keeps sales, runway, and focus in discovery mode.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
@@ -36,10 +36,10 @@ AI and technology sources treat tools as socio-technical infrastructure: useful 
 
 ### Business and Markets
 
-Business sources connect creator economics, SaaS marketing, MVP validation, growth hacking, marketplace trust, positioning, platform strategy, reliability investment, and equity design. Growth tactics matter most when they expose a real product-channel-trust loop rather than imitating a famous surface move.
+Business sources connect creator economics, SaaS marketing, MVP validation, outsourced product development, growth hacking, marketplace trust, positioning, platform strategy, reliability investment, and equity design. Growth tactics matter most when they expose a real product-channel-trust loop rather than imitating a famous surface move, and outsourced prototype work helps only when product owners keep scope, QA, technical specification, tracking, and later ownership explicit.
 
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SteveRidout]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
-- [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; and [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]].
+- [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]], [[OutsourcedProductDevelopment]].
 
 ### Cross-domain
 
@@ -78,7 +78,7 @@ Science and health material remains indirect, focused on attention as scarce men
 
 ### Work, Education, and Society
 
-Work and education sources frame improvement as designed loops: routines reduce friction, attention protects agency, environments shape behavior, and learning deepens through output, feedback, situated practice, and AI-era problem definition.
+Work and education sources frame improvement as designed loops: routines reduce friction, attention protects agency, environments shape behavior, and learning deepens through output, feedback, situated practice, AI-era problem definition, and explicit coordination of work across internal, external, and volunteer contributors.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].
