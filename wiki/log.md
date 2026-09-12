@@ -499,3 +499,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-12] ingest | 3 Ways to Make Your Landing Page Social Proof Prove Something
+
+Ingested Joanna Wiebe's landing-page social-proof article. Added source, concept, and entity pages for social proof, Joanna Wiebe, and Unbounce; updated SaaS marketing and Microsoft to capture how missing, weak, low-traction, or mismatched proof can reduce trust.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -175,6 +175,24 @@
     },
     {
       "global_candidate": true,
+      "id": "social-proof-can-build-or-erode-landing-page-trust",
+      "qualifications": [
+        "The claim is grounded in a 2013 practitioner copywriting article rather than a controlled conversion study.",
+        "The specific advice about share buttons, comments, and public counters depends on traffic source, product category, brand familiarity, and changing social-platform UI conventions."
+      ],
+      "statement": "[[SocialProof]] updates [[SaaSMarketing]] by making landing-page trust signals conditional: [[JoannaWiebe]] argues that empty counters, generic testimonials, stale comments, or mismatched celebrity associations can create negative proof, while [[Unbounce]]-style specific and relatable customer evidence can support conversion.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "SocialProof",
+        "SaaSMarketing",
+        "JoannaWiebe",
+        "Unbounce",
+        "BrandDistinctiveness",
+        "PersonalBranding"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "startup-scaling-turns-validation-into-organization-design",
       "qualifications": [
         "The source is a CS183C operator-note synthesis from high-growth technology companies, so its advice is venture-scale and Silicon Valley weighted.",
@@ -316,6 +334,6 @@
       ]
     }
   ],
-  "summary": "The business-and-markets material combines independent creator economics, MVP-based startup validation, startup scaling, long-lived software-product evolution, mobile platform strategy, developer-tool UX, container-friendly deployment, backend-platform product design, market positioning, consumer-IP operations, startup equity design, and the organizational side of reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, MVP tests, release-focused side projects, CLI tools, Dockerized applications, Instapaper-style consumer software, and mobile-era products depend on revenue stability, platform timing, modular infrastructure, customer learning, runtime configuration, lifecycle behavior, early willingness-to-pay tests, marketing, support, contribution surfaces, business-model adaptation, discovery control, and product promise rather than technical building alone. A newer backend-platform thread adds that Kubernetes-style declarative infrastructure, container-native practice, server-side game logic, and Redis-backed task queues only become products when they fit user concepts, operational state, and recovery needs. The startup-scaling thread adds that product validation is not the end of the problem: after product-market fit, teams must decide whether to blitzscale, preserve hiring standards, formalize communication, repeat culture, and shift CEOs from direct problem solving to strategy, coaching, and obstacle removal. The strategy thread adds that crowded markets require a noticeable reason to choose, while character commerce, startup equity, and reliability sources show that durable businesses also depend on recognizable IP renewal, transparent compensation terms, and sustained operational investment.",
+  "summary": "The business-and-markets material combines independent creator economics, MVP-based startup validation, landing-page trust signals, startup scaling, long-lived software-product evolution, mobile platform strategy, developer-tool UX, container-friendly deployment, backend-platform product design, market positioning, consumer-IP operations, startup equity design, and the organizational side of reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, MVP tests, release-focused side projects, CLI tools, Dockerized applications, Instapaper-style consumer software, and mobile-era products depend on revenue stability, platform timing, modular infrastructure, customer learning, runtime configuration, lifecycle behavior, early willingness-to-pay tests, marketing, support, contribution surfaces, business-model adaptation, discovery control, and product promise rather than technical building alone. The marketing thread now distinguishes proof from mere display: social proof can improve conversion when it is specific and relatable, but weak, empty, stale, or mismatched public signals can erode trust. A newer backend-platform thread adds that Kubernetes-style declarative infrastructure, container-native practice, server-side game logic, and Redis-backed task queues only become products when they fit user concepts, operational state, and recovery needs. The startup-scaling thread adds that product validation is not the end of the problem: after product-market fit, teams must decide whether to blitzscale, preserve hiring standards, formalize communication, repeat culture, and shift CEOs from direct problem solving to strategy, coaching, and obstacle removal. The strategy thread adds that crowded markets require a noticeable reason to choose, while character commerce, startup equity, and reliability sources show that durable businesses also depend on recognizable IP renewal, transparent compensation terms, and sustained operational investment.",
   "topic_id": "business-and-markets"
 }

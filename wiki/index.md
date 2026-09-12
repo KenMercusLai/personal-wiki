@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
+- [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
 - [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
 - [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
@@ -245,6 +246,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kenneth Pennington](entities/KennethPennington.md) - Sanders campaign digital director who described the volunteer-driven campaign technology ethos.
 - [Zack Exley](entities/ZackExley.md) - Sanders technology adviser who routed campaign data work into volunteer Slack channels.
 - [Hillary Clinton](entities/HillaryClinton.md) - 2016 comparison candidate for a more hierarchical, professionally staffed campaign technology operation.
+- [Joanna Wiebe](entities/JoannaWiebe.md) - Conversion copywriter whose landing-page article frames social proof as an unavoidable trust signal.
+- [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
 
 ## Concepts
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
@@ -416,6 +419,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
+- [Social Proof](concepts/SocialProof.md) - Visitor inference from visible approval, absence, relevance, or mismatch around a product, page, or creator.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
 - [Spec-Driven Agent Development](concepts/SpecDrivenAgentDevelopment.md) - Coding-agent workflow where specs, ADRs, test plans, and status documents act as formal interfaces.
