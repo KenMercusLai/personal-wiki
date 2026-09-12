@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [内在价值状态](sources/nei-zai-jia-zhi-zhuang-tai.md) - Piotr Wozniak's philosophical essay arguing that the search for objective intrinsic value can serve as a scientific meta-goal for human purpose, knowledge growth, and anxiety reduction.
 - [你大概不会想用 LLM 做数据分析](sources/ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi.md) - A cautionary data-analysis essay arguing that LLMs can generate polished but invalid statistical work, especially around p-hacking, unless users understand and verify the method.
 - [从海德格尔的锤子到隐喻的戏剧性](sources/cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing.md) - A philosophical aesthetics essay using Heidegger's broken hammer and Harman's object-oriented ontology to explain art as object-quality tension and metaphor as readerly performance.
 - [众口难调的笔记，各取所需的工具](sources/zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju.md) - A PKM essay arguing that big notes and small notes serve different knowledge goals and require different note-tool affordances.
@@ -136,6 +137,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Independent Creator](concepts/IndependentCreator.md) - Self-directed product-business role combining creation, engineering, marketing, operations, and customer support.
 - [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - Routing and quota layer that distributes AI inference requests using tokenized workload, live metrics, and cache state.
 - [Inference Tokenization](concepts/InferenceTokenization.md) - Model-aligned token accounting used by inference gateways for load estimates, quotas, and cache-aware routing.
+- [Intrinsically Valuable State](concepts/IntrinsicallyValuableState.md) - Piotr Wozniak's proposed non-instrumental meta-goal for orienting human purpose around the search for objective intrinsic value.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - Routing strategy that considers reusable key-value cache blocks to reduce inference prefill work.
 - [Knowledge Output](concepts/KnowledgeOutput.md) - Turning intake and research into notes, articles, explanations, or courses that deepen learning.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.

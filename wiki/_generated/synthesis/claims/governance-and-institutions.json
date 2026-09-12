@@ -16,6 +16,20 @@
     },
     {
       "global_candidate": false,
+      "id": "intrinsic-value-frames-shared-purpose",
+      "qualifications": [
+        "The claim is philosophical and source-scoped; the corpus does not yet show institutional adoption, political theory, or independent validation of this shared-purpose argument."
+      ],
+      "statement": "[[IntrinsicallyValuableState]] reframes [[GoalSetting]] and [[KnowledgeValuationNetwork]] around a possible shared purpose: inquiry into whether objective intrinsic value exists.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "IntrinsicallyValuableState",
+        "GoalSetting",
+        "KnowledgeValuationNetwork"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "inference-gateway-architecture-shapes-control",
       "qualifications": [
         "This is a secondary topic assignment from an infrastructure paragraph; the corpus does not yet discuss governance, regulation, or institutional policy around AI serving."
@@ -30,6 +44,6 @@
       ]
     }
   ],
-  "summary": "The governance-related material is still narrow. It now includes both technical control points in inference gateways and an education-oriented caution that institutions and credential competition can distort learning goals, but the corpus does not yet address formal regulation or policy in depth.",
+  "summary": "The governance-related material is still narrow but now spans three control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
   "topic_id": "governance-and-institutions"
 }

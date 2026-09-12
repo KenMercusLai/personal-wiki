@@ -8,6 +8,7 @@
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
+      "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
       "2d44cddf9578e07cb940fa9c85024feb523704733754e4378048fd075c4a9c12",
       "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
@@ -24,10 +25,10 @@
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 22
+    "paragraph_count": 23
   },
-  "overview_commit": "707ca9fc6c60bd09978d52773db86fc711e62050",
-  "overview_digest": "f838816693aa4d82ad6d7529d34d6aa60186eef61c6758d54015b249f9ad5a29",
+  "overview_commit": "cb13ce5e41eff8bff05131c9c29b5772a6f92344",
+  "overview_digest": "e06135c6ae7afcd5eb81c4c16a11694a6c91331be4443b3456af5f63f1c549a0",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -140,6 +141,23 @@
         "CreativeAbstraction",
         "PeterThiel",
         "PiotrWozniak"
+      ]
+    },
+    {
+      "id": "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest Wozniak source extends that motivational framework into a philosophy of purpose. [[IntrinsicallyValuableState]] names a possible non-instrumental state of value that would sit above ordinary [[GoalSetting]], because most practical goals are valuable only insofar as they lead to later outcomes. Wozniak argues that current science does not prove whether objective intrinsic value exists, but that uncertainty itself makes knowledge growth and reality modeling the rational shared response. This reframes [[KnowledgeValuationNetwork]] at two levels: goals can make knowledge valuable for learners, while the search for intrinsic value asks what, if anything, ultimately grounds every valuation.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "GoalSetting",
+        "IntrinsicallyValuableState",
+        "KnowledgeValuationNetwork"
       ]
     },
     {

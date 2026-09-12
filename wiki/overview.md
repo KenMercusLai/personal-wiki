@@ -22,11 +22,12 @@ sources:
   - cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing
   - zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju
   - ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi
+  - nei-zai-jia-zhi-zhuang-tai
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, personal knowledge management note structure, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
+The wiki currently contains sources on lightweight productivity habits, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, personal knowledge management note structure, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
 
 ## Current Synthesis
 
@@ -43,6 +44,8 @@ The newest note-taking source sharpens that knowledge-infrastructure thread by a
 The Wozniak source adds a motivational layer beneath the productivity and active-learning material. [[GoalSetting]] is not treated as rigid discipline but as a way to focus attention, choose strategy, and help learners value knowledge. [[LearnDrive]] becomes the key condition to protect: mature experts may follow curiosity without explicit goals, but young learners often need dreams, small decisions, and exploratory reading to resist institutional pressure, credential competition, and rote study. [[KnowledgeValuationNetwork]] names the source's theory that goals, role models, missions, and emotionally salient cases help knowledge become valuable enough to love.
 
 This source also qualifies the wiki's learning workflow by emphasizing method fit. In complex or unstable domains, [[CreativeAbstraction]] matters because memorizing every changing detail can erode motivation; learners need patterns, theories, golden rules, and written references for lookup. [[PiotrWozniak]] presents [[PeterThiel]] as an example of someone who reassessed externally competitive goals, reinforcing the distinction between meaningful aims and status-track compliance.
+
+The newest Wozniak source extends that motivational framework into a philosophy of purpose. [[IntrinsicallyValuableState]] names a possible non-instrumental state of value that would sit above ordinary [[GoalSetting]], because most practical goals are valuable only insofar as they lead to later outcomes. Wozniak argues that current science does not prove whether objective intrinsic value exists, but that uncertainty itself makes knowledge growth and reality modeling the rational shared response. This reframes [[KnowledgeValuationNetwork]] at two levels: goals can make knowledge valuable for learners, while the search for intrinsic value asks what, if anything, ultimately grounds every valuation.
 
 The latest AI infrastructure source shifts the wiki from AI as a knowledge assistant toward AI as a served workload. [[InferenceLoadBalancing]] is presented as a specialized routing problem where request counts are insufficient: gateways need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that architecture matters as much as routing algorithms: high-frequency fan-out polling can become expensive, centralized endpoint pickers can become bottlenecks, and event-driven KV-cache state can reduce metric-collection overhead.
 
@@ -80,6 +83,8 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 - Which of the listed habits has the strongest evidence base across different kinds of knowledge work?
 - When do explicit learning goals strengthen curiosity, and when do they become coercive or status-driven?
 - How can learners measure whether a goal is increasing learn drive rather than just adding pressure?
+- Can Wozniak's intrinsically valuable state be made operational, or is it best treated as an orienting philosophical hypothesis?
+- How should people act when science cannot currently determine whether objective intrinsic value exists?
 - How reliable are AI-generated summaries and associations for personal knowledge bases, especially when provenance and privacy matter?
 - When does focused reading improve learning, and when does it narrow discovery too early?
 - When should a PKM system use many small atomic notes, fewer large structured notes, or a hybrid based on headings and blocks?

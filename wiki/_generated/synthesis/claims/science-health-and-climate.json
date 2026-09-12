@@ -13,8 +13,22 @@
         "AttentionManagement",
         "TimeManagementQuadrants"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "science-does-not-settle-intrinsic-value",
+      "qualifications": [
+        "This is a philosophy-of-science claim from Wozniak's essay, not an empirical scientific consensus review."
+      ],
+      "statement": "[[IntrinsicallyValuableState]] is framed through scientific uncertainty: current science does not prove objective intrinsic value, so [[GoalSetting]] and [[KnowledgeValuationNetwork]] remain open to inquiry.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "IntrinsicallyValuableState",
+        "GoalSetting",
+        "KnowledgeValuationNetwork"
+      ]
     }
   ],
-  "summary": "The current health-adjacent material is limited to attention and mental load in productivity advice: single-tasking, reduced distractions, offline work, and early completion of avoided tasks are presented as ways to protect focus.",
+  "summary": "The topic remains mostly indirect. It covers attention and mental load in productivity advice, and now includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.",
   "topic_id": "science-health-and-climate"
 }

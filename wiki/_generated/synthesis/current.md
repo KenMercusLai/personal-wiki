@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 707ca9fc6c60bd09978d52773db86fc711e62050
-summary: "A personal wiki linking AI systems, PKM tooling, software practice, learning, indie work, infrastructure, localization, and object-oriented aesthetics."
-episode_count: 19
-source_count: 19
-paragraph_count: 22
+as_of_overview_commit: cb13ce5e41eff8bff05131c9c29b5772a6f92344
+summary: "A personal wiki linking AI systems, PKM tooling, software practice, learning, indie work, infrastructure, localization, philosophy, and object-oriented aesthetics."
+episode_count: 20
+source_count: 20
+paragraph_count: 23
 topic_count: 8
 ---
 
@@ -56,18 +56,18 @@ Culture and media now centers experience preservation and participation: game lo
 
 ### Governance and Institutions
 
-The current governance-adjacent material is mostly indirect, highlighting how standards, credentials, institutions, and infrastructure shape technical and learning choices.
+The current governance-adjacent material is mostly indirect, highlighting how standards, credentials, institutions, infrastructure, and shared-purpose philosophies shape technical and learning choices.
 
 ### Psychology and Personal Development
 
-Learning and development sources emphasize goals, attention, curiosity, abstraction, and knowledge valuation as ways to protect motivation without reducing learning to rote compliance.
+Learning and development sources emphasize goals, attention, curiosity, abstraction, knowledge valuation, and inquiry into intrinsic value as ways to protect motivation without reducing learning to rote compliance.
 
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]].
 - [[CreativeAbstraction]] helps learners keep motivation in complex domains by replacing exhaustive memorization with pattern seeking, general principles, and references for detail lookup. Evidence: [[CreativeAbstraction]], [[PiotrWozniak]].
 
 ### Science, Health, and Climate
 
-The current science-health-climate slice is thin and mostly cognitive: attention is treated as a scarce work resource rather than as a biomedical evidence topic.
+The current science-health-climate slice is thin and mostly cognitive or philosophy-of-science adjacent: attention is treated as a scarce work resource, and intrinsic value remains scientifically unsettled.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 

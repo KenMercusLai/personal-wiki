@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 内在价值状态
+
+Added source note and a concept page for intrinsically valuable state. Updated Piotr Wozniak, goal setting, knowledge valuation network, index, and overview synthesis. Key claims: ordinary goals are usually instrumentally valuable; current science does not certify intrinsic value; Wozniak proposes knowledge growth and reality modeling as the rational shared response to that uncertainty.
+
 ## [2026-09-12] ingest | 你大概不会想用 LLM 做数据分析
 
 Added source note and synthesis pages for LLM data analysis, p-hacking, and codebook development. Updated Claude and the overview to reflect the source's caution that LLMs can refuse explicit misconduct while still producing polished invalid analysis when prompt framing or user intent pushes them toward flawed statistical workflows. Key claims: users should not run methods they do not understand; LLMs can automate p-hacking-like parameter search; safer uses emphasize visualization, clustering support, and reviewed codebook workflows.
@@ -155,6 +159,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 众口难调的笔记，各取所需的工具
 
 Added source note and synthesis pages for note granularity, Zettelkasten method, and note-tool fit. Added entity profiles for Chris Grieser, Niklas Luhmann, and Obsidian. Updated Personal Knowledge Management and the overview to reflect big-note versus small-note tradeoffs and the claim that note methods depend on tool affordances.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

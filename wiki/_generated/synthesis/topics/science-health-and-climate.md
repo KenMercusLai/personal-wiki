@@ -3,16 +3,16 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-11
-as_of_overview_commit: af00c6547985963a73e293c52aa859e5aa7c1582
-input_digest: 2bdcff6eb2c04be590b7a2c8b472b8d22c9c94237c5b8cecf9730fbfe356b0c6
+last_updated: 2026-09-12
+as_of_overview_commit: cb13ce5e41eff8bff05131c9c29b5772a6f92344
+input_digest: 043a2917dcdae160daee72c1b505b576584f8dd4e32894efbad5c530aa28d63a
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-The current health-adjacent material is limited to attention and mental load in productivity advice: single-tasking, reduced distractions, offline work, and early completion of avoided tasks are presented as ways to protect focus.
+The topic remains mostly indirect. It covers attention and mental load in productivity advice, and now includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
 
 ## Cross-source Findings
 
@@ -26,3 +26,13 @@ The current health-adjacent material is limited to attention and mental load in 
 
 - This is an advice-source framing, not a health or cognitive-science evidence review.
 - The topic assignment is indirect because the paragraph concerns mental focus rather than medicine, climate, or natural science.
+
+### Science Does Not Settle Intrinsic Value
+
+[[IntrinsicallyValuableState]] is framed through scientific uncertainty: current science does not prove objective intrinsic value, so [[GoalSetting]] and [[KnowledgeValuationNetwork]] remain open to inquiry.
+
+**Evidence:** [[IntrinsicallyValuableState]], [[GoalSetting]], [[KnowledgeValuationNetwork]]
+
+**Qualifications:**
+
+- This is a philosophy-of-science claim from Wozniak's essay, not an empirical scientific consensus review.
