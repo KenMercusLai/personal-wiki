@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: a25280f317b4ed7071305762cd235d097685ba4b
-input_digest: bd57a890f73639db2a7752bbc586899169939d8fe69f63f5774a0f715b02f662
+as_of_overview_commit: 97898af1ef9acf456752b4c1128fabd176ac5ed2
+input_digest: fc238835254d36dcce4e166ba9a6fd254d13128010e835c5ea754654c1986324
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The topic now spans practical work habits, output-centered learning, learning motivation, career path design, and standards-oriented technical architecture. Across work and education, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and use reusable conventions, abstractions, or staged paths as leverage.
+The topic now spans practical work habits, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, and cost-aware web deployment. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose abstractions, standards, or infrastructure platforms according to the tradeoff between convenience, effort, and long-term fit.
 
 ## Cross-source Findings
 
@@ -87,3 +87,14 @@ The topic now spans practical work habits, output-centered learning, learning mo
 
 - The source is a short advice article and comment-thread discussion, not a systematic career-outcomes study.
 - It qualifies passion advice by noting that some hobbies may be poor direct jobs and may need adjacent roles or interim steps.
+
+### Deployment Cost Optimization Balances Platform And Operations
+
+[[CloudCostOptimization]], [[NextJSDeployment]], [[Vercel]], [[AWS]], and [[Cloudflare]] frame deployment choice as a tradeoff among managed convenience, direct cloud spend, operations labor, and migration compatibility.
+
+**Evidence:** [[CloudCostOptimization]], [[NextJSDeployment]], [[Vercel]], [[AWS]], [[Cloudflare]], [[EdgeRuntime]], [[NextJS]], [[Neon]], [[Supabase]], [[Idoubi]]
+
+**Qualifications:**
+
+- The claim is source-scoped to one independent developer's Next.js migration and does not quantify reliability, labor, support, or current provider pricing.
+- Cloudflare's lower-cost path depends on edge-runtime compatibility work that may be expensive for some applications.

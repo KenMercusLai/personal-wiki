@@ -12,12 +12,13 @@
       "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
       "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
       "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
-      "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003"
+      "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
+      "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c"
     ],
-    "paragraph_count": 12
+    "paragraph_count": 13
   },
-  "overview_commit": "a25280f317b4ed7071305762cd235d097685ba4b",
-  "overview_digest": "6e37f97a6055e0b0dd06205b4f0ad2394ef1d7c69c1d53880fe45e3b895fc91d",
+  "overview_commit": "97898af1ef9acf456752b4c1128fabd176ac5ed2",
+  "overview_digest": "7f1caf1f6c7890b8a95fc24ccb3f8fdd07fdbf66c68da88c5a9c418712f5360f",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -220,6 +221,27 @@
         "GPVCareerFormula",
         "GoalSetting",
         "RichardLeider"
+      ]
+    },
+    {
+      "id": "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest deployment source adds a practical cloud-cost thread. [[Idoubi]] frames [[Vercel]] as a highly convenient [[NextJS]] deployment platform whose GitHub integration, previews, generated domains, logs, analytics, and framework support can speed launch, but whose metered functions, image optimization, analytics, storage, and team features can become expensive. [[CloudCostOptimization]] therefore appears as a choice among direct spend, operations work, and migration effort: [[AWS]] EC2 with PM2 or Docker lowers platform abstraction while adding server, Nginx, DNS, and TLS work, whereas [[Cloudflare]] Pages keeps a managed path but requires [[EdgeRuntime]] compatibility. [[NextJSDeployment]] in this source is less about a single best host than about matching cost pressure, runtime constraints, database clients such as [[Neon]] or [[Supabase]], and adjacent services like Cloudflare DNS, security, D1, Workers, and R2.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AWS",
+        "CloudCostOptimization",
+        "Cloudflare",
+        "EdgeRuntime",
+        "Idoubi",
+        "Neon",
+        "NextJS",
+        "NextJSDeployment",
+        "Supabase",
+        "Vercel"
       ]
     }
   ],

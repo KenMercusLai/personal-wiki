@@ -102,8 +102,30 @@
         "GoalSetting",
         "RichardLeider"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "deployment-cost-optimization-balances-platform-and-operations",
+      "qualifications": [
+        "The claim is source-scoped to one independent developer's Next.js migration and does not quantify reliability, labor, support, or current provider pricing.",
+        "Cloudflare's lower-cost path depends on edge-runtime compatibility work that may be expensive for some applications."
+      ],
+      "statement": "[[CloudCostOptimization]], [[NextJSDeployment]], [[Vercel]], [[AWS]], and [[Cloudflare]] frame deployment choice as a tradeoff among managed convenience, direct cloud spend, operations labor, and migration compatibility.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "CloudCostOptimization",
+        "NextJSDeployment",
+        "Vercel",
+        "AWS",
+        "Cloudflare",
+        "EdgeRuntime",
+        "NextJS",
+        "Neon",
+        "Supabase",
+        "Idoubi"
+      ]
     }
   ],
-  "summary": "The topic now spans practical work habits, output-centered learning, learning motivation, career path design, and standards-oriented technical architecture. Across work and education, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and use reusable conventions, abstractions, or staged paths as leverage.",
+  "summary": "The topic now spans practical work habits, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, and cost-aware web deployment. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose abstractions, standards, or infrastructure platforms according to the tradeoff between convenience, effort, and long-term fit.",
   "topic_id": "work-education-and-society"
 }

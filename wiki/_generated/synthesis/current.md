@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: a25280f317b4ed7071305762cd235d097685ba4b
-summary: "A growing map of AI systems, learning, productivity, career design, web infrastructure, algorithms, and creative localization."
-episode_count: 9
-source_count: 9
-paragraph_count: 12
+as_of_overview_commit: 97898af1ef9acf456752b4c1128fabd176ac5ed2
+summary: "A growing map of AI systems, learning, productivity, career design, web infrastructure, algorithms, cloud deployment, and creative localization."
+episode_count: 10
+source_count: 10
+paragraph_count: 13
 topic_count: 7
 ---
 
@@ -23,6 +23,7 @@ topic_count: 7
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output.
 - [[HTTP]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] show protocol evolution as a standards-driven way to reduce operational and performance friction.
 - [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values rather than a direct jump from hobby to job.
+- [[CloudCostOptimization]], [[NextJSDeployment]], [[Vercel]], [[AWS]], and [[Cloudflare]] frame deployment choice as a tradeoff among managed convenience, direct cloud spend, operations labor, and migration compatibility.
 
 ## Synthesis by Domain
 
@@ -64,7 +65,7 @@ Science, health, and climate coverage is still sparse and health-adjacent: atten
 
 ### Work, Education, and Society
 
-Work, education, and society now connects lightweight work habits, output-centered learning, learning motivation, career path design, and standards-oriented technical leverage.
+Work, education, and society now connects lightweight work habits, output-centered learning, learning motivation, career path design, standards-oriented technical leverage, and cost-aware cloud deployment.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].

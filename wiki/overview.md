@@ -12,11 +12,12 @@ sources:
   - gui-ji-chou-xi-zhi-dao-ge-la-si-pu-ke-suan-fa-ma-tian-jiang-xin
   - wei-jie-ru-he-yong-bao-li-ji-suan-fan-yi-xie-yin-geng-nv-xing-jiao-liu-fan-yi-bi-ji
   - tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya
+  - wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, web protocol evolution, private-data chatbot architecture, trajectory simplification for map rendering, and computationally assisted game localization.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
 
 ## Current Synthesis
 
@@ -44,6 +45,8 @@ Wei Jie's localization note extends the retrieval thread into creative translati
 
 The newest 褪墨 career source extends the personal-development thread from daily productivity and learning motivation into [[CareerPlanning]]. [[RichardLeider]]'s [[GPVCareerFormula]] asks readers to consider gifts, passion, and values together, but the article's stronger practical point is that career is a path rather than a single job. This qualifies simple passion advice: a hobby may be a poor direct job, yet still point toward adjacent work such as teaching, supplying, writing, or progressing through interim roles toward a better-fit career direction. [[GoalSetting]] therefore becomes a staged path-building practice as well as a learning-motivation tool.
 
+The newest deployment source adds a practical cloud-cost thread. [[Idoubi]] frames [[Vercel]] as a highly convenient [[NextJS]] deployment platform whose GitHub integration, previews, generated domains, logs, analytics, and framework support can speed launch, but whose metered functions, image optimization, analytics, storage, and team features can become expensive. [[CloudCostOptimization]] therefore appears as a choice among direct spend, operations work, and migration effort: [[AWS]] EC2 with PM2 or Docker lowers platform abstraction while adding server, Nginx, DNS, and TLS work, whereas [[Cloudflare]] Pages keeps a managed path but requires [[EdgeRuntime]] compatibility. [[NextJSDeployment]] in this source is less about a single best host than about matching cost pressure, runtime constraints, database clients such as [[Neon]] or [[Supabase]], and adjacent services like Cloudflare DNS, security, D1, Workers, and R2.
+
 ## Open Questions
 
 - How do these productivity habits vary across roles that require rapid responsiveness or collaborative interruption?
@@ -62,3 +65,5 @@ The newest 褪墨 career source extends the personal-development thread from dai
 - When does aggressive domestication improve game localization, and when does it undermine setting, continuity, or audience trust?
 - How should people evaluate whether gifts, passion, and values actually predict career satisfaction or only provide a useful reflection prompt?
 - When should a hobby remain protected from work rather than being turned into an adjacent career path?
+- How should small web products compare Vercel convenience against Cloudflare migration work, self-hosting labor, reliability needs, and support expectations?
+- Which Next.js features and dependencies are most likely to break when moved from Node.js hosting to edge runtime?

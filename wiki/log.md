@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 我把网站迁移到 cf，省了几万块
+
+Added source note and synthesis pages for Next.js deployment, cloud cost optimization, and edge runtime. Added entity profiles for idoubi, Vercel, Cloudflare, AWS, Next.js, Supabase, and Neon. Key claims: Vercel's integrated developer experience can become expensive under metered usage; AWS self-hosting trades platform cost for operations work; Cloudflare Pages can lower cost but requires edge-runtime compatibility changes.
+
 ## [2026-09-12] ingest | 褪墨 - 使用 G+P+V 思考你的职业生涯
 
 Added source note and synthesis pages for career planning and the GPV career formula. Added an entity profile for Richard Leider and updated goal setting to include staged career paths. Key claims: career fit combines gifts, passion, and values; career is broader than a single job; hobbies may need adjacent roles or interim steps before they become sustainable work.
@@ -77,6 +81,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
 

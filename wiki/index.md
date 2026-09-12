@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [我把网站迁移到 cf，省了几万块](sources/wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai.md) - A practical migration report showing how a Next.js project moved from Vercel to AWS and Cloudflare to reduce hosting cost, with notes on PM2, Docker, Cloudflare Pages, and edge-runtime compatibility.
 - [魏杰 - 如何用暴力计算翻译谐音梗——《女性交流》翻译笔记](sources/wei-jie-ru-he-yong-bao-li-ji-suan-fan-yi-xie-yin-geng-nv-xing-jiao-liu-fan-yi-bi-ji.md) - A game-localization case study showing how semantic search, homophone filtering, and human revision can translate pun-heavy dialogue while preserving player experience.
 - [轨迹抽稀之道格拉斯-普克算法 | 码田匠心](sources/gui-ji-chou-xi-zhi-dao-ge-la-si-pu-ke-suan-fa-ma-tian-jiang-xin.md) - A practical explanation of Ramer-Douglas-Peucker trajectory simplification for vehicle map rendering, showing how epsilon trades route fidelity for point-count reduction.
 - [零基础｜搭建基于私域数据的ChatGPT](sources/ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt.md) - A beginner tutorial and architecture explainer for private-data ChatGPT apps using Replit, OpenAI APIs, LangChain, embeddings, and vector retrieval.
@@ -18,18 +19,23 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
+- [AWS](entities/AWS.md) - Cloud infrastructure provider used for the source's EC2-based self-hosted Next.js deployment examples.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
+- [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
+- [idoubi](entities/Idoubi.md) - Independent developer-author describing a cost-driven migration from Vercel to AWS and Cloudflare.
 - [INDIGO](entities/INDIGO.md) - Practitioner-author describing a personal learning, research, writing, and note-system workflow.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
+- [Neon](entities/Neon.md) - Edge-compatible Postgres access option used as a replacement for Node's `pg` client in the migration article.
+- [Next.js](entities/NextJS.md) - Full-stack web framework whose Vercel, EC2, Docker, and Cloudflare deployment paths are compared.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
@@ -39,7 +45,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
+- [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
+- [Vercel](entities/Vercel.md) - Hosted deployment platform valued for Next.js convenience but criticized in the source for high metered costs.
 - [Wei Jie](entities/WeiJie.md) - Translator-programmer and author of the Women Communication localization note.
 - [女性交流](entities/WomenCommunication.md) - Pun-heavy Japanese indie game whose Chinese localization is used as a translation case study.
 
@@ -51,7 +59,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
+- [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
+- [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
@@ -71,6 +81,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
+- [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material for future thinking.
 - [Private Data Chatbot](concepts/PrivateDataChatbot.md) - Chatbot pattern that answers from user-provided or organization-held data rather than only built-in model knowledge.
