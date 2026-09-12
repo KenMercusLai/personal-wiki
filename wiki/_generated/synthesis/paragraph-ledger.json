@@ -7,6 +7,7 @@
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
+      "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
@@ -31,10 +32,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 29
+    "paragraph_count": 30
   },
-  "overview_commit": "49fb0ed061f4a21ddd6ea1f06fd1f218005b3399",
-  "overview_digest": "baff1084c5d4b241dc14c598038afca638176bdb3cc5dd6f6c94b4ea4013f2cc",
+  "overview_commit": "878b84729c2fc447a54633abed68dd7e0465f361",
+  "overview_digest": "490bfebff727986cba89d918d1398f74ae5502a203f32b954e386b56b5b95fa6",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -130,6 +131,24 @@
         "AIKnowledgeAssistant",
         "PersonalKnowledgeManagement",
         "SecondBrain"
+      ]
+    },
+    {
+      "id": "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest tutorial-writing source makes the learning-output loop more concrete through [[ExplanatoryWriting]]. Drawing on [[DerekLieu]]'s game-trailer course and [[NickyCase]]'s explanation advice, the author turns a pile of Obsidian notes into public practice by choosing a topic with fresh memory and enough source material, limiting work in progress to one article, framing the reader promise, moving from concrete trailer examples to abstract structure, and testing the draft with friends. This strengthens [[KnowledgeOutput]] and [[ActiveLearning]] by showing how writing creates feedback, but it also sharpens [[PersonalKnowledgeManagement]]: notes, Notion databases, video breakdowns, placeholders, and submission checklists matter when they can be reused at the exact moment of writing, analysis, draft sharing, and publication.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "DerekLieu",
+        "ExplanatoryWriting",
+        "KnowledgeOutput",
+        "NickyCase",
+        "PersonalKnowledgeManagement"
       ]
     },
     {

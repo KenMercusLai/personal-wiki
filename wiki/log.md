@@ -226,3 +226,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-12] ingest | 如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验
+
+Added source. Key claims: tutorial writing can convert passive notes into active learning; explanatory writing benefits from reader promise, concrete examples, and testing; PKM is most useful when notes and checklists support concrete publication work; focus improves when creators limit work in progress to one main piece.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

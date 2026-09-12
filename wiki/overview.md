@@ -29,11 +29,12 @@ sources:
   - da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
+  - ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, self-discipline and attention boundaries, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, coding-agent vibe coding practice, production agent infrastructure, LLM context-management and prompt-caching architecture, LLM-assisted data analysis, big-data industry transformation, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, philosophical aesthetics around object-oriented ontology, art, and metaphor, and reflective accounts of environmental fields shaping work, family, creativity, intimacy, and moral life.
+The wiki currently contains sources on lightweight productivity habits, self-discipline and attention boundaries, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, explanatory writing practice, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, coding-agent vibe coding practice, production agent infrastructure, LLM context-management and prompt-caching architecture, LLM-assisted data analysis, big-data industry transformation, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, philosophical aesthetics around object-oriented ontology, art, and metaphor, and reflective accounts of environmental fields shaping work, family, creativity, intimacy, and moral life.
 
 ## Current Synthesis
 
@@ -48,6 +49,8 @@ The field essay by [[Wulc]] reframes agency through [[EnvironmentalField]]. It a
 The INDIGO source extends the wiki from work efficiency into learning systems. [[FeynmanTechnique]] and [[ActiveLearning]] make output the test of understanding: the learner chooses a target, explains it simply, reviews gaps, and internalizes the result. [[FocusedReading]] provides the input side of that loop by narrowing broad discovery into topic-driven research, while [[KnowledgeOutput]] describes a ladder from notes and short opinions to long articles and courses.
 
 The INDIGO source also adds a knowledge-infrastructure thread. [[PersonalKnowledgeManagement]] captures the practical layer of bookmarks, notes, tags, topic pages, and drafts that make later output possible. [[AIKnowledgeAssistant]] and [[SecondBrain]] describe a prospective shift from manual organization toward AI-supported summaries, associations, classification, retrieval, histories, and timelines.
+
+The newest tutorial-writing source makes the learning-output loop more concrete through [[ExplanatoryWriting]]. Drawing on [[DerekLieu]]'s game-trailer course and [[NickyCase]]'s explanation advice, the author turns a pile of Obsidian notes into public practice by choosing a topic with fresh memory and enough source material, limiting work in progress to one article, framing the reader promise, moving from concrete trailer examples to abstract structure, and testing the draft with friends. This strengthens [[KnowledgeOutput]] and [[ActiveLearning]] by showing how writing creates feedback, but it also sharpens [[PersonalKnowledgeManagement]]: notes, Notion databases, video breakdowns, placeholders, and submission checklists matter when they can be reused at the exact moment of writing, analysis, draft sharing, and publication.
 
 The newest note-taking source sharpens that knowledge-infrastructure thread by adding [[NoteGranularity]] and [[NoteToolFit]]. [[ChrisGrieser]] argues that small-note systems such as [[ZettelkastenMethod]] serve bottom-up idea development through concise notes, dense links, metadata, maps of content, graph views, and fast switching, while big-note systems serve top-down organization of established knowledge through headings, outlines, folding, visual anchors, block links, and text-moving tools. [[Obsidian]] functions as the main software example because its core features and plugins can support both styles, which qualifies earlier [[PersonalKnowledgeManagement]] advice: note structure is not just a matter of taste, but a fit among knowledge goals, granularity, and tool affordances.
 
@@ -112,6 +115,8 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 - How should people act when science cannot currently determine whether objective intrinsic value exists?
 - How reliable are AI-generated summaries and associations for personal knowledge bases, especially when provenance and privacy matter?
 - When does focused reading improve learning, and when does it narrow discovery too early?
+- How much explanation design, example collection, and reader testing does a tutorial need before the workflow becomes too heavy for the intended piece?
+- When should a creator publish from partial expertise to learn faster, and when does the subject require deeper direct practice first?
 - When should a PKM system use many small atomic notes, fewer large structured notes, or a hybrid based on headings and blocks?
 - How can note-tool choice be evaluated without turning useful method fit into plugin chasing?
 - Which reading domains benefit most from card-note workflows, and when is a simple reading log enough?

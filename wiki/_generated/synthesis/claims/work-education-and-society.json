@@ -15,12 +15,12 @@
     },
     {
       "global_candidate": true,
-      "id": "attention-and-self-discipline-shape-work-quality",
+      "id": "attention-and-discipline-shape-work-quality",
       "qualifications": [
         "The available evidence emphasizes knowledge-work and reflective habit sources rather than comparative occupational outcomes.",
         "Strict attention boundaries may conflict with legitimate responsiveness, logistics, care duties, or collaborative monitoring."
       ],
-      "statement": "[[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks.",
+      "statement": "[[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AttentionManagement",
@@ -67,19 +67,23 @@
     },
     {
       "global_candidate": true,
-      "id": "learning-deepens-through-output",
+      "id": "learning-deepens-through-output-and-explanation",
       "qualifications": [
-        "The learning source describes a practitioner workflow, not a comparative education study.",
-        "Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions."
+        "The learning and tutorial-writing sources describe practitioner workflows, not comparative education studies.",
+        "Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions.",
+        "Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure."
       ],
-      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.",
+      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], and [[ExplanatoryWriting]] frame learning as a loop from targeted intake to explanation, example collection, feedback, gap review, and increasingly structured output.",
       "status": "qualified",
       "supporting_wikilinks": [
         "FeynmanTechnique",
         "ActiveLearning",
         "FocusedReading",
         "KnowledgeOutput",
-        "Imooc"
+        "ExplanatoryWriting",
+        "DerekLieu",
+        "NickyCase",
+        "PersonalKnowledgeManagement"
       ]
     },
     {
@@ -98,7 +102,7 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "abstraction-supports-learning-in-unstable-domains",
       "qualifications": [
         "The claim does not eliminate the need for detail; it reallocates detail to lookup and case-specific use."
@@ -112,13 +116,13 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "technical-standards-create-architectural-leverage",
       "qualifications": [
         "The HTTP adoption and support details are source-scoped to a 2019 publication context."
       ],
       "statement": "[[HTTP]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] show protocol evolution as a standards-driven way to reduce operational and performance friction.",
-      "status": "supported",
+      "status": "source-scoped",
       "supporting_wikilinks": [
         "HTTP",
         "HTTP11",
@@ -146,14 +150,14 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "deployment-cost-optimization-balances-platform-and-operations",
       "qualifications": [
         "The claim is source-scoped to one independent developer's Next.js migration and does not quantify reliability, labor, support, or current provider pricing.",
         "Cloudflare's lower-cost path depends on edge-runtime compatibility work that may be expensive for some applications."
       ],
       "statement": "[[CloudCostOptimization]], [[NextJSDeployment]], [[Vercel]], [[AWS]], and [[Cloudflare]] frame deployment choice as a tradeoff among managed convenience, direct cloud spend, operations labor, and migration compatibility.",
-      "status": "qualified",
+      "status": "source-scoped",
       "supporting_wikilinks": [
         "CloudCostOptimization",
         "NextJSDeployment",
@@ -209,6 +213,6 @@
       ]
     }
   ],
-  "summary": "The topic spans practical work habits, attention discipline, environmental field design, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, programmer freelancing, and the work-design implications of data automation. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, company shape, data loops, or life fields according to tradeoffs among convenience, income stability, effort, autonomy, belonging, evidence, and long-term fit.",
+  "summary": "Work, education, and society sources frame improvement as a set of designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output and explanation, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
   "topic_id": "work-education-and-society"
 }

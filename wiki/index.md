@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验](sources/ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan.md) - A tutorial-writing retrospective showing how notes, examples, focus, reader testing, and publishing checklists turn learning into a clear public article.
 - [如何像 Claude Code 一样使用私有 API 管理 prompt cache](sources/ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache.md) - A technical analysis of Claude Code's Anthropic prompt-cache strategy, including cache breakpoints, stable request shape, private cache edits, and microcompact as logical deletion.
 - [一个半月高强度 Claude Code 使用后感受](sources/yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou.md) - A Claude Code retrospective arguing that vibe coding accelerates iteration but requires planning, small steps, context management, verification, and humane pacing.
 - [场](sources/chang.md) - A reflective essay arguing that invisible environmental fields shape work, family, intimacy, creativity, and moral behavior.
@@ -49,6 +50,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
 - [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
+- [Derek Lieu](entities/DerekLieu.md) - Game-trailer creator and educator whose course influenced the source author's tutorial-writing practice.
 - [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer cited for product-idea filtering, business creativity, and open email connection.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
 - [E2B](entities/E2B.md) - Agent code-execution sandbox discussed as useful execution isolation but insufficient for capability and side-effect semantics.
@@ -77,6 +79,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Neon](entities/Neon.md) - Edge-compatible Postgres access option used as a replacement for Node's `pg` client in the migration article.
 - [Netflix Conductor](entities/NetflixConductor.md) - Workflow orchestrator discussed as useful above, but not instead of, agent-specific semantic primitives.
 - [Next.js](entities/NextJS.md) - Full-stack web framework whose Vercel, EC2, Docker, and Cloudflare deployment paths are compared.
+- [Nicky Case](entities/NickyCase.md) - Creator whose explanation-design advice informs concrete-first tutorial writing and early reader testing.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note and small-note workflows.
@@ -138,6 +141,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
 - [Effect Log](concepts/EffectLog.md) - Write-ahead log for agent tool calls and external side effects.
+- [Explanatory Writing](concepts/ExplanatoryWriting.md) - Audience-centered tutorial writing that clarifies the promise, grounds abstractions in examples, tests with readers, and revises for comprehension.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
