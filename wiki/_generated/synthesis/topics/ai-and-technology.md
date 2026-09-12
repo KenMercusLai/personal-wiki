@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 01352799c86680cddd93c40741d1fa3e192c04da
-input_digest: 83ba976f4e45d6ba14ddf406d2bcaab8ada75ac6554be378fc4813e58e973ce9
+as_of_overview_commit: bf3259f4ddb6f9b2d51bebb8cd798bc158d39b1b
+input_digest: 17e827e2e82d8bc3931f5c8f695f281d332beb6484601ba07c8cd6e9ceef1fa0
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
 
 ## Cross-source Findings
 
@@ -95,6 +95,16 @@ The AI and technology thread treats software, AI systems, data work, reading and
 **Qualifications:**
 
 - The tutorial supplies conceptual scaffolding and screenshots, but its package names and APIs are 2019-era details rather than current implementation guidance.
+
+### Deep Learning Progress Needs Real World Safety Evidence
+
+[[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], and [[AutonomousDrivingSafety]] separate data-rich representation learning from hype claims: compute growth, benchmark success, and simulation-heavy game agents do not by themselves prove robust perception, physical prediction, or safe action.
+
+**Evidence:** [[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], [[AutonomousDrivingSafety]], [[FilipPiekniewski]]
+
+**Qualifications:**
+
+- The evidence is a skeptical 2018 essay centered on vision, game agents, and autonomous driving, so it predates later foundation-model scaling results and should be treated as domain- and source-date bounded.
 
 ### Llm Apps Depend On Context Action Boundaries
 

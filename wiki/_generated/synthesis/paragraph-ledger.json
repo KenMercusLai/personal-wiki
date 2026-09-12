@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
       "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
@@ -106,11 +107,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 104
+    "paragraph_count": 105
   },
-  "overview_commit": "55fa03eeba2649900debc9c8edfb4a68d9a8fbe4",
-  "overview_digest": "5bf4291708e7d4b95cea5d61b2f21b342631b48bc1ebfff00dd7352b76f234f3",
+  "overview_commit": "bf3259f4ddb6f9b2d51bebb8cd798bc158d39b1b",
+  "overview_digest": "b0cfe99984bf74a40ff7282b35a53d53144d39c0175b42a4d28208c06e73fca2",
   "paragraphs": [
+    {
+      "id": "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "[[FilipPiekniewski]] adds a skeptical deep-learning counterweight to the wiki's AI material. [[AIWinter]] is framed as an expectation collapse that becomes visible when public narratives keep intensifying while real-world delivery slows. [[DeepLearningScaling]] is the article's technical wedge: the AlexNet-to-AlphaGo-Zero compute chart shows explosive training-compute growth, but Piekniewski argues that vision benchmarks, game agents, and simulation-heavy reinforcement learning did not translate into broad real-world competence. [[AutonomousDrivingSafety]] supplies the practical stress test, especially the Uber crash excerpt where the system observed a pedestrian seconds before impact, repeatedly changed classification, and had emergency braking disabled under computer control. This qualifies [[DeepLearning]]: representation learning can be valuable in data-rich automated systems, but benchmark success, compute growth, and hype do not by themselves prove robust perception, physical prediction, or safe action.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIWinter",
+        "AutonomousDrivingSafety",
+        "DeepLearning",
+        "DeepLearningScaling",
+        "FilipPiekniewski"
+      ]
+    },
     {
       "id": "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
       "primary_topic": "psychology-and-personal-development",

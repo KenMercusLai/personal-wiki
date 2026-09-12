@@ -153,6 +153,22 @@
     },
     {
       "global_candidate": true,
+      "id": "deep-learning-progress-needs-real-world-safety-evidence",
+      "qualifications": [
+        "The evidence is a skeptical 2018 essay centered on vision, game agents, and autonomous driving, so it predates later foundation-model scaling results and should be treated as domain- and source-date bounded."
+      ],
+      "statement": "[[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], and [[AutonomousDrivingSafety]] separate data-rich representation learning from hype claims: compute growth, benchmark success, and simulation-heavy game agents do not by themselves prove robust perception, physical prediction, or safe action.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DeepLearning",
+        "DeepLearningScaling",
+        "AIWinter",
+        "AutonomousDrivingSafety",
+        "FilipPiekniewski"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "llm-apps-depend-on-context-action-boundaries",
       "qualifications": [
         "Several claims are practitioner or code-reading inferences; private cache-edit behavior and serving-side recomputation semantics remain uncertain."
@@ -335,6 +351,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
   "topic_id": "ai-and-technology"
 }

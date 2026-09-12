@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AI winter is well on its way - Piekniewski's blog](sources/ai-winter-is-well-on-its-way-piekniewskis-blog.md) - Filip Piekniewski's 2018 essay arguing that deep-learning hype was cracking through compute-scaling limits, self-driving failures, spurious visual patterns, and the Uber fatal crash.
 - [Bump: 10 Years of Lessons Learned](sources/bump-10-years-of-lessons-learned.md) - David Lieb's retrospective on Bump, showing small-team leverage, user-behavior discovery, photo-sharing pivots, cofounder bonds, Google acquisition, and Google Photos continuity.
 - [A thing I wonder: do companies have too many employees?](sources/a-thing-i-wonder-do-companies-have-too-many-employees.md) - Coach Tony questions headcount-as-success assumptions by arguing that talent needs real opportunity and that large teams can hide underutilization.
 - [A mathematical BS detector can boost the wisdom of crowds](sources/a-mathematical-bs-detector-can-boost-the-wisdom-of-crowds-aeon-essays.md) - George Musser explains how Drazen Prelec's metaknowledge methods can repair crowd wisdom by detecting shared-information bias, hidden beliefs, and shallow confidence.
@@ -113,6 +114,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [Filip Piekniewski](entities/FilipPiekniewski.md) - AI-skeptical blogger arguing in 2018 that deep-learning hype and self-driving failures pointed toward an AI winter.
 - [David Lieb](entities/DavidLieb.md) - Bump cofounder and retrospective author connecting Bump, Flock, Photoroll, Google acquisition, and Google Photos work.
 - [Bump](entities/Bump.md) - Mobile startup that grew through Y Combinator, revealed photo-sharing behavior, and was acquired by Google.
 - [Andy Huibers](entities/AndyHuibers.md) - Bump cofounder used in the retrospective as an example of persistence, humor, and cofounder care.
@@ -444,6 +446,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
+- [Deep Learning Scaling](concepts/DeepLearningScaling.md) - Contested link between increasing compute, data, model size, and transferable deep-learning capability.
+- [Autonomous Driving Safety](concepts/AutonomousDrivingSafety.md) - Reliability problem of making automated vehicles perceive, predict, decide, and act safely in open-world traffic.
 - [Small Team Leverage](concepts/SmallTeamLeverage.md) - Startup pattern where a compact team with little capital reaches outsized usage through focus, timing, network support, and execution.
 - [User Behavior Driven Product Discovery](concepts/UserBehaviorDrivenProductDiscovery.md) - Product discovery that follows what users actually do, especially when behavior differs from the initial product framing.
 - [Startup Team Bond](concepts/StartupTeamBond.md) - Cofounder and early-team trust, care, humor, and resilience that can outlast a particular product path.
