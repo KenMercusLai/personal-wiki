@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: b4a798ecaf24ce87c9ba5e8e319e2edca0cf4fcd
-summary: "A personal wiki linking AI systems, PKM and reading-note tooling, disciplined attention, software practice, learning, indie work, localization, and philosophy."
-episode_count: 22
-source_count: 22
-paragraph_count: 25
+as_of_overview_commit: 95b21a84c802a02fc3ac0f6b469c06f62332a5b2
+summary: "A personal wiki linking AI systems, PKM, disciplined attention, environmental field design, software practice, learning, indie work, localization, and philosophy."
+episode_count: 23
+source_count: 23
+paragraph_count: 26
 topic_count: 8
 ---
 
@@ -22,58 +22,58 @@ topic_count: 8
 - [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances.
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
-- [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks.
+- [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources now span personal knowledge tools, note-system structure, retrieval, inference routing, coding practice, LLM context/action mechanisms, AI-first engineering, production-agent runtime safety, and LLM-assisted data analysis.
+AI and technology sources span personal knowledge support, note-system infrastructure, retrieval, inference serving, coding practice, LLM context/action mechanisms, AI-first engineering, production-agent runtime safety, and LLM-assisted data analysis. The strongest claims emphasize fit between tools and methods, workload-aware AI infrastructure, retrieval-grounded applications, human engineering controls around generated code, and semantic runtime infrastructure for high-permission agents.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances. Evidence: [[NoteGranularity]], [[NoteToolFit]], [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[Obsidian]], [[ChrisGrieser]].
 
 ### Business and Markets
 
-Independent software work is framed as a business design problem: stable income, distribution, customer learning, payment infrastructure, and marketing matter as much as technical product work.
+Independent software work is framed as a business design problem: stable income, distribution, customer learning, payment infrastructure, and marketing matter as much as technical product work. The current cases cover overseas bootstrapped SaaS and programmer freelancing funded by course income while product and personal-brand experiments develop.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].
 
 ### Cross-domain
 
-Applied algorithms are represented through trajectory simplification, where display-oriented systems can trade exact point fidelity for lower transfer, storage, and rendering cost.
+Applied algorithms are represented through trajectory simplification, where display-oriented systems can trade exact point fidelity for lower transfer, storage, and rendering cost. [[RamerDouglasPeuckerAlgorithm]] and [[EpsilonTolerance]] define the current concrete example.
 
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
 
 ### Culture and Media
 
-Culture and media now centers experience, navigation, and participation: reading-note systems make cultural reading traceable, game localization preserves player-facing effects, and object-oriented aesthetics treats art and metaphor as disclosure of things that still withdraw.
+Culture and media center experience, navigation, and participation: reading-note systems make cultural reading traceable, game localization preserves player-facing effects through computational search and domestication, and object-oriented aesthetics treats art and metaphor as disclosure of things that still withdraw.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].
 
 ### Governance and Institutions
 
-The current governance-adjacent material is mostly indirect, highlighting how standards, credentials, institutions, infrastructure, and shared-purpose philosophies shape technical and learning choices.
+The governance-related material is narrow but spans three control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than formal policy.
 
 ### Psychology and Personal Development
 
-Learning and development sources emphasize goals, attention, curiosity, abstraction, knowledge valuation, and inquiry into intrinsic value as ways to protect motivation without reducing learning to rote compliance.
+Learning and development sources emphasize goals, attention, curiosity, abstraction, knowledge valuation, and inquiry into intrinsic value. Goals are useful when they protect curiosity and help learners value knowledge, but they can become counterproductive when they harden into external pressure or credential compliance.
 
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]].
 - [[CreativeAbstraction]] helps learners keep motivation in complex domains by replacing exhaustive memorization with pattern seeking, general principles, and references for detail lookup. Evidence: [[CreativeAbstraction]], [[PiotrWozniak]].
 
 ### Science, Health, and Climate
 
-The current science-health-climate slice is thin and mostly cognitive or philosophy-of-science adjacent: attention is treated as a scarce work resource, and intrinsic value remains scientifically unsettled.
+The science-health-climate slice remains indirect. It covers attention and mental load in productivity advice, plus a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and education are presented as systems of habits, disciplined attention, output, career path design, software standards, deployment tradeoffs, independent creation, and learning-aware AI use.
+Work and education are presented as systems of habits, disciplined attention, environmental fields, output, career path design, software standards, deployment tradeoffs, independent creation, and learning-aware AI use. The field essay adds that agency can depend on selecting or redesigning the incentives, relationships, routines, creative conditions, and moral norms that make some behaviors easier before willpower enters.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

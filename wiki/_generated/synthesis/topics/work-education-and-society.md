@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: b4a798ecaf24ce87c9ba5e8e319e2edca0cf4fcd
-input_digest: a1045b36804c8fc90df2cc2f9c1159ebbac34f26a88b44a271ceb83c49d4ea3b
+as_of_overview_commit: 95b21a84c802a02fc3ac0f6b469c06f62332a5b2
+input_digest: 8bd365aade944f2e71b200781a401735e8b9cea30204940f82c1b12d7e8c4ee3
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The topic spans practical work habits, attention discipline, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit. The newest discipline source adds that agency can depend on refusal: morning phone boundaries, alcohol abstinence, focused collaborators, and embodied example-setting are all treated as ways to keep attention and behavior aligned with chosen aims.
+The topic spans practical work habits, attention discipline, environmental field design, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, company shape, or life fields according to tradeoffs among convenience, income stability, effort, autonomy, belonging, and long-term fit.
 
 ## Cross-source Findings
 
@@ -47,6 +47,18 @@ The topic spans practical work habits, attention discipline, output-centered lea
 
 - The alcohol and example-setting claims are source-scoped to one essay's interpretation of a podcast interview and personal reflection.
 - The A-player/B-player framing can oversimplify differences in experience, role fit, management quality, and team design.
+
+### Environmental Fields Shape Agency
+
+[[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
+
+**Evidence:** [[EnvironmentalField]], [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], [[SituationalMorality]], [[Wulc]]
+
+**Qualifications:**
+
+- The field account is reflective and metaphorical rather than a controlled empirical theory.
+- Field selection can be constrained by money, family obligation, geography, labor markets, care duties, and other structural limits.
+- The claim emphasizes situational pressure without removing individual responsibility.
 
 ### Learning Deepens Through Output
 

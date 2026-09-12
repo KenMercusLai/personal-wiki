@@ -4,6 +4,7 @@
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
+      "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
@@ -27,10 +28,10 @@
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 25
+    "paragraph_count": 26
   },
-  "overview_commit": "b4a798ecaf24ce87c9ba5e8e319e2edca0cf4fcd",
-  "overview_digest": "da9b294d241458539556036a62cc31b0b0329eaeb3f572df4de46c77729c41c1",
+  "overview_commit": "95b21a84c802a02fc3ac0f6b469c06f62332a5b2",
+  "overview_digest": "20617bb1a2c12df906370dff4f8e90da680cb5551228b54a68c57b57b10dacbd",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -78,6 +79,25 @@
         "RoleModeling",
         "SelfDiscipline",
         "TeamFocus"
+      ]
+    },
+    {
+      "id": "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The field essay by [[Wulc]] reframes agency through [[EnvironmentalField]]. It argues that people are shaped by invisible fields made of incentives, people, routines, family scripts, information feeds, and moral norms, so freedom often begins with noticing and choosing the field rather than merely exerting more willpower inside a damaging one. [[WorkEnvironment]] extends the wiki's productivity and career material by showing how metrics, managers, colleagues, value alignment, and feedback loops can institutionalize exhaustion or make growth feel natural. [[FamilyOfOrigin]] and [[ThirdField]] add a life-structure layer: the first family field teaches emotional reflexes, while intimate partnership becomes a jointly built field that can heal old wounds or reproduce them. [[CreativePresence]] connects to the existing output and aesthetics threads by treating inspiration as relaxed receptivity plus sustained practice, and [[SituationalMorality]] adds an ethical claim that scarcity, roles, power, and community norms can redirect ordinary people toward cruelty or care.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "CreativePresence",
+        "EnvironmentalField",
+        "FamilyOfOrigin",
+        "SituationalMorality",
+        "ThirdField",
+        "WorkEnvironment",
+        "Wulc"
       ]
     },
     {

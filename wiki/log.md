@@ -104,6 +104,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 场
+
+Added source note and synthesis pages for environmental field, work environment, family of origin, third field, creative presence, and situational morality. Added an entity profile for Wulc. Key claims: people are shaped by fields made of incentives, relationships, routines, and norms; agency begins with perceiving those fields and sometimes choosing a better one.
+
 ## [2026-09-12] ingest | 从海德格尔的锤子到隐喻的戏剧性
 
 Added source note and synthesis pages for object-oriented ontology, object withdrawal, art as object tension, and metaphor aesthetics. Added entity profiles for Martin Heidegger, Graham Harman, and Vincent van Gogh. Key claims: objects withdraw from use, perception, and relation; Harman's real/sensual object and quality schema frames art as RO-SQ tension; metaphor is theatrical because the reader substitutes for the withdrawn real object and performs the metaphor's sensuous qualities.
@@ -178,6 +182,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 卡片笔记实操篇：推理小说与读书笔记（以 Obsidian 为例）
 
 Added source on using mystery-fiction reading notes as a practical card-note workflow in Obsidian. Key claims: reading notes are a strong entry point for card-note practice; entry, outline, and opinion notes serve different reading tasks; and backlinks, local graphs, graph groups, task plugins, and spoiler folding make book relationships easier to inspect without demanding long reviews for every book.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

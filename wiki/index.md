@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [场](sources/chang.md) - A reflective essay arguing that invisible environmental fields shape work, family, intimacy, creativity, and moral behavior.
 - [只有自律才能看到真正的自由--Durov Podcast 随笔](sources/zhi-you-zi-lv-cai-neng-kan-dao-zhen-zheng-de-zi-you-durov-podcast-sui-bi.md) - A reflective essay using a Pavel Durov podcast to connect morning phone avoidance, focused collaboration, alcohol abstinence, role modeling, and freedom through self-discipline.
 - [内在价值状态](sources/nei-zai-jia-zhi-zhuang-tai.md) - Piotr Wozniak's philosophical essay arguing that the search for objective intrinsic value can serve as a scientific meta-goal for human purpose, knowledge growth, and anxiety reduction.
 - [你大概不会想用 LLM 做数据分析](sources/ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi.md) - A cautionary data-analysis essay arguing that LLMs can generate polished but invalid statistical work, especially around p-hacking, unless users understand and verify the method.
@@ -30,6 +31,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Wulc](entities/Wulc.md) - Author of the field essay connecting environmental influence with work, family, creation, and human nature.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
@@ -121,11 +123,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
+- [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
+- [Environmental Field](concepts/EnvironmentalField.md) - Invisible social, material, emotional, and normative surroundings that shape behavior, character, creativity, and moral judgment.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
 - [Effect Log](concepts/EffectLog.md) - Write-ahead log for agent tool calls and external side effects.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
+- [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
 - [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
@@ -180,13 +185,16 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
 - [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
+- [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
 - [Team Focus](concepts/TeamFocus.md) - Shared collaborator capacity to sustain competent attention without avoidable coordination, morale, or distraction costs.
 - [Time Management Quadrants](concepts/TimeManagementQuadrants.md) - Sorting tasks by urgency and importance to protect important work.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
+- [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
+- [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
 - [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.
 
 ## Syntheses

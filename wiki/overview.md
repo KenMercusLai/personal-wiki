@@ -25,11 +25,12 @@ sources:
   - ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi
   - nei-zai-jia-zhi-zhuang-tai
   - zhi-you-zi-lv-cai-neng-kan-dao-zhen-zheng-de-zi-you-durov-podcast-sui-bi
+  - chang
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, self-discipline and attention boundaries, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
+The wiki currently contains sources on lightweight productivity habits, self-discipline and attention boundaries, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, philosophical aesthetics around object-oriented ontology, art, and metaphor, and a reflective account of environmental fields shaping work, family, creativity, intimacy, and moral life.
 
 ## Current Synthesis
 
@@ -38,6 +39,8 @@ The first ingested source frames [[PersonalProductivity]] as a practical habit s
 The source's strongest cross-cutting theme is [[AttentionManagement]]. It argues for single-tasking over multitasking, reducing low-value information streams, going offline when connectivity causes distraction, and preventing procrastinated tasks from occupying mental space. [[TimeManagementQuadrants]] add a priority lens by distinguishing urgent work from important work and reserving time for important but non-urgent tasks.
 
 The Durov podcast essay sharpens that attention thread into [[SelfDiscipline]]. Drawing on [[PavelDurov]] and [[LexFridman]], it argues that morning phone checks can hand the day's mental agenda to external feeds before deliberate work begins. The source also broadens personal productivity into bodily and social agency: [[AlcoholAbstinence]] is framed as protecting the brain and subjective control from avoidable impairment, [[TeamFocus]] names the morale cost of working beside distracted or mismatched collaborators, and [[RoleModeling]] explains why adults cannot credibly teach restraint while visibly ignoring their own phone-use rules.
+
+The field essay by [[Wulc]] reframes agency through [[EnvironmentalField]]. It argues that people are shaped by invisible fields made of incentives, people, routines, family scripts, information feeds, and moral norms, so freedom often begins with noticing and choosing the field rather than merely exerting more willpower inside a damaging one. [[WorkEnvironment]] extends the wiki's productivity and career material by showing how metrics, managers, colleagues, value alignment, and feedback loops can institutionalize exhaustion or make growth feel natural. [[FamilyOfOrigin]] and [[ThirdField]] add a life-structure layer: the first family field teaches emotional reflexes, while intimate partnership becomes a jointly built field that can heal old wounds or reproduce them. [[CreativePresence]] connects to the existing output and aesthetics threads by treating inspiration as relaxed receptivity plus sustained practice, and [[SituationalMorality]] adds an ethical claim that scarcity, roles, power, and community norms can redirect ordinary people toward cruelty or care.
 
 The INDIGO source extends the wiki from work efficiency into learning systems. [[FeynmanTechnique]] and [[ActiveLearning]] make output the test of understanding: the learner chooses a target, explains it simply, reviews gaps, and internalizes the result. [[FocusedReading]] provides the input side of that loop by narrowing broad discovery into topic-driven research, while [[KnowledgeOutput]] describes a ladder from notes and short opinions to long articles and courses.
 
@@ -89,6 +92,9 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 - Which of the listed habits has the strongest evidence base across different kinds of knowledge work?
 - When does strict phone avoidance protect agency, and when does it conflict with legitimate responsiveness or care duties?
 - How should self-discipline practices distinguish healthy agency from excessive control, rigidity, or social withdrawal?
+- When should people try to redesign a draining field, and when is leaving it the more realistic act of agency?
+- How can the field metaphor avoid excusing harmful behavior while still taking situational pressure seriously?
+- Which parts of family-of-origin and intimate-field repair require personal practice, and which require material independence or external support?
 - What evidence best separates the cognitive risks of alcohol from broader cultural, clinical, or individual-context questions?
 - How can teams identify focus or competence mismatch without reducing people to oversimplified A-player/B-player labels?
 - When do explicit learning goals strengthen curiosity, and when do they become coercive or status-driven?

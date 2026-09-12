@@ -47,6 +47,26 @@
     },
     {
       "global_candidate": true,
+      "id": "environmental-fields-shape-agency",
+      "qualifications": [
+        "The field account is reflective and metaphorical rather than a controlled empirical theory.",
+        "Field selection can be constrained by money, family obligation, geography, labor markets, care duties, and other structural limits.",
+        "The claim emphasizes situational pressure without removing individual responsibility."
+      ],
+      "statement": "[[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "EnvironmentalField",
+        "WorkEnvironment",
+        "FamilyOfOrigin",
+        "ThirdField",
+        "CreativePresence",
+        "SituationalMorality",
+        "Wulc"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "learning-deepens-through-output",
       "qualifications": [
         "The learning source describes a practitioner workflow, not a comparative education study.",
@@ -173,6 +193,6 @@
       ]
     }
   ],
-  "summary": "The topic spans practical work habits, attention discipline, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit. The newest discipline source adds that agency can depend on refusal: morning phone boundaries, alcohol abstinence, focused collaborators, and embodied example-setting are all treated as ways to keep attention and behavior aligned with chosen aims.",
+  "summary": "The topic spans practical work habits, attention discipline, environmental field design, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, company shape, or life fields according to tradeoffs among convenience, income stability, effort, autonomy, belonging, and long-term fit.",
   "topic_id": "work-education-and-society"
 }
