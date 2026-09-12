@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 77f1fc91c780498bce9b159e86e360902c442457
-summary: "A cross-domain map of how tools, organizations, markets, learning systems, and culture work through evidence, incentives, infrastructure, and judgment."
-episode_count: 98
-source_count: 98
-paragraph_count: 99
+as_of_overview_commit: 5d8c3d76d67d2d588243260637d4d508d513749b
+summary: "A cross-domain map of how tools, organizations, markets, learning systems, and culture work through evidence, incentives, infrastructure, trust, and judgment."
+episode_count: 99
+source_count: 99
+paragraph_count: 100
 topic_count: 9
 ---
 
@@ -20,7 +20,7 @@ topic_count: 9
 - [[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility.
 - [[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] all make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], and [[ComputerUse]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, and connected to tools.
-- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
+- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, [[Readlang]] shows that strong growth can still leave an [[IndependentCreator]] below attractive earnings, and [[SmugMug]] adds a team-scale [[FamilyBusiness]] case where paid privacy, storage, support, and customer loyalty compete with free alternatives.
 - [[MinimumViableProduct]] reframes startup product work as early evidence gathering through manual workflows, videos, pricing pages, waitlists, closed betas, platform placement, outsourced concept builds, and explicit [[StartupHypothesisTesting]].
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
 
@@ -35,9 +35,9 @@ Software, AI, data, mobile, campaign technology, and production systems work bes
 
 ### Business and Markets
 
-Startup, SaaS, pricing, media, brand, growth, and creator-economy sources emphasize validated demand, customer evidence, distribution loops, differentiated positioning, unit economics, and disciplined scaling.
+Startup, SaaS, pricing, media, brand, growth, and creator-economy sources emphasize validated demand, customer evidence, trust, differentiated positioning, unit economics, self-funded control, and disciplined scaling.
 
-- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[Readlang]], [[IndependentCreator]].
+- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, [[Readlang]] shows that strong growth can still leave an [[IndependentCreator]] below attractive earnings, and [[SmugMug]] adds a team-scale [[FamilyBusiness]] case where paid privacy, storage, support, and customer loyalty compete with free alternatives. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[Readlang]], [[IndependentCreator]], [[SmugMug]], [[FamilyBusiness]].
 - [[MicroCompany]], [[ProgrammerFreelancing]], and [[SmallProductPortfolio]] describe independent software businesses where modular services, stable income bases, [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn small products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]], [[ZhangXuan]], [[ZhangXiaoji]], [[TableToFigma]], [[EasyCV]].
 
 ### Cross-domain
@@ -64,7 +64,7 @@ History and geopolitics sources use technology history, platform shifts, public 
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources connect attention, discipline, goals, reflection, creativity, meetings, design language, and learning motivation to the environments that shape behavior.
+Psychology and personal-development sources connect attention, discipline, goals, reflection, creativity, meetings, design language, family-business culture, and learning motivation to the environments that shape behavior.
 
 - Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].

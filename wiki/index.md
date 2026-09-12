@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A focused family business - Los Angeles Times](sources/a-focused-family-business-los-angeles-times.md) - LA Times profile of SmugMug as a profitable, self-funded, family-run paid photo-sharing service built around privacy, customer intimacy, and MacAskill family control.
 - [A billion dollar gift for Twitter](sources/a-billion-dollar-gift-for-twitter-startup-grind-medium.md) - Anil Dash's open product-strategy critique arguing that Twitter needed visible shipping, abuse response, better cultural metrics, segmented user tools, and renewed developer-platform trust.
 - [A brief history of the numeric keypad](sources/a-brief-history-of-the-numeric-keypad.md) - Francesco Bertelli's interface-history essay explaining why phone and calculator keypads use inverted layouts through calculator, cash-register, adding-machine, and AT&T telephone research lineages.
 - [A first peek behind the scenes of Hillary Clinton's technology operation](sources/a-first-peek-behind-the-scenes-of-hillary-clintons-technology-operation.md) - First-hand campaign engineering account showing Clinton's official technology team building donation, voter lookup, data, and email infrastructure at production scale.
@@ -106,6 +107,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [SmugMug](entities/SmugMug.md) - Family-run paid photo-sharing service profiled as self-funded, profitable, customer-intimate, and resistant to outside control.
+- [MacAskill Family](entities/MacAskillFamily.md) - Family group behind SmugMug's 2007 operating model across leadership, finance, support, testing, analytics, and customer service.
+- [Don MacAskill](entities/DonMacAskill.md) - SmugMug chief executive and "chief geek" who framed the company around a deliberate family atmosphere.
+- [Chris MacAskill](entities/ChrisMacAskill.md) - SmugMug co-founder, Don MacAskill's father, and Fatbrain veteran who carried entrepreneurial and family culture into the company.
 - [Price Intelligently](entities/PriceIntelligently.md) - SaaS pricing publisher behind the discounting analysis.
 - [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
@@ -413,6 +418,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Family Business](concepts/FamilyBusiness.md) - Company operating pattern where relatives shape ownership, labor, trust, conflict, culture, and public identity.
 - [Stack Overflow Traffic Analysis](concepts/StackOverflowTrafficAnalysis.md) - Using Stack Overflow question visits by tag and country as a bounded signal of developer attention.
 - [Developer Economy Segmentation](concepts/DeveloperEconomySegmentation.md) - Splitting developer ecosystem analysis into meaningful country or market groups so global averages do not hide distinct technology patterns.
 - [Programming Technology Demand](concepts/ProgrammingTechnologyDemand.md) - Inferred developer attention or demand for languages, platforms, frameworks, and tools.

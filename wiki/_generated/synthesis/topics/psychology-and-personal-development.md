@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-13
-as_of_overview_commit: af2afb0d537a879ed4a287834b885482b89f52c9
-input_digest: 6f57b7a278a16802af7fa0e1a93bfd4315294fb1d4fa6bc86332b2faf59c8960
+as_of_overview_commit: 5d8c3d76d67d2d588243260637d4d508d513749b
+input_digest: d5ce35a40d31b33457307caa86979509f0bd6bd7bf1ca15e320c2e670a2ac3d6
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.
+The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.
 
 ## Cross-source Findings
 
@@ -75,3 +75,13 @@ AI context-management mechanisms show that memory and attention are also infrast
 **Qualifications:**
 
 - This claim is source-scoped because the input paragraph is primarily technical and only secondarily related to psychology through memory and attention metaphors.
+
+### Close Social Systems Create Trust And Exclusion Risk
+
+[[FamilyBusiness]] shows that close social bonds can create trust, commitment, customer-facing distinctiveness, and [[StartupCulture]], but [[MacAskillFamily]] and [[DonMacAskill]] also make visible the risk of conflict and non-family exclusion inside intimate work systems.
+
+**Evidence:** [[FamilyBusiness]], [[MacAskillFamily]], [[DonMacAskill]], [[StartupCulture]]
+
+**Qualifications:**
+
+- The SmugMug evidence is a positive company profile, so the claim should be read as a source-scoped social-system pattern rather than a general finding about all family businesses.

@@ -5,9 +5,9 @@
       "id": "independent-saas-combines-infrastructure-and-distribution",
       "qualifications": [
         "Founder retrospectives do not establish general SaaS success rates.",
-        "The path depends on prerequisites such as engineering skill, payment access, savings, market timing, support load, and whether early growth can outrun opportunity cost."
+        "The path depends on prerequisites such as engineering skill, payment access, savings, market timing, support load, customer trust, team or family operating capacity, and whether early growth can outrun opportunity cost."
       ],
-      "statement": "[[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.",
+      "statement": "[[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, [[Readlang]] shows that strong growth can still leave an [[IndependentCreator]] below attractive earnings, and [[SmugMug]] adds a team-scale [[FamilyBusiness]] case where paid privacy, storage, support, and customer loyalty compete with free alternatives.",
       "status": "qualified",
       "supporting_wikilinks": [
         "BootstrappedSaaS",
@@ -17,7 +17,9 @@
         "CustomerLedProductDevelopment",
         "BusinessAsArt",
         "Readlang",
-        "IndependentCreator"
+        "IndependentCreator",
+        "SmugMug",
+        "FamilyBusiness"
       ]
     },
     {
@@ -171,9 +173,9 @@
       "global_candidate": true,
       "id": "pre-fit-startups-convert-runway-into-learning",
       "qualifications": [
-        "The evidence mixes founder retrospectives, advice, and an exceptional 1980s software-business case, so it should not be generalized without business-model context."
+        "The evidence mixes founder retrospectives, advice, a family-business profile, and an exceptional 1980s software-business case, so it should not be generalized without business-model, ownership, and culture context."
       ],
-      "statement": "[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], and [[Microsoft]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[FailureOwnership]], and [[SelfFundedSoftwareGrowth]].",
+      "statement": "[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], and [[SmugMug]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], and [[StartupCulture]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "StartupRunway",
@@ -185,7 +187,9 @@
         "StartupFocus",
         "CustomerLedProductDevelopment",
         "FailureOwnership",
-        "SelfFundedSoftwareGrowth"
+        "SelfFundedSoftwareGrowth",
+        "SmugMug",
+        "StartupCulture"
       ]
     },
     {
@@ -404,6 +408,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs and customer conversations, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, and platforms as systems whose value must be perceived by users, not merely asserted by builders.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs and customer conversations, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, and platforms as systems whose value must be perceived by users, not merely asserted by builders.",
   "topic_id": "business-and-markets"
 }

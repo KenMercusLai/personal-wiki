@@ -604,6 +604,10 @@ Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street V
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A focused family business - Los Angeles Times
+
+Ingested the LA Times SmugMug profile. Added source, entity pages for SmugMug, the MacAskill family, Don MacAskill, and Chris MacAskill; created Family Business; updated Bootstrapped SaaS, Self-Funded Software Growth, Customer-Led Product Development, Startup Culture, index, and overview.
+
 ## [2026-09-13] ingest | A first peek behind the scenes of Hillary Clinton's technology operation
 
 ## [2026-09-13] ingest | A comprehensive data guide to why you shouldn't discount
@@ -768,6 +772,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

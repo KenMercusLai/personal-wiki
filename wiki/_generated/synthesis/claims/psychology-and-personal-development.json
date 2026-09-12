@@ -103,8 +103,23 @@
         "KVCacheAwareRouting",
         "InferenceLoadBalancing"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "close-social-systems-create-trust-and-exclusion-risk",
+      "qualifications": [
+        "The SmugMug evidence is a positive company profile, so the claim should be read as a source-scoped social-system pattern rather than a general finding about all family businesses."
+      ],
+      "statement": "[[FamilyBusiness]] shows that close social bonds can create trust, commitment, customer-facing distinctiveness, and [[StartupCulture]], but [[MacAskillFamily]] and [[DonMacAskill]] also make visible the risk of conflict and non-family exclusion inside intimate work systems.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "FamilyBusiness",
+        "MacAskillFamily",
+        "DonMacAskill",
+        "StartupCulture"
+      ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.",
   "topic_id": "psychology-and-personal-development"
 }
