@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
 - [9 Tricks to Appear Smart in Brainstorming Meetings](sources/9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium.md) - Sarah Cooper's corporate satire arguing that brainstorming meetings can reward performative helpfulness, jargon, meta-framing, executive name-dropping, and premature decisiveness over real ideas.
 - [9 Ways to Build Virality into your Product](sources/9-ways-to-build-virality-into-your-product-gabor-cselle-medium.md) - Gabor Cselle's product-growth taxonomy arguing that consumer virality should be built into core mechanics through rewards, vanity, collaboration, embeds, artifacts, messaging, signatures, and visible hardware.
@@ -87,6 +88,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Amy Wibowo](entities/AmyWibowo.md) - Engineer, artist, researcher, and educator whose retrospective connects robotics, creative computing, Airbnb growth work, and computer-science zines.
+- [ASIMO](entities/ASIMO.md) - Honda humanoid robot used in Amy Wibowo's emotion-aware reinforcement-learning work.
+- [Bubblesort Zines](entities/BubblesortZines.md) - Amy Wibowo's illustrated computer-science zine project for accessible, inclusive technical education.
+- [Honda Research Institute](entities/HondaResearchInstitute.md) - Tokyo-area research setting for Wibowo's ASIMO reinforcement-learning work.
+- [Igarashi Lab](entities/IgarashiLab.md) - University of Tokyo lab where Wibowo led a mannequin-based clothing-pattern interface project.
+- [Legoizer](entities/Legoizer.md) - Creative web app that converts images into Lego mural plans.
+- [MIT](entities/MIT.md) - Engineering-school and Media Lab context for Wibowo's technical formation and emotion-recognition tooling.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
@@ -332,6 +340,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
 
 ## Concepts
+- [Computer Science Zines](concepts/ComputerScienceZines.md) - Self-published, illustration-heavy educational works that explain CS topics with approachable visual framing.
+- [Creative Technical Career](concepts/CreativeTechnicalCareer.md) - Career pattern where technical work, art, craft, education, and product-building become one evolving path.
+- [Reinforcement Learning](concepts/ReinforcementLearning.md) - Machine-learning approach where agents improve decisions through rewards, penalties, and repeated action.
+- [Workplace Sexism in Tech](concepts/WorkplaceSexismInTech.md) - Gendered harassment, credibility denial, stereotyping, and exclusion that make technical work harder or less safe.
 - [Journaling Practice](concepts/JournalingPractice.md) - Lightweight structured daily reflection habit that uses prompts to reduce blank-page resistance.
 - [Gratitude Practice](concepts/GratitudePractice.md) - Deliberate attention to specific daily events, people, and support systems that merit thanks.
 - [Reflective Connection](concepts/ReflectiveConnection.md) - Practice of noticing conceptual links, conversation takeaways, relationship interests, and future follow-up possibilities.

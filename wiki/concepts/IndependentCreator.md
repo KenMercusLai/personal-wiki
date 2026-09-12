@@ -7,7 +7,8 @@ sources:
   - bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua
   - zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu
   - 3-years-as-a-one-man-startup-steve-ridout-medium
-last_updated: 2026-09-12
+  - a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium
+last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,16 +16,16 @@ knowledge_schema: synthesis-v1
 [[IndependentCreator]] describes a person who creates and sells products outside a conventional employer structure, often combining product, engineering, marketing, operations, and customer support personally.
 
 ## Current Synthesis
-The sources treat independent creation as both a work arrangement and an identity, but they describe different viable entry points and maturity levels. [[Hawstein]] moves from a content product toward overseas [[BootstrappedSaaS]], [[ZhangXuan]] combines [[Imooc]] course income, [[EasyCV]], and [[PersonalBranding]] as a programmer's freelancer "B plan," [[ZhangXiaoji]] builds a [[SmallProductPortfolio]] after layoff anxiety, and [[SteveRidout]] keeps building [[Readlang]] despite low earnings because growth and user impact still make the bet feel alive. Across the cases, the role is not romanticized as pure building: the creator must secure income, find distribution, handle operations, validate demand, and decide how much autonomy, uncertainty, and opportunity cost they can tolerate.
+The sources treat independent creation as both a work arrangement and an identity, but they describe different viable entry points and maturity levels. [[Hawstein]] moves from a content product toward overseas [[BootstrappedSaaS]], [[ZhangXuan]] combines [[Imooc]] course income, [[EasyCV]], and [[PersonalBranding]] as a programmer's freelancer "B plan," [[ZhangXiaoji]] builds a [[SmallProductPortfolio]] after layoff anxiety, [[SteveRidout]] keeps building [[Readlang]] despite low earnings because growth and user impact still make the bet feel alive, and [[AmyWibowo]] turns illustrated computer-science zines into a self-directed education project after leaving [[Airbnb]]. Across the cases, the role is not romanticized as pure building: the creator must secure income, find distribution, handle operations, validate demand, choose a medium, and decide how much autonomy, uncertainty, and opportunity cost they can tolerate.
 
 ## Key Claims
 - Independent creation can begin with the best available entry point rather than the creator's ideal business model.
 - Independence requires both building and selling.
 - Stable income or financial runway can matter more than immediate product upside.
 - Autonomy can be a rational operating priority, even when hiring could reduce workload.
-- Global software distribution makes small creators less bounded by local markets.
 - Independent creation can be understood as a form of [[CareerPlanning]] built through staged experiments, including portfolios of narrow validated products.
 - Meaningful user impact can keep an independent creator committed even when the current financial return is poor.
+- Independent creation can also use low-polish, self-published media to lower perfection pressure and preserve creative control.
 
 ## Evidence
 - Entry point: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] presents [[AlgoCasts]] as the best starting point available in 2018 even though the author wanted SaaS later.
@@ -37,12 +38,14 @@ The sources treat independent creation as both a work arrangement and an identit
 - Product portfolio: [[zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu]] shows [[ZhangXiaoji]] combining [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] so learning and income do not depend on one product alone.
 - Opportunity cost: [[3-years-as-a-one-man-startup-steve-ridout-medium]] shows [[SteveRidout]] comparing Readlang with contracting or a large-company software job while acknowledging that the product still pays poorly.
 - User impact: [[3-years-as-a-one-man-startup-steve-ridout-medium]] uses language-learner feedback and continued growth as reasons to keep going despite weak current income.
+- Self-published education: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] presents [[BubblesortZines]] as a creator-controlled illustrated CS education project whose zine format reduced perfectionism and publisher gatekeeping.
 
 ## Counterevidence & Qualifications
-The sources are creator retrospectives rather than survival-rate studies. They also show different dependencies: Hawstein's path depends on SaaS, payment access, support capacity, and overseas markets; Zhang Xuan's path depends on savings, teaching ability, platform course income, and tolerance for isolation; Zhang Xiaoji's path depends on design/programming fit, marketplace access, user feedback, and enough marketing ability to turn small tools into paid products; and Ridout's path depends on whether early compounding can eventually outweigh the founder's opportunity cost.
+The sources are creator retrospectives rather than survival-rate studies. They also show different dependencies: Hawstein's path depends on SaaS, payment access, support capacity, and overseas markets; Zhang Xuan's path depends on savings, teaching ability, platform course income, and tolerance for isolation; Zhang Xiaoji's path depends on design/programming fit, marketplace access, user feedback, and enough marketing ability to turn small tools into paid products; Ridout's path depends on whether early compounding can eventually outweigh the founder's opportunity cost; and Wibowo's zine path depends on audience demand, crowdfunding, illustration labor, and a medium that makes technical education feel approachable.
 
 ## What Changed
 - Added Readlang as an early-stage independent-creator case where user impact and growth coexist with low founder income.
+- Added illustrated CS zines as an independent-creator path based on self-publishing, education, and creative control.
 
 ## Related Concepts
 - [[BootstrappedSaaS]] - one business model independent creators can use.
@@ -54,3 +57,4 @@ The sources are creator retrospectives rather than survival-rate studies. They a
 - [[PersonalBranding]] - a distribution channel for independent creators.
 - [[SmallProductPortfolio]] - a product-portfolio operating model for independent creators.
 - [[Readlang]] - a solo product case showing the emotional and financial tension of continuing.
+- [[ComputerScienceZines]] - self-published educational medium used by an independent creator.

@@ -3,6 +3,7 @@
     "assigned_paragraph_ids": [
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
+      "f92b4444e1d63494cf7cc4dd6b0e7c8dda39365c4b3b0b180b8d5d38a1d41705",
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
@@ -82,10 +83,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 80
+    "paragraph_count": 81
   },
-  "overview_commit": "1f30791381a8353c778f327b629ef827a67a9ce1",
-  "overview_digest": "d8862c810b6c83cd404d8e47f26bc4dc9c4a07b034df95d6ffdf02b8ba498ae3",
+  "overview_commit": "db2e42e39c1e4cd1917965f303aff5c8fc42336b",
+  "overview_digest": "74eca123b5cedfe0c2b98030b229a0a0a2c4f90aa7d1294e331a2c56c3766e17",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -117,6 +118,29 @@
         "JournalingPractice",
         "PersonalKnowledgeManagement",
         "ReflectiveConnection"
+      ]
+    },
+    {
+      "id": "f92b4444e1d63494cf7cc4dd6b0e7c8dda39365c4b3b0b180b8d5d38a1d41705",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "[[AmyWibowo]]'s career retrospective adds a creative-technical career pattern to the wiki's career and learning material. [[CreativeTechnicalCareer]] is shown as a path discovered through repeated experiments across [[ReinforcementLearning]], [[ASIMO]] robotics, clothing-pattern interfaces at [[IgarashiLab]], [[Airbnb]] growth/localization work, [[Legoizer]], knitting-machine hacking, and [[BubblesortZines]]. The source also adds [[WorkplaceSexismInTech]] as a structural constraint on career planning and creative presence: harassment, ignored contributions, blame shifting, and gendered stereotypes can erode the joy that drew someone into computing, while art-computing projects and [[ComputerScienceZines]] can become a way to rebuild that sense of possibility.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "ASIMO",
+        "Airbnb",
+        "AmyWibowo",
+        "BubblesortZines",
+        "ComputerScienceZines",
+        "CreativeTechnicalCareer",
+        "IgarashiLab",
+        "Legoizer",
+        "ReinforcementLearning",
+        "WorkplaceSexismInTech"
       ]
     },
     {

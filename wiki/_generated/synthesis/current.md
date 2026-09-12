@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 1f30791381a8353c778f327b629ef827a67a9ce1
-summary: "The wiki maps how tools, habits, and knowledge become reliable work through evidence, feedback, verification, incentives, and judgment."
-episode_count: 79
-source_count: 79
-paragraph_count: 80
+as_of_overview_commit: db2e42e39c1e4cd1917965f303aff5c8fc42336b
+summary: "The wiki maps how tools, habits, and knowledge become reliable work through evidence, feedback, verification, incentives, context, and judgment."
+episode_count: 80
+source_count: 80
+paragraph_count: 81
 topic_count: 9
 ---
 
@@ -22,8 +22,8 @@ topic_count: 9
 - [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation.
-- [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReflectiveConnection]] adds a smaller daily route for turning lessons, analogies, conversations, and future collaboration possibilities into captured knowledge, while [[OrphanNotes]] add maintenance practices for earning links, containing bounded research, using [[Anki]] for random review, and allowing dormancy.
-- [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
+- [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
+- [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values; [[CreativeTechnicalCareer]] adds a non-linear path where art, engineering, craft, and education cohere through repeated experiments, while [[WorkplaceSexismInTech]] names a structural constraint that can redirect or damage that path. [[ProgrammerFreelancing]] and [[IndependentCreator]] cases add experiments around money, isolation, autonomy, user impact, and fallback design, while [[JobApplicationSideProjects]] make career-transition claims credible only when projects are relevant, deep, iterated, shipped, and visible.
 
 ## Synthesis by Domain
 
@@ -78,7 +78,7 @@ Science, health, and climate remains indirect, centering attention as a scarce c
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed learning loops: routines and journaling prompts reduce friction, environments shape agency, output and situated practice deepen learning, PKM needs useful structure and maintenance, and career or creator paths require explicit tradeoffs.
+Work, education, and society sources frame improvement as designed learning loops: routines and journaling prompts reduce friction, environments shape agency, output and situated practice deepen learning, PKM needs useful structure and maintenance, and career or creator paths require explicit tradeoffs around autonomy, money, safety, evidence, and fit.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].
