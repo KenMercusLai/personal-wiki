@@ -576,6 +576,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 9 Tricks to Appear Smart in Brainstorming Meetings
+
+Ingested Sarah Cooper's brainstorming-meeting satire. Added source, Sarah Cooper entity, and concept pages for corporate satire and performative meeting behavior; updated index and overview to capture meeting-status performance through helpful exits, meaningless sketches, pseudo-depth, jargon, CEO references, and premature decisiveness. Inspected the embedded article images: duplicate thumbnails were treated as repeats, the book-cover/promo image was contextual, and the line illustrations were incorporated as evidence for the meeting-performance tropes.
+
 ## [2026-09-13] ingest | 9 Boxes
 
 Ingested Jonah Peretti's BuzzFeed strategy memo. Added source, entity, and concept pages for Jonah Peretti, Tasty, digital media monetization, platform-publisher revenue, media-brand portfolios, and the nine-box media operating model; updated Buzzfeed and Web Ad Economics to capture publisher-platform ad pressure, multi-revenue strategy, and the brand-by-revenue matrix. Inspected all embedded images: the portrait was contextual, while the platform-revenue chart, Tasty ecosystem graphic, and nine-box matrix were incorporated as source evidence.
@@ -619,6 +623,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

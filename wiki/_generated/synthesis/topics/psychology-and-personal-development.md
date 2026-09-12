@@ -3,18 +3,29 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-09-12
-as_of_overview_commit: 015f816c37aaab0d9e907b3a1f813aecfa816ce6
-input_digest: a956b4a676a5f46ccac67a9ca86cf7fde4728620c9ec50afb3267d302b52be5b
+last_updated: 2026-09-13
+as_of_overview_commit: 0e9059a6e32015fe1854fbfb05e28dd060c5ef1a
+input_digest: 3a3724f7c550ce2c2a3f8c122e502801caf3ca976747be6b6f2159ad4de12a17
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, user-facing cognitive friction, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. The CLI source appears here as a secondary UX-friction case: explicit help, flags, errors, prompts, command grammar, and automation contracts make technical tools easier to understand and trust. Prompt-cache material is present only as technical classifier spillover.
+The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, user-facing cognitive friction, workplace status performance, and source-scoped bridges into UX research and technical context mechanics. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. Cooper's meeting satire adds a social-performance warning: collaborative rituals and strategic language can become status signals when detached from evidence, ownership, or concrete next steps. The CLI and UX research sources appear here as secondary cognitive-friction cases, while prompt-cache material is present only as technical classifier spillover.
 
 ## Cross-source Findings
+
+### Meeting Status Performance Can Mask Substance
+
+[[PerformativeMeetingBehavior]] shows how meeting participants can signal creativity, strategic breadth, executive closeness, or decision authority through rituals and language that look collaborative but lack evidence, ownership, or concrete next steps.
+
+**Evidence:** [[PerformativeMeetingBehavior]], [[CorporateSatire]]
+
+**Qualifications:**
+
+- The claim is grounded in [[CorporateSatire]], so it is a diagnostic cultural reading rather than empirical meeting research.
+- The same behaviors can be substantive when tied to real evidence, responsibility, and follow-through.
 
 ### Creator Anxiety Improves Through Controllable Actions
 

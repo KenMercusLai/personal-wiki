@@ -5,6 +5,7 @@
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
+      "43a317c59849b6210090d1c8f452557ea10de445ccd628d60ee6c0d57ef4d4d5",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "dc8fdcbe54dd381783d4a3ee9a146ef12142608f5e4f5de599ce275fe0c565f1",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
@@ -78,10 +79,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 76
+    "paragraph_count": 77
   },
-  "overview_commit": "6ba7c64021e6a97b13f068b835c89f27789b24b2",
-  "overview_digest": "de6537dd293409ceae42fee199edc75ef38c676f725c6446a1dcbe78ad0a2994",
+  "overview_commit": "0e9059a6e32015fe1854fbfb05e28dd060c5ef1a",
+  "overview_digest": "ec67293a7d64c8860f575cf2d61de0d427e7484e88647ce0bc00307999cc27f3",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -148,6 +149,21 @@
         "ThirdField",
         "WorkEnvironment",
         "Wulc"
+      ]
+    },
+    {
+      "id": "43a317c59849b6210090d1c8f452557ea10de445ccd628d60ee6c0d57ef4d4d5",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "Sarah Cooper's meeting satire adds a comic but useful workplace-culture diagnostic. [[CorporateSatire]] works here by presenting hollow behavior as practical advice, while [[PerformativeMeetingBehavior]] names the pattern underneath: participants can signal creativity, strategic breadth, executive closeness, or decision authority through helpful exits, sketches, analogies, meta-questions, jargon, CEO references, and premature \"Ship it!\" declarations. This qualifies the wiki's productivity and communication material by showing the shadow side of meetings: language and rituals that look collaborative can also become status performances when detached from evidence, ownership, or concrete next steps.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CorporateSatire",
+        "PerformativeMeetingBehavior"
       ]
     },
     {

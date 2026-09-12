@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [9 Tricks to Appear Smart in Brainstorming Meetings](sources/9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium.md) - Sarah Cooper's corporate satire arguing that brainstorming meetings can reward performative helpfulness, jargon, meta-framing, executive name-dropping, and premature decisiveness over real ideas.
 - [9 Boxes](sources/9-boxes.md) - Jonah Peretti's BuzzFeed strategy memo arguing for fairer platform revenue, diversified digital media monetization, a portfolio of consumer-service brands, and a nine-box brand-by-revenue operating model.
 - [8 Lessons From One of Silicon Valley's Top VCs | Drift](sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md) - Drift interview summary with Sequoia's Pat Grady arguing for durable problem-solving, category-defining ambition, narrow entry into big markets, capital discipline, and culture/systems after the 150-person scaling threshold.
 - [8 PR Strategies for Bootstrapped Startups](sources/8-pr-strategies-for-bootstrapped-startups-the-startup-medium.md) - Josiah Humphrey's startup PR article arguing that bootstrapped founders can win useful publicity through specific goals, concise pitches, targeted journalist outreach, guest posts, and reverse pitching.
@@ -315,8 +316,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for the code-review practice source.
 - [Josiah Humphrey](entities/JosiahHumphrey.md) - Startup operator voice behind the Appster PR advice for bootstrapped founders.
 - [Appster](entities/Appster.md) - Startup/company context used for practical PR, guest-publishing, and media-outreach examples.
+- [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
 
 ## Concepts
+- [Corporate Satire](concepts/CorporateSatire.md) - Humor that exaggerates workplace rituals, jargon, and status performances to reveal organizational incentives.
+- [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct aimed at signaling intelligence, creativity, helpfulness, or authority without improving the group's work.
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
 - [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce founder time through tools, automation, assistance, or delegation so attention returns to higher-value work.
