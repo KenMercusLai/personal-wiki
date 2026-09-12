@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [只有自律才能看到真正的自由--Durov Podcast 随笔](sources/zhi-you-zi-lv-cai-neng-kan-dao-zhen-zheng-de-zi-you-durov-podcast-sui-bi.md) - A reflective essay using a Pavel Durov podcast to connect morning phone avoidance, focused collaboration, alcohol abstinence, role modeling, and freedom through self-discipline.
 - [内在价值状态](sources/nei-zai-jia-zhi-zhuang-tai.md) - Piotr Wozniak's philosophical essay arguing that the search for objective intrinsic value can serve as a scientific meta-goal for human purpose, knowledge growth, and anxiety reduction.
 - [你大概不会想用 LLM 做数据分析](sources/ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi.md) - A cautionary data-analysis essay arguing that LLMs can generate polished but invalid statistical work, especially around p-hacking, unless users understand and verify the method.
 - [从海德格尔的锤子到隐喻的戏剧性](sources/cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing.md) - A philosophical aesthetics essay using Heidegger's broken hammer and Harman's object-oriented ontology to explain art as object-quality tension and metaphor as readerly performance.
@@ -62,6 +63,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
 - [Letta](entities/Letta.md) - Open-source framework described as the later continuation of the MemGPT memory-management line.
+- [Lex Fridman](entities/LexFridman.md) - Interviewer whose Durov podcast prompts the source essay's reflections on team focus and discipline.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
 - [Martin Heidegger](entities/MartinHeidegger.md) - Philosopher whose hammer example introduces tool transparency, breakdown, and object withdrawal in the source.
 - [MemGPT](entities/MemGPT.md) - Hierarchical LLM memory system used as an example of active context and memory management.
@@ -75,6 +77,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
 - [OpenClaw](entities/OpenClaw.md) - Agent-related project or incident cited as making real system-permission risks concrete.
+- [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
 - [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
@@ -97,6 +100,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Accessibility Tree](concepts/AccessibilityTree.md) - Semantic UI tree used by assistive technology and agentic Computer Use workflows.
+- [Alcohol Abstinence](concepts/AlcoholAbstinence.md) - Avoiding alcohol as a discipline practice for protecting cognitive clarity and agency.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, and tools.
@@ -170,11 +174,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - Recursive curve-simplification algorithm that retains points according to maximum deviation from segment chords.
 - [Reading Note Workflow](concepts/ReadingNoteWorkflow.md) - Practical workflow for turning books, metadata, booklists, summaries, and opinions into linked notes for recall, discovery, and writing.
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - LLM pattern that retrieves external information and supplies it as answer context.
+- [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
+- [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
+- [Team Focus](concepts/TeamFocus.md) - Shared collaborator capacity to sustain competent attention without avoidable coordination, morale, or distraction costs.
 - [Time Management Quadrants](concepts/TimeManagementQuadrants.md) - Sorting tasks by urgency and importance to protect important work.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.

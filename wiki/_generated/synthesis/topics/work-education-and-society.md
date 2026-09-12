@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: 93f7cea3f726dce73c4192c651025cf7b5ef3500
-input_digest: c68ef6ddf543014209ae941941e4fa26cc908f5cd41708a91acb3f6a82a0438c
+as_of_overview_commit: b4a798ecaf24ce87c9ba5e8e319e2edca0cf4fcd
+input_digest: a1045b36804c8fc90df2cc2f9c1159ebbac34f26a88b44a271ceb83c49d4ea3b
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The topic spans practical work habits, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit.
+The topic spans practical work habits, attention discipline, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit. The newest discipline source adds that agency can depend on refusal: morning phone boundaries, alcohol abstinence, focused collaborators, and embodied example-setting are all treated as ways to keep attention and behavior aligned with chosen aims.
 
 ## Cross-source Findings
 
@@ -24,17 +24,29 @@ The topic spans practical work habits, output-centered learning, learning motiva
 
 **Qualifications:**
 
-- The claim is grounded in one productivity-habits source and may vary across interruption-heavy roles.
+- The claim is grounded in advice and reflective sources and may vary across interruption-heavy roles.
 
-### Attention And Priority Shape Work Quality
+### Attention And Self Discipline Shape Work Quality
 
-[[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks.
+[[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks.
 
-**Evidence:** [[AttentionManagement]], [[TimeManagementQuadrants]]
+**Evidence:** [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]]
 
 **Qualifications:**
 
-- The available evidence emphasizes knowledge-work habits and does not yet compare outcomes across occupations.
+- The available evidence emphasizes knowledge-work and reflective habit sources rather than comparative occupational outcomes.
+- Strict attention boundaries may conflict with legitimate responsiveness, logistics, care duties, or collaborative monitoring.
+
+### Discipline Extends Into Agency And Example
+
+[[AlcoholAbstinence]], [[TeamFocus]], and [[RoleModeling]] broaden discipline from private habit into cognitive agency, collaboration morale, and visible example-setting.
+
+**Evidence:** [[AlcoholAbstinence]], [[TeamFocus]], [[RoleModeling]], [[LexFridman]]
+
+**Qualifications:**
+
+- The alcohol and example-setting claims are source-scoped to one essay's interpretation of a podcast interview and personal reflection.
+- The A-player/B-player framing can oversimplify differences in experience, role fit, management quality, and team design.
 
 ### Learning Deepens Through Output
 

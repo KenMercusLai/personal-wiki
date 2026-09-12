@@ -24,17 +24,20 @@ sources:
   - ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li
   - ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi
   - nei-zai-jia-zhi-zhuang-tai
+  - zhi-you-zi-lv-cai-neng-kan-dao-zhen-zheng-de-zi-you-durov-podcast-sui-bi
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
+The wiki currently contains sources on lightweight productivity habits, self-discipline and attention boundaries, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
 
 ## Current Synthesis
 
 The first ingested source frames [[PersonalProductivity]] as a practical habit system rather than a heavyweight methodology: define the day's most important tasks, simplify information inputs, communicate concisely, and shape the workload by batching, deleting, delegating, or doing resisted work early. It ties [[WorkHabits]] to repeatable routines such as morning planning and planned message processing.
 
 The source's strongest cross-cutting theme is [[AttentionManagement]]. It argues for single-tasking over multitasking, reducing low-value information streams, going offline when connectivity causes distraction, and preventing procrastinated tasks from occupying mental space. [[TimeManagementQuadrants]] add a priority lens by distinguishing urgent work from important work and reserving time for important but non-urgent tasks.
+
+The Durov podcast essay sharpens that attention thread into [[SelfDiscipline]]. Drawing on [[PavelDurov]] and [[LexFridman]], it argues that morning phone checks can hand the day's mental agenda to external feeds before deliberate work begins. The source also broadens personal productivity into bodily and social agency: [[AlcoholAbstinence]] is framed as protecting the brain and subjective control from avoidable impairment, [[TeamFocus]] names the morale cost of working beside distracted or mismatched collaborators, and [[RoleModeling]] explains why adults cannot credibly teach restraint while visibly ignoring their own phone-use rules.
 
 The INDIGO source extends the wiki from work efficiency into learning systems. [[FeynmanTechnique]] and [[ActiveLearning]] make output the test of understanding: the learner chooses a target, explains it simply, reviews gaps, and internalizes the result. [[FocusedReading]] provides the input side of that loop by narrowing broad discovery into topic-driven research, while [[KnowledgeOutput]] describes a ladder from notes and short opinions to long articles and courses.
 
@@ -84,6 +87,10 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 
 - How do these productivity habits vary across roles that require rapid responsiveness or collaborative interruption?
 - Which of the listed habits has the strongest evidence base across different kinds of knowledge work?
+- When does strict phone avoidance protect agency, and when does it conflict with legitimate responsiveness or care duties?
+- How should self-discipline practices distinguish healthy agency from excessive control, rigidity, or social withdrawal?
+- What evidence best separates the cognitive risks of alcohol from broader cultural, clinical, or individual-context questions?
+- How can teams identify focus or competence mismatch without reducing people to oversimplified A-player/B-player labels?
 - When do explicit learning goals strengthen curiosity, and when do they become coercive or status-driven?
 - How can learners measure whether a goal is increasing learn drive rather than just adding pressure?
 - Can Wozniak's intrinsically valuable state be made operational, or is it best treated as an orienting philosophical hypothesis?

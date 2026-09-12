@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: c3bcdb8f9fc3320d6ed0ce7f10c413cbe946948e
-summary: "A personal wiki linking AI systems, PKM and reading-note tooling, software practice, learning, indie work, localization, and philosophy."
-episode_count: 21
-source_count: 21
-paragraph_count: 24
+as_of_overview_commit: b4a798ecaf24ce87c9ba5e8e319e2edca0cf4fcd
+summary: "A personal wiki linking AI systems, PKM and reading-note tooling, disciplined attention, software practice, learning, indie work, localization, and philosophy."
+episode_count: 22
+source_count: 22
+paragraph_count: 25
 topic_count: 8
 ---
 
@@ -22,7 +22,7 @@ topic_count: 8
 - [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances.
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
-- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.
+- [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
@@ -73,7 +73,7 @@ The current science-health-climate slice is thin and mostly cognitive or philoso
 
 ### Work, Education, and Society
 
-Work and education are presented as systems of habits, output, career path design, software standards, deployment tradeoffs, independent creation, and learning-aware AI use.
+Work and education are presented as systems of habits, disciplined attention, output, career path design, software standards, deployment tradeoffs, independent creation, and learning-aware AI use.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
-- [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
+- [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

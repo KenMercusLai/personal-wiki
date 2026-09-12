@@ -4,7 +4,7 @@
       "global_candidate": true,
       "id": "practical-work-systems-reduce-friction",
       "qualifications": [
-        "The claim is grounded in one productivity-habits source and may vary across interruption-heavy roles."
+        "The claim is grounded in advice and reflective sources and may vary across interruption-heavy roles."
       ],
       "statement": "[[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology.",
       "status": "supported",
@@ -15,15 +15,34 @@
     },
     {
       "global_candidate": true,
-      "id": "attention-and-priority-shape-work-quality",
+      "id": "attention-and-self-discipline-shape-work-quality",
       "qualifications": [
-        "The available evidence emphasizes knowledge-work habits and does not yet compare outcomes across occupations."
+        "The available evidence emphasizes knowledge-work and reflective habit sources rather than comparative occupational outcomes.",
+        "Strict attention boundaries may conflict with legitimate responsiveness, logistics, care duties, or collaborative monitoring."
       ],
-      "statement": "[[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks.",
-      "status": "supported",
+      "statement": "[[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults such as morning phone checks.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "AttentionManagement",
-        "TimeManagementQuadrants"
+        "TimeManagementQuadrants",
+        "SelfDiscipline",
+        "PavelDurov"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "discipline-extends-into-agency-and-example",
+      "qualifications": [
+        "The alcohol and example-setting claims are source-scoped to one essay's interpretation of a podcast interview and personal reflection.",
+        "The A-player/B-player framing can oversimplify differences in experience, role fit, management quality, and team design."
+      ],
+      "statement": "[[AlcoholAbstinence]], [[TeamFocus]], and [[RoleModeling]] broaden discipline from private habit into cognitive agency, collaboration morale, and visible example-setting.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AlcoholAbstinence",
+        "TeamFocus",
+        "RoleModeling",
+        "LexFridman"
       ]
     },
     {
@@ -154,6 +173,6 @@
       ]
     }
   ],
-  "summary": "The topic spans practical work habits, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit.",
+  "summary": "The topic spans practical work habits, attention discipline, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, or company shape according to tradeoffs among convenience, income stability, effort, autonomy, and long-term fit. The newest discipline source adds that agency can depend on refusal: morning phone boundaries, alcohol abstinence, focused collaborators, and embodied example-setting are all treated as ways to keep attention and behavior aligned with chosen aims.",
   "topic_id": "work-education-and-society"
 }

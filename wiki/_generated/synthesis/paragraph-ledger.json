@@ -3,6 +3,7 @@
     "assigned_paragraph_ids": [
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
+      "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
@@ -26,10 +27,10 @@
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 24
+    "paragraph_count": 25
   },
-  "overview_commit": "c3bcdb8f9fc3320d6ed0ce7f10c413cbe946948e",
-  "overview_digest": "0df6011c5537e31b8e729534128dd1f055071222eadfc0b10d4b7b5a334346d4",
+  "overview_commit": "b4a798ecaf24ce87c9ba5e8e319e2edca0cf4fcd",
+  "overview_digest": "da9b294d241458539556036a62cc31b0b0329eaeb3f572df4de46c77729c41c1",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -58,6 +59,25 @@
       "wikilinks": [
         "AttentionManagement",
         "TimeManagementQuadrants"
+      ]
+    },
+    {
+      "id": "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The Durov podcast essay sharpens that attention thread into [[SelfDiscipline]]. Drawing on [[PavelDurov]] and [[LexFridman]], it argues that morning phone checks can hand the day's mental agenda to external feeds before deliberate work begins. The source also broadens personal productivity into bodily and social agency: [[AlcoholAbstinence]] is framed as protecting the brain and subjective control from avoidable impairment, [[TeamFocus]] names the morale cost of working beside distracted or mismatched collaborators, and [[RoleModeling]] explains why adults cannot credibly teach restraint while visibly ignoring their own phone-use rules.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AlcoholAbstinence",
+        "LexFridman",
+        "PavelDurov",
+        "RoleModeling",
+        "SelfDiscipline",
+        "TeamFocus"
       ]
     },
     {

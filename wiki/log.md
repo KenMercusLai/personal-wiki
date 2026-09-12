@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 只有自律才能看到真正的自由--Durov Podcast 随笔
+
+Added source note and synthesis pages for self-discipline, alcohol abstinence, team focus, and role modeling. Added entity profiles for Pavel Durov and Lex Fridman, and updated attention management plus overview synthesis. Key claims: morning phone use can surrender the day's attention agenda; self-discipline creates freedom by refusing low-value inputs and impairments; distracted collaborators can damage morale and focus; visible example matters more than verbal instruction.
+
 ## [2026-09-12] ingest | 内在价值状态
 
 Added source note and a concept page for intrinsically valuable state. Updated Piotr Wozniak, goal setting, knowledge valuation network, index, and overview synthesis. Key claims: ordinary goals are usually instrumentally valuable; current science does not certify intrinsic value; Wozniak proposes knowledge growth and reality modeling as the rational shared response to that uncertainty.
@@ -174,6 +178,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 卡片笔记实操篇：推理小说与读书笔记（以 Obsidian 为例）
 
 Added source on using mystery-fiction reading notes as a practical card-note workflow in Obsidian. Key claims: reading notes are a strong entry point for card-note practice; entry, outline, and opinion notes serve different reading tasks; and backlinks, local graphs, graph groups, task plugins, and spoiler folding make book relationships easier to inspect without demanding long reviews for every book.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
