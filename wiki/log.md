@@ -136,6 +136,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 16 mobile theses
+
+Ingested Benedict Evans' mobile strategy essay. Added source, entity, and concept pages for the mobile ecosystem, platform discovery, mobile runtime, messaging as platform, IoT data, and mobile productivity; updated Google as a mobile-platform actor.
+
 ## [2026-09-12] ingest | 16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more
 
 Ingested the CS183C scaling synthesis. Added the source note, startup scaling concepts, and operator/company entities; updated Google, Stripe, Y Combinator, the index, and the overview synthesis.
@@ -455,6 +459,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 12 Fractured Apps
 
 Ingested Kelsey Hightower's Docker application startup essay. Added source, entity, and concept pages for Docker-friendly startup, runtime configuration, and twelve-factor deployment behavior.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

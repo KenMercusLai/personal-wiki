@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
 - [16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more](sources/16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more.md) - CS183C scaling synthesis arguing that blitzscaling, hiring, culture, communication, and CEO work must change by startup stage and competitive pressure.
 - [15+ Examples of Successful MVPs - Startups & Web Pages](sources/15-examples-of-successful-mvps-startups-web-pages-software-brothers.md) - Software Brothers' survey of famous MVP origin stories, arguing that startups can validate demand through narrow features, manual workflows, landing pages, videos, waitlists, and platform/community tests before full buildout.
 - [12 Fractured Apps](sources/12-fractured-apps-kelsey-hightower-medium.md) - Kelsey Hightower's Docker-era deployment essay arguing that containerized applications should own startup, runtime configuration, directory creation, and dependency retry behavior instead of outsourcing bootstrapping to wrapper scripts.
@@ -150,6 +151,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
+- [Apple](entities/Apple.md) - Mobile platform winner whose iOS ecosystem concentrates high-value users and platform-control power in the source's 2015 framing.
+- [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, and discovery control.
+- [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem and service-control surface in the mobile platform order.
+- [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
+- [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery and runtime platform.
+- [WeChat](entities/WeChat.md) - China messaging app used as the source's strongest example of messaging becoming a mobile platform.
 - [Graham Harman](entities/GrahamHarman.md) - Object-oriented ontology thinker whose real/sensual object and quality schema frames the article's theory of art and metaphor.
 - [Guanlan](entities/Guanlan.md) - Author arguing for production-agent infrastructure built around effect logs, capability gateways, and resumability.
 - [gVisor](entities/GVisor.md) - User-space kernel sandbox discussed as execution isolation rather than semantic agent isolation.
@@ -410,5 +418,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
 - [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
 - [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.
+- [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, and adjacent devices away from the PC-era center.
+- [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
+- [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users find services when search, app stores, operating systems, notifications, messaging, and traffic holders shape attention.
+- [Mobile Runtime](concepts/MobileRuntime.md) - Competing service surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
+- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, and customer-acquisition channel.
+- [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.
+- [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
 
 ## Syntheses

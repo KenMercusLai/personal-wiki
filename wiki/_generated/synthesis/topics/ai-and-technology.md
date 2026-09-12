@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: fc4370f290d05356385bdad8dbc301429e5c781f
-input_digest: 866d60bd79ce2fa37f19ebf2ecc64019621b41d8e3fab32882c0af928cd04ec4
+as_of_overview_commit: 74f6b9522380399d66cae35396ee333831ec7294
+input_digest: bb293b631b81399c8aed27e53a3b83ef243f1c1f7d8c61318bb8c3246a296074
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats AI systems, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. The Instapaper case adds a non-AI reminder that useful software can also protect attention and reading workflows through parsing, offline access, search, notes, exports, platform integration, and accessibility details. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
+The AI and technology thread treats AI systems, mobile platforms, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, mobile runtimes, IoT data, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, platform control, and human or organizational controls. The Instapaper and mobile-platform cases add non-AI reminders that useful software also depends on runtime surfaces, discovery layers, parsing, offline access, search, notes, exports, platform integration, and accessibility details. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
 
 ## Cross-source Findings
 
@@ -275,3 +275,14 @@ Large coding-agent projects become more reliable when [[AgentTeam]] roles are co
 
 - The evidence is a game-server practitioner essay, so its strongest claims fit online games with large PCU/DAU scale, live operations, and progressive update needs.
 - The source explicitly warns that launch-validated decisions are context-bound evidence rather than timeless authority.
+
+### Mobile Ecosystem Reframes Internet Runtime And Data
+
+[[MobileEcosystem]] reframes technology infrastructure around smartphone scale: [[MobileInternet]] makes phones the primary internet surface, [[MobileRuntime]] and [[MessagingAsPlatform]] show that apps, web, messages, maps, notifications, and assistants compete as service runtimes, and [[InternetOfThingsData]] connects cheap mobile supply chains to sensor-driven system redesign.
+
+**Evidence:** [[MobileEcosystem]], [[MobileInternet]], [[MobileRuntime]], [[MessagingAsPlatform]], [[InternetOfThingsData]], [[MobilePlatformDiscovery]], [[Apple]], [[Google]], [[Microsoft]]
+
+**Qualifications:**
+
+- The evidence is a 2015 strategic thesis and should be treated as source-date bounded rather than a settled account of later AI, assistant, app-store, or mobile-platform developments.
+- The claim links product strategy, internet runtime, and IoT data through one source paragraph rather than through measured adoption data.

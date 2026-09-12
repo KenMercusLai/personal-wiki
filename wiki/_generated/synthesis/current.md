@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: eb7bb6e9b1942fb8802d1377cf807fc7fd33eada
-summary: "Practical systems for judgment and execution across AI, software, business, education, and knowledge work."
-episode_count: 55
-source_count: 55
-paragraph_count: 58
+as_of_overview_commit: 74f6b9522380399d66cae35396ee333831ec7294
+summary: "A map of knowledge work, software, product strategy, learning, reliability, and culture shaped by tools, platforms, incentives, and judgment."
+episode_count: 56
+source_count: 56
+paragraph_count: 59
 topic_count: 9
 ---
 
@@ -16,69 +16,69 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] and large [[AgentTeam]] work require small steps, precise task decomposition, context control, specs, memory hygiene, and humane pacing.
-- [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent and humanities workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, milestone respawns, file-backed state, source cleanup, compression, and [[TapeAndAnchors]]-style context reconstruction.
+- [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation.
+- [[MobileEcosystem]] reframes technology infrastructure around smartphone scale: [[MobileInternet]] makes phones the primary internet surface, [[MobileRuntime]] and [[MessagingAsPlatform]] show that apps, web, messages, maps, notifications, and assistants compete as service runtimes, and [[InternetOfThingsData]] connects cheap mobile supply chains to sensor-driven system redesign.
 - [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
-- [[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
-- [[MinimumViableProduct]] reframes startup product work as early evidence gathering: [[SoftwareBrothers]] shows teams testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, and platform/community placement before building full systems.
+- [[MobileEcosystem]] adds a platform-market layer to product strategy: [[Apple]] and [[Google]] both win mobile in different ways, [[Microsoft]] becomes the legacy PC-platform contrast case, and [[MobilePlatformDiscovery]], [[MobileRuntime]], and [[MessagingAsPlatform]] show that distribution, discovery, and runtime control are business strategy rather than neutral technical plumbing.
 - [[StartupScaling]] extends MVP validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], and disciplined [[TalentDensity]].
-- [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
+- [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]], and can guide iterative action when paired with good-enough steps, exploration, rest, and [[SelfDiscipline]].
+- [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The AI and technology thread treats AI systems, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.
+AI and technology sources emphasize that tools become useful infrastructure only when paired with context quality, verification, human accountability, platform/runtime awareness, and operational controls.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation. Evidence: [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]].
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics, MVP-based startup validation, startup scaling, long-lived software-product evolution, developer-tool UX, container-friendly application deployment, market-positioning strategy, consumer-IP operations, startup equity design, and reliability investment. Its current center is that technical building only becomes a business through customer evidence, distribution, operational discipline, stage-appropriate hiring, communication, culture, and clear market positioning.
+Business sources connect product viability to distribution, platform timing, customer learning, positioning, operational investment, startup scaling, equity design, and business-model adaptation.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProductEvolution]] spans both narrow first validation artifacts and mature adaptation: [[Instapaper]] evolves through [[AppStore]] timing, parser rewrites, search infrastructure, [[Betaworks]] and [[Pinterest]] ownership, business-model shifts, and reliability recovery, while the [[MinimumViableProduct]] examples warn against projecting later platform breadth backward onto the first core-value test. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]].
 
 ### Cross-domain
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage.
+Cross-domain material tracks how abstractions, metaphors, and transferable principles can clarify work across learning, technology, statistics, art, and life strategy while still needing careful grounding.
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
 
 ### Culture and Media
 
-The culture-and-media layer connects experience-centered practices across learning media, reading, games, and aesthetics: media form shapes systematic study, reading-note systems make books navigable, game localization preserves player-facing effects, game-server operations form a hidden delivery layer, and object-oriented aesthetics treats art and metaphor as participatory disclosure.
+Culture and media sources examine creator work, aesthetics, metaphor, game localization, platform feedback, and interpretation as systems shaped by tools, audiences, genres, and participation.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].
 
 ### Governance and Institutions
 
-The governance-related material remains narrow but spans control problems in institutions, AI serving, game operations, and intrinsic-value uncertainty: status competition can distort learning aims, inference gateways encode technical control, operations move responsibility into engineering-owned recovery workflows, and knowledge-seeking is proposed as an orientation under uncertainty.
+Governance material centers on how rules, infrastructure, institutional design, and power shape reliability, security, autonomy, and collective behavior.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input; its assigned material is better treated as classifier spillover from software-product chronology and technical AI infrastructure.
+History-oriented material is sparse and mostly appears as context for technology and learning sources rather than as a standalone historical synthesis.
 
 ### Psychology and Personal Development
 
-The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, and user-facing cognitive friction: goals, abstraction, controllable action, and thoughtful interface design can reduce pressure and support better judgment.
+Psychology and personal development sources frame agency through attention, self-discipline, learning motivation, goals, environmental fields, creativity, and reflective life design.
 
 - [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 - [[CommandLineUX]] reduces user confusion when [[CLIApplicationDesign]] makes help, flags, errors, prompts, [[StructuredCLIOutput]], and [[CLICommandGrammar]] explicit while [[AutomationFriendlyCLI]] keeps rich terminal behavior from breaking scripts and pipelines. Evidence: [[CommandLineUX]], [[CLIApplicationDesign]], [[StructuredCLIOutput]], [[CLICommandGrammar]], [[AutomationFriendlyCLI]], [[JeffDickey]], [[Heroku]], [[Oclif]].
 
 ### Science, Health, and Climate
 
-The topic remains mostly indirect, covering attention and mental load in productivity advice plus a philosophy-of-science claim that current science does not settle intrinsic value.
+Science and health material currently focuses on statistical reasoning, uncertainty, cognitive and behavioral interpretation, and a few health-related self-regulation claims rather than broad biomedical or climate coverage.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, and learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training.
+Work, education, and society sources argue that durable learning and productive work depend on active output, problem definition, mentorship, computational and statistical thinking, metacognitive feedback, and humane attention systems.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

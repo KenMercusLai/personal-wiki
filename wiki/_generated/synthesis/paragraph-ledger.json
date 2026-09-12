@@ -58,12 +58,13 @@
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa",
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
-      "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9"
+      "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9",
+      "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793"
     ],
-    "paragraph_count": 58
+    "paragraph_count": 59
   },
-  "overview_commit": "eb7bb6e9b1942fb8802d1377cf807fc7fd33eada",
-  "overview_digest": "15cd10b5ce68c7804e1f924a4a40c32aa25c1ddacffb11f25b7721d1c80843c8",
+  "overview_commit": "74f6b9522380399d66cae35396ee333831ec7294",
+  "overview_digest": "81adb2c57cfea90b27d9381c807e5769a12d28824ceba6908f65e68c221a2168",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1182,6 +1183,30 @@
         "ScottKupor",
         "StartupEquityTransparency",
         "YCombinator"
+      ]
+    },
+    {
+      "id": "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The mobile theses source adds a platform-strategy layer to the wiki's product and internet material. [[BenedictEvans]] frames [[MobileEcosystem]] as the new technology center of gravity: [[Apple]] and [[Google]] both win mobile in different ways, while [[Microsoft]] becomes the legacy PC-platform contrast case. [[MobileInternet]] challenges the idea that phones are merely a limited web client, and [[MobilePlatformDiscovery]] names the new bottleneck around search, app stores, OS control, curation, notifications, maps, assistants, and traffic ownership. [[MobileRuntime]] and [[MessagingAsPlatform]] extend the product-evolution thread by showing why apps, web, messaging, and assistant-like surfaces are also distribution strategies. [[InternetOfThingsData]] connects this mobile supply-chain argument to the wiki's big-data thread: cheap sensors matter when they create operational data surfaces that can redesign systems, not merely when they add network connections.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "Apple",
+        "BenedictEvans",
+        "Google",
+        "InternetOfThingsData",
+        "MessagingAsPlatform",
+        "Microsoft",
+        "MobileEcosystem",
+        "MobileInternet",
+        "MobilePlatformDiscovery",
+        "MobileRuntime"
       ]
     }
   ],
