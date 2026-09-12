@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 74f6b9522380399d66cae35396ee333831ec7294
-input_digest: bb293b631b81399c8aed27e53a3b83ef243f1c1f7d8c61318bb8c3246a296074
+as_of_overview_commit: 677747ff3bacca023647474604b7dba0020aa5a2
+input_digest: 9d01bc113f7f85d02fafbded17a0fa67391943265fc66ed5263ed5c6dd58772e
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats AI systems, mobile platforms, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, mobile runtimes, IoT data, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, platform control, and human or organizational controls. The Instapaper and mobile-platform cases add non-AI reminders that useful software also depends on runtime surfaces, discovery layers, parsing, offline access, search, notes, exports, platform integration, and accessibility details. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
+The AI and technology thread treats AI systems, mobile platforms, data work, reading software, browser payments, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, mobile runtimes, IoT data, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, platform control, and human or organizational controls. The Instapaper, mobile-platform, and HTTP 402 cases add non-AI reminders that useful software also depends on runtime surfaces, discovery layers, protocol semantics, browser trust, parsing, offline access, search, notes, exports, platform integration, and accessibility details. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
 
 ## Cross-source Findings
 
@@ -114,6 +114,17 @@ The AI and technology thread treats AI systems, mobile platforms, data work, rea
 
 - The evidence is a company-authored Instapaper retrospective, so it emphasizes milestone continuity rather than comparative user research or competitor analysis.
 - Discovery feeds, public profiles, and large saved queues may reintroduce attention costs even when the core product promise is distraction-reduced reading.
+
+### Browser Payments Use Http Status Semantics
+
+[[HTTP402PaymentRequired]] shows how HTTP status semantics could become browser product infrastructure: a trusted [[BrowserPaymentBroker]] might interpret paid-access metadata and present explicit purchase, rental, or subscription choices instead of leaving sites with only ads, custom paywalls, or blocked access.
+
+**Evidence:** [[HTTP402PaymentRequired]], [[BrowserPaymentBroker]], [[AdBlocking]], [[WebAdEconomics]], [[AppStore]], [[Stripe]]
+
+**Qualifications:**
+
+- The evidence is a 2015 proposal and wireframe-backed product argument, not an adopted browser or HTTP payment standard.
+- The source does not resolve payment-provider competition, privacy of purchase history, fraud prevention, or interoperable response metadata.
 
 ### Learning Motivation Adjacent To Knowledge Systems
 

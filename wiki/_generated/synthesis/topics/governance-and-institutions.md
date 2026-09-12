@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-12
-as_of_overview_commit: 4b0ae730e14ed686a5ce23a262b1c7c3297b87bf
-input_digest: 1fb587534e923591516687efe790c7af5d20a94714a840a0540033a435951bce
+as_of_overview_commit: 677747ff3bacca023647474604b7dba0020aa5a2
+input_digest: aefc646d726f28ce1a740ed5eedb7f8eb94ed3b001af6817a57723336ffbece0
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans control problems across institutions, infrastructure, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; declarative infrastructure, container-native practice, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -45,6 +45,17 @@ The governance-related material is still narrow but now spans control problems a
 **Qualifications:**
 
 - This is a secondary topic assignment from an infrastructure paragraph; the corpus does not yet discuss governance, regulation, or institutional policy around AI serving.
+
+### Ad Free Public Spaces Reveal Rule Governance
+
+[[SaoPauloCleanCityLaw]] and [[AdBlocking]] show that public information spaces are governed by rules as well as markets: legal bans and browser content-filtering APIs can remove advertising, but [[WebAdEconomics]] then needs explicit accountability around how creators, publishers, and users fund access.
+
+**Evidence:** [[SaoPauloCleanCityLaw]], [[AdBlocking]], [[WebAdEconomics]], [[BrowserPaymentBroker]], [[DavidHumphrey]]
+
+**Qualifications:**
+
+- The source uses the urban advertising ban and iOS content filtering as an analogy; it does not evaluate the Clean City Law's long-term policy outcomes.
+- The browser-payment proposal remains speculative and does not establish a governance framework for browser vendors, publishers, or payment providers.
 
 ### Operations Governance Shifts Responsibility Into Engineering
 

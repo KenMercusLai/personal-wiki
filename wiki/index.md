@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
 - [40 Lessons from 40 Years of Apple Ads](sources/40-lessons-from-40-years-of-apple-ads-mission-org-medium.md) - Mission.org's Apple advertising survey extracting marketing lessons from four decades of campaigns around simplicity, cultural association, contrast, proof, product demonstration, and aspiration.
+- [402: Payment Required](sources/402-payment-required-david-humphrey-medium.md) - David Humphrey's browser-payment proposal arguing that ad blocking exposes the web's implicit advertising bargain and that HTTP 402 could support explicit browser-mediated purchases, rentals, and subscriptions.
 - [3 Years as a One Man Startup](sources/3-years-as-a-one-man-startup-steve-ridout-medium.md) - Steve Ridout's retrospective on three years building Readlang, showing strong signup and revenue growth, real user impact, and ramen profitability alongside weak founder earnings and high opportunity cost.
 - [4 Hard Truths about Equity](sources/4-hard-truths-about-equity-while-west.md) - While West's employee-side critique of startup equity, arguing that illiquidity, vesting, preferences, founder asymmetry, and hindsight bias make cash safer when company prospects are doubtful.
 - [4 Lessons From a Failed Startup - From and For First Time Founders](sources/4-lessons-from-a-failed-startup-from-and-for-first-time-founders.md) - Maderight's shutdown retrospective arguing that first-time founders should test hypotheses explicitly, spend runway on learning capacity, keep sales founder-led before product-market fit, and avoid unfocused service/product hybrids.
@@ -84,6 +85,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LinkedIn](entities/LinkedIn.md) - Company context for Jeff Weiner's recruiting, culture, all-hands, and product-leadership scaling lessons.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
 - [Netflix](entities/Netflix.md) - Culture and talent-density example built around Reed Hastings' culture deck and context-not-control model.
+- [David Humphrey](entities/DavidHumphrey.md) - Web commentator proposing browser-mediated payments around HTTP 402 as an alternative to implicit ad-funded exchange.
+- [Mozilla](entities/Mozilla.md) - Browser organization named as a possible leader for integrated web-payment experiments.
+- [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
 - [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
 - [Sam Altman](entities/SamAltman.md) - Startup advisor cited for hiring slowly before product-market fit.
@@ -322,6 +326,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creator Positioning](concepts/CreatorPositioning.md) - Choosing a creator direction by defining audience, value, credibility, and a defensible point of view.
 - [Idea Management](concepts/IdeaManagement.md) - Capturing, storing, reviewing, and cultivating ideas so passing inspiration can become future work.
 - [Accessibility Tree](concepts/AccessibilityTree.md) - Semantic UI tree used by assistive technology and agentic Computer Use workflows.
+- [Ad Blocking](concepts/AdBlocking.md) - Browser or user-agent filtering that blocks ads and exposes the revenue tension in ad-funded web publishing.
 - [Alcohol Abstinence](concepts/AlcoholAbstinence.md) - Avoiding alcohol as a discipline practice for protecting cognitive clarity and agency.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
@@ -338,6 +343,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Behavioral Data](concepts/BehavioralData.md) - Behavior traces that support prediction, optimization, and automated business decisions.
 - [Big Data Industry Transformation](concepts/BigDataIndustryTransformation.md) - Conditions under which large-scale data and automation can reshape an industry's operations or products.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
+- [Browser Payment Broker](concepts/BrowserPaymentBroker.md) - Proposed browser role that mediates payment between users, providers, and sites.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
 - [Capability Gateway](concepts/CapabilityGateway.md) - Infrastructure boundary that mediates agent actions through scoped, temporary, revocable credentials and tool semantics.
@@ -375,6 +381,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
 - [Free Learning](concepts/FreeLearning.md) - Self-directed learning guided by curiosity, play, personal goals, and real-time knowledge valuation.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
+- [Web Ad Economics](concepts/WebAdEconomics.md) - Web funding model where users receive content without direct payment while advertising and tracking monetize attention and behavior.
 - [GPV Career Formula](concepts/GPVCareerFormula.md) - Career-reflection framework combining gifts, passion, and values to reason about fit.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
@@ -383,6 +390,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
 - [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
+- [HTTP 402 Payment Required](concepts/HTTP402PaymentRequired.md) - Reserved HTTP status code proposed as a browser-readable signal for paid access.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
 - [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, and server push to improve performance.
 - [HTTP/3](concepts/HTTP3.md) - HTTP version that runs over QUIC and UDP to reduce TCP-level blocking and connection setup costs.
