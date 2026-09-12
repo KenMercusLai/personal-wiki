@@ -51,6 +51,7 @@
       "e6ed3471285a6de6420b21726ef8f78b2268d163d998585b8326ef70fef86db8",
       "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
+      "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
@@ -72,10 +73,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 70
+    "paragraph_count": 71
   },
-  "overview_commit": "3d927a811343edd122b4fdf40964892ff486a6cf",
-  "overview_digest": "7ece2a4724ec9fca4b3de1360895f66c5fe25dff3a3676b05af95d1dd1ac2021",
+  "overview_commit": "19e091781145a2cb3276e1f05e6be5c054531755",
+  "overview_digest": "7a6d8e53b994f79029844efd967b42213081f406914d0d2bdff7b18eb0d6ab24",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1042,6 +1043,29 @@
         "StartupHypothesisTesting",
         "StartupRunway",
         "YCombinator"
+      ]
+    },
+    {
+      "id": "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Groove founder-advice source adds an operator-judgment layer to the same startup material. [[AlexTurnbull]] argues from [[Groove]] experience that [[StartupFocus]] begins with a hard filter: the only true business necessities are creating value and selling it at a profit, while tactic guilt can distract founders before evidence is in. [[FounderNetworkBuilding]] treats relationships as long-term value exchange that can produce guidance, partnerships, introductions, and strategic confidence. [[ProductCommoditization]] connects to [[DifferentiationStrategy]] by arguing that product features are increasingly easy to copy, so brand and culture become more defensible business assets. The source also sharpens [[CustomerLedProductDevelopment]] with a practical cadence of frequent customer calls, introduces [[FounderTimeLeverage]] as buying back scarce founder time through tools or assistance, frames [[FounderSuccessDefinition]] as working backward from a personally chosen life target, and names [[StartupVisionSelling]] as the skill of earning early support from partners, suppliers, hires, customers, and investors before proof is complete.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AlexTurnbull",
+        "CustomerLedProductDevelopment",
+        "DifferentiationStrategy",
+        "FounderNetworkBuilding",
+        "FounderSuccessDefinition",
+        "FounderTimeLeverage",
+        "Groove",
+        "ProductCommoditization",
+        "StartupFocus",
+        "StartupVisionSelling"
       ]
     },
     {

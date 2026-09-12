@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 3d927a811343edd122b4fdf40964892ff486a6cf
-summary: "A living map of AI practice, learning, work, product strategy, infrastructure, markets, media, and trust across source-backed wiki notes."
-episode_count: 68
-source_count: 68
-paragraph_count: 70
+as_of_overview_commit: 19e091781145a2cb3276e1f05e6be5c054531755
+summary: "A living map of AI practice, learning, work, product strategy, infrastructure, markets, governance, media, and trust across source-backed wiki notes."
+episode_count: 69
+source_count: 69
+paragraph_count: 71
 topic_count: 9
 ---
 
@@ -16,14 +16,14 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
-- [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] and large [[AgentTeam]] work require small steps, precise task decomposition, context control, specs, memory hygiene, and humane pacing.
 - [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
-- [[OutsourcedProductDevelopment]] is useful in the supplied evidence only when [[MindTheProduct]]'s product owner treats external code as a bounded validation artifact, keeps [[MinimumViableProduct]] scope explicit, and plans for [[ProductEvolution]] through later refactoring, handoff, or replacement.
-- [[GrowthHacking]] adds an acquisition-pattern layer to startup and SaaS strategy: [[ViralLoops]] use product behavior such as [[Hotmail]] footers, [[Dropbox]] sharing, [[LinkedIn]] profiles, [[TripAdvisor]] badges, and [[Spotify]] widgets; [[FreemiumAcquisition]] lowers trial friction through [[Shopify]], [[HubSpot]], [[Spotify]], and [[PokemonGo]]; [[ContentLedAcquisition]] turns useful or entertaining media from [[Buffer]], [[Moz]], [[Buzzfeed]], and [[OneDollarShaveClub]] into demand; and [[MarketplaceTrust]] unlocks participation through [[EBay]], [[PayPal]], [[Zappos]], [[TripAdvisor]], and [[Kickstarter]].
+- [[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
+- [[AlexTurnbull]] frames founder operating judgment around leverage and restraint: [[FounderNetworkBuilding]] should create value before asks, [[FounderTimeLeverage]] should buy back scarce attention, [[FounderSuccessDefinition]] should set the business target before adopting hustle norms, and [[StartupVisionSelling]] helps early supporters believe in the future company before proof is complete.
+- [[MinimumViableProduct]] reframes startup product work as early evidence gathering: [[SoftwareBrothers]] shows teams testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, and platform/community placement before building full systems; [[OutsourcedProductDevelopment]] adds outsourced concept builds as a validation path when later refactoring or disposal is expected; and [[StartupHypothesisTesting]] adds that tests should be tied to explicit assumptions and evaluation criteria.
 - [[StartupScaling]] extends MVP validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], and disciplined [[TalentDensity]]; [[Maderight]] shows how failing to reach fit keeps sales, runway, and focus in discovery mode.
+- [[GrowthHacking]] adds an acquisition-pattern layer to startup and SaaS strategy: [[ViralLoops]] use product behavior such as [[Hotmail]] footers, [[Dropbox]] sharing, [[LinkedIn]] profiles, [[TripAdvisor]] badges, and [[Spotify]] widgets; [[FreemiumAcquisition]] lowers trial friction through [[Shopify]], [[HubSpot]], [[Spotify]], and [[PokemonGo]]; [[ContentLedAcquisition]] turns useful or entertaining media from [[Buffer]], [[Moz]], [[Buzzfeed]], and [[OneDollarShaveClub]] into demand; and [[MarketplaceTrust]] unlocks participation through [[EBay]], [[PayPal]], [[Zappos]], [[TripAdvisor]], and [[Kickstarter]].
+- Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
-- [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
 
 ## Synthesis by Domain
 
@@ -36,28 +36,28 @@ AI and technology sources treat tools as socio-technical infrastructure: useful 
 
 ### Business and Markets
 
-Business sources connect creator economics, SaaS marketing, MVP validation, outsourced product development, growth hacking, marketplace trust, positioning, platform strategy, reliability investment, and equity design. Growth tactics matter most when they expose a real product-channel-trust loop rather than imitating a famous surface move, and outsourced prototype work helps only when product owners keep scope, QA, technical specification, tracking, and later ownership explicit.
+Business sources connect creator economics, startup validation, founder operating judgment, product strategy, distribution, trust, platform timing, equity design, and reliability investment. The current synthesis stresses that building alone is insufficient: viable businesses need customer learning, willingness-to-pay evidence, disciplined focus, defensible positioning, explicit ownership of outsourced or automated work, credible vision-selling, and sustained operational investment.
 
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SteveRidout]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]], [[OutsourcedProductDevelopment]].
 
 ### Cross-domain
 
-Cross-domain material currently covers two classification problems: simplifying map trajectories while preserving useful shape, and using exposed service ports to triage defensive security risk.
+Cross-domain sources currently contribute technical pattern transfer more than a single broad thesis: exposed ports support security triage, and trajectory simplification shows how tolerance choices trade fidelity for operational cost.
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
 
 ### Culture and Media
 
-Culture and media sources show how form shapes experience: study media, reading notes, game localization, game operations, and object-oriented aesthetics all depend on preserving the user or reader's lived effect.
+Culture and media sources show that artifacts, texts, games, notes, and translations are shaped by medium-specific constraints: cultural reading needs navigable records, localization combines retrieval with human judgment, and aesthetics can be understood through participation, metaphor, and object tension.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].
 
 ### Governance and Institutions
 
-Governance material spans institutional control problems: learning incentives, ad-funded public spaces, infrastructure ownership, local environment repair, game operations, task queues, and volunteer campaign technology all need explicit responsibility boundaries.
+Governance and institutions sources emphasize accountability boundaries: learning systems can coerce, inference gateways and ad-free public spaces shift control, production operations move responsibility into engineering, and volunteer campaign technology needs clear ownership when it affects real people.
 
 ### History and Geopolitics
 
@@ -65,20 +65,20 @@ This topic has no strong geopolitical thesis yet; current paragraphs are better 
 
 ### Psychology and Personal Development
 
-Psychology sources center motivation, creator anxiety, learning agency, cognitive friction, and goal design, emphasizing controllable action, curiosity, abstraction, and careful feedback over raw metrics or coercive pressure.
+Psychology and personal-development sources connect agency to controllable action, goals, environment, learning abstraction, and friction reduction. They repeatedly qualify self-improvement advice by showing how tools, status pressure, UX, and context can either support or distort judgment.
 
 - [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 - [[CommandLineUX]] reduces user confusion when [[CLIApplicationDesign]] makes help, flags, errors, prompts, [[StructuredCLIOutput]], and [[CLICommandGrammar]] explicit while [[AutomationFriendlyCLI]] keeps rich terminal behavior from breaking scripts and pipelines. Evidence: [[CommandLineUX]], [[CLIApplicationDesign]], [[StructuredCLIOutput]], [[CLICommandGrammar]], [[AutomationFriendlyCLI]], [[JeffDickey]], [[Heroku]], [[Oclif]].
 
 ### Science, Health, and Climate
 
-Science and health material remains indirect, focused on attention as scarce mental capacity and on Wozniak's view that uncertainty about intrinsic value motivates knowledge growth and reality modeling.
+Science, health, and climate coverage is still sparse. Current claims frame attention as a scarce cognitive resource and intrinsic value as a philosophical question not settled by current science.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and education sources frame improvement as designed loops: routines reduce friction, attention protects agency, environments shape behavior, and learning deepens through output, feedback, situated practice, AI-era problem definition, and explicit coordination of work across internal, external, and volunteer contributors.
+Work, education, and society sources treat durable capability as a mix of attention, discipline, environment, output, situated practice, business design, career fit, and accountable technical work. AI-era education and independent work both increase the premium on problem definition, feedback, judgment, and systems that reduce friction without removing responsibility.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | 7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started
+
+Added source note plus pages for Alex Turnbull, Groove, founder network building, product commoditization, founder time leverage, founder success definition, and startup vision selling. Updated startup focus, customer-led product development, differentiation strategy, index, overview, and generated synthesis inputs to reflect the article's claims that founders should filter advice through value and profit, build value-first relationships, talk to customers frequently, defend brand and culture, buy back time, define success personally, and sell vision early. The external header image could not be inspected because its URL returned a Forbidden text response rather than image data.
+
 ## [2026-09-12] ingest | 4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support
 
 Added a source note plus pages for Windows Subsystem for Linux and native systemd in WSL. Updated index and overview to reflect the source's procedural claim that a stale WSL setup can be cleaned by unregistering distros, removing related apps and Windows features, reinstalling with `wsl --install`, enabling `systemd=true` in `/etc/wsl.conf`, shutting WSL down, and verifying systemd from inside the distribution. No image references were present in the source.
@@ -565,6 +569,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
 

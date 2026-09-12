@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started](sources/7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started.md) - Alex Turnbull's Groove founder-advice article arguing that startups should focus on value and profit, build value-first relationships, talk to customers, defend brand and culture, buy back founder time, define success personally, and learn to sell vision.
 - [7 Lessons on Building Product with Outsourced Developers - Mind the Product](sources/7-lessons-on-building-product-with-outsourced-developers-mind-the-product.md) - Mind the Product article arguing that outsourced development can support MVP validation when hiring, fit testing, scope, QA, technical documentation, and issue tracking are managed explicitly.
 - [51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses](sources/51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses.md) - Practitioner catalog of growth-hacking cases showing how product-integrated sharing, referrals, freemium entry, content, trust systems, stunts, partnerships, and paid search can drive user or revenue growth.
 - [4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support](sources/4wk-clean-uninstall-then-reinstall-of-wsl-on-windows-10-with-systemd-support.md) - Procedural WSL note explaining how to cleanly remove and reinstall WSL on Windows 10, choose a distribution, enable native systemd through `/etc/wsl.conf`, and verify the result.
@@ -76,6 +77,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
+- [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
 - [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of seeding early adoption through tech-community events and free rides.
@@ -298,6 +301,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 
 ## Concepts
+- [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
+- [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
+- [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce founder time through tools, automation, assistance, or delegation so attention returns to higher-value work.
+- [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.
+- [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete.
 - [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
