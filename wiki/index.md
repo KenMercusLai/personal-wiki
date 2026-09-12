@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
 - [A Look at Vim, a Text Editor for the Ages - The New Stack](sources/a-look-at-vim-a-text-editor-for-the-ages-the-new-stack.md) - The New Stack history tracing Vim from Unix `ed`, `em`, `ex`, and `vi` through Bram Moolenaar's open-source Vim, emphasizing constraint-shaped interface choices, incremental evolution, and cultural persistence.
 - [A Look at Auth0 Cloud Architecture: 5 Years In](sources/a-look-at-auth0-cloud-architecture-5-years-in.md) - Auth0 architecture retrospective showing how a high-scale identity SaaS standardized on AWS, multi-AZ and cross-region failover, infrastructure as code, testing, observability, and internal platform work.
+- [A New Beginning: MyCrypto.com](sources/a-new-beginning-mycrypto-com-mycrypto-medium.md) - Taylor Monahan's MyCrypto launch essay tracing MyEtherWallet from a two-person Ethereum wallet side project into high-stakes infrastructure, then explaining the move to a new brand, company, support surface, and audited codebase.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
@@ -145,6 +146,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
 - [Twitter](entities/Twitter.md) - Social platform used as an example of verified accounts attracting and organizing influential users.
+- [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
+- [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
+- [MyEtherWallet](entities/MyEtherWallet.md) - Early Ethereum wallet interface that grew from a two-person side project into widely used crypto infrastructure.
+- [Kvhnuke](entities/Kvhnuke.md) - MyEtherWallet co-creator who retained the MEW repository, domain, AWS instances, and social accounts after the split.
+- [Ethereum](entities/Ethereum.md) - Blockchain ecosystem whose early usability gap, DAO aftermath, ENS workflows, ICO boom, and asset-value growth shaped the wallet story.
 - [Hotmail](entities/Hotmail.md) - Email service used as a classic outgoing-message viral-loop example.
 - [Gmail](entities/Gmail.md) - Google email service used as an invitation-scarcity growth example.
 - [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
@@ -425,6 +431,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
+- [Crypto Wallet Security](concepts/CryptoWalletSecurity.md) - User-facing wallet security across key control, phishing defense, audits, education, privacy, and trust boundaries.
+- [Support Load Scaling](concepts/SupportLoadScaling.md) - Startup operations problem where high-volume, high-stakes support demand forces more durable teams, systems, and company structure.
 - [Unix Editor Lineage](concepts/UnixEditorLineage.md) - Historical chain from `ed` through `em`, `en`, `ex`, `vi`, open-source clones, and Vim.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.

@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | A New Beginning: MyCrypto.com
+
+Added a source note plus pages for Taylor Monahan, MyCrypto, MyEtherWallet, Kvhnuke, Ethereum, crypto wallet security, and support load scaling. Updated startup scaling, index, overview, and downstream synthesis inputs to capture the article's account of a two-person Ethereum wallet side project becoming high-stakes infrastructure under ICO, ENS, phishing, support, and security pressure. Inspected the local image embed and classified it as the MyCrypto logo with no additional evidentiary content beyond brand identification.
+
 ## [2026-09-13] ingest | A Dark Room: From Sabbatical Year to $800,000
 
 Added source note plus pages for Amir Rajan, A Dark Room, RubyMotion, sabbatical career experiments, and indie game development. Updated index and overview to capture the article's deliberately qualified success story: savings-backed creative runway, app-store volatility, luck and privilege, anxiety after a hit, and the limits of sustaining indie game work even after an $800,000 outcome. No image references were present in the source.
@@ -663,6 +667,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
