@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 为什么你不该沉迷知识管理
+
+Added source note and Liang Mouyin entity. Updated personal knowledge management, knowledge output, note-tool fit, Obsidian, index, overview, and generated synthesis inputs to reflect the source's warning that PKM can become self-referential tool-chasing unless simplified around personal fit and tested by real output.
+
 ## [2026-09-12] ingest | 选题、专业性、完美主义、数据和灵感，这些创作焦虑该如何应对？
 
 Added source note and synthesis pages for creator anxiety, creator positioning, creator feedback loops, platform metrics, and idea management. Added entity profiles for Jay Clouse, Sahil Bloom, Alok Kanojia, Xiaohongshu, and Notion, and updated writing, knowledge output, PKM, creative presence, personal branding, and Nicky Case to reflect the source's creator-workflow view.
@@ -299,6 +303,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 是的，我用AI写文章，咋滴
 
 Added source note for Feng Ruohang's AI-assisted writing workflow, created pages for AI-Assisted Writing, Feng Ruohang, Gemini, and ChatGPT, and updated related writing/output/Claude synthesis pages.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

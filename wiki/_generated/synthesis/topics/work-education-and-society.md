@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4
-input_digest: 8f26b153f8b7a54eb41d57851b576c11663914eae8000e2de7b07ba1507e4248
+as_of_overview_commit: e807f0768a3b5688e59157fd95cab4a4b78bbb0b
+input_digest: 24f0b401c4d88f9c5bd629430232284efb120549a2efe4c01fae1b1fd51773cf
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic now adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
 
 ## Cross-source Findings
 
@@ -62,17 +62,18 @@ Work, education, and society sources frame improvement as designed loops: practi
 
 ### Learning Deepens Through Output And Situated Practice
 
-[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.
+[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
 
-**Evidence:** [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[DerekLieu]], [[NickyCase]], [[PersonalKnowledgeManagement]], [[WorkplaceLearning]], [[JuniorEngineerLearning]], [[Plantegg]]
+**Evidence:** [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[DerekLieu]], [[NickyCase]], [[PersonalKnowledgeManagement]], [[WorkplaceLearning]], [[JuniorEngineerLearning]], [[Plantegg]], [[NoteToolFit]], [[Obsidian]]
 
 **Qualifications:**
 
-- The learning, tutorial-writing, creator-anxiety, and workplace-learning sources describe practitioner workflows, not comparative education studies.
+- The learning, tutorial-writing, creator-anxiety, workplace-learning, and PKM-restraint sources describe practitioner workflows, not comparative education studies.
 - Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions.
 - Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure.
 - Workplace case review depends on access to solved problems, traces, safe experiments, and colleagues willing to explain their reasoning.
 - Creator feedback can be noisy or emotionally destabilizing when it is mistaken for a verdict rather than learning signal.
+- Using output as a PKM test is a practical guardrail, but complex research, collaboration, or archival needs may justify heavier systems.
 
 ### Ai Era Education Extends Computational Thinking
 

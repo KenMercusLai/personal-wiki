@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 833f295a1ad80b450914894c723271e44298839e
+as_of_overview_commit: e807f0768a3b5688e59157fd95cab4a4b78bbb0b
 summary: "A personal wiki on AI practice, learning, creator work, infrastructure, strategy, and agency, emphasizing human judgment, feedback loops, and context."
-episode_count: 37
-source_count: 37
-paragraph_count: 40
+episode_count: 38
+source_count: 38
+paragraph_count: 41
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - [[DifferentiationStrategy]] argues that crowded markets require a customer-visible reason to choose because copyable features, category saturation, and competitor benchmarking make offers converge.
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]], and can guide iterative action when paired with good-enough steps, exploration, rest, and [[SelfDiscipline]].
-- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.
+- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
 - [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
 
 ## Synthesis by Domain
@@ -50,7 +50,7 @@ The cross-domain topic contains compact applied-method claims. Exposed service p
 
 ### Culture and Media
 
-The culture and media topic focuses on translation and aesthetics. Pun-heavy game localization combines computational candidate search with domestication and human comedic judgment, while object-oriented aesthetics frames art and metaphor as participatory encounters with objects that remain partly withdrawn.
+The culture and media topic focuses on translation, reading-note practice, and aesthetics. Pun-heavy game localization combines computational candidate search with domestication and human comedic judgment; reading-note workflows use tool fit to make books and judgments navigable; object-oriented aesthetics frames art and metaphor as participatory encounters with partly withdrawn objects.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].
@@ -78,7 +78,7 @@ The science, health, and climate topic currently holds indirect health-adjacent 
 
 ### Work, Education, and Society
 
-The work, education, and society topic links productivity, attention, environmental fields, active learning, workplace learning, AI-era education, creator systems, career planning, and independent work. Its strongest synthesis is that sustainable agency depends on practical routines, feedback-rich learning loops, supportive environments, and business or career structures that account for constraints.
+The work, education, and society topic links productivity, attention, environmental fields, active learning, workplace learning, AI-era education, PKM restraint, creator systems, career planning, and independent work. Its strongest synthesis is that sustainable agency depends on practical routines, feedback-rich learning loops, simplified systems that serve output, supportive environments, and business or career structures that account for constraints.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

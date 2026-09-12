@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [为什么你不该沉迷知识管理](sources/liang-mouyin-wei-shen-me-ni-bu-gai-chen-mi-zhi-shi-guan-li.md) - Liang Mouyin's critique of knowledge-management tool-chasing, arguing that PKM should be simplified around personal fit and tested by actual output.
 - [李沐 - 用随机梯度下降来优化人生](sources/li-mu-yong-sui-ji-ti-du-xia-jiang-lai-you-hua-ren-sheng.md) - A machine-learning metaphor essay using stochastic gradient descent to frame life strategy around large goals, small repeated steps, rest, exploration, humility about starting points, and restart after failure.
 - [木匠,锤子,钉子](sources/mu-jiang-chui-zi-ding-zi.md) - A practitioner essay by PsiACE on coding-agent minimal tools, RAG limits for live codebases, OpenClaw versus Bub agent paradigms, group-chat agents, and tape-and-anchor context management.
 - [是的，我用AI写文章，咋滴](sources/shi-de-wo-yong-ai-xie-wen-zhang-za-di.md) - A creator essay defending AI-assisted writing as a human-owned workflow of topic selection, structure, model-supported drafting, cross-checking, revision, visual generation, and accountable publication.
@@ -45,6 +46,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
 - [Li Mu](entities/LiMu.md) - Machine-learning educator-author who uses stochastic gradient descent as a metaphor for life optimization.
 - [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, and context-management models.
 - [Bub](entities/Bub.md) - PsiACE's group-chat-oriented coding-agent project contrasted with personal-assistant agents such as OpenClaw.
@@ -117,7 +119,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nicky Case](entities/NickyCase.md) - Creator whose explanation-design advice informs concrete-first tutorial writing and early reader testing.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice.
-- [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note and small-note workflows.
+- [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
@@ -217,7 +219,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inference Tokenization](concepts/InferenceTokenization.md) - Model-aligned token accounting used by inference gateways for load estimates, quotas, and cache-aware routing.
 - [Intrinsically Valuable State](concepts/IntrinsicallyValuableState.md) - Piotr Wozniak's proposed non-instrumental meta-goal for orienting human purpose around the search for objective intrinsic value.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - Routing strategy that considers reusable key-value cache blocks to reduce inference prefill work.
-- [Knowledge Output](concepts/KnowledgeOutput.md) - Turning intake and research into notes, articles, explanations, or courses that deepen learning.
+- [Knowledge Output](concepts/KnowledgeOutput.md) - Turning intake and research into notes, articles, explanations, or courses that deepen learning and test knowledge systems.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
@@ -234,13 +236,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Network Load Balancing](concepts/NetworkLoadBalancing.md) - Packet-level distribution of client traffic across backend servers while preserving routing, connection identity, performance, and availability.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Note Granularity](concepts/NoteGranularity.md) - Choosing whether ideas live as small notes, large structured notes, or hybrid heading/block-level units.
-- [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods and software features that support creation, navigation, maintenance, and reuse.
+- [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods, software features, domain needs, and personal friction.
 - [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
-- [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material for future thinking.
+- [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material while keeping the system accountable to output.
 - [Project-Based Learning](concepts/ProjectBasedLearning.md) - Inquiry-oriented learning where students pursue a concrete question, gather evidence, build methods, and present conclusions.
 - [Private Data Chatbot](concepts/PrivateDataChatbot.md) - Chatbot pattern that answers from user-provided or organization-held data rather than only built-in model knowledge.
 - [Programmer Freelancing](concepts/ProgrammerFreelancing.md) - Self-directed programmer work supported by financial runway, course income, product experiments, branding, and routines.

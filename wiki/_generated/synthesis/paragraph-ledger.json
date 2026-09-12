@@ -14,6 +14,7 @@
       "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
+      "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "43bc7fbc8010dfa7185fa34ac099eeb0769a930cd51554bbed5c3a7d921c8d7b",
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
@@ -42,10 +43,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 40
+    "paragraph_count": 41
   },
-  "overview_commit": "833f295a1ad80b450914894c723271e44298839e",
-  "overview_digest": "95aaeb9f38c819f6d5cd495bc2ec3c3aeb5fbef9ffb513fbdc46817d511b8f39",
+  "overview_commit": "e807f0768a3b5688e59157fd95cab4a4b78bbb0b",
+  "overview_digest": "592140222bde97584be7db39c8d2334bae76ddc7e4cf53375d8c2709a3f2fbe3",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -275,6 +276,21 @@
         "Obsidian",
         "ReadingNoteWorkflow",
         "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The Liang Mouyin source adds a restraint-oriented correction to the knowledge-management cluster. [[PersonalKnowledgeManagement]] is useful when it supports real work, but it can become self-referential when people mainly collect note apps, note methods, and \"knowledge management\" knowledge. [[NoteToolFit]] therefore includes personal simplification: the author settles on INKP, [[Obsidian]], flomo, and WeChat because copied workflows and constant tool comparison waste attention when they do not match one's actual needs. This also sharpens [[KnowledgeOutput]] as a test: if a knowledge base rarely contributes to articles, decisions, or other outputs, its sophistication may be hiding a detour rather than enabling learning.",
+      "topic_scores": {
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "KnowledgeOutput",
+        "NoteToolFit",
+        "Obsidian",
+        "PersonalKnowledgeManagement"
       ]
     },
     {
