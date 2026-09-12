@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A thing I wonder: do companies have too many employees?](sources/a-thing-i-wonder-do-companies-have-too-many-employees.md) - Coach Tony questions headcount-as-success assumptions by arguing that talent needs real opportunity and that large teams can hide underutilization.
 - [A mathematical BS detector can boost the wisdom of crowds](sources/a-mathematical-bs-detector-can-boost-the-wisdom-of-crowds-aeon-essays.md) - George Musser explains how Drazen Prelec's metaknowledge methods can repair crowd wisdom by detecting shared-information bias, hidden beliefs, and shallow confidence.
 - [A seamless way to keep track of technical debt in your source code](sources/a-seamless-way-to-keep-track-of-technical-debt-in-your-source-code-philippe-bourgaus-blog.md) - Philippe Bourgau argues that teams can track lightweight technical debt with TODO comments because existing IDEs, dashboards, and search tools already surface them.
 - [A focused family business - Los Angeles Times](sources/a-focused-family-business-los-angeles-times.md) - LA Times profile of SmugMug as a profitable, self-funded, family-run paid photo-sharing service built around privacy, customer intimacy, and MacAskill family control.
@@ -111,6 +112,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [Coach Tony](entities/CoachTony.md) - Authorial identity behind a headcount and opportunity-design critique of company growth.
+- [WhatsApp](entities/WhatsApp.md) - Messaging company used as a small-headcount counterexample to startup success measured by employee count.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
 - [Drazen Prelec](entities/DrazenPrelec.md) - Behavioral economist whose survey methods use predictions about others to improve crowd judgment.
 - [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
@@ -486,6 +489,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, and broadcast communication as organizations grow.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
 - [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.
+- [Employee Opportunity Design](concepts/EmployeeOpportunityDesign.md) - Organizational practice of giving employees meaningful responsibility so talent can become real contribution.
 - [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.
 - [Container Application Startup](concepts/ContainerApplicationStartup.md) - Application-owned initialization design for optional config, env overrides, local directories, dependency retry, and startup logs in containers.
 - [Release-Focused Side Projects](concepts/ReleaseFocusedSideProjects.md) - Side-project discipline of focusing on one project, reaching usable releases quickly, and preserving feedback before scope expands.

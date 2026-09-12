@@ -308,9 +308,10 @@
       "global_candidate": true,
       "id": "startup-scaling-turns-validation-into-organization-design",
       "qualifications": [
-        "The scaling evidence is venture-scale and Silicon Valley weighted, and sources warn that scaling too early can kill the company."
+        "The scaling evidence is venture-scale and Silicon Valley weighted, and sources warn that scaling too early can kill the company.",
+        "The headcount/opportunity critique is anecdotal and source-scoped; it challenges headcount-as-success assumptions without proving general overstaffing."
       ],
-      "statement": "[[StartupScaling]] extends validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], [[TalentDensity]], [[SupportLoadScaling]], and [[CryptoWalletSecurity]].",
+      "statement": "[[StartupScaling]] extends validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], [[TalentDensity]], [[SupportLoadScaling]], and [[CryptoWalletSecurity]]; [[EmployeeOpportunityDesign]] adds that headcount only helps when employees receive meaningful scope, with [[WhatsApp]] used as a small-team counterexample.",
       "status": "qualified",
       "supporting_wikilinks": [
         "StartupScaling",
@@ -321,6 +322,9 @@
         "ScalingCommunication",
         "CEOScalingRole",
         "TalentDensity",
+        "EmployeeOpportunityDesign",
+        "CoachTony",
+        "WhatsApp",
         "SupportLoadScaling",
         "CryptoWalletSecurity",
         "MyCrypto"
@@ -427,6 +431,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, and security systems matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.",
   "topic_id": "business-and-markets"
 }

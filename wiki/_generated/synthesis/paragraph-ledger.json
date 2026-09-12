@@ -64,7 +64,7 @@
       "cedf49e41697a1f9a734b3cef07360241e3cd0c17be3b8f2cfeae33a748aa702",
       "e6ed3471285a6de6420b21726ef8f78b2268d163d998585b8326ef70fef86db8",
       "3a4c581da47e3995cc5d4684e89a312ca497b91735ff35eeda7429b837e7c971",
-      "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
+      "9aea2390636a7477b3904a1685f12842ffb52247084c308b0f2fda6d770d1f75",
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
       "f245a8a3a8e92e242d75c4d8ebab69c4db3b48ab57d59b5f69d71c970add006a",
       "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
@@ -107,8 +107,8 @@
     ],
     "paragraph_count": 103
   },
-  "overview_commit": "2cafbb4f550aaa0ac37084258c1f5bb2231daa8a",
-  "overview_digest": "3886d1de3773ecb322d74089785bf7bb7971b64ac4ae4a4c3bbc49f5ccfd063d",
+  "overview_commit": "82bed5d489e1fa425bf8fd9f387c59606fbbdd7f",
+  "overview_digest": "575837b13c7547691ff8fee232adf6cf559f05614efea4b9317edc81ee95b1ea",
   "paragraphs": [
     {
       "id": "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
@@ -1327,26 +1327,31 @@
       ]
     },
     {
-      "id": "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
+      "id": "9aea2390636a7477b3904a1685f12842ffb52247084c308b0f2fda6d770d1f75",
       "primary_topic": "business-and-markets",
-      "secondary_topics": [],
-      "text": "The newest CS183C scaling source extends that startup thread from validation into organization design. [[Blitzscaling]] is presented as a risky speed-over-efficiency bet that should wait for evidence of readiness and is often triggered by visible competition, while [[StartupScaling]] is stage-specific: processes, teams, hiring systems, communication, and CEO behavior must change at each order of magnitude. [[ProductMarketFit]] becomes the boundary before which [[StartupHiringAtScale]] should stay slow and after which recruiting, [[StartupCulture]], [[ScalingCommunication]], and [[CEOScalingRole]] become central operating systems. [[DoingThingsThatDoNotScale]] links the MVP material to scale by showing why Airbnb and Nextdoor first used manual customer work to create intense user love before automating broader growth, and [[TalentDensity]] adds a Netflix-style qualification that scaling is not only more people but also preserving the performance bar needed for freedom and low bureaucracy.",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest CS183C scaling source extends that startup thread from validation into organization design. [[Blitzscaling]] is presented as a risky speed-over-efficiency bet that should wait for evidence of readiness and is often triggered by visible competition, while [[StartupScaling]] is stage-specific: processes, teams, hiring systems, communication, and CEO behavior must change at each order of magnitude. [[ProductMarketFit]] becomes the boundary before which [[StartupHiringAtScale]] should stay slow and after which recruiting, [[StartupCulture]], [[ScalingCommunication]], and [[CEOScalingRole]] become central operating systems. [[DoingThingsThatDoNotScale]] links the MVP material to scale by showing why Airbnb and Nextdoor first used manual customer work to create intense user love before automating broader growth, and [[TalentDensity]] adds a Netflix-style qualification that scaling is not only more people but also preserving the performance bar needed for freedom and low bureaucracy. [[CoachTony]] sharpens that qualification through [[EmployeeOpportunityDesign]]: large teams may underperform because people lack real scope, while [[WhatsApp]] is used as a small-headcount counterexample to the assumption that startup success requires hundreds of employees.",
       "topic_scores": {
         "business-and-markets": 4,
         "culture-and-media": 1,
         "psychology-and-personal-development": 1,
-        "work-education-and-society": 1
+        "work-education-and-society": 2
       },
       "wikilinks": [
         "Blitzscaling",
         "CEOScalingRole",
+        "CoachTony",
         "DoingThingsThatDoNotScale",
+        "EmployeeOpportunityDesign",
         "ProductMarketFit",
         "ScalingCommunication",
         "StartupCulture",
         "StartupHiringAtScale",
         "StartupScaling",
-        "TalentDensity"
+        "TalentDensity",
+        "WhatsApp"
       ]
     },
     {
