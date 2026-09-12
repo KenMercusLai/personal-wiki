@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support](sources/4wk-clean-uninstall-then-reinstall-of-wsl-on-windows-10-with-systemd-support.md) - Procedural WSL note explaining how to cleanly remove and reinstall WSL on Windows 10, choose a distribution, enable native systemd through `/etc/wsl.conf`, and verify the result.
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
 - [40 Lessons from 40 Years of Apple Ads](sources/40-lessons-from-40-years-of-apple-ads-mission-org-medium.md) - Mission.org's Apple advertising survey extracting marketing lessons from four decades of campaigns around simplicity, cultural association, contrast, proof, product demonstration, and aspiration.
@@ -180,6 +181,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, and discovery control.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem and service-control surface in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
+- [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery and runtime platform.
 - [WeChat](entities/WeChat.md) - China messaging app used as the source's strongest example of messaging becoming a mobile platform.
 - [Graham Harman](entities/GrahamHarman.md) - Object-oriented ontology thinker whose real/sensual object and quality schema frames the article's theory of art and metaphor.
@@ -416,6 +418,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Metacognitive Feedback](concepts/MetacognitiveFeedback.md) - Feedback that lets learners notice how their own thinking has changed through visible artifacts and reflection.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
 - [Network Load Balancing](concepts/NetworkLoadBalancing.md) - Packet-level distribution of client traffic across backend servers while preserving routing, connection identity, performance, and availability.
+- [Native systemd in WSL](concepts/NativeSystemdInWSL.md) - WSL configuration pattern for enabling built-in systemd support through `/etc/wsl.conf` instead of the older genie workaround.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Note Granularity](concepts/NoteGranularity.md) - Choosing whether ideas live as small notes, large structured notes, or hybrid heading/block-level units.
 - [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods, software features, domain needs, and personal friction.

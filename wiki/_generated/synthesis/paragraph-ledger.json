@@ -40,6 +40,7 @@
       "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
       "c7a67598d7ba9da2bc85ed454ae9e8740b80c0e94bd8a2fd2e9701e4c2c010b9",
       "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
+      "bbf741c8a107a28dfeacac4f08320f8fa6ac3e4ef3417dafe92bc50f0d09ed88",
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "70781883d36df89116a337dfa021db2281a9cc8f06f45cb41ad54e540855e285",
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
@@ -69,10 +70,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 67
+    "paragraph_count": 68
   },
-  "overview_commit": "677747ff3bacca023647474604b7dba0020aa5a2",
-  "overview_digest": "ae14be8609d1f3f396ca426bd6bf133f38a77340867859e8aedde57d9705173e",
+  "overview_commit": "487d767c3b4d4ffb8bd144b20d713a0e623f5c0b",
+  "overview_digest": "62752933f9309f8c9b54cd94f43c44b64569f1d4433d0ce1ea34d1831e38243e",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -800,6 +801,22 @@
         "NextJSDeployment",
         "Supabase",
         "Vercel"
+      ]
+    },
+    {
+      "id": "bbf741c8a107a28dfeacac4f08320f8fa6ac3e4ef3417dafe92bc50f0d09ed88",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The WSL reinstall note adds a local developer-environment counterpart to the deployment and runtime-configuration thread. [[WindowsSubsystemForLinux]] is presented as state spread across registered distributions, installed Linux apps, Windows optional features, per-distribution `/etc/wsl.conf`, and system-wide `.wslconfig`. [[NativeSystemdInWSL]] is the central operational goal: after cleaning old distro and feature state, the user can reinstall WSL, choose a distribution, set `[boot] systemd=true`, optionally control PATH interop, shut WSL down, and verify systemd with `systemctl`. The note is narrower than the container-startup material, but it reinforces the same pattern: explicit configuration boundaries and clean restart semantics make technical environments easier to repair.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "NativeSystemdInWSL",
+        "WindowsSubsystemForLinux"
       ]
     },
     {

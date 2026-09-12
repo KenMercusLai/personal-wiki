@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-12
-as_of_overview_commit: 677747ff3bacca023647474604b7dba0020aa5a2
-input_digest: aefc646d726f28ce1a740ed5eedb7f8eb94ed3b001af6817a57723336ffbece0
+as_of_overview_commit: 487d767c3b4d4ffb8bd144b20d713a0e623f5c0b
+input_digest: bfae3caf9b6d81c4718e61ffab198f463606a4d840e4fe75585852ef0317c5f5
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, WSL configuration boundaries, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -59,14 +59,15 @@ The governance-related material is still narrow but now spans control problems a
 
 ### Operations Governance Shifts Responsibility Into Engineering
 
-[[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[DeclarativeInfrastructure]], and [[ContainerNativePractice]] shift operational governance toward engineering-owned workflows: teams reduce manual coordination through service units, desired-state reconciliation, health checks, configuration paths, recovery automation, and [[ContinuousGameServerUpdates]].
+[[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[DeclarativeInfrastructure]], and [[ContainerNativePractice]] shift operational governance toward engineering-owned workflows: teams reduce manual coordination through service units, desired-state reconciliation, health checks, configuration paths, recovery automation, and [[ContinuousGameServerUpdates]]. [[WindowsSubsystemForLinux]] and [[NativeSystemdInWSL]] add a small local analogue where distribution config, global config, destructive cleanup, shutdown, and verification need clear boundaries.
 
-**Evidence:** [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[GameServerSLA]], [[XiaoshuojunFp]], [[DeclarativeInfrastructure]], [[ContainerNativePractice]], [[Kubernetes]]
+**Evidence:** [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[GameServerSLA]], [[XiaoshuojunFp]], [[DeclarativeInfrastructure]], [[ContainerNativePractice]], [[Kubernetes]], [[WindowsSubsystemForLinux]], [[NativeSystemdInWSL]]
 
 **Qualifications:**
 
 - This is a secondary governance assignment from game-server and platform-engineering sources, not a broad organizational governance study.
 - The sources describe practitioner views of moving responsibility from manual coordination toward engineering-owned workflows.
+- The WSL material is a local environment procedure, so its governance relevance is limited to configuration boundaries and operational responsibility.
 
 ### Platform Features Need Accountable Product Boundaries
 

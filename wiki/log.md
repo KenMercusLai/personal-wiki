@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support
+
+Added a source note plus pages for Windows Subsystem for Linux and native systemd in WSL. Updated index and overview to reflect the source's procedural claim that a stale WSL setup can be cleaned by unregistering distros, removing related apps and Windows features, reinstalling with `wsl --install`, enabling `systemd=true` in `/etc/wsl.conf`, shutting WSL down, and verifying systemd from inside the distribution. No image references were present in the source.
+
 ## [2026-09-12] ingest | 40 Lessons from 40 Years of Apple Ads
 
 Added source note plus pages for Apple advertising patterns, Steve Jobs, and Steve Wozniak. Updated Apple, social proof, brand distinctiveness, index, and overview to reflect the article's forty-year advertising pattern library: simplify new categories, borrow cultural meaning, dramatize one product attribute, use proof and demand signals, contrast against alternatives or fears, and avoid insulting or overselling to the audience. Inspected all local image embeds; the early Jobs/Wozniak workshop photo was material to the origin narrative, while repeated Mission Studios promo art and tiny campaign thumbnails were illustrative or duplicative.
@@ -527,6 +531,10 @@ Ingested Steve Ridout's Readlang retrospective. Added source and entity pages fo
 ## [2026-09-12] ingest | 4 Hard Truths about Equity
 
 Ingested While West's startup-equity essay. Added source, concept, and entity pages for employee equity risk, Slack/Tiny Speck hindsight bias, and founder-employee equity asymmetry; updated Startup Equity Transparency with liquidity, vesting, and preference-risk disclosure.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
