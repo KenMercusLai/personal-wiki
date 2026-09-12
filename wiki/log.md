@@ -512,6 +512,14 @@ Ran lint. See lint-report.md for details.
 
 Ingested Steve Ridout's Readlang retrospective. Added source and entity pages for Steve Ridout and Readlang; updated Bootstrapped SaaS, Independent Creator, and Micro Company to capture early-stage ramen profitability, user impact, and founder opportunity cost.
 
+## [2026-09-12] ingest | 4 Hard Truths about Equity
+
+Ingested While West's startup-equity essay. Added source, concept, and entity pages for employee equity risk, Slack/Tiny Speck hindsight bias, and founder-employee equity asymmetry; updated Startup Equity Transparency with liquidity, vesting, and preference-risk disclosure.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
 - [3 Years as a One Man Startup](sources/3-years-as-a-one-man-startup-steve-ridout-medium.md) - Steve Ridout's retrospective on three years building Readlang, showing strong signup and revenue growth, real user impact, and ramen profitability alongside weak founder earnings and high opportunity cost.
+- [4 Hard Truths about Equity](sources/4-hard-truths-about-equity-while-west.md) - While West's employee-side critique of startup equity, arguing that illiquidity, vesting, preferences, founder asymmetry, and hindsight bias make cash safer when company prospects are doubtful.
 - [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
 - [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
@@ -87,6 +88,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer.
+- [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
+- [Slack](entities/Slack.md) - Successful startup outcome used to show how hindsight distorts employee equity decisions.
+- [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
+- [Fab](entities/Fab.md) - Startup-equity counterexample used to contrast famous winning outcomes.
+- [Secret](entities/Secret.md) - Startup-equity and founder-secondary-liquidity example used to illustrate founder-employee asymmetry.
+- [Square](entities/Square.md) - Late-stage compensation-risk example tied to RSU valuation uncertainty.
 - [Software Brothers](entities/SoftwareBrothers.md) - Software agency/source publisher using famous startup MVP examples to promote core-value validation before full product buildout.
 - [Hack Career](entities/HackCareer.md) - Career-advice publisher/source for the job-application side-project framework.
 - [Feross Aboukhadijeh](entities/FerossAboukhadijeh.md) - Developer cited for the rare attention-generating YouTube Instant side project.
@@ -278,6 +285,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [CLI Command Grammar](concepts/CLICommandGrammar.md) - Structure of commands, subcommands, flags, positional arguments, parsing boundaries, and default invocation behavior.
 - [Developer Tooling](concepts/DeveloperTooling.md) - Software for technical users where documentation, conventions, diagnosability, speed, extensibility, and automation are part of product quality.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
+- [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.

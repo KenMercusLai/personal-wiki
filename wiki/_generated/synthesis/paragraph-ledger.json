@@ -62,14 +62,14 @@
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa",
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
-      "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9",
+      "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
     "paragraph_count": 64
   },
-  "overview_commit": "b024e295331ca4b666eb97aef0f023e7535bf3cb",
-  "overview_digest": "af326637bbfe2eed392113c0f092c43b3ccc48ec21fa2a04f1768bffe1e97be1",
+  "overview_commit": "a44e961673a60b5c4bc32a9b808259e0d78b59b0",
+  "overview_digest": "8c7cee3c2ca9528a6e5d17423962d7896db63f01fb285708023d4d4b5da2dff4",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1254,21 +1254,24 @@
       ]
     },
     {
-      "id": "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9",
+      "id": "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "primary_topic": "business-and-markets",
       "secondary_topics": [],
-      "text": "The newest startup-equity source adds a compensation-design thread. [[AdamDAngelo]] presents [[Quora]]'s [[ExtendedStockOptionExerciseWindow]] policy as a fairness and market-competition issue: departing employees should not lose already vested equity simply because a company remains private for many years, and future employee grants can still be set by current market compensation rather than by recovered-share accounting. [[StartupEquityTransparency]] is the broader norm: companies can choose different option-window and retention strategies, but candidates need clear disclosure about exercise costs, liquidity risk, and whether leaving before an IPO can erase vested upside. [[ScottKupor]] and [[AndreessenHorowitz]] supply the investor-side concern that former employees retaining options may shift value away from current contributors, while [[YCombinator]] is cited as a sign that 10-year windows were becoming a startup-norm recommendation.",
+      "text": "The startup-equity sources now form a compensation-design and risk-disclosure thread. [[AdamDAngelo]] presents [[Quora]]'s [[ExtendedStockOptionExerciseWindow]] policy as a fairness and market-competition issue: departing employees should not lose already vested equity simply because a company remains private for many years, and future employee grants can still be set by current market compensation rather than by recovered-share accounting. [[StartupEquityTransparency]] is the broader norm: companies can choose different option-window and retention strategies, but candidates need clear disclosure about exercise costs, liquidity risk, and whether leaving before an IPO can erase vested upside. [[4-hard-truths-about-equity-while-west]] adds the sharper employee-side critique through [[EmployeeEquityRisk]]: startup equity is easy to romanticize after a [[Slack]]-like win, but employees usually face illiquidity, vesting cliffs, liquidation preferences, and founder-employee asymmetry before the outcome is knowable. [[ScottKupor]] and [[AndreessenHorowitz]] supply the investor-side concern that former employees retaining options may shift value away from current contributors, while [[YCombinator]] is cited as a sign that 10-year windows were becoming a startup-norm recommendation.",
       "topic_scores": {
-        "business-and-markets": 4,
+        "business-and-markets": 5,
         "governance-and-institutions": 1,
         "work-education-and-society": 1
       },
       "wikilinks": [
+        "4-hard-truths-about-equity-while-west",
         "AdamDAngelo",
         "AndreessenHorowitz",
+        "EmployeeEquityRisk",
         "ExtendedStockOptionExerciseWindow",
         "Quora",
         "ScottKupor",
+        "Slack",
         "StartupEquityTransparency",
         "YCombinator"
       ]
