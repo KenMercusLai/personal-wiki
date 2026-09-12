@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 017d82d620b7cab662b4e2a24ff5155b357882f2
-input_digest: d5fcd0054f2bf6d1a3e4e1b1ec09fb7e3c6a430165e6efb0e342d88b054484cc
+as_of_overview_commit: 41b1a257ee46994e31a424bb5c47c115bb2e5f3d
+input_digest: 238cf7a5911d16730d99cefdd89fb60cc1ef8054c44f60d3074dd35b3fa558cd
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread now treats AI systems, data work, and production software less as standalone tools than as socio-technical infrastructure: knowledge assistants, writing helpers, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.
+The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.
 
 ## Cross-source Findings
 
@@ -28,14 +28,25 @@ The AI and technology thread now treats AI systems, data work, and production so
 
 ### Ai Assisted Writing Needs Human Authorship
 
-[[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking.
+[[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation.
 
 **Evidence:** [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]]
 
 **Qualifications:**
 
-- The claim is grounded in one creator's first-person workflow defense, not a comparative study of AI-assisted writing quality.
-- Multi-model checking is helpful but remains provisional because shared blind spots and weak source grounding can still miss errors.
+- The claim is grounded in first-person creator and practitioner accounts, not comparative studies of AI-assisted writing quality.
+- Multi-model checking and candidate generation are helpful but remain provisional because shared blind spots, weak source grounding, and poor human review can still miss errors.
+
+### Ai Workflow Design Makes Humanities Ai Signable
+
+[[AIWorkflowDesign]] extends AI-assisted authorship into humanities and cultural-production work: [[Hanyang]] argues from [[FUNES]] and [[ShiShuFeng]] that AI should be managed as a traceable, controllable, verifiable workbench using clean materials, explicit standards, pipelines, multiple candidates, and signable human accountability.
+
+**Evidence:** [[AIWorkflowDesign]], [[Hanyang]], [[FUNES]], [[ShiShuFeng]], [[AIAssistedWriting]], [[LLMContextManagement]], [[TasteAsProblemSense]]
+
+**Qualifications:**
+
+- The evidence is a practitioner guide rather than a controlled productivity study.
+- The method assumes the worker can prepare materials, decompose the craft, judge evidence, and verify outputs.
 
 ### Ai Era Education Needs Problem Definition And Model Judgment
 
@@ -178,15 +189,15 @@ Large coding-agent projects become more reliable when [[AgentTeam]] roles are co
 
 ### Llm Tooling Manages Context And Actions
 
-[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, milestone respawns, file-backed state, and [[TapeAndAnchors]]-style context reconstruction.
+[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent and humanities workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, milestone respawns, file-backed state, source cleanup, compression, and [[TapeAndAnchors]]-style context reconstruction.
 
-**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]], [[ClaudeCode]], [[AgentTeam]], [[TapeAndAnchors]]
+**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]], [[ClaudeCode]], [[AgentTeam]], [[TapeAndAnchors]], [[AIWorkflowDesign]]
 
 **Qualifications:**
 
-- The source is a conceptual essay and does not benchmark these mechanisms across systems.
+- The terminology source is conceptual and does not benchmark these mechanisms across systems.
 - The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present.
-- The Claude Code, Max Lv, and PsiACE sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts.
+- The Claude Code, Max Lv, PsiACE, and Hanyang sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts.
 
 ### Prompt Caching Turns Context Shape Into Infrastructure
 

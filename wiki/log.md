@@ -132,6 +132,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 给人文工作者的 AI 使用指南
+
+Ingested Hanyang's AI workflow guide for humanities workers, including image-derived evidence from the podcast card, workflow-step screenshot, and field-photography image.
+
 ## [2026-09-12] ingest | 稳定性，难的不是技术，而是
 
 Added source note and synthesis pages for Bixuan's reliability article. Key claims: robust code, dependency degradation, capacity protection, canary rollout, monitoring, rollback, and restoration-first incident handling are known reliability practices, but sustained organizational investment is the harder condition.
@@ -399,6 +403,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] report | Graph health report generated
 
 327 nodes analyzed.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

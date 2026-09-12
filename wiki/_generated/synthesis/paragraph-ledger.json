@@ -10,6 +10,7 @@
       "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
       "e77ddbc469ee54a125a93c09e39aab912822c0b087e31e671e4d8ec61b94bb1a",
       "fde66a6b0b6dc03dc843920da4d29116e9ea536527452f29e2ea11870fb70f82",
+      "f05071a3b0b9a34e31e67081d7706ac61e45bb0245f2042b0487dae70521b044",
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
       "9599ef2e89914245702ee835f6f63d0c0780ab8a165ae25b34da7a01626db0e2",
@@ -52,10 +53,10 @@
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d"
     ],
-    "paragraph_count": 50
+    "paragraph_count": 51
   },
-  "overview_commit": "017d82d620b7cab662b4e2a24ff5155b357882f2",
-  "overview_digest": "eac5861e102953d40ec4db9b4231692530e273e2f46567bbc0a7254a3737d24c",
+  "overview_commit": "41b1a257ee46994e31a424bb5c47c115bb2e5f3d",
+  "overview_digest": "e96fe50438a84e24f7037988681c19ce5a39d78e2bcf2654de3b74eb47924868",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -215,6 +216,26 @@
         "FengRuohang",
         "Gemini",
         "KnowledgeOutput"
+      ]
+    },
+    {
+      "id": "f05071a3b0b9a34e31e67081d7706ac61e45bb0245f2042b0487dae70521b044",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "Hanyang's humanities AI guide turns that authorship thread into broader [[AIWorkflowDesign]]. [[Hanyang]] argues from [[FUNES]] and [[ShiShuFeng]] production work that AI should be treated as a workbench or production station: tasks need explicit audience, purpose, standards, controllability, and signable accountability rather than magic prompts. The source strengthens [[AIAssistedWriting]] by emphasizing pipelines, multiple candidates, and upstream iteration; strengthens [[LLMContextManagement]] by recommending clean Markdown/text, source compression, and retrieval or batching for long materials; and sharpens [[TasteAsProblemSense]] by arguing that cultural work still depends on real archives, field interviews, photographs, and trained material judgment even when model generation becomes cheap.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "AIWorkflowDesign",
+        "FUNES",
+        "Hanyang",
+        "LLMContextManagement",
+        "ShiShuFeng",
+        "TasteAsProblemSense"
       ]
     },
     {

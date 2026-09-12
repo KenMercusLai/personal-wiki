@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [给人文工作者的 AI 使用指南](sources/gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan.md) - Hanyang's guide for humanities workers arguing that AI becomes useful when embedded in traceable, controllable, verifiable workflows grounded in real materials and trained taste.
 - [稳定性，难的不是技术，而是](sources/wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi.md) - Bixuan's reliability essay arguing that robust code, dependency degradation, capacity protection, canarying, monitoring, rollback, and restore-first incident response only work when backed by sustained organizational investment.
 - [知识估值网络](sources/zhi-shi-gu-zhi-wang-luo.md) - Piotr Wozniak's learning-neuroscience essay arguing that personal goals, semantic networks, free learning, and neural valuation circuitry shape how knowledge becomes valuable or aversive.
 - [由「上线」产生的思考](sources/you-shang-xian-chan-sheng-de-si-kao.md) - Xiaoshuojun Fp's game-server operations essay arguing that launch experience becomes useful when scale, stability, SLA, low-ops design, cloud-native delivery, and continuous updates reshape engineering judgment.
@@ -60,6 +61,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Li Mu](entities/LiMu.md) - Machine-learning educator-author who uses stochastic gradient descent as a metaphor for life optimization.
 - [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, and context-management models.
 - [Bub](entities/Bub.md) - PsiACE's group-chat-oriented coding-agent project contrasted with personal-assistant agents such as OpenClaw.
+- [Hanyang](entities/Hanyang.md) - Writer and creator presenting AI workflow design for humanities, cultural production, and accountable AI-assisted writing.
+- [FUNES](entities/FUNES.md) - Cultural or knowledge-production project that supplied production pressure behind Hanyang's AI workflow method.
+- [Shi Shu Feng](entities/ShiShuFeng.md) - Podcast venue where Hanyang's AI guide for humanities workers was publicly discussed.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
 - [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
 - [ChatGPT](entities/ChatGPT.md) - AI assistant used in the source for cross-checking draft facts.
@@ -181,6 +185,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agentic RAG](concepts/AgenticRAG.md) - Retrieval pattern where an agent searches and reads current material iteratively instead of relying only on static indexes.
 - [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
 - [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates drafting, checking, titles, visuals, and layout while human authors retain question, argument, taste, verification, and accountability.
+- [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines grounded in source material and human judgment.
 - [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.

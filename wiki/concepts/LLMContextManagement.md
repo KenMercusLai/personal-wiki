@@ -8,6 +8,7 @@ sources:
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
   - mu-jiang-chui-zi-ding-zi
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
+  - gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -24,10 +25,12 @@ PsiACE's agent essay adds a state-model layer. It argues that sessions, summarie
 
 The mihomo-rust case study adds an operational rule: do not treat a long-running agent team's context as the canonical project state. Put decisions, status, specs, and feedback memory in files, then respawn agents at milestone boundaries so stale intermediate context does not dominate later work.
 
+Hanyang's humanities guide extends the same principle beyond software agents. For research and writing, context management means preparing clean Markdown or text, removing webpage noise, extracting facts and structure before drafting, compressing rich material rather than expanding from thin prompts, and using retrieval or staged batches when the material exceeds the model's useful working memory.
+
 ## Key Claims
 - LLMs generate from probability distributions over tokens, so context strongly shapes both reasoning and action.
 - Skills, MCP, RAG, Memory, and Computer Use can be understood as different context-management and action-interface patterns.
-- Longer context windows reduce capacity pressure but do not remove noise, irrelevant material, misleading traces, or tool-call outputs that pollute later reasoning.
+- Longer context windows reduce capacity pressure but do not remove noise, irrelevant material, misleading traces, tool-call outputs, or messy source formats that pollute later reasoning.
 - Context quality can degrade through accumulated failed attempts, contradictory instructions, emotional pressure, lossy summarization, or overloaded sessions.
 - Stable system/tool prefixes, dynamic conversation suffixes, and provider-side cache edits offer ways to balance context adaptation with prompt-cache reuse.
 - Long coding-agent and group-chat sessions create practical failure modes when auto-compaction happens mid-task, topics run in parallel, or a task is too large for one session.
@@ -42,18 +45,22 @@ The mihomo-rust case study adds an operational rule: do not treat a long-running
 - Provider request shape: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] shows Claude Code preserving cacheable prompt structures and using cache edits to logically remove high-volume tool results from the provider-side view.
 - Tape and anchors: [[mu-jiang-chui-zi-ding-zi]] proposes treating history as an append-only tape, storing only minimal anchors, and assembling context through exploration and selection for each new task.
 - Milestone respawn: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] requires all teammates to shut down and respawn at milestone completion after saving state to files.
+- Humanities source preparation: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] recommends clean text or Markdown, noise removal from webpages, fact and structure extraction before writing, and compression from rich material as practical ways to protect limited model context.
+- Context-window realism: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] warns that long inputs are not automatically remembered well, so users should batch, retrieve, or compress material instead of expecting a model to hold everything equally.
 
 ## Counterevidence & Qualifications
 The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the Computer Use section in the terminology source appears incomplete, covering only the first of an announced three routes.
 
 The tape-and-anchors model is also conceptual: it gives a useful alternative to inherited session state, but does not yet specify anchor schemas, retrieval evaluation, conflict handling, or deletion/privacy semantics.
 
+The humanities-workflow source gives practical heuristics but not measured thresholds for how much text different models can reliably use, or when RAG, batching, and manual source preparation outperform each other.
+
 ## What Changed
 - Created the concept page for context management as the cross-cutting frame behind multiple LLM tooling terms.
 - Added Claude Code session-management tactics as a practical context-management case.
 - Added provider-side prompt-cache and cache-edit behavior as a context-management layer.
 - Added tape and anchors as a context model that preserves history without default state inheritance.
-- Added milestone respawn and file-system state as a coding-agent context-management tactic.
+- Added milestone respawn, file-system state, source preparation, compression, and clean-material handling as context-management tactics for coding, humanities, and writing work.
 
 ## Related Concepts
 - [[LLMToolingSkills]] - Skills manage context by adding expert instructions.
@@ -66,3 +73,4 @@ The tape-and-anchors model is also conceptual: it gives a useful alternative to 
 - [[PromptCaching]] - prompt cache design rewards stable context shape and affects compression choices.
 - [[TapeAndAnchors]] - append-only history and anchors provide an alternative context-reconstruction model.
 - [[AgentTeam]] - multi-agent workflows intensify context-management pressure.
+- [[AIWorkflowDesign]] - workflow design turns context preparation into a repeatable production practice.

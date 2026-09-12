@@ -4,15 +4,18 @@ type: concept
 tags: [ai, writing, authorship]
 sources:
   - shi-de-wo-yong-ai-xie-wen-zhang-za-di
+  - gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[AIAssistedWriting]] is a writing workflow where AI systems help with ideation, drafting, fact-check support, revision, titles, images, and layout while a human author retains responsibility for the question, argument, taste, verification, and final publication.
+[[AIAssistedWriting]] is a writing workflow where AI systems help with ideation, source processing, drafting, fact-check support, revision, variants, titles, images, and layout while a human author retains responsibility for the question, material, argument, taste, verification, and final publication.
 
 ## Current Synthesis
-The source frames AI-assisted writing as accountable tool use rather than a binary replacement for authorship. [[FengRuohang]] describes a layered process: the human chooses the topic from reading, thinking, and conversations; defines the structure and claim logic; lets AI expand an initial draft; cross-checks facts through [[Gemini]] and [[ChatGPT]]; performs several revision rounds; and uses AI again for titles, image prompts, generated visuals, and Codex-assisted layout. The resulting standard is not whether AI touched the text, but whether the published article is accurate, useful, and insightful enough to withstand substantive critique.
+The sources frame AI-assisted writing as accountable workflow design rather than a binary replacement for authorship. [[FengRuohang]] describes a layered process: the human chooses the topic from reading, thinking, and conversations; defines the structure and claim logic; lets AI expand an initial draft; cross-checks facts through [[Gemini]] and [[ChatGPT]]; performs several revision rounds; and uses AI again for titles, image prompts, generated visuals, and Codex-assisted layout. [[Hanyang]] adds a humanities-production version: prepare clean material, define audience and standards, decompose nonfiction work into narrow steps, generate multiple candidates, and keep the process traceable enough that the human remains willing to sign the final work.
+
+Together, the sources shift the question from "Did AI write this?" to "Did the author design, supervise, verify, and materially own the work?" AI can accelerate drafting and packaging, but its most reliable role is often upstream or midstream: extracting structure, compressing rich source material, testing openings, grouping stories, and giving the author a better set of options to judge.
 
 ## Key Claims
 - AI assistance can be deep without eliminating human authorship when topic choice, argument structure, and final judgment remain human-owned.
@@ -20,7 +23,8 @@ The source frames AI-assisted writing as accountable tool use rather than a bina
 - Multi-model checking can support factual review, but critical claims still require original-source verification.
 - "AI written" is a weak critique when it substitutes a tool label for engagement with claims, evidence, and reasoning.
 - AI acts as a multiplier of the user's thought quality: it can sharpen clear thinking or make confused thinking more fluent.
-- As fluent answers become cheap, question selection, angle, insight, and noise filtering become more valuable creator skills.
+- Stable AI-assisted writing improves by iterating the upstream workflow and average output quality, not by expecting one perfect first draft.
+- As fluent answers become cheap, question selection, material quality, angle, insight, and noise filtering become more valuable creator skills.
 
 ## Evidence
 - Human-owned workflow: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] says the author owns topic choice, viewpoint, evidence selection, logical structure, and final title direction while using AI to draft and package faster.
@@ -28,13 +32,17 @@ The source frames AI-assisted writing as accountable tool use rather than a bina
 - Iterative revision: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] says three to five revision rounds are normal, including argument repair, wording adjustment, and structural rewrites.
 - Visual and layout production: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] and its screenshots show Claude extracting publishable topics from chat history, drafting image-scene prompts, Gemini producing candidate visuals, and Codex handling layout.
 - Critique standard: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] argues that meaningful disagreement should identify mistaken claims, weak logic, or bad facts instead of stopping at an AI-use label.
-- Scarce questions: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] argues that when AI makes fluent text and retrieval easier, choosing worthwhile questions and angles becomes the creator's core advantage.
+- Process ownership: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] says AI-assisted work should be traceable, supervisable, verifiable, controllable, and signable by the human author.
+- Pipeline decomposition: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] describes breaking nonfiction writing into many steps, with the screenshot showing fact extraction, story-bank merging, grouping, layout, ordering, and AB testing.
+- Candidate generation: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] recommends asking for multiple summaries, openings, structures, topics, and phrasings so the writer can select from a distribution rather than accept a mediocre default.
+- Scarce questions and material: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] argues that when AI makes fluent text and retrieval easier, choosing worthwhile questions and angles becomes the creator's core advantage; [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] adds that real archives, field interviews, oral histories, and photographs still anchor stronger work.
 
 ## Counterevidence & Qualifications
-The source is a first-person defense of one experienced creator's workflow, so its claims are strongest where the author has prior domain knowledge, taste, editorial discipline, and willingness to verify facts. Multi-model agreement is useful evidence but not proof; shared model blind spots, prompt framing, and weak source grounding can still create confident errors. The critique of "AI written" comments does not remove legitimate concerns about disclosure, originality, plagiarism, accuracy, or overproduction in other publishing contexts.
+The sources are practitioner accounts from experienced creators, so their claims are strongest where the author has prior domain knowledge, taste, editorial discipline, and willingness to verify facts. Multi-model agreement is useful evidence but not proof; shared model blind spots, prompt framing, and weak source grounding can still create confident errors. Workflow decomposition also requires the writer to understand their own craft well enough to externalize it. The critique of "AI written" comments does not remove legitimate concerns about disclosure, originality, plagiarism, accuracy, labor displacement, or overproduction in other publishing contexts.
 
 ## What Changed
 - Created the concept page for AI-assisted public writing as an authorship and editorial-accountability workflow.
+- Added Hanyang's humanities-oriented process design: traceable production, source preparation, decomposition, candidate generation, and material-grounded taste.
 
 ## Related Concepts
 - [[KnowledgeOutput]] - AI-assisted writing is one way to turn thinking and conversation into public output faster.
@@ -43,3 +51,4 @@ The source is a first-person defense of one experienced creator's workflow, so i
 - [[CreatorAnxiety]] - resistance to AI-amplified output can reflect anxiety about comparative productivity and judgment.
 - [[AIKnowledgeAssistant]] - both use AI to retrieve, summarize, and recombine material, but this page focuses on publishable writing.
 - [[HumanCodeResponsibility]] - analogous accountability principle: the human remains responsible for AI-assisted output.
+- [[AIWorkflowDesign]] - workflow design is the broader method that makes AI-assisted writing controllable and signable.

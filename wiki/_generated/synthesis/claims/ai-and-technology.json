@@ -18,10 +18,10 @@
       "global_candidate": true,
       "id": "ai-assisted-writing-needs-human-authorship",
       "qualifications": [
-        "The claim is grounded in one creator's first-person workflow defense, not a comparative study of AI-assisted writing quality.",
-        "Multi-model checking is helpful but remains provisional because shared blind spots and weak source grounding can still miss errors."
+        "The claim is grounded in first-person creator and practitioner accounts, not comparative studies of AI-assisted writing quality.",
+        "Multi-model checking and candidate generation are helpful but remain provisional because shared blind spots, weak source grounding, and poor human review can still miss errors."
       ],
-      "statement": "[[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking.",
+      "statement": "[[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AIAssistedWriting",
@@ -32,6 +32,25 @@
         "KnowledgeOutput",
         "ExplanatoryWriting",
         "CreatorFeedbackLoop"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ai-workflow-design-makes-humanities-ai-signable",
+      "qualifications": [
+        "The evidence is a practitioner guide rather than a controlled productivity study.",
+        "The method assumes the worker can prepare materials, decompose the craft, judge evidence, and verify outputs."
+      ],
+      "statement": "[[AIWorkflowDesign]] extends AI-assisted authorship into humanities and cultural-production work: [[Hanyang]] argues from [[FUNES]] and [[ShiShuFeng]] that AI should be managed as a traceable, controllable, verifiable workbench using clean materials, explicit standards, pipelines, multiple candidates, and signable human accountability.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIWorkflowDesign",
+        "Hanyang",
+        "FUNES",
+        "ShiShuFeng",
+        "AIAssistedWriting",
+        "LLMContextManagement",
+        "TasteAsProblemSense"
       ]
     },
     {
@@ -270,11 +289,11 @@
       "global_candidate": true,
       "id": "llm-tooling-manages-context-and-actions",
       "qualifications": [
-        "The source is a conceptual essay and does not benchmark these mechanisms across systems.",
+        "The terminology source is conceptual and does not benchmark these mechanisms across systems.",
         "The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present.",
-        "The Claude Code, Max Lv, and PsiACE sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts."
+        "The Claude Code, Max Lv, PsiACE, and Hanyang sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts."
       ],
-      "statement": "[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, milestone respawns, file-backed state, and [[TapeAndAnchors]]-style context reconstruction.",
+      "statement": "[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent and humanities workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, milestone respawns, file-backed state, source cleanup, compression, and [[TapeAndAnchors]]-style context reconstruction.",
       "status": "supported",
       "supporting_wikilinks": [
         "LLMContextManagement",
@@ -286,7 +305,8 @@
         "ComputerUse",
         "ClaudeCode",
         "AgentTeam",
-        "TapeAndAnchors"
+        "TapeAndAnchors",
+        "AIWorkflowDesign"
       ]
     },
     {
@@ -383,6 +403,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread now treats AI systems, data work, and production software less as standalone tools than as socio-technical infrastructure: knowledge assistants, writing helpers, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.",
+  "summary": "The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.",
   "topic_id": "ai-and-technology"
 }
