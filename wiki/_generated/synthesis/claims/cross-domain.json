@@ -1,0 +1,32 @@
+{
+  "claims": [
+    {
+      "global_candidate": true,
+      "id": "trajectory-simplification-trades-fidelity-for-rendering-cost",
+      "qualifications": [
+        "This claim is display-oriented; the supplied paragraph does not establish suitability for audit, analytics, or exact reconstruction use cases."
+      ],
+      "statement": "[[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "TrajectorySimplification",
+        "MapTrajectoryRendering"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "rdp-epsilon-controls-point-retention",
+      "qualifications": [
+        "The paragraph reports one example compression result rather than a general benchmark across trajectories or map projections."
+      ],
+      "statement": "[[RamerDouglasPeuckerAlgorithm]] keeps or discards intermediate path points by comparing maximum deviation with [[EpsilonTolerance]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "RamerDouglasPeuckerAlgorithm",
+        "EpsilonTolerance"
+      ]
+    }
+  ],
+  "summary": "Trajectory simplification adds an applied-algorithm example where dense GPS data is reduced for faster map display and transfer. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade fine-grained path fidelity for lower point count in [[MapTrajectoryRendering]].",
+  "topic_id": "cross-domain"
+}

@@ -4,17 +4,27 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-11
-as_of_overview_commit: 92e9505ed8de77eaf8c5eeb6887aea5c09816286
-input_digest: 71f5ba70c1be1e6b2a819b59821e03ae6c806aeb7f49924db054e8241e220915
+as_of_overview_commit: 6bf7389c34a870369415ed835e4f5414b46e19d8
+input_digest: be1ca03394c02fef3bf292cba0c547d03a7b0a9981c9ac94c8aed2240a28047d
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The current governance-related material is narrow and technical: inference gateways apply quotas and architectural control points, but the corpus does not yet address broader AI governance or regulation.
+The governance-related material is still narrow. It now includes both technical control points in inference gateways and an education-oriented caution that institutions and credential competition can distort learning goals, but the corpus does not yet address formal regulation or policy in depth.
 
 ## Cross-source Findings
+
+### Institutional Pressure Can Distort Learning
+
+[[PiotrWozniak]] uses [[PeterThiel]] and [[CreativeAbstraction]] to distinguish personally meaningful learning aims from externally competitive status tracks and rote institutional pressure.
+
+**Evidence:** [[PiotrWozniak]], [[PeterThiel]], [[CreativeAbstraction]]
+
+**Qualifications:**
+
+- This is an education and motivation claim assigned secondarily to governance; it does not yet constitute a broad institutional theory.
 
 ### Inference Gateway Architecture Shapes Control
 

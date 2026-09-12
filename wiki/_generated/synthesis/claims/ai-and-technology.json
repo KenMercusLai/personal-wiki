@@ -15,16 +15,17 @@
       ]
     },
     {
-      "global_candidate": true,
-      "id": "second-brain-as-active-system",
+      "global_candidate": false,
+      "id": "learning-motivation-adjacent-to-knowledge-systems",
       "qualifications": [
-        "The corpus does not yet address provenance, privacy, hallucinated associations, or user audit practices."
+        "This is a secondary topic assignment; the paragraph is more directly about psychology, learning, and education than AI technology."
       ],
-      "statement": "[[SecondBrain]] describes the aspiration for personal notes to become an active external thinking system rather than a static archive.",
+      "statement": "[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] add a motivation-oriented account of why learners value knowledge before they can use tools or output systems effectively.",
       "status": "source-scoped",
       "supporting_wikilinks": [
-        "SecondBrain",
-        "AIKnowledgeAssistant"
+        "GoalSetting",
+        "LearnDrive",
+        "KnowledgeValuationNetwork"
       ]
     },
     {
@@ -55,8 +56,39 @@
         "GatewayAPIInferenceExtension",
         "DynamoInferencePlatform"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "private-data-chatbots-use-retrieval-context",
+      "qualifications": [
+        "The source is a beginner tutorial and does not cover production concerns such as retrieval evaluation, privacy controls, prompt injection, or source attribution."
+      ],
+      "statement": "[[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "PrivateDataChatbot",
+        "RetrievalAugmentedGeneration",
+        "Embeddings",
+        "VectorDatabase",
+        "LangChain"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "llm-apps-shift-interface-and-tooling",
+      "qualifications": [
+        "The claim is forward-looking and does not compare natural-language workflows with conventional interfaces across real users or production tasks."
+      ],
+      "statement": "[[AIApplicationFramework]] and [[NaturalLanguageInterface]] capture the source's broader claim that LLM applications are moving toward reusable middle-layer tooling and natural-language access to underlying data.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AIApplicationFramework",
+        "NaturalLanguageInterface",
+        "OpenAI",
+        "Replit"
+      ]
     }
   ],
-  "summary": "The current corpus now covers two AI infrastructure layers: personal knowledge systems that may use AI for summaries, associations, classification, and retrieval, and inference-serving systems that need workload-aware tokenization, fresh metrics, quota controls, cache-aware routing, and scalable gateway architecture.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and a small adjacent learning-motivation thread. The strongest AI claims remain technical: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, and retrieval-augmented chatbots connect LLMs to user-held documents.",
   "topic_id": "ai-and-technology"
 }

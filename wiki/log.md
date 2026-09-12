@@ -4,6 +4,22 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 褪墨 - 使用 G+P+V 思考你的职业生涯
+
+Added source note and synthesis pages for career planning and the GPV career formula. Added an entity profile for Richard Leider and updated goal setting to include staged career paths. Key claims: career fit combines gifts, passion, and values; career is broader than a single job; hobbies may need adjacent roles or interim steps before they become sustainable work.
+
+## [2026-09-11] ingest | 魏杰 - 如何用暴力计算翻译谐音梗——《女性交流》翻译笔记
+
+Added source note and synthesis pages for computational pun translation, semantic search, game localization, translation domestication, and player guidance. Added entity profiles for Wei Jie, Women Communication, and MancoDB. Key claims: large-corpus semantic retrieval can help find homophone-pun candidates, but human revision remains central; pun-heavy games may need domesticated names and recreated player-guidance cues to preserve the original audience experience.
+
+## [2026-09-11] ingest | 轨迹抽稀之道格拉斯-普克算法 | 码田匠心
+
+Added source note and synthesis pages for Ramer-Douglas-Peucker trajectory simplification, epsilon tolerance, and map trajectory rendering. Added entity profiles for 码田匠心 and Baidu Maps. Key claims: dense vehicle GPS tracks can slow APIs and frontend maps; recursive point thinning can preserve broad route shape while sharply reducing point count; epsilon controls the compression-versus-fidelity tradeoff.
+
+## [2026-09-11] ingest | 零基础｜搭建基于私域数据的ChatGPT
+
+Added source note and synthesis pages for private-data chatbots, retrieval-augmented generation, embeddings, vector databases, AI application frameworks, and natural-language interfaces. Added entity profiles for 深思圈, LangChain, OpenAI, and Replit, and updated AI knowledge assistant, personal knowledge management, second-brain, and overview synthesis.
+
 ## [2026-09-11] ingest | 陈皓 - HTTP的前世今生
 
 Added source note and synthesis pages for HTTP, HTTP/1.1, HTTP/2, HTTP/3, QUIC, and head-of-line blocking. Added entity profiles for Chen Hao, Tim Berners-Lee, and Google. Key claims: HTTP evolved through metadata separation, status semantics, persistent connections, multiplexing, header compression, and a QUIC-based transport shift; standards adoption is framed as an architecture advantage.
@@ -15,6 +31,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 ## [2026-09-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-11] ingest | 设立目标可以改变你的生活
+
+Added source note and synthesis pages for goal setting, learn drive, knowledge valuation networks, and creative abstraction. Added entity profiles for Piotr Wozniak and Peter Thiel. Key claims: goals can focus attention and help learners value knowledge, but they are most useful when they protect curiosity rather than impose painful discipline or credential compliance.
 
 ## [2026-09-11] ingest | 锐评主流AI推理负载均衡开源实现
 
@@ -41,5 +61,25 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-11] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

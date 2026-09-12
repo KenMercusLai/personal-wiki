@@ -2,6 +2,20 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "institutional-pressure-can-distort-learning",
+      "qualifications": [
+        "This is an education and motivation claim assigned secondarily to governance; it does not yet constitute a broad institutional theory."
+      ],
+      "statement": "[[PiotrWozniak]] uses [[PeterThiel]] and [[CreativeAbstraction]] to distinguish personally meaningful learning aims from externally competitive status tracks and rote institutional pressure.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "PiotrWozniak",
+        "PeterThiel",
+        "CreativeAbstraction"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "inference-gateway-architecture-shapes-control",
       "qualifications": [
         "This is a secondary topic assignment from an infrastructure paragraph; the corpus does not yet discuss governance, regulation, or institutional policy around AI serving."
@@ -16,6 +30,6 @@
       ]
     }
   ],
-  "summary": "The current governance-related material is narrow and technical: inference gateways apply quotas and architectural control points, but the corpus does not yet address broader AI governance or regulation.",
+  "summary": "The governance-related material is still narrow. It now includes both technical control points in inference gateways and an education-oriented caution that institutions and credential competition can distort learning goals, but the corpus does not yet address formal regulation or policy in depth.",
   "topic_id": "governance-and-institutions"
 }

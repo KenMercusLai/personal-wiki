@@ -4,14 +4,20 @@
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
-      "72415785111958ab2b6219a631028a7cb0cb33cd06f19e3b00a5695f9f6f82fa",
+      "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
+      "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
+      "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
-      "2d44cddf9578e07cb940fa9c85024feb523704733754e4378048fd075c4a9c12"
+      "2d44cddf9578e07cb940fa9c85024feb523704733754e4378048fd075c4a9c12",
+      "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
+      "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
+      "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
+      "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003"
     ],
-    "paragraph_count": 6
+    "paragraph_count": 12
   },
-  "overview_commit": "73b057eaf8b0519481026b6ccd4398d6bccb52d4",
-  "overview_digest": "54f0da310d2a04b8bb75f85bf410caa215422398aba07c54edbbc53a8c73004b",
+  "overview_commit": "a25280f317b4ed7071305762cd235d097685ba4b",
+  "overview_digest": "6e37f97a6055e0b0dd06205b4f0ad2394ef1d7c69c1d53880fe45e3b895fc91d",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -58,10 +64,10 @@
       ]
     },
     {
-      "id": "72415785111958ab2b6219a631028a7cb0cb33cd06f19e3b00a5695f9f6f82fa",
+      "id": "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
-      "text": "The new source also adds a knowledge-infrastructure thread. [[PersonalKnowledgeManagement]] captures the practical layer of bookmarks, notes, tags, topic pages, and drafts that make later output possible. [[AIKnowledgeAssistant]] and [[SecondBrain]] describe a prospective shift from manual organization toward AI-supported summaries, associations, classification, retrieval, histories, and timelines.",
+      "text": "The INDIGO source also adds a knowledge-infrastructure thread. [[PersonalKnowledgeManagement]] captures the practical layer of bookmarks, notes, tags, topic pages, and drafts that make later output possible. [[AIKnowledgeAssistant]] and [[SecondBrain]] describe a prospective shift from manual organization toward AI-supported summaries, associations, classification, retrieval, histories, and timelines.",
       "topic_scores": {
         "ai-and-technology": 1
       },
@@ -69,6 +75,44 @@
         "AIKnowledgeAssistant",
         "PersonalKnowledgeManagement",
         "SecondBrain"
+      ]
+    },
+    {
+      "id": "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The Wozniak source adds a motivational layer beneath the productivity and active-learning material. [[GoalSetting]] is not treated as rigid discipline but as a way to focus attention, choose strategy, and help learners value knowledge. [[LearnDrive]] becomes the key condition to protect: mature experts may follow curiosity without explicit goals, but young learners often need dreams, small decisions, and exploratory reading to resist institutional pressure, credential competition, and rote study. [[KnowledgeValuationNetwork]] names the source's theory that goals, role models, missions, and emotionally salient cases help knowledge become valuable enough to love.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "GoalSetting",
+        "KnowledgeValuationNetwork",
+        "LearnDrive"
+      ]
+    },
+    {
+      "id": "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "This source also qualifies the wiki's learning workflow by emphasizing method fit. In complex or unstable domains, [[CreativeAbstraction]] matters because memorizing every changing detail can erode motivation; learners need patterns, theories, golden rules, and written references for lookup. [[PiotrWozniak]] presents [[PeterThiel]] as an example of someone who reassessed externally competitive goals, reinforcing the distinction between meaningful aims and status-track compliance.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CreativeAbstraction",
+        "PeterThiel",
+        "PiotrWozniak"
       ]
     },
     {
@@ -107,6 +151,75 @@
         "HTTP3",
         "HeadOfLineBlocking",
         "QUIC"
+      ]
+    },
+    {
+      "id": "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The private-data ChatGPT tutorial connects the knowledge-management and AI-infrastructure threads. [[PrivateDataChatbot]] and [[RetrievalAugmentedGeneration]] explain how user-held documents can be chunked, embedded with [[Embeddings]], stored in a [[VectorDatabase]], retrieved by similarity, and passed to an LLM as answer context. [[LangChain]], [[OpenAI]], and [[Replit]] appear as the framework, model/API provider, and beginner-friendly runtime for that prototype, while [[AIApplicationFramework]] and [[NaturalLanguageInterface]] capture the source's broader claim that LLM applications are moving toward reusable middle-layer tooling and natural-language access to underlying data.",
+      "topic_scores": {
+        "ai-and-technology": 2
+      },
+      "wikilinks": [
+        "AIApplicationFramework",
+        "Embeddings",
+        "LangChain",
+        "NaturalLanguageInterface",
+        "OpenAI",
+        "PrivateDataChatbot",
+        "Replit",
+        "RetrievalAugmentedGeneration",
+        "VectorDatabase"
+      ]
+    },
+    {
+      "id": "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The trajectory simplification source adds a smaller but concrete applied-algorithm thread. [[TrajectorySimplification]] is framed as a practical response to dense vehicle GPS uploads that slow API responses and [[MapTrajectoryRendering]]. [[RamerDouglasPeuckerAlgorithm]] reduces a path by keeping segment endpoints, measuring the farthest intermediate point, and using [[EpsilonTolerance]] to decide whether to discard or recursively split points. The article's test compresses 812 points down to 35 at epsilon 0.001, showing that display-oriented systems can trade fine-grained accuracy for lower transfer, storage, and rendering cost when the broad route shape remains acceptable.",
+      "topic_scores": {},
+      "wikilinks": [
+        "EpsilonTolerance",
+        "MapTrajectoryRendering",
+        "RamerDouglasPeuckerAlgorithm",
+        "TrajectorySimplification"
+      ]
+    },
+    {
+      "id": "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "Wei Jie's localization note extends the retrieval thread into creative translation. [[ComputationalPunTranslation]] treats pun translation as a constrained search problem: [[MancoDB]] filters large dialogue corpora for homophone-bearing candidates, vectorizes them, uses [[SemanticSearch]] over a [[VectorDatabase]], and passes meaning-adjacent options to a human translator or model. The source also broadens the wiki's culture-and-media layer through [[GameLocalization]], arguing that pun-dense games such as [[WomenCommunication]] may need [[TranslationDomestication]] and carefully recreated [[PlayerGuidance]] so target-language players discover jokes and mechanics in a way comparable to the original audience.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 4
+      },
+      "wikilinks": [
+        "ComputationalPunTranslation",
+        "GameLocalization",
+        "MancoDB",
+        "PlayerGuidance",
+        "SemanticSearch",
+        "TranslationDomestication",
+        "VectorDatabase",
+        "WomenCommunication"
+      ]
+    },
+    {
+      "id": "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest 褪墨 career source extends the personal-development thread from daily productivity and learning motivation into [[CareerPlanning]]. [[RichardLeider]]'s [[GPVCareerFormula]] asks readers to consider gifts, passion, and values together, but the article's stronger practical point is that career is a path rather than a single job. This qualifies simple passion advice: a hobby may be a poor direct job, yet still point toward adjacent work such as teaching, supplying, writing, or progressing through interim roles toward a better-fit career direction. [[GoalSetting]] therefore becomes a staged path-building practice as well as a learning-motivation tool.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "CareerPlanning",
+        "GPVCareerFormula",
+        "GoalSetting",
+        "RichardLeider"
       ]
     }
   ],

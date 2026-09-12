@@ -3,16 +3,16 @@
 generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
-last_updated: 2026-09-11
-as_of_overview_commit: 73b057eaf8b0519481026b6ccd4398d6bccb52d4
-input_digest: 842bad0c41d0c2f1d1366d50636ffd215bea6267986eb16d5b96186e77aecb93
+last_updated: 2026-09-12
+as_of_overview_commit: a25280f317b4ed7071305762cd235d097685ba4b
+input_digest: bd57a890f73639db2a7752bbc586899169939d8fe69f63f5774a0f715b02f662
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The topic now spans practical work habits, output-centered learning, attention protection, and a standards-oriented view of technical architecture: useful systems reduce avoidable friction, make priorities explicit, and turn reusable conventions into leverage.
+The topic now spans practical work habits, output-centered learning, learning motivation, career path design, and standards-oriented technical architecture. Across work and education, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and use reusable conventions, abstractions, or staged paths as leverage.
 
 ## Cross-source Findings
 
@@ -46,6 +46,27 @@ The topic now spans practical work habits, output-centered learning, attention p
 
 - The source describes a practitioner workflow, not a comparative education study.
 
+### Learning Goals Protect Motivation
+
+[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity from rote or status-driven pressure.
+
+**Evidence:** [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]]
+
+**Qualifications:**
+
+- The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.
+- The claim is theoretical and source-scoped rather than experimentally validated.
+
+### Abstraction Supports Learning In Unstable Domains
+
+[[CreativeAbstraction]] presents patterns, theories, golden rules, and references for lookup as a better fit for unstable or detail-heavy domains than memorizing every changing fact.
+
+**Evidence:** [[CreativeAbstraction]], [[PiotrWozniak]], [[PeterThiel]]
+
+**Qualifications:**
+
+- The claim does not eliminate the need for detail; it reallocates detail to lookup and case-specific use.
+
 ### Technical Standards Create Architectural Leverage
 
 [[HTTP]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] show protocol evolution as a standards-driven way to reduce operational and performance friction.
@@ -55,3 +76,14 @@ The topic now spans practical work habits, output-centered learning, attention p
 **Qualifications:**
 
 - The HTTP adoption and support details are source-scoped to a 2019 publication context.
+
+### Career Fit Requires Path Design
+
+[[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values rather than a direct jump from hobby to job.
+
+**Evidence:** [[CareerPlanning]], [[GPVCareerFormula]], [[GoalSetting]], [[RichardLeider]]
+
+**Qualifications:**
+
+- The source is a short advice article and comment-thread discussion, not a systematic career-outcomes study.
+- It qualifies passion advice by noting that some hobbies may be poor direct jobs and may need adjacent roles or interim steps.

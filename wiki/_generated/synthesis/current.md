@@ -3,50 +3,68 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-11
-as_of_overview_commit: 73b057eaf8b0519481026b6ccd4398d6bccb52d4
-summary: "The wiki maps practical systems for work, learning, AI knowledge, inference routing, and web protocol standards."
-episode_count: 4
-source_count: 4
-paragraph_count: 6
-topic_count: 4
+last_updated: 2026-09-12
+as_of_overview_commit: a25280f317b4ed7071305762cd235d097685ba4b
+summary: "A growing map of AI systems, learning, productivity, career design, web infrastructure, algorithms, and creative localization."
+episode_count: 9
+source_count: 9
+paragraph_count: 12
+topic_count: 7
 ---
 
 # Current Synthesis
 
 ## Executive Summary
 
-- [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology.
-- [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks.
+- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
+- [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
+- Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
+- [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure.
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output.
 - [[HTTP]], [[HTTP11]], [[HTTP2]], [[HTTP3]], [[QUIC]], and [[HeadOfLineBlocking]] show protocol evolution as a standards-driven way to reduce operational and performance friction.
-- [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines.
-- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
-- The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that inference routing quality depends on architecture as well as algorithms: polling, centralized endpoint picking, and event-driven KV-cache state carry different scaling tradeoffs.
-- [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference.
+- [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values rather than a direct jump from hobby to job.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The current corpus covers two AI infrastructure layers: personal knowledge systems that may use AI for summaries, associations, classification, and retrieval, and inference-serving systems that need workload-aware tokenization, fresh metrics, quota controls, cache-aware routing, and scalable gateway architecture.
+AI technology coverage spans personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and natural-language application tooling. The strongest claims concern workload-aware inference routing and retrieval-augmented access to user-held documents.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
-- [[SecondBrain]] describes the aspiration for personal notes to become an active external thinking system rather than a static archive. Evidence: [[SecondBrain]], [[AIKnowledgeAssistant]].
+- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. Evidence: [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]].
+
+### Cross-domain
+
+Cross-domain material currently centers on trajectory simplification: dense GPS paths can be reduced for transfer, storage, and map rendering when broad route shape matters more than exact reconstruction.
+
+- [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
+
+### Culture and Media
+
+Culture-and-media material treats game localization as experience preservation. Pun-heavy games may need computational candidate search, domesticated naming, and reconstructed player guidance rather than literal sentence transfer.
+
+- Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 
 ### Governance and Institutions
 
-The current governance-related material is narrow and technical: inference gateways apply quotas and architectural control points, but the corpus does not yet address broader AI governance or regulation.
+Governance coverage remains narrow. It includes technical control points in inference gateways and an education-oriented caution that institutions and credential competition can distort learning goals.
+
+### Psychology and Personal Development
+
+Psychology and personal development centers on motivation for learning. Goals are useful when they protect curiosity and build value around knowledge, but can become harmful when imposed as pressure or status compliance.
+
+- [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]].
+- [[CreativeAbstraction]] helps learners keep motivation in complex domains by replacing exhaustive memorization with pattern seeking, general principles, and references for detail lookup. Evidence: [[CreativeAbstraction]], [[PiotrWozniak]].
 
 ### Science, Health, and Climate
 
-The current health-adjacent material is limited to attention and mental load in productivity advice: single-tasking, reduced distractions, offline work, and early completion of avoided tasks are presented as ways to protect focus.
+Science, health, and climate coverage is still sparse and health-adjacent: attention is treated as a scarce work resource protected through single-tasking, reduced distractions, and lower mental interference.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-The current corpus treats productive work, learning, and technical architecture as systems for reducing friction: daily work improves through habits and attention protection, learning deepens through output, and standards such as HTTP and QUIC accumulate reusable operational leverage.
+Work, education, and society now connects lightweight work habits, output-centered learning, learning motivation, career path design, and standards-oriented technical leverage.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
