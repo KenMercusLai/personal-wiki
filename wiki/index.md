@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [A mathematical BS detector can boost the wisdom of crowds](sources/a-mathematical-bs-detector-can-boost-the-wisdom-of-crowds-aeon-essays.md) - George Musser explains how Drazen Prelec's metaknowledge methods can repair crowd wisdom by detecting shared-information bias, hidden beliefs, and shallow confidence.
+- [A seamless way to keep track of technical debt in your source code](sources/a-seamless-way-to-keep-track-of-technical-debt-in-your-source-code-philippe-bourgaus-blog.md) - Philippe Bourgau argues that teams can track lightweight technical debt with TODO comments because existing IDEs, dashboards, and search tools already surface them.
 - [A focused family business - Los Angeles Times](sources/a-focused-family-business-los-angeles-times.md) - LA Times profile of SmugMug as a profitable, self-funded, family-run paid photo-sharing service built around privacy, customer intimacy, and MacAskill family control.
 - [A billion dollar gift for Twitter](sources/a-billion-dollar-gift-for-twitter-startup-grind-medium.md) - Anil Dash's open product-strategy critique arguing that Twitter needed visible shipping, abuse response, better cultural metrics, segmented user tools, and renewed developer-platform trust.
 - [A brief history of the numeric keypad](sources/a-brief-history-of-the-numeric-keypad.md) - Francesco Bertelli's interface-history essay explaining why phone and calculator keypads use inverted layouts through calculator, cash-register, adding-machine, and AT&T telephone research lineages.
@@ -112,6 +113,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
 - [Drazen Prelec](entities/DrazenPrelec.md) - Behavioral economist whose survey methods use predictions about others to improve crowd judgment.
 - [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
+- [Philippe Bourgau](entities/PhilippeBourgau.md) - Software-engineering blogger proposing ordinary TODO comments as a lightweight technical-debt tracking convention.
+- [CodeClimate](entities/CodeClimate.md) - Code-quality dashboard cited as surfacing TODO comments as issues with file context.
+- [SonarQube](entities/SonarQube.md) - Code-quality analyzer cited as listing TODOs while assigning potentially misleading fixed remediation costs.
+- [IntelliJ IDEA](entities/IntelliJIDEA.md) - IDE cited as surfacing TODO comments and warning about them during commit workflows.
 - [SmugMug](entities/SmugMug.md) - Family-run paid photo-sharing service profiled as self-funded, profitable, customer-intimate, and resistant to outside control.
 - [MacAskill Family](entities/MacAskillFamily.md) - Family group behind SmugMug's 2007 operating model across leadership, finance, support, testing, analytics, and customer service.
 - [Don MacAskill](entities/DonMacAskill.md) - SmugMug chief executive and "chief geek" who framed the company around a deliberate family atmosphere.
@@ -520,6 +525,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.
 - [Systematic Learning](concepts/SystematicLearning.md) - Learning that builds both breadth and depth so a person can truly understand and use a domain.
+- [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and revisiting known codebase liabilities through lightweight markers, tool support, and team conventions.
+- [TODO Comments](concepts/TodoComments.md) - Source-code comments used to mark future work, refactoring ideas, or unresolved code smells.
 - [Continuous Game Server Updates](concepts/ContinuousGameServerUpdates.md) - Progressive online-game update model where old and new versions coexist while traffic gradually moves with minimal player-visible maintenance.
 - [Game Server Cloud-Native Delivery](concepts/GameServerCloudNativeDelivery.md) - Applying service units, standardized runtime environments, container delivery, and DevOps ownership to game-server architecture.
 - [Game Server Launch Experience](concepts/GameServerLaunchExperience.md) - Production learning from shipping and operating an online game at real user scale, converted into reusable engineering judgment.

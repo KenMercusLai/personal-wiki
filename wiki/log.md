@@ -604,6 +604,8 @@ Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street V
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A seamless way to keep track of technical debt in your source code
+
 ## [2026-09-13] ingest | A mathematical BS detector can boost the wisdom of crowds
 
 Added source note and created pages for [[GeorgeMusser]], [[DrazenPrelec]], [[Metaculus]], [[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], and [[FalseConsensusEffect]]. No contradictions identified.
@@ -778,6 +780,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

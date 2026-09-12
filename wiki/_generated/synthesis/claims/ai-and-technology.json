@@ -257,6 +257,24 @@
     },
     {
       "global_candidate": false,
+      "id": "maintenance-signals-need-lightweight-tooling",
+      "qualifications": [
+        "The TODO-based evidence is a practitioner account and may not fit teams that need richer ownership, prioritization, risk, or compliance metadata."
+      ],
+      "statement": "[[TechnicalDebtTracking]] through [[TodoComments]] works when ordinary developer tools such as [[CodeClimate]], [[IntelliJIDEA]], and [[SonarQube]] make maintenance signals visible, but teams still need cleanup habits and [[ProductRetrospectives]] to keep those signals from becoming stale debt.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "TechnicalDebtTracking",
+        "TodoComments",
+        "CodeClimate",
+        "IntelliJIDEA",
+        "SonarQube",
+        "ProductRetrospectives",
+        "SoftwareVerification"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "mobile-platforms-reframe-runtime-and-data",
       "qualifications": [
         "The mobile-platform evidence is a 2015 strategic thesis and should be treated as source-date bounded.",
@@ -317,6 +335,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
   "topic_id": "ai-and-technology"
 }
