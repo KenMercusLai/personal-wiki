@@ -27,8 +27,25 @@
         "GoalSetting",
         "KnowledgeValuationNetwork"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "data-science-adoption-reflects-institutions",
+      "qualifications": [
+        "The Stack Overflow evidence is based on 2017 English-language question visits, not direct measures of research employment, scientific output, or current data-science capacity."
+      ],
+      "statement": "[[DataScienceTechnologyAdoption]] is treated as partly institutional: [[StackOverflowTrafficAnalysis]] links Python, R, and scientific package traffic to high-income developer economies while warning that traffic is not causal proof or a census of software work.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "DataScienceTechnologyAdoption",
+        "StackOverflowTrafficAnalysis",
+        "DeveloperEconomySegmentation",
+        "ProgrammingTechnologyDemand",
+        "DavidRobinson",
+        "Android"
+      ]
     }
   ],
-  "summary": "The topic remains mostly indirect. It covers attention and mental load in productivity advice, and now includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.",
+  "summary": "The topic remains mostly indirect. It covers attention and mental load in productivity advice, a philosophy-of-science claim that current science does not settle intrinsic value, and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. The Stack Overflow evidence is useful but source-scoped because it measures 2017 English-language question visits rather than scientific employment, software work, or causality.",
   "topic_id": "science-health-and-climate"
 }

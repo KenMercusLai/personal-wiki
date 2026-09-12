@@ -3,16 +3,16 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-12
-as_of_overview_commit: cb13ce5e41eff8bff05131c9c29b5772a6f92344
-input_digest: 043a2917dcdae160daee72c1b505b576584f8dd4e32894efbad5c530aa28d63a
+last_updated: 2026-09-13
+as_of_overview_commit: 1297321473f2c8905426780b8587b260399a003f
+input_digest: 47a48db708eb5dbc117fc729597d8a7dabab3dba3caa2306aa7109714dc33c2d
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-The topic remains mostly indirect. It covers attention and mental load in productivity advice, and now includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
+The topic remains mostly indirect. It covers attention and mental load in productivity advice, a philosophy-of-science claim that current science does not settle intrinsic value, and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. The Stack Overflow evidence is useful but source-scoped because it measures 2017 English-language question visits rather than scientific employment, software work, or causality.
 
 ## Cross-source Findings
 
@@ -36,3 +36,13 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 **Qualifications:**
 
 - This is a philosophy-of-science claim from Wozniak's essay, not an empirical scientific consensus review.
+
+### Data Science Adoption Reflects Institutions
+
+[[DataScienceTechnologyAdoption]] is treated as partly institutional: [[StackOverflowTrafficAnalysis]] links Python, R, and scientific package traffic to high-income developer economies while warning that traffic is not causal proof or a census of software work.
+
+**Evidence:** [[DataScienceTechnologyAdoption]], [[StackOverflowTrafficAnalysis]], [[DeveloperEconomySegmentation]], [[ProgrammingTechnologyDemand]], [[DavidRobinson]], [[Android]]
+
+**Qualifications:**
+
+- The Stack Overflow evidence is based on 2017 English-language question visits, not direct measures of research employment, scientific output, or current data-science capacity.

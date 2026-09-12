@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: db37b1fe8b0d2c00fe9bf4bbe376c5ef7b1e3e13
+as_of_overview_commit: 1297321473f2c8905426780b8587b260399a003f
 summary: "The wiki maps how tools, work, learning, markets, and personal systems need trust, evidence, context, verification, and human judgment."
-episode_count: 90
-source_count: 90
-paragraph_count: 91
+episode_count: 91
+source_count: 91
+paragraph_count: 92
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources emphasize that models, agents, data systems, developer tools, networking, and infrastructure become useful only when context, evidence, verification, workload contracts, and human accountability are explicit.
+AI and technology sources emphasize that models, agents, data systems, developer tools, networking, platform traffic, and infrastructure become useful only when context, evidence, verification, workload contracts, segmentation, and human accountability are explicit.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]].
@@ -72,7 +72,7 @@ Psychology and personal-development sources treat agency as a product of reflect
 
 ### Science, Health, and Climate
 
-Science, health, and climate material currently centers on attention as a scarce cognitive resource that must be protected through habits, environment design, and realistic constraints.
+Science, health, and climate material is mostly source-scoped: it covers attention as a scarce cognitive resource, scientific uncertainty around intrinsic value, and data-science adoption as a developer-economy signal rather than a direct measure of scientific capacity.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 

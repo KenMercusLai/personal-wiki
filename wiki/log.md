@@ -747,3 +747,8 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

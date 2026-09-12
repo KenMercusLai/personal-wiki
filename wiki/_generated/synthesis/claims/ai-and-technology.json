@@ -244,9 +244,10 @@
       "global_candidate": false,
       "id": "mobile-platforms-reframe-runtime-and-data",
       "qualifications": [
-        "The mobile-platform evidence is a 2015 strategic thesis and should be treated as source-date bounded."
+        "The mobile-platform evidence is a 2015 strategic thesis and should be treated as source-date bounded.",
+        "The Stack Overflow traffic evidence is 2017 English-language question traffic, not a direct census of programming work or current platform demand."
       ],
-      "statement": "[[MobileEcosystem]] reframes internet infrastructure around smartphones, where [[MobileInternet]], [[MobileRuntime]], [[MessagingAsPlatform]], [[MobilePlatformDiscovery]], and [[InternetOfThingsData]] turn apps, web, messages, maps, notifications, assistants, and sensors into competing runtime and data surfaces.",
+      "statement": "[[MobileEcosystem]] reframes internet infrastructure around smartphones, while [[DeveloperEconomySegmentation]] and [[StackOverflowTrafficAnalysis]] show that mobile and data-tool demand varies by country-income context, with [[Android]] skewing differently from [[DataScienceTechnologyAdoption]].",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "MobileEcosystem",
@@ -255,12 +256,17 @@
         "MessagingAsPlatform",
         "MobilePlatformDiscovery",
         "InternetOfThingsData",
+        "DeveloperEconomySegmentation",
+        "StackOverflowTrafficAnalysis",
+        "ProgrammingTechnologyDemand",
+        "DataScienceTechnologyAdoption",
+        "Android",
         "Apple",
         "Google",
         "Microsoft"
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, developer-economy traffic, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, Stack Overflow traffic segmentation, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
   "topic_id": "ai-and-technology"
 }

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
 - [A Selfie For The Planet](sources/a-selfie-for-the-planet.md) - Fast Company profile of Ed Parsons and Google's Geo work, framing Google Maps, Google Earth, Street View, location data, user contributions, and OpenStreetMap as a shift from static maps to personalized platform cartography.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
@@ -98,6 +99,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
 
 ## Entities
+- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform used as a traffic data source for comparing technology attention across countries.
+- [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
 - [Bram Moolenaar](entities/BramMoolenaar.md) - Dutch programmer who created and maintained Vim from STEVIE-derived open-source code.
 - [Vim](entities/Vim.md) - Long-lived modal text editor descended from `vi`, shaped by Unix editor lineage, open-source ports, and programmer culture.
@@ -384,6 +387,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Doug Evans](entities/DougEvans.md) - Juicero founder named in the leadership transition to Jeff Dunn.
 
 ## Concepts
+- [Stack Overflow Traffic Analysis](concepts/StackOverflowTrafficAnalysis.md) - Using Stack Overflow question visits by tag and country as a bounded signal of developer attention.
+- [Developer Economy Segmentation](concepts/DeveloperEconomySegmentation.md) - Splitting developer ecosystem analysis into meaningful country or market groups so global averages do not hide distinct technology patterns.
+- [Programming Technology Demand](concepts/ProgrammingTechnologyDemand.md) - Inferred developer attention or demand for languages, platforms, frameworks, and tools.
+- [Data Science Technology Adoption](concepts/DataScienceTechnologyAdoption.md) - Uptake of programming tools and workflows for data analysis, statistics, scientific computing, and machine learning.
 - [Constraint-Shaped Interface Design](concepts/ConstraintShapedInterfaceDesign.md) - Interface conventions that emerge from practical technical limits and persist after those limits fade.
 - [Sabbatical Career Experiment](concepts/SabbaticalCareerExperiment.md) - Savings-backed employment break used to recover from burnout, search for meaningful work, and risk personal runway on a creative or entrepreneurial bet.
 - [Indie Game Development](concepts/IndieGameDevelopment.md) - Solo or small-team game creation where expressive technical work meets platform discovery, monetization choices, and volatile sustainability.
