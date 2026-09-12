@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [9 Tricks to Appear Smart in Brainstorming Meetings](sources/9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium.md) - Sarah Cooper's corporate satire arguing that brainstorming meetings can reward performative helpfulness, jargon, meta-framing, executive name-dropping, and premature decisiveness over real ideas.
+- [9 Ways to Build Virality into your Product](sources/9-ways-to-build-virality-into-your-product-gabor-cselle-medium.md) - Gabor Cselle's product-growth taxonomy arguing that consumer virality should be built into core mechanics through rewards, vanity, collaboration, embeds, artifacts, messaging, signatures, and visible hardware.
 - [9 Boxes](sources/9-boxes.md) - Jonah Peretti's BuzzFeed strategy memo arguing for fairer platform revenue, diversified digital media monetization, a portfolio of consumer-service brands, and a nine-box brand-by-revenue operating model.
 - [8 Lessons From One of Silicon Valley's Top VCs | Drift](sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md) - Drift interview summary with Sequoia's Pat Grady arguing for durable problem-solving, category-defining ambition, narrow entry into big markets, capital discipline, and culture/systems after the 150-person scaling threshold.
 - [8 PR Strategies for Bootstrapped Startups](sources/8-pr-strategies-for-bootstrapped-startups-the-startup-medium.md) - Josiah Humphrey's startup PR article arguing that bootstrapped founders can win useful publicity through specific goals, concise pitches, targeted journalist outreach, guest posts, and reverse pitching.
@@ -84,6 +85,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
+- [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
+- [Google Docs](entities/GoogleDocs.md) - Collaboration-product example where sharing documents creates an invitation loop.
+- [Airtable](entities/Airtable.md) - Specialized collaboration SaaS example that can spread internally after team adoption.
+- [Good Eggs](entities/GoodEggs.md) - Grocery-delivery example of two-sided referral rewards and gifting psychology.
+- [Instagram](entities/Instagram.md) - Social-artifact example where attractive shared photos route viewers back to the app.
+- [Lyft](entities/Lyft.md) - Messaging-artifact example where ETA sharing exposes recipients to ride tracking.
+- [GroupMe](entities/GroupMe.md) - Messaging product example that used SMS as a first-message onboarding surface.
+- [Nest Cam](entities/NestCam.md) - Visible-hardware example where outdoor security cameras create awareness.
 - [Pat Grady](entities/PatGrady.md) - Sequoia investor voice connecting category-defining ambition, first-principles problem-solving, scaling discipline, and capital restraint.
 - [Sequoia Capital](entities/SequoiaCapital.md) - Venture-capital firm context for Pat Grady's highly selective, category-focused investment philosophy.
 - [Don Valentine](entities/DonValentine.md) - Sequoia founder cited for connecting engineers to human problems and targeting large markets through disciplined entry.

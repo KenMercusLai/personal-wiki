@@ -339,8 +339,25 @@
         "FeelTheBern",
         "CampaignTechnologyAccountability"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "product-growth-loops-shape-coordination-and-attention",
+      "qualifications": [
+        "This paragraph is secondary to the work-education topic and primarily belongs to business/product-growth synthesis.",
+        "The source argues that exposure only creates awareness or consideration; conversion and loyalty still depend on product quality."
+      ],
+      "statement": "[[GaborCselle]] treats [[ViralLoops]] as designed behavior loops: [[Slack]], [[GoogleDocs]], and [[Airtable]] use collaboration to pull coworkers into shared work, while public metrics, artifacts, messaging links, and visible hardware shape attention before product quality determines whether users stay.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "GaborCselle",
+        "ViralLoops",
+        "Slack",
+        "GoogleDocs",
+        "Airtable"
+      ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, active code review, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, outsourced product work, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, scope, technical detail, QA, tracking, long-term fit, opportunity cost, and employer-facing evidence; Readlang adds that useful work and user impact do not automatically make a solo path economically rational. Side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, data automation, and review practices can reshape organizational workflows when their operational constraints are understood.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, active code review, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, outsourced product work, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, scope, technical detail, QA, tracking, long-term fit, opportunity cost, and employer-facing evidence; Readlang adds that useful work and user impact do not automatically make a solo path economically rational. Side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, data automation, and review practices can reshape organizational workflows when their operational constraints are understood. A source-scoped product-design paragraph adds that behavior-shaping loops also appear in growth contexts: invitations, public metrics, collaboration, shared artifacts, and visible hardware can change how people coordinate or notice products, but only when later product value supports the initial exposure.",
   "topic_id": "work-education-and-society"
 }

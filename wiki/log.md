@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | 9 Ways to Build Virality into your Product
+
+Added source note plus pages for Gabor Cselle, Area 120, Google Docs, Airtable, Good Eggs, Instagram, Lyft, GroupMe, and Nest Cam. Updated growth hacking, viral loops, social proof, and example entity pages to capture two-sided rewards, vanity metrics, collaboration, embeds, shareable artifacts, messaging links, signatures, first-message onboarding, and visible hardware as product-integrated viral mechanisms. Inspected all local image embeds; the mechanism diagrams and screenshots supported the taxonomy, while duplicate/header icons were decorative or redundant.
+
 ## [2026-09-13] ingest | 7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started
 
 Added source note plus pages for Alex Turnbull, Groove, founder network building, product commoditization, founder time leverage, founder success definition, and startup vision selling. Updated startup focus, customer-led product development, differentiation strategy, index, overview, and generated synthesis inputs to reflect the article's claims that founders should filter advice through value and profit, build value-first relationships, talk to customers frequently, defend brand and culture, buy back time, define success personally, and sell vision early. The external header image could not be inspected because its URL returned a Forbidden text response rather than image data.
@@ -623,6 +627,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

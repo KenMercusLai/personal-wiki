@@ -50,6 +50,7 @@
       "6b88a4af45ee135975657d5285a813b8fa39d4e5b756c14eb53fe8ddfacf4e87",
       "6d036eb9df0cc4d05ad19639f6c62bf1c4baeb9aad2ac4546ab0094b90d94a73",
       "a2bc68ad2b17ee569e95a481ae9ca37aba6f26dbadaebfc13d8527c62025eca2",
+      "cedf49e41697a1f9a734b3cef07360241e3cd0c17be3b8f2cfeae33a748aa702",
       "e6ed3471285a6de6420b21726ef8f78b2268d163d998585b8326ef70fef86db8",
       "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
@@ -79,10 +80,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 77
+    "paragraph_count": 78
   },
-  "overview_commit": "0e9059a6e32015fe1854fbfb05e28dd060c5ef1a",
-  "overview_digest": "ec67293a7d64c8860f575cf2d61de0d427e7484e88647ce0bc00307999cc27f3",
+  "overview_commit": "f3a2df9f6ce24c9a0c3d2e1ca0a4d70485385464",
+  "overview_digest": "b43838d93af7a8456d0aa80bcc592680ea7394ddf47935cef2b5619b046f1be0",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1020,6 +1021,31 @@
         "TripAdvisor",
         "ViralLoops",
         "Zappos"
+      ]
+    },
+    {
+      "id": "cedf49e41697a1f9a734b3cef07360241e3cd0c17be3b8f2cfeae33a748aa702",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "[[GaborCselle]]'s virality article tightens that growth material into a product-design taxonomy. [[ViralLoops]] now include two-sided rewards such as [[Dropbox]] and [[GoodEggs]], vanity loops such as [[Twitter]] follower counts and [[LinkedIn]] connection counts, collaboration loops such as [[Slack]], [[GoogleDocs]], and [[Airtable]], artifact loops through embeds, social sharing, messaging links, and signatures, and offline visibility through [[Square]] terminals and [[NestCam]]. The qualification is important: viral exposure can create awareness and consideration, but conversion and loyalty still depend on product quality.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Airtable",
+        "Dropbox",
+        "GaborCselle",
+        "GoodEggs",
+        "GoogleDocs",
+        "LinkedIn",
+        "NestCam",
+        "Slack",
+        "Square",
+        "Twitter",
+        "ViralLoops"
       ]
     },
     {
