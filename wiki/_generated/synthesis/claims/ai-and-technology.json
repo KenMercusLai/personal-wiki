@@ -78,15 +78,18 @@
       "global_candidate": false,
       "id": "software-products-are-reading-and-payment-infrastructure",
       "qualifications": [
-        "The Instapaper evidence is a company retrospective, and HTTP 402 browser payments are a proposal rather than an adopted standard."
+        "The Instapaper evidence is a company retrospective, HTTP 402 browser payments are a proposal rather than an adopted standard, and the Vim evidence is historical journalism rather than a current editor comparison."
       ],
-      "statement": "[[ReadLaterProduct]] and [[HTTP402PaymentRequired]] show non-AI software infrastructure shaping attention, reading, payment, and browser trust through parsing, offline access, search, notes, exports, status semantics, and payment brokerage.",
+      "statement": "[[ReadLaterProduct]], [[Vim]], and [[HTTP402PaymentRequired]] show non-AI software infrastructure shaping attention, editing, reading, payment, and browser trust through parsing, keyboard interfaces, offline access, search, notes, exports, status semantics, and payment brokerage.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "ReadLaterProduct",
         "Instapaper",
         "AttentionManagement",
         "FocusedReading",
+        "Vim",
+        "UnixEditorLineage",
+        "ConstraintShapedInterfaceDesign",
         "HTTP402PaymentRequired",
         "BrowserPaymentBroker",
         "AdBlocking",
@@ -258,6 +261,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
   "topic_id": "ai-and-technology"
 }

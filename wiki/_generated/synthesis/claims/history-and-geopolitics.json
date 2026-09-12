@@ -4,9 +4,9 @@
       "global_candidate": false,
       "id": "instapaper-is-product-history-not-geopolitics",
       "qualifications": [
-        "The paragraph is historical only in the sense of product chronology; it does not make geopolitical claims."
+        "These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims."
       ],
-      "statement": "[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], and [[ProductEvolution]] form a software-product history about read-later design, ownership changes, platform adaptation, business-model shifts, and outage recovery rather than a geopolitical finding.",
+      "statement": "[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], and [[ProductEvolution]] form software-product histories about read-later design, editor inheritance, ownership or maintenance changes, platform adaptation, durable conventions, business-model shifts, and reliability recovery rather than a geopolitical finding.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "Instapaper",
@@ -15,6 +15,11 @@
         "Pinterest",
         "AppStore",
         "ReadLaterProduct",
+        "Vim",
+        "UnixEditorLineage",
+        "BillJoy",
+        "BramMoolenaar",
+        "ConstraintShapedInterfaceDesign",
         "ProductEvolution"
       ]
     },
@@ -36,6 +41,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while the prompt-caching paragraph is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.",
+  "summary": "The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper and Vim paragraphs are software-product chronology and lineage, while the prompt-caching paragraph is technical AI infrastructure; all are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.",
   "topic_id": "history-and-geopolitics"
 }

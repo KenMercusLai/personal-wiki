@@ -3,28 +3,28 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-12
-as_of_overview_commit: fc4370f290d05356385bdad8dbc301429e5c781f
-input_digest: 4717d2064fb769ac113be499ca9c636296285a701253418835880895ef11b235
+last_updated: 2026-09-13
+as_of_overview_commit: c90de938a20f2e25949033f4b74d6fbd66300035
+input_digest: 7ee685f254e9088b943ec5eb0aae81e8cfe2c0c598219f8acdf8185d5c6741d8
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while the prompt-caching paragraph is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
+The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper and Vim paragraphs are software-product chronology and lineage, while the prompt-caching paragraph is technical AI infrastructure; all are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
 
 ## Cross-source Findings
 
 ### Instapaper Is Product History Not Geopolitics
 
-[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], and [[ProductEvolution]] form a software-product history about read-later design, ownership changes, platform adaptation, business-model shifts, and outage recovery rather than a geopolitical finding.
+[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], and [[ProductEvolution]] form software-product histories about read-later design, editor inheritance, ownership or maintenance changes, platform adaptation, durable conventions, business-model shifts, and reliability recovery rather than a geopolitical finding.
 
-**Evidence:** [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[ProductEvolution]]
+**Evidence:** [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], [[ConstraintShapedInterfaceDesign]], [[ProductEvolution]]
 
 **Qualifications:**
 
-- The paragraph is historical only in the sense of product chronology; it does not make geopolitical claims.
+- These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims.
 
 ### Prompt Cache Paragraph Is Technical Spillover
 

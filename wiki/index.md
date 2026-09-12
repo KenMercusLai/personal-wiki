@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
+- [A Look at Vim, a Text Editor for the Ages - The New Stack](sources/a-look-at-vim-a-text-editor-for-the-ages-the-new-stack.md) - The New Stack history tracing Vim from Unix `ed`, `em`, `ex`, and `vi` through Bram Moolenaar's open-source Vim, emphasizing constraint-shaped interface choices, incremental evolution, and cultural persistence.
 - [A Look at Auth0 Cloud Architecture: 5 Years In](sources/a-look-at-auth0-cloud-architecture-5-years-in.md) - Auth0 architecture retrospective showing how a high-scale identity SaaS standardized on AWS, multi-AZ and cross-region failover, infrastructure as code, testing, observability, and internal platform work.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
@@ -92,6 +93,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
+- [Bram Moolenaar](entities/BramMoolenaar.md) - Dutch programmer who created and maintained Vim from STEVIE-derived open-source code.
+- [Vim](entities/Vim.md) - Long-lived modal text editor descended from `vi`, shaped by Unix editor lineage, open-source ports, and programmer culture.
 - [Amir Rajan](entities/AmirRajan.md) - Indie game developer whose sabbatical produced the iOS version of A Dark Room and a deeply qualified success story about luck, runway, and returning to work.
 - [A Dark Room](entities/ADarkRoom.md) - Sparse text-based indie game whose iOS port reached #1 on the App Store and became Rajan's central creative and economic case.
 - [RubyMotion](entities/RubyMotion.md) - Mobile development platform Rajan used for his games and later acquired as part of his post-hit income mix.
@@ -355,6 +359,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
 
 ## Concepts
+- [Constraint-Shaped Interface Design](concepts/ConstraintShapedInterfaceDesign.md) - Interface conventions that emerge from practical technical limits and persist after those limits fade.
 - [Sabbatical Career Experiment](concepts/SabbaticalCareerExperiment.md) - Savings-backed employment break used to recover from burnout, search for meaningful work, and risk personal runway on a creative or entrepreneurial bet.
 - [Indie Game Development](concepts/IndieGameDevelopment.md) - Solo or small-team game creation where expressive technical work meets platform discovery, monetization choices, and volatile sustainability.
 - [Computer Science Zines](concepts/ComputerScienceZines.md) - Self-published, illustration-heavy educational works that explain CS topics with approachable visual framing.
@@ -414,6 +419,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
+- [Unix Editor Lineage](concepts/UnixEditorLineage.md) - Historical chain from `ed` through `em`, `en`, `ex`, `vi`, open-source clones, and Vim.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.

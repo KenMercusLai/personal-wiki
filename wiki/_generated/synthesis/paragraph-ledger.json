@@ -80,6 +80,7 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
       "df361a0e6fc21fce303fab30c4a727e414df9dbda2907c604b1ea7bb8b2987a6",
+      "e805ce0774618fca94b82ccdc071abbc420d8bd94edef48deca2048c2e89e3e6",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "7945feaa8bda011bebcbd3390acfa8d971dea35e0c93c43d92be09f41d7c9f85",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
@@ -87,10 +88,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 85
+    "paragraph_count": 86
   },
-  "overview_commit": "df7020f3183a64cf154bdb12a309389ecfa5669f",
-  "overview_digest": "19dbe6b14bdfce8d538e9eed9eb3a93249849363915b30d101c9ddd39c134b71",
+  "overview_commit": "c90de938a20f2e25949033f4b74d6fbd66300035",
+  "overview_digest": "f71c71f935f7494bccd07fcd7c10916904e07b96843bb1ffc8dc67dbb1a47969",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1652,6 +1653,29 @@
         "InfrastructureAsCode",
         "InternalDeveloperPlatform",
         "ServiceObservability"
+      ]
+    },
+    {
+      "id": "e805ce0774618fca94b82ccdc071abbc420d8bd94edef48deca2048c2e89e3e6",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "history-and-geopolitics"
+      ],
+      "text": "The Vim history source adds a software-history case to the developer-tooling and product-evolution material. [[Vim]] is presented as a durable editor whose behavior descends through [[UnixEditorLineage]] from `ed`, `em`, `en`, `ex`, and [[BillJoy]]'s `vi` to [[BramMoolenaar]]'s STEVIE-based Vim. [[ConstraintShapedInterfaceDesign]] explains why this lineage matters: terse commands, modal editing, and `h/j/k/l` navigation were practical responses to slow modems, terminal keyboards, and mouse-free environments, then became durable expert conventions and cultural markers. The source also strengthens [[ProductEvolution]] by showing incremental accumulation through ports, open-source clones, patches, shareware circulation, Usenet distribution, and long-running maintenance rather than a clean-slate rewrite.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BillJoy",
+        "BramMoolenaar",
+        "ConstraintShapedInterfaceDesign",
+        "ProductEvolution",
+        "UnixEditorLineage",
+        "Vim"
       ]
     },
     {

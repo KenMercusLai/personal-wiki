@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: df7020f3183a64cf154bdb12a309389ecfa5669f
-summary: "The wiki maps knowledge work, AI, infrastructure, products, and careers as systems that compound through evidence, feedback, discipline, and judgment."
-episode_count: 84
-source_count: 84
-paragraph_count: 85
+as_of_overview_commit: c90de938a20f2e25949033f4b74d6fbd66300035
+summary: "The wiki maps knowledge work, AI, infrastructure, products, and careers as systems that compound through evidence, feedback, discipline, durable conventions, and judgment."
+episode_count: 85
+source_count: 85
+paragraph_count: 86
 topic_count: 9
 ---
 
@@ -20,26 +20,26 @@ topic_count: 9
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.
 - [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
+- [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, mature adaptation, and long-lived tool lineage: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[Vim]] evolves through [[UnixEditorLineage]], ports, open-source clones, patches, and durable interface conventions; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation.
 - [[MinimumViableProduct]] reframes startup product work as early evidence gathering: [[SoftwareBrothers]] shows teams testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, and platform/community placement before building full systems; [[OutsourcedProductDevelopment]] adds outsourced concept builds as a validation path when later refactoring or disposal is expected; and [[StartupHypothesisTesting]] adds that tests should be tied to explicit assumptions and evaluation criteria.
 - [[DifferentiationStrategy]] argues that crowded markets require a customer-visible reason to choose because copyable features, category saturation, and competitor benchmarking make offers converge; [[ProductCommoditization]] adds the startup version of this pressure, where cheaper building pushes defensibility toward brand, culture, and business quality; [[PatGrady]] and [[SequoiaCapital]] add that crowded SaaS markets require a superior value proposition because capital cannot brute-force weak demand.
-- [[SystemReliability]] depends on known technical practices such as [[RobustProgramming]], [[DependencyDegradation]], and [[ChangeSafety]], but [[ReliabilityInvestment]] is the harder business constraint because avoided failures are hard to credit and reliability work can become episodic without sustained priority; [[Auth0]] adds the SaaS-scale case where [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], and [[InternalDeveloperPlatform]] become business-critical reliability investments.
 - [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values; [[CreativeTechnicalCareer]] adds a non-linear path where art, engineering, craft, education, and game-making can cohere through repeated experiments, while [[WorkplaceSexismInTech]] names a structural constraint that can redirect or damage that path. [[ProgrammerFreelancing]], [[IndependentCreator]], and [[SabbaticalCareerExperiment]] cases add experiments around money, isolation, autonomy, user impact, luck, health, family constraints, psychological cost, and fallback design, while [[JobApplicationSideProjects]] make career-transition claims credible only when projects are relevant, deep, iterated, shipped, and visible.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-Software, AI systems, data work, routing, game operations, and production environments work best when context, evidence, verification, runtime realism, observability, and accountable human judgment preserve contact with reality.
+Software, AI systems, data work, reading and editing tools, routing, game operations, and production environments work best when context, evidence, verification, runtime realism, observability, durable interface constraints, and accountable human judgment preserve contact with reality.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]].
 
 ### Business and Markets
 
-Business sources show that durable products and companies depend on distribution, customer learning, positioning, trust signals, platform timing, explicit monetization, operational reliability, and business-model fit rather than technical building alone.
+Business sources show that durable products and companies depend on distribution, customer learning, positioning, trust signals, platform timing, explicit monetization, operational reliability, product evolution, developer-tool conventions, and business-model fit rather than technical building alone.
 
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SteveRidout]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
-- [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]], [[OutsourcedProductDevelopment]].
+- [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, mature adaptation, and long-lived tool lineage: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[Vim]] evolves through [[UnixEditorLineage]], ports, open-source clones, patches, and durable interface conventions; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[ConstraintShapedInterfaceDesign]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]], [[OutsourcedProductDevelopment]].
 
 ### Cross-domain
 
@@ -61,7 +61,7 @@ Governance material is still narrow but centers on control boundaries in institu
 
 ### History and Geopolitics
 
-This topic currently contains classifier spillover rather than a substantive historical or geopolitical synthesis.
+This topic currently contains classifier spillover rather than a substantive geopolitical synthesis: the relevant history is software-product chronology and editor lineage, not geopolitics.
 
 ### Psychology and Personal Development
 
