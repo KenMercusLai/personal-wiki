@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 15+ Examples of Successful MVPs - Startups & Web Pages
+
+Added source note plus pages for Software Brothers and minimum viable product. Updated customer-led product development, product evolution, index, overview, and generated synthesis inputs. Key claims: MVPs validate core value through intentionally incomplete products, manual workflows, videos, landing pages, pricing/waitlist tests, closed betas, and platform/community distribution before teams commit to full systems.
+
 ## [2026-09-12] ingest | 知识估值网络
 
 Added source note and synthesis pages for SuperMemo, free learning, coercive learning, reverse learning, and the common currency model. Updated Piotr Wozniak, knowledge valuation network, learn drive, goal setting, index, and overview to reflect the source's model of knowledge valuation as goal-rooted, semantic, partly neural, and vulnerable to coercive schooling.
@@ -447,6 +451,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 12 Fractured Apps
 
 Ingested Kelsey Hightower's Docker application startup essay. Added source, entity, and concept pages for Docker-friendly startup, runtime configuration, and twelve-factor deployment behavior.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

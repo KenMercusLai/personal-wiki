@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [15+ Examples of Successful MVPs - Startups & Web Pages](sources/15-examples-of-successful-mvps-startups-web-pages-software-brothers.md) - Software Brothers' survey of famous MVP origin stories, arguing that startups can validate demand through narrow features, manual workflows, landing pages, videos, waitlists, and platform/community tests before full buildout.
 - [12 Fractured Apps](sources/12-fractured-apps-kelsey-hightower-medium.md) - Kelsey Hightower's Docker-era deployment essay arguing that containerized applications should own startup, runtime configuration, directory creation, and dependency retry behavior instead of outsourcing bootstrapping to wrapper scripts.
 - [12 Factor CLI Apps](sources/12-factor-cli-apps-jeff-dickey-medium.md) - Jeff Dickey's CLI design essay translating twelve-factor thinking into command-line UX, automation, output, speed, contribution, command grammar, and XDG path conventions.
 - [10-Year Exercise Periods Make Sense](sources/10-year-exercise-periods-make-sense-thoughts-quora.md) - Adam D'Angelo's defense of Quora's 10-year stock-option exercise periods, arguing that transparent extended windows protect vested equity without undermining market-based startup compensation.
@@ -61,6 +62,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Software Brothers](entities/SoftwareBrothers.md) - Software agency/source publisher using famous startup MVP examples to promote core-value validation before full product buildout.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Jeff Dickey](entities/JeffDickey.md) - CLI practitioner-author presenting twelve factors for usable, automation-friendly command-line applications.
@@ -265,6 +267,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
+- [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, or market test that can validate a startup's core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.

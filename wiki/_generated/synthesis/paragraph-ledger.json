@@ -40,6 +40,7 @@
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
       "fcaef8947722538a926064e7052b84774f3ff0a6ec693bcb38db34141d3277c1",
+      "6b88a4af45ee135975657d5285a813b8fa39d4e5b756c14eb53fe8ddfacf4e87",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
@@ -58,10 +59,10 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9"
     ],
-    "paragraph_count": 56
+    "paragraph_count": 57
   },
-  "overview_commit": "6f1ba1bf474c91c7682712150070c6db5a3bd6d5",
-  "overview_digest": "f16074d38171a853de4b931784bd340e30a0b1d3f335e473b6561be9744c4bd8",
+  "overview_commit": "9c3a7710561383dd9f42f5f8bca93678988690e1",
+  "overview_digest": "668a232f845a6b43b51818480b9c607af3c4f28ec45f96b72c2974a533f9e309",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -787,6 +788,22 @@
         "SmallProductPortfolio",
         "TableToFigma",
         "ZhangXiaoji"
+      ]
+    },
+    {
+      "id": "6b88a4af45ee135975657d5285a813b8fa39d4e5b756c14eb53fe8ddfacf4e87",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest MVP source adds a startup-validation layer to the product thread. [[SoftwareBrothers]] uses famous early examples to frame [[MinimumViableProduct]] as a deliberately incomplete test of core value, not a small copy of the eventual company. Groupon's WordPress-and-PDF workflow, Airbnb's loft page, Zappos's store-bought inventory, AngelList's email introductions, Dropbox's explainer video, Buffer's pricing landing page, Spotify's desktop beta, and Product Hunt's Linkydink group all reinforce [[CustomerLedProductDevelopment]] before a mature product exists: teams can test demand through orders, signups, usage, waitlists, manual delivery, and platform/community traction. This also qualifies [[ProductEvolution]] because later company breadth should not be projected backward onto the first validation artifact.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5
+      },
+      "wikilinks": [
+        "CustomerLedProductDevelopment",
+        "MinimumViableProduct",
+        "ProductEvolution",
+        "SoftwareBrothers"
       ]
     },
     {
