@@ -59,8 +59,25 @@
         "GameServerSLA",
         "XiaoshuojunFp"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "volunteer-campaign-tech-needs-accountability",
+      "qualifications": [
+        "The claim is source-scoped to the 2016 Sanders campaign article and does not prove the tools changed election outcomes.",
+        "The source treats unpaid volunteer work as legally permissible under campaign-finance expert commentary, so accountability here includes safety, quality, targeting, affiliation, and public consequences rather than only legal compliance."
+      ],
+      "statement": "[[VolunteerCampaignTechnology]] can turn supporter enthusiasm into useful campaign infrastructure, but [[CampaignTechnologyAccountability]] becomes necessary when tools such as [[VoteForBernie]] and [[FeelTheBern]] influence voter action, canvassing, logistics, or campaign reputation.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "VolunteerCampaignTechnology",
+        "CampaignTechnologyAccountability",
+        "VoteForBernie",
+        "FeelTheBern",
+        "BernieSanders"
+      ]
     }
   ],
-  "summary": "The governance-related material is still narrow but now spans four control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
+  "summary": "The governance-related material is still narrow but now spans five control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, volunteer campaign technology converts supporter energy into political infrastructure that needs accountability for safety and consequences, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
   "topic_id": "governance-and-institutions"
 }

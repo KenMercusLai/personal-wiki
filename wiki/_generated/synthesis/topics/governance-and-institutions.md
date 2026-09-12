@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-12
-as_of_overview_commit: 630b345f04b4846db5561e1fc023845ce94cb3b0
-input_digest: 880be20d269743150fc73eb13fb0edbe79a1aea8376305b8a9d5931a5711ea60
+as_of_overview_commit: 73ae349f18a8f98834ce9ddd18e745b27434bcae
+input_digest: 1be22615776bc51e3a2355b790703a7409c7f8e0a81d61449e9e00f71f788a8e
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans four control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans five control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, volunteer campaign technology converts supporter energy into political infrastructure that needs accountability for safety and consequences, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -56,3 +56,14 @@ The governance-related material is still narrow but now spans four control probl
 
 - This is a secondary governance assignment from a game-server operations essay, not a broad organizational governance study.
 - The source describes one practitioner's desired evolution from development-operations separation toward DevOps ownership.
+
+### Volunteer Campaign Tech Needs Accountability
+
+[[VolunteerCampaignTechnology]] can turn supporter enthusiasm into useful campaign infrastructure, but [[CampaignTechnologyAccountability]] becomes necessary when tools such as [[VoteForBernie]] and [[FeelTheBern]] influence voter action, canvassing, logistics, or campaign reputation.
+
+**Evidence:** [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]], [[VoteForBernie]], [[FeelTheBern]], [[BernieSanders]]
+
+**Qualifications:**
+
+- The claim is source-scoped to the 2016 Sanders campaign article and does not prove the tools changed election outcomes.
+- The source treats unpaid volunteer work as legally permissible under campaign-finance expert commentary, so accountability here includes safety, quality, targeting, affiliation, and public consequences rather than only legal compliance.

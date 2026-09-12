@@ -59,12 +59,13 @@
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9",
-      "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793"
+      "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
+      "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 59
+    "paragraph_count": 60
   },
-  "overview_commit": "74f6b9522380399d66cae35396ee333831ec7294",
-  "overview_digest": "81adb2c57cfea90b27d9381c807e5769a12d28824ceba6908f65e68c221a2168",
+  "overview_commit": "73ae349f18a8f98834ce9ddd18e745b27434bcae",
+  "overview_digest": "59a5ab0a9d63614a2b49bc4502c1891656ee9020d2ee77425d13dcc117cf2633",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1207,6 +1208,29 @@
         "MobileInternet",
         "MobilePlatformDiscovery",
         "MobileRuntime"
+      ]
+    },
+    {
+      "id": "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The Sanders campaign-tech source adds a civic and political version of the wiki's public-building and developer-tooling material. [[VolunteerCampaignTechnology]] shows how [[BernieSanders]] supporters such as [[JonHughes]] and [[DanielaPerdomo]] turned enthusiasm into voter lookup tools, policy explainers, event maps, phone-bank workflows, app directories, and data-processing help. [[VoteForBernie]] and [[FeelTheBern]] are the strongest examples: unofficial projects reached large audiences and connected online material to voting or canvassing action. The same source also introduces [[CampaignTechnologyAccountability]]: distributed speed and volunteer labor can outpace official hierarchy, but housing, ride-sharing, canvassing, and voter-contact tools need clear ownership for safety, targeting, accuracy, and public consequences, especially when the campaign benefits from or adopts volunteer work.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BernieSanders",
+        "CampaignTechnologyAccountability",
+        "DanielaPerdomo",
+        "FeelTheBern",
+        "JonHughes",
+        "VolunteerCampaignTechnology",
+        "VoteForBernie"
       ]
     }
   ],

@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: a1631c3294ba330cca2904fad28d1fbccf0b3296
-input_digest: 0cb4e0092c958df1f80600d8a5d0c0c9ff0332053a0515a694ad68ae058dade0
+as_of_overview_commit: 73ae349f18a8f98834ce9ddd18e745b27434bcae
+input_digest: 1ab1df6b6a349f7c7d3bf2846a50e0580b896f3ff68043badcded7ac28a96d5d
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic now treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. The topic also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit, while mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, and long-term fit, while mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
 
 ## Cross-source Findings
 
@@ -187,3 +187,14 @@ Work, education, and society sources frame improvement as designed loops: practi
 
 - This is a secondary topic assignment; the paragraph primarily belongs to AI and technology.
 - The source does not cover labor effects, governance, or implementation frictions inside specific organizations.
+
+### Volunteer Technical Work Can Become Operational Infrastructure
+
+[[VolunteerCampaignTechnology]] shows a work model where distributed supporters such as [[JonHughes]] and [[DanielaPerdomo]] turn unpaid technical labor into practical voter information, policy explanation, canvassing, and data-support workflows.
+
+**Evidence:** [[VolunteerCampaignTechnology]], [[JonHughes]], [[DanielaPerdomo]], [[VoteForBernie]], [[FeelTheBern]], [[CampaignTechnologyAccountability]]
+
+**Qualifications:**
+
+- The claim is grounded in one political campaign article and should not be generalized to all volunteer technical communities.
+- The source leaves open whether volunteer-built tools were more powerful as operational campaign tools or as symbols of enthusiasm.

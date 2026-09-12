@@ -136,6 +136,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | Bernie's Army of Coders
+
+Ingested POLITICO's article on the 2016 Sanders volunteer technology ecosystem. Added source, entity, and concept pages for volunteer campaign software, key projects, campaign staff links, and political-software accountability risks.
+
 ## [2026-09-12] ingest | 16 mobile theses
 
 Ingested Benedict Evans' mobile strategy essay. Added source, entity, and concept pages for the mobile ecosystem, platform discovery, mobile runtime, messaging as platform, IoT data, and mobile productivity; updated Google as a mobile-platform actor.
@@ -459,6 +463,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 12 Fractured Apps
 
 Ingested Kelsey Hightower's Docker application startup essay. Added source, entity, and concept pages for Docker-friendly startup, runtime configuration, and twelve-factor deployment behavior.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

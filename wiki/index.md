@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
 - [16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more](sources/16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more.md) - CS183C scaling synthesis arguing that blitzscaling, hiring, culture, communication, and CEO work must change by startup stage and competitive pressure.
 - [15+ Examples of Successful MVPs - Startups & Web Pages](sources/15-examples-of-successful-mvps-startups-web-pages-software-brothers.md) - Software Brothers' survey of famous MVP origin stories, arguing that startups can validate demand through narrow features, manual workflows, landing pages, videos, waitlists, and platform/community tests before full buildout.
@@ -223,6 +224,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [QuanXiao](entities/QuanXiao.md) - PM discussion community cited as the venue for senior-programmer discussion about AI coding granularity, tools, and model choice.
 - [Cursor](entities/Cursor.md) - AI coding tool mentioned in a team workflow that records implementation conventions for agent use.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
+- [Bernie Sanders](entities/BernieSanders.md) - 2016 presidential candidate whose campaign became the focal point for a large volunteer technology ecosystem.
+- [Jon Hughes](entities/JonHughes.md) - Volunteer coder who built Vote For Bernie as an unofficial primary and caucus voter-information site.
+- [Vote For Bernie](entities/VoteForBernie.md) - Unofficial voter-information website that reached millions and influenced an official Sanders campaign tool.
+- [FeelTheBern](entities/FeelTheBern.md) - Volunteer-built policy explanation site that connected online issue pages with canvassing fliers.
+- [Daniela Perdomo](entities/DanielaPerdomo.md) - Volunteer technologist who spearheaded the FeelTheBern policy site.
+- [Kenneth Pennington](entities/KennethPennington.md) - Sanders campaign digital director who described the volunteer-driven campaign technology ethos.
+- [Zack Exley](entities/ZackExley.md) - Sanders technology adviser who routed campaign data work into volunteer Slack channels.
+- [Hillary Clinton](entities/HillaryClinton.md) - 2016 comparison candidate for a more hierarchical, professionally staffed campaign technology operation.
 
 ## Concepts
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
@@ -425,5 +434,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, and customer-acquisition channel.
 - [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.
 - [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
+- [Volunteer Campaign Technology](concepts/VolunteerCampaignTechnology.md) - Campaign-supporting software and data work built by loosely affiliated supporters rather than only official staff or vendors.
+- [Campaign Technology Accountability](concepts/CampaignTechnologyAccountability.md) - Governance problem of owning accuracy, safety, targeting, legality, and consequences when campaign software affects real people.
 
 ## Syntheses
