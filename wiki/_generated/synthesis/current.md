@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 4c699b636ca5e7eed5480016bb3adf4046aa1e3b
-summary: "A personal wiki on work, learning, AI engineering, creator business, web infrastructure, algorithms, and localization, with emphasis on human judgment."
-episode_count: 12
-source_count: 12
-paragraph_count: 15
+as_of_overview_commit: 37271a343d5a57562a41ec7bd4cf925cb9c591bd
+summary: "A personal wiki on work, learning, AI systems, creator business, web infrastructure, algorithms, and localization, with emphasis on judgment."
+episode_count: 13
+source_count: 13
+paragraph_count: 16
 topic_count: 8
 ---
 
@@ -16,20 +16,19 @@ topic_count: 8
 
 ## Executive Summary
 
+- [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.
 - [[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure.
-- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output.
-- [[CloudCostOptimization]], [[NextJSDeployment]], [[Vercel]], [[AWS]], and [[Cloudflare]] frame deployment choice as a tradeoff among managed convenience, direct cloud spend, operations labor, and migration compatibility.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI coverage now spans knowledge assistants, retrieval-augmented chatbots, inference routing, reusable LLM application tooling, and AI coding practice. The topic links technical architecture with human controls: useful AI systems need retrieval or workload-aware infrastructure, while useful AI-assisted coding still depends on human accountability, review hygiene, verification, and learning-aware collaboration.
+AI coverage now spans knowledge assistants, retrieval-augmented chatbots, inference routing, reusable LLM application tooling, AI coding practice, and context/action architecture. The topic links technical architecture with human controls: useful AI systems need retrieval, context management, workload-aware infrastructure, and accountable engineering practice.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. Evidence: [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]].

@@ -15,12 +15,13 @@
       "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
       "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
       "d496a39101147653ffc1bbcf77a9196657cdc9bcc86e8f5e9522be36053d625b",
-      "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98"
+      "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
+      "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6"
     ],
-    "paragraph_count": 15
+    "paragraph_count": 16
   },
-  "overview_commit": "4c699b636ca5e7eed5480016bb3adf4046aa1e3b",
-  "overview_digest": "8c5255d1d66ba87fb76de968d6d75a8eaa0216e30cf30ce9f4128be972d6b390",
+  "overview_commit": "37271a343d5a57562a41ec7bd4cf925cb9c591bd",
+  "overview_digest": "0bb09e9c7225465843fdd4c7705bb1701f03d3aa24397f41ae038c3ca16664fc",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -289,6 +290,26 @@
         "PRReviewHygiene",
         "Piglei",
         "SoftwareVerification"
+      ]
+    },
+    {
+      "id": "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest LLM terminology source adds an architectural layer that links the wiki's AI application, retrieval, and agent material through [[LLMContextManagement]]. [[RORIRI]] argues that [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] are not isolated buzzwords but different ways to shape context or open action channels. The key distinction is how strongly each mechanism constrains the model: Skills add prompt-level expert guidance, MCP narrows actions through typed function calls, RAG and Memory retrieve external information only when needed, and dynamic compression tries to preserve context quality before passive summarization loses important detail. The source also adds a serving and interface qualification: changing context can conflict with prompt/KV caching, while Computer Use still inherits context-pollution risks even when it operates software through semantic structures such as the [[AccessibilityTree]].",
+      "topic_scores": {
+        "ai-and-technology": 4
+      },
+      "wikilinks": [
+        "AccessibilityTree",
+        "AgentMemory",
+        "ComputerUse",
+        "DynamicContextCompression",
+        "LLMContextManagement",
+        "LLMToolingSkills",
+        "ModelContextProtocol",
+        "RORIRI",
+        "RetrievalAugmentedGeneration"
       ]
     }
   ],

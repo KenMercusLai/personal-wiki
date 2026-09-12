@@ -106,8 +106,40 @@
         "JuniorEngineerLearning",
         "Piglei"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "llm-tooling-manages-context-and-actions",
+      "qualifications": [
+        "The source is a conceptual essay and does not benchmark these mechanisms across systems.",
+        "The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present."
+      ],
+      "statement": "[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "LLMContextManagement",
+        "LLMToolingSkills",
+        "ModelContextProtocol",
+        "RetrievalAugmentedGeneration",
+        "AgentMemory",
+        "DynamicContextCompression",
+        "ComputerUse"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "semantic-ui-state-supports-computer-use",
+      "qualifications": [
+        "The source does not cover accessibility-tree limits, custom UI surfaces, security boundaries, or pixel-only cases."
+      ],
+      "statement": "[[AccessibilityTree]] is presented as a cleaner [[ComputerUse]] route because semantic UI roles, names, states, and hierarchy can replace some raw-pixel inference.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AccessibilityTree",
+        "ComputerUse"
+      ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and human engineering practice around AI coding agents. The strongest AI claims now span both systems and behavior: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, and AI-assisted coding still requires accountable collaboration, review hygiene, verification, and learning protection.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, and LLM context/action architecture. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding still needs human controls, and Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as different ways to manage context and action surfaces.",
   "topic_id": "ai-and-technology"
 }

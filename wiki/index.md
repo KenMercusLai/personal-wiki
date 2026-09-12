@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
 - [一份关于 AI 编程的简明行为指南 | Piglei](sources/yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei.md) - A software-engineering guide arguing that AI coding agents should be used through accountable collaboration, small reviewable changes, verification, stable libraries, and learning-protective habits for junior engineers.
 - [一个独立创造者的五年](sources/yi-ge-du-li-chuang-zao-zhe-de-wu-nian.md) - A five-year Indie Hacker retrospective on moving from a domestic content product to overseas subscription SaaS, using modular infrastructure, solo-company discipline, customer-led product work, and practical marketing.
 - [我把网站迁移到 cf，省了几万块](sources/wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai.md) - A practical migration report showing how a Next.js project moved from Vercel to AWS and Cloudflare to reduce hosting cost, with notes on PM2, Docker, Cloudflare Pages, and edge-runtime compatibility.
@@ -22,6 +23,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Entities
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
+- [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
 - [AWS](entities/AWS.md) - Cloud infrastructure provider used for the source's EC2-based self-hosted Next.js deployment examples.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
@@ -38,9 +40,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [INDIGO](entities/INDIGO.md) - Practitioner-author describing a personal learning, research, writing, and note-system workflow.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
+- [Letta](entities/Letta.md) - Open-source framework described as the later continuation of the MemGPT memory-management line.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
+- [MemGPT](entities/MemGPT.md) - Hierarchical LLM memory system used as an example of active context and memory management.
 - [Neon](entities/Neon.md) - Edge-compatible Postgres access option used as a replacement for Node's `pg` client in the migration article.
 - [Next.js](entities/NextJS.md) - Full-stack web framework whose Vercel, EC2, Docker, and Cloudflare deployment paths are compared.
+- [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
@@ -49,6 +54,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Leider](entities/RichardLeider.md) - Career expert credited with the gifts, passion, and values formula for career reflection.
 - [Richard Feynman](entities/RichardFeynman.md) - Physicist cited as the origin figure for the Feynman Technique.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
+- [RORIRI](entities/RORIRI.md) - AI commentator explaining LLM terminology through context management and action interfaces.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
@@ -59,6 +65,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [女性交流](entities/WomenCommunication.md) - Pun-heavy Japanese indie game whose Chinese localization is used as a translation case study.
 
 ## Concepts
+- [Accessibility Tree](concepts/AccessibilityTree.md) - Semantic UI tree used by assistive technology and agentic Computer Use workflows.
+- [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, and tools.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
@@ -72,6 +80,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
+- [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
+- [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
@@ -94,8 +104,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
+- [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
+- [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
+- [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.

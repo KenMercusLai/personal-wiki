@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 4c699b636ca5e7eed5480016bb3adf4046aa1e3b
-input_digest: 2131f16cb4031b35036522317d91c75c0ffb58ccc54b6c1fb8ebf512645ba206
+as_of_overview_commit: 37271a343d5a57562a41ec7bd4cf925cb9c591bd
+input_digest: e6879dec0553fb6ef42a0747d2fcfb8071f56ba88d801b371f8d984474890888
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, and human engineering practice around AI coding agents. The strongest AI claims now span both systems and behavior: personal knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, and AI-assisted coding still requires accountable collaboration, review hygiene, verification, and learning protection.
+The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, and LLM context/action architecture. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding still needs human controls, and Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as different ways to manage context and action surfaces.
 
 ## Cross-source Findings
 
@@ -86,3 +86,24 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 - The evidence is a practitioner guide from [[Piglei]] rather than a measured productivity or defect-rate study.
 - The article's advice may vary by team maturity, production risk, review culture, and the learning stage of the engineer.
+
+### Llm Tooling Manages Context And Actions
+
+[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.
+
+**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]]
+
+**Qualifications:**
+
+- The source is a conceptual essay and does not benchmark these mechanisms across systems.
+- The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present.
+
+### Semantic Ui State Supports Computer Use
+
+[[AccessibilityTree]] is presented as a cleaner [[ComputerUse]] route because semantic UI roles, names, states, and hierarchy can replace some raw-pixel inference.
+
+**Evidence:** [[AccessibilityTree]], [[ComputerUse]]
+
+**Qualifications:**
+
+- The source does not cover accessibility-tree limits, custom UI surfaces, security boundaries, or pixel-only cases.

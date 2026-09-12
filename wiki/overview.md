@@ -15,11 +15,12 @@ sources:
   - wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai
   - yi-ge-du-li-chuang-zao-zhe-de-wu-nian
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
+  - yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, AI-assisted coding practice, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, AI-assisted coding practice, LLM context-management architecture, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
 
 ## Current Synthesis
 
@@ -53,6 +54,8 @@ The newest independent-creator source adds an entrepreneurship thread to the car
 
 The newest AI coding source adds a human-practice layer to the wiki's AI material. [[Piglei]] frames [[AICodingPractice]] as a set of engineering norms rather than a bag of prompts: agents can accelerate implementation, but [[HumanCodeResponsibility]] remains with the developer who submits the code. The article's preferred working model is [[AIAgentCollaboration]], where engineers use planning, questioning, design exploration, skepticism, and curiosity to keep judgment active. It also adds workflow controls through [[PRReviewHygiene]] and [[SoftwareVerification]]: AI can create large diffs quickly, so teams need small PRs, design notes for unavoidable large changes, pre-PR AI review, automated tests, self-checks, and validation-fix loops. For [[JuniorEngineerLearning]], the article qualifies pure efficiency advice by arguing that early-career engineers should sometimes choose slower manual debugging, prior design thinking, official documentation, and architecture study because those activities build durable judgment.
 
+The newest LLM terminology source adds an architectural layer that links the wiki's AI application, retrieval, and agent material through [[LLMContextManagement]]. [[RORIRI]] argues that [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] are not isolated buzzwords but different ways to shape context or open action channels. The key distinction is how strongly each mechanism constrains the model: Skills add prompt-level expert guidance, MCP narrows actions through typed function calls, RAG and Memory retrieve external information only when needed, and dynamic compression tries to preserve context quality before passive summarization loses important detail. The source also adds a serving and interface qualification: changing context can conflict with prompt/KV caching, while Computer Use still inherits context-pollution risks even when it operates software through semantic structures such as the [[AccessibilityTree]].
+
 ## Open Questions
 
 - How do these productivity habits vary across roles that require rapid responsiveness or collaborative interruption?
@@ -79,3 +82,6 @@ The newest AI coding source adds a human-practice layer to the wiki's AI materia
 - Which AI coding practices should vary by codebase risk, team maturity, review culture, and production criticality?
 - How can teams measure whether AI-assisted coding is improving quality and learning rather than only increasing diff volume?
 - What balance of manual debugging and agent assistance best protects junior-engineer growth while still meeting delivery deadlines?
+- How can LLM systems measure context quality, not just context length, when deciding what to retrieve, evict, compress, or keep?
+- Which LLM tasks benefit more from prompt-level Skills, and which should be promoted into structured MCP-style tools?
+- How should dynamic context compression preserve auditability, provenance, and cache efficiency while removing misleading or low-value material?
