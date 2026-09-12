@@ -108,6 +108,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 如何在工作中学习
+
+Added source note, Plantegg entity, and Workplace Learning concept. Updated Active Learning, Junior Engineer Learning, index, overview, and generated synthesis inputs. Key claims: workplace learning improves when engineers reconstruct solved problems, replay expert traces, seek a field's big picture and anchors, and turn abstract technical ideas into hands-on experiments.
+
 ## [2026-09-12] ingest | 如何像 Claude Code 一样使用私有 API 管理 prompt cache
 
 Added source note and the Prompt Caching concept. Updated Claude Code, Anthropic, LLM Context Management, Dynamic Context Compression, KV-Cache-Aware Routing, Inference Load Balancing, and the overview to reflect Claude Code's Anthropic prompt-cache strategy, private cache edits, and microcompact as provider-side logical deletion rather than local history rewriting.
@@ -229,6 +233,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验
 
 Added source. Key claims: tutorial writing can convert passive notes into active learning; explanatory writing benefits from reader promise, concrete examples, and testing; PKM is most useful when notes and checklists support concrete publication work; focus improves when creators limit work in progress to one main piece.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

@@ -8,6 +8,7 @@
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
+      "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
@@ -32,10 +33,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 30
+    "paragraph_count": 31
   },
-  "overview_commit": "878b84729c2fc447a54633abed68dd7e0465f361",
-  "overview_digest": "490bfebff727986cba89d918d1398f74ae5502a203f32b954e386b56b5b95fa6",
+  "overview_commit": "303bca047ef301d10a4185eb91120c92987e921b",
+  "overview_digest": "b9dc56d81744512858f6939122069b455705df275e722519222468cbfc1b3d86",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -149,6 +150,23 @@
         "KnowledgeOutput",
         "NickyCase",
         "PersonalKnowledgeManagement"
+      ]
+    },
+    {
+      "id": "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest workplace-learning source adds a private, apprenticeship-like learning loop alongside public output. [[Plantegg]] argues that technical ability is knowledge plus logic: facts matter only when the learner can connect them to a concrete problem. [[WorkplaceLearning]] therefore means treating solved incidents as case studies, replaying a stronger colleague's shell history and search terms, asking why each step worked, and using tools such as tcpdump or Wireshark to give abstract networking concepts concrete feel. This strengthens [[ActiveLearning]] and [[JuniorEngineerLearning]] by showing that early engineers can learn deeply before publishing anything, as long as they reconstruct reasoning, verify behavior, and seek a domain's big picture and key anchors rather than collecting isolated facts.",
+      "topic_scores": {
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "JuniorEngineerLearning",
+        "Plantegg",
+        "WorkplaceLearning"
       ]
     },
     {

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 878b84729c2fc447a54633abed68dd7e0465f361
-summary: "Current synthesis spans AI context and infrastructure, learning and explanatory output, work systems, creator business, culture, governance, and data automation."
-episode_count: 27
-source_count: 27
-paragraph_count: 30
+as_of_overview_commit: 303bca047ef301d10a4185eb91120c92987e921b
+summary: "Current synthesis spans AI context and infrastructure, situated learning and explanatory output, work systems, creator business, culture, governance, and data automation."
+episode_count: 28
+source_count: 28
+paragraph_count: 31
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[BigDataIndustryTransformation]] depends on [[BehavioralData]], broad processing coverage, and [[AutomatedDataApplication]] loops; [[DeepLearning]] helps by learning representations from larger datasets, but data collection alone does not change decisions without an automation path.
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.
-- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], and [[ExplanatoryWriting]] frame learning as a loop from targeted intake to explanation, example collection, feedback, gap review, and increasingly structured output.
+- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.
 
 ## Synthesis by Domain
 
@@ -77,7 +77,7 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 
 ### Work, Education, and Society
 
-The work, education, and society material spans work habits, attention discipline, environmental fields, output-centered learning, explanatory writing, motivation, career path design, technical standards, deployment cost, creator work, freelancing, and data automation. The through-line is system design: routines, goals, tools, examples, infrastructure, data loops, company shape, and life fields all change what kinds of work become easier.
+The work, education, and society material spans work habits, attention discipline, environmental fields, output-centered learning, workplace case review, explanatory writing, motivation, career path design, technical standards, deployment cost, creator work, freelancing, and data automation. The through-line is system design: routines, goals, tools, examples, traces, infrastructure, data loops, company shape, and life fields all change what kinds of work become easier.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

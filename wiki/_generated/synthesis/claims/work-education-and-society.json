@@ -67,13 +67,14 @@
     },
     {
       "global_candidate": true,
-      "id": "learning-deepens-through-output-and-explanation",
+      "id": "learning-deepens-through-output-and-situated-practice",
       "qualifications": [
-        "The learning and tutorial-writing sources describe practitioner workflows, not comparative education studies.",
+        "The learning, tutorial-writing, and workplace-learning sources describe practitioner workflows, not comparative education studies.",
         "Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions.",
-        "Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure."
+        "Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure.",
+        "Workplace case review depends on access to solved problems, traces, safe experiments, and colleagues willing to explain their reasoning."
       ],
-      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], and [[ExplanatoryWriting]] frame learning as a loop from targeted intake to explanation, example collection, feedback, gap review, and increasingly structured output.",
+      "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.",
       "status": "qualified",
       "supporting_wikilinks": [
         "FeynmanTechnique",
@@ -83,7 +84,10 @@
         "ExplanatoryWriting",
         "DerekLieu",
         "NickyCase",
-        "PersonalKnowledgeManagement"
+        "PersonalKnowledgeManagement",
+        "WorkplaceLearning",
+        "JuniorEngineerLearning",
+        "Plantegg"
       ]
     },
     {
@@ -105,14 +109,16 @@
       "global_candidate": false,
       "id": "abstraction-supports-learning-in-unstable-domains",
       "qualifications": [
-        "The claim does not eliminate the need for detail; it reallocates detail to lookup and case-specific use."
+        "The claim does not eliminate the need for detail; it reallocates detail to lookup and case-specific use.",
+        "The workplace-learning source adds that learners still need concrete anchors and hands-on cases, not only high-level abstractions."
       ],
-      "statement": "[[CreativeAbstraction]] presents patterns, theories, golden rules, and references for lookup as a better fit for unstable or detail-heavy domains than memorizing every changing fact.",
-      "status": "supported",
+      "statement": "[[CreativeAbstraction]] presents patterns, theories, golden rules, big-picture maps, and anchors as a better fit for unstable or detail-heavy domains than memorizing every changing fact.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "CreativeAbstraction",
         "PiotrWozniak",
-        "PeterThiel"
+        "PeterThiel",
+        "WorkplaceLearning"
       ]
     },
     {
@@ -213,6 +219,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as a set of designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output and explanation, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output and situated workplace practice, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
   "topic_id": "work-education-and-society"
 }

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何在工作中学习](sources/ru-he-zai-gong-zuo-zhong-xue-xi.md) - A workplace-learning essay arguing that engineers learn by reviewing real problems, reconstructing expert reasoning, finding big-picture anchors, and verifying abstractions through hands-on experiments.
 - [如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验](sources/ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan.md) - A tutorial-writing retrospective showing how notes, examples, focus, reader testing, and publishing checklists turn learning into a clear public article.
 - [如何像 Claude Code 一样使用私有 API 管理 prompt cache](sources/ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache.md) - A technical analysis of Claude Code's Anthropic prompt-cache strategy, including cache breakpoints, stable request shape, private cache edits, and microcompact as logical deletion.
 - [一个半月高强度 Claude Code 使用后感受](sources/yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou.md) - A Claude Code retrospective arguing that vibe coding accelerates iteration but requires planning, small steps, context management, verification, and humane pacing.
@@ -35,6 +36,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
 - [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence with work, family, creation, and human nature, and summarizing big-data industry transformation criteria.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
@@ -209,6 +211,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
 - [Vibe Coding](concepts/VibeCoding.md) - AI-assisted software work mode centered on fast agent-driven iteration, planning, small steps, context care, and verification.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
+- [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems by reconstructing expert reasoning, replaying traces, and verifying abstractions hands-on.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
 - [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.
 
