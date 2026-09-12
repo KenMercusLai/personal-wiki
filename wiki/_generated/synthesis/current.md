@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: c8121b5aa035a7387e02ded5e3373d411be721db
-summary: "A personal wiki linking AI systems, software practice, learning, indie work, infrastructure, and creative localization."
-episode_count: 16
-source_count: 16
-paragraph_count: 19
+as_of_overview_commit: ad2b8ac6ca1a6ecb2744ae9dd329505cc65a61ff
+summary: "A personal wiki linking AI systems, software practice, learning, indie work, infrastructure, localization, and object-oriented aesthetics."
+episode_count: 17
+source_count: 17
+paragraph_count: 20
 topic_count: 8
 ---
 
@@ -20,10 +20,10 @@ topic_count: 8
 - [[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; production autonomy also needs runtime boundaries for side effects, capabilities, and recovery.
 - [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
-- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
-- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
+- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
+- [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.
 
 ## Synthesis by Domain
 
@@ -49,9 +49,10 @@ Applied algorithms are represented through trajectory simplification, where disp
 
 ### Culture and Media
 
-Creative localization can combine computational retrieval with human domestication so jokes, names, and mechanics preserve player experience across languages.
+Culture and media now centers experience preservation and participation: game localization may combine computational retrieval with domestication, while object-oriented aesthetics treats art and metaphor as participatory disclosure of things that still withdraw.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
+- [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].
 
 ### Governance and Institutions
 

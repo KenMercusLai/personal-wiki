@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [从海德格尔的锤子到隐喻的戏剧性](sources/cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing.md) - A philosophical aesthetics essay using Heidegger's broken hammer and Harman's object-oriented ontology to explain art as object-quality tension and metaphor as readerly performance.
 - [为什么现有的 Agent Infra 无法支撑生产级应用？](sources/wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong.md) - An agent-infrastructure essay arguing that production agents need effect logs, capability gateways, fork recovery, resumability, and semantic isolation because existing sandboxes and workflow engines operate at the wrong abstraction layer.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
@@ -44,6 +45,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
+- [Graham Harman](entities/GrahamHarman.md) - Object-oriented ontology thinker whose real/sensual object and quality schema frames the article's theory of art and metaphor.
 - [Guanlan](entities/Guanlan.md) - Author arguing for production-agent infrastructure built around effect logs, capability gateways, and resumability.
 - [gVisor](entities/GVisor.md) - User-space kernel sandbox discussed as execution isolation rather than semantic agent isolation.
 - [Hawstein](entities/Hawstein.md) - Independent creator who moved from AlgoCasts to overseas bootstrapped SaaS.
@@ -56,6 +58,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
 - [Letta](entities/Letta.md) - Open-source framework described as the later continuation of the MemGPT memory-management line.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
+- [Martin Heidegger](entities/MartinHeidegger.md) - Philosopher whose hammer example introduces tool transparency, breakdown, and object withdrawal in the source.
 - [MemGPT](entities/MemGPT.md) - Hierarchical LLM memory system used as an example of active context and memory management.
 - [Modal](entities/Modal.md) - Python-native execution platform discussed as reducing deployment friction without solving agent semantic recovery.
 - [Neon](entities/Neon.md) - Edge-compatible Postgres access option used as a replacement for Node's `pg` client in the migration article.
@@ -80,6 +83,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
 - [Vercel](entities/Vercel.md) - Hosted deployment platform valued for Next.js convenience but criticized in the source for high metered costs.
+- [Vincent van Gogh](entities/VincentVanGogh.md) - Artist used through the example of painted shoes to illustrate art's disclosure of hidden object life.
 - [Wei Jie](entities/WeiJie.md) - Translator-programmer and author of the Women Communication localization note.
 - [女性交流](entities/WomenCommunication.md) - Pun-heavy Japanese indie game whose Chinese localization is used as a translation case study.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
@@ -94,6 +98,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
 - [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
+- [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
@@ -135,8 +140,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
 - [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
+- [Metaphor Aesthetics](concepts/MetaphorAesthetics.md) - Account of metaphor as an aesthetic event completed through the reader's theatrical participation.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
+- [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
+- [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material for future thinking.

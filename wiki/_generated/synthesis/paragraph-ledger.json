@@ -19,12 +19,13 @@
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
       "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
-      "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185"
+      "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
+      "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 19
+    "paragraph_count": 20
   },
-  "overview_commit": "c8121b5aa035a7387e02ded5e3373d411be721db",
-  "overview_digest": "a74af12e1256741b801e426f7e24e56b1e6e4379674aefcf81718516ba9ae4ff",
+  "overview_commit": "ad2b8ac6ca1a6ecb2744ae9dd329505cc65a61ff",
+  "overview_digest": "e319a9787fe230077492223141e2d3449cbb0de1ee66e28f95b5378d4ede1ceb",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -375,6 +376,24 @@
         "HarnessEngineering",
         "ProductionAgentInfrastructure",
         "SemanticIsolation"
+      ]
+    },
+    {
+      "id": "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegger]]'s broken hammer and [[GrahamHarman]]'s [[ObjectOrientedOntology]] frame [[ObjectWithdrawal]] as the claim that things are never exhausted by use, perception, theory, or relation. The article then applies Harman's real/sensual object and quality schema to art and metaphor: [[ArtAsObjectTension]] describes art as a charged relation between hidden objects and sensuous qualities, while [[MetaphorAesthetics]] argues that metaphor becomes theatrical because the named object still withdraws and the reader performs as a substitute real object. [[VincentVanGogh]]'s painted shoes and Homer's wine-dark sea function as examples of aesthetic participation rather than detached observation.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "ArtAsObjectTension",
+        "GrahamHarman",
+        "MartinHeidegger",
+        "MetaphorAesthetics",
+        "ObjectOrientedOntology",
+        "ObjectWithdrawal",
+        "VincentVanGogh"
       ]
     }
   ],

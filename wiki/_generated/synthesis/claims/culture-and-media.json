@@ -43,8 +43,52 @@
         "GameLocalization",
         "WomenCommunication"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "object-aesthetics-centers-participatory-disclosure",
+      "qualifications": [
+        "The claim is grounded in one Harman-oriented essay and should not be treated as a general account of all aesthetics or metaphor theory."
+      ],
+      "statement": "[[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ObjectOrientedOntology",
+        "ObjectWithdrawal",
+        "ArtAsObjectTension",
+        "MetaphorAesthetics"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "metaphor-can-be-theatrical-substitution",
+      "qualifications": [
+        "The input presents this as Harman's aesthetic account, not as a cognitive-science or linguistic theory of metaphor."
+      ],
+      "statement": "[[MetaphorAesthetics]] treats metaphor as theatrical substitution: because the named object withdraws, the reader performs as the temporary real object carrying the borrowed sensuous qualities.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MetaphorAesthetics",
+        "ObjectWithdrawal",
+        "GrahamHarman"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "art-tensions-ordinary-use-and-hidden-object-life",
+      "qualifications": [
+        "The examples are interpretive and source-scoped, especially the use of Van Gogh's shoes and Homer's wine-dark sea."
+      ],
+      "statement": "[[ArtAsObjectTension]] contrasts ordinary use with aesthetic disclosure, using [[MartinHeidegger]]'s broken hammer and [[VincentVanGogh]]'s painted shoes to show how familiar objects can appear as more than tools.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ArtAsObjectTension",
+        "MartinHeidegger",
+        "VincentVanGogh",
+        "ObjectWithdrawal"
+      ]
     }
   ],
-  "summary": "The culture-and-media layer now treats game localization as an experience-preservation problem: pun-heavy works may require computational candidate search, domesticated naming, and reconstructed player guidance rather than sentence-level literalism.",
+  "summary": "The culture-and-media layer now has two experience-centered strands: game localization preserves player-facing effects through computational search, domestication, and guidance, while object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }

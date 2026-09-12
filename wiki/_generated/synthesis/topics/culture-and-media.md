@@ -3,16 +3,16 @@
 generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
-last_updated: 2026-09-11
-as_of_overview_commit: 87c12117c781884b229e1c99fc03828575622f30
-input_digest: 7ae7fb5da4c90ca34d375cf62337aa256f85fbdaf285cb06799acec227fdd1f2
+last_updated: 2026-09-12
+as_of_overview_commit: ad2b8ac6ca1a6ecb2744ae9dd329505cc65a61ff
+input_digest: e34554d69ba77963dc1b8b5b436f9548dd392f696cff11f11bb4b2ce5d487cf9
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer now treats game localization as an experience-preservation problem: pun-heavy works may require computational candidate search, domesticated naming, and reconstructed player guidance rather than sentence-level literalism.
+The culture-and-media layer now has two experience-centered strands: game localization preserves player-facing effects through computational search, domestication, and guidance, while object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
 
 ## Cross-source Findings
 
@@ -45,3 +45,33 @@ Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [
 **Qualifications:**
 
 - The source argues from design analysis and streamer reactions, not from instrumented player-behavior data.
+
+### Object Aesthetics Centers Participatory Disclosure
+
+[[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.
+
+**Evidence:** [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]]
+
+**Qualifications:**
+
+- The claim is grounded in one Harman-oriented essay and should not be treated as a general account of all aesthetics or metaphor theory.
+
+### Metaphor Can Be Theatrical Substitution
+
+[[MetaphorAesthetics]] treats metaphor as theatrical substitution: because the named object withdraws, the reader performs as the temporary real object carrying the borrowed sensuous qualities.
+
+**Evidence:** [[MetaphorAesthetics]], [[ObjectWithdrawal]], [[GrahamHarman]]
+
+**Qualifications:**
+
+- The input presents this as Harman's aesthetic account, not as a cognitive-science or linguistic theory of metaphor.
+
+### Art Tensions Ordinary Use And Hidden Object Life
+
+[[ArtAsObjectTension]] contrasts ordinary use with aesthetic disclosure, using [[MartinHeidegger]]'s broken hammer and [[VincentVanGogh]]'s painted shoes to show how familiar objects can appear as more than tools.
+
+**Evidence:** [[ArtAsObjectTension]], [[MartinHeidegger]], [[VincentVanGogh]], [[ObjectWithdrawal]]
+
+**Qualifications:**
+
+- The examples are interpretive and source-scoped, especially the use of Van Gogh's shoes and Homer's wine-dark sea.
