@@ -6,6 +6,7 @@
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
+      "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
       "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
@@ -25,10 +26,10 @@
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 23
+    "paragraph_count": 24
   },
-  "overview_commit": "cb13ce5e41eff8bff05131c9c29b5772a6f92344",
-  "overview_digest": "e06135c6ae7afcd5eb81c4c16a11694a6c91331be4443b3456af5f63f1c549a0",
+  "overview_commit": "c3bcdb8f9fc3320d6ed0ce7f10c413cbe946948e",
+  "overview_digest": "0df6011c5537e31b8e729534128dd1f055071222eadfc0b10d4b7b5a334346d4",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -102,6 +103,21 @@
         "NoteToolFit",
         "Obsidian",
         "PersonalKnowledgeManagement",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest card-note practice source makes that abstract note-method debate more concrete through [[ReadingNoteWorkflow]]. It argues that book notes are a useful entry point for [[ZettelkastenMethod]] because readers already have material to summarize, compare, and judge, avoiding the trap of using card notes only to study card notes. In the mystery-fiction example, entry notes capture books, authors, metadata, genres, influences, plot summaries, and devices; outline notes become chronologies, award lists, genre maps, or reading histories; and opinion notes preserve compact judgments without requiring a full essay for every book. [[Obsidian]] matters here less as a fashionable graph surface than as practical [[NoteToolFit]]: backlinks, local graphs, graph grouping, task-list plugins, and spoiler-folding HTML help a reader inspect relationships, discover unread works, and keep notes lightweight enough to sustain.",
+      "topic_scores": {
+        "culture-and-media": 3
+      },
+      "wikilinks": [
+        "NoteToolFit",
+        "Obsidian",
+        "ReadingNoteWorkflow",
         "ZettelkastenMethod"
       ]
     },

@@ -4,17 +4,27 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-12
-as_of_overview_commit: ad2b8ac6ca1a6ecb2744ae9dd329505cc65a61ff
-input_digest: e34554d69ba77963dc1b8b5b436f9548dd392f696cff11f11bb4b2ce5d487cf9
+as_of_overview_commit: c3bcdb8f9fc3320d6ed0ce7f10c413cbe946948e
+input_digest: 34e2b4fec59fad939f942f12203c8db1a54dcb93e301304d895b68e8b8763dfa
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer now has two experience-centered strands: game localization preserves player-facing effects through computational search, domestication, and guidance, while object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
+The culture-and-media layer now connects three experience-centered practices: reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
 
 ## Cross-source Findings
+
+### Reading Notes Make Cultural Reading Navigable
+
+[[ReadingNoteWorkflow]] can make book culture more navigable by linking entries, outlines, awards, genres, and compact judgments through practical [[NoteToolFit]] in [[Obsidian]].
+
+**Evidence:** [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]], [[ZettelkastenMethod]]
+
+**Qualifications:**
+
+- The current evidence is a single mystery-fiction reading workflow rather than a comparative study of reading-note systems across genres.
 
 ### Pun Localization Combines Retrieval And Domestication
 

@@ -4,6 +4,7 @@ type: entity
 tags: [software, note-taking, pkm]
 sources:
   - zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju
+  - ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -12,28 +13,32 @@ knowledge_schema: synthesis-v1
 [[Obsidian]] is a note-taking application and plugin ecosystem used throughout the source as the practical example for big-note and small-note tooling.
 
 ## Current Profile
-Within this wiki, Obsidian functions as the main software environment through which the article explains note-method affordances. Its core features and plugins are used to show how backlinks, graph views, quick switching, embeds, outlines, heading links, block links, folding, metadata, and text-transport tools can support different note granularities.
+Within this wiki, Obsidian functions as the main software environment through which the sources explain note-method affordances. Its core features and plugins are used to show how backlinks, graph views, quick switching, embeds, outlines, heading links, block links, folding, metadata, and text-transport tools can support different note granularities. The reading-note source adds a concrete use case: local graphs, backlinks, graph groups, task plugins, and foldable spoiler sections help readers connect books, authors, genres, awards, plot devices, and opinions without forcing every book into a long review.
 
 ## Key Characteristics
 - Supports link-heavy small-note workflows through backlinks, internal links, previews, graph views, and plugin extensions.
 - Supports big-note workflows through outlines, heading navigation, folding, tables of contents, block links, and in-note movement.
 - Has a plugin ecosystem that lets users specialize workflows for metadata, databases, templates, quick capture, visual anchors, and text transport.
 - Serves as evidence that modern note software can blur the practical distinction between small notes and big notes.
+- Supports reading-note workflows by making book relationships, unread items, spoilers, and note-type groups easier to inspect.
 
 ## Evidence
 - Small-note tooling: [[zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju]] cites Obsidian features or plugins for backlinks, autocomplete, related notes, typed links, graph analysis, templates, quick add, metadata, and fast switching.
 - Big-note tooling: [[zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju]] cites outlines, heading navigation, folding, table-of-contents generation, visual link cues, block links, and text transport.
 - Hybrid affordances: [[zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju]] notes that embedded notes and heading or block links let users combine long-form documents with precise linking.
 - Ecosystem role: [[zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju]] introduces Grieser as active in the Obsidian community and discusses many Obsidian plugins.
+- Reading-note workflow: [[ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li]] uses Obsidian local graphs, backlinks, graph groups, task plugins, and HTML detail folding for mystery-fiction reading notes.
 
 ## Qualifications
-The source uses Obsidian as an example-rich environment rather than as a full product review. It does not compare Obsidian's current feature set, licensing, sync model, or reliability against other note tools.
+The sources use Obsidian as an example-rich environment rather than as a full product review. They do not compare Obsidian's current feature set, licensing, sync model, or reliability against other note tools, and the reading-note source notes that similar backlink-and-graph tools could support much of the same review workflow.
 
 ## What Changed
 - Created an entity profile for Obsidian as the article's main note-tool ecosystem.
+- Added Obsidian's role in a concrete reading-note workflow for books, authors, spoilers, and graph inspection.
 
 ## Relationships
 - [[NoteToolFit]] - Obsidian's feature and plugin set illustrates how software affordances shape note methods.
 - [[NoteGranularity]] - Obsidian can support both small-note networks and long structured notes.
 - [[ZettelkastenMethod]] - Obsidian features such as backlinks and graph views support Zettelkasten-like workflows.
 - [[PersonalKnowledgeManagement]] - Obsidian is treated as a personal knowledge management tool.
+- [[ReadingNoteWorkflow]] - Obsidian provides the worked software example for linked book notes.

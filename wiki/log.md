@@ -171,3 +171,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-12] ingest | 卡片笔记实操篇：推理小说与读书笔记（以 Obsidian 为例）
+
+Added source on using mystery-fiction reading notes as a practical card-note workflow in Obsidian. Key claims: reading notes are a strong entry point for card-note practice; entry, outline, and opinion notes serve different reading tasks; and backlinks, local graphs, graph groups, task plugins, and spoiler folding make book relationships easier to inspect without demanding long reviews for every book.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

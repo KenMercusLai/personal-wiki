@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: cb13ce5e41eff8bff05131c9c29b5772a6f92344
-summary: "A personal wiki linking AI systems, PKM tooling, software practice, learning, indie work, infrastructure, localization, philosophy, and object-oriented aesthetics."
-episode_count: 20
-source_count: 20
-paragraph_count: 23
+as_of_overview_commit: c3bcdb8f9fc3320d6ed0ce7f10c413cbe946948e
+summary: "A personal wiki linking AI systems, PKM and reading-note tooling, software practice, learning, indie work, localization, and philosophy."
+episode_count: 21
+source_count: 21
+paragraph_count: 24
 topic_count: 8
 ---
 
@@ -49,7 +49,7 @@ Applied algorithms are represented through trajectory simplification, where disp
 
 ### Culture and Media
 
-Culture and media now centers experience preservation and participation: game localization may combine computational retrieval with domestication, while object-oriented aesthetics treats art and metaphor as participatory disclosure of things that still withdraw.
+Culture and media now centers experience, navigation, and participation: reading-note systems make cultural reading traceable, game localization preserves player-facing effects, and object-oriented aesthetics treats art and metaphor as disclosure of things that still withdraw.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].

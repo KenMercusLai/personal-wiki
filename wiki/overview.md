@@ -21,13 +21,14 @@ sources:
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
   - cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing
   - zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju
+  - ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li
   - ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi
   - nei-zai-jia-zhi-zhuang-tai
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, personal knowledge management note structure, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
+The wiki currently contains sources on lightweight productivity habits, learning motivation, goal setting, intrinsic value and purpose, career planning, programmer freelancing, independent SaaS entrepreneurship, Feynman-style learning and information-output workflows, personal knowledge management note structure, reading-note workflows, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
 
 ## Current Synthesis
 
@@ -40,6 +41,8 @@ The INDIGO source extends the wiki from work efficiency into learning systems. [
 The INDIGO source also adds a knowledge-infrastructure thread. [[PersonalKnowledgeManagement]] captures the practical layer of bookmarks, notes, tags, topic pages, and drafts that make later output possible. [[AIKnowledgeAssistant]] and [[SecondBrain]] describe a prospective shift from manual organization toward AI-supported summaries, associations, classification, retrieval, histories, and timelines.
 
 The newest note-taking source sharpens that knowledge-infrastructure thread by adding [[NoteGranularity]] and [[NoteToolFit]]. [[ChrisGrieser]] argues that small-note systems such as [[ZettelkastenMethod]] serve bottom-up idea development through concise notes, dense links, metadata, maps of content, graph views, and fast switching, while big-note systems serve top-down organization of established knowledge through headings, outlines, folding, visual anchors, block links, and text-moving tools. [[Obsidian]] functions as the main software example because its core features and plugins can support both styles, which qualifies earlier [[PersonalKnowledgeManagement]] advice: note structure is not just a matter of taste, but a fit among knowledge goals, granularity, and tool affordances.
+
+The newest card-note practice source makes that abstract note-method debate more concrete through [[ReadingNoteWorkflow]]. It argues that book notes are a useful entry point for [[ZettelkastenMethod]] because readers already have material to summarize, compare, and judge, avoiding the trap of using card notes only to study card notes. In the mystery-fiction example, entry notes capture books, authors, metadata, genres, influences, plot summaries, and devices; outline notes become chronologies, award lists, genre maps, or reading histories; and opinion notes preserve compact judgments without requiring a full essay for every book. [[Obsidian]] matters here less as a fashionable graph surface than as practical [[NoteToolFit]]: backlinks, local graphs, graph grouping, task-list plugins, and spoiler-folding HTML help a reader inspect relationships, discover unread works, and keep notes lightweight enough to sustain.
 
 The Wozniak source adds a motivational layer beneath the productivity and active-learning material. [[GoalSetting]] is not treated as rigid discipline but as a way to focus attention, choose strategy, and help learners value knowledge. [[LearnDrive]] becomes the key condition to protect: mature experts may follow curiosity without explicit goals, but young learners often need dreams, small decisions, and exploratory reading to resist institutional pressure, credential competition, and rote study. [[KnowledgeValuationNetwork]] names the source's theory that goals, role models, missions, and emotionally salient cases help knowledge become valuable enough to love.
 
@@ -89,6 +92,8 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 - When does focused reading improve learning, and when does it narrow discovery too early?
 - When should a PKM system use many small atomic notes, fewer large structured notes, or a hybrid based on headings and blocks?
 - How can note-tool choice be evaluated without turning useful method fit into plugin chasing?
+- Which reading domains benefit most from card-note workflows, and when is a simple reading log enough?
+- How can graph-based reading notes avoid becoming visually impressive but analytically shallow?
 - How do the surveyed inference load-balancing designs compare under measured production workloads rather than architectural review alone?
 - How has HTTP/3 and QUIC adoption changed since the source's 2019 publication context?
 - Which real-world workloads benefit most from HTTP/2 or HTTP/3 compared with well-tuned HTTP/1.1?
