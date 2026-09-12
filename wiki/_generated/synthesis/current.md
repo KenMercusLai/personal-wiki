@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: acea80f9520f8c35423d4f630f2a3405ae65f1bc
-summary: "A map of learning, AI, products, infrastructure, culture, and governance as feedback systems shaped by judgment, constraints, economics, risk, and ownership."
-episode_count: 63
-source_count: 63
-paragraph_count: 65
+as_of_overview_commit: b13137042ed211ad3b84111b0a1cffad3f005096
+summary: "A map of learning, AI, products, infrastructure, culture, and governance as feedback systems shaped by judgment, constraints, economics, risk, ownership, and public meaning."
+episode_count: 64
+source_count: 64
+paragraph_count: 66
 topic_count: 9
 ---
 
@@ -20,30 +20,30 @@ topic_count: 9
 - [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
 - [[Maderight]] adds a failure-side startup lesson: before [[ProductMarketFit]], [[StartupRunway]] should buy more meaningful tests, [[FounderLedSales]] should keep customer discovery with founders, and [[StartupFocus]] should force a choice when service revenue and product adoption point toward different businesses.
+- [[AppleAdvertisingPatterns]] shows how [[Apple]] made new devices legible and memorable by simplifying categories, borrowing cultural meaning, contrasting incumbents or fears, demonstrating one remarkable attribute, and tying products to aspiration through figures such as [[SteveJobs]] and [[SteveWozniak]] in the brand origin story.
 - [[StartupEquityTransparency]] frames startup option terms as market-design information: [[Quora]]'s [[ExtendedStockOptionExerciseWindow]] lets employees preserve vested equity longer, while [[EmployeeEquityRisk]] adds that illiquidity, vesting cliffs, liquidation preferences, valuation uncertainty, and founder-employee asymmetry can still make startup equity speculative even when a [[Slack]]-like winner later appears obvious.
 - [[Docker]] deployment only becomes reliably portable when applications participate in [[TwelveFactorApp]], [[ContainerApplicationStartup]], [[RuntimeConfiguration]], and [[ContainerNativePractice]]: startup behavior, runtime settings, health checks, storage assumptions, and graceful shutdown must live in the service and platform contract rather than in image sprawl or wrapper-script drift.
-- [[StartupScaling]] extends MVP validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], and disciplined [[TalentDensity]]; [[Maderight]] shows how failing to reach fit keeps sales, runway, and focus in discovery mode.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The AI and technology thread treats AI systems, mobile platforms, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, mobile runtimes, IoT data, and game-server operations all depend on context quality, explanatory structure, workload-aware architecture, verification, and human judgment.
+The AI and technology thread treats AI systems, mobile platforms, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, mobile runtimes, IoT data, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, platform control, and human or organizational controls.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation. Evidence: [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]].
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics, MVP-based startup validation, startup hypothesis testing, founder-led sales, runway and focus discipline, landing-page trust signals, startup scaling, long-lived software-product evolution, mobile platform strategy, developer-tool UX, container-friendly deployment, backend-platform product design, market positioning, consumer-IP operations, startup equity design, employee equity risk, and the organizational side of reliability. Maderight adds the failure case: accelerator validation, funding, paying service customers, and partial adoption do not equal product-market fit unless runway is converted into meaningful tests, founders stay close to sales learning, and the team chooses between conflicting service and product paths.
+The business-and-markets material combines independent creator economics, MVP-based startup validation, startup hypothesis testing, founder-led sales, runway and focus discipline, landing-page trust signals, advertising patterns, startup scaling, long-lived software-product evolution, mobile platform strategy, developer-tool UX, container-friendly deployment, backend-platform product design, market positioning, consumer-IP operations, startup equity design, employee equity risk, and the organizational side of reliability. Technical building becomes viable only when joined to revenue stability, platform timing, customer learning, marketing, support, business-model adaptation, discovery control, believable proof, brand distinctiveness, and sustained operational investment.
 
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SteveRidout]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; and [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]].
 
 ### Cross-domain
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. Ramer-Douglas-Peucker simplification uses epsilon tolerance to trade path fidelity for lower point count, while exposed-service triage uses ports as signals for likely checks around weak credentials, cleartext protocols, unauthenticated services, remote administration, and database exposure.
+Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
@@ -57,11 +57,11 @@ The culture-and-media layer connects experience-centered practices across learni
 
 ### Governance and Institutions
 
-The governance-related material spans control problems across institutions, infrastructure, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; declarative infrastructure, container-native practice, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but spans control problems across institutions, infrastructure, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; declarative infrastructure, container-native practice, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while prompt caching is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
+The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while prompt-caching material is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
 
 ### Psychology and Personal Development
 
@@ -78,7 +78,7 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote pressure. Career, creator, and volunteer technical paths require tradeoffs among income, autonomy, tools, accountability, long-term fit, opportunity cost, and visible evidence.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. Career, creator, and volunteer technical paths require conscious tradeoffs among income, autonomy, tools, accountability, long-term fit, opportunity cost, and visible evidence.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

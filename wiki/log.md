@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 40 Lessons from 40 Years of Apple Ads
+
+Added source note plus pages for Apple advertising patterns, Steve Jobs, and Steve Wozniak. Updated Apple, social proof, brand distinctiveness, index, and overview to reflect the article's forty-year advertising pattern library: simplify new categories, borrow cultural meaning, dramatize one product attribute, use proof and demand signals, contrast against alternatives or fears, and avoid insulting or overselling to the audience. Inspected all local image embeds; the early Jobs/Wozniak workshop photo was material to the origin narrative, while repeated Mission Studios promo art and tiny campaign thumbnails were illustrative or duplicative.
+
 ## [2026-09-12] ingest | 3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech
 
 Added source note plus pages for job-application side projects, Hack Career, Feross Aboukhadijeh, and YouTube Instant. Updated release-focused side projects, career planning, personal branding, index, and overview to reflect the source's claim that career-helpful side projects must be relevant, deep, iterated, shipped, and made visible to employers. Inspected the Field of Dreams image as contextual; the repeated newsletter portrait image was not present at the resolved local path.
@@ -519,6 +523,10 @@ Ingested Steve Ridout's Readlang retrospective. Added source and entity pages fo
 ## [2026-09-12] ingest | 4 Hard Truths about Equity
 
 Ingested While West's startup-equity essay. Added source, concept, and entity pages for employee equity risk, Slack/Tiny Speck hindsight bias, and founder-employee equity asymmetry; updated Startup Equity Transparency with liquidity, vesting, and preference-risk disclosure.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

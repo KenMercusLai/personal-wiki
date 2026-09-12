@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
+- [40 Lessons from 40 Years of Apple Ads](sources/40-lessons-from-40-years-of-apple-ads-mission-org-medium.md) - Mission.org's Apple advertising survey extracting marketing lessons from four decades of campaigns around simplicity, cultural association, contrast, proof, product demonstration, and aspiration.
 - [3 Years as a One Man Startup](sources/3-years-as-a-one-man-startup-steve-ridout-medium.md) - Steve Ridout's retrospective on three years building Readlang, showing strong signup and revenue growth, real user impact, and ramen profitability alongside weak founder earnings and high opportunity cost.
 - [4 Hard Truths about Equity](sources/4-hard-truths-about-equity-while-west.md) - While West's employee-side critique of startup equity, arguing that illiquidity, vesting, preferences, founder asymmetry, and hindsight bias make cash safer when company prospects are doubtful.
 - [4 Lessons From a Failed Startup - From and For First Time Founders](sources/4-lessons-from-a-failed-startup-from-and-for-first-time-founders.md) - Maderight's shutdown retrospective arguing that first-time founders should test hypotheses explicitly, spend runway on learning capacity, keep sales founder-led before product-market fit, and avoid unfocused service/product hybrids.
@@ -170,6 +171,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
 - [Apple](entities/Apple.md) - Mobile platform winner whose iOS ecosystem concentrates high-value users and platform-control power in the source's 2015 framing.
+- [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
+- [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the advertising source's humble-origin and hands-on engineering narrative.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, and discovery control.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem and service-control surface in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
@@ -263,6 +266,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 
 ## Concepts
+- [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
 - [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull justifies shifting from discovery toward growth and organization-building.
