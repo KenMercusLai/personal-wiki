@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅](sources/zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu.md) - A slash-programmer retrospective on leaving employment, abandoning a failed short-video experiment, and building a small portfolio of paid tools through user validation, early monetization, build-in-public distribution, and platform tailwinds.
 - [常用端口利用总结](sources/chang-yong-duan-kou-li-yong-zong-jie-infvies-blog.md) - A security checklist mapping common service ports to defensive triage categories such as weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, middleware consoles, and database service risk.
 - [差异化战略指南：What、Why与How-36氪](sources/cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr.md) - A business-strategy guide arguing that durable differentiation depends on positioning, brand distinctiveness, category creation, customer experience, and executive-level strategic choice rather than copyable features.
 - [选题、专业性、完美主义、数据和灵感，这些创作焦虑该如何应对？](sources/xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui.md) - A creator-anxiety retrospective arguing that purpose-led positioning, learner-mode publishing, draft feedback, platform-aware metrics, and idea-management systems make creation more sustainable.
@@ -40,6 +41,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Zhang Xiaoji](entities/ZhangXiaoji.md) - Slash programmer and independent creator behind Table To Figma, Fit Curve, and Glimmer Card.
+- [Table To Figma](entities/TableToFigma.md) - Figma plugin for applying structured data to designs and batch-generating visual assets.
+- [Fit Curve](entities/FitCurve.md) - Narrow Figma plugin for drawing smooth curves.
+- [Glimmer Card](entities/GlimmerCard.md) - iOS app for creating designed text-card images for social sharing.
+- [Figma](entities/Figma.md) - UI/UX design platform and plugin ecosystem used as a small-product launch channel.
 - [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
 - [ConvertKit](entities/ConvertKit.md) - Creator-focused email-marketing software used as an example of target-market positioning in a crowded SaaS category.
 - [Drift](entities/Drift.md) - Software company used as an example of category creation through the "conversational marketing" frame.
@@ -128,6 +134,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
 
 ## Concepts
+- [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
+- [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
 - [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
 - [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that teaches a market to see a new problem or category so the creator becomes the default reference point.

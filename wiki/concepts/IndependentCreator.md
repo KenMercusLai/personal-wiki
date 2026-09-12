@@ -5,6 +5,7 @@ tags: [indie-hacker, entrepreneurship, work]
 sources:
   - yi-ge-du-li-chuang-zao-zhe-de-wu-nian
   - bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua
+  - zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -13,7 +14,7 @@ knowledge_schema: synthesis-v1
 [[IndependentCreator]] describes a person who creates and sells products outside a conventional employer structure, often combining product, engineering, marketing, operations, and customer support personally.
 
 ## Current Synthesis
-The sources treat independent creation as both a work arrangement and an identity, but they describe different viable entry points. [[Hawstein]] moves from a content product toward overseas [[BootstrappedSaaS]], while [[ZhangXuan]] combines [[Imooc]] course income, [[EasyCV]], and [[PersonalBranding]] as a programmer's freelancer "B plan." Across both cases, the role is not romanticized as pure building: the creator must secure income, find distribution, handle operations, and decide how much autonomy and uncertainty they can tolerate.
+The sources treat independent creation as both a work arrangement and an identity, but they describe different viable entry points. [[Hawstein]] moves from a content product toward overseas [[BootstrappedSaaS]], [[ZhangXuan]] combines [[Imooc]] course income, [[EasyCV]], and [[PersonalBranding]] as a programmer's freelancer "B plan," and [[ZhangXiaoji]] builds a [[SmallProductPortfolio]] after layoff anxiety. Across the cases, the role is not romanticized as pure building: the creator must secure income, find distribution, handle operations, validate demand, and decide how much autonomy and uncertainty they can tolerate.
 
 ## Key Claims
 - Independent creation can begin with the best available entry point rather than the creator's ideal business model.
@@ -22,7 +23,7 @@ The sources treat independent creation as both a work arrangement and an identit
 - Stable income or financial runway can matter more than immediate product upside.
 - Autonomy can be a rational operating priority, even when hiring could reduce workload.
 - Global software distribution makes small creators less bounded by local markets.
-- Independent creation can be understood as a form of [[CareerPlanning]] built through staged experiments.
+- Independent creation can be understood as a form of [[CareerPlanning]] built through staged experiments, including portfolios of narrow validated products.
 
 ## Evidence
 - Entry point: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] presents [[AlgoCasts]] as the best starting point available in 2018 even though the author wanted SaaS later.
@@ -32,12 +33,13 @@ The sources treat independent creation as both a work arrangement and an identit
 - Autonomy: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] explains rejecting hiring because added coordination would reduce freedom.
 - Global reach: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] emphasizes that code lets one person's product reach internet-connected users worldwide.
 - Career path: [[yi-ge-du-li-chuang-zao-zhe-de-wu-nian]] narrates five years of evolving work rather than a single fixed role; [[bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua]] frames freelancing as a reversible experiment with a stop-loss option.
+- Product portfolio: [[zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu]] shows [[ZhangXiaoji]] combining [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] so learning and income do not depend on one product alone.
 
 ## Counterevidence & Qualifications
-The sources are creator retrospectives rather than survival-rate studies. They also show different dependencies: Hawstein's path depends on SaaS, payment access, support capacity, and overseas markets, while Zhang Xuan's path depends on savings, teaching ability, platform course income, and tolerance for isolation.
+The sources are creator retrospectives rather than survival-rate studies. They also show different dependencies: Hawstein's path depends on SaaS, payment access, support capacity, and overseas markets; Zhang Xuan's path depends on savings, teaching ability, platform course income, and tolerance for isolation; and Zhang Xiaoji's path depends on design/programming fit, marketplace access, user feedback, and enough marketing ability to turn small tools into paid products.
 
 ## What Changed
-- Expanded independent creation from overseas SaaS into a programmer-freelancer path that combines courses, product experiments, and audience-building.
+- Expanded independent creation to include a small-product portfolio path after employment disruption.
 
 ## Related Concepts
 - [[BootstrappedSaaS]] - one business model independent creators can use.
@@ -47,3 +49,4 @@ The sources are creator retrospectives rather than survival-rate studies. They a
 - [[PersonalProductivity]] - solo creators depend on self-managed work habits.
 - [[ProgrammerFreelancing]] - a programmer-specific version of independent creator work.
 - [[PersonalBranding]] - a distribution channel for independent creators.
+- [[SmallProductPortfolio]] - a product-portfolio operating model for independent creators.

@@ -26,6 +26,7 @@
       "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
+      "fcaef8947722538a926064e7052b84774f3ff0a6ec693bcb38db34141d3277c1",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
@@ -37,10 +38,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 35
+    "paragraph_count": 36
   },
-  "overview_commit": "7a2e302ac6396b6f53f24e123213c7c5d5621ea7",
-  "overview_digest": "49100caeb8d09fe8e0dac89421abab5041eb90348e57432f487c50bc00be1963",
+  "overview_commit": "3c8773402521583c0ed9c1dabc606821def18f7c",
+  "overview_digest": "1821342f63adaacc2bf70c94a3bdc527cd324510d4bc809880dce7024763d745",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -492,6 +493,28 @@
         "ProgrammerFreelancing",
         "SaaSMarketing",
         "ZhangXuan"
+      ]
+    },
+    {
+      "id": "fcaef8947722538a926064e7052b84774f3ff0a6ec693bcb38db34141d3277c1",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Zhang Xiaoji source adds a product-portfolio variant to the independent-creator path. [[ZhangXiaoji]] moves from layoff anxiety and a failed short-video experiment toward [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]], making [[SmallProductPortfolio]] a risk-management pattern for a programmer with design skill. The source strengthens [[CustomerLedProductDevelopment]] because user conversations corrected [[TableToFigma]]'s initial Notion-centered assumptions and validated [[GlimmerCard]] before launch through comments, mockups, chats, and overseas feedback. It also makes [[BuildInPublic]] a concrete bridge between [[PersonalBranding]] and [[SaaSMarketing]]: public posts, product examples, icon drafts, revenue screenshots, Reddit traffic, and marketplace launch timing create feedback, trust, and distribution, while the article's delayed paywall lesson argues that willingness-to-pay should be tested early.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BuildInPublic",
+        "CustomerLedProductDevelopment",
+        "FitCurve",
+        "GlimmerCard",
+        "PersonalBranding",
+        "SaaSMarketing",
+        "SmallProductPortfolio",
+        "TableToFigma",
+        "ZhangXiaoji"
       ]
     },
     {

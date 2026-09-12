@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 7a2e302ac6396b6f53f24e123213c7c5d5621ea7
-summary: "A practical systems wiki connecting learning, creator work, AI, infrastructure, security, business positioning, culture, and philosophy through tooling, judgment, and verification."
-episode_count: 32
-source_count: 32
-paragraph_count: 35
+as_of_overview_commit: 3c8773402521583c0ed9c1dabc606821def18f7c
+summary: "A systems wiki connecting learning, creator work, AI, infrastructure, security, business, culture, and philosophy through judgment and verification."
+episode_count: 33
+source_count: 33
+paragraph_count: 36
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
-- [[DifferentiationStrategy]] argues that crowded markets require a customer-visible reason to choose because copyable features, category saturation, and competitor benchmarking make offers converge.
+- [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ The current corpus covers AI technology as personal knowledge support, note-syst
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics with market-positioning strategy. One thread shows that bootstrapped SaaS and programmer freelancing depend on revenue stability, modular infrastructure, customer learning, marketing, support, and personal branding rather than technical building alone. The newer strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing.
+The business-and-markets material combines independent creator economics with market-positioning strategy. One thread shows that bootstrapped SaaS, programmer freelancing, and small product portfolios depend on revenue stability, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, personal branding, and build-in-public distribution rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].

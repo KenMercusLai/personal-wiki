@@ -273,3 +273,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-12] ingest | 年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅
+
+Added source note and synthesis pages for Zhang Xiaoji's small-product transition. Key claims: a programmer leaving employment can diversify risk through a portfolio of narrow paid tools; user conversations can correct founder intuition; build-in-public can combine feedback, trust, and distribution; and platform choice matters when small creators depend on marketplace exposure and user payment habits.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
