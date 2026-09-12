@@ -600,6 +600,8 @@ Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street V
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A Terrible, Horrible, No Good, Very Bad Hardbound Update
+
 ## [2026-09-13] ingest | A Practitioner's Guide to Net Promoter Score at andrewchen
 
 Added source note plus pages for Net Promoter Score, Sachin Rekhi, and SurveyMonkey. Updated Product Metric Ladder, Customer-Led Product Development, LinkedIn, and the index to capture NPS as a slow customer-loyalty KPI that becomes useful through open-ended comments, representative sampling, consistent methodology, behavior correlation, and product-planning integration. Inspected both embedded image references: one valid JPEG showed the promoter/passive/detractor formula, while the other `.jpg` resolved to unrelated Snapinsta HTML and was not used as evidence.
@@ -752,6 +754,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

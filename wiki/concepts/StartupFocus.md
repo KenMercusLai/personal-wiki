@@ -6,6 +6,7 @@ sources:
   - 4-lessons-from-a-failed-startup-from-and-for-first-time-founders
   - 7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started
   - 8-lessons-from-one-of-silicon-valleys-top-vcs-drift
+  - a-terrible-horrible-no-good-very-bad-hardbound-update
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -14,16 +15,16 @@ knowledge_schema: synthesis-v1
 [[StartupFocus]] is the discipline of choosing one strategic path strongly enough that scarce founder time, team attention, and resources are not split across incompatible business models.
 
 ## Current Synthesis
-The sources frame focus as the courage to choose when both options, tactics, or market dreams have emotional pull. Maderight preserved service revenue and product ambition at the same time, splitting attention so both paths suffered. The Groove source adds a simpler filter for day-to-day advice pressure: a business needs to create value and earn profit; every other claimed necessity is negotiable until evidence shows it matters. The Grady interview adds first-principles focus: founders should solve a real problem durably, start with a narrow slice of a big market, and avoid hype cycles that pull attention toward money, status, or generalized growth.
+The sources frame focus as the courage to choose when both options, tactics, or market dreams have emotional pull. Maderight preserved service revenue and product ambition at the same time, splitting attention so both paths suffered. The Groove source adds a simpler filter for day-to-day advice pressure: a business needs to create value and earn profit; every other claimed necessity is negotiable until evidence shows it matters. The Grady interview adds first-principles focus: founders should solve a real problem durably, start with a narrow slice of a big market, and avoid hype cycles that pull attention toward money, status, or generalized growth. The Hardbound update adds a post-setback focus problem: after a funding miss, continuing the same model, changing the model, seeking an acqui-hire, or pausing are all live options, but the founder still needs to preserve the core mission while learning what failed.
 
 ## Key Claims
 - "Do both" decisions can hide a refusal to choose between incompatible strategies.
 - Existing revenue can make it emotionally hard to abandon a service path.
-- Early customer service can be useful for discovery, but it should not automatically remain the business.
-- New product adoption may require dropping or deprioritizing old customers if their needs reinforce the wrong model.
+- Early customer service can be useful for discovery, but new product adoption may require dropping or deprioritizing old customers if their needs reinforce the wrong model.
 - Scarce founder time makes strategic ambiguity operationally expensive.
 - Startup advice that does not directly support value creation or profit can become tactic-chasing distraction.
 - First-principles problem-solving and narrow market entry can protect a large ambition from conventional wisdom, hype, and unfocused expansion.
+- After a funding failure, focus may mean pausing and redesigning the model rather than immediately continuing the old operating plan.
 
 ## Evidence
 - Service origin: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] says Maderight began as a service company to get customers from day one and learn their problems.
@@ -34,12 +35,15 @@ The sources frame focus as the courage to choose when both options, tactics, or 
 - First principles: [[8-lessons-from-one-of-silicon-valleys-top-vcs-drift]] says companies exist to solve a problem in a unique, compelling, and durable way.
 - Narrow wedge: [[8-lessons-from-one-of-silicon-valleys-top-vcs-drift]] says startups should begin with a narrow slice of a large market and earn expansion over time.
 - Hype avoidance: [[8-lessons-from-one-of-silicon-valleys-top-vcs-drift]] warns founders not to chase unicorn status, excessive funding, or hires attracted only to fast growth.
+- Post-failure options: [[a-terrible-horrible-no-good-very-bad-hardbound-update]] lists acqui-hire, solo continuation, model experimentation, and a pause as possible responses to [[Hardbound]]'s failed fundraise.
+- Mission preservation: [[a-terrible-horrible-no-good-very-bad-hardbound-update]] says [[NathanBashaw]] still wants to use technology and storytelling to widen perspective, deepen empathy, and sharpen knowledge even if Hardbound's model changes.
 
 ## Counterevidence & Qualifications
-The sources do not prove that hybrid service/software models always fail, that all non-core tactics are useless, or that big markets should be avoided. Their shared warning applies when parallel paths, copied advice, hype, or guilt-driven tactics consume scarce founder attention before the team knows whether its current strategy is working.
+The sources do not prove that hybrid service/software models always fail, that all non-core tactics are useless, that big markets should be avoided, or that pausing is always better than pushing through. Their shared warning applies when parallel paths, copied advice, hype, guilt-driven tactics, or attachment to an old model consume scarce founder attention before the team knows whether its current strategy is working.
 
 ## What Changed
 - Added first-principles problem choice, narrow-market entry, and hype avoidance as focus disciplines.
+- Added Hardbound's post-fundraise pause/model-change decision as a focus problem after setback.
 
 ## Related Concepts
 - [[ProductMarketFit]] - reaching fit may require choosing the customer and model with the strongest adoption signal.
@@ -48,3 +52,4 @@ The sources do not prove that hybrid service/software models always fail, that a
 - [[StartupHypothesisTesting]] - explicit tests can force choices instead of vague parallel bets.
 - [[FounderTimeLeverage]] - scarce founder time makes tactic discipline economically important.
 - [[CategoryCreation]] - a narrow wedge can be the starting point for defining a larger category.
+- [[FailureOwnership]] - owning failure can create the clarity needed to choose a new model or pause.

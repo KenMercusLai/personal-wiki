@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 551d9a3c7ffbb5bcd782c8cdf7f4effe33a6046a
-input_digest: 7a3389b41772abe48886f369bf24d97ad1b575ed1a34acaf4200d38cad7edc29
+as_of_overview_commit: a0686c2de5ac2b9e1a9fe3f790a71602845d0547
+input_digest: 9b98bb486cabd720f8a80d75a62b831d1c0928f6ad1f0c6075ce9661e446d5cb
 ---
 
 # Business and Markets
@@ -150,15 +150,17 @@ Business and market sources connect startup validation, product evolution, distr
 
 ### Pre Fit Startups Convert Runway Into Learning
 
-[[StartupRunway]] depends on how a company converts capital into learning or optionality: [[Maderight]] shows the failure-side lesson that before [[ProductMarketFit]], runway should buy meaningful tests, [[FounderLedSales]] should keep discovery with founders, and [[StartupFocus]] should force a choice when service revenue and product adoption diverge; [[AlexTurnbull]] adds from [[Groove]] that founders should prioritize value creation, profit, regular [[CustomerLedProductDevelopment]], and attention-preserving operating practices; [[Microsoft]] adds the exceptional [[SelfFundedSoftwareGrowth]] case, where product revenue, profit, cash, and limited advice-oriented venture capital reduced IPO timing pressure.
+[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]] shows the failure-side lesson that before [[ProductMarketFit]], runway should buy meaningful tests and [[StartupFocus]] should force choices when service revenue and product adoption diverge; [[Hardbound]] shows that visible love, usage, and paying customers may still fail to produce fundable fit when growth, revenue, and production economics remain weak, making [[FailureOwnership]] part of post-failure learning; [[AlexTurnbull]] adds from [[Groove]] that founders should prioritize value creation, profit, regular [[CustomerLedProductDevelopment]], and attention-preserving operating practices; [[Microsoft]] adds the exceptional [[SelfFundedSoftwareGrowth]] case, where product revenue, profit, cash, and limited advice-oriented venture capital reduced IPO timing pressure.
 
-**Evidence:** [[StartupRunway]], [[Maderight]], [[ProductMarketFit]], [[FounderLedSales]], [[StartupFocus]], [[StartupHypothesisTesting]], [[CustomerLedProductDevelopment]], [[DoingThingsThatDoNotScale]], [[YCombinator]], [[StartX]], [[AlexTurnbull]], [[Groove]], [[Microsoft]], [[SelfFundedSoftwareGrowth]], [[BillGates]]
+**Evidence:** [[StartupRunway]], [[Maderight]], [[ProductMarketFit]], [[FounderLedSales]], [[StartupFocus]], [[StartupHypothesisTesting]], [[CustomerLedProductDevelopment]], [[DoingThingsThatDoNotScale]], [[YCombinator]], [[StartX]], [[Hardbound]], [[NathanBashaw]], [[FailureOwnership]], [[AlexTurnbull]], [[Groove]], [[Microsoft]], [[SelfFundedSoftwareGrowth]], [[BillGates]]
 
 **Qualifications:**
 
 - The Maderight evidence is a founder retrospective of one failed, service-heavy apparel manufacturing startup rather than a controlled comparison across startup types.
 - The source does not prove that higher spending, founder-led sales, or earlier strategic focus would have saved Maderight; it frames them as lessons from the team's later interpretation.
 - Manual service work can be useful discovery, but it may validate a service business rather than the software product founders hoped to scale.
+- Hardbound is a founder-authored consumer-content case; the evidence shows audience love and usage, but not cohort retention, customer acquisition cost, investor memos, or later company outcomes.
+- Failure ownership helps preserve learning after a funding miss, but it does not replace the need to solve growth, revenue, production, or market-fit fundamentals.
 - The Groove advice is a founder essay and should be treated as operating judgment rather than controlled evidence.
 - The Microsoft IPO evidence comes from a retrospective about an unusually successful 1980s software company and should not be generalized to all startups or later software models.
 

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG](sources/shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog.md) - 黄健宏 argues for a PostgreSQL-first database architecture that reduces stack complexity by avoiding premature splits across specialized transaction, search, time-series, vector, and analytics systems.
+- [A Terrible, Horrible, No Good, Very Bad Hardbound Update](sources/a-terrible-horrible-no-good-very-bad-hardbound-update.md) - Nathan Bashaw's Hardbound postmortem showing how product love, usage, and paying customers still left unresolved growth, revenue, fundraising, and content-production economics.
 - [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
 - [A Selfie For The Planet](sources/a-selfie-for-the-planet.md) - Fast Company profile of Ed Parsons and Google's Geo work, framing Google Maps, Google Earth, Street View, location data, user contributions, and OpenStreetMap as a shift from static maps to personalized platform cartography.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
@@ -388,6 +389,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Juicero](entities/Juicero.md) - Food-technology startup whose connected juicing system became a contested value-proposition case.
 - [Jeff Dunn](entities/JeffDunn.md) - Juicero CEO and food-industry operator who publicly defended the company's connected system.
 - [Doug Evans](entities/DougEvans.md) - Juicero founder named in the leadership transition to Jeff Dunn.
+- [Nathan Bashaw](entities/NathanBashaw.md) - Hardbound founder-author reflecting on failed fundraising, team responsibility, and learning from failure.
+- [Hardbound](entities/Hardbound.md) - Mobile illustrated nonfiction-summary startup with strong engagement but unresolved growth, revenue, and content-production economics.
+- [General Assembly](entities/GeneralAssembly.md) - Bashaw's pre-Hardbound employment context in the Hardbound update.
 
 ## Concepts
 - [Stack Overflow Traffic Analysis](concepts/StackOverflowTrafficAnalysis.md) - Using Stack Overflow question visits by tag and country as a bounded signal of developer attention.
@@ -410,6 +414,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce founder time through tools, automation, assistance, or delegation so attention returns to higher-value work.
 - [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.
+- [Failure Ownership](concepts/FailureOwnership.md) - Accepting responsibility for a failed outcome without turning it into fixed self-condemnation.
 - [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete.
 - [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
