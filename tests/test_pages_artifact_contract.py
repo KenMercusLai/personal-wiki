@@ -34,6 +34,24 @@ def load_verifier(name: str):
     return module
 
 
+class CanonicalMarkdownVisibleTextTest(unittest.TestCase):
+    def test_inline_code_delimiters_are_not_expected_in_rendered_questions(self):
+        verifier = load_verifier("personal_artifact_canonical_markdown")
+        self.assertEqual(
+            verifier._canonical_markdown_visible_text(
+                "How should developers back up WSL before `wsl --unregister`?"
+            ),
+            "How should developers back up WSL before wsl --unregister?",
+        )
+
+    def test_unclosed_code_delimiters_remain_visible(self):
+        verifier = load_verifier("personal_artifact_unclosed_code")
+        self.assertEqual(
+            verifier._canonical_markdown_visible_text("Keep the unmatched ` delimiter"),
+            "Keep the unmatched ` delimiter",
+        )
+
+
 class PagesArtifactContractTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -85,6 +103,25 @@ class PagesArtifactContractTest(unittest.TestCase):
             "wiki-projections/index.html",
         ):
             self.assertFalse((PUBLIC / route).exists(), route)
+
+    def test_open_questions_inline_code_is_verified_as_rendered_text(self):
+        verifier = load_verifier("personal_artifact_open_question_inline_code")
+        with tempfile.TemporaryDirectory() as td:
+            copied = Path(td) / "public"
+            shutil.copytree(PUBLIC, copied)
+            page = copied / "wiki/open-questions/index.html"
+            text = page.read_text(encoding="utf-8")
+            changed, count = re.subn(
+                r"<li>How should developers back up or export WSL distributions before "
+                r"destructive cleanup steps such as <code>wsl --unregister</code>\?</li>",
+                "",
+                text,
+                count=1,
+            )
+            self.assertEqual(count, 1)
+            page.write_text(changed, encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "Open Questions projection omitted"):
+                verifier.verify_site(copied, ROOT)
 
     def test_wrong_html_and_generated_projection_cannot_fool_independent_oracle(self):
         verifier = load_verifier("personal_artifact_independent")
