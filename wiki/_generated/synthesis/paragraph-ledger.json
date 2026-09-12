@@ -63,6 +63,7 @@
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
       "f245a8a3a8e92e242d75c4d8ebab69c4db3b48ab57d59b5f69d71c970add006a",
       "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
+      "0f171c0933f1dad3414ca8aa3d0d152446d6a33a1d38ede064fc2687e2180a14",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "a9efff60ec2836ec4e0438f2433d0431b2b7389186d2e6f12f9ca1aabb054715",
       "11370b5e622574557bfa2f38d1efd03168b344b05810c0f0b10f149a0d0cbca8",
@@ -96,10 +97,10 @@
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 94
+    "paragraph_count": 95
   },
-  "overview_commit": "a0686c2de5ac2b9e1a9fe3f790a71602845d0547",
-  "overview_digest": "cbab02aac9af50166b644bd3f824f385c9a03376e0e3d9c8c12e014eaa79d6e7",
+  "overview_commit": "9bd011819f0d302d088b72b5d14e4d623cc1527d",
+  "overview_digest": "aa710ecf3adc413d8bbca8aadd9e1105e1dcf3302c1ff765e54ccee3c5b77f2b",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1307,6 +1308,35 @@
         "ProductCommoditization",
         "StartupFocus",
         "StartupVisionSelling"
+      ]
+    },
+    {
+      "id": "0f171c0933f1dad3414ca8aa3d0d152446d6a33a1d38ede064fc2687e2180a14",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "[[AnilDash]]'s Twitter essay adds a platform-turnaround case to the product and growth material. [[Twitter]] had already appeared as a verified-account and follower-count growth example, but Dash reframes it as culturally important infrastructure whose problems included public shipping credibility, abuse response, metric narrative, user segmentation, and developer trust. [[ProductShippingCredibility]] names the trust earned by visibly launching meaningful improvements; [[PlatformAbuseResponse]] treats harassment mobs as a threat-model problem rather than a user-by-user blocking issue; [[PlatformCulturalMetrics]] argues that signup numbers can miss a platform's role in creating public culture; [[ProductUserSegmentation]] critiques confusing tool access around verification, brands, power users, and new users; and [[DeveloperPlatformTrust]] captures the API and bot-platform damage caused when developers no longer believe the platform welcomes them. [[YouTube]], [[Glitch]], [[FogCreek]], and [[JackDorsey]] enter the wiki as comparison, tool, organizational, and executive contexts for that critique.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AnilDash",
+        "DeveloperPlatformTrust",
+        "FogCreek",
+        "Glitch",
+        "JackDorsey",
+        "PlatformAbuseResponse",
+        "PlatformCulturalMetrics",
+        "ProductShippingCredibility",
+        "ProductUserSegmentation",
+        "Twitter",
+        "YouTube"
       ]
     },
     {

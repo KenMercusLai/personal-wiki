@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 70d92362459f2e4966092daf6a2755deacf735e6
-input_digest: ea317fa68e6696e3d3523daffc0af2dd7586dd803fbad177ab5e6bdeae0d64a5
+as_of_overview_commit: 9bd011819f0d302d088b72b5d14e4d623cc1527d
+input_digest: 791c49f92fbb990a6b2566ff5c3e0a5624a4e9c098492cf0e112c0776e985ce3
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, developer-economy traffic, data architecture, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, Stack Overflow traffic segmentation, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, developer-economy traffic, data architecture, developer-platform trust, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
 
 ## Cross-source Findings
 
@@ -156,3 +156,14 @@ The AI and technology thread treats software, AI systems, data work, reading and
 
 - The mobile-platform evidence is a 2015 strategic thesis and should be treated as source-date bounded.
 - The Stack Overflow traffic evidence is 2017 English-language question traffic, not a direct census of programming work or current platform demand.
+
+### Developer Platforms Depend On Api And Tool Trust
+
+[[DeveloperPlatformTrust]] adds a platform-technology caution to the corpus: [[Twitter]]'s API and bot ecosystem, as described by [[AnilDash]], lost developer confidence when [[Glitch]]-style bot experimentation no longer seemed safely welcomed by the platform.
+
+**Evidence:** [[DeveloperPlatformTrust]], [[Twitter]], [[AnilDash]], [[Glitch]], [[FogCreek]], [[ProductShippingCredibility]]
+
+**Qualifications:**
+
+- The evidence comes from one Twitter-focused critique and does not include Twitter's internal API, safety, or monetization constraints.
+- Developer openness can conflict with abuse prevention, privacy, spam control, and business-model boundaries.

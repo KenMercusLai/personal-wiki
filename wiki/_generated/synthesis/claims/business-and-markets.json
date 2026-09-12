@@ -605,8 +605,32 @@
         "MobileInternet",
         "BenedictEvans"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "platform-turnarounds-need-shipping-safety-metrics-and-developer-trust",
+      "qualifications": [
+        "The evidence is one 2016-2017 outside critique of Twitter and should not be treated as a current audit of X/Twitter.",
+        "Cultural influence can be hard to measure and can include harmful as well as valuable effects, so it should complement rather than replace safety, revenue, retention, and user-health metrics.",
+        "Developer APIs and platform tools can also create abuse, spam, privacy, or business-model risks that require limits."
+      ],
+      "statement": "[[Twitter]] shows that platform turnaround work is not only feature ideation: [[AnilDash]] argues that [[ProductShippingCredibility]], [[PlatformAbuseResponse]], [[PlatformCulturalMetrics]], [[ProductUserSegmentation]], and [[DeveloperPlatformTrust]] all shape whether users, investors, creators, and developers believe a culturally important platform can recover.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "Twitter",
+        "AnilDash",
+        "ProductShippingCredibility",
+        "PlatformAbuseResponse",
+        "PlatformCulturalMetrics",
+        "ProductUserSegmentation",
+        "DeveloperPlatformTrust",
+        "YouTube",
+        "Glitch",
+        "FogCreek",
+        "JackDorsey"
+      ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, funding, scaling, and operational discipline. The current picture emphasizes that durable companies convert runway into learning before fit, make products legible through MVPs and customer conversations, defend against commoditization through differentiated value and trust, and treat software, hardware, media, infrastructure, and platforms as systems whose value must be perceived by users, not merely asserted by builders.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, funding, scaling, and operational discipline. The current picture emphasizes that durable companies convert runway into learning before fit, make products legible through MVPs and customer conversations, defend against commoditization through differentiated value and trust, and treat software, hardware, media, infrastructure, and platforms as systems whose value must be perceived by users, not merely asserted by builders. The newest platform-turnaround evidence adds that a culturally important platform such as Twitter also needs visible shipping, credible abuse response, metrics that capture cultural role, coherent user segmentation, and developer-platform trust.",
   "topic_id": "business-and-markets"
 }

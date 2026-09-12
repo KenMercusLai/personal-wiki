@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A billion dollar gift for Twitter](sources/a-billion-dollar-gift-for-twitter-startup-grind-medium.md) - Anil Dash's open product-strategy critique arguing that Twitter needed visible shipping, abuse response, better cultural metrics, segmented user tools, and renewed developer-platform trust.
 - [使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG](sources/shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog.md) - 黄健宏 argues for a PostgreSQL-first database architecture that reduces stack complexity by avoiding premature splits across specialized transaction, search, time-series, vector, and analytics systems.
 - [A Terrible, Horrible, No Good, Very Bad Hardbound Update](sources/a-terrible-horrible-no-good-very-bad-hardbound-update.md) - Nathan Bashaw's Hardbound postmortem showing how product love, usage, and paying customers still left unresolved growth, revenue, fundraising, and content-production economics.
 - [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
@@ -119,6 +120,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Legoizer](entities/Legoizer.md) - Creative web app that converts images into Lego mural plans.
 - [MIT](entities/MIT.md) - Engineering-school and Media Lab context for Wibowo's technical formation and emotion-recognition tooling.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
+- [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
@@ -150,12 +152,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [eBay](entities/EBay.md) - Online marketplace used as an example of ratings, protection, and payments reducing stranger-commerce risk.
 - [Zappos](entities/Zappos.md) - Online shoe retailer used as an example of returns policy reducing e-commerce purchase risk.
 - [Firebox](entities/Firebox.md) - Gift and gadget retailer used as an affiliate-network growth example.
+- [Fog Creek](entities/FogCreek.md) - Software company context for Anil Dash's Twitter critique and Glitch example.
 - [Pokemon Go](entities/PokemonGo.md) - Mobile AR game used as a familiar-IP and free-download adoption example.
 - [Kickstarter](entities/Kickstarter.md) - Crowdfunding platform used as a community-embedded marketplace growth case.
 - [Booking.com](entities/BookingCom.md) - Hotel-booking platform used as a paid-search acquisition and repeat-direct-channel example.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
-- [Twitter](entities/Twitter.md) - Social platform used as an example of verified accounts attracting and organizing influential users.
+- [Twitter](entities/Twitter.md) - Social platform used as both a growth case for public status signals and a troubled cultural platform with shipping, safety, metric, user-tooling, and developer-trust challenges.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
 - [MyEtherWallet](entities/MyEtherWallet.md) - Early Ethereum wallet interface that grew from a two-person side project into widely used crypto infrastructure.
@@ -163,6 +166,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ethereum](entities/Ethereum.md) - Blockchain ecosystem whose early usability gap, DAO aftermath, ENS workflows, ICO boom, and asset-value growth shaped the wallet story.
 - [Hotmail](entities/Hotmail.md) - Email service used as a classic outgoing-message viral-loop example.
 - [Gmail](entities/Gmail.md) - Google email service used as an invitation-scarcity growth example.
+- [Glitch](entities/Glitch.md) - Developer tool and remix platform used as an example of Twitter bot-building potential.
 - [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
 - [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
 - [Jonah Peretti](entities/JonahPeretti.md) - BuzzFeed executive author of the nine-box strategy memo on platform revenue, diversified monetization, and media-brand portfolios.
@@ -200,6 +204,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hack Career](entities/HackCareer.md) - Career-advice publisher/source for the job-application side-project framework.
 - [Feross Aboukhadijeh](entities/FerossAboukhadijeh.md) - Developer cited for the rare attention-generating YouTube Instant side project.
 - [YouTube Instant](entities/YouTubeInstant.md) - Side project used as the source's exceptional viral project and job-offer example.
+- [YouTube](entities/YouTube.md) - Creator and cultural platform used as a comparison case for Twitter's metrics and tool strategy.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Wang Ziting](entities/WangZiting.md) - Developer-blogger reflecting on side-project release discipline, container platforms, game backend architecture, and Redis-backed task queues.
@@ -374,6 +379,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zack Exley](entities/ZackExley.md) - Sanders technology adviser who routed campaign data work into volunteer Slack channels.
 - [Hillary Clinton](entities/HillaryClinton.md) - 2016 comparison candidate for a more hierarchical, professionally staffed campaign technology operation.
 - [Joanna Wiebe](entities/JoannaWiebe.md) - Conversion copywriter whose landing-page article frames social proof as an unavoidable trust signal.
+- [Jack Dorsey](entities/JackDorsey.md) - Twitter leader addressed by Anil Dash's public advice.
 - [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
@@ -451,6 +457,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Structured CLI Output](concepts/StructuredCLIOutput.md) - Human-readable and machine-parseable CLI output through row-oriented tables, column controls, JSON, CSV, filters, and sorting.
 - [CLI Command Grammar](concepts/CLICommandGrammar.md) - Structure of commands, subcommands, flags, positional arguments, parsing boundaries, and default invocation behavior.
 - [Developer Tooling](concepts/DeveloperTooling.md) - Software for technical users where documentation, conventions, diagnosability, speed, extensibility, and automation are part of product quality.
+- [Developer Platform Trust](concepts/DeveloperPlatformTrust.md) - Developer confidence that a platform's APIs, policies, tools, and posture are stable enough to build on.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
@@ -468,6 +475,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
+- [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.
+- [Product User Segmentation](concepts/ProductUserSegmentation.md) - Product practice of tailoring tools, defaults, and permissions to distinct user needs and behaviors.
 - [Net Promoter Score](concepts/NetPromoterScore.md) - Customer-loyalty metric and survey program that subtracts detractor share from promoter share and turns open-ended comments into product input.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
 - [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
@@ -675,6 +684,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Media Brand Portfolio](concepts/MediaBrandPortfolio.md) - Operating multiple distinct audience-facing media brands with different consumer uses and revenue surfaces.
 - [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.
 - [Platform Publisher Revenue](concepts/PlatformPublisherRevenue.md) - Revenue-share and fair-payment problem between professional publishers and large technology platforms.
+- [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for handling harassment and coordinated attacks.
+- [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
 - [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, and customer-acquisition channel.
 - [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.

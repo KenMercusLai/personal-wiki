@@ -596,6 +596,8 @@ Ran lint. See lint-report.md for details.
 
 Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street View, OpenStreetMap, Digital Cartography, Location Data Privacy, and User-Generated Mapping. Updated Google and the index to capture the article's argument that modern maps are personalized, dynamic, commercially useful, and privacy-sensitive platform infrastructure. Inspected six embedded images: the Chonhado map, Street View capture rig, vandalized Google Maps screenshot, Street View car, promoted local-business UI, and Parsons portrait.
 
+## [2026-09-13] ingest | A billion dollar gift for Twitter
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -754,6 +756,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
