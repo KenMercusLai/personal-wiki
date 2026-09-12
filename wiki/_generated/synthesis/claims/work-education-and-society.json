@@ -191,8 +191,24 @@
         "ZhangXuan",
         "EasyCV"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "data-automation-changes-organizational-workflows",
+      "qualifications": [
+        "This is a secondary topic assignment; the paragraph primarily belongs to AI and technology.",
+        "The source does not cover labor effects, governance, or implementation frictions inside specific organizations."
+      ],
+      "statement": "[[BigDataIndustryTransformation]] adds an organizational-work angle: when [[BehavioralData]] and [[AutomatedDataApplication]] close the loop between data processing and action, work can shift from dashboard interpretation toward automated operating rhythms.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "BigDataIndustryTransformation",
+        "BehavioralData",
+        "AutomatedDataApplication",
+        "Wulc"
+      ]
     }
   ],
-  "summary": "The topic spans practical work habits, attention discipline, environmental field design, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, and programmer freelancing. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, company shape, or life fields according to tradeoffs among convenience, income stability, effort, autonomy, belonging, and long-term fit.",
+  "summary": "The topic spans practical work habits, attention discipline, environmental field design, output-centered learning, learning motivation, career path design, standards-oriented technical architecture, cost-aware web deployment, independent creator entrepreneurship, programmer freelancing, and the work-design implications of data automation. Across these areas, useful systems reduce avoidable friction, make priorities or goals explicit, preserve attention and curiosity, and choose work models, abstractions, standards, infrastructure, company shape, data loops, or life fields according to tradeoffs among convenience, income stability, effort, autonomy, belonging, evidence, and long-term fit.",
   "topic_id": "work-education-and-society"
 }

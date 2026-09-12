@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [一个半月高强度 Claude Code 使用后感受](sources/yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou.md) - A Claude Code retrospective arguing that vibe coding accelerates iteration but requires planning, small steps, context management, verification, and humane pacing.
 - [场](sources/chang.md) - A reflective essay arguing that invisible environmental fields shape work, family, intimacy, creativity, and moral behavior.
+- [大数据是否能够改造你的行业](sources/da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye.md) - A big-data article arguing that industry transformation requires behavior data, full-population processing, and closed-loop automated applications.
 - [只有自律才能看到真正的自由--Durov Podcast 随笔](sources/zhi-you-zi-lv-cai-neng-kan-dao-zhen-zheng-de-zi-you-durov-podcast-sui-bi.md) - A reflective essay using a Pavel Durov podcast to connect morning phone avoidance, focused collaboration, alcohol abstinence, role modeling, and freedom through self-discipline.
 - [内在价值状态](sources/nei-zai-jia-zhi-zhuang-tai.md) - Piotr Wozniak's philosophical essay arguing that the search for objective intrinsic value can serve as a scientific meta-goal for human purpose, knowledge growth, and anxiety reduction.
 - [你大概不会想用 LLM 做数据分析](sources/ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi.md) - A cautionary data-analysis essay arguing that LLMs can generate polished but invalid statistical work, especially around p-hacking, unless users understand and verify the method.
@@ -32,7 +33,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
-- [Wulc](entities/Wulc.md) - Author of the field essay connecting environmental influence with work, family, creation, and human nature.
+- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence with work, family, creation, and human nature, and summarizing big-data industry transformation criteria.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
@@ -116,6 +117,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
 - [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
+- [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
+- [Behavioral Data](concepts/BehavioralData.md) - Behavior traces that support prediction, optimization, and automated business decisions.
+- [Big Data Industry Transformation](concepts/BigDataIndustryTransformation.md) - Conditions under which large-scale data and automation can reshape an industry's operations or products.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
@@ -128,6 +132,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
+- [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
 - [Environmental Field](concepts/EnvironmentalField.md) - Invisible social, material, emotional, and normative surroundings that shape behavior, character, creativity, and moral judgment.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.

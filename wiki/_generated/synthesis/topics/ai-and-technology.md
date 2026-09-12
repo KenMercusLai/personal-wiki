@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: fd29cd65ede923990715fced71b54cfb1efda8a1
-input_digest: d795822457dcbf5f2e9ae4df12170228b610d2b1bee2224a2a21e4ed8376e347
+as_of_overview_commit: f876dc86247ec33562afd68eaf628c9cfa566379
+input_digest: 8b1987e19a650b473170c91f629a95d01dea8700ed1ce076c9cabe981090aaf4
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, AI-first engineering workflow design, production agent infrastructure, and LLM-assisted data analysis. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, and statistical data-analysis workflows need human methodological control because polished model output can still be invalid.
+The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
 
 ## Cross-source Findings
 
@@ -164,3 +164,14 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 - The source is a cautionary practitioner essay grounded in a cited p-hacking experiment and a personal statistical-analysis failure, not a comprehensive benchmark of all LLM data-analysis tasks.
 - The source still treats transformation, visualization, clustering support, and codebook work as useful when the human analyst understands and checks the method.
+
+### Big Data Automation Needs Behavioral Loop
+
+[[BigDataIndustryTransformation]] depends on [[BehavioralData]], broad processing coverage, and [[AutomatedDataApplication]] loops; [[DeepLearning]] helps by learning representations from larger datasets, but data collection alone does not change decisions without an automation path.
+
+**Evidence:** [[BigDataIndustryTransformation]], [[BehavioralData]], [[AutomatedDataApplication]], [[DeepLearning]], [[Wulc]]
+
+**Qualifications:**
+
+- The source is a concise big-data-era article summary rather than a full empirical comparison of industries.
+- The claim emphasizes automation value but does not yet address privacy, regulation, accountability, or high-stakes human override.
