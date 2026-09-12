@@ -203,6 +203,28 @@
     },
     {
       "global_candidate": true,
+      "id": "product-operating-heuristics-connect-metrics-research-and-shipping",
+      "qualifications": [
+        "The claim is grounded in one Women in Product practitioner article, so the rule of threes should be treated as a memory and coordination heuristic rather than empirical proof of optimal counts.",
+        "The research threshold depends on target-user screening, and proxy metrics need validation against longer-term business outcomes.",
+        "The recommended shipping cadence may need different release gates in regulated, safety-critical, infrastructure-heavy, or enterprise-integrated products."
+      ],
+      "statement": "[[RuleOfThreesProductDevelopment]] adds a lightweight product-operating frame: [[SmallProductTeamBalance]] distributes accountability, [[ProductMetricLadder]] links business themes to short-cycle proxy metrics, [[ProductStorytelling]] turns direction into past-present-future narrative plus ROI models, [[UserResearchPatternThreshold]] treats repeated target-user signals as action cues, [[IterativeProductShipping]] makes releases evidence-generating, and [[ProductRetrospectives]] converts team experience into process learning.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RuleOfThreesProductDevelopment",
+        "SmallProductTeamBalance",
+        "ProductMetricLadder",
+        "ProductStorytelling",
+        "UserResearchPatternThreshold",
+        "IterativeProductShipping",
+        "ProductRetrospectives",
+        "CustomerLedProductDevelopment",
+        "StartupHypothesisTesting"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "pre-fit-startups-convert-runway-into-learning",
       "qualifications": [
         "The Maderight evidence is a founder retrospective of one failed, service-heavy apparel manufacturing startup rather than a controlled comparison across startup types.",

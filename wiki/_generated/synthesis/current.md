@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 6801bde12d33202ac554bcfff06486fdacfba0cc
+as_of_overview_commit: 8f41aee492675f6f18d37b82373515cb516b24cd
 summary: "The corpus treats tools, work, markets, and institutions as systems needing grounded inputs, feedback, verification, and accountability."
-episode_count: 70
-source_count: 70
-paragraph_count: 72
+episode_count: 71
+source_count: 71
+paragraph_count: 73
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[AICodingPractice]] requires [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so AI speed remains reviewable, learnable, and testable.
 - [[ProductionAgentInfrastructure]] extends ordinary software harnesses with [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because high-permission agents can create real side effects through nondeterministic decisions.
 - [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
-- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
+- [[RuleOfThreesProductDevelopment]] adds a lightweight product-operating frame: [[SmallProductTeamBalance]] distributes accountability, [[ProductMetricLadder]] links business themes to short-cycle proxy metrics, [[ProductStorytelling]] turns direction into past-present-future narrative plus ROI models, [[UserResearchPatternThreshold]] treats repeated target-user signals as action cues, [[IterativeProductShipping]] makes releases evidence-generating, and [[ProductRetrospectives]] converts team experience into process learning.
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ AI and technology sources converge on scaffolding and verification: AI writing n
 
 ### Business and Markets
 
-Business sources treat startups, solo products, SaaS, equity, marketing, differentiation, growth, and product evolution as experiments under constraint, where validation, distribution, trust signals, compensation transparency, and long-term platform adaptation matter as much as building.
+Business sources treat startups, solo products, SaaS, equity, marketing, differentiation, growth, product heuristics, and product evolution as experiments under constraint, where validation, distribution, trust signals, compensation transparency, communication, cadence, and long-term platform adaptation matter as much as building.
 
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SteveRidout]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]], [[OutsourcedProductDevelopment]].

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [7 Ways to Use the Rule of Threes to Build Great Products](sources/7-ways-to-use-the-rule-of-threes-to-build-great-products.md) - Women in Product article using triads to frame product-team balance, layered metrics, storytelling, proxy timeframes, user-research thresholds, iteration cadence, and retrospectives.
 - [7 Reasons Why Your Staging Environment Sucks - Loadmill](sources/7-reasons-why-your-staging-environment-sucks-loadmill.md) - Loadmill article arguing that staging only catches production bugs when it resembles production across architecture, runtime, monitoring, data, traffic, internet exposure, and failure conditions.
 - [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started](sources/7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started.md) - Alex Turnbull's Groove founder-advice article arguing that startups should focus on value and profit, build value-first relationships, talk to customers, defend brand and culture, buy back founder time, define success personally, and learn to sell vision.
 - [7 Lessons on Building Product with Outsourced Developers - Mind the Product](sources/7-lessons-on-building-product-with-outsourced-developers-mind-the-product.md) - Mind the Product article arguing that outsourced development can support MVP validation when hiring, fit testing, scope, QA, technical documentation, and issue tracking are managed explicitly.
@@ -81,6 +82,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
 - [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
 - [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
+- [Women in Product](entities/WomenInProduct.md) - Publication or Medium collection context for the rule-of-threes product-management source.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of seeding early adoption through tech-community events and free rides.
@@ -344,6 +346,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
+- [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
+- [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
+- [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
+- [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
+- [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
+- [Iterative Product Shipping](concepts/IterativeProductShipping.md) - Releasing product work in frequent staged versions so each release creates evidence, reduces bugs, and guides investment.
+- [Product Retrospectives](concepts/ProductRetrospectives.md) - Team reflection practice using start, stop, and continue to turn recent product work into process learning.
 - [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.

@@ -71,13 +71,14 @@
       "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
+      "098b082e442368c4ff563026d380d92d2d03995bb9617d70a88d33a9ab1c0110",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 72
+    "paragraph_count": 73
   },
-  "overview_commit": "6801bde12d33202ac554bcfff06486fdacfba0cc",
-  "overview_digest": "788f03f12161cbcf550680ababe8331977a06afbeab5ce1e325d3227fc1f3121",
+  "overview_commit": "8f41aee492675f6f18d37b82373515cb516b24cd",
+  "overview_digest": "6df2d3e229bc41517754f946957698053cdd49e74cee0028cf8cbceac7fa6ef1",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1458,6 +1459,27 @@
         "MinimumViableProduct",
         "OutsourcedProductDevelopment",
         "ProductEvolution"
+      ]
+    },
+    {
+      "id": "098b082e442368c4ff563026d380d92d2d03995bb9617d70a88d33a9ab1c0110",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Women in Product rule-of-threes source adds a compact product-operating heuristic. [[RuleOfThreesProductDevelopment]] uses triads to connect [[SmallProductTeamBalance]], [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[IterativeProductShipping]], and [[ProductRetrospectives]]. Its contribution to the startup and product material is practical rather than empirical: product teams should link business themes to short-cycle proxy metrics, explain strategy as past-present-future plus ROI model, treat three matching target-user observations as a qualitative pattern, ship staged versions to learn before overinvesting, and use start-stop-continue retrospectives to improve the team process. This strengthens [[CustomerLedProductDevelopment]] and [[StartupHypothesisTesting]] while qualifying them with a reminder that simple heuristics need target-user screening, metric validation, and context-sensitive release gates.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4
+      },
+      "wikilinks": [
+        "CustomerLedProductDevelopment",
+        "IterativeProductShipping",
+        "ProductMetricLadder",
+        "ProductRetrospectives",
+        "ProductStorytelling",
+        "RuleOfThreesProductDevelopment",
+        "SmallProductTeamBalance",
+        "StartupHypothesisTesting",
+        "UserResearchPatternThreshold"
       ]
     },
     {

@@ -584,6 +584,14 @@ Ingested Loadmill's staging-environment article. Added source, concept, and enti
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 7 Ways to Use the Rule of Threes to Build Great Products
+
+Ingested the Women in Product rule-of-threes article. Added source, publication context, and concept pages for product triads, small-team balance, metric ladders, product storytelling, user-research thresholds, iterative shipping, and retrospectives; updated index and overview to capture the new product-operating heuristic.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
