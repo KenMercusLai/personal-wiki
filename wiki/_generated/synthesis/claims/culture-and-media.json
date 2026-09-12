@@ -115,6 +115,21 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "product-language-can-create-new-cultural-behaviors",
+      "qualifications": [
+        "The Apple Watch material is a secondary culture-and-media assignment and comes from one technology-market analysis rather than a broader media or cultural-behavior study."
+      ],
+      "statement": "[[AppleWatch]] illustrates how product language can precede a new behavior category: [[HoraceDediu]] compares it with the [[IPhone]]'s iPod, internet communicator, and phone frame, then treats [[WearableComputing]] health signals as a possible new vocabulary for everyday behavior.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AppleWatch",
+        "HoraceDediu",
+        "IPhone",
+        "WearableComputing"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "object-aesthetics-centers-participatory-disclosure",
       "qualifications": [
@@ -195,6 +210,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, video infrastructure, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; game-server and backend operations form a hidden delivery layer for live-game experience; self-hosted camera recording shows how media capture can become an ownership and infrastructure choice; BuzzFeed's media-brand portfolio frames platform revenue as a condition for shared journalism and entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; Apple Watch shows how product framing can help new wearable behaviors become speakable; game-server and backend operations form a hidden delivery layer for live-game experience; self-hosted camera recording shows how media capture can become an ownership and infrastructure choice; BuzzFeed's media-brand portfolio frames platform revenue as a condition for shared journalism and entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }

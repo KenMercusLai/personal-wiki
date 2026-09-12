@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 5d8c3d76d67d2d588243260637d4d508d513749b
-input_digest: 930536f42d8a9e9cd350f43020cfdb75afd094dff3b35f3e67ea257145c3c28c
+as_of_overview_commit: 2cafbb4f550aaa0ac37084258c1f5bb2231daa8a
+input_digest: 6ab5337c61e0e029ad1f44433c6bce3521e3566e8d0b168aa778d3a2e48282d2
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs and customer conversations, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, and platforms as systems whose value must be perceived by users, not merely asserted by builders.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.
 
 ## Cross-source Findings
 
@@ -167,6 +167,16 @@ Business and market sources connect startup validation, product evolution, distr
 
 - Advertising and differentiation claims rely on practitioner interpretation and iconic examples; effects depend on product quality, distribution, pricing, timing, media budget, and buyer context.
 
+### Wearables Extend Mobile Platforms Through Health Category Creation
+
+[[AppleWatch]] shows mobile category extension through [[WearableComputing]]: [[HoraceDediu]] frames the Watch as an [[IPhone]] companion that can take over lightweight phone, music, map, and communication tasks while using health and fitness as a distinct [[CategoryCreation]] path beyond watches or phones.
+
+**Evidence:** [[AppleWatch]], [[WearableComputing]], [[HoraceDediu]], [[IPhone]], [[CategoryCreation]], [[Rolex]]
+
+**Qualifications:**
+
+- The Apple Watch evidence is an analyst estimate from 2017 and projects future independence from technology trajectory and product analogy rather than later outcome data.
+
 ### Startup Scaling Turns Validation Into Organization Design
 
 [[StartupScaling]] extends validation into organization design: [[Blitzscaling]] may trade efficiency for speed after readiness and competition appear, while [[ProductMarketFit]] shifts attention toward [[StartupHiringAtScale]], [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], [[TalentDensity]], [[SupportLoadScaling]], and [[CryptoWalletSecurity]].
@@ -209,9 +219,9 @@ Business and market sources connect startup validation, product evolution, distr
 
 ### Mobile Platforms Control Discovery And Runtime Strategy
 
-[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], and [[MessagingAsPlatform]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, and data-producing devices reshape product distribution.
+[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], and [[WearableComputing]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, data-producing devices, and smartphone-adjacent wearables reshape product distribution.
 
-**Evidence:** [[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], [[Apple]], [[Google]], [[Microsoft]], [[InternetOfThingsData]]
+**Evidence:** [[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], [[Apple]], [[Google]], [[Microsoft]], [[InternetOfThingsData]], [[WearableComputing]], [[AppleWatch]]
 
 **Qualifications:**
 

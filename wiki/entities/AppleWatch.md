@@ -1,0 +1,45 @@
+---
+title: "Apple Watch"
+type: entity
+tags: [apple, wearables, smartwatch, health, mobile]
+sources:
+  - a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco
+last_updated: 2026-09-13
+knowledge_schema: synthesis-v1
+---
+
+## Overview
+[[AppleWatch]] is presented as Apple's wearable product that began as an iPhone companion and was already becoming a large watch business and a new health-oriented computing category by 2017.
+
+## Current Profile
+[[HoraceDediu]] frames Apple Watch as both financially significant and strategically unfinished. By his estimate, it had sold about 15 million units in the previous twelve months at around $330 average revenue, giving it a revenue run rate slightly above [[Rolex]]'s 2016 sales; the embedded chart also estimates about 33 million cumulative units and $12.3 billion cumulative revenue. Strategically, the Watch still depends on [[IPhone]] activation and plan extension, but Series 3's LTE, W2 processor, faster Wi-Fi, faster processor, and improved efficiency suggest a path toward more independent [[WearableComputing]]. The product borrows the original iPhone's iPod, internet communicator, and phone roles while moving in its own direction through fitness, resting heart rate, arrhythmia, and atrial-fibrillation use cases.
+
+## Key Characteristics
+- Reached meaningful early scale in units and revenue shortly after launch.
+- Began as an [[IPhone]] companion rather than an independent computing platform.
+- Added connectivity and silicon capabilities that made more independent use cases plausible.
+- Took some lightweight communication, media, navigation, and call usage away from the iPhone.
+- Repeated the original iPhone's iPod, internet communicator, and phone roles in a wrist-worn form.
+- Opened a distinct health and fitness direction rather than merely shrinking the iPhone.
+
+## Evidence
+- Revenue scale: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] estimates roughly 15 million annual units at around $330 average revenue, or about $4.9 billion.
+- Cumulative scale: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] includes a chart estimating about 33 million units and $12.3 billion in cumulative Watch revenue.
+- Companion status: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] says the Watch still needed iPhone activation and plan extension in 2017.
+- Independence path: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] compares Watch dependence to the iPhone's former need for a PC or Mac.
+- Capability gains: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] cites LTE, W2 silicon, faster Wi-Fi, faster processing, and better power efficiency.
+- Health direction: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] treats fitness, resting rate, arrhythmia, and atrial fibrillation as evidence of a new product language around health.
+
+## Qualifications
+The source is an analyst estimate from 2017, not audited Apple Watch unit reporting. It also projects future independence and category direction from Series 3 capabilities, so later Apple Watch outcomes need separate sources before being treated as confirmed.
+
+## What Changed
+- Created Apple Watch as a distinct entity and positioned it as both a large early watch business and an emerging wearable-computing platform.
+
+## Relationships
+- [[Apple]] - maker of Apple Watch.
+- [[IPhone]] - companion and predecessor product whose roles and dependency path frame the Watch.
+- [[Rolex]] - incumbent watchmaker used as a revenue benchmark.
+- [[WearableComputing]] - Apple Watch is the source's concrete wearable-computing case.
+- [[MobileEcosystem]] - Apple Watch begins as a satellite of the iPhone-centered mobile ecosystem.
+- [[CategoryCreation]] - fitness and health are framed as the Watch's distinct market-creation path.

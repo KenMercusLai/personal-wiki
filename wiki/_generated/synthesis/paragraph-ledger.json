@@ -63,6 +63,7 @@
       "ae3c32a82a700ed13c784a6b0780ff168f00f9b0912cb94d39b5d8555fc9e6ee",
       "cedf49e41697a1f9a734b3cef07360241e3cd0c17be3b8f2cfeae33a748aa702",
       "e6ed3471285a6de6420b21726ef8f78b2268d163d998585b8326ef70fef86db8",
+      "3a4c581da47e3995cc5d4684e89a312ca497b91735ff35eeda7429b837e7c971",
       "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
       "f245a8a3a8e92e242d75c4d8ebab69c4db3b48ab57d59b5f69d71c970add006a",
@@ -104,10 +105,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 102
+    "paragraph_count": 103
   },
-  "overview_commit": "01352799c86680cddd93c40741d1fa3e192c04da",
-  "overview_digest": "e7f5f80faaec98064cf705b7b7beb4e9a5e6e8cb43e73ec8b7d3f606b6bda549",
+  "overview_commit": "2cafbb4f550aaa0ac37084258c1f5bb2231daa8a",
+  "overview_digest": "3886d1de3773ecb322d74089785bf7bb7971b64ac4ae4a4c3bbc49f5ccfd063d",
   "paragraphs": [
     {
       "id": "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
@@ -1299,6 +1300,30 @@
         "SocialProof",
         "SteveJobs",
         "SteveWozniak"
+      ]
+    },
+    {
+      "id": "3a4c581da47e3995cc5d4684e89a312ca497b91735ff35eeda7429b837e7c971",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "culture-and-media"
+      ],
+      "text": "The Asymco Apple Watch source adds a wearable-product case to the Apple and mobile ecosystem material. [[HoraceDediu]] estimates that [[AppleWatch]] had reached about 15 million annual units, $4.9 billion annual revenue, 33 million cumulative units, and $12.3 billion cumulative revenue by 2017, enough to compare it favorably with [[Rolex]] revenue despite much lower average revenue per watch. Strategically, the source frames Apple Watch as an [[IPhone]] companion that may follow the iPhone's own path from dependent activation toward independence, with LTE, W2 silicon, faster Wi-Fi, faster processing, and improved power efficiency letting it take over calls, alerts, music, maps, Siri, and location use cases. [[WearableComputing]] becomes the broader concept: the Watch repeats the original iPhone's iPod, internet communicator, and phone roles, but its distinct [[CategoryCreation]] path points toward fitness, resting heart rate, arrhythmia, atrial fibrillation, and new health-centered behavior.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AppleWatch",
+        "CategoryCreation",
+        "HoraceDediu",
+        "IPhone",
+        "Rolex",
+        "WearableComputing"
       ]
     },
     {

@@ -288,6 +288,23 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "wearables-extend-mobile-platforms-through-health-category-creation",
+      "qualifications": [
+        "The Apple Watch evidence is an analyst estimate from 2017 and projects future independence from technology trajectory and product analogy rather than later outcome data."
+      ],
+      "statement": "[[AppleWatch]] shows mobile category extension through [[WearableComputing]]: [[HoraceDediu]] frames the Watch as an [[IPhone]] companion that can take over lightweight phone, music, map, and communication tasks while using health and fitness as a distinct [[CategoryCreation]] path beyond watches or phones.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AppleWatch",
+        "WearableComputing",
+        "HoraceDediu",
+        "IPhone",
+        "CategoryCreation",
+        "Rolex"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "startup-scaling-turns-validation-into-organization-design",
       "qualifications": [
@@ -375,7 +392,7 @@
       "qualifications": [
         "The mobile source is a theses-style strategy essay and should be updated against later platform, app-store, and messaging-market changes when used for current decisions."
       ],
-      "statement": "[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], and [[MessagingAsPlatform]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, and data-producing devices reshape product distribution.",
+      "statement": "[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], and [[WearableComputing]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, data-producing devices, and smartphone-adjacent wearables reshape product distribution.",
       "status": "supported",
       "supporting_wikilinks": [
         "MobileEcosystem",
@@ -386,7 +403,9 @@
         "Apple",
         "Google",
         "Microsoft",
-        "InternetOfThingsData"
+        "InternetOfThingsData",
+        "WearableComputing",
+        "AppleWatch"
       ]
     },
     {
@@ -408,6 +427,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs and customer conversations, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, and platforms as systems whose value must be perceived by users, not merely asserted by builders.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.",
   "topic_id": "business-and-markets"
 }

@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-13
-as_of_overview_commit: 9bd011819f0d302d088b72b5d14e4d623cc1527d
-input_digest: 2908655b31b3645564bdb1bffd1ad8fcae84674aaf6b94be00b4d24c3c11541c
+as_of_overview_commit: 2cafbb4f550aaa0ac37084258c1f5bb2231daa8a
+input_digest: f764d7de64f8f631cca7014dff1a969678255cc28e6964a634204b30e2481e93
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, WSL configuration boundaries, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, product boundaries, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch's iPhone dependency show how technical boundaries allocate responsibility and independence; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -68,6 +68,16 @@ The governance-related material is still narrow but now spans control problems a
 - This is a secondary governance assignment from game-server and platform-engineering sources, not a broad organizational governance study.
 - The sources describe practitioner views of moving responsibility from manual coordination toward engineering-owned workflows.
 - The WSL material is a local environment procedure, so its governance relevance is limited to configuration boundaries and operational responsibility.
+
+### Platform Dependence Sets Product Boundaries
+
+[[AppleWatch]] shows platform dependence as a boundary-setting problem: [[HoraceDediu]] says the Watch remained tied to [[IPhone]] activation and plan extension even as [[WearableComputing]] capabilities pointed toward more independent use.
+
+**Evidence:** [[AppleWatch]], [[HoraceDediu]], [[IPhone]], [[WearableComputing]]
+
+**Qualifications:**
+
+- The Apple Watch evidence is a secondary governance assignment and is best read as product-boundary analysis, not legal or institutional governance.
 
 ### Platform Features Need Accountable Product Boundaries
 

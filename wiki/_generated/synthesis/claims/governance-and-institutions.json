@@ -85,6 +85,21 @@
     },
     {
       "global_candidate": false,
+      "id": "platform-dependence-sets-product-boundaries",
+      "qualifications": [
+        "The Apple Watch evidence is a secondary governance assignment and is best read as product-boundary analysis, not legal or institutional governance."
+      ],
+      "statement": "[[AppleWatch]] shows platform dependence as a boundary-setting problem: [[HoraceDediu]] says the Watch remained tied to [[IPhone]] activation and plan extension even as [[WearableComputing]] capabilities pointed toward more independent use.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AppleWatch",
+        "HoraceDediu",
+        "IPhone",
+        "WearableComputing"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "platform-features-need-accountable-product-boundaries",
       "qualifications": [
         "The claim is inferred from one retrospective paragraph and one campaign-technology paragraph; it needs more sources before becoming a broad governance rule.",
@@ -138,6 +153,6 @@
       ]
     }
   ],
-  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, WSL configuration boundaries, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
+  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, product boundaries, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch's iPhone dependency show how technical boundaries allocate responsibility and independence; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
   "topic_id": "governance-and-institutions"
 }

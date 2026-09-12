@@ -16,6 +16,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Terrible, Horrible, No Good, Very Bad Hardbound Update](sources/a-terrible-horrible-no-good-very-bad-hardbound-update.md) - Nathan Bashaw's Hardbound postmortem showing how product love, usage, and paying customers still left unresolved growth, revenue, fundraising, and content-production economics.
 - [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
 - [A Selfie For The Planet](sources/a-selfie-for-the-planet.md) - Fast Company profile of Ed Parsons and Google's Geo work, framing Google Maps, Google Earth, Street View, location data, user contributions, and OpenStreetMap as a shift from static maps to personalized platform cartography.
+- [A small-screen iPod, an Internet Communicator and a Phone](sources/a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco.md) - Horace Dediu argues that Apple Watch had quickly become a major watch business and was moving from iPhone companion toward independent wearable computing and health.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
@@ -306,6 +307,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
 - [Apple](entities/Apple.md) - Mobile platform winner whose iOS ecosystem concentrates high-value users and platform-control power in the source's 2015 framing.
+- [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
+- [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
+- [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business and health-oriented mobile ecosystem extension.
+- [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
+- [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product and independence precedent.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the advertising source's humble-origin and hands-on engineering narrative.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, and discovery control.
@@ -470,6 +476,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
+- [Wearable Computing](concepts/WearableComputing.md) - Wrist-worn or body-adjacent computing that extends mobile functions while creating health, fitness, and contextual use cases.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
 - [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull justifies shifting from discovery toward growth and organization-building.
