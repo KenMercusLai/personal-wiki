@@ -17,12 +17,13 @@
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
-      "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6"
+      "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
+      "716a663d3751d8c35bc7dd9192194c70c08fc4556077e00e91661f9623e72177"
     ],
-    "paragraph_count": 17
+    "paragraph_count": 18
   },
-  "overview_commit": "93f7cea3f726dce73c4192c651025cf7b5ef3500",
-  "overview_digest": "09fe2ac5c4acf95d0debf044aa268e7d3278e7f3bbb1e39f1dff2b976ad461b9",
+  "overview_commit": "9ee540906c6d945c9a2371235d2b3055f21411df",
+  "overview_digest": "fd89500305380d72a92ba0ebde9421031f9b2e10d59f2559936c22533404cf9e",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -331,6 +332,27 @@
         "ModelContextProtocol",
         "RORIRI",
         "RetrievalAugmentedGeneration"
+      ]
+    },
+    {
+      "id": "716a663d3751d8c35bc7dd9192194c70c08fc4556077e00e91661f9623e72177",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest AI-first source extends the AI coding thread from individual practice into organization design. [[AIFirstEngineering]] is presented as more than putting AI tools into an existing agile workflow: it means redesigning planning, coding, review, testing, deployment, monitoring, and even non-engineering functions around agents as primary builders. The source's strongest qualification is that this only works when [[HarnessEngineering]] and [[SoftwareVerification]] are already strong: automated tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture make AI speed usable rather than chaotic. The translated [[PeterPang]] case study of [[CREAO]] and [[Claude]] is therefore more automation-first than Piglei's collaboration-first advice, but both converge on the same limiting factor: human value moves toward architecture, critical judgment, product taste, risk review, and the design of the systems that constrain agent output. For [[JuniorEngineerLearning]], the source adds a tension: juniors may adapt faster to AI-native workflows, but that does not remove the need to deliberately protect debugging, design, documentation, and architecture learning.",
+      "topic_scores": {
+        "ai-and-technology": 6,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIFirstEngineering",
+        "CREAO",
+        "Claude",
+        "HarnessEngineering",
+        "JuniorEngineerLearning",
+        "PeterPang",
+        "SoftwareVerification"
       ]
     }
   ],

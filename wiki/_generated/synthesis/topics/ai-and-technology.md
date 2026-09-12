@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 37271a343d5a57562a41ec7bd4cf925cb9c591bd
-input_digest: e6879dec0553fb6ef42a0747d2fcfb8071f56ba88d801b371f8d984474890888
+as_of_overview_commit: 9ee540906c6d945c9a2371235d2b3055f21411df
+input_digest: 24979a6736873aa846e77f34034b4a2f0da6a4ab7031ee5af467b9ea7de9075d
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, and LLM context/action architecture. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding still needs human controls, and Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as different ways to manage context and action surfaces.
+The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, and AI-first engineering workflow design. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, and AI-first engineering only becomes plausible when harnesses make agent output testable, observable, reversible, and bounded.
 
 ## Cross-source Findings
 
@@ -78,14 +78,14 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 ### Ai Coding Requires Human Engineering Controls
 
-[[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].
+[[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], even when AI-first workflows automate more implementation and review.
 
 **Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[JuniorEngineerLearning]], [[Piglei]]
 
 **Qualifications:**
 
-- The evidence is a practitioner guide from [[Piglei]] rather than a measured productivity or defect-rate study.
-- The article's advice may vary by team maturity, production risk, review culture, and the learning stage of the engineer.
+- The evidence is practitioner essay material rather than a measured productivity or defect-rate study.
+- The two AI coding sources emphasize different levels: Piglei centers collaboration, responsibility, reviewability, and learning protection; the AI-first case study centers organization-level automation and role redesign.
 
 ### Llm Tooling Manages Context And Actions
 
@@ -107,3 +107,14 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 **Qualifications:**
 
 - The source does not cover accessibility-tree limits, custom UI surfaces, security boundaries, or pixel-only cases.
+
+### Ai First Engineering Needs Harnesses
+
+[[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; the [[CREAO]] and [[Claude]] case study makes this more automation-first than earlier collaboration-first guidance.
+
+**Evidence:** [[AIFirstEngineering]], [[HarnessEngineering]], [[SoftwareVerification]], [[CREAO]], [[Claude]], [[JuniorEngineerLearning]], [[PeterPang]]
+
+**Qualifications:**
+
+- The claim is grounded in a skeptical commentary plus a single company case study, not independently verified multi-team evidence.
+- The source explicitly limits fit for UI-dense, quality-sensitive, and safety-critical products.

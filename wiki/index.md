@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
 - [一份关于 AI 编程的简明行为指南 | Piglei](sources/yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei.md) - A software-engineering guide arguing that AI coding agents should be used through accountable collaboration, small reviewable changes, verification, stable libraries, and learning-protective habits for junior engineers.
@@ -29,7 +30,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
+- [Claude](entities/Claude.md) - AI assistant used in the CREAO case study for pull-request review, debugging, production-health summaries, and issue triage.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
+- [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
 - [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
 - [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer cited for product-idea filtering, business creativity, and open email connection.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
@@ -51,6 +54,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
+- [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
 - [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
 - [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
 - [Piotr Wozniak](entities/PiotrWozniak.md) - Learning theorist and author arguing that goals, curiosity, and knowledge valuation shape learning drive.
@@ -70,6 +74,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Accessibility Tree](concepts/AccessibilityTree.md) - Semantic UI tree used by assistive technology and agentic Computer Use workflows.
+- [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, and tools.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
@@ -95,6 +100,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
 - [Head-of-Line Blocking](concepts/HeadOfLineBlocking.md) - A blocking pattern where later HTTP work waits behind stalled earlier work or lost TCP data.
+- [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
 - [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, and server push to improve performance.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 93f7cea3f726dce73c4192c651025cf7b5ef3500
-summary: "A personal wiki on work, learning, AI systems, creator business, web infrastructure, algorithms, and localization, with emphasis on judgment and tradeoffs."
-episode_count: 14
-source_count: 14
-paragraph_count: 17
+as_of_overview_commit: 9ee540906c6d945c9a2371235d2b3055f21411df
+summary: "A personal wiki linking AI systems, software practice, learning, productivity, indie work, infrastructure, and creative localization."
+episode_count: 15
+source_count: 15
+paragraph_count: 18
 topic_count: 8
 ---
 
@@ -16,63 +16,63 @@ topic_count: 8
 
 ## Executive Summary
 
+- [[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; the [[CREAO]] and [[Claude]] case study makes this more automation-first than earlier collaboration-first guidance.
 - [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.
-- [[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
+- [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.
+- [[IndependentCreator]] work can become a staged career and business path when [[BootstrappedSaaS]], [[MicroCompany]] operations, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[PersonalBranding]], and [[ProgrammerFreelancing]] are combined rather than treating technical building as sufficient by itself.
 - [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside.
-- [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
-- [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values, while [[ProgrammerFreelancing]] adds a reversible experiment that must account for money, isolation, and fallback design.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI coverage spans knowledge assistants, retrieval-augmented chatbots, inference routing, reusable LLM tooling, AI coding practice, and context/action architecture. Useful AI systems need retrieval, context management, workload-aware infrastructure, and accountable human engineering controls.
+AI is treated as both product capability and engineering workload: useful systems need retrieval, context control, workload-aware infrastructure, responsible coding practice, and harnesses that make agent work testable, observable, reversible, and bounded.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. Evidence: [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]].
 
 ### Business and Markets
 
-Business coverage centers on independent creator economics. Viable paths include overseas bootstrapped SaaS and programmer freelancing, but both require more than technical building: income stability, distribution, infrastructure, customer learning, and founder constraints shape outcomes.
+Independent software work is framed as a business design problem: stable income, distribution, customer learning, payment infrastructure, and marketing matter as much as technical product work.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].
 
 ### Cross-domain
 
-Cross-domain coverage currently adds an applied algorithm example: trajectory simplification reduces dense GPS paths for cheaper transfer, storage, and map rendering when broad route shape is enough.
+Applied algorithms are represented through trajectory simplification, where display-oriented systems can trade exact point fidelity for lower transfer, storage, and rendering cost.
 
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
 
 ### Culture and Media
 
-Culture-and-media coverage treats game localization as experience reconstruction. Pun-heavy works may need computational candidate retrieval, domesticated wording, and redesigned player guidance so target-language players encounter jokes and mechanics with comparable effect.
+Creative localization can combine computational retrieval with human domestication so jokes, names, and mechanics preserve player experience across languages.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 
 ### Governance and Institutions
 
-Governance-related coverage remains narrow. It includes technical control points in inference gateways and a learning-oriented caution that institutions, credential competition, and rote pressure can distort meaningful aims, but not yet formal regulation or public policy.
+The current governance-adjacent material is mostly indirect, highlighting how standards, credentials, institutions, and infrastructure shape technical and learning choices.
 
 ### Psychology and Personal Development
 
-Psychology and personal development center on learning motivation. Goals help when they protect curiosity and make knowledge valuable, while abstraction helps learners handle complex or unstable domains without memorizing every changing detail.
+Learning and development sources emphasize goals, attention, curiosity, abstraction, and knowledge valuation as ways to protect motivation without reducing learning to rote compliance.
 
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]].
 - [[CreativeAbstraction]] helps learners keep motivation in complex domains by replacing exhaustive memorization with pattern seeking, general principles, and references for detail lookup. Evidence: [[CreativeAbstraction]], [[PiotrWozniak]].
 
 ### Science, Health, and Climate
 
-Science, health, and climate is currently only indirectly represented through attention advice. The corpus treats attention as a scarce work resource protected by single-tasking, lower-noise inputs, offline work, and reducing procrastination load.
+The current science-health-climate slice is thin and mostly cognitive: attention is treated as a scarce work resource rather than as a biomedical evidence topic.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society spans productivity habits, active learning, learning goals, career design, technical standards, cloud deployment choices, independent creator work, and programmer freelancing. Durable practice means reducing friction, protecting attention and curiosity, and matching tools or work models to long-term fit.
+Work and education are presented as systems of habits, output, career path design, software standards, deployment tradeoffs, independent creation, and learning-aware AI use.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]] and [[TimeManagementQuadrants]] connect effective work to single-tasking, lower-noise inputs, and deliberate protection of important non-urgent tasks. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].

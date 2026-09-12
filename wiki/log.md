@@ -88,6 +88,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 为什么你的"AI 优先"战略可能大错特错？
+
+Added source note and synthesis pages for AI-first engineering and harness engineering. Added entity profiles for CREAO, Peter Pang, and Claude, and updated AI coding practice, software verification, junior engineer learning, and overview synthesis. Key claims: AI-first work is workflow redesign rather than tool adoption; AI speed depends on automated tests, CI/CD, feature flags, monitoring, task management, and architecture; humans shift toward scaffold design, strategic risk review, and critical judgment; the model is less suitable for UI-dense, quality-sensitive, and safety-critical products.
+
 ## [2026-09-12] ingest | 不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking
 
 Added source note and synthesis pages for programmer freelancing and personal branding. Added entity profiles for Zhang Xuan, EasyCV, and Imooc, and updated independent creator, career planning, knowledge output, SaaS marketing, personal productivity, and overview synthesis. Key claims: freelancing needs financial runway and stable baseline income; course platforms can fund independent work; product experiments teach technical and marketing skills before they become meaningful revenue; personal branding can become a distribution channel; solo work needs routines and a stop-loss option.
@@ -103,6 +107,10 @@ Added source note and synthesis pages for AI coding practice, human code respons
 ## [2026-09-12] ingest | 一个独立创造者的五年
 
 Added source note and synthesis pages for independent creators, bootstrapped SaaS, micro-companies, SaaS marketing, customer-led product development, and business as art. Added entity profiles for Hawstein, AlgoCasts, Stripe, and Derek Sivers. Key claims: solo SaaS can combine global distribution, modular infrastructure, recurring revenue, practical marketing, and close customer support, but the model is shaped by autonomy preferences and real operational constraints.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

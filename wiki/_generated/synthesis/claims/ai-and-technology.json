@@ -92,11 +92,11 @@
       "global_candidate": true,
       "id": "ai-coding-requires-human-engineering-controls",
       "qualifications": [
-        "The evidence is a practitioner guide from [[Piglei]] rather than a measured productivity or defect-rate study.",
-        "The article's advice may vary by team maturity, production risk, review culture, and the learning stage of the engineer."
+        "The evidence is practitioner essay material rather than a measured productivity or defect-rate study.",
+        "The two AI coding sources emphasize different levels: Piglei centers collaboration, responsibility, reviewability, and learning protection; the AI-first case study centers organization-level automation and role redesign."
       ],
-      "statement": "[[AICodingPractice]] adds a human-practice layer to AI technology: engineers should use [[AIAgentCollaboration]] while preserving [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-protective habits for [[JuniorEngineerLearning]].",
-      "status": "supported",
+      "statement": "[[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], even when AI-first workflows automate more implementation and review.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "AICodingPractice",
         "AIAgentCollaboration",
@@ -138,8 +138,27 @@
         "AccessibilityTree",
         "ComputerUse"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ai-first-engineering-needs-harnesses",
+      "qualifications": [
+        "The claim is grounded in a skeptical commentary plus a single company case study, not independently verified multi-team evidence.",
+        "The source explicitly limits fit for UI-dense, quality-sensitive, and safety-critical products."
+      ],
+      "statement": "[[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; the [[CREAO]] and [[Claude]] case study makes this more automation-first than earlier collaboration-first guidance.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIFirstEngineering",
+        "HarnessEngineering",
+        "SoftwareVerification",
+        "CREAO",
+        "Claude",
+        "JuniorEngineerLearning",
+        "PeterPang"
+      ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, and LLM context/action architecture. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding still needs human controls, and Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as different ways to manage context and action surfaces.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, and AI-first engineering workflow design. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, and AI-first engineering only becomes plausible when harnesses make agent output testable, observable, reversible, and bounded.",
   "topic_id": "ai-and-technology"
 }

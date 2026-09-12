@@ -17,11 +17,12 @@ sources:
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
   - yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian
   - bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua
+  - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, AI-assisted coding practice, LLM context-management architecture, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, LLM context-management architecture, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
 
 ## Current Synthesis
 
@@ -59,6 +60,8 @@ The newest AI coding source adds a human-practice layer to the wiki's AI materia
 
 The newest LLM terminology source adds an architectural layer that links the wiki's AI application, retrieval, and agent material through [[LLMContextManagement]]. [[RORIRI]] argues that [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] are not isolated buzzwords but different ways to shape context or open action channels. The key distinction is how strongly each mechanism constrains the model: Skills add prompt-level expert guidance, MCP narrows actions through typed function calls, RAG and Memory retrieve external information only when needed, and dynamic compression tries to preserve context quality before passive summarization loses important detail. The source also adds a serving and interface qualification: changing context can conflict with prompt/KV caching, while Computer Use still inherits context-pollution risks even when it operates software through semantic structures such as the [[AccessibilityTree]].
 
+The newest AI-first source extends the AI coding thread from individual practice into organization design. [[AIFirstEngineering]] is presented as more than putting AI tools into an existing agile workflow: it means redesigning planning, coding, review, testing, deployment, monitoring, and even non-engineering functions around agents as primary builders. The source's strongest qualification is that this only works when [[HarnessEngineering]] and [[SoftwareVerification]] are already strong: automated tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture make AI speed usable rather than chaotic. The translated [[PeterPang]] case study of [[CREAO]] and [[Claude]] is therefore more automation-first than Piglei's collaboration-first advice, but both converge on the same limiting factor: human value moves toward architecture, critical judgment, product taste, risk review, and the design of the systems that constrain agent output. For [[JuniorEngineerLearning]], the source adds a tension: juniors may adapt faster to AI-native workflows, but that does not remove the need to deliberately protect debugging, design, documentation, and architecture learning.
+
 ## Open Questions
 
 - How do these productivity habits vary across roles that require rapid responsiveness or collaborative interruption?
@@ -88,6 +91,8 @@ The newest LLM terminology source adds an architectural layer that links the wik
 - Which AI coding practices should vary by codebase risk, team maturity, review culture, and production criticality?
 - How can teams measure whether AI-assisted coding is improving quality and learning rather than only increasing diff volume?
 - What balance of manual debugging and agent assistance best protects junior-engineer growth while still meeting delivery deadlines?
+- Which teams have enough automated verification, observability, architecture clarity, and rollback ability to make AI-first engineering safer than AI-assisted incremental adoption?
+- How should organizations measure whether AI-first role redesign improves product quality rather than only deployment frequency?
 - How can LLM systems measure context quality, not just context length, when deciding what to retrieve, evict, compress, or keep?
 - Which LLM tasks benefit more from prompt-level Skills, and which should be promoted into structured MCP-style tools?
 - How should dynamic context compression preserve auditability, provenance, and cache efficiency while removing misleading or low-value material?

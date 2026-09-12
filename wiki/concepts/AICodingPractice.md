@@ -4,6 +4,7 @@ type: concept
 tags: [ai, software-engineering, developer-tools]
 sources:
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
+  - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[AICodingPractice]] is the set of engineering behaviors, team norms, and review habits used when software developers work with AI coding agents.
 
 ## Current Synthesis
-The source frames AI coding practice as a sociotechnical discipline rather than a prompt library. Coding agents can increase implementation speed and expand what one engineer can attempt, but the useful practice pattern is bounded by human responsibility: understand generated code, shape the design, control review size, prefer stable libraries for mature problems, verify behavior, and keep learning rather than merely accepting outputs.
+The sources frame AI coding practice as a sociotechnical discipline rather than a prompt library. Piglei emphasizes the individual and team practice layer: understand generated code, shape the design, control review size, prefer stable libraries for mature problems, verify behavior, and protect learning. The newer AI-first source expands the frame to organization-level workflow design: agents become useful at production speed only when surrounded by tests, CI/CD, monitoring, task management, architecture, feature flags, and human strategic review.
 
 ## Key Claims
 - AI coding practice requires shared team expectations because inconsistent agent-use habits can create collaboration friction.
@@ -21,6 +22,7 @@ The source frames AI coding practice as a sociotechnical discipline rather than 
 - Fast AI output increases the need for small PRs, review aids, and pre-PR self-review.
 - Verification through tests and self-checks is part of the workflow, not a later review responsibility.
 - Junior engineers need AI practices that protect learning quality rather than optimize only for speed.
+- AI-first coding practice depends on engineering systems that let agent output be checked, shipped, observed, and rolled back quickly.
 
 ## Evidence
 - Team norm: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] warns that teammates without shared assumptions about AI coding can create project friction.
@@ -29,12 +31,13 @@ The source frames AI coding practice as a sociotechnical discipline rather than 
 - Reviewability: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] recommends controlling PR size and adding design notes when a large PR cannot be split.
 - Verification: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] recommends automated tests, self-testing, and agent-verifiable loops.
 - Learning stage: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] gives junior engineers stricter advice on debugging, independent design, documentation, and architecture learning.
+- Production harness: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] argues that AI coding speed only helps when automated tests, CI/CD, feature flags, monitoring, task decomposition, and architecture are already strong.
 
 ## Counterevidence & Qualifications
-The article is a practitioner guide grounded in the author's work environment, not a controlled comparison of AI coding workflows. Its advice may need adaptation for teams with different risk tolerance, review culture, deadlines, tooling, or regulatory constraints.
+Both sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection, while the AI-first case study stresses automation, role redesign, and removing human bottlenecks. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, and the strength of the surrounding verification harness.
 
 ## What Changed
-- Created the concept page for AI coding practice as a human-centered engineering workflow around coding agents.
+- Added the AI-first source's organization-level workflow view while preserving Piglei's responsibility, reviewability, and learning constraints.
 
 ## Related Concepts
 - [[HumanCodeResponsibility]] - accountability is the foundation of the article's practice model.
@@ -42,4 +45,6 @@ The article is a practitioner guide grounded in the author's work environment, n
 - [[PRReviewHygiene]] - reviewability becomes a central operational control for AI-heavy changes.
 - [[SoftwareVerification]] - tests and self-checks are required to make agent output trustworthy.
 - [[JuniorEngineerLearning]] - junior engineers need AI practices that protect skill formation.
+- [[AIFirstEngineering]] - expands AI coding practice into a company operating model.
+- [[HarnessEngineering]] - supplies the tests, constraints, and feedback loops that make agent output usable.
 - [[AIApplicationFramework]] - both concern AI developer tooling, but this page focuses on behavior around coding agents rather than application frameworks.
