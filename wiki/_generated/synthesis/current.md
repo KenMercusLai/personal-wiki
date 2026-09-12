@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 9bd011819f0d302d088b72b5d14e4d623cc1527d
+as_of_overview_commit: 6a179993636c325591f40c32dd9d1442414c3cc4
 summary: "The wiki maps how tools, work, learning, markets, and personal systems need trust, evidence, context, verification, restraint, and human judgment."
-episode_count: 94
-source_count: 94
-paragraph_count: 95
+episode_count: 95
+source_count: 95
+paragraph_count: 96
 topic_count: 9
 ---
 
@@ -61,7 +61,7 @@ Governance-related sources span control problems across institutions, infrastruc
 
 ### History and Geopolitics
 
-History and geopolitics currently has no substantive geopolitical synthesis; its assigned material is better treated as software chronology, product lineage, or technical-infrastructure spillover.
+History and geopolitics currently contains technology and interface histories rather than substantive geopolitical claims: Instapaper and Vim supply software chronology and lineage, numeric keypads show physical-interface convention history, and prompt caching is technical spillover.
 
 ### Psychology and Personal Development
 

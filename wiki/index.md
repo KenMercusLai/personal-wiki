@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [A billion dollar gift for Twitter](sources/a-billion-dollar-gift-for-twitter-startup-grind-medium.md) - Anil Dash's open product-strategy critique arguing that Twitter needed visible shipping, abuse response, better cultural metrics, segmented user tools, and renewed developer-platform trust.
+- [A brief history of the numeric keypad](sources/a-brief-history-of-the-numeric-keypad.md) - Francesco Bertelli's interface-history essay explaining why phone and calculator keypads use inverted layouts through calculator, cash-register, adding-machine, and AT&T telephone research lineages.
 - [使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG](sources/shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog.md) - 黄健宏 argues for a PostgreSQL-first database architecture that reduces stack complexity by avoiding premature splits across specialized transaction, search, time-series, vector, and analytics systems.
 - [A Terrible, Horrible, No Good, Very Bad Hardbound Update](sources/a-terrible-horrible-no-good-very-bad-hardbound-update.md) - Nathan Bashaw's Hardbound postmortem showing how product love, usage, and paying customers still left unresolved growth, revenue, fundraising, and content-production economics.
 - [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
@@ -398,6 +399,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nathan Bashaw](entities/NathanBashaw.md) - Hardbound founder-author reflecting on failed fundraising, team responsibility, and learning from failure.
 - [Hardbound](entities/Hardbound.md) - Mobile illustrated nonfiction-summary startup with strong engagement but unresolved growth, revenue, and content-production economics.
 - [General Assembly](entities/GeneralAssembly.md) - Bashaw's pre-Hardbound employment context in the Hardbound update.
+- [AT&T](entities/ATT.md) - Telecommunications company and research context for push-button telephone keyset studies, also present as a Unix source-licensing constraint.
+- [Jean-Baptiste Schwilgue](entities/JeanBaptisteSchwilgue.md) - French inventor credited with an 1844 working key-driven calculator prototype.
+- [James Ritty](entities/JamesRitty.md) - Dayton saloon owner and cash-register inventor used to qualify simple keypad-origin stories.
+- [Dorr Felt](entities/DorrFelt.md) - Comptometer inventor whose 9-to-1 multi-column layout shaped calculator-keypad history.
+- [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
 - [Stack Overflow Traffic Analysis](concepts/StackOverflowTrafficAnalysis.md) - Using Stack Overflow question visits by tag and country as a bounded signal of developer attention.
@@ -405,6 +411,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Programming Technology Demand](concepts/ProgrammingTechnologyDemand.md) - Inferred developer attention or demand for languages, platforms, frameworks, and tools.
 - [Data Science Technology Adoption](concepts/DataScienceTechnologyAdoption.md) - Uptake of programming tools and workflows for data analysis, statistics, scientific computing, and machine learning.
 - [Constraint-Shaped Interface Design](concepts/ConstraintShapedInterfaceDesign.md) - Interface conventions that emerge from practical technical limits and persist after those limits fade.
+- [Numeric Keypad Layout Conventions](concepts/NumericKeypadLayoutConventions.md) - Historical phone and calculator number-entry layouts that persist across physical and digital interfaces.
 - [Sabbatical Career Experiment](concepts/SabbaticalCareerExperiment.md) - Savings-backed employment break used to recover from burnout, search for meaningful work, and risk personal runway on a creative or entrepreneurial bet.
 - [Indie Game Development](concepts/IndieGameDevelopment.md) - Solo or small-team game creation where expressive technical work meets platform discovery, monetization choices, and volatile sustainability.
 - [Computer Science Zines](concepts/ComputerScienceZines.md) - Self-published, illustration-heavy educational works that explain CS topics with approachable visual framing.

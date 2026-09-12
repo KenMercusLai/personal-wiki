@@ -4,19 +4,19 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-13
-as_of_overview_commit: c90de938a20f2e25949033f4b74d6fbd66300035
-input_digest: 7ee685f254e9088b943ec5eb0aae81e8cfe2c0c598219f8acdf8185d5c6741d8
+as_of_overview_commit: 6a179993636c325591f40c32dd9d1442414c3cc4
+input_digest: b351ddd205e5973f9defd74e85b5052e03aaa3b691b03a7b3036be814f606afa
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper and Vim paragraphs are software-product chronology and lineage, while the prompt-caching paragraph is technical AI infrastructure; all are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
+The history and geopolitics topic currently contains technology and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology, maintenance, platform adaptation, and inherited interaction conventions; numeric keypad history adds a physical-interface lineage where calculator and telephone layouts stabilized through mechanical constraints, trained workflows, human-factors testing, and later software reuse. The prompt-caching paragraph remains technical AI infrastructure spillover rather than a history or geopolitics finding.
 
 ## Cross-source Findings
 
-### Instapaper Is Product History Not Geopolitics
+### Software Product Histories Show Lineage And Platform Adaptation
 
 [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], and [[ProductEvolution]] form software-product histories about read-later design, editor inheritance, ownership or maintenance changes, platform adaptation, durable conventions, business-model shifts, and reliability recovery rather than a geopolitical finding.
 
@@ -26,6 +26,16 @@ The history and geopolitics topic currently has no substantive geopolitical synt
 
 - These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims.
 
+### Numeric Keypads Preserve Interface Lineages
+
+[[NumericKeypadLayoutConventions]] show [[ConstraintShapedInterfaceDesign]] in physical input devices: calculator layouts run through [[JamesRitty]], [[DorrFelt]], and [[DavidSundstrand]] adding-machine histories, while [[ATT]] telephone research helped stabilize a different push-button layout that later software inherited.
+
+**Evidence:** [[NumericKeypadLayoutConventions]], [[ConstraintShapedInterfaceDesign]], [[JamesRitty]], [[DorrFelt]], [[DavidSundstrand]], [[ATT]]
+
+**Qualifications:**
+
+- The bounded input treats keypad causality as multi-factor and partly uncertain, not as a single decisive invention story.
+
 ### Prompt Cache Paragraph Is Technical Spillover
 
 [[PromptCaching]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], and [[InferenceLoadBalancing]] are technical AI infrastructure concepts rather than a history or geopolitics finding in this bounded input.
@@ -34,4 +44,4 @@ The history and geopolitics topic currently has no substantive geopolitical synt
 
 **Qualifications:**
 
-- This topic contains only one paragraph, and it was assigned here because of generic terms rather than substantive history or geopolitics content.
+- This topic contains only one prompt-caching paragraph, and it was assigned here because of generic terms rather than substantive history or geopolitics content.

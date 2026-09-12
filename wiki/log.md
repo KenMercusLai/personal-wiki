@@ -602,6 +602,10 @@ Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street V
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A brief history of the numeric keypad
+
+Added source note, keypad-layout concept, AT&T entity page, and historical inventor pages for Jean-Baptiste Schwilgue, James Ritty, Dorr Felt, and David Sundstrand. Key claims: calculator and telephone keypads come from different device lineages; mechanical constraints, trained-user efficiency, human-factors testing, compactness, familiarity, and software reuse helped preserve the layouts.
+
 ## [2026-09-13] ingest | A Terrible, Horrible, No Good, Very Bad Hardbound Update
 
 ## [2026-09-13] ingest | A Practitioner's Guide to Net Promoter Score at andrewchen
@@ -756,6 +760,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
