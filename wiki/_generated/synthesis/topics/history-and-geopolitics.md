@@ -4,17 +4,27 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-12
-as_of_overview_commit: 49fb0ed061f4a21ddd6ea1f06fd1f218005b3399
-input_digest: fe87e337f0dc6de8950dd700f4e2e8f0e08b9e86ce7e1c635fd4937370f57e8a
+as_of_overview_commit: fc4370f290d05356385bdad8dbc301429e5c781f
+input_digest: 4717d2064fb769ac113be499ca9c636296285a701253418835880895ef11b235
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently has no substantive historical or geopolitical synthesis in this bounded input; the lone paragraph is a technical AI prompt-caching discussion assigned here as classifier spillover.
+The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while the prompt-caching paragraph is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
 
 ## Cross-source Findings
+
+### Instapaper Is Product History Not Geopolitics
+
+[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], and [[ProductEvolution]] form a software-product history about read-later design, ownership changes, platform adaptation, business-model shifts, and outage recovery rather than a geopolitical finding.
+
+**Evidence:** [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[ProductEvolution]]
+
+**Qualifications:**
+
+- The paragraph is historical only in the sense of product chronology; it does not make geopolitical claims.
 
 ### Prompt Cache Paragraph Is Technical Spillover
 

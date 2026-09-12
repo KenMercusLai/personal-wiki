@@ -132,6 +132,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 10 Years of Instapaper
+
+Ingested Instapaper's ten-year retrospective and added pages for Instapaper, Marco Arment, Betaworks, Pinterest, App Store, Read-Later Product, and Product Evolution.
+
 ## [2026-09-12] ingest | 编程随想 - 如何系统性学习
 
 Added source note for 编程随想's systematic-learning article, created pages for 编程随想, Systematic Learning, Learning Media Choice, DIKW Model, and Cross-Domain Wisdom, and updated related Feynman Technique, Active Learning, Focused Reading, and Creative Abstraction synthesis pages.
@@ -407,6 +411,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] report | Graph health report generated
 
 327 nodes analyzed.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

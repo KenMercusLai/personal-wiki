@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: a1631c3294ba330cca2904fad28d1fbccf0b3296
-summary: "A map of how tools, knowledge, environments, and workflows turn judgment, evidence, feedback, and constraints into reliable output."
-episode_count: 49
-source_count: 49
-paragraph_count: 52
+as_of_overview_commit: fc4370f290d05356385bdad8dbc301429e5c781f
+summary: "A personal knowledge map on AI, learning, product evolution, reliability, business, data judgment, and culture."
+episode_count: 50
+source_count: 50
+paragraph_count: 53
 topic_count: 9
 ---
 
@@ -16,34 +16,34 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[AIWorkflowDesign]] extends AI-assisted authorship into humanities and cultural-production work: [[Hanyang]] argues from [[FUNES]] and [[ShiShuFeng]] that AI should be managed as a traceable, controllable, verifiable workbench using clean materials, explicit standards, pipelines, multiple candidates, and signable human accountability.
-- [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] and large [[AgentTeam]] work require small steps, precise task decomposition, context control, specs, memory hygiene, and humane pacing.
-- [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
+- [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation.
+- [[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.
 - [[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], and [[StatisticalError]]: formulas and fitted models only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, residual proxies, omitted-variable structure, unequal error variance, and shared variation.
-- [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
-- [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
-- [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
+- [[ReadLaterProduct]] design turns [[AttentionManagement]] and [[FocusedReading]] into software infrastructure: [[Instapaper]] combines saving, parsing, offline access, cross-device reading, search, highlights, notes, exports, platform integrations, and accessibility-minded fonts so web reading can be separated from noisy discovery contexts.
+- [[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.
+- [[ProductEvolution]] in the [[Instapaper]] case shows a long-lived software product adapting through [[AppStore]] timing, parser rewrites, search infrastructure, [[Betaworks]] team development, [[Pinterest]] ownership, freemium and subscription shifts, developer APIs, sponsorships, and reliability recovery while preserving a stable reading promise.
+- [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - [[SystemReliability]] depends on known technical practices such as [[RobustProgramming]], [[DependencyDegradation]], and [[ChangeSafety]], but [[ReliabilityInvestment]] is the harder business constraint because avoided failures are hard to credit and reliability work can become episodic without sustained priority.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
+The AI and technology thread treats AI systems, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. The Instapaper case adds a non-AI reminder that useful software can also protect attention and reading workflows through parsing, offline access, search, notes, exports, platform integration, and accessibility details. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, material judgment, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, cross-checking, and candidate generation. Evidence: [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]].
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics, market-positioning strategy, consumer-IP operations, and the organizational side of software reliability. Bootstrapped SaaS, freelancing, and small product portfolios require revenue stability, modular infrastructure, customer learning, marketing, support, personal branding, and distribution, while reliability only becomes durable when business priority and staffing sustain known technical practices.
+The business-and-markets material combines independent creator economics, long-lived software-product evolution, market-positioning strategy, consumer-IP operations, and the organizational side of software reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, and Instapaper-style consumer software depend on revenue stability, platform timing, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, business-model adaptation, and product promise rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business. The reliability source adds that operational excellence is also a business investment problem: known technical practices only become durable when staffing, process enforcement, and business priority keep them alive.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
-- [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].
+- [[ProductEvolution]] in the [[Instapaper]] case shows a long-lived software product adapting through [[AppStore]] timing, parser rewrites, search infrastructure, [[Betaworks]] team development, [[Pinterest]] ownership, freemium and subscription shifts, developer APIs, sponsorships, and reliability recovery while preserving a stable reading promise. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]].
 
 ### Cross-domain
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage.
+Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
@@ -57,22 +57,22 @@ The culture-and-media layer now connects experience-centered practices across le
 
 ### Governance and Institutions
 
-The governance-related material spans four control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery, and intrinsic-value inquiry proposes knowledge-seeking under uncertainty.
+The governance-related material is still narrow but now spans four control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently has no substantive historical or geopolitical synthesis in this bounded input; the lone paragraph is a technical AI prompt-caching discussion assigned here as classifier spillover.
+The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while the prompt-caching paragraph is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.
 
 ### Psychology and Personal Development
 
-The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, and cognitive mediation. Goals, abstraction, and iterative practice protect curiosity; creator work becomes healthier when success is tied to controllable actions and audience value rather than raw platform metrics.
+The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. Prompt-cache material is present only as technical classifier spillover.
 
 - [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]], and can guide iterative action when paired with good-enough steps, exploration, rest, and [[SelfDiscipline]]. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[SelfDiscipline]], [[PersonalProductivity]], [[StochasticGradientDescent]].
 
 ### Science, Health, and Climate
 
-The topic remains mostly indirect. It covers attention and mental load in productivity advice, and includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
+The topic remains mostly indirect. It covers attention and mental load in productivity advice, and now includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 

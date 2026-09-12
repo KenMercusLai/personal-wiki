@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [10 Years of Instapaper](sources/10-years-of-instapaper.md) - Instapaper's ten-year retrospective tracing the read-later product from Marco Arment's side project through parser rewrites, mobile-platform milestones, acquisitions, pricing shifts, notes, search, and outage recovery.
 - [编程随想 - 如何系统性学习](sources/bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi.md) - 编程随想's systematic-learning essay arguing that durable understanding requires breadth, depth, book-centered source selection, Feynman-style explanation, foundational priority, DIKW distinctions, and cross-domain wisdom.
 - [给人文工作者的 AI 使用指南](sources/gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan.md) - Hanyang's guide for humanities workers arguing that AI becomes useful when embedded in traceable, controllable, verifiable workflows grounded in real materials and trained taste.
 - [稳定性，难的不是技术，而是](sources/wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi.md) - Bixuan's reliability essay arguing that robust code, dependency degradation, capacity protection, canarying, monitoring, rollback, and restore-first incident response only work when backed by sustained organizational investment.
@@ -57,6 +58,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Instapaper](entities/Instapaper.md) - Read-later service whose first decade shows product evolution around distraction-reduced reading, parsing, offline access, notes, search, business-model changes, and reliability.
+- [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
+- [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
+- [Pinterest](entities/Pinterest.md) - Company that acquired Instapaper in 2016 and made Premium free while keeping the product standalone.
+- [App Store](entities/AppStore.md) - Apple's mobile app marketplace, a key distribution and visibility platform for Instapaper.
 - [编程随想](entities/BianChengSuiXiang.md) - Authorial identity behind the systematic-learning article connecting media choice, Feynman-style explanation, DIKW, and cross-domain wisdom.
 - [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
@@ -177,6 +183,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
+- [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
 - [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.

@@ -19,6 +19,7 @@
       "f83fb85c15dca48e465666611d7cf898b8874cbf4f0bff042f189885832f81cc",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
+      "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "7eccff1471dcd2983f879fc03cea8610eb73fca55f96ea5342d94f42d0df495e",
@@ -54,10 +55,10 @@
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d"
     ],
-    "paragraph_count": 52
+    "paragraph_count": 53
   },
-  "overview_commit": "a1631c3294ba330cca2904fad28d1fbccf0b3296",
-  "overview_digest": "637e45ec7b7382ed5d4d4433fb23f12baadf2988d4f5e85d491afe2b744327c8",
+  "overview_commit": "fc4370f290d05356385bdad8dbc301429e5c781f",
+  "overview_digest": "f9e479fdb371f5eab7afeb2b4223ea00fd56ac01dddcf128550e3c08edfe857c",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -380,6 +381,31 @@
         "Obsidian",
         "ReadingNoteWorkflow",
         "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "history-and-geopolitics"
+      ],
+      "text": "The Instapaper retrospective adds a software-product layer to the wiki's reading material. [[Instapaper]] turns [[FocusedReading]] and [[AttentionManagement]] into a concrete [[ReadLaterProduct]] pattern: save now, strip distractions, read offline or across devices, then retrieve material through archive, search, highlights, notes, and exports. The source also expands the wiki's product thread through [[ProductEvolution]]: [[MarcoArment]]'s side project survives by adapting to the [[AppStore]], Android, Kindle, browser extensions, parser rewrites, search infrastructure, accessibility fonts, [[Betaworks]] team development, [[Pinterest]] ownership, freemium and subscription shifts, and a major outage that made reliability part of the product's public history.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AppStore",
+        "AttentionManagement",
+        "Betaworks",
+        "FocusedReading",
+        "Instapaper",
+        "MarcoArment",
+        "Pinterest",
+        "ProductEvolution",
+        "ReadLaterProduct"
       ]
     },
     {

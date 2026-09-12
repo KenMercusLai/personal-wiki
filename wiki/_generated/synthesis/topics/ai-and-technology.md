@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: a1631c3294ba330cca2904fad28d1fbccf0b3296
-input_digest: b3a93679fe7fc39c1ad151d4686fcc613534525e401ef49e3c638abbc1281962
+as_of_overview_commit: fc4370f290d05356385bdad8dbc301429e5c781f
+input_digest: 866d60bd79ce2fa37f19ebf2ecc64019621b41d8e3fab32882c0af928cd04ec4
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
+The AI and technology thread treats AI systems, data work, reading software, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, read-later products, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. The Instapaper case adds a non-AI reminder that useful software can also protect attention and reading workflows through parsing, offline access, search, notes, exports, platform integration, and accessibility details. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
 
 ## Cross-source Findings
 
@@ -103,6 +103,17 @@ The AI and technology thread treats AI systems, data work, and production softwa
 
 - The claim is grounded in a note-taking methods essay rather than comparative user research.
 - The source also argues that modern tools can blur the boundary between big notes and small notes.
+
+### Read Later Products Are Reading Infrastructure
+
+[[ReadLaterProduct]] design turns [[AttentionManagement]] and [[FocusedReading]] into software infrastructure: [[Instapaper]] combines saving, parsing, offline access, cross-device reading, search, highlights, notes, exports, platform integrations, and accessibility-minded fonts so web reading can be separated from noisy discovery contexts.
+
+**Evidence:** [[ReadLaterProduct]], [[AttentionManagement]], [[FocusedReading]], [[Instapaper]], [[ProductEvolution]], [[AppStore]]
+
+**Qualifications:**
+
+- The evidence is a company-authored Instapaper retrospective, so it emphasizes milestone continuity rather than comparative user research or competitor analysis.
+- Discovery feeds, public profiles, and large saved queues may reintroduce attention costs even when the core product promise is distraction-reduced reading.
 
 ### Learning Motivation Adjacent To Knowledge Systems
 

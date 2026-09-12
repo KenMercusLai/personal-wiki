@@ -2,6 +2,24 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "instapaper-is-product-history-not-geopolitics",
+      "qualifications": [
+        "The paragraph is historical only in the sense of product chronology; it does not make geopolitical claims."
+      ],
+      "statement": "[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], and [[ProductEvolution]] form a software-product history about read-later design, ownership changes, platform adaptation, business-model shifts, and outage recovery rather than a geopolitical finding.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Instapaper",
+        "MarcoArment",
+        "Betaworks",
+        "Pinterest",
+        "AppStore",
+        "ReadLaterProduct",
+        "ProductEvolution"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "prompt-cache-paragraph-is-technical-spillover",
       "qualifications": [
         "This topic contains only one paragraph, and it was assigned here because of generic terms rather than substantive history or geopolitics content."
@@ -18,6 +36,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently has no substantive historical or geopolitical synthesis in this bounded input; the lone paragraph is a technical AI prompt-caching discussion assigned here as classifier spillover.",
+  "summary": "The history and geopolitics topic currently has no substantive geopolitical synthesis in this bounded input. The Instapaper paragraph is a software-product chronology, while the prompt-caching paragraph is technical AI infrastructure; both are best treated as source-scoped classifier spillover rather than evidence for a historical or geopolitical thesis.",
   "topic_id": "history-and-geopolitics"
 }
