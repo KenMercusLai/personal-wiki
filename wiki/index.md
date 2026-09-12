@@ -91,6 +91,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 - [泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳](sources/pao-pao-ma-te-yin-wei-du-te-du-hou-gan-he-wang-ning-mai-xing-xing-bang-de-gu-shi-li-ji-ao.md) - A Pop Mart investment reading note arguing that revenue rests on designer-toy demand, series-based blind boxes, Labubu category expansion, and Wang Ning's founder-led organizational evolution.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
+- [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
 
 ## Entities
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
@@ -357,6 +358,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Josiah Humphrey](entities/JosiahHumphrey.md) - Startup operator voice behind the Appster PR advice for bootstrapped founders.
 - [Appster](entities/Appster.md) - Startup/company context used for practical PR, guest-publishing, and media-outreach examples.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
+- [FFmpeg](entities/FFmpeg.md) - Open-source command-line media toolkit used here to record RTSP camera streams into MP4 clips.
+- [FRP](entities/FRP.md) - Tunneling tool used to forward a private camera's web and RTSP ports from OpenWrt to a remote server.
+- [OpenWrt](entities/OpenWrt.md) - Router operating system used as the always-on edge host for the FRP client configuration.
+- [Xiongmai](entities/Xiongmai.md) - Camera-vendor ecosystem behind the VMS tool and XM device configuration shown in the source.
+- [Fabrice Bellard](entities/FabriceBellard.md) - Systems programmer credited in the source as FFmpeg's creator.
 
 ## Concepts
 - [Constraint-Shaped Interface Design](concepts/ConstraintShapedInterfaceDesign.md) - Interface conventions that emerge from practical technical limits and persist after those limits fade.
@@ -632,5 +638,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
 - [Volunteer Campaign Technology](concepts/VolunteerCampaignTechnology.md) - Campaign-supporting software and data work built by loosely affiliated supporters rather than only official staff or vendors.
 - [Campaign Technology Accountability](concepts/CampaignTechnologyAccountability.md) - Governance problem of owning accuracy, safety, targeting, legality, and consequences when campaign software affects real people.
+- [RTSP Streaming](concepts/RTSPStreaming.md) - Direct network-video stream access pattern used by IP cameras and consumed by players or FFmpeg.
+- [Remote Video Recording](concepts/RemoteVideoRecording.md) - Capturing a live network stream on a remote machine through tunneling and scheduled command-line recording.
+- [Self-Hosted Surveillance Storage](concepts/SelfHostedSurveillanceStorage.md) - Keeping camera footage on user-controlled infrastructure rather than in a vendor cloud or bundled recorder.
+- [NAT Traversal](concepts/NATTraversal.md) - Techniques such as tunneling that make private-network services reachable from a remote endpoint.
 
 ## Syntheses

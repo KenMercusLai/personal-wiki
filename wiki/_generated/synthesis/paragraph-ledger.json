@@ -36,6 +36,7 @@
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
       "77e0f9c585e6f6d60a7b15dc52991730239c65d90a3f72f5e4dfd0371163eac3",
       "c38b0d21d9ac465269ddd25f3fb6a1f7013bac458490dec30d863d5b51f5806b",
+      "9ba5bcc8835d192f44ba5678ea91c41416991ac9127866359f28e0fc0c083599",
       "2d44cddf9578e07cb940fa9c85024feb523704733754e4378048fd075c4a9c12",
       "71eac5136e8213776483f270580581d38fffa45d6703e7701bbbeafa2667ac60",
       "e19f58d40d13b532d0b3c96405f0f3831250ddd8d23583ab20ca29c3491e2336",
@@ -88,10 +89,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 86
+    "paragraph_count": 87
   },
-  "overview_commit": "c90de938a20f2e25949033f4b74d6fbd66300035",
-  "overview_digest": "f71c71f935f7494bccd07fcd7c10916904e07b96843bb1ffc8dc67dbb1a47969",
+  "overview_commit": "9e1f9bde2ecc17eba428bdd340fc9de611b635c4",
+  "overview_digest": "e9d3d903d71428e75a863cd3389c1c24db2de87f3341a445b88ea8b42915c094",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -745,6 +746,25 @@
         "RemoteAdministrationExposure",
         "UnauthenticatedServiceExposure",
         "WeakCredentialExposure"
+      ]
+    },
+    {
+      "id": "9ba5bcc8835d192f44ba5678ea91c41416991ac9127866359f28e0fc0c083599",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest FFmpeg/RTSP source adds a home-lab surveillance case to that networking thread. [[SelfHostedSurveillanceStorage]] is driven by data ownership and vendor-cloud avoidance: the author chooses a network camera that can expose [[RTSPStreaming]], uses [[OpenWrt]] plus [[FRP]] for [[NATTraversal]] from the private camera address to a server, and records one-minute clips with [[FFmpeg]] under cron. The practical qualification connects back to [[RemoteAdministrationExposure]]: the same tunnel that makes [[RemoteVideoRecording]] possible also makes camera web and media ports security-sensitive.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "FFmpeg",
+        "FRP",
+        "NATTraversal",
+        "OpenWrt",
+        "RTSPStreaming",
+        "RemoteAdministrationExposure",
+        "RemoteVideoRecording",
+        "SelfHostedSurveillanceStorage"
       ]
     },
     {

@@ -16,14 +16,14 @@
       ]
     },
     {
-      "global_candidate": false,
+      "global_candidate": true,
       "id": "media-form-shapes-systematic-learning",
       "qualifications": [
         "This is a secondary culture-and-media assignment; the source primarily concerns learning methodology.",
         "The book-centered recommendation is qualitative and strongest for difficult systematic study rather than quick lookup or fast-changing operational questions."
       ],
       "statement": "[[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].",
-      "status": "source-scoped",
+      "status": "qualified",
       "supporting_wikilinks": [
         "LearningMediaChoice",
         "SystematicLearning",
@@ -34,7 +34,27 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
+      "id": "self-hosted-surveillance-recording-is-media-infrastructure",
+      "qualifications": [
+        "The evidence is a single home-lab surveillance setup, not a general surveillance-storage architecture or security guide.",
+        "The source shows reachability and recording but does not resolve authentication, encryption, retention, privacy, or legal constraints."
+      ],
+      "statement": "[[SelfHostedSurveillanceStorage]] shows media capture as an ownership and infrastructure choice: [[RTSPStreaming]], [[FRP]], [[NATTraversal]], [[OpenWrt]], and [[FFmpeg]] let a user record camera footage remotely while creating [[RemoteAdministrationExposure]] concerns.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "SelfHostedSurveillanceStorage",
+        "RTSPStreaming",
+        "FRP",
+        "NATTraversal",
+        "OpenWrt",
+        "FFmpeg",
+        "RemoteVideoRecording",
+        "RemoteAdministrationExposure"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "pun-localization-combines-retrieval-and-domestication",
       "qualifications": [
         "This claim is currently grounded in one source about Women Communication rather than a broad comparative localization corpus."
@@ -50,12 +70,12 @@
     },
     {
       "global_candidate": false,
-      "id": "retrieval-can-expand-creative-translation-candidates",
+      "id": "retrieval-expands-creative-translation-candidates",
       "qualifications": [
         "The workflow is described qualitatively; the topic input does not provide retrieval metrics, corpus-governance details, or controlled quality evaluation."
       ],
       "statement": "[[MancoDB]] uses [[SemanticSearch]] over a [[VectorDatabase]] to surface meaning-adjacent homophone candidates for creative translation, but final quality still depends on human or model-assisted composition.",
-      "status": "source-scoped",
+      "status": "qualified",
       "supporting_wikilinks": [
         "MancoDB",
         "SemanticSearch",
@@ -65,7 +85,7 @@
     },
     {
       "global_candidate": false,
-      "id": "localized-text-can-guide-player-discovery",
+      "id": "localized-text-guides-player-discovery",
       "qualifications": [
         "The source argues from design analysis and streamer reactions, not from instrumented player-behavior data."
       ],
@@ -101,7 +121,7 @@
         "The claim is grounded in one Harman-oriented essay and should not be treated as a general account of all aesthetics or metaphor theory."
       ],
       "statement": "[[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.",
-      "status": "source-scoped",
+      "status": "supported",
       "supporting_wikilinks": [
         "ObjectOrientedOntology",
         "ObjectWithdrawal",
@@ -111,7 +131,7 @@
     },
     {
       "global_candidate": false,
-      "id": "metaphor-can-be-theatrical-substitution",
+      "id": "metaphor-is-theatrical-substitution",
       "qualifications": [
         "The input presents this as Harman's aesthetic account, not as a cognitive-science or linguistic theory of metaphor."
       ],
@@ -125,7 +145,7 @@
     },
     {
       "global_candidate": false,
-      "id": "art-tensions-ordinary-use-and-hidden-object-life",
+      "id": "art-tensions-use-and-hidden-object-life",
       "qualifications": [
         "The examples are interpretive and source-scoped, especially the use of Van Gogh's shoes and Homer's wine-dark sea."
       ],
@@ -146,7 +166,7 @@
         "The current corpus has only one operations essay and one retrospective backend example for this point."
       ],
       "statement": "[[GameServerLaunchExperience]] and [[ServerSideGameLogic]] add a production layer beneath games as media: [[ContinuousGameServerUpdates]], [[GameServerCloudNativeDelivery]], and message-service-centered backend logic shape whether live-game updates, testing, anti-cheat behavior, and maintenance are perceptible to players.",
-      "status": "source-scoped",
+      "status": "qualified",
       "supporting_wikilinks": [
         "GameServerLaunchExperience",
         "ContinuousGameServerUpdates",
@@ -158,14 +178,14 @@
       ]
     },
     {
-      "global_candidate": false,
+      "global_candidate": true,
       "id": "media-brand-portfolios-shape-shared-culture-through-platform-economics",
       "qualifications": [
         "The claim is source-scoped to BuzzFeed's internal memo and does not prove the broader social impact of BuzzFeed's strategy or later outcomes.",
         "The memo argues from a publisher perspective and should not be treated as a neutral account of platform obligations."
       ],
       "statement": "[[MediaBrandPortfolio]] in the BuzzFeed memo connects media business strategy to public culture: [[Tasty]] is framed as a service-oriented brand that can create shared nonpolitical touchpoints, while [[PlatformPublisherRevenue]] and [[DigitalMediaMonetization]] are presented as conditions for keeping quality journalism and entertainment broadly accessible.",
-      "status": "source-scoped",
+      "status": "qualified",
       "supporting_wikilinks": [
         "MediaBrandPortfolio",
         "Tasty",
@@ -175,6 +195,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; independent game creation can turn software into evocative personal expression while remaining exposed to platform discovery and luck; game-server operations and server-side game logic form a hidden delivery layer for live-game experience; BuzzFeed's media-brand portfolio frames Tasty-style service brands and platform revenue as conditions for shared culture and broadly accessible journalism or entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, video infrastructure, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; game-server and backend operations form a hidden delivery layer for live-game experience; self-hosted camera recording shows how media capture can become an ownership and infrastructure choice; BuzzFeed's media-brand portfolio frames platform revenue as a condition for shared journalism and entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }

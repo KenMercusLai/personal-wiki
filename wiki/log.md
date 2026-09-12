@@ -588,6 +588,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 使用 FFmpeg 远程读取 rtsp 监控视频流
+
+Ingested `/mnt/ken_personal_wiki/Articles/使用 FFmpeg 远程读取 rtsp 监控视频流.md`, including local image evidence for camera hardware, VMS configuration, ports, RTSP setup, and remote FFmpeg recording.
+
 ## [2026-09-13] ingest | A Look at Vim, a Text Editor for the Ages - The New Stack
 
 Ingested The New Stack's Vim history article. Added source note plus pages for Vim, Bill Joy, Bram Moolenaar, Unix editor lineage, and constraint-shaped interface design; updated index and overview to capture Vim as a developer tool shaped by early Unix editor inheritance, modem and terminal constraints, open-source reimplementation, incremental evolution, and cultural persistence. Inspected both embedded images: the Vim screenshot was included as source evidence, while the Unix book-cover image was treated as contextual rather than adding independent claims.
@@ -659,6 +663,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

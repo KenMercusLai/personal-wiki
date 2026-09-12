@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: c90de938a20f2e25949033f4b74d6fbd66300035
-summary: "The wiki maps knowledge work, AI, infrastructure, products, and careers as systems that compound through evidence, feedback, discipline, durable conventions, and judgment."
-episode_count: 85
-source_count: 85
-paragraph_count: 86
+as_of_overview_commit: 9e1f9bde2ecc17eba428bdd340fc9de611b635c4
+summary: "The wiki maps knowledge work, AI, infrastructure, products, media, and careers as systems that compound through evidence, feedback, discipline, durable conventions, and judgment."
+episode_count: 86
+source_count: 86
+paragraph_count: 87
 topic_count: 9
 ---
 
@@ -50,9 +50,9 @@ Cross-domain material currently covers practical compression and triage: route s
 
 ### Culture and Media
 
-Culture and media sources emphasize experience design across learning media, reading systems, game localization, indie games, media-brand portfolios, live-game infrastructure, and aesthetics.
+Culture and media sources emphasize experience design across learning media, reading systems, game localization, indie games, media-brand portfolios, self-hosted video capture, live-game infrastructure, and aesthetics.
 
-- Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
+- [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]].
 - [[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability. Evidence: [[IndieGameDevelopment]], [[AmirRajan]], [[ADarkRoom]], [[AppStore]], [[CreativeTechnicalCareer]].
 
 ### Governance and Institutions
