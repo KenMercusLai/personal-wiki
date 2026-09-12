@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [是的，我用AI写文章，咋滴](sources/shi-de-wo-yong-ai-xie-wen-zhang-za-di.md) - A creator essay defending AI-assisted writing as a human-owned workflow of topic selection, structure, model-supported drafting, cross-checking, revision, visual generation, and accountable publication.
 - [年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅](sources/zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu.md) - A slash-programmer retrospective on leaving employment, abandoning a failed short-video experiment, and building a small portfolio of paid tools through user validation, early monetization, build-in-public distribution, and platform tailwinds.
 - [常用端口利用总结](sources/chang-yong-duan-kou-li-yong-zong-jie-infvies-blog.md) - A security checklist mapping common service ports to defensive triage categories such as weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, middleware consoles, and database service risk.
 - [差异化战略指南：What、Why与How-36氪](sources/cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr.md) - A business-strategy guide arguing that durable differentiation depends on positioning, brand distinctiveness, category creation, customer experience, and executive-level strategic choice rather than copyable features.
@@ -42,6 +43,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
+- [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
+- [ChatGPT](entities/ChatGPT.md) - AI assistant used in the source for cross-checking draft facts.
 - [Zhang Xiaoji](entities/ZhangXiaoji.md) - Slash programmer and independent creator behind Table To Figma, Fit Curve, and Glimmer Card.
 - [Table To Figma](entities/TableToFigma.md) - Figma plugin for applying structured data to designs and batch-generating visual assets.
 - [Fit Curve](entities/FitCurve.md) - Narrow Figma plugin for drawing smooth curves.
@@ -135,6 +139,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
 
 ## Concepts
+- [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates drafting, checking, titles, visuals, and layout while human authors retain question, argument, taste, verification, and accountability.
 - [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4
-input_digest: f919d65903e4a6b1d3d28548ea7c0e30d4a83ea9aad8aafc0dcc877a171545e9
+as_of_overview_commit: 96a553c7404865cd838c8253734ee035a19bba2c
+input_digest: e5be1c9920b0edb8c592c62a8d2e15fb4d7882192490c4b7c0506f719edb081f
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
+The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-assisted writing needs human authorship and verification, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
 
 ## Cross-source Findings
 
@@ -25,6 +25,17 @@ The current corpus covers AI technology as personal knowledge support, AI-era ed
 **Qualifications:**
 
 - The source frames this as an expected direction, not a validated capability across mature tools.
+
+### Ai Assisted Writing Needs Human Authorship
+
+[[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking.
+
+**Evidence:** [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]]
+
+**Qualifications:**
+
+- The claim is grounded in one creator's first-person workflow defense, not a comparative study of AI-assisted writing quality.
+- Multi-model checking is helpful but remains provisional because shared blind spots and weak source grounding can still miss errors.
 
 ### Note Systems Need Granularity Tool Fit
 

@@ -288,3 +288,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-12] ingest | 是的，我用AI写文章，咋滴
+
+Added source note for Feng Ruohang's AI-assisted writing workflow, created pages for AI-Assisted Writing, Feng Ruohang, Gemini, and ChatGPT, and updated related writing/output/Claude synthesis pages.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

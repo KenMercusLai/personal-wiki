@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4
+as_of_overview_commit: 96a553c7404865cd838c8253734ee035a19bba2c
 summary: "A systems wiki connecting learning, creator work, AI, infrastructure, security, business, culture, and philosophy through judgment, verification, and problem definition."
-episode_count: 34
-source_count: 34
-paragraph_count: 37
+episode_count: 35
+source_count: 35
+paragraph_count: 38
 topic_count: 9
 ---
 
@@ -17,22 +17,22 @@ topic_count: 9
 ## Executive Summary
 
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.
+- [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking.
 - [[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.
 - [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, and fresh sessions.
 - [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] also requires small steps, context control, and humane pacing.
 - The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that inference routing quality depends on architecture as well as algorithms: polling, centralized endpoint picking, and event-driven KV-cache state carry different scaling tradeoffs.
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
-- [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The current corpus covers AI technology as personal knowledge support, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
+The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-assisted writing needs human authorship and verification, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
-- [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances. Evidence: [[NoteGranularity]], [[NoteToolFit]], [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[Obsidian]], [[ChrisGrieser]].
+- [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking. Evidence: [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]].
 
 ### Business and Markets
 
@@ -43,7 +43,7 @@ The business-and-markets material combines independent creator economics with ma
 
 ### Cross-domain
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
+Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. Ramer-Douglas-Peucker uses epsilon tolerance to trade path fidelity for lower point count in map trajectory rendering, while defensive port triage uses exposed services as signals for likely checks around weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, and database service exposure.
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].

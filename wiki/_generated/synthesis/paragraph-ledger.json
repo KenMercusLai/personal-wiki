@@ -9,6 +9,7 @@
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
       "e77ddbc469ee54a125a93c09e39aab912822c0b087e31e671e4d8ec61b94bb1a",
+      "fde66a6b0b6dc03dc843920da4d29116e9ea536527452f29e2ea11870fb70f82",
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
@@ -39,10 +40,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 37
+    "paragraph_count": 38
   },
-  "overview_commit": "a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4",
-  "overview_digest": "5ec6dd4f27c4ae857707f08623b59fd59209da3ab223be3c65bc076f2d64063a",
+  "overview_commit": "96a553c7404865cd838c8253734ee035a19bba2c",
+  "overview_digest": "10fce1bc9572b34aba85f7201c0f3f75b62ca2c93c42992c694e193371efc630",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -182,6 +183,26 @@
         "PersonalBranding",
         "SahilBloom",
         "Xiaohongshu"
+      ]
+    },
+    {
+      "id": "fde66a6b0b6dc03dc843920da4d29116e9ea536527452f29e2ea11870fb70f82",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest AI-writing source adds an explicit authorship and workflow layer to the creator-output material. [[FengRuohang]] argues that [[AIAssistedWriting]] is not disqualified by deep tool use when the human author still owns the question, argument structure, fact accountability, revision taste, title direction, and final publication. [[Claude]] functions as topic partner and image-prompt helper, while [[Gemini]] and [[ChatGPT]] support cross-checking; the source still treats important facts as requiring original-source verification. This extends [[KnowledgeOutput]] and [[ExplanatoryWriting]] by showing how model drafting, generated visuals, and Codex-assisted layout can compress production time, while [[CreatorFeedbackLoop]] is sharpened by the author's insistence that useful criticism must address claims, logic, and facts rather than merely labeling an article \"AI written.\"",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "ChatGPT",
+        "Claude",
+        "CreatorFeedbackLoop",
+        "ExplanatoryWriting",
+        "FengRuohang",
+        "Gemini",
+        "KnowledgeOutput"
       ]
     },
     {
