@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 82bed5d489e1fa425bf8fd9f387c59606fbbdd7f
-input_digest: d25ca4b8a598f9dfd819cb84e2d1779742297115f934d801a9d0acfe6946a09e
+as_of_overview_commit: 55fa03eeba2649900debc9c8edfb4a68d9a8fbe4
+input_digest: a865fbb7d26e2c11d9c9a38a5bbb36a616e6661f141986b899ea01ae724ff90b
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, and security systems matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, and security systems matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.
 
 ## Cross-source Findings
 
@@ -109,13 +109,14 @@ Business and market sources connect startup validation, product evolution, distr
 
 ### Pre Fit Startups Convert Runway Into Learning
 
-[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], and [[SmugMug]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], and [[StartupCulture]].
+[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], [[SmugMug]], and [[Bump]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[UserBehaviorDrivenProductDiscovery]], [[SmallTeamLeverage]], [[StartupTeamBond]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], and [[StartupCulture]].
 
-**Evidence:** [[StartupRunway]], [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], [[SmugMug]], [[StartupCulture]]
+**Evidence:** [[StartupRunway]], [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], [[Bump]], [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[UserBehaviorDrivenProductDiscovery]], [[SmallTeamLeverage]], [[StartupTeamBond]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], [[SmugMug]], [[StartupCulture]]
 
 **Qualifications:**
 
-- The evidence mixes founder retrospectives, advice, a family-business profile, and an exceptional 1980s software-business case, so it should not be generalized without business-model, ownership, and culture context.
+- The evidence mixes founder retrospectives, advice, a family-business profile, and an exceptional 1980s software-business case, so it should not be generalized without business-model, ownership, team, distribution, and culture context.
+- Bump's small-team lesson is explicitly luck- and network-dependent: the same Apple commercial that accelerated visibility also overwhelmed servers.
 
 ### Connected Product Systems Need Perceived System Value
 

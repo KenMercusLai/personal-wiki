@@ -66,6 +66,7 @@
       "3a4c581da47e3995cc5d4684e89a312ca497b91735ff35eeda7429b837e7c971",
       "9aea2390636a7477b3904a1685f12842ffb52247084c308b0f2fda6d770d1f75",
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
+      "dc39287dd56fd8f3f8cc384e9dc7f130430bb44983865e5927eccc7e902ddd19",
       "f245a8a3a8e92e242d75c4d8ebab69c4db3b48ab57d59b5f69d71c970add006a",
       "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
       "0f171c0933f1dad3414ca8aa3d0d152446d6a33a1d38ede064fc2687e2180a14",
@@ -105,10 +106,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 103
+    "paragraph_count": 104
   },
-  "overview_commit": "82bed5d489e1fa425bf8fd9f387c59606fbbdd7f",
-  "overview_digest": "575837b13c7547691ff8fee232adf6cf559f05614efea4b9317edc81ee95b1ea",
+  "overview_commit": "55fa03eeba2649900debc9c8edfb4a68d9a8fbe4",
+  "overview_digest": "5bf4291708e7d4b95cea5d61b2f21b342631b48bc1ebfff00dd7352b76f234f3",
   "paragraphs": [
     {
       "id": "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
@@ -1375,6 +1376,29 @@
         "StartupFocus",
         "StartupHypothesisTesting",
         "StartupRunway",
+        "YCombinator"
+      ]
+    },
+    {
+      "id": "dc39287dd56fd8f3f8cc384e9dc7f130430bb44983865e5927eccc7e902ddd19",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "[[DavidLieb]]'s Bump retrospective adds a more serendipitous positive case to the startup-validation cluster. [[Bump]] reached 2 million users during [[YCombinator]] with five people and $16,000, making [[SmallTeamLeverage]] a real but lucky and network-dependent pattern after an Apple commercial melted the servers. The source strengthens [[CustomerLedProductDevelopment]] through [[UserBehaviorDrivenProductDiscovery]]: calls with top users revealed that people were sharing photos, sending the team toward [[Flock]], Photoroll, and eventually [[GooglePhotos]] work after [[Google]] acquired the company. It also qualifies product-first startup narratives through [[StartupTeamBond]]: Lieb says the most lasting thing about startups is often the people, and the Bump team retained 15 of 17 members at Google five years after acquisition.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Bump",
+        "CustomerLedProductDevelopment",
+        "DavidLieb",
+        "Flock",
+        "Google",
+        "GooglePhotos",
+        "SmallTeamLeverage",
+        "StartupTeamBond",
+        "UserBehaviorDrivenProductDiscovery",
         "YCombinator"
       ]
     },

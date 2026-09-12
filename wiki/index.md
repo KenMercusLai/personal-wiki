@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Bump: 10 Years of Lessons Learned](sources/bump-10-years-of-lessons-learned.md) - David Lieb's retrospective on Bump, showing small-team leverage, user-behavior discovery, photo-sharing pivots, cofounder bonds, Google acquisition, and Google Photos continuity.
 - [A thing I wonder: do companies have too many employees?](sources/a-thing-i-wonder-do-companies-have-too-many-employees.md) - Coach Tony questions headcount-as-success assumptions by arguing that talent needs real opportunity and that large teams can hide underutilization.
 - [A mathematical BS detector can boost the wisdom of crowds](sources/a-mathematical-bs-detector-can-boost-the-wisdom-of-crowds-aeon-essays.md) - George Musser explains how Drazen Prelec's metaknowledge methods can repair crowd wisdom by detecting shared-information bias, hidden beliefs, and shallow confidence.
 - [A seamless way to keep track of technical debt in your source code](sources/a-seamless-way-to-keep-track-of-technical-debt-in-your-source-code-philippe-bourgaus-blog.md) - Philippe Bourgau argues that teams can track lightweight technical debt with TODO comments because existing IDEs, dashboards, and search tools already surface them.
@@ -112,6 +113,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [David Lieb](entities/DavidLieb.md) - Bump cofounder and retrospective author connecting Bump, Flock, Photoroll, Google acquisition, and Google Photos work.
+- [Bump](entities/Bump.md) - Mobile startup that grew through Y Combinator, revealed photo-sharing behavior, and was acquired by Google.
+- [Andy Huibers](entities/AndyHuibers.md) - Bump cofounder used in the retrospective as an example of persistence, humor, and cofounder care.
+- [Flock](entities/Flock.md) - Bump team's semi-automated photo-sharing product that failed to grow but led toward Photoroll and Google Photos ideas.
+- [Google Photos](entities/GooglePhotos.md) - Google product connected in the Bump retrospective to the team's photo-sharing learning and post-acquisition work.
 - [Coach Tony](entities/CoachTony.md) - Authorial identity behind a headcount and opportunity-design critique of company growth.
 - [WhatsApp](entities/WhatsApp.md) - Messaging company used as a small-headcount counterexample to startup success measured by employee count.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
@@ -438,6 +444,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Small Team Leverage](concepts/SmallTeamLeverage.md) - Startup pattern where a compact team with little capital reaches outsized usage through focus, timing, network support, and execution.
+- [User Behavior Driven Product Discovery](concepts/UserBehaviorDrivenProductDiscovery.md) - Product discovery that follows what users actually do, especially when behavior differs from the initial product framing.
+- [Startup Team Bond](concepts/StartupTeamBond.md) - Cofounder and early-team trust, care, humor, and resilience that can outlast a particular product path.
 - [Wisdom of Crowds](concepts/WisdomOfCrowds.md) - Crowd-judgment principle qualified by independence, diversity, shared-information, confidence, and consensus conditions.
 - [Metaknowledge](concepts/Metaknowledge.md) - Knowledge about one's own and others' knowledge, used as a survey and forecasting signal.
 - [Shared Information Bias](concepts/SharedInformationBias.md) - Group-judgment distortion where common information is overcounted and minority evidence is underweighted.

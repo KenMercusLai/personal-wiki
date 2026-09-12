@@ -173,9 +173,10 @@
       "global_candidate": true,
       "id": "pre-fit-startups-convert-runway-into-learning",
       "qualifications": [
-        "The evidence mixes founder retrospectives, advice, a family-business profile, and an exceptional 1980s software-business case, so it should not be generalized without business-model, ownership, and culture context."
+        "The evidence mixes founder retrospectives, advice, a family-business profile, and an exceptional 1980s software-business case, so it should not be generalized without business-model, ownership, team, distribution, and culture context.",
+        "Bump's small-team lesson is explicitly luck- and network-dependent: the same Apple commercial that accelerated visibility also overwhelmed servers."
       ],
-      "statement": "[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], and [[SmugMug]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], and [[StartupCulture]].",
+      "statement": "[[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], [[SmugMug]], and [[Bump]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[UserBehaviorDrivenProductDiscovery]], [[SmallTeamLeverage]], [[StartupTeamBond]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], and [[StartupCulture]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "StartupRunway",
@@ -183,9 +184,13 @@
         "Hardbound",
         "Groove",
         "Microsoft",
+        "Bump",
         "ProductMarketFit",
         "StartupFocus",
         "CustomerLedProductDevelopment",
+        "UserBehaviorDrivenProductDiscovery",
+        "SmallTeamLeverage",
+        "StartupTeamBond",
         "FailureOwnership",
         "SelfFundedSoftwareGrowth",
         "SmugMug",
@@ -431,6 +436,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, and security systems matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, and security systems matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.",
   "topic_id": "business-and-markets"
 }
