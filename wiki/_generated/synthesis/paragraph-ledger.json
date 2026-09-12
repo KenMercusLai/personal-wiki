@@ -8,6 +8,7 @@
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
+      "e77ddbc469ee54a125a93c09e39aab912822c0b087e31e671e4d8ec61b94bb1a",
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
@@ -33,10 +34,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 31
+    "paragraph_count": 32
   },
-  "overview_commit": "303bca047ef301d10a4185eb91120c92987e921b",
-  "overview_digest": "b9dc56d81744512858f6939122069b455705df275e722519222468cbfc1b3d86",
+  "overview_commit": "a8a69f286e310ee0a1d8e140a0c61af7485cc55f",
+  "overview_digest": "eb900c8f0440c5a1ec4832c5b0095387a3673a5078f2678cb2f78b54044fa0f0",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -150,6 +151,32 @@
         "KnowledgeOutput",
         "NickyCase",
         "PersonalKnowledgeManagement"
+      ]
+    },
+    {
+      "id": "e77ddbc469ee54a125a93c09e39aab912822c0b087e31e671e4d8ec61b94bb1a",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest creator-anxiety source broadens the writing and independent-creator thread from craft into emotional and platform strategy. [[CreatorAnxiety]] names pressures around topic choice, expertise, perfectionism, weak data, and inspiration drought, while [[CreatorPositioning]] answers the first pressure by choosing an audience-value purpose rather than a perfect niche. [[JayClouse]], [[SahilBloom]], and [[AlokKanojia]] provide creator-economy and psychology frames that shift success toward controllable publishing action, value for specific people, follower quality, and complex attribution rather than raw metrics. The source also qualifies [[PersonalBranding]] through [[CreatorPlatformMetrics]]: [[Xiaohongshu]] can create volatile feedback loops that encourage compulsive checking, so creators need deliberate data-analysis moments and authenticity rather than a metric-driven persona. Finally, [[IdeaManagement]] makes [[CreativePresence]] operational by combining quick capture, [[Notion]] databases, shortcuts, archives, high-quality inputs, comments, conversations, and relaxed thinking so inspiration can become reusable [[KnowledgeOutput]].",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlokKanojia",
+        "CreativePresence",
+        "CreatorAnxiety",
+        "CreatorPlatformMetrics",
+        "CreatorPositioning",
+        "IdeaManagement",
+        "JayClouse",
+        "KnowledgeOutput",
+        "Notion",
+        "PersonalBranding",
+        "SahilBloom",
+        "Xiaohongshu"
       ]
     },
     {

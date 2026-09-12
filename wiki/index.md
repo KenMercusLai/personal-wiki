@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [选题、专业性、完美主义、数据和灵感，这些创作焦虑该如何应对？](sources/xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui.md) - A creator-anxiety retrospective arguing that purpose-led positioning, learner-mode publishing, draft feedback, platform-aware metrics, and idea-management systems make creation more sustainable.
 - [如何在工作中学习](sources/ru-he-zai-gong-zuo-zhong-xue-xi.md) - A workplace-learning essay arguing that engineers learn by reviewing real problems, reconstructing expert reasoning, finding big-picture anchors, and verifying abstractions through hands-on experiments.
 - [如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验](sources/ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan.md) - A tutorial-writing retrospective showing how notes, examples, focus, reader testing, and publishing checklists turn learning into a clear public article.
 - [如何像 Claude Code 一样使用私有 API 管理 prompt cache](sources/ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache.md) - A technical analysis of Claude Code's Anthropic prompt-cache strategy, including cache breakpoints, stable request shape, private cache edits, and microcompact as logical deletion.
@@ -36,6 +37,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Alok Kanojia](entities/AlokKanojia.md) - Psychiatrist whose Creator Science interview reframes creator data anxiety around controllable actions and complex attribution.
+- [Jay Clouse](entities/JayClouse.md) - Creator educator whose niche, purpose, and Creator Science materials shape the source author's creator practice.
+- [Notion](entities/Notion.md) - Database and workspace tool used for idea capture, draft sharing, and creator activity archives.
+- [Sahil Bloom](entities/SahilBloom.md) - Creator whose Creator Science interview informs the source author's thinking about value, follower quality, consistency, and evergreen content.
+- [Xiaohongshu](entities/Xiaohongshu.md) - Recommendation-driven social platform used as the source's main example of volatile creator metrics.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
 - [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence with work, family, creation, and human nature, and summarizing big-data industry transformation criteria.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
@@ -111,6 +117,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
 
 ## Concepts
+- [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around topic choice, expertise, perfectionism, audience data, and future ideas.
+- [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
+- [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
+- [Creator Positioning](concepts/CreatorPositioning.md) - Choosing a creator direction by defining audience, value, credibility, and a defensible point of view.
+- [Idea Management](concepts/IdeaManagement.md) - Capturing, storing, reviewing, and cultivating ideas so passing inspiration can become future work.
 - [Accessibility Tree](concepts/AccessibilityTree.md) - Semantic UI tree used by assistive technology and agentic Computer Use workflows.
 - [Alcohol Abstinence](concepts/AlcoholAbstinence.md) - Avoiding alcohol as a discipline practice for protecting cognitive clarity and agency.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.

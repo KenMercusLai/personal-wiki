@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 选题、专业性、完美主义、数据和灵感，这些创作焦虑该如何应对？
+
+Added source note and synthesis pages for creator anxiety, creator positioning, creator feedback loops, platform metrics, and idea management. Added entity profiles for Jay Clouse, Sahil Bloom, Alok Kanojia, Xiaohongshu, and Notion, and updated writing, knowledge output, PKM, creative presence, personal branding, and Nicky Case to reflect the source's creator-workflow view.
+
 ## [2026-09-12] ingest | 一个半月高强度 Claude Code 使用后感受
 
 Added a source note and synthesis pages for Claude Code, Onevcat, and vibe coding. Updated AI coding practice, AI agent collaboration, software verification, LLM context management, Claude, Anthropic, the index, and overview to reflect the source's practitioner view: Claude Code enables unusually fast project-wide coding-agent work, but useful vibe coding depends on planning or prototyping deliberately, keeping changes small, managing context windows and compaction, continuously verifying generated code, and preserving human judgment and pace.
@@ -233,6 +237,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验
 
 Added source. Key claims: tutorial writing can convert passive notes into active learning; explanatory writing benefits from reader promise, concrete examples, and testing; PKM is most useful when notes and checklists support concrete publication work; focus improves when creators limit work in progress to one main piece.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

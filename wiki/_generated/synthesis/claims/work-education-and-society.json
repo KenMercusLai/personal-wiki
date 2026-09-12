@@ -69,10 +69,11 @@
       "global_candidate": true,
       "id": "learning-deepens-through-output-and-situated-practice",
       "qualifications": [
-        "The learning, tutorial-writing, and workplace-learning sources describe practitioner workflows, not comparative education studies.",
+        "The learning, tutorial-writing, creator-anxiety, and workplace-learning sources describe practitioner workflows, not comparative education studies.",
         "Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions.",
         "Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure.",
-        "Workplace case review depends on access to solved problems, traces, safe experiments, and colleagues willing to explain their reasoning."
+        "Workplace case review depends on access to solved problems, traces, safe experiments, and colleagues willing to explain their reasoning.",
+        "Creator feedback can be noisy or emotionally destabilizing when it is mistaken for a verdict rather than learning signal."
       ],
       "statement": "[[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.",
       "status": "qualified",
@@ -119,6 +120,30 @@
         "PiotrWozniak",
         "PeterThiel",
         "WorkplaceLearning"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "creator-paths-need-positioning-feedback-and-tooling",
+      "qualifications": [
+        "The claim is source-scoped to one creator retrospective and cited creator-economy interviews.",
+        "Purpose-led positioning and idea databases may still be too broad or tool-heavy for some creators, audiences, or platforms.",
+        "Platform-incentive claims should be treated cautiously because they combine author experience, reporting, and interview interpretation."
+      ],
+      "statement": "[[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[PersonalBranding]], and [[Notion]] show creator work as an emotional and operational system where purpose, feedback, authenticity, platform-aware metrics, and capture infrastructure sustain output.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "CreatorAnxiety",
+        "CreatorPositioning",
+        "CreatorPlatformMetrics",
+        "IdeaManagement",
+        "PersonalBranding",
+        "JayClouse",
+        "SahilBloom",
+        "AlokKanojia",
+        "Xiaohongshu",
+        "Notion",
+        "KnowledgeOutput"
       ]
     },
     {
@@ -219,6 +244,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output and situated workplace practice, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, and situated workplace practice, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
   "topic_id": "work-education-and-society"
 }

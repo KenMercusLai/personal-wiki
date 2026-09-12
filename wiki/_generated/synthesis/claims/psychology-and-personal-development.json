@@ -2,6 +2,30 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "creator-anxiety-improves-through-controllable-actions",
+      "qualifications": [
+        "The claim is grounded in a personal creator retrospective and cited interviews, not clinical or platform-wide evidence.",
+        "Platform-data advice may vary for creators whose income, obligations, or editorial contracts require closer metric tracking."
+      ],
+      "statement": "[[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "CreatorAnxiety",
+        "CreatorPositioning",
+        "CreatorPlatformMetrics",
+        "IdeaManagement",
+        "CreativePresence",
+        "AlokKanojia",
+        "SahilBloom",
+        "JayClouse",
+        "Xiaohongshu",
+        "Notion",
+        "KnowledgeOutput",
+        "PersonalBranding"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "goals-can-protect-learn-drive",
       "qualifications": [
         "The source says mature experts may rely on curiosity without explicit goals, so the claim is strongest for younger or constrained learners."
@@ -58,6 +82,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development topic centers on motivation for learning. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, but they can be counterproductive when they become imposed pressure or credential compliance. A prompt-cache paragraph is present only as technical classifier spillover.",
+  "summary": "The psychology and personal-development topic centers on motivation, creator anxiety, and learning agency. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, while creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. A prompt-cache paragraph is present only as technical classifier spillover.",
   "topic_id": "psychology-and-personal-development"
 }
