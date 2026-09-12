@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: bf3259f4ddb6f9b2d51bebb8cd798bc158d39b1b
-input_digest: 17e827e2e82d8bc3931f5c8f695f281d332beb6484601ba07c8cd6e9ceef1fa0
+as_of_overview_commit: 28ebdf11796ed7168057c3e09da6962048c74af6
+input_digest: 7fb96cc8de32dd83a53eaf1f6ad5f3fad8c2e7864905f1d1653d032fe0f68c29
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and black-box exploration before AI assistants or retrieval systems can help without hollowing out skill formation. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, deep-learning skepticism, code review, coding agents, TODO-based technical-debt tracking, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
 
 ## Cross-source Findings
 
@@ -118,13 +118,13 @@ The AI and technology thread treats software, AI systems, data work, reading and
 
 ### Ai Coding Needs Human And System Controls
 
-[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.
+[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, and capable of producing human judgment rather than only completed output.
 
-**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[MaxLv]], [[MihomoRust]]
+**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[BlackBoxLearning]], [[GitHubCopilot]], [[CYY]], [[TasteAsProblemSense]], [[MaxLv]], [[MihomoRust]]
 
 **Qualifications:**
 
-- The sources are practitioner essays and case studies; they disagree in emphasis between collaboration-first, automation-first, large-project role-based workflows, and older human-review practices.
+- The sources are practitioner essays and case studies; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, large-project role-based workflows, and older human-review practices.
 
 ### Production Agents Need Semantic Safety
 

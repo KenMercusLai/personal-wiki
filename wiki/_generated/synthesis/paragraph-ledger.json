@@ -86,6 +86,7 @@
       "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
       "d4e8cb2d1247336696e714bf8d888a8054e80f92d9ecf71e429da47e374206a4",
       "87372e1220f85618d1b4311fb58d51036a4b0fe5846a70292bd81e6bb0b9e542",
+      "d97a3c87fd7207ff43bd1f4c3b5c3ed204226a0a29be6d01b01473c9bc981227",
       "af7ad09ac7000caeb278383d9e9591a0f0c4adb94bf68f0ba94bcf89845a530f",
       "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
@@ -107,10 +108,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 105
+    "paragraph_count": 106
   },
-  "overview_commit": "bf3259f4ddb6f9b2d51bebb8cd798bc158d39b1b",
-  "overview_digest": "b0cfe99984bf74a40ff7282b35a53d53144d39c0175b42a4d28208c06e73fca2",
+  "overview_commit": "28ebdf11796ed7168057c3e09da6962048c74af6",
+  "overview_digest": "0a4cdb2ce9c1124e2ff558b4e8ddb2475385b622fd066ceb6e8ae0e8f53f20e9",
   "paragraphs": [
     {
       "id": "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
@@ -1794,6 +1795,27 @@
         "Gemini",
         "HumanCodeResponsibility",
         "OpenAI"
+      ]
+    },
+    {
+      "id": "d97a3c87fd7207ff43bd1f4c3b5c3ed204226a0a29be6d01b01473c9bc981227",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "[[CYY]]'s AI-hobbyist essay adds a learning-cost version of the AI coding debate. [[GitHubCopilot]], [[Claude]], [[OpenAI]] models, and [[OpenClaw]] are presented as signs that agentic coding has moved beyond boilerplate into feature implementation, testing, performance-counter inspection, and RTL-waveform analysis. [[BlackBoxLearning]] names the threatened value: for hobbyist systems engineers, stack dumps, intermediate prints, waveforms, and architecture insertion points are not merely slow paths to output but the material that builds intuition and research ideas. The source therefore qualifies speed-centered [[AICodingPractice]] and [[JuniorEngineerLearning]]: when delivery is the only target, offloading is rational, but when growth or invention matters, the human may need to preserve slow thinking, hands-on investigation, and [[TasteAsProblemSense]] even while living with AI.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AICodingPractice",
+        "BlackBoxLearning",
+        "CYY",
+        "Claude",
+        "GitHubCopilot",
+        "JuniorEngineerLearning",
+        "OpenAI",
+        "OpenClaw",
+        "TasteAsProblemSense"
       ]
     },
     {

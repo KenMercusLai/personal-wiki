@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: bf3259f4ddb6f9b2d51bebb8cd798bc158d39b1b
-summary: "The wiki maps how tools, markets, learning, and institutions preserve reality contact through evidence, feedback, clear boundaries, and accountability."
-episode_count: 106
-source_count: 106
-paragraph_count: 105
+as_of_overview_commit: 28ebdf11796ed7168057c3e09da6962048c74af6
+summary: "The wiki maps how tools, markets, learning, and institutions preserve reality contact through evidence, feedback, clear boundaries, accountability, and learning-rich exploration."
+episode_count: 107
+source_count: 107
+paragraph_count: 106
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.
+- [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, and capable of producing human judgment rather than only completed output.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], and [[ComputerUse]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, and connected to tools.
 - [[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], and [[AutonomousDrivingSafety]] separate data-rich representation learning from hype claims: compute growth, benchmark success, and simulation-heavy game agents do not by themselves prove robust perception, physical prediction, or safe action.
 - [[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]], [[Hardbound]], [[Groove]], [[Microsoft]], [[SmugMug]], and [[Bump]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], [[CustomerLedProductDevelopment]], [[UserBehaviorDrivenProductDiscovery]], [[SmallTeamLeverage]], [[StartupTeamBond]], [[FailureOwnership]], [[SelfFundedSoftwareGrowth]], and [[StartupCulture]].
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources treat software, AI, data work, mobile platforms, campaign tools, infrastructure, and developer platforms as socio-technical systems whose usefulness depends on context quality, evidence chains, verification, runtime realism, and accountable judgment. The topic now adds a deep-learning caution: representation learning can be useful in data-rich loops, but compute growth, benchmark performance, and simulation-heavy game success do not by themselves prove robust perception or safe action.
+AI and technology sources treat software, AI, data work, mobile platforms, campaign tools, infrastructure, and developer platforms as socio-technical systems whose usefulness depends on context quality, evidence chains, verification, runtime realism, accountable judgment, and preserving learning-rich black-box exploration when tools accelerate execution.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]] and [[AIWorkflowDesign]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]].

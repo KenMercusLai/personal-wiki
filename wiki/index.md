@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
 - [AI winter is well on its way - Piekniewski's blog](sources/ai-winter-is-well-on-its-way-piekniewskis-blog.md) - Filip Piekniewski's 2018 essay arguing that deep-learning hype was cracking through compute-scaling limits, self-driving failures, spurious visual patterns, and the Uber fatal crash.
 - [Bump: 10 Years of Lessons Learned](sources/bump-10-years-of-lessons-learned.md) - David Lieb's retrospective on Bump, showing small-team leverage, user-behavior discovery, photo-sharing pivots, cofounder bonds, Google acquisition, and Google Photos continuity.
 - [A thing I wonder: do companies have too many employees?](sources/a-thing-i-wonder-do-companies-have-too-many-employees.md) - Coach Tony questions headcount-as-success assumptions by arguing that talent needs real opportunity and that large teams can hide underutilization.
@@ -114,6 +115,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [CYY](entities/CYY.md) - Systems-oriented hobbyist author reflecting on AI, black-box learning, open-source work, and human-centered innovation.
 - [Filip Piekniewski](entities/FilipPiekniewski.md) - AI-skeptical blogger arguing in 2018 that deep-learning hype and self-driving failures pointed toward an AI winter.
 - [David Lieb](entities/DavidLieb.md) - Bump cofounder and retrospective author connecting Bump, Flock, Photoroll, Google acquisition, and Google Photos work.
 - [Bump](entities/Bump.md) - Mobile startup that grew through Y Combinator, revealed photo-sharing behavior, and was acquired by Google.
@@ -198,6 +200,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ethereum](entities/Ethereum.md) - Blockchain ecosystem whose early usability gap, DAO aftermath, ENS workflows, ICO boom, and asset-value growth shaped the wallet story.
 - [Hotmail](entities/Hotmail.md) - Email service used as a classic outgoing-message viral-loop example.
 - [Gmail](entities/Gmail.md) - Google email service used as an invitation-scarcity growth example.
+- [GitHub Copilot](entities/GitHubCopilot.md) - AI coding assistant used as CYY's timeline for the shift from completion helper to agentic engineering support.
 - [Glitch](entities/Glitch.md) - Developer tool and remix platform used as an example of Twitter bot-building potential.
 - [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
 - [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
@@ -446,6 +449,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
 - [Deep Learning Scaling](concepts/DeepLearningScaling.md) - Contested link between increasing compute, data, model size, and transferable deep-learning capability.
 - [Autonomous Driving Safety](concepts/AutonomousDrivingSafety.md) - Reliability problem of making automated vehicles perceive, predict, decide, and act safely in open-world traffic.

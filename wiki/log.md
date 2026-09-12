@@ -608,6 +608,10 @@ Added source note and synthesis pages for AI winter, deep learning scaling, auto
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办
+
+Added source note and synthesis pages for CYY, GitHub Copilot, and black-box learning. Key claims: AI coding agents can now offload debugging and systems-analysis work that used to create hobbyist learning, so human practice needs to deliberately preserve slow thinking, subjective problem sensing, and hands-on exploration when growth or invention matters.
+
 ## [2026-09-13] ingest | Bump: 10 Years of Lessons Learned
 
 ## [2026-09-13] ingest | A thing I wonder: do companies have too many employees?
@@ -790,6 +794,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
