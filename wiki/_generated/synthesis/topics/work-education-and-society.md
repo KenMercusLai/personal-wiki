@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: 371c295276f262fa59466975fdce566f6344b452
-input_digest: b920b3e1a9fd7168b41578cc14cb129a5bae7af95a79e9d5e5a200dad369ae70
+as_of_overview_commit: a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4
+input_digest: 8f26b153f8b7a54eb41d57851b576c11663914eae8000e2de7b07ba1507e4248
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, and situated workplace practice, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
 
 ## Cross-source Findings
 
@@ -73,6 +73,17 @@ Work, education, and society sources frame improvement as designed loops: practi
 - Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure.
 - Workplace case review depends on access to solved problems, traces, safe experiments, and colleagues willing to explain their reasoning.
 - Creator feedback can be noisy or emotionally destabilizing when it is mistaken for a verdict rather than learning signal.
+
+### Ai Era Education Extends Computational Thinking
+
+[[RORIRI]] extends [[ComputationalThinking]] for AI-era education by combining [[StatisticalModelThinking]], [[AcademicWriting]], and [[ProjectBasedLearning]] so learners can define problems, handle uncertainty, build evidence chains, and use [[MetacognitiveFeedback]] and [[TasteAsProblemSense]] to sustain inquiry.
+
+**Evidence:** [[RORIRI]], [[ComputationalThinking]], [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], [[TasteAsProblemSense]]
+
+**Qualifications:**
+
+- The source is a formative curriculum essay rather than a school implementation or controlled education study.
+- The proposed ability set is deliberately flexible and depends on existing knowledge, teachers, projects, and methodological guidance.
 
 ### Learning Goals Protect Motivation
 

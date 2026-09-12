@@ -10,6 +10,7 @@
       "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
       "e77ddbc469ee54a125a93c09e39aab912822c0b087e31e671e4d8ec61b94bb1a",
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
+      "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
@@ -38,10 +39,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 36
+    "paragraph_count": 37
   },
-  "overview_commit": "3c8773402521583c0ed9c1dabc606821def18f7c",
-  "overview_digest": "1821342f63adaacc2bf70c94a3bdc527cd324510d4bc809880dce7024763d745",
+  "overview_commit": "a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4",
+  "overview_digest": "5ec6dd4f27c4ae857707f08623b59fd59209da3ab223be3c65bc076f2d64063a",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -198,6 +199,27 @@
         "JuniorEngineerLearning",
         "Plantegg",
         "WorkplaceLearning"
+      ]
+    },
+    {
+      "id": "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest education source turns several learning and AI cautions into an explicit curriculum frame. [[RORIRI]] argues that AI reduces the premium on executing already-structured tasks while increasing the importance of defining problems, modeling uncertainty, organizing abstractions, and building evidence chains. [[ComputationalThinking]] remains the base layer, but [[StatisticalModelThinking]] adds the epistemic habit of treating observations and AI outputs as lossy models with error, while [[AcademicWriting]] makes problem boundaries and reasoning gaps visible. [[ProjectBasedLearning]] is the proposed school implementation path because real inquiry projects can join statistics, programming, and writing without waiting for wholesale reform. [[MetacognitiveFeedback]] and [[TasteAsProblemSense]] add the motivational layer: students need artifacts that let them see their own growth, and AI-era human value centers on noticing and caring about real questions before tools execute.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AcademicWriting",
+        "ComputationalThinking",
+        "MetacognitiveFeedback",
+        "ProjectBasedLearning",
+        "RORIRI",
+        "StatisticalModelThinking",
+        "TasteAsProblemSense"
       ]
     },
     {

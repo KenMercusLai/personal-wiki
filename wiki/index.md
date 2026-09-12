@@ -26,6 +26,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
+- [教育的下一步 · 其二 | 螺莉莉的数据中心](sources/jiao-yu-de-xia-yi-bu-qi-er-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's AI-era education essay arguing for expanded computational thinking through statistical model judgment, abstraction/programming, academic writing, PBL, metacognitive feedback, and taste as problem sense.
 - [一份关于 AI 编程的简明行为指南 | Piglei](sources/yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei.md) - A software-engineering guide arguing that AI coding agents should be used through accountable collaboration, small reviewable changes, verification, stable libraries, and learning-protective habits for junior engineers.
 - [一个独立创造者的五年](sources/yi-ge-du-li-chuang-zao-zhe-de-wu-nian.md) - A five-year Indie Hacker retrospective on moving from a domestic content product to overseas subscription SaaS, using modular infrastructure, solo-company discipline, customer-led product work, and practical marketing.
 - [我把网站迁移到 cf，省了几万块](sources/wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai.md) - A practical migration report showing how a Next.js project moved from Vercel to AWS and Cloudflare to reduce hosting cost, with notes on PM2, Docker, Cloudflare Pages, and edge-runtime compatibility.
@@ -163,8 +164,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
 - [Capability Gateway](concepts/CapabilityGateway.md) - Infrastructure boundary that mediates agent actions through scoped, temporary, revocable credentials and tool semantics.
+- [Academic Writing](concepts/AcademicWriting.md) - Writing used as structured problem-solving through question definition, argument construction, evidence chains, and visible reasoning.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
+- [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
@@ -213,6 +216,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
 - [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
 - [Metaphor Aesthetics](concepts/MetaphorAesthetics.md) - Account of metaphor as an aesthetic event completed through the reader's theatrical participation.
+- [Metacognitive Feedback](concepts/MetacognitiveFeedback.md) - Feedback that lets learners notice how their own thinking has changed through visible artifacts and reflection.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
 - [Network Load Balancing](concepts/NetworkLoadBalancing.md) - Packet-level distribution of client traffic across backend servers while preserving routing, connection identity, performance, and availability.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
@@ -224,6 +228,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material for future thinking.
+- [Project-Based Learning](concepts/ProjectBasedLearning.md) - Inquiry-oriented learning where students pursue a concrete question, gather evidence, build methods, and present conclusions.
 - [Private Data Chatbot](concepts/PrivateDataChatbot.md) - Chatbot pattern that answers from user-provided or organization-held data rather than only built-in model knowledge.
 - [Programmer Freelancing](concepts/ProgrammerFreelancing.md) - Self-directed programmer work supported by financial runway, course income, product experiments, branding, and routines.
 - [Prompt Caching](concepts/PromptCaching.md) - LLM serving mechanism that reuses stable prompt prefixes or marked segments to reduce repeated input processing cost.
@@ -243,6 +248,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
+- [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
+- [Taste as Problem Sense](concepts/TasteAsProblemSense.md) - Ability to notice a real, personally compelling question and care enough to investigate it deeply.
 - [Team Focus](concepts/TeamFocus.md) - Shared collaborator capacity to sustain competent attention without avoidable coordination, morale, or distraction costs.
 - [Time Management Quadrants](concepts/TimeManagementQuadrants.md) - Sorting tasks by urgency and importance to protect important work.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.

@@ -93,6 +93,25 @@
     },
     {
       "global_candidate": true,
+      "id": "ai-era-education-extends-computational-thinking",
+      "qualifications": [
+        "The source is a formative curriculum essay rather than a school implementation or controlled education study.",
+        "The proposed ability set is deliberately flexible and depends on existing knowledge, teachers, projects, and methodological guidance."
+      ],
+      "statement": "[[RORIRI]] extends [[ComputationalThinking]] for AI-era education by combining [[StatisticalModelThinking]], [[AcademicWriting]], and [[ProjectBasedLearning]] so learners can define problems, handle uncertainty, build evidence chains, and use [[MetacognitiveFeedback]] and [[TasteAsProblemSense]] to sustain inquiry.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RORIRI",
+        "ComputationalThinking",
+        "StatisticalModelThinking",
+        "AcademicWriting",
+        "ProjectBasedLearning",
+        "MetacognitiveFeedback",
+        "TasteAsProblemSense"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "learning-goals-protect-motivation",
       "qualifications": [
         "The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.",
@@ -261,6 +280,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, and situated workplace practice, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.",
   "topic_id": "work-education-and-society"
 }

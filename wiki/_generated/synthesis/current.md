@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 3c8773402521583c0ed9c1dabc606821def18f7c
-summary: "A systems wiki connecting learning, creator work, AI, infrastructure, security, business, culture, and philosophy through judgment and verification."
-episode_count: 33
-source_count: 33
-paragraph_count: 36
+as_of_overview_commit: a26c2a0b511d9b2ec999a7b49fa3d05d2370a5d4
+summary: "A systems wiki connecting learning, creator work, AI, infrastructure, security, business, culture, and philosophy through judgment, verification, and problem definition."
+episode_count: 34
+source_count: 34
+paragraph_count: 37
 topic_count: 9
 ---
 
@@ -17,19 +17,19 @@ topic_count: 9
 ## Executive Summary
 
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.
+- [[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.
 - [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, and fresh sessions.
 - [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] also requires small steps, context control, and humane pacing.
-- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals.
+- The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that inference routing quality depends on architecture as well as algorithms: polling, centralized endpoint picking, and event-driven KV-cache state carry different scaling tradeoffs.
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
-- [[SmallProductPortfolio]] extends the independent-creator path: [[ZhangXiaoji]] uses [[TableToFigma]], [[FitCurve]], and [[GlimmerCard]] to diversify product risk, while [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn user conversations, public examples, marketplace timing, and early monetization into feedback and distribution.
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
+The current corpus covers AI technology as personal knowledge support, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances. Evidence: [[NoteGranularity]], [[NoteToolFit]], [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[Obsidian]], [[ChrisGrieser]].
@@ -43,7 +43,7 @@ The business-and-markets material combines independent creator economics with ma
 
 ### Cross-domain
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around weak credentials, cleartext transport, unauthenticated access, remote administration boundaries, and database service risk.
+Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
@@ -78,7 +78,7 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, and situated workplace practice, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

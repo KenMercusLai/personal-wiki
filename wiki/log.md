@@ -112,6 +112,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 教育的下一步 · 其二 | 螺莉莉的数据中心
+
+Added source note and synthesis pages for RORIRI's AI-era education frame. Key claims: AI makes problem definition, evidence chains, uncertainty judgment, abstraction, and taste more important; expanded computational thinking joins statistical model thinking, abstraction/programming, and academic writing; and project-based learning with visible metacognitive feedback can turn these abilities into practical school work.
+
 ## [2026-09-12] ingest | 常用端口利用总结
 
 Added source note and synthesis pages for defensive port triage, weak credential exposure, unauthenticated service exposure, cleartext protocol exposure, remote administration exposure, and database service exposure. Added Infvie as the source attribution entity. Key claims: port inventories are useful first-pass security triage maps, but findings still require defensive validation of authentication, encryption, configuration, network reachability, service version, and application-layer behavior.
@@ -276,6 +280,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅
 
 Added source note and synthesis pages for Zhang Xiaoji's small-product transition. Key claims: a programmer leaving employment can diversify risk through a portfolio of narrow paid tools; user conversations can correct founder intuition; build-in-public can combine feedback, trust, and distribution; and platform choice matters when small creators depend on marketplace exposure and user payment habits.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
