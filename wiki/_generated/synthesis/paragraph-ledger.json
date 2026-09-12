@@ -58,6 +58,7 @@
       "6b88a4af45ee135975657d5285a813b8fa39d4e5b756c14eb53fe8ddfacf4e87",
       "6d036eb9df0cc4d05ad19639f6c62bf1c4baeb9aad2ac4546ab0094b90d94a73",
       "a2bc68ad2b17ee569e95a481ae9ca37aba6f26dbadaebfc13d8527c62025eca2",
+      "ae3c32a82a700ed13c784a6b0780ff168f00f9b0912cb94d39b5d8555fc9e6ee",
       "cedf49e41697a1f9a734b3cef07360241e3cd0c17be3b8f2cfeae33a748aa702",
       "e6ed3471285a6de6420b21726ef8f78b2268d163d998585b8326ef70fef86db8",
       "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
@@ -99,10 +100,10 @@
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 97
+    "paragraph_count": 98
   },
-  "overview_commit": "af2afb0d537a879ed4a287834b885482b89f52c9",
-  "overview_digest": "afd315d204729a7bb2fb8e029f2a72384fd30597a6f6ca6a2104cf38838823a6",
+  "overview_commit": "f56da11a097a46bdcef0bd52e69b68b57fb1d08e",
+  "overview_digest": "aed45b6ff3349cc719ca4b870117e2035dc22c48d6beb0f75b5600eae148d0c6",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1191,6 +1192,22 @@
         "TripAdvisor",
         "ViralLoops",
         "Zappos"
+      ]
+    },
+    {
+      "id": "ae3c32a82a700ed13c784a6b0780ff168f00f9b0912cb94d39b5d8555fc9e6ee",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Price Intelligently discounting source adds a unit-economics warning to the same SaaS acquisition material. [[SaaSDiscounting]] can create short-term conversion or quarterly-goal progress while lowering willingness to pay, increasing churn, lengthening [[CustomerAcquisitionCost]] recovery, and reducing [[CustomerLifetimeValue]]. This sharpens [[SaaSMarketing]] and [[SaaSPricing]] by arguing that offers should be discrete, segmented, time-limited, varied, and judged by retained revenue rather than customer count alone; annual-plan discounts are the main qualified exception because they can improve upfront cash flow without broadly teaching monthly customers to wait for lower prices.",
+      "topic_scores": {
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "CustomerAcquisitionCost",
+        "CustomerLifetimeValue",
+        "SaaSDiscounting",
+        "SaaSMarketing",
+        "SaaSPricing"
       ]
     },
     {

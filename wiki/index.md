@@ -102,8 +102,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳](sources/pao-pao-ma-te-yin-wei-du-te-du-hou-gan-he-wang-ning-mai-xing-xing-bang-de-gu-shi-li-ji-ao.md) - A Pop Mart investment reading note arguing that revenue rests on designer-toy demand, series-based blind boxes, Labubu category expansion, and Wang Ning's founder-led organizational evolution.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 - [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
+- [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [Price Intelligently](entities/PriceIntelligently.md) - SaaS pricing publisher behind the discounting analysis.
 - [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
 - [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform used as a traffic data source for comparing technology attention across countries.
@@ -436,6 +438,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
+- [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue and the time needed to recover it.
+- [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by revenue, retention, and churn.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
@@ -645,7 +649,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Remote Administration Exposure](concepts/RemoteAdministrationExposure.md) - Risk created when login, file-transfer, remote-desktop, command, or management-console services are reachable beyond their intended administration boundary.
 - [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
+- [SaaS Discounting](concepts/SaaSDiscounting.md) - Subscription-software price reductions that can aid conversion while damaging perceived value, retention, and unit economics.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
+- [SaaS Pricing](concepts/SaaSPricing.md) - Strategic subscription pricing choices around value, discounts, incentives, and retention economics.
 - [Social Proof](concepts/SocialProof.md) - Visitor inference from visible approval, absence, relevance, or mismatch around a product, page, or creator.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.

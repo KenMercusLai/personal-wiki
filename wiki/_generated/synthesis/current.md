@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: af2afb0d537a879ed4a287834b885482b89f52c9
-summary: "The wiki maps how tools, work, learning, markets, and personal systems need trust, evidence, context, verification, restraint, and human judgment."
-episode_count: 96
-source_count: 96
-paragraph_count: 97
+as_of_overview_commit: f56da11a097a46bdcef0bd52e69b68b57fb1d08e
+summary: "The wiki maps tools, work, learning, markets, and systems through trust, evidence, verification, unit economics, context, and judgment."
+episode_count: 97
+source_count: 97
+paragraph_count: 98
 topic_count: 9
 ---
 
@@ -21,8 +21,8 @@ topic_count: 9
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.
 - [[TechnologyStackComplexity]], [[DatabaseConsolidation]], and [[PostgreSQL]] show that data architecture should add specialized systems only when critical capability or scale benefits outweigh added language, consistency, operations, and cross-system data-flow costs.
 - [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
-- [[MinimumViableProduct]] reframes startup product work as early evidence gathering: [[SoftwareBrothers]] shows teams testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, and platform/community placement before building full systems; [[OutsourcedProductDevelopment]] adds outsourced concept builds as a validation path when later refactoring or disposal is expected; and [[StartupHypothesisTesting]] adds that tests should be tied to explicit assumptions and evaluation criteria.
-- [[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]] shows the failure-side lesson that before [[ProductMarketFit]], runway should buy meaningful tests and [[StartupFocus]] should force choices when service revenue and product adoption diverge; [[Hardbound]] shows that visible love, usage, and paying customers may still fail to produce fundable fit when growth, revenue, and production economics remain weak, making [[FailureOwnership]] part of post-failure learning; [[AlexTurnbull]] adds from [[Groove]] that founders should prioritize value creation, profit, regular [[CustomerLedProductDevelopment]], and attention-preserving operating practices; [[Microsoft]] adds the exceptional [[SelfFundedSoftwareGrowth]] case, where product revenue, profit, cash, and limited advice-oriented venture capital reduced IPO timing pressure.
+- [[MinimumViableProduct]] reframes startup product work as early evidence gathering through manual workflows, videos, pricing pages, waitlists, closed betas, platform placement, outsourced concept builds, and explicit [[StartupHypothesisTesting]].
+- [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSDiscounting]] and [[SaaSPricing]] add that offers must be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, and [[CustomerLifetimeValue]], not customer count alone.
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps.
 
 ## Synthesis by Domain
@@ -36,10 +36,10 @@ AI and technology sources treat software, AI systems, data work, developer platf
 
 ### Business and Markets
 
-Business and market sources connect startup validation, product evolution, distribution, trust, funding, scaling, and platform turnaround: durable companies convert runway into learning, make products legible through evidence, and keep value credible through shipping, safety, metrics, segmentation, and ecosystem trust.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, and operational discipline; durable companies convert runway into learning, make products legible through evidence, and judge acquisition by retained value as well as attention.
 
-- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SteveRidout]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
-- [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, mature adaptation, and long-lived tool lineage: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[Vim]] evolves through [[UnixEditorLineage]], ports, open-source clones, patches, and durable interface conventions; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation. Evidence: [[ProductEvolution]], [[Instapaper]], [[AppStore]], [[Betaworks]], [[Pinterest]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[ConstraintShapedInterfaceDesign]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[DeployBeta]], [[Elecpass]], [[OutsourcedProductDevelopment]].
+- [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[Readlang]], [[IndependentCreator]].
+- [[MicroCompany]], [[ProgrammerFreelancing]], and [[SmallProductPortfolio]] describe independent software businesses where modular services, stable income bases, [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] turn small products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[CustomerLedProductDevelopment]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]], [[ZhangXuan]], [[ZhangXiaoji]], [[TableToFigma]], [[EasyCV]].
 
 ### Cross-domain
 
