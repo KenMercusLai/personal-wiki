@@ -576,6 +576,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 7 Ways to Uplevel Your Code Review Skills
+
+Ingested Asana's code-review article. Added source, Asana entity, and Code Review Practice concept pages; updated PR review hygiene, software verification, workplace learning, overview, and index to capture review as team learning, execution-backed validation, and low-friction approval.
+
 ## [2026-09-13] ingest | 7 Reasons Why Your Staging Environment Sucks - Loadmill
 
 Ingested Loadmill's staging-environment article. Added source, concept, and entity pages for production-like staging, chaos engineering, and Loadmill; updated system reliability, change safety, software verification, overview, and index to capture staging realism as a pre-release verification layer.
@@ -587,6 +591,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 7 Ways to Use the Rule of Threes to Build Great Products
 
 Ingested the Women in Product rule-of-threes article. Added source, publication context, and concept pages for product triads, small-team balance, metric ladders, product storytelling, user-research thresholds, iterative shipping, and retrospectives; updated index and overview to capture the new product-operating heuristic.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

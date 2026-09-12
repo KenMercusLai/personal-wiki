@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-13
-as_of_overview_commit: 3d927a811343edd122b4fdf40964892ff486a6cf
-input_digest: 1da675946497436bab185d1e8324a9c7561e9d17fc02346ee8ed9d60583d4a86
+as_of_overview_commit: 0459856a87cbeb7a7200649365fd0dbba1c9fc29
+input_digest: 97871e507da7e20e0812d17a5c51243c6886c9f0d75a9eb4a639bcbf10393415
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, outsourced product work, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, scope, technical detail, QA, tracking, long-term fit, opportunity cost, and employer-facing evidence; Readlang adds that useful work and user impact do not automatically make a solo path economically rational. Side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, active code review, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, outsourced product work, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, scope, technical detail, QA, tracking, long-term fit, opportunity cost, and employer-facing evidence; Readlang adds that useful work and user impact do not automatically make a solo path economically rational. Side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, data automation, and review practices can reshape organizational workflows when their operational constraints are understood.
 
 ## Cross-source Findings
 
@@ -62,9 +62,9 @@ Work, education, and society sources frame improvement as designed loops: practi
 
 ### Learning Deepens Through Output And Situated Practice
 
-[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
+[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting.
 
-**Evidence:** [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[DerekLieu]], [[NickyCase]], [[PersonalKnowledgeManagement]], [[WorkplaceLearning]], [[JuniorEngineerLearning]], [[Plantegg]], [[NoteToolFit]], [[Obsidian]]
+**Evidence:** [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[DerekLieu]], [[NickyCase]], [[PersonalKnowledgeManagement]], [[WorkplaceLearning]], [[CodeReviewPractice]], [[JuniorEngineerLearning]], [[Plantegg]], [[NoteToolFit]], [[Obsidian]]
 
 **Qualifications:**
 
@@ -72,6 +72,7 @@ Work, education, and society sources frame improvement as designed loops: practi
 - Course income depends on teaching skill, topic demand, distribution, maintenance, and platform conditions.
 - Explanatory writing may require enough prior notes, examples, and reader access to avoid becoming premature performance pressure.
 - Workplace case review depends on access to solved problems, traces, safe experiments, and colleagues willing to explain their reasoning.
+- Code-review learning depends on enough local context, runnable code, and team norms that let reviewers ask questions without becoming unnecessary blockers.
 - Book-centered systematic learning is strongest for durable domains and may need to be paired with faster online sources in rapidly changing fields.
 - Creator feedback can be noisy or emotionally destabilizing when it is mistaken for a verdict rather than learning signal.
 - Using output as a PKM test is a practical guardrail, but complex research, collaboration, or archival needs may justify heavier systems.

@@ -55,6 +55,7 @@
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
+      "c3dc22036f8ea9761aa4253dad7d34d7a736a562db0f6276a1bfb3f8c2430260",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
       "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
       "f5ba49764d48c9bb59fb7c3a2ba7ae522a4312e10db8e3905b6f48a62be84791",
@@ -75,10 +76,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 73
+    "paragraph_count": 74
   },
-  "overview_commit": "8f41aee492675f6f18d37b82373515cb516b24cd",
-  "overview_digest": "6df2d3e229bc41517754f946957698053cdd49e74cee0028cf8cbceac7fa6ef1",
+  "overview_commit": "0459856a87cbeb7a7200649365fd0dbba1c9fc29",
+  "overview_digest": "c6ea7546328b287637ea020cc03173df70044d59bf91850687763ca99bb2b5c1",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1133,6 +1134,24 @@
         "PRReviewHygiene",
         "Piglei",
         "SoftwareVerification"
+      ]
+    },
+    {
+      "id": "c3dc22036f8ea9761aa4253dad7d34d7a736a562db0f6276a1bfb3f8c2430260",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The Asana code-review source adds a pre-AI baseline for those same engineering practices. [[CodeReviewPractice]] is presented as most valuable when teams agree on the purpose of review, use it to spread codebase knowledge, and keep no teammate alone with a changed area. The article strengthens [[SoftwareVerification]] by arguing that reviewers should run the app, use breakpoints, pull changes into a real development environment, and look at compile, warning, test, navigation, and whole-file context rather than relying on diff reading alone. It also extends [[PRReviewHygiene]] and [[WorkplaceLearning]]: prompt first-pass feedback, explicit approval limits, default approval for simple non-bug suggestions, changed-file prediction, and call-hierarchy visualization make review faster, less blocking, and more educational.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CodeReviewPractice",
+        "PRReviewHygiene",
+        "SoftwareVerification",
+        "WorkplaceLearning"
       ]
     },
     {

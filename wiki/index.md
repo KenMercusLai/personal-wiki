@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [7 Ways to Uplevel Your Code Review Skills](sources/7-best-practices-for-doing-code-reviews.md) - Asana engineering article arguing that code reviews work best as team learning, execution-backed verification, prompt feedback, and non-blocking approval unless a bug is proven.
 - [7 Ways to Use the Rule of Threes to Build Great Products](sources/7-ways-to-use-the-rule-of-threes-to-build-great-products.md) - Women in Product article using triads to frame product-team balance, layered metrics, storytelling, proxy timeframes, user-research thresholds, iteration cadence, and retrospectives.
 - [7 Reasons Why Your Staging Environment Sucks - Loadmill](sources/7-reasons-why-your-staging-environment-sucks-loadmill.md) - Loadmill article arguing that staging only catches production bugs when it resembles production across architecture, runtime, monitoring, data, traffic, internet exposure, and failure conditions.
 - [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started](sources/7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started.md) - Alex Turnbull's Groove founder-advice article arguing that startups should focus on value and profit, build value-first relationships, talk to customers, defend brand and culture, buy back founder time, define success personally, and learn to sell vision.
@@ -303,6 +304,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
+- [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for the code-review practice source.
 
 ## Concepts
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
@@ -407,6 +409,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
+- [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, and delivery flow.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.

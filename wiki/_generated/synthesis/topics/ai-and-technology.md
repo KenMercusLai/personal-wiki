@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 6801bde12d33202ac554bcfff06486fdacfba0cc
-input_digest: 6e0216c59b666d20dce736206aa270c39562dc471ca5cf6b77a3f7d7ee2fefbe
+as_of_overview_commit: 0459856a87cbeb7a7200649365fd0dbba1c9fc29
+input_digest: afabfe5eebb0f14a00788c792a02d2647c090ccb8cc228415197ef6d72532744
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, and transferable principles before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, and transferable principles before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.
 
 ## Cross-source Findings
 
@@ -88,13 +88,13 @@ The AI and technology thread treats software, AI systems, data work, reading too
 
 ### Ai Coding Needs Human And System Controls
 
-[[AICodingPractice]] requires [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so AI speed remains reviewable, learnable, and testable.
+[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.
 
-**Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[MaxLv]], [[MihomoRust]]
+**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[MaxLv]], [[MihomoRust]]
 
 **Qualifications:**
 
-- The sources are practitioner essays and case studies; they disagree in emphasis between collaboration-first, automation-first, and large-project role-based workflows.
+- The sources are practitioner essays and case studies; they disagree in emphasis between collaboration-first, automation-first, large-project role-based workflows, and older human-review practices.
 
 ### Production Agents Need Semantic Safety
 

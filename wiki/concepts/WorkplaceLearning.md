@@ -4,7 +4,8 @@ type: concept
 tags: [learning, software-engineering, work]
 sources:
   - ru-he-zai-gong-zuo-zhong-xue-xi
-last_updated: 2026-09-12
+  - 7-best-practices-for-doing-code-reviews
+last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,6 +17,8 @@ The source presents workplace learning as an apprenticeship-like practice rather
 
 The article also adds a structural learning rule. When entering a new domain, learners need both a macro map and key anchors; otherwise scattered facts feel familiar in the moment but disappear or fail to transfer. Hands-on tools such as Wireshark, tcpdump, source-code reading, and repeated experiments provide the "body feel" that turns abstract technical explanations into durable understanding.
 
+Peer review can provide another version of the same learning loop. Reviewers can learn a codebase by predicting which files should change, comparing that model with the actual diff, visualizing call hierarchies, and using review to learn how coworkers reason about the system.
+
 ## Key Claims
 - Work problems are high-value learning material when they are reviewed as cases rather than merely closed.
 - Ability grows from combining knowledge with logic, not from knowing isolated facts.
@@ -23,6 +26,7 @@ The article also adds a structural learning rule. When entering a new domain, le
 - New domains need a big-picture map and key anchors before facts can connect and self-grow.
 - Hands-on verification gives abstract technical ideas concrete feel and improves recall.
 - General diagnostic methods can be more transferable than memorizing one expert's known fix.
+- Code review can become workplace learning when the reviewer actively predicts, visualizes, runs, and recalls rather than passively reading a diff.
 
 ## Evidence
 - Case review: [[ru-he-zai-gong-zuo-zhong-xue-xi]] recommends analyzing how a colleague solved a problem, what knowledge guided the reasoning, and which known facts the learner failed to apply.
@@ -31,12 +35,14 @@ The article also adds a structural learning rule. When entering a new domain, le
 - Big picture and anchors: [[ru-he-zai-gong-zuo-zhong-xue-xi]] argues that learners entering a field should find its overall map and key support points.
 - Concrete feel: [[ru-he-zai-gong-zuo-zhong-xue-xi]] uses TCP three-way-handshake study with Wireshark as an example of making theory tangible.
 - Transferable diagnostics: [[ru-he-zai-gong-zuo-zhong-xue-xi]] contrasts a tcpdump-based investigation with a MySQL-specific `skip-name-resolve` fix, valuing the general method's portability.
+- Review learning: [[7-best-practices-for-doing-code-reviews]] recommends predicting changed files, visualizing method calls, quizzing oneself, and using review to learn coworkers' codebase reasoning.
 
 ## Counterevidence & Qualifications
 The source is a practitioner essay, not an empirical comparison of learning methods. Its strongest claim is practical: in technical work, situated cases and hands-on verification can make learning more durable. It may understate constraints such as access to expert colleagues, safe production data, time for experiments, or the social cost of repeatedly asking for explanation.
 
 ## What Changed
 - Created the concept to capture problem-backed, apprenticeship-style technical learning at work.
+- Added code review as an active-learning setting for understanding codebase structure and teammate reasoning.
 
 ## Related Concepts
 - [[ActiveLearning]] - workplace learning becomes active through experiments, replay, and problem review.
@@ -45,3 +51,4 @@ The source is a practitioner essay, not an empirical comparison of learning meth
 - [[CreativeAbstraction]] - big-picture maps and anchors are the abstraction layer that makes domain facts connect.
 - [[FeynmanTechnique]] - repeated why-questions and gap review test whether the learner actually understands a solution.
 - [[SoftwareVerification]] - experiments, traces, and reproduction make technical learning evidence-backed.
+- [[CodeReviewPractice]] - active review can turn teammate changes into learning cases.

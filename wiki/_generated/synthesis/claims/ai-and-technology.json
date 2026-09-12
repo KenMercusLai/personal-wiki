@@ -143,12 +143,13 @@
       "global_candidate": true,
       "id": "ai-coding-needs-human-and-system-controls",
       "qualifications": [
-        "The sources are practitioner essays and case studies; they disagree in emphasis between collaboration-first, automation-first, and large-project role-based workflows."
+        "The sources are practitioner essays and case studies; they disagree in emphasis between collaboration-first, automation-first, large-project role-based workflows, and older human-review practices."
       ],
-      "statement": "[[AICodingPractice]] requires [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so AI speed remains reviewable, learnable, and testable.",
+      "statement": "[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], and [[AgentTeam]] discipline so software speed remains reviewable, learnable, and testable.",
       "status": "supported",
       "supporting_wikilinks": [
         "AICodingPractice",
+        "CodeReviewPractice",
         "AIAgentCollaboration",
         "HumanCodeResponsibility",
         "PRReviewHygiene",
@@ -239,6 +240,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, and transferable principles before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, reading tools, mobile platforms, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, and transferable principles before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, big-data automation, read-later products, browser payments, mobile runtimes, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, and accountable verification preserve reality contact.",
   "topic_id": "ai-and-technology"
 }
