@@ -5,6 +5,7 @@ tags: [ai, llm, context, memory]
 sources:
   - yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
+  - mu-jiang-chui-zi-ding-zi
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -17,14 +18,16 @@ The terminology source argues against passive compression that waits until the c
 
 A concrete provider-specific answer to that tension is microcompact: large, fast-decaying tool results are marked with cache references, and later requests append cache-edit deletion instructions. This is dynamic compression at request-serialization time: local history remains complete, but the provider-side cached view can drop selected content while preserving much of the stable prefix.
 
+[[TapeAndAnchors]] offers a more radical qualification. Compression, summaries, forks, merges, and handoffs all help finite contexts cope with long interaction histories, but they still often assume that history must be continuously inherited. The model reduces the compression burden by preserving raw history externally and carrying forward only minimal anchors.
+
 ## Key Claims
 - Passive end-of-window summarization happens at a bad time and can discard important detail.
 - Dynamic compression should proactively remove wrong, low-relevance, or distracting context.
 - External storage plus retrieval can preserve details without keeping everything in the active prompt.
 - Hierarchical memory systems resemble operating-system virtual memory.
 - Domain-specific compression can work when a strong prior identifies disposable information.
-- Dynamic compression can invalidate prompt caches unless stable prefixes are separated from dynamic suffixes.
-- Provider-supported cache edits can make compression more cache-compatible by logically deleting selected cached blocks instead of rewriting the local transcript.
+- Dynamic compression can invalidate prompt caches unless stable prefixes are separated from dynamic suffixes, or provider-supported cache edits can logically delete selected cached blocks without rewriting the local transcript.
+- Some context problems can be avoided by reconstructing from preserved history and anchors rather than compressing inherited state.
 
 ## Evidence
 - Passive-compression critique: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] says waiting until the context is near full causes a violent summarization step that may lose useful detail.
@@ -33,13 +36,18 @@ A concrete provider-specific answer to that tension is microcompact: large, fast
 - Computer Use example: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] gives screenshot history pruning as a domain-specific lossy compression strategy.
 - Cache tension: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] says strict prefix caching conflicts with modifying earlier context, but stable system/tool prefixes can remain cacheable.
 - Microcompact example: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] describes Claude Code targeting large tool results with cache references and cache edits while leaving local message history unchanged.
+- Continuity critique: [[mu-jiang-chui-zi-ding-zi]] groups compact, summary, fork, merge, and handoff as mechanisms built around the premise that state and history must continue.
+- Anchor alternative: [[mu-jiang-chui-zi-ding-zi]] proposes ending tasks cleanly, storing minimal anchors, and reconstructing context only when needed.
 
 ## Counterevidence & Qualifications
 The sources propose architectural directions but do not benchmark dynamic compression against passive summarization. Claude Code's cache-edit behavior is provider-specific and partly inferred, and the sources do not resolve how a supervising model distinguishes false, low-value, and latent-but-important details in high-stakes domains.
 
+This model shifts rather than solves several hard problems: retrieval quality, anchor design, provenance, and privacy still determine whether reconstructed context is adequate.
+
 ## What Changed
 - Created the concept page for active context compression and its relationship to memory, RAG, and prompt caching.
 - Added Claude Code microcompact as a concrete, cache-preserving dynamic compression pattern.
+- Added tape and anchors as an alternative that avoids some compression by changing the continuity model.
 
 ## Related Concepts
 - [[LLMContextManagement]] - dynamic compression is one method for protecting context quality.
@@ -48,3 +56,4 @@ The sources propose architectural directions but do not benchmark dynamic compre
 - [[KVCacheAwareRouting]] - both concern KV reuse, though one is context editing and the other is serving-time routing.
 - [[ComputerUse]] - Computer Use can benefit from domain-specific compression such as keeping only the latest screenshot.
 - [[PromptCaching]] - cache edits reduce the usual conflict between compression and cache reuse.
+- [[TapeAndAnchors]] - preserves raw history and minimal anchors instead of compressing all inherited state.

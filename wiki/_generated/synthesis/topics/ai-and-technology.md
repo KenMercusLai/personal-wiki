@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 96a553c7404865cd838c8253734ee035a19bba2c
-input_digest: e5be1c9920b0edb8c592c62a8d2e15fb4d7882192490c4b7c0506f719edb081f
+as_of_overview_commit: 0e2430a47cce4875b2e79b81633fdb773a340a5d
+input_digest: 10ab4f9c14bb36a3f322bf4ad5061ea9b76d68c8218d96b58bf68b333548d950
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-assisted writing needs human authorship and verification, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
+The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, agentic RAG for live codebases, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-assisted writing needs human authorship and verification, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents while coding agents may need live agent-loop retrieval, AI-assisted coding needs human and organizational controls, minimal coding-agent tools can be powerful when paired with iterative context search, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, tape-and-anchor reconstruction, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
 
 ## Cross-source Findings
 
@@ -102,13 +102,25 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 ### Private Data Chatbots Use Retrieval Context
 
-[[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
+[[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]], while coding agents may need [[AgenticRAG]] when live codebase freshness and natural-language/code semantic gaps make static indexes brittle.
 
-**Evidence:** [[PrivateDataChatbot]], [[RetrievalAugmentedGeneration]], [[Embeddings]], [[VectorDatabase]], [[LangChain]]
+**Evidence:** [[PrivateDataChatbot]], [[RetrievalAugmentedGeneration]], [[Embeddings]], [[VectorDatabase]], [[LangChain]], [[AgenticRAG]]
 
 **Qualifications:**
 
-- The source is a beginner tutorial and does not cover production concerns such as retrieval evaluation, privacy controls, prompt injection, or source attribution.
+- The private-data chatbot source is a beginner tutorial and does not cover production concerns such as retrieval evaluation, privacy controls, prompt injection, or source attribution.
+- The coding-agent source qualifies static RAG for fast-changing codebases and does not benchmark agentic retrieval against modern code-aware search systems.
+
+### Coding Agents Use Minimal Tools And Rebuilt Context
+
+[[CodingAgentMinimalTooling]] treats read, write, edit, and bash as a small but powerful coding-agent surface, while [[TapeAndAnchors]] and [[Bub]] frame agent context as append-only history plus minimal anchors assembled on demand for group-chat settings rather than inherited wholesale across sessions.
+
+**Evidence:** [[CodingAgentMinimalTooling]], [[TapeAndAnchors]], [[Bub]], [[OpenClaw]]
+
+**Qualifications:**
+
+- The evidence is a practitioner-product essay rather than a controlled comparison of agent architectures.
+- The source describes the tape-and-anchors model conceptually and leaves anchor schemas, retrieval quality, privacy, and multi-agent conflict unresolved.
 
 ### Llm Apps Shift Interface And Tooling
 
@@ -133,15 +145,15 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 ### Llm Tooling Manages Context And Actions
 
-[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, and fresh sessions.
+[[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, and [[TapeAndAnchors]]-style context reconstruction.
 
-**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]], [[ClaudeCode]]
+**Evidence:** [[LLMContextManagement]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], [[ComputerUse]], [[ClaudeCode]], [[TapeAndAnchors]]
 
 **Qualifications:**
 
 - The source is a conceptual essay and does not benchmark these mechanisms across systems.
 - The Computer Use taxonomy is incomplete in the source because only the accessibility-tree route is present.
-- The Claude Code source turns context management into operational advice, but its evidence remains a single practitioner account.
+- The Claude Code and PsiACE sources turn context management into operational advice and alternative models, but their evidence remains practitioner accounts.
 
 ### Prompt Caching Turns Context Shape Into Infrastructure
 

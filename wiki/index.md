@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [木匠,锤子,钉子](sources/mu-jiang-chui-zi-ding-zi.md) - A practitioner essay by PsiACE on coding-agent minimal tools, RAG limits for live codebases, OpenClaw versus Bub agent paradigms, group-chat agents, and tape-and-anchor context management.
 - [是的，我用AI写文章，咋滴](sources/shi-de-wo-yong-ai-xie-wen-zhang-za-di.md) - A creator essay defending AI-assisted writing as a human-owned workflow of topic selection, structure, model-supported drafting, cross-checking, revision, visual generation, and accountable publication.
 - [年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅](sources/zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu.md) - A slash-programmer retrospective on leaving employment, abandoning a failed short-video experiment, and building a small portfolio of paid tools through user validation, early monetization, build-in-public distribution, and platform tailwinds.
 - [常用端口利用总结](sources/chang-yong-duan-kou-li-yong-zong-jie-infvies-blog.md) - A security checklist mapping common service ports to defensive triage categories such as weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, middleware consoles, and database service risk.
@@ -43,6 +44,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, and context-management models.
+- [Bub](entities/Bub.md) - PsiACE's group-chat-oriented coding-agent project contrasted with personal-assistant agents such as OpenClaw.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
 - [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
 - [ChatGPT](entities/ChatGPT.md) - AI assistant used in the source for cross-checking draft facts.
@@ -139,6 +142,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
 
 ## Concepts
+- [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that read, write, edit, and bash can form a small but powerful coding-agent tool surface.
+- [Agentic RAG](concepts/AgenticRAG.md) - Retrieval pattern where an agent searches and reads current material iteratively instead of relying only on static indexes.
+- [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
 - [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates drafting, checking, titles, visuals, and layout while human authors retain question, argument, taste, verification, and accountability.
 - [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.

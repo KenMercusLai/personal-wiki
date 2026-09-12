@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: 96a553c7404865cd838c8253734ee035a19bba2c
-summary: "A systems wiki connecting learning, creator work, AI, infrastructure, security, business, culture, and philosophy through judgment, verification, and problem definition."
-episode_count: 35
-source_count: 35
-paragraph_count: 38
+as_of_overview_commit: 0e2430a47cce4875b2e79b81633fdb773a340a5d
+summary: "A systems wiki connecting learning, creator work, AI, infrastructure, business, culture, and philosophy through judgment and context design."
+episode_count: 36
+source_count: 36
+paragraph_count: 39
 topic_count: 9
 ---
 
@@ -19,66 +19,66 @@ topic_count: 9
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], and [[WorkplaceLearning]] frame learning as a loop from targeted intake to explanation, example collection, feedback, case reconstruction, hands-on verification, gap review, and increasingly structured output.
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking.
 - [[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.
-- [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, and fresh sessions.
+- [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels; coding-agent workflows add practical tactics such as subagents, plan documents, compaction timing, fresh sessions, and [[TapeAndAnchors]]-style context reconstruction.
+- [[CodingAgentMinimalTooling]] treats read, write, edit, and bash as a small but powerful coding-agent surface, while [[TapeAndAnchors]] and [[Bub]] frame agent context as append-only history plus minimal anchors assembled on demand for group-chat settings rather than inherited wholesale across sessions.
 - [[AICodingPractice]] adds a human and organizational practice layer to AI technology: engineers need [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], and learning-aware habits for [[JuniorEngineerLearning]], while intensive [[VibeCoding]] also requires small steps, context control, and humane pacing.
 - The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and [[DynamoInferencePlatform]] emphasizes that inference routing quality depends on architecture as well as algorithms: polling, centralized endpoint picking, and event-driven KV-cache state carry different scaling tradeoffs.
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
-- Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. The strongest technology claims span systems and behavior: knowledge systems may use AI for summaries and retrieval, AI-assisted writing needs human authorship and verification, AI-era education needs human problem definition and model judgment, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Claude Code-style vibe coding needs small steps and context discipline, Skills, MCP, RAG, Memory, dynamic compression, Computer Use, and prompt-cache edits can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects and capabilities, statistical data-analysis workflows need human methodological control, and big-data transformation needs behavior data, broad processing coverage, and closed-loop automation.
+The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, agentic RAG for live codebases, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
 - [[AIAssistedWriting]] is presented as legitimate when the human author owns the question, argument structure, revision taste, fact accountability, and final publication, while tools such as [[Claude]], [[Gemini]], and [[ChatGPT]] accelerate drafting, topic mining, image prompting, visual generation, and cross-checking. Evidence: [[AIAssistedWriting]], [[FengRuohang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[CreatorFeedbackLoop]].
 
 ### Business and Markets
 
-The business-and-markets material combines independent creator economics with market-positioning strategy. One thread shows that bootstrapped SaaS, programmer freelancing, and small product portfolios depend on revenue stability, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, personal branding, and build-in-public distribution rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing.
+The business-and-markets material combines independent creator economics with market-positioning strategy: revenue stability, modular infrastructure, customer learning, marketing, support, personal branding, and visible differentiation all shape whether small products or firms can survive crowded markets.
 
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Stripe]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]], [[BusinessAsArt]], [[IndependentCreator]].
 - [[ProgrammerFreelancing]] in the [[ZhangXuan]] source depends on a stable income base such as [[Imooc]] course sales, while [[EasyCV]], [[SaaSMarketing]], and [[PersonalBranding]] provide product learning and distribution upside. Evidence: [[ProgrammerFreelancing]], [[ZhangXuan]], [[Imooc]], [[EasyCV]], [[SaaSMarketing]], [[PersonalBranding]].
 
 ### Cross-domain
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. Ramer-Douglas-Peucker uses epsilon tolerance to trade path fidelity for lower point count in map trajectory rendering, while defensive port triage uses exposed services as signals for likely checks around weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, and database service exposure.
+Cross-domain sources currently cover practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage.
 
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 - [[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient. Evidence: [[TrajectorySimplification]], [[MapTrajectoryRendering]].
 
 ### Culture and Media
 
-The culture-and-media layer connects three experience-centered practices: reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
+The culture-and-media layer connects reading-note systems, game localization, and object-oriented aesthetics as practices for preserving relationships, player-facing effects, and participatory disclosure.
 
 - Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience. Evidence: [[GameLocalization]], [[ComputationalPunTranslation]], [[TranslationDomestication]], [[WomenCommunication]].
 - [[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access. Evidence: [[ObjectOrientedOntology]], [[ObjectWithdrawal]], [[ArtAsObjectTension]], [[MetaphorAesthetics]].
 
 ### Governance and Institutions
 
-The governance-related material is still narrow but spans three control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material remains narrow but spans institutional pressure on learning aims, technical control in inference gateways, and intrinsic-value uncertainty as a reason to keep improving reality models.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently has no substantive historical or geopolitical synthesis in this bounded input; the lone paragraph is a technical AI prompt-caching discussion assigned here as classifier spillover.
+The history-and-geopolitics topic currently has no substantive historical or geopolitical synthesis in the bounded input; its active paragraph is technical classifier spillover.
 
 ### Psychology and Personal Development
 
-The psychology and personal-development topic centers on motivation, creator anxiety, and learning agency. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction, while creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. A prompt-cache paragraph is present only as technical classifier spillover.
+The psychology and personal-development topic centers on motivation, creator anxiety, and learning agency, emphasizing goals, curiosity, controllable action, audience value, and healthier relationships to platform metrics.
 
 - [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 - [[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]] rather than merely obey external pressure. Evidence: [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]].
 
 ### Science, Health, and Climate
 
-The topic remains mostly indirect. It covers attention and mental load in productivity advice, and includes a philosophy-of-science claim that current science does not settle intrinsic value, leaving knowledge growth and reality modeling as Wozniak's proposed response to uncertainty.
+The topic remains mostly indirect, covering attention and mental load in productivity advice plus a philosophy-of-science claim about uncertainty around intrinsic value.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through output, feedback, situated workplace practice, and AI-era problem-definition training, goals and abstraction protect motivation, and career or creator paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, and long-term fit. The topic also includes work-adjacent infrastructure lessons: mature standards, cloud deployment choices, and data automation can reshape organizational workflows when their operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: routines reduce friction, attention and discipline protect agency, fields shape behavior, learning deepens through output and feedback, and career or creator paths require conscious tradeoffs among income, autonomy, tools, audience, and long-term fit.
 
 - [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].
