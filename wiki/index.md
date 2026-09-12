@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [7 Reasons Why Your Staging Environment Sucks - Loadmill](sources/7-reasons-why-your-staging-environment-sucks-loadmill.md) - Loadmill article arguing that staging only catches production bugs when it resembles production across architecture, runtime, monitoring, data, traffic, internet exposure, and failure conditions.
 - [7 No-Nonsense Pieces of Startup Advice I Wish I Got When I Started](sources/7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started.md) - Alex Turnbull's Groove founder-advice article arguing that startups should focus on value and profit, build value-first relationships, talk to customers, defend brand and culture, buy back founder time, define success personally, and learn to sell vision.
 - [7 Lessons on Building Product with Outsourced Developers - Mind the Product](sources/7-lessons-on-building-product-with-outsourced-developers-mind-the-product.md) - Mind the Product article arguing that outsourced development can support MVP validation when hiring, fit testing, scope, QA, technical documentation, and issue tracking are managed explicitly.
 - [51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses](sources/51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses.md) - Practitioner catalog of growth-hacking cases showing how product-integrated sharing, referrals, freemium entry, content, trust systems, stunts, partnerships, and paid search can drive user or revenue growth.
@@ -80,6 +81,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
 - [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
 - [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
+- [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of seeding early adoption through tech-community events and free rides.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging and content-led acquisition case.
@@ -394,7 +396,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
-- [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
+- [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
+- [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
@@ -496,7 +499,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Stochastic Gradient Descent](concepts/StochasticGradientDescent.md) - Optimization method used as a life-strategy metaphor for goals, feedback, small steps, exploration, rest, and restart.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
-- [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, dependencies, capacity, change, recovery, and organizational investment.
+- [Staging Environment](concepts/StagingEnvironment.md) - Pre-production environment for verifying software under production-like architecture, data, monitoring, traffic, internet exposure, and failure conditions.
+- [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, architecture, dependencies, capacity, staging realism, change, recovery, and organizational investment.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
 - [Taste as Problem Sense](concepts/TasteAsProblemSense.md) - Ability to notice a real, personally compelling question and care enough to investigate it deeply.

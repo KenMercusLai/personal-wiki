@@ -68,15 +68,16 @@
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa",
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
+      "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 71
+    "paragraph_count": 72
   },
-  "overview_commit": "19e091781145a2cb3276e1f05e6be5c054531755",
-  "overview_digest": "7a6d8e53b994f79029844efd967b42213081f406914d0d2bdff7b18eb0d6ab24",
+  "overview_commit": "6801bde12d33202ac554bcfff06486fdacfba0cc",
+  "overview_digest": "788f03f12161cbcf550680ababe8331977a06afbeab5ce1e325d3227fc1f3121",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1400,6 +1401,22 @@
         "ReliabilityInvestment",
         "RobustProgramming",
         "SystemReliability"
+      ]
+    },
+    {
+      "id": "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The Loadmill staging source adds a pre-release realism layer to that reliability cluster. [[StagingEnvironment]] should be production-like where behavior depends on structure: service/database/queue/cache topology, multiple instances, long runtimes, monitoring agents, sanitized real-data edge cases, realistic traffic, internet-facing paths, and global request patterns. This strengthens [[SoftwareVerification]] by placing system-level evidence between localized tests and production exposure, and it strengthens [[ChangeSafety]] by catching risky releases before canarying, rollback, or incident response are needed. [[ChaosEngineering]] adds the deliberate-surprise piece: controlled crashes, abuse, denial-of-service conditions, hosting failures, and network outages can test resilience assumptions in staging rather than making users the first realistic testers.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "ChaosEngineering",
+        "SoftwareVerification",
+        "StagingEnvironment"
       ]
     },
     {

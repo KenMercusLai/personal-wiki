@@ -576,6 +576,14 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 7 Reasons Why Your Staging Environment Sucks - Loadmill
+
+Ingested Loadmill's staging-environment article. Added source, concept, and entity pages for production-like staging, chaos engineering, and Loadmill; updated system reliability, change safety, software verification, overview, and index to capture staging realism as a pre-release verification layer.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
