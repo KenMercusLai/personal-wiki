@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [从海德格尔的锤子到隐喻的戏剧性](sources/cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing.md) - A philosophical aesthetics essay using Heidegger's broken hammer and Harman's object-oriented ontology to explain art as object-quality tension and metaphor as readerly performance.
+- [众口难调的笔记，各取所需的工具](sources/zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju.md) - A PKM essay arguing that big notes and small notes serve different knowledge goals and require different note-tool affordances.
 - [为什么现有的 Agent Infra 无法支撑生产级应用？](sources/wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong.md) - An agent-infrastructure essay arguing that production agents need effect logs, capability gateways, fork recovery, resumability, and semantic isolation because existing sandboxes and workflow engines operate at the wrong abstraction layer.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
@@ -32,6 +33,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
+- [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in the CREAO case study for pull-request review, debugging, production-health summaries, and issue triage.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
@@ -65,6 +67,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Netflix Conductor](entities/NetflixConductor.md) - Workflow orchestrator discussed as useful above, but not instead of, agent-specific semantic primitives.
 - [Next.js](entities/NextJS.md) - Full-stack web framework whose Vercel, EC2, Docker, and Cloudflare deployment paths are compared.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
+- [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice.
+- [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note and small-note workflows.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
 - [OpenClaw](entities/OpenClaw.md) - Agent-related project or incident cited as making real system-permission risks concrete.
@@ -143,6 +147,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Metaphor Aesthetics](concepts/MetaphorAesthetics.md) - Account of metaphor as an aesthetic event completed through the reader's theatrical participation.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
+- [Note Granularity](concepts/NoteGranularity.md) - Choosing whether ideas live as small notes, large structured notes, or hybrid heading/block-level units.
+- [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods and software features that support creation, navigation, maintenance, and reuse.
 - [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
@@ -166,5 +172,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
+- [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.
 
 ## Syntheses

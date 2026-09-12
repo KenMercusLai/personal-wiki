@@ -147,3 +147,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-12] ingest | 众口难调的笔记，各取所需的工具
+
+Added source note and synthesis pages for note granularity, Zettelkasten method, and note-tool fit. Added entity profiles for Chris Grieser, Niklas Luhmann, and Obsidian. Updated Personal Knowledge Management and the overview to reflect big-note versus small-note tradeoffs and the claim that note methods depend on tool affordances.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

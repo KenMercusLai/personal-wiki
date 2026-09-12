@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: c8121b5aa035a7387e02ded5e3373d411be721db
-input_digest: 2bc1607c21c022d55c2267d4e31536a8fb552f97338355ef44fc1e88326ffc40
+as_of_overview_commit: 1ac4e140d5fed2118bde683a2c2675cab209d152
+input_digest: 53f6ed70ab986165e218340f10ac40c7ec5a37a13a833b36d44fcfd93ac7f818
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, and production agent infrastructure. The strongest AI claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, and high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability.
+The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, and production agent infrastructure. The strongest technology claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, and high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability.
 
 ## Cross-source Findings
 
@@ -25,6 +25,17 @@ The current corpus covers AI technology as personal knowledge support, inference
 **Qualifications:**
 
 - The source frames this as an expected direction, not a validated capability across mature tools.
+
+### Note Systems Need Granularity Tool Fit
+
+[[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances.
+
+**Evidence:** [[NoteGranularity]], [[NoteToolFit]], [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[Obsidian]], [[ChrisGrieser]]
+
+**Qualifications:**
+
+- The claim is grounded in a note-taking methods essay rather than comparative user research.
+- The source also argues that modern tools can blur the boundary between big notes and small notes.
 
 ### Learning Motivation Adjacent To Knowledge Systems
 

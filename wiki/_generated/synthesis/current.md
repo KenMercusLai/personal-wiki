@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-12
-as_of_overview_commit: ad2b8ac6ca1a6ecb2744ae9dd329505cc65a61ff
-summary: "A personal wiki linking AI systems, software practice, learning, indie work, infrastructure, localization, and object-oriented aesthetics."
-episode_count: 17
-source_count: 17
-paragraph_count: 20
+as_of_overview_commit: 1ac4e140d5fed2118bde683a2c2675cab209d152
+summary: "A personal wiki linking AI systems, PKM tooling, software practice, learning, indie work, infrastructure, localization, and object-oriented aesthetics."
+episode_count: 18
+source_count: 18
+paragraph_count: 21
 topic_count: 8
 ---
 
@@ -18,7 +18,7 @@ topic_count: 8
 
 - [[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.
 - [[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; production autonomy also needs runtime boundaries for side effects, capabilities, and recovery.
-- [[LLMContextManagement]] links [[LLMToolingSkills]], [[ModelContextProtocol]], [[RetrievalAugmentedGeneration]], [[AgentMemory]], [[DynamicContextCompression]], and [[ComputerUse]] as mechanisms for shaping prompt context, retrieving external information, or opening constrained action channels.
+- [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances.
 - [[PrivateDataChatbot]] applications use [[RetrievalAugmentedGeneration]] to connect LLMs with user-held documents by chunking content, creating [[Embeddings]], storing them in a [[VectorDatabase]], and passing retrieved context to the model through tooling such as [[LangChain]].
 - [[BootstrappedSaaS]] in the [[Hawstein]] source depends on more than technical building: [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] all shape whether an [[IndependentCreator]] can run a viable product business.
 - [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], and [[KnowledgeOutput]] frame learning as a loop from targeted intake to explanation, gap review, and increasingly structured output, while [[Imooc]] shows course output can also support independent work.
@@ -29,10 +29,10 @@ topic_count: 8
 
 ### AI and Technology
 
-AI is treated as both product capability and engineering workload: useful systems need retrieval, context control, workload-aware inference infrastructure, responsible coding practice, harnesses, and semantic runtime boundaries for high-permission agents.
+AI and technology sources now span personal knowledge tools, note-system structure, retrieval, inference routing, coding practice, LLM context/action mechanisms, AI-first engineering, and runtime safety for autonomous agents.
 
 - [[AIKnowledgeAssistant]] tools are presented as a prospective layer on [[PersonalKnowledgeManagement]], shifting knowledge bases from manual filing toward AI summaries, associations, classification, retrieval, histories, and timelines. Evidence: [[AIKnowledgeAssistant]], [[PersonalKnowledgeManagement]], [[SecondBrain]].
-- [[InferenceLoadBalancing]] treats AI inference as a served workload where request counts are insufficient; routers need [[InferenceTokenization]], fresh worker metrics, quota counters, and [[KVCacheAwareRouting]] signals. Evidence: [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]].
+- [[NoteGranularity]] and [[NoteToolFit]] qualify [[PersonalKnowledgeManagement]] by showing that small-note systems such as [[ZettelkastenMethod]] and big-note systems need different link, metadata, navigation, outline, folding, and text-moving affordances. Evidence: [[NoteGranularity]], [[NoteToolFit]], [[PersonalKnowledgeManagement]], [[ZettelkastenMethod]], [[Obsidian]], [[ChrisGrieser]].
 
 ### Business and Markets
 

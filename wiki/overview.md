@@ -20,11 +20,12 @@ sources:
   - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
   - cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing
+  - zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, personal knowledge management note structure, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
 
 ## Current Synthesis
 
@@ -35,6 +36,8 @@ The source's strongest cross-cutting theme is [[AttentionManagement]]. It argues
 The INDIGO source extends the wiki from work efficiency into learning systems. [[FeynmanTechnique]] and [[ActiveLearning]] make output the test of understanding: the learner chooses a target, explains it simply, reviews gaps, and internalizes the result. [[FocusedReading]] provides the input side of that loop by narrowing broad discovery into topic-driven research, while [[KnowledgeOutput]] describes a ladder from notes and short opinions to long articles and courses.
 
 The INDIGO source also adds a knowledge-infrastructure thread. [[PersonalKnowledgeManagement]] captures the practical layer of bookmarks, notes, tags, topic pages, and drafts that make later output possible. [[AIKnowledgeAssistant]] and [[SecondBrain]] describe a prospective shift from manual organization toward AI-supported summaries, associations, classification, retrieval, histories, and timelines.
+
+The newest note-taking source sharpens that knowledge-infrastructure thread by adding [[NoteGranularity]] and [[NoteToolFit]]. [[ChrisGrieser]] argues that small-note systems such as [[ZettelkastenMethod]] serve bottom-up idea development through concise notes, dense links, metadata, maps of content, graph views, and fast switching, while big-note systems serve top-down organization of established knowledge through headings, outlines, folding, visual anchors, block links, and text-moving tools. [[Obsidian]] functions as the main software example because its core features and plugins can support both styles, which qualifies earlier [[PersonalKnowledgeManagement]] advice: note structure is not just a matter of taste, but a fit among knowledge goals, granularity, and tool affordances.
 
 The Wozniak source adds a motivational layer beneath the productivity and active-learning material. [[GoalSetting]] is not treated as rigid discipline but as a way to focus attention, choose strategy, and help learners value knowledge. [[LearnDrive]] becomes the key condition to protect: mature experts may follow curiosity without explicit goals, but young learners often need dreams, small decisions, and exploratory reading to resist institutional pressure, credential competition, and rote study. [[KnowledgeValuationNetwork]] names the source's theory that goals, role models, missions, and emotionally salient cases help knowledge become valuable enough to love.
 
@@ -76,6 +79,8 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 - How can learners measure whether a goal is increasing learn drive rather than just adding pressure?
 - How reliable are AI-generated summaries and associations for personal knowledge bases, especially when provenance and privacy matter?
 - When does focused reading improve learning, and when does it narrow discovery too early?
+- When should a PKM system use many small atomic notes, fewer large structured notes, or a hybrid based on headings and blocks?
+- How can note-tool choice be evaluated without turning useful method fit into plugin chasing?
 - How do the surveyed inference load-balancing designs compare under measured production workloads rather than architectural review alone?
 - How has HTTP/3 and QUIC adoption changed since the source's 2019 publication context?
 - Which real-world workloads benefit most from HTTP/2 or HTTP/3 compared with well-tuned HTTP/1.1?

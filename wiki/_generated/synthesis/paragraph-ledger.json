@@ -5,6 +5,7 @@
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
+      "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
@@ -22,10 +23,10 @@
       "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 20
+    "paragraph_count": 21
   },
-  "overview_commit": "ad2b8ac6ca1a6ecb2744ae9dd329505cc65a61ff",
-  "overview_digest": "e319a9787fe230077492223141e2d3449cbb0de1ee66e28f95b5378d4ede1ceb",
+  "overview_commit": "1ac4e140d5fed2118bde683a2c2675cab209d152",
+  "overview_digest": "81c58159b4a86dd192246d581d748d3a93e97938f172f32f0ca14e896b5b6e44",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -83,6 +84,23 @@
         "AIKnowledgeAssistant",
         "PersonalKnowledgeManagement",
         "SecondBrain"
+      ]
+    },
+    {
+      "id": "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest note-taking source sharpens that knowledge-infrastructure thread by adding [[NoteGranularity]] and [[NoteToolFit]]. [[ChrisGrieser]] argues that small-note systems such as [[ZettelkastenMethod]] serve bottom-up idea development through concise notes, dense links, metadata, maps of content, graph views, and fast switching, while big-note systems serve top-down organization of established knowledge through headings, outlines, folding, visual anchors, block links, and text-moving tools. [[Obsidian]] functions as the main software example because its core features and plugins can support both styles, which qualifies earlier [[PersonalKnowledgeManagement]] advice: note structure is not just a matter of taste, but a fit among knowledge goals, granularity, and tool affordances.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "ChrisGrieser",
+        "NoteGranularity",
+        "NoteToolFit",
+        "Obsidian",
+        "PersonalKnowledgeManagement",
+        "ZettelkastenMethod"
       ]
     },
     {
