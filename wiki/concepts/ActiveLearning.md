@@ -6,6 +6,7 @@ sources:
   - feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology
   - ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan
   - ru-he-zai-gong-zuo-zhong-xue-xi
+  - bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -14,7 +15,9 @@ knowledge_schema: synthesis-v1
 [[ActiveLearning]] is learning that requires the learner to produce, explain, teach, experiment, reconstruct, or otherwise use knowledge rather than only receive it passively.
 
 ## Current Synthesis
-The sources treat active learning as the reason the [[FeynmanTechnique]], creator practice, and workplace case review matter. Explaining material to others, writing from understanding, turning research into a course, replaying a solved incident, and running concrete experiments all force the learner to expose weak spots, build connections between concepts, and internalize the subject more deeply than passive reading alone. The tutorial-writing source adds that accumulated notes can feel reassuring while still leaving the learner in a comfort zone; writing for real readers, collecting examples, testing a draft, and publishing create the practice loop that passive study lacks.
+The sources treat active learning as the reason the [[FeynmanTechnique]], creator practice, and workplace case review matter. Explaining material to others, writing from understanding, turning research into a course, replaying a solved incident, and running concrete experiments all force the learner to expose weak spots, build connections between concepts, and internalize the subject more deeply than passive reading alone. Explanation becomes more useful when the learner classifies the failure: inability to begin, repeated stalls, and novice confusion each point to a different repair.
+
+Accumulated notes can feel reassuring while still leaving the learner in a comfort zone; writing for real readers, collecting examples, testing a draft, and publishing create the practice loop that passive study lacks.
 
 The workplace-learning source broadens active learning beyond public output. It argues that a learner can actively learn in private by tracing a colleague's commands and searches, asking why each move worked, using packet capture or source-code experiments to make abstractions tangible, and reviewing what knowledge was known but not usable. This makes active learning a loop of doing, reconstruction, explanation, and correction, not only a loop of writing or teaching.
 
@@ -36,13 +39,15 @@ The workplace-learning source broadens active learning beyond public output. It 
 - Writing as practice: [[ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan]] says the author left passive note accumulation by writing a tutorial article, choosing writing because it could start quickly and generate faster feedback.
 - Feedback and revision: [[ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan]] shows friends' draft feedback leading to revisions in opening length, context, video flow, examples, and summary visuals.
 - Workplace review and experiments: [[ru-he-zai-gong-zuo-zhong-xue-xi]] recommends replaying a stronger colleague's shell history and searches, then using tools such as Wireshark or tcpdump to make abstract networking concepts concrete.
+- Explanation failure modes: [[bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi]] treats blocked writing, repeated stalls, and novice confusion as feedback for active study.
 
 ## Counterevidence & Qualifications
-The sources offer strong practitioner cases for active learning but do not compare active-learning formats experimentally. Their retention claims are presented through Dale's Cone, creator retrospectives, and software-work anecdotes, so they should be treated as directional support rather than precise measurement. Public writing also requires enough prior knowledge, available examples, and feedback access to be useful rather than premature performance pressure. Workplace case review depends on access to solved problems, traces, safe tools, and colleagues willing to explain their reasoning.
+The sources offer strong practitioner cases for active learning but do not compare active-learning formats experimentally. Their retention claims are presented through Dale's Cone, creator retrospectives, and software-work anecdotes, so they should be treated as directional support rather than precise measurement. Public writing and teaching-oriented explanation also require enough prior knowledge, available examples, and feedback access to be useful rather than premature performance pressure. Workplace case review depends on access to solved problems, traces, safe tools, and colleagues willing to explain their reasoning.
 
 ## What Changed
 - Added public tutorial writing as a concrete active-learning loop beyond the original Feynman-style learning source.
 - Added workplace problem review and hands-on technical experiments as private active-learning loops.
+- Added explanation-failure classification as a way to turn active output into the next study action.
 
 ## Related Concepts
 - [[FeynmanTechnique]] - the technique is the source's primary active-learning example.
@@ -51,3 +56,4 @@ The sources offer strong practitioner cases for active learning but do not compa
 - [[PersonalKnowledgeManagement]] - active learning draws on stored notes, links, and drafts.
 - [[ExplanatoryWriting]] - audience-centered explanation turns learning into reader-tested practice.
 - [[WorkplaceLearning]] - workplace cases turn problem solving into active learning through reconstruction and verification.
+- [[SystematicLearning]] - active explanation tests whether breadth and depth have become usable understanding.

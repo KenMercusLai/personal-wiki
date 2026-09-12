@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [编程随想 - 如何系统性学习](sources/bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi.md) - 编程随想's systematic-learning essay arguing that durable understanding requires breadth, depth, book-centered source selection, Feynman-style explanation, foundational priority, DIKW distinctions, and cross-domain wisdom.
 - [给人文工作者的 AI 使用指南](sources/gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan.md) - Hanyang's guide for humanities workers arguing that AI becomes useful when embedded in traceable, controllable, verifiable workflows grounded in real materials and trained taste.
 - [稳定性，难的不是技术，而是](sources/wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi.md) - Bixuan's reliability essay arguing that robust code, dependency degradation, capacity protection, canarying, monitoring, rollback, and restore-first incident response only work when backed by sustained organizational investment.
 - [知识估值网络](sources/zhi-shi-gu-zhi-wang-luo.md) - Piotr Wozniak's learning-neuroscience essay arguing that personal goals, semantic networks, free learning, and neural valuation circuitry shape how knowledge becomes valuable or aversive.
@@ -56,6 +57,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [编程随想](entities/BianChengSuiXiang.md) - Authorial identity behind the systematic-learning article connecting media choice, Feynman-style explanation, DIKW, and cross-domain wisdom.
 - [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
 - [Li Mu](entities/LiMu.md) - Machine-learning educator-author who uses stochastic gradient descent as a metaphor for life optimization.
@@ -175,6 +177,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.
+- [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
+- [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.
+- [Systematic Learning](concepts/SystematicLearning.md) - Learning that builds both breadth and depth so a person can truly understand and use a domain.
 - [Continuous Game Server Updates](concepts/ContinuousGameServerUpdates.md) - Progressive online-game update model where old and new versions coexist while traffic gradually moves with minimal player-visible maintenance.
 - [Game Server Cloud-Native Delivery](concepts/GameServerCloudNativeDelivery.md) - Applying service units, standardized runtime environments, container delivery, and DevOps ownership to game-server architecture.
 - [Game Server Launch Experience](concepts/GameServerLaunchExperience.md) - Production learning from shipping and operating an online game at real user scale, converted into reusable engineering judgment.

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 41b1a257ee46994e31a424bb5c47c115bb2e5f3d
-input_digest: 238cf7a5911d16730d99cefdd89fb60cc1ef8054c44f60d3074dd35b3fa558cd
+as_of_overview_commit: a1631c3294ba330cca2904fad28d1fbccf0b3296
+input_digest: b3a93679fe7fc39c1ad151d4686fcc613534525e401ef49e3c638abbc1281962
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.
+The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.
 
 ## Cross-source Findings
 
@@ -25,6 +25,17 @@ The AI and technology thread treats AI systems, data work, and production softwa
 **Qualifications:**
 
 - The source frames this as an expected direction, not a validated capability across mature tools.
+
+### Systematic Learning Is Classifier Spillover
+
+[[SystematicLearning]], [[LearningMediaChoice]], [[DIKWModel]], and [[CrossDomainWisdom]] add a non-AI knowledge-structure baseline: before tools assist learning, learners still need media that support breadth, depth, durable knowledge, WHY-level explanation, and transferable principles.
+
+**Evidence:** [[SystematicLearning]], [[LearningMediaChoice]], [[DIKWModel]], [[CrossDomainWisdom]], [[FeynmanTechnique]], [[ActiveLearning]], [[CreativeAbstraction]]
+
+**Qualifications:**
+
+- This is a secondary topic assignment caused by overlap with knowledge systems and media choice; the source primarily belongs to learning and education rather than AI technology.
+- The claim is source-scoped and does not compare books, video, Q&A, or social media through measured learning outcomes.
 
 ### Ai Assisted Writing Needs Human Authorship
 

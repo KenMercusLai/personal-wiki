@@ -132,6 +132,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 编程随想 - 如何系统性学习
+
+Added source note for 编程随想's systematic-learning article, created pages for 编程随想, Systematic Learning, Learning Media Choice, DIKW Model, and Cross-Domain Wisdom, and updated related Feynman Technique, Active Learning, Focused Reading, and Creative Abstraction synthesis pages.
+
 ## [2026-09-12] ingest | 给人文工作者的 AI 使用指南
 
 Ingested Hanyang's AI workflow guide for humanities workers, including image-derived evidence from the podcast card, workflow-step screenshot, and field-photography image.
@@ -403,6 +407,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] report | Graph health report generated
 
 327 nodes analyzed.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

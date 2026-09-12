@@ -4,15 +4,15 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-12
-as_of_overview_commit: 630b345f04b4846db5561e1fc023845ce94cb3b0
-input_digest: 04acd9f6a6d1b68b7efe9f15012222290aee96b32d85b7048888c5482cd40ff1
+as_of_overview_commit: a1631c3294ba330cca2904fad28d1fbccf0b3296
+input_digest: b6da0ef751a1daf4281a3217fc95a81c637782ec377d69c3619d25f2b0d89f89
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer now connects experience-centered practices across reading, games, and aesthetics: reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations form a hidden delivery layer for live-game experience; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
+The culture-and-media layer now connects experience-centered practices across learning media, reading, games, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations form a hidden delivery layer for live-game experience; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.
 
 ## Cross-source Findings
 
@@ -25,6 +25,17 @@ The culture-and-media layer now connects experience-centered practices across re
 **Qualifications:**
 
 - The current evidence is a single mystery-fiction reading workflow rather than a comparative study of reading-note systems across genres.
+
+### Media Form Shapes Systematic Learning
+
+[[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].
+
+**Evidence:** [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]]
+
+**Qualifications:**
+
+- This is a secondary culture-and-media assignment; the source primarily concerns learning methodology.
+- The book-centered recommendation is qualitative and strongest for difficult systematic study rather than quick lookup or fast-changing operational questions.
 
 ### Pun Localization Combines Retrieval And Domestication
 

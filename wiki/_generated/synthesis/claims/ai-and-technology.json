@@ -15,6 +15,25 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "systematic-learning-is-classifier-spillover",
+      "qualifications": [
+        "This is a secondary topic assignment caused by overlap with knowledge systems and media choice; the source primarily belongs to learning and education rather than AI technology.",
+        "The claim is source-scoped and does not compare books, video, Q&A, or social media through measured learning outcomes."
+      ],
+      "statement": "[[SystematicLearning]], [[LearningMediaChoice]], [[DIKWModel]], and [[CrossDomainWisdom]] add a non-AI knowledge-structure baseline: before tools assist learning, learners still need media that support breadth, depth, durable knowledge, WHY-level explanation, and transferable principles.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "SystematicLearning",
+        "LearningMediaChoice",
+        "DIKWModel",
+        "CrossDomainWisdom",
+        "FeynmanTechnique",
+        "ActiveLearning",
+        "CreativeAbstraction"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "ai-assisted-writing-needs-human-authorship",
       "qualifications": [
@@ -403,6 +422,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls.",
+  "summary": "The AI and technology thread treats AI systems, data work, and production software as socio-technical infrastructure: knowledge assistants, writing helpers, humanities workflows, education models, UX report architecture, statistical judgment, inference routing, retrieval, coding agents, prompt caching, production-agent safety, data automation, and game-server operations all depend on context quality, explanatory scaffolds, verification, live-scale evidence, and human or organizational controls. A secondary learning-media claim now serves as a baseline reminder that tooling sits on top of systematic source selection, durable knowledge structure, and WHY-level understanding.",
   "topic_id": "ai-and-technology"
 }

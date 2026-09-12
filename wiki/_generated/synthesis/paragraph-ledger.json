@@ -6,6 +6,7 @@
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
+      "dc8fdcbe54dd381783d4a3ee9a146ef12142608f5e4f5de599ce275fe0c565f1",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
       "24190bfc18524fce9eebce97c0c35ba1fc54798f4209164461bb17715ad92645",
       "e77ddbc469ee54a125a93c09e39aab912822c0b087e31e671e4d8ec61b94bb1a",
@@ -53,10 +54,10 @@
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d"
     ],
-    "paragraph_count": 51
+    "paragraph_count": 52
   },
-  "overview_commit": "41b1a257ee46994e31a424bb5c47c115bb2e5f3d",
-  "overview_digest": "e96fe50438a84e24f7037988681c19ce5a39d78e2bcf2654de3b74eb47924868",
+  "overview_commit": "a1631c3294ba330cca2904fad28d1fbccf0b3296",
+  "overview_digest": "637e45ec7b7382ed5d4d4433fb23f12baadf2988d4f5e85d491afe2b744327c8",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -138,6 +139,29 @@
         "FeynmanTechnique",
         "FocusedReading",
         "KnowledgeOutput"
+      ]
+    },
+    {
+      "id": "dc8fdcbe54dd381783d4a3ee9a146ef12142608f5e4f5de599ce275fe0c565f1",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The 编程随想 systematic-learning source adds a more explicitly structural study model. [[SystematicLearning]] requires breadth and depth together, so the learner must choose media and materials that can carry a domain's structure rather than only answer local questions. [[LearningMediaChoice]] therefore matters: encyclopedias, Q&A, SNS, video, and books have different tradeoffs, with books treated as the best default for difficult systematic study. The source sharpens [[FeynmanTechnique]] and [[ActiveLearning]] by classifying failed explanations into different repair paths, and it adds [[DIKWModel]] and [[CrossDomainWisdom]] as upper layers: durable knowledge outlives short information, while WHY-level principles become especially valuable when they transfer across domains. This also strengthens [[CreativeAbstraction]] by connecting foundational branches, indirect strategy, entropy, and other cross-domain patterns to long-term learning value.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "CreativeAbstraction",
+        "CrossDomainWisdom",
+        "DIKWModel",
+        "FeynmanTechnique",
+        "LearningMediaChoice",
+        "SystematicLearning"
       ]
     },
     {
