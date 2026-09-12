@@ -53,6 +53,7 @@
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
       "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
+      "a9efff60ec2836ec4e0438f2433d0431b2b7389186d2e6f12f9ca1aabb054715",
       "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "c3dc22036f8ea9761aa4253dad7d34d7a736a562db0f6276a1bfb3f8c2430260",
@@ -76,10 +77,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 74
+    "paragraph_count": 75
   },
-  "overview_commit": "0459856a87cbeb7a7200649365fd0dbba1c9fc29",
-  "overview_digest": "c6ea7546328b287637ea020cc03173df70044d59bf91850687763ca99bb2b5c1",
+  "overview_commit": "a10a6bda6df7d745bf722850cdea33fe31f9f55a",
+  "overview_digest": "28095db135565a755fb2412357532528924b796ab7f890b671298a136f455333",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1090,6 +1091,28 @@
         "Drift",
         "Mailchimp",
         "PersonalBranding"
+      ]
+    },
+    {
+      "id": "a9efff60ec2836ec4e0438f2433d0431b2b7389186d2e6f12f9ca1aabb054715",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Drift/Pat Grady interview adds an investor-side version of that startup and differentiation cluster. [[PatGrady]] and [[SequoiaCapital]] frame exceptional startups as \"fundamental companies\" that solve durable problems, define categories, and avoid merely following conventional wisdom. This strengthens [[CategoryCreation]] by tying category ambition to first-principles problem solving and a narrow wedge into a large market; it strengthens [[ProductMarketFit]] and [[DifferentiationStrategy]] by arguing that crowded SaaS markets require a superior value proposition rather than brute-force spending. The source also adds capital and scaling discipline: [[StartupRunway]] should not become an excuse to raise infinite money because it is available, [[StartupFocus]] means avoiding unicorn hype and hiring for mission commitment, and [[StartupScaling]] plus [[StartupCulture]] become explicit around 150 employees when informal shared context starts to fade.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CategoryCreation",
+        "DifferentiationStrategy",
+        "PatGrady",
+        "ProductMarketFit",
+        "SequoiaCapital",
+        "StartupCulture",
+        "StartupFocus",
+        "StartupRunway",
+        "StartupScaling"
       ]
     },
     {

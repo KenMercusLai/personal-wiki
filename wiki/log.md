@@ -576,6 +576,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 8 Lessons From One of Silicon Valley's Top VCs | Drift
+
+Ingested Drift's Pat Grady interview summary. Added source and entity pages for Pat Grady, Sequoia Capital, and Don Valentine; updated Drift plus startup scaling, product-market fit, category creation, startup culture, startup runway, startup focus, and differentiation strategy around durable problem-solving, narrow market entry, capital discipline, and the 150-person coordination threshold. The repeated remote hero image could not be inspected because its host did not resolve, so it was not used as evidence.
+
 ## [2026-09-13] ingest | 7 Ways to Uplevel Your Code Review Skills
 
 Ingested Asana's code-review article. Added source, Asana entity, and Code Review Practice concept pages; updated PR review hygiene, software verification, workplace learning, overview, and index to capture review as team learning, execution-backed validation, and low-friction approval.
@@ -591,6 +595,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 7 Ways to Use the Rule of Threes to Build Great Products
 
 Ingested the Women in Product rule-of-threes article. Added source, publication context, and concept pages for product triads, small-team balance, metric ladders, product storytelling, user-research thresholds, iterative shipping, and retrospectives; updated index and overview to capture the new product-operating heuristic.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

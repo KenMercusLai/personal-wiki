@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [8 Lessons From One of Silicon Valley's Top VCs | Drift](sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md) - Drift interview summary with Sequoia's Pat Grady arguing for durable problem-solving, category-defining ambition, narrow entry into big markets, capital discipline, and culture/systems after the 150-person scaling threshold.
 - [7 Ways to Uplevel Your Code Review Skills](sources/7-best-practices-for-doing-code-reviews.md) - Asana engineering article arguing that code reviews work best as team learning, execution-backed verification, prompt feedback, and non-blocking approval unless a bug is proven.
 - [7 Ways to Use the Rule of Threes to Build Great Products](sources/7-ways-to-use-the-rule-of-threes-to-build-great-products.md) - Women in Product article using triads to frame product-team balance, layered metrics, storytelling, proxy timeframes, user-research thresholds, iteration cadence, and retrospectives.
 - [7 Reasons Why Your Staging Environment Sucks - Loadmill](sources/7-reasons-why-your-staging-environment-sucks-loadmill.md) - Loadmill article arguing that staging only catches production bugs when it resembles production across architecture, runtime, monitoring, data, traffic, internet exposure, and failure conditions.
@@ -80,6 +81,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Pat Grady](entities/PatGrady.md) - Sequoia investor voice connecting category-defining ambition, first-principles problem-solving, scaling discipline, and capital restraint.
+- [Sequoia Capital](entities/SequoiaCapital.md) - Venture-capital firm context for Pat Grady's highly selective, category-focused investment philosophy.
+- [Don Valentine](entities/DonValentine.md) - Sequoia founder cited for connecting engineers to human problems and targeting large markets through disciplined entry.
 - [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
 - [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
 - [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
