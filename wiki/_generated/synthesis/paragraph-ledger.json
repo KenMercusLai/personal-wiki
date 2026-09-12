@@ -41,6 +41,7 @@
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
       "fcaef8947722538a926064e7052b84774f3ff0a6ec693bcb38db34141d3277c1",
       "6b88a4af45ee135975657d5285a813b8fa39d4e5b756c14eb53fe8ddfacf4e87",
+      "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
       "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "ac96fd02a7b74afe363701c7f49c6b867cc96181a92c8e9647e8cdc0c7f70064",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
@@ -59,10 +60,10 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9"
     ],
-    "paragraph_count": 57
+    "paragraph_count": 58
   },
-  "overview_commit": "9c3a7710561383dd9f42f5f8bca93678988690e1",
-  "overview_digest": "668a232f845a6b43b51818480b9c607af3c4f28ec45f96b72c2974a533f9e309",
+  "overview_commit": "eb7bb6e9b1942fb8802d1377cf807fc7fd33eada",
+  "overview_digest": "15cd10b5ce68c7804e1f924a4a40c32aa25c1ddacffb11f25b7721d1c80843c8",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -804,6 +805,29 @@
         "MinimumViableProduct",
         "ProductEvolution",
         "SoftwareBrothers"
+      ]
+    },
+    {
+      "id": "ff9b63d3eb8c59c51d9fcdc0c7b6e01e3dcb8652ff229b5124d1705e39de147b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest CS183C scaling source extends that startup thread from validation into organization design. [[Blitzscaling]] is presented as a risky speed-over-efficiency bet that should wait for evidence of readiness and is often triggered by visible competition, while [[StartupScaling]] is stage-specific: processes, teams, hiring systems, communication, and CEO behavior must change at each order of magnitude. [[ProductMarketFit]] becomes the boundary before which [[StartupHiringAtScale]] should stay slow and after which recruiting, [[StartupCulture]], [[ScalingCommunication]], and [[CEOScalingRole]] become central operating systems. [[DoingThingsThatDoNotScale]] links the MVP material to scale by showing why Airbnb and Nextdoor first used manual customer work to create intense user love before automating broader growth, and [[TalentDensity]] adds a Netflix-style qualification that scaling is not only more people but also preserving the performance bar needed for freedom and low bureaucracy.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Blitzscaling",
+        "CEOScalingRole",
+        "DoingThingsThatDoNotScale",
+        "ProductMarketFit",
+        "ScalingCommunication",
+        "StartupCulture",
+        "StartupHiringAtScale",
+        "StartupScaling",
+        "TalentDensity"
       ]
     },
     {

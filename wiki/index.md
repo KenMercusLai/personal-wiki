@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more](sources/16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more.md) - CS183C scaling synthesis arguing that blitzscaling, hiring, culture, communication, and CEO work must change by startup stage and competitive pressure.
 - [15+ Examples of Successful MVPs - Startups & Web Pages](sources/15-examples-of-successful-mvps-startups-web-pages-software-brothers.md) - Software Brothers' survey of famous MVP origin stories, arguing that startups can validate demand through narrow features, manual workflows, landing pages, videos, waitlists, and platform/community tests before full buildout.
 - [12 Fractured Apps](sources/12-fractured-apps-kelsey-hightower-medium.md) - Kelsey Hightower's Docker-era deployment essay arguing that containerized applications should own startup, runtime configuration, directory creation, and dependency retry behavior instead of outsourcing bootstrapping to wrapper scripts.
 - [12 Factor CLI Apps](sources/12-factor-cli-apps-jeff-dickey-medium.md) - Jeff Dickey's CLI design essay translating twelve-factor thinking into command-line UX, automation, output, speed, contribution, command grammar, and XDG path conventions.
@@ -62,6 +63,24 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [CS183C](entities/CS183C.md) - Stanford technology-enabled blitzscaling course context for the scaling source's operator lessons.
+- [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor and scaling theorist used to define blitzscaling and stage-specific startup advice.
+- [Eric Schmidt](entities/EricSchmidt.md) - Google operator cited for scaling timing, recruiting, small-team product creation, and CEO path-clearing.
+- [Marissa Mayer](entities/MarissaMayer.md) - Google and Yahoo operator cited for process breakage, acquisitions, culture, operating cadence, and CEO role.
+- [Brian Chesky](entities/BrianChesky.md) - Airbnb founder cited for competition-triggered scaling, unscalable host work, culture, and post-fit CEO priorities.
+- [Diane Greene](entities/DianeGreene.md) - VMware operator cited for early hiring difficulty, hiring standards, and written scaling communication.
+- [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, culture reinforcement, all-hands communication, coaching, and product-led CEOs.
+- [John Lilly](entities/JohnLilly.md) - CS183C instructor cited for scaling stages, support-team formation, competition timing, and repeated CEO messages.
+- [Airbnb](entities/Airbnb.md) - Startup scaling case for unscalable customer work, competition-driven international growth, and founder-led culture.
+- [LinkedIn](entities/LinkedIn.md) - Company context for Jeff Weiner's recruiting, culture, all-hands, and product-leadership scaling lessons.
+- [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
+- [Netflix](entities/Netflix.md) - Culture and talent-density example built around Reed Hastings' culture deck and context-not-control model.
+- [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
+- [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
+- [Sam Altman](entities/SamAltman.md) - Startup advisor cited for hiring slowly before product-market fit.
+- [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
+- [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
+- [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer.
 - [Software Brothers](entities/SoftwareBrothers.md) - Software agency/source publisher using famous startup MVP examples to promote core-value validation before full product buildout.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
@@ -198,6 +217,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
+- [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
+- [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull justifies shifting from discovery toward growth and organization-building.
+- [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual, high-touch startup work used to create early customer love and learn before automation.
+- [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow founder-led early hiring to larger recruiting systems that preserve standards and culture.
+- [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, reinforcement, and repetition.
+- [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, and broadcast communication as organizations grow.
+- [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
+- [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.
 - [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.
 - [Container Application Startup](concepts/ContainerApplicationStartup.md) - Application-owned initialization design for optional config, env overrides, local directories, dependency retry, and startup logs in containers.
 - [Runtime Configuration](concepts/RuntimeConfiguration.md) - Supplying environment-specific settings when an application runs rather than baking them into image variants.

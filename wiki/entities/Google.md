@@ -1,39 +1,49 @@
 ---
 title: "Google"
 type: entity
-tags: [company, web, networking]
+tags: [company, web, networking, startup]
 sources:
   - chen-hao-http-de-qian-shi-jin-sheng
-last_updated: 2026-09-11
+  - 16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more
+last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Google]] appears in the HTTP history source as a major contributor to web-protocol experimentation that influenced [[HTTP2]] and [[HTTP3]].
+[[Google]] appears in the wiki as both a web-protocol actor and a scaling-organization example.
 
 ## Current Profile
-Within this wiki, Google is represented as a web-platform actor whose experimental protocols and browser adoption helped shape HTTP's later performance evolution. The article treats SPDY as the basis for HTTP/2 and QUIC as the transport foundation that entered the HTTP/3 standardization path.
+Within the HTTP source, Google is represented as a web-platform actor whose experimental protocols and browser adoption helped shape HTTP's later performance evolution. The scaling source adds a second profile: Google as an operating model for order-of-magnitude process change, small-team product creation, recruiting intensity, strong culture, and executive communication cadence.
 
 ## Key Characteristics
 - Developed SPDY, which the source frames as the basis or close precursor of [[HTTP2]].
 - Developed [[QUIC]], which the source presents as the protocol basis for [[HTTP3]].
 - Influenced adoption through Chrome support and by later aligning with standardized HTTP/2.
 - Is associated with newer congestion-control ideas through the article's discussion of BBR.
+- Serves as a scaling example where processes break at each order of magnitude.
+- Is used as an example of recruiting, small-team product development, and strong culture.
 
 ## Evidence
 - SPDY influence: [[chen-hao-http-de-qian-shi-jin-sheng]] says Google's 2010 SPDY experiment became the basis for [[HTTP2]].
 - QUIC influence: [[chen-hao-http-de-qian-shi-jin-sheng]] describes [[QUIC]] as a Google protocol that entered the standardization path for [[HTTP3]].
 - Browser adoption: [[chen-hao-http-de-qian-shi-jin-sheng]] notes Chrome support for HTTP/3 and Google's removal of SPDY support after HTTP/2 standardization.
 - Congestion control: [[chen-hao-http-de-qian-shi-jin-sheng]] connects QUIC's congestion-control path with CUBIC and BBR.
+- Process scaling: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[MarissaMayer]] relaying [[EricSchmidt]]'s warning that processes break at 1, 10, 100, and 1,000 scale.
+- Operating cadence: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] describes Google's weekly staff meetings, strategy reviews, one-on-ones, and full-company meetings.
+- Small teams and recruiting: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[EricSchmidt]] on great products starting with tiny teams and on recruiting as a major operating priority.
 
 ## Qualifications
-This profile is limited to Google's role in the article's HTTP narrative. It does not evaluate Google's broader standards strategy or the full history of SPDY, QUIC, Chrome, or BBR.
+The HTTP source does not evaluate Google's broader standards strategy or the full history of SPDY, QUIC, Chrome, or BBR. The scaling source is a course-note synthesis and does not independently assess Google's culture, hiring outcomes, or management tradeoffs.
 
 ## What Changed
-- Created an entity profile for Google as a protocol-experimentation actor in HTTP/2 and HTTP/3 history.
+- Added Google as a scaling-organization example alongside its existing protocol-experimentation profile.
 
 ## Relationships
 - [[HTTP2]] - Google's SPDY is presented as HTTP/2's experimental precursor.
 - [[HTTP3]] - Google's QUIC is presented as the transport basis for HTTP/3.
 - [[QUIC]] - Google is associated with QUIC's origin and evolution.
 - [[HeadOfLineBlocking]] - QUIC is discussed as a response to transport-level blocking in multiplexed HTTP.
+- [[EricSchmidt]] - Google operator whose scaling advice appears in the source.
+- [[MarissaMayer]] - Google and Yahoo operator who relays Google process and cadence lessons.
+- [[StartupScaling]] - Google supplies order-of-magnitude process evidence.
+- [[ScalingCommunication]] - Google's weekly operating cadence is a communication example.

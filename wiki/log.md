@@ -136,6 +136,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more
+
+Ingested the CS183C scaling synthesis. Added the source note, startup scaling concepts, and operator/company entities; updated Google, Stripe, Y Combinator, the index, and the overview synthesis.
+
 ## [2026-09-12] ingest | 12 Factor CLI Apps
 
 Ingested Jeff Dickey's CLI design essay and added source, entity, and concept pages for CLI application design, command-line UX, automation-friendly CLI behavior, structured CLI output, command grammar, developer tooling, Heroku, oclif, and Jeff Dickey.
@@ -451,6 +455,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 12 Fractured Apps
 
 Ingested Kelsey Hightower's Docker application startup essay. Added source, entity, and concept pages for Docker-friendly startup, runtime configuration, and twelve-factor deployment behavior.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 
