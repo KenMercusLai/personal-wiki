@@ -20,13 +20,15 @@
       "global_candidate": true,
       "id": "social-and-platform-feedback-can-distort-work",
       "qualifications": [
-        "Satire diagnoses workplace behavior indirectly, while the creator material focuses on publishing anxiety and platform metrics rather than all work settings."
+        "Satire diagnoses workplace and design behavior indirectly, while the creator material focuses on publishing anxiety and platform metrics rather than all work settings."
       ],
-      "statement": "Work and creative behavior are vulnerable to status performances and platform feedback loops, so apparent productivity or creativity needs to be tested against evidence, ownership, audience value, and concrete next steps.",
+      "statement": "Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps.",
       "status": "qualified",
       "supporting_wikilinks": [
         "CorporateSatire",
         "PerformativeMeetingBehavior",
+        "UXDesignClicheRhetoric",
+        "UserResearchPatternThreshold",
         "CreatorAnxiety",
         "CreatorPlatformMetrics",
         "CreatorPositioning",
@@ -37,14 +39,15 @@
       "global_candidate": false,
       "id": "interfaces-shape-confidence-and-understanding",
       "qualifications": [
-        "The evidence spans research reports and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
+        "The evidence spans research reports, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
       ],
-      "statement": "Interfaces and reports shape user confidence by making relationships, states, outputs, and evidence chains legible rather than forcing users to infer hidden structure.",
+      "statement": "Interfaces, reports, and design arguments shape user confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.",
       "status": "supported",
       "supporting_wikilinks": [
         "UXResearchInformationDesign",
         "MixedMethodUXResearch",
         "CognitiveLoadInUXResearch",
+        "HeuristicEvaluation",
         "CLIApplicationDesign",
         "CommandLineUX",
         "StructuredCLIOutput"
@@ -102,6 +105,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.",
   "topic_id": "psychology-and-personal-development"
 }

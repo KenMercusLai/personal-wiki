@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-13
-as_of_overview_commit: db37b1fe8b0d2c00fe9bf4bbe376c5ef7b1e3e13
-input_digest: 8cbeb23b8f2d07e569bee74799b6d40c6596f2547de1209804a0b70c2e5a26c8
+as_of_overview_commit: af2afb0d537a879ed4a287834b885482b89f52c9
+input_digest: 6f57b7a278a16802af7fa0e1a93bfd4315294fb1d4fa6bc86332b2faf59c8960
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.
+The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.
 
 ## Cross-source Findings
 
@@ -28,23 +28,23 @@ Short reflective practices can increase agency by turning daily experience into 
 
 ### Social And Platform Feedback Can Distort Work
 
-Work and creative behavior are vulnerable to status performances and platform feedback loops, so apparent productivity or creativity needs to be tested against evidence, ownership, audience value, and concrete next steps.
+Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps.
 
-**Evidence:** [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]]
+**Evidence:** [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]]
 
 **Qualifications:**
 
-- Satire diagnoses workplace behavior indirectly, while the creator material focuses on publishing anxiety and platform metrics rather than all work settings.
+- Satire diagnoses workplace and design behavior indirectly, while the creator material focuses on publishing anxiety and platform metrics rather than all work settings.
 
 ### Interfaces Shape Confidence And Understanding
 
-Interfaces and reports shape user confidence by making relationships, states, outputs, and evidence chains legible rather than forcing users to infer hidden structure.
+Interfaces, reports, and design arguments shape user confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.
 
-**Evidence:** [[UXResearchInformationDesign]], [[MixedMethodUXResearch]], [[CognitiveLoadInUXResearch]], [[CLIApplicationDesign]], [[CommandLineUX]], [[StructuredCLIOutput]]
+**Evidence:** [[UXResearchInformationDesign]], [[MixedMethodUXResearch]], [[CognitiveLoadInUXResearch]], [[HeuristicEvaluation]], [[CLIApplicationDesign]], [[CommandLineUX]], [[StructuredCLIOutput]]
 
 **Qualifications:**
 
-- The evidence spans research reports and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern.
+- The evidence spans research reports, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern.
 
 ### Goals And Abstractions Focus Learning
 

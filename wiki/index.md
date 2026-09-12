@@ -20,6 +20,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Look at Auth0 Cloud Architecture: 5 Years In](sources/a-look-at-auth0-cloud-architecture-5-years-in.md) - Auth0 architecture retrospective showing how a high-scale identity SaaS standardized on AWS, multi-AZ and cross-region failover, infrastructure as code, testing, observability, and internal platform work.
 - [A New Beginning: MyCrypto.com](sources/a-new-beginning-mycrypto-com-mycrypto-medium.md) - Taylor Monahan's MyCrypto launch essay tracing MyEtherWallet from a two-person Ethereum wallet side project into high-stakes infrastructure, then explaining the move to a new brand, company, support surface, and audited codebase.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
+- [A comprehensive (and honest) list of UX cliches - UX Collective](sources/a-comprehensive-and-honest-list-of-ux-cliches-ux-collective.md) - UX Collective satire cataloging UX slogans as rhetorical shortcuts around research, testing, accessibility, scrolling, content, process, and design authority.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
 - [9 Tricks to Appear Smart in Brainstorming Meetings](sources/9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium.md) - Sarah Cooper's corporate satire arguing that brainstorming meetings can reward performative helpfulness, jargon, meta-framing, executive name-dropping, and premature decisiveness over real ideas.
@@ -240,6 +241,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fit Curve](entities/FitCurve.md) - Narrow Figma plugin for drawing smooth curves.
 - [Glimmer Card](entities/GlimmerCard.md) - iOS app for creating designed text-card images for social sharing.
 - [Figma](entities/Figma.md) - UI/UX design platform and plugin ecosystem used as a small-product launch channel.
+- [UX Collective](entities/UXCollective.md) - Design publication context for a satirical article about professional UX slogans and analogies.
 - [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
 - [ConvertKit](entities/ConvertKit.md) - Creator-focused email-marketing software used as an example of target-market positioning in a crowded SaaS category.
 - [Drift](entities/Drift.md) - Software company used as an example of category creation through the "conversational marketing" frame.
@@ -664,6 +666,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
 - [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
 - [UX Research Information Design](concepts/UXResearchInformationDesign.md) - Practice of designing UX research reports so observations, methods, contradictions, and conclusions form an explanatory structure.
+- [UX Design Cliche Rhetoric](concepts/UXDesignClicheRhetoric.md) - Use of familiar UX sayings and analogies as shorthand arguments that can either compress expertise or replace evidence.
 - [Upstream Divergence Policy](concepts/UpstreamDivergencePolicy.md) - Rule set for deciding when a rewrite should preserve, warn about, or reject upstream behavior.
 - [Unauthenticated Service Exposure](concepts/UnauthenticatedServiceExposure.md) - Risk created when a reachable service permits meaningful reads, writes, or control actions without valid authentication.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.

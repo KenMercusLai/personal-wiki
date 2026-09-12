@@ -120,6 +120,8 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A comprehensive (and honest) list of UX cliches - UX Collective
+
 ## [2026-09-12] ingest | 由「上线」产生的思考
 
 Ingested Xiaoshuojun Fp's game-server launch experience essay, including embedded diagrams about resource curves, service-unit architecture, CI/CD, and continuous-update mindset.
@@ -760,6 +762,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

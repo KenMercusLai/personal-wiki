@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 6a179993636c325591f40c32dd9d1442414c3cc4
+as_of_overview_commit: af2afb0d537a879ed4a287834b885482b89f52c9
 summary: "The wiki maps how tools, work, learning, markets, and personal systems need trust, evidence, context, verification, restraint, and human judgment."
-episode_count: 95
-source_count: 95
-paragraph_count: 96
+episode_count: 96
+source_count: 96
+paragraph_count: 97
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
 - [[MinimumViableProduct]] reframes startup product work as early evidence gathering: [[SoftwareBrothers]] shows teams testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, and platform/community placement before building full systems; [[OutsourcedProductDevelopment]] adds outsourced concept builds as a validation path when later refactoring or disposal is expected; and [[StartupHypothesisTesting]] adds that tests should be tied to explicit assumptions and evaluation criteria.
 - [[StartupRunway]] depends on how a company converts capital into learning, optionality, and team responsibility: [[Maderight]] shows the failure-side lesson that before [[ProductMarketFit]], runway should buy meaningful tests and [[StartupFocus]] should force choices when service revenue and product adoption diverge; [[Hardbound]] shows that visible love, usage, and paying customers may still fail to produce fundable fit when growth, revenue, and production economics remain weak, making [[FailureOwnership]] part of post-failure learning; [[AlexTurnbull]] adds from [[Groove]] that founders should prioritize value creation, profit, regular [[CustomerLedProductDevelopment]], and attention-preserving operating practices; [[Microsoft]] adds the exceptional [[SelfFundedSoftwareGrowth]] case, where product revenue, profit, cash, and limited advice-oriented venture capital reduced IPO timing pressure.
-- [[Twitter]] shows that platform turnaround work is not only feature ideation: [[AnilDash]] argues that [[ProductShippingCredibility]], [[PlatformAbuseResponse]], [[PlatformCulturalMetrics]], [[ProductUserSegmentation]], and [[DeveloperPlatformTrust]] all shape whether users, investors, creators, and developers believe a culturally important platform can recover.
+- Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps.
 
 ## Synthesis by Domain
 
@@ -65,10 +65,10 @@ History and geopolitics currently contains technology and interface histories ra
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources treat agency as shaped by reflective habits, goals, social performances, platform feedback, interface defaults, and trusted infrastructures.
+Psychology and personal-development sources treat agency as shaped by reflective habits, goals, social performances, UX slogan authority, platform feedback, interface defaults, and trusted infrastructures.
 
 - Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
-- Work and creative behavior are vulnerable to status performances and platform feedback loops, so apparent productivity or creativity needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].
+- Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].
 
 ### Science, Health, and Climate
 

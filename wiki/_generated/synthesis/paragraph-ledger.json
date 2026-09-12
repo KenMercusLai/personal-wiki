@@ -8,6 +8,7 @@
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
       "43a317c59849b6210090d1c8f452557ea10de445ccd628d60ee6c0d57ef4d4d5",
+      "2a22e7e3155c0ec99070b73cff3f08abeed6086691d3651ee56d4c3bab313331",
       "1d664f535403b8117930500d2f2abc8efbb9072eb783447a4f6f214d6c953c11",
       "dc8fdcbe54dd381783d4a3ee9a146ef12142608f5e4f5de599ce275fe0c565f1",
       "70dea6cdbaddb63d9320a8af60cdc1ec587ebaf7a9d364abcd6150e76a3ec6a7",
@@ -98,10 +99,10 @@
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 96
+    "paragraph_count": 97
   },
-  "overview_commit": "6a179993636c325591f40c32dd9d1442414c3cc4",
-  "overview_digest": "67a76d1bab1de3e98101e634087675ea7e592d68c6f884584977109f48594a56",
+  "overview_commit": "af2afb0d537a879ed4a287834b885482b89f52c9",
+  "overview_digest": "afd315d204729a7bb2fb8e029f2a72384fd30597a6f6ca6a2104cf38838823a6",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -225,6 +226,21 @@
       "wikilinks": [
         "CorporateSatire",
         "PerformativeMeetingBehavior"
+      ]
+    },
+    {
+      "id": "2a22e7e3155c0ec99070b73cff3f08abeed6086691d3651ee56d4c3bab313331",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The UX Collective satire adds a design-domain version of that language critique. [[UXDesignClicheRhetoric]] names how familiar UX sayings about research, testing, accessibility, content, scrolling, onboarding, UI versus UX, and design process can compress real concerns but also become portable authority when teams do not ground them in observed behavior, standards, or decision rules. The source qualifies [[UXResearchInformationDesign]], [[UserResearchPatternThreshold]], and [[CognitiveLoadInUXResearch]] by showing the shadow form of UX language: instead of structuring evidence, designers can invoke slogans to win arguments, explain delays, blame users, or signal strategic maturity.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "CognitiveLoadInUXResearch",
+        "UXDesignClicheRhetoric",
+        "UXResearchInformationDesign",
+        "UserResearchPatternThreshold"
       ]
     },
     {
