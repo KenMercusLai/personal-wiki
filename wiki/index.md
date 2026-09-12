@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
 - [9 Tricks to Appear Smart in Brainstorming Meetings](sources/9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium.md) - Sarah Cooper's corporate satire arguing that brainstorming meetings can reward performative helpfulness, jargon, meta-framing, executive name-dropping, and premature decisiveness over real ideas.
 - [9 Ways to Build Virality into your Product](sources/9-ways-to-build-virality-into-your-product-gabor-cselle-medium.md) - Gabor Cselle's product-growth taxonomy arguing that consumer virality should be built into core mechanics through rewards, vanity, collaboration, embeds, artifacts, messaging, signatures, and visible hardware.
 - [9 Boxes](sources/9-boxes.md) - Jonah Peretti's BuzzFeed strategy memo arguing for fairer platform revenue, diversified digital media monetization, a portfolio of consumer-service brands, and a nine-box brand-by-revenue operating model.
@@ -331,6 +332,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
 
 ## Concepts
+- [Journaling Practice](concepts/JournalingPractice.md) - Lightweight structured daily reflection habit that uses prompts to reduce blank-page resistance.
+- [Gratitude Practice](concepts/GratitudePractice.md) - Deliberate attention to specific daily events, people, and support systems that merit thanks.
+- [Reflective Connection](concepts/ReflectiveConnection.md) - Practice of noticing conceptual links, conversation takeaways, relationship interests, and future follow-up possibilities.
 - [Corporate Satire](concepts/CorporateSatire.md) - Humor that exaggerates workplace rituals, jargon, and status performances to reveal organizational incentives.
 - [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct aimed at signaling intelligence, creativity, helpfulness, or authority without improving the group's work.
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.

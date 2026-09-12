@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | A Better, Easier Way to Journal
+
+Added source note and concept pages for journaling practice, gratitude practice, and reflective connection. Updated index, overview, and downstream synthesis targets to capture the article's T.L.C. method: a low-friction daily prompt for thanking, learning, and connecting. Inspected all three local image embeds; they showed duplicate notebook-and-pencil illustrations and added no separate evidentiary content.
+
 ## [2026-09-13] ingest | 9 Ways to Build Virality into your Product
 
 Added source note plus pages for Gabor Cselle, Area 120, Google Docs, Airtable, Good Eggs, Instagram, Lyft, GroupMe, and Nest Cam. Updated growth hacking, viral loops, social proof, and example entity pages to capture two-sided rewards, vanity metrics, collaboration, embeds, shareable artifacts, messaging links, signatures, first-message onboarding, and visible hardware as product-integrated viral mechanisms. Inspected all local image embeds; the mechanism diagrams and screenshots supported the taxonomy, while duplicate/header icons were decorative or redundant.
@@ -631,6 +635,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

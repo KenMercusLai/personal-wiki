@@ -6,11 +6,14 @@
       "qualifications": [
         "The claim is grounded in advice and reflective sources and may vary across interruption-heavy roles."
       ],
-      "statement": "[[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology.",
+      "statement": "[[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start.",
       "status": "supported",
       "supporting_wikilinks": [
         "PersonalProductivity",
-        "WorkHabits"
+        "WorkHabits",
+        "JournalingPractice",
+        "GratitudePractice",
+        "ReflectiveConnection"
       ]
     },
     {
@@ -77,9 +80,10 @@
         "Book-centered systematic learning is strongest for durable domains and may need to be paired with faster online sources in rapidly changing fields.",
         "Creator feedback can be noisy or emotionally destabilizing when it is mistaken for a verdict rather than learning signal.",
         "Using output as a PKM test is a practical guardrail, but complex research, collaboration, or archival needs may justify heavier systems.",
-        "Orphan-note handling assumes inbound links matter to a knowledge system; search-first, folder-first, or project-database workflows may experience isolation differently."
+        "Orphan-note handling assumes inbound links matter to a knowledge system; search-first, folder-first, or project-database workflows may experience isolation differently.",
+        "Daily journaling prompts create capture material but do not by themselves specify review, tagging, retrieval, or long-term synthesis routines."
       ],
-      "statement": "[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[OrphanNotes]] add maintenance practices for earning links, containing bounded research, using [[Anki]] for random review, and allowing dormancy.",
+      "statement": "[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReflectiveConnection]] adds a smaller daily route for turning lessons, analogies, conversations, and future collaboration possibilities into captured knowledge, while [[OrphanNotes]] add maintenance practices for earning links, containing bounded research, using [[Anki]] for random review, and allowing dormancy.",
       "status": "qualified",
       "supporting_wikilinks": [
         "SystematicLearning",
@@ -88,6 +92,7 @@
         "ActiveLearning",
         "FocusedReading",
         "KnowledgeOutput",
+        "ReflectiveConnection",
         "ExplanatoryWriting",
         "DerekLieu",
         "NickyCase",
@@ -362,6 +367,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, active code review, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, outsourced product work, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, scope, technical detail, QA, tracking, long-term fit, opportunity cost, and employer-facing evidence; Readlang adds that useful work and user impact do not automatically make a solo path economically rational. Side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, data automation, and review practices can reshape organizational workflows when their operational constraints are understood. A source-scoped product-design paragraph adds that behavior-shaping loops also appear in growth contexts: invitations, public metrics, collaboration, shared artifacts, and visible hardware can change how people coordinate or notice products, but only when later product value supports the initial exposure.",
+  "summary": "Work, education, and society sources frame improvement as designed loops: practical routines and low-friction journaling prompts reduce friction, attention and discipline protect agency, fields shape behavior before willpower, learning deepens through systematic source selection, output, feedback, situated workplace practice, active code review, daily reflection, and AI-era problem-definition training, and goals, abstraction, free learning, DIKW distinctions, cross-domain wisdom, and knowledge valuation protect motivation against rote or coercive pressure. The topic treats Wozniak's learning theory more richly: personal goals help knowledge become valuable, SuperMemo illustrates self-directed valuation in action, and reverse learning names how negative school contexts may suppress curiosity and consolidation. It also adds a restraint principle for knowledge work: personal knowledge-management systems should be simplified and judged by whether they support real output rather than self-referential method collecting. Career, creator, outsourced product work, and volunteer technical paths require conscious tradeoffs among income, autonomy, support, tools, audience, platform metrics, accountability, scope, technical detail, QA, tracking, long-term fit, opportunity cost, and employer-facing evidence; Readlang adds that useful work and user impact do not automatically make a solo path economically rational. Side projects help a job search only when shipped, relevant, iterated, and made visible. Mature standards, cloud deployment choices, data automation, and review practices can reshape organizational workflows when their operational constraints are understood. A source-scoped product-design paragraph adds that behavior-shaping loops also appear in growth contexts: invitations, public metrics, collaboration, shared artifacts, and visible hardware can change how people coordinate or notice products, but only when later product value supports the initial exposure.",
   "topic_id": "work-education-and-society"
 }

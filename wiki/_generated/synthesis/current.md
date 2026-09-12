@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 301ece1cc6f2c8c2fd671c48b14ced74c489d186
-summary: "The wiki maps how tools and knowledge become reliable work through context quality, evidence, feedback, verification, incentives, and accountable judgment."
-episode_count: 78
-source_count: 78
-paragraph_count: 79
+as_of_overview_commit: 1f30791381a8353c778f327b629ef827a67a9ce1
+summary: "The wiki maps how tools, habits, and knowledge become reliable work through evidence, feedback, verification, incentives, and judgment."
+episode_count: 79
+source_count: 79
+paragraph_count: 80
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
 - [[BootstrappedSaaS]] depends on more than technical building: [[Hawstein]] shows [[Stripe]]-style payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]] as viability conditions, while [[Readlang]] shows that strong signup and revenue growth can still leave an [[IndependentCreator]] below attractive founder earnings.
 - [[ProductEvolution]] spans narrow first validation artifacts, released side-project feedback, transitional implementation, and mature adaptation: [[Instapaper]] evolves through platform timing, ownership, business-model shifts, and reliability recovery; [[MinimumViableProduct]] examples warn against projecting later breadth backward; [[ReleaseFocusedSideProjects]] shows why [[DeployBeta]] drifted while [[Elecpass]] could compound through usable releases; and [[OutsourcedProductDevelopment]] shows that externally built prototype code may later be refactored, handed off, or discarded after validation.
-- [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[OrphanNotes]] add maintenance practices for earning links, containing bounded research, using [[Anki]] for random review, and allowing dormancy.
+- [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReflectiveConnection]] adds a smaller daily route for turning lessons, analogies, conversations, and future collaboration possibilities into captured knowledge, while [[OrphanNotes]] add maintenance practices for earning links, containing bounded research, using [[Anki]] for random review, and allowing dormancy.
 - [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
 
 ## Synthesis by Domain
@@ -65,10 +65,10 @@ History and geopolitics remains a light thread, using historically situated tech
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources show attention, motivation, creator anxiety, meeting behavior, and command-line friction as shaped by environment, feedback, goals, and interaction design.
+Psychology and personal-development sources show attention, motivation, reflective journaling, creator anxiety, meeting behavior, and command-line friction as shaped by environment, feedback, goals, and interaction design.
 
+- [[JournalingPractice]] can shape daily attention when a small prompt asks people to record [[GratitudePractice]], ordinary learning, and [[ReflectiveConnection]] through specific events, hidden support systems, analogies, conversations, and possible follow-up. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
 - [[PerformativeMeetingBehavior]] shows how meeting participants can signal creativity, strategic breadth, executive closeness, or decision authority through rituals and language that look collaborative but lack evidence, ownership, or concrete next steps. Evidence: [[PerformativeMeetingBehavior]], [[CorporateSatire]].
-- [[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone. Evidence: [[CreatorAnxiety]], [[CreatorPositioning]], [[CreatorPlatformMetrics]], [[IdeaManagement]], [[CreativePresence]], [[AlokKanojia]], [[SahilBloom]], [[JayClouse]], [[Xiaohongshu]], [[Notion]], [[KnowledgeOutput]], [[PersonalBranding]].
 
 ### Science, Health, and Climate
 
@@ -78,7 +78,7 @@ Science, health, and climate remains indirect, centering attention as a scarce c
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed learning loops: routines protect attention, environments shape agency, output and situated practice deepen learning, PKM needs useful structure and maintenance, and career or creator paths require explicit tradeoffs.
+Work, education, and society sources frame improvement as designed learning loops: routines and journaling prompts reduce friction, environments shape agency, output and situated practice deepen learning, PKM needs useful structure and maintenance, and career or creator paths require explicit tradeoffs.
 
-- [[PersonalProductivity]] and [[WorkHabits]] are framed as lightweight routines for reducing avoidable work friction rather than as a heavy methodology. Evidence: [[PersonalProductivity]], [[WorkHabits]].
+- [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

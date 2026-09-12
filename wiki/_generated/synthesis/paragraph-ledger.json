@@ -2,6 +2,7 @@
   "coverage": {
     "assigned_paragraph_ids": [
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
+      "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
@@ -81,10 +82,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 79
+    "paragraph_count": 80
   },
-  "overview_commit": "301ece1cc6f2c8c2fd671c48b14ced74c489d186",
-  "overview_digest": "966b8c19a4e1f2a5f15512946c61af58b1ccf78befea34cc06c68fdfeadc55db",
+  "overview_commit": "1f30791381a8353c778f327b629ef827a67a9ce1",
+  "overview_digest": "d8862c810b6c83cd404d8e47f26bc4dc9c4a07b034df95d6ffdf02b8ba498ae3",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -97,6 +98,25 @@
       "wikilinks": [
         "PersonalProductivity",
         "WorkHabits"
+      ]
+    },
+    {
+      "id": "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The journaling source adds a reflective-habit variant to the same practical productivity and personal-development cluster. [[JournalingPractice]] is made easier through the T.L.C. method: a short daily prompt to record what to thank, what to learn, and what to connect. [[GratitudePractice]] grounds reflection in specific daily events and hidden support systems, while [[ReflectiveConnection]] turns the day's ideas and conversations into analogies, relationship memory, and possible future collaboration. This strengthens [[ActiveLearning]] and [[PersonalKnowledgeManagement]] by showing a small daily capture loop that changes what the person notices before they sit down to write.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "GratitudePractice",
+        "JournalingPractice",
+        "PersonalKnowledgeManagement",
+        "ReflectiveConnection"
       ]
     },
     {
