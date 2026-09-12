@@ -22,6 +22,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Look at Auth0 Cloud Architecture: 5 Years In](sources/a-look-at-auth0-cloud-architecture-5-years-in.md) - Auth0 architecture retrospective showing how a high-scale identity SaaS standardized on AWS, multi-AZ and cross-region failover, infrastructure as code, testing, observability, and internal platform work.
 - [A New Beginning: MyCrypto.com](sources/a-new-beginning-mycrypto-com-mycrypto-medium.md) - Taylor Monahan's MyCrypto launch essay tracing MyEtherWallet from a two-person Ethereum wallet side project into high-stakes infrastructure, then explaining the move to a new brand, company, support surface, and audited codebase.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
+- [A guide to becoming a senior product designer](sources/a-guide-to-becoming-a-senior-product-designer.md) - Aaron James's product-design career guide arguing that ladders, design skill axes, feedback, focused goals, and manager alignment help designers progress toward senior impact.
 - [A comprehensive (and honest) list of UX cliches - UX Collective](sources/a-comprehensive-and-honest-list-of-ux-cliches-ux-collective.md) - UX Collective satire cataloging UX slogans as rhetorical shortcuts around research, testing, accessibility, scrolling, content, process, and design authority.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
@@ -249,7 +250,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fit Curve](entities/FitCurve.md) - Narrow Figma plugin for drawing smooth curves.
 - [Glimmer Card](entities/GlimmerCard.md) - iOS app for creating designed text-card images for social sharing.
 - [Figma](entities/Figma.md) - UI/UX design platform and plugin ecosystem used as a small-product launch channel.
-- [UX Collective](entities/UXCollective.md) - Design publication context for a satirical article about professional UX slogans and analogies.
+- [UX Collective](entities/UXCollective.md) - Design publication context for practitioner UX satire and product-design career guidance.
+- [Aaron James](entities/AaronJames.md) - Product-design practitioner-author explaining career ladders, seniority signals, and career-plan mechanics.
 - [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
 - [ConvertKit](entities/ConvertKit.md) - Creator-focused email-marketing software used as an example of target-market positioning in a crowded SaaS category.
 - [Drift](entities/Drift.md) - Software company used as an example of category creation through the "conversational marketing" frame.
@@ -431,6 +433,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Technical Career](concepts/CreativeTechnicalCareer.md) - Career pattern where technical work, art, craft, education, and product-building become one evolving path.
 - [Reinforcement Learning](concepts/ReinforcementLearning.md) - Machine-learning approach where agents improve decisions through rewards, penalties, and repeated action.
 - [Workplace Sexism in Tech](concepts/WorkplaceSexismInTech.md) - Gendered harassment, credibility denial, stereotyping, and exclusion that make technical work harder or less safe.
+- [Product Design Career Ladder](concepts/ProductDesignCareerLadder.md) - Structured model of product-designer levels, seniority signals, and promotion planning.
+- [Design Skill Axes](concepts/DesignSkillAxes.md) - Product-design growth dimensions spanning product thinking, interaction design, visual design, intentionality, drive, and self-awareness.
 - [Journaling Practice](concepts/JournalingPractice.md) - Lightweight structured daily reflection habit that uses prompts to reduce blank-page resistance.
 - [Gratitude Practice](concepts/GratitudePractice.md) - Deliberate attention to specific daily events, people, and support systems that merit thanks.
 - [Reflective Connection](concepts/ReflectiveConnection.md) - Practice of noticing conceptual links, conversation takeaways, relationship interests, and future follow-up possibilities.
