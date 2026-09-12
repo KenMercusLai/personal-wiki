@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Selfie For The Planet](sources/a-selfie-for-the-planet.md) - Fast Company profile of Ed Parsons and Google's Geo work, framing Google Maps, Google Earth, Street View, location data, user contributions, and OpenStreetMap as a shift from static maps to personalized platform cartography.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
@@ -262,7 +263,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
-- [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
+- [Google](entities/Google.md) - Web-platform, scaling, mobile, and geospatial actor associated with protocol evolution, Android reach, and personalized mapping infrastructure.
+- [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
+- [Google Maps](entities/GoogleMaps.md) - Google's mass-market mapping product where personalization, local search, ads, user contributions, moderation, and location data converge.
+- [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
+- [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
+- [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
 - [Apple](entities/Apple.md) - Mobile platform winner whose iOS ecosystem concentrates high-value users and platform-control power in the source's 2015 framing.
@@ -646,6 +652,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, and adjacent devices away from the PC-era center.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
 - [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users find services when search, app stores, operating systems, notifications, messaging, and traffic holders shape attention.
+- [Digital Cartography](concepts/DigitalCartography.md) - Screen-based, dynamic, personalized, and platform-mediated mapmaking shaped by data, design, law, and commercial context.
+- [Location Data Privacy](concepts/LocationDataPrivacy.md) - Privacy problem created when systems collect or infer where people are, where they go, and what they seek there.
+- [User-Generated Mapping](concepts/UserGeneratedMapping.md) - Map-building pattern where public, volunteer, customer, or community contributions update and enrich map data.
 - [Media Brand Portfolio](concepts/MediaBrandPortfolio.md) - Operating multiple distinct audience-facing media brands with different consumer uses and revenue surfaces.
 - [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.
 - [Platform Publisher Revenue](concepts/PlatformPublisherRevenue.md) - Revenue-share and fair-payment problem between professional publishers and large technology platforms.

@@ -588,6 +588,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A Selfie For The Planet
+
+Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street View, OpenStreetMap, Digital Cartography, Location Data Privacy, and User-Generated Mapping. Updated Google and the index to capture the article's argument that modern maps are personalized, dynamic, commercially useful, and privacy-sensitive platform infrastructure. Inspected six embedded images: the Chonhado map, Street View capture rig, vandalized Google Maps screenshot, Street View car, promoted local-business UI, and Parsons portrait.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -675,6 +679,10 @@ Added source note plus pages for Juicero, Jeff Dunn, Doug Evans, and Connected P
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

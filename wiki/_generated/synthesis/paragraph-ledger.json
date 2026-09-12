@@ -25,6 +25,7 @@
       "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
+      "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
       "e3fcd2209563ed4b4a13479a52459407e8033b02fcb4badc8f3f45aa0003e4e4",
       "10937c6f00454293b88366870cd19f7ff2512f570bbeab585fc3b0eca8835791",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
@@ -92,10 +93,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 90
+    "paragraph_count": 91
   },
-  "overview_commit": "551d9a3c7ffbb5bcd782c8cdf7f4effe33a6046a",
-  "overview_digest": "62876754128664c778361b724273e50b087f3fe41b9df6f979757657f0f222f1",
+  "overview_commit": "db37b1fe8b0d2c00fe9bf4bbe376c5ef7b1e3e13",
+  "overview_digest": "2ead48f612793492d5a9229c39fce123754ea8bb70e6531879e1ced78e3d8a40",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -539,6 +540,25 @@
         "JeffDickey",
         "Oclif",
         "StructuredCLIOutput"
+      ]
+    },
+    {
+      "id": "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest mapping source extends the mobile and platform thread through [[DigitalCartography]]. [[EdParsons]] presents [[GoogleMaps]], [[GoogleEarth]], and [[StreetView]] as screen-native maps that are personalized, zoom-dependent, moderated, legally localized, commercially surfaced, and increasingly built from public contributions. [[LocationDataPrivacy]] becomes the limiting trust problem because movement traces can identify people even after partial anonymization, while [[UserGeneratedMapping]] adds both freshness and moderation risk through photos, corrections, Waze traffic, and vandalism. [[OpenStreetMap]] supplies the countermodel: volunteer open-data mapping can democratize mapmaking, but it still needs cartographic restraint and inherits contributor bias.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DigitalCartography",
+        "EdParsons",
+        "GoogleEarth",
+        "GoogleMaps",
+        "LocationDataPrivacy",
+        "OpenStreetMap",
+        "StreetView",
+        "UserGeneratedMapping"
       ]
     },
     {

@@ -2,13 +2,12 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "journaling-prompts-shape-daily-attention",
+      "id": "reflection-turns-experience-into-agency",
       "qualifications": [
-        "The claim is grounded in a short personal-growth essay rather than empirical journaling research.",
-        "The T.L.C. structure may fit beginners or blocked journalers better than therapeutic, open-ended, or detailed project journaling."
+        "The bundle describes reflective prompts and note practices, not clinical mental-health interventions or measured long-term outcomes."
       ],
-      "statement": "[[JournalingPractice]] can shape daily attention when a small prompt asks people to record [[GratitudePractice]], ordinary learning, and [[ReflectiveConnection]] through specific events, hidden support systems, analogies, conversations, and possible follow-up.",
-      "status": "qualified",
+      "statement": "Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge.",
+      "status": "supported",
       "supporting_wikilinks": [
         "JournalingPractice",
         "GratitudePractice",
@@ -19,156 +18,90 @@
     },
     {
       "global_candidate": true,
-      "id": "meeting-status-performance-can-mask-substance",
+      "id": "social-and-platform-feedback-can-distort-work",
       "qualifications": [
-        "The claim is grounded in [[CorporateSatire]], so it is a diagnostic cultural reading rather than empirical meeting research.",
-        "The same behaviors can be substantive when tied to real evidence, responsibility, and follow-through."
+        "Satire diagnoses workplace behavior indirectly, while the creator material focuses on publishing anxiety and platform metrics rather than all work settings."
       ],
-      "statement": "[[PerformativeMeetingBehavior]] shows how meeting participants can signal creativity, strategic breadth, executive closeness, or decision authority through rituals and language that look collaborative but lack evidence, ownership, or concrete next steps.",
+      "statement": "Work and creative behavior are vulnerable to status performances and platform feedback loops, so apparent productivity or creativity needs to be tested against evidence, ownership, audience value, and concrete next steps.",
       "status": "qualified",
       "supporting_wikilinks": [
+        "CorporateSatire",
         "PerformativeMeetingBehavior",
-        "CorporateSatire"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "creator-anxiety-improves-through-controllable-actions",
-      "qualifications": [
-        "The claim is grounded in a personal creator retrospective and cited interviews, not clinical or platform-wide evidence.",
-        "Platform-data advice may vary for creators whose income, obligations, or editorial contracts require closer metric tracking."
-      ],
-      "statement": "[[CreatorAnxiety]] can be reduced when creators use [[CreatorPositioning]], [[CreatorPlatformMetrics]] awareness, [[IdeaManagement]], and [[CreativePresence]] to focus on purpose, controllable publishing actions, value for specific people, and captured inspiration rather than raw metrics alone.",
-      "status": "qualified",
-      "supporting_wikilinks": [
         "CreatorAnxiety",
-        "CreatorPositioning",
         "CreatorPlatformMetrics",
-        "IdeaManagement",
-        "CreativePresence",
-        "AlokKanojia",
-        "SahilBloom",
-        "JayClouse",
-        "Xiaohongshu",
-        "Notion",
-        "KnowledgeOutput",
+        "CreatorPositioning",
         "PersonalBranding"
       ]
     },
     {
       "global_candidate": false,
-      "id": "ux-research-contradictions-need-cognitive-mediation",
+      "id": "interfaces-shape-confidence-and-understanding",
       "qualifications": [
-        "This is a secondary topic assignment; the paragraph primarily belongs to UX research and evidence design rather than general personal development.",
-        "The Jamovi example is source-scoped and does not measure cognitive load directly."
+        "The evidence spans research reports and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
       ],
-      "statement": "[[UXResearchInformationDesign]] uses [[CognitiveLoadInUXResearch]] to explain why subjective ratings, expert findings, and observed behavior can diverge: in the [[Jamovi]] case, a hidden cognitive prerequisite makes user errors visible while subjective difficulty remains low.",
-      "status": "source-scoped",
+      "statement": "Interfaces and reports shape user confidence by making relationships, states, outputs, and evidence chains legible rather than forcing users to infer hidden structure.",
+      "status": "supported",
       "supporting_wikilinks": [
         "UXResearchInformationDesign",
-        "CognitiveLoadInUXResearch",
         "MixedMethodUXResearch",
-        "HeuristicEvaluation",
-        "Jamovi"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "command-line-ux-reduces-cognitive-friction",
-      "qualifications": [
-        "This is a secondary topic assignment; the source is about CLI product design rather than individual psychology.",
-        "The claim concerns cognitive friction and user confidence in technical tools, not general personal development."
-      ],
-      "statement": "[[CommandLineUX]] reduces user confusion when [[CLIApplicationDesign]] makes help, flags, errors, prompts, [[StructuredCLIOutput]], and [[CLICommandGrammar]] explicit while [[AutomationFriendlyCLI]] keeps rich terminal behavior from breaking scripts and pipelines.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "CommandLineUX",
+        "CognitiveLoadInUXResearch",
         "CLIApplicationDesign",
-        "StructuredCLIOutput",
-        "CLICommandGrammar",
-        "AutomationFriendlyCLI",
-        "JeffDickey",
-        "Heroku",
-        "Oclif"
+        "CommandLineUX",
+        "StructuredCLIOutput"
       ]
     },
     {
       "global_candidate": true,
-      "id": "goals-can-protect-learn-drive",
+      "id": "goals-and-abstractions-focus-learning",
       "qualifications": [
-        "The Wozniak source says mature experts may rely on curiosity without explicit goals, so the claim is strongest for younger or constrained learners.",
-        "Li Mu's optimization metaphor is advice by analogy, not empirical evidence about goal setting."
+        "The sources warn that goals can become externally competitive or misdirected, so discomfort and discipline matter only when they support meaningful direction."
       ],
-      "statement": "[[GoalSetting]] can protect [[LearnDrive]] when goals help learners value knowledge through a [[KnowledgeValuationNetwork]], and can guide iterative action when paired with good-enough steps, exploration, rest, and [[SelfDiscipline]].",
-      "status": "qualified",
+      "statement": "Goals, abstraction, and optimization metaphors help learners focus attention without reducing learning to rote status competition.",
+      "status": "supported",
       "supporting_wikilinks": [
         "GoalSetting",
         "LearnDrive",
         "KnowledgeValuationNetwork",
-        "SelfDiscipline",
-        "PersonalProductivity",
-        "StochasticGradientDescent"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "sgd-metaphor-frames-life-iteration",
-      "qualifications": [
-        "The claim is source-scoped to Li Mu's metaphor and should not be treated as a mathematical model of human life."
-      ],
-      "statement": "[[StochasticGradientDescent]] frames personal development as large-objective search through [[GoalSetting]], small repeated [[PersonalProductivity]] steps, variable pacing, exploration beyond comfort zones, and [[SelfDiscipline]] around directionally useful discomfort.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
         "StochasticGradientDescent",
-        "GoalSetting",
-        "PersonalProductivity",
-        "SelfDiscipline"
+        "SelfDiscipline",
+        "CreativeAbstraction"
       ]
     },
     {
       "global_candidate": true,
-      "id": "abstraction-keeps-learning-meaningful",
+      "id": "personalized-infrastructure-requires-trust",
       "qualifications": [
-        "The claim is grounded in one source's discussion of law and similar unstable knowledge domains."
+        "The mapping paragraph is assigned to this topic by the deterministic planner, but its stronger home is also technology, governance, and platform strategy."
       ],
-      "statement": "[[CreativeAbstraction]] helps learners keep motivation in complex domains by replacing exhaustive memorization with pattern seeking, general principles, and references for detail lookup.",
+      "statement": "Personalized infrastructure can feel empowering only when users can trust its data practices, moderation, and abstractions; digital maps make this visible through location privacy, user contributions, and platform-controlled cartography.",
       "status": "supported",
       "supporting_wikilinks": [
-        "CreativeAbstraction",
-        "PiotrWozniak"
+        "DigitalCartography",
+        "GoogleMaps",
+        "GoogleEarth",
+        "StreetView",
+        "LocationDataPrivacy",
+        "UserGeneratedMapping",
+        "OpenStreetMap"
       ]
     },
     {
       "global_candidate": false,
-      "id": "status-competition-can-trigger-reassessment",
+      "id": "context-management-is-a-cognitive-infrastructure-problem",
       "qualifications": [
-        "The wiki has not yet ingested independent biographical sources about the example."
+        "This claim is source-scoped because the input paragraph is primarily technical and only secondarily related to psychology through memory and attention metaphors."
       ],
-      "statement": "[[PeterThiel]] is used as an example of reassessing an externally competitive path and redirecting toward a more meaningful aim.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "PeterThiel",
-        "PiotrWozniak"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "prompt-cache-paragraph-is-technical-spillover",
-      "qualifications": [
-        "This is a secondary classifier assignment; the paragraph is about AI infrastructure and context mechanics rather than psychology or personal development."
-      ],
-      "statement": "[[PromptCaching]], [[ClaudeCode]], [[Anthropic]], [[DynamicContextCompression]], [[KVCacheAwareRouting]], and [[InferenceLoadBalancing]] appear here only as a spillover from technical context-management language.",
+      "statement": "AI context-management mechanisms show that memory and attention are also infrastructure problems: stable prompts, compression, and routing affect what a system can preserve or forget.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "PromptCaching",
         "ClaudeCode",
-        "Anthropic",
         "DynamicContextCompression",
         "KVCacheAwareRouting",
         "InferenceLoadBalancing"
       ]
     }
   ],
-  "summary": "The psychology and personal-development topic centers on motivation, reflective habits, creator anxiety, learning agency, user-facing cognitive friction, workplace status performance, and source-scoped bridges into UX research and technical context mechanics. The journaling source adds a small daily attention loop: thanking, learning, and connecting can make specific events, support systems, analogies, conversations, and follow-up possibilities easier to notice. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw metrics. Cooper's meeting satire adds a social-performance warning: collaborative rituals and strategic language can become status signals when detached from evidence, ownership, or concrete next steps. The CLI and UX research sources appear here as secondary cognitive-friction cases, while prompt-cache material is present only as technical classifier spillover.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, and trusted infrastructures. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, platform metrics, UX reporting, CLI behavior, and digital maps show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, opaque interfaces, privacy risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.",
   "topic_id": "psychology-and-personal-development"
 }
