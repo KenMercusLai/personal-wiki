@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 2018 年度小结（技术方面）
+
+Ingested Wang Ziting's 2018 technical retrospective. Added source, entity, and concept pages for release-focused side projects, LeanCloud game backend work, Client Engine, Redis-backed task queue design, declarative infrastructure, container-native practice, and server-side game logic. Updated Docker, Kubernetes, Product Evolution, index, and overview; inspected the referenced logo image and classified it as decorative.
+
 ## [2026-09-12] ingest | 15+ Examples of Successful MVPs - Startups & Web Pages
 
 Added source note plus pages for Software Brothers and minimum viable product. Updated customer-led product development, product evolution, index, overview, and generated synthesis inputs. Key claims: MVPs validate core value through intentionally incomplete products, manual workflows, videos, landing pages, pricing/waitlist tests, closed betas, and platform/community distribution before teams commit to full systems.
@@ -463,6 +467,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] ingest | 12 Fractured Apps
 
 Ingested Kelsey Hightower's Docker application startup essay. Added source, entity, and concept pages for Docker-friendly startup, runtime configuration, and twelve-factor deployment behavior.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-12
-as_of_overview_commit: 73ae349f18a8f98834ce9ddd18e745b27434bcae
-input_digest: 1be22615776bc51e3a2355b790703a7409c7f8e0a81d61449e9e00f71f788a8e
+as_of_overview_commit: 4b0ae730e14ed686a5ce23a262b1c7c3297b87bf
+input_digest: 1fb587534e923591516687efe790c7af5d20a94714a840a0540033a435951bce
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans five control problems: institutions and status competition can distort learning aims, inference gateways encode technical control over served AI workloads, game-server operations move responsibility into engineering-owned delivery and recovery workflows, volunteer campaign technology converts supporter energy into political infrastructure that needs accountability for safety and consequences, and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans control problems across institutions, infrastructure, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; declarative infrastructure, container-native practice, and game-server operations move responsibility into engineering-owned delivery and recovery workflows; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -48,14 +48,25 @@ The governance-related material is still narrow but now spans five control probl
 
 ### Operations Governance Shifts Responsibility Into Engineering
 
-[[LowOpsGameServer]] and [[GameServerCloudNativeDelivery]] shift operational governance toward engineering-owned workflows: teams reduce manual coordination by standardizing service units, deployment environments, configuration paths, recovery automation, and [[ContinuousGameServerUpdates]].
+[[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[DeclarativeInfrastructure]], and [[ContainerNativePractice]] shift operational governance toward engineering-owned workflows: teams reduce manual coordination through service units, desired-state reconciliation, health checks, configuration paths, recovery automation, and [[ContinuousGameServerUpdates]].
 
-**Evidence:** [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[GameServerSLA]], [[XiaoshuojunFp]]
+**Evidence:** [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[GameServerSLA]], [[XiaoshuojunFp]], [[DeclarativeInfrastructure]], [[ContainerNativePractice]], [[Kubernetes]]
 
 **Qualifications:**
 
-- This is a secondary governance assignment from a game-server operations essay, not a broad organizational governance study.
-- The source describes one practitioner's desired evolution from development-operations separation toward DevOps ownership.
+- This is a secondary governance assignment from game-server and platform-engineering sources, not a broad organizational governance study.
+- The sources describe practitioner views of moving responsibility from manual coordination toward engineering-owned workflows.
+
+### Platform Features Need Accountable Product Boundaries
+
+[[TaskQueueDesign]] and [[VolunteerCampaignTechnology]] both show that fast infrastructure becomes governance-sensitive when it affects real users: queues need clear timeout, concurrency, state, and recovery semantics, while campaign tools need [[CampaignTechnologyAccountability]] for safety, targeting, affiliation, and public consequences.
+
+**Evidence:** [[TaskQueueDesign]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]], [[Redis]], [[VoteForBernie]], [[FeelTheBern]]
+
+**Qualifications:**
+
+- The claim is inferred from one retrospective paragraph and one campaign-technology paragraph; it needs more sources before becoming a broad governance rule.
+- The task-queue source itself reports weak launch response, so the product boundary remains a design problem rather than a solved pattern.
 
 ### Volunteer Campaign Tech Needs Accountability
 

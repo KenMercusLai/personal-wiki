@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
+- [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
 - [16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more](sources/16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more.md) - CS183C scaling synthesis arguing that blitzscaling, hiring, culture, communication, and CEO work must change by startup stage and competitive pressure.
 - [15+ Examples of Successful MVPs - Startups & Web Pages](sources/15-examples-of-successful-mvps-startups-web-pages-software-brothers.md) - Software Brothers' survey of famous MVP origin stories, arguing that startups can validate demand through narrow features, manual workflows, landing pages, videos, waitlists, and platform/community tests before full buildout.
@@ -86,6 +87,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Software Brothers](entities/SoftwareBrothers.md) - Software agency/source publisher using famous startup MVP examples to promote core-value validation before full product buildout.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
+- [Wang Ziting](entities/WangZiting.md) - Developer-blogger reflecting on side-project release discipline, container platforms, game backend architecture, and Redis-backed task queues.
 - [Jeff Dickey](entities/JeffDickey.md) - CLI practitioner-author presenting twelve factors for usable, automation-friendly command-line applications.
 - [Heroku](entities/Heroku.md) - Cloud application platform used as the source's context for twelve-factor methodology and CLI design examples.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
@@ -169,6 +171,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Imooc](entities/Imooc.md) - Programming course platform that supplied Zhang Xuan's main freelancer income.
 - [Kong](entities/Kong.md) - Infrastructure company mentioned as part of Guanlan's distributed systems background.
 - [Kubernetes](entities/Kubernetes.md) - Container orchestration system discussed as process isolation that cannot see agent tool-call semantics.
+- [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
+- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, and clear product positioning.
+- [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
+- [Elecpass](entities/Elecpass.md) - Wang Ziting side project used as a positive example of fast release, personal use, and focused versioned improvement.
+- [Client Engine](entities/ClientEngine.md) - LeanCloud product for running server-side game logic as a message-service participant.
+- [Etcd](entities/Etcd.md) - Distributed key-value store used by DeployBeta's JSON ORM and compared with Kubernetes api-server storage patterns.
+- [Node.js](entities/NodeJS.md) - Server-side JavaScript runtime shaping Wang Ziting's queue-design assumptions and worker implementation.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
 - [Letta](entities/Letta.md) - Open-source framework described as the later continuation of the MemGPT memory-management line.
@@ -245,6 +254,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.
 - [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.
 - [Container Application Startup](concepts/ContainerApplicationStartup.md) - Application-owned initialization design for optional config, env overrides, local directories, dependency retry, and startup logs in containers.
+- [Release-Focused Side Projects](concepts/ReleaseFocusedSideProjects.md) - Side-project discipline of focusing on one project, reaching usable releases quickly, and preserving feedback before scope expands.
+- [Declarative Infrastructure](concepts/DeclarativeInfrastructure.md) - Infrastructure model where desired-state resources and controllers reconcile actual system state.
+- [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications work with container storage, health, lifecycle, and build assumptions rather than merely packaging old programs.
+- [Server-Side Game Logic](concepts/ServerSideGameLogic.md) - Game backend pattern for running authoritative or anti-cheat logic on the server while coordinating with clients through a message service.
+- [Task Queue Design](concepts/TaskQueueDesign.md) - Backend design of asynchronous scheduling, state, timeout, concurrency, recovery, and queue product fit.
 - [Runtime Configuration](concepts/RuntimeConfiguration.md) - Supplying environment-specific settings when an application runs rather than baking them into image variants.
 - [CLI Application Design](concepts/CLIApplicationDesign.md) - Designing command-line applications as usable products across help, flags, streams, errors, prompts, speed, contribution, command grammar, and paths.
 - [Command-Line UX](concepts/CommandLineUX.md) - Terminal user experience shaped by help text, flags, errors, prompts, progress, output formatting, and capability-aware fallbacks.

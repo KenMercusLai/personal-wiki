@@ -123,22 +123,24 @@
     },
     {
       "global_candidate": false,
-      "id": "game-operations-are-cultural-delivery-infrastructure",
+      "id": "game-operations-and-backend-architecture-are-cultural-delivery-infrastructure",
       "qualifications": [
-        "This is a secondary culture-and-media assignment; the source primarily concerns game-server engineering rather than player-facing criticism or game studies.",
-        "The current corpus has only one operations essay for this point."
+        "This is a secondary culture-and-media assignment; the sources primarily concern game-server engineering and backend architecture rather than player-facing criticism or game studies.",
+        "The current corpus has only one operations essay and one retrospective backend example for this point."
       ],
-      "statement": "[[GameServerLaunchExperience]] adds a production layer beneath games as media: [[ContinuousGameServerUpdates]] and [[GameServerCloudNativeDelivery]] shape whether live-game updates, testing, and maintenance are perceptible to players.",
+      "statement": "[[GameServerLaunchExperience]] and [[ServerSideGameLogic]] add a production layer beneath games as media: [[ContinuousGameServerUpdates]], [[GameServerCloudNativeDelivery]], and message-service-centered backend logic shape whether live-game updates, testing, anti-cheat behavior, and maintenance are perceptible to players.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "GameServerLaunchExperience",
         "ContinuousGameServerUpdates",
         "GameServerCloudNativeDelivery",
         "LowOpsGameServer",
-        "XiaoshuojunFp"
+        "XiaoshuojunFp",
+        "ServerSideGameLogic",
+        "LeanCloud"
       ]
     }
   ],
-  "summary": "The culture-and-media layer now connects experience-centered practices across learning media, reading, games, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations form a hidden delivery layer for live-game experience; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, and aesthetics: media form shapes whether difficult study can become systematic; reading-note systems make books, genres, awards, and interpretations navigable; game localization preserves player-facing effects through computational search, domestication, and guidance; game-server operations and server-side game logic form a hidden delivery layer for live-game experience; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }
