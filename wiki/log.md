@@ -152,6 +152,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses
+
+Ingested a practitioner catalog of growth-hacking case studies. Added source, concept, and entity pages for growth hacking, viral loops, freemium acquisition, content-led acquisition, marketplace trust, and representative company examples; no substantive image evidence was present beyond a decorative comment icon.
+
 ## [2026-09-12] ingest | 402: Payment Required
 
 Ingested David Humphrey's 2015 Medium essay on ad blocking, HTTP 402, and browser-mediated payments. Added source, concept, and entity pages for browser payment brokerage, web ad economics, ad blocking, HTTP 402, David Humphrey, Mozilla, and the Sao Paulo Clean City Law; updated HTTP and overview synthesis.
@@ -531,6 +535,10 @@ Ingested Steve Ridout's Readlang retrospective. Added source and entity pages fo
 ## [2026-09-12] ingest | 4 Hard Truths about Equity
 
 Ingested While West's startup-equity essay. Added source, concept, and entity pages for employee equity risk, Slack/Tiny Speck hindsight bias, and founder-employee equity asymmetry; updated Startup Equity Transparency with liquidity, vesting, and preference-risk disclosure.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

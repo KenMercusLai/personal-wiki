@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses](sources/51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses.md) - Practitioner catalog of growth-hacking cases showing how product-integrated sharing, referrals, freemium entry, content, trust systems, stunts, partnerships, and paid search can drive user or revenue growth.
 - [4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support](sources/4wk-clean-uninstall-then-reinstall-of-wsl-on-windows-10-with-systemd-support.md) - Procedural WSL note explaining how to cleanly remove and reinstall WSL on Windows 10, choose a distribution, enable native systemd through `/etc/wsl.conf`, and verify the result.
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
@@ -74,6 +75,29 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
+- [Uber](entities/Uber.md) - Transportation marketplace used as an example of seeding early adoption through tech-community events and free rides.
+- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging and content-led acquisition case.
+- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool and educational-content acquisition example.
+- [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
+- [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth and marketplace-payment example.
+- [Shopify](entities/Shopify.md) - E-commerce SaaS platform used as a free-trial acquisition case.
+- [WP Engine](entities/WPEngine.md) - WordPress hosting company used as a generous affiliate-incentive growth case.
+- [TripAdvisor](entities/TripAdvisor.md) - Travel-review platform used as an SEO, review, badge, and partnership growth case.
+- [Spotify](entities/Spotify.md) - Music-streaming service used as a widget-sharing and freemium-acquisition example.
+- [eBay](entities/EBay.md) - Online marketplace used as an example of ratings, protection, and payments reducing stranger-commerce risk.
+- [Zappos](entities/Zappos.md) - Online shoe retailer used as an example of returns policy reducing e-commerce purchase risk.
+- [Firebox](entities/Firebox.md) - Gift and gadget retailer used as an affiliate-network growth example.
+- [Pokemon Go](entities/PokemonGo.md) - Mobile AR game used as a familiar-IP and free-download adoption example.
+- [Kickstarter](entities/Kickstarter.md) - Crowdfunding platform used as a community-embedded marketplace growth case.
+- [Booking.com](entities/BookingCom.md) - Hotel-booking platform used as a paid-search acquisition and repeat-direct-channel example.
+- [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
+- [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
+- [Twitter](entities/Twitter.md) - Social platform used as an example of verified accounts attracting and organizing influential users.
+- [Hotmail](entities/Hotmail.md) - Email service used as a classic outgoing-message viral-loop example.
+- [Gmail](entities/Gmail.md) - Google email service used as an invitation-scarcity growth example.
+- [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
+- [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
 - [CS183C](entities/CS183C.md) - Stanford technology-enabled blitzscaling course context for the scaling source's operator lessons.
 - [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor and scaling theorist used to define blitzscaling and stage-specific startup advice.
 - [Eric Schmidt](entities/EricSchmidt.md) - Google operator cited for scaling timing, recruiting, small-team product creation, and CEO path-clearing.
@@ -272,6 +296,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 
 ## Concepts
+- [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
+- [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
+- [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
+- [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
+- [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
