@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
+- [A Look at Auth0 Cloud Architecture: 5 Years In](sources/a-look-at-auth0-cloud-architecture-5-years-in.md) - Auth0 architecture retrospective showing how a high-scale identity SaaS standardized on AWS, multi-AZ and cross-region failover, infrastructure as code, testing, observability, and internal platform work.
 - [A Career Retrospective - 10 years working in tech](sources/a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium.md) - Amy Wibowo's ten-year tech retrospective connecting robotics, creative interfaces, Airbnb growth work, art-tech side projects, zines, and the cost of sexism in technical workplaces.
 - [A Comprehensive Guide to Build your own Language Model in Python!](sources/a-comprehensive-guide-to-build-your-own-language-model-in-python.md) - Analytics Vidhya tutorial walking from probabilistic language modeling and N-grams to a character-level neural model and GPT-2 text generation in Python.
 - [A Better, Easier Way to Journal](sources/a-better-easier-way-to-journal-personal-growth-medium.md) - Personal Growth essay proposing the T.L.C. journaling method: write briefly each day about what to thank, what to learn, and what to connect.
@@ -226,7 +227,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
-- [AWS](entities/AWS.md) - Cloud infrastructure provider used for the source's EC2-based self-hosted Next.js deployment examples.
+- [AWS](entities/AWS.md) - Cloud infrastructure provider used for EC2 self-hosting and Auth0's standardized large-scale SaaS architecture.
+- [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
@@ -401,6 +403,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Structured CLI Output](concepts/StructuredCLIOutput.md) - Human-readable and machine-parseable CLI output through row-oriented tables, column controls, JSON, CSV, filters, and sorting.
 - [CLI Command Grammar](concepts/CLICommandGrammar.md) - Structure of commands, subcommands, flags, positional arguments, parsing boundaries, and default invocation behavior.
 - [Developer Tooling](concepts/DeveloperTooling.md) - Software for technical users where documentation, conventions, diagnosability, speed, extensibility, and automation are part of product quality.
+- [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
+- [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
+- [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
+- [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, rollout patterns, tests, and rollback mechanisms for moving service changes into production safely.
+- [Service Observability](concepts/ServiceObservability.md) - Metrics, probes, alarms, dashboards, logs, audit trails, and escalation channels used to understand service health.
+- [Internal Developer Platform](concepts/InternalDeveloperPlatform.md) - Internal product layer that gives teams standardized compute, monitoring, logging, backups, scaling, deployment, and rollback defaults.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
 - [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.

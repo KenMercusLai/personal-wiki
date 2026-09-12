@@ -79,6 +79,7 @@
       "732e9f229d8f4cdd66af12de28af24271f4813af47ee0630e504b37aaf06d9bd",
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "cef1e02888d8c1a3855b6cbe72c98dfdc311c1e64e2e2ceb529ac5f4a2f0bb0e",
+      "df361a0e6fc21fce303fab30c4a727e414df9dbda2907c604b1ea7bb8b2987a6",
       "76837ba75355d7eecc06f1840a82185351d18b69b14f74b99f7f8dc454ff5785",
       "7945feaa8bda011bebcbd3390acfa8d971dea35e0c93c43d92be09f41d7c9f85",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
@@ -86,10 +87,10 @@
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 84
+    "paragraph_count": 85
   },
-  "overview_commit": "7e8072634345228f06ab5b8e1e7db3d75a4951dc",
-  "overview_digest": "00d8f17e25b71cffae111eca2cbb310c8bf2e76bfe71214e0b19d13204508bfe",
+  "overview_commit": "df7020f3183a64cf154bdb12a309389ecfa5669f",
+  "overview_digest": "19dbe6b14bdfce8d538e9eed9eb3a93249849363915b30d101c9ddd39c134b71",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1630,6 +1631,27 @@
         "ChaosEngineering",
         "SoftwareVerification",
         "StagingEnvironment"
+      ]
+    },
+    {
+      "id": "df361a0e6fc21fce303fab30c4a727e414df9dbda2907c604b1ea7bb8b2987a6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Auth0 architecture source adds a large-scale SaaS identity case to that same reliability cluster. [[Auth0]] turns [[AuthenticationInfrastructure]] into critical shared infrastructure: login, SSO, custom domains, MFA, custom database connections, and customer login rules all depend on layered routing, application services, data stores, queues, tests, probes, monitoring, logs, and playbooks. [[CloudHighAvailability]] appears through [[AWS]] regions, three availability zones per region, Route53 failover, cross-region MongoDB, RDS replication, and Elasticsearch snapshot/restore; [[InfrastructureAsCode]] appears through Terraform and SaltStack environment provisioning; [[DeploymentAutomation]] appears through Jenkins, immutable AMIs, auto-scaling groups, and planned blue/green rollout; [[ServiceObservability]] appears through CloudWatch, DataDog, Pingdom, Kibana, SumoLogic, PagerDuty, and Slack; and [[InternalDeveloperPlatform]] becomes the organizational answer to scaling operational defaults across many engineering teams.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AWS",
+        "Auth0",
+        "AuthenticationInfrastructure",
+        "CloudHighAvailability",
+        "DeploymentAutomation",
+        "InfrastructureAsCode",
+        "InternalDeveloperPlatform",
+        "ServiceObservability"
       ]
     },
     {
