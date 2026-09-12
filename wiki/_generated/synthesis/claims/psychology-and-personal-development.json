@@ -72,6 +72,23 @@
     },
     {
       "global_candidate": true,
+      "id": "crowd-judgment-needs-knowledge-calibration",
+      "qualifications": [
+        "The source still treats strong consensus as the best available proxy for truth; metaknowledge matters most when crowds are divided, biased by common information, or reporting sensitive beliefs."
+      ],
+      "statement": "Collective judgment improves when people reveal not only what they believe but how well they understand others' beliefs, because [[Metaknowledge]] can expose [[SharedInformationBias]], [[FalseConsensusEffect]], and weak expertise inside [[WisdomOfCrowds]].",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "Metaknowledge",
+        "SharedInformationBias",
+        "FalseConsensusEffect",
+        "WisdomOfCrowds",
+        "GeorgeMusser",
+        "DrazenPrelec"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "personalized-infrastructure-requires-trust",
       "qualifications": [
         "The mapping paragraph is assigned to this topic by the deterministic planner, but its stronger home is also technology, governance, and platform strategy."
@@ -120,6 +137,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.",
   "topic_id": "psychology-and-personal-development"
 }

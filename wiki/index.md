@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A mathematical BS detector can boost the wisdom of crowds](sources/a-mathematical-bs-detector-can-boost-the-wisdom-of-crowds-aeon-essays.md) - George Musser explains how Drazen Prelec's metaknowledge methods can repair crowd wisdom by detecting shared-information bias, hidden beliefs, and shallow confidence.
 - [A focused family business - Los Angeles Times](sources/a-focused-family-business-los-angeles-times.md) - LA Times profile of SmugMug as a profitable, self-funded, family-run paid photo-sharing service built around privacy, customer intimacy, and MacAskill family control.
 - [A billion dollar gift for Twitter](sources/a-billion-dollar-gift-for-twitter-startup-grind-medium.md) - Anil Dash's open product-strategy critique arguing that Twitter needed visible shipping, abuse response, better cultural metrics, segmented user tools, and renewed developer-platform trust.
 - [A brief history of the numeric keypad](sources/a-brief-history-of-the-numeric-keypad.md) - Francesco Bertelli's interface-history essay explaining why phone and calculator keypads use inverted layouts through calculator, cash-register, adding-machine, and AT&T telephone research lineages.
@@ -108,6 +109,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
+- [Drazen Prelec](entities/DrazenPrelec.md) - Behavioral economist whose survey methods use predictions about others to improve crowd judgment.
+- [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
 - [SmugMug](entities/SmugMug.md) - Family-run paid photo-sharing service profiled as self-funded, profitable, customer-intimate, and resistant to outside control.
 - [MacAskill Family](entities/MacAskillFamily.md) - Family group behind SmugMug's 2007 operating model across leadership, finance, support, testing, analytics, and customer service.
 - [Don MacAskill](entities/DonMacAskill.md) - SmugMug chief executive and "chief geek" who framed the company around a deliberate family atmosphere.
@@ -420,6 +424,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Wisdom of Crowds](concepts/WisdomOfCrowds.md) - Crowd-judgment principle qualified by independence, diversity, shared-information, confidence, and consensus conditions.
+- [Metaknowledge](concepts/Metaknowledge.md) - Knowledge about one's own and others' knowledge, used as a survey and forecasting signal.
+- [Shared Information Bias](concepts/SharedInformationBias.md) - Group-judgment distortion where common information is overcounted and minority evidence is underweighted.
+- [False Consensus Effect](concepts/FalseConsensusEffect.md) - Bias where people project their own beliefs onto others, making indirect survey predictions informative.
 - [Family Business](concepts/FamilyBusiness.md) - Company operating pattern where relatives shape ownership, labor, trust, conflict, culture, and public identity.
 - [Stack Overflow Traffic Analysis](concepts/StackOverflowTrafficAnalysis.md) - Using Stack Overflow question visits by tag and country as a bounded signal of developer attention.
 - [Developer Economy Segmentation](concepts/DeveloperEconomySegmentation.md) - Splitting developer ecosystem analysis into meaningful country or market groups so global averages do not hide distinct technology patterns.

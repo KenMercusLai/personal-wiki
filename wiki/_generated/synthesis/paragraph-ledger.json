@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
       "f92b4444e1d63494cf7cc4dd6b0e7c8dda39365c4b3b0b180b8d5d38a1d41705",
@@ -102,11 +103,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 100
+    "paragraph_count": 101
   },
-  "overview_commit": "fa417409b07f75550b1d7274d734c23e5c693ea2",
-  "overview_digest": "3f2f19d5f3bd40f82462faea514df72c45791570522a4401989dcf5ea7dc5755",
+  "overview_commit": "383a36b6bb61611b67db47e3045b329dceb9fe8d",
+  "overview_digest": "c9ff53cd2407f4c354b29a0798e149864358abc447993b957a05843317e072e2",
   "paragraphs": [
+    {
+      "id": "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "[[GeorgeMusser]]'s Aeon essay adds a collective-decision layer to the wiki's statistical and behavioral material. [[WisdomOfCrowds]] is framed as fragile when respondents independently reuse the same common information, because that shared evidence gets counted many times while minority information is diluted. [[DrazenPrelec]]'s [[Metaknowledge]] method asks people for both their own answer and their prediction of others' answers, using that second signal to identify expertise, hidden beliefs, and survey responses distorted by [[FalseConsensusEffect]] or [[SharedInformationBias]]. The qualification is important: the method improves weak or divided crowds, but the source still treats strong consensus as the best available proxy for truth.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DrazenPrelec",
+        "FalseConsensusEffect",
+        "GeorgeMusser",
+        "Metaknowledge",
+        "SharedInformationBias",
+        "WisdomOfCrowds"
+      ]
+    },
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "primary_topic": "work-education-and-society",

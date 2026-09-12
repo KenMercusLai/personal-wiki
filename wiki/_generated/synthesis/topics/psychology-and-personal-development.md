@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-13
-as_of_overview_commit: 5d8c3d76d67d2d588243260637d4d508d513749b
-input_digest: d5ce35a40d31b33457307caa86979509f0bd6bd7bf1ca15e320c2e670a2ac3d6
+as_of_overview_commit: 383a36b6bb61611b67db47e3045b329dceb9fe8d
+input_digest: 21f9826221346334932fe188ead90a30416cbd6ecac866e24bf6684255542ffe
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, and stochastic-gradient-descent metaphors help people steer attention and motivation, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, and trust are made explicit.
+The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.
 
 ## Cross-source Findings
 
@@ -55,6 +55,16 @@ Goals, abstraction, and optimization metaphors help learners focus attention wit
 **Qualifications:**
 
 - The sources warn that goals can become externally competitive or misdirected, so discomfort and discipline matter only when they support meaningful direction.
+
+### Crowd Judgment Needs Knowledge Calibration
+
+Collective judgment improves when people reveal not only what they believe but how well they understand others' beliefs, because [[Metaknowledge]] can expose [[SharedInformationBias]], [[FalseConsensusEffect]], and weak expertise inside [[WisdomOfCrowds]].
+
+**Evidence:** [[Metaknowledge]], [[SharedInformationBias]], [[FalseConsensusEffect]], [[WisdomOfCrowds]], [[GeorgeMusser]], [[DrazenPrelec]]
+
+**Qualifications:**
+
+- The source still treats strong consensus as the best available proxy for truth; metaknowledge matters most when crowds are divided, biased by common information, or reporting sensitive beliefs.
 
 ### Personalized Infrastructure Requires Trust
 
