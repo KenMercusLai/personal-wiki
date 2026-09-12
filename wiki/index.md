@@ -31,6 +31,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [零基础｜搭建基于私域数据的ChatGPT](sources/ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt.md) - A beginner tutorial and architecture explainer for private-data ChatGPT apps using Replit, OpenAI APIs, LangChain, embeddings, and vector retrieval.
 - [陈皓 - HTTP的前世今生](sources/chen-hao-http-de-qian-shi-jin-sheng.md) - A history of HTTP from early request-response versions through HTTP/1.1, HTTP/2, HTTP/3, and QUIC.
 - [锐评主流AI推理负载均衡开源实现](sources/rui-ping-zhu-liu-ai-tui-li-fu-zai-jun-heng-kai-yuan-shi-xian.md) - A technical critique of open-source inference load-balancing implementations, focusing on tokenization, metric collection, routing, and KV-cache-aware design.
+- [就是要你懂负载均衡--lvs和转发模式](sources/jiu-shi-yao-ni-dong-fu-zai-jun-heng-lvs-he-zhuan-fa-mo-shi.md) - A packet-flow explanation of LVS forwarding modes, comparing DR, NAT, full NAT, ENAT, IP TUN, and Alibaba Cloud SLB/NGLB tradeoffs.
 - [褪墨 - 提高工作效率的十条好习惯](sources/tuimo-10-timeless-work-habits-to-boost-productivity.md) - Ten lightweight habits for improving productivity through priority-setting, focus, batching, delegation, and simple routines.
 - [褪墨 - 使用 G+P+V 思考你的职业生涯](sources/tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya.md) - A career-reflection article using gifts, passion, and values to treat career as a path rather than a single job.
 - [费曼学习法实践 / INDIGO 的信息获取与知识输出方法论](sources/feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology.md) - A Feynman-style learning workflow connecting focused reading, structured output, personal knowledge bases, and AI-assisted note organization.
@@ -45,6 +46,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
 - [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence with work, family, creation, and human nature, and summarizing big-data industry transformation criteria.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
+- [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
 - [AWS](entities/AWS.md) - Cloud infrastructure provider used for the source's EC2-based self-hosted Next.js deployment examples.
@@ -79,6 +81,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
 - [LangChain](entities/LangChain.md) - LLM application framework for connecting models with external data, prompts, memory, chains, vector stores, and tools.
 - [Letta](entities/Letta.md) - Open-source framework described as the later continuation of the MemGPT memory-management line.
+- [Linux Virtual Server](entities/LinuxVirtualServer.md) - LVS packet-forwarding foundation for DR, NAT, full NAT, ENAT, and IP tunneling load-balancing modes.
 - [Lex Fridman](entities/LexFridman.md) - Interviewer whose Durov podcast prompts the source essay's reflections on team focus and discipline.
 - [MancoDB](entities/MancoDB.md) - Named retrieval workflow for finding semantically similar Chinese homophone-pun translation candidates.
 - [Martin Heidegger](entities/MartinHeidegger.md) - Philosopher whose hammer example introduces tool transparency, breakdown, and object withdrawal in the source.
@@ -179,6 +182,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
+- [LVS Forwarding Modes](concepts/LVSForwardingModes.md) - Packet-forwarding strategies such as DR, NAT, full NAT, ENAT, and IP TUN in LVS-like systems.
 - [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
 - [LLM Data Analysis](concepts/LLMDataAnalysis.md) - Using LLMs to support data workflows while controlling risks around statistical inference, method choice, and polished invalid outputs.
 - [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.
@@ -187,6 +191,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
 - [Metaphor Aesthetics](concepts/MetaphorAesthetics.md) - Account of metaphor as an aesthetic event completed through the reader's theatrical participation.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
+- [Network Load Balancing](concepts/NetworkLoadBalancing.md) - Packet-level distribution of client traffic across backend servers while preserving routing, connection identity, performance, and availability.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Note Granularity](concepts/NoteGranularity.md) - Choosing whether ideas live as small notes, large structured notes, or hybrid heading/block-level units.
 - [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods and software features that support creation, navigation, maintenance, and reuse.

@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-12
-as_of_overview_commit: a8a69f286e310ee0a1d8e140a0c61af7485cc55f
-input_digest: d654953538ec67bb3bdb4765344449143e6455b1125fcc5d31d34707b7ae65e6
+as_of_overview_commit: 371c295276f262fa59466975fdce566f6344b452
+input_digest: b920b3e1a9fd7168b41578cc14cb129a5bae7af95a79e9d5e5a200dad369ae70
 ---
 
 # Work, Education, and Society
@@ -117,6 +117,17 @@ Work, education, and society sources frame improvement as designed loops: practi
 **Qualifications:**
 
 - The HTTP adoption and support details are source-scoped to a 2019 publication context.
+
+### Packet Flow Reasoning Teaches Infrastructure Tradeoffs
+
+[[Plantegg]]'s LVS explanation extends workplace-style technical learning into infrastructure: [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], and [[AlibabaCloud]] are understood by tracing packet flow, topology constraints, return paths, and operational modules rather than memorizing mode labels.
+
+**Evidence:** [[Plantegg]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], [[AlibabaCloud]]
+
+**Qualifications:**
+
+- This is a secondary topic assignment; the source primarily belongs to networking and infrastructure.
+- The Alibaba Cloud implementation details are source-date and provider-specific.
 
 ### Career Fit Requires Path Design
 

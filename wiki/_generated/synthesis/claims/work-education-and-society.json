@@ -164,6 +164,23 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "packet-flow-reasoning-teaches-infrastructure-tradeoffs",
+      "qualifications": [
+        "This is a secondary topic assignment; the source primarily belongs to networking and infrastructure.",
+        "The Alibaba Cloud implementation details are source-date and provider-specific."
+      ],
+      "statement": "[[Plantegg]]'s LVS explanation extends workplace-style technical learning into infrastructure: [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], and [[AlibabaCloud]] are understood by tracing packet flow, topology constraints, return paths, and operational modules rather than memorizing mode labels.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Plantegg",
+        "NetworkLoadBalancing",
+        "LVSForwardingModes",
+        "LinuxVirtualServer",
+        "AlibabaCloud"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "career-fit-requires-path-design",
       "qualifications": [

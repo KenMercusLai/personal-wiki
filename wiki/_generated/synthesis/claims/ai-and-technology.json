@@ -77,6 +77,23 @@
     },
     {
       "global_candidate": true,
+      "id": "packet-load-balancing-depends-on-forwarding-contracts",
+      "qualifications": [
+        "The evidence is a packet-flow explanation and Alibaba Cloud case study rather than a neutral cross-provider benchmark.",
+        "The source's SLB, NGLB, TOA/VTOA/CTK, DPDK, and offload details should be treated as provider-specific and source-date bounded."
+      ],
+      "statement": "[[NetworkLoadBalancing]] at the packet layer depends on forwarding contracts: [[LVSForwardingModes]] such as DR, NAT, full NAT, ENAT, and IP TUN trade direct server return, VLAN and gateway constraints, client-IP visibility, host modules, and cloud-scale packet-processing work in [[LinuxVirtualServer]] and [[AlibabaCloud]] systems.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "NetworkLoadBalancing",
+        "LVSForwardingModes",
+        "LinuxVirtualServer",
+        "AlibabaCloud",
+        "Plantegg"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "private-data-chatbots-use-retrieval-context",
       "qualifications": [
         "The source is a beginner tutorial and does not cover production concerns such as retrieval evaluation, privacy controls, prompt injection, or source attribution."

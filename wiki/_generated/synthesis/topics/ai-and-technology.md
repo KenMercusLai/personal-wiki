@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 49fb0ed061f4a21ddd6ea1f06fd1f218005b3399
-input_digest: 227652191416754d98300c72ec04916f877d2eec532ba9d901aad00f84f72371
+as_of_overview_commit: 371c295276f262fa59466975fdce566f6344b452
+input_digest: 14852fd516e650f3c58130c40759a4c51c41e4bab81135938746e1a9752bd070
 ---
 
 # AI and Technology
@@ -66,6 +66,17 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 **Qualifications:**
 
 - The corpus compares selected open-source implementations and does not yet cover proprietary serving stacks or measured deployment data.
+
+### Packet Load Balancing Depends On Forwarding Contracts
+
+[[NetworkLoadBalancing]] at the packet layer depends on forwarding contracts: [[LVSForwardingModes]] such as DR, NAT, full NAT, ENAT, and IP TUN trade direct server return, VLAN and gateway constraints, client-IP visibility, host modules, and cloud-scale packet-processing work in [[LinuxVirtualServer]] and [[AlibabaCloud]] systems.
+
+**Evidence:** [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], [[AlibabaCloud]], [[Plantegg]]
+
+**Qualifications:**
+
+- The evidence is a packet-flow explanation and Alibaba Cloud case study rather than a neutral cross-provider benchmark.
+- The source's SLB, NGLB, TOA/VTOA/CTK, DPDK, and offload details should be treated as provider-specific and source-date bounded.
 
 ### Private Data Chatbots Use Retrieval Context
 

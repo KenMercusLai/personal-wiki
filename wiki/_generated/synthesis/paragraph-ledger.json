@@ -16,6 +16,7 @@
       "204c60b87e66678a59450ce15322f9d438c67df7e8263fd18d173b23548dd365",
       "ca6638cbfe53d0ebe9c17339a17cb9cbd64955767bf207ba818230e254dbaeb4",
       "b6248e80bc01b28a2123c6d682af22b8a84caa0b94bf925a6c5ea646ccec287b",
+      "77e0f9c585e6f6d60a7b15dc52991730239c65d90a3f72f5e4dfd0371163eac3",
       "2d44cddf9578e07cb940fa9c85024feb523704733754e4378048fd075c4a9c12",
       "7b2fac9d684e10ce0af124c3de6eafb7639609fce320cffe0d536becd1120709",
       "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
@@ -34,10 +35,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 32
+    "paragraph_count": 33
   },
-  "overview_commit": "a8a69f286e310ee0a1d8e140a0c61af7485cc55f",
-  "overview_digest": "eb900c8f0440c5a1ec4832c5b0095387a3673a5078f2678cb2f78b54044fa0f0",
+  "overview_commit": "371c295276f262fa59466975fdce566f6344b452",
+  "overview_digest": "5c06fe44a0de3a89b673efb1c343f0b7cfb78734e18407d327b465324c8020d3",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -302,6 +303,25 @@
         "InferenceTokenization",
         "KVCacheAwareRouting",
         "Kthena"
+      ]
+    },
+    {
+      "id": "77e0f9c585e6f6d60a7b15dc52991730239c65d90a3f72f5e4dfd0371163eac3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest LVS source adds a lower-level networking counterpart to that AI-inference thread. [[Plantegg]] explains [[NetworkLoadBalancing]] through packet flow: whether a mode rewrites a MAC address, destination IP, source IP, or encapsulating header determines topology limits, client-IP visibility, and whether response traffic returns through the load balancer. [[LVSForwardingModes]] compare DR, NAT, full NAT, ENAT, and IP TUN as tradeoffs among direct server return, same-VLAN constraints, gateway placement, cross-VLAN reachability, and host-side module requirements. [[LinuxVirtualServer]] is therefore less a single \"load balancer\" abstraction than a family of packet-forwarding contracts, while [[AlibabaCloud]] SLB/NGLB shows how a cloud provider productizes those contracts with TOA/VTOA/CTK modules, dynamic routing, ECMP, session synchronization, DPDK, rate-limit sharding, and flow offload.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlibabaCloud",
+        "LVSForwardingModes",
+        "LinuxVirtualServer",
+        "NetworkLoadBalancing",
+        "Plantegg"
       ]
     },
     {
