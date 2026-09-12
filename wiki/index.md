@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [8 Lessons From One of Silicon Valley's Top VCs | Drift](sources/8-lessons-from-one-of-silicon-valleys-top-vcs-drift.md) - Drift interview summary with Sequoia's Pat Grady arguing for durable problem-solving, category-defining ambition, narrow entry into big markets, capital discipline, and culture/systems after the 150-person scaling threshold.
+- [8 PR Strategies for Bootstrapped Startups](sources/8-pr-strategies-for-bootstrapped-startups-the-startup-medium.md) - Josiah Humphrey's startup PR article arguing that bootstrapped founders can win useful publicity through specific goals, concise pitches, targeted journalist outreach, guest posts, and reverse pitching.
 - [7 Ways to Uplevel Your Code Review Skills](sources/7-best-practices-for-doing-code-reviews.md) - Asana engineering article arguing that code reviews work best as team learning, execution-backed verification, prompt feedback, and non-blocking approval unless a bug is proven.
 - [7 Ways to Use the Rule of Threes to Build Great Products](sources/7-ways-to-use-the-rule-of-threes-to-build-great-products.md) - Women in Product article using triads to frame product-team balance, layered metrics, storytelling, proxy timeframes, user-research thresholds, iteration cadence, and retrospectives.
 - [7 Reasons Why Your Staging Environment Sucks - Loadmill](sources/7-reasons-why-your-staging-environment-sucks-loadmill.md) - Loadmill article arguing that staging only catches production bugs when it resembles production across architecture, runtime, monitoring, data, traffic, internet exposure, and failure conditions.
@@ -309,6 +310,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 - [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for the code-review practice source.
+- [Josiah Humphrey](entities/JosiahHumphrey.md) - Startup operator voice behind the Appster PR advice for bootstrapped founders.
+- [Appster](entities/Appster.md) - Startup/company context used for practical PR, guest-publishing, and media-outreach examples.
 
 ## Concepts
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
@@ -321,6 +324,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
+- [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
