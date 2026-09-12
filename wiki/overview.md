@@ -13,11 +13,12 @@ sources:
   - wei-jie-ru-he-yong-bao-li-ji-suan-fan-yi-xie-yin-geng-nv-xing-jiao-liu-fan-yi-bi-ji
   - tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya
   - wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai
+  - yi-ge-du-li-chuang-zao-zhe-de-wu-nian
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, AI inference infrastructure, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, and computationally assisted game localization.
 
 ## Current Synthesis
 
@@ -47,6 +48,8 @@ The newest 褪墨 career source extends the personal-development thread from dai
 
 The newest deployment source adds a practical cloud-cost thread. [[Idoubi]] frames [[Vercel]] as a highly convenient [[NextJS]] deployment platform whose GitHub integration, previews, generated domains, logs, analytics, and framework support can speed launch, but whose metered functions, image optimization, analytics, storage, and team features can become expensive. [[CloudCostOptimization]] therefore appears as a choice among direct spend, operations work, and migration effort: [[AWS]] EC2 with PM2 or Docker lowers platform abstraction while adding server, Nginx, DNS, and TLS work, whereas [[Cloudflare]] Pages keeps a managed path but requires [[EdgeRuntime]] compatibility. [[NextJSDeployment]] in this source is less about a single best host than about matching cost pressure, runtime constraints, database clients such as [[Neon]] or [[Supabase]], and adjacent services like Cloudflare DNS, security, D1, Workers, and R2.
 
+The newest independent-creator source adds an entrepreneurship thread to the career and productivity material. [[Hawstein]]'s path from [[AlgoCasts]] to overseas [[BootstrappedSaaS]] shows [[IndependentCreator]] work as staged experimentation: start with the best available entry point, learn from communities, then shift toward a model with recurring revenue, global customers, and better fit. [[MicroCompany]] captures the operating philosophy behind staying solo: modular services such as [[Stripe]] can provide payment and business infrastructure, while avoiding hiring preserves autonomy and reduces coordination overhead. The source also broadens the wiki's view of product work through [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]]: technical building matters, but so do social proof, outreach, content, ads, affiliate programs, support quality, fast customer-specific solutions, and the creator's own taste.
+
 ## Open Questions
 
 - How do these productivity habits vary across roles that require rapid responsiveness or collaborative interruption?
@@ -67,3 +70,6 @@ The newest deployment source adds a practical cloud-cost thread. [[Idoubi]] fram
 - When should a hobby remain protected from work rather than being turned into an adjacent career path?
 - How should small web products compare Vercel convenience against Cloudflare migration work, self-hosting labor, reliability needs, and support expectations?
 - Which Next.js features and dependencies are most likely to break when moved from Node.js hosting to edge runtime?
+- Which parts of Hawstein's independent SaaS path depend on unusually favorable prerequisites such as engineering skill, savings, payment access, or market timing?
+- When should a solo creator preserve autonomy, and when does support load or reliability risk make hiring the wiser tradeoff?
+- How can micro-company SaaS builders measure whether customer-led feature work is pragmatic focus or overfitting to a single customer?

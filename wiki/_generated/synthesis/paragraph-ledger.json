@@ -13,12 +13,13 @@
       "5c46a31b0816d58aa2e2b0ca94002a8ab8cfcd207b3aa235220e82846063064f",
       "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
       "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
-      "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c"
+      "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
+      "d496a39101147653ffc1bbcf77a9196657cdc9bcc86e8f5e9522be36053d625b"
     ],
-    "paragraph_count": 13
+    "paragraph_count": 14
   },
-  "overview_commit": "97898af1ef9acf456752b4c1128fabd176ac5ed2",
-  "overview_digest": "7f1caf1f6c7890b8a95fc24ccb3f8fdd07fdbf66c68da88c5a9c418712f5360f",
+  "overview_commit": "19553138d89fe20fa03d847d32f3824156f59de9",
+  "overview_digest": "11258b952da302b6bd3e2adbc505b876950b98cc73b1260e0a0d4b7306a7386d",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -242,6 +243,31 @@
         "NextJSDeployment",
         "Supabase",
         "Vercel"
+      ]
+    },
+    {
+      "id": "d496a39101147653ffc1bbcf77a9196657cdc9bcc86e8f5e9522be36053d625b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest independent-creator source adds an entrepreneurship thread to the career and productivity material. [[Hawstein]]'s path from [[AlgoCasts]] to overseas [[BootstrappedSaaS]] shows [[IndependentCreator]] work as staged experimentation: start with the best available entry point, learn from communities, then shift toward a model with recurring revenue, global customers, and better fit. [[MicroCompany]] captures the operating philosophy behind staying solo: modular services such as [[Stripe]] can provide payment and business infrastructure, while avoiding hiring preserves autonomy and reduces coordination overhead. The source also broadens the wiki's view of product work through [[SaaSMarketing]], [[CustomerLedProductDevelopment]], and [[BusinessAsArt]]: technical building matters, but so do social proof, outreach, content, ads, affiliate programs, support quality, fast customer-specific solutions, and the creator's own taste.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "AlgoCasts",
+        "BootstrappedSaaS",
+        "BusinessAsArt",
+        "CustomerLedProductDevelopment",
+        "Hawstein",
+        "IndependentCreator",
+        "MicroCompany",
+        "SaaSMarketing",
+        "Stripe"
       ]
     }
   ],

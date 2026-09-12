@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [一个独立创造者的五年](sources/yi-ge-du-li-chuang-zao-zhe-de-wu-nian.md) - A five-year Indie Hacker retrospective on moving from a domestic content product to overseas subscription SaaS, using modular infrastructure, solo-company discipline, customer-led product work, and practical marketing.
 - [我把网站迁移到 cf，省了几万块](sources/wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai.md) - A practical migration report showing how a Next.js project moved from Vercel to AWS and Cloudflare to reduce hosting cost, with notes on PM2, Docker, Cloudflare Pages, and edge-runtime compatibility.
 - [魏杰 - 如何用暴力计算翻译谐音梗——《女性交流》翻译笔记](sources/wei-jie-ru-he-yong-bao-li-ji-suan-fan-yi-xie-yin-geng-nv-xing-jiao-liu-fan-yi-bi-ji.md) - A game-localization case study showing how semantic search, homophone filtering, and human revision can translate pun-heavy dialogue while preserving player experience.
 - [轨迹抽稀之道格拉斯-普克算法 | 码田匠心](sources/gui-ji-chou-xi-zhi-dao-ge-la-si-pu-ke-suan-fa-ma-tian-jiang-xin.md) - A practical explanation of Ramer-Douglas-Peucker trajectory simplification for vehicle map rendering, showing how epsilon trades route fidelity for point-count reduction.
@@ -19,16 +20,19 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
+- [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [AWS](entities/AWS.md) - Cloud infrastructure provider used for the source's EC2-based self-hosted Next.js deployment examples.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
+- [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer cited for product-idea filtering, business creativity, and open email connection.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform actor associated in the source with SPDY, QUIC, Chrome, and HTTP/2/HTTP/3 evolution.
+- [Hawstein](entities/Hawstein.md) - Independent creator who moved from AlgoCasts to overseas bootstrapped SaaS.
 - [idoubi](entities/Idoubi.md) - Independent developer-author describing a cost-driven migration from Vercel to AWS and Cloudflare.
 - [INDIGO](entities/INDIGO.md) - Practitioner-author describing a personal learning, research, writing, and note-system workflow.
 - [Kthena](entities/Kthena.md) - Single-binary inference router noted for weighted routing composition and critiqued for tokenizer encoding choice.
@@ -45,6 +49,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
+- [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
 - [Vercel](entities/Vercel.md) - Hosted deployment platform valued for Next.js convenience but criticized in the source for high metered costs.
@@ -56,10 +61,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
+- [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
+- [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
+- [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
@@ -73,6 +81,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
 - [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, and server push to improve performance.
 - [HTTP/3](concepts/HTTP3.md) - HTTP version that runs over QUIC and UDP to reduce TCP-level blocking and connection setup costs.
+- [Independent Creator](concepts/IndependentCreator.md) - Self-directed product-business role combining creation, engineering, marketing, operations, and customer support.
 - [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - Routing and quota layer that distributes AI inference requests using tokenized workload, live metrics, and cache state.
 - [Inference Tokenization](concepts/InferenceTokenization.md) - Model-aligned token accounting used by inference gateways for load estimates, quotas, and cache-aware routing.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - Routing strategy that considers reusable key-value cache blocks to reduce inference prefill work.
@@ -80,6 +89,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
+- [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
 - [Natural Language Interface](concepts/NaturalLanguageInterface.md) - Software interaction pattern where users retrieve information or operate data through ordinary language.
 - [Next.js Deployment](concepts/NextJSDeployment.md) - Building and operating Next.js apps across Vercel, self-hosted servers, Docker, and Cloudflare Pages.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
@@ -90,6 +100,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ramer-Douglas-Peucker Algorithm](concepts/RamerDouglasPeuckerAlgorithm.md) - Recursive curve-simplification algorithm that retains points according to maximum deviation from segment chords.
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - LLM pattern that retrieves external information and supplies it as answer context.
 - [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
+- [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Time Management Quadrants](concepts/TimeManagementQuadrants.md) - Sorting tasks by urgency and importance to protect important work.
 - [Trajectory Simplification](concepts/TrajectorySimplification.md) - Reducing GPS or polyline point counts while preserving enough path shape for display or transfer.
