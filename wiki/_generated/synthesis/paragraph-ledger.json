@@ -88,13 +88,14 @@
       "7945feaa8bda011bebcbd3390acfa8d971dea35e0c93c43d92be09f41d7c9f85",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
       "098b082e442368c4ff563026d380d92d2d03995bb9617d70a88d33a9ab1c0110",
+      "6aa06587d454a80d2100dc4c51d0ff2c5c15c2a94764a86bb1709627b057ed63",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
     ],
-    "paragraph_count": 89
+    "paragraph_count": 90
   },
-  "overview_commit": "dbf0a1e37a633f17c1262b88a154320dbb55334b",
-  "overview_digest": "aa067c04097bdec2b0da5e3e4df759eb8d3a84594769b6a7b7327416e4205fa6",
+  "overview_commit": "551d9a3c7ffbb5bcd782c8cdf7f4effe33a6046a",
+  "overview_digest": "62876754128664c778361b724273e50b087f3fe41b9df6f979757657f0f222f1",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -1811,6 +1812,23 @@
         "SmallProductTeamBalance",
         "StartupHypothesisTesting",
         "UserResearchPatternThreshold"
+      ]
+    },
+    {
+      "id": "6aa06587d454a80d2100dc4c51d0ff2c5c15c2a94764a86bb1709627b057ed63",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The NPS source adds a customer-loyalty measurement layer to the product-operating material. [[SachinRekhi]] treats [[NetPromoterScore]] as a slow but useful KPI at [[LinkedIn]] when teams pair the 0-10 recommendation question with open-ended explanations, representative sampling, consistent methodology, verbatim comment categorization, and behavior-to-score correlation. This strengthens [[ProductMetricLadder]] by showing why a business-level loyalty metric can feed quarterly planning but still needs faster acquisition, engagement, monetization, and experimentation dashboards for day-to-day operation. It also sharpens [[CustomerLedProductDevelopment]]: NPS scores alone are thin, while promoter and detractor comments can reveal product benefits, pain points, and activation behaviors if teams account for engagement bias, tenure, margin of error, and seasonality.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CustomerLedProductDevelopment",
+        "LinkedIn",
+        "NetPromoterScore",
+        "ProductMetricLadder",
+        "SachinRekhi"
       ]
     },
     {

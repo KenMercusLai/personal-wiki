@@ -592,6 +592,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A Practitioner's Guide to Net Promoter Score at andrewchen
+
+Added source note plus pages for Net Promoter Score, Sachin Rekhi, and SurveyMonkey. Updated Product Metric Ladder, Customer-Led Product Development, LinkedIn, and the index to capture NPS as a slow customer-loyalty KPI that becomes useful through open-ended comments, representative sampling, consistent methodology, behavior correlation, and product-planning integration. Inspected both embedded image references: one valid JPEG showed the promoter/passive/detractor formula, while the other `.jpg` resolved to unrelated Snapinsta HTML and was not used as evidence.
+
 ## [2026-09-13] ingest | 使用 FFmpeg 远程读取 rtsp 监控视频流
 
 Ingested `/mnt/ken_personal_wiki/Articles/使用 FFmpeg 远程读取 rtsp 监控视频流.md`, including local image evidence for camera hardware, VMS configuration, ports, RTSP setup, and remote FFmpeg recording.
@@ -671,6 +675,10 @@ Added source note plus pages for Juicero, Jeff Dunn, Doug Evans, and Connected P
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

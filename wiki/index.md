@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
+- [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
 - [A Look at Vim, a Text Editor for the Ages - The New Stack](sources/a-look-at-vim-a-text-editor-for-the-ages-the-new-stack.md) - The New Stack history tracing Vim from Unix `ed`, `em`, `ex`, and `vi` through Bram Moolenaar's open-source Vim, emphasizing constraint-shaped interface choices, incremental evolution, and cultural persistence.
@@ -167,7 +168,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, culture reinforcement, all-hands communication, coaching, and product-led CEOs.
 - [John Lilly](entities/JohnLilly.md) - CS183C instructor cited for scaling stages, support-team formation, competition timing, and repeated CEO messages.
 - [Airbnb](entities/Airbnb.md) - Startup scaling case for unscalable customer work, competition-driven international growth, and founder-led culture.
-- [LinkedIn](entities/LinkedIn.md) - Company context for Jeff Weiner's recruiting, culture, all-hands, and product-leadership scaling lessons.
+- [LinkedIn](entities/LinkedIn.md) - Company context for scaling lessons, public connection-count virality, and Sachin Rekhi's NPS product-planning practice.
+- [Sachin Rekhi](entities/SachinRekhi.md) - Product leader and author whose LinkedIn NPS work shows how customer-loyalty measurement can feed product planning.
+- [SurveyMonkey](entities/SurveyMonkey.md) - Survey-tool example cited for cross-channel NPS collection and analysis.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
 - [Netflix](entities/Netflix.md) - Culture and talent-density example built around Reed Hastings' culture deck and context-not-control model.
 - [David Humphrey](entities/DavidHumphrey.md) - Web commentator proposing browser-mediated payments around HTTP 402 as an alternative to implicit ad-funded exchange.
@@ -442,6 +445,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
+- [Net Promoter Score](concepts/NetPromoterScore.md) - Customer-loyalty metric and survey program that subtracts detractor share from promoter share and turns open-ended comments into product input.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
 - [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
 - [Iterative Product Shipping](concepts/IterativeProductShipping.md) - Releasing product work in frequent staged versions so each release creates evidence, reduces bugs, and guides investment.

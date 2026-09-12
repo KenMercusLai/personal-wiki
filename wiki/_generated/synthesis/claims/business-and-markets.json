@@ -214,10 +214,11 @@
       "id": "product-operating-heuristics-connect-metrics-research-and-shipping",
       "qualifications": [
         "The claim is grounded in one Women in Product practitioner article, so the rule of threes should be treated as a memory and coordination heuristic rather than empirical proof of optimal counts.",
-        "The research threshold depends on target-user screening, and proxy metrics need validation against longer-term business outcomes.",
+        "The NPS evidence is practitioner guidance from [[SachinRekhi]]'s [[LinkedIn]] context, not a universal proof that Net Promoter Score predicts growth in every product category.",
+        "The research threshold depends on target-user screening, proxy metrics need validation against longer-term business outcomes, and [[NetPromoterScore]] interpretation depends on sampling, engagement bias, tenure, margin of error, seasonality, and methodology consistency.",
         "The recommended shipping cadence may need different release gates in regulated, safety-critical, infrastructure-heavy, or enterprise-integrated products."
       ],
-      "statement": "[[RuleOfThreesProductDevelopment]] adds a lightweight product-operating frame: [[SmallProductTeamBalance]] distributes accountability, [[ProductMetricLadder]] links business themes to short-cycle proxy metrics, [[ProductStorytelling]] turns direction into past-present-future narrative plus ROI models, [[UserResearchPatternThreshold]] treats repeated target-user signals as action cues, [[IterativeProductShipping]] makes releases evidence-generating, and [[ProductRetrospectives]] converts team experience into process learning.",
+      "statement": "[[RuleOfThreesProductDevelopment]] and [[NetPromoterScore]] add a product-operating frame around metrics, research, and shipping: [[SmallProductTeamBalance]] distributes accountability, [[ProductMetricLadder]] links business themes to short-cycle proxy metrics and slower loyalty KPIs, [[ProductStorytelling]] turns direction into past-present-future narrative plus ROI models, [[UserResearchPatternThreshold]] treats repeated target-user signals as action cues, [[CustomerLedProductDevelopment]] turns NPS verbatim comments and behavior correlations into roadmap input, [[IterativeProductShipping]] makes releases evidence-generating, and [[ProductRetrospectives]] converts team experience into process learning.",
       "status": "qualified",
       "supporting_wikilinks": [
         "RuleOfThreesProductDevelopment",
@@ -228,7 +229,10 @@
         "IterativeProductShipping",
         "ProductRetrospectives",
         "CustomerLedProductDevelopment",
-        "StartupHypothesisTesting"
+        "StartupHypothesisTesting",
+        "NetPromoterScore",
+        "SachinRekhi",
+        "LinkedIn"
       ]
     },
     {

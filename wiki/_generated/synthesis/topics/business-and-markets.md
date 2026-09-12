@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: dbf0a1e37a633f17c1262b88a154320dbb55334b
-input_digest: a5450067ed62222af6cf253fde0be64a6eb53d607e2e08f0f2c9b4eeedfec3a5
+as_of_overview_commit: 551d9a3c7ffbb5bcd782c8cdf7f4effe33a6046a
+input_digest: 7a3389b41772abe48886f369bf24d97ad1b575ed1a34acaf4200d38cad7edc29
 ---
 
 # Business and Markets
@@ -137,14 +137,15 @@ Business and market sources connect startup validation, product evolution, distr
 
 ### Product Operating Heuristics Connect Metrics Research And Shipping
 
-[[RuleOfThreesProductDevelopment]] adds a lightweight product-operating frame: [[SmallProductTeamBalance]] distributes accountability, [[ProductMetricLadder]] links business themes to short-cycle proxy metrics, [[ProductStorytelling]] turns direction into past-present-future narrative plus ROI models, [[UserResearchPatternThreshold]] treats repeated target-user signals as action cues, [[IterativeProductShipping]] makes releases evidence-generating, and [[ProductRetrospectives]] converts team experience into process learning.
+[[RuleOfThreesProductDevelopment]] and [[NetPromoterScore]] add a product-operating frame around metrics, research, and shipping: [[SmallProductTeamBalance]] distributes accountability, [[ProductMetricLadder]] links business themes to short-cycle proxy metrics and slower loyalty KPIs, [[ProductStorytelling]] turns direction into past-present-future narrative plus ROI models, [[UserResearchPatternThreshold]] treats repeated target-user signals as action cues, [[CustomerLedProductDevelopment]] turns NPS verbatim comments and behavior correlations into roadmap input, [[IterativeProductShipping]] makes releases evidence-generating, and [[ProductRetrospectives]] converts team experience into process learning.
 
-**Evidence:** [[RuleOfThreesProductDevelopment]], [[SmallProductTeamBalance]], [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[IterativeProductShipping]], [[ProductRetrospectives]], [[CustomerLedProductDevelopment]], [[StartupHypothesisTesting]]
+**Evidence:** [[RuleOfThreesProductDevelopment]], [[SmallProductTeamBalance]], [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[IterativeProductShipping]], [[ProductRetrospectives]], [[CustomerLedProductDevelopment]], [[StartupHypothesisTesting]], [[NetPromoterScore]], [[SachinRekhi]], [[LinkedIn]]
 
 **Qualifications:**
 
 - The claim is grounded in one Women in Product practitioner article, so the rule of threes should be treated as a memory and coordination heuristic rather than empirical proof of optimal counts.
-- The research threshold depends on target-user screening, and proxy metrics need validation against longer-term business outcomes.
+- The NPS evidence is practitioner guidance from [[SachinRekhi]]'s [[LinkedIn]] context, not a universal proof that Net Promoter Score predicts growth in every product category.
+- The research threshold depends on target-user screening, proxy metrics need validation against longer-term business outcomes, and [[NetPromoterScore]] interpretation depends on sampling, engagement bias, tenure, margin of error, seasonality, and methodology consistency.
 - The recommended shipping cadence may need different release gates in regulated, safety-critical, infrastructure-heavy, or enterprise-integrated products.
 
 ### Pre Fit Startups Convert Runway Into Learning
