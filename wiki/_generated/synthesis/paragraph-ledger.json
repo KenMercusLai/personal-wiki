@@ -12,6 +12,7 @@
       "fde66a6b0b6dc03dc843920da4d29116e9ea536527452f29e2ea11870fb70f82",
       "3ce60346e0f89d46ca921cae6ed0d0179bf8dfad02f581c50d9cc68601f831e9",
       "13ab23e936f6ebd2deeb46d14ef3d2b21d9c757037475526bb5ea76f56d1194e",
+      "26fad3154a558d143d54869744a2d68780495ffc0876f779fee905778c4caa3e",
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
@@ -45,10 +46,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 43
+    "paragraph_count": 44
   },
-  "overview_commit": "8e791c19b51c5cee8cc2786c46a43817a29a85ae",
-  "overview_digest": "0e5d909c2b478d7b470c55980fe13eeb3ed712841715a707c0d8175d04ffad1a",
+  "overview_commit": "2846f6dbd484b27fdc7d383914feb48b15a74dd2",
+  "overview_digest": "72804f3dd991aa3950f29146a52310bb0ed56b810e04338e8e7cec242c50974a",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -246,6 +247,21 @@
         "RORIRI",
         "StatisticalModelThinking",
         "TasteAsProblemSense"
+      ]
+    },
+    {
+      "id": "26fad3154a558d143d54869744a2d68780495ffc0876f779fee905778c4caa3e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest statistics source deepens that model-thinking thread with concrete mechanics. [[DataGeneratingProcess]] frames observed outcomes as products of many layered causes, so formulas should be interpreted against the system that produced the data. [[VarianceAdditivity]] is useful because variance can be decomposed, but the source stresses that the simple sum of component variances works only when variables are [[Orthogonality|orthogonal]]; otherwise [[Covariance]] terms are part of the total variation. This sharpens the wiki's LLM-statistics caution: independently generated variables can still have nonzero sample correlation, and LLM explanations that collapse independence, finite-sample noise, and orthogonality may sound plausible while missing the statistical point.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "Covariance",
+        "DataGeneratingProcess",
+        "Orthogonality",
+        "VarianceAdditivity"
       ]
     },
     {

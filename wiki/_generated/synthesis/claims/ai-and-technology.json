@@ -36,6 +36,42 @@
     },
     {
       "global_candidate": true,
+      "id": "ai-era-education-needs-problem-definition-and-model-judgment",
+      "qualifications": [
+        "The claim is grounded in conceptual education essays rather than measured curriculum interventions.",
+        "The sources explicitly treat the ability frame as adaptable rather than exhaustive."
+      ],
+      "statement": "[[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RORIRI",
+        "ComputationalThinking",
+        "StatisticalModelThinking",
+        "AcademicWriting",
+        "ProjectBasedLearning",
+        "MetacognitiveFeedback",
+        "TasteAsProblemSense"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "statistical-model-thinking-needs-covariance-and-orthogonality",
+      "qualifications": [
+        "The variance source uses pedagogical simulations and conceptual explanation rather than a full causal-inference or mathematical statistics treatment.",
+        "The LLM caution is source-scoped: it flags a common conceptual failure mode without benchmarking models systematically."
+      ],
+      "statement": "[[StatisticalModelThinking]] is sharpened by [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], and [[Orthogonality]]: formulas for variation only support reliable judgment when learners distinguish generating assumptions, observed sample relationships, and shared variation.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "StatisticalModelThinking",
+        "DataGeneratingProcess",
+        "VarianceAdditivity",
+        "Covariance",
+        "Orthogonality"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "note-systems-need-granularity-tool-fit",
       "qualifications": [
         "The claim is grounded in a note-taking methods essay rather than comparative user research.",
@@ -50,25 +86,6 @@
         "ZettelkastenMethod",
         "Obsidian",
         "ChrisGrieser"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "ai-era-education-needs-problem-definition-and-model-judgment",
-      "qualifications": [
-        "The claim is grounded in a conceptual education essay rather than a measured curriculum intervention.",
-        "The source explicitly treats the three-part ability frame as adaptable rather than exhaustive."
-      ],
-      "statement": "[[RORIRI]] frames AI-era education around human control of task definition and judgment: [[ComputationalThinking]] supplies abstraction and execution structure, while [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[MetacognitiveFeedback]], and [[TasteAsProblemSense]] help learners model uncertainty, expose reasoning, practice inquiry, see growth, and care about real questions before tools execute.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "RORIRI",
-        "ComputationalThinking",
-        "StatisticalModelThinking",
-        "AcademicWriting",
-        "ProjectBasedLearning",
-        "MetacognitiveFeedback",
-        "TasteAsProblemSense"
       ]
     },
     {
@@ -166,22 +183,6 @@
     },
     {
       "global_candidate": true,
-      "id": "coding-agents-use-minimal-tools-and-rebuilt-context",
-      "qualifications": [
-        "The evidence is a practitioner-product essay rather than a controlled comparison of agent architectures.",
-        "The source describes the tape-and-anchors model conceptually and leaves anchor schemas, retrieval quality, privacy, and multi-agent conflict unresolved."
-      ],
-      "statement": "[[CodingAgentMinimalTooling]] treats read, write, edit, and bash as a small but powerful coding-agent surface, while [[TapeAndAnchors]] and [[Bub]] frame agent context as append-only history plus minimal anchors assembled on demand for group-chat settings rather than inherited wholesale across sessions.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "CodingAgentMinimalTooling",
-        "TapeAndAnchors",
-        "Bub",
-        "OpenClaw"
-      ]
-    },
-    {
-      "global_candidate": true,
       "id": "llm-apps-shift-interface-and-tooling",
       "qualifications": [
         "The claim is forward-looking and does not compare natural-language workflows with conventional interfaces across real users or production tasks."
@@ -259,68 +260,14 @@
       ]
     },
     {
-      "global_candidate": false,
-      "id": "semantic-ui-state-supports-computer-use",
-      "qualifications": [
-        "The source does not cover accessibility-tree limits, custom UI surfaces, security boundaries, or pixel-only cases."
-      ],
-      "statement": "[[AccessibilityTree]] is presented as a cleaner [[ComputerUse]] route because semantic UI roles, names, states, and hierarchy can replace some raw-pixel inference.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AccessibilityTree",
-        "ComputerUse"
-      ]
-    },
-    {
       "global_candidate": true,
-      "id": "ai-first-engineering-needs-harnesses",
+      "id": "production-agents-need-semantic-safety-infrastructure",
       "qualifications": [
-        "The AI-first claim is grounded in a skeptical commentary plus a single company case study, not independently verified multi-team evidence.",
-        "The source explicitly limits fit for UI-dense, quality-sensitive, and safety-critical products.",
-        "The production-agent source implies that workflow harnesses are necessary but insufficient for high-permission, long-running agents."
+        "The evidence is an infrastructure design argument, not a deployed standard.",
+        "Existing tests, observability, CI/CD, and rollback remain necessary but are not sufficient for semantic tool-call safety."
       ],
-      "statement": "[[AIFirstEngineering]] treats agents as primary builders only when [[HarnessEngineering]] and [[SoftwareVerification]] provide tests, deterministic CI/CD, feature flags, observability, rollback, task granularity, and clear architecture; production autonomy also needs runtime boundaries for side effects, capabilities, and recovery.",
+      "statement": "[[ProductionAgentInfrastructure]] extends ordinary engineering harnesses for long-running high-permission agents through [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]], because autonomous tool use can create real side effects under hostile inputs and nondeterministic decisions.",
       "status": "qualified",
-      "supporting_wikilinks": [
-        "AIFirstEngineering",
-        "HarnessEngineering",
-        "SoftwareVerification",
-        "CREAO",
-        "Claude",
-        "JuniorEngineerLearning",
-        "PeterPang"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "vibe-coding-needs-paced-agent-workflow",
-      "qualifications": [
-        "The claim is grounded in practitioner accounts rather than a benchmark across coding agents.",
-        "Its conclusions may depend on model quality, pricing, token limits, command-line or editor product design, and the developer's ability to express implementation intent precisely."
-      ],
-      "statement": "[[VibeCoding]] with [[ClaudeCode]] can accelerate project-wide coding work, documentation, PRs, tickets, and data processing, but useful speed depends on planning or prototyping deliberately, small iterations, [[SoftwareVerification]], [[LLMContextManagement]], precise file-aware instructions, and preserving human judgment; otherwise AI coding can defer risk into code the developer cannot understand.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "VibeCoding",
-        "ClaudeCode",
-        "Onevcat",
-        "SoftwareVerification",
-        "LLMContextManagement",
-        "AIAgentCollaboration",
-        "AICodingPractice",
-        "HumanCodeResponsibility",
-        "ChunYinUncle"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "production-agents-need-semantic-runtime-infrastructure",
-      "qualifications": [
-        "The source is a design argument, not evidence from a standardized production platform.",
-        "The urgency depends on agents becoming long-running, high-permission, and autonomous; short, approval-driven agents need less of this machinery."
-      ],
-      "statement": "[[ProductionAgentInfrastructure]] for long-running, high-permission agents needs [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] because ordinary execution sandboxes and workflow orchestrators do not understand model-chosen side effects and credentials.",
-      "status": "source-scoped",
       "supporting_wikilinks": [
         "ProductionAgentInfrastructure",
         "EffectLog",
@@ -328,22 +275,23 @@
         "ForkRecovery",
         "AgentResumability",
         "SemanticIsolation",
-        "Guanlan"
+        "HarnessEngineering",
+        "AIFirstEngineering"
       ]
     },
     {
       "global_candidate": true,
       "id": "llm-data-analysis-needs-methodological-control",
       "qualifications": [
-        "The source is a cautionary practitioner essay grounded in a cited p-hacking experiment and a personal statistical-analysis failure, not a comprehensive benchmark of all LLM data-analysis tasks.",
-        "The source still treats transformation, visualization, clustering support, and codebook work as useful when the human analyst understands and checks the method."
+        "The evidence combines a cited experiment and a personal analysis case rather than a complete benchmark of LLM statistical reliability.",
+        "The new variance source reinforces the same caution from a different angle: plausible explanations may still confuse independence, covariance, and orthogonality."
       ],
-      "statement": "[[LLMDataAnalysis]] needs human methodological control because models can produce polished but invalid statistical work, including [[PHacking]]-like specification search triggered by reframed prompts; safer uses include reviewed [[CodebookDevelopment]] and other lower-inference support tasks.",
+      "statement": "[[LLMDataAnalysis]] is useful for transformation, visualization, clustering support, and [[CodebookDevelopment]], but statistical inference needs human methodological control because prompt framing can turn models toward [[PHacking]]-like specification search and polished but invalid analysis.",
       "status": "qualified",
       "supporting_wikilinks": [
         "LLMDataAnalysis",
-        "PHacking",
         "CodebookDevelopment",
+        "PHacking",
         "LLMContextManagement",
         "HumanCodeResponsibility",
         "Claude"
@@ -351,12 +299,12 @@
     },
     {
       "global_candidate": true,
-      "id": "big-data-automation-needs-behavioral-loop",
+      "id": "big-data-automation-needs-behavioral-signal-and-closed-loop-action",
       "qualifications": [
-        "The source is a concise big-data-era article summary rather than a full empirical comparison of industries.",
-        "The claim emphasizes automation value but does not yet address privacy, regulation, accountability, or high-stakes human override."
+        "The source is a strategic essay rather than a sector-by-sector empirical study.",
+        "High-stakes automation still raises privacy, regulation, accountability, and human-override questions not resolved by the source."
       ],
-      "statement": "[[BigDataIndustryTransformation]] depends on [[BehavioralData]], broad processing coverage, and [[AutomatedDataApplication]] loops; [[DeepLearning]] helps by learning representations from larger datasets, but data collection alone does not change decisions without an automation path.",
+      "statement": "[[BigDataIndustryTransformation]] depends on meaningful [[BehavioralData]], full-population processing, and [[AutomatedDataApplication]] loops that turn data output into business action; [[DeepLearning]] helps when large data can reduce manual feature engineering, but dashboards alone do not transform an industry.",
       "status": "qualified",
       "supporting_wikilinks": [
         "BigDataIndustryTransformation",
@@ -367,6 +315,6 @@
       ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, AI-assisted writing, AI-era education design, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, agentic RAG for live codebases, accountable AI coding practice, coding-agent vibe coding, LLM context/action architecture, prompt caching, AI-first engineering workflow design, production agent infrastructure, LLM-assisted data analysis, and big-data automation. One stochastic-gradient-descent paragraph appears only as technical metaphor spillover; the substantive AI claims remain about knowledge systems, human authorship and verification, AI-era education judgment, tool-method fit, workload-aware routing, retrieval-augmented chatbots, human engineering controls, precise task decomposition, context/action mechanisms, prompt-cache infrastructure, production-agent boundaries, methodological control in data analysis, and automation loops grounded in behavior data.",
+  "summary": "The current AI and technology material spans AI-supported knowledge work, education, statistics, application architecture, inference/network infrastructure, coding agents, prompt caching, production-agent safety, and LLM-assisted data analysis. A recurring pattern is that AI value depends less on tool novelty than on the surrounding model of work: humans need problem definition, statistical judgment, authorship, verification, context management, retrieval design, serving-aware infrastructure, and capability boundaries that keep fast automation accountable.",
   "topic_id": "ai-and-technology"
 }

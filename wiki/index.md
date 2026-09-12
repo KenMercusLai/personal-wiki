@@ -31,6 +31,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
 - [教育的下一步 · 其二 | 螺莉莉的数据中心](sources/jiao-yu-de-xia-yi-bu-qi-er-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's AI-era education essay arguing for expanded computational thinking through statistical model judgment, abstraction/programming, academic writing, PBL, metacognitive feedback, and taste as problem sense.
+- [理解方差的可加性 | 螺莉莉的数据中心](sources/li-jie-fang-cha-de-ke-jia-xing-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's statistics explainer showing that variance additivity requires covariance and orthogonality, and warning against confusing independent generation with zero sample correlation.
 - [一份关于 AI 编程的简明行为指南 | Piglei](sources/yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei.md) - A software-engineering guide arguing that AI coding agents should be used through accountable collaboration, small reviewable changes, verification, stable libraries, and learning-protective habits for junior engineers.
 - [一个独立创造者的五年](sources/yi-ge-du-li-chuang-zao-zhe-de-wu-nian.md) - A five-year Indie Hacker retrospective on moving from a domestic content product to overseas subscription SaaS, using modular infrastructure, solo-company discipline, customer-led product work, and practical marketing.
 - [我把网站迁移到 cf，省了几万块](sources/wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai.md) - A practical migration report showing how a Next.js project moved from Vercel to AWS and Cloudflare to reduce hosting cost, with notes on PM2, Docker, Cloudflare Pages, and edge-runtime compatibility.
@@ -134,7 +135,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Leider](entities/RichardLeider.md) - Career expert credited with the gifts, passion, and values formula for career reflection.
 - [Richard Feynman](entities/RichardFeynman.md) - Physicist cited as the origin figure for the Feynman Technique.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
-- [RORIRI](entities/RORIRI.md) - AI commentator explaining LLM terminology through context management and action interfaces.
+- [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM terminology, AI-era education, and statistical reasoning.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
@@ -197,11 +198,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
+- [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
+- [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, and noise that produces observed data.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
@@ -251,6 +254,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Note Tool Fit](concepts/NoteToolFit.md) - Alignment between note-taking methods, software features, domain needs, and personal friction.
 - [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
+- [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
@@ -285,6 +289,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
 - [Unauthenticated Service Exposure](concepts/UnauthenticatedServiceExposure.md) - Risk created when a reachable service permits meaningful reads, writes, or control actions without valid authentication.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
+- [Variance Additivity](concepts/VarianceAdditivity.md) - Variance decomposition principle where component variances add cleanly only when covariance terms vanish.
 - [Vibe Coding](concepts/VibeCoding.md) - AI-assisted software work mode centered on fast agent-driven iteration, planning, small steps, context care, and verification.
 - [Weak Credential Exposure](concepts/WeakCredentialExposure.md) - Security risk created when externally reachable services can be accessed with guessed, default, reused, blank, or weak credentials.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
