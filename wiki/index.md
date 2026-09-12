@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
 - [A Look at Vim, a Text Editor for the Ages - The New Stack](sources/a-look-at-vim-a-text-editor-for-the-ages-the-new-stack.md) - The New Stack history tracing Vim from Unix `ed`, `em`, `ex`, and `vi` through Bram Moolenaar's open-source Vim, emphasizing constraint-shaped interface choices, incremental evolution, and cultural persistence.
@@ -369,6 +370,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [OpenWrt](entities/OpenWrt.md) - Router operating system used as the always-on edge host for the FRP client configuration.
 - [Xiongmai](entities/Xiongmai.md) - Camera-vendor ecosystem behind the VMS tool and XM device configuration shown in the source.
 - [Fabrice Bellard](entities/FabriceBellard.md) - Systems programmer credited in the source as FFmpeg's creator.
+- [Juicero](entities/Juicero.md) - Food-technology startup whose connected juicing system became a contested value-proposition case.
+- [Jeff Dunn](entities/JeffDunn.md) - Juicero CEO and food-industry operator who publicly defended the company's connected system.
+- [Doug Evans](entities/DougEvans.md) - Juicero founder named in the leadership transition to Jeff Dunn.
 
 ## Concepts
 - [Constraint-Shaped Interface Design](concepts/ConstraintShapedInterfaceDesign.md) - Interface conventions that emerge from practical technical limits and persist after those limits fade.
@@ -394,6 +398,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
+- [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.

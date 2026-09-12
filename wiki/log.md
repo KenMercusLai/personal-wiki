@@ -664,9 +664,17 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | A Note from Juicero's New CEO
+
+Added source note plus pages for Juicero, Jeff Dunn, Doug Evans, and Connected Product Systems. Updated Public Relations Strategy and overview synthesis to capture the note as crisis communication around a contested product value proposition: Juicero defended the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected system. No image references were present in the source Markdown.
+
 ## [2026-09-13] ingest | 8 PR Strategies for Bootstrapped Startups
 
 Added source note plus pages for public relations strategy, Josiah Humphrey, and Appster. Updated content-led acquisition, personal branding, startup vision selling, and index to capture PR as goal-led startup communication: specific campaign objectives, concise one-sentence pitches, targeted journalist outreach, contact lists, guest blogging, original data angles, and reverse pitching. Inspected the embedded images; microphone photos were decorative, the Medium clap screenshot was UI-only, and the exported pitch/HARO screenshots were too small to add evidence beyond the article text.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
