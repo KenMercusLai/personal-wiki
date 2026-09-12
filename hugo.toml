@@ -11,6 +11,8 @@ ignoreFiles = ['(^|/)(wiki/)?(index|log|overview)\\.md$', '(^|/)wiki/_generated/
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      typographer = false
     [markup.goldmark.renderer]
       unsafe = false
 
