@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [你大概不会想用 LLM 做数据分析](sources/ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi.md) - A cautionary data-analysis essay arguing that LLMs can generate polished but invalid statistical work, especially around p-hacking, unless users understand and verify the method.
 - [从海德格尔的锤子到隐喻的戏剧性](sources/cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing.md) - A philosophical aesthetics essay using Heidegger's broken hammer and Harman's object-oriented ontology to explain art as object-quality tension and metaphor as readerly performance.
 - [众口难调的笔记，各取所需的工具](sources/zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju.md) - A PKM essay arguing that big notes and small notes serve different knowledge goals and require different note-tool affordances.
 - [为什么现有的 Agent Infra 无法支撑生产级应用？](sources/wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong.md) - An agent-infrastructure essay arguing that production agents need effect logs, capability gateways, fork recovery, resumability, and semantic isolation because existing sandboxes and workflow engines operate at the wrong abstraction layer.
@@ -34,7 +35,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
-- [Claude](entities/Claude.md) - AI assistant used in the CREAO case study for pull-request review, debugging, production-health summaries, and issue triage.
+- [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
@@ -111,6 +112,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
+- [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
@@ -140,6 +142,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
 - [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
+- [LLM Data Analysis](concepts/LLMDataAnalysis.md) - Using LLMs to support data workflows while controlling risks around statistical inference, method choice, and polished invalid outputs.
 - [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
@@ -152,6 +155,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object-Oriented Ontology](concepts/ObjectOrientedOntology.md) - Philosophical framework that treats objects as more than their relations, uses, appearances, or effects.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
+- [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material for future thinking.
 - [Private Data Chatbot](concepts/PrivateDataChatbot.md) - Chatbot pattern that answers from user-provided or organization-held data rather than only built-in model knowledge.

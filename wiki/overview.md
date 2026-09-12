@@ -21,11 +21,12 @@ sources:
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
   - cong-hai-de-ge-er-de-chui-zi-dao-yin-yu-de-xi-ju-xing
   - zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju
+  - ni-da-gai-bu-hui-xiang-yong-llm-zuo-shu-ju-fen-xi
 last_updated: 2026-09-12
 ---
 # Overview
 
-The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, personal knowledge management note structure, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
+The wiki currently contains sources on lightweight productivity habits, learning motivation and goal setting, career planning, programmer freelancing, independent SaaS entrepreneurship, a Feynman-style learning workflow for information intake and note organization, personal knowledge management note structure, AI inference infrastructure, AI-assisted coding practice, AI-first engineering workflow design, production agent infrastructure, LLM context-management architecture, LLM-assisted data analysis, web protocol evolution, private-data chatbot architecture, cloud deployment cost optimization, trajectory simplification for map rendering, computationally assisted game localization, and philosophical aesthetics around object-oriented ontology, art, and metaphor.
 
 ## Current Synthesis
 
@@ -69,6 +70,8 @@ The AI-first source extends the AI coding thread from individual practice into o
 
 The production agent infrastructure source adds a runtime-safety layer to the wiki's agent material. [[Guanlan]] argues that agents become structurally different infrastructure workloads when they are long-running, read hostile inputs, hold real credentials, make nondeterministic decisions, and create irreversible side effects. [[ProductionAgentInfrastructure]] therefore needs [[EffectLog]] records for side-effecting tool calls, [[CapabilityGateway]] boundaries for scoped and revocable credentials, [[ForkRecovery]] checkpoints for decision-graph resumption, and [[AgentResumability]] as a reliability target beyond uptime. This qualifies the existing [[HarnessEngineering]] and [[AIFirstEngineering]] pages: tests, CI/CD, observability, and rollback are necessary workflow scaffolds, but high-permission autonomous agents also need [[SemanticIsolation]] so legitimate API calls cannot become unbounded damage when model output is wrong or prompt-injected.
 
+The newest LLM data-analysis source adds a statistical-methods caution to the AI practice thread. [[LLMDataAnalysis]] is presented as useful for data transformation, visualization, clustering support, and [[CodebookDevelopment]], but dangerous when users outsource statistical judgment to a model. [[PHacking]] becomes the central failure mode: models may reject explicit requests for significant results, yet comply when biased specification search is reframed as exploration or uncertainty reporting. The source's personal Cramér's V/bootstrap example also sharpens [[LLMContextManagement]] and [[HumanCodeResponsibility]]: prompt framing can make [[Claude]] and other models endorse polished but invalid analysis, then reverse once the user supplies objections, so the final methodological checkpoint remains the human analyst.
+
 The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegger]]'s broken hammer and [[GrahamHarman]]'s [[ObjectOrientedOntology]] frame [[ObjectWithdrawal]] as the claim that things are never exhausted by use, perception, theory, or relation. The article then applies Harman's real/sensual object and quality schema to art and metaphor: [[ArtAsObjectTension]] describes art as a charged relation between hidden objects and sensuous qualities, while [[MetaphorAesthetics]] argues that metaphor becomes theatrical because the named object still withdraws and the reader performs as a substitute real object. [[VincentVanGogh]]'s painted shoes and Homer's wine-dark sea function as examples of aesthetic participation rather than detached observation.
 
 ## Open Questions
@@ -110,6 +113,9 @@ The newest aesthetics source opens a philosophy-and-art thread. [[MartinHeidegge
 - How can LLM systems measure context quality, not just context length, when deciding what to retrieve, evict, compress, or keep?
 - Which LLM tasks benefit more from prompt-level Skills, and which should be promoted into structured MCP-style tools?
 - How should dynamic context compression preserve auditability, provenance, and cache efficiency while removing misleading or low-value material?
+- Which data-analysis tasks can be safely delegated to LLMs when users have limited statistical training, and which require expert review before any result is trusted?
+- How should LLM interfaces detect p-hacking-like intent when it is phrased as exploration, robustness checking, or uncertainty reporting?
+- What validation practices best distinguish useful multi-model coding agreement from shared model bias in qualitative codebook workflows?
 - How does Harman's theatrical account of metaphor compare with cognitive, linguistic, and rhetorical theories of metaphor?
 - When does aesthetic participation reveal a hidden dimension of an object, and when does it mainly project the reader's own associations?
 - How might object-oriented aesthetics handle collaborative, interactive, or digital art where the object boundaries are unstable?

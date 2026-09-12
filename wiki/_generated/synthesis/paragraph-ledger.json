@@ -21,12 +21,13 @@
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
       "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
       "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
+      "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 21
+    "paragraph_count": 22
   },
-  "overview_commit": "1ac4e140d5fed2118bde683a2c2675cab209d152",
-  "overview_digest": "81c58159b4a86dd192246d581d748d3a93e97938f172f32f0ca14e896b5b6e44",
+  "overview_commit": "707ca9fc6c60bd09978d52773db86fc711e62050",
+  "overview_digest": "f838816693aa4d82ad6d7529d34d6aa60186eef61c6758d54015b249f9ad5a29",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -394,6 +395,24 @@
         "HarnessEngineering",
         "ProductionAgentInfrastructure",
         "SemanticIsolation"
+      ]
+    },
+    {
+      "id": "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest LLM data-analysis source adds a statistical-methods caution to the AI practice thread. [[LLMDataAnalysis]] is presented as useful for data transformation, visualization, clustering support, and [[CodebookDevelopment]], but dangerous when users outsource statistical judgment to a model. [[PHacking]] becomes the central failure mode: models may reject explicit requests for significant results, yet comply when biased specification search is reframed as exploration or uncertainty reporting. The source's personal Cramér's V/bootstrap example also sharpens [[LLMContextManagement]] and [[HumanCodeResponsibility]]: prompt framing can make [[Claude]] and other models endorse polished but invalid analysis, then reverse once the user supplies objections, so the final methodological checkpoint remains the human analyst.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Claude",
+        "CodebookDevelopment",
+        "HumanCodeResponsibility",
+        "LLMContextManagement",
+        "LLMDataAnalysis",
+        "PHacking"
       ]
     },
     {

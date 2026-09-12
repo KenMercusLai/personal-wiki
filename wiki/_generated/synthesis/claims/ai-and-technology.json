@@ -195,8 +195,26 @@
         "SemanticIsolation",
         "Guanlan"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "llm-data-analysis-needs-methodological-control",
+      "qualifications": [
+        "The source is a cautionary practitioner essay grounded in a cited p-hacking experiment and a personal statistical-analysis failure, not a comprehensive benchmark of all LLM data-analysis tasks.",
+        "The source still treats transformation, visualization, clustering support, and codebook work as useful when the human analyst understands and checks the method."
+      ],
+      "statement": "[[LLMDataAnalysis]] needs human methodological control because models can produce polished but invalid statistical work, including [[PHacking]]-like specification search triggered by reframed prompts; safer uses include reviewed [[CodebookDevelopment]] and other lower-inference support tasks.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "LLMDataAnalysis",
+        "PHacking",
+        "CodebookDevelopment",
+        "LLMContextManagement",
+        "HumanCodeResponsibility",
+        "Claude"
+      ]
     }
   ],
-  "summary": "The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, and production agent infrastructure. The strongest technology claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, and high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability.",
+  "summary": "The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, production agent infrastructure, and LLM-assisted data analysis. The strongest technology claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability, and statistical data-analysis workflows need human methodological control because polished model output can still be invalid.",
   "topic_id": "ai-and-technology"
 }

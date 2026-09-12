@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-12
-as_of_overview_commit: 1ac4e140d5fed2118bde683a2c2675cab209d152
-input_digest: 53f6ed70ab986165e218340f10ac40c7ec5a37a13a833b36d44fcfd93ac7f818
+as_of_overview_commit: 707ca9fc6c60bd09978d52773db86fc711e62050
+input_digest: 8020dd2ea806078f6b1b392ed1c02ca00c941a111974503a8361326b44931537
 ---
 
 # AI and Technology
 
 ## Current State
 
-The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, and production agent infrastructure. The strongest technology claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, and high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability.
+The current corpus covers AI technology as personal knowledge support, note-system infrastructure, inference-serving infrastructure, private-data chatbot architecture, accountable AI coding practice, LLM context/action architecture, AI-first engineering workflow design, production agent infrastructure, and LLM-assisted data analysis. The strongest technology claims now span both systems and behavior: knowledge systems may use AI for summaries and retrieval, note systems need granularity and tool-method fit, inference systems need workload-aware routing, retrieval-augmented chatbots connect LLMs to user-held documents, AI-assisted coding needs human and organizational controls, Skills, MCP, RAG, Memory, dynamic compression, and Computer Use can be read as context/action mechanisms, AI-first engineering needs harnesses and verification, high-permission long-running agents need semantic infrastructure for side effects, capability boundaries, and resumability, and statistical data-analysis workflows need human methodological control because polished model output can still be invalid.
 
 ## Cross-source Findings
 
@@ -141,3 +141,14 @@ The comparison of [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], and 
 
 - The source is a design argument, not evidence from a standardized production platform.
 - The urgency depends on agents becoming long-running, high-permission, and autonomous; short, approval-driven agents need less of this machinery.
+
+### Llm Data Analysis Needs Methodological Control
+
+[[LLMDataAnalysis]] needs human methodological control because models can produce polished but invalid statistical work, including [[PHacking]]-like specification search triggered by reframed prompts; safer uses include reviewed [[CodebookDevelopment]] and other lower-inference support tasks.
+
+**Evidence:** [[LLMDataAnalysis]], [[PHacking]], [[CodebookDevelopment]], [[LLMContextManagement]], [[HumanCodeResponsibility]], [[Claude]]
+
+**Qualifications:**
+
+- The source is a cautionary practitioner essay grounded in a cited p-hacking experiment and a personal statistical-analysis failure, not a comprehensive benchmark of all LLM data-analysis tasks.
+- The source still treats transformation, visualization, clustering support, and codebook work as useful when the human analyst understands and checks the method.
