@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-12
-as_of_overview_commit: 015f816c37aaab0d9e907b3a1f813aecfa816ce6
-input_digest: cac93ec4844f0249373538dd38bec95b1b3c75ed227a11f0be97fe18a8bbe646
+as_of_overview_commit: 6f1ba1bf474c91c7682712150070c6db5a3bd6d5
+input_digest: 62c1ac913bb676bb9212b877e960750f151920e3fd2e4b902c53e8017bb1d3f0
 ---
 
 # Business and Markets
 
 ## Current State
 
-The business-and-markets material combines independent creator economics, long-lived software-product evolution, developer-tool UX, market-positioning strategy, consumer-IP operations, startup equity design, and the organizational side of software reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, CLI developer tools, and Instapaper-style consumer software depend on revenue stability, platform timing, modular infrastructure, customer learning, early willingness-to-pay tests, marketing, support, contribution surfaces, business-model adaptation, and product promise rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business. The startup-equity thread treats option exercise windows as compensation-market design: transparency and liquidity risk determine whether vested equity is practically usable. The reliability source adds that operational excellence is also a business investment problem: known technical practices only become durable when staffing, process enforcement, and business priority keep them alive.
+The business-and-markets material combines independent creator economics, long-lived software-product evolution, developer-tool UX, container-friendly application deployment, market-positioning strategy, consumer-IP operations, startup equity design, and the organizational side of software reliability. One thread shows that bootstrapped SaaS, programmer freelancing, small product portfolios, CLI developer tools, Dockerized applications, and Instapaper-style consumer software depend on revenue stability, platform timing, modular infrastructure, customer learning, runtime configuration, reliable startup behavior, early willingness-to-pay tests, marketing, support, contribution surfaces, business-model adaptation, and product promise rather than technical building alone. The strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing. The Pop Mart case extends this into character commerce, where blind boxes, recognizable IP, ongoing design renewal, category expansion, and founder-led organizational adaptation all shape whether a hit product can become a durable business. The startup-equity thread treats option exercise windows as compensation-market design: transparency and liquidity risk determine whether vested equity is practically usable. The reliability and container-startup sources add that operational excellence is also an investment and ownership problem: known technical practices only become durable when staffing, process enforcement, business priority, and application code keep them alive.
 
 ## Cross-source Findings
 
@@ -48,6 +48,17 @@ The business-and-markets material combines independent creator economics, long-l
 
 - The claim is grounded in one CLI-focused practitioner essay rather than a broad comparison of developer-tool categories.
 - Some command conventions vary by ecosystem, operating system, and user expectation.
+
+### Container Friendly Apps Own Startup And Runtime Configuration
+
+[[Docker]] deployment only becomes reliably portable when applications participate in [[TwelveFactorApp]] practices: [[ContainerApplicationStartup]] and [[RuntimeConfiguration]] should handle optional config, environment overrides, working directories, startup logs, and dependency retry near application code rather than through image sprawl or wrapper-script drift.
+
+**Evidence:** [[Docker]], [[TwelveFactorApp]], [[ContainerApplicationStartup]], [[RuntimeConfiguration]], [[KelseyHightower]]
+
+**Qualifications:**
+
+- The source is a 2015 Docker-era practitioner essay and does not cover later orchestration, probes, secrets systems, or dynamic configuration platforms.
+- Entrypoint scripts remain useful for third-party software that deploying teams cannot modify.
 
 ### Micro Company Preserves Autonomy Through Modular Services
 

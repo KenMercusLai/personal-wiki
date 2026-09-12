@@ -21,6 +21,7 @@
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
+      "e3fcd2209563ed4b4a13479a52459407e8033b02fcb4badc8f3f45aa0003e4e4",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "7eccff1471dcd2983f879fc03cea8610eb73fca55f96ea5342d94f42d0df495e",
@@ -57,10 +58,10 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9"
     ],
-    "paragraph_count": 55
+    "paragraph_count": 56
   },
-  "overview_commit": "015f816c37aaab0d9e907b3a1f813aecfa816ce6",
-  "overview_digest": "83efbf18f63eb6687382f35d80c1264ec1a45fe47c21f4bf62f1e1d58cb82f0f",
+  "overview_commit": "6f1ba1bf474c91c7682712150070c6db5a3bd6d5",
+  "overview_digest": "f16074d38171a853de4b931784bd340e30a0b1d3f335e473b6561be9744c4bd8",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -431,6 +432,22 @@
         "JeffDickey",
         "Oclif",
         "StructuredCLIOutput"
+      ]
+    },
+    {
+      "id": "e3fcd2209563ed4b4a13479a52459407e8033b02fcb4badc8f3f45aa0003e4e4",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Docker source adds an application-startup layer to the wiki's deployment and reliability material. [[KelseyHightower]] uses [[Docker]] to show why [[TwelveFactorApp]] ideas only pay off when the application itself participates: stdout logging and environment variables fit containers well, but lift-and-shift packaging can preserve brittle assumptions. [[ContainerApplicationStartup]] names the source's concrete pattern: optional config files, sane defaults, env-var overrides, working-directory creation, startup logging, and retry with backoff for temporarily unavailable databases should live close to application code. [[RuntimeConfiguration]] is the complementary configuration rule: do not bake environment-specific config into endless image variants, and do not make custom entrypoint scripts the default place where owned applications learn how to start.",
+      "topic_scores": {
+        "business-and-markets": 2
+      },
+      "wikilinks": [
+        "ContainerApplicationStartup",
+        "Docker",
+        "KelseyHightower",
+        "RuntimeConfiguration",
+        "TwelveFactorApp"
       ]
     },
     {

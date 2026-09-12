@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [12 Fractured Apps](sources/12-fractured-apps-kelsey-hightower-medium.md) - Kelsey Hightower's Docker-era deployment essay arguing that containerized applications should own startup, runtime configuration, directory creation, and dependency retry behavior instead of outsourcing bootstrapping to wrapper scripts.
 - [12 Factor CLI Apps](sources/12-factor-cli-apps-jeff-dickey-medium.md) - Jeff Dickey's CLI design essay translating twelve-factor thinking into command-line UX, automation, output, speed, contribution, command grammar, and XDG path conventions.
 - [10-Year Exercise Periods Make Sense](sources/10-year-exercise-periods-make-sense-thoughts-quora.md) - Adam D'Angelo's defense of Quora's 10-year stock-option exercise periods, arguing that transparent extended windows protect vested equity without undermining market-based startup compensation.
 - [10 Years of Instapaper](sources/10-years-of-instapaper.md) - Instapaper's ten-year retrospective tracing the read-later product from Marco Arment's side project through parser rewrites, mobile-platform milestones, acquisitions, pricing shifts, notes, search, and outage recovery.
@@ -60,6 +61,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
+- [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Jeff Dickey](entities/JeffDickey.md) - CLI practitioner-author presenting twelve factors for usable, automation-friendly command-line applications.
 - [Heroku](entities/Heroku.md) - Cloud application platform used as the source's context for twelve-factor methodology and CLI design examples.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
@@ -193,6 +196,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.
+- [Container Application Startup](concepts/ContainerApplicationStartup.md) - Application-owned initialization design for optional config, env overrides, local directories, dependency retry, and startup logs in containers.
+- [Runtime Configuration](concepts/RuntimeConfiguration.md) - Supplying environment-specific settings when an application runs rather than baking them into image variants.
 - [CLI Application Design](concepts/CLIApplicationDesign.md) - Designing command-line applications as usable products across help, flags, streams, errors, prompts, speed, contribution, command grammar, and paths.
 - [Command-Line UX](concepts/CommandLineUX.md) - Terminal user experience shaped by help text, flags, errors, prompts, progress, output formatting, and capability-aware fallbacks.
 - [Automation-Friendly CLI](concepts/AutomationFriendlyCLI.md) - CLI design principle that keeps tools usable in scripts, pipelines, redirected output, and non-interactive environments.
