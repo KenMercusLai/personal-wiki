@@ -507,3 +507,11 @@ Ingested Joanna Wiebe's landing-page social-proof article. Added source, concept
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-12] ingest | 3 Years as a One Man Startup
+
+Ingested Steve Ridout's Readlang retrospective. Added source and entity pages for Steve Ridout and Readlang; updated Bootstrapped SaaS, Independent Creator, and Micro Company to capture early-stage ramen profitability, user impact, and founder opportunity cost.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

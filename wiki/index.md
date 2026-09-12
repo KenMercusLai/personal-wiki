@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
+- [3 Years as a One Man Startup](sources/3-years-as-a-one-man-startup-steve-ridout-medium.md) - Steve Ridout's retrospective on three years building Readlang, showing strong signup and revenue growth, real user impact, and ramen profitability alongside weak founder earnings and high opportunity cost.
 - [Bernie's Army of Coders](sources/2016-bernies-army-of-coders-politico-magazine.md) - POLITICO's account of the 2016 Sanders volunteer technology ecosystem, where unofficial coders built voter lookup tools, policy explainers, maps, phone-bank workflows, and logistics apps that sped organizing while raising accountability risks.
 - [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
@@ -214,10 +215,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Richard Leider](entities/RichardLeider.md) - Career expert credited with the gifts, passion, and values formula for career reflection.
 - [Richard Feynman](entities/RichardFeynman.md) - Physicist cited as the origin figure for the Feynman Technique.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
+- [Readlang](entities/Readlang.md) - Language-learning web app used as a one-person bootstrapped startup case.
 - [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM terminology, AI-era education, and statistical reasoning.
 - [Jamovi](entities/Jamovi.md) - Open-source statistics software used as RORIRI's UX research case for reconciling subjective ratings, behavior errors, PURE walkthroughs, and heuristic findings.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
+- [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
