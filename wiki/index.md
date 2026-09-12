@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [12 Factor CLI Apps](sources/12-factor-cli-apps-jeff-dickey-medium.md) - Jeff Dickey's CLI design essay translating twelve-factor thinking into command-line UX, automation, output, speed, contribution, command grammar, and XDG path conventions.
 - [10-Year Exercise Periods Make Sense](sources/10-year-exercise-periods-make-sense-thoughts-quora.md) - Adam D'Angelo's defense of Quora's 10-year stock-option exercise periods, arguing that transparent extended windows protect vested equity without undermining market-based startup compensation.
 - [10 Years of Instapaper](sources/10-years-of-instapaper.md) - Instapaper's ten-year retrospective tracing the read-later product from Marco Arment's side project through parser rewrites, mobile-platform milestones, acquisitions, pricing shifts, notes, search, and outage recovery.
 - [编程随想 - 如何系统性学习](sources/bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi.md) - 编程随想's systematic-learning essay arguing that durable understanding requires breadth, depth, book-centered source selection, Feynman-style explanation, foundational priority, DIKW distinctions, and cross-domain wisdom.
@@ -59,6 +60,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 
 ## Entities
+- [Jeff Dickey](entities/JeffDickey.md) - CLI practitioner-author presenting twelve factors for usable, automation-friendly command-line applications.
+- [Heroku](entities/Heroku.md) - Cloud application platform used as the source's context for twelve-factor methodology and CLI design examples.
+- [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to Scott Kupor's critique of extended option exercise periods.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
@@ -189,6 +193,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 
 ## Concepts
+- [CLI Application Design](concepts/CLIApplicationDesign.md) - Designing command-line applications as usable products across help, flags, streams, errors, prompts, speed, contribution, command grammar, and paths.
+- [Command-Line UX](concepts/CommandLineUX.md) - Terminal user experience shaped by help text, flags, errors, prompts, progress, output formatting, and capability-aware fallbacks.
+- [Automation-Friendly CLI](concepts/AutomationFriendlyCLI.md) - CLI design principle that keeps tools usable in scripts, pipelines, redirected output, and non-interactive environments.
+- [Structured CLI Output](concepts/StructuredCLIOutput.md) - Human-readable and machine-parseable CLI output through row-oriented tables, column controls, JSON, CSV, filters, and sorting.
+- [CLI Command Grammar](concepts/CLICommandGrammar.md) - Structure of commands, subcommands, flags, positional arguments, parsing boundaries, and default invocation behavior.
+- [Developer Tooling](concepts/DeveloperTooling.md) - Software for technical users where documentation, conventions, diagnosability, speed, extensibility, and automation are part of product quality.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.

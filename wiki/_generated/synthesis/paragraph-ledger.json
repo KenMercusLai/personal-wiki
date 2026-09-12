@@ -20,6 +20,7 @@
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
+      "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "7eccff1471dcd2983f879fc03cea8610eb73fca55f96ea5342d94f42d0df495e",
@@ -56,10 +57,10 @@
       "7099d1bbd58c84fbd9ad5567c2561dda087e17fbea752b5098394bca9e13ca5d",
       "664cd53e2b1b343c7727169cc20c05d013ded64492eec68bd788768ad9d56aa9"
     ],
-    "paragraph_count": 54
+    "paragraph_count": 55
   },
-  "overview_commit": "245edaa0493ebcd2d4a523aeb172437e24cdedfa",
-  "overview_digest": "c794e90c71ba77fb248c6c030ac078b261140abd9a30e683c84748b92e6ced05",
+  "overview_commit": "015f816c37aaab0d9e907b3a1f813aecfa816ce6",
+  "overview_digest": "83efbf18f63eb6687382f35d80c1264ec1a45fe47c21f4bf62f1e1d58cb82f0f",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -407,6 +408,29 @@
         "Pinterest",
         "ProductEvolution",
         "ReadLaterProduct"
+      ]
+    },
+    {
+      "id": "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest CLI source adds a developer-tooling UX thread. [[JeffDickey]] uses [[Heroku]] and [[Oclif]] to present [[CLIApplicationDesign]] as a product discipline: because users meet a CLI through text and process behavior, help, examples, flags, version output, errors, debug logs, prompts, terminal polish, startup speed, contribution docs, plugins, subcommand grammar, and XDG paths all become interface design. [[CommandLineUX]] is qualified by [[AutomationFriendlyCLI]]: stdout should carry primary output while stderr carries messaging; prompts, colors, spinners, and progress bars should respect TTY and no-color conditions; and scripts need overrides, `--` pass-through parsing, and parseable output. [[StructuredCLIOutput]] and [[CLICommandGrammar]] name two reusable subpatterns: row-oriented borderless tables, JSON/CSV, filters, sorting, and column controls keep data composable, while single-command versus multi-command shape, default help behavior, and subcommand separators determine whether users can understand and automate the tool.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "AutomationFriendlyCLI",
+        "CLIApplicationDesign",
+        "CLICommandGrammar",
+        "CommandLineUX",
+        "Heroku",
+        "JeffDickey",
+        "Oclif",
+        "StructuredCLIOutput"
       ]
     },
     {

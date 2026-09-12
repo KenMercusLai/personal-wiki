@@ -132,6 +132,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-12] ingest | 12 Factor CLI Apps
+
+Ingested Jeff Dickey's CLI design essay and added source, entity, and concept pages for CLI application design, command-line UX, automation-friendly CLI behavior, structured CLI output, command grammar, developer tooling, Heroku, oclif, and Jeff Dickey.
+
 ## [2026-09-12] ingest | 10-Year Exercise Periods Make Sense
 
 Added source note for Adam D'Angelo's defense of Quora's 10-year stock-option exercise periods, created startup-equity entity and concept pages, and updated the overview with the new compensation-transparency thread.
@@ -415,6 +419,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] report | Graph health report generated
 
 327 nodes analyzed.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-12] lint | Wiki health check
 

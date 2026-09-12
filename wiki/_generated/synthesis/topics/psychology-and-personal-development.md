@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-12
-as_of_overview_commit: da1d4cf154c2ae6d32663371e66e4d9c5fb048a6
-input_digest: aea28e02d04ce795873c98a348ec83abf94b7aea61f00e86709c054eda65ae77
+as_of_overview_commit: 015f816c37aaab0d9e907b3a1f813aecfa816ce6
+input_digest: a956b4a676a5f46ccac67a9ca86cf7fde4728620c9ec50afb3267d302b52be5b
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. Prompt-cache material is present only as technical classifier spillover.
+The psychology and personal-development topic centers on motivation, creator anxiety, learning agency, user-facing cognitive friction, and a small source-scoped bridge into cognitive mediation in UX research. Goals are useful when they protect curiosity, build value around knowledge, and guide learners toward abstraction; Li Mu's stochastic-gradient-descent metaphor adds an iterative life-design frame around large objectives, small steps, rest, exploration, and directionally useful discomfort. Creator work becomes healthier when success is tied to controllable actions, audience value, and complex attribution rather than raw platform metrics. The CLI source appears here as a secondary UX-friction case: explicit help, flags, errors, prompts, command grammar, and automation contracts make technical tools easier to understand and trust. Prompt-cache material is present only as technical classifier spillover.
 
 ## Cross-source Findings
 
@@ -37,6 +37,17 @@ The psychology and personal-development topic centers on motivation, creator anx
 
 - This is a secondary topic assignment; the paragraph primarily belongs to UX research and evidence design rather than general personal development.
 - The Jamovi example is source-scoped and does not measure cognitive load directly.
+
+### Command Line Ux Reduces Cognitive Friction
+
+[[CommandLineUX]] reduces user confusion when [[CLIApplicationDesign]] makes help, flags, errors, prompts, [[StructuredCLIOutput]], and [[CLICommandGrammar]] explicit while [[AutomationFriendlyCLI]] keeps rich terminal behavior from breaking scripts and pipelines.
+
+**Evidence:** [[CommandLineUX]], [[CLIApplicationDesign]], [[StructuredCLIOutput]], [[CLICommandGrammar]], [[AutomationFriendlyCLI]], [[JeffDickey]], [[Heroku]], [[Oclif]]
+
+**Qualifications:**
+
+- This is a secondary topic assignment; the source is about CLI product design rather than individual psychology.
+- The claim concerns cognitive friction and user confidence in technical tools, not general personal development.
 
 ### Goals Can Protect Learn Drive
 
