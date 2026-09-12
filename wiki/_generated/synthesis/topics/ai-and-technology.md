@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 9bd011819f0d302d088b72b5d14e4d623cc1527d
-input_digest: 791c49f92fbb990a6b2566ff5c3e0a5624a4e9c098492cf0e112c0776e985ce3
+as_of_overview_commit: 77f1fc91c780498bce9b159e86e360902c442457
+input_digest: 333917fa3f08504fe0120ce4f03dbf116c99f6d3112ef62b070cc9d27c2b2b86
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, developer-economy traffic, data architecture, developer-platform trust, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
+The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. Learning and knowledge sources supply the baseline: durable understanding still depends on systematic source selection, active explanation, note-tool fit, transferable principles, and foundational language-model concepts before AI assistants or retrieval systems can help. AI-assisted writing, humanities workflows, education, UX research, statistical analysis, language modeling, code review, coding agents, prompt caching, production-agent infrastructure, inference routing, RAG, database consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, campaign fundraising and voter-information software, Stack Overflow traffic segmentation, platform APIs and bots, load balancing, game-server operations, and staging environments all converge on the same pattern: tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
 
 ## Cross-source Findings
 
@@ -167,3 +167,14 @@ The AI and technology thread treats software, AI systems, data work, reading and
 
 - The evidence comes from one Twitter-focused critique and does not include Twitter's internal API, safety, or monetization constraints.
 - Developer openness can conflict with abuse prevention, privacy, spam control, and business-model boundaries.
+
+### Campaign Technology Is Production Infrastructure
+
+[[OfficialCampaignTechnology]], [[CommitToVote]], [[BalloonEmail]], and [[ConversionRateOptimization]] show campaign software as production infrastructure whose value depends on ownership, integration, voter-information accuracy, fundraising reliability, and measured product improvement.
+
+**Evidence:** [[OfficialCampaignTechnology]], [[HillaryClinton]], [[CommitToVote]], [[BalloonEmail]], [[ConversionRateOptimization]]
+
+**Qualifications:**
+
+- The Clinton evidence is an internal campaign technology account, while the Sanders evidence is reported from a volunteer ecosystem; neither source proves electoral impact or provides a neutral software-quality audit.
+- Official ownership improves accountability but does not eliminate risk from vendor outages, voter-information accuracy, fundraising metrics, or organizational hierarchy.

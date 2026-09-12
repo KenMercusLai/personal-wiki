@@ -98,12 +98,13 @@
       "6aa06587d454a80d2100dc4c51d0ff2c5c15c2a94764a86bb1709627b057ed63",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
-      "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab"
+      "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
+      "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 98
+    "paragraph_count": 99
   },
-  "overview_commit": "f56da11a097a46bdcef0bd52e69b68b57fb1d08e",
-  "overview_digest": "aed45b6ff3349cc719ca4b870117e2035dc22c48d6beb0f75b5600eae148d0c6",
+  "overview_commit": "77f1fc91c780498bce9b159e86e360902c442457",
+  "overview_digest": "92c17e998842414633345151fdd59699caf6e532079cc13496b312c4b8c9354d",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -2038,6 +2039,24 @@
         "JonHughes",
         "VolunteerCampaignTechnology",
         "VoteForBernie"
+      ]
+    },
+    {
+      "id": "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The Clinton campaign technology source adds the official counterpart to that political-software thread. [[OfficialCampaignTechnology]] shows a staffed campaign team operating backend services, frontend applications, Git repositories, data warehousing, donation infrastructure, voter lookup, and email delivery for Digital, Analytics, Finance, and Organizing. [[HillaryClinton]] is therefore no longer only the hierarchical contrast in the Sanders source: [[CommitToVote]] and [[BalloonEmail]] show public voter-information and emergency fundraising infrastructure, while [[ConversionRateOptimization]] connects the campaign's donation platform to experiment-driven saved-card and ACH improvements. The main qualification is that official ownership clarifies responsibility without removing risk: vendor outages, voter-information accuracy, and fundraising metrics still have real campaign consequences.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "BalloonEmail",
+        "CommitToVote",
+        "ConversionRateOptimization",
+        "HillaryClinton",
+        "OfficialCampaignTechnology"
       ]
     }
   ],

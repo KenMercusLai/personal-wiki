@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [A billion dollar gift for Twitter](sources/a-billion-dollar-gift-for-twitter-startup-grind-medium.md) - Anil Dash's open product-strategy critique arguing that Twitter needed visible shipping, abuse response, better cultural metrics, segmented user tools, and renewed developer-platform trust.
 - [A brief history of the numeric keypad](sources/a-brief-history-of-the-numeric-keypad.md) - Francesco Bertelli's interface-history essay explaining why phone and calculator keypads use inverted layouts through calculator, cash-register, adding-machine, and AT&T telephone research lineages.
+- [A first peek behind the scenes of Hillary Clinton's technology operation](sources/a-first-peek-behind-the-scenes-of-hillary-clintons-technology-operation.md) - First-hand campaign engineering account showing Clinton's official technology team building donation, voter lookup, data, and email infrastructure at production scale.
 - [使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG](sources/shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog.md) - 黄健宏 argues for a PostgreSQL-first database architecture that reduces stack complexity by avoiding premature splits across specialized transaction, search, time-series, vector, and analytics systems.
 - [A Terrible, Horrible, No Good, Very Bad Hardbound Update](sources/a-terrible-horrible-no-good-very-bad-hardbound-update.md) - Nathan Bashaw's Hardbound postmortem showing how product love, usage, and paying customers still left unresolved growth, revenue, fundraising, and content-production economics.
 - [A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries](sources/a-tale-of-two-industries-how-programming-languages-differ-between-wealthy-and-developing-countries-stack-overflow-blog.md) - Stack Overflow analysis arguing that technology-tag traffic differs sharply between high-income countries and the rest of the world, with Android/PHP skewing lower-income and Python/R/data-science tools skewing higher-income.
@@ -382,7 +383,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Daniela Perdomo](entities/DanielaPerdomo.md) - Volunteer technologist who spearheaded the FeelTheBern policy site.
 - [Kenneth Pennington](entities/KennethPennington.md) - Sanders campaign digital director who described the volunteer-driven campaign technology ethos.
 - [Zack Exley](entities/ZackExley.md) - Sanders technology adviser who routed campaign data work into volunteer Slack channels.
-- [Hillary Clinton](entities/HillaryClinton.md) - 2016 comparison candidate for a more hierarchical, professionally staffed campaign technology operation.
+- [Hillary Clinton](entities/HillaryClinton.md) - 2016 candidate whose campaign technology appears as both a centralized comparison case and a production-scale official engineering operation.
+- [Commit to Vote](entities/CommitToVote.md) - Hillary Clinton campaign app for voter commitment and polling or caucus lookup.
+- [Balloon Email](entities/BalloonEmail.md) - Emergency Clinton campaign mass-email tool built after a vendor outage near a fundraising deadline.
 - [Joanna Wiebe](entities/JoannaWiebe.md) - Conversion copywriter whose landing-page article frames social proof as an unavoidable trust signal.
 - [Jack Dorsey](entities/JackDorsey.md) - Twitter leader addressed by Anil Dash's public advice.
 - [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
@@ -708,6 +711,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
 - [Volunteer Campaign Technology](concepts/VolunteerCampaignTechnology.md) - Campaign-supporting software and data work built by loosely affiliated supporters rather than only official staff or vendors.
 - [Campaign Technology Accountability](concepts/CampaignTechnologyAccountability.md) - Governance problem of owning accuracy, safety, targeting, legality, and consequences when campaign software affects real people.
+- [Official Campaign Technology](concepts/OfficialCampaignTechnology.md) - Staff-owned campaign software and data infrastructure for fundraising, organizing, voter education, communications, and analytics.
+- [Conversion Rate Optimization](concepts/ConversionRateOptimization.md) - Experiment-driven improvement of product flows so more users complete a desired action.
 - [RTSP Streaming](concepts/RTSPStreaming.md) - Direct network-video stream access pattern used by IP cameras and consumed by players or FFmpeg.
 - [Remote Video Recording](concepts/RemoteVideoRecording.md) - Capturing a live network stream on a remote machine through tunneling and scheduled command-line recording.
 - [Self-Hosted Surveillance Storage](concepts/SelfHostedSurveillanceStorage.md) - Keeping camera footage on user-controlled infrastructure rather than in a vendor cloud or bundled recorder.
