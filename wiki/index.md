@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [差异化战略指南：What、Why与How-36氪](sources/cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr.md) - A business-strategy guide arguing that durable differentiation depends on positioning, brand distinctiveness, category creation, customer experience, and executive-level strategic choice rather than copyable features.
 - [选题、专业性、完美主义、数据和灵感，这些创作焦虑该如何应对？](sources/xuan-ti-zhuan-ye-xing-wan-mei-zhu-yi-shu-ju-he-ling-gan-zhe-xie-chuang-zuo-jiao-lv-gai-ru-he-ying-dui.md) - A creator-anxiety retrospective arguing that purpose-led positioning, learner-mode publishing, draft feedback, platform-aware metrics, and idea-management systems make creation more sustainable.
 - [如何在工作中学习](sources/ru-he-zai-gong-zuo-zhong-xue-xi.md) - A workplace-learning essay arguing that engineers learn by reviewing real problems, reconstructing expert reasoning, finding big-picture anchors, and verifying abstractions through hands-on experiments.
 - [如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验](sources/ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan.md) - A tutorial-writing retrospective showing how notes, examples, focus, reader testing, and publishing checklists turn learning into a clear public article.
@@ -38,6 +39,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 
 ## Entities
+- [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
+- [ConvertKit](entities/ConvertKit.md) - Creator-focused email-marketing software used as an example of target-market positioning in a crowded SaaS category.
+- [Drift](entities/Drift.md) - Software company used as an example of category creation through the "conversational marketing" frame.
+- [Mailchimp](entities/Mailchimp.md) - Email-marketing software brand used as an example of category leadership and familiarity-driven consideration.
+- [Michael Porter](entities/MichaelPorter.md) - Strategy scholar cited for defining differentiation as profitable unique positioning.
 - [Alok Kanojia](entities/AlokKanojia.md) - Psychiatrist whose Creator Science interview reframes creator data anxiety around controllable actions and complex attribution.
 - [Jay Clouse](entities/JayClouse.md) - Creator educator whose niche, purpose, and Creator Science materials shape the source author's creator practice.
 - [Notion](entities/Notion.md) - Database and workspace tool used for idea capture, draft sharing, and creator activity archives.
@@ -120,6 +126,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
 
 ## Concepts
+- [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
+- [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
+- [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that teaches a market to see a new problem or category so the creator becomes the default reference point.
 - [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
 - [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
@@ -153,6 +162,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
+- [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
 - [Environmental Field](concepts/EnvironmentalField.md) - Invisible social, material, emotional, and normative surroundings that shape behavior, character, creativity, and moral judgment.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.

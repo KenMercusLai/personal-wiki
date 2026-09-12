@@ -25,6 +25,7 @@
       "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "86d2876ba7afdfdec8af032b06916ca004849e185249de841bbb3f3227c4f5d5",
+      "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
       "1c179cefc5c4b848b90e620e15578d56a581d58ca70d540af66c9832facc9a98",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
       "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
@@ -35,10 +36,10 @@
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
       "be4a85d6efd0621d9f1a29c9543140b27282ac43e8fedad95fd4b4fe41069faa"
     ],
-    "paragraph_count": 33
+    "paragraph_count": 34
   },
-  "overview_commit": "371c295276f262fa59466975fdce566f6344b452",
-  "overview_digest": "5c06fe44a0de3a89b673efb1c343f0b7cfb78734e18407d327b465324c8020d3",
+  "overview_commit": "425048969a1579b00c7f1023f5979fc0003f3ad1",
+  "overview_digest": "ac2e73eb8de080740b511f6c07abe151b080c80b41698955e559dbe17e151ef9",
   "paragraphs": [
     {
       "id": "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -474,6 +475,27 @@
         "ProgrammerFreelancing",
         "SaaSMarketing",
         "ZhangXuan"
+      ]
+    },
+    {
+      "id": "598afb80f3da78ca8cbe2783dfa89687936bec8b32332b86f65897d4fdb19d60",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest business-strategy source adds a positioning layer to the wiki's creator, SaaS, and entrepreneurship material. [[DifferentiationStrategy]] is framed as the work of giving customers a noticeable reason to choose one offer over another when features are copyable, categories saturate, and competitor benchmarking produces sameness. The source qualifies simple differentiation advice through [[BrandDistinctiveness]]: [[ByronSharp]] and Ehrenberg-Bass style arguments suggest that familiarity, fame, market share, and mental availability can matter more than subtle product differences, as illustrated by [[Mailchimp]] entering buyer consideration sets through recognition. For smaller or newer companies, the practical routes out of sameness include target-market focus such as [[ConvertKit]], customer experience, [[BlueOceanStrategy]], [[CategoryCreation]] through examples such as [[Drift]], and [[PersonalBranding]] where a visible founder or operator becomes part of the product's defensible meaning.",
+      "topic_scores": {
+        "business-and-markets": 8,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BlueOceanStrategy",
+        "BrandDistinctiveness",
+        "ByronSharp",
+        "CategoryCreation",
+        "ConvertKit",
+        "DifferentiationStrategy",
+        "Drift",
+        "Mailchimp",
+        "PersonalBranding"
       ]
     },
     {

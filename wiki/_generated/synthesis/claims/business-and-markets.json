@@ -52,8 +52,53 @@
         "SaaSMarketing",
         "PersonalBranding"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "differentiation-requires-visible-reasons-to-choose",
+      "qualifications": [
+        "The source treats differentiation as necessary mainly for firms that need attention, share, or growth; established leaders may rely more on recognition and market share.",
+        "The claim is a strategy synthesis, not a measured comparison across categories."
+      ],
+      "statement": "[[DifferentiationStrategy]] argues that crowded markets require a customer-visible reason to choose because copyable features, category saturation, and competitor benchmarking make offers converge.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DifferentiationStrategy"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "brand-distinctiveness-can-outweigh-subtle-difference",
+      "qualifications": [
+        "This does not make differentiation irrelevant for smaller or newer companies that lack broad recognition.",
+        "The topic input frames this as a qualification from the source, not as a complete summary of Byron Sharp's work."
+      ],
+      "statement": "[[BrandDistinctiveness]] qualifies differentiation-first advice: [[ByronSharp]]-style arguments suggest that familiarity, fame, market share, and mental availability can matter more than subtle product superiority, as [[Mailchimp]] illustrates in email-marketing consideration sets.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "BrandDistinctiveness",
+        "ByronSharp",
+        "Mailchimp"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "positioning-can-escape-me-too-markets",
+      "qualifications": [
+        "Creating a category or blue ocean can require educating demand from scratch, which may be costly and risky.",
+        "Personal branding and target-market focus can support distribution but do not by themselves prove product-market fit."
+      ],
+      "statement": "Smaller firms can escape me-too markets through focused positioning such as [[ConvertKit]], market reframing via [[BlueOceanStrategy]], [[CategoryCreation]] examples such as [[Drift]], and [[PersonalBranding]] that makes the offer harder to copy.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ConvertKit",
+        "BlueOceanStrategy",
+        "CategoryCreation",
+        "Drift",
+        "PersonalBranding"
+      ]
     }
   ],
-  "summary": "The business-and-markets material centers on independent creator economics. One path is overseas bootstrapped SaaS built from modular infrastructure, customer learning, marketing, and support; another is a programmer-freelancer mix where platform course income funds product experiments and personal branding becomes a traffic channel. Both cases qualify technical building with distribution, revenue stability, and founder constraints.",
+  "summary": "The business-and-markets material now combines independent creator economics with market-positioning strategy. One thread shows that bootstrapped SaaS and programmer freelancing depend on revenue stability, modular infrastructure, customer learning, marketing, support, and personal branding rather than technical building alone. The newer strategy thread adds that crowded markets require a noticeable reason to choose: firms must manage copyable features, category saturation, buyer familiarity, brand distinctiveness, and sometimes category creation or blue-ocean reframing.",
   "topic_id": "business-and-markets"
 }
