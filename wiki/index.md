@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [一个半月高强度 Claude Code 使用后感受](sources/yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou.md) - A Claude Code retrospective arguing that vibe coding accelerates iteration but requires planning, small steps, context management, verification, and humane pacing.
 - [场](sources/chang.md) - A reflective essay arguing that invisible environmental fields shape work, family, intimacy, creativity, and moral behavior.
 - [只有自律才能看到真正的自由--Durov Podcast 随笔](sources/zhi-you-zi-lv-cai-neng-kan-dao-zhen-zheng-de-zi-you-durov-podcast-sui-bi.md) - A reflective essay using a Pavel Durov podcast to connect morning phone avoidance, focused collaboration, alcohol abstinence, role modeling, and freedom through self-discipline.
 - [内在价值状态](sources/nei-zai-jia-zhi-zhuang-tai.md) - Piotr Wozniak's philosophical essay arguing that the search for objective intrinsic value can serve as a scientific meta-goal for human purpose, knowledge growth, and anxiety reduction.
@@ -41,6 +42,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent evaluated as the author's central tool for project-wide vibe coding.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
@@ -76,6 +78,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
 - [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note and small-note workflows.
+- [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
 - [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
 - [OpenClaw](entities/OpenClaw.md) - Agent-related project or incident cited as making real system-permission risks concrete.
@@ -193,6 +196,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
 - [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
 - [Vector Database](concepts/VectorDatabase.md) - Retrieval store for embedded vectors that supports similarity search over source chunks.
+- [Vibe Coding](concepts/VibeCoding.md) - AI-assisted software work mode centered on fast agent-driven iteration, planning, small steps, context care, and verification.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
 - [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.

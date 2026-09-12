@@ -5,6 +5,7 @@ tags: [software-engineering, testing, quality]
 sources:
   - yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei
   - wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo
+  - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
 last_updated: 2026-09-12
 knowledge_schema: synthesis-v1
 ---
@@ -13,7 +14,7 @@ knowledge_schema: synthesis-v1
 [[SoftwareVerification]] is the practice of checking that software behavior actually works through tests, self-testing, execution, and repeatable validation loops.
 
 ## Current Synthesis
-The sources introduce software verification through the specific risk of AI-generated code. Piglei focuses on the developer workflow: code review cannot expose every behavior issue, so engineers need automated tests and self-checks before asking others to review. The AI-first source raises the bar from local testing to production-speed verification: deterministic CI/CD, AI review, end-to-end tests, feature flags, staged rollout, monitoring, rollback, and post-deploy triage must make validation as fast as implementation.
+The sources introduce software verification through the specific risk of AI-generated code. Piglei focuses on the developer workflow: code review cannot expose every behavior issue, so engineers need automated tests and self-checks before asking others to review. The AI-first source raises the bar from local testing to production-speed verification: deterministic CI/CD, AI review, end-to-end tests, feature flags, staged rollout, monitoring, rollback, and post-deploy triage must make validation as fast as implementation. Onevcat adds the day-to-day coding-agent routine: compile after small features, run relevant tests, lint and format, use TDD when possible, and split work or use worktrees when verification latency becomes the bottleneck.
 
 ## Key Claims
 - AI-generated code should be accompanied by automated tests and self-testing.
@@ -22,6 +23,7 @@ The sources introduce software verification through the specific risk of AI-gene
 - Later bug discovery raises repair cost.
 - Agent-verifiable tests support a validation-fix loop that can improve iteration quality.
 - AI-first workflows need verification pipelines that continue through deployment, monitoring, rollback, and ticket closure.
+- Coding-agent workflows should make verification habitual and close to each small change, not deferred until a large generated diff is complete.
 
 ## Evidence
 - Testing expectation: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] recommends automated tests and self-testing for AI-implemented code.
@@ -31,12 +33,14 @@ The sources introduce software verification through the specific risk of AI-gene
 - Validation loop: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] encourages tests that allow agents to enter a verify-and-fix cycle.
 - Pipeline verification: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes validation CI, environment deployment, development and production tests, release gates, and monitoring-backed rollback.
 - Operational verification: [[wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo]] describes production-health summaries, error triage, regression reopening, and automatic ticket closure after metrics confirm a fix.
+- Local loop: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] recommends recording build/test/lint commands in project instructions, compiling after each small feature, running relevant tests, and using TDD or worktrees when helpful.
 
 ## Counterevidence & Qualifications
-Neither source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, staged rollout, and production monitoring depends on product risk, language, architecture, available observability, and the cost of false positives or false negatives.
+No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, staged rollout, and production monitoring depends on product risk, language, architecture, available observability, build latency, and the cost of false positives or false negatives.
 
 ## What Changed
 - Expanded software verification from pre-review tests and self-checks into a full AI-first delivery, observability, and rollback loop.
+- Added the Claude Code source's local compile-test-lint habit loop for agent-generated changes.
 
 ## Related Concepts
 - [[AICodingPractice]] - verification is required to make AI-assisted changes trustworthy.
@@ -45,3 +49,4 @@ Neither source defines a universal testing strategy. The appropriate mix of unit
 - [[HarnessEngineering]] - verification infrastructure is a major part of the agent harness.
 - [[AIFirstEngineering]] - AI-first work depends on verification moving as quickly as implementation.
 - [[WorkHabits]] - repeatable validation loops are a disciplined work habit.
+- [[VibeCoding]] - fast agent iteration raises the cost of weak verification.

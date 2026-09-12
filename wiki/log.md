@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-12] ingest | 一个半月高强度 Claude Code 使用后感受
+
+Added a source note and synthesis pages for Claude Code, Onevcat, and vibe coding. Updated AI coding practice, AI agent collaboration, software verification, LLM context management, Claude, Anthropic, the index, and overview to reflect the source's practitioner view: Claude Code enables unusually fast project-wide coding-agent work, but useful vibe coding depends on planning or prototyping deliberately, keeping changes small, managing context windows and compaction, continuously verifying generated code, and preserving human judgment and pace.
+
 ## [2026-09-12] ingest | 只有自律才能看到真正的自由--Durov Podcast 随笔
 
 Added source note and synthesis pages for self-discipline, alcohol abstinence, team focus, and role modeling. Added entity profiles for Pavel Durov and Lex Fridman, and updated attention management plus overview synthesis. Key claims: morning phone use can surrender the day's attention agenda; self-discipline creates freedom by refusing low-value inputs and impairments; distracted collaborators can damage morale and focus; visible example matters more than verbal instruction.
@@ -194,3 +198,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-12] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-12] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-12] graph | Knowledge graph rebuilt
+
+191 nodes, 915 edges (915 extracted, 0 inferred).
+
+## [2026-09-12] report | Graph health report generated
+
+191 nodes analyzed.
