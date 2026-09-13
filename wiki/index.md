@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
 - [All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding](sources/all-the-questions-you-wanted-answered-about-bird-scooters-and-their-recent-300-million-funding.md) - Mark Suster argues that Bird's rapid scooter-service growth was driven by dense demand, capital, local operations, data, hardware learning, and category-defining brand.
 - [All New Ideas are Combinations of Old Ideas](sources/all-new-ideas-are-combinations-of-old-ideas.md) - Tom Tunguz argues that innovation comes from recombining old ideas across fields, complementary teams, and shared organizational data.
@@ -144,6 +145,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Agno](entities/Agno.md) - AI agent framework used to assemble a text-search codebase QA assistant.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
 - [Tall West](entities/TallWest.md) - Design agency context for Brad Ellis's reach-navigation essay.
 - [Bird](entities/Bird.md) - Electric scooter service framed as a category-creating micromobility startup with rapid demand and a bundled operating moat.
@@ -510,7 +512,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Li Jiaoao](entities/LiJiaoao.md) - Blogger-investor author of the Pop Mart reading note.
 - [Chun Yin Uncle](entities/ChunYinUncle.md) - Author sharing an authorized independent-developer account of controlled AI coding practice.
 - [QuanXiao](entities/QuanXiao.md) - PM discussion community cited as the venue for senior-programmer discussion about AI coding granularity, tools, and model choice.
-- [Cursor](entities/Cursor.md) - AI coding tool mentioned in a team workflow that records implementation conventions for agent use.
+- [Cursor](entities/Cursor.md) - AI coding tool represented through convention-driven team prompting and vector-like codebase QA.
 - [Xiaoshuojun Fp](entities/XiaoshuojunFp.md) - Game server-side author using large-scale launch and operations experience to reason about scale, stability, low-ops design, and cloud-native delivery.
 - [Bernie Sanders](entities/BernieSanders.md) - 2016 presidential candidate whose campaign became the focal point for a large volunteer technology ecosystem.
 - [Jon Hughes](entities/JonHughes.md) - Volunteer coder who built Vote For Bernie as an unofficial primary and caucus voter-information site.
@@ -705,7 +707,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Game Server Scale and Stability](concepts/GameServerScaleAndStability.md) - Combined game-server challenge of correctness, resilience, capacity, recovery, and operability under real user scale.
 - [Game Server SLA](concepts/GameServerSLA.md) - Application-level game-server reliability target built above cloud-provider guarantees through governance, recovery, and observability.
 - [Low-Ops Game Server](concepts/LowOpsGameServer.md) - Game-server design approach that reduces operational cost, manual intervention, and player-visible maintenance through early workflow and framework design.
-- [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that read, write, edit, and bash can form a small but powerful coding-agent tool surface.
+- [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that small search, read, edit, write, and shell-like tool surfaces can power coding-agent loops.
 - [Agentic RAG](concepts/AgenticRAG.md) - Retrieval pattern where an agent searches and reads current material iteratively instead of relying only on static indexes.
 - [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
 - [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates drafting, checking, titles, visuals, and layout while human authors retain question, argument, taste, verification, and accountability.
@@ -736,7 +738,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Distributed Consensus](concepts/DistributedConsensus.md) - Agreement problem for independent agents or nodes working under asynchronous communication, failure, and inconsistent local views.
 - [Trust Topology](concepts/TrustTopology.md) - Verification-gate arrangement for making unreliable AI agents produce more reliable software systems.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
-- [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, and tools.
+- [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 7378e5ad9c9fc22bc10028c1d4a78d5ddd5b2bc4
-input_digest: 4a33800c308ac75cc69f73c8a0c16877755259eabd215a6cf58b8975e38402fc
+as_of_overview_commit: 1cf5634321d673932d8559678d4c6d1fa511a74b
+input_digest: 6e9546a034e4d480754cfa5bbd56f6ab9b95c598f53aec105181c3af680c4855
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest software-architecture case adds that service boundaries are workload- and tooling-dependent: microservices can solve isolation problems while later creating operational overhead that a monolith, monorepo, queue redesign, and recorded-traffic tests may reduce.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The latest codebase tutorial strengthens the context-management thread by showing a small Agno agent that answers repository questions through live search and file reading rather than a vector store.
 
 ## Cross-source Findings
 
@@ -28,13 +28,13 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Ai Authorship Requires Human Accountability
 
-[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention.
+[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility.
 
-**Evidence:** [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]], [[AIVoiceInput]], [[Soniox]], [[Spokenly]], [[Typeless]], [[VoiceInk]], [[Grok4]]
+**Evidence:** [[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]]
 
 **Qualifications:**
 
-- The evidence comes from creator and practitioner accounts, custom voice-input impressions are not benchmarked, and multi-model checking can still share blind spots without original-source verification.
+- The evidence comes from creator and practitioner accounts, and multi-model checking can still share blind spots without original-source verification.
 
 ### Ai Era Education Centers Problem Definition
 
@@ -48,9 +48,9 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Data Judgment Needs Explicit Models
 
-[[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] all make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.
+[[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.
 
-**Evidence:** [[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[Covariance]], [[Orthogonality]], [[StatisticalError]], [[OmittedVariableBias]], [[Heteroskedasticity]], [[LLMDataAnalysis]], [[PHacking]]
+**Evidence:** [[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], [[LLMDataAnalysis]], [[PHacking]]
 
 **Qualifications:**
 
@@ -58,20 +58,21 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Llm Apps Depend On Context Action Boundaries
 
-[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.
+[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools; the [[Agno]] tutorial adds a concrete codebase QA variant where [[Cursor]]-style repository context is approximated through search/read tool calls rather than a vector store.
 
-**Evidence:** [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[PrivateDataChatbot]], [[LangChain]], [[VectorDatabase]], [[Embeddings]], [[TapeAndAnchors]], [[ApproximateNearestNeighborSearch]], [[IVFFlatIndex]], [[HNSWIndex]], [[AmazonBedrock]], [[AmazonRDS]], [[AmazonAurora]], [[AgentExperience]], [[AgentInterfaceAsContext]], [[AXFriendlyInterfaceDesign]], [[AccessibilityTree]]
+**Evidence:** [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], [[AgentInterfaceAsContext]], [[PrivateDataChatbot]], [[LangChain]], [[VectorDatabase]], [[Embeddings]], [[TapeAndAnchors]], [[ApproximateNearestNeighborSearch]], [[IVFFlatIndex]], [[HNSWIndex]], [[Agno]], [[Cursor]], [[CodingAgentMinimalTooling]]
 
 **Qualifications:**
 
 - Several claims are practitioner or code-reading inferences; private cache-edit behavior, serving-side recomputation semantics, and AX interface conventions remain uncertain.
 - The pgvector latency evidence is benchmark-specific and should not be generalized without recall and workload evaluation.
+- The Agno codebase QA example demonstrates a small tutorial workflow, not large-repository recall, ranking quality, or production safety.
 
 ### Ai Coding Needs Human And System Controls
 
 [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
 
-**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[BlackBoxLearning]], [[GitHubCopilot]], [[CYY]], [[TasteAsProblemSense]], [[MaxLv]], [[MihomoRust]], [[AgentTDDResidual]], [[CoreRegressionTestSeparation]], [[DeterministicTesting]], [[SnapshotTesting]]
+**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], [[AgentTDDResidual]], [[VibeCoding]], [[ClaudeCode]]
 
 **Qualifications:**
 
@@ -79,9 +80,9 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Agent Experience Needs Permissions And Humanistic Design
 
-[[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling: high-authority agents need visible action traces, risk-tiered permissions, and clarification of user assumptions, intent, and next needs rather than mere agreement.
+[[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling through visible action traces, risk-tiered permissions, and clarification of user assumptions and intent.
 
-**Evidence:** [[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], [[HumanisticAgentDesign]], [[LLMContextManagement]], [[ComputerUse]], [[AXFriendlyInterfaceDesign]], [[AgentInterfaceAsContext]]
+**Evidence:** [[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], [[HumanisticAgentDesign]], [[LLMContextManagement]], [[ComputerUse]]
 
 **Qualifications:**
 
@@ -101,7 +102,7 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 [[InferenceLoadBalancing]], [[KVCacheAwareRouting]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[NetworkAutomation]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], and [[Pgvector]] show that routing, automation, and data architecture should specialize only when workload-aware metrics, packet contracts, topology simplicity, recall, latency, scale, or capability benefits outweigh operational complexity.
 
-**Evidence:** [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]], [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], [[DynamoInferencePlatform]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], [[AlibabaCloud]], [[NetworkAutomation]], [[IvanPepelnjak]], [[InfrastructureAsCode]], [[ChangeSafety]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], [[Timescale]], [[Pgvector]], [[VectorDatabase]], [[ApproximateNearestNeighborSearch]]
+**Evidence:** [[InferenceLoadBalancing]], [[KVCacheAwareRouting]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[NetworkAutomation]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], [[Pgvector]], [[VectorDatabase]], [[ApproximateNearestNeighborSearch]]
 
 **Qualifications:**
 
@@ -111,7 +112,7 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 [[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], [[AutonomousDrivingSafety]], [[BigDataIndustryTransformation]], and [[AutomatedDataApplication]] separate data-rich representation learning and automation from hype claims: compute growth, benchmark success, simulation-heavy agents, and dashboards do not by themselves prove safe action or business transformation.
 
-**Evidence:** [[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], [[AutonomousDrivingSafety]], [[FilipPiekniewski]], [[BigDataIndustryTransformation]], [[AutomatedDataApplication]], [[BehavioralData]]
+**Evidence:** [[DeepLearning]], [[DeepLearningScaling]], [[AIWinter]], [[AutonomousDrivingSafety]], [[BigDataIndustryTransformation]], [[AutomatedDataApplication]], [[BehavioralData]]
 
 **Qualifications:**
 
@@ -119,9 +120,9 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Software And Mobile Platforms Shape Runtime Attention And Trust
 
-[[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], [[SmartGlasses]], [[CorporateGiantFragility]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], and [[OfficialCampaignTechnology]] show non-AI software and platform infrastructure shaping runtime strategy, attention, editing, payment, developer trust, campaign operations, incumbent renewal, and post-phone form factors.
+[[MobileEcosystem]], [[AppleProductTheory]], [[SmartGlasses]], [[CorporateGiantFragility]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], and [[OfficialCampaignTechnology]] show non-AI software and platform infrastructure shaping runtime strategy, attention, editing, payment, developer trust, campaign operations, incumbent renewal, and post-phone form factors.
 
-**Evidence:** [[MobileEcosystem]], [[MobileInternet]], [[MobileRuntime]], [[MessagingAsPlatform]], [[MobilePlatformDiscovery]], [[InternetOfThingsData]], [[Apple]], [[Google]], [[Microsoft]], [[Amazon]], [[Facebook]], [[AppleProductTheory]], [[AppleGrowthLevers]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[SmartGlasses]], [[ReadLaterProduct]], [[Instapaper]], [[Vim]], [[UnixEditorLineage]], [[ConstraintShapedInterfaceDesign]], [[HTTP402PaymentRequired]], [[BrowserPaymentBroker]], [[AdBlocking]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[Twitter]], [[AnilDash]], [[OfficialCampaignTechnology]], [[HillaryClinton]], [[CommitToVote]]
+**Evidence:** [[MobileEcosystem]], [[AppleProductTheory]], [[SmartGlasses]], [[CorporateGiantFragility]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], [[OfficialCampaignTechnology]], [[Apple]], [[Google]], [[Microsoft]], [[Amazon]]
 
 **Qualifications:**
 
@@ -141,7 +142,7 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, topology-aware automation, staging realism, traffic, and controlled failure.
 
-**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], [[SoftwareVerification]]
+**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], [[SoftwareVerification]]
 
 **Qualifications:**
 
@@ -156,7 +157,7 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 **Qualifications:**
 
-- The new evidence is Airbnb-specific and source-date bounded to a 2016 company-authored article.
+- The evidence is Airbnb-specific and source-date bounded to a 2016 company-authored article.
 
 ### Financial Software Needs Domain Correct Models
 

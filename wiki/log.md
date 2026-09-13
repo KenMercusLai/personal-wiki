@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | 如何自建一个自己的 cursor codebase？
+
+Added a source note for the Agno codebase QA tutorial; inspected both local screenshots and treated them as evidence that the agent searches memory-related terms, reads `pkg/memory.go` and `pkg/cpu.go`, and produces a cgroup-based explanation from retrieved code. Created [[Agno]] and updated [[Cursor]], [[AgenticRAG]], [[CodingAgentMinimalTooling]], [[AIApplicationFramework]], index, and overview to capture the text-search alternative to Cursor-style vector codebase retrieval.
+
 ## [2026-09-13] ingest | All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding
 
 Added Mark Suster's Bird scooter funding essay; inspected all local image embeds, treating the duplicate investor scooter photos and dense beach-path scooter photo as evidence for Santa Monica adoption context. Created [[Bird]], [[MarkSuster]], [[UpfrontVentures]], [[TravisVanderZanden]], [[Micromobility]], [[DocklessFleetDensity]], and [[ElectricScooterServiceDefensibility]] pages, and updated the index and overview with Bird's capital-intensive local-operations defensibility frame.
@@ -1066,6 +1070,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

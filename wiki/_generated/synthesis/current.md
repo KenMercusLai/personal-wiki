@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 86c724fd50b593d3c69150dd094ecb76382deeb8
+as_of_overview_commit: 1cf5634321d673932d8559678d4c6d1fa511a74b
 summary: "The wiki maps how visible constraints shape AI, business, mobile design, learning, work, trust, and verification."
-episode_count: 136
-source_count: 136
-paragraph_count: 134
+episode_count: 137
+source_count: 137
+paragraph_count: 135
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
-- [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.
+- [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools; the [[Agno]] tutorial adds a concrete codebase QA variant where [[Cursor]]-style repository context is approximated through search/read tool calls rather than a vector store.
 - [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
 - [[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
 - Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]].
@@ -29,10 +29,10 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest software-architecture case adds that service boundaries are workload- and tooling-dependent: microservices can solve isolation problems while later creating operational overhead that a monolith, monorepo, queue redesign, and recorded-traffic tests may reduce.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The latest codebase tutorial adds a concrete Agno/Cursor example: codebase QA can retrieve current repository evidence through search/read tool loops rather than only through vector indexing.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
-- [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]], [[AIVoiceInput]], [[Soniox]], [[Spokenly]], [[Typeless]], [[VoiceInk]], [[Grok4]].
+- [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]].
 
 ### Business and Markets
 

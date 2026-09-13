@@ -21,29 +21,24 @@
       "global_candidate": true,
       "id": "ai-authorship-requires-human-accountability",
       "qualifications": [
-        "The evidence comes from creator and practitioner accounts, custom voice-input impressions are not benchmarked, and multi-model checking can still share blind spots without original-source verification."
+        "The evidence comes from creator and practitioner accounts, and multi-model checking can still share blind spots without original-source verification."
       ],
-      "statement": "[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention.",
+      "statement": "[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility.",
       "status": "supported",
       "supporting_wikilinks": [
         "AIAssistedWriting",
         "AIWorkflowDesign",
+        "AIVoiceInput",
         "FengRuohang",
         "Hanyang",
         "Claude",
         "Gemini",
         "ChatGPT",
-        "TasteAsProblemSense",
-        "AIVoiceInput",
-        "Soniox",
-        "Spokenly",
-        "Typeless",
-        "VoiceInk",
-        "Grok4"
+        "TasteAsProblemSense"
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "ai-era-education-centers-problem-definition",
       "qualifications": [
         "The curriculum claims are conceptual and do not yet include measured intervention evidence."
@@ -65,17 +60,13 @@
       "qualifications": [
         "The statistics and UX materials are pedagogical or practitioner sources, while the LLM-analysis caution combines a cited experiment with a personal case."
       ],
-      "statement": "[[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] all make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.",
+      "statement": "[[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.",
       "status": "supported",
       "supporting_wikilinks": [
         "UXResearchInformationDesign",
         "DataGeneratingProcess",
         "VarianceAdditivity",
-        "Covariance",
-        "Orthogonality",
         "StatisticalError",
-        "OmittedVariableBias",
-        "Heteroskedasticity",
         "LLMDataAnalysis",
         "PHacking"
       ]
@@ -85,9 +76,10 @@
       "id": "llm-apps-depend-on-context-action-boundaries",
       "qualifications": [
         "Several claims are practitioner or code-reading inferences; private cache-edit behavior, serving-side recomputation semantics, and AX interface conventions remain uncertain.",
-        "The pgvector latency evidence is benchmark-specific and should not be generalized without recall and workload evaluation."
+        "The pgvector latency evidence is benchmark-specific and should not be generalized without recall and workload evaluation.",
+        "The Agno codebase QA example demonstrates a small tutorial workflow, not large-repository recall, ranking quality, or production safety."
       ],
-      "statement": "[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.",
+      "statement": "[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools; the [[Agno]] tutorial adds a concrete codebase QA variant where [[Cursor]]-style repository context is approximated through search/read tool calls rather than a vector store.",
       "status": "supported",
       "supporting_wikilinks": [
         "RetrievalAugmentedGeneration",
@@ -98,6 +90,8 @@
         "DynamicContextCompression",
         "ModelContextProtocol",
         "ComputerUse",
+        "AgentExperience",
+        "AgentInterfaceAsContext",
         "PrivateDataChatbot",
         "LangChain",
         "VectorDatabase",
@@ -106,13 +100,9 @@
         "ApproximateNearestNeighborSearch",
         "IVFFlatIndex",
         "HNSWIndex",
-        "AmazonBedrock",
-        "AmazonRDS",
-        "AmazonAurora",
-        "AgentExperience",
-        "AgentInterfaceAsContext",
-        "AXFriendlyInterfaceDesign",
-        "AccessibilityTree"
+        "Agno",
+        "Cursor",
+        "CodingAgentMinimalTooling"
       ]
     },
     {
@@ -122,7 +112,7 @@
         "The sources are practitioner essays, case studies, and a secondary synthesis of formal and empirical agent-reliability arguments; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, residual-testing, large-project role-based workflows, distributed-consensus limits, and older human-review practices."
       ],
       "statement": "[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.",
-      "status": "supported",
+      "status": "qualified",
       "supporting_wikilinks": [
         "AICodingPractice",
         "CodeReviewPractice",
@@ -136,28 +126,19 @@
         "DistributedConsensus",
         "TrustTopology",
         "OracleRouting",
-        "VibeCoding",
-        "ClaudeCode",
-        "JuniorEngineerLearning",
         "BlackBoxLearning",
-        "GitHubCopilot",
-        "CYY",
-        "TasteAsProblemSense",
-        "MaxLv",
-        "MihomoRust",
         "AgentTDDResidual",
-        "CoreRegressionTestSeparation",
-        "DeterministicTesting",
-        "SnapshotTesting"
+        "VibeCoding",
+        "ClaudeCode"
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "agent-experience-needs-permissions-and-humanistic-design",
       "qualifications": [
         "The AX evidence is a conceptual essay rather than a validated agent-safety standard, and its examples are source-scoped to current product patterns."
       ],
-      "statement": "[[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling: high-authority agents need visible action traces, risk-tiered permissions, and clarification of user assumptions, intent, and next needs rather than mere agreement.",
+      "statement": "[[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling through visible action traces, risk-tiered permissions, and clarification of user assumptions and intent.",
       "status": "supported",
       "supporting_wikilinks": [
         "AgentExperience",
@@ -166,9 +147,7 @@
         "LLMSycophancy",
         "HumanisticAgentDesign",
         "LLMContextManagement",
-        "ComputerUse",
-        "AXFriendlyInterfaceDesign",
-        "AgentInterfaceAsContext"
+        "ComputerUse"
       ]
     },
     {
@@ -203,24 +182,13 @@
       "status": "supported",
       "supporting_wikilinks": [
         "InferenceLoadBalancing",
-        "InferenceTokenization",
         "KVCacheAwareRouting",
-        "AIBrix",
-        "Kthena",
-        "GatewayAPIInferenceExtension",
-        "DynamoInferencePlatform",
         "NetworkLoadBalancing",
         "LVSForwardingModes",
-        "LinuxVirtualServer",
-        "AlibabaCloud",
         "NetworkAutomation",
-        "IvanPepelnjak",
-        "InfrastructureAsCode",
-        "ChangeSafety",
         "TechnologyStackComplexity",
         "DatabaseConsolidation",
         "PostgreSQL",
-        "Timescale",
         "Pgvector",
         "VectorDatabase",
         "ApproximateNearestNeighborSearch"
@@ -239,7 +207,6 @@
         "DeepLearningScaling",
         "AIWinter",
         "AutonomousDrivingSafety",
-        "FilipPiekniewski",
         "BigDataIndustryTransformation",
         "AutomatedDataApplication",
         "BehavioralData"
@@ -251,41 +218,22 @@
       "qualifications": [
         "The mobile-platform evidence is partly source-date bounded, the Apple glasses claims are speculative 2018 analyst interpretation, the corporate-giant frame is a 2018 market snapshot, and campaign and platform-turnaround sources do not independently prove operational or electoral outcomes."
       ],
-      "statement": "[[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], [[SmartGlasses]], [[CorporateGiantFragility]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], and [[OfficialCampaignTechnology]] show non-AI software and platform infrastructure shaping runtime strategy, attention, editing, payment, developer trust, campaign operations, incumbent renewal, and post-phone form factors.",
-      "status": "source-scoped",
+      "statement": "[[MobileEcosystem]], [[AppleProductTheory]], [[SmartGlasses]], [[CorporateGiantFragility]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], and [[OfficialCampaignTechnology]] show non-AI software and platform infrastructure shaping runtime strategy, attention, editing, payment, developer trust, campaign operations, incumbent renewal, and post-phone form factors.",
+      "status": "supported",
       "supporting_wikilinks": [
         "MobileEcosystem",
-        "MobileInternet",
-        "MobileRuntime",
-        "MessagingAsPlatform",
-        "MobilePlatformDiscovery",
-        "InternetOfThingsData",
+        "AppleProductTheory",
+        "SmartGlasses",
+        "CorporateGiantFragility",
+        "ReadLaterProduct",
+        "Vim",
+        "HTTP402PaymentRequired",
+        "DeveloperPlatformTrust",
+        "OfficialCampaignTechnology",
         "Apple",
         "Google",
         "Microsoft",
-        "Amazon",
-        "Facebook",
-        "AppleProductTheory",
-        "AppleGrowthLevers",
-        "CorporateGiantFragility",
-        "AppleWatch",
-        "IPhone",
-        "SmartGlasses",
-        "ReadLaterProduct",
-        "Instapaper",
-        "Vim",
-        "UnixEditorLineage",
-        "ConstraintShapedInterfaceDesign",
-        "HTTP402PaymentRequired",
-        "BrowserPaymentBroker",
-        "AdBlocking",
-        "WebAdEconomics",
-        "DeveloperPlatformTrust",
-        "Twitter",
-        "AnilDash",
-        "OfficialCampaignTechnology",
-        "HillaryClinton",
-        "CommitToVote"
+        "Amazon"
       ]
     },
     {
@@ -295,7 +243,7 @@
         "The evidence is one 2018 Twilio Segment case, not a universal monolith-over-microservices rule; the source also preserves monolith trade-offs around fault isolation, cache efficiency, and dependency-update blast radius."
       ],
       "statement": "[[TwilioSegment]], [[HeadOfLineBlocking]], [[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[Centrifuge]], [[MonorepoDependencyConvergence]], [[TrafficRecorder]], and [[RecordedTrafficTesting]] show that software architecture boundaries can change as queue isolation, service count, dependency drift, test reliability, and operational load change.",
-      "status": "qualified",
+      "status": "supported",
       "supporting_wikilinks": [
         "TwilioSegment",
         "HeadOfLineBlocking",
@@ -308,7 +256,7 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "live-scale-engineering-needs-realistic-verification",
       "qualifications": [
         "Game-server evidence is domain-specific, and staging realism reduces but does not eliminate production risk because scale, data, and failure timing can still differ.",
@@ -319,10 +267,6 @@
       "supporting_wikilinks": [
         "GameServerLaunchExperience",
         "GameServerScaleAndStability",
-        "GameServerSLA",
-        "LowOpsGameServer",
-        "GameServerCloudNativeDelivery",
-        "ContinuousGameServerUpdates",
         "StagingEnvironment",
         "ChangeSafety",
         "NetworkAutomation",
@@ -332,10 +276,10 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "company-data-science-needs-role-design",
       "qualifications": [
-        "The new evidence is Airbnb-specific and source-date bounded to a 2016 company-authored article."
+        "The evidence is Airbnb-specific and source-date bounded to a 2016 company-authored article."
       ],
       "statement": "[[IndustryDataScience]], [[AcademicIndustryDataScienceTransition]], and [[DataScienceTechnologyAdoption]] show that company data science is not only tool uptake or modeling technique; it also requires business-domain framing, instrumentation judgment, communication, iteration, and knowledge-sharing structures.",
       "status": "supported",
@@ -347,7 +291,7 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "financial-software-needs-domain-correct-models",
       "qualifications": [
         "The accounting evidence is a short, incomplete primer fragment and does not yet cover concrete ledger implementation patterns such as debits, credits, reconciliation, audit trails, or payment integration."
@@ -370,7 +314,7 @@
         "The claim is a platform-strategy inference from one 2013 article rather than switching-data evidence, and productivity apps are only one possible source of platform retention."
       ],
       "statement": "[[PlatformStickiness]] links software monetization to ecosystem strategy: if [[ProductivityAppSubscriptions]] make serious tools viable on [[IOS]] or [[Android]], platform owners such as [[Apple]], [[Google]], and [[Microsoft]] may retain users who depend on indispensable apps.",
-      "status": "supported",
+      "status": "source-scoped",
       "supporting_wikilinks": [
         "PlatformStickiness",
         "ProductivityAppSubscriptions",
@@ -400,6 +344,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest software-architecture case adds that service boundaries are workload- and tooling-dependent: microservices can solve isolation problems while later creating operational overhead that a monolith, monorepo, queue redesign, and recorded-traffic tests may reduce.",
+  "summary": "AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The latest codebase tutorial strengthens the context-management thread by showing a small Agno agent that answers repository questions through live search and file reading rather than a vector store.",
   "topic_id": "ai-and-technology"
 }
