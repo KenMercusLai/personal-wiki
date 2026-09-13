@@ -3,16 +3,16 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-09-13
-as_of_overview_commit: 630573936560e37948be4656701d5d183553ebeb
-input_digest: 99bff4f102df634a2c4b183d6c6c0ebb6b6d5e1a27eaac13ac7f8dc9dd9f85c5
+last_updated: 2026-09-14
+as_of_overview_commit: e360cc454947ab9ed9beb03ff0f4e1997d9f7a11
+input_digest: cbda280a2cd5d00dfb3e34db5852c663a284f4017ac9f2bcc4ca4f6a0351d659
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Benedict Evans paragraph adds Apple as a secondary trust-system example: curated services can promise relief from higher-level digital harms such as ad tracking, loot boxes, confusing charges, phishing, and manipulative ads, though the claim is event-scoped. The Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice. The Benedict Evans paragraph adds Apple as a secondary trust-system example: curated services can promise relief from higher-level digital harms such as ad tracking, loot boxes, confusing charges, phishing, and manipulative ads, though the claim is event-scoped. The Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
 
 ## Cross-source Findings
 
@@ -45,6 +45,16 @@ Interfaces, reports, maps, command-line tools, and AI workflows shape confidence
 **Qualifications:**
 
 - The evidence spans research reports, mapping, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern.
+
+### Attribution Habits Can Preserve Empathy
+
+[[HanlonsRazor]] and [[BuilderUserFluencyGap]] add a small attribution habit to the agency material: when another person's behavior is frustrating, first checking for missing context or mismatched fluency can preserve empathy and reveal what the situation requires.
+
+**Evidence:** [[HanlonsRazor]], [[BuilderUserFluencyGap]]
+
+**Qualifications:**
+
+- The source applies this habit to software support; it does not claim all harmful or adversarial behavior is innocent misunderstanding.
 
 ### Goals And Opportunity Cost Focus Agency
 

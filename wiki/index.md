@@ -173,10 +173,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 - [Accounting for Developers 101 - Google Docs](sources/accounting-for-developers-101-google-docs.md) - John McKee and Tom Mornini introduce double-entry accounting as a compact model developers can use when building software that tracks money.
 - [Advertising models in mobile messaging apps](sources/advertising-models-in-mobile-messaging-apps-mobile-dev-memo.md) - Eric Seufert classifies early mobile messaging ad formats as opt-in brand channels, CRM-like conversations, sponsored content, and branded stickers.
+- [Are users trying to make developers angry?](sources/are-users-trying-to-make-developers-angry-exception-not-found.md) - Exception Not Found argues that frustrating user mistakes usually reflect missing context and developer-user fluency gaps rather than malicious intent.
 - [Architecting for Continuous Delivery](sources/architecting-for-continuous-delivery-thoughtworks.md) - Vishal Naik argues that continuous delivery depends on architecture, fast test feedback, and deployment-pipeline visibility rather than tooling alone.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Exception Not Found](entities/ExceptionNotFound.md) - Software-writing publication represented here by a developer support essay on user confusion, empathy, and Hanlon's Razor.
 - [Vishal Naik](entities/VishalNaik.md) - Thoughtworks author connecting continuous delivery to architecture, test feedback, and deployment-pipeline visibility.
 - [Thoughtworks](entities/Thoughtworks.md) - Technology consultancy and publisher associated with Snap CI and Go.CD in the continuous-delivery source.
 - [Snap CI](entities/SnapCI.md) - Hosted CI/CD product used as the simple staged-pipeline example in the Thoughtworks article.
@@ -921,6 +923,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
+- [Builder-User Fluency Gap](concepts/BuilderUserFluencyGap.md) - Difference between what builders find obvious from system fluency and what users can infer from the interface.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, or market test that can validate a startup's core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs but often paired with side canvases for durable artifacts.
@@ -954,6 +957,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
 - [Head-of-Line Blocking](concepts/HeadOfLineBlocking.md) - A blocking pattern where later HTTP work waits behind stalled earlier work or lost TCP data.
 - [Heuristic Evaluation](concepts/HeuristicEvaluation.md) - Expert UX evaluation method for inspecting interfaces against usability principles such as feedback, consistency, error recovery, and help.
+- [Hanlon's Razor](concepts/HanlonsRazor.md) - Judgment heuristic that explains frustrating behavior through ignorance or missing context before assuming malice.
 - [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
 - [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
 - [HNSW Index](concepts/HNSWIndex.md) - Layered graph index for approximate vector search in pgvector.

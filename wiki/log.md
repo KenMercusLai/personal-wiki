@@ -1355,6 +1355,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Are users trying to make developers angry?
+
+Added Exception Not Found's developer support essay. Key claims: user mistakes usually reflect unfamiliarity rather than malice, developers overestimate what is obvious because they know the system, patient explanation can reveal users' willingness to learn, and Hanlon's Razor is a useful default stance for support interactions.
+
 ## [2026-09-14] graph | Knowledge graph rebuilt
 
 1087 nodes, 5848 edges (5848 extracted, 0 inferred).
@@ -1366,6 +1370,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Architecting for Continuous Delivery
 
 Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD is not just tooling; monolithic codebases can slow feedback and ownership; componentization can improve delivery when boundaries are deliberate; test pyramids keep validation fast; and deployment pipelines expose release confidence, rollback points, dependencies, and bottlenecks.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

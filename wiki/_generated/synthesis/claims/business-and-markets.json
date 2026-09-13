@@ -142,6 +142,20 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "support-interactions-reveal-product-fluency-gaps",
+      "qualifications": [
+        "The evidence is a reflective developer-support essay, not a measured usability study or general customer-support dataset."
+      ],
+      "statement": "[[BuilderUserFluencyGap]] and [[HanlonsRazor]] add a support-facing product lesson: frustrating user mistakes can reveal that builders overestimate what [[InformationHierarchy]] makes obvious, so support interactions should be interpreted as product evidence before being reduced to user incompetence or malice.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "BuilderUserFluencyGap",
+        "HanlonsRazor",
+        "InformationHierarchy"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "saas-acquisition-and-trust-loops-must-preserve-retained-value",
       "qualifications": [
@@ -556,6 +570,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; startups can protect scarce attention through familiar tools and distributed-system restraint; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.",
+  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps in product hierarchy; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.",
   "topic_id": "business-and-markets"
 }

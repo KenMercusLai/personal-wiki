@@ -3,16 +3,16 @@
 generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
-last_updated: 2026-09-13
-as_of_overview_commit: 45ec85836ee92357c3cd3f8060fb387440e74869
-input_digest: f861e2709f8b22e2932244b9a04ebc9717b2e010f0cc1fd6b9e675afc9ed5a92
+last_updated: 2026-09-14
+as_of_overview_commit: e360cc454947ab9ed9beb03ff0f4e1997d9f7a11
+input_digest: 1b41c33fd23f7f1b3493eac148a62a7bc39a090e164cf3031cad0b2ef16cd735
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; startups can protect scarce attention through familiar tools and distributed-system restraint; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps in product hierarchy; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
 
 ## Cross-source Findings
 
@@ -88,6 +88,16 @@ Business and market sources show companies, investors, and creators converting t
 **Qualifications:**
 
 - The rule of threes is a coordination heuristic, and NPS interpretation depends on sampling, engagement bias, tenure, margin of error, seasonality, and methodology consistency.
+
+### Support Interactions Reveal Product Fluency Gaps
+
+[[BuilderUserFluencyGap]] and [[HanlonsRazor]] add a support-facing product lesson: frustrating user mistakes can reveal that builders overestimate what [[InformationHierarchy]] makes obvious, so support interactions should be interpreted as product evidence before being reduced to user incompetence or malice.
+
+**Evidence:** [[BuilderUserFluencyGap]], [[HanlonsRazor]], [[InformationHierarchy]]
+
+**Qualifications:**
+
+- The evidence is a reflective developer-support essay, not a measured usability study or general customer-support dataset.
 
 ### Saas Acquisition And Trust Loops Must Preserve Retained Value
 
