@@ -79,12 +79,14 @@
       "global_candidate": true,
       "id": "data-value-requires-method-and-closed-loop-use",
       "qualifications": [
-        "The LLM data-analysis source adds that easy model-generated exploration can slip into [[PHacking]] if humans do not own methodology."
+        "The LLM data-analysis source adds that easy model-generated exploration can slip into [[PHacking]] if humans do not own methodology.",
+        "The Algorithmia source uses a motivational 10x frame, but its durable claim is about business context, data provenance, testable pipelines, deployment, and debugging rather than measured 10x productivity."
       ],
-      "statement": "Data work creates value when organizations combine sound method with action loops: [[IndustryDataScience]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], and [[AutomatedDataApplication]] distinguish reusable, business-connected data systems from dashboards, invalid analyses, or mere tool adoption.",
+      "statement": "Data work creates value when organizations combine sound method, engineering practice, and action loops: [[IndustryDataScience]], [[DataScienceEngineeringPractice]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], and [[AutomatedDataApplication]] distinguish reusable, business-connected data systems from dashboards, invalid analyses, or mere tool adoption.",
       "status": "supported",
       "supporting_wikilinks": [
         "IndustryDataScience",
+        "DataScienceEngineeringPractice",
         "DataScienceTechnologyAdoption",
         "BigDataIndustryTransformation",
         "BehavioralData",
@@ -149,6 +151,6 @@
       ]
     }
   ],
-  "summary": "The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The programming-journal source adds a low-level developer practice to the same pattern: even before automation enters the scene, code work improves when design reasoning, reproduction steps, failed fixes, and lessons become visible records. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.",
+  "summary": "The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, data science, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The programming-journal and data-science engineering sources add low-level developer practices to the same pattern: even before automation enters the scene, code work improves when design reasoning, reproduction steps, tested transformations, failed fixes, and lessons become visible records. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.",
   "topic_id": "ai-and-technology"
 }

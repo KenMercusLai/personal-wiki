@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 38d9038fdec02934983dcbaa92c28e607ec9aa99
-input_digest: ee1541c2759a1abeb14e6a6bf1f22189012bac7a0c746af03ae3b4a94ed59b2a
+as_of_overview_commit: 51bd7020444aaeaf75f7a332707376f658670ad7
+input_digest: ee246055e2f75fe2a6170fee80edc97eecd92fc348d521d38d83205ef5547ce8
 ---
 
 # AI and Technology
 
 ## Current State
 
-The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The programming-journal source adds a low-level developer practice to the same pattern: even before automation enters the scene, code work improves when design reasoning, reproduction steps, failed fixes, and lessons become visible records. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.
+The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, data science, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The programming-journal and data-science engineering sources add low-level developer practices to the same pattern: even before automation enters the scene, code work improves when design reasoning, reproduction steps, tested transformations, failed fixes, and lessons become visible records. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.
 
 ## Cross-source Findings
 
@@ -62,13 +62,14 @@ The infrastructure, architecture, and optimization sources repeatedly favor tool
 
 ### Data Value Requires Method And Closed Loop Use
 
-Data work creates value when organizations combine sound method with action loops: [[IndustryDataScience]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], and [[AutomatedDataApplication]] distinguish reusable, business-connected data systems from dashboards, invalid analyses, or mere tool adoption.
+Data work creates value when organizations combine sound method, engineering practice, and action loops: [[IndustryDataScience]], [[DataScienceEngineeringPractice]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], and [[AutomatedDataApplication]] distinguish reusable, business-connected data systems from dashboards, invalid analyses, or mere tool adoption.
 
-**Evidence:** [[IndustryDataScience]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], [[AutomatedDataApplication]]
+**Evidence:** [[IndustryDataScience]], [[DataScienceEngineeringPractice]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], [[AutomatedDataApplication]]
 
 **Qualifications:**
 
 - The LLM data-analysis source adds that easy model-generated exploration can slip into [[PHacking]] if humans do not own methodology.
+- The Algorithmia source uses a motivational 10x frame, but its durable claim is about business context, data provenance, testable pipelines, deployment, and debugging rather than measured 10x productivity.
 
 ### Platforms Shape Discovery Runtime And Trust
 

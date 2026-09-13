@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: a68f89fbe3575e9e8d5b09253473588248ef4550
-input_digest: ecf429211efd1af579996d976bd570547a36b38800661994749776d61e84f067
+as_of_overview_commit: 51bd7020444aaeaf75f7a332707376f658670ad7
+input_digest: 43276097dc2d4b1cd635feeedd33e78cfe1b62b23ebfa986a9717b8256d5a8d2
 ---
 
 # Business and Markets
@@ -301,13 +301,14 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Data Science Becomes Business Capability Through Context
 
-[[IndustryDataScience]] and [[DataScienceTechnologyAdoption]] frame data science as a business capability only when statistical work is connected to company metrics, user experience, domain context, experimentation, and reusable organizational knowledge.
+[[IndustryDataScience]], [[DataScienceEngineeringPractice]], and [[DataScienceTechnologyAdoption]] frame data science as a business capability only when statistical work is connected to company metrics, user experience, domain context, experimentation, data provenance, readable and testable code, deployment, and reusable organizational knowledge.
 
-**Evidence:** [[IndustryDataScience]], [[DataScienceTechnologyAdoption]], [[Airbnb]], [[AcademicIndustryDataScienceTransition]]
+**Evidence:** [[IndustryDataScience]], [[DataScienceEngineeringPractice]], [[DataScienceTechnologyAdoption]], [[Airbnb]], [[AcademicIndustryDataScienceTransition]]
 
 **Qualifications:**
 
 - The Airbnb evidence describes one startup operating model and does not prove that every business should organize data science in the same way.
+- The Algorithmia evidence is practitioner advice and qualifies the literal 10x-developer frame as debated.
 
 ### Financial Software Needs Accounting Literacy
 

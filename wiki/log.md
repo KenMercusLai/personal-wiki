@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Becoming a 10x Data Scientist
+
+Added Algorithmia's developer-practice advice for data scientists. Key claims: industry data science needs business and data provenance framing; data-science code should be clear, documented, tested, version-controlled, and debuggable; tests should cover queries, cleaning, and transformations; tool choice, automation, and deployment knowledge make models more shareable and operational. The remote header image returned 404, and the referenced local slide image directory was unavailable.
+
 ## [2026-09-14] ingest | Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius
 
 Added the Genius transcript of Balaji Srinivasan's exit thesis. Key claims: exit complements voice, Silicon Valley is shaped by startups/forks/mobility, the Paper Belt names older paper-era institutional centers, opt-in society is proposed as a peaceful alternative, and Bitcoin plus other technologies are framed as tools for lowering exit barriers. The local image reference was malformed and no corresponding asset directory existed, so no image evidence was incorporated.
@@ -1472,6 +1476,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] ingest | Back of the Envelope Calculation | Better Programmer
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

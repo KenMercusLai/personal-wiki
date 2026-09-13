@@ -575,12 +575,14 @@
       "global_candidate": false,
       "id": "data-science-becomes-business-capability-through-context",
       "qualifications": [
-        "The Airbnb evidence describes one startup operating model and does not prove that every business should organize data science in the same way."
+        "The Airbnb evidence describes one startup operating model and does not prove that every business should organize data science in the same way.",
+        "The Algorithmia evidence is practitioner advice and qualifies the literal 10x-developer frame as debated."
       ],
-      "statement": "[[IndustryDataScience]] and [[DataScienceTechnologyAdoption]] frame data science as a business capability only when statistical work is connected to company metrics, user experience, domain context, experimentation, and reusable organizational knowledge.",
+      "statement": "[[IndustryDataScience]], [[DataScienceEngineeringPractice]], and [[DataScienceTechnologyAdoption]] frame data science as a business capability only when statistical work is connected to company metrics, user experience, domain context, experimentation, data provenance, readable and testable code, deployment, and reusable organizational knowledge.",
       "status": "supported",
       "supporting_wikilinks": [
         "IndustryDataScience",
+        "DataScienceEngineeringPractice",
         "DataScienceTechnologyAdoption",
         "Airbnb",
         "AcademicIndustryDataScienceTransition"
