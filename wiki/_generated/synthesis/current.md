@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 8957e36beda8e712512a3bf10027bda7c9393376
-summary: "The corpus maps how people, teams, and institutions turn attention, tools, trust, feedback, and constraints into durable learning, products, organizations, and public systems."
-episode_count: 180
-source_count: 180
-paragraph_count: 175
+as_of_overview_commit: 8beb860b3fa1a8fc9acda429778201c305edfefb
+summary: "The corpus maps how people and organizations turn attention, tools, trust, feedback, and visible constraints into durable learning, products, systems, and institutions."
+episode_count: 181
+source_count: 181
+paragraph_count: 176
 topic_count: 9
 ---
 
@@ -21,9 +21,9 @@ topic_count: 9
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], [[SmugMug]], and [[Jotform]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, customer contact, side-project incubation, and opportunity cost shape whether independent software can become a viable business.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], [[SideProjectIncubation]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[TroughOfSorrow]], [[StartupVisionSelling]], and [[DinnerPartyJerkTest]] frame early startup work as converting time, capital, technical choices, protected spare-time experiments, and stakeholder belief into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, familiar tools, delayed distributed architecture, outsourced concept builds, explicit [[StartupHypothesisTesting]], root-bottleneck diagnosis when launch attention fades, and founder pitches that make team fit, earned secrets, proof points, and future upside legible without losing operational honesty.
 - [[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], and [[ProductFlowFriction]], while [[MarketingAttribution]], [[AlgorithmicAttribution]], [[MarketingOperations]], and [[DeepFunnelMetrics]] add the measurement layer for deciding which channels, content, offline, brand, and lifecycle touches produce valuable outcomes. [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] still qualify acquisition-first growth: offers, steps, channels, and retained use should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, compounding product value, and whether continued use reflects current value rather than only [[SunkCostFallacy]].
+- Making constraints visible changes design choices, whether the constraint is latency in [[LatencyHierarchy]], thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]].
 - Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose.
 - Independent creation and small-product work can create autonomy, meaning, and startup option value through protected experiments such as [[SideProjectIncubation]], but they also expose creators to distribution volatility, income uncertainty, isolation, and luck.
-- Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]].
 
 ## Synthesis by Domain
 
@@ -36,21 +36,21 @@ AI, software, infrastructure, and data sources converge on human judgment, verif
 
 ### Business and Markets
 
-Business sources frame durable value as a compound of customer evidence, distribution, trust, retention, pricing, attribution, operating capacity, founder communication, and stage-appropriate constraints; the newest material adds side-project incubation as a patient path into bootstrapped SaaS or startup pivots.
+Business sources frame durable value as a compound of customer evidence, distribution, trust, retention, pricing, attribution, operating capacity, founder communication, financial discipline, and stage-appropriate constraints.
 
 - [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], and [[EngineerLeverage]] extend the investing and creator-business thread: [[Tw93]] frames engineers as able to use technical-domain understanding around AI, semiconductors, software, cloud, and Bitcoin-adjacent themes, but only when checked by company analysis, future cash-flow thinking, financial-statement reading, valuation, downside math, and avoidance of margin, shorting, unfamiliar speculation, frequent trading, and blind high-point chasing. Evidence: [[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], [[EngineerLeverage]], [[Tw93]].
 
 ### Cross-domain
 
-Cross-domain material links otherwise separate areas through recurring patterns such as feedback loops, option value, tool-mediated possibility, institutional constraints, and the tension between abstraction and lived practice.
+Cross-domain material links performance engineering, interface design, business growth, security, and algorithms through the recurring pattern that systems improve when hidden constraints become visible enough to reason about.
 
-- Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]]. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]].
-- Mobile platforms join strategic control with embodied use: [[IOS]] controls service access and app economics while larger screens make [[ThumbReachErgonomics]] and [[ReachNavigation]] part of platform-era design. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]].
+- Making constraints visible changes design choices, whether the constraint is latency in [[LatencyHierarchy]], thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]]. Evidence: [[LatencyHierarchy]], [[BackOfEnvelopeEstimation]], [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]].
+- [[BackOfEnvelopeEstimation]] uses [[ComputationalThinking]] and [[LatencyHierarchy]] to compare designs before implementation by decomposing work, estimating operation costs, and locating likely bottlenecks. Evidence: [[BackOfEnvelopeEstimation]], [[ComputationalThinking]], [[LatencyHierarchy]], [[CloudCostOptimization]].
 
 ### Culture and Media
 
-Culture and media sources track how writing, music, games, design, publishing, creator platforms, art, and storytelling become systems of attention, monetization, identity, and interpretation.
+Culture and media sources track how writing, music, games, design, publishing, creator platforms, art, and storytelling become systems of attention, monetization, identity, infrastructure, and interpretation.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
@@ -64,24 +64,24 @@ Governance sources show that public systems, platforms, privacy regimes, campaig
 
 ### History and Geopolitics
 
-History and geopolitics sources provide context for how states, platforms, industries, and technical systems inherit older institutional patterns while adapting to new strategic pressures.
+History and geopolitics sources currently provide technology, accounting, interface, and market-geography histories more than direct geopolitical claims.
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources emphasize attention, habits, motivation, trust, decision hygiene, recovery, and identity, while keeping qualifications around context, safety, structural constraint, and survivorship bias.
+Psychology and personal-development sources emphasize attention, habits, motivation, trust, decision hygiene, recovery, and identity while qualifying individual agency through context, safety, structure, and survivorship bias.
 
 - Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]]. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]], [[Xiaohongshu]].
 
 ### Science, Health, and Climate
 
-Science, health, and climate sources emphasize method, measurement, human care, risk, and uncertainty, with several sources warning against treating technical substitution as equivalent to the service or practice it replaces.
+Science, health, and climate sources emphasize method, measurement, human care, risk, and uncertainty, with several source-scoped claims rather than broad scientific consensus claims.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources connect learning, career agency, workplace dignity, independent creation, service value, and collaboration through feedback and opportunity; side projects add option value when protected time and low-pressure experimentation coexist with real customer contact.
+Work, education, and society sources connect learning, career agency, workplace dignity, independent creation, service value, and collaboration through feedback, opportunity, and surrounding conditions.
 
 - Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, or user response into better future decisions. Evidence: [[ActiveLearning]], [[JournalingPractice]], [[CreatorFeedbackLoop]], [[ContextualBandits]], [[WorkplaceLearning]].
 - Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose. Evidence: [[CareerPlanning]], [[CreativeTechnicalCareer]], [[EmployeeOpportunityDesign]], [[ProgrammerFreelancing]], [[SabbaticalCareerExperiment]].

@@ -3,28 +3,38 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-13
-as_of_overview_commit: 86c724fd50b593d3c69150dd094ecb76382deeb8
-input_digest: b5c4bf05eb297852abbaaee6a831037fba570aec4017d492ed87c02f17abd4d5
+last_updated: 2026-09-14
+as_of_overview_commit: 8beb860b3fa1a8fc9acda429778201c305edfefb
+input_digest: 876d54455722625d208e1161cafc37d3137d720bf3c7340c4145a82b74bf3036
 ---
 
 # Cross-domain
 
 ## Current State
 
-Current cross-domain synthesis links interface, business, security, and algorithmic examples through one repeated pattern: systems change when constraints become visible. Larger phones make [[ThumbReachErgonomics]] a design constraint for [[IOS]] and motivate [[ReachNavigation]]; Apple's growth depends on the changing mix of [[AppleGrowthLevers]] across iPhone pricing, services, and wearables; exposed ports create a triage map for likely security questions; and trajectory simplification trades precision for rendering and transfer efficiency through tunable tolerance.
+Current cross-domain synthesis links performance engineering, interface design, business growth, security, and applied algorithms through one repeated pattern: systems improve when hidden constraints become visible enough to reason about. [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] make cache, memory, disk, and network costs concrete before implementation; larger phones make [[ThumbReachErgonomics]] a design constraint for [[IOS]] and motivate [[ReachNavigation]]; Apple's growth depends on the changing mix of [[AppleGrowthLevers]] across iPhone pricing, services, and wearables; exposed ports create a triage map for likely security questions; and trajectory simplification trades precision for rendering and transfer efficiency through tunable tolerance.
 
 ## Cross-source Findings
 
 ### Visible Constraints Reshape Design
 
-Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]].
+Making constraints visible changes design choices, whether the constraint is latency in [[LatencyHierarchy]], thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]].
 
-**Evidence:** [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]]
+**Evidence:** [[LatencyHierarchy]], [[BackOfEnvelopeEstimation]], [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]]
 
 **Qualifications:**
 
-- These examples are heterogeneous; the common claim is about constraint-sensitive reasoning, not one unified theory of mobile UX, finance, security, and algorithms.
+- These examples are heterogeneous; the common claim is about constraint-sensitive reasoning, not one unified theory of performance engineering, mobile UX, finance, security, and algorithms.
+
+### Rough Numbers Enable Prebuild Judgment
+
+[[BackOfEnvelopeEstimation]] uses [[ComputationalThinking]] and [[LatencyHierarchy]] to compare designs before implementation by decomposing work, estimating operation costs, and locating likely bottlenecks.
+
+**Evidence:** [[BackOfEnvelopeEstimation]], [[ComputationalThinking]], [[LatencyHierarchy]], [[CloudCostOptimization]]
+
+**Qualifications:**
+
+- The latency figures are order-of-magnitude guides drawn from an older reference table, so exact constants need updating for current hardware and deployment conditions.
 
 ### Mobile Platforms Join Strategy And Embodiment
 

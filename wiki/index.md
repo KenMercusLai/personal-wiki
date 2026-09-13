@@ -57,6 +57,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Above Avalon: The Apple Services Machine](sources/above-avalon-the-apple-services-machine.md) - Neil Cybart argues that Apple Services was a hardware-dependent content distribution machine led by digital content, licensing, AppleCare, iCloud, and Apple Pay rather than a pivot away from hardware.
 - [Above Avalon: Connecting the Apple Dots](sources/above-avalon-connecting-the-apple-dots.md) - Neil Cybart argues that Apple's product strategy is a ladder of increasingly personal devices from Mac to iPhone, Apple Watch, and possible glasses.
 - [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
+- [Back of the Envelope Calculation | Better Programmer](sources/back-of-the-envelope-calculation-better-programmer.md) - Better Programmer distills Jeff Dean's system-design advice on using rough latency numbers and workload decomposition to estimate performance before implementation.
 - [Amazon is the biggest threat to bitcoin right now](sources/amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto.md) - Coin and Crypto argues that Amazon could threaten Bitcoin by staying out of crypto payments, adopting a faster rival, or creating its own token ecosystem.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
@@ -689,6 +690,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Centrifuge](entities/Centrifuge.md) - Twilio Segment infrastructure component replacing per-destination queues before the single destination service.
 - [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
+- [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
 - [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of growing a project through protected, low-pressure spare time until it teaches, enriches, or becomes a product/business candidate.
@@ -969,6 +971,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, and resource-shape assumptions.
+- [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Rough-number system-design method for comparing performance before implementation.
+- [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, and delivery flow.
