@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
       "528bc6c5cf7d6a7a300c11d448fefa8167a0ec8e4e3836d49fe270a95fcbbcf4",
       "9d3c07feb220fcb432dec0bafbd5883201df8b62d2f624b3a36d10f3f9674cb3",
@@ -120,11 +121,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 118
+    "paragraph_count": 119
   },
-  "overview_commit": "6bffc0ab811216675b497cef5f62d54ba198856a",
-  "overview_digest": "8347c8ec38fe62523884b81ed6ab3521f87834172a03db51f512c4a884cf76bd",
+  "overview_commit": "fad38aa9d6f8939045a41630365a3ea0f9a5df12",
+  "overview_digest": "a8550f7eb48a167c2f6c17998a4ea8bdff1b502138a361c1a4949a359a872be1",
   "paragraphs": [
+    {
+      "id": "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "ai-and-technology",
+        "business-and-markets"
+      ],
+      "text": "The Airbnb data-science source adds a career-transition and company-practice layer to the wiki's data material. [[AcademicIndustryDataScienceTransition]] captures the article's central move: academic research skill can transfer into industry, but only when paired with beginner's mindset, business-domain framing, audience-sensitive communication, and willingness to ship useful first versions. [[IndustryDataScience]] names the operating model behind that transition: data scientists at [[Airbnb]] use statistics, practical data munging, experimentation, and machine learning to improve company metrics and user experience, while also checking whether labels, logs, instrumentation, and model metrics actually connect to the business problem. This qualifies [[DataScienceTechnologyAdoption]] by showing that adoption is not just Python, R, or package traffic; it also includes organizational roles, knowledge repositories, seminars, mentorship, and other structures that make data work reusable.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 2,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AcademicIndustryDataScienceTransition",
+        "Airbnb",
+        "DataScienceTechnologyAdoption",
+        "IndustryDataScience"
+      ]
+    },
     {
       "id": "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
       "primary_topic": "ai-and-technology",

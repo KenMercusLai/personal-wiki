@@ -630,6 +630,10 @@ Ingested source note and updated Apple Services synthesis pages.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Academia to Data Science
+
+Added the Airbnb Engineering source note, created [[AcademicIndustryDataScienceTransition]], [[IndustryDataScience]], and source-bound author entities for [[AvneeshSaluja]], [[AlokGupta]], and [[CukyPerez]], and updated [[Airbnb]] plus [[DataScienceTechnologyAdoption]] with the article's view of industry data science, academic transition skills, messy data framing, fast iteration, and internal knowledge-sharing. Inspected both embedded images: the large office photograph was contextual and the tiny duplicate image was decorative.
+
 ## [2026-09-13] ingest | Above Avalon: The Curious State of Apple Product Pricing
 
 Added source. Key claims: Apple underpriced AirPods and Apple Watch entry models against early wearable competitors; lower entry prices, premium SKUs, scale, supply-chain leverage, owned silicon, and vertical integration let Apple make luxury wearable experiences more accessible.
@@ -957,6 +961,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Above Avalon: The Race to a Trillion
 
 Added source note for Neil Cybart's 2018 corporate-giant essay, created [[Amazon]] and [[CorporateGiantFragility]], and updated Apple/Above Avalon/Cybart plus Google, Microsoft, and Facebook with the trillion-dollar-race and incumbent-fragility frame.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

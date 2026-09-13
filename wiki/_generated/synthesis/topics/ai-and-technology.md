@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 6bffc0ab811216675b497cef5f62d54ba198856a
-input_digest: 9f1dfe6cc0ab9485f3e644354e883ec999214010d834af4a927512753784da29
+as_of_overview_commit: fad38aa9d6f8939045a41630365a3ea0f9a5df12
+input_digest: af9c3b5376540a72e0b6abae010980cc0495429153e8c3fdee3c520d0118dbf0
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology thread treats software, AI systems, data work, mobile platforms, campaign technology, developer tools, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. The Apple and platform-strategy material now strengthens the mobile branch: [[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], [[SmartGlasses]], and [[CorporateGiantFragility]] show mature device and software ecosystems seeding more personal form factors while still needing process renewal when cash, data, and scale are no longer enough. Across AI-assisted writing, voice input, education, UX research, statistical analysis, language modeling, deep-learning skepticism, coding agents, production-agent infrastructure, inference routing, PostgreSQL consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, and staging environments, tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.
+AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, and real-world verification. The Airbnb data-science source adds that company data practice is also an organizational role: technical modeling must be tied to business context, instrumentation, communication, iteration, and reusable knowledge.
 
 ## Cross-source Findings
 
@@ -126,3 +126,13 @@ The AI and technology thread treats software, AI systems, data work, mobile plat
 **Qualifications:**
 
 - Game-server evidence is domain-specific, and staging realism reduces but does not eliminate production risk because scale, data, and failure timing can still differ.
+
+### Company Data Science Needs Role Design
+
+[[IndustryDataScience]], [[AcademicIndustryDataScienceTransition]], and [[DataScienceTechnologyAdoption]] show that company data science is not only tool uptake or modeling technique; it also requires business-domain framing, instrumentation judgment, communication, iteration, and knowledge-sharing structures.
+
+**Evidence:** [[IndustryDataScience]], [[AcademicIndustryDataScienceTransition]], [[DataScienceTechnologyAdoption]], [[Airbnb]]
+
+**Qualifications:**
+
+- The new evidence is Airbnb-specific and source-date bounded to a 2016 company-authored article.

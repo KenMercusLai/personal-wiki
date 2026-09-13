@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Academia to Data Science](sources/academia-to-data-science-airbnb-engineering-data-science-medium.md) - Airbnb data scientists advise academics moving into industry data science, emphasizing business framing, communication, messy logged data, fast iteration, and knowledge-sharing.
 - [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
@@ -237,7 +238,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Diane Greene](entities/DianeGreene.md) - VMware operator cited for early hiring difficulty, hiring standards, and written scaling communication.
 - [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, culture reinforcement, all-hands communication, coaching, and product-led CEOs.
 - [John Lilly](entities/JohnLilly.md) - CS183C instructor cited for scaling stages, support-team formation, competition timing, and repeated CEO messages.
-- [Airbnb](entities/Airbnb.md) - Startup scaling case for unscalable customer work, competition-driven international growth, and founder-led culture.
+- [Airbnb](entities/Airbnb.md) - Startup scaling and data-science case for unscalable customer work, competition-driven international growth, founder-led culture, localization, and knowledge-sharing.
+- [Avneesh Saluja](entities/AvneeshSaluja.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
+- [Alok Gupta](entities/AlokGupta.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
+- [Cuky Perez](entities/CukyPerez.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [LinkedIn](entities/LinkedIn.md) - Company context for scaling lessons, public connection-count virality, and Sachin Rekhi's NPS product-planning practice.
 - [Sachin Rekhi](entities/SachinRekhi.md) - Product leader and author whose LinkedIn NPS work shows how customer-loyalty measurement can feed product planning.
 - [SurveyMonkey](entities/SurveyMonkey.md) - Survey-tool example cited for cross-channel NPS collection and analysis.
@@ -511,7 +515,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Stack Overflow Traffic Analysis](concepts/StackOverflowTrafficAnalysis.md) - Using Stack Overflow question visits by tag and country as a bounded signal of developer attention.
 - [Developer Economy Segmentation](concepts/DeveloperEconomySegmentation.md) - Splitting developer ecosystem analysis into meaningful country or market groups so global averages do not hide distinct technology patterns.
 - [Programming Technology Demand](concepts/ProgrammingTechnologyDemand.md) - Inferred developer attention or demand for languages, platforms, frameworks, and tools.
-- [Data Science Technology Adoption](concepts/DataScienceTechnologyAdoption.md) - Uptake of programming tools and workflows for data analysis, statistics, scientific computing, and machine learning.
+- [Data Science Technology Adoption](concepts/DataScienceTechnologyAdoption.md) - Uptake of programming tools, workflows, and organizational roles for data analysis, statistics, scientific computing, and machine learning.
+- [Academic-Industry Data Science Transition](concepts/AcademicIndustryDataScienceTransition.md) - Career and mindset shift from academic research into company data-science work.
+- [Industry Data Science](concepts/IndustryDataScience.md) - Company-embedded data-science practice combining statistics, product context, data pragmatism, communication, and business impact.
 - [Constraint-Shaped Interface Design](concepts/ConstraintShapedInterfaceDesign.md) - Interface conventions that emerge from practical technical limits and persist after those limits fade.
 - [Numeric Keypad Layout Conventions](concepts/NumericKeypadLayoutConventions.md) - Historical phone and calculator number-entry layouts that persist across physical and digital interfaces.
 - [Sabbatical Career Experiment](concepts/SabbaticalCareerExperiment.md) - Savings-backed employment break used to recover from burnout, search for meaningful work, and risk personal runway on a creative or entrepreneurial bet.

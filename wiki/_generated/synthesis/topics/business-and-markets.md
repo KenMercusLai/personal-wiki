@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 6bffc0ab811216675b497cef5f62d54ba198856a
-input_digest: 5e1083a4560b6e044dd0c7db7ef3b713342543c1ee3daa5d1e7c4b474df585fc
+as_of_overview_commit: fad38aa9d6f8939045a41630365a3ea0f9a5df12
+input_digest: 15936eac3ba1a7d820ab8cc17dc0a63489120233567d66c89fa783e14ff8b9c5
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], accessible-luxury pricing through [[ApplePricingStrategy]], product direction through [[AppleProductTheory]], and incumbent risk through [[CorporateGiantFragility]], where even cash-rich software giants must renew the process for creating valuable tools.
+Business and market sources show companies converting technology, brand, pricing, media, validation, and organization design into durable value only when distribution, trust, customer evidence, retention, reliability, and operating capacity keep pace with growth. The Airbnb data-science source adds data science as a business-capability pattern: analysis creates market value only when it is framed around real metrics, product experience, and organizational learning.
 
 ## Cross-source Findings
 
@@ -145,3 +145,13 @@ Business and market sources connect startup validation, product evolution, distr
 **Qualifications:**
 
 - The evidence includes competing employee, founder, and investor perspectives, so no single policy is universal.
+
+### Data Science Becomes Business Capability Through Context
+
+[[IndustryDataScience]] and [[DataScienceTechnologyAdoption]] frame data science as a business capability only when statistical work is connected to company metrics, user experience, domain context, experimentation, and reusable organizational knowledge.
+
+**Evidence:** [[IndustryDataScience]], [[DataScienceTechnologyAdoption]], [[Airbnb]], [[AcademicIndustryDataScienceTransition]]
+
+**Qualifications:**
+
+- The Airbnb evidence describes one startup operating model and does not prove that every business should organize data science in the same way.

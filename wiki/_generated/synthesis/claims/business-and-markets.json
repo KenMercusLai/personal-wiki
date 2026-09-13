@@ -284,8 +284,23 @@
         "YCombinator",
         "Slack"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "data-science-becomes-business-capability-through-context",
+      "qualifications": [
+        "The Airbnb evidence describes one startup operating model and does not prove that every business should organize data science in the same way."
+      ],
+      "statement": "[[IndustryDataScience]] and [[DataScienceTechnologyAdoption]] frame data science as a business capability only when statistical work is connected to company metrics, user experience, domain context, experimentation, and reusable organizational knowledge.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "IndustryDataScience",
+        "DataScienceTechnologyAdoption",
+        "Airbnb",
+        "AcademicIndustryDataScienceTransition"
+      ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], accessible-luxury pricing through [[ApplePricingStrategy]], product direction through [[AppleProductTheory]], and incumbent risk through [[CorporateGiantFragility]], where even cash-rich software giants must renew the process for creating valuable tools.",
+  "summary": "Business and market sources show companies converting technology, brand, pricing, media, validation, and organization design into durable value only when distribution, trust, customer evidence, retention, reliability, and operating capacity keep pace with growth. The Airbnb data-science source adds data science as a business-capability pattern: analysis creates market value only when it is framed around real metrics, product experience, and organizational learning.",
   "topic_id": "business-and-markets"
 }
