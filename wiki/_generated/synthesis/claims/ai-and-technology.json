@@ -217,9 +217,9 @@
       "global_candidate": false,
       "id": "software-and-mobile-platforms-shape-runtime-attention-and-trust",
       "qualifications": [
-        "The mobile-platform evidence is partly source-date bounded, the Apple glasses claims are speculative 2018 analyst interpretation, and campaign and platform-turnaround sources do not independently prove operational or electoral outcomes."
+        "The mobile-platform evidence is partly source-date bounded, the Apple glasses claims are speculative 2018 analyst interpretation, the corporate-giant frame is a 2018 market snapshot, and campaign and platform-turnaround sources do not independently prove operational or electoral outcomes."
       ],
-      "statement": "[[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], [[SmartGlasses]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], and [[OfficialCampaignTechnology]] show non-AI software and platform infrastructure shaping runtime strategy, attention, editing, payment, developer trust, campaign operations, and post-phone form factors.",
+      "statement": "[[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], [[SmartGlasses]], [[CorporateGiantFragility]], [[ReadLaterProduct]], [[Vim]], [[HTTP402PaymentRequired]], [[DeveloperPlatformTrust]], and [[OfficialCampaignTechnology]] show non-AI software and platform infrastructure shaping runtime strategy, attention, editing, payment, developer trust, campaign operations, incumbent renewal, and post-phone form factors.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "MobileEcosystem",
@@ -231,7 +231,11 @@
         "Apple",
         "Google",
         "Microsoft",
+        "Amazon",
+        "Facebook",
         "AppleProductTheory",
+        "AppleGrowthLevers",
+        "CorporateGiantFragility",
         "AppleWatch",
         "IPhone",
         "SmartGlasses",
@@ -274,6 +278,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology thread treats software, AI systems, data work, mobile platforms, campaign technology, developer tools, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. The Apple product-strategy material now strengthens the mobile-platform branch: [[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], and [[SmartGlasses]] show mature device ecosystems seeding more personal form factors through custom silicon, sensors, developers, and task migration. Across AI-assisted writing, voice input, education, UX research, statistical analysis, language modeling, deep-learning skepticism, coding agents, production-agent infrastructure, inference routing, PostgreSQL consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, and staging environments, tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
+  "summary": "The AI and technology thread treats software, AI systems, data work, mobile platforms, campaign technology, developer tools, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment. The Apple and platform-strategy material now strengthens the mobile branch: [[MobileEcosystem]], [[AppleProductTheory]], [[WearableComputing]], [[SmartGlasses]], and [[CorporateGiantFragility]] show mature device and software ecosystems seeding more personal form factors while still needing process renewal when cash, data, and scale are no longer enough. Across AI-assisted writing, voice input, education, UX research, statistical analysis, language modeling, deep-learning skepticism, coding agents, production-agent infrastructure, inference routing, PostgreSQL consolidation, big-data automation, read-later products, Vim-style editor lineage, browser payments, mobile runtimes, and staging environments, tools accelerate execution only when scaffolds, feedback, observability, accountable verification, and restrained specialization preserve reality contact.",
   "topic_id": "ai-and-technology"
 }

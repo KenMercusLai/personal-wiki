@@ -954,3 +954,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-13] ingest | Above Avalon: The Race to a Trillion
+
+Added source note for Neil Cybart's 2018 corporate-giant essay, created [[Amazon]] and [[CorporateGiantFragility]], and updated Apple/Above Avalon/Cybart plus Google, Microsoft, and Facebook with the trillion-dollar-race and incumbent-fragility frame.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

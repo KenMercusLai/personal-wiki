@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: b67471e2d6bd9fac7daee70e0e15e48848f2f1ef
-input_digest: c705444d33ad5c0eb71cad38806e6e61e285232d9a6af30a6b7f0ac9b0eafd2f
+as_of_overview_commit: 6bffc0ab811216675b497cef5f62d54ba198856a
+input_digest: 5e1083a4560b6e044dd0c7db7ef3b713342543c1ee3daa5d1e7c4b474df585fc
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], accessible-luxury pricing through [[ApplePricingStrategy]], and product direction through [[AppleProductTheory]], where devices become more personal by moving tasks from Mac to iPhone, Apple Watch, and possible smart glasses.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], accessible-luxury pricing through [[ApplePricingStrategy]], product direction through [[AppleProductTheory]], and incumbent risk through [[CorporateGiantFragility]], where even cash-rich software giants must renew the process for creating valuable tools.
 
 ## Cross-source Findings
 
@@ -98,13 +98,13 @@ Business and market sources connect startup validation, product evolution, distr
 
 ### Mature Apple Strategy Combines Cash And Product Theory
 
-[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, and product direction moves tasks toward more personal form factors.
+[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
 
-**Evidence:** [[Apple]], [[NeilCybart]], [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], [[SmartGlasses]], [[AirPods]]
+**Evidence:** [[Apple]], [[NeilCybart]], [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[Amazon]], [[Google]], [[Microsoft]], [[Facebook]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], [[SmartGlasses]], [[AirPods]]
 
 **Qualifications:**
 
-- The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, and smart-glasses user-base projections require later outcome evidence before being treated as confirmed.
+- The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed.
 
 ### Mobile Platforms Control Discovery And Seed New Form Factors
 

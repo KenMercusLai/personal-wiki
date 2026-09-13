@@ -7,24 +7,25 @@ sources:
   - 16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more
   - 16-mobile-theses-benedict-evans
   - a-selfie-for-the-planet
+  - above-avalon-the-race-to-a-trillion
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Google]] appears in the wiki as a web-protocol actor, scaling-organization example, mobile platform winner, and geospatial platform operator.
+[[Google]] appears in the wiki as a web-protocol actor, scaling-organization example, mobile platform winner, geospatial platform operator, and one of the corporate giants in Above Avalon's 2018 trillion-dollar-market-cap analysis.
 
 ## Current Profile
-Within the HTTP source, Google is represented as a web-platform actor whose experimental protocols and browser adoption helped shape HTTP's later performance evolution. The scaling source adds Google as an operating model for order-of-magnitude process change, small-team product creation, recruiting intensity, strong culture, and executive communication cadence. The mobile source adds Google as the [[Android]] platform winner whose strategic need for reach is complicated by [[Apple]]'s control of [[IOS]] and by OEM attempts to shape non-Google Android experiences. The mapping source adds a geospatial profile: through [[GoogleMaps]], [[GoogleEarth]], and [[StreetView]], Google turns maps into personalized, dynamic, commercially useful, and privacy-sensitive infrastructure.
+Within the HTTP source, Google is represented as a web-platform actor whose experimental protocols and browser adoption helped shape HTTP's later performance evolution. The scaling source adds Google as an operating model for order-of-magnitude process change, small-team product creation, recruiting intensity, strong culture, and executive communication cadence. The mobile source adds Google as the [[Android]] platform winner whose strategic need for reach is complicated by [[Apple]]'s control of [[IOS]] and by OEM attempts to shape non-Google Android experiences. The mapping source adds a geospatial profile: through [[GoogleMaps]], [[GoogleEarth]], and [[StreetView]], Google turns maps into personalized, dynamic, commercially useful, and privacy-sensitive infrastructure. The Above Avalon source treats Alphabet/Google as one of the five corporate giants, a data-capturing services company with a strong advertising revenue stream but possible vulnerability to competitors that capture user attention in new ways.
 
 ## Key Characteristics
-- Developed SPDY, which the source frames as the basis or close precursor of [[HTTP2]].
-- Developed [[QUIC]], which the source presents as the protocol basis for [[HTTP3]].
+- Developed SPDY and [[QUIC]], which the source frames as precursors or foundations for [[HTTP2]] and [[HTTP3]].
 - Influenced adoption through Chrome support and by later aligning with standardized HTTP/2.
 - Serves as a scaling example where processes break at each order of magnitude.
 - Is used as an example of recruiting, small-team product development, and strong culture.
 - Won mobile alongside [[Apple]] through [[Android]], but still faces reach and service-control constraints on iOS and within OEM-modified Android ecosystems.
 - Operates large-scale geospatial products that combine canonical data, crowdsourcing, local search, advertising, personalization, and sensitive location traces.
+- Appears in the 2018 corporate-giant comparison as a data-capturing services business with major cash, R&D, and advertising power, but no permanent immunity from [[CorporateGiantFragility]].
 
 ## Evidence
 - SPDY influence: [[chen-hao-http-de-qian-shi-jin-sheng]] says Google's 2010 SPDY experiment became the basis for [[HTTP2]].
@@ -39,12 +40,15 @@ Within the HTTP source, Google is represented as a web-platform actor whose expe
 - Geospatial platform: [[a-selfie-for-the-planet]] describes Google Maps as a billion-user product and Google Geo as spanning Maps, Earth, Street View, search, mail, local places, and critical databases.
 - Map personalization and control: [[a-selfie-for-the-planet]] argues that Google's maps are increasingly personalized by user, country, zoom level, legal constraint, and commercial context.
 - Location-data sensitivity: [[a-selfie-for-the-planet]] quotes [[EdParsons]] warning that location is highly sensitive and hard to anonymize reliably over time.
+- Giant-company profile: [[above-avalon-the-race-to-a-trillion]] lists Alphabet at $814B of market cap, $100B of net cash, $37B of FY2017 operating cash flow, and $17B of FY2017 R&D expense.
+- Business model: [[above-avalon-the-race-to-a-trillion]] describes Google as a services company aimed at delivering data-capturing tools to as many people as possible.
+- Attention risk: [[above-avalon-the-race-to-a-trillion]] says Google and Facebook were rewarded for predictable advertising streams but viewed as exposed to competition for user attention.
 
 ## Qualifications
-The HTTP source does not evaluate Google's broader standards strategy or the full history of SPDY, QUIC, Chrome, or BBR. The scaling source is a course-note synthesis and does not independently assess Google's culture, hiring outcomes, or management tradeoffs. The mobile source is a 2015 strategy snapshot and does not cover later Android, AI, search, assistant, antitrust, or hardware developments. The mapping source is a 2016 profile with substantial access to Google insiders, so its product ambitions and trust framing should be read alongside the privacy and cartographic criticisms it reports.
+The HTTP source does not evaluate Google's broader standards strategy or the full history of SPDY, QUIC, Chrome, or BBR. The scaling source is a course-note synthesis and does not independently assess Google's culture, hiring outcomes, or management tradeoffs. The mobile source is a 2015 strategy snapshot and does not cover later Android, AI, search, assistant, antitrust, or hardware developments. The mapping source is a 2016 profile with substantial access to Google insiders, so its product ambitions and trust framing should be read alongside the privacy and cartographic criticisms it reports. The Above Avalon source is a 2018 market-strategy snapshot and treats Alphabet primarily as a comparator among giants rather than as a full Google analysis.
 
 ## What Changed
-- Added Google as a geospatial platform operator whose maps combine personalization, local commerce, user contributions, and sensitive location data.
+- Added Google as a geospatial platform operator and as a 2018 corporate-giant comparator whose data, ads, cash, and scale remain subject to incumbent fragility.
 
 ## Relationships
 - [[HTTP2]] - Google's SPDY is presented as HTTP/2's experimental precursor.
@@ -64,3 +68,6 @@ The HTTP source does not evaluate Google's broader standards strategy or the ful
 - [[EdParsons]] - Google geospatial technologist and public advocate in the mapping source.
 - [[DigitalCartography]] - Google's maps are a central example of dynamic, platform-controlled cartography.
 - [[LocationDataPrivacy]] - Google's geospatial products depend on sensitive movement data.
+- [[CorporateGiantFragility]] - Google appears as a powerful data and advertising incumbent that still faces attention and process risk.
+- [[Amazon]] - corporate-giant comparator in the Above Avalon source.
+- [[Facebook]] - advertising and attention-risk comparator in the Above Avalon source.

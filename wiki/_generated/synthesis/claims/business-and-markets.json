@@ -173,9 +173,9 @@
       "global_candidate": true,
       "id": "mature-apple-strategy-combines-cash-and-product-theory",
       "qualifications": [
-        "The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, and smart-glasses user-base projections require later outcome evidence before being treated as confirmed."
+        "The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed."
       ],
-      "statement": "[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, and product direction moves tasks toward more personal form factors.",
+      "statement": "[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.",
       "status": "qualified",
       "supporting_wikilinks": [
         "Apple",
@@ -186,6 +186,11 @@
         "AppleContentDistributionStrategy",
         "ApplePricingStrategy",
         "AppleProductTheory",
+        "CorporateGiantFragility",
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "Facebook",
         "AppleWatch",
         "IPhone",
         "WearableComputing",
@@ -281,6 +286,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], accessible-luxury pricing through [[ApplePricingStrategy]], and product direction through [[AppleProductTheory]], where devices become more personal by moving tasks from Mac to iPhone, Apple Watch, and possible smart glasses.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], accessible-luxury pricing through [[ApplePricingStrategy]], product direction through [[AppleProductTheory]], and incumbent risk through [[CorporateGiantFragility]], where even cash-rich software giants must renew the process for creating valuable tools.",
   "topic_id": "business-and-markets"
 }

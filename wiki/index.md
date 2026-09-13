@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
 - [Above Avalon: Apple on Track to Buy 50% of Itself in Three Years](sources/above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years.md) - Neil Cybart argues that Apple could retire half of its peak share count by combining ongoing buybacks with repatriated foreign cash after tax reform.
@@ -127,6 +128,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
 - [此间的山林](entities/CiJianDeShanLin.md) - Authorial identity synthesizing distributed-systems and verification-topology arguments for multi-agent AI coding.
 - [Kiran](entities/Kiran.md) - Formal-verification researcher presented as applying distributed-consensus, FLP, and Byzantine-fault reasoning to multi-agent software development.
 - [Michael Rothrock](entities/MichaelRothrock.md) - Software engineer presented as the source of the Trust Topology reliability framework for AI-agent coding pipelines.
@@ -484,6 +486,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.
 - [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus and content distribution economics.
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
