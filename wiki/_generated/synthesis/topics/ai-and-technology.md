@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: bec7c02e7b1f69a0230dac77ec9675130ef34044
-input_digest: a7d6debbe3274b7c7aedd982bf109f1671e39e78a1b879d817a4e4bac9380fd4
+as_of_overview_commit: 38d9038fdec02934983dcbaa92c28e607ec9aa99
+input_digest: ee1541c2759a1abeb14e6a6bf1f22189012bac7a0c746af03ae3b4a94ed59b2a
 ---
 
 # AI and Technology
 
 ## Current State
 
-The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.
+The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The programming-journal source adds a low-level developer practice to the same pattern: even before automation enters the scene, code work improves when design reasoning, reproduction steps, failed fixes, and lessons become visible records. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.
 
 ## Cross-source Findings
 
@@ -28,14 +28,15 @@ AI-assisted work is strongest when models provide scaffolding for drafts, prompt
 
 ### Verification Is Agentic Speed Limit
 
-Coding-agent and automation speed depend less on raw generation or execution than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], and [[AutomatedGameTesting]] that turn fast output or gameplay change into reviewable, testable, and recoverable feedback.
+Coding-agent and automation speed depend less on raw generation or execution than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]], and individual practices such as [[ProgrammingJournal]] that turn fast output, gameplay change, or debugging work into reviewable, testable, and recoverable feedback.
 
-**Evidence:** [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]]
+**Evidence:** [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]], [[ProgrammingJournal]]
 
 **Qualifications:**
 
 - The sources differ in workflow style, from collaboration-first to automation-first, but converge on verification as the merge or promotion boundary.
 - The Riot Games source is not about AI agents, but it reinforces the same feedback-loop pattern through staged trust and anti-flake test conventions.
+- The programming-journal source is practitioner advice, but it shows the same evidence habit at the individual debugging level.
 
 ### Context And Infrastructure Bound Agent Reliability
 

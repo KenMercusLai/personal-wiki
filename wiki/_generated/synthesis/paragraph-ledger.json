@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ae0582049b443c8cbbb07c4b0f7fbe3cd23acb0322e9788073549eb1d2fa9553",
       "4ba5c63c6bbf169540710ed9c887b1c3e03573213da5b2e216655489e794132c",
       "9dda0860ac57ac9cd322c93b1e205580077c56d19085424be9c2075c879c2c50",
       "a78787d9b1192c7605e04f428dbe5ba89e63a17d0b6cdcad18b55454a932b1e0",
@@ -180,11 +181,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 178
+    "paragraph_count": 179
   },
-  "overview_commit": "bec7c02e7b1f69a0230dac77ec9675130ef34044",
-  "overview_digest": "a424694f50fe816e5f8d7f59319122d2a0303f9db14cc57b589f4e80136a83b4",
+  "overview_commit": "38d9038fdec02934983dcbaa92c28e607ec9aa99",
+  "overview_digest": "6b4e87262bf36c9fb44f8357298b8267a679a486c346c9724622901b525c4463",
   "paragraphs": [
+    {
+      "id": "ae0582049b443c8cbbb07c4b0f7fbe3cd23acb0322e9788073549eb1d2fa9553",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest MakeUseOf source adds a programming-specific journaling layer to the wiki's learning and productivity material. [[ProgrammingJournal]] names the practice: record design reasoning, algorithm steps, bug descriptions, reproduction steps, possible causes, attempted fixes, wins, future questions, goals, and post-session lessons so coding work becomes visible and reusable. This sharpens [[JournalingPractice]] beyond daily reflection prompts by making the journal a technical thinking surface, and it complements [[ActiveLearning]], [[PersonalProductivity]], [[JuniorEngineerLearning]], and [[SoftwareVerification]] because written entries can reduce cognitive load, slow premature implementation, preserve debugging evidence, and make progress more visible. The source remains advice-oriented; its inspected lead image was decorative, and four later referenced local images were unavailable for inspection.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "JournalingPractice",
+        "JuniorEngineerLearning",
+        "PersonalProductivity",
+        "ProgrammingJournal",
+        "SoftwareVerification"
+      ]
+    },
     {
       "id": "4ba5c63c6bbf169540710ed9c887b1c3e03573213da5b2e216655489e794132c",
       "primary_topic": "ai-and-technology",

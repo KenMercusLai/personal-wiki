@@ -4,13 +4,15 @@
       "global_candidate": true,
       "id": "learning-improves-through-feedback-loops",
       "qualifications": [
-        "Feedback can mislead when labels, incentives, or proxies reward the wrong thing."
+        "Feedback can mislead when labels, incentives, or proxies reward the wrong thing.",
+        "The programming-journal source is advice-oriented, so its benefits should be treated as plausible learning practice rather than measured effect."
       ],
-      "statement": "Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, or user response into better future decisions.",
+      "statement": "Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, user response, or written debugging records into better future decisions.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
         "JournalingPractice",
+        "ProgrammingJournal",
         "CreatorFeedbackLoop",
         "ContextualBandits",
         "WorkplaceLearning"
@@ -52,13 +54,15 @@
       "global_candidate": true,
       "id": "tools-shape-what-work-feels-possible",
       "qualifications": [
-        "Tool leverage still depends on fit with the user's goals and context; more powerful tools can also add distraction or maintenance burden."
+        "Tool leverage still depends on fit with the user's goals and context; more powerful tools can also add distraction or maintenance burden.",
+        "A journal is a low-tech tool, so its leverage comes from capture and reflection rather than automation."
       ],
-      "statement": "Tools, interfaces, and infrastructure shape what work feels possible by changing entry cost, reviewability, deployment friction, creative range, or operational repairability.",
+      "statement": "Tools, interfaces, and infrastructure shape what work feels possible by changing entry cost, reviewability, deployment friction, creative range, operational repairability, or the visibility of a learner's progress.",
       "status": "supported",
       "supporting_wikilinks": [
         "TechnicalAccessibility",
         "PersonalKnowledgeManagement",
+        "ProgrammingJournal",
         "NextJSDeployment",
         "CodeReviewPractice",
         "ArtworkPersonalization"
@@ -128,6 +132,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. The newest Aytekin Tank paragraph adds a side-project incubation qualification: spare-time work can create career or business option value when protected time, customer contact, play, flexible deadlines, and tolerance for uncertainty keep experiments alive before full-time commitment. The topic also keeps the service-economy qualification from Vox, the bounded-trust layer from Rick Manelius, and the Netflix machine-learning product case, where collaboration and evaluation loops matter because personalization depends on human creative work as well as data systems.",
+  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. The newest MakeUseOf paragraph adds a programming-journal practice: learners and programmers can make coding progress more visible by writing design reasoning, bug hypotheses, reproduction steps, attempted fixes, wins, future questions, and lessons. That joins the existing journaling, active-learning, workplace-learning, and code-review threads, while remaining qualified as practitioner advice rather than measured evidence. The topic also keeps the side-project incubation pattern, the service-economy qualification from Vox, the bounded-trust layer from Rick Manelius, and the Netflix machine-learning product case, where collaboration and evaluation loops matter because personalization depends on human creative work as well as data systems.",
   "topic_id": "work-education-and-society"
 }

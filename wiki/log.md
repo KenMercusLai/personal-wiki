@@ -1371,6 +1371,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Become a Better Coder by Keeping a Programming Journal
+
+Added the MakeUseOf programming-journal article. Key claims: coding improves when programmers externalize design and debugging thoughts, record reproduction steps and failed fixes, keep visible wins, park future questions, and summarize lessons after sessions or milestones. Inspected the local lead image and treated it as decorative; four later referenced local article images were unavailable, so no image evidence from them was incorporated.
+
 ## [2026-09-14] ingest | Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded
 
 Added Stitch Fix's seetd article on office seating optimization. Key claims: subjective workplace seating goals can be encoded as cost terms, team clustering or dispersion can be controlled through interaction weights, preferences can be represented with assignment matrices, simulated annealing helps search complex seating spaces, and random-configuration averages can roughly normalize heterogeneous objective terms. Local GIF assets referenced by the source were missing during ingest.
@@ -1468,6 +1472,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] ingest | Back of the Envelope Calculation | Better Programmer
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
