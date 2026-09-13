@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 65f8ea2be89752fec9455e05d828efebd829efa4
+as_of_overview_commit: 9b6f19966ff06e93601f5e479586fbf29897b5ee
 summary: "The wiki maps practical agency across AI, markets, learning, culture, governance, and work through accountability, evidence, constraints, and accessibility."
-episode_count: 148
-source_count: 148
-paragraph_count: 144
+episode_count: 149
+source_count: 149
+paragraph_count: 145
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ The culture-and-media layer connects experience-centered practices across learni
 
 ### Governance and Institutions
 
-The governance-related material spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, agent systems, and public action.
+The governance-related material spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, creator-platform distribution, product boundaries, social platforms, agent systems, and public action.
 
 ### History and Geopolitics
 
@@ -78,7 +78,7 @@ The topic remains mostly indirect, combining beginner scientific computing, atte
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, technical accessibility, and basic worker stability.
+Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, technical accessibility, creator-economy platform structure, and basic worker stability.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

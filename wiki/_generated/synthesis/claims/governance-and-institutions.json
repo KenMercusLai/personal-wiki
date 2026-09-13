@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "creator-platforms-govern-distribution-and-exit",
+      "qualifications": [
+        "The claim is source-scoped to Andrew Chen's creator-economy startup thesis and should not be treated as measured evidence across all creator categories.",
+        "The governance relevance is platform control and exit power, not formal law or public policy."
+      ],
+      "statement": "[[CreatorEconomyStartups]] show a platform-governance problem around distribution and exit: [[LinkInBioCompetition]] concentrates organic access into scarce profile real estate, [[AlgorithmicFeastAndFamine]] makes feed-dependent traffic unstable, and the [[CreatorGraduationProblem]] gives top creators leverage when they control the audience relationship.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "CreatorEconomyStartups",
+        "LinkInBioCompetition",
+        "AlgorithmicFeastAndFamine",
+        "CreatorGraduationProblem",
+        "CreatorPowerLaw"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "platform-owners-govern-access-through-selective-distribution",
       "qualifications": [
         "The Apple evidence is a 2019 analyst interpretation and does not prove later adoption, competition, hardware demand, or regulatory outcomes."
@@ -189,6 +206,6 @@
       ]
     }
   ],
-  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, agent systems, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
+  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, creator platforms, agent systems, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; creator-economy startups show how scarce profile links, feed algorithms, creator power laws, and graduation risk allocate distribution and exit power; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
   "topic_id": "governance-and-institutions"
 }

@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | Creator Economy 2.0: What we've learned, why it's hard, and what's next
+
+Added Andrew Chen's creator-economy startup thesis; created [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]], and updated [[AndrewChen]], index, and overview to capture the article's argument about creator concentration, scarce profile distribution, take-rate pressure, social-feed volatility, and the higher defensibility bar for future creator startups. The source contains remote image embeds only; no local image files were available to inspect.
+
 ## [2026-09-13] ingest | A from-scratch tour of Bitcoin in Python
 
 Added Andrej Karpathy's pure-Python Bitcoin walkthrough; created [[AndrejKarpathy]], [[Cryptos]], [[CryptographicIdentity]], [[BitcoinAddressEncoding]], [[UTXOModel]], [[BitcoinTransactionModel]], [[BitcoinScript]], [[BitcoinProofOfWork]], and [[FromScratchProtocolLearning]], and expanded [[Bitcoin]] and [[Python]] with protocol-level implementation evidence.
@@ -1196,6 +1200,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] ingest | Andrej Karpathy on X: on technical accessibility
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "47d210a5f050308345a9959b4d2333076c07a2ba82dc5bc291a009e229ca4fe9",
       "19306d5457f2cad048289e914b4c0d9d7a534f9cd04aa95d7965b70a24e6c088",
       "f61099e3aaf40cde7cc579f840c3c35b3b510ea6b070f1b0a47298ca17882521",
       "6ab09c55a0062cb9c5ec7f9a9a425284bde48345cacb0fe3c8ac679688be5ef6",
@@ -146,11 +147,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 144
+    "paragraph_count": 145
   },
-  "overview_commit": "65f8ea2be89752fec9455e05d828efebd829efa4",
-  "overview_digest": "8d7692968daefb1582112dde8dbb5cd0d08af213640db4dd40a7f8cd5d7c9b29",
+  "overview_commit": "9b6f19966ff06e93601f5e479586fbf29897b5ee",
+  "overview_digest": "e0a362900763a5ff5ccd49d890d3920f43d51fec7507931b0514c543c74ade24",
   "paragraphs": [
+    {
+      "id": "47d210a5f050308345a9959b4d2333076c07a2ba82dc5bc291a009e229ca4fe9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest Andrew Chen source adds a creator-economy startup layer to the wiki's startup, marketplace, and creator-work material. [[CreatorEconomyStartups]] are framed as promising but structurally difficult because they inherit a [[CreatorPowerLaw]], compete for scarce profile distribution through [[LinkInBioCompetition]], face the [[CreatorGraduationProblem]] when top creators can leave or renegotiate take rates, and suffer [[AlgorithmicFeastAndFamine]] from social-feed dependence. Chen's bullish version of the sector looks less like a thin tip jar and more like AI- or video-first, managed marketplace-like infrastructure that brings demand, proprietary functionality, durable subscriptions, and higher-value niche monetization to creators rather than merely renting their existing audience.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AlgorithmicFeastAndFamine",
+        "CreatorEconomyStartups",
+        "CreatorGraduationProblem",
+        "CreatorPowerLaw",
+        "LinkInBioCompetition"
+      ]
+    },
     {
       "id": "19306d5457f2cad048289e914b4c0d9d7a534f9cd04aa95d7965b70a24e6c088",
       "primary_topic": "work-education-and-society",

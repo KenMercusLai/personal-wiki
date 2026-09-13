@@ -58,6 +58,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
+- [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [Acquisition is Easy. Retention is Hard.](sources/acquisition-is-easy-retention-is-hard-product-habits.md) - Product Habits argues that modern SaaS acquisition is increasingly easy and visible, while retention depends on product strength, low-churn customer fit, account expansion, and marketing aligned with sticky value.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
@@ -361,7 +362,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
-- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose Trough of Sorrow essay frames pre-product-market-fit struggle as both emotional endurance and root-bottleneck diagnosis.
+- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle and creator-economy company dynamics through named strategic patterns.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
 - [Instapaper](entities/Instapaper.md) - Read-later service whose first decade shows product evolution around distraction-reduced reading, parsing, offline access, notes, search, business-model changes, and reliability.
 - [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
@@ -772,6 +773,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
 - [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
+- [Creator Economy Startups](concepts/CreatorEconomyStartups.md) - Creator-monetization companies analyzed through distribution scarcity, power-law supply, take-rate pressure, and defensibility.
+- [Creator Power Law](concepts/CreatorPowerLaw.md) - Concentration pattern where a small number of creators capture most audience, earnings, and platform revenue.
+- [Link-In-Bio Competition](concepts/LinkInBioCompetition.md) - Zero-sum fight for scarce organic traffic from the prominent external link on a creator's social profile.
+- [Creator Graduation Problem](concepts/CreatorGraduationProblem.md) - Risk that successful creators outgrow a platform, pressure its take rate downward, or leave with their audience.
+- [Algorithmic Feast and Famine](concepts/AlgorithmicFeastAndFamine.md) - Spiky acquisition pattern created by dependence on social-feed algorithms and viral creator content.
 - [Digital Media Monetization](concepts/DigitalMediaMonetization.md) - Turning digital media audience attention, brands, platform distribution, commerce, and studio work into diversified revenue.
 - [Creator Positioning](concepts/CreatorPositioning.md) - Choosing a creator direction by defining audience, value, credibility, and a defensible point of view.
 - [Idea Management](concepts/IdeaManagement.md) - Capturing, storing, reviewing, and cultivating ideas so passing inspiration can become future work.
