@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-13
-as_of_overview_commit: 7378e5ad9c9fc22bc10028c1d4a78d5ddd5b2bc4
-input_digest: fb56deb179ee6c850606388412b58041c40df53c9ffa664b652c45334b7f03aa
+as_of_overview_commit: 08b46beb5b91e0969fca200018e945b0ab9746d1
+input_digest: 056865c710a137dc917384c48a4c5a3a6b60853289093d0678a23cb6c690d265
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest architecture case adds that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.
+Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest self-education source adds that learning can be treated as recurring maintenance of judgment, opportunity, earning power, and resilience, while the architecture case shows that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.
 
 ## Cross-source Findings
 
@@ -93,14 +93,15 @@ Work, education, and society sources frame effective agency as a mix of habits, 
 
 ### Learning Goals Protect Motivation
 
-[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.
+[[SelfEducationInvestment]], [[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame learning as recurring maintenance and valued investment: meaningful goals can focus study, protect curiosity, and make knowledge feel worth pursuing; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.
 
-**Evidence:** [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[FreeLearning]], [[CoerciveLearning]], [[ReverseLearning]], [[SuperMemo]], [[CommonCurrencyModel]]
+**Evidence:** [[SelfEducationInvestment]], [[DariusForoux]], [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[FreeLearning]], [[CoerciveLearning]], [[ReverseLearning]], [[SuperMemo]], [[CommonCurrencyModel]]
 
 **Qualifications:**
 
 - The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.
 - The knowledge-valuation and anti-schooling claims are theoretical and source-scoped rather than experimentally validated.
+- Foroux's self-education investment claim is autobiographical and motivational rather than controlled evidence that learning directly causes career or financial outcomes.
 - Formal education is not identical to coercive learning; the risk mechanism is imposed low-value pressure overriding personal valuation.
 
 ### Abstraction Supports Learning In Unstable Domains

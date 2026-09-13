@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 1cf5634321d673932d8559678d4c6d1fa511a74b
+as_of_overview_commit: 08b46beb5b91e0969fca200018e945b0ab9746d1
 summary: "The wiki maps how visible constraints shape AI, business, mobile design, learning, work, trust, and verification."
-episode_count: 137
-source_count: 137
-paragraph_count: 135
+episode_count: 139
+source_count: 139
+paragraph_count: 136
 topic_count: 9
 ---
 
@@ -29,28 +29,28 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The latest codebase tutorial adds a concrete Agno/Cursor example: codebase QA can retrieve current repository evidence through search/read tool loops rather than only through vector indexing.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. Recent additions include codebase QA through search/read tools and architecture boundaries that change with operational load.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]].
 
 ### Business and Markets
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. Recent sources add micromobility, recombined specialized knowledge, and aggregator trust-transfer cases.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition.
 
 - [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
 
 ### Cross-domain
 
-Cross-domain synthesis links interface, business, security, and algorithmic examples through one repeated pattern: systems change when constraints become visible. Larger phones make thumb reach a design constraint, Apple's growth depends on changing levers, exposed ports create security triage questions, and trajectory simplification trades precision for rendering and transfer efficiency.
+Cross-domain synthesis links interface, business, security, and algorithmic examples through a repeated pattern: systems change when constraints become visible, whether those constraints are thumb reach, growth levers, exposed services, or display cost.
 
 - Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]]. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]].
 - Mobile platforms join strategic control with embodied use: [[IOS]] controls service access and app economics while larger screens make [[ThumbReachErgonomics]] and [[ReachNavigation]] part of platform-era design. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]].
 
 ### Culture and Media
 
-The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form shapes learning; localization and backend operations shape player experience; media-brand portfolios depend on platform revenue; and object-oriented aesthetics treats art and metaphor as participatory disclosure.
+The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics: form shapes learning, operations shape experience, and media portfolios depend on platform economics.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]].
 - [[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability. Evidence: [[IndieGameDevelopment]], [[AmirRajan]], [[ADarkRoom]], [[AppStore]], [[CreativeTechnicalCareer]].
@@ -61,24 +61,24 @@ Governance material spans control problems across institutions, infrastructure, 
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions, numeric keypads add physical-interface lineage, and the accounting primer traces double-entry accounting through Luca Pacioli.
+History and geopolitics currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions, numeric keypads add physical-interface lineage, and the accounting primer traces double-entry accounting through Luca Pacioli.
 
 ### Psychology and Personal Development
 
-Psychology and personal-development material treats agency as shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, uncertainty shortcuts, and close social systems. Tools and systems can help judgment, but can also become status games, overconfident signals, privacy risks, or brittle abstractions unless evidence and ownership remain explicit.
+Psychology and personal-development material treats agency as shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, uncertainty shortcuts, and close social systems. Tools and systems help judgment only when evidence, ownership, calibration, and trust remain explicit.
 
 - Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].
 
 ### Science, Health, and Climate
 
-Science, health, and climate remains mostly indirect. It covers attention and mental load in productivity advice, a philosophy-of-science claim about intrinsic value, and a source-scoped developer-data claim where data-science technology adoption may reflect research capacity and market structure.
+Science, health, and climate remains mostly indirect, covering attention and mental load in productivity advice, a philosophy-of-science claim about intrinsic value, and a source-scoped developer-data claim where data-science technology adoption may reflect research capacity and market structure.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. Architecture boundaries also appear as work design because repos, queues, deployment surfaces, dependency rollout, tests, scaling, and on-call burden can consume or restore engineering capacity.
+Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. Self-education is treated as recurring maintenance of judgment and resilience, while architecture boundaries also appear as work design because repos, queues, deployment surfaces, dependency rollout, tests, scaling, and on-call burden can consume or restore engineering capacity.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

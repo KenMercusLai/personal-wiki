@@ -135,11 +135,14 @@
       "qualifications": [
         "The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.",
         "The knowledge-valuation and anti-schooling claims are theoretical and source-scoped rather than experimentally validated.",
+        "Foroux's self-education investment claim is autobiographical and motivational rather than controlled evidence that learning directly causes career or financial outcomes.",
         "Formal education is not identical to coercive learning; the risk mechanism is imposed low-value pressure overriding personal valuation."
       ],
-      "statement": "[[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame meaningful goals as a way to focus study, help learners value knowledge, and protect curiosity; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.",
+      "statement": "[[SelfEducationInvestment]], [[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame learning as recurring maintenance and valued investment: meaningful goals can focus study, protect curiosity, and make knowledge feel worth pursuing; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.",
       "status": "qualified",
       "supporting_wikilinks": [
+        "SelfEducationInvestment",
+        "DariusForoux",
         "GoalSetting",
         "LearnDrive",
         "KnowledgeValuationNetwork",
@@ -451,6 +454,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest architecture case adds that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.",
+  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest self-education source adds that learning can be treated as recurring maintenance of judgment, opportunity, earning power, and resilience, while the architecture case shows that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.",
   "topic_id": "work-education-and-society"
 }

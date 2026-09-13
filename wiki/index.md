@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
 - [All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding](sources/all-the-questions-you-wanted-answered-about-bird-scooters-and-their-recent-300-million-funding.md) - Mark Suster argues that Bird's rapid scooter-service growth was driven by dense demand, capital, local operations, data, hardware learning, and category-defining brand.
@@ -146,6 +147,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Darius Foroux](entities/DariusForoux.md) - Personal-growth author framing self-education as a daily investment and resilience strategy.
 - [Agno](entities/Agno.md) - AI agent framework used to assemble a text-search codebase QA assistant.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
 - [Tall West](entities/TallWest.md) - Design agency context for Brad Ellis's reach-navigation essay.
@@ -561,6 +563,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
 
 ## Concepts
+- [Self-Education Investment](concepts/SelfEducationInvestment.md) - Treating ongoing education as a recurring investment in judgment, opportunity, earning power, and resilience.
 - [Reach Navigation](concepts/ReachNavigation.md) - Mobile navigation pattern that places frequent actions and movement within comfortable one-handed thumb reach.
 - [Thumb Reach Ergonomics](concepts/ThumbReachErgonomics.md) - Mobile interaction constraint created by how far a thumb can comfortably and accurately reach while holding a phone.
 - [Micromobility](concepts/Micromobility.md) - Short-haul lightweight transportation pattern for trips between walking, transit, bikes, and cars.
