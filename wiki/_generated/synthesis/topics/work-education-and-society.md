@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-14
-as_of_overview_commit: 63b4ce5c7b6e4f54efde2c265a1ff7afaa29a596
-input_digest: d33d42eb152a95d141cd16c5c0774c491ab60f33bbffc6bb44a694748ebf39db
+as_of_overview_commit: f8b4a5b9399ce743c31d21da2508f7277b4cf17d
+input_digest: 16d8c5610e54b6d9132110f217cfe408ac73d3c5efdbdceb52a98bdf7ad521b1
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. The newest MOOC analytics source adds that measuring activity at scale is not enough: education data becomes useful only when interpreted with causal, methodological, and design judgment.
 
 ## Cross-source Findings
 
@@ -68,13 +68,14 @@ Workplaces teach through structure and safety: [[WorkplaceLearning]], [[Workplac
 
 ### Education Should Teach Problem Framing And Model Judgment
 
-AI-era education should strengthen problem framing, abstraction, statistical model judgment, academic writing, project-based inquiry, and taste as problem sense rather than only execution of already-structured tasks.
+AI-era and data-rich education should strengthen problem framing, abstraction, [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks or counting platform activity.
 
-**Evidence:** [[ComputationalThinking]], [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[TasteAsProblemSense]], [[MetacognitiveFeedback]]
+**Evidence:** [[ComputationalThinking]], [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[TasteAsProblemSense]], [[MetacognitiveFeedback]], [[MOOCLearningAnalytics]], [[BehavioralData]]
 
 **Qualifications:**
 
-- The education sources are programmatic essays; implementation depends on teachers, artifacts, assessment, and institutional constraints.
+- The education sources are programmatic essays or methodological critiques; implementation depends on teachers, artifacts, assessment, institutional constraints, and causal evidence.
+- Large behavior datasets can identify activity-outcome correlations without explaining whether activity caused learning.
 
 ### Knowledge Systems Serve Output Not Hoarding
 

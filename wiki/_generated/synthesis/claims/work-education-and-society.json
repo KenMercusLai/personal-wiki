@@ -84,9 +84,10 @@
       "global_candidate": true,
       "id": "education-should-teach-problem-framing-and-model-judgment",
       "qualifications": [
-        "The education sources are programmatic essays; implementation depends on teachers, artifacts, assessment, and institutional constraints."
+        "The education sources are programmatic essays or methodological critiques; implementation depends on teachers, artifacts, assessment, institutional constraints, and causal evidence.",
+        "Large behavior datasets can identify activity-outcome correlations without explaining whether activity caused learning."
       ],
-      "statement": "AI-era education should strengthen problem framing, abstraction, statistical model judgment, academic writing, project-based inquiry, and taste as problem sense rather than only execution of already-structured tasks.",
+      "statement": "AI-era and data-rich education should strengthen problem framing, abstraction, [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks or counting platform activity.",
       "status": "supported",
       "supporting_wikilinks": [
         "ComputationalThinking",
@@ -94,7 +95,9 @@
         "AcademicWriting",
         "ProjectBasedLearning",
         "TasteAsProblemSense",
-        "MetacognitiveFeedback"
+        "MetacognitiveFeedback",
+        "MOOCLearningAnalytics",
+        "BehavioralData"
       ]
     },
     {
@@ -146,6 +149,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. The newest MOOC analytics source adds that measuring activity at scale is not enough: education data becomes useful only when interpreted with causal, methodological, and design judgment.",
   "topic_id": "work-education-and-society"
 }

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "efd3f2c25af148c68b74d7490515879a973bd5ee5e570c547268682b7c058779",
       "f6871f953ce61ee8c7352746aed9be46d79e18126bd53f3cc6b1953afd3c5450",
       "f8d95b92c773a1fd59e48dbee661ad7dbade57faaa514c07969c162f3bbbc186",
       "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
@@ -194,11 +195,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 192
+    "paragraph_count": 193
   },
-  "overview_commit": "63f7dbe808a7e69db2475889e9b725e86dd4e137",
-  "overview_digest": "338174166ba5509afa9529974f049f4430a18ceb1a4c0f1dff07a767f98352bc",
+  "overview_commit": "f8b4a5b9399ce743c31d21da2508f7277b4cf17d",
+  "overview_digest": "c8b7705de8fa74eec2b87b3132182c8718ddf69edea262f3dc9edd13b14e5675",
   "paragraphs": [
+    {
+      "id": "efd3f2c25af148c68b74d7490515879a973bd5ee5e570c547268682b7c058779",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest EdTech Researcher source adds a methodological caution to the wiki's big-data, education, and statistical-model-thinking material. New [[MOOCLearningAnalytics]] frames MOOC log analysis as a field with unusually granular [[BehavioralData]], but [[JustinReich]]'s critique shows how those traces can be collapsed into simple proxies such as minutes, clicks, completed activities, video hours, or problem counts. [[KhanAcademy]], [[Udacity]], [[SanJoseStateUniversity]], [[GoogleCourseBuilder]], and [[EdX]] become early examples where activity correlates with scores, passing, final-project completion, or certificates, while [[StatisticalModelThinking]] gains the explicit warning that predictive activity-achievement correlations do not establish causal learning mechanisms. This qualifies [[BigDataIndustryTransformation]]: data scale and behavioral traces are not enough if the analysis only confirms that students who do course work are more likely to do well in the course.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "BehavioralData",
+        "BigDataIndustryTransformation",
+        "EdX",
+        "GoogleCourseBuilder",
+        "JustinReich",
+        "KhanAcademy",
+        "MOOCLearningAnalytics",
+        "SanJoseStateUniversity",
+        "StatisticalModelThinking",
+        "Udacity"
+      ]
+    },
     {
       "id": "f6871f953ce61ee8c7352746aed9be46d79e18126bd53f3cc6b1953afd3c5450",
       "primary_topic": "business-and-markets",

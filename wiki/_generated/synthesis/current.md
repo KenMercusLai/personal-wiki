@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 63f7dbe808a7e69db2475889e9b725e86dd4e137
-summary: "A map of practical judgment: understand systems, preserve evidence, pair change with stable demand, build feedback loops, and design tools around real constraints."
-episode_count: 197
-source_count: 197
-paragraph_count: 192
+as_of_overview_commit: f8b4a5b9399ce743c31d21da2508f7277b4cf17d
+summary: "A map of practical judgment: understand systems, preserve evidence, pair change with stable demand, build feedback loops, and interpret data with causal and human context."
+episode_count: 198
+source_count: 198
+paragraph_count: 193
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion.
 - [[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
+- AI-era and data-rich education should strengthen problem framing, abstraction, [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks or counting platform activity.
 
 ## Synthesis by Domain
 
@@ -81,7 +81,7 @@ Science, health, and climate sources are currently narrower and source-scoped, c
 
 ### Work, Education, and Society
 
-Work, education, and society sources connect learning, careers, workplace practice, creator work, labor conditions, civic technology, and operations; durable capability comes from active practice, feedback, safe questions, system curiosity, and visible evidence of work.
+Work, education, and society sources connect learning, careers, workplace practice, creator work, labor conditions, civic technology, and operations; durable capability comes from active practice, feedback, safe questions, system curiosity, visible evidence of work, and careful interpretation of data-rich education signals.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].
