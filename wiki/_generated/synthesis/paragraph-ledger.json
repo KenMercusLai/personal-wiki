@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4ba5c63c6bbf169540710ed9c887b1c3e03573213da5b2e216655489e794132c",
       "9dda0860ac57ac9cd322c93b1e205580077c56d19085424be9c2075c879c2c50",
       "a78787d9b1192c7605e04f428dbe5ba89e63a17d0b6cdcad18b55454a932b1e0",
       "6fbcb95afbf0092a37743eea2d0d0af313e44ff3bb656ea96a77b02cf3ef29c5",
@@ -179,11 +180,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 177
+    "paragraph_count": 178
   },
-  "overview_commit": "a68f89fbe3575e9e8d5b09253473588248ef4550",
-  "overview_digest": "f4d6ed65e63b709cc8603b6674f152d722ae6790272e693424e8baaf8e098baf",
+  "overview_commit": "bec7c02e7b1f69a0230dac77ec9675130ef34044",
+  "overview_digest": "a424694f50fe816e5f8d7f59319122d2a0303f9db14cc57b589f4e80136a83b4",
   "paragraphs": [
+    {
+      "id": "4ba5c63c6bbf169540710ed9c887b1c3e03573213da5b2e216655489e794132c",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Stitch Fix Technology source adds an operations-optimization example to the wiki's computational-thinking and workplace material. [[OfficeSeatingOptimization]] names the article's model: subjective office-planning goals become explicit cost terms for team proximity, personal seat preferences, distance from current seats, distance from current neighbors, and past configurations. [[Seetd]] is the concrete [[StitchFix]] tool, using [[SimulatedAnnealing]] plus local search to find low-cost seating assignments when exact or simple formulations are too restrictive. [[LinearProgramming]] appears as the simpler preference-assignment frame, while the full source remains qualified because the local optimization GIF assets were missing during ingest and the article does not measure whether optimized seating improved collaboration or comfort.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "LinearProgramming",
+        "OfficeSeatingOptimization",
+        "Seetd",
+        "SimulatedAnnealing",
+        "StitchFix"
+      ]
+    },
     {
       "id": "9dda0860ac57ac9cd322c93b1e205580077c56d19085424be9c2075c879c2c50",
       "primary_topic": "governance-and-institutions",

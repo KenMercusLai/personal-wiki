@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius](sources/balaji-srinivasan-silicon-valleys-ultimate-exit-genius.md) - Balaji Srinivasan argues that Silicon Valley should lower barriers to exit through startups, forks, opt-in societies, Bitcoin, and other technology-mediated alternatives to paper-era institutions.
+- [Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded](sources/be-smarter-be-seetd-stitch-fix-technology-multithreaded.md) - Stitch Fix explains seetd, an internal office seating tool that models people-to-seat allocation through weighted optimization terms and simulated annealing.
 - [How to Build a Startup Without Quitting Your Day Job](sources/aytekin-tank-jotform-how-to-build-a-startup-without-quitting-your-day-job.md) - Aytekin Tank argues that side projects can grow through protected spare time, customer-value extras, play, and low-pressure experimentation before becoming products or bootstrapped businesses.
 - [Automation is making human labor more valuable than ever](sources/automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy.md) - Vox argues that automation can make standardized goods cheaper while increasing demand for labor-intensive services where human attention, craft, and personal connection are part of the product.
 - [Automated Testing for League of Legends](sources/automated-testing-for-league-of-legends-riot-games-technology.md) - Riot Games' Jim Merrill explains how BVS runs large-scale automated League of Legends functional tests through CI, RPC control, staged trust, reporting, and anti-flake conventions.
@@ -191,6 +192,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
+- [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by the seetd office seating optimization source.
+- [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
 - [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem framed as institutionally shaped by startups, forks, labor mobility, and exit.
 - [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
 - [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
@@ -976,6 +979,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
+- [Office Seating Optimization](concepts/OfficeSeatingOptimization.md) - Assigning people to desks by translating workplace goals into constraints and weighted cost terms.
+- [Simulated Annealing](concepts/SimulatedAnnealing.md) - Probabilistic optimization method that explores neighboring solutions and sometimes accepts worse moves while a temperature schedule cools.
+- [Linear Programming](concepts/LinearProgramming.md) - Optimization approach for linear objectives under linear constraints, used here for simpler seating assignment formulations.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, and resource-shape assumptions.
 - [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Rough-number system-design method for comparing performance before implementation.
 - [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.

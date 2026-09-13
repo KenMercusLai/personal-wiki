@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: a68f89fbe3575e9e8d5b09253473588248ef4550
-input_digest: 351bc5ab2c923a363bdfdb88855fdc60f643436044ec9f1962e3f64340963ecd
+as_of_overview_commit: bec7c02e7b1f69a0230dac77ec9675130ef34044
+input_digest: a7d6debbe3274b7c7aedd982bf109f1671e39e78a1b879d817a4e4bac9380fd4
 ---
 
 # AI and Technology
 
 ## Current State
 
-The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, and Bitcoin-as-exit claims all need workload- and institution-aware qualification rather than simple technology triumphalism.
+The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.
 
 ## Cross-source Findings
 
@@ -49,14 +49,15 @@ Agent reliability is bounded by [[LLMContextManagement]], [[AgentMemory]], [[Pro
 
 ### Tool Fit Beats Tool Absolutism
 
-The infrastructure and architecture sources repeatedly favor tool fit over absolutism: [[NetworkAutomation]] must account for design cost and local processing overhead, [[Ansible]] can be useful yet poorly suited to some large data-heavy workflows, [[Nornir]] can fit those workflows better, [[DatabaseConsolidation]] warns against premature specialization, and [[SQLiteProductionTradeoffs]] show that even radical simplification through [[SQLite]] depends on workload, file-system, transaction, and availability constraints.
+The infrastructure, architecture, and optimization sources repeatedly favor tool fit over absolutism: [[NetworkAutomation]] must account for design cost and local processing overhead, [[Ansible]] can be useful yet poorly suited to some large data-heavy workflows, [[Nornir]] can fit those workflows better, [[DatabaseConsolidation]] warns against premature specialization, [[SQLiteProductionTradeoffs]] show that simplification through [[SQLite]] depends on workload constraints, and [[OfficeSeatingOptimization]] chooses [[SimulatedAnnealing]] when simple [[LinearProgramming]] assignment is too restrictive.
 
-**Evidence:** [[NetworkAutomation]], [[Ansible]], [[Nornir]], [[DatabaseConsolidation]], [[SQLiteProductionTradeoffs]], [[SQLite]]
+**Evidence:** [[NetworkAutomation]], [[Ansible]], [[Nornir]], [[DatabaseConsolidation]], [[SQLiteProductionTradeoffs]], [[SQLite]], [[OfficeSeatingOptimization]], [[SimulatedAnnealing]], [[LinearProgramming]]
 
 **Qualifications:**
 
 - The Ansible-versus-Nornir evidence is a 2019 local templating benchmark, so it qualifies rather than fully replaces broader Ansible network-automation claims.
 - SQLite is strongest in a single-machine, read-heavy operating shape; high availability, heavy writes, long transactions, backups, or migration needs can make PostgreSQL or MySQL simpler.
+- The seetd source explains the model and search method, but does not measure whether optimized seating improved collaboration or comfort.
 
 ### Data Value Requires Method And Closed Loop Use
 
@@ -89,3 +90,14 @@ Production reliability depends on realistic evidence and operational design, inc
 
 - The sources span startups, game servers, network automation, staging, automated game testing, and database deployment, so the shared claim is about operational pattern rather than one stack.
 - BVS numbers and architecture come from Riot's 2016 company-authored source and should be treated as source-date-specific.
+
+### Formal Models Make Operational Tradeoffs Visible
+
+Formal models make messy operational tradeoffs inspectable when teams turn goals into variables, constraints, and cost terms: [[Seetd]] uses [[OfficeSeatingOptimization]] to expose choices about team proximity, preferences, movement, and new-neighbor exposure before searching with [[SimulatedAnnealing]].
+
+**Evidence:** [[Seetd]], [[OfficeSeatingOptimization]], [[SimulatedAnnealing]]
+
+**Qualifications:**
+
+- A formal model can create false objectivity if the chosen cost terms and weights are treated as neutral rather than policy choices.
+- The seetd GIF assets were missing during ingest, so the generated synthesis relies on the article prose and available title image rather than inspected animations.

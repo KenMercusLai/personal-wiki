@@ -1371,6 +1371,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded
+
+Added Stitch Fix's seetd article on office seating optimization. Key claims: subjective workplace seating goals can be encoded as cost terms, team clustering or dispersion can be controlled through interaction weights, preferences can be represented with assignment matrices, simulated annealing helps search complex seating spaces, and random-configuration averages can roughly normalize heterogeneous objective terms. Local GIF assets referenced by the source were missing during ingest.
+
 ## [2026-09-14] ingest | Automation is making human labor more valuable than ever
 
 Added Vox's The new new economy article on automation and human-premium service labor. Key claims: automation can cheapen standardized goods while increasing the relative value of human attention, some companies sell the absence of automation as craft or provenance, coffee service shows visible inefficiency as a premium signal, therapy and education are partly changed rather than simply automated by apps and videos, and service-sector "inefficiencies" can become benefits as richer economies spend more on care, mentoring, and experience. Inspected the local embedded illustration and treated it as decorative.
@@ -1464,6 +1468,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] ingest | Back of the Envelope Calculation | Better Programmer
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
