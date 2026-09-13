@@ -610,6 +610,8 @@ Added source note and synthesis pages for AI winter, deep learning scaling, auto
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | AWS costs every programmer should know
+
 ## [2026-09-13] ingest | AI 语音输入工具提示词
 
 Added source note for the AI voice-input cleanup prompt, created AI Voice Input plus Spokenly, Typeless, VoiceInk, Soniox, and Grok4 pages, and updated AI-assisted writing, AI workflow design, Xiaohongshu, the index, and the overview.
@@ -800,6 +802,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

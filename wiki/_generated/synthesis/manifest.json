@@ -1,26 +1,26 @@
 {
   "content_date": "2026-09-13",
   "corpus": {
-    "episode_count": 109,
-    "source_count": 109
+    "episode_count": 110,
+    "source_count": 110
   },
   "generated": true,
   "global": {
-    "candidate_digest": "55e3c4ed5ac747a27651ed738e34a9390ff5097fca216bd7836a6ace72e4b3ad",
-    "compacted_at": "2026-09-12T23:59:27.374384Z",
+    "candidate_digest": "f0a7dcce631cbe85ca07c70a470fe30414505b8cfb2b4bcade307926ee6cc264",
+    "compacted_at": "2026-09-13T00:10:50.963779Z",
     "content_date": "2026-09-13",
     "corpus": {
-      "episode_count": 109,
-      "source_count": 109
+      "episode_count": 110,
+      "source_count": 110
     },
-    "output_digest": "e9d92f4339cdb45862196c1bac60ff842bb00d0b931001ed071e83682835c2e8",
-    "overview_commit": "8f6c20197407286475cf7e036cc1ea11108a0389",
-    "overview_digest": "937e082cf27238cea82597eec432e5880d6f528edc80e6c836d206f533bc2467",
+    "output_digest": "c8153ce93d014a2e34479f8634f530a289848cdd32eb59bea43319a2e91b8d55",
+    "overview_commit": "7e5c4d3a7f01cee1b185bc63f71d0c26cca32985",
+    "overview_digest": "dd1a0ef4bd581649cd4bfa577bc463bb22a6c6a3c2bff6aad763ca0b8c6f5049",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "8f6c20197407286475cf7e036cc1ea11108a0389",
-  "overview_digest": "937e082cf27238cea82597eec432e5880d6f528edc80e6c836d206f533bc2467",
+  "overview_commit": "7e5c4d3a7f01cee1b185bc63f71d0c26cca32985",
+  "overview_digest": "dd1a0ef4bd581649cd4bfa577bc463bb22a6c6a3c2bff6aad763ca0b8c6f5049",
   "paragraph_count": 108,
   "schema_version": 1,
   "topics": {
@@ -62,8 +62,8 @@
     },
     "psychology-and-personal-development": {
       "claim_digest": "7518f130b9af5b15584b00726cc619db1581c2efc51730c3c0f347072edac029",
-      "input_digest": "21f9826221346334932fe188ead90a30416cbd6ecac866e24bf6684255542ffe",
-      "output_digest": "25b23c2db98cd193d91da5a02dfc9717e913fa4219205296fb5a29783c23a702",
+      "input_digest": "7a6f2f63177834fbe358a57469c0fb4fcb2b7a42155549832db9805fe8e7d870",
+      "output_digest": "531a237e0f8a9a2f308d04e905537b0923ca609b848f3fb0813ea3142b49cda3",
       "title": "Psychology and Personal Development"
     },
     "science-health-and-climate": {
@@ -73,9 +73,9 @@
       "title": "Science, Health, and Climate"
     },
     "work-education-and-society": {
-      "claim_digest": "4d7353442d3e9302d48ea8834b83860c05c3ab5384db426d1b033ab31f74ccf5",
-      "input_digest": "b25b913b87a1aec2f72b5ffe14e704b89a98bb9dcb2fc35a1f4c1c4989c713ae",
-      "output_digest": "8af4e7915264a6ac7ca131de0bcc39f3f580ab8b7d3586503f43e17194ddcf01",
+      "claim_digest": "0beddd7a6a2bcef40b939fd57aa551c400b904c627f5b4d8773c016feb0d77eb",
+      "input_digest": "a93b25d446117926d8710c1ea657eab94304597d88043cc68f99c22aefbee938",
+      "output_digest": "1bf2f640146e3d70820ba4fc8681b78e1b758e8fd1c27fdfdd71826b05770baf",
       "title": "Work, Education, and Society"
     }
   }

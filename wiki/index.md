@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
 - [AI 语音输入工具提示词](sources/ai-yu-yin-shu-ru-gong-ju-ti-shi-ci.md) - Practical prompt and tool note for turning raw Chinese voice transcripts into clean written text without adding unsupported information.
@@ -303,7 +304,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
 - [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
-- [AWS](entities/AWS.md) - Cloud infrastructure provider used for EC2 self-hosting and Auth0's standardized large-scale SaaS architecture.
+- [AWS](entities/AWS.md) - Cloud infrastructure provider used for EC2 self-hosting, large-scale SaaS architecture, AI/database services, and infrastructure unit-cost reasoning.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
@@ -616,7 +617,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
 - [Computational Pun Translation](concepts/ComputationalPunTranslation.md) - Machine-assisted translation approach that searches target-language corpora for meaning-adjacent homophone or pun candidates.
 - [Computational Thinking](concepts/ComputationalThinking.md) - Problem-solving frame built around decomposition, pattern recognition, abstraction, and algorithm design, extended here for AI-era education.
-- [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, and provider choices.
+- [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, and resource-shape assumptions.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, and delivery flow.

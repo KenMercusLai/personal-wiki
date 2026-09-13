@@ -52,7 +52,7 @@
       "377b0e8dc1b692d05f52fd90c1a6be745f67a2675e38a685cd66a3897dc2b222",
       "0ef63bda5decd65ecf4ca60af25ce692ccd481ca954b171d4a565ea39fe0d003",
       "c7a67598d7ba9da2bc85ed454ae9e8740b80c0e94bd8a2fd2e9701e4c2c010b9",
-      "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
+      "09514f4f12a07ad272504d5989962eee44053a3706775f9b03d9f28ee02aac99",
       "bbf741c8a107a28dfeacac4f08320f8fa6ac3e4ef3417dafe92bc50f0d09ed88",
       "0536fd62928330e69fab9071e49aa0a7b85933b82ba0041f672c9a30847403ba",
       "70781883d36df89116a337dfa021db2281a9cc8f06f45cb41ad54e540855e285",
@@ -112,8 +112,8 @@
     ],
     "paragraph_count": 108
   },
-  "overview_commit": "8f6c20197407286475cf7e036cc1ea11108a0389",
-  "overview_digest": "937e082cf27238cea82597eec432e5880d6f528edc80e6c836d206f533bc2467",
+  "overview_commit": "7e5c4d3a7f01cee1b185bc63f71d0c26cca32985",
+  "overview_digest": "dd1a0ef4bd581649cd4bfa577bc463bb22a6c6a3c2bff6aad763ca0b8c6f5049",
   "paragraphs": [
     {
       "id": "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
@@ -1068,11 +1068,14 @@
       ]
     },
     {
-      "id": "4a11f5c21d7d795d7812d507e7a78fa83182570bd2209db0aa1505a34fb2b25c",
+      "id": "09514f4f12a07ad272504d5989962eee44053a3706775f9b03d9f28ee02aac99",
       "primary_topic": "work-education-and-society",
-      "secondary_topics": [],
-      "text": "The newest deployment source adds a practical cloud-cost thread. [[Idoubi]] frames [[Vercel]] as a highly convenient [[NextJS]] deployment platform whose GitHub integration, previews, generated domains, logs, analytics, and framework support can speed launch, but whose metered functions, image optimization, analytics, storage, and team features can become expensive. [[CloudCostOptimization]] therefore appears as a choice among direct spend, operations work, and migration effort: [[AWS]] EC2 with PM2 or Docker lowers platform abstraction while adding server, Nginx, DNS, and TLS work, whereas [[Cloudflare]] Pages keeps a managed path but requires [[EdgeRuntime]] compatibility. [[NextJSDeployment]] in this source is less about a single best host than about matching cost pressure, runtime constraints, database clients such as [[Neon]] or [[Supabase]], and adjacent services like Cloudflare DNS, security, D1, Workers, and R2.",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest cloud-cost sources add both migration and unit-economics layers. [[Idoubi]] frames [[Vercel]] as a highly convenient [[NextJS]] deployment platform whose GitHub integration, previews, generated domains, logs, analytics, and framework support can speed launch, but whose metered functions, image optimization, analytics, storage, and team features can become expensive. [[CloudCostOptimization]] therefore appears as a choice among direct spend, operations work, migration effort, and resource shape: [[AWS]] EC2 with PM2 or Docker lowers platform abstraction while adding server, Nginx, DNS, and TLS work, whereas [[Cloudflare]] Pages keeps a managed path but requires [[EdgeRuntime]] compatibility. The AWS cost-reference source adds that programmers should know rough vCPU, RAM, storage, request, and bandwidth costs before scale makes the bill painful; memory-heavy, S3-request-heavy, and cross-AZ or internet-transfer-heavy designs can have very different economics even when their feature behavior looks similar. [[NextJSDeployment]] in this cluster is less about a single best host than about matching cost pressure, runtime constraints, database clients such as [[Neon]] or [[Supabase]], and adjacent services like Cloudflare DNS, security, D1, Workers, and R2.",
       "topic_scores": {
+        "psychology-and-personal-development": 1,
         "work-education-and-society": 1
       },
       "wikilinks": [
