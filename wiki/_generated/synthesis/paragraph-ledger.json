@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2f17507d2cc227a8f67624e1e016a4f05d52ce07b4e8f658441b96a1299c8707",
       "323c2c82764bae0d6cfb86e8970031f2de20720f3e722955df2e43e31f3d30c6",
       "a80de710a511c9150cd0a94540fe5b5423d1a415d9f75888be471842d5678fa5",
       "8f555ecb6c5393ce00ba0b63b84b9a093f69eb0e95364de11b56c8c2274efd23",
@@ -151,11 +152,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 149
+    "paragraph_count": 150
   },
-  "overview_commit": "e12390aa2617cf6fc5d69b2de85f96694703dfeb",
-  "overview_digest": "0ae00c98ca0e14d5000865feb6535d7113434e2e1dd2199fce5a40d5b5ef3328",
+  "overview_commit": "d8181b540808b2d261937ecba5d1cb7be9b27387",
+  "overview_digest": "3d61fe81e257c179b6d9c1ddc6496d36ae174e3a4d5a12dcb1793675cfb650b8",
   "paragraphs": [
+    {
+      "id": "2f17507d2cc227a8f67624e1e016a4f05d52ce07b4e8f658441b96a1299c8707",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Andrew Chen writing-output source adds a cadence and feedback layer to the wiki's AI-assisted and explanatory-writing material. [[AndrewChen]] argues that writing more depends on a system: collect raw ideas continuously, give yourself permission to publish small posts, reuse templates such as reviews, quotes, lessons learned, Q&A, topical links, and reflections, protect scheduled writing time, and remove distractions with dedicated devices or phone boundaries. [[AIAssistedWriting]] is present, but as a support layer for brainstorming, topic sentences, and voice cleanup rather than the whole practice. [[CreatorFeedbackLoop]] sharpens because Chen recommends testing short posts first, expanding what resonates into threads, and turning the strongest ideas into essays; this directly qualifies perfectionist [[ExplanatoryWriting]] by treating an early obsession with quality as a way to procrastinate and block style experiments.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "AndrewChen",
+        "CreatorFeedbackLoop",
+        "ExplanatoryWriting"
+      ]
+    },
     {
       "id": "323c2c82764bae0d6cfb86e8970031f2de20720f3e722955df2e43e31f3d30c6",
       "primary_topic": "business-and-markets",

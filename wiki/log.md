@@ -679,6 +679,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | How to Write More
+
+Added Andrew Chen's writing-output workflow: idea capture, short post templates, scheduled writing sessions, distraction control, AI and voice-assisted brainstorming, and feedback-loop expansion from short posts into essays.
+
 ## [2026-09-13] ingest | 工程师如何更好投资
 
 
@@ -1227,6 +1231,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] ingest | How I use AI when blogging and writing
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

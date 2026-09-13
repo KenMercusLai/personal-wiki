@@ -1,6 +1,6 @@
-# Wiki Lint Report — 2026-09-12
+# Wiki Lint Report — 2026-09-13
 
-Scanned 259 pages.
+Scanned 1016 pages.
 
 ## Structural Issues
 
@@ -11,8 +11,13 @@ No structural issues found.
 ### Hub Pages with Insufficient Content (0 pages)
 No hub stubs detected — all high-degree nodes have sufficient content.
 
-### Fragile Bridges (0 community pairs)
-No fragile bridges — all community connections have redundant links.
+### Fragile Bridges (5 community pairs)
+These community connections rely on a single edge — one broken link isolates them:
+- Community 1 ↔ Community 7 via `concepts/ConversionRateOptimization` → `concepts/BehavioralData`
+- Community 2 ↔ Community 5 via `concepts/BootstrappedSaaS` → `concepts/CloudCostOptimization`
+- Community 8 ↔ Community 15 via `concepts/PlatformAbuseResponse` → `concepts/SemanticIsolation`
+- Community 11 ↔ Community 12 via `sources/a-look-at-auth0-cloud-architecture-5-years-in` → `entities/Mozilla`
+- Community 12 ↔ Community 13 via `concepts/MobileProductivity` → `concepts/PersonalProductivity`
 
 ### Isolated Communities (0 communities)
 No isolated communities — all clusters have external connections.

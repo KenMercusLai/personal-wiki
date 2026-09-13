@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 8e6008686d71af013cf4b3e93d191f7e1dbc2cfb
-input_digest: c52c3a5bf112768cb32c1d928742718b05c04e370fed7344ba70f3611acd26d5
+as_of_overview_commit: d8181b540808b2d261937ecba5d1cb7be9b27387
+input_digest: af31793f252719010e7cc7a54cb6f68184e14a128d417deb3788609d87f57f06
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems need accountable humans, explicit evidence models, reliable context management, bounded actions, verification harnesses, workload-aware infrastructure, domain-correct architecture, and real-world evidence. The newest AI-blogging source strengthens the authorship thread: [[ChatGPT]] can reduce blank-page friction through drafts, questions, outlines, voice cleanup, and tone passes, but [[AIAssistedWriting]] and [[AIWorkflowDesign]] still depend on human examples, taste, factual judgment, voice, and final responsibility.
+AI and technology sources emphasize that useful systems need accountable humans, explicit evidence models, reliable context management, bounded actions, verification harnesses, workload-aware infrastructure, domain-correct architecture, and real-world evidence. The newest Andrew Chen writing-output source strengthens the authorship thread: [[ChatGPT]] can reduce blank-page friction through drafts, questions, outlines, topic sentences, and voice cleanup, but [[AIAssistedWriting]] and [[AIWorkflowDesign]] still depend on human examples, taste, factual judgment, voice, cadence, feedback selection, and final responsibility.
 
 ## Cross-source Findings
 
@@ -28,13 +28,13 @@ AI and technology sources emphasize that useful systems need accountable humans,
 
 ### Ai Authorship Requires Human Accountability
 
-[[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], and [[ChatGPT]] are treated as legitimate writing aids only when humans retain question ownership, material judgment, examples, fact accountability, style, standards, and signable responsibility.
+[[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], and [[ChatGPT]] are treated as legitimate writing aids only when humans retain question ownership, material judgment, examples, fact accountability, style, standards, and signable responsibility; [[AndrewChen]] and [[CreatorFeedbackLoop]] add that AI brainstorming and voice cleanup work best inside a cadence of small posts, selection, and expansion rather than as the whole creative process.
 
-**Evidence:** [[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], [[ChatGPT]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[TasteAsProblemSense]]
+**Evidence:** [[AIAssistedWriting]], [[AIWorkflowDesign]], [[AIVoiceInput]], [[ChatGPT]], [[AndrewChen]], [[CreatorFeedbackLoop]], [[ExplanatoryWriting]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[TasteAsProblemSense]]
 
 **Qualifications:**
 
-- The evidence comes from creator and practitioner accounts; multi-model checking can share blind spots, and generic draft fluency can hide missing examples, story, statistics, or source verification.
+- The evidence comes from creator and practitioner accounts; multi-model checking can share blind spots, generic draft fluency can hide missing examples, story, statistics, or source verification, and short-form feedback can overreward timely or punchy ideas.
 
 ### Data Judgment Needs Explicit Models
 
