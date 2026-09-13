@@ -100,6 +100,7 @@
       "c3dc22036f8ea9761aa4253dad7d34d7a736a562db0f6276a1bfb3f8c2430260",
       "25053913507596c1ba830d53b1ec83945aad4790c1ddb7b5e3d5c4e463061036",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
+      "75c3ac7ce3d5703e46ad3997d62c211153096d904ed1a39a766099376999f92e",
       "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
       "f5ba49764d48c9bb59fb7c3a2ba7ae522a4312e10db8e3905b6f48a62be84791",
       "896f61bf77ff0847031cb4f3a078e7b96e5a76a754b5bb740f413612ab544ed4",
@@ -129,10 +130,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 127
+    "paragraph_count": 128
   },
-  "overview_commit": "04d085ccf94810b642d7333fbaa316991452f74d",
-  "overview_digest": "9eda95713f15e438fd7f825bb9320f956cf72edb8408c9a8aa65c40bcb8c686f",
+  "overview_commit": "456ba406d42a071e98b374857ea6dbbb6199f1a4",
+  "overview_digest": "d5cb1d73c824956d6d1179d67a0e675517702f1d4e39fc3f732ba013c327df2c",
   "paragraphs": [
     {
       "id": "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
@@ -2092,6 +2093,31 @@
         "ModelContextProtocol",
         "RORIRI",
         "RetrievalAugmentedGeneration"
+      ]
+    },
+    {
+      "id": "75c3ac7ce3d5703e46ad3997d62c211153096d904ed1a39a766099376999f92e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest RORIRI AX source widens that architecture into [[AgentExperience]]. AX is framed as three coupled design problems: user-to-agent intent quality, internal [[LLMContextManagement]], and agent-to-world action control. [[ComputerUse]] gains a fuller route taxonomy across [[AccessibilityTree]] or DOM semantics, screenshot markup, and native multimodal coordinate prediction, while [[AXFriendlyInterfaceDesign]] and [[AgentInterfaceAsContext]] argue that warnings, diagnostics, spatial state, and workflow constraints must be visible to agents at the moment of action. The source also adds a governance layer through [[AgentSystemTransparency]] and [[AgentPermissionModel]], where audit trails, behavior alarms, sandbox limits, and tiered permissions are needed because constant confirmation dialogs cause fatigue and YOLO-style bypasses remove the safety boundary. Finally, [[LLMSycophancy]] and [[HumanisticAgentDesign]] extend the AI-safety thread from tool control into user cognition: helpful agents should clarify assumptions, intent, and next needs rather than merely validating the user's framing.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AXFriendlyInterfaceDesign",
+        "AccessibilityTree",
+        "AgentExperience",
+        "AgentInterfaceAsContext",
+        "AgentPermissionModel",
+        "AgentSystemTransparency",
+        "ComputerUse",
+        "HumanisticAgentDesign",
+        "LLMContextManagement",
+        "LLMSycophancy"
       ]
     },
     {

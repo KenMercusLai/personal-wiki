@@ -104,6 +104,23 @@
     },
     {
       "global_candidate": false,
+      "id": "agent-permissions-need-risk-tiered-governance",
+      "qualifications": [
+        "The claim comes from one AX essay and should not yet be treated as a complete security, legal, or enterprise-governance framework."
+      ],
+      "statement": "[[AgentSystemTransparency]] and [[AgentPermissionModel]] frame agent governance as auditability plus risk-tiered control: [[AgentExperience]] systems need action traces, behavior alarms, sandbox boundaries, and stronger confirmation only for sensitive or irreversible actions.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AgentSystemTransparency",
+        "AgentPermissionModel",
+        "AgentExperience",
+        "LLMContextManagement",
+        "ComputerUse",
+        "AXFriendlyInterfaceDesign"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "platform-dependence-sets-product-boundaries",
       "qualifications": [
         "The Apple Watch evidence is a secondary governance assignment and is best read as product-boundary analysis, not legal or institutional governance."
@@ -172,6 +189,6 @@
       ]
     }
   ],
-  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple's content distribution strategy shows platform owners governing access through selective third-party availability while preserving first-party endpoints; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch's iPhone dependency show how technical boundaries allocate responsibility and independence; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
+  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, agent systems, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
   "topic_id": "governance-and-institutions"
 }

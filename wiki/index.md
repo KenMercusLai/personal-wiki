@@ -113,6 +113,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
+- [Agent Experience 导论 | 螺莉莉的数据中心](sources/agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's AX essay framing agents through user intent, context management, external action, Computer Use routes, permissions, interface context, and humanistic anti-sycophancy design.
 - [教育的下一步 · 其二 | 螺莉莉的数据中心](sources/jiao-yu-de-xia-yi-bu-qi-er-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's AI-era education essay arguing for expanded computational thinking through statistical model judgment, abstraction/programming, academic writing, PBL, metacognitive feedback, and taste as problem sense.
 - [理解方差的可加性 | 螺莉莉的数据中心](sources/li-jie-fang-cha-de-ke-jia-xing-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's statistics explainer showing that variance additivity requires covariance and orthogonality, and warning against confusing independent generation with zero sample correlation.
 - [理解误差 | 螺莉莉的数据中心](sources/li-jie-wu-cha-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's regression-error explainer distinguishing sampling bias, model specification error, residuals, omitted-variable bias, and heteroskedasticity.
@@ -694,7 +695,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ad Blocking](concepts/AdBlocking.md) - Browser or user-agent filtering that blocks ads and exposes the revenue tension in ad-funded web publishing.
 - [Alcohol Abstinence](concepts/AlcoholAbstinence.md) - Avoiding alcohol as a discipline practice for protecting cognitive clarity and agency.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
+- [Agent Experience](concepts/AgentExperience.md) - Design practice for making user intent, agent context, and external action reliable in AI-agent products.
+- [Agent Interface As Context](concepts/AgentInterfaceAsContext.md) - Interface-design frame where GUIs and TUIs deliver timely constraints, diagnostics, and warnings into an agent's observed context.
 - [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
+- [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
+- [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
 - [Distributed Consensus](concepts/DistributedConsensus.md) - Agreement problem for independent agents or nodes working under asynchronous communication, failure, and inconsistent local views.
 - [Trust Topology](concepts/TrustTopology.md) - Verification-gate arrangement for making unreliable AI agents produce more reliable software systems.
@@ -730,6 +735,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, or market test that can validate a startup's core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
+- [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs but often paired with side canvases for durable artifacts.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
@@ -767,6 +773,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, and server push to improve performance.
 - [HTTP/3](concepts/HTTP3.md) - HTTP version that runs over QUIC and UDP to reduce TCP-level blocking and connection setup costs.
 - [Human Code Responsibility](concepts/HumanCodeResponsibility.md) - Principle that developers remain accountable for code behavior and maintainability even when AI generated it.
+- [Humanistic Agent Design](concepts/HumanisticAgentDesign.md) - Agent design orientation that clarifies user cognition, intent, and needs instead of merely agreeing or completing tasks.
 - [Independent Creator](concepts/IndependentCreator.md) - Self-directed product-business role combining creation, engineering, marketing, operations, and customer support.
 - [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - Routing and quota layer that distributes AI inference requests using tokenized workload, live metrics, and cache state.
 - [Inference Tokenization](concepts/InferenceTokenization.md) - Model-aligned token accounting used by inference gateways for load estimates, quotas, and cache-aware routing.
@@ -781,6 +788,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LVS Forwarding Modes](concepts/LVSForwardingModes.md) - Packet-forwarding strategies such as DR, NAT, full NAT, ENAT, and IP TUN in LVS-like systems.
 - [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
 - [LLM Data Analysis](concepts/LLMDataAnalysis.md) - Using LLMs to support data workflows while controlling risks around statistical inference, method choice, and polished invalid outputs.
+- [LLM Sycophancy](concepts/LLMSycophancy.md) - Model tendency to validate or agree with users when premises, intent, or self-understanding should be questioned.
 - [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
 - [Mobile Messaging Advertising](concepts/MobileMessagingAdvertising.md) - Messaging-app ad formats built around brand chats, content channels, feeds, sticker stores, and CRM-like conversations.
@@ -849,6 +857,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Translation Domestication](concepts/TranslationDomestication.md) - Localization strategy that adapts names, settings, and cultural cues to reproduce target-audience experience.
 - [Third Field](concepts/ThirdField.md) - Shared intimate field built by partners through inherited patterns, daily routines, rules, conflicts, and care.
 - [UX Research Information Design](concepts/UXResearchInformationDesign.md) - Practice of designing UX research reports so observations, methods, contradictions, and conclusions form an explanatory structure.
+- [AX-Friendly Interface Design](concepts/AXFriendlyInterfaceDesign.md) - Interface design that keeps important state, guidance, constraints, and affordances legible to AI agents as well as humans.
 - [UX Design Cliche Rhetoric](concepts/UXDesignClicheRhetoric.md) - Use of familiar UX sayings and analogies as shorthand arguments that can either compress expertise or replace evidence.
 - [Upstream Divergence Policy](concepts/UpstreamDivergencePolicy.md) - Rule set for deciding when a rewrite should preserve, warn about, or reject upstream behavior.
 - [Unauthenticated Service Exposure](concepts/UnauthenticatedServiceExposure.md) - Risk created when a reachable service permits meaningful reads, writes, or control actions without valid authentication.

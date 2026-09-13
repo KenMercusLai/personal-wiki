@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-13
-as_of_overview_commit: dbf2eee5a1d2c97a7252f5a460d07ba3fee256e1
-input_digest: 6c4fe402fbc6981cd547af7fb23c09cd813633d7aa8e73e7408dd2bb7d26a297
+as_of_overview_commit: 456ba406d42a071e98b374857ea6dbbb6199f1a4
+input_digest: b1d106d8c59c6fe0937d5af8df9885a0b175dbd495076455d57d2d8242708246
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple's content distribution strategy shows platform owners governing access through selective third-party availability while preserving first-party endpoints; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch's iPhone dependency show how technical boundaries allocate responsibility and independence; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, agent systems, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
 
@@ -78,6 +78,16 @@ The governance-related material is still narrow but now spans control problems a
 - This is a secondary governance assignment from game-server and platform-engineering sources, not a broad organizational governance study.
 - The sources describe practitioner views of moving responsibility from manual coordination toward engineering-owned workflows.
 - The WSL material is a local environment procedure, so its governance relevance is limited to configuration boundaries and operational responsibility.
+
+### Agent Permissions Need Risk Tiered Governance
+
+[[AgentSystemTransparency]] and [[AgentPermissionModel]] frame agent governance as auditability plus risk-tiered control: [[AgentExperience]] systems need action traces, behavior alarms, sandbox boundaries, and stronger confirmation only for sensitive or irreversible actions.
+
+**Evidence:** [[AgentSystemTransparency]], [[AgentPermissionModel]], [[AgentExperience]], [[LLMContextManagement]], [[ComputerUse]], [[AXFriendlyInterfaceDesign]]
+
+**Qualifications:**
+
+- The claim comes from one AX essay and should not yet be treated as a complete security, legal, or enterprise-governance framework.
 
 ### Platform Dependence Sets Product Boundaries
 

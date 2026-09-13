@@ -84,10 +84,10 @@
       "global_candidate": true,
       "id": "llm-apps-depend-on-context-action-boundaries",
       "qualifications": [
-        "Several claims are practitioner or code-reading inferences; private cache-edit behavior and serving-side recomputation semantics remain uncertain.",
+        "Several claims are practitioner or code-reading inferences; private cache-edit behavior, serving-side recomputation semantics, and AX interface conventions remain uncertain.",
         "The pgvector latency evidence is benchmark-specific and should not be generalized without recall and workload evaluation."
       ],
-      "statement": "[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], and [[ApproximateNearestNeighborSearch]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, and connected to tools.",
+      "statement": "[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.",
       "status": "supported",
       "supporting_wikilinks": [
         "RetrievalAugmentedGeneration",
@@ -108,7 +108,11 @@
         "HNSWIndex",
         "AmazonBedrock",
         "AmazonRDS",
-        "AmazonAurora"
+        "AmazonAurora",
+        "AgentExperience",
+        "AgentInterfaceAsContext",
+        "AXFriendlyInterfaceDesign",
+        "AccessibilityTree"
       ]
     },
     {
@@ -141,6 +145,26 @@
         "TasteAsProblemSense",
         "MaxLv",
         "MihomoRust"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "agent-experience-needs-permissions-and-humanistic-design",
+      "qualifications": [
+        "The AX evidence is a conceptual essay rather than a validated agent-safety standard, and its examples are source-scoped to current product patterns."
+      ],
+      "statement": "[[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling: high-authority agents need visible action traces, risk-tiered permissions, and clarification of user assumptions, intent, and next needs rather than mere agreement.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AgentExperience",
+        "AgentSystemTransparency",
+        "AgentPermissionModel",
+        "LLMSycophancy",
+        "HumanisticAgentDesign",
+        "LLMContextManagement",
+        "ComputerUse",
+        "AXFriendlyInterfaceDesign",
+        "AgentInterfaceAsContext"
       ]
     },
     {
@@ -336,6 +360,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds a platform-policy angle: monetization support for serious productivity apps can become part of ecosystem retention.",
+  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds Agent Experience as a broader product frame: agents need intent handling, context delivery, action control, permission and transparency systems, AX-friendly interfaces, and humanistic checks against sycophantic validation.",
   "topic_id": "ai-and-technology"
 }

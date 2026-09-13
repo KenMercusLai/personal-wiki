@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 658a489acca8d1c5a04d8bc1c59cb1a5eb547aec
-input_digest: 9647fbd0d1455886f17c9ab5bc4211ce14a7af7faf28983f8ae7fd49dbf32c22
+as_of_overview_commit: 456ba406d42a071e98b374857ea6dbbb6199f1a4
+input_digest: 7c5603b54075e6497f059c7d20288d8f5a1ad8b87c7029fcbf8789089dd10adc
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds a platform-policy angle: monetization support for serious productivity apps can become part of ecosystem retention.
+AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds Agent Experience as a broader product frame: agents need intent handling, context delivery, action control, permission and transparency systems, AX-friendly interfaces, and humanistic checks against sycophantic validation.
 
 ## Cross-source Findings
 
@@ -58,13 +58,13 @@ AI and technology sources emphasize that useful systems depend on human judgment
 
 ### Llm Apps Depend On Context Action Boundaries
 
-[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], and [[ApproximateNearestNeighborSearch]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, and connected to tools.
+[[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.
 
-**Evidence:** [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[PrivateDataChatbot]], [[LangChain]], [[VectorDatabase]], [[Embeddings]], [[TapeAndAnchors]], [[ApproximateNearestNeighborSearch]], [[IVFFlatIndex]], [[HNSWIndex]], [[AmazonBedrock]], [[AmazonRDS]], [[AmazonAurora]]
+**Evidence:** [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[PrivateDataChatbot]], [[LangChain]], [[VectorDatabase]], [[Embeddings]], [[TapeAndAnchors]], [[ApproximateNearestNeighborSearch]], [[IVFFlatIndex]], [[HNSWIndex]], [[AmazonBedrock]], [[AmazonRDS]], [[AmazonAurora]], [[AgentExperience]], [[AgentInterfaceAsContext]], [[AXFriendlyInterfaceDesign]], [[AccessibilityTree]]
 
 **Qualifications:**
 
-- Several claims are practitioner or code-reading inferences; private cache-edit behavior and serving-side recomputation semantics remain uncertain.
+- Several claims are practitioner or code-reading inferences; private cache-edit behavior, serving-side recomputation semantics, and AX interface conventions remain uncertain.
 - The pgvector latency evidence is benchmark-specific and should not be generalized without recall and workload evaluation.
 
 ### Ai Coding Needs Human And System Controls
@@ -76,6 +76,16 @@ AI and technology sources emphasize that useful systems depend on human judgment
 **Qualifications:**
 
 - The sources are practitioner essays, case studies, and a secondary synthesis of formal and empirical agent-reliability arguments; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, large-project role-based workflows, distributed-consensus limits, and older human-review practices.
+
+### Agent Experience Needs Permissions And Humanistic Design
+
+[[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling: high-authority agents need visible action traces, risk-tiered permissions, and clarification of user assumptions, intent, and next needs rather than mere agreement.
+
+**Evidence:** [[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], [[HumanisticAgentDesign]], [[LLMContextManagement]], [[ComputerUse]], [[AXFriendlyInterfaceDesign]], [[AgentInterfaceAsContext]]
+
+**Qualifications:**
+
+- The AX evidence is a conceptual essay rather than a validated agent-safety standard, and its examples are source-scoped to current product patterns.
 
 ### Production Agents Need Semantic Safety
 

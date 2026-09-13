@@ -643,6 +643,10 @@ Ingested source note and updated Apple Services synthesis pages.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Agent Experience 导论 | 螺莉莉的数据中心
+
+Added RORIRI's full Agent Experience essay, created AX concepts for agent experience, conversational UI, system transparency, tiered permissions, interface-as-context, AX-friendly interface design, LLM sycophancy, and humanistic agent design, and updated RORIRI, Computer Use, LLM context management, overview, and index.
+
 ## [2026-09-13] ingest | Adobe's Subscription Model & Why Platform Owners Should Care
 
 Added a Stratechery source note for Ben Thompson's Adobe subscription analysis, created Adobe, Creative Cloud, Photoshop, Ben Thompson, Stratechery, Productivity App Subscriptions, Subscription Surplus Alignment, and Platform Stickiness pages, and updated the overview with the productivity-app subscription and platform-retention synthesis.
@@ -1038,6 +1042,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
