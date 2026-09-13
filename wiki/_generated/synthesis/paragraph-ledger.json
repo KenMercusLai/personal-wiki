@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
       "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
       "668a1fd832e7f6cb2ec448076fcd07966505c3867ed8c969a2beb8b521671dac",
       "5ed5dbb995b3182f3145d24b1bfab870b1c414b350c7151c7708d66ff5b242ca",
@@ -191,11 +192,26 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 189
+    "paragraph_count": 190
   },
-  "overview_commit": "520ab2464f6606e5c7ff8f149fed993719721d53",
-  "overview_digest": "ef9c9da60f8c1fd3a9b71295da078606a2e1b5c1528e8d59358542d7864ba1d7",
+  "overview_commit": "d85f88116576ec0f93847ff199005b6518f5080f",
+  "overview_digest": "5a70697142df7bd54a61a099dd6f4d6dce94c5c410506ae907f6ebf40ef47536",
   "paragraphs": [
+    {
+      "id": "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Small Business Forum source adds a candidate-pedigree warning to the wiki's startup hiring and culture material. [[StartupHiringAtScale]] now treats the post-traction hiring rush as a moment when founders can overvalue famous-company resumes, especially after follow-on capital makes senior compensation and equity packages feel justified. [[ExecutiveHiring]] gains a contribution-versus-momentum check: candidates should be evaluated for what they personally created, not just whether they worked at a company whose product demand already made success easier. [[StartupCulture]] gains a negative culture-import case, where status sensitivity, territoriality, meeting expansion, and visible-error avoidance can slow a previously execution-oriented startup. The inspected images reinforce this point through a repeated meeting-room cartoon captioned that nothing was accomplished.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "ExecutiveHiring",
+        "StartupCulture",
+        "StartupHiringAtScale"
+      ]
+    },
     {
       "id": "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
       "primary_topic": "business-and-markets",

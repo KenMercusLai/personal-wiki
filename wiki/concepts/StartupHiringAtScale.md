@@ -6,6 +6,7 @@ sources:
   - 16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more
   - a-thing-i-wonder-do-companies-have-too-many-employees
   - assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review
+  - beware-of-the-beautiful-resume-small-business-forum
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -14,16 +15,16 @@ knowledge_schema: synthesis-v1
 [[StartupHiringAtScale]] is the shift from founder-led, slow, high-conviction early hiring to a larger recruiting system that preserves standards, culture, role fit, and meaningful scope while headcount grows.
 
 ## Current Synthesis
-The sources hold four hiring claims in tension. Before product-market fit, the best startups hire slowly because every person adds burn and organizational inertia. Once the company is scaling, recruiting becomes a top priority and a machinery problem: at 15 people one person can recruit, at 150 dedicated recruiters appear, and at 1,500 sourcers, schedulers, managers, and support systems are needed. The Coach Tony essay adds a utilization warning: headcount growth is not success if the organization cannot give people real work, responsibility, and opportunity. The Thumbtack source adds a senior-hiring layer: executive roles need sharper definition, deeper references, and fit evaluation because a founder may not be able to test functional expertise directly.
+The sources hold five hiring claims in tension. Before product-market fit, the best startups hire slowly because every person adds burn and organizational inertia. Once the company is scaling, recruiting becomes a top priority and a machinery problem: at 15 people one person can recruit, at 150 dedicated recruiters appear, and at 1,500 sourcers, schedulers, managers, and support systems are needed. The Coach Tony essay adds a utilization warning: headcount growth is not success if the organization cannot give people real work, responsibility, and opportunity. The Thumbtack source adds a senior-hiring layer: executive roles need sharper definition, deeper references, and fit evaluation because a founder may not be able to test functional expertise directly. The beautiful-resume source adds a scale-stage temptation: after traction and follow-on capital, founders may overcorrect toward famous-company hires whose status orientation, territoriality, and process habits can slow momentum.
 
 ## Key Claims
 - Slow early hiring protects discovery-stage companies from premature complexity.
 - Recruiting becomes a central executive priority when scaling starts.
 - Hiring systems become more specialized at each order of magnitude.
 - Culture fit and talent bar must not be sacrificed to growth pressure.
-- Hiring volume should be evaluated against whether employees receive meaningful opportunity to contribute.
-- Talent acquisitions and talent frameworks can fill strategic gaps while comparing scope, autonomy, and standards during fast hiring.
+- Hiring volume, talent acquisitions, and talent frameworks should be evaluated against whether people receive meaningful scope, autonomy, standards, and opportunity to contribute.
 - Executive hiring requires role-specific strengths, broad references, and fit checks because senior mismatches are slow and costly to discover.
+- Impressive company pedigree should be tested against personal contribution, startup motivation, and willingness to prioritize the right work over territory.
 
 ## Evidence
 - Slow early hiring: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[SamAltman]], Airbnb's nine-month wait, Dropbox's long wait, and Stripe's six-month wait before early hires.
@@ -35,13 +36,17 @@ The sources hold four hiring claims in tension. Before product-market fit, the b
 - Acqui-hiring: [[16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more]] cites [[MarissaMayer]] on talent acquisitions filling Yahoo's mobile gap.
 - Executive role design: [[assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review]] says [[Thumbtack]] reduces executive searches to the three essential strengths the role most needs.
 - Executive validation: [[assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review]] says [[MarcoZappacosta]] uses 10 to 20 targeted references and final feedback conversations to validate skill, fit, and self-awareness.
+- Post-traction prestige risk: [[beware-of-the-beautiful-resume-small-business-forum]] says founders with follow-on capital can become giddy about "been there, done that" resumes and skip hard evaluation.
+- Contribution test: [[beware-of-the-beautiful-resume-small-business-forum]] recommends asking whether the candidate created success at a name-brand company or merely benefited from already-strong product demand and company momentum.
+- Momentum cost: [[beware-of-the-beautiful-resume-small-business-forum]] argues that the wrong hire can introduce larger meetings, slower decisions, politics, drama, and opportunity cost.
 
 ## Counterevidence & Qualifications
-The sources are operator advice and short reflective material, not controlled hiring research. They do not settle when recruiting machinery becomes too heavy, how hiring standards should be audited, how to identify underutilized employees fairly, how backchannel references should be handled across contexts, or how the advice changes for slower-growing companies.
+The sources are operator advice and short reflective material, not controlled hiring research. They do not settle when recruiting machinery becomes too heavy, how hiring standards should be audited, how to identify underutilized employees fairly, how backchannel references should be handled across contexts, or how the advice changes for slower-growing companies. The beautiful-resume source also risks oversimplifying large-company experience; its useful signal is behavioral fit and verified contribution, not employer-size prejudice.
 
 ## What Changed
 - Added the opportunity-design qualification that more employees do not help if the company cannot create meaningful scope for them.
 - Added executive hiring as a senior, high-stakes layer of startup hiring at scale.
+- Added the post-traction warning that famous-company resumes can hide poor startup fit and create organizational drag.
 
 ## Related Concepts
 - [[ProductMarketFit]] - hiring pace changes before and after evidence of fit.

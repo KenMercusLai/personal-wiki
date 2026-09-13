@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 520ab2464f6606e5c7ff8f149fed993719721d53
-summary: "A living map of software judgment, product systems, platforms, learning, institutions, and durable strategy grounded in stable customer demand."
-episode_count: 194
-source_count: 194
-paragraph_count: 189
+as_of_overview_commit: d85f88116576ec0f93847ff199005b6518f5080f
+summary: "A living map of software judgment, product systems, platforms, learning, institutions, and startup scaling grounded in stable demand and verified contribution."
+episode_count: 195
+source_count: 195
+paragraph_count: 190
 topic_count: 9
 ---
 
@@ -21,7 +21,7 @@ topic_count: 9
 - Production-grade agents need infrastructure beyond ordinary app hosting: [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] manage credentials, side effects, recovery, and prompt-injection risk.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.
-- [[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.
+- [[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design: founders must add leaders, communication, and recruiting systems while testing resume prestige against contribution, ownership, and company-first behavior.
 - Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]].
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
@@ -36,7 +36,7 @@ The AI and technology corpus centers on engineering judgment under complexity: w
 
 ### Business and Markets
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The latest hiring material adds that scale-stage founders should test famous-company resumes for actual contribution, ownership, and startup-fit behavior rather than treating pedigree as proof of impact.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight. Evidence: [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]].

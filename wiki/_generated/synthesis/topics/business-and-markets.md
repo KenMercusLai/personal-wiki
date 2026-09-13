@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 520ab2464f6606e5c7ff8f149fed993719721d53
-input_digest: 30423d8b2fa8df28cdcec6d6a33c6bf38f857519d55104bef0d769021fb3f80e
+as_of_overview_commit: d85f88116576ec0f93847ff199005b6518f5080f
+input_digest: c3c450e55beeae37a37373ff3886d46142f2bd7dc3b34e0824b205bb8467229e
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The newest Collaborative Fund material adds that change creates competitive openings, but long-term compounding improves when companies and investors anchor effort in customer desires that are unlikely to disappear.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The newest hiring material adds that scaling-stage founders should test famous-company resumes for actual contribution, ownership, and startup-fit behavior rather than treating pedigree as proof of impact.
 
 ## Cross-source Findings
 
@@ -88,13 +88,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Executive Hiring And Scaling Redesign The Company
 
-[[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design, not just adding headcount.
+[[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design: founders must add leaders, communication, and recruiting systems while testing resume prestige against contribution, ownership, and company-first behavior.
 
 **Evidence:** [[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]]
 
 **Qualifications:**
 
-- The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context.
+- The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral filter rather than a stereotype about employer size.
 
 ### Small Creator Businesses Need Feedback And Distribution
 

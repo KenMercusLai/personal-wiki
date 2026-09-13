@@ -1379,6 +1379,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Beware of the Beautiful Resume
+
+Added a founder-hiring essay warning that name-brand resumes can obscure poor startup fit. Key claims: evaluate whether candidates created success or rode existing momentum, distinguish startup behavior from status- and security-oriented big-company behavior, and treat wrong-fit prestige hires as sources of meetings, politics, delay, and opportunity cost.
+
 ## [2026-09-14] ingest | Best Practices for API Error Handling
 
 Added Vineet Joshi's DZone article on REST API error handling. Key claims: API errors should be readable, link to help when useful, support graceful client handling, distinguish client-fixable problems from provider-side failures, and use a pragmatic subset of HTTP status codes that expands as real cases require it.
@@ -1559,6 +1563,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

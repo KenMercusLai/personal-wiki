@@ -126,9 +126,9 @@
       "global_candidate": true,
       "id": "executive-hiring-and-scaling-redesign-the-company",
       "qualifications": [
-        "The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context."
+        "The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral filter rather than a stereotype about employer size."
       ],
-      "statement": "[[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design, not just adding headcount.",
+      "statement": "[[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design: founders must add leaders, communication, and recruiting systems while testing resume prestige against contribution, ownership, and company-first behavior.",
       "status": "supported",
       "supporting_wikilinks": [
         "ExecutiveHiring",
@@ -257,6 +257,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The newest Collaborative Fund material adds that change creates competitive openings, but long-term compounding improves when companies and investors anchor effort in customer desires that are unlikely to disappear.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The newest hiring material adds that scaling-stage founders should test famous-company resumes for actual contribution, ownership, and startup-fit behavior rather than treating pedigree as proof of impact.",
   "topic_id": "business-and-markets"
 }

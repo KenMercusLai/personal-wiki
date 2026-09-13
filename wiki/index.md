@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Beware of the Beautiful Resume](sources/beware-of-the-beautiful-resume-small-business-forum.md) - A founder warns that name-brand resumes can hide status-oriented, territorial, process-heavy behavior that slows startups unless candidates are tested for ownership, contribution, and startup fit.
 - [Best Practices for API Error Handling](sources/best-practices-for-api-error-handling-dzone-integration.md) - Vineet Joshi argues that REST API errors should pair pragmatic HTTP status-code selection with readable messages, documentation links, graceful client recovery, and clear client-versus-server responsibility boundaries.
 - [Betting on Things That Never Change](sources/betting-on-things-that-never-change-collaborative-fund.md) - Morgan Housel argues that durable strategy combines technological change with stable customer desires such as low prices, selection, speed, convenience, and trust.
 - [I Didn't Need Kubernetes](sources/ben-houston-i-didnt-need-kubernetes.md) - Ben Houston argues that Google Cloud Run was a better fit than Kubernetes for his Docker-based services and tasks because it reduced cost, autoscaling delay, cluster operations, and job-runner complexity.
