@@ -663,6 +663,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | All new ideas are combinations of old ideas at the intersection of fields
+
+Added a personal-note source summarizing cross-field innovation, complementary expertise, and cross-team observation sharing; updated the related innovation, organizational-data, and cited-entity pages as confirming evidence.
+
 ## [2026-09-13] ingest | Goodbye Microservices: From 100s of Problem Children to 1 Superstar
 
 Added Alexandra Noonan's Twilio Segment architecture case, including inspected queue and Centrifuge diagrams; created Segment, Centrifuge, Traffic Recorder, microservice overhead, monolith consolidation, monorepo dependency convergence, and recorded-traffic testing pages; updated head-of-line blocking with the destination-queue example.
@@ -1070,6 +1074,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
