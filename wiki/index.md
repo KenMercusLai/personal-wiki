@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Behind Every Great Product](sources/behind-every-great-product-silicon-valley-product-group.md) - Marty Cagan argues through six product-manager case studies that strong product management integrates customer, business, technical, and organizational constraints into product outcomes.
 - [Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius](sources/balaji-srinivasan-silicon-valleys-ultimate-exit-genius.md) - Balaji Srinivasan argues that Silicon Valley should lower barriers to exit through startups, forks, opt-in societies, Bitcoin, and other technology-mediated alternatives to paper-era institutions.
 - [Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded](sources/be-smarter-be-seetd-stitch-fix-technology-multithreaded.md) - Stitch Fix explains seetd, an internal office seating tool that models people-to-seat allocation through weighted optimization terms and simulated annealing.
 - [Become a Better Coder by Keeping a Programming Journal](sources/become-a-better-coder-by-keeping-a-programming-journal.md) - MakeUseOf argues that programming journals can externalize design thoughts, bug investigations, wins, future questions, goals, and lessons so coding work becomes more intentional and reusable.
@@ -432,7 +433,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Salesforce](entities/Salesforce.md) - SaaS company used as the custom-build attribution-system case in Bill Macaitis's experience.
 - [Zendesk](entities/Zendesk.md) - SaaS case where attribution showed display and content influenced long nurture cycles, lead creation, velocity, deal size, and revenue growth.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
-- [Netflix](entities/Netflix.md) - Culture, talent-density, and large-scale personalization example spanning Reed Hastings' culture deck and contextual-bandit artwork selection.
+- [Netflix](entities/Netflix.md) - Culture, talent-density, large-scale personalization, and early subscription product-management example spanning Reed Hastings, artwork selection, and the DVD-era queue and recommendation model.
+- [Kate Arnold](entities/KateArnold.md) - Netflix product manager in the subscription, queue, ratings, and recommendation-engine case.
 - [David Humphrey](entities/DavidHumphrey.md) - Web commentator proposing browser-mediated payments around HTTP 402 as an alternative to implicit ad-funded exchange.
 - [Mozilla](entities/Mozilla.md) - Browser organization named as a possible leader for integrated web-payment experiments.
 - [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
@@ -539,6 +541,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform, scaling, mobile, and geospatial actor associated with protocol evolution, Android reach, Google Play scale, and personalized mapping infrastructure.
+- [Google AdWords](entities/GoogleAdWords.md) - Google's self-service advertising product used as a product-management case for reconciling sales, engineering, relevance, and revenue constraints.
 - [Google Play](entities/GooglePlay.md) - Google's Android app marketplace, leading 2015 downloads while trailing Apple's App Store revenue in the App Annie snapshot.
 - [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
 - [Google Maps](entities/GoogleMaps.md) - Google's mass-market mapping product where personalization, local search, ads, user contributions, moderation, and location data converge.
@@ -558,7 +561,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Luca Maestri](entities/LucaMaestri.md) - Apple CFO tied to Apple's Services narrative, unit-disclosure change, and revenue/gross-margin framing.
 - [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
 - [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform where Apple Music support protects Apple's content relationship with iPhone users.
-- [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming and as smart-TV content.
+- [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming, as smart-TV content, and as an American Idol integration case.
+- [Camille Hearst](entities/CamilleHearst.md) - iTunes product manager in the American Idol integration case, balancing fan engagement with voting-signal constraints.
 - [Larry Jackson](entities/LarryJackson.md) - Apple Music content leader focused on artist collaboration, exclusives, and pop-culture positioning.
 - [Zane Lowe](entities/ZaneLowe.md) - Apple Music and Beats 1 editorial voice focused on artist conversation and shared music moments.
 - [Bozoma Saint John](entities/BozomaSaintJohn.md) - Apple Music marketing leader focused on brand, discovery, and mainstream cultural attention.
@@ -574,6 +578,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
+- [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
 - [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example and as a sponsored Moments ad surface.
@@ -674,6 +679,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 - [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for code-review practice and a 2016 production outage postmortem.
+- [Silicon Valley Product Group](entities/SiliconValleyProductGroup.md) - Marty Cagan's product advisory and publication context for the product-management role argument.
+- [Marty Cagan](entities/MartyCagan.md) - SVPG founder and author arguing that product management is an essential outcome-accountable role.
+- [Martina Lauchengco](entities/MartinaLauchengco.md) - Product manager in the Microsoft Word for Mac recovery case.
+- [Jane Manning](entities/JaneManning.md) - Product manager in the early Google AdWords launch case.
+- [Alex Pressland](entities/AlexPressland.md) - BBC product manager behind out-of-home and mobile distribution experiments.
+- [BBC Mobile](entities/BBCMobile.md) - BBC media-distribution case emerging from IP-based syndicated content and out-of-home experiments.
+- [Lea Hickman](entities/LeaHickman.md) - Adobe product leader associated with the Creative Cloud transition case.
 - [Josiah Humphrey](entities/JosiahHumphrey.md) - Startup operator voice behind the Appster PR advice for bootstrapped founders.
 - [Appster](entities/Appster.md) - Startup/company context used for practical PR and app landing-page marketing advice.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
@@ -807,6 +819,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Design Career Ladder](concepts/ProductDesignCareerLadder.md) - Structured model of product-designer levels, seniority signals, and promotion planning.
 - [Design Skill Axes](concepts/DesignSkillAxes.md) - Product-design growth dimensions spanning product thinking, interaction design, visual design, intentionality, drive, and self-awareness.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
+- [Product Management](concepts/ProductManagement.md) - Cross-functional product role accountable for integrating customer, business, technical, and organizational constraints into product outcomes.
+- [Product Leadership](concepts/ProductLeadership.md) - Product role of setting and communicating vision and strategy strongly enough to move organizations through risky product change.
 - [Information Hierarchy](concepts/InformationHierarchy.md) - Ordering and prioritizing interface information so users can find important data, actions, and features when needed.
 - [App Landing Pages](concepts/AppLandingPages.md) - Single-goal app marketing pages for validation, acquisition, lead capture, and conversion testing.
 - [User Journey Mapping](concepts/UserJourneyMapping.md) - Mapping how users move through a product so redesign teams can align around important goals and repeated flows.

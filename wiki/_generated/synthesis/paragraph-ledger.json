@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c40b2763442228dcb4131d9881c2b3cbb426fe96d50c6bfcf39d1c4af386da10",
       "b50533f76578a3f6a1208ff2ea6b9eb56be9edaa9ad14616822d2b7e5056822d",
       "6f64d3b88b601887a0ad4ac2a7fb2d2dfbdff852e942810b73975c07efa7edd1",
       "ae0582049b443c8cbbb07c4b0f7fbe3cd23acb0322e9788073549eb1d2fa9553",
@@ -183,11 +184,38 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 181
+    "paragraph_count": 182
   },
-  "overview_commit": "4095ce77f7f2e267cfbded3523bc4e493c9223db",
-  "overview_digest": "aac19d3979ab53d168e0d2ce03142b55a7aa5fb9e1e92e3e1efacb2c2ab981e6",
+  "overview_commit": "2b15b02b3da6db0a80810d7f6402d8af53a82e5e",
+  "overview_digest": "9c2b1dec99ab38779e5f37acbb82e7ef49ce69f4fb7f662d4396ece2ba4811df",
   "paragraphs": [
+    {
+      "id": "c40b2763442228dcb4131d9881c2b3cbb426fe96d50c6bfcf39d1c4af386da10",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest SVPG source adds a product-management role definition through six product cases. [[ProductManagement]] is framed as outcome-accountable integration across customer value, technology, business viability, legal constraints, marketing, sales, finance, operations, and user experience, distinct from backlog administration, project management, design ownership, CEO escalation, or committee compromise. [[MartinaLauchengco]] and [[MicrosoftWordForMac]] show customer-centered platform specificity overcoming internal code-convergence pressure; [[KateArnold]] and [[Netflix]] show queue, ratings, and recommendations making a subscription model economically viable; [[JaneManning]] and [[GoogleAdWords]] show objection resolution across sales and engineering; [[AlexPressland]] and [[BBCMobile]] show product experimentation changing institutional media distribution; [[CamilleHearst]] and [[ITunes]] show partnership integration under voting-signal constraints; and [[LeaHickman]] plus [[CreativeCloud]] create [[ProductLeadership]] as the large-company version, where vision, prototypes, and continuous communication help a successful company self-disrupt.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 5,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "AlexPressland",
+        "BBCMobile",
+        "CamilleHearst",
+        "CreativeCloud",
+        "GoogleAdWords",
+        "ITunes",
+        "JaneManning",
+        "KateArnold",
+        "LeaHickman",
+        "MartinaLauchengco",
+        "MicrosoftWordForMac",
+        "Netflix",
+        "ProductLeadership",
+        "ProductManagement"
+      ]
+    },
     {
       "id": "b50533f76578a3f6a1208ff2ea6b9eb56be9edaa9ad14616822d2b7e5056822d",
       "primary_topic": "psychology-and-personal-development",

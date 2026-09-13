@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Behind Every Great Product
+
+Added SVPG's product-management case-study article. Key claims: strong product management is not backlog administration, project management, CEO escalation, or design by committee; it integrates customer, business, technical, legal, marketing, finance, operations, and user-experience constraints into product outcomes; and product leadership becomes critical when large companies must self-disrupt. Added source note plus Product Management, Product Leadership, Silicon Valley Product Group, Marty Cagan, six named product people, and product case pages for Microsoft Word for Mac, Google AdWords, and BBC Mobile; updated Adobe, Creative Cloud, Netflix, iTunes, index, and overview. No image references were present in the source.
+
 ## [2026-09-14] ingest | Behavior Model
 
 Added BJ Fogg's Behavior Model page. Key claims: behavior requires motivation, ability, and a prompt at the same moment; missing behavior can be diagnosed by the absent element; ability is shaped by simplicity factors; motivation and ability compensate for each other; and the model is intended as a practical behavior-design tool. No image references were present in the source.
@@ -1480,6 +1484,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] ingest | Back of the Envelope Calculation | Better Programmer
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
