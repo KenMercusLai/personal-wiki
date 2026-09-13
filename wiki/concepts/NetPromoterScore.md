@@ -4,7 +4,8 @@ type: concept
 tags: [product-management, metrics, customer-loyalty]
 sources:
   - a-practitioners-guide-to-net-promoter-score-at-andrewchen
-last_updated: 2026-09-13
+  - attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[NetPromoterScore]] is a customer-loyalty metric calculated from a recommendation-likelihood survey by subtracting the percentage of detractors from the percentage of promoters.
 
 ## Current Synthesis
-The source treats Net Promoter Score as a useful but fragile product-management signal. Its basic calculation is simple: ask how likely a customer is to recommend the company, classify scores of 9-10 as promoters, 7-8 as passives, and 0-6 as detractors, then subtract detractor share from promoter share. The practical value comes from the surrounding program: open-ended comments, representative sampling, consistent methodology, behavior correlation, quarterly analysis, and roadmap follow-through. NPS is strongest as a loyalty and customer-voice input, not as a day-to-day operating dashboard or replacement for product strategy.
+The sources treat Net Promoter Score as a useful but fragile product-management and customer-satisfaction signal. Its basic calculation is simple: ask how likely a customer is to recommend the company, classify scores of 9-10 as promoters, 7-8 as passives, and 0-6 as detractors, then subtract detractor share from promoter share. The practical value comes from the surrounding program: open-ended comments, representative sampling, consistent methodology, behavior correlation, quarterly analysis, and roadmap follow-through. The Slack attribution source adds that NPS can also become one input to [[MarketingAttribution]] when a company wants to understand how brand, offline, word-of-mouth, product, and lifecycle touches contribute to satisfaction and recommendation.
 
 ## Key Claims
 - NPS is calculated by separating promoters, passives, and detractors from a 0-10 recommendation-likelihood question.
@@ -21,6 +22,7 @@ The source treats Net Promoter Score as a useful but fragile product-management 
 - NPS should be compared across surveys only when methodology remains consistent.
 - Verbatim analysis and product-behavior correlation can translate scores into product priorities.
 - NPS is a lagging and sampled measure, so it should complement rather than replace operational metrics and strategy.
+- NPS can be used at both relational and transactional levels when teams want to connect specific experiences with recommendation likelihood.
 
 ## Evidence
 - Calculation: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] describes promoters as 9-10, passives as 7-8, detractors as 0-6, and NPS as promoter percentage minus detractor percentage; the inspected diagram shows the same grouping and subtraction formula.
@@ -29,12 +31,14 @@ The source treats Net Promoter Score as a useful but fragile product-management 
 - Methodology sensitivity: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] says question order, competitor lists, and sampling approach affect comparability.
 - Product learning: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] describes categorizing promoter and detractor comments and correlating product actions with higher NPS to infer activation behaviors.
 - Operational limits: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] says NPS is too infrequent for day-to-day operations, carries margin-of-error limits, and is not a replacement for strategy.
+- Attribution input: [[attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs]] says [[Slack]] tracks NPS at both relational and transactional levels and feeds satisfaction data into its attribution model.
 
 ## Counterevidence & Qualifications
-The source is practitioner guidance from one LinkedIn context rather than a universal measurement proof. NPS can be biased by response channels, sampling, customer tenure, engagement, seasonality, and methodology changes. It is also too slow for A/B tests or daily management and should be paired with acquisition, engagement, monetization, and other operational dashboards.
+The sources are practitioner guidance from LinkedIn and Slack contexts rather than universal measurement proof. NPS can be biased by response channels, sampling, customer tenure, engagement, seasonality, methodology changes, and the difficulty of linking satisfaction to specific prior touchpoints. It is also too slow for A/B tests or daily management and should be paired with acquisition, engagement, monetization, attribution, and other operational dashboards.
 
 ## What Changed
 - Created the concept page for NPS as a customer-loyalty metric and product-learning program.
+- Added Slack's relational and transactional NPS usage as an attribution and satisfaction signal.
 
 ## Related Concepts
 - [[ProductMetricLadder]] - NPS can be a slow business-level metric that needs shorter-cycle proxy metrics.
@@ -42,3 +46,5 @@ The source is practitioner guidance from one LinkedIn context rather than a univ
 - [[ViralLoops]] - the source connects customer recommendation strength with word-of-mouth virality.
 - [[ProductMarketFit]] - strong loyalty and recommendation intent can indicate product pull but do not replace broader market validation.
 - [[StatisticalModelThinking]] - NPS interpretation depends on sample size, bias, margin of error, and comparability assumptions.
+- [[MarketingAttribution]] - NPS can become a downstream satisfaction and recommendation input in attribution models.
+- [[DeepFunnelMetrics]] - NPS is one deeper customer outcome beyond signup or lead creation.

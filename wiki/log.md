@@ -1363,6 +1363,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Attribution Marketing: Creating a Growth Engine at Salesforce, Zendesk and Slack
+
+Added David Skok's For Entrepreneurs interview with Bill Macaitis. Key claims: attribution should measure whether marketing spend is wise across multi-touch buyer journeys, startups should add tracking once post-fit channel testing begins, marketing operations is an early infrastructure hire, deep funnel metrics prevent shallow signup optimization, Zendesk shows content and display influence across long nurture cycles, and Slack shows attribution extending into team, offline, brand, word-of-mouth, lifecycle, and NPS signals. Inspected the remote lead image and treated it as decorative.
+
 ## [2026-09-14] ingest | Asana's September 8 Outage
 
 Added Asana's 2016 outage postmortem. Key claims: a faulty logging deploy caused web-server CPU saturation, secondary database and queue symptoms slowed diagnosis, dogfooding infrastructure masked production severity, rollback required known-good revision selection plus bad-revision blacklisting, and Asana's postmortem framed response improvement as the main failure.
@@ -1398,6 +1402,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Assume Positive Intent
 
 Added Rick Manelius's trust-first collaboration essay. Key claims: assuming positive intent can reduce defensive second-guessing in tense work, high-trust relationships can move faster than skepticism-first relationships, and positive intent still requires boundaries in low-trust, unsafe, or bad-faith contexts.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

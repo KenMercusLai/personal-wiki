@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Assume Positive Intent](sources/assume-positive-intent-rick-manelius.md) - Rick Manelius argues that trust-first collaboration can reduce defensive conflict and speed problem solving, while still requiring boundaries in low-trust or harmful contexts.
 - [Assembling an Executive Leadership Team is Daunting - Let Thumbtack's CEO Help](sources/assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review.md) - First Round Review interviews Thumbtack CEO Marco Zappacosta on executive hiring through three-strength role design, split interviews, broad references, 360 feedback, and fit evaluation.
 - [Artwork Personalization at Netflix](sources/artwork-personalization-at-netflix-netflix-techblog-medium.md) - Netflix TechBlog explains how contextual bandits personalize title artwork using exploration logs, replay evaluation, and quality-engagement labels.
+- [Attribution Marketing: Creating a Growth Engine at Salesforce, Zendesk and Slack](sources/attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs.md) - David Skok interviews Bill Macaitis on building startup marketing attribution through operations hiring, multi-touch modeling, deep funnel metrics, and Salesforce, Zendesk, and Slack cases.
 - [Arianna Huffington on sleep, mornings and work](sources/arianna-huffington-on-sleep-mornings-and-work-the-early-hour.md) - Annie Ridout interviews Arianna Huffington on sleep as performance support, morning routines, HuffPost burnout prevention, vacation-email deletion, and The Sleep Revolution.
 - [Another tax on the poor: Surrendering privacy for survival](sources/another-tax-on-the-poor-surrendering-privacy-for-survival.md) - Fast Company argues that poor and marginalized people often surrender more privacy for benefits, work, housing, credit, and safety while having fewer resources to repair data harms.
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
@@ -400,6 +401,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LinkedIn](entities/LinkedIn.md) - Company context for scaling lessons, public connection-count virality, and Sachin Rekhi's NPS product-planning practice.
 - [Sachin Rekhi](entities/SachinRekhi.md) - Product leader and author whose LinkedIn NPS work shows how customer-loyalty measurement can feed product planning.
 - [SurveyMonkey](entities/SurveyMonkey.md) - Survey-tool example cited for cross-channel NPS collection and analysis.
+- [Bill Macaitis](entities/BillMacaitis.md) - SaaS marketing executive using attribution systems at Salesforce, Zendesk, and Slack to make growth spend measurable.
+- [David Skok](entities/DavidSkok.md) - For Entrepreneurs author and interviewer framing Bill Macaitis's attribution-marketing practice for startup founders.
+- [For Entrepreneurs](entities/ForEntrepreneurs.md) - Startup and SaaS publication context for the Bill Macaitis attribution-marketing interview.
+- [Salesforce](entities/Salesforce.md) - SaaS company used as the custom-build attribution-system case in Bill Macaitis's experience.
+- [Zendesk](entities/Zendesk.md) - SaaS case where attribution showed display and content influenced long nurture cycles, lead creation, velocity, deal size, and revenue growth.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
 - [Netflix](entities/Netflix.md) - Culture, talent-density, and large-scale personalization example spanning Reed Hastings' culture deck and contextual-bandit artwork selection.
 - [David Humphrey](entities/DavidHumphrey.md) - Web commentator proposing browser-mediated payments around HTTP 402 as an alternative to implicit ad-funded exchange.
@@ -412,7 +418,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
-- [Slack](entities/Slack.md) - Collaboration software used as an equity hindsight, viral invitation, and landing-page value-proposition example.
+- [Slack](entities/Slack.md) - Collaboration software used as an equity hindsight, viral invitation, landing-page value-proposition, and advanced attribution-measurement example.
 - [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
 - [Fab](entities/Fab.md) - Startup-equity counterexample used to contrast famous winning outcomes.
 - [Secret](entities/Secret.md) - Startup-equity and founder-secondary-liquidity example used to illustrate founder-employee asymmetry.
@@ -791,6 +797,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
 - [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue, lead quality, retention, and the time needed to recover it.
+- [Marketing Attribution](concepts/MarketingAttribution.md) - Assigning credit across marketing touchpoints so teams can judge which channels, campaigns, and lifecycle efforts produce valuable outcomes.
+- [Algorithmic Attribution](concepts/AlgorithmicAttribution.md) - Data-driven attribution approach that estimates proportional channel influence from touchpoint and outcome data instead of fixed rules.
+- [Marketing Operations](concepts/MarketingOperations.md) - Operational and analytical function that builds the tracking, data, and integration systems behind measurable marketing.
+- [Deep Funnel Metrics](concepts/DeepFunnelMetrics.md) - Downstream customer and revenue metrics used to judge marketing impact beyond clicks, forms, signups, or trials.
 - [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by revenue, retention, churn, and expansion.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
