@@ -5,7 +5,8 @@ tags: [cloud, cost, deployment, infrastructure]
 sources:
   - wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai
   - aws-costs-every-programmer-should-know
-last_updated: 2026-09-13
+  - ben-houston-i-didnt-need-kubernetes
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,16 +18,16 @@ The source presents cost optimization as a practical response to a bill shock ra
 
 The broader lesson is that cost reduction can involve many layers at once. Compute moves from Vercel serverless functions to EC2 processes, containers, or Cloudflare edge; static and full-stack hosting moves to Pages; DNS and security consolidate under Cloudflare; object storage can move to R2; and database choices may shift toward D1 or edge-compatible Postgres clients.
 
-Cost optimization also works as a pre-migration design heuristic: programmers should know rough unit costs for compute, memory, storage, requests, and bandwidth so they can reject architecture choices that are economically impossible at the intended scale. This shifts optimization from "which platform is cheaper?" toward "what resource shape does this architecture create?"
+Cost optimization also works as a pre-migration design heuristic: programmers should know rough unit costs for compute, memory, storage, requests, and bandwidth so they can reject architecture choices that are economically impossible at the intended scale. Ben Houston's Cloud Run case adds a utilization and operations layer: cost can fall when a workload moves from pre-provisioned orchestration capacity to a managed service that scales to zero, bills closer to active CPU and memory use, and removes cluster-management labor.
 
 ## Key Claims
 - Cloud bills can grow through many small metered features, not only base hosting fees.
 - Convenience platforms trade operations effort for higher and sometimes less predictable cost.
 - Self-hosting can lower direct platform spend but increases responsibility for process management, reverse proxying, TLS, and maintenance.
 - Cloudflare can reduce cost by bundling low-cost hosting, DNS, security, object storage, workers, and database options.
-- Compatibility and migration effort must be counted as part of the cost decision.
+- Compatibility, migration effort, and operations labor must be counted as part of the cost decision.
 - Order-of-magnitude unit costs help test whether an architecture could be affordable before exact provider estimates are available.
-- Memory, durable storage, bandwidth, and request patterns have very different cost profiles, so "store everything in the fastest system" can be economically wrong.
+- Memory, durable storage, bandwidth, request patterns, autoscaling speed, and idle-resource billing have different cost profiles.
 
 ## Evidence
 - Bill pressure: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] reports more than $5,000 in monthly Vercel spend for an AI search project.
@@ -38,15 +39,21 @@ Cost optimization also works as a pre-migration design heuristic: programmers sh
 - Memory/storage gap: [[aws-costs-every-programmer-should-know]] contrasts RAM at about $10 per GB-month with lower SSD, hard disk, S3, and S3 Glacier storage costs.
 - Access patterns: [[aws-costs-every-programmer-should-know]] warns that S3 request volume can dominate stored-byte cost in some workloads.
 - Transfer costs: [[aws-costs-every-programmer-should-know]] lists different per-GB costs for same-AZ, cross-AZ, cross-region, and internet data transfer.
+- Usage-based containers: [[ben-houston-i-didnt-need-kubernetes]] reports that [[GoogleCloudRun]] charges based on active CPU and memory use and can scale idle services to zero.
+- Low-cost example: [[ben-houston-i-didnt-need-kubernetes]] says the author's Web3D Survey project saw about 500,000 monthly hits for about $4/month in hosting.
+- Over-provisioning cost: [[ben-houston-i-didnt-need-kubernetes]] says Kubernetes' slower autoscaling pushed the author toward paying for unused capacity.
+- Labor cost: [[ben-houston-i-didnt-need-kubernetes]] argues that Kubernetes often needs dedicated DevOps expertise, adding cost beyond cloud line items.
 
 ## Counterevidence & Qualifications
-The Vercel migration source emphasizes cost savings for a small independent web product and does not quantify labor cost, reliability risk, support needs, compliance needs, or the value of an integrated workflow for teams with different constraints. The AWS reference source explicitly warns that its numbers are not accurate budget estimates; prices, regions, discounts, and workloads can change the result.
+The Vercel migration source emphasizes cost savings for a small independent web product and does not quantify labor cost, reliability risk, support needs, compliance needs, or the value of an integrated workflow for teams with different constraints. The AWS reference source explicitly warns that its numbers are not accurate budget estimates; prices, regions, discounts, and workloads can change the result. The Cloud Run source is a practitioner report, so its costs and autoscaling experience should be treated as workload-specific rather than universal.
 
 ## What Changed
-- Added AWS unit-cost reasoning to the prior Vercel-to-AWS/Cloudflare migration synthesis.
+- Added Cloud Run as a managed-container cost case where scale-to-zero, faster autoscaling, and lower cluster-management labor reduce total cost for suitable workloads.
 
 ## Related Concepts
 - [[NextJSDeployment]] - deployment model is the main lever used to reduce cost in the source.
 - [[EdgeRuntime]] - Cloudflare's lower-cost path has runtime compatibility costs.
 - [[InferenceLoadBalancing]] - both address infrastructure efficiency, but this page focuses on cloud spend rather than inference routing.
 - [[TechnologyStackComplexity]] - architecture shape changes the mix of compute, memory, storage, requests, and transfer costs.
+- [[GoogleCloudRun]] - managed-container service used as a cost-optimization path in the new source.
+- [[Kubernetes]] - orchestration overhead can increase cost when its flexibility is not needed.

@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-14
-as_of_overview_commit: 049ba991961ddc18bd0c37922e4baa80bf1c985b
-input_digest: 43412408ce3bc9583f4ac4f8d66c596000cc29f4310b04477f3e6f6b07fcd65e
+as_of_overview_commit: 63b4ce5c7b6e4f54efde2c265a1ff7afaa29a596
+input_digest: d33d42eb152a95d141cd16c5c0774c491ab60f33bbffc6bb44a694748ebf39db
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, and civic technology. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social context shapes who gets privacy, opportunity, recovery, and room to experiment.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment.
 
 ## Cross-source Findings
 
@@ -95,3 +95,13 @@ Social conditions shape opportunity and harm: [[PrivacyPovertyDivide]], [[Employ
 **Qualifications:**
 
 - The labor-precarity sources explicitly conflict in interpretation, making this a contested social frame rather than a single settled diagnosis.
+
+### Platform Fit Shapes Operational Work
+
+Infrastructure work is shaped by platform fit: [[GoogleCloudRun]] can reduce [[TechnologyStackComplexity]], [[CloudCostOptimization]] pressure, and [[TaskQueueDesign]] burden when a managed container platform matches the workload better than direct [[Kubernetes]] operation.
+
+**Evidence:** [[GoogleCloudRun]], [[TechnologyStackComplexity]], [[CloudCostOptimization]], [[TaskQueueDesign]], [[Kubernetes]]
+
+**Qualifications:**
+
+- The Cloud Run source is a practitioner report for one workload; teams with deeper customization, regulation, or multi-cloud requirements may still justify Kubernetes.

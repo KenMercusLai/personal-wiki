@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I Didn't Need Kubernetes](sources/ben-houston-i-didnt-need-kubernetes.md) - Ben Houston argues that Google Cloud Run was a better fit than Kubernetes for his Docker-based services and tasks because it reduced cost, autoscaling delay, cluster operations, and job-runner complexity.
 - [Being a versatile hacker is becoming more important than knowing frameworks](sources/being-a-versatile-hacker-is-becoming-more-important-than-knowing-frameworks-christian-maioli-m.md) - Christian Maioli M. argues that web developers need broad web-stack fluency, hacker-style curiosity, and trade-off judgment as library combinations outgrow memorized framework knowledge.
 - [Being A Product Manager: How To Get Your Products Built](sources/being-a-product-manager-how-to-get-your-products-built.md) - PMInsider frames pre-greenlight product management around selling ideas, aligning with KPIs, rough visual communication, and prioritizing growth, activation, engagement, reactivation, and revenue ideas.
 - [Being a Junior Developer at 30](sources/being-a-junior-developer-at-30-by.md) - A later-life tech career-change reflection arguing that junior developer learning depends on practice, feedback, mentorship, community participation, boundaries, and transferable maturity.
@@ -604,7 +605,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Infvie](entities/Infvie.md) - Security blog/source attribution for the common port exploitation summary.
 - [Imooc](entities/Imooc.md) - Programming course platform that supplied Zhang Xuan's main freelancer income.
 - [Kong](entities/Kong.md) - Infrastructure company mentioned as part of Guanlan's distributed systems background.
-- [Kubernetes](entities/Kubernetes.md) - Container orchestration system discussed as process isolation that cannot see agent tool-call semantics.
+- [Ben Houston](entities/BenHouston.md) - Practitioner-author arguing for Cloud Run over Kubernetes for a Docker-based service and task workload.
+- [Clara.io](entities/ClaraIO.md) - Online 3D editor and rendering platform used as bare-metal infrastructure background in Ben Houston's migration essay.
+- [Google Cloud Run](entities/GoogleCloudRun.md) - Managed container platform presented as a simpler alternative to operating Kubernetes directly for suitable workloads.
+- [Threekit](entities/Threekit.md) - Enterprise 3D platform context for Ben Houston's original move from bare metal to Kubernetes.
+- [Kubernetes](entities/Kubernetes.md) - Container orchestration platform discussed as powerful declarative infrastructure, process isolation, and sometimes unnecessary operational burden.
 - [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
 - [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, and clear product positioning.
 - [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
@@ -895,13 +900,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Release-Focused Side Projects](concepts/ReleaseFocusedSideProjects.md) - Side-project discipline of focusing on one project, reaching usable releases quickly, and preserving feedback before scope expands.
 - [Job-Application Side Projects](concepts/JobApplicationSideProjects.md) - Shipped personal projects designed to make ability, judgment, and fit credible to employers.
 - [Declarative Infrastructure](concepts/DeclarativeInfrastructure.md) - Infrastructure model where desired-state resources and controllers reconcile actual system state.
-- [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications work with container storage, health, lifecycle, and build assumptions rather than merely packaging old programs.
+- [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications and platform choices fit container storage, health, lifecycle, scaling, and task-execution assumptions.
 - [Database Consolidation](concepts/DatabaseConsolidation.md) - Architectural strategy of using one sufficiently capable database for multiple workload types before adding specialized stores.
-- [Technology Stack Complexity](concepts/TechnologyStackComplexity.md) - Operational and reasoning burden created by many distinct technologies and their cross-system data boundaries.
+- [Technology Stack Complexity](concepts/TechnologyStackComplexity.md) - Operational and reasoning burden created by many distinct technologies, data boundaries, orchestration abstractions, and team-learning costs.
 - [SQLite Production Tradeoffs](concepts/SQLiteProductionTradeoffs.md) - Conditional fit model for using SQLite as a production database when single-machine simplicity outweighs distributed-database needs.
 - [Database Transaction Isolation](concepts/DatabaseTransactionIsolation.md) - Guarantees governing what concurrent transactions can observe, highlighted here through SQLite's serializable behavior and write-lock constraints.
 - [Server-Side Game Logic](concepts/ServerSideGameLogic.md) - Game backend pattern for running authoritative or anti-cheat logic on the server while coordinating with clients through a message service.
-- [Task Queue Design](concepts/TaskQueueDesign.md) - Backend design of asynchronous scheduling, state, timeout, concurrency, recovery, and queue product fit.
+- [Task Queue Design](concepts/TaskQueueDesign.md) - Backend design of asynchronous scheduling, state, timeout, concurrency, retries, recovery, managed-task fit, and queue product semantics.
 - [Runtime Configuration](concepts/RuntimeConfiguration.md) - Supplying environment-specific settings when an application runs rather than baking them into image variants.
 - [CLI Application Design](concepts/CLIApplicationDesign.md) - Designing command-line applications as usable products across help, flags, streams, errors, prompts, speed, contribution, command grammar, and paths.
 - [Command-Line UX](concepts/CommandLineUX.md) - Terminal user experience shaped by help text, flags, errors, prompts, progress, output formatting, and capability-aware fallbacks.
@@ -1025,7 +1030,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Office Seating Optimization](concepts/OfficeSeatingOptimization.md) - Assigning people to desks by translating workplace goals into constraints and weighted cost terms.
 - [Simulated Annealing](concepts/SimulatedAnnealing.md) - Probabilistic optimization method that explores neighboring solutions and sometimes accepts worse moves while a temperature schedule cools.
 - [Linear Programming](concepts/LinearProgramming.md) - Optimization approach for linear objectives under linear constraints, used here for simpler seating assignment formulations.
-- [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, and resource-shape assumptions.
+- [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, utilization, operations burden, and resource-shape assumptions.
 - [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Rough-number system-design method for comparing performance before implementation.
 - [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 049ba991961ddc18bd0c37922e4baa80bf1c985b
+as_of_overview_commit: 63b4ce5c7b6e4f54efde2c265a1ff7afaa29a596
 summary: "A cross-domain wiki about building judgment under complexity through evidence, constraints, feedback, tradeoffs, and accountable systems."
-episode_count: 191
-source_count: 191
-paragraph_count: 186
+episode_count: 192
+source_count: 192
+paragraph_count: 187
 topic_count: 9
 ---
 
@@ -81,7 +81,7 @@ Science, health, and climate remains mostly indirect. Current claims cover begin
 
 ### Work, Education, and Society
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, and civic technology. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social context shapes who gets privacy, opportunity, recovery, and room to experiment.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].

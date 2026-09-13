@@ -128,8 +128,24 @@
         "CampaignTechnologyAccountability",
         "VolunteerCampaignTechnology"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "platform-fit-shapes-operational-work",
+      "qualifications": [
+        "The Cloud Run source is a practitioner report for one workload; teams with deeper customization, regulation, or multi-cloud requirements may still justify Kubernetes."
+      ],
+      "statement": "Infrastructure work is shaped by platform fit: [[GoogleCloudRun]] can reduce [[TechnologyStackComplexity]], [[CloudCostOptimization]] pressure, and [[TaskQueueDesign]] burden when a managed container platform matches the workload better than direct [[Kubernetes]] operation.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "GoogleCloudRun",
+        "TechnologyStackComplexity",
+        "CloudCostOptimization",
+        "TaskQueueDesign",
+        "Kubernetes"
+      ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, and civic technology. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social context shapes who gets privacy, opportunity, recovery, and room to experiment.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment.",
   "topic_id": "work-education-and-society"
 }

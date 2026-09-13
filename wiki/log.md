@@ -1383,6 +1383,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | I Didn't Need Kubernetes
+
+Added Ben Houston's Kubernetes-to-Cloud-Run migration essay. Key claims: Kubernetes can reduce bare-metal burden while adding cluster cost, slow autoscaling, staffing needs, and lock-in; Cloud Run can better fit Docker-based services and tasks when scale-to-zero billing, fast autoscaling, managed retries, and simpler operations matter more than platform extensibility.
+
 ## [2026-09-14] ingest | Being a versatile hacker is becoming more important than knowing frameworks
 
 Added Christian Maioli M.'s article on broad web-stack fluency, hacker-style curiosity, and framework-era combinatorial complexity. Key claims: full-stack competence should include underlying web mechanics, multiplying library combinations make exact framework recall less sufficient, and developers should build trade-off judgment by reading around problems, experimenting, and exploring systems. The source's three remote images returned `Forbidden` and could not be inspected.
@@ -1531,6 +1535,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Being Different Beats Being Better
 
 Added Darius Foroux's differentiation article. Key claims: business and career strategy should emphasize being meaningfully different, first in a recognizable category, and distinctive through skill stacking rather than only trying to be marginally better.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5ed5dbb995b3182f3145d24b1bfab870b1c414b350c7151c7708d66ff5b242ca",
       "8df02e477f3f2db5b44964a027d0b11f55bf3e5e635c771a864460b6326d3aa5",
       "35f009164a4bbb7d948102ca5d495aca4fd2116dd05d136f1f1c5076df87b31b",
       "85197be8a23d8b6331d8ce229d2e43291d8f02016741c1c2782e56e6c4fdae8c",
@@ -188,11 +189,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 186
+    "paragraph_count": 187
   },
-  "overview_commit": "049ba991961ddc18bd0c37922e4baa80bf1c985b",
-  "overview_digest": "4a413c5f982e3c8222482d29176485ae9a8c850975ba9cea1fef119fbe899c0a",
+  "overview_commit": "63b4ce5c7b6e4f54efde2c265a1ff7afaa29a596",
+  "overview_digest": "a38110669398fb67b04311ef02fd443e7a0a49b41b5b53c9774f3bfab3c82958",
   "paragraphs": [
+    {
+      "id": "5ed5dbb995b3182f3145d24b1bfab870b1c414b350c7151c7708d66ff5b242ca",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Ben Houston source adds a managed-container counterpoint to the wiki's Kubernetes and cloud-cost material. [[Kubernetes]] now carries both its existing declarative-platform strength and a fit-to-context warning: it can remove bare-metal hardware burden while still adding cluster cost, slow autoscaling, staffing needs, and ecosystem-specific complexity. New [[GoogleCloudRun]] captures the article's preferred abstraction for Docker-based services and tasks: a narrower managed PaaS that handles deployment, scaling, downtime, task execution, result tracking, and retries. [[CloudCostOptimization]] gains scale-to-zero and operations-labor dimensions, [[TechnologyStackComplexity]] gains orchestration lock-in and lingo as complexity sources, and [[TaskQueueDesign]] gains Cloud Run Tasks as a managed alternative to custom job-runner infrastructure. The inspected image supports the source's thesis by visually contrasting tangled Kubernetes/server/container complexity with a single Cloud Run container.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CloudCostOptimization",
+        "GoogleCloudRun",
+        "Kubernetes",
+        "TaskQueueDesign",
+        "TechnologyStackComplexity"
+      ]
+    },
     {
       "id": "8df02e477f3f2db5b44964a027d0b11f55bf3e5e635c771a864460b6326d3aa5",
       "primary_topic": "ai-and-technology",
