@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
 - [An Open Letter to Millennials Like Talia...](sources/an-open-letter-to-millennials-like-talia-stefanie-williams-medium.md) - Stefanie Williams rejects Talia Jane's wage-precarity framing and argues that roommates, second jobs, service work, and humility are expected early-career tradeoffs.
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
 - [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
@@ -154,6 +155,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Andrej Karpathy](entities/AndrejKarpathy.md) - Technical educator using a from-scratch Python implementation to explain Bitcoin's cryptographic and transaction machinery.
+- [cryptos](entities/Cryptos.md) - Karpathy reference library for the cleaner Bitcoin implementation behind the tutorial.
 - [Stefanie Williams](entities/StefanieWilliams.md) - Response author who frames Talia Jane's situation as a failure of work ethic and personal responsibility rather than workplace financial precarity.
 - [Talia Jane](entities/TaliaJane.md) - Writer and former Yelp/Eat24 support worker whose open letter documents employee financial precarity in a Bay Area tech workplace.
 - [Yelp](entities/Yelp.md) - Consumer local-commerce company addressed as the employer in Talia Jane's open letter about low-paid support work.
@@ -583,6 +586,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Bitcoin Address Encoding](concepts/BitcoinAddressEncoding.md) - Process for deriving user-facing Bitcoin addresses from public keys, hashes, version bytes, checksums, and Base58.
+- [Bitcoin Proof of Work](concepts/BitcoinProofOfWork.md) - Miner-selection and block-inclusion mechanism based on SHA-256 hash search, rewards, fees, and difficulty adjustment.
+- [Bitcoin Script](concepts/BitcoinScript.md) - Stack-based authorization layer that locks UTXOs and validates spends through scripts such as P2PKH.
+- [Bitcoin Transaction Model](concepts/BitcoinTransactionModel.md) - Protocol structure for consuming previous outputs, creating new outputs, serializing transactions, and proving spend authority.
+- [Cryptographic Identity](concepts/CryptographicIdentity.md) - Secret/public keypair model where signatures prove control without revealing the private key.
+- [From-Scratch Protocol Learning](concepts/FromScratchProtocolLearning.md) - Learning approach that rebuilds protocol machinery to make abstractions, serialization, and safety boundaries concrete.
+- [UTXO Model](concepts/UTXOModel.md) - Cryptocurrency value model where spendable money exists as fully consumed and newly created unspent transaction outputs.
 - [Employee Financial Precarity](concepts/EmployeeFinancialPrecarity.md) - Condition where employed workers cannot reliably meet basic costs such as rent, food, transit, utilities, health care, and communications.
 - [Work Ethic Personal Responsibility](concepts/WorkEthicPersonalResponsibility.md) - Frame that early-career hardship should be answered through humility, available paid work, budgeting, roommates, and lower-status jobs before structural blame.
 - [Scientific Python](concepts/ScientificPython.md) - Using Python with numerical libraries such as NumPy for scientific computing, data science, and machine learning.
