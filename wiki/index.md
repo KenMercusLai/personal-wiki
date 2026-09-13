@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Bill Barnett - Delete All Meetings](sources/bill-barnett-delete-all-meetings.md) - Bill Barnett argues that recurring scheduled meetings often perform rationality without producing substantive work, and that protected work time plus informal useful conversations are better defaults.
+- [Bill Buxton - The Long Nose of Innovation](sources/bill-buxton-the-long-nose-of-innovation.md) - Bill Buxton argues that important technologies often spend decades in low-visibility invention, adaptation, refinement, and commercialization before appearing as sudden breakthroughs.
 - [Big Data MOOC Research Breakthrough: Learning Activities Lead to Achievement](sources/big-data-mooc-research-breakthrough-learning-activities-lead-to-achievement-edtech-researcher-education-week.md) - Justin Reich satirizes early MOOC learning analytics that compressed massive learner logs into simple effort measures and repeatedly found that active students were more likely to pass, complete, or achieve.
 - [Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next](sources/bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next.md) - Forbes profiles Jeff Bezos and Amazon's 2018 expansion logic: multiple paths to yes, capability-led adjacency, AWS-funded reinvestment, Prime as connective tissue, and Amazon Go as horizontal integration.
 - [Beware of the Beautiful Resume](sources/beware-of-the-beautiful-resume-small-business-forum.md) - A founder warns that name-brand resumes can hide status-oriented, territorial, process-heavy behavior that slows startups unless candidates are tested for ownership, contribution, and startup fit.
@@ -208,6 +209,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [Bill Barnett](entities/BillBarnett.md) - Academic author critiquing scheduled meetings through procedural rationality and advocating protected work time plus useful informal conversation.
+- [Bill Buxton](entities/BillBuxton.md) - Design and technology-history author represented here by the Long Nose of Innovation argument about long refinement before apparent breakthroughs.
 - [Max Weber](entities/MaxWeber.md) - Sociologist cited for the procedural-versus-substantive rationality distinction used to critique meeting rituals.
 - [Bill Durham](entities/BillDurham.md) - Anthropologist cited in Barnett's spontaneous co-evolution conversation example.
 - [Homebrew Computer Club](entities/HomebrewComputerClub.md) - 1970s informal computing-club setting connected to early Apple demonstrations and Jobs' random-interaction memory.
@@ -868,6 +870,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Developer Economy Segmentation](concepts/DeveloperEconomySegmentation.md) - Splitting developer ecosystem analysis into meaningful country or market groups so global averages do not hide distinct technology patterns.
 - [Programming Technology Demand](concepts/ProgrammingTechnologyDemand.md) - Inferred developer attention or demand for languages, platforms, frameworks, and tools.
 - [Data Science Technology Adoption](concepts/DataScienceTechnologyAdoption.md) - Uptake of programming tools, workflows, and organizational roles for data analysis, statistics, scientific computing, and machine learning.
+- [Long Nose Innovation](concepts/LongNoseInnovation.md) - Bill Buxton's frame for the long hidden gestation and refinement period behind technologies that later appear suddenly new.
 - [Academic-Industry Data Science Transition](concepts/AcademicIndustryDataScienceTransition.md) - Career and mindset shift from academic research into company data-science work.
 - [Industry Data Science](concepts/IndustryDataScience.md) - Company-embedded data-science practice combining statistics, product context, data pragmatism, communication, and business impact.
 - [Data Science Engineering Practice](concepts/DataScienceEngineeringPractice.md) - Applying clear code, tests, version control, automation, deployment, and debugging discipline to data-science work.

@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-13
-as_of_overview_commit: 996efd19645f1b1c050291202b8d0d082c173a12
-input_digest: a73017cd6ecb59417cc9aa3cf650a104f4a72520de9f90fa1fe7d38f1d3167e7
+last_updated: 2026-09-14
+as_of_overview_commit: 13cb83f52e01feea3a83a4819299d32945743b22
+input_digest: e2876ad61ffac6cb8d3f15848e752d93d43fbe9e8950e083778143b89fb0c0ed
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
+The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
 
 ## Cross-source Findings
 
@@ -28,13 +28,14 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 ### Software Product Histories Show Lineage And Platform Adaptation
 
-[[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], and [[ProductEvolution]] form software-product histories about read-later design, editor inheritance, ownership or maintenance changes, platform adaptation, durable conventions, business-model shifts, and reliability recovery rather than a geopolitical finding.
+[[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], and [[ProductEvolution]] form technology and software-product histories about hidden invention-to-adoption timelines, read-later design, editor inheritance, ownership or maintenance changes, platform adaptation, durable conventions, business-model shifts, and reliability recovery rather than a geopolitical finding.
 
-**Evidence:** [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], [[ConstraintShapedInterfaceDesign]], [[ProductEvolution]]
+**Evidence:** [[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], [[ConstraintShapedInterfaceDesign]], [[ProductEvolution]]
 
 **Qualifications:**
 
 - These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims.
+- The Long Nose article is represented through a reconstructed archive note, so its timing claims should remain source-scoped.
 
 ### Numeric Keypads Preserve Interface Lineages
 

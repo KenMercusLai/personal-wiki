@@ -222,13 +222,17 @@
       "global_candidate": false,
       "id": "innovation-recombines-specialized-knowledge-and-shared-data",
       "qualifications": [
-        "Cross-functional data sharing still requires governance, data quality, privacy controls, and semantic agreement."
+        "Cross-functional data sharing still requires governance, data quality, privacy controls, and semantic agreement.",
+        "The Long Nose evidence is a reconstructed archive note and should be treated as a technology-history frame, not a universal timing law."
       ],
-      "statement": "[[InnovationAtIntersection]] and [[OrganizationalDataSharing]] frame innovation as recombining specialized knowledge and shared data so teams can reason across the customer journey.",
+      "statement": "[[InnovationAtIntersection]], [[OrganizationalDataSharing]], [[LongNoseInnovation]], [[BillBuxton]], and [[ProductEvolution]] frame innovation as both recombination and long refinement: teams combine knowledge, then make older ideas usable through patient maturation before market impact.",
       "status": "supported",
       "supporting_wikilinks": [
         "InnovationAtIntersection",
-        "OrganizationalDataSharing"
+        "OrganizationalDataSharing",
+        "LongNoseInnovation",
+        "BillBuxton",
+        "ProductEvolution"
       ]
     },
     {

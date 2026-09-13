@@ -121,6 +121,21 @@
     },
     {
       "global_candidate": false,
+      "id": "innovation-matures-before-breakthroughs",
+      "qualifications": [
+        "The Long Nose evidence is a reconstructed archive note and a technology-history frame; it should not be generalized as a fixed maturation law for every domain."
+      ],
+      "statement": "[[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], and [[ProductEvolution]] frame apparently sudden technical breakthroughs as the visible end of older ideas, recombination, hidden refinement, and pre-commercial maturation.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "LongNoseInnovation",
+        "BillBuxton",
+        "InnovationAtIntersection",
+        "ProductEvolution"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "platforms-reshape-discovery-and-economics",
       "qualifications": [
         "Demand proxies such as traffic and cost references are directional rather than direct measurements of production use or business value."
@@ -139,6 +154,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, LLM workflows, and platform capability recombination. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, and market-facing expansion.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, and market-facing expansion.",
   "topic_id": "ai-and-technology"
 }

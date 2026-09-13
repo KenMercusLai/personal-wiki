@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 63f7dbe808a7e69db2475889e9b725e86dd4e137
-input_digest: 269e59df58443a8ba5c8b745ffb84925e62589345ad2433290826345a896bb6f
+as_of_overview_commit: 13cb83f52e01feea3a83a4819299d32945743b22
+input_digest: 742da61554110ef7dbcfe5d41b7945bea8d6458db9fbbfc7555e5433c050e6ac
 ---
 
 # Business and Markets
@@ -139,13 +139,14 @@ Business and market sources show durable value emerging when product work, start
 
 ### Innovation Recombines Specialized Knowledge And Shared Data
 
-[[InnovationAtIntersection]] and [[OrganizationalDataSharing]] frame innovation as recombining specialized knowledge and shared data so teams can reason across the customer journey.
+[[InnovationAtIntersection]], [[OrganizationalDataSharing]], [[LongNoseInnovation]], [[BillBuxton]], and [[ProductEvolution]] frame innovation as both recombination and long refinement: teams combine knowledge, then make older ideas usable through patient maturation before market impact.
 
-**Evidence:** [[InnovationAtIntersection]], [[OrganizationalDataSharing]]
+**Evidence:** [[InnovationAtIntersection]], [[OrganizationalDataSharing]], [[LongNoseInnovation]], [[BillBuxton]], [[ProductEvolution]]
 
 **Qualifications:**
 
 - Cross-functional data sharing still requires governance, data quality, privacy controls, and semantic agreement.
+- The Long Nose evidence is a reconstructed archive note and should be treated as a technology-history frame, not a universal timing law.
 
 ### Exit And Switching Pressure Incumbents
 

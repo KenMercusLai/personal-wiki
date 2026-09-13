@@ -1379,6 +1379,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Bill Buxton - The Long Nose of Innovation
+
+Added Bill Buxton's Long Nose of Innovation article. Key claims: breakthrough technologies often have decades of hidden gestation; the computer mouse took roughly 30 years from early prototype to mainstream ubiquity; future-impact technologies are often already at least 10 years old; and innovation depends heavily on refinement, adaptation, and commercialization rather than pure invention. No image references were present in the source Markdown.
+
 ## [2026-09-14] ingest | Bill Barnett - Delete All Meetings
 
 Added Bill Barnett's meeting critique. Key claims: recurring scheduled meetings can perform procedural rationality without producing substantive work; collaboration should ask why before protecting a meeting ritual; and protected work time plus informal conversations that continue only while useful are better defaults. No image references were present in the source Markdown.
@@ -1579,6 +1583,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
