@@ -174,6 +174,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Accounting for Developers 101 - Google Docs](sources/accounting-for-developers-101-google-docs.md) - John McKee and Tom Mornini introduce double-entry accounting as a compact model developers can use when building software that tracks money.
 - [Advertising models in mobile messaging apps](sources/advertising-models-in-mobile-messaging-apps-mobile-dev-memo.md) - Eric Seufert classifies early mobile messaging ad formats as opt-in brand channels, CRM-like conversations, sponsored content, and branded stickers.
 - [Are users trying to make developers angry?](sources/are-users-trying-to-make-developers-angry-exception-not-found.md) - Exception Not Found argues that frustrating user mistakes usually reflect missing context and developer-user fluency gaps rather than malicious intent.
+- [Are you a victim of the Sunk Cost Fallacy?](sources/are-you-a-victim-of-the-sunk-cost-fallacy-desk-of-van-schneider-medium.md) - Tobias van Schneider explains how unrecoverable time, money, emotion, and pride distort future decisions, including abandoned projects and sticky game/product design.
 - [Architecting for Continuous Delivery](sources/architecting-for-continuous-delivery-thoughtworks.md) - Vishal Naik argues that continuous delivery depends on architecture, fast test feedback, and deployment-pipeline visibility rather than tooling alone.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
@@ -342,6 +343,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [WP Engine](entities/WPEngine.md) - WordPress hosting company used as a generous affiliate-incentive growth case.
 - [TripAdvisor](entities/TripAdvisor.md) - Travel-review platform used as an SEO, review, badge, and partnership growth case.
 - [Spotify](entities/Spotify.md) - Music-streaming service used as a widget-sharing and freemium-acquisition example.
+- [Tobias van Schneider](entities/TobiasVanSchneider.md) - Designer-author using writing, .Mail, and product examples to explain sunk-cost decision traps.
+- [.Mail App](entities/DotMailApp.md) - Abandoned email-client project used as Tobias van Schneider's personal sunk-cost example.
+- [Semplice](entities/Semplice.md) - Designer portfolio platform named in Tobias van Schneider's author biography.
 - [eBay](entities/EBay.md) - Online marketplace used as an example of ratings, protection, and payments reducing stranger-commerce risk.
 - [Zappos](entities/Zappos.md) - Online shoe retailer used as an example of returns policy reducing e-commerce purchase risk.
 - [Firebox](entities/Firebox.md) - Gift and gadget retailer used as an affiliate-network growth example.
@@ -1008,6 +1012,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
+- [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material while keeping the system accountable to output.
@@ -1085,6 +1090,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.
 - [Platform Publisher Revenue](concepts/PlatformPublisherRevenue.md) - Revenue-share and fair-payment problem between professional publishers and large technology platforms.
 - [Platform Stickiness](concepts/PlatformStickiness.md) - User retention effect created when apps, workflows, habits, or services make a platform hard to leave.
+- [Product Stickiness](concepts/ProductStickiness.md) - Product-level retention pressure created by accumulated investment, habit, progress, or switching friction.
 - [Trust-Minimization Technology](concepts/TrustMinimizationTechnology.md) - Products, protocols, devices, or automations that reduce the trust required for strangers to transact.
 - [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for handling harassment and coordinated attacks.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.

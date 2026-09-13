@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-14
-as_of_overview_commit: e360cc454947ab9ed9beb03ff0f4e1997d9f7a11
-input_digest: cbda280a2cd5d00dfb3e34db5852c663a284f4017ac9f2bcc4ca4f6a0351d659
+as_of_overview_commit: 4b74435b2ba8f37e019e4bf465bf9e88f92a8194
+input_digest: c086b27b9f94ac06dea7f05b0ce2343a86abb9e6d8943fb0955b946b9c4aac8b
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice. The Benedict Evans paragraph adds Apple as a secondary trust-system example: curated services can promise relief from higher-level digital harms such as ad tracking, loot boxes, confusing charges, phishing, and manipulative ads, though the claim is event-scoped. The Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Tobias van Schneider paragraph adds a past-versus-future decision distinction: unrecoverable time, money, emotion, and pride should not justify further investment when the current reason to continue has faded. The Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice. The Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
 
 ## Cross-source Findings
 
@@ -58,13 +58,14 @@ Interfaces, reports, maps, command-line tools, and AI workflows shape confidence
 
 ### Goals And Opportunity Cost Focus Agency
 
-Goals, abstraction, opportunity-cost awareness, and optimization metaphors can focus agency when they turn vague desire into chosen direction, repeated attention, and concrete tradeoffs through [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], and [[PersonalProductivity]].
+Goals, abstraction, opportunity-cost awareness, [[SunkCostFallacy]] detection, and optimization metaphors can focus agency when they turn vague desire into chosen direction, repeated attention, concrete tradeoffs, and clearer separation between unrecoverable past costs and still-open future choices through [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], and [[PersonalProductivity]].
 
-**Evidence:** [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], [[PersonalProductivity]], [[AttentionManagement]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[StochasticGradientDescent]], [[CreativeAbstraction]], [[PiotrWozniak]], [[PeterThiel]]
+**Evidence:** [[GoalSetting]], [[OpportunityCost]], [[SunkCostFallacy]], [[SelfDiscipline]], [[PersonalProductivity]], [[AttentionManagement]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[StochasticGradientDescent]], [[CreativeAbstraction]], [[PiotrWozniak]], [[PeterThiel]]
 
 **Qualifications:**
 
 - The sources warn that goals can become externally competitive, coercive, or misdirected, and the Mission.org source's 'anything is possible' rhetoric does not prove that discipline can overcome structural, health, caregiving, or material constraints.
+- Sunk-cost awareness protects future choice, but it does not mean every difficult project should be abandoned; persistence can still be rational when current reasons remain strong.
 
 ### Future Capacity Can Motivate Present Behavior
 

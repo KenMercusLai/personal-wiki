@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: e360cc454947ab9ed9beb03ff0f4e1997d9f7a11
-input_digest: 1b41c33fd23f7f1b3493eac148a62a7bc39a090e164cf3031cad0b2ef16cd735
+as_of_overview_commit: 4b74435b2ba8f37e019e4bf465bf9e88f92a8194
+input_digest: e4c0c3ae67b88eb08f32825db37c66f098334bdf40cd280581efa56dede4b8ea
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps in product hierarchy; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps in product hierarchy; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
 
 ## Cross-source Findings
 
@@ -101,14 +101,15 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Saas Acquisition And Trust Loops Must Preserve Retained Value
 
-[[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], and [[ProductFlowFriction]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers, steps, and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
+[[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], and [[ProductFlowFriction]], but [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] qualify acquisition-first growth: offers, steps, channels, and retained use should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, compounding product value, and whether continued use reflects current value rather than only [[SunkCostFallacy]].
 
-**Evidence:** [[SaaSMarketing]], [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], [[ProductFlowFriction]], [[SaaSRetention]], [[ProductLedRetention]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
+**Evidence:** [[SaaSMarketing]], [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], [[ProductFlowFriction]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]], [[SunkCostFallacy]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
 
 **Qualifications:**
 
 - Growth examples are mostly practitioner or historical cases, and channel conditions, product quality, cohort behavior, and retention determine whether acquisition creates durable value.
 - Lowering friction can increase raw signups without proportionally increasing paying customers, so conversion work needs downstream quality checks.
+- Sunk-cost stickiness can retain users after enjoyment or value fades, so retention metrics need current-value interpretation rather than assuming all continued use is healthy.
 
 ### Innovation Combines Specialized Knowledge And Shared Data
 
