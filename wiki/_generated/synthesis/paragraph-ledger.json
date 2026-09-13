@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "19306d5457f2cad048289e914b4c0d9d7a534f9cd04aa95d7965b70a24e6c088",
       "f61099e3aaf40cde7cc579f840c3c35b3b510ea6b070f1b0a47298ca17882521",
       "6ab09c55a0062cb9c5ec7f9a9a425284bde48345cacb0fe3c8ac679688be5ef6",
       "3ac1f9ab4df71e177645248b42a872d3673fdf9db283d360694f448b815ac690",
@@ -145,11 +146,27 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 143
+    "paragraph_count": 144
   },
-  "overview_commit": "379fcd63f393000bf42a5c92d7fcf2c5e8788005",
-  "overview_digest": "ddb6b481db977358466c1e3d28d88af94f2d35a3b50d97c55678d6661f2784d5",
+  "overview_commit": "65f8ea2be89752fec9455e05d828efebd829efa4",
+  "overview_digest": "8d7692968daefb1582112dde8dbb5cd0d08af213640db4dd40a7f8cd5d7c9b29",
   "paragraphs": [
+    {
+      "id": "19306d5457f2cad048289e914b4c0d9d7a534f9cd04aa95d7965b70a24e6c088",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Karpathy source adds a technical-accessibility layer to the wiki's learning and explanation material. [[AndrejKarpathy]] uses [[Micrograd]] as a compact case: the code was already short, commented, documented, and conceptually minimal, yet broader engagement arrived only after he built a from-scratch video walkthrough. [[TechnicalAccessibility]] names the durable claim: technical artifacts need ramps that lower the initial cost of engagement, because even expert audiences may skip work they could understand if the entry path feels too effortful. This strengthens [[ExplanatoryWriting]] and [[FromScratchProtocolLearning]] by separating artifact quality from approachability.",
+      "topic_scores": {
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AndrejKarpathy",
+        "ExplanatoryWriting",
+        "FromScratchProtocolLearning",
+        "Micrograd",
+        "TechnicalAccessibility"
+      ]
+    },
     {
       "id": "f61099e3aaf40cde7cc579f840c3c35b3b510ea6b070f1b0a47298ca17882521",
       "primary_topic": "work-education-and-society",

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
+- [Andrej Karpathy on X: on technical accessibility](sources/andrej-karpathy-on-x-on-technical-accessibility.md) - Karpathy argues that Micrograd's unchanged code reached far more learners only after he built an explanatory video ramp around it.
 - [An Open Letter to Millennials Like Talia...](sources/an-open-letter-to-millennials-like-talia-stefanie-williams-medium.md) - Stefanie Williams rejects Talia Jane's wage-precarity framing and argues that roommates, second jobs, service work, and humility are expected early-career tradeoffs.
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
 - [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
@@ -155,7 +156,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Andrej Karpathy](entities/AndrejKarpathy.md) - Technical educator using a from-scratch Python implementation to explain Bitcoin's cryptographic and transaction machinery.
+- [Andrej Karpathy](entities/AndrejKarpathy.md) - Technical educator using from-scratch implementations and explicit learning ramps to make complex systems approachable.
+- [Micrograd](entities/Micrograd.md) - Karpathy's minimal autograd engine, used as a case study in how explanatory ramps can multiply an educational codebase's reach.
 - [cryptos](entities/Cryptos.md) - Karpathy reference library for the cleaner Bitcoin implementation behind the tutorial.
 - [Stefanie Williams](entities/StefanieWilliams.md) - Response author who frames Talia Jane's situation as a failure of work ethic and personal responsibility rather than workplace financial precarity.
 - [Talia Jane](entities/TaliaJane.md) - Writer and former Yelp/Eat24 support worker whose open letter documents employee financial precarity in a Bay Area tech workplace.
@@ -836,6 +838,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
 - [Effect Log](concepts/EffectLog.md) - Write-ahead log for agent tool calls and external side effects.
 - [Explanatory Writing](concepts/ExplanatoryWriting.md) - Audience-centered tutorial writing that clarifies the promise, grounds abstractions in examples, tests with readers, and revises for comprehension.
+- [Technical Accessibility](concepts/TechnicalAccessibility.md) - Practice of lowering the barrier to approach and understand technical artifacts without changing their underlying substance.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.

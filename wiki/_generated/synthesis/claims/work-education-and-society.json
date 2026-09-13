@@ -82,9 +82,10 @@
         "Using output as a PKM test is a practical guardrail, but complex research, collaboration, or archival needs may justify heavier systems.",
         "Orphan-note handling assumes inbound links matter to a knowledge system; search-first, folder-first, or project-database workflows may experience isolation differently.",
         "Daily journaling prompts create capture material but do not by themselves specify review, tagging, retrieval, or long-term synthesis routines.",
-        "The reinforcement-learning career metaphor is illustrative rather than evidence that human careers optimize like algorithms."
+        "The reinforcement-learning career metaphor is illustrative rather than evidence that human careers optimize like algorithms.",
+        "Technical accessibility improves entry paths, but it does not substitute for artifact quality, and the Micrograd evidence is one creator reflection rather than a general measurement."
       ],
-      "statement": "[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.",
+      "statement": "[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[TechnicalAccessibility]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, entry-ramp design, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[AndrejKarpathy]] and [[Micrograd]] add that even compact technical artifacts may need a from-scratch ramp before learners engage deeply, [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.",
       "status": "qualified",
       "supporting_wikilinks": [
         "SystematicLearning",
@@ -95,6 +96,10 @@
         "KnowledgeOutput",
         "ReflectiveConnection",
         "ExplanatoryWriting",
+        "TechnicalAccessibility",
+        "AndrejKarpathy",
+        "Micrograd",
+        "FromScratchProtocolLearning",
         "DerekLieu",
         "NickyCase",
         "PersonalKnowledgeManagement",
@@ -475,6 +480,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest source makes the Talia Jane/Yelp case contested: wages that do not cover basic costs can be read as structural employee financial precarity, while Stefanie Williams argues for a personal-responsibility frame built around second jobs, roommates, service work, humility, and practical tradeoffs.",
+  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest Karpathy source adds technical accessibility to the learning loop: even compact, well-documented technical artifacts may need explicit ramps before learners engage deeply. The Talia Jane/Yelp case remains contested: wages that do not cover basic costs can be read as structural employee financial precarity, while Stefanie Williams argues for a personal-responsibility frame built around second jobs, roommates, service work, humility, and practical tradeoffs.",
   "topic_id": "work-education-and-society"
 }
