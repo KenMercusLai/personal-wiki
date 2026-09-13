@@ -20,6 +20,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
 - [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
+- [Apple's Stream Team: Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future](sources/apples-stream-team-zane-lowe-bozoma-saint-john-and-larry-jackson-are-taking-music-to-the-future-complex.md) - Complex profiles Apple Music as an early culture-platform bet built around artist collaboration, Beats 1, marketing, and shared streaming moments.
 - [Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby](sources/appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby.md) - Appcanary's Phillip Mendonca-Vieira argues that startups should prefer familiar tools, delay distributed systems, and treat developer happiness as real tool quality.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
@@ -489,12 +490,16 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
 - [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
-- [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as the article's main selective non-Apple hardware distribution example.
+- [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as both a content-distribution asset and a culture-platform experiment.
 - [Apple TV](entities/AppleTV.md) - Apple's premium video hardware and TV-app context in the content distribution strategy.
 - [HomePod](entities/HomePod.md) - Apple's premium speaker contrasted with cheaper smart speakers in the content distribution strategy.
 - [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
 - [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform where Apple Music support protects Apple's content relationship with iPhone users.
 - [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming and as smart-TV content.
+- [Larry Jackson](entities/LarryJackson.md) - Apple Music content leader focused on artist collaboration, exclusives, and pop-culture positioning.
+- [Zane Lowe](entities/ZaneLowe.md) - Apple Music and Beats 1 editorial voice focused on artist conversation and shared music moments.
+- [Bozoma Saint John](entities/BozomaSaintJohn.md) - Apple Music marketing leader focused on brand, discovery, and mainstream cultural attention.
+- [Beats 1](entities/Beats1.md) - Apple Music radio station used as a human-curation and shared-moment layer.
 - [AirPods](entities/AirPods.md) - Apple's ear-worn wearable used with Apple Watch as evidence of wrists-and-ears momentum before smart glasses.
 - [ARKit](entities/ARKit.md) - Apple's augmented-reality developer platform used to seed AR behavior on iPhones and iPads before smart glasses.
 - [Magic Leap](entities/MagicLeap.md) - AR company contrasted with Apple's installed base, developers, and wearable-learning advantages.
@@ -684,6 +689,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Growth Levers](concepts/AppleGrowthLevers.md) - Above Avalon's 2018 frame for Apple's uneven revenue drivers: iPhone ASP, Services, and wearables.
 - [Apple Product Theory](concepts/AppleProductTheory.md) - Above Avalon's framework for Apple's product line as increasingly personal alternatives to prior computing tasks.
 - [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
+- [Apple Music Culture Platform](concepts/AppleMusicCulturePlatform.md) - Strategy of making Apple Music a home for artists, radio, brand, and shared cultural moments rather than only a streaming catalog.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
 - [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile app marketplace downloads, revenue, geography, and category mix.
 - [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.

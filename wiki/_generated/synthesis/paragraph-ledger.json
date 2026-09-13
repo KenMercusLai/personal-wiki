@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ad94f8925ed340cecc5a4384835ae65c2949ba2eed1da0acf56e937673c72565",
       "e61aad23a46fc9cae09677ce2e08dab91115778c52a06ebfb70345747899412c",
       "a40198b503fbe1118cfdf1092b24ee782e6785b6761f04933ad309caca860a11",
       "c9795312e24e8b8cb81c86a3bb02d9c5c041fcce257ee9cbbddde0134bb97743",
@@ -163,11 +164,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 161
+    "paragraph_count": 162
   },
-  "overview_commit": "630573936560e37948be4656701d5d183553ebeb",
-  "overview_digest": "7ce5fafdeaf53c44c80e25e2c2ceb3e046a215a5041c7ba69c2a4891a8df0526",
+  "overview_commit": "816eb5dc09a2871e878a2d7b02bfc64d9b3c6ee3",
+  "overview_digest": "1cc10c74b6b5858b1ea8bbd509acc4f2e3d7adb2ac57a4bcb3d6722468269ea6",
   "paragraphs": [
+    {
+      "id": "ad94f8925ed340cecc5a4384835ae65c2949ba2eed1da0acf56e937673c72565",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest Complex source adds an early Apple Music culture-platform layer to the wiki's Apple services material. [[AppleMusicCulturePlatform]] names the article's argument that Apple Music was trying to be more than a streaming catalog: [[LarryJackson]] supplied artist collaboration and exclusive-project logic, [[ZaneLowe]] and [[Beats1]] supplied a radio and conversation layer, and [[BozomaSaintJohn]] supplied brand, discovery, and public attention. This sharpens [[AppleMusic]], [[AppleContentDistributionStrategy]], and [[StreamingContentEconomics]] by showing that Apple Music's differentiation depended on human curation, cultural moments, and entertainment-industry relationships as well as subscriber scale and hardware reach. The source is profile-driven and early-stage, and its remote lead image could not be inspected.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 2
+      },
+      "wikilinks": [
+        "AppleContentDistributionStrategy",
+        "AppleMusic",
+        "AppleMusicCulturePlatform",
+        "Beats1",
+        "BozomaSaintJohn",
+        "LarryJackson",
+        "StreamingContentEconomics",
+        "ZaneLowe"
+      ]
+    },
     {
       "id": "e61aad23a46fc9cae09677ce2e08dab91115778c52a06ebfb70345747899412c",
       "primary_topic": "business-and-markets",

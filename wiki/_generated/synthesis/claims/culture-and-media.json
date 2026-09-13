@@ -78,18 +78,18 @@
       "global_candidate": true,
       "id": "platform-media-strategy-shapes-shared-culture",
       "qualifications": [
-        "The Apple and BuzzFeed evidence comes from strategy interpretation and a publisher memo, not neutral outcome measurement."
+        "The Apple Music evidence is an early profile and interview rather than neutral outcome measurement; the Apple distribution and BuzzFeed evidence also comes from strategy interpretation and a publisher memo."
       ],
-      "statement": "[[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[MediaBrandPortfolio]], [[PlatformPublisherRevenue]], and [[DigitalMediaMonetization]] connect media access, publisher revenue, and shared culture to platform economics.",
+      "statement": "[[AppleContentDistributionStrategy]], [[AppleMusicCulturePlatform]], [[StreamingContentEconomics]], [[MediaBrandPortfolio]], [[PlatformPublisherRevenue]], and [[DigitalMediaMonetization]] connect media access, artist relationships, shared moments, publisher revenue, and platform economics.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AppleContentDistributionStrategy",
-        "Apple",
+        "AppleMusicCulturePlatform",
         "AppleMusic",
-        "AmazonEcho",
-        "AirPlay2",
-        "AppleTV",
-        "HomePod",
+        "LarryJackson",
+        "ZaneLowe",
+        "Beats1",
+        "BozomaSaintJohn",
         "StreamingContentEconomics",
         "MediaBrandPortfolio",
         "PlatformPublisherRevenue",
@@ -140,6 +140,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest AI-blogging paragraph adds AI-assisted writing as a media-production practice: rough drafts, questions, outlines, voice cleanup, and tone passes can shape cultural output, but the writer's examples, story, voice, and final judgment still carry the work.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest Apple Music profile adds streaming-culture strategy: services can compete by creating artist relationships, radio conversation, brand meaning, and shared moments, while still depending on platform economics and subscriber scale.",
   "topic_id": "culture-and-media"
 }

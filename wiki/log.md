@@ -691,6 +691,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Apple's Stream Team: Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future
+
+Added Complex's Apple Music profile. Key claims: Apple Music was being positioned as more than a streaming utility through Larry Jackson's artist collaborations, Zane Lowe and Beats 1's radio conversation layer, Bozoma Saint John's brand and discovery work, and Apple's attempt to combine entertainment judgment with reliable technology. The remote lead image could not be retrieved for inspection.
+
 ## [2026-09-13] ingest | App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue
 
 Added VentureBeat's report on App Annie's 2015 app-store estimates. Key claims: Google Play led Apple's App Store by downloads, Apple's App Store led Google Play by revenue, emerging markets drove Google Play download growth, China/U.S./Japan drove iOS App Store revenue growth, and games remained the dominant revenue category on both platforms.
@@ -1306,6 +1310,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Apple as the new Disney
 
 Added Benedict Evans' Apple services and brand analysis. Key claims: Apple's 2019 services event was a subscription and retention move, but its deeper positioning was a trust-and-curation promise around privacy, safety, no scammy ads, no manipulative game mechanics, and clearer financial products.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
