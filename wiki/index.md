@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius](sources/balaji-srinivasan-silicon-valleys-ultimate-exit-genius.md) - Balaji Srinivasan argues that Silicon Valley should lower barriers to exit through startups, forks, opt-in societies, Bitcoin, and other technology-mediated alternatives to paper-era institutions.
 - [How to Build a Startup Without Quitting Your Day Job](sources/aytekin-tank-jotform-how-to-build-a-startup-without-quitting-your-day-job.md) - Aytekin Tank argues that side projects can grow through protected spare time, customer-value extras, play, and low-pressure experimentation before becoming products or bootstrapped businesses.
 - [Automation is making human labor more valuable than ever](sources/automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy.md) - Vox argues that automation can make standardized goods cheaper while increasing demand for labor-intensive services where human attention, craft, and personal connection are part of the product.
 - [Automated Testing for League of Legends](sources/automated-testing-for-league-of-legends-riot-games-technology.md) - Riot Games' Jim Merrill explains how BVS runs large-scale automated League of Legends functional tests through CI, RPC control, staged trust, reporting, and anti-flake conventions.
@@ -189,6 +190,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
+- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem framed as institutionally shaped by startups, forks, labor mobility, and exit.
 - [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
 - [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
 - [Vox](entities/Vox.md) - Explanatory journalism publication source for the automation-and-human-labor article.
@@ -693,6 +696,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Exit as Governance](concepts/ExitAsGovernance.md) - Governance frame where credible alternatives, switching, forking, founding, relocation, or opt-out infrastructure discipline institutions.
+- [Opt-In Society](concepts/OptInSociety.md) - Voluntary technology-mediated society that people join by choice rather than inherited jurisdiction.
+- [Paper Belt](concepts/PaperBelt.md) - Srinivasan's label for paper-era institutional centers in education, media, finance, entertainment, and law.
 - [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of growing a project through protected, low-pressure spare time until it teaches, enriches, or becomes a product/business candidate.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.

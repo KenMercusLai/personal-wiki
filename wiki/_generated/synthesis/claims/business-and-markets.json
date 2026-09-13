@@ -70,6 +70,20 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "startups-and-forks-can-function-as-exit",
+      "qualifications": [
+        "The new evidence is a political-technology talk rather than a startup outcomes study, so it reframes existing startup material without proving that exit-oriented ventures always improve institutional accountability."
+      ],
+      "statement": "[[ExitAsGovernance]] adds an institutional reading to startup and platform markets: [[BalajiSrinivasan]] treats startups, forks, customer switching, and labor mobility in [[SiliconValley]] as business mechanisms that make incumbent organizations respond to credible alternatives.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ExitAsGovernance",
+        "BalajiSrinivasan",
+        "SiliconValley"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "mvps-and-pre-fit-startups-convert-runway-into-learning",
       "qualifications": [
@@ -607,6 +621,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, attribution, organization design, executive hiring, domain modeling, local operations, payments, capital, stakeholder belief, side-project incubation, tool choice, support learning, reliability practice, and judgment into durable value only when distribution, trust, customer evidence, deep funnel measurement, retention, observability, release safety, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that side projects can protect low-pressure customer-value experiments before they become businesses, as [[Jotform]] did for [[AytekinTank]] and as [[Slack]] did through an internal-tool pivot; SaaS marketing attribution needs operations ownership, algorithmic multi-touch reasoning, and downstream customer and revenue metrics; executive hiring needs role focus, targeted references, and fit feedback when founder judgment cannot directly test senior functional expertise; Asana's outage turned a faulty logging deploy into a broader reliability and incident-response lesson; Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for trust, privacy, curation, anti-scam, and real-world engagement; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps; mobile platform power separates reach from monetization; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make fit and upside explicit without confusing optimistic vision with unresolved product-market truth.",
+  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, attribution, organization design, executive hiring, domain modeling, local operations, payments, capital, stakeholder belief, side-project incubation, tool choice, support learning, reliability practice, and judgment into durable value only when distribution, trust, customer evidence, deep funnel measurement, retention, observability, release safety, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that side projects can protect low-pressure customer-value experiments before they become businesses, as [[Jotform]] did for [[AytekinTank]] and as [[Slack]] did through an internal-tool pivot; SaaS marketing attribution needs operations ownership, algorithmic multi-touch reasoning, and downstream customer and revenue metrics; executive hiring needs role focus, targeted references, and fit feedback when founder judgment cannot directly test senior functional expertise; Asana's outage turned a faulty logging deploy into a broader reliability and incident-response lesson; Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for trust, privacy, curation, anti-scam, and real-world engagement; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps; mobile platform power separates reach from monetization; engineer investing must pair technical conviction with business analysis and risk discipline; founder pitches should make fit and upside explicit without confusing optimistic vision with unresolved product-market truth; and exit-oriented startup/fork narratives treat credible alternatives as market mechanisms that can pressure incumbents.",
   "topic_id": "business-and-markets"
 }

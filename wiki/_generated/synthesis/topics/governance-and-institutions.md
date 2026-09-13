@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-14
-as_of_overview_commit: 0b1d5e6e978f478c0ef1ab95bb91f477b9248871
-input_digest: 95e90c0e42d453f87f83571e1f19afeefdf88e08cab80f90d951fe8f46d3c3b0
+as_of_overview_commit: a68f89fbe3575e9e8d5b09253473588248ef4550
+input_digest: e2aa9211ab5dd81af94b2f4aca71b667efae6de5a0b78dc2bec11c5522ff94b4
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, and standardized technical systems. The newest Netflix paragraph extends this topic by treating personalization infrastructure as a governed decision system: visual presentation is algorithmically varied, but exploration, replay evaluation, quality labels, recognizability, and scale constraints are needed to keep the system accountable to member experience rather than raw clicks.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. The newest Srinivasan paragraph adds a polemical but useful counterframe: voice becomes more credible when people can switch, fork, found, relocate, or use tools such as Bitcoin to lower dependence on paper-era institutions, though that claim must be qualified by unequal exit capacity and the risk that software platforms create their own lock-in.
 
 ## Cross-source Findings
 
@@ -48,13 +48,25 @@ Scale turns informal or one-off practices into boundary-design problems across o
 
 ### Platform Trust Is A Strategic Asset
 
-Platforms gain power when they become trusted intermediaries for discovery, payment, content access, or safety, but that trust can be damaged by opaque decisions, abuse, or extractive economics.
+Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation, while exit-oriented technology arguments stress that credible alternatives can discipline that power.
 
-**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]]
+**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[ExitAsGovernance]]
 
 **Qualifications:**
 
 - Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes.
+- Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in.
+
+### Exit And Voice Discipline Institutions
+
+[[ExitAsGovernance]], [[OptInSociety]], and [[PaperBelt]] frame a governance model where credible alternatives, forks, startups, relocation, and monetary technologies such as [[Bitcoin]] amplify voice by making inherited institutions less able to trap dissenters.
+
+**Evidence:** [[ExitAsGovernance]], [[OptInSociety]], [[PaperBelt]], [[Bitcoin]]
+
+**Qualifications:**
+
+- The Srinivasan source is polemical and forecast-heavy, so its claims about state capacity, opt-in societies, and technology-enabled jurisdictional choice need later empirical sources.
+- Exit works unevenly because people differ in money, mobility, legal status, networks, and ability to absorb switching costs.
 
 ### Technical Systems Embed Social Consequences
 

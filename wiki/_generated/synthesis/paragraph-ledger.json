@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9dda0860ac57ac9cd322c93b1e205580077c56d19085424be9c2075c879c2c50",
       "a78787d9b1192c7605e04f428dbe5ba89e63a17d0b6cdcad18b55454a932b1e0",
       "6fbcb95afbf0092a37743eea2d0d0af313e44ff3bb656ea96a77b02cf3ef29c5",
       "eb08177d672dfdff9cf33adb2a1a85f6edc771b9d6e1440a4003d5c38d3a80f4",
@@ -178,11 +179,35 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 176
+    "paragraph_count": 177
   },
-  "overview_commit": "8beb860b3fa1a8fc9acda429778201c305edfefb",
-  "overview_digest": "13dce2c0cab0e94f121a1cb36c494e1ad46a25d3f5f1bb363ceac69b86e87516",
+  "overview_commit": "a68f89fbe3575e9e8d5b09253473588248ef4550",
+  "overview_digest": "f4d6ed65e63b709cc8603b6674f152d722ae6790272e693424e8baaf8e098baf",
   "paragraphs": [
+    {
+      "id": "9dda0860ac57ac9cd322c93b1e205580077c56d19085424be9c2075c879c2c50",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "ai-and-technology",
+        "business-and-markets"
+      ],
+      "text": "The newest Genius transcript source adds a political-technology layer to the wiki's startup, platform, and cryptocurrency material. [[ExitAsGovernance]] names [[BalajiSrinivasan]]'s central claim that exit and voice are complements: complaints, votes, reforms, and patches gain force when people can leave for credible alternatives. [[SiliconValley]] is framed as an exit-shaped ecosystem of startups, forks, labor mobility, venture-funded disruption, and cheap switching, while [[PaperBelt]] names the older U.S. institutional centers in education, media, finance, entertainment, and regulation that software is said to challenge. [[OptInSociety]] captures the talk's maximal proposal: voluntary technology-run alternatives outside inherited jurisdiction, with [[Bitcoin]] presented as one monetary example of exit infrastructure. The source is explicitly polemical and forecast-heavy, so its claims need qualifications around unequal exit capacity, public goods, and the possibility that software platforms create their own lock-in.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "governance-and-institutions": 3,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "BalajiSrinivasan",
+        "Bitcoin",
+        "ExitAsGovernance",
+        "OptInSociety",
+        "PaperBelt",
+        "SiliconValley"
+      ]
+    },
     {
       "id": "a78787d9b1192c7605e04f428dbe5ba89e63a17d0b6cdcad18b55454a932b1e0",
       "primary_topic": "cross-domain",

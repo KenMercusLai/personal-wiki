@@ -5,21 +5,22 @@ tags: [cryptocurrency, payments]
 sources:
   - amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto
   - andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python
-last_updated: 2026-09-13
+  - balaji-srinivasan-silicon-valleys-ultimate-exit-genius
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Bitcoin]] is presented both as an incumbent cryptocurrency vulnerable to merchant-adoption choices and as a concrete protocol where value is represented by UTXOs, ownership by cryptographic signatures, and block inclusion by proof-of-work incentives.
+[[Bitcoin]] is presented as an incumbent cryptocurrency vulnerable to merchant-adoption choices, as a concrete protocol where value is represented by UTXOs and proof-of-work-secured transactions, and as a technology that could reduce state control over capital movement.
 
 ## Current Profile
-The market-adoption source treats Bitcoin as a popular speculative asset and aspirational currency whose practical payment ambitions could be constrained by volatility, recovery risk, throughput, and large-platform choices by [[Amazon]]. Karpathy's tutorial adds the protocol layer underneath that payment story: Bitcoin funds are not account balances but spendable [[UTXOModel]] outputs with amounts and locking scripts. Users control funds through [[CryptographicIdentity]], construct spends through [[BitcoinTransactionModel]], satisfy P2PKH locking conditions through [[BitcoinScript]], and rely on [[BitcoinProofOfWork]] miners to package valid transactions into blocks.
+The market-adoption source treats Bitcoin as a popular speculative asset and aspirational currency whose practical payment ambitions could be constrained by volatility, recovery risk, throughput, and large-platform choices by [[Amazon]]. Karpathy's tutorial adds the protocol layer underneath that payment story: Bitcoin funds are not account balances but spendable [[UTXOModel]] outputs with amounts and locking scripts. Users control funds through [[CryptographicIdentity]], construct spends through [[BitcoinTransactionModel]], satisfy P2PKH locking conditions through [[BitcoinScript]], and rely on [[BitcoinProofOfWork]] miners to package valid transactions into blocks. Srinivasan's talk adds a political-technology frame: Bitcoin is an exit tool because it can make capital controls, bail-ins, and money seizure more like packet filtering than centralized financial command.
 
 ## Key Characteristics
 - Held the incumbent "number one cryptocurrency" position in the source's framing.
 - Drew speculative investment attention despite severe volatility and recovery risks.
 - Was presented as too slow for Amazon-scale checkout demand at roughly seven transactions per second.
-- Needed widespread merchant adoption to function as currency rather than only as an investment vehicle.
+- Needed widespread merchant adoption to function as currency rather than only as an investment vehicle, and functions in Srinivasan's thesis as exit infrastructure for moving capital outside conventional controls.
 - Represents spendable value as fully consumed and newly created UTXOs rather than mutable account rows.
 - Secures ordinary P2PKH spends through public-key hashes, unlocking scripts, and ECDSA-style signatures.
 - Uses proof of work, block rewards, and transaction fees to coordinate transaction inclusion.
@@ -32,12 +33,14 @@ The market-adoption source treats Bitcoin as a popular speculative asset and asp
 - Value representation: [[andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python]] describes Bitcoin as a DAG of UTXOs with amounts and locking scripts.
 - Spend authorization: [[andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python]] constructs P2PKH transactions where public keys and signatures satisfy locking scripts.
 - Mining incentives: [[andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python]] explains fees, coinbase rewards, proof-of-work hashing, and roughly ten-minute mainnet block timing.
+- Capital-control resistance: [[balaji-srinivasan-silicon-valleys-ultimate-exit-genius]] says Bitcoin can make capital controls resemble packet filtering and make bail-ins harder if many people use it.
+- Paper Belt disruption: [[balaji-srinivasan-silicon-valleys-ultimate-exit-genius]] lists Bitcoin among technologies threatening Washington, D.C.'s regulatory power.
 
 ## Qualifications
-This page still does not attempt a complete monetary, regulatory, market, or consensus history of Bitcoin. The Amazon scenarios are speculative, and the Karpathy tutorial intentionally focuses on legacy P2PKH-style testnet transactions while omitting modern features such as Segwit, bech32, Taproot, mining implementation, and full validation.
+This page still does not attempt a complete monetary, regulatory, market, or consensus history of Bitcoin. The Amazon scenarios are speculative, the Karpathy tutorial intentionally focuses on legacy P2PKH-style testnet transactions while omitting modern features such as Segwit, bech32, Taproot, mining implementation, and full validation, and Srinivasan's capital-control claim is a political forecast rather than proof that governments cannot regulate cryptocurrency.
 
 ## What Changed
-- Expanded Bitcoin from a market-adoption incumbent into a technical protocol profile centered on UTXOs, scripts, signatures, serialization, fees, and proof of work.
+- Added Srinivasan's frame of Bitcoin as exit infrastructure against capital controls and bail-ins.
 
 ## Relationships
 - [[Amazon]] - retailer whose cryptocurrency choice is framed as a possible threat to Bitcoin's leadership.
@@ -48,3 +51,5 @@ This page still does not attempt a complete monetary, regulatory, market, or con
 - [[BitcoinTransactionModel]] - Bitcoin spend construction and serialization model.
 - [[BitcoinScript]] - authorization layer for common P2PKH outputs.
 - [[BitcoinProofOfWork]] - mining and transaction-inclusion mechanism.
+- [[ExitAsGovernance]] - Bitcoin is one monetary example in Srinivasan's exit-technology stack.
+- [[PaperBelt]] - Bitcoin is framed as part of Silicon Valley's challenge to D.C.-centered regulatory power.

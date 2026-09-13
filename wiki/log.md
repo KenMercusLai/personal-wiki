@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius
+
+Added the Genius transcript of Balaji Srinivasan's exit thesis. Key claims: exit complements voice, Silicon Valley is shaped by startups/forks/mobility, the Paper Belt names older paper-era institutional centers, opt-in society is proposed as a peaceful alternative, and Bitcoin plus other technologies are framed as tools for lowering exit barriers. The local image reference was malformed and no corresponding asset directory existed, so no image evidence was incorporated.
+
 ## [2026-09-14] ingest | Assembling an Executive Leadership Team is Daunting - Let Thumbtack's CEO Help
 
 Added First Round Review's interview with Thumbtack CEO Marco Zappacosta. Key claims: executive roles should be narrowed to three essential strengths, founder interviews should separate mutual interest from deeper fit, broad targeted references validate skill better than gut feel, and final feedback conversations test self-awareness and reciprocal vulnerability. Inspected the local portrait illustration and treated it as decorative rather than independent evidence.
@@ -1460,6 +1464,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] ingest | Back of the Envelope Calculation | Better Programmer
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

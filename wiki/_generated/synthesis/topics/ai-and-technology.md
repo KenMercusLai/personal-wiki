@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04
-input_digest: b84bcd96a773955873e813ecbf041082682be426ff4b823aca131d7d842baa3a
+as_of_overview_commit: a68f89fbe3575e9e8d5b09253473588248ef4550
+input_digest: 351bc5ab2c923a363bdfdb88855fdc60f643436044ec9f1962e3f64340963ecd
 ---
 
 # AI and Technology
 
 ## Current State
 
-The technology material treats AI, software architecture, infrastructure, databases, platforms, and game automation as systems whose benefits depend on fit, verification, data quality, and operational constraints. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, and automated game testing all improve outcomes when teams match tools to workload shape, preserve observability and change safety, and avoid premature complexity.
+The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, and Bitcoin-as-exit claims all need workload- and institution-aware qualification rather than simple technology triumphalism.
 
 ## Cross-source Findings
 
@@ -70,13 +70,14 @@ Data work creates value when organizations combine sound method with action loop
 
 ### Platforms Shape Discovery Runtime And Trust
 
-Platform power appears through control of discovery, runtime, trust, subscriptions, and ecosystem lock-in across [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MarketplaceTrust]], [[PlatformStickiness]], and [[SubscriptionSurplusAlignment]].
+Platform power appears through control of discovery, runtime, trust, subscriptions, ecosystem lock-in, and the cost of exit; [[ExitAsGovernance]] adds the inverse technology thesis that software, forks, and protocols can lower dependence on incumbents.
 
-**Evidence:** [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MarketplaceTrust]], [[PlatformStickiness]], [[SubscriptionSurplusAlignment]]
+**Evidence:** [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MarketplaceTrust]], [[PlatformStickiness]], [[SubscriptionSurplusAlignment]], [[ExitAsGovernance]]
 
 **Qualifications:**
 
 - Some sources are strategic essays rather than measurements; they are strongest as mechanism maps rather than forecasts.
+- Exit-enabling technology claims should be separated from evidence that a given technology actually defeats regulation or creates fair access.
 
 ### Production Reliability Needs Realistic Evidence
 

@@ -52,16 +52,34 @@
       "global_candidate": true,
       "id": "platform-trust-is-a-strategic-asset",
       "qualifications": [
-        "Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes."
+        "Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes.",
+        "Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in."
       ],
-      "statement": "Platforms gain power when they become trusted intermediaries for discovery, payment, content access, or safety, but that trust can be damaged by opaque decisions, abuse, or extractive economics.",
+      "statement": "Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation, while exit-oriented technology arguments stress that credible alternatives can discipline that power.",
       "status": "supported",
       "supporting_wikilinks": [
         "AppleContentDistributionStrategy",
         "StreamingContentEconomics",
         "BrowserPaymentBroker",
         "WebAdEconomics",
-        "DeveloperPlatformTrust"
+        "DeveloperPlatformTrust",
+        "ExitAsGovernance"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "exit-and-voice-discipline-institutions",
+      "qualifications": [
+        "The Srinivasan source is polemical and forecast-heavy, so its claims about state capacity, opt-in societies, and technology-enabled jurisdictional choice need later empirical sources.",
+        "Exit works unevenly because people differ in money, mobility, legal status, networks, and ability to absorb switching costs."
+      ],
+      "statement": "[[ExitAsGovernance]], [[OptInSociety]], and [[PaperBelt]] frame a governance model where credible alternatives, forks, startups, relocation, and monetary technologies such as [[Bitcoin]] amplify voice by making inherited institutions less able to trap dissenters.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ExitAsGovernance",
+        "OptInSociety",
+        "PaperBelt",
+        "Bitcoin"
       ]
     },
     {
@@ -81,6 +99,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, and standardized technical systems. The newest Netflix paragraph extends this topic by treating personalization infrastructure as a governed decision system: visual presentation is algorithmically varied, but exploration, replay evaluation, quality labels, recognizability, and scale constraints are needed to keep the system accountable to member experience rather than raw clicks.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. The newest Srinivasan paragraph adds a polemical but useful counterframe: voice becomes more credible when people can switch, fork, found, relocate, or use tools such as Bitcoin to lower dependence on paper-era institutions, though that claim must be qualified by unequal exit capacity and the risk that software platforms create their own lock-in.",
   "topic_id": "governance-and-institutions"
 }
