@@ -216,6 +216,20 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "platform-power-centralizes-discovery-commerce-and-access",
+      "qualifications": [
+        "The Staltz source is a 2017 critical forecast; its traffic figures, net-neutrality pathway, and Trinet endpoint are source-scoped rather than current market measurements."
+      ],
+      "statement": "[[WebCentralization]], [[BrowserBypass]], and [[Trinet]] extend the platform-power thread beyond payments and publishing: Google, Facebook, and Amazon can centralize discovery, social traffic, commerce, hosting, and access while the broader internet keeps growing, making independent websites less necessary and weakening open-Web freedom.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "WebCentralization",
+        "BrowserBypass",
+        "Trinet"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "micromobility-scaling-needs-local-operating-density",
       "qualifications": [

@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
 - [Andrej Karpathy on X: on technical accessibility](sources/andrej-karpathy-on-x-on-technical-accessibility.md) - Karpathy argues that Micrograd's unchanged code reached far more learners only after he built an explanatory video ramp around it.
+- [Andre Staltz - The Web began dying in 2014, here's how](sources/andre-staltz-the-web-began-dying-in-2014-heres-how.md) - Andre Staltz argues that the Web began losing practical relevance as Google, Facebook, and Amazon concentrated traffic, discovery, commerce, mobile runtimes, and infrastructure.
 - [An Open Letter to Millennials Like Talia...](sources/an-open-letter-to-millennials-like-talia-stefanie-williams-medium.md) - Stefanie Williams rejects Talia Jane's wage-precarity framing and argues that roommates, second jobs, service work, and humility are expected early-career tradeoffs.
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
 - [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
@@ -165,6 +166,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [Andrej Karpathy](entities/AndrejKarpathy.md) - Technical educator using from-scratch implementations and explicit learning ramps to make complex systems approachable.
+- [Andre Staltz](entities/AndreStaltz.md) - Writer arguing that the open Web is decaying as dominant platform networks absorb discovery, commerce, publishing, and user attention.
 - [Micrograd](entities/Micrograd.md) - Karpathy's minimal autograd engine, used as a case study in how explanatory ramps can multiply an educational codebase's reach.
 - [cryptos](entities/Cryptos.md) - Karpathy reference library for the cleaner Bitcoin implementation behind the tutorial.
 - [Stefanie Williams](entities/StefanieWilliams.md) - Response author who frames Talia Jane's situation as a failure of work ethic and personal responsibility rather than workplace financial precarity.
@@ -629,6 +631,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Innovation at the Intersection](concepts/InnovationAtIntersection.md) - Creating new ideas by recombining existing ideas, observations, techniques, or datasets across fields and roles.
 - [Organizational Data Sharing](concepts/OrganizationalDataSharing.md) - Sharing observations and datasets across teams and systems so companies can reason across the full customer journey.
 - [Aggregation Theory](concepts/AggregationTheory.md) - Platform-strategy frame where demand control and trust transfer let aggregators mediate supply and centralize profits.
+- [Web Centralization](concepts/WebCentralization.md) - Concentration of web traffic, discovery, publishing leverage, commerce, hosting, and user attention inside dominant platform networks.
+- [Browser Bypass](concepts/BrowserBypass.md) - Movement of internet activity away from open browser-land into apps, assistants, voice devices, AR/VR, proprietary clouds, and controlled runtimes.
+- [Trinet](concepts/Trinet.md) - Andre Staltz's speculative model of internet infrastructure optimized mainly around Google, Facebook, and Amazon traffic.
 - [Cryptocurrency Merchant Adoption](concepts/CryptocurrencyMerchantAdoption.md) - Cryptocurrency payment adoption by merchants, especially large platforms whose choices can validate or redirect tokens and payment rails.
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.

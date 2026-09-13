@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e331db3d5c1d1f06421885c5d2a0927e793637f6aa9fc5bc91e3a4b1c3835117",
       "3cf64412dae9df6082d95d75ca6d77f5311c03877f5f49b89cec2d2c600b4be2",
       "b9cbbb64c858183fdea0c2c2b9e227d22b62f9035664b61f5daf449f5436c19c",
       "2f17507d2cc227a8f67624e1e016a4f05d52ce07b4e8f658441b96a1299c8707",
@@ -154,11 +155,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 152
+    "paragraph_count": 153
   },
-  "overview_commit": "43d9a8ab114eb6e580991217c2847d5748b1c405",
-  "overview_digest": "205079ad81dfe87ba802b39b22f4ea100232abeb6b6faf4ae5e46717115c5b88",
+  "overview_commit": "6d4da9d8882dbead2e869396a0297fb5b1192e57",
+  "overview_digest": "c6fb932ebe022d69e147f327a19bfbf3334952e736d4668badfa70849deb9cba",
   "paragraphs": [
+    {
+      "id": "e331db3d5c1d1f06421885c5d2a0927e793637f6aa9fc5bc91e3a4b1c3835117",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest Andre Staltz source adds an open-Web decline layer to the wiki's platform-power material. [[WebCentralization]] distinguishes internet growth from Web health: Staltz argues that Google, Facebook, and Amazon can keep internet usage rising while making independent, browser-mediated publishing less necessary. [[BrowserBypass]] names the mechanism across the three companies: Google moves from search toward AI suggestion, assistants, AMP, and proprietary cloud infrastructure; Facebook consolidates social traffic through apps, messaging, Instant Articles, and AR/VR ambitions; and Amazon routes commerce through retail scale, apps, Echo, and cloud services. [[Trinet]] is the source's speculative endpoint, a warning model in which network access and infrastructure optimize for the three dominant platform networks while open-Web freedom, anonymity, startup independence, and account-level recourse weaken.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BrowserBypass",
+        "Trinet",
+        "WebCentralization"
+      ]
+    },
     {
       "id": "3cf64412dae9df6082d95d75ca6d77f5311c03877f5f49b89cec2d2c600b4be2",
       "primary_topic": "business-and-markets",

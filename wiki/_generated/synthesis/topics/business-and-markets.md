@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 43d9a8ab114eb6e580991217c2847d5748b1c405
-input_digest: 10c4e1cd1740eafd8a6d04a37891dab0dd15d9d3a5efbe24d77e508467b131b1
+as_of_overview_commit: 6d4da9d8882dbead2e869396a0297fb5b1192e57
+input_digest: e145cad1214f3789763d3d1e0b8765f23e47705ec152f489412fea2129964b3c
 ---
 
 # Business and Markets
@@ -130,6 +130,16 @@ Business and market sources show companies, investors, and creators converting t
 **Qualifications:**
 
 - The cryptocurrency-payment evidence is a speculative 2017 scenario and does not prove Amazon's actual later cryptocurrency strategy or current Bitcoin, Ethereum, or retail-payment performance.
+
+### Platform Power Centralizes Discovery Commerce And Access
+
+[[WebCentralization]], [[BrowserBypass]], and [[Trinet]] extend the platform-power thread beyond payments and publishing: Google, Facebook, and Amazon can centralize discovery, social traffic, commerce, hosting, and access while the broader internet keeps growing, making independent websites less necessary and weakening open-Web freedom.
+
+**Evidence:** [[WebCentralization]], [[BrowserBypass]], [[Trinet]]
+
+**Qualifications:**
+
+- The Staltz source is a 2017 critical forecast; its traffic figures, net-neutrality pathway, and Trinet endpoint are source-scoped rather than current market measurements.
 
 ### Micromobility Scaling Needs Local Operating Density
 

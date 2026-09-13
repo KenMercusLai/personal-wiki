@@ -6,15 +6,16 @@ sources:
   - 16-mobile-theses-benedict-evans
   - above-avalon-the-race-to-a-trillion
   - advertising-models-in-mobile-messaging-apps-mobile-dev-memo
+  - andre-staltz-the-web-began-dying-in-2014-heres-how
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, and stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention.
+[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention, and became central to Staltz's account of social traffic concentration after 2014.
 
 ## Current Profile
-The Evans mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Mobile Dev Memo source adds the monetization version of that ambition: [[FacebookMessenger]]'s scale and brand-thread model made chat a possible advertising surface, while Facebook's LiveRail acquisition and AI investment are treated as clues for future brand-interaction tooling. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services.
+The Evans mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Mobile Dev Memo source adds the monetization version of that ambition: [[FacebookMessenger]]'s scale and brand-thread model made chat a possible advertising surface, while Facebook's LiveRail acquisition and AI investment are treated as clues for future brand-interaction tooling. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services. Staltz adds a dependency critique: Facebook concentrated social traffic, bought WhatsApp, left search competition behind, and used products such as Instant Articles to pull publisher activity closer to its own network.
 
 ## Key Characteristics
 - Mostly completed the transition from desktop web social networking to mobile.
@@ -23,6 +24,7 @@ The Evans mobile article presents Facebook as one of the major mobile-era actors
 - Treats Messenger as a possible native advertising surface through brand conversations, content channels, and stickers.
 - Faces difficulty building OS-like layers without owning the mobile operating system.
 - Appears in the 2018 corporate-giant comparison as an advertising and curated-web company with major cash, scale, and R&D, but attention-shift risk.
+- Is framed by Staltz as the social-internet company whose app portfolio and traffic power helped make publishers dependent on platform distribution.
 
 ## Evidence
 - Mobile transition: [[16-mobile-theses-benedict-evans]] says Facebook made the transition to mobile, mostly.
@@ -35,13 +37,14 @@ The Evans mobile article presents Facebook as one of the major mobile-era actors
 - Giant-company profile: [[above-avalon-the-race-to-a-trillion]] lists Facebook at $587B of market cap, $44B of net cash, $24B of FY2017 operating cash flow, and $8B of FY2017 R&D expense.
 - Business model: [[above-avalon-the-race-to-a-trillion]] describes Facebook as providing curated versions of the web through Facebook and Instagram.
 - Attention risk: [[above-avalon-the-race-to-a-trillion]] says Facebook and Google were rewarded for predictable advertising streams but viewed as exposed to competition for user attention.
+- Social concentration: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] argues that Facebook became a social superpower through Facebook, WhatsApp, Messenger, and Instagram after its 2014 strategy shift.
+- Publisher dependency: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] says Facebook traffic grew enough to make media sites dependent on Facebook alongside Google.
 
 ## Qualifications
-The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Mobile Dev Memo source relies partly on an alleged leaked document and captures a February 2016 advertising snapshot, not the later rollout or user reaction. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes.
+The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Mobile Dev Memo source relies partly on an alleged leaked document and captures a February 2016 advertising snapshot, not the later rollout or user reaction. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes. Staltz's source is a 2017 critique and forecast, so its traffic-dependence claims should be treated as source-scoped historical argument.
 
 ## What Changed
-- Created Facebook as a mobile-transition and messaging-platform actor, then added its 2018 corporate-giant profile and attention-risk qualification.
-- Added Messenger advertising as Facebook's monetization layer for messaging-as-platform strategy.
+- Added Facebook's role in Staltz's open-Web decline thesis: social traffic concentration, publisher dependence, Instant Articles, and post-browser social runtimes.
 
 ## Relationships
 - [[MessagingAsPlatform]] - Facebook is one of the actors trying to make messaging a platform.
@@ -51,3 +54,5 @@ The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger
 - [[MobilePlatformDiscovery]] - Facebook's traffic and messaging ambitions relate to mobile discovery and user acquisition.
 - [[CorporateGiantFragility]] - Facebook is used as an example of a powerful incumbent still exposed to attention shifts and process risk.
 - [[Google]] - advertising and attention-risk comparator in the Above Avalon source.
+- [[WebCentralization]] - Facebook is one of the traffic and publishing gatekeepers in Staltz's argument.
+- [[BrowserBypass]] - Facebook's app, messaging, AR, and VR ambitions are browser-bypassing social surfaces in Staltz's source.

@@ -148,6 +148,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Andre Staltz - The Web began dying in 2014, here's how
+
+Added Andre Staltz's open-Web decline essay. Key claims: post-2014 traffic and publishing dependence concentrated around Google and Facebook, Amazon supplied the commerce/cloud pillar, mobile and assistants enable browser bypass, and the speculative Trinet future would preserve internet transport while weakening open-Web freedom.
+
 ## [2026-09-13] ingest | An Open Letter To My CEO
 
 Ingested Talia Jane's open letter on Yelp/Eat24 support-worker financial precarity, adding source, entity, and concept pages.
@@ -1255,6 +1259,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | The Next Next Job, a framework for making big career decisions
 
 Added Andrew Chen's career-decision framework. Key claims: compare current opportunities by the next-next job they make reachable, research gaps with people already in the target role, build a decisive superpower as well as credentials, and treat some over-preparation as risk aversion rather than necessity.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

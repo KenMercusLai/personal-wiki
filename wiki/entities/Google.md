@@ -8,15 +8,16 @@ sources:
   - 16-mobile-theses-benedict-evans
   - a-selfie-for-the-planet
   - above-avalon-the-race-to-a-trillion
+  - andre-staltz-the-web-began-dying-in-2014-heres-how
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Google]] appears in the wiki as a web-protocol actor, scaling-organization example, mobile platform winner, geospatial platform operator, and one of the corporate giants in Above Avalon's 2018 trillion-dollar-market-cap analysis.
+[[Google]] appears in the wiki as a web-protocol actor, scaling-organization example, mobile platform winner, geospatial platform operator, one of the corporate giants in Above Avalon's 2018 trillion-dollar-market-cap analysis, and a central actor in [[AndreStaltz]]'s open-Web decline thesis.
 
 ## Current Profile
-Within the HTTP source, Google is represented as a web-platform actor whose experimental protocols and browser adoption helped shape HTTP's later performance evolution. The scaling source adds Google as an operating model for order-of-magnitude process change, small-team product creation, recruiting intensity, strong culture, and executive communication cadence. The mobile source adds Google as the [[Android]] platform winner whose strategic need for reach is complicated by [[Apple]]'s control of [[IOS]] and by OEM attempts to shape non-Google Android experiences. The mapping source adds a geospatial profile: through [[GoogleMaps]], [[GoogleEarth]], and [[StreetView]], Google turns maps into personalized, dynamic, commercially useful, and privacy-sensitive infrastructure. The Above Avalon source treats Alphabet/Google as one of the five corporate giants, a data-capturing services company with a strong advertising revenue stream but possible vulnerability to competitors that capture user attention in new ways.
+Within the HTTP source, Google is represented as a web-platform actor whose experimental protocols and browser adoption helped shape HTTP's later performance evolution. The scaling source adds Google as an operating model for order-of-magnitude process change, small-team product creation, recruiting intensity, strong culture, and executive communication cadence. The mobile source adds Google as the [[Android]] platform winner whose strategic need for reach is complicated by [[Apple]]'s control of [[IOS]] and by OEM attempts to shape non-Google Android experiences. The mapping source adds a geospatial profile: through [[GoogleMaps]], [[GoogleEarth]], and [[StreetView]], Google turns maps into personalized, dynamic, commercially useful, and privacy-sensitive infrastructure. The Above Avalon source treats Alphabet/Google as one of the five corporate giants, a data-capturing services company with a strong advertising revenue stream but possible vulnerability to competitors that capture user attention in new ways. Staltz adds the sharpest open-Web critique: Google is moving from search toward AI, assistants, AMP, proprietary cloud infrastructure, and direct answers, making it less a neutral bridge to websites than a knowledge-internet platform that can bypass the browser.
 
 ## Key Characteristics
 - Developed SPDY and [[QUIC]], which the source frames as precursors or foundations for [[HTTP2]] and [[HTTP3]].
@@ -25,7 +26,7 @@ Within the HTTP source, Google is represented as a web-platform actor whose expe
 - Is used as an example of recruiting, small-team product development, and strong culture.
 - Won mobile alongside [[Apple]] through [[Android]], but still faces reach and service-control constraints on iOS and within OEM-modified Android ecosystems.
 - Operates large-scale geospatial products that combine canonical data, crowdsourcing, local search, advertising, personalization, and sensitive location traces.
-- Appears in the 2018 corporate-giant comparison as a data-capturing services business with major cash, R&D, and advertising power, but no permanent immunity from [[CorporateGiantFragility]].
+- Appears in the 2018 corporate-giant comparison as a data-capturing services business with major cash, R&D, and advertising power, while Staltz frames it as the knowledge-internet company moving toward AI-mediated suggestion and controlled infrastructure.
 
 ## Evidence
 - SPDY influence: [[chen-hao-http-de-qian-shi-jin-sheng]] says Google's 2010 SPDY experiment became the basis for [[HTTP2]].
@@ -43,12 +44,14 @@ Within the HTTP source, Google is represented as a web-platform actor whose expe
 - Giant-company profile: [[above-avalon-the-race-to-a-trillion]] lists Alphabet at $814B of market cap, $100B of net cash, $37B of FY2017 operating cash flow, and $17B of FY2017 R&D expense.
 - Business model: [[above-avalon-the-race-to-a-trillion]] describes Google as a services company aimed at delivering data-capturing tools to as many people as possible.
 - Attention risk: [[above-avalon-the-race-to-a-trillion]] says Google and Facebook were rewarded for predictable advertising streams but viewed as exposed to competition for user attention.
+- Search-to-suggest shift: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] argues that Google was moving from a search bridge to an AI-assisted suggestion model that shortens the path from user need to answer.
+- Open-Web ambivalence: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] says Google promotes PWAs but also promotes AMP, Firebase, proprietary cloud hardware, and closed assistant experiences aligned with an AI-first mission.
 
 ## Qualifications
-The HTTP source does not evaluate Google's broader standards strategy or the full history of SPDY, QUIC, Chrome, or BBR. The scaling source is a course-note synthesis and does not independently assess Google's culture, hiring outcomes, or management tradeoffs. The mobile source is a 2015 strategy snapshot and does not cover later Android, AI, search, assistant, antitrust, or hardware developments. The mapping source is a 2016 profile with substantial access to Google insiders, so its product ambitions and trust framing should be read alongside the privacy and cartographic criticisms it reports. The Above Avalon source is a 2018 market-strategy snapshot and treats Alphabet primarily as a comparator among giants rather than as a full Google analysis.
+The HTTP source does not evaluate Google's broader standards strategy or the full history of SPDY, QUIC, Chrome, or BBR. The scaling source is a course-note synthesis and does not independently assess Google's culture, hiring outcomes, or management tradeoffs. The mobile source is a 2015 strategy snapshot and does not cover later Android, AI, search, assistant, antitrust, or hardware developments. The mapping source is a 2016 profile with substantial access to Google insiders, so its product ambitions and trust framing should be read alongside the privacy and cartographic criticisms it reports. The Above Avalon source is a 2018 market-strategy snapshot and treats Alphabet primarily as a comparator among giants rather than as a full Google analysis. Staltz's source is a 2017 critical forecast, so its traffic figures and Web-decline projections are source-scoped rather than current measurements.
 
 ## What Changed
-- Added Google as a geospatial platform operator and as a 2018 corporate-giant comparator whose data, ads, cash, and scale remain subject to incumbent fragility.
+- Added Google as a knowledge-internet actor in Staltz's open-Web decline argument, especially through search-to-suggest, AI, AMP, assistant, and proprietary cloud strategies.
 
 ## Relationships
 - [[HTTP2]] - Google's SPDY is presented as HTTP/2's experimental precursor.
@@ -71,3 +74,5 @@ The HTTP source does not evaluate Google's broader standards strategy or the ful
 - [[CorporateGiantFragility]] - Google appears as a powerful data and advertising incumbent that still faces attention and process risk.
 - [[Amazon]] - corporate-giant comparator in the Above Avalon source.
 - [[Facebook]] - advertising and attention-risk comparator in the Above Avalon source.
+- [[WebCentralization]] - Staltz frames Google as one of the main drivers of post-2014 Web dependency.
+- [[BrowserBypass]] - Google's assistants, AMP, cloud, and direct-answer strategy are examples in Staltz's source.

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: d8181b540808b2d261937ecba5d1cb7be9b27387
-input_digest: af31793f252719010e7cc7a54cb6f68184e14a128d417deb3788609d87f57f06
+as_of_overview_commit: 6d4da9d8882dbead2e869396a0297fb5b1192e57
+input_digest: 361a1849ef3b99b58caa89c9b8d431b4584857fc179be4d29ee9150b2fa116e8
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems need accountable humans, explicit evidence models, reliable context management, bounded actions, verification harnesses, workload-aware infrastructure, domain-correct architecture, and real-world evidence. The newest Andrew Chen writing-output source strengthens the authorship thread: [[ChatGPT]] can reduce blank-page friction through drafts, questions, outlines, topic sentences, and voice cleanup, but [[AIAssistedWriting]] and [[AIWorkflowDesign]] still depend on human examples, taste, factual judgment, voice, cadence, feedback selection, and final responsibility.
+AI and technology sources emphasize that useful systems need accountable humans, explicit evidence models, reliable context management, bounded actions, verification harnesses, workload-aware infrastructure, domain-correct architecture, and real-world evidence. The newest Andre Staltz source adds a platform-runtime warning: [[BrowserBypass]], [[WebCentralization]], and [[Trinet]] show how internet services can grow through apps, assistants, voice devices, and controlled clouds while making the open browser less central.
 
 ## Cross-source Findings
 
@@ -55,6 +55,16 @@ AI and technology sources emphasize that useful systems need accountable humans,
 **Qualifications:**
 
 - Several claims are practitioner or code-reading inferences; tutorial-scale codebase QA and benchmark-specific vector-search evidence should not be generalized without workload, recall, and safety evaluation.
+
+### Internet Services Shift Away From Open Browser Surfaces
+
+[[BrowserBypass]], [[WebCentralization]], and [[Trinet]] show a broader technology-platform risk: internet services can keep improving user convenience through apps, assistants, voice devices, proprietary clouds, and controlled runtimes while reducing the open browser's role as the default surface for independent publishing and access.
+
+**Evidence:** [[BrowserBypass]], [[WebCentralization]], [[Trinet]]
+
+**Qualifications:**
+
+- The Staltz source is a 2017 critical forecast; its Trinet scenario is a warning model rather than an observed final state.
 
 ### Ai Coding Needs Human And System Controls
 

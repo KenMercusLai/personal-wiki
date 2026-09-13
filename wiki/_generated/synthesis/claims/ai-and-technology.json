@@ -88,6 +88,20 @@
     },
     {
       "global_candidate": true,
+      "id": "internet-services-shift-away-from-open-browser-surfaces",
+      "qualifications": [
+        "The Staltz source is a 2017 critical forecast; its Trinet scenario is a warning model rather than an observed final state."
+      ],
+      "statement": "[[BrowserBypass]], [[WebCentralization]], and [[Trinet]] show a broader technology-platform risk: internet services can keep improving user convenience through apps, assistants, voice devices, proprietary clouds, and controlled runtimes while reducing the open browser's role as the default surface for independent publishing and access.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "BrowserBypass",
+        "WebCentralization",
+        "Trinet"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "ai-coding-needs-human-and-system-controls",
       "qualifications": [
         "The sources disagree in emphasis between collaboration-first, automation-first, learning-preservation, residual-testing, large-project role-based workflows, distributed-consensus limits, and older human-review practices."
@@ -184,6 +198,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources emphasize that useful systems need accountable humans, explicit evidence models, reliable context management, bounded actions, verification harnesses, workload-aware infrastructure, domain-correct architecture, and real-world evidence. The newest Andrew Chen writing-output source strengthens the authorship thread: [[ChatGPT]] can reduce blank-page friction through drafts, questions, outlines, topic sentences, and voice cleanup, but [[AIAssistedWriting]] and [[AIWorkflowDesign]] still depend on human examples, taste, factual judgment, voice, cadence, feedback selection, and final responsibility.",
+  "summary": "AI and technology sources emphasize that useful systems need accountable humans, explicit evidence models, reliable context management, bounded actions, verification harnesses, workload-aware infrastructure, domain-correct architecture, and real-world evidence. The newest Andre Staltz source adds a platform-runtime warning: [[BrowserBypass]], [[WebCentralization]], and [[Trinet]] show how internet services can grow through apps, assistants, voice devices, and controlled clouds while making the open browser less central.",
   "topic_id": "ai-and-technology"
 }
