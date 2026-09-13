@@ -5,20 +5,22 @@ tags: [company, social-networking, messaging, platform]
 sources:
   - 16-mobile-theses-benedict-evans
   - above-avalon-the-race-to-a-trillion
+  - advertising-models-in-mobile-messaging-apps-mobile-dev-memo
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform, and stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention.
+[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, and stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention.
 
 ## Current Profile
-The mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services.
+The Evans mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Mobile Dev Memo source adds the monetization version of that ambition: [[FacebookMessenger]]'s scale and brand-thread model made chat a possible advertising surface, while Facebook's LiveRail acquisition and AI investment are treated as clues for future brand-interaction tooling. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services.
 
 ## Key Characteristics
 - Mostly completed the transition from desktop web social networking to mobile.
 - Competes for influence over mobile discovery and runtime.
 - Treats messaging as a possible development environment and user-acquisition platform.
+- Treats Messenger as a possible native advertising surface through brand conversations, content channels, and stickers.
 - Faces difficulty building OS-like layers without owning the mobile operating system.
 - Appears in the 2018 corporate-giant comparison as an advertising and curated-web company with major cash, scale, and R&D, but attention-shift risk.
 
@@ -26,19 +28,25 @@ The mobile article presents Facebook as one of the major mobile-era actors tryin
 - Mobile transition: [[16-mobile-theses-benedict-evans]] says Facebook made the transition to mobile, mostly.
 - Runtime competition: [[16-mobile-theses-benedict-evans]] lists Facebook as trying to insert itself into the unresolved mobile interaction model.
 - Messaging platform: [[16-mobile-theses-benedict-evans]] says Facebook almost built a messaging platform on desktop and wanted to do so outside China on mobile.
+- Messenger ads: [[advertising-models-in-mobile-messaging-apps-mobile-dev-memo]] says a leaked document allegedly showed Facebook planning ads in Messenger threads users had already opened with brands.
+- Brand-content path: [[advertising-models-in-mobile-messaging-apps-mobile-dev-memo]] says Facebook might pursue Snapchat Discover-like brand content channels in Messenger.
+- Sticker example: [[advertising-models-in-mobile-messaging-apps-mobile-dev-memo]] shows a free Despicable Me 2 branded sticker pack in Facebook Messenger's sticker store.
 - OS-owner constraint: [[16-mobile-theses-benedict-evans]] notes that building layers on top of the OS is hard for actors other than OS owners.
 - Giant-company profile: [[above-avalon-the-race-to-a-trillion]] lists Facebook at $587B of market cap, $44B of net cash, $24B of FY2017 operating cash flow, and $8B of FY2017 R&D expense.
 - Business model: [[above-avalon-the-race-to-a-trillion]] describes Facebook as providing curated versions of the web through Facebook and Instagram.
 - Attention risk: [[above-avalon-the-race-to-a-trillion]] says Facebook and Google were rewarded for predictable advertising streams but viewed as exposed to competition for user attention.
 
 ## Qualifications
-The mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes.
+The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Mobile Dev Memo source relies partly on an alleged leaked document and captures a February 2016 advertising snapshot, not the later rollout or user reaction. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes.
 
 ## What Changed
 - Created Facebook as a mobile-transition and messaging-platform actor, then added its 2018 corporate-giant profile and attention-risk qualification.
+- Added Messenger advertising as Facebook's monetization layer for messaging-as-platform strategy.
 
 ## Relationships
 - [[MessagingAsPlatform]] - Facebook is one of the actors trying to make messaging a platform.
+- [[FacebookMessenger]] - Facebook's messaging product and main ad-surface case in the Mobile Dev Memo source.
+- [[MobileMessagingAdvertising]] - Facebook Messenger illustrates CRM-like brand-thread advertising and branded stickers.
 - [[MobileRuntime]] - Facebook competes to shape post-browser/post-app interaction surfaces.
 - [[MobilePlatformDiscovery]] - Facebook's traffic and messaging ambitions relate to mobile discovery and user acquisition.
 - [[CorporateGiantFragility]] - Facebook is used as an example of a powerful incumbent still exposed to attention shifts and process risk.

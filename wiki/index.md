@@ -132,6 +132,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 - [Accounting for Developers 101 - Google Docs](sources/accounting-for-developers-101-google-docs.md) - John McKee and Tom Mornini introduce double-entry accounting as a compact model developers can use when building software that tracks money.
+- [Advertising models in mobile messaging apps](sources/advertising-models-in-mobile-messaging-apps-mobile-dev-memo.md) - Eric Seufert classifies early mobile messaging ad formats as opt-in brand channels, CRM-like conversations, sponsored content, and branded stickers.
 
 ## Entities
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
@@ -150,7 +151,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Flock](entities/Flock.md) - Bump team's semi-automated photo-sharing product that failed to grow but led toward Photoroll and Google Photos ideas.
 - [Google Photos](entities/GooglePhotos.md) - Google product connected in the Bump retrospective to the team's photo-sharing learning and post-acquisition work.
 - [Coach Tony](entities/CoachTony.md) - Authorial identity behind a headcount and opportunity-design critique of company growth.
-- [WhatsApp](entities/WhatsApp.md) - Messaging company used as a small-headcount counterexample to startup success measured by employee count.
+- [WhatsApp](entities/WhatsApp.md) - Messaging company used as both a small-headcount startup counterexample and an anti-ad qualification in Facebook's messaging portfolio.
+- [Eric Seufert](entities/EricSeufert.md) - Mobile Dev Memo author classifying advertising models in mobile messaging apps.
+- [Mobile Dev Memo](entities/MobileDevMemo.md) - Mobile app and advertising publication context for Seufert's messaging-ad taxonomy.
+- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as the main CRM-like brand-thread advertising case.
+- [Kik](entities/Kik.md) - Messaging app example of promoted brand chats and keyword-sensitive bot responses.
+- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover feature exemplifies opt-in brand content channels.
+- [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
+- [Tango](entities/Tango.md) - Messaging app example of promoted brand channels and sponsored native content.
+- [BlackBerry Messenger](entities/BlackBerryMessenger.md) - Messaging app example supporting promoted brand and sponsored-content formats.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
 - [Drazen Prelec](entities/DrazenPrelec.md) - Behavioral economist whose survey methods use predictions about others to improve crowd judgment.
 - [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
@@ -395,8 +404,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem and service-control surface in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
-- [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery and runtime platform.
-- [WeChat](entities/WeChat.md) - China messaging app used as the source's strongest example of messaging becoming a mobile platform.
+- [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
+- [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example and as a sponsored Moments ad surface.
 - [Graham Harman](entities/GrahamHarman.md) - Object-oriented ontology thinker whose real/sensual object and quality schema frames the article's theory of art and metaphor.
 - [Guanlan](entities/Guanlan.md) - Author arguing for production-agent infrastructure built around effect logs, capability gateways, and resumability.
 - [gVisor](entities/GVisor.md) - User-space kernel sandbox discussed as execution isolation rather than semantic agent isolation.
@@ -760,6 +769,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [LLM Data Analysis](concepts/LLMDataAnalysis.md) - Using LLMs to support data workflows while controlling risks around statistical inference, method choice, and polished invalid outputs.
 - [LLM Tooling Skills](concepts/LLMToolingSkills.md) - Prompt-level instruction bundles that guide LLM reasoning without directly adding an external action channel.
 - [Map Trajectory Rendering](concepts/MapTrajectoryRendering.md) - Frontend display of movement paths on map platforms using ordered coordinate sequences.
+- [Mobile Messaging Advertising](concepts/MobileMessagingAdvertising.md) - Messaging-app ad formats built around brand chats, content channels, feeds, sticker stores, and CRM-like conversations.
 - [Micro Company](concepts/MicroCompany.md) - Deliberately small company structure that uses modular services to preserve autonomy and reduce coordination overhead.
 - [Model Context Protocol](concepts/ModelContextProtocol.md) - Structured tool-call interface that exposes external capabilities to LLMs through function schemas.
 - [Mixed-Method UX Research](concepts/MixedMethodUXResearch.md) - Combining user behavior, subjective experience, expert inference, and interface-design evidence into one explanatory UX research structure.
@@ -846,7 +856,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, and scarce founder attention conflict.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, adjacent devices, and post-iPhone seeding away from the PC-era center.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
-- [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users find services when search, app stores, operating systems, notifications, messaging, and traffic holders shape attention.
+- [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users and brands find services when search, app stores, operating systems, notifications, messaging, ads, and traffic holders shape attention.
 - [Digital Cartography](concepts/DigitalCartography.md) - Screen-based, dynamic, personalized, and platform-mediated mapmaking shaped by data, design, law, and commercial context.
 - [Location Data Privacy](concepts/LocationDataPrivacy.md) - Privacy problem created when systems collect or infer where people are, where they go, and what they seek there.
 - [User-Generated Mapping](concepts/UserGeneratedMapping.md) - Map-building pattern where public, volunteer, customer, or community contributions update and enrich map data.
@@ -856,8 +866,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Platform Stickiness](concepts/PlatformStickiness.md) - User retention effect created when apps, workflows, habits, or services make a platform hard to leave.
 - [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for handling harassment and coordinated attacks.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
-- [Mobile Runtime](concepts/MobileRuntime.md) - Competing service surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
-- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, and customer-acquisition channel.
+- [Mobile Runtime](concepts/MobileRuntime.md) - Competing service and monetization surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
+- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, customer-acquisition channel, and monetization surface.
 - [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.
 - [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
 - [Volunteer Campaign Technology](concepts/VolunteerCampaignTechnology.md) - Campaign-supporting software and data work built by loosely affiliated supporters rather than only official staff or vendors.

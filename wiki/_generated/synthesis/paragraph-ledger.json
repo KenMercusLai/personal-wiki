@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
       "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
       "6dc1ae1fd7a0c6cbaef4890dab7b2ee58d23fa013a2f0e8a8d2ec9dd33e742c2",
       "496719edeb2659d837f5537c613296a863dfa033ee85c33d01a90e9dc703716b",
@@ -126,11 +127,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 124
+    "paragraph_count": 125
   },
-  "overview_commit": "658a489acca8d1c5a04d8bc1c59cb1a5eb547aec",
-  "overview_digest": "e9cd6595b3a8cfdfc043d65affa90b9c19e5a1b632ce8416bfc72ed7a465ef27",
+  "overview_commit": "dd2fa60863b4c7262245ed3eb409c5abbd251d34",
+  "overview_digest": "4abf86a4f6e2fcd2270c2df083515cbdf0454d13f6132bf2ec93f1aa22819a09",
   "paragraphs": [
+    {
+      "id": "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Mobile Dev Memo source adds a monetization layer to the wiki's mobile messaging thread. [[EricSeufert]] argues that [[MobileMessagingAdvertising]] in early 2016 clustered around opt-in brand channels, CRM-like brand conversations, sponsored content, and branded stickers rather than simple banner transplantation. [[FacebookMessenger]] is the main case: an alleged leaked plan suggested ads in brand threads users had previously initiated, while a sticker-store screenshot shows a free Despicable Me 2 branded pack as ad-adjacent inventory. [[Kik]], [[Snapchat]], [[WeChat]], [[Tango]], [[BlackBerryMessenger]], and [[LINE]] broaden the taxonomy, and [[WhatsApp]] qualifies it by showing that even Facebook-owned messaging products had public anti-ad positioning.",
+      "topic_scores": {
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "BlackBerryMessenger",
+        "EricSeufert",
+        "FacebookMessenger",
+        "Kik",
+        "LINE",
+        "MobileMessagingAdvertising",
+        "Snapchat",
+        "Tango",
+        "WeChat",
+        "WhatsApp"
+      ]
+    },
     {
       "id": "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
       "primary_topic": "business-and-markets",

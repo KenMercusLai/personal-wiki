@@ -128,6 +128,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Advertising models in mobile messaging apps
+
+Added a source note for Eric Seufert's Mobile Dev Memo taxonomy of messaging-app advertising, created [[MobileMessagingAdvertising]] and supporting messaging-product entities, and updated Facebook, WhatsApp, WeChat, Mobile Runtime, Mobile Platform Discovery, and Messaging as Platform with the monetization layer.
+
 ## [2026-09-13] ingest | Adapting Network Design to Support Automation
 
 Added the ipSpace.net source note, created [[NetworkAutomation]], [[IvanPepelnjak]], and [[IpSpace]], and connected the article's automation-as-design-requirement argument to infrastructure-as-code and change-safety concepts.
@@ -981,6 +985,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Above Avalon: The Race to a Trillion
 
 Added source note for Neil Cybart's 2018 corporate-giant essay, created [[Amazon]] and [[CorporateGiantFragility]], and updated Apple/Above Avalon/Cybart plus Google, Microsoft, and Facebook with the trillion-dollar-race and incumbent-fragility frame.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
