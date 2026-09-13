@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Bill Barnett - Delete All Meetings](sources/bill-barnett-delete-all-meetings.md) - Bill Barnett argues that recurring scheduled meetings often perform rationality without producing substantive work, and that protected work time plus informal useful conversations are better defaults.
 - [Big Data MOOC Research Breakthrough: Learning Activities Lead to Achievement](sources/big-data-mooc-research-breakthrough-learning-activities-lead-to-achievement-edtech-researcher-education-week.md) - Justin Reich satirizes early MOOC learning analytics that compressed massive learner logs into simple effort measures and repeatedly found that active students were more likely to pass, complete, or achieve.
 - [Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next](sources/bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next.md) - Forbes profiles Jeff Bezos and Amazon's 2018 expansion logic: multiple paths to yes, capability-led adjacency, AWS-funded reinvestment, Prime as connective tissue, and Amazon Go as horizontal integration.
 - [Beware of the Beautiful Resume](sources/beware-of-the-beautiful-resume-small-business-forum.md) - A founder warns that name-brand resumes can hide status-oriented, territorial, process-heavy behavior that slows startups unless candidates are tested for ownership, contribution, and startup fit.
@@ -206,6 +207,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Bill Barnett](entities/BillBarnett.md) - Academic author critiquing scheduled meetings through procedural rationality and advocating protected work time plus useful informal conversation.
+- [Max Weber](entities/MaxWeber.md) - Sociologist cited for the procedural-versus-substantive rationality distinction used to critique meeting rituals.
+- [Bill Durham](entities/BillDurham.md) - Anthropologist cited in Barnett's spontaneous co-evolution conversation example.
+- [Homebrew Computer Club](entities/HomebrewComputerClub.md) - 1970s informal computing-club setting connected to early Apple demonstrations and Jobs' random-interaction memory.
 - [Justin Reich](entities/JustinReich.md) - Education-technology researcher and author critiquing shallow big-data interpretations in MOOC and online-learning research.
 - [Khan Academy](entities/KhanAcademy.md) - Online-learning platform used as a case where granular learner logs were reduced to minutes logged in and correlated with math scores.
 - [Udacity](entities/Udacity.md) - Online-course platform in the San Jose State University case where effort measures predicted passing.
@@ -617,8 +622,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
 - [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product, independence precedent, and mature ASP-driven revenue case.
 - [Today at Apple](entities/TodayAtApple.md) - Apple's free retail session program framed by Thompson as a relationship and real-world engagement layer.
-- [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
-- [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the advertising source's humble-origin and hands-on engineering narrative.
+- [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in brand-history narratives and as a campus-design example for informal interaction.
+- [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the humble-origin narrative and the Homebrew Computer Club informal-exchange example.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
@@ -766,6 +771,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Procedural Rationality](concepts/ProceduralRationality.md) - Rational-looking organizational procedure that can signal legitimate work even when substantive purpose or output is unclear.
+- [Informal Collaboration](concepts/InformalCollaboration.md) - Spontaneous useful coordination or idea generation that continues only while it has value.
 - [MOOC Learning Analytics](concepts/MOOCLearningAnalytics.md) - Analysis of online-course behavioral logs and outcomes, with a caution that massive clickstream data can be reduced to thin activity-achievement correlations.
 - [Amazon Capability-Led Expansion](concepts/AmazonCapabilityLedExpansion.md) - Strategy pattern where Amazon turns internal capabilities into external products, adjacent markets, or cross-business systems.
 - [Multiple Paths to Yes](concepts/MultiplePathsToYes.md) - Bezos's Amazon decision model for giving reversible ideas many internal sponsorship paths while slowing irreversible bets.
@@ -780,7 +787,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
-- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, and joint problem solving rather than defensive positioning.
+- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, and purposeful interaction rather than defensive positioning or empty procedure.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning and opportunity infrastructure.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
@@ -889,7 +896,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gratitude Practice](concepts/GratitudePractice.md) - Deliberate attention to specific daily events, people, and support systems that merit thanks.
 - [Reflective Connection](concepts/ReflectiveConnection.md) - Practice of noticing conceptual links, conversation takeaways, relationship interests, and future follow-up possibilities.
 - [Corporate Satire](concepts/CorporateSatire.md) - Humor that exaggerates workplace rituals, jargon, and status performances to reveal organizational incentives.
-- [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct aimed at signaling intelligence, creativity, helpfulness, or authority without improving the group's work.
+- [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct or ritual aimed at signaling intelligence, creativity, helpfulness, authority, or rational management without improving the group's work.
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
 - [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce founder time through tools, automation, assistance, or delegation so attention returns to higher-value work.
@@ -1162,7 +1169,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
-- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, and task triage to complete meaningful work efficiently.
+- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, calendar defaults, and task triage to complete meaningful work efficiently.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.

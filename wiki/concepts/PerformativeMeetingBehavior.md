@@ -4,15 +4,16 @@ type: concept
 tags: [meetings, workplace, behavior]
 sources:
   - 9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium
-last_updated: 2026-09-13
+  - bill-barnett-delete-all-meetings
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[PerformativeMeetingBehavior]] is meeting conduct designed mainly to signal intelligence, creativity, seniority, helpfulness, or authority rather than to improve the group's understanding or decision.
+[[PerformativeMeetingBehavior]] is meeting conduct or ritual designed mainly to signal intelligence, creativity, seniority, helpfulness, authority, or rational management rather than to improve the group's understanding or decision.
 
 ## Current Synthesis
-Cooper's satire frames brainstorming meetings as a stage for low-cost status moves. The recurring pattern is to substitute visible signs of contribution for contribution itself: leave helpfully, sketch complexity, make vague analogies, challenge the level of questioning, invoke strategy jargon, claim proximity to executives, or close the discussion with borrowed decisiveness.
+Cooper's satire frames brainstorming meetings as a stage for low-cost status moves. The recurring pattern is to substitute visible signs of contribution for contribution itself: leave helpfully, sketch complexity, make vague analogies, challenge the level of questioning, invoke strategy jargon, claim proximity to executives, or close the discussion with borrowed decisiveness. Barnett adds the organizational mechanism beneath that theater: recurring meetings can also perform [[ProceduralRationality]], making work look orderly even when the meeting lacks a clear problem, agenda, or substantive output.
 
 ## Key Claims
 - Visible helpfulness can become a way to exit responsibility while still earning social credit.
@@ -20,6 +21,7 @@ Cooper's satire frames brainstorming meetings as a stage for low-cost status mov
 - Meta-questions and broad analogies can sound profound while avoiding testable claims.
 - Jargon and idioms can reject ideas without offering a clear alternative.
 - Executive references and launch language can simulate authority in meetings.
+- Meetings themselves can become performative when they symbolize rational management before anyone has established why the meeting should exist.
 
 ## Evidence
 - Helpfulness as exit: [[9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium]] recommends leaving to get water and snacks, with the illustration showing the offer as a meeting interruption.
@@ -27,15 +29,19 @@ Cooper's satire frames brainstorming meetings as a stage for low-cost status mov
 - Meta-depth: [[9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium]] recommends unrelated analogies and asking whether the group is asking the right questions.
 - Dismissal language: [[9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium]] lists phrases for shooting down both small and large ideas through disruption, 10x, roadmap, scope, testing, and internationalization frames.
 - Borrowed authority: [[9-tricks-to-appear-smart-in-brainstorming-meetings-the-cooper-review-medium]] advises naming the CEO and declaring "Ship it!" when enthusiasm peaks.
+- Procedural signal: [[bill-barnett-delete-all-meetings]] argues that meetings can symbolize rational work regardless of whether they help get work done.
+- Agenda inversion: [[bill-barnett-delete-all-meetings]] says organizations often set a meeting first and only afterward figure out what belongs on the agenda.
 
 ## Counterevidence & Qualifications
-The source is satire, so it intentionally collapses useful meeting practices into their hollow lookalikes. Real analogies, frameworks, sketches, executive context, or shipping decisions can be substantive when tied to evidence, ownership, and next steps.
+Cooper's source is satire, so it intentionally collapses useful meeting practices into their hollow lookalikes. Barnett's source is a polemical essay, so it can understate cases where scheduled meetings create real alignment, decisions, or documentation. Real analogies, frameworks, sketches, executive context, meeting rituals, or shipping decisions can be substantive when tied to evidence, ownership, and next steps.
 
 ## What Changed
 - Created the initial concept page for performative meeting behavior from Cooper's brainstorming-meeting satire.
+- Added Barnett's procedural-rationality explanation for why meetings can look useful while lacking substance.
 
 ## Related Concepts
 - [[CorporateSatire]] - the source uses satire to make performative meeting behavior visible.
 - [[WorkEnvironment]] - meeting behavior reflects the surrounding workplace's status and incentive norms.
 - [[ScalingCommunication]] - healthy organizational communication can reduce the need for status-performance substitutes.
 - [[ProductStorytelling]] - strategic language can clarify direction or become empty performance depending on its use.
+- [[ProceduralRationality]] - explains meeting rituals as rational-looking procedure detached from substantive work.

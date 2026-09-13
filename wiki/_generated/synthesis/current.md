@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: f8b4a5b9399ce743c31d21da2508f7277b4cf17d
-summary: "A map of practical judgment: understand systems, preserve evidence, pair change with stable demand, build feedback loops, and interpret data with causal and human context."
-episode_count: 198
-source_count: 198
-paragraph_count: 193
+as_of_overview_commit: 15cd5285bd5be6d444205b4a4751cfc37cbe64e8
+summary: "A map of practical judgment across technology, business, work, learning, governance, culture, and attention."
+episode_count: 199
+source_count: 199
+paragraph_count: 194
 topic_count: 9
 ---
 
@@ -19,69 +19,69 @@ topic_count: 9
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change.
 - AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.
-- Production-grade agents need infrastructure beyond ordinary app hosting: [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] manage credentials, side effects, recovery, and prompt-injection risk.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
-- [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion.
-- [[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.
-- AI-era and data-rich education should strengthen problem framing, abstraction, [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks or counting platform activity.
+- [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, and downstream retained value rather than raw signups, clicks, or first-touch credit.
+- Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
+- [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them.
+- [[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources center on engineering judgment under complexity: durable practice depends on understanding underlying systems, verification, cost and reliability boundaries, context management, agent infrastructure, data methods, and platform capability recombination.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, LLM workflows, and platform capability recombination. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, and market-facing expansion.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[HarnessEngineering]].
 
 ### Business and Markets
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds an Amazon capability-led expansion case where internal systems become adjacent markets, a scaling-stage hiring warning about testing pedigree for actual contribution, and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion. Evidence: [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]].
 
 ### Cross-domain
 
-Cross-domain sources connect creativity, planning, learning, and philosophy through reusable abstractions: ideas compound when people translate principles across fields while preserving enough context to avoid shallow analogy.
+Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, and trajectory simplification trades precision for performance when the broad route shape is enough.
 
 - Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]]. Evidence: [[APIErrorHandling]], [[HTTP]], [[DeveloperExperience]].
 - Early architecture judgment often depends on rough models: [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] help reject designs before implementation, while [[CloudCostOptimization]] uses similar unit reasoning for cost sanity checks. Evidence: [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[CloudCostOptimization]].
 
 ### Culture and Media
 
-Culture and media sources examine how publishing, streaming, creator work, music platforms, media portfolios, consumer IP, and public narratives convert attention into trust, identity, revenue, and cultural memory.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance and institutions sources focus on exit, voice, privacy, platform power, public accountability, abuse response, campaign technology, and agent permissions, with recurring qualifications around unequal power and public-good constraints.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. The Srinivasan paragraph adds a polemical but useful counterframe: voice becomes more credible when people can switch, fork, found, relocate, or use tools such as Bitcoin to lower dependence on paper-era institutions, though that claim must be qualified by unequal exit capacity and the risk that software platforms create their own lock-in.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]].
 
 ### History and Geopolitics
 
-History and geopolitics sources provide context for technology institutions, software lineage, political infrastructure, and long-run platform shifts, often showing how present choices inherit older constraints.
+The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources connect goals, habits, attention, sleep, self-discipline, motivation, trust, decision traps, and note practices into a model of agency shaped by feedback and environment.
+This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback, and resisting decision traps such as sunk cost and status performance. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, and productivity habits all depend on context, constraints, and evidence rather than universal slogans.
 
-- Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]]. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
-- [[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[BJFogg]], [[BehaviorDesignLab]], [[TinyHabits]].
+- [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]].
+- [[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose. Evidence: [[ProceduralRationality]], [[InformalCollaboration]], [[PerformativeMeetingBehavior]].
 
 ### Science, Health, and Climate
 
-Science, health, and climate sources are currently narrower and source-scoped, covering scientific-computing basics, intrinsic-value philosophy, attention and mental load, healthcare experiments, and developer-data adoption signals.
+The topic remains mostly indirect. It now includes a beginner scientific-computing claim that NumPy makes Python practical for vector, matrix, slicing, masking, and vectorized array work; an attention and mental-load claim from productivity advice; a philosophy-of-science claim that current science does not settle intrinsic value; and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. These claims are source-scoped because the evidence comes from tutorials, essays, and 2017 English-language Stack Overflow traffic rather than comprehensive scientific, employment, or adoption measurements.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources connect learning, careers, workplace practice, creator work, labor conditions, civic technology, and operations; durable capability comes from active practice, feedback, safe questions, system curiosity, visible evidence of work, and careful interpretation of data-rich education signals.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. The newest MOOC analytics source adds that measuring activity at scale is not enough: education data becomes useful only when interpreted with causal, methodological, and design judgment.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].

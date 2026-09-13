@@ -2,193 +2,120 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "reflection-turns-experience-into-agency",
+      "id": "attention-is-scarce-and-must-be-allocated",
       "qualifications": [
-        "The bundle describes reflective prompts, note practices, and writer workflows, not clinical mental-health interventions or measured long-term outcomes."
+        "The sources are advice-heavy and acknowledge that health, caregiving, work type, and external constraints can limit how freely people reallocate time."
       ],
-      "statement": "Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]].",
-      "status": "supported",
+      "statement": "[[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them.",
+      "status": "qualified",
       "supporting_wikilinks": [
-        "JournalingPractice",
-        "GratitudePractice",
-        "ReflectiveConnection",
-        "ActiveLearning",
-        "PersonalKnowledgeManagement",
-        "AIAssistedWriting",
-        "AIWorkflowDesign",
-        "ChatGPT"
+        "PersonalProductivity",
+        "OpportunityCost",
+        "AttentionManagement"
       ]
     },
     {
       "global_candidate": true,
-      "id": "behavior-change-needs-motivation-ability-prompts",
+      "id": "calendar-defaults-can-displace-real-work",
       "qualifications": [
-        "The Behavior Model source is self-presentational and promotional, so this is strongest as a practical heuristic rather than an independent empirical evaluation of all behavior change."
+        "Scheduled meetings can still be necessary for inclusion, documentation, decisions, and cross-team coordination when they have a clear why."
       ],
-      "statement": "[[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak.",
+      "statement": "[[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose.",
       "status": "qualified",
+      "supporting_wikilinks": [
+        "ProceduralRationality",
+        "InformalCollaboration",
+        "PerformativeMeetingBehavior"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "small-designed-loops-support-change",
+      "qualifications": [
+        "The behavior-model source is self-presentational, while the journaling material is a practical habit pattern rather than comparative evidence."
+      ],
+      "statement": "[[FoggBehaviorModel]], [[BehaviorDesign]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, reflection, and noticing shape future action.",
+      "status": "supported",
       "supporting_wikilinks": [
         "FoggBehaviorModel",
         "BehaviorDesign",
-        "BJFogg",
-        "BehaviorDesignLab",
-        "TinyHabits"
+        "JournalingPractice",
+        "GratitudePractice"
       ]
     },
     {
       "global_candidate": true,
-      "id": "social-and-platform-feedback-can-distort-work",
+      "id": "trust-and-good-faith-can-speed-collaboration",
       "qualifications": [
-        "Satire diagnoses workplace and design behavior indirectly, while the creator material focuses on publishing anxiety and platform metrics rather than all work settings."
+        "The same sources warn that low-trust, unsafe, coercive, or bad-faith contexts require boundaries and stronger skepticism."
       ],
-      "statement": "Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "CorporateSatire",
-        "PerformativeMeetingBehavior",
-        "UXDesignClicheRhetoric",
-        "UserResearchPatternThreshold",
-        "CreatorAnxiety",
-        "CreatorPlatformMetrics",
-        "CreatorPositioning",
-        "PersonalBranding",
-        "Xiaohongshu"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "interfaces-shape-confidence-and-understanding",
-      "qualifications": [
-        "The evidence spans research reports, mapping, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
-      ],
-      "statement": "Interfaces, reports, maps, command-line tools, and AI workflows shape confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "UXResearchInformationDesign",
-        "MixedMethodUXResearch",
-        "CognitiveLoadInUXResearch",
-        "HeuristicEvaluation",
-        "CLIApplicationDesign",
-        "CommandLineUX",
-        "StructuredCLIOutput",
-        "DigitalCartography"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "attribution-habits-can-preserve-empathy",
-      "qualifications": [
-        "The sources do not claim all harmful or adversarial behavior is innocent misunderstanding; Manelius explicitly says low-trust, unsafe, or previously violated contexts require boundaries rather than haphazard trust."
-      ],
-      "statement": "[[AssumePositiveIntent]], [[HanlonsRazor]], and [[BuilderUserFluencyGap]] show that attribution habits can preserve empathy and agency: when another person's behavior is frustrating or tense, first checking for good faith, missing context, or mismatched fluency can reveal what the situation requires.",
+      "statement": "[[AssumePositiveIntent]], [[WorkplaceCollaboration]], and [[HanlonsRazor]] argue that beginning from good faith can reduce defensive friction and improve joint problem solving.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AssumePositiveIntent",
-        "HanlonsRazor",
-        "BuilderUserFluencyGap",
-        "WorkplaceCollaboration"
+        "WorkplaceCollaboration",
+        "HanlonsRazor"
       ]
     },
     {
       "global_candidate": true,
-      "id": "goals-and-opportunity-cost-focus-agency",
+      "id": "future-choice-should-not-be-anchored-to-past-cost",
       "qualifications": [
-        "The sources warn that goals can become externally competitive, coercive, or misdirected, and the Mission.org source's 'anything is possible' rhetoric does not prove that discipline can overcome structural, health, caregiving, or material constraints.",
-        "Sunk-cost awareness protects future choice, but it does not mean every difficult project should be abandoned; persistence can still be rational when current reasons remain strong."
+        "The product-retention examples show that sunk-cost feelings can be designed into products, so individual willpower is not the only relevant factor."
       ],
-      "statement": "Goals, abstraction, opportunity-cost awareness, [[SunkCostFallacy]] detection, and optimization metaphors can focus agency when they turn vague desire into chosen direction, repeated attention, concrete tradeoffs, and clearer separation between unrecoverable past costs and still-open future choices through [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], and [[PersonalProductivity]].",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "GoalSetting",
-        "OpportunityCost",
-        "SunkCostFallacy",
-        "SelfDiscipline",
-        "PersonalProductivity",
-        "AttentionManagement",
-        "LearnDrive",
-        "KnowledgeValuationNetwork",
-        "StochasticGradientDescent",
-        "CreativeAbstraction",
-        "PiotrWozniak",
-        "PeterThiel"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "future-capacity-can-motivate-present-behavior",
-      "qualifications": [
-        "The source is a personal reaction to one chart, not a full clinical exercise prescription or individualized training plan."
-      ],
-      "statement": "A vivid future-capacity frame can motivate present behavior change: [[AndrewChen]] uses [[PeterAttia]]'s [[Outlive]] [[VO2Max]] graph to treat [[CardiorespiratoryFitness]] as reserve for later-life activities rather than only current athletic performance.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AndrewChen",
-        "PeterAttia",
-        "Outlive",
-        "VO2Max",
-        "CardiorespiratoryFitness"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "crowd-judgment-needs-knowledge-calibration",
-      "qualifications": [
-        "The source still treats strong consensus as the best available proxy for truth; metaknowledge matters most when crowds are divided, biased by common information, or reporting sensitive beliefs."
-      ],
-      "statement": "Collective judgment improves when people reveal not only what they believe but how well they understand others' beliefs, because [[Metaknowledge]] can expose [[SharedInformationBias]], [[FalseConsensusEffect]], and weak expertise inside [[WisdomOfCrowds]].",
+      "statement": "[[SunkCostFallacy]] and [[OpportunityCost]] separate unrecoverable past investment from the still-open choice of where future attention, money, and effort should go.",
       "status": "supported",
       "supporting_wikilinks": [
+        "SunkCostFallacy",
+        "OpportunityCost",
+        "PersonalProductivity"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "creative-and-learning-output-benefit-from-feedback",
+      "qualifications": [
+        "Platform metrics can distort attention, so feedback needs deliberate interpretation rather than compulsive checking."
+      ],
+      "statement": "[[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], and [[PersonalKnowledgeManagement]] treat output as an iterative system of capture, small experiments, reflection, and audience or self-feedback.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "IdeaManagement",
+        "KnowledgeOutput",
+        "ActiveLearning",
+        "PersonalKnowledgeManagement"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "judgment-tools-counter-cognitive-and-social-biases",
+      "qualifications": [
+        "The method improves weak or divided crowds, but strong consensus remains treated as a useful proxy in the source."
+      ],
+      "statement": "[[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], and [[FalseConsensusEffect]] show that collective or personal judgment improves when people model what others know, not only what they themselves believe.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "WisdomOfCrowds",
         "Metaknowledge",
         "SharedInformationBias",
-        "FalseConsensusEffect",
-        "WisdomOfCrowds",
-        "GeorgeMusser",
-        "DrazenPrelec"
+        "FalseConsensusEffect"
       ]
     },
     {
       "global_candidate": false,
-      "id": "personalized-infrastructure-requires-trust",
+      "id": "capacity-building-is-easier-before-crisis",
       "qualifications": [
-        "Several paragraphs are assigned to this topic by the deterministic planner, but their stronger homes are technology, business, governance, and platform strategy."
+        "The source is a personal chart-driven reflection, not a full clinical exercise prescription."
       ],
-      "statement": "Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, transaction guarantees, cost tradeoffs, and social boundaries.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "DigitalCartography",
-        "GoogleMaps",
-        "GoogleEarth",
-        "StreetView",
-        "LocationDataPrivacy",
-        "UserGeneratedMapping",
-        "OpenStreetMap",
-        "AggregationTheory",
-        "MarketplaceTrust",
-        "Airbnb",
-        "Uber",
-        "TrustMinimizationTechnology",
-        "CloudCostOptimization",
-        "FamilyBusiness",
-        "StartupCulture"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "context-management-is-cognitive-infrastructure",
-      "qualifications": [
-        "This claim is source-scoped because the input paragraph is primarily technical and only secondarily related to psychology through memory and attention metaphors."
-      ],
-      "statement": "AI context-management mechanisms show that memory and attention are also infrastructure problems: stable prompts, compression, routing, and cache behavior affect what a system can preserve or forget.",
+      "statement": "[[VO2Max]] and [[CardiorespiratoryFitness]] provide a health-capacity example: building reserve earlier can preserve more later-life margin than trying to recover from low capacity late.",
       "status": "source-scoped",
       "supporting_wikilinks": [
-        "PromptCaching",
-        "ClaudeCode",
-        "DynamicContextCompression",
-        "KVCacheAwareRouting",
-        "InferenceLoadBalancing"
+        "VO2Max",
+        "CardiorespiratoryFitness",
+        "AndrewChen"
       ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, creative scaffolds, and behavior-design conditions. The newest Behavior Model paragraph adds a practical diagnostic: behavior change depends on motivation, ability, and timely prompts, so a failed action can be redesigned by strengthening motivation, simplifying the behavior, or changing the prompt, while still recognizing that the source is self-presentational rather than independent evidence.",
+  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback, and resisting decision traps such as sunk cost and status performance. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, and productivity habits all depend on context, constraints, and evidence rather than universal slogans.",
   "topic_id": "psychology-and-personal-development"
 }

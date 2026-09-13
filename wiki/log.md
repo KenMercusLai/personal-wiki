@@ -1379,6 +1379,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Bill Barnett - Delete All Meetings
+
+Added Bill Barnett's meeting critique. Key claims: recurring scheduled meetings can perform procedural rationality without producing substantive work; collaboration should ask why before protecting a meeting ritual; and protected work time plus informal conversations that continue only while useful are better defaults. No image references were present in the source Markdown.
+
 ## [2026-09-14] ingest | Big Data MOOC Research Breakthrough: Learning Activities Lead to Achievement
 
 Added Justin Reich's EdTech Researcher article on early MOOC learning analytics. Key claims: large learner-log datasets were often compressed into simple effort measures, activity correlated with course outcomes across Khan Academy, Udacity, Google Course Builder, and edX cases, and those correlations need causal and methodological caution rather than another round of "students who do stuff do better" findings.
@@ -1575,6 +1579,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
