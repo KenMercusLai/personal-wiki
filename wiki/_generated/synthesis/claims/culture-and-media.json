@@ -1,12 +1,86 @@
 {
   "claims": [
     {
-      "global_candidate": false,
-      "id": "apple-content-distribution-uses-media-access-as-ecosystem-power",
+      "global_candidate": true,
+      "id": "media-form-shapes-systematic-learning",
       "qualifications": [
-        "The claim is a secondary culture-and-media assignment from a 2019 Apple strategy interpretation; it does not measure later adoption, content quality, or audience behavior."
+        "The book-centered and reading-note recommendations are qualitative and strongest for difficult systematic study or specific reading workflows."
       ],
-      "statement": "[[AppleContentDistributionStrategy]] treats media access as ecosystem power: [[Apple]] can put [[AppleMusic]] on [[AmazonEcho]], expand [[AirPlay2]], and keep [[AppleTV]] and [[HomePod]] as premium endpoints while [[StreamingContentEconomics]] make scale and influence strategically valuable.",
+      "statement": "[[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "LearningMediaChoice",
+        "SystematicLearning",
+        "CrossDomainWisdom",
+        "DIKWModel",
+        "ActiveLearning",
+        "FeynmanTechnique",
+        "ReadingNoteWorkflow",
+        "NoteToolFit",
+        "Obsidian"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ai-writing-is-cultural-production-scaffolding",
+      "qualifications": [
+        "The evidence is a practitioner workflow account rather than a comparative study of writing quality or audience reception."
+      ],
+      "statement": "[[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AIAssistedWriting",
+        "AIWorkflowDesign",
+        "ChatGPT"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "creative-media-work-combines-expression-and-infrastructure",
+      "qualifications": [
+        "The game evidence combines one indie retrospective with engineering sources whose primary focus is operations rather than game criticism."
+      ],
+      "statement": "[[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[GameServerLaunchExperience]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], and [[GameServerCloudNativeDelivery]] show cultural software as both expressive medium and delivery infrastructure.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "IndieGameDevelopment",
+        "CreativeTechnicalCareer",
+        "ADarkRoom",
+        "AppStore",
+        "GameServerLaunchExperience",
+        "ServerSideGameLogic",
+        "ContinuousGameServerUpdates",
+        "GameServerCloudNativeDelivery",
+        "LowOpsGameServer",
+        "LeanCloud"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "localized-media-needs-effect-preserving-search",
+      "qualifications": [
+        "The claim is currently grounded in one game-localization case rather than a broad comparative localization corpus."
+      ],
+      "statement": "Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]], [[SemanticSearch]], [[VectorDatabase]], [[TranslationDomestication]], and [[PlayerGuidance]] so target-language players encounter jokes and mechanics with effects comparable to the original audience.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "GameLocalization",
+        "ComputationalPunTranslation",
+        "SemanticSearch",
+        "VectorDatabase",
+        "TranslationDomestication",
+        "PlayerGuidance",
+        "WomenCommunication",
+        "MancoDB"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "platform-media-strategy-shapes-shared-culture",
+      "qualifications": [
+        "The Apple and BuzzFeed evidence comes from strategy interpretation and a publisher memo, not neutral outcome measurement."
+      ],
+      "statement": "[[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[MediaBrandPortfolio]], [[PlatformPublisherRevenue]], and [[DigitalMediaMonetization]] connect media access, publisher revenue, and shared culture to platform economics.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AppleContentDistributionStrategy",
@@ -16,52 +90,27 @@
         "AirPlay2",
         "AppleTV",
         "HomePod",
-        "StreamingContentEconomics"
+        "StreamingContentEconomics",
+        "MediaBrandPortfolio",
+        "PlatformPublisherRevenue",
+        "DigitalMediaMonetization",
+        "Buzzfeed",
+        "Tasty"
       ]
     },
     {
       "global_candidate": false,
-      "id": "reading-notes-make-cultural-reading-navigable",
+      "id": "product-language-and-media-infrastructure-create-behaviors",
       "qualifications": [
-        "The current evidence is a single mystery-fiction reading workflow rather than a comparative study of reading-note systems across genres."
+        "These are secondary culture-and-media assignments from product and home-lab infrastructure sources."
       ],
-      "statement": "[[ReadingNoteWorkflow]] can make book culture more navigable by linking entries, outlines, awards, genres, and compact judgments through practical [[NoteToolFit]] in [[Obsidian]].",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "ReadingNoteWorkflow",
-        "NoteToolFit",
-        "Obsidian",
-        "ZettelkastenMethod"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "media-form-shapes-systematic-learning",
-      "qualifications": [
-        "This is a secondary culture-and-media assignment; the source primarily concerns learning methodology.",
-        "The book-centered recommendation is qualitative and strongest for difficult systematic study rather than quick lookup or fast-changing operational questions."
-      ],
-      "statement": "[[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "LearningMediaChoice",
-        "SystematicLearning",
-        "CrossDomainWisdom",
-        "DIKWModel",
-        "ActiveLearning",
-        "FeynmanTechnique"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "self-hosted-surveillance-recording-is-media-infrastructure",
-      "qualifications": [
-        "The evidence is a single home-lab surveillance setup, not a general surveillance-storage architecture or security guide.",
-        "The source shows reachability and recording but does not resolve authentication, encryption, retention, privacy, or legal constraints."
-      ],
-      "statement": "[[SelfHostedSurveillanceStorage]] shows media capture as an ownership and infrastructure choice: [[RTSPStreaming]], [[FRP]], [[NATTraversal]], [[OpenWrt]], and [[FFmpeg]] let a user record camera footage remotely while creating [[RemoteAdministrationExposure]] concerns.",
+      "statement": "[[AppleWatch]], [[WearableComputing]], [[SelfHostedSurveillanceStorage]], [[RTSPStreaming]], [[FFmpeg]], and [[RemoteAdministrationExposure]] show that cultural behavior around devices and media capture is shaped by product language, ownership choices, and infrastructure exposure.",
       "status": "source-scoped",
       "supporting_wikilinks": [
+        "AppleWatch",
+        "HoraceDediu",
+        "IPhone",
+        "WearableComputing",
         "SelfHostedSurveillanceStorage",
         "RTSPStreaming",
         "FRP",
@@ -73,162 +122,24 @@
       ]
     },
     {
-      "global_candidate": false,
-      "id": "pun-localization-combines-retrieval-and-domestication",
-      "qualifications": [
-        "This claim is currently grounded in one source about Women Communication rather than a broad comparative localization corpus."
-      ],
-      "statement": "Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]] and [[TranslationDomestication]] so localized players encounter jokes and mechanics with effects comparable to the original audience.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "GameLocalization",
-        "ComputationalPunTranslation",
-        "TranslationDomestication",
-        "WomenCommunication"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "retrieval-expands-creative-translation-candidates",
-      "qualifications": [
-        "The workflow is described qualitatively; the topic input does not provide retrieval metrics, corpus-governance details, or controlled quality evaluation."
-      ],
-      "statement": "[[MancoDB]] uses [[SemanticSearch]] over a [[VectorDatabase]] to surface meaning-adjacent homophone candidates for creative translation, but final quality still depends on human or model-assisted composition.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "MancoDB",
-        "SemanticSearch",
-        "VectorDatabase",
-        "ComputationalPunTranslation"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "localized-text-guides-player-discovery",
-      "qualifications": [
-        "The source argues from design analysis and streamer reactions, not from instrumented player-behavior data."
-      ],
-      "statement": "[[PlayerGuidance]] can be localized through wording, repeated cues, and mechanic-facing text so players discover untaught rules in a target-language version.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "PlayerGuidance",
-        "GameLocalization",
-        "WomenCommunication"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "indie-games-combine-expression-and-platform-volatility",
-      "qualifications": [
-        "The claim is grounded in one retrospective about one mobile indie game, not a representative game-industry dataset.",
-        "The source distinguishes creative success, gross revenue, passive income, and a durable full-time livelihood."
-      ],
-      "statement": "[[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "IndieGameDevelopment",
-        "AmirRajan",
-        "ADarkRoom",
-        "AppStore",
-        "CreativeTechnicalCareer"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "product-language-can-create-new-cultural-behaviors",
-      "qualifications": [
-        "The Apple Watch material is a secondary culture-and-media assignment and comes from one technology-market analysis rather than a broader media or cultural-behavior study."
-      ],
-      "statement": "[[AppleWatch]] illustrates how product language can precede a new behavior category: [[HoraceDediu]] compares it with the [[IPhone]]'s iPod, internet communicator, and phone frame, then treats [[WearableComputing]] health signals as a possible new vocabulary for everyday behavior.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AppleWatch",
-        "HoraceDediu",
-        "IPhone",
-        "WearableComputing"
-      ]
-    },
-    {
       "global_candidate": true,
       "id": "object-aesthetics-centers-participatory-disclosure",
       "qualifications": [
         "The claim is grounded in one Harman-oriented essay and should not be treated as a general account of all aesthetics or metaphor theory."
       ],
-      "statement": "[[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and metaphor disclose hidden dimensions of things while preserving the object's resistance to complete access.",
+      "statement": "[[ObjectOrientedOntology]] frames aesthetic experience around [[ObjectWithdrawal]]: art and [[MetaphorAesthetics]] disclose hidden dimensions of things while preserving the object's resistance to complete access.",
       "status": "supported",
       "supporting_wikilinks": [
         "ObjectOrientedOntology",
         "ObjectWithdrawal",
         "ArtAsObjectTension",
-        "MetaphorAesthetics"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "metaphor-is-theatrical-substitution",
-      "qualifications": [
-        "The input presents this as Harman's aesthetic account, not as a cognitive-science or linguistic theory of metaphor."
-      ],
-      "statement": "[[MetaphorAesthetics]] treats metaphor as theatrical substitution: because the named object withdraws, the reader performs as the temporary real object carrying the borrowed sensuous qualities.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
         "MetaphorAesthetics",
-        "ObjectWithdrawal",
-        "GrahamHarman"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "art-tensions-use-and-hidden-object-life",
-      "qualifications": [
-        "The examples are interpretive and source-scoped, especially the use of Van Gogh's shoes and Homer's wine-dark sea."
-      ],
-      "statement": "[[ArtAsObjectTension]] contrasts ordinary use with aesthetic disclosure, using [[MartinHeidegger]]'s broken hammer and [[VincentVanGogh]]'s painted shoes to show how familiar objects can appear as more than tools.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "ArtAsObjectTension",
+        "GrahamHarman",
         "MartinHeidegger",
-        "VincentVanGogh",
-        "ObjectWithdrawal"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "game-operations-and-backend-architecture-are-cultural-delivery-infrastructure",
-      "qualifications": [
-        "This is a secondary culture-and-media assignment; the sources primarily concern game-server engineering and backend architecture rather than player-facing criticism or game studies.",
-        "The current corpus has only one operations essay and one retrospective backend example for this point."
-      ],
-      "statement": "[[GameServerLaunchExperience]] and [[ServerSideGameLogic]] add a production layer beneath games as media: [[ContinuousGameServerUpdates]], [[GameServerCloudNativeDelivery]], and message-service-centered backend logic shape whether live-game updates, testing, anti-cheat behavior, and maintenance are perceptible to players.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "GameServerLaunchExperience",
-        "ContinuousGameServerUpdates",
-        "GameServerCloudNativeDelivery",
-        "LowOpsGameServer",
-        "XiaoshuojunFp",
-        "ServerSideGameLogic",
-        "LeanCloud"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "media-brand-portfolios-shape-shared-culture-through-platform-economics",
-      "qualifications": [
-        "The claim is source-scoped to BuzzFeed's internal memo and does not prove the broader social impact of BuzzFeed's strategy or later outcomes.",
-        "The memo argues from a publisher perspective and should not be treated as a neutral account of platform obligations."
-      ],
-      "statement": "[[MediaBrandPortfolio]] in the BuzzFeed memo connects media business strategy to public culture: [[Tasty]] is framed as a service-oriented brand that can create shared nonpolitical touchpoints, while [[PlatformPublisherRevenue]] and [[DigitalMediaMonetization]] are presented as conditions for keeping quality journalism and entertainment broadly accessible.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "MediaBrandPortfolio",
-        "Tasty",
-        "PlatformPublisherRevenue",
-        "DigitalMediaMonetization",
-        "Buzzfeed"
+        "VincentVanGogh"
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; Apple Watch shows how product framing can help new wearable behaviors become speakable; Apple's content distribution strategy treats music and video access as ecosystem power across mixed-device households; game-server and backend operations form a hidden delivery layer for live-game experience; self-hosted camera recording shows how media capture can become an ownership and infrastructure choice; BuzzFeed's media-brand portfolio frames platform revenue as a condition for shared journalism and entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest AI-blogging paragraph adds AI-assisted writing as a media-production practice: rough drafts, questions, outlines, voice cleanup, and tone passes can shape cultural output, but the writer's examples, story, voice, and final judgment still carry the work.",
   "topic_id": "culture-and-media"
 }

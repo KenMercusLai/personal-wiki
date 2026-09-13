@@ -61,6 +61,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [Every time you ask the user to click you lose half](sources/every-time-you-ask-the-user-to-click-you-lose-half.md) - Andrew Chen argues that every extra click, field, tutorial, install, or signup demand spends user intent and should remain only when it improves later product value.
 - [Fun graph from Peter Attia's book Outlive](sources/andrew-chen-fun-graph-from-peter-attias-book-outlive.md) - Andrew Chen uses an Outlive VO2 max chart to argue that building high cardiovascular fitness earlier preserves later-life capacity for ordinary activities such as brisk stair climbing.
+- [How I use AI when blogging and writing](sources/andrew-chen-how-i-use-ai-when-blogging-and-writing.md) - Andrew Chen argues that AI helps blogging most as a rough-draft, brainstorming, outline, voice-cleanup, and revision companion rather than as publishable prose by default.
 - [Acquisition is Easy. Retention is Hard.](sources/acquisition-is-easy-retention-is-hard-product-habits.md) - Product Habits argues that modern SaaS acquisition is increasingly easy and visible, while retention depends on product strength, low-churn customer fit, account expansion, and marketing aligned with sticky value.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
@@ -364,7 +365,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
-- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, creator-economy company dynamics, and product-flow friction through named strategic patterns.
+- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, creator-economy dynamics, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
@@ -384,7 +385,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shi Shu Feng](entities/ShiShuFeng.md) - Podcast venue where Hanyang's AI guide for humanities workers was publicly discussed.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
 - [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
-- [ChatGPT](entities/ChatGPT.md) - AI assistant used in the source for cross-checking draft facts.
+- [ChatGPT](entities/ChatGPT.md) - AI assistant used for writing workflows including fact checking, rough drafting, brainstorming, outlining, voice cleanup, and tone revision.
 - [Spokenly](entities/Spokenly.md) - AI voice-input tool used by the author as a local customizable fallback.
 - [Typeless](entities/Typeless.md) - AI voice-input tool valued by the author for strong performance.
 - [VoiceInk](entities/VoiceInk.md) - AI voice-input tool named as a target for customizable cleanup prompts.
@@ -767,9 +768,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that small search, read, edit, write, and shell-like tool surfaces can power coding-agent loops.
 - [Agentic RAG](concepts/AgenticRAG.md) - Retrieval pattern where an agent searches and reads current material iteratively instead of relying only on static indexes.
 - [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
-- [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates drafting, checking, titles, visuals, and layout while human authors retain question, argument, taste, verification, and accountability.
-- [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines grounded in source material and human judgment.
-- [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing.
+- [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates ideation, drafting, checking, voice cleanup, titles, visuals, and layout while humans retain argument, taste, verification, and accountability.
+- [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines and exploratory loops grounded in source material and human judgment.
+- [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing and rough draft material.
 - [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.

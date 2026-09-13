@@ -4,16 +4,19 @@
       "global_candidate": true,
       "id": "reflection-turns-experience-into-agency",
       "qualifications": [
-        "The bundle describes reflective prompts and note practices, not clinical mental-health interventions or measured long-term outcomes."
+        "The bundle describes reflective prompts, note practices, and writer workflows, not clinical mental-health interventions or measured long-term outcomes."
       ],
-      "statement": "Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], and [[PersonalKnowledgeManagement]].",
+      "statement": "Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]].",
       "status": "supported",
       "supporting_wikilinks": [
         "JournalingPractice",
         "GratitudePractice",
         "ReflectiveConnection",
         "ActiveLearning",
-        "PersonalKnowledgeManagement"
+        "PersonalKnowledgeManagement",
+        "AIAssistedWriting",
+        "AIWorkflowDesign",
+        "ChatGPT"
       ]
     },
     {
@@ -32,16 +35,17 @@
         "CreatorAnxiety",
         "CreatorPlatformMetrics",
         "CreatorPositioning",
-        "PersonalBranding"
+        "PersonalBranding",
+        "Xiaohongshu"
       ]
     },
     {
       "global_candidate": true,
       "id": "interfaces-shape-confidence-and-understanding",
       "qualifications": [
-        "The evidence spans research reports, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
+        "The evidence spans research reports, mapping, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
       ],
-      "statement": "Interfaces, reports, and design arguments shape confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.",
+      "statement": "Interfaces, reports, maps, command-line tools, and AI workflows shape confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.",
       "status": "supported",
       "supporting_wikilinks": [
         "UXResearchInformationDesign",
@@ -50,7 +54,8 @@
         "HeuristicEvaluation",
         "CLIApplicationDesign",
         "CommandLineUX",
-        "StructuredCLIOutput"
+        "StructuredCLIOutput",
+        "DigitalCartography"
       ]
     },
     {
@@ -67,7 +72,9 @@
         "KnowledgeValuationNetwork",
         "StochasticGradientDescent",
         "SelfDiscipline",
-        "CreativeAbstraction"
+        "CreativeAbstraction",
+        "PiotrWozniak",
+        "PeterThiel"
       ]
     },
     {
@@ -107,9 +114,9 @@
       "global_candidate": false,
       "id": "personalized-infrastructure-requires-trust",
       "qualifications": [
-        "The mapping and aggregation paragraphs are assigned to this topic by the deterministic planner, but their stronger homes are technology, governance, and platform strategy."
+        "Several paragraphs are assigned to this topic by the deterministic planner, but their stronger homes are technology, business, governance, and platform strategy."
       ],
-      "statement": "Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, and transaction guarantees.",
+      "statement": "Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, transaction guarantees, cost tradeoffs, and social boundaries.",
       "status": "qualified",
       "supporting_wikilinks": [
         "DigitalCartography",
@@ -123,7 +130,10 @@
         "MarketplaceTrust",
         "Airbnb",
         "Uber",
-        "TrustMinimizationTechnology"
+        "TrustMinimizationTechnology",
+        "CloudCostOptimization",
+        "FamilyBusiness",
+        "StartupCulture"
       ]
     },
     {
@@ -132,7 +142,7 @@
       "qualifications": [
         "This claim is source-scoped because the input paragraph is primarily technical and only secondarily related to psychology through memory and attention metaphors."
       ],
-      "statement": "AI context-management mechanisms show that memory and attention are also infrastructure problems: stable prompts, compression, and routing affect what a system can preserve or forget.",
+      "statement": "AI context-management mechanisms show that memory and attention are also infrastructure problems: stable prompts, compression, routing, and cache behavior affect what a system can preserve or forget.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "PromptCaching",
@@ -141,23 +151,8 @@
         "KVCacheAwareRouting",
         "InferenceLoadBalancing"
       ]
-    },
-    {
-      "global_candidate": false,
-      "id": "close-social-systems-create-trust-and-exclusion-risk",
-      "qualifications": [
-        "The SmugMug evidence is a positive company profile, so the claim should be read as a source-scoped social-system pattern rather than a general finding about all family businesses."
-      ],
-      "statement": "[[FamilyBusiness]] shows that close social bonds can create trust, commitment, customer-facing distinctiveness, and [[StartupCulture]], but [[MacAskillFamily]] and [[DonMacAskill]] also make visible the risk of conflict and non-family exclusion inside intimate work systems.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "FamilyBusiness",
-        "MacAskillFamily",
-        "DonMacAskill",
-        "StartupCulture"
-      ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, goals, evidence calibration, body capacity, interfaces, trusted infrastructures, platform feedback, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, metaknowledge, and cardiorespiratory capacity frames help people steer attention, motivation, judgment, and future options. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, trust centralization, brittle abstractions, or overly broad health heuristics unless evidence, ownership, calibration, and scope are made explicit.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, goals, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest AI-blogging paragraph adds a practical agency pattern: imperfect [[ChatGPT]] drafts, questions, outlines, and voice cleanup can help a writer move from stuckness to judgment, but only when the person supplies selection, evidence, examples, voice, and revision.",
   "topic_id": "psychology-and-personal-development"
 }

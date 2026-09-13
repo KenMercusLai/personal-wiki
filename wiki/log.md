@@ -679,6 +679,7 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+
 ## [2026-09-13] ingest | Every time you ask the user to click you lose half
 
 ## [2026-09-13] ingest | An Introduction to Scientific Python - NumPy
@@ -1218,6 +1219,12 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-13] ingest | How I use AI when blogging and writing
 
 ## [2026-09-13] lint | Wiki health check
 

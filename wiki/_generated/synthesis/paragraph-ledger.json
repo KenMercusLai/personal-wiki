@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a80de710a511c9150cd0a94540fe5b5423d1a415d9f75888be471842d5678fa5",
       "8f555ecb6c5393ce00ba0b63b84b9a093f69eb0e95364de11b56c8c2274efd23",
       "47d210a5f050308345a9959b4d2333076c07a2ba82dc5bc291a009e229ca4fe9",
       "19306d5457f2cad048289e914b4c0d9d7a534f9cd04aa95d7965b70a24e6c088",
@@ -149,11 +150,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 147
+    "paragraph_count": 148
   },
-  "overview_commit": "575e0fab3209a46afa64679745e45afe1950e714",
-  "overview_digest": "5703e57393adb9a67c50a64ed63f50666c1a2c2585009cba64bfca2b967de3c7",
+  "overview_commit": "8e6008686d71af013cf4b3e93d191f7e1dbc2cfb",
+  "overview_digest": "c2904e32a987f6453616553f90e938881b7f7a7d576f359536e7a533351aa772",
   "paragraphs": [
+    {
+      "id": "a80de710a511c9150cd0a94540fe5b5423d1a415d9f75888be471842d5678fa5",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Andrew Chen AI-blogging source adds a pragmatic writer-workflow layer to the wiki's AI-assisted writing material. [[AIAssistedWriting]] now includes Chen's distinction between weak default prose and useful creative scaffolding: ChatGPT drafts can be stiff, generic, and under-evidenced, but they still reduce blank-page friction by giving the author something to criticize, replace, and rewrite. [[AIWorkflowDesign]] broadens from controlled pipelines into exploratory loops of rough drafting, question generation, outlines, voice cleanup, tone passes, and WordPress-side iteration. [[ChatGPT]] is therefore represented not only as a fact-checking support tool but also as a blogging companion whose value depends on human selection, examples, story, statistics, voice, and final judgment.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "AIWorkflowDesign",
+        "ChatGPT"
+      ]
+    },
     {
       "id": "8f555ecb6c5393ce00ba0b63b84b9a093f69eb0e95364de11b56c8c2274efd23",
       "primary_topic": "business-and-markets",
