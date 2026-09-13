@@ -1275,3 +1275,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-13] ingest | Ansible charges into network automation with Cisco, Juniper
+
+Added The Register source on Ansible's move into network automation. Key claims: Ansible 2.0 added network command, configuration, and template modules; initial support covered Arista, Cisco, Juniper, Cumulus Networks, and OpenSwitch; Huawei was absent; and the launch framed network automation around validation, drift compliance, and DevOps collaboration without collapsing network and programmer roles.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

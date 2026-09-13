@@ -33,6 +33,7 @@
       "496719edeb2659d837f5537c613296a863dfa033ee85c33d01a90e9dc703716b",
       "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
       "59fdc30be71d5857044b042b83e56c39fef58b09504e47cf878af6d6507cda73",
+      "702e24fdfee1a7afa52b9d837cb154662a05559c60dad3d8ea4e453f5394a970",
       "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "5622dd4e53493a975168aac8f3217a3de76b8f6a92ef957c53b07828842eb161",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
@@ -156,10 +157,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 154
+    "paragraph_count": 155
   },
-  "overview_commit": "a9449fd30e4506b2ed1eb4dc1aa0b8391ce9674c",
-  "overview_digest": "e40fdfe1a7635d2944914b240623adeb6954ef8cf04f96041ee42d45d8f36e8c",
+  "overview_commit": "56dbae9b6de1ceeb39b31d223ebd746adac68eaa",
+  "overview_digest": "c4d21445e6c371fbda1f258f41207b366febbb268aa5c7816a8d11f180811caa",
   "paragraphs": [
     {
       "id": "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
@@ -756,6 +757,28 @@
         "InfrastructureAsCode",
         "IvanPepelnjak",
         "NetworkAutomation"
+      ]
+    },
+    {
+      "id": "702e24fdfee1a7afa52b9d837cb154662a05559c60dad3d8ea4e453f5394a970",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest Register source adds a concrete tool-and-vendor layer to [[NetworkAutomation]]. [[Ansible]]'s network expansion brought command, configuration, and template modules into Ansible 2.0 Playbooks, with initial support for [[AristaNetworks]], [[Cisco]], [[Juniper]], [[CumulusNetworks]], and [[OpenSwitch]] while [[Huawei]] remained absent. [[PeterSprygada]]'s framing connects the launch to configuration automation, existing-state validation, and continuous compliance against drift, qualifying automation as both a multivendor tooling problem and a [[ChangeSafety]] practice rather than just faster cut-and-paste configuration.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 2
+      },
+      "wikilinks": [
+        "Ansible",
+        "AristaNetworks",
+        "ChangeSafety",
+        "Cisco",
+        "CumulusNetworks",
+        "Huawei",
+        "Juniper",
+        "NetworkAutomation",
+        "OpenSwitch",
+        "PeterSprygada"
       ]
     },
     {

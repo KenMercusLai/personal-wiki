@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-13
-as_of_overview_commit: a9449fd30e4506b2ed1eb4dc1aa0b8391ce9674c
-input_digest: 20eac259e34345c22dfcc9844c6a400774fb3ee4459766a3447d0a99082f4db5
+as_of_overview_commit: 56dbae9b6de1ceeb39b31d223ebd746adac68eaa
+input_digest: 5924d9d53c1b46074446b5f5c82a4ccaa55dca91c6513a82855a4a7253b03476
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material now spans control problems across privacy, welfare, data systems, institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, creator platforms, agent systems, and public action: the privacy-poverty source shows that benefits verification, persistent broker data, opaque algorithms, and documentation gaps can allocate dignity and opportunity by class; institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; creator-economy startups show how scarce profile links, feed algorithms, creator power laws, and graduation risk allocate distribution and exit power; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material spans control problems across privacy, welfare, data systems, institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, creator platforms, agent systems, and public action. Privacy-poverty evidence shows that benefits verification, broker records, opaque algorithms, and documentation gaps can allocate dignity and opportunity by class. Platform and infrastructure sources show that governance is often embedded in technical boundaries: Apple content distribution, creator profile scarcity, Twitter abuse response, AI agent permissions, inference gateways, WSL configuration, game-server operations, network automation, and campaign tools all turn access, safety, accountability, and responsibility into product or operational design choices. Philosophical and learning sources add that institutions and status competition can distort learning aims, while knowledge-seeking remains a possible shared orientation under uncertainty rather than a formal policy.
 
 ## Cross-source Findings
 
@@ -37,6 +37,17 @@ The governance-related material now spans control problems across privacy, welfa
 
 - The claim is source-scoped to Andrew Chen's creator-economy startup thesis and should not be treated as measured evidence across all creator categories.
 - The governance relevance is platform control and exit power, not formal law or public policy.
+
+### Network Automation Governance Depends On Vendor And Drift Control
+
+[[NetworkAutomation]] governance depends on tool coverage and drift control: [[Ansible]] added network command, configuration, and template modules for vendors such as [[Cisco]], [[Juniper]], [[AristaNetworks]], [[CumulusNetworks]], and [[OpenSwitch]], while [[Huawei]]'s absence and [[PeterSprygada]]'s validation and compliance framing show that automation remains bounded by platform support and [[ChangeSafety]].
+
+**Evidence:** [[NetworkAutomation]], [[Ansible]], [[Cisco]], [[Juniper]], [[AristaNetworks]], [[CumulusNetworks]], [[OpenSwitch]], [[Huawei]], [[PeterSprygada]], [[ChangeSafety]]
+
+**Qualifications:**
+
+- The source is a launch report, so it records stated support and intent rather than measured reliability, adoption, or long-term vendor coverage.
+- This claim appears in the governance topic because the deterministic planner classified the paragraph there; substantively it is closer to infrastructure and operations governance.
 
 ### Platform Owners Govern Access Through Selective Distribution
 
