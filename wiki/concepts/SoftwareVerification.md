@@ -9,6 +9,7 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - 7-reasons-why-your-staging-environment-sucks-loadmill
   - 7-best-practices-for-doing-code-reviews
+  - duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -25,14 +26,16 @@ The staging source broadens verification beyond code-level and CI feedback. Some
 
 The same principle applies inside human code review: code reading is a weak substitute for actual execution. Running the app, using breakpoints, pulling the change into a realistic development environment, and seeing compile, warning, and test feedback all turn review from textual inspection into behavioral verification.
 
+For multi-agent pipelines, verification topology becomes a reliability architecture. Deterministic checks such as tests, lint, type checks, and schemas create a low-cost floor, while LLM reviewers cover semantic gaps probabilistically and humans resolve intent or architectural ambiguity. The point is not that verification proves all correctness; it converts some misunderstanding failures into detectable stops, keeps downstream work from amplifying bad upstream artifacts, and lets recurring failures migrate into cheaper deterministic checks.
+
 ## Key Claims
 - AI-generated code should be accompanied by automated tests and self-testing.
 - Unverified code should not be handed to review as if review were the final safety net.
 - Some bugs only appear through execution, so reviewers should run changes and inspect local compiler, warning, test, and runtime feedback instead of relying on diff reading alone.
-- Later bug discovery raises repair cost.
 - Agent-verifiable tests support a validation-fix loop that can improve iteration quality.
 - Verification pipelines should continue through deployment, monitoring, rollback, and ticket closure, while staying close to each small change in coding-agent workflows.
 - Production-like staging verifies behavior that depends on architecture, data, traffic, monitoring, internet exposure, and operational surprise.
+- Agent verification should combine deterministic gates, probabilistic semantic review, and human oracle routing rather than relying on one repeated check.
 
 ## Evidence
 - Testing expectation: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] recommends automated tests and self-testing for AI-implemented code.
@@ -46,16 +49,18 @@ The same principle applies inside human code review: code reading is a weak subs
 - Layered test stack: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] reports 619 test functions, 24 integration suites, Dockerized TProxy E2E tests, MSRV checks, and CI jobs for lint, test, TProxy, MSRV, and macOS.
 - Staging realism: [[7-reasons-why-your-staging-environment-sucks-loadmill]] argues that representative staging catches bugs missed by empty, short-lived, unmonitored, isolated, or inactive test environments.
 - Review execution: [[7-best-practices-for-doing-code-reviews]] argues that reviewers should run the app, use breakpoints for complicated lifecycles, pull changes locally, and use compiler, warning, test, navigation, and whole-file context.
+- Verification topology: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] summarizes Rothrock's gates across planning, design, file-level code review, and global code review.
+- Deterministic ceiling: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] says deterministic checks give hard guarantees only within their structural coverage, while semantic correctness still needs probabilistic review or human judgment.
 
 ## Counterevidence & Qualifications
-No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, staging realism, staged rollout, and production monitoring depends on product risk, language, architecture, available observability, build latency, environment cost, and the cost of false positives or false negatives.
+No source defines a universal testing strategy. The appropriate mix of unit tests, API tests, integration checks, end-to-end tests, static analysis, manual self-test, LLM review, staging realism, staged rollout, production monitoring, and human escalation depends on product risk, language, architecture, available observability, build latency, environment cost, semantic ambiguity, and the cost of false positives or false negatives. The newest source also warns that adding too many gates can harm liveness through retry storms.
 
 ## What Changed
 - Expanded software verification from pre-review tests and self-checks into a full AI-first delivery, observability, and rollback loop.
 - Added the Claude Code source's local compile-test-lint habit loop for agent-generated changes.
 - Added a large-port case where layered CI and E2E testing are the merge boundary for Agent Team output.
-- Added representative staging as a verification layer for production-like conditions.
-- Added code-review execution habits as a reviewer-side verification practice.
+- Added representative staging and code-review execution habits as behavior-focused verification layers.
+- Added Trust Topology's deterministic, probabilistic, and human-oracle verification layers for agent pipelines.
 
 ## Related Concepts
 - [[CodeReviewPractice]] - code review can include execution-backed behavioral checks.
@@ -70,3 +75,5 @@ No source defines a universal testing strategy. The appropriate mix of unit test
 - [[SpecDrivenAgentDevelopment]] - test plans verify whether specs were implemented.
 - [[StagingEnvironment]] - realistic staging validates behavior that local tests may not exercise.
 - [[ChaosEngineering]] - controlled failure injection verifies resilience under surprise.
+- [[TrustTopology]] - verification gates become an arrangement for agent reliability.
+- [[OracleRouting]] - human escalation handles intent questions that checks cannot decide.

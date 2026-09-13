@@ -618,6 +618,10 @@ Added source note and synthesis pages for AI winter, deep learning scaling, auto
 
 Added source note for Neil Cybart's 2017 Apple buyback scenario. Created [[ShareBuyback]] and updated [[Apple]], [[AboveAvalon]], [[NeilCybart]], the index, and overview with the article's capital-return claims and chart evidence.
 
+## [2026-09-13] ingest | 多 Agent 协作本质是分布式系统问题，模型多强也没用
+
+Added source note for Ci Jian De Shan Lin's synthesis of Kiran and Michael Rothrock. Key claims: multi-agent software development is a distributed-consensus problem over underspecified prompts; prompt misunderstanding behaves like Byzantine failure; verification topology should combine deterministic gates, LLM review, and human oracle routing.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -822,6 +826,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

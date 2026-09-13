@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 2ad1e6885d8bb705b2f140dae0d2de08b28b7980
-summary: "The wiki maps technology, business, learning, media, governance, and personal agency as systems of evidence, incentives, tools, capital, distribution, growth levers, and judgment."
-episode_count: 115
-source_count: 115
-paragraph_count: 113
+as_of_overview_commit: 71ad3631737dbfafc0f82a87bf976d3a65c8a0fb
+summary: "The wiki maps how AI, software, business, learning, media, and institutions work when tools meet verification, incentives, context, and human judgment."
+episode_count: 116
+source_count: 116
+paragraph_count: 114
 topic_count: 9
 ---
 
@@ -16,69 +16,69 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, and capable of producing human judgment rather than only completed output.
+- [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
+- [[ProductionAgentInfrastructure]] extends ordinary software harnesses with [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], [[SemanticIsolation]], [[DistributedConsensus]], [[TrustTopology]], and [[OracleRouting]] because high-permission or multi-agent systems can create real side effects through nondeterministic decisions, asynchronous failures, and incompatible prompt interpretations.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], and [[ApproximateNearestNeighborSearch]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, and connected to tools.
-- [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business.
-- [[StartupScaling]] extends validation into organization design: after [[ProductMarketFit]], teams must manage [[Blitzscaling]], hiring, [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], [[TalentDensity]], support load, security, and [[EmployeeOpportunityDesign]] rather than treating headcount itself as success.
-- [[WebAdEconomics]], [[BrowserPaymentBroker]], and [[HTTP402PaymentRequired]] frame ads as an implicit payment system, while [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[NicheSubscriptionPublishing]] show publishers choosing among trusted payments, platform revenue, diversified media portfolios, and focused direct subscriptions.
-- [[AppleGrowthLevers]] separates [[Apple]]'s 2018 revenue rebound into near-term [[IPhone]] ASP growth and more durable Services and [[WearableComputing]] expansion through [[AppleWatch]] and [[AirPods]].
+- [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], and [[Pgvector]] show that data architecture should add specialized systems only when critical capability, latency, recall, or scale benefits outweigh added language, consistency, operations, and cross-system data-flow costs.
+- [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], and [[IndependentCreator]] evidence show small creator businesses using stable income bases, modular services, [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] to turn narrow products into feedback and distribution systems.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
-- [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values; [[CreativeTechnicalCareer]] adds a non-linear path where art, engineering, craft, education, and game-making can cohere through repeated experiments, while [[WorkplaceSexismInTech]] names a structural constraint that can redirect or damage that path. [[ProgrammerFreelancing]], [[IndependentCreator]], and [[SabbaticalCareerExperiment]] cases add experiments around money, isolation, autonomy, user impact, luck, health, family constraints, psychological cost, and fallback design, while [[JobApplicationSideProjects]] make career-transition claims credible only when projects are relevant, deep, iterated, shipped, and visible.
+- [[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], [[FamilyOfOrigin]], [[ThirdField]], [[CreativePresence]], and [[SituationalMorality]] show how incentives, relationships, routines, creative conditions, and moral norms can make some behaviors easier before conscious willpower enters.
+- [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The AI and technology thread treats software, AI systems, data work, reading and editing tools, mobile platforms, campaign technology, developer-economy traffic, data architecture, developer-platform trust, maintenance markers, and production environments as socio-technical infrastructure whose usefulness depends on context quality, evidence chains, verification, runtime realism, platform control, and human or organizational judgment.
+AI and technology sources frame tools as infrastructure: AI writing, coding agents, RAG, data systems, routing, production agents, and platform software work only when context, verification, consensus, observability, and human judgment stay explicit.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]], [[AIVoiceInput]], [[Soniox]], [[Spokenly]], [[Typeless]], [[VoiceInk]], [[Grok4]].
 
 ### Business and Markets
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, and operational discipline. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, and then face scale, cash, trust, and capital-allocation questions.
+Business sources connect startup validation, creator businesses, pricing, media, platforms, equity, scaling, and capital allocation around learning loops, trust, differentiated value, distribution, and disciplined tradeoffs.
 
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
 - [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], and [[IndependentCreator]] evidence show small creator businesses using stable income bases, modular services, [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] to turn narrow products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[IndependentCreator]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]].
 
 ### Cross-domain
 
-Cross-domain sources currently cover practical classification and tradeoff problems across business strategy, security, and applied algorithms. [[AppleGrowthLevers]] separates Apple's 2018 rebound into near-term iPhone ASP growth and more durable Services and wearables expansion; [[DefensivePortTriage]] uses exposed services as signals for likely security checks; and [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]].
+Cross-domain material uses classification and tradeoff reasoning across Apple growth levers, defensive port triage, and trajectory simplification, showing how compact models help compare otherwise different systems.
 
 - [[AppleGrowthLevers]] separates [[Apple]]'s 2018 revenue rebound into near-term [[IPhone]] ASP growth and more durable Services and [[WearableComputing]] expansion through [[AppleWatch]] and [[AirPods]]. Evidence: [[AppleGrowthLevers]], [[Apple]], [[IPhone]], [[WearableComputing]], [[AppleWatch]], [[AirPods]].
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 
 ### Culture and Media
 
-The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form shapes systematic study, reading-note systems make interpretation navigable, game localization preserves player effects, independent game creation remains platform-exposed, and Apple's content distribution strategy treats media access as ecosystem power.
+Culture and media sources show how learning media, reading notes, games, product language, content distribution, video infrastructure, and aesthetics shape experience through form, framing, translation, and platform constraints.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]].
 - [[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability. Evidence: [[IndieGameDevelopment]], [[AmirRajan]], [[ADarkRoom]], [[AppStore]], [[CreativeTechnicalCareer]].
 
 ### Governance and Institutions
 
-The governance-related material spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, and public action. Rules, boundaries, accountability, responsibility allocation, and selective distribution shape learning systems, ad-funded spaces, containers, WSL, game servers, Apple media access, platform abuse, task queues, volunteer campaign tools, and value-oriented knowledge-seeking.
+Governance material treats technical and public systems as rule-bound control problems, from learning institutions and AI gateways to ad-funded spaces, platform access, campaign software, and social infrastructure.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology, maintenance, platform adaptation, and inherited interaction conventions; numeric keypad history adds a physical-interface lineage where calculator and telephone layouts stabilized through mechanical constraints, trained workflows, human-factors testing, and later software reuse.
+History material is mostly technology history: Instapaper, Vim, keypad layouts, and prompt-caching spillover show how products and interfaces inherit constraints, conventions, and maintenance paths.
 
 ### Psychology and Personal Development
 
-Psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient metaphors, and metaknowledge help steer attention and judgment, while workplace satire, UX rhetoric, platform metrics, maps, CLI behavior, and family-business culture reveal status, trust, and abstraction risks.
+Psychology and personal-development sources frame agency as shaped by habits, goals, reflection, metaknowledge, interfaces, platforms, family systems, work environments, and moral or creative fields.
 
 - Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].
 
 ### Science, Health, and Climate
 
-Science, health, and climate remains mostly indirect. It covers attention and mental load in productivity advice, a philosophy-of-science argument about intrinsic value, and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. The Stack Overflow evidence is source-scoped because it measures 2017 English-language question visits rather than causality or employment.
+Science-health material remains indirect, covering attention load, intrinsic-value uncertainty, and data-science adoption signals with strong source-scope limits.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: routines reduce friction, attention protects agency, environments shape behavior, learning deepens through output and practice, goals protect motivation, and careers require path design. The topic also connects product-strategy work, ARKit, wearables, and smart glasses to future workflows when operational constraints are understood.
+Work and education sources treat improvement as designed loops across attention, goals, learning output, workplace practice, creator work, career fit, AI-era problem definition, and organizational opportunity.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

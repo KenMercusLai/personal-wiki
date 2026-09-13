@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: Apple on Track to Buy 50% of Itself in Three Years](sources/above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years.md) - Neil Cybart argues that Apple could retire half of its peak share count by combining ongoing buybacks with repatriated foreign cash after tax reform.
 - [Above Avalon: Above Avalon Subscriptions Turn Three](sources/above-avalon-above-avalon-subscriptions-turn-three.md) - Neil Cybart argues that Above Avalon's Apple-focused subscription model works by selling strong perspective, daily analysis, archive access, and community rather than chasing ad-supported page views.
 - [Above Avalon: Apple Is Figuring Out What's Next](sources/above-avalon-apple-is-figuring-out-whats-next.md) - Neil Cybart argues that Apple's WWDC 2018 AR, Siri, ML, Watch, and AirPods moves were preparation for smart glasses as the next personal-computing form factor.
@@ -123,6 +124,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [此间的山林](entities/CiJianDeShanLin.md) - Authorial identity synthesizing distributed-systems and verification-topology arguments for multi-agent AI coding.
+- [Kiran](entities/Kiran.md) - Formal-verification researcher presented as applying distributed-consensus, FLP, and Byzantine-fault reasoning to multi-agent software development.
+- [Michael Rothrock](entities/MichaelRothrock.md) - Software engineer presented as the source of the Trust Topology reliability framework for AI-agent coding pipelines.
 - [Above Avalon](entities/AboveAvalon.md) - Independent Apple analysis publication presented as a subscription-supported niche media business, product-strategy voice, and Apple financial-strategy source.
 - [Neil Cybart](entities/NeilCybart.md) - Former Wall Street analyst and Above Avalon operator arguing for focused Apple analysis across publishing, product strategy, and capital return.
 - [CYY](entities/CYY.md) - Systems-oriented hobbyist author reflecting on AI, black-box learning, open-source work, and human-centered innovation.
@@ -620,6 +624,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-First Engineering](concepts/AIFirstEngineering.md) - Engineering operating model that redesigns planning, coding, testing, deployment, monitoring, and team roles around AI agents as primary builders.
 - [Agent Memory](concepts/AgentMemory.md) - Writeable retrieval pattern where an LLM stores information externally and later retrieves it into context.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
+- [Distributed Consensus](concepts/DistributedConsensus.md) - Agreement problem for independent agents or nodes working under asynchronous communication, failure, and inconsistent local views.
+- [Trust Topology](concepts/TrustTopology.md) - Verification-gate arrangement for making unreliable AI agents produce more reliable software systems.
+- [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, and tools.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
