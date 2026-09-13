@@ -8,6 +8,7 @@ sources:
   - above-avalon-apple-is-figuring-out-whats-next
   - above-avalon-apples-content-distribution-strategy
   - above-avalon-apples-growth-story
+  - above-avalon-connecting-the-apple-dots
   - ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie
   - shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog
   - 51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses
@@ -119,7 +120,9 @@ The wiki currently contains sources on lightweight productivity habits, journali
 
 ## Current Synthesis
 
-The newest Above Avalon source adds an operating-growth layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]]'s 2018 revenue rebound depended on three uneven [[AppleGrowthLevers]]: higher [[IPhone]] average selling prices, Services growth, and [[WearableComputing]] adoption through [[AppleWatch]] and [[AirPods]]. The embedded chart supports the rebound by showing TTM revenue rising from roughly $215B in 4Q16 to about $255B in 3Q18, up 17% over seven quarters. The source qualifies the existing smart-glasses and content-distribution thread by showing a transition: iPhone ASP drove most near-term growth, but Services and wearables looked more durable as future engines because they could compound across Apple's installed base.
+The newest Above Avalon source makes the Apple product-strategy cluster more explicit. [[AppleProductTheory]] names [[NeilCybart]]'s ladder from Mac desktops to Mac portables, iPad, [[IPhone]], [[AppleWatch]], and possible [[SmartGlasses]]: each category handles tasks formerly assigned to a larger or less personal computer. The embedded diagram is direct evidence for that model, placing glasses below Watch as a device meant to take tasks from both Watch and iPhone. The 2018 iPhone XS/XR and Apple Watch Series 4 launches are interpreted as current clues: A12 Bionic silicon and smarter cameras make iPhone a stronger AR navigator and computer alternative, while Watch heart and fall features show proactive body-centered computing that phones cannot naturally absorb.
+
+Another Above Avalon source adds an operating-growth layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]]'s 2018 revenue rebound depended on three uneven [[AppleGrowthLevers]]: higher [[IPhone]] average selling prices, Services growth, and [[WearableComputing]] adoption through [[AppleWatch]] and [[AirPods]]. The embedded chart supports the rebound by showing TTM revenue rising from roughly $215B in 4Q16 to about $255B in 3Q18, up 17% over seven quarters. The source qualifies the existing smart-glasses and content-distribution thread by showing a transition: iPhone ASP drove most near-term growth, but Services and wearables looked more durable as future engines because they could compound across Apple's installed base.
 
 The newest Above Avalon source adds a content-distribution layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]] was not retreating from hardware when it brought [[AppleMusic]] to [[AmazonEcho]], expanded [[AirPlay2]], and put iTunes content on Samsung TVs. [[AppleContentDistributionStrategy]] names the pattern: Apple uses its billion-user ecosystem and selected third-party playback surfaces to defend content relationships in mixed-device households while [[AppleTV]] and [[HomePod]] remain premium first-party experiences. [[StreamingContentEconomics]] explains why this can be strategically rational even if direct content gross profit is modest: music and video streaming require subscriber scale, rights-holder payments, engagement, and content spending, while Apple can value content distribution for power, influence, and ecosystem retention.
 

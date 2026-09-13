@@ -4,8 +4,8 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-13
-as_of_overview_commit: 2ad1e6885d8bb705b2f140dae0d2de08b28b7980
-input_digest: fad8d6693eb9083f79f1eb70c7a514775008f28a9b19b58a1811b38bb11e9a7f
+as_of_overview_commit: 52cc91f1f71e6ccfba40c69745820bc6497a42c3
+input_digest: edf0e6511d79011a8390893f179e007f744281ddc81dd75ed4c0ab19360bb9fe
 ---
 
 # Cross-domain

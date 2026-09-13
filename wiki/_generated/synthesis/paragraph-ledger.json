@@ -1,7 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
-      "b8baa1653fba42cbcc901e3390a4a3f6c53950dea6cbfabd991dd5383f53de3c",
+      "ef990c7aa52ca533d176c566364fe2ded69f40ed994d09819a807b19b8613437",
+      "4a464a538e3610276845066f4ef839b48608f09c2898661ead4b60aae07560d1",
       "2ba673dbb4b3bacc024a1139a42ec2d8e4f5bbe61c9760e53d27030ecdfe9b37",
       "4e0fbfd42d3615382f8dd36e3960cd2e40bbae9d5edde9c032c5de995dbae18d",
       "1e5fb8085f169768567e85937f261a07c18eab57bb87637e6020372df381ac68",
@@ -116,16 +117,35 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 114
+    "paragraph_count": 115
   },
-  "overview_commit": "71ad3631737dbfafc0f82a87bf976d3a65c8a0fb",
-  "overview_digest": "74b54afb7596fcf8a7b40d06d60d2cd6c9c5f60d000d89162ddc4d0af8636978",
+  "overview_commit": "52cc91f1f71e6ccfba40c69745820bc6497a42c3",
+  "overview_digest": "2d26ee5031a1f0347db6028f2f11b29fb84e3a4b1764f04fa8061547c3da9f61",
   "paragraphs": [
     {
-      "id": "b8baa1653fba42cbcc901e3390a4a3f6c53950dea6cbfabd991dd5383f53de3c",
+      "id": "ef990c7aa52ca533d176c566364fe2ded69f40ed994d09819a807b19b8613437",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest Above Avalon source makes the Apple product-strategy cluster more explicit. [[AppleProductTheory]] names [[NeilCybart]]'s ladder from Mac desktops to Mac portables, iPad, [[IPhone]], [[AppleWatch]], and possible [[SmartGlasses]]: each category handles tasks formerly assigned to a larger or less personal computer. The embedded diagram is direct evidence for that model, placing glasses below Watch as a device meant to take tasks from both Watch and iPhone. The 2018 iPhone XS/XR and Apple Watch Series 4 launches are interpreted as current clues: A12 Bionic silicon and smarter cameras make iPhone a stronger AR navigator and computer alternative, while Watch heart and fall features show proactive body-centered computing that phones cannot naturally absorb.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "AppleProductTheory",
+        "AppleWatch",
+        "IPhone",
+        "NeilCybart",
+        "SmartGlasses"
+      ]
+    },
+    {
+      "id": "4a464a538e3610276845066f4ef839b48608f09c2898661ead4b60aae07560d1",
       "primary_topic": "cross-domain",
       "secondary_topics": [],
-      "text": "The newest Above Avalon source adds an operating-growth layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]]'s 2018 revenue rebound depended on three uneven [[AppleGrowthLevers]]: higher [[IPhone]] average selling prices, Services growth, and [[WearableComputing]] adoption through [[AppleWatch]] and [[AirPods]]. The embedded chart supports the rebound by showing TTM revenue rising from roughly $215B in 4Q16 to about $255B in 3Q18, up 17% over seven quarters. The source qualifies the existing smart-glasses and content-distribution thread by showing a transition: iPhone ASP drove most near-term growth, but Services and wearables looked more durable as future engines because they could compound across Apple's installed base.",
+      "text": "Another Above Avalon source adds an operating-growth layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]]'s 2018 revenue rebound depended on three uneven [[AppleGrowthLevers]]: higher [[IPhone]] average selling prices, Services growth, and [[WearableComputing]] adoption through [[AppleWatch]] and [[AirPods]]. The embedded chart supports the rebound by showing TTM revenue rising from roughly $215B in 4Q16 to about $255B in 3Q18, up 17% over seven quarters. The source qualifies the existing smart-glasses and content-distribution thread by showing a transition: iPhone ASP drove most near-term growth, but Services and wearables looked more durable as future engines because they could compound across Apple's installed base.",
       "topic_scores": {},
       "wikilinks": [
         "AirPods",

@@ -626,6 +626,10 @@ Added source note for Ci Jian De Shan Lin's synthesis of Kiran and Michael Rothr
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Above Avalon: Connecting the Apple Dots
+
+Ingested /mnt/ken_personal_wiki/Articles/Above Avalon- Connecting the Apple Dots.md and updated the Apple product-strategy cluster.
+
 ## [2026-09-13] ingest | Above Avalon: Apple's Growth Story
 
 Ingested `/mnt/ken_personal_wiki/Articles/Above Avalon- Apple's Growth Story.md`; added the source note, created [[AppleGrowthLevers]], and updated Apple, Above Avalon, Neil Cybart, and Wearable Computing synthesis pages.
@@ -826,6 +830,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

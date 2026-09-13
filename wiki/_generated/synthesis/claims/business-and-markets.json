@@ -37,29 +37,18 @@
     },
     {
       "global_candidate": true,
-      "id": "mvps-validate-core-value-before-full-buildout",
+      "id": "mvps-and-pre-fit-startups-convert-runway-into-learning",
       "qualifications": [
-        "Famous MVP examples carry survivorship bias, and weak signals such as signups need connection to payment, retention, behavior, or explicit hypotheses."
+        "Famous MVP examples carry survivorship bias, and the evidence mixes founder retrospectives, advice, profiles, and exceptional cases."
       ],
-      "statement": "[[MinimumViableProduct]] evidence reframes startup product work as testing core value through manual workflows, videos, pricing pages, waitlists, closed betas, platform placement, outsourced concept builds, and explicit [[StartupHypothesisTesting]] before full buildout.",
-      "status": "supported",
+      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], and [[StartupFocus]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, and explicit [[StartupHypothesisTesting]].",
+      "status": "qualified",
       "supporting_wikilinks": [
         "MinimumViableProduct",
         "CustomerLedProductDevelopment",
         "SaaSMarketing",
         "StartupHypothesisTesting",
-        "OutsourcedProductDevelopment"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "pre-fit-startups-convert-runway-into-learning",
-      "qualifications": [
-        "The evidence mixes founder retrospectives, advice, profiles, and exceptional cases, so business model, ownership, team, distribution, and culture context matter."
-      ],
-      "statement": "[[StartupRunway]] is best read as a learning and optionality budget: [[Maderight]], [[Hardbound]], [[Groove]], [[Bump]], [[Microsoft]], and [[SmugMug]] show different relationships among [[ProductMarketFit]], [[StartupFocus]], customer learning, small-team leverage, self-funded growth, and culture.",
-      "status": "qualified",
-      "supporting_wikilinks": [
+        "OutsourcedProductDevelopment",
         "StartupRunway",
         "Maderight",
         "Hardbound",
@@ -69,35 +58,6 @@
         "SmugMug",
         "ProductMarketFit",
         "StartupFocus"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "mature-companies-turn-excess-cash-into-capital-allocation",
-      "qualifications": [
-        "The Apple evidence is a 2017 Above Avalon scenario, not a universal claim that buybacks create operating value or suit every company."
-      ],
-      "statement": "[[ShareBuyback]] adds the mature-company version of business finance: [[Apple]] shows how durable cash generation can make capital return, ownership percentage, share price, tax rules, and investor expectations strategic questions rather than startup survival constraints.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "ShareBuyback",
-        "Apple",
-        "NeilCybart"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "outsourced-development-requires-owner-discipline",
-      "qualifications": [
-        "Outsourcing amplifies risk when the product owner cannot translate business and customer intent into critical build scope and verification."
-      ],
-      "statement": "[[OutsourcedProductDevelopment]] can support validation only when the owner keeps [[MinimumViableProduct]] scope, technical documentation, QA, communication, and future [[ProductEvolution]] explicit.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "OutsourcedProductDevelopment",
-        "MinimumViableProduct",
-        "ProductEvolution",
-        "MindTheProduct"
       ]
     },
     {
@@ -143,7 +103,7 @@
     },
     {
       "global_candidate": true,
-      "id": "advertising-and-differentiation-turn-value-into-memory",
+      "id": "advertising-differentiation-and-category-creation-turn-value-into-memory",
       "qualifications": [
         "Effects depend on product quality, distribution, pricing, timing, buyer context, and repeated media exposure."
       ],
@@ -162,11 +122,11 @@
     },
     {
       "global_candidate": true,
-      "id": "web-and-media-monetization-need-explicit-value-exchange",
+      "id": "web-media-and-consumer-ip-need-portfolio-economics",
       "qualifications": [
-        "Browser payments leave revenue share, tax, fraud, refunds, and browser-vendor power unresolved; platform and portfolio media evidence is source-scoped; Above Avalon supports the logic of focused subscriptions without disclosing subscriber or profit data."
+        "Browser payments leave revenue share, tax, fraud, refunds, and browser-vendor power unresolved; platform, portfolio media, and Pop Mart evidence are source-scoped."
       ],
-      "statement": "[[WebAdEconomics]], [[BrowserPaymentBroker]], and [[HTTP402PaymentRequired]] frame ads as an implicit payment system, while [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[NicheSubscriptionPublishing]] show publishers choosing among trusted payments, platform revenue, diversified media portfolios, and focused direct subscriptions.",
+      "statement": "[[WebAdEconomics]], [[BrowserPaymentBroker]], [[HTTP402PaymentRequired]], [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[NicheSubscriptionPublishing]], [[BlindBoxRetail]], and [[DesignerToyIPOperations]] show media and consumer businesses choosing among trusted payments, platform revenue, diversified portfolios, focused direct subscriptions, category expansion, and hit-IP operations.",
       "status": "qualified",
       "supporting_wikilinks": [
         "WebAdEconomics",
@@ -177,20 +137,7 @@
         "MediaBrandPortfolio",
         "NicheSubscriptionPublishing",
         "AboveAvalon",
-        "AppleNewsEcosystem"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "media-and-consumer-ip-businesses-need-portfolio-economics",
-      "qualifications": [
-        "The BuzzFeed and Pop Mart evidence does not prove the durability of any single revenue line, hit IP, or platform arrangement."
-      ],
-      "statement": "[[MediaBrandPortfolio]], [[NineBoxMediaOperatingModel]], [[BlindBoxRetail]], [[DesignerToyIPOperations]], and [[FounderLedOrganizationalEvolution]] show media and consumer-IP businesses managing revenue through portfolios, repeatable formats, category expansion, platform relationships, and founder-led adaptation.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "MediaBrandPortfolio",
-        "NineBoxMediaOperatingModel",
+        "AppleNewsEcosystem",
         "BlindBoxRetail",
         "DesignerToyIPOperations",
         "FounderLedOrganizationalEvolution",
@@ -205,7 +152,7 @@
       "qualifications": [
         "The evidence mixes retrospectives, historical cases, famous winners, and practitioner advice, so later success and category differences can distort the lesson."
       ],
-      "statement": "[[ProductEvolution]] spans narrow validation artifacts, released side-project feedback, transitional implementation, mature adaptation, and long-lived tool lineage across [[Instapaper]], [[Vim]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], and [[OutsourcedProductDevelopment]].",
+      "statement": "[[ProductEvolution]] spans narrow validation artifacts, released side-project feedback, transitional implementation, mature adaptation, and long-lived tool lineage across [[Instapaper]], [[Vim]], [[MinimumViableProduct]], [[ReleaseFocusedSideProjects]], [[OutsourcedProductDevelopment]], [[CLIApplicationDesign]], and [[ContainerApplicationStartup]].",
       "status": "supported",
       "supporting_wikilinks": [
         "ProductEvolution",
@@ -213,76 +160,59 @@
         "Vim",
         "MinimumViableProduct",
         "ReleaseFocusedSideProjects",
-        "OutsourcedProductDevelopment"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "developer-tools-are-products-with-automation-contracts",
-      "qualifications": [
-        "The CLI evidence is one practitioner essay, and command conventions vary by ecosystem and user expectation."
-      ],
-      "statement": "[[CLIApplicationDesign]], [[Vim]], [[CommandLineUX]], [[AutomationFriendlyCLI]], [[StructuredCLIOutput]], [[CLICommandGrammar]], and [[ConstraintShapedInterfaceDesign]] show that developer tools are products whose text interfaces, automation contracts, conventions, and constraints affect adoption and trust.",
-      "status": "supported",
-      "supporting_wikilinks": [
+        "OutsourcedProductDevelopment",
         "CLIApplicationDesign",
-        "Vim",
-        "CommandLineUX",
-        "AutomationFriendlyCLI",
-        "StructuredCLIOutput",
-        "CLICommandGrammar",
-        "ConstraintShapedInterfaceDesign"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "container-friendly-apps-own-startup-runtime-and-lifecycle",
-      "qualifications": [
-        "The Docker sources are practitioner essays from earlier container eras and do not cover the full later orchestration, secrets, or platform-engineering ecosystem."
-      ],
-      "statement": "[[Docker]] deployment becomes reliably portable when applications participate in [[TwelveFactorApp]], [[ContainerApplicationStartup]], [[RuntimeConfiguration]], and [[ContainerNativePractice]], while [[WindowsSubsystemForLinux]] and [[NativeSystemdInWSL]] show the same need for explicit boundaries in local environments.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "Docker",
-        "TwelveFactorApp",
         "ContainerApplicationStartup",
         "RuntimeConfiguration",
-        "ContainerNativePractice",
+        "Docker",
         "WindowsSubsystemForLinux",
         "NativeSystemdInWSL"
       ]
     },
     {
-      "global_candidate": false,
-      "id": "backend-platform-products-depend-on-concept-fit-and-stateful-infrastructure",
+      "global_candidate": true,
+      "id": "mature-apple-strategy-combines-cash-and-product-theory",
       "qualifications": [
-        "The task-queue launch was weak in the author's account, so product fit remained an open learning problem."
+        "The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, Apple Watch independence, and smart-glasses user-base projections require later outcome evidence before being treated as confirmed."
       ],
-      "statement": "[[LeanCloud]] shows backend platform products needing concept fit and stateful semantics: [[ServerSideGameLogic]] reuses game-message infrastructure, while [[TaskQueueDesign]] uses [[Redis]] but must still match timeout, concurrency, state, and recovery needs.",
-      "status": "supported",
+      "statement": "[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleProductTheory]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices while product direction moves tasks toward more personal form factors.",
+      "status": "qualified",
       "supporting_wikilinks": [
-        "LeanCloud",
-        "ServerSideGameLogic",
-        "TaskQueueDesign",
-        "Redis",
-        "DeclarativeInfrastructure",
-        "Kubernetes"
+        "Apple",
+        "NeilCybart",
+        "ShareBuyback",
+        "AppleProductTheory",
+        "AppleWatch",
+        "IPhone",
+        "WearableComputing",
+        "SmartGlasses",
+        "AirPods"
       ]
     },
     {
       "global_candidate": false,
-      "id": "connected-product-systems-need-perceived-system-value",
+      "id": "mobile-platforms-control-discovery-and-seed-new-form-factors",
       "qualifications": [
-        "The Juicero evidence is a CEO-authored crisis response and does not prove customer acceptance, retention, pricing, manufacturing cost, or safety outcomes."
+        "The mobile source is a theses-style strategy essay, and the smart-glasses/product-theory interpretation is a 2018 analyst thesis about Apple's preparation, not proof that the category was ready or commercially inevitable."
       ],
-      "statement": "[[ConnectedProductSystems]] can coordinate hardware, software, data, supply chains, and workflows, but [[Juicero]] shows that a coherent system still needs customers and observers to perceive the total experience as worth its cost and complexity.",
-      "status": "source-scoped",
+      "statement": "[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], and [[WearableComputing]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, data-producing devices, and wearables reshape product distribution; [[AppleProductTheory]], [[ARKit]], [[AirPods]], and [[SmartGlasses]] add that mature mobile ecosystems can seed future form factors before they are ready.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "ConnectedProductSystems",
-        "Juicero",
-        "JeffDunn",
-        "PublicRelationsStrategy",
-        "ProductMarketFit"
+        "MobileEcosystem",
+        "MobileInternet",
+        "MobilePlatformDiscovery",
+        "MobileRuntime",
+        "MessagingAsPlatform",
+        "WearableComputing",
+        "ARKit",
+        "AirPods",
+        "SmartGlasses",
+        "Apple",
+        "Google",
+        "Microsoft",
+        "InternetOfThingsData",
+        "AppleWatch",
+        "AppleProductTheory"
       ]
     },
     {
@@ -345,110 +275,8 @@
         "YCombinator",
         "Slack"
       ]
-    },
-    {
-      "global_candidate": false,
-      "id": "mobile-platforms-control-discovery-and-runtime-strategy",
-      "qualifications": [
-        "The mobile source is a theses-style strategy essay and should be updated against later platform, app-store, messaging-market, and post-iPhone hardware changes when used for current decisions.",
-        "The smart-glasses interpretation is a 2018 analyst thesis about Apple's preparation, not proof that the category was ready or commercially inevitable."
-      ],
-      "statement": "[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], and [[WearableComputing]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, data-producing devices, and wearables reshape product distribution; the newer [[ARKit]], [[AirPods]], and [[SmartGlasses]] evidence adds that mature mobile ecosystems can seed future form factors before they are ready.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "MobileEcosystem",
-        "MobileInternet",
-        "MobilePlatformDiscovery",
-        "MobileRuntime",
-        "MessagingAsPlatform",
-        "WearableComputing",
-        "ARKit",
-        "AirPods",
-        "SmartGlasses",
-        "Apple",
-        "Google",
-        "Microsoft",
-        "InternetOfThingsData",
-        "AppleWatch"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "wearables-extend-mobile-platforms-through-health-category-creation",
-      "qualifications": [
-        "The Apple Watch evidence is an analyst estimate from 2017 and projects future independence by analogy rather than later outcome data.",
-        "The smart-glasses evidence is source-scoped to a 2018 Above Avalon product-strategy interpretation."
-      ],
-      "statement": "[[AppleWatch]] shows mobile category extension through [[WearableComputing]]: [[HoraceDediu]] frames the Watch as an [[IPhone]] companion that can absorb lightweight phone, music, map, and communication tasks while using health and fitness as a distinct [[CategoryCreation]] path, while [[NeilCybart]] extends the wearable story from wrists and ears toward [[SmartGlasses]].",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AppleWatch",
-        "WearableComputing",
-        "HoraceDediu",
-        "NeilCybart",
-        "AirPods",
-        "SmartGlasses",
-        "IPhone",
-        "CategoryCreation",
-        "Rolex"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "platform-turnaround-requires-shipping-safety-metrics-segmentation-and-developer-trust",
-      "qualifications": [
-        "The evidence is a public critique of one platform at one time and should not be treated as a complete turnaround plan."
-      ],
-      "statement": "[[AnilDash]]'s [[Twitter]] critique says platform turnaround requires [[ProductShippingCredibility]], [[PlatformAbuseResponse]], [[PlatformCulturalMetrics]], [[ProductUserSegmentation]], and [[DeveloperPlatformTrust]], not only aggregate growth metrics.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AnilDash",
-        "Twitter",
-        "ProductShippingCredibility",
-        "PlatformAbuseResponse",
-        "PlatformCulturalMetrics",
-        "ProductUserSegmentation",
-        "DeveloperPlatformTrust"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "ai-database-infrastructure-needs-workload-fit",
-      "qualifications": [
-        "The pgvector evidence is an AWS-authored technical benchmark rather than a full market comparison of vector databases or managed database services."
-      ],
-      "statement": "[[AmazonBedrock]], [[AmazonRDS]], [[AmazonAurora]], [[PostgreSQL]], and [[Pgvector]] show AI application infrastructure as a product and operations choice where managed services, embeddings, vector indexing, latency, recall, and database consolidation must fit the workload.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AmazonBedrock",
-        "AmazonRDS",
-        "AmazonAurora",
-        "PostgreSQL",
-        "Pgvector",
-        "VectorDatabase",
-        "ApproximateNearestNeighborSearch"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "founder-operating-judgment-protects-learning-and-leverage",
-      "qualifications": [
-        "The claim comes from one founder-advice article rather than comparative startup outcome data."
-      ],
-      "statement": "[[AlexTurnbull]] and [[Groove]] frame founder operating judgment around [[FounderNetworkBuilding]], [[FounderTimeLeverage]], [[FounderSuccessDefinition]], [[StartupVisionSelling]], [[StartupFocus]], and [[CustomerLedProductDevelopment]] as support for real value creation rather than tactic guilt.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AlexTurnbull",
-        "Groove",
-        "FounderNetworkBuilding",
-        "FounderTimeLeverage",
-        "FounderSuccessDefinition",
-        "StartupVisionSelling",
-        "StartupFocus",
-        "CustomerLedProductDevelopment"
-      ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, and operational discipline. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic treats media monetization as a spectrum from ad-funded and platform-dependent models to diversified portfolios and focused direct subscriptions. It now also distinguishes mature-company surplus allocation from startup runway: Apple's buyback case shows how excess cash can become an investor-relations and ownership-structure question when operations already generate more cash than the company needs for reinvestment.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]] from product direction through [[AppleProductTheory]], where devices become more personal by moving tasks from Mac to iPhone, Apple Watch, and possible smart glasses.",
   "topic_id": "business-and-markets"
 }
