@@ -1251,3 +1251,11 @@ Added Andrew Chen's founder-pitch essay. Key claims: early founders should separ
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-13] ingest | The Next Next Job, a framework for making big career decisions
+
+Added Andrew Chen's career-decision framework. Key claims: compare current opportunities by the next-next job they make reachable, research gaps with people already in the target role, build a decisive superpower as well as credentials, and treat some over-preparation as risk aversion rather than necessity.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

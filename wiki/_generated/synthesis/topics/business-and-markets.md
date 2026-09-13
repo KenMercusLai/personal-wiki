@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 4ac47d0eb69963aff904ed51041c27000f015608
-input_digest: bebe0447eb8925147782c4a871ab30800c467c4cd9b77094245446a0e08e4979
+as_of_overview_commit: 43d9a8ab114eb6e580991217c2847d5748b1c405
+input_digest: 10c4e1cd1740eafd8a6d04a37891dab0dd15d9d3a5efbe24d77e508467b131b1
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing, while early startup pitching must make team fit, proof points, and upside explicit without confusing optimistic vision with unresolved product-market or operating truth.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing, while early startup pitching must make team fit, proof points, and upside explicit without confusing optimistic vision with unresolved product-market or operating truth. It now also treats career moves in startup-adjacent markets as option-building decisions: the Next Next Job frame evaluates a current role by the later role, network, experience, and superpower it enables.
 
 ## Cross-source Findings
 
@@ -67,6 +67,16 @@ Business and market sources show companies, investors, and creators converting t
 
 - Famous MVP examples carry survivorship bias, and the evidence mixes founder retrospectives, advice, profiles, and exceptional cases.
 - Founder pitch advice is venture-context communication guidance; it should not be read as permission to overstate execution, product-market fit, unit economics, or team readiness.
+
+### Career Option Value Can Guide Startup Roles
+
+[[NextNextJobFramework]], [[CareerPlanning]], and [[Uber]] add a career-option reading to startup roles: a current job can be valuable when it closes gaps and builds later access, experience, or a decisive superpower for a future role rather than merely optimizing present title, company, culture, or compensation.
+
+**Evidence:** [[NextNextJobFramework]], [[CareerPlanning]], [[Uber]]
+
+**Qualifications:**
+
+- The evidence is reflective career advice from one operator-investor rather than systematic career-outcomes research, and the source still treats manager fit, work excitement, compensation, and emotion as real decision inputs.
 
 ### Product Operating Heuristics Connect Metrics Research And Shipping
 

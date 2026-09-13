@@ -10,15 +10,16 @@ sources:
   - andrew-chen-how-i-use-ai-when-blogging-and-writing
   - andrew-chen-how-to-write-more
   - andrew-chen-the-dinner-party-jerk-test
+  - andrew-chen-the-next-next-job
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AndrewChen]] appears in the wiki as a startup, growth, and writing-practice author whose sources cover surviving the [[TroughOfSorrow]] before [[ProductMarketFit]], diagnosing structural problems in [[CreatorEconomyStartups]], reducing [[ProductFlowFriction]] in critical onboarding and signup paths, using [[AIAssistedWriting]] in his blogging process, building a repeatable writing cadence, pitching founders through the [[DinnerPartyJerkTest]], and occasionally translating non-startup material such as [[VO2Max]] into personal behavior change.
+[[AndrewChen]] appears in the wiki as a startup, growth, career, and writing-practice author whose sources cover surviving the [[TroughOfSorrow]] before [[ProductMarketFit]], diagnosing structural problems in [[CreatorEconomyStartups]], reducing [[ProductFlowFriction]] in critical onboarding and signup paths, using [[AIAssistedWriting]] in his blogging process, building a repeatable writing cadence, pitching founders through the [[DinnerPartyJerkTest]], making career decisions through the [[NextNextJobFramework]], and occasionally translating non-startup material such as [[VO2Max]] into personal behavior change.
 
 ## Current Profile
-The sources present Chen as a writer drawing from operator, investor, advisor, and practitioner experience to turn messy dynamics into memorable decision frames. In the Trough of Sorrow source, his contribution is a stage-specific founder model: after initial attention fades, teams need emotional steadiness, root-cause diagnosis, product-risk reduction, enough runway for iteration, and small tactical wins. In the Dinner Party Jerk Test source, he shifts from survival to communication: founders should consciously leave dinner-party modesty and pitch team quality, earned secrets, proof points, ambition, and future upside hard enough that it feels socially awkward. In the Creator Economy 2.0 source, he applies similar pattern language to a sector: creator startups are promising but must navigate power-law concentration, scarce social-profile distribution, creator graduation, and algorithmic traffic volatility. In the click-friction source, he applies growth judgment to product flows: steps should be removed unless they help the user reach or deepen the core product experience. In the AI blogging and writing-output sources, he reflects on his own writing practice: collect ideas continuously, permit small posts, schedule writing blocks, remove distractions, use ChatGPT or voice cleanup for brainstorming and capture, and treat short-form audience response as the path toward longer essays. The Outlive graph source is different in domain but similar in style: Chen takes one vivid chart and turns it into a behavior-change heuristic about building cardiovascular capacity before later-life decline makes ordinary activities harder.
+The sources present Chen as a writer drawing from operator, investor, advisor, and practitioner experience to turn messy dynamics into memorable decision frames. In the Trough of Sorrow source, his contribution is a stage-specific founder model: after initial attention fades, teams need emotional steadiness, root-cause diagnosis, product-risk reduction, enough runway for iteration, and small tactical wins. In the Dinner Party Jerk Test source, he shifts from survival to communication: founders should consciously leave dinner-party modesty and pitch team quality, earned secrets, proof points, ambition, and future upside hard enough that it feels socially awkward. In the Next Next Job source, he applies the same working-backward pattern to careers: define the job after the next job, identify why it is not reachable now, and choose the current role by how well it closes gaps and builds a decisive superpower. In the Creator Economy 2.0 source, he applies similar pattern language to a sector: creator startups are promising but must navigate power-law concentration, scarce social-profile distribution, creator graduation, and algorithmic traffic volatility. In the click-friction source, he applies growth judgment to product flows: steps should be removed unless they help the user reach or deepen the core product experience. In the AI blogging and writing-output sources, he reflects on his own writing practice: collect ideas continuously, permit small posts, schedule writing blocks, remove distractions, use ChatGPT or voice cleanup for brainstorming and capture, and treat short-form audience response as the path toward longer essays. The Outlive graph source is different in domain but similar in style: Chen takes one vivid chart and turns it into a behavior-change heuristic about building cardiovascular capacity before later-life decline makes ordinary activities harder.
 
 ## Key Characteristics
 - Writes from a startup-operator and advisor perspective.
@@ -26,7 +27,7 @@ The sources present Chen as a writer drawing from operator, investor, advisor, a
 - Treats product-market-fit discovery as hard, common, and often multi-year.
 - Emphasizes root-bottleneck diagnosis over generic growth tactics.
 - Connects runway, product iteration, and small tactical wins during difficult startup phases.
-- Uses named strategic patterns to explain founder pitching, creator-economy startup fragility, product-flow tradeoffs, and AI-assisted writing limits.
+- Uses named strategic patterns to explain founder pitching, creator-economy startup fragility, product-flow tradeoffs, AI-assisted writing limits, and future-option career planning.
 - Turns vivid practitioner-facing examples, including product-flow heuristics, writing routines, and a [[VO2Max]] graph, into concrete behavior changes.
 
 ## Evidence
@@ -51,12 +52,16 @@ The sources present Chen as a writer drawing from operator, investor, advisor, a
 - Writing cadence: [[andrew-chen-how-to-write-more]] recommends continuous idea capture, short post templates, writing-partner brainstorming, scheduled writing blocks, and distraction-free devices.
 - Quality-as-procrastination: [[andrew-chen-how-to-write-more]] argues that overemphasizing quality can slow output, prevent style experiments, and make early work feel intolerable before skill catches up with taste.
 - Feedback-loop expansion: [[andrew-chen-how-to-write-more]] recommends testing a tweet or short post, expanding what resonates into a thread, and then developing it into an essay.
+- Career prompt: [[andrew-chen-the-next-next-job]] asks what the desired next next job is and why it cannot be obtained now.
+- Gap and superpower model: [[andrew-chen-the-next-next-job]] says current jobs should be compared by how they build needed skills, networks, experiences, mentors, ideas, and decisive superpowers.
+- Personal career case: [[andrew-chen-the-next-next-job]] presents Chen's move to [[Uber]] as a deliberate step toward later startup investing.
 
 ## Qualifications
-This page is source-scoped. It does not independently profile Chen's full career, investment roles, later writing, or institutional affiliations beyond what these sources contribute to the wiki. The creator-economy page is a sector thesis rather than a measured dataset of company outcomes, the click-friction source gives practitioner heuristics rather than raw A/B test reports, the Dinner Party Jerk Test is venture-context communication advice rather than a universal ethics of self-promotion, the AI blogging and writing-output sources report personal workflows rather than controlled productivity studies, and the Outlive graph post is a personal reaction to one fitness chart rather than a clinical training guide.
+This page is source-scoped. It does not independently profile Chen's full career, investment roles, later writing, or institutional affiliations beyond what these sources contribute to the wiki. The creator-economy page is a sector thesis rather than a measured dataset of company outcomes, the click-friction source gives practitioner heuristics rather than raw A/B test reports, the Dinner Party Jerk Test is venture-context communication advice rather than a universal ethics of self-promotion, the Next Next Job source is reflective career advice rather than systematic career-outcomes research, the AI blogging and writing-output sources report personal workflows rather than controlled productivity studies, and the Outlive graph post is a personal reaction to one fitness chart rather than a clinical training guide.
 
 ## What Changed
 - Added Chen's [[DinnerPartyJerkTest]] as a founder-pitch frame about ambition, social awkwardness, team differentiation, and future narrative.
+- Added the [[NextNextJobFramework]] as Chen's working-backward model for comparing current opportunities by future-option value.
 
 ## Relationships
 - [[TroughOfSorrow]] - concept Chen explains and operationalizes.
@@ -80,3 +85,6 @@ This page is source-scoped. It does not independently profile Chen's full career
 - [[AIWorkflowDesign]] - Chen's writing process combines capture, drafting, brainstorming, voice cleanup, and revision.
 - [[CreatorFeedbackLoop]] - Chen uses short-form publishing and audience response to decide which ideas deserve expansion.
 - [[PersonalProductivity]] - Chen treats writing output as routine, time-blocking, and distraction management.
+- [[NextNextJobFramework]] - career-decision frame Chen introduces.
+- [[CareerPlanning]] - Chen extends career planning through future-role gap analysis and superpower building.
+- [[Uber]] - Chen's chosen stepping-stone role before later startup investing.

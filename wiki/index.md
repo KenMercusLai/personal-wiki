@@ -60,6 +60,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [The Dinner Party Jerk Test](sources/andrew-chen-the-dinner-party-jerk-test.md) - Andrew Chen argues that early founders should pitch team, earned secrets, proof points, and future upside more forcefully than ordinary social modesty permits.
+- [The Next Next Job, a framework for making big career decisions](sources/andrew-chen-the-next-next-job.md) - Andrew Chen argues that career moves should be evaluated by the next-next role they enable, the gaps they close, and the superpower they help build.
 - [Every time you ask the user to click you lose half](sources/every-time-you-ask-the-user-to-click-you-lose-half.md) - Andrew Chen argues that every extra click, field, tutorial, install, or signup demand spends user intent and should remain only when it improves later product value.
 - [Fun graph from Peter Attia's book Outlive](sources/andrew-chen-fun-graph-from-peter-attias-book-outlive.md) - Andrew Chen uses an Outlive VO2 max chart to argue that building high cardiovascular fitness earlier preserves later-life capacity for ordinary activities such as brisk stair climbing.
 - [How I use AI when blogging and writing](sources/andrew-chen-how-i-use-ai-when-blogging-and-writing.md) - Andrew Chen argues that AI helps blogging most as a rough-draft, brainstorming, outline, voice-cleanup, and revision companion rather than as publishable prose by default.
@@ -288,7 +289,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Women in Product](entities/WomenInProduct.md) - Publication or Medium collection context for the rule-of-threes product-management source.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
-- [Uber](entities/Uber.md) - Transportation marketplace used as an example of seeding early adoption through tech-community events and free rides.
+- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, and career-option building.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging and content-led acquisition case.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool and educational-content acquisition example.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
@@ -370,7 +371,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
-- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, founder pitching, creator-economy dynamics, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
+- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, founder pitching, creator-economy dynamics, career-option planning, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
@@ -685,6 +686,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Failure Ownership](concepts/FailureOwnership.md) - Accepting responsibility for a failed outcome without turning it into fixed self-condemnation.
 - [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete, including ambitious team and upside narratives.
 - [Dinner Party Jerk Test](concepts/DinnerPartyJerkTest.md) - Andrew Chen's diagnostic for whether a founder pitch is too modest about team quality, proof points, and future upside.
+- [Next Next Job Framework](concepts/NextNextJobFramework.md) - Andrew Chen's career-decision method of choosing the next role by working backward from the role after it.
 - [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
@@ -827,7 +829,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
 - [Browser Payment Broker](concepts/BrowserPaymentBroker.md) - Proposed browser role that mediates payment between users, providers, and sites.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
-- [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, and staged steps.
+- [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, future options, and staged steps.
 - [Capability Gateway](concepts/CapabilityGateway.md) - Infrastructure boundary that mediates agent actions through scoped, temporary, revocable credentials and tool semantics.
 - [Academic Writing](concepts/AcademicWriting.md) - Writing used as structured problem-solving through question definition, argument construction, evidence chains, and visible reasoning.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.

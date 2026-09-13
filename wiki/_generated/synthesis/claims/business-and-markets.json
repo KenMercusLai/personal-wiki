@@ -99,6 +99,20 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "career-option-value-can-guide-startup-roles",
+      "qualifications": [
+        "The evidence is reflective career advice from one operator-investor rather than systematic career-outcomes research, and the source still treats manager fit, work excitement, compensation, and emotion as real decision inputs."
+      ],
+      "statement": "[[NextNextJobFramework]], [[CareerPlanning]], and [[Uber]] add a career-option reading to startup roles: a current job can be valuable when it closes gaps and builds later access, experience, or a decisive superpower for a future role rather than merely optimizing present title, company, culture, or compensation.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "NextNextJobFramework",
+        "CareerPlanning",
+        "Uber"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "product-operating-heuristics-connect-metrics-research-and-shipping",
       "qualifications": [
@@ -513,6 +527,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing, while early startup pitching must make team fit, proof points, and upside explicit without confusing optimistic vision with unresolved product-market or operating truth.",
+  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing, while early startup pitching must make team fit, proof points, and upside explicit without confusing optimistic vision with unresolved product-market or operating truth. It now also treats career moves in startup-adjacent markets as option-building decisions: the Next Next Job frame evaluates a current role by the later role, network, experience, and superpower it enables.",
   "topic_id": "business-and-markets"
 }
