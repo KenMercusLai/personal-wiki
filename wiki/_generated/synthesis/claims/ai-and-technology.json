@@ -291,8 +291,25 @@
         "DataScienceTechnologyAdoption",
         "Airbnb"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "financial-software-needs-domain-correct-models",
+      "qualifications": [
+        "The accounting evidence is a short, incomplete primer fragment and does not yet cover concrete ledger implementation patterns such as debits, credits, reconciliation, audit trails, or payment integration."
+      ],
+      "statement": "[[FinancialSoftwareDesign]], [[DoubleEntryAccounting]], [[AccountingSoftwareArchitecture]], and [[BusinessFinanceLiteracy]] show that software tracking money needs domain-correct accounting models and shared finance vocabulary, because report-generating document stores can hide incorrect financial structure.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "FinancialSoftwareDesign",
+        "DoubleEntryAccounting",
+        "AccountingSoftwareArchitecture",
+        "BusinessFinanceLiteracy",
+        "JohnMcKee",
+        "TomMornini"
+      ]
     }
   ],
-  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, and real-world verification. The Airbnb data-science source adds that company data practice is also an organizational role: technical modeling must be tied to business context, instrumentation, communication, iteration, and reusable knowledge.",
+  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, and domain-correct representations. The accounting primer adds that software which tracks money needs financial concepts such as double-entry accounting, not only convenient application records or generated reports.",
   "topic_id": "ai-and-technology"
 }

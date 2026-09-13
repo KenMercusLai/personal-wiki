@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
       "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
       "528bc6c5cf7d6a7a300c11d448fefa8167a0ec8e4e3836d49fe270a95fcbbcf4",
@@ -121,11 +122,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 119
+    "paragraph_count": 120
   },
-  "overview_commit": "fad38aa9d6f8939045a41630365a3ea0f9a5df12",
-  "overview_digest": "a8550f7eb48a167c2f6c17998a4ea8bdff1b502138a361c1a4949a359a872be1",
+  "overview_commit": "ab0b1df4599da9c444251eb9d0f9e19f3c18ded6",
+  "overview_digest": "d6465af540bb73f63f1df896835b96cc2e5b6ff293b92200f0c23589c1ac90cc",
   "paragraphs": [
+    {
+      "id": "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest accounting primer adds a finance-domain modeling layer to the wiki's software-design material. [[JohnMcKee]] and [[TomMornini]] present [[DoubleEntryAccounting]] as a compact business language that developers should understand when writing code to track money. [[AccountingSoftwareArchitecture]] captures the source's warning that many products make accounting look mysterious because they act like business-document databases that produce accounting reports rather than pure accounting systems. [[FinancialSoftwareDesign]] and [[BusinessFinanceLiteracy]] therefore become engineering concerns: the source's point is not merely that accountants use different words, but that incorrect domain models can be baked into software when developers do not understand accounting's underlying structure. The source is incomplete and ends mid-history, so its historical claims around [[LucaPacioli]] and pre-1494 accounting origins remain qualified.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "history-and-geopolitics": 2
+      },
+      "wikilinks": [
+        "AccountingSoftwareArchitecture",
+        "BusinessFinanceLiteracy",
+        "DoubleEntryAccounting",
+        "FinancialSoftwareDesign",
+        "JohnMcKee",
+        "LucaPacioli",
+        "TomMornini"
+      ]
+    },
     {
       "id": "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "primary_topic": "work-education-and-society",

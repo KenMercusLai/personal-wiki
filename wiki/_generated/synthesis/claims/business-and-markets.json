@@ -299,8 +299,24 @@
         "Airbnb",
         "AcademicIndustryDataScienceTransition"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "financial-software-needs-accounting-literacy",
+      "qualifications": [
+        "The source is advocacy from authors connected to [[Subledger]] and the export ends mid-history, so it supports the modeling warning more strongly than a complete accounting curriculum or history."
+      ],
+      "statement": "[[FinancialSoftwareDesign]], [[BusinessFinanceLiteracy]], [[DoubleEntryAccounting]], and [[AccountingSoftwareArchitecture]] frame accounting as a business language developers must understand when software records money, because financial correctness depends on the model beneath reports and workflows.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "FinancialSoftwareDesign",
+        "BusinessFinanceLiteracy",
+        "DoubleEntryAccounting",
+        "AccountingSoftwareArchitecture",
+        "LucaPacioli"
+      ]
     }
   ],
-  "summary": "Business and market sources show companies converting technology, brand, pricing, media, validation, and organization design into durable value only when distribution, trust, customer evidence, retention, reliability, and operating capacity keep pace with growth. The Airbnb data-science source adds data science as a business-capability pattern: analysis creates market value only when it is framed around real metrics, product experience, and organizational learning.",
+  "summary": "Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The accounting primer adds that software businesses handling money need accounting literacy because bad financial models can be embedded in product architecture.",
   "topic_id": "business-and-markets"
 }

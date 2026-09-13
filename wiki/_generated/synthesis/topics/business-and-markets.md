@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: fad38aa9d6f8939045a41630365a3ea0f9a5df12
-input_digest: 15936eac3ba1a7d820ab8cc17dc0a63489120233567d66c89fa783e14ff8b9c5
+as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
+input_digest: 5ebc39d89bd27c3f2bd70c4323df21e63b2c08f2dd9f37f113be63c9e3c350a0
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies converting technology, brand, pricing, media, validation, and organization design into durable value only when distribution, trust, customer evidence, retention, reliability, and operating capacity keep pace with growth. The Airbnb data-science source adds data science as a business-capability pattern: analysis creates market value only when it is framed around real metrics, product experience, and organizational learning.
+Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The accounting primer adds that software businesses handling money need accounting literacy because bad financial models can be embedded in product architecture.
 
 ## Cross-source Findings
 
@@ -155,3 +155,13 @@ Business and market sources show companies converting technology, brand, pricing
 **Qualifications:**
 
 - The Airbnb evidence describes one startup operating model and does not prove that every business should organize data science in the same way.
+
+### Financial Software Needs Accounting Literacy
+
+[[FinancialSoftwareDesign]], [[BusinessFinanceLiteracy]], [[DoubleEntryAccounting]], and [[AccountingSoftwareArchitecture]] frame accounting as a business language developers must understand when software records money, because financial correctness depends on the model beneath reports and workflows.
+
+**Evidence:** [[FinancialSoftwareDesign]], [[BusinessFinanceLiteracy]], [[DoubleEntryAccounting]], [[AccountingSoftwareArchitecture]], [[LucaPacioli]]
+
+**Qualifications:**
+
+- The source is advocacy from authors connected to [[Subledger]] and the export ends mid-history, so it supports the modeling warning more strongly than a complete accounting curriculum or history.

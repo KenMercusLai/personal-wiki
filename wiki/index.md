@@ -127,6 +127,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 - [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
+- [Accounting for Developers 101 - Google Docs](sources/accounting-for-developers-101-google-docs.md) - John McKee and Tom Mornini introduce double-entry accounting as a compact model developers can use when building software that tracks money.
 
 ## Entities
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
@@ -488,6 +489,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [James Ritty](entities/JamesRitty.md) - Dayton saloon owner and cash-register inventor used to qualify simple keypad-origin stories.
 - [Dorr Felt](entities/DorrFelt.md) - Comptometer inventor whose 9-to-1 multi-column layout shaped calculator-keypad history.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
+- [Subledger](entities/Subledger.md) - Accounting software implementation context behind McKee and Mornini's developer-facing accounting primer.
+- [John McKee](entities/JohnMcKee.md) - Coauthor of the developer-facing double-entry accounting primer.
+- [Tom Mornini](entities/TomMornini.md) - Coauthor of the developer-facing double-entry accounting primer.
+- [Luca Pacioli](entities/LucaPacioli.md) - Historical figure credited in the primer with publishing the first complete description of double-entry accounting in 1494.
 
 ## Concepts
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
@@ -832,5 +837,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Remote Video Recording](concepts/RemoteVideoRecording.md) - Capturing a live network stream on a remote machine through tunneling and scheduled command-line recording.
 - [Self-Hosted Surveillance Storage](concepts/SelfHostedSurveillanceStorage.md) - Keeping camera footage on user-controlled infrastructure rather than in a vendor cloud or bundled recorder.
 - [NAT Traversal](concepts/NATTraversal.md) - Techniques such as tunneling that make private-network services reachable from a remote endpoint.
+- [Double-Entry Accounting](concepts/DoubleEntryAccounting.md) - Accounting system presented as a useful model for developers building software that tracks money.
+- [Accounting Software Architecture](concepts/AccountingSoftwareArchitecture.md) - Design choice between modeling accounting directly and deriving reports from business-document records.
+- [Financial Software Design](concepts/FinancialSoftwareDesign.md) - Building software that represents money and business events with financially correct models.
+- [Business Finance Literacy](concepts/BusinessFinanceLiteracy.md) - Practical financial and accounting vocabulary needed to reason across business and engineering work.
 
 ## Syntheses

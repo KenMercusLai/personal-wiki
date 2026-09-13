@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: fad38aa9d6f8939045a41630365a3ea0f9a5df12
-input_digest: af9c3b5376540a72e0b6abae010980cc0495429153e8c3fdee3c520d0118dbf0
+as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
+input_digest: 6e88a98e4e75b205c80d798a380f3203dd68323b9488ab108f54b501094334db
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, and real-world verification. The Airbnb data-science source adds that company data practice is also an organizational role: technical modeling must be tied to business context, instrumentation, communication, iteration, and reusable knowledge.
+AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, and domain-correct representations. The accounting primer adds that software which tracks money needs financial concepts such as double-entry accounting, not only convenient application records or generated reports.
 
 ## Cross-source Findings
 
@@ -136,3 +136,13 @@ AI and technology sources emphasize that useful systems depend on human judgment
 **Qualifications:**
 
 - The new evidence is Airbnb-specific and source-date bounded to a 2016 company-authored article.
+
+### Financial Software Needs Domain Correct Models
+
+[[FinancialSoftwareDesign]], [[DoubleEntryAccounting]], [[AccountingSoftwareArchitecture]], and [[BusinessFinanceLiteracy]] show that software tracking money needs domain-correct accounting models and shared finance vocabulary, because report-generating document stores can hide incorrect financial structure.
+
+**Evidence:** [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]], [[AccountingSoftwareArchitecture]], [[BusinessFinanceLiteracy]], [[JohnMcKee]], [[TomMornini]]
+
+**Qualifications:**
+
+- The accounting evidence is a short, incomplete primer fragment and does not yet cover concrete ledger implementation patterns such as debits, credits, reconciliation, audit trails, or payment integration.

@@ -56,8 +56,22 @@
         "KVCacheAwareRouting",
         "InferenceLoadBalancing"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "accounting-history-is-dissemination-not-invention",
+      "qualifications": [
+        "The source ends mid-sentence during the historical discussion, so this remains a limited dissemination-versus-invention claim rather than a full history of accounting."
+      ],
+      "statement": "[[LucaPacioli]] and [[DoubleEntryAccounting]] add an accounting-history example where the source credits Pacioli publication in 1494 with dissemination while qualifying that double-entry accounting had earlier unknown origins.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "LucaPacioli",
+        "DoubleEntryAccounting",
+        "BusinessFinanceLiteracy"
+      ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology, maintenance, platform adaptation, and inherited interaction conventions; numeric keypad history adds a physical-interface lineage where calculator and telephone layouts stabilized through mechanical constraints, trained workflows, human-factors testing, and later software reuse. The prompt-caching paragraph remains technical AI infrastructure spillover rather than a history or geopolitics finding.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.",
   "topic_id": "history-and-geopolitics"
 }

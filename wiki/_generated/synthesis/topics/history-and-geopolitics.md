@@ -4,15 +4,15 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-13
-as_of_overview_commit: 6a179993636c325591f40c32dd9d1442414c3cc4
-input_digest: b351ddd205e5973f9defd74e85b5052e03aaa3b691b03a7b3036be814f606afa
+as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
+input_digest: 4058da9284a739b97022e3d6c708c195220d3a62def4e010271d15d6b42a3bbe
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology, maintenance, platform adaptation, and inherited interaction conventions; numeric keypad history adds a physical-interface lineage where calculator and telephone layouts stabilized through mechanical constraints, trained workflows, human-factors testing, and later software reuse. The prompt-caching paragraph remains technical AI infrastructure spillover rather than a history or geopolitics finding.
+The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
 
 ## Cross-source Findings
 
@@ -45,3 +45,13 @@ The history and geopolitics topic currently contains technology and interface hi
 **Qualifications:**
 
 - This topic contains only one prompt-caching paragraph, and it was assigned here because of generic terms rather than substantive history or geopolitics content.
+
+### Accounting History Is Dissemination Not Invention
+
+[[LucaPacioli]] and [[DoubleEntryAccounting]] add an accounting-history example where the source credits Pacioli publication in 1494 with dissemination while qualifying that double-entry accounting had earlier unknown origins.
+
+**Evidence:** [[LucaPacioli]], [[DoubleEntryAccounting]], [[BusinessFinanceLiteracy]]
+
+**Qualifications:**
+
+- The source ends mid-sentence during the historical discussion, so this remains a limited dissemination-versus-invention claim rather than a full history of accounting.
