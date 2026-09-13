@@ -29,6 +29,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Above Avalon: The Apple Services Machine](sources/above-avalon-the-apple-services-machine.md) - Neil Cybart argues that Apple Services was a hardware-dependent content distribution machine led by digital content, licensing, AppleCare, iCloud, and Apple Pay rather than a pivot away from hardware.
 - [Above Avalon: Connecting the Apple Dots](sources/above-avalon-connecting-the-apple-dots.md) - Neil Cybart argues that Apple's product strategy is a ladder of increasingly personal devices from Mac to iPhone, Apple Watch, and possible glasses.
 - [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
+- [Amazon is the biggest threat to bitcoin right now](sources/amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto.md) - Coin and Crypto argues that Amazon could threaten Bitcoin by staying out of crypto payments, adopting a faster rival, or creating its own token ecosystem.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
 - [Agent 时代的 TDD：只关注行为的残差](sources/agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha.md) - Agent-era testing essay arguing that coding-agent speed only pays off when tests and implementation alternate around deterministic snapshots, core tests, regression baselines, and residual review.
@@ -162,6 +163,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Benjamin Jones](entities/BenjaminJones.md) - Economist cited for the burden-of-knowledge argument behind complementary-team innovation.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
+- [Bitcoin](entities/Bitcoin.md) - Incumbent cryptocurrency framed as vulnerable to merchant-adoption constraints, transaction throughput, and Amazon-scale platform choice.
 - [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
 - [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
 - [此间的山林](entities/CiJianDeShanLin.md) - Authorial identity synthesizing distributed-systems and verification-topology arguments for multi-agent AI coding.
@@ -572,6 +574,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Innovation at the Intersection](concepts/InnovationAtIntersection.md) - Creating new ideas by recombining existing ideas, observations, techniques, or datasets across fields and roles.
 - [Organizational Data Sharing](concepts/OrganizationalDataSharing.md) - Sharing observations and datasets across teams and systems so companies can reason across the full customer journey.
 - [Aggregation Theory](concepts/AggregationTheory.md) - Platform-strategy frame where demand control and trust transfer let aggregators mediate supply and centralize profits.
+- [Cryptocurrency Merchant Adoption](concepts/CryptocurrencyMerchantAdoption.md) - Cryptocurrency payment adoption by merchants, especially large platforms whose choices can validate or redirect tokens and payment rails.
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.
 - [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus and content distribution economics.

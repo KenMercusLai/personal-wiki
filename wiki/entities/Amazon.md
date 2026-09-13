@@ -4,15 +4,16 @@ type: entity
 tags: [company, retail, cloud, platform, corporate-giant]
 sources:
   - above-avalon-the-race-to-a-trillion
+  - amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Amazon]] appears in the source as one of the five largest U.S. public companies in 2018 and one of the contenders in Wall Street's race to a trillion-dollar market capitalization.
+[[Amazon]] appears as both a 2018 corporate giant in Above Avalon's market analysis and a large online retailer whose payment choices could reshape cryptocurrency merchant adoption.
 
 ## Current Profile
-[[NeilCybart]] presents Amazon as a corporate giant with the strongest Wall Street narrative among the five companies discussed. In the source, Amazon is not primarily grouped with Apple, Google, Microsoft, and Facebook because they all do the same thing; it is differentiated as a retailer focused on the best possible retail experience and, in investor imagination, a utility-like system for moving goods from merchants to people's homes. The source also treats Amazon as a company whose moves into grocery and pharmacy could erase market value from incumbent industry players, whose lower cash position compared with the other giants did not prevent heavy ambition, and whose vertical integration into product and delivery was upending legacy retail.
+[[NeilCybart]] presents Amazon as a corporate giant with the strongest Wall Street narrative among Apple, Amazon, Google, Microsoft, and Facebook: a retailer focused on the best retail experience imaginable and, in investor imagination, a utility-like system for moving goods from merchants to people's homes. The Coin and Crypto source adds a payments-market angle: because Amazon handled enormous online retail volume, accepting [[Bitcoin]], choosing a faster rival, or creating a proprietary token could have redirected cryptocurrency attention. Together, the sources frame Amazon as a distribution-heavy platform whose strategic choices can pressure adjacent markets, from legacy retail to payment rails.
 
 ## Key Characteristics
 - Was one of four legitimate 2018 contenders to reach a trillion-dollar market capitalization.
@@ -21,22 +22,22 @@ knowledge_schema: synthesis-v1
 - Had one of the strongest and most defensible Wall Street narratives among the five giants.
 - Could move markets when it announced entry into industries such as grocery or pharmacy.
 - Had much less net cash than Apple, Alphabet, Microsoft, and Facebook in the source's March 2018 snapshot.
-- Was vertically integrating into product and delivery in ways that pressured legacy retail.
+- Was vertically integrating into product and delivery in ways that pressured legacy retail, while also being treated by Coin and Crypto as a possible cryptocurrency kingmaker because of its online retail scale and checkout traffic.
 
 ## Evidence
-- Trillion race: [[above-avalon-the-race-to-a-trillion]] lists Amazon among four legitimate contenders for the first trillion-dollar market capitalization.
-- Market cap: [[above-avalon-the-race-to-a-trillion]] gives Amazon an $848B market cap in the five-giant snapshot.
-- Business model: [[above-avalon-the-race-to-a-trillion]] describes Amazon as a retailer intently focused on offering the best retail experience imaginable.
-- Narrative strength: [[above-avalon-the-race-to-a-trillion]] says Amazon had the strongest narrative and was viewed as the most defensible among the five giants.
-- Industry shock: [[above-avalon-the-race-to-a-trillion]] says Amazon entry into grocery and pharmacy was accompanied by significant market-cap losses among existing players.
-- Cash and R&D: [[above-avalon-the-race-to-a-trillion]] lists Amazon at $6B net cash, $18B FY2017 operating cash flow, and an estimated $12B FY2017 R&D expense.
-- Retail pressure: [[above-avalon-the-race-to-a-trillion]] says Amazon's vertical integration into product and delivery was upending nearly every part of the legacy retail complex.
+- Corporate scale and narrative: [[above-avalon-the-race-to-a-trillion]] lists Amazon among four legitimate trillion-dollar contenders, gives it an $848B market cap in the five-giant snapshot, and says it had the strongest defensibility story.
+- Retail model and pressure: [[above-avalon-the-race-to-a-trillion]] describes Amazon as a retailer focused on the best retail experience imaginable whose grocery, pharmacy, product, and delivery moves pressured incumbents.
+- Financial snapshot: [[above-avalon-the-race-to-a-trillion]] lists Amazon at $6B net cash, $18B FY2017 operating cash flow, and an estimated $12B FY2017 R&D expense.
+- Cryptocurrency-payment leverage: [[amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto]] says Amazon handled almost half of U.S. online purchases and could give any adopted cryptocurrency a large support surge.
+- Checkout throughput constraint: [[amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto]] uses Amazon's peak Prime-sale transaction volume to argue that Bitcoin and Ethereum were too slow for Amazon-scale payment demand.
+- Strategic scenarios: [[amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto]] imagines Amazon staying out of crypto, adopting a Bitcoin competitor, or launching an Amazon token across Prime, Twitch, and Audible.
 
 ## Qualifications
-The source is a 2018 Above Avalon market-strategy snapshot. It does not evaluate AWS, later antitrust pressure, later retail profitability, logistics outcomes, labor issues, advertising growth, or Amazon's subsequent market capitalization. Amazon appears mainly as a comparator inside a corporate-giant argument rather than as the sole subject.
+The Above Avalon source is a 2018 market-strategy snapshot and the Coin and Crypto source is a speculative cryptocurrency-payments scenario. Neither evaluates AWS in depth, later antitrust pressure, retail profitability, logistics outcomes, labor issues, advertising growth, Amazon's subsequent market capitalization, or actual later cryptocurrency policy.
 
 ## What Changed
 - Created Amazon as a corporate-giant and trillion-dollar-race entity based on the Above Avalon source.
+- Added Amazon's speculative role as a cryptocurrency merchant-adoption gatekeeper.
 
 ## Relationships
 - [[Apple]] - another trillion-dollar contender and corporate-giant comparator.
@@ -44,5 +45,7 @@ The source is a 2018 Above Avalon market-strategy snapshot. It does not evaluate
 - [[Microsoft]] - another giant in the source's enterprise-services comparison.
 - [[Facebook]] - another giant in the source's advertising and attention-risk comparison.
 - [[CorporateGiantFragility]] - Amazon is used as a powerful but still non-permanent incumbent.
+- [[Bitcoin]] - cryptocurrency incumbent that the Coin and Crypto source says Amazon could threaten.
+- [[CryptocurrencyMerchantAdoption]] - Amazon's payment choices illustrate large-merchant adoption power.
 - [[AboveAvalon]] - publication context for the analysis.
 - [[NeilCybart]] - analyst interpreting Amazon's market narrative and retail integration.

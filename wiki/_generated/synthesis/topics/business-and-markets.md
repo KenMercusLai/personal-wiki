@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 998ed3c26632c5565bb648490063bad6accf5ebe
-input_digest: 63845af815b930a331b2e2eb309fafc64ac78675be89853b0655998e965fd4e8
+as_of_overview_commit: fac214f4ee6df0b277081471e2590bda4187f0b8
+input_digest: 0333b0a0f5968bcf9703ffd50a3dcb74cde7944b30d9b93b6fa3e95f3b2611d9
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Bird source adds a micromobility case where category creation depends on dense fleet availability, hardware and data learning, local charger and mechanic networks, battery yield, brand salience, safety constraints, and likely competition. Recent Tunguz and Dellanna sources add that innovation can come from recombining specialized knowledge across teams, and that aggregators centralize trust and profit by making stranger transactions acceptable while trust-minimizing technologies may pressure that value.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Coin and Crypto source adds a speculative cryptocurrency-payments case where Amazon-scale merchant adoption could validate, reject, or redirect Bitcoin's currency ambitions. Recent Bird, Tunguz, and Dellanna sources add that category creation may depend on local operating density, innovation can come from recombining specialized knowledge across teams, and aggregators centralize trust and profit by making stranger transactions acceptable while trust-minimizing technologies may pressure that value.
 
 ## Cross-source Findings
 
@@ -97,6 +97,16 @@ Business and market sources show companies and investors converting technology, 
 
 - The claim is a strategic model from one essay rather than measured evidence of supplier profit distribution, take rates, fraud reduction, or long-run competitive outcomes.
 - Demand ownership may let incumbent aggregators absorb trust-minimizing technologies instead of being displaced by them.
+
+### Large Platforms Can Redirect Payment Ecosystems
+
+[[CryptocurrencyMerchantAdoption]] extends the platform-power thread into payments: the Coin and Crypto source frames [[Amazon]] as a large merchant whose acceptance, rejection, or proprietary-token choice could redirect attention away from [[Bitcoin]] toward faster alternatives such as [[Ethereum]] or an Amazon-controlled ecosystem.
+
+**Evidence:** [[CryptocurrencyMerchantAdoption]], [[Amazon]], [[Bitcoin]], [[Ethereum]]
+
+**Qualifications:**
+
+- The cryptocurrency-payment evidence is a speculative 2017 scenario and does not prove Amazon's actual later cryptocurrency strategy or current Bitcoin, Ethereum, or retail-payment performance.
 
 ### Micromobility Scaling Needs Local Operating Density
 

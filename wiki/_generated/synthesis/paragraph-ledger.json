@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3b13da1575e8aec9d035d7ea9eda6924d8b7528e03f6b4714fe6681296fdf784",
       "6209e72e59f02fb1f9074dbb80cf92e76cfef251eafcdb1adfde250444860d21",
       "56592830f8c048822c8ae49cc53a622e2a934a00c26a10d4d9bf37a600621625",
       "38d7da1eee233c895d6bd46191a7bc14278608386c7e271ff7902aaa9201f867",
@@ -138,11 +139,26 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 136
+    "paragraph_count": 137
   },
-  "overview_commit": "08b46beb5b91e0969fca200018e945b0ab9746d1",
-  "overview_digest": "c2306860d221736ee0a58cd177c25059e738170e93b895bf9cef08afa04cd774",
+  "overview_commit": "fac214f4ee6df0b277081471e2590bda4187f0b8",
+  "overview_digest": "139c5228c60c99c119c60c7b476e3e81884e5755c6f7b3d7789a1d6a58dc4ab7",
   "paragraphs": [
+    {
+      "id": "3b13da1575e8aec9d035d7ea9eda6924d8b7528e03f6b4714fe6681296fdf784",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Coin and Crypto source adds a speculative cryptocurrency-payments scenario to the wiki's platform and payments material. [[Bitcoin]] is framed as the incumbent cryptocurrency whose currency ambitions depend on moving beyond investment hype into merchant acceptance, but whose volatility, hack-recovery risk, and transaction throughput could weaken it at large retail scale. [[Amazon]] becomes the market-shaping platform in this scenario: the article argues that Amazon could hurt Bitcoin by staying out of crypto payments, choosing a faster rival such as [[Ethereum]] or Ripple, or creating its own token for Prime, Twitch, Audible, and purchase discounts. [[CryptocurrencyMerchantAdoption]] captures the durable synthesis while keeping the source scoped: large merchants can validate or redirect payment ecosystems, but the article does not prove Amazon's actual later crypto strategy.",
+      "topic_scores": {
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "Amazon",
+        "Bitcoin",
+        "CryptocurrencyMerchantAdoption",
+        "Ethereum"
+      ]
+    },
     {
       "id": "6209e72e59f02fb1f9074dbb80cf92e76cfef251eafcdb1adfde250444860d21",
       "primary_topic": "work-education-and-society",

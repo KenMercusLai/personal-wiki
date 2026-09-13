@@ -663,6 +663,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Amazon is the biggest threat to bitcoin right now
+
+Added Coin and Crypto's speculative Amazon/Bitcoin payments article; created [[Bitcoin]] and [[CryptocurrencyMerchantAdoption]], updated [[Amazon]], [[Ethereum]], and [[Kik]], and inspected the referenced promotional images as non-substantive.
+
 ## [2026-09-13] ingest | Always Invest In Your Education
 
 Added Darius Foroux's self-education essay, including the inspected duplicate brain-investment illustration; created [[DariusForoux]] and [[SelfEducationInvestment]], and connected the source to learn drive, knowledge valuation, goal setting, active learning, and productivity.
@@ -1078,6 +1082,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

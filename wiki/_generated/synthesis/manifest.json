@@ -1,27 +1,27 @@
 {
   "content_date": "2026-09-13",
   "corpus": {
-    "episode_count": 139,
-    "source_count": 139
+    "episode_count": 140,
+    "source_count": 140
   },
   "generated": true,
   "global": {
-    "candidate_digest": "f0cc10c8880002b08ce0acc62084f952ce3ab593672e4c16743401d2afd5efd4",
-    "compacted_at": "2026-09-13T06:51:06.456838Z",
+    "candidate_digest": "6ef07b43bed7edaea5a7d30b130f78e63ca0540be02ac2a67247188c128dbbdd",
+    "compacted_at": "2026-09-13T07:02:16.186274Z",
     "content_date": "2026-09-13",
     "corpus": {
-      "episode_count": 139,
-      "source_count": 139
+      "episode_count": 140,
+      "source_count": 140
     },
-    "output_digest": "2b6ea4659ce2a36257df71614ab29d6e7f27340092ccb34c46cdb166b12c1691",
-    "overview_commit": "08b46beb5b91e0969fca200018e945b0ab9746d1",
-    "overview_digest": "c2306860d221736ee0a58cd177c25059e738170e93b895bf9cef08afa04cd774",
+    "output_digest": "c8e788db39d8e2cbcebc43a70f44f40bf44925210474539653ef869c30c10d45",
+    "overview_commit": "fac214f4ee6df0b277081471e2590bda4187f0b8",
+    "overview_digest": "139c5228c60c99c119c60c7b476e3e81884e5755c6f7b3d7789a1d6a58dc4ab7",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "08b46beb5b91e0969fca200018e945b0ab9746d1",
-  "overview_digest": "c2306860d221736ee0a58cd177c25059e738170e93b895bf9cef08afa04cd774",
-  "paragraph_count": 136,
+  "overview_commit": "fac214f4ee6df0b277081471e2590bda4187f0b8",
+  "overview_digest": "139c5228c60c99c119c60c7b476e3e81884e5755c6f7b3d7789a1d6a58dc4ab7",
+  "paragraph_count": 137,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -31,9 +31,9 @@
       "title": "AI and Technology"
     },
     "business-and-markets": {
-      "claim_digest": "8718727cb591bc44541617a5217a33838de2551dcf5a0a9c89fddcca5e7c4b84",
-      "input_digest": "63845af815b930a331b2e2eb309fafc64ac78675be89853b0655998e965fd4e8",
-      "output_digest": "9a0751f91e0d7f19c0aa33cb3a6de923719b80d73c05ffe7aae3bcdbae2ac13a",
+      "claim_digest": "476832d57e7bda8b72919cba6c666df0f053ef77b6e62b540bcd0a081c078f33",
+      "input_digest": "0333b0a0f5968bcf9703ffd50a3dcb74cde7944b30d9b93b6fa3e95f3b2611d9",
+      "output_digest": "fe740a44507d051f3f6ade65d316d53a3050fa7049421c5bbabbeddd8d841c60",
       "title": "Business and Markets"
     },
     "cross-domain": {
