@@ -131,6 +131,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [众口难调的笔记，各取所需的工具](sources/zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju.md) - A PKM essay arguing that big notes and small notes serve different knowledge goals and require different note-tool affordances.
 - [为什么现有的 Agent Infra 无法支撑生产级应用？](sources/wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong.md) - An agent-infrastructure essay arguing that production agents need effect logs, capability gateways, fork recovery, resumability, and semantic isolation because existing sandboxes and workflow engines operate at the wrong abstraction layer.
 - [为什么你的"AI 优先"战略可能大错特错？](sources/wei-shen-me-ni-de-ai-you-xian-zhan-lue-ke-neng-da-cuo-te-cuo.md) - A skeptical AI-first engineering essay and translated case study arguing that AI speed only works when tests, CI/CD, monitoring, task management, architecture, feature flags, and human judgment form a strong engineering harness.
+- [工程师如何更好投资](sources/gong-cheng-shi-ru-he-geng-hao-tou-zi.md) - Tw93 frames investing for engineers as risk-aware judgment across AI themes, company analysis, index funds, and scalable leverage through code, writing, and sharing.
 - [不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking](sources/bu-shang-ban-de-1000-tian-cheng-xu-yuan-zi-you-zhi-ye-b-ji-hua.md) - A programmer-freelancer retrospective arguing that financial runway, stable course income, independent product experiments, personal branding, and disciplined solo-work routines can make freelancing a viable B plan.
 - [一口气把所有让你目眩的 LLM 名词全都过一遍](sources/yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian.md) - A conceptual map of LLM tooling terms that frames Skills, MCP, RAG, Memory, dynamic compression, prompt caching, and Computer Use as context-management and action-interface patterns.
 - [Agent Experience 导论 | 螺莉莉的数据中心](sources/agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's AX essay framing agents through user intent, context management, external action, Computer Use routes, permissions, interface context, and humanistic anti-sycophancy design.
@@ -173,6 +174,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jamal](entities/Jamal.md) - Data Dependence author explaining NumPy fundamentals for scientific Python learners.
 - [Data Dependence](entities/DataDependence.md) - Publication context for Jamal's scientific Python tutorial series.
 - [Darius Foroux](entities/DariusForoux.md) - Personal-growth author framing self-education as a daily investment and resilience strategy.
+- [Tw93](entities/Tw93.md) - Engineer-author connecting high-risk investing, AI-market themes, and engineer leverage through code, writing, and sharing.
+- [Duan Yongping](entities/DuanYongping.md) - Value-investing reference used for cash-flow focus, company quality, temperament, sell discipline, and avoid-list guardrails.
 - [Agno](entities/Agno.md) - AI agent framework used to assemble a text-search codebase QA assistant.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
 - [Tall West](entities/TallWest.md) - Design agency context for Brad Ellis's reach-navigation essay.
@@ -738,6 +741,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Active Investing](concepts/ActiveInvesting.md) - Investing mode where capital is paired with concentrated participation, control, judgment, or operating work.
 - [Passive Investing](concepts/PassiveInvesting.md) - Investing mode where the investor primarily supplies capital without taking a lead, operating, governance, or control role.
 - [Portfolio Concentration](concepts/PortfolioConcentration.md) - Holding fewer investments so scarce attention, judgment, and influence can be applied more deeply.
+- [Engineer Investment](concepts/EngineerInvestment.md) - Engineer-oriented investing frame combining technology-domain judgment, company analysis, risk discipline, and self-leverage.
+- [AI Investment Theme](concepts/AIInvestmentTheme.md) - Framing of AI as a structural investment theme across chips, cloud, software, applications, automation, and related infrastructure.
+- [Investment Risk Discipline](concepts/InvestmentRiskDiscipline.md) - Behavioral and analytical guardrails against leverage, shorting, trend chasing, unfamiliar speculation, and panic trading.
+- [Financial Statement Reading](concepts/FinancialStatementReading.md) - Lightweight practice of using growth, expectations, turnover, margins, ROA, and ROE to judge company quality.
+- [Engineer Leverage](concepts/EngineerLeverage.md) - Using code, writing, products, AI-assisted output, and sharing to make engineering expertise reusable.
+- [Index Fund Strategy](concepts/IndexFundStrategy.md) - Low-cost broad-market ETF strategy that favors diversified exposure over frequent stock selection.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
 - [Crypto Wallet Security](concepts/CryptoWalletSecurity.md) - User-facing wallet security across key control, phishing defense, audits, education, privacy, and trust boundaries.

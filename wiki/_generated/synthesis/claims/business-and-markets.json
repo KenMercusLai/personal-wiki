@@ -17,6 +17,23 @@
     },
     {
       "global_candidate": true,
+      "id": "engineer-investing-requires-domain-judgment-and-risk-discipline",
+      "qualifications": [
+        "The source is a personal July 2025 presentation, not financial advice or an independently tested strategy; its ticker, ETF, and market examples are date-specific.",
+        "The source broadens investment into code, writing, independent products, and sharing, but those leverage paths still depend on demand, quality, trust, distribution, and maintenance."
+      ],
+      "statement": "[[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], and [[EngineerLeverage]] extend the investing and creator-business thread: [[Tw93]] frames engineers as able to use technical-domain understanding around AI, semiconductors, software, cloud, and Bitcoin-adjacent themes, but only when checked by company analysis, future cash-flow thinking, financial-statement reading, valuation, downside math, and avoidance of margin, shorting, unfamiliar speculation, frequent trading, and blind high-point chasing.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "EngineerInvestment",
+        "InvestmentRiskDiscipline",
+        "IndexFundStrategy",
+        "EngineerLeverage",
+        "Tw93"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "independent-saas-combines-infrastructure-and-distribution",
       "qualifications": [
         "Founder retrospectives and profiles do not establish general SaaS success rates, and viability depends on skills, timing, customer trust, support load, payment access, and whether growth outruns opportunity cost."
@@ -493,6 +510,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, onboarding, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that product-flow friction should spend user intent only when it improves later value, and that lower-paid support labor can expose a company-value gap when office perks and scale coexist with employee financial precarity.",
+  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing.",
   "topic_id": "business-and-markets"
 }
