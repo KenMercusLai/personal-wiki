@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3b66f39976f30acecb89a7f7fd5302326c0964d558ca8c278acc03de2fd05740",
       "5a6441e5984d7589699b643c047e61cc73481a27b88df30bc669850e641cd85f",
       "b0e9b1a1818e9667362b957f3cbf1bdc4de81e7a1fdefe9744843fb99a0b4d75",
       "5afdf3b4967dac93756e8afe56b305c13f09332366fcbd0026eea8844d604aa3",
@@ -134,11 +135,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 132
+    "paragraph_count": 133
   },
-  "overview_commit": "77752c9f80e8425f9547753fb2a485bb0fc09db9",
-  "overview_digest": "a1aaec6b5f3178ca13143a9559867750e29241ad00f85bdf5fc367e8ec0935b9",
+  "overview_commit": "998ed3c26632c5565bb648490063bad6accf5ebe",
+  "overview_digest": "0cb93e8a5a4abe0a2479b5ca61461bb2422af0d95577f2d130c91ddcfb9cbb5a",
   "paragraphs": [
+    {
+      "id": "3b66f39976f30acecb89a7f7fd5302326c0964d558ca8c278acc03de2fd05740",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Mark Suster source adds a capital-intensive local-operations startup case to the wiki's product, marketplace, and scaling material. [[Bird]] is framed as a category-creating [[Micromobility]] company whose early Santa Monica usage gave [[MarkSuster]] confidence before the $300 million funding headline; inspected images show Suster and another Upfront attendee on Bird scooters and a dense beach-path cluster of parked Birds. [[ElectricScooterServiceDefensibility]] names the source's bundled moat argument: capital, [[DocklessFleetDensity]], vehicle design, route and placement data, local charger and mechanic networks, battery yield, and [[BrandDistinctiveness]] can make a seemingly copyable scooter service harder to replicate. The article qualifies that optimism with safety, helmet adoption, seasonality, supply constraints, and likely competition from [[Uber]].",
+      "topic_scores": {
+        "business-and-markets": 4
+      },
+      "wikilinks": [
+        "Bird",
+        "BrandDistinctiveness",
+        "DocklessFleetDensity",
+        "ElectricScooterServiceDefensibility",
+        "MarkSuster",
+        "Micromobility",
+        "Uber"
+      ]
+    },
     {
       "id": "5a6441e5984d7589699b643c047e61cc73481a27b88df30bc669850e641cd85f",
       "primary_topic": "business-and-markets",

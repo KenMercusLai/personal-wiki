@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding](sources/all-the-questions-you-wanted-answered-about-bird-scooters-and-their-recent-300-million-funding.md) - Mark Suster argues that Bird's rapid scooter-service growth was driven by dense demand, capital, local operations, data, hardware learning, and category-defining brand.
 - [All New Ideas are Combinations of Old Ideas](sources/all-new-ideas-are-combinations-of-old-ideas.md) - Tom Tunguz argues that innovation comes from recombining old ideas across fields, complementary teams, and shared organizational data.
 - [Academia to Data Science](sources/academia-to-data-science-airbnb-engineering-data-science-medium.md) - Airbnb data scientists advise academics moving into industry data science, emphasizing business framing, communication, messy logged data, fast iteration, and knowledge-sharing.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
@@ -142,6 +143,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Bird](entities/Bird.md) - Electric scooter service framed as a category-creating micromobility startup with rapid demand and a bundled operating moat.
+- [Mark Suster](entities/MarkSuster.md) - Upfront Ventures investor-author explaining Bird's valuation, demand, and defensibility.
+- [Upfront Ventures](entities/UpfrontVentures.md) - Los Angeles venture firm that backed Bird across multiple recent rounds.
+- [Travis VanderZanden](entities/TravisVanderZanden.md) - Bird founder presented as an experienced operator behind the company's fast rollout and fundraising.
 - [Tom Tunguz](entities/TomTunguz.md) - SaaS strategy writer connecting cross-field innovation with team expertise and organizational data sharing.
 - [Frans Johansson](entities/FransJohansson.md) - Innovation author cited for the claim that new ideas recombine old ideas.
 - [Mick Pearce](entities/MickPearce.md) - Architect cited for the termite-inspired Eastgate Centre example.
@@ -550,6 +555,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
 
 ## Concepts
+- [Micromobility](concepts/Micromobility.md) - Short-haul lightweight transportation pattern for trips between walking, transit, bikes, and cars.
+- [Dockless Fleet Density](concepts/DocklessFleetDensity.md) - Shared-mobility availability advantage created when enough vehicles are distributed for users to find one nearby.
+- [Electric Scooter Service Defensibility](concepts/ElectricScooterServiceDefensibility.md) - Bundled scooter-service moat across capital, density, hardware, data, local operations, battery yield, and brand.
 - [Innovation at the Intersection](concepts/InnovationAtIntersection.md) - Creating new ideas by recombining existing ideas, observations, techniques, or datasets across fields and roles.
 - [Organizational Data Sharing](concepts/OrganizationalDataSharing.md) - Sharing observations and datasets across teams and systems so companies can reason across the full customer journey.
 - [Aggregation Theory](concepts/AggregationTheory.md) - Platform-strategy frame where demand control and trust transfer let aggregators mediate supply and centralize profits.

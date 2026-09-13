@@ -164,6 +164,24 @@
     },
     {
       "global_candidate": false,
+      "id": "micromobility-scaling-needs-local-operating-density",
+      "qualifications": [
+        "The Bird evidence is an investor-authored 2018 case and should be read with conflict-of-interest awareness; it does not quantify unit economics, accidents, regulation, fleet durability, or long-run competitive outcomes."
+      ],
+      "statement": "[[Bird]] shows a capital-intensive local-operations variant of startup defensibility: [[Micromobility]] services can need [[DocklessFleetDensity]], hardware iteration, route and placement data, charger and mechanic networks, battery yield, and [[BrandDistinctiveness]] before a seemingly easy-to-copy scooter service becomes hard to match.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Bird",
+        "Micromobility",
+        "DocklessFleetDensity",
+        "ElectricScooterServiceDefensibility",
+        "BrandDistinctiveness",
+        "MarkSuster",
+        "Uber"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "subscription-pricing-aligns-software-value-over-time",
       "qualifications": [
         "The Adobe evidence is a 2013 strategic argument and conceptual surplus model, not a measured cross-category pricing study; subscriptions can still frustrate light users or customers who prefer ownership."
@@ -418,6 +436,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Tunguz source adds that innovation can come from recombining specialized knowledge across fields and teams, with organizational data sharing turning fragmented SaaS observations into funnel hypotheses. The newest Dellanna source adds that aggregators centralize trust and profit by making stranger transactions acceptable; trust-minimizing technologies may pressure that value, but demand ownership remains hard to attack. Recent startup, product, and messaging sources add that pre-fit runway needs root-bottleneck diagnosis, mature-product redesign needs user-journey evidence, and messaging monetization follows native chat surfaces.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Bird source adds a micromobility case where category creation depends on dense fleet availability, hardware and data learning, local charger and mechanic networks, battery yield, brand salience, safety constraints, and likely competition. Recent Tunguz and Dellanna sources add that innovation can come from recombining specialized knowledge across teams, and that aggregators centralize trust and profit by making stranger transactions acceptable while trust-minimizing technologies may pressure that value.",
   "topic_id": "business-and-markets"
 }

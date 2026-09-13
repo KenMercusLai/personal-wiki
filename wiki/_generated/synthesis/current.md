@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 77752c9f80e8425f9547753fb2a485bb0fc09db9
+as_of_overview_commit: 998ed3c26632c5565bb648490063bad6accf5ebe
 summary: "Podcast Atlas maps how technology, markets, work, media, institutions, and agency co-evolve through trust, evidence, infrastructure, incentives, operational load, and judgment."
-episode_count: 134
-source_count: 134
-paragraph_count: 132
+episode_count: 135
+source_count: 135
+paragraph_count: 133
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Business and Markets
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Tunguz source adds that innovation can come from recombining specialized knowledge across fields and teams, with organizational data sharing turning fragmented SaaS observations into funnel hypotheses. The newest Dellanna source adds that aggregators centralize trust and profit by making stranger transactions acceptable; trust-minimizing technologies may pressure that value, but demand ownership remains hard to attack. Recent startup, product, and messaging sources add that pre-fit runway needs root-bottleneck diagnosis, mature-product redesign needs user-journey evidence, and messaging monetization follows native chat surfaces.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Bird source adds a micromobility case where category creation depends on dense fleet availability, hardware and data learning, local charger and mechanic networks, battery yield, brand salience, safety constraints, and likely competition. Recent Tunguz and Dellanna sources add that innovation can come from recombining specialized knowledge across teams, and that aggregators centralize trust and profit by making stranger transactions acceptable while trust-minimizing technologies may pressure that value.
 
 - [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
