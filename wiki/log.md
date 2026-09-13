@@ -1362,3 +1362,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] report | Graph health report generated
 
 1087 nodes analyzed.
+
+## [2026-09-14] ingest | Architecting for Continuous Delivery
+
+Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD is not just tooling; monolithic codebases can slow feedback and ownership; componentization can improve delivery when boundaries are deliberate; test pyramids keep validation fast; and deployment pipelines expose release confidence, rollback points, dependencies, and bottlenecks.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

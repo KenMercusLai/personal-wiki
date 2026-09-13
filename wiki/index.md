@@ -173,9 +173,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 - [Accounting for Developers 101 - Google Docs](sources/accounting-for-developers-101-google-docs.md) - John McKee and Tom Mornini introduce double-entry accounting as a compact model developers can use when building software that tracks money.
 - [Advertising models in mobile messaging apps](sources/advertising-models-in-mobile-messaging-apps-mobile-dev-memo.md) - Eric Seufert classifies early mobile messaging ad formats as opt-in brand channels, CRM-like conversations, sponsored content, and branded stickers.
+- [Architecting for Continuous Delivery](sources/architecting-for-continuous-delivery-thoughtworks.md) - Vishal Naik argues that continuous delivery depends on architecture, fast test feedback, and deployment-pipeline visibility rather than tooling alone.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Vishal Naik](entities/VishalNaik.md) - Thoughtworks author connecting continuous delivery to architecture, test feedback, and deployment-pipeline visibility.
+- [Thoughtworks](entities/Thoughtworks.md) - Technology consultancy and publisher associated with Snap CI and Go.CD in the continuous-delivery source.
+- [Snap CI](entities/SnapCI.md) - Hosted CI/CD product used as the simple staged-pipeline example in the Thoughtworks article.
+- [Go.CD](entities/GoCD.md) - On-premise continuous-delivery tool used as the complex dependency value-stream example in the Thoughtworks article.
 - [Michele Gilman](entities/MicheleGilman.md) - Poverty-law scholar framing privacy as a dignity, autonomy, and survival issue for low-income people.
 - [Mary Madden](entities/MaryMadden.md) - Data & Society researcher whose survey work connects low-income status with heightened privacy and security concern.
 - [Elissa Redmiles](entities/ElissaRedmiles.md) - Security researcher cited for the unequal time, skill, and advice costs of privacy and security protections.
@@ -646,6 +651,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Continuous Delivery](concepts/ContinuousDelivery.md) - Release capability for frequent, reliable, low-friction software delivery through architecture, tests, automation, and visible flow.
+- [Deployment Pipeline](concepts/DeploymentPipeline.md) - Automated visible flow from source control to production that increases release confidence at each stage.
+- [CD Componentization](concepts/CDComponentization.md) - Component extraction used to improve continuous-delivery feedback, ownership, and deployment throughput.
+- [Test Pyramid](concepts/TestPyramid.md) - Test-suite strategy that favors fast unit tests, a smaller integration layer, and limited end-to-end acceptance checks.
+- [Trunk-Based Development](concepts/TrunkBasedDevelopment.md) - Small frequent integration on a shared mainline so CI and delivery pipelines can validate current product state.
 - [Privacy Poverty Divide](concepts/PrivacyPovertyDivide.md) - Unequal distribution of privacy protection, privacy burden, and privacy harm across class and marginalization.
 - [Welfare Surveillance](concepts/WelfareSurveillance.md) - Monitoring, verification, and data collection imposed on people seeking public benefits or poverty relief.
 - [Data Broker Persistence](concepts/DataBrokerPersistence.md) - Personal records continuing through commercial databases after becoming outdated, incomplete, corrected, or expunged.
