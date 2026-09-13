@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 537ba07c7d2615c6223a614434b0fe184d84163c
+as_of_overview_commit: 2a712f22e79ff86cc524cdf73b25e228d8e2b13c
 summary: "A personal knowledge base about technology, business, learning, culture, governance, history, psychology, and science, organized around evidence and constraints."
-episode_count: 202
-source_count: 202
-paragraph_count: 197
+episode_count: 203
+source_count: 203
+paragraph_count: 198
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[HarnessEngineering]].

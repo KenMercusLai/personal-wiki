@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [BlackBerry: Meditation At The Grave](sources/blackberry-meditation-at-the-grave-jean-louis-gassee-medium.md) - Jean-Louis Gassee argues that BlackBerry, Palm, Nokia, and Microsoft failed in the smartphone transition through different mixes of delayed platform renewal, late ecosystem response, transition signaling error, and mobile OS business-model collapse.
 - [Black Friday and Cyber Monday by the Numbers](sources/black-friday-and-cyber-monday-by-the-numbers-sendgrid.md) - SendGrid reports that Black Friday 2016 drove a 1.6-billion-email platform peak, with mobile opens near parity, faster mobile open timing, and short subject lines outperforming more common longer ones.
 - [Billboards for Small Businesses: Costs, Advice, and Thinking Twice](sources/billboards-for-small-businesses-costs-advice-and-thinking-twice.md) - Grasshopper argues that billboards can build awareness, but small businesses should treat them as expensive, blunt, location-sensitive media rather than reliable direct-response channels.
 - [Bill Barnett - Delete All Meetings](sources/bill-barnett-delete-all-meetings.md) - Bill Barnett argues that recurring scheduled meetings often perform rationality without producing substantive work, and that protected work time plus informal useful conversations are better defaults.
@@ -355,7 +356,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover feature exemplifies opt-in brand content channels.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
 - [Tango](entities/Tango.md) - Messaging app example of promoted brand channels and sponsored native content.
+- [BlackBerry](entities/BlackBerry.md) - Pre-iPhone smartphone incumbent whose late software-platform response and collapsing hardware sales made it a core smartphone-disruption case.
 - [BlackBerry Messenger](entities/BlackBerryMessenger.md) - Messaging app example supporting promoted brand and sponsored-content formats.
+- [Jean-Louis Gassee](entities/JeanLouisGassee.md) - Technology-strategy author distinguishing smartphone incumbent failures by technology timing, execution, and business-model fit.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
 - [Drazen Prelec](entities/DrazenPrelec.md) - Behavioral economist whose survey methods use predictions about others to improve crowd judgment.
 - [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
@@ -632,6 +635,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Today at Apple](entities/TodayAtApple.md) - Apple's free retail session program framed by Thompson as a relationship and real-world engagement layer.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in brand-history narratives and as a campus-design example for informal interaction.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the humble-origin narrative and the Homebrew Computer Club informal-exchange example.
+- [Nokia](entities/Nokia.md) - Handset incumbent that understood the smartphone ecosystem war but damaged its transition by announcing the Windows Phone move before successor devices were ready.
+- [Palm](entities/Palm.md) - Mobile incumbent that built WebOS faster than BlackBerry rebuilt its platform but still arrived too late to gain ecosystem momentum.
+- [QNX](entities/QNX.md) - Unix-like platform BlackBerry acquired in 2010 as a late attempt to modernize its smartphone software base.
+- [WebOS](entities/WebOS.md) - Palm's Linux-based smartphone platform, launched with Palm Pre but unable to overcome late timing and weak ecosystem momentum.
+- [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
@@ -850,6 +858,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Trinet](concepts/Trinet.md) - Andre Staltz's speculative model of internet infrastructure optimized mainly around Google, Facebook, and Amazon traffic.
 - [Cryptocurrency Merchant Adoption](concepts/CryptocurrencyMerchantAdoption.md) - Cryptocurrency payment adoption by merchants, especially large platforms whose choices can validate or redirect tokens and payment rails.
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
+- [Smartphone Platform Disruption](concepts/SmartphonePlatformDisruption.md) - Transition in which iOS and Android displaced older handset strategies by changing software depth, app ecosystems, timing demands, and business models.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.
 - [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus, content distribution economics, and related customer-metrics gap.
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
@@ -1253,6 +1262,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, and scarce founder attention conflict.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, adjacent devices, and post-iPhone seeding away from the PC-era center.
+- [Osborne Effect](concepts/OsborneEffect.md) - Product-transition failure mode where announcing the next platform too early collapses demand for the current one before the replacement is ready.
+- [Platform Business Model Obstacle](concepts/PlatformBusinessModelObstacle.md) - Platform failure mode where technology improves but the prevailing revenue or licensing model no longer fits ecosystem economics.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
 - [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users and brands find services when search, app stores, operating systems, notifications, messaging, ads, and traffic holders shape attention.
 - [Digital Cartography](concepts/DigitalCartography.md) - Screen-based, dynamic, personalized, and platform-mediated mapmaking shaped by data, design, law, and commercial context.
