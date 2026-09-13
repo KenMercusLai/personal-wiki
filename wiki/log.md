@@ -1395,6 +1395,14 @@ Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Assume Positive Intent
+
+Added Rick Manelius's trust-first collaboration essay. Key claims: assuming positive intent can reduce defensive second-guessing in tense work, high-trust relationships can move faster than skepticism-first relationships, and positive intent still requires boundaries in low-trust, unsafe, or bad-faith contexts.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

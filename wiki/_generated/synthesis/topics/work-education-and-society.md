@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-14
-as_of_overview_commit: 0b1d5e6e978f478c0ef1ab95bb91f477b9248871
-input_digest: ff2401ba6f5b24e5f0bdc6764c0b388d543b9b833c36f8dbae769c7f1d175d54
+as_of_overview_commit: 4563322b75361231198928e5f56a6dcc03303f6b
+input_digest: 98878277e57de0be60b178c95cca9fcff1d982d532c3e39587b380a6405d6f87
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, and infrastructure work as systems of feedback and opportunity. The newest Netflix paragraph adds a machine-learning product case: personalization is not only a consumer-product tactic but a work system requiring artists, designers, data scientists, metrics, exploration controls, and evaluation loops to make visual recommendations useful without reducing them to clickbait.
+Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, and infrastructure work as systems of feedback and opportunity. The newest Rick Manelius paragraph adds a trust-and-boundaries layer: workplace collaboration can move faster when participants assume good faith, but low-trust or unsafe contexts require skepticism and explicit boundaries. The Netflix paragraph adds a machine-learning product case: personalization is not only a consumer-product tactic but a work system requiring artists, designers, data scientists, metrics, exploration controls, and evaluation loops to make visual recommendations useful without reducing them to clickbait.
 
 ## Cross-source Findings
 
@@ -75,3 +75,13 @@ Access to knowledge, services, work, and civic participation is shaped by instit
 **Qualifications:**
 
 - The institutional mechanisms differ across schools, welfare systems, campaigns, and labor markets.
+
+### Collaboration Depends On Bounded Trust
+
+[[WorkplaceCollaboration]] depends partly on bounded trust: [[AssumePositiveIntent]] can reduce defensive coordination and speed problem solving when good faith is plausible, while [[MarthaStout]] and [[TheSpeedOfTrust]] mark the risk and efficiency arguments around trust-first work.
+
+**Evidence:** [[WorkplaceCollaboration]], [[AssumePositiveIntent]], [[MarthaStout]], [[TheSpeedOfTrust]]
+
+**Qualifications:**
+
+- The trust-first claim is based on a personal business story, and it is explicitly bounded by safety, prior trust violations, and bad-faith risk.

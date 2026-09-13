@@ -95,8 +95,23 @@
         "CampaignTechnologyAccountability",
         "AcademicIndustryDataScienceTransition"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "collaboration-depends-on-bounded-trust",
+      "qualifications": [
+        "The trust-first claim is based on a personal business story, and it is explicitly bounded by safety, prior trust violations, and bad-faith risk."
+      ],
+      "statement": "[[WorkplaceCollaboration]] depends partly on bounded trust: [[AssumePositiveIntent]] can reduce defensive coordination and speed problem solving when good faith is plausible, while [[MarthaStout]] and [[TheSpeedOfTrust]] mark the risk and efficiency arguments around trust-first work.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "WorkplaceCollaboration",
+        "AssumePositiveIntent",
+        "MarthaStout",
+        "TheSpeedOfTrust"
+      ]
     }
   ],
-  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, and infrastructure work as systems of feedback and opportunity. The newest Netflix paragraph adds a machine-learning product case: personalization is not only a consumer-product tactic but a work system requiring artists, designers, data scientists, metrics, exploration controls, and evaluation loops to make visual recommendations useful without reducing them to clickbait.",
+  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, and infrastructure work as systems of feedback and opportunity. The newest Rick Manelius paragraph adds a trust-and-boundaries layer: workplace collaboration can move faster when participants assume good faith, but low-trust or unsafe contexts require skepticism and explicit boundaries. The Netflix paragraph adds a machine-learning product case: personalization is not only a consumer-product tactic but a work system requiring artists, designers, data scientists, metrics, exploration controls, and evaluation loops to make visual recommendations useful without reducing them to clickbait.",
   "topic_id": "work-education-and-society"
 }

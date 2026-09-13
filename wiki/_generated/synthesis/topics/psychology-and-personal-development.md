@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-14
-as_of_overview_commit: 4b74435b2ba8f37e019e4bf465bf9e88f92a8194
-input_digest: c086b27b9f94ac06dea7f05b0ce2343a86abb9e6d8943fb0955b946b9c4aac8b
+as_of_overview_commit: 4563322b75361231198928e5f56a6dcc03303f6b
+input_digest: b0e015c55038a64576b7ac38a30108990661713dd1a1bda513634116120434e2
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Tobias van Schneider paragraph adds a past-versus-future decision distinction: unrecoverable time, money, emotion, and pride should not justify further investment when the current reason to continue has faded. The Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice. The Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Rick Manelius paragraph adds a bounded trust-first pattern: assuming positive intent can preserve empathy and speed collaboration when good faith is plausible, but it must be revised when safety, prior violations, or bad-faith risk make skepticism necessary. The Tobias van Schneider paragraph adds a past-versus-future decision distinction: unrecoverable time, money, emotion, and pride should not justify further investment when the current reason to continue has faded. The Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice.
 
 ## Cross-source Findings
 
@@ -48,13 +48,13 @@ Interfaces, reports, maps, command-line tools, and AI workflows shape confidence
 
 ### Attribution Habits Can Preserve Empathy
 
-[[HanlonsRazor]] and [[BuilderUserFluencyGap]] add a small attribution habit to the agency material: when another person's behavior is frustrating, first checking for missing context or mismatched fluency can preserve empathy and reveal what the situation requires.
+[[AssumePositiveIntent]], [[HanlonsRazor]], and [[BuilderUserFluencyGap]] show that attribution habits can preserve empathy and agency: when another person's behavior is frustrating or tense, first checking for good faith, missing context, or mismatched fluency can reveal what the situation requires.
 
-**Evidence:** [[HanlonsRazor]], [[BuilderUserFluencyGap]]
+**Evidence:** [[AssumePositiveIntent]], [[HanlonsRazor]], [[BuilderUserFluencyGap]], [[WorkplaceCollaboration]]
 
 **Qualifications:**
 
-- The source applies this habit to software support; it does not claim all harmful or adversarial behavior is innocent misunderstanding.
+- The sources do not claim all harmful or adversarial behavior is innocent misunderstanding; Manelius explicitly says low-trust, unsafe, or previously violated contexts require boundaries rather than haphazard trust.
 
 ### Goals And Opportunity Cost Focus Agency
 

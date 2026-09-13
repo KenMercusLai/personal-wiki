@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Assume Positive Intent](sources/assume-positive-intent-rick-manelius.md) - Rick Manelius argues that trust-first collaboration can reduce defensive conflict and speed problem solving, while still requiring boundaries in low-trust or harmful contexts.
 - [Assembling an Executive Leadership Team is Daunting - Let Thumbtack's CEO Help](sources/assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review.md) - First Round Review interviews Thumbtack CEO Marco Zappacosta on executive hiring through three-strength role design, split interviews, broad references, 360 feedback, and fit evaluation.
 - [Artwork Personalization at Netflix](sources/artwork-personalization-at-netflix-netflix-techblog-medium.md) - Netflix TechBlog explains how contextual bandits personalize title artwork using exploration logs, replay evaluation, and quality-engagement labels.
 - [Arianna Huffington on sleep, mornings and work](sources/arianna-huffington-on-sleep-mornings-and-work-the-early-hour.md) - Annie Ridout interviews Arianna Huffington on sleep as performance support, morning routines, HuffPost burnout prevention, vacation-email deletion, and The Sleep Revolution.
@@ -183,6 +184,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Rick Manelius](entities/RickManelius.md) - Personal-development author using a project-budget conflict to argue for bounded positive intent.
+- [Martha Stout](entities/MarthaStout.md) - Author cited as a cautionary reference about bad-faith actors who may exploit trust.
+- [Stephen M. R. Covey](entities/StephenMRCovey.md) - Trust-and-leadership author cited through The Speed of Trust.
+- [The Speed of Trust](entities/TheSpeedOfTrust.md) - Book cited as support for high-trust relationships improving efficiency and effectiveness.
 - [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
 - [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
 - [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication that published the Zappacosta executive-hiring interview.
@@ -668,6 +673,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
+- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, and joint problem solving rather than defensive positioning.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
