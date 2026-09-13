@@ -3,18 +3,28 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-12
-as_of_overview_commit: 7a2e302ac6396b6f53f24e123213c7c5d5621ea7
-input_digest: 8e465e5d146d22c7fd31f78836794236bf29ccf524c8e0fe3b0df9b4999ba51d
+last_updated: 2026-09-13
+as_of_overview_commit: 2ad1e6885d8bb705b2f140dae0d2de08b28b7980
+input_digest: fad8d6693eb9083f79f1eb70c7a514775008f28a9b19b58a1811b38bb11e9a7f
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
+Cross-domain sources currently cover practical classification and tradeoff problems across business strategy, security, and applied algorithms. [[AppleGrowthLevers]] separates Apple's 2018 rebound into near-term iPhone ASP growth and more durable Services and wearables expansion; [[DefensivePortTriage]] uses exposed services as signals for likely checks around credentials, cleartext protocols, unauthenticated services, remote administration, and database exposure; and [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]].
 
 ## Cross-source Findings
+
+### Apple Growth Levers Shift From Iphone To Services And Wearables
+
+[[AppleGrowthLevers]] separates [[Apple]]'s 2018 revenue rebound into near-term [[IPhone]] ASP growth and more durable Services and [[WearableComputing]] expansion through [[AppleWatch]] and [[AirPods]].
+
+**Evidence:** [[AppleGrowthLevers]], [[Apple]], [[IPhone]], [[WearableComputing]], [[AppleWatch]], [[AirPods]]
+
+**Qualifications:**
+
+- The paragraph is a 2018 Apple-specific analyst snapshot and does not include later segment results, pricing outcomes, or wearables adoption data.
 
 ### Exposed Ports Guide Defensive Security Triage
 

@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "apple-growth-levers-shift-from-iphone-to-services-and-wearables",
+      "qualifications": [
+        "The paragraph is a 2018 Apple-specific analyst snapshot and does not include later segment results, pricing outcomes, or wearables adoption data."
+      ],
+      "statement": "[[AppleGrowthLevers]] separates [[Apple]]'s 2018 revenue rebound into near-term [[IPhone]] ASP growth and more durable Services and [[WearableComputing]] expansion through [[AppleWatch]] and [[AirPods]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AppleGrowthLevers",
+        "Apple",
+        "IPhone",
+        "WearableComputing",
+        "AppleWatch",
+        "AirPods"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "exposed-ports-guide-defensive-security-triage",
       "qualifications": [
         "The supplied paragraph frames port exposure as classification rather than proof; defenders still need to validate authentication, encryption, configuration, service version, reachability, management boundaries, and application-layer behavior."
@@ -44,6 +61,6 @@
       ]
     }
   ],
-  "summary": "Cross-domain sources currently cover two practical classification problems: reducing dense spatial data for map display, and turning exposed service ports into defensive security triage. [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]], while [[DefensivePortTriage]] uses exposed services as signals for likely checks around [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].",
+  "summary": "Cross-domain sources currently cover practical classification and tradeoff problems across business strategy, security, and applied algorithms. [[AppleGrowthLevers]] separates Apple's 2018 rebound into near-term iPhone ASP growth and more durable Services and wearables expansion; [[DefensivePortTriage]] uses exposed services as signals for likely checks around credentials, cleartext protocols, unauthenticated services, remote administration, and database exposure; and [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]].",
   "topic_id": "cross-domain"
 }

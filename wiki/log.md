@@ -622,6 +622,10 @@ Added source note for Neil Cybart's 2017 Apple buyback scenario. Created [[Share
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Above Avalon: Apple's Growth Story
+
+Ingested `/mnt/ken_personal_wiki/Articles/Above Avalon- Apple's Growth Story.md`; added the source note, created [[AppleGrowthLevers]], and updated Apple, Above Avalon, Neil Cybart, and Wearable Computing synthesis pages.
+
 ## [2026-09-13] ingest | Above Avalon: Apple Is Figuring Out What's Next
 
 Added source note and updated Apple, Apple Watch, Above Avalon, Neil Cybart, Wearable Computing, and Mobile Ecosystem. Created AirPods, ARKit, Magic Leap, and Smart Glasses pages. Key claims: Apple was seeding post-iPhone smart glasses through ARKit, Siri, machine learning, wearables, developers, and retail; iPhone unit sales were plateauing while wearables momentum made wrists, ears, and eyes strategically important.
@@ -818,6 +822,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

@@ -7,15 +7,16 @@ sources:
   - above-avalon-apple-is-figuring-out-whats-next
   - above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years
   - above-avalon-apples-content-distribution-strategy
+  - above-avalon-apples-growth-story
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AboveAvalon]] is an independent publication focused on [[Apple]] analysis, supported by paid subscriptions, and represented in the wiki by publishing-economics, product-strategy, Apple financial-strategy, and content-distribution strategy sources.
+[[AboveAvalon]] is an independent publication focused on [[Apple]] analysis, supported by paid subscriptions, and represented in the wiki by publishing-economics, product-strategy, Apple financial-strategy, growth-driver, and content-distribution strategy sources.
 
 ## Current Profile
-The subscription source presents Above Avalon as a one-company analysis publication built around reader payments rather than advertising, sponsorships, or broad platform scale. [[NeilCybart]] describes a product mix of public weekly articles and podcast episodes, daily subscriber-only email analysis, archive access, and a subscriber forum in [[Slack]]. The smart-glasses source shows one side of the publication's analytical mode: it reads Apple announcements, sales trends, existing wearables, and missing form factors together to argue that Apple was preparing for [[SmartGlasses]]. The buyback source shows another side: it reads cash generation, tax reform, debt, share count, and investor skepticism as an Apple financial-strategy problem. The content-distribution source adds a services and media strategy mode: it argues that Apple can put [[AppleMusic]], iTunes content, and [[AirPlay2]] on selected non-Apple hardware without abandoning premium hardware such as [[AppleTV]] and [[HomePod]]. Above Avalon's distinction is not just Apple coverage, but a point-of-view product: readers pay for analysis and perspective on Apple, its competitors, investors, and adjacent industries through an Apple-centered lens.
+The subscription source presents Above Avalon as a one-company analysis publication built around reader payments rather than advertising, sponsorships, or broad platform scale. [[NeilCybart]] describes a product mix of public weekly articles and podcast episodes, daily subscriber-only email analysis, archive access, and a subscriber forum in [[Slack]]. The smart-glasses source shows one side of the publication's analytical mode: it reads Apple announcements, sales trends, existing wearables, and missing form factors together to argue that Apple was preparing for [[SmartGlasses]]. The buyback source shows another side: it reads cash generation, tax reform, debt, share count, and investor skepticism as an Apple financial-strategy problem. The growth-story source adds an operating-performance mode by decomposing Apple's revenue rebound into iPhone ASP, Services, and wearables, then asking which levers are durable. The content-distribution source adds a services and media strategy mode: it argues that Apple can put [[AppleMusic]], iTunes content, and [[AirPlay2]] on selected non-Apple hardware without abandoning premium hardware such as [[AppleTV]] and [[HomePod]]. Above Avalon's distinction is not just Apple coverage, but a point-of-view product: readers pay for analysis and perspective on Apple, its competitors, investors, and adjacent industries through an Apple-centered lens.
 
 ## Key Characteristics
 - Operates as an independent Apple analysis publication funded by subscriptions rather than ads, sponsors, or other revenue streams in the source's framing.
@@ -24,6 +25,7 @@ The subscription source presents Above Avalon as a one-company analysis publicat
 - Treats Apple as a broad enough analysis lens to cover competitors, industries, investors, supply chains, and media narratives.
 - Positions quality, trust, and perspective above page-view growth.
 - Produces strategy analysis across Apple product direction, capital allocation, services, content distribution, installed base, and premium hardware positioning.
+- Produces financial/product analysis that separates near-term revenue drivers from longer-run strategic growth engines.
 
 ## Evidence
 - Subscription basis: [[above-avalon-above-avalon-subscriptions-turn-three]] says Above Avalon is 100% supported by subscriptions and does not depend on ads or sponsors.
@@ -35,15 +37,17 @@ The subscription source presents Above Avalon as a one-company analysis publicat
 - Strategy analysis: [[above-avalon-apple-is-figuring-out-whats-next]] interprets WWDC 2018, ARKit, Siri Shortcuts, Apple Watch, AirPods, and Magic Leap through an Apple-centered smart-glasses thesis.
 - Financial analysis: [[above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years]] interprets Apple's buyback path through cash flow, foreign cash, debt, tax reform, and Wall Street expectations.
 - Content strategy analysis: [[above-avalon-apples-content-distribution-strategy]] interprets Apple Music on Amazon Echo, iTunes on Samsung TVs, and AirPlay 2 expansion as selective content distribution rather than a retreat from hardware.
+- Growth analysis: [[above-avalon-apples-growth-story]] interprets Apple's 2018 revenue rebound through iPhone ASP, Services, and wearables, while warning that iPhone ASP growth was less durable than Services and wearables growth.
 
 ## Qualifications
-The subscription source is a self-assessment by Above Avalon's operator, so it does not independently verify subscriber counts, renewal rates, profitability, or reader outcomes. The strategic sources are analyst interpretations and snapshots rather than outcome audits. The current wiki evidence is still a small sample of Above Avalon articles and does not provide a full history of later product, pricing, forum, audience, or analytical-track-record changes.
+The subscription source is a self-assessment by Above Avalon's operator, so it does not independently verify subscriber counts, renewal rates, profitability, or reader outcomes. The strategic and financial sources are analyst interpretations and snapshots rather than outcome audits, and the growth-story source depends partly on Cybart's 2018 estimates. The current wiki evidence is still a small sample of Above Avalon articles and does not provide a full history of later product, pricing, forum, audience, or analytical-track-record changes.
 
 ## What Changed
 - Created Above Avalon as a concrete niche subscription publishing case.
 - Added the publication's Apple product-strategy analysis role through the smart-glasses source.
 - Added the publication's Apple financial-strategy analysis role through the buyback source.
 - Added the publication's Apple content-distribution and services strategy role.
+- Added the publication's Apple growth-driver analysis role through the iPhone ASP, Services, and wearables source.
 
 ## Relationships
 - [[NeilCybart]] - Above Avalon's author and operator in the source.
@@ -56,3 +60,4 @@ The subscription source is a self-assessment by Above Avalon's operator, so it d
 - [[SmartGlasses]] - Above Avalon's product-strategy article argues Apple was preparing for eye-worn computing.
 - [[ShareBuyback]] - Above Avalon's finance article uses Apple as a large repurchase case.
 - [[AppleContentDistributionStrategy]] - Above Avalon's services article frames selective non-Apple hardware support as ecosystem leverage.
+- [[AppleGrowthLevers]] - Above Avalon's growth article compares iPhone, Services, and wearables as revenue drivers.
