@@ -184,6 +184,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Implementing a Search Engine with Ranking in Python
+
+Added Aakash Japi's Python search-engine tutorial. Key claims: simple search decomposes into indexing, querying, and ranking; a position-aware inverted index supports free-text and phrase queries; tf-idf plus cosine similarity can rank candidate documents; and bag-of-words vectors are useful but lose word order.
+
 ## [2026-09-14] ingest | Black Friday and Cyber Monday by the Numbers
 
 Added SendGrid's 2016 Black Friday and Cyber Monday email-scale analysis. Key claims: Black Friday reached 1.6 billion SendGrid messages and exceeded Cyber Monday volume; mobile opens were near parity and slightly faster than desktop opens; responsive templates mattered across devices; and short two-to-four-word subject lines had the highest engagement in an early-November sample.
@@ -1599,6 +1603,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

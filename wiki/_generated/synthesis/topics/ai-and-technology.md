@@ -4,28 +4,28 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: fd71aab8e0fea415d3dea824d4fdd5716797f553
-input_digest: a1e0bf0c8ed6f8b786ab5090dd94604deb7fd3bdbca198cc15366857799df2e6
+as_of_overview_commit: b1f00c20c10077dcedbf7acdf9c8b6c438e1ab02
+input_digest: 8f8e651cac0e07309a775dd84f4ace7264701b093f29a3b35133945675ab5ad5
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
 
 ## Cross-source Findings
 
 ### Underlying Systems Outlast Tool Recipes
 
-Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs.
+Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs.
 
 **Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]]
 
 **Qualifications:**
 
 - Frameworks, platform conventions, and managed services can reduce complexity when their boundaries match the problem.
-- The new web-stack source is practitioner advice and its remote images could not be inspected.
+- The web-stack source is practitioner advice and its remote images could not be inspected.
 
 ### Verification Is Core Accelerator
 
@@ -66,6 +66,17 @@ Production-grade agents need infrastructure beyond ordinary app hosting: [[Effec
 **Qualifications:**
 
 - More context is not automatically better; compression, stale indexes, cache constraints, and context pollution can all degrade behavior.
+
+### Retrieval Quality Depends On Representation And Indexing
+
+Retrieval systems depend on representation and index choice: [[InvertedIndex]], [[PhraseQuery]], [[TFIDFRanking]], and [[BagOfWordsModel]] show exact-match and count-vector retrieval, while [[Embeddings]] and [[VectorDatabase]] support vector retrieval.
+
+**Evidence:** [[InvertedIndex]], [[PhraseQuery]], [[TFIDFRanking]], [[BagOfWordsModel]], [[Embeddings]], [[VectorDatabase]]
+
+**Qualifications:**
+
+- The Python search-engine source is a didactic local-file tutorial and does not cover production search engineering, BM25, link analysis, learning-to-rank, or embedding retrieval.
+- Embedding and vector-search sources address vector similarity, while the inverted-index source addresses exact token matching and phrase order.
 
 ### Data Work Needs Domain And Method Checks
 

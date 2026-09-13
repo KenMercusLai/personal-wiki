@@ -4,15 +4,17 @@
       "global_candidate": true,
       "id": "active-learning-builds-usable-judgment",
       "qualifications": [
-        "Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration."
+        "Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration.",
+        "A local search-engine tutorial can build intuition for information retrieval, but it does not substitute for production-scale search evaluation or operations."
       ],
-      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
+      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, implement small systems such as [[InvertedIndex]] search, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
         "WorkplaceLearning",
         "HackerStyleTechnicalCuriosity",
-        "FeynmanTechnique"
+        "FeynmanTechnique",
+        "InvertedIndex"
       ]
     },
     {
@@ -164,6 +166,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. The newest distributed-publishing source adds that editorial work itself is reorganized by platform-specific missions, audience-channel hedging, and platform-native metrics.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. Recent sources add that platform-specific media work reorganizes editorial judgment around channel missions and metrics, and that implementing small classic systems can make abstract technical infrastructure more learnable.",
   "topic_id": "work-education-and-society"
 }

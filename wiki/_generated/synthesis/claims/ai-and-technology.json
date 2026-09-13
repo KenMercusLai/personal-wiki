@@ -5,9 +5,9 @@
       "id": "underlying-systems-outlast-tool-recipes",
       "qualifications": [
         "Frameworks, platform conventions, and managed services can reduce complexity when their boundaries match the problem.",
-        "The new web-stack source is practitioner advice and its remote images could not be inspected."
+        "The web-stack source is practitioner advice and its remote images could not be inspected."
       ],
-      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs.",
+      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs.",
       "status": "supported",
       "supporting_wikilinks": [
         "VersatileWebStackFluency",
@@ -81,6 +81,24 @@
         "PromptCaching",
         "ComputerUse",
         "TapeAndAnchors"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "retrieval-quality-depends-on-representation-and-indexing",
+      "qualifications": [
+        "The Python search-engine source is a didactic local-file tutorial and does not cover production search engineering, BM25, link analysis, learning-to-rank, or embedding retrieval.",
+        "Embedding and vector-search sources address vector similarity, while the inverted-index source addresses exact token matching and phrase order."
+      ],
+      "statement": "Retrieval systems depend on representation and index choice: [[InvertedIndex]], [[PhraseQuery]], [[TFIDFRanking]], and [[BagOfWordsModel]] show exact-match and count-vector retrieval, while [[Embeddings]] and [[VectorDatabase]] support vector retrieval.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "InvertedIndex",
+        "PhraseQuery",
+        "TFIDFRanking",
+        "BagOfWordsModel",
+        "Embeddings",
+        "VectorDatabase"
       ]
     },
     {
@@ -163,6 +181,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
   "topic_id": "ai-and-technology"
 }

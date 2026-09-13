@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b743fbaac0def0b3558bd427350cac975d5dd1dbc3713a3503653f8d3be3ba97",
       "c156432c3db28d693e59e1d40120fd54fb6b7b41df2eb0b7bcd54e840f6b6ee1",
       "363aaf991a9169943565f4ff3c19181c385e4814c63281d8c8f4a94d7aaae49d",
       "798562d3a4d6d67b3bb0992a761f2e9f4d7b11d8f84db58fc805d620cb2a14e8",
@@ -201,11 +202,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 199
+    "paragraph_count": 200
   },
-  "overview_commit": "fd71aab8e0fea415d3dea824d4fdd5716797f553",
-  "overview_digest": "40deb4b4329271a7c5be3290c9a6c2d4c56ff4242d5d3963332bd0b144a18daf",
+  "overview_commit": "b1f00c20c10077dcedbf7acdf9c8b6c438e1ab02",
+  "overview_digest": "99216f6d9c7578c384fa19d3f9c87e56579f79100d07af7661c672d36f0315e6",
   "paragraphs": [
+    {
+      "id": "b743fbaac0def0b3558bd427350cac975d5dd1dbc3713a3503653f8d3be3ba97",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Aakash Japi source adds a classic information-retrieval layer to the wiki's search, NLP, and retrieval material. New [[InvertedIndex]] captures the exact-match data structure that maps terms to documents and, when position-aware, to term offsets inside each document. New [[PhraseQuery]] explains how ordered phrase search can first intersect documents containing all terms and then check whether offset-normalized positions line up. New [[TFIDFRanking]] and [[BagOfWordsModel]] connect result ranking to count-based document vectors, inverse document frequency, vector normalization, and cosine similarity, while qualifying that this tutorial omits production search engineering, BM25, link analysis, learning-to-rank, and embedding-based retrieval. No image references were present in the source.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BagOfWordsModel",
+        "InvertedIndex",
+        "PhraseQuery",
+        "TFIDFRanking"
+      ]
+    },
     {
       "id": "c156432c3db28d693e59e1d40120fd54fb6b7b41df2eb0b7bcd54e840f6b6ee1",
       "primary_topic": "ai-and-technology",

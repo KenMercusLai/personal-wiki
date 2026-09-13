@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Implementing a Search Engine with Ranking in Python](sources/blog-aakash-japi-implementing-a-search-engine-with-ranking-in-python.md) - Aakash Japi explains a basic Python search engine built from tokenization, a position-aware inverted index, free-text and phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report embraces 'content-everywhere' strategy](sources/bleacher-report-embraces-content-everywhere-strategy.md) - Digiday profiles Bleacher Report's distributed publishing strategy: platform-specific editorial missions, channel hedging, app conversion, Facebook-native distribution, and social interactions replacing site uniques as a key metric.
 - [BlackBerry: Meditation At The Grave](sources/blackberry-meditation-at-the-grave-jean-louis-gassee-medium.md) - Jean-Louis Gassee argues that BlackBerry, Palm, Nokia, and Microsoft failed in the smartphone transition through different mixes of delayed platform renewal, late ecosystem response, transition signaling error, and mobile OS business-model collapse.
 - [Black Friday and Cyber Monday by the Numbers](sources/black-friday-and-cyber-monday-by-the-numbers-sendgrid.md) - SendGrid reports that Black Friday 2016 drove a 1.6-billion-email platform peak, with mobile opens near parity, faster mobile open timing, and short subject lines outperforming more common longer ones.
@@ -212,6 +213,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
 - [Rory Brown](entities/RoryBrown.md) - Bleacher Report executive explaining the company's content-everywhere strategy and shift from direct audience numbers toward platform-native brand reach.
 - [SendGrid](entities/SendGrid.md) - Email infrastructure and marketing platform represented by a 2016 Black Friday and Cyber Monday volume and engagement analysis.
@@ -790,6 +792,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Bag-of-Words Model](concepts/BagOfWordsModel.md) - Document representation that treats text as unordered token counts for vector comparison and ranking.
 - [Distributed Publishing Strategy](concepts/DistributedPublishingStrategy.md) - Media operating model that creates and monetizes content across owned properties, apps, search, social, and platform-hosted formats.
 - [Platform-Specific Editorial Strategy](concepts/PlatformSpecificEditorialStrategy.md) - Editorial model that defines distinct missions, formats, and ownership for each distribution platform.
 - [Social Interaction Metrics](concepts/SocialInteractionMetrics.md) - Platform-native views, likes, shares, and similar signals used when content is consumed beyond a publisher's own site.
@@ -1162,6 +1165,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Independent Creator](concepts/IndependentCreator.md) - Self-directed product-business role combining creation, engineering, marketing, operations, and customer support.
 - [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - Routing and quota layer that distributes AI inference requests using tokenized workload, live metrics, and cache state.
 - [Inference Tokenization](concepts/InferenceTokenization.md) - Model-aligned token accounting used by inference gateways for load estimates, quotas, and cache-aware routing.
+- [Inverted Index](concepts/InvertedIndex.md) - Search data structure mapping terms to the documents and positions where they appear.
 - [Intrinsically Valuable State](concepts/IntrinsicallyValuableState.md) - Piotr Wozniak's proposed non-instrumental meta-goal for orienting human purpose around the search for objective intrinsic value.
 - [IVFFlat Index](concepts/IVFFlatIndex.md) - Centroid-partitioned pgvector index that searches selected vector regions.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - Routing strategy that considers reusable key-value cache blocks to reduce inference prefill work.
@@ -1198,6 +1202,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, calendar defaults, and task triage to complete meaningful work efficiently.
+- [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
@@ -1236,6 +1241,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Staging Environment](concepts/StagingEnvironment.md) - Pre-production environment for verifying software under production-like architecture, data, monitoring, traffic, internet exposure, and failure conditions.
 - [Smart Contracts](concepts/SmartContracts.md) - Code-mediated contractual mechanisms used here as a trust-minimization example for aggregator markets.
 - [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, architecture, dependencies, capacity, staging realism, change, recovery, and organizational investment.
+- [TF-IDF Ranking](concepts/TFIDFRanking.md) - Search ranking method that weights terms by document frequency and inverse corpus frequency before similarity scoring.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Language Model](concepts/StatisticalLanguageModel.md) - Count-based or rule-based language-modeling approach using techniques such as N-grams, HMMs, and linguistic rules.
 - [Statistical Model Thinking](concepts/StatisticalModelThinking.md) - Habit of treating observations, measurements, AI outputs, and analyses as models with error, bias, and uncertainty.
