@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-13
-as_of_overview_commit: c8f2ac1f09b8453e77379cbb0b0f71bc6ea1259d
-input_digest: ca6a4f75cb3cf43bd3cc7d9b0d6da520537ce43c7d8b26757cc06ccb625eda74
+as_of_overview_commit: 630573936560e37948be4656701d5d183553ebeb
+input_digest: 99bff4f102df634a2c4b183d6c6c0ebb6b6d5e1a27eaac13ac7f8dc9dd9f85c5
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Benedict Evans paragraph adds Apple as a secondary trust-system example: curated services can promise relief from higher-level digital harms such as ad tracking, loot boxes, confusing charges, phishing, and manipulative ads, though the claim is event-scoped. The Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
 
 ## Cross-source Findings
 

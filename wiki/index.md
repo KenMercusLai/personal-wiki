@@ -19,6 +19,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
+- [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
 - [Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby](sources/appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby.md) - Appcanary's Phillip Mendonca-Vieira argues that startups should prefer familiar tools, delay distributed systems, and treat developer happiness as real tool quality.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
@@ -482,9 +483,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
-- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform strategy, and Apple's trust-centered services positioning.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
-- [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, high App Store monetization, brand meaning, wearables, AR software, developers, and large-scale buybacks.
+- [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, high App Store monetization, brand meaning, wearables, AR software, services trust positioning, and large-scale buybacks.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
 - [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
@@ -679,6 +680,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus and content distribution economics.
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
 - [Apple Content Distribution Strategy](concepts/AppleContentDistributionStrategy.md) - Apple's selective use of services, non-Apple hardware support, AirPlay, and premium first-party devices to distribute content.
+- [Apple Trust Brand](concepts/AppleTrustBrand.md) - Benedict Evans' frame for Apple's services-era promise around trust, privacy, curation, and protection from scams.
 - [Apple Growth Levers](concepts/AppleGrowthLevers.md) - Above Avalon's 2018 frame for Apple's uneven revenue drivers: iPhone ASP, Services, and wearables.
 - [Apple Product Theory](concepts/AppleProductTheory.md) - Above Avalon's framework for Apple's product line as increasingly personal alternatives to prior computing tasks.
 - [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.

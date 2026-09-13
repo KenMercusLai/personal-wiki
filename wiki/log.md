@@ -1303,6 +1303,14 @@ Added The Register source on Ansible's move into network automation. Key claims:
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Apple as the new Disney
+
+Added Benedict Evans' Apple services and brand analysis. Key claims: Apple's 2019 services event was a subscription and retention move, but its deeper positioning was a trust-and-curation promise around privacy, safety, no scammy ads, no manipulative game mechanics, and clearer financial products.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
