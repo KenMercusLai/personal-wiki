@@ -651,6 +651,10 @@ Ingested source note and updated Apple Services synthesis pages.
 
 Added Luca Dellanna's aggregator-trust essay; created [[AggregationTheory]], [[TrustMinimizationTechnology]], and [[LucaDellanna]], and updated [[MarketplaceTrust]], [[Airbnb]], and [[Uber]] with trust-transfer and trust-minimization synthesis.
 
+## [2026-09-13] ingest | All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design
+
+Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West, Reach Navigation, and Thumb Reach Ergonomics pages; updated iOS, index, and overview to capture the argument that larger iPhones make top navbars harder to use one-handed and that frequent actions should move toward the bottom through sheets, drawers, swipe gestures, and content-area controls. Inspected all embedded local images: tiny thumbnails were treated as duplicates, while the thumb-zone diagram, swipe-back and Reachability examples, Apple app sheet screenshots, app examples, and Safari bottom-control mockup informed the source note.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1062,6 +1066,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

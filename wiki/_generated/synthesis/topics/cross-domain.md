@@ -4,54 +4,54 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-13
-as_of_overview_commit: 52cc91f1f71e6ccfba40c69745820bc6497a42c3
-input_digest: edf0e6511d79011a8390893f179e007f744281ddc81dd75ed4c0ab19360bb9fe
+as_of_overview_commit: 86c724fd50b593d3c69150dd094ecb76382deeb8
+input_digest: b5c4bf05eb297852abbaaee6a831037fba570aec4017d492ed87c02f17abd4d5
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources currently cover practical classification and tradeoff problems across business strategy, security, and applied algorithms. [[AppleGrowthLevers]] separates Apple's 2018 rebound into near-term iPhone ASP growth and more durable Services and wearables expansion; [[DefensivePortTriage]] uses exposed services as signals for likely checks around credentials, cleartext protocols, unauthenticated services, remote administration, and database exposure; and [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]].
+Current cross-domain synthesis links interface, business, security, and algorithmic examples through one repeated pattern: systems change when constraints become visible. Larger phones make [[ThumbReachErgonomics]] a design constraint for [[IOS]] and motivate [[ReachNavigation]]; Apple's growth depends on the changing mix of [[AppleGrowthLevers]] across iPhone pricing, services, and wearables; exposed ports create a triage map for likely security questions; and trajectory simplification trades precision for rendering and transfer efficiency through tunable tolerance.
 
 ## Cross-source Findings
 
-### Apple Growth Levers Shift From Iphone To Services And Wearables
+### Visible Constraints Reshape Design
 
-[[AppleGrowthLevers]] separates [[Apple]]'s 2018 revenue rebound into near-term [[IPhone]] ASP growth and more durable Services and [[WearableComputing]] expansion through [[AppleWatch]] and [[AirPods]].
+Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]].
 
-**Evidence:** [[AppleGrowthLevers]], [[Apple]], [[IPhone]], [[WearableComputing]], [[AppleWatch]], [[AirPods]]
-
-**Qualifications:**
-
-- The paragraph is a 2018 Apple-specific analyst snapshot and does not include later segment results, pricing outcomes, or wearables adoption data.
-
-### Exposed Ports Guide Defensive Security Triage
-
-[[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
-
-**Evidence:** [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]]
+**Evidence:** [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]]
 
 **Qualifications:**
 
-- The supplied paragraph frames port exposure as classification rather than proof; defenders still need to validate authentication, encryption, configuration, service version, reachability, management boundaries, and application-layer behavior.
+- These examples are heterogeneous; the common claim is about constraint-sensitive reasoning, not one unified theory of mobile UX, finance, security, and algorithms.
 
-### Trajectory Simplification Trades Fidelity For Rendering Cost
+### Mobile Platforms Join Strategy And Embodiment
 
-[[TrajectorySimplification]] can reduce dense vehicle GPS paths for lower transfer, storage, and [[MapTrajectoryRendering]] cost when the broad route shape is sufficient.
+Mobile platforms join strategic control with embodied use: [[IOS]] controls service access and app economics while larger screens make [[ThumbReachErgonomics]] and [[ReachNavigation]] part of platform-era design.
 
-**Evidence:** [[TrajectorySimplification]], [[MapTrajectoryRendering]]
-
-**Qualifications:**
-
-- This claim is display-oriented; the supplied paragraph does not establish suitability for audit, analytics, or exact reconstruction use cases.
-
-### Rdp Epsilon Controls Point Retention
-
-[[RamerDouglasPeuckerAlgorithm]] keeps or discards intermediate path points by comparing maximum deviation with [[EpsilonTolerance]].
-
-**Evidence:** [[RamerDouglasPeuckerAlgorithm]], [[EpsilonTolerance]]
+**Evidence:** [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]]
 
 **Qualifications:**
 
-- The paragraph reports one example compression result rather than a general benchmark across trajectories or map projections.
+- The reach-navigation evidence is a 2017 practitioner argument rather than controlled ergonomic testing or a complete account of later iOS patterns.
+
+### System Optimization Requires Tradeoffs
+
+Cross-domain optimization often means trading one quality for another: [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower rendering cost, while [[DefensivePortTriage]] trades proof for fast prioritization of likely risks.
+
+**Evidence:** [[RamerDouglasPeuckerAlgorithm]], [[EpsilonTolerance]], [[DefensivePortTriage]]
+
+**Qualifications:**
+
+- The port checklist supports prioritization only; an exposed port alone does not prove compromise.
+
+### Apple Growth Shifts From Iphone Pricing To Installed Base
+
+[[AppleGrowthLevers]] frame Apple's 2018 rebound as near-term [[IPhone]] ASP strength plus longer-run compounding from services and [[WearableComputing]].
+
+**Evidence:** [[AppleGrowthLevers]], [[IPhone]], [[WearableComputing]]
+
+**Qualifications:**
+
+- The evidence reflects a 2018 analyst snapshot and should not be read as a current Apple financial forecast.
