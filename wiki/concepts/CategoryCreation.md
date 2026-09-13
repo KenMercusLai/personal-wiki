@@ -5,7 +5,8 @@ tags: [business, marketing, positioning]
 sources:
   - cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr
   - 8-lessons-from-one-of-silicon-valleys-top-vcs-drift
-last_updated: 2026-09-13
+  - being-different-beats-being-better-darius-foroux
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -13,7 +14,7 @@ knowledge_schema: synthesis-v1
 [[CategoryCreation]] is a positioning strategy that frames a new market category, problem, or buying logic so a company becomes associated with the category rather than merely compared inside an existing one.
 
 ## Current Synthesis
-The sources treat category creation as a stronger move than feature-level positioning in crowded markets and as one marker of a venture-scale company. A company does not always need to invent the first product in a technical sense; it can teach the market to see a new problem or solution category, then position itself as the obvious answer. The Grady interview adds a higher-ambition version: "fundamental companies" can define a category, dominate it, and reveal a problem or possibility the world had not clearly seen before.
+The sources treat category creation as a stronger move than feature-level positioning in crowded markets and as one marker of a venture-scale company. A company does not always need to invent the first product in a technical sense; it can teach the market to see a new problem or solution category, then position itself as the obvious answer. The Grady interview adds a higher-ambition version: "fundamental companies" can define a category, dominate it, and reveal a problem or possibility the world had not clearly seen before. Foroux adds the personal-positioning version: being known as first in a category can matter more than proving invention or marginal superiority, whether the example is lifestyle entrepreneurship, music identity, or a career built from unusual skill combinations.
 
 ## Key Claims
 - Category creation helps a company escape direct comparison with similar products.
@@ -22,6 +23,7 @@ The sources treat category creation as a stronger move than feature-level positi
 - Category creation requires stronger innovation and education than ordinary messaging.
 - If a company cannot become first or second in an existing category, creating a narrower or reframed category may be strategically attractive.
 - Venture-scale category creation depends on solving a durable problem, not merely naming a market.
+- Category association can matter even when the person or company did not technically invent the underlying idea.
 
 ## Evidence
 - Escape comparison: [[cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr]] says [[Drift]] avoided competing as another live-chat tool by framing "conversational marketing."
@@ -32,12 +34,15 @@ The sources treat category creation as a stronger move than feature-level positi
 - Fundamental companies: [[8-lessons-from-one-of-silicon-valleys-top-vcs-drift]] says [[PatGrady]] looks for companies that can define and dominate a category over decades.
 - Problem grounding: [[8-lessons-from-one-of-silicon-valleys-top-vcs-drift]] links category ambition to solving a problem in a unique, compelling, and durable way.
 - Narrow wedge: [[8-lessons-from-one-of-silicon-valleys-top-vcs-drift]] says big markets should be entered through a narrow slice that earns expansion rights over time.
+- Firstness question: [[being-different-beats-being-better-darius-foroux]] cites [[AlRies]] and [[JackTrout]] for asking what category a new product is first in.
+- Public association: [[being-different-beats-being-better-darius-foroux]] uses [[TimFerriss]] to argue that being known for a category can matter more than inventing it.
+- Career category: [[being-different-beats-being-better-darius-foroux]] uses [[ScottAdams]] and [[SkillStacking]] to show how a person can become a category-like comparison point.
 
 ## Counterevidence & Qualifications
-The sources present category creation as powerful but expensive and risky. A new category may begin with little demand, so the company must create understanding and urgency rather than simply capture existing search or comparison traffic. The Grady source also risks investor-selection bias: the advice comes from a venture lens optimized for exceptional outcomes, not every sustainable business.
+The sources present category creation as powerful but expensive and risky. A new category may begin with little demand, so the company must create understanding and urgency rather than simply capture existing search or comparison traffic. The Grady source also risks investor-selection bias: the advice comes from a venture lens optimized for exceptional outcomes, not every sustainable business. Foroux's examples emphasize recognition and memorability, but they do not distinguish durable category creation from short-lived novelty.
 
 ## What Changed
-- Added Grady's investor framing that category creation is strongest when tied to durable problem-solving and narrow-market entry.
+- Added Foroux's distinction between technical invention and being publicly known as first in a category.
 
 ## Related Concepts
 - [[DifferentiationStrategy]] - category creation is an aggressive form of differentiation.
@@ -46,3 +51,4 @@ The sources present category creation as powerful but expensive and risky. A new
 - [[SaaSMarketing]] - SaaS firms often use category language to shape buyer consideration.
 - [[CreatorPositioning]] - both define a legible place in the audience's mind.
 - [[StartupFocus]] - narrow entry helps category ambition avoid unfocused pursuit of a huge market.
+- [[SkillStacking]] - unusual skill combinations can create a personal category.

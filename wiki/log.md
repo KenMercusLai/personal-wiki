@@ -1519,3 +1519,11 @@ Added PMInsider's pre-greenlight product-management article. Key claims: PMs nee
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] ingest | Being Different Beats Being Better
+
+Added Darius Foroux's differentiation article. Key claims: business and career strategy should emphasize being meaningfully different, first in a recognizable category, and distinctive through skill stacking rather than only trying to be marginally better.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

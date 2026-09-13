@@ -144,9 +144,9 @@
       "global_candidate": false,
       "id": "brand-and-category-work-convert-value-into-memory",
       "qualifications": [
-        "Brand and category effects still depend on product quality, distribution, pricing, buyer context, and repeated exposure."
+        "Brand, category, and skill-stack effects still depend on product quality, distribution, pricing, buyer context, repeated exposure, core competence, and whether the audience actually values the difference."
       ],
-      "statement": "[[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], and [[PersonalBranding]] show that crowded markets need customer-visible reasons to choose and remember products when features are copyable.",
+      "statement": "[[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], and [[PersonalBranding]] show that crowded markets and careers need customer-visible or audience-visible reasons to choose, remember, and compare differently when features or single-axis credentials are copyable.",
       "status": "supported",
       "supporting_wikilinks": [
         "AppleAdvertisingPatterns",
@@ -154,6 +154,8 @@
         "BrandDistinctiveness",
         "ProductCommoditization",
         "CategoryCreation",
+        "BlueOceanStrategy",
+        "SkillStacking",
         "PersonalBranding"
       ]
     },
@@ -238,6 +240,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest product-management material adds the pre-greenlight layer: PMs need to sell ideas internally, align proposals with KPIs, make ideas visual, and prioritize by expected impact, effort, and lifecycle bucket before development money is committed.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest differentiation material adds that markets and careers often reward being meaningfully different, first in a recognizable category, or distinctive through skill combinations more than being marginally better on the same crowded axis.",
   "topic_id": "business-and-markets"
 }

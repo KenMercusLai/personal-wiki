@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Being A Product Manager: How To Get Your Products Built](sources/being-a-product-manager-how-to-get-your-products-built.md) - PMInsider frames pre-greenlight product management around selling ideas, aligning with KPIs, rough visual communication, and prioritizing growth, activation, engagement, reactivation, and revenue ideas.
+- [Being Different Beats Being Better](sources/being-different-beats-being-better-darius-foroux.md) - Darius Foroux argues that business and career success often come from being meaningfully different, first in a category, or distinctive through skill stacking rather than marginally better.
 - [Behind Every Great Product](sources/behind-every-great-product-silicon-valley-product-group.md) - Marty Cagan argues through six product-manager case studies that strong product management integrates customer, business, technical, and organizational constraints into product outcomes.
 - [Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius](sources/balaji-srinivasan-silicon-valleys-ultimate-exit-genius.md) - Balaji Srinivasan argues that Silicon Valley should lower barriers to exit through startups, forks, opt-in societies, Bitcoin, and other technology-mediated alternatives to paper-era institutions.
 - [Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded](sources/be-smarter-be-seetd-stitch-fix-technology-multithreaded.md) - Stitch Fix explains seetd, an internal office seating tool that models people-to-seat allocation through weighted optimization terms and simulated annealing.
@@ -246,7 +247,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Python](entities/Python.md) - Programming language used in the source as the host environment for NumPy-based scientific computing.
 - [Jamal](entities/Jamal.md) - Data Dependence author explaining NumPy fundamentals for scientific Python learners.
 - [Data Dependence](entities/DataDependence.md) - Publication context for Jamal's scientific Python tutorial series.
-- [Darius Foroux](entities/DariusForoux.md) - Personal-growth author framing self-education as a daily investment and resilience strategy.
+- [Darius Foroux](entities/DariusForoux.md) - Personal-growth author framing self-education as daily investment and differentiation as career strategy through category firstness and skill stacking.
+- [Scott Adams](entities/ScottAdams.md) - Cartoonist and career-advice reference cited for skill stacking as a practical path to differentiation.
+- [Al Ries](entities/AlRies.md) - Marketing author cited for category-first positioning and the question of what a new offer is first in.
+- [Jack Trout](entities/JackTrout.md) - Marketing author cited with Al Ries for novelty, firstness, and category-positioning logic.
+- [Tim Ferriss](entities/TimFerriss.md) - Author and entrepreneurship example used for being publicly associated with the lifestyle-entrepreneurship category.
+- [Atul Gawande](entities/AtulGawande.md) - Surgeon-author used as an example of skill stacking through professional expertise plus writing and speaking.
 - [Tw93](entities/Tw93.md) - Engineer-author connecting high-risk investing, AI-market themes, and engineer leverage through code, writing, and sharing.
 - [Duan Yongping](entities/DuanYongping.md) - Value-investing reference used for cash-flow focus, company quality, temperament, sell discipline, and avoid-list guardrails.
 - [Agno](entities/Agno.md) - AI agent framework used to assemble a text-search codebase QA assistant.
@@ -936,6 +942,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.
 - [Systematic Learning](concepts/SystematicLearning.md) - Learning that builds both breadth and depth so a person can truly understand and use a domain.
+- [Skill Stacking](concepts/SkillStacking.md) - Career strategy of combining multiple useful skills into a distinctive profile rather than competing only on one axis.
 - [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and revisiting known codebase liabilities through lightweight markers, tool support, and team conventions.
 - [TODO Comments](concepts/TodoComments.md) - Source-code comments used to mark future work, refactoring ideas, or unresolved code smells.
 - [Continuous Game Server Updates](concepts/ContinuousGameServerUpdates.md) - Progressive online-game update model where old and new versions coexist while traffic gradually moves with minimal player-visible maintenance.

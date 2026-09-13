@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: f35d8de7f5ea1663eb730b2e94f3738cfee79618
-summary: "A cross-domain atlas of technology, product work, platforms, learning, governance, media, and agency organized around feedback, trust, verification, prioritization, and judgment."
-episode_count: 188
-source_count: 188
-paragraph_count: 183
+as_of_overview_commit: c6d5c20a42a783f1b5e08c5533b9064154faa3eb
+summary: "Atlas of AI, product, markets, platforms, learning, governance, and work organized around feedback, trust, verification, positioning, and judgment."
+episode_count: 189
+source_count: 189
+paragraph_count: 184
 topic_count: 9
 ---
 
@@ -35,7 +35,7 @@ AI and technology sources emphasize human-owned judgment, verification, context 
 
 ### Business and Markets
 
-Business and market sources connect product management, startup learning, growth, pricing, attribution, executive hiring, platforms, brand, operations, and capital allocation to durable value only when customer evidence, prioritization, distribution, retention, trust, and operating capacity keep pace.
+Business and market sources connect product management, startup learning, growth, pricing, attribution, executive hiring, platforms, differentiation, brand, operations, and capital allocation to durable value only when customer evidence, prioritization, positioning, distribution, retention, trust, and operating capacity keep pace.
 
 - [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight. Evidence: [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]].
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale. Evidence: [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], [[DistributedSystemRestraint]].

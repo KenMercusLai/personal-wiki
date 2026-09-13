@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: f35d8de7f5ea1663eb730b2e94f3738cfee79618
-input_digest: 06f7733dcdd9f2b16011afe65fd8a93d93e1d7a39a0695a4863986dce156d0a7
+as_of_overview_commit: c6d5c20a42a783f1b5e08c5533b9064154faa3eb
+input_digest: 89d85a9339ec3e3c09204b6855a222523b0af952c9834a19505438e0df193f13
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest product-management material adds the pre-greenlight layer: PMs need to sell ideas internally, align proposals with KPIs, make ideas visual, and prioritize by expected impact, effort, and lifecycle bucket before development money is committed.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest differentiation material adds that markets and careers often reward being meaningfully different, first in a recognizable category, or distinctive through skill combinations more than being marginally better on the same crowded axis.
 
 ## Cross-source Findings
 
@@ -98,13 +98,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Brand And Category Work Convert Value Into Memory
 
-[[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], and [[PersonalBranding]] show that crowded markets need customer-visible reasons to choose and remember products when features are copyable.
+[[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], and [[PersonalBranding]] show that crowded markets and careers need customer-visible or audience-visible reasons to choose, remember, and compare differently when features or single-axis credentials are copyable.
 
-**Evidence:** [[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], [[PersonalBranding]]
+**Evidence:** [[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], [[PersonalBranding]]
 
 **Qualifications:**
 
-- Brand and category effects still depend on product quality, distribution, pricing, buyer context, and repeated exposure.
+- Brand, category, and skill-stack effects still depend on product quality, distribution, pricing, buyer context, repeated exposure, core competence, and whether the audience actually values the difference.
 
 ### Operations And Reliability Are Business Capabilities
 
