@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 1cf5634321d673932d8559678d4c6d1fa511a74b
-input_digest: 6e9546a034e4d480754cfa5bbd56f6ab9b95c598f53aec105181c3af680c4855
+as_of_overview_commit: 1ee7bb59e174a7ff018c0712cf1048c7be71f43b
+input_digest: c1cca3b8738b8bf375943e9f7bab5859c07f0937222588d26112344a09d21f50
 ---
 
 # AI and Technology
@@ -140,14 +140,15 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Live Scale Engineering Needs Realistic Verification
 
-[[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, topology-aware automation, staging realism, traffic, and controlled failure.
+[[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[CentralizedLogging]], [[ProductionAccessControl]], [[NetworkSegmentation]], [[SecretManagement]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, topology-aware automation, controlled access, segmented exposure, secret handling, staging realism, traffic, and controlled failure.
 
-**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], [[SoftwareVerification]]
+**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[CentralizedLogging]], [[ProductionAccessControl]], [[NetworkSegmentation]], [[SecretManagement]], [[ChaosEngineering]], [[SoftwareVerification]]
 
 **Qualifications:**
 
 - Game-server evidence is domain-specific, and staging realism reduces but does not eliminate production risk because scale, data, and failure timing can still differ.
 - Network automation adds a design-synchronization risk: executable operational code can drift from the real topology and create failures.
+- The startup security evidence is an early-stage AWS design guide, not a full enterprise security or compliance program.
 
 ### Company Data Science Needs Role Design
 

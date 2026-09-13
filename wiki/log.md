@@ -663,6 +663,14 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | An Introduction to Scientific Python - NumPy
+
+Ingested Data Dependence's NumPy tutorial, including inspected vector/matrix, slicing, dot-product, and boolean-masking images.
+
+## [2026-09-13] ingest | An Infrastructure Guide for Founders
+
+Added Magoo's startup AWS infrastructure security guide; created [[StartupSecurityDebt]], [[CentralizedLogging]], [[CloudAccountSegmentation]], [[ProductionAccessControl]], [[NetworkSegmentation]], [[SecretManagement]], and [[Magoo]], and updated [[InfrastructureAsCode]] with early-stage drift and review-control guidance.
+
 ## [2026-09-13] ingest | An 8-Min Guide to App Landing Pages
 
 Added Appster's app landing-page guide, inspected the embedded page screenshots, created [[AppLandingPages]], and updated conversion, social-proof, information-hierarchy, Appster, and Slack pages.
@@ -1090,6 +1098,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

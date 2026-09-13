@@ -400,13 +400,17 @@
       "global_candidate": false,
       "id": "software-businesses-must-fund-operational-reliability",
       "qualifications": [
-        "The reliability sources explain controls and incentives but do not quantify optimal spend or staffing for every business."
+        "The reliability sources explain controls and incentives but do not quantify optimal spend or staffing for every business.",
+        "The startup security guide is source-scoped to early AWS planning and intentionally favors security controls that also support availability, troubleshooting, velocity, or maintainability."
       ],
-      "statement": "[[SystemReliability]], [[ReliabilityInvestment]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], and [[InternalDeveloperPlatform]] show that software businesses need sustained organizational investment in reliability, not only known technical controls.",
+      "statement": "[[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], and [[InternalDeveloperPlatform]] show that software businesses need sustained organizational investment in reliability and security-debt prevention, not only known technical controls.",
       "status": "supported",
       "supporting_wikilinks": [
         "SystemReliability",
         "ReliabilityInvestment",
+        "StartupSecurityDebt",
+        "CloudAccountSegmentation",
+        "CentralizedLogging",
         "Auth0",
         "AuthenticationInfrastructure",
         "CloudHighAvailability",

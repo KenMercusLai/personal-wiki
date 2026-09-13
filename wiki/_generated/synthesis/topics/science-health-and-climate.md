@@ -4,17 +4,27 @@ generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
 last_updated: 2026-09-13
-as_of_overview_commit: 1297321473f2c8905426780b8587b260399a003f
-input_digest: 47a48db708eb5dbc117fc729597d8a7dabab3dba3caa2306aa7109714dc33c2d
+as_of_overview_commit: d32a6420748f52677e4b9cd66c8183b5911e0443
+input_digest: 8dde7f618754f300ca8c0a8e8381a53ef79aa7d65fb89ac8956c5a2896c0ceb3
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-The topic remains mostly indirect. It covers attention and mental load in productivity advice, a philosophy-of-science claim that current science does not settle intrinsic value, and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. The Stack Overflow evidence is useful but source-scoped because it measures 2017 English-language question visits rather than scientific employment, software work, or causality.
+The topic remains mostly indirect. It now includes a beginner scientific-computing claim that NumPy makes Python practical for vector, matrix, slicing, masking, and vectorized array work; an attention and mental-load claim from productivity advice; a philosophy-of-science claim that current science does not settle intrinsic value; and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. These claims are source-scoped because the evidence comes from tutorials, essays, and 2017 English-language Stack Overflow traffic rather than comprehensive scientific, employment, or adoption measurements.
 
 ## Cross-source Findings
+
+### Scientific Python Depends On Array Tooling
+
+[[ScientificPython]] is framed through [[NumPy]]: [[Python]] becomes practical for beginner numerical work when C-backed arrays support [[NumPyArrayModel]], [[MultidimensionalArraySlicing]], [[VectorizedArrayOperations]], and [[BooleanMasking]].
+
+**Evidence:** [[ScientificPython]], [[NumPy]], [[Python]], [[NumPyArrayModel]], [[MultidimensionalArraySlicing]], [[VectorizedArrayOperations]], [[BooleanMasking]], [[Jamal]]
+
+**Qualifications:**
+
+- This is grounded in one beginner NumPy tutorial, not a full survey of scientific Python or current numerical-computing practice.
 
 ### Attention Is Treated As Scarce
 
@@ -39,7 +49,7 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 
 ### Data Science Adoption Reflects Institutions
 
-[[DataScienceTechnologyAdoption]] is treated as partly institutional: [[StackOverflowTrafficAnalysis]] links Python, R, and scientific package traffic to high-income developer economies while warning that traffic is not causal proof or a census of software work.
+[[DataScienceTechnologyAdoption]] is treated as partly institutional: [[StackOverflowTrafficAnalysis]] links [[ProgrammingTechnologyDemand]] for Python, R, and scientific packages to high-income developer economies while warning that traffic is not causal proof or a census of software work.
 
 **Evidence:** [[DataScienceTechnologyAdoption]], [[StackOverflowTrafficAnalysis]], [[DeveloperEconomySegmentation]], [[ProgrammingTechnologyDemand]], [[DavidRobinson]], [[Android]]
 

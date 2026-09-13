@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
+- [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
@@ -150,6 +152,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [NumPy](entities/NumPy.md) - Python numerical-computing library introduced as the array-centered foundation for beginner scientific Python.
+- [Python](entities/Python.md) - Programming language used in the source as the host environment for NumPy-based scientific computing.
+- [Jamal](entities/Jamal.md) - Data Dependence author explaining NumPy fundamentals for scientific Python learners.
+- [Data Dependence](entities/DataDependence.md) - Publication context for Jamal's scientific Python tutorial series.
 - [Darius Foroux](entities/DariusForoux.md) - Personal-growth author framing self-education as a daily investment and resilience strategy.
 - [Agno](entities/Agno.md) - AI agent framework used to assemble a text-search codebase QA assistant.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
@@ -567,8 +573,20 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Twilio Segment](entities/TwilioSegment.md) - Customer-data infrastructure product context for high-throughput event fan-out to many destination APIs.
 - [Centrifuge](entities/Centrifuge.md) - Twilio Segment infrastructure component replacing per-destination queues before the single destination service.
 - [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
+- [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Scientific Python](concepts/ScientificPython.md) - Using Python with numerical libraries such as NumPy for scientific computing, data science, and machine learning.
+- [NumPy Array Model](concepts/NumPyArrayModel.md) - Representing numerical data as arrays that can stand for vectors, matrices, or higher-dimensional structures.
+- [Vectorized Array Operations](concepts/VectorizedArrayOperations.md) - Applying arithmetic, comparison, dot-product, and reduction operations across arrays without manual element-by-element loops.
+- [Multidimensional Array Slicing](concepts/MultidimensionalArraySlicing.md) - Selecting row, column, stepped, or dimensional subsets from multidimensional arrays with comma-separated slice expressions.
+- [Boolean Masking](concepts/BooleanMasking.md) - Selecting array elements by applying conditions that produce true-or-false masks.
+- [Startup Security Debt](concepts/StartupSecurityDebt.md) - Early infrastructure shortcuts that later make cloud systems harder to secure, troubleshoot, scale, and operate safely.
+- [Centralized Logging](concepts/CentralizedLogging.md) - Collecting application, host, and infrastructure logs into a shared queryable system for investigation, troubleshooting, dashboards, and policy decisions.
+- [Cloud Account Segmentation](concepts/CloudAccountSegmentation.md) - Splitting cloud infrastructure across accounts or tenancies to manage blast radius, identity, logs, billing, policies, and boundaries.
+- [Production Access Control](concepts/ProductionAccessControl.md) - Designing administrative paths, permissions, monitoring, and temporary grants for direct interaction with production systems.
+- [Network Segmentation](concepts/NetworkSegmentation.md) - Designing network boundaries and access rules so only intended services are reachable from the internet or other trust zones.
+- [Secret Management](concepts/SecretManagement.md) - Storing, distributing, consuming, and rotating credentials and API keys without leaking them through code, chat, laptops, or ad hoc workflows.
 - [Self-Education Investment](concepts/SelfEducationInvestment.md) - Treating ongoing education as a recurring investment in judgment, opportunity, earning power, and resilience.
 - [Reach Navigation](concepts/ReachNavigation.md) - Mobile navigation pattern that places frequent actions and movement within comfortable one-handed thumb reach.
 - [Thumb Reach Ergonomics](concepts/ThumbReachErgonomics.md) - Mobile interaction constraint created by how far a thumb can comfortably and accurately reach while holding a phone.

@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 5142882fca3e19f7cde4ca3c43ac6de93c9681f7
-input_digest: aaa9fea8835a88b42541412ffb9645bffcb98cfc742e494e08b5666e980dc326
+as_of_overview_commit: 1ee7bb59e174a7ff018c0712cf1048c7be71f43b
+input_digest: 5da4502022ca57f2a560e7a953eff9ed8ece7cc680f2559bfa06fef6a0c17083
 ---
 
 # Business and Markets
@@ -211,13 +211,14 @@ Business and market sources show companies and investors converting technology, 
 
 ### Software Businesses Must Fund Operational Reliability
 
-[[SystemReliability]], [[ReliabilityInvestment]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], and [[InternalDeveloperPlatform]] show that software businesses need sustained organizational investment in reliability, not only known technical controls.
+[[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], and [[InternalDeveloperPlatform]] show that software businesses need sustained organizational investment in reliability and security-debt prevention, not only known technical controls.
 
-**Evidence:** [[SystemReliability]], [[ReliabilityInvestment]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], [[InternalDeveloperPlatform]]
+**Evidence:** [[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], [[InternalDeveloperPlatform]]
 
 **Qualifications:**
 
 - The reliability sources explain controls and incentives but do not quantify optimal spend or staffing for every business.
+- The startup security guide is source-scoped to early AWS planning and intentionally favors security controls that also support availability, troubleshooting, velocity, or maintainability.
 
 ### Startup Equity Needs Transparent Risk Disclosure
 

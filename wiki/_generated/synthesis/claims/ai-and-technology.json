@@ -260,9 +260,10 @@
       "id": "live-scale-engineering-needs-realistic-verification",
       "qualifications": [
         "Game-server evidence is domain-specific, and staging realism reduces but does not eliminate production risk because scale, data, and failure timing can still differ.",
-        "Network automation adds a design-synchronization risk: executable operational code can drift from the real topology and create failures."
+        "Network automation adds a design-synchronization risk: executable operational code can drift from the real topology and create failures.",
+        "The startup security evidence is an early-stage AWS design guide, not a full enterprise security or compliance program."
       ],
-      "statement": "[[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, topology-aware automation, staging realism, traffic, and controlled failure.",
+      "statement": "[[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[CentralizedLogging]], [[ProductionAccessControl]], [[NetworkSegmentation]], [[SecretManagement]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, topology-aware automation, controlled access, segmented exposure, secret handling, staging realism, traffic, and controlled failure.",
       "status": "supported",
       "supporting_wikilinks": [
         "GameServerLaunchExperience",
@@ -271,6 +272,10 @@
         "ChangeSafety",
         "NetworkAutomation",
         "InfrastructureAsCode",
+        "CentralizedLogging",
+        "ProductionAccessControl",
+        "NetworkSegmentation",
+        "SecretManagement",
         "ChaosEngineering",
         "SoftwareVerification"
       ]
