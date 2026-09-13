@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "468a99c0fe7aa6cce03cdfb0850708450c48133a2480fdd3cefd8b7b84de725a",
       "ad94f8925ed340cecc5a4384835ae65c2949ba2eed1da0acf56e937673c72565",
       "e61aad23a46fc9cae09677ce2e08dab91115778c52a06ebfb70345747899412c",
       "a40198b503fbe1118cfdf1092b24ee782e6785b6761f04933ad309caca860a11",
@@ -164,11 +165,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 162
+    "paragraph_count": 163
   },
-  "overview_commit": "816eb5dc09a2871e878a2d7b02bfc64d9b3c6ee3",
-  "overview_digest": "1cc10c74b6b5858b1ea8bbd509acc4f2e3d7adb2ac57a4bcb3d6722468269ea6",
+  "overview_commit": "0fc7382fc2cf0d380e9d6f9c8cc4a27b9a6d5a96",
+  "overview_digest": "496b8796595ec7095f39c13e41b432f121fa48c913fa05823909293f8583a348",
   "paragraphs": [
+    {
+      "id": "468a99c0fe7aa6cce03cdfb0850708450c48133a2480fdd3cefd8b7b84de725a",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Stratechery source adds a mature-Apple strategy layer to the wiki's Apple services and growth material. [[AppleMiddleAgeStrategy]] names [[BenThompson]]'s argument that [[Apple]]'s high-end smartphone market had saturated enough by 2018 that growth naturally turned inward: higher [[IPhone]] ASPs, more Services revenue, and more Apple-specific devices sold to existing loyal users. This sharpens [[AppleServicesMachine]] and [[AppleGrowthLevers]] by separating Services as financial contribution from Services as hardware differentiation: [[AppleMusic]] may have limited standalone profit, but it can bridge iPhone users toward [[HomePod]] hardware purchases. The source also qualifies [[AppleContentDistributionStrategy]] because Thompson's launch-era HomePod exclusivity argument is later softened by Apple Music's expansion to Alexa.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "Apple",
+        "AppleContentDistributionStrategy",
+        "AppleGrowthLevers",
+        "AppleMiddleAgeStrategy",
+        "AppleMusic",
+        "AppleServicesMachine",
+        "BenThompson",
+        "HomePod",
+        "IPhone"
+      ]
+    },
     {
       "id": "ad94f8925ed340cecc5a4384835ae65c2949ba2eed1da0acf56e937673c72565",
       "primary_topic": "culture-and-media",

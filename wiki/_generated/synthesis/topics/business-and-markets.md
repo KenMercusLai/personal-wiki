@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 630573936560e37948be4656701d5d183553ebeb
-input_digest: 1c5383efef3086b2a3ab702400eaaab175c360067d1b4857642ece0032e0f414
+as_of_overview_commit: 0fc7382fc2cf0d380e9d6f9c8cc4a27b9a6d5a96
+input_digest: 4a2169aa10cf79fd75e76954df60aa8cd929bb066935c2513e7c68feecca352c
 ---
 
 # Business and Markets
@@ -204,13 +204,13 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Mature Apple Strategy Combines Cash And Product Theory
 
-[[Apple]] joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, subscriptions can reduce churn, trust and curation make privacy and anti-scam positioning part of brand value, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
+[[Apple]] joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes and differentiates a hardware-dependent installed base, subscriptions can reduce churn, trust and curation make privacy and anti-scam positioning part of brand value, saturated premium smartphones push growth toward higher ASPs and more devices per existing user, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
 
-**Evidence:** [[Apple]], [[NeilCybart]], [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[Amazon]], [[Google]], [[Microsoft]], [[Facebook]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], [[SmartGlasses]], [[AirPods]]
+**Evidence:** [[Apple]], [[NeilCybart]], [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[Amazon]], [[Google]], [[Microsoft]], [[Facebook]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], [[SmartGlasses]], [[AirPods]]
 
 **Qualifications:**
 
-- The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, services churn reduction, TV+ scale, Card economics, Arcade retention, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed.
+- The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, services churn reduction, TV+ scale, Card economics, Arcade retention, HomePod exclusivity, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed.
 
 ### Mobile Platforms Control Discovery And Seed New Form Factors
 

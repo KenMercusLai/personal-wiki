@@ -363,9 +363,9 @@
       "global_candidate": true,
       "id": "mature-apple-strategy-combines-cash-and-product-theory",
       "qualifications": [
-        "The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, services churn reduction, TV+ scale, Card economics, Arcade retention, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed."
+        "The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, services churn reduction, TV+ scale, Card economics, Arcade retention, HomePod exclusivity, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed."
       ],
-      "statement": "[[Apple]] joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, subscriptions can reduce churn, trust and curation make privacy and anti-scam positioning part of brand value, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.",
+      "statement": "[[Apple]] joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes and differentiates a hardware-dependent installed base, subscriptions can reduce churn, trust and curation make privacy and anti-scam positioning part of brand value, saturated premium smartphones push growth toward higher ASPs and more devices per existing user, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.",
       "status": "supported",
       "supporting_wikilinks": [
         "Apple",
@@ -374,6 +374,7 @@
         "AppleServicesMachine",
         "AppleTrustBrand",
         "AppleGrowthLevers",
+        "AppleMiddleAgeStrategy",
         "AppleContentDistributionStrategy",
         "ApplePricingStrategy",
         "AppleProductTheory",
