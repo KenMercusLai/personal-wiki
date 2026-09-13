@@ -180,6 +180,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Black Friday and Cyber Monday by the Numbers
+
+Added SendGrid's 2016 Black Friday and Cyber Monday email-scale analysis. Key claims: Black Friday reached 1.6 billion SendGrid messages and exceeded Cyber Monday volume; mobile opens were near parity and slightly faster than desktop opens; responsive templates mattered across devices; and short two-to-four-word subject lines had the highest engagement in an early-November sample.
+
 ## [2026-09-13] ingest | Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby
 
 Added Appcanary's Clojure-to-Ruby retrospective. Key claims: time-pressed startups should prefer familiar tools, small teams should delay distributed systems, developer happiness is a real programming-tool quality, and "simple is not easy" can become harmful when it excuses unfriendly tooling. No image references were present in the source.
@@ -1587,6 +1591,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -4,15 +4,15 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-14
-as_of_overview_commit: e6d6d29118308a095e1a587287eb2eb49deeb6d1
-input_digest: 23462aec11a80ab2bbfbe903b6496ff1ec7ba9dcd5bf5e8468a177a545b8d0ac
+as_of_overview_commit: 537ba07c7d2615c6223a614434b0fe184d84163c
+input_digest: 61c16abcdff0f2e88753aa43281c931b8985f15dfba723cabcd78ae422bfe727
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, and trajectory simplification trades precision for performance when the broad route shape is enough.
+Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
 
 ## Cross-source Findings
 
@@ -55,6 +55,16 @@ Security triage becomes actionable when exposed services are classified by likel
 **Qualifications:**
 
 - An open port is not proof of compromise; it is a prompt for targeted validation.
+
+### Platform Scale Data Turns Marketing Into Operations
+
+Platform-scale marketing data can turn campaign practice into operational judgment, as [[EmailMarketingAtScale]] uses [[SendGrid]] volume, [[MobileEmailEngagement]], [[Litmus]] device benchmarks, and [[SubjectLineOptimization]] to connect retail timing, mobile behavior, and copy length.
+
+**Evidence:** [[EmailMarketingAtScale]], [[SendGrid]], [[MobileEmailEngagement]], [[Litmus]], [[SubjectLineOptimization]]
+
+**Qualifications:**
+
+- The evidence is source-scoped to a SendGrid company blog post and cited benchmarks; the unresolved local image was a Twilio 404 HTML page, not usable image evidence.
 
 ### Growth Levers Recombine Across Product Systems
 

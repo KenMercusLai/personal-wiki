@@ -62,6 +62,22 @@
     },
     {
       "global_candidate": false,
+      "id": "platform-scale-data-turns-marketing-into-operations",
+      "qualifications": [
+        "The evidence is source-scoped to a SendGrid company blog post and cited benchmarks; the unresolved local image was a Twilio 404 HTML page, not usable image evidence."
+      ],
+      "statement": "Platform-scale marketing data can turn campaign practice into operational judgment, as [[EmailMarketingAtScale]] uses [[SendGrid]] volume, [[MobileEmailEngagement]], [[Litmus]] device benchmarks, and [[SubjectLineOptimization]] to connect retail timing, mobile behavior, and copy length.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "EmailMarketingAtScale",
+        "SendGrid",
+        "MobileEmailEngagement",
+        "Litmus",
+        "SubjectLineOptimization"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "growth-levers-recombine-across-product-systems",
       "qualifications": [
         "This claim is source-scoped to Neil Cybart's 2018 Apple analysis and its embedded revenue chart."
@@ -90,6 +106,6 @@
       ]
     }
   ],
-  "summary": "Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, and trajectory simplification trades precision for performance when the broad route shape is enough.",
+  "summary": "Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.",
   "topic_id": "cross-domain"
 }

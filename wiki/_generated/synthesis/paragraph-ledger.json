@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "798562d3a4d6d67b3bb0992a761f2e9f4d7b11d8f84db58fc805d620cb2a14e8",
       "2b340f1216a16c16c837ce03cab6bacc614b8df7cf11bd98e0d1dd492c09559e",
       "d700b0b2ab73920e8b91b3259717edc00bab9f0397ded2e9deb2352eafc4715c",
       "3ed997fb80cb4a7da6ef0b29c691e2c47b39bdead3ff1dac542abd758b06e62a",
@@ -198,11 +199,25 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 196
+    "paragraph_count": 197
   },
-  "overview_commit": "024205aed1ac0f5a1719b047e83e111d347bd5bb",
-  "overview_digest": "ae167f5444c515ff4b50c20ae676c775ae7aac070154e78ece7e6a2059ee6a02",
+  "overview_commit": "537ba07c7d2615c6223a614434b0fe184d84163c",
+  "overview_digest": "d013d5f4488610abae458dae6fcdb640b65e2b4cde049062ec41ee0fec765840",
   "paragraphs": [
+    {
+      "id": "798562d3a4d6d67b3bb0992a761f2e9f4d7b11d8f84db58fc805d620cb2a14e8",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest SendGrid source adds an email-marketing scale and mobile-engagement layer to the wiki's marketing operations material. New [[EmailMarketingAtScale]] frames billion-message campaign volume as an infrastructure and behavioral-data problem: [[SendGrid]] reports sending 1.6 billion emails on Black Friday 2016, with Black Friday exceeding Cyber Monday as the larger holiday-volume peak. New [[MobileEmailEngagement]] captures the device and timing shift: mobile accounted for just under half of SendGrid opens, [[Litmus]] was cited for Apple and Android opens around 54%, and mobile users opened slightly faster than desktop users, supporting responsive-template design. New [[SubjectLineOptimization]] captures the copywriting finding that nine-word subject lines were most common in an early-November sample, while two-to-four-word subject lines had the highest engagement. The source's only local image reference resolved to a Twilio 404 HTML page rather than decodable PNG data, so it could not be incorporated as visual evidence.",
+      "topic_scores": {},
+      "wikilinks": [
+        "EmailMarketingAtScale",
+        "Litmus",
+        "MobileEmailEngagement",
+        "SendGrid",
+        "SubjectLineOptimization"
+      ]
+    },
     {
       "id": "2b340f1216a16c16c837ce03cab6bacc614b8df7cf11bd98e0d1dd492c09559e",
       "primary_topic": "business-and-markets",

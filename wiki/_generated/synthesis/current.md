@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 024205aed1ac0f5a1719b047e83e111d347bd5bb
+as_of_overview_commit: 537ba07c7d2615c6223a614434b0fe184d84163c
 summary: "A personal knowledge base about technology, business, learning, culture, governance, history, psychology, and science, organized around evidence and constraints."
-episode_count: 201
-source_count: 201
-paragraph_count: 196
+episode_count: 202
+source_count: 202
+paragraph_count: 197
 topic_count: 9
 ---
 
@@ -43,7 +43,7 @@ Business and market sources show durable value emerging when product work, start
 
 ### Cross-domain
 
-Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, and trajectory simplification trades precision for performance when the broad route shape is enough.
+Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
 
 - Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]]. Evidence: [[APIErrorHandling]], [[HTTP]], [[DeveloperExperience]].
 - Early architecture judgment often depends on rough models: [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] help reject designs before implementation, while [[CloudCostOptimization]] uses similar unit reasoning for cost sanity checks. Evidence: [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[CloudCostOptimization]].
