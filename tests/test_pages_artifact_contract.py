@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -50,6 +51,47 @@ class CanonicalMarkdownVisibleTextTest(unittest.TestCase):
             verifier._canonical_markdown_visible_text("Keep the unmatched ` delimiter"),
             "Keep the unmatched ` delimiter",
         )
+
+
+class CanonicalContractTest(unittest.TestCase):
+    def test_contract_uses_current_source_inventory_when_global_compaction_lags(self):
+        verifier = load_verifier("personal_artifact_lagging_global")
+        with tempfile.TemporaryDirectory() as td:
+            repository = Path(td) / "repository"
+            for directory in ("wiki", "wiki-assets", ".generated"):
+                shutil.copytree(ROOT / directory, repository / directory)
+            synthesis = repository / "wiki/_generated/synthesis"
+            manifest_path = synthesis / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            canonical_count = manifest["corpus"]["source_count"]
+            lagging_count = canonical_count - 1
+            current = synthesis / "current.md"
+            current_text = current.read_text(encoding="utf-8")
+            current_text = current_text.replace(
+                f"episode_count: {canonical_count}\n",
+                f"episode_count: {lagging_count}\n",
+                1,
+            ).replace(
+                f"source_count: {canonical_count}\n",
+                f"source_count: {lagging_count}\n",
+                1,
+            )
+            current.write_text(current_text, encoding="utf-8")
+            manifest["global"]["corpus"] = {
+                "episode_count": lagging_count,
+                "source_count": lagging_count,
+            }
+            manifest["global"]["output_digest"] = hashlib.sha256(
+                current.read_bytes()
+            ).hexdigest()
+            manifest_path.write_text(
+                json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
+
+            contract = verifier._load_contract(repository)
+
+            self.assertEqual(canonical_count, contract.synthesis["source_count"])
 
 
 class PagesArtifactContractTest(unittest.TestCase):

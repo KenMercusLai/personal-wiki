@@ -337,7 +337,7 @@ def _compact(
     canonical_text: str,
     current_synthesis: str,
     overview_updated: str,
-) -> tuple[dict[str, object], str]:
+) -> tuple[dict[str, object], str, int]:
     base = root / "wiki/_generated/synthesis"
     current = base / "current.md"
     manifest_path = base / "manifest.json"
@@ -410,7 +410,9 @@ def _compact(
     missing = sorted(set(WIKILINK_RE.findall(body)) - known_keys)
     if missing:
         raise ValueError(f"compact synthesis has missing Wiki targets: {', '.join(missing)}")
-    return metadata, body
+    corpus = manifest["corpus"]
+    assert isinstance(corpus, dict)
+    return metadata, body, int(corpus["source_count"])
 
 
 def _page(lines: list[str], body: str) -> bytes:
@@ -440,7 +442,7 @@ def _expected(root: Path) -> tuple[dict[Path, bytes], ProjectionReport]:
         for section in ("concepts", "entities", "sources")
         for path in (root / "wiki" / section).glob("*.md")
     }
-    compact_meta, compact_body = _compact(
+    compact_meta, compact_body, source_count = _compact(
         root, known_keys, canonical_text, canonical_synthesis, updated
     )
     current_lines = [
@@ -449,7 +451,7 @@ def _expected(root: Path) -> tuple[dict[Path, bytes], ProjectionReport]:
         f"last_updated: {json.dumps(str(compact_meta['last_updated']))}",
         f"as_of_overview_commit: {json.dumps(str(compact_meta['as_of_overview_commit']))}",
         f"summary: {json.dumps(str(compact_meta['summary']), ensure_ascii=False)}",
-        f"source_count: {compact_meta['source_count']}", f"topic_count: {compact_meta['topic_count']}",
+        f"source_count: {source_count}", f"topic_count: {compact_meta['topic_count']}",
     ]
     question_body = "# Open Questions\n\n" + questions
     question_lines = [
@@ -483,7 +485,7 @@ def _expected(root: Path) -> tuple[dict[Path, bytes], ProjectionReport]:
         output / "open-questions.md": _page(question_lines, question_body),
         output / "update-history/_index.md": _page(history_lines, "\n".join(history_body)),
     }
-    return expected, ProjectionReport("compact", int(compact_meta["source_count"]), len(grouped), 0)
+    return expected, ProjectionReport("compact", source_count, len(grouped), 0)
 
 
 def _safe(path: Path, root: Path) -> None:

@@ -81,6 +81,48 @@ class OverviewProjectionTest(unittest.TestCase):
         self.assertFalse(stale.exists())
         overview.project(ROOT, check=True)
 
+    def test_projection_uses_current_canonical_source_count_when_global_compaction_lags(self):
+        overview = load_script("personal_overview_lagging_global")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            synthesis = fixture / "wiki/_generated/synthesis"
+            manifest_path = synthesis / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            canonical_count = manifest["corpus"]["source_count"]
+            lagging_count = canonical_count - 1
+            current = synthesis / "current.md"
+            current_text = current.read_text(encoding="utf-8")
+            current_text = current_text.replace(
+                f"episode_count: {canonical_count}\n",
+                f"episode_count: {lagging_count}\n",
+                1,
+            ).replace(
+                f"source_count: {canonical_count}\n",
+                f"source_count: {lagging_count}\n",
+                1,
+            )
+            current.write_text(current_text, encoding="utf-8")
+            manifest["global"]["corpus"] = {
+                "episode_count": lagging_count,
+                "source_count": lagging_count,
+            }
+            manifest["global"]["output_digest"] = hashlib.sha256(
+                current.read_bytes()
+            ).hexdigest()
+            manifest_path.write_text(
+                json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
+
+            report = overview.project(fixture)
+
+            self.assertEqual(canonical_count, report.source_count)
+            projection = (
+                fixture / ".generated/wiki-projections/current-synthesis.md"
+            ).read_text(encoding="utf-8")
+            self.assertIn(f"source_count: {canonical_count}\n", projection)
+
     def test_invalid_compact_digest_fails_closed(self):
         overview = load_script("personal_overview_invalid")
         with tempfile.TemporaryDirectory() as td:
