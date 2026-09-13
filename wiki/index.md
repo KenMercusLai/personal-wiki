@@ -60,6 +60,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [Every time you ask the user to click you lose half](sources/every-time-you-ask-the-user-to-click-you-lose-half.md) - Andrew Chen argues that every extra click, field, tutorial, install, or signup demand spends user intent and should remain only when it improves later product value.
+- [Fun graph from Peter Attia's book Outlive](sources/andrew-chen-fun-graph-from-peter-attias-book-outlive.md) - Andrew Chen uses an Outlive VO2 max chart to argue that building high cardiovascular fitness earlier preserves later-life capacity for ordinary activities such as brisk stair climbing.
 - [Acquisition is Easy. Retention is Hard.](sources/acquisition-is-easy-retention-is-hard-product-habits.md) - Product Habits argues that modern SaaS acquisition is increasingly easy and visible, while retention depends on product strength, low-churn customer fit, account expansion, and marketing aligned with sticky value.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
@@ -365,6 +366,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
 - [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, creator-economy company dynamics, and product-flow friction through named strategic patterns.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
+- [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
+- [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
 - [Instapaper](entities/Instapaper.md) - Read-later service whose first decade shows product evolution around distraction-reduced reading, parsing, offline access, notes, search, business-model changes, and reliability.
 - [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
@@ -1009,5 +1012,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Monolith Consolidation](concepts/MonolithConsolidation.md) - Deliberate move from many services into one shared service when consolidation better matches operations and change patterns.
 - [Monorepo Dependency Convergence](concepts/MonorepoDependencyConvergence.md) - Bringing related code and dependency versions together so shared changes can be tested consistently.
 - [Recorded Traffic Testing](concepts/RecordedTrafficTesting.md) - Capturing network request-response traffic once and replaying it to make integration-like tests faster and more deterministic.
+- [VO2 Max](concepts/VO2Max.md) - Maximum oxygen uptake metric used to connect cardiovascular fitness, age-related decline, and later-life activity capacity.
+- [Cardiorespiratory Fitness](concepts/CardiorespiratoryFitness.md) - Aerobic capacity frame in which higher fitness creates more reserve for future activities such as stair climbing.
 
 ## Syntheses

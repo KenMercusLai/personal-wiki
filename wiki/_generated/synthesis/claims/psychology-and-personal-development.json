@@ -6,7 +6,7 @@
       "qualifications": [
         "The bundle describes reflective prompts and note practices, not clinical mental-health interventions or measured long-term outcomes."
       ],
-      "statement": "Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge.",
+      "statement": "Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], and [[PersonalKnowledgeManagement]].",
       "status": "supported",
       "supporting_wikilinks": [
         "JournalingPractice",
@@ -36,12 +36,12 @@
       ]
     },
     {
-      "global_candidate": false,
+      "global_candidate": true,
       "id": "interfaces-shape-confidence-and-understanding",
       "qualifications": [
         "The evidence spans research reports, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern."
       ],
-      "statement": "Interfaces, reports, and design arguments shape user confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.",
+      "statement": "Interfaces, reports, and design arguments shape confidence by making relationships, states, outputs, cognitive load, and evidence chains legible rather than forcing users or stakeholders to infer hidden structure.",
       "status": "supported",
       "supporting_wikilinks": [
         "UXResearchInformationDesign",
@@ -60,7 +60,7 @@
         "The sources warn that goals can become externally competitive or misdirected, so discomfort and discipline matter only when they support meaningful direction."
       ],
       "statement": "Goals, abstraction, and optimization metaphors help learners focus attention without reducing learning to rote status competition.",
-      "status": "supported",
+      "status": "qualified",
       "supporting_wikilinks": [
         "GoalSetting",
         "LearnDrive",
@@ -71,13 +71,29 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "future-capacity-can-motivate-present-behavior",
+      "qualifications": [
+        "The source is a personal reaction to one chart, not a full clinical exercise prescription or individualized training plan."
+      ],
+      "statement": "A vivid future-capacity frame can motivate present behavior change: [[AndrewChen]] uses [[PeterAttia]]'s [[Outlive]] [[VO2Max]] graph to treat [[CardiorespiratoryFitness]] as reserve for later-life activities rather than only current athletic performance.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AndrewChen",
+        "PeterAttia",
+        "Outlive",
+        "VO2Max",
+        "CardiorespiratoryFitness"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "crowd-judgment-needs-knowledge-calibration",
       "qualifications": [
         "The source still treats strong consensus as the best available proxy for truth; metaknowledge matters most when crowds are divided, biased by common information, or reporting sensitive beliefs."
       ],
       "statement": "Collective judgment improves when people reveal not only what they believe but how well they understand others' beliefs, because [[Metaknowledge]] can expose [[SharedInformationBias]], [[FalseConsensusEffect]], and weak expertise inside [[WisdomOfCrowds]].",
-      "status": "qualified",
+      "status": "supported",
       "supporting_wikilinks": [
         "Metaknowledge",
         "SharedInformationBias",
@@ -88,13 +104,13 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "personalized-infrastructure-requires-trust",
       "qualifications": [
         "The mapping and aggregation paragraphs are assigned to this topic by the deterministic planner, but their stronger homes are technology, governance, and platform strategy."
       ],
-      "statement": "Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, and transaction guarantees; digital maps make this visible through location privacy and user contributions, while [[AggregationTheory]] and [[MarketplaceTrust]] show people using popularity or platform trust to manage uncertainty with strangers.",
-      "status": "supported",
+      "statement": "Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, and transaction guarantees.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "DigitalCartography",
         "GoogleMaps",
@@ -112,7 +128,7 @@
     },
     {
       "global_candidate": false,
-      "id": "context-management-is-a-cognitive-infrastructure-problem",
+      "id": "context-management-is-cognitive-infrastructure",
       "qualifications": [
         "This claim is source-scoped because the input paragraph is primarily technical and only secondarily related to psychology through memory and attention metaphors."
       ],
@@ -133,7 +149,7 @@
         "The SmugMug evidence is a positive company profile, so the claim should be read as a source-scoped social-system pattern rather than a general finding about all family businesses."
       ],
       "statement": "[[FamilyBusiness]] shows that close social bonds can create trust, commitment, customer-facing distinctiveness, and [[StartupCulture]], but [[MacAskillFamily]] and [[DonMacAskill]] also make visible the risk of conflict and non-family exclusion inside intimate work systems.",
-      "status": "source-scoped",
+      "status": "qualified",
       "supporting_wikilinks": [
         "FamilyBusiness",
         "MacAskillFamily",
@@ -142,6 +158,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, uncertainty shortcuts, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, aggregator trust, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, trust centralization, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, goals, evidence calibration, body capacity, interfaces, trusted infrastructures, platform feedback, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, metaknowledge, and cardiorespiratory capacity frames help people steer attention, motivation, judgment, and future options. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, trust centralization, brittle abstractions, or overly broad health heuristics unless evidence, ownership, calibration, and scope are made explicit.",
   "topic_id": "psychology-and-personal-development"
 }

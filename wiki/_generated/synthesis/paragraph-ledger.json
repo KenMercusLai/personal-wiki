@@ -18,6 +18,7 @@
       "b0e9b1a1818e9667362b957f3cbf1bdc4de81e7a1fdefe9744843fb99a0b4d75",
       "5afdf3b4967dac93756e8afe56b305c13f09332366fcbd0026eea8844d604aa3",
       "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
+      "43198a0424b815eadb015492ff6dbdf331b232bc18ad02bf992bfa94c2acf019",
       "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
       "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
       "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
@@ -148,10 +149,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 146
+    "paragraph_count": 147
   },
-  "overview_commit": "923e52b6e43e62be118b6fdd6005cb58086ae6ee",
-  "overview_digest": "009f7f7d9f9b1709c04b98100fd77278d7a8ffda845ed99518f19cdaada8f39b",
+  "overview_commit": "575e0fab3209a46afa64679745e45afe1950e714",
+  "overview_digest": "5703e57393adb9a67c50a64ed63f50666c1a2c2585009cba64bfca2b967de3c7",
   "paragraphs": [
     {
       "id": "8f555ecb6c5393ce00ba0b63b84b9a093f69eb0e95364de11b56c8c2274efd23",
@@ -457,6 +458,22 @@
         "StartupRunway",
         "TroughOfSorrow",
         "YCombinator"
+      ]
+    },
+    {
+      "id": "43198a0424b815eadb015492ff6dbdf331b232bc18ad02bf992bfa94c2acf019",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Andrew Chen fitness note adds a longevity-oriented capacity-reserve thread. [[AndrewChen]] shares a [[VO2Max]] graph from [[PeterAttia]]'s [[Outlive]] that compares high, average, and low [[CardiorespiratoryFitness]] percentiles across age against activity thresholds such as walking, jogging, carrying weight upstairs, and briskly climbing stairs. The inspected chart shows all curves declining with age, but high fitness preserves far more later-life margin; Chen's practical inference is that building cardiovascular capacity earlier is more plausible than expecting a late jump from average or low fitness to the 95th percentile. This source is personal and chart-driven rather than clinical, so the new synthesis is a behavior-change heuristic, not a full exercise prescription.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AndrewChen",
+        "CardiorespiratoryFitness",
+        "Outlive",
+        "PeterAttia",
+        "VO2Max"
       ]
     },
     {

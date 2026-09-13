@@ -1121,6 +1121,10 @@ Deduplicated against existing source note [[a-comprehensive-guide-to-build-your-
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
 
+## [2026-09-13] ingest | Fun graph from Peter Attia's book Outlive
+
+Added Andrew Chen's Outlive fitness note, inspected the remote VO2 max chart, created [[VO2Max]], [[CardiorespiratoryFitness]], [[PeterAttia]], and [[Outlive]], and updated [[AndrewChen]], index, and overview with the chart-driven capacity-reserve synthesis.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1202,6 +1206,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] ingest | Andrej Karpathy on X: on technical accessibility
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
