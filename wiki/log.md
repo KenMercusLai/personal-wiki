@@ -679,6 +679,8 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Every time you ask the user to click you lose half
+
 ## [2026-09-13] ingest | An Introduction to Scientific Python - NumPy
 
 Ingested Data Dependence's NumPy tutorial, including inspected vector/matrix, slicing, dot-product, and boolean-masking images.
@@ -1200,6 +1202,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] ingest | Andrej Karpathy on X: on technical accessibility
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

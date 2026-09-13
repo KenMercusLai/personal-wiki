@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 36287633c695337da670d34a81d5fef68c73a5fd
-input_digest: 33563a3f116ec4b86381386922bef8d693afd130b15059907e2ad19de07c2ad3
+as_of_overview_commit: 923e52b6e43e62be118b6fdd6005cb58086ae6ee
+input_digest: 68f73b72e3646f54a4e85daa57b6a5c93a8d0fc2bda10cd1474d774edd45ba90
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that lower-paid support labor can expose a company-value gap when office perks and scale coexist with employee financial precarity.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, onboarding, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that product-flow friction should spend user intent only when it improves later value, and that lower-paid support labor can expose a company-value gap when office perks and scale coexist with employee financial precarity.
 
 ## Cross-source Findings
 
@@ -68,13 +68,14 @@ Business and market sources show companies and investors converting technology, 
 
 ### Saas Acquisition And Trust Loops Must Preserve Retained Value
 
-[[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
+[[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], and [[ProductFlowFriction]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers, steps, and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
 
-**Evidence:** [[SaaSMarketing]], [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[SaaSRetention]], [[ProductLedRetention]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
+**Evidence:** [[SaaSMarketing]], [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], [[ProductFlowFriction]], [[SaaSRetention]], [[ProductLedRetention]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
 
 **Qualifications:**
 
 - Growth examples are mostly practitioner or historical cases, and channel conditions, product quality, cohort behavior, and retention determine whether acquisition creates durable value.
+- Lowering friction can increase raw signups without proportionally increasing paying customers, so conversion work needs downstream quality checks.
 
 ### Innovation Combines Specialized Knowledge And Shared Data
 
