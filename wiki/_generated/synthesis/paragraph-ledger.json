@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "40d96ca120ec9d39b610d8801101b82aa7965140881893ac9f12c70b2bc9dff3",
       "782073c9dd0e00c994eb9811009de2a4af5320e71da0a0ca8428da31f6d11faf",
       "f5f39b143116536bd91aa3ee4f0430017dc9421172a25cf67557ce433ac6032e",
       "398fab4967518b19ba40a056b29626cffceba0f31193721978caed2d7b19314e",
@@ -174,11 +175,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 172
+    "paragraph_count": 173
   },
-  "overview_commit": "546b57776b813a8f1c358e81d8cf9f921f5c3850",
-  "overview_digest": "6133f87ee614e58a530aa7c846885a5d126fe96267810572ed34a6cd72545b0d",
+  "overview_commit": "579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04",
+  "overview_digest": "8dd8656041811f92ac0ad64b21d4f286205a664b785c1d8dd8f395bf2b91ed41",
   "paragraphs": [
+    {
+      "id": "40d96ca120ec9d39b610d8801101b82aa7965140881893ac9f12c70b2bc9dff3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest Riot Games Technology source adds a production game-testing case to the wiki's verification and game-engineering material. [[AutomatedGameTesting]] names the practice: use controlled clients, servers, artifacts, RPC endpoints, harnesses, and reporting services to turn gameplay behavior into repeatable automated feedback. [[BuildVerificationSystem]] is the concrete [[RiotGames]] system for [[LeagueOfLegends]], running about 5,500 cases in 18 minutes per build and roughly 100,000 daily cases while staging new tests for a week before promotion into blocker or core suites. The source sharpens [[DeterministicTesting]] by showing why game automation bans pure sleeps in favor of conditional waits, and it qualifies automation's reach by noting that remaining critical bugs usually came from coverage gaps rather than bad tests. The available image shows a League in-game test scene with Kog'Maw and enemy units; the article-specific report, bug, flowchart, and header images were missing from the local asset folder and could not be inspected.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AutomatedGameTesting",
+        "BuildVerificationSystem",
+        "DeterministicTesting",
+        "LeagueOfLegends",
+        "RiotGames"
+      ]
+    },
     {
       "id": "782073c9dd0e00c994eb9811009de2a4af5320e71da0a0ca8428da31f6d11faf",
       "primary_topic": "business-and-markets",

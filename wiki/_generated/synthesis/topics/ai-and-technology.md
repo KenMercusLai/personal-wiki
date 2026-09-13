@@ -3,16 +3,16 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-09-13
-as_of_overview_commit: b4112ba3887e56b4ef1f41ce146d231f0f236cec
-input_digest: fd81a172c5a9c68a9dcabfd1ef48ad7aa82e526c1e72972410261787536077eb
+last_updated: 2026-09-14
+as_of_overview_commit: 579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04
+input_digest: b84bcd96a773955873e813ecbf041082682be426ff4b823aca131d7d842baa3a
 ---
 
 # AI and Technology
 
 ## Current State
 
-The technology material treats AI, software architecture, infrastructure, databases, and platforms as systems whose benefits depend on fit, verification, data quality, and operational constraints. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, and cloud security all improve outcomes when teams match tools to workload shape, preserve observability and change safety, and avoid premature complexity.
+The technology material treats AI, software architecture, infrastructure, databases, platforms, and game automation as systems whose benefits depend on fit, verification, data quality, and operational constraints. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, and automated game testing all improve outcomes when teams match tools to workload shape, preserve observability and change safety, and avoid premature complexity.
 
 ## Cross-source Findings
 
@@ -28,13 +28,14 @@ AI-assisted work is strongest when models provide scaffolding for drafts, prompt
 
 ### Verification Is Agentic Speed Limit
 
-Coding-agent speed depends less on raw generation than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], and [[TrustTopology]] that turn model output into reviewable, testable, and recoverable changes.
+Coding-agent and automation speed depend less on raw generation or execution than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], and [[AutomatedGameTesting]] that turn fast output or gameplay change into reviewable, testable, and recoverable feedback.
 
-**Evidence:** [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]]
+**Evidence:** [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]]
 
 **Qualifications:**
 
-- The sources differ in workflow style, from collaboration-first to automation-first, but converge on verification as the merge boundary.
+- The sources differ in workflow style, from collaboration-first to automation-first, but converge on verification as the merge or promotion boundary.
+- The Riot Games source is not about AI agents, but it reinforces the same feedback-loop pattern through staged trust and anti-flake test conventions.
 
 ### Context And Infrastructure Bound Agent Reliability
 
@@ -79,10 +80,11 @@ Platform power appears through control of discovery, runtime, trust, subscriptio
 
 ### Production Reliability Needs Realistic Evidence
 
-Production reliability depends on realistic evidence and operational design, including [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], and [[DatabaseTransactionIsolation]].
+Production reliability depends on realistic evidence and operational design, including [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], and [[DatabaseTransactionIsolation]].
 
-**Evidence:** [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], [[DatabaseTransactionIsolation]]
+**Evidence:** [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], [[DatabaseTransactionIsolation]]
 
 **Qualifications:**
 
-- The sources span startups, game servers, network automation, staging, and database deployment, so the shared claim is about operational pattern rather than one stack.
+- The sources span startups, game servers, network automation, staging, automated game testing, and database deployment, so the shared claim is about operational pattern rather than one stack.
+- BVS numbers and architecture come from Riot's 2016 company-authored source and should be treated as source-date-specific.

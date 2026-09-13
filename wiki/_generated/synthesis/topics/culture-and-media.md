@@ -3,16 +3,16 @@
 generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
-last_updated: 2026-09-13
-as_of_overview_commit: 816eb5dc09a2871e878a2d7b02bfc64d9b3c6ee3
-input_digest: 66a11a4ace963218a2804743a143e08026059837aead5e68e8471c55c8dbc6f2
+last_updated: 2026-09-14
+as_of_overview_commit: 579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04
+input_digest: 78c5d6b4791f77ecea4cf0e0e46d600920c7fcac5a328ddb93dbcde2b52dfb02
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest Apple Music profile adds streaming-culture strategy: services can compete by creating artist relationships, radio conversation, brand meaning, and shared moments, while still depending on platform economics and subscriber scale.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.
 
 ## Cross-source Findings
 
@@ -38,13 +38,13 @@ The culture-and-media layer connects media form, creator workflow, translation, 
 
 ### Creative Media Work Combines Expression And Infrastructure
 
-[[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[GameServerLaunchExperience]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], and [[GameServerCloudNativeDelivery]] show cultural software as both expressive medium and delivery infrastructure.
+[[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], and [[GameServerCloudNativeDelivery]] show cultural software as both expressive medium and delivery infrastructure.
 
-**Evidence:** [[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[ADarkRoom]], [[AppStore]], [[GameServerLaunchExperience]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], [[GameServerCloudNativeDelivery]], [[LowOpsGameServer]], [[LeanCloud]]
+**Evidence:** [[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[ADarkRoom]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[RiotGames]], [[LeagueOfLegends]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], [[GameServerCloudNativeDelivery]], [[LowOpsGameServer]], [[LeanCloud]]
 
 **Qualifications:**
 
-- The game evidence combines one indie retrospective with engineering sources whose primary focus is operations rather than game criticism.
+- The game evidence combines one indie retrospective with engineering sources whose primary focus is operations, automated testing, and delivery rather than game criticism.
 
 ### Localized Media Needs Effect Preserving Search
 

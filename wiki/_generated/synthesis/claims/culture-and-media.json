@@ -38,16 +38,18 @@
       "global_candidate": true,
       "id": "creative-media-work-combines-expression-and-infrastructure",
       "qualifications": [
-        "The game evidence combines one indie retrospective with engineering sources whose primary focus is operations rather than game criticism."
+        "The game evidence combines one indie retrospective with engineering sources whose primary focus is operations, automated testing, and delivery rather than game criticism."
       ],
-      "statement": "[[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[GameServerLaunchExperience]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], and [[GameServerCloudNativeDelivery]] show cultural software as both expressive medium and delivery infrastructure.",
+      "statement": "[[IndieGameDevelopment]], [[CreativeTechnicalCareer]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[ServerSideGameLogic]], [[ContinuousGameServerUpdates]], and [[GameServerCloudNativeDelivery]] show cultural software as both expressive medium and delivery infrastructure.",
       "status": "qualified",
       "supporting_wikilinks": [
         "IndieGameDevelopment",
         "CreativeTechnicalCareer",
         "ADarkRoom",
-        "AppStore",
-        "GameServerLaunchExperience",
+        "AutomatedGameTesting",
+        "BuildVerificationSystem",
+        "RiotGames",
+        "LeagueOfLegends",
         "ServerSideGameLogic",
         "ContinuousGameServerUpdates",
         "GameServerCloudNativeDelivery",
@@ -140,6 +142,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest Apple Music profile adds streaming-culture strategy: services can compete by creating artist relationships, radio conversation, brand meaning, and shared moments, while still depending on platform economics and subscriber scale.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.",
   "topic_id": "culture-and-media"
 }

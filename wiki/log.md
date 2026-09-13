@@ -1375,6 +1375,10 @@ Added Asana's 2016 outage postmortem. Key claims: a faulty logging deploy caused
 
 Added Netflix TechBlog's article on personalized artwork selection. Key claims: artwork is recommendation evidence, contextual bandits can personalize image choice while limiting regret, exploration logging enables unbiased replay evaluation, quality engagement protects against clickbait, and serving personalized visuals requires creative diversity, cold-start learning, recognizability controls, and low-latency scale.
 
+## [2026-09-14] ingest | Automated Testing for League of Legends
+
+Added Riot Games' engineering article on BVS for League of Legends. Key claims: live-game cadence made full manual regression impractical, BVS runs client/server functional tests through CI and RPC control, tests earn trust through staging before blocker/core promotion, conditional waits reduce flaky game automation, and reporting turns failures into tickets, artifact tags, notifications, and historical trends.
+
 ## [2026-09-14] ingest | Are you a victim of the Sunk Cost Fallacy?
 
 Added Tobias van Schneider's decision-making essay on sunk costs. Key claims: unrecoverable past investments should not drive future choices, emotional and pride-based investment can prolong weak work or projects, .Mail illustrates the trap in product creation, and designers can use accumulated investment as product stickiness.
@@ -1402,6 +1406,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Assume Positive Intent
 
 Added Rick Manelius's trust-first collaboration essay. Key claims: assuming positive intent can reduce defensive second-guessing in tense work, high-trust relationships can move faster than skepticism-first relationships, and positive intent still requires boundaries in low-trust, unsafe, or bad-faith contexts.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
