@@ -2,6 +2,21 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "investing-strategy-must-fit-control-and-attention",
+      "qualifications": [
+        "The source is a short investor essay rather than an empirical portfolio-performance study, so the claim is best treated as a capacity framework."
+      ],
+      "statement": "[[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ActiveInvesting",
+        "PassiveInvesting",
+        "PortfolioConcentration",
+        "FredWilson"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "independent-saas-combines-infrastructure-and-distribution",
       "qualifications": [
         "Founder retrospectives and profiles do not establish general SaaS success rates, and viability depends on skills, timing, customer trust, support load, payment access, and whether growth outruns opportunity cost."
@@ -319,6 +334,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The newest SaaS retention source sharpens acquisition economics by arguing that easier channels can still produce rising CAC and fragile LTV unless product value, onboarding, account expansion, and message-fit keep customers choosing the product.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest investing source adds a capacity warning: active capital requires concentrated work and influence, while passive capital fits better with liquidity and diversification.",
   "topic_id": "business-and-markets"
 }

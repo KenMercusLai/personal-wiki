@@ -4,17 +4,27 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 8f125c25e39f88091a0795d67d6eb7217f3b3c3c
-input_digest: 686eaedae3e60ddf15a05c5dd4befb83210d8761547d93d154a8e77b6c769601
+as_of_overview_commit: b1ffaa2d04516abdb816105d81e1594f592f27bb
+input_digest: b2543f02b72a85c6798405cf4a04396e96a8e408df0902016c4fbe2c4f460ede
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The newest SaaS retention source sharpens acquisition economics by arguing that easier channels can still produce rising CAC and fragile LTV unless product value, onboarding, account expansion, and message-fit keep customers choosing the product.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest investing source adds a capacity warning: active capital requires concentrated work and influence, while passive capital fits better with liquidity and diversification.
 
 ## Cross-source Findings
+
+### Investing Strategy Must Fit Control And Attention
+
+[[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure.
+
+**Evidence:** [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]]
+
+**Qualifications:**
+
+- The source is a short investor essay rather than an empirical portfolio-performance study, so the claim is best treated as a capacity framework.
 
 ### Independent Saas Combines Infrastructure And Distribution
 

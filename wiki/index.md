@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Academia to Data Science](sources/academia-to-data-science-airbnb-engineering-data-science-medium.md) - Airbnb data scientists advise academics moving into industry data science, emphasizing business framing, communication, messy logged data, fast iteration, and knowledge-sharing.
+- [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
 - [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
@@ -286,6 +287,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to Scott Kupor's critique of extended option exercise periods.
+- [Fred Wilson](entities/FredWilson.md) - Investor-author of the AVC essay arguing that active investing requires concentrated time, energy, intellect, and influence.
+- [AVC](entities/AVC.md) - Publication context for Fred Wilson's active-versus-passive investing framework.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
@@ -606,6 +609,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
 - [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
+- [Active Investing](concepts/ActiveInvesting.md) - Investing mode where capital is paired with concentrated participation, control, judgment, or operating work.
+- [Passive Investing](concepts/PassiveInvesting.md) - Investing mode where the investor primarily supplies capital without taking a lead, operating, governance, or control role.
+- [Portfolio Concentration](concepts/PortfolioConcentration.md) - Holding fewer investments so scarce attention, judgment, and influence can be applied more deeply.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
 - [Crypto Wallet Security](concepts/CryptoWalletSecurity.md) - User-facing wallet security across key control, phishing defense, audits, education, privacy, and trust boundaries.

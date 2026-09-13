@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 8f125c25e39f88091a0795d67d6eb7217f3b3c3c
-summary: "The wiki maps how faster tools create durable value only when judgment, evidence, trust, retention, reliability, and domain-correct models keep pace."
-episode_count: 123
-source_count: 123
-paragraph_count: 121
+as_of_overview_commit: b1ffaa2d04516abdb816105d81e1594f592f27bb
+summary: "The wiki maps durable value as a product of judgment, evidence, trust, retention, reliability, domain models, and operating capacity."
+episode_count: 124
+source_count: 124
+paragraph_count: 122
 topic_count: 9
 ---
 
@@ -19,10 +19,10 @@ topic_count: 9
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], and [[ApproximateNearestNeighborSearch]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, and connected to tools.
 - [[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] all make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.
+- [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure.
 - [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], and [[StartupFocus]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, and explicit [[StartupHypothesisTesting]].
 - [[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
-- [[MediaBrandPortfolio]] in the BuzzFeed memo connects media business strategy to public culture: [[Tasty]] is framed as a service-oriented brand that can create shared nonpolitical touchpoints, while [[PlatformPublisherRevenue]] and [[DigitalMediaMonetization]] are presented as conditions for keeping quality journalism and entertainment broadly accessible.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
 
 ## Synthesis by Domain
@@ -36,10 +36,10 @@ AI and technology sources emphasize that useful systems depend on human judgment
 
 ### Business and Markets
 
-Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The newest SaaS retention source sharpens acquisition economics by arguing that easier channels can still produce rising CAC and fragile LTV unless product value, onboarding, account expansion, and message-fit keep customers choosing the product.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest investing source adds a capacity warning: active capital requires concentrated work and influence, while passive capital fits better with liquidity and diversification.
 
+- [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
-- [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], and [[IndependentCreator]] evidence show small creator businesses using stable income bases, modular services, [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] to turn narrow products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[IndependentCreator]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]].
 
 ### Cross-domain
 
