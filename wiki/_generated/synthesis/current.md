@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 456ba406d42a071e98b374857ea6dbbb6199f1a4
-summary: "Durable work depends on explicit judgment, context, accountability, and value across AI agents, products, infrastructure, education, media, and institutions."
-episode_count: 130
-source_count: 130
-paragraph_count: 128
+as_of_overview_commit: 2b46689d056faf33aa48fead0bf2c428a5fde14b
+summary: "Durable work depends on explicit judgment, context, accountability, verification, and value across AI agents, products, infrastructure, education, media, and institutions."
+episode_count: 131
+source_count: 131
+paragraph_count: 129
 topic_count: 9
 ---
 
@@ -19,17 +19,17 @@ topic_count: 9
 - [[ComputationalThinking]], [[StatisticalModelThinking]], [[AcademicWriting]], and [[ProjectBasedLearning]] frame AI-era education around defining problems, modeling uncertainty, building evidence chains, and caring about real questions before tools execute.
 - [[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] all make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.
+- [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
 - [[AgentExperience]], [[AgentSystemTransparency]], [[AgentPermissionModel]], [[LLMSycophancy]], and [[HumanisticAgentDesign]] extend agent reliability beyond tooling: high-authority agents need visible action traces, risk-tiered permissions, and clarification of user assumptions, intent, and next needs rather than mere agreement.
-- [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], and [[TroughOfSorrow]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], and root-bottleneck diagnosis when launch attention fades.
-- [[RuleOfThreesProductDevelopment]], [[NetPromoterScore]], and [[ProductRedesign]] connect metrics, research, redesign, and shipping through [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[UserJourneyMapping]], [[InternalCoDesign]], [[InformationHierarchy]], [[IterativeProductShipping]], and [[ProductRetrospectives]].
 - [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
+- [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation aligned with the systems it changes. The newest source adds Agent Experience: agents need intent handling, context delivery, action control, permission and transparency systems, AX-friendly interfaces, and humanistic checks against sycophantic validation.
+AI and technology sources emphasize human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, and domain-correct representations. The newest agent-testing source sharpens AI coding by treating cheap deterministic validation, residual review, and core/regression test separation as the bottleneck that makes coding-agent speed useful.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]], [[AIVoiceInput]], [[Soniox]], [[Spokenly]], [[Typeless]], [[VoiceInk]], [[Grok4]].
@@ -57,7 +57,7 @@ The culture-and-media layer connects experience-centered practices across learni
 
 ### Governance and Institutions
 
-Governance material spans institutions, infrastructure, public information spaces, developer environments, platforms, product boundaries, social systems, agents, and public action. The newest AX source adds agent governance through auditability, behavior alarms, sandbox limits, and risk-tiered permissions for high-authority AI actions.
+Governance material spans institutions, infrastructure, public information spaces, developer environments, platforms, product boundaries, social systems, agents, and public action. Agent governance adds auditability, behavior alarms, sandbox limits, semantic isolation, and risk-tiered permissions for high-authority AI actions.
 
 ### History and Geopolitics
 
@@ -78,7 +78,7 @@ The topic remains mostly indirect. It covers attention and mental load in produc
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame effective agency as habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. AI-era work increases the premium on problem definition, evidence chains, and accountable human judgment.
+Work, education, and society sources show learning, career growth, team practice, civic software, and organizational judgment depending on explicit goals, realistic evidence, active explanation, role design, and responsible use of tools rather than passive consumption or opaque delegation.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

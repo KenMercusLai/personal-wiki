@@ -119,9 +119,9 @@
       "global_candidate": true,
       "id": "ai-coding-needs-human-and-system-controls",
       "qualifications": [
-        "The sources are practitioner essays, case studies, and a secondary synthesis of formal and empirical agent-reliability arguments; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, large-project role-based workflows, distributed-consensus limits, and older human-review practices."
+        "The sources are practitioner essays, case studies, and a secondary synthesis of formal and empirical agent-reliability arguments; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, residual-testing, large-project role-based workflows, distributed-consensus limits, and older human-review practices."
       ],
-      "statement": "[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.",
+      "statement": "[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.",
       "status": "supported",
       "supporting_wikilinks": [
         "AICodingPractice",
@@ -144,7 +144,11 @@
         "CYY",
         "TasteAsProblemSense",
         "MaxLv",
-        "MihomoRust"
+        "MihomoRust",
+        "AgentTDDResidual",
+        "CoreRegressionTestSeparation",
+        "DeterministicTesting",
+        "SnapshotTesting"
       ]
     },
     {
@@ -360,6 +364,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds Agent Experience as a broader product frame: agents need intent handling, context delivery, action control, permission and transparency systems, AX-friendly interfaces, and humanistic checks against sycophantic validation.",
+  "summary": "AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, and real-world evidence. The newest agent-testing source sharpens the AI coding thread by treating cheap deterministic validation and residual review as the bottleneck that makes coding-agent speed useful.",
   "topic_id": "ai-and-technology"
 }

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 456ba406d42a071e98b374857ea6dbbb6199f1a4
-input_digest: 7c5603b54075e6497f059c7d20288d8f5a1ad8b87c7029fcbf8789089dd10adc
+as_of_overview_commit: 2b46689d056faf33aa48fead0bf2c428a5fde14b
+input_digest: fbfe6dc154440a3bd1219008ae8c6b19243dd78a003eafe6f54736637e82e9bc
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds Agent Experience as a broader product frame: agents need intent handling, context delivery, action control, permission and transparency systems, AX-friendly interfaces, and humanistic checks against sycophantic validation.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, and real-world evidence. The newest agent-testing source sharpens the AI coding thread by treating cheap deterministic validation and residual review as the bottleneck that makes coding-agent speed useful.
 
 ## Cross-source Findings
 
@@ -69,13 +69,13 @@ AI and technology sources emphasize that useful systems depend on human judgment
 
 ### Ai Coding Needs Human And System Controls
 
-[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
+[[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
 
-**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[BlackBoxLearning]], [[GitHubCopilot]], [[CYY]], [[TasteAsProblemSense]], [[MaxLv]], [[MihomoRust]]
+**Evidence:** [[AICodingPractice]], [[CodeReviewPractice]], [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[VibeCoding]], [[ClaudeCode]], [[JuniorEngineerLearning]], [[BlackBoxLearning]], [[GitHubCopilot]], [[CYY]], [[TasteAsProblemSense]], [[MaxLv]], [[MihomoRust]], [[AgentTDDResidual]], [[CoreRegressionTestSeparation]], [[DeterministicTesting]], [[SnapshotTesting]]
 
 **Qualifications:**
 
-- The sources are practitioner essays, case studies, and a secondary synthesis of formal and empirical agent-reliability arguments; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, large-project role-based workflows, distributed-consensus limits, and older human-review practices.
+- The sources are practitioner essays, case studies, and a secondary synthesis of formal and empirical agent-reliability arguments; they disagree in emphasis between collaboration-first, automation-first, learning-preservation, residual-testing, large-project role-based workflows, distributed-consensus limits, and older human-review practices.
 
 ### Agent Experience Needs Permissions And Humanistic Design
 

@@ -24,6 +24,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
+- [Agent 时代的 TDD：只关注行为的残差](sources/agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha.md) - Agent-era testing essay arguing that coding-agent speed only pays off when tests and implementation alternate around deterministic snapshots, core tests, regression baselines, and residual review.
 - [AI 语音输入工具提示词](sources/ai-yu-yin-shu-ru-gong-ju-ti-shi-ci.md) - Practical prompt and tool note for turning raw Chinese voice transcripts into clean written text without adding unsupported information.
 - [AI winter is well on its way - Piekniewski's blog](sources/ai-winter-is-well-on-its-way-piekniewskis-blog.md) - Filip Piekniewski's 2018 essay arguing that deep-learning hype was cracking through compute-scaling limits, self-driving failures, spurious visual patterns, and the Uber fatal crash.
 - [Bump: 10 Years of Lessons Learned](sources/bump-10-years-of-lessons-learned.md) - David Lieb's retrospective on Bump, showing small-team leverage, user-behavior discovery, photo-sharing pivots, cofounder bonds, Google acquisition, and Google Photos continuity.
@@ -701,6 +702,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent Permission Model](concepts/AgentPermissionModel.md) - Risk-tiered control system for agent reads, writes, deletions, execution, private data, and irreversible operations.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
+- [Agent TDD Residual](concepts/AgentTDDResidual.md) - Coding-agent workflow that alternates test-only and implementation-only phases so humans review behavioral residuals.
 - [Distributed Consensus](concepts/DistributedConsensus.md) - Agreement problem for independent agents or nodes working under asynchronous communication, failure, and inconsistent local views.
 - [Trust Topology](concepts/TrustTopology.md) - Verification-gate arrangement for making unreliable AI agents produce more reliable software systems.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
@@ -729,6 +731,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, and delivery flow.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
+- [Core Regression Test Separation](concepts/CoreRegressionTestSeparation.md) - Splitting human-confirmed correctness tests from agent-generated continuity tests so review attention follows behavior changes.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
@@ -742,6 +745,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
 - [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, and noise that produces observed data.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
+- [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
 - [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
 - [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
@@ -840,6 +844,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Social Proof](concepts/SocialProof.md) - Visitor inference from visible approval, absence, relevance, or mismatch around a product, page, or creator.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
+- [Snapshot Testing](concepts/SnapshotTesting.md) - Capturing outputs or output summaries as versioned baselines so later diffs expose behavior changes.
 - [Spec-Driven Agent Development](concepts/SpecDrivenAgentDevelopment.md) - Coding-agent workflow where specs, ADRs, test plans, and status documents act as formal interfaces.
 - [Self-Discipline](concepts/SelfDiscipline.md) - Refusing low-value impulses and inputs so attention, cognition, and action remain directed by chosen aims.
 - [Stochastic Gradient Descent](concepts/StochasticGradientDescent.md) - Optimization method used as a life-strategy metaphor for goals, feedback, small steps, exploration, rest, and restart.

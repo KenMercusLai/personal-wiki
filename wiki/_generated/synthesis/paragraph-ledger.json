@@ -110,6 +110,7 @@
       "d97a3c87fd7207ff43bd1f4c3b5c3ed204226a0a29be6d01b01473c9bc981227",
       "af7ad09ac7000caeb278383d9e9591a0f0c4adb94bf68f0ba94bcf89845a530f",
       "c93f089ea2a6b508b630cebc0f5379814223f08ca47d15db9b26e265f417a35c",
+      "149e73e66b0e5d5d8fc4d92aae437afde8ba511bc228d777c7cc2277cd157923",
       "01e1edf74e3d591ec36fb9fad51624f5703e81eb57279778d0f81a23eb27b185",
       "1e1074fa5b416095e13e1fddedbd74dd54b8506bfbed87d7b5ce5b594a8401ba",
       "2445f23151382e28d8ffc610e04c65446a381e05dfab0a56165a15a170529ddf",
@@ -130,10 +131,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 128
+    "paragraph_count": 129
   },
-  "overview_commit": "456ba406d42a071e98b374857ea6dbbb6199f1a4",
-  "overview_digest": "d5cb1d73c824956d6d1179d67a0e675517702f1d4e39fc3f732ba013c327df2c",
+  "overview_commit": "2b46689d056faf33aa48fead0bf2c428a5fde14b",
+  "overview_digest": "2d04abf3372f1d2d02cf5131fa70e0f99e30032174711d4c463bde4c8e4fa9cb",
   "paragraphs": [
     {
       "id": "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
@@ -2303,6 +2304,25 @@
         "OracleRouting",
         "SoftwareVerification",
         "TrustTopology"
+      ]
+    },
+    {
+      "id": "149e73e66b0e5d5d8fc4d92aae437afde8ba511bc228d777c7cc2277cd157923",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The agent-era TDD source adds a testing-economics layer to that same AI coding cluster. [[AgentTDDResidual]] argues that agent speed is wasted when humans must review large generated implementations and rerun expensive comparisons before trusting them. The proposed harness alternates test-only and implementation-only phases, using the previous usable version as a fixed point; [[DeterministicTesting]] and [[SnapshotTesting]] make behavior changes visible as residuals rather than noise. [[CoreRegressionTestSeparation]] then splits the attention budget: core tests preserve correctness through human-confirmed expected behavior, while regression snapshots preserve continuity and ask humans to judge diffs. This sharpens [[AICodingPractice]], [[SoftwareVerification]], and [[HarnessEngineering]] by treating cheap, stable validation feedback as the real accelerator.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AICodingPractice",
+        "AgentTDDResidual",
+        "CoreRegressionTestSeparation",
+        "DeterministicTesting",
+        "HarnessEngineering",
+        "SnapshotTesting",
+        "SoftwareVerification"
       ]
     },
     {

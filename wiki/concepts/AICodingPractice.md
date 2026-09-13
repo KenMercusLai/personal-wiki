@@ -8,7 +8,8 @@ sources:
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
   - du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
-last_updated: 2026-09-12
+  - agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha
+last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,12 +21,14 @@ The sources frame AI coding practice as a sociotechnical discipline rather than 
 
 At project scale, AI coding practice can become role design, document ownership, spec handoffs, memory hygiene, and CI discipline. The unit of practice shifts from "developer plus agent" to an [[AgentTeam]] whose work is coordinated through the file system.
 
+Responsible agent coding also needs a verification-centered operating rule: do not let agents change tests and implementation freely in the same pass. [[AgentTDDResidual]] alternates test-only and implementation-only phases so the previous usable version, deterministic outputs, and snapshots become a fixed point. This shifts human effort from reading all generated code to judging behavior residuals, core expected outputs, and snapshot diffs.
+
 ## Key Claims
 - AI coding practice requires shared team expectations because inconsistent agent-use habits can create collaboration friction.
 - Engineers remain responsible for generated code, maintainability, and final judgment.
 - Collaboration with agents should include design exploration and implementation reasoning, not only natural-language task assignment.
 - Fast AI output increases the need for small PRs, review aids, and pre-PR self-review.
-- Verification through tests and self-checks is part of the workflow, not a later review responsibility.
+- Verification through tests, self-checks, residual review, deterministic feedback, and snapshot diffs is part of the workflow, not a later review responsibility.
 - Junior engineers, independent developers, and intensive coding-agent users need practices that protect learning, human pace, and task control rather than optimize only for speed.
 - AI-first and multi-agent coding practice depends on engineering systems, explicit roles, document boundaries, specs, memories, and verification gates that let agent output be checked, shipped, observed, and rolled back quickly.
 
@@ -41,15 +44,17 @@ At project scale, AI coding practice can become role design, document ownership,
 - Task granularity: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] contrasts project-breaking large-grain delegation with small, explicit instructions that name files, functions, state flow, UI behavior, localization needs, and acceptance targets.
 - Independent-developer control: [[du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan]] shows an independent developer using AI to build unfamiliar iOS and Flutter work while still reviewing code, inspecting changed files, and accepting the result deliberately.
 - Multi-agent practice: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] coordinates PM, Architect, Engineer, and QA agents through ADRs, specs, roadmaps, test plans, and CI state.
+- Residual-focused testing: [[agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha]] recommends alternating test-only and implementation-only phases so agents self-correct against a stable side and humans review behavior residuals.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, and the strength of the surrounding verification harness.
+The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, and the strength of the surrounding verification harness.
 
 ## What Changed
 - Added the AI-first source's organization-level workflow view while preserving Piglei's responsibility, reviewability, and learning constraints.
 - Added the Claude Code source's practitioner emphasis on small iterations, context-aware task boundaries, and human pace.
 - Added the independent-developer source's distinction between dangerous large-grain delegation and controlled file-aware task slicing.
 - Added Agent Team practice as a structured project-scale form of AI coding.
+- Added residual-focused agent TDD as a testing-centered practice for reducing review and verification cost.
 
 ## Related Concepts
 - [[HumanCodeResponsibility]] - accountability is the foundation of the article's practice model.
@@ -63,3 +68,4 @@ The sources are practitioner essays rather than controlled comparisons of AI cod
 - [[VibeCoding]] - names the speed-amplified workflow where these practices become especially important.
 - [[AgentTeam]] - extends AI coding practice into role-based multi-agent project work.
 - [[SpecDrivenAgentDevelopment]] - supplies document interfaces for agent implementation.
+- [[AgentTDDResidual]] - supplies the article's alternating test/implementation loop for agent work.
