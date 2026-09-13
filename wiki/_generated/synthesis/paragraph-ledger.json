@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7e64383c23eb2385b811403684d76c8f252ab6baf47fe2769de8ceaaadecf981",
       "b7635e6a2a6c816a061a7f52abb0033632a270819e4efe83d5df0318b15dd6a1",
       "3b13da1575e8aec9d035d7ea9eda6924d8b7528e03f6b4714fe6681296fdf784",
       "6209e72e59f02fb1f9074dbb80cf92e76cfef251eafcdb1adfde250444860d21",
@@ -140,11 +141,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 138
+    "paragraph_count": 139
   },
-  "overview_commit": "6522dfa8dde9cf3a141733173dabed218d644936",
-  "overview_digest": "79ba1cd8379777e71c9c919fa8bf2eb91cf22bf8adebdc5078fc7b4bfe5fbc8a",
+  "overview_commit": "5142882fca3e19f7cde4ca3c43ac6de93c9681f7",
+  "overview_digest": "7e873345be42f133998ff5e8a7aa2bfc59291790341d6cf14d39b04398f33d09",
   "paragraphs": [
+    {
+      "id": "7e64383c23eb2385b811403684d76c8f252ab6baf47fe2769de8ceaaadecf981",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Appster source adds an app-specific landing-page layer to the wiki's startup marketing and conversion material. [[AppLandingPages]] names the article's model: a standalone page with one conversion goal can validate app demand before code exists, drive downloads outside app-store constraints, collect lead demographics, and measure campaign messaging. The inspected screenshots turn the checklist into concrete evidence: WhatsApp shows a focused app page, [[Slack]] pairs value proposition with product UI and testimonial support, Evernote foregrounds one sign-up CTA, Paleo Leap illustrates CTA overload, Breather and Huemor show different coherent visual strategies, and Zendesk shows how vague headline hierarchy can hide the clearer product explanation. This strengthens [[ConversionRateOptimization]], [[SocialProof]], and [[InformationHierarchy]] with a pre-product marketing surface where clarity, proof, speed, and ongoing testing matter together.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AppLandingPages",
+        "ConversionRateOptimization",
+        "InformationHierarchy",
+        "Slack",
+        "SocialProof"
+      ]
+    },
     {
       "id": "b7635e6a2a6c816a061a7f52abb0033632a270819e4efe83d5df0318b15dd6a1",
       "primary_topic": "business-and-markets",

@@ -108,10 +108,11 @@
       "qualifications": [
         "Growth examples are mostly practitioner or historical cases, and channel conditions, product quality, cohort behavior, and retention determine whether acquisition creates durable value."
       ],
-      "statement": "[[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.",
+      "statement": "[[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.",
       "status": "supported",
       "supporting_wikilinks": [
         "SaaSMarketing",
+        "AppLandingPages",
         "SocialProof",
         "GrowthHacking",
         "ViralLoops",
@@ -467,6 +468,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. Recent sources add four complementary constraints: Amazon-scale merchants can redirect cryptocurrency-payment adoption, micromobility depends on local operating density, aggregators centralize trust by making stranger transactions acceptable, and DJI shows that founder-led hardware success must evolve from product taste into entropy-reducing management systems.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. Recent sources add five complementary constraints: app landing pages turn pre-product marketing into testable validation and conversion work, Amazon-scale merchants can redirect cryptocurrency-payment adoption, micromobility depends on local operating density, aggregators centralize trust by making stranger transactions acceptable, and DJI shows that founder-led hardware success must evolve from product taste into entropy-reducing management systems.",
   "topic_id": "business-and-markets"
 }

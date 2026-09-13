@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
+- [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
 - [All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding](sources/all-the-questions-you-wanted-answered-about-bird-scooters-and-their-recent-300-million-funding.md) - Mark Suster argues that Bird's rapid scooter-service growth was driven by dense demand, capital, local operations, data, hardware learning, and category-defining brand.
@@ -319,7 +320,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
-- [Slack](entities/Slack.md) - Successful startup outcome used to show how hindsight distorts employee equity decisions.
+- [Slack](entities/Slack.md) - Collaboration software used as an equity hindsight, viral invitation, and landing-page value-proposition example.
 - [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
 - [Fab](entities/Fab.md) - Startup-equity counterexample used to contrast famous winning outcomes.
 - [Secret](entities/Secret.md) - Startup-equity and founder-secondary-liquidity example used to illustrate founder-employee asymmetry.
@@ -539,7 +540,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 - [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for the code-review practice source.
 - [Josiah Humphrey](entities/JosiahHumphrey.md) - Startup operator voice behind the Appster PR advice for bootstrapped founders.
-- [Appster](entities/Appster.md) - Startup/company context used for practical PR, guest-publishing, and media-outreach examples.
+- [Appster](entities/Appster.md) - Startup/company context used for practical PR and app landing-page marketing advice.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.
 - [FFmpeg](entities/FFmpeg.md) - Open-source command-line media toolkit used here to record RTSP camera streams into MP4 clips.
 - [FRP](entities/FRP.md) - Tunneling tool used to forward a private camera's web and RTSP ports from OpenWrt to a remote server.
@@ -618,6 +619,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Design Skill Axes](concepts/DesignSkillAxes.md) - Product-design growth dimensions spanning product thinking, interaction design, visual design, intentionality, drive, and self-awareness.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
 - [Information Hierarchy](concepts/InformationHierarchy.md) - Ordering and prioritizing interface information so users can find important data, actions, and features when needed.
+- [App Landing Pages](concepts/AppLandingPages.md) - Single-goal app marketing pages for validation, acquisition, lead capture, and conversion testing.
 - [User Journey Mapping](concepts/UserJourneyMapping.md) - Mapping how users move through a product so redesign teams can align around important goals and repeated flows.
 - [Investigate and Fix Flow](concepts/InvestigateAndFixFlow.md) - Crashlytics micro-journey linking stability signals, issue inspection, prioritization, and crash debugging evidence.
 - [Internal Co-Design](concepts/InternalCoDesign.md) - Structured redesign practice where teammates actively rearrange and reason about product surfaces to expose pain themes.

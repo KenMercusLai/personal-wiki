@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 6522dfa8dde9cf3a141733173dabed218d644936
-input_digest: 46aa867f5fab34040d1239ba99d9a8c63ec4a4d4a6af1419dd94dcf6fa6e268e
+as_of_overview_commit: 5142882fca3e19f7cde4ca3c43ac6de93c9681f7
+input_digest: aaa9fea8835a88b42541412ffb9645bffcb98cfc742e494e08b5666e980dc326
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. Recent sources add four complementary constraints: Amazon-scale merchants can redirect cryptocurrency-payment adoption, micromobility depends on local operating density, aggregators centralize trust by making stranger transactions acceptable, and DJI shows that founder-led hardware success must evolve from product taste into entropy-reducing management systems.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. Recent sources add five complementary constraints: app landing pages turn pre-product marketing into testable validation and conversion work, Amazon-scale merchants can redirect cryptocurrency-payment adoption, micromobility depends on local operating density, aggregators centralize trust by making stranger transactions acceptable, and DJI shows that founder-led hardware success must evolve from product taste into entropy-reducing management systems.
 
 ## Cross-source Findings
 
@@ -68,9 +68,9 @@ Business and market sources show companies and investors converting technology, 
 
 ### Saas Acquisition And Trust Loops Must Preserve Retained Value
 
-[[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
+[[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
 
-**Evidence:** [[SaaSMarketing]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[SaaSRetention]], [[ProductLedRetention]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
+**Evidence:** [[SaaSMarketing]], [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[SaaSRetention]], [[ProductLedRetention]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
 
 **Qualifications:**
 
