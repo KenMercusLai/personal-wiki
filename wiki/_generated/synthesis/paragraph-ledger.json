@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "686aa1ff62b57d56b1fe172ce263b7e48928ff6b2024a311882a24cc93398237",
       "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
       "e331db3d5c1d1f06421885c5d2a0927e793637f6aa9fc5bc91e3a4b1c3835117",
       "3cf64412dae9df6082d95d75ca6d77f5311c03877f5f49b89cec2d2c600b4be2",
@@ -158,11 +159,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 156
+    "paragraph_count": 157
   },
-  "overview_commit": "241172f2960fb8e2a942b6dca4c5318ff41c7462",
-  "overview_digest": "316a801c1493a5bc1a3fbed8f076fc1599bcd2a623850f2ee4a309e50a9e75c2",
+  "overview_commit": "c8f2ac1f09b8453e77379cbb0b0f71bc6ea1259d",
+  "overview_digest": "369d5863a02426adba675bdd291e0f2d4121c9ed9de3ac16f974ca3f4a1c0881",
   "paragraphs": [
+    {
+      "id": "686aa1ff62b57d56b1fe172ce263b7e48928ff6b2024a311882a24cc93398237",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Mission.org source adds an opportunity-cost layer to the wiki's goal, attention, discipline, and productivity material. [[OpportunityCost]] names the article's \"pay the price\" frame: ambitious personal change is not just wanting an outcome but accepting the cost of fewer directions, fewer merely good options, and fewer low-value defaults. This sharpens [[GoalSetting]] by making decision and exclusion central, [[SelfDiscipline]] by treating daily refusals as the actual payment, [[AttentionManagement]] by making spare minutes and phone use with loved ones evidence of priority, and [[PersonalProductivity]] by framing time as the scarce resource that cannot be recovered. The synthesis is qualified because the article's \"anything is possible\" rhetoric is motivational rather than proof that personal discipline can overcome every structural, health, caregiving, or material constraint.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "GoalSetting",
+        "OpportunityCost",
+        "PersonalProductivity",
+        "SelfDiscipline"
+      ]
+    },
     {
       "id": "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
       "primary_topic": "governance-and-institutions",

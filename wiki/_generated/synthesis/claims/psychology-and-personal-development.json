@@ -60,18 +60,21 @@
     },
     {
       "global_candidate": true,
-      "id": "goals-and-abstractions-focus-learning",
+      "id": "goals-and-opportunity-cost-focus-agency",
       "qualifications": [
-        "The sources warn that goals can become externally competitive or misdirected, so discomfort and discipline matter only when they support meaningful direction."
+        "The sources warn that goals can become externally competitive, coercive, or misdirected, and the Mission.org source's 'anything is possible' rhetoric does not prove that discipline can overcome structural, health, caregiving, or material constraints."
       ],
-      "statement": "Goals, abstraction, and optimization metaphors help learners focus attention without reducing learning to rote status competition.",
+      "statement": "Goals, abstraction, opportunity-cost awareness, and optimization metaphors can focus agency when they turn vague desire into chosen direction, repeated attention, and concrete tradeoffs through [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], and [[PersonalProductivity]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "GoalSetting",
+        "OpportunityCost",
+        "SelfDiscipline",
+        "PersonalProductivity",
+        "AttentionManagement",
         "LearnDrive",
         "KnowledgeValuationNetwork",
         "StochasticGradientDescent",
-        "SelfDiscipline",
         "CreativeAbstraction",
         "PiotrWozniak",
         "PeterThiel"
@@ -153,6 +156,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, goals, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest AI-blogging paragraph adds a practical agency pattern: imperfect [[ChatGPT]] drafts, questions, outlines, and voice cleanup can help a writer move from stuckness to judgment, but only when the person supplies selection, evidence, examples, voice, and revision.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.",
   "topic_id": "psychology-and-personal-development"
 }

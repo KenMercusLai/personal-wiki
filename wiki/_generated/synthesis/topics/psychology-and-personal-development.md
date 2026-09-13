@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-13
-as_of_overview_commit: 8e6008686d71af013cf4b3e93d191f7e1dbc2cfb
-input_digest: 74f04b311559122c7ff195c5529c538619c38d6fe598d92bd231b84780f5af5a
+as_of_overview_commit: c8f2ac1f09b8453e77379cbb0b0f71bc6ea1259d
+input_digest: ca6a4f75cb3cf43bd3cc7d9b0d6da520537ce43c7d8b26757cc06ccb625eda74
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, goals, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest AI-blogging paragraph adds a practical agency pattern: imperfect [[ChatGPT]] drafts, questions, outlines, and voice cleanup can help a writer move from stuckness to judgment, but only when the person supplies selection, evidence, examples, voice, and revision.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Mission.org paragraph adds a choice-and-cost pattern: wanting an outcome matters less than deciding a direction, paying with scarce time and attention, and refusing low-value defaults, while still qualifying motivation rhetoric against real structural and personal constraints.
 
 ## Cross-source Findings
 
@@ -46,15 +46,15 @@ Interfaces, reports, maps, command-line tools, and AI workflows shape confidence
 
 - The evidence spans research reports, mapping, satirical UX rhetoric, and command-line tools, so the shared claim is about legibility and cognitive burden rather than one interface pattern.
 
-### Goals And Abstractions Focus Learning
+### Goals And Opportunity Cost Focus Agency
 
-Goals, abstraction, and optimization metaphors help learners focus attention without reducing learning to rote status competition.
+Goals, abstraction, opportunity-cost awareness, and optimization metaphors can focus agency when they turn vague desire into chosen direction, repeated attention, and concrete tradeoffs through [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], and [[PersonalProductivity]].
 
-**Evidence:** [[GoalSetting]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[StochasticGradientDescent]], [[SelfDiscipline]], [[CreativeAbstraction]], [[PiotrWozniak]], [[PeterThiel]]
+**Evidence:** [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], [[PersonalProductivity]], [[AttentionManagement]], [[LearnDrive]], [[KnowledgeValuationNetwork]], [[StochasticGradientDescent]], [[CreativeAbstraction]], [[PiotrWozniak]], [[PeterThiel]]
 
 **Qualifications:**
 
-- The sources warn that goals can become externally competitive or misdirected, so discomfort and discipline matter only when they support meaningful direction.
+- The sources warn that goals can become externally competitive, coercive, or misdirected, and the Mission.org source's 'anything is possible' rhetoric does not prove that discipline can overcome structural, health, caregiving, or material constraints.
 
 ### Future Capacity Can Motivate Present Behavior
 
