@@ -290,6 +290,25 @@
     },
     {
       "global_candidate": true,
+      "id": "architecture-boundaries-change-with-operational-load",
+      "qualifications": [
+        "The evidence is one 2018 Twilio Segment case, not a universal monolith-over-microservices rule; the source also preserves monolith trade-offs around fault isolation, cache efficiency, and dependency-update blast radius."
+      ],
+      "statement": "[[TwilioSegment]], [[HeadOfLineBlocking]], [[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[Centrifuge]], [[MonorepoDependencyConvergence]], [[TrafficRecorder]], and [[RecordedTrafficTesting]] show that software architecture boundaries can change as queue isolation, service count, dependency drift, test reliability, and operational load change.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "TwilioSegment",
+        "HeadOfLineBlocking",
+        "MicroserviceOperationalOverhead",
+        "MonolithConsolidation",
+        "Centrifuge",
+        "MonorepoDependencyConvergence",
+        "TrafficRecorder",
+        "RecordedTrafficTesting"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "live-scale-engineering-needs-realistic-verification",
       "qualifications": [
         "Game-server evidence is domain-specific, and staging realism reduces but does not eliminate production risk because scale, data, and failure timing can still differ.",
@@ -381,6 +400,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest aggregator-trust paragraph adds a source-scoped platform-technology note: tools such as smart contracts, smart locks, or self-driving cars may reduce the trust work platforms perform, though incumbent demand ownership remains a separate advantage.",
+  "summary": "AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest software-architecture case adds that service boundaries are workload- and tooling-dependent: microservices can solve isolation problems while later creating operational overhead that a monolith, monorepo, queue redesign, and recorded-traffic tests may reduce.",
   "topic_id": "ai-and-technology"
 }

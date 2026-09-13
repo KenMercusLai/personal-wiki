@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 35bfe0532aea5534a5f92fbdec083931b3ad8282
-input_digest: f61c05717fa0afd8f0afcb839648f9a80033513e36db1b407a17e071c80f29b2
+as_of_overview_commit: 7378e5ad9c9fc22bc10028c1d4a78d5ddd5b2bc4
+input_digest: 4a33800c308ac75cc69f73c8a0c16877755259eabd215a6cf58b8975e38402fc
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest aggregator-trust paragraph adds a source-scoped platform-technology note: tools such as smart contracts, smart locks, or self-driving cars may reduce the trust work platforms perform, though incumbent demand ownership remains a separate advantage.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest software-architecture case adds that service boundaries are workload- and tooling-dependent: microservices can solve isolation problems while later creating operational overhead that a monolith, monorepo, queue redesign, and recorded-traffic tests may reduce.
 
 ## Cross-source Findings
 
@@ -126,6 +126,16 @@ AI and technology sources emphasize human accountability, explicit models, relia
 **Qualifications:**
 
 - The mobile-platform evidence is partly source-date bounded, the Apple glasses claims are speculative 2018 analyst interpretation, the corporate-giant frame is a 2018 market snapshot, and campaign and platform-turnaround sources do not independently prove operational or electoral outcomes.
+
+### Architecture Boundaries Change With Operational Load
+
+[[TwilioSegment]], [[HeadOfLineBlocking]], [[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[Centrifuge]], [[MonorepoDependencyConvergence]], [[TrafficRecorder]], and [[RecordedTrafficTesting]] show that software architecture boundaries can change as queue isolation, service count, dependency drift, test reliability, and operational load change.
+
+**Evidence:** [[TwilioSegment]], [[HeadOfLineBlocking]], [[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[Centrifuge]], [[MonorepoDependencyConvergence]], [[TrafficRecorder]], [[RecordedTrafficTesting]]
+
+**Qualifications:**
+
+- The evidence is one 2018 Twilio Segment case, not a universal monolith-over-microservices rule; the source also preserves monolith trade-offs around fault isolation, cache efficiency, and dependency-update blast radius.
 
 ### Live Scale Engineering Needs Realistic Verification
 

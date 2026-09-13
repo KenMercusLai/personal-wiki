@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 35bfe0532aea5534a5f92fbdec083931b3ad8282
-summary: "Podcast Atlas maps how technology, markets, work, media, institutions, and agency co-evolve through trust, evidence, infrastructure, incentives, and judgment."
-episode_count: 132
-source_count: 132
-paragraph_count: 130
+as_of_overview_commit: 7378e5ad9c9fc22bc10028c1d4a78d5ddd5b2bc4
+summary: "Podcast Atlas maps how technology, markets, work, media, institutions, and agency co-evolve through trust, evidence, infrastructure, incentives, operational load, and judgment."
+episode_count: 133
+source_count: 133
+paragraph_count: 131
 topic_count: 9
 ---
 
@@ -19,6 +19,7 @@ topic_count: 9
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], [[AgentExperience]], and [[AgentInterfaceAsContext]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, exposed through interfaces, and connected to tools.
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], [[BlackBoxLearning]], and [[AgentTDDResidual]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
+- [[TwilioSegment]], [[HeadOfLineBlocking]], [[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[Centrifuge]], [[MonorepoDependencyConvergence]], [[TrafficRecorder]], and [[RecordedTrafficTesting]] show that software architecture boundaries can change as queue isolation, service count, dependency drift, test reliability, and operational load change.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], and [[TroughOfSorrow]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], and root-bottleneck diagnosis when launch attention fades.
 - [[AggregationTheory]] and [[MarketplaceTrust]] show aggregators such as [[Airbnb]] and [[Uber]] converting demand trust into platform power: users stop relying on supplier popularity as a trust proxy, stranger transactions become acceptable, supplier profits can flatten, and [[TrustMinimizationTechnology]] becomes a possible pressure on the trust-enabled share of aggregator value.
 - [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
@@ -28,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, real-world evidence, and architecture boundaries that should change when isolation benefits are outweighed by operational load.
 
 - [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], and [[NoteToolFit]] show that AI knowledge tools sit on top of source choice, durable structure, explanation, and tool affordance fit rather than replacing them. Evidence: [[SystematicLearning]], [[PersonalKnowledgeManagement]], [[NoteGranularity]], [[NoteToolFit]], [[AIKnowledgeAssistant]], [[SecondBrain]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[AIVoiceInput]] are treated as legitimate only when humans retain question ownership, material judgment, fact accountability, standards, and signable responsibility, including transcript cleanup that preserves spoken intent without invention. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[FengRuohang]], [[Hanyang]], [[Claude]], [[Gemini]], [[ChatGPT]], [[TasteAsProblemSense]], [[AIVoiceInput]], [[Soniox]], [[Spokenly]], [[Typeless]], [[VoiceInk]], [[Grok4]].
@@ -77,7 +78,7 @@ Science, health, and climate sources currently contribute focused patterns aroun
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design.
+Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and engineering-capacity constraints created by architecture choices.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-13
-as_of_overview_commit: 658a489acca8d1c5a04d8bc1c59cb1a5eb547aec
-input_digest: e552cacb8686d46a62466115879d3aa1f5bcbc9ae0f6bcba112e434f5d5ba241
+as_of_overview_commit: 7378e5ad9c9fc22bc10028c1d4a78d5ddd5b2bc4
+input_digest: fb56deb179ee6c850606388412b58041c40df53c9ffa664b652c45334b7f03aa
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest productivity-software source adds that some work tools become valuable through learning curves, making beginner access and expert dependence part of their social and economic shape.
+Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest architecture case adds that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.
 
 ## Cross-source Findings
 
@@ -136,6 +136,16 @@ Work, education, and society sources frame effective agency as a mix of habits, 
 **Qualifications:**
 
 - The HTTP adoption and support details are source-scoped to a 2019 publication context.
+
+### Team Capacity Shapes Architecture Boundaries
+
+[[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[MonorepoDependencyConvergence]], and [[RecordedTrafficTesting]] show that architecture choices affect team work because repos, queues, services, dependency rollout, autoscaling profiles, test flakiness, and on-call load can consume engineering capacity.
+
+**Evidence:** [[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[MonorepoDependencyConvergence]], [[RecordedTrafficTesting]], [[Centrifuge]], [[TrafficRecorder]], [[TwilioSegment]]
+
+**Qualifications:**
+
+- This is a secondary work-and-operations reading of a software-architecture case; the source does not measure team well-being or compare alternative staffing and automation options.
 
 ### Packet Flow Reasoning Teaches Infrastructure Tradeoffs
 

@@ -212,6 +212,24 @@
     },
     {
       "global_candidate": false,
+      "id": "team-capacity-shapes-architecture-boundaries",
+      "qualifications": [
+        "This is a secondary work-and-operations reading of a software-architecture case; the source does not measure team well-being or compare alternative staffing and automation options."
+      ],
+      "statement": "[[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[MonorepoDependencyConvergence]], and [[RecordedTrafficTesting]] show that architecture choices affect team work because repos, queues, services, dependency rollout, autoscaling profiles, test flakiness, and on-call load can consume engineering capacity.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MicroserviceOperationalOverhead",
+        "MonolithConsolidation",
+        "MonorepoDependencyConvergence",
+        "RecordedTrafficTesting",
+        "Centrifuge",
+        "TrafficRecorder",
+        "TwilioSegment"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "packet-flow-reasoning-teaches-infrastructure-tradeoffs",
       "qualifications": [
         "This is a secondary topic assignment; the source primarily belongs to networking and infrastructure.",
@@ -433,6 +451,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest productivity-software source adds that some work tools become valuable through learning curves, making beginner access and expert dependence part of their social and economic shape.",
+  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest architecture case adds that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.",
   "topic_id": "work-education-and-society"
 }

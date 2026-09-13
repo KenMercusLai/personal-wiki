@@ -138,6 +138,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 - [Accounting for Developers 101 - Google Docs](sources/accounting-for-developers-101-google-docs.md) - John McKee and Tom Mornini introduce double-entry accounting as a compact model developers can use when building software that tracks money.
 - [Advertising models in mobile messaging apps](sources/advertising-models-in-mobile-messaging-apps-mobile-dev-memo.md) - Eric Seufert classifies early mobile messaging ad formats as opt-in brand channels, CRM-like conversations, sponsored content, and branded stickers.
+- [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
@@ -536,6 +537,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tom Mornini](entities/TomMornini.md) - Coauthor of the developer-facing double-entry accounting primer.
 - [Luca Pacioli](entities/LucaPacioli.md) - Historical figure credited in the primer with publishing the first complete description of double-entry accounting in 1494.
 - [Luca Dellanna](entities/LucaDellanna.md) - Writer connecting aggregation theory, marketplace trust, platform profit centralization, and trust-minimizing technologies.
+- [Alexandra Noonan](entities/AlexandraNoonan.md) - Engineering author explaining Twilio Segment's server-side destinations migration from microservices to one monolithic service.
+- [Twilio Segment](entities/TwilioSegment.md) - Customer-data infrastructure product context for high-throughput event fan-out to many destination APIs.
+- [Centrifuge](entities/Centrifuge.md) - Twilio Segment infrastructure component replacing per-destination queues before the single destination service.
+- [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
 
 ## Concepts
 - [Aggregation Theory](concepts/AggregationTheory.md) - Platform-strategy frame where demand control and trust transfer let aggregators mediate supply and centralize profits.
@@ -915,5 +920,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Accounting Software Architecture](concepts/AccountingSoftwareArchitecture.md) - Design choice between modeling accounting directly and deriving reports from business-document records.
 - [Financial Software Design](concepts/FinancialSoftwareDesign.md) - Building software that represents money and business events with financially correct models.
 - [Business Finance Literacy](concepts/BusinessFinanceLiteracy.md) - Practical financial and accounting vocabulary needed to reason across business and engineering work.
+- [Microservice Operational Overhead](concepts/MicroserviceOperationalOverhead.md) - Operational, testing, deployment, dependency, and scaling burden created by many small services.
+- [Monolith Consolidation](concepts/MonolithConsolidation.md) - Deliberate move from many services into one shared service when consolidation better matches operations and change patterns.
+- [Monorepo Dependency Convergence](concepts/MonorepoDependencyConvergence.md) - Bringing related code and dependency versions together so shared changes can be tested consistently.
+- [Recorded Traffic Testing](concepts/RecordedTrafficTesting.md) - Capturing network request-response traffic once and replaying it to make integration-like tests faster and more deterministic.
 
 ## Syntheses

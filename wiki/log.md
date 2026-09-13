@@ -647,6 +647,10 @@ Added Luca Dellanna's aggregator-trust essay; created [[AggregationTheory]], [[T
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Goodbye Microservices: From 100s of Problem Children to 1 Superstar
+
+Added Alexandra Noonan's Twilio Segment architecture case, including inspected queue and Centrifuge diagrams; created Segment, Centrifuge, Traffic Recorder, microservice overhead, monolith consolidation, monorepo dependency convergence, and recorded-traffic testing pages; updated head-of-line blocking with the destination-queue example.
+
 ## [2026-09-13] ingest | Agent 时代的 TDD：只关注行为的残差
 
 Added the agent-era TDD source, created [[AgentTDDResidual]], [[CoreRegressionTestSeparation]], [[DeterministicTesting]], and [[SnapshotTesting]], and updated AI coding practice, software verification, and harness engineering with residual-focused testing, deterministic snapshots, and core/regression test separation.
@@ -1050,6 +1054,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
