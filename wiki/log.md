@@ -691,6 +691,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Apple's Social Network
+
+Added Ben Thompson's Stratechery analysis of Apple's post-unit-sales reporting shift and Today at Apple. Key claims: iPhone revenue growth was increasingly ASP- and mix-driven while unit growth flattened; Today at Apple functions as a controlled real-world social network; and Apple's installed-base story needs active-customer and revenue-per-user metrics, not only Services revenue and active devices.
+
 ## [2026-09-13] ingest | Apple's Middle Age
 
 Added Ben Thompson's Stratechery analysis of Apple as a mature vertical hardware company. Key claims: Apple's post-iPod strategy shifted from challenger interoperability toward incumbent ecosystem specificity; Apple Music could act as a bridge from iPhone ownership to HomePod purchases; 2018 growth leaned on higher iPhone ASPs, Services, and more devices per existing customer; and active devices, not abstract user counts, reveal Apple's hardware-centered business model.
@@ -1346,3 +1350,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] graph | Knowledge graph rebuilt
+
+1087 nodes, 5848 edges (5848 extracted, 0 inferred).
+
+## [2026-09-14] report | Graph health report generated
+
+1087 nodes analyzed.

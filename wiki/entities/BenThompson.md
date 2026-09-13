@@ -5,15 +5,16 @@ tags: [analyst, writer, technology-strategy]
 sources:
   - adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson
   - apples-middle-age-stratechery-by-ben-thompson
+  - apples-social-network-stratechery-by-ben-thompson
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, and [[Apple]]'s mature vertical hardware strategy.
+[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, [[Apple]]'s mature vertical hardware strategy, and Apple's customer-engagement reporting gap.
 
 ## Current Profile
-The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeCloud]] through the economics of packaged software, SaaS, productivity apps, and mobile platforms. His argument moves from user-level willingness to pay to producer incentives and then to platform-owner strategy: subscriptions can help app makers survive, but they can also help platform owners retain users who depend on indispensable apps. The Apple source shows the same incentive lens applied to a hardware company: Thompson argues that [[AppleMusic]] and Services should be understood as ways to differentiate and sell Apple devices, with [[HomePod]] as a case where service adoption bridges into hardware profit.
+The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeCloud]] through the economics of packaged software, SaaS, productivity apps, and mobile platforms. His argument moves from user-level willingness to pay to producer incentives and then to platform-owner strategy: subscriptions can help app makers survive, but they can also help platform owners retain users who depend on indispensable apps. The Apple middle-age source shows the same incentive lens applied to a hardware company: Thompson argues that [[AppleMusic]] and Services should be understood as ways to differentiate and sell Apple devices, with [[HomePod]] as a case where service adoption bridges into hardware profit. The Apple social-network source adds a measurement lens: if Apple wants investors to value engagement and installed-base monetization, Thompson argues it should disclose active customers and revenue per user rather than only active devices and Services revenue.
 
 ## Key Characteristics
 - Frames technology announcements through business-model and incentive changes.
@@ -22,6 +23,7 @@ The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeC
 - Treats app-store subscription support as a way for platforms to strengthen user retention.
 - Distinguishes services financial contribution from a company's underlying business model.
 - Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
+- Uses reporting choices, customer metrics, and engagement programs to test whether Apple's public story matches the economics it wants investors to believe.
 
 ## Evidence
 - Business-model lens: [[adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson]] says Adobe's announcement matters because new business models are rarer than new product versions.
@@ -30,12 +32,14 @@ The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeC
 - Vertical Apple model: [[apples-middle-age-stratechery-by-ben-thompson]] argues Apple's services differentiate hardware rather than turning Apple into a standalone services company.
 - Installed-base strategy: [[apples-middle-age-stratechery-by-ben-thompson]] frames Apple Music as a bridge from iPhone and Apple Music adoption to HomePod purchases.
 - Market maturity: [[apples-middle-age-stratechery-by-ben-thompson]] argues Apple's 2018 growth pressure came from premium-smartphone saturation, lengthening upgrade cycles, and the need to sell more to existing users.
+- Reporting critique: [[apples-social-network-stratechery-by-ben-thompson]] argues Apple's post-unit-sales reporting still lacked active-customer and revenue-per-user metrics.
+- Engagement lens: [[apples-social-network-stratechery-by-ben-thompson]] frames [[TodayAtApple]] as Apple's controlled, real-world alternative to a traditional social network.
 
 ## Qualifications
-This page covers Thompson only through two Stratechery articles. It does not summarize his broader publishing history, aggregation theory work, later writing, or current views.
+This page covers Thompson only through three Stratechery articles. It does not summarize his broader publishing history, aggregation theory work, later writing, or current views.
 
 ## What Changed
-- Added Thompson's Apple strategy analysis alongside the Adobe subscription and platform-owner analysis.
+- Added Thompson's Apple customer-engagement and reporting critique alongside the Adobe and mature-Apple strategy analyses.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -44,3 +48,4 @@ This page covers Thompson only through two Stratechery articles. It does not sum
 - [[PlatformStickiness]] - platform-retention effect Thompson uses to justify subscription support.
 - [[Apple]] - company whose mature hardware-centered strategy Thompson analyzes.
 - [[AppleMiddleAgeStrategy]] - concept capturing Thompson's Apple maturity argument.
+- [[AppleRealWorldSocialNetwork]] - concept capturing Thompson's Today at Apple engagement analogy.

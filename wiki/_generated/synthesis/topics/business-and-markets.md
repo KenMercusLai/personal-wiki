@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 0fc7382fc2cf0d380e9d6f9c8cc4a27b9a6d5a96
-input_digest: 4a2169aa10cf79fd75e76954df60aa8cd929bb066935c2513e7c68feecca352c
+as_of_overview_commit: 45ec85836ee92357c3cd3f8060fb387440e74869
+input_digest: f861e2709f8b22e2932244b9a04ebc9717b2e010f0cc1fd6b9e675afc9ed5a92
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services not only for subscription revenue and churn reduction but also for a trust, privacy, curation, and anti-scam brand promise; startups can protect scarce attention through familiar tools and distributed-system restraint; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; startups can protect scarce attention through familiar tools and distributed-system restraint; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
 
 ## Cross-source Findings
 
@@ -204,13 +204,13 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Mature Apple Strategy Combines Cash And Product Theory
 
-[[Apple]] joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes and differentiates a hardware-dependent installed base, subscriptions can reduce churn, trust and curation make privacy and anti-scam positioning part of brand value, saturated premium smartphones push growth toward higher ASPs and more devices per existing user, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
+[[Apple]] joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleRealWorldSocialNetwork]], [[TodayAtApple]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes and differentiates a hardware-dependent installed base, subscriptions can reduce churn, trust and curation make privacy and anti-scam positioning part of brand value, saturated premium smartphones push growth toward higher ASPs, more devices per existing user, and retail-led engagement, and Thompson's reporting critique says active-customer and revenue-per-user metrics would better support that installed-base story than Services revenue and active devices alone.
 
-**Evidence:** [[Apple]], [[NeilCybart]], [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[Amazon]], [[Google]], [[Microsoft]], [[Facebook]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], [[SmartGlasses]], [[AirPods]]
+**Evidence:** [[Apple]], [[NeilCybart]], [[ShareBuyback]], [[AppleServicesMachine]], [[AppleTrustBrand]], [[AppleGrowthLevers]], [[AppleMiddleAgeStrategy]], [[AppleRealWorldSocialNetwork]], [[TodayAtApple]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[Amazon]], [[Google]], [[Microsoft]], [[Facebook]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], [[SmartGlasses]], [[AirPods]]
 
 **Qualifications:**
 
-- The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, services churn reduction, TV+ scale, Card economics, Arcade retention, HomePod exclusivity, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed.
+- The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, wearable pricing effects, Apple Watch independence, smart-glasses user-base projections, services churn reduction, TV+ scale, Card economics, Arcade retention, HomePod exclusivity, Today at Apple retention effects, active-customer disclosure, revenue-per-user disclosure, and corporate-giant permanence claims require later outcome evidence before being treated as confirmed.
 
 ### Mobile Platforms Control Discovery And Seed New Form Factors
 

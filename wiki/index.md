@@ -21,6 +21,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
 - [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
 - [Apple's Middle Age](sources/apples-middle-age-stratechery-by-ben-thompson.md) - Ben Thompson argues that saturated premium smartphones pushed Apple toward inward growth through higher iPhone ASPs, Services, and more Apple-specific devices for existing users.
+- [Apple's Social Network](sources/apples-social-network-stratechery-by-ben-thompson.md) - Ben Thompson argues that Today at Apple is Apple's real-world social network and that Apple's post-unit-sales reporting still needs active-customer and revenue-per-user metrics.
 - [Apple's Stream Team: Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future](sources/apples-stream-team-zane-lowe-bozoma-saint-john-and-larry-jackson-are-taking-music-to-the-future-complex.md) - Complex profiles Apple Music as an early culture-platform bet built around artist collaboration, Beats 1, marketing, and shared streaming moments.
 - [Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby](sources/appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby.md) - Appcanary's Phillip Mendonca-Vieira argues that startups should prefer familiar tools, delay distributed systems, and treat developer happiness as real tool quality.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
@@ -305,7 +306,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing software business models, platform incentives, and Apple's mature vertical hardware strategy.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing software business models, platform incentives, Apple's mature vertical hardware strategy, and Apple's customer-metrics gap.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
@@ -494,8 +495,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as both a content-distribution asset and a culture-platform experiment.
 - [Apple TV](entities/AppleTV.md) - Apple's premium video hardware and TV-app context in the content distribution strategy.
 - [HomePod](entities/HomePod.md) - Apple's premium speaker contrasted with cheaper smart speakers in the content distribution strategy.
-- [Tim Cook](entities/TimCook.md) - Apple CEO tied in the source to Services framing and active-device measurement.
-- [Luca Maestri](entities/LucaMaestri.md) - Apple CFO tied in the source to Apple's Services revenue narrative.
+- [Tim Cook](entities/TimCook.md) - Apple CEO tied to Services framing, active-device measurement, and Today at Apple retail positioning.
+- [Luca Maestri](entities/LucaMaestri.md) - Apple CFO tied to Apple's Services narrative, unit-disclosure change, and revenue/gross-margin framing.
 - [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
 - [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform where Apple Music support protects Apple's content relationship with iPhone users.
 - [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming and as smart-TV content.
@@ -507,7 +508,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ARKit](entities/ARKit.md) - Apple's augmented-reality developer platform used to seed AR behavior on iPhones and iPads before smart glasses.
 - [Magic Leap](entities/MagicLeap.md) - AR company contrasted with Apple's installed base, developers, and wearable-learning advantages.
 - [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
-- [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product and independence precedent.
+- [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product, independence precedent, and mature ASP-driven revenue case.
+- [Today at Apple](entities/TodayAtApple.md) - Apple's free retail session program framed by Thompson as a relationship and real-world engagement layer.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the advertising source's humble-origin and hands-on engineering narrative.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
@@ -575,7 +577,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
-- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's Adobe subscription and platform-owner analysis.
+- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's platform, Apple maturity, and customer-metrics analyses.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
@@ -685,12 +687,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cryptocurrency Merchant Adoption](concepts/CryptocurrencyMerchantAdoption.md) - Cryptocurrency payment adoption by merchants, especially large platforms whose choices can validate or redirect tokens and payment rails.
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.
-- [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus and content distribution economics.
+- [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus, content distribution economics, and related customer-metrics gap.
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
 - [Apple Content Distribution Strategy](concepts/AppleContentDistributionStrategy.md) - Apple's selective use of services, non-Apple hardware support, AirPlay, and premium first-party devices to distribute content.
 - [Apple Trust Brand](concepts/AppleTrustBrand.md) - Benedict Evans' frame for Apple's services-era promise around trust, privacy, curation, and protection from scams.
-- [Apple Growth Levers](concepts/AppleGrowthLevers.md) - Above Avalon's 2018 frame for Apple's uneven revenue drivers: iPhone ASP, Services, and wearables.
-- [Apple Middle Age Strategy](concepts/AppleMiddleAgeStrategy.md) - Ben Thompson's frame for mature Apple using ASPs, Services, and additional devices to grow inside a saturated premium smartphone market.
+- [Apple Growth Levers](concepts/AppleGrowthLevers.md) - Above Avalon and Stratechery frame Apple's uneven revenue drivers: iPhone ASP, Services, wearables, attached devices, and engagement.
+- [Apple Middle Age Strategy](concepts/AppleMiddleAgeStrategy.md) - Ben Thompson's frame for mature Apple using ASPs, Services, additional devices, and engagement to grow inside a saturated premium smartphone market.
+- [Apple Real World Social Network](concepts/AppleRealWorldSocialNetwork.md) - Thompson's frame for Today at Apple as controlled, retail-based social engagement around Apple's installed base.
 - [Apple Product Theory](concepts/AppleProductTheory.md) - Above Avalon's framework for Apple's product line as increasingly personal alternatives to prior computing tasks.
 - [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
 - [Apple Music Culture Platform](concepts/AppleMusicCulturePlatform.md) - Strategy of making Apple Music a home for artists, radio, brand, and shared cultural moments rather than only a streaming catalog.
