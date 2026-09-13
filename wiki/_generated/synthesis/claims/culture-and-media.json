@@ -101,6 +101,23 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "distributed-platform-publishing-reshapes-media-work",
+      "qualifications": [
+        "The Digiday source is a 2016 profile centered on Bleacher Report and does not establish later platform economics or revenue durability.",
+        "The remote lead image returned 404, so the claim is text-grounded only."
+      ],
+      "statement": "[[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[BleacherReport]], and [[RoryBrown]] show publishers adapting cultural production to platform-native surfaces, channel hedging, and interaction-based success measures.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DistributedPublishingStrategy",
+        "PlatformSpecificEditorialStrategy",
+        "SocialInteractionMetrics",
+        "BleacherReport",
+        "RoryBrown"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "product-language-and-media-infrastructure-create-behaviors",
       "qualifications": [
@@ -142,6 +159,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest Digiday source adds distributed publishing as a platform-era media pattern: content is adapted for social and mobile surfaces, editorial missions differ by platform, and interaction metrics can matter more than destination-site uniques.",
   "topic_id": "culture-and-media"
 }

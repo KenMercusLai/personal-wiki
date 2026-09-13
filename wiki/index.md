@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Bleacher Report embraces 'content-everywhere' strategy](sources/bleacher-report-embraces-content-everywhere-strategy.md) - Digiday profiles Bleacher Report's distributed publishing strategy: platform-specific editorial missions, channel hedging, app conversion, Facebook-native distribution, and social interactions replacing site uniques as a key metric.
 - [BlackBerry: Meditation At The Grave](sources/blackberry-meditation-at-the-grave-jean-louis-gassee-medium.md) - Jean-Louis Gassee argues that BlackBerry, Palm, Nokia, and Microsoft failed in the smartphone transition through different mixes of delayed platform renewal, late ecosystem response, transition signaling error, and mobile OS business-model collapse.
 - [Black Friday and Cyber Monday by the Numbers](sources/black-friday-and-cyber-monday-by-the-numbers-sendgrid.md) - SendGrid reports that Black Friday 2016 drove a 1.6-billion-email platform peak, with mobile opens near parity, faster mobile open timing, and short subject lines outperforming more common longer ones.
 - [Billboards for Small Businesses: Costs, Advice, and Thinking Twice](sources/billboards-for-small-businesses-costs-advice-and-thinking-twice.md) - Grasshopper argues that billboards can build awareness, but small businesses should treat them as expensive, blunt, location-sensitive media rather than reliable direct-response channels.
@@ -211,6 +212,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
+- [Rory Brown](entities/RoryBrown.md) - Bleacher Report executive explaining the company's content-everywhere strategy and shift from direct audience numbers toward platform-native brand reach.
 - [SendGrid](entities/SendGrid.md) - Email infrastructure and marketing platform represented by a 2016 Black Friday and Cyber Monday volume and engagement analysis.
 - [Len Shneyder](entities/LenShneyder.md) - SendGrid author interpreting holiday email volume, mobile opens, and subject-line engagement.
 - [Litmus](entities/Litmus.md) - Email-client analytics reference cited for mobile device open share.
@@ -787,6 +790,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Distributed Publishing Strategy](concepts/DistributedPublishingStrategy.md) - Media operating model that creates and monetizes content across owned properties, apps, search, social, and platform-hosted formats.
+- [Platform-Specific Editorial Strategy](concepts/PlatformSpecificEditorialStrategy.md) - Editorial model that defines distinct missions, formats, and ownership for each distribution platform.
+- [Social Interaction Metrics](concepts/SocialInteractionMetrics.md) - Platform-native views, likes, shares, and similar signals used when content is consumed beyond a publisher's own site.
 - [Email Marketing at Scale](concepts/EmailMarketingAtScale.md) - Practice of operating and analyzing very large email campaigns where infrastructure, retail peaks, device mix, and engagement data shape execution.
 - [Mobile Email Engagement](concepts/MobileEmailEngagement.md) - Pattern of mobile email opens and response timing that makes responsive templates and cross-device consistency core campaign requirements.
 - [Subject Line Optimization](concepts/SubjectLineOptimization.md) - Email-copywriting practice of using engagement data to tune subject-line length, wording, and clarity.

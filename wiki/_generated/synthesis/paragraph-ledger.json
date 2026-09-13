@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c156432c3db28d693e59e1d40120fd54fb6b7b41df2eb0b7bcd54e840f6b6ee1",
       "363aaf991a9169943565f4ff3c19181c385e4814c63281d8c8f4a94d7aaae49d",
       "798562d3a4d6d67b3bb0992a761f2e9f4d7b11d8f84db58fc805d620cb2a14e8",
       "2b340f1216a16c16c837ce03cab6bacc614b8df7cf11bd98e0d1dd492c09559e",
@@ -200,11 +201,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 198
+    "paragraph_count": 199
   },
-  "overview_commit": "2a712f22e79ff86cc524cdf73b25e228d8e2b13c",
-  "overview_digest": "38342e13cdd8f3aaf15af444a66aaacba51d9cd0991689dac61162978884c292",
+  "overview_commit": "fd71aab8e0fea415d3dea824d4fdd5716797f553",
+  "overview_digest": "40deb4b4329271a7c5be3290c9a6c2d4c56ff4242d5d3963332bd0b144a18daf",
   "paragraphs": [
+    {
+      "id": "c156432c3db28d693e59e1d40120fd54fb6b7b41df2eb0b7bcd54e840f6b6ee1",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The newest Digiday source adds a distributed-publishing layer to the wiki's media-platform material. New [[DistributedPublishingStrategy]] frames [[BleacherReport]]'s \"content-everywhere\" posture as an operating model where publishers put content directly onto Facebook, Google, Snapchat, apps, search, and social feeds while hedging against overdependence on any single channel. New [[PlatformSpecificEditorialStrategy]] captures [[RoryBrown]]'s platform mission-statement model: Instagram, Twitter, Facebook, and other surfaces require different editorial mindsets rather than reposted sameness. New [[SocialInteractionMetrics]] captures the metric shift from destination-site uniques toward views, likes, shares, and time competition across all publishers, while qualifying that the source does not prove distributed reach converts into durable revenue. The remote lead image returned 404, so it could not be incorporated as visual evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BleacherReport",
+        "DistributedPublishingStrategy",
+        "PlatformSpecificEditorialStrategy",
+        "RoryBrown",
+        "SocialInteractionMetrics"
+      ]
+    },
     {
       "id": "363aaf991a9169943565f4ff3c19181c385e4814c63281d8c8f4a94d7aaae49d",
       "primary_topic": "ai-and-technology",

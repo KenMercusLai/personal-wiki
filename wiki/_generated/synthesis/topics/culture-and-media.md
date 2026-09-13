@@ -4,15 +4,15 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-14
-as_of_overview_commit: 579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04
-input_digest: 78c5d6b4791f77ecea4cf0e0e46d600920c7fcac5a328ddb93dbcde2b52dfb02
+as_of_overview_commit: fd71aab8e0fea415d3dea824d4fdd5716797f553
+input_digest: 0b033f700568c5d95b499b938ec0ee8723613805ee39f1112d323a9c94f6bac2
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The newest Digiday source adds distributed publishing as a platform-era media pattern: content is adapted for social and mobile surfaces, editorial missions differ by platform, and interaction metrics can matter more than destination-site uniques.
 
 ## Cross-source Findings
 
@@ -65,6 +65,17 @@ Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]], [[Se
 **Qualifications:**
 
 - The Apple Music evidence is an early profile and interview rather than neutral outcome measurement; the Apple distribution and BuzzFeed evidence also comes from strategy interpretation and a publisher memo.
+
+### Distributed Platform Publishing Reshapes Media Work
+
+[[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[BleacherReport]], and [[RoryBrown]] show publishers adapting cultural production to platform-native surfaces, channel hedging, and interaction-based success measures.
+
+**Evidence:** [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[BleacherReport]], [[RoryBrown]]
+
+**Qualifications:**
+
+- The Digiday source is a 2016 profile centered on Bleacher Report and does not establish later platform economics or revenue durability.
+- The remote lead image returned 404, so the claim is text-grounded only.
 
 ### Product Language And Media Infrastructure Create Behaviors
 

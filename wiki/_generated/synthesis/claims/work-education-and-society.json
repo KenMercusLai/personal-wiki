@@ -66,6 +66,21 @@
     },
     {
       "global_candidate": false,
+      "id": "platform-media-work-needs-context-specific-feedback",
+      "qualifications": [
+        "This work-pattern claim is grounded in one Bleacher Report profile and should not be generalized to all publishers without additional evidence."
+      ],
+      "statement": "Platform-era media work in [[DistributedPublishingStrategy]] depends on context-specific editorial judgment, channel hedging, and [[SocialInteractionMetrics]] rather than only publishing more articles to an owned site.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "DistributedPublishingStrategy",
+        "PlatformSpecificEditorialStrategy",
+        "SocialInteractionMetrics",
+        "BleacherReport"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "workplaces-teach-through-structure-and-safety",
       "qualifications": [
         "Trust-first collaboration needs boundaries in unsafe, low-trust, or bad-faith contexts."
@@ -149,6 +164,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. The newest MOOC analytics source adds that measuring activity at scale is not enough: education data becomes useful only when interpreted with causal, methodological, and design judgment.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. The newest distributed-publishing source adds that editorial work itself is reorganized by platform-specific missions, audience-channel hedging, and platform-native metrics.",
   "topic_id": "work-education-and-society"
 }

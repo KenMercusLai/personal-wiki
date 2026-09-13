@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 2a712f22e79ff86cc524cdf73b25e228d8e2b13c
-input_digest: 23e4cb611090c944a4b9105580a8f07ad1b677ce0f65b5a24831300c81cbed4b
+as_of_overview_commit: fd71aab8e0fea415d3dea824d4fdd5716797f553
+input_digest: a1e0bf0c8ed6f8b786ab5090dd94604deb7fd3bdbca198cc15366857799df2e6
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, ecosystem timing, and market-facing expansion.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
 
 ## Cross-source Findings
 
@@ -100,11 +100,12 @@ Architecture simplification is contextual: [[DatabaseConsolidation]], [[SQLitePr
 
 ### Platforms Reshape Discovery And Economics
 
-Technology platforms reshape discovery, economics, developer demand, incumbent survival, and adjacent products through [[MobileEcosystem]], [[SmartphonePlatformDisruption]], web centralization, Amazon capability-led expansion, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.
+Technology platforms reshape discovery, economics, developer demand, incumbent survival, media distribution, and adjacent products through [[MobileEcosystem]], [[SmartphonePlatformDisruption]], [[DistributedPublishingStrategy]], web centralization, Amazon capability-led expansion, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.
 
-**Evidence:** [[AmazonCapabilityLedExpansion]], [[AWS]], [[AmazonGo]], [[MobileEcosystem]], [[SmartphonePlatformDisruption]], [[BlackBerry]], [[Nokia]], [[PlatformBusinessModelObstacle]], [[MobilePlatformDiscovery]], [[WebCentralization]], [[ProgrammingTechnologyDemand]], [[ProductivityAppSubscriptions]]
+**Evidence:** [[AmazonCapabilityLedExpansion]], [[AWS]], [[AmazonGo]], [[MobileEcosystem]], [[SmartphonePlatformDisruption]], [[BlackBerry]], [[Nokia]], [[PlatformBusinessModelObstacle]], [[MobilePlatformDiscovery]], [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[WebCentralization]], [[ProgrammingTechnologyDemand]], [[ProductivityAppSubscriptions]]
 
 **Qualifications:**
 
 - Demand proxies such as traffic and cost references are directional rather than direct measurements of production use or business value.
 - The smartphone-incumbent failure map is a 2016 retrospective interpretation and should not be treated as a complete causal account of every company.
+- The distributed-publishing evidence is a 2016 Digiday profile and does not prove that platform reach becomes durable revenue.
