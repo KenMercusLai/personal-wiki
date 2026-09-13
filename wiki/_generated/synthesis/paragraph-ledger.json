@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5afdf3b4967dac93756e8afe56b305c13f09332366fcbd0026eea8844d604aa3",
       "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
       "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
       "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
@@ -131,11 +132,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 129
+    "paragraph_count": 130
   },
-  "overview_commit": "2b46689d056faf33aa48fead0bf2c428a5fde14b",
-  "overview_digest": "2d04abf3372f1d2d02cf5131fa70e0f99e30032174711d4c463bde4c8e4fa9cb",
+  "overview_commit": "35bfe0532aea5534a5f92fbdec083931b3ad8282",
+  "overview_digest": "6b46d1f362772859a1eec959434fc7793eb6778df102daed877e4068522aed5d",
   "paragraphs": [
+    {
+      "id": "5afdf3b4967dac93756e8afe56b305c13f09332366fcbd0026eea8844d604aa3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Luca Dellanna source adds a trust-transfer layer to the wiki's marketplace and platform material. [[AggregationTheory]] is framed as more than demand control and matching: in markets where customers cannot quickly assess unfamiliar suppliers, popularity acts as a trust proxy, so known suppliers capture disproportionate profits. [[MarketplaceTrust]] now includes the strategic effect of aggregators such as [[Airbnb]] and [[Uber]] becoming trusted by demand; reviews, payment systems, insurance, reimbursement, dispatch, and delisting make stranger transactions acceptable, flattening supplier profit while centralizing trust and profit at the platform layer. [[TrustMinimizationTechnology]] names Dellanna's proposed pressure point: smart contracts, smart locks, self-driving cars, or similar low-human-action systems may erode the portion of aggregator value tied to trust enablement, even if incumbent demand ownership remains hard to attack.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AggregationTheory",
+        "Airbnb",
+        "MarketplaceTrust",
+        "TrustMinimizationTechnology",
+        "Uber"
+      ]
+    },
     {
       "id": "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
       "primary_topic": "business-and-markets",

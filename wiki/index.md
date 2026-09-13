@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
 - [Adapting Network Design to Support Automation](sources/adapting-network-design-to-support-automation-ipspace-net-blog.md) - Ivan Pepelnjak argues that network automation is a design requirement whose practical value depends on simplicity, synchronized code, and preserving other network properties.
 - [Adobe's Subscription Model & Why Platform Owners Should Care](sources/adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson.md) - Ben Thompson argues that Adobe's Creative Cloud shift shows why productivity-app subscriptions can better align software value, developer revenue, and platform retention.
+- [Aggregators and Trust](sources/aggregators-and-trust-luca-dellanna.md) - Luca Dellanna argues that aggregators profit from demand control and trust transfer, flattening supplier profit while centralizing trust and profit at the platform layer.
 - [Advocating for a Complete Product Redesign](sources/advocating-for-a-complete-product-redesign-google-design-medium.md) - Google Design's Crashlytics case study argues that complete redesign buy-in comes from user journeys, internal co-design, recurring pain themes, and information-hierarchy evidence.
 - [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
@@ -534,8 +535,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [John McKee](entities/JohnMcKee.md) - Coauthor of the developer-facing double-entry accounting primer.
 - [Tom Mornini](entities/TomMornini.md) - Coauthor of the developer-facing double-entry accounting primer.
 - [Luca Pacioli](entities/LucaPacioli.md) - Historical figure credited in the primer with publishing the first complete description of double-entry accounting in 1494.
+- [Luca Dellanna](entities/LucaDellanna.md) - Writer connecting aggregation theory, marketplace trust, platform profit centralization, and trust-minimizing technologies.
 
 ## Concepts
+- [Aggregation Theory](concepts/AggregationTheory.md) - Platform-strategy frame where demand control and trust transfer let aggregators mediate supply and centralize profits.
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.
 - [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus and content distribution economics.
@@ -851,6 +854,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Situational Morality](concepts/SituationalMorality.md) - View that moral behavior is strongly shaped by scarcity, roles, power, rules, and community norms.
 - [Software Verification](concepts/SoftwareVerification.md) - Checking software behavior through tests, self-testing, execution, and repeatable validation loops.
 - [Staging Environment](concepts/StagingEnvironment.md) - Pre-production environment for verifying software under production-like architecture, data, monitoring, traffic, internet exposure, and failure conditions.
+- [Smart Contracts](concepts/SmartContracts.md) - Code-mediated contractual mechanisms used here as a trust-minimization example for aggregator markets.
 - [System Reliability](concepts/SystemReliability.md) - Keeping software services dependable across code, architecture, dependencies, capacity, staging realism, change, recovery, and organizational investment.
 - [Statistical Error](concepts/StatisticalError.md) - Unobserved gap between measured or modeled data and the fuller target truth an analysis tries to estimate.
 - [Statistical Language Model](concepts/StatisticalLanguageModel.md) - Count-based or rule-based language-modeling approach using techniques such as N-grams, HMMs, and linguistic rules.
@@ -892,6 +896,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.
 - [Platform Publisher Revenue](concepts/PlatformPublisherRevenue.md) - Revenue-share and fair-payment problem between professional publishers and large technology platforms.
 - [Platform Stickiness](concepts/PlatformStickiness.md) - User retention effect created when apps, workflows, habits, or services make a platform hard to leave.
+- [Trust-Minimization Technology](concepts/TrustMinimizationTechnology.md) - Products, protocols, devices, or automations that reduce the trust required for strangers to transact.
 - [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for handling harassment and coordinated attacks.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service and monetization surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.

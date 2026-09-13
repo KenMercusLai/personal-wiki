@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-13
-as_of_overview_commit: 7e5c4d3a7f01cee1b185bc63f71d0c26cca32985
-input_digest: 7a6f2f63177834fbe358a57469c0fb4fcb2b7a42155549832db9805fe8e7d870
+as_of_overview_commit: 35bfe0532aea5534a5f92fbdec083931b3ad8282
+input_digest: 02b5bc84ca5e4d5da99436fdec108c9f864be6e9615d1b9885683bfbba6d1f8b
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.
+The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, uncertainty shortcuts, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, aggregator trust, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, trust centralization, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.
 
 ## Cross-source Findings
 
@@ -68,13 +68,13 @@ Collective judgment improves when people reveal not only what they believe but h
 
 ### Personalized Infrastructure Requires Trust
 
-Personalized infrastructure can feel empowering only when users can trust its data practices, moderation, and abstractions; digital maps make this visible through location privacy, user contributions, and platform-controlled cartography.
+Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, and transaction guarantees; digital maps make this visible through location privacy and user contributions, while [[AggregationTheory]] and [[MarketplaceTrust]] show people using popularity or platform trust to manage uncertainty with strangers.
 
-**Evidence:** [[DigitalCartography]], [[GoogleMaps]], [[GoogleEarth]], [[StreetView]], [[LocationDataPrivacy]], [[UserGeneratedMapping]], [[OpenStreetMap]]
+**Evidence:** [[DigitalCartography]], [[GoogleMaps]], [[GoogleEarth]], [[StreetView]], [[LocationDataPrivacy]], [[UserGeneratedMapping]], [[OpenStreetMap]], [[AggregationTheory]], [[MarketplaceTrust]], [[Airbnb]], [[Uber]], [[TrustMinimizationTechnology]]
 
 **Qualifications:**
 
-- The mapping paragraph is assigned to this topic by the deterministic planner, but its stronger home is also technology, governance, and platform strategy.
+- The mapping and aggregation paragraphs are assigned to this topic by the deterministic planner, but their stronger homes are technology, governance, and platform strategy.
 
 ### Context Management Is A Cognitive Infrastructure Problem
 

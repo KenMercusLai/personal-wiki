@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 04d085ccf94810b642d7333fbaa316991452f74d
-input_digest: 7059ddb0a7bcbf9edc106208836e1a275f20e0069284bd3605317c9d9fd5dde2
+as_of_overview_commit: 35bfe0532aea5534a5f92fbdec083931b3ad8282
+input_digest: 4322371a151367284a9df15c6fca203a312a3b55a4f72e664f8fb391794f440c
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Andrew Chen source adds that pre-product-market-fit startups can enter a Trough of Sorrow after launch attention fades, where emotional steadiness and root-bottleneck diagnosis determine whether runway becomes useful iteration rather than drift; recent product and messaging sources add that mature-product redesign needs user-journey evidence while messaging monetization follows native chat surfaces.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Dellanna source adds that aggregators centralize trust and profit by making stranger transactions acceptable; trust-minimizing technologies may pressure that value, but demand ownership remains hard to attack. The recent startup, product, and messaging sources add that pre-fit runway needs root-bottleneck diagnosis, mature-product redesign needs user-journey evidence, and messaging monetization follows native chat surfaces.
 
 ## Cross-source Findings
 
@@ -75,6 +75,17 @@ Business and market sources show companies and investors converting technology, 
 **Qualifications:**
 
 - Growth examples are mostly practitioner or historical cases, and channel conditions, product quality, cohort behavior, and retention determine whether acquisition creates durable value.
+
+### Aggregators Centralize Trust And Profit
+
+[[AggregationTheory]] and [[MarketplaceTrust]] show aggregators such as [[Airbnb]] and [[Uber]] converting demand trust into platform power: users stop relying on supplier popularity as a trust proxy, stranger transactions become acceptable, supplier profits can flatten, and [[TrustMinimizationTechnology]] becomes a possible pressure on the trust-enabled share of aggregator value.
+
+**Evidence:** [[AggregationTheory]], [[MarketplaceTrust]], [[Airbnb]], [[Uber]], [[TrustMinimizationTechnology]]
+
+**Qualifications:**
+
+- The claim is a strategic model from one essay rather than measured evidence of supplier profit distribution, take rates, fraud reduction, or long-run competitive outcomes.
+- Demand ownership may let incumbent aggregators absorb trust-minimizing technologies instead of being displaced by them.
 
 ### Subscription Pricing Aligns Software Value Over Time
 

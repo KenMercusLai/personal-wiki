@@ -127,6 +127,23 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "aggregators-centralize-trust-and-profit",
+      "qualifications": [
+        "The claim is a strategic model from one essay rather than measured evidence of supplier profit distribution, take rates, fraud reduction, or long-run competitive outcomes.",
+        "Demand ownership may let incumbent aggregators absorb trust-minimizing technologies instead of being displaced by them."
+      ],
+      "statement": "[[AggregationTheory]] and [[MarketplaceTrust]] show aggregators such as [[Airbnb]] and [[Uber]] converting demand trust into platform power: users stop relying on supplier popularity as a trust proxy, stranger transactions become acceptable, supplier profits can flatten, and [[TrustMinimizationTechnology]] becomes a possible pressure on the trust-enabled share of aggregator value.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AggregationTheory",
+        "MarketplaceTrust",
+        "Airbnb",
+        "Uber",
+        "TrustMinimizationTechnology"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "subscription-pricing-aligns-software-value-over-time",
       "qualifications": [
@@ -382,6 +399,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Andrew Chen source adds that pre-product-market-fit startups can enter a Trough of Sorrow after launch attention fades, where emotional steadiness and root-bottleneck diagnosis determine whether runway becomes useful iteration rather than drift; recent product and messaging sources add that mature-product redesign needs user-journey evidence while messaging monetization follows native chat surfaces.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Dellanna source adds that aggregators centralize trust and profit by making stranger transactions acceptable; trust-minimizing technologies may pressure that value, but demand ownership remains hard to attack. The recent startup, product, and messaging sources add that pre-fit runway needs root-bottleneck diagnosis, mature-product redesign needs user-journey evidence, and messaging monetization follows native chat surfaces.",
   "topic_id": "business-and-markets"
 }

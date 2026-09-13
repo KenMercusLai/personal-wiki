@@ -91,9 +91,9 @@
       "global_candidate": true,
       "id": "personalized-infrastructure-requires-trust",
       "qualifications": [
-        "The mapping paragraph is assigned to this topic by the deterministic planner, but its stronger home is also technology, governance, and platform strategy."
+        "The mapping and aggregation paragraphs are assigned to this topic by the deterministic planner, but their stronger homes are technology, governance, and platform strategy."
       ],
-      "statement": "Personalized infrastructure can feel empowering only when users can trust its data practices, moderation, and abstractions; digital maps make this visible through location privacy, user contributions, and platform-controlled cartography.",
+      "statement": "Personalized and mediated infrastructure can feel empowering only when users can trust its data practices, moderation, abstractions, and transaction guarantees; digital maps make this visible through location privacy and user contributions, while [[AggregationTheory]] and [[MarketplaceTrust]] show people using popularity or platform trust to manage uncertainty with strangers.",
       "status": "supported",
       "supporting_wikilinks": [
         "DigitalCartography",
@@ -102,7 +102,12 @@
         "StreetView",
         "LocationDataPrivacy",
         "UserGeneratedMapping",
-        "OpenStreetMap"
+        "OpenStreetMap",
+        "AggregationTheory",
+        "MarketplaceTrust",
+        "Airbnb",
+        "Uber",
+        "TrustMinimizationTechnology"
       ]
     },
     {
@@ -137,6 +142,6 @@
       ]
     }
   ],
-  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.",
+  "summary": "The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, uncertainty shortcuts, and close social systems. Journaling, gratitude, connection-making, creator positioning, goal setting, stochastic-gradient-descent metaphors, and metaknowledge all help people steer attention, motivation, and judgment, while workplace satire, UX cliche rhetoric, platform metrics, UX reporting, CLI behavior, digital maps, aggregator trust, and family-business culture show how environments can quietly redirect behavior. The strongest qualification is that tools and systems that feel useful or confidence-building can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, trust centralization, or brittle abstractions unless evidence, ownership, calibration, and trust are made explicit.",
   "topic_id": "psychology-and-personal-development"
 }

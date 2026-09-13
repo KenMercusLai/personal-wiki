@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 2b46689d056faf33aa48fead0bf2c428a5fde14b
-input_digest: fbfe6dc154440a3bd1219008ae8c6b19243dd78a003eafe6f54736637e82e9bc
+as_of_overview_commit: 35bfe0532aea5534a5f92fbdec083931b3ad8282
+input_digest: f61c05717fa0afd8f0afcb839648f9a80033513e36db1b407a17e071c80f29b2
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, and real-world evidence. The newest agent-testing source sharpens the AI coding thread by treating cheap deterministic validation and residual review as the bottleneck that makes coding-agent speed useful.
+AI and technology sources emphasize human accountability, explicit models, reliable context and action boundaries, verification harnesses, workload-aware infrastructure, trust-minimizing systems, and real-world evidence. The newest aggregator-trust paragraph adds a source-scoped platform-technology note: tools such as smart contracts, smart locks, or self-driving cars may reduce the trust work platforms perform, though incumbent demand ownership remains a separate advantage.
 
 ## Cross-source Findings
 
@@ -167,3 +167,14 @@ AI and technology sources emphasize human accountability, explicit models, relia
 **Qualifications:**
 
 - The claim is a platform-strategy inference from one 2013 article rather than switching-data evidence, and productivity apps are only one possible source of platform retention.
+
+### Trust Minimization Can Reallocate Platform Value
+
+[[TrustMinimizationTechnology]] shows that automation, protocols, or devices can change platform economics when they reduce the trust work required for strangers to transact, but [[AggregationTheory]] still treats incumbent demand ownership as hard to attack.
+
+**Evidence:** [[TrustMinimizationTechnology]], [[AggregationTheory]], [[MarketplaceTrust]], [[Airbnb]], [[Uber]]
+
+**Qualifications:**
+
+- This claim enters the AI and technology topic because the planner classified trust-minimizing systems as technology; the stronger business claim is about aggregation and marketplace power.
+- The source gives strategic examples rather than measured evidence that smart contracts, smart locks, or self-driving cars have displaced incumbent aggregators.

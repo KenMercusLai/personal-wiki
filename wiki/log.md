@@ -639,6 +639,10 @@ Added source note for Ci Jian De Shan Lin's synthesis of Kiran and Michael Rothr
 
 Ingested source note and updated Apple Services synthesis pages.
 
+## [2026-09-13] ingest | Aggregators and Trust
+
+Added Luca Dellanna's aggregator-trust essay; created [[AggregationTheory]], [[TrustMinimizationTechnology]], and [[LucaDellanna]], and updated [[MarketplaceTrust]], [[Airbnb]], and [[Uber]] with trust-transfer and trust-minimization synthesis.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1046,6 +1050,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
