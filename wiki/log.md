@@ -1383,6 +1383,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Best Practices for API Error Handling
+
+Added Vineet Joshi's DZone article on REST API error handling. Key claims: API errors should be readable, link to help when useful, support graceful client handling, distinguish client-fixable problems from provider-side failures, and use a pragmatic subset of HTTP status codes that expands as real cases require it.
+
 ## [2026-09-14] ingest | I Didn't Need Kubernetes
 
 Added Ben Houston's Kubernetes-to-Cloud-Run migration essay. Key claims: Kubernetes can reduce bare-metal burden while adding cluster cost, slow autoscaling, staffing needs, and lock-in; Cloud Run can better fit Docker-based services and tasks when scale-to-zero billing, fast autoscaling, managed retries, and simpler operations matter more than platform extensibility.
@@ -1535,6 +1539,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Being Different Beats Being Better
 
 Added Darius Foroux's differentiation article. Key claims: business and career strategy should emphasize being meaningfully different, first in a recognizable category, and distinctive through skill stacking rather than only trying to be marginally better.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

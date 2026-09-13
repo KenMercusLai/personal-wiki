@@ -2,81 +2,94 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "visible-constraints-reshape-design",
+      "id": "interfaces-are-recovery-contracts",
       "qualifications": [
-        "These examples are heterogeneous; the common claim is about constraint-sensitive reasoning, not one unified theory of performance engineering, mobile UX, finance, security, and algorithms."
+        "The API source is practical advice rather than a complete error schema or standards document."
       ],
-      "statement": "Making constraints visible changes design choices, whether the constraint is latency in [[LatencyHierarchy]], thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]].",
+      "statement": "Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]].",
       "status": "supported",
       "supporting_wikilinks": [
-        "LatencyHierarchy",
-        "BackOfEnvelopeEstimation",
-        "IOS",
-        "ThumbReachErgonomics",
-        "ReachNavigation",
-        "AppleGrowthLevers",
-        "DefensivePortTriage",
-        "TrajectorySimplification"
+        "APIErrorHandling",
+        "HTTP",
+        "DeveloperExperience"
       ]
     },
     {
       "global_candidate": true,
-      "id": "rough-numbers-enable-prebuild-judgment",
+      "id": "rough-models-guide-early-architecture",
       "qualifications": [
-        "The latency figures are order-of-magnitude guides drawn from an older reference table, so exact constants need updating for current hardware and deployment conditions."
+        "Order-of-magnitude estimates guide decisions but do not replace measurement under real workloads."
       ],
-      "statement": "[[BackOfEnvelopeEstimation]] uses [[ComputationalThinking]] and [[LatencyHierarchy]] to compare designs before implementation by decomposing work, estimating operation costs, and locating likely bottlenecks.",
+      "statement": "Early architecture judgment often depends on rough models: [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] help reject designs before implementation, while [[CloudCostOptimization]] uses similar unit reasoning for cost sanity checks.",
       "status": "supported",
       "supporting_wikilinks": [
         "BackOfEnvelopeEstimation",
-        "ComputationalThinking",
         "LatencyHierarchy",
         "CloudCostOptimization"
       ]
     },
     {
       "global_candidate": true,
-      "id": "mobile-platforms-join-strategy-and-embodiment",
+      "id": "physical-and-perceptual-constraints-shape-systems",
       "qualifications": [
-        "The reach-navigation evidence is a 2017 practitioner argument rather than controlled ergonomic testing or a complete account of later iOS patterns."
+        "Ergonomic and rendering tradeoffs depend on task frequency, risk, device size, and acceptable fidelity."
       ],
-      "statement": "Mobile platforms join strategic control with embodied use: [[IOS]] controls service access and app economics while larger screens make [[ThumbReachErgonomics]] and [[ReachNavigation]] part of platform-era design.",
+      "statement": "Good systems cross from software structure into human and physical constraints: [[ThumbReachErgonomics]] motivates [[ReachNavigation]] in larger-screen [[IOS]] design, while [[MapTrajectoryRendering]] can accept simplified paths when the visible shape remains useful.",
       "status": "supported",
       "supporting_wikilinks": [
-        "IOS",
         "ThumbReachErgonomics",
-        "ReachNavigation"
+        "ReachNavigation",
+        "IOS",
+        "MapTrajectoryRendering"
       ]
     },
     {
-      "global_candidate": false,
-      "id": "system-optimization-requires-tradeoffs",
+      "global_candidate": true,
+      "id": "classification-turns-exposure-into-action",
       "qualifications": [
-        "The port checklist supports prioritization only; an exposed port alone does not prove compromise."
+        "An open port is not proof of compromise; it is a prompt for targeted validation."
       ],
-      "statement": "Cross-domain optimization often means trading one quality for another: [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower rendering cost, while [[DefensivePortTriage]] trades proof for fast prioritization of likely risks.",
+      "statement": "Security triage becomes actionable when exposed services are classified by likely failure mode: [[DefensivePortTriage]] maps open services to [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].",
       "status": "supported",
       "supporting_wikilinks": [
-        "RamerDouglasPeuckerAlgorithm",
-        "EpsilonTolerance",
-        "DefensivePortTriage"
+        "DefensivePortTriage",
+        "WeakCredentialExposure",
+        "CleartextProtocolExposure",
+        "UnauthenticatedServiceExposure",
+        "RemoteAdministrationExposure",
+        "DatabaseServiceExposure"
       ]
     },
     {
       "global_candidate": false,
-      "id": "apple-growth-shifts-from-iphone-pricing-to-installed-base",
+      "id": "growth-levers-recombine-across-product-systems",
       "qualifications": [
-        "The evidence reflects a 2018 analyst snapshot and should not be read as a current Apple financial forecast."
+        "This claim is source-scoped to Neil Cybart's 2018 Apple analysis and its embedded revenue chart."
       ],
-      "statement": "[[AppleGrowthLevers]] frame Apple's 2018 rebound as near-term [[IPhone]] ASP strength plus longer-run compounding from services and [[WearableComputing]].",
-      "status": "supported",
+      "statement": "The Apple growth paragraph shows a business-system version of cross-domain reasoning: [[AppleGrowthLevers]] combine [[IPhone]] pricing, Services, [[AppleWatch]], and [[AirPods]] adoption rather than a single product-variable explanation.",
+      "status": "source-scoped",
       "supporting_wikilinks": [
         "AppleGrowthLevers",
         "IPhone",
-        "WearableComputing"
+        "AppleWatch",
+        "AirPods"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "compression-trades-detail-for-system-performance",
+      "qualifications": [
+        "The acceptable epsilon depends on whether display shape matters more than exact path fidelity."
+      ],
+      "statement": "Applied algorithms can deliberately trade detail for system performance, as [[TrajectorySimplification]] uses [[RamerDouglasPeuckerAlgorithm]] and [[EpsilonTolerance]] to reduce transfer, storage, and rendering cost.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "TrajectorySimplification",
+        "RamerDouglasPeuckerAlgorithm",
+        "EpsilonTolerance"
       ]
     }
   ],
-  "summary": "Current cross-domain synthesis links performance engineering, interface design, business growth, security, and applied algorithms through one repeated pattern: systems improve when hidden constraints become visible enough to reason about. [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] make cache, memory, disk, and network costs concrete before implementation; larger phones make [[ThumbReachErgonomics]] a design constraint for [[IOS]] and motivate [[ReachNavigation]]; Apple's growth depends on the changing mix of [[AppleGrowthLevers]] across iPhone pricing, services, and wearables; exposed ports create a triage map for likely security questions; and trajectory simplification trades precision for rendering and transfer efficiency through tunable tolerance.",
+  "summary": "Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, and trajectory simplification trades precision for performance when the broad route shape is enough.",
   "topic_id": "cross-domain"
 }
