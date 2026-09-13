@@ -56,7 +56,7 @@
       "qualifications": [
         "Famous MVP examples carry survivorship bias, and the evidence mixes founder retrospectives, advice, profiles, and exceptional cases."
       ],
-      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], and [[StartupFocus]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, and explicit [[StartupHypothesisTesting]].",
+      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], and [[TroughOfSorrow]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], and root-bottleneck diagnosis when launch attention fades.",
       "status": "supported",
       "supporting_wikilinks": [
         "MinimumViableProduct",
@@ -72,7 +72,10 @@
         "Microsoft",
         "SmugMug",
         "ProductMarketFit",
-        "StartupFocus"
+        "StartupFocus",
+        "TroughOfSorrow",
+        "AndrewChen",
+        "YCombinator"
       ]
     },
     {
@@ -379,6 +382,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Google Design source adds that mature-product redesign needs team alignment around user journeys, co-design evidence, and information hierarchy before a visual refresh becomes durable UX change; the Mobile Dev Memo source adds that messaging-app monetization follows the native shape of chat through brand channels, CRM-like conversations, sponsored surfaces, and stickers.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Andrew Chen source adds that pre-product-market-fit startups can enter a Trough of Sorrow after launch attention fades, where emotional steadiness and root-bottleneck diagnosis determine whether runway becomes useful iteration rather than drift; recent product and messaging sources add that mature-product redesign needs user-journey evidence while messaging monetization follows native chat surfaces.",
   "topic_id": "business-and-markets"
 }

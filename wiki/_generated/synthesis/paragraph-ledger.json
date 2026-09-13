@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
       "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
       "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
       "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
@@ -128,11 +129,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 126
+    "paragraph_count": 127
   },
-  "overview_commit": "8027d2b863bc13755320e02f4ba25e6d8af3cbfb",
-  "overview_digest": "2646e42d9a71aca580631733c2cf539aaa8630b77e9b03efbc4d3ae2cf1677c0",
+  "overview_commit": "04d085ccf94810b642d7333fbaa316991452f74d",
+  "overview_digest": "9eda95713f15e438fd7f825bb9320f956cf72edb8408c9a8aa65c40bcb8c686f",
   "paragraphs": [
+    {
+      "id": "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Andrew Chen source adds a pre-product-market-fit survival layer to the startup cluster. [[TroughOfSorrow]] names the period after launch attention and novelty fade but before [[ProductMarketFit]] is clear; the inspected [[YCombinator]] diagram shows that path as a TechCrunch spike, novelty decay, the trough, improvement releases, false hope, possible crashes, and eventual recovery. [[AndrewChen]] argues that founders need both emotional steadiness and diagnosis: cofounder conflict, churn, and discouragement are common, but the analytical response is to identify whether the real bottleneck is product quality, onboarding, marketing, or growth execution. This sharpens [[StartupRunway]] and [[StartupFocus]] because capital buys product iterations only if the team uses those iterations on the right root problem rather than reflexively rebooting or adding generic growth tactics.",
+      "topic_scores": {
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "AndrewChen",
+        "ProductMarketFit",
+        "StartupFocus",
+        "StartupRunway",
+        "TroughOfSorrow",
+        "YCombinator"
+      ]
+    },
     {
       "id": "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
       "primary_topic": "business-and-markets",

@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 8027d2b863bc13755320e02f4ba25e6d8af3cbfb
-input_digest: 4496e18c6855027cb4655821e0bff5b72977bc498b17518e5feb32daeb75de76
+as_of_overview_commit: 04d085ccf94810b642d7333fbaa316991452f74d
+input_digest: 7059ddb0a7bcbf9edc106208836e1a275f20e0069284bd3605317c9d9fd5dde2
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Google Design source adds that mature-product redesign needs team alignment around user journeys, co-design evidence, and information hierarchy before a visual refresh becomes durable UX change; the Mobile Dev Memo source adds that messaging-app monetization follows the native shape of chat through brand channels, CRM-like conversations, sponsored surfaces, and stickers.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Andrew Chen source adds that pre-product-market-fit startups can enter a Trough of Sorrow after launch attention fades, where emotional steadiness and root-bottleneck diagnosis determine whether runway becomes useful iteration rather than drift; recent product and messaging sources add that mature-product redesign needs user-journey evidence while messaging monetization follows native chat surfaces.
 
 ## Cross-source Findings
 
@@ -48,9 +48,9 @@ Business and market sources show companies and investors converting technology, 
 
 ### Mvps And Pre Fit Startups Convert Runway Into Learning
 
-[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], and [[StartupFocus]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, and explicit [[StartupHypothesisTesting]].
+[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], and [[TroughOfSorrow]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], and root-bottleneck diagnosis when launch attention fades.
 
-**Evidence:** [[MinimumViableProduct]], [[CustomerLedProductDevelopment]], [[SaaSMarketing]], [[StartupHypothesisTesting]], [[OutsourcedProductDevelopment]], [[StartupRunway]], [[Maderight]], [[Hardbound]], [[Groove]], [[Bump]], [[Microsoft]], [[SmugMug]], [[ProductMarketFit]], [[StartupFocus]]
+**Evidence:** [[MinimumViableProduct]], [[CustomerLedProductDevelopment]], [[SaaSMarketing]], [[StartupHypothesisTesting]], [[OutsourcedProductDevelopment]], [[StartupRunway]], [[Maderight]], [[Hardbound]], [[Groove]], [[Bump]], [[Microsoft]], [[SmugMug]], [[ProductMarketFit]], [[StartupFocus]], [[TroughOfSorrow]], [[AndrewChen]], [[YCombinator]]
 
 **Qualifications:**
 
