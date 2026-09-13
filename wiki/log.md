@@ -604,6 +604,8 @@ Added source note plus pages for Ed Parsons, Google Maps, Google Earth, Street V
 
 Added source note and synthesis pages for AI winter, deep learning scaling, autonomous-driving safety, and Filip Piekniewski. Updated Deep Learning and overview with the source's qualifications about benchmark limits, compute scaling, and self-driving failures.
 
+## [2026-09-13] ingest | Optimize generative AI applications with pgvector indexing
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -798,6 +800,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

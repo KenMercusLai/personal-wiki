@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 55fa03eeba2649900debc9c8edfb4a68d9a8fbe4
-input_digest: a865fbb7d26e2c11d9c9a38a5bbb36a616e6661f141986b899ea01ae724ff90b
+as_of_overview_commit: 8f6c20197407286475cf7e036cc1ea11108a0389
+input_digest: 5a27255a29dbe10f1a93cf895c95395295cdf1b1f3e042c1c14ff53794fffa53
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, and security systems matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users, not merely asserted by builders.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, funding, scaling, compensation, category creation, and operational discipline. Durable companies convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, and category framing, defend against commoditization through differentiated value, family or team culture, and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. Scaling adds organization design but not simple headcount worship: recruiting, culture, communication, support, security systems, reliability investment, and infrastructure choices matter after fit, while opportunity design warns that employees need real scope before headcount becomes contribution. The topic also treats software, hardware, media, AI/database infrastructure, mobile platforms, and wearables as systems whose value must be perceived by users and justified by workload fit, not merely asserted by builders.
 
 ## Cross-source Findings
 
@@ -238,3 +238,13 @@ Business and market sources connect startup validation, product evolution, distr
 **Qualifications:**
 
 - The evidence is a public critique of one platform at one time and should not be treated as a complete turnaround plan.
+
+### Ai Database Infrastructure Needs Workload Fit
+
+[[AmazonBedrock]], [[AmazonRDS]], [[AmazonAurora]], [[PostgreSQL]], and [[Pgvector]] show AI application infrastructure as a product and operations choice where managed services, embedding models, vector indexing, latency, recall, and database consolidation have to fit the workload.
+
+**Evidence:** [[AmazonBedrock]], [[AmazonRDS]], [[AmazonAurora]], [[PostgreSQL]], [[Pgvector]], [[VectorDatabase]], [[ApproximateNearestNeighborSearch]]
+
+**Qualifications:**
+
+- The pgvector evidence is an AWS-authored technical benchmark rather than a full market comparison of vector databases or managed database services.

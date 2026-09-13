@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
 - [AI 语音输入工具提示词](sources/ai-yu-yin-shu-ru-gong-ju-ti-shi-ci.md) - Practical prompt and tool note for turning raw Chinese voice transcripts into clean written text without adding unsupported information.
 - [AI winter is well on its way - Piekniewski's blog](sources/ai-winter-is-well-on-its-way-piekniewskis-blog.md) - Filip Piekniewski's 2018 essay arguing that deep-learning hype was cracking through compute-scaling limits, self-driving failures, spurious visual patterns, and the Uber fatal crash.
@@ -137,7 +138,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Don MacAskill](entities/DonMacAskill.md) - SmugMug chief executive and "chief geek" who framed the company around a deliberate family atmosphere.
 - [Chris MacAskill](entities/ChrisMacAskill.md) - SmugMug co-founder, Don MacAskill's father, and Fatbrain veteran who carried entrepreneurial and family culture into the company.
 - [Price Intelligently](entities/PriceIntelligently.md) - SaaS pricing publisher behind the discounting analysis.
+- [Amazon Aurora](entities/AmazonAurora.md) - AWS PostgreSQL-compatible database option named for pgvector-backed generative AI applications.
+- [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
+- [Amazon RDS](entities/AmazonRDS.md) - Managed PostgreSQL environment used for the source's pgvector index tests.
 - [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
+- [pgvector](entities/Pgvector.md) - PostgreSQL extension for storing embeddings and running vector similarity search with exact or approximate indexes.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
 - [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform used as a traffic data source for comparing technology attention across countries.
 - [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
@@ -645,12 +650,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
 - [Web Ad Economics](concepts/WebAdEconomics.md) - Web funding model where users receive content without direct payment while advertising and tracking monetize attention and behavior.
 - [GPV Career Formula](concepts/GPVCareerFormula.md) - Career-reflection framework combining gifts, passion, and values to reason about fit.
+- [Approximate Nearest Neighbor Search](concepts/ApproximateNearestNeighborSearch.md) - Vector search strategy that trades perfect recall for lower-latency retrieval.
 - [Embeddings](concepts/Embeddings.md) - Vector representations used to compare source chunks and user questions for semantic retrieval.
 - [Game Localization](concepts/GameLocalization.md) - Adapting game text, names, jokes, mechanics-facing wording, and player experience for a target-language audience.
 - [Head-of-Line Blocking](concepts/HeadOfLineBlocking.md) - A blocking pattern where later HTTP work waits behind stalled earlier work or lost TCP data.
 - [Heuristic Evaluation](concepts/HeuristicEvaluation.md) - Expert UX evaluation method for inspecting interfaces against usability principles such as feedback, consistency, error recovery, and help.
 - [Heteroskedasticity](concepts/Heteroskedasticity.md) - Regression condition where error variance differs across observations or groups.
 - [Harness Engineering](concepts/HarnessEngineering.md) - Building scaffolds, constraints, feedback signals, and validation systems that let AI agents perform software work reliably.
+- [HNSW Index](concepts/HNSWIndex.md) - Layered graph index for approximate vector search in pgvector.
 - [HTTP](concepts/HTTP.md) - The web application protocol whose evolution moves from simple request-response transfer to QUIC-based transport.
 - [HTTP 402 Payment Required](concepts/HTTP402PaymentRequired.md) - Reserved HTTP status code proposed as a browser-readable signal for paid access.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
@@ -661,6 +668,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - Routing and quota layer that distributes AI inference requests using tokenized workload, live metrics, and cache state.
 - [Inference Tokenization](concepts/InferenceTokenization.md) - Model-aligned token accounting used by inference gateways for load estimates, quotas, and cache-aware routing.
 - [Intrinsically Valuable State](concepts/IntrinsicallyValuableState.md) - Piotr Wozniak's proposed non-instrumental meta-goal for orienting human purpose around the search for objective intrinsic value.
+- [IVFFlat Index](concepts/IVFFlatIndex.md) - Centroid-partitioned pgvector index that searches selected vector regions.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - Routing strategy that considers reusable key-value cache blocks to reduce inference prefill work.
 - [Knowledge Output](concepts/KnowledgeOutput.md) - Turning intake and research into notes, articles, explanations, or courses that deepen learning and test knowledge systems.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
