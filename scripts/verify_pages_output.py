@@ -634,14 +634,21 @@ def _load_contract(repository: pathlib.Path) -> CanonicalContract:
         "canonical compact synthesis manifest",
     )
     global_state = synthesis_manifest.get("global") if isinstance(synthesis_manifest, dict) else None
+    current_corpus = synthesis_manifest.get("corpus") if isinstance(synthesis_manifest, dict) else None
     if (
         not isinstance(global_state, dict)
+        or not isinstance(current_corpus, dict)
         or global_state.get("output_digest") != hashlib.sha256(synthesis_path.read_bytes()).hexdigest()
         or synthesis_meta.get("synthesis_source") != "compact"
         or synthesis_meta.get("source_count") != global_state.get("corpus", {}).get("source_count")
+        or current_corpus.get("source_count") != len(source_keys)
     ):
         raise ValueError("canonical compact synthesis differs from its manifest")
-    synthesis = {**synthesis_meta, "body": synthesis_body}
+    synthesis = {
+        **synthesis_meta,
+        "source_count": len(source_keys),
+        "body": synthesis_body,
+    }
     return CanonicalContract(
         tuple(sorted(pages, key=lambda page: page.key)),
         frozenset(expected_html),
