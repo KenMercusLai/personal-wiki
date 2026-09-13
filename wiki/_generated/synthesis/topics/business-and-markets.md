@@ -4,27 +4,27 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 2b15b02b3da6db0a80810d7f6402d8af53a82e5e
-input_digest: 25301a4b3cc341d0443a5a3f313a48f4ee3e321d9f4f632dbaa2826c86a22576
+as_of_overview_commit: f35d8de7f5ea1663eb730b2e94f3738cfee79618
+input_digest: 06f7733dcdd9f2b16011afe65fd8a93d93e1d7a39a0695a4863986dce156d0a7
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest product-management material adds that iconic product outcomes often depend on cross-functional product managers or product leaders who integrate customer value, technical feasibility, business viability, and institutional constraints rather than merely administering backlogs or stakeholder preferences.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest product-management material adds the pre-greenlight layer: PMs need to sell ideas internally, align proposals with KPIs, make ideas visual, and prioritize by expected impact, effort, and lifecycle bucket before development money is committed.
 
 ## Cross-source Findings
 
 ### Product Management Integrates Outcomes
 
-[[ProductManagement]] and [[ProductLeadership]] turn product work into business outcomes by integrating customer value, technology, business viability, legal, marketing, finance, operations, and organizational resistance across cases such as [[MicrosoftWordForMac]], [[Netflix]], [[GoogleAdWords]], [[BBCMobile]], [[ITunes]], and [[CreativeCloud]].
+[[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.
 
-**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[MicrosoftWordForMac]], [[Netflix]], [[GoogleAdWords]], [[BBCMobile]], [[ITunes]], [[CreativeCloud]]
+**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]]
 
 **Qualifications:**
 
-- The evidence is a selected SVPG case-study essay, so it highlights successful PM contributions while still depending on teams, founders, executives, engineers, and market timing.
+- The evidence combines selected successful case studies and practitioner advice, so it highlights PM agency while still depending on teams, founders, executives, engineers, estimation quality, and market timing.
 
 ### Early Startups Convert Runway Into Learning
 
@@ -38,13 +38,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Growth Must Preserve Retained Value
 
-[[SaaSMarketing]], [[MarketingAttribution]], [[AlgorithmicAttribution]], [[MarketingOperations]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to downstream retained value rather than raw signups, clicks, or first-touch credit.
+[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, and downstream retained value rather than raw signups, clicks, or first-touch credit.
 
-**Evidence:** [[SaaSMarketing]], [[MarketingAttribution]], [[AlgorithmicAttribution]], [[MarketingOperations]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
+**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
 
 **Qualifications:**
 
-- Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence.
+- Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops and onboarding tactics can also become spammy or low-quality when they are not grounded in a sticky core product.
 
 ### Pricing And Subscriptions Align Value Over Time
 

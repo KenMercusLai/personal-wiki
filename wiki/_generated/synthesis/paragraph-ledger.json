@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4f3bc423d395f3d2be26917492b1dfb34e596447b7c0f08d5267094275be6497",
       "c40b2763442228dcb4131d9881c2b3cbb426fe96d50c6bfcf39d1c4af386da10",
       "b50533f76578a3f6a1208ff2ea6b9eb56be9edaa9ad14616822d2b7e5056822d",
       "6f64d3b88b601887a0ad4ac2a7fb2d2dfbdff852e942810b73975c07efa7edd1",
@@ -184,11 +185,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 182
+    "paragraph_count": 183
   },
-  "overview_commit": "2b15b02b3da6db0a80810d7f6402d8af53a82e5e",
-  "overview_digest": "9c2b1dec99ab38779e5f37acbb82e7ef49ce69f4fb7f662d4396ece2ba4811df",
+  "overview_commit": "f35d8de7f5ea1663eb730b2e94f3738cfee79618",
+  "overview_digest": "67e076c9c15160b50fd0f93aa4634c9a451ee20a5dee776d3148df6fe6be8b8a",
   "paragraphs": [
+    {
+      "id": "4f3bc423d395f3d2be26917492b1dfb34e596447b7c0f08d5267094275be6497",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest PMInsider source adds a pre-greenlight product-management layer to the wiki's product and growth material. [[ProductManagement]] now includes selling ideas internally, speaking the company's KPI language, making ideas visual enough for busy decision makers, and prioritizing proposals before development money is committed. [[ProductIdeaPrioritization]] names the source's scoring model: judge ideas by expected KPI impact and build difficulty, then sort them into growth, activation, engagement, reactivation, and revenue. This also sharpens [[GrowthHacking]] and [[ViralLoops]] by treating invite loops as only one growth bucket and warning that incentives work only when both sides receive real value and the core product is sticky. [[ProductFlowFriction]] gains the article's magic-moment activation target: onboarding should get new users quickly to the experience that makes them return.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "GrowthHacking",
+        "ProductFlowFriction",
+        "ProductIdeaPrioritization",
+        "ProductManagement",
+        "ViralLoops"
+      ]
+    },
     {
       "id": "c40b2763442228dcb4131d9881c2b3cbb426fe96d50c6bfcf39d1c4af386da10",
       "primary_topic": "business-and-markets",

@@ -1512,3 +1512,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-14] ingest | Being A Product Manager: How To Get Your Products Built
+
+Added PMInsider's pre-greenlight product-management article. Key claims: PMs need to sell ideas internally, align proposals with company KPIs, use visuals to communicate product ideas, and prioritize by KPI impact, build difficulty, and lifecycle bucket: growth, activation, engagement, reactivation, or revenue.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

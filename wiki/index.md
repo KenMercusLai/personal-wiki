@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Being A Product Manager: How To Get Your Products Built](sources/being-a-product-manager-how-to-get-your-products-built.md) - PMInsider frames pre-greenlight product management around selling ideas, aligning with KPIs, rough visual communication, and prioritizing growth, activation, engagement, reactivation, and revenue ideas.
 - [Behind Every Great Product](sources/behind-every-great-product-silicon-valley-product-group.md) - Marty Cagan argues through six product-manager case studies that strong product management integrates customer, business, technical, and organizational constraints into product outcomes.
 - [Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius](sources/balaji-srinivasan-silicon-valleys-ultimate-exit-genius.md) - Balaji Srinivasan argues that Silicon Valley should lower barriers to exit through startups, forks, opt-in societies, Bitcoin, and other technology-mediated alternatives to paper-era institutions.
 - [Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded](sources/be-smarter-be-seetd-stitch-fix-technology-multithreaded.md) - Stitch Fix explains seetd, an internal office seating tool that models people-to-seat allocation through weighted optimization terms and simulated annealing.
@@ -821,6 +822,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
 - [Product Management](concepts/ProductManagement.md) - Cross-functional product role accountable for integrating customer, business, technical, and organizational constraints into product outcomes.
 - [Product Leadership](concepts/ProductLeadership.md) - Product role of setting and communicating vision and strategy strongly enough to move organizations through risky product change.
+- [Product Idea Prioritization](concepts/ProductIdeaPrioritization.md) - Ranking product ideas by KPI impact, build difficulty, and whether they improve growth, activation, engagement, reactivation, or revenue.
 - [Information Hierarchy](concepts/InformationHierarchy.md) - Ordering and prioritizing interface information so users can find important data, actions, and features when needed.
 - [App Landing Pages](concepts/AppLandingPages.md) - Single-goal app marketing pages for validation, acquisition, lead capture, and conversion testing.
 - [User Journey Mapping](concepts/UserJourneyMapping.md) - Mapping how users move through a product so redesign teams can align around important goals and repeated flows.

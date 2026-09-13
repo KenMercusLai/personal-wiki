@@ -4,19 +4,14 @@
       "global_candidate": true,
       "id": "product-management-integrates-outcomes",
       "qualifications": [
-        "The evidence is a selected SVPG case-study essay, so it highlights successful PM contributions while still depending on teams, founders, executives, engineers, and market timing."
+        "The evidence combines selected successful case studies and practitioner advice, so it highlights PM agency while still depending on teams, founders, executives, engineers, estimation quality, and market timing."
       ],
-      "statement": "[[ProductManagement]] and [[ProductLeadership]] turn product work into business outcomes by integrating customer value, technology, business viability, legal, marketing, finance, operations, and organizational resistance across cases such as [[MicrosoftWordForMac]], [[Netflix]], [[GoogleAdWords]], [[BBCMobile]], [[ITunes]], and [[CreativeCloud]].",
+      "statement": "[[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.",
       "status": "supported",
       "supporting_wikilinks": [
         "ProductManagement",
         "ProductLeadership",
-        "MicrosoftWordForMac",
-        "Netflix",
-        "GoogleAdWords",
-        "BBCMobile",
-        "ITunes",
-        "CreativeCloud"
+        "ProductIdeaPrioritization"
       ]
     },
     {
@@ -41,15 +36,16 @@
       "global_candidate": true,
       "id": "growth-must-preserve-retained-value",
       "qualifications": [
-        "Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence."
+        "Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops and onboarding tactics can also become spammy or low-quality when they are not grounded in a sticky core product."
       ],
-      "statement": "[[SaaSMarketing]], [[MarketingAttribution]], [[AlgorithmicAttribution]], [[MarketingOperations]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to downstream retained value rather than raw signups, clicks, or first-touch credit.",
+      "statement": "[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, and downstream retained value rather than raw signups, clicks, or first-touch credit.",
       "status": "supported",
       "supporting_wikilinks": [
+        "GrowthHacking",
+        "ViralLoops",
+        "ProductFlowFriction",
         "SaaSMarketing",
         "MarketingAttribution",
-        "AlgorithmicAttribution",
-        "MarketingOperations",
         "DeepFunnelMetrics",
         "SaaSRetention",
         "ProductLedRetention",
@@ -242,6 +238,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest product-management material adds that iconic product outcomes often depend on cross-functional product managers or product leaders who integrate customer value, technical feasibility, business viability, and institutional constraints rather than merely administering backlogs or stakeholder preferences.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, brand, trust, operations, and capital allocation stay connected to customer evidence, distribution, retention, operating capacity, and organizational judgment. The newest product-management material adds the pre-greenlight layer: PMs need to sell ideas internally, align proposals with KPIs, make ideas visual, and prioritize by expected impact, effort, and lifecycle bucket before development money is committed.",
   "topic_id": "business-and-markets"
 }

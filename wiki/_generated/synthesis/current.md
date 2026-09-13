@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 2b15b02b3da6db0a80810d7f6402d8af53a82e5e
-summary: "A cross-domain atlas of technology, product work, platforms, learning, governance, media, and agency organized around feedback, trust, verification, and judgment."
-episode_count: 187
-source_count: 187
-paragraph_count: 182
+as_of_overview_commit: f35d8de7f5ea1663eb730b2e94f3738cfee79618
+summary: "A cross-domain atlas of technology, product work, platforms, learning, governance, media, and agency organized around feedback, trust, verification, prioritization, and judgment."
+episode_count: 188
+source_count: 188
+paragraph_count: 183
 topic_count: 9
 ---
 
@@ -19,11 +19,10 @@ topic_count: 9
 - AI-assisted work is strongest when models provide scaffolding for drafts, prompts, retrieval, code, or analysis while humans retain ownership of claims, examples, architecture, statistical method, review, and final judgment across [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], and [[HumanCodeResponsibility]].
 - Coding-agent and automation speed depend less on raw generation or execution than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]], and individual practices such as [[ProgrammingJournal]] that turn fast output, gameplay change, or debugging work into reviewable, testable, and recoverable feedback.
 - Agent reliability is bounded by [[LLMContextManagement]], [[AgentMemory]], [[ProductionAgentInfrastructure]], [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], and [[SemanticIsolation]] because long-running, high-permission agents need recoverable state and constrained side effects.
-- [[ProductManagement]] and [[ProductLeadership]] turn product work into business outcomes by integrating customer value, technology, business viability, legal, marketing, finance, operations, and organizational resistance across cases such as [[MicrosoftWordForMac]], [[Netflix]], [[GoogleAdWords]], [[BBCMobile]], [[ITunes]], and [[CreativeCloud]].
+- [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale.
+- [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, and downstream retained value rather than raw signups, clicks, or first-touch credit.
 - [[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.
-- Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak.
 
 ## Synthesis by Domain
 
@@ -36,9 +35,9 @@ AI and technology sources emphasize human-owned judgment, verification, context 
 
 ### Business and Markets
 
-Business and market sources connect product management, startup learning, pricing, attribution, executive hiring, platforms, brand, operations, and capital allocation to durable value only when customer evidence, distribution, retention, trust, and operating capacity keep pace.
+Business and market sources connect product management, startup learning, growth, pricing, attribution, executive hiring, platforms, brand, operations, and capital allocation to durable value only when customer evidence, prioritization, distribution, retention, trust, and operating capacity keep pace.
 
-- [[ProductManagement]] and [[ProductLeadership]] turn product work into business outcomes by integrating customer value, technology, business viability, legal, marketing, finance, operations, and organizational resistance across cases such as [[MicrosoftWordForMac]], [[Netflix]], [[GoogleAdWords]], [[BBCMobile]], [[ITunes]], and [[CreativeCloud]]. Evidence: [[ProductManagement]], [[ProductLeadership]], [[MicrosoftWordForMac]], [[Netflix]], [[GoogleAdWords]], [[BBCMobile]], [[ITunes]], [[CreativeCloud]].
+- [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight. Evidence: [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]].
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale. Evidence: [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], [[DistributedSystemRestraint]].
 
 ### Cross-domain
