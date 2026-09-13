@@ -59,6 +59,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
+- [The Dinner Party Jerk Test](sources/andrew-chen-the-dinner-party-jerk-test.md) - Andrew Chen argues that early founders should pitch team, earned secrets, proof points, and future upside more forcefully than ordinary social modesty permits.
 - [Every time you ask the user to click you lose half](sources/every-time-you-ask-the-user-to-click-you-lose-half.md) - Andrew Chen argues that every extra click, field, tutorial, install, or signup demand spends user intent and should remain only when it improves later product value.
 - [Fun graph from Peter Attia's book Outlive](sources/andrew-chen-fun-graph-from-peter-attias-book-outlive.md) - Andrew Chen uses an Outlive VO2 max chart to argue that building high cardiovascular fitness earlier preserves later-life capacity for ordinary activities such as brisk stair climbing.
 - [How I use AI when blogging and writing](sources/andrew-chen-how-i-use-ai-when-blogging-and-writing.md) - Andrew Chen argues that AI helps blogging most as a rough-draft, brainstorming, outline, voice-cleanup, and revision companion rather than as publishable prose by default.
@@ -369,7 +370,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
-- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, creator-economy dynamics, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
+- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, founder pitching, creator-economy dynamics, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
@@ -682,7 +683,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce founder time through tools, automation, assistance, or delegation so attention returns to higher-value work.
 - [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.
 - [Failure Ownership](concepts/FailureOwnership.md) - Accepting responsibility for a failed outcome without turning it into fixed self-condemnation.
-- [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete.
+- [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete, including ambitious team and upside narratives.
+- [Dinner Party Jerk Test](concepts/DinnerPartyJerkTest.md) - Andrew Chen's diagnostic for whether a founder pitch is too modest about team quality, proof points, and future upside.
 - [Outsourced Product Development](concepts/OutsourcedProductDevelopment.md) - Using external developers for product builds while retaining strategy, specification, QA, validation, and tracking responsibility.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.

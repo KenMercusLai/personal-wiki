@@ -5,6 +5,7 @@ tags: [startup, sales, leadership]
 sources:
   - 7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started
   - 8-pr-strategies-for-bootstrapped-startups-the-startup-medium
+  - andrew-chen-the-dinner-party-jerk-test
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -13,13 +14,15 @@ knowledge_schema: synthesis-v1
 [[StartupVisionSelling]] is the early-stage founder skill of persuading people to support a company based on the credible future it is trying to create, before present traction or resources are sufficient on their own.
 
 ## Current Synthesis
-The sources treat vision-selling as a general founder capability, not only investor fundraising. Early companies need cofounders, employees, beta customers, partners, suppliers, investors, journalists, and future hires to act before proof is complete. The Groove article's Grasshopper example shows vision-selling as economic leverage: credible story, honesty about constraints, and loyalty promises helped the founders secure infrastructure far below initial quoted cost. The PR article translates the same capability into media language: founders should compress the company into a plain one-sentence pitch that names the problem, target audience, distinctive solution, and reason the story matters.
+The sources treat vision-selling as a general founder capability, not only investor fundraising. Early companies need cofounders, employees, beta customers, partners, suppliers, investors, journalists, and future hires to act before proof is complete. The Groove article's Grasshopper example shows vision-selling as economic leverage: credible story, honesty about constraints, and loyalty promises helped the founders secure infrastructure far below initial quoted cost. The PR article translates the same capability into media language: founders should compress the company into a plain one-sentence pitch that names the problem, target audience, distinctive solution, and reason the story matters. Chen adds the interpersonal mechanism: founders may need to override ordinary dinner-party modesty and describe credentials, earned secrets, proof points, ambition, and upside in a way that feels embarrassingly self-promotional in normal social settings.
 
 ## Key Claims
 - Early supporters join for the company a founder can credibly become, not only for the current company.
 - Vision-selling applies to cofounders, investors, team members, beta customers, partners, and suppliers.
 - Public-facing vision-selling requires tailoring the story to the journalist, publication, and audience being addressed.
+- Earliest-stage pitching should include the team, founder-market insight, small validation signals, and future upside rather than only the current product idea.
 - Selling a vision can materially change startup economics by securing better terms or scarce resources.
+- Vision-selling works across stakeholders: investors want ambition, employees need adventure and meaning, and journalists or partners need a story worth attention.
 - The skill can be learned and improved, making founders stronger leaders.
 
 ## Evidence
@@ -27,13 +30,16 @@ The sources treat vision-selling as a general founder capability, not only inves
 - Grasshopper example: [[7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started]] recounts David Hauser and Siamak securing needed servers for about $150,000 instead of around $1 million by selling future growth and supplier loyalty.
 - Learnable skill: [[7-no-nonsense-pieces-of-startup-advice-i-wish-i-got-when-i-started]] says founders who deliberately worked on vision-selling became stronger leaders.
 - Media-facing pitch: [[8-pr-strategies-for-bootstrapped-startups-the-startup-medium]] recommends a one-sentence value proposition and explains that the pitch must make clear why a journalist and their audience should care.
+- Pitch posture: [[andrew-chen-the-dinner-party-jerk-test]] says founders should consciously switch from dinner-party mode to pitch mode, even when it feels awkward to name their own achievements and unique qualifications.
+- Stage-specific emphasis: [[andrew-chen-the-dinner-party-jerk-test]] distinguishes pre-seed team bets from later product, traction, revenue, and unit-economics bets.
+- Stakeholder range: [[andrew-chen-the-dinner-party-jerk-test]] argues that investors, employees, journalists, partners, and founders themselves all need an optimistic future story.
 
 ## Counterevidence & Qualifications
-Vision-selling can become overpromising if it is not tied to honest constraints and plausible execution. The examples are anecdotal and do not specify how often unusually good supplier terms or media attention are available. A concise pitch also does not guarantee coverage if the story is weak or aimed at the wrong audience.
+Vision-selling can become overpromising if it is not tied to honest constraints and plausible execution. The examples are anecdotal and do not specify how often unusually good supplier terms or media attention are available. A concise pitch also does not guarantee coverage if the story is weak or aimed at the wrong audience. Chen's source explicitly limits pitch optimism: founders still need to hold the truth about missing product-market fit, weak unit economics, marketing gaps, or team gaps while communicating the future clearly.
 
 ## What Changed
-- Created the concept page for selling startup vision as a leadership and resource-acquisition skill.
-- Added media pitching as a public-facing version of founder vision-selling.
+- Added Chen's dinner-party-versus-pitch-mode distinction as the social-psychological reason founders often underpitch themselves.
+- Added the idea that early-stage pitches should foreground team, earned secrets, proof points, and upside, not only the product idea.
 
 ## Related Concepts
 - [[FounderLedSales]] - both keep founders close to persuasion and learning, though vision-selling reaches stakeholders beyond customers.
@@ -41,3 +47,4 @@ Vision-selling can become overpromising if it is not tied to honest constraints 
 - [[FounderNetworkBuilding]] - trusted relationships make vision easier to hear.
 - [[SaaSMarketing]] - story and credibility also shape customer acquisition.
 - [[PublicRelationsStrategy]] - PR turns startup vision into targeted public communication.
+- [[DinnerPartyJerkTest]] - Chen's diagnostic for whether a founder pitch is forceful enough to overcome ordinary social modesty.

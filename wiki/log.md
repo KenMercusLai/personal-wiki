@@ -1243,3 +1243,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-13] ingest | The Dinner Party Jerk Test
+
+Added Andrew Chen's founder-pitch essay. Key claims: early founders should separate pitch mode from dinner-party modesty, make team quality and earned secrets explicit, sell optimistic future upside to investors/employees/partners/media, and keep that pitch posture separate from sober operating reality.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

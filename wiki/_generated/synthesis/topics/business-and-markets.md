@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: e12390aa2617cf6fc5d69b2de85f96694703dfeb
-input_digest: 64859573bfd1b81caba7595905cb63a91c239de5fb45a821a140ed0515eabf10
+as_of_overview_commit: 4ac47d0eb69963aff904ed51041c27000f015608
+input_digest: bebe0447eb8925147782c4a871ab30800c467c4cd9b77094245446a0e08e4979
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing, while early startup pitching must make team fit, proof points, and upside explicit without confusing optimistic vision with unresolved product-market or operating truth.
 
 ## Cross-source Findings
 
@@ -59,13 +59,14 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Mvps And Pre Fit Startups Convert Runway Into Learning
 
-[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], and [[TroughOfSorrow]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], and root-bottleneck diagnosis when launch attention fades.
+[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], [[TroughOfSorrow]], [[StartupVisionSelling]], and [[DinnerPartyJerkTest]] frame early startup work as converting time, capital, and stakeholder belief into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], root-bottleneck diagnosis when launch attention fades, and founder pitches that make team fit, earned secrets, proof points, and future upside legible without losing operational honesty.
 
-**Evidence:** [[MinimumViableProduct]], [[CustomerLedProductDevelopment]], [[SaaSMarketing]], [[StartupHypothesisTesting]], [[OutsourcedProductDevelopment]], [[StartupRunway]], [[Maderight]], [[Hardbound]], [[Groove]], [[Bump]], [[Microsoft]], [[SmugMug]], [[ProductMarketFit]], [[StartupFocus]], [[TroughOfSorrow]], [[AndrewChen]], [[YCombinator]]
+**Evidence:** [[MinimumViableProduct]], [[CustomerLedProductDevelopment]], [[SaaSMarketing]], [[StartupHypothesisTesting]], [[OutsourcedProductDevelopment]], [[StartupRunway]], [[Maderight]], [[Hardbound]], [[Groove]], [[Bump]], [[Microsoft]], [[SmugMug]], [[ProductMarketFit]], [[StartupFocus]], [[TroughOfSorrow]], [[AndrewChen]], [[YCombinator]], [[StartupVisionSelling]], [[DinnerPartyJerkTest]]
 
 **Qualifications:**
 
 - Famous MVP examples carry survivorship bias, and the evidence mixes founder retrospectives, advice, profiles, and exceptional cases.
+- Founder pitch advice is venture-context communication guidance; it should not be read as permission to overstate execution, product-market fit, unit economics, or team readiness.
 
 ### Product Operating Heuristics Connect Metrics Research And Shipping
 
