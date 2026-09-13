@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
-summary: "The wiki maps tools and institutions as systems where value depends on judgment, context, feedback, accountability, and correct domain models."
-episode_count: 122
-source_count: 122
-paragraph_count: 120
+as_of_overview_commit: 8f125c25e39f88091a0795d67d6eb7217f3b3c3c
+summary: "The wiki maps how faster tools create durable value only when judgment, evidence, trust, retention, reliability, and domain-correct models keep pace."
+episode_count: 123
+source_count: 123
+paragraph_count: 121
 topic_count: 9
 ---
 
@@ -16,14 +16,14 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]], [[AccountingSoftwareArchitecture]], and [[BusinessFinanceLiteracy]] show that software tracking money needs domain-correct accounting models and shared finance vocabulary, because report-generating document stores can hide incorrect financial structure.
 - [[AICodingPractice]] and [[CodeReviewPractice]] require [[AIAgentCollaboration]], [[HumanCodeResponsibility]], [[PRReviewHygiene]], [[SoftwareVerification]], [[HarnessEngineering]], [[SpecDrivenAgentDevelopment]], [[AgentTeam]], [[DistributedConsensus]], [[TrustTopology]], [[OracleRouting]], and [[BlackBoxLearning]] discipline so software speed remains reviewable, learnable, testable, coordinated, and capable of producing human judgment rather than only completed output.
 - [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[LLMContextManagement]], [[PromptCaching]], [[AgentMemory]], [[DynamicContextCompression]], [[ModelContextProtocol]], [[ComputerUse]], and [[ApproximateNearestNeighborSearch]] make LLM applications depend on how context is retrieved, compressed, cached, remembered, indexed, and connected to tools.
-- [[StartupScaling]] extends validation into organization design: after [[ProductMarketFit]], teams must manage [[Blitzscaling]], hiring, [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], [[TalentDensity]], support load, security, and [[EmployeeOpportunityDesign]] rather than treating headcount itself as success.
-- [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSDiscounting]] and [[SaaSPricing]] require judging offers by retained revenue, [[CustomerAcquisitionCost]] recovery, and [[CustomerLifetimeValue]], not customer count alone.
+- [[UXResearchInformationDesign]], [[DataGeneratingProcess]], [[VarianceAdditivity]], [[StatisticalError]], and [[LLMDataAnalysis]] all make data judgment depend on explicit models of evidence, assumptions, covariance, residuals, omitted causes, and method limits.
+- [[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
+- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], and [[StartupFocus]] frame early product work as converting time and capital into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, and explicit [[StartupHypothesisTesting]].
+- [[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[ApplePricingStrategy]], [[AppleProductTheory]], [[CorporateGiantFragility]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, pricing turns wearables into accessible luxury, product direction moves tasks toward more personal form factors, and long-run relevance depends on renewing the process for creating valuable tools.
+- [[MediaBrandPortfolio]] in the BuzzFeed memo connects media business strategy to public culture: [[Tasty]] is framed as a service-oriented brand that can create shared nonpolitical touchpoints, while [[PlatformPublisherRevenue]] and [[DigitalMediaMonetization]] are presented as conditions for keeping quality journalism and entertainment broadly accessible.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
-- Personalized infrastructure can feel empowering only when users can trust its data practices, moderation, and abstractions; digital maps make this visible through location privacy, user contributions, and platform-controlled cartography.
-- [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business.
 
 ## Synthesis by Domain
 
@@ -36,43 +36,43 @@ AI and technology sources emphasize that useful systems depend on human judgment
 
 ### Business and Markets
 
-Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The accounting primer adds that software businesses handling money need accounting literacy because bad financial models can be embedded in product architecture.
+Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The newest SaaS retention source sharpens acquisition economics by arguing that easier channels can still produce rising CAC and fragile LTV unless product value, onboarding, account expansion, and message-fit keep customers choosing the product.
 
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
 - [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], and [[IndependentCreator]] evidence show small creator businesses using stable income bases, modular services, [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] to turn narrow products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[IndependentCreator]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]].
 
 ### Cross-domain
 
-Cross-domain sources currently cover practical classification and tradeoff problems across business strategy, security, and applied algorithms. Apple growth, defensive port triage, and route simplification all show decisions being made through constraints, categories, and context-specific tradeoffs.
+Cross-domain sources currently cover practical classification and tradeoff problems across business strategy, security, and applied algorithms. [[AppleGrowthLevers]] separates Apple's 2018 rebound into near-term iPhone ASP growth and more durable Services and wearables expansion; [[DefensivePortTriage]] uses exposed services as signals for likely checks around credentials, cleartext protocols, unauthenticated services, remote administration, and database exposure; and [[RamerDouglasPeuckerAlgorithm]] uses [[EpsilonTolerance]] to trade path fidelity for lower point count in [[MapTrajectoryRendering]].
 
 - [[AppleGrowthLevers]] separates [[Apple]]'s 2018 revenue rebound into near-term [[IPhone]] ASP growth and more durable Services and [[WearableComputing]] expansion through [[AppleWatch]] and [[AirPods]]. Evidence: [[AppleGrowthLevers]], [[Apple]], [[IPhone]], [[WearableComputing]], [[AppleWatch]], [[AirPods]].
 - [[DefensivePortTriage]] can use exposed service ports as a first-pass map for validating [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]]. Evidence: [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]].
 
 ### Culture and Media
 
-The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form, platform distribution, localization, ownership, and portfolio economics shape how cultural work is discovered, monetized, interpreted, and preserved.
+The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; and media/product businesses depend on distribution, infrastructure, platform power, and audience interpretation.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]].
 - [[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability. Evidence: [[IndieGameDevelopment]], [[AmirRajan]], [[ADarkRoom]], [[AppStore]], [[CreativeTechnicalCareer]].
 
 ### Governance and Institutions
 
-Governance-related material spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, and public action. Technical and institutional boundaries allocate responsibility, access, and accountability before users experience the system as simple.
+The governance-related material spans control problems across institutions, infrastructure, public information spaces, developer environments, platform access, product boundaries, social platforms, and public action. Technical boundaries, campaign tools, ad rules, content-filtering APIs, platform safety choices, and learning institutions all allocate responsibility in ways that shape behavior and risk.
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper, Vim, numeric keypads, and double-entry accounting show chronology, dissemination, inherited conventions, and path dependence.
+The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; and the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
 
 ### Psychology and Personal Development
 
-Psychology and personal-development material treats agency as shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. Its strongest qualification is that useful-seeming tools can also become status games or brittle abstractions unless evidence, ownership, calibration, and trust are explicit.
+The psychology and personal-development material treats agency as something shaped by reflective habits, social performances, goals, knowledge calibration, interfaces, trusted infrastructures, and close social systems. The strongest qualification is that useful or confidence-building tools can also become status games, slogan-based authority, overconfident crowd signals, opaque interfaces, privacy risks, exclusion risks, or brittle abstractions unless evidence, ownership, calibration, and trust are explicit.
 
 - Short reflective practices can increase agency by turning daily experience into gratitude, learning, connection, and reusable knowledge. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]].
 
 ### Science, Health, and Climate
 
-Science, health, and climate remains mostly indirect. It covers attention and mental load, uncertainty about intrinsic value, and developer-data claims where evidence is useful but source-scoped rather than causal.
+The topic remains mostly indirect. It covers attention and mental load in productivity advice, a philosophy-of-science claim that current science does not settle intrinsic value, and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. The Stack Overflow evidence is useful but source-scoped because it measures 2017 English-language question visits rather than scientific employment, software work, or causality.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 

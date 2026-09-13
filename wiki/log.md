@@ -630,6 +630,10 @@ Ingested source note and updated Apple Services synthesis pages.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Acquisition is Easy. Retention is Hard.
+
+Added Product Habits source note on SaaS acquisition getting easier while retention gets harder. Created [[SaaSRetention]], [[ProductLedRetention]], [[ProductHabits]], [[HitenShah]], [[BrianBalfour]], [[Reforge]], [[Intercom]], [[Front]], [[MathildeCollin]], [[CrazyEgg]], and [[GoogleAnalytics]], and updated [[PriceIntelligently]], [[CustomerAcquisitionCost]], and [[CustomerLifetimeValue]] with the retention and unit-economics framing.
+
 ## [2026-09-13] ingest | Accounting for Developers 101 - Google Docs
 
 Added a source note for McKee and Mornini's double-entry accounting primer, created the accounting concepts [[DoubleEntryAccounting]], [[AccountingSoftwareArchitecture]], [[FinancialSoftwareDesign]], and [[BusinessFinanceLiteracy]], and added entity pages for [[Subledger]], [[JohnMcKee]], [[TomMornini]], and [[LucaPacioli]]. The source export ends mid-sentence, and the embedded screenshot duplicated text already present in the markdown.
@@ -965,6 +969,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Above Avalon: The Race to a Trillion
 
 Added source note for Neil Cybart's 2018 corporate-giant essay, created [[Amazon]] and [[CorporateGiantFragility]], and updated Apple/Above Avalon/Cybart plus Google, Microsoft, and Facebook with the trillion-dollar-race and incumbent-fragility frame.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

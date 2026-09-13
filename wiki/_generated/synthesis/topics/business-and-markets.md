@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
-input_digest: 5ebc39d89bd27c3f2bd70c4323df21e63b2c08f2dd9f37f113be63c9e3c350a0
+as_of_overview_commit: 8f125c25e39f88091a0795d67d6eb7217f3b3c3c
+input_digest: 686eaedae3e60ddf15a05c5dd4befb83210d8761547d93d154a8e77b6c769601
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The accounting primer adds that software businesses handling money need accounting literacy because bad financial models can be embedded in product architecture.
+Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The newest SaaS retention source sharpens acquisition economics by arguing that easier channels can still produce rising CAC and fragile LTV unless product value, onboarding, account expansion, and message-fit keep customers choosing the product.
 
 ## Cross-source Findings
 
@@ -58,9 +58,9 @@ Business and market sources show companies converting technology, brand, pricing
 
 ### Saas Acquisition And Trust Loops Must Preserve Retained Value
 
-[[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSDiscounting]] and [[SaaSPricing]] require judging offers by retained revenue, [[CustomerAcquisitionCost]] recovery, and [[CustomerLifetimeValue]], not customer count alone.
+[[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.
 
-**Evidence:** [[SaaSMarketing]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
+**Evidence:** [[SaaSMarketing]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[SaaSRetention]], [[ProductLedRetention]], [[SaaSDiscounting]], [[SaaSPricing]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]]
 
 **Qualifications:**
 

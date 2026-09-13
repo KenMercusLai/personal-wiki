@@ -37,6 +37,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A small-screen iPod, an Internet Communicator and a Phone](sources/a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco.md) - Horace Dediu argues that Apple Watch had quickly become a major watch business and was moving from iPhone companion toward independent wearable computing and health.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
+- [Acquisition is Easy. Retention is Hard.](sources/acquisition-is-easy-retention-is-hard-product-habits.md) - Product Habits argues that modern SaaS acquisition is increasingly easy and visible, while retention depends on product strength, low-churn customer fit, account expansion, and marketing aligned with sticky value.
 - [A Dark Room: From Sabbatical Year to $800,000](sources/a-dark-room-from-sabbatical-year-to-800000.md) - Amir Rajan's retrospective on leaving corporate software work, using a savings-backed sabbatical to build A Dark Room for iOS, and interpreting its $800,000 success through luck, privilege, platform volatility, anxiety, and the limits of sustaining indie game work.
 - [A Look Back In IPO: Microsoft, The Software Success](sources/a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news.md) - Crunchbase News retrospective framing Microsoft's 1986 IPO as the public debut of a profitable, cash-positive software company with limited venture-capital pressure.
 - [A Look at Vim, a Text Editor for the Ages - The New Stack](sources/a-look-at-vim-a-text-editor-for-the-ages-the-new-stack.md) - The New Stack history tracing Vim from Unix `ed`, `em`, `ex`, and `vi` through Bram Moolenaar's open-source Vim, emphasizing constraint-shaped interface choices, incremental evolution, and cultural persistence.
@@ -156,7 +157,16 @@ This file is maintained by the LLM. Updated on every ingest.
 - [MacAskill Family](entities/MacAskillFamily.md) - Family group behind SmugMug's 2007 operating model across leadership, finance, support, testing, analytics, and customer service.
 - [Don MacAskill](entities/DonMacAskill.md) - SmugMug chief executive and "chief geek" who framed the company around a deliberate family atmosphere.
 - [Chris MacAskill](entities/ChrisMacAskill.md) - SmugMug co-founder, Don MacAskill's father, and Fatbrain veteran who carried entrepreneurial and family culture into the company.
-- [Price Intelligently](entities/PriceIntelligently.md) - SaaS pricing publisher behind the discounting analysis.
+- [Price Intelligently](entities/PriceIntelligently.md) - SaaS pricing and economics publisher behind the discounting analysis and acquisition-versus-retention framing.
+- [Product Habits](entities/ProductHabits.md) - Product and SaaS publication context for the retention-first growth article.
+- [Hiten Shah](entities/HitenShah.md) - Product Habits author and SaaS commentator arguing that modern SaaS growth must center retention.
+- [Brian Balfour](entities/BrianBalfour.md) - Growth-strategy voice cited for treating retention as the foundation of growth.
+- [Reforge](entities/Reforge.md) - Company context attached to Brian Balfour in the retention article.
+- [Intercom](entities/Intercom.md) - Customer-communication SaaS used as a suite-expansion retention case.
+- [Front](entities/Front.md) - Collaborative email SaaS used as an account-expansion and net-negative-churn retention case.
+- [Mathilde Collin](entities/MathildeCollin.md) - Front CEO cited through the Series A deck used in the retention case.
+- [Crazy Egg](entities/CrazyEgg.md) - Analytics SaaS used as a heatmap-led product-message alignment case.
+- [Google Analytics](entities/GoogleAnalytics.md) - Incumbent analytics product contrasted with Crazy Egg's heatmap positioning.
 - [Amazon Aurora](entities/AmazonAurora.md) - AWS PostgreSQL-compatible database option named for pgvector-backed generative AI applications.
 - [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
 - [Amazon RDS](entities/AmazonRDS.md) - Managed PostgreSQL environment used for the source's pgvector index tests.
@@ -549,8 +559,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
-- [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue and the time needed to recover it.
-- [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by revenue, retention, and churn.
+- [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue, lead quality, retention, and the time needed to recover it.
+- [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by revenue, retention, churn, and expansion.
+- [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
+- [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.

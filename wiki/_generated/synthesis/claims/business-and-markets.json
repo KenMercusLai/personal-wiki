@@ -85,7 +85,7 @@
       "qualifications": [
         "Growth examples are mostly practitioner or historical cases, and channel conditions, product quality, cohort behavior, and retention determine whether acquisition creates durable value."
       ],
-      "statement": "[[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSDiscounting]] and [[SaaSPricing]] require judging offers by retained revenue, [[CustomerAcquisitionCost]] recovery, and [[CustomerLifetimeValue]], not customer count alone.",
+      "statement": "[[SaaSMarketing]] uses trust and acquisition loops such as [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], and [[MarketplaceTrust]], but [[SaaSRetention]] and [[ProductLedRetention]] qualify acquisition-first growth: offers and channels should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, and compounding product value rather than customer count alone.",
       "status": "supported",
       "supporting_wikilinks": [
         "SaaSMarketing",
@@ -95,6 +95,8 @@
         "FreemiumAcquisition",
         "ContentLedAcquisition",
         "MarketplaceTrust",
+        "SaaSRetention",
+        "ProductLedRetention",
         "SaaSDiscounting",
         "SaaSPricing",
         "CustomerAcquisitionCost",
@@ -317,6 +319,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The accounting primer adds that software businesses handling money need accounting literacy because bad financial models can be embedded in product architecture.",
+  "summary": "Business and market sources show companies converting technology, brand, pricing, media, validation, organization design, and domain modeling into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, and financial correctness keep pace with growth. The newest SaaS retention source sharpens acquisition economics by arguing that easier channels can still produce rising CAC and fragile LTV unless product value, onboarding, account expansion, and message-fit keep customers choosing the product.",
   "topic_id": "business-and-markets"
 }

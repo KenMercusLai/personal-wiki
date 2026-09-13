@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "496719edeb2659d837f5537c613296a863dfa033ee85c33d01a90e9dc703716b",
       "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
       "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
@@ -122,11 +123,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 120
+    "paragraph_count": 121
   },
-  "overview_commit": "ab0b1df4599da9c444251eb9d0f9e19f3c18ded6",
-  "overview_digest": "d6465af540bb73f63f1df896835b96cc2e5b6ff293b92200f0c23589c1ac90cc",
+  "overview_commit": "8f125c25e39f88091a0795d67d6eb7217f3b3c3c",
+  "overview_digest": "ef903b127999400faa2d6a2ee91a68e2926ea99724d4d85c7a84745661b15c1c",
   "paragraphs": [
+    {
+      "id": "496719edeb2659d837f5537c613296a863dfa033ee85c33d01a90e9dc703716b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Product Habits source adds a retention-first SaaS growth layer. [[HitenShah]] argues that SaaS acquisition became easier as knowledge, tools, freemium entry, and distribution got cheaper, but those same forces made [[SaaSRetention]] harder by increasing competition, lowering switching costs, and bringing in weak-fit leads. [[ProductLedRetention]] names the source's answer: product strength, suite expansion, account expansion, onboarding into deeper use, and marketing aligned to sticky customer value matter more than raw acquisition volume. [[Intercom]] illustrates broader workflow coverage, [[Front]] illustrates retention-led upsell and net negative churn, and [[CrazyEgg]] illustrates differentiating against [[GoogleAnalytics]] through heatmap-focused product-message fit. This also qualifies [[CustomerAcquisitionCost]] and [[CustomerLifetimeValue]]: CAC can rise in saturated markets, and LTV depends on customers continuing to choose the product after switching barriers fall.",
+      "topic_scores": {
+        "business-and-markets": 4
+      },
+      "wikilinks": [
+        "CrazyEgg",
+        "CustomerAcquisitionCost",
+        "CustomerLifetimeValue",
+        "Front",
+        "GoogleAnalytics",
+        "HitenShah",
+        "Intercom",
+        "ProductLedRetention",
+        "SaaSRetention"
+      ]
+    },
     {
       "id": "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
       "primary_topic": "business-and-markets",
