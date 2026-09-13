@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: c6d5c20a42a783f1b5e08c5533b9064154faa3eb
+as_of_overview_commit: 6c8fba3773240880296c893d19ff918327cd33d1
 summary: "Atlas of AI, product, markets, platforms, learning, governance, and work organized around feedback, trust, verification, positioning, and judgment."
-episode_count: 189
-source_count: 189
-paragraph_count: 184
+episode_count: 190
+source_count: 190
+paragraph_count: 185
 topic_count: 9
 ---
 
@@ -23,6 +23,7 @@ topic_count: 9
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale.
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, and downstream retained value rather than raw signups, clicks, or first-touch credit.
 - [[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.
+- Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, community access, transferable skills, or economic room to choose.
 
 ## Synthesis by Domain
 
@@ -80,7 +81,7 @@ Science, health, and climate remains mostly indirect, with current material touc
 
 ### Work, Education, and Society
 
-Work, education, and society sources connect learning practice, career development, independent work, product-building discipline, collaboration, service value, workplace conditions, and tool-mediated capability.
+Work, education, and society sources connect learning practice, career development, independent work, product-building discipline, collaboration, service value, workplace conditions, and tool-mediated capability. Career agency now includes later-life tech transition, where practice, feedback, mentorship, community participation, transferable maturity, and recovery boundaries shape whether opportunity becomes sustainable.
 
-- Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, user response, or written debugging records into better future decisions. Evidence: [[ActiveLearning]], [[JournalingPractice]], [[ProgrammingJournal]], [[CreatorFeedbackLoop]], [[ContextualBandits]], [[WorkplaceLearning]].
-- Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose. Evidence: [[CareerPlanning]], [[CreativeTechnicalCareer]], [[EmployeeOpportunityDesign]], [[ProgrammerFreelancing]], [[SabbaticalCareerExperiment]].
+- Learning and work improve when people, communities, or systems create feedback loops that turn behavior, reflection, experiments, user response, written debugging records, code review, or mentoring into better future decisions. Evidence: [[ActiveLearning]], [[JournalingPractice]], [[ProgrammingJournal]], [[JuniorEngineerLearning]], [[WorkplaceLearning]], [[TechCommunityParticipation]], [[CreatorFeedbackLoop]], [[ContextualBandits]].
+- Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, community access, transferable skills, or economic room to choose. Evidence: [[CareerPlanning]], [[CreativeTechnicalCareer]], [[EmployeeOpportunityDesign]], [[ProgrammerFreelancing]], [[SabbaticalCareerExperiment]], [[JuniorEngineerLearning]], [[TechCommunityParticipation]], [[SkillStacking]].

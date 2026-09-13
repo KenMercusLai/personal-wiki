@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "35f009164a4bbb7d948102ca5d495aca4fd2116dd05d136f1f1c5076df87b31b",
       "85197be8a23d8b6331d8ce229d2e43291d8f02016741c1c2782e56e6c4fdae8c",
       "4f3bc423d395f3d2be26917492b1dfb34e596447b7c0f08d5267094275be6497",
       "c40b2763442228dcb4131d9881c2b3cbb426fe96d50c6bfcf39d1c4af386da10",
@@ -186,11 +187,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 184
+    "paragraph_count": 185
   },
-  "overview_commit": "c6d5c20a42a783f1b5e08c5533b9064154faa3eb",
-  "overview_digest": "a9e65bf06215bf9114f2a7cd2f60cebc2e9a8639ee05e294225f5c03f4e6e9e3",
+  "overview_commit": "6c8fba3773240880296c893d19ff918327cd33d1",
+  "overview_digest": "763c408a793bcd991e8f3a58cd0e87f326f2dea4074524f0daa926c1b3575a38",
   "paragraphs": [
+    {
+      "id": "35f009164a4bbb7d948102ca5d495aca4fd2116dd05d136f1f1c5076df87b31b",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest junior-developer source adds a later-life career-transition layer to the wiki's software-learning and career material. [[CareerPlanning]] now includes a first-person case where an abandoned linguistics path, family grief, and a return to web design lead into developer work around age 30. [[JuniorEngineerLearning]] is sharpened by the author's mismatch between being older and formerly managerial while still being technically junior; feedback, questions, code review, niche practice, and supportive colleagues become confidence infrastructure. New [[TechCommunityParticipation]] captures meetups, conferences, hackathons, teaching, and public speaking as social learning and opportunity channels, while [[BurnoutPrevention]] gains the source's boundary lesson that career-building events can crowd out weekends and recovery. [[SkillStacking]] also gains a career-change case where prior management, communication, teaching, and public speaking complement new programming skill. The inspected images supported the conference-speaking and hackathon-community claims.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "CareerPlanning",
+        "JuniorEngineerLearning",
+        "SkillStacking",
+        "TechCommunityParticipation"
+      ]
+    },
     {
       "id": "85197be8a23d8b6331d8ce229d2e43291d8f02016741c1c2782e56e6c4fdae8c",
       "primary_topic": "business-and-markets",

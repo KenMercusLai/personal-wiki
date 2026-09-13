@@ -1383,6 +1383,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Being a Junior Developer at 30
+
+Added a later-life junior-developer career-change reflection. Key claims: entering tech around 30 can be rewarding but risky, junior learning depends on practice, feedback, questions, mentorship, and supportive teams, and tech community participation can create opportunity while requiring burnout-prevention boundaries.
+
 ## [2026-09-14] ingest | Become a Better Coder by Keeping a Programming Journal
 
 Added the MakeUseOf programming-journal article. Key claims: coding improves when programmers externalize design and debugging thoughts, record reproduction steps and failed fixes, keep visible wins, park future questions, and summarize lessons after sessions or milestones. Inspected the local lead image and treated it as decorative; four later referenced local article images were unavailable, so no image evidence from them was incorporated.
@@ -1523,6 +1527,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Being Different Beats Being Better
 
 Added Darius Foroux's differentiation article. Key claims: business and career strategy should emphasize being meaningfully different, first in a recognizable category, and distinctive through skill stacking rather than only trying to be marginally better.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Being A Product Manager: How To Get Your Products Built](sources/being-a-product-manager-how-to-get-your-products-built.md) - PMInsider frames pre-greenlight product management around selling ideas, aligning with KPIs, rough visual communication, and prioritizing growth, activation, engagement, reactivation, and revenue ideas.
+- [Being a Junior Developer at 30](sources/being-a-junior-developer-at-30-by.md) - A later-life tech career-change reflection arguing that junior developer learning depends on practice, feedback, mentorship, community participation, boundaries, and transferable maturity.
 - [Being Different Beats Being Better](sources/being-different-beats-being-better-darius-foroux.md) - Darius Foroux argues that business and career success often come from being meaningfully different, first in a category, or distinctive through skill stacking rather than marginally better.
 - [Behind Every Great Product](sources/behind-every-great-product-silicon-valley-product-group.md) - Marty Cagan argues through six product-manager case studies that strong product management integrates customer, business, technical, and organizational constraints into product outcomes.
 - [Balaji Srinivasan - Silicon Valley's Ultimate Exit | Genius](sources/balaji-srinivasan-silicon-valleys-ultimate-exit-genius.md) - Balaji Srinivasan argues that Silicon Valley should lower barriers to exit through startups, forks, opt-in societies, Bitcoin, and other technology-mediated alternatives to paper-era institutions.
@@ -220,6 +221,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
 - [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
 - [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication that published the Zappacosta executive-hiring interview.
+- [Manuel Matuzovic](entities/ManuelMatuzovic.md) - Teacher, friend, and mentor in the junior-developer career-transition source.
 - [Arianna Huffington](entities/AriannaHuffington.md) - Media founder and sleep advocate connecting HuffPost leadership with The Sleep Revolution, recovery routines, and burnout-prevention practices.
 - [Annie Ridout](entities/AnnieRidout.md) - Journalist and interviewer for The Early Hour's Arianna Huffington interview.
 - [Huffington Post](entities/HuffingtonPost.md) - Online news and blogging platform used as a case for both 24-hour newsroom pressure and recovery-supporting workplace practices.
@@ -734,6 +736,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
 - [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, and joint problem solving rather than defensive positioning.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
+- [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning and opportunity infrastructure.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
 - [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.

@@ -5,7 +5,8 @@ tags: [learning, software-engineering, work]
 sources:
   - ru-he-zai-gong-zuo-zhong-xue-xi
   - 7-best-practices-for-doing-code-reviews
-last_updated: 2026-09-13
+  - being-a-junior-developer-at-30-by
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ The article also adds a structural learning rule. When entering a new domain, le
 
 Peer review can provide another version of the same learning loop. Reviewers can learn a codebase by predicting which files should change, comparing that model with the actual diff, visualizing call hierarchies, and using review to learn how coworkers reason about the system.
 
+Learning at work depends not only on traces and techniques but also on whether a boss, mentor, and teammates make it possible to ask questions, discuss insecurity, and get honest feedback about code quality and learning pace.
+
 ## Key Claims
 - Work problems are high-value learning material when they are reviewed as cases rather than merely closed.
 - Ability grows from combining knowledge with logic, not from knowing isolated facts.
@@ -26,7 +29,7 @@ Peer review can provide another version of the same learning loop. Reviewers can
 - New domains need a big-picture map and key anchors before facts can connect and self-grow.
 - Hands-on verification gives abstract technical ideas concrete feel and improves recall.
 - General diagnostic methods can be more transferable than memorizing one expert's known fix.
-- Code review can become workplace learning when the reviewer actively predicts, visualizes, runs, and recalls rather than passively reading a diff.
+- Code review, mentors, managers, and teammates can turn prediction, local verification, vulnerable questions, and code-review anxiety into usable learning feedback.
 
 ## Evidence
 - Case review: [[ru-he-zai-gong-zuo-zhong-xue-xi]] recommends analyzing how a colleague solved a problem, what knowledge guided the reasoning, and which known facts the learner failed to apply.
@@ -36,13 +39,16 @@ Peer review can provide another version of the same learning loop. Reviewers can
 - Concrete feel: [[ru-he-zai-gong-zuo-zhong-xue-xi]] uses TCP three-way-handshake study with Wireshark as an example of making theory tangible.
 - Transferable diagnostics: [[ru-he-zai-gong-zuo-zhong-xue-xi]] contrasts a tcpdump-based investigation with a MySQL-specific `skip-name-resolve` fix, valuing the general method's portability.
 - Review learning: [[7-best-practices-for-doing-code-reviews]] recommends predicting changed files, visualizing method calls, quizzing oneself, and using review to learn coworkers' codebase reasoning.
+- Feedback safety: [[being-a-junior-developer-at-30-by]] says the author talked with her boss about insecurities, asked for feedback on learning speed and code quality, asked questions, and learned from supportive teammates.
+- Mentorship: [[being-a-junior-developer-at-30-by]] describes [[ManuelMatuzovic]] as a teacher, friend, and mentor who challenged the author and recognized her ambition.
 
 ## Counterevidence & Qualifications
-The source is a practitioner essay, not an empirical comparison of learning methods. Its strongest claim is practical: in technical work, situated cases and hands-on verification can make learning more durable. It may understate constraints such as access to expert colleagues, safe production data, time for experiments, or the social cost of repeatedly asking for explanation.
+The sources are practitioner essays, not empirical comparisons of learning methods. Their strongest shared claim is practical: in technical work, situated cases, hands-on verification, code review, and people-mediated feedback can make learning more durable. They may understate constraints such as access to expert colleagues, safe production data, time for experiments, a supportive manager, or the social cost of repeatedly asking for explanation.
 
 ## What Changed
 - Created the concept to capture problem-backed, apprenticeship-style technical learning at work.
 - Added code review as an active-learning setting for understanding codebase structure and teammate reasoning.
+- Added psychological safety, mentoring, and manager feedback as conditions that let junior developers ask learning-rich questions.
 
 ## Related Concepts
 - [[ActiveLearning]] - workplace learning becomes active through experiments, replay, and problem review.
@@ -52,3 +58,4 @@ The source is a practitioner essay, not an empirical comparison of learning meth
 - [[FeynmanTechnique]] - repeated why-questions and gap review test whether the learner actually understands a solution.
 - [[SoftwareVerification]] - experiments, traces, and reproduction make technical learning evidence-backed.
 - [[CodeReviewPractice]] - active review can turn teammate changes into learning cases.
+- [[TechCommunityParticipation]] - community events can supplement workplace feedback with broader social learning.
