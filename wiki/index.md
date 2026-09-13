@@ -21,6 +21,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
+- [Asana's September 8 Outage](sources/asanas-september-8-outage.md) - Asana's 2016 outage postmortem traces a faulty logging deploy through CPU saturation, misleading symptoms, rollback selection, bad-revision blacklisting, and response improvements.
 - [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
 - [Apple's Middle Age](sources/apples-middle-age-stratechery-by-ben-thompson.md) - Ben Thompson argues that saturated premium smartphones pushed Apple toward inward growth through higher iPhone ASPs, Services, and more Apple-specific devices for existing users.
 - [Apple's Social Network](sources/apples-social-network-stratechery-by-ben-thompson.md) - Ben Thompson argues that Today at Apple is Apple's real-world social network and that Apple's post-unit-sales reporting still needs active-customer and revenue-per-user metrics.
@@ -631,7 +632,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
-- [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for the code-review practice source.
+- [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for code-review practice and a 2016 production outage postmortem.
 - [Josiah Humphrey](entities/JosiahHumphrey.md) - Startup operator voice behind the Appster PR advice for bootstrapped founders.
 - [Appster](entities/Appster.md) - Startup/company context used for practical PR and app landing-page marketing advice.
 - [Sarah Cooper](entities/SarahCooper.md) - Writer and comedian whose meeting satire critiques corporate and tech workplace status performance.

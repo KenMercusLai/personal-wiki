@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 0b1d5e6e978f478c0ef1ab95bb91f477b9248871
-summary: "The wiki maps tools, platforms, work, culture, and markets as feedback systems whose value depends on fit, evidence, and accountable judgment."
-episode_count: 173
-source_count: 173
-paragraph_count: 168
+as_of_overview_commit: 17ecd6cadd9d90459e888b5ec41a1db714b12e64
+summary: "The wiki maps tools, platforms, work, culture, and markets as feedback systems whose value depends on fit, evidence, reliability, and accountable judgment."
+episode_count: 174
+source_count: 174
+paragraph_count: 169
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI, software architecture, infrastructure, databases, and platforms are treated 
 
 ### Business and Markets
 
-Business value emerges when technology, brand, pricing, validation, trust, retention, domain modeling, and operating capacity keep pace with ambition.
+Business value emerges when technology, brand, pricing, validation, trust, retention, domain modeling, reliability practice, incident response, and operating capacity keep pace with ambition.
 
 - [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], and [[EngineerLeverage]] extend the investing and creator-business thread: [[Tw93]] frames engineers as able to use technical-domain understanding around AI, semiconductors, software, cloud, and Bitcoin-adjacent themes, but only when checked by company analysis, future cash-flow thinking, financial-statement reading, valuation, downside math, and avoidance of margin, shorting, unfamiliar speculation, frequent trading, and blind high-point chasing. Evidence: [[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], [[EngineerLeverage]], [[Tw93]].
@@ -57,7 +57,7 @@ Culture and media sources connect media form, creator workflow, translation, gam
 
 ### Governance and Institutions
 
-Governance sources span platform control, privacy burdens, startup and infrastructure operations, civic technology accountability, and now personalization systems that need exploration, replay, and quality controls.
+Governance sources span platform control, privacy burdens, startup and infrastructure operations, civic technology accountability, and personalization systems that need exploration, replay, and quality controls.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]].

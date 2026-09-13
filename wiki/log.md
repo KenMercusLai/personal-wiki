@@ -1359,6 +1359,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Asana's September 8 Outage
+
+Added Asana's 2016 outage postmortem. Key claims: a faulty logging deploy caused web-server CPU saturation, secondary database and queue symptoms slowed diagnosis, dogfooding infrastructure masked production severity, rollback required known-good revision selection plus bad-revision blacklisting, and Asana's postmortem framed response improvement as the main failure.
+
 ## [2026-09-14] ingest | Artwork Personalization at Netflix
 
 Added Netflix TechBlog's article on personalized artwork selection. Key claims: artwork is recommendation evidence, contextual bandits can personalize image choice while limiting regret, exploration logging enables unbiased replay evaluation, quality engagement protects against clickbait, and serving personalized visuals requires creative diversity, cold-start learning, recognizability controls, and low-latency scale.
@@ -1382,6 +1386,10 @@ Added Exception Not Found's developer support essay. Key claims: user mistakes u
 ## [2026-09-14] ingest | Architecting for Continuous Delivery
 
 Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD is not just tooling; monolithic codebases can slow feedback and ownership; componentization can improve delivery when boundaries are deliberate; test pyramids keep validation fast; and deployment pipelines expose release confidence, rollback points, dependencies, and bottlenecks.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

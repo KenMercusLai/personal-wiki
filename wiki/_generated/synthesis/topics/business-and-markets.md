@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 4b74435b2ba8f37e019e4bf465bf9e88f92a8194
-input_digest: e4c0c3ae67b88eb08f32825db37c66f098334bdf40cd280581efa56dede4b8ea
+as_of_overview_commit: 17ecd6cadd9d90459e888b5ec41a1db714b12e64
+input_digest: 4eda6c61fb051ddf210cac6164985cf67f3c4ee08b19546f27f8afc218055a37
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for a trust, privacy, curation, anti-scam, and real-world engagement promise, while Thompson's reporting critique says the installed-base story needs active-customer and revenue-per-user metrics; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps in product hierarchy; mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, reliability practice, and judgment into durable value only when distribution, trust, customer evidence, retention, observability, release safety, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Asana's outage turned a faulty logging deploy into a broader reliability and incident-response lesson; Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for trust, privacy, curation, anti-scam, and real-world engagement; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps; mobile platform power separates reach from monetization; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make fit and upside explicit without confusing optimistic vision with unresolved product-market truth.
 
 ## Cross-source Findings
 
@@ -257,14 +257,15 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Software Businesses Must Fund Operational Reliability
 
-[[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], and [[InternalDeveloperPlatform]] show that software businesses need sustained organizational investment in reliability and security-debt prevention, not only known technical controls.
+[[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[Asana]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], [[ChangeSafety]], and [[InternalDeveloperPlatform]] show that software businesses need sustained organizational investment in reliability, security-debt prevention, observability, release safety, and incident response, not only known technical controls.
 
-**Evidence:** [[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], [[InternalDeveloperPlatform]]
+**Evidence:** [[SystemReliability]], [[ReliabilityInvestment]], [[StartupSecurityDebt]], [[CloudAccountSegmentation]], [[CentralizedLogging]], [[Auth0]], [[Asana]], [[AuthenticationInfrastructure]], [[CloudHighAvailability]], [[InfrastructureAsCode]], [[DeploymentAutomation]], [[ServiceObservability]], [[ChangeSafety]], [[InternalDeveloperPlatform]]
 
 **Qualifications:**
 
 - The reliability sources explain controls and incentives but do not quantify optimal spend or staffing for every business.
 - The startup security guide is source-scoped to early AWS planning and intentionally favors security controls that also support availability, troubleshooting, velocity, or maintainability.
+- The Asana evidence is a company-authored 2016 postmortem for one outage, so its recovery path should not be generalized into a universal rollback or incident-response process.
 
 ### Startup Equity Needs Transparent Risk Disclosure
 

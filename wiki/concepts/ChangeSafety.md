@@ -5,7 +5,8 @@ tags: [software-engineering, reliability, operations, deployment]
 sources:
   - wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi
   - 7-reasons-why-your-staging-environment-sucks-loadmill
-last_updated: 2026-09-13
+  - asanas-september-8-outage
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,13 +20,15 @@ During an active incident, the article argues that restoring service matters mor
 
 A before-release layer also belongs in the safety loop. If staging is long-running, monitored, data-rich, traffic-bearing, internet-facing where appropriate, and exposed to controlled failure, then some risky changes can be rejected before they require canary mitigation or rollback in production.
 
+Asana's outage adds a concrete recovery detail: knowing that a recent deploy caused the problem is not the same as knowing which revision is safe. Because earlier same-day reverts made the immediately previous revision risky, engineers spent time identifying the last known good revision, executed the revert, and then blacklisted the bad client revision so recovery could complete.
+
 ## Key Claims
 - Production change is a major source of reliability risk.
 - Canary release reduces blast radius by limiting early exposure.
 - Critical systems may need mandatory process rules and serious enforcement even when they slow delivery.
 - Monitoring is necessary to know whether a change is healthy.
 - Production-like staging can catch change-related risks before users become the first realistic testers.
-- Rollback is often the most useful response to a bad change, while non-rollbackable changes require extra caution.
+- Rollback is often the most useful response to a bad change, while non-rollbackable changes and uncertain revision history require extra caution.
 - Incident response should restore service first, then complete root-cause analysis after evidence is preserved.
 
 ## Evidence
@@ -34,14 +37,17 @@ A before-release layer also belongs in the safety loop. If staging is long-runni
 - Monitoring and rollback: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] says teams cannot judge changed-state health without monitoring and often recover fastest by rolling back.
 - Pre-release filtering: [[7-reasons-why-your-staging-environment-sucks-loadmill]] argues that representative staging can expose bugs from architecture, data, traffic, monitoring, internet exposure, and failure before release.
 - Non-rollbackable risk: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] warns that changes that cannot roll back should be treated with high caution.
+- Safe revision selection: [[asanas-september-8-outage]] says a simple previous-revision revert would have restored bad code because earlier reverts had occurred, so engineers had to identify a known-good revision.
+- Client revision blacklist: [[asanas-september-8-outage]] says the server revert was not enough because affected web clients would not prompt a reload; blacklisting the bad revision was required.
 - Restore-first response: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] says outage handling should prioritize recovery over diagnosis, using restart or traffic shifting when they are the fastest safe restoration path.
 
 ## Counterevidence & Qualifications
-The sources do not cover all change-management contexts. Some incidents cannot be rolled back cleanly, some changes require forward fixes or data repair, and some regulated environments may require different approval or evidence-retention processes. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, and failure timing can still differ.
+The sources do not cover all change-management contexts. Some incidents cannot be rolled back cleanly, some changes require forward fixes or data repair, and some regulated environments may require different approval or evidence-retention processes. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, and failure timing can still differ. The Asana case is company-authored and describes one web-service incident; it should not be overgeneralized into a universal rollback playbook.
 
 ## What Changed
 - Created the concept page for safe operational change and restoration-first incident handling.
 - Added production-like staging as a pre-release filter for risky changes.
+- Added Asana's outage as an example where revert target selection and bad-client-revision blacklisting mattered.
 
 ## Related Concepts
 - [[SystemReliability]] - safe change is one core reliability layer.
@@ -51,3 +57,4 @@ The sources do not cover all change-management contexts. Some incidents cannot b
 - [[StagingEnvironment]] - realistic staging checks changes before production rollout.
 - [[ChaosEngineering]] - controlled failure can test change resilience before release.
 - [[ReliabilityInvestment]] - mandatory change controls require organizational willingness to spend time and enforce rules.
+- [[DeploymentAutomation]] - safe change depends on release, rollback, and revision-control mechanics.
