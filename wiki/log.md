@@ -1099,6 +1099,10 @@ Ran lint. See lint-report.md for details.
 
 883 nodes, 4688 edges (4688 extracted, 0 inferred).
 
+## [2026-09-13] ingest | Analytics Vidhya - A Comprehensive Guide to Build your own Language Model in Python
+
+Deduplicated against existing source note [[a-comprehensive-guide-to-build-your-own-language-model-in-python]] and refreshed its `source_file` provenance to the current archive path. No new claims, entities, concepts, contradictions, or overview changes were needed.
+
 ## [2026-09-13] report | Graph health report generated
 
 883 nodes analyzed.
@@ -1106,6 +1110,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
