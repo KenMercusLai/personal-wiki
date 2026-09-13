@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 049ba991961ddc18bd0c37922e4baa80bf1c985b
-input_digest: fbf5f1d073a83fa03454924ab2fc17f6055302c4f6fe9868d03c3fc3cbddb2f7
+as_of_overview_commit: 0f7f4127f4a0db722d28d68d9ea76063d48db3aa
+input_digest: 41b46881381704ce4d753c3283d9c68729487078695b6af1e2642d9394e0dc0b
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.
 
 ## Cross-source Findings
 
@@ -69,13 +69,14 @@ Production-grade agents need infrastructure beyond ordinary app hosting: [[Effec
 
 ### Data Work Needs Domain And Method Checks
 
-Useful data and AI applications require domain framing, valid methods, and operational loops, whether in [[IndustryDataScience]], [[LLMDataAnalysis]], [[BigDataIndustryTransformation]], or private-data chatbot systems.
+Useful data and AI applications require domain framing, valid methods, operational loops, and shared workflow infrastructure, whether in [[IndustryDataScience]], [[NotebookWorkflowInfrastructure]], [[LLMDataAnalysis]], [[BigDataIndustryTransformation]], or private-data chatbot systems.
 
-**Evidence:** [[IndustryDataScience]], [[LLMDataAnalysis]], [[PHacking]], [[BigDataIndustryTransformation]], [[PrivateDataChatbot]]
+**Evidence:** [[IndustryDataScience]], [[NotebookWorkflowInfrastructure]], [[DataScienceTechnologyAdoption]], [[InternalDeveloperPlatform]], [[LLMDataAnalysis]], [[PHacking]], [[BigDataIndustryTransformation]], [[PrivateDataChatbot]]
 
 **Qualifications:**
 
 - LLMs can help transform and explain data, but statistical design and p-hacking checks remain human responsibilities.
+- Notebook platforms can improve reuse and auditability, but they still need governance around hidden state, ownership, dependencies, security, and version control.
 
 ### Architecture Simplification Is Contextual
 

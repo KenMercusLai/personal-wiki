@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: d85f88116576ec0f93847ff199005b6518f5080f
-input_digest: c3c450e55beeae37a37373ff3886d46142f2bd7dc3b34e0824b205bb8467229e
+as_of_overview_commit: 0f7f4127f4a0db722d28d68d9ea76063d48db3aa
+input_digest: 5ed54305b0f10c250393946d507d97e44dc5baaadf2d3f01867722141b6c5224
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The newest hiring material adds that scaling-stage founders should test famous-company resumes for actual contribution, ownership, and startup-fit behavior rather than treating pedigree as proof of impact.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds both a scaling-stage hiring warning about testing pedigree for actual contribution and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.
 
 ## Cross-source Findings
 
@@ -118,13 +118,14 @@ Business and market sources show durable value emerging when product work, start
 
 ### Operations And Reliability Are Business Capabilities
 
-[[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that operational, release, observability, and domain-modeling discipline are business capabilities rather than backend housekeeping.
+[[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that operational, release, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
 
-**Evidence:** [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]]
+**Evidence:** [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[InternalDeveloperPlatform]], [[DeveloperExperience]], [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]]
 
 **Qualifications:**
 
 - The evidence includes postmortems and practitioner guidance, so the right level of process depends on risk, scale, domain stakes, and team capacity.
+- Notebook-based workflow automation is a data-platform pattern, not a full substitute for service deployment, release engineering, or production governance.
 
 ### Innovation Recombines Specialized Knowledge And Shared Data
 

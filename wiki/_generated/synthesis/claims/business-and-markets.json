@@ -180,15 +180,19 @@
       "global_candidate": true,
       "id": "operations-and-reliability-are-business-capabilities",
       "qualifications": [
-        "The evidence includes postmortems and practitioner guidance, so the right level of process depends on risk, scale, domain stakes, and team capacity."
+        "The evidence includes postmortems and practitioner guidance, so the right level of process depends on risk, scale, domain stakes, and team capacity.",
+        "Notebook-based workflow automation is a data-platform pattern, not a full substitute for service deployment, release engineering, or production governance."
       ],
-      "statement": "[[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that operational, release, observability, and domain-modeling discipline are business capabilities rather than backend housekeeping.",
+      "statement": "[[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that operational, release, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.",
       "status": "supported",
       "supporting_wikilinks": [
         "SystemReliability",
         "ChangeSafety",
         "ServiceObservability",
         "DeploymentAutomation",
+        "NotebookWorkflowInfrastructure",
+        "InternalDeveloperPlatform",
+        "DeveloperExperience",
         "FinancialSoftwareDesign",
         "DoubleEntryAccounting"
       ]
@@ -257,6 +261,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. The newest hiring material adds that scaling-stage founders should test famous-company resumes for actual contribution, ownership, and startup-fit behavior rather than treating pedigree as proof of impact.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds both a scaling-stage hiring warning about testing pedigree for actual contribution and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.",
   "topic_id": "business-and-markets"
 }

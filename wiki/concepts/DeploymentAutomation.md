@@ -6,6 +6,7 @@ sources:
   - a-look-at-auth0-cloud-architecture-5-years-in
   - architecting-for-continuous-delivery-thoughtworks
   - asanas-september-8-outage
+  - beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -22,6 +23,8 @@ Deployment automation is still only a release primitive, not release confidence 
 
 Asana's outage adds the recovery side of deployment automation. The team generally deployed twice a day, but a later-than-usual Wednesday release included faulty logging. During the outage, engineers could not simply pick the previous revision because earlier reverts meant it might contain bad code; after choosing a safe target, they still had to blacklist the bad web-client revision before full recovery.
 
+Netflix's notebook platform adds a lighter-weight workflow automation case. Not every recurring production task needs to begin as a separate service or hand-translated scheduler script. A notebook can be parameterized, copied as a scheduler source artifact, executed into a fresh output notebook, and retained as a run record containing code, parameters, configuration, logs, output, and errors.
+
 ## Key Claims
 - Multiple deployment flows create maintenance cost across automation, documentation, and monitoring.
 - Immutable deployment through new AMIs and auto-scaling groups can reduce in-place update risk.
@@ -29,7 +32,7 @@ Asana's outage adds the recovery side of deployment automation. The team general
 - Functional tests should run both before production deployment and after deployment completes.
 - Deployment automation is stronger when linked to observability, smoke tests, and internal platform defaults.
 - Deployment automation is necessary but insufficient when release confidence is hidden across disconnected jobs; a deployment pipeline turns automated stages into visible production flow.
-- Rollback automation needs trustworthy revision history and client-version handling, especially after multiple nearby reverts.
+- Rollback and recurring-workflow automation need trustworthy revision history, run artifacts, and client-version or execution-record handling.
 
 ## Evidence
 - Existing release paths: [[a-look-at-auth0-cloud-architecture-5-years-in]] describes Jenkins-triggered deployments using Puppet, SaltStack, Ansible, or AMI replacement and new auto-scaling groups.
@@ -42,14 +45,16 @@ Asana's outage adds the recovery side of deployment automation. The team general
 - Deploy cadence: [[asanas-september-8-outage]] says Asana usually deployed twice a day, while the faulty deployment happened later than usual after earlier reverts.
 - Rollback complexity: [[asanas-september-8-outage]] says the team had to identify a safe revision rather than automatically reverting to the previous one.
 - Client handling: [[asanas-september-8-outage]] says the web clients would not prompt a reload after the server revert, so blacklisting the bad revision was necessary.
+- Scheduled notebook record: [[beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium]] says the scheduler copies source notebooks to S3, creates fresh output notebooks for each run, and preserves artifacts needed for investigation.
 
 ## Counterevidence & Qualifications
-The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Asana's outage describes one rollback path and does not specify its full deployment tooling.
+The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering.
 
 ## What Changed
 - Created the concept from Auth0's mixed deployment flows and blue/green rollout goal.
 - Added Thoughtworks' distinction between automating deployment phases and making the whole release flow visible through a pipeline.
 - Added Asana's outage to show rollback target selection and client-revision invalidation as deployment concerns.
+- Added scheduled notebooks as recurring data-workflow automation with preserved execution records.
 
 ## Related Concepts
 - [[ChangeSafety]] - deployment automation is a release-engineering mechanism for safer change.
@@ -60,3 +65,4 @@ The sources describe deployment automation through specific practitioner lenses.
 - [[DeploymentPipeline]] - pipeline flow gives deployment automation release-level visibility.
 - [[ContinuousDelivery]] - deployment automation is one necessary part of frequent reliable release.
 - [[ServiceObservability]] - deployment recovery depends on signals that reveal whether rollback has actually restored user-facing behavior.
+- [[NotebookWorkflowInfrastructure]] - scheduled notebooks automate recurring data workflows while preserving notebook-shaped run records.

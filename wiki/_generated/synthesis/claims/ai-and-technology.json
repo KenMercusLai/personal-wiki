@@ -87,12 +87,16 @@
       "global_candidate": false,
       "id": "data-work-needs-domain-and-method-checks",
       "qualifications": [
-        "LLMs can help transform and explain data, but statistical design and p-hacking checks remain human responsibilities."
+        "LLMs can help transform and explain data, but statistical design and p-hacking checks remain human responsibilities.",
+        "Notebook platforms can improve reuse and auditability, but they still need governance around hidden state, ownership, dependencies, security, and version control."
       ],
-      "statement": "Useful data and AI applications require domain framing, valid methods, and operational loops, whether in [[IndustryDataScience]], [[LLMDataAnalysis]], [[BigDataIndustryTransformation]], or private-data chatbot systems.",
+      "statement": "Useful data and AI applications require domain framing, valid methods, operational loops, and shared workflow infrastructure, whether in [[IndustryDataScience]], [[NotebookWorkflowInfrastructure]], [[LLMDataAnalysis]], [[BigDataIndustryTransformation]], or private-data chatbot systems.",
       "status": "supported",
       "supporting_wikilinks": [
         "IndustryDataScience",
+        "NotebookWorkflowInfrastructure",
+        "DataScienceTechnologyAdoption",
+        "InternalDeveloperPlatform",
         "LLMDataAnalysis",
         "PHacking",
         "BigDataIndustryTransformation",
@@ -132,6 +136,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.",
   "topic_id": "ai-and-technology"
 }

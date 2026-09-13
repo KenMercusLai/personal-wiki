@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f8d95b92c773a1fd59e48dbee661ad7dbade57faaa514c07969c162f3bbbc186",
       "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
       "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
       "668a1fd832e7f6cb2ec448076fcd07966505c3867ed8c969a2beb8b521671dac",
@@ -192,11 +193,40 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 190
+    "paragraph_count": 191
   },
-  "overview_commit": "d85f88116576ec0f93847ff199005b6518f5080f",
-  "overview_digest": "5a70697142df7bd54a61a099dd6f4d6dce94c5c410506ae907f6ebf40ef47536",
+  "overview_commit": "0f7f4127f4a0db722d28d68d9ea76063d48db3aa",
+  "overview_digest": "b75e8f77f918360dde26d78019bb12c12829dee3f557b3e59f65f2a706696fff",
   "paragraphs": [
+    {
+      "id": "f8d95b92c773a1fd59e48dbee661ad7dbade57faaa514c07969c162f3bbbc186",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest Netflix TechBlog source adds a notebook-infrastructure layer to the wiki's data-platform and developer-experience material. New [[NotebookWorkflowInfrastructure]] frames computational notebooks as more than exploratory scratchpads: with [[Jupyter]] as protocol and artifact, [[Nteract]] as UI, [[Papermill]] for parameterized execution, [[Commuter]] for read-only sharing, and [[Titus]] for container compute, notebooks can become reusable, schedulable, and auditable workflow records. [[Netflix]] now includes internal platform building alongside culture, personalization, and product-management cases; [[IndustryDataScience]], [[DataScienceTechnologyAdoption]], [[InternalDeveloperPlatform]], [[DeveloperExperience]], and [[DeploymentAutomation]] gain the claim that company data work scales through shared execution, storage, scheduling, sharing, and debugging infrastructure. The inspected substantive images supported this synthesis through Data Explorer controls, a data-roles list, and parameterized notebook UI, while several 60px thumbnails were too small to interpret independently.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Commuter",
+        "DataScienceTechnologyAdoption",
+        "DeploymentAutomation",
+        "DeveloperExperience",
+        "IndustryDataScience",
+        "InternalDeveloperPlatform",
+        "Jupyter",
+        "Netflix",
+        "NotebookWorkflowInfrastructure",
+        "Nteract",
+        "Papermill",
+        "Titus"
+      ]
+    },
     {
       "id": "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
       "primary_topic": "business-and-markets",

@@ -1379,6 +1379,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Beyond Interactive: Notebook Innovation at Netflix
+
+Added Netflix TechBlog's notebook-platform article. Key claims: Jupyter notebooks can unify data access, exploration, validation, reusable templates, scheduling, sharing, and debugging records when backed by infrastructure such as nteract, Papermill, Commuter, Titus, EFS, and S3.
+
 ## [2026-09-14] ingest | Beware of the Beautiful Resume
 
 Added a founder-hiring essay warning that name-brand resumes can obscure poor startup fit. Key claims: evaluate whether candidates created success or rode existing momentum, distinguish startup behavior from status- and security-oriented big-company behavior, and treat wrong-fit prestige hires as sources of meetings, politics, delay, and opportunity cost.
@@ -1563,6 +1567,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
