@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9d3c07feb220fcb432dec0bafbd5883201df8b62d2f624b3a36d10f3f9674cb3",
       "ef990c7aa52ca533d176c566364fe2ded69f40ed994d09819a807b19b8613437",
       "4a464a538e3610276845066f4ef839b48608f09c2898661ead4b60aae07560d1",
       "2ba673dbb4b3bacc024a1139a42ec2d8e4f5bbe61c9760e53d27030ecdfe9b37",
@@ -117,11 +118,27 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 115
+    "paragraph_count": 116
   },
-  "overview_commit": "52cc91f1f71e6ccfba40c69745820bc6497a42c3",
-  "overview_digest": "2d26ee5031a1f0347db6028f2f11b29fb84e3a4b1764f04fa8061547c3da9f61",
+  "overview_commit": "808b9fc637ca381e81c406e926c595e866c2c86e",
+  "overview_digest": "d4ed59811a852947f4f59bd4d41c141927ac42504f98ea41abf73b2a41f97234",
   "paragraphs": [
+    {
+      "id": "9d3c07feb220fcb432dec0bafbd5883201df8b62d2f624b3a36d10f3f9674cb3",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Above Avalon source sharpens the Apple Services thread. [[NeilCybart]] argues that [[Apple]] Services was not proof of a services-company pivot, but a hardware-dependent [[AppleServicesMachine]] built from digital content, iCloud, AppleCare, Apple Pay, and licensing. The embedded Services diagram is direct evidence for that category structure, while Cybart's 2017 estimates make the revenue mix concrete: about $31B in reported Services revenue, roughly $21B from digital content, about $11B retained from App Store commissions, and about $4B from licensing. This qualifies [[AppleGrowthLevers]] and [[AppleContentDistributionStrategy]] by showing that Services growth rested on Apple's installed base and content distribution economics rather than standing apart from hardware.",
+      "topic_scores": {
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "Apple",
+        "AppleContentDistributionStrategy",
+        "AppleGrowthLevers",
+        "AppleServicesMachine",
+        "NeilCybart"
+      ]
+    },
     {
       "id": "ef990c7aa52ca533d176c566364fe2ded69f40ed994d09819a807b19b8613437",
       "primary_topic": "ai-and-technology",

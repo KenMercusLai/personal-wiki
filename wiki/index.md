@@ -12,6 +12,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Above Avalon: Apple Is Figuring Out What's Next](sources/above-avalon-apple-is-figuring-out-whats-next.md) - Neil Cybart argues that Apple's WWDC 2018 AR, Siri, ML, Watch, and AirPods moves were preparation for smart glasses as the next personal-computing form factor.
 - [Above Avalon: Apple's Content Distribution Strategy](sources/above-avalon-apples-content-distribution-strategy.md) - Neil Cybart argues that Apple can selectively put content services on non-Apple hardware while preserving premium Apple devices as the best integrated experiences.
 - [Above Avalon: Apple's Growth Story](sources/above-avalon-apples-growth-story.md) - Neil Cybart argues that Apple's 2018 revenue rebound was driven by uneven iPhone ASP, Services, and wearables levers, with Services and wearables likely to matter more as iPhone ASP growth slowed.
+- [Above Avalon: The Apple Services Machine](sources/above-avalon-the-apple-services-machine.md) - Neil Cybart argues that Apple Services was a hardware-dependent content distribution machine led by digital content, licensing, AppleCare, iCloud, and Apple Pay rather than a pivot away from hardware.
 - [Above Avalon: Connecting the Apple Dots](sources/above-avalon-connecting-the-apple-dots.md) - Neil Cybart argues that Apple's product strategy is a ladder of increasingly personal devices from Mac to iPhone, Apple Watch, and possible glasses.
 - [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
@@ -482,6 +483,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Apple Services Machine](concepts/AppleServicesMachine.md) - Neil Cybart's frame for Apple's hardware-dependent Services revenue apparatus and content distribution economics.
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
 - [Apple Content Distribution Strategy](concepts/AppleContentDistributionStrategy.md) - Apple's selective use of services, non-Apple hardware support, AirPlay, and premium first-party devices to distribute content.
 - [Apple Growth Levers](concepts/AppleGrowthLevers.md) - Above Avalon's 2018 frame for Apple's uneven revenue drivers: iPhone ASP, Services, and wearables.

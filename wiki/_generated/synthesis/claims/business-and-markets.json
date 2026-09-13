@@ -175,12 +175,15 @@
       "qualifications": [
         "The Apple evidence is a set of 2017-2019 analyst snapshots; buyback math, Apple Watch independence, and smart-glasses user-base projections require later outcome evidence before being treated as confirmed."
       ],
-      "statement": "[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleProductTheory]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices while product direction moves tasks toward more personal form factors.",
+      "statement": "[[Apple]] in the Above Avalon sources joins [[ShareBuyback]], [[AppleServicesMachine]], [[AppleGrowthLevers]], [[AppleContentDistributionStrategy]], [[AppleProductTheory]], [[AppleWatch]], [[IPhone]], [[WearableComputing]], and [[SmartGlasses]] into a mature-company strategy: excess cash creates capital-allocation choices, Services monetizes a hardware-dependent installed base, and product direction moves tasks toward more personal form factors.",
       "status": "qualified",
       "supporting_wikilinks": [
         "Apple",
         "NeilCybart",
         "ShareBuyback",
+        "AppleServicesMachine",
+        "AppleGrowthLevers",
+        "AppleContentDistributionStrategy",
         "AppleProductTheory",
         "AppleWatch",
         "IPhone",
@@ -277,6 +280,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]] from product direction through [[AppleProductTheory]], where devices become more personal by moving tasks from Mac to iPhone, Apple Watch, and possible smart glasses.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, operational discipline, and product theory. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The Apple cluster now separates mature-company capital allocation through [[ShareBuyback]], installed-base monetization through [[AppleServicesMachine]], [[AppleGrowthLevers]], and [[AppleContentDistributionStrategy]], and product direction through [[AppleProductTheory]], where devices become more personal by moving tasks from Mac to iPhone, Apple Watch, and possible smart glasses.",
   "topic_id": "business-and-markets"
 }
