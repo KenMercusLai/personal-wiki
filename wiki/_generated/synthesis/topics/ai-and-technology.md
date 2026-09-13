@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 241172f2960fb8e2a942b6dca4c5318ff41c7462
-input_digest: e37357c5ad628344e16615bd87f927ab957364fcb6d2581ad6be873fe0a792c0
+as_of_overview_commit: b4112ba3887e56b4ef1f41ce146d231f0f236cec
+input_digest: fd81a172c5a9c68a9dcabfd1ef48ad7aa82e526c1e72972410261787536077eb
 ---
 
 # AI and Technology
 
 ## Current State
 
-The technology material treats AI, software architecture, infrastructure, and platforms as systems whose benefits depend on fit, verification, data quality, and operational constraints. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, databases, mobile platforms, and cloud security all improve outcomes when teams match tools to workload shape, preserve observability and change safety, and avoid premature complexity.
+The technology material treats AI, software architecture, infrastructure, databases, and platforms as systems whose benefits depend on fit, verification, data quality, and operational constraints. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, and cloud security all improve outcomes when teams match tools to workload shape, preserve observability and change safety, and avoid premature complexity.
 
 ## Cross-source Findings
 
@@ -48,13 +48,14 @@ Agent reliability is bounded by [[LLMContextManagement]], [[AgentMemory]], [[Pro
 
 ### Tool Fit Beats Tool Absolutism
 
-The infrastructure and architecture sources repeatedly favor tool fit over absolutism: [[NetworkAutomation]] must account for design cost and local processing overhead, [[Ansible]] can be useful yet poorly suited to some large data-heavy workflows, [[Nornir]] can fit those workloads better, and [[DatabaseConsolidation]] recommends adding specialized systems only when their benefits outweigh complexity.
+The infrastructure and architecture sources repeatedly favor tool fit over absolutism: [[NetworkAutomation]] must account for design cost and local processing overhead, [[Ansible]] can be useful yet poorly suited to some large data-heavy workflows, [[Nornir]] can fit those workflows better, [[DatabaseConsolidation]] warns against premature specialization, and [[SQLiteProductionTradeoffs]] show that even radical simplification through [[SQLite]] depends on workload, file-system, transaction, and availability constraints.
 
-**Evidence:** [[NetworkAutomation]], [[Ansible]], [[Nornir]], [[DatabaseConsolidation]]
+**Evidence:** [[NetworkAutomation]], [[Ansible]], [[Nornir]], [[DatabaseConsolidation]], [[SQLiteProductionTradeoffs]], [[SQLite]]
 
 **Qualifications:**
 
 - The Ansible-versus-Nornir evidence is a 2019 local templating benchmark, so it qualifies rather than fully replaces broader Ansible network-automation claims.
+- SQLite is strongest in a single-machine, read-heavy operating shape; high availability, heavy writes, long transactions, backups, or migration needs can make PostgreSQL or MySQL simpler.
 
 ### Data Value Requires Method And Closed Loop Use
 
@@ -78,10 +79,10 @@ Platform power appears through control of discovery, runtime, trust, subscriptio
 
 ### Production Reliability Needs Realistic Evidence
 
-Production reliability depends on realistic evidence and operational design, including [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], and [[StartupSecurityDebt]].
+Production reliability depends on realistic evidence and operational design, including [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], and [[DatabaseTransactionIsolation]].
 
-**Evidence:** [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]]
+**Evidence:** [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], [[DatabaseTransactionIsolation]]
 
 **Qualifications:**
 
-- The sources span startups, game servers, network automation, and staging, so the shared claim is about operational pattern rather than one stack.
+- The sources span startups, game servers, network automation, staging, and database deployment, so the shared claim is about operational pattern rather than one stack.

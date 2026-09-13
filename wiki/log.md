@@ -687,6 +687,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Gotchas with SQLite in Production
+
+Added Anže Pečar's SQLite production article. Key claims: SQLite can be a good single-machine production database, but teams must handle PRAGMA configuration, file-system persistence and locking, one-writer concurrency, serializable transaction behavior, safe backups, and limited migration support; multi-machine availability, heavy writes, and long transactions often favor PostgreSQL or MySQL.
+
 ## [2026-09-13] ingest | Anything Is Possible If You Pay The Price
 
 Added Mission.org source on ambition as paid choice. Key claims: serious goals require deciding what to pursue, opportunity cost means giving up trivial and merely good alternatives, discipline is repeated refusal of distraction and bad habits, and time is the scarce resource that makes attention choices consequential.
@@ -1286,6 +1290,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Ansible charges into network automation with Cisco, Juniper
 
 Added The Register source on Ansible's move into network automation. Key claims: Ansible 2.0 added network command, configuration, and template modules; initial support covered Arista, Cisco, Juniper, Cumulus Networks, and OpenSwitch; Huawei was absent; and the launch framed network automation around validation, drift compliance, and DevOps collaboration without collapsing network and programmer roles.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

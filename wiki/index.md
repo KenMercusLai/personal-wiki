@@ -13,6 +13,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [An Open Letter to Millennials Like Talia...](sources/an-open-letter-to-millennials-like-talia-stefanie-williams-medium.md) - Stefanie Williams rejects Talia Jane's wage-precarity framing and argues that roommates, second jobs, service work, and humility are expected early-career tradeoffs.
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
 - [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
+- [Gotchas with SQLite in Production](sources/anze-pecar-gotchas-with-sqlite-in-production.md) - Anže Pečar argues that SQLite can work well for single-machine, read-heavy production web apps, but configuration, high availability, file systems, writes, transactions, backups, and migrations define its limits.
 - [Anything Is Possible If You Pay The Price](sources/anything-is-possible-if-you-pay-the-price-mission-org-medium.md) - Mission.org argues that ambitious personal change requires choosing a direction, paying with scarce time and attention, and giving up low-value defaults and merely good alternatives.
 - [An Open Letter To My CEO](sources/an-open-letter-to-my-ceo-talia-jane-medium.md) - Talia Jane's open letter argues that low-paid Yelp/Eat24 support work created food, rent, transit, and utility insecurity despite the company's tech-scale resources and office perks.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
@@ -272,6 +273,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
 - [Amazon RDS](entities/AmazonRDS.md) - Managed PostgreSQL environment used for the source's pgvector index tests.
 - [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
+- [SQLite](entities/SQLite.md) - Single-file relational database presented as production-ready for some web apps but constrained by availability, file-system, concurrency, transaction, backup, and migration needs.
+- [Anže Pečar](entities/AnzePecar.md) - Software-engineering writer explaining practical SQLite production gotchas for web applications.
 - [Photoshop](entities/Photoshop.md) - Adobe image-editing product used to explain productivity-app value variance and subscription fit.
 - [pgvector](entities/Pgvector.md) - PostgreSQL extension for storing embeddings and running vector similarity search with exact or approximate indexes.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
@@ -756,6 +759,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications work with container storage, health, lifecycle, and build assumptions rather than merely packaging old programs.
 - [Database Consolidation](concepts/DatabaseConsolidation.md) - Architectural strategy of using one sufficiently capable database for multiple workload types before adding specialized stores.
 - [Technology Stack Complexity](concepts/TechnologyStackComplexity.md) - Operational and reasoning burden created by many distinct technologies and their cross-system data boundaries.
+- [SQLite Production Tradeoffs](concepts/SQLiteProductionTradeoffs.md) - Conditional fit model for using SQLite as a production database when single-machine simplicity outweighs distributed-database needs.
+- [Database Transaction Isolation](concepts/DatabaseTransactionIsolation.md) - Guarantees governing what concurrent transactions can observe, highlighted here through SQLite's serializable behavior and write-lock constraints.
 - [Server-Side Game Logic](concepts/ServerSideGameLogic.md) - Game backend pattern for running authoritative or anti-cheat logic on the server while coordinating with clients through a message service.
 - [Task Queue Design](concepts/TaskQueueDesign.md) - Backend design of asynchronous scheduling, state, timeout, concurrency, recovery, and queue product fit.
 - [Runtime Configuration](concepts/RuntimeConfiguration.md) - Supplying environment-specific settings when an application runs rather than baking them into image variants.
