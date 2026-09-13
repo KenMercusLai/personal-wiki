@@ -67,6 +67,22 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "strategic-writing-makes-workplace-reasoning-inspectable",
+      "qualifications": [
+        "The evidence is strongest for strategic plans and organizations beyond very small teams; writing takes time, can receive limited feedback, and can become ritual when the artifact is rewarded over the thinking."
+      ],
+      "statement": "[[StrategicWriting]], [[ScalingCommunication]], [[KnowledgeOutput]], [[StevenSinofsky]], and [[PeterPathe]] frame workplace writing as inspectable reasoning: plans, stakeholder implications, and decision rationale become shared context for execution rather than private thought or slide-deck interpretation.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "StrategicWriting",
+        "ScalingCommunication",
+        "KnowledgeOutput",
+        "StevenSinofsky",
+        "PeterPathe"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "platform-media-work-needs-context-specific-feedback",
       "qualifications": [
@@ -166,6 +182,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. Recent sources add that platform-specific media work reorganizes editorial judgment around channel missions and metrics, and that implementing small classic systems can make abstract technical infrastructure more learnable.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. Recent sources add that platform-specific media work reorganizes editorial judgment around channel missions and metrics, and that implementing small classic systems can make abstract technical infrastructure more learnable. Strategic writing is now included as workplace learning and coordination: plans become inspectable reasoning, while leaders and long-tenured employees must keep writing rather than outsourcing the thinking.",
   "topic_id": "work-education-and-society"
 }

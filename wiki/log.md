@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Writing is Thinking - an annotated twitter thread
+
+Added source note for Steven Sinofsky's argument that writing is a strategy and execution discipline. Created [[StevenSinofsky]], [[PeterPathe]], and [[StrategicWriting]], and updated [[ScalingCommunication]] with written rationale, corporate history, and process-decay qualifications. The embedded image was inspected and classified as decorative.
+
 ## [2026-09-14] ingest | Bleacher Report embraces 'content-everywhere' strategy
 
 Added Digiday's profile of Bleacher Report's content-everywhere strategy. Key claims: distributed publishers need platform-native content and advertiser conversations, should hedge rather than overdepend on one channel, need platform-specific editorial missions, can convert search traffic into owned app usage, and should treat social interactions as important metrics when content is consumed across external platforms. The remote lead image returned 404 and could not be incorporated as visual evidence.
@@ -1603,6 +1607,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

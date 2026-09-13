@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 024205aed1ac0f5a1719b047e83e111d347bd5bb
-input_digest: 52a61dd05445cc8c7dcabafbe3fa59712089f3a845193479226845d2846521d9
+as_of_overview_commit: c6e53723b2c7ed27ce170c9ad75121153724dc4c
+input_digest: c25cee0230603a4f0bdef315397d1124cbcaefc1c798f4c6a8825cc40610e4fd
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value. Strategic writing is now included as a business operating mechanism: written rationale helps plans survive execution, while successful-company memo rituals can become copied status artifacts when process is mistaken for decision quality.
 
 ## Cross-source Findings
 
@@ -105,6 +105,16 @@ Business and market sources show durable value emerging when product work, start
 **Qualifications:**
 
 - The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral filter rather than a stereotype about employer size.
+
+### Strategic Writing Preserves Execution Context
+
+[[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], and [[Amazon]] show written plans functioning as business alignment infrastructure: they preserve rationale, stakeholder implications, and execution logic while warning that memo rituals can become status artifacts when copied from successful companies.
+
+**Evidence:** [[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], [[Amazon]]
+
+**Qualifications:**
+
+- The Sinofsky evidence is an operator essay; it argues from management experience and explicitly warns that writing rituals can be slow, gamed, over-attributed to success, or confused with the work itself.
 
 ### Small Creator Businesses Need Feedback And Distribution
 

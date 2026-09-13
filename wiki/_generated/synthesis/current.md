@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: b1f00c20c10077dcedbf7acdf9c8b6c438e1ab02
-summary: "A compact map of the wiki's current synthesis across technology, business, work, media, governance, personal development, and cross-domain engineering judgment."
-episode_count: 205
-source_count: 205
-paragraph_count: 200
+as_of_overview_commit: c6e53723b2c7ed27ce170c9ad75121153724dc4c
+summary: "Compact wiki synthesis across technology, business, work, media, governance, personal development, and strategic writing as shared rationale."
+episode_count: 206
+source_count: 206
+paragraph_count: 201
 topic_count: 9
 ---
 
@@ -21,6 +21,7 @@ topic_count: 9
 - [[LLMContextManagement]] connects retrieval, memory, prompt caching, skills, MCP, Computer Use, and tape-and-anchor designs because each changes what the model can see or do at action time.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
+- [[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], and [[Amazon]] show written plans functioning as business alignment infrastructure: they preserve rationale, stakeholder implications, and execution logic while warning that memo rituals can become status artifacts when copied from successful companies.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[BleacherReport]], and [[RoryBrown]] show publishers adapting cultural production to platform-native surfaces, channel hedging, and interaction-based success measures.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, implement small systems such as [[InvertedIndex]] search, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
@@ -35,7 +36,7 @@ The AI and technology corpus centers on engineering judgment under complexity: m
 
 ### Business and Markets
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, channel choice, and strategic writing stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds strategic writing as a way to preserve rationale and execution context, while copied success rituals can become performative artifacts when process is mistaken for decision quality.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion. Evidence: [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]].
@@ -63,7 +64,7 @@ Governance and institutional material spans platform control, privacy burdens, s
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. App Annie/VentureBeat adds a 2015 market snapshot tying Google Play download growth to emerging markets and iOS App Store revenue growth to China, the U.S., and Japan; other sources trace technology maturation, read-later product evolution, Vim and keypad conventions, and source-scoped accounting history.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational, and market-geography histories rather than substantive geopolitical claims. App Annie/VentureBeat adds a 2015 market snapshot tying Google Play download growth to emerging markets and iOS App Store revenue growth to China, the U.S., and Japan; other sources trace technology maturation, read-later product evolution, Vim and keypad conventions, source-scoped accounting history, and written strategy as a way to preserve corporate decision history.
 
 ### Psychology and Personal Development
 
@@ -80,7 +81,7 @@ The topic remains mostly indirect. It includes a beginner scientific-computing c
 
 ### Work, Education, and Society
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. Recent sources add that platform-specific media work reorganizes editorial judgment around channel missions and metrics, and that implementing small classic systems can make abstract technical infrastructure more learnable.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and strategic writing that makes workplace reasoning inspectable, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, implement small systems such as [[InvertedIndex]] search, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].

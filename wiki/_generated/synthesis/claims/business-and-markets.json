@@ -163,6 +163,22 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "strategic-writing-preserves-execution-context",
+      "qualifications": [
+        "The Sinofsky evidence is an operator essay; it argues from management experience and explicitly warns that writing rituals can be slow, gamed, over-attributed to success, or confused with the work itself."
+      ],
+      "statement": "[[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]], and [[Amazon]] show written plans functioning as business alignment infrastructure: they preserve rationale, stakeholder implications, and execution logic while warning that memo rituals can become status artifacts when copied from successful companies.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "StrategicWriting",
+        "ScalingCommunication",
+        "StevenSinofsky",
+        "PeterPathe",
+        "Amazon"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "small-creator-businesses-need-feedback-and-distribution",
       "qualifications": [
@@ -290,6 +306,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value. Strategic writing is now included as a business operating mechanism: written rationale helps plans survive execution, while successful-company memo rituals can become copied status artifacts when process is mistaken for decision quality.",
   "topic_id": "business-and-markets"
 }

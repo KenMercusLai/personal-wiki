@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Writing is Thinking - an annotated twitter thread](sources/writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping.md) - Steven Sinofsky argues that writing turns strategy into shared rationale, execution context, and corporate memory, while warning that memo rituals can become performative or gamed.
 - [Implementing a Search Engine with Ranking in Python](sources/blog-aakash-japi-implementing-a-search-engine-with-ranking-in-python.md) - Aakash Japi explains a basic Python search engine built from tokenization, a position-aware inverted index, free-text and phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report embraces 'content-everywhere' strategy](sources/bleacher-report-embraces-content-everywhere-strategy.md) - Digiday profiles Bleacher Report's distributed publishing strategy: platform-specific editorial missions, channel hedging, app conversion, Facebook-native distribution, and social interactions replacing site uniques as a key metric.
 - [BlackBerry: Meditation At The Grave](sources/blackberry-meditation-at-the-grave-jean-louis-gassee-medium.md) - Jean-Louis Gassee argues that BlackBerry, Palm, Nokia, and Microsoft failed in the smartphone transition through different mixes of delayed platform renewal, late ecosystem response, transition signaling error, and mobile OS business-model collapse.
@@ -213,6 +214,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author arguing that writing is a management discipline for strategy, planning, and execution context.
+- [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
 - [Rory Brown](entities/RoryBrown.md) - Bleacher Report executive explaining the company's content-everywhere strategy and shift from direct audience numbers toward platform-native brand reach.
@@ -792,6 +795,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Strategic Writing](concepts/StrategicWriting.md) - Writing plans and decisions deeply enough that rationale, assumptions, tradeoffs, and execution logic can be inspected and reused.
 - [Bag-of-Words Model](concepts/BagOfWordsModel.md) - Document representation that treats text as unordered token counts for vector comparison and ranking.
 - [Distributed Publishing Strategy](concepts/DistributedPublishingStrategy.md) - Media operating model that creates and monetizes content across owned properties, apps, search, social, and platform-hosted formats.
 - [Platform-Specific Editorial Strategy](concepts/PlatformSpecificEditorialStrategy.md) - Editorial model that defines distinct missions, formats, and ownership for each distribution platform.

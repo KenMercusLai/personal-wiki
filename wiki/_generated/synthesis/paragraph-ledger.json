@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6b4dbbd3c061cd8fe07d39b74dd88ba9dd3454f0c08fd04909964cd4f994795f",
       "b743fbaac0def0b3558bd427350cac975d5dd1dbc3713a3503653f8d3be3ba97",
       "c156432c3db28d693e59e1d40120fd54fb6b7b41df2eb0b7bcd54e840f6b6ee1",
       "363aaf991a9169943565f4ff3c19181c385e4814c63281d8c8f4a94d7aaae49d",
@@ -202,11 +203,33 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 200
+    "paragraph_count": 201
   },
-  "overview_commit": "b1f00c20c10077dcedbf7acdf9c8b6c438e1ab02",
-  "overview_digest": "99216f6d9c7578c384fa19d3f9c87e56579f79100d07af7661c672d36f0315e6",
+  "overview_commit": "c6e53723b2c7ed27ce170c9ad75121153724dc4c",
+  "overview_digest": "1c211bdadf278d96807a83f5d740ce7629fa146f3922a78595f7df2decf8b1a8",
   "paragraphs": [
+    {
+      "id": "6b4dbbd3c061cd8fe07d39b74dd88ba9dd3454f0c08fd04909964cd4f994795f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "work-education-and-society"
+      ],
+      "text": "The newest Steven Sinofsky source adds a strategic-writing layer to the wiki's communication, knowledge-output, and process-decay material. New [[StrategicWriting]] frames writing as the discipline of making plans, assumptions, alternatives, side effects, costs, stakeholder reactions, and execution logic inspectable before decisions harden. [[ScalingCommunication]] now includes written rationale and corporate history as alignment infrastructure: when execution diverges from the original plan, people making micro-decisions can still use the same framework rather than inventing meaning from slide bullets. [[StevenSinofsky]] supplies the operator perspective through Microsoft memo experience, while [[PeterPathe]] anchors the \"writing is thinking\" phrase. [[Amazon]] six-page memos serve as a useful but risky comparator: successful-company rituals can be over-attributed, copied as status artifacts, gamed through format changes, or mistaken for the work itself. The embedded image was inspected and treated as decorative.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Amazon",
+        "PeterPathe",
+        "ScalingCommunication",
+        "StevenSinofsky",
+        "StrategicWriting"
+      ]
+    },
     {
       "id": "b743fbaac0def0b3558bd427350cac975d5dd1dbc3713a3503653f8d3be3ba97",
       "primary_topic": "ai-and-technology",

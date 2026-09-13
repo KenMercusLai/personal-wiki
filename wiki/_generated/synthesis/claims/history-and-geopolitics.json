@@ -48,6 +48,21 @@
     },
     {
       "global_candidate": false,
+      "id": "strategic-writing-preserves-corporate-history",
+      "qualifications": [
+        "This is organizational history inside the history topic, not a geopolitical claim; the source is an operator essay rather than an archive or empirical history."
+      ],
+      "statement": "[[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], and [[PeterPathe]] add a corporate-history example where written plans preserve why decisions were made so organizations can avoid repeating mistakes when informal memory fades.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "StrategicWriting",
+        "ScalingCommunication",
+        "StevenSinofsky",
+        "PeterPathe"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "numeric-keypads-preserve-interface-lineages",
       "qualifications": [
         "The bounded input treats keypad causality as multi-factor and partly uncertain, not as a single decisive invention story."
@@ -95,6 +110,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.",
   "topic_id": "history-and-geopolitics"
 }

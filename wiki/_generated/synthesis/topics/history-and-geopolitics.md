@@ -4,15 +4,15 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-14
-as_of_overview_commit: 13cb83f52e01feea3a83a4819299d32945743b22
-input_digest: e2876ad61ffac6cb8d3f15848e752d93d43fbe9e8950e083778143b89fb0c0ed
+as_of_overview_commit: c6e53723b2c7ed27ce170c9ad75121153724dc4c
+input_digest: 2405344cf0086b3eb5e374d75dc5c86cff2b2af3d3b6b6471679939002a315d0
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
+The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.
 
 ## Cross-source Findings
 
@@ -36,6 +36,16 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 - These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims.
 - The Long Nose article is represented through a reconstructed archive note, so its timing claims should remain source-scoped.
+
+### Strategic Writing Preserves Corporate History
+
+[[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], and [[PeterPathe]] add a corporate-history example where written plans preserve why decisions were made so organizations can avoid repeating mistakes when informal memory fades.
+
+**Evidence:** [[StrategicWriting]], [[ScalingCommunication]], [[StevenSinofsky]], [[PeterPathe]]
+
+**Qualifications:**
+
+- This is organizational history inside the history topic, not a geopolitical claim; the source is an operator essay rather than an archive or empirical history.
 
 ### Numeric Keypads Preserve Interface Lineages
 
