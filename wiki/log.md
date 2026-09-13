@@ -1363,6 +1363,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Automation is making human labor more valuable than ever
+
+Added Vox's The new new economy article on automation and human-premium service labor. Key claims: automation can cheapen standardized goods while increasing the relative value of human attention, some companies sell the absence of automation as craft or provenance, coffee service shows visible inefficiency as a premium signal, therapy and education are partly changed rather than simply automated by apps and videos, and service-sector "inefficiencies" can become benefits as richer economies spend more on care, mentoring, and experience. Inspected the local embedded illustration and treated it as decorative.
+
 ## [2026-09-14] ingest | Attribution Marketing: Creating a Growth Engine at Salesforce, Zendesk and Slack
 
 Added David Skok's For Entrepreneurs interview with Bill Macaitis. Key claims: attribution should measure whether marketing spend is wise across multi-touch buyer journeys, startups should add tracking once post-fit channel testing begins, marketing operations is an early infrastructure hire, deep funnel metrics prevent shallow signup optimization, Zendesk shows content and display influence across long nurture cycles, and Slack shows attribution extending into team, offline, brand, word-of-mouth, lifecycle, and NPS signals. Inspected the remote lead image and treated it as decorative.
@@ -1406,6 +1410,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Assume Positive Intent
 
 Added Rick Manelius's trust-first collaboration essay. Key claims: assuming positive intent can reduce defensive second-guessing in tense work, high-trust relationships can move faster than skepticism-first relationships, and positive intent still requires boundaries in low-trust, unsafe, or bad-faith contexts.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

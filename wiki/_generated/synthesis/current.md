@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04
-summary: "The wiki maps tools, markets, culture, institutions, learning, and agency as feedback systems that need judgment, verification, trust, context, and humane constraints."
-episode_count: 178
-source_count: 178
-paragraph_count: 173
+as_of_overview_commit: 1de09987e921046e2aeafb515936792a5eaf7804
+summary: "Tools, markets, culture, institutions, learning, and agency work as feedback systems needing judgment, verification, trust, context, and humane constraints."
+episode_count: 179
+source_count: 179
+paragraph_count: 174
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-The technology material treats AI, software architecture, infrastructure, databases, platforms, and game automation as systems whose benefits depend on fit, verification, data quality, and operational constraints. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; infrastructure and automation improve outcomes when matched to workload shape, observability, change safety, and realistic feedback.
+Technology material treats AI, software architecture, infrastructure, databases, platforms, and game automation as systems whose benefits depend on fit, verification, data quality, context management, and operational constraints.
 
 - AI-assisted work is strongest when models provide scaffolding for drafts, prompts, retrieval, code, or analysis while humans retain ownership of claims, examples, architecture, statistical method, review, and final judgment across [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], and [[HumanCodeResponsibility]]. Evidence: [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], [[HumanCodeResponsibility]].
 - Coding-agent and automation speed depend less on raw generation or execution than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], and [[AutomatedGameTesting]] that turn fast output or gameplay change into reviewable, testable, and recoverable feedback. Evidence: [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]].
@@ -43,45 +43,45 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Cross-domain
 
-Current cross-domain synthesis links interface, business, security, and algorithmic examples through a repeated pattern: systems change when constraints become visible. Thumb reach, platform growth mix, exposed service risk, and map simplification all show design improving when hidden physical, strategic, security, or mathematical constraints become explicit.
+Cross-domain synthesis links interface, business, security, and algorithmic examples through a repeated pattern: systems improve when hidden physical, strategic, security, or mathematical constraints become visible.
 
 - Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]]. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]].
 - Mobile platforms join strategic control with embodied use: [[IOS]] controls service access and app economics while larger screens make [[ThumbReachErgonomics]] and [[ReachNavigation]] part of platform-era design. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]].
 
 ### Culture and Media
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.
+Culture-and-media material connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics as both expressive practice and delivery system.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, and standardized technical systems. Its central pattern is that powerful decision systems need instrumentation, transparency, boundaries, and accountable controls before scale turns invisible defaults into institutional harm.
+Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, and standardized technical systems, with emphasis on instrumentation, transparency, boundaries, and accountable controls.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]].
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. It uses historical snapshots to show how present systems inherit older design choices, market distributions, and institutional constraints.
+History and geopolitics currently uses technology, accounting, interface, and market-geography histories to show how present systems inherit older design choices, market distributions, and institutional constraints.
 
 ### Psychology and Personal Development
 
-The psychology and personal-development material treats agency as shaped by reflective habits, goals, opportunity-cost awareness, sunk-cost detection, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and environmental fields.
+Psychology and personal-development material treats agency as shaped by reflective habits, goals, opportunity-cost awareness, sunk-cost detection, evidence calibration, body capacity, interface legibility, trust systems, platform feedback, close relationships, and environmental fields.
 
 - Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]]. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]], [[Xiaohongshu]].
 
 ### Science, Health, and Climate
 
-The science, health, and climate topic remains mostly indirect. It includes beginner scientific-computing practice, attention and mental-load claims, philosophy-of-science cautions about AI-winter narratives, and sleep-as-performance framing rather than a broad empirical health or climate corpus.
+Science, health, and climate remains mostly indirect, covering beginner scientific computing, attention and mental-load claims, philosophy-of-science cautions about AI-winter narratives, and sleep-as-performance framing.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, and infrastructure work as systems of feedback and opportunity. Its strongest claim is that tools, institutions, and work designs can either expand agency through learning loops and humane constraints or narrow it through precarity, opacity, and brittle expectations.
+Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity.
 
 - Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, or user response into better future decisions. Evidence: [[ActiveLearning]], [[JournalingPractice]], [[CreatorFeedbackLoop]], [[ContextualBandits]], [[WorkplaceLearning]].
 - Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose. Evidence: [[CareerPlanning]], [[CreativeTechnicalCareer]], [[EmployeeOpportunityDesign]], [[ProgrammerFreelancing]], [[SabbaticalCareerExperiment]].

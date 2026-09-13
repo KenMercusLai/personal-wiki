@@ -110,8 +110,22 @@
         "MarthaStout",
         "TheSpeedOfTrust"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "automation-can-raise-the-premium-on-human-presence",
+      "qualifications": [
+        "The source shows a service-economy pattern, but it does not prove that automation-displaced workers can easily move into better-paid human-premium jobs."
+      ],
+      "statement": "[[HumanPremiumServices]] shows that automation can raise the value of human attention, craft, care, and social presence when customers treat those qualities as part of the service rather than as inefficiency.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "HumanPremiumServices",
+        "Etsy",
+        "Starbucks"
+      ]
     }
   ],
-  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, and infrastructure work as systems of feedback and opportunity. The newest Rick Manelius paragraph adds a trust-and-boundaries layer: workplace collaboration can move faster when participants assume good faith, but low-trust or unsafe contexts require skepticism and explicit boundaries. The Netflix paragraph adds a machine-learning product case: personalization is not only a consumer-product tactic but a work system requiring artists, designers, data scientists, metrics, exploration controls, and evaluation loops to make visual recommendations useful without reducing them to clickbait.",
+  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. The newest Vox paragraph adds a service-economy qualification: automation may cheapen standardized goods while making human attention, craft, care, and social presence more valuable in settings such as craft marketplaces, coffee service, therapy, caregiving, health care, and education. The topic also keeps the bounded-trust layer from Rick Manelius and the Netflix machine-learning product case, where collaboration and evaluation loops matter because personalization depends on human creative work as well as data systems.",
   "topic_id": "work-education-and-society"
 }

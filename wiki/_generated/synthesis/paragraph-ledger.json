@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "eb08177d672dfdff9cf33adb2a1a85f6edc771b9d6e1440a4003d5c38d3a80f4",
       "40d96ca120ec9d39b610d8801101b82aa7965140881893ac9f12c70b2bc9dff3",
       "782073c9dd0e00c994eb9811009de2a4af5320e71da0a0ca8428da31f6d11faf",
       "f5f39b143116536bd91aa3ee4f0430017dc9421172a25cf67557ce433ac6032e",
@@ -175,11 +176,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 173
+    "paragraph_count": 174
   },
-  "overview_commit": "579ce0e05e4cd09c78b14a5fb8ff9768cfe4db04",
-  "overview_digest": "8dd8656041811f92ac0ad64b21d4f286205a664b785c1d8dd8f395bf2b91ed41",
+  "overview_commit": "1de09987e921046e2aeafb515936792a5eaf7804",
+  "overview_digest": "4314dd8809624e9659b0752c0eb26015948dc59928d0deebbba0f5b4a4683616",
   "paragraphs": [
+    {
+      "id": "eb08177d672dfdff9cf33adb2a1a85f6edc771b9d6e1440a4003d5c38d3a80f4",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Vox source adds a service-economy qualification to the wiki's automation and product-experience material. [[HumanPremiumServices]] names the article's central pattern: as automation makes standardized goods cheaper, human attention, craft, care, presence, and social interaction can become premium features rather than removable costs. [[Etsy]] is the non-mass-produced marketplace example, [[Starbucks]] is the coffee-service case where visible barista attention can outweigh pure throughput, and therapy, caregiving, pregnancy-related health services, and college education show why some app- or video-mediated alternatives are different service categories rather than simple replacements. The inspected illustration is decorative and adds no independent evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "Etsy",
+        "HumanPremiumServices",
+        "Starbucks"
+      ]
+    },
     {
       "id": "40d96ca120ec9d39b610d8801101b82aa7965140881893ac9f12c70b2bc9dff3",
       "primary_topic": "ai-and-technology",
