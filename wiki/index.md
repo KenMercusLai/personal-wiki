@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Another tax on the poor: Surrendering privacy for survival](sources/another-tax-on-the-poor-surrendering-privacy-for-survival.md) - Fast Company argues that poor and marginalized people often surrender more privacy for benefits, work, housing, credit, and safety while having fewer resources to repair data harms.
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
 - [Andrej Karpathy on X: on technical accessibility](sources/andrej-karpathy-on-x-on-technical-accessibility.md) - Karpathy argues that Micrograd's unchanged code reached far more learners only after he built an explanatory video ramp around it.
 - [Andre Staltz - The Web began dying in 2014, here's how](sources/andre-staltz-the-web-began-dying-in-2014-heres-how.md) - Andre Staltz argues that the Web began losing practical relevance as Google, Facebook, and Amazon concentrated traffic, discovery, commerce, mobile runtimes, and infrastructure.
@@ -165,6 +166,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Michele Gilman](entities/MicheleGilman.md) - Poverty-law scholar framing privacy as a dignity, autonomy, and survival issue for low-income people.
+- [Mary Madden](entities/MaryMadden.md) - Data & Society researcher whose survey work connects low-income status with heightened privacy and security concern.
+- [Elissa Redmiles](entities/ElissaRedmiles.md) - Security researcher cited for the unequal time, skill, and advice costs of privacy and security protections.
+- [Data & Society](entities/DataSociety.md) - Research institute supplying privacy, security, and digital-inequality evidence for the article.
+- [Our Data Bodies](entities/OurDataBodies.md) - Research project documenting low-income people's lived experiences with data collection.
 - [Andrej Karpathy](entities/AndrejKarpathy.md) - Technical educator using from-scratch implementations and explicit learning ramps to make complex systems approachable.
 - [Andre Staltz](entities/AndreStaltz.md) - Writer arguing that the open Web is decaying as dominant platform networks absorb discovery, commerce, publishing, and user attention.
 - [Micrograd](entities/Micrograd.md) - Karpathy's minimal autograd engine, used as a case study in how explanatory ramps can multiply an educational codebase's reach.
@@ -602,6 +608,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Privacy Poverty Divide](concepts/PrivacyPovertyDivide.md) - Unequal distribution of privacy protection, privacy burden, and privacy harm across class and marginalization.
+- [Welfare Surveillance](concepts/WelfareSurveillance.md) - Monitoring, verification, and data collection imposed on people seeking public benefits or poverty relief.
+- [Data Broker Persistence](concepts/DataBrokerPersistence.md) - Personal records continuing through commercial databases after becoming outdated, incomplete, corrected, or expunged.
+- [Algorithmic Decision Opacity](concepts/AlgorithmicDecisionOpacity.md) - Accountability problem created when automated systems make consequential decisions without intelligible reasons or contestable evidence.
+- [Surveillance Gap](concepts/SurveillanceGap.md) - Harmful invisibility when people lack formal records needed to access rights, resources, work, or political recognition.
+- [Privacy Protection Resource Inequality](concepts/PrivacyProtectionResourceInequality.md) - Unequal ability to protect, repair, understand, or manage personal data because privacy self-defense requires scarce resources.
 - [Bitcoin Address Encoding](concepts/BitcoinAddressEncoding.md) - Process for deriving user-facing Bitcoin addresses from public keys, hashes, version bytes, checksums, and Base58.
 - [Bitcoin Proof of Work](concepts/BitcoinProofOfWork.md) - Miner-selection and block-inclusion mechanism based on SHA-256 hash search, rewards, fees, and difficulty adjustment.
 - [Bitcoin Script](concepts/BitcoinScript.md) - Stack-based authorization layer that locks UTXOs and validates spends through scripts such as P2PKH.

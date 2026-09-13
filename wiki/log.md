@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | Another tax on the poor: Surrendering privacy for survival
+
+Added Fast Company's privacy-and-poverty article. Key claims: poor and marginalized people face welfare surveillance, persistent broker records, opaque algorithmic decisions, predatory targeting, and unequal access to privacy self-defense; harmful privacy loss can coexist with a surveillance gap where missing records block rights and resources.
+
 ## [2026-09-13] ingest | Creator Economy 2.0: What we've learned, why it's hard, and what's next
 
 Added Andrew Chen's creator-economy startup thesis; created [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]], and updated [[AndrewChen]], index, and overview to capture the article's argument about creator concentration, scarce profile distribution, take-rate pressure, social-feed volatility, and the higher defensibility bar for future creator startups. The source contains remote image embeds only; no local image files were available to inspect.
@@ -1259,6 +1263,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | The Next Next Job, a framework for making big career decisions
 
 Added Andrew Chen's career-decision framework. Key claims: compare current opportunities by the next-next job they make reachable, research gaps with people already in the target role, build a decisive superpower as well as credentials, and treat some over-preparation as risk aversion rather than necessity.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

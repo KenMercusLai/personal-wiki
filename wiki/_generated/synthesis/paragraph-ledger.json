@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
       "e331db3d5c1d1f06421885c5d2a0927e793637f6aa9fc5bc91e3a4b1c3835117",
       "3cf64412dae9df6082d95d75ca6d77f5311c03877f5f49b89cec2d2c600b4be2",
       "b9cbbb64c858183fdea0c2c2b9e227d22b62f9035664b61f5daf449f5436c19c",
@@ -155,11 +156,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 153
+    "paragraph_count": 154
   },
-  "overview_commit": "6d4da9d8882dbead2e869396a0297fb5b1192e57",
-  "overview_digest": "c6fb932ebe022d69e147f327a19bfbf3334952e736d4668badfa70849deb9cba",
+  "overview_commit": "a9449fd30e4506b2ed1eb4dc1aa0b8391ce9674c",
+  "overview_digest": "e40fdfe1a7635d2944914b240623adeb6954ef8cf04f96041ee42d45d8f36e8c",
   "paragraphs": [
+    {
+      "id": "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Fast Company privacy source adds a class-differentiated privacy layer to the wiki's governance, work, and digital-rights material. [[PrivacyPovertyDivide]] names the source's core claim: poor and marginalized people often surrender more data and accept more monitoring to access welfare, employment, housing, credit, prison communication, or basic services, while affluent people receive many government transfers with fewer intrusive checks. [[WelfareSurveillance]] traces that burden from colonial overseers of the poor through home visits, drug tests, fingerprinting, biometrics, and cross-database verification. [[DataBrokerPersistence]] and [[AlgorithmicDecisionOpacity]] show how old, inaccurate, or hidden records can deny benefits, housing, jobs, and loans in ways lawyers struggle to contest. The source also complicates privacy absolutism through [[SurveillanceGap]]: undocumented immigrants, day laborers, homeless people, and people with convictions can be harmed by too little usable documentation as well as too much surveillance, making meaningful control over disclosure the stronger goal.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AlgorithmicDecisionOpacity",
+        "DataBrokerPersistence",
+        "PrivacyPovertyDivide",
+        "SurveillanceGap",
+        "WelfareSurveillance"
+      ]
+    },
     {
       "id": "e331db3d5c1d1f06421885c5d2a0927e793637f6aa9fc5bc91e3a4b1c3835117",
       "primary_topic": "business-and-markets",

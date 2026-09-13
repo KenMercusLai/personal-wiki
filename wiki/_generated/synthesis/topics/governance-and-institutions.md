@@ -4,17 +4,28 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-13
-as_of_overview_commit: 9b6f19966ff06e93601f5e479586fbf29897b5ee
-input_digest: 4ca20d1b43f91a7cab425b58da49b6a86c9756ac21917cda7eecdfcc43f0f770
+as_of_overview_commit: a9449fd30e4506b2ed1eb4dc1aa0b8391ce9674c
+input_digest: 20eac259e34345c22dfcc9844c6a400774fb3ee4459766a3447d0a99082f4db5
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, creator platforms, agent systems, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; creator-economy startups show how scarce profile links, feed algorithms, creator power laws, and graduation risk allocate distribution and exit power; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
+The governance-related material now spans control problems across privacy, welfare, data systems, institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, creator platforms, agent systems, and public action: the privacy-poverty source shows that benefits verification, persistent broker data, opaque algorithms, and documentation gaps can allocate dignity and opportunity by class; institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple content distribution shows platform owners governing access through selective availability; creator-economy startups show how scarce profile links, feed algorithms, creator power laws, and graduation risk allocate distribution and exit power; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch dependency show how technical boundaries allocate responsibility and independence; Twitter adds abuse and cultural-metric accountability; agent permissions add auditability and risk-tiered control for high-authority AI actions; backend queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.
 
 ## Cross-source Findings
+
+### Privacy Burdens Are Class Differentiated Governance
+
+[[PrivacyPovertyDivide]] frames privacy as class-differentiated governance: [[WelfareSurveillance]] makes benefits access conditional on intrusive verification, [[DataBrokerPersistence]] and [[AlgorithmicDecisionOpacity]] can turn hidden or stale records into hard-to-contest denials, and [[SurveillanceGap]] shows that marginalized people can also be harmed by too little usable documentation.
+
+**Evidence:** [[PrivacyPovertyDivide]], [[WelfareSurveillance]], [[DataBrokerPersistence]], [[AlgorithmicDecisionOpacity]], [[SurveillanceGap]]
+
+**Qualifications:**
+
+- The claim is grounded in one 2019 Fast Company privacy source focused on U.S. welfare, work, data brokers, and marginalized communities.
+- The source argues for explanation rights and stronger privacy law but does not evaluate later state privacy regimes or implementation details.
 
 ### Creator Platforms Govern Distribution And Exit
 
