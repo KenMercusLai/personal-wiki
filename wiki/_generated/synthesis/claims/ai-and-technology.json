@@ -315,8 +315,27 @@
         "JohnMcKee",
         "TomMornini"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "platform-subscription-support-can-increase-ecosystem-stickiness",
+      "qualifications": [
+        "The claim is a platform-strategy inference from one 2013 article rather than switching-data evidence, and productivity apps are only one possible source of platform retention."
+      ],
+      "statement": "[[PlatformStickiness]] links software monetization to ecosystem strategy: if [[ProductivityAppSubscriptions]] make serious tools viable on [[IOS]] or [[Android]], platform owners such as [[Apple]], [[Google]], and [[Microsoft]] may retain users who depend on indispensable apps.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "PlatformStickiness",
+        "ProductivityAppSubscriptions",
+        "IOS",
+        "Android",
+        "Apple",
+        "Google",
+        "Microsoft",
+        "AppStore"
+      ]
     }
   ],
-  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest network-automation source adds that executable operational knowledge must be designed around topology and change-safety tradeoffs, not automation hype alone.",
+  "summary": "AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds a platform-policy angle: monetization support for serious productivity apps can become part of ecosystem retention.",
   "topic_id": "ai-and-technology"
 }

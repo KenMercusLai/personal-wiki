@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Academia to Data Science](sources/academia-to-data-science-airbnb-engineering-data-science-medium.md) - Airbnb data scientists advise academics moving into industry data science, emphasizing business framing, communication, messy logged data, fast iteration, and knowledge-sharing.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
 - [Adapting Network Design to Support Automation](sources/adapting-network-design-to-support-automation-ipspace-net-blog.md) - Ivan Pepelnjak argues that network automation is a design requirement whose practical value depends on simplicity, synchronized code, and preserving other network properties.
+- [Adobe's Subscription Model & Why Platform Owners Should Care](sources/adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson.md) - Ben Thompson argues that Adobe's Creative Cloud shift shows why productivity-app subscriptions can better align software value, developer revenue, and platform retention.
 - [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
@@ -155,6 +156,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Metaculus](entities/Metaculus.md) - Prediction-market platform used in the essay's metaknowledge examples about political forecasts.
 - [Philippe Bourgau](entities/PhilippeBourgau.md) - Software-engineering blogger proposing ordinary TODO comments as a lightweight technical-debt tracking convention.
 - [CodeClimate](entities/CodeClimate.md) - Code-quality dashboard cited as surfacing TODO comments as issues with file context.
+- [Creative Cloud](entities/CreativeCloud.md) - Adobe subscription model replacing packaged Creative Suite purchases in the source's framing.
 - [SonarQube](entities/SonarQube.md) - Code-quality analyzer cited as listing TODOs while assigning potentially misleading fixed remediation costs.
 - [IntelliJ IDEA](entities/IntelliJIDEA.md) - IDE cited as surfacing TODO comments and warning about them during commit workflows.
 - [SmugMug](entities/SmugMug.md) - Family-run paid photo-sharing service profiled as self-funded, profitable, customer-intimate, and resistant to outside control.
@@ -175,6 +177,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amazon Bedrock](entities/AmazonBedrock.md) - AWS service supplying the Titan embedding model used in the pgvector benchmark.
 - [Amazon RDS](entities/AmazonRDS.md) - Managed PostgreSQL environment used for the source's pgvector index tests.
 - [PostgreSQL](entities/PostgreSQL.md) - Mature extensible relational database presented as a consolidation-first platform for many application workloads.
+- [Photoshop](entities/Photoshop.md) - Adobe image-editing product used to explain productivity-app value variance and subscription fit.
 - [pgvector](entities/Pgvector.md) - PostgreSQL extension for storing embeddings and running vector similarity search with exact or approximate indexes.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
 - [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform used as a traffic data source for comparing technology attention across countries.
@@ -193,7 +196,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Legoizer](entities/Legoizer.md) - Creative web app that converts images into Lego mural plans.
 - [MIT](entities/MIT.md) - Engineering-school and Media Lab context for Wibowo's technical formation and emotion-recognition tooling.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
+- [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing Adobe's subscription shift through software economics and platform incentives.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
@@ -451,6 +456,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Payment infrastructure used for overseas subscription SaaS collection.
+- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's Adobe subscription and platform-owner analysis.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
@@ -569,6 +575,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by revenue, retention, churn, and expansion.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
+- [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
@@ -797,6 +804,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Discounting](concepts/SaaSDiscounting.md) - Subscription-software price reductions that can aid conversion while damaging perceived value, retention, and unit economics.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [SaaS Pricing](concepts/SaaSPricing.md) - Strategic subscription pricing choices around value, discounts, incentives, and retention economics.
+- [Subscription Surplus Alignment](concepts/SubscriptionSurplusAlignment.md) - Pricing pattern where recurring payments better track growing user value than a one-time software purchase.
 - [Social Proof](concepts/SocialProof.md) - Visitor inference from visible approval, absence, relevance, or mismatch around a product, page, or creator.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.
@@ -845,6 +853,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Media Brand Portfolio](concepts/MediaBrandPortfolio.md) - Operating multiple distinct audience-facing media brands with different consumer uses and revenue surfaces.
 - [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.
 - [Platform Publisher Revenue](concepts/PlatformPublisherRevenue.md) - Revenue-share and fair-payment problem between professional publishers and large technology platforms.
+- [Platform Stickiness](concepts/PlatformStickiness.md) - User retention effect created when apps, workflows, habits, or services make a platform hard to leave.
 - [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for handling harassment and coordinated attacks.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.

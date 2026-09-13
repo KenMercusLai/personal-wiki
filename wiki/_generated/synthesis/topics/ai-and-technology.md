@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: 27cb7de967c5e3155f3de3ba88331a9cc8334182
-input_digest: 9b1d572289a83e380e1788cc1dc26df18c9006487dfd3040d7912c4f6fb44c48
+as_of_overview_commit: 658a489acca8d1c5a04d8bc1c59cb1a5eb547aec
+input_digest: 9647fbd0d1455886f17c9ab5bc4211ce14a7af7faf28983f8ae7fd49dbf32c22
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest network-automation source adds that executable operational knowledge must be designed around topology and change-safety tradeoffs, not automation hype alone.
+AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest source adds a platform-policy angle: monetization support for serious productivity apps can become part of ecosystem retention.
 
 ## Cross-source Findings
 
@@ -147,3 +147,13 @@ AI and technology sources emphasize that useful systems depend on human judgment
 **Qualifications:**
 
 - The accounting evidence is a short, incomplete primer fragment and does not yet cover concrete ledger implementation patterns such as debits, credits, reconciliation, audit trails, or payment integration.
+
+### Platform Subscription Support Can Increase Ecosystem Stickiness
+
+[[PlatformStickiness]] links software monetization to ecosystem strategy: if [[ProductivityAppSubscriptions]] make serious tools viable on [[IOS]] or [[Android]], platform owners such as [[Apple]], [[Google]], and [[Microsoft]] may retain users who depend on indispensable apps.
+
+**Evidence:** [[PlatformStickiness]], [[ProductivityAppSubscriptions]], [[IOS]], [[Android]], [[Apple]], [[Google]], [[Microsoft]], [[AppStore]]
+
+**Qualifications:**
+
+- The claim is a platform-strategy inference from one 2013 article rather than switching-data evidence, and productivity apps are only one possible source of platform retention.

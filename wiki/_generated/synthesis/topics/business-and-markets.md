@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: b1ffaa2d04516abdb816105d81e1594f592f27bb
-input_digest: b2543f02b72a85c6798405cf4a04396e96a8e408df0902016c4fbe2c4f460ede
+as_of_overview_commit: 658a489acca8d1c5a04d8bc1c59cb1a5eb547aec
+input_digest: 38f8fb65afbde74cc841c2526fb352f5e4fc65d52a35415d6ddaa1d7de8759b6
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest investing source adds a capacity warning: active capital requires concentrated work and influence, while passive capital fits better with liquidity and diversification.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Stratechery source adds that productivity subscriptions can align software value over time when one-time prices misfit casual, learning, and professional users.
 
 ## Cross-source Findings
 
@@ -75,6 +75,16 @@ Business and market sources show companies and investors converting technology, 
 **Qualifications:**
 
 - Growth examples are mostly practitioner or historical cases, and channel conditions, product quality, cohort behavior, and retention determine whether acquisition creates durable value.
+
+### Subscription Pricing Aligns Software Value Over Time
+
+[[ProductivityAppSubscriptions]] and [[SubscriptionSurplusAlignment]] extend the SaaS pricing thread: [[BenThompson]] argues that [[Adobe]]'s move to [[CreativeCloud]] better matches [[Photoshop]] value variance by lowering entry friction, funding maintenance, and letting producer revenue rise as user value grows.
+
+**Evidence:** [[ProductivityAppSubscriptions]], [[SubscriptionSurplusAlignment]], [[BenThompson]], [[Adobe]], [[CreativeCloud]], [[Photoshop]], [[SaaSPricing]], [[SaaSRetention]]
+
+**Qualifications:**
+
+- The Adobe evidence is a 2013 strategic argument and conceptual surplus model, not a measured cross-category pricing study; subscriptions can still frustrate light users or customers who prefer ownership.
 
 ### Advertising Differentiation And Category Creation Turn Value Into Memory
 

@@ -120,6 +120,25 @@
     },
     {
       "global_candidate": true,
+      "id": "subscription-pricing-aligns-software-value-over-time",
+      "qualifications": [
+        "The Adobe evidence is a 2013 strategic argument and conceptual surplus model, not a measured cross-category pricing study; subscriptions can still frustrate light users or customers who prefer ownership."
+      ],
+      "statement": "[[ProductivityAppSubscriptions]] and [[SubscriptionSurplusAlignment]] extend the SaaS pricing thread: [[BenThompson]] argues that [[Adobe]]'s move to [[CreativeCloud]] better matches [[Photoshop]] value variance by lowering entry friction, funding maintenance, and letting producer revenue rise as user value grows.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ProductivityAppSubscriptions",
+        "SubscriptionSurplusAlignment",
+        "BenThompson",
+        "Adobe",
+        "CreativeCloud",
+        "Photoshop",
+        "SaaSPricing",
+        "SaaSRetention"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "advertising-differentiation-and-category-creation-turn-value-into-memory",
       "qualifications": [
         "Effects depend on product quality, distribution, pricing, timing, buyer context, and repeated media exposure."
@@ -334,6 +353,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest investing source adds a capacity warning: active capital requires concentrated work and influence, while passive capital fits better with liquidity and diversification.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Stratechery source adds that productivity subscriptions can align software value over time when one-time prices misfit casual, learning, and professional users.",
   "topic_id": "business-and-markets"
 }

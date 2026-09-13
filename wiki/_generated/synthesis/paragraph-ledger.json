@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
       "6dc1ae1fd7a0c6cbaef4890dab7b2ee58d23fa013a2f0e8a8d2ec9dd33e742c2",
       "496719edeb2659d837f5537c613296a863dfa033ee85c33d01a90e9dc703716b",
       "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
@@ -125,11 +126,39 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 123
+    "paragraph_count": 124
   },
-  "overview_commit": "27cb7de967c5e3155f3de3ba88331a9cc8334182",
-  "overview_digest": "3f3fec70f7019ddc0efe05515ccc98851595db66fe82d5e1b1dbf6743efb3db2",
+  "overview_commit": "658a489acca8d1c5a04d8bc1c59cb1a5eb547aec",
+  "overview_digest": "e9cd6595b3a8cfdfc043d65affa90b9c19e5a1b632ce8416bfc72ed7a465ef27",
   "paragraphs": [
+    {
+      "id": "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "work-education-and-society"
+      ],
+      "text": "The newest Stratechery source adds a productivity-software business-model layer to the wiki's SaaS and platform material. [[BenThompson]] argues that [[Adobe]]'s move from packaged software to [[CreativeCloud]] subscriptions matters because [[Photoshop]]-style tools create extreme value variance: casual users resist large upfront prices, professionals receive career-scale value, and students may become valuable only after learning the tool. [[ProductivityAppSubscriptions]] and [[SubscriptionSurplusAlignment]] name the source's broader claim that recurring pricing can lower entry friction, fund maintenance, and let producer revenue rise as user value grows. The platform twist is [[PlatformStickiness]]: if serious productivity apps become viable and platform-specific, [[Apple]], [[Google]], [[Microsoft]], [[IOS]], and [[Android]] have reason to support subscriptions because users who depend on indispensable apps are less likely to switch ecosystems.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "Adobe",
+        "Android",
+        "Apple",
+        "BenThompson",
+        "CreativeCloud",
+        "Google",
+        "IOS",
+        "Microsoft",
+        "Photoshop",
+        "PlatformStickiness",
+        "ProductivityAppSubscriptions",
+        "SubscriptionSurplusAlignment"
+      ]
+    },
     {
       "id": "6dc1ae1fd7a0c6cbaef4890dab7b2ee58d23fa013a2f0e8a8d2ec9dd33e742c2",
       "primary_topic": "business-and-markets",
