@@ -127,6 +127,25 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "innovation-combines-specialized-knowledge-and-shared-data",
+      "qualifications": [
+        "The source is a concise strategy essay, so the claim should be treated as a useful organizational frame rather than an empirical innovation model.",
+        "Cross-functional data sharing still needs governance, data quality, privacy controls, and semantic agreement before it can reliably improve decisions."
+      ],
+      "statement": "[[InnovationAtIntersection]] and [[OrganizationalDataSharing]] frame business innovation as recombining specialized knowledge: [[BenjaminJones]] supplies the burden-of-knowledge reason for complementary teams, while [[TwilioSegment]] Sources and [[Looker]] Blocks show how fragmented SaaS data can be joined into end-to-end funnel hypotheses.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "InnovationAtIntersection",
+        "OrganizationalDataSharing",
+        "BenjaminJones",
+        "TwilioSegment",
+        "Looker",
+        "MickPearce",
+        "EastgateCentre"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "aggregators-centralize-trust-and-profit",
       "qualifications": [
@@ -399,6 +418,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Dellanna source adds that aggregators centralize trust and profit by making stranger transactions acceptable; trust-minimizing technologies may pressure that value, but demand ownership remains hard to attack. The recent startup, product, and messaging sources add that pre-fit runway needs root-bottleneck diagnosis, mature-product redesign needs user-journey evidence, and messaging monetization follows native chat surfaces.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Tunguz source adds that innovation can come from recombining specialized knowledge across fields and teams, with organizational data sharing turning fragmented SaaS observations into funnel hypotheses. The newest Dellanna source adds that aggregators centralize trust and profit by making stranger transactions acceptable; trust-minimizing technologies may pressure that value, but demand ownership remains hard to attack. Recent startup, product, and messaging sources add that pre-fit runway needs root-bottleneck diagnosis, mature-product redesign needs user-journey evidence, and messaging monetization follows native chat surfaces.",
   "topic_id": "business-and-markets"
 }

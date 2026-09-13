@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | All New Ideas are Combinations of Old Ideas
+
+Added Tom Tunguz's innovation-at-intersections essay; inspected the Eastgate exterior image; created innovation-at-intersection and organizational-data-sharing concepts plus Tom Tunguz, Frans Johansson, Mick Pearce, Eastgate Centre, Benjamin Jones, and Looker pages; updated Twilio Segment with the Segment Sources funnel-analysis example.
+
 ## [2026-09-13] ingest | Above Avalon: Apple's Content Distribution Strategy
 
 Added source note plus pages for Apple content distribution strategy, streaming content economics, Apple Music, Apple TV, HomePod, AirPlay 2, Amazon Echo, and iTunes. Updated Apple, Above Avalon, Neil Cybart, index, and overview to capture Cybart's argument that selective content availability on non-Apple hardware reinforces rather than replaces Apple's premium hardware ecosystem. Inspected the local embedded image; it is an Above Avalon logo and contributes no substantive evidence beyond publication identity.
@@ -1054,6 +1058,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [All New Ideas are Combinations of Old Ideas](sources/all-new-ideas-are-combinations-of-old-ideas.md) - Tom Tunguz argues that innovation comes from recombining old ideas across fields, complementary teams, and shared organizational data.
 - [Academia to Data Science](sources/academia-to-data-science-airbnb-engineering-data-science-medium.md) - Airbnb data scientists advise academics moving into industry data science, emphasizing business framing, communication, messy logged data, fast iteration, and knowledge-sharing.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
 - [Adapting Network Design to Support Automation](sources/adapting-network-design-to-support-automation-ipspace-net-blog.md) - Ivan Pepelnjak argues that network automation is a design requirement whose practical value depends on simplicity, synchronized code, and preserving other network properties.
@@ -141,6 +142,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Tom Tunguz](entities/TomTunguz.md) - SaaS strategy writer connecting cross-field innovation with team expertise and organizational data sharing.
+- [Frans Johansson](entities/FransJohansson.md) - Innovation author cited for the claim that new ideas recombine old ideas.
+- [Mick Pearce](entities/MickPearce.md) - Architect cited for the termite-inspired Eastgate Centre example.
+- [Eastgate Centre](entities/EastgateCentre.md) - Harare building used as a biomimetic architecture example for innovation at intersections.
+- [Benjamin Jones](entities/BenjaminJones.md) - Economist cited for the burden-of-knowledge argument behind complementary-team innovation.
+- [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
 - [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
 - [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
@@ -543,6 +550,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
 
 ## Concepts
+- [Innovation at the Intersection](concepts/InnovationAtIntersection.md) - Creating new ideas by recombining existing ideas, observations, techniques, or datasets across fields and roles.
+- [Organizational Data Sharing](concepts/OrganizationalDataSharing.md) - Sharing observations and datasets across teams and systems so companies can reason across the full customer journey.
 - [Aggregation Theory](concepts/AggregationTheory.md) - Platform-strategy frame where demand control and trust transfer let aggregators mediate supply and centralize profits.
 - [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.

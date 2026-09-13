@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5a6441e5984d7589699b643c047e61cc73481a27b88df30bc669850e641cd85f",
       "b0e9b1a1818e9667362b957f3cbf1bdc4de81e7a1fdefe9744843fb99a0b4d75",
       "5afdf3b4967dac93756e8afe56b305c13f09332366fcbd0026eea8844d604aa3",
       "81dc8d986247f2800afbb968f91d631375b509b39a8c2b855424f798c8408fd2",
@@ -133,11 +134,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 131
+    "paragraph_count": 132
   },
-  "overview_commit": "7378e5ad9c9fc22bc10028c1d4a78d5ddd5b2bc4",
-  "overview_digest": "4e0ec807dc977305ab935ccf8279da25cc37bbaa9b3063cbeecdd3eb9b0b9f7b",
+  "overview_commit": "77752c9f80e8425f9547753fb2a485bb0fc09db9",
+  "overview_digest": "a1aaec6b5f3178ca13143a9559867750e29241ad00f85bdf5fc367e8ec0935b9",
   "paragraphs": [
+    {
+      "id": "5a6441e5984d7589699b643c047e61cc73481a27b88df30bc669850e641cd85f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Tom Tunguz source adds an innovation-through-combination layer to the wiki's learning, data, and SaaS material. [[InnovationAtIntersection]] names the source's main pattern: new ideas often come from recombining older ideas across fields, as [[MickPearce]]'s termite-inspired [[EastgateCentre]] example illustrates. [[BenjaminJones]] adds the modern specialization pressure: the decline of the Renaissance-person model means innovation increasingly depends on teams with complementary expertise. [[OrganizationalDataSharing]] translates that claim into SaaS operations, where customer success, sales, marketing, finance, [[TwilioSegment]] Sources, and [[Looker]] Blocks can connect fragmented observations into end-to-end funnel hypotheses.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BenjaminJones",
+        "EastgateCentre",
+        "InnovationAtIntersection",
+        "Looker",
+        "MickPearce",
+        "OrganizationalDataSharing",
+        "TwilioSegment"
+      ]
+    },
     {
       "id": "b0e9b1a1818e9667362b957f3cbf1bdc4de81e7a1fdefe9744843fb99a0b4d75",
       "primary_topic": "ai-and-technology",
