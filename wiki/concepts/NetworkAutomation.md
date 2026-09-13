@@ -5,12 +5,13 @@ tags: [networking, automation, operations]
 sources:
   - adapting-network-design-to-support-automation-ipspace-net-blog
   - ansible-charges-into-network-automation-with-cisco-juniper-the-register
+  - ansible-vs-nornir-speed-challenge
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[NetworkAutomation]] is the use of code, repeatable procedures, and explicit models to configure, validate, operate, or change networks while accounting for the design properties, vendor surfaces, and safety checks that make those operations practical.
+[[NetworkAutomation]] is the use of code, repeatable procedures, and explicit models to configure, validate, operate, collect data from, or change networks while accounting for the design properties, vendor surfaces, performance constraints, and safety checks that make those operations practical.
 
 ## Current Synthesis
 The ipSpace source treats network automation as technically broad but economically constrained. If an operation can be described precisely enough for a computer to execute, it can be automated in principle. In practice, snowflake topologies and organically accumulated exceptions can make the description and implementation cost too high to justify.
@@ -21,6 +22,8 @@ Tooling and platform coverage make the idea concrete. [[Ansible]]'s network modu
 
 Network automation is also a change-safety and organizational-translation problem. Automation code is executable operational knowledge, so it must change with the network; stale automation can fail more violently than stale documentation because it can act directly on infrastructure. Ansible's launch framing adds testing, validation of existing state, and continuous compliance against drift as explicit goals, while insisting that network engineers and programmers should collaborate without being forced into identical roles.
 
+The Ansible-versus-Nornir benchmark adds a performance dimension to tool fit. [[PatrickOgenstad]] shows that even before touching the network, local inventory, task, template, and data-processing overhead can dominate a workflow. In his test, [[Nornir]] scales from 0.621 seconds at 100 hosts to 17.217 seconds at 10,000 hosts, while [[Ansible]] grows from 18.217 seconds to 41 minutes 22.106 seconds over the same host counts. The result does not make speed the only evaluation criterion, but it does show that scheduled data collection, large inventories, and large command outputs can make automation architecture a practical constraint rather than an implementation detail.
+
 ## Key Claims
 - Anything that can be specified precisely enough can be automated in principle.
 - Automation feasibility depends on the cost of describing and implementing operations, not only on theoretical computability.
@@ -28,7 +31,7 @@ Network automation is also a change-safety and organizational-translation proble
 - Automation support is a business and design requirement alongside security, convergence, jitter, and reliability.
 - Automation code must be kept synchronized with network design and concrete platform support to avoid unsafe execution.
 - Validation, continuous compliance, and drift checks make network automation part of operational safety rather than only configuration speed.
-- Engineers still need protocol and troubleshooting understanding because automated networks can fail in ways code alone does not explain.
+- Tool choice and operator skill still matter because large inventories, rendered templates, collected device data, and automated failure modes can exceed what code alone explains.
 
 ## Evidence
 - Automatable scope: [[adapting-network-design-to-support-automation-ipspace-net-blog]] says any operation specified precisely enough can be automated, including messy environments.
@@ -40,15 +43,18 @@ Network automation is also a change-safety and organizational-translation proble
 - Vendor support: [[ansible-charges-into-network-automation-with-cisco-juniper-the-register]] names Arista, Cisco, Juniper, Cumulus Networks, and OpenSwitch as supported at launch, while calling Huawei absent.
 - Safety goals: [[ansible-charges-into-network-automation-with-cisco-juniper-the-register]] reports Peter Sprygada's pillars of configuration automation, testing and validation of existing network state, and continuous compliance for configuration drift.
 - Role translation: [[ansible-charges-into-network-automation-with-cisco-juniper-the-register]] quotes Sprygada's claim that networking teams can join DevOps practice without becoming programmers.
+- Tool-fit benchmark: [[ansible-vs-nornir-speed-challenge]] reports [[Nornir]] completing the 10,000-host local template-generation workload in 17.217 seconds while [[Ansible]] takes 41 minutes 22.106 seconds.
+- Data-volume ceiling: [[ansible-vs-nornir-speed-challenge]] says an earlier Ansible playbook collecting IOS XR DHCP binding data from roughly 90 devices could not finish inside a five-minute schedule.
+- Chart evidence: [[ansible-vs-nornir-speed-challenge]] includes a shared-axis chart where Ansible's runtimes visually dwarf Nornir and a Nornir-only chart showing approximately linear growth across the tested host counts.
 - Skill continuity: [[adapting-network-design-to-support-automation-ipspace-net-blog]] argues that people will still be needed to diagnose automated network crashes until networking is far more commoditized.
 
 ## Counterevidence & Qualifications
-The sources are not controlled comparisons of network topologies, automation tools, or vendor module quality. The ipSpace source does not claim that spine-and-leaf is wrong; it argues that changing topology solely for automation should be evaluated against the whole requirement set. The Register source is a launch report, so it captures intent, support claims, and role framing rather than measured adoption, reliability, or later ecosystem coverage.
+The sources are not controlled comparisons of network topologies, automation tools, or vendor module quality. The ipSpace source does not claim that spine-and-leaf is wrong; it argues that changing topology solely for automation should be evaluated against the whole requirement set. The Register source is a launch report, so it captures intent, support claims, and role framing rather than measured adoption, reliability, or later ecosystem coverage. The Ogenstad benchmark is a 2019 local templating test using Ansible 2.9.0 and Nornir 2.3.0 on a small dedicated-CPU host, so it should qualify tool fit rather than serve as a universal performance law.
 
 ## What Changed
-- Added Ansible's network-module launch as a concrete multivendor implementation case.
-- Added validation, continuous compliance, drift detection, and role-translation goals to the current judgment.
-- Qualified multivendor automation by noting that platform coverage is explicit and incomplete.
+- Added local processing overhead as a practical tool-selection constraint.
+- Added Nornir as a contrasting network-automation framework in a high-volume benchmark.
+- Qualified Ansible's role by distinguishing network-automation capability from suitability for all data-heavy workloads.
 
 ## Related Concepts
 - [[InfrastructureAsCode]] - both turn operational infrastructure into explicit, repeatable code-backed descriptions.

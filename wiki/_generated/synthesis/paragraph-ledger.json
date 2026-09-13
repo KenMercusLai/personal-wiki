@@ -34,6 +34,7 @@
       "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
       "59fdc30be71d5857044b042b83e56c39fef58b09504e47cf878af6d6507cda73",
       "702e24fdfee1a7afa52b9d837cb154662a05559c60dad3d8ea4e453f5394a970",
+      "f1895588cea256e34cf01f770e38e1c738956a8b2d9041ee8d337d3dc88c48f1",
       "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "5622dd4e53493a975168aac8f3217a3de76b8f6a92ef957c53b07828842eb161",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
@@ -157,10 +158,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 155
+    "paragraph_count": 156
   },
-  "overview_commit": "56dbae9b6de1ceeb39b31d223ebd746adac68eaa",
-  "overview_digest": "c4d21445e6c371fbda1f258f41207b366febbb268aa5c7816a8d11f180811caa",
+  "overview_commit": "241172f2960fb8e2a942b6dca4c5318ff41c7462",
+  "overview_digest": "316a801c1493a5bc1a3fbed8f076fc1599bcd2a623850f2ee4a309e50a9e75c2",
   "paragraphs": [
     {
       "id": "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
@@ -779,6 +780,21 @@
         "NetworkAutomation",
         "OpenSwitch",
         "PeterSprygada"
+      ]
+    },
+    {
+      "id": "f1895588cea256e34cf01f770e38e1c738956a8b2d9041ee8d337d3dc88c48f1",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Networklore benchmark adds a tool-fit and performance layer to [[NetworkAutomation]]. [[PatrickOgenstad]] compares [[Ansible]] and [[Nornir]] on local template generation before any network I/O, showing [[Nornir]] rising from 0.621 seconds at 100 hosts to 17.217 seconds at 10,000 hosts while Ansible rises from 18.217 seconds to 41 minutes 22.106 seconds. The inspected charts make the contrast visible: Nornir nearly disappears beside Ansible on the shared axis, while the Nornir-only view shows roughly linear growth. This qualifies Ansible's existing role in the wiki by separating network-automation capability from suitability for every data-heavy or schedule-bound workflow.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "Ansible",
+        "NetworkAutomation",
+        "Nornir",
+        "PatrickOgenstad"
       ]
     },
     {

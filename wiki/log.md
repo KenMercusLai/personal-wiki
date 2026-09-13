@@ -687,6 +687,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Ansible vs. Nornir: Speed Challenge
+
+Added Patrick Ogenstad's benchmark comparing Ansible and Nornir local template generation. Key claims: Ansible remains useful for network automation but can hit practical overhead ceilings on data-heavy or large-inventory workflows; Nornir scales more predictably in the tested workload; and tool mastery includes knowing when a tool should not be used.
+
 ## [2026-09-13] ingest | How to Write More
 
 Added Andrew Chen's writing-output workflow: idea capture, short post templates, scheduled writing sessions, distraction control, AI and voice-assisted brainstorming, and feedback-loop expansion from short posts into essays.
@@ -1278,6 +1282,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Ansible charges into network automation with Cisco, Juniper
 
 Added The Register source on Ansible's move into network automation. Key claims: Ansible 2.0 added network command, configuration, and template modules; initial support covered Arista, Cisco, Juniper, Cumulus Networks, and OpenSwitch; Huawei was absent; and the launch framed network automation around validation, drift compliance, and DevOps collaboration without collapsing network and programmer roles.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

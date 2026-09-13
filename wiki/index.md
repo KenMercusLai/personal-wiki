@@ -25,6 +25,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
 - [Adapting Network Design to Support Automation](sources/adapting-network-design-to-support-automation-ipspace-net-blog.md) - Ivan Pepelnjak argues that network automation is a design requirement whose practical value depends on simplicity, synchronized code, and preserving other network properties.
 - [Ansible charges into network automation with Cisco, Juniper](sources/ansible-charges-into-network-automation-with-cisco-juniper-the-register.md) - The Register reports that Ansible brought network modules into its core platform for multivendor command, configuration, validation, and drift-compliance workflows.
+- [Ansible vs. Nornir: Speed Challenge](sources/ansible-vs-nornir-speed-challenge.md) - Patrick Ogenstad benchmarks local template generation and argues that Ansible's overhead can become a poor fit for high-volume network automation while Nornir scales more predictably.
 - [Adobe's Subscription Model & Why Platform Owners Should Care](sources/adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson.md) - Ben Thompson argues that Adobe's Creative Cloud shift shows why productivity-app subscriptions can better align software value, developer revenue, and platform retention.
 - [Aggregators and Trust](sources/aggregators-and-trust-luca-dellanna.md) - Luca Dellanna argues that aggregators profit from demand control and trust transfer, flattening supplier profit while centralizing trust and profit at the platform layer.
 - [Advocating for a Complete Product Redesign](sources/advocating-for-a-complete-product-redesign-google-design-medium.md) - Google Design's Crashlytics case study argues that complete redesign buy-in comes from user journeys, internal co-design, recurring pain themes, and information-hierarchy evidence.
@@ -205,7 +206,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bitcoin](entities/Bitcoin.md) - Incumbent cryptocurrency framed as vulnerable to merchant-adoption constraints, transaction throughput, and Amazon-scale platform choice.
 - [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
 - [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
-- [Ansible](entities/Ansible.md) - Open source automation platform presented as expanding into multivendor network automation through Ansible 2.0 modules.
+- [Ansible](entities/Ansible.md) - Open source automation platform presented as expanding into multivendor network automation, with benchmark qualifications for high-volume local processing.
+- [DigitalOcean](entities/DigitalOcean.md) - Cloud provider used as the dedicated-CPU benchmark environment in the Ansible-versus-Nornir speed comparison.
+- [Nornir](entities/Nornir.md) - Python network-automation framework benchmarked as a lower-overhead alternative for large local templating workloads.
+- [Patrick Ogenstad](entities/PatrickOgenstad.md) - Network-automation practitioner author of the Ansible-versus-Nornir speed benchmark.
 - [Red Hat](entities/RedHat.md) - Corporate context for Ansible in The Register's network-automation report.
 - [Todd Barr](entities/ToddBarr.md) - Ansible GM quoted on using Ansible to solve network automation workflow problems.
 - [Peter Sprygada](entities/PeterSprygada.md) - Ansible engineer quoted on configuration automation, validation, drift compliance, and DevOps translation for network teams.
