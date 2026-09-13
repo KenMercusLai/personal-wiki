@@ -128,6 +128,11 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Advocating for a Complete Product Redesign
+
+- Ingested Google Design's Crashlytics redesign case study from `/mnt/ken_personal_wiki/Articles/Advocating for a Complete Product Redesign - Google Design - Medium.md`.
+- Created source note plus Crashlytics, Firebase, Fabric, Material Design, Product Redesign, Information Hierarchy, User Journey Mapping, Investigate and Fix Flow, and Internal Co-Design pages.
+
 ## [2026-09-13] ingest | Advertising models in mobile messaging apps
 
 Added a source note for Eric Seufert's Mobile Dev Memo taxonomy of messaging-app advertising, created [[MobileMessagingAdvertising]] and supporting messaging-product entities, and updated Facebook, WhatsApp, WeChat, Mobile Runtime, Mobile Platform Discovery, and Messaging as Platform with the monetization layer.
@@ -1017,3 +1022,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-13] graph | Knowledge graph rebuilt
+
+883 nodes, 4688 edges (4688 extracted, 0 inferred).
+
+## [2026-09-13] report | Graph health report generated
+
+883 nodes analyzed.

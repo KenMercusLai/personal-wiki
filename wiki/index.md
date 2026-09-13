@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
 - [Adapting Network Design to Support Automation](sources/adapting-network-design-to-support-automation-ipspace-net-blog.md) - Ivan Pepelnjak argues that network automation is a design requirement whose practical value depends on simplicity, synchronized code, and preserving other network properties.
 - [Adobe's Subscription Model & Why Platform Owners Should Care](sources/adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson.md) - Ben Thompson argues that Adobe's Creative Cloud shift shows why productivity-app subscriptions can better align software value, developer revenue, and platform retention.
+- [Advocating for a Complete Product Redesign](sources/advocating-for-a-complete-product-redesign-google-design-medium.md) - Google Design's Crashlytics case study argues that complete redesign buy-in comes from user journeys, internal co-design, recurring pain themes, and information-hierarchy evidence.
 - [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
@@ -150,6 +151,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Andy Huibers](entities/AndyHuibers.md) - Bump cofounder used in the retrospective as an example of persistence, humor, and cofounder care.
 - [Flock](entities/Flock.md) - Bump team's semi-automated photo-sharing product that failed to grow but led toward Photoroll and Google Photos ideas.
 - [Google Photos](entities/GooglePhotos.md) - Google product connected in the Bump retrospective to the team's photo-sharing learning and post-acquisition work.
+- [Crashlytics](entities/Crashlytics.md) - Mobile crash-reporting product redesigned from Fabric into Firebase through journey mapping, internal co-design, and information-hierarchy repair.
+- [Firebase](entities/Firebase.md) - Google developer platform that became the destination environment for the Crashlytics redesign.
+- [Fabric](entities/Fabric.md) - Acquired product context that brought Crashlytics into Firebase and supplied the pre-redesign interface baseline.
+- [Material Design](entities/MaterialDesign.md) - Firebase design system that catalyzed the Crashlytics visual refresh and broader UX redesign case.
 - [Coach Tony](entities/CoachTony.md) - Authorial identity behind a headcount and opportunity-design critique of company growth.
 - [WhatsApp](entities/WhatsApp.md) - Messaging company used as both a small-headcount startup counterexample and an anti-ad qualification in Facebook's messaging portfolio.
 - [Eric Seufert](entities/EricSeufert.md) - Mobile Dev Memo author classifying advertising models in mobile messaging apps.
@@ -564,6 +569,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Workplace Sexism in Tech](concepts/WorkplaceSexismInTech.md) - Gendered harassment, credibility denial, stereotyping, and exclusion that make technical work harder or less safe.
 - [Product Design Career Ladder](concepts/ProductDesignCareerLadder.md) - Structured model of product-designer levels, seniority signals, and promotion planning.
 - [Design Skill Axes](concepts/DesignSkillAxes.md) - Product-design growth dimensions spanning product thinking, interaction design, visual design, intentionality, drive, and self-awareness.
+- [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
+- [Information Hierarchy](concepts/InformationHierarchy.md) - Ordering and prioritizing interface information so users can find important data, actions, and features when needed.
+- [User Journey Mapping](concepts/UserJourneyMapping.md) - Mapping how users move through a product so redesign teams can align around important goals and repeated flows.
+- [Investigate and Fix Flow](concepts/InvestigateAndFixFlow.md) - Crashlytics micro-journey linking stability signals, issue inspection, prioritization, and crash debugging evidence.
+- [Internal Co-Design](concepts/InternalCoDesign.md) - Structured redesign practice where teammates actively rearrange and reason about product surfaces to expose pain themes.
 - [Journaling Practice](concepts/JournalingPractice.md) - Lightweight structured daily reflection habit that uses prompts to reduce blank-page resistance.
 - [Gratitude Practice](concepts/GratitudePractice.md) - Deliberate attention to specific daily events, people, and support systems that merit thanks.
 - [Reflective Connection](concepts/ReflectiveConnection.md) - Practice of noticing conceptual links, conversation takeaways, relationship interests, and future follow-up possibilities.

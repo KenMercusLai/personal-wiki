@@ -81,7 +81,7 @@
       "qualifications": [
         "The rule of threes is a coordination heuristic, and NPS interpretation depends on sampling, engagement bias, tenure, margin of error, seasonality, and methodology consistency."
       ],
-      "statement": "[[RuleOfThreesProductDevelopment]] and [[NetPromoterScore]] connect metrics, research, and shipping through [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[IterativeProductShipping]], and [[ProductRetrospectives]].",
+      "statement": "[[RuleOfThreesProductDevelopment]], [[NetPromoterScore]], and [[ProductRedesign]] connect metrics, research, redesign, and shipping through [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[UserJourneyMapping]], [[InternalCoDesign]], [[InformationHierarchy]], [[IterativeProductShipping]], and [[ProductRetrospectives]].",
       "status": "supported",
       "supporting_wikilinks": [
         "RuleOfThreesProductDevelopment",
@@ -90,6 +90,11 @@
         "ProductStorytelling",
         "UserResearchPatternThreshold",
         "CustomerLedProductDevelopment",
+        "ProductRedesign",
+        "UserJourneyMapping",
+        "InternalCoDesign",
+        "InformationHierarchy",
+        "Crashlytics",
         "IterativeProductShipping",
         "ProductRetrospectives"
       ]
@@ -374,6 +379,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Mobile Dev Memo source adds that messaging-app monetization follows the native shape of chat: brand channels, CRM-like conversations, sponsored surfaces, and stickers work because they sit inside discovery and interaction flows rather than beside them.",
+  "summary": "Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Google Design source adds that mature-product redesign needs team alignment around user journeys, co-design evidence, and information hierarchy before a visual refresh becomes durable UX change; the Mobile Dev Memo source adds that messaging-app monetization follows the native shape of chat through brand channels, CRM-like conversations, sponsored surfaces, and stickers.",
   "topic_id": "business-and-markets"
 }

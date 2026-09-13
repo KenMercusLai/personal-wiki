@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: dd2fa60863b4c7262245ed3eb409c5abbd251d34
-input_digest: 76ac16e58ee7995fc97655284d7bc5226f868e6150e0d390aa0fbd7655f2f28b
+as_of_overview_commit: 8027d2b863bc13755320e02f4ba25e6d8af3cbfb
+input_digest: 4496e18c6855027cb4655821e0bff5b72977bc498b17518e5feb32daeb75de76
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Mobile Dev Memo source adds that messaging-app monetization follows the native shape of chat: brand channels, CRM-like conversations, sponsored surfaces, and stickers work because they sit inside discovery and interaction flows rather than beside them.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, and capital into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. The newest Google Design source adds that mature-product redesign needs team alignment around user journeys, co-design evidence, and information hierarchy before a visual refresh becomes durable UX change; the Mobile Dev Memo source adds that messaging-app monetization follows the native shape of chat through brand channels, CRM-like conversations, sponsored surfaces, and stickers.
 
 ## Cross-source Findings
 
@@ -58,9 +58,9 @@ Business and market sources show companies and investors converting technology, 
 
 ### Product Operating Heuristics Connect Metrics Research And Shipping
 
-[[RuleOfThreesProductDevelopment]] and [[NetPromoterScore]] connect metrics, research, and shipping through [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[IterativeProductShipping]], and [[ProductRetrospectives]].
+[[RuleOfThreesProductDevelopment]], [[NetPromoterScore]], and [[ProductRedesign]] connect metrics, research, redesign, and shipping through [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[UserJourneyMapping]], [[InternalCoDesign]], [[InformationHierarchy]], [[IterativeProductShipping]], and [[ProductRetrospectives]].
 
-**Evidence:** [[RuleOfThreesProductDevelopment]], [[NetPromoterScore]], [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[IterativeProductShipping]], [[ProductRetrospectives]]
+**Evidence:** [[RuleOfThreesProductDevelopment]], [[NetPromoterScore]], [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[ProductRedesign]], [[UserJourneyMapping]], [[InternalCoDesign]], [[InformationHierarchy]], [[Crashlytics]], [[IterativeProductShipping]], [[ProductRetrospectives]]
 
 **Qualifications:**
 

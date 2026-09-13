@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
       "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
       "34869aa9672557d1d7c84a09505aa5e37013eb7c4886f1d6e9be728903ef54dc",
       "6dc1ae1fd7a0c6cbaef4890dab7b2ee58d23fa013a2f0e8a8d2ec9dd33e742c2",
@@ -127,11 +128,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 125
+    "paragraph_count": 126
   },
-  "overview_commit": "dd2fa60863b4c7262245ed3eb409c5abbd251d34",
-  "overview_digest": "4abf86a4f6e2fcd2270c2df083515cbdf0454d13f6132bf2ec93f1aa22819a09",
+  "overview_commit": "8027d2b863bc13755320e02f4ba25e6d8af3cbfb",
+  "overview_digest": "2646e42d9a71aca580631733c2cf539aaa8630b77e9b03efbc4d3ae2cf1677c0",
   "paragraphs": [
+    {
+      "id": "64b29454c74c81295068bd3ed13e1ef2575459b5404f19c765a4f5247e2e9d78",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Google Design source adds a redesign-case-building layer to the wiki's product and UX material. [[ProductRedesign]] is framed as a team alignment problem before it is a screen-design exercise: the [[Crashlytics]] team used the move from [[Fabric]] into [[Firebase]] and [[MaterialDesign]] as a chance to repair deeper design debt. [[UserJourneyMapping]] surfaced four critical journeys and the recurring [[InvestigateAndFixFlow]], while [[InternalCoDesign]] paper-cutout sessions turned long-tenured team knowledge into independent pain-point evidence. The resulting diagnosis was [[InformationHierarchy]]: users scrolled, clicked through less important UI, and sometimes requested features that already existed because key crash data and capabilities were buried. Inspected screenshots reinforce the claim by showing the Firebase redesign pulling crash-free statistics, event trends, filters, issue tables, device/version details, session tabs, logs, keys, data, and stack traces into clearer overview and issue-detail surfaces.",
+      "topic_scores": {
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "Crashlytics",
+        "Fabric",
+        "Firebase",
+        "InformationHierarchy",
+        "InternalCoDesign",
+        "InvestigateAndFixFlow",
+        "MaterialDesign",
+        "ProductRedesign",
+        "UserJourneyMapping"
+      ]
+    },
     {
       "id": "7079220ba45e36fe9173212a12cc5f47ddd0e8b2fcf103d7b00dd9a77f35ad4d",
       "primary_topic": "business-and-markets",
