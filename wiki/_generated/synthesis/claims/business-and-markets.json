@@ -104,6 +104,24 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "executive-hiring-needs-role-focus-and-reference-discipline",
+      "qualifications": [
+        "The evidence is one First Round Review operator interview centered on [[Thumbtack]], so the process should be treated as startup executive-hiring advice rather than proof that broad backchanneling or vulnerability signals work equally well in every market or legal context.",
+        "The source stresses confidentiality around current employers and mutual fit, so reference discipline should not be reduced to unbounded reference mining."
+      ],
+      "statement": "[[ExecutiveHiring]] adds a senior-leadership layer to startup scaling: [[MarcoZappacosta]] argues that [[Thumbtack]] needed experienced executives once functional complexity exceeded first-time-founder judgment, and that CEOs should define the few role strengths that matter, split mutual-interest and fit conversations, use broad targeted references to validate skill, and test self-awareness through reciprocal feedback before adding leaders who will shape [[StartupHiringAtScale]], [[CEOScalingRole]], and [[StartupCulture]].",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ExecutiveHiring",
+        "MarcoZappacosta",
+        "Thumbtack",
+        "StartupHiringAtScale",
+        "CEOScalingRole",
+        "StartupCulture"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "career-option-value-can-guide-startup-roles",
       "qualifications": [
@@ -576,6 +594,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, reliability practice, and judgment into durable value only when distribution, trust, customer evidence, retention, observability, release safety, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that Asana's outage turned a faulty logging deploy into a broader reliability and incident-response lesson; Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for trust, privacy, curation, anti-scam, and real-world engagement; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps; mobile platform power separates reach from monetization; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make fit and upside explicit without confusing optimistic vision with unresolved product-market truth.",
+  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, executive hiring, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, support learning, reliability practice, and judgment into durable value only when distribution, trust, customer evidence, retention, observability, release safety, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that executive hiring needs role focus, targeted references, and fit feedback when founder judgment cannot directly test senior functional expertise; Asana's outage turned a faulty logging deploy into a broader reliability and incident-response lesson; Apple can use services and Today at Apple not only for subscription revenue and churn reduction but also for trust, privacy, curation, anti-scam, and real-world engagement; product teams can create retention through accumulated investment as well as continuing value; startups can protect scarce attention through familiar tools and distributed-system restraint; user support can reveal builder-user fluency gaps; mobile platform power separates reach from monetization; engineer investing must pair technical conviction with business analysis and risk discipline; and founder pitches should make fit and upside explicit without confusing optimistic vision with unresolved product-market truth.",
   "topic_id": "business-and-markets"
 }

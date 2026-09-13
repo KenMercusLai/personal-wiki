@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "398fab4967518b19ba40a056b29626cffceba0f31193721978caed2d7b19314e",
       "5856d0f8ce20be27daaa35d53e8a75cfd959e24eb4781c54dc0d9a61a3e4f8ae",
       "3804e300e6227a66ba3a8b6eb5f7a26ce13173eb153f3540adb66b66f6dfa73e",
       "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
@@ -171,11 +172,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 169
+    "paragraph_count": 170
   },
-  "overview_commit": "17ecd6cadd9d90459e888b5ec41a1db714b12e64",
-  "overview_digest": "359165d3b727c81cf2428ec6edb20f30fd96253ed6cd499bd4d927fb0ec31353",
+  "overview_commit": "191c1b04fad6c33753cdbd95a9c8d2a574cb0822",
+  "overview_digest": "8f534ec36a0617d635f12b1bcb3af635c44c32dfcc51ab5abd2d3588afb0a4f7",
   "paragraphs": [
+    {
+      "id": "398fab4967518b19ba40a056b29626cffceba0f31193721978caed2d7b19314e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest First Round Review source adds an executive-hiring layer to the wiki's startup-scaling material. [[MarcoZappacosta]] presents [[Thumbtack]] as a first-time-founder case where experienced executives became essential once the company needed leaders across engineering, product, marketplace, finance, HR, operations, marketing, and legal. [[ExecutiveHiring]] names the process lesson: define the three role strengths that matter most, split founder conversations into mutual-interest and deeper fit sessions, use broad targeted references to validate skill, and test self-awareness by presenting reference themes back to the candidate. This sharpens [[StartupHiringAtScale]], [[CEOScalingRole]], and [[StartupCulture]] by showing that senior hires are not just another recruiting-volume problem; they are high-beta choices where role design, fit, vulnerability, and reference discipline shape the leadership system.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CEOScalingRole",
+        "ExecutiveHiring",
+        "MarcoZappacosta",
+        "StartupCulture",
+        "StartupHiringAtScale",
+        "Thumbtack"
+      ]
+    },
     {
       "id": "5856d0f8ce20be27daaa35d53e8a75cfd959e24eb4781c54dc0d9a61a3e4f8ae",
       "primary_topic": "business-and-markets",

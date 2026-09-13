@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Assembling an Executive Leadership Team is Daunting - Let Thumbtack's CEO Help
+
+Added First Round Review's interview with Thumbtack CEO Marco Zappacosta. Key claims: executive roles should be narrowed to three essential strengths, founder interviews should separate mutual interest from deeper fit, broad targeted references validate skill better than gut feel, and final feedback conversations test self-awareness and reciprocal vulnerability. Inspected the local portrait illustration and treated it as decorative rather than independent evidence.
+
 ## [2026-09-14] ingest | Arianna Huffington on sleep, mornings and work
 
 Added Annie Ridout's The Early Hour interview with Arianna Huffington. Key claims: sleep is framed as a performance enhancer, morning routines can protect attention before work, HuffPost used nap rooms and email boundaries to reduce burnout, and vacation-email deletion removes the temptation to work during time off.
@@ -1386,6 +1390,10 @@ Added Exception Not Found's developer support essay. Key claims: user mistakes u
 ## [2026-09-14] ingest | Architecting for Continuous Delivery
 
 Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD is not just tooling; monolithic codebases can slow feedback and ownership; componentization can improve delivery when boundaries are deliberate; test pyramids keep validation fast; and deployment pipelines expose release confidence, rollback points, dependencies, and bottlenecks.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

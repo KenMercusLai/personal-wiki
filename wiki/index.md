@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Assembling an Executive Leadership Team is Daunting - Let Thumbtack's CEO Help](sources/assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review.md) - First Round Review interviews Thumbtack CEO Marco Zappacosta on executive hiring through three-strength role design, split interviews, broad references, 360 feedback, and fit evaluation.
 - [Artwork Personalization at Netflix](sources/artwork-personalization-at-netflix-netflix-techblog-medium.md) - Netflix TechBlog explains how contextual bandits personalize title artwork using exploration logs, replay evaluation, and quality-engagement labels.
 - [Arianna Huffington on sleep, mornings and work](sources/arianna-huffington-on-sleep-mornings-and-work-the-early-hour.md) - Annie Ridout interviews Arianna Huffington on sleep as performance support, morning routines, HuffPost burnout prevention, vacation-email deletion, and The Sleep Revolution.
 - [Another tax on the poor: Surrendering privacy for survival](sources/another-tax-on-the-poor-surrendering-privacy-for-survival.md) - Fast Company argues that poor and marginalized people often surrender more privacy for benefits, work, housing, credit, and safety while having fewer resources to repair data harms.
@@ -182,6 +183,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
+- [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
+- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication that published the Zappacosta executive-hiring interview.
 - [Arianna Huffington](entities/AriannaHuffington.md) - Media founder and sleep advocate connecting HuffPost leadership with The Sleep Revolution, recovery routines, and burnout-prevention practices.
 - [Annie Ridout](entities/AnnieRidout.md) - Journalist and interviewer for The Early Hour's Arianna Huffington interview.
 - [Huffington Post](entities/HuffingtonPost.md) - Online news and blogging platform used as a case for both 24-hour newsroom pressure and recovery-supporting workplace practices.
@@ -664,6 +668,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
 - [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.
