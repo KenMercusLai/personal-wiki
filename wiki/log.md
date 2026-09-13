@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Arianna Huffington on sleep, mornings and work
+
+Added Annie Ridout's The Early Hour interview with Arianna Huffington. Key claims: sleep is framed as a performance enhancer, morning routines can protect attention before work, HuffPost used nap rooms and email boundaries to reduce burnout, and vacation-email deletion removes the temptation to work during time off.
+
 ## [2026-09-13] ingest | Another tax on the poor: Surrendering privacy for survival
 
 Added Fast Company's privacy-and-poverty article. Key claims: poor and marginalized people face welfare surveillance, persistent broker records, opaque algorithmic decisions, predatory targeting, and unequal access to privacy self-defense; harmful privacy loss can coexist with a surveillance gap where missing records block rights and resources.
@@ -1374,6 +1378,10 @@ Added Exception Not Found's developer support essay. Key claims: user mistakes u
 ## [2026-09-14] ingest | Architecting for Continuous Delivery
 
 Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD is not just tooling; monolithic codebases can slow feedback and ownership; componentization can improve delivery when boundaries are deliberate; test pyramids keep validation fast; and deployment pipelines expose release confidence, rollback points, dependencies, and bottlenecks.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

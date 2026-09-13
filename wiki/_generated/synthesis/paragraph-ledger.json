@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
       "85293d045fa450f3f611e55e9a034689d54c743303a6c10ec80020a842ef7596",
       "b928b473400e32f70b22764d60796a54d65e1582c4c6693707bbc3198aad0822",
       "4d89461978b279456befae35430cca9bff5a4396e3e90aaa9b5948827cf7df04",
@@ -168,11 +169,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 166
+    "paragraph_count": 167
   },
-  "overview_commit": "4b74435b2ba8f37e019e4bf465bf9e88f92a8194",
-  "overview_digest": "3c6001f0af7dd8d8a88833a6bb5964ed05fe27909ba4e7ef8891eb4942979c47",
+  "overview_commit": "5b8805bf1f1829f74b620c0f5a2d29d639a68d2d",
+  "overview_digest": "6ba815ab24ffeed740b82b0f5f891820b9ec897fea515311b1c230cc9895c2af",
   "paragraphs": [
+    {
+      "id": "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest The Early Hour interview adds a sleep-and-recovery layer to the wiki's productivity and work-environment material. [[AriannaHuffington]] frames [[SleepAsPerformanceEnhancer]] as the \"ultimate performance enhancer,\" linking sufficient rest to natural waking, joy, decision making, emotional intelligence, cognition, and creativity. [[MorningRecoveryRoutine]] captures her device-free start-of-day pattern of gratitude or intentions, movement, meditation, coffee, and flexible adaptation while traveling. [[BurnoutPrevention]] extends the point from individual habit to workplace systems: [[HuffingtonPost]] is described as a 24-hour newsroom that used nap rooms, after-hours email norms, and a vacation email deletion tool to reduce the temptation to work during time off. [[TheSleepRevolution]] supplies the book-and-campaign context, while the source remains interview-based and its remote lead image could not be inspected because the URL returned 404.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AriannaHuffington",
+        "BurnoutPrevention",
+        "HuffingtonPost",
+        "MorningRecoveryRoutine",
+        "SleepAsPerformanceEnhancer",
+        "TheSleepRevolution"
+      ]
+    },
     {
       "id": "85293d045fa450f3f611e55e9a034689d54c743303a6c10ec80020a842ef7596",
       "primary_topic": "business-and-markets",

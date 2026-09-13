@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Arianna Huffington on sleep, mornings and work](sources/arianna-huffington-on-sleep-mornings-and-work-the-early-hour.md) - Annie Ridout interviews Arianna Huffington on sleep as performance support, morning routines, HuffPost burnout prevention, vacation-email deletion, and The Sleep Revolution.
 - [Another tax on the poor: Surrendering privacy for survival](sources/another-tax-on-the-poor-surrendering-privacy-for-survival.md) - Fast Company argues that poor and marginalized people often surrender more privacy for benefits, work, housing, credit, and safety while having fewer resources to repair data harms.
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
 - [Andrej Karpathy on X: on technical accessibility](sources/andrej-karpathy-on-x-on-technical-accessibility.md) - Karpathy argues that Micrograd's unchanged code reached far more learners only after he built an explanatory video ramp around it.
@@ -179,6 +180,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Arianna Huffington](entities/AriannaHuffington.md) - Media founder and sleep advocate connecting HuffPost leadership with The Sleep Revolution, recovery routines, and burnout-prevention practices.
+- [Annie Ridout](entities/AnnieRidout.md) - Journalist and interviewer for The Early Hour's Arianna Huffington interview.
+- [Huffington Post](entities/HuffingtonPost.md) - Online news and blogging platform used as a case for both 24-hour newsroom pressure and recovery-supporting workplace practices.
+- [The Sleep Revolution](entities/TheSleepRevolution.md) - Arianna Huffington book and campaign context for treating sleep as a cultural, scientific, and workplace priority.
 - [Exception Not Found](entities/ExceptionNotFound.md) - Software-writing publication represented here by a developer support essay on user confusion, empathy, and Hanlon's Razor.
 - [Vishal Naik](entities/VishalNaik.md) - Thoughtworks author connecting continuous delivery to architecture, test feedback, and deployment-pipeline visibility.
 - [Thoughtworks](entities/Thoughtworks.md) - Technology consultancy and publisher associated with Snap CI and Go.CD in the continuous-delivery source.
@@ -657,6 +662,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
+- [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
+- [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.
 - [Continuous Delivery](concepts/ContinuousDelivery.md) - Release capability for frequent, reliable, low-friction software delivery through architecture, tests, automation, and visible flow.
 - [Deployment Pipeline](concepts/DeploymentPipeline.md) - Automated visible flow from source control to production that increases release confidence at each stage.
 - [CD Componentization](concepts/CDComponentization.md) - Component extraction used to improve continuous-delivery feedback, ownership, and deployment throughput.
