@@ -630,6 +630,10 @@ Ingested source note and updated Apple Services synthesis pages.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Above Avalon: The Curious State of Apple Product Pricing
+
+Added source. Key claims: Apple underpriced AirPods and Apple Watch entry models against early wearable competitors; lower entry prices, premium SKUs, scale, supply-chain leverage, owned silicon, and vertical integration let Apple make luxury wearable experiences more accessible.
+
 ## [2026-09-13] ingest | Above Avalon: Connecting the Apple Dots
 
 Ingested /mnt/ken_personal_wiki/Articles/Above Avalon- Connecting the Apple Dots.md and updated the Apple product-strategy cluster.
@@ -834,6 +838,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
