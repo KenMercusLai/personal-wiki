@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "09e837386500c3f561e8f00bcc1851ca507b121d8cc313e70785e0d94236dc1f",
       "1e5fb8085f169768567e85937f261a07c18eab57bb87637e6020372df381ac68",
       "88d58ec7fb47bce00d096dda2b0e2f3169fb260f92ea431ce911b322a3430161",
       "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
@@ -112,11 +113,26 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 110
+    "paragraph_count": 111
   },
-  "overview_commit": "6a70e77969afc522801c33f780245a1d7fa9b27e",
-  "overview_digest": "c52c3c999c03a10b7924b8699aeae82b3b73a2e096f79ccec8d7385d35494812",
+  "overview_commit": "6e9e9447cd1f6c940acaff59f124838da4e38678",
+  "overview_digest": "48d34355b41591c8b922379224aec6f6a8ac6dddc327ad2d894997f74f917629",
   "paragraphs": [
+    {
+      "id": "09e837386500c3f561e8f00bcc1851ca507b121d8cc313e70785e0d94236dc1f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Above Avalon source adds a capital-allocation layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]] had a realistic 2017 path to retiring 50% of its peak share count by combining ongoing annual repurchases, possible foreign-cash repatriation after tax reform, and continued excess cash generation from iPhone and Services. [[ShareBuyback]] therefore enters the wiki as a qualified finance concept: retiring shares can increase continuing shareholders' ownership percentage, but Cybart stresses that buybacks do not directly improve operating performance and can be poor policy for companies without Apple's cash strength. The embedded chart makes Apple's starting point concrete by showing AAPL shares outstanding falling from about 6.6 billion in 4Q12 to about 5.3 billion in 1Q17.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "Apple",
+        "NeilCybart",
+        "ShareBuyback"
+      ]
+    },
     {
       "id": "1e5fb8085f169768567e85937f261a07c18eab57bb87637e6020372df381ac68",
       "primary_topic": "business-and-markets",

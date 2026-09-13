@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 6a70e77969afc522801c33f780245a1d7fa9b27e
-summary: "The wiki maps technology, business, learning, media, governance, and personal agency as systems of evidence, incentives, tools, and human judgment rather than isolated tactics."
-episode_count: 112
-source_count: 112
-paragraph_count: 110
+as_of_overview_commit: 6e9e9447cd1f6c940acaff59f124838da4e38678
+summary: "The wiki maps technology, business, learning, media, governance, and personal agency as systems of evidence, incentives, tools, capital, and judgment."
+episode_count: 113
+source_count: 113
+paragraph_count: 111
 topic_count: 9
 ---
 
@@ -21,6 +21,7 @@ topic_count: 9
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business.
 - [[WebAdEconomics]], [[BrowserPaymentBroker]], and [[HTTP402PaymentRequired]] frame ads as an implicit payment system, while [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[NicheSubscriptionPublishing]] show publishers choosing among trusted payments, platform revenue, diversified media portfolios, and focused direct subscriptions.
 - [[StartupScaling]] extends validation into organization design: after [[ProductMarketFit]], teams must manage [[Blitzscaling]], hiring, [[StartupCulture]], [[ScalingCommunication]], [[CEOScalingRole]], [[TalentDensity]], support load, security, and [[EmployeeOpportunityDesign]] rather than treating headcount itself as success.
+- [[ShareBuyback]] adds the mature-company version of business finance: [[Apple]] shows how durable cash generation can make capital return, ownership percentage, share price, tax rules, and investor expectations strategic questions rather than startup survival constraints.
 - [[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[FocusedReading]], [[KnowledgeOutput]], [[ExplanatoryWriting]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source and medium selection to targeted intake, explanation, example collection, feedback, case reconstruction, active review, hands-on verification, gap review, structured output, and restraint against self-referential method collecting; [[ReinforcementLearning]] adds a source-scoped metaphor for improving through repeated decisions under uncertainty, [[ReflectiveConnection]] adds a smaller daily route for turning lessons and analogies into captured knowledge, and [[OrphanNotes]] add maintenance practices for earning links, bounded research, [[Anki]] review, and dormancy.
 - [[CareerPlanning]] and [[GPVCareerFormula]] frame career fit as a staged path built from gifts, passion, and values; [[CreativeTechnicalCareer]] adds a non-linear path where art, engineering, craft, education, and game-making can cohere through repeated experiments, while [[WorkplaceSexismInTech]] names a structural constraint that can redirect or damage that path. [[ProgrammerFreelancing]], [[IndependentCreator]], and [[SabbaticalCareerExperiment]] cases add experiments around money, isolation, autonomy, user impact, luck, health, family constraints, psychological cost, and fallback design, while [[JobApplicationSideProjects]] make career-transition claims credible only when projects are relevant, deep, iterated, shipped, and visible.
 
@@ -35,7 +36,7 @@ AI and technology sources treat tools as socio-technical infrastructure: usefuln
 
 ### Business and Markets
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, and operations. The topic now extends the mobile-platform thread through Apple Watch, AirPods, ARKit, and smart-glasses analysis: mature smartphone ecosystems can seed future wearable form factors, but software, hardware, AI/database infrastructure, mobile platforms, and wearables still need workload fit, user perception, and sustained operations.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, and operations. The topic now distinguishes startup cash as runway for learning from mature-company surplus cash as an ownership, investor-relations, and capital-return problem, while also treating mobile ecosystems and wearables as platform strategies that still need workload fit, user perception, and sustained operations.
 
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
 - [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], and [[IndependentCreator]] evidence show small creator businesses using stable income bases, modular services, [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] to turn narrow products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[IndependentCreator]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]].
@@ -77,7 +78,7 @@ Science, health, and climate remains mostly indirect. It covers attention and me
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame improvement as designed loops: routines reduce friction, attention protects agency, environments shape behavior, learning deepens through output and practice, goals protect motivation, and careers require path design. The topic now also notes that product-strategy work around ARKit, wearables, and smart glasses can reshape organizational workflows when operational constraints are understood.
+Work, education, and society sources frame improvement as designed loops: routines reduce friction, attention protects agency, environments shape behavior, learning deepens through output and practice, goals protect motivation, and careers require path design. The topic also notes that product-strategy work around ARKit, wearables, and smart glasses can reshape organizational workflows when operational constraints are understood.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

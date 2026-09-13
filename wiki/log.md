@@ -610,6 +610,10 @@ Added source note and synthesis pages for AI winter, deep learning scaling, auto
 
 ## [2026-09-13] ingest | Optimize generative AI applications with pgvector indexing
 
+## [2026-09-13] ingest | Above Avalon: Apple on Track to Buy 50% of Itself in Three Years
+
+Added source note for Neil Cybart's 2017 Apple buyback scenario. Created [[ShareBuyback]] and updated [[Apple]], [[AboveAvalon]], [[NeilCybart]], the index, and overview with the article's capital-return claims and chart evidence.
+
 ## [2026-09-13] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -810,6 +814,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

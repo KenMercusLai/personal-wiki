@@ -72,6 +72,20 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "mature-companies-turn-excess-cash-into-capital-allocation",
+      "qualifications": [
+        "The Apple evidence is a 2017 Above Avalon scenario, not a universal claim that buybacks create operating value or suit every company."
+      ],
+      "statement": "[[ShareBuyback]] adds the mature-company version of business finance: [[Apple]] shows how durable cash generation can make capital return, ownership percentage, share price, tax rules, and investor expectations strategic questions rather than startup survival constraints.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ShareBuyback",
+        "Apple",
+        "NeilCybart"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "outsourced-development-requires-owner-discipline",
       "qualifications": [
@@ -435,6 +449,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, and operational discipline. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic treats media monetization as a spectrum from ad-funded and platform-dependent models to diversified portfolios and focused direct subscriptions. It now also extends the mobile platform thread: Apple Watch, AirPods, ARKit, and smart-glasses analysis show how a mature smartphone ecosystem can seed future wearable form factors while software, hardware, AI/database infrastructure, mobile platforms, and wearables still have to justify value through workload fit, user perception, and sustained operations.",
+  "summary": "Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, and operational discipline. Durable companies and creator businesses convert runway into learning before fit, make products legible through MVPs, customer conversations, observed user behavior, advertising, category framing, and community, defend against commoditization through differentiated value and trust, and evaluate acquisition tactics against retained revenue, customer quality, and unit economics. The topic treats media monetization as a spectrum from ad-funded and platform-dependent models to diversified portfolios and focused direct subscriptions. It now also distinguishes mature-company surplus allocation from startup runway: Apple's buyback case shows how excess cash can become an investor-relations and ownership-structure question when operations already generate more cash than the company needs for reinvestment.",
   "topic_id": "business-and-markets"
 }
