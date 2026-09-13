@@ -18,6 +18,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [An Open Letter To My CEO](sources/an-open-letter-to-my-ceo-talia-jane-medium.md) - Talia Jane's open letter argues that low-paid Yelp/Eat24 support work created food, rent, transit, and utility insecurity despite the company's tech-scale resources and office perks.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
+- [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
 - [All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding](sources/all-the-questions-you-wanted-answered-about-bird-scooters-and-their-recent-300-million-funding.md) - Mark Suster argues that Bird's rapid scooter-service growth was driven by dense demand, capital, local operations, data, hardware learning, and category-defining brand.
@@ -406,7 +407,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
 - [Pinterest](entities/Pinterest.md) - Company that acquired Instapaper in 2016 and made Premium free while keeping the product standalone.
-- [App Store](entities/AppStore.md) - Apple's mobile app marketplace, a key distribution and visibility platform for Instapaper.
+- [App Store](entities/AppStore.md) - Apple's mobile app marketplace, a distribution platform for Instapaper and a 2015 revenue leader versus Google Play.
+- [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 estimates frame the Google Play versus App Store download and revenue split.
 - [编程随想](entities/BianChengSuiXiang.md) - Authorial identity behind the systematic-learning article connecting media choice, Feynman-style explanation, DIKW, and cross-domain wisdom.
 - [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
@@ -468,7 +470,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
-- [Google](entities/Google.md) - Web-platform, scaling, mobile, and geospatial actor associated with protocol evolution, Android reach, and personalized mapping infrastructure.
+- [Google](entities/Google.md) - Web-platform, scaling, mobile, and geospatial actor associated with protocol evolution, Android reach, Google Play scale, and personalized mapping infrastructure.
+- [Google Play](entities/GooglePlay.md) - Google's Android app marketplace, leading 2015 downloads while trailing Apple's App Store revenue in the App Annie snapshot.
 - [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
 - [Google Maps](entities/GoogleMaps.md) - Google's mass-market mapping product where personalization, local search, ads, user contributions, moderation, and location data converge.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
@@ -476,7 +479,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
-- [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, brand meaning, wearables, AR software, developers, and large-scale buybacks.
+- [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, high App Store monetization, brand meaning, wearables, AR software, developers, and large-scale buybacks.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
 - [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
@@ -493,8 +496,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product and independence precedent.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
 - [Steve Wozniak](entities/SteveWozniak.md) - Apple technical co-founder used in the advertising source's humble-origin and hands-on engineering narrative.
-- [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, and discovery control.
-- [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem and service-control surface in the mobile platform order.
+- [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
+- [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
@@ -675,6 +678,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple Product Theory](concepts/AppleProductTheory.md) - Above Avalon's framework for Apple's product line as increasingly personal alternatives to prior computing tasks.
 - [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
+- [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile app marketplace downloads, revenue, geography, and category mix.
 - [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.

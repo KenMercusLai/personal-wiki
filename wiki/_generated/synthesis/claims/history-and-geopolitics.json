@@ -2,6 +2,25 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "app-store-geography-is-market-history-spillover",
+      "qualifications": [
+        "This is a market-geography snapshot inside a history topic, not a geopolitical analysis; it is based on a 2015 App Annie/VentureBeat summary and does not provide later regional outcomes or absolute market sizes."
+      ],
+      "statement": "[[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], and [[Google]] add a source-scoped market-history snapshot: 2015 app-store downloads were driven by emerging-market Google Play growth while iOS App Store revenue growth was concentrated in China, the U.S., and Japan.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MobileAppStoreEconomics",
+        "GooglePlay",
+        "AppStore",
+        "Android",
+        "IOS",
+        "Apple",
+        "Google",
+        "MobileEcosystem"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "software-product-histories-show-lineage-and-platform-adaptation",
       "qualifications": [
         "These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims."
@@ -72,6 +91,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.",
   "topic_id": "history-and-geopolitics"
 }

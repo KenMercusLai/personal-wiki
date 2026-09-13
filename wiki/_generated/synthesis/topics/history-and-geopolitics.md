@@ -4,17 +4,27 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-13
-as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
-input_digest: 4058da9284a739b97022e3d6c708c195220d3a62def4e010271d15d6b42a3bbe
+as_of_overview_commit: 996efd19645f1b1c050291202b8d0d082c173a12
+input_digest: a73017cd6ecb59417cc9aa3cf650a104f4a72520de9f90fa1fe7d38f1d3167e7
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, and interface histories rather than substantive geopolitical claims. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
+The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
 
 ## Cross-source Findings
+
+### App Store Geography Is Market History Spillover
+
+[[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], and [[Google]] add a source-scoped market-history snapshot: 2015 app-store downloads were driven by emerging-market Google Play growth while iOS App Store revenue growth was concentrated in China, the U.S., and Japan.
+
+**Evidence:** [[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], [[Google]], [[MobileEcosystem]]
+
+**Qualifications:**
+
+- This is a market-geography snapshot inside a history topic, not a geopolitical analysis; it is based on a 2015 App Annie/VentureBeat summary and does not provide later regional outcomes or absolute market sizes.
 
 ### Software Product Histories Show Lineage And Platform Adaptation
 

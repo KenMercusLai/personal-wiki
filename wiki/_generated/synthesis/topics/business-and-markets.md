@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 6d4da9d8882dbead2e869396a0297fb5b1192e57
-input_digest: e145cad1214f3789763d3d1e0b8765f23e47705ec152f489412fea2129964b3c
+as_of_overview_commit: 996efd19645f1b1c050291202b8d0d082c173a12
+input_digest: 018ee0858ce53add1eff54a109829cdd7cc5269d889845150e3dd6d3e3b6ee50
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that engineer investing must pair technical-domain conviction with business analysis, risk discipline, downside math, and non-market leverage through code, writing, products, and sharing, while early startup pitching must make team fit, proof points, and upside explicit without confusing optimistic vision with unresolved product-market or operating truth. It now also treats career moves in startup-adjacent markets as option-building decisions: the Next Next Job frame evaluates a current role by the later role, network, experience, and superpower it enables.
+Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that mobile platform power separates reach from monetization through the 2015 Google Play versus App Store download/revenue split, that engineer investing must pair technical-domain conviction with business analysis and risk discipline, that early startup pitching must make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth, and that startup-adjacent career moves can be evaluated by the later options they create.
 
 ## Cross-source Findings
 
@@ -213,13 +213,14 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Mobile Platforms Control Discovery And Seed New Form Factors
 
-[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], and [[WearableComputing]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, data-producing devices, wearables, and messaging monetization reshape product distribution; [[AppleProductTheory]], [[ARKit]], [[AirPods]], and [[SmartGlasses]] add that mature mobile ecosystems can seed future form factors before they are ready.
+[[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], [[WearableComputing]], and [[MobileAppStoreEconomics]] show mobile as a platform-strategy shift where discovery, runtime surfaces, traffic ownership, data-producing devices, wearables, messaging monetization, and app-store economics reshape product distribution: [[GooglePlay]] and [[Android]] can lead download reach while [[AppStore]], [[IOS]], and [[Apple]] concentrate revenue, and [[AppleProductTheory]], [[ARKit]], [[AirPods]], and [[SmartGlasses]] add that mature mobile ecosystems can seed future form factors before they are ready.
 
-**Evidence:** [[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], [[WearableComputing]], [[ARKit]], [[AirPods]], [[SmartGlasses]], [[Apple]], [[Google]], [[Microsoft]], [[InternetOfThingsData]], [[AppleWatch]], [[AppleProductTheory]], [[MobileMessagingAdvertising]]
+**Evidence:** [[MobileEcosystem]], [[MobileInternet]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], [[WearableComputing]], [[MobileAppStoreEconomics]], [[GooglePlay]], [[Android]], [[AppStore]], [[IOS]], [[Apple]], [[Google]], [[ARKit]], [[AirPods]], [[SmartGlasses]], [[Microsoft]], [[InternetOfThingsData]], [[AppleWatch]], [[AppleProductTheory]], [[MobileMessagingAdvertising]]
 
 **Qualifications:**
 
-- The mobile source is a theses-style strategy essay, the messaging-ad source is a 2016 taxonomy, and the smart-glasses/product-theory interpretation is a 2018 analyst thesis about Apple's preparation, not proof that the category was ready or commercially inevitable.
+- The mobile source is a theses-style strategy essay, the App Annie/VentureBeat evidence is a 2015 relative market snapshot, the messaging-ad source is a 2016 taxonomy, and the smart-glasses/product-theory interpretation is a 2018 analyst thesis about Apple's preparation, not proof that the category was ready or commercially inevitable.
+- Download and revenue metrics do not by themselves explain profitability, developer economics, absolute market size, app-store policy, or later regulatory and subscription shifts.
 
 ### Startup Scaling Turns Validation Into Organization Design
 

@@ -687,6 +687,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue
+
+Added VentureBeat's report on App Annie's 2015 app-store estimates. Key claims: Google Play led Apple's App Store by downloads, Apple's App Store led Google Play by revenue, emerging markets drove Google Play download growth, China/U.S./Japan drove iOS App Store revenue growth, and games remained the dominant revenue category on both platforms.
+
 ## [2026-09-13] ingest | Gotchas with SQLite in Production
 
 Added Anže Pečar's SQLite production article. Key claims: SQLite can be a good single-machine production database, but teams must handle PRAGMA configuration, file-system persistence and locking, one-writer concurrency, serializable transaction behavior, safe backups, and limited migration support; multi-machine availability, heavy writes, and long transactions often favor PostgreSQL or MySQL.
@@ -1290,6 +1294,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Ansible charges into network automation with Cisco, Juniper
 
 Added The Register source on Ansible's move into network automation. Key claims: Ansible 2.0 added network command, configuration, and template modules; initial support covered Arista, Cisco, Juniper, Cumulus Networks, and OpenSwitch; Huawei was absent; and the launch framed network automation around validation, drift compliance, and DevOps collaboration without collapsing network and programmer roles.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
