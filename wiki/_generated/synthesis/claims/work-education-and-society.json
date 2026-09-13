@@ -70,14 +70,16 @@
       "qualifications": [
         "The sources include successful and marginal cases, so the claim should not be read as a guaranteed path."
       ],
-      "statement": "Independent creation and small-product work can create autonomy and meaning, but they also expose creators to distribution volatility, income uncertainty, isolation, and luck.",
+      "statement": "Independent creation and small-product work can create autonomy, meaning, and startup option value through protected experiments such as [[SideProjectIncubation]], but they also expose creators to distribution volatility, income uncertainty, isolation, and luck.",
       "status": "supported",
       "supporting_wikilinks": [
         "IndependentCreator",
         "BootstrappedSaaS",
         "IndieGameDevelopment",
         "MicroCompany",
-        "ReleaseFocusedSideProjects"
+        "ReleaseFocusedSideProjects",
+        "SideProjectIncubation",
+        "Jotform"
       ]
     },
     {
@@ -126,6 +128,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. The newest Vox paragraph adds a service-economy qualification: automation may cheapen standardized goods while making human attention, craft, care, and social presence more valuable in settings such as craft marketplaces, coffee service, therapy, caregiving, health care, and education. The topic also keeps the bounded-trust layer from Rick Manelius and the Netflix machine-learning product case, where collaboration and evaluation loops matter because personalization depends on human creative work as well as data systems.",
+  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. The newest Aytekin Tank paragraph adds a side-project incubation qualification: spare-time work can create career or business option value when protected time, customer contact, play, flexible deadlines, and tolerance for uncertainty keep experiments alive before full-time commitment. The topic also keeps the service-economy qualification from Vox, the bounded-trust layer from Rick Manelius, and the Netflix machine-learning product case, where collaboration and evaluation loops matter because personalization depends on human creative work as well as data systems.",
   "topic_id": "work-education-and-society"
 }

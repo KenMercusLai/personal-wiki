@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How to Build a Startup Without Quitting Your Day Job](sources/aytekin-tank-jotform-how-to-build-a-startup-without-quitting-your-day-job.md) - Aytekin Tank argues that side projects can grow through protected spare time, customer-value extras, play, and low-pressure experimentation before becoming products or bootstrapped businesses.
 - [Automation is making human labor more valuable than ever](sources/automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy.md) - Vox argues that automation can make standardized goods cheaper while increasing demand for labor-intensive services where human attention, craft, and personal connection are part of the product.
 - [Automated Testing for League of Legends](sources/automated-testing-for-league-of-legends-riot-games-technology.md) - Riot Games' Jim Merrill explains how BVS runs large-scale automated League of Legends functional tests through CI, RPC control, staged trust, reporting, and anti-flake conventions.
 - [Assume Positive Intent](sources/assume-positive-intent-rick-manelius.md) - Rick Manelius argues that trust-first collaboration can reduce defensive conflict and speed problem solving, while still requiring boundaries in low-trust or harmful contexts.
@@ -187,6 +188,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
+- [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
 - [Vox](entities/Vox.md) - Explanatory journalism publication source for the automation-and-human-labor article.
 - [Starbucks](entities/Starbucks.md) - Coffee-service example where visible barista attention and preparation performance carry value.
 - [Etsy](entities/Etsy.md) - Craft marketplace example where non-mass-produced goods and maker connection are part of the appeal.
@@ -688,6 +691,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of growing a project through protected, low-pressure spare time until it teaches, enriches, or becomes a product/business candidate.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.

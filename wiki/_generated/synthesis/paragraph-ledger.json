@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6fbcb95afbf0092a37743eea2d0d0af313e44ff3bb656ea96a77b02cf3ef29c5",
       "eb08177d672dfdff9cf33adb2a1a85f6edc771b9d6e1440a4003d5c38d3a80f4",
       "40d96ca120ec9d39b610d8801101b82aa7965140881893ac9f12c70b2bc9dff3",
       "782073c9dd0e00c994eb9811009de2a4af5320e71da0a0ca8428da31f6d11faf",
@@ -176,11 +177,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 174
+    "paragraph_count": 175
   },
-  "overview_commit": "1de09987e921046e2aeafb515936792a5eaf7804",
-  "overview_digest": "4314dd8809624e9659b0752c0eb26015948dc59928d0deebbba0f5b4a4683616",
+  "overview_commit": "8957e36beda8e712512a3bf10027bda7c9393376",
+  "overview_digest": "0b2a80600eff00a2ce2b54013e6a457079b44ba57e33f49f91f8d5283b54348a",
   "paragraphs": [
+    {
+      "id": "6fbcb95afbf0092a37743eea2d0d0af313e44ff3bb656ea96a77b02cf3ef29c5",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Aytekin Tank source adds a side-project incubation layer to the wiki's startup and independent-creator material. [[SideProjectIncubation]] names the practice of protecting small low-pressure work windows where a project can stay playful, imperfect, customer-value-oriented, and experimental before it has to become a company. [[AytekinTank]] presents [[Jotform]] as the main case: a product improved while he worked full-time, then taken full-time after five years, eventually reported as reaching 3.2 million users and 100 employees without outside funding. The source also sharpens [[Slack]] as an internal-tool pivot case from the failed game Glitch, and qualifies [[ReleaseFocusedSideProjects]] by showing that release discipline should coexist with fun, flexible deadlines, and tolerance for uncertainty rather than premature result fixation.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AytekinTank",
+        "Jotform",
+        "ReleaseFocusedSideProjects",
+        "SideProjectIncubation",
+        "Slack"
+      ]
+    },
     {
       "id": "eb08177d672dfdff9cf33adb2a1a85f6edc771b9d6e1440a4003d5c38d3a80f4",
       "primary_topic": "work-education-and-society",
