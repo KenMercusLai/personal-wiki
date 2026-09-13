@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 36287633c695337da670d34a81d5fef68c73a5fd
-summary: "The wiki maps practical agency across AI, markets, learning, culture, governance, and data through accountability, evidence, worker stability, and real constraints."
-episode_count: 145
-source_count: 145
-paragraph_count: 142
+as_of_overview_commit: 838c546ca8463e81071945f6ed923747a748ad78
+summary: "The wiki maps practical agency across AI, markets, learning, culture, governance, and work through accountability, evidence, constraints, and contested responsibility."
+episode_count: 146
+source_count: 146
+paragraph_count: 143
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI and technology sources emphasize human accountability, explicit models, relia
 
 ### Business and Markets
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. The newest worker-precarity source adds that company scale and office perks can coexist with lower-paid employees lacking basic cost-of-living security.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Worker-precarity sources add that company scale and office perks can coexist with lower-paid employees lacking basic cost-of-living security, while response sources may contest whether a given case is structural or individual.
 
 - [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
@@ -78,7 +78,7 @@ The topic remains mostly indirect. It includes beginner scientific computing wit
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest source adds that wages below local living costs can dominate focus, health, commute reliability, and access to opportunity even inside a well-funded technology company.
+Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest source makes the Talia Jane/Yelp case contested: wages that do not cover basic costs can be read as structural employee financial precarity, while Stefanie Williams argues for a personal-responsibility frame built around second jobs, roommates, service work, humility, and practical tradeoffs.
 
 - [[PersonalProductivity]], [[WorkHabits]], and [[JournalingPractice]] are framed as lightweight routines for reducing avoidable friction, with journaling using a small T.L.C. prompt to make daily reflection easier to start. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]].
 - [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, and refusal of attention-capturing defaults. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].

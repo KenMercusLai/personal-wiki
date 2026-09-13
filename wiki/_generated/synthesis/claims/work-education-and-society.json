@@ -457,14 +457,17 @@
       "global_candidate": false,
       "id": "basic-financial-stability-conditions-work-agency",
       "qualifications": [
-        "The evidence comes from one worker account and does not establish broader wage distributions or employer intent.",
-        "Financial precarity is not the only work-environment constraint, but the source shows it can dominate learning, focus, health, and attendance."
+        "The financial-precarity evidence comes from one worker account and does not establish broader wage distributions or employer intent.",
+        "Williams' response is also source-scoped: it supplies a culturally important counter-frame but does not prove that second jobs, cheaper housing, or service-work income were feasible substitutes in Jane's Bay Area situation.",
+        "Financial precarity is not the only work-environment constraint, and the same case can be interpreted through both structural cash-flow limits and individual-responsibility expectations."
       ],
-      "statement": "[[EmployeeFinancialPrecarity]] qualifies work-agency and opportunity claims: [[TaliaJane]] shows that [[WorkEnvironment]] includes cash-flow basics, because low pay relative to rent, transit, food, utilities, copays, and phone bills can undermine focus, health, commute reliability, and practical access to opportunity.",
-      "status": "source-scoped",
+      "statement": "[[EmployeeFinancialPrecarity]] qualifies work-agency and opportunity claims: [[TaliaJane]] shows that [[WorkEnvironment]] includes cash-flow basics when pay does not cover rent, food, transit, utilities, copays, and phone bills, while [[StefanieWilliams]] and [[WorkEthicPersonalResponsibility]] contest that interpretation by emphasizing roommates, second jobs, service work, humility, and practical tradeoffs.",
+      "status": "contested",
       "supporting_wikilinks": [
         "EmployeeFinancialPrecarity",
         "TaliaJane",
+        "StefanieWilliams",
+        "WorkEthicPersonalResponsibility",
         "WorkEnvironment",
         "StartupCulture",
         "Yelp",
@@ -472,6 +475,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest source adds that workplace agency can collapse when wages do not cover rent, food, transit, utilities, health care, and communications, even inside a well-funded technology company.",
+  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest source makes the Talia Jane/Yelp case contested: wages that do not cover basic costs can be read as structural employee financial precarity, while Stefanie Williams argues for a personal-responsibility frame built around second jobs, roommates, service work, humility, and practical tradeoffs.",
   "topic_id": "work-education-and-society"
 }

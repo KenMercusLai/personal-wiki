@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [An Open Letter to Millennials Like Talia...](sources/an-open-letter-to-millennials-like-talia-stefanie-williams-medium.md) - Stefanie Williams rejects Talia Jane's wage-precarity framing and argues that roommates, second jobs, service work, and humility are expected early-career tradeoffs.
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
 - [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
 - [An Open Letter To My CEO](sources/an-open-letter-to-my-ceo-talia-jane-medium.md) - Talia Jane's open letter argues that low-paid Yelp/Eat24 support work created food, rent, transit, and utility insecurity despite the company's tech-scale resources and office perks.
@@ -153,6 +154,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Stefanie Williams](entities/StefanieWilliams.md) - Response author who frames Talia Jane's situation as a failure of work ethic and personal responsibility rather than workplace financial precarity.
 - [Talia Jane](entities/TaliaJane.md) - Writer and former Yelp/Eat24 support worker whose open letter documents employee financial precarity in a Bay Area tech workplace.
 - [Yelp](entities/Yelp.md) - Consumer local-commerce company addressed as the employer in Talia Jane's open letter about low-paid support work.
 - [Eat24](entities/Eat24.md) - Food-delivery service whose customer-support work provides the source's central case of tech-adjacent worker precarity.
@@ -582,6 +584,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Employee Financial Precarity](concepts/EmployeeFinancialPrecarity.md) - Condition where employed workers cannot reliably meet basic costs such as rent, food, transit, utilities, health care, and communications.
+- [Work Ethic Personal Responsibility](concepts/WorkEthicPersonalResponsibility.md) - Frame that early-career hardship should be answered through humility, available paid work, budgeting, roommates, and lower-status jobs before structural blame.
 - [Scientific Python](concepts/ScientificPython.md) - Using Python with numerical libraries such as NumPy for scientific computing, data science, and machine learning.
 - [NumPy Array Model](concepts/NumPyArrayModel.md) - Representing numerical data as arrays that can stand for vectors, matrices, or higher-dimensional structures.
 - [Vectorized Array Operations](concepts/VectorizedArrayOperations.md) - Applying arithmetic, comparison, dot-product, and reduction operations across arrays without manual element-by-element loops.

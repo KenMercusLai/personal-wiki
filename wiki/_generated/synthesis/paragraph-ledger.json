@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f61099e3aaf40cde7cc579f840c3c35b3b510ea6b070f1b0a47298ca17882521",
       "6ab09c55a0062cb9c5ec7f9a9a425284bde48345cacb0fe3c8ac679688be5ef6",
       "3ac1f9ab4df71e177645248b42a872d3673fdf9db283d360694f448b815ac690",
       "7e64383c23eb2385b811403684d76c8f252ab6baf47fe2769de8ceaaadecf981",
@@ -144,11 +145,27 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 142
+    "paragraph_count": 143
   },
-  "overview_commit": "36287633c695337da670d34a81d5fef68c73a5fd",
-  "overview_digest": "56118cd73638c794fe4bb1c86d1a4a58f44c273529b20f66283ec58d07ea05cc",
+  "overview_commit": "838c546ca8463e81071945f6ed923747a748ad78",
+  "overview_digest": "ddb6b481db977358466c1e3d28d88af94f2d35a3b50d97c55678d6661f2784d5",
   "paragraphs": [
+    {
+      "id": "f61099e3aaf40cde7cc579f840c3c35b3b510ea6b070f1b0a47298ca17882521",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Stefanie Williams source adds a counterargument to the Talia Jane/Yelp worker-precarity thread. [[StefanieWilliams]] rejects Jane's wage-and-cost framing and uses her own post-2008 service-work path to argue that early-career hardship should be met through roommates, commuting, second jobs, lower-status service work, and humility. [[WorkEthicPersonalResponsibility]] names that frame: available paid work and practical tradeoffs are treated as more responsible than public appeals for help or blaming employers. This directly qualifies [[EmployeeFinancialPrecarity]] and [[TaliaJane]] by showing that the same Yelp/Eat24 dispute can be interpreted either as structural cash-flow insecurity in a tech-adjacent job or as avoidable individual choices.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "EmployeeFinancialPrecarity",
+        "StefanieWilliams",
+        "TaliaJane",
+        "WorkEthicPersonalResponsibility"
+      ]
+    },
     {
       "id": "6ab09c55a0062cb9c5ec7f9a9a425284bde48345cacb0fe3c8ac679688be5ef6",
       "primary_topic": "business-and-markets",

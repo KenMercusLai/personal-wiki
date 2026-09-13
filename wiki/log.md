@@ -144,6 +144,10 @@ Ran lint. See lint-report.md for details.
 
 Ingested Talia Jane's open letter on Yelp/Eat24 support-worker financial precarity, adding source, entity, and concept pages.
 
+## [2026-09-13] ingest | An Open Letter to Millennials Like Talia...
+
+Ingested Stefanie Williams' response to Talia Jane, adding a source note, a Stefanie Williams entity, a work-ethic personal-responsibility concept, and counterevidence on Talia Jane and employee financial precarity.
+
 ## [2026-09-13] ingest | Advocating for a Complete Product Redesign
 
 - Ingested Google Design's Crashlytics redesign case study from `/mnt/ken_personal_wiki/Articles/Advocating for a Complete Product Redesign - Google Design - Medium.md`.
@@ -1102,6 +1106,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
