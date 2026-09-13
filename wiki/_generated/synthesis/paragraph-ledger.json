@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b50533f76578a3f6a1208ff2ea6b9eb56be9edaa9ad14616822d2b7e5056822d",
       "6f64d3b88b601887a0ad4ac2a7fb2d2dfbdff852e942810b73975c07efa7edd1",
       "ae0582049b443c8cbbb07c4b0f7fbe3cd23acb0322e9788073549eb1d2fa9553",
       "4ba5c63c6bbf169540710ed9c887b1c3e03573213da5b2e216655489e794132c",
@@ -182,11 +183,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 180
+    "paragraph_count": 181
   },
-  "overview_commit": "51bd7020444aaeaf75f7a332707376f658670ad7",
-  "overview_digest": "6016ed739f5c0c617e7458ca3e318168fe18d949749107ef3996d578f997c60d",
+  "overview_commit": "4095ce77f7f2e267cfbded3523bc4e493c9223db",
+  "overview_digest": "aac19d3979ab53d168e0d2ce03142b55a7aa5fb9e1e92e3e1efacb2c2ab981e6",
   "paragraphs": [
+    {
+      "id": "b50533f76578a3f6a1208ff2ea6b9eb56be9edaa9ad14616822d2b7e5056822d",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Behavior Model source adds a compact behavior-change framework to the wiki's product, learning, and habit material. [[FoggBehaviorModel]] names [[BJFogg]]'s core diagnostic: behavior happens when motivation, ability, and a prompt converge at the same moment, and failed behavior implies at least one missing element. [[BehaviorDesign]] captures the broader applied practice of shaping beneficial target behaviors by increasing motivation, simplifying the action, or changing the prompt. The source also creates institutional context through [[BehaviorDesignLab]] and publication context through [[TinyHabits]], while remaining self-presentational and promotional rather than an independent empirical evaluation. No image references were present in the source.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BJFogg",
+        "BehaviorDesign",
+        "BehaviorDesignLab",
+        "FoggBehaviorModel",
+        "TinyHabits"
+      ]
+    },
     {
       "id": "6f64d3b88b601887a0ad4ac2a7fb2d2dfbdff852e942810b73975c07efa7edd1",
       "primary_topic": "ai-and-technology",

@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-14
-as_of_overview_commit: 4563322b75361231198928e5f56a6dcc03303f6b
-input_digest: b0e015c55038a64576b7ac38a30108990661713dd1a1bda513634116120434e2
+as_of_overview_commit: 4095ce77f7f2e267cfbded3523bc4e493c9223db
+input_digest: 0570404ba8a3916e00d5b39551b93bc1fabe0cd316ecf7c1da0c5066f0083c65
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Rick Manelius paragraph adds a bounded trust-first pattern: assuming positive intent can preserve empathy and speed collaboration when good faith is plausible, but it must be revised when safety, prior violations, or bad-faith risk make skepticism necessary. The Tobias van Schneider paragraph adds a past-versus-future decision distinction: unrecoverable time, money, emotion, and pride should not justify further investment when the current reason to continue has faded. The Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, creative scaffolds, and behavior-design conditions. The newest Behavior Model paragraph adds a practical diagnostic: behavior change depends on motivation, ability, and timely prompts, so a failed action can be redesigned by strengthening motivation, simplifying the behavior, or changing the prompt, while still recognizing that the source is self-presentational rather than independent evidence.
 
 ## Cross-source Findings
 
@@ -25,6 +25,16 @@ Short reflective and capture practices can increase agency by turning daily expe
 **Qualifications:**
 
 - The bundle describes reflective prompts, note practices, and writer workflows, not clinical mental-health interventions or measured long-term outcomes.
+
+### Behavior Change Needs Motivation Ability Prompts
+
+[[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak.
+
+**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[BJFogg]], [[BehaviorDesignLab]], [[TinyHabits]]
+
+**Qualifications:**
+
+- The Behavior Model source is self-presentational and promotional, so this is strongest as a practical heuristic rather than an independent empirical evaluation of all behavior change.
 
 ### Social And Platform Feedback Can Distort Work
 

@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Be smarter. Be seetd. | Stitch Fix Technology - Multithreaded](sources/be-smarter-be-seetd-stitch-fix-technology-multithreaded.md) - Stitch Fix explains seetd, an internal office seating tool that models people-to-seat allocation through weighted optimization terms and simulated annealing.
 - [Become a Better Coder by Keeping a Programming Journal](sources/become-a-better-coder-by-keeping-a-programming-journal.md) - MakeUseOf argues that programming journals can externalize design thoughts, bug investigations, wins, future questions, goals, and lessons so coding work becomes more intentional and reusable.
 - [Becoming a 10x Data Scientist](sources/becoming-a-10x-data-scientist-algorithmia-blog.md) - Algorithmia argues that data scientists become more effective by combining business and data understanding with clear code, tests, version control, tool choice, deployment, and debugging.
+- [Behavior Model](sources/behavior-model.md) - BJ Fogg presents the Fogg Behavior Model as a practical behavior-change framework where motivation, ability, and prompts must converge at the same moment.
 - [How to Build a Startup Without Quitting Your Day Job](sources/aytekin-tank-jotform-how-to-build-a-startup-without-quitting-your-day-job.md) - Aytekin Tank argues that side projects can grow through protected spare time, customer-value extras, play, and low-pressure experimentation before becoming products or bootstrapped businesses.
 - [Automation is making human labor more valuable than ever](sources/automation-is-making-human-labor-more-valuable-than-ever-the-new-new-economy.md) - Vox argues that automation can make standardized goods cheaper while increasing demand for labor-intensive services where human attention, craft, and personal connection are part of the product.
 - [Automated Testing for League of Legends](sources/automated-testing-for-league-of-legends-riot-games-technology.md) - Riot Games' Jim Merrill explains how BVS runs large-scale automated League of Legends functional tests through CI, RPC control, staged trust, reporting, and anti-flake conventions.
@@ -195,6 +196,8 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Entities
 - [Algorithmia](entities/Algorithmia.md) - Machine-learning company and publisher represented by the data-science engineering-practice article.
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
+- [BJ Fogg](entities/BJFogg.md) - Behavior-design researcher and author presenting the Fogg Behavior Model and Stanford Behavior Design Lab context.
+- [Behavior Design Lab](entities/BehaviorDesignLab.md) - Stanford lab identified as the institutional home for BJ Fogg's behavior-design research and innovation.
 - [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by the seetd office seating optimization source.
 - [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
 - [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem framed as institutionally shaped by startups, forks, labor mobility, and exit.
@@ -442,6 +445,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
 - [Slack](entities/Slack.md) - Collaboration software used as an equity hindsight, viral invitation, landing-page value-proposition, and advanced attribution-measurement example.
 - [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
+- [Tiny Habits](entities/TinyHabits.md) - BJ Fogg book presented as a deeper public explanation of the Fogg Behavior Model and behavior-design methods.
 - [Fab](entities/Fab.md) - Startup-equity counterexample used to contrast famous winning outcomes.
 - [Secret](entities/Secret.md) - Startup-equity and founder-secondary-liquidity example used to illustrate founder-employee asymmetry.
 - [Square](entities/Square.md) - Late-stage compensation-risk example tied to RSU valuation uncertainty.
@@ -970,6 +974,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
 - [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
 - [Behavioral Data](concepts/BehavioralData.md) - Behavior traces that support prediction, optimization, and automated business decisions.
+- [Behavior Design](concepts/BehaviorDesign.md) - Practice of shaping conditions so people are more likely to perform beneficial target behaviors.
 - [Artwork Personalization](concepts/ArtworkPersonalization.md) - Choosing different title artwork for different viewers based on context, preference signals, and quality-engagement goals.
 - [Contextual Bandits](concepts/ContextualBandits.md) - Online-learning algorithms that select actions for a context while balancing exploitation with exploration.
 - [Data Exploration](concepts/DataExploration.md) - Controlled randomization that produces less biased learning data and logged propensities for decision systems.
@@ -1023,6 +1028,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
+- [Fogg Behavior Model](concepts/FoggBehaviorModel.md) - Behavior-change framework where motivation, ability, and prompts must converge for an action to occur.
 - [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
 - [Free Learning](concepts/FreeLearning.md) - Self-directed learning guided by curiosity, play, personal goals, and real-time knowledge valuation.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.

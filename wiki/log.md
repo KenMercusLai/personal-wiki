@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Behavior Model
+
+Added BJ Fogg's Behavior Model page. Key claims: behavior requires motivation, ability, and a prompt at the same moment; missing behavior can be diagnosed by the absent element; ability is shaped by simplicity factors; motivation and ability compensate for each other; and the model is intended as a practical behavior-design tool. No image references were present in the source.
+
 ## [2026-09-14] ingest | Becoming a 10x Data Scientist
 
 Added Algorithmia's developer-practice advice for data scientists. Key claims: industry data science needs business and data provenance framing; data-science code should be clear, documented, tested, version-controlled, and debuggable; tests should cover queries, cleaning, and transformations; tool choice, automation, and deployment knowledge make models more shareable and operational. The remote header image returned 404, and the referenced local slide image directory was unavailable.
@@ -1476,6 +1480,10 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] ingest | Back of the Envelope Calculation | Better Programmer
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 51bd7020444aaeaf75f7a332707376f658670ad7
-summary: "The wiki tracks how technology, markets, work, and institutions create leverage only when context, verification, feedback, trust, and constraints line up."
-episode_count: 185
-source_count: 185
-paragraph_count: 180
+as_of_overview_commit: 4095ce77f7f2e267cfbded3523bc4e493c9223db
+summary: "The wiki tracks how technology, markets, work, behavior, and institutions create leverage only when context, verification, feedback, trust, motivation, and constraints line up."
+episode_count: 186
+source_count: 186
+paragraph_count: 181
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - Data work creates value when organizations combine sound method, engineering practice, and action loops: [[IndustryDataScience]], [[DataScienceEngineeringPractice]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], and [[AutomatedDataApplication]] distinguish reusable, business-connected data systems from dashboards, invalid analyses, or mere tool adoption.
 - Platform power appears through control of discovery, runtime, trust, subscriptions, ecosystem lock-in, and the cost of exit; [[ExitAsGovernance]] adds the inverse technology thesis that software, forks, and protocols can lower dependence on incumbents.
 - Production reliability depends on realistic evidence and operational design, including [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], and [[DatabaseTransactionIsolation]].
-- [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], [[SmugMug]], and [[Jotform]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, customer contact, side-project incubation, and opportunity cost shape whether independent software can become a viable business.
+- [[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak.
 
 ## Synthesis by Domain
 
@@ -43,45 +43,45 @@ Business and market sources show companies, investors, and creators converting t
 
 ### Cross-domain
 
-Current cross-domain synthesis links performance engineering, interface design, business growth, security, and applied algorithms through one repeated pattern: systems improve when hidden constraints become visible enough to reason about. [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] make cache, memory, disk, and network costs concrete before implementation; larger phones make [[ThumbReachErgonomics]] a design constraint for [[IOS]] and motivate [[ReachNavigation]]; Apple's growth depends on the changing mix of [[AppleGrowthLevers]] across iPhone pricing, services, and wearables; exposed ports create a triage map for likely security questions; and trajectory simplification trades precision for rendering and transfer efficiency through tunable tolerance.
+Current cross-domain synthesis links performance engineering, interface design, business growth, security, and applied algorithms through one repeated pattern: systems improve when hidden constraints become visible enough to reason about. Latency estimates, thumb reach, growth-mix analysis, exposed-port triage, and trajectory simplification all turn invisible constraints into choices.
 
 - Making constraints visible changes design choices, whether the constraint is latency in [[LatencyHierarchy]], thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]]. Evidence: [[LatencyHierarchy]], [[BackOfEnvelopeEstimation]], [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]].
 - [[BackOfEnvelopeEstimation]] uses [[ComputationalThinking]] and [[LatencyHierarchy]] to compare designs before implementation by decomposing work, estimating operation costs, and locating likely bottlenecks. Evidence: [[BackOfEnvelopeEstimation]], [[ComputationalThinking]], [[LatencyHierarchy]], [[CloudCostOptimization]].
 
 ### Culture and Media
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. The Riot Games source adds a production game-testing layer: game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Game culture is not only expressive content or player-facing experience, but also infrastructure that must verify changing gameplay behavior at live-service cadence.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. The newest Srinivasan paragraph adds a polemical but useful counterframe: voice becomes more credible when people can switch, fork, found, relocate, or use tools such as Bitcoin to lower dependence on paper-era institutions, though that claim must be qualified by unequal exit capacity and the risk that software platforms create their own lock-in.
+Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. Exit becomes a useful counterframe when credible alternatives can pressure incumbents, but unequal exit capacity and new software lock-in remain core qualifications.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]].
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Instapaper and Vim show software-product chronology and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older.
+The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. Its evidence is strongest when read as source-scoped chronology: app-store geography, software-product lineage, inherited interface conventions, and accounting history.
 
 ### Psychology and Personal Development
 
-The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, and creative scaffolds. The newest Rick Manelius paragraph adds a bounded trust-first pattern: assuming positive intent can preserve empathy and speed collaboration when good faith is plausible, but it must be revised when safety, prior violations, or bad-faith risk make skepticism necessary. The Tobias van Schneider paragraph adds a past-versus-future decision distinction: unrecoverable time, money, emotion, and pride should not justify further investment when the current reason to continue has faded. The Exception Not Found paragraph adds a practical attribution lesson: frustrating behavior can often be explained by missing context and fluency gaps before malice.
+The psychology and personal-development material treats agency as something shaped by reflective habits, explicit goals, opportunity-cost tradeoffs, sunk-cost awareness, evidence calibration, body capacity, interface legibility, attribution habits, trust systems, platform feedback, close social systems, creative scaffolds, and behavior-design conditions. The Behavior Model adds a practical diagnostic: behavior change depends on motivation, ability, and timely prompts, so a failed action can be redesigned by strengthening motivation, simplifying the behavior, or changing the prompt.
 
 - Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]]. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
-- Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]], [[Xiaohongshu]].
+- [[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[BJFogg]], [[BehaviorDesignLab]], [[TinyHabits]].
 
 ### Science, Health, and Climate
 
-The topic remains mostly indirect. It now includes a beginner scientific-computing claim that NumPy makes Python practical for vector, matrix, slicing, masking, and vectorized array work; an attention and mental-load claim from productivity advice; a philosophy-of-science claim that current science does not settle intrinsic value; and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. These claims are source-scoped because the evidence comes from tutorials, essays, and 2017 English-language Stack Overflow traffic rather than comprehensive scientific, employment, or adoption measurements.
+The topic remains mostly indirect. It includes scientific-computing practice, attention and mental-load claims from productivity advice, a philosophy-of-science claim about intrinsic value, and a developer-data claim about adoption signals; these are source-scoped rather than comprehensive scientific, employment, or climate syntheses.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. The newest MakeUseOf paragraph adds a programming-journal practice: learners and programmers can make coding progress more visible by writing design reasoning, bug hypotheses, reproduction steps, attempted fixes, wins, future questions, and lessons. That joins the existing journaling, active-learning, workplace-learning, and code-review threads, while remaining qualified as practitioner advice rather than measured evidence. The topic also keeps the side-project incubation pattern, the service-economy qualification from Vox, the bounded-trust layer from Rick Manelius, and the Netflix machine-learning product case, where collaboration and evaluation loops matter because personalization depends on human creative work as well as data systems.
+Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, collaboration, service value, and infrastructure work as systems of feedback and opportunity. Programming journals, active learning, workplace learning, service-economy examples, bounded trust, and personalization systems all show how reflection and feedback make work more legible.
 
 - Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, user response, or written debugging records into better future decisions. Evidence: [[ActiveLearning]], [[JournalingPractice]], [[ProgrammingJournal]], [[CreatorFeedbackLoop]], [[ContextualBandits]], [[WorkplaceLearning]].
 - Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose. Evidence: [[CareerPlanning]], [[CreativeTechnicalCareer]], [[EmployeeOpportunityDesign]], [[ProgrammerFreelancing]], [[SabbaticalCareerExperiment]].
