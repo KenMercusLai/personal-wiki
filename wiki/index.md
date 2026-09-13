@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Above Avalon: Apple on Track to Buy 50% of Itself in Three Years](sources/above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years.md) - Neil Cybart argues that Apple could retire half of its peak share count by combining ongoing buybacks with repatriated foreign cash after tax reform.
 - [Above Avalon: Above Avalon Subscriptions Turn Three](sources/above-avalon-above-avalon-subscriptions-turn-three.md) - Neil Cybart argues that Above Avalon's Apple-focused subscription model works by selling strong perspective, daily analysis, archive access, and community rather than chasing ad-supported page views.
 - [Above Avalon: Apple Is Figuring Out What's Next](sources/above-avalon-apple-is-figuring-out-whats-next.md) - Neil Cybart argues that Apple's WWDC 2018 AR, Siri, ML, Watch, and AirPods moves were preparation for smart glasses as the next personal-computing form factor.
+- [Above Avalon: Apple's Content Distribution Strategy](sources/above-avalon-apples-content-distribution-strategy.md) - Neil Cybart argues that Apple can selectively put content services on non-Apple hardware while preserving premium Apple devices as the best integrated experiences.
 - [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
@@ -341,6 +342,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
 - [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
+- [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as the article's main selective non-Apple hardware distribution example.
+- [Apple TV](entities/AppleTV.md) - Apple's premium video hardware and TV-app context in the content distribution strategy.
+- [HomePod](entities/HomePod.md) - Apple's premium speaker contrasted with cheaper smart speakers in the content distribution strategy.
+- [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
+- [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform where Apple Music support protects Apple's content relationship with iPhone users.
+- [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming and as smart-TV content.
 - [AirPods](entities/AirPods.md) - Apple's ear-worn wearable used with Apple Watch as evidence of wrists-and-ears momentum before smart glasses.
 - [ARKit](entities/ARKit.md) - Apple's augmented-reality developer platform used to seed AR behavior on iPhones and iPads before smart glasses.
 - [Magic Leap](entities/MagicLeap.md) - AR company contrasted with Apple's installed base, developers, and wearable-learning advantages.
@@ -470,6 +477,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Share Buyback](concepts/ShareBuyback.md) - Public-company repurchase mechanism that reduces share count, raises continuing ownership percentage, and depends on cash generation, authorization, price, and capital-allocation judgment.
+- [Apple Content Distribution Strategy](concepts/AppleContentDistributionStrategy.md) - Apple's selective use of services, non-Apple hardware support, AirPlay, and premium first-party devices to distribute content.
+- [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
 - [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.

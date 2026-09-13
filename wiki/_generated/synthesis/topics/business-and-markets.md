@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 6e9e9447cd1f6c940acaff59f124838da4e38678
-input_digest: 31468fccf327818c45e31188c7101f151e0629f07a524fb2673df6ffcafe9465
+as_of_overview_commit: dbf2eee5a1d2c97a7252f5a460d07ba3fee256e1
+input_digest: 3fc37802a39df446769368bccfb2fc6fb045061d6d49e112cd5ef1ce5708b23c
 ---
 
 # Business and Markets

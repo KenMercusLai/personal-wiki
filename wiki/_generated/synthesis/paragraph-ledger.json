@@ -1,7 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
-      "09e837386500c3f561e8f00bcc1851ca507b121d8cc313e70785e0d94236dc1f",
+      "2ba673dbb4b3bacc024a1139a42ec2d8e4f5bbe61c9760e53d27030ecdfe9b37",
+      "4e0fbfd42d3615382f8dd36e3960cd2e40bbae9d5edde9c032c5de995dbae18d",
       "1e5fb8085f169768567e85937f261a07c18eab57bb87637e6020372df381ac68",
       "88d58ec7fb47bce00d096dda2b0e2f3169fb260f92ea431ce911b322a3430161",
       "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
@@ -113,16 +114,39 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 111
+    "paragraph_count": 112
   },
-  "overview_commit": "6e9e9447cd1f6c940acaff59f124838da4e38678",
-  "overview_digest": "48d34355b41591c8b922379224aec6f6a8ac6dddc327ad2d894997f74f917629",
+  "overview_commit": "dbf2eee5a1d2c97a7252f5a460d07ba3fee256e1",
+  "overview_digest": "74ee2285649cd50885c5ae1bf30ac5c962d7ab0235b649c77075ea412f1f8c0e",
   "paragraphs": [
     {
-      "id": "09e837386500c3f561e8f00bcc1851ca507b121d8cc313e70785e0d94236dc1f",
+      "id": "2ba673dbb4b3bacc024a1139a42ec2d8e4f5bbe61c9760e53d27030ecdfe9b37",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest Above Avalon source adds a content-distribution layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]] was not retreating from hardware when it brought [[AppleMusic]] to [[AmazonEcho]], expanded [[AirPlay2]], and put iTunes content on Samsung TVs. [[AppleContentDistributionStrategy]] names the pattern: Apple uses its billion-user ecosystem and selected third-party playback surfaces to defend content relationships in mixed-device households while [[AppleTV]] and [[HomePod]] remain premium first-party experiences. [[StreamingContentEconomics]] explains why this can be strategically rational even if direct content gross profit is modest: music and video streaming require subscriber scale, rights-holder payments, engagement, and content spending, while Apple can value content distribution for power, influence, and ecosystem retention.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AirPlay2",
+        "AmazonEcho",
+        "Apple",
+        "AppleContentDistributionStrategy",
+        "AppleMusic",
+        "AppleTV",
+        "HomePod",
+        "NeilCybart",
+        "StreamingContentEconomics"
+      ]
+    },
+    {
+      "id": "4e0fbfd42d3615382f8dd36e3960cd2e40bbae9d5edde9c032c5de995dbae18d",
       "primary_topic": "business-and-markets",
       "secondary_topics": [],
-      "text": "The newest Above Avalon source adds a capital-allocation layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]] had a realistic 2017 path to retiring 50% of its peak share count by combining ongoing annual repurchases, possible foreign-cash repatriation after tax reform, and continued excess cash generation from iPhone and Services. [[ShareBuyback]] therefore enters the wiki as a qualified finance concept: retiring shares can increase continuing shareholders' ownership percentage, but Cybart stresses that buybacks do not directly improve operating performance and can be poor policy for companies without Apple's cash strength. The embedded chart makes Apple's starting point concrete by showing AAPL shares outstanding falling from about 6.6 billion in 4Q12 to about 5.3 billion in 1Q17.",
+      "text": "Another Above Avalon source adds a capital-allocation layer to the Apple cluster. [[NeilCybart]] argues that [[Apple]] had a realistic 2017 path to retiring 50% of its peak share count by combining ongoing annual repurchases, possible foreign-cash repatriation after tax reform, and continued excess cash generation from iPhone and Services. [[ShareBuyback]] therefore enters the wiki as a qualified finance concept: retiring shares can increase continuing shareholders' ownership percentage, but Cybart stresses that buybacks do not directly improve operating performance and can be poor policy for companies without Apple's cash strength. The embedded chart makes Apple's starting point concrete by showing AAPL shares outstanding falling from about 6.6 billion in 4Q12 to about 5.3 billion in 1Q17.",
       "topic_scores": {
         "business-and-markets": 2,
         "governance-and-institutions": 1

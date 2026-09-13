@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-13
-as_of_overview_commit: 6e9e9447cd1f6c940acaff59f124838da4e38678
-summary: "The wiki maps technology, business, learning, media, governance, and personal agency as systems of evidence, incentives, tools, capital, and judgment."
-episode_count: 113
-source_count: 113
-paragraph_count: 111
+as_of_overview_commit: dbf2eee5a1d2c97a7252f5a460d07ba3fee256e1
+summary: "The wiki maps technology, business, learning, media, governance, and personal agency as systems of evidence, incentives, tools, capital, distribution, and judgment."
+episode_count: 114
+source_count: 114
+paragraph_count: 112
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI and technology sources treat tools as socio-technical infrastructure: usefuln
 
 ### Business and Markets
 
-Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, and operations. The topic now distinguishes startup cash as runway for learning from mature-company surplus cash as an ownership, investor-relations, and capital-return problem, while also treating mobile ecosystems and wearables as platform strategies that still need workload fit, user perception, and sustained operations.
+Business and market sources connect startup validation, product evolution, distribution, trust, pricing, media monetization, platform economics, funding, scaling, compensation, category creation, capital allocation, and operations. The topic distinguishes startup cash as runway for learning from mature-company surplus cash as an ownership, investor-relations, and capital-return problem, while also treating mobile ecosystems and wearables as platform strategies that still need workload fit, user perception, and sustained operations.
 
 - [[BootstrappedSaaS]] and adjacent creator businesses depend on more than technical building: [[Hawstein]], [[Readlang]], and [[SmugMug]] show that payment infrastructure, [[SaaSMarketing]], [[CustomerLedProductDevelopment]], support, trust, and opportunity cost shape whether independent software can become a viable business. Evidence: [[BootstrappedSaaS]], [[Hawstein]], [[Readlang]], [[SmugMug]], [[SaaSMarketing]], [[CustomerLedProductDevelopment]].
 - [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], and [[IndependentCreator]] evidence show small creator businesses using stable income bases, modular services, [[BuildInPublic]], [[PersonalBranding]], and [[SaaSMarketing]] to turn narrow products into feedback and distribution systems. Evidence: [[MicroCompany]], [[ProgrammerFreelancing]], [[SmallProductPortfolio]], [[IndependentCreator]], [[BuildInPublic]], [[PersonalBranding]], [[SaaSMarketing]].
@@ -50,14 +50,14 @@ Cross-domain sources currently cover practical classification problems: reducing
 
 ### Culture and Media
 
-Culture-and-media sources connect experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, and aesthetics. Media form shapes systematic study, reading-note systems make interpretation navigable, game localization preserves player-facing effects, independent game creation remains platform-exposed, and media portfolios, self-hosted capture, backend operations, and object-oriented aesthetics all show how infrastructure and framing shape cultural experience.
+Culture-and-media sources connect experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form shapes systematic study, reading-note systems make interpretation navigable, game localization preserves player-facing effects, independent game creation remains platform-exposed, Apple's content distribution strategy treats media access as ecosystem power, and media portfolios, self-hosted capture, backend operations, and object-oriented aesthetics all show how infrastructure and framing shape cultural experience.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, and books shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]].
 - [[IndieGameDevelopment]] can make software a personal expressive medium: [[AmirRajan]] experiences [[ADarkRoom]] as a digital, evocative creation, but its path from tiny downloads to #1 on the [[AppStore]] shows how platform discovery, timing, and luck can dominate sustainability. Evidence: [[IndieGameDevelopment]], [[AmirRajan]], [[ADarkRoom]], [[AppStore]], [[CreativeTechnicalCareer]].
 
 ### Governance and Institutions
 
-Governance material remains narrow but spans control problems across institutions, infrastructure, public information spaces, developer environments, product boundaries, social platforms, and public action. The sources show how rules, boundaries, accountability, and responsibility allocation shape learning systems, ad-funded spaces, containers, WSL, game servers, platform abuse, task queues, volunteer campaign tools, and value-oriented knowledge-seeking.
+Governance material remains narrow but spans control problems across institutions, infrastructure, public information spaces, developer environments, platform access, product boundaries, social platforms, and public action. The sources show how rules, boundaries, accountability, responsibility allocation, and selective distribution shape learning systems, ad-funded spaces, containers, WSL, game servers, Apple media access, platform abuse, task queues, volunteer campaign tools, and value-oriented knowledge-seeking.
 
 ### History and Geopolitics
 

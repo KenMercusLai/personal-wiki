@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | Above Avalon: Apple's Content Distribution Strategy
+
+Added source note plus pages for Apple content distribution strategy, streaming content economics, Apple Music, Apple TV, HomePod, AirPlay 2, Amazon Echo, and iTunes. Updated Apple, Above Avalon, Neil Cybart, index, and overview to capture Cybart's argument that selective content availability on non-Apple hardware reinforces rather than replaces Apple's premium hardware ecosystem. Inspected the local embedded image; it is an Above Avalon logo and contributes no substantive evidence beyond publication identity.
+
 ## [2026-09-13] ingest | Above Avalon: Above Avalon Subscriptions Turn Three
 
 Added source note plus pages for Above Avalon, Neil Cybart, niche subscription publishing, and the Apple news ecosystem. Updated digital media monetization and web ad economics to include Above Avalon's focused direct-subscription model as a counterpoint to ad-supported scale and diversified platform-media revenue. Inspected the local embedded image; it is an Above Avalon logo and contributes brand context but no additional substantive claims.
@@ -814,6 +818,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

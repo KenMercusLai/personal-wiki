@@ -2,6 +2,25 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "platform-owners-govern-access-through-selective-distribution",
+      "qualifications": [
+        "The Apple evidence is a 2019 analyst interpretation and does not prove later adoption, competition, hardware demand, or regulatory outcomes."
+      ],
+      "statement": "[[AppleContentDistributionStrategy]] shows platform governance through selective distribution: [[Apple]] can allow [[AppleMusic]] on [[AmazonEcho]] and expand [[AirPlay2]] while preserving [[AppleTV]] and [[HomePod]] as premium first-party experiences.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AppleContentDistributionStrategy",
+        "Apple",
+        "AppleMusic",
+        "AmazonEcho",
+        "AirPlay2",
+        "AppleTV",
+        "HomePod",
+        "StreamingContentEconomics"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "institutional-pressure-can-distort-learning",
       "qualifications": [
         "This is an education and motivation claim assigned secondarily to governance; it does not yet constitute a broad institutional theory."
@@ -153,6 +172,6 @@
       ]
     }
   ],
-  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, product boundaries, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch's iPhone dependency show how technical boundaries allocate responsibility and independence; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
+  "summary": "The governance-related material is still narrow but now spans control problems across institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, and public action: institutions and status competition can distort learning aims; inference gateways encode technical control over served AI workloads; legal advertising bans and browser content-filtering APIs show that ad-funded spaces are governed by rule systems as well as markets; Apple's content distribution strategy shows platform owners governing access through selective third-party availability while preserving first-party endpoints; declarative infrastructure, container-native practice, WSL configuration boundaries, game-server operations, and Apple Watch's iPhone dependency show how technical boundaries allocate responsibility and independence; Twitter adds a social-platform case where abuse response, feature design, public communication, and cultural metrics become accountability problems; backend task queues and volunteer campaign tools need accountable product boundaries once they affect real users; and Wozniak's intrinsic-value argument proposes knowledge-seeking as a shared orientation under uncertainty rather than as formal policy.",
   "topic_id": "governance-and-institutions"
 }

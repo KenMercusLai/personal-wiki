@@ -2,6 +2,25 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "apple-content-distribution-uses-media-access-as-ecosystem-power",
+      "qualifications": [
+        "The claim is a secondary culture-and-media assignment from a 2019 Apple strategy interpretation; it does not measure later adoption, content quality, or audience behavior."
+      ],
+      "statement": "[[AppleContentDistributionStrategy]] treats media access as ecosystem power: [[Apple]] can put [[AppleMusic]] on [[AmazonEcho]], expand [[AirPlay2]], and keep [[AppleTV]] and [[HomePod]] as premium endpoints while [[StreamingContentEconomics]] make scale and influence strategically valuable.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AppleContentDistributionStrategy",
+        "Apple",
+        "AppleMusic",
+        "AmazonEcho",
+        "AirPlay2",
+        "AppleTV",
+        "HomePod",
+        "StreamingContentEconomics"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "reading-notes-make-cultural-reading-navigable",
       "qualifications": [
         "The current evidence is a single mystery-fiction reading workflow rather than a comparative study of reading-note systems across genres."
@@ -210,6 +229,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; Apple Watch shows how product framing can help new wearable behaviors become speakable; game-server and backend operations form a hidden delivery layer for live-game experience; self-hosted camera recording shows how media capture can become an ownership and infrastructure choice; BuzzFeed's media-brand portfolio frames platform revenue as a condition for shared journalism and entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
+  "summary": "The culture-and-media layer connects experience-centered practices across learning media, reading, games, media brands, product language, video infrastructure, content distribution, and aesthetics. Media form shapes whether difficult study can become systematic; reading-note systems make books and interpretations navigable; game localization preserves player-facing effects through computational search and domestication; independent game creation can be expressive while exposed to platform volatility; Apple Watch shows how product framing can help new wearable behaviors become speakable; Apple's content distribution strategy treats music and video access as ecosystem power across mixed-device households; game-server and backend operations form a hidden delivery layer for live-game experience; self-hosted camera recording shows how media capture can become an ownership and infrastructure choice; BuzzFeed's media-brand portfolio frames platform revenue as a condition for shared journalism and entertainment; and object-oriented aesthetics treats art and metaphor as participatory disclosure of objects that still withdraw from full access.",
   "topic_id": "culture-and-media"
 }
