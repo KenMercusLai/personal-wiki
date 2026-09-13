@@ -4,6 +4,7 @@ type: concept
 tags: [marketing, analytics, growth]
 sources:
   - attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs
+  - billboards-for-small-businesses-costs-advice-and-thinking-twice
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[MarketingAttribution]] is the practice of assigning credit for customer outcomes across the marketing touchpoints a buyer encountered, so teams can judge whether marketing spend is being used wisely.
 
 ## Current Synthesis
-The source frames marketing attribution as growth infrastructure for SaaS companies. The core problem is that buyer journeys are multi-touch: a prospect may see display, click social ads, read content, search later, sign up for a trial, convert to a lead, become an opportunity, close, expand, and recommend the product. Simple first-click, last-click, or linear models can misprice channels in that journey. A startup should wait until [[ProductMarketFit]] before scaling marketing, but once it is using several channels it should track enough customer touchpoints and downstream outcomes to decide which spend, content, offline, brand, and lifecycle efforts actually contribute to growth.
+The sources frame marketing attribution as growth infrastructure for deciding whether marketing effort is producing useful customer outcomes. The SaaS attribution source emphasizes multi-touch buyer journeys: a prospect may see display, click social ads, read content, search later, sign up for a trial, convert to a lead, become an opportunity, close, expand, and recommend the product. Simple first-click, last-click, or linear models can misprice channels in that journey. The billboard source adds the offline caution: broad physical visibility can produce awareness or advertiser attention without a clear sales lift, so teams need to separate brand goals from direct-response expectations.
 
 ## Key Claims
 - Attribution turns marketing from preference debates into measurable budget decisions.
@@ -21,6 +22,7 @@ The source frames marketing attribution as growth infrastructure for SaaS compan
 - The system should connect touchpoints to deep business outcomes, not only signup or trial events.
 - The implementation is partly technical and partly organizational because teams must trust the data enough to change spend.
 - Attribution can include acquisition, content, offline brand exposure, word of mouth, lifecycle touchpoints, and customer satisfaction.
+- Offline awareness channels may be valuable but should not be treated as proven sales drivers without a measurement story.
 
 ## Evidence
 - Practical definition: [[attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs]] quotes [[BillMacaitis]] defining marketing attribution as whether money is being spent wisely.
@@ -29,12 +31,14 @@ The source frames marketing attribution as growth infrastructure for SaaS compan
 - Deep outcomes: [[attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs]] recommends following users through leads, opportunities, signed deals, and expansion revenue.
 - Organizational trust: [[attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs]] says attribution adoption requires educating the team and building trust early.
 - Beyond acquisition: [[attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs]] says existing-customer marketing and customer-success touchpoints can also be attributed for growth and retention.
+- Billboard ambiguity: [[billboards-for-small-businesses-costs-advice-and-thinking-twice]] reports that [[Grasshopper]]'s billboard led to more sales calls from advertisers rather than a clear increase in customer sales.
 
 ## Counterevidence & Qualifications
-The source strongly favors attribution but acknowledges that algorithmic systems require investment in time, money, people, data infrastructure, and integrations. It also notes hard-to-observe influences such as word of mouth and dark social. The article is practitioner guidance rather than a controlled proof that every startup should build a full attribution stack immediately.
+The sources strongly favor measurement discipline but acknowledge hard-to-observe influences such as word of mouth, dark social, offline brand exposure, and customer delight. Algorithmic systems require investment in time, money, people, data infrastructure, and integrations, while simple anecdotes about billboard response are not controlled tests. The combined lesson is not that every startup needs a full attribution stack immediately, but that channels should be scaled with explicit expectations about what can and cannot be measured.
 
 ## What Changed
 - Created marketing attribution as a growth-measurement concept connecting spend, channels, buyer journeys, and downstream SaaS outcomes.
+- Added billboard advertising as an offline channel where awareness, delight, and sales attribution can diverge.
 
 ## Related Concepts
 - [[AlgorithmicAttribution]] - a data-driven approach to assigning multi-touch credit.
@@ -44,3 +48,4 @@ The source strongly favors attribution but acknowledges that algorithmic systems
 - [[ProductMarketFit]] - the source treats fit as the boundary before scaling marketing spend.
 - [[CustomerAcquisitionCost]] - attribution helps judge acquisition spend against value.
 - [[CustomerLifetimeValue]] - downstream value gives attribution a better target than signups alone.
+- [[BillboardAdvertising]] - physical ads test the boundary between brand exposure and measurable demand.

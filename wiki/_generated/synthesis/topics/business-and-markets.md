@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 13cb83f52e01feea3a83a4819299d32945743b22
-input_digest: 742da61554110ef7dbcfe5d41b7945bea8d6458db9fbbfc7555e5433c050e6ac
+as_of_overview_commit: 024205aed1ac0f5a1719b047e83e111d347bd5bb
+input_digest: 52a61dd05445cc8c7dcabafbe3fa59712089f3a845193479226845d2846521d9
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds an Amazon capability-led expansion case where internal systems become adjacent markets, a scaling-stage hiring warning about testing pedigree for actual contribution, and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value.
 
 ## Cross-source Findings
 
@@ -58,13 +58,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Growth Must Preserve Retained Value
 
-[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, and downstream retained value rather than raw signups, clicks, or first-touch credit.
+[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 
-**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
+**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
 
 **Qualifications:**
 
-- Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops and onboarding tactics can also become spammy or low-quality when they are not grounded in a sticky core product.
+- Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops, onboarding tactics, discounts, and billboard buys can also become wasteful when they are not grounded in a sticky core product, fit audience, and plausible payback.
 
 ### Pricing And Subscriptions Align Value Over Time
 
@@ -118,13 +118,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Brand And Category Work Convert Value Into Memory
 
-[[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], and [[PersonalBranding]] show that crowded markets and careers need customer-visible or audience-visible reasons to choose, remember, and compare differently when features or single-axis credentials are copyable.
+[[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[BillboardAdvertising]], [[Mailchimp]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], and [[PersonalBranding]] show that crowded markets and careers need customer-visible or audience-visible reasons to choose, remember, and compare differently when features or single-axis credentials are copyable.
 
-**Evidence:** [[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], [[PersonalBranding]]
+**Evidence:** [[AppleAdvertisingPatterns]], [[DifferentiationStrategy]], [[BrandDistinctiveness]], [[BillboardAdvertising]], [[Mailchimp]], [[ProductCommoditization]], [[CategoryCreation]], [[BlueOceanStrategy]], [[SkillStacking]], [[PersonalBranding]]
 
 **Qualifications:**
 
-- Brand, category, and skill-stack effects still depend on product quality, distribution, pricing, buyer context, repeated exposure, core competence, and whether the audience actually values the difference.
+- Brand, category, physical advertising, and skill-stack effects still depend on product quality, distribution, pricing, buyer context, repeated exposure, core competence, and whether the audience actually values the difference; awareness or delight should not be confused with proven direct sales.
 
 ### Operations And Reliability Are Business Capabilities
 

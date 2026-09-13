@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2b340f1216a16c16c837ce03cab6bacc614b8df7cf11bd98e0d1dd492c09559e",
       "d700b0b2ab73920e8b91b3259717edc00bab9f0397ded2e9deb2352eafc4715c",
       "3ed997fb80cb4a7da6ef0b29c691e2c47b39bdead3ff1dac542abd758b06e62a",
       "efd3f2c25af148c68b74d7490515879a973bd5ee5e570c547268682b7c058779",
@@ -197,11 +198,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 195
+    "paragraph_count": 196
   },
-  "overview_commit": "13cb83f52e01feea3a83a4819299d32945743b22",
-  "overview_digest": "d91ad8ea9dd1686d3263133da2e5dee0800464beace6cf03207ba1eab2efba53",
+  "overview_commit": "024205aed1ac0f5a1719b047e83e111d347bd5bb",
+  "overview_digest": "ae167f5444c515ff4b50c20ae676c775ae7aac070154e78ece7e6a2059ee6a02",
   "paragraphs": [
+    {
+      "id": "2b340f1216a16c16c837ce03cab6bacc614b8df7cf11bd98e0d1dd492c09559e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Grasshopper source adds an out-of-home advertising caution to the wiki's marketing and unit-economics material. New [[BillboardAdvertising]] frames billboards as broad public awareness media whose usefulness depends on location quality, audience breadth, campaign goal, and [[CustomerAcquisitionCost]] tolerance rather than impression volume alone. [[Grasshopper]] supplies the cautionary case: its billboard reportedly produced more advertiser sales calls than customer sales, sharpening [[MarketingAttribution]] around offline channels whose brand effects are hard to connect to revenue. [[SaaSMarketing]] gains a contrast between short-lived blunt exposure and more targeted or durable channels such as SEO, PPC, lead generation, blogging, PR, and email, while [[Mailchimp]] and [[BrandDistinctiveness]] gain the positive case of mascot billboards designed for user delight rather than feature selling. The inspected lead image was decorative; the local folder for the referenced billboard and vehicle images was unavailable, so those images could not be incorporated as independent evidence.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "BillboardAdvertising",
+        "BrandDistinctiveness",
+        "CustomerAcquisitionCost",
+        "Grasshopper",
+        "Mailchimp",
+        "MarketingAttribution",
+        "SaaSMarketing"
+      ]
+    },
     {
       "id": "d700b0b2ab73920e8b91b3259717edc00bab9f0397ded2e9deb2352eafc4715c",
       "primary_topic": "ai-and-technology",

@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Billboards for Small Businesses: Costs, Advice, and Thinking Twice
+
+Added Grasshopper's small-business billboard-advertising article. Key claims: billboard cost varies widely by city, the channel is expensive and weakly personalized, placement needs in-person vetting, the economics only fit high-CAC or broad-market businesses, and brand-delight campaigns such as Mailchimp's are different from direct-response sales campaigns. Inspected the local lead image and treated it as decorative; the referenced inline JPEG asset folder was unavailable, so those images could not be incorporated as independent evidence.
+
 ## [2026-09-14] ingest | Behind Every Great Product
 
 Added SVPG's product-management case-study article. Key claims: strong product management is not backlog administration, project management, CEO escalation, or design by committee; it integrates customer, business, technical, legal, marketing, finance, operations, and user-experience constraints into product outcomes; and product leadership becomes critical when large companies must self-disrupt. Added source note plus Product Management, Product Leadership, Silicon Valley Product Group, Marty Cagan, six named product people, and product case pages for Microsoft Word for Mac, Google AdWords, and BBC Mobile; updated Adobe, Creative Cloud, Netflix, iTunes, index, and overview. No image references were present in the source.
@@ -1583,6 +1587,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

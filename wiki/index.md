@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Billboards for Small Businesses: Costs, Advice, and Thinking Twice](sources/billboards-for-small-businesses-costs-advice-and-thinking-twice.md) - Grasshopper argues that billboards can build awareness, but small businesses should treat them as expensive, blunt, location-sensitive media rather than reliable direct-response channels.
 - [Bill Barnett - Delete All Meetings](sources/bill-barnett-delete-all-meetings.md) - Bill Barnett argues that recurring scheduled meetings often perform rationality without producing substantive work, and that protected work time plus informal useful conversations are better defaults.
 - [Bill Buxton - The Long Nose of Innovation](sources/bill-buxton-the-long-nose-of-innovation.md) - Bill Buxton argues that important technologies often spend decades in low-visibility invention, adaptation, refinement, and commercialization before appearing as sudden breakthroughs.
 - [Big Data MOOC Research Breakthrough: Learning Activities Lead to Achievement](sources/big-data-mooc-research-breakthrough-learning-activities-lead-to-achievement-edtech-researcher-education-week.md) - Justin Reich satirizes early MOOC learning analytics that compressed massive learner logs into simple effort measures and repeatedly found that active students were more likely to pass, complete, or achieve.
@@ -208,6 +209,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Grasshopper](entities/Grasshopper.md) - Small-business phone-system company used as a billboard cautionary example where visible ad spend attracted advertiser calls more clearly than customer sales.
 - [Bill Barnett](entities/BillBarnett.md) - Academic author critiquing scheduled meetings through procedural rationality and advocating protected work time plus useful informal conversation.
 - [Bill Buxton](entities/BillBuxton.md) - Design and technology-history author represented here by the Long Nose of Innovation argument about long refinement before apparent breakthroughs.
 - [Max Weber](entities/MaxWeber.md) - Sociologist cited for the procedural-versus-substantive rationality distinction used to critique meeting rituals.
@@ -558,7 +560,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
 - [ConvertKit](entities/ConvertKit.md) - Creator-focused email-marketing software used as an example of target-market positioning in a crowded SaaS category.
 - [Drift](entities/Drift.md) - Software company used as an example of category creation through the "conversational marketing" frame.
-- [Mailchimp](entities/Mailchimp.md) - Email-marketing software brand used as an example of category leadership and familiarity-driven consideration.
+- [Mailchimp](entities/Mailchimp.md) - Email-marketing software brand used as an example of category leadership, signature-based exposure, and playful brand advertising.
 - [Michael Porter](entities/MichaelPorter.md) - Strategy scholar cited for defining differentiation as profitable unique positioning.
 - [Alok Kanojia](entities/AlokKanojia.md) - Psychiatrist whose Creator Science interview reframes creator data anxiety around controllable actions and complex attribution.
 - [Jay Clouse](entities/JayClouse.md) - Creator educator whose niche, purpose, and Creator Science materials shape the source author's creator practice.
@@ -773,6 +775,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Billboard Advertising](concepts/BillboardAdvertising.md) - Out-of-home advertising used mainly for broad awareness, with small-business fit depending on location, audience breadth, CAC tolerance, and attribution expectations.
 - [Procedural Rationality](concepts/ProceduralRationality.md) - Rational-looking organizational procedure that can signal legitimate work even when substantive purpose or output is unclear.
 - [Informal Collaboration](concepts/InformalCollaboration.md) - Spontaneous useful coordination or idea generation that continues only while it has value.
 - [MOOC Learning Analytics](concepts/MOOCLearningAnalytics.md) - Analysis of online-course behavioral logs and outcomes, with a caution that massive clickstream data can be reduced to thin activity-achievement correlations.
