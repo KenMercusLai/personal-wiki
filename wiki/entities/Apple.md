@@ -6,15 +6,16 @@ sources:
   - 16-mobile-theses-benedict-evans
   - 40-lessons-from-40-years-of-apple-ads-mission-org-medium
   - a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco
+  - above-avalon-apple-is-figuring-out-whats-next
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Apple]] appears in the wiki as a mobile platform winner, a company whose advertising history turned products into culturally legible consumer stories, and the maker of [[AppleWatch]] as an early wearable-computing business.
+[[Apple]] appears in the wiki as a mobile platform winner, a company whose advertising history turned products into culturally legible consumer stories, and a maker of wearables that extend the iPhone ecosystem toward more personal computing.
 
 ## Current Profile
-The mobile-platform source presents Apple as the company whose [[IPhone]] and [[IOS]] ecosystem helped start the smartphone revolution and then became one pole of the mobile platform order. Apple is smaller than [[Android]] by user count, but that source argues its users represented a disproportionate share of mobile browsing and app-store revenue. The advertising source adds a longer brand-history profile: Apple repeatedly made new devices understandable and desirable by simplifying technical claims, borrowing cultural meaning, dramatizing one memorable product attribute, and contrasting itself against dominant alternatives such as IBM and the PC. The Asymco source adds Apple Watch as a newer category case: Apple used its iPhone ecosystem, custom silicon, LTE connectivity, and health framing to turn a companion timepiece into a large early wearable business. Apple's strength is therefore ecosystem control, public meaning-making, and category extension, while its possible weakness in the mobile source is cloud services and AI.
+The mobile-platform source presents Apple as the company whose [[IPhone]] and [[IOS]] ecosystem helped start the smartphone revolution and then became one pole of the mobile platform order. Apple is smaller than [[Android]] by user count, but that source argues its users represented a disproportionate share of mobile browsing and app-store revenue. The advertising source adds a longer brand-history profile: Apple repeatedly made new devices understandable and desirable by simplifying technical claims, borrowing cultural meaning, dramatizing one memorable product attribute, and contrasting itself against dominant alternatives such as IBM and the PC. The Asymco source adds Apple Watch as a newer category case: Apple used its iPhone ecosystem, custom silicon, LTE connectivity, and health framing to turn a companion timepiece into a large early wearable business. The Above Avalon smart-glasses source then extends that category-extension story: [[AppleWatch]], [[AirPods]], [[ARKit]], Siri, machine learning, developers, and retail demos are interpreted as preparation for [[SmartGlasses]]. Apple's strength is therefore ecosystem control, public meaning-making, category extension, and patient seeding of future form factors, while its possible weakness in the mobile source is cloud services and AI.
 
 ## Key Characteristics
 - Kicked off the smartphone revolution through the iPhone.
@@ -23,7 +24,7 @@ The mobile-platform source presents Apple as the company whose [[IPhone]] and [[
 - Controls platform access in ways that can limit Google's reach on iOS.
 - May face strategic weakness in cloud services and AI.
 - Built brand meaning through long-running advertising patterns and used the [[AppStore]] ecosystem as both platform infrastructure and advertising material.
-- Extended the iPhone-centered ecosystem into [[AppleWatch]], a companion device with a possible path toward more independent [[WearableComputing]].
+- Extended the iPhone-centered ecosystem into [[AppleWatch]], [[AirPods]], and possible future [[SmartGlasses]] through wearable computing and developer seeding.
 
 ## Evidence
 - iPhone transition: [[16-mobile-theses-benedict-evans]] says the iPhone launch began the smartphone revolution.
@@ -35,13 +36,16 @@ The mobile-platform source presents Apple as the company whose [[IPhone]] and [[
 - App ecosystem as selling point: [[40-lessons-from-40-years-of-apple-ads-mission-org-medium]] treats the 2011 App Store ad as a reminder that iPhone ownership included access to a distinctive software marketplace.
 - Watch business scale: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] estimates that Apple Watch reached about $4.9 billion in annual revenue and about $12.3 billion cumulative revenue by 2017.
 - Wearable category extension: [[a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco]] argues that Apple Watch borrowed iPhone functions while opening a distinct fitness and health direction.
+- Post-iPhone preparation: [[above-avalon-apple-is-figuring-out-whats-next]] argues that Apple was using ARKit, Siri Shortcuts, machine learning, Apple Watch, AirPods, and its developer base to prepare for smart glasses.
+- Installed-base advantage: [[above-avalon-apple-is-figuring-out-whats-next]] contrasts Apple's hundreds of millions of AR-capable devices and developers with Magic Leap's public prototype route.
 
 ## Qualifications
-The mobile source is a 2015 strategic snapshot and does not cover Apple's later services, silicon, privacy, AI, or regulatory trajectory. The advertising source is a practitioner retrospective and does not isolate advertising effects from product quality, distribution, pricing, media buying, or broader cultural timing. The Watch source depends on analyst estimates because Apple did not report Watch unit sales directly in the article's framing.
+The mobile source is a 2015 strategic snapshot and does not cover Apple's later services, silicon, privacy, AI, or regulatory trajectory. The advertising source is a practitioner retrospective and does not isolate advertising effects from product quality, distribution, pricing, media buying, or broader cultural timing. The Watch and smart-glasses sources depend on analyst interpretation and estimates; the smart-glasses source is explicitly speculative about future product direction.
 
 ## What Changed
 - Added Apple Watch as evidence of Apple's ecosystem extension into wearable computing and health.
 - Preserved Apple's advertising-history dimension alongside the mobile-platform profile.
+- Added Above Avalon's post-iPhone argument that Apple seeds future devices through existing wearables, AR software, developers, and retail channels.
 
 ## Relationships
 - [[IOS]] - Apple's mobile operating-system ecosystem.
@@ -51,6 +55,10 @@ The mobile source is a 2015 strategic snapshot and does not cover Apple's later 
 - [[MobilePlatformDiscovery]] - Apple's platform control shapes service discovery and reach.
 - [[AppleAdvertisingPatterns]] - Apple's ad history supplies the concept's core evidence.
 - [[AppleWatch]] - Apple's wearable product and health-oriented category-extension case.
+- [[AirPods]] - Apple's ear-worn wearable in the source's wrists-and-ears momentum argument.
+- [[ARKit]] - Apple's AR seeding platform for future eye-worn computing.
+- [[SmartGlasses]] - predicted next form factor in the Above Avalon source.
 - [[WearableComputing]] - Apple Watch connects Apple's mobile ecosystem to wrist-worn computing.
+- [[MagicLeap]] - AR competitor contrasted with Apple's ecosystem advantages.
 - [[SteveJobs]] - Apple founder and returning leader used in the advertising source's brand narrative.
 - [[SteveWozniak]] - Apple technical co-founder used in the advertising source's origin narrative.

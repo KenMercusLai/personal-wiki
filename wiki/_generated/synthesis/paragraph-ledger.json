@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1e5fb8085f169768567e85937f261a07c18eab57bb87637e6020372df381ac68",
+      "88d58ec7fb47bce00d096dda2b0e2f3169fb260f92ea431ce911b322a3430161",
       "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
       "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
@@ -110,11 +112,53 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 108
+    "paragraph_count": 110
   },
-  "overview_commit": "7e5c4d3a7f01cee1b185bc63f71d0c26cca32985",
-  "overview_digest": "dd1a0ef4bd581649cd4bfa577bc463bb22a6c6a3c2bff6aad763ca0b8c6f5049",
+  "overview_commit": "6a70e77969afc522801c33f780245a1d7fa9b27e",
+  "overview_digest": "c52c3c999c03a10b7924b8699aeae82b3b73a2e096f79ccec8d7385d35494812",
   "paragraphs": [
+    {
+      "id": "1e5fb8085f169768567e85937f261a07c18eab57bb87637e6020372df381ac68",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Above Avalon source extends the Apple thread from niche publishing into product strategy. [[NeilCybart]] argues that Apple's WWDC 2018 work around [[ARKit]], Siri Shortcuts, machine learning, Memoji, [[AppleWatch]], and [[AirPods]] made most sense as preparation for [[SmartGlasses]]. [[WearableComputing]] therefore expands from the wrist-focused Watch material into a body-location strategy: Apple had momentum on wrists and ears while seeding the next battle for eyes. The embedded chart qualifies the urgency by showing iPhone unit sales flattening while wearables rose toward iPad-like unit volume in the 2019 estimates, and [[MagicLeap]] serves as the contrast case for AR ambition without Apple's installed-base, developer, retail, and wearable-learning advantages.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ARKit",
+        "AirPods",
+        "AppleWatch",
+        "MagicLeap",
+        "NeilCybart",
+        "SmartGlasses",
+        "WearableComputing"
+      ]
+    },
+    {
+      "id": "88d58ec7fb47bce00d096dda2b0e2f3169fb260f92ea431ce911b322a3430161",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Above Avalon subscription retrospective adds a small-publisher version of the media monetization thread. [[NeilCybart]] presents [[AboveAvalon]] as a focused [[Apple]] analysis publication that reached sustainability by charging readers directly for daily analysis, archive access, and community rather than relying on ads, sponsors, or page-view spikes. [[NicheSubscriptionPublishing]] is the new business-model concept: a narrow subject can still be commercially broad when it supports a strong voice, distinctive perspective, deep expertise, and a real exclusive product instead of donation-like perks. [[AppleNewsEcosystem]] captures the source's taxonomy of Apple rumor aggregators, general news publications, and analysis or research voices, while also qualifying [[WebAdEconomics]] and [[DigitalMediaMonetization]]: ad-supported scale, platform revenue, diversified media operations, and direct subscriptions are different answers to the same pressure for durable digital publishing revenue.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "AboveAvalon",
+        "Apple",
+        "AppleNewsEcosystem",
+        "DigitalMediaMonetization",
+        "NeilCybart",
+        "NicheSubscriptionPublishing",
+        "WebAdEconomics"
+      ]
+    },
     {
       "id": "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
       "primary_topic": "ai-and-technology",

@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Above Avalon: Above Avalon Subscriptions Turn Three](sources/above-avalon-above-avalon-subscriptions-turn-three.md) - Neil Cybart argues that Above Avalon's Apple-focused subscription model works by selling strong perspective, daily analysis, archive access, and community rather than chasing ad-supported page views.
+- [Above Avalon: Apple Is Figuring Out What's Next](sources/above-avalon-apple-is-figuring-out-whats-next.md) - Neil Cybart argues that Apple's WWDC 2018 AR, Siri, ML, Watch, and AirPods moves were preparation for smart glasses as the next personal-computing form factor.
 - [AWS costs every programmer should know](sources/aws-costs-every-programmer-should-know.md) - Reference-cost article giving order-of-magnitude AWS compute, memory, storage, request-pattern, and bandwidth numbers for architecture sanity checks.
 - [Optimize generative AI applications with pgvector indexing](sources/aws-blog-optimize-generative-ai-applications-with-pgvector-indexing.md) - AWS explains how pgvector uses IVFFlat and HNSW indexes to accelerate PostgreSQL-backed vector retrieval for generative AI and RAG workloads.
 - [AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办](sources/ai-ti-gao-le-xiao-lv-xi-huan-da-kai-hei-he-de-hobbyist-zen-me-ban-shu-yu-cyy-zi-ji-de-shi-jie.md) - CYY reflects on AI coding's productivity gains, warning that agentic offloading can strip hobbyist engineers of the black-box exploration that builds judgment and invention.
@@ -118,6 +120,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
 
 ## Entities
+- [Above Avalon](entities/AboveAvalon.md) - Independent Apple analysis publication presented as a subscription-supported niche media business and Apple product-strategy voice.
+- [Neil Cybart](entities/NeilCybart.md) - Former Wall Street analyst and Above Avalon operator arguing for focused Apple analysis funded by reader subscriptions.
 - [CYY](entities/CYY.md) - Systems-oriented hobbyist author reflecting on AI, black-box learning, open-source work, and human-centered innovation.
 - [Filip Piekniewski](entities/FilipPiekniewski.md) - AI-skeptical blogger arguing in 2018 that deep-learning hype and self-driving failures pointed toward an AI winter.
 - [David Lieb](entities/DavidLieb.md) - Bump cofounder and retrospective author connecting Bump, Flock, Photoroll, Google acquisition, and Google Photos work.
@@ -332,10 +336,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst and author of the mobile theses source.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
-- [Apple](entities/Apple.md) - Mobile platform winner whose iOS ecosystem concentrates high-value users and platform-control power in the source's 2015 framing.
+- [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, brand meaning, wearables, AR software, and developers to extend personal computing beyond the iPhone.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
-- [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business and health-oriented mobile ecosystem extension.
+- [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
+- [AirPods](entities/AirPods.md) - Apple's ear-worn wearable used with Apple Watch as evidence of wrists-and-ears momentum before smart glasses.
+- [ARKit](entities/ARKit.md) - Apple's augmented-reality developer platform used to seed AR behavior on iPhones and iPads before smart glasses.
+- [Magic Leap](entities/MagicLeap.md) - AR company contrasted with Apple's installed base, developers, and wearable-learning advantages.
 - [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
 - [iPhone](entities/IPhone.md) - Apple's smartphone used as Apple Watch's companion product and independence precedent.
 - [Steve Jobs](entities/SteveJobs.md) - Apple founder and returning leader used in the advertising source's origin, Pixar, and "Think Different" brand narrative.
@@ -461,6 +468,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [David Sundstrand](entities/DavidSundstrand.md) - Adding-machine inventor associated with the calculator-standard 3x3-plus-0 keypad layout.
 
 ## Concepts
+- [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
+- [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
 - [Deep Learning Scaling](concepts/DeepLearningScaling.md) - Contested link between increasing compute, data, model size, and transferable deep-learning capability.
@@ -509,7 +518,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
-- [Wearable Computing](concepts/WearableComputing.md) - Wrist-worn or body-adjacent computing that extends mobile functions while creating health, fitness, and contextual use cases.
+- [Wearable Computing](concepts/WearableComputing.md) - Wrist-, ear-, or eye-worn computing that extends mobile functions while creating health, AR, assistant, and contextual use cases.
+- [Smart Glasses](concepts/SmartGlasses.md) - Eye-worn computing category framed as Apple's likely next personal-computing frontier after wrists and ears.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
 - [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull justifies shifting from discovery toward growth and organization-building.
@@ -764,7 +774,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, and scarce founder attention conflict.
-- [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, and adjacent devices away from the PC-era center.
+- [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, adjacent devices, and post-iPhone seeding away from the PC-era center.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
 - [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users find services when search, app stores, operating systems, notifications, messaging, and traffic holders shape attention.
 - [Digital Cartography](concepts/DigitalCartography.md) - Screen-based, dynamic, personalized, and platform-mediated mapmaking shaped by data, design, law, and commercial context.

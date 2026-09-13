@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-13] ingest | Above Avalon: Above Avalon Subscriptions Turn Three
+
+Added source note plus pages for Above Avalon, Neil Cybart, niche subscription publishing, and the Apple news ecosystem. Updated digital media monetization and web ad economics to include Above Avalon's focused direct-subscription model as a counterpoint to ad-supported scale and diversified platform-media revenue. Inspected the local embedded image; it is an Above Avalon logo and contributes brand context but no additional substantive claims.
+
 ## [2026-09-13] ingest | 使用PostgreSQL简化你的技术栈 - HUANGZ.BLOG
 
 Added source note plus pages for PostgreSQL, Timescale, database consolidation, and technology stack complexity. Updated index and overview to capture the article's PostgreSQL-first architecture heuristic: avoid premature splits across specialized transaction, search, time-series, vector, and analytics databases unless the added capability outweighs the operational and reasoning cost. Inspected the local Timescale cartoon image and treated it as evidentiary support for the article's database-sprawl contrast.
@@ -610,6 +614,10 @@ Added source note and synthesis pages for AI winter, deep learning scaling, auto
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Above Avalon: Apple Is Figuring Out What's Next
+
+Added source note and updated Apple, Apple Watch, Above Avalon, Neil Cybart, Wearable Computing, and Mobile Ecosystem. Created AirPods, ARKit, Magic Leap, and Smart Glasses pages. Key claims: Apple was seeding post-iPhone smart glasses through ARKit, Siri, machine learning, wearables, developers, and retail; iPhone unit sales were plateauing while wearables momentum made wrists, ears, and eyes strategically important.
+
 ## [2026-09-13] ingest | AWS costs every programmer should know
 
 ## [2026-09-13] ingest | AI 语音输入工具提示词
@@ -802,6 +810,14 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | A Tale of Two Industries: How Programming Languages Differ Between Wealthy and Developing Countries
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 
