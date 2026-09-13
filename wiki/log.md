@@ -663,6 +663,10 @@ Added Brad Ellis's reach-navigation essay. Created source, Brad Ellis, Tall West
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | 对话大疆汪滔：求真理、得自由、活成故事
+
+Added LatePost's Wang Tao interview; created [[DJI]], [[WangTao]], and [[EntropyReductionManagement]], and updated [[FounderLedOrganizationalEvolution]] with the DJI case of founder-led management reform after product-led growth.
+
 ## [2026-09-13] ingest | Amazon is the biggest threat to bitcoin right now
 
 Added Coin and Crypto's speculative Amazon/Bitcoin payments article; created [[Bitcoin]] and [[CryptocurrencyMerchantAdoption]], updated [[Amazon]], [[Ethereum]], and [[Kik]], and inspected the referenced promotional images as non-substantive.
@@ -1082,6 +1086,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen
 
 Added Andrew Chen's pre-product-market-fit startup essay, including the inspected YC startup-life diagram; created [[TroughOfSorrow]], [[AndrewChen]], and [[PaulGraham]], and updated product-market-fit, runway, focus, and Y Combinator pages with the trough-stage model.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

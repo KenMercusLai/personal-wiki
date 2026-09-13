@@ -140,6 +140,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [费曼学习法实践 / INDIGO 的信息获取与知识输出方法论](sources/feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology.md) - A Feynman-style learning workflow connecting focused reading, structured output, personal knowledge bases, and AI-assisted note organization.
 - [设立目标可以改变你的生活](sources/she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo.md) - Piotr Wozniak's argument that goals can focus attention, protect learn drive, and help learners value knowledge without turning study into coercion.
 - [泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳](sources/pao-pao-ma-te-yin-wei-du-te-du-hou-gan-he-wang-ning-mai-xing-xing-bang-de-gu-shi-li-ji-ao.md) - A Pop Mart investment reading note arguing that revenue rests on designer-toy demand, series-based blind boxes, Labubu category expansion, and Wang Ning's founder-led organizational evolution.
+- [对话大疆汪滔：求真理、得自由、活成故事](sources/dui-hua-da-jiang-wang-tao-qiu-zhen-li-de-zi-you-huo-cheng-gu-shi.md) - LatePost's long Wang Tao interview frames DJI's 20-year arc through product invention, management crisis, entropy reduction, recruiting, competition, and founder self-reflection.
 - [独立开发者分享 AI Coding 的秘诀（已获得授权）](sources/du-li-kai-fa-zhe-fen-xiang-ai-coding-de-mi-jue-yi-huo-de-shou-quan.md) - A practitioner account arguing that AI coding succeeds when developers decompose work into precise file-aware instructions, review generated changes, verify behavior, and keep human responsibility active.
 - [使用 FFmpeg 远程读取 rtsp 监控视频流](sources/shi-yong-ffmpeg-yuan-cheng-du-qu-rtsp-jian-kong-shi-pin-liu.md) - A practical camera setup note showing how FRP, RTSP, OpenWrt, FFmpeg, and cron can record surveillance footage to a self-hosted server instead of vendor cloud storage.
 - [A comprehensive data guide to why you shouldn't discount](sources/a-comprehensive-data-guide-to-why-you-shouldnt-discount.md) - Price Intelligently argues that SaaS discounting can create short-term acquisition wins while damaging willingness to pay, churn, CAC recovery, and LTV.
@@ -509,6 +510,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [女性交流](entities/WomenCommunication.md) - Pun-heavy Japanese indie game whose Chinese localization is used as a translation case study.
 - [Zhang Xuan](entities/ZhangXuan.md) - Programmer also known as Viking who presents freelancing through courses, EasyCV, and personal branding.
 - [Pop Mart](entities/PopMart.md) - Chinese designer-toy and consumer-IP company presented as evolving from retail toward IP operations.
+- [DJI](entities/DJI.md) - Chinese drone and imaging hardware company presented as a product leader undergoing founder-led management reform.
+- [Wang Tao](entities/WangTao.md) - DJI founder characterized through product intuition, management learning, self-reflection, and truth-seeking.
 - [Wang Ning](entities/WangNing.md) - Pop Mart founder characterized through early retail practice, product sense, and iterative business-model evolution.
 - [Labubu](entities/Labubu.md) - Pop Mart character IP used as a case for revenue concentration, trend risk, and category expansion.
 - [Because Unique](entities/BecauseUnique.md) - Book about Pop Mart and Wang Ning used by Li Jiaoao as context for business-model interpretation.
@@ -917,6 +920,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
 - [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
 - [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.
+- [Entropy Reduction Management](concepts/EntropyReductionManagement.md) - Management model treating organizations as systems that require goals, processes, incentives, and leadership to counter drift.
 - [Founder-Led Sales](concepts/FounderLedSales.md) - Pre-product-market-fit sales practice where founders personally lead customer conversations as problem discovery and solution testing.
 - [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
