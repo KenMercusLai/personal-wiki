@@ -125,9 +125,12 @@
       "qualifications": [
         "Demand proxies such as traffic and cost references are directional rather than direct measurements of production use or business value."
       ],
-      "statement": "Technology platforms reshape discovery, economics, and developer demand through mobile ecosystems, web centralization, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.",
+      "statement": "Technology platforms reshape discovery, economics, developer demand, and adjacent products through mobile ecosystems, web centralization, Amazon capability-led expansion, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.",
       "status": "supported",
       "supporting_wikilinks": [
+        "AmazonCapabilityLedExpansion",
+        "AWS",
+        "AmazonGo",
         "MobileEcosystem",
         "MobilePlatformDiscovery",
         "WebCentralization",
@@ -136,6 +139,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, LLM workflows, and platform capability recombination. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, and market-facing expansion.",
   "topic_id": "ai-and-technology"
 }

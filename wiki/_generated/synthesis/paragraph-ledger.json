@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f6871f953ce61ee8c7352746aed9be46d79e18126bd53f3cc6b1953afd3c5450",
       "f8d95b92c773a1fd59e48dbee661ad7dbade57faaa514c07969c162f3bbbc186",
       "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
       "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
@@ -193,11 +194,33 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 191
+    "paragraph_count": 192
   },
-  "overview_commit": "0f7f4127f4a0db722d28d68d9ea76063d48db3aa",
-  "overview_digest": "b75e8f77f918360dde26d78019bb12c12829dee3f557b3e59f65f2a706696fff",
+  "overview_commit": "63f7dbe808a7e69db2475889e9b725e86dd4e137",
+  "overview_digest": "338174166ba5509afa9529974f049f4430a18ceb1a4c0f1dff07a767f98352bc",
   "paragraphs": [
+    {
+      "id": "f6871f953ce61ee8c7352746aed9be46d79e18126bd53f3cc6b1953afd3c5450",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest Forbes source adds an Amazon-specific expansion model to the wiki's corporate-giant, strategy, and platform material. [[AmazonCapabilityLedExpansion]] names the article's core mechanism: Amazon converts internal capabilities in catalog, inventory, recommendations, payments, fulfillment, cloud, hardware, AI, and physical retail into adjacent products and businesses. [[MultiplePathsToYes]] captures Bezos's operating design for preserving startup-like experimentation at scale: many executives can approve reversible two-way-door ideas, while one-way-door bets are slowed and tested for differentiation, large scale, and returns on capital. [[Amazon]] now includes [[AWS]] as both a converted internal capability and profit engine, [[AmazonPrime]] as the connective consumer system linking subscriptions, fulfillment, entertainment, sellers, and stores, and [[AmazonGo]] as a visible recombination of grocery learning, app identity, AI, cameras, sensors, and payments. The inspected images support this synthesis through a Forbes cover, Bezos wealth and Amazon stock charts, a timeline from books to PillPack, and an Amazon Go storefront photo.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AWS",
+        "Amazon",
+        "AmazonCapabilityLedExpansion",
+        "AmazonGo",
+        "AmazonPrime",
+        "MultiplePathsToYes"
+      ]
+    },
     {
       "id": "f8d95b92c773a1fd59e48dbee661ad7dbade57faaa514c07969c162f3bbbc186",
       "primary_topic": "ai-and-technology",

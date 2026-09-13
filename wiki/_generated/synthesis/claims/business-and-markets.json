@@ -10,11 +10,32 @@
       "status": "supported",
       "supporting_wikilinks": [
         "TimelessBusinessStrategy",
+        "AmazonCapabilityLedExpansion",
+        "MultiplePathsToYes",
         "Amazon",
+        "AWS",
+        "AmazonPrime",
         "JeffBezos",
         "WarrenBuffett",
         "GEICO",
         "MarcAndreessen"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "capability-led-platforms-turn-operations-into-markets",
+      "qualifications": [
+        "The Amazon evidence is a 2018 Forbes profile that largely presents Bezos's strategic self-description; it does not settle later antitrust, labor, privacy, healthcare, advertising, or physical-store outcomes."
+      ],
+      "statement": "[[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AmazonCapabilityLedExpansion",
+        "MultiplePathsToYes",
+        "AWS",
+        "AmazonPrime",
+        "AmazonGo",
+        "Amazon"
       ]
     },
     {
@@ -261,6 +282,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds both a scaling-stage hiring warning about testing pedigree for actual contribution and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds an Amazon capability-led expansion case where internal systems become adjacent markets, a scaling-stage hiring warning about testing pedigree for actual contribution, and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.",
   "topic_id": "business-and-markets"
 }

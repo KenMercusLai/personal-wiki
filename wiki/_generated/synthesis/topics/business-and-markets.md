@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 0f7f4127f4a0db722d28d68d9ea76063d48db3aa
-input_digest: 5ed54305b0f10c250393946d507d97e44dc5baaadf2d3f01867722141b6c5224
+as_of_overview_commit: 63f7dbe808a7e69db2475889e9b725e86dd4e137
+input_digest: 269e59df58443a8ba5c8b745ffb84925e62589345ad2433290826345a896bb6f
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds both a scaling-stage hiring warning about testing pedigree for actual contribution and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment. Recent material adds an Amazon capability-led expansion case where internal systems become adjacent markets, a scaling-stage hiring warning about testing pedigree for actual contribution, and a Netflix notebook-platform case where internal workflow infrastructure becomes a business capability for data work.
 
 ## Cross-source Findings
 
@@ -20,11 +20,21 @@ Business and market sources show durable value emerging when product work, start
 
 [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 
-**Evidence:** [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]]
+**Evidence:** [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]]
 
 **Qualifications:**
 
 - The evidence is a strategic essay and company examples rather than a cross-industry empirical proof; stable customer desires still need specific mechanisms, execution, and defenses against changing competitors.
+
+### Capability Led Platforms Turn Operations Into Markets
+
+[[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion.
+
+**Evidence:** [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]]
+
+**Qualifications:**
+
+- The Amazon evidence is a 2018 Forbes profile that largely presents Bezos's strategic self-description; it does not settle later antitrust, labor, privacy, healthcare, advertising, or physical-store outcomes.
 
 ### Product Management Integrates Outcomes
 

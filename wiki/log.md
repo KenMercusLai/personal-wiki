@@ -1379,6 +1379,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next
+
+Added Forbes's 2018 Bezos interview/profile. Key claims: Amazon expands by turning internal capabilities into adjacent businesses, uses multiple paths to yes for reversible experiments, relies on AWS as both market and profit engine, and treats Prime and Amazon Go as horizontal systems connecting retail, cloud, hardware, AI, payments, entertainment, and physical stores.
+
 ## [2026-09-14] ingest | Beyond Interactive: Notebook Innovation at Netflix
 
 Added Netflix TechBlog's notebook-platform article. Key claims: Jupyter notebooks can unify data access, exploration, validation, reusable templates, scheduling, sharing, and debugging records when backed by infrastructure such as nteract, Papermill, Commuter, Titus, EFS, and S3.
@@ -1567,6 +1571,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

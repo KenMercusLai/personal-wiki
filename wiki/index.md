@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next](sources/bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next.md) - Forbes profiles Jeff Bezos and Amazon's 2018 expansion logic: multiple paths to yes, capability-led adjacency, AWS-funded reinvestment, Prime as connective tissue, and Amazon Go as horizontal integration.
 - [Beware of the Beautiful Resume](sources/beware-of-the-beautiful-resume-small-business-forum.md) - A founder warns that name-brand resumes can hide status-oriented, territorial, process-heavy behavior that slows startups unless candidates are tested for ownership, contribution, and startup fit.
 - [Best Practices for API Error Handling](sources/best-practices-for-api-error-handling-dzone-integration.md) - Vineet Joshi argues that REST API errors should pair pragmatic HTTP status-code selection with readable messages, documentation links, graceful client recovery, and clear client-versus-server responsibility boundaries.
 - [Betting on Things That Never Change](sources/betting-on-things-that-never-change-collaborative-fund.md) - Morgan Housel argues that durable strategy combines technological change with stable customer desires such as low prices, selection, speed, convenience, and trust.
@@ -204,6 +205,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Amazon Go](entities/AmazonGo.md) - Amazon's cashierless physical-store experiment combining app identity, AI, cameras, sensors, grocery learning, and payments.
+- [Amazon Prime](entities/AmazonPrime.md) - Amazon's membership system linking retail frequency, subscriptions, fulfillment, entertainment, sellers, and physical stores.
+- [Forbes](entities/Forbes.md) - Business publication context for the Bezos Unbound interview and Amazon strategy profile.
+- [Jeff Wilke](entities/JeffWilke.md) - Amazon consumer and retail executive quoted on experimentation failure and Kindle-era hardware learning.
 - [DZone](entities/DZone.md) - Software-development publication venue for Vineet Joshi's API error-handling article.
 - [Vineet Joshi](entities/VineetJoshi.md) - Author represented by the REST API error-handling source.
 - [Cloud Elements](entities/CloudElements.md) - Original article host and documentation example in the API error-handling source.
@@ -754,6 +759,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Amazon Capability-Led Expansion](concepts/AmazonCapabilityLedExpansion.md) - Strategy pattern where Amazon turns internal capabilities into external products, adjacent markets, or cross-business systems.
+- [Multiple Paths to Yes](concepts/MultiplePathsToYes.md) - Bezos's Amazon decision model for giving reversible ideas many internal sponsorship paths while slowing irreversible bets.
 - [API Error Handling](concepts/APIErrorHandling.md) - Practice of designing API failures so clients can understand, recover from, or escalate errors using status codes, messages, and documentation.
 - [Versatile Web Stack Fluency](concepts/VersatileWebStackFluency.md) - Broad web-development competence grounded in protocols, servers, operations, encodings, caching, and integration boundaries rather than only framework names.
 - [Framework Combinatorial Complexity](concepts/FrameworkCombinatorialComplexity.md) - Integration difficulty created when libraries and frameworks can combine in more ways than tutorials, search, or prior experience can cover.

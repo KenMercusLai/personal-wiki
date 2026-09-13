@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 0f7f4127f4a0db722d28d68d9ea76063d48db3aa
-summary: "A living map of software judgment, product systems, platforms, learning, institutions, and startup scaling grounded in demand, infrastructure, and evidence."
-episode_count: 196
-source_count: 196
-paragraph_count: 191
+as_of_overview_commit: 63f7dbe808a7e69db2475889e9b725e86dd4e137
+summary: "A map of practical judgment: understand systems, preserve evidence, pair change with stable demand, build feedback loops, and design tools around real constraints."
+episode_count: 197
+source_count: 197
+paragraph_count: 192
 topic_count: 9
 ---
 
@@ -18,18 +18,18 @@ topic_count: 9
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change.
+- AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.
 - Production-grade agents need infrastructure beyond ordinary app hosting: [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] manage credentials, side effects, recovery, and prompt-injection risk.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
-- [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.
-- [[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design: founders must add leaders, communication, and recruiting systems while testing resume prestige against contribution, ownership, and company-first behavior.
-- [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that operational, release, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
+- [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion.
+- [[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Powerful tools help most when teams understand underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.
+AI and technology sources center on engineering judgment under complexity: durable practice depends on understanding underlying systems, verification, cost and reliability boundaries, context management, agent infrastructure, data methods, and platform capability recombination.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[HarnessEngineering]].
@@ -38,50 +38,50 @@ The AI and technology corpus centers on engineering judgment under complexity: m
 
 Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, and capital allocation stay connected to customer evidence, stable demand, distribution, retention, operating capacity, and organizational judgment.
 
-- [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
-- [[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight. Evidence: [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]].
+- [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
+- [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion. Evidence: [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]].
 
 ### Cross-domain
 
-Cross-domain technical judgment turns abstractions into practical constraints: API errors become recovery contracts, latency math rejects weak designs early, mobile navigation follows human reach, Apple growth combines business levers, exposed ports become risk triage, and trajectory simplification trades detail for performance.
+Cross-domain sources connect creativity, planning, learning, and philosophy through reusable abstractions: ideas compound when people translate principles across fields while preserving enough context to avoid shallow analogy.
 
 - Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]]. Evidence: [[APIErrorHandling]], [[HTTP]], [[DeveloperExperience]].
 - Early architecture judgment often depends on rough models: [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] help reject designs before implementation, while [[CloudCostOptimization]] uses similar unit reasoning for cost sanity checks. Evidence: [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[CloudCostOptimization]].
 
 ### Culture and Media
 
-Culture and media sources show that media form, AI-assisted writing, games, streaming platforms, reading systems, and aesthetics all shape how people create, learn, distribute, and interpret work. The topic emphasizes scaffolding, infrastructure, platform economics, and participatory meaning rather than content alone.
+Culture and media sources examine how publishing, streaming, creator work, music platforms, media portfolios, consumer IP, and public narratives convert attention into trust, identity, revenue, and cultural memory.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance sources focus on accountability in platform and institutional systems: decision tools, personalization, payments, campaign technology, automation, scale, and exit all shift power. Trust and instrumentation matter because platforms mediate access, discovery, safety, and alternatives.
+Governance and institutions sources focus on exit, voice, privacy, platform power, public accountability, abuse response, campaign technology, and agent permissions, with recurring qualifications around unequal power and public-good constraints.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]].
 
 ### History and Geopolitics
 
-This topic is currently more historical than geopolitical. It contains source-scoped histories of software products, interface conventions, app-store market geography, numeric keypads, Vim, Instapaper, and accounting, with limited evidence for broader geopolitical conclusions.
+History and geopolitics sources provide context for technology institutions, software lineage, political infrastructure, and long-run platform shifts, often showing how present choices inherit older constraints.
 
 ### Psychology and Personal Development
 
-Personal-development sources frame agency as a product of reflection, attention, goals, learning, behavior design, feedback interpretation, and interface legibility. The strongest claims are practical and qualified: habits, notes, prompts, and goals help when they preserve autonomy and are tested against evidence.
+Psychology and personal-development sources connect goals, habits, attention, sleep, self-discipline, motivation, trust, decision traps, and note practices into a model of agency shaped by feedback and environment.
 
 - Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]]. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 - [[FoggBehaviorModel]] and [[BehaviorDesign]] frame behavior change as a design problem: target actions become more likely when motivation, ability, and a timely prompt converge, and failed behavior can be diagnosed by which element is missing or weak. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[BJFogg]], [[BehaviorDesignLab]], [[TinyHabits]].
 
 ### Science, Health, and Climate
 
-This topic remains indirect and source-scoped. It includes scientific-computing basics, attention and mental-load advice, intrinsic-value philosophy, and developer-data adoption patterns, but does not yet contain enough direct health, climate, or scientific evidence for broad claims.
+Science, health, and climate sources are currently narrower and source-scoped, covering scientific-computing basics, intrinsic-value philosophy, attention and mental load, healthcare experiments, and developer-data adoption signals.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and education sources treat learning, careers, collaboration, AI-era education, junior development, technical communities, output loops, and freelancing as staged practice. Usable judgment develops through feedback, real work, explanation, protected struggle, and problem-framing skills.
+Work, education, and society sources connect learning, careers, workplace practice, creator work, labor conditions, civic technology, and operations; durable capability comes from active practice, feedback, safe questions, system curiosity, and visible evidence of work.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].

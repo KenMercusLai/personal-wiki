@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 0f7f4127f4a0db722d28d68d9ea76063d48db3aa
-input_digest: 41b46881381704ce4d753c3283d9c68729487078695b6af1e2642d9394e0dc0b
+as_of_overview_commit: 63f7dbe808a7e69db2475889e9b725e86dd4e137
+input_digest: 28e441129a81bbaab3ea9b3c1f052cf6e3291b659a8d8aaac0b5b34e8436dd08
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, LLM workflows, and platform capability recombination. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, side effects, and market-facing expansion.
 
 ## Cross-source Findings
 
@@ -90,9 +90,9 @@ Architecture simplification is contextual: [[DatabaseConsolidation]], [[SQLitePr
 
 ### Platforms Reshape Discovery And Economics
 
-Technology platforms reshape discovery, economics, and developer demand through mobile ecosystems, web centralization, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.
+Technology platforms reshape discovery, economics, developer demand, and adjacent products through mobile ecosystems, web centralization, Amazon capability-led expansion, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.
 
-**Evidence:** [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[WebCentralization]], [[ProgrammingTechnologyDemand]], [[ProductivityAppSubscriptions]]
+**Evidence:** [[AmazonCapabilityLedExpansion]], [[AWS]], [[AmazonGo]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[WebCentralization]], [[ProgrammingTechnologyDemand]], [[ProductivityAppSubscriptions]]
 
 **Qualifications:**
 
