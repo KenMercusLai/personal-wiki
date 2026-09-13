@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
 - [An Infrastructure Guide for Founders](sources/an-infrastructure-guide-for-founders-starting-up-security-medium.md) - Magoo argues that early AWS infrastructure planning can avoid security debt through centralized logs, account segmentation, controlled production access, infrastructure as code, network segmentation, and secrets management.
+- [An Open Letter To My CEO](sources/an-open-letter-to-my-ceo-talia-jane-medium.md) - Talia Jane's open letter argues that low-paid Yelp/Eat24 support work created food, rent, transit, and utility insecurity despite the company's tech-scale resources and office perks.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
@@ -152,6 +153,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Talia Jane](entities/TaliaJane.md) - Writer and former Yelp/Eat24 support worker whose open letter documents employee financial precarity in a Bay Area tech workplace.
+- [Yelp](entities/Yelp.md) - Consumer local-commerce company addressed as the employer in Talia Jane's open letter about low-paid support work.
+- [Eat24](entities/Eat24.md) - Food-delivery service whose customer-support work provides the source's central case of tech-adjacent worker precarity.
+- [Jeremy Stoppelman](entities/JeremyStoppelman.md) - Yelp CEO addressed by Talia Jane as the executive audience for her compensation and cost-of-living critique.
 - [NumPy](entities/NumPy.md) - Python numerical-computing library introduced as the array-centered foundation for beginner scientific Python.
 - [Python](entities/Python.md) - Programming language used in the source as the host environment for NumPy-based scientific computing.
 - [Jamal](entities/Jamal.md) - Data Dependence author explaining NumPy fundamentals for scientific Python learners.
@@ -576,6 +581,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 
 ## Concepts
+- [Employee Financial Precarity](concepts/EmployeeFinancialPrecarity.md) - Condition where employed workers cannot reliably meet basic costs such as rent, food, transit, utilities, health care, and communications.
 - [Scientific Python](concepts/ScientificPython.md) - Using Python with numerical libraries such as NumPy for scientific computing, data science, and machine learning.
 - [NumPy Array Model](concepts/NumPyArrayModel.md) - Representing numerical data as arrays that can stand for vectors, matrices, or higher-dimensional structures.
 - [Vectorized Array Operations](concepts/VectorizedArrayOperations.md) - Applying arithmetic, comparison, dot-product, and reduction operations across arrays without manual element-by-element loops.

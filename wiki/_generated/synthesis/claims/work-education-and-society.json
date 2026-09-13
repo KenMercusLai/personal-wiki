@@ -452,8 +452,26 @@
         "Adobe",
         "CreativeCloud"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "basic-financial-stability-conditions-work-agency",
+      "qualifications": [
+        "The evidence comes from one worker account and does not establish broader wage distributions or employer intent.",
+        "Financial precarity is not the only work-environment constraint, but the source shows it can dominate learning, focus, health, and attendance."
+      ],
+      "statement": "[[EmployeeFinancialPrecarity]] qualifies work-agency and opportunity claims: [[TaliaJane]] shows that [[WorkEnvironment]] includes cash-flow basics, because low pay relative to rent, transit, food, utilities, copays, and phone bills can undermine focus, health, commute reliability, and practical access to opportunity.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "EmployeeFinancialPrecarity",
+        "TaliaJane",
+        "WorkEnvironment",
+        "StartupCulture",
+        "Yelp",
+        "Eat24"
+      ]
     }
   ],
-  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, and opportunity design. The newest self-education source adds that learning can be treated as recurring maintenance of judgment, opportunity, earning power, and resilience, while the architecture case shows that service boundaries are also work design: repos, queues, deployment surfaces, dependency rollout, test flakiness, autoscaling profiles, and on-call burden can consume or restore engineering capacity.",
+  "summary": "Work, education, and society sources frame effective agency as a mix of habits, environments, learning loops, self-education investment, meaningful goals, career experiments, creator systems, technical standards, infrastructure reasoning, data automation, opportunity design, and basic worker stability. The newest source adds that workplace agency can collapse when wages do not cover rent, food, transit, utilities, health care, and communications, even inside a well-funded technology company.",
   "topic_id": "work-education-and-society"
 }

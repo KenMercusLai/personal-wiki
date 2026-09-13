@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-13
-as_of_overview_commit: 1ee7bb59e174a7ff018c0712cf1048c7be71f43b
-input_digest: 5da4502022ca57f2a560e7a953eff9ed8ece7cc680f2559bfa06fef6a0c17083
+as_of_overview_commit: 36287633c695337da670d34a81d5fef68c73a5fd
+input_digest: 33563a3f116ec4b86381386922bef8d693afd130b15059907e2ad19de07c2ad3
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, and attention constraints keep pace with ambition. Recent sources add five complementary constraints: app landing pages turn pre-product marketing into testable validation and conversion work, Amazon-scale merchants can redirect cryptocurrency-payment adoption, micromobility depends on local operating density, aggregators centralize trust by making stranger transactions acceptable, and DJI shows that founder-led hardware success must evolve from product taste into entropy-reducing management systems.
+Business and market sources show companies and investors converting technology, brand, pricing, media, validation, redesign, organization design, domain modeling, mobile surfaces, local operations, payments, capital, and founder judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that lower-paid support labor can expose a company-value gap when office perks and scale coexist with employee financial precarity.
 
 ## Cross-source Findings
 
@@ -249,3 +249,14 @@ Business and market sources show companies and investors converting technology, 
 **Qualifications:**
 
 - The source is advocacy from authors connected to [[Subledger]] and the export ends mid-history, so it supports the modeling warning more strongly than a complete accounting curriculum or history.
+
+### Tech Company Scale Can Mask Worker Precarity
+
+[[EmployeeFinancialPrecarity]] adds an employee-side constraint to company-value narratives: [[TaliaJane]] describes [[Yelp]] and [[Eat24]] support work where rent, food, transit, utilities, medical copays, and debt made basic stability fragile despite tech-company scale, office perks, and an always-on product promise.
+
+**Evidence:** [[EmployeeFinancialPrecarity]], [[TaliaJane]], [[Yelp]], [[Eat24]], [[StartupCulture]], [[WorkEnvironment]]
+
+**Qualifications:**
+
+- The Talia Jane evidence is a first-person open letter rather than a compensation audit, so claims about Yelp and Eat24 should remain source-scoped.
+- The source documents immediate wage and cost-of-living pressure rather than equity-compensation upside or company-wide payroll policy.

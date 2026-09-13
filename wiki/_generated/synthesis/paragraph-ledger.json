@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6ab09c55a0062cb9c5ec7f9a9a425284bde48345cacb0fe3c8ac679688be5ef6",
       "3ac1f9ab4df71e177645248b42a872d3673fdf9db283d360694f448b815ac690",
       "7e64383c23eb2385b811403684d76c8f252ab6baf47fe2769de8ceaaadecf981",
       "b7635e6a2a6c816a061a7f52abb0033632a270819e4efe83d5df0318b15dd6a1",
@@ -143,11 +144,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 141
+    "paragraph_count": 142
   },
-  "overview_commit": "d32a6420748f52677e4b9cd66c8183b5911e0443",
-  "overview_digest": "a475f40540c3b82ac2fefe5e5a7e462c86729a69a616241824b7b9cba6488b64",
+  "overview_commit": "36287633c695337da670d34a81d5fef68c73a5fd",
+  "overview_digest": "56118cd73638c794fe4bb1c86d1a4a58f44c273529b20f66283ec58d07ea05cc",
   "paragraphs": [
+    {
+      "id": "6ab09c55a0062cb9c5ec7f9a9a425284bde48345cacb0fe3c8ac679688be5ef6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Talia Jane source adds a lower-paid labor and cost-of-living layer to the wiki's workplace and startup material. [[TaliaJane]] describes working in [[Eat24]] customer support under [[Yelp]] while rent, transit, utilities, medical copays, debt, and food costs left basic needs precarious. [[EmployeeFinancialPrecarity]] names the source's central claim: employment inside a well-funded technology company does not guarantee security when compensation fails to match local living costs. The source also qualifies [[StartupCulture]] and [[WorkEnvironment]] by showing how office snacks, executive wealth, public values, and always-on product promises can coexist with workers who cannot afford groceries or reliable transportation to work.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "Eat24",
+        "EmployeeFinancialPrecarity",
+        "StartupCulture",
+        "TaliaJane",
+        "WorkEnvironment",
+        "Yelp"
+      ]
+    },
     {
       "id": "3ac1f9ab4df71e177645248b42a872d3673fdf9db283d360694f448b815ac690",
       "primary_topic": "ai-and-technology",
