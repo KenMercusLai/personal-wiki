@@ -152,6 +152,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby
+
+Added Appcanary's Clojure-to-Ruby retrospective. Key claims: time-pressed startups should prefer familiar tools, small teams should delay distributed systems, developer happiness is a real programming-tool quality, and "simple is not easy" can become harmful when it excuses unfriendly tooling. No image references were present in the source.
+
 ## [2026-09-13] ingest | Andre Staltz - The Web began dying in 2014, here's how
 
 Added Andre Staltz's open-Web decline essay. Key claims: post-2014 traffic and publishing dependence concentrated around Google and Facebook, Amazon supplied the commerce/cloud pillar, mobile and assistants enable browser bypass, and the speculative Trinet future would preserve internet transport while weakening open-Web freedom.
@@ -1294,6 +1298,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Ansible charges into network automation with Cisco, Juniper
 
 Added The Register source on Ansible's move into network automation. Key claims: Ansible 2.0 added network command, configuration, and template modules; initial support covered Arista, Cisco, Juniper, Cumulus Networks, and OpenSwitch; Huawei was absent; and the launch framed network automation around validation, drift compliance, and DevOps collaboration without collapsing network and programmer roles.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

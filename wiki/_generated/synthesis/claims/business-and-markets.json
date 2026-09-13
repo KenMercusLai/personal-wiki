@@ -72,10 +72,11 @@
       "id": "mvps-and-pre-fit-startups-convert-runway-into-learning",
       "qualifications": [
         "Famous MVP examples carry survivorship bias, and the evidence mixes founder retrospectives, advice, profiles, and exceptional cases.",
-        "Founder pitch advice is venture-context communication guidance; it should not be read as permission to overstate execution, product-market fit, unit economics, or team readiness."
+        "Founder pitch advice is venture-context communication guidance; it should not be read as permission to overstate execution, product-market fit, unit economics, or team readiness.",
+        "Tool familiarity and distributed-system restraint are stage-sensitive heuristics, not proof that unfamiliar tools or distributed architectures are always wrong."
       ],
-      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], [[TroughOfSorrow]], [[StartupVisionSelling]], and [[DinnerPartyJerkTest]] frame early startup work as converting time, capital, and stakeholder belief into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, outsourced concept builds, explicit [[StartupHypothesisTesting]], root-bottleneck diagnosis when launch attention fades, and founder pitches that make team fit, earned secrets, proof points, and future upside legible without losing operational honesty.",
-      "status": "supported",
+      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFocus]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[TroughOfSorrow]], [[StartupVisionSelling]], and [[DinnerPartyJerkTest]] frame early startup work as converting time, capital, technical choices, and stakeholder belief into learning through manual workflows, videos, pricing pages, waitlists, customer conversations, small-team leverage, familiar tools, delayed distributed architecture, outsourced concept builds, explicit [[StartupHypothesisTesting]], root-bottleneck diagnosis when launch attention fades, and founder pitches that make team fit, earned secrets, proof points, and future upside legible without losing operational honesty.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "MinimumViableProduct",
         "CustomerLedProductDevelopment",
@@ -91,6 +92,10 @@
         "SmugMug",
         "ProductMarketFit",
         "StartupFocus",
+        "ToolFamiliarity",
+        "DistributedSystemRestraint",
+        "Appcanary",
+        "DeveloperExperience",
         "TroughOfSorrow",
         "AndrewChen",
         "YCombinator",
@@ -547,6 +552,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that mobile platform power separates reach from monetization through the 2015 Google Play versus App Store download/revenue split, that engineer investing must pair technical-domain conviction with business analysis and risk discipline, that early startup pitching must make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth, and that startup-adjacent career moves can be evaluated by the later options they create.",
+  "summary": "Business and market sources show companies, investors, and creators converting technology, brand, pricing, media, validation, onboarding, organization design, domain modeling, local operations, payments, capital, stakeholder belief, tool choice, and judgment into durable value only when distribution, trust, customer evidence, retention, reliability, operating capacity, financial correctness, worker stability, and attention constraints keep pace with ambition. Recent sources add that startups can protect scarce attention through familiar tools and distributed-system restraint, that mobile platform power separates reach from monetization through the 2015 Google Play versus App Store split, that engineer investing must pair technical conviction with business analysis and risk discipline, and that founder pitches should make team fit and upside explicit without confusing optimistic vision with unresolved product-market truth.",
   "topic_id": "business-and-markets"
 }

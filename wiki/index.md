@@ -19,6 +19,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
 - [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
+- [Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby](sources/appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby.md) - Appcanary's Phillip Mendonca-Vieira argues that startups should prefer familiar tools, delay distributed systems, and treat developer happiness as real tool quality.
 - [如何自建一个自己的 cursor codebase？](sources/ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase.md) - A tutorial showing how to build an Agno codebase QA agent with text search and file-segment reading instead of a vector store.
 - [All Thumbs, Why Reach Navigation Should Replace the Navbar in iOS Design](sources/all-thumbs-why-reach-navigation-should-replace-the-navbar-in-ios-design.md) - Brad Ellis argues that larger iPhones make top navbars ergonomically weak and that important mobile navigation should move within thumb reach.
 - [All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding](sources/all-the-questions-you-wanted-answered-about-bird-scooters-and-their-recent-300-million-funding.md) - Mark Suster argues that Bird's rapid scooter-service growth was driven by dense demand, capital, local operations, data, hardware learning, and category-defining brand.
@@ -287,6 +288,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amir Rajan](entities/AmirRajan.md) - Indie game developer whose sabbatical produced the iOS version of A Dark Room and a deeply qualified success story about luck, runway, and returning to work.
 - [A Dark Room](entities/ADarkRoom.md) - Sparse text-based indie game whose iOS port reached #1 on the App Store and became Rajan's central creative and economic case.
 - [RubyMotion](entities/RubyMotion.md) - Mobile development platform Rajan used for his games and later acquired as part of his post-hit income mix.
+- [Appcanary](entities/Appcanary.md) - Startup case where an initial Clojure implementation was discarded in favor of familiar Ruby under product pressure.
+- [Phillip Mendonca-Vieira](entities/PhillipMendoncaVieira.md) - Appcanary author arguing for familiar tools, distributed-system restraint, and developer happiness.
+- [Clojure](entities/Clojure.md) - Lisp-family programming language critiqued through Appcanary's difficult adoption experience and simple-versus-easy debate.
+- [Ruby](entities/Ruby.md) - Programming language praised in the Appcanary essay for familiarity and programmer-happiness values despite technical flaws.
 - [Amy Wibowo](entities/AmyWibowo.md) - Engineer, artist, researcher, and educator whose retrospective connects robotics, creative computing, Airbnb growth work, and computer-science zines.
 - [ASIMO](entities/ASIMO.md) - Honda humanoid robot used in Amy Wibowo's emotion-aware reinforcement-learning work.
 - [Bubblesort Zines](entities/BubblesortZines.md) - Amy Wibowo's illustrated computer-science zine project for accessible, inclusive technical education.
@@ -774,11 +779,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Structured CLI Output](concepts/StructuredCLIOutput.md) - Human-readable and machine-parseable CLI output through row-oriented tables, column controls, JSON, CSV, filters, and sorting.
 - [CLI Command Grammar](concepts/CLICommandGrammar.md) - Structure of commands, subcommands, flags, positional arguments, parsing boundaries, and default invocation behavior.
 - [Developer Tooling](concepts/DeveloperTooling.md) - Software for technical users where documentation, conventions, diagnosability, speed, extensibility, and automation are part of product quality.
+- [Developer Experience](concepts/DeveloperExperience.md) - Usability, affordances, errors, workflows, and happiness of programming tools for developers as end users.
+- [Tool Familiarity](concepts/ToolFamiliarity.md) - Practical advantage from using languages, frameworks, and workflows a team already understands well.
+- [Simple Made Easy](concepts/SimpleMadeEasy.md) - Simple-versus-easy software-design distinction, treated here as valuable but risky when used to excuse poor tool usability.
 - [Developer Platform Trust](concepts/DeveloperPlatformTrust.md) - Developer confidence that a platform's APIs, policies, tools, and posture are stable enough to build on.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
 - [Network Automation](concepts/NetworkAutomation.md) - Using code and explicit operational models to configure, operate, or change networks while preserving design tradeoffs and change safety.
+- [Distributed System Restraint](concepts/DistributedSystemRestraint.md) - Delaying distributed architecture until product needs, team size, and operational capacity justify the complexity.
 - [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, rollout patterns, tests, and rollback mechanisms for moving service changes into production safely.
 - [Service Observability](concepts/ServiceObservability.md) - Metrics, probes, alarms, dashboards, logs, audit trails, and escalation channels used to understand service health.
 - [Internal Developer Platform](concepts/InternalDeveloperPlatform.md) - Internal product layer that gives teams standardized compute, monitoring, logging, backups, scaling, deployment, and rollback defaults.

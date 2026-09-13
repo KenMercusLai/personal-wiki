@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a40198b503fbe1118cfdf1092b24ee782e6785b6761f04933ad309caca860a11",
       "c9795312e24e8b8cb81c86a3bb02d9c5c041fcce257ee9cbbddde0134bb97743",
       "09db6118f3e539f8e538ddaf45e517a88d3853d48d4669f2ad2c7dfcf882c5e7",
       "686aa1ff62b57d56b1fe172ce263b7e48928ff6b2024a311882a24cc93398237",
@@ -161,11 +162,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 159
+    "paragraph_count": 160
   },
-  "overview_commit": "996efd19645f1b1c050291202b8d0d082c173a12",
-  "overview_digest": "29dc10a686edb7fb8950066d072a9943cf82a084601f55fcaac38ca5f072ec70",
+  "overview_commit": "71413985b0bcb3199b9c1cfafa2a43a9ec472e5c",
+  "overview_digest": "8355f88901f3696345a7da6bc3888901adfbab164fc90b7b4f72aad8f0843430",
   "paragraphs": [
+    {
+      "id": "a40198b503fbe1118cfdf1092b24ee782e6785b6761f04933ad309caca860a11",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Appcanary source adds a programming-language and startup-tooling layer to the wiki's developer experience material. [[PhillipMendoncaVieira]] uses [[Appcanary]]'s discarded [[Clojure]] implementation and return to [[Ruby]] to argue that time-pressed startups should prefer familiar tools and keep attention on the business problem. [[ToolFamiliarity]] names that startup heuristic, while [[DistributedSystemRestraint]] captures the parallel architecture warning: avoid distributed systems until team size, coordination capacity, and product need justify the cost. The source also sharpens [[DeveloperExperience]] and [[DeveloperTooling]] through [[SimpleMadeEasy]]: conceptual simplicity can be real and valuable, but \"simple is not easy\" becomes harmful when it excuses poor errors, affordances, onboarding, or programmer unhappiness.",
+      "topic_scores": {
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "Appcanary",
+        "Clojure",
+        "DeveloperExperience",
+        "DeveloperTooling",
+        "DistributedSystemRestraint",
+        "PhillipMendoncaVieira",
+        "Ruby",
+        "SimpleMadeEasy",
+        "ToolFamiliarity"
+      ]
+    },
     {
       "id": "c9795312e24e8b8cb81c86a3bb02d9c5c041fcce257ee9cbbddde0134bb97743",
       "primary_topic": "business-and-markets",
