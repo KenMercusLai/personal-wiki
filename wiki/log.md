@@ -227,10 +227,6 @@ Added source note and synthesis pages for the Feynman Technique, active learning
 
 Ran lint. See lint-report.md for details.
 
-## [2026-09-11] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
-
 ## [2026-09-11] graph | Knowledge graph rebuilt
 
 28 nodes, 103 edges (103 extracted, 0 inferred).
@@ -1555,6 +1551,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] ingest | Betting on Things That Never Change
+
+Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
 
 ## [2026-09-14] lint | Wiki health check
 

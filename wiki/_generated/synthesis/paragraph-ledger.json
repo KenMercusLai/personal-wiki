@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
       "668a1fd832e7f6cb2ec448076fcd07966505c3867ed8c969a2beb8b521671dac",
       "5ed5dbb995b3182f3145d24b1bfab870b1c414b350c7151c7708d66ff5b242ca",
       "8df02e477f3f2db5b44964a027d0b11f55bf3e5e635c771a864460b6326d3aa5",
@@ -190,11 +191,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 188
+    "paragraph_count": 189
   },
-  "overview_commit": "e6d6d29118308a095e1a587287eb2eb49deeb6d1",
-  "overview_digest": "2ed6e9a51351d6cd1b414fed914b4d19e8c9eae3cc356ebcf457dda8dcdfd969",
+  "overview_commit": "520ab2464f6606e5c7ff8f149fed993719721d53",
+  "overview_digest": "ef9c9da60f8c1fd3a9b71295da078606a2e1b5c1528e8d59358542d7864ba1d7",
   "paragraphs": [
+    {
+      "id": "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Collaborative Fund source adds a durable-strategy layer to the wiki's business and investing material. New [[TimelessBusinessStrategy]] names [[MorganHousel]]'s pattern: use technological or market change as the competitive mechanism, but anchor long-term effort in customer desires likely to remain stable, such as low prices, fast delivery, selection, convenience, trust, and transparency. [[Amazon]] gains an origin-level explanation for its later utility-like retail narrative: the Internet changed distribution, while Amazon's early promise of one million titles and consistently low prices targeted old customer values. [[JeffBezos]] supplies the ten-year \"what will not change\" strategy question, while [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame the investment synthesis that successful bets mix change-driven competition with timelessness-driven compounding. The remote lead image returned 404 and the locally referenced Amazon homepage screenshot folder was unavailable, so image evidence could not be incorporated.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Amazon",
+        "GEICO",
+        "JeffBezos",
+        "MarcAndreessen",
+        "MorganHousel",
+        "TimelessBusinessStrategy",
+        "WarrenBuffett"
+      ]
+    },
     {
       "id": "668a1fd832e7f6cb2ec448076fcd07966505c3867ed8c969a2beb8b521671dac",
       "primary_topic": "cross-domain",

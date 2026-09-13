@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Best Practices for API Error Handling](sources/best-practices-for-api-error-handling-dzone-integration.md) - Vineet Joshi argues that REST API errors should pair pragmatic HTTP status-code selection with readable messages, documentation links, graceful client recovery, and clear client-versus-server responsibility boundaries.
+- [Betting on Things That Never Change](sources/betting-on-things-that-never-change-collaborative-fund.md) - Morgan Housel argues that durable strategy combines technological change with stable customer desires such as low prices, selection, speed, convenience, and trust.
 - [I Didn't Need Kubernetes](sources/ben-houston-i-didnt-need-kubernetes.md) - Ben Houston argues that Google Cloud Run was a better fit than Kubernetes for his Docker-based services and tasks because it reduced cost, autoscaling delay, cluster operations, and job-runner complexity.
 - [Being a versatile hacker is becoming more important than knowing frameworks](sources/being-a-versatile-hacker-is-becoming-more-important-than-knowing-frameworks-christian-maioli-m.md) - Christian Maioli M. argues that web developers need broad web-stack fluency, hacker-style curiosity, and trade-off judgment as library combinations outgrow memorized framework knowledge.
 - [Being A Product Manager: How To Get Your Products Built](sources/being-a-product-manager-how-to-get-your-products-built.md) - PMInsider frames pre-greenlight product management around selling ideas, aligning with KPIs, rough visual communication, and prioritizing growth, activation, engagement, reactivation, and revenue ideas.
@@ -280,6 +281,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Benjamin Jones](entities/BenjaminJones.md) - Economist cited for the burden-of-knowledge argument behind complementary-team innovation.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
+- [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
+- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author arguing that businesses and investments compound by pairing change with stable customer demand.
+- [Collaborative Fund](entities/CollaborativeFund.md) - Publication and venture-firm context for Morgan Housel's timeless business strategy essay.
+- [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage.
+- [GEICO](entities/GEICO.md) - Insurance company used to illustrate persistent cost and convenience advantages amid changing channels.
+- [Marc Andreessen](entities/MarcAndreessen.md) - Venture-capital comparison point for investing around technological and market change.
 - [Bitcoin](entities/Bitcoin.md) - Incumbent cryptocurrency framed as vulnerable to merchant-adoption constraints, transaction throughput, and Amazon-scale platform choice.
 - [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
 - [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
@@ -1068,6 +1075,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Effect Log](concepts/EffectLog.md) - Write-ahead log for agent tool calls and external side effects.
 - [Explanatory Writing](concepts/ExplanatoryWriting.md) - Audience-centered tutorial writing that clarifies the promise, grounds abstractions in examples, tests with readers, and revises for comprehension.
 - [Technical Accessibility](concepts/TechnicalAccessibility.md) - Practice of lowering the barrier to approach and understand technical artifacts without changing their underlying substance.
+- [Timeless Business Strategy](concepts/TimelessBusinessStrategy.md) - Strategy pattern of building long-term commitments around stable customer desires while using change to serve them better.
 - [Feynman Technique](concepts/FeynmanTechnique.md) - Learning by setting a target, explaining simply, reviewing gaps, and internalizing understanding.
 - [Family of Origin](concepts/FamilyOfOrigin.md) - Early family field that forms emotional reflexes, relationship expectations, and scarcity or safety assumptions.
 - [Focused Reading](concepts/FocusedReading.md) - Topic-driven information filtering that turns broad intake into reusable research material.
