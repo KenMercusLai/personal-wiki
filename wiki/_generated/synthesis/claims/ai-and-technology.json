@@ -2,155 +2,136 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "ai-works-as-scaffold-under-human-judgment",
+      "id": "underlying-systems-outlast-tool-recipes",
       "qualifications": [
-        "Several sources warn that polished AI output can still be generic, invalid, under-evidenced, or misunderstood without human verification."
+        "Frameworks, platform conventions, and managed services can reduce complexity when their boundaries match the problem.",
+        "The new web-stack source is practitioner advice and its remote images could not be inspected."
       ],
-      "statement": "AI-assisted work is strongest when models provide scaffolding for drafts, prompts, retrieval, code, or analysis while humans retain ownership of claims, examples, architecture, statistical method, review, and final judgment across [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], and [[HumanCodeResponsibility]].",
+      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, and protocol tradeoffs.",
       "status": "supported",
       "supporting_wikilinks": [
-        "AIAssistedWriting",
+        "VersatileWebStackFluency",
+        "FrameworkCombinatorialComplexity",
+        "TechnologyStackComplexity",
+        "NetworkLoadBalancing"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "verification-is-core-accelerator",
+      "qualifications": [
+        "Verification strength depends on coverage, realistic environments, stable expected behavior, and human review of semantic intent."
+      ],
+      "statement": "[[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "SoftwareVerification",
+        "AutomatedGameTesting",
+        "CodeReviewPractice",
+        "StagingEnvironment",
+        "AgentTDDResidual",
+        "HarnessEngineering"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ai-coding-requires-human-judgment-and-harnesses",
+      "qualifications": [
+        "The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign."
+      ],
+      "statement": "AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.",
+      "status": "supported",
+      "supporting_wikilinks": [
         "AICodingPractice",
-        "LLMDataAnalysis",
+        "AIAgentCollaboration",
+        "AIFirstEngineering",
+        "AgentTeam",
         "HumanCodeResponsibility"
       ]
     },
     {
       "global_candidate": true,
-      "id": "verification-is-agentic-speed-limit",
+      "id": "agent-infrastructure-needs-semantic-boundaries",
       "qualifications": [
-        "The sources differ in workflow style, from collaboration-first to automation-first, but converge on verification as the merge or promotion boundary.",
-        "The Riot Games source is not about AI agents, but it reinforces the same feedback-loop pattern through staged trust and anti-flake test conventions.",
-        "The programming-journal source is practitioner advice, but it shows the same evidence habit at the individual debugging level."
+        "Tests and CI remain necessary, but they do not by themselves bound live tool permissions or irreversible side effects."
       ],
-      "statement": "Coding-agent and automation speed depend less on raw generation or execution than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]], [[AutomatedGameTesting]], and individual practices such as [[ProgrammingJournal]] that turn fast output, gameplay change, or debugging work into reviewable, testable, and recoverable feedback.",
+      "statement": "Production-grade agents need infrastructure beyond ordinary app hosting: [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] manage credentials, side effects, recovery, and prompt-injection risk.",
       "status": "supported",
       "supporting_wikilinks": [
-        "SoftwareVerification",
-        "HarnessEngineering",
-        "DeterministicTesting",
-        "SnapshotTesting",
-        "TrustTopology",
-        "AutomatedGameTesting",
-        "ProgrammingJournal"
+        "ProductionAgentInfrastructure",
+        "AgentResumability",
+        "AgentPermissionModel",
+        "AgentSystemTransparency",
+        "AgentInterfaceAsContext",
+        "ComputerUse"
       ]
     },
     {
       "global_candidate": true,
-      "id": "context-and-infrastructure-bound-agent-reliability",
+      "id": "context-management-shapes-llm-tool-behavior",
       "qualifications": [
-        "Traditional tests, CI/CD, and observability remain necessary but are not sufficient for autonomous agents with credentials and irreversible actions."
+        "More context is not automatically better; compression, stale indexes, cache constraints, and context pollution can all degrade behavior."
       ],
-      "statement": "Agent reliability is bounded by [[LLMContextManagement]], [[AgentMemory]], [[ProductionAgentInfrastructure]], [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], and [[SemanticIsolation]] because long-running, high-permission agents need recoverable state and constrained side effects.",
+      "statement": "[[LLMContextManagement]] connects retrieval, memory, prompt caching, skills, MCP, Computer Use, and tape-and-anchor designs because each changes what the model can see or do at action time.",
       "status": "supported",
       "supporting_wikilinks": [
         "LLMContextManagement",
+        "RetrievalAugmentedGeneration",
         "AgentMemory",
-        "ProductionAgentInfrastructure",
-        "EffectLog",
-        "CapabilityGateway",
-        "ForkRecovery",
-        "SemanticIsolation"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "tool-fit-beats-tool-absolutism",
-      "qualifications": [
-        "The Ansible-versus-Nornir evidence is a 2019 local templating benchmark, so it qualifies rather than fully replaces broader Ansible network-automation claims.",
-        "SQLite is strongest in a single-machine, read-heavy operating shape; high availability, heavy writes, long transactions, backups, or migration needs can make PostgreSQL or MySQL simpler.",
-        "The seetd source explains the model and search method, but does not measure whether optimized seating improved collaboration or comfort."
-      ],
-      "statement": "The infrastructure, architecture, and optimization sources repeatedly favor tool fit over absolutism: [[NetworkAutomation]] must account for design cost and local processing overhead, [[Ansible]] can be useful yet poorly suited to some large data-heavy workflows, [[Nornir]] can fit those workflows better, [[DatabaseConsolidation]] warns against premature specialization, [[SQLiteProductionTradeoffs]] show that simplification through [[SQLite]] depends on workload constraints, and [[OfficeSeatingOptimization]] chooses [[SimulatedAnnealing]] when simple [[LinearProgramming]] assignment is too restrictive.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "NetworkAutomation",
-        "Ansible",
-        "Nornir",
-        "DatabaseConsolidation",
-        "SQLiteProductionTradeoffs",
-        "SQLite",
-        "OfficeSeatingOptimization",
-        "SimulatedAnnealing",
-        "LinearProgramming"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "data-value-requires-method-and-closed-loop-use",
-      "qualifications": [
-        "The LLM data-analysis source adds that easy model-generated exploration can slip into [[PHacking]] if humans do not own methodology.",
-        "The Algorithmia source uses a motivational 10x frame, but its durable claim is about business context, data provenance, testable pipelines, deployment, and debugging rather than measured 10x productivity."
-      ],
-      "statement": "Data work creates value when organizations combine sound method, engineering practice, and action loops: [[IndustryDataScience]], [[DataScienceEngineeringPractice]], [[DataScienceTechnologyAdoption]], [[BigDataIndustryTransformation]], [[BehavioralData]], and [[AutomatedDataApplication]] distinguish reusable, business-connected data systems from dashboards, invalid analyses, or mere tool adoption.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "IndustryDataScience",
-        "DataScienceEngineeringPractice",
-        "DataScienceTechnologyAdoption",
-        "BigDataIndustryTransformation",
-        "BehavioralData",
-        "AutomatedDataApplication"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "platforms-shape-discovery-runtime-and-trust",
-      "qualifications": [
-        "Some sources are strategic essays rather than measurements; they are strongest as mechanism maps rather than forecasts.",
-        "Exit-enabling technology claims should be separated from evidence that a given technology actually defeats regulation or creates fair access."
-      ],
-      "statement": "Platform power appears through control of discovery, runtime, trust, subscriptions, ecosystem lock-in, and the cost of exit; [[ExitAsGovernance]] adds the inverse technology thesis that software, forks, and protocols can lower dependence on incumbents.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "WebCentralization",
-        "BrowserBypass",
-        "MobileEcosystem",
-        "MobilePlatformDiscovery",
-        "MarketplaceTrust",
-        "PlatformStickiness",
-        "SubscriptionSurplusAlignment",
-        "ExitAsGovernance"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "production-reliability-needs-realistic-evidence",
-      "qualifications": [
-        "The sources span startups, game servers, network automation, staging, automated game testing, and database deployment, so the shared claim is about operational pattern rather than one stack.",
-        "BVS numbers and architecture come from Riot's 2016 company-authored source and should be treated as source-date-specific."
-      ],
-      "statement": "Production reliability depends on realistic evidence and operational design, including [[StagingEnvironment]], [[ChaosEngineering]], [[ChangeSafety]], [[AutomatedGameTesting]], [[BuildVerificationSystem]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[ContinuousGameServerUpdates]], [[StartupSecurityDebt]], and [[DatabaseTransactionIsolation]].",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "StagingEnvironment",
-        "ChaosEngineering",
-        "ChangeSafety",
-        "AutomatedGameTesting",
-        "BuildVerificationSystem",
-        "GameServerScaleAndStability",
-        "GameServerSLA",
-        "ContinuousGameServerUpdates",
-        "StartupSecurityDebt",
-        "DatabaseTransactionIsolation"
+        "PromptCaching",
+        "ComputerUse",
+        "TapeAndAnchors"
       ]
     },
     {
       "global_candidate": false,
-      "id": "formal-models-make-operational-tradeoffs-visible",
+      "id": "data-work-needs-domain-and-method-checks",
       "qualifications": [
-        "A formal model can create false objectivity if the chosen cost terms and weights are treated as neutral rather than policy choices.",
-        "The seetd GIF assets were missing during ingest, so the generated synthesis relies on the article prose and available title image rather than inspected animations."
+        "LLMs can help transform and explain data, but statistical design and p-hacking checks remain human responsibilities."
       ],
-      "statement": "Formal models make messy operational tradeoffs inspectable when teams turn goals into variables, constraints, and cost terms: [[Seetd]] uses [[OfficeSeatingOptimization]] to expose choices about team proximity, preferences, movement, and new-neighbor exposure before searching with [[SimulatedAnnealing]].",
-      "status": "qualified",
+      "statement": "Useful data and AI applications require domain framing, valid methods, and operational loops, whether in [[IndustryDataScience]], [[LLMDataAnalysis]], [[BigDataIndustryTransformation]], or private-data chatbot systems.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "Seetd",
-        "OfficeSeatingOptimization",
-        "SimulatedAnnealing"
+        "IndustryDataScience",
+        "LLMDataAnalysis",
+        "PHacking",
+        "BigDataIndustryTransformation",
+        "PrivateDataChatbot"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "architecture-simplification-is-contextual",
+      "qualifications": [
+        "Single-system choices can become wrong when availability, write concurrency, dependency isolation, or scale constraints change."
+      ],
+      "statement": "Architecture simplification is contextual: [[DatabaseConsolidation]], [[SQLiteProductionTradeoffs]], [[MonolithConsolidation]], and [[CodingAgentMinimalTooling]] all reduce moving parts only when their operational limits fit the workload.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "DatabaseConsolidation",
+        "SQLiteProductionTradeoffs",
+        "MonolithConsolidation",
+        "CodingAgentMinimalTooling",
+        "MicroserviceOperationalOverhead"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "platforms-reshape-discovery-and-economics",
+      "qualifications": [
+        "Demand proxies such as traffic and cost references are directional rather than direct measurements of production use or business value."
+      ],
+      "statement": "Technology platforms reshape discovery, economics, and developer demand through mobile ecosystems, web centralization, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "MobileEcosystem",
+        "MobilePlatformDiscovery",
+        "WebCentralization",
+        "ProgrammingTechnologyDemand",
+        "ProductivityAppSubscriptions"
       ]
     }
   ],
-  "summary": "The technology material treats AI, software architecture, infrastructure, databases, platforms, game automation, optimization, data science, and exit-enabling systems as technologies whose benefits depend on fit, verification, data quality, operational constraints, and governance context. AI accelerates writing, coding, retrieval, analysis, and agentic workflows when humans keep ownership of judgment, architecture, validation, and context management; the same tools become risky when they replace statistical reasoning, learning, code review, or safety boundaries. The programming-journal and data-science engineering sources add low-level developer practices to the same pattern: even before automation enters the scene, code work improves when design reasoning, reproduction steps, tested transformations, failed fixes, and lessons become visible records. The broader software and infrastructure sources echo that pattern: network automation, staging, SQLite and PostgreSQL tradeoffs, mobile platforms, cloud security, automated game testing, Bitcoin-as-exit claims, and seetd's seating optimization all need workload-, institution-, and objective-aware qualification rather than simple technology triumphalism.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, data-science practice, production verification, infrastructure cost, database and network tradeoffs, mobile platforms, AI agents, and LLM workflows. Across sources, the strongest throughline is that powerful tools only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, and side effects.",
   "topic_id": "ai-and-technology"
 }

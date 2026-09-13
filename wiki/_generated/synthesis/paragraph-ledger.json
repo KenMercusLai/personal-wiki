@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8df02e477f3f2db5b44964a027d0b11f55bf3e5e635c771a864460b6326d3aa5",
       "35f009164a4bbb7d948102ca5d495aca4fd2116dd05d136f1f1c5076df87b31b",
       "85197be8a23d8b6331d8ce229d2e43291d8f02016741c1c2782e56e6c4fdae8c",
       "4f3bc423d395f3d2be26917492b1dfb34e596447b7c0f08d5267094275be6497",
@@ -187,11 +188,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 185
+    "paragraph_count": 186
   },
-  "overview_commit": "6c8fba3773240880296c893d19ff918327cd33d1",
-  "overview_digest": "763c408a793bcd991e8f3a58cd0e87f326f2dea4074524f0daa926c1b3575a38",
+  "overview_commit": "049ba991961ddc18bd0c37922e4baa80bf1c985b",
+  "overview_digest": "4a413c5f982e3c8222482d29176485ae9a8c850975ba9cea1fef119fbe899c0a",
   "paragraphs": [
+    {
+      "id": "8df02e477f3f2db5b44964a027d0b11f55bf3e5e635c771a864460b6326d3aa5",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Christian Maioli M. source adds a pre-AI web-development learning layer to the wiki's software-practice material. [[VersatileWebStackFluency]] reframes \"full stack\" as knowledge of protocols, servers, caching, Unix daemons, encodings, and other underlying web mechanics rather than only frontend/backend framework pairings. [[FrameworkCombinatorialComplexity]] names the pressure created when multiplying libraries produce too many possible integrations for exact prior knowledge or search results to cover. [[HackerStyleTechnicalCuriosity]] connects older hacker culture, [[Antifragile]], and [[JohnCarmack]]'s cited framing into a posture of reading around problems, studying trade-offs, experimenting, and using messy technical work as learning material, while qualifying that curiosity still needs time management and expectation setting. The three remote images referenced by the source returned `Forbidden` and could not be inspected.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "Antifragile",
+        "FrameworkCombinatorialComplexity",
+        "HackerStyleTechnicalCuriosity",
+        "JohnCarmack",
+        "VersatileWebStackFluency"
+      ]
+    },
     {
       "id": "35f009164a4bbb7d948102ca5d495aca4fd2116dd05d136f1f1c5076df87b31b",
       "primary_topic": "work-education-and-society",

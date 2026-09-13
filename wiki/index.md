@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Being a versatile hacker is becoming more important than knowing frameworks](sources/being-a-versatile-hacker-is-becoming-more-important-than-knowing-frameworks-christian-maioli-m.md) - Christian Maioli M. argues that web developers need broad web-stack fluency, hacker-style curiosity, and trade-off judgment as library combinations outgrow memorized framework knowledge.
 - [Being A Product Manager: How To Get Your Products Built](sources/being-a-product-manager-how-to-get-your-products-built.md) - PMInsider frames pre-greenlight product management around selling ideas, aligning with KPIs, rough visual communication, and prioritizing growth, activation, engagement, reactivation, and revenue ideas.
 - [Being a Junior Developer at 30](sources/being-a-junior-developer-at-30-by.md) - A later-life tech career-change reflection arguing that junior developer learning depends on practice, feedback, mentorship, community participation, boundaries, and transferable maturity.
 - [Being Different Beats Being Better](sources/being-different-beats-being-better-darius-foroux.md) - Darius Foroux argues that business and career success often come from being meaningfully different, first in a category, or distinctive through skill stacking rather than marginally better.
@@ -198,6 +199,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Christian Maioli M.](entities/ChristianMaioliM.md) - Practitioner author arguing for versatile hacker-style web-development judgment over framework memorization.
+- [John Carmack](entities/JohnCarmack.md) - Programmer cited as the bridge between antifragility and hacker-style technical work.
+- [Antifragile](entities/Antifragile.md) - Taleb book cited as the conceptual source for thriving under disorder and volatility.
 - [Algorithmia](entities/Algorithmia.md) - Machine-learning company and publisher represented by the data-science engineering-practice article.
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
 - [BJ Fogg](entities/BJFogg.md) - Behavior-design researcher and author presenting the Fogg Behavior Model and Stanford Behavior Design Lab context.
@@ -727,6 +731,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Versatile Web Stack Fluency](concepts/VersatileWebStackFluency.md) - Broad web-development competence grounded in protocols, servers, operations, encodings, caching, and integration boundaries rather than only framework names.
+- [Framework Combinatorial Complexity](concepts/FrameworkCombinatorialComplexity.md) - Integration difficulty created when libraries and frameworks can combine in more ways than tutorials, search, or prior experience can cover.
+- [Hacker-Style Technical Curiosity](concepts/HackerStyleTechnicalCuriosity.md) - Programming posture of exploring systems, reading beyond first answers, studying trade-offs, and using messy technical work as learning material.
 - [Exit as Governance](concepts/ExitAsGovernance.md) - Governance frame where credible alternatives, switching, forking, founding, relocation, or opt-out infrastructure discipline institutions.
 - [Opt-In Society](concepts/OptInSociety.md) - Voluntary technology-mediated society that people join by choice rather than inherited jurisdiction.
 - [Paper Belt](concepts/PaperBelt.md) - Srinivasan's label for paper-era institutional centers in education, media, finance, entertainment, and law.
