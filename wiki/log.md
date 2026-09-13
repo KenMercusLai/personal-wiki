@@ -128,6 +128,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-13] ingest | Adapting Network Design to Support Automation
+
+Added the ipSpace.net source note, created [[NetworkAutomation]], [[IvanPepelnjak]], and [[IpSpace]], and connected the article's automation-as-design-requirement argument to infrastructure-as-code and change-safety concepts.
+
 ## [2026-09-13] ingest | A comprehensive (and honest) list of UX cliches - UX Collective
 
 ## [2026-09-12] ingest | 由「上线」产生的思考
@@ -973,6 +977,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-13] ingest | Above Avalon: The Race to a Trillion
 
 Added source note for Neil Cybart's 2018 corporate-giant essay, created [[Amazon]] and [[CorporateGiantFragility]], and updated Apple/Above Avalon/Cybart plus Google, Microsoft, and Facebook with the trillion-dollar-race and incumbent-fragility frame.
+
+## [2026-09-13] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-13] lint | Wiki health check
 

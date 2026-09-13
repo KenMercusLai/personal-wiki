@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [Academia to Data Science](sources/academia-to-data-science-airbnb-engineering-data-science-medium.md) - Airbnb data scientists advise academics moving into industry data science, emphasizing business framing, communication, messy logged data, fast iteration, and knowledge-sharing.
 - [Active vs Passive Investing](sources/active-vs-passive-investing-avc.md) - Fred Wilson argues that investors should choose between active, concentrated investing and passive, diversified investing because real active involvement is hard to scale.
+- [Adapting Network Design to Support Automation](sources/adapting-network-design-to-support-automation-ipspace-net-blog.md) - Ivan Pepelnjak argues that network automation is a design requirement whose practical value depends on simplicity, synchronized code, and preserving other network properties.
 - [Above Avalon: The Race to a Trillion](sources/above-avalon-the-race-to-a-trillion.md) - Neil Cybart argues that Apple, Amazon, Alphabet/Google, Microsoft, and Facebook were powerful software-era giants, but cash, data, and scale did not make them immune to cultural and process-driven disruption.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
@@ -133,6 +134,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
+- [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
+- [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
 - [此间的山林](entities/CiJianDeShanLin.md) - Authorial identity synthesizing distributed-systems and verification-topology arguments for multi-agent AI coding.
 - [Kiran](entities/Kiran.md) - Formal-verification researcher presented as applying distributed-consensus, FLP, and Byzantine-fault reasoning to multi-agent software development.
 - [Michael Rothrock](entities/MichaelRothrock.md) - Software engineer presented as the source of the Trust Topology reliability framework for AI-agent coding pipelines.
@@ -603,6 +606,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
+- [Network Automation](concepts/NetworkAutomation.md) - Using code and explicit operational models to configure, operate, or change networks while preserving design tradeoffs and change safety.
 - [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, rollout patterns, tests, and rollback mechanisms for moving service changes into production safely.
 - [Service Observability](concepts/ServiceObservability.md) - Metrics, probes, alarms, dashboards, logs, audit trails, and escalation channels used to understand service health.
 - [Internal Developer Platform](concepts/InternalDeveloperPlatform.md) - Internal product layer that gives teams standardized compute, monitoring, logging, backups, scaling, deployment, and rollback defaults.

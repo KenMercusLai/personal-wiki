@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-13
-as_of_overview_commit: ab0b1df4599da9c444251eb9d0f9e19f3c18ded6
-input_digest: 6e88a98e4e75b205c80d798a380f3203dd68323b9488ab108f54b501094334db
+as_of_overview_commit: 27cb7de967c5e3155f3de3ba88331a9cc8334182
+input_digest: 9b1d572289a83e380e1788cc1dc26df18c9006487dfd3040d7912c4f6fb44c48
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, and domain-correct representations. The accounting primer adds that software which tracks money needs financial concepts such as double-entry accounting, not only convenient application records or generated reports.
+AI and technology sources emphasize that useful systems depend on human judgment, explicit models, reliable context/action boundaries, workload-aware infrastructure, real-world verification, domain-correct representations, and automation that stays aligned with the systems it changes. The newest network-automation source adds that executable operational knowledge must be designed around topology and change-safety tradeoffs, not automation hype alone.
 
 ## Cross-source Findings
 
@@ -89,13 +89,13 @@ AI and technology sources emphasize that useful systems depend on human judgment
 
 ### Ai Serving Data And Network Architecture Need Workload Contracts
 
-[[InferenceLoadBalancing]], [[KVCacheAwareRouting]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], and [[Pgvector]] show that routing and data architecture should specialize only when workload-aware metrics, packet contracts, recall, latency, scale, or capability benefits outweigh operational complexity.
+[[InferenceLoadBalancing]], [[KVCacheAwareRouting]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[NetworkAutomation]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], and [[Pgvector]] show that routing, automation, and data architecture should specialize only when workload-aware metrics, packet contracts, topology simplicity, recall, latency, scale, or capability benefits outweigh operational complexity.
 
-**Evidence:** [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]], [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], [[DynamoInferencePlatform]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], [[AlibabaCloud]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], [[Timescale]], [[Pgvector]], [[VectorDatabase]], [[ApproximateNearestNeighborSearch]]
+**Evidence:** [[InferenceLoadBalancing]], [[InferenceTokenization]], [[KVCacheAwareRouting]], [[AIBrix]], [[Kthena]], [[GatewayAPIInferenceExtension]], [[DynamoInferencePlatform]], [[NetworkLoadBalancing]], [[LVSForwardingModes]], [[LinuxVirtualServer]], [[AlibabaCloud]], [[NetworkAutomation]], [[IvanPepelnjak]], [[InfrastructureAsCode]], [[ChangeSafety]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[PostgreSQL]], [[Timescale]], [[Pgvector]], [[VectorDatabase]], [[ApproximateNearestNeighborSearch]]
 
 **Qualifications:**
 
-- The routing evidence is architectural critique and packet-flow explanation rather than neutral cross-provider benchmarking, while the PostgreSQL and pgvector evidence is advocacy or benchmark-specific.
+- The routing evidence is architectural critique and packet-flow explanation rather than neutral cross-provider benchmarking, the PostgreSQL and pgvector evidence is advocacy or benchmark-specific, and the network-automation evidence is an opinion essay rather than a topology comparison.
 
 ### Deep Learning And Automation Need Real World Evidence
 
@@ -119,13 +119,14 @@ AI and technology sources emphasize that useful systems depend on human judgment
 
 ### Live Scale Engineering Needs Realistic Verification
 
-[[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, staging realism, traffic, and controlled failure.
+[[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], and [[SoftwareVerification]] show that production engineering depends on realistic evidence from scale, observability, compatibility-aware rollout, topology-aware automation, staging realism, traffic, and controlled failure.
 
-**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[StagingEnvironment]], [[ChangeSafety]], [[ChaosEngineering]], [[SoftwareVerification]]
+**Evidence:** [[GameServerLaunchExperience]], [[GameServerScaleAndStability]], [[GameServerSLA]], [[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[ContinuousGameServerUpdates]], [[StagingEnvironment]], [[ChangeSafety]], [[NetworkAutomation]], [[InfrastructureAsCode]], [[ChaosEngineering]], [[SoftwareVerification]]
 
 **Qualifications:**
 
 - Game-server evidence is domain-specific, and staging realism reduces but does not eliminate production risk because scale, data, and failure timing can still differ.
+- Network automation adds a design-synchronization risk: executable operational code can drift from the real topology and create failures.
 
 ### Company Data Science Needs Role Design
 

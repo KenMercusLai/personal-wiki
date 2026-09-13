@@ -4,6 +4,7 @@
       "6dc1ae1fd7a0c6cbaef4890dab7b2ee58d23fa013a2f0e8a8d2ec9dd33e742c2",
       "496719edeb2659d837f5537c613296a863dfa033ee85c33d01a90e9dc703716b",
       "fe9b5bb421b74bdfc86ba13fd0519c9ed17b934f1f9210aa9124258cd185416e",
+      "59fdc30be71d5857044b042b83e56c39fef58b09504e47cf878af6d6507cda73",
       "19b5334b0c03adf671937cd0f25edd5e1a5461754af51e94421ab8032eb5e4ab",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
       "528bc6c5cf7d6a7a300c11d448fefa8167a0ec8e4e3836d49fe270a95fcbbcf4",
@@ -124,10 +125,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 122
+    "paragraph_count": 123
   },
-  "overview_commit": "b1ffaa2d04516abdb816105d81e1594f592f27bb",
-  "overview_digest": "55bd273b6b73e35b522247e59728e8c49aeedfdc8a59681f0aec7b404f98fd77",
+  "overview_commit": "27cb7de967c5e3155f3de3ba88331a9cc8334182",
+  "overview_digest": "3f3fec70f7019ddc0efe05515ccc98851595db66fe82d5e1b1dbf6743efb3db2",
   "paragraphs": [
     {
       "id": "6dc1ae1fd7a0c6cbaef4890dab7b2ee58d23fa013a2f0e8a8d2ec9dd33e742c2",
@@ -186,6 +187,21 @@
         "JohnMcKee",
         "LucaPacioli",
         "TomMornini"
+      ]
+    },
+    {
+      "id": "59fdc30be71d5857044b042b83e56c39fef58b09504e47cf878af6d6507cda73",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The ipSpace.net source adds a networking-specific automation design layer. [[IvanPepelnjak]] argues that [[NetworkAutomation]] is theoretically possible for any precisely described operation, but practically constrained by the cost of describing and maintaining operations in snowflake network designs. Automation therefore joins security, convergence, latency, jitter, and reliability as one requirement in the architecture tradeoff set rather than a reason to flatten every network by default. This also sharpens [[InfrastructureAsCode]] and [[ChangeSafety]]: automation code is executable operational knowledge, so it must stay synchronized with real network design or it can become a direct source of failure.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "InfrastructureAsCode",
+        "IvanPepelnjak",
+        "NetworkAutomation"
       ]
     },
     {
