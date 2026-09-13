@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 5b8805bf1f1829f74b620c0f5a2d29d639a68d2d
-summary: "A systems map of technology, work, markets, learning, governance, and agency centered on fit, evidence, trust, verification, and constraints."
-episode_count: 172
-source_count: 172
-paragraph_count: 167
+as_of_overview_commit: 0b1d5e6e978f478c0ef1ab95bb91f477b9248871
+summary: "The wiki maps tools, platforms, work, culture, and markets as feedback systems whose value depends on fit, evidence, and accountable judgment."
+episode_count: 173
+source_count: 173
+paragraph_count: 168
 topic_count: 9
 ---
 
@@ -16,69 +16,72 @@ topic_count: 9
 
 ## Executive Summary
 
+- AI-assisted work is strongest when models provide scaffolding for drafts, prompts, retrieval, code, or analysis while humans retain ownership of claims, examples, architecture, statistical method, review, and final judgment across [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], and [[HumanCodeResponsibility]].
 - Coding-agent speed depends less on raw generation than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], and [[TrustTopology]] that turn model output into reviewable, testable, and recoverable changes.
-- The infrastructure and architecture sources repeatedly favor tool fit over absolutism: [[NetworkAutomation]] must account for design cost and local processing overhead, [[Ansible]] can be useful yet poorly suited to some large data-heavy workflows, [[Nornir]] can fit those workflows better, [[DatabaseConsolidation]] warns against premature specialization, and [[SQLiteProductionTradeoffs]] show that even radical simplification through [[SQLite]] depends on workload, file-system, transaction, and availability constraints.
-- [[SaaSMarketing]] uses trust and acquisition loops such as [[AppLandingPages]], [[SocialProof]], [[GrowthHacking]], [[ViralLoops]], [[FreemiumAcquisition]], [[ContentLedAcquisition]], [[MarketplaceTrust]], [[ConversionRateOptimization]], and [[ProductFlowFriction]], but [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] qualify acquisition-first growth: offers, steps, channels, and retained use should be judged by retained revenue, [[CustomerAcquisitionCost]] recovery, [[CustomerLifetimeValue]], low-churn customer fit, compounding product value, and whether continued use reflects current value rather than only [[SunkCostFallacy]].
-- [[PrivacyPovertyDivide]] frames privacy as class-differentiated governance: [[WelfareSurveillance]] makes benefits access conditional on intrusive verification, [[DataBrokerPersistence]] and [[AlgorithmicDecisionOpacity]] can turn hidden or stale records into hard-to-contest denials, and [[SurveillanceGap]] shows that marginalized people can also be harmed by too little usable documentation.
-- Goals, abstraction, opportunity-cost awareness, [[SunkCostFallacy]] detection, and optimization metaphors can focus agency when they turn vague desire into chosen direction, repeated attention, concrete tradeoffs, and clearer separation between unrecoverable past costs and still-open future choices through [[GoalSetting]], [[OpportunityCost]], [[SelfDiscipline]], and [[PersonalProductivity]].
-- [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[MorningRecoveryRoutine]], and [[BurnoutPrevention]] are framed as lightweight systems for reducing avoidable friction: priorities, single-tasking, reflection prompts, idea capture, scheduled writing, device boundaries, sleep, recovery routines, and workplace norms can protect energy and attention before work begins.
+- [[RuleOfThreesProductDevelopment]], [[NetPromoterScore]], and [[ProductRedesign]] connect metrics, research, redesign, and shipping through [[ProductMetricLadder]], [[ProductStorytelling]], [[UserResearchPatternThreshold]], [[CustomerLedProductDevelopment]], [[UserJourneyMapping]], [[InternalCoDesign]], [[InformationHierarchy]], [[IterativeProductShipping]], and [[ProductRetrospectives]].
+- [[WebCentralization]], [[BrowserBypass]], and [[Trinet]] extend the platform-power thread beyond payments and publishing: Google, Facebook, and Amazon can centralize discovery, social traffic, commerce, hosting, and access while the broader internet keeps growing, making independent websites less necessary and weakening open-Web freedom.
+- Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout.
+- Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, or user response into better future decisions.
+- Workplace systems can either protect capacity and dignity or intensify precarity, exclusion, and operational strain.
+- [[AppleContentDistributionStrategy]], [[AppleMusicCulturePlatform]], [[StreamingContentEconomics]], [[MediaBrandPortfolio]], [[PlatformPublisherRevenue]], and [[DigitalMediaMonetization]] connect media access, artist relationships, shared moments, publisher revenue, and platform economics.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI, infrastructure, data, and platforms create leverage when matched to verification, context, operational fit, and human judgment.
+AI, software architecture, infrastructure, databases, and platforms are treated as systems whose benefits depend on fit, verification, data quality, and operational constraints.
 
 - AI-assisted work is strongest when models provide scaffolding for drafts, prompts, retrieval, code, or analysis while humans retain ownership of claims, examples, architecture, statistical method, review, and final judgment across [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], and [[HumanCodeResponsibility]]. Evidence: [[AIAssistedWriting]], [[AICodingPractice]], [[LLMDataAnalysis]], [[HumanCodeResponsibility]].
 - Coding-agent speed depends less on raw generation than on [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], and [[TrustTopology]] that turn model output into reviewable, testable, and recoverable changes. Evidence: [[SoftwareVerification]], [[HarnessEngineering]], [[DeterministicTesting]], [[SnapshotTesting]], [[TrustTopology]].
 
 ### Business and Markets
 
-Business value depends on distribution, trust, retention, pricing, customer evidence, operating capacity, and disciplined capital or attention use.
+Business value emerges when technology, brand, pricing, validation, trust, retention, domain modeling, and operating capacity keep pace with ambition.
 
 - [[ActiveInvesting]], [[PassiveInvesting]], and [[PortfolioConcentration]] frame investing strategy as a fit between capital, control, liquidity, diversification, and scarce investor attention: [[FredWilson]] argues that active investors must concentrate because real involvement does not scale like passive exposure. Evidence: [[ActiveInvesting]], [[PassiveInvesting]], [[PortfolioConcentration]], [[FredWilson]].
 - [[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], and [[EngineerLeverage]] extend the investing and creator-business thread: [[Tw93]] frames engineers as able to use technical-domain understanding around AI, semiconductors, software, cloud, and Bitcoin-adjacent themes, but only when checked by company analysis, future cash-flow thinking, financial-statement reading, valuation, downside math, and avoidance of margin, shorting, unfamiliar speculation, frequent trading, and blind high-point chasing. Evidence: [[EngineerInvestment]], [[InvestmentRiskDiscipline]], [[IndexFundStrategy]], [[EngineerLeverage]], [[Tw93]].
 
 ### Cross-domain
 
-Across fields, constraints become useful when made visible: interface reach, growth levers, security exposure, and simplification tradeoffs shape design.
+Cross-domain examples link interface, business, security, and algorithms through the repeated pattern that systems improve when their constraints become visible.
 
 - Making constraints visible changes design choices, whether the constraint is thumb reach in [[IOS]], growth mix in [[AppleGrowthLevers]], exposed service risk in [[DefensivePortTriage]], or display cost in [[TrajectorySimplification]]. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]], [[AppleGrowthLevers]], [[DefensivePortTriage]], [[TrajectorySimplification]].
 - Mobile platforms join strategic control with embodied use: [[IOS]] controls service access and app economics while larger screens make [[ThumbReachErgonomics]] and [[ReachNavigation]] part of platform-era design. Evidence: [[IOS]], [[ThumbReachErgonomics]], [[ReachNavigation]].
 
 ### Culture and Media
 
-Media and culture sources connect creator workflows, streaming platforms, translation, games, reading systems, brand economics, and aesthetic framing.
+Culture and media sources connect media form, creator workflow, translation, games, product language, content distribution, and platform economics.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance sources show how privacy burdens, documentation gaps, platform access, data systems, and public tools allocate opportunity and control.
+Governance sources span platform control, privacy burdens, startup and infrastructure operations, civic technology accountability, and now personalization systems that need exploration, replay, and quality controls.
 
-- [[PrivacyPovertyDivide]] frames privacy as class-differentiated governance: [[WelfareSurveillance]] makes benefits access conditional on intrusive verification, [[DataBrokerPersistence]] and [[AlgorithmicDecisionOpacity]] can turn hidden or stale records into hard-to-contest denials, and [[SurveillanceGap]] shows that marginalized people can also be harmed by too little usable documentation. Evidence: [[PrivacyPovertyDivide]], [[WelfareSurveillance]], [[DataBrokerPersistence]], [[AlgorithmicDecisionOpacity]], [[SurveillanceGap]].
+- Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
+- Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]].
 
 ### History and Geopolitics
 
-This topic mainly tracks technology and market histories, including app-store geography, software-product chronology, accounting, and interface conventions.
+History and geopolitics currently contains technology, accounting, interface, and market-geography histories more than substantive geopolitical claims.
 
 ### Psychology and Personal Development
 
-Agency is shaped by reflection, goals, opportunity cost, sunk-cost awareness, body capacity, interface legibility, trust, and social feedback.
+Personal-development sources frame agency as shaped by reflective habits, goals, opportunity cost, sunk-cost awareness, evidence calibration, body capacity, legible interfaces, and trust systems.
 
 - Short reflective and capture practices can increase agency by turning daily experience, spoken ideas, and reading into gratitude, learning, connection, reusable knowledge, and draft material through [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], and [[AIAssistedWriting]]. Evidence: [[JournalingPractice]], [[GratitudePractice]], [[ReflectiveConnection]], [[ActiveLearning]], [[PersonalKnowledgeManagement]], [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 - Work, design, and creative behavior are vulnerable to status performances, slogan-based authority, and platform feedback loops, so apparent productivity or expertise needs to be tested against evidence, ownership, audience value, and concrete next steps. Evidence: [[CorporateSatire]], [[PerformativeMeetingBehavior]], [[UXDesignClicheRhetoric]], [[UserResearchPatternThreshold]], [[CreatorAnxiety]], [[CreatorPlatformMetrics]], [[CreatorPositioning]], [[PersonalBranding]], [[Xiaohongshu]].
 
 ### Science, Health, and Climate
 
-The topic is indirect, covering scientific-computing tools, attention as a scarce resource, intrinsic-value limits, and technology-adoption caveats.
+Science and health material remains mostly indirect, covering scientific Python, attention scarcity, intrinsic-value uncertainty, and institutional patterns in data-science adoption.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and education depend on routines, recovery, learning loops, workplace fields, platform structures, institutional constraints, and business systems.
+Work and education sources link learning, career development, workplace conditions, independent work, product discipline, and infrastructure as feedback and opportunity systems.
 
-- [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[MorningRecoveryRoutine]], and [[BurnoutPrevention]] are framed as lightweight systems for reducing avoidable friction: priorities, single-tasking, reflection prompts, idea capture, scheduled writing, device boundaries, sleep, recovery routines, and workplace norms can protect energy and attention before work begins. Evidence: [[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[MorningRecoveryRoutine]], [[BurnoutPrevention]].
-- [[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, refusal of attention-capturing defaults, and deliberate boundaries before the day is captured by external feeds. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]], [[SelfDiscipline]], [[PavelDurov]].
+- Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, or user response into better future decisions. Evidence: [[ActiveLearning]], [[JournalingPractice]], [[CreatorFeedbackLoop]], [[ContextualBandits]], [[WorkplaceLearning]].
+- Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose. Evidence: [[CareerPlanning]], [[CreativeTechnicalCareer]], [[EmployeeOpportunityDesign]], [[ProgrammerFreelancing]], [[SabbaticalCareerExperiment]].

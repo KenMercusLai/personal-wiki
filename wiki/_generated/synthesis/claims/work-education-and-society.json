@@ -2,234 +2,101 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "practical-work-systems-reduce-friction",
+      "id": "learning-improves-through-feedback-loops",
       "qualifications": [
-        "The evidence is mostly advice, interview, and reflective practice rather than comparative occupational outcome research.",
-        "Morning and recovery routines assume some control over schedule, privacy, health, and work demands.",
-        "The Huffington source reports leadership intent and selected practices, not independent measurement of burnout reduction."
+        "Feedback can mislead when labels, incentives, or proxies reward the wrong thing."
       ],
-      "statement": "[[PersonalProductivity]], [[WorkHabits]], [[JournalingPractice]], [[MorningRecoveryRoutine]], and [[BurnoutPrevention]] are framed as lightweight systems for reducing avoidable friction: priorities, single-tasking, reflection prompts, idea capture, scheduled writing, device boundaries, sleep, recovery routines, and workplace norms can protect energy and attention before work begins.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "PersonalProductivity",
-        "WorkHabits",
-        "JournalingPractice",
-        "MorningRecoveryRoutine",
-        "BurnoutPrevention"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "sleep-and-recovery-support-performance",
-      "qualifications": [
-        "This claim is grounded in a 2016 interview and advocacy context, not a clinical sleep review.",
-        "The source's remote lead image could not be inspected because the URL returned 404."
-      ],
-      "statement": "[[SleepAsPerformanceEnhancer]] adds a recovery-first productivity claim: [[AriannaHuffington]] and [[TheSleepRevolution]] frame sufficient sleep as supporting natural waking, emotional tone, decision making, cognition, creativity, and sustainable work, while [[HuffingtonPost]] supplies the workplace case for nap rooms and vacation-email deletion.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "SleepAsPerformanceEnhancer",
-        "AriannaHuffington",
-        "TheSleepRevolution",
-        "HuffingtonPost"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "attention-and-discipline-shape-work-quality",
-      "qualifications": [
-        "Strict attention boundaries can conflict with legitimate responsiveness, care duties, logistics, or monitoring work.",
-        "The available evidence emphasizes reflective and knowledge-work sources rather than all occupations."
-      ],
-      "statement": "[[AttentionManagement]], [[TimeManagementQuadrants]], and [[SelfDiscipline]] connect effective work to single-tasking, lower-noise inputs, protected important tasks, refusal of attention-capturing defaults, and deliberate boundaries before the day is captured by external feeds.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "AttentionManagement",
-        "TimeManagementQuadrants",
-        "SelfDiscipline",
-        "PavelDurov"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "environmental-fields-shape-agency",
-      "qualifications": [
-        "The field account is reflective and metaphorical rather than a controlled empirical theory.",
-        "Field selection can be constrained by money, family obligation, geography, labor markets, care duties, and other structural limits.",
-        "The claim emphasizes situational pressure without removing individual responsibility."
-      ],
-      "statement": "[[EnvironmentalField]] frames agency as partly environmental: [[WorkEnvironment]], incentives, family, creative conditions, team focus, and workplace norms can make some behaviors easier or harder before conscious willpower enters.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "EnvironmentalField",
-        "WorkEnvironment",
-        "TeamFocus",
-        "CreativePresence",
-        "SituationalMorality"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "privacy-burden-shapes-material-agency",
-      "qualifications": [
-        "The evidence comes from a U.S.-focused privacy-and-poverty article.",
-        "The source complicates anti-surveillance arguments by showing that lack of usable records can also harm people outside formal systems."
-      ],
-      "statement": "[[PrivacyPovertyDivide]] adds privacy burden to the topic: low-income people may have to accept [[WelfareSurveillance]], persistent records through [[DataBrokerPersistence]], and opaque denials through [[AlgorithmicDecisionOpacity]] to access benefits, work, housing, credit, or safety, while [[SurveillanceGap]] shows that missing records can also block rights and resources.",
+      "statement": "Learning and work improve when people or systems create feedback loops that turn behavior, reflection, experiments, or user response into better future decisions.",
       "status": "supported",
       "supporting_wikilinks": [
-        "PrivacyPovertyDivide",
-        "WelfareSurveillance",
-        "DataBrokerPersistence",
-        "AlgorithmicDecisionOpacity",
-        "SurveillanceGap"
+        "ActiveLearning",
+        "JournalingPractice",
+        "CreatorFeedbackLoop",
+        "ContextualBandits",
+        "WorkplaceLearning"
       ]
     },
     {
       "global_candidate": true,
-      "id": "career-planning-combines-fit-evidence-and-future-option-value",
+      "id": "career-agency-depends-on-conditions",
       "qualifications": [
-        "The career-planning sources are reflective advice and personal experience rather than controlled evidence.",
-        "Future-option planning assumes enough access to target-role models, mentors, and opportunity choice to make the analysis practical."
+        "Several sources are personal retrospectives, so the corpus shows plausible patterns rather than universal career prescriptions."
       ],
-      "statement": "[[CareerPlanning]] combines fit, visible evidence, promotion ladders, side projects, and future-option value: [[NextNextJobFramework]] works backward from a desired later role, while [[JobApplicationSideProjects]], [[ReleaseFocusedSideProjects]], and [[PersonalBranding]] turn projects and public work into hiring evidence.",
-      "status": "qualified",
+      "statement": "Career agency depends on both individual experimentation and the surrounding conditions that provide scope, safety, runway, mentorship, or economic room to choose.",
+      "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
-        "NextNextJobFramework",
-        "JobApplicationSideProjects",
-        "ReleaseFocusedSideProjects",
-        "PersonalBranding"
+        "CreativeTechnicalCareer",
+        "EmployeeOpportunityDesign",
+        "ProgrammerFreelancing",
+        "SabbaticalCareerExperiment"
       ]
     },
     {
       "global_candidate": true,
-      "id": "learning-deepens-through-output-and-situated-practice",
+      "id": "workplace-systems-can-enable-or-constrain-human-capacity",
       "qualifications": [
-        "The sources describe practitioner workflows rather than comparative education studies.",
-        "Technical accessibility improves entry paths but does not substitute for artifact quality.",
-        "Using output as a knowledge-management test is useful, but complex research or archival needs may justify heavier systems."
+        "The corpus includes both managerial self-descriptions and worker-centered accounts, which can disagree on responsibility and remedy."
       ],
-      "statement": "[[SystematicLearning]], [[LearningMediaChoice]], [[FeynmanTechnique]], [[ActiveLearning]], [[ExplanatoryWriting]], [[TechnicalAccessibility]], [[WorkplaceLearning]], [[CodeReviewPractice]], and [[PersonalKnowledgeManagement]] frame learning as a loop from source choice and focused intake to explanation, entry-ramp design, hands-on verification, case reconstruction, review, output, and restraint against self-referential method collecting.",
+      "statement": "Workplace systems can either protect capacity and dignity or intensify precarity, exclusion, and operational strain.",
       "status": "qualified",
       "supporting_wikilinks": [
-        "SystematicLearning",
-        "LearningMediaChoice",
-        "FeynmanTechnique",
-        "ActiveLearning",
-        "ExplanatoryWriting",
-        "TechnicalAccessibility",
-        "WorkplaceLearning",
-        "CodeReviewPractice",
-        "PersonalKnowledgeManagement"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "learning-goals-protect-motivation",
-      "qualifications": [
-        "The source explicitly qualifies goal setting: mature experts may follow curiosity without explicit goals, while younger learners often need more support.",
-        "Formal education is not identical to coercive learning; the risk mechanism is imposed low-value pressure overriding personal valuation."
-      ],
-      "statement": "[[SelfEducationInvestment]], [[GoalSetting]], [[LearnDrive]], and [[KnowledgeValuationNetwork]] frame learning as recurring maintenance and valued investment: meaningful goals can focus study, protect curiosity, and make knowledge feel worth pursuing; [[FreeLearning]] supports this valuation loop, while [[CoerciveLearning]] and [[ReverseLearning]] describe how imposed low-value study can make learning aversive.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "SelfEducationInvestment",
-        "GoalSetting",
-        "LearnDrive",
-        "KnowledgeValuationNetwork",
-        "FreeLearning",
-        "CoerciveLearning",
-        "ReverseLearning"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "workplace-tools-need-knowledge-translation",
-      "qualifications": [
-        "The evidence is one reflective developer-support source, so it should be treated as a practical heuristic rather than a universal workplace-training model."
-      ],
-      "statement": "[[BuilderUserFluencyGap]], [[HanlonsRazor]], and [[InformationHierarchy]] add a workplace-tool lesson: users may be trying to learn their jobs through software whose possible actions are obvious to builders but not inferable from placement, labels, or fields, so support becomes knowledge translation as well as issue handling.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "BuilderUserFluencyGap",
-        "HanlonsRazor",
-        "InformationHierarchy"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "employee-precarity-and-responsibility-remain-contested",
-      "qualifications": [
-        "The two sources are polemical and personal, not a labor-market study.",
-        "The conflict should be preserved rather than flattened into a single causal story."
-      ],
-      "statement": "[[EmployeeFinancialPrecarity]] and [[WorkEthicPersonalResponsibility]] preserve a live disagreement about low-paid tech-adjacent work: [[TaliaJane]] frames Yelp/Eat24 support wages as structural insecurity, while [[StefanieWilliams]] frames the same dispute through roommates, second jobs, lower-status service work, commuting, and humility.",
-      "status": "contested",
-      "supporting_wikilinks": [
+        "BurnoutPrevention",
         "EmployeeFinancialPrecarity",
-        "WorkEthicPersonalResponsibility",
-        "TaliaJane",
-        "StefanieWilliams"
+        "WorkplaceSexismInTech",
+        "StartupCulture",
+        "CodeReviewPractice"
       ]
     },
     {
       "global_candidate": true,
-      "id": "creator-and-independent-work-need-business-systems",
+      "id": "tools-shape-what-work-feels-possible",
       "qualifications": [
-        "The evidence mixes investor theses, retrospective accounts, and personal experiments.",
-        "Low expenses and user love can make continued work rational without proving the product has become economically attractive."
+        "Tool leverage still depends on fit with the user's goals and context; more powerful tools can also add distraction or maintenance burden."
       ],
-      "statement": "[[CreatorEconomyStartups]], [[CreatorFeedbackLoop]], [[IndependentCreator]], [[BootstrappedSaaS]], [[MicroCompany]], [[ProgrammerFreelancing]], and [[SaaSMarketing]] show creator and independent work as business-system design: audience power laws, platform volatility, owned positioning, feedback loops, recurring revenue, modular tooling, customer-led development, and stop-loss discipline all matter.",
-      "status": "qualified",
+      "statement": "Tools, interfaces, and infrastructure shape what work feels possible by changing entry cost, reviewability, deployment friction, creative range, or operational repairability.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "CreatorEconomyStartups",
-        "CreatorFeedbackLoop",
+        "TechnicalAccessibility",
+        "PersonalKnowledgeManagement",
+        "NextJSDeployment",
+        "CodeReviewPractice",
+        "ArtworkPersonalization"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "independent-creation-mixes-autonomy-and-risk",
+      "qualifications": [
+        "The sources include successful and marginal cases, so the claim should not be read as a guaranteed path."
+      ],
+      "statement": "Independent creation and small-product work can create autonomy and meaning, but they also expose creators to distribution volatility, income uncertainty, isolation, and luck.",
+      "status": "supported",
+      "supporting_wikilinks": [
         "IndependentCreator",
         "BootstrappedSaaS",
+        "IndieGameDevelopment",
         "MicroCompany",
-        "ProgrammerFreelancing",
-        "SaaSMarketing"
+        "ReleaseFocusedSideProjects"
       ]
     },
     {
-      "global_candidate": true,
-      "id": "technical-and-organizational-scaling-requires-fit",
+      "global_candidate": false,
+      "id": "social-systems-govern-access-to-knowledge-and-services",
       "qualifications": [
-        "These sources span software teams, startups, outsourcing, and campaign technology, so the common claim is about fit and accountability rather than one universal operating model.",
-        "Some scaling choices are stage-specific: what helps before product-market fit can become harmful later."
+        "The institutional mechanisms differ across schools, welfare systems, campaigns, and labor markets."
       ],
-      "statement": "[[MicroserviceOperationalOverhead]], [[MonolithConsolidation]], [[CodeReviewPractice]], [[OutsourcedProductDevelopment]], [[StartupScaling]], and [[CampaignTechnologyAccountability]] show that scaling work depends on fit between architecture, review practice, ownership, team process, and public consequences rather than simply adding services, people, or speed.",
+      "statement": "Access to knowledge, services, work, and civic participation is shaped by institutional gatekeeping as well as personal effort.",
       "status": "qualified",
       "supporting_wikilinks": [
-        "MicroserviceOperationalOverhead",
-        "MonolithConsolidation",
-        "CodeReviewPractice",
-        "OutsourcedProductDevelopment",
-        "StartupScaling",
-        "CampaignTechnologyAccountability"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "ai-era-education-extends-computational-thinking",
-      "qualifications": [
-        "The source is a formative curriculum essay rather than a school implementation or controlled education study.",
-        "The proposed ability set depends on existing knowledge, teachers, projects, and methodological guidance."
-      ],
-      "statement": "[[RORIRI]] extends [[ComputationalThinking]] for AI-era education by combining [[StatisticalModelThinking]], [[AcademicWriting]], and [[ProjectBasedLearning]] so learners can define problems, handle uncertainty, build evidence chains, and use [[MetacognitiveFeedback]] and [[TasteAsProblemSense]] to sustain inquiry.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "RORIRI",
-        "ComputationalThinking",
-        "StatisticalModelThinking",
-        "AcademicWriting",
-        "ProjectBasedLearning",
-        "MetacognitiveFeedback",
-        "TasteAsProblemSense"
+        "PrivacyPovertyDivide",
+        "CoerciveLearning",
+        "VolunteerCampaignTechnology",
+        "CampaignTechnologyAccountability",
+        "AcademicIndustryDataScienceTransition"
       ]
     }
   ],
-  "summary": "The topic treats work, education, and society as systems where individual routines, learning loops, workplace fields, platform structures, and institutional constraints interact. New material adds sleep and recovery as a performance foundation: productivity is not only attention discipline and output cadence, but also recovery design through routines, device boundaries, and workplace systems such as nap rooms and vacation-email deletion.",
+  "summary": "Work, education, and society material links learning practice, career development, workplace conditions, independent work, product-building discipline, and infrastructure work as systems of feedback and opportunity. The newest Netflix paragraph adds a machine-learning product case: personalization is not only a consumer-product tactic but a work system requiring artists, designers, data scientists, metrics, exploration controls, and evaluation loops to make visual recommendations useful without reducing them to clickbait.",
   "topic_id": "work-education-and-society"
 }

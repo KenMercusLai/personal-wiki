@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Artwork Personalization at Netflix](sources/artwork-personalization-at-netflix-netflix-techblog-medium.md) - Netflix TechBlog explains how contextual bandits personalize title artwork using exploration logs, replay evaluation, and quality-engagement labels.
 - [Arianna Huffington on sleep, mornings and work](sources/arianna-huffington-on-sleep-mornings-and-work-the-early-hour.md) - Annie Ridout interviews Arianna Huffington on sleep as performance support, morning routines, HuffPost burnout prevention, vacation-email deletion, and The Sleep Revolution.
 - [Another tax on the poor: Surrendering privacy for survival](sources/another-tax-on-the-poor-surrendering-privacy-for-survival.md) - Fast Company argues that poor and marginalized people often surrender more privacy for benefits, work, housing, credit, and safety while having fewer resources to repair data harms.
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
@@ -390,7 +391,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sachin Rekhi](entities/SachinRekhi.md) - Product leader and author whose LinkedIn NPS work shows how customer-loyalty measurement can feed product planning.
 - [SurveyMonkey](entities/SurveyMonkey.md) - Survey-tool example cited for cross-channel NPS collection and analysis.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
-- [Netflix](entities/Netflix.md) - Culture and talent-density example built around Reed Hastings' culture deck and context-not-control model.
+- [Netflix](entities/Netflix.md) - Culture, talent-density, and large-scale personalization example spanning Reed Hastings' culture deck and contextual-bandit artwork selection.
 - [David Humphrey](entities/DavidHumphrey.md) - Web commentator proposing browser-mediated payments around HTTP 402 as an alternative to implicit ad-funded exchange.
 - [Mozilla](entities/Mozilla.md) - Browser organization named as a possible leader for integrated web-payment experiments.
 - [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
@@ -915,6 +916,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
 - [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
 - [Behavioral Data](concepts/BehavioralData.md) - Behavior traces that support prediction, optimization, and automated business decisions.
+- [Artwork Personalization](concepts/ArtworkPersonalization.md) - Choosing different title artwork for different viewers based on context, preference signals, and quality-engagement goals.
+- [Contextual Bandits](concepts/ContextualBandits.md) - Online-learning algorithms that select actions for a context while balancing exploitation with exploration.
+- [Data Exploration](concepts/DataExploration.md) - Controlled randomization that produces less biased learning data and logged propensities for decision systems.
+- [Offline Policy Replay](concepts/OfflinePolicyReplay.md) - Counterfactual evaluation of decision policies against logged randomized interactions.
 - [Big Data Industry Transformation](concepts/BigDataIndustryTransformation.md) - Conditions under which large-scale data and automation can reshape an industry's operations or products.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
 - [Browser Payment Broker](concepts/BrowserPaymentBroker.md) - Proposed browser role that mediates payment between users, providers, and sites.

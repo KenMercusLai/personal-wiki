@@ -1359,6 +1359,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Artwork Personalization at Netflix
+
+Added Netflix TechBlog's article on personalized artwork selection. Key claims: artwork is recommendation evidence, contextual bandits can personalize image choice while limiting regret, exploration logging enables unbiased replay evaluation, quality engagement protects against clickbait, and serving personalized visuals requires creative diversity, cold-start learning, recognizability controls, and low-latency scale.
+
 ## [2026-09-14] ingest | Are you a victim of the Sunk Cost Fallacy?
 
 Added Tobias van Schneider's decision-making essay on sunk costs. Key claims: unrecoverable past investments should not drive future choices, emotional and pride-based investment can prolong weak work or projects, .Mail illustrates the trap in product creation, and designers can use accumulated investment as product stickiness.
@@ -1378,6 +1382,10 @@ Added Exception Not Found's developer support essay. Key claims: user mistakes u
 ## [2026-09-14] ingest | Architecting for Continuous Delivery
 
 Added Vishal Naik's Thoughtworks article on continuous delivery. Key claims: CD is not just tooling; monolithic codebases can slow feedback and ownership; componentization can improve delivery when boundaries are deliberate; test pyramids keep validation fast; and deployment pipelines expose release confidence, rollback points, dependencies, and bottlenecks.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

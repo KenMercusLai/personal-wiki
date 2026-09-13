@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3804e300e6227a66ba3a8b6eb5f7a26ce13173eb153f3540adb66b66f6dfa73e",
       "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
       "85293d045fa450f3f611e55e9a034689d54c743303a6c10ec80020a842ef7596",
       "b928b473400e32f70b22764d60796a54d65e1582c4c6693707bbc3198aad0822",
@@ -169,11 +170,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 167
+    "paragraph_count": 168
   },
-  "overview_commit": "5b8805bf1f1829f74b620c0f5a2d29d639a68d2d",
-  "overview_digest": "6ba815ab24ffeed740b82b0f5f891820b9ec897fea515311b1c230cc9895c2af",
+  "overview_commit": "0b1d5e6e978f478c0ef1ab95bb91f477b9248871",
+  "overview_digest": "7e3fa58d25ae28e2e94e0dd713ed461bacd7ab17ff533296e42299c5929d18ce",
   "paragraphs": [
+    {
+      "id": "3804e300e6227a66ba3a8b6eb5f7a26ce13173eb153f3540adb66b66f6dfa73e",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Netflix TechBlog source adds a recommendation-presentation layer to the wiki's personalization and experimentation material. [[ArtworkPersonalization]] names Netflix's shift from choosing one globally best title image toward selecting the most compelling image for each member context; inspected Stranger Things artwork variants show how one title can be framed through logos, landscapes, cast, close-ups, or horror imagery. [[ContextualBandits]] capture the online-learning approach: the system ranks candidate images per member, uses [[DataExploration]] to inject controlled randomization and log propensities, and uses [[OfflinePolicyReplay]] to compare candidate policies before online A/B testing. The source also qualifies simple conversion thinking by emphasizing quality engagement, recognizability, page-level visual diversity, cold-start adaptation, and low-latency scale above 20 million requests per second.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ArtworkPersonalization",
+        "ContextualBandits",
+        "DataExploration",
+        "OfflinePolicyReplay"
+      ]
+    },
     {
       "id": "33a2c9b58e3b0642952c0777f151dc2113c238463c871b31d81d7cc2d428c718",
       "primary_topic": "work-education-and-society",

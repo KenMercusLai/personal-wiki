@@ -2,249 +2,85 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "privacy-burdens-are-class-differentiated-governance",
+      "id": "platform-decision-systems-require-accountable-controls",
       "qualifications": [
-        "The claim is grounded in one 2019 Fast Company privacy source focused on U.S. welfare, work, data brokers, and marginalized communities.",
-        "The source argues for explanation rights and stronger privacy law but does not evaluate later state privacy regimes or implementation details."
+        "The examples range from commercial recommendation systems to state welfare and campaign technology, so their accountability mechanisms differ."
       ],
-      "statement": "[[PrivacyPovertyDivide]] frames privacy as class-differentiated governance: [[WelfareSurveillance]] makes benefits access conditional on intrusive verification, [[DataBrokerPersistence]] and [[AlgorithmicDecisionOpacity]] can turn hidden or stale records into hard-to-contest denials, and [[SurveillanceGap]] shows that marginalized people can also be harmed by too little usable documentation.",
+      "statement": "Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.",
       "status": "supported",
       "supporting_wikilinks": [
+        "ArtworkPersonalization",
         "PrivacyPovertyDivide",
-        "WelfareSurveillance",
-        "DataBrokerPersistence",
         "AlgorithmicDecisionOpacity",
-        "SurveillanceGap"
+        "VolunteerCampaignTechnology",
+        "CampaignTechnologyAccountability"
       ]
     },
     {
-      "global_candidate": false,
-      "id": "creator-platforms-govern-distribution-and-exit",
+      "global_candidate": true,
+      "id": "experimentation-and-automation-need-instrumentation",
       "qualifications": [
-        "The claim is source-scoped to Andrew Chen's creator-economy startup thesis and should not be treated as measured evidence across all creator categories.",
-        "The governance relevance is platform control and exit power, not formal law or public policy."
+        "Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible."
       ],
-      "statement": "[[CreatorEconomyStartups]] show a platform-governance problem around distribution and exit: [[LinkInBioCompetition]] concentrates organic access into scarce profile real estate, [[AlgorithmicFeastAndFamine]] makes feed-dependent traffic unstable, and the [[CreatorGraduationProblem]] gives top creators leverage when they control the audience relationship.",
-      "status": "source-scoped",
+      "statement": "Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "CreatorEconomyStartups",
-        "LinkInBioCompetition",
-        "AlgorithmicFeastAndFamine",
-        "CreatorGraduationProblem",
-        "CreatorPowerLaw"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "network-automation-governance-depends-on-vendor-and-drift-control",
-      "qualifications": [
-        "The source is a launch report, so it records stated support and intent rather than measured reliability, adoption, or long-term vendor coverage.",
-        "This claim appears in the governance topic because the deterministic planner classified the paragraph there; substantively it is closer to infrastructure and operations governance."
-      ],
-      "statement": "[[NetworkAutomation]] governance depends on tool coverage and drift control: [[Ansible]] added network command, configuration, and template modules for vendors such as [[Cisco]], [[Juniper]], [[AristaNetworks]], [[CumulusNetworks]], and [[OpenSwitch]], while [[Huawei]]'s absence and [[PeterSprygada]]'s validation and compliance framing show that automation remains bounded by platform support and [[ChangeSafety]].",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
+        "DataExploration",
+        "OfflinePolicyReplay",
         "NetworkAutomation",
-        "Ansible",
-        "Cisco",
-        "Juniper",
-        "AristaNetworks",
-        "CumulusNetworks",
-        "OpenSwitch",
-        "Huawei",
-        "PeterSprygada",
-        "ChangeSafety"
+        "ChangeSafety",
+        "InferenceLoadBalancing"
       ]
     },
     {
-      "global_candidate": false,
-      "id": "platform-owners-govern-access-through-selective-distribution",
+      "global_candidate": true,
+      "id": "scale-changes-operating-boundaries",
       "qualifications": [
-        "The Apple evidence is a 2019 analyst interpretation and does not prove later adoption, competition, hardware demand, or regulatory outcomes."
+        "The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe."
       ],
-      "statement": "[[AppleContentDistributionStrategy]] shows platform governance through selective distribution: [[Apple]] can allow [[AppleMusic]] on [[AmazonEcho]] and expand [[AirPlay2]] while preserving [[AppleTV]] and [[HomePod]] as premium first-party experiences.",
-      "status": "source-scoped",
+      "statement": "Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, and product surfaces.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "Kubernetes",
+        "ContainerNativePractice",
+        "NetworkAutomation",
+        "InferenceLoadBalancing",
+        "ContextualBandits"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "platform-trust-is-a-strategic-asset",
+      "qualifications": [
+        "Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes."
+      ],
+      "statement": "Platforms gain power when they become trusted intermediaries for discovery, payment, content access, or safety, but that trust can be damaged by opaque decisions, abuse, or extractive economics.",
+      "status": "supported",
       "supporting_wikilinks": [
         "AppleContentDistributionStrategy",
-        "Apple",
-        "AppleMusic",
-        "AmazonEcho",
-        "AirPlay2",
-        "AppleTV",
-        "HomePod",
-        "StreamingContentEconomics"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "institutional-pressure-can-distort-learning",
-      "qualifications": [
-        "This is an education and motivation claim assigned secondarily to governance; it does not yet constitute a broad institutional theory."
-      ],
-      "statement": "[[PiotrWozniak]] uses [[PeterThiel]] and [[CreativeAbstraction]] to distinguish personally meaningful learning aims from externally competitive status tracks and rote institutional pressure.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "PiotrWozniak",
-        "PeterThiel",
-        "CreativeAbstraction"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "intrinsic-value-frames-shared-purpose",
-      "qualifications": [
-        "The claim is philosophical and source-scoped; the corpus does not yet show institutional adoption, political theory, or independent validation of this shared-purpose argument."
-      ],
-      "statement": "[[IntrinsicallyValuableState]] reframes [[GoalSetting]] and [[KnowledgeValuationNetwork]] around a possible shared purpose: inquiry into whether objective intrinsic value exists.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "IntrinsicallyValuableState",
-        "GoalSetting",
-        "KnowledgeValuationNetwork"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "inference-gateway-architecture-shapes-control",
-      "qualifications": [
-        "This is a secondary topic assignment from an infrastructure paragraph; the corpus does not yet discuss governance, regulation, or institutional policy around AI serving."
-      ],
-      "statement": "[[InferenceLoadBalancing]] includes quota counters and gateway architecture choices that affect how control is applied across inference systems.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "InferenceLoadBalancing",
-        "AIBrix",
-        "GatewayAPIInferenceExtension",
-        "DynamoInferencePlatform"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "ad-free-public-spaces-reveal-rule-governance",
-      "qualifications": [
-        "The source uses the urban advertising ban and iOS content filtering as an analogy; it does not evaluate the Clean City Law's long-term policy outcomes.",
-        "The browser-payment proposal remains speculative and does not establish a governance framework for browser vendors, publishers, or payment providers."
-      ],
-      "statement": "[[SaoPauloCleanCityLaw]] and [[AdBlocking]] show that public information spaces are governed by rules as well as markets: legal bans and browser content-filtering APIs can remove advertising, but [[WebAdEconomics]] then needs explicit accountability around how creators, publishers, and users fund access.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "SaoPauloCleanCityLaw",
-        "AdBlocking",
-        "WebAdEconomics",
+        "StreamingContentEconomics",
         "BrowserPaymentBroker",
-        "DavidHumphrey"
+        "WebAdEconomics",
+        "DeveloperPlatformTrust"
       ]
     },
     {
       "global_candidate": false,
-      "id": "operations-governance-shifts-responsibility-into-engineering",
+      "id": "technical-systems-embed-social-consequences",
       "qualifications": [
-        "This is a secondary governance assignment from game-server and platform-engineering sources, not a broad organizational governance study.",
-        "The sources describe practitioner views of moving responsibility from manual coordination toward engineering-owned workflows.",
-        "The WSL material is a local environment procedure, so its governance relevance is limited to configuration boundaries and operational responsibility."
+        "The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, and entertainment artwork."
       ],
-      "statement": "[[LowOpsGameServer]], [[GameServerCloudNativeDelivery]], [[DeclarativeInfrastructure]], and [[ContainerNativePractice]] shift operational governance toward engineering-owned workflows: teams reduce manual coordination through service units, desired-state reconciliation, health checks, configuration paths, recovery automation, and [[ContinuousGameServerUpdates]]. [[WindowsSubsystemForLinux]] and [[NativeSystemdInWSL]] add a small local analogue where distribution config, global config, destructive cleanup, shutdown, and verification need clear boundaries.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "LowOpsGameServer",
-        "GameServerCloudNativeDelivery",
-        "ContinuousGameServerUpdates",
-        "GameServerSLA",
-        "XiaoshuojunFp",
-        "DeclarativeInfrastructure",
-        "ContainerNativePractice",
-        "Kubernetes",
-        "WindowsSubsystemForLinux",
-        "NativeSystemdInWSL"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "agent-permissions-need-risk-tiered-governance",
-      "qualifications": [
-        "The claim comes from one AX essay and should not yet be treated as a complete security, legal, or enterprise-governance framework."
-      ],
-      "statement": "[[AgentSystemTransparency]] and [[AgentPermissionModel]] frame agent governance as auditability plus risk-tiered control: [[AgentExperience]] systems need action traces, behavior alarms, sandbox boundaries, and stronger confirmation only for sensitive or irreversible actions.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AgentSystemTransparency",
-        "AgentPermissionModel",
-        "AgentExperience",
-        "LLMContextManagement",
-        "ComputerUse",
-        "AXFriendlyInterfaceDesign"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "platform-dependence-sets-product-boundaries",
-      "qualifications": [
-        "The Apple Watch evidence is a secondary governance assignment and is best read as product-boundary analysis, not legal or institutional governance."
-      ],
-      "statement": "[[AppleWatch]] shows platform dependence as a boundary-setting problem: [[HoraceDediu]] says the Watch remained tied to [[IPhone]] activation and plan extension even as [[WearableComputing]] capabilities pointed toward more independent use.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AppleWatch",
-        "HoraceDediu",
-        "IPhone",
-        "WearableComputing"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "platform-features-need-accountable-product-boundaries",
-      "qualifications": [
-        "The claim is inferred from one retrospective paragraph and one campaign-technology paragraph; it needs more sources before becoming a broad governance rule.",
-        "The task-queue source itself reports weak launch response, so the product boundary remains a design problem rather than a solved pattern."
-      ],
-      "statement": "[[TaskQueueDesign]] and [[VolunteerCampaignTechnology]] both show that fast infrastructure becomes governance-sensitive when it affects real users: queues need clear timeout, concurrency, state, and recovery semantics, while campaign tools need [[CampaignTechnologyAccountability]] for safety, targeting, affiliation, and public consequences.",
+      "statement": "Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, or user autonomy.",
       "status": "qualified",
       "supporting_wikilinks": [
-        "TaskQueueDesign",
+        "WelfareSurveillance",
+        "HTTP402PaymentRequired",
+        "AgentPermissionModel",
         "VolunteerCampaignTechnology",
-        "CampaignTechnologyAccountability",
-        "Redis",
-        "VoteForBernie",
-        "FeelTheBern"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "volunteer-campaign-tech-needs-accountability",
-      "qualifications": [
-        "The claim is source-scoped to the 2016 Sanders campaign article and does not prove the tools changed election outcomes.",
-        "The source treats unpaid volunteer work as legally permissible under campaign-finance expert commentary, so accountability here includes safety, quality, targeting, affiliation, and public consequences rather than only legal compliance."
-      ],
-      "statement": "[[VolunteerCampaignTechnology]] can turn supporter enthusiasm into useful campaign infrastructure, but [[CampaignTechnologyAccountability]] becomes necessary when tools such as [[VoteForBernie]] and [[FeelTheBern]] influence voter action, canvassing, logistics, or campaign reputation.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "VolunteerCampaignTechnology",
-        "CampaignTechnologyAccountability",
-        "VoteForBernie",
-        "FeelTheBern",
-        "BernieSanders"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "social-platform-governance-needs-safety-and-metric-accountability",
-      "qualifications": [
-        "The claim is source-scoped to Anil Dash's Twitter critique and does not provide a full moderation, legal, or transparency framework.",
-        "Platform cultural influence can be positive, harmful, or polarizing, so cultural metrics cannot substitute for safety and accountability."
-      ],
-      "statement": "[[PlatformAbuseResponse]] and [[PlatformCulturalMetrics]] show a social-platform governance problem in [[Twitter]]: [[AnilDash]] argues that organized harassment, feature abuse, public communication, and signup-centric investor narratives all shape whether a public conversation platform is accountable to users and culture.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "PlatformAbuseResponse",
-        "PlatformCulturalMetrics",
-        "Twitter",
-        "AnilDash",
-        "ProductUserSegmentation",
-        "JackDorsey",
-        "YouTube"
+        "ArtworkPersonalization"
       ]
     }
   ],
-  "summary": "The governance-related material spans control problems across privacy, welfare, data systems, institutions, infrastructure, public information spaces, local developer environments, platform access, product boundaries, social platforms, creator platforms, agent systems, and public action. Privacy-poverty evidence shows that benefits verification, broker records, opaque algorithms, and documentation gaps can allocate dignity and opportunity by class. Platform and infrastructure sources show that governance is often embedded in technical boundaries: Apple content distribution, creator profile scarcity, Twitter abuse response, AI agent permissions, inference gateways, WSL configuration, game-server operations, network automation, and campaign tools all turn access, safety, accountability, and responsibility into product or operational design choices. Philosophical and learning sources add that institutions and status competition can distort learning aims, while knowledge-seeking remains a possible shared orientation under uncertainty rather than a formal policy.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, and standardized technical systems. The newest Netflix paragraph extends this topic by treating personalization infrastructure as a governed decision system: visual presentation is algorithmically varied, but exploration, replay evaluation, quality labels, recognizability, and scale constraints are needed to keep the system accountable to member experience rather than raw clicks.",
   "topic_id": "governance-and-institutions"
 }
