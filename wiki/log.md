@@ -1991,6 +1991,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Building Apps for Shopify: Fall In Love With The Problem, Not The
+
+Added Ahmad Iqbal's 2018 Starter Story founder essay about moving from Nadeef to Shopify app development. Key claims: abandoned-checkout calls revealed customer friction better than automated recovery tactics; Scout started as a weekend-built alert after manual callbacks worked; positive reviews and support shaped Shopify App Store growth; the handwritten-card product failed from building a solution before validating merchant demand and operating cost; and Raven Callback and Pizza Party extended the same pattern of testing customer-experience tactics in the founder's own store before systematizing them. Created [[AhmadIqbal]], [[Nadeef]], [[Scout]], [[RavenCallback]], [[PizzaParty]], and [[BoldCommerce]], and updated [[Shopify]], [[Zappos]], [[ProductMarketFit]], [[CustomerLedProductDevelopment]], and [[MinimumViableProduct]]. The remote lead image returned HTTP 403 and was not used as evidence.
+
 ## [2026-09-15] ingest | Build a product that fits your runway - Elizabeth Yin
 
 Ingested Elizabeth Yin's runway-sensitive product-scope essay, including inspection of three embedded images.
@@ -2057,6 +2061,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

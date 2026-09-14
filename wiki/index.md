@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
+- [Building Apps for Shopify: Fall In Love With The Problem, Not The](sources/building-apps-for-shopify-fall-in-love-with-the-problem-not-the.md) - Ahmad Iqbal explains how Nadeef's manual abandoned-checkout calls led to Scout, Raven Callback, and Pizza Party while a handwritten-card app failed from building before validation.
 - [Build a healthy organization by thinking like an engineer](sources/build-a-healthy-organization-by-thinking-like-an-engineer.md) - The Startup summarizes Michael Boufford's Greenhouse framework for applying engineering design steps to team structure, values, culture, hiring, retention, feedback, and organizational validation.
 - [Buffer in August: $7.49M ARR, Buffer for Video, Continued Growth](sources/buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open.md) - Joel Gascoigne reports Buffer's August 2015 operating metrics, hiring, product launches, small-team reorganization, and support performance as the company neared $7.5M ARR.
 - [40 Lessons From 4 Years of Remote Work](sources/40-lessons-from-4-years-of-remote-work-buffer-stories.md) - Courtney Seiter reflects on Buffer's remote-work practices, arguing that distributed teams need trust, boundaries, explicit communication, tooling, intentional social connection, and occasional in-person recalibration.
@@ -585,7 +586,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
 - [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth and marketplace-payment example.
-- [Shopify](entities/Shopify.md) - E-commerce SaaS platform used as a free-trial acquisition case.
+- [Ahmad Iqbal](entities/AhmadIqbal.md) - Merchant-founder who turned Nadeef customer-call experiments into Shopify apps such as Scout, Raven Callback, and Pizza Party.
+- [Nadeef](entities/Nadeef.md) - Shopify bidet store where abandoned-checkout calls, VIP thank-yous, and customer-experience app ideas were tested.
+- [Scout](entities/Scout.md) - Shopify abandoned-checkout alert app built after manual customer calls worked at Nadeef.
+- [Raven Callback](entities/RavenCallback.md) - Shopify callback app that turns website visits into qualified sales calls.
+- [Pizza Party](entities/PizzaParty.md) - Planned Shopify app for sending pizza thank-yous to VIP customers based on merchant-defined criteria.
+- [Bold Commerce](entities/BoldCommerce.md) - Shopify-app company used as a benchmark for merchant-founded app-business viability.
+- [Shopify](entities/Shopify.md) - E-commerce SaaS and app ecosystem used as a free-trial acquisition case and platform for merchant-founded Shopify apps.
 - [WP Engine](entities/WPEngine.md) - WordPress hosting company used as a generous affiliate-incentive growth case.
 - [TripAdvisor](entities/TripAdvisor.md) - Travel-review platform used as an SEO, review, badge, and partnership growth case.
 - [Spotify](entities/Spotify.md) - Music-streaming service used as a widget-sharing and freemium-acquisition example.
@@ -593,7 +600,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [.Mail App](entities/DotMailApp.md) - Abandoned email-client project used as Tobias van Schneider's personal sunk-cost example.
 - [Semplice](entities/Semplice.md) - Designer portfolio platform named in Tobias van Schneider's author biography.
 - [eBay](entities/EBay.md) - Online marketplace used as an example of ratings, protection, and payments reducing stranger-commerce risk.
-- [Zappos](entities/Zappos.md) - Online shoe retailer used as an example of returns policy reducing e-commerce purchase risk.
+- [Zappos](entities/Zappos.md) - Online shoe retailer used as an example of returns policy, customer-experience investment, retention, and word-of-mouth growth.
 - [Firebox](entities/Firebox.md) - Gift and gadget retailer used as an affiliate-network growth example.
 - [Fog Creek](entities/FogCreek.md) - Software company context for Anil Dash's Twitter critique and Glitch example.
 - [Pokemon Go](entities/PokemonGo.md) - Mobile AR game used as a familiar-IP and free-download adoption example.
@@ -1189,7 +1196,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Smart Glasses](concepts/SmartGlasses.md) - Eye-worn computing category framed as Apple's likely next personal-computing frontier after wrists and ears.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
-- [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull justifies shifting from discovery toward growth and organization-building.
+- [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull, willingness to pay, and repeatable value justifies shifting from discovery toward growth and organization-building.
 - [Trough of Sorrow](concepts/TroughOfSorrow.md) - Pre-product-market-fit startup phase after launch excitement fades and before market pull becomes clear.
 - [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual, high-touch startup work used to create early customer love and learn before automation.
 - [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow founder-led early hiring to larger recruiting systems that preserve standards and culture.
@@ -1360,7 +1367,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
-- [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
+- [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems, support conversations, direct calls, and usage context as primary build signals.
 - [Builder-User Fluency Gap](concepts/BuilderUserFluencyGap.md) - Difference between what builders find obvious from system fluency and what users can infer from the interface.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
