@@ -1491,6 +1491,10 @@ Ingested Wulc's 2015 note on orphan and zombie processes. Added the source note 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | 张潇雨的个人投资课(1)-市场规律
+
+Ingested Wulc's summary of Zhang Xiaoyu's personal-investing market-rules course. Added source note plus PersonalInvestorStrategy, AssetAllocation, MarketTiming, MacroForecastingHumility, HomeBias, ZhangXiaoyu, JohnMaynardKeynes, and JoelTillinghast pages; updated Wulc, WarrenBuffett, PassiveInvesting, IndexFundStrategy, InvestmentRiskDiscipline, and BehavioralRiskJudgment.
+
 ## [2026-09-14] ingest | How to Sniffer Dummy VLAN on L2VPN
 
 Ingested Zhao CS's Cisco IOS XR L2VPN packet-capture investigation; added source, author/publication, IOS XR, VPLS, EoMPLS, L2VPN, dummy VLAN, and pseudowire transport type pages; updated Cisco and overview.
@@ -1955,6 +1959,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | 如何用数据来挣钱
 
 Ingested Wulc's 2017 summary of data monetization in free internet business models. Added source note plus DataMonetization and ProgrammaticAdvertising concepts; updated Wulc, BehavioralData, index, and overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

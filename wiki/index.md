@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [如何用数据来挣钱](sources/blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian.md) - Wulc explains how free internet traffic becomes monetizable through data-enhanced advertising, from demographic contracts and auctions to programmatic trading, retargeting, look-alike recommendation, ecommerce recommendation, and mobile scene data.
 - [如何成为快速阅读高手](sources/blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou.md) - Wulc summarizes a three-stage nonfiction reading method: evaluate a book, speed-read for structure and key concepts, then deep-read selectively for memory and output.
 - [python 并行编程概述](sources/blog-wulc-python-bing-xing-bian-cheng-gai-shu.md) - Wulc introduces concurrent, parallel, and distributed programming; shared state versus message passing; deadlock, starvation, race conditions; and Python modules such as threading, multiprocessing, Parallel Python, and Celery.
+- [张潇雨的个人投资课(1)-市场规律](sources/blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu.md) - Wulc summarizes Zhang Xiaoyu's market-rules advice for ordinary investors: avoid asset-preference bias, market timing, macro overconfidence, abstract risk labels, and home-country concentration.
 - [3 Strategies for Picking Your Battles as a Software Developer](sources/3-strategies-for-picking-your-battles-as-a-software-developer.md) - Jeanette Head argues that software-team disagreements should be chosen by likely influence, product value, and interpersonal cost, with code-review and product-scope examples showing when to press, let go, or learn from a losing debate.
 - [白话：区块链"稳定币挖矿"是什么](sources/blog-taresky-bai-hua-qu-kuai-lian-wen-ding-bi-wa-kuang-shi-shen-me.md) - Taresky explains stablecoin yield farming through DEX liquidity, AMM pricing, platform-token incentives, vault compounding, and a layered risk inventory covering custody, stablecoins, chains, contracts, approvals, APY, fiat exits, and unknowns.
 - [无风险年化 360%？小白也能懂的 Crypto 套利](sources/blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li.md) - Taresky explains crypto exchange lending and funding-rate arbitrage as bull-market yield strategies funded by leveraged demand, while qualifying "risk-free" with exchange, stablecoin, liquidation, spread, execution, and behavioral risks.
@@ -253,6 +254,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, Python concurrency, Linux process lifecycle, and practical reading methods.
+- [Zhang Xiaoyu](entities/ZhangXiaoyu.md) - Personal-investing course teacher represented here by market-rules guidance for ordinary investors.
+- [John Maynard Keynes](entities/JohnMaynardKeynes.md) - Economist and investor example used to illustrate the limits of macro-driven investing.
+- [Joel Tillinghast](entities/JoelTillinghast.md) - Investor-author cited for company-level "think small" analysis instead of macro fixation.
 - [Jeanette Head](entities/JeanetteHead.md) - Software-development writer represented here by advice on choosing when to push back in team disagreements.
 - [Atomic Object](entities/AtomicObject.md) - Software-development publication context for Jeanette Head's article on collaboration and code-review judgment.
 - [Taresky](entities/Taresky.md) - Practitioner-author explaining crypto arbitrage, stablecoin yield farming, yield sources, and beginner risk discipline.
@@ -1181,6 +1185,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Active Investing](concepts/ActiveInvesting.md) - Investing mode where capital is paired with concentrated participation, control, judgment, or operating work.
 - [Passive Investing](concepts/PassiveInvesting.md) - Investing mode where the investor primarily supplies capital without taking a lead, operating, governance, or control role.
 - [Portfolio Concentration](concepts/PortfolioConcentration.md) - Holding fewer investments so scarce attention, judgment, and influence can be applied more deeply.
+- [Personal Investor Strategy](concepts/PersonalInvestorStrategy.md) - Ordinary-investor approach using simplicity, diversification, self-knowledge, and low pressure to avoid common market mistakes.
+- [Asset Allocation](concepts/AssetAllocation.md) - Diversifying across assets and geographies so returns do not depend on one favored market or recent experience.
+- [Market Timing](concepts/MarketTiming.md) - Attempt to improve returns by predicting market entry and exit points, treated here as difficult even when directionally right.
+- [Macro Forecasting Humility](concepts/MacroForecastingHumility.md) - Investing discipline of treating macro forces as important but often too complex to trade reliably.
+- [Home Bias](concepts/HomeBias.md) - Behavioral tendency to overweight familiar domestic assets despite global diversification benefits.
 - [Engineer Investment](concepts/EngineerInvestment.md) - Engineer-oriented investing frame combining technology-domain judgment, company analysis, risk discipline, and self-leverage.
 - [AI Investment Theme](concepts/AIInvestmentTheme.md) - Framing of AI as a structural investment theme across chips, cloud, software, applications, automation, and related infrastructure.
 - [Investment Risk Discipline](concepts/InvestmentRiskDiscipline.md) - Behavioral and analytical guardrails against leverage, shorting, trend chasing, unfamiliar speculation, panic trading, and need-threatening risk.

@@ -5,6 +5,7 @@ tags: [investing, risk, judgment]
 sources:
   - gong-cheng-shi-ru-he-geng-hao-tou-zi
   - blog-morgan-housel-collab-fund-a-few-beliefs
+  - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -13,7 +14,7 @@ knowledge_schema: synthesis-v1
 [[InvestmentRiskDiscipline]] is the set of behavioral, analytical, and financial guardrails that keep investing decisions from becoming leverage, trend-chasing, unfamiliar speculation, panic trading, or need-threatening risk.
 
 ## Current Synthesis
-The sources agree that risk discipline begins with avoiding ruinous behavior before seeking superior returns. The engineer-investing source is explicit about market mechanics: do not follow blindly, buy high because others made money, use margin, short, trade frequently, or enter unfamiliar domains because a concept is popular. Its inspected slides make downside asymmetry concrete with a portfolio that rises about 52% in one scenario but, if bought at highs, would fall enough that an 81.8% rebound would be needed to recover; adding borrowed money could force liquidation before recovery. Housel adds a behavioral and personal-finance layer: the most destructive financial decisions risk what is needed to gain what is merely wanted, while debt removes options and savings add them. Together, the pages frame investment risk as a mix of market exposure, leverage, behavioral overconfidence, regret calibration, and household optionality.
+The sources agree that risk discipline begins with avoiding ruinous behavior before seeking superior returns. The engineer-investing source is explicit about market mechanics: do not follow blindly, buy high because others made money, use margin, short, trade frequently, or enter unfamiliar domains because a concept is popular. Its inspected slides make downside asymmetry concrete with a portfolio that rises about 52% in one scenario but, if bought at highs, would fall enough that an 81.8% rebound would be needed to recover; adding borrowed money could force liquidation before recovery. Housel adds a behavioral and personal-finance layer: the most destructive financial decisions risk what is needed to gain what is merely wanted, while debt removes options and savings add them. Wulc's Zhang Xiaoyu source adds a consequence-test: before buying, ask whether one understands what would happen if the asset fell by half and what response would be available. Together, the pages frame investment risk as a mix of market exposure, leverage, behavioral overconfidence, regret calibration, household optionality, and response planning.
 
 ## Key Claims
 - Risk control begins with avoiding destructive actions such as margin, shorting, frequent trading, and unfamiliar speculation.
@@ -22,7 +23,7 @@ The sources agree that risk discipline begins with avoiding ruinous behavior bef
 - Waiting for rare good opportunities can be better than constant action.
 - Sell discipline should include admitting a mistaken purchase, finding a better opportunity, or recognizing extreme overvaluation.
 - The most dangerous risk is risking what one needs for an upside one merely wants.
-- Savings, debt, and expected regret shape future choices, so risk discipline is also option discipline.
+- Savings, debt, expected regret, and response capacity shape future choices, so risk discipline is also option discipline rather than only an abstract probability label.
 
 ## Evidence
 - Stop rules: [[gong-cheng-shi-ru-he-geng-hao-tou-zi]] lists not shorting, not using margin, not buying what one does not understand, not seeking shortcuts, and not frequent trading.
@@ -33,13 +34,14 @@ The sources agree that risk discipline begins with avoiding ruinous behavior bef
 - Need-versus-want risk: [[blog-morgan-housel-collab-fund-a-few-beliefs]] warns against risking what is needed to gain what is merely wanted.
 - Option discipline: [[blog-morgan-housel-collab-fund-a-few-beliefs]] states that debt removes options while savings add them and links risk understanding to calibrated future regret.
 - Uncertainty posture: [[blog-morgan-housel-collab-fund-a-few-beliefs]] recommends saving pessimistically, investing optimistically, planning for plans to fail, and reading more history than forecasts.
+- Consequence test: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] says investors should ask whether they understand what happened and what they would do if an investment fell by half.
+- Quantification limit: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] argues that risk is hard to reduce to a clean number, probability, or single loss percentage.
 
 ## Counterevidence & Qualifications
-The sources offer heuristics rather than a complete risk-management model. VIX, RSI, policy news, and social-media signals are context-dependent and can fail; the engineer-investing source itself says the material is not financial advice. Housel's aphorisms are deliberately compressed, so they need application-specific judgment before being turned into portfolio rules.
+The sources offer heuristics rather than a complete risk-management model. VIX, RSI, policy news, and social-media signals are context-dependent and can fail; the engineer-investing source itself says the material is not financial advice. Housel's aphorisms are deliberately compressed, and Wulc's half-loss test is a practical screen rather than a full stress-testing framework.
 
 ## What Changed
-- Added Housel's behavioral layer: need-versus-want risk, regret calibration, debt, savings, and optionality.
-- Broadened the concept from market-trading guardrails to household and psychological risk discipline.
+- Added Wulc's consequence-based risk test and caution against treating risk as a cleanly measurable number.
 
 ## Related Concepts
 - [[EngineerInvestment]] - risk discipline is the behavioral foundation of the engineer-facing investing frame.
@@ -48,3 +50,5 @@ The sources offer heuristics rather than a complete risk-management model. VIX, 
 - [[PassiveInvesting]] - diversification is one way to reduce the need for constant judgment.
 - [[BehavioralRiskJudgment]] - broader belief-calibration concept that explains why people misread risk.
 - [[AttentionManagement]] - filtering forecasts and news can reduce low-value decision noise.
+- [[PersonalInvestorStrategy]] - applies risk discipline to ordinary-investor portfolio decisions.
+- [[MarketTiming]] - timing attempts often fail through risk endurance rather than direction alone.
