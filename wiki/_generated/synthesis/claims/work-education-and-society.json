@@ -5,16 +5,18 @@
       "id": "active-learning-builds-usable-judgment",
       "qualifications": [
         "Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration.",
-        "Writing-centered investigation depends on self-skepticism, view revision, and judgment about which subquestions matter.",
+        "Writing-centered investigation and output-oriented deep reading depend on self-skepticism, view revision, and judgment about which questions or passages matter.",
         "Copying programming examples can support learning only when paired with active study, modification, and causal explanation.",
         "LLM help supports learning and productivity most safely when the user can inspect, test, correct, or discard the output.",
         "Antirez's adoption pressure means protected struggle should be balanced with serious practice using current tools, not treated as abstinence from AI."
       ],
-      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
+      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] and [[SpeedReadingMethod]] to turn reading into provisional claims, selected concepts, notes, and output, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
         "LearningByWriting",
+        "SpeedReadingMethod",
+        "FocusedReading",
         "WorkplaceLearning",
         "HackerStyleTechnicalCuriosity",
         "FeynmanTechnique",
@@ -190,6 +192,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, career development, and collaboration as practice-rich, feedback-rich activity rather than passive consumption. Recent additions sharpen three boundaries: AI can accelerate bounded and even substantial programming work when humans retain problem framing, inspection, and ownership; education, junior development, writing, coding, and career resilience still require protected struggle and human judgment; and workplace disagreement works best when teams separate product value, standards, and evidence from personal preference. Career planning still works best as staged experimentation, with self-audits such as [[WantRealityCareerFramework]] helping people test authentic wants against realistic paths while preserving attention to constraints.",
+  "summary": "Work, education, and society sources frame learning, career development, and collaboration as practice-rich, feedback-rich activity rather than passive consumption. Recent reading material adds that nonfiction intake can itself be active when readers evaluate books, speed-read for structure and concepts, then deep-read for memory, notes, writing, or teaching. Other additions sharpen three boundaries: AI can accelerate bounded and even substantial programming work when humans retain problem framing, inspection, and ownership; education, junior development, writing, coding, and career resilience still require protected struggle and human judgment; and workplace disagreement works best when teams separate product value, standards, and evidence from personal preference. Career planning still works best as staged experimentation, with self-audits such as [[WantRealityCareerFramework]] helping people test authentic wants against realistic paths while preserving attention to constraints.",
   "topic_id": "work-education-and-society"
 }

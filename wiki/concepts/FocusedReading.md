@@ -6,6 +6,7 @@ sources:
   - feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology
   - bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi
   - blog-holden-karnofsky-cold-takes-learning-by-writing
+  - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -18,14 +19,16 @@ The sources position focused reading as the bridge between broad discovery and d
 
 Focused reading therefore has two dimensions in the wiki: attention focus around a project and material focus around the right reading type. Popular works, introductory works, and specialized works each answer different needs, and diversity across schools or authors can prevent a narrow first frame from hardening too early. Karnofsky's [[LearningByWriting]] source adds a third, argument-driven dimension: once a provisional claim is written, the learner can read toward the weakest or most view-changing subquestion instead of trying to cover every branch of the debate.
 
+Wulc's speed-reading source adds a pre-reading and intra-book version of the same pattern. Focused reading can begin before the book is fully opened by evaluating the topic, preface, publisher framing, table of contents, and review quality. Once inside the book, the reader can skim visually, move by semantic units, and hunt for new, neglected, or replacement concepts rather than treating the author's whole sequence as equally important.
+
 ## Key Claims
 - Focused reading starts after a learner chooses near-term creative or research topics.
-- It improves attention by helping the reader ignore information unrelated to the chosen themes.
+- It improves attention by helping the reader ignore information unrelated to the chosen themes and by evaluating books before deep commitment.
 - It uses categories and tags to make intake searchable and reusable.
 - It turns scattered information into structured material for output.
 - It complements random reading by narrowing a broad discovery stream into a purposeful research stream.
 - It depends on source quality, reading type, and media fit when the goal is systematic learning.
-- It can be guided by a written hypothesis so that the next reading targets the questions most likely to change the view.
+- It can be guided by a written hypothesis or speed-reading pass so that the next reading targets the questions, structure, and concepts most likely to matter.
 
 ## Evidence
 - Topic trigger: [[feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology]] says focused reading begins after identifying one to three recent creative themes.
@@ -35,14 +38,16 @@ Focused reading therefore has two dimensions in the wiki: attention focus around
 - Relationship to random reading: [[feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology]] contrasts random reading's broad collection with focused reading's target-driven selection.
 - Reading types and quality: [[bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi]] distinguishes popular, introductory, and specialized works, then recommends quality filtering, diverse schools, and author-style fit.
 - Argument-driven targeting: [[blog-holden-karnofsky-cold-takes-learning-by-writing]] recommends writing a premature claim, listing its weaknesses, then reading or discussing the subquestion most likely to change the larger conclusion.
+- Book evaluation and concept hunting: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] treats prefaces, contents, argued reviews, visual scanning, semantic units, and concept categories as ways to focus reading before deciding what deserves deep attention.
 
 ## Counterevidence & Qualifications
-The approach depends on already having selected themes, a domain, or a provisional claim to investigate. It may miss valuable serendipity if the learner narrows too early, so random reading and broad source discovery remain complementary. Argument-driven reading can also overfit to the first written frame unless weakness finding, side switching, and diverse sources keep the claim revisable. The source-quality advice is domain-sensitive: books may be best for systematic learning, while short-form sources can still answer narrow or time-sensitive questions.
+The approach depends on already having selected themes, a domain, a provisional claim, or at least a purpose for opening a book. It may miss valuable serendipity if the learner narrows too early, so random reading and broad source discovery remain complementary. Argument-driven reading can also overfit to the first written frame unless weakness finding, side switching, and diverse sources keep the claim revisable. The source-quality advice is domain-sensitive: books may be best for systematic learning, while short-form sources can still answer narrow or time-sensitive questions. Pre-reading evaluation can also be distorted by weak marketing copy, misleading reviews, or unfamiliar domains where the reader cannot yet judge what matters.
 
 ## What Changed
 - Created the initial concept page for focused reading as a targeted information-intake method.
 - Added media and reading-type selection as part of focused reading for systematic learning.
 - Added hypothesis-led reading as a way to choose the most decision-relevant subquestion during an investigation.
+- Added book evaluation, visual skimming, semantic-unit movement, and concept hunting as focused-reading techniques.
 
 ## Related Concepts
 - [[AttentionManagement]] - focused reading protects attention by reducing irrelevant input.
@@ -51,3 +56,4 @@ The approach depends on already having selected themes, a domain, or a provision
 - [[PersonalKnowledgeManagement]] - tags and categories make focused reading material retrievable.
 - [[LearningMediaChoice]] - source format affects whether focused reading can support breadth, depth, and review.
 - [[LearningByWriting]] - written hypotheses identify which reading is most likely to change the current view.
+- [[SpeedReadingMethod]] - applies focused reading to evaluating books and selecting where to deep-read.

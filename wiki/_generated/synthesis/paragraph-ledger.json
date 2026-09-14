@@ -2,6 +2,7 @@
   "coverage": {
     "assigned_paragraph_ids": [
       "0d70d8093ffa57f77699c7dcd9b8f401f277f75cc2b5f955a7ecd9fe3a3c7973",
+      "1d0e0b4d498dfccd92ad223ecf3fef3a36dece9f023e6ff1ed3ebed15d375b5b",
       "7a792e6bedfb8d3685ea6e661d79f2c909bdff36ff06f9ee9cead0adbcd1adea",
       "b4d04cc205fbfa668169e4a2c26398a49ae97029d9750c9f3a5aecb3232b1b8d",
       "f13479c6bb6100fdd1f9ba451408de9fe9cff26de0c7f670896aeb0c04471469",
@@ -234,10 +235,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 232
+    "paragraph_count": 233
   },
-  "overview_commit": "06588bce4ecdbd789bf40015447b7b8e00a8d1b9",
-  "overview_digest": "0ba6b24f44861dd0e39ee912dcae979293ce6d3f4000d48cf9808aab96c99600",
+  "overview_commit": "19f7b7fb91366b2ed9a23eb85962578ce110e628",
+  "overview_digest": "e72afc510ec66807a1b0065fa137e3aba41a944c02bb100ddd2c7dd57efb3bd6",
   "paragraphs": [
     {
       "id": "0d70d8093ffa57f77699c7dcd9b8f401f277f75cc2b5f955a7ecd9fe3a3c7973",
@@ -260,6 +261,24 @@
         "PythonConcurrencyLibraries",
         "RaceCondition",
         "Starvation"
+      ]
+    },
+    {
+      "id": "1d0e0b4d498dfccd92ad223ecf3fef3a36dece9f023e6ff1ed3ebed15d375b5b",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Wulc reading source adds [[SpeedReadingMethod]] to the wiki's learning-method material. The method treats nonfiction reading as three passes: evaluate whether the book deserves attention, speed-read for structure and concepts, and deep-read selected parts only when they are worth remembering or outputting. This sharpens [[FocusedReading]] by adding pre-reading evaluation, visual scanning, semantic-unit navigation, and concept hunting; it strengthens [[ActiveLearning]] by making notes, reactions, oral explanation, writing, and teaching the test of effective reading. It also complements [[LearningByWriting]] because drafting is presented as a way to clarify vague reading impressions and separate imperfect first creation from later evaluation. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "FocusedReading",
+        "LearningByWriting",
+        "SpeedReadingMethod"
       ]
     },
     {

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [如何成为快速阅读高手](sources/blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou.md) - Wulc summarizes a three-stage nonfiction reading method: evaluate a book, speed-read for structure and key concepts, then deep-read selectively for memory and output.
 - [python 并行编程概述](sources/blog-wulc-python-bing-xing-bian-cheng-gai-shu.md) - Wulc introduces concurrent, parallel, and distributed programming; shared state versus message passing; deadlock, starvation, race conditions; and Python modules such as threading, multiprocessing, Parallel Python, and Celery.
 - [3 Strategies for Picking Your Battles as a Software Developer](sources/3-strategies-for-picking-your-battles-as-a-software-developer.md) - Jeanette Head argues that software-team disagreements should be chosen by likely influence, product value, and interpersonal cost, with code-review and product-scope examples showing when to press, let go, or learn from a losing debate.
 - [白话：区块链"稳定币挖矿"是什么](sources/blog-taresky-bai-hua-qu-kuai-lian-wen-ding-bi-wa-kuang-shi-shen-me.md) - Taresky explains stablecoin yield farming through DEX liquidity, AMM pricing, platform-token incentives, vault compounding, and a layered risk inventory covering custody, stablecoins, chains, contracts, approvals, APY, fiat exits, and unknowns.
@@ -249,7 +250,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Wulc](entities/Wulc.md) - Chinese technical blogger explaining Python-adjacent concurrency, parallelism, distributed programming, and concurrency failure modes.
+- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, Python concurrency, and practical reading methods.
 - [Jeanette Head](entities/JeanetteHead.md) - Software-development writer represented here by advice on choosing when to push back in team disagreements.
 - [Atomic Object](entities/AtomicObject.md) - Software-development publication context for Jeanette Head's article on collaboration and code-review judgment.
 - [Taresky](entities/Taresky.md) - Practitioner-author explaining crypto arbitrage, stablecoin yield farming, yield sources, and beginner risk discipline.
@@ -676,7 +677,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sahil Bloom](entities/SahilBloom.md) - Creator whose Creator Science interview informs the source author's thinking about value, follower quality, consistency, and evergreen content.
 - [Xiaohongshu](entities/Xiaohongshu.md) - Recommendation-driven social platform used as the source's main example of volatile creator metrics.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
-- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence with work, family, creation, and human nature, and summarizing big-data industry transformation criteria.
+- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, big-data criteria, software pedagogy, and reading methodology.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
@@ -1203,6 +1204,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.
 - [Systematic Learning](concepts/SystematicLearning.md) - Learning that builds both breadth and depth so a person can truly understand and use a domain.
+- [Speed Reading Method](concepts/SpeedReadingMethod.md) - Nonfiction reading workflow that evaluates a book, skims for structure and concepts, and deep-reads selected parts for output.
 - [Programmer Mindset](concepts/ProgrammerMindset.md) - Learned habit of reasoning precisely about code behavior, details, and whole-program effects.
 - [Skill Stacking](concepts/SkillStacking.md) - Career strategy of combining multiple useful skills into a distinctive profile rather than competing only on one axis.
 - [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and revisiting known codebase liabilities through lightweight markers, tool support, and team conventions.

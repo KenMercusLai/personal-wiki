@@ -6,15 +6,16 @@ sources:
   - chang
   - da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye
   - blog-wulc-python-bing-xing-bian-cheng-gai-shu
+  - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, and introductory Python systems-programming explanation.
+[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, introductory Python systems-programming explanation, and practical reading methodology.
 
 ## Current Profile
-The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. The Python parallel-programming overview adds a more pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples.
+The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. The Python parallel-programming overview adds a more pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples. The speed-reading article adds a learning-method mode: Wulc summarizes [[SpeedReadingMethod]] as evaluation, selective skimming, and output-oriented deep reading.
 
 ## Key Characteristics
 - Uses broad cross-domain analogy to connect work, family, creation, and human nature.
@@ -23,6 +24,7 @@ The current source set presents Wulc as a cross-domain explainer. In [[chang]], 
 - Treats data-informed decision-making as a challenge to unsupported prior experience.
 - Writes introductory software-development material in Chinese, including visual explanations of [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]].
 - Frames [[Python]] as a practical module ecosystem around concurrency and distributed-programming concepts.
+- Summarizes practical learning methods, connecting [[FocusedReading]], [[ActiveLearning]], and written output.
 
 ## Evidence
 - Cross-domain synthesis: [[chang]] connects workplace incentives, family-of-origin patterns, intimate relationships, creative receptivity, and moral situations under the "field" metaphor.
@@ -31,13 +33,15 @@ The current source set presents Wulc as a cross-domain explainer. In [[chang]], 
 - Evidence-over-experience stance: [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]] closes with the principle that data should outrank prior assumptions in business decisions.
 - Concurrency pedagogy: [[blog-wulc-python-bing-xing-bian-cheng-gai-shu]] moves from programming models to communication styles, hazards, and Python modules.
 - Visual teaching: [[blog-wulc-python-bing-xing-bian-cheng-gai-shu]] includes inspected diagrams for scheduler-based concurrency, multi-core parallelism, networked distributed work, deadlock, and race conditions.
+- Reading methodology: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] presents nonfiction reading as evaluation, speed reading for structure and concepts, and deep reading for memory and output.
 
 ## Qualifications
-The wiki currently knows Wulc only through three source notes, so the profile should not infer a broader biography, professional role, or stable intellectual program beyond these articles.
+The wiki currently knows Wulc only through four source notes, so the profile should not infer a broader biography, professional role, or stable intellectual program beyond these articles.
 
 ## What Changed
 - Expanded Wulc's profile from reflective field essayist and big-data summarizer to include introductory Python systems-programming explanation.
 - Added diagram-driven concurrency pedagogy as a source-backed characteristic.
+- Added practical reading and learning-method synthesis through the speed-reading article.
 
 ## Relationships
 - [[EnvironmentalField]] - Wulc's essay supplies the wiki's central account of field-shaped life.
@@ -49,3 +53,5 @@ The wiki currently knows Wulc only through three source notes, so the profile sh
 - [[ConcurrentProgramming]] - one of the programming models Wulc explains.
 - [[ParallelProgramming]] - central programming model in the article title and module list.
 - [[DistributedProgramming]] - programming model linked to networked machines and Celery-style task distribution.
+- [[SpeedReadingMethod]] - Wulc summarizes the method as evaluation, speed reading, and output-oriented deep reading.
+- [[FocusedReading]] - the speed-reading article treats concept hunting and structure scanning as targeted intake.

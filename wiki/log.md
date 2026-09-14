@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | 如何成为快速阅读高手
+
+Added Wulc's 2021 Chinese summary of a speed-reading course. Key claims: nonfiction reading should start with evaluation, speed reading is selective visual and semantic navigation rather than faster word consumption, readers should hunt for new or assumption-replacing concepts, and deep reading is effective when it produces memory, notes, writing, oral explanation, or teaching. No image references were present in the source Markdown.
+
 ## [2026-09-14] ingest | python 并行编程概述
 
 Added Wulc's 2016 Chinese overview of Python parallel programming. Key claims: concurrency is scheduler-mediated pseudo-parallelism, parallelism is simultaneous multi-core execution, distributed programming spans networked machines, shared state and message passing are the two communication models, and deadlock, starvation, and race conditions are core hazards. Inspected all six embedded local diagrams and used them as evidence for the programming models, circular wait, and account-balance race-condition examples.
@@ -1915,6 +1919,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | 2023: Focusing on a Single Product Pays Off
 
 Ingested Max Rozen's 2023 retrospective on ROZENMD and OnlineOrNot; added Max Rozen, OnlineOrNot, ROZENMD, and Cloudflare D1 pages; updated bootstrapped SaaS, startup focus, side-project incubation, small-product portfolios, and Cloudflare.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

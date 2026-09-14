@@ -4,6 +4,7 @@ type: synthesis
 tags: []
 sources:
   - blog-wulc-python-bing-xing-bian-cheng-gai-shu
+  - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
   - 3-strategies-for-picking-your-battles-as-a-software-developer
   - blog-beepb00p-map-of-my-personal-data-infrastructure
   - blog-zhao-cs-how-to-sniffer-dummy-vlan-on-l2vpn
@@ -238,6 +239,8 @@ The wiki currently contains sources on lightweight productivity habits, journali
 ## Current Synthesis
 
 The newest Wulc source adds a foundational concurrency taxonomy to the wiki's software-systems material. New [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] distinguish scheduler-mediated pseudo-parallelism, multi-core simultaneous execution, and networked execution across physically separated machines, with inspected diagrams grounding each model. New [[InterprocessCommunication]] and [[MessagePassing]] capture the source's shared-state versus copied-message tradeoff: shared writable state needs protection such as locks, while messages cost memory but improve consistency and fit distributed environments. [[ConcurrencyFailureModes]], [[Deadlock]], [[Starvation]], and [[RaceCondition]] now give the wiki a compact vocabulary for circular waits, unfair non-progress, and timing-dependent state corruption, and [[Python]] gains [[PythonConcurrencyLibraries]] as a 2016 introductory module map covering `threading`, `multiprocessing`, Parallel Python, and Celery.
+
+The newest Wulc reading source adds [[SpeedReadingMethod]] to the wiki's learning-method material. The method treats nonfiction reading as three passes: evaluate whether the book deserves attention, speed-read for structure and concepts, and deep-read selected parts only when they are worth remembering or outputting. This sharpens [[FocusedReading]] by adding pre-reading evaluation, visual scanning, semantic-unit navigation, and concept hunting; it strengthens [[ActiveLearning]] by making notes, reactions, oral explanation, writing, and teaching the test of effective reading. It also complements [[LearningByWriting]] because drafting is presented as a way to clarify vague reading impressions and separate imperfect first creation from later evaluation. No image references were present in the source Markdown.
 
 The newest Jeanette Head source adds a disagreement-selection layer to the wiki's collaboration and review material. [[WorkplaceCollaboration]] now includes a frame for deciding when to press, let go, or pursue a useful losing debate: developers should ask whether they can influence the outcome, whether the issue is worth the time and emotional cost, and what concrete product or team gain justifies raising the stakes. [[CodeReviewPractice]] gains a reviewer-side triage rule: distinguish codebase standards, material performance issues, and readability problems from personal style preferences, and prefer conversation over line-by-line critique when someone is ramping into project norms. [[JeanetteHead]] and [[AtomicObject]] anchor the source; the remote lead photograph was inspected and treated as decorative.
 

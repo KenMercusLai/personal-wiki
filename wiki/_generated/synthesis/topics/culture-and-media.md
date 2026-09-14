@@ -4,27 +4,27 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-14
-as_of_overview_commit: 74d813387ae2d770a9cf8967b8d4988a4f047526
-input_digest: 13604a5a04f812ba605f259f50b5a54e62f7f1a6666a6d2dfb497305ac489a43
+as_of_overview_commit: 19f7b7fb91366b2ed9a23eb85962578ce110e628
+input_digest: 09a32a3741802c16c567df8a15c3f7213eb570f59ac05e1927a04c9f852330d5
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent reading material adds speed-reading as selective nonfiction attention: readers evaluate books, scan for structure and concepts, and deep-read only material worth remembering or outputting. Platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.
 
 ## Cross-source Findings
 
 ### Media Form Shapes Systematic Learning
 
-[[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].
+[[LearningMediaChoice]] treats media form and reading mode as part of learning design: encyclopedias, Q&A, SNS, video, books, [[SpeedReadingMethod]], [[FocusedReading]], and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].
 
-**Evidence:** [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]]
+**Evidence:** [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[SpeedReadingMethod]], [[FocusedReading]], [[LearningByWriting]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]]
 
 **Qualifications:**
 
-- The book-centered and reading-note recommendations are qualitative and strongest for difficult systematic study or specific reading workflows.
+- The book-centered, speed-reading, and reading-note recommendations are qualitative and strongest for difficult systematic study or specific nonfiction reading workflows.
 
 ### Ai Writing Is Cultural Production Scaffolding
 

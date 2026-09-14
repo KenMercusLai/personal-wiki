@@ -4,9 +4,9 @@
       "global_candidate": true,
       "id": "media-form-shapes-systematic-learning",
       "qualifications": [
-        "The book-centered and reading-note recommendations are qualitative and strongest for difficult systematic study or specific reading workflows."
+        "The book-centered, speed-reading, and reading-note recommendations are qualitative and strongest for difficult systematic study or specific nonfiction reading workflows."
       ],
-      "statement": "[[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].",
+      "statement": "[[LearningMediaChoice]] treats media form and reading mode as part of learning design: encyclopedias, Q&A, SNS, video, books, [[SpeedReadingMethod]], [[FocusedReading]], and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "LearningMediaChoice",
@@ -15,6 +15,9 @@
         "DIKWModel",
         "ActiveLearning",
         "FeynmanTechnique",
+        "SpeedReadingMethod",
+        "FocusedReading",
+        "LearningByWriting",
         "ReadingNoteWorkflow",
         "NoteToolFit",
         "Obsidian"
@@ -177,6 +180,6 @@
       ]
     }
   ],
-  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent reading material adds speed-reading as selective nonfiction attention: readers evaluate books, scan for structure and concepts, and deep-read only material worth remembering or outputting. Platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.",
   "topic_id": "culture-and-media"
 }
