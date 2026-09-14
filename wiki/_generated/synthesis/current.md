@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: f17733da9127bcbf4e61a34085d312d74c75939a
-summary: "A compact map of how tools, platforms, markets, learning, governance, and culture produce durable value through evidence, judgment, constraints, and trust."
-episode_count: 224
-source_count: 224
-paragraph_count: 217
+as_of_overview_commit: c887327cb50e7e9d4f6d390ff77cfde83f3c36b4
+summary: "Durable systems pair technical understanding with scope-aware governance, verification, human judgment, retained value, learning loops, and institutional context."
+episode_count: 225
+source_count: 225
+paragraph_count: 218
 topic_count: 9
 ---
 
@@ -17,19 +17,19 @@ topic_count: 9
 ## Executive Summary
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs.
+- Architecture governance is scope-sensitive: [[ArchitectureAlignmentForces]] links [[MYOB]]'s team, domain, and vertical structure to different rules for coupling, technology choice, and [[IntegrationStrategy]], with [[DefaultTrialRetire]] fitting stronger local alignment and [[TechnologyRadar]] fitting weaker organization-wide alignment.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change.
 - [[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.
 - [[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that infrastructure leadership, review discipline, operational reliability, release safety, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
 - Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly.
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[BleacherReport]], [[RoryBrown]], [[Twitter]], and [[SocialMediaCuration]] show publishers and readers adapting cultural production and intake to platform-native surfaces, channel hedging, interaction-based success measures, and curated feed defaults.
 - Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation; [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention, while exit-oriented technology arguments stress that credible alternatives can discipline institutional power.
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources center on engineering judgment under complexity: tools and platforms help when teams understand underlying systems, preserve evidence through tests and traces, design clear boundaries, keep internal quality high, and account for cost, reliability, ecosystem timing, distribution dependence, and AI's lowered cost of average output.
+AI and technology sources frame technical progress as a governance and practice problem: durable teams understand underlying systems, keep verification and evidence close to change, match architecture choices to workload and organizational scope, build AI and agent systems inside explicit harnesses, and treat platforms, retrieval, data work, and legacy modernization as evolving socio-technical systems rather than tool purchases alone.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]].
 - Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execution as well as value focus: [[ExtremeProgramming]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] make adaptation cheaper, safer, and more connected to product learning. Evidence: [[AgileSoftwareDevelopment]], [[ExtremeProgramming]], [[InternalSoftwareQuality]], [[ContinuousDelivery]], [[AgileFluencyModel]].

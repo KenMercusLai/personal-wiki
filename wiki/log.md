@@ -1435,6 +1435,10 @@ Ingested Connie Chan's a16z analysis of China's livestreaming boom, creating sou
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | The Strong and Weak Forces of Architecture
+
+Ingested Martin Fowler's MYOB architecture-governance article; created [[ArchitectureAlignmentForces]], updated [[MartinFowler]], [[MYOB]], [[DefaultTrialRetire]], and [[TechnologyRadar]], and incorporated the inspected organization-structure diagrams.
+
 ## [2026-09-14] ingest | How I Use Twitter
 
 Ingested Martin Fowler's Twitter workflow essay, creating source and Social Media Curation pages and updating Martin Fowler, Twitter, Platform Abuse Response, Read-Later Product, and Instapaper.
@@ -1791,6 +1795,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

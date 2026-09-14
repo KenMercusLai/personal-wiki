@@ -36,6 +36,23 @@
     },
     {
       "global_candidate": true,
+      "id": "architecture-governance-is-scope-sensitive",
+      "qualifications": [
+        "The alignment-forces model is grounded in Fowler's MYOB example rather than a universal measurement rule for every organization.",
+        "Domain-local tolerance for tighter coupling does not justify deliberately designing fragile database-level integration."
+      ],
+      "statement": "Architecture governance is scope-sensitive: [[ArchitectureAlignmentForces]] links [[MYOB]]'s team, domain, and vertical structure to different rules for coupling, technology choice, and [[IntegrationStrategy]], with [[DefaultTrialRetire]] fitting stronger local alignment and [[TechnologyRadar]] fitting weaker organization-wide alignment.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ArchitectureAlignmentForces",
+        "MYOB",
+        "IntegrationStrategy",
+        "DefaultTrialRetire",
+        "TechnologyRadar"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "verification-is-core-accelerator",
       "qualifications": [
         "Verification strength depends on coverage, realistic environments, stable expected behavior, and human review of semantic intent."
@@ -266,6 +283,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans agile technical practice, web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools, platforms, and methods only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, maintain internal quality, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.",
+  "summary": "AI and technology sources frame technical progress as a governance and practice problem: durable teams understand underlying systems, keep verification and evidence close to change, match architecture choices to workload and organizational scope, build AI and agent systems inside explicit harnesses, and treat platforms, retrieval, data work, and legacy modernization as evolving socio-technical systems rather than tool purchases alone.",
   "topic_id": "ai-and-technology"
 }

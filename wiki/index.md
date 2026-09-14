@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Default Trial Retire](sources/blog-martin-fowler-default-trial-retire.md) - A Martin Fowler bliki note describing a team technology-choice rule that limits each class to a default, one trial, and one retire candidate, with technology radars for organization-level guidance.
+- [The Strong and Weak Forces of Architecture](sources/blog-martin-fowler-the-strong-and-weak-forces-of-architecture.md) - Martin Fowler argues that architecture governance should vary by organizational alignment strength, with stronger domain-level forces tolerating faster change and weaker organization-wide forces requiring loose coupling, contracts, and formal guidance.
 - [How I Use Twitter](sources/blog-martin-fowler-how-i-use-twitter.md) - Martin Fowler describes Twitter as a curated information and article-discovery tool shaped by selective follows, lists, chronological feeds, reply avoidance, Instapaper handoff, and harassment concerns.
 - [Foreword to The Art of Agile Development](sources/blog-martin-fowler-foreword-to-the-art-of-agile-development.md) - Martin Fowler argues that real agile work depends on interconnected value, collaboration, technical-quality, XP, DevOps, and continuous-delivery practices rather than ceremonies alone.
 - [16 Observations on Livestreaming in China](sources/16-observations-on-livestreaming-in-china-andreessen-horowitz.md) - Connie Chan analyzes China's social livestreaming boom as mobile self-expression, digital gifting, live commerce, creator economics, and regulated entertainment.
@@ -232,7 +233,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice arguments with deliberate online information habits.
+- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice, architecture-governance, and online-information habits.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
 - [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
 - [Connie Chan](entities/ConnieChan.md) - Author of the a16z analysis on China's livestreaming boom.
@@ -324,7 +325,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thoughtworks](entities/Thoughtworks.md) - Technology consultancy and publisher associated with Snap CI and Go.CD in the continuous-delivery source.
 - [Snap CI](entities/SnapCI.md) - Hosted CI/CD product used as the simple staged-pipeline example in the Thoughtworks article.
 - [Go.CD](entities/GoCD.md) - On-premise continuous-delivery tool used as the complex dependency value-stream example in the Thoughtworks article.
-- [MYOB](entities/MYOB.md) - Software company represented by an internal technology radar used to communicate adopt, trial, and avoidance guidance across teams.
+- [MYOB](entities/MYOB.md) - Software company Fowler uses to illustrate internal technology-radar guidance and team/domain/vertical architecture-governance forces.
 - [Michele Gilman](entities/MicheleGilman.md) - Poverty-law scholar framing privacy as a dignity, autonomy, and survival issue for low-income people.
 - [Mary Madden](entities/MaryMadden.md) - Data & Society researcher whose survey work connects low-income status with heightened privacy and security concern.
 - [Elissa Redmiles](entities/ElissaRedmiles.md) - Security researcher cited for the unequal time, skill, and advice costs of privacy and security protections.
@@ -871,6 +872,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Extract Value Streams](concepts/ExtractValueStreams.md) - Sequencing approach that moves a business capability out of a legacy system while surrounding processes keep running.
 - [Compliance Architecture](concepts/ComplianceArchitecture.md) - Design of evidence, validation, audit, and ownership structures that prove compliance while preserving delivery flow.
 - [Integration Strategy](concepts/IntegrationStrategy.md) - Architectural discipline of exposing and evolving business capabilities through clean interfaces rather than outsourcing integration thinking to a tool.
+- [Architecture Alignment Forces](concepts/ArchitectureAlignmentForces.md) - Architecture-governance model that varies coupling, contracts, and decision formality by organizational alignment strength and decision blast radius.
 - [Capability-Oriented Integration](concepts/CapabilityOrientedIntegration.md) - Integration posture that abstracts business capabilities instead of exposing underlying system names and quirks.
 - [Integration DSL](concepts/IntegrationDSL.md) - Specialized low-code or domain-specific integration environment that can simplify workflow, connectivity, and adapter work when bounded behind clean interfaces.
 - [Source-Diagram Isomorphism](concepts/SourceDiagramIsomorphism.md) - Low-code tool structure where graphical workflow diagrams and source markup are synchronized program representations.

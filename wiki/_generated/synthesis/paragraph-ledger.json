@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0d61c8b53e5be52dd1df0c4e891febdd85d417332628183f8e2fe5b66369a23e",
       "73ebdefaa48bcc1af7473fa254e72b5d32e7be54536920be5b65ffe3284fe757",
       "bc576292e67e8e965d10a2ccbc826758a682a029f5f41af88a70fbeaea0ac874",
       "a3c87e2f53a2f632cefc818a96f2d8a01f72c3616319e92334a0ea426e450775",
@@ -219,11 +220,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 217
+    "paragraph_count": 218
   },
-  "overview_commit": "f17733da9127bcbf4e61a34085d312d74c75939a",
-  "overview_digest": "6bafdd0276bb368abf371fd257e0a00c6494d04aedb2bff9c890a95984d03797",
+  "overview_commit": "c887327cb50e7e9d4f6d390ff77cfde83f3c36b4",
+  "overview_digest": "aeaa6336abe4f054223e658e843cb363762739b9cbc215b933a01909d7b05002",
   "paragraphs": [
+    {
+      "id": "0d61c8b53e5be52dd1df0c4e891febdd85d417332628183f8e2fe5b66369a23e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Martin Fowler architecture source adds a scope-sensitive governance layer to the wiki's architecture material. New [[ArchitectureAlignmentForces]] says that coupling, shared code, contribution models, technology choices, and integration patterns should be judged by organizational alignment strength and blast radius rather than by one universal rule. [[MYOB]] now serves as both the technology-radar example and the organization-design case: teams sit inside domains, domains sit inside verticals, and the force of alignment weakens as decisions cross those boundaries. [[DefaultTrialRetire]] and [[TechnologyRadar]] are now connected by scope: informal small-set technology choices fit strong domain forces, while radar-style direction and proposal sharing fit weaker vertical or whole-organization forces. [[IntegrationStrategy]] is qualified by the same model: domain-local APIs, events, or data files can sometimes tolerate tighter coupling, while whole-organization interfaces need schemas, contracts, versioning, backward compatibility, and deprecation discipline. The four embedded diagrams were inspected and used as evidence for team/domain/vertical structure and progressively weaker alignment forces.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ArchitectureAlignmentForces",
+        "DefaultTrialRetire",
+        "IntegrationStrategy",
+        "MYOB",
+        "TechnologyRadar"
+      ]
+    },
     {
       "id": "73ebdefaa48bcc1af7473fa254e72b5d32e7be54536920be5b65ffe3284fe757",
       "primary_topic": "business-and-markets",

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 324520f27a17d1be63245a8d92e64731045762dc
-input_digest: 82a646d04165cbf31505944d8138a499ef7f63ed573dbc7314e8e690f4ab5ef9
+as_of_overview_commit: c887327cb50e7e9d4f6d390ff77cfde83f3c36b4
+input_digest: ec6ef78c54f6bd73deab37561966ffb1a1826fa2e1d6fb7e48940c859c9ee90f
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans agile technical practice, web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools, platforms, and methods only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, maintain internal quality, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.
+AI and technology sources frame technical progress as a governance and practice problem: durable teams understand underlying systems, keep verification and evidence close to change, match architecture choices to workload and organizational scope, build AI and agent systems inside explicit harnesses, and treat platforms, retrieval, data work, and legacy modernization as evolving socio-technical systems rather than tool purchases alone.
 
 ## Cross-source Findings
 
@@ -37,6 +37,17 @@ Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execut
 
 - The agile claim is practitioner synthesis from Fowler's foreword, not an empirical comparison of all agile frameworks.
 - Basic Scrum-like project management can still provide some customer-focus value even when deeper technical fluency is absent.
+
+### Architecture Governance Is Scope Sensitive
+
+Architecture governance is scope-sensitive: [[ArchitectureAlignmentForces]] links [[MYOB]]'s team, domain, and vertical structure to different rules for coupling, technology choice, and [[IntegrationStrategy]], with [[DefaultTrialRetire]] fitting stronger local alignment and [[TechnologyRadar]] fitting weaker organization-wide alignment.
+
+**Evidence:** [[ArchitectureAlignmentForces]], [[MYOB]], [[IntegrationStrategy]], [[DefaultTrialRetire]], [[TechnologyRadar]]
+
+**Qualifications:**
+
+- The alignment-forces model is grounded in Fowler's MYOB example rather than a universal measurement rule for every organization.
+- Domain-local tolerance for tighter coupling does not justify deliberately designing fragile database-level integration.
 
 ### Verification Is Core Accelerator
 
