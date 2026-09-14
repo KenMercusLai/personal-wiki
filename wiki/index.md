@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
 - [Building Engineering Careers at NerdWallet](sources/building-engineering-careers-at-nerdwallet-nerdwallet.md) - NerdWallet explains how it refactored engineering job architecture from checklist-like promotion tasks toward values, examples, fair scope, manager calibration, and living-document rollout.
 - [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
@@ -569,7 +570,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Airtable](entities/Airtable.md) - Specialized collaboration SaaS example that can spread internally after team adoption.
 - [Good Eggs](entities/GoodEggs.md) - Grocery-delivery example of two-sided referral rewards and gifting psychology.
 - [Instagram](entities/Instagram.md) - Social-artifact example where attractive shared photos route viewers back to the app.
-- [Lyft](entities/Lyft.md) - Messaging-artifact example where ETA sharing exposes recipients to ride tracking.
+- [Lyft](entities/Lyft.md) - Ride-hailing marketplace used as both a product-sharing growth example and a marketing-automation platform case.
 - [GroupMe](entities/GroupMe.md) - Messaging product example that used SMS as a first-message onboarding surface.
 - [Nest Cam](entities/NestCam.md) - Visible-hardware example where outdoor security cameras create awareness.
 - [Pat Grady](entities/PatGrady.md) - Sequoia investor voice connecting category-defining ambition, first-principles problem-solving, scaling discipline, and capital restraint.
@@ -961,7 +962,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business revenue, usage, cash, hiring, product, and support metrics.
 - [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, and intentional connection.
 - [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
-- [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that converts user, context, ad, and advertiser-relationship data into demand-relevant labels and scores.
+- [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that turns users, context, and campaign goals into segments and deployable acquisition levers.
 - [Behavioral Targeting](concepts/BehavioralTargeting.md) - Audience-targeting method that maps historical actions into weighted, recency-aware labels and thresholds.
 - [Data Management Platform](concepts/DataManagementPlatform.md) - Advertising data infrastructure that processes first-party or third-party user data into label products traded through DSP and ADX workflows.
 - [Factor Investing](concepts/FactorInvesting.md) - Systematic exposure to size, value, low-volatility, dividend, quality, momentum, or other return factors, with cyclicality and diversification caveats.
@@ -1182,11 +1183,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
 - [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue, lead quality, retention, and the time needed to recover it.
-- [Marketing Attribution](concepts/MarketingAttribution.md) - Assigning credit across marketing touchpoints so teams can judge which channels, campaigns, and lifecycle efforts produce valuable outcomes.
+- [Marketing Attribution](concepts/MarketingAttribution.md) - Assigning credit across marketing touchpoints and feedback loops so teams can judge which channels produce valuable outcomes.
 - [Algorithmic Attribution](concepts/AlgorithmicAttribution.md) - Data-driven attribution approach that estimates proportional channel influence from touchpoint and outcome data instead of fixed rules.
-- [Marketing Operations](concepts/MarketingOperations.md) - Operational and analytical function that builds the tracking, data, and integration systems behind measurable marketing.
+- [Marketing Operations](concepts/MarketingOperations.md) - Operational and analytical function that builds tracking, data, integration, and automation systems behind measurable marketing.
 - [Deep Funnel Metrics](concepts/DeepFunnelMetrics.md) - Downstream customer and revenue metrics used to judge marketing impact beyond clicks, forms, signups, or trials.
-- [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by revenue, retention, churn, and expansion.
+- [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by retention, revenue, expansion, acquisition quality, and forecast uncertainty.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
 - [Product Flow Friction](concepts/ProductFlowFriction.md) - Onboarding and critical-flow effort model where every extra ask spends user intent and must be justified by later product value.

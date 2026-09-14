@@ -2143,3 +2143,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | Building Lyft's Marketing Automation Platform
+
+Added Lyft Engineering source on Symphony, a marketing automation platform for acquisition. Updated Lyft plus marketing operations, marketing attribution, audience targeting, and customer lifetime value with the platform's LTV forecasting, budget allocation, channel bidding, and human-in-the-loop constraints.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
