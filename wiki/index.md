@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How I Use "AI"](sources/blog-nicholas-carlini-how-i-use-ai.md) - Nicholas Carlini documents concrete LLM productivity uses across programming, tutoring, search, automation, reference lookup, simplification, and debugging while preserving explicit caveats about limits and risks.
 - [A Few Beliefs](sources/blog-morgan-housel-collab-fund-a-few-beliefs.md) - Morgan Housel collects compact beliefs about financial risk, incentives, uncertainty, expectations, debt, savings, reputation, and behavioral humility.
 - [What Makes Claude Code So Damn Good](sources/blog-minusx-nuwanda-what-makes-claude-code-so-damn-good.md) - MinusX's Nuwanda analyzes Claude Code as a simple, steerable coding-agent design built from one main loop, bounded subagents, smaller helper models, detailed prompts, live code search, shaped tools, and todo management.
 - [Default Trial Retire](sources/blog-martin-fowler-default-trial-retire.md) - A Martin Fowler bliki note describing a team technology-choice rule that limits each class to a default, one trial, and one retire candidate, with technology radars for organization-level guidance.
@@ -235,6 +236,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Nicholas Carlini](entities/NicholasCarlini.md) - Machine-learning security researcher and programmer represented here by a concrete, caveated taxonomy of practical LLM use.
 - [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice, architecture-governance, and online-information habits.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
 - [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
@@ -849,6 +851,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Practical LLM Use](concepts/PracticalLLMUse.md) - Bounded use of large language models for starts, lookup, transformation, tutoring, automation, debugging, and other inspectable productivity tasks.
 - [Agile Software Development](concepts/AgileSoftwareDevelopment.md) - Practice-rich software approach joining adaptive planning, customer collaboration, teamwork, technical excellence, and reliable delivery.
 - [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.
 - [Agile Fluency Model](concepts/AgileFluencyModel.md) - Shore-Larsen model Fowler cites for distinguishing levels of team agile capability.

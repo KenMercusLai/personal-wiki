@@ -1435,6 +1435,10 @@ Ingested MaiYang's Naval-framed AI action essay, creating source, author, cited 
 
 Ingested Connie Chan's a16z analysis of China's livestreaming boom, creating source, concept, and entity pages for social livestreaming, digital gifting, livestream commerce, creator economics, moderation, Inke, YY, Momo, Taobao Live, Xiaomi, and Connie Chan.
 
+## [2026-09-14] ingest | How I Use "AI"
+
+Ingested Nicholas Carlini's practical LLM-use essay, creating source, author, and Practical LLM Use pages and updating the overview. No image references were present in the source Markdown.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1803,6 +1807,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

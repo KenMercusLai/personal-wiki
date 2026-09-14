@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 39fd29684206eea5b78b9dcf6e89545c062fc90a
-input_digest: b1bde50e4d7d76ccde2380cab17b1051cfff9a536500c34e3343ffda69ec999f
+as_of_overview_commit: a4dbf2940f9db7e14bbf54f3689961b3c0f3ebb0
+input_digest: 478cb220f16eb4cde95a7a4256ccfa8c71fd49fce17d59c26296feeefc00b471
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Recent Claude Code material reinforces the broader pattern: powerful agents work best when their loops, tools, prompts, retrieval paths, todo state, and verification feedback remain simple enough to debug.
+AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Recent Claude Code and Nicholas Carlini material reinforce the broader pattern: powerful AI assistance works best when loops, tools, prompts, retrieval paths, todo state, task boundaries, and verification feedback remain simple enough for users to debug or discard.
 
 ## Cross-source Findings
 
@@ -48,13 +48,14 @@ Architecture and technology governance should vary by organizational scope, coup
 
 ### Agent Systems Need Simple Debuggable Harnesses
 
-Effective AI and coding-agent systems depend on simple, debuggable harnesses: bounded loops, inspectable tools, context management, live retrieval, file-backed state, and verification feedback.
+Effective AI and coding-agent systems depend on simple, debuggable harnesses and bounded task fit: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and [[PracticalLLMUse]] cases where users can judge the output.
 
-**Evidence:** [[ClaudeCode]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]]
+**Evidence:** [[ClaudeCode]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]], [[PracticalLLMUse]], [[NicholasCarlini]]
 
 **Qualifications:**
 
 - Large projects may still need role-specialized agents, but the sources stress that added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains.
+- Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard.
 
 ### Context And Retrieval Are Design Surfaces
 

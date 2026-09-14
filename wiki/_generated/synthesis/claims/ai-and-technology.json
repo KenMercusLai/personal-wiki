@@ -53,9 +53,10 @@
       "global_candidate": true,
       "id": "agent-systems-need-simple-debuggable-harnesses",
       "qualifications": [
-        "Large projects may still need role-specialized agents, but the sources stress that added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains."
+        "Large projects may still need role-specialized agents, but the sources stress that added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains.",
+        "Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard."
       ],
-      "statement": "Effective AI and coding-agent systems depend on simple, debuggable harnesses: bounded loops, inspectable tools, context management, live retrieval, file-backed state, and verification feedback.",
+      "statement": "Effective AI and coding-agent systems depend on simple, debuggable harnesses and bounded task fit: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and [[PracticalLLMUse]] cases where users can judge the output.",
       "status": "supported",
       "supporting_wikilinks": [
         "ClaudeCode",
@@ -63,7 +64,9 @@
         "CodingAgentMinimalTooling",
         "AgenticRAG",
         "LLMContextManagement",
-        "HarnessEngineering"
+        "HarnessEngineering",
+        "PracticalLLMUse",
+        "NicholasCarlini"
       ]
     },
     {
@@ -101,6 +104,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Recent Claude Code material reinforces the broader pattern: powerful agents work best when their loops, tools, prompts, retrieval paths, todo state, and verification feedback remain simple enough to debug.",
+  "summary": "AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Recent Claude Code and Nicholas Carlini material reinforce the broader pattern: powerful AI assistance works best when loops, tools, prompts, retrieval paths, todo state, task boundaries, and verification feedback remain simple enough for users to debug or discard.",
   "topic_id": "ai-and-technology"
 }

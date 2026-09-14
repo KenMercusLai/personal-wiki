@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: ee46cf9ab8416f655825aa752b24be38b4a60e39
-summary: "Durable systems pair technical depth, scope-aware governance, verification, retained value, risk optionality, attention discipline, and institutional context."
-episode_count: 227
-source_count: 227
-paragraph_count: 220
+as_of_overview_commit: a4dbf2940f9db7e14bbf54f3689961b3c0f3ebb0
+summary: "Durable systems pair technical depth, bounded AI, scope-aware governance, verification, retained value, risk optionality, and attention discipline."
+episode_count: 228
+source_count: 228
+paragraph_count: 221
 topic_count: 9
 ---
 
@@ -19,7 +19,7 @@ topic_count: 9
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes.
 - Architecture and technology governance should vary by organizational scope, coupling risk, and alignment strength rather than applying one rule everywhere.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change.
-- Effective AI and coding-agent systems depend on simple, debuggable harnesses: bounded loops, inspectable tools, context management, live retrieval, file-backed state, and verification feedback.
+- Effective AI and coding-agent systems depend on simple, debuggable harnesses and bounded task fit: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and [[PracticalLLMUse]] cases where users can judge the output.
 - [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral and optionality problem: avoid risking needs for wants, treat debt and savings as future-choice modifiers, and plan for failed plans, regret, incentives, overconfidence, and uncertainty.
 - [[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.
 - [[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that infrastructure leadership, review discipline, operational reliability, release safety, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
@@ -29,21 +29,21 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, task boundaries, and human judgment inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[ContinuousDelivery]].
 
 ### Business and Markets
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, risk optionality, and organizational judgment.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, trust, operations, capital allocation, and channel choice stay connected to customer evidence, stable demand, retention, unit economics, risk optionality, and organizational judgment.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral and optionality problem: avoid risking needs for wants, treat debt and savings as future-choice modifiers, and plan for failed plans, regret, incentives, overconfidence, and uncertainty. Evidence: [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].
 
 ### Cross-domain
 
-Cross-domain judgment treats constraints as the real unit of design: attention can be scarcer than time, API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, trajectory simplification trades precision for performance, and classification turns exposure into action.
+Cross-domain judgment treats constraints as the real unit of design: attention can be scarcer than time, API errors become recovery contracts, rough latency math rejects weak architectures early, navigation responds to human reach, trajectory simplification trades precision for performance, and classification turns exposure into action.
 
 - Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly. Evidence: [[AttentionManagement]], [[PersonalProductivity]].
 - Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]]. Evidence: [[APIErrorHandling]], [[HTTP]], [[DeveloperExperience]].
@@ -81,7 +81,7 @@ Science, health, and climate material is indirect and source-scoped: it covers s
 
 ### Work, Education, and Society
 
-Work, education, and society sources connect learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, personal productivity, knowledge systems, and operational systems. Durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, visible evidence, and staged experiments.
+Work, education, and society sources connect learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, personal productivity, knowledge systems, and operational systems. Durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, visible evidence, staged experiments, and bounded AI help whose outputs remain inspectable.
 
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[ProgrammerMindset]], [[SystematicLearning]].
+- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts and tutoring, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[PracticalLLMUse]], [[NicholasCarlini]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].
