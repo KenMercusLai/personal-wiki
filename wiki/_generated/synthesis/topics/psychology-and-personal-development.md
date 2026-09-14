@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-14
-as_of_overview_commit: f05286f85ed7b71e66726b6f81f51831958b32fa
-input_digest: 63212c34475643a1e440a772a8564b391e5696dae88024c127439553d927ce52
+as_of_overview_commit: 43e7c6b23feba483f2f6cff02b58b0f9556a2869
+input_digest: cf6a90719d81b599ea2f4096aabfef77ec76df8dac0796c4bd859c20131c37de
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback, and resisting decision traps such as sunk cost and status performance. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, and productivity habits all depend on context, constraints, and evidence rather than universal slogans.
+This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost and status performance. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
 
 ## Cross-source Findings
 
@@ -38,13 +38,13 @@ This topic links personal effectiveness, judgment, trust, behavior design, and r
 
 ### Small Designed Loops Support Change
 
-[[FoggBehaviorModel]], [[BehaviorDesign]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, reflection, and noticing shape future action.
+[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and noticing shape future action.
 
-**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[JournalingPractice]], [[GratitudePractice]]
+**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]]
 
 **Qualifications:**
 
-- The behavior-model source is self-presentational, while the journaling material is a practical habit pattern rather than comparative evidence.
+- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, and the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation.
 
 ### Trust And Good Faith Can Speed Collaboration
 

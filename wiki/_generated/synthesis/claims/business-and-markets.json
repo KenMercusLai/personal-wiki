@@ -114,13 +114,15 @@
       "global_candidate": true,
       "id": "platforms-centralize-discovery-trust-and-access",
       "qualifications": [
-        "Several platform-power sources are strategic essays or older market snapshots, so traffic, app-store, and mobile economics need later outcome evidence before being treated as current measurements."
+        "Several platform-power sources are strategic essays, older market snapshots, or founder retrospectives, so traffic, app-store, mobile economics, and reputation-system effects need later outcome evidence before being treated as current measurements."
       ],
-      "statement": "[[AggregationTheory]], [[MarketplaceTrust]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, runtime surfaces, and monetization.",
+      "statement": "[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, and monetization.",
       "status": "supported",
       "supporting_wikilinks": [
         "AggregationTheory",
         "MarketplaceTrust",
+        "CommunityReputationSystems",
+        "StackOverflow",
         "WebCentralization",
         "BrowserBypass",
         "MobileEcosystem",
@@ -309,6 +311,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds ecommerce product pages as a conversion surface: product-detail pages preserve acquisition effort when media, proof, speed, mobile usability, copy, FAQs, and trust signals reduce uncertainty before checkout. The broader growth pattern still holds: awareness, clicks, signups, and page modules matter only when they improve retained value and withstand attribution, audience-fit, and testing constraints.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds community reputation as a platform-design surface: voting and points can rank useful contributions, transfer trust, and signal standards, but visible negative feedback can also damage belonging. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, and gamified mechanics matter only when they improve retained value and withstand attribution, audience-fit, inclusion, and testing constraints.",
   "topic_id": "business-and-markets"
 }

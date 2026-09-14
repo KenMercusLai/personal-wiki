@@ -32,13 +32,14 @@
       "global_candidate": true,
       "id": "small-designed-loops-support-change",
       "qualifications": [
-        "The behavior-model source is self-presentational, while the journaling material is a practical habit pattern rather than comparative evidence."
+        "The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, and the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation."
       ],
-      "statement": "[[FoggBehaviorModel]], [[BehaviorDesign]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, reflection, and noticing shape future action.",
+      "statement": "[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and noticing shape future action.",
       "status": "supported",
       "supporting_wikilinks": [
         "FoggBehaviorModel",
         "BehaviorDesign",
+        "Gamification",
         "JournalingPractice",
         "GratitudePractice"
       ]
@@ -116,6 +117,6 @@
       ]
     }
   ],
-  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback, and resisting decision traps such as sunk cost and status performance. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, and productivity habits all depend on context, constraints, and evidence rather than universal slogans.",
+  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost and status performance. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.",
   "topic_id": "psychology-and-personal-development"
 }

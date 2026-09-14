@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Dusting of Gamification](sources/blog-joel-spolsky-a-dusting-of-gamification.md) - Joel Spolsky argues that Stack Overflow's light reputation layer recognized helpful contributions and signaled community norms, while downvotes and visible scoring carried inclusion costs.
 - [My Productivity App is a Never-Ending .txt File](sources/blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file.md) - Jeff Huang describes a calendar-plus-plain-text workflow where nightly daily lists become task plans, meeting notes, research logs, and a searchable record of work.
 - [The Difference Between Time and Attention](sources/blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention.md) - Jason Fried argues that useful commitments are constrained by attention rather than calendar time, so saying no can be more honest when mental presence is unavailable.
 - [12 Best Practices For Boosting Product Page Conversions](sources/12-best-practices-for-boosting-product-page-conversions.md) - An ecommerce CRO article arguing that product pages convert through product media, trust badges, reviews, FAQs, value propositions, mobile speed, social proof, and carefully tested scarcity.
@@ -224,6 +225,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Joel Spolsky](entities/JoelSpolsky.md) - Software writer and Stack Overflow cofounder represented here by a retrospective on reputation-based gamification.
 - [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
 - [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
 - [Ian Cartwright](entities/IanCartwright.md) - Coauthor of the Legacy Mimic pattern article, represented here by incremental legacy-displacement guidance.
@@ -417,7 +419,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Photoshop](entities/Photoshop.md) - Adobe image-editing product used to explain productivity-app value variance and subscription fit.
 - [pgvector](entities/Pgvector.md) - PostgreSQL extension for storing embeddings and running vector similarity search with exact or approximate indexes.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
-- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform used as a traffic data source for comparing technology attention across countries.
+- [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform represented by reputation-based community governance and traffic data used to compare technology attention across countries.
 - [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
 - [Bram Moolenaar](entities/BramMoolenaar.md) - Dutch programmer who created and maintained Vim from STEVIE-derived open-source code.
@@ -815,6 +817,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Gamification](concepts/Gamification.md) - Using points, reputation, streaks, or other game-like mechanics as a weak behavioral layer around an activity users already value.
+- [Community Reputation Systems](concepts/CommunityReputationSystems.md) - Community scoring systems that convert feedback into ranking, recognition, trust, privileges, or moderation signals.
 - [Text File Productivity](concepts/TextFileProductivity.md) - Plain-text daily planning workflow where a chronological file combines task execution, notes, retrieval, and work history.
 - [Product Page Optimization](concepts/ProductPageOptimization.md) - Ecommerce product-detail pages combine visual evidence, trust, proof, usability, copy, and objection handling to move shoppers toward purchase.
 - [Legacy Mimic](concepts/LegacyMimic.md) - Transitional pattern where a new component conforms to legacy interfaces, events, schemas, or semantics during incremental replacement.

@@ -1423,6 +1423,10 @@ Ingested Jeff Huang's calendar-plus-text-file productivity workflow, creating so
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | A Dusting of Gamification
+
+Ingested Joel Spolsky's Stack Overflow gamification retrospective, creating source, author, gamification, and community reputation system pages and updating Stack Overflow's profile.
+
 ## [2026-09-14] ingest | The Difference Between Time and Attention
 
 Ingested Jason Fried's Signal v. Noise essay on attention as a scarcer constraint than calendar time, creating the source and author pages and updating attention management and personal productivity synthesis.
@@ -1727,6 +1731,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
