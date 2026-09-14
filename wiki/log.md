@@ -1435,6 +1435,10 @@ Ingested Connie Chan's a16z analysis of China's livestreaming boom, creating sou
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | What Makes Claude Code So Damn Good
+
+Ingested Nuwanda's MinusX analysis of Claude Code's simple control loop, prompt/tool design, live code search, smaller helper-model usage, and todo management; added Nuwanda and MinusX pages and updated Claude Code, Agentic Workflow Patterns, Coding Agent Minimal Tooling, Agentic RAG, index, and overview.
+
 ## [2026-09-14] ingest | The Strong and Weak Forces of Architecture
 
 Ingested Martin Fowler's MYOB architecture-governance article; created [[ArchitectureAlignmentForces]], updated [[MartinFowler]], [[MYOB]], [[DefaultTrialRetire]], and [[TechnologyRadar]], and incorporated the inspected organization-structure diagrams.
@@ -1795,6 +1799,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

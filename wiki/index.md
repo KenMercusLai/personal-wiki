@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [What Makes Claude Code So Damn Good](sources/blog-minusx-nuwanda-what-makes-claude-code-so-damn-good.md) - MinusX's Nuwanda analyzes Claude Code as a simple, steerable coding-agent design built from one main loop, bounded subagents, smaller helper models, detailed prompts, live code search, shaped tools, and todo management.
 - [Default Trial Retire](sources/blog-martin-fowler-default-trial-retire.md) - A Martin Fowler bliki note describing a team technology-choice rule that limits each class to a default, one trial, and one retire candidate, with technology radars for organization-level guidance.
 - [The Strong and Weak Forces of Architecture](sources/blog-martin-fowler-the-strong-and-weak-forces-of-architecture.md) - Martin Fowler argues that architecture governance should vary by organizational alignment strength, with stronger domain-level forces tolerating faster change and weaker organization-wide forces requiring loose coupling, contracts, and formal guidance.
 - [How I Use Twitter](sources/blog-martin-fowler-how-i-use-twitter.md) - Martin Fowler describes Twitter as a curated information and article-discovery tool shaped by selective follows, lists, chronological feeds, reply avoidance, Instapaper handoff, and harassment concerns.
@@ -644,7 +645,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
-- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent evaluated as the author's central tool for project-wide vibe coding.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, and simple-loop design analysis.
+- [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
+- [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.

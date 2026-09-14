@@ -2,12 +2,11 @@
   "claims": [
     {
       "global_candidate": true,
-      "id": "underlying-systems-outlast-tool-recipes",
+      "id": "technical-depth-over-framework-memorization",
       "qualifications": [
-        "Frameworks, platform conventions, managed services, and lightweight process rituals can reduce complexity when their boundaries match the problem.",
-        "The web-stack source is practitioner advice and its remote images could not be inspected."
+        "Frameworks, cloud services, and packaged tools remain useful when teams understand their fit boundaries and operational tradeoffs."
       ],
-      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs.",
+      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes.",
       "status": "supported",
       "supporting_wikilinks": [
         "VersatileWebStackFluency",
@@ -19,45 +18,11 @@
     },
     {
       "global_candidate": true,
-      "id": "agile-delivery-needs-technical-quality",
+      "id": "verification-as-technical-accelerator",
       "qualifications": [
-        "The agile claim is practitioner synthesis from Fowler's foreword, not an empirical comparison of all agile frameworks.",
-        "Basic Scrum-like project management can still provide some customer-focus value even when deeper technical fluency is absent."
+        "Tests and checks need human judgment, production observability, and risk-sensitive review to cover requirements that automated feedback cannot express."
       ],
-      "statement": "Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execution as well as value focus: [[ExtremeProgramming]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] make adaptation cheaper, safer, and more connected to product learning.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "AgileSoftwareDevelopment",
-        "ExtremeProgramming",
-        "InternalSoftwareQuality",
-        "ContinuousDelivery",
-        "AgileFluencyModel"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "architecture-governance-is-scope-sensitive",
-      "qualifications": [
-        "The alignment-forces model is grounded in Fowler's MYOB example rather than a universal measurement rule for every organization.",
-        "Domain-local tolerance for tighter coupling does not justify deliberately designing fragile database-level integration."
-      ],
-      "statement": "Architecture governance is scope-sensitive: [[ArchitectureAlignmentForces]] links [[MYOB]]'s team, domain, and vertical structure to different rules for coupling, technology choice, and [[IntegrationStrategy]], with [[DefaultTrialRetire]] fitting stronger local alignment and [[TechnologyRadar]] fitting weaker organization-wide alignment.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "ArchitectureAlignmentForces",
-        "MYOB",
-        "IntegrationStrategy",
-        "DefaultTrialRetire",
-        "TechnologyRadar"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "verification-is-core-accelerator",
-      "qualifications": [
-        "Verification strength depends on coverage, realistic environments, stable expected behavior, and human review of semantic intent."
-      ],
-      "statement": "[[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change.",
+      "statement": "[[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change.",
       "status": "supported",
       "supporting_wikilinks": [
         "SoftwareVerification",
@@ -65,224 +30,77 @@
         "CodeReviewPractice",
         "StagingEnvironment",
         "AgentTDDResidual",
-        "HarnessEngineering"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "evidence-and-validation-make-systems-governable",
-      "qualifications": [
-        "Compliance evidence proves specific controls rather than total system safety, and point-of-change enforcement is most justified when organizational scale creates real bottlenecks."
-      ],
-      "statement": "Technical systems become safer and more governable when evidence collection and validation are explicit: [[ComplianceArchitecture]] separates measured evidence from policy checks while [[DeploymentPipeline]] and [[ContinuousDelivery]] supply fast feedback only when controls preserve team flow.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "ComplianceArchitecture",
-        "DeploymentPipeline",
         "ContinuousDelivery"
       ]
     },
     {
       "global_candidate": true,
-      "id": "ai-coding-requires-human-judgment-and-harnesses",
+      "id": "architecture-governance-is-scope-sensitive",
       "qualifications": [
-        "The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign.",
-        "Anthropic adds that automated tests help coding agents iterate, but human review remains necessary for broader system requirements."
+        "Local autonomy works best where alignment is strong; wider blast radius needs looser coupling, explicit contracts, evidence, and shared decision mechanisms."
       ],
-      "statement": "AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "AICodingPractice",
-        "AIAgentCollaboration",
-        "AIFirstEngineering",
-        "AgentTeam",
-        "HumanCodeResponsibility",
-        "CodingAgentMinimalTooling"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "ai-abundance-raises-quality-standards",
-      "qualifications": [
-        "This claim is source-scoped to a creator essay and should not be treated as proof that quality beats distribution, timing, price, or network effects in every AI-enabled market.",
-        "High standards can become perfectionism when they prevent shipping, feedback, or learning."
-      ],
-      "statement": "[[AIEraCreativeStandards]] frames AI abundance as both empowerment and pressure: coding assistants and image tools lower creation thresholds, but when average output is cheap, durable creative work depends more on taste, quality inputs, [[CognitiveCuriosity]], and the broader [[MakeGoodNewThings]] ethic.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "AIEraCreativeStandards",
-        "CognitiveCuriosity",
-        "MakeGoodNewThings"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "agent-infrastructure-needs-semantic-boundaries",
-      "qualifications": [
-        "Tests and CI remain necessary, but they do not by themselves bound live tool permissions or irreversible side effects."
-      ],
-      "statement": "Production-grade agents need infrastructure beyond ordinary app hosting: [[EffectLog]], [[CapabilityGateway]], [[ForkRecovery]], [[AgentResumability]], and [[SemanticIsolation]] manage credentials, side effects, recovery, and prompt-injection risk.",
+      "statement": "Architecture and technology governance should vary by organizational scope, coupling risk, and alignment strength rather than applying one rule everywhere.",
       "status": "supported",
       "supporting_wikilinks": [
-        "ProductionAgentInfrastructure",
-        "AgentResumability",
-        "AgentPermissionModel",
-        "AgentSystemTransparency",
-        "AgentInterfaceAsContext",
-        "ComputerUse"
-      ]
-    },
-    {
-      "global_candidate": true,
-      "id": "context-management-shapes-llm-tool-behavior",
-      "qualifications": [
-        "More context is not automatically better; compression, stale indexes, cache constraints, and context pollution can all degrade behavior."
-      ],
-      "statement": "[[LLMContextManagement]] connects retrieval, memory, prompt caching, skills, MCP, Computer Use, and tape-and-anchor designs because each changes what the model can see or do at action time.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "LLMContextManagement",
-        "RetrievalAugmentedGeneration",
-        "AgentMemory",
-        "PromptCaching",
-        "ComputerUse",
-        "TapeAndAnchors"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "agent-patterns-need-simple-evaluable-interfaces",
-      "qualifications": [
-        "Anthropic's pattern catalog is practitioner guidance, not a benchmark proving one universal agent architecture.",
-        "Frameworks can speed setup when their abstraction stays transparent, but they can also hide prompts, responses, and failure modes."
-      ],
-      "statement": "[[AgenticWorkflowPatterns]] and [[AgentComputerInterface]] make agent reliability a system-design problem: choose the simplest evaluable workflow, expose tools clearly, use environmental feedback, and add autonomy only when the task justifies it.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "AgenticWorkflowPatterns",
-        "AgentComputerInterface",
-        "AgentExperience",
-        "AIApplicationFramework",
-        "CodingAgentMinimalTooling"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "retrieval-quality-depends-on-representation-and-indexing",
-      "qualifications": [
-        "The Python search-engine source is a didactic local-file tutorial and does not cover production search engineering, BM25, link analysis, learning-to-rank, or embedding retrieval.",
-        "Embedding and vector-search sources address vector similarity, while the inverted-index source addresses exact token matching and phrase order."
-      ],
-      "statement": "Retrieval systems depend on representation and index choice: [[InvertedIndex]], [[PhraseQuery]], [[TFIDFRanking]], and [[BagOfWordsModel]] show exact-match and count-vector retrieval, while [[Embeddings]] and [[VectorDatabase]] support vector retrieval.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "InvertedIndex",
-        "PhraseQuery",
-        "TFIDFRanking",
-        "BagOfWordsModel",
-        "Embeddings",
-        "VectorDatabase"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "data-work-needs-domain-and-method-checks",
-      "qualifications": [
-        "LLMs can help transform and explain data, but statistical design and p-hacking checks remain human responsibilities.",
-        "Notebook platforms can improve reuse and auditability, but they still need governance around hidden state, ownership, dependencies, security, and version control."
-      ],
-      "statement": "Useful data and AI applications require domain framing, valid methods, operational loops, and shared workflow infrastructure, whether in [[IndustryDataScience]], [[NotebookWorkflowInfrastructure]], [[LLMDataAnalysis]], [[BigDataIndustryTransformation]], or private-data chatbot systems.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "IndustryDataScience",
-        "NotebookWorkflowInfrastructure",
-        "DataScienceTechnologyAdoption",
-        "InternalDeveloperPlatform",
-        "LLMDataAnalysis",
-        "PHacking",
-        "BigDataIndustryTransformation",
-        "PrivateDataChatbot"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "architecture-simplification-is-contextual",
-      "qualifications": [
-        "Single-system choices can become wrong when availability, write concurrency, dependency isolation, or scale constraints change."
-      ],
-      "statement": "Architecture simplification is contextual: [[DatabaseConsolidation]], [[SQLiteProductionTradeoffs]], [[MonolithConsolidation]], and [[CodingAgentMinimalTooling]] all reduce moving parts only when their operational limits fit the workload.",
-      "status": "qualified",
-      "supporting_wikilinks": [
-        "DatabaseConsolidation",
-        "SQLiteProductionTradeoffs",
-        "MonolithConsolidation",
-        "CodingAgentMinimalTooling",
-        "MicroserviceOperationalOverhead"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "legacy-modernization-needs-transitional-boundaries",
-      "qualifications": [
-        "Legacy-shaped interfaces are useful as migration bridgework only when teams keep their retirement path explicit.",
-        "An anti-corruption layer can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract."
-      ],
-      "statement": "Incremental [[LegacyDisplacement]] needs explicit [[TransitionalArchitecture]]: [[LegacyMimic]], [[EventInterception]], [[ExtractValueStreams]], and [[AntiCorruptionLayer]] help new capabilities coexist with unreplaced legacy processes without treating temporary compatibility as the target design.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "LegacyDisplacement",
-        "TransitionalArchitecture",
-        "LegacyMimic",
-        "EventInterception",
-        "ExtractValueStreams",
-        "AntiCorruptionLayer",
+        "ArchitectureAlignmentForces",
+        "DefaultTrialRetire",
+        "TechnologyRadar",
+        "IntegrationStrategy",
         "CapabilityOrientedIntegration"
       ]
     },
     {
-      "global_candidate": false,
-      "id": "innovation-matures-before-breakthroughs",
+      "global_candidate": true,
+      "id": "agent-systems-need-simple-debuggable-harnesses",
       "qualifications": [
-        "The Long Nose evidence is a reconstructed archive note and a technology-history frame; it should not be generalized as a fixed maturation law for every domain."
+        "Large projects may still need role-specialized agents, but the sources stress that added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains."
       ],
-      "statement": "[[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], and [[ProductEvolution]] frame apparently sudden technical breakthroughs as the visible end of older ideas, recombination, hidden refinement, and pre-commercial maturation.",
-      "status": "source-scoped",
+      "statement": "Effective AI and coding-agent systems depend on simple, debuggable harnesses: bounded loops, inspectable tools, context management, live retrieval, file-backed state, and verification feedback.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "LongNoseInnovation",
-        "BillBuxton",
-        "InnovationAtIntersection",
-        "ProductEvolution"
+        "ClaudeCode",
+        "AgenticWorkflowPatterns",
+        "CodingAgentMinimalTooling",
+        "AgenticRAG",
+        "LLMContextManagement",
+        "HarnessEngineering"
       ]
     },
     {
       "global_candidate": false,
-      "id": "platforms-reshape-discovery-and-economics",
+      "id": "context-and-retrieval-are-design-surfaces",
       "qualifications": [
-        "Demand proxies such as traffic and cost references are directional rather than direct measurements of production use or business value.",
-        "The smartphone-incumbent failure map is a 2016 retrospective interpretation and should not be treated as a complete causal account of every company.",
-        "The distributed-publishing evidence is a 2016 Digiday profile and does not prove that platform reach becomes durable revenue."
+        "Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, or hidden retrieval failure modes."
       ],
-      "statement": "Technology platforms reshape discovery, economics, developer demand, incumbent survival, media distribution, and adjacent products through [[MobileEcosystem]], [[SmartphonePlatformDisruption]], [[DistributedPublishingStrategy]], web centralization, Amazon capability-led expansion, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.",
-      "status": "qualified",
+      "statement": "Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, and interface-delivered diagnostics all shape what the model can use or misuse.",
+      "status": "supported",
       "supporting_wikilinks": [
-        "AmazonCapabilityLedExpansion",
-        "AWS",
-        "AmazonGo",
-        "MobileEcosystem",
-        "SmartphonePlatformDisruption",
-        "BlackBerry",
-        "Nokia",
-        "PlatformBusinessModelObstacle",
-        "MobilePlatformDiscovery",
-        "DistributedPublishingStrategy",
-        "PlatformSpecificEditorialStrategy",
-        "SocialInteractionMetrics",
-        "WebCentralization",
-        "ProgrammingTechnologyDemand",
-        "ProductivityAppSubscriptions"
+        "LLMContextManagement",
+        "RetrievalAugmentedGeneration",
+        "AgenticRAG",
+        "PromptCaching",
+        "DynamicContextCompression",
+        "AgentInterfaceAsContext"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "operations-and-observability-are-product-capabilities",
+      "qualifications": [
+        "The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, and risk."
+      ],
+      "statement": "Operational change safety and compliance evidence are part of technical product capability, not a late paperwork or deployment afterthought.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ChangeSafety",
+        "DeploymentAutomation",
+        "DeploymentPipeline",
+        "ComplianceArchitecture",
+        "ProductionAccessControl",
+        "ProductionAgentInfrastructure"
       ]
     }
   ],
-  "summary": "AI and technology sources frame technical progress as a governance and practice problem: durable teams understand underlying systems, keep verification and evidence close to change, match architecture choices to workload and organizational scope, build AI and agent systems inside explicit harnesses, and treat platforms, retrieval, data work, and legacy modernization as evolving socio-technical systems rather than tool purchases alone.",
+  "summary": "AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Recent Claude Code material reinforces the broader pattern: powerful agents work best when their loops, tools, prompts, retrieval paths, todo state, and verification feedback remain simple enough to debug.",
   "topic_id": "ai-and-technology"
 }
