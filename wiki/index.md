@@ -185,6 +185,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [7 Lessons on Building Product with Outsourced Developers - Mind the Product](sources/7-lessons-on-building-product-with-outsourced-developers-mind-the-product.md) - Mind the Product article arguing that outsourced development can support MVP validation when hiring, fit testing, scope, QA, technical documentation, and issue tracking are managed explicitly.
 - [51 Examples of Growth Hacking Strategies & Techniques From The World's Most Innovative Businesses](sources/51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses.md) - Practitioner catalog of growth-hacking cases showing how product-integrated sharing, referrals, freemium entry, content, trust systems, stunts, partnerships, and paid search can drive user or revenue growth.
 - [4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support](sources/4wk-clean-uninstall-then-reinstall-of-wsl-on-windows-10-with-systemd-support.md) - Procedural WSL note explaining how to cleanly remove and reinstall WSL on Windows 10, choose a distribution, enable native systemd through `/etc/wsl.conf`, and verify the result.
+- [4 awesome ways we leveled up as a dev team](sources/4-awesome-ways-we-leveled-up-as-a-dev-team-grant-ammons-medium.md) - Grant Ammons argues that engineering leaders should sanction team learning through lunch-and-learns, shared videos, book clubs, and meetup or conference speaking.
 - [3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech](sources/3-principles-to-make-your-side-project-stand-out-to-help-you-land-a-job-in-tech-hack-career.md) - Hack Career's job-search advice arguing that side projects become useful only when they are relevant, deep, iterated, shipped, and visible to resume reviewers or interviewers.
 - [3 Ways to Make Your Landing Page Social Proof Prove Something](sources/3-ways-to-make-your-landing-page-social-proof-prove-something.md) - Joanna Wiebe's landing-page copywriting article arguing that social proof is always interpreted, and weak, absent, low-traction, or audience-mismatched proof can reduce trust instead of increasing conversion.
 - [40 Lessons from 40 Years of Apple Ads](sources/40-lessons-from-40-years-of-apple-ads-mission-org-medium.md) - Mission.org's Apple advertising survey extracting marketing lessons from four decades of campaigns around simplicity, cultural association, contrast, proof, product demonstration, and aspiration.
@@ -338,6 +339,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Litmus](entities/Litmus.md) - Email-client analytics reference cited for mobile device open share.
 - [Grasshopper](entities/Grasshopper.md) - Small-business phone-system company used as a billboard cautionary example where visible ad spend attracted advertiser calls more clearly than customer sales.
 - [Bill Barnett](entities/BillBarnett.md) - Academic author critiquing scheduled meetings through procedural rationality and advocating protected work time plus useful informal conversation.
+- [Grant Ammons](entities/GrantAmmons.md) - PipelineDeals engineering leader represented by a practitioner essay on sanctioned team learning rituals.
+- [PipelineDeals](entities/PipelineDeals.md) - Sales CRM company and mostly remote engineering-team context for recurring lunch-and-learns.
 - [Bill Buxton](entities/BillBuxton.md) - Design and technology-history author represented here by the Long Nose of Innovation argument about long refinement before apparent breakthroughs.
 - [Max Weber](entities/MaxWeber.md) - Sociologist cited for the procedural-versus-substantive rationality distinction used to critique meeting rituals.
 - [Bill Durham](entities/BillDurham.md) - Anthropologist cited in Barnett's spontaneous co-evolution conversation example.
@@ -1023,7 +1026,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
 - [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, useful disagreement, purposeful interaction, and responsible use of colleagues' time.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
-- [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning and opportunity infrastructure.
+- [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning, opportunity, and team-reputation infrastructure.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
 - [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.
@@ -1489,7 +1492,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vibe Coding](concepts/VibeCoding.md) - AI-assisted software work mode centered on fast agent-driven iteration, planning, small steps, context care, and verification.
 - [Weak Credential Exposure](concepts/WeakCredentialExposure.md) - Security risk created when externally reachable services can be accessed with guessed, default, reused, blank, or weak credentials.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
-- [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems by reconstructing expert reasoning, replaying traces, and verifying abstractions hands-on.
+- [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems, teammate reasoning, protected team rituals, and hands-on verification.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
 - [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.
 - [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
