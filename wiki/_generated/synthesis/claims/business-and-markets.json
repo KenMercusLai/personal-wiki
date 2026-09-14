@@ -114,9 +114,9 @@
       "global_candidate": true,
       "id": "platforms-centralize-discovery-trust-and-access",
       "qualifications": [
-        "Several platform-power sources are strategic essays, older market snapshots, or founder retrospectives, so traffic, app-store, mobile economics, and reputation-system effects need later outcome evidence before being treated as current measurements."
+        "Several platform-power sources are strategic essays, older market snapshots, founder retrospectives, or personal workflow accounts, so traffic, app-store, mobile economics, reputation-system, and curation effects need later outcome evidence before being treated as current measurements."
       ],
-      "statement": "[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, and monetization.",
+      "statement": "[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.",
       "status": "supported",
       "supporting_wikilinks": [
         "AggregationTheory",
@@ -127,7 +127,9 @@
         "BrowserBypass",
         "MobileEcosystem",
         "MobilePlatformDiscovery",
-        "MobileAppStoreEconomics"
+        "MobileAppStoreEconomics",
+        "Twitter",
+        "SocialMediaCuration"
       ]
     },
     {
@@ -315,6 +317,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds production infrastructure leadership as a business capability: critical systems such as Delos depend on customer grounding, migration-friendly APIs, risk-sensitive review, reliability, and implementation-independent observability, not only code. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, and testing constraints.",
+  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds production infrastructure leadership as a business capability and social-media curation as a platform-use pattern: critical systems such as Delos depend on customer grounding, migration-friendly APIs, risk-sensitive review, reliability, and implementation-independent observability, while Twitter-like platforms only become useful information infrastructure when defaults, lists, safety, and read-later handoffs support user control. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.",
   "topic_id": "business-and-markets"
 }

@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 62a39cdc0a7ce3ffeb2987433018023201977102
-input_digest: 397dd5f3ea1288cb5da35415a623037ff5a5ebefb841ee07869191a067e795ea
+as_of_overview_commit: f17733da9127bcbf4e61a34085d312d74c75939a
+input_digest: 52c52465876b1aa816c3a025dd9435a165e4e0348229e5c940309b5504b90b4a
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds production infrastructure leadership as a business capability: critical systems such as Delos depend on customer grounding, migration-friendly APIs, risk-sensitive review, reliability, and implementation-independent observability, not only code. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, and testing constraints.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds production infrastructure leadership as a business capability and social-media curation as a platform-use pattern: critical systems such as Delos depend on customer grounding, migration-friendly APIs, risk-sensitive review, reliability, and implementation-independent observability, while Twitter-like platforms only become useful information infrastructure when defaults, lists, safety, and read-later handoffs support user control. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
 
 ## Cross-source Findings
 
@@ -78,13 +78,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Platforms Centralize Discovery Trust And Access
 
-[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], and [[MobileAppStoreEconomics]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, and monetization.
+[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.
 
-**Evidence:** [[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]]
+**Evidence:** [[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], [[SocialMediaCuration]]
 
 **Qualifications:**
 
-- Several platform-power sources are strategic essays, older market snapshots, or founder retrospectives, so traffic, app-store, mobile economics, and reputation-system effects need later outcome evidence before being treated as current measurements.
+- Several platform-power sources are strategic essays, older market snapshots, founder retrospectives, or personal workflow accounts, so traffic, app-store, mobile economics, reputation-system, and curation effects need later outcome evidence before being treated as current measurements.
 
 ### Apple Maturity Combines Services Hardware And Capital
 

@@ -4,7 +4,8 @@ type: entity
 tags: [read-later, mobile-app, product-history]
 sources:
   - 10-years-of-instapaper
-last_updated: 2026-09-12
+  - blog-martin-fowler-how-i-use-twitter
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,13 +13,15 @@ knowledge_schema: synthesis-v1
 [[Instapaper]] is a read-later service launched by [[MarcoArment]] in 2008 that helps users save web articles, strip distractions, and read them later across web and mobile contexts.
 
 ## Current Profile
-The source presents Instapaper as a long-lived, reader-centered product whose value accumulated through steady refinement rather than a single dramatic reinvention. It began as a simple bookmarking list, but its core became [[ReadLaterProduct]] infrastructure: text extraction, offline access, article formatting, device sync, search, highlights, notes, exports, and reading-focused UI. Its first decade also included ownership and business-model transitions through [[Betaworks]], [[Pinterest]], paid apps, subscription, freemium, developer APIs, sponsorships, and free Premium access.
+The retrospective source presents Instapaper as a long-lived, reader-centered product whose value accumulated through steady refinement rather than a single dramatic reinvention. It began as a simple bookmarking list, but its core became [[ReadLaterProduct]] infrastructure: text extraction, offline access, article formatting, device sync, search, highlights, notes, exports, and reading-focused UI. Its first decade also included ownership and business-model transitions through [[Betaworks]], [[Pinterest]], paid apps, subscription, freemium, developer APIs, sponsorships, and free Premium access.
+
+Fowler's Twitter workflow adds an external-use case: Instapaper acts as the downstream reading queue for interesting article links found in a social feed. In that role, its value is not only clean reading but also attention separation: discovery can happen quickly on Twitter, while reading happens later in a more controlled product.
 
 ## Key Characteristics
 - Centers product identity on distraction-reduced reading rather than general bookmarking.
 - Depends on parser quality as a foundational capability for turning web pages into readable articles.
 - Adapts tightly to mobile and platform surfaces, especially iOS, Android, Kindle, browser extensions, and Apple device features.
-- Expands user workflows from saving and reading into search, highlighting, notes, exports, public profiles, and curated discovery.
+- Expands user workflows from saving and reading into search, highlighting, notes, exports, public profiles, curated discovery, and social-link handoff.
 - Experiments with paid, subscription, freemium, sponsorship, and developer API business models.
 - Maintains standalone product identity across acquisitions by Betaworks and Pinterest.
 - Treats reliability as a visible product concern after a major 2017 outage.
@@ -31,12 +34,13 @@ The source presents Instapaper as a long-lived, reader-centered product whose va
 - Business-model evolution: [[10-years-of-instapaper]] records Instapaper Pro pricing, optional subscription, freemium transition, Weekly Sponsorship, Instaparser developer API, and free Premium after Pinterest.
 - Ownership continuity: [[10-years-of-instapaper]] says Betaworks acquired Instapaper in 2013, Pinterest acquired it in 2016, and it continued as a separate standalone product.
 - Reliability incident: [[10-years-of-instapaper]] reports a 20-hour outage in 2017 and almost five days to fully restore the service.
+- Social-feed handoff: [[blog-martin-fowler-how-i-use-twitter]] says Fowler saves interesting article announcements from Twitter into his Instapaper feed.
 
 ## Qualifications
-The source is an anniversary retrospective by Instapaper, so it emphasizes product milestones and gratitude more than competitive analysis, financial results, or user-retention evidence. The screenshots show interface evolution, but they are curated examples rather than full usability evidence.
+The main product-history source is an anniversary retrospective by Instapaper, so it emphasizes product milestones and gratitude more than competitive analysis, financial results, or user-retention evidence. Fowler's source adds one prominent user workflow but not broad usage data. The screenshots show interface evolution, but they are curated examples rather than full usability evidence.
 
 ## What Changed
-- Created the initial entity page for Instapaper as a decade-long read-later product case.
+- Added Fowler's use of Instapaper as the read-later destination for article links discovered on Twitter.
 
 ## Relationships
 - [[MarcoArment]] - founder who launched Instapaper.
@@ -46,3 +50,4 @@ The source is an anniversary retrospective by Instapaper, so it emphasizes produ
 - [[ReadLaterProduct]] - Instapaper is the concrete product case for this pattern.
 - [[ProductEvolution]] - Instapaper's first decade illustrates long-term product evolution.
 - [[FocusedReading]] - Instapaper's product promise supports distraction-reduced reading.
+- [[SocialMediaCuration]] - Instapaper receives links from curated social discovery.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "73ebdefaa48bcc1af7473fa254e72b5d32e7be54536920be5b65ffe3284fe757",
       "bc576292e67e8e965d10a2ccbc826758a682a029f5f41af88a70fbeaea0ac874",
       "a3c87e2f53a2f632cefc818a96f2d8a01f72c3616319e92334a0ea426e450775",
       "f1bd36a0bb69e49d07bf43c0feb5b2eb11bb645d506a749885a9cacdb9c15478",
@@ -218,11 +219,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 216
+    "paragraph_count": 217
   },
-  "overview_commit": "324520f27a17d1be63245a8d92e64731045762dc",
-  "overview_digest": "5e1ba55f5147a10567f17cec5ec6a3680860df13e46b6c48d9537ef78c753755",
+  "overview_commit": "f17733da9127bcbf4e61a34085d312d74c75939a",
+  "overview_digest": "6bafdd0276bb368abf371fd257e0a00c6494d04aedb2bff9c890a95984d03797",
   "paragraphs": [
+    {
+      "id": "73ebdefaa48bcc1af7473fa254e72b5d32e7be54536920be5b65ffe3284fe757",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "culture-and-media"
+      ],
+      "text": "The newest Martin Fowler Twitter source adds a social-media curation layer to the wiki's platform, attention, and reading material. New [[SocialMediaCuration]] frames Twitter value as something produced by selective follows, trusted retweets, topical lists, chronological order, reply avoidance, and external workflow handoffs rather than by the default feed alone. [[Twitter]] now includes Fowler's power-user view alongside growth, cultural-metrics, safety, user-tooling, and developer-trust critiques. [[ReadLaterProduct]] and [[Instapaper]] gain a discovery-to-reading pattern: short social posts can point to articles, but saving them for later keeps the feed from becoming the reading environment. [[PlatformAbuseResponse]] is sharpened by Fowler's qualification that personal reply avoidance is easier for users who are not harassment targets; platform-level prevention and serious content-moderation thinking remain necessary. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Instapaper",
+        "PlatformAbuseResponse",
+        "ReadLaterProduct",
+        "SocialMediaCuration",
+        "Twitter"
+      ]
+    },
     {
       "id": "bc576292e67e8e965d10a2ccbc826758a682a029f5f41af88a70fbeaea0ac874",
       "primary_topic": "ai-and-technology",

@@ -56,9 +56,10 @@
       "id": "platform-trust-is-a-strategic-asset",
       "qualifications": [
         "Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes.",
-        "Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in."
+        "Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in.",
+        "Personal curation helps some users reduce exposure, but Fowler's account explicitly says it is easier for people who are not frequent harassment targets."
       ],
-      "statement": "Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation, while exit-oriented technology arguments stress that credible alternatives can discipline that power.",
+      "statement": "Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation; [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention, while exit-oriented technology arguments stress that credible alternatives can discipline institutional power.",
       "status": "supported",
       "supporting_wikilinks": [
         "AppleContentDistributionStrategy",
@@ -66,7 +67,10 @@
         "BrowserPaymentBroker",
         "WebAdEconomics",
         "DeveloperPlatformTrust",
-        "ExitAsGovernance"
+        "ExitAsGovernance",
+        "PlatformAbuseResponse",
+        "Twitter",
+        "SocialMediaCuration"
       ]
     },
     {
@@ -102,6 +106,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, and exit-oriented alternatives to incumbent institutions. The newest compliance paragraph adds an institutional operating pattern: controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, though exit and voice remain uneven because people and teams differ in switching capacity, authority, and exposure to process bottlenecks.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, and exit-oriented alternatives to incumbent institutions. Recent material adds two operating patterns: compliance controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, and social-platform controls remain incomplete when personal curation substitutes for platform-level harassment prevention. Exit and voice remain uneven because people and teams differ in switching capacity, authority, safety exposure, and vulnerability to process bottlenecks.",
   "topic_id": "governance-and-institutions"
 }

@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-14
-as_of_overview_commit: f05286f85ed7b71e66726b6f81f51831958b32fa
-input_digest: f4345b850d28b91984379576c0c807423f7a2172bd21dd5c305f4db2e34db534
+as_of_overview_commit: f17733da9127bcbf4e61a34085d312d74c75939a
+input_digest: 4e4545ed64436dd1b8d236890bd4f49b54fec1bbe6d4bf78844b573c2d572474
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, and exit-oriented alternatives to incumbent institutions. The newest compliance paragraph adds an institutional operating pattern: controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, though exit and voice remain uneven because people and teams differ in switching capacity, authority, and exposure to process bottlenecks.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, and exit-oriented alternatives to incumbent institutions. Recent material adds two operating patterns: compliance controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, and social-platform controls remain incomplete when personal curation substitutes for platform-level harassment prevention. Exit and voice remain uneven because people and teams differ in switching capacity, authority, safety exposure, and vulnerability to process bottlenecks.
 
 ## Cross-source Findings
 
@@ -49,14 +49,15 @@ Scale turns informal or one-off practices into boundary-design problems across o
 
 ### Platform Trust Is A Strategic Asset
 
-Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation, while exit-oriented technology arguments stress that credible alternatives can discipline that power.
+Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation; [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention, while exit-oriented technology arguments stress that credible alternatives can discipline institutional power.
 
-**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[ExitAsGovernance]]
+**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[ExitAsGovernance]], [[PlatformAbuseResponse]], [[Twitter]], [[SocialMediaCuration]]
 
 **Qualifications:**
 
 - Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes.
 - Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in.
+- Personal curation helps some users reduce exposure, but Fowler's account explicitly says it is easier for people who are not frequent harassment targets.
 
 ### Exit And Voice Discipline Institutions
 

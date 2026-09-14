@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Default Trial Retire](sources/blog-martin-fowler-default-trial-retire.md) - A Martin Fowler bliki note describing a team technology-choice rule that limits each class to a default, one trial, and one retire candidate, with technology radars for organization-level guidance.
+- [How I Use Twitter](sources/blog-martin-fowler-how-i-use-twitter.md) - Martin Fowler describes Twitter as a curated information and article-discovery tool shaped by selective follows, lists, chronological feeds, reply avoidance, Instapaper handoff, and harassment concerns.
 - [Foreword to The Art of Agile Development](sources/blog-martin-fowler-foreword-to-the-art-of-agile-development.md) - Martin Fowler argues that real agile work depends on interconnected value, collaboration, technical-quality, XP, DevOps, and continuous-delivery practices rather than ceremonies alone.
 - [16 Observations on Livestreaming in China](sources/16-observations-on-livestreaming-in-china-andreessen-horowitz.md) - Connie Chan analyzes China's social livestreaming boom as mobile self-expression, digital gifting, live commerce, creator economics, and regulated entertainment.
 - [纳瓦尔深度洞察：对待 AI 你得行动起来！](sources/blog-maiyang-naval-insights-taking-action-with-ai.md) - MaiYang uses Naval's action-first framing to argue that AI-era progress comes from self-owned desire, concrete building, and learning by doing rather than passive success-content consumption.
@@ -231,7 +232,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer and Thoughtworks practitioner arguing for technical depth behind agile practice.
+- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice arguments with deliberate online information habits.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
 - [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
 - [Connie Chan](entities/ConnieChan.md) - Author of the a16z analysis on China's livestreaming boom.
@@ -508,7 +509,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Booking.com](entities/BookingCom.md) - Hotel-booking platform used as a paid-search acquisition and repeat-direct-channel example.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
-- [Twitter](entities/Twitter.md) - Social platform used as both a growth case for public status signals and a troubled cultural platform with shipping, safety, metric, user-tooling, and developer-trust challenges.
+- [Twitter](entities/Twitter.md) - Social platform used as a growth case, cultural platform, and curated information tool with safety, metric, user-tooling, and developer-trust challenges.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
 - [MyEtherWallet](entities/MyEtherWallet.md) - Early Ethereum wallet interface that grew from a two-person side project into widely used crypto infrastructure.
@@ -588,7 +589,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
-- [Instapaper](entities/Instapaper.md) - Read-later service whose first decade shows product evolution around distraction-reduced reading, parsing, offline access, notes, search, business-model changes, and reliability.
+- [Instapaper](entities/Instapaper.md) - Read-later service whose first decade and Fowler use case show distraction-reduced reading, parsing, offline access, notes, search, and social-link handoff.
 - [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
 - [Pinterest](entities/Pinterest.md) - Company that acquired Instapaper in 2016 and made Premium free while keeping the product standalone.
@@ -1098,7 +1099,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Financial Statement Reading](concepts/FinancialStatementReading.md) - Lightweight practice of using growth, expectations, turnover, margins, ROA, and ROE to judge company quality.
 - [Engineer Leverage](concepts/EngineerLeverage.md) - Using code, writing, products, AI-assisted output, and sharing to make engineering expertise reusable.
 - [Index Fund Strategy](concepts/IndexFundStrategy.md) - Low-cost broad-market ETF strategy that favors diversified exposure over frequent stock selection.
-- [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and returning to cleaner reading across devices and contexts.
+- [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and separating fast discovery from later focused reading.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
 - [Crypto Wallet Security](concepts/CryptoWalletSecurity.md) - User-facing wallet security across key control, phishing defense, audits, education, privacy, and trust boundaries.
 - [Support Load Scaling](concepts/SupportLoadScaling.md) - Startup operations problem where high-volume, high-stakes support demand forces more durable teams, systems, and company structure.
@@ -1108,6 +1109,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
 - [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.
 - [Product User Segmentation](concepts/ProductUserSegmentation.md) - Product practice of tailoring tools, defaults, and permissions to distinct user needs and behaviors.
+- [Social Media Curation](concepts/SocialMediaCuration.md) - Deliberate shaping of social-platform follows, lists, feeds, and interaction boundaries for useful information intake.
 - [Net Promoter Score](concepts/NetPromoterScore.md) - Customer-loyalty metric and survey program that subtracts detractor share from promoter share and turns open-ended comments into product input.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
 - [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
@@ -1376,7 +1378,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Platform Stickiness](concepts/PlatformStickiness.md) - User retention effect created when apps, workflows, habits, or services make a platform hard to leave.
 - [Product Stickiness](concepts/ProductStickiness.md) - Product-level retention pressure created by accumulated investment, habit, progress, or switching friction.
 - [Trust-Minimization Technology](concepts/TrustMinimizationTechnology.md) - Products, protocols, devices, or automations that reduce the trust required for strangers to transact.
-- [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for handling harassment and coordinated attacks.
+- [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for preventing harassment and coordinated attacks beyond personal filters.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service and monetization surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
 - [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, customer-acquisition channel, and monetization surface.
