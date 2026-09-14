@@ -1,6 +1,19 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "lifecycle-ownership-prevents-resource-leaks",
+      "qualifications": [
+        "The process example is a concise Linux-oriented teaching note and does not cover containers, subreapers, systemd, or application-level child-reaping fixes."
+      ],
+      "statement": "Lifecycle ownership prevents hidden resource leaks: [[OrphanProcess]] is safe because `init` adopts and reaps the child, while [[ZombieProcess]] retains PID-consuming metadata when the parent never calls `wait` or `waitpid`.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "OrphanProcess",
+        "ZombieProcess"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "infrastructure-makes-hidden-flows-actionable",
       "qualifications": [
@@ -74,6 +87,6 @@
       ]
     }
   ],
-  "summary": "Cross-domain sources emphasize infrastructure thinking across personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, and tradeoffs explicit enough to inspect and reuse.",
+  "summary": "Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.",
   "topic_id": "cross-domain"
 }

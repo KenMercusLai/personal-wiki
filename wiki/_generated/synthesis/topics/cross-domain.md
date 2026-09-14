@@ -4,17 +4,27 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-14
-as_of_overview_commit: 0aeb0f5ea22eaf3053992611b8e55b0b70f956ac
-input_digest: 4732f881c5d176ab6ff8871d3ca736e8094efdeaaf04f61e0f583a3138e01895
+as_of_overview_commit: fef4e4f7e0b9b900989509acc1a3c5a82e9d01a5
+input_digest: 9284b9d312d04dd08430064f44700a18f7c17bbecf834d6f82be8c3a64ddb141
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize infrastructure thinking across personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.
 
 ## Cross-source Findings
+
+### Lifecycle Ownership Prevents Resource Leaks
+
+Lifecycle ownership prevents hidden resource leaks: [[OrphanProcess]] is safe because `init` adopts and reaps the child, while [[ZombieProcess]] retains PID-consuming metadata when the parent never calls `wait` or `waitpid`.
+
+**Evidence:** [[OrphanProcess]], [[ZombieProcess]]
+
+**Qualifications:**
+
+- The process example is a concise Linux-oriented teaching note and does not cover containers, subreapers, systemd, or application-level child-reaping fixes.
 
 ### Infrastructure Makes Hidden Flows Actionable
 

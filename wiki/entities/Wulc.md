@@ -7,23 +7,24 @@ sources:
   - da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye
   - blog-wulc-python-bing-xing-bian-cheng-gai-shu
   - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
+  - blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian
+  - blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, introductory Python systems-programming explanation, and practical reading methodology.
+[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, introductory Python and operating-system explanation, and practical reading methodology.
 
 ## Current Profile
-The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. The Python parallel-programming overview adds a more pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples. The speed-reading article adds a learning-method mode: Wulc summarizes [[SpeedReadingMethod]] as evaluation, selective skimming, and output-oriented deep reading.
+The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. In [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]], Wulc applies the same data-business lens to [[DataMonetization]], advertising product history, [[ProgrammaticAdvertising]], ecommerce recommendation, retargeting, look-alike expansion, and mobile scene data. The Python parallel-programming overview adds a pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples. The Linux process note extends that mode into operating-system lifecycle cleanup by distinguishing [[OrphanProcess]] from [[ZombieProcess]]. The speed-reading article adds a learning-method mode: Wulc summarizes [[SpeedReadingMethod]] as evaluation, selective skimming, and output-oriented deep reading.
 
 ## Key Characteristics
 - Uses broad cross-domain analogy to connect work, family, creation, and human nature.
 - Frames personal growth as environmental discernment rather than pure willpower.
-- Summarizes technical-business arguments into practical criteria, as in the three-part test for big-data industry transformation.
-- Treats data-informed decision-making as a challenge to unsupported prior experience.
-- Writes introductory software-development material in Chinese, including visual explanations of [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]].
-- Frames [[Python]] as a practical module ecosystem around concurrency and distributed-programming concepts.
+- Summarizes technical-business arguments into practical criteria, from big-data industry transformation to advertising [[DataMonetization]].
+- Treats data-informed decision-making as a challenge to unsupported prior experience and as a way to increase traffic monetization value.
+- Writes introductory systems-programming material in Chinese, from [[Python]] concurrency and distributed-programming modules to Unix-like [[OrphanProcess]] and [[ZombieProcess]] lifecycle cleanup.
 - Summarizes practical learning methods, connecting [[FocusedReading]], [[ActiveLearning]], and written output.
 
 ## Evidence
@@ -31,17 +32,20 @@ The current source set presents Wulc as a cross-domain explainer. In [[chang]], 
 - Environmental discernment: [[chang]] repeatedly argues that choosing where to live, whom to live or work with, and what to do is a choice of the field that will shape one's future.
 - Technical-business synthesis: [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]] condenses a Zhihu Live on deep learning and big data into criteria for industry transformation.
 - Evidence-over-experience stance: [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]] closes with the principle that data should outrank prior assumptions in business decisions.
+- Advertising-data synthesis: [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]] condenses a Zhihu Live on free business models, monetizable internet assets, advertising product evolution, ADX/DSP flows, retargeting, look-alike modeling, and ecommerce data use.
+- Visual business explanation: [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]] uses inspected diagrams to explain contract allocation, auction assignment, programmatic trading, and mobile scene inference.
 - Concurrency pedagogy: [[blog-wulc-python-bing-xing-bian-cheng-gai-shu]] moves from programming models to communication styles, hazards, and Python modules.
 - Visual teaching: [[blog-wulc-python-bing-xing-bian-cheng-gai-shu]] includes inspected diagrams for scheduler-based concurrency, multi-core parallelism, networked distributed work, deadlock, and race conditions.
+- Process lifecycle explanation: [[blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng]] defines orphan processes, zombie processes, `wait`/`waitpid` cleanup, PID retention risk, and a `ps` command for finding zombies.
 - Reading methodology: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] presents nonfiction reading as evaluation, speed reading for structure and concepts, and deep reading for memory and output.
 
 ## Qualifications
-The wiki currently knows Wulc only through four source notes, so the profile should not infer a broader biography, professional role, or stable intellectual program beyond these articles.
+The wiki currently knows Wulc only through six source notes, so the profile should not infer a broader biography, professional role, or stable intellectual program beyond these articles.
 
 ## What Changed
-- Expanded Wulc's profile from reflective field essayist and big-data summarizer to include introductory Python systems-programming explanation.
-- Added diagram-driven concurrency pedagogy as a source-backed characteristic.
-- Added practical reading and learning-method synthesis through the speed-reading article.
+- Added Wulc's advertising-data monetization article as a second data-business synthesis alongside the big-data industry transformation source.
+- Added Wulc's Linux orphan/zombie process note as a second systems-programming teaching example.
+- Preserved the existing profile of reflective field writing, data-business synthesis, Python concurrency pedagogy, advertising-data monetization, and practical reading methodology.
 
 ## Relationships
 - [[EnvironmentalField]] - Wulc's essay supplies the wiki's central account of field-shaped life.
@@ -49,9 +53,13 @@ The wiki currently knows Wulc only through four source notes, so the profile sho
 - [[CreativePresence]] - Wulc treats creation as receptivity to a field rather than forceful production.
 - [[BigDataIndustryTransformation]] - Wulc summarizes a three-part criterion for whether big data can reshape an industry.
 - [[DeepLearning]] - Wulc explains deep learning as representation learning made practical by model capacity, GPUs, and larger datasets.
+- [[DataMonetization]] - Wulc summarizes how free traffic, data, and advertising products become monetizable assets.
+- [[ProgrammaticAdvertising]] - Wulc explains ADX/DSP flows and first-party plus third-party data use.
 - [[Python]] - language ecosystem used as the article's practical module context.
 - [[ConcurrentProgramming]] - one of the programming models Wulc explains.
 - [[ParallelProgramming]] - central programming model in the article title and module list.
 - [[DistributedProgramming]] - programming model linked to networked machines and Celery-style task distribution.
+- [[OrphanProcess]] - operating-system process lifecycle state Wulc contrasts with zombie processes.
+- [[ZombieProcess]] - operating-system cleanup failure Wulc explains through `wait`/`waitpid`, PID retention, and parent termination.
 - [[SpeedReadingMethod]] - Wulc summarizes the method as evaluation, speed reading, and output-oriented deep reading.
 - [[FocusedReading]] - the speed-reading article treats concept hunting and structure scanning as targeted intake.

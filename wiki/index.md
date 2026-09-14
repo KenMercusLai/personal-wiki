@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [孤儿进程和僵尸进程](sources/blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng.md) - Wulc distinguishes orphan processes from zombie processes, explaining init adoption, wait/waitpid reaping, PID exhaustion risk, and parent-focused cleanup.
+- [如何用数据来挣钱](sources/blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian.md) - Wulc explains how free internet traffic becomes monetizable through data-enhanced advertising, from demographic contracts and auctions to programmatic trading, retargeting, look-alike recommendation, ecommerce recommendation, and mobile scene data.
 - [如何成为快速阅读高手](sources/blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou.md) - Wulc summarizes a three-stage nonfiction reading method: evaluate a book, speed-read for structure and key concepts, then deep-read selectively for memory and output.
 - [python 并行编程概述](sources/blog-wulc-python-bing-xing-bian-cheng-gai-shu.md) - Wulc introduces concurrent, parallel, and distributed programming; shared state versus message passing; deadlock, starvation, race conditions; and Python modules such as threading, multiprocessing, Parallel Python, and Celery.
 - [3 Strategies for Picking Your Battles as a Software Developer](sources/3-strategies-for-picking-your-battles-as-a-software-developer.md) - Jeanette Head argues that software-team disagreements should be chosen by likely influence, product value, and interpersonal cost, with code-review and product-scope examples showing when to press, let go, or learn from a losing debate.
@@ -250,7 +252,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, Python concurrency, and practical reading methods.
+- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, Python concurrency, Linux process lifecycle, and practical reading methods.
 - [Jeanette Head](entities/JeanetteHead.md) - Software-development writer represented here by advice on choosing when to push back in team disagreements.
 - [Atomic Object](entities/AtomicObject.md) - Software-development publication context for Jeanette Head's article on collaboration and code-review judgment.
 - [Taresky](entities/Taresky.md) - Practitioner-author explaining crypto arbitrage, stablecoin yield farming, yield sources, and beginner risk discipline.
@@ -677,7 +679,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sahil Bloom](entities/SahilBloom.md) - Creator whose Creator Science interview informs the source author's thinking about value, follower quality, consistency, and evergreen content.
 - [Xiaohongshu](entities/Xiaohongshu.md) - Recommendation-driven social platform used as the source's main example of volatile creator metrics.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
-- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, big-data criteria, software pedagogy, and reading methodology.
+- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, big-data criteria, advertising-data monetization, software pedagogy, and reading methodology.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
@@ -899,6 +901,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Orphan Process](concepts/OrphanProcess.md) - Unix-like process state where a running child outlives its parent and is adopted by init for cleanup.
+- [Zombie Process](concepts/ZombieProcess.md) - Terminated child process whose parent has not collected status with wait or waitpid, leaving PID-consuming metadata behind.
 - [Concurrent Programming](concepts/ConcurrentProgramming.md) - Scheduler-mediated programming model where multiple processes make progress by interleaving access to CPU time.
 - [Parallel Programming](concepts/ParallelProgramming.md) - Programming model where multiple processes or work units execute simultaneously, typically on separate CPU cores.
 - [Distributed Programming](concepts/DistributedProgramming.md) - Programming model where different machines cooperate over a network to complete one task.
@@ -1192,6 +1196,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
+- [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges and DSPs use user, context, and advertiser data to decide whether and how much to bid for impressions.
 - [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.
 - [Product User Segmentation](concepts/ProductUserSegmentation.md) - Product practice of tailoring tools, defaults, and permissions to distinct user needs and behaviors.
 - [Social Media Curation](concepts/SocialMediaCuration.md) - Deliberate shaping of social-platform follows, lists, feeds, and interaction boundaries for useful information intake.
@@ -1303,6 +1308,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
 - [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, and noise that produces observed data.
+- [Data Monetization](concepts/DataMonetization.md) - Turning collected or inferred data into economic value by improving targeting, recommendation, allocation, and related business decisions.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.

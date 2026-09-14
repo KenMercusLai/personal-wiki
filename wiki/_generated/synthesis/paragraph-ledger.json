@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "784054c05985bacb15d2f5b161930423b4b7d4434cfce27d7bff1a1f7cf553ec",
       "0d70d8093ffa57f77699c7dcd9b8f401f277f75cc2b5f955a7ecd9fe3a3c7973",
       "1d0e0b4d498dfccd92ad223ecf3fef3a36dece9f023e6ff1ed3ebed15d375b5b",
       "7a792e6bedfb8d3685ea6e661d79f2c909bdff36ff06f9ee9cead0adbcd1adea",
@@ -235,11 +236,22 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 233
+    "paragraph_count": 234
   },
-  "overview_commit": "19f7b7fb91366b2ed9a23eb85962578ce110e628",
-  "overview_digest": "e72afc510ec66807a1b0065fa137e3aba41a944c02bb100ddd2c7dd57efb3bd6",
+  "overview_commit": "fef4e4f7e0b9b900989509acc1a3c5a82e9d01a5",
+  "overview_digest": "b7f191a14966f36f232e36fa6c78ee3c3da8922cd6f7daa3bfa2908da272364b",
   "paragraphs": [
+    {
+      "id": "784054c05985bacb15d2f5b161930423b4b7d4434cfce27d7bff1a1f7cf553ec",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest Wulc source adds Unix-like process-lifecycle cleanup to the wiki's systems material. New [[OrphanProcess]] distinguishes still-running child processes whose parent has exited from [[ZombieProcess]], terminated children whose parent has not called `wait` or `waitpid` to collect status. The practical synthesis is parent-focused: orphans are normally safe because `init` adopts and reaps them, while zombies can retain PID, exit-status, and CPU-time metadata until enough leaked process IDs prevent new process creation. The source includes a `ps -A -o stat,ppid,pid,cmd | grep -e '^[Zz]'` detection command and recommends terminating the zombie's parent so `init` can take over cleanup. No image references were present in the source Markdown.",
+      "topic_scores": {},
+      "wikilinks": [
+        "OrphanProcess",
+        "ZombieProcess"
+      ]
+    },
     {
       "id": "0d70d8093ffa57f77699c7dcd9b8f401f277f75cc2b5f955a7ecd9fe3a3c7973",
       "primary_topic": "ai-and-technology",

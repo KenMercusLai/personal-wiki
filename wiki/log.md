@@ -1483,6 +1483,10 @@ Ingested Simon Späti's cautionary essay on deliberate AI use, manual writing an
 
 Ingested Taresky's beginner DeFi stablecoin-mining explainer; added stablecoin yield farming, liquidity provision, automated market maker, impermanent loss, DeFi risk stack, Belt Finance, and Beefy Finance pages; updated Taresky, Binance, Crypto Wallet Security, the index, and overview.
 
+## [2026-09-14] ingest | 孤儿进程和僵尸进程
+
+Ingested Wulc's 2015 note on orphan and zombie processes. Added the source note plus OrphanProcess and ZombieProcess concepts; updated Wulc, index, and overview. No contradictions found.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1939,6 +1943,18 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] ingest | 如何用数据来挣钱
+
+Ingested Wulc's 2017 summary of data monetization in free internet business models. Added source note plus DataMonetization and ProgrammaticAdvertising concepts; updated Wulc, BehavioralData, index, and overview.
 
 ## [2026-09-14] lint | Wiki health check
 
