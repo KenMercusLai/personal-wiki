@@ -221,17 +221,21 @@
       "global_candidate": true,
       "id": "executive-hiring-and-scaling-redesign-the-company",
       "qualifications": [
-        "The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral filter rather than a stereotype about employer size."
+        "The evidence is operator and investor advice plus selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral and timing filter rather than a stereotype about employer size."
       ],
-      "statement": "[[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design: founders must add leaders, communication, and recruiting systems while testing resume prestige against contribution, ownership, and company-first behavior.",
+      "statement": "[[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, and recruiting systems when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.",
       "status": "supported",
       "supporting_wikilinks": [
         "ExecutiveHiring",
         "StartupHiringAtScale",
+        "ProductMarketFit",
+        "StartupScaling",
         "CEOScalingRole",
         "StartupCulture",
         "ScalingCommunication",
-        "TalentDensity"
+        "TalentDensity",
+        "JoeLonsdale",
+        "8VC"
       ]
     },
     {

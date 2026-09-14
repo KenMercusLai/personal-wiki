@@ -65,6 +65,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Big Data MOOC Research Breakthrough: Learning Activities Lead to Achievement](sources/big-data-mooc-research-breakthrough-learning-activities-lead-to-achievement-edtech-researcher-education-week.md) - Justin Reich satirizes early MOOC learning analytics that compressed massive learner logs into simple effort measures and repeatedly found that active students were more likely to pass, complete, or achieve.
 - [Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next](sources/bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next.md) - Forbes profiles Jeff Bezos and Amazon's 2018 expansion logic: multiple paths to yes, capability-led adjacency, AWS-funded reinvestment, Prime as connective tissue, and Amazon Go as horizontal integration.
 - [Beware of the Beautiful Resume](sources/beware-of-the-beautiful-resume-small-business-forum.md) - A founder warns that name-brand resumes can hide status-oriented, territorial, process-heavy behavior that slows startups unless candidates are tested for ownership, contribution, and startup fit.
+- [Bring in the Adults?](sources/bring-in-the-adults-8vc-news-medium.md) - Joe Lonsdale argues that early startups should emphasize intense builders, culture fit, advisors, and product-market learning, then add experienced executives once repeatable scaling processes are ready.
 - [Best Practices for API Error Handling](sources/best-practices-for-api-error-handling-dzone-integration.md) - Vineet Joshi argues that REST API errors should pair pragmatic HTTP status-code selection with readable messages, documentation links, graceful client recovery, and clear client-versus-server responsibility boundaries.
 - [Betting on Things That Never Change](sources/betting-on-things-that-never-change-collaborative-fund.md) - Morgan Housel argues that durable strategy combines technological change with stable customer desires such as low prices, selection, speed, convenience, and trust.
 - [I Didn't Need Kubernetes](sources/ben-houston-i-didnt-need-kubernetes.md) - Ben Houston argues that Google Cloud Run was a better fit than Kubernetes for his Docker-based services and tasks because it reduced cost, autoscaling delay, cluster operations, and job-runner complexity.
@@ -263,6 +264,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by power-aware product-review meetings and time-respectful meeting ownership.
 - [CB Insights](entities/CBInsights.md) - Startup and venture research publisher represented here by its multi-case startup failure post-mortem compilation.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
@@ -315,6 +317,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Joel Spolsky](entities/JoelSpolsky.md) - Software writer and Stack Overflow cofounder represented here by a retrospective on reputation-based gamification.
 - [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
 - [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
+- [Joe Lonsdale](entities/JoeLonsdale.md) - 8VC general partner represented here by stage-sensitive advice on when startups should hire experienced operators.
 - [Ian Cartwright](entities/IanCartwright.md) - Coauthor of the Legacy Mimic pattern article, represented here by incremental legacy-displacement guidance.
 - [Rob Horn](entities/RobHorn.md) - Coauthor of the Legacy Mimic pattern article, represented here by transitional architecture and mimic examples.
 - [James Lewis](entities/JamesLewis.md) - Coauthor of the Legacy Mimic pattern article, represented here by legacy compatibility and anti-corruption-layer distinctions.

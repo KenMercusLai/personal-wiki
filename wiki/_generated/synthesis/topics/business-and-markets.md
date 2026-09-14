@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 55f7fded900e9157e6b349d3783728214844cca6
-input_digest: e056eac90afff000f26605a2a5987a5b55801c6e39473f6e74a99720502ea5a1
+as_of_overview_commit: fe546d9678ea71108073baf086efa875d005f933
+input_digest: 1d2cfd540ef06a7cf8192968b238ac918e9f234d7456a72938cf801c8f038a49
 ---
 
 # Business and Markets
@@ -128,13 +128,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Executive Hiring And Scaling Redesign The Company
 
-[[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], and [[TalentDensity]] show startup scaling as organization design: founders must add leaders, communication, and recruiting systems while testing resume prestige against contribution, ownership, and company-first behavior.
+[[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, and recruiting systems when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
 
-**Evidence:** [[ExecutiveHiring]], [[StartupHiringAtScale]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]]
+**Evidence:** [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], [[8VC]]
 
 **Qualifications:**
 
-- The evidence is operator advice and selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral filter rather than a stereotype about employer size.
+- The evidence is operator and investor advice plus selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral and timing filter rather than a stereotype about employer size.
 
 ### Strategic Writing Preserves Execution Context
 

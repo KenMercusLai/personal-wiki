@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Bring in the Adults?
+
+Added Joe Lonsdale's 8VC essay on timing experienced startup hires. Key claims: early technology startups should prioritize intense builders, culture fit, rapid iteration, and advisor scaffolding; experienced executives become valuable once product-market clarity, revenue, and repeatable business processes make sales, HR, engineering management, marketing, finance, strategy, and related functions scalable. Inspected all three embedded local images and treated them as decorative alternate crops of the same bird illustration.
+
 ## [2026-09-14] ingest | 如何成为快速阅读高手
 
 Added Wulc's 2021 Chinese summary of a speed-reading course. Key claims: nonfiction reading should start with evaluation, speed reading is selective visual and semantic navigation rather than faster word consumption, readers should hunt for new or assumption-replacing concepts, and deep reading is effective when it produces memory, notes, writing, oral explanation, or teaching. No image references were present in the source Markdown.
@@ -2018,6 +2022,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

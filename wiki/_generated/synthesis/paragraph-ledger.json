@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6c52ac2418bb9a44b5bcf7f0db8ee2fe12508678116bb4e1e94bdf2b45468cf3",
       "9206d8a00c061f5d1c9daca879ecb4156b37f1c8b0e16b8c5264babcd7f8798c",
       "287be54fdb069159b80b72b7d9922b9c62ae5e4a5123935ef98a15a92c9a6c29",
       "ee151b6d009699c01181c179b9fdea190172ff4d6d71ff56f40f934c6a9798a9",
@@ -243,11 +244,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 241
+    "paragraph_count": 242
   },
-  "overview_commit": "80054f97f3e568ccfe69c421b7ee462efe781757",
-  "overview_digest": "d3c17a7bdf6e39b32748c7870d82093f3db53cdee9d51720fb63b7d05fc385b2",
+  "overview_commit": "fe546d9678ea71108073baf086efa875d005f933",
+  "overview_digest": "3ccf6ab8adcb04867308ed193e8d827f2e29ed12d5731b3f9ec590001b207fef",
   "paragraphs": [
+    {
+      "id": "6c52ac2418bb9a44b5bcf7f0db8ee2fe12508678116bb4e1e94bdf2b45468cf3",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest 8VC source adds an executive-timing layer to the startup-scaling cluster. [[JoeLonsdale]] argues that very early technology startups should rely on intense builders, tight culture fit, rapid product iteration, and advisor scaffolding rather than full-time veteran operators. [[StartupHiringAtScale]], [[ExecutiveHiring]], [[ProductMarketFit]], [[StartupScaling]], and [[CEOScalingRole]] now distinguish premature executive process from the later moment when revenue, product-market clarity, and repeatable functions make experienced sales, HR, engineering-management, marketing, finance, strategy, and related leaders valuable. [[8VC]] becomes the venture-firm and publication context for the advice. The three inspected local images are decorative alternate crops of the same bird illustration.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "8VC",
+        "CEOScalingRole",
+        "ExecutiveHiring",
+        "JoeLonsdale",
+        "ProductMarketFit",
+        "StartupHiringAtScale",
+        "StartupScaling"
+      ]
+    },
     {
       "id": "9206d8a00c061f5d1c9daca879ecb4156b37f1c8b0e16b8c5264babcd7f8798c",
       "primary_topic": "work-education-and-society",
