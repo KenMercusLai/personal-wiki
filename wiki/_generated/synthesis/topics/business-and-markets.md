@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: b130a722df1829fff7faa10d96dce018e8664a5c
-input_digest: 147699d038422ef2377846bf389b90afaf15376c3b2fd652343070b0ebbfdd10
+as_of_overview_commit: 28613f5785066f72921314b5b9e853ee2ac8b265
+input_digest: 339dc9bac64e05fdc553a6b766147d2d64fae1e84fb5535e100d4b1db3e89a02
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, and monetization systems. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration, while Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, and monetization systems. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.
 
 ## Cross-source Findings
 
@@ -89,13 +89,14 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Growth Must Preserve Retained Value
 
-[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
+[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], [[Thinks]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, page-load speed, cache-backed availability, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 
-**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
+**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], [[Thinks]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
 
 **Qualifications:**
 
 - Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops, onboarding tactics, product-page modules, scarcity cues, discounts, and billboard buys can also become wasteful when they are not grounded in a sticky core product, fit audience, credible proof, testing, and plausible payback.
+- The Baqend/Thinks evidence is a vendor case study, so reported sub-second loads, cache-hit rates, and conversion should be treated as grounded but source-scoped performance claims.
 
 ### Pricing And Subscriptions Align Value Over Time
 

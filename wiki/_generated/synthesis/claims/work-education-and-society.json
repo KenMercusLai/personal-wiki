@@ -212,8 +212,25 @@
         "ProlificPractice",
         "JeffHuang"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "technical-work-connects-infrastructure-to-user-outcomes",
+      "qualifications": [
+        "The Baqend/Thinks paragraph is primarily a business and systems source, but it is relevant here as an example of engineering work whose value is judged through user experience and organizational readiness."
+      ],
+      "statement": "[[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], and [[Thinks]] show that technical work can connect infrastructure choices, cache coherence, and load readiness directly to user-facing outcomes such as conversion and product-page availability.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "WebPerformanceOptimization",
+        "DynamicContentCaching",
+        "LatencyHierarchy",
+        "HTTP2",
+        "Redis",
+        "Thinks"
+      ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, and deliberate social design. Recent additions strengthen five boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.",
+  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, and deliberate social design. Recent additions strengthen six boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.",
   "topic_id": "work-education-and-society"
 }

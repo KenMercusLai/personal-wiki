@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-15
-as_of_overview_commit: d81da2463d84b7f6d1aebe101e49f2ba424efe01
-input_digest: e4ba96e8d8b311bad2d36ff27c8fa16bb01fcda50f17b7d17c0a4eb7f6b577e4
+as_of_overview_commit: 28613f5785066f72921314b5b9e853ee2ac8b265
+input_digest: 0f9ddaa27cf796fd14fec71f5b058959bf85f57c2d83dcccbd1174fff1773c74
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame learning, career development, collaboration, remote work, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, and deliberate social design. Recent additions strengthen five boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.
+Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, and deliberate social design. Recent additions strengthen six boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.
 
 ## Cross-source Findings
 
@@ -125,3 +125,13 @@ AI-era and data-rich education should strengthen problem framing, [[Computationa
 **Qualifications:**
 
 - These advice sources should be adapted to roles with externally imposed response times, shared task systems, meeting-heavy decision rights, high-risk production review, or low autonomy.
+
+### Technical Work Connects Infrastructure To User Outcomes
+
+[[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], and [[Thinks]] show that technical work can connect infrastructure choices, cache coherence, and load readiness directly to user-facing outcomes such as conversion and product-page availability.
+
+**Evidence:** [[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], [[Thinks]]
+
+**Qualifications:**
+
+- The Baqend/Thinks paragraph is primarily a business and systems source, but it is relevant here as an example of engineering work whose value is judged through user experience and organizational readiness.

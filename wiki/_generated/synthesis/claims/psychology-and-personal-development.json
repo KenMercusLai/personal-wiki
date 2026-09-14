@@ -148,8 +148,25 @@
         "CardiorespiratoryFitness",
         "AndrewChen"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "latency-can-dissipate-user-intent",
+      "qualifications": [
+        "This is a secondary fit for the psychology topic: the evidence is an ecommerce performance case study, not a controlled attention or decision-making study."
+      ],
+      "statement": "[[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[ConversionRateOptimization]], [[ProductPageOptimization]], and [[Thinks]] show a product-facing version of attention loss: slow pages and network round trips can dissipate purchase intent before users reach an explicit choice.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "WebPerformanceOptimization",
+        "DynamicContentCaching",
+        "LatencyHierarchy",
+        "ConversionRateOptimization",
+        "ProductPageOptimization",
+        "Thinks"
+      ]
     }
   ],
-  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.",
+  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, need-threatening risk, and product contexts where latency dissipates intent before choice. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, gamified points, and performance-driven conversion claims all depend on context, constraints, and existing motivation rather than universal slogans.",
   "topic_id": "psychology-and-personal-development"
 }

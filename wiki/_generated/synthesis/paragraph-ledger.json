@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ed0b910c09f01f84b57e584c3f52c0e18a3038727a2989447708b7c2b165c40e",
       "3d98a2f39e03c613ebf342860b17d464649bc95672d0c446ee4e47ed71f7f0c6",
       "14a534f208be1d6641cd314414cba8347e2a3492d515a537f379737df068703f",
       "67719221132060d2abaeb9e5a3d025addd0fdd98a1893b73bad387b985bc11f5",
@@ -251,11 +252,35 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 249
+    "paragraph_count": 250
   },
-  "overview_commit": "fd2ed14e876e140ba40c5081ed1e427ac65c6fea",
-  "overview_digest": "73452af4bd5f69b1f6594475c753b5a4429215ebbbfab9ba7de0ed6f11f8067f",
+  "overview_commit": "28613f5785066f72921314b5b9e853ee2ac8b265",
+  "overview_digest": "d29142afaf73952bac2bc284018fc61880cd3349b703f930647c64cc82e2a05e",
   "paragraphs": [
+    {
+      "id": "ed0b910c09f01f84b57e584c3f52c0e18a3038727a2989447708b7c2b165c40e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The Baqend/Thinks source adds [[WebPerformanceOptimization]] and [[DynamicContentCaching]] to the systems, ecommerce, and conversion clusters. It argues that fast shops need frontend critical-rendering-path work, network round-trip reduction, backend scalability, and cache coherence together; availability alone is not enough when latency leaks purchase intent. The [[Thinks]] case connects performance to [[ConversionRateOptimization]] and [[ProductPageOptimization]] by reporting sub-second loads, high CDN cache hit rate, low server CPU, and strong conversion during a DHDL TV spike. Technically, the source deepens [[LatencyHierarchy]], [[HTTP2]], and [[Redis]] by showing how DNS, TCP/TLS handshakes, request count, CDN/browser caches, and Bloom-filter freshness metadata shape real page-load behavior.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ConversionRateOptimization",
+        "DynamicContentCaching",
+        "HTTP2",
+        "LatencyHierarchy",
+        "ProductPageOptimization",
+        "Redis",
+        "Thinks",
+        "WebPerformanceOptimization"
+      ]
+    },
     {
       "id": "3d98a2f39e03c613ebf342860b17d464649bc95672d0c446ee4e47ed71f7f0c6",
       "primary_topic": "work-education-and-society",

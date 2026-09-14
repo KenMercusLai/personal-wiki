@@ -2001,6 +2001,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Building a Shop with Sub-Second Page Loads: Lessons Learned
+
+Added Baqend's Thinks webshop performance case study. Key claims: sub-second ecommerce under burst traffic depends on frontend critical-rendering-path work, network round-trip reduction, backend scalability, CDN/browser caching, and dynamic-cache freshness checks; latency is directly tied to conversion. Inspected 16 embedded images, treating the conversion infographic, architecture diagrams, load-test topology, cache-sketch diagram, AMP/product screenshots, DHDL traffic animation, and episode comparison as source evidence where relevant.
+
 ## [2026-09-15] ingest | Building Apps for Shopify: Fall In Love With The Problem, Not The
 
 Added Ahmad Iqbal's 2018 Starter Story founder essay about moving from Nadeef to Shopify app development. Key claims: abandoned-checkout calls revealed customer friction better than automated recovery tactics; Scout started as a weekend-built alert after manual callbacks worked; positive reviews and support shaped Shopify App Store growth; the handwritten-card product failed from building a solution before validating merchant demand and operating cost; and Raven Callback and Pizza Party extended the same pattern of testing customer-experience tactics in the founder's own store before systematizing them. Created [[AhmadIqbal]], [[Nadeef]], [[Scout]], [[RavenCallback]], [[PizzaParty]], and [[BoldCommerce]], and updated [[Shopify]], [[Zappos]], [[ProductMarketFit]], [[CustomerLedProductDevelopment]], and [[MinimumViableProduct]]. The remote lead image returned HTTP 403 and was not used as evidence.
@@ -2162,6 +2166,10 @@ Added The Year of the Looking Glass essay on product-building practice. Key clai
 ## [2026-09-15] ingest | Building a Business in the Shadow of a Giant
 
 Added Noteworthy's Wistia/YouTube strategy essay. Key claims: dominant platforms can create startup openings by expanding demand, setting technical baselines, deterring direct entrants through free pricing, and leaving specialized business segments underserved. Inspected seven embedded local images and treated them as decorative article art, thumbnails, author/photo UI, or divider assets rather than independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

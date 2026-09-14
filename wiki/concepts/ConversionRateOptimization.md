@@ -7,7 +7,8 @@ sources:
   - an-8-min-guide-to-app-landing-pages-the-startup-medium
   - every-time-you-ask-the-user-to-click-you-lose-half
   - 12-best-practices-for-boosting-product-page-conversions
-last_updated: 2026-09-14
+  - building-a-shop-with-sub-second-page-loads-lessons-learned
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,7 +16,9 @@ knowledge_schema: synthesis-v1
 [[ConversionRateOptimization]] is the practice of changing a product flow, measuring user behavior, and using experiment results to increase the share of users who complete a desired action.
 
 ## Current Synthesis
-The sources show conversion optimization across four surfaces: a high-pressure fundraising flow, a marketing landing page, an onboarding or signup path, and an ecommerce product page. The Clinton campaign donation team did not only add payment features; it simplified an account and saved-card flow after donation, reused the donor's email address, detected account state, and removed an extra click. The visible result was a large measured increase in saved-card opt-in, and the follow-up reporting graph suggests the winning experiment carried into production behavior. The Appster landing-page source adds the pre-conversion surface: value proposition, CTA clarity, visual hierarchy, social proof, and page speed all shape whether visitors understand and accept the offer before they reach a deeper product flow. Chen's click-friction source adds a sharper product heuristic: every extra ask spends user intent, so conversion work should remove unnecessary steps while preserving friction that improves eventual product value. The ecommerce product-page source qualifies pure step reduction by showing that some page modules add useful decision confidence: images, videos, reviews, FAQs, trust badges, benefit-led copy, mobile usability, speed, and scarcity cues can help buyers resolve uncertainty before checkout.
+The sources show conversion optimization across five surfaces: a high-pressure fundraising flow, a marketing landing page, an onboarding or signup path, an ecommerce product page, and the underlying page-performance layer. The Clinton campaign donation team did not only add payment features; it simplified an account and saved-card flow after donation, reused the donor's email address, detected account state, and removed an extra click. The visible result was a large measured increase in saved-card opt-in, and the follow-up reporting graph suggests the winning experiment carried into production behavior. The Appster landing-page source adds the pre-conversion surface: value proposition, CTA clarity, visual hierarchy, social proof, and page speed all shape whether visitors understand and accept the offer before they reach a deeper product flow. Chen's click-friction source adds a sharper product heuristic: every extra ask spends user intent, so conversion work should remove unnecessary steps while preserving friction that improves eventual product value. The ecommerce product-page source qualifies pure step reduction by showing that some page modules add useful decision confidence: images, videos, reviews, FAQs, trust badges, benefit-led copy, mobile usability, speed, and scarcity cues can help buyers resolve uncertainty before checkout.
+
+The Baqend source makes speed itself a conversion variable. It connects one extra second of page-load time to fewer conversions, page views, and satisfaction, then reports the Thinks webshop maintaining sub-second loads during TV-driven demand and converting at 7.8%. This adds an operational layer to CRO: experiments on copy and flow can be erased if slow infrastructure leaks intent before users reach the decision point.
 
 ## Key Claims
 - Conversion optimization can target operational efficiency, not only top-line acquisition.
@@ -24,7 +27,7 @@ The sources show conversion optimization across four surfaces: a high-pressure f
 - Campaign fundraising products can apply the same experimentation discipline as commercial products.
 - Conversion metrics need interpretation because some test lifts fail to appear in later reporting, and each surface needs audience-specific testing.
 - Conversion gains from lower friction must be weighed against user intent, retention, and paying-customer quality.
-- Product-page conversion depends on reducing useless friction while adding confidence-building evidence that answers buyer objections.
+- Product-page conversion depends on reducing useless friction, adding confidence-building evidence, and keeping pages fast enough that users reach the decision point.
 
 ## Evidence
 - Donation context: [[a-first-peek-behind-the-scenes-of-hillary-clintons-technology-operation]] says the web donation platform processed more than 1 million donations and ran around 80 A/B tests.
@@ -38,14 +41,17 @@ The sources show conversion optimization across four surfaces: a high-pressure f
 - Intent-quality tradeoff: [[every-time-you-ask-the-user-to-click-you-lose-half]] warns that easier signup can increase raw signups without producing proportional increases in paying customers.
 - Ecommerce page system: [[12-best-practices-for-boosting-product-page-conversions]] combines product imagery, trust badges, reviews, FAQs, benefit-led descriptions, mobile usability, speed, social proof, and scarcity as product-page conversion levers.
 - Visual evidence: [[12-best-practices-for-boosting-product-page-conversions]] includes an inspected lead illustration that callouts product image, copy, CTA, navigation, and supporting modules as parts of a product-detail page.
+- Latency impact: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] cites one extra second of page-load time as associated with 7% lower conversions, 11% fewer page views, and 16% lower customer satisfaction.
+- Spike conversion: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] reports that Thinks kept page loads below one second during the DHDL spike and reached a 7.8% conversion rate.
 
 ## Counterevidence & Qualifications
-The Clinton source reports campaign-internal results and screenshots rather than raw experiment data. It also notes a common problem: some A/B test improvements do not later appear in regular reports after rollout. The Appster, Chen, and ecommerce product-page sources are broader practitioner advice and cite examples rather than controlled public experiments. The product-page source also bundles many tactics, so any observed lift would need testing to isolate image quality, page speed, proof, copy, mobile ergonomics, or scarcity effects. The concept therefore depends on both experiment design and post-deployment monitoring, and conversion lifts should be interpreted alongside downstream quality.
+The Clinton source reports campaign-internal results and screenshots rather than raw experiment data. It also notes a common problem: some A/B test improvements do not later appear in regular reports after rollout. The Appster, Chen, ecommerce product-page, and Baqend sources are broader practitioner or vendor case-study material and cite examples rather than controlled public experiments. The product-page source also bundles many tactics, so any observed lift would need testing to isolate image quality, page speed, proof, copy, mobile ergonomics, or scarcity effects. The concept therefore depends on both experiment design and post-deployment monitoring, and conversion lifts should be interpreted alongside downstream quality.
 
 ## What Changed
 - Added ecommerce product pages as a distinct conversion surface where confidence-building modules can be useful friction.
 - Added Chen's product-flow friction heuristic and the warning that more signups may not mean proportionally more paying customers.
 - Added app landing-page conversion levers: value proposition, CTA clarity, visuals, proof, hierarchy, speed, and testing.
+- Added page-load performance as an infrastructure-level conversion surface.
 
 ## Related Concepts
 - [[ProductMetricLadder]] - conversion metrics can act as short-cycle proxies for larger fundraising goals.
@@ -55,3 +61,4 @@ The Clinton source reports campaign-internal results and screenshots rather than
 - [[AppLandingPages]] - landing pages are a common conversion surface before or around app launch.
 - [[ProductFlowFriction]] - step reduction and justified friction are core conversion design choices.
 - [[ProductPageOptimization]] - product-detail pages combine usability, persuasion, trust, proof, and objection handling before checkout.
+- [[WebPerformanceOptimization]] - page speed protects conversion before users reach the explicit product or checkout flow.

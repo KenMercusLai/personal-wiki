@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 22ac86e537bbc63ba8822df2da74006860dcfa0b
-input_digest: f7a4bda7132a865891aa4b31634ea6eb8ca8d6be98d237ddc53419fa6cddc12a
+as_of_overview_commit: 28613f5785066f72921314b5b9e853ee2ac8b265
+input_digest: 51e3c1a6a4bac2b77e3889f850341dea5aa8959a402c675061608e230a2c7019
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
+This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, need-threatening risk, and product contexts where latency dissipates intent before choice. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, gamified points, and performance-driven conversion claims all depend on context, constraints, and existing motivation rather than universal slogans.
 
 ## Cross-source Findings
 
@@ -115,3 +115,13 @@ This topic links personal effectiveness, judgment, trust, behavior design, refle
 **Qualifications:**
 
 - The source is a personal chart-driven reflection, not a full clinical exercise prescription.
+
+### Latency Can Dissipate User Intent
+
+[[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[ConversionRateOptimization]], [[ProductPageOptimization]], and [[Thinks]] show a product-facing version of attention loss: slow pages and network round trips can dissipate purchase intent before users reach an explicit choice.
+
+**Evidence:** [[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[Thinks]]
+
+**Qualifications:**
+
+- This is a secondary fit for the psychology topic: the evidence is an ecommerce performance case study, not a controlled attention or decision-making study.

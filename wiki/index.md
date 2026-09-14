@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
 - [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
 - [Building a Business in the Shadow of a Giant](sources/building-a-business-in-the-shadow-of-a-giant-noteworthy-the-journal-blog.md) - Noteworthy argues that Wistia grew in YouTube's shadow by using the giant's market-making, free-price deterrence, and broad-platform gaps to build a focused B2B video business.
+- [Building a Shop with Sub-Second Page Loads: Lessons Learned](sources/building-a-shop-with-sub-second-page-loads-lessons-learned.md) - Baqend's Thinks case study argues that sub-second ecommerce under TV traffic requires frontend, network, backend, CDN, browser-cache, and dynamic-cache-coherence work.
 - [Building Engineering Careers at NerdWallet](sources/building-engineering-careers-at-nerdwallet-nerdwallet.md) - NerdWallet explains how it refactored engineering job architecture from checklist-like promotion tasks toward values, examples, fair scope, manager calibration, and living-document rollout.
 - [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
@@ -833,7 +834,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Threekit](entities/Threekit.md) - Enterprise 3D platform context for Ben Houston's original move from bare metal to Kubernetes.
 - [Kubernetes](entities/Kubernetes.md) - Container orchestration platform discussed as powerful declarative infrastructure, process isolation, and sometimes unnecessary operational burden.
 - [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
-- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, clear product positioning, and AI-assisted maintenance examples.
+- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, cache-sketch freshness metadata, clear product positioning, and AI-assisted maintenance examples.
+- [Baqend](entities/Baqend.md) - Backend-as-a-service and caching platform behind the Thinks webshop performance case study.
+- [Thinks](entities/Thinks.md) - Ecommerce webshop case study for sub-second page loads during a German TV traffic spike.
+- [Fastly](entities/Fastly.md) - CDN used in the Thinks/Baqend performance architecture.
+- [MongoDB](entities/MongoDB.md) - Primary database used in the Thinks webshop backend stack.
 - [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
 - [Elecpass](entities/Elecpass.md) - Wang Ziting side project used as a positive example of fast release, personal use, and focused versioned improvement.
 - [Client Engine](entities/ClientEngine.md) - LeanCloud product for running server-side game logic as a message-service participant.
@@ -1367,6 +1372,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cloud Cost Optimization](concepts/CloudCostOptimization.md) - Reducing cloud spend by changing deployment models, service boundaries, provider choices, utilization, operations burden, and resource-shape assumptions.
 - [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Rough-number system-design method for comparing performance before implementation.
 - [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.
+- [Web Performance Optimization](concepts/WebPerformanceOptimization.md) - Whole-system practice of reducing page-load time across frontend rendering, network latency, backend processing, caching, and capacity.
+- [Critical Rendering Path](concepts/CriticalRenderingPath.md) - Browser sequence that turns HTML, CSS, JavaScript, layout, and paint into the initial visible page.
+- [Dynamic Content Caching](concepts/DynamicContentCaching.md) - Caching runtime-changing application data while preserving enough freshness for user-facing correctness.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, preference triage, and delivery flow.
