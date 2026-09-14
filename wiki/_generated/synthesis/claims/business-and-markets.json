@@ -281,6 +281,23 @@
     },
     {
       "global_candidate": false,
+      "id": "time-leverage-can-buy-back-scarce-capacity",
+      "qualifications": [
+        "The founder evidence is operator advice, while the NPR evidence is broader well-being research; both support buying back time only when the task removed is low-value or disliked, the returned time is actually useful, and the cost does not create more stress than it removes."
+      ],
+      "statement": "[[FounderTimeLeverage]], [[PersonalProductivity]], [[AttentionManagement]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] show time leverage as an operator and well-being pattern: tools, assistance, and services can convert money into scarce time, attention, business focus, recovery, or life satisfaction, while guilt and uncertain durability qualify the happiness claim.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "FounderTimeLeverage",
+        "PersonalProductivity",
+        "AttentionManagement",
+        "ElizabethDunn",
+        "EmanuelMaidenberg",
+        "OpportunityCost"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "small-creator-businesses-need-feedback-and-distribution",
       "qualifications": [
         "Viability depends on financial runway, skill, audience access, willingness to pay, support load, and opportunity cost."
@@ -445,6 +462,6 @@
       ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.",
   "topic_id": "business-and-markets"
 }

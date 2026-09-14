@@ -6,9 +6,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Buying Time, Not Stuff, Might Make You Happier](sources/buying-time-not-stuff-might-make-you-happier-shots-health-news-npr.md) - NPR reports on research suggesting that spending money on time-saving services can improve positive emotion and life satisfaction more than buying material goods, while leaving durability questions open.
+- [Burning money on paid ads for a dev tool - what we've learned](sources/burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog.md) - PostHog argues that developer-tool paid ads need awareness/conversion separation, qualitative attribution, channel-specific experiments, and skepticism toward cheap but low-quality conversions.
+- [The user experience of HBO Max (vs Netflix)](sources/built-for-mars-the-ux-of-hbo-max-vs-netflix.md) - Built for Mars critiques HBO Max's streaming-app UX across image performance, entitlement clarity, occluded lists, free-episode journeys, and mobile form usability.
 - [52 Things I Learned in 2017](sources/52-things-i-learned-in-2017-fluxx-studio-notes-medium.md) - Tom Whitwell's Fluxx Studio Notes list uses 52 sourced observations from 2017 to surface cross-domain patterns around technology adoption, legacy infrastructure, behavior, risk, poverty, and customer research.
 - [5 Product Design Tips: Making Your App Sticky From the Start](sources/5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product.md) - Mind the Product argues that sticky connected-product apps earn first-use retention through no-strings exploration, low-friction flows, benefit-led messaging, fewer choices, and coherent physical-digital design.
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
+- [Building to Independence on Top of Other Platforms](sources/building-to-independence-on-top-of-other-platforms-greylock-perspectives.md) - Josh Elman argues that startups can use Facebook, Google SEO, Twitter, Instagram, and other large platforms for early distribution only if they convert borrowed reach into independent demand.
+- [Building your growth model and Ladder of Engagement](sources/building-your-growth-model-and-ladder-of-engagement.md) - Josh Elman frames growth around product purpose, users, hook, adoption, habit frequency, and a staged ladder of engagement for deeper product learning.
 - [Building for Trust](sources/building-for-trust-airbnb-engineering-data-science-medium.md) - Airbnb Engineering and Data Science explains trust as marketplace infrastructure built from identity, payments, support, guarantees, reviews, and cross-cultural community effects.
 - [Building and Motivating Engineering Teams](sources/building-and-motivating-engineering-teams-the-startup-medium.md) - The Startup article argues that engineering-team motivation in competitive startup markets depends on market-rate money, business purpose, and professional respect.
 - [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
@@ -26,6 +31,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
 - [Time > Money](sources/boz-time-isnt-money.md) - Andrew Bosworth argues that time is more scarce than money, so meetings and interruptions need clear ownership, purpose, attendance curation, notes, feedback, and recurring expiration.
 - [323 Startup Failure Post-Mortems](sources/323-startup-failure-post-mortems.md) - CB Insights' compilation of startup shutdown narratives showing recurring failure patterns around product-market fit, runway, timing, platform dependence, hardware complexity, governance, and business-model fragility.
+- [54 Screwups as a Startup CEO](sources/54-screwups-as-a-startup-ceo-anand-sanwal-medium.md) - Anand Sanwal's CB Insights retrospective turns 54 founder mistakes into startup operating lessons across culture, hiring, pricing, sales, marketing, product focus, customer success, and administration.
 - [10 Tips To Write Better Functions In Python](sources/bob-belderbos-10-tips-to-write-better-functions-in-python.md) - Bob Belderbos argues that better Python functions use clear names, single responsibility, small interfaces, early validation, type hints, consistent returns, purity, and safe defaults.
 - [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
 - [爬虫抓取代理 IP](sources/blog-wulc-pa-chong-zhua-qu-dai-li-ip.md) - Wulc explains a Python scraper proxy-pool workflow: collect public proxies, store candidates in Redis, validate them against the target, evict failures, and pace collection.
@@ -283,6 +289,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [HBO Max](entities/HBOMax.md) - Streaming-product UX case where strong content is weakened by performance, state-clarity, journey, and form execution issues.
 - [Fluxx](entities/Fluxx.md) - Product and experimentation consultancy that published Tom Whitwell's 2017 learning list on Fluxx Studio Notes.
 - [Tom Whitwell](entities/TomWhitwell.md) - Author and Fluxx senior consultant behind the 2017 "52 Things I Learned" source.
 - [Crawlee](entities/Crawlee.md) - Crawler library used around Playwright in Tim Connors' AI scraper prototype.
@@ -299,7 +306,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by power-aware product-review meetings and time-respectful meeting ownership.
-- [CB Insights](entities/CBInsights.md) - Startup and venture research publisher represented here by its multi-case startup failure post-mortem compilation.
+- [CB Insights](entities/CBInsights.md) - Startup and venture research publisher and SaaS/data company represented by failure-postmortem research plus Anand Sanwal's operating retrospective.
+- [Anand Sanwal](entities/AnandSanwal.md) - CB Insights founder/CEO voice behind the 54 startup screwups retrospective.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
 - [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency and scraping, Linux process lifecycle, and practical reading methods.
@@ -510,6 +518,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Material Design](entities/MaterialDesign.md) - Firebase design system that catalyzed the Crashlytics visual refresh and broader UX redesign case.
 - [Coach Tony](entities/CoachTony.md) - Authorial identity behind a headcount and opportunity-design critique of company growth.
 - [WhatsApp](entities/WhatsApp.md) - Messaging company used as both a small-headcount startup counterexample and an anti-ad qualification in Facebook's messaging portfolio.
+- [Josh Elman](entities/JoshElman.md) - Greylock investor and former Facebook Platform builder advising startups on platform distribution, growth models, onboarding, and staged engagement.
+- [Greylock Partners](entities/GreylockPartners.md) - Venture-capital publication context for Josh Elman's platform-distribution startup advice.
 - [Eric Seufert](entities/EricSeufert.md) - Mobile Dev Memo author classifying advertising models in mobile messaging apps.
 - [Mobile Dev Memo](entities/MobileDevMemo.md) - Mobile app and advertising publication context for Seufert's messaging-ad taxonomy.
 - [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as the main CRM-like brand-thread advertising case.
@@ -535,6 +545,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Don MacAskill](entities/DonMacAskill.md) - SmugMug chief executive and "chief geek" who framed the company around a deliberate family atmosphere.
 - [Chris MacAskill](entities/ChrisMacAskill.md) - SmugMug co-founder, Don MacAskill's father, and Fatbrain veteran who carried entrepreneurial and family culture into the company.
 - [Price Intelligently](entities/PriceIntelligently.md) - SaaS pricing and economics publisher behind the discounting analysis and acquisition-versus-retention framing.
+- [PostHog](entities/PostHog.md) - Developer-tool company used as a practitioner case for paid ads, attribution, channel fit, and writing-led marketing.
 - [Product Habits](entities/ProductHabits.md) - Product and SaaS publication context for the retention-first growth article.
 - [Hiten Shah](entities/HitenShah.md) - Product Habits author and SaaS commentator arguing that modern SaaS growth must center retention.
 - [Brian Balfour](entities/BrianBalfour.md) - Growth-strategy voice cited for treating retention as the foundation of growth.
@@ -589,6 +600,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pat Grady](entities/PatGrady.md) - Sequoia investor voice connecting category-defining ambition, first-principles problem-solving, scaling discipline, and capital restraint.
 - [Sequoia Capital](entities/SequoiaCapital.md) - Venture-capital firm context for Pat Grady's highly selective, category-focused investment philosophy.
 - [Don Valentine](entities/DonValentine.md) - Sequoia founder cited for connecting engineers to human problems and targeting large markets through disciplined entry.
+- [Elizabeth Dunn](entities/ElizabethDunn.md) - University of British Columbia psychology professor whose research is quoted on buying time to improve happiness.
+- [Emanuel Maidenberg](entities/EmanuelMaidenberg.md) - UCLA clinical professor commenting on time-saving services as a possible stress-management tool and questioning durability.
 - [Elizabeth Yin](entities/ElizabethYin.md) - Startup-advice author arguing that first-product scope should fit available runway and enter markets through a differentiated wedge.
 - [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
 - [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
@@ -625,7 +638,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
 - [HQ Trivia](entities/HQTrivia.md) - Live mobile trivia product used as an example of rapid concurrent growth, video lag, and user tolerance of infrastructure strain.
-- [Twitter](entities/Twitter.md) - Social platform used as a growth case, fail-whale reliability case, cultural platform, and curated information tool with safety, metric, user-tooling, and developer-trust challenges.
+- [Twitter](entities/Twitter.md) - Social platform used as a growth, onboarding, fail-whale reliability, cultural, and curated-information case with safety, metric, user-tooling, and developer-trust challenges.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
 - [MyEtherWallet](entities/MyEtherWallet.md) - Early Ethereum wallet interface that grew from a two-person side project into widely used crypto infrastructure.
@@ -978,6 +991,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.
 - [AI-Guided Web Scraping](concepts/AIGuidedWebScraping.md) - Scraping pattern where an LLM-guided agent searches page structure, selects elements, performs browser interactions, and iterates toward a goal.
 - [Engineering Career Architecture](concepts/EngineeringCareerArchitecture.md) - Structured engineering-leveling system for expectations, promotion signals, fair scope, and evaluation calibration.
@@ -1197,7 +1211,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct or ritual aimed at signaling intelligence, creativity, helpfulness, authority, or rational management without improving the group's work.
 - [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
 - [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
-- [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce founder time through tools, automation, assistance, or delegation so attention returns to higher-value work.
+- [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce time through tools, automation, services, assistance, or delegation so attention returns to higher-value work, recovery, or well-being.
 - [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.
 - [Failure Ownership](concepts/FailureOwnership.md) - Accepting responsibility for a failed outcome without turning it into fixed self-condemnation.
 - [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete, including ambitious team and upside narratives.
@@ -1214,9 +1228,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Marketing Operations](concepts/MarketingOperations.md) - Operational and analytical function that builds tracking, data, integration, and automation systems behind measurable marketing.
 - [Deep Funnel Metrics](concepts/DeepFunnelMetrics.md) - Downstream customer and revenue metrics used to judge marketing impact beyond clicks, forms, signups, or trials.
 - [Customer Lifetime Value](concepts/CustomerLifetimeValue.md) - Expected long-term customer value shaped by retention, revenue, expansion, acquisition quality, and forecast uncertainty.
+- [Customer Success](concepts/CustomerSuccess.md) - SaaS operating practice of proactively helping customers adopt the product and realize value after purchase or trial.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
 - [Product Flow Friction](concepts/ProductFlowFriction.md) - Onboarding and critical-flow effort model where every extra ask spends user intent and must be justified by later product value.
+- [Product Engagement Ladder](concepts/ProductEngagementLadder.md) - Product-growth framework for staging user learning from first value through deeper engagement and expertise.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
@@ -1256,10 +1272,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Structured CLI Output](concepts/StructuredCLIOutput.md) - Human-readable and machine-parseable CLI output through row-oriented tables, column controls, JSON, CSV, filters, and sorting.
 - [CLI Command Grammar](concepts/CLICommandGrammar.md) - Structure of commands, subcommands, flags, positional arguments, parsing boundaries, and default invocation behavior.
 - [Developer Tooling](concepts/DeveloperTooling.md) - Software for technical users where documentation, conventions, diagnosability, speed, extensibility, and automation are part of product quality.
+- [Developer Tool Paid Advertising](concepts/DeveloperToolPaidAdvertising.md) - Paid acquisition and awareness work for developer tools, judged by channel fit, conversion quality, and technical-audience attribution.
 - [Developer Experience](concepts/DeveloperExperience.md) - Usability, affordances, errors, workflows, and happiness of programming tools for developers as end users.
 - [Tool Familiarity](concepts/ToolFamiliarity.md) - Practical advantage from using languages, frameworks, and workflows a team already understands well.
 - [Simple Made Easy](concepts/SimpleMadeEasy.md) - Simple-versus-easy software-design distinction, treated here as valuable but risky when used to excuse poor tool usability.
 - [Developer Platform Trust](concepts/DeveloperPlatformTrust.md) - Developer confidence that a platform's APIs, policies, tools, and posture are stable enough to build on.
+- [Platform Distribution Dependence](concepts/PlatformDistributionDependence.md) - Startup risk and leverage pattern where borrowed platform reach must be converted into direct user demand.
 - [Authentication Infrastructure](concepts/AuthenticationInfrastructure.md) - Production identity-service infrastructure for login, authorization, SSO, extensibility, availability, and operational visibility.
 - [Cloud High Availability](concepts/CloudHighAvailability.md) - Cloud design for surviving instance, availability-zone, regional, routing, and data-layer failures.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.

@@ -4,14 +4,17 @@
       "global_candidate": true,
       "id": "attention-is-scarce-and-must-be-allocated",
       "qualifications": [
-        "The sources are advice-heavy and acknowledge that health, caregiving, work type, and external constraints can limit how freely people reallocate time."
+        "The sources are advice-heavy overall and acknowledge that health, caregiving, work type, cash, social norms, and external constraints can limit how freely people reallocate time; the NPR evidence adds experimental and survey support for buying time, but its durability remains uncertain."
       ],
-      "statement": "[[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them.",
+      "statement": "[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.",
       "status": "supported",
       "supporting_wikilinks": [
         "PersonalProductivity",
         "OpportunityCost",
-        "AttentionManagement"
+        "AttentionManagement",
+        "FounderTimeLeverage",
+        "ElizabethDunn",
+        "EmanuelMaidenberg"
       ]
     },
     {
@@ -152,6 +155,6 @@
       ]
     }
   ],
-  "summary": "Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting time, designing small feedback loops, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, and conversion findings all depend on constraints, safety, existing motivation, and the quality of the surrounding system.",
+  "summary": "Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, time-saving services, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.",
   "topic_id": "psychology-and-personal-development"
 }

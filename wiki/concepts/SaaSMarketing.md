@@ -9,7 +9,8 @@ sources:
   - 3-ways-to-make-your-landing-page-social-proof-prove-something
   - a-comprehensive-data-guide-to-why-you-shouldnt-discount
   - billboards-for-small-businesses-costs-advice-and-thinking-twice
-last_updated: 2026-09-14
+  - burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,14 +18,14 @@ knowledge_schema: synthesis-v1
 [[SaaSMarketing]] is the set of activities that help potential users discover, trust, try, and continue paying for a software-as-a-service product.
 
 ## Current Synthesis
-The sources treat SaaS and small-software marketing as practical, repeated distribution and trust work rather than a mysterious growth hack. For a technical founder, building the product is not enough; the product also needs [[SocialProof]], outreach, discoverable content, paid acquisition experiments, affiliate incentives, support experiences, platform launch timing, public progress updates, and in Zhang Xuan's case a [[PersonalBranding]] channel that can send traffic to products. The landing-page source sharpens the trust side: testimonials, share counts, comments, and customer examples can help conversion only when they signal relevant confidence, while empty or mismatched proof can quietly argue against the product. The discounting and billboard sources add unit-economics and channel-fit warnings: acquisition tactics should not be judged only by signups, impressions, or closed deals, because broad [[SaaSDiscounting]] can lower willingness to pay and retention, while [[BillboardAdvertising]] can create expensive awareness without attributable sales. The shared lesson is that marketing is learned by doing, measuring, and adjusting what prospects actually see and what retained customers actually pay.
+The sources treat SaaS and small-software marketing as practical, repeated distribution and trust work rather than a mysterious growth hack. For a technical founder, building the product is not enough; the product also needs [[SocialProof]], outreach, discoverable content, paid acquisition experiments, affiliate incentives, support experiences, platform launch timing, public progress updates, and in Zhang Xuan's case a [[PersonalBranding]] channel that can send traffic to products. The landing-page source sharpens the trust side: testimonials, share counts, comments, and customer examples can help conversion only when they signal relevant confidence, while empty or mismatched proof can quietly argue against the product. The discounting, billboard, and PostHog sources add unit-economics and channel-fit warnings: acquisition tactics should not be judged only by signups, impressions, closed deals, or low reported CPA, because broad [[SaaSDiscounting]] can lower willingness to pay and retention, [[BillboardAdvertising]] can create expensive awareness without attributable sales, and developer-tool ads can attract bots or irrelevant conversions when channel fit is weak. The shared lesson is that marketing is learned by doing, measuring, and adjusting what prospects actually see and what retained customers actually pay.
 
 ## Key Claims
 - Technical founders need selling skill in addition to building skill.
 - Early reviews and relevant proof can lower trust barriers when a product has no public reputation, while visibly weak proof can backfire.
 - Direct outreach works by finding where potential customers already gather.
 - Content marketing can create long-term organic traffic when matched to product keywords.
-- Paid ads can be an effective short-term acquisition channel when tested across platforms.
+- Paid ads can be an effective short-term acquisition channel when tested across platforms, but developer-tool teams need to separate conversion from awareness and verify traffic quality.
 - Affiliate incentives, strong support, and personal audience channels can turn existing relationships into distribution.
 - Marketplace timing, [[BuildInPublic]] updates, early paywall design, disciplined [[SaaSPricing]], restraint around broad discounts, and skepticism about blunt offline awareness channels can help small products test attention, willingness to pay, retention, CAC payback, and LTV together.
 
@@ -40,15 +41,13 @@ The sources treat SaaS and small-software marketing as practical, repeated distr
 - Early monetization: [[zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu]] argues that [[TableToFigma]] should have launched paid access earlier because accumulated free users included likely paying customers.
 - Discounting risk: [[a-comprehensive-data-guide-to-why-you-shouldnt-discount]] argues that broad discounts can acquire low-willingness-to-pay customers, increase churn, extend CAC recovery, and lower LTV.
 - Billboard fit: [[billboards-for-small-businesses-costs-advice-and-thinking-twice]] argues that billboards can build awareness, but small businesses should prefer more targeted, durable, and measurable channels unless the audience, location, and acquisition economics fit.
+- Developer-tool paid ads: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] says [[PostHog]] treats paid ads as a small part of marketing, splits budget between awareness and conversion, uses self-reported attribution, and tests channels in small experiments.
 
 ## Counterevidence & Qualifications
-The sources do not provide controlled comparisons across channels, and several metrics are period snapshots rather than full funnel data. Their tactics are grounded in specific product and creator contexts, so channel effectiveness may vary by market, price, audience, geography, platform algorithms, product category, traffic temperature, discount design, renewal behavior, physical placement quality, and the age of social-sharing UI conventions.
+The sources do not provide controlled comparisons across channels, and several metrics are period snapshots rather than full funnel data. Their tactics are grounded in specific product and creator contexts, so channel effectiveness may vary by market, price, audience, geography, platform algorithms, product category, traffic temperature, discount design, renewal behavior, bot filtering, physical placement quality, and the age of social-sharing UI conventions.
 
 ## What Changed
-- Added marketplace timing, build-in-public distribution, and early monetization as small-product marketing lessons.
-- Added landing-page social proof as a trust signal that can backfire when empty, weak, or audience-mismatched.
-- Added discounting as an acquisition tactic that must be checked against retention and unit economics.
-- Added billboard advertising as an awareness channel that should be judged against targeting, durability, attribution, and CAC tolerance.
+- Added PostHog's developer-tool paid-ads lessons: split awareness from conversion, supplement click metrics with qualitative attribution, and test channels against traffic quality.
 
 ## Related Concepts
 - [[BootstrappedSaaS]] - SaaS marketing turns the product into recurring revenue.
@@ -62,3 +61,4 @@ The sources do not provide controlled comparisons across channels, and several m
 - [[SaaSDiscounting]] - price reductions can increase conversion while harming customer quality.
 - [[SaaSPricing]] - marketing offers must preserve the product's perceived value and willingness to pay.
 - [[BillboardAdvertising]] - offline awareness can be useful but is blunt and often hard to attribute.
+- [[DeveloperToolPaidAdvertising]] - paid ads for technical audiences need channel-fit and attribution discipline.

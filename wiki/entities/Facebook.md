@@ -7,15 +7,16 @@ sources:
   - above-avalon-the-race-to-a-trillion
   - advertising-models-in-mobile-messaging-apps-mobile-dev-memo
   - andre-staltz-the-web-began-dying-in-2014-heres-how
-last_updated: 2026-09-13
+  - building-to-independence-on-top-of-other-platforms-greylock-perspectives
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention, and became central to Staltz's account of social traffic concentration after 2014.
+[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention, became central to Staltz's account of social traffic concentration after 2014, and served as a major platform-dependence case for consumer startups building on APIs, feeds, and social distribution.
 
 ## Current Profile
-The Evans mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Mobile Dev Memo source adds the monetization version of that ambition: [[FacebookMessenger]]'s scale and brand-thread model made chat a possible advertising surface, while Facebook's LiveRail acquisition and AI investment are treated as clues for future brand-interaction tooling. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services. Staltz adds a dependency critique: Facebook concentrated social traffic, bought WhatsApp, left search competition behind, and used products such as Instant Articles to pull publisher activity closer to its own network.
+The Evans mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Mobile Dev Memo source adds the monetization version of that ambition: [[FacebookMessenger]]'s scale and brand-thread model made chat a possible advertising surface, while Facebook's LiveRail acquisition and AI investment are treated as clues for future brand-interaction tooling. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services. Staltz adds a dependency critique: Facebook concentrated social traffic, bought WhatsApp, left search competition behind, and used products such as Instant Articles to pull publisher activity closer to its own network. Elman's Greylock source adds the startup-builder version of the same power: Facebook Platform could help apps reach millions, but Facebook's API and distribution changes could damage companies that did not create direct product demand.
 
 ## Key Characteristics
 - Mostly completed the transition from desktop web social networking to mobile.
@@ -24,7 +25,7 @@ The Evans mobile article presents Facebook as one of the major mobile-era actors
 - Treats Messenger as a possible native advertising surface through brand conversations, content channels, and stickers.
 - Faces difficulty building OS-like layers without owning the mobile operating system.
 - Appears in the 2018 corporate-giant comparison as an advertising and curated-web company with major cash, scale, and R&D, but attention-shift risk.
-- Is framed by Staltz as the social-internet company whose app portfolio and traffic power helped make publishers dependent on platform distribution.
+- Is framed as a dependency-creating platform for publishers and startups because its app portfolio, traffic power, APIs, feeds, and notifications can shape outside distribution.
 
 ## Evidence
 - Mobile transition: [[16-mobile-theses-benedict-evans]] says Facebook made the transition to mobile, mostly.
@@ -39,12 +40,15 @@ The Evans mobile article presents Facebook as one of the major mobile-era actors
 - Attention risk: [[above-avalon-the-race-to-a-trillion]] says Facebook and Google were rewarded for predictable advertising streams but viewed as exposed to competition for user attention.
 - Social concentration: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] argues that Facebook became a social superpower through Facebook, WhatsApp, Messenger, and Instagram after its 2014 strategy shift.
 - Publisher dependency: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] says Facebook traffic grew enough to make media sites dependent on Facebook alongside Google.
+- Platform-builder experience: [[building-to-independence-on-top-of-other-platforms-greylock-perspectives]] says [[JoshElman]] helped build Facebook Platform in 2008 and 2009 and helped developers scale on top of it.
+- Startup dependency risk: [[building-to-independence-on-top-of-other-platforms-greylock-perspectives]] warns that Facebook and similar platforms can change APIs and distribution without warning, harming companies that rely on one platform mechanic.
 
 ## Qualifications
-The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Mobile Dev Memo source relies partly on an alleged leaked document and captures a February 2016 advertising snapshot, not the later rollout or user reaction. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes. Staltz's source is a 2017 critique and forecast, so its traffic-dependence claims should be treated as source-scoped historical argument.
+The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Mobile Dev Memo source relies partly on an alleged leaked document and captures a February 2016 advertising snapshot, not the later rollout or user reaction. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes. Staltz's source is a 2017 critique and forecast, so its traffic-dependence claims should be treated as source-scoped historical argument. Elman's source is founder advice about platform risk and does not provide Facebook's internal rationale for API or feed-policy changes.
 
 ## What Changed
 - Added Facebook's role in Staltz's open-Web decline thesis: social traffic concentration, publisher dependence, Instant Articles, and post-browser social runtimes.
+- Added Facebook as a direct startup platform-dependence case through Elman's Facebook Platform experience and API-change warning.
 
 ## Relationships
 - [[MessagingAsPlatform]] - Facebook is one of the actors trying to make messaging a platform.
@@ -56,3 +60,4 @@ The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger
 - [[Google]] - advertising and attention-risk comparator in the Above Avalon source.
 - [[WebCentralization]] - Facebook is one of the traffic and publishing gatekeepers in Staltz's argument.
 - [[BrowserBypass]] - Facebook's app, messaging, AR, and VR ambitions are browser-bypassing social surfaces in Staltz's source.
+- [[PlatformDistributionDependence]] - Facebook is Elman's main example of useful but risky borrowed startup distribution.

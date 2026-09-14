@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 9934ba57ded3ad277fc45aa2d225d5cca69c5636
-input_digest: 976b5cad076c7e92e6c8149b1735f5f11cceea74f7f5315fc68bab5668dde008
+as_of_overview_commit: da61cd18945daaa9540a02bf18864982d0909e4e
+input_digest: 2349f6cb0daf4abb76f2301ce370a8067c2397673767c955660474af0aaed363
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.
 
 ## Cross-source Findings
 
@@ -148,6 +148,16 @@ Business and markets material in the corpus connects durable strategy, platform 
 **Qualifications:**
 
 - The Sinofsky evidence is an operator essay; it argues from management experience and explicitly warns that writing rituals can be slow, gamed, over-attributed to success, or confused with the work itself.
+
+### Time Leverage Can Buy Back Scarce Capacity
+
+[[FounderTimeLeverage]], [[PersonalProductivity]], [[AttentionManagement]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] show time leverage as an operator and well-being pattern: tools, assistance, and services can convert money into scarce time, attention, business focus, recovery, or life satisfaction, while guilt and uncertain durability qualify the happiness claim.
+
+**Evidence:** [[FounderTimeLeverage]], [[PersonalProductivity]], [[AttentionManagement]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[OpportunityCost]]
+
+**Qualifications:**
+
+- The founder evidence is operator advice, while the NPR evidence is broader well-being research; both support buying back time only when the task removed is low-value or disliked, the returned time is actually useful, and the cost does not create more stress than it removes.
 
 ### Small Creator Businesses Need Feedback And Distribution
 

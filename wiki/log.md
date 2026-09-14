@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | 54 Screwups as a Startup CEO
+
+Added Anand Sanwal's CB Insights retrospective on 54 startup CEO mistakes. Key claims: culture needs active design, hiring requires role clarity and reference discipline, value-based pricing beat cheap/gimmicky plans, founder-led sales improved through questions and follow-up, and focus means filtering fads, competitors, bad leads, vague partnerships, networking, and casual investor meetings. Inspected both embedded images: the readable pricing screenshot was used as evidence; the second was a tiny duplicate thumbnail.
+
 ## [2026-09-15] ingest | 52 Things I Learned in 2017
 
 Added Tom Whitwell's Fluxx Studio Notes learning list as a cross-domain scanning source. Created [[TomWhitwell]], [[Fluxx]], and [[CrossDomainScanning]], and updated [[CrossDomainWisdom]] to distinguish broad signal collection from systematic validation. Inspected all three embedded local images; they were duplicate/thumbnail versions of a decorative barrier-crossing illustration and added no independent evidence.
@@ -2005,6 +2009,14 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Burning money on paid ads for a dev tool - what we've learned
+
+Added PostHog's developer-tool paid-ads playbook. Key claims: paid ads are a subset of marketing, developer-tool campaigns should split conversion from awareness, qualitative signup/demo attribution complements click data, agencies still need internal channel judgment, Google Search differs sharply from Google Display, and early channel learning should use small time-boxed experiments. Inspected the embedded local newsletter mascot image and treated it as decorative rather than independent evidence.
+
+## [2026-09-15] ingest | Building your growth model and Ladder of Engagement
+
+Added Josh Elman's growth-model article on purpose, users, hook, adoption, habit frequency, and staged product learning. Created Product Engagement Ladder, updated Josh Elman, Twitter, Growth Hacking, and Product Flow Friction, and noted that the source markdown had no effective image references.
+
 ## [2026-09-15] ingest | Building for Trust
 
 Added Airbnb Engineering and Data Science source on trust as marketplace infrastructure. Key claims: profiles reduce anonymity, payments and delayed payouts create confidence, customer support protects retention after failures, reviews function as a reputation data product, double-blind review mechanics increase candor, positive reviews can counteract homophily, and trust-rich communities can support cross-cultural stays, host income resilience, and disaster response. Inspected embedded images; the office/photo/GIF/logo assets were illustrative, while the trip-adjacency matrix was incorporated as evidence for cross-country guest-host connections.
@@ -2082,6 +2094,7 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's portfolio-construction cours
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
 ## [2026-09-15] ingest | 怎样用数据洞察你的用户
 
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
@@ -2163,6 +2176,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | Buying Time, Not Stuff, Might Make You Happier
+
+Added NPR's report on research by Elizabeth Dunn and colleagues showing that spending money on time-saving services can improve positive emotion and life satisfaction more than material purchases. Updated Founder Time Leverage from a founder-only concept into a broader time-buying pattern, created Elizabeth Dunn and Emanuel Maidenberg entity pages, and inspected the lead illustration as contextual rather than independent evidence.
+
 ## [2026-09-15] ingest | Building Lyft's Marketing Automation Platform
 
 Added Lyft Engineering source on Symphony, a marketing automation platform for acquisition. Updated Lyft plus marketing operations, marketing attribution, audience targeting, and customer lifetime value with the platform's LTV forecasting, budget allocation, channel bidding, and human-in-the-loop constraints.
@@ -2206,6 +2223,38 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Building and Motivating Engineering Teams
 
 Added The Startup article on motivating engineering teams in a competitive startup talent market. Key claims: engineers need market-rate compensation as a baseline, purpose often comes from business and product context rather than uniquely hard technical problems, and respect means clear goals, accountability, and cross-functional partnership rather than pampering. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Building to Independence on Top of Other Platforms
+
+Added Josh Elman's Greylock source on building startups with borrowed platform distribution while migrating toward independent demand. Key claims: platforms can accelerate early growth, platform owners can change APIs or feeds without warning, and durable startups convert side-door platform traffic into front-door product demand. The lead rocket image was decorative; the remaining embedded deck images were readable only as 60x34 thumbnails, so detailed slide text could not be extracted from the local images.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | The user experience of HBO Max (vs Netflix)
+
+Added Built for Mars' HBO Max UX case study. Key claims: strong content can be undercut by repeated app-level UX defects, oversized streaming imagery hurts perceived speed, entitlement states should be explicit, free-episode flows need a deliberate journey shape, and mobile signup forms should keep fields and CTAs visible. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

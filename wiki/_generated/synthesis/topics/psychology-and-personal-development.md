@@ -4,27 +4,27 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 016b8823c1e4d1071ac7c86900660d92d5481c05
-input_digest: 8b0e89e7bb50e7804dad6bd39657849207ef89979e0fcc7cc71af2e1f2c67147
+as_of_overview_commit: da61cd18945daaa9540a02bf18864982d0909e4e
+input_digest: f3f2631cf7aca90ae37b21a63ed67e9b66d37669680b25b2754a0b88b0dee4d4
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting time, designing small feedback loops, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, and conversion findings all depend on constraints, safety, existing motivation, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, time-saving services, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
 ### Attention Is Scarce And Must Be Allocated
 
-[[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them.
+[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
 
-**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]]
+**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]]
 
 **Qualifications:**
 
-- The sources are advice-heavy and acknowledge that health, caregiving, work type, and external constraints can limit how freely people reallocate time.
+- The sources are advice-heavy overall and acknowledge that health, caregiving, work type, cash, social norms, and external constraints can limit how freely people reallocate time; the NPR evidence adds experimental and survey support for buying time, but its durability remains uncertain.
 
 ### Small Designed Loops Support Change
 
