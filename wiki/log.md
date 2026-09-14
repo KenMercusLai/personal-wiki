@@ -252,6 +252,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | 5 Product Design Tips: Making Your App Sticky From the Start
+
+Added Mind the Product source on first-use app retention for connected products. Key claims: prospective customers may try an app before buying, forced signup and distracting detours reduce adoption, benefits should be shown before technical features, early choices should be limited, and app interactions should align with physical product behavior. Embedded local image references could not be inspected as images because they resolve to unrelated Snapinsta HTML.
+
 ## [2026-09-14] ingest | Compliance in a DevOps Culture
 
 Added source. Key claims: compliance can be decomposed into evidence and validation; manual, pipeline, and composition patterns each become bottlenecks at scale; point-of-change compliance uses systems of record, signed evidence, and admission-style checks to preserve DevOps flow.
@@ -2158,6 +2162,10 @@ Added The Year of the Looking Glass essay on product-building practice. Key clai
 ## [2026-09-15] ingest | Building a Business in the Shadow of a Giant
 
 Added Noteworthy's Wistia/YouTube strategy essay. Key claims: dominant platforms can create startup openings by expanding demand, setting technical baselines, deterring direct entrants through free pricing, and leaving specialized business segments underserved. Inspected seven embedded local images and treated them as decorative article art, thumbnails, author/photo UI, or divider assets rather than independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [5 Product Design Tips: Making Your App Sticky From the Start](sources/5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product.md) - Mind the Product argues that sticky connected-product apps earn first-use retention through no-strings exploration, low-friction flows, benefit-led messaging, fewer choices, and coherent physical-digital design.
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
 - [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
 - [Building a Business in the Shadow of a Giant](sources/building-a-business-in-the-shadow-of-a-giant-noteworthy-the-journal-blog.md) - Noteworthy argues that Wistia grew in YouTube's shadow by using the giant's market-making, free-price deterrence, and broad-platform gaps to build a focused B2B video business.
