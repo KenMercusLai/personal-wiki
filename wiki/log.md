@@ -2016,6 +2016,11 @@ Added a source note for the AI coding delivery-paradox essay. Key claims: AI can
 ## [2026-09-15] ingest | 爬虫抓取代理 IP
 
 Added Wulc's 2016 practical note on scraping public proxy IPs. Key claims: proxy candidates can be parsed from proxy-list table rows, should be persisted outside process memory, can be stored and randomly sampled from Redis sets, must be validated against the actual target site before use, should be evicted when they fail, and proxy-source scraping should be paced to reduce block risk and provider load. No image references were present in the source Markdown.
+
+## [2026-09-15] ingest | Browse Against the Machine
+
+Added the Official Unofficial Firefox Blog's 2017 campaign essay. Key claims: Chrome's desktop browser share was framed as roughly four times Firefox's in the cited 2016-2017 window; Google search and display advertising made Chrome dominance a web-health concern; Firefox was presented as a modern independent alternative with lower memory use, improving performance, tracking protection, and Firefox Focus; Mozilla's nonprofit mission was used as the governance contrast; and Google revenue dependence was acknowledged but treated as a reason for Mozilla to prove independence. Five images were inspected: duplicate Stay Puft stills were decorative campaign framing, the GIF showed Chrome-colored machine imagery, and the small chart supported the memory-use comparison.
+
 ## [2026-09-15] ingest | 有价值的数据应该如何交易
 
 Added Wulc's 2017 Chinese summary of valuable data trading in advertising. Key claims: behavior data has a value-density hierarchy from conversion to passive exposure; identity resolution makes behavior data usable; first-party and third-party DMPs process different data rights and business models; DMP label trading usually routes through ADX/DSP infrastructure; impression-based pricing can understate data value by raising traffic prices; and privacy principles include avoiding PII, opt-out, retention limits, sparse-data reidentification, and differential privacy. Four diagrams were inspected and incorporated: first/second/third-party data relations, first-party DMP processing, third-party DMP revenue sharing, and ADX-mediated data trading.
@@ -2032,6 +2037,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

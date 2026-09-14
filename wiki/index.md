@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Browse Against the Machine](sources/browse-against-the-machine-the-official-unofficial-firefox-blog-medium.md) - Official Unofficial Firefox Blog essay arguing that Firefox and Mozilla should counter Chrome's Google-aligned browser dominance through independence, privacy controls, memory efficiency, and a healthy-web mission.
 - [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
 - [Time > Money](sources/boz-time-isnt-money.md) - Andrew Bosworth argues that time is more scarce than money, so meetings and interruptions need clear ownership, purpose, attendance curation, notes, feedback, and recurring expiration.
 - [323 Startup Failure Post-Mortems](sources/323-startup-failure-post-mortems.md) - CB Insights' compilation of startup shutdown narratives showing recurring failure patterns around product-market fit, runway, timing, platform dependence, hardware complexity, governance, and business-model fragility.
@@ -266,6 +267,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
+- [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by power-aware product-review meetings and time-respectful meeting ownership.
 - [CB Insights](entities/CBInsights.md) - Startup and venture research publisher represented here by its multi-case startup failure post-mortem compilation.

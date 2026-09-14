@@ -56,10 +56,11 @@
       "id": "platform-trust-is-a-strategic-asset",
       "qualifications": [
         "Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes.",
+        "The Firefox/Chrome browser-choice evidence is a 2017 Mozilla-side campaign argument, so its market-share and performance claims are source-scoped.",
         "Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in.",
         "Personal curation helps some users reduce exposure, but Fowler's account explicitly says it is easier for people who are not frequent harassment targets."
       ],
-      "statement": "Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, safety, or regulation; [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention, while exit-oriented technology arguments stress that credible alternatives can discipline institutional power.",
+      "statement": "Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, browser choice, safety, or regulation; [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], and [[WebCentralization]] show browser defaults and nonprofit counterweights as part of web governance, while [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention and exit-oriented technology arguments stress that credible alternatives can discipline institutional power.",
       "status": "supported",
       "supporting_wikilinks": [
         "AppleContentDistributionStrategy",
@@ -70,7 +71,12 @@
         "ExitAsGovernance",
         "PlatformAbuseResponse",
         "Twitter",
-        "SocialMediaCuration"
+        "SocialMediaCuration",
+        "Chrome",
+        "Firefox",
+        "Mozilla",
+        "Google",
+        "WebCentralization"
       ]
     },
     {
@@ -106,6 +112,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, and exit-oriented alternatives to incumbent institutions. Recent material adds two operating patterns: compliance controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, and social-platform controls remain incomplete when personal curation substitutes for platform-level harassment prevention. Exit and voice remain uneven because people and teams differ in switching capacity, authority, safety exposure, and vulnerability to process bottlenecks.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, and exit-oriented alternatives to incumbent institutions. Recent material adds that browser choice itself can be a governance surface when Chrome-scale defaults connect web access to Google advertising incentives, while Firefox and Mozilla are framed as nonprofit counterweights. Exit and voice remain uneven because people and teams differ in switching capacity, authority, safety exposure, and vulnerability to process bottlenecks.",
   "topic_id": "governance-and-institutions"
 }

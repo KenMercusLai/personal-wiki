@@ -186,9 +186,9 @@
       "global_candidate": true,
       "id": "platforms-centralize-discovery-trust-and-access",
       "qualifications": [
-        "Several platform-power sources are strategic essays, older market snapshots, founder retrospectives, or personal workflow accounts, so traffic, app-store, mobile economics, reputation-system, and curation effects need later outcome evidence before being treated as current measurements."
+        "Several platform-power sources are strategic essays, older market snapshots, founder retrospectives, personal workflow accounts, or competitor campaign arguments, so traffic, browser-share, app-store, mobile economics, reputation-system, and curation effects need later outcome evidence before being treated as current measurements."
       ],
-      "statement": "[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.",
+      "statement": "[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, browser defaults, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.",
       "status": "supported",
       "supporting_wikilinks": [
         "AggregationTheory",
@@ -197,6 +197,10 @@
         "StackOverflow",
         "WebCentralization",
         "BrowserBypass",
+        "Chrome",
+        "Firefox",
+        "Mozilla",
+        "Google",
         "MobileEcosystem",
         "MobilePlatformDiscovery",
         "MobileAppStoreEconomics",
@@ -411,6 +415,6 @@
       ]
     }
   ],
-  "summary": "Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, data trading, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. The newest startup material adds a useful roughness test: [[BeautifullyBrokenProducts]] such as [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] can reveal real demand when users tolerate flawed early journeys because the core value is acute, but this remains only one qualified signal alongside MVP discipline, runway learning, product-market fit, and compound failure patterns. Recent investing and crypto material strengthens the risk theme: Wulc's Zhang Xiaoyu course summaries frame ordinary-investor discipline around asset allocation, model-portfolio tradeoffs, rebalancing, factor diversification, passive-first implementation, valuation, fee control, thesis review, vague-language skepticism, and outside-income resilience; Housel frames risk discipline as preserving optionality; and Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, DMP labels, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, privacy, inclusion, safety, and testing constraints.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, and monetization systems. Recent material adds browser-market concentration to the platform-power thread: Chrome and Google show how discovery, advertising incentives, and browser defaults can centralize web access even before activity moves into apps, assistants, feeds, or cloud surfaces.",
   "topic_id": "business-and-markets"
 }
