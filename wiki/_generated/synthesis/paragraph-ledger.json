@@ -158,6 +158,7 @@
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
       "e3fcd2209563ed4b4a13479a52459407e8033b02fcb4badc8f3f45aa0003e4e4",
       "10937c6f00454293b88366870cd19f7ff2512f570bbeab585fc3b0eca8835791",
+      "b99a12a88112a45fbdeebb606d83e7e13f2ab078fbb906abf5ffde091bc9801b",
       "637710ffdce1aade61441596a92c750b8dc714e9666d9ed1b8d320701f1c9082",
       "765bfbab078c2e31d0af257b16e1feeef694c0c6aaae3e5e8c8fca0904a7918c",
       "7eccff1471dcd2983f879fc03cea8610eb73fca55f96ea5342d94f42d0df495e",
@@ -239,10 +240,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 237
+    "paragraph_count": 238
   },
-  "overview_commit": "b59c152e9513a8fc445a3e045f92767df1e8eb2e",
-  "overview_digest": "8125e5f33eb4594dabdba9cc67c35c8dfc984834686b5ce5f38093bdfaed444a",
+  "overview_commit": "e579dcd03bbbaefce2eaec5c1f99c0edcb3428d5",
+  "overview_digest": "fd370c50000cd765f26f0066f2c0b3cf9505ff843c3966a6ce5a4f345d329276",
   "paragraphs": [
     {
       "id": "28f0aa2df7d394f0f6fefc9a73c3fff81f1c92116e3d35ac18755de3213355b1",
@@ -3206,6 +3207,19 @@
         "ReleaseFocusedSideProjects",
         "ServerSideGameLogic",
         "TaskQueueDesign"
+      ]
+    },
+    {
+      "id": "b99a12a88112a45fbdeebb606d83e7e13f2ab078fbb906abf5ffde091bc9801b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "Wulc's proxy-scraping note adds a small but practical web-automation operations pattern. [[WebScrapingProxyPool]] treats proxies as a lifecycle: collect IP-port candidates from public proxy-list pages, persist them in [[Redis]] instead of process memory, sample candidates randomly, validate them against the intended target, and evict failures quickly because public proxies decay or are blocked. The source also adds an ethics-and-reliability qualification to scraping practice: proxy-source collection should be paced rather than maximized, both to reduce block risk and to avoid overloading free provider sites.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "Redis",
+        "WebScrapingProxyPool"
       ]
     },
     {

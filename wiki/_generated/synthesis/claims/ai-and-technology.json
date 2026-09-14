@@ -137,9 +137,9 @@
       "global_candidate": true,
       "id": "operations-and-observability-are-product-capabilities",
       "qualifications": [
-        "The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, and risk."
+        "The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, risk, and responsible interaction with external systems."
       ],
-      "statement": "Operational change safety and compliance evidence are part of technical product capability, not a late paperwork or deployment afterthought.",
+      "statement": "Operational change safety, compliance evidence, and lifecycle management for fragile external dependencies are part of technical product capability, not a late paperwork or deployment afterthought.",
       "status": "supported",
       "supporting_wikilinks": [
         "ChangeSafety",
@@ -147,10 +147,12 @@
         "DeploymentPipeline",
         "ComplianceArchitecture",
         "ProductionAccessControl",
-        "ProductionAgentInfrastructure"
+        "ProductionAgentInfrastructure",
+        "WebScrapingProxyPool",
+        "Redis"
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest concurrency material adds a lower-level systems vocabulary: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] differ by scheduling, cores, and networked machine boundaries, while [[InterprocessCommunication]], [[MessagePassing]], and [[ConcurrencyFailureModes]] explain why coordination and state consistency matter before tools enter the picture.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to small operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, while [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence, validation, eviction, and pacing.",
   "topic_id": "ai-and-technology"
 }

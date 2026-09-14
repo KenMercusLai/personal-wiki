@@ -6,6 +6,7 @@ sources:
   - chang
   - da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye
   - blog-wulc-python-bing-xing-bian-cheng-gai-shu
+  - blog-wulc-pa-chong-zhua-qu-dai-li-ip
   - blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou
   - blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian
   - blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng
@@ -17,17 +18,17 @@ knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, DMP-based data trading, user-insight methods, introductory Python and operating-system explanation, practical reading methodology, and personal-investing course synthesis.
+[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, DMP-based data trading, user-insight methods, introductory Python scraping and systems explanation, practical reading methodology, and personal-investing course synthesis.
 
 ## Current Profile
-The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. In [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]], Wulc applies the same data-business lens to [[DataMonetization]], advertising product history, [[ProgrammaticAdvertising]], ecommerce recommendation, retargeting, look-alike expansion, and mobile scene data. [[blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu]] adds the operational user-insight layer: Wulc explains [[AudienceTargeting]], [[BehavioralTargeting]], tag-system design, behavior weighting, recency handling, and Reach/CTR evaluation. [[blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi]] adds the adtech market layer: Wulc ranks behavior data by intent value, explains identity resolution, first-party and third-party [[DataManagementPlatform]] business models, DMP-to-DSP trading through ADX, impression-based pricing concerns, and privacy constraints. The Python parallel-programming overview adds a pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples. The Linux process note extends that mode into operating-system lifecycle cleanup by distinguishing [[OrphanProcess]] from [[ZombieProcess]]. The speed-reading article adds a learning-method mode: Wulc summarizes [[SpeedReadingMethod]] as evaluation, selective skimming, and output-oriented deep reading. The Zhang Xiaoyu course note adds an investing-education mode built around [[PersonalInvestorStrategy]], [[AssetAllocation]], [[MarketTiming]], [[MacroForecastingHumility]], and [[HomeBias]].
+The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. In [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]], Wulc applies the same data-business lens to [[DataMonetization]], advertising product history, [[ProgrammaticAdvertising]], ecommerce recommendation, retargeting, look-alike expansion, and mobile scene data. [[blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu]] adds the operational user-insight layer: Wulc explains [[AudienceTargeting]], [[BehavioralTargeting]], tag-system design, behavior weighting, recency handling, and Reach/CTR evaluation. [[blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi]] adds the adtech market layer: Wulc ranks behavior data by intent value, explains identity resolution, first-party and third-party [[DataManagementPlatform]] business models, DMP-to-DSP trading through ADX, impression-based pricing concerns, and privacy constraints. The Python parallel-programming overview adds a pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples. [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] adds a practical scraper-operations mode through proxy collection, Redis-backed reuse, target validation, eviction, and paced crawling. The Linux process note extends the technical mode into operating-system lifecycle cleanup by distinguishing [[OrphanProcess]] from [[ZombieProcess]]. The speed-reading article adds a learning-method mode: Wulc summarizes [[SpeedReadingMethod]] as evaluation, selective skimming, and output-oriented deep reading. The Zhang Xiaoyu course note adds an investing-education mode built around [[PersonalInvestorStrategy]], [[AssetAllocation]], [[MarketTiming]], [[MacroForecastingHumility]], and [[HomeBias]].
 
 ## Key Characteristics
 - Uses broad cross-domain analogy to connect work, family, creation, and human nature.
 - Frames personal growth as environmental discernment rather than pure willpower.
 - Summarizes technical-business arguments into practical criteria, from big-data industry transformation to advertising [[DataMonetization]], [[DataManagementPlatform]] trading, and [[AudienceTargeting]].
 - Treats data-informed decision-making as a challenge to unsupported prior experience and as a way to increase traffic monetization value, while noting identity and privacy boundaries.
-- Writes introductory systems-programming material in Chinese, from [[Python]] concurrency and distributed-programming modules to Unix-like [[OrphanProcess]] and [[ZombieProcess]] lifecycle cleanup.
+- Writes introductory and practical systems material in Chinese, from [[Python]] concurrency and scraper proxy handling to Unix-like [[OrphanProcess]] and [[ZombieProcess]] lifecycle cleanup.
 - Summarizes practical learning methods, connecting [[FocusedReading]], [[ActiveLearning]], and written output.
 - Summarizes personal-investing frameworks by turning market history, behavioral finance, risk discipline, and product-choice advice into practical heuristics.
 
@@ -43,15 +44,16 @@ The current source set presents Wulc as a cross-domain explainer. In [[chang]], 
 - Visual business explanation: [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]] uses inspected diagrams to explain contract allocation, auction assignment, programmatic trading, and mobile scene inference.
 - Concurrency pedagogy: [[blog-wulc-python-bing-xing-bian-cheng-gai-shu]] moves from programming models to communication styles, hazards, and Python modules.
 - Visual teaching: [[blog-wulc-python-bing-xing-bian-cheng-gai-shu]] includes inspected diagrams for scheduler-based concurrency, multi-core parallelism, networked distributed work, deadlock, and race conditions.
+- Scraper operations: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] explains proxy-page parsing, Redis-backed proxy reuse, target-specific validation, invalid-proxy eviction, and crawl pacing.
 - Process lifecycle explanation: [[blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng]] defines orphan processes, zombie processes, `wait`/`waitpid` cleanup, PID retention risk, and a `ps` command for finding zombies.
 - Reading methodology: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] presents nonfiction reading as evaluation, speed reading for structure and concepts, and deep reading for memory and output.
 - Investing synthesis: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] summarizes Zhang Xiaoyu's market-rules course around ordinary-investor advantages, diversification, timing traps, macro humility, consequence-based risk, and overseas allocation.
 
 ## Qualifications
-The wiki currently knows Wulc only through nine source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles.
+The wiki currently knows Wulc only through ten source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles.
 
 ## What Changed
-- Added Wulc's data-trading note as the institutional and privacy counterpart to the earlier advertising-data monetization and audience-targeting sources.
+- Added Wulc's proxy-scraping note as a practical web-scraping operations example, including Redis-backed proxy reuse and sustainable crawl pacing.
 
 ## Relationships
 - [[EnvironmentalField]] - Wulc's essay supplies the wiki's central account of field-shaped life.
@@ -65,6 +67,8 @@ The wiki currently knows Wulc only through nine source notes, so the profile sho
 - [[BehavioralTargeting]] - Wulc presents behavior-to-label extraction, weighting, time decay, and targeting thresholds.
 - [[ProgrammaticAdvertising]] - Wulc explains ADX/DSP flows and first-party plus third-party data use.
 - [[Python]] - language ecosystem used as the article's practical module context.
+- [[WebScrapingProxyPool]] - Wulc explains proxy collection, validation, reuse, and eviction for scrapers.
+- [[Redis]] - storage layer Wulc uses for reusable proxy candidates.
 - [[ConcurrentProgramming]] - one of the programming models Wulc explains.
 - [[ParallelProgramming]] - central programming model in the article title and module list.
 - [[DistributedProgramming]] - programming model linked to networked machines and Celery-style task distribution.

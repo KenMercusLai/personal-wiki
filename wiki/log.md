@@ -1978,6 +1978,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | 爬虫抓取代理 IP
+
+Added Wulc's 2016 practical note on scraping public proxy IPs. Key claims: proxy candidates can be parsed from proxy-list table rows, should be persisted outside process memory, can be stored and randomly sampled from Redis sets, must be validated against the actual target site before use, should be evicted when they fail, and proxy-source scraping should be paced to reduce block risk and provider load. No image references were present in the source Markdown.
 ## [2026-09-15] ingest | 有价值的数据应该如何交易
 
 Added Wulc's 2017 Chinese summary of valuable data trading in advertising. Key claims: behavior data has a value-density hierarchy from conversion to passive exposure; identity resolution makes behavior data usable; first-party and third-party DMPs process different data rights and business models; DMP label trading usually routes through ADX/DSP infrastructure; impression-based pricing can understate data value by raising traffic prices; and privacy principles include avoiding PII, opt-out, retention limits, sparse-data reidentification, and differential privacy. Four diagrams were inspected and incorporated: first/second/third-party data relations, first-party DMP processing, third-party DMP revenue sharing, and ADX-mediated data trading.
@@ -1994,6 +1998,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

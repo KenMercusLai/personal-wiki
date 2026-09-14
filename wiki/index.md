@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
+- [爬虫抓取代理 IP](sources/blog-wulc-pa-chong-zhua-qu-dai-li-ip.md) - Wulc explains a Python scraper proxy-pool workflow: collect public proxies, store candidates in Redis, validate them against the target, evict failures, and pace collection.
 - [怎样用数据洞察你的用户](sources/blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu.md) - Wulc explains audience targeting and user profiling as demand-driven label design, from structured versus advertiser-specific tag systems to behavioral targeting, recency weighting, thresholds, and Reach/CTR evaluation.
 - [张潇雨的个人投资课(3)-投资组合构建](sources/blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-3-tou-zi-zu-he-gou-jian.md) - Wulc summarizes Zhang Xiaoyu's portfolio-construction course section: asset allocation, asset classes, Permanent/All Weather/Swensen portfolios, rebalancing, factor investing, index-fund categories, and investing-language traps.
 - [孤儿进程和僵尸进程](sources/blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng.md) - Wulc distinguishes orphan processes from zombie processes, explaining init adoption, wait/waitpid reaping, PID exhaustion risk, and parent-focused cleanup.
@@ -257,7 +258,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency, Linux process lifecycle, and practical reading methods.
+- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency and scraping, Linux process lifecycle, and practical reading methods.
 - [Zhang Xiaoyu](entities/ZhangXiaoyu.md) - Personal-investing course teacher represented here by market-rules guidance for ordinary investors.
 - [John Maynard Keynes](entities/JohnMaynardKeynes.md) - Economist and investor example used to illustrate the limits of macro-driven investing.
 - [Joel Tillinghast](entities/JoelTillinghast.md) - Investor-author cited for company-level "think small" analysis instead of macro fixation.
@@ -687,7 +688,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sahil Bloom](entities/SahilBloom.md) - Creator whose Creator Science interview informs the source author's thinking about value, follower quality, consistency, and evergreen content.
 - [Xiaohongshu](entities/Xiaohongshu.md) - Recommendation-driven social platform used as the source's main example of volatile creator metrics.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
-- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, big-data criteria, advertising-data monetization, audience targeting, software pedagogy, and reading methodology.
+- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, big-data criteria, advertising-data monetization, audience targeting, software pedagogy, scraper operations, and reading methodology.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
@@ -782,7 +783,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Threekit](entities/Threekit.md) - Enterprise 3D platform context for Ben Houston's original move from bare metal to Kubernetes.
 - [Kubernetes](entities/Kubernetes.md) - Container orchestration platform discussed as powerful declarative infrastructure, process isolation, and sometimes unnecessary operational burden.
 - [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
-- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, clear product positioning, and AI-assisted maintenance examples.
+- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, scraper proxy-pool storage, clear product positioning, and AI-assisted maintenance examples.
 - [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
 - [Elecpass](entities/Elecpass.md) - Wang Ziting side project used as a positive example of fast release, personal use, and focused versioned improvement.
 - [Client Engine](entities/ClientEngine.md) - LeanCloud product for running server-side game logic as a message-service participant.
@@ -925,6 +926,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Starvation](concepts/Starvation.md) - Progress failure where a process never receives the CPU time or resources it needs to continue.
 - [Race Condition](concepts/RaceCondition.md) - Timing-dependent bug where uncontrolled operation ordering changes the system's output.
 - [Python Concurrency Libraries](concepts/PythonConcurrencyLibraries.md) - Python modules and libraries used for threading, multiprocessing, parallel execution, and distributed tasks.
+- [Web Scraping Proxy Pool](concepts/WebScrapingProxyPool.md) - Operational pattern for collecting, storing, validating, and retiring proxy IPs used by web scrapers.
 - [Stablecoin Yield Farming](concepts/StablecoinYieldFarming.md) - DeFi practice of supplying or lending dollar-pegged stablecoins through smart contracts to earn fees, incentive tokens, or auto-compounded yield.
 - [Liquidity Provision](concepts/LiquidityProvision.md) - Depositing assets into pools or markets so other users can trade or borrow against that depth in exchange for fees or incentives.
 - [Automated Market Maker](concepts/AutomatedMarketMaker.md) - Smart-contract market mechanism that quotes swaps from liquidity-pool balances rather than a centralized order book.
