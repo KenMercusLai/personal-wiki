@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 3b691aeb6ddad40c8eafde0a2564d7276c81ef3a
+as_of_overview_commit: 417bbca702987b4f76f821746a5450900966a373
 summary: "The wiki maps how durable capability emerges from system understanding, explicit evidence, active learning, feedback loops, and context-aware judgment."
-episode_count: 211
-source_count: 211
-paragraph_count: 205
+episode_count: 212
+source_count: 212
+paragraph_count: 206
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, retrieval, data-science practice, workflow infrastructure, verification, compliance evidence, legacy modernization, infrastructure cost, database and network tradeoffs, platform disruption, AI agents, LLM workflows, agent-computer interfaces, and long innovation maturation.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[HarnessEngineering]].

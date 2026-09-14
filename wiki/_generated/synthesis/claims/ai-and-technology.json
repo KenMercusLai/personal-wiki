@@ -172,6 +172,25 @@
     },
     {
       "global_candidate": false,
+      "id": "legacy-modernization-needs-transitional-boundaries",
+      "qualifications": [
+        "Legacy-shaped interfaces are useful as migration bridgework only when teams keep their retirement path explicit.",
+        "An [[AntiCorruptionLayer]] can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract."
+      ],
+      "statement": "Incremental [[LegacyDisplacement]] needs explicit [[TransitionalArchitecture]]: [[LegacyMimic]], [[EventInterception]], [[ExtractValueStreams]], and [[AntiCorruptionLayer]] help new capabilities coexist with unreplaced legacy processes without treating temporary compatibility as the target design.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "LegacyDisplacement",
+        "TransitionalArchitecture",
+        "LegacyMimic",
+        "EventInterception",
+        "ExtractValueStreams",
+        "AntiCorruptionLayer",
+        "CapabilityOrientedIntegration"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "innovation-matures-before-breakthroughs",
       "qualifications": [
         "The Long Nose evidence is a reconstructed archive note and a technology-history frame; it should not be generalized as a fixed maturation law for every domain."
@@ -214,6 +233,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
   "topic_id": "ai-and-technology"
 }

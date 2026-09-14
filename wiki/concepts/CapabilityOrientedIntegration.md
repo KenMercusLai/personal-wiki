@@ -4,6 +4,7 @@ type: concept
 tags: [architecture, api, integration, enterprise-architecture]
 sources:
   - blog-brandon-byars-martinfowler-com-you-cant-buy-integration
+  - blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -16,12 +17,15 @@ The Byars source argues that modern digital integration should focus on capabili
 
 Capability-oriented integration accepts that implementation may become more complex so the interface can become simpler. Transformations, orchestration, caching, and legacy containment are not eliminated; they are moved behind a capability boundary where a knowledgeable team can evolve them without forcing every consumer to relearn downstream system details.
 
+During [[LegacyDisplacement]], a clean target capability boundary may still need temporary legacy-shaped adapters so unreplaced systems can keep working. In that case, the interface is intentionally shaped by old contracts for a time, but the mimic should be treated as [[TransitionalArchitecture]] rather than as the final capability model.
+
 ## Key Claims
 - APIs should be designed from the consumer's perspective rather than the source system's structure.
 - Clean capability interfaces hide implementation details, including source systems and programming languages.
 - Legacy complexity should be adapted behind the interface instead of exported to every new consumer.
 - Capability interfaces must evolve with users over time, making integration a programming-over-time problem.
 - Diagrams should make capability boundaries visible rather than foregrounding integration tools or implementation languages.
+- During legacy displacement, temporary compatibility boundaries may need to satisfy legacy interfaces before the target capability model can stand alone.
 
 ## Evidence
 - Consumer perspective: [[blog-brandon-byars-martinfowler-com-you-cant-buy-integration]] says users do not need an SAP API; they need access to capabilities such as order management.
@@ -29,12 +33,16 @@ Capability-oriented integration accepts that implementation may become more comp
 - Legacy adaptation: [[blog-brandon-byars-martinfowler-com-you-cant-buy-integration]] describes a telecom eCommerce API redesigned around plans, eligibility, ordering, and provisioning instead of call-center transaction and billing-system details.
 - Diagram evidence: [[blog-brandon-byars-martinfowler-com-you-cant-buy-integration]] shows a web channel API calling capability APIs rather than exposing downstream system mechanics.
 - User evolution: [[blog-brandon-byars-martinfowler-com-you-cant-buy-integration]] warns that APIs which fail to evolve with users become point-in-time integrations in API clothing.
+- Transitional compatibility: [[blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic]] shows a new logistics capability using mimics to consume legacy sales events and update legacy reporting metrics while migration continues.
 
 ## Counterevidence & Qualifications
 Capability abstraction can require more up-front architectural skill and implementation work than direct system integration. Systems of record, ERPs, and legacy billing platforms may resist clean boundaries, and some internal or administrative use cases may still need system-specific APIs. The source's recommendation is a strategic default, not a claim that every technical endpoint must hide every implementation detail.
 
+Migration work may deliberately expose or consume legacy-shaped interfaces as a temporary bridge. The important distinction is whether the legacy-shaped contract is being retired or quietly promoted into the target architecture.
+
 ## What Changed
 - Created the concept from Byars's principle to abstract the capability rather than the system.
+- Added Legacy Mimic as a transitional compatibility qualification during incremental displacement.
 
 ## Related Concepts
 - [[IntegrationStrategy]] - capability orientation is the strategic center of the article.
@@ -42,3 +50,5 @@ Capability abstraction can require more up-front architectural skill and impleme
 - [[APIErrorHandling]] - API design includes recoverable failure interfaces, not just happy-path capability calls.
 - [[ProductManagement]] - the article treats APIs as products designed around user needs.
 - [[TechnologyStackComplexity]] - capability boundaries contain complexity created by multiple systems.
+- [[LegacyMimic]] - temporary compatibility pattern that can protect migration sequencing while old systems remain.
+- [[TransitionalArchitecture]] - names the period where capability boundaries may be intentionally legacy-shaped.

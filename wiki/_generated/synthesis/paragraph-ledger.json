@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
       "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
       "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
       "a7bc1196b541898a73e7bf671c39aaf0ec509af4efc93261701016cd3f5fffce",
@@ -207,11 +208,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 205
+    "paragraph_count": 206
   },
-  "overview_commit": "3b691aeb6ddad40c8eafde0a2564d7276c81ef3a",
-  "overview_digest": "a3c5fcd9a2a8e5c088c1b804812aef6b00fa38bfe99a6622252ef972197da325",
+  "overview_commit": "417bbca702987b4f76f821746a5450900966a373",
+  "overview_digest": "75abbf9030fb94db23fbd1627bd624bee8afb92c76d5c1a796da6e3d7efc499d",
   "paragraphs": [
+    {
+      "id": "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Legacy Mimic source adds a legacy-modernization transition layer to the wiki's architecture material. New [[LegacyMimic]] captures the temporary compatibility pattern where new components conform to legacy interfaces, events, database schemas, or semantics so incremental [[LegacyDisplacement]] can proceed without breaking unreplaced processes. New [[TransitionalArchitecture]] frames those components as old/new bridgework that should be retired, while [[AntiCorruptionLayer]] is distinguished as potentially enduring model protection for external systems. [[EventInterception]] and [[ExtractValueStreams]] capture the logistics example: sales events are intercepted into a new logistics system, metrics are replicated back into legacy reporting, and a partner-system ACL protects the new logistics model. [[CapabilityOrientedIntegration]] is qualified by the reminder that clean target boundaries may need temporary legacy-shaped interfaces during migration. The inspected diagrams supported these claims by showing the monolith before extraction, logistics split out with mimics and an ACL, and a sequence diagram separating service-providing from service-consuming mimics.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "AntiCorruptionLayer",
+        "CapabilityOrientedIntegration",
+        "EventInterception",
+        "ExtractValueStreams",
+        "LegacyDisplacement",
+        "LegacyMimic",
+        "TransitionalArchitecture"
+      ]
+    },
     {
       "id": "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
       "primary_topic": "work-education-and-society",

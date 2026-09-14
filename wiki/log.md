@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Legacy Mimic
+
+Added Ian Cartwright, Rob Horn, and James Lewis's Martin Fowler pattern article on Legacy Mimic. Key claims: incremental legacy displacement may need temporary components that conform to legacy interfaces, service-providing mimics hide new implementations behind legacy-facing contracts, service-consuming mimics write or call legacy systems through existing interfaces, and enduring anti-corruption layers should be distinguished from transitional mimics. Inspected all three local diagrams and used them as evidence for the monolith-before state, logistics extraction transition, and service-providing versus service-consuming sequence.
+
 ## [2026-09-14] ingest | You Can't Buy Integration
 
 Added Brandon Byars's Martin Fowler article on integration strategy. Key claims: integration cannot be bought as a product, strategic APIs should abstract capabilities rather than systems, low-code integration DSLs should be bounded to tactical workflow/connectivity/adapter roles, and clean interfaces are a driver of long-term organizational agility.
@@ -1691,6 +1695,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me
 
 Ingested Ethan Banks' age-staged career advice, creating source and entity pages and updating career planning, burnout prevention, and work habits synthesis.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: f05286f85ed7b71e66726b6f81f51831958b32fa
-input_digest: 0e6fefa379ff325f19c6f5aa4930445f67ab9d8f406ef890ce0ab0e5d766a947
+as_of_overview_commit: 417bbca702987b4f76f821746a5450900966a373
+input_digest: f0bf2d4504ad1603685777b94e65e7c914b14b1300b1c3ebf535596ecedb1f49
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
 
 ## Cross-source Findings
 
@@ -120,6 +120,17 @@ Architecture simplification is contextual: [[DatabaseConsolidation]], [[SQLitePr
 **Qualifications:**
 
 - Single-system choices can become wrong when availability, write concurrency, dependency isolation, or scale constraints change.
+
+### Legacy Modernization Needs Transitional Boundaries
+
+Incremental [[LegacyDisplacement]] needs explicit [[TransitionalArchitecture]]: [[LegacyMimic]], [[EventInterception]], [[ExtractValueStreams]], and [[AntiCorruptionLayer]] help new capabilities coexist with unreplaced legacy processes without treating temporary compatibility as the target design.
+
+**Evidence:** [[LegacyDisplacement]], [[TransitionalArchitecture]], [[LegacyMimic]], [[EventInterception]], [[ExtractValueStreams]], [[AntiCorruptionLayer]], [[CapabilityOrientedIntegration]]
+
+**Qualifications:**
+
+- Legacy-shaped interfaces are useful as migration bridgework only when teams keep their retirement path explicit.
+- An [[AntiCorruptionLayer]] can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract.
 
 ### Innovation Matures Before Breakthroughs
 

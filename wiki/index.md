@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Legacy Mimic](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic.md) - Ian Cartwright, Rob Horn, and James Lewis describe temporary service-providing and service-consuming mimic components that keep legacy processes working while capabilities are incrementally displaced.
 - [Learning By Writing](sources/blog-holden-karnofsky-cold-takes-learning-by-writing.md) - Holden Karnofsky argues that writing premature hypotheses, attacking their weaknesses, and reading toward view-changing subquestions can make learning and research more focused than open-ended intake.
 - [Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me](sources/blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me.md) - Ethan Banks offers age-staged career advice on asymmetric risk, humility, promotion reality, goals, relationships, recovery, saying no, habits, restraint, and choosing one's own priorities.
 - [Compliance in a DevOps Culture](sources/blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture.md) - Carl Nygard compares manual, pipeline, composition, and point-of-change compliance patterns, arguing for evidence-driven controls that preserve DevOps delivery at scale.
@@ -219,6 +220,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Ian Cartwright](entities/IanCartwright.md) - Coauthor of the Legacy Mimic pattern article, represented here by incremental legacy-displacement guidance.
+- [Rob Horn](entities/RobHorn.md) - Coauthor of the Legacy Mimic pattern article, represented here by transitional architecture and mimic examples.
+- [James Lewis](entities/JamesLewis.md) - Coauthor of the Legacy Mimic pattern article, represented here by legacy compatibility and anti-corruption-layer distinctions.
 - [Holden Karnofsky](entities/HoldenKarnofsky.md) - Cold Takes author represented here by a writing-centered investigation method that uses provisional claims, weakness finding, targeted reading, revision, and feedback.
 - [Ethan Banks](entities/EthanBanks.md) - Career-advice author whose age-staged reflection connects risk timing, goals, relationships, boundaries, habits, and restraint.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
@@ -804,6 +808,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Legacy Mimic](concepts/LegacyMimic.md) - Transitional pattern where a new component conforms to legacy interfaces, events, schemas, or semantics during incremental replacement.
+- [Transitional Architecture](concepts/TransitionalArchitecture.md) - Temporary architecture that lets old and new systems interoperate while legacy capabilities are displaced.
+- [Legacy Displacement](concepts/LegacyDisplacement.md) - Incremental replacement of legacy capabilities while business processes continue across old and new components.
+- [Anti-Corruption Layer](concepts/AntiCorruptionLayer.md) - Translation boundary that protects a system's domain model from another model or interface.
+- [Event Interception](concepts/EventInterception.md) - Migration mechanism for capturing legacy activity so a new capability can react without replacing the producer first.
+- [Extract Value Streams](concepts/ExtractValueStreams.md) - Sequencing approach that moves a business capability out of a legacy system while surrounding processes keep running.
 - [Compliance Architecture](concepts/ComplianceArchitecture.md) - Design of evidence, validation, audit, and ownership structures that prove compliance while preserving delivery flow.
 - [Integration Strategy](concepts/IntegrationStrategy.md) - Architectural discipline of exposing and evolving business capabilities through clean interfaces rather than outsourcing integration thinking to a tool.
 - [Capability-Oriented Integration](concepts/CapabilityOrientedIntegration.md) - Integration posture that abstracts business capabilities instead of exposing underlying system names and quirks.
