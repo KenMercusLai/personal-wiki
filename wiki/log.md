@@ -1986,3 +1986,12 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's portfolio-construction cours
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | 怎样用数据洞察你的用户
+
+- Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
+- Created [[AudienceTargeting]] and [[BehavioralTargeting]].
+- Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
