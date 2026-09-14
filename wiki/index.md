@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
 - [323 Startup Failure Post-Mortems](sources/323-startup-failure-post-mortems.md) - CB Insights' compilation of startup shutdown narratives showing recurring failure patterns around product-market fit, runway, timing, platform dependence, hardware complexity, governance, and business-model fragility.
 - [10 Tips To Write Better Functions In Python](sources/bob-belderbos-10-tips-to-write-better-functions-in-python.md) - Bob Belderbos argues that better Python functions use clear names, single responsibility, small interfaces, early validation, type hints, consistent returns, purity, and safe defaults.
 - [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
@@ -261,6 +262,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by the P Rules for power-aware product-review meetings.
 - [CB Insights](entities/CBInsights.md) - Startup and venture research publisher represented here by its multi-case startup failure post-mortem compilation.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
@@ -1111,6 +1113,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
 - [Product Management](concepts/ProductManagement.md) - Cross-functional product role accountable for integrating customer, business, technical, and organizational constraints into product outcomes.
 - [Product Leadership](concepts/ProductLeadership.md) - Product role of setting and communicating vision and strategy strongly enough to move organizations through risky product change.
+- [Product Review Meetings](concepts/ProductReviewMeetings.md) - Product-review discussions facilitated to improve judgment while preserving presenter agency, team ownership, and trust under power gradients.
 - [Product Idea Prioritization](concepts/ProductIdeaPrioritization.md) - Ranking product ideas by KPI impact, build difficulty, and whether they improve growth, activation, engagement, reactivation, or revenue.
 - [Information Hierarchy](concepts/InformationHierarchy.md) - Ordering and prioritizing interface information so users can find important data, actions, and features when needed.
 - [App Landing Pages](concepts/AppLandingPages.md) - Single-goal app marketing pages for validation, acquisition, lead capture, and conversion testing.

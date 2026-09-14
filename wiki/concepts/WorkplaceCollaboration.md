@@ -6,7 +6,8 @@ sources:
   - assume-positive-intent-rick-manelius
   - bill-barnett-delete-all-meetings
   - 3-strategies-for-picking-your-battles-as-a-software-developer
-last_updated: 2026-09-14
+  - boz-the-p-rules
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,14 +19,16 @@ The Manelius source contributes a trust-centered view of workplace collaboration
 
 Head adds a disagreement-selection frame for software teams. Collaboration does not require suppressing all conflict; it requires choosing which disagreements deserve pressure and how to pursue them without making the issue personal. A product or code challenge is strongest when it is tied to concrete value such as a week of saved work, reliability, viability, maintainability, usability learning, or a better third option. Some losing disagreements can still improve future collaboration by surfacing the need for user testing or shared technical learning.
 
+Bosworth adds a power-aware meeting layer. In product reviews, collaboration depends on senior participants contributing without dominating: make one critique rather than piling on, ignore small errors unless they confuse people, avoid tangents, do not prescribe solutions, resist permission transfers, meet weak ideas with curiosity, and let presenters finish. Leaders also have to manage their physical and emotional presence because a mild interjection can land as a strong signal when the power gradient is steep.
+
 ## Key Claims
 - Collaboration can break down when project stress turns stakeholders toward defensive self-protection.
 - Shared assumptions about good faith can reduce friction in hard conversations.
 - Trust-based collaboration can be faster than contract-heavy coordination when the relationship is healthy.
 - Boundaries remain necessary when the environment is low-trust or a person has already violated trust.
 - Interaction should be justified by usefulness: scheduled meetings need a purpose, and informal talks should stop once value disappears.
-- Useful disagreement depends on product value, likely influence, and emotional cost to the team.
-- Losing a disagreement can still improve collaboration when it expands shared understanding or motivates better evidence gathering.
+- Useful disagreement depends on product value, likely influence, emotional cost, and whether even a losing disagreement expands shared understanding or motivates better evidence gathering.
+- High-status review collaboration requires restraint from senior participants plus leader practices that make people feel seen and heard, name concern, and remind the room of shared goals.
 
 ## Evidence
 - Project crisis: [[assume-positive-intent-rick-manelius]] describes a client-budget conflict where both sides became irritable and defensive.
@@ -39,14 +42,21 @@ Head adds a disagreement-selection frame for software teams. Collaboration does 
 - Product-value frame: [[3-strategies-for-picking-your-battles-as-a-software-developer]] contrasts small time savings with a week of avoided work when deciding whether to push back on requirements.
 - Learning value: [[3-strategies-for-picking-your-battles-as-a-software-developer]] says losing battles can still lead to user testing, shared research, or a better third option.
 - Repair move: [[3-strategies-for-picking-your-battles-as-a-software-developer]] recommends stepping away after personal critique and returning later for an objective conversation.
+- Review restraint: [[boz-the-p-rules]] says once a critique has been made, others should move on rather than forming a chorus around it.
+- Team ownership: [[boz-the-p-rules]] says leaders should provide solution guidelines without taking ownership away from the team.
+- Curiosity in disagreement: [[boz-the-p-rules]] says weak ideas may reveal either the team's misunderstanding or the leader's.
+- Presenter agency: [[boz-the-p-rules]] says presenters should be allowed to finish and answer questions fully before more questions are raised.
+- Power awareness: [[boz-the-p-rules]] says leaders should account for how their interjections land across the power gradient.
+- Emotional repair: [[boz-the-p-rules]] recommends naming concern and reminding participants of shared goals when conflict appears.
 
 ## Counterevidence & Qualifications
-The sources are personal essays rather than broad empirical studies. Trust can be misplaced in environments with coercive power, repeated deception, legal exposure, or unequal ability to absorb risk. Collaboration may also require explicit agreements, incentives, resources, scheduled decision forums, and decision rights, not only better assumptions about intent, informal conversation, or individual restraint. "Picking battles" language can also over-personalize shared product work if teams forget that the goal is better evidence and better outcomes rather than individual victory.
+The sources are personal essays rather than broad empirical studies. Trust can be misplaced in environments with coercive power, repeated deception, legal exposure, or unequal ability to absorb risk. Collaboration may also require explicit agreements, incentives, resources, scheduled decision forums, and decision rights, not only better assumptions about intent, informal conversation, or individual restraint. "Picking battles" language can also over-personalize shared product work if teams forget that the goal is better evidence and better outcomes rather than individual victory. Power-aware restraint does not eliminate the need for direct intervention when risk is urgent or decision rights are explicit.
 
 ## What Changed
 - Created the concept from the Manelius article's project-conflict case.
 - Added Barnett's distinction between useful collaboration and rational-looking meeting procedure.
 - Added a software-team disagreement frame for deciding when to press, let go, or start a useful losing debate.
+- Added power-aware product-review collaboration: senior restraint, presenter agency, team ownership, and emotional repair in meetings.
 
 ## Related Concepts
 - [[AssumePositiveIntent]] - trust-first attribution is the source's proposed collaboration move.
@@ -56,3 +66,4 @@ The sources are personal essays rather than broad empirical studies. Trust can b
 - [[ProceduralRationality]] - meeting rituals can look collaborative while failing to serve the work.
 - [[CodeReviewPractice]] - code review is one setting where collaboration depends on separating quality concerns from preference.
 - [[TeamFocus]] - low-value or personal disputes can consume shared attention and morale.
+- [[ProductReviewMeetings]] - product reviews are a collaboration setting where status and decision ownership are especially salient.

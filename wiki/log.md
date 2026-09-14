@@ -1979,6 +1979,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Boz - The P Rules
+
+Added Andrew Bosworth's product-review meeting article. Key claims: senior review participants should avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions; leaders should surface problems and risk boundaries without taking ownership from the presenting team; weak ideas deserve curiosity because misunderstanding may sit on either side; and power-aware facilitation makes people feel seen and heard even amid disagreement. No image references were present in the source Markdown.
+
 ## [2026-09-15] ingest | 323 Startup Failure Post-Mortems
 
 Added CB Insights' compilation of 323 startup shutdown narratives. Key claims: startup failure is usually compound; weak product-market fit can coexist with technology, early traction, or user love; runway only helps when it funds real learning; timing mismatch can break plausible long-term theses; hardware, regulated, marketplace, food, and platform-dependent companies carry extra complexity; and public post-mortems are useful but retrospective evidence. The remote hero image returned HTTP 403 and could not be inspected.
@@ -2010,6 +2014,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

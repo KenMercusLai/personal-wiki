@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: 55f7fded900e9157e6b349d3783728214844cca6
-summary: "A source-grounded map of technical practice, markets, culture, governance, learning, and personal development."
-episode_count: 253
-source_count: 253
-paragraph_count: 239
+as_of_overview_commit: de9d7c03a6d4b1ef1b8c83ed6420ff8d47f2a2ab
+summary: "A source-grounded map of technical practice, markets, culture, governance, learning, collaboration, and personal development."
+episode_count: 254
+source_count: 254
+paragraph_count: 240
 topic_count: 9
 ---
 
@@ -81,7 +81,7 @@ Science, health, and climate sources are handled as evidence-sensitive domains w
 
 ### Work, Education, and Society
 
-Work and education synthesis frames learning and collaboration as active, contextual, social, and evidence-driven: people improve through practice, feedback, writing, community, responsibility, communication, and environments that preserve attention and trust.
+Work and education synthesis frames learning and collaboration as active, contextual, social, and evidence-driven: people improve through practice, feedback, writing, community, responsibility, communication, power-aware facilitation, and environments that preserve attention and trust.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] and [[SpeedReadingMethod]] to turn reading into provisional claims, selected concepts, notes, and output, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[FocusedReading]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[PracticalLLMUse]], [[NicholasCarlini]], [[Antirez]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill; [[Antirez]] adds that programmers still need to engage seriously with AI because the job itself is shifting. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[ProgrammerMindset]], [[LearningByWriting]], [[Antirez]], [[PracticalLLMUse]].
