@@ -2005,6 +2005,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Building for Trust
+
+Added Airbnb Engineering and Data Science source on trust as marketplace infrastructure. Key claims: profiles reduce anonymity, payments and delayed payouts create confidence, customer support protects retention after failures, reviews function as a reputation data product, double-blind review mechanics increase candor, positive reviews can counteract homophily, and trust-rich communities can support cross-cultural stays, host income resilience, and disaster response. Inspected embedded images; the office/photo/GIF/logo assets were illustrative, while the trip-adjacency matrix was incorporated as evidence for cross-country guest-host connections.
+
 ## [2026-09-15] ingest | Building a Universal AI Scraper
 
 Added Tim Connors' prototype note on AI-guided web scraping. Key claims: universal scraping can be framed as an assistant loop over page analysis, element retrieval, interaction, and completion checks; screenshot-only and full-HTML prompting both fail in different ways; ranked model-generated search terms plus deterministic HTML matching produce a better candidate set; parent-context retrieval catches sibling answers; and generated Playwright actions are powerful but risky. Inspected all 16 embedded local images and treated the prompt, code, flow, and Wikipedia screenshots as source evidence.
@@ -2202,6 +2206,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Building and Motivating Engineering Teams
 
 Added The Startup article on motivating engineering teams in a competitive startup talent market. Key claims: engineers need market-rate compensation as a baseline, purpose often comes from business and product context rather than uniquely hard technical problems, and respect means clear goals, accountability, and cross-functional partnership rather than pampering. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

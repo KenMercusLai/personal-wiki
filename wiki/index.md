@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [52 Things I Learned in 2017](sources/52-things-i-learned-in-2017-fluxx-studio-notes-medium.md) - Tom Whitwell's Fluxx Studio Notes list uses 52 sourced observations from 2017 to surface cross-domain patterns around technology adoption, legacy infrastructure, behavior, risk, poverty, and customer research.
 - [5 Product Design Tips: Making Your App Sticky From the Start](sources/5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product.md) - Mind the Product argues that sticky connected-product apps earn first-use retention through no-strings exploration, low-friction flows, benefit-led messaging, fewer choices, and coherent physical-digital design.
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
+- [Building for Trust](sources/building-for-trust-airbnb-engineering-data-science-medium.md) - Airbnb Engineering and Data Science explains trust as marketplace infrastructure built from identity, payments, support, guarantees, reviews, and cross-cultural community effects.
 - [Building and Motivating Engineering Teams](sources/building-and-motivating-engineering-teams-the-startup-medium.md) - The Startup article argues that engineering-team motivation in competitive startup markets depends on market-rate money, business purpose, and professional respect.
 - [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
 - [Building a Business in the Shadow of a Giant](sources/building-a-business-in-the-shadow-of-a-giant-noteworthy-the-journal-blog.md) - Noteworthy argues that Wistia grew in YouTube's shadow by using the giant's market-making, free-price deterrence, and broad-platform gaps to build a focused B2B video business.
@@ -642,11 +643,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor and scaling theorist used to define blitzscaling and stage-specific startup advice.
 - [Eric Schmidt](entities/EricSchmidt.md) - Google operator cited for scaling timing, recruiting, small-team product creation, and CEO path-clearing.
 - [Marissa Mayer](entities/MarissaMayer.md) - Google and Yahoo operator cited for process breakage, acquisitions, culture, operating cadence, and CEO role.
-- [Brian Chesky](entities/BrianChesky.md) - Airbnb founder cited for competition-triggered scaling, unscalable host work, culture, and post-fit CEO priorities.
+- [Brian Chesky](entities/BrianChesky.md) - Airbnb founder cited for competition-triggered scaling, unscalable host work, culture, post-fit CEO priorities, and early trust focus.
 - [Diane Greene](entities/DianeGreene.md) - VMware operator cited for early hiring difficulty, hiring standards, and written scaling communication.
 - [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, culture reinforcement, all-hands communication, coaching, and product-led CEOs.
 - [John Lilly](entities/JohnLilly.md) - CS183C instructor cited for scaling stages, support-team formation, competition timing, and repeated CEO messages.
-- [Airbnb](entities/Airbnb.md) - Startup scaling and data-science case for unscalable customer work, competition-driven international growth, founder-led culture, localization, and knowledge-sharing.
+- [Joe Gebbia](entities/JoeGebbia.md) - Airbnb cofounder whose TED talk motivates Airbnb's trust-design framing.
+- [Judd Antin](entities/JuddAntin.md) - Airbnb Engineering and Data Science coauthor on trust, confidence scaffolds, and reputation systems.
+- [Nate Blecharczyk](entities/NateBlecharczyk.md) - Airbnb cofounder named in the company's early trust-design history.
+- [Riley Newman](entities/RileyNewman.md) - Airbnb Engineering and Data Science coauthor on trust, reputation, and community outcomes.
+- [Airbnb](entities/Airbnb.md) - Startup scaling, data-science, and marketplace-trust case for unscalable customer work, international growth, culture, localization, identity, payments, support, and reputation.
 - [Avneesh Saluja](entities/AvneeshSaluja.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Alok Gupta](entities/AlokGupta.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Cuky Perez](entities/CukyPerez.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
@@ -1034,6 +1039,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cognitive Curiosity](concepts/CognitiveCuriosity.md) - Mechanism-seeking curiosity aimed at how and why, used as creative direction rather than surface novelty.
 - [Gamification](concepts/Gamification.md) - Using points, reputation, streaks, or other game-like mechanics as a weak behavioral layer around an activity users already value.
 - [Community Reputation Systems](concepts/CommunityReputationSystems.md) - Community scoring systems that convert feedback into ranking, recognition, trust, privileges, or moderation signals.
+- [Homophily](concepts/Homophily.md) - Similarity bias in trust decisions that reputation evidence can sometimes counteract.
 - [Text File Productivity](concepts/TextFileProductivity.md) - Plain-text daily planning workflow where a chronological file combines task execution, notes, retrieval, and work history.
 - [Product Page Optimization](concepts/ProductPageOptimization.md) - Ecommerce product-detail pages combine visual evidence, trust, proof, usability, copy, and objection handling to move shoppers toward purchase.
 - [Legacy Mimic](concepts/LegacyMimic.md) - Transitional pattern where a new component conforms to legacy interfaces, events, schemas, or semantics during incremental replacement.
@@ -1214,7 +1220,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
-- [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, and protection mechanisms that reduce transaction risk enough for marketplace participation.
+- [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, support, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
 - [Wearable Computing](concepts/WearableComputing.md) - Wrist-, ear-, or eye-worn computing that extends mobile functions while creating health, AR, assistant, and contextual use cases.
 - [Smart Glasses](concepts/SmartGlasses.md) - Eye-worn computing category framed as Apple's likely next personal-computing frontier after wrists and ears.

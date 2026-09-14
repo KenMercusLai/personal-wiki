@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 28613f5785066f72921314b5b9e853ee2ac8b265
-input_digest: 51e3c1a6a4bac2b77e3889f850341dea5aa8959a402c675061608e230a2c7019
+as_of_overview_commit: 016b8823c1e4d1071ac7c86900660d92d5481c05
+input_digest: 8b0e89e7bb50e7804dad6bd39657849207ef89979e0fcc7cc71af2e1f2c67147
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, need-threatening risk, and product contexts where latency dissipates intent before choice. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, gamified points, and performance-driven conversion claims all depend on context, constraints, and existing motivation rather than universal slogans.
+Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting time, designing small feedback loops, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, and conversion findings all depend on constraints, safety, existing motivation, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -26,26 +26,6 @@ This topic links personal effectiveness, judgment, trust, behavior design, refle
 
 - The sources are advice-heavy and acknowledge that health, caregiving, work type, and external constraints can limit how freely people reallocate time.
 
-### Technical Debugging Progresses Through Repeated Observation
-
-[[ZhaoCS]] and [[ZhaoCSInfo]] provide a source-scoped example of technical learning through repeated observation: the dummy VLAN question is resolved by revisiting hypotheses, changing the L2VPN setup, and comparing VPLS and EoMPLS packet captures.
-
-**Evidence:** [[ZhaoCS]], [[ZhaoCSInfo]], [[L2VPNDummyVLAN]], [[VPLS]], [[EoMPLS]]
-
-**Qualifications:**
-
-- This paragraph landed in the topic through the overview planner, but its substance is a technical networking investigation rather than a personal-development source.
-
-### Calendar Defaults Can Displace Real Work
-
-[[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose.
-
-**Evidence:** [[ProceduralRationality]], [[InformalCollaboration]], [[PerformativeMeetingBehavior]]
-
-**Qualifications:**
-
-- Scheduled meetings can still be necessary for inclusion, documentation, decisions, and cross-team coordination when they have a clear why.
-
 ### Small Designed Loops Support Change
 
 [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], and [[ProlificPractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and bounded making shape future action.
@@ -54,7 +34,7 @@ This topic links personal effectiveness, judgment, trust, behavior design, refle
 
 **Qualifications:**
 
-- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation, and the prolific-practice source is an apprenticeship essay rather than a controlled study.
+- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, gamification is treated as a weak reinforcer, and prolific practice is an apprenticeship essay rather than a controlled study.
 
 ### Trust And Good Faith Can Speed Collaboration
 
@@ -74,7 +54,7 @@ This topic links personal effectiveness, judgment, trust, behavior design, refle
 
 **Qualifications:**
 
-- The product-retention examples show that sunk-cost feelings can be designed into products, so individual willpower is not the only relevant factor.
+- Product-retention examples show that sunk-cost feelings can be designed into products, so individual willpower is not the only relevant factor.
 
 ### Creative And Learning Output Benefit From Feedback
 
@@ -96,6 +76,16 @@ This topic links personal effectiveness, judgment, trust, behavior design, refle
 
 - The method improves weak or divided crowds, but strong consensus remains treated as a useful proxy in the source.
 
+### Reputation Evidence Can Counter Similarity Bias
+
+[[Airbnb]] adds a marketplace-trust version of judgment calibration: [[CommunityReputationSystems]] can make enough reliability evidence visible to reduce reliance on [[Homophily]].
+
+**Evidence:** [[Airbnb]], [[CommunityReputationSystems]], [[Homophily]], [[MarketplaceTrust]]
+
+**Qualifications:**
+
+- The Airbnb source is company-authored, says the Stanford publication was forthcoming, and does not resolve other discrimination mechanisms or unequal reputation accumulation.
+
 ### Risk Judgment Requires Behavioral Calibration
 
 [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience.
@@ -104,7 +94,7 @@ This topic links personal effectiveness, judgment, trust, behavior design, refle
 
 **Qualifications:**
 
-- The Housel source is a compact beliefs list and the Zhang Xiaoyu material is Wulc's course-note synthesis rather than a formal psychological model, so its claims are best treated as decision heuristics rather than universal prescriptions.
+- The Housel source is a compact beliefs list and the Zhang Xiaoyu material is Wulc's course-note synthesis, so its claims are best treated as decision heuristics rather than universal prescriptions.
 
 ### Capacity Building Is Easier Before Crisis
 
