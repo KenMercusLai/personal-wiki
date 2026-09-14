@@ -53,16 +53,19 @@
       "global_candidate": true,
       "id": "junior-learning-needs-feedback-and-protected-struggle",
       "qualifications": [
-        "Juniors may adapt quickly to new workflows, but adaptation is not the same as architectural or debugging judgment."
+        "Juniors may adapt quickly to new workflows, but adaptation is not the same as architectural or debugging judgment.",
+        "Review feedback has to distinguish standards and real quality concerns from personal preference, or it can damage pride and learning."
       ],
-      "statement": "[[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps.",
+      "statement": "[[JuniorEngineerLearning]] improves through questions, [[CodeReviewPractice]], mentor feedback, real debugging traces, protected struggle, and value-sensitive [[WorkplaceCollaboration]] that separates codebase standards and product impact from personal style pressure.",
       "status": "supported",
       "supporting_wikilinks": [
         "JuniorEngineerLearning",
         "CodeReviewPractice",
         "TechCommunityParticipation",
         "WorkplaceLearning",
-        "ActiveLearning"
+        "ActiveLearning",
+        "WorkplaceCollaboration",
+        "JeanetteHead"
       ]
     },
     {
@@ -187,6 +190,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. Recent additions sharpen two boundaries: AI can accelerate bounded and even substantial programming work when humans retain problem framing, inspection, and ownership, but education, junior development, writing, coding, and career resilience still require protected struggle and human judgment; career planning works best as staged experimentation, with self-audits such as [[WantRealityCareerFramework]] helping people test authentic wants against realistic paths while preserving attention to constraints.",
+  "summary": "Work, education, and society sources frame learning, career development, and collaboration as practice-rich, feedback-rich activity rather than passive consumption. Recent additions sharpen three boundaries: AI can accelerate bounded and even substantial programming work when humans retain problem framing, inspection, and ownership; education, junior development, writing, coding, and career resilience still require protected struggle and human judgment; and workplace disagreement works best when teams separate product value, standards, and evidence from personal preference. Career planning still works best as staged experimentation, with self-audits such as [[WantRealityCareerFramework]] helping people test authentic wants against realistic paths while preserving attention to constraints.",
   "topic_id": "work-education-and-society"
 }

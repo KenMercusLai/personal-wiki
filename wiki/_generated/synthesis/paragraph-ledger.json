@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7a792e6bedfb8d3685ea6e661d79f2c909bdff36ff06f9ee9cead0adbcd1adea",
       "b4d04cc205fbfa668169e4a2c26398a49ae97029d9750c9f3a5aecb3232b1b8d",
       "f13479c6bb6100fdd1f9ba451408de9fe9cff26de0c7f670896aeb0c04471469",
       "76ffa38fbff2ffc6bcc8c6ada053e116e54b00a3890e8af521cb28ccbf88d5a3",
@@ -232,11 +233,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 230
+    "paragraph_count": 231
   },
-  "overview_commit": "80120de3314bd24c78186a632617363ca0920f03",
-  "overview_digest": "e2dd0ef75751aa4995694d29af15d73456362b42c989e93356baf9c317519fbe",
+  "overview_commit": "325e337fc7dd1bc5a092079417f26978f09c2bf4",
+  "overview_digest": "7d3c3e4722ad76aeba38d98b80c7396bdd4f50aaa13fb37a4154906028cedc47",
   "paragraphs": [
+    {
+      "id": "7a792e6bedfb8d3685ea6e661d79f2c909bdff36ff06f9ee9cead0adbcd1adea",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Jeanette Head source adds a disagreement-selection layer to the wiki's collaboration and review material. [[WorkplaceCollaboration]] now includes a frame for deciding when to press, let go, or pursue a useful losing debate: developers should ask whether they can influence the outcome, whether the issue is worth the time and emotional cost, and what concrete product or team gain justifies raising the stakes. [[CodeReviewPractice]] gains a reviewer-side triage rule: distinguish codebase standards, material performance issues, and readability problems from personal style preferences, and prefer conversation over line-by-line critique when someone is ramping into project norms. [[JeanetteHead]] and [[AtomicObject]] anchor the source; the remote lead photograph was inspected and treated as decorative.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AtomicObject",
+        "CodeReviewPractice",
+        "JeanetteHead",
+        "WorkplaceCollaboration"
+      ]
+    },
     {
       "id": "b4d04cc205fbfa668169e4a2c26398a49ae97029d9750c9f3a5aecb3232b1b8d",
       "primary_topic": "business-and-markets",

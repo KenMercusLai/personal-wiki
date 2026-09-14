@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [3 Strategies for Picking Your Battles as a Software Developer](sources/3-strategies-for-picking-your-battles-as-a-software-developer.md) - Jeanette Head argues that software-team disagreements should be chosen by likely influence, product value, and interpersonal cost, with code-review and product-scope examples showing when to press, let go, or learn from a losing debate.
 - [白话：区块链"稳定币挖矿"是什么](sources/blog-taresky-bai-hua-qu-kuai-lian-wen-ding-bi-wa-kuang-shi-shen-me.md) - Taresky explains stablecoin yield farming through DEX liquidity, AMM pricing, platform-token incentives, vault compounding, and a layered risk inventory covering custody, stablecoins, chains, contracts, approvals, APY, fiat exits, and unknowns.
 - [无风险年化 360%？小白也能懂的 Crypto 套利](sources/blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li.md) - Taresky explains crypto exchange lending and funding-rate arbitrage as bull-market yield strategies funded by leveraged demand, while qualifying "risk-free" with exchange, stablecoin, liquidation, spread, execution, and behavioral risks.
 - [谈谈 AI 编程工具的进化与 Vibe Coding](sources/blog-guangzhengli-vibe-coding-and-context-coding.md) - Guangzhengli distinguishes Karpathy-style no-review vibe coding from disciplined context coding, comparing Copilot, Cursor, and Claude Code as progressively richer context-engineering tools while warning about production risk.
@@ -247,6 +248,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Jeanette Head](entities/JeanetteHead.md) - Software-development writer represented here by advice on choosing when to push back in team disagreements.
+- [Atomic Object](entities/AtomicObject.md) - Software-development publication context for Jeanette Head's article on collaboration and code-review judgment.
 - [Taresky](entities/Taresky.md) - Practitioner-author explaining crypto arbitrage, stablecoin yield farming, yield sources, and beginner risk discipline.
 - [Binance](entities/Binance.md) - Cryptocurrency exchange and ecosystem example for flexible lending, fiat on-ramp, and BSC trust-model context in Taresky's crypto-yield sources.
 - [Belt Finance](entities/BeltFinance.md) - Stablecoin liquidity protocol used as the Belt Venus example in Taresky's stablecoin-mining walkthrough.
@@ -970,7 +973,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
-- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, and purposeful interaction rather than defensive positioning or empty procedure.
+- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, useful disagreement, and purposeful interaction rather than defensive positioning or empty procedure.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning and opportunity infrastructure.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
@@ -1270,7 +1273,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
-- [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, and delivery flow.
+- [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, preference triage, and delivery flow.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.
 - [Core Regression Test Separation](concepts/CoreRegressionTestSeparation.md) - Splitting human-confirmed correctness tests from agent-generated continuity tests so review attention follows behavior changes.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.

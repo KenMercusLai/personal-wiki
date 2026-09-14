@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | 3 Strategies for Picking Your Battles as a Software Developer
+
+Added Jeanette Head's Atomic Object article on choosing when to push back in software-team disagreements. Key claims: developers should weigh likely influence, product value, and interpersonal cost; reviewers should separate standards, material performance, and readability from style preference; conversations often beat line-by-line critique; and some losing disagreements are useful when they create shared learning or better evidence. Inspected the remote lead image and treated it as decorative.
+
 ## [2026-09-14] ingest | 无风险年化 360%？小白也能懂的 Crypto 套利
 
 Ingested Taresky's crypto arbitrage explainer; inspected all four embedded local screenshots. Added pages for Taresky, Binance, OKX, Bitfinex, AICOIN, Coinglass, Crypto Arbitrage, Exchange Lending, Perpetual Futures, Funding Rate Arbitrage, and Delta Neutral Strategy. Captured the article's main claim that crypto arbitrage yield is funded by leveraged demand, not magic risk-free income, and preserved its qualifications around exchange failure, stablecoin risk, liquidation, spread, execution, and gambling temptation.
@@ -1907,6 +1911,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | 2023: Focusing on a Single Product Pays Off
 
 Ingested Max Rozen's 2023 retrospective on ROZENMD and OnlineOrNot; added Max Rozen, OnlineOrNot, ROZENMD, and Cloudflare D1 pages; updated bootstrapped SaaS, startup focus, side-project incubation, small-product portfolios, and Cloudflare.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

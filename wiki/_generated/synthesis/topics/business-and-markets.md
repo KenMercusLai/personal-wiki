@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 80120de3314bd24c78186a632617363ca0920f03
-input_digest: ada9bd65cbe70c9ecd2b171e06c61199851e376323d586cb01e3f66613f1c13d
+as_of_overview_commit: 325e337fc7dd1bc5a092079417f26978f09c2bf4
+input_digest: c3225b1c03ea3cf2bf47ffd093e62f85ff8c3263347ec378347ebf082b293c77
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Housel frames risk discipline as preserving optionality, while Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Housel frames risk discipline as preserving optionality, while Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
 
 ## Cross-source Findings
 
@@ -168,9 +168,9 @@ Business and market sources show durable value emerging when product work, start
 
 ### Operations And Reliability Are Business Capabilities
 
-[[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that infrastructure leadership, review discipline, operational reliability, release safety, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
+[[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[WorkplaceCollaboration]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that infrastructure leadership, review discipline, collaboration judgment, operational reliability, release safety, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
 
-**Evidence:** [[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[InternalDeveloperPlatform]], [[DeveloperExperience]], [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]]
+**Evidence:** [[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[WorkplaceCollaboration]], [[JeanetteHead]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[InternalDeveloperPlatform]], [[DeveloperExperience]], [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]]
 
 **Qualifications:**
 

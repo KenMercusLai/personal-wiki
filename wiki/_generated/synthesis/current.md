@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 80120de3314bd24c78186a632617363ca0920f03
+as_of_overview_commit: 325e337fc7dd1bc5a092079417f26978f09c2bf4
 summary: "A knowledge map about technology, business, culture, governance, psychology, science, and work, centered on systems, judgment, feedback, and risk."
-episode_count: 239
-source_count: 239
-paragraph_count: 230
+episode_count: 240
+source_count: 240
+paragraph_count: 231
 topic_count: 9
 ---
 
@@ -29,59 +29,59 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary: [[ContextCoding]] distinguishes disciplined context-engineered AI programming from no-review [[VibeCoding]], [[Antirez]] argues that LLMs shift programming toward problem framing and inspection, and [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice.
+Technical progress depends on system understanding, verification, reliable operations, and AI harnesses that keep context and judgment inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[ContinuousDelivery]].
 
 ### Business and Markets
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Housel frames risk discipline as preserving optionality, while Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact.
+Business value emerges when product, growth, pricing, hiring, collaboration, operations, and capital choices stay tied to evidence and risk.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral and optionality problem: avoid risking needs for wants, treat debt and savings as future-choice modifiers, and plan for failed plans, regret, incentives, overconfidence, and uncertainty. Evidence: [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].
 
 ### Cross-domain
 
-Cross-domain sources emphasize infrastructure thinking across personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources make hidden flows, constraints, and tradeoffs explicit across data, APIs, attention, estimation, platforms, and security.
 
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].
 
 ### Culture and Media
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent platform material adds distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.
+Culture and media sources connect learning media, creator workflow, AI scaffolding, translation, games, publishing platforms, and aesthetics.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, and exit-oriented alternatives to incumbent institutions. Recent material adds compliance controls as evidence and auditability work, and social-platform controls as incomplete when personal curation substitutes for platform-level harassment prevention.
+Governance sources emphasize accountable controls, evidence, auditability, exit, privacy burdens, platform power, and uneven switching capacity.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, and market-geography histories rather than substantive geopolitical claims. It includes software-product chronology, hidden technology maturation, inherited interface conventions, accounting history, app-market geography, and the way written strategy records why organizational decisions were made.
+This topic is mostly technology, interface, accounting, product, market-geography, and organizational-memory history rather than geopolitics.
 
 ### Psychology and Personal Development
 
-This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, and need-threatening risk.
+Personal-development sources frame progress as bounded attention, calibrated judgment, useful routines, trust, feedback, and context-sensitive behavior change.
 
 - [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]].
 - [[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose. Evidence: [[ProceduralRationality]], [[InformalCollaboration]], [[PerformativeMeetingBehavior]].
 
 ### Science, Health, and Climate
 
-The topic remains mostly indirect. It includes a beginner scientific-computing claim about NumPy-backed Python arrays, an attention and mental-load claim from productivity advice, a philosophy-of-science claim that current science does not settle intrinsic value, and a developer-data claim that data-science technology adoption may reflect research capacity and market structure.
+Science material is source-scoped and indirect, spanning NumPy, attention, intrinsic value, and developer-data adoption limits.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. Recent additions sharpen two boundaries: AI can accelerate bounded work when humans retain problem framing, inspection, and ownership, but education, junior development, writing, coding, and career resilience still require protected struggle and human judgment.
+Work and education sources frame learning, career growth, collaboration, and AI use as feedback-rich practice requiring judgment and protected struggle.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[PracticalLLMUse]], [[NicholasCarlini]], [[Antirez]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill; [[Antirez]] adds that programmers still need to engage seriously with AI because the job itself is shifting. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[ProgrammerMindset]], [[LearningByWriting]], [[Antirez]], [[PracticalLLMUse]].
