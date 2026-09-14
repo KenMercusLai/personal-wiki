@@ -6,7 +6,8 @@ sources:
   - 15-examples-of-successful-mvps-startups-web-pages-software-brothers
   - 4-lessons-from-a-failed-startup-from-and-for-first-time-founders
   - 7-lessons-on-building-product-with-outsourced-developers-mind-the-product
-last_updated: 2026-09-13
+  - build-a-product-that-fits-your-runway-elizabeth-yin
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,14 +15,14 @@ knowledge_schema: synthesis-v1
 [[MinimumViableProduct]] is the smallest product, workflow, artifact, or market test that can expose whether a target user wants the core value strongly enough to justify further building.
 
 ## Current Synthesis
-The sources present MVPs and related early tests as demand probes rather than miniature complete products. The examples show several forms: a simple web page, a manually delivered service, a WordPress-and-PDF workflow, a video, a pricing landing page, a closed beta, an internal prototype, a single feature placed on a powerful platform, outsourced prototype work, or a hypothesis-specific operational experiment. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, broad platform support, and sometimes maintainable internal code until real usage, orders, signups, service learning, or community traction suggest the core bet is worth expanding. Maderight adds that an MVP-like service path must eventually clarify whether it is validating software, validating a services company, or delaying a hard choice; the outsourced-development source adds that prototype code may be refactored or discarded if it has served its validation purpose.
+The sources present MVPs and related early tests as demand probes rather than miniature complete products. The examples show several forms: a simple web page, a manually delivered service, a WordPress-and-PDF workflow, a video, a pricing landing page, a closed beta, an internal prototype, a single feature placed on a powerful platform, outsourced prototype work, or a hypothesis-specific operational experiment. Yin sharpens the product-scope side of the pattern: when runway is limited, a viable first product may deliberately feel like one strong feature rather than a full system. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, broad platform support, and sometimes maintainable internal code until real usage, orders, signups, service learning, or community traction suggest the core bet is worth expanding. Maderight adds that an MVP-like service path must eventually clarify whether it is validating software, validating a services company, or delaying a hard choice; the outsourced-development source adds that prototype code may be refactored or discarded if it has served its validation purpose.
 
 ## Key Claims
 - MVPs test core value before teams invest in full systems.
 - Manual or concierge workflows can validate market demand before scalable operations exist.
 - Non-product artifacts such as videos and pricing pages can test interest when the real product would be expensive to build.
 - Distribution context can be part of the MVP, not just the product itself.
-- A narrow feature set can still be viable when it proves the main user experience.
+- A narrow or feature-like product can still be viable when it proves the main user experience, fits runway, and has a credible expansion path.
 - Successful MVP stories require caution because later company success can make early experiments look more deterministic than they were.
 - MVP-like tests should be tied to explicit hypotheses and evaluated against the strategic path they are meant to validate, including whether prototype implementation quality is acceptable for later refactoring or replacement.
 
@@ -34,13 +35,14 @@ The sources present MVPs and related early tests as demand probes rather than mi
 - Hypothesis discipline: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] recommends asking what assumptions need testing, how they will be tested, how results will be evaluated, and what must be built for the test.
 - Service-path warning: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] says Maderight's service business produced customers and learning but later competed with the software product for attention.
 - Prototype code as validation artifact: [[7-lessons-on-building-product-with-outsourced-developers-mind-the-product]] says outsourced development can cheaply put a concept prototype into market, while later teams may refactor, transition slowly, or throw away the prototype after validation.
+- Runway-fit first version: [[build-a-product-that-fits-your-runway-elizabeth-yin]] says founders should take one feature, make it excellent, and build it within a fraction of runway.
+- Feature-to-platform path: [[build-a-product-that-fits-your-runway-elizabeth-yin]] uses [[SendGrid]] and [[HubSpot]] to argue that narrow early products can later expand into broader marketing platforms.
 
 ## Counterevidence & Qualifications
-One source is a retrospective list of famous winners, so it risks survivorship bias and compressed origin stories. Another is a single failure retrospective, and the outsourced-development source is practitioner advice from one product context. Together they do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, implementation quality, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, operationally complex, or dependent on technical product-manager oversight, so they may not transfer directly to small independent software.
+One source is a retrospective list of famous winners, so it risks survivorship bias and compressed origin stories. Another is a single failure retrospective, the outsourced-development source is practitioner advice from one product context, and Yin's two-month guideline is a heuristic rather than a universal development rule. Together they do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, implementation quality, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, operationally complex, or dependent on technical product-manager oversight, so they may not transfer directly to small independent software.
 
 ## What Changed
-- Added outsourced prototype work as an MVP path when later refactoring or replacement costs are expected.
-- Preserved the failure-case qualification that MVP-like service work must be tied to explicit hypotheses and strategic choices.
+- Added Yin's runway-fit argument that the first product can validly be one excellent feature if it preserves runway and supports later expansion.
 
 ## Related Concepts
 - [[CustomerLedProductDevelopment]] - MVPs create evidence about what customers want before larger buildout.
@@ -52,3 +54,4 @@ One source is a retrospective list of famous winners, so it risks survivorship b
 - [[StartupHypothesisTesting]] - MVPs are useful when they test named assumptions with evaluation criteria.
 - [[StartupFocus]] - MVP evidence should help founders choose a path rather than maintain every option.
 - [[OutsourcedProductDevelopment]] - external developers can build validation prototypes when scope, QA, and later ownership are explicit.
+- [[StartupRunway]] - available runway constrains how much product can be built before learning from the market.

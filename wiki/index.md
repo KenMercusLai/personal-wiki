@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
 - [Build a healthy organization by thinking like an engineer](sources/build-a-healthy-organization-by-thinking-like-an-engineer.md) - The Startup summarizes Michael Boufford's Greenhouse framework for applying engineering design steps to team structure, values, culture, hiring, retention, feedback, and organizational validation.
 - [Buffer in August: $7.49M ARR, Buffer for Video, Continued Growth](sources/buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open.md) - Joel Gascoigne reports Buffer's August 2015 operating metrics, hiring, product launches, small-team reorganization, and support performance as the company neared $7.5M ARR.
 - [40 Lessons From 4 Years of Remote Work](sources/40-lessons-from-4-years-of-remote-work-buffer-stories.md) - Courtney Seiter reflects on Buffer's remote-work practices, arguing that distributed teams need trust, boundaries, explicit communication, tooling, intentional social connection, and occasional in-person recalibration.
@@ -346,7 +347,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
 - [Rory Brown](entities/RoryBrown.md) - Bleacher Report executive explaining the company's content-everywhere strategy and shift from direct audience numbers toward platform-native brand reach.
-- [SendGrid](entities/SendGrid.md) - Email infrastructure and marketing platform represented by a 2016 Black Friday and Cyber Monday volume and engagement analysis.
+- [SendGrid](entities/SendGrid.md) - Email infrastructure and marketing platform represented by holiday-volume analytics and as a narrow API wedge example for runway-fit product scope.
 - [Len Shneyder](entities/LenShneyder.md) - SendGrid author interpreting holiday email volume, mobile opens, and subject-line engagement.
 - [Litmus](entities/Litmus.md) - Email-client analytics reference cited for mobile device open share.
 - [Grasshopper](entities/Grasshopper.md) - Small-business phone-system company used as a billboard cautionary example where visible ad spend attracted advertiser calls more clearly than customer sales.
@@ -569,6 +570,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pat Grady](entities/PatGrady.md) - Sequoia investor voice connecting category-defining ambition, first-principles problem-solving, scaling discipline, and capital restraint.
 - [Sequoia Capital](entities/SequoiaCapital.md) - Venture-capital firm context for Pat Grady's highly selective, category-focused investment philosophy.
 - [Don Valentine](entities/DonValentine.md) - Sequoia founder cited for connecting engineers to human problems and targeting large markets through disciplined entry.
+- [Elizabeth Yin](entities/ElizabethYin.md) - Startup-advice author arguing that first-product scope should fit available runway and enter markets through a differentiated wedge.
 - [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
 - [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
 - [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
@@ -577,7 +579,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, and career-option building.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging acquisition case and as a remote-work culture example built around trust, tools, and intentional communication.
-- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool and educational-content acquisition example.
+- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition example and as a narrow-to-broad product-evolution case.
+- [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
 - [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth and marketplace-payment example.
 - [Shopify](entities/Shopify.md) - E-commerce SaaS platform used as a free-trial acquisition case.
@@ -711,7 +714,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
 - [ConvertKit](entities/ConvertKit.md) - Creator-focused email-marketing software used as an example of target-market positioning in a crowded SaaS category.
 - [Drift](entities/Drift.md) - Software company used as an example of category creation through the "conversational marketing" frame.
-- [Mailchimp](entities/Mailchimp.md) - Email-marketing software brand used as an example of category leadership, signature-based exposure, and playful brand advertising.
+- [Mailchimp](entities/Mailchimp.md) - Email-marketing software brand used as an example of category leadership, signature-based exposure, playful brand advertising, and incumbent feature breadth.
 - [Michael Porter](entities/MichaelPorter.md) - Strategy scholar cited for defining differentiation as profitable unique positioning.
 - [Alok Kanojia](entities/AlokKanojia.md) - Psychiatrist whose Creator Science interview reframes creator data anxiety around controllable actions and complex attribution.
 - [Jay Clouse](entities/JayClouse.md) - Creator educator whose niche, purpose, and Creator Science materials shape the source author's creator practice.
@@ -1357,7 +1360,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Builder-User Fluency Gap](concepts/BuilderUserFluencyGap.md) - Difference between what builders find obvious from system fluency and what users can infer from the interface.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
-- [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, or market test that can validate a startup's core value before larger buildout.
+- [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs but often paired with side canvases for durable artifacts.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
@@ -1517,8 +1520,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Founder-Led Sales](concepts/FounderLedSales.md) - Pre-product-market-fit sales practice where founders personally lead customer conversations as problem discovery and solution testing.
 - [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
-- [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
-- [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
+- [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity, product-scope constraint, and survival time rather than only calendar months before cash runs out.
+- [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path or differentiated wedge when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
 - [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, adjacent devices, and post-iPhone seeding away from the PC-era center.
 - [Osborne Effect](concepts/OsborneEffect.md) - Product-transition failure mode where announcing the next platform too early collapses demand for the current one before the replacement is ready.

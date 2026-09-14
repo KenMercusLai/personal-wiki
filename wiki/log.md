@@ -1987,6 +1987,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Build a product that fits your runway - Elizabeth Yin
+
+Ingested Elizabeth Yin's runway-sensitive product-scope essay, including inspection of three embedded images.
+
 ## [2026-09-15] ingest | 4 awesome ways we leveled up as a dev team
 
 Added Grant Ammons's 2016 article on leveling up a dev team. Key claims: engineering leaders should sanction learning time; lightweight lunch-and-learns, shared videos, and book clubs make team learning sustainable; meetups and conference speaking deepen mastery, build communication skill, and strengthen team reputation. Two local images were inspected and treated as decorative duplicate teamwork illustrations.
@@ -2049,6 +2053,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

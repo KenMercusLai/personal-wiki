@@ -7,20 +7,21 @@ sources:
   - 8-lessons-from-one-of-silicon-valleys-top-vcs-drift
   - a-terrible-horrible-no-good-very-bad-hardbound-update
   - after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen
-last_updated: 2026-09-13
+  - build-a-product-that-fits-your-runway-elizabeth-yin
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[StartupRunway]] is the amount of operating time a startup can buy with available capital, interpreted here as a budget for learning and testing rather than only months before cash runs out.
+[[StartupRunway]] is the amount of operating time a startup can buy with available capital, interpreted here as a budget for learning, testing, product scope, and survival rather than only months before cash runs out.
 
 ## Current Synthesis
-The sources reframe runway from calendar preservation to disciplined learning capacity, iteration capacity, and team responsibility. The Maderight retrospective argues that the real goal is to maximize the number and quality of tests that can move the company toward [[ProductMarketFit]], not merely stretch time. Chen adds the [[TroughOfSorrow]] version of the same idea: money buys time, and time buys product iterations, but the team still needs to use those iterations on the actual product or growth bottleneck. The Grady interview adds the complementary fundraising warning: founders should not raise infinite money just because it is available, because excess capital can feed hype, careless hiring, and attempts to force scale before the value proposition is strong enough. The Hardbound update shows the human edge of runway: when revenue, burn, and failed fundraising no longer support payroll, the founder must reduce team commitments and pause work even if the product still has meaningful fans.
+The sources reframe runway from calendar preservation to disciplined learning capacity, iteration capacity, product-scope constraint, and team responsibility. The Maderight retrospective argues that the real goal is to maximize the number and quality of tests that can move the company toward [[ProductMarketFit]], not merely stretch time. Chen adds the [[TroughOfSorrow]] version of the same idea: money buys time, and time buys product iterations, but the team still needs to use those iterations on the actual product or growth bottleneck. Yin adds a first-product rule: founders should not spend most of their runway trying to match mature incumbents, and a first-time founder with limited capital should try to ship a narrow first version in under two months. The Grady interview adds the complementary fundraising warning: founders should not raise infinite money just because it is available, because excess capital can feed hype, careless hiring, and attempts to force scale before the value proposition is strong enough. The Hardbound update shows the human edge of runway: when revenue, burn, and failed fundraising no longer support payroll, the founder must reduce team commitments and pause work even if the product still has meaningful fans.
 
 ## Key Claims
 - Runway length and learning velocity are not always the same objective.
 - Startups should evaluate spending by the number and quality of hypotheses it lets them test, not only by how conservatively it preserves time.
-- Capital-intensive, service-heavy, or non-software contexts may require spending more to reach the root problem.
+- Capital-intensive, service-heavy, or non-software contexts may require spending more to reach the root problem, but software first-product scope should usually leave runway for learning, sales, iteration, and future expansion.
 - Long sales cycles make runway important, but they do not remove the need for decisive learning experiments.
 - Raising less money can preserve discipline when more capital would encourage hype-chasing or premature hiring.
 - Capital is useful only when it funds learning, durability, product iterations, morale-preserving small wins, or scale that the product can actually support.
@@ -39,14 +40,14 @@ The sources reframe runway from calendar preservation to disciplined learning ca
 - Iteration capacity: [[after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen]] says money buys time and time buys product iterations while trying to reach product-market fit.
 - Alternative moves: [[after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen]] says founders may reduce burn, raise more capital, recapitalize, reset the team, or change product and customer segments rather than treating quitting as externally forced.
 - Small wins: [[after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen]] says tactical wins can build morale, momentum, and incremental capital while the team keeps going.
+- Product-scope constraint: [[build-a-product-that-fits-your-runway-elizabeth-yin]] says founders should choose products based on runway and avoid trying to match the full feature breadth of companies such as [[Mailchimp]], Weebly, or WordPress.
+- Early shipping budget: [[build-a-product-that-fits-your-runway-elizabeth-yin]] advises first-time founders without easy capital access to finish the first version in less than two months.
 
 ## Counterevidence & Qualifications
-The sources do not claim reckless spending is good, nor do they claim all large rounds are harmful. In SaaS or bootstrapped contexts, longer runway and more tests may align closely; the Maderight warning is strongest when the cheapest path distances the team from the highest-value learning, while the Grady warning is strongest when abundant capital encourages growth theater before fit. The Hardbound case is self-reported and does not prove that the burn was wrong; it shows that a funding-dependent model can become fragile when revenue is far below team cost and investor confidence weakens.
+The sources do not claim reckless spending is good, nor do they claim all large rounds are harmful. In SaaS or bootstrapped contexts, longer runway and more tests may align closely; the Maderight warning is strongest when the cheapest path distances the team from the highest-value learning, while the Grady warning is strongest when abundant capital encourages growth theater before fit. Yin's two-month heuristic is most applicable to software products and first-time founders with limited capital, not to deep tech, hardware, regulated markets, or other capital-intensive categories. The Hardbound case is self-reported and does not prove that the burn was wrong; it shows that a funding-dependent model can become fragile when revenue is far below team cost and investor confidence weakens.
 
 ## What Changed
-- Added capital-discipline advice from Grady: more funding is not always better if it weakens focus, hiring quality, or fit discipline.
-- Added Hardbound as a concrete revenue/burn and failed-fundraising case where runway pressure changed team commitments.
-- Added Chen's iteration-capacity frame: money buys time, but time matters because it buys more product learning.
+- Added Yin's product-scope rule: the first build should fit available runway and avoid incumbent feature parity.
 
 ## Related Concepts
 - [[StartupHypothesisTesting]] - runway should fund assumption tests.

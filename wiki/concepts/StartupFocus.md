@@ -10,7 +10,8 @@ sources:
   - after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen
   - appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby
   - 2023-focusing-on-a-single-product-pays-off
-last_updated: 2026-09-13
+  - build-a-product-that-fits-your-runway-elizabeth-yin
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,13 +19,13 @@ knowledge_schema: synthesis-v1
 [[StartupFocus]] is the discipline of choosing one strategic path strongly enough that scarce founder time, team attention, and resources are not split across incompatible business models.
 
 ## Current Synthesis
-The sources frame focus as the courage to choose when both options, tactics, or market dreams have emotional pull. Maderight preserved service revenue and product ambition at the same time, splitting attention so both paths suffered. The Groove source adds a simpler filter for day-to-day advice pressure: a business needs to create value and earn profit; every other claimed necessity is negotiable until evidence shows it matters. The Grady interview adds first-principles focus: founders should solve a real problem durably, start with a narrow slice of a big market, and avoid hype cycles that pull attention toward money, status, or generalized growth. Chen adds a pre-fit diagnostic version: in the [[TroughOfSorrow]], focus means identifying whether the root problem is retention, engagement, onboarding, marketing, growth execution, product risk, or unclear value proposition instead of rebooting reflexively. The Hardbound update adds a post-setback focus problem: after a funding miss, continuing the same model, changing the model, seeking an acqui-hire, or pausing are all live options, but the founder still needs to preserve the core mission while learning what failed. Appcanary adds a technical version of focus: avoid unfamiliar tools and premature distributed systems when those choices pull attention away from the business problem. Rozen adds an indie-SaaS version: avoid unrelated small bets once a product is working, because the early adoption problem is harder to repeat than later product and revenue growth.
+The sources frame focus as the courage to choose when both options, tactics, or market dreams have emotional pull. Maderight preserved service revenue and product ambition at the same time, splitting attention so both paths suffered. The Groove source adds a simpler filter for day-to-day advice pressure: a business needs to create value and earn profit; every other claimed necessity is negotiable until evidence shows it matters. The Grady interview adds first-principles focus: founders should solve a real problem durably, start with a narrow slice of a big market, and avoid hype cycles that pull attention toward money, status, or generalized growth. Yin adds a product-scope version: in an existing category, do not try to copy every incumbent feature; choose one differentiated slice that fits the company's runway and can later expand. Chen adds a pre-fit diagnostic version: in the [[TroughOfSorrow]], focus means identifying whether the root problem is retention, engagement, onboarding, marketing, growth execution, product risk, or unclear value proposition instead of rebooting reflexively. The Hardbound update adds a post-setback focus problem: after a funding miss, continuing the same model, changing the model, seeking an acqui-hire, or pausing are all live options, but the founder still needs to preserve the core mission while learning what failed. Appcanary adds a technical version of focus: avoid unfamiliar tools and premature distributed systems when those choices pull attention away from the business problem. Rozen adds an indie-SaaS version: avoid unrelated small bets once a product is working, because the early adoption problem is harder to repeat than later product and revenue growth.
 
 ## Key Claims
 - "Do both" decisions can hide a refusal to choose between incompatible strategies.
 - Existing revenue can make it emotionally hard to abandon a service path.
 - Early customer service can be useful for discovery, but new product adoption may require dropping or deprioritizing old customers if their needs reinforce the wrong model.
-- Scarce founder time makes strategic ambiguity, technical novelty, and architectural sophistication operationally expensive.
+- Scarce founder time makes strategic ambiguity, technical novelty, architectural sophistication, and incumbent feature parity operationally expensive.
 - Startup advice that does not directly support value creation or profit can become tactic-chasing distraction.
 - First-principles problem-solving, narrow market entry, root-cause diagnosis, and post-failure model redesign can protect teams from hype, unfocused expansion, and applying the wrong tactic to the wrong bottleneck.
 - Once an indie SaaS has evidence of adoption, doubling down can be more efficient than restarting the zero-to-early-revenue climb across unrelated products.
@@ -47,16 +48,15 @@ The sources frame focus as the courage to choose when both options, tactics, or 
 - Architecture restraint: [[appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby]] says teams should avoid distributed systems as long as they can because they add expensive complexity.
 - Single-product focus: [[2023-focusing-on-a-single-product-pays-off]] argues that getting from zero to early MRR is much harder than later growth and that unrelated diversification can prevent compounding.
 - Product persistence: [[2023-focusing-on-a-single-product-pays-off]] says [[OnlineOrNot]] gained customers from old prospects, early free users, and accumulated fixes that only mattered after time passed.
+- Incumbent-feature restraint: [[build-a-product-that-fits-your-runway-elizabeth-yin]] warns founders not to build every feature that mature tools such as [[Mailchimp]], Weebly, or WordPress already have.
+- Standalone-feature opportunity: [[build-a-product-that-fits-your-runway-elizabeth-yin]] says bloated products such as [[Craigslist]] can be decomposed into features that may work as standalone products.
+- Pitch focus: [[build-a-product-that-fits-your-runway-elizabeth-yin]] says founders should explain both the present product and the future vision without blurring the two.
 
 ## Counterevidence & Qualifications
-The sources do not prove that hybrid service/software models always fail, that all non-core tactics are useless, that big markets should be avoided, that pausing is always better than pushing through, that unfamiliar tools are never worth adopting, or that product portfolios are always weaker than one-product focus. Their shared warning applies when parallel paths, copied advice, hype, technical novelty, architectural sophistication, unrelated diversification, guilt-driven tactics, or attachment to an old model consume scarce founder attention before the team knows whether its current strategy is working.
+The sources do not prove that hybrid service/software models always fail, that all non-core tactics are useless, that big markets should be avoided, that pausing is always better than pushing through, that unfamiliar tools are never worth adopting, or that product portfolios are always weaker than one-product focus. Yin's feature-wedge advice also assumes the chosen slice is valuable and differentiated enough to matter; a tiny product with no strategic expansion path can still be too small. Their shared warning applies when parallel paths, copied advice, hype, technical novelty, architectural sophistication, unrelated diversification, guilt-driven tactics, incumbent feature copying, or attachment to an old model consume scarce founder attention before the team knows whether its current strategy is working.
 
 ## What Changed
-- Added first-principles problem choice, narrow-market entry, and hype avoidance as focus disciplines.
-- Added Hardbound's post-fundraise pause/model-change decision as a focus problem after setback.
-- Added Chen's root-bottleneck diagnosis as a focus discipline during the Trough of Sorrow.
-- Added Appcanary's warning that unfamiliar tools and distributed architecture can distract from the business problem.
-- Added Rozen's indie-SaaS argument that one working product can compound more efficiently than unrelated small bets.
+- Added Yin's runway-fit wedge: focus means choosing one differentiated slice of an incumbent market rather than matching feature breadth.
 
 ## Related Concepts
 - [[ProductMarketFit]] - reaching fit may require choosing the customer and model with the strongest adoption signal.
@@ -71,3 +71,4 @@ The sources do not prove that hybrid service/software models always fail, that a
 - [[DistributedSystemRestraint]] - architecture restraint is a technical form of startup focus.
 - [[SmallProductPortfolio]] - product portfolios are the strategy Rozen explicitly questions when unrelated bets dilute compounding.
 - [[OnlineOrNot]] - concrete focused-product example where customer memory and operating learning accumulated over time.
+- [[DifferentiationStrategy]] - focus can mean competing through a distinctive wedge inside an existing market.
