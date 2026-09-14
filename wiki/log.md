@@ -1987,6 +1987,12 @@ Ran lint. See lint-report.md for details.
 
 Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-limitation course sections. Key claims: index funds reduce stock-picking difficulty but market context matters, good companies can be bad stocks at excessive prices, fee drag compounds, investors should audit luck versus skill and incentives, outside income protects decision quality, and ordinary investors should emphasize diversification, passive-first implementation, lower costs, patience, and not investing in what they do not understand. No image references were present in the source Markdown.
 
+## [2026-09-15] ingest | Building Engineering Careers at NerdWallet
+
+- Added source note `building-engineering-careers-at-nerdwallet-nerdwallet`.
+- Created [[NerdWallet]] and [[EngineeringCareerArchitecture]].
+- Recorded image handling: one promotion-diff screenshot as supporting evidence and one illustrative architecture photo.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -2061,6 +2067,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

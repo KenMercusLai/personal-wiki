@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Building Engineering Careers at NerdWallet](sources/building-engineering-careers-at-nerdwallet-nerdwallet.md) - NerdWallet explains how it refactored engineering job architecture from checklist-like promotion tasks toward values, examples, fair scope, manager calibration, and living-document rollout.
 - [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
 - [Building Apps for Shopify: Fall In Love With The Problem, Not The](sources/building-apps-for-shopify-fall-in-love-with-the-problem-not-the.md) - Ahmad Iqbal explains how Nadeef's manual abandoned-checkout calls led to Scout, Raven Callback, and Pizza Party while a handwritten-card app failed from building before validation.
@@ -273,6 +274,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [NerdWallet](entities/NerdWallet.md) - Company case for revising engineering job architecture as an engineering organization scales.
 - [8th Light](entities/8thLight.md) - Apprenticeship setting used to illustrate prolific practice as craft development through repeated making.
 - [Michael Boufford](entities/MichaelBoufford.md) - Greenhouse engineering leader represented by a framework for applying engineering design methods to organization-building.
 - [Greenhouse](entities/Greenhouse.md) - Software company case for engineering-led organization design, engineering-team scaling, and low voluntary attrition claims.
@@ -953,6 +955,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Engineering Career Architecture](concepts/EngineeringCareerArchitecture.md) - Structured engineering-leveling system for expectations, promotion signals, fair scope, and evaluation calibration.
 - [Prolific Practice](concepts/ProlificPractice.md) - Craft-learning habit of making many small things so repeated feedback and bounded failures improve quality.
 - [Engineering-Led Organization Design](concepts/EngineeringLedOrganizationDesign.md) - Applying engineering design habits to organization-building through problem definition, requirements, implementation, validation, and iteration.
 - [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business revenue, usage, cash, hiring, product, and support metrics.

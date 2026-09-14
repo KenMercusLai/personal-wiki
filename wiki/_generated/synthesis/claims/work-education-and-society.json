@@ -97,9 +97,9 @@
       "global_candidate": true,
       "id": "career-paths-are-staged-experiments",
       "qualifications": [
-        "Savings, health, care duties, local labor markets, life stage, and structural barriers shape who can afford experiments or boundaries."
+        "Savings, health, care duties, local labor markets, life stage, organizational fairness, and structural barriers shape who can afford experiments, boundaries, or promotion paths; formal career architecture can clarify expectations but may become checklist theater unless calibrated with examples and fairness checks."
       ],
-      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], and [[OneFitSearchMindset]].",
+      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]] that makes promotion expectations explicit while preserving craft judgment.",
       "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
@@ -111,7 +111,9 @@
         "SkillStacking",
         "BurnoutPrevention",
         "WorkHabits",
-        "OneFitSearchMindset"
+        "OneFitSearchMindset",
+        "EngineeringCareerArchitecture",
+        "NerdWallet"
       ]
     },
     {
@@ -140,16 +142,20 @@
       "global_candidate": false,
       "id": "strategic-writing-makes-workplace-reasoning-inspectable",
       "qualifications": [
-        "Writing can become ritual when organizations reward the artifact over the thinking, and it takes time that may be disproportionate in very small teams."
+        "Writing and architecture can become rituals when organizations reward the artifact over the thinking; they require manager calibration and may take time that is disproportionate in very small teams."
       ],
-      "statement": "[[StrategicWriting]], [[ScalingCommunication]], and [[KnowledgeOutput]] make workplace reasoning inspectable by turning plans, stakeholder implications, and decision rationale into shared execution context.",
+      "statement": "[[StrategicWriting]], [[ScalingCommunication]], [[EngineeringCareerArchitecture]], and [[KnowledgeOutput]] make workplace reasoning inspectable by turning plans, stakeholder implications, level expectations, and decision rationale into shared execution context.",
       "status": "supported",
       "supporting_wikilinks": [
         "StrategicWriting",
         "ScalingCommunication",
+        "EngineeringCareerArchitecture",
+        "EngineeringLedOrganizationDesign",
+        "StartupScaling",
         "KnowledgeOutput",
         "StevenSinofsky",
-        "PeterPathe"
+        "PeterPathe",
+        "NerdWallet"
       ]
     },
     {
@@ -208,6 +214,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, and deliberate social design. Recent additions strengthen four boundaries: prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.",
+  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, and deliberate social design. Recent additions strengthen five boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.",
   "topic_id": "work-education-and-society"
 }
