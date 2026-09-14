@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
       "a22452a994692700489fe06844e32d1830f8f2e97a33ef18e24cdb6f4b350b8b",
       "6c52ac2418bb9a44b5bcf7f0db8ee2fe12508678116bb4e1e94bdf2b45468cf3",
       "2c3b46e87a26ae34844ac10350ddb88f61a99b47d08c8ac519860e29dabe2c00",
@@ -246,11 +247,31 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 244
+    "paragraph_count": 245
   },
-  "overview_commit": "0579bc978b13755f666ff682d7460d8ec1a9cf73",
-  "overview_digest": "4ea534f89cfbb3d57c59197e013d32ac9a9cc6a5a8e88392e4edfdf50beb44d6",
+  "overview_commit": "139b36472652122efc06fba1ea8224f3d61544bf",
+  "overview_digest": "e6178eca13c2d9b714592afc61b9cc5969acc6ce0ca2efb9bf2599f4c28c7f3c",
   "paragraphs": [
+    {
+      "id": "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Buffer source adds [[RemoteWork]] as a practical workplace-culture system rather than only a location preference. [[CourtneySeiter]] presents [[Buffer]] as a remote-company case where productivity depends on trust over visibility, inclusion for non-office workers, explicit communication, video connection, time-zone and WiFi tooling, and periodic physical presence. The source also strengthens [[AttentionManagement]], [[WorkHabits]], and [[WorkplaceCollaboration]] by showing that remote workers need start/end rituals, meeting batching, intentional serendipity, positive intent in text-heavy communication, and deliberate resistance to Slack-driven false urgency. The inspected images were mostly decorative home-office, quote-card, separator, and author assets; the quote cards repeat prose claims about closing the laptop, remote-work guilt, communication without body language, and time-zone difficulty.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "Buffer",
+        "CourtneySeiter",
+        "RemoteWork",
+        "WorkHabits",
+        "WorkplaceCollaboration"
+      ]
+    },
     {
       "id": "a22452a994692700489fe06844e32d1830f8f2e97a33ef18e24cdb6f4b350b8b",
       "primary_topic": "business-and-markets",

@@ -2005,6 +2005,10 @@ Added Andrew Bosworth's product-review meeting article. Key claims: senior revie
 
 Added CB Insights' compilation of 323 startup shutdown narratives. Key claims: startup failure is usually compound; weak product-market fit can coexist with technology, early traction, or user love; runway only helps when it funds real learning; timing mismatch can break plausible long-term theses; hardware, regulated, marketplace, food, and platform-dependent companies carry extra complexity; and public post-mortems are useful but retrospective evidence. The remote hero image returned HTTP 403 and could not be inspected.
 
+## [2026-09-15] ingest | 40 Lessons From 4 Years of Remote Work
+
+Added Courtney Seiter's Buffer retrospective on four years of remote work. Key claims: remote or remote-flexible work can be viable beyond startup contexts when remote teammates are not treated as second-class; trust and output matter more than visibility; remote workers need start/end rituals and boundaries; distributed teams need over-communication, positive intent, video, intentional serendipity, and periodic in-person recalibration; and tools such as Slack, time-zone helpers, and strong WiFi are necessary but can create false urgency or operational fragility. Nine image assets were inspected; they were mostly decorative home-office, separator, quote-card, and author images, with quote cards reinforcing claims already present in the prose.
+
 ## [2026-09-15] ingest | 10 Tips To Write Better Functions In Python
 
 Added Bob Belderbos's PyBites article on practical Python function design. Key claims: functions are Python's core modularity unit; clear names, single responsibility, small interfaces, early validation, type hints, and consistent returns improve readability and testability; globals and mutable default arguments create hidden-state hazards; and small isolated functions support internal software quality. No image references were present in the source Markdown.
@@ -2037,6 +2041,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

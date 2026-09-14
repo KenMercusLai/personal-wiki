@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [40 Lessons From 4 Years of Remote Work](sources/40-lessons-from-4-years-of-remote-work-buffer-stories.md) - Courtney Seiter reflects on Buffer's remote-work practices, arguing that distributed teams need trust, boundaries, explicit communication, tooling, intentional social connection, and occasional in-person recalibration.
 - [Browse Against the Machine](sources/browse-against-the-machine-the-official-unofficial-firefox-blog-medium.md) - Official Unofficial Firefox Blog essay arguing that Firefox and Mozilla should counter Chrome's Google-aligned browser dominance through independence, privacy controls, memory efficiency, and a healthy-web mission.
 - [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
 - [Time > Money](sources/boz-time-isnt-money.md) - Andrew Bosworth argues that time is more scarce than money, so meetings and interruptions need clear ownership, purpose, attendance curation, notes, feedback, and recurring expiration.
@@ -300,6 +301,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mike Cohn](entities/MikeCohn.md) - User-story reference author cited for User Stories Applied and INVEST sizing refinement.
 - [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
 - [Nicholas Carlini](entities/NicholasCarlini.md) - Machine-learning security researcher and programmer represented here by a concrete, caveated taxonomy of practical LLM use.
+- [Courtney Seiter](entities/CourtneySeiter.md) - Buffer author represented by a four-year remote-work retrospective about trust, boundaries, communication, tooling, and intentional social connection.
 - [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice, architecture-governance, and online-information habits.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
 - [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
@@ -567,7 +569,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, and career-option building.
-- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging and content-led acquisition case.
+- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging acquisition case and as a remote-work culture example built around trust, tools, and intentional communication.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool and educational-content acquisition example.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
 - [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth and marketplace-payment example.
@@ -932,6 +934,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, and intentional connection.
 - [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
 - [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that converts user, context, ad, and advertiser-relationship data into demand-relevant labels and scores.
 - [Behavioral Targeting](concepts/BehavioralTargeting.md) - Audience-targeting method that maps historical actions into weighted, recency-aware labels and thresholds.
