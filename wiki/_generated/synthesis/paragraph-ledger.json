@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
       "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
       "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
       "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
@@ -208,11 +209,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 206
+    "paragraph_count": 207
   },
-  "overview_commit": "417bbca702987b4f76f821746a5450900966a373",
-  "overview_digest": "75abbf9030fb94db23fbd1627bd624bee8afb92c76d5c1a796da6e3d7efc499d",
+  "overview_commit": "15ddf57bba4956bdac74329d5830ab4cbe49b943",
+  "overview_digest": "0f7917d4dcbb4c0caad37b0889aae2733ed36387f79550c9a6a2191568732ad6",
   "paragraphs": [
+    {
+      "id": "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest ecommerce source adds a product-detail-page layer to the wiki's conversion, social-proof, and UX material. New [[ProductPageOptimization]] frames the product page as the place where acquisition effort, product evidence, merchant trust, objection handling, and checkout intent converge. [[ConversionRateOptimization]] gains a fourth surface beyond donation flows, landing pages, and onboarding: product pages may need confidence-building modules such as photos, videos, reviews, FAQs, trust badges, benefit-led copy, mobile purchase paths, speed, and scarcity cues rather than only fewer steps. [[SocialProof]] gains buyer-proximate ecommerce signals including reviews, user-generated content, company logos, and case studies, while [[ProductFlowFriction]] is qualified by the idea that useful page content can reduce uncertainty even when it adds visual weight. The inspected lead illustration supported the product-page system by calling attention to image, copy, CTA, navigation, and supporting modules; the repeated second image reference was actually HTML saved as PNG and could not be used as image evidence.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ConversionRateOptimization",
+        "ProductFlowFriction",
+        "ProductPageOptimization",
+        "SocialProof"
+      ]
+    },
     {
       "id": "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
       "primary_topic": "ai-and-technology",

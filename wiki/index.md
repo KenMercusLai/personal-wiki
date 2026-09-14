@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [12 Best Practices For Boosting Product Page Conversions](sources/12-best-practices-for-boosting-product-page-conversions.md) - An ecommerce CRO article arguing that product pages convert through product media, trust badges, reviews, FAQs, value propositions, mobile speed, social proof, and carefully tested scarcity.
 - [Legacy Mimic](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic.md) - Ian Cartwright, Rob Horn, and James Lewis describe temporary service-providing and service-consuming mimic components that keep legacy processes working while capabilities are incrementally displaced.
 - [Learning By Writing](sources/blog-holden-karnofsky-cold-takes-learning-by-writing.md) - Holden Karnofsky argues that writing premature hypotheses, attacking their weaknesses, and reading toward view-changing subquestions can make learning and research more focused than open-ended intake.
 - [Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me](sources/blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me.md) - Ethan Banks offers age-staged career advice on asymmetric risk, humility, promotion reality, goals, relationships, recovery, saying no, habits, restraint, and choosing one's own priorities.
@@ -808,6 +809,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Product Page Optimization](concepts/ProductPageOptimization.md) - Ecommerce product-detail pages combine visual evidence, trust, proof, usability, copy, and objection handling to move shoppers toward purchase.
 - [Legacy Mimic](concepts/LegacyMimic.md) - Transitional pattern where a new component conforms to legacy interfaces, events, schemas, or semantics during incremental replacement.
 - [Transitional Architecture](concepts/TransitionalArchitecture.md) - Temporary architecture that lets old and new systems interoperate while legacy capabilities are displaced.
 - [Legacy Displacement](concepts/LegacyDisplacement.md) - Incremental replacement of legacy capabilities while business processes continue across old and new components.

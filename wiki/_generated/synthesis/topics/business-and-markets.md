@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: c6e53723b2c7ed27ce170c9ad75121153724dc4c
-input_digest: c25cee0230603a4f0bdef315397d1124cbcaefc1c798f4c6a8825cc40610e4fd
+as_of_overview_commit: 15ddf57bba4956bdac74329d5830ab4cbe49b943
+input_digest: 518a81e6064b14331244e4717a45b34e331df39b787a1a57b913f16c87009bf8
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds an out-of-home advertising caution: billboard awareness can build brand memory or delight, but it should be judged against location quality, audience breadth, CAC tolerance, attribution limits, and whether more targeted or durable channels would produce better retained value. Strategic writing is now included as a business operating mechanism: written rationale helps plans survive execution, while successful-company memo rituals can become copied status artifacts when process is mistaken for decision quality.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds ecommerce product pages as a conversion surface: product-detail pages preserve acquisition effort when media, proof, speed, mobile usability, copy, FAQs, and trust signals reduce uncertainty before checkout. The broader growth pattern still holds: awareness, clicks, signups, and page modules matter only when they improve retained value and withstand attribution, audience-fit, and testing constraints.
 
 ## Cross-source Findings
 
@@ -58,13 +58,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Growth Must Preserve Retained Value
 
-[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
+[[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 
-**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
+**Evidence:** [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], [[ProductStickiness]]
 
 **Qualifications:**
 
-- Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops, onboarding tactics, discounts, and billboard buys can also become wasteful when they are not grounded in a sticky core product, fit audience, and plausible payback.
+- Attribution remains incomplete where word of mouth, offline brand exposure, dark social, data quality, and model assumptions distort channel influence; invite loops, onboarding tactics, product-page modules, scarcity cues, discounts, and billboard buys can also become wasteful when they are not grounded in a sticky core product, fit audience, credible proof, testing, and plausible payback.
 
 ### Pricing And Subscriptions Align Value Over Time
 
