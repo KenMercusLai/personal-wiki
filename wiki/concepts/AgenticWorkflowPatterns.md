@@ -5,7 +5,8 @@ tags: [ai, agents, workflow-design]
 sources:
   - blog-anthropic-building-effective-ai-agents
   - blog-minusx-nuwanda-what-makes-claude-code-so-damn-good
-last_updated: 2026-09-14
+  - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,11 +20,13 @@ The article's pattern catalog creates a useful fit map. Prompt chaining fits tas
 
 The MinusX Claude Code analysis adds a coding-agent control-loop pattern: keep one main message history and at most one branch. In this design, simple tasks proceed through iterative tool calls inside the main loop, while complex subtasks can be delegated to a subagent through a `Task` tool; the branch cannot spawn more branches, and its result returns into the main history as a tool response. The pattern gives the model some decomposition ability without turning the whole system into an opaque multi-agent graph.
 
+Parallel workflows also have a throughput condition. Parallel agent sessions can help when tasks are independent and verification lets the human supervise by exception, but the pattern fails if all branches converge into the same saturated reviewer or QA queue. Parallelization therefore needs WIP limits, small PRs, and a trustworthy generate-verify-fix loop, not just more agent windows.
+
 ## Key Claims
 - Agentic systems should add complexity only when simpler prompting, retrieval, and in-context examples fall short.
 - Workflows keep LLM/tool execution on predefined paths, while agents let the model dynamically control process and tool use.
 - Prompt chaining, routing, parallelization, orchestrator-workers, and evaluator-optimizer loops cover common production workflow shapes.
-- Pattern choice depends on task decomposition, classification confidence, independence of subtasks, uncertainty about subtasks, and availability of evaluation criteria.
+- Pattern choice depends on task decomposition, classification confidence, independence of subtasks, uncertainty about subtasks, availability of evaluation criteria, and downstream bottleneck capacity.
 - Autonomous agents fit open-ended tasks where fixed paths cannot be predicted, but need environmental feedback, stopping conditions, testing, guardrails, and human checkpoints.
 - Coding-agent loops can preserve debuggability by using one main message history and limiting subagent branching.
 - Todo lists and bounded subagents can let a coding agent decompose work while keeping focus on the user's final desired outcome.
@@ -39,14 +42,16 @@ The MinusX Claude Code analysis adds a coding-agent control-loop pattern: keep o
 - Agent loop: [[blog-anthropic-building-effective-ai-agents]] describes agents that clarify tasks with humans, act on environments, use ground-truth feedback, checkpoint with people, and terminate by completion or stopping conditions.
 - Bounded branch: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] argues that Claude Code uses one main thread and can spawn itself as a subagent without allowing further subagent spawning.
 - Control-loop diagram: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] shows a simple main-loop task and a complex task whose `Task` branch performs read/search/edit steps before returning to the main loop.
+- Parallel coding flow: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] argues that two or three concurrent agent sessions can outperform serial work even when each task uses a slower full-SDLC loop.
+- WIP qualification: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] warns that too many concurrent PRs merely move the queue to code review.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, while MinusX interprets Claude Code's coding-agent loop from observed behavior. Bounded branching may improve debuggability, but very large projects can still require heavier role separation, file-backed state, and verification harnesses; the key qualification is that added agents should have a clear coordination and debugging story.
+The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, MinusX interprets Claude Code's coding-agent loop from observed behavior, and the bottleneck-aware source focuses on delivery throughput. Bounded branching and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, and flow-control story.
 
 ## What Changed
 - Added the Claude Code one-main-loop plus bounded-branch pattern.
 - Added todo-list coordination as a lightweight alternative to heavier handoff systems.
-- Qualified general multi-agent use with a debuggability requirement.
+- Added WIP-limited parallel coding as a workflow qualification: parallel agents help only when verification and review capacity can absorb the output.
 
 ## Related Concepts
 - [[AgentExperience]] - workflow and agent structure shape how users clarify goals and recover from agent behavior.
@@ -57,3 +62,4 @@ The sources are practitioner guidance rather than controlled benchmarks of each 
 - [[SoftwareVerification]] - agent loops become more reliable when progress can be checked by tests or other objective signals.
 - [[ClaudeCode]] - Claude Code provides the bounded-branch coding-agent example.
 - [[AgentTeam]] - multi-agent teams are a heavier workflow form that needs file-backed state and verification.
+- [[BottleneckAwareAICoding]] - explains why parallel agent workflows must account for downstream constraints.

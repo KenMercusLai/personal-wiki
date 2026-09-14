@@ -12,7 +12,8 @@ sources:
   - blog-simon-spati-will-ai-replace-human-thinking
   - blog-antirez-dont-fall-into-the-anti-ai-hype
   - blog-guangzhengli-vibe-coding-and-context-coding
-last_updated: 2026-09-14
+  - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -32,11 +33,13 @@ Antirez adds the strongest capability-shift claim in the current evidence set. F
 
 Guangzhengli reframes the practical layer as [[ContextCoding]]. The source says AI coding gets better when developers provide more relevant context: codebase structure, commands, conventions, core modules, rules files, current documentation, MCP tools, logs, and search traces. This strengthens the page's existing rule that AI coding is not mere delegation; the developer's job shifts toward context design, retrieval choice, small changes, debugging instrumentation, and verification.
 
+AI coding practice also needs a system-flow correction. Faster code generation is not automatically faster delivery: AI can inflate PR size, review latency, work in progress, and rework if the true bottleneck is requirements, compatibility analysis, review, testing, or trust. In that frame, good practice means using specs, focused skills, verification loops, small PRs, and WIP-limited parallel sessions to move work through the whole SDLC rather than merely generating more code.
+
 ## Key Claims
 - AI coding practice requires shared team expectations because inconsistent agent-use habits can create collaboration friction.
 - Engineers remain responsible for generated code, maintainability, and final judgment.
 - Collaboration with agents should include design exploration and implementation reasoning, not only natural-language task assignment.
-- Fast AI output increases the need for small PRs, review aids, and pre-PR self-review.
+- Fast AI output increases the need for small PRs, review aids, pre-PR self-review, WIP limits, and review-capacity awareness.
 - Verification through tests, self-checks, residual review, deterministic feedback, and snapshot diffs is part of the workflow, not a later review responsibility.
 - Junior engineers, independent developers, and intensive coding-agent users need practices that protect learning, human pace, task control, and task-horizon judgment rather than optimize only for speed.
 - AI-first, agentic, and LLM-first coding practice depends on clear problem representation, context quality, engineering systems, explicit roles, document boundaries, specs, memories, and verification gates that let agent output be checked, shipped, observed, and rolled back quickly.
@@ -60,16 +63,18 @@ Guangzhengli reframes the practical layer as [[ContextCoding]]. The source says 
 - Context practice: [[blog-guangzhengli-vibe-coding-and-context-coding]] recommends recording durable project stack, directory, command, utility, and core-module context in Copilot, Cursor, or Claude Code instruction files.
 - Context freshness: [[blog-guangzhengli-vibe-coding-and-context-coding]] warns that stale instruction-file context can be more harmful than providing no context.
 - Debugging support: [[blog-guangzhengli-vibe-coding-and-context-coding]] recommends adding logs, using current documentation through MCP-style tools, and bringing browser console or web-search evidence into the agent workflow.
+- Bottleneck diagnosis: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] argues that AI can raise individual task and PR throughput while DORA-style delivery metrics stay flat if review and validation remain constrained.
+- Flow controls: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] recommends small PRs, WIP limits, validation loops, and bounded parallel sessions so generated work does not overwhelm downstream review.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review; Späti stresses manual competence and the future cost of generated systems people do not understand or enjoy maintaining; Antirez stresses that refusing the capability shift is itself a career risk; Guangzhengli stresses context engineering and retrieval choice. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, learning goals, context freshness, and the strength of the surrounding verification harness.
+The sources are practitioner essays rather than controlled comparisons of AI coding workflows, although the bottleneck-aware source cites controlled and telemetry studies as anchors. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review; Späti stresses manual competence and the future cost of generated systems people do not understand or enjoy maintaining; Antirez stresses that refusing the capability shift is itself a career risk; Guangzhengli stresses context engineering and retrieval choice; the bottleneck-aware source stresses full-SDLC throughput and WIP control. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, learning goals, context freshness, review capacity, and the strength of the surrounding verification harness.
 
 ## What Changed
 - Added the AI-first source's organization-level workflow view while preserving Piglei's responsibility, reviewability, and learning constraints.
 - Added the Claude Code source's practitioner emphasis on small iterations, context-aware task boundaries, and human pace.
 - Added the independent-developer source's distinction between dangerous large-grain delegation and controlled file-aware task slicing.
 - Added Agent Team practice, residual-focused agent TDD, and Späti's task-horizon warning as complementary checks on AI coding speed.
-- Added Antirez's stronger claim that much programming work is moving from hand-writing code toward problem representation, prompting, inspection, guidance, and context coding.
+- Added bottleneck-aware AI coding as the system-flow qualification: faster generation only matters when review, WIP, verification, and upstream design constraints are managed.
 
 ## Related Concepts
 - [[HumanCodeResponsibility]] - accountability is the foundation of the article's practice model.
@@ -87,3 +92,4 @@ The sources are practitioner essays rather than controlled comparisons of AI cod
 - [[AIDependencySkillAtrophy]] - names the loss-of-practice risk when AI substitutes for coding understanding.
 - [[PracticalLLMUse]] - Antirez's examples strengthen the practical case for using LLMs on bounded but substantial programming tasks.
 - [[ContextCoding]] - names the context-engineering discipline behind effective AI coding practice.
+- [[BottleneckAwareAICoding]] - frames AI coding practice around delivery throughput rather than local generation speed.

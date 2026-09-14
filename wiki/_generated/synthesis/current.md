@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: e579dcd03bbbaefce2eaec5c1f99c0edcb3428d5
-summary: "Practical judgment across technology, business, work, culture, and institutions: make systems visible, test claims, preserve skill, and match tools to constraints."
-episode_count: 250
-source_count: 250
+as_of_overview_commit: 16464a39e2e3d8c0605b06eb9489a2e31ade0457
+summary: "The wiki maps durable practice across technology, markets, learning, governance, and culture through evidence, constraints, feedback, and human judgment."
+episode_count: 251
+source_count: 251
 paragraph_count: 238
 topic_count: 9
 ---
@@ -16,72 +16,72 @@ topic_count: 9
 
 ## Executive Summary
 
-- Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, AI assistant, or process recipes.
+- Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, and [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
+- Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]], [[Cursor]], and [[GitHubCopilot]] are best judged by how they expose current project context and keep generated work reviewable.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change.
+- [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty.
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
-- Rough models such as [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[DefensivePortTriage]], and [[TrajectorySimplification]] help engineers decide where precision matters and where fast classification or approximation is enough.
-- Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment.
-- [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them.
+- Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] and [[SpeedReadingMethod]] to turn reading into provisional claims, selected concepts, notes, and output, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to small operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, while [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence, validation, eviction, and pacing.
+AI and technology sources frame durable progress as sociotechnical practice: teams need system understanding, scope-aware architecture, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
 
 ### Business and Markets
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, data trading, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment.
+Business and market sources connect durable value to customer evidence, stable demand, retention, operating capacity, risk discipline, pricing, attribution, hiring, differentiation, platform power, and organizational judgment.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty. Evidence: [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].
 
 ### Cross-domain
 
-Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources emphasize infrastructure thinking: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect, recover, and reuse.
 
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].
 
 ### Culture and Media
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics, with recent material emphasizing selective nonfiction attention and platform-native distribution.
+Culture-and-media sources connect media form, creator workflow, translation, games, reading systems, product language, platform distribution, media-brand economics, infrastructure, and aesthetics.
 
 - [[LearningMediaChoice]] treats media form and reading mode as part of learning design: encyclopedias, Q&A, SNS, video, books, [[SpeedReadingMethod]], [[FocusedReading]], and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[SpeedReadingMethod]], [[FocusedReading]], [[LearningByWriting]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
 
 ### Governance and Institutions
 
-Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, and exit-oriented alternatives to incumbent institutions.
+Governance sources show that platform control, compliance, privacy, political technology, regulated delivery, and institutional exit work only when evidence, auditability, authority, and safety boundaries are explicit.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, and market-geography histories rather than substantive geopolitical claims.
+History-and-geopolitics currently holds mostly technology, accounting, interface, organizational-memory, and market-geography histories rather than broad geopolitical claims.
 
 ### Psychology and Personal Development
 
-This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice, treating progress as a bounded attention and calibration problem shaped by routines, incentives, feedback, and context.
+Psychology and personal-development sources treat progress as attention, calibration, trust, routine design, feedback, and constraint-aware judgment rather than universal self-help slogans.
 
 - [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]].
 - [[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose. Evidence: [[ProceduralRationality]], [[InformalCollaboration]], [[PerformativeMeetingBehavior]].
 
 ### Science, Health, and Climate
 
-The topic remains mostly indirect, with source-scoped claims about scientific Python, attention and mental load, intrinsic value, and data-science adoption rather than comprehensive science, health, or climate coverage.
+Science-health-climate remains source-scoped, with claims from scientific-computing tutorials, attention essays, value philosophy, and developer-data analysis rather than comprehensive scientific measurement.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame learning, career development, and collaboration as practice-rich, feedback-rich activity rather than passive consumption, with AI assistance bounded by human judgment, protected struggle, and inspection.
+Work, education, and society sources frame learning, career growth, collaboration, AI adoption, writing, and coding as feedback-rich practice that still needs protected struggle and human judgment.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] and [[SpeedReadingMethod]] to turn reading into provisional claims, selected concepts, notes, and output, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[FocusedReading]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[PracticalLLMUse]], [[NicholasCarlini]], [[Antirez]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill; [[Antirez]] adds that programmers still need to engage seriously with AI because the job itself is shifting. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[ProgrammerMindset]], [[LearningByWriting]], [[Antirez]], [[PracticalLLMUse]].

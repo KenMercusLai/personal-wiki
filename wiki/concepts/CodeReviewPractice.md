@@ -6,7 +6,8 @@ sources:
   - 7-best-practices-for-doing-code-reviews
   - blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database
   - 3-strategies-for-picking-your-battles-as-a-software-developer
-last_updated: 2026-09-14
+  - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,12 +23,14 @@ Balakrishnan's production database source adds a critical-infrastructure qualifi
 
 Head adds an interpersonal triage layer. In ordinary review disagreement, a reviewer should ask whether the issue is a real codebase standard, a non-trivial performance concern, or a readability problem before turning preference into pressure. When a teammate is ramping into project standards, conversation is more likely to work than tearing apart a review line by line. This turns review judgment into both a quality decision and a morale decision.
 
+AI-heavy work adds a capacity-management layer. When AI doubles or triples local code production, review can become the real constraint: larger PRs and more queued PRs make feedback slower, context switching worse, and delivery no better. In this practice, code review is not only a quality gate or learning ritual; it is a scarce system resource that must be protected through PR sizing, pre-review verification, WIP limits, and risk-based escalation.
+
 ## Key Claims
 - Teams should explicitly choose the goals of code review before relying on it.
 - Code review is especially valuable for spreading codebase knowledge and helping engineers understand how teammates think.
 - Running the app, using breakpoints, and checking local compiler or test feedback reveal behavior that diff reading may miss.
 - Predicting expected changed files and visualizing call relationships turn reviewing into active learning.
-- Prompt first-pass reviews, clear next steps, and non-blocking treatment of simple preferences reduce teammate blocking.
+- Prompt first-pass reviews, clear next steps, non-blocking treatment of simple preferences, and WIP-aware PR sizing reduce teammate blocking.
 - Critical infrastructure reviews may need stricter approval gates and longer review cycles than ordinary product diffs.
 - Reviewers should separate project standards, material performance, and readability concerns from personal style preferences.
 
@@ -43,14 +46,16 @@ Head adds an interpersonal triage layer. In ordinary review disagreement, a revi
 - Throwaway culture: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] says teams should be willing to discard candidate code when review reveals the design is wrong.
 - Preference triage: [[3-strategies-for-picking-your-battles-as-a-software-developer]] recommends letting a good PR go when feedback is not a codebase best practice, material performance issue, or readability problem.
 - Conversation over critique: [[3-strategies-for-picking-your-battles-as-a-software-developer]] says standards mismatch with someone ramping into a project is better handled through conversation than exhaustive line-by-line critique.
+- AI review bottleneck: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] argues that AI can increase PR count and PR size faster than reviewer bandwidth, leaving organizational delivery unchanged.
+- WIP control: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] recommends limiting review-stage work in progress so parallel agent output does not recreate downstream accumulation.
 
 ## Counterevidence & Qualifications
-The sources are practitioner reflections rather than universal empirical studies. Asana's default-to-approval rule fits low-risk suggestions and simple cleanup better than safety-critical code, security-sensitive changes, migrations, unclear ownership boundaries, or changes without adequate verification. Balakrishnan's stricter review gates fit critical infrastructure better than routine low-risk changes, where excessive approval requirements could block useful cleanup and learning. Head's advice to let some issues go assumes the code is already good enough; it should not be used to avoid raising genuine maintainability, security, accessibility, or correctness concerns.
+The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Asana's default-to-approval rule fits low-risk suggestions and simple cleanup better than safety-critical code, security-sensitive changes, migrations, unclear ownership boundaries, or changes without adequate verification. Balakrishnan's stricter review gates fit critical infrastructure better than routine low-risk changes, where excessive approval requirements could block useful cleanup and learning. Head's advice to let some issues go assumes the code is already good enough; it should not be used to avoid raising genuine maintainability, security, accessibility, or correctness concerns.
 
 ## What Changed
 - Created the concept to capture code review as a team learning, feedback, and delivery-flow practice.
 - Added the production-infrastructure qualification that critical components may justify slower review, multiple accepts, and discardable candidate code.
-- Added interpersonal triage for distinguishing standards and quality issues from reviewer preference.
+- Added the AI coding bottleneck view: review bandwidth, PR size, and WIP limits determine whether generated code becomes delivered value.
 
 ## Related Concepts
 - [[PRReviewHygiene]] - review hygiene shapes code changes and feedback so human review remains usable.
@@ -59,3 +64,4 @@ The sources are practitioner reflections rather than universal empirical studies
 - [[HumanCodeResponsibility]] - reviewers and authors remain responsible for clear approval boundaries and follow-up.
 - [[ProductionInfrastructureLeadership]] - infrastructure leads tune review norms to component criticality and correctness risk.
 - [[WorkplaceCollaboration]] - review comments affect team trust, pride, and willingness to keep improving shared code.
+- [[BottleneckAwareAICoding]] - treats review as the likely downstream constraint after AI accelerates coding.

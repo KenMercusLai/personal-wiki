@@ -1979,6 +1979,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | 为什么 AI 写代码更快但交付没变，以及我怎么把它扳回来的
+
+Added a source note for the AI coding delivery-paradox essay. Key claims: AI can accelerate coding while leaving delivery flat when review, verification, requirements, and WIP are the true bottlenecks; specs, rules, and skills differ by loading mechanism; verification should form an andon-style generate-verify-fix loop and layered trust chain; parallel agent sessions help only with task independence, WIP limits, and review capacity; and automation gains should fund capability growth rather than just more code output. All 20 referenced images were opened and incorporated where materially relevant.
+
 ## [2026-09-15] ingest | 爬虫抓取代理 IP
 
 Added Wulc's 2016 practical note on scraping public proxy IPs. Key claims: proxy candidates can be parsed from proxy-list table rows, should be persisted outside process memory, can be stored and randomly sampled from Redis sets, must be validated against the actual target site before use, should be evicted when they fail, and proxy-source scraping should be paced to reduce block risk and provider load. No image references were present in the source Markdown.
@@ -1998,6 +2002,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
