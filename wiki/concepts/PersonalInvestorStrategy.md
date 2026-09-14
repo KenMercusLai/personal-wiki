@@ -4,35 +4,40 @@ type: concept
 tags: [investing, personal-finance, judgment]
 sources:
   - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu
-last_updated: 2026-09-14
+  - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[PersonalInvestorStrategy]] is an ordinary-investor approach that uses low institutional pressure, simple rules, diversification, and self-knowledge to avoid common investing mistakes.
+[[PersonalInvestorStrategy]] is an ordinary-investor approach that uses low institutional pressure, simple rules, diversification, valuation discipline, cost control, and self-knowledge to avoid common investing mistakes.
 
 ## Current Synthesis
-Wulc's summary of Zhang Xiaoyu's course frames personal investing as a different game from professional money management. Individual investors may lack access to elite funds, research desks, and complex products, but they also do not need to justify constant activity to peers or outside capital. The recommended strategy is therefore modest and defensive: avoid fashionable complexity, avoid timing confidence, diversify across assets and geography, focus on knowable costs and constraints, and sell because the thesis changed rather than because recent price movement feels emotionally salient.
+Wulc's two Zhang Xiaoyu course summaries frame personal investing as a different game from professional money management. Individual investors may lack access to elite funds, research desks, and complex products, but they also do not need to justify constant activity to peers or outside capital. The strategy that emerges is modest, defensive, and process-heavy: diversify across assets and geography, prefer passive and understandable tools where appropriate, avoid timing confidence and fashionable complexity, care about valuation and fees, keep written investment logic, filter advice through incentives, and preserve outside income so market stress does not force bad decisions.
 
 ## Key Claims
 - Ordinary investors should exploit their freedom from professional career and client pressure.
-- Simple, understandable methods can be better than chasing specialized tricks.
+- Simple, understandable methods can be better than chasing specialized tricks, especially when paired with diversification and passive-first implementation.
 - Personal investing should be treated as an ongoing game where capital usually returns to the market rather than exits forever.
-- Good sell discipline asks whether the original buy reason still holds or whether a clearly better opportunity exists.
-- Investor effort should focus on knowable personal constraints, product costs, allocation, and risk response plans.
+- Good buy and sell discipline asks whether valuation, margin of safety, the original thesis, and alternative opportunities still justify the position.
+- Investor effort should focus on knowable personal constraints, product costs, allocation, risk response plans, incentive conflicts, and outside-income resilience.
+- Self-audit matters because investors can mistake luck for skill and turn a few successful trades into overconfidence.
 
 ## Evidence
 - Pressure advantage: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] says professional investors may be forced into fashionable assets by peer and client pressure, while individuals can avoid acting merely to prove they are doing something.
-- Simplicity: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] argues that ordinary investors should master plain methods and avoid obvious errors instead of spending excessive effort on tricks.
+- Simplicity and passive-first implementation: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] argues that ordinary investors should master plain methods and avoid obvious errors instead of spending excessive effort on tricks; [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] summarizes the final principles as diversification, passive-first investing, lower costs, patience, and not investing in what one does not understand.
 - Infinite-game frame: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] says personal investing continues unless money is consumed, so taking profits only because a price rose may simply create a new allocation problem.
-- Sell discipline: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] says a good sell reason is that the buy reason no longer holds, valuation has changed enough, the initial purchase was wrong, or a better use of capital appears.
-- Knowable focus: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] recommends focusing on investment horizon, asset allocation, product costs, cash management, and risk response rather than broad macro prediction.
+- Valuation and sell discipline: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] says a good sell reason is that the buy reason no longer holds, valuation has changed enough, the initial purchase was wrong, or a better use of capital appears; [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] adds that a good company or index can still be a bad purchase if the entry price is too high.
+- Knowable focus and resilience: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] recommends focusing on investment horizon, asset allocation, product costs, cash management, and risk response rather than broad macro prediction; [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] adds fund-fee control, advice-incentive filtering, independent decision space, and non-investment income as practical constraints.
+- Self-audit: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] recommends writing down investment logic before acting so later outcomes can be compared against the original reasoning rather than retrofitted into proof of skill.
 
 ## Counterevidence & Qualifications
-The source is a course summary and personal note, not a regulated financial plan or empirical allocation study. It does not specify exact portfolio weights, tax constraints, jurisdictional limits, or product selection details for different households.
+The sources are course summaries and personal notes, not a regulated financial plan or empirical allocation study. They do not specify exact portfolio weights, tax constraints, jurisdictional limits, household liquidity rules, or product selection details for different investors. Wulc explicitly cautions that course claims are one perspective and that index-fund advice built around U.S. market history may not transfer directly to A-share markets.
 
 ## What Changed
-- Created the concept from Wulc's Zhang Xiaoyu course summary.
+- Added the second course note's five-principle ordinary-investor frame.
+- Added valuation, fee drag, incentive filtering, written thesis review, and outside-income resilience as practical strategy constraints.
+- Qualified index-fund generalization across U.S. and A-share market contexts.
 
 ## Related Concepts
 - [[AssetAllocation]] - personal strategy relies on diversified exposure rather than asset preference.

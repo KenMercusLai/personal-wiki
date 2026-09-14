@@ -6,24 +6,25 @@ sources:
   - gong-cheng-shi-ru-he-geng-hao-tou-zi
   - blog-morgan-housel-collab-fund-a-few-beliefs
   - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu
-last_updated: 2026-09-14
+  - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[InvestmentRiskDiscipline]] is the set of behavioral, analytical, and financial guardrails that keep investing decisions from becoming leverage, trend-chasing, unfamiliar speculation, panic trading, or need-threatening risk.
+[[InvestmentRiskDiscipline]] is the set of behavioral, analytical, and financial guardrails that keep investing decisions from becoming leverage, trend-chasing, overpaying, fee leakage, unfamiliar speculation, panic trading, or need-threatening risk.
 
 ## Current Synthesis
-The sources agree that risk discipline begins with avoiding ruinous behavior before seeking superior returns. The engineer-investing source is explicit about market mechanics: do not follow blindly, buy high because others made money, use margin, short, trade frequently, or enter unfamiliar domains because a concept is popular. Its inspected slides make downside asymmetry concrete with a portfolio that rises about 52% in one scenario but, if bought at highs, would fall enough that an 81.8% rebound would be needed to recover; adding borrowed money could force liquidation before recovery. Housel adds a behavioral and personal-finance layer: the most destructive financial decisions risk what is needed to gain what is merely wanted, while debt removes options and savings add them. Wulc's Zhang Xiaoyu source adds a consequence-test: before buying, ask whether one understands what would happen if the asset fell by half and what response would be available. Together, the pages frame investment risk as a mix of market exposure, leverage, behavioral overconfidence, regret calibration, household optionality, and response planning.
+The sources agree that risk discipline begins with avoiding ruinous behavior before seeking superior returns. The engineer-investing source is explicit about market mechanics: do not follow blindly, buy high because others made money, use margin, short, trade frequently, or enter unfamiliar domains because a concept is popular. Its inspected slides make downside asymmetry concrete with a portfolio that rises about 52% in one scenario but, if bought at highs, would fall enough that an 81.8% rebound would be needed to recover; adding borrowed money could force liquidation before recovery. Housel adds a behavioral and personal-finance layer: the most destructive financial decisions risk what is needed to gain what is merely wanted, while debt removes options and savings add them. Wulc's Zhang Xiaoyu sources add consequence, valuation, and life-context tests: understand what happens after a 50% fall, do not confuse a good company with a good stock at any price, leave a margin of safety, control fee drag, record the thesis, and keep outside income so market losses do not force liquidation. Together, the pages frame investment risk as a mix of market exposure, leverage, valuation, compounding costs, behavioral overconfidence, regret calibration, household optionality, and response planning.
 
 ## Key Claims
 - Risk control begins with avoiding destructive actions such as margin, shorting, frequent trading, and unfamiliar speculation.
 - Buying high changes the recovery problem because a large loss requires a much larger percentage gain to break even.
-- Market indicators such as VIX and RSI can inform patience but should not override asset quality.
-- Waiting for rare good opportunities can be better than constant action.
+- Market indicators such as VIX and RSI can inform patience, but waiting for rare good opportunities can be better than constant action and indicators should not override asset quality.
 - Sell discipline should include admitting a mistaken purchase, finding a better opportunity, or recognizing extreme overvaluation.
-- The most dangerous risk is risking what one needs for an upside one merely wants.
-- Savings, debt, expected regret, and response capacity shape future choices, so risk discipline is also option discipline rather than only an abstract probability label.
+- Margin of safety and fee discipline matter because a high-quality company, fund, or index can still be a poor investment when purchased too expensively or held through costly products.
+- Risk tolerance depends on outside income and whether the investor can survive being wrong without forced selling.
+- The most dangerous risk is risking what one needs for an upside one merely wants, so savings, debt, expected regret, and response capacity make risk discipline a form of option discipline.
 
 ## Evidence
 - Stop rules: [[gong-cheng-shi-ru-he-geng-hao-tou-zi]] lists not shorting, not using margin, not buying what one does not understand, not seeking shortcuts, and not frequent trading.
@@ -31,6 +32,10 @@ The sources agree that risk discipline begins with avoiding ruinous behavior bef
 - Timing aids: [[gong-cheng-shi-ru-he-geng-hao-tou-zi]] cites VIX above 40 as possible panic opportunity, VIX below 12 as complacency risk, weekly RSI above 70 as overbought, and daily RSI below 30 as oversold.
 - Patience: [[gong-cheng-shi-ru-he-geng-hao-tou-zi]] says most time is spent waiting and that one or two good opportunities a year may be enough.
 - Sell rules: [[gong-cheng-shi-ru-he-geng-hao-tou-zi]] summarizes sell reasons as realizing the purchase was wrong, finding a better risk-reward, or seeing absurd valuation.
+- Margin of safety: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] argues that good companies can produce poor stock returns if bought too high and presents margin of safety as buying only after a sufficient discount to estimated value.
+- Fee drag: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] illustrates how a 3-point annual fee gap can remove a large share of 10- or 20-year compounded gains.
+- Negative compounding: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] uses alternating gain-and-loss years to show how volatility and losses can leave little real progress.
+- Outside-income resilience: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-2-tou-zi-gong-ju-yu-zi-wo-ju-xian]] says non-investment earning power can reduce pressure during drawdowns and make investors less likely to sell at the wrong time.
 - Need-versus-want risk: [[blog-morgan-housel-collab-fund-a-few-beliefs]] warns against risking what is needed to gain what is merely wanted.
 - Option discipline: [[blog-morgan-housel-collab-fund-a-few-beliefs]] states that debt removes options while savings add them and links risk understanding to calibrated future regret.
 - Uncertainty posture: [[blog-morgan-housel-collab-fund-a-few-beliefs]] recommends saving pessimistically, investing optimistically, planning for plans to fail, and reading more history than forecasts.
@@ -41,7 +46,9 @@ The sources agree that risk discipline begins with avoiding ruinous behavior bef
 The sources offer heuristics rather than a complete risk-management model. VIX, RSI, policy news, and social-media signals are context-dependent and can fail; the engineer-investing source itself says the material is not financial advice. Housel's aphorisms are deliberately compressed, and Wulc's half-loss test is a practical screen rather than a full stress-testing framework.
 
 ## What Changed
-- Added Wulc's consequence-based risk test and caution against treating risk as a cleanly measurable number.
+- Added margin-of-safety and "good company is not good stock" valuation discipline.
+- Added long-horizon fee drag and negative-compounding risk.
+- Added outside-income resilience as part of risk capacity.
 
 ## Related Concepts
 - [[EngineerInvestment]] - risk discipline is the behavioral foundation of the engineer-facing investing frame.

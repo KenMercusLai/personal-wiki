@@ -3,16 +3,16 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-09-14
-as_of_overview_commit: acf54084f5ac73fc08d488430592922e1369e51b
-input_digest: 2bb015381ae0f316adb714a77eeefa2c3a5d137aa8b828fc078df8dffc6228eb
+last_updated: 2026-09-15
+as_of_overview_commit: 99ccc549566e4be8d4214d7aab525eb3b1d0d535
+input_digest: 1bc4694d23f3592e5140387ff2c00e34dfa5032005cfacb6bc95c25ce2f343bc
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
+This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
 
 ## Cross-source Findings
 
@@ -98,13 +98,13 @@ This topic links personal effectiveness, judgment, trust, behavior design, and r
 
 ### Risk Judgment Requires Behavioral Calibration
 
-[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, overconfidence, regret, expectations, and narrow personal experience.
+[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience.
 
-**Evidence:** [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]]
+**Evidence:** [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], [[MorganHousel]]
 
 **Qualifications:**
 
-- The Housel source is a compact beliefs list rather than a formal psychological model, so its claims are best treated as decision heuristics rather than universal prescriptions.
+- The Housel source is a compact beliefs list and the Zhang Xiaoyu material is Wulc's course-note synthesis rather than a formal psychological model, so its claims are best treated as decision heuristics rather than universal prescriptions.
 
 ### Capacity Building Is Easier Before Crisis
 

@@ -1971,3 +1971,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | 张潇雨的个人投资课(2)-投资工具与自我局限
+
+Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-limitation course sections. Key claims: index funds reduce stock-picking difficulty but market context matters, good companies can be bad stocks at excessive prices, fee drag compounds, investors should audit luck versus skill and incentives, outside income protects decision quality, and ordinary investors should emphasize diversification, passive-first implementation, lower costs, patience, and not investing in what they do not understand. No image references were present in the source Markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

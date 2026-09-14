@@ -122,13 +122,14 @@
       "global_candidate": true,
       "id": "risk-judgment-requires-behavioral-calibration",
       "qualifications": [
-        "The Housel source is a compact beliefs list rather than a formal psychological model, so its claims are best treated as decision heuristics rather than universal prescriptions."
+        "The Housel source is a compact beliefs list and the Zhang Xiaoyu material is Wulc's course-note synthesis rather than a formal psychological model, so its claims are best treated as decision heuristics rather than universal prescriptions."
       ],
-      "statement": "[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, overconfidence, regret, expectations, and narrow personal experience.",
+      "statement": "[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[PersonalInvestorStrategy]], and [[MorganHousel]] show risk judgment depending on humility about incentives, confirmation, denial, binary thinking, stale beliefs, luck-versus-skill attribution, overconfidence, regret, expectations, and narrow personal experience.",
       "status": "supported",
       "supporting_wikilinks": [
         "BehavioralRiskJudgment",
         "InvestmentRiskDiscipline",
+        "PersonalInvestorStrategy",
         "MorganHousel"
       ]
     },
@@ -147,6 +148,6 @@
       ]
     }
   ],
-  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.",
+  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.",
   "topic_id": "psychology-and-personal-development"
 }
