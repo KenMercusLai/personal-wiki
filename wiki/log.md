@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | 42 Things I Learned from Building a Production Database
+
+Added Mahesh Balakrishnan's Delos production database leadership essay. Key claims: critical infrastructure leadership starts with direct customer understanding, conservative migration-friendly APIs, consistency and durability bias for storage systems, stricter review gates for critical components, implementation-independent observability, and research-backed technical strategy. No image references were present in the source Markdown.
+
 ## [2026-09-14] ingest | 12 Best Practices For Boosting Product Page Conversions
 
 Ingested the ecommerce product-page conversion article, creating a source note and Product Page Optimization concept, and updating conversion-rate optimization and social-proof synthesis.
@@ -1735,6 +1739,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

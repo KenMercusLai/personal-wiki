@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [42 Things I Learned from Building a Production Database](sources/blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database.md) - Mahesh Balakrishnan distills Delos lessons on production infrastructure leadership across customers, project management, API design, review culture, observability, strategy, and research.
 - [Make Good New Things](sources/blog-limboy-make-good-new-things.md) - Limboy argues that AI lowers the threshold for making software, writing, and images, but that meaningful creation still depends on high standards, strong inputs, cognitive curiosity, and personal presence.
 - [A Dusting of Gamification](sources/blog-joel-spolsky-a-dusting-of-gamification.md) - Joel Spolsky argues that Stack Overflow's light reputation layer recognized helpful contributions and signaled community norms, while downvotes and visible scoring carried inclusion costs.
 - [My Productivity App is a Never-Ending .txt File](sources/blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file.md) - Jeff Huang describes a calendar-plus-plain-text workflow where nightly daily lists become task plans, meeting notes, research logs, and a searchable record of work.
@@ -226,6 +227,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Mahesh Balakrishnan](entities/MaheshBalakrishnan.md) - Distributed-systems academic and Delos tech lead represented by production database leadership lessons.
+- [Delos](entities/Delos.md) - Facebook production storage system used as the case for production infrastructure leadership, reliability, API migration, and observability lessons.
+- [ZooKeeper](entities/ZooKeeper.md) - Coordination/storage system referenced as the incumbent Facebook infrastructure Delos was replacing.
 - [Limboy](entities/Limboy.md) - Writer represented here by a reflection on creation, AI-enabled making, high standards, curiosity, and attention.
 - [Joel Spolsky](entities/JoelSpolsky.md) - Software writer and Stack Overflow cofounder represented here by a retrospective on reputation-based gamification.
 - [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
@@ -819,6 +823,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Production Infrastructure Leadership](concepts/ProductionInfrastructureLeadership.md) - Leading critical infrastructure through customer grounding, API migration design, correctness-first review, observability, strategy, and research.
 - [Make Good New Things](concepts/MakeGoodNewThings.md) - Creative-life ethic treating valuable new artifacts as care, learning, asymmetric return, and a traceable record of life.
 - [AI-Era Creative Standards](concepts/AIEraCreativeStandards.md) - Quality expectations needed when AI makes acceptable average creative and technical output cheap and abundant.
 - [Cognitive Curiosity](concepts/CognitiveCuriosity.md) - Mechanism-seeking curiosity aimed at how and why, used as creative direction rather than surface novelty.

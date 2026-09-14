@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: 43e7c6b23feba483f2f6cff02b58b0f9556a2869
-input_digest: f912e8f024b0f0e6cea1450242e85f1bd9f7910f403470917b551283ea98dab7
+as_of_overview_commit: 62a39cdc0a7ce3ffeb2987433018023201977102
+input_digest: 397dd5f3ea1288cb5da35415a623037ff5a5ebefb841ee07869191a067e795ea
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds community reputation as a platform-design surface: voting and points can rank useful contributions, transfer trust, and signal standards, but visible negative feedback can also damage belonging. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, and gamified mechanics matter only when they improve retained value and withstand attribution, audience-fit, inclusion, and testing constraints.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds production infrastructure leadership as a business capability: critical systems such as Delos depend on customer grounding, migration-friendly APIs, risk-sensitive review, reliability, and implementation-independent observability, not only code. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, and testing constraints.
 
 ## Cross-source Findings
 
@@ -138,14 +138,15 @@ Business and market sources show durable value emerging when product work, start
 
 ### Operations And Reliability Are Business Capabilities
 
-[[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that operational, release, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
+[[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that infrastructure leadership, review discipline, operational reliability, release safety, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
 
-**Evidence:** [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[InternalDeveloperPlatform]], [[DeveloperExperience]], [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]]
+**Evidence:** [[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[InternalDeveloperPlatform]], [[DeveloperExperience]], [[FinancialSoftwareDesign]], [[DoubleEntryAccounting]]
 
 **Qualifications:**
 
 - The evidence includes postmortems and practitioner guidance, so the right level of process depends on risk, scale, domain stakes, and team capacity.
 - Notebook-based workflow automation is a data-platform pattern, not a full substitute for service deployment, release engineering, or production governance.
+- Production database leadership evidence comes from a large-company infrastructure case and may be heavier than smaller teams or lower-risk services need.
 
 ### Innovation Recombines Specialized Knowledge And Shared Data
 
