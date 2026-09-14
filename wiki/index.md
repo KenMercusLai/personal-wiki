@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [My Productivity App is a Never-Ending .txt File](sources/blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file.md) - Jeff Huang describes a calendar-plus-plain-text workflow where nightly daily lists become task plans, meeting notes, research logs, and a searchable record of work.
 - [The Difference Between Time and Attention](sources/blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention.md) - Jason Fried argues that useful commitments are constrained by attention rather than calendar time, so saying no can be more honest when mental presence is unavailable.
 - [12 Best Practices For Boosting Product Page Conversions](sources/12-best-practices-for-boosting-product-page-conversions.md) - An ecommerce CRO article arguing that product pages convert through product media, trust badges, reviews, FAQs, value propositions, mobile speed, social proof, and carefully tested scarcity.
 - [Legacy Mimic](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic.md) - Ian Cartwright, Rob Horn, and James Lewis describe temporary service-providing and service-consuming mimic components that keep legacy processes working while capabilities are incrementally displaced.
@@ -811,8 +812,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Traffic Recorder](entities/TrafficRecorder.md) - Twilio Segment test tool that records and replays destination HTTP traffic.
 - [Magoo](entities/Magoo.md) - Security writer advising founding engineering teams on AWS infrastructure choices that reduce security debt while preserving operational usefulness.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
+- [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Text File Productivity](concepts/TextFileProductivity.md) - Plain-text daily planning workflow where a chronological file combines task execution, notes, retrieval, and work history.
 - [Product Page Optimization](concepts/ProductPageOptimization.md) - Ecommerce product-detail pages combine visual evidence, trust, proof, usability, copy, and objection handling to move shoppers toward purchase.
 - [Legacy Mimic](concepts/LegacyMimic.md) - Transitional pattern where a new component conforms to legacy interfaces, events, schemas, or semantics during incremental replacement.
 - [Transitional Architecture](concepts/TransitionalArchitecture.md) - Temporary architecture that lets old and new systems interoperate while legacy capabilities are displaced.
@@ -1240,13 +1243,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
-- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention capacity, routines, calendar defaults, and task triage to complete meaningful work efficiently.
+- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention capacity, routines, calendar defaults, text-file planning, and task triage to complete meaningful work efficiently.
 - [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
-- [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes and source material while keeping the system accountable to output.
+- [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes, work logs, and source material while keeping the system accountable to output.
 - [Project-Based Learning](concepts/ProjectBasedLearning.md) - Inquiry-oriented learning where students pursue a concrete question, gather evidence, build methods, and present conclusions.
 - [Private Data Chatbot](concepts/PrivateDataChatbot.md) - Chatbot pattern that answers from user-provided or organization-held data rather than only built-in model knowledge.
 - [Programmer Freelancing](concepts/ProgrammerFreelancing.md) - Self-directed programmer work supported by financial runway, course income, product experiments, branding, and routines.

@@ -108,8 +108,23 @@
         "DoubleEntryAccounting",
         "BusinessFinanceLiteracy"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "text-file-productivity-is-work-system-spillover",
+      "qualifications": [
+        "The substantive claim belongs under work, education, and society; the history relevance is limited to the recordkeeping and chronology vocabulary in the paragraph."
+      ],
+      "statement": "[[TextFileProductivity]], [[PersonalProductivity]], [[PersonalKnowledgeManagement]], and [[JeffHuang]] are work-system and knowledge-management concepts that entered this topic because the source describes a long chronological work record, not because it adds a history or geopolitics finding.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "TextFileProductivity",
+        "PersonalProductivity",
+        "PersonalKnowledgeManagement",
+        "JeffHuang"
+      ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, and market-geography histories rather than substantive geopolitical claims. The newest Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.",
   "topic_id": "history-and-geopolitics"
 }

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "42716110549eee9c08b124f3804dd21619d8e1cfcbc1f558548f203bc1b4447f",
       "cef1a82f078e713deb917f306729d8cabbe178bc70dba8b7f5a4f22138f04c21",
       "2eb6565ed647660102b3ac0f0f291f500382a17b0d144ba1af556b9906d07935",
       "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
@@ -211,11 +212,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 209
+    "paragraph_count": 210
   },
-  "overview_commit": "a31bc9299ee2d8da5954d985b341081ae19039db",
-  "overview_digest": "b721d398d5187630f1d0d6bcbff9557e8c2d77a96e1306ba95fa1dd63b784078",
+  "overview_commit": "6d0ef8fb55cb04d619c193ae7735432db5040b88",
+  "overview_digest": "e873b41bea2335b0de4f5dbe82b038ed40c2e6d9fa6911e6f4a3a0f9d9ea07a8",
   "paragraphs": [
+    {
+      "id": "42716110549eee9c08b124f3804dd21619d8e1cfcbc1f558548f203bc1b4447f",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Jeff Huang source adds a minimalist work-system layer to the wiki's productivity and personal-knowledge-management material. New [[TextFileProductivity]] captures the workflow where a calendar stores future commitments while a never-ending plain-text file holds each day's bounded plan, notes, completed-work record, and searchable history. [[PersonalProductivity]] gains a concrete alternative to app-heavy task management: size tomorrow's work the night before, split or reschedule oversized tasks, avoid an endlessly postponed todo list, and reduce future workload by deleting or unflagging lower-value commitments. [[PersonalKnowledgeManagement]] gains a chronological work-log pattern where daily lists become meeting minutes, research notes, idea capture, annual-report material, and evidence about what actually happened. [[JeffHuang]] becomes the source-scoped author entity. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "JeffHuang",
+        "PersonalKnowledgeManagement",
+        "PersonalProductivity",
+        "TextFileProductivity"
+      ]
+    },
     {
       "id": "cef1a82f078e713deb917f306729d8cabbe178bc70dba8b7f5a4f22138f04c21",
       "primary_topic": "cross-domain",

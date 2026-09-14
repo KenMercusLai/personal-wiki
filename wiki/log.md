@@ -1415,6 +1415,10 @@ Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped
 
 Ingested Holden Karnofsky's Cold Takes article on writing-centered learning, creating source, entity, and concept pages and updating active learning, focused reading, and knowledge output synthesis.
 
+## [2026-09-14] ingest | My Productivity App is a Never-Ending .txt File
+
+Ingested Jeff Huang's calendar-plus-text-file productivity workflow, creating source, author, and Text File Productivity pages and updating productivity and PKM synthesis.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1723,6 +1727,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

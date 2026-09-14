@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: a31bc9299ee2d8da5954d985b341081ae19039db
+as_of_overview_commit: 6d0ef8fb55cb04d619c193ae7735432db5040b88
 summary: "The wiki maps durable capability through system understanding, explicit evidence, active learning, feedback loops, attention capacity, and context-aware judgment."
-episode_count: 215
-source_count: 215
-paragraph_count: 209
+episode_count: 216
+source_count: 216
+paragraph_count: 210
 topic_count: 9
 ---
 
@@ -64,7 +64,7 @@ Governance and institutional material in the current corpus spans platform contr
 
 ### History and Geopolitics
 
-The history and geopolitics topic currently contains technology, accounting, interface, and market-geography histories rather than substantive geopolitical claims. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, and market-geography histories rather than substantive geopolitical claims. The newest Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.
 
 ### Psychology and Personal Development
 
@@ -81,7 +81,7 @@ The topic remains mostly indirect. It now includes a beginner scientific-computi
 
 ### Work, Education, and Society
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add programming-specific reasoning, writing-centered investigation, and age-staged career judgment: programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, and early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint shape sustainable work.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, personal productivity, knowledge systems, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add programming-specific reasoning, writing-centered investigation, age-staged career judgment, and minimalist work-system design: programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, early risk and later boundaries shape sustainable careers, and a calendar-plus-text-file workflow can make daily work bounded, searchable, and less dependent on memory.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].
