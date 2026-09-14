@@ -192,6 +192,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Compliance in a DevOps Culture
+
+Added source. Key claims: compliance can be decomposed into evidence and validation; manual, pipeline, and composition patterns each become bottlenecks at scale; point-of-change compliance uses systems of record, signed evidence, and admission-style checks to preserve DevOps flow.
+
 ## [2026-09-14] ingest | Implementing a Search Engine with Ranking in Python
 
 Added Aakash Japi's Python search-engine tutorial. Key claims: simple search decomposes into indexing, querying, and ranking; a position-aware inverted index supports free-text and phrase queries; tf-idf plus cosine similarity can rank candidate documents; and bag-of-words vectors are useful but lose word order.
@@ -1615,6 +1619,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

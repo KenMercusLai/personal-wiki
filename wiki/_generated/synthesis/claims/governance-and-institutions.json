@@ -20,16 +20,18 @@
       "global_candidate": true,
       "id": "experimentation-and-automation-need-instrumentation",
       "qualifications": [
-        "Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible."
+        "Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible.",
+        "Compliance instrumentation can still become harmful when central ownership turns evidence gathering into a release bottleneck."
       ],
-      "statement": "Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout.",
+      "statement": "Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment.",
       "status": "supported",
       "supporting_wikilinks": [
         "DataExploration",
         "OfflinePolicyReplay",
         "NetworkAutomation",
         "ChangeSafety",
-        "InferenceLoadBalancing"
+        "InferenceLoadBalancing",
+        "ComplianceArchitecture"
       ]
     },
     {
@@ -38,14 +40,15 @@
       "qualifications": [
         "The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe."
       ],
-      "statement": "Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, and product surfaces.",
+      "statement": "Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls.",
       "status": "supported",
       "supporting_wikilinks": [
         "Kubernetes",
         "ContainerNativePractice",
         "NetworkAutomation",
         "InferenceLoadBalancing",
-        "ContextualBandits"
+        "ContextualBandits",
+        "ComplianceArchitecture"
       ]
     },
     {
@@ -99,6 +102,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. The newest Srinivasan paragraph adds a polemical but useful counterframe: voice becomes more credible when people can switch, fork, found, relocate, or use tools such as Bitcoin to lower dependence on paper-era institutions, though that claim must be qualified by unequal exit capacity and the risk that software platforms create their own lock-in.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, and exit-oriented alternatives to incumbent institutions. The newest compliance paragraph adds an institutional operating pattern: controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, though exit and voice remain uneven because people and teams differ in switching capacity, authority, and exposure to process bottlenecks.",
   "topic_id": "governance-and-institutions"
 }

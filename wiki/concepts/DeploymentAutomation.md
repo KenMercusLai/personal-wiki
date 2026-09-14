@@ -7,6 +7,7 @@ sources:
   - architecting-for-continuous-delivery-thoughtworks
   - asanas-september-8-outage
   - beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium
+  - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -25,14 +26,16 @@ Asana's outage adds the recovery side of deployment automation. The team general
 
 Netflix's notebook platform adds a lighter-weight workflow automation case. Not every recurring production task needs to begin as a separate service or hand-translated scheduler script. A notebook can be parameterized, copied as a scheduler source artifact, executed into a fresh output notebook, and retained as a run record containing code, parameters, configuration, logs, output, and errors.
 
+Nygard's compliance source adds an evidence-production role for deployment automation. Automated pipeline steps can measure open ports, code coverage, software-supply-chain state, or CVEs, then produce records that compliance validation can consume. In the point-of-change model, deployment automation may gather evidence while a separate system of record and policy check decide whether deployment is allowed.
+
 ## Key Claims
 - Multiple deployment flows create maintenance cost across automation, documentation, and monitoring.
 - Immutable deployment through new AMIs and auto-scaling groups can reduce in-place update risk.
 - Blue/green deployment is useful when teams need a unified rollout and rollback story across core services.
 - Functional tests should run both before production deployment and after deployment completes.
 - Deployment automation is stronger when linked to observability, smoke tests, and internal platform defaults.
-- Deployment automation is necessary but insufficient when release confidence is hidden across disconnected jobs; a deployment pipeline turns automated stages into visible production flow.
-- Rollback and recurring-workflow automation need trustworthy revision history, run artifacts, and client-version or execution-record handling.
+- Deployment automation is necessary but insufficient when release confidence is hidden across disconnected jobs, rollback history is untrustworthy, or execution records are missing.
+- Deployment automation can gather compliance evidence, but validation may be separated into point-of-change policy enforcement.
 
 ## Evidence
 - Existing release paths: [[a-look-at-auth0-cloud-architecture-5-years-in]] describes Jenkins-triggered deployments using Puppet, SaltStack, Ansible, or AMI replacement and new auto-scaling groups.
@@ -46,15 +49,18 @@ Netflix's notebook platform adds a lighter-weight workflow automation case. Not 
 - Rollback complexity: [[asanas-september-8-outage]] says the team had to identify a safe revision rather than automatically reverting to the previous one.
 - Client handling: [[asanas-september-8-outage]] says the web clients would not prompt a reload after the server revert, so blacklisting the bad revision was necessary.
 - Scheduled notebook record: [[beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium]] says the scheduler copies source notebooks to S3, creates fresh output notebooks for each run, and preserves artifacts needed for investigation.
+- Compliance measurement: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says pipelines can measure code coverage, open ports, supply-chain state, and CVEs as compliance evidence.
+- Separation of concerns: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says point-of-change compliance splits measurement from validation so policy can change without forcing every team to redo measurement work.
 
 ## Counterevidence & Qualifications
-The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering.
+The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering.
 
 ## What Changed
 - Created the concept from Auth0's mixed deployment flows and blue/green rollout goal.
 - Added Thoughtworks' distinction between automating deployment phases and making the whole release flow visible through a pipeline.
 - Added Asana's outage to show rollback target selection and client-revision invalidation as deployment concerns.
 - Added scheduled notebooks as recurring data-workflow automation with preserved execution records.
+- Added compliance evidence gathering and point-of-change validation as deployment-automation responsibilities.
 
 ## Related Concepts
 - [[ChangeSafety]] - deployment automation is a release-engineering mechanism for safer change.
@@ -66,3 +72,4 @@ The sources describe deployment automation through specific practitioner lenses.
 - [[ContinuousDelivery]] - deployment automation is one necessary part of frequent reliable release.
 - [[ServiceObservability]] - deployment recovery depends on signals that reveal whether rollback has actually restored user-facing behavior.
 - [[NotebookWorkflowInfrastructure]] - scheduled notebooks automate recurring data workflows while preserving notebook-shaped run records.
+- [[ComplianceArchitecture]] - deployment automation can supply evidence for compliance validation.

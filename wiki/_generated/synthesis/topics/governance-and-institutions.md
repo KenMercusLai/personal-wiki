@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-14
-as_of_overview_commit: a68f89fbe3575e9e8d5b09253473588248ef4550
-input_digest: e2aa9211ab5dd81af94b2f4aca71b667efae6de5a0b78dc2bec11c5522ff94b4
+as_of_overview_commit: f05286f85ed7b71e66726b6f81f51831958b32fa
+input_digest: f4345b850d28b91984379576c0c807423f7a2172bd21dd5c305f4db2e34db534
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, and exit-oriented alternatives to incumbent institutions. The newest Srinivasan paragraph adds a polemical but useful counterframe: voice becomes more credible when people can switch, fork, found, relocate, or use tools such as Bitcoin to lower dependence on paper-era institutions, though that claim must be qualified by unequal exit capacity and the risk that software platforms create their own lock-in.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, and exit-oriented alternatives to incumbent institutions. The newest compliance paragraph adds an institutional operating pattern: controls become less damaging when evidence, validation, auditability, and ownership boundaries are explicit, though exit and voice remain uneven because people and teams differ in switching capacity, authority, and exposure to process bottlenecks.
 
 ## Cross-source Findings
 
@@ -28,19 +28,20 @@ Platform-operated decision systems need explicit controls because ranking, perso
 
 ### Experimentation And Automation Need Instrumentation
 
-Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, or other instrumentation that lets operators compare behavior before broad rollout.
+Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment.
 
-**Evidence:** [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]]
+**Evidence:** [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]]
 
 **Qualifications:**
 
 - Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible.
+- Compliance instrumentation can still become harmful when central ownership turns evidence gathering into a release bottleneck.
 
 ### Scale Changes Operating Boundaries
 
-Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, and product surfaces.
+Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls.
 
-**Evidence:** [[Kubernetes]], [[ContainerNativePractice]], [[NetworkAutomation]], [[InferenceLoadBalancing]], [[ContextualBandits]]
+**Evidence:** [[Kubernetes]], [[ContainerNativePractice]], [[NetworkAutomation]], [[InferenceLoadBalancing]], [[ContextualBandits]], [[ComplianceArchitecture]]
 
 **Qualifications:**
 

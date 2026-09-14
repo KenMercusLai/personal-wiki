@@ -35,6 +35,20 @@
     },
     {
       "global_candidate": true,
+      "id": "evidence-and-validation-make-technical-systems-governable",
+      "qualifications": [
+        "Compliance evidence proves specific controls rather than total system safety, and point-of-change enforcement is most justified when organizational scale creates real bottlenecks."
+      ],
+      "statement": "Technical systems become safer and more governable when evidence collection and validation are explicit: [[ComplianceArchitecture]] separates measured evidence from policy checks while [[DeploymentPipeline]] and [[ContinuousDelivery]] supply fast feedback only when controls preserve team flow.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ComplianceArchitecture",
+        "DeploymentPipeline",
+        "ContinuousDelivery"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "ai-coding-requires-human-judgment-and-harnesses",
       "qualifications": [
         "The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign.",
@@ -200,6 +214,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, design clear interfaces and boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
   "topic_id": "ai-and-technology"
 }

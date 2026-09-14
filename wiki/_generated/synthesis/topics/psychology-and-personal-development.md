@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-14
-as_of_overview_commit: 15cd5285bd5be6d444205b4a4751cfc37cbe64e8
-input_digest: dbc7fce42378af384822eaad8b0885570a1793cf2cec1745d8d2e5fba617cbd2
+as_of_overview_commit: f05286f85ed7b71e66726b6f81f51831958b32fa
+input_digest: 63212c34475643a1e440a772a8564b391e5696dae88024c127439553d927ce52
 ---
 
 # Psychology and Personal Development

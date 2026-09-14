@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Compliance in a DevOps Culture](sources/blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture.md) - Carl Nygard compares manual, pipeline, composition, and point-of-change compliance patterns, arguing for evidence-driven controls that preserve DevOps delivery at scale.
 - [You Can't Buy Integration](sources/blog-brandon-byars-martinfowler-com-you-cant-buy-integration.md) - Brandon Byars argues that integration cannot be bought as a product; organizations need clean capability interfaces, general-purpose language ownership for evolving APIs, and bounded tactical use of integration DSLs.
 - [Building Effective AI Agents](sources/blog-anthropic-building-effective-ai-agents.md) - Anthropic argues that effective agentic systems come from simple composable patterns, clear workflow-versus-agent distinctions, transparent loops, and carefully designed tool interfaces.
 - [Writing is Thinking - an annotated twitter thread](sources/writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping.md) - Steven Sinofsky argues that writing turns strategy into shared rationale, execution context, and corporate memory, while warning that memo rituals can become performative or gamed.
@@ -216,6 +217,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
 - [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author arguing that writing is a management discipline for strategy, planning, and execution context.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
@@ -798,6 +800,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Compliance Architecture](concepts/ComplianceArchitecture.md) - Design of evidence, validation, audit, and ownership structures that prove compliance while preserving delivery flow.
 - [Integration Strategy](concepts/IntegrationStrategy.md) - Architectural discipline of exposing and evolving business capabilities through clean interfaces rather than outsourcing integration thinking to a tool.
 - [Capability-Oriented Integration](concepts/CapabilityOrientedIntegration.md) - Integration posture that abstracts business capabilities instead of exposing underlying system names and quirks.
 - [Integration DSL](concepts/IntegrationDSL.md) - Specialized low-code or domain-specific integration environment that can simplify workflow, connectivity, and adapter work when bounded behind clean interfaces.

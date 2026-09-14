@@ -4,6 +4,7 @@ type: concept
 tags: [continuous-delivery, deployment, release-engineering]
 sources:
   - architecting-for-continuous-delivery-thoughtworks
+  - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -16,6 +17,8 @@ The Thoughtworks source treats the deployment pipeline as the central abstractio
 
 A pipeline turns release work into an inspectable production process. Each commit passes through staged checks and deployments; failures stop the line for fix or revert decisions; production deploy failure can route back to the last successful deploy stage. The article also uses Go.CD's value-stream map to show that pipelines can represent component dependencies, microservice integration requirements, and end-to-end production confidence rather than only a simple linear build.
 
+Nygard's compliance source adds a governance qualification. A pipeline can carry compliance fitness functions, manual gates, logs, and audit trails, giving developers faster feedback and giving compliance teams objective evidence. But when a central team locks down pipelines to guarantee compliance, the pipeline can stop serving its primary developer workflow purpose and become a bottleneck for team-specific evolution.
+
 ## Key Claims
 - A deployment pipeline gives release confidence by connecting build, test, deploy, and release stages into one visible flow.
 - CI and deployment automation can remain insufficient when build configurations are disconnected.
@@ -23,6 +26,7 @@ A pipeline turns release work into an inspectable production process. Each commi
 - Pipeline stops support immediate fix, revert, or rollback decisions.
 - Value-stream visualization exposes bottlenecks and component dependencies in the production path.
 - Pipeline design can support trunk-based development and microservice integration testing when dependency flow is explicit.
+- Pipeline-embedded compliance checks help only while pipeline ownership and evolution remain close enough to the development team.
 
 ## Evidence
 - CI limit: [[architecting-for-continuous-delivery-thoughtworks]] says disconnected build configurations make production confidence hard to assess.
@@ -30,12 +34,15 @@ A pipeline turns release work into an inspectable production process. Each commi
 - Stage confidence: [[architecting-for-continuous-delivery-thoughtworks]] says each commit advances through stages, gaining confidence with each passing stage.
 - Failure handling: [[architecting-for-continuous-delivery-thoughtworks]] says a failed stage stops the pipeline for fix or revert, and production deploy failure can roll back to the last successful production deploy.
 - Dependency view: [[architecting-for-continuous-delivery-thoughtworks]] says the Go.CD value-stream map displays application dependencies and commit states on the way to production.
+- Compliance checks: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says pipelines can run fitness functions and preserve logs as audit trails for compliance evidence.
+- Centralization risk: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] warns that central ownership of pipelines can slow teams because pipelines change frequently with team needs.
 
 ## Counterevidence & Qualifications
-The source advocates pipelines strongly but does not detail failure modes of pipeline design, such as overly slow stages, excessive manual gates, weak production monitoring, or false confidence from low-quality tests. A pipeline represents confidence only to the extent that its stages are fast, meaningful, and maintained.
+The sources advocate pipelines strongly but also show failure modes. A pipeline represents confidence only to the extent that its stages are fast, meaningful, maintained, and owned by people who can adapt them. Compliance gates can create useful audit evidence, but excessive manual approval or centralized control can turn the pipeline from a feedback mechanism into a delivery bottleneck.
 
 ## What Changed
 - Created the concept from Thoughtworks' deployment-pipeline discussion and image captions.
+- Added Nygard's compliance qualification: pipeline controls can improve feedback and auditability, but central compliance ownership can damage team flow.
 
 ## Related Concepts
 - [[ContinuousDelivery]] - the pipeline is presented as CD's backbone.
@@ -44,3 +51,4 @@ The source advocates pipelines strongly but does not detail failure modes of pip
 - [[CDComponentization]] - component dependencies can be represented inside pipeline flow.
 - [[ChangeSafety]] - stops, reverts, and rollbacks are release-safety mechanisms.
 - [[TrunkBasedDevelopment]] - the article names trunk-based development as a practice pipelines can support.
+- [[ComplianceArchitecture]] - compliance controls can be embedded in or separated from pipeline validation.
