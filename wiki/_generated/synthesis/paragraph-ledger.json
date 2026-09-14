@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2c6b7bec21b1bfb30d70e612c88d57c35b9b2d3a4c2561410d093688dd16b394",
       "4a171710c1d812f7b0bf3d46b8f81da4e4da7b796c70007462b572fa1caaf327",
       "684a1e04c91b8f9121d3c9f7ffc30a98686efb7a988c4fe908fc14acce781274",
       "56a534a6584da4b0d8c959e88134dcf5df7dcca7d8ae09f76d12c68d1fbfd4a2",
@@ -228,11 +229,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 226
+    "paragraph_count": 227
   },
-  "overview_commit": "cf738dcd29c3fbad3c5b0953fa7499acc8f927ec",
-  "overview_digest": "4c5e3f308a5f16109c43562853c42066cc868861a93bc5428507fa4b4537abb2",
+  "overview_commit": "0aeb0f5ea22eaf3053992611b8e55b0b70f956ac",
+  "overview_digest": "fab7bbeee6236ded3173565a17189a6f3924bf7a2c83dbdae05446ebe3a8f40b",
   "paragraphs": [
+    {
+      "id": "2c6b7bec21b1bfb30d70e612c88d57c35b9b2d3a4c2561410d093688dd16b394",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest beepb00p source adds a personal-data infrastructure layer to the wiki. New [[DataLiberation]], [[PersonalDataMirror]], and [[PersonalDataInfrastructure]] capture a practical stack where devices, phone apps, cloud services, APIs, scraping, GDPR exports, manual downloads, and direct filesystem/database access feed local files, then [[HumanProgrammingInterface]] turns those files into reusable modules for [[Promnesia]], [[Orger]], notebooks, APIs, spreadsheets, and metrics stores. [[Beepb00p]] is anchored as the practitioner-author of the map, while [[Android]] gains a data-ownership qualification: app sandboxing can be protective but can also force rooting when users need access to their own app-private data. The embedded SVG diagram was inspected and used as evidence for data-flow layers, WIP paths, dead-service continuity, anti-API friction, and downstream use cases.",
+      "topic_scores": {},
+      "wikilinks": [
+        "Android",
+        "Beepb00p",
+        "DataLiberation",
+        "HumanProgrammingInterface",
+        "Orger",
+        "PersonalDataInfrastructure",
+        "PersonalDataMirror",
+        "Promnesia"
+      ]
+    },
     {
       "id": "4a171710c1d812f7b0bf3d46b8f81da4e4da7b796c70007462b572fa1caaf327",
       "primary_topic": "ai-and-technology",

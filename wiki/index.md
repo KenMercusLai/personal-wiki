@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Map of my personal data infrastructure](sources/blog-beepb00p-map-of-my-personal-data-infrastructure.md) - beepb00p maps a personal data liberation stack where devices, services, export scripts, local files, HPI modules, and tools like Promnesia and Orger approximate a personal data mirror despite poor interoperability.
 - [Don't fall into the anti-AI hype](sources/blog-antirez-dont-fall-into-the-anti-ai-hype.md) - Antirez argues that programmers should treat AI coding as a real capability shift from hand-writing every line toward problem framing, prompting, inspection, and tool-guided building, while still worrying about centralization and job displacement.
 - [How to Sniffer Dummy VLAN on L2VPN](sources/blog-zhao-cs-how-to-sniffer-dummy-vlan-on-l2vpn.md) - Zhao CS traces Cisco IOS XR L2VPN packet captures to show when VPLS passthrough skips dummy VLAN insertion and EoMPLS Type 4 adds a VLAN ID 0 tag carrying 802.1p priority.
 - [How to Pick a Career (That Actually Fits You)](sources/blog-tim-urban-waitbutwhy-how-to-pick-a-career.md) - Tim Urban presents a first-principles career-decision framework built around authentic wants, realistic career game boards, an option pool, next-dot experiments, and periodic revision.
@@ -242,6 +243,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [beepb00p](entities/Beepb00p.md) - Practitioner-author mapping personal data liberation infrastructure around local exports, HPI, Promnesia, Orger, and interoperability workarounds.
+- [Human Programming Interface](entities/HumanProgrammingInterface.md) - Personal-data access layer that normalizes local exports for tools such as Promnesia, Orger, notebooks, APIs, spreadsheets, and metrics stores.
+- [Orger](entities/Orger.md) - Plaintext mirror and queue tool that turns personal data sources into local files and org-style workflows.
+- [Promnesia](entities/Promnesia.md) - Personal browsing-memory and search tool that consumes HPI-backed data sources through a browser-facing workflow.
 - [Rohan Rajiv](entities/RohanRajiv.md) - A Learning a Day author represented here by a reflection on uncertainty, graduate-school applications, and one-right-fit persistence.
 - [A Learning a Day](entities/ALearningADay.md) - Publication context for Rohan Rajiv's short personal-growth essay on high-stakes searches.
 - [Paulo Caroli](entities/PauloCaroli.md) - Agile and Lean facilitator behind the Product Backlog Building Canvas article.
@@ -871,6 +876,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Data Liberation](concepts/DataLiberation.md) - Extracting, preserving, and reusing personal data outside the platforms that collected or mediated it.
+- [Personal Data Infrastructure](concepts/PersonalDataInfrastructure.md) - User-controlled stack for collecting, exporting, storing, normalizing, searching, and reusing personal data.
+- [Personal Data Mirror](concepts/PersonalDataMirror.md) - Local, read-only reflection of personal digital activity assembled from exports, APIs, scraping, archives, and storage access.
 - [One Fit Search Mindset](concepts/OneFitSearchMindset.md) - Treating a high-stakes search as needing one compatible yes rather than universal approval from every option.
 - [Product Backlog Building](concepts/ProductBacklogBuilding.md) - Collaborative canvas technique for deriving PBIs and user stories from personas, activities, features, and benefits.
 - [User Stories](concepts/UserStories.md) - Agile requirements format that ties user, action, and benefit into a concise prompt for conversation and confirmation.

@@ -4,94 +4,64 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-14
-as_of_overview_commit: a31bc9299ee2d8da5954d985b341081ae19039db
-input_digest: cdedafed9273499ff8f855449eae25cda7c140fbfb74fcd74f17a4bd911ed638
+as_of_overview_commit: 0aeb0f5ea22eaf3053992611b8e55b0b70f956ac
+input_digest: 4732f881c5d176ab6ff8871d3ca736e8094efdeaaf04f61e0f583a3138e01895
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain judgment in this corpus treats constraints as the real unit of design: attention can be scarcer than time, API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
+Cross-domain sources emphasize infrastructure thinking across personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, and tradeoffs explicit enough to inspect and reuse.
 
 ## Cross-source Findings
 
-### Attention Is A Capacity Constraint
+### Infrastructure Makes Hidden Flows Actionable
 
-Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly.
+Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 
-**Evidence:** [[AttentionManagement]], [[PersonalProductivity]]
-
-**Qualifications:**
-
-- The Fried source is a short personal reflection, so it sharpens boundary-setting language more than it proves a general measurement model for attention.
-
-### Interfaces Are Recovery Contracts
-
-Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]].
-
-**Evidence:** [[APIErrorHandling]], [[HTTP]], [[DeveloperExperience]]
+**Evidence:** [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]]
 
 **Qualifications:**
 
-- The API source is practical advice rather than a complete error schema or standards document.
+- The personal-data example is source-scoped to a technically sophisticated user's stack, while the email example is a platform-scale marketing snapshot.
 
-### Rough Models Guide Early Architecture
+### Human Constraints Shape System Design
 
-Early architecture judgment often depends on rough models: [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] help reject designs before implementation, while [[CloudCostOptimization]] uses similar unit reasoning for cost sanity checks.
+Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 
-**Evidence:** [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[CloudCostOptimization]]
-
-**Qualifications:**
-
-- Order-of-magnitude estimates guide decisions but do not replace measurement under real workloads.
-
-### Physical And Perceptual Constraints Shape Systems
-
-Good systems cross from software structure into human and physical constraints: [[ThumbReachErgonomics]] motivates [[ReachNavigation]] in larger-screen [[IOS]] design, while [[MapTrajectoryRendering]] can accept simplified paths when the visible shape remains useful.
-
-**Evidence:** [[ThumbReachErgonomics]], [[ReachNavigation]], [[IOS]], [[MapTrajectoryRendering]]
+**Evidence:** [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]]
 
 **Qualifications:**
 
-- Ergonomic and rendering tradeoffs depend on task frequency, risk, device size, and acceptable fidelity.
+- These claims come from practitioner essays and design argumentation rather than broad experimental evidence.
 
-### Classification Turns Exposure Into Action
+### Rough Models Guide Technical Judgment
 
-Security triage becomes actionable when exposed services are classified by likely failure mode: [[DefensivePortTriage]] maps open services to [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], and [[DatabaseServiceExposure]].
+Rough models such as [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[DefensivePortTriage]], and [[TrajectorySimplification]] help engineers decide where precision matters and where fast classification or approximation is enough.
 
-**Evidence:** [[DefensivePortTriage]], [[WeakCredentialExposure]], [[CleartextProtocolExposure]], [[UnauthenticatedServiceExposure]], [[RemoteAdministrationExposure]], [[DatabaseServiceExposure]]
-
-**Qualifications:**
-
-- An open port is not proof of compromise; it is a prompt for targeted validation.
-
-### Platform Scale Data Turns Marketing Into Operations
-
-Platform-scale marketing data can turn campaign practice into operational judgment, as [[EmailMarketingAtScale]] uses [[SendGrid]] volume, [[MobileEmailEngagement]], [[Litmus]] device benchmarks, and [[SubjectLineOptimization]] to connect retail timing, mobile behavior, and copy length.
-
-**Evidence:** [[EmailMarketingAtScale]], [[SendGrid]], [[MobileEmailEngagement]], [[Litmus]], [[SubjectLineOptimization]]
+**Evidence:** [[BackOfEnvelopeEstimation]], [[DefensivePortTriage]], [[LatencyHierarchy]], [[TrajectorySimplification]]
 
 **Qualifications:**
 
-- The evidence is source-scoped to a SendGrid company blog post and cited benchmarks; the unresolved local image was a Twilio 404 HTML page, not usable image evidence.
+- The port-triage source classifies likely risks rather than proving compromise, and trajectory simplification trades detail for display and transfer efficiency.
 
-### Growth Levers Recombine Across Product Systems
+### Interfaces Are Recovery Surfaces
 
-The Apple growth paragraph shows a business-system version of cross-domain reasoning: [[AppleGrowthLevers]] combine [[IPhone]] pricing, Services, [[AppleWatch]], and [[AirPods]] adoption rather than a single product-variable explanation.
+Good interfaces make recovery possible: [[APIErrorHandling]] gives developers actionable failure semantics, while [[DataLiberation]] and [[PersonalDataMirror]] preserve continuity when platforms restrict access or disappear.
 
-**Evidence:** [[AppleGrowthLevers]], [[IPhone]], [[AppleWatch]], [[AirPods]]
-
-**Qualifications:**
-
-- This claim is source-scoped to Neil Cybart's 2018 Apple analysis and its embedded revenue chart.
-
-### Compression Trades Detail For System Performance
-
-Applied algorithms can deliberately trade detail for system performance, as [[TrajectorySimplification]] uses [[RamerDouglasPeuckerAlgorithm]] and [[EpsilonTolerance]] to reduce transfer, storage, and rendering cost.
-
-**Evidence:** [[TrajectorySimplification]], [[RamerDouglasPeuckerAlgorithm]], [[EpsilonTolerance]]
+**Evidence:** [[APIErrorHandling]], [[DataLiberation]], [[PersonalDataMirror]]
 
 **Qualifications:**
 
-- The acceptable epsilon depends on whether display shape matters more than exact path fidelity.
+- API errors address integration recovery; personal data mirrors address user continuity, so the common pattern is conceptual rather than a shared implementation.
+
+### Platform Growth Mixes Near Term And Durable Levers
+
+Platform growth can combine near-term extraction with longer-term compounding, as [[AppleGrowthLevers]] ties higher [[IPhone]] selling prices to Services and [[WearableComputing]] adoption through [[AppleWatch]] and [[AirPods]].
+
+**Evidence:** [[AirPods]], [[AppleGrowthLevers]], [[AppleWatch]], [[IPhone]], [[WearableComputing]]
+
+**Qualifications:**
+
+- This is drawn from one Above Avalon Apple interpretation and should not be read as a general platform-growth law.

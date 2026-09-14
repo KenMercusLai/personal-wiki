@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Map of my personal data infrastructure
+
+Ingested beepb00p's personal data infrastructure map; inspected the embedded SVG diagram; added pages for data liberation, personal data mirrors, personal data infrastructure, HPI, Promnesia, Orger, and beepb00p; updated Android with the personal data extraction qualification.
+
 ## [2026-09-14] ingest | Don't fall into the anti-AI hype
 
 Added Antirez's essay on AI coding adoption. Key claims: recent LLMs can complete substantial bounded programming work, programmers should seriously test AI tools rather than dismiss them from anti-hype instincts, the work shifts toward problem framing and result inspection, open models and open source matter for democratization, centralization remains a risk, and job displacement needs political support rather than denial. No image references were present in the source Markdown.
@@ -1831,6 +1835,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
