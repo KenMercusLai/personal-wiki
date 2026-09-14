@@ -9,6 +9,7 @@ sources:
   - a-terrible-horrible-no-good-very-bad-hardbound-update
   - after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen
   - appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby
+  - 2023-focusing-on-a-single-product-pays-off
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -17,7 +18,7 @@ knowledge_schema: synthesis-v1
 [[StartupFocus]] is the discipline of choosing one strategic path strongly enough that scarce founder time, team attention, and resources are not split across incompatible business models.
 
 ## Current Synthesis
-The sources frame focus as the courage to choose when both options, tactics, or market dreams have emotional pull. Maderight preserved service revenue and product ambition at the same time, splitting attention so both paths suffered. The Groove source adds a simpler filter for day-to-day advice pressure: a business needs to create value and earn profit; every other claimed necessity is negotiable until evidence shows it matters. The Grady interview adds first-principles focus: founders should solve a real problem durably, start with a narrow slice of a big market, and avoid hype cycles that pull attention toward money, status, or generalized growth. Chen adds a pre-fit diagnostic version: in the [[TroughOfSorrow]], focus means identifying whether the root problem is retention, engagement, onboarding, marketing, growth execution, product risk, or unclear value proposition instead of rebooting reflexively. The Hardbound update adds a post-setback focus problem: after a funding miss, continuing the same model, changing the model, seeking an acqui-hire, or pausing are all live options, but the founder still needs to preserve the core mission while learning what failed. Appcanary adds a technical version of focus: avoid unfamiliar tools and premature distributed systems when those choices pull attention away from the business problem.
+The sources frame focus as the courage to choose when both options, tactics, or market dreams have emotional pull. Maderight preserved service revenue and product ambition at the same time, splitting attention so both paths suffered. The Groove source adds a simpler filter for day-to-day advice pressure: a business needs to create value and earn profit; every other claimed necessity is negotiable until evidence shows it matters. The Grady interview adds first-principles focus: founders should solve a real problem durably, start with a narrow slice of a big market, and avoid hype cycles that pull attention toward money, status, or generalized growth. Chen adds a pre-fit diagnostic version: in the [[TroughOfSorrow]], focus means identifying whether the root problem is retention, engagement, onboarding, marketing, growth execution, product risk, or unclear value proposition instead of rebooting reflexively. The Hardbound update adds a post-setback focus problem: after a funding miss, continuing the same model, changing the model, seeking an acqui-hire, or pausing are all live options, but the founder still needs to preserve the core mission while learning what failed. Appcanary adds a technical version of focus: avoid unfamiliar tools and premature distributed systems when those choices pull attention away from the business problem. Rozen adds an indie-SaaS version: avoid unrelated small bets once a product is working, because the early adoption problem is harder to repeat than later product and revenue growth.
 
 ## Key Claims
 - "Do both" decisions can hide a refusal to choose between incompatible strategies.
@@ -25,8 +26,8 @@ The sources frame focus as the courage to choose when both options, tactics, or 
 - Early customer service can be useful for discovery, but new product adoption may require dropping or deprioritizing old customers if their needs reinforce the wrong model.
 - Scarce founder time makes strategic ambiguity, technical novelty, and architectural sophistication operationally expensive.
 - Startup advice that does not directly support value creation or profit can become tactic-chasing distraction.
-- First-principles problem-solving, narrow market entry, and root-cause diagnosis can protect teams from hype, unfocused expansion, and applying the wrong tactic to the wrong bottleneck.
-- After a funding failure, focus may mean pausing and redesigning the model rather than immediately continuing the old operating plan.
+- First-principles problem-solving, narrow market entry, root-cause diagnosis, and post-failure model redesign can protect teams from hype, unfocused expansion, and applying the wrong tactic to the wrong bottleneck.
+- Once an indie SaaS has evidence of adoption, doubling down can be more efficient than restarting the zero-to-early-revenue climb across unrelated products.
 
 ## Evidence
 - Service origin: [[4-lessons-from-a-failed-startup-from-and-for-first-time-founders]] says Maderight began as a service company to get customers from day one and learn their problems.
@@ -44,15 +45,18 @@ The sources frame focus as the courage to choose when both options, tactics, or 
 - Mission preservation: [[a-terrible-horrible-no-good-very-bad-hardbound-update]] says [[NathanBashaw]] still wants to use technology and storytelling to widen perspective, deepen empathy, and sharpen knowledge even if Hardbound's model changes.
 - Familiar tools: [[appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby]] says startups should prefer tools they know well when pressed for time.
 - Architecture restraint: [[appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby]] says teams should avoid distributed systems as long as they can because they add expensive complexity.
+- Single-product focus: [[2023-focusing-on-a-single-product-pays-off]] argues that getting from zero to early MRR is much harder than later growth and that unrelated diversification can prevent compounding.
+- Product persistence: [[2023-focusing-on-a-single-product-pays-off]] says [[OnlineOrNot]] gained customers from old prospects, early free users, and accumulated fixes that only mattered after time passed.
 
 ## Counterevidence & Qualifications
-The sources do not prove that hybrid service/software models always fail, that all non-core tactics are useless, that big markets should be avoided, that pausing is always better than pushing through, or that unfamiliar tools are never worth adopting. Their shared warning applies when parallel paths, copied advice, hype, technical novelty, architectural sophistication, guilt-driven tactics, or attachment to an old model consume scarce founder attention before the team knows whether its current strategy is working.
+The sources do not prove that hybrid service/software models always fail, that all non-core tactics are useless, that big markets should be avoided, that pausing is always better than pushing through, that unfamiliar tools are never worth adopting, or that product portfolios are always weaker than one-product focus. Their shared warning applies when parallel paths, copied advice, hype, technical novelty, architectural sophistication, unrelated diversification, guilt-driven tactics, or attachment to an old model consume scarce founder attention before the team knows whether its current strategy is working.
 
 ## What Changed
 - Added first-principles problem choice, narrow-market entry, and hype avoidance as focus disciplines.
 - Added Hardbound's post-fundraise pause/model-change decision as a focus problem after setback.
 - Added Chen's root-bottleneck diagnosis as a focus discipline during the Trough of Sorrow.
 - Added Appcanary's warning that unfamiliar tools and distributed architecture can distract from the business problem.
+- Added Rozen's indie-SaaS argument that one working product can compound more efficiently than unrelated small bets.
 
 ## Related Concepts
 - [[ProductMarketFit]] - reaching fit may require choosing the customer and model with the strongest adoption signal.
@@ -65,3 +69,5 @@ The sources do not prove that hybrid service/software models always fail, that a
 - [[TroughOfSorrow]] - pre-fit pressure makes focus harder and more necessary.
 - [[ToolFamiliarity]] - familiar tools can preserve attention under time pressure.
 - [[DistributedSystemRestraint]] - architecture restraint is a technical form of startup focus.
+- [[SmallProductPortfolio]] - product portfolios are the strategy Rozen explicitly questions when unrelated bets dilute compounding.
+- [[OnlineOrNot]] - concrete focused-product example where customer memory and operating learning accumulated over time.

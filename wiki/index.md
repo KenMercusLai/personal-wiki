@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [2023: Focusing on a Single Product Pays Off](sources/2023-focusing-on-a-single-product-pays-off.md) - Max Rozen argues that ROZENMD and OnlineOrNot grew faster in 2023 because one focused product let business learning, customer memory, and product maturity compound.
 - [Map of my personal data infrastructure](sources/blog-beepb00p-map-of-my-personal-data-infrastructure.md) - beepb00p maps a personal data liberation stack where devices, services, export scripts, local files, HPI modules, and tools like Promnesia and Orger approximate a personal data mirror despite poor interoperability.
 - [Don't fall into the anti-AI hype](sources/blog-antirez-dont-fall-into-the-anti-ai-hype.md) - Antirez argues that programmers should treat AI coding as a real capability shift from hand-writing every line toward problem framing, prompting, inspection, and tool-guided building, while still worrying about centralization and job displacement.
 - [How to Sniffer Dummy VLAN on L2VPN](sources/blog-zhao-cs-how-to-sniffer-dummy-vlan-on-l2vpn.md) - Zhao CS traces Cisco IOS XR L2VPN packet captures to show when VPLS passthrough skips dummy VLAN insertion and EoMPLS Type 4 adds a VLAN ID 0 tag carrying 802.1p priority.
@@ -676,6 +677,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
+- [Cloudflare D1](entities/CloudflareD1.md) - Cloudflare database product where Max Rozen became a founding engineer after contributing bug fixes and UX ideas.
+- [Max Rozen](entities/MaxRozen.md) - Web developer and indie SaaS founder arguing from OnlineOrNot that one working product can compound over time.
+- [OnlineOrNot](entities/OnlineOrNot.md) - Max Rozen's focused SaaS product whose customer memory, operating learning, and maturity drove the source's 2023 growth story.
+- [ROZENMD](entities/ROZENMD.md) - Max Rozen's French business that runs OnlineOrNot and sells his products.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
 - [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
@@ -938,7 +943,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Exit as Governance](concepts/ExitAsGovernance.md) - Governance frame where credible alternatives, switching, forking, founding, relocation, or opt-out infrastructure discipline institutions.
 - [Opt-In Society](concepts/OptInSociety.md) - Voluntary technology-mediated society that people join by choice rather than inherited jurisdiction.
 - [Paper Belt](concepts/PaperBelt.md) - Srinivasan's label for paper-era institutional centers in education, media, finance, entertainment, and law.
-- [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of growing a project through protected, low-pressure spare time until it teaches, enriches, or becomes a product/business candidate.
+- [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of growing a project through protected spare time, employment-supported patience, and low-pressure learning until it teaches, enriches, or becomes a product/business candidate.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
@@ -1177,7 +1182,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines and exploratory loops grounded in source material and human judgment.
 - [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing and rough draft material.
 - [Build In Public](concepts/BuildInPublic.md) - Product-building practice of publicly sharing progress, decisions, examples, feedback requests, and business results while a product is being made.
-- [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income.
+- [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income, qualified by the risk of fragmenting compounding.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
 - [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
 - [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that teaches a market to see a new problem or category so the creator becomes the default reference point.
@@ -1224,7 +1229,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Data Exploration](concepts/DataExploration.md) - Controlled randomization that produces less biased learning data and logged propensities for decision systems.
 - [Offline Policy Replay](concepts/OfflinePolicyReplay.md) - Counterfactual evaluation of decision policies against logged randomized interactions.
 - [Big Data Industry Transformation](concepts/BigDataIndustryTransformation.md) - Conditions under which large-scale data and automation can reshape an industry's operations or products.
-- [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets and modular infrastructure.
+- [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets, modular infrastructure, customer trust, and long-term product compounding.
 - [Browser Payment Broker](concepts/BrowserPaymentBroker.md) - Proposed browser role that mediates payment between users, providers, and sites.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, future options, and staged steps.
@@ -1410,7 +1415,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
-- [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, and scarce founder attention conflict.
+- [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, adjacent devices, and post-iPhone seeding away from the PC-era center.
 - [Osborne Effect](concepts/OsborneEffect.md) - Product-transition failure mode where announcing the next platform too early collapses demand for the current one before the replacement is ready.
 - [Platform Business Model Obstacle](concepts/PlatformBusinessModelObstacle.md) - Platform failure mode where technology improves but the prevailing revenue or licensing model no longer fits ecosystem economics.
