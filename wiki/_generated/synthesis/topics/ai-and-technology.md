@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-15
-as_of_overview_commit: 2e13ec2742dda235b05dead84561783c1f1ccb26
-input_digest: a5e13592b1d37cf99513dbf0ce603f5681ee27ce6c10b2e87f40c6fa7d1ec403
+as_of_overview_commit: 9934ba57ded3ad277fc45aa2d225d5cca69c5636
+input_digest: e2bef4f9aec58b4f811157b7783625c60743a0e5097f7332787092819e74c4eb
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
 
 ## Cross-source Findings
 
@@ -109,3 +109,13 @@ Operational change safety, compliance evidence, and lifecycle management for fra
 **Qualifications:**
 
 - The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, risk, and responsible interaction with external systems.
+
+### Technology Signals Emerge Through Cross Domain Scanning
+
+[[CrossDomainScanning]] can reveal technology adoption signals before they become a single theory: Whitwell's Fluxx list places translation apps, QR payments, voice search, DIY medical devices, home batteries, assistive speakers, and legacy infrastructure beside [[CrossDomainWisdom]] and [[SystematicLearning]] as discovery material rather than settled explanation.
+
+**Evidence:** [[CrossDomainScanning]], [[CrossDomainWisdom]], [[SystematicLearning]], [[TomWhitwell]], [[Fluxx]]
+
+**Qualifications:**
+
+- Whitwell's source is a 2017 annual observation list rather than a technology adoption study, so the examples should be treated as dated prompts for follow-up.

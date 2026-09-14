@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | 52 Things I Learned in 2017
+
+Added Tom Whitwell's Fluxx Studio Notes learning list as a cross-domain scanning source. Created [[TomWhitwell]], [[Fluxx]], and [[CrossDomainScanning]], and updated [[CrossDomainWisdom]] to distinguish broad signal collection from systematic validation. Inspected all three embedded local images; they were duplicate/thumbnail versions of a decorative barrier-crossing illustration and added no independent evidence.
+
 ## [2026-09-15] ingest | Build as Much as You Can
 
 Added source note for the 8th Light essay on prolific practice, created [[ProlificPractice]] and [[8thLight]], and connected the article to active learning, self-discipline, failure ownership, and timeboxed productivity. The source's duplicate hero image could not be inspected because the local asset is absent and the remote URL returns 404.
@@ -2170,6 +2174,10 @@ Added The Year of the Looking Glass essay on product-building practice. Key clai
 ## [2026-09-15] ingest | Building a Business in the Shadow of a Giant
 
 Added Noteworthy's Wistia/YouTube strategy essay. Key claims: dominant platforms can create startup openings by expanding demand, setting technical baselines, deterring direct entrants through free pricing, and leaving specialized business segments underserved. Inspected seven embedded local images and treated them as decorative article art, thumbnails, author/photo UI, or divider assets rather than independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

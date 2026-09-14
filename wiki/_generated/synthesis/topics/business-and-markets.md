@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 28613f5785066f72921314b5b9e853ee2ac8b265
-input_digest: 339dc9bac64e05fdc553a6b766147d2d64fae1e84fb5535e100d4b1db3e89a02
+as_of_overview_commit: 9934ba57ded3ad277fc45aa2d225d5cca69c5636
+input_digest: 976b5cad076c7e92e6c8149b1735f5f11cceea74f7f5315fc68bab5668dde008
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, and monetization systems. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.
 
 ## Cross-source Findings
 
@@ -231,3 +231,13 @@ Business and markets material in the corpus connects durable strategy, platform 
 **Qualifications:**
 
 - The messaging-ad and mobile-platform evidence is time-bound and does not by itself prove later user acceptance, profitability, or regulatory outcomes.
+
+### Cross Domain Scanning Surfaces Market Weak Signals
+
+[[CrossDomainScanning]] helps business and market learning by juxtaposing weak signals around startup founder age, customer hesitation, QR-code payments, paper-mail retargeting, media valuation, forecasting errors, and informal technology adoption; [[TomWhitwell]] and [[Fluxx]] supply this as discovery material adjacent to [[CrossDomainWisdom]] and [[SystematicLearning]].
+
+**Evidence:** [[CrossDomainScanning]], [[TomWhitwell]], [[Fluxx]], [[CrossDomainWisdom]], [[SystematicLearning]]
+
+**Qualifications:**
+
+- Whitwell's 2017 Fluxx list is a curated set of sourced observations rather than a market model, so its founder-age, customer, media, payment, and forecasting examples need underlying-source validation before becoming current business claims.

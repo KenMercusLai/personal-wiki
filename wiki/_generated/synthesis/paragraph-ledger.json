@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
       "264264967f6099ce4807fe191f95d40c8b16feba16a4a544c16b098fa45ddb0f",
       "ed0b910c09f01f84b57e584c3f52c0e18a3038727a2989447708b7c2b165c40e",
       "3d98a2f39e03c613ebf342860b17d464649bc95672d0c446ee4e47ed71f7f0c6",
@@ -253,11 +254,33 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 251
+    "paragraph_count": 252
   },
-  "overview_commit": "2e13ec2742dda235b05dead84561783c1f1ccb26",
-  "overview_digest": "535eafba4e9683afac1b96e8afabdf528c28022a758e44607d043f52ad0af22e",
+  "overview_commit": "9934ba57ded3ad277fc45aa2d225d5cca69c5636",
+  "overview_digest": "da7632f9c1ab189770b5e4fc3a80db10f6d22a4c7badf2b445a2330d6af5766e",
   "paragraphs": [
+    {
+      "id": "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "Tom Whitwell's 2017 Fluxx source adds [[CrossDomainScanning]] as a discovery practice adjacent to [[CrossDomainWisdom]] and [[SystematicLearning]]. The list's 52 sourced observations do not form one causal model, but their juxtaposition makes recurring patterns visible: new technology enters informal settings through translation apps, QR payments, voice search, DIY medical devices, home batteries, and assistive speakers; old infrastructure persists through pagers, typewriters, iron lungs, divining rods, and paper-mail retargeting; and behavior evidence qualifies intuition around founder age, WEIRD samples, cash transfers, customer hesitation, sports-car risk signals, and failed cellphone-market forecasts. [[TomWhitwell]] and [[Fluxx]] become the author and consultancy context. The three local image embeds were duplicate/thumbnail versions of a decorative barrier-crossing illustration and added no separate evidence.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CrossDomainScanning",
+        "CrossDomainWisdom",
+        "Fluxx",
+        "SystematicLearning",
+        "TomWhitwell"
+      ]
+    },
     {
       "id": "264264967f6099ce4807fe191f95d40c8b16feba16a4a544c16b098fa45ddb0f",
       "primary_topic": "ai-and-technology",

@@ -167,8 +167,24 @@
         "WebScrapingProxyPool",
         "Redis"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "technology-signals-emerge-through-cross-domain-scanning",
+      "qualifications": [
+        "Whitwell's source is a 2017 annual observation list rather than a technology adoption study, so the examples should be treated as dated prompts for follow-up."
+      ],
+      "statement": "[[CrossDomainScanning]] can reveal technology adoption signals before they become a single theory: Whitwell's Fluxx list places translation apps, QR payments, voice search, DIY medical devices, home batteries, assistive speakers, and legacy infrastructure beside [[CrossDomainWisdom]] and [[SystematicLearning]] as discovery material rather than settled explanation.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "CrossDomainScanning",
+        "CrossDomainWisdom",
+        "SystematicLearning",
+        "TomWhitwell",
+        "Fluxx"
+      ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.",
   "topic_id": "ai-and-technology"
 }

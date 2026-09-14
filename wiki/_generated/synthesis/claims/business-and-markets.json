@@ -427,8 +427,24 @@
         "WearableComputing",
         "InternetOfThingsData"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "cross-domain-scanning-surfaces-market-weak-signals",
+      "qualifications": [
+        "Whitwell's 2017 Fluxx list is a curated set of sourced observations rather than a market model, so its founder-age, customer, media, payment, and forecasting examples need underlying-source validation before becoming current business claims."
+      ],
+      "statement": "[[CrossDomainScanning]] helps business and market learning by juxtaposing weak signals around startup founder age, customer hesitation, QR-code payments, paper-mail retargeting, media valuation, forecasting errors, and informal technology adoption; [[TomWhitwell]] and [[Fluxx]] supply this as discovery material adjacent to [[CrossDomainWisdom]] and [[SystematicLearning]].",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "CrossDomainScanning",
+        "TomWhitwell",
+        "Fluxx",
+        "CrossDomainWisdom",
+        "SystematicLearning"
+      ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, and monetization systems. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame: startup scaling can be treated as requirements, constraints, culture/process implementation, validation, and iteration; Buffer's operating snapshot shows metrics, autonomous teams, hiring, product, and support as linked SaaS operating surfaces; and the Baqend/Thinks case shows web performance, cache coherence, and latency control as ecommerce conversion infrastructure under burst demand.",
   "topic_id": "business-and-markets"
 }

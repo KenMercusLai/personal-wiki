@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [52 Things I Learned in 2017](sources/52-things-i-learned-in-2017-fluxx-studio-notes-medium.md) - Tom Whitwell's Fluxx Studio Notes list uses 52 sourced observations from 2017 to surface cross-domain patterns around technology adoption, legacy infrastructure, behavior, risk, poverty, and customer research.
 - [5 Product Design Tips: Making Your App Sticky From the Start](sources/5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product.md) - Mind the Product argues that sticky connected-product apps earn first-use retention through no-strings exploration, low-friction flows, benefit-led messaging, fewer choices, and coherent physical-digital design.
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
 - [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
@@ -280,6 +281,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Fluxx](entities/Fluxx.md) - Product and experimentation consultancy that published Tom Whitwell's 2017 learning list on Fluxx Studio Notes.
+- [Tom Whitwell](entities/TomWhitwell.md) - Author and Fluxx senior consultant behind the 2017 "52 Things I Learned" source.
 - [Crawlee](entities/Crawlee.md) - Crawler library used around Playwright in Tim Connors' AI scraper prototype.
 - [Playwright](entities/Playwright.md) - Browser automation layer used for selectors and generated page interactions in the AI scraper prototype.
 - [Tim Connors](entities/TimConnors.md) - Author and builder of the universal AI scraper prototype.
@@ -969,6 +972,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.
 - [AI-Guided Web Scraping](concepts/AIGuidedWebScraping.md) - Scraping pattern where an LLM-guided agent searches page structure, selects elements, performs browser interactions, and iterates toward a goal.
 - [Engineering Career Architecture](concepts/EngineeringCareerArchitecture.md) - Structured engineering-leveling system for expectations, promotion signals, fair scope, and evaluation calibration.
 - [Prolific Practice](concepts/ProlificPractice.md) - Craft-learning habit of making many small things so repeated feedback and bounded failures improve quality.
