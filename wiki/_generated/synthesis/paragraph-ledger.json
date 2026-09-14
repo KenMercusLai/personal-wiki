@@ -1,8 +1,11 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4a171710c1d812f7b0bf3d46b8f81da4e4da7b796c70007462b572fa1caaf327",
+      "684a1e04c91b8f9121d3c9f7ffc30a98686efb7a988c4fe908fc14acce781274",
       "56a534a6584da4b0d8c959e88134dcf5df7dcca7d8ae09f76d12c68d1fbfd4a2",
       "0c1e18aa8842bfc3be0b7b2bbc512cfb05d49ebf3046c917d8318e0fbb24e279",
+      "1b24592c2ed515d273b808031b52fff80e0d9c7fe3c0404e6e39be5fa5a908e7",
       "71f3008cd8567339ca11d465d8ad78686a8b72abdeb66710bc8d7314f88f9d31",
       "4c337a246ad1649d5be1209ec6945fefff0bfd93cc0817fe06868680726fab65",
       "cf80b7c5739f722dbecfacbb8ecc599abefeb47d2b699b28797080922824b160",
@@ -225,11 +228,54 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 223
+    "paragraph_count": 226
   },
-  "overview_commit": "4cd9cfaa2d2e9536a4fea86f17ba2ccaf6340039",
-  "overview_digest": "8316d396a4fcfbbd01cea4823566a1eb25e2d2b1f5c41ae3f7345f8e894286e4",
+  "overview_commit": "cf738dcd29c3fbad3c5b0953fa7499acc8f927ec",
+  "overview_digest": "4c5e3f308a5f16109c43562853c42066cc868861a93bc5428507fa4b4537abb2",
   "paragraphs": [
+    {
+      "id": "4a171710c1d812f7b0bf3d46b8f81da4e4da7b796c70007462b572fa1caaf327",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Antirez source adds a forceful pro-adoption counterweight to the wiki's AI-coding cautions. New [[Antirez]] anchors the source as a Redis creator and systems programmer who values hand-written minimal software but argues that recent LLM capability changes the practical shape of programming. [[AICodingPractice]] now includes his shift from line-by-line implementation toward problem representation, prompting, inspection, and guidance. [[ClaudeCode]] gains concrete Redis-adjacent examples: linenoise UTF-8 and terminal-cell testing, Redis test-flake debugging, a C embedding-inference library, and Redis Streams work reproduced from a design document. [[PracticalLLMUse]] is strengthened by his advice to test AI tools seriously over weeks, while [[AIDependencySkillAtrophy]] is narrowed: the risk is not AI use itself but replacing the practices that still build judgment, taste, and maintenance ownership. The source contained no Markdown image references.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AICodingPractice",
+        "AIDependencySkillAtrophy",
+        "Antirez",
+        "ClaudeCode",
+        "PracticalLLMUse"
+      ]
+    },
+    {
+      "id": "684a1e04c91b8f9121d3c9f7ffc30a98686efb7a988c4fe908fc14acce781274",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Zhao CS source adds packet-level MPLS L2VPN detail to the wiki's networking material. New [[L2VPNDummyVLAN]] captures the key behavior: in the successful IOS XR EoMPLS Type 4 case, a dummy VLAN is an 802.1Q VLAN ID 0 tag carrying 802.1p priority after rewrite strips the customer VLAN tag. New [[VPLS]], [[EoMPLS]], [[L2VPN]], and [[PseudowireTransportTypes]] distinguish Type 5, Type 4 passthrough, and Type 4 `transport-mode vlan`, including the important qualification that IOS XR VPLS passthrough does not insert the dummy tag. [[Cisco]] now has a second evidence path as the vendor context for concrete IOS XR encapsulation behavior, and [[CiscoIOSXR]], [[ZhaoCS]], and [[ZhaoCSInfo]] anchor the platform, author, and publication. Eight images were inspected: the topology diagram, VPLS Type 5/Type 4 passthrough captures, rewrite-without-dummy captures, FAT label/control-word captures, the expanded VLAN ID 0 dummy-tag view, and the far-end VLAN 10/PRI 5 verification.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Cisco",
+        "CiscoIOSXR",
+        "EoMPLS",
+        "L2VPN",
+        "L2VPNDummyVLAN",
+        "PseudowireTransportTypes",
+        "VPLS",
+        "ZhaoCS",
+        "ZhaoCSInfo"
+      ]
+    },
     {
       "id": "56a534a6584da4b0d8c959e88134dcf5df7dcca7d8ae09f76d12c68d1fbfd4a2",
       "primary_topic": "ai-and-technology",
@@ -262,6 +308,26 @@
         "ALearningADay",
         "OneFitSearchMindset",
         "RohanRajiv"
+      ]
+    },
+    {
+      "id": "1b24592c2ed515d273b808031b52fff80e0d9c7fe3c0404e6e39be5fa5a908e7",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The newest Tim Urban source adds a first-principles self-audit layer to [[CareerPlanning]]. New [[WantRealityCareerFramework]] captures the article's model: career options should come from the overlap between authentic wants and realistic reachability, where wants are audited for inherited motives and reality is tested against current career game boards, starting point, success threshold, pace, and persistence. [[TimUrban]] and [[WaitButWhy]] anchor the source's illustrated long-form style. The key framework diagrams were directly inspected and used as evidence for the option pool, Yearning Octopus, yearning hierarchy, strategy loop, opportunity cost, inertia spectrum, and changing-self/changing-world feedback loops; the article also contains many additional illustrative cartoons and repeated footnote icons.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CareerPlanning",
+        "TimUrban",
+        "WaitButWhy",
+        "WantRealityCareerFramework"
       ]
     },
     {

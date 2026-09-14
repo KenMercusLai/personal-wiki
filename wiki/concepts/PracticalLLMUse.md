@@ -4,6 +4,7 @@ type: concept
 tags: [ai, llm, productivity, programming]
 sources:
   - blog-nicholas-carlini-how-i-use-ai
+  - blog-antirez-dont-fall-into-the-anti-ai-hype
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -16,6 +17,8 @@ Carlini's source frames practical LLM use as a present-tense productivity claim 
 
 The concept is therefore complementary to [[AIWorkflowDesign]] and [[AICodingPractice]]. It emphasizes task fit: LLMs are especially useful when the task is small enough to inspect, when a rough beginning is valuable, when the user can verify the result, or when the alternative is tedious search, boilerplate, or one-off glue code. The same source explicitly keeps serious limitations in view, so the synthesis is optimistic but bounded.
 
+Antirez pushes the practical-use claim from convenience into capability change. His examples are still bounded and inspectable, but they are no longer merely small: debugging Redis flakes, generating a compact C inference library, and reproducing Redis Streams work from a design document suggest that a skilled user can move from typing code to framing work, supplying hints, checking results, and iterating with the model. His advice also adds a testing norm for skeptical users: evaluate tools over weeks of real work, not a quick trial designed to confirm existing beliefs.
+
 ## Key Claims
 - LLM usefulness can be real even if models hallucinate, behave inconsistently, and raise serious ethical or social concerns.
 - Productivity gains often come from reducing startup friction rather than producing final work in one pass.
@@ -23,6 +26,7 @@ The concept is therefore complementary to [[AIWorkflowDesign]] and [[AICodingPra
 - Natural-language assistance can turn non-experts into temporary power users for transformations, automation, and tool usage.
 - One-off scripts, boilerplate, data formatting, API lookup, and error interpretation are high-fit use cases because the outputs are bounded and often easy to check.
 - The user's ability to judge, test, or discard the output is the main boundary between useful assistance and risky delegation.
+- Serious evaluation requires trying LLMs on real tasks over enough time to learn the workflow, because five-minute tests can mostly reinforce prior beliefs.
 
 ## Evidence
 - Present usefulness: [[blog-nicholas-carlini-how-i-use-ai]] states the narrow claim that current LLMs are useful now, without arguing for full job automation.
@@ -33,12 +37,15 @@ The concept is therefore complementary to [[AIWorkflowDesign]] and [[AICodingPra
 - Boring-task automation: [[blog-nicholas-carlini-how-i-use-ai]] lists boilerplate, tests, documentation templates, book-list formatting, citations, HTML diff formatting, data processing, and file manipulation.
 - Power-user floor: [[blog-nicholas-carlini-how-i-use-ai]] contrasts complex editor macros with natural-language commands for text transformation.
 - Search and reference: [[blog-nicholas-carlini-how-i-use-ai]] uses LLMs for command syntax, library references, hard-to-keyword concepts, shell errors, and crash dumps.
+- Substantial coding tasks: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] describes LLM assistance on linenoise UTF-8 support, Redis test flakes, a C embedding-inference library, and Redis Streams internal changes.
+- Evaluation norm: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] advises programmers to test AI tools carefully over weeks and try again periodically as capabilities change.
 
 ## Counterevidence & Qualifications
-The source is a personal practitioner report, not a controlled productivity study. Its examples are strongest for users who can recognize bad output, run tests, inspect code, or treat the result as disposable. It explicitly excludes several broader conclusions: that LLMs solve all problems, replace all programmers, or will continue improving at the same rate. It also brackets unresolved concerns about hallucination, robustness, privacy, training-data ethics, copyright, labor, misinformation, surveillance, job displacement, and power concentration.
+The sources are personal practitioner reports, not controlled productivity studies. Their examples are strongest for users who can recognize bad output, run tests, inspect code, or treat the result as disposable. Carlini explicitly excludes several broader conclusions: that LLMs solve all problems, replace all programmers, or will continue improving at the same rate. Antirez is more sweeping about programming change, but also flags unresolved concerns about job displacement and power concentration.
 
 ## What Changed
 - Created this concept to capture Carlini's taxonomy of concrete LLM productivity uses.
+- Added Antirez's more aggressive practitioner case that LLMs can handle substantial bounded programming tasks and should be evaluated through serious use rather than quick dismissal.
 
 ## Related Concepts
 - [[AIWorkflowDesign]] - practical use becomes stronger when tasks are decomposed into controllable workflows.
@@ -47,3 +54,4 @@ The source is a personal practitioner report, not a controlled productivity stud
 - [[AIAssistedWriting]] - writing workflows share the pattern of using AI for starts, variants, and cleanup while retaining human authorship.
 - [[LLMContextManagement]] - practical results depend on supplying the right problem details and interaction history.
 - [[PersonalProductivity]] - LLMs function as a productivity tool when they reduce search, setup, and repetitive-work friction.
+- [[ClaudeCode]] - Antirez's examples use Claude Code as the concrete coding agent.

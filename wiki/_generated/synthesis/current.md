@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 4cd9cfaa2d2e9536a4fea86f17ba2ccaf6340039
-summary: "Durable work comes from constraint-aware practice: human judgment, verification, feedback loops, operational evidence, and protected attention."
-episode_count: 231
-source_count: 231
-paragraph_count: 223
+as_of_overview_commit: cf738dcd29c3fbad3c5b0953fa7499acc8f927ec
+summary: "Durable work comes from judgment, verification, feedback loops, operational evidence, career experiments, protected attention, and deliberate AI use."
+episode_count: 234
+source_count: 234
+paragraph_count: 226
 topic_count: 9
 ---
 
@@ -16,20 +16,20 @@ topic_count: 9
 
 ## Executive Summary
 
-- Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
+- Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale.
 - Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly.
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment.
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment.
 - [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them.
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts and tutoring, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
+- [[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, the [[WantRealityCareerFramework]] for auditing authentic wants against realistic career games, next-next-job planning, side projects, freelancing, independent creation, skill stacks, age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint, and the [[OneFitSearchMindset]] that one compatible yes can be enough in emotionally noisy searches.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-dependency material sharpens the task-fit boundary: LLMs and coding agents are valuable for bounded, inspectable work, but writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary from both sides: [[Antirez]] argues that current LLMs can change programming work from hand-writing code toward problem framing and inspection, while [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]].
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[ContinuousDelivery]].
@@ -50,7 +50,7 @@ Cross-domain judgment in this corpus treats constraints as the real unit of desi
 
 ### Culture and Media
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, and AI writing around one pattern: cultural production depends on human judgment, feedback, infrastructure, and medium-specific constraints.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.
 
 - [[LearningMediaChoice]] treats media form as part of learning design: encyclopedias, Q&A, SNS, video, books, and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].
 - [[AIAssistedWriting]], [[AIWorkflowDesign]], and [[ChatGPT]] show AI entering cultural production as scaffolding for drafts, questions, outlines, voice cleanup, and revision rather than as a substitute for authorial examples, story, voice, and judgment. Evidence: [[AIAssistedWriting]], [[AIWorkflowDesign]], [[ChatGPT]].
@@ -81,7 +81,7 @@ The science, health, and climate topic remains small and indirect, centered on s
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. The newest AI-dependency source strengthens the thread: AI can accelerate bounded work, but education, junior development, writing, coding, and career resilience still require protected struggle, human judgment, attention, and visible output loops.
+Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. Recent additions sharpen two boundaries: AI can accelerate bounded and even substantial programming work when humans retain problem framing, inspection, and ownership, but education, junior development, writing, coding, and career resilience still require protected struggle and human judgment; career planning works best as staged experimentation, with self-audits such as [[WantRealityCareerFramework]] helping people test authentic wants against realistic paths while preserving attention to constraints.
 
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts and tutoring, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[PracticalLLMUse]], [[NicholasCarlini]], [[ProgrammerMindset]], [[SystematicLearning]].
-- [[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[ProgrammerMindset]], [[LearningByWriting]].
+- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[PracticalLLMUse]], [[NicholasCarlini]], [[Antirez]], [[ProgrammerMindset]], [[SystematicLearning]].
+- [[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill; [[Antirez]] adds that programmers still need to engage seriously with AI because the job itself is shifting. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[ProgrammerMindset]], [[LearningByWriting]], [[Antirez]], [[PracticalLLMUse]].

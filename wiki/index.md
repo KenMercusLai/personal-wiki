@@ -6,6 +6,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Don't fall into the anti-AI hype](sources/blog-antirez-dont-fall-into-the-anti-ai-hype.md) - Antirez argues that programmers should treat AI coding as a real capability shift from hand-writing every line toward problem framing, prompting, inspection, and tool-guided building, while still worrying about centralization and job displacement.
+- [How to Sniffer Dummy VLAN on L2VPN](sources/blog-zhao-cs-how-to-sniffer-dummy-vlan-on-l2vpn.md) - Zhao CS traces Cisco IOS XR L2VPN packet captures to show when VPLS passthrough skips dummy VLAN insertion and EoMPLS Type 4 adds a VLAN ID 0 tag carrying 802.1p priority.
+- [How to Pick a Career (That Actually Fits You)](sources/blog-tim-urban-waitbutwhy-how-to-pick-a-career.md) - Tim Urban presents a first-principles career-decision framework built around authentic wants, realistic career game boards, an option pool, next-dot experiments, and periodic revision.
 - [Will AI Replace Human Thinking? The Case for Writing and Coding Manually](sources/blog-simon-spati-will-ai-replace-human-thinking.md) - Simon Späti argues that deliberate AI use should preserve manual writing, coding, reading, and thinking practice rather than replace the skill-building struggle.
 - [All it takes is for one to work out](sources/blog-rohan-rajiv-a-learning-a-day-all-it-takes-is-for-one-to-work-out.md) - Rohan Rajiv turns a failed-then-successful graduate-school application story into a mindset for high-stakes searches where one right fit can be enough.
 - [Product Backlog Building Canvas](sources/blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas.md) - Paulo Caroli presents Product Backlog Building as a collaborative canvas for turning personas, features, PBIs, and acceptance criteria into useful user stories.
@@ -274,6 +277,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [James Lewis](entities/JamesLewis.md) - Coauthor of the Legacy Mimic pattern article, represented here by legacy compatibility and anti-corruption-layer distinctions.
 - [Holden Karnofsky](entities/HoldenKarnofsky.md) - Cold Takes author represented here by a writing-centered investigation method that uses provisional claims, weakness finding, targeted reading, revision, and feedback.
 - [Ethan Banks](entities/EthanBanks.md) - Career-advice author whose age-staged reflection connects risk timing, goals, relationships, boundaries, habits, and restraint.
+- [Tim Urban](entities/TimUrban.md) - Wait But Why writer represented here by a first-principles career-decision framework.
+- [Wait But Why](entities/WaitButWhy.md) - Illustrated long-form publication context for Tim Urban's career-planning source.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
 - [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author arguing that writing is a management discipline for strategy, planning, and execution context.
@@ -396,7 +401,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Red Hat](entities/RedHat.md) - Corporate context for Ansible in The Register's network-automation report.
 - [Todd Barr](entities/ToddBarr.md) - Ansible GM quoted on using Ansible to solve network automation workflow problems.
 - [Peter Sprygada](entities/PeterSprygada.md) - Ansible engineer quoted on configuration automation, validation, drift compliance, and DevOps translation for network teams.
-- [Cisco](entities/Cisco.md) - Supported network-equipment target in Ansible's initial network-automation framework.
+- [Cisco](entities/Cisco.md) - Network-equipment vendor represented as both an Ansible automation target and the IOS XR platform context for L2VPN dummy VLAN behavior.
+- [Cisco IOS XR](entities/CiscoIOSXR.md) - Cisco network operating system shown through ASR9K/ASR9000 L2VPN configuration, VPLS constraints, and EoMPLS dummy VLAN packet captures.
 - [Juniper](entities/Juniper.md) - Supported network-equipment target in Ansible's initial network-automation framework.
 - [Arista Networks](entities/AristaNetworks.md) - Supported network vendor in Ansible's network-automation launch list.
 - [Cumulus Networks](entities/CumulusNetworks.md) - Supported network target in Ansible's network-automation launch list.
@@ -425,6 +431,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as the main CRM-like brand-thread advertising case.
 - [Kik](entities/Kik.md) - Messaging app example of promoted brand chats and keyword-sensitive bot responses.
 - [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover feature exemplifies opt-in brand content channels.
+- [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
+- [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
 - [Tango](entities/Tango.md) - Messaging app example of promoted brand channels and sponsored native content.
 - [BlackBerry](entities/BlackBerry.md) - Pre-iPhone smartphone incumbent whose late software-platform response and collapsing hardware sales made it a core smartphone-disruption case.
@@ -650,6 +658,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
+- [Antirez](entities/Antirez.md) - Redis creator and systems programmer arguing that AI coding capability should be tested seriously despite anti-hype instincts, centralization worries, and job-loss concerns.
 - [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, and simple composable agent-building guidance.
 - [AWS](entities/AWS.md) - Cloud infrastructure provider used for EC2 self-hosting, large-scale SaaS architecture, AI/database services, and infrastructure unit-cost reasoning.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
@@ -658,7 +667,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
-- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, and simple-loop design analysis.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, simple-loop design analysis, and Antirez's Redis-adjacent systems-programming examples.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
@@ -735,7 +744,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Threekit](entities/Threekit.md) - Enterprise 3D platform context for Ben Houston's original move from bare metal to Kubernetes.
 - [Kubernetes](entities/Kubernetes.md) - Container orchestration platform discussed as powerful declarative infrastructure, process isolation, and sometimes unnecessary operational burden.
 - [LeanCloud](entities/LeanCloud.md) - Cloud backend platform context for Kubernetes-based container services, game backend products, Client Engine, and cloud-engine task queues.
-- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, and clear product positioning.
+- [Redis](entities/Redis.md) - Server-side data system used for queue state, consistency, Lua-scripted atomic operations, clear product positioning, and AI-assisted maintenance examples.
 - [DeployBeta](entities/DeployBeta.md) - Wang Ziting side project used as a negative example of delayed release and overextended technical work.
 - [Elecpass](entities/Elecpass.md) - Wang Ziting side project used as a positive example of fast release, personal use, and focused versioned improvement.
 - [Client Engine](entities/ClientEngine.md) - LeanCloud product for running server-side game logic as a message-service participant.
@@ -865,7 +874,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [One Fit Search Mindset](concepts/OneFitSearchMindset.md) - Treating a high-stakes search as needing one compatible yes rather than universal approval from every option.
 - [Product Backlog Building](concepts/ProductBacklogBuilding.md) - Collaborative canvas technique for deriving PBIs and user stories from personas, activities, features, and benefits.
 - [User Stories](concepts/UserStories.md) - Agile requirements format that ties user, action, and benefit into a concise prompt for conversation and confirmation.
-- [Practical LLM Use](concepts/PracticalLLMUse.md) - Bounded use of large language models for starts, lookup, transformation, tutoring, automation, debugging, and other inspectable productivity tasks.
+- [Practical LLM Use](concepts/PracticalLLMUse.md) - Bounded use of large language models for starts, lookup, transformation, tutoring, automation, debugging, substantial inspectable coding tasks, and serious tool evaluation.
 - [Agile Software Development](concepts/AgileSoftwareDevelopment.md) - Practice-rich software approach joining adaptive planning, customer collaboration, teamwork, technical excellence, and reliable delivery.
 - [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.
 - [Agile Fluency Model](concepts/AgileFluencyModel.md) - Shore-Larsen model Fowler cites for distinguishing levels of team agile capability.
@@ -1191,8 +1200,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
-- [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
-- [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that repeated AI substitution for writing, coding, reading, remembering, or deciding weakens the human skill and judgment those activities normally train.
+- [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, verified, and problem-framing-centered work with AI coding agents.
+- [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that repeated AI substitution for writing, coding, reading, remembering, or deciding weakens skill and judgment, qualified by deliberate AI adoption.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
 - [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered investigation method where provisional hypotheses, weakness lists, targeted reading, and revision direct learning.
@@ -1211,6 +1220,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Browser Payment Broker](concepts/BrowserPaymentBroker.md) - Proposed browser role that mediates payment between users, providers, and sites.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, future options, and staged steps.
+- [Want Reality Career Framework](concepts/WantRealityCareerFramework.md) - Tim Urban's career-decision model where authentic wants overlap realistic reachability to form an option pool of next-dot experiments.
 - [Capability Gateway](concepts/CapabilityGateway.md) - Infrastructure boundary that mediates agent actions through scoped, temporary, revocable credentials and tool semantics.
 - [Academic Writing](concepts/AcademicWriting.md) - Writing used as structured problem-solving through question definition, argument construction, evidence chains, and visible reasoning.
 - [Creative Abstraction](concepts/CreativeAbstraction.md) - Learning strategy that seeks patterns, principles, theories, and general rules instead of memorizing every changing detail.
@@ -1276,7 +1286,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HTTP/1.1](concepts/HTTP11.md) - HTTP version that added persistent connections, richer negotiation, caching, Host routing, and API-era features.
 - [HTTP/2](concepts/HTTP2.md) - HTTP version using binary framing, multiplexing, header compression, and server push to improve performance.
 - [HTTP/3](concepts/HTTP3.md) - HTTP version that runs over QUIC and UDP to reduce TCP-level blocking and connection setup costs.
-- [Human Code Responsibility](concepts/HumanCodeResponsibility.md) - Principle that developers remain accountable for code behavior and maintainability even when AI generated it.
+- [Human Code Responsibility](concepts/HumanCodeResponsibility.md) - Principle that developers remain accountable for code behavior, maintainability, design intent, and acceptance even when AI generated it.
 - [Humanistic Agent Design](concepts/HumanisticAgentDesign.md) - Agent design orientation that clarifies user cognition, intent, and needs instead of merely agreeing or completing tasks.
 - [Independent Creator](concepts/IndependentCreator.md) - Self-directed product-business role combining creation, engineering, marketing, operations, and customer support.
 - [Inference Load Balancing](concepts/InferenceLoadBalancing.md) - Routing and quota layer that distributes AI inference requests using tokenized workload, live metrics, and cache state.
@@ -1290,6 +1300,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
 - [Language Modeling](concepts/LanguageModeling.md) - Estimating probabilities over word or character sequences so systems can predict, score, or generate language.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
+- [L2VPN](concepts/L2VPN.md) - Layer-2 VPN service family where pseudowire type, VLAN rewrite, labels, control words, and QoS bits determine packet behavior.
+- [L2VPN Dummy VLAN](concepts/L2VPNDummyVLAN.md) - VLAN ID 0 tag used in some L2VPN pseudowire cases to carry 802.1p priority after rewrite strips the customer VLAN tag.
+- [EoMPLS](concepts/EoMPLS.md) - Ethernet-over-MPLS L2VPN service that exposes the successful IOS XR Type 4 dummy VLAN test in the source.
 - [LVS Forwarding Modes](concepts/LVSForwardingModes.md) - Packet-forwarding strategies such as DR, NAT, full NAT, ENAT, and IP TUN in LVS-like systems.
 - [LLM Context Management](concepts/LLMContextManagement.md) - Controlling instructions, retrieved material, tool results, memory, and summaries inside an LLM context.
 - [LLM Data Analysis](concepts/LLMDataAnalysis.md) - Using LLMs to support data workflows while controlling risks around statistical inference, method choice, and polished invalid outputs.
@@ -1319,6 +1332,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
 - [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention capacity, routines, calendar defaults, text-file planning, and task triage to complete meaningful work efficiently.
 - [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
+- [Pseudowire Transport Types](concepts/PseudowireTransportTypes.md) - MPLS pseudowire Type 4/Type 5 and transport-mode choices that govern Ethernet/VLAN encapsulation behavior.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
@@ -1427,5 +1441,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Recorded Traffic Testing](concepts/RecordedTrafficTesting.md) - Capturing network request-response traffic once and replaying it to make integration-like tests faster and more deterministic.
 - [VO2 Max](concepts/VO2Max.md) - Maximum oxygen uptake metric used to connect cardiovascular fitness, age-related decline, and later-life activity capacity.
 - [Cardiorespiratory Fitness](concepts/CardiorespiratoryFitness.md) - Aerobic capacity frame in which higher fitness creates more reserve for future activities such as stair climbing.
+- [VPLS](concepts/VPLS.md) - Multipoint Ethernet L2VPN service whose IOS XR passthrough mode does not insert dummy VLAN tags in the source.
 
 ## Syntheses

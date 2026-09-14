@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-14
-as_of_overview_commit: ee46cf9ab8416f655825aa752b24be38b4a60e39
-input_digest: 6804c7a5109ef0b66c97ce4e82626f38d5802cfa1dd10e16848b5e232af1d060
+as_of_overview_commit: acf54084f5ac73fc08d488430592922e1369e51b
+input_digest: 2bb015381ae0f316adb714a77eeefa2c3a5d137aa8b828fc078df8dffc6228eb
 ---
 
 # Psychology and Personal Development
@@ -25,6 +25,16 @@ This topic links personal effectiveness, judgment, trust, behavior design, and r
 **Qualifications:**
 
 - The sources are advice-heavy and acknowledge that health, caregiving, work type, and external constraints can limit how freely people reallocate time.
+
+### Technical Debugging Progresses Through Repeated Observation
+
+[[ZhaoCS]] and [[ZhaoCSInfo]] provide a source-scoped example of technical learning through repeated observation: the dummy VLAN question is resolved by revisiting hypotheses, changing the L2VPN setup, and comparing VPLS and EoMPLS packet captures.
+
+**Evidence:** [[ZhaoCS]], [[ZhaoCSInfo]], [[L2VPNDummyVLAN]], [[VPLS]], [[EoMPLS]]
+
+**Qualifications:**
+
+- This paragraph landed in the topic through the overview planner, but its substance is a technical networking investigation rather than a personal-development source.
 
 ### Calendar Defaults Can Displace Real Work
 

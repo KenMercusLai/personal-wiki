@@ -4,6 +4,14 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | Don't fall into the anti-AI hype
+
+Added Antirez's essay on AI coding adoption. Key claims: recent LLMs can complete substantial bounded programming work, programmers should seriously test AI tools rather than dismiss them from anti-hype instincts, the work shifts toward problem framing and result inspection, open models and open source matter for democratization, centralization remains a risk, and job displacement needs political support rather than denial. No image references were present in the source Markdown.
+
+## [2026-09-14] ingest | How to Pick a Career (That Actually Fits You)
+
+Added Tim Urban's Wait But Why career-planning essay. Key claims: career choices deserve first-principles reasoning, authentic wants must be separated from inherited motives, realistic options require understanding current career game boards, the Want/Reality overlap forms an option pool, and next career moves should be treated as experimental dots with feedback loops. Identified 48 unique local image assets and directly inspected the key framework diagrams; repeated footnote icons and many illustrative cartoons were classified from surrounding context rather than individually opened.
+
 ## [2026-09-14] ingest | A Few Beliefs
 
 Added Morgan Housel's Collaborative Fund beliefs article. Key claims: destructive financial risk comes from risking needs for wants; debt removes options while savings add them; good risk judgment plans for failed plans, future regret, and uncertainty; confirmation, incentives, denial, stale beliefs, and narrow experience distort confidence. No image references were present in the source Markdown.
@@ -1451,6 +1459,10 @@ Ingested Simon Späti's cautionary essay on deliberate AI use, manual writing an
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | How to Sniffer Dummy VLAN on L2VPN
+
+Ingested Zhao CS's Cisco IOS XR L2VPN packet-capture investigation; added source, author/publication, IOS XR, VPLS, EoMPLS, L2VPN, dummy VLAN, and pseudowire transport type pages; updated Cisco and overview.
+
 ## [2026-09-14] ingest | Product Backlog Building Canvas
 
 Ingested Paulo Caroli's Martin Fowler article on Product Backlog Building as a collaborative canvas for turning personas, features, PBIs, acceptance criteria, UI detail, tasks, enablers, and ready/done agreements into useful user stories.
@@ -1819,6 +1831,18 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

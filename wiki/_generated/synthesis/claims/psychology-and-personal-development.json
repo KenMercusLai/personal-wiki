@@ -15,6 +15,22 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "technical-debugging-progresses-through-repeated-observation",
+      "qualifications": [
+        "This paragraph landed in the topic through the overview planner, but its substance is a technical networking investigation rather than a personal-development source."
+      ],
+      "statement": "[[ZhaoCS]] and [[ZhaoCSInfo]] provide a source-scoped example of technical learning through repeated observation: the dummy VLAN question is resolved by revisiting hypotheses, changing the L2VPN setup, and comparing VPLS and EoMPLS packet captures.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ZhaoCS",
+        "ZhaoCSInfo",
+        "L2VPNDummyVLAN",
+        "VPLS",
+        "EoMPLS"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "calendar-defaults-can-displace-real-work",
       "qualifications": [

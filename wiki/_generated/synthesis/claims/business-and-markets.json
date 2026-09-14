@@ -22,6 +22,24 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "packet-level-networking-needs-platform-verification",
+      "qualifications": [
+        "The Zhao CS evidence is a Cisco IOS XR lab investigation from 2014 with a 2015 update table, so the claim is source-scoped rather than a current cross-vendor rule."
+      ],
+      "statement": "[[L2VPNDummyVLAN]], [[CiscoIOSXR]], [[VPLS]], [[EoMPLS]], [[L2VPN]], and [[PseudowireTransportTypes]] show that MPLS L2VPN service behavior can depend on packet-level placement of labels, control words, VLAN tags, and QoS bits, requiring platform-specific capture verification.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "L2VPNDummyVLAN",
+        "CiscoIOSXR",
+        "VPLS",
+        "EoMPLS",
+        "L2VPN",
+        "PseudowireTransportTypes",
+        "Cisco"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "risk-discipline-preserves-optionality",
       "qualifications": [

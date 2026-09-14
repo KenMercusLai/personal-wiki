@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 4cd9cfaa2d2e9536a4fea86f17ba2ccaf6340039
-input_digest: d47a003632bb09f4d271cb7beb47974a058665e646da41f04be4cc2ea9c7daf6
+as_of_overview_commit: cf738dcd29c3fbad3c5b0953fa7499acc8f927ec
+input_digest: 52ba35f6332cb1d88d5ad7d648a2c7b17b6af7de6fc5cbd26d797a90f3732dd9
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-dependency material sharpens the task-fit boundary: LLMs and coding agents are valuable for bounded, inspectable work, but writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary from both sides: [[Antirez]] argues that current LLMs can change programming work from hand-writing code toward problem framing and inspection, while [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.
 
 ## Cross-source Findings
 
@@ -48,18 +48,19 @@ Architecture and technology governance should vary by organizational scope, coup
 
 ### Ai Task Fit Requires Human Practice
 
-Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
+Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
 
-**Evidence:** [[PracticalLLMUse]], [[AICodingPractice]], [[AIAssistedWriting]], [[AIDependencySkillAtrophy]], [[HumanCodeResponsibility]], [[SimonSpati]], [[NicholasCarlini]]
+**Evidence:** [[PracticalLLMUse]], [[AICodingPractice]], [[AIAssistedWriting]], [[AIDependencySkillAtrophy]], [[HumanCodeResponsibility]], [[SimonSpati]], [[NicholasCarlini]], [[Antirez]], [[ClaudeCode]]
 
 **Qualifications:**
 
 - The warning is strongest for skills the user needs to develop or maintain; bounded discovery, diagrams, autocomplete, and well-defined helper functions remain useful when the user can inspect or discard the result.
 - Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard.
+- Antirez's stronger adoption claim narrows the caution: refusing AI outright can be a career risk, but automation still depends on human problem framing, review, and ownership.
 
 ### Agent Systems Need Simple Debuggable Harnesses
 
-Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand.
+Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]] can support both structured agent teams and expert-guided systems-programming tasks.
 
 **Evidence:** [[ClaudeCode]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]]
 

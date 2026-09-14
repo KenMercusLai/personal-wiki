@@ -10,6 +10,7 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha
   - blog-simon-spati-will-ai-replace-human-thinking
+  - blog-antirez-dont-fall-into-the-anti-ai-hype
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -26,6 +27,8 @@ Responsible agent coding also needs a verification-centered operating rule: do n
 
 Späti adds a craft-preservation boundary: AI can help with autocomplete and well-defined functions, but the farther a task reaches into architecture, long-term planning, or future maintenance, the more the human needs to think manually. His argument treats coding as both skill exercise and maintenance ownership, so speed is not enough if the developer loses understanding or the will to maintain what was generated.
 
+Antirez adds the strongest capability-shift claim in the current evidence set. From his Redis and systems-programming examples, he argues that for many projects writing code by hand is becoming less sensible than deciding what to build, forming a clear mental model, communicating it to the LLM, inspecting results, and guiding corrections. This directly tensions craft-preservation arguments, but it also fits the page's broader rule: AI coding practice is now less about typing and more about problem framing, review, verification, and ownership.
+
 ## Key Claims
 - AI coding practice requires shared team expectations because inconsistent agent-use habits can create collaboration friction.
 - Engineers remain responsible for generated code, maintainability, and final judgment.
@@ -33,7 +36,7 @@ Späti adds a craft-preservation boundary: AI can help with autocomplete and wel
 - Fast AI output increases the need for small PRs, review aids, and pre-PR self-review.
 - Verification through tests, self-checks, residual review, deterministic feedback, and snapshot diffs is part of the workflow, not a later review responsibility.
 - Junior engineers, independent developers, and intensive coding-agent users need practices that protect learning, human pace, task control, and task-horizon judgment rather than optimize only for speed.
-- AI-first and multi-agent coding practice depends on engineering systems, explicit roles, document boundaries, specs, memories, and verification gates that let agent output be checked, shipped, observed, and rolled back quickly.
+- AI-first, agentic, and LLM-first coding practice depends on clear problem representation, engineering systems, explicit roles, document boundaries, specs, memories, and verification gates that let agent output be checked, shipped, observed, and rolled back quickly.
 
 ## Evidence
 - Team norm: [[yi-fen-guan-yu-ai-bian-cheng-de-jian-ming-xing-wei-zhi-nan-piglei]] warns that teammates without shared assumptions about AI coding can create project friction.
@@ -49,16 +52,18 @@ Späti adds a craft-preservation boundary: AI can help with autocomplete and wel
 - Multi-agent practice: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] coordinates PM, Architect, Engineer, and QA agents through ADRs, specs, roadmaps, test plans, and CI state.
 - Residual-focused testing: [[agent-shi-dai-de-tdd-zhi-guan-zhu-xing-wei-de-can-cha]] recommends alternating test-only and implementation-only phases so agents self-correct against a stable side and humans review behavior residuals.
 - Task horizon and maintenance: [[blog-simon-spati-will-ai-replace-human-thinking]] uses an AI productivity/error curve to argue that short autocomplete-like gains can turn into rising error and ownership costs when AI is applied to architecture, planning, and code the human did not really make.
+- Capability-shift evidence: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] describes using Claude Code to add linenoise UTF-8 support and terminal-cell tests, fix Redis test flakes, create a pure C embedding-inference library, and reproduce Redis Streams internal changes from a design document.
+- Problem representation: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] argues that the programmer's scarce work shifts toward knowing what to build, how to build it, and how to communicate a good mental model to the LLM.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review; Späti stresses manual competence and the future cost of generated systems people do not understand or enjoy maintaining. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, learning goals, and the strength of the surrounding verification harness.
+The sources are practitioner essays rather than controlled comparisons of AI coding workflows. They also pull in different directions: Piglei stresses collaboration, understanding, and learning protection; the AI-first case study stresses automation, role redesign, and removing human bottlenecks; Onevcat stresses direct tool experience, small steps, context limits, and humane pacing; Chun Yin Uncle's source stresses independent-developer task decomposition and written expression; the residual-TDD source stresses verification economics and behavior continuity over full generated-code review; Späti stresses manual competence and the future cost of generated systems people do not understand or enjoy maintaining; Antirez stresses that refusing the capability shift is itself a career risk. The right practice depends on codebase risk, UI complexity, product expectations, safety requirements, team maturity, model/tool quality, learning goals, and the strength of the surrounding verification harness.
 
 ## What Changed
 - Added the AI-first source's organization-level workflow view while preserving Piglei's responsibility, reviewability, and learning constraints.
 - Added the Claude Code source's practitioner emphasis on small iterations, context-aware task boundaries, and human pace.
 - Added the independent-developer source's distinction between dangerous large-grain delegation and controlled file-aware task slicing.
-- Added Agent Team practice as a structured project-scale form of AI coding.
-- Added residual-focused agent TDD and Späti's task-horizon warning as complementary checks on AI coding speed.
+- Added Agent Team practice, residual-focused agent TDD, and Späti's task-horizon warning as complementary checks on AI coding speed.
+- Added Antirez's stronger claim that much programming work is moving from hand-writing code toward problem representation, prompting, inspection, and guidance.
 
 ## Related Concepts
 - [[HumanCodeResponsibility]] - accountability is the foundation of the article's practice model.
@@ -74,3 +79,4 @@ The sources are practitioner essays rather than controlled comparisons of AI cod
 - [[SpecDrivenAgentDevelopment]] - supplies document interfaces for agent implementation.
 - [[AgentTDDResidual]] - supplies the article's alternating test/implementation loop for agent work.
 - [[AIDependencySkillAtrophy]] - names the loss-of-practice risk when AI substitutes for coding understanding.
+- [[PracticalLLMUse]] - Antirez's examples strengthen the practical case for using LLMs on bounded but substantial programming tasks.

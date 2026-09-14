@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: ee46cf9ab8416f655825aa752b24be38b4a60e39
-input_digest: 9e9cb4ed05941514eb80f848db42322644001f7816ca6622500740c6aa33efc9
+as_of_overview_commit: acf54084f5ac73fc08d488430592922e1369e51b
+input_digest: 66f73bf419835dabe903dd34d2430768263f9b1d5e22ad93314c35f89534cb51
 ---
 
 # Business and Markets
@@ -25,6 +25,16 @@ Business and market sources show durable value emerging when product work, start
 **Qualifications:**
 
 - The evidence is a strategic essay and company examples rather than a cross-industry empirical proof; stable customer desires still need specific mechanisms, execution, and defenses against changing competitors.
+
+### Packet Level Networking Needs Platform Verification
+
+[[L2VPNDummyVLAN]], [[CiscoIOSXR]], [[VPLS]], [[EoMPLS]], [[L2VPN]], and [[PseudowireTransportTypes]] show that MPLS L2VPN service behavior can depend on packet-level placement of labels, control words, VLAN tags, and QoS bits, requiring platform-specific capture verification.
+
+**Evidence:** [[L2VPNDummyVLAN]], [[CiscoIOSXR]], [[VPLS]], [[EoMPLS]], [[L2VPN]], [[PseudowireTransportTypes]], [[Cisco]]
+
+**Qualifications:**
+
+- The Zhao CS evidence is a Cisco IOS XR lab investigation from 2014 with a 2015 update table, so the claim is source-scoped rather than a current cross-vendor rule.
 
 ### Risk Discipline Preserves Optionality
 

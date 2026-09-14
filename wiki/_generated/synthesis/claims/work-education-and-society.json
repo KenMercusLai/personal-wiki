@@ -7,9 +7,10 @@
         "Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration.",
         "Writing-centered investigation depends on self-skepticism, view revision, and judgment about which subquestions matter.",
         "Copying programming examples can support learning only when paired with active study, modification, and causal explanation.",
-        "LLM help supports learning and productivity most safely when the user can inspect, test, correct, or discard the output."
+        "LLM help supports learning and productivity most safely when the user can inspect, test, correct, or discard the output.",
+        "Antirez's adoption pressure means protected struggle should be balanced with serious practice using current tools, not treated as abstinence from AI."
       ],
-      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts and tutoring, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
+      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
@@ -20,6 +21,7 @@
         "InvertedIndex",
         "PracticalLLMUse",
         "NicholasCarlini",
+        "Antirez",
         "ProgrammerMindset",
         "SystematicLearning"
       ]
@@ -29,9 +31,10 @@
       "id": "ai-dependency-threatens-skill-formation",
       "qualifications": [
         "The source does not reject AI use; it argues for deliberate use where support does not replace the skill the person needs to build.",
-        "The embedded seniority-biased employment chart makes this a career-entry concern as well as an individual learning concern."
+        "The embedded seniority-biased employment chart makes this a career-entry concern as well as an individual learning concern.",
+        "Antirez qualifies the warning from the other side: skipping AI can harm a programming career, so the practical stance is deliberate adoption while preserving judgment and maintenance ownership."
       ],
-      "statement": "[[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill.",
+      "statement": "[[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill; [[Antirez]] adds that programmers still need to engage seriously with AI because the job itself is shifting.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AIDependencySkillAtrophy",
@@ -41,7 +44,9 @@
         "HumanCodeResponsibility",
         "SimonSpati",
         "ProgrammerMindset",
-        "LearningByWriting"
+        "LearningByWriting",
+        "Antirez",
+        "PracticalLLMUse"
       ]
     },
     {
@@ -65,12 +70,15 @@
       "id": "career-paths-are-staged-experiments",
       "qualifications": [
         "Savings, health, family needs, local labor markets, organizational scope, life stage, and spiritual or mental-health context shape who can afford experiments or boundaries.",
-        "One-right-fit persistence can steady a search emotionally, but it should not replace preparation, strategy revision, or attention to structural constraints."
+        "One-right-fit persistence can steady a search emotionally, but it should not replace preparation, strategy revision, or attention to structural constraints.",
+        "Self-audit frameworks can clarify motives and options, but they do not remove structural barriers or guarantee that introspection is accurate."
       ],
-      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint, and the [[OneFitSearchMindset]] that one compatible yes can be enough in emotionally noisy searches.",
+      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, the [[WantRealityCareerFramework]] for auditing authentic wants against realistic career games, next-next-job planning, side projects, freelancing, independent creation, skill stacks, age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint, and the [[OneFitSearchMindset]] that one compatible yes can be enough in emotionally noisy searches.",
       "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
+        "WantRealityCareerFramework",
+        "TimUrban",
         "NextNextJobFramework",
         "GPVCareerFormula",
         "JobApplicationSideProjects",
@@ -179,6 +187,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. The newest AI-dependency source strengthens the thread: AI can accelerate bounded work, but education, junior development, writing, coding, and career resilience still require protected struggle, human judgment, attention, and visible output loops.",
+  "summary": "Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. Recent additions sharpen two boundaries: AI can accelerate bounded and even substantial programming work when humans retain problem framing, inspection, and ownership, but education, junior development, writing, coding, and career resilience still require protected struggle and human judgment; career planning works best as staged experimentation, with self-audits such as [[WantRealityCareerFramework]] helping people test authentic wants against realistic paths while preserving attention to constraints.",
   "topic_id": "work-education-and-society"
 }

@@ -54,9 +54,10 @@
       "id": "ai-task-fit-requires-human-practice",
       "qualifications": [
         "The warning is strongest for skills the user needs to develop or maintain; bounded discovery, diagrams, autocomplete, and well-defined helper functions remain useful when the user can inspect or discard the result.",
-        "Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard."
+        "Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard.",
+        "Antirez's stronger adoption claim narrows the caution: refusing AI outright can be a career risk, but automation still depends on human problem framing, review, and ownership."
       ],
-      "statement": "Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.",
+      "statement": "Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.",
       "status": "qualified",
       "supporting_wikilinks": [
         "PracticalLLMUse",
@@ -65,7 +66,9 @@
         "AIDependencySkillAtrophy",
         "HumanCodeResponsibility",
         "SimonSpati",
-        "NicholasCarlini"
+        "NicholasCarlini",
+        "Antirez",
+        "ClaudeCode"
       ]
     },
     {
@@ -74,7 +77,7 @@
       "qualifications": [
         "Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains."
       ],
-      "statement": "Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand.",
+      "statement": "Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]] can support both structured agent teams and expert-guided systems-programming tasks.",
       "status": "supported",
       "supporting_wikilinks": [
         "ClaudeCode",
@@ -120,6 +123,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-dependency material sharpens the task-fit boundary: LLMs and coding agents are valuable for bounded, inspectable work, but writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary from both sides: [[Antirez]] argues that current LLMs can change programming work from hand-writing code toward problem framing and inspection, while [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.",
   "topic_id": "ai-and-technology"
 }

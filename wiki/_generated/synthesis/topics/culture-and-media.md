@@ -4,8 +4,8 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-14
-as_of_overview_commit: f17733da9127bcbf4e61a34085d312d74c75939a
-input_digest: 0b3bdd9b1985c3ab655f8ebfd86bf98fee0df51e22b4d0486c114269d37114c4
+as_of_overview_commit: 74d813387ae2d770a9cf8967b8d4988a4f047526
+input_digest: 13604a5a04f812ba605f259f50b5a54e62f7f1a6666a6d2dfb497305ac489a43
 ---
 
 # Culture and Media
