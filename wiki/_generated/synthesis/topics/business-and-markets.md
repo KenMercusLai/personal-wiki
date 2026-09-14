@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 99ccc549566e4be8d4214d7aab525eb3b1d0d535
-input_digest: 600bbe2e5d1efba49544e4d36477fd2500ba974fcb90c7be1457dd811b0f53dc
+as_of_overview_commit: 22bc282b2b9d347c58fa8e80a2fd83f74cc54e35
+input_digest: 709ccf99899fbf7c4a17bb787cb88db8fad9f595cdbd474a7d537ae32c3d4476
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Wulc's Zhang Xiaoyu course summaries frame ordinary-investor discipline around diversification, passive-first implementation, valuation, fee control, thesis review, and outside-income resilience; Housel frames risk discipline as preserving optionality; and Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Wulc's Zhang Xiaoyu course summaries frame ordinary-investor discipline around asset allocation, model-portfolio tradeoffs, rebalancing, factor diversification, passive-first implementation, valuation, fee control, thesis review, vague-language skepticism, and outside-income resilience; Housel frames risk discipline as preserving optionality; and Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
 
 ## Cross-source Findings
 
@@ -38,13 +38,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Risk Discipline Preserves Optionality
 
-[[PersonalInvestorStrategy]], [[IndexFundStrategy]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, implementation, and optionality problem: diversify, control fees and valuation, avoid risking needs for wants, treat debt, savings, and outside income as future-choice modifiers, and plan for failed plans, regret, incentives, overconfidence, and uncertainty.
+[[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty.
 
-**Evidence:** [[PersonalInvestorStrategy]], [[IndexFundStrategy]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]]
+**Evidence:** [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]]
 
 **Qualifications:**
 
-- The Housel evidence is aphoristic rather than a portfolio model, and the Zhang Xiaoyu material is mediated through Wulc's course notes; need-versus-want risk, regret calibration, debt, savings, valuation, fee control, passive-first implementation, and optimism/pessimism need market- and household-specific application before becoming financial rules.
+- The Housel evidence is aphoristic rather than a portfolio model, and the Zhang Xiaoyu material is mediated through Wulc's course notes; need-versus-want risk, regret calibration, debt, savings, valuation, fee control, passive-first implementation, asset allocation, rebalancing, factor exposure, and optimism/pessimism need market- and household-specific application before becoming financial rules.
 
 ### Crypto Yield Is Market Structure Funded And Risk Qualified
 

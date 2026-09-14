@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [张潇雨的个人投资课(3)-投资组合构建](sources/blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-3-tou-zi-zu-he-gou-jian.md) - Wulc summarizes Zhang Xiaoyu's portfolio-construction course section: asset allocation, asset classes, Permanent/All Weather/Swensen portfolios, rebalancing, factor investing, index-fund categories, and investing-language traps.
 - [孤儿进程和僵尸进程](sources/blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng.md) - Wulc distinguishes orphan processes from zombie processes, explaining init adoption, wait/waitpid reaping, PID exhaustion risk, and parent-focused cleanup.
 - [如何用数据来挣钱](sources/blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian.md) - Wulc explains how free internet traffic becomes monetizable through data-enhanced advertising, from demographic contracts and auctions to programmatic trading, retargeting, look-alike recommendation, ecommerce recommendation, and mobile scene data.
 - [如何成为快速阅读高手](sources/blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou.md) - Wulc summarizes a three-stage nonfiction reading method: evaluate a book, speed-read for structure and key concepts, then deep-read selectively for memory and output.
@@ -906,6 +907,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Factor Investing](concepts/FactorInvesting.md) - Systematic exposure to size, value, low-volatility, dividend, quality, momentum, or other return factors, with cyclicality and diversification caveats.
 - [Orphan Process](concepts/OrphanProcess.md) - Unix-like process state where a running child outlives its parent and is adopted by init for cleanup.
 - [Zombie Process](concepts/ZombieProcess.md) - Terminated child process whose parent has not collected status with wait or waitpid, leaving PID-consuming metadata behind.
 - [Concurrent Programming](concepts/ConcurrentProgramming.md) - Scheduler-mediated programming model where multiple processes make progress by interleaving access to CPU time.

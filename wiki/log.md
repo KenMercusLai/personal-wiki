@@ -1978,3 +1978,11 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | 张潇雨的个人投资课(3)-投资组合构建
+
+Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's portfolio-construction course section. Key claims: asset allocation drives volatility and maximum drawdown under long-term diversified conditions; ordinary investors can compare Permanent, All Weather, and Swensen-style portfolio templates by return, drawdown, volatility, and complexity; rebalancing restores target weights; factor investing offers semi-passive exposure to size, value, low-volatility, dividend, quality, and momentum factors while still needing diversification; broad index funds are the preferred core unless an investor has above-average industry or strategy insight; and vague investing labels can mislead when not translated into concrete evidence. One screenshot was inspected and incorporated: it compares off-exchange and exchange-traded funds by mechanism, pricing, purchase channel, fees, available fund range, and minimum investment.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

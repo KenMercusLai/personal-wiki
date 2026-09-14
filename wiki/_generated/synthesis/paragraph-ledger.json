@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d6a0905a78d39b688d0bf30642e2e7c39e79af00b5d2ca9e8b4b72a95a11143d",
       "a0b6a697ca0f43f4d649bd35ce8666a1bdea30a17eb1a8d3c2d15793061348b1",
       "784054c05985bacb15d2f5b161930423b4b7d4434cfce27d7bff1a1f7cf553ec",
       "0d70d8093ffa57f77699c7dcd9b8f401f277f75cc2b5f955a7ecd9fe3a3c7973",
@@ -237,11 +238,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 235
+    "paragraph_count": 236
   },
-  "overview_commit": "99ccc549566e4be8d4214d7aab525eb3b1d0d535",
-  "overview_digest": "f2f9e9a05954ef8d6a0665b704494280aaf35b10ee55b2b1da459f4b1be69f98",
+  "overview_commit": "22bc282b2b9d347c58fa8e80a2fd83f74cc54e35",
+  "overview_digest": "c8ca4462ca867bd3d8f9bad199d495911c30698c54113f1978239ef9333bbecb",
   "paragraphs": [
+    {
+      "id": "d6a0905a78d39b688d0bf30642e2e7c39e79af00b5d2ca9e8b4b72a95a11143d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Wulc source adds the portfolio-construction section of Zhang Xiaoyu's personal investing course to the wiki's finance material. [[AssetAllocation]] now includes asset-class roles, maximum-drawdown control, model portfolio tradeoffs, and rebalancing rather than only behavioral diversification; [[PersonalInvestorStrategy]] becomes a target-portfolio discipline built from simple templates, low-cost passive products, annual or threshold-based rebalancing, and skepticism toward vague investing language. New [[FactorInvesting]] captures size, value, low-volatility, dividend, quality, and momentum exposure as a semi-passive middle path that still needs diversification because factor performance rotates. [[IndexFundStrategy]] is sharpened by broad-based, industry, and strategy-index distinctions plus an inspected screenshot comparing off-exchange and exchange-traded fund channels by mechanism, pricing, purchase route, fees, eligible fund range, and minimum investment.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AssetAllocation",
+        "FactorInvesting",
+        "IndexFundStrategy",
+        "PersonalInvestorStrategy"
+      ]
+    },
     {
       "id": "a0b6a697ca0f43f4d649bd35ce8666a1bdea30a17eb1a8d3c2d15793061348b1",
       "primary_topic": "business-and-markets",
