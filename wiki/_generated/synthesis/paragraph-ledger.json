@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "28f0aa2df7d394f0f6fefc9a73c3fff81f1c92116e3d35ac18755de3213355b1",
       "d6a0905a78d39b688d0bf30642e2e7c39e79af00b5d2ca9e8b4b72a95a11143d",
       "a0b6a697ca0f43f4d649bd35ce8666a1bdea30a17eb1a8d3c2d15793061348b1",
       "784054c05985bacb15d2f5b161930423b4b7d4434cfce27d7bff1a1f7cf553ec",
@@ -238,11 +239,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 236
+    "paragraph_count": 237
   },
-  "overview_commit": "e595859890d8e6697c4b8eb68a93a559e067dabe",
-  "overview_digest": "c8ca4462ca867bd3d8f9bad199d495911c30698c54113f1978239ef9333bbecb",
+  "overview_commit": "b59c152e9513a8fc445a3e045f92767df1e8eb2e",
+  "overview_digest": "8125e5f33eb4594dabdba9cc67c35c8dfc984834686b5ce5f38093bdfaed444a",
   "paragraphs": [
+    {
+      "id": "28f0aa2df7d394f0f6fefc9a73c3fff81f1c92116e3d35ac18755de3213355b1",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Wulc source adds an advertising data-trading layer to the wiki's adtech material. New [[DataManagementPlatform]] captures first-party DMPs that process advertiser-owned data into requested labels without default resale, and third-party DMPs that aggregate data-provider inputs, apply their own label logic, sell label data toward DSP demand, and share revenue back. [[DataMonetization]] and [[ProgrammaticAdvertising]] now include ADX-mediated DMP-to-DSP label flows, the pricing concern that impression-based data charging can lift traffic prices while understating data value, and the privacy constraints around PII, opt-out, retention, sparse-data reidentification, and differential privacy. [[BehavioralData]] and [[BehavioralTargeting]] are sharpened by a value-density hierarchy: conversion and cart behavior outrank search and clicks, which outrank page views, sharing, and forced ad exposure. The four embedded diagrams were inspected and used as evidence for first/second/third-party data relations, first-party and third-party DMP business models, and ADX-mediated data trading.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BehavioralData",
+        "BehavioralTargeting",
+        "DataManagementPlatform",
+        "DataMonetization",
+        "ProgrammaticAdvertising"
+      ]
+    },
     {
       "id": "d6a0905a78d39b688d0bf30642e2e7c39e79af00b5d2ca9e8b4b72a95a11143d",
       "primary_topic": "business-and-markets",

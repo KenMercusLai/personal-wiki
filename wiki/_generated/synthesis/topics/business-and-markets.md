@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 22bc282b2b9d347c58fa8e80a2fd83f74cc54e35
-input_digest: 709ccf99899fbf7c4a17bb787cb88db8fad9f595cdbd474a7d537ae32c3d4476
+as_of_overview_commit: b59c152e9513a8fc445a3e045f92767df1e8eb2e
+input_digest: 0525bfce9ba5d90bbf8c100acfc6aeed0fa05c7d7406eb3f2c3f1397bc6907fb
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Wulc's Zhang Xiaoyu course summaries frame ordinary-investor discipline around asset allocation, model-portfolio tradeoffs, rebalancing, factor diversification, passive-first implementation, valuation, fee control, thesis review, vague-language skepticism, and outside-income resilience; Housel frames risk discipline as preserving optionality; and Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, collaboration, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, data trading, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent investing and crypto material strengthens the risk theme: Wulc's Zhang Xiaoyu course summaries frame ordinary-investor discipline around asset allocation, model-portfolio tradeoffs, rebalancing, factor diversification, passive-first implementation, valuation, fee control, thesis review, vague-language skepticism, and outside-income resilience; Housel frames risk discipline as preserving optionality; and Taresky's crypto-yield explainers show that exchange lending, funding arbitrage, and stablecoin DeFi can reduce some directional exposure while leaving custody, counterparty, protocol, authorization, legal, and behavioral risks intact. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, DMP labels, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, privacy, inclusion, safety, and testing constraints.
 
 ## Cross-source Findings
 
@@ -208,6 +208,16 @@ Business and market sources show durable value emerging when product work, start
 **Qualifications:**
 
 - Payment, platform, media-portfolio, and consumer-IP evidence remains source-scoped and sensitive to rights, revenue share, fraud, trend risk, and platform bargaining power.
+
+### Advertising Data Trading Packages Intent Into Labels
+
+[[DataManagementPlatform]], [[DataMonetization]], [[ProgrammaticAdvertising]], [[BehavioralData]], and [[BehavioralTargeting]] show advertising data markets packaging behavior of different intent density into DMP label products that can flow through ADX/DSP bidding, while identity resolution, impression-based pricing, PII limits, opt-out, retention, and sparse-data reidentification constrain the market.
+
+**Evidence:** [[DataManagementPlatform]], [[DataMonetization]], [[ProgrammaticAdvertising]], [[BehavioralData]], [[BehavioralTargeting]]
+
+**Qualifications:**
+
+- The Wulc adtech evidence is a 2017 conceptual summary; DMP, ADX, DSP, identity, privacy, cookie, mobile identifier, and regulatory practices need current validation before being treated as implementation guidance.
 
 ### Mobile And Messaging Reshape Distribution Surfaces
 

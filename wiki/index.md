@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
 - [怎样用数据洞察你的用户](sources/blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu.md) - Wulc explains audience targeting and user profiling as demand-driven label design, from structured versus advertiser-specific tag systems to behavioral targeting, recency weighting, thresholds, and Reach/CTR evaluation.
 - [张潇雨的个人投资课(3)-投资组合构建](sources/blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-3-tou-zi-zu-he-gou-jian.md) - Wulc summarizes Zhang Xiaoyu's portfolio-construction course section: asset allocation, asset classes, Permanent/All Weather/Swensen portfolios, rebalancing, factor investing, index-fund categories, and investing-language traps.
 - [孤儿进程和僵尸进程](sources/blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng.md) - Wulc distinguishes orphan processes from zombie processes, explaining init adoption, wait/waitpid reaping, PID exhaustion risk, and parent-focused cleanup.
@@ -256,7 +257,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, audience targeting, Python concurrency, Linux process lifecycle, and practical reading methods.
+- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency, Linux process lifecycle, and practical reading methods.
 - [Zhang Xiaoyu](entities/ZhangXiaoyu.md) - Personal-investing course teacher represented here by market-rules guidance for ordinary investors.
 - [John Maynard Keynes](entities/JohnMaynardKeynes.md) - Economist and investor example used to illustrate the limits of macro-driven investing.
 - [Joel Tillinghast](entities/JoelTillinghast.md) - Investor-author cited for company-level "think small" analysis instead of macro fixation.
@@ -910,6 +911,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Concepts
 - [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that converts user, context, ad, and advertiser-relationship data into demand-relevant labels and scores.
 - [Behavioral Targeting](concepts/BehavioralTargeting.md) - Audience-targeting method that maps historical actions into weighted, recency-aware labels and thresholds.
+- [Data Management Platform](concepts/DataManagementPlatform.md) - Advertising data infrastructure that processes first-party or third-party user data into label products traded through DSP and ADX workflows.
 - [Factor Investing](concepts/FactorInvesting.md) - Systematic exposure to size, value, low-volatility, dividend, quality, momentum, or other return factors, with cyclicality and diversification caveats.
 - [Orphan Process](concepts/OrphanProcess.md) - Unix-like process state where a running child outlives its parent and is adopted by init for cleanup.
 - [Zombie Process](concepts/ZombieProcess.md) - Terminated child process whose parent has not collected status with wait or waitpid, leaving PID-consuming metadata behind.
@@ -1211,7 +1213,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
-- [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges and DSPs use user, context, advertiser, and audience-label data to decide whether and how much to bid for impressions.
+- [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges, DSPs, and DMP-provided labels use user, context, advertiser, and audience data to decide whether and how much to bid for impressions.
 - [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.
 - [Product User Segmentation](concepts/ProductUserSegmentation.md) - Product practice of tailoring tools, defaults, and permissions to distinct user needs and behaviors.
 - [Social Media Curation](concepts/SocialMediaCuration.md) - Deliberate shaping of social-platform follows, lists, feeds, and interaction boundaries for useful information intake.
@@ -1282,7 +1284,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting and allocating limited mental capacity so important work gets real focus rather than merely available minutes.
 - [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
-- [Behavioral Data](concepts/BehavioralData.md) - Behavior traces that support prediction, optimization, targeting labels, and automated business decisions.
+- [Behavioral Data](concepts/BehavioralData.md) - Behavior traces of varying intent density that support prediction, optimization, targeting labels, identity-linked data trading, and automated business decisions.
 - [Behavior Design](concepts/BehaviorDesign.md) - Practice of shaping conditions so people are more likely to perform beneficial target behaviors.
 - [Artwork Personalization](concepts/ArtworkPersonalization.md) - Choosing different title artwork for different viewers based on context, preference signals, and quality-engagement goals.
 - [Contextual Bandits](concepts/ContextualBandits.md) - Online-learning algorithms that select actions for a context while balancing exploitation with exploration.
@@ -1323,7 +1325,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
 - [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, and noise that produces observed data.
-- [Data Monetization](concepts/DataMonetization.md) - Turning collected or inferred data into economic value by improving targeting, recommendation, allocation, and related business decisions.
+- [Data Monetization](concepts/DataMonetization.md) - Turning collected or inferred data into economic value by improving targeting, recommendation, allocation, label trading, and related business decisions.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
