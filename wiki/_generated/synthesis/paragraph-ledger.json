@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
       "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
       "a7bc1196b541898a73e7bf671c39aaf0ec509af4efc93261701016cd3f5fffce",
       "ca084d8ad7aa5636cf86c755f3cbc1b4dcc1d56827758bb0b0d0831d8736975f",
@@ -206,11 +207,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 204
+    "paragraph_count": 205
   },
-  "overview_commit": "f286f5c582db1766f376ce3156116c2496d54c06",
-  "overview_digest": "132b3d669de06994aaab7661fd61cc143c5b2d4d278e1bec80422d7c7a6499ec",
+  "overview_commit": "3b691aeb6ddad40c8eafde0a2564d7276c81ef3a",
+  "overview_digest": "a3c5fcd9a2a8e5c088c1b804812aef6b00fa38bfe99a6622252ef972197da325",
   "paragraphs": [
+    {
+      "id": "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Holden Karnofsky source adds a writing-centered investigation layer to the wiki's learning, reading, and knowledge-output material. New [[LearningByWriting]] frames writing not as a final communication step but as the control surface for learning: state a premature hypothesis, defend it, list weaknesses, read or discuss the subquestion most likely to change the view, revise or switch sides, and repeat. [[ActiveLearning]] gains an investigation-scale loop beyond teaching and workplace reconstruction, [[FocusedReading]] gains hypothesis-led source selection, and [[KnowledgeOutput]] gains provisional drafts as research tools before publication. [[HoldenKarnofsky]] becomes the source-scoped author entity. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ActiveLearning",
+        "FocusedReading",
+        "HoldenKarnofsky",
+        "KnowledgeOutput",
+        "LearningByWriting"
+      ]
+    },
     {
       "id": "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
       "primary_topic": "work-education-and-society",

@@ -1403,6 +1403,10 @@ Ran lint. See lint-report.md for details.
 
 Ingested Aytekin Tank's Jotform article on side-project incubation, bootstrapped SaaS, and side projects becoming core businesses.
 
+## [2026-09-14] ingest | Learning By Writing
+
+Ingested Holden Karnofsky's Cold Takes article on writing-centered learning, creating source, entity, and concept pages and updating active learning, focused reading, and knowledge output synthesis.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1687,6 +1691,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me
 
 Ingested Ethan Banks' age-staged career advice, creating source and entity pages and updating career planning, burnout prevention, and work habits synthesis.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

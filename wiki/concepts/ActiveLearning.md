@@ -8,7 +8,8 @@ sources:
   - ru-he-zai-gong-zuo-zhong-xue-xi
   - bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi
   - a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium
-last_updated: 2026-09-13
+  - blog-holden-karnofsky-cold-takes-learning-by-writing
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,6 +25,8 @@ The workplace-learning source broadens active learning beyond public output. It 
 
 Wibowo's retrospective adds a related career-scale version: repeated experiments and decisions can create learning even without full supervision or a known final path. Its [[ReinforcementLearning]] metaphor is not the same as active learning pedagogy, but it strengthens the broader pattern that feedback from action can build judgment over time.
 
+Karnofsky's [[LearningByWriting]] source adds an investigation-scale form of active learning. Instead of reading until he feels ready to have an opinion, the learner writes a premature hypothesis, defends it, lists weaknesses, reads toward the subquestion most likely to change the view, and revises or flips sides. This makes active learning less about a single explanation test and more about a repeated claim-critique-research loop.
+
 ## Key Claims
 - Teaching-oriented explanation is presented as a strong active-learning mode.
 - Active learning reveals gaps because failed output makes unclear understanding visible.
@@ -31,7 +34,7 @@ Wibowo's retrospective adds a related career-scale version: repeated experiments
 - Active learning supports creativity by forcing links between unfamiliar concepts.
 - Public writing can become active learning when it forces topic choice, concrete examples, feedback, and revision.
 - Workplace problem review can become active learning when the learner reconstructs expert reasoning and verifies abstractions through hands-on experiments.
-- Repeated project and career experiments can produce judgment when feedback is imperfect but accumulated over time.
+- Repeated project, career, and investigation loops can produce judgment when feedback is imperfect but accumulated over time.
 
 ## Evidence
 - Teaching and explanation: [[feynman-technique-in-practice-indigo-information-acquisition-knowledge-output-methodology]] frames learning by teaching as the core of the Feynman Technique.
@@ -43,16 +46,17 @@ Wibowo's retrospective adds a related career-scale version: repeated experiments
 - Feedback and revision: [[ru-he-xie-de-gan-huo-man-man-you-tong-su-yi-dong-cong-yi-pian-wen-zhang-fen-xiang-wo-de-chuang-zuo-jing-yan]] shows friends' draft feedback leading to revisions in opening length, context, video flow, examples, and summary visuals.
 - Workplace review and experiments: [[ru-he-zai-gong-zuo-zhong-xue-xi]] recommends replaying a stronger colleague's shell history and searches, then using tools such as Wireshark or tcpdump to make abstract networking concepts concrete.
 - Explanation failure modes: [[bian-cheng-sui-xiang-ru-he-xi-tong-xing-xue-xi]] treats blocked writing, repeated stalls, and novice confusion as feedback for active study.
-- Career-scale experimentation: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] uses [[ReinforcementLearning]] to frame repeated decisions under uncertainty as a way to improve future choices.
+- Iterative feedback loops: [[a-career-retrospective-10-years-working-in-tech-sailor-mercury-medium]] uses [[ReinforcementLearning]] to frame repeated decisions under uncertainty as a way to improve future choices; [[blog-holden-karnofsky-cold-takes-learning-by-writing]] uses premature written claims, weakness lists, targeted subquestions, and feedback to repeatedly improve an investigation.
 
 ## Counterevidence & Qualifications
-The sources offer strong practitioner cases for active learning but do not compare active-learning formats experimentally. Their retention claims are presented through Dale's Cone, creator retrospectives, and software-work anecdotes, so they should be treated as directional support rather than precise measurement. Public writing and teaching-oriented explanation also require enough prior knowledge, available examples, and feedback access to be useful rather than premature performance pressure. Workplace case review depends on access to solved problems, traces, safe tools, and colleagues willing to explain their reasoning. The reinforcement-learning metaphor is illustrative rather than a claim that human careers optimize like algorithms.
+The sources offer strong practitioner cases for active learning but do not compare active-learning formats experimentally. Their retention claims are presented through Dale's Cone, creator retrospectives, and software-work anecdotes, so they should be treated as directional support rather than precise measurement. Public writing and teaching-oriented explanation also require enough prior knowledge, available examples, and feedback access to be useful rather than premature performance pressure. Karnofsky argues for premature hypotheses as private or draft-stage tools, but the approach still depends on judgment about which subquestions matter and enough self-skepticism to revise. Workplace case review depends on access to solved problems, traces, safe tools, and colleagues willing to explain their reasoning. The reinforcement-learning metaphor is illustrative rather than a claim that human careers optimize like algorithms.
 
 ## What Changed
 - Added public tutorial writing as a concrete active-learning loop beyond the original Feynman-style learning source.
 - Added workplace problem review and hands-on technical experiments as private active-learning loops.
 - Added explanation-failure classification as a way to turn active output into the next study action.
 - Added repeated career/project experimentation as an adjacent feedback-learning pattern.
+- Added writing-centered investigation as an active-learning loop organized around provisional claims, weakness finding, targeted reading, and revision.
 
 ## Related Concepts
 - [[FeynmanTechnique]] - the technique is the source's primary active-learning example.
@@ -63,3 +67,4 @@ The sources offer strong practitioner cases for active learning but do not compa
 - [[WorkplaceLearning]] - workplace cases turn problem solving into active learning through reconstruction and verification.
 - [[SystematicLearning]] - active explanation tests whether breadth and depth have become usable understanding.
 - [[ReinforcementLearning]] - source metaphor for improvement through action, feedback, and iteration.
+- [[LearningByWriting]] - writing-centered investigation applies active learning to opinion formation and research.

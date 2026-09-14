@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Learning By Writing](sources/blog-holden-karnofsky-cold-takes-learning-by-writing.md) - Holden Karnofsky argues that writing premature hypotheses, attacking their weaknesses, and reading toward view-changing subquestions can make learning and research more focused than open-ended intake.
 - [Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me](sources/blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me.md) - Ethan Banks offers age-staged career advice on asymmetric risk, humility, promotion reality, goals, relationships, recovery, saying no, habits, restraint, and choosing one's own priorities.
 - [Compliance in a DevOps Culture](sources/blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture.md) - Carl Nygard compares manual, pipeline, composition, and point-of-change compliance patterns, arguing for evidence-driven controls that preserve DevOps delivery at scale.
 - [You Can't Buy Integration](sources/blog-brandon-byars-martinfowler-com-you-cant-buy-integration.md) - Brandon Byars argues that integration cannot be bought as a product; organizations need clean capability interfaces, general-purpose language ownership for evolving APIs, and bounded tactical use of integration DSLs.
@@ -218,6 +219,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Holden Karnofsky](entities/HoldenKarnofsky.md) - Cold Takes author represented here by a writing-centered investigation method that uses provisional claims, weakness finding, targeted reading, revision, and feedback.
 - [Ethan Banks](entities/EthanBanks.md) - Career-advice author whose age-staged reflection connects risk timing, goals, relationships, boundaries, habits, and restraint.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
@@ -1099,6 +1101,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
+- [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered investigation method where provisional hypotheses, weakness lists, targeted reading, and revision direct learning.
 - [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
 - [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
