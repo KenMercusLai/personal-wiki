@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Product Backlog Building Canvas](sources/blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas.md) - Paulo Caroli presents Product Backlog Building as a collaborative canvas for turning personas, features, PBIs, and acceptance criteria into useful user stories.
 - [How I Use "AI"](sources/blog-nicholas-carlini-how-i-use-ai.md) - Nicholas Carlini documents concrete LLM productivity uses across programming, tutoring, search, automation, reference lookup, simplification, and debugging while preserving explicit caveats about limits and risks.
 - [A Few Beliefs](sources/blog-morgan-housel-collab-fund-a-few-beliefs.md) - Morgan Housel collects compact beliefs about financial risk, incentives, uncertainty, expectations, debt, savings, reputation, and behavioral humility.
 - [What Makes Claude Code So Damn Good](sources/blog-minusx-nuwanda-what-makes-claude-code-so-damn-good.md) - MinusX's Nuwanda analyzes Claude Code as a simple, steerable coding-agent design built from one main loop, bounded subagents, smaller helper models, detailed prompts, live code search, shaped tools, and todo management.
@@ -236,6 +237,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Paulo Caroli](entities/PauloCaroli.md) - Agile and Lean facilitator behind the Product Backlog Building Canvas article.
+- [Fábio Aguiar](entities/FabioAguiar.md) - Co-author of the Product Backlog Building technique with Paulo Caroli.
+- [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner credited here with introducing the User Story term.
+- [Mike Cohn](entities/MikeCohn.md) - User-story reference author cited for User Stories Applied and INVEST sizing refinement.
+- [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
 - [Nicholas Carlini](entities/NicholasCarlini.md) - Machine-learning security researcher and programmer represented here by a concrete, caveated taxonomy of practical LLM use.
 - [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice, architecture-governance, and online-information habits.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
@@ -851,6 +857,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Product Backlog Building](concepts/ProductBacklogBuilding.md) - Collaborative canvas technique for deriving PBIs and user stories from personas, activities, features, and benefits.
+- [User Stories](concepts/UserStories.md) - Agile requirements format that ties user, action, and benefit into a concise prompt for conversation and confirmation.
 - [Practical LLM Use](concepts/PracticalLLMUse.md) - Bounded use of large language models for starts, lookup, transformation, tutoring, automation, debugging, and other inspectable productivity tasks.
 - [Agile Software Development](concepts/AgileSoftwareDevelopment.md) - Practice-rich software approach joining adaptive planning, customer collaboration, teamwork, technical excellence, and reliable delivery.
 - [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.

@@ -1443,6 +1443,10 @@ Ingested Nicholas Carlini's practical LLM-use essay, creating source, author, an
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Product Backlog Building Canvas
+
+Ingested Paulo Caroli's Martin Fowler article on Product Backlog Building as a collaborative canvas for turning personas, features, PBIs, acceptance criteria, UI detail, tasks, enablers, and ready/done agreements into useful user stories.
+
 ## [2026-09-14] ingest | What Makes Claude Code So Damn Good
 
 Ingested Nuwanda's MinusX analysis of Claude Code's simple control loop, prompt/tool design, live code search, smaller helper-model usage, and todo management; added Nuwanda and MinusX pages and updated Claude Code, Agentic Workflow Patterns, Coding Agent Minimal Tooling, Agentic RAG, index, and overview.
@@ -1807,6 +1811,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
