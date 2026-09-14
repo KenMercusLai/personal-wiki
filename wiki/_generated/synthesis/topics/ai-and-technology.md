@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 417bbca702987b4f76f821746a5450900966a373
-input_digest: f0bf2d4504ad1603685777b94e65e7c914b14b1300b1c3ebf535596ecedb1f49
+as_of_overview_commit: b8ccd373b91fd5ffa6b80afa3762bf337d116487
+input_digest: 3530cc06cbaff6fa13cd8ee274201da1b272ca3fb7131c99d63dbf947d946232
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.
 
 ## Cross-source Findings
 
@@ -57,6 +57,17 @@ AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[
 
 - The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign.
 - Anthropic adds that automated tests help coding agents iterate, but human review remains necessary for broader system requirements.
+
+### Ai Abundance Raises Quality Standards
+
+[[AIEraCreativeStandards]] frames AI abundance as both empowerment and pressure: coding assistants and image tools lower creation thresholds, but when average output is cheap, durable creative work depends more on taste, quality inputs, [[CognitiveCuriosity]], and the broader [[MakeGoodNewThings]] ethic.
+
+**Evidence:** [[AIEraCreativeStandards]], [[CognitiveCuriosity]], [[MakeGoodNewThings]]
+
+**Qualifications:**
+
+- This claim is source-scoped to a creator essay and should not be treated as proof that quality beats distribution, timing, price, or network effects in every AI-enabled market.
+- High standards can become perfectionism when they prevent shipping, feedback, or learning.
 
 ### Agent Infrastructure Needs Semantic Boundaries
 

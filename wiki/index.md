@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Make Good New Things](sources/blog-limboy-make-good-new-things.md) - Limboy argues that AI lowers the threshold for making software, writing, and images, but that meaningful creation still depends on high standards, strong inputs, cognitive curiosity, and personal presence.
 - [A Dusting of Gamification](sources/blog-joel-spolsky-a-dusting-of-gamification.md) - Joel Spolsky argues that Stack Overflow's light reputation layer recognized helpful contributions and signaled community norms, while downvotes and visible scoring carried inclusion costs.
 - [My Productivity App is a Never-Ending .txt File](sources/blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file.md) - Jeff Huang describes a calendar-plus-plain-text workflow where nightly daily lists become task plans, meeting notes, research logs, and a searchable record of work.
 - [The Difference Between Time and Attention](sources/blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention.md) - Jason Fried argues that useful commitments are constrained by attention rather than calendar time, so saying no can be more honest when mental presence is unavailable.
@@ -225,6 +226,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Limboy](entities/Limboy.md) - Writer represented here by a reflection on creation, AI-enabled making, high standards, curiosity, and attention.
 - [Joel Spolsky](entities/JoelSpolsky.md) - Software writer and Stack Overflow cofounder represented here by a retrospective on reputation-based gamification.
 - [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
 - [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
@@ -817,6 +819,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Make Good New Things](concepts/MakeGoodNewThings.md) - Creative-life ethic treating valuable new artifacts as care, learning, asymmetric return, and a traceable record of life.
+- [AI-Era Creative Standards](concepts/AIEraCreativeStandards.md) - Quality expectations needed when AI makes acceptable average creative and technical output cheap and abundant.
+- [Cognitive Curiosity](concepts/CognitiveCuriosity.md) - Mechanism-seeking curiosity aimed at how and why, used as creative direction rather than surface novelty.
 - [Gamification](concepts/Gamification.md) - Using points, reputation, streaks, or other game-like mechanics as a weak behavioral layer around an activity users already value.
 - [Community Reputation Systems](concepts/CommunityReputationSystems.md) - Community scoring systems that convert feedback into ranking, recognition, trust, privileges, or moderation signals.
 - [Text File Productivity](concepts/TextFileProductivity.md) - Plain-text daily planning workflow where a chronological file combines task execution, notes, retrieval, and work history.

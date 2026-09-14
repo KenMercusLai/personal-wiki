@@ -66,6 +66,21 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "ai-abundance-raises-quality-standards",
+      "qualifications": [
+        "This claim is source-scoped to a creator essay and should not be treated as proof that quality beats distribution, timing, price, or network effects in every AI-enabled market.",
+        "High standards can become perfectionism when they prevent shipping, feedback, or learning."
+      ],
+      "statement": "[[AIEraCreativeStandards]] frames AI abundance as both empowerment and pressure: coding assistants and image tools lower creation thresholds, but when average output is cheap, durable creative work depends more on taste, quality inputs, [[CognitiveCuriosity]], and the broader [[MakeGoodNewThings]] ethic.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AIEraCreativeStandards",
+        "CognitiveCuriosity",
+        "MakeGoodNewThings"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "agent-infrastructure-needs-semantic-boundaries",
       "qualifications": [
@@ -233,6 +248,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.",
   "topic_id": "ai-and-technology"
 }

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d878b916d29cbf0917d4d6ecb9bc8b78b01647794870e3ec99aac472a58c2ccd",
       "8c5ca8513d25f177b1363575cbdf1e2e7f826186fd7ab3ae53cf1a556c715b0a",
       "42716110549eee9c08b124f3804dd21619d8e1cfcbc1f558548f203bc1b4447f",
       "cef1a82f078e713deb917f306729d8cabbe178bc70dba8b7f5a4f22138f04c21",
@@ -213,11 +214,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 211
+    "paragraph_count": 212
   },
-  "overview_commit": "43e7c6b23feba483f2f6cff02b58b0f9556a2869",
-  "overview_digest": "f3683d95a0db5a14b7050d8341c8a11fec1e06acd639ea651768631a5dcddeaa",
+  "overview_commit": "b8ccd373b91fd5ffa6b80afa3762bf337d116487",
+  "overview_digest": "173a0913ac6899f5b0813a177b9d834f7735768135af87711abf78c2d118f62f",
   "paragraphs": [
+    {
+      "id": "d878b916d29cbf0917d4d6ecb9bc8b78b01647794870e3ec99aac472a58c2ccd",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "ai-and-technology"
+      ],
+      "text": "The newest Limboy source adds a creative-life layer to the wiki's creator, writing, and AI-workflow material. New [[MakeGoodNewThings]] frames making valuable artifacts as care for others, deep learning, asymmetric upside, and a way to leave remembered knots along one's life rather than only as market output. New [[AIEraCreativeStandards]] captures the article's AI-era quality claim: coding assistants and image tools lower the threshold for creation, but they also make average work cheap, so strong inputs, taste, and standards become more important. New [[CognitiveCuriosity]] distinguishes surface novelty from how-and-why curiosity that gives creative work direction. [[Limboy]] becomes the source-scoped author entity. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AIEraCreativeStandards",
+        "CognitiveCuriosity",
+        "Limboy",
+        "MakeGoodNewThings"
+      ]
+    },
     {
       "id": "8c5ca8513d25f177b1363575cbdf1e2e7f826186fd7ab3ae53cf1a556c715b0a",
       "primary_topic": "business-and-markets",

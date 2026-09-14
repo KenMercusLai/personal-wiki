@@ -1423,6 +1423,10 @@ Ingested Jeff Huang's calendar-plus-text-file productivity workflow, creating so
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Make Good New Things
+
+Ingested Limboy's reflection on creation as care, AI-lowered creative thresholds, high standards, cognitive curiosity, and making as a way to stay present.
+
 ## [2026-09-14] ingest | A Dusting of Gamification
 
 Ingested Joel Spolsky's Stack Overflow gamification retrospective, creating source, author, gamification, and community reputation system pages and updating Stack Overflow's profile.
@@ -1731,6 +1735,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
