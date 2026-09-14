@@ -2150,3 +2150,11 @@ Added Lyft Engineering source on Symphony, a marketing automation platform for a
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Building Products
+
+Added The Year of the Looking Glass essay on product-building practice. Key claims: product work should begin with a clear problem and audience, explore many candidate solutions before narrowing with evidence, frame plans as hypotheses, distinguish test quality from launch quality, define success metrics and countermetrics before launch, use retention when searching for product-market fit, and run post-mortems after successes and failures. Inspected all three embedded local images and treated them as decorative or duplicate steel-frame photographs.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

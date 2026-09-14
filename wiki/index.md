@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
+- [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
 - [Building Engineering Careers at NerdWallet](sources/building-engineering-careers-at-nerdwallet-nerdwallet.md) - NerdWallet explains how it refactored engineering job architecture from checklist-like promotion tasks toward values, examples, fair scope, manager calibration, and living-document rollout.
 - [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
