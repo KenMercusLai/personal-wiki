@@ -9,6 +9,7 @@ sources:
   - andrew-chen-how-to-write-more
   - anything-is-possible-if-you-pay-the-price-mission-org-medium
   - bill-barnett-delete-all-meetings
+  - blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -17,7 +18,7 @@ knowledge_schema: synthesis-v1
 [[PersonalProductivity]] is the practice of arranging attention, priorities, routines, communication, and task selection so meaningful work gets completed with less waste and avoidable friction.
 
 ## Current Synthesis
-The sources treat productivity as a collection of simple, durable habits rather than a comprehensive life-management system. The central pattern is to decide what matters, protect attention while doing it, reduce noisy inputs and bloated outputs, and remove or delegate work that does not require personal effort. The freelancer source adds a solo-work context: when no manager or office structure exists, routines, workspace boundaries, milestones, exercise, and social contact become part of staying productive and emotionally steady. Li Mu's optimization metaphor adds a rhythm principle: progress can come from good-enough direction, small repeated steps, periodic rest, and restarting after failed or unstable moves. Chen's writing source adds an output-cadence case: collect ideas continuously, schedule 60- to 90-minute writing blocks or weekend sessions, use distraction-free devices, and let small posts build capacity for larger work. The Mission.org source adds an [[OpportunityCost]] lens: productivity means repeatedly paying for chosen aims with unrecoverable time, saying no to low-value defaults, and choosing learning or creation over entertainment when those tradeoffs matter. Barnett adds a calendar-governance case: deleting default scheduled meetings can protect actual work time when meetings are procedural signals rather than substantive work.
+The sources treat productivity as a collection of simple, durable habits rather than a comprehensive life-management system. The central pattern is to decide what matters, protect attention while doing it, reduce noisy inputs and bloated outputs, and remove or delegate work that does not require personal effort. The freelancer source adds a solo-work context: when no manager or office structure exists, routines, workspace boundaries, milestones, exercise, and social contact become part of staying productive and emotionally steady. Li Mu's optimization metaphor adds a rhythm principle: progress can come from good-enough direction, small repeated steps, periodic rest, and restarting after failed or unstable moves. Chen's writing source adds an output-cadence case: collect ideas continuously, schedule 60- to 90-minute writing blocks or weekend sessions, use distraction-free devices, and let small posts build capacity for larger work. The Mission.org source adds an [[OpportunityCost]] lens: productivity means repeatedly paying for chosen aims with unrecoverable time, saying no to low-value defaults, and choosing learning or creation over entertainment when those tradeoffs matter. Barnett adds a calendar-governance case: deleting default scheduled meetings can protect actual work time when meetings are procedural signals rather than substantive work. Fried qualifies the whole time-management frame: some work cannot be made productive by squeezing in minutes, because the binding constraint is whether enough mental attention remains to do the work responsibly.
 
 ## Key Claims
 - Productivity starts with naming the day's most important three to five tasks.
@@ -26,7 +27,7 @@ The sources treat productivity as a collection of simple, durable habits rather 
 - Task triage improves output by deleting, delegating, batching, or doing difficult avoided work early.
 - Solo work needs environmental and emotional scaffolding because isolation and lack of supervision can weaken focus.
 - Iterative small steps can outperform overcomplicated planning when goals are complex and feedback is imperfect.
-- Creative output improves when capture, scheduled practice, distraction control, small repeatable formats, and opportunity-cost awareness lower the activation energy of starting while keeping time pointed toward learning, creating, and valued relationships.
+- Creative output improves when capture, scheduled practice, distraction control, small repeatable formats, opportunity-cost awareness, and attention-capacity limits lower the activation energy of starting while keeping time pointed toward work that can receive real focus.
 
 ## Evidence
 - Daily priority selection: [[tuimo-10-timeless-work-habits-to-boost-productivity]] recommends defining three to five most important tasks before the day is consumed by less important work.
@@ -41,16 +42,17 @@ The sources treat productivity as a collection of simple, durable habits rather 
 - Opportunity cost of time: [[anything-is-possible-if-you-pay-the-price-mission-org-medium]] argues that spare minutes, mornings, creative blocks, and time with loved ones reveal whether someone is spending time on chosen aims or default distraction.
 - Meeting deletion: [[bill-barnett-delete-all-meetings]] recommends deleting scheduled meetings, scheduling time to work, and meeting informally only as long as the interaction remains useful.
 - Procedural drag: [[bill-barnett-delete-all-meetings]] argues that meetings can become rational-looking procedures without a clear agenda or substantive contribution.
+- Attention versus time: [[blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention]] says a person may be able to find small daily time blocks while still lacking enough attention to make a commitment productive or fair.
 
 ## Counterevidence & Qualifications
-The sources are advice, metaphor, and personal experience, not comparative empirical studies. They give broadly applicable heuristics but do not test which habits matter most, how they vary by job type, or when interruptions and collaboration are necessary rather than wasteful. Chen's writing routines are especially source-scoped because they come from a long-running professional writer and may need adaptation for people whose work depends more heavily on collaboration, research, or approval cycles. Mission.org's advice is intentionally sweeping and can understate external constraints on time, money, health, caregiving, and environment. Barnett's delete-all-meetings recommendation is deliberately provocative and needs adaptation for roles where scheduled coordination, inclusion, documentation, or decisions are part of the work.
+The sources are advice, metaphor, and personal experience, not comparative empirical studies. They give broadly applicable heuristics but do not test which habits matter most, how they vary by job type, or when interruptions and collaboration are necessary rather than wasteful. Chen's writing routines are especially source-scoped because they come from a long-running professional writer and may need adaptation for people whose work depends more heavily on collaboration, research, or approval cycles. Mission.org's advice is intentionally sweeping and can understate external constraints on time, money, health, caregiving, and environment. Barnett's delete-all-meetings recommendation is deliberately provocative and needs adaptation for roles where scheduled coordination, inclusion, documentation, or decisions are part of the work. Fried's source is a short personal reflection, so it sharpens the language of commitment but does not provide a general measurement model for attention capacity.
 
 ## What Changed
 - Added solo-freelancer routines as a context where productivity habits also protect morale and continuity.
 - Added an iterative-progress pattern from Li Mu's stochastic-gradient-descent metaphor.
 - Added Chen's writing-output routine: idea capture, scheduled writing blocks, distraction-free devices, and small repeatable formats.
 - Added opportunity cost as a stronger reason to delete low-value default activities.
-- Added meeting deletion as a calendar-level productivity lever when meetings lack a substantive why.
+- Added meeting deletion and attention capacity as constraints on productivity that calendar availability alone cannot solve.
 
 ## Related Concepts
 - [[WorkHabits]] - repeated routines are the mechanism this source uses to improve productivity.

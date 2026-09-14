@@ -4,17 +4,27 @@ generated: true
 topic_id: cross-domain
 title: "Cross-domain"
 last_updated: 2026-09-14
-as_of_overview_commit: 537ba07c7d2615c6223a614434b0fe184d84163c
-input_digest: 61c16abcdff0f2e88753aa43281c931b8985f15dfba723cabcd78ae422bfe727
+as_of_overview_commit: a31bc9299ee2d8da5954d985b341081ae19039db
+input_digest: cdedafed9273499ff8f855449eae25cda7c140fbfb74fcd74f17a4bd911ed638
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
+Cross-domain judgment in this corpus treats constraints as the real unit of design: attention can be scarcer than time, API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
 
 ## Cross-source Findings
+
+### Attention Is A Capacity Constraint
+
+Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly.
+
+**Evidence:** [[AttentionManagement]], [[PersonalProductivity]]
+
+**Qualifications:**
+
+- The Fried source is a short personal reflection, so it sharpens boundary-setting language more than it proves a general measurement model for attention.
 
 ### Interfaces Are Recovery Contracts
 

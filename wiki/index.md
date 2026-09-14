@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Difference Between Time and Attention](sources/blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention.md) - Jason Fried argues that useful commitments are constrained by attention rather than calendar time, so saying no can be more honest when mental presence is unavailable.
 - [12 Best Practices For Boosting Product Page Conversions](sources/12-best-practices-for-boosting-product-page-conversions.md) - An ecommerce CRO article arguing that product pages convert through product media, trust badges, reviews, FAQs, value propositions, mobile speed, social proof, and carefully tested scarcity.
 - [Legacy Mimic](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic.md) - Ian Cartwright, Rob Horn, and James Lewis describe temporary service-providing and service-consuming mimic components that keep legacy processes working while capabilities are incrementally displaced.
 - [Learning By Writing](sources/blog-holden-karnofsky-cold-takes-learning-by-writing.md) - Holden Karnofsky argues that writing premature hypotheses, attacking their weaknesses, and reading toward view-changing subquestions can make learning and research more focused than open-ended intake.
@@ -222,6 +223,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
 - [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
 - [Ian Cartwright](entities/IanCartwright.md) - Coauthor of the Legacy Mimic pattern article, represented here by incremental legacy-displacement guidance.
 - [Rob Horn](entities/RobHorn.md) - Coauthor of the Legacy Mimic pattern article, represented here by transitional architecture and mimic examples.
@@ -1119,7 +1121,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered investigation method where provisional hypotheses, weakness lists, targeted reading, and revision direct learning.
 - [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
 - [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
-- [Attention Management](concepts/AttentionManagement.md) - Protecting focus by reducing multitasking, noisy inputs, and avoidable interruptions.
+- [Attention Management](concepts/AttentionManagement.md) - Protecting and allocating limited mental capacity so important work gets real focus rather than merely available minutes.
 - [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
 - [Behavioral Data](concepts/BehavioralData.md) - Behavior traces that support prediction, optimization, and automated business decisions.
 - [Behavior Design](concepts/BehaviorDesign.md) - Practice of shaping conditions so people are more likely to perform beneficial target behaviors.
@@ -1238,7 +1240,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
-- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention, routines, calendar defaults, and task triage to complete meaningful work efficiently.
+- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention capacity, routines, calendar defaults, and task triage to complete meaningful work efficiently.
 - [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 99e07a530bdd0e918e4eced45f56e16e1adf325b
-summary: "The wiki maps durable capability through system understanding, explicit evidence, active learning, feedback loops, and context-aware judgment."
-episode_count: 214
-source_count: 214
-paragraph_count: 208
+as_of_overview_commit: a31bc9299ee2d8da5954d985b341081ae19039db
+summary: "The wiki maps durable capability through system understanding, explicit evidence, active learning, feedback loops, attention capacity, and context-aware judgment."
+episode_count: 215
+source_count: 215
+paragraph_count: 209
 topic_count: 9
 ---
 
@@ -22,8 +22,8 @@ topic_count: 9
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
+- Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
-- [[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, and age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint.
 
 ## Synthesis by Domain
 
@@ -43,10 +43,10 @@ Business and market sources show durable value emerging when product work, start
 
 ### Cross-domain
 
-Cross-domain technical judgment in this corpus turns abstractions into practical constraints: API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
+Cross-domain judgment in this corpus treats constraints as the real unit of design: attention can be scarcer than time, API errors become developer-facing recovery contracts, rough latency math rejects weak architectures early, mobile navigation responds to human reach, Apple growth depends on interacting business levers, port exposure is triaged by risk class, trajectory simplification trades precision for performance when the broad route shape is enough, and platform-scale email data turns retail timing, mobile behavior, and subject-line copy into measurable marketing operations.
 
+- Productive commitments are constrained by usable mental capacity, not only calendar availability: [[AttentionManagement]] and [[PersonalProductivity]] distinguish available minutes from the attention needed to support another person or project responsibly. Evidence: [[AttentionManagement]], [[PersonalProductivity]].
 - Interface design works best when shared technical signals are paired with human recovery guidance, as [[APIErrorHandling]] combines [[HTTP]] status codes with readable messages, documentation, and responsibility boundaries for [[DeveloperExperience]]. Evidence: [[APIErrorHandling]], [[HTTP]], [[DeveloperExperience]].
-- Early architecture judgment often depends on rough models: [[BackOfEnvelopeEstimation]] and [[LatencyHierarchy]] help reject designs before implementation, while [[CloudCostOptimization]] uses similar unit reasoning for cost sanity checks. Evidence: [[BackOfEnvelopeEstimation]], [[LatencyHierarchy]], [[CloudCostOptimization]].
 
 ### Culture and Media
 

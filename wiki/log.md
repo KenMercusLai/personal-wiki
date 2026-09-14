@@ -1419,6 +1419,10 @@ Ingested Holden Karnofsky's Cold Takes article on writing-centered learning, cre
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | The Difference Between Time and Attention
+
+Ingested Jason Fried's Signal v. Noise essay on attention as a scarcer constraint than calendar time, creating the source and author pages and updating attention management and personal productivity synthesis.
+
 ## [2026-09-14] ingest | BlackBerry: Meditation At The Grave
 
 Added Jean-Louis Gassee's smartphone-transition postmortem comparing BlackBerry, Palm, Nokia, and Microsoft. Key claims: iOS and Android changed smartphones into app-centered ecosystems; BlackBerry delayed platform renewal, Palm modernized too late, Nokia triggered an Osborne Effect, and Microsoft's mobile licensing model collided with free Android.
@@ -1719,6 +1723,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

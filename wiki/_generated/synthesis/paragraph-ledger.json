@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "cef1a82f078e713deb917f306729d8cabbe178bc70dba8b7f5a4f22138f04c21",
       "2eb6565ed647660102b3ac0f0f291f500382a17b0d144ba1af556b9906d07935",
       "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
       "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
@@ -210,11 +211,23 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 208
+    "paragraph_count": 209
   },
-  "overview_commit": "99e07a530bdd0e918e4eced45f56e16e1adf325b",
-  "overview_digest": "60e9777772bd8be1b9b0413c8ec9643f1575a3e4222f32cde134b5618f6a09a3",
+  "overview_commit": "a31bc9299ee2d8da5954d985b341081ae19039db",
+  "overview_digest": "b721d398d5187630f1d0d6bcbff9557e8c2d77a96e1306ba95fa1dd63b784078",
   "paragraphs": [
+    {
+      "id": "cef1a82f078e713deb917f306729d8cabbe178bc70dba8b7f5a4f22138f04c21",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest Jason Fried source adds an attention-capacity layer to the wiki's productivity material. [[AttentionManagement]] now distinguishes available time from available attention: a person may be able to squeeze twenty minutes into a day while still lacking the mental presence needed to support another person or project responsibly. [[PersonalProductivity]] gains a sharper qualification to time-management advice: calendar arithmetic is insufficient when the mind is already absorbed by a few key commitments. [[JasonFried]] becomes the source-scoped author entity. No image references were present in the source Markdown.",
+      "topic_scores": {},
+      "wikilinks": [
+        "AttentionManagement",
+        "JasonFried",
+        "PersonalProductivity"
+      ]
+    },
     {
       "id": "2eb6565ed647660102b3ac0f0f291f500382a17b0d144ba1af556b9906d07935",
       "primary_topic": "work-education-and-society",
