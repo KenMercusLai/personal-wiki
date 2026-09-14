@@ -8,6 +8,7 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - blog-minusx-nuwanda-what-makes-claude-code-so-damn-good
   - blog-antirez-dont-fall-into-the-anti-ai-hype
+  - blog-guangzhengli-vibe-coding-and-context-coding
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -26,6 +27,8 @@ The MinusX analysis adds an agent-design profile. It argues that Claude Code fee
 
 Antirez adds a high-leverage user profile from systems programming and Redis maintenance. In his account, Claude Code was useful not just for scaffolding but for multi-hour debugging, test-framework work, C inference-library generation, and reproducing Redis Streams internals from a design document. This strengthens the profile of Claude Code as a tool for substantial bounded engineering tasks when the human can supply direction and inspect the result.
 
+Guangzhengli adds a comparative tool-evolution profile. Claude Code is presented as especially strong on large multi-file tasks because it can spend more context, inspect the project with Unix tools, build a global view before editing, and cooperate with surrounding developer workflows beyond the IDE.
+
 ## Key Characteristics
 - Operates as a command-line coding agent with project-wide context rather than an editor-only assistant.
 - Supports planning, custom commands, hooks, subagents, and todo management as workflow primitives.
@@ -33,7 +36,7 @@ Antirez adds a high-leverage user profile from systems programming and Redis mai
 - Uses provider-aware [[PromptCaching]] tactics and smaller helper-model calls to manage cost, context, and high-volume tool results.
 - Relies on highly structured prompt and tool design, including context files, Markdown/XML sections, examples, emphatic reminders, and deterministic higher-level tools.
 - Works best when paired with small steps, version control, tests, compilation, linting, and human review.
-- Supports role-specialized Agent Team workflows and experienced-programmer leverage when paired with file-backed state, clear intent, design documents, and verification infrastructure.
+- Supports role-specialized Agent Team workflows and experienced-programmer leverage when paired with file-backed state, clear intent, design documents, context-budget visibility, and verification infrastructure.
 
 ## Evidence
 - Project-wide operation: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] contrasts Claude Code's command-line project view with editor AI interactions centered on a file or selected lines.
@@ -44,15 +47,18 @@ Antirez adds a high-leverage user profile from systems programming and Redis mai
 - Guardrails: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] recommends small iterations, tests, version control, modular work, cross-review, and compilation/lint/test loops.
 - Agent Team use: [[yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua]] uses Claude Code to coordinate PM, Architect, Engineer, and QA agents during a 31,000-line Rust port.
 - Systems-programming use: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] says Claude Code iterated on Redis test flakes, added linenoise UTF-8 support and terminal-emulation tests, generated a C embedding-inference library, and reproduced Redis Streams internal changes from an existing design document.
+- Large-task comparison: [[blog-guangzhengli-vibe-coding-and-context-coding]] says Claude Code can outperform Cursor on tasks that require inspecting and modifying more than ten files because it retrieves context through terminal commands and spends tokens more freely.
+- Context UI evidence: [[blog-guangzhengli-vibe-coding-and-context-coding]] includes an inspected `/context` screenshot showing token usage broken out across system prompt, system tools, MCP tools, messages, and free space.
 
 ## Qualifications
-The profile partly reflects practitioner experience, source-code reading, and logged request interpretation rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields. The MinusX source argues for one main loop and limited branching, while the mihomo-rust case study shows that larger projects can still use multiple Claude Code roles when file-backed state, specs, and verification keep the workflow bounded. Antirez's examples are impressive but anecdotal and depend on an expert user who can define and review the work.
+The profile partly reflects practitioner experience, source-code reading, and logged request interpretation rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields. The MinusX source argues for one main loop and limited branching, while the mihomo-rust case study shows that larger projects can still use multiple Claude Code roles when file-backed state, specs, and verification keep the workflow bounded. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
 
 ## What Changed
 - Added the MinusX account of Claude Code as a simple-loop, prompt-shaped, tool-shaped coding-agent design.
 - Added smaller helper-model usage, todo management, and image-derived tool/prompt timeline evidence.
 - Qualified Agent Team enthusiasm with the bounded-branch argument from the MinusX source.
 - Added Antirez's Redis and systems-programming examples as evidence that Claude Code can handle substantial bounded engineering tasks.
+- Added Guangzhengli's comparison of Claude Code as a token-generous, Unix-search-oriented command-line agent for larger multi-file work.
 
 ## Relationships
 - [[Claude]] - Claude Code is built around the Claude model family in the sources' accounts.
@@ -66,3 +72,4 @@ The profile partly reflects practitioner experience, source-code reading, and lo
 - [[AgentTeam]] - Claude Code can provide role-specialized workflows when surrounded by a harness.
 - [[CodingAgentMinimalTooling]] - Claude Code illustrates how small and medium-level tools combine in a coding-agent loop.
 - [[Antirez]] - practitioner using Claude Code on Redis-adjacent and systems-programming tasks.
+- [[ContextCoding]] - Claude Code is a major tool in Guangzhengli's context-coding account.

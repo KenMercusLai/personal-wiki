@@ -10,7 +10,8 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan
   - agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin
-last_updated: 2026-09-13
+  - blog-guangzhengli-vibe-coding-and-context-coding
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -30,6 +31,8 @@ Hanyang's humanities guide extends the same principle beyond software agents. Fo
 
 The full AX essay broadens context management from a tooling concern into one of three core [[AgentExperience]] layers. User intent, tool feedback, screenshots, emotional pressure, external observations, and interface warnings all compete inside the agent's working state. This makes context management inseparable from [[AgentInterfaceAsContext]] and [[AXFriendlyInterfaceDesign]]: the system should decide which information reaches the model at the right moment, not merely hope the model calls the right help function or remembers an old prompt.
 
+Guangzhengli turns context management into a practical history of AI coding tools. In that account, Copilot, Cursor, and Claude Code are not only better models or interfaces; they are progressively richer ways to select, retrieve, and expose project context. The source also adds a maintenance warning: instruction files help only when they are concise and current, because stale context can mislead an agent more severely than missing context.
+
 ## Key Claims
 - LLMs generate from probability distributions over tokens, so context strongly shapes both reasoning and action.
 - Skills, MCP, RAG, Memory, and Computer Use can be understood as different context-management and action-interface patterns.
@@ -37,7 +40,7 @@ The full AX essay broadens context management from a tooling concern into one of
 - Context quality can degrade through accumulated failed attempts, contradictory instructions, emotional pressure, lossy summarization, or overloaded sessions.
 - Stable system/tool prefixes, dynamic conversation suffixes, and provider-side cache edits offer ways to balance context adaptation with prompt-cache reuse.
 - Long coding-agent and group-chat sessions create practical failure modes when auto-compaction happens mid-task, topics run in parallel, or a task is too large for one session.
-- Append-only history, minimal anchors, milestone resets, file-backed state, and interface-delivered diagnostics can reduce the pressure to carry every past state in active, summarized, or stale multi-agent context.
+- Append-only history, minimal anchors, milestone resets, file-backed state, context-budget views, and interface-delivered diagnostics can reduce the pressure to carry every past state in active, summarized, or stale multi-agent context.
 
 ## Evidence
 - Shared framing: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] explicitly says Skills, MCP, and coding-agent command execution are different openings from LLM text generation into the outside world, then frames them as solving context pollution.
@@ -52,9 +55,12 @@ The full AX essay broadens context management from a tooling concern into one of
 - Context-window realism: [[gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan]] warns that long inputs are not automatically remembered well, so users should batch, retrieve, or compress material instead of expecting a model to hold everything equally.
 - AX layer: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] names internal agent state as the most complex AX layer because user input and outside-world feedback both flow into limited, degradable, pollutable context.
 - Interface context: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] argues that GUI and TUI diagnostics can place warnings and constraints into the agent's observed context at the moment of action, unlike static Skills or optional help calls.
+- AI coding context: [[blog-guangzhengli-vibe-coding-and-context-coding]] compares Copilot's open-file and cursor context, Cursor's RAG/rules/Git-history/documentation context, and Claude Code's Unix-tool project exploration.
+- Instruction-file staleness: [[blog-guangzhengli-vibe-coding-and-context-coding]] warns that outdated project context in rules files can be more harmful than no saved context.
+- Context visibility: [[blog-guangzhengli-vibe-coding-and-context-coding]] includes an inspected Claude Code `/context` screenshot that breaks usage into system prompt, tools, MCP tools, messages, and free space.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the interface-as-context claim remains a design argument rather than a validated UI standard.
+The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the interface-as-context claim remains a design argument rather than a validated UI standard. Guangzhengli's tool comparison is also experience-based and may change with pricing, model quality, and product behavior.
 
 The tape-and-anchors model is also conceptual: it gives a useful alternative to inherited session state, but does not yet specify anchor schemas, retrieval evaluation, conflict handling, or deletion/privacy semantics.
 
@@ -65,7 +71,7 @@ The humanities-workflow source gives practical heuristics but not measured thres
 - Added Claude Code session-management tactics as a practical context-management case.
 - Added provider-side prompt-cache behavior plus tape-and-anchor continuity as context-management layers.
 - Added milestone respawn, file-system state, source preparation, compression, and clean-material handling as context-management tactics for coding, humanities, and writing work.
-- Added AX's internal-state layer and interface-delivered diagnostics as context-management concerns.
+- Added AX's internal-state layer, interface-delivered diagnostics, and context coding as context-management concerns.
 
 ## Related Concepts
 - [[LLMToolingSkills]] - Skills manage context by adding expert instructions.
@@ -80,3 +86,4 @@ The humanities-workflow source gives practical heuristics but not measured thres
 - [[AgentTeam]] - multi-agent workflows intensify context-management pressure.
 - [[AIWorkflowDesign]] - workflow design turns context preparation into a repeatable production practice.
 - [[AgentInterfaceAsContext]] - interfaces can deliver timely diagnostic context during agent action.
+- [[ContextCoding]] - context coding applies these context-management concerns directly to AI-assisted software development.

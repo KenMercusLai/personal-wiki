@@ -7,6 +7,7 @@ sources:
   - ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase
   - blog-anthropic-building-effective-ai-agents
   - blog-minusx-nuwanda-what-makes-claude-code-so-damn-good
+  - blog-guangzhengli-vibe-coding-and-context-coding
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -23,6 +24,8 @@ Anthropic's agent-building article adds two constraints to the minimal-tooling t
 
 The MinusX Claude Code analysis qualifies "minimal" as "deliberately shaped," not "only raw shell." Claude Code mixes low-level tools such as Bash and file operations, medium-level tools such as Grep/Glob/Edit, and higher-level deterministic helpers such as WebFetch, IDE diagnostics, Task, and TodoWrite. The rule is pragmatic: frequent or error-prone actions deserve dedicated model-facing tools, while broad shell access remains valuable for unusual cases.
 
+Guangzhengli adds the developer-habit reason for this tool shape. Claude Code's Unix-tool search feels strong because it mirrors how programmers investigate real code: start from a method or object name, search fuzzily or by regex, read surrounding files, and repeat until the business-relevant path is clear.
+
 ## Key Claims
 - A coding agent can be modeled as model plus tools plus loop.
 - Read, write, edit, search, and shell-like operations form a powerful baseline tool surface.
@@ -30,7 +33,7 @@ The MinusX Claude Code analysis qualifies "minimal" as "deliberately shaped," no
 - Bash is valuable because it bridges to existing command-line and programmable tools.
 - Small tool surfaces can be powerful when the loop can search, inspect, modify, and verify iteratively.
 - Tool minimalism still needs model-friendly definitions, clear argument semantics, examples, path safeguards, and deterministic helpers for frequent actions.
-- A useful coding-agent tool set may mix low-level, medium-level, and high-level tools according to frequency, reliability, and task fit.
+- A useful coding-agent tool set may mix low-level, medium-level, high-level, and Unix search/read tools according to frequency, reliability, task fit, and developer-like investigation needs.
 
 ## Evidence
 - Agent definition: [[mu-jiang-chui-zi-ding-zi]] defines an agent as model plus tools plus loop.
@@ -42,14 +45,16 @@ The MinusX Claude Code analysis qualifies "minimal" as "deliberately shaped," no
 - Path safeguard: [[blog-anthropic-building-effective-ai-agents]] says Anthropic improved tool reliability by requiring absolute file paths rather than relative ones.
 - Mixed tool levels: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] classifies Claude Code tools across low, medium, and high levels, arguing that frequent actions like grep/glob/edit warrant dedicated tools while shell access remains useful.
 - Tool-frequency evidence: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] includes a tool timeline where Edit, Read, and TodoWrite appear especially often.
+- Unix search fit: [[blog-guangzhengli-vibe-coding-and-context-coding]] says Claude Code uses grep, find, git, cat, and other terminal commands to build project context, matching how developers trace relevant code.
 
 ## Counterevidence & Qualifications
-The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements. The MinusX source warns against unnecessary complexity, but its own Claude Code example shows that simple loops can still benefit from many carefully named tools.
+The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements. The MinusX source warns against unnecessary complexity, but its own Claude Code example shows that simple loops can still benefit from many carefully named tools. Guangzhengli's Unix-tool praise applies most directly to codebases where textual names and current files reveal the relevant path.
 
 ## What Changed
 - Added the MinusX distinction between low-level, medium-level, and high-level coding-agent tools.
 - Added Claude Code tool-frequency evidence for Edit, Read, and TodoWrite.
 - Reframed minimal tooling as deliberately shaped tool design rather than a raw-tool-only stance.
+- Added the argument that Unix search tools fit coding agents because they mirror ordinary developer investigation.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - minimal tools still require active human judgment and feedback.
@@ -61,3 +66,4 @@ The sources are practitioner examples and do not prove that small tool surfaces 
 - [[AgentComputerInterface]] - minimal tools still need agent-readable definitions and mistake-resistant arguments.
 - [[AgenticWorkflowPatterns]] - coding agents are an open-ended agent pattern with verifiable environmental feedback.
 - [[ClaudeCode]] - Claude Code illustrates a compact loop supported by a mixed-level tool surface.
+- [[ContextCoding]] - minimal tools help agents gather and verify current project context.

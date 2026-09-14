@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | 谈谈 AI 编程工具的进化与 Vibe Coding
+
+Ingested Guangzhengli's comparison of GitHub Copilot, Cursor, Claude Code, vibe coding, and context coding; inspected all seven embedded screenshots. Added source, Guangzhengli, and Context Coding pages; updated Vibe Coding, AI Coding Practice, Claude Code, Cursor, GitHub Copilot, LLM Context Management, Agentic RAG, Coding Agent Minimal Tooling, and Human Code Responsibility to capture the original no-review meaning of vibe coding, context engineering as the main AI coding practice, RAG-plus-grep retrieval, and the production-risk contrast between non-technical and experienced AI builders.
+
 ## [2026-09-14] ingest | Map of my personal data infrastructure
 
 Ingested beepb00p's personal data infrastructure map; inspected the embedded SVG diagram; added pages for data liberation, personal data mirrors, personal data infrastructure, HPI, Promnesia, Orger, and beepb00p; updated Android with the personal data extraction qualification.
@@ -1895,6 +1899,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | 2023: Focusing on a Single Product Pays Off
 
 Ingested Max Rozen's 2023 retrospective on ROZENMD and OnlineOrNot; added Max Rozen, OnlineOrNot, ROZENMD, and Cloudflare D1 pages; updated bootstrapped SaaS, startup focus, side-project incubation, small-product portfolios, and Cloudflare.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

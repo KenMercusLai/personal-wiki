@@ -4,16 +4,17 @@
       "global_candidate": true,
       "id": "technical-depth-over-framework-memorization",
       "qualifications": [
-        "Frameworks, cloud services, and packaged tools remain useful when teams understand their fit boundaries and operational tradeoffs."
+        "Frameworks, cloud services, packaged tools, and AI assistants remain useful when teams understand their fit boundaries, context requirements, and operational tradeoffs."
       ],
-      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes.",
+      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, AI assistant, or process recipes.",
       "status": "supported",
       "supporting_wikilinks": [
         "VersatileWebStackFluency",
         "FrameworkCombinatorialComplexity",
         "TechnologyStackComplexity",
         "NetworkLoadBalancing",
-        "AgileSoftwareDevelopment"
+        "AgileSoftwareDevelopment",
+        "ContextCoding"
       ]
     },
     {
@@ -55,9 +56,10 @@
       "qualifications": [
         "The warning is strongest for skills the user needs to develop or maintain; bounded discovery, diagrams, autocomplete, and well-defined helper functions remain useful when the user can inspect or discard the result.",
         "Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard.",
-        "Antirez's stronger adoption claim narrows the caution: refusing AI outright can be a career risk, but automation still depends on human problem framing, review, and ownership."
+        "Antirez's stronger adoption claim narrows the caution: refusing AI outright can be a career risk, but automation still depends on human problem framing, review, and ownership.",
+        "Guangzhengli's naming distinction narrows pure vibe coding to no-review, result-steered work and treats maintainable AI programming as context coding."
       ],
-      "statement": "Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.",
+      "statement": "Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, and [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.",
       "status": "qualified",
       "supporting_wikilinks": [
         "PracticalLLMUse",
@@ -68,33 +70,39 @@
         "SimonSpati",
         "NicholasCarlini",
         "Antirez",
-        "ClaudeCode"
+        "ClaudeCode",
+        "ContextCoding",
+        "VibeCoding"
       ]
     },
     {
       "global_candidate": true,
       "id": "agent-systems-need-simple-debuggable-harnesses",
       "qualifications": [
-        "Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains."
+        "Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, context hygiene, and verification rather than opaque handoff chains."
       ],
-      "statement": "Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]] can support both structured agent teams and expert-guided systems-programming tasks.",
+      "statement": "Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]], [[Cursor]], and [[GitHubCopilot]] are best judged by how they expose current project context and keep generated work reviewable.",
       "status": "supported",
       "supporting_wikilinks": [
         "ClaudeCode",
+        "Cursor",
+        "GitHubCopilot",
         "AgenticWorkflowPatterns",
         "CodingAgentMinimalTooling",
         "AgenticRAG",
         "LLMContextManagement",
-        "HarnessEngineering"
+        "HarnessEngineering",
+        "ContextCoding"
       ]
     },
     {
-      "global_candidate": false,
+      "global_candidate": true,
       "id": "context-and-retrieval-are-design-surfaces",
       "qualifications": [
-        "Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, or hidden retrieval failure modes."
+        "Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, stale instruction files, or hidden retrieval failure modes.",
+        "For live codebases, current search and semantic retrieval should be evaluated as complementary signals rather than as an absolute RAG-versus-grep choice."
       ],
-      "statement": "Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, and interface-delivered diagnostics all shape what the model can use or misuse.",
+      "statement": "Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, and live code search all shape what the model can use or misuse.",
       "status": "supported",
       "supporting_wikilinks": [
         "LLMContextManagement",
@@ -102,7 +110,9 @@
         "AgenticRAG",
         "PromptCaching",
         "DynamicContextCompression",
-        "AgentInterfaceAsContext"
+        "AgentInterfaceAsContext",
+        "ContextCoding",
+        "CodingAgentMinimalTooling"
       ]
     },
     {
@@ -123,6 +133,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary from both sides: [[Antirez]] argues that current LLMs can change programming work from hand-writing code toward problem framing and inspection, while [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary: [[ContextCoding]] distinguishes disciplined context-engineered AI programming from no-review [[VibeCoding]], [[Antirez]] argues that LLMs shift programming toward problem framing and inspection, and [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice.",
   "topic_id": "ai-and-technology"
 }

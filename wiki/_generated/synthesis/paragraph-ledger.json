@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "76ffa38fbff2ffc6bcc8c6ada053e116e54b00a3890e8af521cb28ccbf88d5a3",
       "2c6b7bec21b1bfb30d70e612c88d57c35b9b2d3a4c2561410d093688dd16b394",
       "4a171710c1d812f7b0bf3d46b8f81da4e4da7b796c70007462b572fa1caaf327",
       "684a1e04c91b8f9121d3c9f7ffc30a98686efb7a988c4fe908fc14acce781274",
@@ -229,11 +230,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 227
+    "paragraph_count": 228
   },
-  "overview_commit": "af28276d70a2bf8e97fd3a249a8cab78e43635a2",
-  "overview_digest": "fab7bbeee6236ded3173565a17189a6f3924bf7a2c83dbdae05446ebe3a8f40b",
+  "overview_commit": "970a65afbf0db79af0d7d7abf7bf300a41edd2c2",
+  "overview_digest": "3272bf91b70a90098b3ed8fe28abd2489d52171e3aa6a44851b089e15a700316",
   "paragraphs": [
+    {
+      "id": "76ffa38fbff2ffc6bcc8c6ada053e116e54b00a3890e8af521cb28ccbf88d5a3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Guangzhengli source sharpens the wiki's AI coding vocabulary. New [[ContextCoding]] names the disciplined version of AI-assisted programming: the developer still uses AI heavily, but the central work is giving the model useful and current context through files, rules, RAG, grep/search, MCP tools, logs, documentation, tests, and context-budget awareness. [[VibeCoding]] is now more explicitly split between Karpathy's original no-review, result-steered, throwaway-project meaning and the broader popular use for coding-agent acceleration. [[GitHubCopilot]], [[Cursor]], and [[ClaudeCode]] form a tool-evolution line: open-file and cursor-local context, project RAG and rules, then command-line whole-project exploration through Unix tools. The seven embedded screenshots were inspected and used as evidence for the original Karpathy definition, Claude Code `/context` budgeting, Leo's non-technical production failure arc, and @levelsio's experienced-developer AI leverage case.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ClaudeCode",
+        "ContextCoding",
+        "Cursor",
+        "GitHubCopilot",
+        "VibeCoding"
+      ]
+    },
     {
       "id": "2c6b7bec21b1bfb30d70e612c88d57c35b9b2d3a4c2561410d093688dd16b394",
       "primary_topic": "cross-domain",

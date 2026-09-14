@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [谈谈 AI 编程工具的进化与 Vibe Coding](sources/blog-guangzhengli-vibe-coding-and-context-coding.md) - Guangzhengli distinguishes Karpathy-style no-review vibe coding from disciplined context coding, comparing Copilot, Cursor, and Claude Code as progressively richer context-engineering tools while warning about production risk.
 - [2023: Focusing on a Single Product Pays Off](sources/2023-focusing-on-a-single-product-pays-off.md) - Max Rozen argues that ROZENMD and OnlineOrNot grew faster in 2023 because one focused product let business learning, customer memory, and product maturity compound.
 - [Map of my personal data infrastructure](sources/blog-beepb00p-map-of-my-personal-data-infrastructure.md) - beepb00p maps a personal data liberation stack where devices, services, export scripts, local files, HPI modules, and tools like Promnesia and Orger approximate a personal data mirror despite poor interoperability.
 - [Don't fall into the anti-AI hype](sources/blog-antirez-dont-fall-into-the-anti-ai-hype.md) - Antirez argues that programmers should treat AI coding as a real capability shift from hand-writing every line toward problem framing, prompting, inspection, and tool-guided building, while still worrying about centralization and job displacement.
@@ -676,6 +677,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, simple-loop design analysis, and Antirez's Redis-adjacent systems-programming examples.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
+- [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
 - [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
 - [Cloudflare D1](entities/CloudflareD1.md) - Cloudflare database product where Max Rozen became a founding engineer after contributing bug fixes and UX ideas.
 - [Max Rozen](entities/MaxRozen.md) - Web developer and indie SaaS founder arguing from OnlineOrNot that one working product can compound over time.
@@ -888,6 +890,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Backlog Building](concepts/ProductBacklogBuilding.md) - Collaborative canvas technique for deriving PBIs and user stories from personas, activities, features, and benefits.
 - [User Stories](concepts/UserStories.md) - Agile requirements format that ties user, action, and benefit into a concise prompt for conversation and confirmation.
 - [Practical LLM Use](concepts/PracticalLLMUse.md) - Bounded use of large language models for starts, lookup, transformation, tutoring, automation, debugging, substantial inspectable coding tasks, and serious tool evaluation.
+- [Context Coding](concepts/ContextCoding.md) - Disciplined AI-assisted programming where the central work is supplying, maintaining, retrieving, and verifying useful project context for an LLM or coding agent.
 - [Agile Software Development](concepts/AgileSoftwareDevelopment.md) - Practice-rich software approach joining adaptive planning, customer collaboration, teamwork, technical excellence, and reliable delivery.
 - [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.
 - [Agile Fluency Model](concepts/AgileFluencyModel.md) - Shore-Larsen model Fowler cites for distinguishing levels of team agile capability.
