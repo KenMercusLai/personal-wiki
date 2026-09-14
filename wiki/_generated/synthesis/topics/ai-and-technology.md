@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: a4dbf2940f9db7e14bbf54f3689961b3c0f3ebb0
-input_digest: 478cb220f16eb4cde95a7a4256ccfa8c71fd49fce17d59c26296feeefc00b471
+as_of_overview_commit: 4cd9cfaa2d2e9536a4fea86f17ba2ccaf6340039
+input_digest: d47a003632bb09f4d271cb7beb47974a058665e646da41f04be4cc2ea9c7daf6
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as a socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Recent Claude Code and Nicholas Carlini material reinforce the broader pattern: powerful AI assistance works best when loops, tools, prompts, retrieval paths, todo state, task boundaries, and verification feedback remain simple enough for users to debug or discard.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-dependency material sharpens the task-fit boundary: LLMs and coding agents are valuable for bounded, inspectable work, but writing, coding, architecture, learning, and maintenance still require protected human practice so competence does not atrophy.
 
 ## Cross-source Findings
 
@@ -46,16 +46,26 @@ Architecture and technology governance should vary by organizational scope, coup
 
 - Local autonomy works best where alignment is strong; wider blast radius needs looser coupling, explicit contracts, evidence, and shared decision mechanisms.
 
-### Agent Systems Need Simple Debuggable Harnesses
+### Ai Task Fit Requires Human Practice
 
-Effective AI and coding-agent systems depend on simple, debuggable harnesses and bounded task fit: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and [[PracticalLLMUse]] cases where users can judge the output.
+Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, and owned by humans, while [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
 
-**Evidence:** [[ClaudeCode]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]], [[PracticalLLMUse]], [[NicholasCarlini]]
+**Evidence:** [[PracticalLLMUse]], [[AICodingPractice]], [[AIAssistedWriting]], [[AIDependencySkillAtrophy]], [[HumanCodeResponsibility]], [[SimonSpati]], [[NicholasCarlini]]
 
 **Qualifications:**
 
-- Large projects may still need role-specialized agents, but the sources stress that added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains.
+- The warning is strongest for skills the user needs to develop or maintain; bounded discovery, diagrams, autocomplete, and well-defined helper functions remain useful when the user can inspect or discard the result.
 - Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard.
+
+### Agent Systems Need Simple Debuggable Harnesses
+
+Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand.
+
+**Evidence:** [[ClaudeCode]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]]
+
+**Qualifications:**
+
+- Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, and verification rather than opaque handoff chains.
 
 ### Context And Retrieval Are Design Surfaces
 

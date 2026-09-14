@@ -1443,6 +1443,10 @@ Ingested Nicholas Carlini's practical LLM-use essay, creating source, author, an
 
 Ingested Rohan Rajiv's A Learning a Day reflection on one-right-fit persistence during graduate-school applications and other high-stakes searches; added source, author, publication, and One Fit Search Mindset pages and updated the overview.
 
+## [2026-09-14] ingest | Will AI Replace Human Thinking? The Case for Writing and Coding Manually
+
+Ingested Simon Späti's cautionary essay on deliberate AI use, manual writing and coding practice, skill atrophy, attention, maintainability, and AI-era junior learning risk; added source, author, and AI Dependency Skill Atrophy pages; updated AI-assisted writing, AI coding practice, index, and overview.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1815,6 +1819,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

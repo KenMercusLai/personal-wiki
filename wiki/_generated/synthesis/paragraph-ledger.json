@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "56a534a6584da4b0d8c959e88134dcf5df7dcca7d8ae09f76d12c68d1fbfd4a2",
       "0c1e18aa8842bfc3be0b7b2bbc512cfb05d49ebf3046c917d8318e0fbb24e279",
       "71f3008cd8567339ca11d465d8ad78686a8b72abdeb66710bc8d7314f88f9d31",
       "4c337a246ad1649d5be1209ec6945fefff0bfd93cc0817fe06868680726fab65",
@@ -224,11 +225,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 222
+    "paragraph_count": 223
   },
-  "overview_commit": "bdbc832d854bf60999ca85f6e00ae05b1f8ca290",
-  "overview_digest": "a06d65c67e668e604bf252a13c98261fe082848ae944194743c7ae9435af296d",
+  "overview_commit": "4cd9cfaa2d2e9536a4fea86f17ba2ccaf6340039",
+  "overview_digest": "8316d396a4fcfbbd01cea4823566a1eb25e2d2b1f5c41ae3f7345f8e894286e4",
   "paragraphs": [
+    {
+      "id": "56a534a6584da4b0d8c959e88134dcf5df7dcca7d8ae09f76d12c68d1fbfd4a2",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Simon Späti source adds a cautionary dependency layer to the wiki's AI-writing and AI-coding material. New [[AIDependencySkillAtrophy]] says AI assistance becomes harmful when it substitutes for the writing, coding, reading, remembering, and decision practice that forms human skill. [[AIAssistedWriting]] is now more explicitly bounded: AI can help with capture, structure, critique, and optionality, but manual drafting, research struggle, voice, and conviction remain the thinking work. [[AICodingPractice]] now includes a task-horizon warning: autocomplete and small defined functions are different from architecture, planning, and maintainability decisions whose errors compound into the future. [[SimonSpati]] anchors the source as an author who uses AI deliberately but argues that competence, attention, and craft enjoyment are worth preserving. The eight embedded images were inspected and used as evidence for AI productivity/error tradeoffs, reasoning-skill decline, writing overreliance, AI-generated web-content growth, seniority-biased employment effects, and productivity-illusion loops.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIAssistedWriting",
+        "AICodingPractice",
+        "AIDependencySkillAtrophy",
+        "SimonSpati"
+      ]
+    },
     {
       "id": "0c1e18aa8842bfc3be0b7b2bbc512cfb05d49ebf3046c917d8318e0fbb24e279",
       "primary_topic": "work-education-and-society",

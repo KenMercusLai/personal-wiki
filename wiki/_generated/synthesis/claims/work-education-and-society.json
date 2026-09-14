@@ -6,7 +6,6 @@
       "qualifications": [
         "Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration.",
         "Writing-centered investigation depends on self-skepticism, view revision, and judgment about which subquestions matter.",
-        "A local search-engine tutorial can build intuition for information retrieval, but it does not substitute for production-scale search evaluation or operations.",
         "Copying programming examples can support learning only when paired with active study, modification, and causal explanation.",
         "LLM help supports learning and productivity most safely when the user can inspect, test, correct, or discard the output."
       ],
@@ -23,6 +22,26 @@
         "NicholasCarlini",
         "ProgrammerMindset",
         "SystematicLearning"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ai-dependency-threatens-skill-formation",
+      "qualifications": [
+        "The source does not reject AI use; it argues for deliberate use where support does not replace the skill the person needs to build.",
+        "The embedded seniority-biased employment chart makes this a career-entry concern as well as an individual learning concern."
+      ],
+      "statement": "[[AIDependencySkillAtrophy]] warns that AI assistance can undermine education and work development when it replaces the writing, coding, reading, remembering, debugging, or decision practice through which people build durable skill.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIDependencySkillAtrophy",
+        "AIAssistedWriting",
+        "AICodingPractice",
+        "AttentionManagement",
+        "HumanCodeResponsibility",
+        "SimonSpati",
+        "ProgrammerMindset",
+        "LearningByWriting"
       ]
     },
     {
@@ -69,8 +88,7 @@
       "qualifications": [
         "Platform metrics can distort motivation, so feedback needs interpretation rather than compulsive metric-chasing.",
         "Some drafts are useful before publication because they expose weak assumptions and direct the next reading.",
-        "Creator-essay claims about high standards and AI-era abundance need adaptation to domains where distribution, timing, team constraints, or opportunity cost dominate.",
-        "Action-first founder anecdotes can compress luck, capital, timing, teams, and safety constraints into a cleaner motivational story than the evidence supports."
+        "Creator-essay claims about high standards and AI-era abundance need adaptation to domains where distribution, timing, team constraints, or opportunity cost dominate."
       ],
       "statement": "Creative and technical output improves through visible feedback loops, meaningful direction, and action: [[ExplanatoryWriting]], [[CreatorFeedbackLoop]], [[KnowledgeOutput]], [[LearningByWriting]], [[PersonalBranding]], release-focused side projects, [[MakeGoodNewThings]], [[CognitiveCuriosity]], [[AIEraCreativeStandards]], and [[ActionBiasInAI]] turn private learning into inspectable, higher-standard work while guarding against [[MimeticDesire]].",
       "status": "supported",
@@ -102,43 +120,6 @@
         "KnowledgeOutput",
         "StevenSinofsky",
         "PeterPathe"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "platform-media-work-needs-context-specific-feedback",
-      "qualifications": [
-        "This work-pattern claim is grounded in one Bleacher Report profile and should not be generalized to all publishers without additional evidence.",
-        "The China livestreaming material is a 2016 snapshot and should not be generalized across later markets, platform rules, or cultures without fresh evidence."
-      ],
-      "statement": "Platform-era media work depends on context-specific formats and feedback: [[DistributedPublishingStrategy]] uses channel-specific editorial judgment and [[SocialInteractionMetrics]], while [[SocialLivestreaming]] relies on live interaction, [[DigitalGifting]], [[LivestreamingCreatorEconomics]], [[LivestreamCommerce]], and [[LivestreamingModeration]] to turn audience presence into content, revenue, commerce, and governed participation.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "DistributedPublishingStrategy",
-        "PlatformSpecificEditorialStrategy",
-        "SocialInteractionMetrics",
-        "BleacherReport",
-        "SocialLivestreaming",
-        "DigitalGifting",
-        "LivestreamingCreatorEconomics",
-        "LivestreamCommerce",
-        "LivestreamingModeration"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "workplaces-teach-through-structure-and-safety",
-      "qualifications": [
-        "Trust-first collaboration needs boundaries in unsafe, low-trust, or bad-faith contexts."
-      ],
-      "statement": "Workplaces teach through structure and safety: [[WorkplaceLearning]], [[WorkplaceCollaboration]], [[AssumePositiveIntent]], manager feedback, code-review norms, and recovery practices affect what workers can learn or repair.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "WorkplaceLearning",
-        "WorkplaceCollaboration",
-        "AssumePositiveIntent",
-        "BurnoutPrevention",
-        "WorkEnvironment"
       ]
     },
     {
@@ -196,40 +177,8 @@
         "AttentionManagement",
         "JeffHuang"
       ]
-    },
-    {
-      "global_candidate": false,
-      "id": "social-conditions-shape-privacy-labor-and-participation",
-      "qualifications": [
-        "The labor-precarity sources explicitly conflict in interpretation, making this a contested social frame rather than a single settled diagnosis."
-      ],
-      "statement": "Social conditions shape opportunity and harm: [[PrivacyPovertyDivide]], [[EmployeeFinancialPrecarity]], [[WorkEthicPersonalResponsibility]], and [[CampaignTechnologyAccountability]] show that technology and work practices have unequal consequences.",
-      "status": "supported",
-      "supporting_wikilinks": [
-        "PrivacyPovertyDivide",
-        "EmployeeFinancialPrecarity",
-        "WorkEthicPersonalResponsibility",
-        "CampaignTechnologyAccountability",
-        "VolunteerCampaignTechnology"
-      ]
-    },
-    {
-      "global_candidate": false,
-      "id": "platform-fit-shapes-operational-work",
-      "qualifications": [
-        "The Cloud Run source is a practitioner report for one workload; teams with deeper customization, regulation, or multi-cloud requirements may still justify Kubernetes."
-      ],
-      "statement": "Infrastructure work is shaped by platform fit: [[GoogleCloudRun]] can reduce [[TechnologyStackComplexity]], [[CloudCostOptimization]] pressure, and [[TaskQueueDesign]] burden when a managed container platform matches the workload better than direct [[Kubernetes]] operation.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "GoogleCloudRun",
-        "TechnologyStackComplexity",
-        "CloudCostOptimization",
-        "TaskQueueDesign",
-        "Kubernetes"
-      ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, personal productivity, knowledge systems, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add one-right-fit persistence, practical LLM use as bounded tutoring and startup friction reduction, programming-specific reasoning, writing-centered investigation, age-staged career judgment, minimalist work-system design, AI-era creator standards, AI-era action bias, and China livestreaming as interaction-centered platform work: emotionally noisy searches may need one compatible yes rather than broad approval, LLMs help when outputs remain inspectable, programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, early risk and later boundaries shape sustainable careers, a calendar-plus-text-file workflow can make daily work bounded, making good new things links output, curiosity, quality inputs, and presence, action bias warns against replacing concrete work with success-content consumption or mimetic desire, and social livestreaming shows how creator labor, audience feedback, virtual gifts, commerce, and moderation can fuse into a live media system.",
+  "summary": "Work, education, and society sources frame learning and career development as practice-rich, feedback-rich activity rather than passive consumption. The newest AI-dependency source strengthens the thread: AI can accelerate bounded work, but education, junior development, writing, coding, and career resilience still require protected struggle, human judgment, attention, and visible output loops.",
   "topic_id": "work-education-and-society"
 }

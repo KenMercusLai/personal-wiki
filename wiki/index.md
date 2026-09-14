@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Will AI Replace Human Thinking? The Case for Writing and Coding Manually](sources/blog-simon-spati-will-ai-replace-human-thinking.md) - Simon Späti argues that deliberate AI use should preserve manual writing, coding, reading, and thinking practice rather than replace the skill-building struggle.
 - [All it takes is for one to work out](sources/blog-rohan-rajiv-a-learning-a-day-all-it-takes-is-for-one-to-work-out.md) - Rohan Rajiv turns a failed-then-successful graduate-school application story into a mindset for high-stakes searches where one right fit can be enough.
 - [Product Backlog Building Canvas](sources/blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas.md) - Paulo Caroli presents Product Backlog Building as a collaborative canvas for turning personas, features, PBIs, and acceptance criteria into useful user stories.
 - [How I Use "AI"](sources/blog-nicholas-carlini-how-i-use-ai.md) - Nicholas Carlini documents concrete LLM productivity uses across programming, tutoring, search, automation, reference lookup, simplification, and debugging while preserving explicit caveats about limits and risks.
@@ -777,6 +778,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Reuters Corpus](entities/ReutersCorpus.md) - News-text corpus used as the training data for the tutorial's trigram language model.
 - [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM terminology, AI-era education, and statistical reasoning.
 - [Sanad Rizvi](entities/SanadRizvi.md) - Analytics Vidhya author explaining language modeling through N-grams, neural models, and GPT-2.
+- [Simon Späti](entities/SimonSpati.md) - Writer warning that indiscriminate AI use can erode manual writing, coding, thinking, and learning practice.
 - [Jamovi](entities/Jamovi.md) - Open-source statistics software used as RORIRI's UX research case for reconciling subjective ratings, behavior errors, PURE walkthroughs, and heuristic findings.
 - [深思圈](entities/ShenSiQuan.md) - AI-focused author/source account presenting the private-data ChatGPT tutorial and startup framing.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
@@ -1190,6 +1192,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.
 - [AI Agent Collaboration](concepts/AIAgentCollaboration.md) - Working mode where engineers use coding agents as reasoning partners while retaining understanding and decision authority.
 - [AI Coding Practice](concepts/AICodingPractice.md) - Engineering behaviors and team norms for accountable, reviewable, and verified work with AI coding agents.
+- [AI Dependency Skill Atrophy](concepts/AIDependencySkillAtrophy.md) - Risk that repeated AI substitution for writing, coding, reading, remembering, or deciding weakens the human skill and judgment those activities normally train.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
 - [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered investigation method where provisional hypotheses, weakness lists, targeted reading, and revision direct learning.
