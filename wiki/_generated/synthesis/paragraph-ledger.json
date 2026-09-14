@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a3c87e2f53a2f632cefc818a96f2d8a01f72c3616319e92334a0ea426e450775",
       "f1bd36a0bb69e49d07bf43c0feb5b2eb11bb645d506a749885a9cacdb9c15478",
       "bad82f7e33334886296bc0966dfa354a1f81fa5e998ea3588e230d8c831894e3",
       "d878b916d29cbf0917d4d6ecb9bc8b78b01647794870e3ec99aac472a58c2ccd",
@@ -216,11 +217,33 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 214
+    "paragraph_count": 215
   },
-  "overview_commit": "9bc0c95896a67f8c6009f261d9ca97ea37e2357b",
-  "overview_digest": "28e201ecf93995ad4cc9c707485a86283ae5dcaf08f513af4cc0033e88e8c835",
+  "overview_commit": "b65dec206e1af4a016442a154f3b79612f9dfb49",
+  "overview_digest": "9977232cb51dedcdd84d15a1b6bfc700db6e88f6ea265813016edf23962c804a",
   "paragraphs": [
+    {
+      "id": "a3c87e2f53a2f632cefc818a96f2d8a01f72c3616319e92334a0ea426e450775",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Andreessen Horowitz source adds a China livestreaming layer to the wiki's mobile, creator, and digital-media material. New [[SocialLivestreaming]] frames the format as front-camera, interaction-centered mobile entertainment: viewers co-produce the show through chat, requests, gifts, and recognition rather than consuming only scheduled talent. New [[DigitalGifting]] captures the monetization loop where virtual goods function as payment, status signal, flirtation, and public message, making [[DigitalMediaMonetization]] less dependent on advertising. New [[LivestreamCommerce]] shows how JD Fresh, [[TaobaoLive]], and [[Xiaomi]] used live video for product demonstration, launches, discounts, and shopping attention, while [[LivestreamingCreatorEconomics]] and [[LivestreamingModeration]] capture the broadcaster incentives, beautification/audio tools, bedroom-studio production tension, talent agencies, and regulatory monitoring needed to sustain the format. The four embedded images were inspected and used as evidence for studio setup, Inke gifting UI, Taobao Live commerce UI, and Inke audio controls.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DigitalGifting",
+        "DigitalMediaMonetization",
+        "LivestreamCommerce",
+        "LivestreamingCreatorEconomics",
+        "LivestreamingModeration",
+        "SocialLivestreaming",
+        "TaobaoLive",
+        "Xiaomi"
+      ]
+    },
     {
       "id": "f1bd36a0bb69e49d07bf43c0feb5b2eb11bb645d506a749885a9cacdb9c15478",
       "primary_topic": "work-education-and-society",

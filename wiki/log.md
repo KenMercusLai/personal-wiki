@@ -1427,6 +1427,10 @@ Ingested Jeff Huang's calendar-plus-text-file productivity workflow, creating so
 
 Ingested MaiYang's Naval-framed AI action essay, creating source, author, cited thinker, founder-example, action-bias, and mimetic-desire pages.
 
+## [2026-09-14] ingest | 16 Observations on Livestreaming in China
+
+Ingested Connie Chan's a16z analysis of China's livestreaming boom, creating source, concept, and entity pages for social livestreaming, digital gifting, livestream commerce, creator economics, moderation, Inke, YY, Momo, Taobao Live, Xiaomi, and Connie Chan.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1743,6 +1747,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

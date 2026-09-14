@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [16 Observations on Livestreaming in China](sources/16-observations-on-livestreaming-in-china-andreessen-horowitz.md) - Connie Chan analyzes China's social livestreaming boom as mobile self-expression, digital gifting, live commerce, creator economics, and regulated entertainment.
 - [纳瓦尔深度洞察：对待 AI 你得行动起来！](sources/blog-maiyang-naval-insights-taking-action-with-ai.md) - MaiYang uses Naval's action-first framing to argue that AI-era progress comes from self-owned desire, concrete building, and learning by doing rather than passive success-content consumption.
 - [42 Things I Learned from Building a Production Database](sources/blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database.md) - Mahesh Balakrishnan distills Delos lessons on production infrastructure leadership across customers, project management, API design, review culture, observability, strategy, and research.
 - [Make Good New Things](sources/blog-limboy-make-good-new-things.md) - Limboy argues that AI lowers the threshold for making software, writing, and images, but that meaningful creation still depends on high standards, strong inputs, cognitive curiosity, and personal presence.
@@ -228,6 +229,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Connie Chan](entities/ConnieChan.md) - Author of the a16z analysis on China's livestreaming boom.
+- [Inke](entities/Inke.md) - Chinese social livestreaming app used for gifting, beautification, audio, and event-stream examples.
+- [YY](entities/YY.md) - Chinese livestreaming platform illustrating non-ad virtual-goods monetization and talent professionalization.
+- [Momo](entities/Momo.md) - Chinese social and dating app where livestreaming became a major revenue stream and social-proof layer.
+- [Taobao Live](entities/TaobaoLive.md) - Alibaba livestream-commerce app for seller demonstrations, product launches, and discounts.
+- [Xiaomi](entities/Xiaomi.md) - Chinese hardware company using livestreaming for product demonstrations and launches.
 - [MaiYang](entities/MaiYang.md) - Author and presenter framing AI adoption around action, self-honest desire, and founder examples.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
 - [Elon Musk](entities/ElonMusk.md) - Founder example used to illustrate all-in future-oriented action after PayPal.
@@ -830,6 +837,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Social Livestreaming](concepts/SocialLivestreaming.md) - Mobile livestreaming organized around real-time broadcaster-viewer interaction, gifts, recognition, and presence.
+- [Digital Gifting](concepts/DigitalGifting.md) - Paid virtual goods used as social signals, payments, and attention-seeking messages inside platforms.
+- [Livestream Commerce](concepts/LivestreamCommerce.md) - Ecommerce conducted through live video demonstrations, seller interaction, launches, and limited-time offers.
+- [Livestreaming Creator Economics](concepts/LivestreamingCreatorEconomics.md) - Incentive system for recruiting, paying, surfacing, and professionalizing livestream broadcasters.
+- [Livestreaming Moderation](concepts/LivestreamingModeration.md) - Operational and regulatory work of governing real-time video broadcasts.
 - [Action Bias in AI](concepts/ActionBiasInAI.md) - AI-era posture that favors concrete building, shipping, and learning from real problems over passive method consumption.
 - [Mimetic Desire](concepts/MimeticDesire.md) - Borrowed desire produced by imitating others' wants rather than acting from self-honest aims.
 - [Production Infrastructure Leadership](concepts/ProductionInfrastructureLeadership.md) - Leading critical infrastructure through customer grounding, API migration design, correctness-first review, observability, strategy, and research.
