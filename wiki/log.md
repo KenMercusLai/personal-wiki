@@ -2257,6 +2257,14 @@ Ran lint. See lint-report.md for details.
 
 Added Built for Mars' HBO Max UX case study. Key claims: strong content can be undercut by repeated app-level UX defects, oversized streaming imagery hurts perceived speed, entitlement states should be explicit, free-episode flows need a deliberate journey shape, and mobile signup forms should keep fields and CTAs visible. No effective image references were present in the source markdown.
 
+## [2026-09-15] ingest | 7 Questions to Ask Founders Before Joining Their Startup
+
+Added a startup career-diligence source and the new Startup Job Diligence concept. Key claims: candidates should assess startup risk through runway, investor quality, founder qualifications, board structure, early employee quality, business milestones, and personal belief in the idea. Inspected five embedded images: four were illustrative or quote-card duplicates, while the TechCrunch chart was incorporated as evidence that seed funding amount can correlate with Series A odds around the $1.5M threshold but must still be paired with burn and runway.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
