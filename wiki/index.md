@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You Can't Buy Integration](sources/blog-brandon-byars-martinfowler-com-you-cant-buy-integration.md) - Brandon Byars argues that integration cannot be bought as a product; organizations need clean capability interfaces, general-purpose language ownership for evolving APIs, and bounded tactical use of integration DSLs.
 - [Building Effective AI Agents](sources/blog-anthropic-building-effective-ai-agents.md) - Anthropic argues that effective agentic systems come from simple composable patterns, clear workflow-versus-agent distinctions, transparent loops, and carefully designed tool interfaces.
 - [Writing is Thinking - an annotated twitter thread](sources/writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping.md) - Steven Sinofsky argues that writing turns strategy into shared rationale, execution context, and corporate memory, while warning that memo rituals can become performative or gamed.
 - [Implementing a Search Engine with Ranking in Python](sources/blog-aakash-japi-implementing-a-search-engine-with-ranking-in-python.md) - Aakash Japi explains a basic Python search engine built from tokenization, a position-aware inverted index, free-text and phrase queries, tf-idf ranking, and cosine similarity.
@@ -215,6 +216,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
 - [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author arguing that writing is a management discipline for strategy, planning, and execution context.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
@@ -796,6 +798,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Integration Strategy](concepts/IntegrationStrategy.md) - Architectural discipline of exposing and evolving business capabilities through clean interfaces rather than outsourcing integration thinking to a tool.
+- [Capability-Oriented Integration](concepts/CapabilityOrientedIntegration.md) - Integration posture that abstracts business capabilities instead of exposing underlying system names and quirks.
+- [Integration DSL](concepts/IntegrationDSL.md) - Specialized low-code or domain-specific integration environment that can simplify workflow, connectivity, and adapter work when bounded behind clean interfaces.
+- [Source-Diagram Isomorphism](concepts/SourceDiagramIsomorphism.md) - Low-code tool structure where graphical workflow diagrams and source markup are synchronized program representations.
+- [Channel API](concepts/ChannelAPI.md) - Consumer- or partner-specific API surface that adapts clean capabilities to a channel while hiding downstream implementation complexity.
 - [Agentic Workflow Patterns](concepts/AgenticWorkflowPatterns.md) - Reusable LLM system patterns such as prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer loops, and autonomous agent loops.
 - [Agent Computer Interface](concepts/AgentComputerInterface.md) - Design layer for making tools, files, APIs, computers, and environments understandable and safely usable by AI agents.
 - [Strategic Writing](concepts/StrategicWriting.md) - Writing plans and decisions deeply enough that rationale, assumptions, tradeoffs, and execution logic can be inspected and reused.
