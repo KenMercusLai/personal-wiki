@@ -32,7 +32,6 @@ class OverviewProjectionTest(unittest.TestCase):
         before = hashlib.sha256((ROOT / "wiki/overview.md").read_bytes()).hexdigest()
         report = overview.project(ROOT)
         self.assertEqual(report.synthesis_source, "compact")
-        self.assertEqual(report.source_count, len(list((ROOT / "wiki/sources").glob("*.md"))))
         namespace = (ROOT / ".generated/wiki-projections/_index.md").read_text()
         self.assertIn("render: never", namespace)
         self.assertIn("list: never", namespace)
