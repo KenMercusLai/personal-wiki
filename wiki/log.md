@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | A Few Beliefs
+
+Added Morgan Housel's Collaborative Fund beliefs article. Key claims: destructive financial risk comes from risking needs for wants; debt removes options while savings add them; good risk judgment plans for failed plans, future regret, and uncertainty; confirmation, incentives, denial, stale beliefs, and narrow experience distort confidence. No image references were present in the source Markdown.
+
 ## [2026-09-14] ingest | 42 Things I Learned from Building a Production Database
 
 Added Mahesh Balakrishnan's Delos production database leadership essay. Key claims: critical infrastructure leadership starts with direct customer understanding, conservative migration-friendly APIs, consistency and durability bias for storage systems, stricter review gates for critical components, implementation-independent observability, and research-backed technical strategy. No image references were present in the source Markdown.
@@ -1799,6 +1803,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Few Beliefs](sources/blog-morgan-housel-collab-fund-a-few-beliefs.md) - Morgan Housel collects compact beliefs about financial risk, incentives, uncertainty, expectations, debt, savings, reputation, and behavioral humility.
 - [What Makes Claude Code So Damn Good](sources/blog-minusx-nuwanda-what-makes-claude-code-so-damn-good.md) - MinusX's Nuwanda analyzes Claude Code as a simple, steerable coding-agent design built from one main loop, bounded subagents, smaller helper models, detailed prompts, live code search, shaped tools, and todo management.
 - [Default Trial Retire](sources/blog-martin-fowler-default-trial-retire.md) - A Martin Fowler bliki note describing a team technology-choice rule that limits each class to a default, one trial, and one retire candidate, with technology radars for organization-level guidance.
 - [The Strong and Weak Forces of Architecture](sources/blog-martin-fowler-the-strong-and-weak-forces-of-architecture.md) - Martin Fowler argues that architecture governance should vary by organizational alignment strength, with stronger domain-level forces tolerating faster change and weaker organization-wide forces requiring loose coupling, contracts, and formal guidance.
@@ -368,8 +369,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
 - [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
-- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author arguing that businesses and investments compound by pairing change with stable customer demand.
-- [Collaborative Fund](entities/CollaborativeFund.md) - Publication and venture-firm context for Morgan Housel's timeless business strategy essay.
+- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, business strategy, psychology, optionality, and behavioral risk judgment.
+- [Collaborative Fund](entities/CollaborativeFund.md) - Publication and venture-firm context for Morgan Housel essays on timeless strategy and behavioral financial judgment.
 - [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage.
 - [GEICO](entities/GEICO.md) - Insurance company used to illustrate persistent cost and convenience advantages amid changing channels.
 - [Marc Andreessen](entities/MarcAndreessen.md) - Venture-capital comparison point for investing around technological and market change.
@@ -1100,7 +1101,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Portfolio Concentration](concepts/PortfolioConcentration.md) - Holding fewer investments so scarce attention, judgment, and influence can be applied more deeply.
 - [Engineer Investment](concepts/EngineerInvestment.md) - Engineer-oriented investing frame combining technology-domain judgment, company analysis, risk discipline, and self-leverage.
 - [AI Investment Theme](concepts/AIInvestmentTheme.md) - Framing of AI as a structural investment theme across chips, cloud, software, applications, automation, and related infrastructure.
-- [Investment Risk Discipline](concepts/InvestmentRiskDiscipline.md) - Behavioral and analytical guardrails against leverage, shorting, trend chasing, unfamiliar speculation, and panic trading.
+- [Investment Risk Discipline](concepts/InvestmentRiskDiscipline.md) - Behavioral and analytical guardrails against leverage, shorting, trend chasing, unfamiliar speculation, panic trading, and need-threatening risk.
+- [Behavioral Risk Judgment](concepts/BehavioralRiskJudgment.md) - Decision discipline for handling incentives, confirmation, overconfidence, regret, expectations, and probabilistic uncertainty.
 - [Financial Statement Reading](concepts/FinancialStatementReading.md) - Lightweight practice of using growth, expectations, turnover, margins, ROA, and ROE to judge company quality.
 - [Engineer Leverage](concepts/EngineerLeverage.md) - Using code, writing, products, AI-assisted output, and sharing to make engineering expertise reusable.
 - [Index Fund Strategy](concepts/IndexFundStrategy.md) - Low-cost broad-market ETF strategy that favors diversified exposure over frequent stock selection.

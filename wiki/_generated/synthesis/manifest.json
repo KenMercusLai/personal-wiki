@@ -1,27 +1,27 @@
 {
   "content_date": "2026-09-14",
   "corpus": {
-    "episode_count": 226,
-    "source_count": 226
+    "episode_count": 227,
+    "source_count": 227
   },
   "generated": true,
   "global": {
-    "candidate_digest": "5cbf2d2af8142c2d3c52c206612fcedf61620155553ca0e5a12b8ed7da9fc811",
-    "compacted_at": "2026-09-14T09:27:57.962892Z",
+    "candidate_digest": "cdcd40010e0e62aaa8250ce3c554a65947e5850bcf6b222002ff3007e26a58bc",
+    "compacted_at": "2026-09-14T09:41:40.114128Z",
     "content_date": "2026-09-14",
     "corpus": {
-      "episode_count": 226,
-      "source_count": 226
+      "episode_count": 227,
+      "source_count": 227
     },
-    "output_digest": "1d584471120128cd82e616e1867176e12bcfd65640f0fe9f394ce77b45d78d2b",
-    "overview_commit": "39fd29684206eea5b78b9dcf6e89545c062fc90a",
-    "overview_digest": "c7d28d6962b8f2b3737b466e6a9d5cfc910e312aef9740a55516a55aac04f8e1",
+    "output_digest": "fc568aa5e38a7a1df42163cf543e328f3b6c2708095421363e50e8092ab56dac",
+    "overview_commit": "ee46cf9ab8416f655825aa752b24be38b4a60e39",
+    "overview_digest": "a60ee7efda14bd729856d3388abfae69f30962739831b163fc84b903c4329148",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "39fd29684206eea5b78b9dcf6e89545c062fc90a",
-  "overview_digest": "c7d28d6962b8f2b3737b466e6a9d5cfc910e312aef9740a55516a55aac04f8e1",
-  "paragraph_count": 219,
+  "overview_commit": "ee46cf9ab8416f655825aa752b24be38b4a60e39",
+  "overview_digest": "a60ee7efda14bd729856d3388abfae69f30962739831b163fc84b903c4329148",
+  "paragraph_count": 220,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -31,9 +31,9 @@
       "title": "AI and Technology"
     },
     "business-and-markets": {
-      "claim_digest": "ea841bb5eb58912ab302bf88d6c420673f267dc793ca1978e3d54e1b5551975e",
-      "input_digest": "52c52465876b1aa816c3a025dd9435a165e4e0348229e5c940309b5504b90b4a",
-      "output_digest": "b13f0be5d625a3e04aa29d905b641b6a2836e6929c398e663d08a7d29ab79c48",
+      "claim_digest": "8f60c0b1560a17772640a0c1f7af53ad9f11bba1c8b4d0f6a24a343cf974c796",
+      "input_digest": "9e9cb4ed05941514eb80f848db42322644001f7816ca6622500740c6aa33efc9",
+      "output_digest": "bd3d0230d2e3b18e819e0cac3a370f182ba05ed2cf33434fa47d928a470e5064",
       "title": "Business and Markets"
     },
     "cross-domain": {
@@ -61,9 +61,9 @@
       "title": "History and Geopolitics"
     },
     "psychology-and-personal-development": {
-      "claim_digest": "3f23911a47fa3c527424bdb21267ce13b241a456815a754e5ab6d9d2822be212",
-      "input_digest": "cf6a90719d81b599ea2f4096aabfef77ec76df8dac0796c4bd859c20131c37de",
-      "output_digest": "bf5c648c9ebc609ee236fc81618abf911336cbef6713b448fe815890b01c3472",
+      "claim_digest": "26a7a367b2d7f0299283c71e259facd669e979060ebacc5e1a8f69419db4a099",
+      "input_digest": "6804c7a5109ef0b66c97ce4e82626f38d5802cfa1dd10e16848b5e232af1d060",
+      "output_digest": "4bdd3879ebb3b40ded6471f2e5d4a11d328151218ad8f2962b075a1273c656e4",
       "title": "Psychology and Personal Development"
     },
     "science-health-and-climate": {

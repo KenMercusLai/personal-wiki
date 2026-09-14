@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "4c337a246ad1649d5be1209ec6945fefff0bfd93cc0817fe06868680726fab65",
       "cf80b7c5739f722dbecfacbb8ecc599abefeb47d2b699b28797080922824b160",
       "0d61c8b53e5be52dd1df0c4e891febdd85d417332628183f8e2fe5b66369a23e",
       "73ebdefaa48bcc1af7473fa254e72b5d32e7be54536920be5b65ffe3284fe757",
@@ -221,11 +222,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 219
+    "paragraph_count": 220
   },
-  "overview_commit": "39fd29684206eea5b78b9dcf6e89545c062fc90a",
-  "overview_digest": "c7d28d6962b8f2b3737b466e6a9d5cfc910e312aef9740a55516a55aac04f8e1",
+  "overview_commit": "ee46cf9ab8416f655825aa752b24be38b4a60e39",
+  "overview_digest": "a60ee7efda14bd729856d3388abfae69f30962739831b163fc84b903c4329148",
   "paragraphs": [
+    {
+      "id": "4c337a246ad1649d5be1209ec6945fefff0bfd93cc0817fe06868680726fab65",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Morgan Housel source adds a behavioral risk judgment layer to the wiki's investing and decision-making material. New [[BehavioralRiskJudgment]] captures Housel's compact warnings about confirmation, incentives, denial, binary thinking, stale beliefs, overconfidence, regret, and narrow experience. [[InvestmentRiskDiscipline]] now includes need-versus-want risk, debt-versus-savings optionality, future-regret calibration, pessimistic saving, optimistic investing, and the idea that plans should assume plans will fail. [[MorganHousel]] is now represented not only as the author of a timeless business strategy essay but also as an aphoristic behavioral-finance writer connecting money to expectations, time control, reputation, status signaling, and humility. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 3
+      },
+      "wikilinks": [
+        "BehavioralRiskJudgment",
+        "InvestmentRiskDiscipline",
+        "MorganHousel"
+      ]
+    },
     {
       "id": "cf80b7c5739f722dbecfacbb8ecc599abefeb47d2b699b28797080922824b160",
       "primary_topic": "ai-and-technology",

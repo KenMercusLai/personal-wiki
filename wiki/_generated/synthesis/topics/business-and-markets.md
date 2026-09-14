@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-14
-as_of_overview_commit: f17733da9127bcbf4e61a34085d312d74c75939a
-input_digest: 52c52465876b1aa816c3a025dd9435a165e4e0348229e5c940309b5504b90b4a
+as_of_overview_commit: ee46cf9ab8416f655825aa752b24be38b4a60e39
+input_digest: 9e9cb4ed05941514eb80f848db42322644001f7816ca6622500740c6aa33efc9
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds production infrastructure leadership as a business capability and social-media curation as a platform-use pattern: critical systems such as Delos depend on customer grounding, migration-friendly APIs, risk-sensitive review, reliability, and implementation-independent observability, while Twitter-like platforms only become useful information infrastructure when defaults, lists, safety, and read-later handoffs support user control. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
+Business and market sources show durable value emerging when product work, startup learning, pricing, attribution, hiring, platform strategy, differentiation, brand, trust, operations, workflow infrastructure, capital allocation, and channel choice stay connected to customer evidence, stable demand, distribution, retention, operating capacity, unit economics, and organizational judgment. Recent material adds behavioral risk judgment to investing: Housel frames risk discipline as preserving optionality by avoiding need-threatening bets, calibrating regret, and recognizing that debt, savings, expectations, incentives, and overconfidence shape future choices. The broader growth pattern still holds: awareness, clicks, signups, product-page modules, reputation mechanics, curated feeds, and gamified surfaces matter only when they improve retained value and withstand attribution, audience-fit, inclusion, safety, and testing constraints.
 
 ## Cross-source Findings
 
@@ -25,6 +25,16 @@ Business and market sources show durable value emerging when product work, start
 **Qualifications:**
 
 - The evidence is a strategic essay and company examples rather than a cross-industry empirical proof; stable customer desires still need specific mechanisms, execution, and defenses against changing competitors.
+
+### Risk Discipline Preserves Optionality
+
+[[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral and optionality problem: avoid risking needs for wants, treat debt and savings as future-choice modifiers, and plan for failed plans, regret, incentives, overconfidence, and uncertainty.
+
+**Evidence:** [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]]
+
+**Qualifications:**
+
+- The Housel evidence is aphoristic rather than a portfolio model; need-versus-want risk, regret calibration, debt, savings, and optimism/pessimism need context-specific application before becoming financial rules.
 
 ### Capability Led Platforms Turn Operations Into Markets
 
