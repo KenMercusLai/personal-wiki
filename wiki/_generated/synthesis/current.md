@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: 62a39cdc0a7ce3ffeb2987433018023201977102
-summary: "The wiki maps durable practice across technology, markets, work, culture, governance, psychology, and science through evidence, verification, learning, and humane judgment."
-episode_count: 219
-source_count: 219
-paragraph_count: 213
+as_of_overview_commit: 9bc0c95896a67f8c6009f261d9ca97ea37e2357b
+summary: "The wiki maps durable practice through action, evidence, verification, learning, strategy, and humane judgment."
+episode_count: 220
+source_count: 220
+paragraph_count: 214
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 - [[ProductionInfrastructureLeadership]], [[Delos]], [[CodeReviewPractice]], [[SystemReliability]], [[ChangeSafety]], [[ServiceObservability]], [[DeploymentAutomation]], [[NotebookWorkflowInfrastructure]], [[FinancialSoftwareDesign]], and [[DoubleEntryAccounting]] show that infrastructure leadership, review discipline, operational reliability, release safety, observability, workflow, and domain-modeling discipline are business capabilities rather than backend housekeeping.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
-- Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
+- Creative and technical output improves through visible feedback loops, meaningful direction, and action: [[ExplanatoryWriting]], [[CreatorFeedbackLoop]], [[KnowledgeOutput]], [[LearningByWriting]], [[PersonalBranding]], release-focused side projects, [[MakeGoodNewThings]], [[CognitiveCuriosity]], [[AIEraCreativeStandards]], and [[ActionBiasInAI]] turn private learning into inspectable, higher-standard work while guarding against [[MimeticDesire]].
 
 ## Synthesis by Domain
 
@@ -81,7 +81,7 @@ Science, health, and climate sources remain narrower in the current corpus, cent
 
 ### Work, Education, and Society
 
-Work, education, and society sources connect learning, writing, career development, collaboration, meetings, management, AI-era education, and knowledge work through reflective practice, context preservation, feedback, autonomy, and humane constraints.
+Work, education, and society sources connect learning, writing, career development, collaboration, meetings, management, AI-era education, knowledge work, and action-first creative practice through feedback, autonomy, context preservation, and humane constraints.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[JuniorEngineerLearning]] improves through questions, code review, mentor feedback, real debugging traces, and protected struggle, even when AI or workplace pressure could shortcut the learning-rich middle steps. Evidence: [[JuniorEngineerLearning]], [[CodeReviewPractice]], [[TechCommunityParticipation]], [[WorkplaceLearning]], [[ActiveLearning]].

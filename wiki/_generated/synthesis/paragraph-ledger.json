@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f1bd36a0bb69e49d07bf43c0feb5b2eb11bb645d506a749885a9cacdb9c15478",
       "bad82f7e33334886296bc0966dfa354a1f81fa5e998ea3588e230d8c831894e3",
       "d878b916d29cbf0917d4d6ecb9bc8b78b01647794870e3ec99aac472a58c2ccd",
       "8c5ca8513d25f177b1363575cbdf1e2e7f826186fd7ab3ae53cf1a556c715b0a",
@@ -215,11 +216,27 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 213
+    "paragraph_count": 214
   },
-  "overview_commit": "62a39cdc0a7ce3ffeb2987433018023201977102",
-  "overview_digest": "81a2597178015b04f647ddacd4c51bb197b266177de7e9c6e64ef88b7a698978",
+  "overview_commit": "9bc0c95896a67f8c6009f261d9ca97ea37e2357b",
+  "overview_digest": "28e201ecf93995ad4cc9c707485a86283ae5dcaf08f513af4cc0033e88e8c835",
   "paragraphs": [
+    {
+      "id": "f1bd36a0bb69e49d07bf43c0feb5b2eb11bb645d506a749885a9cacdb9c15478",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest source adds a motivational layer to the wiki's AI material. [[ActionBiasInAI]] says the first AI-era move is not consuming more success methods but doing concrete work, because real learning comes from confronting actual building problems. [[MaiYang]] and [[NavalRavikant]] anchor this action-first framing, while [[MimeticDesire]] names one failure mode: copying someone else's ambition instead of finding a self-owned desire strong enough to justify tradeoffs.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ActionBiasInAI",
+        "MaiYang",
+        "MimeticDesire",
+        "NavalRavikant"
+      ]
+    },
     {
       "id": "bad82f7e33334886296bc0966dfa354a1f81fa5e998ea3588e230d8c831894e3",
       "primary_topic": "business-and-markets",

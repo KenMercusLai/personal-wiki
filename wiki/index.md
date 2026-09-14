@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [纳瓦尔深度洞察：对待 AI 你得行动起来！](sources/blog-maiyang-naval-insights-taking-action-with-ai.md) - MaiYang uses Naval's action-first framing to argue that AI-era progress comes from self-owned desire, concrete building, and learning by doing rather than passive success-content consumption.
 - [42 Things I Learned from Building a Production Database](sources/blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database.md) - Mahesh Balakrishnan distills Delos lessons on production infrastructure leadership across customers, project management, API design, review culture, observability, strategy, and research.
 - [Make Good New Things](sources/blog-limboy-make-good-new-things.md) - Limboy argues that AI lowers the threshold for making software, writing, and images, but that meaningful creation still depends on high standards, strong inputs, cognitive curiosity, and personal presence.
 - [A Dusting of Gamification](sources/blog-joel-spolsky-a-dusting-of-gamification.md) - Joel Spolsky argues that Stack Overflow's light reputation layer recognized helpful contributions and signaled community norms, while downvotes and visible scoring carried inclusion costs.
@@ -227,6 +228,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [MaiYang](entities/MaiYang.md) - Author and presenter framing AI adoption around action, self-honest desire, and founder examples.
+- [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
+- [Elon Musk](entities/ElonMusk.md) - Founder example used to illustrate all-in future-oriented action after PayPal.
+- [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
+- [Tesla](entities/Tesla.md) - Electric-vehicle company used as an example of desire expressed through concrete commitment.
+- [Mark Zuckerberg](entities/MarkZuckerberg.md) - Founder example used to show learning by quickly launching Thefacebook and responding to real problems.
 - [Mahesh Balakrishnan](entities/MaheshBalakrishnan.md) - Distributed-systems academic and Delos tech lead represented by production database leadership lessons.
 - [Delos](entities/Delos.md) - Facebook production storage system used as the case for production infrastructure leadership, reliability, API migration, and observability lessons.
 - [ZooKeeper](entities/ZooKeeper.md) - Coordination/storage system referenced as the incumbent Facebook infrastructure Delos was replacing.
@@ -823,6 +830,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Action Bias in AI](concepts/ActionBiasInAI.md) - AI-era posture that favors concrete building, shipping, and learning from real problems over passive method consumption.
+- [Mimetic Desire](concepts/MimeticDesire.md) - Borrowed desire produced by imitating others' wants rather than acting from self-honest aims.
 - [Production Infrastructure Leadership](concepts/ProductionInfrastructureLeadership.md) - Leading critical infrastructure through customer grounding, API migration design, correctness-first review, observability, strategy, and research.
 - [Make Good New Things](concepts/MakeGoodNewThings.md) - Creative-life ethic treating valuable new artifacts as care, learning, asymmetric return, and a traceable record of life.
 - [AI-Era Creative Standards](concepts/AIEraCreativeStandards.md) - Quality expectations needed when AI makes acceptable average creative and technical output cheap and abundant.

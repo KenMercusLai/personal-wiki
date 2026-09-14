@@ -1423,6 +1423,10 @@ Ingested Holden Karnofsky's Cold Takes article on writing-centered learning, cre
 
 Ingested Jeff Huang's calendar-plus-text-file productivity workflow, creating source, author, and Text File Productivity pages and updating productivity and PKM synthesis.
 
+## [2026-09-14] ingest | 纳瓦尔深度洞察：对待 AI 你得行动起来！
+
+Ingested MaiYang's Naval-framed AI action essay, creating source, author, cited thinker, founder-example, action-bias, and mimetic-desire pages.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1739,6 +1743,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | The Mindset of a Programmer
 
 Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
