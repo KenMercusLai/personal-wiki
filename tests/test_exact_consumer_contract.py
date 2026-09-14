@@ -134,6 +134,22 @@ class ExactConsumerContractTest(unittest.TestCase):
             source = (ROOT / ".generated/wiki/sources" / source_key / "index.md").read_text()
             self.assertIn(f"![{alt}]({filename})", source)
 
+    def test_month_only_source_date_is_normalized_only_in_hugo_projection(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_month_date")
+        key = "blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li"
+        canonical = ROOT / "wiki/sources" / f"{key}.md"
+        before = canonical.read_bytes()
+        self.assertIn(b"\ndate: 2024-03\n", before)
+
+        prepare.prepare(ROOT)
+
+        projected = (ROOT / ".generated/wiki/sources" / key / "index.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("\ndate: 2024-03-01\n", projected)
+        self.assertNotIn("\ndate: 2024-03\n", projected)
+        self.assertEqual(canonical.read_bytes(), before)
+
     def test_section_landings_include_every_canonical_identity(self):
         prepare = load_script(PREPARE, "prepare_personal_wiki_landings")
         prepare.prepare(ROOT)
