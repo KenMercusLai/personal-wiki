@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
+- [Time > Money](sources/boz-time-isnt-money.md) - Andrew Bosworth argues that time is more scarce than money, so meetings and interruptions need clear ownership, purpose, attendance curation, notes, feedback, and recurring expiration.
 - [323 Startup Failure Post-Mortems](sources/323-startup-failure-post-mortems.md) - CB Insights' compilation of startup shutdown narratives showing recurring failure patterns around product-market fit, runway, timing, platform dependence, hardware complexity, governance, and business-model fragility.
 - [10 Tips To Write Better Functions In Python](sources/bob-belderbos-10-tips-to-write-better-functions-in-python.md) - Bob Belderbos argues that better Python functions use clear names, single responsibility, small interfaces, early validation, type hints, consistent returns, purity, and safe defaults.
 - [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
@@ -262,7 +263,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by the P Rules for power-aware product-review meetings.
+- [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by power-aware product-review meetings and time-respectful meeting ownership.
 - [CB Insights](entities/CBInsights.md) - Startup and venture research publisher represented here by its multi-case startup failure post-mortem compilation.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
@@ -1013,7 +1014,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
-- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, useful disagreement, and purposeful interaction rather than defensive positioning or empty procedure.
+- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, useful disagreement, purposeful interaction, and responsible use of colleagues' time.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning and opportunity infrastructure.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
@@ -1113,7 +1114,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
 - [Product Management](concepts/ProductManagement.md) - Cross-functional product role accountable for integrating customer, business, technical, and organizational constraints into product outcomes.
 - [Product Leadership](concepts/ProductLeadership.md) - Product role of setting and communicating vision and strategy strongly enough to move organizations through risky product change.
-- [Product Review Meetings](concepts/ProductReviewMeetings.md) - Product-review discussions facilitated to improve judgment while preserving presenter agency, team ownership, and trust under power gradients.
+- [Product Review Meetings](concepts/ProductReviewMeetings.md) - Product-review discussions facilitated to improve judgment while preserving presenter agency, team ownership, trust, and explicit stewardship of meeting time.
 - [Product Idea Prioritization](concepts/ProductIdeaPrioritization.md) - Ranking product ideas by KPI impact, build difficulty, and whether they improve growth, activation, engagement, reactivation, or revenue.
 - [Information Hierarchy](concepts/InformationHierarchy.md) - Ordering and prioritizing interface information so users can find important data, actions, and features when needed.
 - [App Landing Pages](concepts/AppLandingPages.md) - Single-goal app marketing pages for validation, acquisition, lead capture, and conversion testing.
@@ -1295,7 +1296,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered investigation method where provisional hypotheses, weakness lists, targeted reading, and revision direct learning.
 - [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
 - [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
-- [Attention Management](concepts/AttentionManagement.md) - Protecting and allocating limited mental capacity so important work gets real focus rather than merely available minutes.
+- [Attention Management](concepts/AttentionManagement.md) - Protecting and allocating limited mental capacity so important work gets real focus instead of being lost to distraction, context switching, or nominally available minutes.
 - [Automated Data Application](concepts/AutomatedDataApplication.md) - Closed-loop data system where generation, processing, model output, and business action reinforce one another.
 - [Behavioral Data](concepts/BehavioralData.md) - Behavior traces of varying intent density that support prediction, optimization, targeting labels, identity-linked data trading, and automated business decisions.
 - [Behavior Design](concepts/BehaviorDesign.md) - Practice of shaping conditions so people are more likely to perform beneficial target behaviors.

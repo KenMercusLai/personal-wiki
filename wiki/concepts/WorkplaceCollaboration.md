@@ -7,6 +7,7 @@ sources:
   - bill-barnett-delete-all-meetings
   - 3-strategies-for-picking-your-battles-as-a-software-developer
   - boz-the-p-rules
+  - boz-time-isnt-money
 last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
@@ -19,14 +20,14 @@ The Manelius source contributes a trust-centered view of workplace collaboration
 
 Head adds a disagreement-selection frame for software teams. Collaboration does not require suppressing all conflict; it requires choosing which disagreements deserve pressure and how to pursue them without making the issue personal. A product or code challenge is strongest when it is tied to concrete value such as a week of saved work, reliability, viability, maintainability, usability learning, or a better third option. Some losing disagreements can still improve future collaboration by surfacing the need for user testing or shared technical learning.
 
-Bosworth adds a power-aware meeting layer. In product reviews, collaboration depends on senior participants contributing without dominating: make one critique rather than piling on, ignore small errors unless they confuse people, avoid tangents, do not prescribe solutions, resist permission transfers, meet weak ideas with curiosity, and let presenters finish. Leaders also have to manage their physical and emotional presence because a mild interjection can land as a strong signal when the power gradient is steep.
+Bosworth adds a power-aware meeting layer. In product reviews, collaboration depends on senior participants contributing without dominating: make one critique rather than piling on, ignore small errors unless they confuse people, avoid tangents, do not prescribe solutions, resist permission transfers, meet weak ideas with curiosity, and let presenters finish. Leaders also have to manage their physical and emotional presence because a mild interjection can land as a strong signal when the power gradient is steep. His time-scarcity essay generalizes the responsibility beyond product reviews: meeting owners should clarify purpose, outcomes, agenda, notes, accountability, and attendance because each synchronous request spends other people's scarce time and attention.
 
 ## Key Claims
 - Collaboration can break down when project stress turns stakeholders toward defensive self-protection.
 - Shared assumptions about good faith can reduce friction in hard conversations.
 - Trust-based collaboration can be faster than contract-heavy coordination when the relationship is healthy.
 - Boundaries remain necessary when the environment is low-trust or a person has already violated trust.
-- Interaction should be justified by usefulness: scheduled meetings need a purpose, and informal talks should stop once value disappears.
+- Interaction should be justified by usefulness: scheduled meetings need purpose and ownership, while informal talks should stop once value disappears.
 - Useful disagreement depends on product value, likely influence, emotional cost, and whether even a losing disagreement expands shared understanding or motivates better evidence gathering.
 - High-status review collaboration requires restraint from senior participants plus leader practices that make people feel seen and heard, name concern, and remind the room of shared goals.
 
@@ -48,15 +49,18 @@ Bosworth adds a power-aware meeting layer. In product reviews, collaboration dep
 - Presenter agency: [[boz-the-p-rules]] says presenters should be allowed to finish and answer questions fully before more questions are raised.
 - Power awareness: [[boz-the-p-rules]] says leaders should account for how their interjections land across the power gradient.
 - Emotional repair: [[boz-the-p-rules]] recommends naming concern and reminding participants of shared goals when conflict appears.
+- Meeting ownership: [[boz-time-isnt-money]] says owners should define the meeting purpose, match size to purpose, set agendas and outcomes, share notes, solicit feedback, and expire recurring meetings quickly.
+- Attendance agency: [[boz-time-isnt-money]] says organizers should remove people, attendees should remove themselves, and anyone should be free to leave when a meeting is not the best use of time.
 
 ## Counterevidence & Qualifications
-The sources are personal essays rather than broad empirical studies. Trust can be misplaced in environments with coercive power, repeated deception, legal exposure, or unequal ability to absorb risk. Collaboration may also require explicit agreements, incentives, resources, scheduled decision forums, and decision rights, not only better assumptions about intent, informal conversation, or individual restraint. "Picking battles" language can also over-personalize shared product work if teams forget that the goal is better evidence and better outcomes rather than individual victory. Power-aware restraint does not eliminate the need for direct intervention when risk is urgent or decision rights are explicit.
+The sources are personal essays rather than broad empirical studies. Trust can be misplaced in environments with coercive power, repeated deception, legal exposure, or unequal ability to absorb risk. Collaboration may also require explicit agreements, incentives, resources, scheduled decision forums, and decision rights, not only better assumptions about intent, informal conversation, or individual restraint. "Picking battles" language can also over-personalize shared product work if teams forget that the goal is better evidence and better outcomes rather than individual victory. Power-aware restraint and meeting pruning do not eliminate the need for direct intervention when risk is urgent, decision rights are explicit, or inclusion requires scheduled participation.
 
 ## What Changed
 - Created the concept from the Manelius article's project-conflict case.
 - Added Barnett's distinction between useful collaboration and rational-looking meeting procedure.
 - Added a software-team disagreement frame for deciding when to press, let go, or start a useful losing debate.
 - Added power-aware product-review collaboration: senior restraint, presenter agency, team ownership, and emotional repair in meetings.
+- Added meeting ownership and attendance curation as collaboration responsibilities grounded in time scarcity.
 
 ## Related Concepts
 - [[AssumePositiveIntent]] - trust-first attribution is the source's proposed collaboration move.
@@ -67,3 +71,4 @@ The sources are personal essays rather than broad empirical studies. Trust can b
 - [[CodeReviewPractice]] - code review is one setting where collaboration depends on separating quality concerns from preference.
 - [[TeamFocus]] - low-value or personal disputes can consume shared attention and morale.
 - [[ProductReviewMeetings]] - product reviews are a collaboration setting where status and decision ownership are especially salient.
+- [[AttentionManagement]] - collaboration requests should protect colleagues from avoidable context switching and attention waste.
