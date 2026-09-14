@@ -5,7 +5,8 @@ tags: [ai, agents, coding-agent, developer-tools]
 sources:
   - mu-jiang-chui-zi-ding-zi
   - ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase
-last_updated: 2026-09-13
+  - blog-anthropic-building-effective-ai-agents
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,6 +18,8 @@ The sources define a coding agent as model plus tools plus loop, then show that 
 
 The Agno tutorial narrows the idea further for a read-only code analysis assistant: one tool runs repository-wide text search, and another reads bounded code segments around line numbers. That surface cannot edit or verify software by itself, but it can support useful codebase QA when paired with instructions for log triage, interface discovery, route search, and structured reporting.
 
+Anthropic's agent-building article adds two constraints to the minimal-tooling thesis. First, coding is a strong fit for agents because code solutions can be verified through automated tests, giving the loop objective feedback. Second, the tool interface itself matters: even small surfaces need careful documentation and mistake-resistant argument design, as shown by Anthropic's switch to absolute file paths in a SWE-bench tool to prevent relative-path errors.
+
 ## Key Claims
 - A coding agent can be modeled as model plus tools plus loop.
 - Read and write provide the basic information and output interface.
@@ -24,6 +27,7 @@ The Agno tutorial narrows the idea further for a read-only code analysis assista
 - Bash is valuable because it bridges to existing command-line and programmable tools.
 - Small tool surfaces can be powerful when the agent loop can search, inspect, modify, and verify iteratively.
 - For codebase QA, a read-only surface of search plus file-segment reading can support troubleshooting and code-structure analysis.
+- Automated tests make coding agents unusually evaluable, but minimal tooling still needs clear definitions, argument semantics, and path-handling safeguards.
 
 ## Evidence
 - Agent definition: [[mu-jiang-chui-zi-ding-zi]] defines an agent as model plus tools plus loop.
@@ -32,13 +36,17 @@ The Agno tutorial narrows the idea further for a read-only code analysis assista
 - Bash rationale: [[mu-jiang-chui-zi-ding-zi]] says bash bridges the large existing command-line and programmable-tool ecosystem.
 - Read-only variant: [[ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase]] exposes `search_codebase` and `read_file_segment` as enough tool surface for its code-analysis agent.
 - Prompt specialization: [[ru-he-zi-jian-yi-ge-zi-ji-de-cursor-codebase]] separates log troubleshooting from code-structure analysis and tells the agent which searches and reports to produce.
+- Coding-agent fit: [[blog-anthropic-building-effective-ai-agents]] says coding agents work well because code solutions are verifiable through automated tests and agents can iterate on test feedback.
+- SWE-bench example: [[blog-anthropic-building-effective-ai-agents]] cites a coding agent for SWE-bench tasks that edit many files from task descriptions.
+- Path safeguard: [[blog-anthropic-building-effective-ai-agents]] says Anthropic improved tool reliability by requiring absolute file paths rather than relative ones.
 
 ## Counterevidence & Qualifications
-The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need.
+The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements.
 
 ## What Changed
 - Created the initial concept page for minimal coding-agent tooling.
 - Added a read-only codebase QA variant built from repository search and file-segment reading.
+- Added Anthropic's coding-agent fit claim around automated tests, iterative feedback, and model-friendly tool design.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - minimal tools still require active human judgment and feedback.
@@ -47,3 +55,5 @@ The sources are practitioner examples and do not prove that small tool surfaces 
 - [[AgenticRAG]] - grep/read loops use minimal tools for retrieval over code.
 - [[ModelContextProtocol]] - typed tool protocols are a more structured alternative to broad shell access.
 - [[Agno]] - Agno hosts the tutorial's minimal search/read tool surface.
+- [[AgentComputerInterface]] - minimal tools still need agent-readable definitions and mistake-resistant arguments.
+- [[AgenticWorkflowPatterns]] - coding agents are an open-ended agent pattern with verifiable environmental feedback.

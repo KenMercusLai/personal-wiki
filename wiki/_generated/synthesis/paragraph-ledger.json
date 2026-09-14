@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ca084d8ad7aa5636cf86c755f3cbc1b4dcc1d56827758bb0b0d0831d8736975f",
       "6b4dbbd3c061cd8fe07d39b74dd88ba9dd3454f0c08fd04909964cd4f994795f",
       "b743fbaac0def0b3558bd427350cac975d5dd1dbc3713a3503653f8d3be3ba97",
       "c156432c3db28d693e59e1d40120fd54fb6b7b41df2eb0b7bcd54e840f6b6ee1",
@@ -203,11 +204,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 201
+    "paragraph_count": 202
   },
-  "overview_commit": "c6e53723b2c7ed27ce170c9ad75121153724dc4c",
-  "overview_digest": "1c211bdadf278d96807a83f5d740ce7629fa146f3922a78595f7df2decf8b1a8",
+  "overview_commit": "b4c05021648a50d5382123591dd4cfcd90256a7c",
+  "overview_digest": "ffcea5ce6e305a7615a6314546db55daea4ec2d6628444dbe5efd71a4c6c7df2",
   "paragraphs": [
+    {
+      "id": "ca084d8ad7aa5636cf86c755f3cbc1b4dcc1d56827758bb0b0d0831d8736975f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Anthropic source adds a pragmatic architecture map for [[AgenticWorkflowPatterns]] and [[AgentComputerInterface]]. It distinguishes predefined workflows from autonomous agents, then argues that builders should start with the simplest useful LLM call and add complexity only when evaluation shows a gain. The five workflow patterns are now explicit: prompt chaining with gates, routing to specialized paths, parallelization through sectioning or voting, orchestrator-workers for dynamically discovered subtasks, and evaluator-optimizer loops for criteria-driven refinement. [[AgentExperience]] gains a concrete loop model: agents clarify tasks with humans, receive interface context, act on environments, use tool or code-execution results as ground truth, checkpoint with users, and terminate by completion or stopping rules. [[AIApplicationFramework]] is qualified by Anthropic's warning that frameworks can hide prompts and responses or tempt unnecessary abstraction, while [[CodingAgentMinimalTooling]] gains the claim that coding agents work well partly because tests provide objective feedback. The inspected diagrams supported these claims by showing the augmented LLM, five workflow control structures, autonomous action-feedback loop, and coding-agent clarify/search/write/test sequence.",
+      "topic_scores": {
+        "ai-and-technology": 5,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIApplicationFramework",
+        "AgentComputerInterface",
+        "AgentExperience",
+        "AgenticWorkflowPatterns",
+        "CodingAgentMinimalTooling"
+      ]
+    },
     {
       "id": "6b4dbbd3c061cd8fe07d39b74dd88ba9dd3454f0c08fd04909964cd4f994795f",
       "primary_topic": "business-and-markets",

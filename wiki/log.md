@@ -1580,6 +1580,10 @@ Added PMInsider's pre-greenlight product-management article. Key claims: PMs nee
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Building Effective AI Agents
+
+Added Anthropic's agent-engineering article. Key claims: start with the simplest useful LLM design, distinguish workflows from agents, use named workflow patterns only when task structure warrants them, and treat tool definitions as agent-facing interface design. Inspected eight diagrams covering augmented LLMs, workflow structures, autonomous action loops, and coding-agent sequences.
+
 ## [2026-09-14] ingest | Being Different Beats Being Better
 
 Added Darius Foroux's differentiation article. Key claims: business and career strategy should emphasize being meaningfully different, first in a recognizable category, and distinctive through skill stacking rather than only trying to be marginally better.
@@ -1607,6 +1611,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Betting on Things That Never Change
 
 Added Morgan Housel's Collaborative Fund essay on pairing technological change with stable customer desires. Key claims: Amazon compounded around selection, low prices, and fast delivery; successful investments combine change that drives competition with timelessness that drives compounding; and change-only or no-change strategic extremes are fragile.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Building Effective AI Agents](sources/blog-anthropic-building-effective-ai-agents.md) - Anthropic argues that effective agentic systems come from simple composable patterns, clear workflow-versus-agent distinctions, transparent loops, and carefully designed tool interfaces.
 - [Writing is Thinking - an annotated twitter thread](sources/writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping.md) - Steven Sinofsky argues that writing turns strategy into shared rationale, execution context, and corporate memory, while warning that memo rituals can become performative or gamed.
 - [Implementing a Search Engine with Ranking in Python](sources/blog-aakash-japi-implementing-a-search-engine-with-ranking-in-python.md) - Aakash Japi explains a basic Python search engine built from tokenization, a position-aware inverted index, free-text and phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report embraces 'content-everywhere' strategy](sources/bleacher-report-embraces-content-everywhere-strategy.md) - Digiday profiles Bleacher Report's distributed publishing strategy: platform-specific editorial missions, channel hedging, app conversion, Facebook-native distribution, and social interactions replacing site uniques as a key metric.
@@ -587,7 +588,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
-- [Anthropic](entities/Anthropic.md) - AI provider used in the source as an example of segmented prompt caching and prefix-cache constraints.
+- [Anthropic](entities/Anthropic.md) - AI provider and engineering publisher represented by prompt caching, Claude Code, and simple composable agent-building guidance.
 - [AWS](entities/AWS.md) - Cloud infrastructure provider used for EC2 self-hosting, large-scale SaaS architecture, AI/database services, and infrastructure unit-cost reasoning.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
@@ -795,6 +796,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 
 ## Concepts
+- [Agentic Workflow Patterns](concepts/AgenticWorkflowPatterns.md) - Reusable LLM system patterns such as prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer loops, and autonomous agent loops.
+- [Agent Computer Interface](concepts/AgentComputerInterface.md) - Design layer for making tools, files, APIs, computers, and environments understandable and safely usable by AI agents.
 - [Strategic Writing](concepts/StrategicWriting.md) - Writing plans and decisions deeply enough that rationale, assumptions, tradeoffs, and execution logic can be inspected and reused.
 - [Bag-of-Words Model](concepts/BagOfWordsModel.md) - Document representation that treats text as unordered token counts for vector comparison and ranking.
 - [Distributed Publishing Strategy](concepts/DistributedPublishingStrategy.md) - Media operating model that creates and monetizes content across owned properties, apps, search, social, and platform-hosted formats.

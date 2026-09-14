@@ -37,7 +37,8 @@
       "global_candidate": true,
       "id": "ai-coding-requires-human-judgment-and-harnesses",
       "qualifications": [
-        "The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign."
+        "The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign.",
+        "Anthropic adds that automated tests help coding agents iterate, but human review remains necessary for broader system requirements."
       ],
       "statement": "AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.",
       "status": "supported",
@@ -46,7 +47,8 @@
         "AIAgentCollaboration",
         "AIFirstEngineering",
         "AgentTeam",
-        "HumanCodeResponsibility"
+        "HumanCodeResponsibility",
+        "CodingAgentMinimalTooling"
       ]
     },
     {
@@ -81,6 +83,23 @@
         "PromptCaching",
         "ComputerUse",
         "TapeAndAnchors"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "agent-patterns-need-simple-evaluable-interfaces",
+      "qualifications": [
+        "Anthropic's pattern catalog is practitioner guidance, not a benchmark proving one universal agent architecture.",
+        "Frameworks can speed setup when their abstraction stays transparent, but they can also hide prompts, responses, and failure modes."
+      ],
+      "statement": "[[AgenticWorkflowPatterns]] and [[AgentComputerInterface]] make agent reliability a system-design problem: choose the simplest evaluable workflow, expose tools clearly, use environmental feedback, and add autonomy only when the task justifies it.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AgenticWorkflowPatterns",
+        "AgentComputerInterface",
+        "AgentExperience",
+        "AIApplicationFramework",
+        "CodingAgentMinimalTooling"
       ]
     },
     {
@@ -181,6 +200,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, design clear interfaces and boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.",
   "topic_id": "ai-and-technology"
 }

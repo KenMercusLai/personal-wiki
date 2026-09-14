@@ -6,17 +6,20 @@ sources:
   - yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian
   - yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
-last_updated: 2026-09-12
+  - blog-anthropic-building-effective-ai-agents
+last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Anthropic]] appears in the sources as an LLM provider associated with prompt caching architecture, Claude Code's product and model context, and private cache-edit behavior inferred from Claude Code.
+[[Anthropic]] appears in the sources as an LLM provider and agent-practice publisher associated with Claude Code, prompt caching architecture, private cache-edit behavior inferred from Claude Code, and simple composable patterns for building effective AI agents.
 
 ## Current Profile
 One source mentions Anthropic while discussing the engineering tension between dynamic context compression and KV/prompt caching: Anthropic's prompt caching is used as an example of caching stable prompt segments such as tools, system messages, and conversation messages, with a limited number of cache breakpoints. The Claude Code retrospective presents Anthropic as both model provider and tool builder, arguing that this vertical integration helps Claude Code feel more coherent than combinations of other models and agent shells, while also noting weekly limits as a resource and pricing constraint.
 
 The prompt-cache article adds more detail about Anthropic's cache model as seen through Claude Code. It describes cache write pricing, breakpoint-style public cache controls, and a private API surface where `cache_reference` and `cache_edits` let the client logically delete selected content from the cached provider-side view while leaving local messages unchanged.
+
+The "Building Effective AI Agents" article adds Anthropic's own practitioner guidance. It treats agentic systems as a spectrum from predefined workflows to autonomous agents, recommends starting with simple LLM calls before adding complexity, and emphasizes transparency, evaluation, tool documentation, environmental feedback, guardrails, and human checkpoints. This makes Anthropic not only a provider example but also a source of agent-engineering design doctrine.
 
 ## Key Characteristics
 - Represents a mainstream provider using prefix or prompt caching for LLM inference.
@@ -25,7 +28,7 @@ The prompt-cache article adds more detail about Anthropic's cache model as seen 
 - Shows the engineering tension between dynamic context edits and cache reuse.
 - Builds or provides the Claude Code context in the source's account, combining model quality with tool workflow design.
 - Imposes usage limits that the source interprets as evidence of compute and pricing pressure.
-- Exposes or supports provider-specific cache-edit behavior used by Claude Code for microcompact.
+- Exposes provider-specific cache-edit behavior used by Claude Code for microcompact and publishes agent-building guidance around simple workflows, transparent planning, and tool-interface design.
 
 ## Evidence
 - Provider example: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] names Anthropic among providers doing prefix caching.
@@ -35,14 +38,16 @@ The prompt-cache article adds more detail about Anthropic's cache model as seen 
 - Vertical integration: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] argues that Anthropic benefits from being both model provider and Claude Code tool developer.
 - Usage limits: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] discusses new weekly limits and speculates that heavy usage, compute scarcity, and pricing pressure are part of the background.
 - Private cache edits: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] describes `cache_reference` and `cache_edits` as private API markers used by Claude Code to microcompact large tool results.
+- Agent guidance: [[blog-anthropic-building-effective-ai-agents]] argues for simple composable patterns, workflow-versus-agent distinctions, transparent planning, tool documentation, and testing before production use.
 
 ## Qualifications
-This profile reflects source-scoped caching and Claude Code usage discussion and should not be read as current Anthropic product documentation, current limits, pricing, financing status, or API guidance. The cache-edit account is inferred from client behavior and private fields rather than documented public semantics.
+This profile reflects source-scoped caching, Claude Code usage discussion, and Anthropic's public engineering guidance as archived in the supplied article. It should not be read as current Anthropic product documentation, current limits, pricing, financing status, or API guidance. The cache-edit account is inferred from client behavior and private fields rather than documented public semantics.
 
 ## What Changed
 - Created an entity profile for Anthropic as an example in prompt-caching architecture.
 - Added the Claude Code source's view of Anthropic as a vertically integrated model/tool provider with usage-limit pressure.
 - Added private cache-edit behavior as an inferred provider-specific capability.
+- Added Anthropic's own agent-engineering guidance around simple workflows, transparent agent behavior, and tool-interface design.
 
 ## Relationships
 - [[DynamicContextCompression]] - Anthropic's caching model illustrates compression/cache tension.
@@ -51,3 +56,5 @@ This profile reflects source-scoped caching and Claude Code usage discussion and
 - [[ClaudeCode]] - Anthropic is the provider context for the tool in the source.
 - [[VibeCoding]] - Anthropic's tool and model integration shapes the source's vibe-coding experience.
 - [[PromptCaching]] - Anthropic's prompt-cache behavior is the source's central provider example.
+- [[AgenticWorkflowPatterns]] - Anthropic's engineering article supplies the workflow and agent pattern catalog.
+- [[AgentComputerInterface]] - Anthropic's appendix frames tool definitions as agent-facing interface design.

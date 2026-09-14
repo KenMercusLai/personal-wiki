@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: b1f00c20c10077dcedbf7acdf9c8b6c438e1ab02
-input_digest: 8f8e651cac0e07309a775dd84f4ace7264701b093f29a3b35133945675ab5ad5
+as_of_overview_commit: b4c05021648a50d5382123591dd4cfcd90256a7c
+input_digest: 898aae0d6fd7472b167cf201396be5008fe1d4059a8605b45b2f57d29be03b4e
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflows, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, and design boundaries for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests and traces, design clear interfaces and boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, and market-facing expansion.
 
 ## Cross-source Findings
 
@@ -41,11 +41,12 @@ Durable technical practice depends on understanding underlying systems rather th
 
 AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.
 
-**Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], [[AgentTeam]], [[HumanCodeResponsibility]]
+**Evidence:** [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], [[AgentTeam]], [[HumanCodeResponsibility]], [[CodingAgentMinimalTooling]]
 
 **Qualifications:**
 
 - The sources disagree in posture: some emphasize collaboration and learning protection, while others describe organization-wide agent-first redesign.
+- Anthropic adds that automated tests help coding agents iterate, but human review remains necessary for broader system requirements.
 
 ### Agent Infrastructure Needs Semantic Boundaries
 
@@ -66,6 +67,17 @@ Production-grade agents need infrastructure beyond ordinary app hosting: [[Effec
 **Qualifications:**
 
 - More context is not automatically better; compression, stale indexes, cache constraints, and context pollution can all degrade behavior.
+
+### Agent Patterns Need Simple Evaluable Interfaces
+
+[[AgenticWorkflowPatterns]] and [[AgentComputerInterface]] make agent reliability a system-design problem: choose the simplest evaluable workflow, expose tools clearly, use environmental feedback, and add autonomy only when the task justifies it.
+
+**Evidence:** [[AgenticWorkflowPatterns]], [[AgentComputerInterface]], [[AgentExperience]], [[AIApplicationFramework]], [[CodingAgentMinimalTooling]]
+
+**Qualifications:**
+
+- Anthropic's pattern catalog is practitioner guidance, not a benchmark proving one universal agent architecture.
+- Frameworks can speed setup when their abstraction stays transparent, but they can also hide prompts, responses, and failure modes.
 
 ### Retrieval Quality Depends On Representation And Indexing
 
