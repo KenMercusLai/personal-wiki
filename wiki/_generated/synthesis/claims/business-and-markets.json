@@ -119,14 +119,16 @@
       "global_candidate": true,
       "id": "early-startups-convert-runway-into-learning",
       "qualifications": [
-        "The evidence mixes advice, retrospectives, and famous examples, so survivorship bias and category differences remain important."
+        "The evidence mixes advice, retrospectives, famous examples, and a curated public failure corpus, so survivorship bias, visibility bias, retrospective rationalization, category differences, and missing quiet failures remain important."
       ],
-      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale.",
+      "statement": "[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale; [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, and business-model fragility reinforcing one another.",
       "status": "supported",
       "supporting_wikilinks": [
         "MinimumViableProduct",
         "StartupRunway",
         "ProductMarketFit",
+        "StartupFailurePatterns",
+        "CBInsights",
         "SideProjectIncubation",
         "StartupHypothesisTesting",
         "ToolFamiliarity",

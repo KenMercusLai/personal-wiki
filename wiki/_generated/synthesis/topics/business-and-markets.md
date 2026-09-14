@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: b59c152e9513a8fc445a3e045f92767df1e8eb2e
-input_digest: 0525bfce9ba5d90bbf8c100acfc6aeed0fa05c7d7406eb3f2c3f1397bc6907fb
+as_of_overview_commit: 55f7fded900e9157e6b349d3783728214844cca6
+input_digest: e056eac90afff000f26605a2a5987a5b55801c6e39473f6e74a99720502ea5a1
 ---
 
 # Business and Markets
@@ -78,13 +78,13 @@ Business and market sources show durable value emerging when product work, start
 
 ### Early Startups Convert Runway Into Learning
 
-[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale.
+[[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale; [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, and business-model fragility reinforcing one another.
 
-**Evidence:** [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], [[DistributedSystemRestraint]]
+**Evidence:** [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFailurePatterns]], [[CBInsights]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], [[DistributedSystemRestraint]]
 
 **Qualifications:**
 
-- The evidence mixes advice, retrospectives, and famous examples, so survivorship bias and category differences remain important.
+- The evidence mixes advice, retrospectives, famous examples, and a curated public failure corpus, so survivorship bias, visibility bias, retrospective rationalization, category differences, and missing quiet failures remain important.
 
 ### Growth Must Preserve Retained Value
 

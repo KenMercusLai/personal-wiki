@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [323 Startup Failure Post-Mortems](sources/323-startup-failure-post-mortems.md) - CB Insights' compilation of startup shutdown narratives showing recurring failure patterns around product-market fit, runway, timing, platform dependence, hardware complexity, governance, and business-model fragility.
 - [10 Tips To Write Better Functions In Python](sources/bob-belderbos-10-tips-to-write-better-functions-in-python.md) - Bob Belderbos argues that better Python functions use clear names, single responsibility, small interfaces, early validation, type hints, consistent returns, purity, and safe defaults.
 - [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
 - [爬虫抓取代理 IP](sources/blog-wulc-pa-chong-zhua-qu-dai-li-ip.md) - Wulc explains a Python scraper proxy-pool workflow: collect public proxies, store candidates in Redis, validate them against the target, evict failures, and pace collection.
@@ -260,6 +261,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [CB Insights](entities/CBInsights.md) - Startup and venture research publisher represented here by its multi-case startup failure post-mortem compilation.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
 - [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency and scraping, Linux process lifecycle, and practical reading methods.
@@ -1487,6 +1489,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity rather than only calendar months before cash runs out.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
+- [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.
 - [Mobile Ecosystem](concepts/MobileEcosystem.md) - Smartphone-centered computing ecosystem that redirects investment, innovation, adjacent devices, and post-iPhone seeding away from the PC-era center.
 - [Osborne Effect](concepts/OsborneEffect.md) - Product-transition failure mode where announcing the next platform too early collapses demand for the current one before the replacement is ready.
 - [Platform Business Model Obstacle](concepts/PlatformBusinessModelObstacle.md) - Platform failure mode where technology improves but the prevailing revenue or licensing model no longer fits ecosystem economics.

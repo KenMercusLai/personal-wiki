@@ -1979,6 +1979,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | 323 Startup Failure Post-Mortems
+
+Added CB Insights' compilation of 323 startup shutdown narratives. Key claims: startup failure is usually compound; weak product-market fit can coexist with technology, early traction, or user love; runway only helps when it funds real learning; timing mismatch can break plausible long-term theses; hardware, regulated, marketplace, food, and platform-dependent companies carry extra complexity; and public post-mortems are useful but retrospective evidence. The remote hero image returned HTTP 403 and could not be inspected.
+
 ## [2026-09-15] ingest | 10 Tips To Write Better Functions In Python
 
 Added Bob Belderbos's PyBites article on practical Python function design. Key claims: functions are Python's core modularity unit; clear names, single responsibility, small interfaces, early validation, type hints, and consistent returns improve readability and testability; globals and mutable default arguments create hidden-state hazards; and small isolated functions support internal software quality. No image references were present in the source Markdown.
@@ -2006,6 +2010,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
