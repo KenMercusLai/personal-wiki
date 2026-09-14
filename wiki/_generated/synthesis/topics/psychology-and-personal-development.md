@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: da61cd18945daaa9540a02bf18864982d0909e4e
-input_digest: f3f2631cf7aca90ae37b21a63ed67e9b66d37669680b25b2754a0b88b0dee4d4
+as_of_overview_commit: dd82d7c430b5889d659c9799b064c24a5e6cf782
+input_digest: e651f887b0b110444d25f6a86bc23780fc0b75615603b5c213bf8176c368352f
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, time-saving services, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -28,13 +28,13 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 ### Small Designed Loops Support Change
 
-[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], and [[ProlificPractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and bounded making shape future action.
+[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior change and leadership behavior as small repeatable loops where motivation, ability, prompts, feedback, recognition, context-sharing, reflection, decisive action, and bounded making shape future action.
 
-**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]]
+**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]]
 
 **Qualifications:**
 
-- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, gamification is treated as a weak reinforcer, and prolific practice is an apprenticeship essay rather than a controlled study.
+- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, gamification is treated as a weak reinforcer, prolific practice is an apprenticeship essay rather than a controlled study, and the CEO lesson evidence is a first-person leadership essay.
 
 ### Trust And Good Faith Can Speed Collaboration
 

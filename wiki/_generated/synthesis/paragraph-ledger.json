@@ -11,6 +11,7 @@
       "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
       "a22452a994692700489fe06844e32d1830f8f2e97a33ef18e24cdb6f4b350b8b",
       "6c52ac2418bb9a44b5bcf7f0db8ee2fe12508678116bb4e1e94bdf2b45468cf3",
+      "5762ab5c5862f9225617d23f9796bbee9b978bdfc51c84a0b95c1d6f35741789",
       "2c3b46e87a26ae34844ac10350ddb88f61a99b47d08c8ac519860e29dabe2c00",
       "9206d8a00c061f5d1c9daca879ecb4156b37f1c8b0e16b8c5264babcd7f8798c",
       "287be54fdb069159b80b72b7d9922b9c62ae5e4a5123935ef98a15a92c9a6c29",
@@ -256,10 +257,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 254
+    "paragraph_count": 255
   },
-  "overview_commit": "da61cd18945daaa9540a02bf18864982d0909e4e",
-  "overview_digest": "e348cbee76442ede980a6065960c41ce87f102d9f3a97f1ae04d3f60e7078c9d",
+  "overview_commit": "dd82d7c430b5889d659c9799b064c24a5e6cf782",
+  "overview_digest": "b65a38f9f0d978e62c631c2c1c4b922d62d02b921380e7c110316c224f96490c",
   "paragraphs": [
     {
       "id": "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
@@ -460,6 +461,26 @@
         "ProductMarketFit",
         "StartupHiringAtScale",
         "StartupScaling"
+      ]
+    },
+    {
+      "id": "5762ab5c5862f9225617d23f9796bbee9b978bdfc51c84a0b95c1d6f35741789",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "Biz Stone's CEO-advice essay adds an early-founder-CEO layer to that same leadership thread. [[BizStone]] presents [[Jelly]] as the context where he formally became CEO after years around other CEOs, and his five lessons make [[CEOScalingRole]] less only about later executive scaling and more about first-principles operating behavior: communicate often so missing context does not become fear, ask broadly for advice while choosing selectively, fire people whose conduct or performance harms the company, praise good work because recognition matters beyond compensation, and make directional decisions without pretending to know every answer. The [[Twitter]] reliability anecdote links [[SystemReliability]] to leadership judgment: discovering that the service could produce roughly one million signups in a day when it stayed up reframed technical stability as a growth constraint. The inspected images were a Biz Stone portrait, a tiny duplicate thumbnail, an illustrative plant photo, and a Star Trek still supporting the Picard leadership anecdote; they added presentation context but no independent factual claims.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BizStone",
+        "CEOScalingRole",
+        "Jelly",
+        "SystemReliability",
+        "Twitter"
       ]
     },
     {

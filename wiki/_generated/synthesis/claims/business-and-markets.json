@@ -240,9 +240,10 @@
       "id": "executive-hiring-and-scaling-redesign-the-company",
       "qualifications": [
         "The evidence is operator and investor advice plus selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral and timing filter rather than a stereotype about employer size.",
-        "The Greenhouse evidence is a short practitioner summary of Boufford's conference framework and should not be treated as proof that the engineering-design loop alone caused low attrition."
+        "The Greenhouse evidence is a short practitioner summary of Boufford's conference framework and should not be treated as proof that the engineering-design loop alone caused low attrition.",
+        "The Biz Stone evidence is a first-person 2016 CEO essay, so it supports a leadership operating philosophy rather than an independent performance evaluation of Jelly, Twitter, or Stone."
       ],
-      "statement": "[[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, recruiting systems, small autonomous teams, operating dashboards, and feedback loops when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.",
+      "statement": "[[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[BizStone]], [[Jelly]], [[StartupCulture]], [[ScalingCommunication]], [[SystemReliability]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should communicate context, seek advice selectively, protect culture through hard personnel calls, recognize good work, and decide under uncertainty before fit, then add experienced leaders, recruiting systems, small autonomous teams, operating dashboards, and feedback loops when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.",
       "status": "supported",
       "supporting_wikilinks": [
         "MichaelBoufford",
@@ -252,8 +253,11 @@
         "ProductMarketFit",
         "StartupScaling",
         "CEOScalingRole",
+        "BizStone",
+        "Jelly",
         "StartupCulture",
         "ScalingCommunication",
+        "SystemReliability",
         "TalentDensity",
         "SmallProductTeamBalance",
         "SaaSOperatingTransparency",
@@ -462,6 +466,6 @@
       ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Biz Stone's early-CEO operating lessons, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.",
   "topic_id": "business-and-markets"
 }

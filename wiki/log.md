@@ -4,6 +4,11 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | CEO Advice from a New CEO
+
+- Source: `/mnt/ken_personal_wiki/Articles/CEO Advice from a New CEO - The Biz Stone Collection - Medium.md`
+- Added source note, Biz Stone and Jelly entity pages, and updated CEOScalingRole.
+
 ## [2026-09-15] ingest | 54 Screwups as a Startup CEO
 
 Added Anand Sanwal's CB Insights retrospective on 54 startup CEO mistakes. Key claims: culture needs active design, hiring requires role clarity and reference discipline, value-based pricing beat cheap/gimmicky plans, founder-led sales improved through questions and follow-up, and focus means filtering fads, competitors, bad leads, vague partnerships, networking, and casual investor meetings. Inspected both embedded images: the readable pricing screenshot was used as evidence; the second was a tiny duplicate thumbnail.
@@ -2251,6 +2256,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | The user experience of HBO Max (vs Netflix)
 
 Added Built for Mars' HBO Max UX case study. Key claims: strong content can be undercut by repeated app-level UX defects, oversized streaming imagery hurts perceived speed, entitlement states should be explicit, free-episode flows need a deliberate journey shape, and mobile signup forms should keep fields and CTAs visible. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

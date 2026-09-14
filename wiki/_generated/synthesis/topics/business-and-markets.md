@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: da61cd18945daaa9540a02bf18864982d0909e4e
-input_digest: 2349f6cb0daf4abb76f2301ce370a8067c2397673767c955660474af0aaed363
+as_of_overview_commit: dd82d7c430b5889d659c9799b064c24a5e6cf782
+input_digest: d6fe7363e9471f5a31cec4e70a3d75416cba7cb387097f9788ff46c38ce510ca
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Biz Stone's early-CEO operating lessons, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.
 
 ## Cross-source Findings
 
@@ -130,14 +130,15 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Executive Hiring And Scaling Redesign The Company
 
-[[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, recruiting systems, small autonomous teams, operating dashboards, and feedback loops when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
+[[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[BizStone]], [[Jelly]], [[StartupCulture]], [[ScalingCommunication]], [[SystemReliability]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should communicate context, seek advice selectively, protect culture through hard personnel calls, recognize good work, and decide under uncertainty before fit, then add experienced leaders, recruiting systems, small autonomous teams, operating dashboards, and feedback loops when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
 
-**Evidence:** [[MichaelBoufford]], [[EngineeringLedOrganizationDesign]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], [[8VC]]
+**Evidence:** [[MichaelBoufford]], [[EngineeringLedOrganizationDesign]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[BizStone]], [[Jelly]], [[StartupCulture]], [[ScalingCommunication]], [[SystemReliability]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], [[8VC]]
 
 **Qualifications:**
 
 - The evidence is operator and investor advice plus selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral and timing filter rather than a stereotype about employer size.
 - The Greenhouse evidence is a short practitioner summary of Boufford's conference framework and should not be treated as proof that the engineering-design loop alone caused low attrition.
+- The Biz Stone evidence is a first-person 2016 CEO essay, so it supports a leadership operating philosophy rather than an independent performance evaluation of Jelly, Twitter, or Stone.
 
 ### Strategic Writing Preserves Execution Context
 

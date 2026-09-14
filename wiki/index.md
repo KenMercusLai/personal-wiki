@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [CEO Advice from a New CEO](sources/ceo-advice-from-a-new-ceo-the-biz-stone-collection-medium.md) - Biz Stone distills early CEO lessons around frequent communication, selective outside advice, firing, praise, and decisive leadership under uncertainty.
 - [Buying Time, Not Stuff, Might Make You Happier](sources/buying-time-not-stuff-might-make-you-happier-shots-health-news-npr.md) - NPR reports on research suggesting that spending money on time-saving services can improve positive emotion and life satisfaction more than buying material goods, while leaving durability questions open.
 - [Burning money on paid ads for a dev tool - what we've learned](sources/burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog.md) - PostHog argues that developer-tool paid ads need awareness/conversion separation, qualitative attribution, channel-specific experiments, and skepticism toward cheap but low-quality conversions.
 - [The user experience of HBO Max (vs Netflix)](sources/built-for-mars-the-ux-of-hbo-max-vs-netflix.md) - Built for Mars critiques HBO Max's streaming-app UX across image performance, entitlement clarity, occluded lists, free-episode journeys, and mobile form usability.
@@ -289,6 +290,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Biz Stone](entities/BizStone.md) - Jelly co-founder and CEO reflecting on practical early CEO responsibilities.
+- [Jelly](entities/Jelly.md) - startup context for Biz Stone's transition into the formal CEO role.
 - [HBO Max](entities/HBOMax.md) - Streaming-product UX case where strong content is weakened by performance, state-clarity, journey, and form execution issues.
 - [Fluxx](entities/Fluxx.md) - Product and experimentation consultancy that published Tom Whitwell's 2017 learning list on Fluxx Studio Notes.
 - [Tom Whitwell](entities/TomWhitwell.md) - Author and Fluxx senior consultant behind the 2017 "52 Things I Learned" source.
