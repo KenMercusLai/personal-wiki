@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: dd82d7c430b5889d659c9799b064c24a5e6cf782
-input_digest: d6fe7363e9471f5a31cec4e70a3d75416cba7cb387097f9788ff46c38ce510ca
+as_of_overview_commit: 636f176380e9a037270c3b30e1642b1721ab8c75
+input_digest: 58dcaccd6c5ccc634ff2e122f84afa063dbdc43ef4b9d9b3abc425ba0d84fd66
 ---
 
 # Business and Markets
@@ -68,13 +68,14 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Product Management Integrates Outcomes
 
-[[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.
+[[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], and [[CEOScalingRole]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, organizational resistance, and CEO-like decision accountability without boss authority before and after greenlight.
 
-**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]]
+**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[MartyCagan]]
 
 **Qualifications:**
 
 - The evidence combines selected successful case studies and practitioner advice, so it highlights PM agency while still depending on teams, founders, executives, engineers, estimation quality, and market timing.
+- The CEO-of-product metaphor is useful only when bounded by humility, earned trust, and the absence of formal authority over the team.
 
 ### Early Startups Convert Runway Into Learning
 

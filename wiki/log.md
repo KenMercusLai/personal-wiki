@@ -2014,6 +2014,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | CEO of the Product Revisited
+
+Added Marty Cagan's SVPG article on the "CEO of the product" metaphor. Key claims: the metaphor should communicate broad PM business accountability, not boss authority; PM training gaps make the full role scope worth stating directly; and strong product managers need humility, earned trust, and cross-functional decision responsibility. No effective image references were present in the source markdown.
+
 ## [2026-09-15] ingest | Burning money on paid ads for a dev tool - what we've learned
 
 Added PostHog's developer-tool paid-ads playbook. Key claims: paid ads are a subset of marketing, developer-tool campaigns should split conversion from awareness, qualitative signup/demo attribution complements click data, agencies still need internal channel judgment, Google Search differs sharply from Google Display, and early channel learning should use small time-boxed experiments. Inspected the embedded local newsletter mascot image and treated it as decorative rather than independent evidence.
@@ -2260,6 +2264,10 @@ Added Built for Mars' HBO Max UX case study. Key claims: strong content can be u
 ## [2026-09-15] ingest | 7 Questions to Ask Founders Before Joining Their Startup
 
 Added a startup career-diligence source and the new Startup Job Diligence concept. Key claims: candidates should assess startup risk through runway, investor quality, founder qualifications, board structure, early employee quality, business milestones, and personal belief in the idea. Inspected five embedded images: four were illustrative or quote-card duplicates, while the TechCrunch chart was incorporated as evidence that seed funding amount can correlate with Series A odds around the $1.5M threshold but must still be paired with burn and runway.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

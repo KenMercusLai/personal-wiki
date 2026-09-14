@@ -105,14 +105,18 @@
       "global_candidate": true,
       "id": "product-management-integrates-outcomes",
       "qualifications": [
-        "The evidence combines selected successful case studies and practitioner advice, so it highlights PM agency while still depending on teams, founders, executives, engineers, estimation quality, and market timing."
+        "The evidence combines selected successful case studies and practitioner advice, so it highlights PM agency while still depending on teams, founders, executives, engineers, estimation quality, and market timing.",
+        "The CEO-of-product metaphor is useful only when bounded by humility, earned trust, and the absence of formal authority over the team."
       ],
-      "statement": "[[ProductManagement]], [[ProductLeadership]], and [[ProductIdeaPrioritization]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, and organizational resistance before and after greenlight.",
+      "statement": "[[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], and [[CEOScalingRole]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, organizational resistance, and CEO-like decision accountability without boss authority before and after greenlight.",
       "status": "supported",
       "supporting_wikilinks": [
         "ProductManagement",
         "ProductLeadership",
-        "ProductIdeaPrioritization"
+        "ProductIdeaPrioritization",
+        "ProductManagerAsCEO",
+        "CEOScalingRole",
+        "MartyCagan"
       ]
     },
     {

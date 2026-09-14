@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "eafe0fec979c21e9a7fbbce3d73ccde8f16f2eaeaf145462e251808311502b39",
       "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
       "264264967f6099ce4807fe191f95d40c8b16feba16a4a544c16b098fa45ddb0f",
       "ed0b910c09f01f84b57e584c3f52c0e18a3038727a2989447708b7c2b165c40e",
@@ -257,11 +258,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 255
+    "paragraph_count": 256
   },
-  "overview_commit": "4fac141c5643663a64e3285027d615ab7d14a8fb",
-  "overview_digest": "b65a38f9f0d978e62c631c2c1c4b922d62d02b921380e7c110316c224f96490c",
+  "overview_commit": "636f176380e9a037270c3b30e1642b1721ab8c75",
+  "overview_digest": "22296a286d7afe6f0e892c560d1700816207a6a7b0a2b80e267cb9983213d724",
   "paragraphs": [
+    {
+      "id": "eafe0fec979c21e9a7fbbce3d73ccde8f16f2eaeaf145462e251808311502b39",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest SVPG source sharpens the wiki's product-management thread by turning the controversial \"CEO of the product\" phrase into a bounded role metaphor. [[MartyCagan]] argues that [[ProductManagement]] should be taught as broad business responsibility across legal, privacy, pricing, sales, marketing, finance, contracts, launch, technology, customers, analytics, customer success, and security, especially because many titled PMs lack deep training. [[ProductManagerAsCEO]] names the qualified version: CEO-like accountability means assimilating business context and making informed decisions, while humility, earned trust, and no formal authority over the team remain non-negotiable. This strengthens [[CEOScalingRole]] by showing why founder or CEO product integration can work early but cannot scale across many products.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 6,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CEOScalingRole",
+        "MartyCagan",
+        "ProductManagement",
+        "ProductManagerAsCEO"
+      ]
+    },
     {
       "id": "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
       "primary_topic": "business-and-markets",

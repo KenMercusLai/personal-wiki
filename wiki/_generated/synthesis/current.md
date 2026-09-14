@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: 4fac141c5643663a64e3285027d615ab7d14a8fb
+as_of_overview_commit: 636f176380e9a037270c3b30e1642b1721ab8c75
 summary: "A cross-domain map of technology, business, governance, culture, learning, and development through platforms, verification, feedback, practice, and attention."
-episode_count: 283
-source_count: 283
-paragraph_count: 255
+episode_count: 284
+source_count: 284
+paragraph_count: 256
 topic_count: 9
 ---
 
@@ -21,7 +21,7 @@ topic_count: 9
 - Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]], [[Cursor]], and [[GitHubCopilot]] are best judged by how they expose current project context and keep generated work reviewable.
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], [[Thinks]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, page-load speed, cache-backed availability, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, product roughness, and stakeholder belief into learning before scale; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, while [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, and business-model fragility reinforcing one another.
-- [[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[BizStone]], [[Jelly]], [[StartupCulture]], [[ScalingCommunication]], [[SystemReliability]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should communicate context, seek advice selectively, protect culture through hard personnel calls, recognize good work, and decide under uncertainty before fit, then add experienced leaders, recruiting systems, small autonomous teams, operating dashboards, and feedback loops when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
+- [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], and [[CEOScalingRole]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, organizational resistance, and CEO-like decision accountability without boss authority before and after greenlight.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
 - [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]] that makes promotion expectations explicit while preserving craft judgment.
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns and browser agents that need grounded retrieval, page-state feedback, and safe action boundaries.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
 
 ### Business and Markets
 
-Business and markets material connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Startup sources increasingly frame scarce runway, funding, team quality, milestone quality, and hiring discipline as evidence systems rather than optimism rituals.
+Business and markets material connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material clarifies product management as cross-functional business accountability, including a bounded CEO-of-product metaphor that rejects boss authority.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty. Evidence: [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].
@@ -57,7 +57,7 @@ The culture-and-media layer connects media form, creator workflow, translation, 
 
 ### Governance and Institutions
 
-Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, and exit-oriented alternatives to incumbent institutions. As scale rises, informal habits become explicit operating boundaries.
+Governance and institutional material spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, and exit-oriented alternatives to incumbent institutions.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
