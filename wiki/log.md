@@ -2155,6 +2155,14 @@ Ran lint. See lint-report.md for details.
 
 Added The Year of the Looking Glass essay on product-building practice. Key claims: product work should begin with a clear problem and audience, explore many candidate solutions before narrowing with evidence, frame plans as hypotheses, distinguish test quality from launch quality, define success metrics and countermetrics before launch, use retention when searching for product-market fit, and run post-mortems after successes and failures. Inspected all three embedded local images and treated them as decorative or duplicate steel-frame photographs.
 
+## [2026-09-15] ingest | Building a Business in the Shadow of a Giant
+
+Added Noteworthy's Wistia/YouTube strategy essay. Key claims: dominant platforms can create startup openings by expanding demand, setting technical baselines, deterring direct entrants through free pricing, and leaving specialized business segments underserved. Inspected seven embedded local images and treated them as decorative article art, thumbnails, author/photo UI, or divider assets rather than independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [Building Lyft's Marketing Automation Platform](sources/building-lyfts-marketing-automation-platform-lyft-engineering.md) - Lyft Engineering describes Symphony, an automated acquisition platform combining LTV forecasting, budget allocation, channel bidders, and human feedback.
 - [Building Products](sources/building-products-the-year-of-the-looking-glass-medium.md) - The Year of the Looking Glass distills product-building guidance around problem framing, broad solution exploration, hypothesis testing, success metrics, retention, and team learning.
+- [Building a Business in the Shadow of a Giant](sources/building-a-business-in-the-shadow-of-a-giant-noteworthy-the-journal-blog.md) - Noteworthy argues that Wistia grew in YouTube's shadow by using the giant's market-making, free-price deterrence, and broad-platform gaps to build a focused B2B video business.
 - [Building Engineering Careers at NerdWallet](sources/building-engineering-careers-at-nerdwallet-nerdwallet.md) - NerdWallet explains how it refactored engineering job architecture from checklist-like promotion tasks toward values, examples, fair scope, manager calibration, and living-document rollout.
 - [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
@@ -676,6 +677,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Feross Aboukhadijeh](entities/FerossAboukhadijeh.md) - Developer cited for the rare attention-generating YouTube Instant side project.
 - [YouTube Instant](entities/YouTubeInstant.md) - Side project used as the source's exceptional viral project and job-offer example.
 - [YouTube](entities/YouTube.md) - Creator and cultural platform used as a comparison case for Twitter's metrics and tool strategy.
+- [Wistia](entities/Wistia.md) - B2B video company used as the startup case for growing beside YouTube through specialized business-video tooling.
 - [Kelsey Hightower](entities/KelseyHightower.md) - Infrastructure author arguing that containerized applications should handle bootstrapping, runtime config, and startup dependency behavior close to the application code.
 - [Docker](entities/Docker.md) - Container platform used to show both twelve-factor deployment fit and the limits of superficial lift-and-shift packaging.
 - [Wang Ziting](entities/WangZiting.md) - Developer-blogger reflecting on side-project release discipline, container platforms, game backend architecture, and Redis-backed task queues.
@@ -1390,6 +1392,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
 - [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
 - [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
+- [Incumbent Shadow Advantage](concepts/IncumbentShadowAdvantage.md) - Startup pattern where a dominant platform expands demand and deters rivals while leaving specialized segments open.
 - [Environmental Field](concepts/EnvironmentalField.md) - Invisible social, material, emotional, and normative surroundings that shape behavior, character, creativity, and moral judgment.
 - [Epsilon Tolerance](concepts/EpsilonTolerance.md) - Distance threshold controlling the fidelity/compression tradeoff in trajectory simplification.
 - [Edge Runtime](concepts/EdgeRuntime.md) - Edge-platform execution environment that favors web APIs and constrains Node.js-specific dependencies.
