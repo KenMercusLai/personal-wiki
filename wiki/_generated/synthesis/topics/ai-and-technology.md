@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-15
-as_of_overview_commit: e579dcd03bbbaefce2eaec5c1f99c0edcb3428d5
-input_digest: edd0065f8b50f0fcade53d88f3e162b06d454046d5d6c09dd70917d8bcb95f87
+as_of_overview_commit: 2e13ec2742dda235b05dead84561783c1f1ccb26
+input_digest: a5e13592b1d37cf99513dbf0ce603f5681ee27ce6c10b2e87f40c6fa7d1ec403
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to small operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, while [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence, validation, eviction, and pacing.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries.
 
 ## Cross-source Findings
 
@@ -81,14 +81,24 @@ Effective coding-agent systems depend on simple, debuggable harnesses: inspectab
 
 ### Context And Retrieval Are Design Surfaces
 
-Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, and live code search all shape what the model can use or misuse.
+Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what the model can use or misuse.
 
-**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[ContextCoding]], [[CodingAgentMinimalTooling]]
+**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]]
 
 **Qualifications:**
 
 - Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, stale instruction files, or hidden retrieval failure modes.
-- For live codebases, current search and semantic retrieval should be evaluated as complementary signals rather than as an absolute RAG-versus-grep choice.
+- For live codebases and browser pages, current search, semantic retrieval, and structured environment access should be evaluated as complementary signals rather than as an absolute RAG-versus-grep or vision-versus-DOM choice.
+
+### Browser Agents Need Grounded Retrieval And Safe Actions
+
+[[AIGuidedWebScraping]] shows that browser agents need grounded retrieval and action interfaces: ranked model-generated search terms, deterministic HTML matching, token-capped candidate lists, parent-context retrieval, page-state feedback, and explicit safety boundaries around generated browser actions.
+
+**Evidence:** [[AIGuidedWebScraping]], [[AgentComputerInterface]], [[ComputerUse]], [[AgenticWorkflowPatterns]]
+
+**Qualifications:**
+
+- The AI scraper evidence is a prototype and a Wikipedia test, not a broad benchmark; generated browser code, captcha handling, stealth tactics, and anti-bot circumvention create reliability, security, legal, and policy risks.
 
 ### Operations And Observability Are Product Capabilities
 

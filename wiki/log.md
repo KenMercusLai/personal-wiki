@@ -2001,6 +2001,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Building a Universal AI Scraper
+
+Added Tim Connors' prototype note on AI-guided web scraping. Key claims: universal scraping can be framed as an assistant loop over page analysis, element retrieval, interaction, and completion checks; screenshot-only and full-HTML prompting both fail in different ways; ranked model-generated search terms plus deterministic HTML matching produce a better candidate set; parent-context retrieval catches sibling answers; and generated Playwright actions are powerful but risky. Inspected all 16 embedded local images and treated the prompt, code, flow, and Wikipedia screenshots as source evidence.
+
 ## [2026-09-15] ingest | Building a Shop with Sub-Second Page Loads: Lessons Learned
 
 Added Baqend's Thinks webshop performance case study. Key claims: sub-second ecommerce under burst traffic depends on frontend critical-rendering-path work, network round-trip reduction, backend scalability, CDN/browser caching, and dynamic-cache freshness checks; latency is directly tied to conversion. Inspected 16 embedded images, treating the conversion infographic, architecture diagrams, load-test topology, cache-sketch diagram, AMP/product screenshots, DHDL traffic animation, and episode comparison as source evidence where relevant.
@@ -2166,6 +2170,10 @@ Added The Year of the Looking Glass essay on product-building practice. Key clai
 ## [2026-09-15] ingest | Building a Business in the Shadow of a Giant
 
 Added Noteworthy's Wistia/YouTube strategy essay. Key claims: dominant platforms can create startup openings by expanding demand, setting technical baselines, deterring direct entrants through free pricing, and leaving specialized business segments underserved. Inspected seven embedded local images and treated them as decorative article art, thumbnails, author/photo UI, or divider assets rather than independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

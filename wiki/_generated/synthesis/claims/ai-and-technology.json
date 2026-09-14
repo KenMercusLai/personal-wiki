@@ -118,9 +118,9 @@
       "id": "context-and-retrieval-are-design-surfaces",
       "qualifications": [
         "Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, stale instruction files, or hidden retrieval failure modes.",
-        "For live codebases, current search and semantic retrieval should be evaluated as complementary signals rather than as an absolute RAG-versus-grep choice."
+        "For live codebases and browser pages, current search, semantic retrieval, and structured environment access should be evaluated as complementary signals rather than as an absolute RAG-versus-grep or vision-versus-DOM choice."
       ],
-      "statement": "Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, and live code search all shape what the model can use or misuse.",
+      "statement": "Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what the model can use or misuse.",
       "status": "supported",
       "supporting_wikilinks": [
         "LLMContextManagement",
@@ -129,8 +129,24 @@
         "PromptCaching",
         "DynamicContextCompression",
         "AgentInterfaceAsContext",
+        "AIGuidedWebScraping",
         "ContextCoding",
         "CodingAgentMinimalTooling"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "browser-agents-need-grounded-retrieval-and-safe-actions",
+      "qualifications": [
+        "The AI scraper evidence is a prototype and a Wikipedia test, not a broad benchmark; generated browser code, captcha handling, stealth tactics, and anti-bot circumvention create reliability, security, legal, and policy risks."
+      ],
+      "statement": "[[AIGuidedWebScraping]] shows that browser agents need grounded retrieval and action interfaces: ranked model-generated search terms, deterministic HTML matching, token-capped candidate lists, parent-context retrieval, page-state feedback, and explicit safety boundaries around generated browser actions.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AIGuidedWebScraping",
+        "AgentComputerInterface",
+        "ComputerUse",
+        "AgenticWorkflowPatterns"
       ]
     },
     {
@@ -153,6 +169,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to small operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, while [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence, validation, eviction, and pacing.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries.",
   "topic_id": "ai-and-technology"
 }
