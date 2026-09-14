@@ -6,9 +6,10 @@
       "qualifications": [
         "Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration.",
         "Writing-centered investigation depends on self-skepticism, view revision, and judgment about which subquestions matter.",
-        "A local search-engine tutorial can build intuition for information retrieval, but it does not substitute for production-scale search evaluation or operations."
+        "A local search-engine tutorial can build intuition for information retrieval, but it does not substitute for production-scale search evaluation or operations.",
+        "Copying programming examples can support learning only when paired with active study, modification, and causal explanation."
       ],
-      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
+      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
@@ -16,7 +17,9 @@
         "WorkplaceLearning",
         "HackerStyleTechnicalCuriosity",
         "FeynmanTechnique",
-        "InvertedIndex"
+        "InvertedIndex",
+        "ProgrammerMindset",
+        "SystematicLearning"
       ]
     },
     {
@@ -127,10 +130,11 @@
         "The education sources are programmatic essays or methodological critiques; implementation depends on teachers, artifacts, assessment, institutional constraints, and causal evidence.",
         "Large behavior datasets can identify activity-outcome correlations without explaining whether activity caused learning."
       ],
-      "statement": "AI-era and data-rich education should strengthen problem framing, abstraction, [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks or counting platform activity.",
+      "statement": "AI-era and data-rich education should strengthen problem framing, abstraction, [[ComputationalThinking]], [[ProgrammerMindset]], [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks, teaching language mechanics, or counting platform activity.",
       "status": "supported",
       "supporting_wikilinks": [
         "ComputationalThinking",
+        "ProgrammerMindset",
         "StatisticalModelThinking",
         "AcademicWriting",
         "ProjectBasedLearning",
@@ -190,6 +194,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add writing-centered investigation and age-staged career judgment: premature hypotheses can direct reading and revision, while early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint shape sustainable work.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add programming-specific reasoning, writing-centered investigation, and age-staged career judgment: programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, and early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint shape sustainable work.",
   "topic_id": "work-education-and-society"
 }

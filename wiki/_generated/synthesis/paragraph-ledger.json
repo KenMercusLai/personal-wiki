@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2eb6565ed647660102b3ac0f0f291f500382a17b0d144ba1af556b9906d07935",
       "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
       "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
       "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
@@ -209,11 +210,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 207
+    "paragraph_count": 208
   },
-  "overview_commit": "15ddf57bba4956bdac74329d5830ab4cbe49b943",
-  "overview_digest": "0f7917d4dcbb4c0caad37b0889aae2733ed36387f79550c9a6a2191568732ad6",
+  "overview_commit": "99e07a530bdd0e918e4eced45f56e16e1adf325b",
+  "overview_digest": "60e9777772bd8be1b9b0413c8ec9643f1575a3e4222f32cde134b5618f6a09a3",
   "paragraphs": [
+    {
+      "id": "2eb6565ed647660102b3ac0f0f291f500382a17b0d144ba1af556b9906d07935",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Jani Mustonen source adds a beginner-programming cognition layer to the wiki's learning and developer-education material. New [[ProgrammerMindset]] names the tacit fluency by which experienced programmers reason about code behavior, line-level details, and whole-program effects. The source qualifies copy-paste learning: examples can teach when learners actively study, modify, and explain them, but not when snippets are treated as magic glue. This connects [[SystematicLearning]], [[ComputationalThinking]], and [[FeynmanTechnique]] to programming pedagogy, and it reinforces [[HumanCodeResponsibility]] by making understanding code behavior part of responsible authorship. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ComputationalThinking",
+        "FeynmanTechnique",
+        "HumanCodeResponsibility",
+        "ProgrammerMindset",
+        "SystematicLearning"
+      ]
+    },
     {
       "id": "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
       "primary_topic": "business-and-markets",

@@ -14,6 +14,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [You Can't Buy Integration](sources/blog-brandon-byars-martinfowler-com-you-cant-buy-integration.md) - Brandon Byars argues that integration cannot be bought as a product; organizations need clean capability interfaces, general-purpose language ownership for evolving APIs, and bounded tactical use of integration DSLs.
 - [Building Effective AI Agents](sources/blog-anthropic-building-effective-ai-agents.md) - Anthropic argues that effective agentic systems come from simple composable patterns, clear workflow-versus-agent distinctions, transparent loops, and carefully designed tool interfaces.
 - [Writing is Thinking - an annotated twitter thread](sources/writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping.md) - Steven Sinofsky argues that writing turns strategy into shared rationale, execution context, and corporate memory, while warning that memo rituals can become performative or gamed.
+- [The Mindset of a Programmer](sources/blog-jani-mustonen-prognst-the-mindset-of-a-programmer.md) - Jani Mustonen argues that programming skill depends on line-by-line causal understanding, whole-program attention, and teaching reasoning rather than only language mechanics.
 - [Implementing a Search Engine with Ranking in Python](sources/blog-aakash-japi-implementing-a-search-engine-with-ranking-in-python.md) - Aakash Japi explains a basic Python search engine built from tokenization, a position-aware inverted index, free-text and phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report embraces 'content-everywhere' strategy](sources/bleacher-report-embraces-content-everywhere-strategy.md) - Digiday profiles Bleacher Report's distributed publishing strategy: platform-specific editorial missions, channel hedging, app conversion, Facebook-native distribution, and social interactions replacing site uniques as a key metric.
 - [BlackBerry: Meditation At The Grave](sources/blackberry-meditation-at-the-grave-jean-louis-gassee-medium.md) - Jean-Louis Gassee argues that BlackBerry, Palm, Nokia, and Microsoft failed in the smartphone transition through different mixes of delayed platform renewal, late ecosystem response, transition signaling error, and mobile OS business-model collapse.
@@ -221,6 +222,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
 - [Ian Cartwright](entities/IanCartwright.md) - Coauthor of the Legacy Mimic pattern article, represented here by incremental legacy-displacement guidance.
 - [Rob Horn](entities/RobHorn.md) - Coauthor of the Legacy Mimic pattern article, represented here by transitional architecture and mimic examples.
 - [James Lewis](entities/JamesLewis.md) - Coauthor of the Legacy Mimic pattern article, represented here by legacy compatibility and anti-corruption-layer distinctions.
@@ -1063,6 +1065,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.
 - [Systematic Learning](concepts/SystematicLearning.md) - Learning that builds both breadth and depth so a person can truly understand and use a domain.
+- [Programmer Mindset](concepts/ProgrammerMindset.md) - Learned habit of reasoning precisely about code behavior, details, and whole-program effects.
 - [Skill Stacking](concepts/SkillStacking.md) - Career strategy of combining multiple useful skills into a distinctive profile rather than competing only on one axis.
 - [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and revisiting known codebase liabilities through lightweight markers, tool support, and team conventions.
 - [TODO Comments](concepts/TodoComments.md) - Source-code comments used to mark future work, refactoring ideas, or unresolved code smells.

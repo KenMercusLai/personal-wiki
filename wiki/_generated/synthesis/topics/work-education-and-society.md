@@ -4,29 +4,30 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-14
-as_of_overview_commit: 3b691aeb6ddad40c8eafde0a2564d7276c81ef3a
-input_digest: 0de08252053ae9bb38834e4c0155e7b1a4a1f77ca43da1b719a1ee20e18c6dee
+as_of_overview_commit: 99e07a530bdd0e918e4eced45f56e16e1adf325b
+input_digest: 1d221e3fc871bf18934493be2fc9516a0a8bd4d2a06942ce622634243283266a
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add writing-centered investigation and age-staged career judgment: premature hypotheses can direct reading and revision, while early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint shape sustainable work.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add programming-specific reasoning, writing-centered investigation, and age-staged career judgment: programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, and early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint shape sustainable work.
 
 ## Cross-source Findings
 
 ### Active Learning Builds Usable Judgment
 
-[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
+[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
-**Evidence:** [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]]
+**Evidence:** [[ActiveLearning]], [[LearningByWriting]], [[WorkplaceLearning]], [[HackerStyleTechnicalCuriosity]], [[FeynmanTechnique]], [[InvertedIndex]], [[ProgrammerMindset]], [[SystematicLearning]]
 
 **Qualifications:**
 
 - Practice formats need enough feedback, safety, examples, and time boundaries to avoid becoming performative or unbounded exploration.
 - Writing-centered investigation depends on self-skepticism, view revision, and judgment about which subquestions matter.
 - A local search-engine tutorial can build intuition for information retrieval, but it does not substitute for production-scale search evaluation or operations.
+- Copying programming examples can support learning only when paired with active study, modification, and causal explanation.
 
 ### Junior Learning Needs Feedback And Protected Struggle
 
@@ -91,9 +92,9 @@ Workplaces teach through structure and safety: [[WorkplaceLearning]], [[Workplac
 
 ### Education Should Teach Problem Framing And Model Judgment
 
-AI-era and data-rich education should strengthen problem framing, abstraction, [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks or counting platform activity.
+AI-era and data-rich education should strengthen problem framing, abstraction, [[ComputationalThinking]], [[ProgrammerMindset]], [[StatisticalModelThinking]], academic writing, project-based inquiry, and [[MOOCLearningAnalytics]] interpretation rather than only executing tasks, teaching language mechanics, or counting platform activity.
 
-**Evidence:** [[ComputationalThinking]], [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[TasteAsProblemSense]], [[MetacognitiveFeedback]], [[MOOCLearningAnalytics]], [[BehavioralData]]
+**Evidence:** [[ComputationalThinking]], [[ProgrammerMindset]], [[StatisticalModelThinking]], [[AcademicWriting]], [[ProjectBasedLearning]], [[TasteAsProblemSense]], [[MetacognitiveFeedback]], [[MOOCLearningAnalytics]], [[BehavioralData]]
 
 **Qualifications:**
 

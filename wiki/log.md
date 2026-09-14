@@ -1715,3 +1715,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] ingest | The Mindset of a Programmer
+
+Ingested Jani Mustonen's programming-learning essay, creating source, author, and Programmer Mindset pages and updating the overview.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

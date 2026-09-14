@@ -37,4 +37,4 @@ source_file: /mnt/ken_personal_wiki/Articles/Black Friday and Cyber Monday by th
 - None identified.
 
 ## Image Notes
-- The source references `../98. static/img/3dad5025086b6762476b9983510fec24_MD5.png`, but the local file is HTML for a Twilio 404 page rather than decodable PNG image data. It could not be inspected as article image evidence.
+- The source references a local image asset, but the retrieved file is HTML for a Twilio 404 page rather than decodable PNG image data. It could not be inspected as article image evidence.
