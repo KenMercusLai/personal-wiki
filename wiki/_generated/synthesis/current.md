@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: fe546d9678ea71108073baf086efa875d005f933
+as_of_overview_commit: 022f622d4c7dbb542a91b64b4dbd7ec3a9ed697b
 summary: "A source-grounded map of technical practice, markets, culture, governance, learning, collaboration, and personal development."
-episode_count: 256
-source_count: 256
-paragraph_count: 242
+episode_count: 257
+source_count: 257
+paragraph_count: 243
 topic_count: 9
 ---
 
@@ -21,7 +21,7 @@ topic_count: 9
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, and [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
 - Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]], [[Cursor]], and [[GitHubCopilot]] are best judged by how they expose current project context and keep generated work reviewable.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
-- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, and stakeholder belief into learning before scale; [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, and business-model fragility reinforcing one another.
+- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, product roughness, and stakeholder belief into learning before scale; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, while [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, and business-model fragility reinforcing one another.
 - [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, and recruiting systems when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] and [[SpeedReadingMethod]] to turn reading into provisional claims, selected concepts, notes, and output, implement small systems such as [[InvertedIndex]] search, use [[PracticalLLMUse]] for bounded starts, tutoring, and serious AI-tool evaluation, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
 
@@ -36,7 +36,7 @@ Technical practice is strongest when teams understand underlying systems, choose
 
 ### Business and Markets
 
-Business judgment centers on durable demand, optionality-preserving risk discipline, customer value, startup learning before scale, retained growth, platform power, and stage-sensitive organization design.
+Business judgment centers on durable demand, optionality-preserving risk discipline, customer value, startup learning before scale, retained growth, platform power, and stage-sensitive organization design. The newest source adds that visibly rough early products can still be valuable evidence when users keep returning because the core problem is acute, while preserving the qualification that brokenness alone can also mean weak execution.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty. Evidence: [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].

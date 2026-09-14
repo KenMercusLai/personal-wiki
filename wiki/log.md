@@ -1983,6 +1983,12 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Broken is beautiful.
+
+- Added source note `broken-is-beautiful-lightspeed-venture-partners-medium`.
+- Created [[AdamTaussig]], [[LightspeedVenturePartners]], [[HQTrivia]], and [[BeautifullyBrokenProducts]].
+- Updated [[Uber]], [[StitchFix]], [[Twitter]], and [[Android]] with early-product-friction evidence from the source.
+
 ## [2026-09-15] ingest | Time > Money
 
 Added Andrew Bosworth's 2014 essay on time scarcity and meeting responsibility. Key claims: time is more scarce than money; interruptions and meetings impose context-switch costs and can let urgent work displace important work; meeting owners should define purpose, size, agenda, expected outcomes, notes, feedback, and accountability; attendance should be actively curated; recurring meetings should expire and be reassessed; and makers who attend meetings should give them full attention. No image references were present in the source Markdown.
@@ -2022,6 +2028,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

@@ -66,6 +66,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next](sources/bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next.md) - Forbes profiles Jeff Bezos and Amazon's 2018 expansion logic: multiple paths to yes, capability-led adjacency, AWS-funded reinvestment, Prime as connective tissue, and Amazon Go as horizontal integration.
 - [Beware of the Beautiful Resume](sources/beware-of-the-beautiful-resume-small-business-forum.md) - A founder warns that name-brand resumes can hide status-oriented, territorial, process-heavy behavior that slows startups unless candidates are tested for ownership, contribution, and startup fit.
 - [Bring in the Adults?](sources/bring-in-the-adults-8vc-news-medium.md) - Joe Lonsdale argues that early startups should emphasize intense builders, culture fit, advisors, and product-market learning, then add experienced executives once repeatable scaling processes are ready.
+- [Broken is beautiful.](sources/broken-is-beautiful-lightspeed-venture-partners-medium.md) - Adam Taussig argues that early consumer products can be visibly flawed yet still valuable when users tolerate bad journeys, outages, lag, manual operations, or clunky design because the core problem is acute.
 - [Best Practices for API Error Handling](sources/best-practices-for-api-error-handling-dzone-integration.md) - Vineet Joshi argues that REST API errors should pair pragmatic HTTP status-code selection with readable messages, documentation links, graceful client recovery, and clear client-versus-server responsibility boundaries.
 - [Betting on Things That Never Change](sources/betting-on-things-that-never-change-collaborative-fund.md) - Morgan Housel argues that durable strategy combines technological change with stable customer desires such as low prices, selection, speed, convenience, and trust.
 - [I Didn't Need Kubernetes](sources/ben-houston-i-didnt-need-kubernetes.md) - Ben Houston argues that Google Cloud Run was a better fit than Kubernetes for his Docker-based services and tasks because it reduced cost, autoscaling delay, cluster operations, and job-runner complexity.
@@ -361,7 +362,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
 - [BJ Fogg](entities/BJFogg.md) - Behavior-design researcher and author presenting the Fogg Behavior Model and Stanford Behavior Design Lab context.
 - [Behavior Design Lab](entities/BehaviorDesignLab.md) - Stanford lab identified as the institutional home for BJ Fogg's behavior-design research and innovation.
-- [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by the seetd office seating optimization source.
+- [Adam Taussig](entities/AdamTaussig.md) - Investor-author arguing that early product flaws can reveal demand when users keep returning for the core value.
+- [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publication context for the beautifully broken products essay.
+- [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by seetd office seating optimization and by early manual personal-shopping demand.
 - [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
 - [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem framed as institutionally shaped by startups, forks, labor mobility, and exit.
 - [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
@@ -557,7 +560,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Women in Product](entities/WomenInProduct.md) - Publication or Medium collection context for the rule-of-threes product-management source.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
-- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, and career-option building.
+- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, and career-option building.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging and content-led acquisition case.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool and educational-content acquisition example.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
@@ -578,7 +581,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Booking.com](entities/BookingCom.md) - Hotel-booking platform used as a paid-search acquisition and repeat-direct-channel example.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
-- [Twitter](entities/Twitter.md) - Social platform used as a growth case, cultural platform, and curated information tool with safety, metric, user-tooling, and developer-trust challenges.
+- [HQ Trivia](entities/HQTrivia.md) - Live mobile trivia product used as an example of rapid concurrent growth, video lag, and user tolerance of infrastructure strain.
+- [Twitter](entities/Twitter.md) - Social platform used as a growth case, fail-whale reliability case, cultural platform, and curated information tool with safety, metric, user-tooling, and developer-trust challenges.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
 - [MyEtherWallet](entities/MyEtherWallet.md) - Early Ethereum wallet interface that grew from a two-person side project into widely used crypto infrastructure.
@@ -773,7 +777,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [QNX](entities/QNX.md) - Unix-like platform BlackBerry acquired in 2010 as a late attempt to modernize its smartphone software base.
 - [WebOS](entities/WebOS.md) - Palm's Linux-based smartphone platform, launched with Palm Pre but unable to overcome late timing and weak ecosystem momentum.
 - [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
-- [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
+- [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by early clunkiness, Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
@@ -1334,6 +1338,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems and support conversations as primary build signals.
 - [Builder-User Fluency Gap](concepts/BuilderUserFluencyGap.md) - Difference between what builders find obvious from system fluency and what users can infer from the interface.
+- [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, or market test that can validate a startup's core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs but often paired with side canvases for durable artifacts.
