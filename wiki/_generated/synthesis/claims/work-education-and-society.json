@@ -4,14 +4,15 @@
       "global_candidate": true,
       "id": "active-learning-builds-usable-judgment",
       "qualifications": [
-        "Practice needs feedback, examples, safety, and time boundaries; LLM help is safest when the user can inspect, test, correct, or discard the output."
+        "Practice needs feedback, examples, safety, and time boundaries; LLM help is safest when the user can inspect, test, correct, or discard the output; prolific practice transfers best to settings where small attempts are cheap enough to learn from."
       ],
-      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.",
+      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
         "LearningByWriting",
         "SpeedReadingMethod",
+        "ProlificPractice",
         "PracticalLLMUse",
         "FocusedReading",
         "WorkplaceLearning",
@@ -117,15 +118,16 @@
       "global_candidate": false,
       "id": "creative-and-technical-output-needs-feedback-loops",
       "qualifications": [
-        "Platform metrics can distort motivation, and AI-era quality claims need adaptation to domains where distribution, timing, team constraints, or opportunity cost dominate."
+        "Platform metrics can distort motivation, prolific practice fits bounded low-risk making better than high-stakes production, and AI-era quality claims need adaptation to domains where distribution, timing, team constraints, or opportunity cost dominate."
       ],
-      "statement": "Creative and technical output improves through visible feedback loops, meaningful direction, and action: [[ExplanatoryWriting]], [[CreatorFeedbackLoop]], [[KnowledgeOutput]], [[LearningByWriting]], [[MakeGoodNewThings]], [[CognitiveCuriosity]], [[AIEraCreativeStandards]], and [[ActionBiasInAI]] turn private learning into inspectable work.",
+      "statement": "Creative and technical output improves through visible feedback loops, meaningful direction, and action: [[ExplanatoryWriting]], [[CreatorFeedbackLoop]], [[KnowledgeOutput]], [[LearningByWriting]], [[ProlificPractice]], [[MakeGoodNewThings]], [[CognitiveCuriosity]], [[AIEraCreativeStandards]], and [[ActionBiasInAI]] turn private learning into inspectable work.",
       "status": "supported",
       "supporting_wikilinks": [
         "ExplanatoryWriting",
         "CreatorFeedbackLoop",
         "KnowledgeOutput",
         "LearningByWriting",
+        "ProlificPractice",
         "PersonalBranding",
         "MakeGoodNewThings",
         "CognitiveCuriosity",
@@ -192,19 +194,20 @@
       "global_candidate": false,
       "id": "personal-productivity-bounds-work-through-routines-and-records",
       "qualifications": [
-        "These advice sources should be adapted to roles with externally imposed response times, shared task systems, meeting-heavy decision rights, or low autonomy."
+        "These advice sources should be adapted to roles with externally imposed response times, shared task systems, meeting-heavy decision rights, high-risk production review, or low autonomy."
       ],
-      "statement": "[[PersonalProductivity]] improves when [[WorkHabits]], [[AttentionManagement]], calendar defaults, meeting deletion or ownership, and [[TextFileProductivity]] externalize commitments, size daily work, reduce casual context switching, and preserve evidence of what happened.",
+      "statement": "[[PersonalProductivity]] improves when [[WorkHabits]], [[AttentionManagement]], calendar defaults, meeting deletion or ownership, [[ProlificPractice]] timeboxes, and [[TextFileProductivity]] externalize commitments, size daily work, reduce casual context switching, and preserve evidence of what happened.",
       "status": "supported",
       "supporting_wikilinks": [
         "PersonalProductivity",
         "WorkHabits",
         "TextFileProductivity",
         "AttentionManagement",
+        "ProlificPractice",
         "JeffHuang"
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, career development, collaboration, and remote work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, and deliberate social design. Recent additions strengthen three boundaries: remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.",
+  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, and deliberate social design. Recent additions strengthen four boundaries: prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.",
   "topic_id": "work-education-and-society"
 }

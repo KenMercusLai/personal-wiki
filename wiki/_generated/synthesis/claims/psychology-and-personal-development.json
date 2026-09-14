@@ -48,16 +48,17 @@
       "global_candidate": true,
       "id": "small-designed-loops-support-change",
       "qualifications": [
-        "The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, and the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation."
+        "The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation, and the prolific-practice source is an apprenticeship essay rather than a controlled study."
       ],
-      "statement": "[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and noticing shape future action.",
+      "statement": "[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], and [[ProlificPractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and bounded making shape future action.",
       "status": "supported",
       "supporting_wikilinks": [
         "FoggBehaviorModel",
         "BehaviorDesign",
         "Gamification",
         "JournalingPractice",
-        "GratitudePractice"
+        "GratitudePractice",
+        "ProlificPractice"
       ]
     },
     {
@@ -92,14 +93,15 @@
       "global_candidate": false,
       "id": "creative-and-learning-output-benefit-from-feedback",
       "qualifications": [
-        "Platform metrics can distort attention, so feedback needs deliberate interpretation rather than compulsive checking."
+        "Platform metrics can distort attention, and prolific practice applies best where small artifacts can be made and reviewed cheaply."
       ],
-      "statement": "[[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], and [[PersonalKnowledgeManagement]] treat output as an iterative system of capture, small experiments, reflection, and audience or self-feedback.",
+      "statement": "[[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], [[ProlificPractice]], and [[PersonalKnowledgeManagement]] treat output as an iterative system of capture, small attempts, reflection, failure information, and audience or self-feedback.",
       "status": "supported",
       "supporting_wikilinks": [
         "IdeaManagement",
         "KnowledgeOutput",
         "ActiveLearning",
+        "ProlificPractice",
         "PersonalKnowledgeManagement"
       ]
     },
@@ -148,6 +150,6 @@
       ]
     }
   ],
-  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.",
+  "summary": "This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.",
   "topic_id": "psychology-and-personal-development"
 }

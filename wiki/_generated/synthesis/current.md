@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: b130a722df1829fff7faa10d96dce018e8664a5c
-summary: "The wiki maps technology, business, governance, culture, learning, and development through platform power, verification, feedback, organization design, and judgment."
-episode_count: 262
-source_count: 262
-paragraph_count: 247
+as_of_overview_commit: 22ac86e537bbc63ba8822df2da74006860dcfa0b
+summary: "The wiki maps technology, business, governance, culture, learning, and development through platform power, verification, feedback, organization design, judgment, and practice."
+episode_count: 264
+source_count: 264
+paragraph_count: 248
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], and [[DistributedSystemRestraint]] frame early startup work as converting scarce time, capital, technical choices, product roughness, and stakeholder belief into learning before scale; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, while [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, and business-model fragility reinforcing one another.
 - [[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, recruiting systems, small autonomous teams, operating dashboards, and feedback loops when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
 - [[ExitAsGovernance]], [[OptInSociety]], and [[PaperBelt]] frame a governance model where credible alternatives, forks, startups, relocation, and monetary technologies such as [[Bitcoin]] amplify voice by making inherited institutions less able to trap dissenters.
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
+- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
 
 ## Synthesis by Domain
 
@@ -68,7 +68,7 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 ### Psychology and Personal Development
 
-This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
+This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
 
 - [[PersonalProductivity]], [[OpportunityCost]], and [[AttentionManagement]] converge on the claim that meaningful work depends on deliberately allocating scarce time and attention rather than letting defaults consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]].
 - [[ProceduralRationality]] and [[InformalCollaboration]] add that recurring meetings can consume productive time when they signal orderly management without a clear substantive purpose. Evidence: [[ProceduralRationality]], [[InformalCollaboration]], [[PerformativeMeetingBehavior]].
@@ -81,7 +81,7 @@ The topic remains mostly indirect. It now includes a beginner scientific-computi
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame learning, career development, collaboration, and remote work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, and deliberate social design. Recent additions strengthen three boundaries: remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.
+Work, education, and society sources frame learning, career development, collaboration, remote work, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, and deliberate social design. Recent additions strengthen four boundaries: prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; and AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership.
 
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].
+- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[AIDependencySkillAtrophy]] warns that AI assistance can erode education and work development when it replaces writing, coding, reading, debugging, remembering, or decision practice, while [[Antirez]] adds that programmers still need serious AI practice because the work itself is shifting. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[Antirez]], [[PracticalLLMUse]].

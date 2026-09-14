@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Build as Much as You Can](sources/build-as-much-as-you-can-8th-light.md) - 8th Light essay arguing that craft improves through prolific, bounded making: many small attempts create better feedback, reduce fear of failure, and build maker identity.
 - [Build a product that fits your runway - Elizabeth Yin](sources/build-a-product-that-fits-your-runway-elizabeth-yin.md) - Elizabeth Yin argues that founders should scope the first product to available runway, enter existing markets through a differentiated feature wedge, and pitch current reality alongside future vision.
 - [Build a healthy organization by thinking like an engineer](sources/build-a-healthy-organization-by-thinking-like-an-engineer.md) - The Startup summarizes Michael Boufford's Greenhouse framework for applying engineering design steps to team structure, values, culture, hiring, retention, feedback, and organizational validation.
 - [Buffer in August: $7.49M ARR, Buffer for Video, Continued Growth](sources/buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open.md) - Joel Gascoigne reports Buffer's August 2015 operating metrics, hiring, product launches, small-team reorganization, and support performance as the company neared $7.5M ARR.
@@ -271,6 +272,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [8th Light](entities/8thLight.md) - Apprenticeship setting used to illustrate prolific practice as craft development through repeated making.
 - [Michael Boufford](entities/MichaelBoufford.md) - Greenhouse engineering leader represented by a framework for applying engineering design methods to organization-building.
 - [Greenhouse](entities/Greenhouse.md) - Software company case for engineering-led organization design, engineering-team scaling, and low voluntary attrition claims.
 - [FirstMark](entities/FirstMark.md) - Event organizer for the 2017 CTO Summit where Boufford presented the framework.
@@ -944,6 +946,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Prolific Practice](concepts/ProlificPractice.md) - Craft-learning habit of making many small things so repeated feedback and bounded failures improve quality.
 - [Engineering-Led Organization Design](concepts/EngineeringLedOrganizationDesign.md) - Applying engineering design habits to organization-building through problem definition, requirements, implementation, validation, and iteration.
 - [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business revenue, usage, cash, hiring, product, and support metrics.
 - [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, and intentional connection.

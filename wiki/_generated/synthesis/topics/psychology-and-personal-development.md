@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 99ccc549566e4be8d4214d7aab525eb3b1d0d535
-input_digest: 1bc4694d23f3592e5140387ff2c00e34dfa5032005cfacb6bc95c25ce2f343bc
+as_of_overview_commit: 22ac86e537bbc63ba8822df2da74006860dcfa0b
+input_digest: f7a4bda7132a865891aa4b31634ea6eb8ca8d6be98d237ddc53419fa6cddc12a
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-This topic links personal effectiveness, judgment, trust, behavior design, and reflective practice. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
+This topic links personal effectiveness, judgment, trust, behavior design, reflective practice, and maker identity. The current synthesis treats progress as a bounded attention and calibration problem: people improve outcomes by choosing fewer aims, protecting time, designing prompts and routines, learning from feedback and recognition, making small enough attempts to turn failure into information, and resisting decision traps such as sunk cost, status performance, overconfidence, incentive-shaped belief, luck mistaken for skill, and need-threatening risk. It also qualifies self-help claims by noting that trust, fitness, meeting deletion, AI support, creator metrics, productivity habits, financial-risk heuristics, prolific practice, and gamified points all depend on context, constraints, and existing motivation rather than universal slogans.
 
 ## Cross-source Findings
 
@@ -48,13 +48,13 @@ This topic links personal effectiveness, judgment, trust, behavior design, and r
 
 ### Small Designed Loops Support Change
 
-[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], and [[GratitudePractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and noticing shape future action.
+[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], and [[ProlificPractice]] frame behavior change as small repeatable loops where motivation, ability, prompts, feedback, recognition, reflection, and bounded making shape future action.
 
-**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]]
+**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]]
 
 **Qualifications:**
 
-- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, and the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation.
+- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, the gamification source is a founder retrospective that treats points and streaks as weak reinforcers rather than standalone motivation, and the prolific-practice source is an apprenticeship essay rather than a controlled study.
 
 ### Trust And Good Faith Can Speed Collaboration
 
@@ -78,13 +78,13 @@ This topic links personal effectiveness, judgment, trust, behavior design, and r
 
 ### Creative And Learning Output Benefit From Feedback
 
-[[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], and [[PersonalKnowledgeManagement]] treat output as an iterative system of capture, small experiments, reflection, and audience or self-feedback.
+[[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], [[ProlificPractice]], and [[PersonalKnowledgeManagement]] treat output as an iterative system of capture, small attempts, reflection, failure information, and audience or self-feedback.
 
-**Evidence:** [[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], [[PersonalKnowledgeManagement]]
+**Evidence:** [[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], [[ProlificPractice]], [[PersonalKnowledgeManagement]]
 
 **Qualifications:**
 
-- Platform metrics can distort attention, so feedback needs deliberate interpretation rather than compulsive checking.
+- Platform metrics can distort attention, and prolific practice applies best where small artifacts can be made and reviewed cheaply.
 
 ### Judgment Tools Counter Cognitive And Social Biases
 

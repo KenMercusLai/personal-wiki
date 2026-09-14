@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Build as Much as You Can
+
+Added source note for the 8th Light essay on prolific practice, created [[ProlificPractice]] and [[8thLight]], and connected the article to active learning, self-discipline, failure ownership, and timeboxed productivity. The source's duplicate hero image could not be inspected because the local asset is absent and the remote URL returns 404.
+
 ## [2026-09-15] ingest | Build a healthy organization by thinking like an engineer
 
 Added The Startup's summary of Michael Boufford's Greenhouse organization-design framework. Key claims: engineering design habits can be applied to team structure, values, culture, hiring, retention, feedback, and validation; organizations should define a target team state, gather and prioritize requirements under constraints, implement cultural/process MVPs carefully, and validate with retrospectives, one-on-ones, surveys, attrition, shipping, and happiness signals. Inspected all six embedded local images: duplicate speaker photos and publication separators were decorative, while two tiny slide thumbnails reinforced the developer-utopia and requirement-breakdown steps already described in prose.
@@ -2053,6 +2057,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
