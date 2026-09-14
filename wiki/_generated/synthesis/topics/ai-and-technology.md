@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: 970a65afbf0db79af0d7d7abf7bf300a41edd2c2
-input_digest: 7e76d7874bb170ee0485cea0a877ddcafc5d2f53b8bb6f8eef2e6d48445db867
+as_of_overview_commit: 06588bce4ecdbd789bf40015447b7b8e00a8d1b9
+input_digest: 094b29bd99e80a9ad5fc13c2e53099e3a4f23bc57fef7e15a04051e076e69d71
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary: [[ContextCoding]] distinguishes disciplined context-engineered AI programming from no-review [[VibeCoding]], [[Antirez]] argues that LLMs shift programming toward problem framing and inspection, and [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest concurrency material adds a lower-level systems vocabulary: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] differ by scheduling, cores, and networked machine boundaries, while [[InterprocessCommunication]], [[MessagePassing]], and [[ConcurrencyFailureModes]] explain why coordination and state consistency matter before tools enter the picture.
 
 ## Cross-source Findings
 
@@ -25,6 +25,16 @@ Durable technical practice depends on understanding underlying systems rather th
 **Qualifications:**
 
 - Frameworks, cloud services, packaged tools, and AI assistants remain useful when teams understand their fit boundaries, context requirements, and operational tradeoffs.
+
+### Concurrency Models Shape Systems Reasoning
+
+Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk.
+
+**Evidence:** [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]]
+
+**Qualifications:**
+
+- The Wulc source is a 2016 beginner overview; it does not cover modern Python async practice, the GIL, detailed distributed-systems failure models, or current library recommendations.
 
 ### Verification As Technical Accelerator
 

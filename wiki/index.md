@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [python 并行编程概述](sources/blog-wulc-python-bing-xing-bian-cheng-gai-shu.md) - Wulc introduces concurrent, parallel, and distributed programming; shared state versus message passing; deadlock, starvation, race conditions; and Python modules such as threading, multiprocessing, Parallel Python, and Celery.
 - [3 Strategies for Picking Your Battles as a Software Developer](sources/3-strategies-for-picking-your-battles-as-a-software-developer.md) - Jeanette Head argues that software-team disagreements should be chosen by likely influence, product value, and interpersonal cost, with code-review and product-scope examples showing when to press, let go, or learn from a losing debate.
 - [白话：区块链"稳定币挖矿"是什么](sources/blog-taresky-bai-hua-qu-kuai-lian-wen-ding-bi-wa-kuang-shi-shen-me.md) - Taresky explains stablecoin yield farming through DEX liquidity, AMM pricing, platform-token incentives, vault compounding, and a layered risk inventory covering custody, stablecoins, chains, contracts, approvals, APY, fiat exits, and unknowns.
 - [无风险年化 360%？小白也能懂的 Crypto 套利](sources/blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li.md) - Taresky explains crypto exchange lending and funding-rate arbitrage as bull-market yield strategies funded by leveraged demand, while qualifying "risk-free" with exchange, stablecoin, liquidation, spread, execution, and behavioral risks.
@@ -248,6 +249,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Wulc](entities/Wulc.md) - Chinese technical blogger explaining Python-adjacent concurrency, parallelism, distributed programming, and concurrency failure modes.
 - [Jeanette Head](entities/JeanetteHead.md) - Software-development writer represented here by advice on choosing when to push back in team disagreements.
 - [Atomic Object](entities/AtomicObject.md) - Software-development publication context for Jeanette Head's article on collaboration and code-review judgment.
 - [Taresky](entities/Taresky.md) - Practitioner-author explaining crypto arbitrage, stablecoin yield farming, yield sources, and beginner risk discipline.
@@ -896,6 +898,16 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Concurrent Programming](concepts/ConcurrentProgramming.md) - Scheduler-mediated programming model where multiple processes make progress by interleaving access to CPU time.
+- [Parallel Programming](concepts/ParallelProgramming.md) - Programming model where multiple processes or work units execute simultaneously, typically on separate CPU cores.
+- [Distributed Programming](concepts/DistributedProgramming.md) - Programming model where different machines cooperate over a network to complete one task.
+- [Interprocess Communication](concepts/InterprocessCommunication.md) - Communication between cooperating processes through shared state or message passing.
+- [Message Passing](concepts/MessagePassing.md) - Communication model where processes exchange copied data instead of directly sharing mutable state.
+- [Concurrency Failure Modes](concepts/ConcurrencyFailureModes.md) - Bugs and progress failures such as deadlock, starvation, and race conditions in coordinated concurrent work.
+- [Deadlock](concepts/Deadlock.md) - Concurrency failure where processes wait in a circular dependency for resources held by one another.
+- [Starvation](concepts/Starvation.md) - Progress failure where a process never receives the CPU time or resources it needs to continue.
+- [Race Condition](concepts/RaceCondition.md) - Timing-dependent bug where uncontrolled operation ordering changes the system's output.
+- [Python Concurrency Libraries](concepts/PythonConcurrencyLibraries.md) - Python modules and libraries used for threading, multiprocessing, parallel execution, and distributed tasks.
 - [Stablecoin Yield Farming](concepts/StablecoinYieldFarming.md) - DeFi practice of supplying or lending dollar-pegged stablecoins through smart contracts to earn fees, incentive tokens, or auto-compounded yield.
 - [Liquidity Provision](concepts/LiquidityProvision.md) - Depositing assets into pools or markets so other users can trade or borrow against that depth in exchange for fees or incentives.
 - [Automated Market Maker](concepts/AutomatedMarketMaker.md) - Smart-contract market mechanism that quotes swaps from liquidity-pool balances rather than a centralized order book.

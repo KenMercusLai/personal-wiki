@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | python 并行编程概述
+
+Added Wulc's 2016 Chinese overview of Python parallel programming. Key claims: concurrency is scheduler-mediated pseudo-parallelism, parallelism is simultaneous multi-core execution, distributed programming spans networked machines, shared state and message passing are the two communication models, and deadlock, starvation, and race conditions are core hazards. Inspected all six embedded local diagrams and used them as evidence for the programming models, circular wait, and account-balance race-condition examples.
+
 ## [2026-09-14] ingest | 3 Strategies for Picking Your Battles as a Software Developer
 
 Added Jeanette Head's Atomic Object article on choosing when to push back in software-team disagreements. Key claims: developers should weigh likely influence, product value, and interpersonal cost; reviewers should separate standards, material performance, and readability from style preference; conversations often beat line-by-line critique; and some losing disagreements are useful when they create shared learning or better evidence. Inspected the remote lead image and treated it as decorative.
@@ -1911,6 +1915,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | 2023: Focusing on a Single Product Pays Off
 
 Ingested Max Rozen's 2023 retrospective on ROZENMD and OnlineOrNot; added Max Rozen, OnlineOrNot, ROZENMD, and Cloudflare D1 pages; updated bootstrapped SaaS, startup focus, side-project incubation, small-product portfolios, and Cloudflare.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

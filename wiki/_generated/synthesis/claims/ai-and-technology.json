@@ -19,6 +19,24 @@
     },
     {
       "global_candidate": true,
+      "id": "concurrency-models-shape-systems-reasoning",
+      "qualifications": [
+        "The Wulc source is a 2016 beginner overview; it does not cover modern Python async practice, the GIL, detailed distributed-systems failure models, or current library recommendations."
+      ],
+      "statement": "Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ConcurrentProgramming",
+        "ParallelProgramming",
+        "DistributedProgramming",
+        "InterprocessCommunication",
+        "MessagePassing",
+        "ConcurrencyFailureModes",
+        "PythonConcurrencyLibraries"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "verification-as-technical-accelerator",
       "qualifications": [
         "Tests and checks need human judgment, production observability, and risk-sensitive review to cover requirements that automated feedback cannot express."
@@ -133,6 +151,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest AI-coding material sharpens the task-fit boundary: [[ContextCoding]] distinguishes disciplined context-engineered AI programming from no-review [[VibeCoding]], [[Antirez]] argues that LLMs shift programming toward problem framing and inspection, and [[AIDependencySkillAtrophy]] warns that writing, coding, architecture, learning, and maintenance still require protected human practice.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest concurrency material adds a lower-level systems vocabulary: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] differ by scheduling, cores, and networked machine boundaries, while [[InterprocessCommunication]], [[MessagePassing]], and [[ConcurrencyFailureModes]] explain why coordination and state consistency matter before tools enter the picture.",
   "topic_id": "ai-and-technology"
 }
