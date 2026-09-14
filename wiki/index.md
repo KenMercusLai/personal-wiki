@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [白话：区块链"稳定币挖矿"是什么](sources/blog-taresky-bai-hua-qu-kuai-lian-wen-ding-bi-wa-kuang-shi-shen-me.md) - Taresky explains stablecoin yield farming through DEX liquidity, AMM pricing, platform-token incentives, vault compounding, and a layered risk inventory covering custody, stablecoins, chains, contracts, approvals, APY, fiat exits, and unknowns.
+- [无风险年化 360%？小白也能懂的 Crypto 套利](sources/blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li.md) - Taresky explains crypto exchange lending and funding-rate arbitrage as bull-market yield strategies funded by leveraged demand, while qualifying "risk-free" with exchange, stablecoin, liquidation, spread, execution, and behavioral risks.
 - [谈谈 AI 编程工具的进化与 Vibe Coding](sources/blog-guangzhengli-vibe-coding-and-context-coding.md) - Guangzhengli distinguishes Karpathy-style no-review vibe coding from disciplined context coding, comparing Copilot, Cursor, and Claude Code as progressively richer context-engineering tools while warning about production risk.
 - [2023: Focusing on a Single Product Pays Off](sources/2023-focusing-on-a-single-product-pays-off.md) - Max Rozen argues that ROZENMD and OnlineOrNot grew faster in 2023 because one focused product let business learning, customer memory, and product maturity compound.
 - [Map of my personal data infrastructure](sources/blog-beepb00p-map-of-my-personal-data-infrastructure.md) - beepb00p maps a personal data liberation stack where devices, services, export scripts, local files, HPI modules, and tools like Promnesia and Orger approximate a personal data mirror despite poor interoperability.
@@ -245,6 +247,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Taresky](entities/Taresky.md) - Practitioner-author explaining crypto arbitrage, stablecoin yield farming, yield sources, and beginner risk discipline.
+- [Binance](entities/Binance.md) - Cryptocurrency exchange and ecosystem example for flexible lending, fiat on-ramp, and BSC trust-model context in Taresky's crypto-yield sources.
+- [Belt Finance](entities/BeltFinance.md) - Stablecoin liquidity protocol used as the Belt Venus example in Taresky's stablecoin-mining walkthrough.
+- [Beefy Finance](entities/BeefyFinance.md) - Auto-compounding vault platform used for staking and reinvesting Belt LP-token rewards in Taresky's walkthrough.
+- [OKX](entities/OKX.md) - Cryptocurrency exchange example for hourly auction-based lending in the crypto arbitrage source.
+- [Bitfinex](entities/Bitfinex.md) - Cryptocurrency exchange example for order-book lending in the crypto arbitrage source.
+- [AICOIN](entities/AICOIN.md) - Crypto trading tool named for funding-rate arbitrage order execution and parameter testing.
+- [Coinglass](entities/Coinglass.md) - Crypto-market data site represented by funding-rate heatmaps and rankings in the article.
 - [beepb00p](entities/Beepb00p.md) - Practitioner-author mapping personal data liberation infrastructure around local exports, HPI, Promnesia, Orger, and interoperability workarounds.
 - [Human Programming Interface](entities/HumanProgrammingInterface.md) - Personal-data access layer that normalizes local exports for tools such as Promnesia, Orger, notebooks, APIs, spreadsheets, and metrics stores.
 - [Orger](entities/Orger.md) - Plaintext mirror and queue tool that turns personal data sources into local files and org-style workflows.
@@ -883,6 +893,16 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Stablecoin Yield Farming](concepts/StablecoinYieldFarming.md) - DeFi practice of supplying or lending dollar-pegged stablecoins through smart contracts to earn fees, incentive tokens, or auto-compounded yield.
+- [Liquidity Provision](concepts/LiquidityProvision.md) - Depositing assets into pools or markets so other users can trade or borrow against that depth in exchange for fees or incentives.
+- [Automated Market Maker](concepts/AutomatedMarketMaker.md) - Smart-contract market mechanism that quotes swaps from liquidity-pool balances rather than a centralized order book.
+- [Impermanent Loss](concepts/ImpermanentLoss.md) - AMM liquidity-provider opportunity cost caused by pool rebalancing versus simply holding the original assets.
+- [DeFi Risk Stack](concepts/DeFiRiskStack.md) - Layered risk model for moving from fiat into DeFi, granting permissions, earning yield, and exiting back to fiat.
+- [Crypto Arbitrage](concepts/CryptoArbitrage.md) - Cryptocurrency-market yield practice that tries to earn from lending, rate, or structural imbalances while reducing directional price exposure.
+- [Exchange Lending](concepts/ExchangeLending.md) - Exchange-mediated crypto lending where user deposits fund collateralized margin borrowers through platform matching and liquidation controls.
+- [Perpetual Futures](concepts/PerpetualFutures.md) - Futures-like crypto derivatives without fixed delivery dates, tethered to spot prices through periodic funding payments.
+- [Funding Rate Arbitrage](concepts/FundingRateArbitrage.md) - Strategy that pairs spot holdings with short perpetual contracts to collect funding payments while reducing token price exposure.
+- [Delta Neutral Strategy](concepts/DeltaNeutralStrategy.md) - Trading posture that offsets long and short exposure so price direction matters less than the targeted residual return.
 - [Data Liberation](concepts/DataLiberation.md) - Extracting, preserving, and reusing personal data outside the platforms that collected or mediated it.
 - [Personal Data Infrastructure](concepts/PersonalDataInfrastructure.md) - User-controlled stack for collecting, exporting, storing, normalizing, searching, and reusing personal data.
 - [Personal Data Mirror](concepts/PersonalDataMirror.md) - Local, read-only reflection of personal digital activity assembled from exports, APIs, scraping, archives, and storage access.
@@ -1150,7 +1170,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Index Fund Strategy](concepts/IndexFundStrategy.md) - Low-cost broad-market ETF strategy that favors diversified exposure over frequent stock selection.
 - [Read-Later Product](concepts/ReadLaterProduct.md) - Software product pattern for saving web content, stripping distraction, and separating fast discovery from later focused reading.
 - [Product Evolution](concepts/ProductEvolution.md) - Long-term software-product change across features, platforms, business models, ownership, infrastructure, reliability, and user workflows.
-- [Crypto Wallet Security](concepts/CryptoWalletSecurity.md) - User-facing wallet security across key control, phishing defense, audits, education, privacy, and trust boundaries.
+- [Crypto Wallet Security](concepts/CryptoWalletSecurity.md) - User-facing wallet security across key control, phishing defense, audits, hardware wallets, token approvals, education, privacy, and trust boundaries.
 - [Support Load Scaling](concepts/SupportLoadScaling.md) - Startup operations problem where high-volume, high-stakes support demand forces more durable teams, systems, and company structure.
 - [Unix Editor Lineage](concepts/UnixEditorLineage.md) - Historical chain from `ed` through `em`, `en`, `ex`, `vi`, open-source clones, and Vim.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.

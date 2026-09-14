@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b4d04cc205fbfa668169e4a2c26398a49ae97029d9750c9f3a5aecb3232b1b8d",
+      "f13479c6bb6100fdd1f9ba451408de9fe9cff26de0c7f670896aeb0c04471469",
       "76ffa38fbff2ffc6bcc8c6ada053e116e54b00a3890e8af521cb28ccbf88d5a3",
       "2c6b7bec21b1bfb30d70e612c88d57c35b9b2d3a4c2561410d093688dd16b394",
       "4a171710c1d812f7b0bf3d46b8f81da4e4da7b796c70007462b572fa1caaf327",
@@ -230,11 +232,53 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 228
+    "paragraph_count": 230
   },
-  "overview_commit": "970a65afbf0db79af0d7d7abf7bf300a41edd2c2",
-  "overview_digest": "3272bf91b70a90098b3ed8fe28abd2489d52171e3aa6a44851b089e15a700316",
+  "overview_commit": "80120de3314bd24c78186a632617363ca0920f03",
+  "overview_digest": "e2dd0ef75751aa4995694d29af15d73456362b42c989e93356baf9c317519fbe",
   "paragraphs": [
+    {
+      "id": "b4d04cc205fbfa668169e4a2c26398a49ae97029d9750c9f3a5aecb3232b1b8d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Taresky source extends the wiki's crypto-yield material from centralized exchange lending and funding-rate arbitrage into DeFi stablecoin mining. New [[StablecoinYieldFarming]] frames stablecoin liquidity as a lower-volatility way to earn from traders' swaps, borrowing, platform incentives, and compounding rather than from directional coin bets, while [[LiquidityProvision]], [[AutomatedMarketMaker]], and [[ImpermanentLoss]] explain the DEX mechanics underneath: pools need depth, AMMs quote from balances, and liquidity providers accept rebalancing opportunity cost. New [[DeFiRiskStack]] is the strongest addition: the source treats \"stable\" yield as exposed to fiat on-ramp scrutiny, exchange custody, wallet and seed-phrase mistakes, stablecoin failure, chain centralization, smart-contract bugs, malicious token approvals, misleading APY, vault layering, OTC exit risk, tax ambiguity, and unknown unknowns. [[BeltFinance]] and [[BeefyFinance]] are captured only as time-sensitive process examples, and [[CryptoWalletSecurity]], [[Taresky]], and [[Binance]] now reflect seed-phrase, hardware-wallet, authorization, on-ramp, and BSC trust-model details from the source.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AutomatedMarketMaker",
+        "BeefyFinance",
+        "BeltFinance",
+        "Binance",
+        "CryptoWalletSecurity",
+        "DeFiRiskStack",
+        "ImpermanentLoss",
+        "LiquidityProvision",
+        "StablecoinYieldFarming",
+        "Taresky"
+      ]
+    },
+    {
+      "id": "f13479c6bb6100fdd1f9ba451408de9fe9cff26de0c7f670896aeb0c04471469",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Taresky source adds a crypto-yield and arbitrage layer to the wiki's investing material. New [[CryptoArbitrage]] frames exchange lending and funding-rate collection as yield supplied by borrowers and leveraged speculators rather than magic passive income, while preserving the article's important qualification that \"risk-free\" only refers to neutralized price exposure, not exchange failure, stablecoin failure, liquidation, spread, execution, or behavioral risk. New [[ExchangeLending]], [[PerpetualFutures]], [[FundingRateArbitrage]], and [[DeltaNeutralStrategy]] explain the mechanics: exchanges such as [[Bitfinex]], [[OKX]], and [[Binance]] intermediate lending markets, perpetual contracts use funding payments to tether derivative prices to spot, and a spot-plus-short-perpetual position can collect funding while reducing directional exposure. The inspected screenshots support the source's March 2024 bull-market context: USDT lending APY examples near 20-46%, Coinglass heatmaps with many assets above 50% annualized funding, extreme high/low funding rankings, and a captured explanation of why gambler demand, survivor bias, and time-lagged awareness can keep yields high temporarily.",
+      "topic_scores": {
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "Binance",
+        "Bitfinex",
+        "CryptoArbitrage",
+        "DeltaNeutralStrategy",
+        "ExchangeLending",
+        "FundingRateArbitrage",
+        "OKX",
+        "PerpetualFutures"
+      ]
+    },
     {
       "id": "76ffa38fbff2ffc6bcc8c6ada053e116e54b00a3890e8af521cb28ccbf88d5a3",
       "primary_topic": "ai-and-technology",

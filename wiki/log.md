@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-14] ingest | 无风险年化 360%？小白也能懂的 Crypto 套利
+
+Ingested Taresky's crypto arbitrage explainer; inspected all four embedded local screenshots. Added pages for Taresky, Binance, OKX, Bitfinex, AICOIN, Coinglass, Crypto Arbitrage, Exchange Lending, Perpetual Futures, Funding Rate Arbitrage, and Delta Neutral Strategy. Captured the article's main claim that crypto arbitrage yield is funded by leveraged demand, not magic risk-free income, and preserved its qualifications around exchange failure, stablecoin risk, liquidation, spread, execution, and gambling temptation.
+
 ## [2026-09-14] ingest | 谈谈 AI 编程工具的进化与 Vibe Coding
 
 Ingested Guangzhengli's comparison of GitHub Copilot, Cursor, Claude Code, vibe coding, and context coding; inspected all seven embedded screenshots. Added source, Guangzhengli, and Context Coding pages; updated Vibe Coding, AI Coding Practice, Claude Code, Cursor, GitHub Copilot, LLM Context Management, Agentic RAG, Coding Agent Minimal Tooling, and Human Code Responsibility to capture the original no-review meaning of vibe coding, context engineering as the main AI coding practice, RAG-plus-grep retrieval, and the production-risk contrast between non-technical and experienced AI builders.
@@ -1463,6 +1467,10 @@ Ingested Rohan Rajiv's A Learning a Day reflection on one-right-fit persistence 
 
 Ingested Simon Späti's cautionary essay on deliberate AI use, manual writing and coding practice, skill atrophy, attention, maintainability, and AI-era junior learning risk; added source, author, and AI Dependency Skill Atrophy pages; updated AI-assisted writing, AI coding practice, index, and overview.
 
+## [2026-09-14] ingest | 白话：区块链"稳定币挖矿"是什么
+
+Ingested Taresky's beginner DeFi stablecoin-mining explainer; added stablecoin yield farming, liquidity provision, automated market maker, impermanent loss, DeFi risk stack, Belt Finance, and Beefy Finance pages; updated Taresky, Binance, Crypto Wallet Security, the index, and overview.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1899,6 +1907,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | 2023: Focusing on a Single Product Pays Off
 
 Ingested Max Rozen's 2023 retrospective on ROZENMD and OnlineOrNot; added Max Rozen, OnlineOrNot, ROZENMD, and Cloudflare D1 pages; updated bootstrapped SaaS, startup focus, side-project incubation, small-product portfolios, and Cloudflare.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 
