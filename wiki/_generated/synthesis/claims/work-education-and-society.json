@@ -45,9 +45,10 @@
       "global_candidate": true,
       "id": "career-paths-are-staged-experiments",
       "qualifications": [
-        "Savings, health, family needs, local labor markets, organizational scope, life stage, and spiritual or mental-health context shape who can afford experiments or boundaries."
+        "Savings, health, family needs, local labor markets, organizational scope, life stage, and spiritual or mental-health context shape who can afford experiments or boundaries.",
+        "One-right-fit persistence can steady a search emotionally, but it should not replace preparation, strategy revision, or attention to structural constraints."
       ],
-      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, and age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint.",
+      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint, and the [[OneFitSearchMindset]] that one compatible yes can be enough in emotionally noisy searches.",
       "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
@@ -58,7 +59,8 @@
         "SkillStacking",
         "BurnoutPrevention",
         "WorkHabits",
-        "EthanBanks"
+        "EthanBanks",
+        "OneFitSearchMindset"
       ]
     },
     {
@@ -228,6 +230,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, personal productivity, knowledge systems, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add practical LLM use as bounded tutoring and startup friction reduction, programming-specific reasoning, writing-centered investigation, age-staged career judgment, minimalist work-system design, AI-era creator standards, AI-era action bias, and China livestreaming as interaction-centered platform work: LLMs help when outputs remain inspectable, programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, early risk and later boundaries shape sustainable careers, a calendar-plus-text-file workflow can make daily work bounded, making good new things links output, curiosity, quality inputs, and presence, action bias warns against replacing concrete work with success-content consumption or mimetic desire, and social livestreaming shows how creator labor, audience feedback, virtual gifts, commerce, and moderation can fuse into a live media system.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, personal productivity, knowledge systems, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, causal explanation, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add one-right-fit persistence, practical LLM use as bounded tutoring and startup friction reduction, programming-specific reasoning, writing-centered investigation, age-staged career judgment, minimalist work-system design, AI-era creator standards, AI-era action bias, and China livestreaming as interaction-centered platform work: emotionally noisy searches may need one compatible yes rather than broad approval, LLMs help when outputs remain inspectable, programmer mindset turns copied code into line-level understanding, premature hypotheses can direct reading and revision, early risk and later boundaries shape sustainable careers, a calendar-plus-text-file workflow can make daily work bounded, making good new things links output, curiosity, quality inputs, and presence, action bias warns against replacing concrete work with success-content consumption or mimetic desire, and social livestreaming shows how creator labor, audience feedback, virtual gifts, commerce, and moderation can fuse into a live media system.",
   "topic_id": "work-education-and-society"
 }

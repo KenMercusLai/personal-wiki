@@ -1439,6 +1439,10 @@ Ingested Connie Chan's a16z analysis of China's livestreaming boom, creating sou
 
 Ingested Nicholas Carlini's practical LLM-use essay, creating source, author, and Practical LLM Use pages and updating the overview. No image references were present in the source Markdown.
 
+## [2026-09-14] ingest | All it takes is for one to work out
+
+Ingested Rohan Rajiv's A Learning a Day reflection on one-right-fit persistence during graduate-school applications and other high-stakes searches; added source, author, publication, and One Fit Search Mindset pages and updated the overview.
+
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -1811,6 +1815,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] ingest | Default Trial Retire
 
 Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-14] lint | Wiki health check
 

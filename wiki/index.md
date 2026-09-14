@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [All it takes is for one to work out](sources/blog-rohan-rajiv-a-learning-a-day-all-it-takes-is-for-one-to-work-out.md) - Rohan Rajiv turns a failed-then-successful graduate-school application story into a mindset for high-stakes searches where one right fit can be enough.
 - [Product Backlog Building Canvas](sources/blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas.md) - Paulo Caroli presents Product Backlog Building as a collaborative canvas for turning personas, features, PBIs, and acceptance criteria into useful user stories.
 - [How I Use "AI"](sources/blog-nicholas-carlini-how-i-use-ai.md) - Nicholas Carlini documents concrete LLM productivity uses across programming, tutoring, search, automation, reference lookup, simplification, and debugging while preserving explicit caveats about limits and risks.
 - [A Few Beliefs](sources/blog-morgan-housel-collab-fund-a-few-beliefs.md) - Morgan Housel collects compact beliefs about financial risk, incentives, uncertainty, expectations, debt, savings, reputation, and behavioral humility.
@@ -237,6 +238,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Rohan Rajiv](entities/RohanRajiv.md) - A Learning a Day author represented here by a reflection on uncertainty, graduate-school applications, and one-right-fit persistence.
+- [A Learning a Day](entities/ALearningADay.md) - Publication context for Rohan Rajiv's short personal-growth essay on high-stakes searches.
 - [Paulo Caroli](entities/PauloCaroli.md) - Agile and Lean facilitator behind the Product Backlog Building Canvas article.
 - [Fábio Aguiar](entities/FabioAguiar.md) - Co-author of the Product Backlog Building technique with Paulo Caroli.
 - [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner credited here with introducing the User Story term.
@@ -857,6 +860,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [One Fit Search Mindset](concepts/OneFitSearchMindset.md) - Treating a high-stakes search as needing one compatible yes rather than universal approval from every option.
 - [Product Backlog Building](concepts/ProductBacklogBuilding.md) - Collaborative canvas technique for deriving PBIs and user stories from personas, activities, features, and benefits.
 - [User Stories](concepts/UserStories.md) - Agile requirements format that ties user, action, and benefit into a concise prompt for conversation and confirmation.
 - [Practical LLM Use](concepts/PracticalLLMUse.md) - Bounded use of large language models for starts, lookup, transformation, tutoring, automation, debugging, and other inspectable productivity tasks.
