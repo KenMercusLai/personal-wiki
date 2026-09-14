@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Buffer in August: $7.49M ARR, Buffer for Video, Continued Growth](sources/buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open.md) - Joel Gascoigne reports Buffer's August 2015 operating metrics, hiring, product launches, small-team reorganization, and support performance as the company neared $7.5M ARR.
 - [40 Lessons From 4 Years of Remote Work](sources/40-lessons-from-4-years-of-remote-work-buffer-stories.md) - Courtney Seiter reflects on Buffer's remote-work practices, arguing that distributed teams need trust, boundaries, explicit communication, tooling, intentional social connection, and occasional in-person recalibration.
 - [Browse Against the Machine](sources/browse-against-the-machine-the-official-unofficial-firefox-blog-medium.md) - Official Unofficial Firefox Blog essay arguing that Firefox and Mozilla should counter Chrome's Google-aligned browser dominance through independence, privacy controls, memory efficiency, and a healthy-web mission.
 - [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
@@ -268,6 +269,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO authoring an open August 2015 company operating update.
 - [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
 - [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
@@ -934,6 +936,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business revenue, usage, cash, hiring, product, and support metrics.
 - [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, and intentional connection.
 - [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
 - [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that converts user, context, ad, and advertiser-relationship data into demand-relevant labels and scores.

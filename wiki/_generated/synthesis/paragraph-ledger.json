@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b02fdd1ae30d7bfef7b8f77297109ba67c0049353c969e46af9fb3c3bf4cc5d1",
       "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
       "a22452a994692700489fe06844e32d1830f8f2e97a33ef18e24cdb6f4b350b8b",
       "6c52ac2418bb9a44b5bcf7f0db8ee2fe12508678116bb4e1e94bdf2b45468cf3",
@@ -247,11 +248,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 245
+    "paragraph_count": 246
   },
-  "overview_commit": "139b36472652122efc06fba1ea8224f3d61544bf",
-  "overview_digest": "e6178eca13c2d9b714592afc61b9cc5969acc6ce0ca2efb9bf2599f4c28c7f3c",
+  "overview_commit": "ecc618dd3559887d13925e51a7f148166a14982f",
+  "overview_digest": "36300871be654690ee5ed62019c8ba12c953e86ffe1395bca5f7a3056a9c2c65",
   "paragraphs": [
+    {
+      "id": "b02fdd1ae30d7bfef7b8f77297109ba67c0049353c969e46af9fb3c3bf4cc5d1",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Buffer operating update adds [[SaaSOperatingTransparency]] to the startup and SaaS cluster. [[JoelGascoigne]] reports [[Buffer]]'s August 2015 state through a multi-metric dashboard: 2.67 million registered users, 211,520 monthly active users, $624,196 MRR, $7.49M ARR, $2.79 million cash, 42 team members across 33 cities, 14 open roles, about 1,500 applications, product launches, support volume, customer happiness, and response times. The source strengthens [[SmallProductTeamBalance]] by showing Buffer splitting product and engineering into autonomous 4-6 person teams while still needing single-area focus for people stretched across several teams. It also connects customer-led product learning to shipping velocity: a customer note about Buffer for Video and link-thumbnail updates is used as evidence that recent features made users feel heard.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Buffer",
+        "JoelGascoigne",
+        "SaaSOperatingTransparency",
+        "SmallProductTeamBalance"
+      ]
+    },
     {
       "id": "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
       "primary_topic": "work-education-and-society",

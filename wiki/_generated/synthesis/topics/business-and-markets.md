@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 0579bc978b13755f666ff682d7460d8ec1a9cf73
-input_digest: dc9cba23180e6e5c90ec9dd17c7a6d70e38386798313c196438fc4648cfa8963
+as_of_overview_commit: ecc618dd3559887d13925e51a7f148166a14982f
+input_digest: 30d81c58d9a5391fce54f69df01388566c4df8fba686ba678853baa3b5fcc9bf
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, and monetization systems. Recent material adds browser-market concentration to the platform-power thread: Chrome and Google show how discovery, advertising incentives, and browser defaults can centralize web access even before activity moves into apps, assistants, feeds, or cloud surfaces.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, and monetization systems. Recent material adds Buffer's operating-transparency snapshot to the startup-scaling thread, showing ARR, MRR, usage, cash, hiring, product, support, and small autonomous team structure as linked evidence of how a SaaS company makes growth legible. It also adds browser-market concentration to the platform-power thread: Chrome and Google show how discovery, advertising incentives, and browser defaults can centralize web access even before activity moves into apps, assistants, feeds, or cloud surfaces.
 
 ## Cross-source Findings
 
@@ -129,9 +129,9 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Executive Hiring And Scaling Redesign The Company
 
-[[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, and recruiting systems when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
+[[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, recruiting systems, small autonomous teams, and operating dashboards when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.
 
-**Evidence:** [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], [[8VC]]
+**Evidence:** [[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], [[8VC]]
 
 **Qualifications:**
 

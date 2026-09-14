@@ -2013,6 +2013,10 @@ Added Courtney Seiter's Buffer retrospective on four years of remote work. Key c
 
 Added Bob Belderbos's PyBites article on practical Python function design. Key claims: functions are Python's core modularity unit; clear names, single responsibility, small interfaces, early validation, type hints, and consistent returns improve readability and testability; globals and mutable default arguments create hidden-state hazards; and small isolated functions support internal software quality. No image references were present in the source Markdown.
 
+## [2026-09-15] ingest | Buffer in August: $7.49M ARR, Buffer for Video, Continued Growth
+
+Added Joel Gascoigne's August 2015 Buffer operating update. Key claims: Buffer reported $624,196 MRR, $7.49M ARR, 2.67 million registered users, $2.79 million cash, 42 team members across 33 cities, 14 open roles, product launches including Buffer for Video, smaller autonomous 4-6 person product teams, segmented support teams, and customer happiness and response-time metrics. The remote hero image was treated as decorative and added no separate evidence.
+
 ## [2026-09-15] ingest | 为什么 AI 写代码更快但交付没变，以及我怎么把它扳回来的
 
 Added a source note for the AI coding delivery-paradox essay. Key claims: AI can accelerate coding while leaving delivery flat when review, verification, requirements, and WIP are the true bottlenecks; specs, rules, and skills differ by loading mechanism; verification should form an andon-style generate-verify-fix loop and layered trust chain; parallel agent sessions help only with task independence, WIP limits, and review capacity; and automation gains should fund capability growth rather than just more code output. All 20 referenced images were opened and incorporated where materially relevant.
@@ -2041,6 +2045,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

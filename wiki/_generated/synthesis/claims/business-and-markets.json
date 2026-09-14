@@ -234,7 +234,7 @@
       "qualifications": [
         "The evidence is operator and investor advice plus selected scaling cases, so hiring and culture practices need adaptation to market, role, legal, and company context; the big-company/startup contrast is best treated as a behavioral and timing filter rather than a stereotype about employer size."
       ],
-      "statement": "[[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, and recruiting systems when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.",
+      "statement": "[[ExecutiveHiring]], [[StartupHiringAtScale]], [[ProductMarketFit]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], [[ScalingCommunication]], [[TalentDensity]], [[SmallProductTeamBalance]], [[SaaSOperatingTransparency]], [[Buffer]], [[JoelGascoigne]], [[JoeLonsdale]], and [[8VC]] show startup scaling as organization design: founders should protect early builder-led learning before fit, then add experienced leaders, communication, recruiting systems, small autonomous teams, and operating dashboards when repeatable functions need ownership, while testing resume prestige against contribution, ownership, and company-first behavior.",
       "status": "supported",
       "supporting_wikilinks": [
         "ExecutiveHiring",
@@ -245,6 +245,10 @@
         "StartupCulture",
         "ScalingCommunication",
         "TalentDensity",
+        "SmallProductTeamBalance",
+        "SaaSOperatingTransparency",
+        "Buffer",
+        "JoelGascoigne",
         "JoeLonsdale",
         "8VC"
       ]
@@ -415,6 +419,6 @@
       ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, and monetization systems. Recent material adds browser-market concentration to the platform-power thread: Chrome and Google show how discovery, advertising incentives, and browser defaults can centralize web access even before activity moves into apps, assistants, feeds, or cloud surfaces.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, and monetization systems. Recent material adds Buffer's operating-transparency snapshot to the startup-scaling thread, showing ARR, MRR, usage, cash, hiring, product, support, and small autonomous team structure as linked evidence of how a SaaS company makes growth legible. It also adds browser-market concentration to the platform-power thread: Chrome and Google show how discovery, advertising incentives, and browser defaults can centralize web access even before activity moves into apps, assistants, feeds, or cloud surfaces.",
   "topic_id": "business-and-markets"
 }
