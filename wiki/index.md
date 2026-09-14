@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [10 Tips To Write Better Functions In Python](sources/bob-belderbos-10-tips-to-write-better-functions-in-python.md) - Bob Belderbos argues that better Python functions use clear names, single responsibility, small interfaces, early validation, type hints, consistent returns, purity, and safe defaults.
 - [有价值的数据应该如何交易](sources/blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi.md) - Wulc explains valuable advertising data by intent density, user identity, DMP label-processing models, ADX/DSP trading paths, impression-based pricing, and privacy limits.
 - [爬虫抓取代理 IP](sources/blog-wulc-pa-chong-zhua-qu-dai-li-ip.md) - Wulc explains a Python scraper proxy-pool workflow: collect public proxies, store candidates in Redis, validate them against the target, evict failures, and pace collection.
 - [怎样用数据洞察你的用户](sources/blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu.md) - Wulc explains audience targeting and user profiling as demand-driven label design, from structured versus advertiser-specific tag systems to behavioral targeting, recency weighting, thresholds, and Reach/CTR evaluation.
@@ -259,6 +260,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
+- [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
 - [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency and scraping, Linux process lifecycle, and practical reading methods.
 - [Zhang Xiaoyu](entities/ZhangXiaoyu.md) - Personal-investing course teacher represented here by market-rules guidance for ordinary investors.
 - [John Maynard Keynes](entities/JohnMaynardKeynes.md) - Economist and investor example used to illustrate the limits of macro-driven investing.
@@ -911,6 +914,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
 - [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that converts user, context, ad, and advertiser-relationship data into demand-relevant labels and scores.
 - [Behavioral Targeting](concepts/BehavioralTargeting.md) - Audience-targeting method that maps historical actions into weighted, recency-aware labels and thresholds.
 - [Data Management Platform](concepts/DataManagementPlatform.md) - Advertising data infrastructure that processes first-party or third-party user data into label products traded through DSP and ADX workflows.
