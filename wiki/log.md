@@ -2198,3 +2198,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Building and Motivating Engineering Teams
+
+Added The Startup article on motivating engineering teams in a competitive startup talent market. Key claims: engineers need market-rate compensation as a baseline, purpose often comes from business and product context rather than uniquely hard technical problems, and respect means clear goals, accountability, and cross-functional partnership rather than pampering. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
