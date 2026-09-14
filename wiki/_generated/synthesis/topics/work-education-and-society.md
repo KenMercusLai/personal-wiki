@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-14
-as_of_overview_commit: c6e53723b2c7ed27ce170c9ad75121153724dc4c
-input_digest: e8eeb67b524de87f8a90cc9ee5d32b8892a6c7d7598d25d058861a429bffd451
+as_of_overview_commit: f286f5c582db1766f376ce3156116c2496d54c06
+input_digest: 76ea53b3f485fe9a6c4f0f83c284894f1587df6234bfe80ef093493228f814ba
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. Recent sources add that platform-specific media work reorganizes editorial judgment around channel missions and metrics, and that implementing small classic systems can make abstract technical infrastructure more learnable. Strategic writing is now included as workplace learning and coordination: plans become inspectable reasoning, while leaders and long-tenured employees must keep writing rather than outsourcing the thinking.
+The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add age-staged career judgment: early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint.
 
 ## Cross-source Findings
 
@@ -39,13 +39,13 @@ The work, education, and society corpus connects learning, careers, workplace pr
 
 ### Career Paths Are Staged Experiments
 
-[[CareerPlanning]] is repeatedly framed as staged experimentation through next-next-job planning, GPV fit, side projects, freelancing, independent creation, and skill stacks rather than a single fixed choice.
+[[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, and age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint.
 
-**Evidence:** [[CareerPlanning]], [[NextNextJobFramework]], [[GPVCareerFormula]], [[JobApplicationSideProjects]], [[ProgrammerFreelancing]], [[SkillStacking]]
+**Evidence:** [[CareerPlanning]], [[NextNextJobFramework]], [[GPVCareerFormula]], [[JobApplicationSideProjects]], [[ProgrammerFreelancing]], [[SkillStacking]], [[BurnoutPrevention]], [[WorkHabits]], [[EthanBanks]]
 
 **Qualifications:**
 
-- Savings, health, family needs, local labor markets, and organizational scope shape who can afford experiments.
+- Savings, health, family needs, local labor markets, organizational scope, life stage, and spiritual or mental-health context shape who can afford experiments or boundaries.
 
 ### Creative And Technical Output Needs Feedback Loops
 

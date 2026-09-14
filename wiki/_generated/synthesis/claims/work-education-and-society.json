@@ -37,9 +37,9 @@
       "global_candidate": true,
       "id": "career-paths-are-staged-experiments",
       "qualifications": [
-        "Savings, health, family needs, local labor markets, and organizational scope shape who can afford experiments."
+        "Savings, health, family needs, local labor markets, organizational scope, life stage, and spiritual or mental-health context shape who can afford experiments or boundaries."
       ],
-      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through next-next-job planning, GPV fit, side projects, freelancing, independent creation, and skill stacks rather than a single fixed choice.",
+      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, and age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint.",
       "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
@@ -47,7 +47,10 @@
         "GPVCareerFormula",
         "JobApplicationSideProjects",
         "ProgrammerFreelancing",
-        "SkillStacking"
+        "SkillStacking",
+        "BurnoutPrevention",
+        "WorkHabits",
+        "EthanBanks"
       ]
     },
     {
@@ -182,6 +185,6 @@
       ]
     }
   ],
-  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, and visible evidence of work, while social and technical context shapes who gets privacy, opportunity, recovery, simpler operations, and room to experiment. Recent sources add that platform-specific media work reorganizes editorial judgment around channel missions and metrics, and that implementing small classic systems can make abstract technical infrastructure more learnable. Strategic writing is now included as workplace learning and coordination: plans become inspectable reasoning, while leaders and long-tenured employees must keep writing rather than outsourcing the thinking.",
+  "summary": "The work, education, and society corpus connects learning, careers, workplace practice, creator work, labor conditions, civic technology, media work, and the operational systems people work inside. Its central pattern is that durable capability comes from active practice, feedback, psychologically safe questions, system-level curiosity, visible evidence of work, and career choices treated as staged experiments rather than fixed identities. Recent sources add age-staged career judgment: early risk, mid-career goals and relationships, and later boundaries, recovery, habits, and restraint.",
   "topic_id": "work-education-and-society"
 }

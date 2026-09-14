@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me](sources/blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me.md) - Ethan Banks offers age-staged career advice on asymmetric risk, humility, promotion reality, goals, relationships, recovery, saying no, habits, restraint, and choosing one's own priorities.
 - [Compliance in a DevOps Culture](sources/blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture.md) - Carl Nygard compares manual, pipeline, composition, and point-of-change compliance patterns, arguing for evidence-driven controls that preserve DevOps delivery at scale.
 - [You Can't Buy Integration](sources/blog-brandon-byars-martinfowler-com-you-cant-buy-integration.md) - Brandon Byars argues that integration cannot be bought as a product; organizations need clean capability interfaces, general-purpose language ownership for evolving APIs, and bounded tactical use of integration DSLs.
 - [Building Effective AI Agents](sources/blog-anthropic-building-effective-ai-agents.md) - Anthropic argues that effective agentic systems come from simple composable patterns, clear workflow-versus-agent distinctions, transparent loops, and carefully designed tool interfaces.
@@ -217,6 +218,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Ethan Banks](entities/EthanBanks.md) - Career-advice author whose age-staged reflection connects risk timing, goals, relationships, boundaries, habits, and restraint.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
 - [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author arguing that writing is a management discipline for strategy, planning, and execution context.

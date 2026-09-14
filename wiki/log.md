@@ -1683,3 +1683,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] ingest | Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me
+
+Ingested Ethan Banks' age-staged career advice, creating source and entity pages and updating career planning, burnout prevention, and work habits synthesis.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

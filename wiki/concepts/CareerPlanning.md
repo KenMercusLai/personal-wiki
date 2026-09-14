@@ -10,6 +10,7 @@ sources:
   - a-guide-to-becoming-a-senior-product-designer
   - andrew-chen-the-next-next-job
   - being-a-junior-developer-at-30-by
+  - blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -18,7 +19,7 @@ knowledge_schema: synthesis-v1
 [[CareerPlanning]] is the practice of choosing and revising a longer-term work direction by considering strengths, interests, values, constraints, future options, and the sequence of steps needed to reach better-fit work.
 
 ## Current Synthesis
-The sources frame career planning as broader than picking a job title. A career is treated as a path through a field or kind of work, which means a person can use the same gifts and interests in multiple forms. The freelancer source adds a more tactical version of that idea: a programmer can treat leaving employment as a reversible experiment, but only after considering money, stable income, isolation, routines, and a fallback. Hack Career adds a job-application tactic inside that broader path: side projects can help bridge experience gaps only when they are targeted evidence for the next role. Wibowo's retrospective adds a non-linear creative-technical path: repeated experiments across research, engineering, art, craft, and education can eventually reveal a coherent direction, even when the path does not resemble a promotion ladder. Aaron James adds the formal workplace-promotion variant: a designer can use a ladder, rubric, peer feedback, and manager or mentor alignment to turn vague ambition into a small set of concrete goals reviewed over months. Chen adds a future-option version: compare current roles by naming the desired next-next job, diagnosing current gaps, and choosing opportunities that build the skills, network, experience, mentors, ideas, or superpower needed for that later role.
+The sources frame career planning as broader than picking a job title. A career is treated as a path through a field or kind of work, which means a person can use the same gifts and interests in multiple forms. The freelancer source adds a more tactical version of that idea: a programmer can treat leaving employment as a reversible experiment, but only after considering money, stable income, isolation, routines, and a fallback. Banks adds a life-stage version: earlier career can be a better time for asymmetric business risk, mid-career needs explicit goals, relationships, recovery, and emotional intelligence, and later career demands boundaries, patience, restraint, and refusal to spend time on other people's priorities. Hack Career adds a job-application tactic inside that broader path: side projects can help bridge experience gaps only when they are targeted evidence for the next role. Wibowo's retrospective adds a non-linear creative-technical path: repeated experiments across research, engineering, art, craft, and education can eventually reveal a coherent direction, even when the path does not resemble a promotion ladder. Aaron James adds the formal workplace-promotion variant: a designer can use a ladder, rubric, peer feedback, and manager or mentor alignment to turn vague ambition into a small set of concrete goals reviewed over months. Chen adds a future-option version: compare current roles by naming the desired next-next job, diagnosing current gaps, and choosing opportunities that build the skills, network, experience, mentors, ideas, or superpower needed for that later role.
 
 Career planning sometimes begins after an old plan becomes impossible or loses meaning, not after a neat strategic exercise. Entering tech around 30 can mean starting over among younger, more technically advanced peers, while also bringing prior management experience, social confidence, and clearer values about the work and people one wants.
 
@@ -29,7 +30,7 @@ Career planning sometimes begins after an old plan becomes impossible or loses m
 - Alternative career paths should be tested against financial constraints and a time-boxed exit option.
 - Side projects can support a career transition when they make missing or doubted experience concrete.
 - Non-linear careers can still have coherence when experiments repeatedly return to the same values, mediums, problems, and communities.
-- Career change can be valid after grief, family crisis, or failed plans, but later transitions raise real risk around status, age, money, confidence, time, and family commitments.
+- Career change and risk-taking are timing-sensitive: lower-obligation periods, financial runway, family commitments, age, status, and remaining time all change the right bet.
 
 ## Evidence
 - Fit dimensions: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] presents gifts, passion, and values as the elements behind career reflection.
@@ -45,16 +46,18 @@ Career planning sometimes begins after an old plan becomes impossible or loses m
 - Life disruption and restart: [[being-a-junior-developer-at-30-by]] describes an abandoned linguistics path after the author's mother became ill and died, followed by a later return to web design and programming.
 - Later-life tech transition: [[being-a-junior-developer-at-30-by]] argues that entering tech around 30 can be worthwhile despite risk, junior status, younger peers, and lack of a clear plan.
 - Social opportunity: [[being-a-junior-developer-at-30-by]] presents tech community, mentorship, public speaking, teaching, and hackathons as parts of the new career path.
+- Age-staged risk and restraint: [[blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me]] advises taking business risk while young, defining goals by mid-career, and later protecting time through saying no, patience, restraint, and choosing one's own priorities.
+- Organizational realism: [[blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me]] separates technical merit from promotion and compensation, warns about dishonest employers, and treats hierarchy, relationships, and emotional intelligence as career realities.
 
 ## Counterevidence & Qualifications
-The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, freelancing may be unwise under heavy debt, family support obligations, or weak income prospects, and a side project may have little hiring impact if it is not relevant, deep, iterated, and visible. Wibowo's source adds that sexism and harassment can distort career planning by making otherwise meaningful technical environments unsafe or demoralizing. James adds an organizational qualification: even a well-evidenced promotion plan can stall because of company ambiguity, budget, values mismatch, weak manager alignment, burnout, or lack of suitable scope. Chen adds that job decisions remain partly emotional, and that some people may over-prepare for future roles they could already attempt because of risk aversion or imposter syndrome. The junior-developer source is intentionally encouraging, so its optimism should be held together with its own cautions about risk, family time, burnout, and the emotional cost of being older and junior.
+The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, freelancing may be unwise under heavy debt, family support obligations, or weak income prospects, and a side project may have little hiring impact if it is not relevant, deep, iterated, and visible. Wibowo's source adds that sexism and harassment can distort career planning by making otherwise meaningful technical environments unsafe or demoralizing. James adds an organizational qualification: even a well-evidenced promotion plan can stall because of company ambiguity, budget, values mismatch, weak manager alignment, burnout, or lack of suitable scope. Chen adds that job decisions remain partly emotional, and that some people may over-prepare for future roles they could already attempt because of risk aversion or imposter syndrome. Banks' article is aphoristic and self-directed, so its life-stage claims should be adapted to actual family, financial, health, spiritual, and labor-market context. The junior-developer source is intentionally encouraging, so its optimism should be held together with its own cautions about risk, family time, burnout, and the emotional cost of being older and junior.
 
 ## What Changed
 - Added side projects as targeted evidence for crossing into or strengthening a desired tech role.
 - Added non-linear creative-technical careers as a path built through repeated experiments and constrained by workplace harm.
 - Added product-design promotion planning as a structured ladder, feedback, rubric, and review-cadence case.
 - Added the [[NextNextJobFramework]] as a future-option method for comparing current roles by the later job they enable.
-- Added later-life tech transition after life disruption as a career-planning case where risk, identity, community, and transferable experience all matter.
+- Added age-staged career advice where risk, goals, networks, boundaries, habits, and remaining time change in importance across life stages.
 
 ## Related Concepts
 - [[GPVCareerFormula]] - provides the source's three-factor method for judging career fit.
@@ -67,3 +70,4 @@ The sources are reflective advice and personal experience, not systematic career
 - [[DesignSkillAxes]] - skill-assessment model used to set focused product-design career goals.
 - [[NextNextJobFramework]] - works backward from a later role to the next role's gap-closing value.
 - [[TechCommunityParticipation]] - community involvement can create relationships, confidence, and opportunities during a career change.
+- [[BurnoutPrevention]] - career plans need recovery and boundaries when effort becomes endless.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
       "a7bc1196b541898a73e7bf671c39aaf0ec509af4efc93261701016cd3f5fffce",
       "ca084d8ad7aa5636cf86c755f3cbc1b4dcc1d56827758bb0b0d0831d8736975f",
       "6b4dbbd3c061cd8fe07d39b74dd88ba9dd3454f0c08fd04909964cd4f994795f",
@@ -205,11 +206,28 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 203
+    "paragraph_count": 204
   },
-  "overview_commit": "f05286f85ed7b71e66726b6f81f51831958b32fa",
-  "overview_digest": "8168596d6ea27df7e359dcff9196e9253175841b53f19a53561832065463e218",
+  "overview_commit": "f286f5c582db1766f376ce3156116c2496d54c06",
+  "overview_digest": "132b3d669de06994aaab7661fd61cc143c5b2d4d278e1bec80422d7c7a6499ec",
   "paragraphs": [
+    {
+      "id": "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Ethan Banks source adds age-staged career advice to the wiki's career-planning and burnout-prevention material. [[CareerPlanning]] now includes a life-stage lens: early career can be a time for asymmetric business risk, mid-career needs explicit goals, emotional intelligence, relationships, recovery, and honest motivation, and later career requires saying no, long-view patience, restraint, and choosing one's own priorities. [[BurnoutPrevention]] gains the concise claims that relaxation is necessary, goal clarity prevents endless effort, and others may keep asking for more until boundaries are set. [[WorkHabits]] gains daily repetition and patience as habit conditions, while [[EthanBanks]] becomes the source's author entity. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "CareerPlanning",
+        "EthanBanks",
+        "WorkHabits"
+      ]
+    },
     {
       "id": "a7bc1196b541898a73e7bf671c39aaf0ec509af4efc93261701016cd3f5fffce",
       "primary_topic": "ai-and-technology",
