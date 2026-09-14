@@ -38,11 +38,17 @@
       "global_candidate": true,
       "id": "scale-changes-operating-boundaries",
       "qualifications": [
-        "The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe."
+        "The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe.",
+        "The organization-design evidence comes from one Greenhouse practitioner summary, so it should be applied as a bounded management frame rather than a universal governance law."
       ],
-      "statement": "Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls.",
+      "statement": "Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls; [[EngineeringLedOrganizationDesign]], [[StartupScaling]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] add that team values, rewards, release processes, manager expectations, feedback loops, and attrition or shipping metrics can become explicit governance surfaces inside a growing company.",
       "status": "supported",
       "supporting_wikilinks": [
+        "ScalingCommunication",
+        "StartupHiringAtScale",
+        "StartupCulture",
+        "StartupScaling",
+        "EngineeringLedOrganizationDesign",
         "Kubernetes",
         "ContainerNativePractice",
         "NetworkAutomation",
@@ -112,6 +118,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, and exit-oriented alternatives to incumbent institutions. Recent material adds that browser choice itself can be a governance surface when Chrome-scale defaults connect web access to Google advertising incentives, while Firefox and Mozilla are framed as nonprofit counterweights. Exit and voice remain uneven because people and teams differ in switching capacity, authority, safety exposure, and vulnerability to process bottlenecks.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame: as teams scale, values, culture, rewards, release processes, manager expectations, and validation loops become explicit operating boundaries rather than informal habits.",
   "topic_id": "governance-and-institutions"
 }

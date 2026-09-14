@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "67719221132060d2abaeb9e5a3d025addd0fdd98a1893b73bad387b985bc11f5",
       "b02fdd1ae30d7bfef7b8f77297109ba67c0049353c969e46af9fb3c3bf4cc5d1",
       "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
       "a22452a994692700489fe06844e32d1830f8f2e97a33ef18e24cdb6f4b350b8b",
@@ -248,11 +249,35 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 246
+    "paragraph_count": 247
   },
-  "overview_commit": "ecc618dd3559887d13925e51a7f148166a14982f",
-  "overview_digest": "36300871be654690ee5ed62019c8ba12c953e86ffe1395bca5f7a3056a9c2c65",
+  "overview_commit": "b130a722df1829fff7faa10d96dce018e8664a5c",
+  "overview_digest": "44eb3267a88cea111e6df54505498886a136c68dcf4b6122a20edd61b1193406",
   "paragraphs": [
+    {
+      "id": "67719221132060d2abaeb9e5a3d025addd0fdd98a1893b73bad387b985bc11f5",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "culture-and-media"
+      ],
+      "text": "The newest Greenhouse source adds [[EngineeringLedOrganizationDesign]] to the work and startup-scaling cluster. [[MichaelBoufford]] treats organization-building as an engineering loop: define the team system people would want to join, turn the desired state into requirements, prioritize against constraints, design culture and process mechanisms, implement a small feedback-producing process, then validate through retrospectives, one-on-ones, surveys, attrition, shipping flow, and happiness signals. The source strengthens [[StartupScaling]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] by making values, release process, rewards, ignored behavior, professional development, front-line change support, and manager service explicit design surfaces rather than informal culture residue. The inspected images were duplicate speaker photos, publication separators, and two tiny slide thumbnails that reinforce the prose's developer-utopia and requirement-breakdown steps without adding separate evidence.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "EngineeringLedOrganizationDesign",
+        "MichaelBoufford",
+        "ScalingCommunication",
+        "StartupCulture",
+        "StartupHiringAtScale",
+        "StartupScaling"
+      ]
+    },
     {
       "id": "b02fdd1ae30d7bfef7b8f77297109ba67c0049353c969e46af9fb3c3bf4cc5d1",
       "primary_topic": "business-and-markets",

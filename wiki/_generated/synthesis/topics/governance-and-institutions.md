@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-15
-as_of_overview_commit: 0579bc978b13755f666ff682d7460d8ec1a9cf73
-input_digest: 30ad5abc7a2346daf2d6e27cb21e7e35799d59ccedc5a6862c2c1e57cdaa9665
+as_of_overview_commit: b130a722df1829fff7faa10d96dce018e8664a5c
+input_digest: 4359af9f5e4ccdcad5a721a7f651164abfae9fbb432b6eb4b8070e40f909cde1
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, and exit-oriented alternatives to incumbent institutions. Recent material adds that browser choice itself can be a governance surface when Chrome-scale defaults connect web access to Google advertising incentives, while Firefox and Mozilla are framed as nonprofit counterweights. Exit and voice remain uneven because people and teams differ in switching capacity, authority, safety exposure, and vulnerability to process bottlenecks.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame: as teams scale, values, culture, rewards, release processes, manager expectations, and validation loops become explicit operating boundaries rather than informal habits.
 
 ## Cross-source Findings
 
@@ -39,13 +39,14 @@ Automation becomes governable when systems expose logs, metrics, replayable evid
 
 ### Scale Changes Operating Boundaries
 
-Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls.
+Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls; [[EngineeringLedOrganizationDesign]], [[StartupScaling]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] add that team values, rewards, release processes, manager expectations, feedback loops, and attrition or shipping metrics can become explicit governance surfaces inside a growing company.
 
-**Evidence:** [[Kubernetes]], [[ContainerNativePractice]], [[NetworkAutomation]], [[InferenceLoadBalancing]], [[ContextualBandits]], [[ComplianceArchitecture]]
+**Evidence:** [[ScalingCommunication]], [[StartupHiringAtScale]], [[StartupCulture]], [[StartupScaling]], [[EngineeringLedOrganizationDesign]], [[Kubernetes]], [[ContainerNativePractice]], [[NetworkAutomation]], [[InferenceLoadBalancing]], [[ContextualBandits]], [[ComplianceArchitecture]]
 
 **Qualifications:**
 
 - The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe.
+- The organization-design evidence comes from one Greenhouse practitioner summary, so it should be applied as a bounded management frame rather than a universal governance law.
 
 ### Platform Trust Is A Strategic Asset
 

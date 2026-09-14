@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Build a healthy organization by thinking like an engineer
+
+Added The Startup's summary of Michael Boufford's Greenhouse organization-design framework. Key claims: engineering design habits can be applied to team structure, values, culture, hiring, retention, feedback, and validation; organizations should define a target team state, gather and prioritize requirements under constraints, implement cultural/process MVPs carefully, and validate with retrospectives, one-on-ones, surveys, attrition, shipping, and happiness signals. Inspected all six embedded local images: duplicate speaker photos and publication separators were decorative, while two tiny slide thumbnails reinforced the developer-utopia and requirement-breakdown steps already described in prose.
+
 ## [2026-09-15] ingest | Bring in the Adults?
 
 Added Joe Lonsdale's 8VC essay on timing experienced startup hires. Key claims: early technology startups should prioritize intense builders, culture fit, rapid iteration, and advisor scaffolding; experienced executives become valuable once product-market clarity, revenue, and repeatable business processes make sales, HR, engineering management, marketing, finance, strategy, and related functions scalable. Inspected all three embedded local images and treated them as decorative alternate crops of the same bird illustration.
@@ -2045,6 +2049,10 @@ Ran lint. See lint-report.md for details.
 - Added source note `blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu`.
 - Created [[AudienceTargeting]] and [[BehavioralTargeting]].
 - Updated [[Wulc]], [[BehavioralData]], [[DataMonetization]], and [[ProgrammaticAdvertising]] with demand-driven label design, behavioral targeting mechanics, and Reach/CTR evaluation.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

@@ -178,8 +178,24 @@
         "MartinHeidegger",
         "VincentVanGogh"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "workplace-culture-can-be-designed-and-validated",
+      "qualifications": [
+        "The Greenhouse source is a practitioner conference-summary article, so the engineering analogy should be read as an operating frame rather than causal proof or a complete account of power, politics, emotion, and ethics in organizations."
+      ],
+      "statement": "[[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] frame workplace culture as something leaders can intentionally design and validate through values, requirements, constraints, rewards, ignored behavior, communication norms, development conversations, retrospectives, surveys, attrition, shipping flow, and happiness signals.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "EngineeringLedOrganizationDesign",
+        "MichaelBoufford",
+        "StartupCulture",
+        "StartupHiringAtScale",
+        "ScalingCommunication"
+      ]
     }
   ],
-  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent reading material adds speed-reading as selective nonfiction attention: readers evaluate books, scan for structure and concepts, and deep-read only material worth remembering or outputting. Platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, aesthetics, and workplace culture as a designed system. Recent Greenhouse material adds that culture can be shaped through explicit values, rewards, ignored behavior, release process, professional-development conversations, front-line change support, manager service, feedback, and validation rather than left as informal residue.",
   "topic_id": "culture-and-media"
 }

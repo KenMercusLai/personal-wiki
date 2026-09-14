@@ -3,16 +3,16 @@
 generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
-last_updated: 2026-09-14
-as_of_overview_commit: 19f7b7fb91366b2ed9a23eb85962578ce110e628
-input_digest: 09a32a3741802c16c567df8a15c3f7213eb570f59ac05e1927a04c9f852330d5
+last_updated: 2026-09-15
+as_of_overview_commit: b130a722df1829fff7faa10d96dce018e8664a5c
+input_digest: dd92cb0701c1792d252d7b3659d609ea5256aaabd3253b552994700f2ba23699
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, and aesthetics. Recent reading material adds speed-reading as selective nonfiction attention: readers evaluate books, scan for structure and concepts, and deep-read only material worth remembering or outputting. Platform material adds both distributed publishing and personal social-media curation: content is adapted for social and mobile surfaces, editorial missions differ by platform, interaction metrics can matter more than destination-site uniques, and readers can use follows, lists, chronology, and read-later tools to separate discovery from focused reading.
+The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, aesthetics, and workplace culture as a designed system. Recent Greenhouse material adds that culture can be shaped through explicit values, rewards, ignored behavior, release process, professional-development conversations, front-line change support, manager service, feedback, and validation rather than left as informal residue.
 
 ## Cross-source Findings
 
@@ -107,3 +107,13 @@ Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]], [[Se
 **Qualifications:**
 
 - The claim is grounded in one Harman-oriented essay and should not be treated as a general account of all aesthetics or metaphor theory.
+
+### Workplace Culture Can Be Designed And Validated
+
+[[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] frame workplace culture as something leaders can intentionally design and validate through values, requirements, constraints, rewards, ignored behavior, communication norms, development conversations, retrospectives, surveys, attrition, shipping flow, and happiness signals.
+
+**Evidence:** [[EngineeringLedOrganizationDesign]], [[MichaelBoufford]], [[StartupCulture]], [[StartupHiringAtScale]], [[ScalingCommunication]]
+
+**Qualifications:**
+
+- The Greenhouse source is a practitioner conference-summary article, so the engineering analogy should be read as an operating frame rather than causal proof or a complete account of power, politics, emotion, and ethics in organizations.
