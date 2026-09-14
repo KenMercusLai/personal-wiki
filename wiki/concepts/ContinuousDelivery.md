@@ -5,6 +5,7 @@ tags: [continuous-delivery, release-engineering, software-architecture]
 sources:
   - architecting-for-continuous-delivery-thoughtworks
   - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
+  - blog-martin-fowler-foreword-to-the-art-of-agile-development
 last_updated: 2026-09-14
 knowledge_schema: synthesis-v1
 ---
@@ -19,6 +20,8 @@ The durable synthesis is that CD is a system property. Slow monolithic builds, b
 
 Nygard's compliance source adds the regulated-environment constraint: CD in a DevOps culture must preserve team autonomy, frequent small releases, and low MTTR while still producing objective compliance evidence and auditability. Compliance architecture can either support CD by moving checks left and to the point of change, or inhibit CD by adding central queues, manual gates, and large approval batches.
 
+Fowler's agile foreword adds the product-learning reason for CD: reliable, frequent production release lets teams observe how software is used in practice, which helps them learn what is valuable. In that framing, CD is not only release engineering; it is part of genuine [[AgileSoftwareDevelopment]].
+
 ## Key Claims
 - Continuous delivery is a release capability, not a list of tools.
 - CD depends on frequent small integration, automated tests, and repeated deployment practice.
@@ -26,6 +29,7 @@ Nygard's compliance source adds the regulated-environment constraint: CD in a De
 - Feedback speed matters at both developer and CI levels.
 - Pipeline visibility helps teams identify bottlenecks and improve the production flow over time.
 - Regulated delivery needs compliance evidence and auditability without turning approval into a batch-size driver.
+- Frequent production delivery helps teams learn what users value in real use.
 
 ## Evidence
 - Tooling limit: [[architecting-for-continuous-delivery-thoughtworks]] says a CI server and version-control tool do not create CI when commits are large or automated tests are missing.
@@ -34,13 +38,15 @@ Nygard's compliance source adds the regulated-environment constraint: CD in a De
 - Improvement loop: [[architecting-for-continuous-delivery-thoughtworks]] says teams should identify deployment bottlenecks and streamline the process over time.
 - DevOps compliance fit: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says DevOps culture stresses autonomy, frequent small releases, and low MTTR while still needing compliance controls and audit.
 - Batch pressure: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says slow compliance approvals can force larger deployment batches because approval capacity limits release count.
+- Product learning: [[blog-martin-fowler-foreword-to-the-art-of-agile-development]] says frequent production features let teams learn what is valuable by observing software use.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
+The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership; Fowler's foreword emphasizes agile learning and internal quality. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
 
 ## What Changed
 - Created the concept from Thoughtworks' architecture-centered CD article.
 - Added regulated-delivery constraints from Nygard's compliance article.
+- Added Fowler's agile-product-learning rationale for frequent production delivery.
 
 ## Related Concepts
 - [[DeploymentPipeline]] - pipeline visibility is the article's core mechanism for CD release confidence.
@@ -50,3 +56,5 @@ The sources are practitioner guidance rather than a universal CD taxonomy. Naik'
 - [[MicroserviceOperationalOverhead]] - service-based CD gains must be weighed against operational cost.
 - [[DistributedSystemRestraint]] - decomposition should match organizational maturity and capacity.
 - [[ComplianceArchitecture]] - compliance design can either support or inhibit CD flow.
+- [[AgileSoftwareDevelopment]] - CD supports agile learning by making production feedback frequent.
+- [[InternalSoftwareQuality]] - high internal quality makes frequent reliable delivery cheaper.

@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Default Trial Retire](sources/blog-martin-fowler-default-trial-retire.md) - A Martin Fowler bliki note describing a team technology-choice rule that limits each class to a default, one trial, and one retire candidate, with technology radars for organization-level guidance.
+- [Foreword to The Art of Agile Development](sources/blog-martin-fowler-foreword-to-the-art-of-agile-development.md) - Martin Fowler argues that real agile work depends on interconnected value, collaboration, technical-quality, XP, DevOps, and continuous-delivery practices rather than ceremonies alone.
 - [16 Observations on Livestreaming in China](sources/16-observations-on-livestreaming-in-china-andreessen-horowitz.md) - Connie Chan analyzes China's social livestreaming boom as mobile self-expression, digital gifting, live commerce, creator economics, and regulated entertainment.
 - [纳瓦尔深度洞察：对待 AI 你得行动起来！](sources/blog-maiyang-naval-insights-taking-action-with-ai.md) - MaiYang uses Naval's action-first framing to argue that AI-era progress comes from self-owned desire, concrete building, and learning by doing rather than passive success-content consumption.
 - [42 Things I Learned from Building a Production Database](sources/blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database.md) - Mahesh Balakrishnan distills Delos lessons on production infrastructure leadership across customers, project management, API design, review culture, observability, strategy, and research.
@@ -229,6 +231,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer and Thoughtworks practitioner arguing for technical depth behind agile practice.
+- [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
+- [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
 - [Connie Chan](entities/ConnieChan.md) - Author of the a16z analysis on China's livestreaming boom.
 - [Inke](entities/Inke.md) - Chinese social livestreaming app used for gifting, beautification, audio, and event-stream examples.
 - [YY](entities/YY.md) - Chinese livestreaming platform illustrating non-ad virtual-goods monetization and talent professionalization.
@@ -318,6 +323,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Thoughtworks](entities/Thoughtworks.md) - Technology consultancy and publisher associated with Snap CI and Go.CD in the continuous-delivery source.
 - [Snap CI](entities/SnapCI.md) - Hosted CI/CD product used as the simple staged-pipeline example in the Thoughtworks article.
 - [Go.CD](entities/GoCD.md) - On-premise continuous-delivery tool used as the complex dependency value-stream example in the Thoughtworks article.
+- [MYOB](entities/MYOB.md) - Software company represented by an internal technology radar used to communicate adopt, trial, and avoidance guidance across teams.
 - [Michele Gilman](entities/MicheleGilman.md) - Poverty-law scholar framing privacy as a dignity, autonomy, and survival issue for low-income people.
 - [Mary Madden](entities/MaryMadden.md) - Data & Society researcher whose survey work connects low-income status with heightened privacy and security concern.
 - [Elissa Redmiles](entities/ElissaRedmiles.md) - Security researcher cited for the unequal time, skill, and advice costs of privacy and security protections.
@@ -837,6 +843,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Agile Software Development](concepts/AgileSoftwareDevelopment.md) - Practice-rich software approach joining adaptive planning, customer collaboration, teamwork, technical excellence, and reliable delivery.
+- [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.
+- [Agile Fluency Model](concepts/AgileFluencyModel.md) - Shore-Larsen model Fowler cites for distinguishing levels of team agile capability.
+- [Internal Software Quality](concepts/InternalSoftwareQuality.md) - Codebase and design quality that lowers change cost and supports fast reliable delivery.
 - [Social Livestreaming](concepts/SocialLivestreaming.md) - Mobile livestreaming organized around real-time broadcaster-viewer interaction, gifts, recognition, and presence.
 - [Digital Gifting](concepts/DigitalGifting.md) - Paid virtual goods used as social signals, payments, and attention-seeking messages inside platforms.
 - [Livestream Commerce](concepts/LivestreamCommerce.md) - Ecommerce conducted through live video demonstrations, seller interaction, launches, and limited-time offers.
@@ -1050,7 +1060,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Declarative Infrastructure](concepts/DeclarativeInfrastructure.md) - Infrastructure model where desired-state resources and controllers reconcile actual system state.
 - [Container-Native Practice](concepts/ContainerNativePractice.md) - Operational discipline of making applications and platform choices fit container storage, health, lifecycle, scaling, and task-execution assumptions.
 - [Database Consolidation](concepts/DatabaseConsolidation.md) - Architectural strategy of using one sufficiently capable database for multiple workload types before adding specialized stores.
-- [Technology Stack Complexity](concepts/TechnologyStackComplexity.md) - Operational and reasoning burden created by many distinct technologies, data boundaries, orchestration abstractions, and team-learning costs.
+- [Technology Stack Complexity](concepts/TechnologyStackComplexity.md) - Operational and reasoning burden created by many distinct technologies, data boundaries, orchestration abstractions, team-learning costs, and unmanaged technology variety.
+- [Default Trial Retire](concepts/DefaultTrialRetire.md) - Team-level technology-choice rule that allows a default, one trial, and one retire candidate per technology class.
+- [Technology Radar](concepts/TechnologyRadar.md) - Organization-level communication tool for classifying technologies by adopt, trial, and avoidance guidance.
 - [SQLite Production Tradeoffs](concepts/SQLiteProductionTradeoffs.md) - Conditional fit model for using SQLite as a production database when single-machine simplicity outweighs distributed-database needs.
 - [Database Transaction Isolation](concepts/DatabaseTransactionIsolation.md) - Guarantees governing what concurrent transactions can observe, highlighted here through SQLite's serializable behavior and write-lock constraints.
 - [Server-Side Game Logic](concepts/ServerSideGameLogic.md) - Game backend pattern for running authoritative or anti-cheat logic on the server while coordinating with clients through a message service.

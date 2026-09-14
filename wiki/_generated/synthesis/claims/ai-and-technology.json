@@ -4,16 +4,34 @@
       "global_candidate": true,
       "id": "underlying-systems-outlast-tool-recipes",
       "qualifications": [
-        "Frameworks, platform conventions, and managed services can reduce complexity when their boundaries match the problem.",
+        "Frameworks, platform conventions, managed services, and lightweight process rituals can reduce complexity when their boundaries match the problem.",
         "The web-stack source is practitioner advice and its remote images could not be inspected."
       ],
-      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs.",
+      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs.",
       "status": "supported",
       "supporting_wikilinks": [
         "VersatileWebStackFluency",
         "FrameworkCombinatorialComplexity",
         "TechnologyStackComplexity",
-        "NetworkLoadBalancing"
+        "NetworkLoadBalancing",
+        "AgileSoftwareDevelopment"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "agile-delivery-needs-technical-quality",
+      "qualifications": [
+        "The agile claim is practitioner synthesis from Fowler's foreword, not an empirical comparison of all agile frameworks.",
+        "Basic Scrum-like project management can still provide some customer-focus value even when deeper technical fluency is absent."
+      ],
+      "statement": "Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execution as well as value focus: [[ExtremeProgramming]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] make adaptation cheaper, safer, and more connected to product learning.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AgileSoftwareDevelopment",
+        "ExtremeProgramming",
+        "InternalSoftwareQuality",
+        "ContinuousDelivery",
+        "AgileFluencyModel"
       ]
     },
     {
@@ -35,7 +53,7 @@
     },
     {
       "global_candidate": true,
-      "id": "evidence-and-validation-make-technical-systems-governable",
+      "id": "evidence-and-validation-make-systems-governable",
       "qualifications": [
         "Compliance evidence proves specific controls rather than total system safety, and point-of-change enforcement is most justified when organizational scale creates real bottlenecks."
       ],
@@ -55,7 +73,7 @@
         "Anthropic adds that automated tests help coding agents iterate, but human review remains necessary for broader system requirements."
       ],
       "statement": "AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.",
-      "status": "supported",
+      "status": "qualified",
       "supporting_wikilinks": [
         "AICodingPractice",
         "AIAgentCollaboration",
@@ -73,7 +91,7 @@
         "High standards can become perfectionism when they prevent shipping, feedback, or learning."
       ],
       "statement": "[[AIEraCreativeStandards]] frames AI abundance as both empowerment and pressure: coding assistants and image tools lower creation thresholds, but when average output is cheap, durable creative work depends more on taste, quality inputs, [[CognitiveCuriosity]], and the broader [[MakeGoodNewThings]] ethic.",
-      "status": "supported",
+      "status": "source-scoped",
       "supporting_wikilinks": [
         "AIEraCreativeStandards",
         "CognitiveCuriosity",
@@ -115,7 +133,7 @@
       ]
     },
     {
-      "global_candidate": true,
+      "global_candidate": false,
       "id": "agent-patterns-need-simple-evaluable-interfaces",
       "qualifications": [
         "Anthropic's pattern catalog is practitioner guidance, not a benchmark proving one universal agent architecture.",
@@ -176,7 +194,7 @@
         "Single-system choices can become wrong when availability, write concurrency, dependency isolation, or scale constraints change."
       ],
       "statement": "Architecture simplification is contextual: [[DatabaseConsolidation]], [[SQLiteProductionTradeoffs]], [[MonolithConsolidation]], and [[CodingAgentMinimalTooling]] all reduce moving parts only when their operational limits fit the workload.",
-      "status": "supported",
+      "status": "qualified",
       "supporting_wikilinks": [
         "DatabaseConsolidation",
         "SQLiteProductionTradeoffs",
@@ -190,7 +208,7 @@
       "id": "legacy-modernization-needs-transitional-boundaries",
       "qualifications": [
         "Legacy-shaped interfaces are useful as migration bridgework only when teams keep their retirement path explicit.",
-        "An [[AntiCorruptionLayer]] can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract."
+        "An anti-corruption layer can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract."
       ],
       "statement": "Incremental [[LegacyDisplacement]] needs explicit [[TransitionalArchitecture]]: [[LegacyMimic]], [[EventInterception]], [[ExtractValueStreams]], and [[AntiCorruptionLayer]] help new capabilities coexist with unreplaced legacy processes without treating temporary compatibility as the target design.",
       "status": "supported",
@@ -211,7 +229,7 @@
         "The Long Nose evidence is a reconstructed archive note and a technology-history frame; it should not be generalized as a fixed maturation law for every domain."
       ],
       "statement": "[[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], and [[ProductEvolution]] frame apparently sudden technical breakthroughs as the visible end of older ideas, recombination, hidden refinement, and pre-commercial maturation.",
-      "status": "supported",
+      "status": "source-scoped",
       "supporting_wikilinks": [
         "LongNoseInnovation",
         "BillBuxton",
@@ -228,7 +246,7 @@
         "The distributed-publishing evidence is a 2016 Digiday profile and does not prove that platform reach becomes durable revenue."
       ],
       "statement": "Technology platforms reshape discovery, economics, developer demand, incumbent survival, media distribution, and adjacent products through [[MobileEcosystem]], [[SmartphonePlatformDisruption]], [[DistributedPublishingStrategy]], web centralization, Amazon capability-led expansion, Stack Overflow traffic patterns, productivity-app subscriptions, and cloud deployment tradeoffs.",
-      "status": "supported",
+      "status": "qualified",
       "supporting_wikilinks": [
         "AmazonCapabilityLedExpansion",
         "AWS",
@@ -248,6 +266,6 @@
       ]
     }
   ],
-  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.",
+  "summary": "The AI and technology corpus centers on engineering judgment under complexity: modern software work spans agile technical practice, web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools, platforms, and methods only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, maintain internal quality, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.",
   "topic_id": "ai-and-technology"
 }

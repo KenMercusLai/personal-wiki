@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "bc576292e67e8e965d10a2ccbc826758a682a029f5f41af88a70fbeaea0ac874",
       "a3c87e2f53a2f632cefc818a96f2d8a01f72c3616319e92334a0ea426e450775",
       "f1bd36a0bb69e49d07bf43c0feb5b2eb11bb645d506a749885a9cacdb9c15478",
       "bad82f7e33334886296bc0966dfa354a1f81fa5e998ea3588e230d8c831894e3",
@@ -217,11 +218,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 215
+    "paragraph_count": 216
   },
-  "overview_commit": "b65dec206e1af4a016442a154f3b79612f9dfb49",
-  "overview_digest": "9977232cb51dedcdd84d15a1b6bfc700db6e88f6ea265813016edf23962c804a",
+  "overview_commit": "324520f27a17d1be63245a8d92e64731045762dc",
+  "overview_digest": "5e1ba55f5147a10567f17cec5ec6a3680860df13e46b6c48d9537ef78c753755",
   "paragraphs": [
+    {
+      "id": "bc576292e67e8e965d10a2ccbc826758a682a029f5f41af88a70fbeaea0ac874",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Martin Fowler foreword adds an agile-practice layer to the wiki's software-engineering material. New [[AgileSoftwareDevelopment]] frames real agile work as an interconnected system of value focus, teamwork, adaptive planning, customer collaboration, and technical execution rather than a set of ceremonies. New [[ExtremeProgramming]] captures the practice foundation Fowler presents as central to the Agile movement, while [[AgileFluencyModel]] distinguishes basic Scrum-like customer focus from higher fluency that needs technical skill. New [[InternalSoftwareQuality]] names the source's counterintuitive delivery claim: testing, refactoring, design, and collaborative development can decrease cost and increase speed when joined to DevOps culture and [[ContinuousDelivery]]. [[Thoughtworks]], [[MartinFowler]], [[JamesShore]], and [[DianaLarsen]] anchor the practice lineage. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AgileFluencyModel",
+        "AgileSoftwareDevelopment",
+        "ContinuousDelivery",
+        "DianaLarsen",
+        "ExtremeProgramming",
+        "InternalSoftwareQuality",
+        "JamesShore",
+        "MartinFowler",
+        "Thoughtworks"
+      ]
+    },
     {
       "id": "a3c87e2f53a2f632cefc818a96f2d8a01f72c3616319e92334a0ea426e450775",
       "primary_topic": "work-education-and-society",

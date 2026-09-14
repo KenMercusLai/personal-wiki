@@ -1435,6 +1435,10 @@ Ingested Connie Chan's a16z analysis of China's livestreaming boom, creating sou
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-14] ingest | Foreword to The Art of Agile Development
+
+Ingested Martin Fowler's foreword on agile practice depth; added Agile Software Development, Extreme Programming, Agile Fluency Model, Internal Software Quality, Martin Fowler, James Shore, and Diana Larsen pages; updated Thoughtworks, Continuous Delivery, the index, and overview. No image references were present.
+
 ## [2026-09-14] ingest | Make Good New Things
 
 Ingested Limboy's reflection on creation as care, AI-lowered creative thresholds, high standards, cognitive curiosity, and making as a way to stay present.
@@ -1771,6 +1775,18 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-14] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-14] ingest | Default Trial Retire
+
+Ingested the Martin Fowler bliki note on limiting team technology choices to default, trial, and retire options; added Default Trial Retire, Technology Radar, and MYOB pages; updated Thoughtworks and Technology Stack Complexity.
 
 ## [2026-09-14] lint | Wiki health check
 

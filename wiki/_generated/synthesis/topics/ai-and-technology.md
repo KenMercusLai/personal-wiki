@@ -4,28 +4,39 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-14
-as_of_overview_commit: b8ccd373b91fd5ffa6b80afa3762bf337d116487
-input_digest: 3530cc06cbaff6fa13cd8ee274201da1b272ca3fb7131c99d63dbf947d946232
+as_of_overview_commit: 324520f27a17d1be63245a8d92e64731045762dc
+input_digest: 82a646d04165cbf31505944d8138a499ef7f63ed573dbc7314e8e690f4ab5ef9
 ---
 
 # AI and Technology
 
 ## Current State
 
-The AI and technology corpus centers on engineering judgment under complexity: modern software work spans web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools and platforms only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.
+The AI and technology corpus centers on engineering judgment under complexity: modern software work spans agile technical practice, web-stack fundamentals, classic and semantic retrieval, data-science practice, notebook workflow infrastructure, production verification, compliance evidence architecture, legacy modernization, infrastructure cost, database and network tradeoffs, mobile platform disruption, distributed publishing infrastructure, AI agents, LLM workflow patterns, agent-computer interface design, platform capability recombination, AI-enabled creation, and long innovation maturation before visible breakthroughs. Across sources, the strongest throughline is that powerful tools, platforms, and methods only help when teams understand the underlying systems, preserve evidence through tests, traces, and compliance records, design clear interfaces and transitional boundaries, maintain internal quality, and account for cost, reliability, context, representation, side effects, ecosystem timing, distribution dependence, market-facing expansion, and the rising quality bar created when average output becomes cheap.
 
 ## Cross-source Findings
 
 ### Underlying Systems Outlast Tool Recipes
 
-Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs.
+Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs.
 
-**Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]]
+**Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]]
 
 **Qualifications:**
 
-- Frameworks, platform conventions, and managed services can reduce complexity when their boundaries match the problem.
+- Frameworks, platform conventions, managed services, and lightweight process rituals can reduce complexity when their boundaries match the problem.
 - The web-stack source is practitioner advice and its remote images could not be inspected.
+
+### Agile Delivery Needs Technical Quality
+
+Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execution as well as value focus: [[ExtremeProgramming]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] make adaptation cheaper, safer, and more connected to product learning.
+
+**Evidence:** [[AgileSoftwareDevelopment]], [[ExtremeProgramming]], [[InternalSoftwareQuality]], [[ContinuousDelivery]], [[AgileFluencyModel]]
+
+**Qualifications:**
+
+- The agile claim is practitioner synthesis from Fowler's foreword, not an empirical comparison of all agile frameworks.
+- Basic Scrum-like project management can still provide some customer-focus value even when deeper technical fluency is absent.
 
 ### Verification Is Core Accelerator
 
@@ -37,7 +48,7 @@ Durable technical practice depends on understanding underlying systems rather th
 
 - Verification strength depends on coverage, realistic environments, stable expected behavior, and human review of semantic intent.
 
-### Evidence And Validation Make Technical Systems Governable
+### Evidence And Validation Make Systems Governable
 
 Technical systems become safer and more governable when evidence collection and validation are explicit: [[ComplianceArchitecture]] separates measured evidence from policy checks while [[DeploymentPipeline]] and [[ContinuousDelivery]] supply fast feedback only when controls preserve team flow.
 
@@ -141,7 +152,7 @@ Incremental [[LegacyDisplacement]] needs explicit [[TransitionalArchitecture]]: 
 **Qualifications:**
 
 - Legacy-shaped interfaces are useful as migration bridgework only when teams keep their retirement path explicit.
-- An [[AntiCorruptionLayer]] can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract.
+- An anti-corruption layer can be enduring when it protects a target model from an external system rather than merely mimicking a legacy contract.
 
 ### Innovation Matures Before Breakthroughs
 

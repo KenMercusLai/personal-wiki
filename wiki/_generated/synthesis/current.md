@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-14
-as_of_overview_commit: b65dec206e1af4a016442a154f3b79612f9dfb49
+as_of_overview_commit: 324520f27a17d1be63245a8d92e64731045762dc
 summary: "A cross-domain wiki on technology, work, markets, media, institutions, learning, and judgment under changing tools and constraints."
-episode_count: 221
-source_count: 221
-paragraph_count: 215
+episode_count: 223
+source_count: 223
+paragraph_count: 216
 topic_count: 9
 ---
 
@@ -16,23 +16,23 @@ topic_count: 9
 
 ## Executive Summary
 
-- Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs.
+- Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs.
+- Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execution as well as value focus: [[ExtremeProgramming]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] make adaptation cheaper, safer, and more connected to product learning.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change.
 - AI coding becomes useful when [[AICodingPractice]], [[AIAgentCollaboration]], [[AIFirstEngineering]], and [[AgentTeam]] are constrained by small tasks, explicit specs, tests, CI, architecture judgment, and human responsibility.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, use [[LearningByWriting]] to test provisional claims, implement small systems such as [[InvertedIndex]] search, cultivate [[ProgrammerMindset]] through line-level reasoning, replay real work, open black boxes, and study trade-offs instead of only collecting answers.
-- [[CareerPlanning]] is repeatedly framed as staged experimentation through GPV fit, next-next-job planning, side projects, freelancing, independent creation, skill stacks, and age-staged choices about risk, [[BurnoutPrevention]], [[WorkHabits]], and restraint.
 - [[ExitAsGovernance]], [[OptInSociety]], and [[PaperBelt]] frame a governance model where credible alternatives, forks, startups, relocation, and monetary technologies such as [[Bitcoin]] amplify voice by making inherited institutions less able to trap dissenters.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-Technical sources emphasize underlying systems, verification, clear interfaces, cost and reliability tradeoffs, and AI/agent workflows constrained by human judgment, evaluable tools, context management, and operational evidence.
+Technical sources emphasize underlying systems, agile technical quality, verification, clear interfaces, cost and reliability tradeoffs, and AI/agent workflows constrained by human judgment, evaluable tools, context management, and operational evidence.
 
-- Durable technical practice depends on understanding underlying systems rather than only memorizing current tool or framework recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, and retrieval tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]].
-- [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated game testing, code review, staging, AI coding, agent TDD, migrations, and production change. Evidence: [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[HarnessEngineering]].
+- Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, or process recipes, from [[VersatileWebStackFluency]] and [[FrameworkCombinatorialComplexity]] to database, network, protocol, retrieval, and agile-practice tradeoffs. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]].
+- Real [[AgileSoftwareDevelopment]] in the Fowler source requires technical execution as well as value focus: [[ExtremeProgramming]], [[InternalSoftwareQuality]], and [[ContinuousDelivery]] make adaptation cheaper, safer, and more connected to product learning. Evidence: [[AgileSoftwareDevelopment]], [[ExtremeProgramming]], [[InternalSoftwareQuality]], [[ContinuousDelivery]], [[AgileFluencyModel]].
 
 ### Business and Markets
 
