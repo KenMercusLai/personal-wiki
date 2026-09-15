@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Hardest Part About Microservices: Your Data](sources/christian-posta-the-hardest-part-about-microservices-your-data.md) - Christian Posta argues that microservices are hardest around domain meaning, data ownership, transactional boundaries, and event-driven consistency rather than framework or database-per-service rules.
 - [A 43-year history of first-person shooters - from Maze War to Destiny 2](sources/a-43-year-history-of-first-person-shooters-from-maze-war-to-destiny-2-gamesradar.md) - GamesRadar+ traces first-person shooters from Maze War and Spasim through Battlezone, Wolfenstein 3D, Doom, Quake, GoldenEye, Half-Life, Halo, Modern Warfare, and Destiny, emphasizing feel, platform constraints, multiplayer, modding, and live-service progression.
 - [Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be](sources/chris-bailey-exactly-how-long-your-work-breaks-should-be.md) - Chris Bailey argues that knowledge workers should take more deliberate breaks, using 90-minute morning blocks, Pomodoro cycles, and roughly 15 minutes off per work hour as recovery heuristics.
 - [How to go fast](sources/chris-james-how-to-go-fast.md) - Chris James argues that software teams move quickly and sustainably through small teams, continuous delivery from day one, low WIP, tests, refactoring, direct user feedback, and minimal ceremony.
@@ -319,6 +320,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Apache Camel](entities/ApacheCamel.md) - Integration and transformation tool named in Posta's event-driven ticketing example.
+- [Apache Kafka](entities/ApacheKafka.md) - Persistent replicated log option for propagating database changes and events across microservice boundaries.
+- [Apache Samza](entities/ApacheSamza.md) - Stream-processing technology referenced through the inside-out database model.
+- [Christian Posta](entities/ChristianPosta.md) - Software-architecture author explaining microservice data boundaries, domain modeling, and event-driven consistency.
+- [Debezium](entities/Debezium.md) - Change-data-capture tool that can stream database changes into event logs.
 - [Bungie](entities/Bungie.md) - game developer connecting Marathon, Halo, console FPS controls, and Destiny's live-service co-op model.
 - [Epic Games](entities/EpicGames.md) - game developer associated here with Unreal Tournament and fast online arena FPS design.
 - [Id Software](entities/IdSoftware.md) - game developer whose Wolfenstein 3D, Doom, and Quake popularized and deepened PC FPS design.
@@ -1077,6 +1083,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Aggregate Transaction Boundary](concepts/AggregateTransactionBoundary.md) - Smallest practical atomicity boundary needed to protect true business invariants.
+- [Bounded Context](concepts/BoundedContext.md) - Domain-Driven Design boundary within which model language and data meaning are explicit.
+- [Domain Model Driven Data](concepts/DomainModelDrivenData.md) - Principle that physical data-store models should follow explicit domain models and boundaries.
+- [Event-Driven Consistency](concepts/EventDrivenConsistency.md) - Distributed consistency strategy based on immutable events after local transactions.
+- [Event Log as System of Record](concepts/EventLogAsSystemOfRecord.md) - Data architecture where durable event streams are the record and databases are projections.
+- [Microservice Data Boundaries](concepts/MicroserviceDataBoundaries.md) - Domain, ownership, transaction, and integration boundaries for microservice data.
 - [First-Person Shooter Evolution](concepts/FirstPersonShooterEvolution.md) - history of FPS mechanics, controls, platforms, multiplayer, narrative, and live-service progression.
 - [Work Breaks](concepts/WorkBreaks.md) - Deliberate recovery intervals that restore energy, attention, and perspective during knowledge work.
 - [Venture Capital Portfolio Sizing](concepts/VentureCapitalPortfolioSizing.md) - Choosing VC company count around startup attrition, power-law outcomes, reserves, and outlier exposure.
