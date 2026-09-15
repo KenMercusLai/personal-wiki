@@ -2026,6 +2026,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 - Created [[NerdWallet]] and [[EngineeringCareerArchitecture]].
 - Recorded image handling: one promotion-diff screenshot as supporting evidence and one illustrative architecture photo.
 
+## [2026-09-15] ingest | Cars as feature-phones
+
+Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Evans.md`. Added the source note and created `AutomotiveInterfaceTransition` for Evans' feature-phone analogy about overloaded car dashboards, sensor fusion, partial autonomy, and software-platform inversion. Updated Benedict Evans, Mobile Ecosystem, and Autonomous Driving Safety. No effective image references were present in the source markdown, and no direct contradictions were found.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -2345,6 +2349,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
