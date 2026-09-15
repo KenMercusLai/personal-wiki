@@ -8,12 +8,13 @@ sources:
   - aws-blog-optimize-generative-ai-applications-with-pgvector-indexing
   - aws-costs-every-programmer-should-know
   - bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next
-last_updated: 2026-09-14
+  - cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AWS]] is a cloud infrastructure provider used in the wiki as a self-managed EC2 hosting option, a standardized public-cloud substrate for large-scale SaaS, a managed AI/database stack, a source of unit-cost constraints for infrastructure design, and an Amazon-originated business created by turning internal computing capabilities into an external cloud market.
+[[AWS]] is a cloud infrastructure provider used in the wiki as a self-managed EC2 hosting option, a standardized public-cloud substrate for large-scale SaaS, a managed AI/database stack, a source of unit-cost constraints for infrastructure design, an Amazon-originated business created by turning internal computing capabilities into an external cloud market, and a competitive destination for database workloads leaving incumbent vendors such as Oracle.
 
 ## Current Profile
 One source positions AWS less as a managed developer platform and more as raw infrastructure that can reduce cost when the developer accepts more operations work. The author buys a 4-core, 8GB EC2 Ubuntu server and deploys Next.js with PM2 or Docker behind Nginx, DNS, and Certbot-managed HTTPS.
@@ -26,6 +27,8 @@ AWS also appears as an economic model made of priced units such as compute, memo
 
 The Forbes profile adds AWS's strategic origin and corporate role inside [[Amazon]]. Bezos saw that Amazon's internal cloud data-storage and computing capabilities could be sold to other businesses; by 2017 AWS had $17.5 billion in revenue. Forbes frames AWS as both one of Amazon's very large markets and the profit engine that let Amazon reinvest in retail, healthcare, advertising, entertainment, hardware, and physical stores.
 
+The CNBC report adds the competitive migration side of that role. By 2018, Amazon had moved much of its own infrastructure to AWS and reportedly planned to finish leaving [[Oracle]] proprietary database software by the first quarter of 2020. AWS's database story included [[AmazonAurora]], introduced in 2014 against Oracle's core market, and Database Migration Service, which [[AndyJassy]] said had moved more than 80,000 databases to AWS.
+
 ## Key Characteristics
 - Provides EC2 virtual server infrastructure with lower-level deployment control than Vercel's integrated platform workflow.
 - Supports large-scale SaaS high availability through regions, availability zones, managed queues, load balancers, Route53, RDS, CloudFront, CloudWatch, and auto-scaling.
@@ -33,7 +36,7 @@ The Forbes profile adds AWS's strategic origin and corporate role inside [[Amazo
 - Supports RAG-style AI/database workloads through Amazon Bedrock, RDS, Aurora PostgreSQL, and pgvector.
 - Prices infrastructure through separable units such as vCPU, RAM, durable storage, requests, and data transfer.
 - Originated in Amazon's internal data-storage and computing needs before becoming an external cloud business.
-- Serves as one of Amazon's largest growth markets and a profit source that funds other strategic bets.
+- Competes with incumbent enterprise database vendors by offering relational database services and migration tooling.
 
 ## Evidence
 - EC2 deployment: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes buying an Ubuntu EC2 server with 4 cores and 8GB RAM.
@@ -53,22 +56,29 @@ The Forbes profile adds AWS's strategic origin and corporate role inside [[Amazo
 - Bandwidth economics: [[aws-costs-every-programmer-should-know]] distinguishes free same-AZ transfer from cross-AZ, cross-region, and internet transfer costs.
 - Origin story: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] says Amazon built cloud data-storage capabilities for itself and Bezos realized other businesses might want the same capability.
 - Revenue and reinvestment role: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] reports AWS had $17.5 billion in 2017 revenue and frames AWS profits as funding Amazon's wider expansion.
+- Internal migration: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says Amazon had already moved much of its infrastructure internally to AWS while planning to leave Oracle databases.
+- Aurora challenge: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says AWS introduced Aurora in 2014, kicking off the rivalry with Oracle in earnest.
+- Migration tooling: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] reports Jassy saying AWS Database Migration Service had transferred more than 80,000 databases to AWS.
+- Cloud-market position: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says AWS had a commanding cloud-infrastructure lead and reported 49 percent revenue growth in the second quarter.
 
 ## Qualifications
-The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role. None of these is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, or later AWS growth.
+The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle. None of these is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, later AWS growth, or the final outcome of Amazon's Oracle migration.
 
 ## What Changed
 - Added the AWS unit-cost reference source covering vCPU, RAM, storage, request-pattern, and bandwidth economics.
 - Added Auth0's AWS-standardized SaaS architecture as a second profile beside the existing EC2 self-hosting case.
 - Added Amazon Bedrock plus managed PostgreSQL vector search as an AI application infrastructure case.
 - Added Forbes's account of AWS as an internal Amazon capability converted into an external cloud business.
-- Added AWS's role as Amazon's 2017 profit engine and one of Bezos's large markets.
+- Added the Amazon-Oracle migration source showing AWS as a database-migration destination and competitive proof point.
 
 ## Relationships
 - [[NextJSDeployment]] - AWS EC2 hosts the PM2 and Docker deployment examples.
 - [[Amazon]] - parent company that created AWS from internal data-storage and computing capabilities.
 - [[JeffBezos]] - describes cloud as one of Amazon's enormous market opportunities.
 - [[AmazonCapabilityLedExpansion]] - AWS is the article's most important example of internal capability becoming an external business.
+- [[Oracle]] - incumbent database and cloud rival challenged by AWS services and Amazon's reported migration.
+- [[EnterpriseCloudMigration]] - AWS is the destination and vendor-change platform in the CNBC migration story.
+- [[AndyJassy]] - AWS CEO quoted on Oracle's cloud position and Database Migration Service transfers.
 - [[Vercel]] - Vercel is compared to AWS as a convenience layer over underlying cloud infrastructure.
 - [[CloudCostOptimization]] - AWS self-hosting is one cost-reduction route in the source.
 - [[Cloudflare]] - Cloudflare is the lower-operations managed alternative discussed beside AWS.

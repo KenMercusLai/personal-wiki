@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 384f4c1d67c0e63ddf966e208a8e3f743ff7fbb5
-input_digest: 2bbc5a94ec6a62a5e6188d82272f8a6cb4399b07a3b400ee046c7155eb3f9cc4
+as_of_overview_commit: ff99c3930d4b5bac9096da677e0b3daa01ae881f
+input_digest: e6c433e8555d15ddb13bdfd47a146d057f8bb07e2362beb416844f8819715995
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The CES 2019 material adds connected consumer electronics as a product-management and integration case: cheap radios, cloud APIs, sensors, streaming runtimes, voice assistants, smart-home systems, and AI-labeled features make demos easy while leaving the harder question of where intelligence, control, privacy, and runtime responsibility should live. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Amazon-Oracle material adds enterprise cloud migration as a business-strategy case: internal infrastructure capability can become external market expansion, supplier displacement, and competitive proof when [[AWS]] and [[AmazonAurora]] challenge [[Oracle]]. The CES 2019 material adds connected consumer electronics as a product-management and integration case: cheap radios, cloud APIs, sensors, streaming runtimes, voice assistants, smart-home systems, and AI-labeled features make demos easy while leaving the harder question of where intelligence, control, privacy, and runtime responsibility should live. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
 
 ## Cross-source Findings
 
@@ -58,13 +58,13 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Capability Led Platforms Turn Operations Into Markets
 
-[[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], and [[AmazonGo]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, and physical-retail technology into adjacent market expansion.
+[[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], and [[EnterpriseCloudMigration]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, physical-retail technology, and database self-reliance into adjacent market expansion and supplier displacement.
 
-**Evidence:** [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]]
+**Evidence:** [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]], [[EnterpriseCloudMigration]], [[Oracle]], [[AmazonAurora]]
 
 **Qualifications:**
 
-- The Amazon evidence is a 2018 Forbes profile that largely presents Bezos's strategic self-description; it does not settle later antitrust, labor, privacy, healthcare, advertising, or physical-store outcomes.
+- The Amazon evidence combines a 2018 Forbes profile that largely presents Bezos's strategic self-description with a 2018 CNBC report based partly on unnamed migration sourcing; it does not settle later antitrust, labor, privacy, healthcare, advertising, physical-store, cloud-competition, or Oracle-migration outcomes.
 
 ### Product Management Integrates Outcomes
 

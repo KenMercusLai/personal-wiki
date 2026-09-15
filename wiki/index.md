@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
 - [CES 2019: A Show Report](sources/ces-2019-a-show-report-learning-by-shipping.md) - Steven Sinofsky reads CES 2019 as a connected-product integration moment where smart-home, voice, TV, AI, wireless, and PC/gaming advances still needed better product judgment to become reliable everyday experiences.
 - [CEO Advice from a New CEO](sources/ceo-advice-from-a-new-ceo-the-biz-stone-collection-medium.md) - Biz Stone distills early CEO lessons around frequent communication, selective outside advice, firing, praise, and decisive leadership under uncertainty.
 - [Buying Time, Not Stuff, Might Make You Happier](sources/buying-time-not-stuff-might-make-you-happier-shots-health-news-npr.md) - NPR reports on research suggesting that spending money on time-saving services can improve positive emotion and life satisfaction more than buying material goods, while leaving durability questions open.
@@ -293,6 +294,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Andy Jassy](entities/AndyJassy.md) - AWS CEO quoted criticizing Oracle's cloud position and citing AWS Database Migration Service adoption.
+- [CNBC](entities/CNBC.md) - Business-news publisher of the 2018 Amazon-Oracle database migration report.
+- [Jordan Novet](entities/JordanNovet.md) - CNBC technology reporter credited on the Amazon-Oracle database migration article.
+- [Larry Ellison](entities/LarryEllison.md) - Oracle chairman quoted defending Oracle Database and disputing AWS mission-critical workload readiness.
+- [Oracle](entities/Oracle.md) - Incumbent enterprise database vendor and AWS rival in the CNBC Amazon migration report.
 - [Biz Stone](entities/BizStone.md) - Jelly co-founder and CEO reflecting on practical early CEO responsibilities.
 - [Jelly](entities/Jelly.md) - startup context for Biz Stone's transition into the formal CEO role.
 - [HBO Max](entities/HBOMax.md) - Streaming-product UX case where strong content is weakened by performance, state-clarity, journey, and form execution issues.
@@ -997,6 +1003,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
 - [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by command discoverability, device naming, reliability, privacy, and whether microphones belong in every product.

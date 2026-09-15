@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-15
-as_of_overview_commit: b130a722df1829fff7faa10d96dce018e8664a5c
-input_digest: 4359af9f5e4ccdcad5a721a7f651164abfae9fbb432b6eb4b8070e40f909cde1
+as_of_overview_commit: ff99c3930d4b5bac9096da677e0b3daa01ae881f
+input_digest: f28e9016205c6253f60c25212a42a5a6a00040c950d4e34903f9ed96ae57591f
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame: as teams scale, values, culture, rewards, release processes, manager expectations, and validation loops become explicit operating boundaries rather than informal habits.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits.
 
 ## Cross-source Findings
 
@@ -50,14 +50,15 @@ Scale turns informal or one-off practices into boundary-design problems across o
 
 ### Platform Trust Is A Strategic Asset
 
-Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, browser choice, safety, or regulation; [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], and [[WebCentralization]] show browser defaults and nonprofit counterweights as part of web governance, while [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention and exit-oriented technology arguments stress that credible alternatives can discipline institutional power.
+Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, browser choice, safety, cloud workloads, or regulation; [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], and [[WebCentralization]] show browser defaults and nonprofit counterweights as part of web governance, [[AWS]], [[Oracle]], and [[EnterpriseCloudMigration]] show supplier power shifting when critical infrastructure workloads move, while [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention and exit-oriented technology arguments stress that credible alternatives can discipline institutional power.
 
-**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[ExitAsGovernance]], [[PlatformAbuseResponse]], [[Twitter]], [[SocialMediaCuration]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[WebCentralization]]
+**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[AWS]], [[Oracle]], [[EnterpriseCloudMigration]], [[ExitAsGovernance]], [[PlatformAbuseResponse]], [[Twitter]], [[SocialMediaCuration]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[WebCentralization]]
 
 **Qualifications:**
 
 - Some sources are strategic essays and should be read as bounded interpretations rather than audited market outcomes.
 - The Firefox/Chrome browser-choice evidence is a 2017 Mozilla-side campaign argument, so its market-share and performance claims are source-scoped.
+- The Amazon-Oracle database migration evidence is a 2018 CNBC report and does not verify the migration's final outcome or current Oracle/AWS market positions.
 - Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in.
 - Personal curation helps some users reduce exposure, but Fowler's account explicitly says it is easier for people who are not frequent harassment targets.
 

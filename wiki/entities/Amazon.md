@@ -8,17 +8,20 @@ sources:
   - andre-staltz-the-web-began-dying-in-2014-heres-how
   - betting-on-things-that-never-change-collaborative-fund
   - bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next
-last_updated: 2026-09-14
+  - cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020
+last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Amazon]] appears as a 2018 corporate giant in Above Avalon's market analysis, a large online retailer whose payment choices could reshape cryptocurrency merchant adoption, the commerce member of Staltz's Google-Facebook-Amazon Web-centralization thesis, the main Collaborative Fund example of building around customer desires that do not change, and the Forbes case of capability-led expansion into new verticals.
+[[Amazon]] appears as a 2018 corporate giant in Above Avalon's market analysis, a large online retailer whose payment choices could reshape cryptocurrency merchant adoption, the commerce member of Staltz's Google-Facebook-Amazon Web-centralization thesis, the main Collaborative Fund example of building around customer desires that do not change, the Forbes case of capability-led expansion into new verticals, and the CNBC case of replacing an incumbent database supplier while AWS competed for enterprise workloads.
 
 ## Current Profile
 [[NeilCybart]] presents Amazon as a corporate giant with the strongest Wall Street narrative among Apple, Amazon, Google, Microsoft, and Facebook: a retailer focused on the best retail experience imaginable and, in investor imagination, a utility-like system for moving goods from merchants to people's homes. The Collaborative Fund source adds the origin-level strategy behind that narrative: from its first public promise of one million titles and consistently low prices, Amazon used the Internet as a changed distribution mechanism while investing in stable customer desires such as selection, low prices, and fast delivery.
 
 The Forbes profile adds the internal expansion engine. Bezos frames Amazon's retail and cloud markets as effectively unconstrained, while AWS profits give Amazon capital and credibility to reinvest. Amazon converts internal capabilities into businesses: books teach catalog, inventory, recommendation, and fulfillment systems; payments and logistics become Amazon Pay and Fulfillment by Amazon; data-storage capability becomes [[AWS]]; Kindle teaches hardware for [[AmazonEcho]]; [[AmazonPrime]] links retail, subscriptions, entertainment, fulfillment, sellers, and physical stores; and [[AmazonGo]] recombines grocery, app identity, AI, cameras, sensors, and payments. The Coin and Crypto source adds a payments-market angle: because Amazon handled enormous online retail volume, accepting [[Bitcoin]], choosing a faster rival, or creating a proprietary token could have redirected cryptocurrency attention. Staltz adds the open-Web angle: Amazon is the e-commerce company whose retail leadership, cloud services, mobile apps, and Echo-like voice channels can route commerce and infrastructure away from independent websites.
+
+Amazon's infrastructure self-reliance also became part of its cloud strategy. It was reportedly still using [[Oracle]] in parts of its core shopping business in 2018 but planned to be fully off Oracle proprietary database software by the first quarter of 2020. That migration makes AWS's capability-led story more concrete and more adversarial: Amazon was not only selling cloud and database services to outsiders, but also trying to remove a longtime supplier from its own retail infrastructure because of database scalability and performance needs.
 
 ## Key Characteristics
 - Was one of four legitimate 2018 contenders to reach a trillion-dollar market capitalization.
@@ -38,6 +41,9 @@ The Forbes profile adds the internal expansion engine. Bezos frames Amazon's ret
 - Decision system: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] quotes Bezos on multiple paths to yes for two-way doors and chief-slowdown-officer discipline for one-way doors.
 - Financial and stock scale: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] includes inspected charts showing Bezos at the top of the Forbes 400 in 2018 and Amazon stock up roughly 98,000% over 21 years.
 - Prime and physical retail: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] frames Prime as Amazon's central nervous system and Amazon Go as a cashierless physical-store recombination of grocery, app, AI, sensor, and payments capabilities.
+- Oracle migration plan: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says Amazon planned to be completely off Oracle proprietary database software by the first quarter of 2020.
+- Core retail dependency: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says some parts of Amazon's core shopping business still relied on Oracle in 2018.
+- Scalability driver: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says the main Oracle issue was database scaling relative to Amazon's performance needs.
 - Financial snapshot: [[above-avalon-the-race-to-a-trillion]] lists Amazon at $6B net cash, $18B FY2017 operating cash flow, and an estimated $12B FY2017 R&D expense.
 - Cryptocurrency-payment leverage: [[amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto]] says Amazon handled almost half of U.S. online purchases and could give any adopted cryptocurrency a large support surge.
 - Checkout throughput constraint: [[amazon-is-the-biggest-threat-to-bitcoin-right-now-by-coin-and-crypto]] uses Amazon's peak Prime-sale transaction volume to argue that Bitcoin and Ethereum were too slow for Amazon-scale payment demand.
@@ -46,13 +52,13 @@ The Forbes profile adds the internal expansion engine. Bezos frames Amazon's ret
 - Browser bypass: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] notes that Amazon purchases increasingly happen through mobile apps and devices such as Amazon Echo rather than only through a desktop web portal.
 
 ## Qualifications
-The Above Avalon and Forbes sources are 2018 market-strategy snapshots, the Coin and Crypto source is a speculative cryptocurrency-payments scenario, the Collaborative Fund source is a 2017 strategic essay, and Staltz's source is a 2017 critique and forecast of Web centralization. These sources do not evaluate later antitrust pressure, retail profitability, logistics outcomes, labor issues, advertising growth, Amazon's subsequent market capitalization, actual later cryptocurrency policy, or later outcomes for healthcare and physical-store expansion.
+The Above Avalon, Forbes, and CNBC sources are 2018 snapshots, the Coin and Crypto source is a speculative cryptocurrency-payments scenario, the Collaborative Fund source is a 2017 strategic essay, and Staltz's source is a 2017 critique and forecast of Web centralization. These sources do not evaluate later antitrust pressure, retail profitability, logistics outcomes, labor issues, advertising growth, Amazon's subsequent market capitalization, actual later cryptocurrency policy, later outcomes for healthcare and physical-store expansion, or the final verified outcome of Amazon's Oracle migration.
 
 ## What Changed
 - Added Amazon's origin-level strategy of using Internet distribution change to serve stable customer desires such as selection, price, and delivery speed.
 - Added Forbes's capability-led expansion model for Amazon across retail, cloud, healthcare, advertising, entertainment, hardware, and physical stores.
 - Added Amazon's internal decision model: multiple paths to yes for two-way doors and stricter slowdown for one-way doors.
-- Added Prime and Amazon Go as horizontal connective systems rather than isolated products.
+- Added CNBC's report that Amazon planned to leave Oracle databases for scalability and strategic cloud reasons.
 - Retained Amazon's role in Staltz's open-Web decline thesis as the commerce and cloud pillar of platform centralization.
 
 ## Relationships
@@ -64,6 +70,8 @@ The Above Avalon and Forbes sources are 2018 market-strategy snapshots, the Coin
 - [[AmazonCapabilityLedExpansion]] - captures Amazon's internal capability-to-business expansion model.
 - [[MultiplePathsToYes]] - describes Amazon's reversible-experiment decision structure.
 - [[AWS]] - cloud business and profit engine that funds broader Amazon expansion.
+- [[Oracle]] - longtime database supplier Amazon reportedly planned to leave.
+- [[EnterpriseCloudMigration]] - Amazon's Oracle exit is a case of migration as supplier displacement and cloud credibility.
 - [[AmazonPrime]] - membership system that connects retail, entertainment, fulfillment, sellers, and stores.
 - [[AmazonGo]] - physical-store example combining Amazon's grocery, AI, hardware, app, and payment capabilities.
 - [[AmazonEcho]] - smart-speaker example of Amazon's hardware and AI learning.

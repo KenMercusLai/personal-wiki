@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "14f11768a9d764476954e28975da87276936908a63ff652708f7e164c753eeb4",
       "b7d2626e35b2a1af6b601763d90c3da95135f7a61c023a29ccbbcf89df4091cf",
       "eafe0fec979c21e9a7fbbce3d73ccde8f16f2eaeaf145462e251808311502b39",
       "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
@@ -259,11 +260,37 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 257
+    "paragraph_count": 258
   },
-  "overview_commit": "384f4c1d67c0e63ddf966e208a8e3f743ff7fbb5",
-  "overview_digest": "eb3a8c4cb81fb7110b3324bb2b5c8cd2d86d6cbe27ef562af614fcaf5507cbf6",
+  "overview_commit": "ff99c3930d4b5bac9096da677e0b3daa01ae881f",
+  "overview_digest": "adde3ed526bec2de69212cfeb89995315492dc770b96328edde007f8b895a3ae",
   "paragraphs": [
+    {
+      "id": "14f11768a9d764476954e28975da87276936908a63ff652708f7e164c753eeb4",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest CNBC source adds [[EnterpriseCloudMigration]] to the cloud, database, and platform-competition cluster. [[JordanNovet]] reports that [[Amazon]] planned to finish moving off [[Oracle]] proprietary database software by the first quarter of 2020 after years of migration and after already moving much infrastructure to [[AWS]]. The source sharpens [[AmazonCapabilityLedExpansion]] by showing internal capability as supplier displacement: AWS and related database capability were not just new external businesses, but part of Amazon replacing a longtime database supplier in its own core retail systems. It also qualifies [[DatabaseConsolidation]]: consolidating around one incumbent database can simplify until scale, performance, migration cost, or vendor strategy make that dependency a liability. [[AmazonAurora]], [[AndyJassy]], and [[LarryEllison]] capture the public rivalry around AWS database services, Oracle's mission-critical workload claims, and AWS Database Migration Service traction. No effective image references were present in the source markdown.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AWS",
+        "Amazon",
+        "AmazonAurora",
+        "AmazonCapabilityLedExpansion",
+        "AndyJassy",
+        "DatabaseConsolidation",
+        "EnterpriseCloudMigration",
+        "JordanNovet",
+        "LarryEllison",
+        "Oracle"
+      ]
+    },
     {
       "id": "b7d2626e35b2a1af6b601763d90c3da95135f7a61c023a29ccbbcf89df4091cf",
       "primary_topic": "business-and-markets",

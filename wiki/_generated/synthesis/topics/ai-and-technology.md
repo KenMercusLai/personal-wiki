@@ -4,27 +4,27 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-15
-as_of_overview_commit: 9934ba57ded3ad277fc45aa2d225d5cca69c5636
-input_digest: e2bef4f9aec58b4f811157b7783625c60743a0e5097f7332787092819e74c4eb
+as_of_overview_commit: ff99c3930d4b5bac9096da677e0b3daa01ae881f
+input_digest: 2ef620960d80313981b592be768c6b620746bdbb2729584c30bb21ac922bc658
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
 
 ## Cross-source Findings
 
 ### Technical Depth Over Framework Memorization
 
-Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, AI assistant, or process recipes.
+Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes.
 
-**Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]]
+**Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]]
 
 **Qualifications:**
 
-- Frameworks, cloud services, packaged tools, and AI assistants remain useful when teams understand their fit boundaries, context requirements, and operational tradeoffs.
+- Frameworks, cloud services, packaged tools, incumbent databases, and AI assistants remain useful when teams understand their fit boundaries, context requirements, migration costs, and operational tradeoffs.
 
 ### Concurrency Models Shape Systems Reasoning
 
@@ -102,9 +102,9 @@ Context and retrieval are design surfaces, not background plumbing: Skills, MCP,
 
 ### Operations And Observability Are Product Capabilities
 
-Operational change safety, compliance evidence, and lifecycle management for fragile external dependencies are part of technical product capability, not a late paperwork or deployment afterthought.
+Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought.
 
-**Evidence:** [[ChangeSafety]], [[DeploymentAutomation]], [[DeploymentPipeline]], [[ComplianceArchitecture]], [[ProductionAccessControl]], [[ProductionAgentInfrastructure]], [[WebScrapingProxyPool]], [[Redis]]
+**Evidence:** [[ChangeSafety]], [[DeploymentAutomation]], [[DeploymentPipeline]], [[ComplianceArchitecture]], [[ProductionAccessControl]], [[ProductionAgentInfrastructure]], [[EnterpriseCloudMigration]], [[WebScrapingProxyPool]], [[Redis]]
 
 **Qualifications:**
 
