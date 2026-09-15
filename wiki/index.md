@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Can You Afford It?: Real-world Web Performance Budgets](sources/can-you-afford-it-real-world-web-performance-budgets-infrequently-noted.md) - Alex Russell argues that web teams need performance budgets grounded in low-end devices, slow networks, TTI targets, and hard JavaScript affordability limits.
 - [Can Uber Ever Deliver? Part One - Understanding Uber's Bleak Operating Economics](sources/can-uber-ever-deliver-part-one-understanding-ubers-bleak-operating-economics-naked-capitalism.md) - Hubert Horan argues that Uber's early ride-hailing growth depended on large investor subsidies, weak margins, and driver-pay compression rather than software-like scale economics.
 - [Can Digital Products Be "Timeless?"](sources/can-digital-products-be-timeless-startup-grind-medium.md) - Startup Grind argues that digital products can become timeless design candidates when a focused, iconic core survives rapid platform change, using the Google Homepage and Porsche 911 as the central comparison.
 - [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
@@ -298,6 +299,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Alex Russell](entities/AlexRussell.md) - Web performance author arguing for real-world performance budgets, representative baselines, and JavaScript affordability discipline.
 - [Google Homepage](entities/GoogleHomepage.md) - Search-first Google interface used as the source's digital example of a recognizable product core surviving long-term iteration.
 - [HODINKEE](entities/HODINKEE.md) - Watch and design media/company context that prompted the source's comparison between physical and digital timelessness.
 - [Porsche 911](entities/Porsche911.md) - Physical product comparator used to show recognizable design continuity through decades of iteration.
@@ -1443,7 +1445,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Back-of-Envelope Estimation](concepts/BackOfEnvelopeEstimation.md) - Rough-number system-design method for comparing performance before implementation.
 - [Latency Hierarchy](concepts/LatencyHierarchy.md) - Ordered scale of operation costs across cache, memory, synchronization, compression, network, disk, and long-distance communication.
 - [Web Performance Optimization](concepts/WebPerformanceOptimization.md) - Whole-system practice of reducing page-load time across frontend rendering, network latency, backend processing, caching, and capacity.
-- [Critical Rendering Path](concepts/CriticalRenderingPath.md) - Browser sequence that turns HTML, CSS, JavaScript, layout, and paint into the initial visible page.
+- [Critical Rendering Path](concepts/CriticalRenderingPath.md) - Browser sequence that turns HTML, CSS, JavaScript, layout, and main-thread work into visible and usable page state.
+- [Performance Budget](concepts/PerformanceBudget.md) - Measurable time, byte, and critical-path limits for keeping web products usable on representative devices and networks.
+- [Time To Interactive](concepts/TimeToInteractive.md) - Web performance metric for when a page can reliably respond to user input.
 - [Dynamic Content Caching](concepts/DynamicContentCaching.md) - Caching runtime-changing application data while preserving enough freshness for user-facing correctness.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.

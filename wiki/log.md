@@ -2017,6 +2017,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Can You Afford It?: Real-world Web Performance Budgets
+
+Added Alex Russell's Infrequently Noted article on real-world web performance budgets. Key claims: teams should budget against representative low-end devices and slow networks, Time to Interactive should drive first and repeat load targets, JavaScript is especially expensive because it blocks main-thread interactivity, and rough 2017 budget math leaves about 130-170KB for critical-path resources. No effective image references were present; apparent image paths occur only inside an illustrative HTML code sample.
 ## [2026-09-15] ingest | Can Uber Ever Deliver? Part One - Understanding Uber's Bleak Operating Economics
 
 Added Hubert Horan's Naked Capitalism analysis of Uber's 2012-2016 operating economics. Key claims: Uber's leaked/private financials showed large GAAP and EBITAR losses, passenger fares were heavily subsidized, 2016 margin improvement came largely from lower driver share, and urban car service lacks software-like scale economics because drivers, vehicles, and fuel remain dominant costs. Inspected all three embedded financial tables and incorporated their loss, margin, passenger-payment, and driver-share evidence.
@@ -2325,6 +2329,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
