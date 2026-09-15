@@ -2429,3 +2429,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | Chatbots Deliver the Worst Customer Service
+
+Added Late Night Coding's 2017 critique of customer-service chatbots. Key claims: first-wave bots often behaved like phone-tree robots in text form, could not improvise around non-standard support problems, worked with too little context, hid useful interface affordances behind conversation, and needed quick-reply buttons to expose possible actions. The source also distinguishes Siri- and Alexa-style voice assistants as more defensible for low-stakes, hands-free tasks. The local exported image directory referenced by the markdown was not present under the Articles mount, and the remote cover image was not inspected, so the ingest is based on prose rather than visual evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

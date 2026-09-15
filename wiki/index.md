@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
+- [Chatbots Deliver the Worst Customer Service](sources/chatbots-deliver-the-worst-customer-service-late-night-coding.md) - Late Night Coding argues that customer-service chatbots often hide useful UI, fail to adapt or improvise, and only work well when voice removes typing for low-stakes assistant tasks.
 - [Charging Employees for Conference Rooms Helps Disco Boost Profit - Bloomberg](sources/charging-employees-for-conference-rooms-helps-disco-boost-profit-bloomberg.md) - Bloomberg Businessweek reports that Disco's Personal Will system prices meeting rooms, desks, team services, task auctions, overtime, ideas, and coworker help in virtual currency, improving focus and profitability while adding pressure and short-termism risks.
 - [Capitalism-Without-Capital | Bill Gates](sources/capitalism-without-capital-bill-gates.md) - Bill Gates reviews Haskel and Westlake's intangible-asset economics argument, using software and Microsoft to show why policy, measurement, valuation, competition, and taxation need updating.
 - [Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding](sources/cap-tables-share-structures-valuations-oh-my-a-case-study-of-early-stage-funding-crunchbase-news.md) - Crunchbase News explains startup cap tables, unpriced seed rounds, SAFE conversions, valuation caps, discounts, Series A pricing, dilution, and control effects through a fictitious funding case.
@@ -1057,7 +1058,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
-- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by command discoverability, device naming, reliability, privacy, and whether microphones belong in every product.
+- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by hands-free value, command discoverability, device naming, reliability, privacy, and whether microphones belong in every product.
 - [Smart Home Interoperability](concepts/SmartHomeInteroperability.md) - Ability of home devices, hubs, apps, standards, sensors, and infrastructure products to work together as a reliable household system.
 - [AI Marketing Hype](concepts/AIMarketingHype.md) - Pattern where "AI" becomes broad product-positioning language before the user benefit, model behavior, or technical distinction is clear.
 - [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.
@@ -1504,7 +1505,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
-- [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs but often paired with side canvases for durable artifacts.
+- [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs after first-wave chatbot failures around hidden UI, brittle context, and support escalation.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
