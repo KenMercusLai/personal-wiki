@@ -2054,6 +2054,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Coinbase Wants To Be Too Big To Fail | Fortune
+
+Added Fortune's 2018 Coinbase profile. Key claims: Coinbase used ease of purchase, custody, and compliance to become a mainstream crypto on-ramp; its 2017 boom exposed outages, support, fraud, flash-crash, and Bitcoin Cash controversy risks; and its next strategic path pointed toward institutional custody, regulated brokerage status, acquisitions, and security-token markets. Inspected the article's local image assets; the chart materially adds customer-account and Bitcoin-price evidence, while the repeated portraits and office photos mainly provide context.
+
 ## [2026-09-15] ingest | Cognitive Overhead is Your Product's Overlord
 
 Added First Round Review's David Lieb article on cognitive overhead in product design. Key claims: cognitive simplicity is about user comprehension rather than raw step count; automation can confuse users when it hides decision logic; familiar patterns, consistent product purpose, visible control, and deliberate pacing can reduce cognitive overhead; Bump was cognitively clear despite physical friction while Flock was smoother but confusing. The embedded speaker photograph was inspected and treated as attribution context only.
@@ -2546,6 +2550,10 @@ Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone ca
 ## [2026-09-15] ingest | Cognitive bias cheat sheet
 
 Added Better Humans' cognitive-bias taxonomy. Key claims: biases can be remembered as shortcuts for information overload, meaning-making, fast action, and memory selection; those shortcuts save time and energy while causing predictable errors; and the Chainsawsuit comic plus Cognitive Bias Codex poster materially reinforce the source's confirmation-bias and taxonomy claims.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

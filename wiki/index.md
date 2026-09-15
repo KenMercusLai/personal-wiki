@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Co-founder conflict | TechCrunch](sources/co-founder-conflict-techcrunch.md) - Garry Tan argues that co-founder disputes become dangerous when founders avoid necessary conflict or fight without role boundaries, using Posterous as the central case.
+- [Coinbase Wants To Be Too Big To Fail | Fortune](sources/coinbase-wants-to-be-too-big-to-fail-fortune.md) - Fortune profiles Coinbase as a regulated crypto on-ramp trying to grow beyond boom-driven trading fees into custody, institutional services, and security-token markets.
 - [A Bitter Guide To Open Source](sources/a-bitter-guide-to-open-source-codezillas-medium.md) - Ken Wheeler argues that successful open source depends on concrete problem fit, explicit API design, strong docs, tests, types, release discipline, contributor delegation, and maintainer boundaries.
 - [Claude Code On-The-Go](sources/claude-code-on-the-go.md) - Miguel Granda shows how to run multiple Claude Code agents from a phone using Termius, mosh, Tailscale, a disposable Vultr VM, tmux, push notifications, and worktrees.
 - [The Hardest Part About Microservices: Your Data](sources/christian-posta-the-hardest-part-about-microservices-your-data.md) - Christian Posta argues that microservices are hardest around domain meaning, data ownership, transactional boundaries, and event-driven consistency rather than framework or database-per-service rules.
@@ -426,6 +427,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Beefy Finance](entities/BeefyFinance.md) - Auto-compounding vault platform used for staking and reinvesting Belt LP-token rewards in Taresky's walkthrough.
 - [OKX](entities/OKX.md) - Cryptocurrency exchange example for hourly auction-based lending in the crypto arbitrage source.
 - [Bitfinex](entities/Bitfinex.md) - Cryptocurrency exchange example for order-book lending in the crypto arbitrage source.
+- [Coinbase](entities/Coinbase.md) - Regulated cryptocurrency exchange and custody company profiled as a mainstream crypto on-ramp under boom-bust, operational, and institutionalization pressure.
+- [Brian Armstrong](entities/BrianArmstrong.md) - Coinbase founder and CEO whose Bitcoin thesis became a regulated exchange and custody strategy.
 - [AICOIN](entities/AICOIN.md) - Crypto trading tool named for funding-rate arbitrage order execution and parameter testing.
 - [Coinglass](entities/Coinglass.md) - Crypto-market data site represented by funding-rate heatmaps and rankings in the article.
 - [beepb00p](entities/Beepb00p.md) - Practitioner-author mapping personal data liberation infrastructure around local exports, HPI, Promnesia, Orger, and interoperability workarounds.
@@ -1169,6 +1172,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Python Concurrency Libraries](concepts/PythonConcurrencyLibraries.md) - Python modules and libraries used for threading, multiprocessing, parallel execution, and distributed tasks.
 - [Web Scraping Proxy Pool](concepts/WebScrapingProxyPool.md) - Operational pattern for collecting, storing, validating, and retiring proxy IPs used by web scrapers.
 - [Stablecoin Yield Farming](concepts/StablecoinYieldFarming.md) - DeFi practice of supplying or lending dollar-pegged stablecoins through smart contracts to earn fees, incentive tokens, or auto-compounded yield.
+- [Security Tokens](concepts/SecurityTokens.md) - Blockchain-based tokens representing investable assets such as private-company equity, real estate, art, or other securities-like claims.
 - [Liquidity Provision](concepts/LiquidityProvision.md) - Depositing assets into pools or markets so other users can trade or borrow against that depth in exchange for fees or incentives.
 - [Automated Market Maker](concepts/AutomatedMarketMaker.md) - Smart-contract market mechanism that quotes swaps from liquidity-pool balances rather than a centralized order book.
 - [Impermanent Loss](concepts/ImpermanentLoss.md) - AMM liquidity-provider opportunity cost caused by pool rebalancing versus simply holding the original assets.
