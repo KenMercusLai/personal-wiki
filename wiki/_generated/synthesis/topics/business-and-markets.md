@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 11f08c357d908cd971e3213522a141e016638f15
-input_digest: 641b7f395ad77e333953c063331dfe9b2e2a2485b95676e79e658a2e3f4eacb8
+as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
+input_digest: d2f02af078eba7135d09d4a93c53b3697a39ecaaf47f13d5ca6ef646eec4019d
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence.
 
 ## Cross-source Findings
 
@@ -25,6 +25,16 @@ Business and markets sources frame companies as systems for converting scarce re
 **Qualifications:**
 
 - The evidence is a strategic essay and company examples rather than a cross-industry empirical proof; stable customer desires still need specific mechanisms, execution, and defenses against changing competitors.
+
+### Business History Lessons Need Repeatability Filter
+
+[[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], and [[DollosLaw]] frame business and investing history as useful when learners separate repeatable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market timing, legal systems, competitive conditions, politics, regulation, and path-dependent context.
+
+**Evidence:** [[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[DollosLaw]]
+
+**Qualifications:**
+
+- The repeatability evidence is a Morgan Housel essay and should be treated as a judgment heuristic rather than a formal causal decomposition of Amazon, Buffett, Rockefeller, Musk, or post-crash investing outcomes.
 
 ### Packet Level Networking Needs Platform Verification
 

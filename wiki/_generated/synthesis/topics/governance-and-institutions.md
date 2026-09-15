@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-15
-as_of_overview_commit: 7bdf0d5dc1b23aec86567480d2dc1f689c5e8ce4
-input_digest: afcceb3d692dd4c6eab95c38486d82de237fcac99dee16765de5bf4f576b2533
+as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
+input_digest: 873ee6e136c9b0498f092d16edad0974d5ab0c74d006b1c307902c2ce6b857b0
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.
 
 ## Cross-source Findings
 
@@ -58,6 +58,16 @@ Scale turns informal or one-off practices into boundary-design problems across o
 - The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe.
 - The organization-design evidence comes from one Greenhouse practitioner summary, so it should be applied as a bounded management frame rather than a universal governance law.
 - The VC portfolio-sizing evidence is a simplified investor essay; it treats governance rights and board seats as separable possibilities but does not solve the support-quality problem across very large portfolios.
+
+### Institutional Context Limits Historical Emulation
+
+[[RepeatableLearningFromHistory]], [[JohnDRockefeller]], [[JeffBezos]], [[Amazon]], and [[DollosLaw]] show that legal systems, regulation, politics, and incumbent market structure can be part of a success path, so governance and institutional context should be treated as a boundary on copying historical business tactics.
+
+**Evidence:** [[RepeatableLearningFromHistory]], [[JohnDRockefeller]], [[JeffBezos]], [[Amazon]], [[DollosLaw]]
+
+**Qualifications:**
+
+- The evidence is a strategic essay, and its governance relevance is indirect: it identifies law, politics, regulation, and institutional permission as context that makes some business successes non-repeatable.
 
 ### Platform Trust Is A Strategic Asset
 

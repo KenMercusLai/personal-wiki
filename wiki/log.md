@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Lucky vs. Repeatable
+
+Added Morgan Housel's Collaborative Fund essay on reframing luck as repeatability. Key claims: skill and non-repeatable context can coexist, learners should emulate repeatable skills rather than historical circumstances, business history should teach broad lessons rather than exact future maps, Dollo's Law illustrates path dependence, and narrow postmortems can let the same speculative behavior reappear in a new market. No image references were present in the source Markdown.
+
 ## [2026-09-15] ingest | The Hardest Part About Microservices: Your Data
 
 Added Christian Posta's microservice data-boundary article. Key claims: domain meaning should drive data models, bounded contexts make ambiguous terms explicit, transactional boundaries should protect true business invariants rather than broad object graphs, immutable events reconcile state across boundaries, and persistent event logs can make databases and indexes replayable projections. Inspected all five local diagrams and used them as evidence for service/store boundaries, oversized versus separated transaction boundaries, data-capture/event-handler flow into a replicated log, and the Samza inside-out database reference.
@@ -2550,6 +2554,10 @@ Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone ca
 ## [2026-09-15] ingest | Cognitive bias cheat sheet
 
 Added Better Humans' cognitive-bias taxonomy. Key claims: biases can be remembered as shortcuts for information overload, meaning-making, fast action, and memory selection; those shortcuts save time and energy while causing predictable errors; and the Chainsawsuit comic plus Cognitive Bias Codex poster materially reinforce the source's confirmation-bias and taxonomy claims.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

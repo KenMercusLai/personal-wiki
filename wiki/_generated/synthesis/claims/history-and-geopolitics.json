@@ -48,6 +48,26 @@
     },
     {
       "global_candidate": false,
+      "id": "history-teaches-through-repeatable-patterns-not-recreated-conditions",
+      "qualifications": [
+        "The source is a business-and-investing essay routed into the history topic because it explicitly discusses historical learning and path dependence; it does not provide a full historical method or geopolitical analysis."
+      ],
+      "statement": "[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad repeatable patterns while warning that exact market, legal, regulatory, competitive, and evolutionary paths are path-dependent and rarely reproducible.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "RepeatableLearningFromHistory",
+        "DollosLaw",
+        "MorganHousel",
+        "Amazon",
+        "JeffBezos",
+        "WarrenBuffett",
+        "JohnDRockefeller",
+        "ElonMusk",
+        "JasonZweig"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "strategic-writing-preserves-corporate-history",
       "qualifications": [
         "This is organizational history inside the history topic, not a geopolitical claim; the source is an operator essay rather than an archive or empirical history."
@@ -125,6 +145,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, and market-geography histories rather than substantive geopolitical claims. The newest Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. The newest Housel paragraph adds a repeatability filter: history can teach broad patterns, but exact business, legal, market, regulatory, and path-dependent conditions should not be treated as reproducible. The Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.",
   "topic_id": "history-and-geopolitics"
 }

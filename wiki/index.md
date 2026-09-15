@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Lucky vs. Repeatable](sources/collaborative-fund-lucky-vs-repeatable.md) - Morgan Housel argues that learners should separate repeatable skills and broad lessons from non-repeatable timing, market conditions, law, politics, and competitive context.
 - [Co-founder conflict | TechCrunch](sources/co-founder-conflict-techcrunch.md) - Garry Tan argues that co-founder disputes become dangerous when founders avoid necessary conflict or fight without role boundaries, using Posterous as the central case.
 - [Coinbase Wants To Be Too Big To Fail | Fortune](sources/coinbase-wants-to-be-too-big-to-fail-fortune.md) - Fortune profiles Coinbase as a regulated crypto on-ramp trying to grow beyond boom-driven trading fees into custody, institutional services, and security-token markets.
 - [A Bitter Guide To Open Source](sources/a-bitter-guide-to-open-source-codezillas-medium.md) - Ken Wheeler argues that successful open source depends on concrete problem fit, explicit API design, strong docs, tests, types, release discipline, contributor delegation, and maintainer boundaries.
@@ -328,6 +329,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Jason Zweig](entities/JasonZweig.md) - Investing writer quoted on the danger of learning narrow post-crash lessons that leave speculative behavior intact.
+- [John D. Rockefeller](entities/JohnDRockefeller.md) - Historical business example where distribution-control lessons transfer more readily than the legal context around Standard Oil.
 - [Better Humans](entities/BetterHumans.md) - Medium publication context for the cognitive-bias cheat sheet.
 - [John Manoogian III](entities/JohnManoogianIII.md) - Designer credited with the Cognitive Bias Codex poster remix of the bias taxonomy.
 - [Garry Tan](entities/GarryTan.md) - Founder-investor and TechCrunch author explaining co-founder conflict through Posterous and startup advising experience.
@@ -1116,6 +1119,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Repeatable Learning From History](concepts/RepeatableLearningFromHistory.md) - Learning filter that separates transferable skills and broad patterns from one-time historical circumstances.
+- [Dollo's Law](concepts/DollosLaw.md) - Path-dependence analogy for outcomes caused by real forces that cannot be repeated exactly.
 - [Co-Founder Conflict](concepts/CoFounderConflict.md) - Founder relationship tension that becomes risky when teams avoid direct disagreement or fight constantly without decision boundaries.
 - [Open Source Project Maintenance](concepts/OpenSourceProjectMaintenance.md) - Practice of designing, releasing, supporting, delegating, and evolving public software projects while preserving user trust and maintainer sustainability.
 - [Aggregate Transaction Boundary](concepts/AggregateTransactionBoundary.md) - Smallest practical atomicity boundary needed to protect true business invariants.

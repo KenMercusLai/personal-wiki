@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-14
-as_of_overview_commit: 6d0ef8fb55cb04d619c193ae7735432db5040b88
-input_digest: d3d24c93e4ba47bec279bc0a6c9e3cb4f544096559c64064b60d729c4cec966e
+last_updated: 2026-09-15
+as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
+input_digest: 329b047c63a8f4a9e8d55585df5af8135ddbfc75ee4567d962ff63d579eadc3c
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, and market-geography histories rather than substantive geopolitical claims. The newest Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. The newest Housel paragraph adds a repeatability filter: history can teach broad patterns, but exact business, legal, market, regulatory, and path-dependent conditions should not be treated as reproducible. The Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.
 
 ## Cross-source Findings
 
@@ -36,6 +36,16 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 - These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims.
 - The Long Nose article is represented through a reconstructed archive note, so its timing claims should remain source-scoped.
+
+### History Teaches Through Repeatable Patterns Not Recreated Conditions
+
+[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad repeatable patterns while warning that exact market, legal, regulatory, competitive, and evolutionary paths are path-dependent and rarely reproducible.
+
+**Evidence:** [[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]]
+
+**Qualifications:**
+
+- The source is a business-and-investing essay routed into the history topic because it explicitly discusses historical learning and path dependence; it does not provide a full historical method or geopolitical analysis.
 
 ### Strategic Writing Preserves Corporate History
 

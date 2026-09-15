@@ -76,6 +76,22 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "institutional-context-limits-historical-emulation",
+      "qualifications": [
+        "The evidence is a strategic essay, and its governance relevance is indirect: it identifies law, politics, regulation, and institutional permission as context that makes some business successes non-repeatable."
+      ],
+      "statement": "[[RepeatableLearningFromHistory]], [[JohnDRockefeller]], [[JeffBezos]], [[Amazon]], and [[DollosLaw]] show that legal systems, regulation, politics, and incumbent market structure can be part of a success path, so governance and institutional context should be treated as a boundary on copying historical business tactics.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "RepeatableLearningFromHistory",
+        "JohnDRockefeller",
+        "JeffBezos",
+        "Amazon",
+        "DollosLaw"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "platform-trust-is-a-strategic-asset",
       "qualifications": [
@@ -140,6 +156,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.",
   "topic_id": "governance-and-institutions"
 }

@@ -22,6 +22,26 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "business-history-lessons-need-repeatability-filter",
+      "qualifications": [
+        "The repeatability evidence is a Morgan Housel essay and should be treated as a judgment heuristic rather than a formal causal decomposition of Amazon, Buffett, Rockefeller, Musk, or post-crash investing outcomes."
+      ],
+      "statement": "[[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], and [[DollosLaw]] frame business and investing history as useful when learners separate repeatable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market timing, legal systems, competitive conditions, politics, regulation, and path-dependent context.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "RepeatableLearningFromHistory",
+        "MorganHousel",
+        "JeffBezos",
+        "Amazon",
+        "WarrenBuffett",
+        "JohnDRockefeller",
+        "ElonMusk",
+        "JasonZweig",
+        "DollosLaw"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "packet-level-networking-needs-platform-verification",
       "qualifications": [
@@ -541,6 +561,6 @@
       ]
     }
   ],
-  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence.",
+  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence.",
   "topic_id": "business-and-markets"
 }
