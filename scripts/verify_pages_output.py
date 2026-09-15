@@ -944,13 +944,19 @@ def _verify_projection(contract: CanonicalContract, parsers: dict[str, PageParse
         raise ValueError("Wiki landing is missing a projected knowledge route")
 
 
+def _directory_bucket(key: str) -> str:
+    for char in key:
+        if char.isdigit():
+            return "0-9"
+        if char.isascii() and char.isalpha():
+            return char.casefold()
+    raise ValueError(f"canonical Wiki key has no supported letter or digit: {key!r}")
+
+
 def _verify_directory_identity(contract: CanonicalContract, parsers: dict[str, PageParser], root_url: str) -> None:
     for page in contract.pages:
         if page.section in ALPHABETICAL_SECTIONS:
-            bucket = next(
-                (char.casefold() for char in page.key if char.isascii() and char.isalpha()),
-                "0-9",
-            )
+            bucket = _directory_bucket(page.key)
             directories = [
                 f"wiki/{page.section}/index.html",
                 f"wiki/{page.section}/by-letter/{bucket}/index.html",
