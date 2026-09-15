@@ -1,13 +1,13 @@
 ---
-title: "CS183C Session 19: Jeff Weiner, LinkedIn"
+title: "CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays"
 type: source
 tags: [startup, scaling, leadership, culture, linkedin]
 date: 2015-12-02
-source_file: /mnt/ken_personal_wiki/Articles/CS183C Session 19 Jeff Weiner LinkedIn.md
+source_file: /mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md
 ---
 
 ## Summary
-This CS183C session records [[JeffWeiner]] in conversation with [[ReidHoffman]] about scaling [[LinkedIn]] from a few hundred employees into a global organization. The discussion argues that scale requires codified mission, explicit culture, repeated communication, coaching-based leadership, compassionate management, faster decision quality, and product-led company direction. It also introduces LinkedIn's [[EconomicGraph]] vision as an operational extension of its mission to connect knowledge workers and create economic opportunity.
+This CS183C session records [[JeffWeiner]] in conversation with [[ReidHoffman]] about scaling [[LinkedIn]] from a few hundred employees into a global organization. The discussion argues that scale requires finding the company's core, codifying mission and culture, repeating communication, moving leaders toward coaching, practicing compassionate management, improving decision speed and quality, and preserving product-led company direction. It also introduces LinkedIn's [[EconomicGraph]] vision as an operational extension of its mission to connect knowledge workers and create economic opportunity.
 
 ## Key Claims
 - [[LinkedIn]] needed a codified mission, vision, values, and objectives because informal language no longer worked once the company moved from village scale toward nation scale.
