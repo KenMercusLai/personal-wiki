@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
 - [Chatbots Deliver the Worst Customer Service](sources/chatbots-deliver-the-worst-customer-service-late-night-coding.md) - Late Night Coding argues that customer-service chatbots often hide useful UI, fail to adapt or improvise, and only work well when voice removes typing for low-stakes assistant tasks.
 - [Chatbots Were the Next Big Thing: What Happened?](sources/chatbots-were-the-next-big-thing-what-happened.md) - GrowthBot argues that first-wave chatbots collapsed from hype into a more limited role because brittle decision trees, immature NLP, hidden UI, and app-replacement thinking made pure chat worse than hybrid interfaces for many tasks.
@@ -312,6 +313,17 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Andrew Reed](entities/AndrewReed.md) - Sequoia investor cited for warning founders not to overbenchmark against other companies.
+- [Checkr](entities/Checkr.md) - Company context for Daniel Yanisse's generous-severance advice.
+- [Daniel Yanisse](entities/DanielYanisse.md) - Checkr founder/operator cited for generous exit packages when letting people go.
+- [Howie Liu](entities/HowieLiu.md) - Airtable founder cited for treating advice as context-dependent signal.
+- [Jared Smith](entities/JaredSmith.md) - Qualtrics operator cited for one-way/two-way decision advice and founder instinct.
+- [Laura Behrens Wu](entities/LauraBehrensWu.md) - Shippo founder cited for the toxic-fit versus open-role personnel warning.
+- [Paul Buchheit](entities/PaulBuchheit.md) - YC partner and Gmail creator cited for advising Front to follow its growth.
+- [Peter Reinhardt](entities/PeterReinhardt.md) - Segment founder/operator cited for repeating the mission at every all-hands.
+- [Qualtrics](entities/Qualtrics.md) - Company context for Jared Smith's decision and founder-instinct advice.
+- [Shippo](entities/Shippo.md) - Company context for Laura Behrens Wu's personnel advice.
+- [Simon Sinek](entities/SimonSinek.md) - Purpose-first leadership author cited to support mission repetition.
 - [Disco](entities/Disco.md) - Japanese chip-equipment maker represented by Bloomberg's Personal Will internal market case.
 - [Kazuma Sekiya](entities/KazumaSekiya.md) - Disco CEO associated with the game-inspired management experiment and Colosseum idea review.
 - [Toshio Naito](entities/ToshioNaito.md) - Disco management-system designer credited with creating and stewarding Personal Will.
@@ -1047,6 +1059,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Founder Instinct](concepts/FounderInstinct.md) - Context-rich founder judgment built from early customer, product, and operating exposure.
 - [Amoeba Management](concepts/AmoebaManagement.md) - Kyocera-associated team-as-company management model that Disco extends to individual workers.
 - [Internal Market Management](concepts/InternalMarketManagement.md) - Organization design using internal prices, budgets, auctions, penalties, and settlement mechanisms to coordinate work.
 - [Workplace Incentive Design](concepts/WorkplaceIncentiveDesign.md) - Shaping rewards, penalties, metrics, prices, and feedback loops so workplace behavior aligns with organizational goals.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7c7c04a35c6344388dd1ac0ea2905172c9475a67b9024a2157bedd8c13d44e27",
       "aebb08d3e5eb7a9a08908eb3a2e2419c067325014e54fe8b41b2603b5cc78b4f",
       "3fd116bd059e7d38f51cd1c605c514c9cce36161ae20106fb6b7f495c7f6ad4f",
       "448654b4359c4b7f8eff4a75c545e8fc521aa77c00cb25d2c69b642d1a572a36",
@@ -265,11 +266,29 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 263
+    "paragraph_count": 264
   },
-  "overview_commit": "c6c02ab3f19b732e34bd08e13c2db3044cf212b1",
-  "overview_digest": "5f25fa966cc22bcc3bc529ce70d72023b79a815038133eea2323f77b0650e213",
+  "overview_commit": "e293f759cf11cab20a46171628f6fbe0130ac7f7",
+  "overview_digest": "680a617277cc503ac1a5bc25f96cc8d151b4abe04fde6238e54ffd58175604d3",
   "paragraphs": [
+    {
+      "id": "7c7c04a35c6344388dd1ac0ea2905172c9475a67b9024a2157bedd8c13d44e27",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Mathilde Collin source adds a compact founder-operator layer to the wiki's startup-scaling material. New [[FounderInstinct]] names the context-rich judgment founders build by selling to early customers, doing many jobs, and seeing the product and market directly; Collin's Front story says that judgment must be exercised, filtered through customer and growth evidence, and deliberately transmitted to executives before autonomy works. [[StartupHiringAtScale]] gains Collin's hiring and firing prompts: use early candidates as culture multipliers, prefer an open role to toxic fit, and make necessary exits humane enough for managers to act. [[MultiplePathsToYes]], [[ScalingCommunication]], and [[CEOScalingRole]] are also sharpened by the advice to stay close to irreversible decisions, repeat the mission at all-hands, avoid overbenchmarking, and treat outside advice as context-dependent signal rather than command. The source contained no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "culture-and-media": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CEOScalingRole",
+        "FounderInstinct",
+        "MultiplePathsToYes",
+        "ScalingCommunication",
+        "StartupHiringAtScale"
+      ]
+    },
     {
       "id": "aebb08d3e5eb7a9a08908eb3a2e2419c067325014e54fe8b41b2603b5cc78b4f",
       "primary_topic": "business-and-markets",

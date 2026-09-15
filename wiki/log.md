@@ -2038,6 +2038,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | 9 most useful pieces of advice I've received
+
+Added Mathilde Collin's Front-building advice essay. Key claims: founders should follow customer and growth evidence, use early hires as culture multipliers, remove toxic fit even when it leaves a vacancy, separate one-way-door from two-way-door decisions, give humane severance, repeat mission at all-hands, avoid overbenchmarking, transmit founder instinct to executives, and treat outside advice as context-dependent signal. No effective image references were present in the source markdown.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -2444,6 +2448,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Chatbots Deliver the Worst Customer Service
 
 Added Late Night Coding's 2017 critique of customer-service chatbots. Key claims: first-wave bots often behaved like phone-tree robots in text form, could not improvise around non-standard support problems, worked with too little context, hid useful interface affordances behind conversation, and needed quick-reply buttons to expose possible actions. The source also distinguishes Siri- and Alexa-style voice assistants as more defensible for low-stakes, hands-free tasks. The local exported image directory referenced by the markdown was not present under the Articles mount, and the remote cover image was not inspected, so the ingest is based on prose rather than visual evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
