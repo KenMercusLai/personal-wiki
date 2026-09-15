@@ -2030,6 +2030,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Cars and second order consequences
+
+Added Benedict Evans' EV and autonomous-vehicle second-order consequences essay. Key claims: EVs affect maintenance, gas stations, fuel taxes, subsidies, grids, and storage; autonomy affects crashes, insurance, vehicle design, congestion, parking, land use, public transport, labor, urban form, and surveillance. No effective local image references were present in the source markdown.
+
 ## [2026-09-15] ingest | Can You Afford It?: Real-world Web Performance Budgets
 
 Added Alex Russell's Infrequently Noted article on real-world web performance budgets. Key claims: teams should budget against representative low-end devices and slow networks, Time to Interactive should drive first and repeat load targets, JavaScript is especially expensive because it blocks main-thread interactivity, and rough 2017 budget math leaves about 130-170KB for critical-path resources. No effective image references were present; apparent image paths occur only inside an illustrative HTML code sample.
@@ -2341,6 +2345,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

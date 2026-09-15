@@ -33,4 +33,4 @@ Crunchbase News explains [[StartupFinancingMechanics]] through a fictitious star
 
 ## Contradictions
 - No direct contradictions found. The source complements existing employee-equity pages by explaining company-side fundraising mechanics rather than employee offer evaluation.
-- The repeated local embed `../98. static/img/a2692b3cf5a63f969b94c3bdd0a26a3c_MD5.png` could not be treated as image evidence because the file is actually an HTML document, not a readable PNG.
+- The repeated local embed could not be treated as image evidence because the file is actually an HTML document, not a readable PNG.
