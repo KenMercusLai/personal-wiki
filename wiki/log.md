@@ -2013,6 +2013,9 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | 74% of No. 1 iPhone Apps Don't Last a Month in the Top 25
+
+Ingested the Sensor Tower article on first-time No. 1 U.S. iPhone download-chart apps in 2015 and 2016. Key claims: 74% of the 53-app sample left the top 25 within a month, only 8% remained after three months, dominant incumbent apps made long-term chart presence difficult, and developers should treat App Store Optimization and Apple featuring as more durable visibility work than chart-rank acquisition alone. The three remote images in the markdown returned S3 AccessDenied XML responses during ingest, so the chart evidence was incorporated only where the article prose restated the values.
 
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn
 
@@ -2315,6 +2318,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

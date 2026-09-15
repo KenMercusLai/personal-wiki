@@ -128,6 +128,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [An Open Letter To My CEO](sources/an-open-letter-to-my-ceo-talia-jane-medium.md) - Talia Jane's open letter argues that low-paid Yelp/Eat24 support work created food, rent, transit, and utility insecurity despite the company's tech-scale resources and office perks.
 - [Always Invest In Your Education](sources/always-invest-in-your-education-the-blog-of-darius-foroux-medium.md) - Darius Foroux argues that self-education should be a continuous investment because knowledge improves decisions, opportunity, earning power, and resilience.
 - [An 8-Min Guide to App Landing Pages](sources/an-8-min-guide-to-app-landing-pages-the-startup-medium.md) - Appster argues that app landing pages validate demand, drive downloads, collect leads, measure marketing, and convert through value proposition, CTA clarity, visuals, social proof, and information hierarchy.
+- [74% of No. 1 iPhone Apps Don't Last a Month in the Top 25](sources/74-of-no-1-iphone-apps-dont-last-a-month-in-the-top-25.md) - Sensor Tower reports that most first-time No. 1 U.S. iPhone download-chart apps in 2015-2016 fell out of the top 25 within a month.
 - [App Annie 2015: Google Play saw 100% more downloads than the iOS App Store, but Apple generated 75% more revenue](sources/app-annie-2015-google-play-saw-100-percent-more-downloads-than-ios-app-store-venturebeat.md) - VentureBeat reports App Annie's 2015 app-store estimates: Google Play led downloads while Apple's App Store led revenue.
 - [Asana's September 8 Outage](sources/asanas-september-8-outage.md) - Asana's 2016 outage postmortem traces a faulty logging deploy through CPU saturation, misleading symptoms, rollback selection, bad-revision blacklisting, and response improvements.
 - [Apple as the new Disney](sources/apple-as-the-new-disney-benedict-evans.md) - Benedict Evans argues that Apple's 2019 services push combined subscription revenue and retention with a trust, privacy, curation, and anti-scam brand promise.
@@ -745,6 +746,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pinterest](entities/Pinterest.md) - Company that acquired Instapaper in 2016 and made Premium free while keeping the product standalone.
 - [App Store](entities/AppStore.md) - Apple's mobile app marketplace, a distribution platform for Instapaper and a 2015 revenue leader versus Google Play.
 - [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 estimates frame the Google Play versus App Store download and revenue split.
+- [Sensor Tower](entities/SensorTower.md) - Mobile app analytics firm whose App Intelligence data shows short-lived No. 1 iPhone download-chart visibility.
 - [编程随想](entities/BianChengSuiXiang.md) - Authorial identity behind the systematic-learning article connecting media choice, Feynman-style explanation, DIKW, and cross-domain wisdom.
 - [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
@@ -1181,7 +1183,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
 - [Apple Music Culture Platform](concepts/AppleMusicCulturePlatform.md) - Strategy of making Apple Music a home for artists, radio, brand, and shared cultural moments rather than only a streaming catalog.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
-- [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile app marketplace downloads, revenue, geography, and category mix.
+- [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile app marketplace downloads, revenue, geography, category mix, and ranking durability.
 - [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
@@ -1615,7 +1617,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Osborne Effect](concepts/OsborneEffect.md) - Product-transition failure mode where announcing the next platform too early collapses demand for the current one before the replacement is ready.
 - [Platform Business Model Obstacle](concepts/PlatformBusinessModelObstacle.md) - Platform failure mode where technology improves but the prevailing revenue or licensing model no longer fits ecosystem economics.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
-- [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users and brands find services when search, app stores, operating systems, notifications, messaging, ads, and traffic holders shape attention.
+- [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users and brands find services when search, app stores, charts, operating systems, notifications, messaging, ads, and traffic holders shape attention.
 - [Digital Cartography](concepts/DigitalCartography.md) - Screen-based, dynamic, personalized, and platform-mediated mapmaking shaped by data, design, law, and commercial context.
 - [Location Data Privacy](concepts/LocationDataPrivacy.md) - Privacy problem created when systems collect or infer where people are, where they go, and what they seek there.
 - [User-Generated Mapping](concepts/UserGeneratedMapping.md) - Map-building pattern where public, volunteer, customer, or community contributions update and enrich map data.
