@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be](sources/chris-bailey-exactly-how-long-your-work-breaks-should-be.md) - Chris Bailey argues that knowledge workers should take more deliberate breaks, using 90-minute morning blocks, Pomodoro cycles, and roughly 15 minutes off per work hour as recovery heuristics.
 - [99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns](sources/99-vc-problems-but-a-batch-aint-one-why-portfolio-size-matters-for-returns.md) - Dave McClure argues that VC portfolios are often too concentrated for rare power-law startup outcomes, recommending much larger early-stage and later-stage fund portfolios.
 - [Checklists for Startups](sources/checklists-for-startups-david-lee-medium.md) - David Lee curates startup checklists from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley for strategy, fundraising, metrics, and marketplace evaluation.
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
@@ -316,6 +317,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Chris Bailey](entities/ChrisBailey.md) - Productivity author represented by advice on work-break timing, energy restoration, and attention recovery.
 - [Dave McClure](entities/DaveMcClure.md) - Investor-author arguing that VC portfolios should be sized around rare power-law winners.
 - [500 Startups](entities/500Startups.md) - High-volume venture platform used as evidence for larger early-stage startup portfolios.
 - [David Lee](entities/DavidLee.md) - Author who curates startup checklists for strategy, fundraising, metrics, and marketplace evaluation.
@@ -1067,6 +1069,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Work Breaks](concepts/WorkBreaks.md) - Deliberate recovery intervals that restore energy, attention, and perspective during knowledge work.
 - [Venture Capital Portfolio Sizing](concepts/VentureCapitalPortfolioSizing.md) - Choosing VC company count around startup attrition, power-law outcomes, reserves, and outlier exposure.
 - [Startup Evaluation Checklists](concepts/StartupEvaluationChecklists.md) - Compact founder diagnostics for startup strategy, fundraising readiness, metrics, and marketplace evaluation.
 - [Founder Instinct](concepts/FounderInstinct.md) - Context-rich founder judgment built from early customer, product, and operating exposure.

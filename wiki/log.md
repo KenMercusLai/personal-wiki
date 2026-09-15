@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be
+
+Added Chris Bailey's work-break timing article. Key claims: knowledge workers should take more breaks than they usually do, morning focus can be organized into 90-minute blocks with at least 20 minutes off, Pomodoro cycles can structure afternoon recovery, and an easy general heuristic is about 15 minutes of break time per hour worked. No image references were present in the source Markdown.
+
 ## [2026-09-15] ingest | Chatbots: a Misleading Term We Should Stop Using
 
 Added Botnerds' 2016 critique of "chatbot" as a general category label. Key claims: the term overpromises casual humanlike conversation, only precisely fits chat-first products such as Xiaoice, and can trivialize B2B automation work. Inspected all five unique local image assets: the CNN Messenger screenshot and Google Trends chart supported the failure and hype-spike claims, the tiny survey chart was used only as high-level support for the terminology comparison, and the small thumbnails added no separate evidence.
@@ -2479,6 +2483,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Checklists for Startups
 
 Added source. Key claims: David Lee recommends reusing startup checklist frameworks from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley; Thiel's seven questions test technology, timing, market wedge, team, distribution, durability, and secrets; checklists are easy to write but hard to execute.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
