@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 2d38d75d49e51eeb01c2e6a2c7790068eb8a5cae
-input_digest: 0ee6a99609a914d8943b7ed8748bf60df4756901648aea4d4e20e6164d99e5a8
+as_of_overview_commit: 8b336eb53ecafd8636ae154d74fc0465e39be4ca
+input_digest: 22e7bc0f9e4a7a7c53330e665fcd84c1623e26780b20399001bf12f324ac37d9
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, pricing behavior carefully, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, pricing behavior carefully, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system. The GrowthBot source adds a product-facing expectation lesson: conversational systems trigger human social expectations, so brittle automation can create frustration when it pretends to supply empathy, memory, or flexible understanding that it does not have.
 
 ## Cross-source Findings
 
@@ -115,3 +115,13 @@ Psychology and personal-development sources treat progress as a bounded attentio
 **Qualifications:**
 
 - This is a secondary fit for the psychology topic: the evidence is an ecommerce performance case study, not a controlled attention or decision-making study.
+
+### Conversational Automation Must Calibrate Human Expectations
+
+[[ConversationalUI]], [[NaturalLanguageProcessing]], [[MessagingAsPlatform]], [[FacebookMessenger]], [[Slack]], and [[WeChat]] show a psychological constraint on chatbot products: when automation borrows the form of human conversation, users expect context, memory, empathy, and recovery that brittle first-wave systems often could not provide.
+
+**Evidence:** [[ConversationalUI]], [[NaturalLanguageProcessing]], [[MessagingAsPlatform]], [[FacebookMessenger]], [[Slack]], [[WeChat]]
+
+**Qualifications:**
+
+- This is a secondary fit for the psychology topic and comes from a practitioner product critique rather than a user-study dataset.

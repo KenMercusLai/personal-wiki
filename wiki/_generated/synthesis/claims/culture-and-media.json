@@ -194,8 +194,25 @@
         "StartupHiringAtScale",
         "ScalingCommunication"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "conversational-media-needs-visible-structure",
+      "qualifications": [
+        "The claim is grounded in a chatbot postmortem assigned to the culture topic because it concerns communication form; it should not be read as a full media-history account of messaging platforms."
+      ],
+      "statement": "[[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[FacebookMessenger]], [[Slack]], and [[WeChat]] show chatbots as a cultural interface bet: messaging familiarity created platform expectations, but first-wave bots needed visible structure, narrower scope, or hybrid app surfaces to become useful media for machine interaction.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ConversationalUI",
+        "MessagingAsPlatform",
+        "NaturalLanguageProcessing",
+        "FacebookMessenger",
+        "Slack",
+        "WeChat"
+      ]
     }
   ],
-  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, aesthetics, and workplace culture as a designed system. Recent Greenhouse material adds that culture can be shaped through explicit values, rewards, ignored behavior, release process, professional-development conversations, front-line change support, manager service, feedback, and validation rather than left as informal residue.",
+  "summary": "The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, aesthetics, and workplace culture as a designed system. Recent Greenhouse material adds that culture can be shaped through explicit values, rewards, ignored behavior, release process, professional-development conversations, front-line change support, manager service, feedback, and validation rather than left as informal residue. The GrowthBot chatbot postmortem adds conversational interfaces to this cultural layer: chat imitates a human communication form, but product culture has to decide when conversation, GUI, dashboard, or hybrid media better fits how people actually want to interact with machines.",
   "topic_id": "culture-and-media"
 }

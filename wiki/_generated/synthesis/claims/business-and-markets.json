@@ -486,16 +486,23 @@
       "global_candidate": false,
       "id": "mobile-and-messaging-reshape-distribution-surfaces",
       "qualifications": [
-        "The messaging-ad and mobile-platform evidence is time-bound and does not by itself prove later user acceptance, profitability, or regulatory outcomes."
+        "The messaging evidence spans 2015-2018 strategic snapshots and practitioner critiques; WeChat-style integration, Western chatbot platforms, voice assistants, and multimodal app extensions should not be collapsed into one universal platform trajectory.",
+        "The GrowthBot evidence is a post-hype diagnosis rather than a benchmark, but it grounds the qualification that immature NLP, brittle decision trees, hidden UI, and app-replacement thinking can defeat the promised friction advantage."
       ],
-      "statement": "[[MobileRuntime]], [[MessagingAsPlatform]], [[MobileMessagingAdvertising]], [[WearableComputing]], and [[InternetOfThingsData]] show mobile ecosystems creating new runtime, ad, device, and data surfaces for business distribution.",
-      "status": "supported",
+      "statement": "[[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileRuntime]], [[MessagingAsPlatform]], [[ConversationalUI]], [[NaturalLanguageProcessing]], [[ProductFlowFriction]], [[VoiceAssistantUX]], [[FacebookMessenger]], [[Slack]], and [[WeChat]] show mobile and messaging reshaping distribution, discovery, runtime choice, service access, and interface expectations, while first-wave chatbot failures show that low access friction does not by itself create a durable ecosystem.",
+      "status": "qualified",
       "supporting_wikilinks": [
+        "MobileEcosystem",
+        "MobilePlatformDiscovery",
         "MobileRuntime",
         "MessagingAsPlatform",
-        "MobileMessagingAdvertising",
-        "WearableComputing",
-        "InternetOfThingsData"
+        "ConversationalUI",
+        "NaturalLanguageProcessing",
+        "ProductFlowFriction",
+        "VoiceAssistantUX",
+        "FacebookMessenger",
+        "Slack",
+        "WeChat"
       ]
     },
     {
@@ -515,6 +522,6 @@
       ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Gates's review of Haskel and Westlake adds intangible-asset economics as a bridge between Microsoft-style software leverage and macroeconomic policy: high first-copy investment with cheap reproduction changes valuation, capital needs, GDP measurement, IP, competition, taxation, and regional advantage. The Uber material adds the paired caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Crunchbase News adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Gates's review of Haskel and Westlake adds intangible-asset economics as a bridge between Microsoft-style software leverage and macroeconomic policy: high first-copy investment with cheap reproduction changes valuation, capital needs, GDP measurement, IP, competition, taxation, and regional advantage. The Uber material adds the paired caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Crunchbase News adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions. The GrowthBot chatbot postmortem adds a correction to the mobile and messaging platform strand: conversational distribution can lower some access costs, but an ecosystem still needs mature interaction affordances, NLP, developer tooling, payments, and task fit before platform expectations become business reality.",
   "topic_id": "business-and-markets"
 }
