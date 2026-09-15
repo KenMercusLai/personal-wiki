@@ -359,6 +359,25 @@ def _stats(pages: list[WikiPage], references: int) -> bytes:
 
 def _source_projection(page: WikiPage, images: list[tuple[str, str, bytes]]) -> bytes:
     source = page.path.read_text(encoding="utf-8").rstrip()
+    date = page.metadata.get("date")
+    if isinstance(date, str) and re.fullmatch(r"[0-9]{4}-(?:0[1-9]|1[0-2])", date):
+        lines = source.splitlines()
+        front_matter_end = lines.index("---", 1)
+        for index in range(1, front_matter_end):
+            key, separator, raw = lines[index].partition(":")
+            if separator and key.strip() == "date":
+                value = raw.strip()
+                quote = (
+                    value[0]
+                    if len(value) >= 2
+                    and value[0] == value[-1]
+                    and value[0] in {'"', "'"}
+                    else ""
+                )
+                replacement = f"{quote}{date}-01{quote}"
+                lines[index] = f"{key}:{raw.replace(value, replacement, 1)}"
+                break
+        source = "\n".join(lines)
     if images:
         source += "\n\n## Images\n\n" + "\n\n".join(f"![{alt}]({name})" for name, alt, _ in images)
     return (source + "\n\n" + GENERATED_NOTICE + "\n").encode("utf-8")
