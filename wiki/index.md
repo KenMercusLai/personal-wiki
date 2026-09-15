@@ -17,6 +17,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Checklists for Startups](sources/checklists-for-startups-david-lee-medium.md) - David Lee curates startup checklists from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley for strategy, fundraising, metrics, and marketplace evaluation.
 - [ClassPass' Founder on How Marketplace Startups Can Achieve Product-Market Fit](sources/classpass-founder-on-how-marketplace-startups-can-achieve-product-market-fit-first-round-review.md) - First Round Review interviews Payal Kadakia on how ClassPass moved from unused search to Passport and then subscription by focusing on marketplace transactions, behavior change, manual learning, and reservations per person.
 - [Cognitive Overhead is Your Product's Overlord](sources/cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review.md) - First Round Review presents David Lieb's advice on reducing product cognitive overhead through control, familiarity, consistency, deliberate pacing, and sensitive user testing.
+- [Cognitive bias cheat sheet](sources/cognitive-bias-cheat-sheet-better-humans-medium.md) - Better Humans reframes cognitive biases as shortcuts for information overload, meaning-making, fast action, and memory selection.
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
 - [Chatbots: a Misleading Term We Should Stop Using](sources/chatbots-a-misleading-term-we-should-stop-using-botnerds-medium.md) - Botnerds argues that "chatbot" overpromises casual humanlike conversation, fits only chat-first systems, and undersells business automation work.
@@ -326,6 +327,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Better Humans](entities/BetterHumans.md) - Medium publication context for the cognitive-bias cheat sheet.
+- [John Manoogian III](entities/JohnManoogianIII.md) - Designer credited with the Cognitive Bias Codex poster remix of the bias taxonomy.
 - [Garry Tan](entities/GarryTan.md) - Founder-investor and TechCrunch author explaining co-founder conflict through Posterous and startup advising experience.
 - [Posterous](entities/Posterous.md) - Startup case showing how growth can mask co-founder relationship problems until the company hits a harder phase.
 - [Cameron Yarbrough](entities/CameronYarbrough.md) - Executive coach credited by Garry Tan for relationship-conflict framing in founder disputes.
@@ -1198,6 +1201,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Make Good New Things](concepts/MakeGoodNewThings.md) - Creative-life ethic treating valuable new artifacts as care, learning, asymmetric return, and a traceable record of life.
 - [AI-Era Creative Standards](concepts/AIEraCreativeStandards.md) - Quality expectations needed when AI makes acceptable average creative and technical output cheap and abundant.
 - [Cognitive Curiosity](concepts/CognitiveCuriosity.md) - Mechanism-seeking curiosity aimed at how and why, used as creative direction rather than surface novelty.
+- [Cognitive Bias Taxonomy](concepts/CognitiveBiasTaxonomy.md) - Framework grouping cognitive biases by information overload, meaning construction, fast action, and memory selection.
 - [Gamification](concepts/Gamification.md) - Using points, reputation, streaks, or other game-like mechanics as a weak behavioral layer around an activity users already value.
 - [SAPS Reward Framework](concepts/SAPSRewardFramework.md) - Gamification reward hierarchy that prioritizes Status, Access, and Power before tangible Stuff.
 - [Community Reputation Systems](concepts/CommunityReputationSystems.md) - Community scoring systems that convert feedback into ranking, recognition, trust, privileges, or moderation signals.
@@ -1678,7 +1682,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
 - [Pseudowire Transport Types](concepts/PseudowireTransportTypes.md) - MPLS pseudowire Type 4/Type 5 and transport-mode choices that govern Ethernet/VLAN encapsulation behavior.
 - [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
-- [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment.
+- [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment, also framed as a fast-action completion shortcut.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
 - [Personal Knowledge Management](concepts/PersonalKnowledgeManagement.md) - Capturing, organizing, retrieving, and reusing notes, work logs, and source material while keeping the system accountable to output.

@@ -2543,6 +2543,14 @@ Ran lint. See lint-report.md for details.
 
 Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone can supervise multiple cloud-hosted coding agents when Termius, mosh, Tailscale, tmux, push notifications, a disposable VM, git worktrees, and deterministic port allocation provide persistence, isolation, and async human checkpoints. No effective image references were present; the Mermaid architecture diagram was treated as source evidence.
 
+## [2026-09-15] ingest | Cognitive bias cheat sheet
+
+Added Better Humans' cognitive-bias taxonomy. Key claims: biases can be remembered as shortcuts for information overload, meaning-making, fast action, and memory selection; those shortcuts save time and energy while causing predictable errors; and the Chainsawsuit comic plus Cognitive Bias Codex poster materially reinforce the source's confirmation-bias and taxonomy claims.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

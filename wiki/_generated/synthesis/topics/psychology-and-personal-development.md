@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 11f08c357d908cd971e3213522a141e016638f15
-input_digest: c40405b7d680c59ffa7b4cd996a108778dd28782fbd67fc313edffba2efd085e
+as_of_overview_commit: 22ed6fcadba462397f5fc596ab794039a0b39baf
+input_digest: 5469da2856ae86e3cf27d22e41ed499697cf553d2d316cf1a2160bddedb0fac6
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -75,6 +75,16 @@ Psychology and personal-development sources treat progress as a bounded attentio
 **Qualifications:**
 
 - The method improves weak or divided crowds, but strong consensus remains treated as a useful proxy in the source.
+
+### Cognitive Biases Are Functional Shortcuts With Costs
+
+[[CognitiveBiasTaxonomy]], [[SunkCostFallacy]], and [[FalseConsensusEffect]] frame cognitive biases as functional shortcuts for filtering information, constructing meaning, acting quickly, and selecting memories, with predictable errors when those shortcuts dominate context-sensitive judgment.
+
+**Evidence:** [[CognitiveBiasTaxonomy]], [[SunkCostFallacy]], [[FalseConsensusEffect]]
+
+**Qualifications:**
+
+- The four-part bias taxonomy is a practitioner synthesis and memory aid rather than a formal proof that the categories are exhaustive or mutually exclusive.
 
 ### Reputation Evidence Can Counter Similarity Bias
 

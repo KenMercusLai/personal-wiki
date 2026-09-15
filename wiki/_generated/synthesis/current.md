@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: 11f08c357d908cd971e3213522a141e016638f15
+as_of_overview_commit: 22ed6fcadba462397f5fc596ab794039a0b39baf
 summary: "The wiki maps how systems, markets, work, learning, and institutions turn constraints into practices for judgment, trust, and change."
-episode_count: 317
-source_count: 317
-paragraph_count: 268
+episode_count: 319
+source_count: 319
+paragraph_count: 269
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, while [[CBInsights]] adds that failure is usually compound, with weak fit, exhausted runway, premature scaling, market-timing mismatch, platform dependence, operational complexity, governance trouble, unresolved founder conflict, and business-model fragility reinforcing one another.
-- [[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]] argue that collaboration improves when people start from good faith, maintain relationships actively, process conflict directly, and define decision boundaries before avoidance or chronic fighting consumes trust.
+- [[CognitiveBiasTaxonomy]], [[SunkCostFallacy]], and [[FalseConsensusEffect]] frame cognitive biases as functional shortcuts for filtering information, constructing meaning, acting quickly, and selecting memories, with predictable errors when those shortcuts dominate context-sensitive judgment.
 - [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]] that makes promotion expectations explicit while preserving craft judgment.
 
 ## Synthesis by Domain
@@ -68,7 +68,7 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 ### Psychology and Personal Development
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]].
 - [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior change and leadership behavior as repeatable loops where motivation, ability, prompts, feedback, recognition, context-sharing, reflection, price signals, and bounded making shape future action. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
