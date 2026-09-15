@@ -2054,6 +2054,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Cognitive Overhead is Your Product's Overlord
+
+Added First Round Review's David Lieb article on cognitive overhead in product design. Key claims: cognitive simplicity is about user comprehension rather than raw step count; automation can confuse users when it hides decision logic; familiar patterns, consistent product purpose, visible control, and deliberate pacing can reduce cognitive overhead; Bump was cognitively clear despite physical friction while Flock was smoother but confusing. The embedded speaker photograph was inspected and treated as attribution context only.
+
 ## [2026-09-15] ingest | Co-founder conflict | TechCrunch
 
 Added Garry Tan's TechCrunch essay on co-founder conflict. Key claims: startup success can hide founder relationship problems; prior friendship and history are not enough without active maintenance; avoidance, self-abandonment, and surface harmony can be as dangerous as constant fighting; unclear decision ownership intensifies chronic conflict; and trusted advisors, mentors, or executive coaching can help before disputes become company-killing. Inspected the duplicated remote image variant via Flickr; it is illustrative and did not add independent factual evidence.
@@ -2538,6 +2542,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Claude Code On-The-Go
 
 Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone can supervise multiple cloud-hosted coding agents when Termius, mosh, Tailscale, tmux, push notifications, a disposable VM, git worktrees, and deterministic port allocation provide persistence, isolation, and async human checkpoints. No effective image references were present; the Mermaid architecture diagram was treated as source evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

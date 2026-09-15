@@ -16,6 +16,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns](sources/99-vc-problems-but-a-batch-aint-one-why-portfolio-size-matters-for-returns.md) - Dave McClure argues that VC portfolios are often too concentrated for rare power-law startup outcomes, recommending much larger early-stage and later-stage fund portfolios.
 - [Checklists for Startups](sources/checklists-for-startups-david-lee-medium.md) - David Lee curates startup checklists from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley for strategy, fundraising, metrics, and marketplace evaluation.
 - [ClassPass' Founder on How Marketplace Startups Can Achieve Product-Market Fit](sources/classpass-founder-on-how-marketplace-startups-can-achieve-product-market-fit-first-round-review.md) - First Round Review interviews Payal Kadakia on how ClassPass moved from unused search to Passport and then subscription by focusing on marketplace transactions, behavior change, manual learning, and reservations per person.
+- [Cognitive Overhead is Your Product's Overlord](sources/cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review.md) - First Round Review presents David Lieb's advice on reducing product cognitive overhead through control, familiarity, consistency, deliberate pacing, and sensitive user testing.
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
 - [Chatbots: a Misleading Term We Should Stop Using](sources/chatbots-a-misleading-term-we-should-stop-using-botnerds-medium.md) - Botnerds argues that "chatbot" overpromises casual humanlike conversation, fits only chat-first systems, and undersells business automation work.
@@ -527,7 +528,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Speed of Trust](entities/TheSpeedOfTrust.md) - Book cited as support for high-trust relationships improving efficiency and effectiveness.
 - [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
 - [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
-- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication represented by interviews on Thumbtack executive hiring and ClassPass product-market fit.
+- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication represented by interviews on Thumbtack executive hiring, ClassPass product-market fit, and David Lieb's cognitive-overhead product advice.
 - [Manuel Matuzovic](entities/ManuelMatuzovic.md) - Teacher, friend, and mentor in the junior-developer career-transition source.
 - [Arianna Huffington](entities/AriannaHuffington.md) - Media founder and sleep advocate connecting HuffPost leadership with The Sleep Revolution, recovery routines, and burnout-prevention practices.
 - [Annie Ridout](entities/AnnieRidout.md) - Journalist and interviewer for The Early Hour's Arianna Huffington interview.
@@ -609,11 +610,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Neil Cybart](entities/NeilCybart.md) - Former Wall Street analyst and Above Avalon operator arguing for focused Apple analysis across publishing, product strategy, and capital return.
 - [CYY](entities/CYY.md) - Systems-oriented hobbyist author reflecting on AI, black-box learning, open-source work, and human-centered innovation.
 - [Filip Piekniewski](entities/FilipPiekniewski.md) - AI-skeptical blogger arguing in 2018 that deep-learning hype and self-driving failures pointed toward an AI winter.
-- [David Lieb](entities/DavidLieb.md) - Bump cofounder and retrospective author connecting Bump, Flock, Photoroll, Google acquisition, and Google Photos work.
-- [Bump](entities/Bump.md) - Mobile startup that grew through Y Combinator, revealed photo-sharing behavior, and was acquired by Google.
+- [David Lieb](entities/DavidLieb.md) - Bump cofounder and product leader connecting Bump, Flock, Photoroll, Google Photos, and cognitive simplicity lessons.
+- [Bump](entities/Bump.md) - Mobile startup that grew through Y Combinator, revealed photo-sharing behavior, and became a cognitively clear interaction case.
 - [Andy Huibers](entities/AndyHuibers.md) - Bump cofounder used in the retrospective as an example of persistence, humor, and cofounder care.
-- [Flock](entities/Flock.md) - Bump team's semi-automated photo-sharing product that failed to grow but led toward Photoroll and Google Photos ideas.
-- [Google Photos](entities/GooglePhotos.md) - Google product connected in the Bump retrospective to the team's photo-sharing learning and post-acquisition work.
+- [Flock](entities/Flock.md) - Bump team's predictive photo-sharing product that failed to grow and became a cognitive-overhead caution case.
+- [Google Photos](entities/GooglePhotos.md) - Google product connected to Bump-team learning and to Lieb's trust-through-user-control Free Up Space example.
 - [Crashlytics](entities/Crashlytics.md) - Mobile crash-reporting product redesigned from Fabric into Firebase through journey mapping, internal co-design, and information-hierarchy repair.
 - [Firebase](entities/Firebase.md) - Google developer platform that became the destination environment for the Crashlytics redesign.
 - [Fabric](entities/Fabric.md) - Acquired product context that brought Crashlytics into Firebase and supplied the pre-redesign interface baseline.
@@ -756,6 +757,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gmail](entities/Gmail.md) - Google email service used as an invitation-scarcity growth example.
 - [GitHub Copilot](entities/GitHubCopilot.md) - AI coding assistant used as CYY's timeline for the shift from completion helper to agentic engineering support.
 - [Glitch](entities/Glitch.md) - Developer tool and remix platform used as an example of Twitter bot-building potential.
+- [Twitter Moments](entities/TwitterMoments.md) - Twitter feature used by David Lieb as an example of feature variety clouding product purpose.
 - [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
 - [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
 - [Jonah Peretti](entities/JonahPeretti.md) - BuzzFeed executive author of the nine-box strategy memo on platform revenue, diversified monetization, and media-brand portfolios.
@@ -1383,6 +1385,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
 - [Product Flow Friction](concepts/ProductFlowFriction.md) - Onboarding and critical-flow effort model where every extra ask spends user intent and must be justified by later product value.
+- [Cognitive Overhead in Product Design](concepts/CognitiveOverheadInProductDesign.md) - Product-design burden created when users must make too many mental connections to understand purpose, control, system behavior, or value.
 - [Product Engagement Ladder](concepts/ProductEngagementLadder.md) - Product-growth framework for staging user learning from first value through deeper engagement and expertise.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
@@ -1584,7 +1587,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
 - [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs after first-wave chatbot failures around naming, hidden UI, brittle context, and support escalation.
-- [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
+- [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, product behavior, recovery paths, and possible actions.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
