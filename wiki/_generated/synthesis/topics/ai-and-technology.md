@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-15
-as_of_overview_commit: ff99c3930d4b5bac9096da677e0b3daa01ae881f
-input_digest: 2ef620960d80313981b592be768c6b620746bdbb2729584c30bb21ac922bc658
+as_of_overview_commit: 8f9fefabe075d99cb6499747c1437b26153ed844
+input_digest: d22b38bd7313455540537ef333ecde3c8ec35c80fb3b9a4e36865db928d5d4c7
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
 
 ## Cross-source Findings
 
@@ -119,3 +119,13 @@ Operational change safety, compliance evidence, database migration, and lifecycl
 **Qualifications:**
 
 - Whitwell's source is a 2017 annual observation list rather than a technology adoption study, so the examples should be treated as dated prompts for follow-up.
+
+### Conversational Ui Needs Calibrated Scope
+
+[[ConversationalUI]] works better when its name, scope, and visible structure calibrate user expectations: first-wave "chatbot" framing overpromised humanlike conversation, while constrained bots often needed directed workflows, visible GUI surfaces, or true chat-first use cases such as [[Xiaoice]].
+
+**Evidence:** [[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[Xiaoice]]
+
+**Qualifications:**
+
+- The Botnerds source is an industry-positioning argument from 2016, so it is strongest as evidence about expectation-setting and category language rather than as a measured adoption study.

@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Chatbots: a Misleading Term We Should Stop Using
+
+Added Botnerds' 2016 critique of "chatbot" as a general category label. Key claims: the term overpromises casual humanlike conversation, only precisely fits chat-first products such as Xiaoice, and can trivialize B2B automation work. Inspected all five unique local image assets: the CNN Messenger screenshot and Google Trends chart supported the failure and hype-spike claims, the tiny survey chart was used only as high-level support for the terminology comparison, and the small thumbnails added no separate evidence.
+
 ## [2026-09-15] ingest | Charging Employees for Conference Rooms Helps Disco Boost Profit - Bloomberg
 
 Added Bloomberg Businessweek's report on Disco's Personal Will internal market. Key claims: Disco prices meeting rooms, desks, PCs, team services, task auctions, overtime, coworker help, improvement ideas, and internal publicity in Will; the system is credited with higher margins, lower overtime, high pay, and sharper focus; and the same design creates pressure, short-termism risk, research distraction, and cultural-transfer limits. Inspected the Naito portrait images, classified repeated related-story thumbnails as decorative article chrome, and used no image-derived claims beyond identification context.
@@ -2448,6 +2452,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Chatbots Deliver the Worst Customer Service
 
 Added Late Night Coding's 2017 critique of customer-service chatbots. Key claims: first-wave bots often behaved like phone-tree robots in text form, could not improvise around non-standard support problems, worked with too little context, hid useful interface affordances behind conversation, and needed quick-reply buttons to expose possible actions. The source also distinguishes Siri- and Alexa-style voice assistants as more defensible for low-stakes, hands-free tasks. The local exported image directory referenced by the markdown was not present under the Articles mount, and the remote cover image was not inspected, so the ingest is based on prose rather than visual evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

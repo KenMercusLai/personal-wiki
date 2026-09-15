@@ -186,8 +186,23 @@
         "TomWhitwell",
         "Fluxx"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "conversational-ui-needs-calibrated-scope",
+      "qualifications": [
+        "The Botnerds source is an industry-positioning argument from 2016, so it is strongest as evidence about expectation-setting and category language rather than as a measured adoption study."
+      ],
+      "statement": "[[ConversationalUI]] works better when its name, scope, and visible structure calibrate user expectations: first-wave \"chatbot\" framing overpromised humanlike conversation, while constrained bots often needed directed workflows, visible GUI surfaces, or true chat-first use cases such as [[Xiaoice]].",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "ConversationalUI",
+        "MessagingAsPlatform",
+        "NaturalLanguageProcessing",
+        "Xiaoice"
+      ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.",
   "topic_id": "ai-and-technology"
 }

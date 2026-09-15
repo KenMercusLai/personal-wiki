@@ -157,25 +157,8 @@
         "ProductPageOptimization",
         "Thinks"
       ]
-    },
-    {
-      "global_candidate": false,
-      "id": "conversational-automation-must-calibrate-human-expectations",
-      "qualifications": [
-        "This is a secondary fit for the psychology topic and comes from a practitioner product critique rather than a user-study dataset."
-      ],
-      "statement": "[[ConversationalUI]], [[NaturalLanguageProcessing]], [[MessagingAsPlatform]], [[FacebookMessenger]], [[Slack]], and [[WeChat]] show a psychological constraint on chatbot products: when automation borrows the form of human conversation, users expect context, memory, empathy, and recovery that brittle first-wave systems often could not provide.",
-      "status": "source-scoped",
-      "supporting_wikilinks": [
-        "ConversationalUI",
-        "NaturalLanguageProcessing",
-        "MessagingAsPlatform",
-        "FacebookMessenger",
-        "Slack",
-        "WeChat"
-      ]
     }
   ],
-  "summary": "Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, pricing behavior carefully, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system. The GrowthBot source adds a product-facing expectation lesson: conversational systems trigger human social expectations, so brittle automation can create frustration when it pretends to supply empathy, memory, or flexible understanding that it does not have.",
+  "summary": "Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, pricing behavior carefully, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.",
   "topic_id": "psychology-and-personal-development"
 }

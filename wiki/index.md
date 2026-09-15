@@ -8,6 +8,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Sources
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
+- [Chatbots: a Misleading Term We Should Stop Using](sources/chatbots-a-misleading-term-we-should-stop-using-botnerds-medium.md) - Botnerds argues that "chatbot" overpromises casual humanlike conversation, fits only chat-first systems, and undersells business automation work.
 - [Chatbots Deliver the Worst Customer Service](sources/chatbots-deliver-the-worst-customer-service-late-night-coding.md) - Late Night Coding argues that customer-service chatbots often hide useful UI, fail to adapt or improvise, and only work well when voice removes typing for low-stakes assistant tasks.
 - [Chatbots Were the Next Big Thing: What Happened?](sources/chatbots-were-the-next-big-thing-what-happened.md) - GrowthBot argues that first-wave chatbots collapsed from hype into a more limited role because brittle decision trees, immature NLP, hidden UI, and app-replacement thinking made pure chat worse than hybrid interfaces for many tasks.
 - [Chatbots: What Happened? - Chatbots Life](sources/chatbots-what-happened-chatbots-life.md) - David Feldman argues that chatbot hype failed by confusing messaging platforms with pure conversational UI, while durable messaging experiences combine chat with GUI, CRM, payments, location, and app-like flows.
@@ -913,6 +914,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
 - [Ted Livingston](entities/TedLivingston.md) - Kik leader and author arguing that chat could become the new browser and bots the new websites.
 - [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example, sponsored Moments ad surface, and chat-payments proof case.
+- [Xiaoice](entities/Xiaoice.md) - Conversational chatbot used by Botnerds as an example where the chatbot label accurately fits a chat-first product.
 - [Graham Harman](entities/GrahamHarman.md) - Object-oriented ontology thinker whose real/sensual object and quality schema frames the article's theory of art and metaphor.
 - [Guanlan](entities/Guanlan.md) - Author arguing for production-agent infrastructure built around effect logs, capability gateways, and resumability.
 - [gVisor](entities/GVisor.md) - User-space kernel sandbox discussed as execution isolation rather than semantic agent isolation.
@@ -1520,7 +1522,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
-- [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs after first-wave chatbot failures around hidden UI, brittle context, and support escalation.
+- [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs after first-wave chatbot failures around naming, hidden UI, brittle context, and support escalation.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, recover from errors, and decide what action is possible.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.

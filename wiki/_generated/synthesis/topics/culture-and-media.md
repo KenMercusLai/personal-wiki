@@ -4,15 +4,15 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-15
-as_of_overview_commit: 8b336eb53ecafd8636ae154d74fc0465e39be4ca
-input_digest: 144a42f2e0b91055b99cee1c16e4b6f52afe26dfdcae094b9f383f3d4f18edca
+as_of_overview_commit: 8f9fefabe075d99cb6499747c1437b26153ed844
+input_digest: 06581ab0ac1c0078395d9f47ef6bf6ef7c99057935dcdbd2abd15c911c9429bb
 ---
 
 # Culture and Media
 
 ## Current State
 
-The culture-and-media layer connects media form, creator workflow, translation, games, reading systems, product language, content distribution, media-brand economics, infrastructure, aesthetics, and workplace culture as a designed system. Recent Greenhouse material adds that culture can be shaped through explicit values, rewards, ignored behavior, release process, professional-development conversations, front-line change support, manager service, feedback, and validation rather than left as informal residue. The GrowthBot chatbot postmortem adds conversational interfaces to this cultural layer: chat imitates a human communication form, but product culture has to decide when conversation, GUI, dashboard, or hybrid media better fits how people actually want to interact with machines.
+Culture and media sources treat media form as a behavior-shaping system: learning media, reading workflows, AI writing, game infrastructure, localization search, platform publishing, read-later tools, streaming culture, and object-oriented aesthetics all change how people create, encounter, preserve, and interpret cultural work. The chatbot material adds a communication-form warning: when software borrows the name and surface of human chat, [[ConversationalUI]] needs visible structure, calibrated scope, and honest category language so users understand whether they are meeting a true chat-first system such as [[Xiaoice]] or a constrained task workflow.
 
 ## Cross-source Findings
 
@@ -120,10 +120,10 @@ Pun-heavy [[GameLocalization]] can combine [[ComputationalPunTranslation]], [[Se
 
 ### Conversational Media Needs Visible Structure
 
-[[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[FacebookMessenger]], [[Slack]], and [[WeChat]] show chatbots as a cultural interface bet: messaging familiarity created platform expectations, but first-wave bots needed visible structure, narrower scope, or hybrid app surfaces to become useful media for machine interaction.
+[[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], and [[Xiaoice]] show chatbots as a cultural interface bet: messaging familiarity created platform expectations, but first-wave bots needed visible structure, narrower scope, honest naming, or hybrid app surfaces to become useful media for machine interaction.
 
-**Evidence:** [[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[FacebookMessenger]], [[Slack]], [[WeChat]]
+**Evidence:** [[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[Xiaoice]]
 
 **Qualifications:**
 
-- The claim is grounded in a chatbot postmortem assigned to the culture topic because it concerns communication form; it should not be read as a full media-history account of messaging platforms.
+- The claim is grounded in chatbot postmortems assigned to the culture topic because they concern communication form; it should not be read as a full media-history account of messaging platforms.

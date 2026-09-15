@@ -2,7 +2,7 @@
   "coverage": {
     "assigned_paragraph_ids": [
       "7c7c04a35c6344388dd1ac0ea2905172c9475a67b9024a2157bedd8c13d44e27",
-      "aebb08d3e5eb7a9a08908eb3a2e2419c067325014e54fe8b41b2603b5cc78b4f",
+      "c179f041daec0e2768a592ecd1c2efb7f9f1883d78cf7e0ce196a07092c896a6",
       "3fd116bd059e7d38f51cd1c605c514c9cce36161ae20106fb6b7f495c7f6ad4f",
       "448654b4359c4b7f8eff4a75c545e8fc521aa77c00cb25d2c69b642d1a572a36",
       "db98ad4e658b287f0301e9a1a52f5173481fe017762de2b292b6fe2e8903b9db",
@@ -268,8 +268,8 @@
     ],
     "paragraph_count": 264
   },
-  "overview_commit": "e293f759cf11cab20a46171628f6fbe0130ac7f7",
-  "overview_digest": "680a617277cc503ac1a5bc25f96cc8d151b4abe04fde6238e54ffd58175604d3",
+  "overview_commit": "8f9fefabe075d99cb6499747c1437b26153ed844",
+  "overview_digest": "8784b729bcbbf19ca23997d807e8fa54ce9c36543b12babb7b096db4a70e0d8b",
   "paragraphs": [
     {
       "id": "7c7c04a35c6344388dd1ac0ea2905172c9475a67b9024a2157bedd8c13d44e27",
@@ -290,25 +290,24 @@
       ]
     },
     {
-      "id": "aebb08d3e5eb7a9a08908eb3a2e2419c067325014e54fe8b41b2603b5cc78b4f",
-      "primary_topic": "business-and-markets",
+      "id": "c179f041daec0e2768a592ecd1c2efb7f9f1883d78cf7e0ce196a07092c896a6",
+      "primary_topic": "ai-and-technology",
       "secondary_topics": [
-        "culture-and-media",
-        "psychology-and-personal-development"
+        "business-and-markets",
+        "culture-and-media"
       ],
-      "text": "The newest GrowthBot source adds a post-hype chatbot correction to the wiki's messaging and interface material. [[ConversationalUI]] now has a clearer first-wave failure story: early bots were marketed as app replacements, but many relied on brittle decision trees, immature [[NaturalLanguageProcessing]], and hidden command surfaces that made users guess what the system could do. [[MessagingAsPlatform]] is qualified by the absence of a real bot ecosystem for any single platform to dominate, even though [[WeChat]], [[FacebookMessenger]], [[Slack]], and conversational marketing created strong expectations. The constructive synthesis is hybrid and scoped: bots can help with repetitive low-level tasks, narrow domains, voice or multimodal moments, and chat layered beside dashboards, inboxes, maps, lists, or other GUI surfaces. The inspected images support that arc through a hype-cycle chart, a rule-based dialogue architecture diagram, bot failure screenshots, and a Penny example where conversational advice sits beside finance UI.",
+      "text": "The newest bot-terminology source sharpens the wiki's post-hype chatbot correction. [[ConversationalUI]] now has a clearer first-wave failure story: early bots were marketed as app replacements and labeled \"chatbots,\" but many relied on brittle decision trees, immature [[NaturalLanguageProcessing]], and hidden command surfaces that made users expect casual open-ended chat while forcing them into constrained syntax. [[MessagingAsPlatform]] is qualified by both the absence of a real bot ecosystem for any single platform to dominate and by the risk that \"chatbot\" undersold task-oriented automation while overpromising humanlike conversation. The constructive synthesis is hybrid, scoped, and better named: \"chatbot\" fits chat-first products such as [[Xiaoice]], while many useful bots should present themselves as directed workflows layered beside dashboards, inboxes, maps, lists, cards, or other GUI surfaces. The inspected images across the chatbot sources support that arc through a CNN failure screenshot, a Facebook F8 search-interest spike, a hype-cycle chart, a rule-based dialogue architecture diagram, bot failure screenshots, and a Penny example where conversational advice sits beside finance UI.",
       "topic_scores": {
+        "ai-and-technology": 1,
         "business-and-markets": 1,
         "culture-and-media": 1,
         "psychology-and-personal-development": 1
       },
       "wikilinks": [
         "ConversationalUI",
-        "FacebookMessenger",
         "MessagingAsPlatform",
         "NaturalLanguageProcessing",
-        "Slack",
-        "WeChat"
+        "Xiaoice"
       ]
     },
     {
