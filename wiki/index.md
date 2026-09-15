@@ -12,6 +12,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Can You Afford It?: Real-world Web Performance Budgets](sources/can-you-afford-it-real-world-web-performance-budgets-infrequently-noted.md) - Alex Russell argues that web teams need performance budgets grounded in low-end devices, slow networks, TTI targets, and hard JavaScript affordability limits.
 - [Can Uber Ever Deliver? Part One - Understanding Uber's Bleak Operating Economics](sources/can-uber-ever-deliver-part-one-understanding-ubers-bleak-operating-economics-naked-capitalism.md) - Hubert Horan argues that Uber's early ride-hailing growth depended on large investor subsidies, weak margins, and driver-pay compression rather than software-like scale economics.
 - [Cars as feature-phones](sources/cars-as-feature-phones-benedict-evans.md) - Benedict Evans argues that car dashboards have reached a feature-phone-like overload where sensor fusion, autonomy, and software-platform thinking should replace proliferating buttons, icons, and warnings.
+- [Cash is for SAPS](sources/cash-is-for-saps-gamification-co.md) - Gabe Zichermann argues that gamified reward design should prioritize Status, Access, and Power before tangible Stuff because cash or goods can be costly, weak, and operationally burdensome.
 - [Cars and second order consequences](sources/cars-and-second-order-consequences-benedict-evans.md) - Benedict Evans maps how electric and autonomous vehicles could cascade into maintenance, fuel retail, taxes, electricity grids, crashes, parking, transit, labor, cities, and surveillance.
 - [Can Digital Products Be "Timeless?"](sources/can-digital-products-be-timeless-startup-grind-medium.md) - Startup Grind argues that digital products can become timeless design candidates when a focused, iconic core survives rapid platform change, using the Google Homepage and Porsche 911 as the central comparison.
 - [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
@@ -619,6 +620,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
 - [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing software business models, platform incentives, Apple's mature vertical hardware strategy, and Apple's customer-metrics gap.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
+- [Gabe Zichermann](entities/GabeZichermann.md) - Gamification practitioner represented here by the SAPS reward hierarchy.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
 - [Area 120](entities/Area120.md) - Google-associated product-incubation context for Cselle's early growth coaching.
 - [Google Docs](entities/GoogleDocs.md) - Collaboration-product example where sharing documents creates an invitation loop.
@@ -1103,6 +1105,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [AI-Era Creative Standards](concepts/AIEraCreativeStandards.md) - Quality expectations needed when AI makes acceptable average creative and technical output cheap and abundant.
 - [Cognitive Curiosity](concepts/CognitiveCuriosity.md) - Mechanism-seeking curiosity aimed at how and why, used as creative direction rather than surface novelty.
 - [Gamification](concepts/Gamification.md) - Using points, reputation, streaks, or other game-like mechanics as a weak behavioral layer around an activity users already value.
+- [SAPS Reward Framework](concepts/SAPSRewardFramework.md) - Gamification reward hierarchy that prioritizes Status, Access, and Power before tangible Stuff.
 - [Community Reputation Systems](concepts/CommunityReputationSystems.md) - Community scoring systems that convert feedback into ranking, recognition, trust, privileges, or moderation signals.
 - [Homophily](concepts/Homophily.md) - Similarity bias in trust decisions that reputation evidence can sometimes counteract.
 - [Text File Productivity](concepts/TextFileProductivity.md) - Plain-text daily planning workflow where a chronological file combines task execution, notes, retrieval, and work history.
