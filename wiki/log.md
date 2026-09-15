@@ -2524,6 +2524,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Claude Code On-The-Go
+
+Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone can supervise multiple cloud-hosted coding agents when Termius, mosh, Tailscale, tmux, push notifications, a disposable VM, git worktrees, and deterministic port allocation provide persistence, isolation, and async human checkpoints. No effective image references were present; the Mermaid architecture diagram was treated as source evidence.
+
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

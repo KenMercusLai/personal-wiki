@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Claude Code On-The-Go](sources/claude-code-on-the-go.md) - Miguel Granda shows how to run multiple Claude Code agents from a phone using Termius, mosh, Tailscale, a disposable Vultr VM, tmux, push notifications, and worktrees.
 - [The Hardest Part About Microservices: Your Data](sources/christian-posta-the-hardest-part-about-microservices-your-data.md) - Christian Posta argues that microservices are hardest around domain meaning, data ownership, transactional boundaries, and event-driven consistency rather than framework or database-per-service rules.
 - [A 43-year history of first-person shooters - from Maze War to Destiny 2](sources/a-43-year-history-of-first-person-shooters-from-maze-war-to-destiny-2-gamesradar.md) - GamesRadar+ traces first-person shooters from Maze War and Spasim through Battlezone, Wolfenstein 3D, Doom, Quake, GoldenEye, Half-Life, Halo, Modern Warfare, and Destiny, emphasizing feel, platform constraints, multiplayer, modding, and live-service progression.
 - [Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be](sources/chris-bailey-exactly-how-long-your-work-breaks-should-be.md) - Chris Bailey argues that knowledge workers should take more deliberate breaks, using 90-minute morning blocks, Pomodoro cycles, and roughly 15 minutes off per work hour as recovery heuristics.
@@ -868,7 +869,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
-- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, simple-loop design analysis, and Antirez's Redis-adjacent systems-programming examples.
+- [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, simple-loop design analysis, systems-programming examples, and mobile/cloud supervision.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
@@ -1192,6 +1193,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Source-Diagram Isomorphism](concepts/SourceDiagramIsomorphism.md) - Low-code tool structure where graphical workflow diagrams and source markup are synchronized program representations.
 - [Channel API](concepts/ChannelAPI.md) - Consumer- or partner-specific API surface that adapts clean capabilities to a channel while hiding downstream implementation complexity.
 - [Agentic Workflow Patterns](concepts/AgenticWorkflowPatterns.md) - Reusable LLM system patterns such as prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer loops, and autonomous agent loops.
+- [Mobile Agent Development](concepts/MobileAgentDevelopment.md) - Phone-controlled, cloud-hosted coding-agent workflow using persistent sessions, private networking, push notifications, and isolated parallel worktrees.
 - [Agent Computer Interface](concepts/AgentComputerInterface.md) - Design layer for making tools, files, APIs, computers, and environments understandable and safely usable by AI agents.
 - [Strategic Writing](concepts/StrategicWriting.md) - Writing plans and decisions deeply enough that rationale, assumptions, tradeoffs, and execution logic can be inspected and reused.
 - [Bag-of-Words Model](concepts/BagOfWordsModel.md) - Document representation that treats text as unordered token counts for vector comparison and ranking.

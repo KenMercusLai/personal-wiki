@@ -6,12 +6,13 @@ sources:
   - blog-anthropic-building-effective-ai-agents
   - blog-minusx-nuwanda-what-makes-claude-code-so-damn-good
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
+  - claude-code-on-the-go
 last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[AgenticWorkflowPatterns]] are reusable LLM application structures that compose model calls, tools, checks, routing, parallel work, synthesis, and feedback loops to solve tasks that need more than a single prompt.
+[[AgenticWorkflowPatterns]] are reusable LLM application structures that compose model calls, tools, checks, routing, parallel work, synthesis, feedback loops, and human checkpoints to solve tasks that need more than a single prompt.
 
 ## Current Synthesis
 Anthropic separates agentic systems into workflows and agents. Workflows are predefined code paths where developers decide the sequence and control logic, while agents are more dynamic loops where the model chooses steps and tool use. The practical advice is conservative: optimize the simplest single-call or retrieval-augmented design first, then add workflow or agent complexity only when evaluation shows a real performance gain.
@@ -22,14 +23,16 @@ The MinusX Claude Code analysis adds a coding-agent control-loop pattern: keep o
 
 Parallel workflows also have a throughput condition. Parallel agent sessions can help when tasks are independent and verification lets the human supervise by exception, but the pattern fails if all branches converge into the same saturated reviewer or QA queue. Parallelization therefore needs WIP limits, small PRs, and a trustworthy generate-verify-fix loop, not just more agent windows.
 
+The mobile Claude Code setup adds a human-checkpoint variant for asynchronous agents. A task can run on a cloud VM while the user leaves the terminal; when the agent needs clarification, a hook converts the question into a push notification. This makes the checkpoint loop portable and interrupt-driven, but it still depends on isolation, session persistence, worktree separation, and bounded cost to keep parallel permissive agents manageable.
+
 ## Key Claims
 - Agentic systems should add complexity only when simpler prompting, retrieval, and in-context examples fall short.
 - Workflows keep LLM/tool execution on predefined paths, while agents let the model dynamically control process and tool use.
 - Prompt chaining, routing, parallelization, orchestrator-workers, and evaluator-optimizer loops cover common production workflow shapes.
-- Pattern choice depends on task decomposition, classification confidence, independence of subtasks, uncertainty about subtasks, availability of evaluation criteria, and downstream bottleneck capacity.
-- Autonomous agents fit open-ended tasks where fixed paths cannot be predicted, but need environmental feedback, stopping conditions, testing, guardrails, and human checkpoints.
+- Pattern choice depends on task decomposition, classification confidence, independence of subtasks, uncertainty about subtasks, availability of evaluation criteria, downstream bottleneck capacity, and checkpoint design.
+- Autonomous agents fit open-ended tasks where fixed paths cannot be predicted, but need environmental feedback, stopping conditions, testing, guardrails, human checkpoints, and escalation paths.
 - Coding-agent loops can preserve debuggability by using one main message history and limiting subagent branching.
-- Todo lists and bounded subagents can let a coding agent decompose work while keeping focus on the user's final desired outcome.
+- Todo lists, push notifications, and bounded subagents can let a coding agent decompose or pause work while keeping focus on the user's final desired outcome.
 
 ## Evidence
 - Simplicity gate: [[blog-anthropic-building-effective-ai-agents]] says many applications should use a simple LLM call with retrieval or examples before escalating to agentic systems.
@@ -44,14 +47,16 @@ Parallel workflows also have a throughput condition. Parallel agent sessions can
 - Control-loop diagram: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] shows a simple main-loop task and a complex task whose `Task` branch performs read/search/edit steps before returning to the main loop.
 - Parallel coding flow: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] argues that two or three concurrent agent sessions can outperform serial work even when each task uses a slower full-SDLC loop.
 - WIP qualification: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] warns that too many concurrent PRs merely move the queue to code review.
+- Async checkpoint: [[claude-code-on-the-go]] uses a Claude Code PreToolUse hook on AskUserQuestion to send the pending question to a phone through a Poke webhook.
+- Parallel isolation: [[claude-code-on-the-go]] runs multiple Claude agents in separate tmux windows and git worktrees, with branch-name-derived ports to avoid conflicts.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, MinusX interprets Claude Code's coding-agent loop from observed behavior, and the bottleneck-aware source focuses on delivery throughput. Bounded branching and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, and flow-control story.
+The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, MinusX interprets Claude Code's coding-agent loop from observed behavior, the bottleneck-aware source focuses on delivery throughput, and the mobile setup describes one person's operating environment. Bounded branching, notifications, and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, and flow-control story.
 
 ## What Changed
-- Added the Claude Code one-main-loop plus bounded-branch pattern.
-- Added todo-list coordination as a lightweight alternative to heavier handoff systems.
-- Added WIP-limited parallel coding as a workflow qualification: parallel agents help only when verification and review capacity can absorb the output.
+- Added the phone-notified human checkpoint loop.
+- Added worktree and port isolation as practical supports for parallel coding-agent sessions.
+- Reframed async mobile supervision as an agentic workflow pattern rather than just a terminal setup.
 
 ## Related Concepts
 - [[AgentExperience]] - workflow and agent structure shape how users clarify goals and recover from agent behavior.
@@ -60,6 +65,7 @@ The sources are practitioner guidance rather than controlled benchmarks of each 
 - [[AgenticRAG]] - search/read loops are one retrieval-heavy workflow or agent pattern.
 - [[AIApplicationFramework]] - frameworks often package these patterns but can obscure implementation details.
 - [[SoftwareVerification]] - agent loops become more reliable when progress can be checked by tests or other objective signals.
-- [[ClaudeCode]] - Claude Code provides the bounded-branch coding-agent example.
+- [[ClaudeCode]] - Claude Code provides the bounded-branch and mobile-checkpoint coding-agent examples.
 - [[AgentTeam]] - multi-agent teams are a heavier workflow form that needs file-backed state and verification.
 - [[BottleneckAwareAICoding]] - explains why parallel agent workflows must account for downstream constraints.
+- [[MobileAgentDevelopment]] - mobile/cloud setups provide an async checkpoint environment for coding agents.
