@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A 43-year history of first-person shooters - from Maze War to Destiny 2](sources/a-43-year-history-of-first-person-shooters-from-maze-war-to-destiny-2-gamesradar.md) - GamesRadar+ traces first-person shooters from Maze War and Spasim through Battlezone, Wolfenstein 3D, Doom, Quake, GoldenEye, Half-Life, Halo, Modern Warfare, and Destiny, emphasizing feel, platform constraints, multiplayer, modding, and live-service progression.
 - [Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be](sources/chris-bailey-exactly-how-long-your-work-breaks-should-be.md) - Chris Bailey argues that knowledge workers should take more deliberate breaks, using 90-minute morning blocks, Pomodoro cycles, and roughly 15 minutes off per work hour as recovery heuristics.
 - [How to go fast](sources/chris-james-how-to-go-fast.md) - Chris James argues that software teams move quickly and sustainably through small teams, continuous delivery from day one, low WIP, tests, refactoring, direct user feedback, and minimal ceremony.
 - [99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns](sources/99-vc-problems-but-a-batch-aint-one-why-portfolio-size-matters-for-returns.md) - Dave McClure argues that VC portfolios are often too concentrated for rare power-law startup outcomes, recommending much larger early-stage and later-stage fund portfolios.
@@ -318,6 +319,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Bungie](entities/Bungie.md) - game developer connecting Marathon, Halo, console FPS controls, and Destiny's live-service co-op model.
+- [Epic Games](entities/EpicGames.md) - game developer associated here with Unreal Tournament and fast online arena FPS design.
+- [Id Software](entities/IdSoftware.md) - game developer whose Wolfenstein 3D, Doom, and Quake popularized and deepened PC FPS design.
+- [Rare](entities/Rare.md) - game developer credited here with legitimizing console FPS through GoldenEye 007.
+- [Valve](entities/Valve.md) - game developer whose Half-Life advanced narrative FPS design and whose mod ecosystem produced Counter-Strike.
 - [Chris Bailey](entities/ChrisBailey.md) - Productivity author represented by advice on work-break timing, energy restoration, and attention recovery.
 - [Chris James](entities/ChrisJames.md) - Software-development practitioner-author arguing for sustainable speed through small teams, continuous delivery, low WIP, simple architecture, and user feedback.
 - [Dave McClure](entities/DaveMcClure.md) - Investor-author arguing that VC portfolios should be sized around rare power-law winners.
@@ -1071,6 +1077,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [First-Person Shooter Evolution](concepts/FirstPersonShooterEvolution.md) - history of FPS mechanics, controls, platforms, multiplayer, narrative, and live-service progression.
 - [Work Breaks](concepts/WorkBreaks.md) - Deliberate recovery intervals that restore energy, attention, and perspective during knowledge work.
 - [Venture Capital Portfolio Sizing](concepts/VentureCapitalPortfolioSizing.md) - Choosing VC company count around startup attrition, power-law outcomes, reserves, and outlier exposure.
 - [Startup Evaluation Checklists](concepts/StartupEvaluationChecklists.md) - Compact founder diagnostics for startup strategy, fundraising readiness, metrics, and marketplace evaluation.

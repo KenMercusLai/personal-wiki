@@ -2046,6 +2046,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | A 43-year history of first-person shooters - from Maze War to Destiny 2
+
+Added GamesRadar+'s FPS history. Key claims: first-person shooters are anchored by the feel of aiming, moving, shooting, feedback, and immediate strategy; Maze War and Spasim supplied pre-commercial first-person experiments; Battlezone and MIDI Maze broadened arcade and home-platform play; Id Software's Wolfenstein 3D, Doom, and Quake made the PC FPS fast, moddable, networked, and competitive; GoldenEye and Halo legitimized console FPS through controller-conscious design; Half-Life, Unreal Tournament, Quake 3 Arena, and Counter-Strike diversified mature PC FPS; and Modern Warfare and Destiny pushed the genre toward blockbuster multiplayer progression and live-service co-op persistence. Inspected all 14 local images: they were article/game screenshots or artwork, useful as visual confirmation of the timeline's shifts from wireframe/vector scenes to textured 3D, console HUDs, and online/co-op combat, with no chart or diagram evidence requiring separate extraction.
+
 ## [2026-09-15] ingest | How to go fast
 
 Added Chris James's sustainable software-delivery essay. Key claims: fast teams should clarify user problems and non-goals, deploy from the first "hello world," continuously ship green builds to live, keep WIP low, use tests and refactoring as speed enablers, prefer small trusted teams and pairing, avoid premature microservices and SPA complexity, and treat user stories as conversation starters. Inspected two embedded images: the skateboard-to-car illustration was substantive evidence for incremental usable delivery, while the Accelerate book cover functioned mainly as a citation marker.
@@ -2487,6 +2491,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Checklists for Startups
 
 Added source. Key claims: David Lee recommends reusing startup checklist frameworks from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley; Thiel's seven questions test technology, timing, market wedge, team, distribution, durability, and secrets; checklists are easy to write but hard to execute.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
