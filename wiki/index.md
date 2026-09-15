@@ -225,6 +225,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [2018 年度小结（技术方面）](sources/2018-nian-du-xiao-jie-ji-shu-fang-mian.md) - Wang Ziting's 2018 technical retrospective on release-focused side projects, Kubernetes declarative controllers, container-native gaps, LeanCloud game backend design, and Redis-backed task queues.
 - [16 mobile theses](sources/16-mobile-theses-benedict-evans.md) - Benedict Evans' mobile strategy essay arguing that smartphones became the central technology and internet ecosystem, shifting platform power toward mobile operating systems, discovery layers, messaging, sensors, and cloud productivity.
 - [16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more](sources/16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more.md) - CS183C scaling synthesis arguing that blitzscaling, hiring, culture, communication, and CEO work must change by startup stage and competitive pressure.
+- [CS183C Session 19: Jeff Weiner, LinkedIn](sources/cs183c-session-19-jeff-weiner-linkedin.md) - CS183C fireside chat where Jeff Weiner and Reid Hoffman connect LinkedIn scaling to mission, culture, coaching, compassionate management, product leadership, and the economic graph.
 - [15+ Examples of Successful MVPs - Startups & Web Pages](sources/15-examples-of-successful-mvps-startups-web-pages-software-brothers.md) - Software Brothers' survey of famous MVP origin stories, arguing that startups can validate demand through narrow features, manual workflows, landing pages, videos, waitlists, and platform/community tests before full buildout.
 - [12 Fractured Apps](sources/12-fractured-apps-kelsey-hightower-medium.md) - Kelsey Hightower's Docker-era deployment essay arguing that containerized applications should own startup, runtime configuration, directory creation, and dependency retry behavior instead of outsourcing bootstrapping to wrapper scripts.
 - [12 Factor CLI Apps](sources/12-factor-cli-apps-jeff-dickey-medium.md) - Jeff Dickey's CLI design essay translating twelve-factor thinking into command-line UX, automation, output, speed, contribution, command grammar, and XDG path conventions.
@@ -664,14 +665,17 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
 - [Jonah Peretti](entities/JonahPeretti.md) - BuzzFeed executive author of the nine-box strategy memo on platform revenue, diversified monetization, and media-brand portfolios.
 - [Tasty](entities/Tasty.md) - BuzzFeed food media brand used as the source's flagship example of a service-oriented, multi-revenue media brand.
-- [CS183C](entities/CS183C.md) - Stanford technology-enabled blitzscaling course context for the scaling source's operator lessons.
-- [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor and scaling theorist used to define blitzscaling and stage-specific startup advice.
+- [CS183C](entities/CS183C.md) - Stanford technology-enabled blitzscaling course context for scaling syntheses and operator fireside chats.
+- [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor, scaling theorist, and LinkedIn interviewer used to define blitzscaling, stage-specific advice, common language, and global optimization.
 - [Eric Schmidt](entities/EricSchmidt.md) - Google operator cited for scaling timing, recruiting, small-team product creation, and CEO path-clearing.
 - [Marissa Mayer](entities/MarissaMayer.md) - Google and Yahoo operator cited for process breakage, acquisitions, culture, operating cadence, and CEO role.
 - [Brian Chesky](entities/BrianChesky.md) - Airbnb founder cited for competition-triggered scaling, unscalable host work, culture, post-fit CEO priorities, and early trust focus.
 - [Diane Greene](entities/DianeGreene.md) - VMware operator cited for early hiring difficulty, hiring standards, and written scaling communication.
-- [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, culture reinforcement, all-hands communication, coaching, and product-led CEOs.
+- [Jeff Weiner](entities/JeffWeiner.md) - LinkedIn operator cited for recruiting complexity, mission codification, culture reinforcement, all-hands communication, coaching, compassionate management, economic graph strategy, and product-led CEOs.
 - [John Lilly](entities/JohnLilly.md) - CS183C instructor cited for scaling stages, support-team formation, competition timing, and repeated CEO messages.
+- [Fred Kofman](entities/FredKofman.md) - Leadership coach and conceptual-tools influence on Jeff Weiner's coaching and compassionate-management model.
+- [Mike Gamson](entities/MikeGamson.md) - LinkedIn enterprise-sales leader used as an example of member-first business leadership and diversity as decision advantage.
+- [Lynda.com](entities/LyndaCom.md) - LinkedIn-acquired learning platform used in the economic-graph skills and education strategy.
 - [Joe Gebbia](entities/JoeGebbia.md) - Airbnb cofounder whose TED talk motivates Airbnb's trust-design framing.
 - [Judd Antin](entities/JuddAntin.md) - Airbnb Engineering and Data Science coauthor on trust, confidence scaffolds, and reputation systems.
 - [Nate Blecharczyk](entities/NateBlecharczyk.md) - Airbnb cofounder named in the company's early trust-design history.
@@ -680,7 +684,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Avneesh Saluja](entities/AvneeshSaluja.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Alok Gupta](entities/AlokGupta.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
 - [Cuky Perez](entities/CukyPerez.md) - Airbnb Engineering coauthor on academic-to-industry data-science transition.
-- [LinkedIn](entities/LinkedIn.md) - Company context for scaling lessons, public connection-count virality, and Sachin Rekhi's NPS product-planning practice.
+- [LinkedIn](entities/LinkedIn.md) - Company context for scaling lessons, mission and culture codification, economic graph strategy, public connection-count virality, and Sachin Rekhi's NPS product-planning practice.
 - [Sachin Rekhi](entities/SachinRekhi.md) - Product leader and author whose LinkedIn NPS work shows how customer-loyalty measurement can feed product planning.
 - [SurveyMonkey](entities/SurveyMonkey.md) - Survey-tool example cited for cross-channel NPS collection and analysis.
 - [Bill Macaitis](entities/BillMacaitis.md) - SaaS marketing executive using attribution systems at Salesforce, Zendesk, and Slack to make growth spend measurable.
@@ -1267,6 +1271,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, reinforcement, and repetition.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, and broadcast communication as organizations grow.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
+- [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into action, trust, conflict reduction, coaching, and humane accountability.
+- [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.
 - [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.
 - [Employee Opportunity Design](concepts/EmployeeOpportunityDesign.md) - Organizational practice of giving employees meaningful responsibility so talent can become real contribution.
 - [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.

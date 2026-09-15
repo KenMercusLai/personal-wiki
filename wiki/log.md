@@ -2014,6 +2014,10 @@ Added Wulc's 2021 Chinese summary of Zhang Xiaoyu's investment-tools and self-li
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn
+
+Added the CS183C Session 19 fireside chat with Jeff Weiner and Reid Hoffman. Key claims: LinkedIn codified mission and vision to scale common language, culture only works when values are modeled and used in systems, leaders must shift from solving to coaching, compassionate management supports trust and decision quality, all-hands and ownership language preserve alignment, product CEOs matter for internet companies, and the economic graph operationalizes LinkedIn's workforce-opportunity vision. No effective image references were present in the source markdown.
+
 ## [2026-09-15] ingest | Amazon Plans to Move Off Oracle Software by Early 2020
 
 Added CNBC's report on Amazon's planned move away from Oracle database software. Key claims: Amazon expected to finish the migration by the first quarter of 2020, database scalability was a main driver, AWS database services made the move strategically charged, and Oracle publicly disputed AWS database parity while pointing to continued Amazon spending. No effective image references were present in the source markdown.
@@ -2295,6 +2299,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CES 2019: A Show Report
 
 Added Steven Sinofsky's CES 2019 show report. Key claims: connected consumer electronics had many mature ingredients but weak system integration, voice assistants exposed fixed-command UX limits, smart homes improved while remaining fragmented across hubs and apps, streaming TV UX became a runtime/discovery problem, and "AI" functioned heavily as marketing language. Inspected representative embedded images for smart-home, package-delivery, TV, AI-signage, mirrorless-camera, 5G, and PC/gaming examples; decorative or illustrative booth photos were not used as independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
