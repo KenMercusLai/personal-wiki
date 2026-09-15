@@ -273,6 +273,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Capitalism-Without-Capital | Bill Gates
+
+Added Bill Gates's review of *Capitalism Without Capital*. Key claims: software and other intangible assets have high first-copy costs and near-zero marginal-copy costs, intangible investment changes valuation and competition, GDP and other measurement systems lag behind real investment in software, branding, research, and training, and policymakers need to revisit IP, competition, taxation, and stimulus tools. The remote Gates Notes lead image did not resolve from this environment and was not used as evidence.
+
 ## [2026-09-15] ingest | Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding
 
 Added Crunchbase News' worked startup-financing case. Key claims: cap tables begin with common shares, founder allocations, and employee pools; unpriced seed rounds defer valuation through future-equity instruments such as SAFEs and convertible notes; discounts and valuation caps reward early risk by converting at lower effective prices; Series A pricing turns pre-money valuation into share price; and dilution can reduce founder and employee-pool ownership percentages while still increasing stake value if company valuation rises. The repeated local image embed could not be inspected because the file is HTML rather than a readable PNG, so it was not used as visual evidence.
@@ -2337,6 +2341,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

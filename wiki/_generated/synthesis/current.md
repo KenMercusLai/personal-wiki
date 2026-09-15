@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: 7107afc769b2ea2dadd25fdc139df142a9c2b730
-summary: "The wiki maps how durable work emerges when strategy, tools, learning, institutions, and human judgment stay grounded in real constraints."
-episode_count: 293
-source_count: 293
-paragraph_count: 260
+as_of_overview_commit: 0e3c13361f20cce409be1a0d8210b4ff979326d2
+summary: "The wiki maps how durable work and markets emerge when strategy, tools, learning, institutions, cost structures, and human judgment stay grounded in real constraints."
+episode_count: 294
+source_count: 294
+paragraph_count: 261
 topic_count: 9
 ---
 
@@ -17,8 +17,8 @@ topic_count: 9
 ## Executive Summary
 
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change.
+- [[IntangibleAssetEconomics]], [[CapitalismWithoutCapital]], [[Microsoft]], [[BillGates]], [[SelfFundedSoftwareGrowth]], [[StartupRunway]], and [[SubsidizedUnitEconomics]] separate software-like first-copy investment and near-zero reproduction cost from businesses where physical service delivery costs remain high; this distinction affects investor valuation, capital needs, GDP measurement, IP, competition, taxation, and whether growth signals sustainable economics.
 - [[AggregationTheory]], [[MarketplaceTrust]], [[SubsidizedUnitEconomics]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Uber]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, browser defaults, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults, while the Uber case shows that adoption and trust can coexist with subsidized physical-service unit economics.
-- [[GrowthHacking]], [[ViralLoops]], [[ProductFlowFriction]], [[ConversionRateOptimization]], [[ProductPageOptimization]], [[WebPerformanceOptimization]], [[DynamicContentCaching]], [[LatencyHierarchy]], [[HTTP2]], [[Redis]], [[Thinks]], [[SocialProof]], [[SaaSMarketing]], [[MarketingAttribution]], [[DeepFunnelMetrics]], [[CustomerAcquisitionCost]], [[BillboardAdvertising]], [[SaaSRetention]], [[ProductLedRetention]], and [[ProductStickiness]] connect acquisition work to activation, product-page confidence, page-load speed, cache-backed availability, engagement, reactivation, revenue, CAC tolerance, attribution quality, and downstream retained value rather than raw signups, impressions, clicks, or first-touch credit.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
 
@@ -33,7 +33,7 @@ Technical progress depends on system understanding, verification, scope-aware ar
 
 ### Business and Markets
 
-Business value compounds when strategy, product, distribution, operations, finance, financing mechanics, and timing integrate around durable demand; platform adoption must still pass unit-economics tests.
+Business value compounds when strategy, product, distribution, operations, finance, financing mechanics, cost structure, and timing integrate around durable demand.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty. Evidence: [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].

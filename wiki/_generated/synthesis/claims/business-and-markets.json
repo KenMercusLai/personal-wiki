@@ -157,6 +157,24 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "software-economics-requires-cost-structure-separation",
+      "qualifications": [
+        "The intangible-asset evidence comes through Gates's review of Haskel and Westlake rather than the full book, and the Microsoft and Uber examples come from very different eras and business models; the claim should separate software-like reproduction costs from defensibility, profitability, market power, labor economics, and policy design."
+      ],
+      "statement": "[[IntangibleAssetEconomics]], [[CapitalismWithoutCapital]], [[Microsoft]], [[BillGates]], [[SelfFundedSoftwareGrowth]], [[StartupRunway]], and [[SubsidizedUnitEconomics]] separate software-like first-copy investment and near-zero reproduction cost from businesses where physical service delivery costs remain high; this distinction affects investor valuation, capital needs, GDP measurement, IP, competition, taxation, and whether growth signals sustainable economics.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "IntangibleAssetEconomics",
+        "CapitalismWithoutCapital",
+        "Microsoft",
+        "BillGates",
+        "SelfFundedSoftwareGrowth",
+        "StartupRunway",
+        "SubsidizedUnitEconomics"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "startup-financing-terms-change-ownership-math",
       "qualifications": [
@@ -497,6 +515,6 @@
       ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Crunchbase News material adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. The Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Gates's review of Haskel and Westlake adds intangible-asset economics as a bridge between Microsoft-style software leverage and macroeconomic policy: high first-copy investment with cheap reproduction changes valuation, capital needs, GDP measurement, IP, competition, taxation, and regional advantage. The Uber material adds the paired caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Crunchbase News adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.",
   "topic_id": "business-and-markets"
 }

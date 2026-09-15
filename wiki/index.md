@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Capitalism-Without-Capital | Bill Gates](sources/capitalism-without-capital-bill-gates.md) - Bill Gates reviews Haskel and Westlake's intangible-asset economics argument, using software and Microsoft to show why policy, measurement, valuation, competition, and taxation need updating.
 - [Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding](sources/cap-tables-share-structures-valuations-oh-my-a-case-study-of-early-stage-funding-crunchbase-news.md) - Crunchbase News explains startup cap tables, unpriced seed rounds, SAFE conversions, valuation caps, discounts, Series A pricing, dilution, and control effects through a fictitious funding case.
 - [Cancer on Nautilus: Getting Googled By Your Doctor Is the New Normal](sources/cancer-on-nautilus-getting-googled-by-your-doctor-is-the-new-normal.md) - Nautilus argues that patient-targeted online search is becoming common in mental healthcare, where it can aid acute risk assessment while threatening privacy, trust, liability norms, and medical-record persistence.
 - [Can You Afford It?: Real-world Web Performance Budgets](sources/can-you-afford-it-real-world-web-performance-budgets-infrequently-noted.md) - Alex Russell argues that web teams need performance budgets grounded in low-end devices, slow networks, TTI targets, and hard JavaScript affordability limits.
@@ -840,7 +841,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
 - [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform strategy, and Apple's trust-centered services positioning.
-- [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path and valuation caution.
+- [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path, valuation caution, and later argument about intangible software economics.
+- [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
+- [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
+- [Stian Westlake](entities/StianWestlake.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
 - [Apple](entities/Apple.md) - Mobile platform winner using ecosystem control, high App Store monetization, brand meaning, wearables, AR software, services trust positioning, large-scale buybacks, and mature installed-base growth.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
@@ -873,7 +877,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
 - [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by early clunkiness, Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
 - [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
-- [Microsoft](entities/Microsoft.md) - Legacy PC-platform company framed as having missed the mobile platform shift and abandoned Windows Everywhere.
+- [Microsoft](entities/Microsoft.md) - Legacy PC-platform and software company framed through intangible economics, self-funded origins, missed mobile shift, and later enterprise-services adaptation.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
@@ -1443,6 +1447,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Offline Policy Replay](concepts/OfflinePolicyReplay.md) - Counterfactual evaluation of decision policies against logged randomized interactions.
 - [Big Data Industry Transformation](concepts/BigDataIndustryTransformation.md) - Conditions under which large-scale data and automation can reshape an industry's operations or products.
 - [Bootstrapped SaaS](concepts/BootstrappedSaaS.md) - Recurring-revenue SaaS business built and operated leanly around focused markets, modular infrastructure, customer trust, and long-term product compounding.
+- [Intangible Asset Economics](concepts/IntangibleAssetEconomics.md) - Economic behavior of software, data, brands, research, training, and other non-physical assets with different cost, valuation, measurement, and policy dynamics.
 - [Browser Payment Broker](concepts/BrowserPaymentBroker.md) - Proposed browser role that mediates payment between users, providers, and sites.
 - [Business as Art](concepts/BusinessAsArt.md) - View that business can be practiced as a creative medium across product, marketing, support, and customer relationships.
 - [Career Planning](concepts/CareerPlanning.md) - Choosing and revising a work path through strengths, interests, values, constraints, future options, and staged steps.

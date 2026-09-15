@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 7107afc769b2ea2dadd25fdc139df142a9c2b730
-input_digest: 080e6a7bbd75773107d76834abcdfd35bc5b9bc12e834456b3211786cfcb1ae0
+as_of_overview_commit: 0e3c13361f20cce409be1a0d8210b4ff979326d2
+input_digest: 35b82ab411de87786efe4652c19919ab4056df5d7e90b4bde1b24cb6c4d139d0
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Crunchbase News material adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. The Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Gates's review of Haskel and Westlake adds intangible-asset economics as a bridge between Microsoft-style software leverage and macroeconomic policy: high first-copy investment with cheap reproduction changes valuation, capital needs, GDP measurement, IP, competition, taxation, and regional advantage. The Uber material adds the paired caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Crunchbase News adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
 
 ## Cross-source Findings
 
@@ -88,6 +88,16 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 - The evidence mixes advice, retrospectives, famous examples, investor interpretation, and a curated public failure corpus, so survivorship bias, visibility bias, retrospective rationalization, category differences, and missing quiet failures remain important.
 - Beautifully broken products are only positive evidence when users keep returning for strong core value; roughness by itself can still indicate weak execution, reliability risk, or poor usability.
+
+### Software Economics Requires Cost Structure Separation
+
+[[IntangibleAssetEconomics]], [[CapitalismWithoutCapital]], [[Microsoft]], [[BillGates]], [[SelfFundedSoftwareGrowth]], [[StartupRunway]], and [[SubsidizedUnitEconomics]] separate software-like first-copy investment and near-zero reproduction cost from businesses where physical service delivery costs remain high; this distinction affects investor valuation, capital needs, GDP measurement, IP, competition, taxation, and whether growth signals sustainable economics.
+
+**Evidence:** [[IntangibleAssetEconomics]], [[CapitalismWithoutCapital]], [[Microsoft]], [[BillGates]], [[SelfFundedSoftwareGrowth]], [[StartupRunway]], [[SubsidizedUnitEconomics]]
+
+**Qualifications:**
+
+- The intangible-asset evidence comes through Gates's review of Haskel and Westlake rather than the full book, and the Microsoft and Uber examples come from very different eras and business models; the claim should separate software-like reproduction costs from defensibility, profitability, market power, labor economics, and policy design.
 
 ### Startup Financing Terms Change Ownership Math
 
