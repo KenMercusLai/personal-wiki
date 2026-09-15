@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-15
-as_of_overview_commit: ff99c3930d4b5bac9096da677e0b3daa01ae881f
-input_digest: f28e9016205c6253f60c25212a42a5a6a00040c950d4e34903f9ed96ae57591f
+as_of_overview_commit: 10f6677f2425784d56d7b9d2b2233fb4e7d093c0
+input_digest: 94071805895911920a5299c50fb6f2970cc13f0742a7797930acdef02d63417b
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios.
 
 ## Cross-source Findings
 
@@ -39,14 +39,15 @@ Automation becomes governable when systems expose logs, metrics, replayable evid
 
 ### Scale Changes Operating Boundaries
 
-Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, and regulatory controls; [[EngineeringLedOrganizationDesign]], [[StartupScaling]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] add that team values, rewards, release processes, manager expectations, feedback loops, and attrition or shipping metrics can become explicit governance surfaces inside a growing company.
+Scale turns informal or one-off practices into boundary-design problems across organizations, infrastructure, product surfaces, regulatory controls, and investment governance; [[EngineeringLedOrganizationDesign]], [[StartupScaling]], [[StartupCulture]], [[StartupHiringAtScale]], and [[ScalingCommunication]] add that team values, rewards, release processes, manager expectations, feedback loops, and attrition or shipping metrics can become explicit governance surfaces inside a growing company, while [[VentureCapitalPortfolioSizing]] and [[PortfolioConcentration]] show VC fund scale changing the balance between board-seat attention and enough company exposure to rare outlier returns.
 
-**Evidence:** [[ScalingCommunication]], [[StartupHiringAtScale]], [[StartupCulture]], [[StartupScaling]], [[EngineeringLedOrganizationDesign]], [[Kubernetes]], [[ContainerNativePractice]], [[NetworkAutomation]], [[InferenceLoadBalancing]], [[ContextualBandits]], [[ComplianceArchitecture]]
+**Evidence:** [[ScalingCommunication]], [[StartupHiringAtScale]], [[StartupCulture]], [[StartupScaling]], [[EngineeringLedOrganizationDesign]], [[Kubernetes]], [[ContainerNativePractice]], [[NetworkAutomation]], [[InferenceLoadBalancing]], [[ContextualBandits]], [[ComplianceArchitecture]], [[VentureCapitalPortfolioSizing]], [[PortfolioConcentration]]
 
 **Qualifications:**
 
 - The corpus mixes startup scaling, local developer environments, cloud infrastructure, and recommendation systems, so the shared pattern is boundary design rather than one operational recipe.
 - The organization-design evidence comes from one Greenhouse practitioner summary, so it should be applied as a bounded management frame rather than a universal governance law.
+- The VC portfolio-sizing evidence is a simplified investor essay; it treats governance rights and board seats as separable possibilities but does not solve the support-quality problem across very large portfolios.
 
 ### Platform Trust Is A Strategic Asset
 
