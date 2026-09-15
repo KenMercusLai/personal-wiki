@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Can Digital Products Be "Timeless?"
+
+Added Startup Grind's design essay on whether websites and apps can become timeless. Key claims: digital design is handicapped by the web's speed and elasticity, but focused interfaces such as the Google Homepage may earn timeless status when their iconic core survives long-term iteration. Inspected all 12 embedded local images: Porsche and Google comparison screenshots supported the core analogy, the watch/Rolex and Google Doodle images supported contextual examples, and tiny duplicate thumbnails added no independent evidence.
+
 ## [2026-09-15] ingest | CEO Advice from a New CEO
 
 - Source: `/mnt/ken_personal_wiki/Articles/CEO Advice from a New CEO - The Biz Stone Collection - Medium.md`
@@ -2318,6 +2322,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Can Digital Products Be "Timeless?"](sources/can-digital-products-be-timeless-startup-grind-medium.md) - Startup Grind argues that digital products can become timeless design candidates when a focused, iconic core survives rapid platform change, using the Google Homepage and Porsche 911 as the central comparison.
 - [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
 - [CES 2019: A Show Report](sources/ces-2019-a-show-report-learning-by-shipping.md) - Steven Sinofsky reads CES 2019 as a connected-product integration moment where smart-home, voice, TV, AI, wireless, and PC/gaming advances still needed better product judgment to become reliable everyday experiences.
 - [CEO Advice from a New CEO](sources/ceo-advice-from-a-new-ceo-the-biz-stone-collection-medium.md) - Biz Stone distills early CEO lessons around frequent communication, selective outside advice, firing, praise, and decisive leadership under uncertainty.
@@ -296,6 +297,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Google Homepage](entities/GoogleHomepage.md) - Search-first Google interface used as the source's digital example of a recognizable product core surviving long-term iteration.
+- [HODINKEE](entities/HODINKEE.md) - Watch and design media/company context that prompted the source's comparison between physical and digital timelessness.
+- [Porsche 911](entities/Porsche911.md) - Physical product comparator used to show recognizable design continuity through decades of iteration.
+- [Startup Grind](entities/StartupGrind.md) - Publication context for the digital-product timelessness essay.
 - [Andy Jassy](entities/AndyJassy.md) - AWS CEO quoted criticizing Oracle's cloud position and citing AWS Database Migration Service adoption.
 - [CNBC](entities/CNBC.md) - Business-news publisher of the 2018 Amazon-Oracle database migration report.
 - [Jordan Novet](entities/JordanNovet.md) - CNBC technology reporter credited on the Amazon-Oracle database migration article.
@@ -1009,6 +1014,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Digital Product Timelessness](concepts/DigitalProductTimelessness.md) - Possibility that a website, app, or interface can remain culturally recognizable and functionally strong across long periods of digital change.
 - [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
