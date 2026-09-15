@@ -159,6 +159,7 @@ sources:
   - 15-examples-of-successful-mvps-startups-web-pages-software-brothers
   - 16-lessons-on-scaling-from-eric-schmidt-reid-hoffman-marissa-mayer-brian-chesky-diane-greene-jeff-weiner-and-more
   - 16-mobile-theses-benedict-evans
+  - co-founder-conflict-techcrunch
   - advertising-models-in-mobile-messaging-apps-mobile-dev-memo
   - 2016-bernies-army-of-coders-politico-magazine
   - 2018-nian-du-xiao-jie-ji-shu-fang-mian
@@ -238,6 +239,7 @@ sources:
   - behavior-model
   - behind-every-great-product-silicon-valley-product-group
   - ceo-of-the-product-revisited-silicon-valley-product-group
+  - co-ceos-are-two-better-than-one
   - beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium
   - big-data-mooc-research-breakthrough-learning-activities-lead-to-achievement-edtech-researcher-education-week
   - black-friday-and-cyber-monday-by-the-numbers-sendgrid
@@ -721,6 +723,8 @@ The newest CS183C scaling source extends that startup thread from validation int
 The Maderight failure retrospective adds the negative case to that same startup-validation cluster. [[Maderight]] had accelerator validation from [[YCombinator]] and [[StartX]], venture funding, paying service customers, and later some product adoption, yet still shut down after failing to find [[ProductMarketFit]]. [[StartupHypothesisTesting]] names the source's operating discipline: founders should document assumptions, design tests, decide evaluation criteria, and ask what build work is essential to learning. [[StartupRunway]] reframes capital from months alive to the number and quality of hypotheses tested, while [[FounderLedSales]] keeps customer discovery in founder hands before fit. The article also qualifies [[DoingThingsThatDoNotScale]] and [[CustomerLedProductDevelopment]] through [[StartupFocus]]: manual service work can teach a team, but if existing high-touch customers and a new software product demand different paths, "do both" may split scarce attention and weaken both.
 
 [[DavidLieb]]'s Bump retrospective adds a more serendipitous positive case to the startup-validation cluster. [[Bump]] reached 2 million users during [[YCombinator]] with five people and $16,000, making [[SmallTeamLeverage]] a real but lucky and network-dependent pattern after an Apple commercial melted the servers. The source strengthens [[CustomerLedProductDevelopment]] through [[UserBehaviorDrivenProductDiscovery]]: calls with top users revealed that people were sharing photos, sending the team toward [[Flock]], Photoroll, and eventually [[GooglePhotos]] work after [[Google]] acquired the company. It also qualifies product-first startup narratives through [[StartupTeamBond]]: Lieb says the most lasting thing about startups is often the people, and the Bump team retained 15 of 17 members at Google five years after acquisition.
+
+[[GarryTan]]'s TechCrunch essay adds the failure mode beneath that same founder-relationship thread. [[CoFounderConflict]] names the article's middle-path claim: startups suffer when founders avoid necessary conflict to preserve harmony, but they also suffer when every decision becomes a fight because roles and ownership are unclear. [[Posterous]] becomes the case where 10X yearly growth and top-200 Quantcast reach masked a weak co-founder foundation until growth flatlined, while [[FounderVisionAlignment]] gains a relationship-maintenance layer: shared history, friendship, and complementary functions do not replace current directness, fair conflict, decision boundaries, and sometimes outside support. This qualifies [[StartupTeamBond]] by making bond an active practice rather than a static origin story.
 
 The Hardbound update adds a consumer-content startup case where visible love and usage did not settle [[ProductMarketFit]]. [[NathanBashaw]] reports that [[Hardbound]] had 1,200 paying customers, nearly 100,000 downloads, about 250,000 web readers, and more than 20 million tapped pages, but only about $2,500 monthly revenue against about $13,000 monthly spend. Investors were reportedly unconvinced by the combination of moderate growth and labor-intensive story production, so [[StartupRunway]] became a team-responsibility problem rather than an abstract finance metric. The post also adds [[FailureOwnership]]: Bashaw tries to accept responsibility for failing to fundraise without turning the outcome into fixed self-hatred, using the "couldn't" versus "didn't" distinction to keep the failure available for learning and model redesign.
 

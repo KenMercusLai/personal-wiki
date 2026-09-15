@@ -224,6 +224,7 @@
       "9aea2390636a7477b3904a1685f12842ffb52247084c308b0f2fda6d770d1f75",
       "712ab73621f26ea833bb38a3a0e932bd85ad945c704276775a4b4b89ba9cce5f",
       "dc39287dd56fd8f3f8cc384e9dc7f130430bb44983865e5927eccc7e902ddd19",
+      "1ea712fd50a49c7c9e49f9b68c8a81bd1344804c1c492113c6483e9a207cd37b",
       "f245a8a3a8e92e242d75c4d8ebab69c4db3b48ab57d59b5f69d71c970add006a",
       "18424d1267b64a839881f8c9f64eda27a7f686f8fe3dd143bd2bc72d09460a7b",
       "5dc3493fd438d081d291b2ddcb69aed77ae5f7a601a642ca244b1ddbc5648098",
@@ -269,10 +270,10 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 267
+    "paragraph_count": 268
   },
-  "overview_commit": "7bdf0d5dc1b23aec86567480d2dc1f689c5e8ce4",
-  "overview_digest": "f74199a01632ee40f8ca8cc4224de3228899c173b420a80a99bef543f246ea80",
+  "overview_commit": "11f08c357d908cd971e3213522a141e016638f15",
+  "overview_digest": "086e030d15bc6477c6efe26e8ba4cb7371dd61fa12a5bd1678a809eae41f962d",
   "paragraphs": [
     {
       "id": "83a6bd554b3005df79b96b7da72c14c6f4099fe82effcc244825553eb6458fab",
@@ -4547,6 +4548,27 @@
         "StartupTeamBond",
         "UserBehaviorDrivenProductDiscovery",
         "YCombinator"
+      ]
+    },
+    {
+      "id": "1ea712fd50a49c7c9e49f9b68c8a81bd1344804c1c492113c6483e9a207cd37b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "[[GarryTan]]'s TechCrunch essay adds the failure mode beneath that same founder-relationship thread. [[CoFounderConflict]] names the article's middle-path claim: startups suffer when founders avoid necessary conflict to preserve harmony, but they also suffer when every decision becomes a fight because roles and ownership are unclear. [[Posterous]] becomes the case where 10X yearly growth and top-200 Quantcast reach masked a weak co-founder foundation until growth flatlined, while [[FounderVisionAlignment]] gains a relationship-maintenance layer: shared history, friendship, and complementary functions do not replace current directness, fair conflict, decision boundaries, and sometimes outside support. This qualifies [[StartupTeamBond]] by making bond an active practice rather than a static origin story.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "CoFounderConflict",
+        "FounderVisionAlignment",
+        "GarryTan",
+        "Posterous",
+        "StartupTeamBond"
       ]
     },
     {

@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-15
-as_of_overview_commit: 8f9fefabe075d99cb6499747c1437b26153ed844
-input_digest: 0ee6a99609a914d8943b7ed8748bf60df4756901648aea4d4e20e6164d99e5a8
+as_of_overview_commit: 11f08c357d908cd971e3213522a141e016638f15
+input_digest: c40405b7d680c59ffa7b4cd996a108778dd28782fbd67fc313edffba2efd085e
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, pricing behavior carefully, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, and calibration problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -38,13 +38,13 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 ### Trust And Good Faith Can Speed Collaboration
 
-[[AssumePositiveIntent]], [[WorkplaceCollaboration]], and [[HanlonsRazor]] argue that beginning from good faith can reduce defensive friction and improve joint problem solving.
+[[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]] argue that collaboration improves when people start from good faith, maintain relationships actively, process conflict directly, and define decision boundaries before avoidance or chronic fighting consumes trust.
 
-**Evidence:** [[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]]
+**Evidence:** [[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], [[Posterous]], [[GarryTan]]
 
 **Qualifications:**
 
-- The same sources warn that low-trust, unsafe, coercive, or bad-faith contexts require boundaries and stronger skepticism.
+- The same sources warn that low-trust, unsafe, coercive, bad-faith, or already-broken contexts require boundaries, stronger skepticism, role changes, outside help, or separation rather than naive harmony.
 
 ### Future Choice Should Not Be Anchored To Past Cost
 

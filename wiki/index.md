@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Co-founder conflict | TechCrunch](sources/co-founder-conflict-techcrunch.md) - Garry Tan argues that co-founder disputes become dangerous when founders avoid necessary conflict or fight without role boundaries, using Posterous as the central case.
 - [A Bitter Guide To Open Source](sources/a-bitter-guide-to-open-source-codezillas-medium.md) - Ken Wheeler argues that successful open source depends on concrete problem fit, explicit API design, strong docs, tests, types, release discipline, contributor delegation, and maintainer boundaries.
 - [Claude Code On-The-Go](sources/claude-code-on-the-go.md) - Miguel Granda shows how to run multiple Claude Code agents from a phone using Termius, mosh, Tailscale, a disposable Vultr VM, tmux, push notifications, and worktrees.
 - [The Hardest Part About Microservices: Your Data](sources/christian-posta-the-hardest-part-about-microservices-your-data.md) - Christian Posta argues that microservices are hardest around domain meaning, data ownership, transactional boundaries, and event-driven consistency rather than framework or database-per-service rules.
@@ -35,6 +36,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
 - [CES 2019: A Show Report](sources/ces-2019-a-show-report-learning-by-shipping.md) - Steven Sinofsky reads CES 2019 as a connected-product integration moment where smart-home, voice, TV, AI, wireless, and PC/gaming advances still needed better product judgment to become reliable everyday experiences.
 - [CEO Advice from a New CEO](sources/ceo-advice-from-a-new-ceo-the-biz-stone-collection-medium.md) - Biz Stone distills early CEO lessons around frequent communication, selective outside advice, firing, praise, and decisive leadership under uncertainty.
+- [Co-CEOs: Are Two Better than One?](sources/co-ceos-are-two-better-than-one.md) - Shared-governance article arguing that co-CEOs can work through complementary skills, peer oversight, divided responsibility, global coverage, and disciplined conflict norms.
 - [Buying Time, Not Stuff, Might Make You Happier](sources/buying-time-not-stuff-might-make-you-happier-shots-health-news-npr.md) - NPR reports on research suggesting that spending money on time-saving services can improve positive emotion and life satisfaction more than buying material goods, while leaving durability questions open.
 - [Burning money on paid ads for a dev tool - what we've learned](sources/burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog.md) - PostHog argues that developer-tool paid ads need awareness/conversion separation, qualitative attribution, channel-specific experiments, and skepticism toward cheap but low-quality conversions.
 - [The user experience of HBO Max (vs Netflix)](sources/built-for-mars-the-ux-of-hbo-max-vs-netflix.md) - Built for Mars critiques HBO Max's streaming-app UX across image performance, entitlement clarity, occluded lists, free-episode journeys, and mobile form usability.
@@ -323,6 +325,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Garry Tan](entities/GarryTan.md) - Founder-investor and TechCrunch author explaining co-founder conflict through Posterous and startup advising experience.
+- [Posterous](entities/Posterous.md) - Startup case showing how growth can mask co-founder relationship problems until the company hits a harder phase.
+- [Cameron Yarbrough](entities/CameronYarbrough.md) - Executive coach credited by Garry Tan for relationship-conflict framing in founder disputes.
+- [John Gottman](entities/JohnGottman.md) - Psychologist whose Four Horsemen relationship concept is applied to co-founder conflict.
 - [Cash](entities/CashJS.md) - Disambiguated page for the Cash JavaScript project referenced in Ken Wheeler's open-source portfolio.
 - [Formidable](entities/Formidable.md) - Company context for Ken Wheeler's Director of Open Source role in the source article.
 - [Ken Wheeler](entities/KenWheeler.md) - Open-source JavaScript practitioner and author of "A Bitter Guide To Open Source."
@@ -375,6 +381,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oracle](entities/Oracle.md) - Incumbent enterprise database vendor and AWS rival in the CNBC Amazon migration report.
 - [Biz Stone](entities/BizStone.md) - Jelly co-founder and CEO reflecting on practical early CEO responsibilities.
 - [Jelly](entities/Jelly.md) - startup context for Biz Stone's transition into the formal CEO role.
+- [Stephen Ferris](entities/StephenFerris.md) - University of Missouri finance professor whose co-CEO research anchors the shared-governance source.
+- [University of Missouri Trulaske College of Business](entities/UniversityOfMissouriTrulaskeCollegeOfBusiness.md) - Business school affiliation and survey-chart source for the co-CEO leadership article.
+- [Aspen Insurance](entities/AspenInsurance.md) - Global insurance and reinsurance company used as the source's main co-CEO operating case.
+- [Rupert Villers](entities/RupertVillers.md) - Aspen Insurance co-CEO quoted on geographic complexity, plainspoken disagreement, and shared coverage.
+- [Mario Vitale](entities/MarioVitale.md) - Aspen Insurance co-CEO arguing that low ego, complementary strengths, and divided responsibility make shared leadership workable.
+- [Mobi Wireless Management](entities/MobiWirelessManagement.md) - Indianapolis mobile-account management company used as a five-leader shared-executive case.
+- [Bluefish Wireless Management](entities/BluefishWirelessManagement.md) - Earlier related business behind the long-running Mobi leadership group.
+- [Scott Kraege](entities/ScottKraege.md) - Mobi and Bluefish managing partner quoted on debate, departmental ownership, and roundtable decisions.
 - [HBO Max](entities/HBOMax.md) - Streaming-product UX case where strong content is weakened by performance, state-clarity, journey, and form execution issues.
 - [Fluxx](entities/Fluxx.md) - Product and experimentation consultancy that published Tom Whitwell's 2017 learning list on Fluxx Studio Notes.
 - [Tom Whitwell](entities/TomWhitwell.md) - Author and Fluxx senior consultant behind the 2017 "52 Things I Learned" source.
@@ -1094,6 +1108,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Co-Founder Conflict](concepts/CoFounderConflict.md) - Founder relationship tension that becomes risky when teams avoid direct disagreement or fight constantly without decision boundaries.
 - [Open Source Project Maintenance](concepts/OpenSourceProjectMaintenance.md) - Practice of designing, releasing, supporting, delegating, and evolving public software projects while preserving user trust and maintainer sustainability.
 - [Aggregate Transaction Boundary](concepts/AggregateTransactionBoundary.md) - Smallest practical atomicity boundary needed to protect true business invariants.
 - [Bounded Context](concepts/BoundedContext.md) - Domain-Driven Design boundary within which model language and data meaning are explicit.
@@ -1385,6 +1400,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, repetition, rituals, feedback, and strategic commitment.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
+- [Co-CEO Leadership](concepts/CoCEOLeadership.md) - Shared executive-leadership structure where two or more top leaders divide responsibility, monitor each other, and sustain unified decisions.
 - [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into action, trust, conflict reduction, coaching, and humane accountability.
 - [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.
 - [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.

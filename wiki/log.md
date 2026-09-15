@@ -2053,6 +2053,14 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Co-founder conflict | TechCrunch
+
+Added Garry Tan's TechCrunch essay on co-founder conflict. Key claims: startup success can hide founder relationship problems; prior friendship and history are not enough without active maintenance; avoidance, self-abandonment, and surface harmony can be as dangerous as constant fighting; unclear decision ownership intensifies chronic conflict; and trusted advisors, mentors, or executive coaching can help before disputes become company-killing. Inspected the duplicated remote image variant via Flickr; it is illustrative and did not add independent factual evidence.
+
+## [2026-09-15] ingest | Co-CEOs: Are Two Better than One?
+
+Added source. Key claims: co-CEO leadership can work when executives have complementary duties or backgrounds, monitor each other, divide responsibility, and maintain trustful conflict norms; Ferris's research reports similar tenure to sole CEOs, lower option-heavy compensation, and positive announcement returns; Aspen Insurance illustrates global-complexity coverage; Mobi Wireless Management illustrates a more extreme five-leader model. Inspected three local images: two were illustrative, while the survey chart supplied trigger data across family companies, mergers/acquisitions, co-founders, interim transitions, and other circumstances.
 ## [2026-09-15] ingest | A Bitter Guide To Open Source
 
 Added Ken Wheeler's open-source maintenance essay. Key claims: successful OSS starts from a real problem, needs explicit APIs, strong docs, tests, types, CI, contribution docs, licensing, release notes, and semantic versioning, and becomes sustainable only when maintainers delegate, set issue/PR expectations, protect the core API, and keep boundaries around criticism and unpaid support. The repeated local GIF was inspected and classified as decorative/emphatic rather than evidence-bearing.
@@ -2530,6 +2538,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Claude Code On-The-Go
 
 Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone can supervise multiple cloud-hosted coding agents when Termius, mosh, Tailscale, tmux, push notifications, a disposable VM, git worktrees, and deterministic port allocation provide persistence, isolation, and async human checkpoints. No effective image references were present; the Mermaid architecture diagram was treated as source evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
