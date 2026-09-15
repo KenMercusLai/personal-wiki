@@ -34,6 +34,12 @@ def load_verifier(name: str):
     return module
 
 
+class DirectoryBucketTest(unittest.TestCase):
+    def test_numeric_prefix_uses_numeric_bucket(self):
+        verifier = load_verifier("personal_artifact_numeric_bucket")
+        self.assertEqual(verifier._directory_bucket("8VC"), "0-9")
+
+
 class CanonicalMarkdownVisibleTextTest(unittest.TestCase):
     def test_inline_code_delimiters_are_not_expected_in_rendered_questions(self):
         verifier = load_verifier("personal_artifact_canonical_markdown")
