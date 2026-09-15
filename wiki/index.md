@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
 - [Charging Employees for Conference Rooms Helps Disco Boost Profit - Bloomberg](sources/charging-employees-for-conference-rooms-helps-disco-boost-profit-bloomberg.md) - Bloomberg Businessweek reports that Disco's Personal Will system prices meeting rooms, desks, team services, task auctions, overtime, ideas, and coworker help in virtual currency, improving focus and profitability while adding pressure and short-termism risks.
 - [Capitalism-Without-Capital | Bill Gates](sources/capitalism-without-capital-bill-gates.md) - Bill Gates reviews Haskel and Westlake's intangible-asset economics argument, using software and Microsoft to show why policy, measurement, valuation, competition, and taxation need updating.
 - [Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding](sources/cap-tables-share-structures-valuations-oh-my-a-case-study-of-early-stage-funding-crunchbase-news.md) - Crunchbase News explains startup cap tables, unpriced seed rounds, SAFE conversions, valuation caps, discounts, Series A pricing, dilution, and control effects through a fictitious funding case.
@@ -560,8 +561,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Greylock Partners](entities/GreylockPartners.md) - Venture-capital publication context for Josh Elman's platform-distribution startup advice.
 - [Eric Seufert](entities/EricSeufert.md) - Mobile Dev Memo author classifying advertising models in mobile messaging apps.
 - [Mobile Dev Memo](entities/MobileDevMemo.md) - Mobile app and advertising publication context for Seufert's messaging-ad taxonomy.
-- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as the main CRM-like brand-thread advertising case.
-- [Kik](entities/Kik.md) - Messaging app example of promoted brand chats and keyword-sensitive bot responses.
+- [David Marcus](entities/DavidMarcus.md) - Facebook Messenger leader quoted on Hipmunk's early chatbot experience being better than mobile web.
+- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as a CRM-like brand-thread advertising case and early chatbot platform.
+- [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
+- [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
 - [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover feature exemplifies opt-in brand content channels.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
@@ -893,7 +896,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
-- [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example and as a sponsored Moments ad surface.
+- [Ted Livingston](entities/TedLivingston.md) - Kik leader and author arguing that chat could become the new browser and bots the new websites.
+- [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example, sponsored Moments ad surface, and chat-payments proof case.
 - [Graham Harman](entities/GrahamHarman.md) - Object-oriented ontology thinker whose real/sensual object and quality schema frames the article's theory of art and metaphor.
 - [Guanlan](entities/Guanlan.md) - Author arguing for production-agent infrastructure built around effect logs, capability gateways, and resumability.
 - [gVisor](entities/GVisor.md) - User-space kernel sandbox discussed as execution isolation rather than semantic agent isolation.

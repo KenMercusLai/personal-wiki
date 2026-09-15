@@ -2038,6 +2038,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | Chat is the New Browser
+
+Added Ted Livingston's 2016 chat-as-platform argument. Key claims: chatbots could improve like early websites because they reduce first-use friction; Messenger and Kik bot platforms were early evidence; suggested replies, codes, web bubbles, invites, mentions, and payments were presented as ecosystem infrastructure; and WeChat/Tenpay served as the strongest payment and commerce proof case. Inspected seven embedded images: the Kik hero/thumbnail were illustrative, the early White House/Yahoo/Google screenshots supported the early-web analogy, and the WeChat/Tenpay chart supported the mobile-payments claim.
+
 ## [2026-09-15] ingest | Cash is for SAPS
 
 Ingested Gabe Zichermann's Gamification Co article on SAPS reward design from `/mnt/ken_personal_wiki/Articles/Cash is for SAPS - Gamification Co.md`. Key claims: tangible rewards can be costly, weak, or off-putting; Status, Access, and Power are usually stickier and cheaper than Stuff; and SAPS is useful as a practitioner reward-design heuristic while remaining weakly evidenced. No effective image references were present in the source markdown.
@@ -2413,6 +2417,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Change at Buffer: The Next Phase, and Why Our Co-Founder and Our CTO are Moving On
 
 Added Joel Gascoigne's 2017 Buffer leadership-transition post. Key claims: Buffer had reached 65,000 paying customers, an 80-person team, and more than $13M annual revenue; the company recommitted to sustainable fully remote growth, product reliability, transparency, diversity and inclusion, and culture investment; Leo Widrich and Sunil Sadasivan left because their preferred company-building paths diverged from Gascoigne's; and Buffer staged the announcement through executives, one-on-one team conversations, investors, and then public disclosure. The four remote images in the source returned 404 from this environment and could not be inspected.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
