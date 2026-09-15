@@ -2046,6 +2046,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | How to go fast
+
+Added Chris James's sustainable software-delivery essay. Key claims: fast teams should clarify user problems and non-goals, deploy from the first "hello world," continuously ship green builds to live, keep WIP low, use tests and refactoring as speed enablers, prefer small trusted teams and pairing, avoid premature microservices and SPA complexity, and treat user stories as conversation starters. Inspected two embedded images: the skateboard-to-car illustration was substantive evidence for incremental usable delivery, while the Accelerate book cover functioned mainly as a citation marker.
+
 ## [2026-09-15] ingest | 99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns
 
 Added Dave McClure's 2015 portfolio-construction argument. Key claims: VC returns are dominated by rare centaur and unicorn outcomes; portfolios below roughly 50-100 companies risk missing all unicorns when the base rate is only 1-2%; early-stage funds may need 100-200 or more companies; and traditional board-seat norms may contribute to undersized portfolios. Inspected seven embedded images: the repeated "99 Problems" images were decorative, while the spreadsheet screenshots were substantive model evidence but too low-resolution to extract reliable figures beyond the prose.
@@ -2483,6 +2487,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Checklists for Startups
 
 Added source. Key claims: David Lee recommends reusing startup checklist frameworks from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley; Thiel's seven questions test technology, timing, market wedge, team, distribution, durability, and secrets; checklists are easy to write but hard to execute.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

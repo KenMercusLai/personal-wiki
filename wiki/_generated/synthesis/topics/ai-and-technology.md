@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-15
-as_of_overview_commit: 8f9fefabe075d99cb6499747c1437b26153ed844
-input_digest: d22b38bd7313455540537ef333ecde3c8ec35c80fb3b9a4e36865db928d5d4c7
+as_of_overview_commit: 685cb81e2201310634c9507d26039ec1efa369ea
+input_digest: 7105e9550bd123f0f6d9982452caea348c333d4ea42aaa5744ca087a11f428d5
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
 
 ## Cross-source Findings
 
@@ -38,13 +38,13 @@ Systems reasoning starts with clear execution and communication models: [[Concur
 
 ### Verification As Technical Accelerator
 
-[[SoftwareVerification]] is the recurring accelerator and safety boundary across automated testing, code review, staging, AI coding, agent TDD, migrations, and production change.
+[[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 
-**Evidence:** [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[ContinuousDelivery]]
+**Evidence:** [[SoftwareVerification]], [[AutomatedGameTesting]], [[CodeReviewPractice]], [[StagingEnvironment]], [[AgentTDDResidual]], [[ContinuousDelivery]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]]
 
 **Qualifications:**
 
-- Tests and checks need human judgment, production observability, and risk-sensitive review to cover requirements that automated feedback cannot express.
+- Tests and checks need human judgment, production observability, and risk-sensitive review to cover requirements that automated feedback cannot express; minimal pipelines and no-PR norms are strongest in small trusted teams with strong pairing and rollback paths.
 
 ### Architecture Governance Is Scope Sensitive
 

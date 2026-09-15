@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-15
-as_of_overview_commit: 2d38d75d49e51eeb01c2e6a2c7790068eb8a5cae
-input_digest: 04173c22584dcaecb0dabbedcca3d5f2255e01a2f44a4b361bca53b9d08ea24b
+as_of_overview_commit: 685cb81e2201310634c9507d26039ec1efa369ea
+input_digest: dac63de06084cf2adffde5bac915d47f830d13c6d21b20269c47dda375c404a9
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen seven boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.
+Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen eight boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; sustainable software speed depends on small feedback loops, low WIP, continuous delivery, and internal quality rather than ceremony or big-bang release planning; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.
 
 ## Cross-source Findings
 
@@ -45,6 +45,16 @@ Work, education, and society sources frame learning, career development, collabo
 **Qualifications:**
 
 - Fast adaptation to new tools is not the same as architectural, debugging, or product judgment; review feedback can damage learning when preference masquerades as quality.
+
+### Sustainable Delivery Needs Feedback And Quality
+
+[[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments to live, protect [[InternalSoftwareQuality]] through tests and refactoring, and tune [[CodeReviewPractice]] to team trust and risk rather than treating ceremony as speed.
+
+**Evidence:** [[AgileSoftwareDevelopment]], [[ContinuousDelivery]], [[InternalSoftwareQuality]], [[CodeReviewPractice]]
+
+**Qualifications:**
+
+- The small-team advice is context-sensitive: co-location, no pull requests, and minimal non-live environments fit best when trust, tests, pairing, observability, and release reversibility are already strong.
 
 ### Collaboration Needs Trust Role Clarity And Power Aware Restraint
 

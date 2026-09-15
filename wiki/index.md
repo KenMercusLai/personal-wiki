@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be](sources/chris-bailey-exactly-how-long-your-work-breaks-should-be.md) - Chris Bailey argues that knowledge workers should take more deliberate breaks, using 90-minute morning blocks, Pomodoro cycles, and roughly 15 minutes off per work hour as recovery heuristics.
+- [How to go fast](sources/chris-james-how-to-go-fast.md) - Chris James argues that software teams move quickly and sustainably through small teams, continuous delivery from day one, low WIP, tests, refactoring, direct user feedback, and minimal ceremony.
 - [99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns](sources/99-vc-problems-but-a-batch-aint-one-why-portfolio-size-matters-for-returns.md) - Dave McClure argues that VC portfolios are often too concentrated for rare power-law startup outcomes, recommending much larger early-stage and later-stage fund portfolios.
 - [Checklists for Startups](sources/checklists-for-startups-david-lee-medium.md) - David Lee curates startup checklists from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley for strategy, fundraising, metrics, and marketplace evaluation.
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
@@ -318,6 +319,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 - [Chris Bailey](entities/ChrisBailey.md) - Productivity author represented by advice on work-break timing, energy restoration, and attention recovery.
+- [Chris James](entities/ChrisJames.md) - Software-development practitioner-author arguing for sustainable speed through small teams, continuous delivery, low WIP, simple architecture, and user feedback.
 - [Dave McClure](entities/DaveMcClure.md) - Investor-author arguing that VC portfolios should be sized around rare power-law winners.
 - [500 Startups](entities/500Startups.md) - High-volume venture platform used as evidence for larger early-stage startup portfolios.
 - [David Lee](entities/DavidLee.md) - Author who curates startup checklists for strategy, fundraising, metrics, and marketplace evaluation.
