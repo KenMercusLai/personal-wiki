@@ -2397,3 +2397,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Central Logging in Multi-Account Environments
+
+Added the AWS Architecture Blog central-logging recipe. Key claims: multi-account logging can use a dedicated logging account, same-region CloudWatch Logs destinations and subscription filters, Kinesis plus Firehose delivery, a reusable Lambda processor for CloudWatch log records, S3/Glacier storage, Athena SQL analysis, CloudFormation repeatability, and explicit cross-account IAM/destination-policy controls. Inspected seven embedded images: the lead architecture diagram was substantive evidence for the log flow and account boundaries; the CloudFormation, Lambda blueprint, stack output, and Athena screenshots confirmed deployment parameters, generated ARNs, and VPC flow-log query results.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

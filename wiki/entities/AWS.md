@@ -9,17 +9,18 @@ sources:
   - aws-costs-every-programmer-should-know
   - bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next
   - cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020
+  - central-logging-in-multi-account-environments-aws-architecture-blog
 last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AWS]] is a cloud infrastructure provider used in the wiki as a self-managed EC2 hosting option, a standardized public-cloud substrate for large-scale SaaS, a managed AI/database stack, a source of unit-cost constraints for infrastructure design, an Amazon-originated business created by turning internal computing capabilities into an external cloud market, and a competitive destination for database workloads leaving incumbent vendors such as Oracle.
+[[AWS]] is a cloud infrastructure provider used in the wiki as a self-managed EC2 hosting option, a standardized public-cloud substrate for large-scale SaaS, a managed AI/database stack, a source of unit-cost constraints for infrastructure design, an Amazon-originated business created by turning internal computing capabilities into an external cloud market, a competitive destination for database workloads leaving incumbent vendors such as Oracle, and a composable service platform for multi-account operational pipelines such as central logging.
 
 ## Current Profile
 One source positions AWS less as a managed developer platform and more as raw infrastructure that can reduce cost when the developer accepts more operations work. The author buys a 4-core, 8GB EC2 Ubuntu server and deploys Next.js with PM2 or Docker behind Nginx, DNS, and Certbot-managed HTTPS.
 
-At SaaS scale, AWS can become a standardized cloud platform when multi-cloud feature parity is too expensive to maintain. In that profile, AWS supplies regions, availability zones, Route53 failover, auto-scaling groups, load balancers, RDS replication, CloudFront, Kinesis, SNS, SQS, CloudWatch metrics, and ECS/EKS-adjacent platform options.
+At SaaS scale, AWS can become a standardized cloud platform when multi-cloud feature parity is too expensive to maintain. In that profile, AWS supplies regions, availability zones, Route53 failover, auto-scaling groups, load balancers, RDS replication, CloudFront, Kinesis, SNS, SQS, CloudWatch metrics, and ECS/EKS-adjacent platform options. The central-logging architecture shows the same service-composition role in a smaller operational pipeline: CloudWatch Logs, log destinations, Kinesis, Firehose, Lambda, S3, Glacier, CloudFormation, IAM, and Athena combine into a repeatable multi-account logging system.
 
 For AI/database workloads, AWS is represented as a managed stack: Amazon Bedrock supplies Titan embeddings, while Amazon RDS for PostgreSQL and Amazon Aurora PostgreSQL provide managed database targets for storing and indexing vectors with pgvector.
 
@@ -36,7 +37,7 @@ The CNBC report adds the competitive migration side of that role. By 2018, Amazo
 - Supports RAG-style AI/database workloads through Amazon Bedrock, RDS, Aurora PostgreSQL, and pgvector.
 - Prices infrastructure through separable units such as vCPU, RAM, durable storage, requests, and data transfer.
 - Originated in Amazon's internal data-storage and computing needs before becoming an external cloud business.
-- Competes with incumbent enterprise database vendors by offering relational database services and migration tooling.
+- Competes with incumbent enterprise database vendors while also composing managed services for cross-account operational workflows such as log streaming, transformation, storage, archival, and Athena analysis.
 
 ## Evidence
 - EC2 deployment: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes buying an Ubuntu EC2 server with 4 cores and 8GB RAM.
@@ -60,16 +61,14 @@ The CNBC report adds the competitive migration side of that role. By 2018, Amazo
 - Aurora challenge: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says AWS introduced Aurora in 2014, kicking off the rivalry with Oracle in earnest.
 - Migration tooling: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] reports Jassy saying AWS Database Migration Service had transferred more than 80,000 databases to AWS.
 - Cloud-market position: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says AWS had a commanding cloud-infrastructure lead and reported 49 percent revenue growth in the second quarter.
+- Central logging pipeline: [[central-logging-in-multi-account-environments-aws-architecture-blog]] combines CloudWatch Logs subscriptions, log destinations, Kinesis, Firehose, Lambda transformation, S3 storage, optional Glacier archival, and Athena SQL analysis.
+- Account boundary: [[central-logging-in-multi-account-environments-aws-architecture-blog]] keeps log delivery resources in a logging account while application accounts publish through destination policies and subscription filters.
 
 ## Qualifications
-The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle. None of these is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, later AWS growth, or the final outcome of Amazon's Oracle migration.
+The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC2 cost tradeoffs, standardized AWS leverage at SaaS scale, AWS's AI/database stack, and unit-cost intuition; the Forbes source emphasizes AWS's Amazon-internal origin and 2017 strategic role; the CNBC source emphasizes 2018 competition with Oracle; the central-logging source emphasizes a 2018 CloudWatch/Kinesis/Firehose/S3/Athena implementation pattern. None of these is a full current comparison of AWS pricing, managed-service reliability, security posture, cloud competition, margins, later AWS growth, service-version changes, or the final outcome of Amazon's Oracle migration.
 
 ## What Changed
-- Added the AWS unit-cost reference source covering vCPU, RAM, storage, request-pattern, and bandwidth economics.
-- Added Auth0's AWS-standardized SaaS architecture as a second profile beside the existing EC2 self-hosting case.
-- Added Amazon Bedrock plus managed PostgreSQL vector search as an AI application infrastructure case.
-- Added Forbes's account of AWS as an internal Amazon capability converted into an external cloud business.
-- Added the Amazon-Oracle migration source showing AWS as a database-migration destination and competitive proof point.
+- Added AWS central logging as a multi-account managed-service composition pattern for operational evidence collection.
 
 ## Relationships
 - [[NextJSDeployment]] - AWS EC2 hosts the PM2 and Docker deployment examples.
@@ -90,3 +89,5 @@ The AWS profile remains source-scoped. Earlier sources emphasize self-managed EC
 - [[AmazonAurora]] - Aurora PostgreSQL is named as another pgvector deployment target.
 - [[Pgvector]] - pgvector is used in AWS managed PostgreSQL environments for vector search.
 - [[TechnologyStackComplexity]] - AWS unit costs make memory-heavy, storage-heavy, request-heavy, and transfer-heavy architecture choices economically different.
+- [[CentralizedLogging]] - AWS services implement the central logging pipeline described in the architecture blog source.
+- [[CloudAccountSegmentation]] - AWS account boundaries separate application log producers from the logging-account destination and bucket.
