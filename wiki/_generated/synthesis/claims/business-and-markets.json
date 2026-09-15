@@ -157,6 +157,20 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "startup-financing-terms-change-ownership-math",
+      "qualifications": [
+        "The Crunchbase News evidence is a simplified fictitious case rather than legal or investment advice; it does not cover liquidation preferences, pro rata rights, option-pool refreshes, tax consequences, note maturity, down-round anti-dilution, or post-money SAFE variants."
+      ],
+      "statement": "[[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], and [[CapTableDilution]] show early-stage funding as ownership math: common shares, founder splits, employee pools, SAFEs or notes, discounts, valuation caps, priced Series A shares, and conversion terms can change post-money valuation, investor returns, founder dilution, employee-pool percentage, and voting control.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "StartupFinancingMechanics",
+        "UnpricedSeedFinancing",
+        "CapTableDilution"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "growth-must-preserve-retained-value",
       "qualifications": [
@@ -483,6 +497,6 @@
       ]
     }
   ],
-  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.",
+  "summary": "Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Crunchbase News material adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. The Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.",
   "topic_id": "business-and-markets"
 }

@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 30df392981016b7409a26b8bfd341565cead4041
-input_digest: 72d7b27d7c755457d7ed5e1240cf5dd1e3d215e66cae90e758eef72f3ac81764
+as_of_overview_commit: 7107afc769b2ea2dadd25fdc139df142a9c2b730
+input_digest: 080e6a7bbd75773107d76834abcdfd35bc5b9bc12e834456b3211786cfcb1ae0
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, startup financing mechanics, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Crunchbase News material adds cap-table mechanics as a finance-literacy layer: unpriced seed instruments, discounts, valuation caps, Series A share pricing, and conversion terms can change dilution, post-money valuation, and control. The Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
 
 ## Cross-source Findings
 
@@ -88,6 +88,16 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 - The evidence mixes advice, retrospectives, famous examples, investor interpretation, and a curated public failure corpus, so survivorship bias, visibility bias, retrospective rationalization, category differences, and missing quiet failures remain important.
 - Beautifully broken products are only positive evidence when users keep returning for strong core value; roughness by itself can still indicate weak execution, reliability risk, or poor usability.
+
+### Startup Financing Terms Change Ownership Math
+
+[[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], and [[CapTableDilution]] show early-stage funding as ownership math: common shares, founder splits, employee pools, SAFEs or notes, discounts, valuation caps, priced Series A shares, and conversion terms can change post-money valuation, investor returns, founder dilution, employee-pool percentage, and voting control.
+
+**Evidence:** [[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]]
+
+**Qualifications:**
+
+- The Crunchbase News evidence is a simplified fictitious case rather than legal or investment advice; it does not cover liquidation preferences, pro rata rights, option-pool refreshes, tax consequences, note maturity, down-round anti-dilution, or post-money SAFE variants.
 
 ### Growth Must Preserve Retained Value
 

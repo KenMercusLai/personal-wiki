@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Cancer on Nautilus: Getting Googled By Your Doctor Is the New Normal
+
+Added Nautilus article on patient-targeted online search in mental healthcare. Key claims: online search can provide collateral information in acute psychiatric settings, hidden search can damage privacy and therapeutic trust, routine Googling may shift standard-of-care and malpractice expectations, charted online findings create durable medical-record exposure, and social media can also support patient communities in cancer care when boundaries are maintained. Inspected the lead Google-search image and treated it as illustrative rather than independent evidence.
+
 ## [2026-09-15] ingest | Can Digital Products Be "Timeless?"
 
 Added Startup Grind's design essay on whether websites and apps can become timeless. Key claims: digital design is handicapped by the web's speed and elasticity, but focused interfaces such as the Google Homepage may earn timeless status when their iconic core survives long-term iteration. Inspected all 12 embedded local images: Porsche and Google comparison screenshots supported the core analogy, the watch/Rolex and Google Doodle images supported contextual examples, and tiny duplicate thumbnails added no independent evidence.
@@ -268,6 +272,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 ## [2026-09-11] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding
+
+Added Crunchbase News' worked startup-financing case. Key claims: cap tables begin with common shares, founder allocations, and employee pools; unpriced seed rounds defer valuation through future-equity instruments such as SAFEs and convertible notes; discounts and valuation caps reward early risk by converting at lower effective prices; Series A pricing turns pre-money valuation into share price; and dilution can reduce founder and employee-pool ownership percentages while still increasing stake value if company valuation rises. The repeated local image embed could not be inspected because the file is HTML rather than a readable PNG, so it was not used as visual evidence.
 
 ## [2026-09-15] ingest | 5 Product Design Tips: Making Your App Sticky From the Start
 
@@ -2329,6 +2337,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | CS183C Session 19: Jeff Weiner, LinkedIn - Blitzscaling: Class Notes and Essays
 
 Re-ingested the Medium markdown export at `/mnt/ken_personal_wiki/Articles/CS183C Session 19- Jeff Weiner, LinkedIn - Blitzscaling- Class Notes and Essays - Medium.md`. The source matched the existing canonical note, so the update refreshed the source metadata and tightened the summary rather than creating a duplicate page. Key claims remain: LinkedIn scaled by finding the core, codifying mission and culture, reinforcing ownership through all-hands communication, shifting leaders toward coaching, using compassionate management for trust and decision quality, preserving product leadership, and operationalizing the economic graph. No effective image references were present in the source markdown.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding](sources/cap-tables-share-structures-valuations-oh-my-a-case-study-of-early-stage-funding-crunchbase-news.md) - Crunchbase News explains startup cap tables, unpriced seed rounds, SAFE conversions, valuation caps, discounts, Series A pricing, dilution, and control effects through a fictitious funding case.
+- [Cancer on Nautilus: Getting Googled By Your Doctor Is the New Normal](sources/cancer-on-nautilus-getting-googled-by-your-doctor-is-the-new-normal.md) - Nautilus argues that patient-targeted online search is becoming common in mental healthcare, where it can aid acute risk assessment while threatening privacy, trust, liability norms, and medical-record persistence.
 - [Can You Afford It?: Real-world Web Performance Budgets](sources/can-you-afford-it-real-world-web-performance-budgets-infrequently-noted.md) - Alex Russell argues that web teams need performance budgets grounded in low-end devices, slow networks, TTI targets, and hard JavaScript affordability limits.
 - [Can Uber Ever Deliver? Part One - Understanding Uber's Bleak Operating Economics](sources/can-uber-ever-deliver-part-one-understanding-ubers-bleak-operating-economics-naked-capitalism.md) - Hubert Horan argues that Uber's early ride-hailing growth depended on large investor subsidies, weak margins, and driver-pay compression rather than software-like scale economics.
 - [Can Digital Products Be "Timeless?"](sources/can-digital-products-be-timeless-startup-grind-medium.md) - Startup Grind argues that digital products can become timeless design candidates when a focused, iconic core survives rapid platform change, using the Google Homepage and Porsche 911 as the central comparison.
@@ -299,6 +301,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [John Luo](entities/JohnLuo.md) - psychiatrist and medical-informatics professor cited on disclosure, patient video evidence, and medical-record data-theft risks.
+- [Keren Lehavot](entities/KerenLehavot.md) - clinical psychologist whose cited case report anchors the patient Googling ethics example.
+- [Liliya Gershengoren](entities/LiliyaGershengoren.md) - psychiatrist whose survey found widespread patient Googling among staff doctors and residents.
+- [Paul Appelbaum](entities/PaulAppelbaum.md) - psychiatrist and medical ethics-law expert cited on collateral value, standard-of-care drift, and medical-record persistence.
 - [Alex Russell](entities/AlexRussell.md) - Web performance author arguing for real-world performance budgets, representative baselines, and JavaScript affordability discipline.
 - [Google Homepage](entities/GoogleHomepage.md) - Search-first Google interface used as the source's digital example of a recognizable product core surviving long-term iteration.
 - [HODINKEE](entities/HODINKEE.md) - Watch and design media/company context that prompted the source's comparison between physical and digital timelessness.
@@ -1018,6 +1024,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Clinical Digital Footprints](concepts/ClinicalDigitalFootprints.md) - online traces such as posts, profiles, photos, and videos interpreted as clinical evidence.
+- [Medical Record Persistence](concepts/MedicalRecordPersistence.md) - durable downstream exposure created when online findings enter a patient's medical chart.
+- [Patient-Targeted Online Search](concepts/PatientTargetedOnlineSearch.md) - clinicians searching for patient online information to support diagnosis, risk assessment, treatment, or safety.
+- [Social Media Clinical Care](concepts/SocialMediaClinicalCare.md) - clinician use of online platforms for patient support communities, coping resources, and vetted information with boundaries.
+- [Standard of Care](concepts/StandardOfCare.md) - professional-practice benchmark that may shift when patient-targeted online search becomes common.
 - [Subsidized Unit Economics](concepts/SubsidizedUnitEconomics.md) - Growth pattern where customers pay less than the full cost to serve and investors, workers, suppliers, or future price increases are expected to cover the gap.
 - [Digital Product Timelessness](concepts/DigitalProductTimelessness.md) - Possibility that a website, app, or interface can remain culturally recognizable and functionally strong across long periods of digital change.
 - [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
@@ -1326,6 +1337,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
 - [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
+- [Startup Financing Mechanics](concepts/StartupFinancingMechanics.md) - Practical system of shares, valuation, investor instruments, conversion terms, and ownership math that determines how fundraising changes a startup cap table.
+- [Unpriced Seed Financing](concepts/UnpricedSeedFinancing.md) - Early-stage financing structure where investors provide capital before a priced valuation in exchange for future equity rights.
+- [Cap Table Dilution](concepts/CapTableDilution.md) - Reduction in existing shareholders' ownership percentage when new shares are issued or investor instruments convert.
 - [Active Investing](concepts/ActiveInvesting.md) - Investing mode where capital is paired with concentrated participation, control, judgment, or operating work.
 - [Passive Investing](concepts/PassiveInvesting.md) - Investing mode where the investor primarily supplies capital without taking a lead, operating, governance, or control role.
 - [Portfolio Concentration](concepts/PortfolioConcentration.md) - Holding fewer investments so scarce attention, judgment, and influence can be applied more deeply.

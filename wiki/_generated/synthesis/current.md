@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: 30df392981016b7409a26b8bfd341565cead4041
+as_of_overview_commit: 7107afc769b2ea2dadd25fdc139df142a9c2b730
 summary: "The wiki maps how durable work emerges when strategy, tools, learning, institutions, and human judgment stay grounded in real constraints."
-episode_count: 290
-source_count: 290
-paragraph_count: 259
+episode_count: 293
+source_count: 293
+paragraph_count: 260
 topic_count: 9
 ---
 
@@ -33,7 +33,7 @@ Technical progress depends on system understanding, verification, scope-aware ar
 
 ### Business and Markets
 
-Business value compounds when strategy, product, distribution, operations, finance, and timing integrate around durable demand; platform adoption must still pass unit-economics tests.
+Business value compounds when strategy, product, distribution, operations, finance, financing mechanics, and timing integrate around durable demand; platform adoption must still pass unit-economics tests.
 
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 - [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], and [[MorganHousel]] frame financial risk as a behavioral, portfolio-construction, implementation, and optionality problem: diversify across assets, geographies, and factors; rebalance instead of chasing; control fees and valuation; avoid risking needs for wants; treat debt, savings, and outside income as future-choice modifiers; and plan for failed plans, regret, incentives, overconfidence, vague labels, and uncertainty. Evidence: [[PersonalInvestorStrategy]], [[AssetAllocation]], [[IndexFundStrategy]], [[FactorInvesting]], [[BehavioralRiskJudgment]], [[InvestmentRiskDiscipline]], [[MorganHousel]].
