@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "public-technical-work-needs-boundaries",
+      "qualifications": [
+        "The evidence comes from one maintainer essay centered on JavaScript projects and should be balanced with sources on funding, harassment, maintainership teams, and non-English or non-GitHub communities."
+      ],
+      "statement": "Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "OpenSourceProjectMaintenance",
+        "PersonalBranding",
+        "TechCommunityParticipation",
+        "SlickCarousel",
+        "BurnoutPrevention"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "active-learning-builds-usable-judgment",
       "qualifications": [
         "Practice needs feedback, examples, safety, and time boundaries; LLM help is safest when the user can inspect, test, correct, or discard the output; prolific practice transfers best to settings where small attempts are cheap enough to learn from."
@@ -262,6 +278,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen eight boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; sustainable software speed depends on small feedback loops, low WIP, continuous delivery, and internal quality rather than ceremony or big-bang release planning; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.",
+  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen eight boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; sustainable software speed depends on small feedback loops, low WIP, continuous delivery, and internal quality rather than ceremony or big-bang release planning; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load. Wheeler adds that open-source work can develop skill, reputation, and community participation, but only stays healthy when maintainers choose it deliberately and protect personal time from unpaid support burdens.",
   "topic_id": "work-education-and-society"
 }

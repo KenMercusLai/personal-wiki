@@ -4,17 +4,27 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-15
-as_of_overview_commit: 685cb81e2201310634c9507d26039ec1efa369ea
-input_digest: 7105e9550bd123f0f6d9982452caea348c333d4ea42aaa5744ca087a11f428d5
+as_of_overview_commit: 7bdf0d5dc1b23aec86567480d2dc1f689c5e8ce4
+input_digest: d59e4b70c38e156fde4dc8c0ee9ec50e15470878a7a7dd83f6d4afdbba1a12c4
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The newest open-source source adds that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration.
 
 ## Cross-source Findings
+
+### Open Source Libraries Are Product Systems
+
+[[OpenSourceProjectMaintenance]] shows that developer-facing open-source libraries succeed as product systems: a useful problem and approachable API need [[DeveloperExperience]], docs, tests, types, CI, contribution paths, and release discipline to remain adoptable and maintainable.
+
+**Evidence:** [[OpenSourceProjectMaintenance]], [[DeveloperExperience]], [[SoftwareVerification]], [[SlickCarousel]]
+
+**Qualifications:**
+
+- The evidence is a candid JavaScript maintainer essay, so it should not be generalized to all open-source governance, funding, security, or foundation contexts.
 
 ### Technical Depth Over Framework Memorization
 

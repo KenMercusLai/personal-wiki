@@ -1,6 +1,21 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "open-source-maintenance-is-lightweight-governance",
+      "qualifications": [
+        "The source is a practitioner retrospective, and it does not cover formal foundation governance, funding, security response, or legal stewardship."
+      ],
+      "statement": "[[OpenSourceProjectMaintenance]] frames public software maintenance as lightweight governance: maintainers need contribution expectations, delegation, API stewardship, semantic release discipline, and boundaries around user demands, not only code changes.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "OpenSourceProjectMaintenance",
+        "DeveloperExperience",
+        "SoftwareVerification",
+        "SlickCarousel"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "platform-decision-systems-require-accountable-controls",
       "qualifications": [
@@ -125,6 +140,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.",
   "topic_id": "governance-and-institutions"
 }

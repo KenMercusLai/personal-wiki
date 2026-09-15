@@ -2053,6 +2053,9 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | A Bitter Guide To Open Source
+
+Added Ken Wheeler's open-source maintenance essay. Key claims: successful OSS starts from a real problem, needs explicit APIs, strong docs, tests, types, CI, contribution docs, licensing, release notes, and semantic versioning, and becomes sustainable only when maintainers delegate, set issue/PR expectations, protect the core API, and keep boundaries around criticism and unpaid support. The repeated local GIF was inspected and classified as decorative/emphatic rather than evidence-bearing.
 
 ## [2026-09-15] ingest | A 43-year history of first-person shooters - from Maze War to Destiny 2
 
@@ -2527,6 +2530,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Claude Code On-The-Go
 
 Added Miguel Granda's phone-controlled Claude Code setup. Key claims: a phone can supervise multiple cloud-hosted coding agents when Termius, mosh, Tailscale, tmux, push notifications, a disposable VM, git worktrees, and deterministic port allocation provide persistence, isolation, and async human checkpoints. No effective image references were present; the Mermaid architecture diagram was treated as source evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [A Bitter Guide To Open Source](sources/a-bitter-guide-to-open-source-codezillas-medium.md) - Ken Wheeler argues that successful open source depends on concrete problem fit, explicit API design, strong docs, tests, types, release discipline, contributor delegation, and maintainer boundaries.
 - [Claude Code On-The-Go](sources/claude-code-on-the-go.md) - Miguel Granda shows how to run multiple Claude Code agents from a phone using Termius, mosh, Tailscale, a disposable Vultr VM, tmux, push notifications, and worktrees.
 - [The Hardest Part About Microservices: Your Data](sources/christian-posta-the-hardest-part-about-microservices-your-data.md) - Christian Posta argues that microservices are hardest around domain meaning, data ownership, transactional boundaries, and event-driven consistency rather than framework or database-per-service rules.
 - [A 43-year history of first-person shooters - from Maze War to Destiny 2](sources/a-43-year-history-of-first-person-shooters-from-maze-war-to-destiny-2-gamesradar.md) - GamesRadar+ traces first-person shooters from Maze War and Spasim through Battlezone, Wolfenstein 3D, Doom, Quake, GoldenEye, Half-Life, Halo, Modern Warfare, and Destiny, emphasizing feel, platform constraints, multiplayer, modding, and live-service progression.
@@ -322,6 +323,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Cash](entities/CashJS.md) - Disambiguated page for the Cash JavaScript project referenced in Ken Wheeler's open-source portfolio.
+- [Formidable](entities/Formidable.md) - Company context for Ken Wheeler's Director of Open Source role in the source article.
+- [Ken Wheeler](entities/KenWheeler.md) - Open-source JavaScript practitioner and author of "A Bitter Guide To Open Source."
+- [Slick Carousel](entities/SlickCarousel.md) - Ken Wheeler's carousel library case for open-source success, popularity, burnout, and maintenance burden.
+- [Spectacle](entities/Spectacle.md) - Open-source project cited as part of Ken Wheeler's portfolio.
+- [Webpack Dashboard](entities/WebpackDashboard.md) - Open-source project cited as part of Ken Wheeler's portfolio.
 - [Apache Camel](entities/ApacheCamel.md) - Integration and transformation tool named in Posta's event-driven ticketing example.
 - [Apache Kafka](entities/ApacheKafka.md) - Persistent replicated log option for propagating database changes and events across microservice boundaries.
 - [Apache Samza](entities/ApacheSamza.md) - Stream-processing technology referenced through the inside-out database model.
@@ -1087,6 +1094,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Open Source Project Maintenance](concepts/OpenSourceProjectMaintenance.md) - Practice of designing, releasing, supporting, delegating, and evolving public software projects while preserving user trust and maintainer sustainability.
 - [Aggregate Transaction Boundary](concepts/AggregateTransactionBoundary.md) - Smallest practical atomicity boundary needed to protect true business invariants.
 - [Bounded Context](concepts/BoundedContext.md) - Domain-Driven Design boundary within which model language and data meaning are explicit.
 - [Domain Model Driven Data](concepts/DomainModelDrivenData.md) - Principle that physical data-store models should follow explicit domain models and boundaries.

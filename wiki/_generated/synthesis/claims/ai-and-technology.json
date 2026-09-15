@@ -1,6 +1,21 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "open-source-libraries-are-product-systems",
+      "qualifications": [
+        "The evidence is a candid JavaScript maintainer essay, so it should not be generalized to all open-source governance, funding, security, or foundation contexts."
+      ],
+      "statement": "[[OpenSourceProjectMaintenance]] shows that developer-facing open-source libraries succeed as product systems: a useful problem and approachable API need [[DeveloperExperience]], docs, tests, types, CI, contribution paths, and release discipline to remain adoptable and maintainable.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "OpenSourceProjectMaintenance",
+        "DeveloperExperience",
+        "SoftwareVerification",
+        "SlickCarousel"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "technical-depth-over-framework-memorization",
       "qualifications": [
@@ -205,6 +220,6 @@
       ]
     }
   ],
-  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models.",
+  "summary": "AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The newest open-source source adds that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration.",
   "topic_id": "ai-and-technology"
 }
