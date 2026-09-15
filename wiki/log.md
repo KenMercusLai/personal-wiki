@@ -2472,3 +2472,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | Checklists for Startups
+
+Added source. Key claims: David Lee recommends reusing startup checklist frameworks from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley; Thiel's seven questions test technology, timing, market wedge, team, distribution, durability, and secrets; checklists are easy to write but hard to execute.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

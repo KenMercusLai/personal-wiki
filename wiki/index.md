@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Checklists for Startups](sources/checklists-for-startups-david-lee-medium.md) - David Lee curates startup checklists from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley for strategy, fundraising, metrics, and marketplace evaluation.
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
 - [Chatbots: a Misleading Term We Should Stop Using](sources/chatbots-a-misleading-term-we-should-stop-using-botnerds-medium.md) - Botnerds argues that "chatbot" overpromises casual humanlike conversation, fits only chat-first systems, and undersells business automation work.
@@ -314,6 +315,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [David Lee](entities/DavidLee.md) - Author who curates startup checklists for strategy, fundraising, metrics, and marketplace evaluation.
+- [Bill Gurley](entities/BillGurley.md) - Marketplace-focused venture investor referenced for digital-marketplace evaluation factors.
 - [Andrew Reed](entities/AndrewReed.md) - Sequoia investor cited for warning founders not to overbenchmark against other companies.
 - [Checkr](entities/Checkr.md) - Company context for Daniel Yanisse's generous-severance advice.
 - [Daniel Yanisse](entities/DanielYanisse.md) - Checkr founder/operator cited for generous exit packages when letting people go.
@@ -656,7 +659,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GroupMe](entities/GroupMe.md) - Messaging product example that used SMS as a first-message onboarding surface.
 - [Nest Cam](entities/NestCam.md) - Visible-hardware example where outdoor security cameras create awareness.
 - [Pat Grady](entities/PatGrady.md) - Sequoia investor voice connecting category-defining ambition, first-principles problem-solving, scaling discipline, and capital restraint.
-- [Sequoia Capital](entities/SequoiaCapital.md) - Venture-capital firm context for Pat Grady's highly selective, category-focused investment philosophy.
+- [Sequoia Capital](entities/SequoiaCapital.md) - Venture-capital firm context for Pat Grady's selective, category-focused investment philosophy and for a founder-facing business-plan checklist.
 - [Don Valentine](entities/DonValentine.md) - Sequoia founder cited for connecting engineers to human problems and targeting large markets through disciplined entry.
 - [Elizabeth Dunn](entities/ElizabethDunn.md) - University of British Columbia psychology professor whose research is quoted on buying time to improve happiness.
 - [Emanuel Maidenberg](entities/EmanuelMaidenberg.md) - UCLA clinical professor commenting on time-saving services as a possible stress-management tool and questioning durability.
@@ -777,7 +780,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Heroku](entities/Heroku.md) - Cloud application platform used as the source's context for twelve-factor methodology and CLI design examples.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
-- [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to Scott Kupor's critique of extended option exercise periods.
+- [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, and startup metrics checklists.
 - [Fred Wilson](entities/FredWilson.md) - Investor-author of the AVC essay arguing that active investing requires concentrated time, energy, intellect, and influence.
 - [AVC](entities/AVC.md) - Publication context for Fred Wilson's active-versus-passive investing framework.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
@@ -965,7 +968,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [OpenClaw](entities/OpenClaw.md) - Agent-related project or incident cited as making real system-permission risks concrete.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
-- [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as an example of reassessing credential competition and redirecting toward a personally meaningful path.
+- [Peter Thiel](entities/PeterThiel.md) - Entrepreneur used as a credential-competition example, governance-exit reference, and source of seven startup-evaluation questions.
 - [Piglei](entities/Piglei.md) - Software-engineering practitioner/source site presenting behavior norms for responsible AI-assisted coding.
 - [Piotr Wozniak](entities/PiotrWozniak.md) - Learning theorist and author arguing that goals, curiosity, and knowledge valuation shape learning drive.
 - [PyTorch-Transformers](entities/PyTorchTransformers.md) - 2019-era Python library used in the tutorial to load GPT-2 tokenizer/model components.
@@ -1061,6 +1064,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Startup Evaluation Checklists](concepts/StartupEvaluationChecklists.md) - Compact founder diagnostics for startup strategy, fundraising readiness, metrics, and marketplace evaluation.
 - [Founder Instinct](concepts/FounderInstinct.md) - Context-rich founder judgment built from early customer, product, and operating exposure.
 - [Amoeba Management](concepts/AmoebaManagement.md) - Kyocera-associated team-as-company management model that Disco extends to individual workers.
 - [Internal Market Management](concepts/InternalMarketManagement.md) - Organization design using internal prices, budgets, auctions, penalties, and settlement mechanisms to coordinate work.
