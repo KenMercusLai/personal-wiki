@@ -4,17 +4,20 @@ type: concept
 tags: [ux, streaming, product-design]
 sources:
   - built-for-mars-the-ux-of-hbo-max-vs-netflix
+  - ces-2019-a-show-report-learning-by-shipping
 last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[StreamingAppUX]] is the product-design quality of a video-streaming app across browsing, playback, entitlement clarity, conversion paths, and account-management flows.
+[[StreamingAppUX]] is the product-design quality of video streaming across apps, TV runtimes, browsing, playback, entitlement clarity, conversion paths, account flows, search, discovery, and device-to-service handoff.
 
 ## Current Synthesis
 The Built for Mars case frames streaming app UX as an execution layer that can either support or erode the value of the content catalog. The source's [[HBOMax]] critique is not that users lack reasons to watch; it is that the app repeatedly creates small but meaningful obstacles at moments where the user needs speed, clarity, or continuation.
 
 The reusable pattern is that streaming apps must balance visual polish against responsiveness, explicit state against minimalist absence, sticky navigation against content visibility, and conversion nudges against the shape of the user's journey. The article's [[AppleTV]] comparison makes that journey design concrete: after a free episode, doing nothing can move a user forward into the next episode and a subscription prompt, while HBO Max returns the user to the earlier browsing state. The same principle applies to account creation: a streaming app can lose momentum if the keyboard hides fields or the CTA just when the user is ready to finish.
+
+Sinofsky's CES 2019 report broadens the concept from app screens to the whole television stack. When streaming replaces a channel guide, users have to move from social discovery, service knowledge, subscription state, app availability, TV operating systems, add-on boxes, casting devices, voice search, and remotes into actual viewing. The app still matters, but the larger UX question is which runtime should own discovery and control: the TV OS, a Roku or [[AppleTV]], a phone or tablet, a service's own recommendations, or some cross-service guide. This makes streaming UX an integration problem as much as an interface-design problem.
 
 ## Key Claims
 - Visual richness in streaming apps must be constrained by performance, especially image weight and perceived load time.
@@ -23,6 +26,7 @@ The reusable pattern is that streaming apps must balance visual polish against r
 - Free-content flows should choose between forward journeys and retracing steps based on whether the goal is conversion or learning.
 - Mobile forms should keep fields and CTAs visible while avoiding premature validation errors.
 - Small UX defects can be widespread and memorable even when users do not report them directly.
+- Streaming UX must solve cross-device discovery and control, not only in-app browsing and playback.
 
 ## Evidence
 - Performance tradeoff: [[built-for-mars-the-ux-of-hbo-max-vs-netflix]] says HBO Max's images are much larger than the industry standard and ties this to slower loading.
@@ -31,12 +35,15 @@ The reusable pattern is that streaming apps must balance visual polish against r
 - Occluded content: [[built-for-mars-the-ux-of-hbo-max-vs-netflix]] says a sticky menu partially covers final list items, making the interface feel unfinished.
 - Conversion path: [[built-for-mars-the-ux-of-hbo-max-vs-netflix]] contrasts [[AppleTV]]'s forward free-episode path with HBO Max's retracing step.
 - Form completion: [[built-for-mars-the-ux-of-hbo-max-vs-netflix]] recommends sticky CTAs, auto-focused fields, native keyboard behavior, and delayed inline validation.
+- Television-stack integration: [[ces-2019-a-show-report-learning-by-shipping]] argues that streaming users must navigate service choice, subscriptions, TV apps, boxes, casting, voice search, remotes, and recommendation systems before reaching content.
+- Runtime ownership: [[ces-2019-a-show-report-learning-by-shipping]] asks whether next-generation TV should rely on TV software, Roku or [[AppleTV]], phone/tablet casting, or service-specific discovery.
 
 ## Counterevidence & Qualifications
-The source is an expert UX case study, not a controlled user-research report or telemetry analysis. It also evaluates HBO Max at a particular point in time and does not prove that every issue caused churn, subscription loss, or later app-store ratings. Some retracing flows can be preferable when the product is teaching repeatable skills rather than optimizing a one-time subscription action.
+The sources are expert analyses, not controlled user-research reports or telemetry studies. The HBO Max case evaluates one app at a particular point in time and does not prove that every issue caused churn, subscription loss, or later app-store ratings. The CES report predates later streaming bundles, TV OS changes, and service consolidation. Some retracing flows can be preferable when the product is teaching repeatable skills rather than optimizing a one-time subscription action.
 
 ## What Changed
 - Created the concept from the HBO Max case to capture streaming-specific UX lessons around performance, state clarity, journey shape, and form completion.
+- Broadened the concept from app-level defects to TV-stack integration: discovery, runtime ownership, casting, voice, search, subscriptions, and service handoff.
 
 ## Related Concepts
 - [[ProductFlowFriction]] - streaming app UX worsens when browsing, signup, playback, or subscription steps spend user intent unnecessarily.
@@ -44,3 +51,4 @@ The source is an expert UX case study, not a controlled user-research report or 
 - [[HeuristicEvaluation]] - expert inspection can surface interface defects before they become explicit user complaints.
 - [[ConversionRateOptimization]] - free-episode and signup flows are conversion surfaces inside streaming apps.
 - [[ProductLedRetention]] - strong app experience can help content value turn into repeated use.
+- [[ConsumerElectronicsIntegration]] - streaming television is a connected-device integration problem, not only a service UI problem.

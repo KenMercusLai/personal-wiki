@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [CES 2019: A Show Report](sources/ces-2019-a-show-report-learning-by-shipping.md) - Steven Sinofsky reads CES 2019 as a connected-product integration moment where smart-home, voice, TV, AI, wireless, and PC/gaming advances still needed better product judgment to become reliable everyday experiences.
 - [CEO Advice from a New CEO](sources/ceo-advice-from-a-new-ceo-the-biz-stone-collection-medium.md) - Biz Stone distills early CEO lessons around frequent communication, selective outside advice, firing, praise, and decisive leadership under uncertainty.
 - [Buying Time, Not Stuff, Might Make You Happier](sources/buying-time-not-stuff-might-make-you-happier-shots-health-news-npr.md) - NPR reports on research suggesting that spending money on time-saving services can improve positive emotion and life satisfaction more than buying material goods, while leaving durability questions open.
 - [Burning money on paid ads for a dev tool - what we've learned](sources/burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog.md) - PostHog argues that developer-tool paid ads need awareness/conversion separation, qualitative attribution, channel-specific experiments, and skepticism toward cheap but low-quality conversions.
@@ -374,7 +375,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wait But Why](entities/WaitButWhy.md) - Illustrated long-form publication context for Tim Urban's career-planning source.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
-- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author arguing that writing is a management discipline for strategy, planning, and execution context.
+- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to strategic writing, execution context, and connected consumer-technology integration.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
@@ -997,6 +998,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
+- [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
+- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by command discoverability, device naming, reliability, privacy, and whether microphones belong in every product.
+- [Smart Home Interoperability](concepts/SmartHomeInteroperability.md) - Ability of home devices, hubs, apps, standards, sensors, and infrastructure products to work together as a reliable household system.
+- [AI Marketing Hype](concepts/AIMarketingHype.md) - Pattern where "AI" becomes broad product-positioning language before the user benefit, model behavior, or technical distinction is clear.
 - [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.
 - [AI-Guided Web Scraping](concepts/AIGuidedWebScraping.md) - Scraping pattern where an LLM-guided agent searches page structure, selects elements, performs browser interactions, and iterates toward a goal.
 - [Engineering Career Architecture](concepts/EngineeringCareerArchitecture.md) - Structured engineering-leveling system for expectations, promotion signals, fair scope, and evaluation calibration.

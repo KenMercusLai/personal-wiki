@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b7d2626e35b2a1af6b601763d90c3da95135f7a61c023a29ccbbcf89df4091cf",
       "eafe0fec979c21e9a7fbbce3d73ccde8f16f2eaeaf145462e251808311502b39",
       "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
       "264264967f6099ce4807fe191f95d40c8b16feba16a4a544c16b098fa45ddb0f",
@@ -258,11 +259,30 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 256
+    "paragraph_count": 257
   },
-  "overview_commit": "636f176380e9a037270c3b30e1642b1721ab8c75",
-  "overview_digest": "22296a286d7afe6f0e892c560d1700816207a6a7b0a2b80e267cb9983213d724",
+  "overview_commit": "384f4c1d67c0e63ddf966e208a8e3f743ff7fbb5",
+  "overview_digest": "eb3a8c4cb81fb7110b3324bb2b5c8cd2d86d6cbe27ef562af614fcaf5507cbf6",
   "paragraphs": [
+    {
+      "id": "b7d2626e35b2a1af6b601763d90c3da95135f7a61c023a29ccbbcf89df4091cf",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Learning By Shipping source adds connected consumer electronics to the wiki's product-management and platform-integration material. [[StevenSinofsky]] reads CES 2019 as a moment when cheap radios, sensors, processors, cloud APIs, streaming runtimes, and voice assistants made almost everything connectable, but not yet coherently integrated. New [[ConsumerElectronicsIntegration]] names the central product question: where should the smarts live when a TV, speaker, phone, cloud service, appliance, lock, hub, and app can each claim part of the experience? New [[VoiceAssistantUX]], [[SmartHomeInteroperability]], and [[AIMarketingHype]] capture the report's reusable cautions around fixed-vocabulary voice control, fragmented home systems, and AI as broad signage. [[StreamingAppUX]] is broadened from app execution to television-stack discovery, runtime ownership, casting, voice search, subscriptions, and service handoff. Representative images were inspected for smart-home integration, package delivery, roll-up TV displays, AI TV signage, mirrorless camera bodies, 5G hardware, and PC/gaming examples; they support the prose rather than adding a separate chart or diagram claim.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AIMarketingHype",
+        "ConsumerElectronicsIntegration",
+        "SmartHomeInteroperability",
+        "StevenSinofsky",
+        "StreamingAppUX",
+        "VoiceAssistantUX"
+      ]
+    },
     {
       "id": "eafe0fec979c21e9a7fbbce3d73ccde8f16f2eaeaf145462e251808311502b39",
       "primary_topic": "business-and-markets",

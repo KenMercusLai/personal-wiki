@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: 636f176380e9a037270c3b30e1642b1721ab8c75
-input_digest: 58dcaccd6c5ccc634ff2e122f84afa063dbdc43ef4b9d9b3abc425ba0d84fd66
+as_of_overview_commit: 384f4c1d67c0e63ddf966e208a8e3f743ff7fbb5
+input_digest: 2bbc5a94ec6a62a5e6188d82272f8a6cb4399b07a3b400ee046c7155eb3f9cc4
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. Recent material adds Greenhouse's engineering-led organization-design frame, Buffer's operating snapshot, Biz Stone's early-CEO operating lessons, Baqend/Thinks performance evidence, and NPR's broader finding that buying back time can support well-being when it removes low-value or disliked work.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The CES 2019 material adds connected consumer electronics as a product-management and integration case: cheap radios, cloud APIs, sensors, streaming runtimes, voice assistants, smart-home systems, and AI-labeled features make demos easy while leaving the harder question of where intelligence, control, privacy, and runtime responsibility should live. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
 
 ## Cross-source Findings
 
@@ -68,14 +68,15 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Product Management Integrates Outcomes
 
-[[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], and [[CEOScalingRole]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, organizational resistance, and CEO-like decision accountability without boss authority before and after greenlight.
+[[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], and [[AIMarketingHype]] turn product work into business outcomes by integrating customer value, technology, business viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, organizational resistance, connected-device runtime choices, ecosystem constraints, privacy risks, and CEO-like decision accountability without boss authority before and after greenlight.
 
-**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[MartyCagan]]
+**Evidence:** [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[MartyCagan]], [[StevenSinofsky]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], [[AIMarketingHype]]
 
 **Qualifications:**
 
-- The evidence combines selected successful case studies and practitioner advice, so it highlights PM agency while still depending on teams, founders, executives, engineers, estimation quality, and market timing.
+- The evidence combines selected successful case studies, practitioner advice, and one expert CES show-floor report, so it highlights product-management integration while still depending on teams, founders, executives, engineers, estimation quality, market timing, standards evolution, ecosystem partners, and consumer adoption.
 - The CEO-of-product metaphor is useful only when bounded by humility, earned trust, and the absence of formal authority over the team.
+- The CES evidence is source-scoped to 2019 consumer electronics; later standards, platform changes, and assistant models may have improved some specific smart-home, streaming, voice, or AI-product friction.
 
 ### Early Startups Convert Runway Into Learning
 

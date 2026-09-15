@@ -2288,3 +2288,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-15] ingest | CES 2019: A Show Report
+
+Added Steven Sinofsky's CES 2019 show report. Key claims: connected consumer electronics had many mature ingredients but weak system integration, voice assistants exposed fixed-command UX limits, smart homes improved while remaining fragmented across hubs and apps, streaming TV UX became a runtime/discovery problem, and "AI" functioned heavily as marketing language. Inspected representative embedded images for smart-home, package-delivery, TV, AI-signage, mirrorless-camera, 5G, and PC/gaming examples; decorative or illustrative booth photos were not used as independent evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
