@@ -2038,6 +2038,14 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Chatbots: What Happened? - Chatbots Life
+
+Added David Feldman's Chatbots Life postmortem on the 2016 chatbot wave. Key claims: chatbot hype had rational roots in messaging scale and app-install friction, but platforms lacked strong examples and mature developer support; WeChat was overread as proof of pure conversational UI; bots were misframed as app replacements; text-first NLP and hidden UI created hard UX limits; and durable messaging experiences combine chat with GUI, CRM, payment, location, webview, and human-service workflows. Inspected 12 local image embeds: repeated hero and event-banner images were decorative/contextual; Penny, Quartz, Trunk Club, Marsbot, and the Chat as Layer/Pillar/Backbone model were incorporated as visual evidence.
+
 ## [2026-09-15] ingest | Chatbots Were the Next Big Thing: What Happened?
 
 Added GrowthBot's post-hype chatbot analysis. Key claims: the predicted chatbot ecosystem did not arrive after the 2015-2017 hype peak; first-wave bots were often brittle decision-tree systems; immature NLP could not handle meaning, context, emotion, or nonlinear conversation; visible GUIs still outperform pure chat for many tasks; and bots work best as narrow, repetitive, or hybrid extensions to broader products. Inspected 11 local images: the hype-cycle chart, rule-system diagram, chatbot failure screenshots, and Penny hybrid UI screenshot were incorporated as evidence; the remaining local illustrations were treated as contextual or decorative, and the remote hero image was not inspected.
@@ -2436,6 +2444,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Chatbots Deliver the Worst Customer Service
 
 Added Late Night Coding's 2017 critique of customer-service chatbots. Key claims: first-wave bots often behaved like phone-tree robots in text form, could not improvise around non-standard support problems, worked with too little context, hid useful interface affordances behind conversation, and needed quick-reply buttons to expose possible actions. The source also distinguishes Siri- and Alexa-style voice assistants as more defensible for low-stakes, hands-free tasks. The local exported image directory referenced by the markdown was not present under the Articles mount, and the remote cover image was not inspected, so the ingest is based on prose rather than visual evidence.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
