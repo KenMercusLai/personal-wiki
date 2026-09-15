@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Can Uber Ever Deliver? Part One - Understanding Uber's Bleak Operating Economics](sources/can-uber-ever-deliver-part-one-understanding-ubers-bleak-operating-economics-naked-capitalism.md) - Hubert Horan argues that Uber's early ride-hailing growth depended on large investor subsidies, weak margins, and driver-pay compression rather than software-like scale economics.
 - [Can Digital Products Be "Timeless?"](sources/can-digital-products-be-timeless-startup-grind-medium.md) - Startup Grind argues that digital products can become timeless design candidates when a focused, iconic core survives rapid platform change, using the Google Homepage and Porsche 911 as the central comparison.
 - [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
 - [CES 2019: A Show Report](sources/ces-2019-a-show-report-learning-by-shipping.md) - Steven Sinofsky reads CES 2019 as a connected-product integration moment where smart-home, voice, TV, AI, wireless, and PC/gaming advances still needed better product judgment to become reliable everyday experiences.
@@ -624,11 +625,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Elizabeth Yin](entities/ElizabethYin.md) - Startup-advice author arguing that first-product scope should fit available runway and enter markets through a differentiated wedge.
 - [Alex Turnbull](entities/AlexTurnbull.md) - Groove founder-author presenting practical startup advice from operator experience.
 - [Groove](entities/Groove.md) - Startup context for Alex Turnbull's advice about customers, relationships, commoditization, and founder operating judgment.
+- [Hubert Horan](entities/HubertHoran.md) - Transportation-industry analyst whose Uber critique links ride-hailing growth to losses, subsidies, and weak physical-service scale economics.
 - [Mind the Product](entities/MindTheProduct.md) - Product-management publication behind the outsourced-development advice source.
 - [Women in Product](entities/WomenInProduct.md) - Publication or Medium collection context for the rule-of-threes product-management source.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
-- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, and career-option building.
+- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, career-option building, and subsidy-backed unit economics.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging acquisition case and as a remote-work culture example built around trust, tools, and intentional communication.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition example and as a narrow-to-broad product-evolution case.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
@@ -1014,6 +1016,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Subsidized Unit Economics](concepts/SubsidizedUnitEconomics.md) - Growth pattern where customers pay less than the full cost to serve and investors, workers, suppliers, or future price increases are expected to cover the gap.
 - [Digital Product Timelessness](concepts/DigitalProductTimelessness.md) - Possibility that a website, app, or interface can remain culturally recognizable and functionally strong across long periods of digital change.
 - [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.

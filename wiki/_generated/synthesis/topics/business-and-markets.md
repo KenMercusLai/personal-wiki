@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-15
-as_of_overview_commit: ff99c3930d4b5bac9096da677e0b3daa01ae881f
-input_digest: e6c433e8555d15ddb13bdfd47a146d057f8bb07e2362beb416844f8819715995
+as_of_overview_commit: 30df392981016b7409a26b8bfd341565cead4041
+input_digest: 72d7b27d7c755457d7ed5e1240cf5dd1e3d215e66cae90e758eef72f3ac81764
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Amazon-Oracle material adds enterprise cloud migration as a business-strategy case: internal infrastructure capability can become external market expansion, supplier displacement, and competitive proof when [[AWS]] and [[AmazonAurora]] challenge [[Oracle]]. The CES 2019 material adds connected consumer electronics as a product-management and integration case: cheap radios, cloud APIs, sensors, streaming runtimes, voice assistants, smart-home systems, and AI-labeled features make demos easy while leaving the harder question of where intelligence, control, privacy, and runtime responsibility should live. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
+Business and markets material in the corpus connects durable strategy, platform power, startup learning, growth quality, pricing, investing discipline, product management, operational infrastructure, organization design, monetization systems, time leverage, and source-scoped weak-signal scanning. The newest Uber material adds subsidized unit economics as a marketplace/platform caution: targeted adoption, trust transfer, and strong user pull do not prove software-like scale economics when a physical service still depends on drivers, vehicles, fuel, maintenance, and investor subsidies. Enterprise cloud migration and connected consumer electronics add two other integration cases: internal infrastructure capability can become supplier displacement and external market expansion, while cheap radios, sensors, cloud APIs, streaming runtimes, voice assistants, and AI-labeled features still require clear ownership of intelligence, control, privacy, and runtime responsibility. Across the full topic, the stable pattern is that value compounds when strategy, product design, distribution, operations, finance, and organizational timing are integrated around durable user needs rather than isolated labels, channels, or point solutions.
 
 ## Cross-source Findings
 
@@ -112,13 +112,14 @@ Business and markets material in the corpus connects durable strategy, platform 
 
 ### Platforms Centralize Discovery Trust And Access
 
-[[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, browser defaults, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults.
+[[AggregationTheory]], [[MarketplaceTrust]], [[SubsidizedUnitEconomics]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Uber]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, browser defaults, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults, while the Uber case shows that adoption and trust can coexist with subsidized physical-service unit economics.
 
-**Evidence:** [[AggregationTheory]], [[MarketplaceTrust]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Twitter]], [[SocialMediaCuration]]
+**Evidence:** [[AggregationTheory]], [[MarketplaceTrust]], [[SubsidizedUnitEconomics]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Uber]], [[Twitter]], [[SocialMediaCuration]]
 
 **Qualifications:**
 
 - Several platform-power sources are strategic essays, older market snapshots, founder retrospectives, personal workflow accounts, or competitor campaign arguments, so traffic, browser-share, app-store, mobile economics, reputation-system, and curation effects need later outcome evidence before being treated as current measurements.
+- The Uber operating-economics evidence is source-scoped to 2012-2016 leaked or privately circulated figures and qualifies platform trust or convenience claims by separating demand from sustainable transaction economics.
 
 ### Apple Maturity Combines Services Hardware And Capital
 
