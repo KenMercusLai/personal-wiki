@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-15
-as_of_overview_commit: 0e3c13361f20cce409be1a0d8210b4ff979326d2
-summary: "The wiki maps how durable work and markets emerge when strategy, tools, learning, institutions, cost structures, and human judgment stay grounded in real constraints."
-episode_count: 294
-source_count: 294
-paragraph_count: 261
+as_of_overview_commit: 2d38d75d49e51eeb01c2e6a2c7790068eb8a5cae
+summary: "The wiki maps how durable work and markets emerge when strategy, tools, learning, institutions, incentives, and judgment stay grounded in real constraints."
+episode_count: 300
+source_count: 300
+paragraph_count: 262
 topic_count: 9
 ---
 
@@ -21,6 +21,7 @@ topic_count: 9
 - [[AggregationTheory]], [[MarketplaceTrust]], [[SubsidizedUnitEconomics]], [[CommunityReputationSystems]], [[StackOverflow]], [[WebCentralization]], [[BrowserBypass]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[MobileEcosystem]], [[MobilePlatformDiscovery]], [[MobileAppStoreEconomics]], [[Uber]], [[Twitter]], and [[SocialMediaCuration]] show platform power concentrating discovery, commerce, browser defaults, access, trust transfer, reputation signals, runtime surfaces, monetization, and information intake defaults, while the Uber case shows that adoption and trust can coexist with subsidized physical-service unit economics.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
+- [[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[WorkEnvironment]], [[Gamification]], and [[Disco]] show that explicit prices, virtual currency, auctions, penalties, and game-like scoring can focus work by making opportunity cost visible, but they also reshape the workplace field and can intensify pressure.
 
 ## Synthesis by Domain
 
@@ -65,10 +66,10 @@ The current history material is mostly technology, interface, accounting, and ma
 
 ### Psychology and Personal Development
 
-Personal progress depends on bounded attention, small feedback loops, trust, calibration, and evidence against cognitive or social bias.
+Personal progress depends on bounded attention, incentive design, small feedback loops, trust, calibration, and evidence against cognitive or social bias.
 
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]].
-- [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior change and leadership behavior as small repeatable loops where motivation, ability, prompts, feedback, recognition, context-sharing, reflection, decisive action, and bounded making shape future action. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
+- [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior change and leadership behavior as repeatable loops where motivation, ability, prompts, feedback, recognition, context-sharing, reflection, price signals, and bounded making shape future action. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
 
 ### Science, Health, and Climate
 
@@ -78,7 +79,7 @@ The science topic remains source-scoped, mainly covering scientific Python, atte
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback-rich practice, role clarity, explicit expectations, protected attention, collaboration design, and staged career experiments.
+Learning and work improve through feedback-rich practice, role clarity, explicit expectations, protected attention, collaboration design, fair incentives, and staged career experiments.
 
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].
 - [[AIDependencySkillAtrophy]] warns that AI assistance can erode education and work development when it replaces writing, coding, reading, debugging, remembering, or decision practice, while [[Antirez]] adds that programmers still need serious AI practice because the work itself is shifting. Evidence: [[AIDependencySkillAtrophy]], [[AIAssistedWriting]], [[AICodingPractice]], [[AttentionManagement]], [[HumanCodeResponsibility]], [[SimonSpati]], [[Antirez]], [[PracticalLLMUse]].

@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-15
-as_of_overview_commit: 28613f5785066f72921314b5b9e853ee2ac8b265
-input_digest: 0f9ddaa27cf796fd14fec71f5b058959bf85f57c2d83dcccbd1174fff1773c74
+as_of_overview_commit: 2d38d75d49e51eeb01c2e6a2c7790068eb8a5cae
+input_digest: 04173c22584dcaecb0dabbedcca3d5f2255e01a2f44a4b361bca53b9d08ea24b
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, and deliberate social design. Recent additions strengthen six boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.
+Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen seven boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load.
 
 ## Cross-source Findings
 
@@ -55,6 +55,16 @@ Work, education, and society sources frame learning, career development, collabo
 **Qualifications:**
 
 - These are practitioner and leadership essays, not broad empirical studies; synchronous coordination, direct intervention, and explicit decision rights remain necessary in some contexts.
+
+### Workplace Incentives Shape Behavior And Pressure
+
+[[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[WorkEnvironment]], [[Gamification]], and [[Disco]] show that explicit prices, virtual currency, auctions, penalties, and game-like scoring can focus work by making opportunity cost visible, but they also reshape the workplace field and can intensify pressure.
+
+**Evidence:** [[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[WorkEnvironment]], [[Gamification]], [[Disco]]
+
+**Qualifications:**
+
+- The Disco evidence is one Bloomberg company profile rather than a general proof; internal prices may clarify opportunity cost while also creating short-termism, research distraction, cultural-transfer problems, and continuous pressure when tied to pay and status.
 
 ### Remote Work Requires Deliberate Boundaries And Social Design
 

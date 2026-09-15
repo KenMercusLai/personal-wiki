@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Charging Employees for Conference Rooms Helps Disco Boost Profit - Bloomberg](sources/charging-employees-for-conference-rooms-helps-disco-boost-profit-bloomberg.md) - Bloomberg Businessweek reports that Disco's Personal Will system prices meeting rooms, desks, team services, task auctions, overtime, ideas, and coworker help in virtual currency, improving focus and profitability while adding pressure and short-termism risks.
 - [Capitalism-Without-Capital | Bill Gates](sources/capitalism-without-capital-bill-gates.md) - Bill Gates reviews Haskel and Westlake's intangible-asset economics argument, using software and Microsoft to show why policy, measurement, valuation, competition, and taxation need updating.
 - [Cap Tables, Share Structures, Valuations, Oh My! A Case Study of Early-Stage Funding](sources/cap-tables-share-structures-valuations-oh-my-a-case-study-of-early-stage-funding-crunchbase-news.md) - Crunchbase News explains startup cap tables, unpriced seed rounds, SAFE conversions, valuation caps, discounts, Series A pricing, dilution, and control effects through a fictitious funding case.
 - [Cancer on Nautilus: Getting Googled By Your Doctor Is the New Normal](sources/cancer-on-nautilus-getting-googled-by-your-doctor-is-the-new-normal.md) - Nautilus argues that patient-targeted online search is becoming common in mental healthcare, where it can aid acute risk assessment while threatening privacy, trust, liability norms, and medical-record persistence.
@@ -307,6 +308,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Disco](entities/Disco.md) - Japanese chip-equipment maker represented by Bloomberg's Personal Will internal market case.
+- [Kazuma Sekiya](entities/KazumaSekiya.md) - Disco CEO associated with the game-inspired management experiment and Colosseum idea review.
+- [Toshio Naito](entities/ToshioNaito.md) - Disco management-system designer credited with creating and stewarding Personal Will.
 - [John Luo](entities/JohnLuo.md) - psychiatrist and medical-informatics professor cited on disclosure, patient video evidence, and medical-record data-theft risks.
 - [Keren Lehavot](entities/KerenLehavot.md) - clinical psychologist whose cited case report anchors the patient Googling ethics example.
 - [Liliya Gershengoren](entities/LiliyaGershengoren.md) - psychiatrist whose survey found widespread patient Googling among staff doctors and residents.
@@ -1036,6 +1040,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Amoeba Management](concepts/AmoebaManagement.md) - Kyocera-associated team-as-company management model that Disco extends to individual workers.
+- [Internal Market Management](concepts/InternalMarketManagement.md) - Organization design using internal prices, budgets, auctions, penalties, and settlement mechanisms to coordinate work.
+- [Workplace Incentive Design](concepts/WorkplaceIncentiveDesign.md) - Shaping rewards, penalties, metrics, prices, and feedback loops so workplace behavior aligns with organizational goals.
 - [Clinical Digital Footprints](concepts/ClinicalDigitalFootprints.md) - online traces such as posts, profiles, photos, and videos interpreted as clinical evidence.
 - [Medical Record Persistence](concepts/MedicalRecordPersistence.md) - durable downstream exposure created when online findings enter a patient's medical chart.
 - [Patient-Targeted Online Search](concepts/PatientTargetedOnlineSearch.md) - clinicians searching for patient online information to support diagnosis, risk assessment, treatment, or safety.

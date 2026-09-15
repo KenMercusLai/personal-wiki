@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-15] ingest | Charging Employees for Conference Rooms Helps Disco Boost Profit - Bloomberg
+
+Added Bloomberg Businessweek's report on Disco's Personal Will internal market. Key claims: Disco prices meeting rooms, desks, PCs, team services, task auctions, overtime, coworker help, improvement ideas, and internal publicity in Will; the system is credited with higher margins, lower overtime, high pay, and sharper focus; and the same design creates pressure, short-termism risk, research distraction, and cultural-transfer limits. Inspected the Naito portrait images, classified repeated related-story thumbnails as decorative article chrome, and used no image-derived claims beyond identification context.
+
 ## [2026-09-15] ingest | Cancer on Nautilus: Getting Googled By Your Doctor Is the New Normal
 
 Added Nautilus article on patient-targeted online search in mental healthcare. Key claims: online search can provide collateral information in acute psychiatric settings, hidden search can damage privacy and therapeutic trust, routine Googling may shift standard-of-care and malpractice expectations, charted online findings create durable medical-record exposure, and social media can also support patient communities in cancer care when boundaries are maintained. Inspected the lead Google-search image and treated it as illustrative rather than independent evidence.
@@ -2409,6 +2413,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Change at Buffer: The Next Phase, and Why Our Co-Founder and Our CTO are Moving On
 
 Added Joel Gascoigne's 2017 Buffer leadership-transition post. Key claims: Buffer had reached 65,000 paying customers, an 80-person team, and more than $13M annual revenue; the company recommitted to sustainable fully remote growth, product reliability, transparency, diversity and inclusion, and culture investment; Leo Widrich and Sunil Sadasivan left because their preferred company-building paths diverged from Gascoigne's; and Buffer staged the announcement through executives, one-on-one team conversations, investors, and then public disclosure. The four remote images in the source returned 404 from this environment and could not be inspected.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 
