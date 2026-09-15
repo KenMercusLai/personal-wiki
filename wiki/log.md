@@ -2405,3 +2405,11 @@ Added the AWS Architecture Blog central-logging recipe. Key claims: multi-accoun
 ## [2026-09-15] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-15] ingest | Change at Buffer: The Next Phase, and Why Our Co-Founder and Our CTO are Moving On
+
+Added Joel Gascoigne's 2017 Buffer leadership-transition post. Key claims: Buffer had reached 65,000 paying customers, an 80-person team, and more than $13M annual revenue; the company recommitted to sustainable fully remote growth, product reliability, transparency, diversity and inclusion, and culture investment; Leo Widrich and Sunil Sadasivan left because their preferred company-building paths diverged from Gascoigne's; and Buffer staged the announcement through executives, one-on-one team conversations, investors, and then public disclosure. The four remote images in the source returned 404 from this environment and could not be inspected.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

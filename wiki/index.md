@@ -39,6 +39,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Building Apps for Shopify: Fall In Love With The Problem, Not The](sources/building-apps-for-shopify-fall-in-love-with-the-problem-not-the.md) - Ahmad Iqbal explains how Nadeef's manual abandoned-checkout calls led to Scout, Raven Callback, and Pizza Party while a handwritten-card app failed from building before validation.
 - [Build a healthy organization by thinking like an engineer](sources/build-a-healthy-organization-by-thinking-like-an-engineer.md) - The Startup summarizes Michael Boufford's Greenhouse framework for applying engineering design steps to team structure, values, culture, hiring, retention, feedback, and organizational validation.
 - [Buffer in August: $7.49M ARR, Buffer for Video, Continued Growth](sources/buffer-in-august-7-49m-arr-buffer-for-video-continued-growth-open.md) - Joel Gascoigne reports Buffer's August 2015 operating metrics, hiring, product launches, small-team reorganization, and support performance as the company neared $7.5M ARR.
+- [Change at Buffer: The Next Phase, and Why Our Co-Founder and Our CTO are Moving On](sources/change-at-buffer-the-next-phase-and-why-our-co-founder-and-our-cto-are-moving-on.md) - Joel Gascoigne explains Buffer's 2017 recommitment to sustainable remote growth, product reliability, transparency, and culture as Leo Widrich and Sunil Sadasivan moved on.
 - [40 Lessons From 4 Years of Remote Work](sources/40-lessons-from-4-years-of-remote-work-buffer-stories.md) - Courtney Seiter reflects on Buffer's remote-work practices, arguing that distributed teams need trust, boundaries, explicit communication, tooling, intentional social connection, and occasional in-person recalibration.
 - [Browse Against the Machine](sources/browse-against-the-machine-the-official-unofficial-firefox-blog-medium.md) - Official Unofficial Firefox Blog essay arguing that Firefox and Mozilla should counter Chrome's Google-aligned browser dominance through independence, privacy controls, memory efficiency, and a healthy-web mission.
 - [Boz - The P Rules](sources/boz-the-p-rules.md) - Andrew Bosworth argues that product-review meetings work better when senior leaders avoid piling on, pedantry, pontificating, prescription, permission capture, pessimism, and interruptions while preserving presenter agency and team ownership.
@@ -334,7 +335,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Greenhouse](entities/Greenhouse.md) - Software company case for engineering-led organization design, engineering-team scaling, and low voluntary attrition claims.
 - [FirstMark](entities/FirstMark.md) - Event organizer for the 2017 CTO Summit where Boufford presented the framework.
 - [The Startup](entities/TheStartup.md) - Medium entrepreneurship publication context for the Greenhouse organization-design article.
-- [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO authoring an open August 2015 company operating update.
+- [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO authoring public updates about operating metrics, sustainable remote growth, and leadership transition.
 - [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
 - [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
@@ -645,7 +646,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, career-option building, and subsidy-backed unit economics.
-- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging acquisition case and as a remote-work culture example built around trust, tools, and intentional communication.
+- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, and founder-vision-alignment case.
+- [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
+- [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition example and as a narrow-to-broad product-evolution case.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
@@ -1052,8 +1055,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Engineering Team Motivation](concepts/EngineeringTeamMotivation.md) - Engineering-management frame balancing compensation, purpose, and professional respect in competitive startup talent markets.
 - [Prolific Practice](concepts/ProlificPractice.md) - Craft-learning habit of making many small things so repeated feedback and bounded failures improve quality.
 - [Engineering-Led Organization Design](concepts/EngineeringLedOrganizationDesign.md) - Applying engineering design habits to organization-building through problem definition, requirements, implementation, validation, and iteration.
-- [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business revenue, usage, cash, hiring, product, and support metrics.
-- [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, and intentional connection.
+- [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business metrics, company context, strategy, and leadership transitions.
+- [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, intentional connection, and sometimes strategic company identity.
 - [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
 - [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that turns users, context, and campaign goals into segments and deployable acquisition levers.
 - [Behavioral Targeting](concepts/BehavioralTargeting.md) - Audience-targeting method that maps historical actions into weighted, recency-aware labels and thresholds.
@@ -1271,6 +1274,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce time through tools, automation, services, assistance, or delegation so attention returns to higher-value work, recovery, or well-being.
 - [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.
+- [Founder Vision Alignment](concepts/FounderVisionAlignment.md) - Shared founder and executive commitment to a company-building path across growth, funding, culture, product quality, leadership structure, and personal development.
 - [Failure Ownership](concepts/FailureOwnership.md) - Accepting responsibility for a failed outcome without turning it into fixed self-condemnation.
 - [Startup Vision Selling](concepts/StartupVisionSelling.md) - Early founder skill of persuading stakeholders to support the future company before proof is complete, including ambitious team and upside narratives.
 - [Dinner Party Jerk Test](concepts/DinnerPartyJerkTest.md) - Andrew Chen's diagnostic for whether a founder pitch is too modest about team quality, proof points, and future upside.
@@ -1304,8 +1308,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Trough of Sorrow](concepts/TroughOfSorrow.md) - Pre-product-market-fit startup phase after launch excitement fades and before market pull becomes clear.
 - [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual, high-touch startup work used to create early customer love and learn before automation.
 - [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow founder-led early hiring to larger recruiting systems that preserve standards and culture.
-- [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, reinforcement, and repetition.
-- [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, and broadcast communication as organizations grow.
+- [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, repetition, rituals, feedback, and strategic commitment.
+- [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
 - [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into action, trust, conflict reduction, coaching, and humane accountability.
 - [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.
