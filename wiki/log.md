@@ -289,6 +289,10 @@ Added source note and initial concept/entity pages for productivity habits. Key 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-15] ingest | ClassPass' Founder on How Marketplace Startups Can Achieve Product-Market Fit
+
+Added First Round Review's interview with Payal Kadakia on how ClassPass found marketplace product-market fit. Key claims: press and fundraising were vanity signals without reservations; manual reservation handling helped reveal customer behavior; Passport proved demand for class variety; repeated user workarounds led to the subscription model; and reservations per person became the core metric tying habit, revenue, churn, supplier value, and mission together. The local image was inspected as a portrait of Kadakia and did not add separate factual evidence.
+
 ## [2026-09-15] ingest | Capitalism-Without-Capital | Bill Gates
 
 Added Bill Gates's review of *Capitalism Without Capital*. Key claims: software and other intangible assets have high first-copy costs and near-zero marginal-copy costs, intangible investment changes valuation and competition, GDP and other measurement systems lag behind real investment in software, branding, research, and training, and policymakers need to revisit IP, competition, taxation, and stimulus tools. The remote Gates Notes lead image did not resolve from this environment and was not used as evidence.
@@ -2495,6 +2499,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-15] ingest | Checklists for Startups
 
 Added source. Key claims: David Lee recommends reusing startup checklist frameworks from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley; Thiel's seven questions test technology, timing, market wedge, team, distribution, durability, and secrets; checklists are easy to write but hard to execute.
+
+## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
 

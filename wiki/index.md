@@ -12,6 +12,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [How to go fast](sources/chris-james-how-to-go-fast.md) - Chris James argues that software teams move quickly and sustainably through small teams, continuous delivery from day one, low WIP, tests, refactoring, direct user feedback, and minimal ceremony.
 - [99 VC Problems But A Batch Ain't One: Why Portfolio Size Matters For Returns](sources/99-vc-problems-but-a-batch-aint-one-why-portfolio-size-matters-for-returns.md) - Dave McClure argues that VC portfolios are often too concentrated for rare power-law startup outcomes, recommending much larger early-stage and later-stage fund portfolios.
 - [Checklists for Startups](sources/checklists-for-startups-david-lee-medium.md) - David Lee curates startup checklists from Peter Thiel, Sequoia Capital, Andreessen Horowitz, and Bill Gurley for strategy, fundraising, metrics, and marketplace evaluation.
+- [ClassPass' Founder on How Marketplace Startups Can Achieve Product-Market Fit](sources/classpass-founder-on-how-marketplace-startups-can-achieve-product-market-fit-first-round-review.md) - First Round Review interviews Payal Kadakia on how ClassPass moved from unused search to Passport and then subscription by focusing on marketplace transactions, behavior change, manual learning, and reservations per person.
 - [9 most useful pieces of advice I've received](sources/9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium.md) - Mathilde Collin distills Front-building advice on customer evidence, hiring standards, reversible decisions, mission repetition, benchmark skepticism, executive onboarding, and advice filtering.
 - [Chat is the New Browser](sources/chat-is-the-new-browser-ted-livingston-medium.md) - Ted Livingston argues that chatbots could become a web-like platform by combining lower first-use friction, maturing bot tooling, sharing mechanics, payments, and WeChat-style commerce.
 - [Chatbots: a Misleading Term We Should Stop Using](sources/chatbots-a-misleading-term-we-should-stop-using-botnerds-medium.md) - Botnerds argues that "chatbot" overpromises casual humanlike conversation, fits only chat-first systems, and undersells business automation work.
@@ -482,6 +483,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Balaji Srinivasan](entities/BalajiSrinivasan.md) - Technology thinker and speaker arguing for Silicon Valley's exit-centered governance thesis.
 - [BJ Fogg](entities/BJFogg.md) - Behavior-design researcher and author presenting the Fogg Behavior Model and Stanford Behavior Design Lab context.
 - [Behavior Design Lab](entities/BehaviorDesignLab.md) - Stanford lab identified as the institutional home for BJ Fogg's behavior-design research and innovation.
+- [ClassPass](entities/ClassPass.md) - Fitness and wellness marketplace case that found product-market fit by moving from search to Passport to subscription around class-attendance behavior.
+- [Payal Kadakia](entities/PayalKadakia.md) - ClassPass founder represented by advice on marketplace product-market fit, behavior change, manual product learning, and true-north metrics.
 - [Adam Taussig](entities/AdamTaussig.md) - Investor-author arguing that early product flaws can reveal demand when users keep returning for the core value.
 - [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publication context for the beautifully broken products essay.
 - [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by seetd office seating optimization and by early manual personal-shopping demand.
@@ -502,7 +505,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Speed of Trust](entities/TheSpeedOfTrust.md) - Book cited as support for high-trust relationships improving efficiency and effectiveness.
 - [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
 - [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
-- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication that published the Zappacosta executive-hiring interview.
+- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication represented by interviews on Thumbtack executive hiring and ClassPass product-market fit.
 - [Manuel Matuzovic](entities/ManuelMatuzovic.md) - Teacher, friend, and mentor in the junior-developer career-transition source.
 - [Arianna Huffington](entities/AriannaHuffington.md) - Media founder and sleep advocate connecting HuffPost leadership with The Sleep Revolution, recovery routines, and burnout-prevention practices.
 - [Annie Ridout](entities/AnnieRidout.md) - Journalist and interviewer for The Early Hour's Arianna Huffington interview.
