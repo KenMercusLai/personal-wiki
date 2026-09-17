@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [WTF is a funding round?](sources/wtf-is-a-funding-round-techcrunch.md) - TechCrunch explains funding rounds as ownership exchanges rather than loans, covering valuation, high-valuation risk, employee equity and secondary sales, seed-versus-lettered stages, angel-versus-VC capital, LP-backed venture funds, use of funds, fundraising cadence, investor access, and startup failure rates.
 - [How LLM Agents Became What They Look Like in 2026?](sources/yan-li-how-llm-agents-became-what-they-look-like-in-2026.md) - Yan Li traces LLM agents from structured output and tool calling through MCP to bash, filesystems, and the OS, argues MCP is over-engineered, and expects file-based agent-skills to be adopted more widely.
 - [Understanding Email Layout and Structure](sources/understanding-email-layout-and-structure.md) - Chamaileon's tutorial separates an email's layout from its structure, documents the table, row, column, and box model of responsive HTML email, and recommends web-safe fonts and HTML buttons over image-based ones.
 - [Voice and the uncanny valley of AI](sources/voice-and-the-uncanny-valley-of-ai-benedict-evans.md) - Benedict Evans argues that voice input finally works but the hand-built back-end dialogue boxes do not scale, that users cannot remember what they may ask, and that better voice technology produced a worse experience at first.
@@ -1128,6 +1129,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event that is repaid only through an exit, staged as seed and lettered rounds, and sized to accelerate growth.
+- [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round, rests on future expectations in early stages, and creates downside when a later exit is smaller.
+- [Venture Capital Fund Structure](concepts/VentureCapitalFundStructure.md) - LP-backed fund with a finite life that earns returns from exits and keeps a share of the upside, assuming most portfolio companies fail.
+- [Angel Investing](concepts/AngelInvesting.md) - Early-stage funding by individuals investing their own money, contrasted with VCs managing a fund.
 - [LLM Agent Stages](concepts/LLMAgentStages.md) - Staged account of agent architecture as structured output, tool calling, an MCP tool runtime, then a general OS layer of bash and files.
 - [Bash as Meta Tool](concepts/BashAsMetaTool.md) - Claim that a general-purpose shell can serve as the single meta tool through which an agent reaches most external capabilities.
 - [Agent Filesystem](concepts/AgentFilesystem.md) - Use of an ordinary filesystem as the durable store for intermediate artifacts that cannot round-trip through the model in one step.

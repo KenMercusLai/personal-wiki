@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1641a2703d5cca1659821d0f32395d6fd93d06bb46090c6e9312d35c75ac3a5d",
       "54e9054bd6d1e5106873839eeb47a9a0f24f6465f1f873b69d507729e743f4f1",
       "1a7510a5df503f2cb668719120be75142cac7963d920d928241fcf0dd97b7c80",
       "096abfc06156fc732c216f8f784586042977cf9c25a810b0e7532f7fd09fac14",
@@ -277,11 +278,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 275
+    "paragraph_count": 276
   },
-  "overview_commit": "a37eb35e93d0ba53293d72e058778a04f9445e00",
-  "overview_digest": "e89888c6b61796e79d48194f50a4825925de40563d47ac1234d22caa16bbf53f",
+  "overview_commit": "afabf1516e9ba4ee3515cf3329d92ae18df13827",
+  "overview_digest": "a840712c6649e8ec91794182b3f2be0442d451ec6b429e56b04596031d153c44",
   "paragraphs": [
+    {
+      "id": "1641a2703d5cca1659821d0f32395d6fd93d06bb46090c6e9312d35c75ac3a5d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest TechCrunch source adds [[StartupFundingRound]], [[StartupValuation]], [[VentureCapitalFundStructure]], and [[AngelInvesting]] to the wiki's startup-finance material. It states the round in plain terms: investors trade cash for an ownership stake they can lose entirely, the startup does not repay the money, and equity substitutes for the bank loans a young company struggles to obtain, which is why [[StartupRunway]] and growth spending are the round's real purpose and why most startups raise again every one to two years. [[StartupValuation]] is treated as a negotiated bet - estimated market size before revenue, then revenue, growth, and exit probability - with the warning that a high price raises the bar, so a $200 million sale after a $500 million raise leaves late investors and recently hired employees underwater, sharpening [[EmployeeEquityRisk]] and [[StartupEquityTransparency]] even as the source softens them by noting that some startups let employees sell through secondary offerings at the latest valuation. The same explainer supplies the institutional layer the wiki was missing: seed and lettered rounds with stage-specialist investors, [[AngelInvesting]] as personal capital against a VC fund, and [[VentureCapitalFundStructure]] as LPs, a roughly ten-year fund life, exit-driven returns, carried interest, and an explicit expectation that most portfolio companies fail and the few winners cover the losses, which grounds [[VentureCapitalPortfolioSizing]] and [[StartupFailurePatterns]]. It closes on the human side of fundraising - references and networks beat cold pitches, investors say the decision is about the people, and a credible backer such as [[SequoiaCapital]] can transfer credibility to partnerships and hiring - while its non-cash qualifications stay consistent with the corpus's preference for capital that funds learning over capital that funds hype.",
+      "topic_scores": {
+        "business-and-markets": 7,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AngelInvesting",
+        "EmployeeEquityRisk",
+        "SequoiaCapital",
+        "StartupEquityTransparency",
+        "StartupFailurePatterns",
+        "StartupFundingRound",
+        "StartupRunway",
+        "StartupValuation",
+        "VentureCapitalFundStructure",
+        "VentureCapitalPortfolioSizing"
+      ]
+    },
     {
       "id": "54e9054bd6d1e5106873839eeb47a9a0f24f6465f1f873b69d507729e743f4f1",
       "primary_topic": "ai-and-technology",

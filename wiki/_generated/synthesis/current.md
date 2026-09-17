@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-17
-as_of_overview_commit: a37eb35e93d0ba53293d72e058778a04f9445e00
-summary: "The wiki maps how technical systems, markets, institutions, work, learning, and personal judgment turn constraints into reusable practices for trust, change, and decision quality."
-episode_count: 326
-source_count: 326
-paragraph_count: 275
+as_of_overview_commit: afabf1516e9ba4ee3515cf3329d92ae18df13827
+summary: "The wiki maps how systems, markets, institutions, work, learning, and personal judgment turn constraints into reusable practices for capital, trust, and decision quality."
+episode_count: 327
+source_count: 327
+paragraph_count: 276
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI and technology sources frame durable technical progress as socio-technical pr
 
 ### Business and Markets
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, growth only matters when it preserves retained value, and history should be filtered for repeatable lessons rather than copied as non-repeatable context. The newest sources add the corpus's strictest product-market-fit test, demand that outruns the team's capacity to serve, together with the accelerator selection signals around technical founders, speed, commitment, and problem persistence, plus an engineering-design layer where [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] keep delivery decisions with the engineers doing the work as the company scales. A template-design layer adds [[EmailLayoutAndStructure]], [[EmailTableLayout]], and [[ResponsiveEmailDesign]]: email marketing inherits its clients' rendering limits, so web-safe fonts, image fallbacks, HTML buttons, and per-device hiding and reordering shape the artifact customers actually receive.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, growth only matters when it preserves retained value, and history should be filtered for repeatable lessons rather than copied as non-repeatable context. The newest sources add the corpus's strictest product-market-fit test, demand that outruns the team's capacity to serve, together with the accelerator selection signals around technical founders, speed, commitment, and problem persistence, plus an engineering-design layer where [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] keep delivery decisions with the engineers doing the work as the company scales. A template-design layer adds [[EmailLayoutAndStructure]], [[EmailTableLayout]], and [[ResponsiveEmailDesign]]: email marketing inherits its clients' rendering limits, so web-safe fonts, image fallbacks, HTML buttons, and per-device hiding and reordering shape the artifact customers actually receive. The newest financing layer adds [[StartupFundingRound]], [[StartupValuation]], [[VentureCapitalFundStructure]], and [[AngelInvesting]]: rounds trade ownership rather than borrowing and are repaid only through an exit, valuation is a negotiated forward bet whose high headline price can leave a smaller sale underwater for late investors and recent employees, and venture capital pools LP money into a finite-life fund that keeps part of the exit upside while expecting most portfolio companies to fail.
 
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].

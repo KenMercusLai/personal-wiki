@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-17
-as_of_overview_commit: ab77564940890c1b550745ace5e0395c06843c1c
-input_digest: 7f32069b74e39d449d97f9db8c12e3cdc54fe0577d809df0caa569c9e81e5033
+as_of_overview_commit: afabf1516e9ba4ee3515cf3329d92ae18df13827
+input_digest: f34f433ea8767d9e4f13b918b6bf25081b2c8d7c92e9f7cf9800b4646247fa9c
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales. A design-side source adds the template layer: the Chamaileon tutorial separates email layout from structure, treats responsive HTML email as a nested table system of rows, columns, and container boxes, and shows how web-safe-font, image-blocking, and Outlook background limits push designers toward text alternatives, fallback colors, and HTML buttons that survive image blocking and go fluid on mobile, alongside per-device hiding and column reordering.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales. A design-side source adds the template layer: the Chamaileon tutorial separates email layout from structure, treats responsive HTML email as a nested table system of rows, columns, and container boxes, and shows how web-safe-font, image-blocking, and Outlook background limits push designers toward text alternatives, fallback colors, and HTML buttons that survive image blocking and go fluid on mobile, alongside per-device hiding and column reordering. The newest TechCrunch explainer adds the round-level and fund-level layer to that financing material: [[StartupFundingRound]] exchanges ownership for capital the company never repays, [[StartupValuation]] is a negotiated forward bet on market size, revenue, growth, and exit likelihood whose high headline number can leave late investors and recently hired employees underwater after a smaller sale, [[AngelInvesting]] supplies personal early-stage capital where [[VentureCapitalFundStructure]] pools LP money into a finite-life fund that earns exit-driven returns and expects most portfolio companies to fail, and access to either depends on references, networks, and the credibility a firm such as [[SequoiaCapital]] transfers to its portfolio companies.
 
 ## Cross-source Findings
 
@@ -132,13 +132,14 @@ Business and markets sources frame companies as systems for converting scarce re
 
 ### Startup Financing Terms Change Ownership Math
 
-[[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], and [[CapTableDilution]] show early-stage funding as ownership math: common shares, founder splits, employee pools, SAFEs or notes, discounts, valuation caps, priced Series A shares, and conversion terms can change post-money valuation, investor returns, founder dilution, employee-pool percentage, and voting control.
+[[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]], [[StartupFundingRound]], and [[StartupValuation]] show early-stage funding as ownership math and round design: common shares, founder splits, employee pools, SAFEs or notes, discounts, valuation caps, priced Series A shares, and conversion terms can change post-money valuation, investor returns, founder dilution, employee-pool percentage, and voting control, while the round itself trades ownership rather than borrowing, is sized to a growth plan, is staged from seed through lettered rounds, and prices the company through a negotiated bet that a smaller later exit can leave underwater.
 
-**Evidence:** [[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]]
+**Evidence:** [[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]], [[StartupFundingRound]], [[StartupValuation]], [[StartupRunway]]
 
 **Qualifications:**
 
 - The Crunchbase News evidence is a simplified fictitious case rather than legal or investment advice; it does not cover liquidation preferences, pro rata rights, option-pool refreshes, tax consequences, note maturity, down-round anti-dilution, or post-money SAFE variants.
+- The TechCrunch evidence is a general-audience 2020 explainer written at headline level: it presents equity as the default, treats the absence of repayment as the defining feature of a round, and does not cover venture debt, revenue-based financing, bridge or extension rounds, or how liquidation preferences change what common shareholders actually receive.
 
 ### Growth Must Preserve Retained Value
 
@@ -328,3 +329,14 @@ Business and markets sources frame companies as systems for converting scarce re
 **Qualifications:**
 
 - First-party 2016 vendor tutorial from Chamaileon, written by a self-described marketer; product-capability and client-support claims are source-scoped and may be outdated.
+
+### Venture Funds Pool Lp Capital Into Exit Driven Returns
+
+[[VentureCapitalFundStructure]] and [[AngelInvesting]] separate pooled institutional venture capital from personal early-stage capital: a VC manages a fund supplied by LPs such as financial institutions, high-net-worth individuals, pension funds, and university funds across a roughly ten-year life, returns arrive through exits such as IPOs and M&A with the firm keeping a share of the upside, and the model assumes most portfolio companies fail while the few winners cover every loss and still return a profit.
+
+**Evidence:** [[VentureCapitalFundStructure]], [[AngelInvesting]]
+
+**Qualifications:**
+
+- The source compresses fund economics into a few sentences and omits management fees, carried-interest rates and hurdles, fund vintages, the J-curve, investment periods versus fund life, capital calls, reserves, and the secondary market for fund interests.
+- The ten-year fund life and the most-fail assumption are presented as typical US venture practice around 2020 rather than as current, universal, or measured fund-economics rules.

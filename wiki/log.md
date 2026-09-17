@@ -2599,6 +2599,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | WTF is a funding round?
+
+Ingested TechCrunch's 2020 explainer on startup funding rounds. New pages: the source note, concepts [[StartupFundingRound]], [[StartupValuation]], [[VentureCapitalFundStructure]], and [[AngelInvesting]]. Updated [[EmployeeEquityRisk]] with employee secondary offerings as a partial liquidity path and with the early-joiner, paper-until-exit framing, and updated [[SequoiaCapital]] with its role as a credibility signal that helps portfolio companies form partnerships and hire. Key claims: a round trades ownership rather than borrowing, so investors lose their money if the company fails and the startup does not repay it; equity is the default because young companies struggle to get bank loans, though loans are sometimes taken alongside funding and still must be repaid with interest; valuation is a negotiated bet that leans on estimated market size before revenue and on revenue, growth, and exit likelihood later, and a high valuation raises the bar so that a smaller later exit hurts late investors and recently hired employees; employee equity is worth most to early joiners but stays paper money until a liquidity event, with secondary offerings as a partial exception; rounds are stage-labeled from seed through Series A and beyond, with investors specializing by stage; VCs manage LP-backed funds with a typical ten-year life and exit-driven returns, keep a portion of the upside, and expect most portfolio companies to fail while the few winners cover the losses; proceeds fund growth through hiring, sales and marketing, and production; startups commonly raise every one to two years and often before the money is needed; and investor access depends on references and networks, with firm reputation such as Sequoia's helping with partnerships and hiring. Both image references resolve to the same decorative illustration of dollar bills arranged in a ring, which carries no evidence, measurements, or structure, so no image-derived information was added. No contradictions with existing pages beyond the qualifications recorded on the source note, which qualifies [[EmployeeEquityRisk]] and [[StartupEquityTransparency]] on secondary liquidity and reinforces [[StartupFailurePatterns]] and [[VentureCapitalPortfolioSizing]] on base rates.
+
 ## [2026-09-17] ingest | How LLM Agents Became What They Look Like in 2026?
 
 Ingested Yan Li's staged history of LLM agent architecture. New pages: the source note, the entity [[YanLi]], and concepts [[LLMAgentStages]], [[BashAsMetaTool]], [[AgentFilesystem]], and [[AgentDeploymentTradeoffs]]. Updated [[ModelContextProtocol]] with the tool-runtime role plus the dissenting verdict that MCP is over-engineered and not universal; [[LLMToolingSkills]] with agent-skills as runtime-free, file-based dynamic prompt injection that the source expects to out-adopt MCP; [[CodingAgentMinimalTooling]] with the bash meta-tool claim and the filesystem as the complement that prevents tool-combination growth; [[ComputerUse]] with the browser as the frontier shell tooling cannot cover; [[OpenAI]] with tool calling as its standardized contract; [[AgenticWorkflowPatterns]] with reproducibility as the demand-side reason workflows persist; and [[RetrievalAugmentedGeneration]] with latency as the reason non-agentic retrieval survives. Key claims: agent architecture accumulates as structured output, tool calling, an MCP tool runtime, and then a general OS layer of bash and files; intermediate artifacts that cannot round-trip through the model force tool multiplicity, which the filesystem decouples; and latency, reproducibility, privacy/cost, and multimodal demand bound where agents fit. The source contained no effective image references - only a link to the referenced external essay - so no image evidence was used.
@@ -2626,6 +2630,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] report | Graph health report generated
 
 1811 nodes analyzed.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-17] lint | Wiki health check
 
