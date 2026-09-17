@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Y Combinator CEO: If You Are Not Drowning in Demand, You Don't Have Product-Market Fit](sources/y-combinator-ceo-if-you-are-not-drowning-in-demand-you-dont-have-product-market-fit-capital-growth-blog.md) - Michael Seibel argues that product-market fit means demand that overwhelms capacity, that YC companies fail by presuming fit, and that technical founders, speed, commitment, and problem persistence are non-negotiable.
 - [Lucky vs. Repeatable](sources/collaborative-fund-lucky-vs-repeatable.md) - Morgan Housel argues that learners should separate repeatable skills and broad lessons from non-repeatable timing, market conditions, law, politics, and competitive context.
 - [Co-founder conflict | TechCrunch](sources/co-founder-conflict-techcrunch.md) - Garry Tan argues that co-founder disputes become dangerous when founders avoid necessary conflict or fight without role boundaries, using Posterous as the central case.
 - [Coinbase Wants To Be Too Big To Fail | Fortune](sources/coinbase-wants-to-be-too-big-to-fail-fortune.md) - Fortune profiles Coinbase as a regulated crypto on-ramp trying to grow beyond boom-driven trading fees into custody, institutional services, and security-token markets.
@@ -329,6 +330,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Michael Seibel](entities/MichaelSeibel.md) - YC Core CEO and founder-operator behind Twitch and SocialCam, whose AMA defines product-market fit as drowning in demand.
 - [Jason Zweig](entities/JasonZweig.md) - Investing writer quoted on the danger of learning narrow post-crash lessons that leave speculative behavior intact.
 - [John D. Rockefeller](entities/JohnDRockefeller.md) - Historical business example where distribution-control lessons transfer more readily than the legal context around Standard Oil.
 - [Better Humans](entities/BetterHumans.md) - Medium publication context for the cognitive-bias cheat sheet.
@@ -1119,6 +1121,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Problem Persistence](concepts/ProblemPersistence.md) - Discipline of staying loyal to the customer and the problem while treating the current solution as disposable.
+- [Founder Technical Capability](concepts/FounderTechnicalCapability.md) - Founding-team ability to build its own product, treated as a screening criterion that conflicts with bounded-outsourcing advice.
+- [Startup Execution Speed](concepts/StartupExecutionSpeed.md) - Founder-level rate of accomplishment, used as an evaluation signal about quality, commitment, and iteration throughput.
 - [Repeatable Learning From History](concepts/RepeatableLearningFromHistory.md) - Learning filter that separates transferable skills and broad patterns from one-time historical circumstances.
 - [Dollo's Law](concepts/DollosLaw.md) - Path-dependence analogy for outcomes caused by real forces that cannot be repeated exactly.
 - [Co-Founder Conflict](concepts/CoFounderConflict.md) - Founder relationship tension that becomes risky when teams avoid direct disagreement or fight constantly without decision boundaries.

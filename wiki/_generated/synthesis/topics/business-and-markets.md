@@ -3,18 +3,29 @@
 generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
-last_updated: 2026-09-15
-as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
-input_digest: d2f02af078eba7135d09d4a93c53b3697a39ecaaf47f13d5ca6ef646eec4019d
+last_updated: 2026-09-17
+as_of_overview_commit: 85debe48e68badcbc3c316a1ea9570282e69e509
+input_digest: 764b906befc57b910b85249dd26e4dd382410b6fd766f89da8b9ab6596cf4bd4
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching.
 
 ## Cross-source Findings
+
+### Pmf Means Demand Outruns Capacity
+
+[[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive.
+
+**Evidence:** [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]]
+
+**Qualifications:**
+
+- The claim is source-scoped to one accelerator CEO's edited AMA rather than a measured threshold for fit.
+- It sets a bar that deliberately small, niche, or capacity-constrained but durable businesses would never meet.
 
 ### Durable Strategy Pairs Change With Timeless Demand
 

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7b95feb3369b58352587d43478bb72be3acf1cf482c668f061f48a22e34ddf0c",
       "a98b48e55da33fdcdaab004250da51142e93a73f69a558a206263d2a4376a0f8",
       "bff5a9b6b67584a88cb5fc0a2ad7d79b4666d557c2f401b7297ec98924978df2",
       "83a6bd554b3005df79b96b7da72c14c6f4099fe82effcc244825553eb6458fab",
@@ -272,11 +273,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 270
+    "paragraph_count": 271
   },
-  "overview_commit": "e62283572dfcdd07935e83eeaab5276fc135149b",
-  "overview_digest": "8cd49c97a8b71aeeba147af10f622dbc4e276e43506039ef47261f03661c9669",
+  "overview_commit": "85debe48e68badcbc3c316a1ea9570282e69e509",
+  "overview_digest": "c8274c8e10e8aabf79918f90844372f55f2a5121dfac854966a6c01f86004b54",
   "paragraphs": [
+    {
+      "id": "7b95feb3369b58352587d43478bb72be3acf1cf482c668f061f48a22e34ddf0c",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Capital & Growth source adds [[MichaelSeibel]] and the strictest [[ProductMarketFit]] definition in the corpus: fit means customers are drowning the team in demand, and the major cause of failure for [[YCombinator]] companies is believing fit has been reached and scaling expenses on that belief. The same interview turns selection practice into concepts: [[FounderTechnicalCapability]] is treated as non-negotiable because a founding team that cannot build its own [[MinimumViableProduct]] has to rely on contract developers, [[StartupExecutionSpeed]] reads slow accomplishment and hedged commitment as one signal, [[ProblemPersistence]] keeps the customer and the problem fixed while the solution changes, and [[StartupFailurePatterns]] gains founder disputes as the leading general cause. Its insider caveat qualifies the accelerator material already in the corpus: most great companies never joined one, the best program and the tenth-best differ enormously, and the source directly contradicts [[OutsourcedProductDevelopment]] by rejecting contract developers for venture-scale technology companies.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 6
+      },
+      "wikilinks": [
+        "FounderTechnicalCapability",
+        "MichaelSeibel",
+        "MinimumViableProduct",
+        "OutsourcedProductDevelopment",
+        "ProblemPersistence",
+        "ProductMarketFit",
+        "StartupExecutionSpeed",
+        "StartupFailurePatterns",
+        "YCombinator"
+      ]
+    },
     {
       "id": "a98b48e55da33fdcdaab004250da51142e93a73f69a558a206263d2a4376a0f8",
       "primary_topic": "business-and-markets",

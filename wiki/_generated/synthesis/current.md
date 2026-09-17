@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-15
-as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
+last_updated: 2026-09-17
+as_of_overview_commit: 85debe48e68badcbc3c316a1ea9570282e69e509
 summary: "The wiki maps how technical systems, markets, institutions, work, learning, and personal judgment turn constraints into reusable practices for trust, change, and decision quality."
-episode_count: 321
-source_count: 321
-paragraph_count: 270
+episode_count: 322
+source_count: 322
+paragraph_count: 271
 topic_count: 9
 ---
 
@@ -36,10 +36,10 @@ AI and technology sources frame durable technical progress as socio-technical pr
 
 ### Business and Markets
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, growth only matters when it preserves retained value, and history should be filtered for repeatable lessons rather than copied as non-repeatable context.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, growth only matters when it preserves retained value, and history should be filtered for repeatable lessons rather than copied as non-repeatable context. The newest source adds the corpus's strictest product-market-fit test, demand that outruns the team's capacity to serve, together with the accelerator selection signals around technical founders, speed, commitment, problem persistence, and founder disputes.
 
+- [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
-- [[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], and [[DollosLaw]] frame business and investing history as useful when learners separate repeatable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market timing, legal systems, competitive conditions, politics, regulation, and path-dependent context. Evidence: [[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[DollosLaw]].
 
 ### Cross-domain
 

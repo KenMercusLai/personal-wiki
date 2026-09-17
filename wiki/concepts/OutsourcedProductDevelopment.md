@@ -4,7 +4,8 @@ type: concept
 tags: [product-development, outsourcing, startup]
 sources:
   - 7-lessons-on-building-product-with-outsourced-developers-mind-the-product
-last_updated: 2026-09-13
+  - y-combinator-ceo-if-you-are-not-drowning-in-demand-you-dont-have-product-market-fit-capital-growth-blog
+last_updated: 2026-09-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,6 +22,7 @@ The source treats outsourced development as a management-intensive way to buy pr
 - Product managers should adapt to the external team's communication and tracking practices when that improves execution.
 - Quality and specification responsibility stays with the product owner; received builds must be tested and requirements must be technically concrete.
 - Explicit issue-state tracking is essential for understanding product status and next steps across distance, time zones, and release cycles.
+- Accelerator-side advice can reject contract development outright for venture-scale technology companies, arguing that the founding team itself must be able to build the product.
 
 ## Evidence
 - Strategic role: [[7-lessons-on-building-product-with-outsourced-developers-mind-the-product]] says outsourced work can validate a market cheaply, while later code may need refactoring, transition work, or disposal.
@@ -29,12 +31,14 @@ The source treats outsourced development as a management-intensive way to buy pr
 - Workflow adaptation: [[7-lessons-on-building-product-with-outsourced-developers-mind-the-product]] advises using the developers' preferred communication and tracking methods rather than imposing Pivotal Tracker, Jira, Trello, and Slack habits.
 - QA and specification: [[7-lessons-on-building-product-with-outsourced-developers-mind-the-product]] says product managers should test every build and provide granular technical documentation, such as API requests and database fields rather than vague business-language outcomes.
 - Tracking discipline: [[7-lessons-on-building-product-with-outsourced-developers-mind-the-product]] describes a four-column flow of Issues, Committed, Rejected, and Done to clarify project state.
+- Categorical rejection: [[y-combinator-ceo-if-you-are-not-drowning-in-demand-you-dont-have-product-market-fit-capital-growth-blog]] says contract developers are unacceptable for building a billion-dollar company and that a team without a technical founder cannot build an MVP without them.
 
 ## Counterevidence & Qualifications
-The source is practitioner advice from one product context, not comparative evidence that outsourced teams are generally more or less profitable than in-house teams. Its advice also assumes the product owner can supply technical documentation and QA capacity; teams without those skills may experience outsourcing as risk amplification rather than cost reduction. The source's embedded project-tracking image was unavailable as image data, so visual details of the chart cannot be independently verified.
+The source is practitioner advice from one product context, not comparative evidence that outsourced teams are generally more or less profitable than in-house teams. Its advice also assumes the product owner can supply technical documentation and QA capacity; teams without those skills may experience outsourcing as risk amplification rather than cost reduction. The two sources disagree on scope rather than mechanics: Mind the Product permits external developers inside a bounded validation experiment, while the accelerator source refuses them entirely when the company's core claim is its technology, so the honest reading is that outsourcing is a strategic choice about capability ownership rather than a cost decision with a single answer. The source's embedded project-tracking image was unavailable as image data, so visual details of the chart cannot be independently verified.
 
 ## What Changed
 - Created the concept page for outsourced product development as a bounded product-validation and delivery-management pattern.
+- Added the opposed accelerator-side position that contract development is disqualifying for venture-scale technology companies.
 
 ## Related Concepts
 - [[MinimumViableProduct]] - outsourced prototypes can test core market demand before full internal buildout.
@@ -42,3 +46,4 @@ The source is practitioner advice from one product context, not comparative evid
 - [[CustomerLedProductDevelopment]] - external teams should build the critical functionality needed to expose customer and market feedback.
 - [[ProductEvolution]] - externally built prototype code may later be refactored, transitioned, or discarded as the product matures.
 - [[SoftwareVerification]] - product owners must test builds and regressions rather than relying only on external QA promises.
+- [[FounderTechnicalCapability]] - the opposing position that technology companies must build their core product in-house.

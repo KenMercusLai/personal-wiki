@@ -2058,6 +2058,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | Y Combinator CEO: If You Are Not Drowning in Demand, You Don't Have Product-Market Fit
+
+Added Michael Seibel's Capital & Growth AMA. Key claims: product-market fit means demand that outruns the team's capacity to serve it, the main YC failure mode is believing fit has been reached and scaling on that belief, and YC screens applications for unclear communication, missing technical founders, and slow accomplishment. Created [[MichaelSeibel]], [[ProblemPersistence]], [[FounderTechnicalCapability]], and [[StartupExecutionSpeed]]; updated [[YCombinator]], [[ProductMarketFit]], [[OutsourcedProductDevelopment]], and [[StartupFailurePatterns]]. The source's categorical rejection of contract developers contradicts the wiki's bounded-outsourcing advice. No image references were present in the source.
+
 ## [2026-09-15] ingest | Coinbase Wants To Be Too Big To Fail | Fortune
 
 Added Fortune's 2018 Coinbase profile. Key claims: Coinbase used ease of purchase, custody, and compliance to become a mainstream crypto on-ramp; its 2017 boom exposed outages, support, fraud, flash-crash, and Bitcoin Cash controversy risks; and its next strategic path pointed toward institutional custody, regulated brokerage status, acquisitions, and security-token markets. Inspected the article's local image assets; the chart materially adds customer-account and Bitcoin-price evidence, while the repeated portraits and office photos mainly provide context.
