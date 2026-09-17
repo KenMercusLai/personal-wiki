@@ -2599,6 +2599,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | The Boring Technology Behind a One-Person Internet Company
+
+Added Wenbin Fang's account of running Listen Notes as a one-person internet company. Key claims: a listener-facing podcast site and a developer Podcast API run on roughly twenty over-provisioned AWS servers; the stack is deliberately conventional (Django/Python, uWSGI, NGINX, PostgreSQL, Redis, Elasticsearch, Celery, Supervisord) with no Docker, Kubernetes, or serverless; machines are configured with Ansible and released through a three-argument deploy script that clones a timestamped revision, swaps a symlink, and restarts via supervisorctl; monitoring uses Datadog, PagerDuty, Rollbar, and Slack webhooks; and the closing argument treats overthinking, not missing technology, as the main barrier to shipping. Created ListenNotes and WenbinFang entity pages, BoringTechnology and OverthinkingAsBarrier concept pages, and extended MicroCompany, TechnologyStackComplexity, DeploymentAutomation, and BootstrappedSaaS. No image references were present in the source Markdown.
+
 ## [2026-09-17] ingest | Understanding your Circle of Competence: How Warren Buffett Avoids Problems
 
 Ingested Farnam Street's 2013 essay on the circle of competence. New pages: the source note, the concept [[CircleOfCompetence]], and the entities [[CharlieMunger]] and [[FarnamStreet]]. Updated [[WarrenBuffett]] with the 1996 shareholder-letter rule that investors only need to evaluate companies inside their circle, the Mrs. B case of refusing to own stocks she did not understand, and the boundary-honesty instruction to never fool yourself about where the circle stands and never be afraid to say "I don't know". Key claims: the circle is knowledge built through experience or study, knowing its boundary matters more than its size, widening it happens only slowly, competence is domain-specific so deliberate abstention can coexist with success, a narrow circle buys focus, and Munger generalizes the model into a life question of finding your aptitudes and playing only where you have an edge. No contradictions were found with existing pages; the source qualifies the wiki's investing material by adding a problem-avoidance boundary rather than new performance evidence. The source's two image references both resolve to the same Farnam Street URL, which returned HTTP 404, so no image evidence could be inspected.
@@ -2654,6 +2658,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] ingest | I have an idea for a startup, but there's already a well funded startup with a related idea, what should I do?
 
 Added Yash Gandhi's Quora answer on starting against a well-funded competitor. Key claims: a funded rival validates demand rather than closing the market, implementation and effort decide the outcome more than the idea, not starting is framed as having failed already, and Ola, Flipkart, Google, and Quora are cited as entrants against Uber, Amazon, Yahoo's search engine, and Yahoo's question-and-answer audience. Created IdeaVersusExecution, Ola, Flipkart, and YashGandhi pages and extended IncumbentShadowAdvantage, Yahoo, and Quora. No image references were present in the source Markdown.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-17] lint | Wiki health check
 

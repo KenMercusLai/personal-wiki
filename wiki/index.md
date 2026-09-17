@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Boring Technology Behind a One-Person Internet Company](sources/wenbin-fang-the-boring-technology-behind-a-one-person-internet-company.md) - Wenbin Fang describes running Listen Notes as a one-person internet company on a deliberately boring Django, PostgreSQL, Redis, and Elasticsearch stack, with Ansible, a small deploy script, rented SaaS, over-provisioned AWS servers, and a closing argument that overthinking is the real barrier to shipping.
 - [I have an idea for a startup, but there's already a well funded startup with a related idea, what should I do?](sources/yash-gandhi-startup-idea-well-funded-competitor-quora.md) - Yash Gandhi answers that a funded competitor validates the market rather than closing it, argues that implementation and service matter more than the idea, and cites Ola, Flipkart, Google, and Quora as entrants that started anyway.
 - [Understanding your Circle of Competence: How Warren Buffett Avoids Problems](sources/understanding-your-circle-of-competence-farnam-street.md) - Farnam Street uses Buffett's 1996 shareholder letter, a furniture-store manager, and Munger's life advice to argue that knowing the boundary of what you understand matters more than the size of the circle.
 - [WTF is a funding round?](sources/wtf-is-a-funding-round-techcrunch.md) - TechCrunch explains funding rounds as ownership exchanges rather than loans, covering valuation, high-valuation risk, employee equity and secondary sales, seed-versus-lettered stages, angel-versus-VC capital, LP-backed venture funds, use of funds, fundraising cadence, investor access, and startup failure rates.
@@ -337,6 +338,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Listen Notes](entities/ListenNotes.md) - One-person podcast search engine and database running a listener site and a developer API on a boring, over-provisioned AWS stack.
+- [Wenbin Fang](entities/WenbinFang.md) - Founder-operator who runs Listen Notes alone and argues for boring technology, rented capability, and acting before overthinking.
 - [Ola](entities/Ola.md) - Ride-hailing company cited as an entrant that started despite Uber already being established.
 - [Flipkart](entities/Flipkart.md) - Ecommerce company cited as an entrant that started despite Amazon already holding the online-retail market.
 - [Yash Gandhi](entities/YashGandhi.md) - Quora author arguing that implementation, not the idea, decides whether a startup competing with a funded incumbent succeeds.
@@ -1136,6 +1139,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Boring Technology](concepts/BoringTechnology.md) - Practice of choosing mature, well-understood tools over fashionable ones so a small operator's attention goes to the product rather than the stack.
+- [Overthinking as a Barrier](concepts/OverthinkingAsBarrier.md) - Claim that deliberation and premature optimization, not missing tools or skill, are the usual obstacle between a builder and a shipped product.
 - [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
 - [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.
 - [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event that is repaid only through an exit, staged as seed and lettered rounds, and sized to accelerate growth.
