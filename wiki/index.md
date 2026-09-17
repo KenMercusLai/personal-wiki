@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Understand, Design, Build: A Framework for Problem-Solving](sources/understand-design-build-a-framework-for-problem-solving-lob-blog.md) - Lob argues that engineers solve business problems rather than write code, and that understanding the problem and comparing approaches before building prevents interrupts, rework, and 2x-10x schedule overruns.
 - [Y Combinator CEO: If You Are Not Drowning in Demand, You Don't Have Product-Market Fit](sources/y-combinator-ceo-if-you-are-not-drowning-in-demand-you-dont-have-product-market-fit-capital-growth-blog.md) - Michael Seibel argues that product-market fit means demand that overwhelms capacity, that YC companies fail by presuming fit, and that technical founders, speed, commitment, and problem persistence are non-negotiable.
 - [Lucky vs. Repeatable](sources/collaborative-fund-lucky-vs-repeatable.md) - Morgan Housel argues that learners should separate repeatable skills and broad lessons from non-repeatable timing, market conditions, law, politics, and competitive context.
 - [Co-founder conflict | TechCrunch](sources/co-founder-conflict-techcrunch.md) - Garry Tan argues that co-founder disputes become dangerous when founders avoid necessary conflict or fight without role boundaries, using Posterous as the central case.
@@ -330,6 +331,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Lob](entities/Lob.md) - Company whose engineering blog published the Understand, Design, Build framework and uses it to mentor new engineers and decentralize decisions while scaling.
 - [Michael Seibel](entities/MichaelSeibel.md) - YC Core CEO and founder-operator behind Twitch and SocialCam, whose AMA defines product-market fit as drowning in demand.
 - [Jason Zweig](entities/JasonZweig.md) - Investing writer quoted on the danger of learning narrow post-crash lessons that leave speculative behavior intact.
 - [John D. Rockefeller](entities/JohnDRockefeller.md) - Historical business example where distribution-control lessons transfer more readily than the legal context around Standard Oil.
@@ -1121,6 +1123,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Understand, Design, Build](concepts/UnderstandDesignBuild.md) - Three-step problem-solving sequence of understanding the business problem and technical landscape, designing competing approaches, then building.
+- [Premature Implementation](concepts/PrematureImplementation.md) - Failure mode of building before the business problem and existing technical landscape are understood, producing needless interrupts and discarded work.
+- [Benefits, Risks, Mitigations](concepts/BenefitsRisksMitigations.md) - Design-comparison frame that states several candidate approaches and weighs each one's benefits, risks, and mitigations before committing.
 - [Problem Persistence](concepts/ProblemPersistence.md) - Discipline of staying loyal to the customer and the problem while treating the current solution as disposable.
 - [Founder Technical Capability](concepts/FounderTechnicalCapability.md) - Founding-team ability to build its own product, treated as a screening criterion that conflicts with bounded-outsourcing advice.
 - [Startup Execution Speed](concepts/StartupExecutionSpeed.md) - Founder-level rate of accomplishment, used as an evaluation signal about quality, commitment, and iteration throughput.

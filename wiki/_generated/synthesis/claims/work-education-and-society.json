@@ -59,33 +59,40 @@
       "global_candidate": false,
       "id": "junior-learning-needs-feedback-and-protected-struggle",
       "qualifications": [
-        "Fast adaptation to new tools is not the same as architectural, debugging, or product judgment; review feedback can damage learning when preference masquerades as quality."
+        "Fast adaptation to new tools is not the same as architectural, debugging, or product judgment; review feedback can damage learning when preference masquerades as quality.",
+        "The Lob framework is a company's own coaching description, and structured mentor check-ins only help where both mentor and junior have time for them."
       ],
-      "statement": "[[JuniorEngineerLearning]] improves through questions, [[CodeReviewPractice]], mentor feedback, debugging traces, protected struggle, and value-sensitive [[WorkplaceCollaboration]] that separates standards and product impact from personal style pressure.",
+      "statement": "[[JuniorEngineerLearning]] improves through questions, [[CodeReviewPractice]], mentor feedback, debugging traces, protected struggle, structured check-ins such as the [[UnderstandDesignBuild]] steps that [[Lob]] offers its mentors, and value-sensitive [[WorkplaceCollaboration]] that separates standards and product impact from personal style pressure.",
       "status": "supported",
       "supporting_wikilinks": [
-        "JuniorEngineerLearning",
-        "CodeReviewPractice",
-        "TechCommunityParticipation",
-        "WorkplaceLearning",
         "ActiveLearning",
+        "CodeReviewPractice",
+        "JeanetteHead",
+        "JuniorEngineerLearning",
+        "Lob",
+        "TechCommunityParticipation",
+        "UnderstandDesignBuild",
         "WorkplaceCollaboration",
-        "JeanetteHead"
+        "WorkplaceLearning"
       ]
     },
     {
       "global_candidate": true,
       "id": "sustainable-delivery-needs-feedback-and-quality",
       "qualifications": [
-        "The small-team advice is context-sensitive: co-location, no pull requests, and minimal non-live environments fit best when trust, tests, pairing, observability, and release reversibility are already strong."
+        "The small-team advice is context-sensitive: co-location, no pull requests, and minimal non-live environments fit best when trust, tests, pairing, observability, and release reversibility are already strong.",
+        "The front-loaded-understanding sequence pulls against the deploy-early advice, and both are practitioner positions rather than measured comparisons."
       ],
-      "statement": "[[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments to live, protect [[InternalSoftwareQuality]] through tests and refactoring, and tune [[CodeReviewPractice]] to team trust and risk rather than treating ceremony as speed.",
+      "statement": "[[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments to live, protect [[InternalSoftwareQuality]] through tests and refactoring, and tune [[CodeReviewPractice]] to team trust and risk rather than treating ceremony as speed, while [[UnderstandDesignBuild]] argues that [[PrematureImplementation]] is avoided by understanding the business problem and comparing options through [[BenefitsRisksMitigations]] before committing.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AgileSoftwareDevelopment",
+        "BenefitsRisksMitigations",
+        "CodeReviewPractice",
         "ContinuousDelivery",
         "InternalSoftwareQuality",
-        "CodeReviewPractice"
+        "PrematureImplementation",
+        "UnderstandDesignBuild"
       ]
     },
     {
@@ -278,6 +285,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen eight boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; sustainable software speed depends on small feedback loops, low WIP, continuous delivery, and internal quality rather than ceremony or big-bang release planning; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load. Wheeler adds that open-source work can develop skill, reputation, and community participation, but only stays healthy when maintainers choose it deliberately and protect personal time from unpaid support burdens.",
+  "summary": "Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. Recent additions strengthen eight boundaries: engineering career architecture should make promotion expectations explicit without reducing craft to checklist completion; prolific practice improves craft through repeated small making rather than abstract preparation alone; remote work needs trust, rituals, communication, tooling, and periodic presence rather than location freedom alone; meetings and senior reviews should protect attention and presenter agency; internal market incentives can make opportunity cost visible while creating pressure and short-termism; sustainable software speed depends on small feedback loops, low WIP, continuous delivery, and internal quality rather than ceremony or big-bang release planning; AI can accelerate bounded work only when humans preserve skill-forming struggle, inspection, and ownership; and infrastructure work matters when it preserves real user outcomes under load. Wheeler adds that open-source work can develop skill, reputation, and community participation, but only stays healthy when maintainers choose it deliberately and protect personal time from unpaid support burdens. The newest Lob engineering source contributes the delivery-side discipline: [[UnderstandDesignBuild]] orders problem understanding, [[BenefitsRisksMitigations]] comparison, and building, [[PrematureImplementation]] names the failure that ordering prevents, and step-by-step mentor check-ins make a junior's reasoning visible to the people supporting [[JuniorEngineerLearning]].",
   "topic_id": "work-education-and-society"
 }

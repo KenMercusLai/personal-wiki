@@ -2058,6 +2058,10 @@ Ingested `/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Ev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | Understand, Design, Build: A Framework for Problem-Solving
+
+Added Lob's 2019 engineering-blog framework. Key claims: the job is to find and solve problems that move the business rather than to write code; most project failure and 2x-10x overruns come from implementing before the business problem and existing technical landscape are understood; understanding caches context locally and avoids interrupts and wrong-solution builds; and design means comparing several approaches by benefits, risks, and mitigations before building becomes the easy step. Created [[UnderstandDesignBuild]], [[PrematureImplementation]], [[BenefitsRisksMitigations]], and [[Lob]]; updated [[AttentionManagement]], [[JuniorEngineerLearning]], and [[EngineeringLedOrganizationDesign]]. The framework's preference for up-front understanding sits in tension with the wiki's [[ContinuousDelivery]] and go-fast material, though both target rework. The source's only image reference is a remote header screenshot on wp.lob.com; DNS resolution is unavailable in this environment, so the image could not be opened and only the prose was ingested.
+
 ## [2026-09-17] ingest | Y Combinator CEO: If You Are Not Drowning in Demand, You Don't Have Product-Market Fit
 
 Added Michael Seibel's Capital & Growth AMA. Key claims: product-market fit means demand that outruns the team's capacity to serve it, the main YC failure mode is believing fit has been reached and scaling on that belief, and YC screens applications for unclear communication, missing technical founders, and slow accomplishment. Created [[MichaelSeibel]], [[ProblemPersistence]], [[FounderTechnicalCapability]], and [[StartupExecutionSpeed]]; updated [[YCombinator]], [[ProductMarketFit]], [[OutsourcedProductDevelopment]], and [[StartupFailurePatterns]]. The source's categorical rejection of contract developers contradicts the wiki's bounded-outsourcing advice. No image references were present in the source.
@@ -2588,5 +2592,9 @@ Ran lint. See lint-report.md for details.
 Ran lint. See lint-report.md for details.
 
 ## [2026-09-15] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

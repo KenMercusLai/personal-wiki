@@ -4,17 +4,27 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-17
-as_of_overview_commit: 85debe48e68badcbc3c316a1ea9570282e69e509
-input_digest: 764b906befc57b910b85249dd26e4dd382410b6fd766f89da8b9ab6596cf4bd4
+as_of_overview_commit: af18edba53cef1c0ede38e06fb05392f9a37b7fc
+input_digest: 630442f6f93cdfe5d4f71f582a17644f790ce5fda3be68834dba4d309ee6c633
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales.
 
 ## Cross-source Findings
+
+### Engineering Practice Frameworks Encode Delivery Discipline
+
+[[Lob]] and [[EngineeringLedOrganizationDesign]] show organizations treating engineering practice itself as a designed, teachable system: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison so that delivery decisions stay with the engineers doing the work.
+
+**Evidence:** [[Lob]], [[EngineeringLedOrganizationDesign]], [[UnderstandDesignBuild]], [[BenefitsRisksMitigations]]
+
+**Qualifications:**
+
+- The evidence is one company's own 2019 engineering-blog write-up plus a practitioner conference summary, so the claimed outcomes are self-reported rather than measured across teams.
 
 ### Pmf Means Demand Outruns Capacity
 

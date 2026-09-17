@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-17
-as_of_overview_commit: 85debe48e68badcbc3c316a1ea9570282e69e509
+as_of_overview_commit: af18edba53cef1c0ede38e06fb05392f9a37b7fc
 summary: "The wiki maps how technical systems, markets, institutions, work, learning, and personal judgment turn constraints into reusable practices for trust, change, and decision quality."
-episode_count: 322
-source_count: 322
-paragraph_count: 271
+episode_count: 323
+source_count: 323
+paragraph_count: 272
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ AI and technology sources frame durable technical progress as socio-technical pr
 
 ### Business and Markets
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, growth only matters when it preserves retained value, and history should be filtered for repeatable lessons rather than copied as non-repeatable context. The newest source adds the corpus's strictest product-market-fit test, demand that outruns the team's capacity to serve, together with the accelerator selection signals around technical founders, speed, commitment, problem persistence, and founder disputes.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, growth only matters when it preserves retained value, and history should be filtered for repeatable lessons rather than copied as non-repeatable context. The newest sources add the corpus's strictest product-market-fit test, demand that outruns the team's capacity to serve, together with the accelerator selection signals around technical founders, speed, commitment, and problem persistence, plus an engineering-design layer where [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] keep delivery decisions with the engineers doing the work as the company scales.
 
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
@@ -81,7 +81,7 @@ Science, health, and climate remains mostly indirect: it contains source-scoped 
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems needing feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design.
+Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems needing feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. The newest delivery-side source adds an ordering discipline: [[UnderstandDesignBuild]] puts problem understanding and [[BenefitsRisksMitigations]] comparison before building, [[PrematureImplementation]] names the cost of skipping that first step, and mentor check-ins make a junior's reasoning visible to the people supporting it.
 
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].

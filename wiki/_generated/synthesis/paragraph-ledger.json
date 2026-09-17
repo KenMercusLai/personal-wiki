@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5cd3283f7aa960be3c5bbac5c1cb6010634f18d4482736adc98a5fc3341bfc81",
       "7b95feb3369b58352587d43478bb72be3acf1cf482c668f061f48a22e34ddf0c",
       "a98b48e55da33fdcdaab004250da51142e93a73f69a558a206263d2a4376a0f8",
       "bff5a9b6b67584a88cb5fc0a2ad7d79b4666d557c2f401b7297ec98924978df2",
@@ -273,11 +274,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 271
+    "paragraph_count": 272
   },
-  "overview_commit": "85debe48e68badcbc3c316a1ea9570282e69e509",
-  "overview_digest": "c8274c8e10e8aabf79918f90844372f55f2a5121dfac854966a6c01f86004b54",
+  "overview_commit": "af18edba53cef1c0ede38e06fb05392f9a37b7fc",
+  "overview_digest": "bd00c2389ebc713f8d55c526d6d92d035c6efd177d9e263cece6a7c1df4e962f",
   "paragraphs": [
+    {
+      "id": "5cd3283f7aa960be3c5bbac5c1cb6010634f18d4482736adc98a5fc3341bfc81",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Lob engineering source adds [[UnderstandDesignBuild]] to the wiki's software-practice material. Its premise is that the job is to find and solve problems that move the business, and its sequence is to understand the business outcome, the blocker, and the existing technical landscape, compare approaches through [[BenefitsRisksMitigations]], and only then build. The article names [[PrematureImplementation]] as the failure mode behind projects that fail or take 2x to 10x too long: skipping the Understand step produces interrupts and deliverables that do not solve the problem. That interrupt claim strengthens [[AttentionManagement]] with an implementation-side cost, while the mentoring use of step-by-step check-ins feeds [[JuniorEngineerLearning]] and the delivery loop mirrors [[EngineeringLedOrganizationDesign]]. [[Lob]] enters the wiki as a case of a company publishing its own coaching framework to keep decisions with engineers as its teams double in size. The framework sits in deliberate tension with the corpus's [[ContinuousDelivery]] and go-fast material: both target rework, but one front-loads understanding where the other front-loads deployed feedback.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "BenefitsRisksMitigations",
+        "ContinuousDelivery",
+        "EngineeringLedOrganizationDesign",
+        "JuniorEngineerLearning",
+        "Lob",
+        "PrematureImplementation",
+        "UnderstandDesignBuild"
+      ]
+    },
     {
       "id": "7b95feb3369b58352587d43478bb72be3acf1cf482c668f061f48a22e34ddf0c",
       "primary_topic": "business-and-markets",
