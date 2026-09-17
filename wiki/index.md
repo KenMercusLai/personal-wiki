@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [I have an idea for a startup, but there's already a well funded startup with a related idea, what should I do?](sources/yash-gandhi-startup-idea-well-funded-competitor-quora.md) - Yash Gandhi answers that a funded competitor validates the market rather than closing it, argues that implementation and service matter more than the idea, and cites Ola, Flipkart, Google, and Quora as entrants that started anyway.
 - [Understanding your Circle of Competence: How Warren Buffett Avoids Problems](sources/understanding-your-circle-of-competence-farnam-street.md) - Farnam Street uses Buffett's 1996 shareholder letter, a furniture-store manager, and Munger's life advice to argue that knowing the boundary of what you understand matters more than the size of the circle.
 - [WTF is a funding round?](sources/wtf-is-a-funding-round-techcrunch.md) - TechCrunch explains funding rounds as ownership exchanges rather than loans, covering valuation, high-valuation risk, employee equity and secondary sales, seed-versus-lettered stages, angel-versus-VC capital, LP-backed venture funds, use of funds, fundraising cadence, investor access, and startup failure rates.
 - [How LLM Agents Became What They Look Like in 2026?](sources/yan-li-how-llm-agents-became-what-they-look-like-in-2026.md) - Yan Li traces LLM agents from structured output and tool calling through MCP to bash, filesystems, and the OS, argues MCP is over-engineered, and expects file-based agent-skills to be adopted more widely.
@@ -336,6 +337,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Ola](entities/Ola.md) - Ride-hailing company cited as an entrant that started despite Uber already being established.
+- [Flipkart](entities/Flipkart.md) - Ecommerce company cited as an entrant that started despite Amazon already holding the online-retail market.
+- [Yash Gandhi](entities/YashGandhi.md) - Quora author arguing that implementation, not the idea, decides whether a startup competing with a funded incumbent succeeds.
 - [Charlie Munger](entities/CharlieMunger.md) - Quoted investor who extends the circle of competence into a life strategy: find your aptitudes and play where you have an edge.
 - [Farnam Street](entities/FarnamStreet.md) - Blog whose 2013 mental-models essay supplies the wiki's account of the circle of competence.
 - [Yan Li](entities/YanLi.md) - Author of a staged history of LLM agent architecture who argues for a general OS layer over protocol-specific tool integrations.
@@ -827,7 +831,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sam Altman](entities/SamAltman.md) - Startup advisor cited for hiring slowly before product-market fit.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
-- [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer.
+- [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer, and the incumbent that later entrants in search and question-and-answer started against.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
 - [Slack](entities/Slack.md) - Collaboration software used as an equity hindsight, viral invitation, landing-page value-proposition, and advanced attribution-measurement example.
 - [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
@@ -851,7 +855,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, and startup metrics checklists.
 - [Fred Wilson](entities/FredWilson.md) - Investor-author of the AVC essay arguing that active investing requires concentrated time, energy, intellect, and influence.
 - [AVC](entities/AVC.md) - Publication context for Fred Wilson's active-versus-passive investing framework.
-- [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods.
+- [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
 - [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, founder pitching, creator-economy dynamics, career-option planning, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
@@ -1132,6 +1136,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
 - [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.
 - [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event that is repaid only through an exit, staged as seed and lettered rounds, and sized to accelerate growth.
 - [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round, rests on future expectations in early stages, and creates downside when a later exit is smaller.

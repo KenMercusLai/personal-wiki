@@ -2650,3 +2650,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-17] ingest | I have an idea for a startup, but there's already a well funded startup with a related idea, what should I do?
+
+Added Yash Gandhi's Quora answer on starting against a well-funded competitor. Key claims: a funded rival validates demand rather than closing the market, implementation and effort decide the outcome more than the idea, not starting is framed as having failed already, and Ola, Flipkart, Google, and Quora are cited as entrants against Uber, Amazon, Yahoo's search engine, and Yahoo's question-and-answer audience. Created IdeaVersusExecution, Ola, Flipkart, and YashGandhi pages and extended IncumbentShadowAdvantage, Yahoo, and Quora. No image references were present in the source Markdown.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
