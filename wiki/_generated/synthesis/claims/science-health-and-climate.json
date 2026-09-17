@@ -63,8 +63,25 @@
         "DavidRobinson",
         "Android"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "language-model-behaviour-frames-a-scientific-thesis",
+      "qualifications": [
+        "The essay is a machine-learning explanation whose central thesis the author presents as inference from a working system, so it belongs here only as a source-scoped framing claim about how science might describe language."
+      ],
+      "statement": "The newest source reaches this topic through its scientific framing rather than through natural-science results: [[StephenWolfram]] argues from the behaviour of [[ChatGPT]] and [[NeuralNetwork]] that ordinary language may be more law-like and computationally shallower than assumed, while [[ComputationalIrreducibility]] still bounds what can be learned as patterns - a claim about explanation and modelling rather than a health, climate, or empirical finding.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "StephenWolfram",
+        "ChatGPT",
+        "NeuralNetwork",
+        "ComputationalIrreducibility",
+        "SemanticGrammar",
+        "ComputationalLanguage"
+      ]
     }
   ],
-  "summary": "The topic remains mostly indirect. It now includes a beginner scientific-computing claim that NumPy makes Python practical for vector, matrix, slicing, masking, and vectorized array work; an attention and mental-load claim from productivity advice; a philosophy-of-science claim that current science does not settle intrinsic value; and a developer-data claim that data-science technology adoption may reflect research capacity and market structure. These claims are source-scoped because the evidence comes from tutorials, essays, and 2017 English-language Stack Overflow traffic rather than comprehensive scientific, employment, or adoption measurements.",
+  "summary": "The topic remains mostly indirect. It now includes a beginner scientific-computing claim that NumPy makes Python practical for vector, matrix, slicing, masking, and vectorized array work; an attention and mental-load claim from productivity advice; a philosophy-of-science claim that current science does not settle intrinsic value; a developer-data claim that data-science technology adoption marks market structure and research capacity rather than just language preference; and a source-scoped framing claim from an AI explainer that language may be more law-like than assumed while irreducible computation still bounds what can be learned from data.",
   "topic_id": "science-health-and-climate"
 }

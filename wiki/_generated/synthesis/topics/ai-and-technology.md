@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-17
-as_of_overview_commit: 54db636296634323d648294ed4ec05dcf264f95f
-input_digest: bee5a2e50426179a74f23b990a7f699b484e8ddb04157922c80cd2a4d3ca9eee
+as_of_overview_commit: 23c8de79aacb30fb4e8aeedc909829913fe04256
+input_digest: 788f1cdca78e63932d519805dcab8e3f737e70467b5263383e6b9c227feb01c2
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration. The newest agent-architecture source adds a staged layer and a deployment constraint: structured output, tool calling, and [[ModelContextProtocol]] standardize and run tools, while [[BashAsMetaTool]] and [[AgentFilesystem]] move the endpoint to a general OS layer and file-based [[LLMToolingSkills]] can carry prompts, scripts, and binaries without a runtime of their own; [[AgentDeploymentTradeoffs]] then bounds deployment by latency, reproducibility, privacy and cost, and unmet browser and computer-use demand. One adjacent media source adds the content-supply version of the same automation question: [[AutomatedContentFarming]] turns other outlets' reporting into machine-voiced video published at volume and monetized per view, so cheap generation changes who is paid for content and how much enforcement the platform owes.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration. The newest agent-architecture source adds a staged layer and a deployment constraint: structured output, tool calling, and [[ModelContextProtocol]] standardize and run tools, while [[BashAsMetaTool]] and [[AgentFilesystem]] move the endpoint to a general OS layer and file-based [[LLMToolingSkills]] can carry prompts, scripts, and binaries without a runtime of their own; [[AgentDeploymentTradeoffs]] then bounds deployment by latency, reproducibility, privacy and cost, and unmet browser and computer-use demand. One adjacent media source adds the content-supply version of the same automation question: [[AutomatedContentFarming]] turns other outlets' reporting into machine-voiced video published at volume and monetized per view, so cheap generation changes who is paid for content and how much enforcement the platform owes. The newest source supplies the mechanism underneath this material: [[ChatGPT]] is a next-token predictor, the probability it samples with [[TextGenerationSampling]] comes from learned [[Embeddings]] transformed by attention, and its feed-forward structure leaves deep computation to external tools.
 
 ## Cross-source Findings
 
@@ -78,6 +78,7 @@ Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]],
 - Carlini's productivity examples are strongest for bounded tasks whose outputs the user can inspect, test, correct, or discard.
 - Antirez's stronger adoption claim narrows the caution: refusing AI outright can be a career risk, but automation still depends on human problem framing, review, and ownership.
 - Guangzhengli's naming distinction narrows pure vibe coding to no-review, result-steered work and treats maintainable AI programming as context coding.
+- The mechanism source adds a structural version of the same caution: a feed-forward next-token model produces text that sounds right rather than text that has been computed, so verification and tool use remain the boundary.
 
 ### Automation Can Industrialize Media Production
 
@@ -170,3 +171,36 @@ Where agents fit depends on deployment tradeoffs as much as on capability: the n
 **Qualifications:**
 
 - The latency threshold is an asserted heuristic rather than a measured product requirement, and the tradeoff list omits evaluation, safety, permissioning, and integration cost that other sources treat as first-order agent concerns.
+
+### Language Models Are Next Token Predictors With Measurable Mechanics
+
+[[ChatGPT]] works as a next-token predictor, and the newest source makes the mechanism explicit: a [[GPT3]] network of about 175 billion weights embeds the token sequence, passes it through 96 [[AttentionMechanism|attention]] blocks, and decodes the last embedding into probabilities over roughly 50,000 tokens, with [[TextGenerationSampling]] around temperature 0.8 for essay generation because always taking the top token tends to repeat, and with a post-training human-feedback stage that supplies much of the assistant's usefulness; [[TransformerArchitecture]], [[NeuralNetworkTraining]], and [[NaturalLanguageGeneration]] name the parts of that pipeline.
+
+**Evidence:** [[ChatGPT]], [[GPT3]], [[AttentionMechanism]], [[TextGenerationSampling]], [[TransformerArchitecture]], [[NeuralNetworkTraining]], [[NaturalLanguageGeneration]], [[OpenAI]]
+
+**Qualifications:**
+
+- The weights, block counts, head counts, and token inventory describe an early-2023 GPT-3-class system and should not be read as current model documentation.
+- The source is an explainer by an interested party and states that no theory explains why the architecture works as well as it does.
+
+### Language Is Computationally Shallower Than Assumed
+
+The newest source's scientific claim is that ordinary language and the thinking behind it are computationally shallower and more law-like than assumed: because a [[NeuralNetwork]] pass is feed-forward and [[ComputationalIrreducibility]] bounds what can be absorbed as regularities, [[ChatGPT]] reproduces shallow patterns rather than performing deep computation, which makes explicit [[SemanticGrammar]] and [[ComputationalLanguage]] a research proposal and points to [[WolframAlpha]] and [[WolframLanguage]] for the computation a model cannot do itself.
+
+**Evidence:** [[NeuralNetwork]], [[ComputationalIrreducibility]], [[ChatGPT]], [[SemanticGrammar]], [[ComputationalLanguage]], [[WolframAlpha]], [[WolframLanguage]], [[StephenWolfram]], [[MeaningSpace]]
+
+**Qualifications:**
+
+- The thesis is an inference from a working system rather than a measurement, and the essay presents the underlying regularities as something still to be discovered.
+- The computational-tool and language recommendations come from the essay's author, who built the products being recommended.
+
+### Sequence Probabilities Must Be Estimated Not Counted
+
+Long-sequence language probabilities cannot be counted: with about 40,000 common English words there are 1.6 billion possible 2-grams and 60 trillion 3-grams, so [[NGramLanguageModel]] statistics motivate but cannot produce essay-length text, and the alternative is a learned model whose [[Embeddings]] come from intercepting a network trained on a concrete task - images from a digit recognizer, words from a fill-in-the-blank predictor - as described for [[LanguageModeling]] and [[NeuralLanguageModel]].
+
+**Evidence:** [[NGramLanguageModel]], [[StatisticalLanguageModel]], [[Embeddings]], [[LanguageModeling]], [[NeuralLanguageModel]], [[MeaningSpace]]
+
+**Qualifications:**
+
+- The word and n-gram counts are rounded illustrations rather than corpus measurements, and the source does not discuss smoothing, backoff, or interpolation.
+- The embedding demonstrations are small reference-model projections, so they evidence the method rather than production embedding quality.

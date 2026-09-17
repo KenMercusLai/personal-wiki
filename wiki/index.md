@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [What Is ChatGPT Doing … and Why Does It Work?](sources/what-is-chatgpt-doing-and-why-does-it-work.md) - Stephen Wolfram explains ChatGPT as a next-token predictor, building from n-gram counting and neural-net training to embeddings, attention, and the claim that language is more law-like than assumed.
 - [Yesterday's Failures Are Today's Successes](sources/yesterdays-failures-are-todays-successes-learning-by-shipping.md) - Steven Sinofsky argues that dot-com-era ideas returned as successful startups once the enabling foundation matured, listing mobile compute, battery, touch, bandwidth, location, identity, storage, payments, and sharing culture, and defining execution as the full product, price, place, and promotion mix.
 - [Unethical growth hacks: A look into the growing Youtube news bot epidemic](sources/unethical-growth-hacks-youtube-news-bot-epidemic.md) - A HackerNoon writer traces automated YouTube channels that turn stolen BBC, ABC, and Reuters reporting into monetized news videos, estimates their view and ad economics, and argues Google barely enforces against the practice while its search results favor video.
 - [The Boring Technology Behind a One-Person Internet Company](sources/wenbin-fang-the-boring-technology-behind-a-one-person-internet-company.md) - Wenbin Fang describes running Listen Notes as a one-person internet company on a deliberately boring Django, PostgreSQL, Redis, and Elasticsearch stack, with Ansible, a small deploy script, rented SaaS, over-provisioned AWS servers, and a closing argument that overthinking is the real barrier to shipping.
@@ -340,6 +341,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Stephen Wolfram](entities/StephenWolfram.md) - Scientist-entrepreneur and author who explains ChatGPT from first principles and argues its success points to explicit laws of language.
+- [Wolfram Language](entities/WolframLanguage.md) - Computational language used for every example in the ChatGPT essay and proposed as the precise symbolic medium for a future discourse language.
+- [WolframAlpha](entities/WolframAlpha.md) - Computational knowledge engine proposed as the external tool a language model needs when a task requires real computation.
+- [GPT-3](entities/GPT3.md) - The 175-billion-weight transformer network the essay identifies behind ChatGPT, with 96 attention blocks and 12,288-number embeddings.
 - [Listen Notes](entities/ListenNotes.md) - One-person podcast search engine and database running a listener site and a developer API on a boring, over-provisioned AWS stack.
 - [Wenbin Fang](entities/WenbinFang.md) - Founder-operator who runs Listen Notes alone and argues for boring technology, rented capability, and acting before overthinking.
 - [Ola](entities/Ola.md) - Ride-hailing company cited as an entrant that started despite Uber already being established.
@@ -1141,6 +1146,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Neural Network](concepts/NeuralNetwork.md) - Layered weighted units whose composition computes a fitted mathematical function, with attractor basins, learned internal features, and capacity that depends on the task.
+- [Neural Network Training](concepts/NeuralNetworkTraining.md) - The loop of examples, loss, and weight updates that fits a network, including data acquisition, epochs, augmentation, hyperparameters, and GPU-bound scaling.
+- [Transformer Architecture](concepts/TransformerArchitecture.md) - Embedding module plus stacked attention blocks and a decode step to next-token probabilities, scaled through embedding width, block count, and head count.
+- [Attention Mechanism](concepts/AttentionMechanism.md) - The transformer's look-back weighting that lets each position draw on earlier tokens, with nested-structure successes and parenthesis-matching limits.
+- [Meaning Space](concepts/MeaningSpace.md) - The geometric picture in which text is a point in an embedding space, a continuation is a trajectory, and probable next words fan out in a direction.
+- [Computational Irreducibility](concepts/ComputationalIrreducibility.md) - The property of processes whose outcome requires tracing every step, used to bound what training can absorb and explain why models need external tools.
+- [Semantic Grammar](concepts/SemanticGrammar.md) - Proposed rules about how meaningful units combine, finer than syntax, resting on a model of the world and generalizing logic's small corner of meaning.
+- [Computational Language](concepts/ComputationalLanguage.md) - A precise, executable symbolic representation that can talk about the world, requiring an ontology and expected to compress what ordinary language says with turns of phrase.
+- [Text Generation Sampling](concepts/TextGenerationSampling.md) - The rule that turns a next-token probability list into text, from deterministic greedy decoding to temperature-based sampling of lower-ranked tokens.
 - [Boring Technology](concepts/BoringTechnology.md) - Practice of choosing mature, well-understood tools over fashionable ones so a small operator's attention goes to the product rather than the stack.
 - [Overthinking as a Barrier](concepts/OverthinkingAsBarrier.md) - Claim that deliberation and premature optimization, not missing tools or skill, are the usual obstacle between a builder and a shipped product.
 - [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
