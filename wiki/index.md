@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Unethical growth hacks: A look into the growing Youtube news bot epidemic](sources/unethical-growth-hacks-youtube-news-bot-epidemic.md) - A HackerNoon writer traces automated YouTube channels that turn stolen BBC, ABC, and Reuters reporting into monetized news videos, estimates their view and ad economics, and argues Google barely enforces against the practice while its search results favor video.
 - [The Boring Technology Behind a One-Person Internet Company](sources/wenbin-fang-the-boring-technology-behind-a-one-person-internet-company.md) - Wenbin Fang describes running Listen Notes as a one-person internet company on a deliberately boring Django, PostgreSQL, Redis, and Elasticsearch stack, with Ansible, a small deploy script, rented SaaS, over-provisioned AWS servers, and a closing argument that overthinking is the real barrier to shipping.
 - [I have an idea for a startup, but there's already a well funded startup with a related idea, what should I do?](sources/yash-gandhi-startup-idea-well-funded-competitor-quora.md) - Yash Gandhi answers that a funded competitor validates the market rather than closing it, argues that implementation and service matter more than the idea, and cites Ola, Flipkart, Google, and Quora as entrants that started anyway.
 - [Understanding your Circle of Competence: How Warren Buffett Avoids Problems](sources/understanding-your-circle-of-competence-farnam-street.md) - Farnam Street uses Buffett's 1996 shareholder letter, a furniture-store manager, and Munger's life advice to argue that knowing the boundary of what you understand matters more than the size of the circle.
@@ -1846,5 +1847,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [VO2 Max](concepts/VO2Max.md) - Maximum oxygen uptake metric used to connect cardiovascular fitness, age-related decline, and later-life activity capacity.
 - [Cardiorespiratory Fitness](concepts/CardiorespiratoryFitness.md) - Aerobic capacity frame in which higher fitness creates more reserve for future activities such as stair climbing.
 - [VPLS](concepts/VPLS.md) - Multipoint Ethernet L2VPN service whose IOS XR passthrough mode does not insert dummy VLAN tags in the source.
+- [Automated Content Farming](concepts/AutomatedContentFarming.md) - Programmatic harvesting of third-party articles and images into high-volume, ad-monetized content on a distribution platform.
 
 ## Syntheses

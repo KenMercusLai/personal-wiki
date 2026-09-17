@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a23c9f121fcf4949ea7d808e928dfc26bd0dc56fe5478840b24e0c2239547523",
       "2b9ff904c7b4794067655814660f81d6e7f08406ce9708b93619d3522c4b0a8a",
       "2dd6e27e7b66787ebfde1803d87afd3d944a2bdf3c4b3f6e4543496403b5e2c6",
       "1641a2703d5cca1659821d0f32395d6fd93d06bb46090c6e9312d35c75ac3a5d",
@@ -280,11 +281,33 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 278
+    "paragraph_count": 279
   },
-  "overview_commit": "b989190ad8ef4b6faee1c14a4743e6a424cc3433",
-  "overview_digest": "a117082c54d8c20f88d6528fb59af08190f2f63ae53136208ec500f15ce29faa",
+  "overview_commit": "54db636296634323d648294ed4ec05dcf264f95f",
+  "overview_digest": "ae0ca58de321873b7d83dc13ce3cf7d1721867d466792fd912b69349c71a3ed1",
   "paragraphs": [
+    {
+      "id": "a23c9f121fcf4949ea7d808e928dfc26bd0dc56fe5478840b24e0c2239547523",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The newest HackerNoon source adds [[AutomatedContentFarming]] to the wiki's media and platform material: scripts convert BBC, ABC, and Reuters reporting into machine-voiced videos with floating low-quality images, publish them every few minutes across many [[YouTube]] channels, and collect advertising that [[Google]] displays and shares revenue on. Its economics are per-view rather than per-work - roughly $1 to $20 per 1,000 views with about $7 as a cited average, more than 225,000 views in a month for one channel, and an estimated $3,000 over about two months - which extends [[WebAdEconomics]] and [[PlatformPublisherRevenue]] with the adversarial case where a costless copy of a publisher's reporting competes for the same money inside the platform's own system. The article's enforcement claim, that the platform does almost nothing while the original writers receive no payment or credit, extends [[PlatformAbuseResponse]] from harassment toward industrial-scale integrity abuse, and its forecast is that cheaper and faster AI raises the supply of such material rather than solving it. The figures are the author's own estimates and the account follows up on none of the named channels, so it evidences the incentive structure more strongly than the scale of harm.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AutomatedContentFarming",
+        "Google",
+        "PlatformAbuseResponse",
+        "PlatformPublisherRevenue",
+        "WebAdEconomics",
+        "YouTube"
+      ]
+    },
     {
       "id": "2b9ff904c7b4794067655814660f81d6e7f08406ce9708b93619d3522c4b0a8a",
       "primary_topic": "business-and-markets",

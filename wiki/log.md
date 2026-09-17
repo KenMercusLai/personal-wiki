@@ -2597,7 +2597,7 @@ Ran lint. See lint-report.md for details.
 
 ## [2026-09-17] lint | Wiki health check
 
-Ran lint. See lint-report.md for details.
+Ran lint over 1838 pages. Deterministic checks clean (0 orphans, 0 broken wikilinks, 0 missing entity pages, 0 sparse pages), 0 hub stubs, 0 isolated communities, 0 phantom hubs, 13 fragile bridges. Reported separately: lint.py's orphan check counts self-links, hiding 5 real orphans (MikeCohn, DerekSivers, WilliamWake, MichaelPorter, NotebookLM); 311 pages carry 699 source-note links that are absent from their frontmatter sources list, largest for Google, SoftwareVerification, CustomerLedProductDevelopment, and PersonalProductivity. Semantic checks (contradictions, stale content, data gaps) could not run: no provider-qualified LLM_MODEL or API key is configured. Report not saved to wiki/lint-report.md.
 
 ## [2026-09-17] ingest | The Boring Technology Behind a One-Person Internet Company
 
@@ -2666,3 +2666,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-17] ingest | Unethical growth hacks: A look into the growing Youtube news bot epidemic
+
+Added a HackerNoon account of automated YouTube news channels. Key claims: scripts convert recent BBC, ABC, and Reuters reporting into machine-voiced videos with floating low-quality images, publishing every few minutes; the material is used without payment, licence, or credit; the economics rest on volume, with an estimated $1-$20 per 1,000 views, roughly $3,000 for the featured channel over two months, more than 225,000 views in a month, and one video near 50,000 views in two days; video results are said to receive preferred treatment in Google search; and the author argues Google does almost nothing about it while predicting worse to come from AI. Created AutomatedContentFarming and extended WebAdEconomics, PlatformPublisherRevenue, PlatformAbuseResponse, YouTube, and Google. Image handling: the local Pixabay illustration was opened and is a decorative abstract montage with no evidential content; the HackerNoon story-image URL now returns an error page and the example video's YouTube thumbnail now returns YouTube's generic unavailable placeholder, so the article's example video could not be re-inspected.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-17] graph | Knowledge graph rebuilt
+
+Rebuilt during lint because graph.json predated the last ingests: 1838 nodes, 10292 edges (10292 extracted, 0 inferred). Graph health report generated from the same pass.

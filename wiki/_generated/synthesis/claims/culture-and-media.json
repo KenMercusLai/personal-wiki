@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "platform-publishing-can-reward-harvesting-over-authorship",
+      "qualifications": [
+        "The revenue figures come from one author's estimates over a debatable per-view range, and the source follows up on none of the named channels, so the claim evidences the incentive structure more strongly than the scale of automated harvesting."
+      ],
+      "statement": "[[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "AutomatedContentFarming",
+        "YouTube",
+        "Google",
+        "WebAdEconomics",
+        "PlatformPublisherRevenue",
+        "PlatformAbuseResponse"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "media-form-shapes-systematic-learning",
       "qualifications": [
         "The book-centered, speed-reading, and reading-note recommendations are qualitative and strongest for difficult systematic study or specific nonfiction reading workflows."
@@ -211,6 +228,6 @@
       ]
     }
   ],
-  "summary": "Culture and media sources treat media form as a behavior-shaping system: learning media, reading workflows, AI writing, game infrastructure, localization search, platform publishing, read-later tools, streaming culture, and object-oriented aesthetics all change how people create, encounter, preserve, and interpret cultural work. The chatbot material adds a communication-form warning: when software borrows the name and surface of human chat, [[ConversationalUI]] needs visible structure, calibrated scope, and honest category language so users understand whether they are meeting a true chat-first system such as [[Xiaoice]] or a constrained task workflow.",
+  "summary": "Culture and media sources treat media form as a behavior-shaping system: learning media, reading workflows, AI writing, game infrastructure, localization search, platform publishing, read-later tools, streaming culture, and object-oriented aesthetics all change how people create, encounter, preserve, and interpret cultural work. The newest account adds the adversarial version of platform publishing: [[AutomatedContentFarming]] turns other outlets' reporting into machine-voiced video at high volume, monetized per view by the platform instead of by the author, with enforcement as the open question. The chatbot material adds a communication-form warning: when software borrows the name and surface of human chat, [[ConversationalUI]] needs visible structure, calibrated scope, and honest category language so users understand whether they are meeting a true chat-first system such as [[Xiaoice]] or a constrained task workflow.",
   "topic_id": "culture-and-media"
 }
