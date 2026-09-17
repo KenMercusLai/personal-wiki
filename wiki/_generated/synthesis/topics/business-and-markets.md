@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-17
-as_of_overview_commit: af18edba53cef1c0ede38e06fb05392f9a37b7fc
-input_digest: 630442f6f93cdfe5d4f71f582a17644f790ce5fda3be68834dba4d309ee6c633
+as_of_overview_commit: ab77564940890c1b550745ace5e0395c06843c1c
+input_digest: 7f32069b74e39d449d97f9db8c12e3cdc54fe0577d809df0caa569c9e81e5033
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales. A design-side source adds the template layer: the Chamaileon tutorial separates email layout from structure, treats responsive HTML email as a nested table system of rows, columns, and container boxes, and shows how web-safe-font, image-blocking, and Outlook background limits push designers toward text alternatives, fallback colors, and HTML buttons that survive image blocking and go fluid on mobile, alongside per-device hiding and column reordering.
 
 ## Cross-source Findings
 
@@ -318,3 +318,13 @@ Business and markets sources frame companies as systems for converting scarce re
 **Qualifications:**
 
 - The McClure evidence is a simplified 2015 VC model and explicitly omits fees, reserves, follow-on strategy, deployment timing, recycling, and the operational cost of supporting hundreds of startups.
+
+### Email Design Operates Under Client Rendering Constraints
+
+[[EmailLayoutAndStructure]], [[EmailTableLayout]], [[EmailRenderingConstraints]], [[HTMLEmailButton]], and [[ResponsiveEmailDesign]] frame [[Chamaileon]]'s email-design tutorial as a constraint-driven composition problem: layout (look and feel) is separated from structure (element order), responsive HTML email is still a nested system of full-width rows, columns, and container boxes, and content must precede layout. Because clients render unevenly, the source limits styling to web-safe fonts, treats images as blockable, requires alt text and background fallbacks, prefers HTML buttons over image buttons, and lets rows and columns hide or reorder on smaller screens; it qualifies [[EmailMarketingAtScale]] and [[MobileEmailEngagement]] at the template-design level.
+
+**Evidence:** [[EmailLayoutAndStructure]], [[EmailTableLayout]], [[EmailRenderingConstraints]], [[HTMLEmailButton]], [[ResponsiveEmailDesign]], [[Chamaileon]], [[EmailMarketingAtScale]], [[MobileEmailEngagement]]
+
+**Qualifications:**
+
+- First-party 2016 vendor tutorial from Chamaileon, written by a self-described marketer; product-capability and client-support claims are source-scoped and may be outdated.

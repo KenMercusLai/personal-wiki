@@ -2599,9 +2599,29 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | Understanding Email Layout and Structure
+
+Added Chamaileon's 2016 email-design tutorial on how responsive HTML email templates are laid out and structured. New pages: the source note, concepts [[EmailLayoutAndStructure]], [[EmailTableLayout]], [[EmailRenderingConstraints]], [[HTMLEmailButton]], and [[ResponsiveEmailDesign]], and the entity [[Chamaileon]]. Updated [[Mailchimp]] with the source's example of a builder whose "single column" template actually contains multiple columns and whose editor offers built-in multi-column elements rather than fine-grained row and column control. Key claims: layout (look and feel) and structure (order of elements) are separate concerns; HTML email is still a nested-table system of full-width rows, columns, and container boxes that can be embedded in one another; content - goal, target audience, and copy - precedes layout; web-safe fonts, image blocking, Outlook background-image limits, and unsupported rounded or text-wrapped images constrain design; and HTML buttons beat image buttons because they survive image blocking and go fluid on mobile, with rows and columns able to hide or reorder on smaller screens. The remote lead image from chamaileon.io returned HTTP 403, and the worked-example illustrations are referenced in the prose but not embedded in the extracted Markdown, so no image evidence was used. No contradictions with existing pages were found; the source qualifies the wiki's [[MobileEmailEngagement]] and [[EmailMarketingAtScale]] material at the template-design level.
+
 ## [2026-09-17] ingest | Voice and the uncanny valley of AI
 
 Ingested Benedict Evans' 2017 essay on the voice-assistant boom. New pages: the source note and [[UncannyValleyOfAI]]. Updated [[VoiceAssistantUX]] with the hand-built dialogue-box coverage limit, the U-shaped command-discoverability curve, the screen fallback, and the habit/mental-model prerequisite; updated [[BenedictEvans]] and [[AmazonEcho]]. Key claims: voice input works while back-end intent execution does not scale without general AI; narrow, predictable domains plus explicit expectation setting decide whether a voice product feels good; and better technology produced a worse experience at first. The source contained no effective image references.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-17] graph | Knowledge graph rebuilt
+
+1811 nodes, 10018 edges (10018 extracted, 0 inferred).
+
+## [2026-09-17] report | Graph health report generated
+
+1811 nodes analyzed.
 
 ## [2026-09-17] lint | Wiki health check
 

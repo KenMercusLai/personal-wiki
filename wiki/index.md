@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Understanding Email Layout and Structure](sources/understanding-email-layout-and-structure.md) - Chamaileon's tutorial separates an email's layout from its structure, documents the table, row, column, and box model of responsive HTML email, and recommends web-safe fonts and HTML buttons over image-based ones.
 - [Voice and the uncanny valley of AI](sources/voice-and-the-uncanny-valley-of-ai-benedict-evans.md) - Benedict Evans argues that voice input finally works but the hand-built back-end dialogue boxes do not scale, that users cannot remember what they may ask, and that better voice technology produced a worse experience at first.
 - [Understand, Design, Build: A Framework for Problem-Solving](sources/understand-design-build-a-framework-for-problem-solving-lob-blog.md) - Lob argues that engineers solve business problems rather than write code, and that understanding the problem and comparing approaches before building prevents interrupts, rework, and 2x-10x schedule overruns.
 - [Y Combinator CEO: If You Are Not Drowning in Demand, You Don't Have Product-Market Fit](sources/y-combinator-ceo-if-you-are-not-drowning-in-demand-you-dont-have-product-market-fit-capital-growth-blog.md) - Michael Seibel argues that product-market fit means demand that overwhelms capacity, that YC companies fail by presuming fit, and that technical founders, speed, commitment, and problem persistence are non-negotiable.
@@ -332,6 +333,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Chamaileon](entities/Chamaileon.md) - Drag-and-drop email-builder product whose tutorial supplies the wiki's account of email layout, structure, and rendering constraints.
 - [Lob](entities/Lob.md) - Company whose engineering blog published the Understand, Design, Build framework and uses it to mentor new engineers and decentralize decisions while scaling.
 - [Michael Seibel](entities/MichaelSeibel.md) - YC Core CEO and founder-operator behind Twitch and SocialCam, whose AMA defines product-market fit as drowning in demand.
 - [Jason Zweig](entities/JasonZweig.md) - Investing writer quoted on the danger of learning narrow post-crash lessons that leave speculative behavior intact.
@@ -1124,6 +1126,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Email Layout and Structure](concepts/EmailLayoutAndStructure.md) - Distinction between an email's layout and its structure, plus the building blocks from which templates are assembled.
+- [Email Table Layout](concepts/EmailTableLayout.md) - Table, row, column, and container-box model used to build responsive HTML email.
+- [Email Rendering Constraints](concepts/EmailRenderingConstraints.md) - Cross-client limits on fonts, images, and backgrounds that shape email design.
+- [HTML Email Button](concepts/HTMLEmailButton.md) - Call-to-action control built from HTML rather than an image so it survives image blocking and scales on mobile.
+- [Responsive Email Design](concepts/ResponsiveEmailDesign.md) - Per-element hiding, column reordering, and fluid elements that adapt one template across devices.
 - [Uncanny Valley of AI](concepts/UncannyValleyOfAI.md) - Expectation-capability mismatch in AI products, where better realism or apparent generality makes the experience worse before coverage catches up.
 - [Understand, Design, Build](concepts/UnderstandDesignBuild.md) - Three-step problem-solving sequence of understanding the business problem and technical landscape, designing competing approaches, then building.
 - [Premature Implementation](concepts/PrematureImplementation.md) - Failure mode of building before the business problem and existing technical landscape are understood, producing needless interrupts and discarded work.
