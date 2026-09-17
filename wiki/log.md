@@ -2599,6 +2599,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | Understanding your Circle of Competence: How Warren Buffett Avoids Problems
+
+Ingested Farnam Street's 2013 essay on the circle of competence. New pages: the source note, the concept [[CircleOfCompetence]], and the entities [[CharlieMunger]] and [[FarnamStreet]]. Updated [[WarrenBuffett]] with the 1996 shareholder-letter rule that investors only need to evaluate companies inside their circle, the Mrs. B case of refusing to own stocks she did not understand, and the boundary-honesty instruction to never fool yourself about where the circle stands and never be afraid to say "I don't know". Key claims: the circle is knowledge built through experience or study, knowing its boundary matters more than its size, widening it happens only slowly, competence is domain-specific so deliberate abstention can coexist with success, a narrow circle buys focus, and Munger generalizes the model into a life question of finding your aptitudes and playing only where you have an edge. No contradictions were found with existing pages; the source qualifies the wiki's investing material by adding a problem-avoidance boundary rather than new performance evidence. The source's two image references both resolve to the same Farnam Street URL, which returned HTTP 404, so no image evidence could be inspected.
+
 ## [2026-09-17] ingest | WTF is a funding round?
 
 Ingested TechCrunch's 2020 explainer on startup funding rounds. New pages: the source note, concepts [[StartupFundingRound]], [[StartupValuation]], [[VentureCapitalFundStructure]], and [[AngelInvesting]]. Updated [[EmployeeEquityRisk]] with employee secondary offerings as a partial liquidity path and with the early-joiner, paper-until-exit framing, and updated [[SequoiaCapital]] with its role as a credibility signal that helps portfolio companies form partnerships and hire. Key claims: a round trades ownership rather than borrowing, so investors lose their money if the company fails and the startup does not repay it; equity is the default because young companies struggle to get bank loans, though loans are sometimes taken alongside funding and still must be repaid with interest; valuation is a negotiated bet that leans on estimated market size before revenue and on revenue, growth, and exit likelihood later, and a high valuation raises the bar so that a smaller later exit hurts late investors and recently hired employees; employee equity is worth most to early joiners but stays paper money until a liquidity event, with secondary offerings as a partial exception; rounds are stage-labeled from seed through Series A and beyond, with investors specializing by stage; VCs manage LP-backed funds with a typical ten-year life and exit-driven returns, keep a portion of the upside, and expect most portfolio companies to fail while the few winners cover the losses; proceeds fund growth through hiring, sales and marketing, and production; startups commonly raise every one to two years and often before the money is needed; and investor access depends on references and networks, with firm reputation such as Sequoia's helping with partnerships and hiring. Both image references resolve to the same decorative illustration of dollar bills arranged in a ring, which carries no evidence, measurements, or structure, so no image-derived information was added. No contradictions with existing pages beyond the qualifications recorded on the source note, which qualifies [[EmployeeEquityRisk]] and [[StartupEquityTransparency]] on secondary liquidity and reinforces [[StartupFailurePatterns]] and [[VentureCapitalPortfolioSizing]] on base rates.
@@ -2630,6 +2634,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] report | Graph health report generated
 
 1811 nodes analyzed.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-17] lint | Wiki health check
 

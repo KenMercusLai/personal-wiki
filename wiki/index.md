@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Understanding your Circle of Competence: How Warren Buffett Avoids Problems](sources/understanding-your-circle-of-competence-farnam-street.md) - Farnam Street uses Buffett's 1996 shareholder letter, a furniture-store manager, and Munger's life advice to argue that knowing the boundary of what you understand matters more than the size of the circle.
 - [WTF is a funding round?](sources/wtf-is-a-funding-round-techcrunch.md) - TechCrunch explains funding rounds as ownership exchanges rather than loans, covering valuation, high-valuation risk, employee equity and secondary sales, seed-versus-lettered stages, angel-versus-VC capital, LP-backed venture funds, use of funds, fundraising cadence, investor access, and startup failure rates.
 - [How LLM Agents Became What They Look Like in 2026?](sources/yan-li-how-llm-agents-became-what-they-look-like-in-2026.md) - Yan Li traces LLM agents from structured output and tool calling through MCP to bash, filesystems, and the OS, argues MCP is over-engineered, and expects file-based agent-skills to be adopted more widely.
 - [Understanding Email Layout and Structure](sources/understanding-email-layout-and-structure.md) - Chamaileon's tutorial separates an email's layout from its structure, documents the table, row, column, and box model of responsive HTML email, and recommends web-safe fonts and HTML buttons over image-based ones.
@@ -335,6 +336,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Charlie Munger](entities/CharlieMunger.md) - Quoted investor who extends the circle of competence into a life strategy: find your aptitudes and play where you have an edge.
+- [Farnam Street](entities/FarnamStreet.md) - Blog whose 2013 mental-models essay supplies the wiki's account of the circle of competence.
 - [Yan Li](entities/YanLi.md) - Author of a staged history of LLM agent architecture who argues for a general OS layer over protocol-specific tool integrations.
 - [Chamaileon](entities/Chamaileon.md) - Drag-and-drop email-builder product whose tutorial supplies the wiki's account of email layout, structure, and rendering constraints.
 - [Lob](entities/Lob.md) - Company whose engineering blog published the Understand, Design, Build framework and uses it to mentor new engineers and decentralize decisions while scaling.
@@ -602,7 +605,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
 - [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, business strategy, psychology, optionality, and behavioral risk judgment.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and venture-firm context for Morgan Housel essays on timeless strategy and behavioral financial judgment.
-- [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage.
+- [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage and for staying inside a defined circle of competence.
 - [GEICO](entities/GEICO.md) - Insurance company used to illustrate persistent cost and convenience advantages amid changing channels.
 - [Marc Andreessen](entities/MarcAndreessen.md) - Venture-capital comparison point for investing around technological and market change.
 - [Bitcoin](entities/Bitcoin.md) - Incumbent cryptocurrency framed as vulnerable to merchant-adoption constraints, transaction throughput, and Amazon-scale platform choice.
@@ -1129,6 +1132,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.
 - [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event that is repaid only through an exit, staged as seed and lettered rounds, and sized to accelerate growth.
 - [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round, rests on future expectations in early stages, and creates downside when a later exit is smaller.
 - [Venture Capital Fund Structure](concepts/VentureCapitalFundStructure.md) - LP-backed fund with a finite life that earns returns from exits and keeps a share of the upside, assuming most portfolio companies fail.
