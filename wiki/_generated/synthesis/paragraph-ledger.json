@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "54e9054bd6d1e5106873839eeb47a9a0f24f6465f1f873b69d507729e743f4f1",
       "1a7510a5df503f2cb668719120be75142cac7963d920d928241fcf0dd97b7c80",
       "096abfc06156fc732c216f8f784586042977cf9c25a810b0e7532f7fd09fac14",
       "5cd3283f7aa960be3c5bbac5c1cb6010634f18d4482736adc98a5fc3341bfc81",
@@ -276,11 +277,34 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 274
+    "paragraph_count": 275
   },
-  "overview_commit": "ab77564940890c1b550745ace5e0395c06843c1c",
-  "overview_digest": "42e4564ab07ca60709102c60786f6026234a36124aac9d6e126903e66b59b5d0",
+  "overview_commit": "a37eb35e93d0ba53293d72e058778a04f9445e00",
+  "overview_digest": "e89888c6b61796e79d48194f50a4825925de40563d47ac1234d22caa16bbf53f",
   "paragraphs": [
+    {
+      "id": "54e9054bd6d1e5106873839eeb47a9a0f24f6465f1f873b69d507729e743f4f1",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Yan Li source adds [[LLMAgentStages]], [[BashAsMetaTool]], [[AgentFilesystem]], and [[AgentDeploymentTradeoffs]] to the wiki's AI-agent and developer-tooling material. [[YanLi]] reads agent architecture as four accumulating layers: structured output that turns the model into an embeddable function, [[OpenAI]]'s tool-calling API that standardizes the contract while executing nothing, [[ModelContextProtocol]] that supplies the missing tool runtime through an MCP client and server, and then a general OS layer in which [[BashAsMetaTool]] reaches `curl`, `wget`, and `gh` and an [[AgentFilesystem]] stores the images, audio, and oversized output that cannot round-trip through the model in one step. Its dissenting verdict is that MCP is over-engineered and not a universal solution, and that file-based agent-skills - dynamic prompt injection with no runtime requirement - are likely to spread more widely, which sharpens [[LLMToolingSkills]] and [[CodingAgentMinimalTooling]] by treating the skill folder and the shell, not only the prompt, as the distributable unit. The source closes on [[AgentDeploymentTradeoffs]]: quality is traded against latency (roughly 20-30 seconds to first token for a chatbot), reproducibility is why [[AgenticWorkflowPatterns]] still matter, privacy and cost push users toward smaller models, and browser and computer use remain the frontier that shell tooling cannot cover, which qualifies [[ComputerUse]] and [[RetrievalAugmentedGeneration]] rather than replacing them.",
+      "topic_scores": {
+        "ai-and-technology": 5
+      },
+      "wikilinks": [
+        "AgentDeploymentTradeoffs",
+        "AgentFilesystem",
+        "AgenticWorkflowPatterns",
+        "BashAsMetaTool",
+        "CodingAgentMinimalTooling",
+        "ComputerUse",
+        "LLMAgentStages",
+        "LLMToolingSkills",
+        "ModelContextProtocol",
+        "OpenAI",
+        "RetrievalAugmentedGeneration",
+        "YanLi"
+      ]
+    },
     {
       "id": "1a7510a5df503f2cb668719120be75142cac7963d920d928241fcf0dd97b7c80",
       "primary_topic": "business-and-markets",

@@ -8,7 +8,8 @@ sources:
   - blog-anthropic-building-effective-ai-agents
   - blog-minusx-nuwanda-what-makes-claude-code-so-damn-good
   - blog-guangzhengli-vibe-coding-and-context-coding
-last_updated: 2026-09-14
+  - yan-li-how-llm-agents-became-what-they-look-like-in-2026
+last_updated: 2026-09-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,14 +27,16 @@ The MinusX Claude Code analysis qualifies "minimal" as "deliberately shaped," no
 
 Guangzhengli adds the developer-habit reason for this tool shape. Claude Code's Unix-tool search feels strong because it mirrors how programmers investigate real code: start from a method or object name, search fuzzily or by regex, read surrounding files, and repeat until the business-relevant path is clear.
 
+The staged-history source sharpens the shell half of the thesis and extends it. It argues that LLM coding ability generalizes to bash, which lets one shell reach `curl`, `wget`, `gh`, and the rest of the command-line ecosystem, and concludes that bash is potentially the only tool an agent needs. The same source pairs the shell with an [[AgentFilesystem]] rather than more tools: when output is too large for the context window or is an artifact such as an image that cannot be returned to the model in one step, the fix is a place to store it, not another combination of tool names. Together the shell and the file layer make the operating system the runtime for a deliberately minimal coding-agent surface.
+
 ## Key Claims
 - A coding agent can be modeled as model plus tools plus loop.
-- Read, write, edit, search, and shell-like operations form a powerful baseline tool surface.
+- Read, write, edit, search, and shell-like operations form a powerful baseline tool surface, especially when the loop can iterate through search, inspection, modification, and verification.
 - Edit matters because precise changes shorten feedback cycles.
-- Bash is valuable because it bridges to existing command-line and programmable tools.
-- Small tool surfaces can be powerful when the loop can search, inspect, modify, and verify iteratively.
+- Bash is valuable because it bridges to existing command-line and programmable tools, and one source goes further in calling it a meta tool that can be the only tool an agent needs.
 - Tool minimalism still needs model-friendly definitions, clear argument semantics, examples, path safeguards, and deterministic helpers for frequent actions.
 - A useful coding-agent tool set may mix low-level, medium-level, high-level, and Unix search/read tools according to frequency, reliability, task fit, and developer-like investigation needs.
+- The filesystem complements the shell as the place where intermediate artifacts - images, audio, oversized output - are stored so that tool combinations do not multiply.
 
 ## Evidence
 - Agent definition: [[mu-jiang-chui-zi-ding-zi]] defines an agent as model plus tools plus loop.
@@ -46,15 +49,19 @@ Guangzhengli adds the developer-habit reason for this tool shape. Claude Code's 
 - Mixed tool levels: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] classifies Claude Code tools across low, medium, and high levels, arguing that frequent actions like grep/glob/edit warrant dedicated tools while shell access remains useful.
 - Tool-frequency evidence: [[blog-minusx-nuwanda-what-makes-claude-code-so-damn-good]] includes a tool timeline where Edit, Read, and TodoWrite appear especially often.
 - Unix search fit: [[blog-guangzhengli-vibe-coding-and-context-coding]] says Claude Code uses grep, find, git, cat, and other terminal commands to build project context, matching how developers trace relevant code.
+- Meta-tool claim: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says bash is potentially the only tool an agent needs and lists `curl`, `wget`, and `gh` as what it reaches.
+- Artifact decoupling: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says intermediate artifacts cannot be returned to the LLM in one step, so the agent needs a store rather than a tool per combination.
+- OS runtime: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] names the operating system as the runtime for both bash and the filesystem.
 
 ## Counterevidence & Qualifications
-The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements. The MinusX source warns against unnecessary complexity, but its own Claude Code example shows that simple loops can still benefit from many carefully named tools. Guangzhengli's Unix-tool praise applies most directly to codebases where textual names and current files reveal the relevant path.
+The sources are practitioner examples and do not prove that small tool surfaces are sufficient for all coding-agent environments. The Agno example is useful for read-only analysis, but it omits editing, tests, typed APIs, policy controls, structured diffs, sandboxing, and capability boundaries that high-risk production workflows may need. Anthropic's source also stresses that automated tests do not replace human review for broader system requirements. The MinusX source warns against unnecessary complexity, but its own Claude Code example shows that simple loops can still benefit from many carefully named tools. Guangzhengli's Unix-tool praise applies most directly to codebases where textual names and current files reveal the relevant path. The meta-tool argument is an opinion rather than a measured comparison, and a single shell also concentrates credentials and filesystem risk.
 
 ## What Changed
 - Added the MinusX distinction between low-level, medium-level, and high-level coding-agent tools.
 - Added Claude Code tool-frequency evidence for Edit, Read, and TodoWrite.
 - Reframed minimal tooling as deliberately shaped tool design rather than a raw-tool-only stance.
 - Added the argument that Unix search tools fit coding agents because they mirror ordinary developer investigation.
+- Added the bash meta-tool claim and the filesystem as the complement that prevents tool-combination growth.
 
 ## Related Concepts
 - [[AIAgentCollaboration]] - minimal tools still require active human judgment and feedback.
@@ -67,3 +74,5 @@ The sources are practitioner examples and do not prove that small tool surfaces 
 - [[AgenticWorkflowPatterns]] - coding agents are an open-ended agent pattern with verifiable environmental feedback.
 - [[ClaudeCode]] - Claude Code illustrates a compact loop supported by a mixed-level tool surface.
 - [[ContextCoding]] - minimal tools help agents gather and verify current project context.
+- [[BashAsMetaTool]] - the strongest form of the shell half of minimal tooling.
+- [[AgentFilesystem]] - the artifact store that lets a minimal surface stay minimal.

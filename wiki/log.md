@@ -2599,6 +2599,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-17] ingest | How LLM Agents Became What They Look Like in 2026?
+
+Ingested Yan Li's staged history of LLM agent architecture. New pages: the source note, the entity [[YanLi]], and concepts [[LLMAgentStages]], [[BashAsMetaTool]], [[AgentFilesystem]], and [[AgentDeploymentTradeoffs]]. Updated [[ModelContextProtocol]] with the tool-runtime role plus the dissenting verdict that MCP is over-engineered and not universal; [[LLMToolingSkills]] with agent-skills as runtime-free, file-based dynamic prompt injection that the source expects to out-adopt MCP; [[CodingAgentMinimalTooling]] with the bash meta-tool claim and the filesystem as the complement that prevents tool-combination growth; [[ComputerUse]] with the browser as the frontier shell tooling cannot cover; [[OpenAI]] with tool calling as its standardized contract; [[AgenticWorkflowPatterns]] with reproducibility as the demand-side reason workflows persist; and [[RetrievalAugmentedGeneration]] with latency as the reason non-agentic retrieval survives. Key claims: agent architecture accumulates as structured output, tool calling, an MCP tool runtime, and then a general OS layer of bash and files; intermediate artifacts that cannot round-trip through the model force tool multiplicity, which the filesystem decouples; and latency, reproducibility, privacy/cost, and multimodal demand bound where agents fit. The source contained no effective image references - only a link to the referenced external essay - so no image evidence was used.
+
 ## [2026-09-17] ingest | Understanding Email Layout and Structure
 
 Added Chamaileon's 2016 email-design tutorial on how responsive HTML email templates are laid out and structured. New pages: the source note, concepts [[EmailLayoutAndStructure]], [[EmailTableLayout]], [[EmailRenderingConstraints]], [[HTMLEmailButton]], and [[ResponsiveEmailDesign]], and the entity [[Chamaileon]]. Updated [[Mailchimp]] with the source's example of a builder whose "single column" template actually contains multiple columns and whose editor offers built-in multi-column elements rather than fine-grained row and column control. Key claims: layout (look and feel) and structure (order of elements) are separate concerns; HTML email is still a nested-table system of full-width rows, columns, and container boxes that can be embedded in one another; content - goal, target audience, and copy - precedes layout; web-safe fonts, image blocking, Outlook background-image limits, and unsupported rounded or text-wrapped images constrain design; and HTML buttons beat image buttons because they survive image blocking and go fluid on mobile, with rows and columns able to hide or reorder on smaller screens. The remote lead image from chamaileon.io returned HTTP 403, and the worked-example illustrations are referenced in the prose but not embedded in the extracted Markdown, so no image evidence was used. No contradictions with existing pages were found; the source qualifies the wiki's [[MobileEmailEngagement]] and [[EmailMarketingAtScale]] material at the template-design level.
@@ -2622,6 +2626,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] report | Graph health report generated
 
 1811 nodes analyzed.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-17] lint | Wiki health check
 

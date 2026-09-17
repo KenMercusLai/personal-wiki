@@ -7,7 +7,8 @@ sources:
   - blog-minusx-nuwanda-what-makes-claude-code-so-damn-good
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - claude-code-on-the-go
-last_updated: 2026-09-15
+  - yan-li-how-llm-agents-became-what-they-look-like-in-2026
+last_updated: 2026-09-17
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,9 +26,11 @@ Parallel workflows also have a throughput condition. Parallel agent sessions can
 
 The mobile Claude Code setup adds a human-checkpoint variant for asynchronous agents. A task can run on a cloud VM while the user leaves the terminal; when the agent needs clarification, a hook converts the question into a push notification. This makes the checkpoint loop portable and interrupt-driven, but it still depends on isolation, session persistence, worktree separation, and bounded cost to keep parallel permissive agents manageable.
 
+The staged-history source supplies a demand-side reason workflows persist even as agentic loops improve. Its argument is that quality is not the only user requirement: people who will wait for a strong result still expect predictable wait times and consistent outputs, and predefined, inspectable paths are what deliver that consistency. Workflows therefore survive beside autonomous agents not because the agents are weak but because reproducibility is a separate property from peak quality, a point that also connects the pattern catalog to [[AgentDeploymentTradeoffs]].
+
 ## Key Claims
 - Agentic systems should add complexity only when simpler prompting, retrieval, and in-context examples fall short.
-- Workflows keep LLM/tool execution on predefined paths, while agents let the model dynamically control process and tool use.
+- Workflows keep LLM/tool execution on predefined paths, while agents let the model dynamically control process and tool use; predictable wait times and consistent outputs are a stated reason workflows stay relevant.
 - Prompt chaining, routing, parallelization, orchestrator-workers, and evaluator-optimizer loops cover common production workflow shapes.
 - Pattern choice depends on task decomposition, classification confidence, independence of subtasks, uncertainty about subtasks, availability of evaluation criteria, downstream bottleneck capacity, and checkpoint design.
 - Autonomous agents fit open-ended tasks where fixed paths cannot be predicted, but need environmental feedback, stopping conditions, testing, guardrails, human checkpoints, and escalation paths.
@@ -49,14 +52,16 @@ The mobile Claude Code setup adds a human-checkpoint variant for asynchronous ag
 - WIP qualification: [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] warns that too many concurrent PRs merely move the queue to code review.
 - Async checkpoint: [[claude-code-on-the-go]] uses a Claude Code PreToolUse hook on AskUserQuestion to send the pending question to a phone through a Poke webhook.
 - Parallel isolation: [[claude-code-on-the-go]] runs multiple Claude agents in separate tmux windows and git worktrees, with branch-name-derived ports to avoid conflicts.
+- Reproducibility rationale: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says users expect predictable wait times and consistent outputs, which is why workflows continue to matter even when higher-quality agents are available.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, MinusX interprets Claude Code's coding-agent loop from observed behavior, the bottleneck-aware source focuses on delivery throughput, and the mobile setup describes one person's operating environment. Bounded branching, notifications, and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, and flow-control story.
+The sources are practitioner guidance rather than controlled benchmarks of each pattern. They also emphasize different levels: Anthropic catalogs general workflow structures, MinusX interprets Claude Code's coding-agent loop from observed behavior, the bottleneck-aware source focuses on delivery throughput, and the mobile setup describes one person's operating environment. Bounded branching, notifications, and parallel sessions may improve output, but very large projects can still require heavier role separation, file-backed state, verification harnesses, and WIP limits; the key qualification is that added agents should have a clear coordination, debugging, and flow-control story. The reproducibility argument is stated as a user expectation rather than measured variance, so it supports keeping workflows available without settling how much run-to-run variation any given task tolerates.
 
 ## What Changed
 - Added the phone-notified human checkpoint loop.
 - Added worktree and port isolation as practical supports for parallel coding-agent sessions.
 - Reframed async mobile supervision as an agentic workflow pattern rather than just a terminal setup.
+- Added reproducibility as the demand-side reason workflows remain relevant.
 
 ## Related Concepts
 - [[AgentExperience]] - workflow and agent structure shape how users clarify goals and recover from agent behavior.
@@ -69,3 +74,4 @@ The sources are practitioner guidance rather than controlled benchmarks of each 
 - [[AgentTeam]] - multi-agent teams are a heavier workflow form that needs file-backed state and verification.
 - [[BottleneckAwareAICoding]] - explains why parallel agent workflows must account for downstream constraints.
 - [[MobileAgentDevelopment]] - mobile/cloud setups provide an async checkpoint environment for coding agents.
+- [[AgentDeploymentTradeoffs]] - reproducibility is one of the constraints that keeps workflows in use.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-17
-as_of_overview_commit: ab77564940890c1b550745ace5e0395c06843c1c
+as_of_overview_commit: a37eb35e93d0ba53293d72e058778a04f9445e00
 summary: "The wiki maps how technical systems, markets, institutions, work, learning, and personal judgment turn constraints into reusable practices for trust, change, and decision quality."
-episode_count: 325
-source_count: 325
-paragraph_count: 274
+episode_count: 326
+source_count: 326
+paragraph_count: 275
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes.
+- Agent architecture accumulates as integration layers: structured output makes the model callable, [[OpenAI]] tool calling standardizes the argument contract, [[ModelContextProtocol]] adds the missing tool runtime that the same author judges over-engineered and not universal, and [[BashAsMetaTool]] plus [[AgentFilesystem]] move the endpoint to a general OS layer where one shell reaches the command-line ecosystem and files hold artifacts that cannot round-trip through the model in one step; [[LLMToolingSkills]] distribution follows the same logic, since a skill can ship prompts, scripts, and binaries as a self-contained folder with no runtime of its own.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, and [[AIDependencySkillAtrophy]] warns that replacing manual writing, coding, reading, or architectural thinking can erode the competence needed to judge and maintain the output.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Interface sources add an expectation boundary: [[ConversationalUI]] and [[VoiceAssistantUX]] both depend on calibrated naming, visible constraints, and honest limits, and [[UncannyValleyOfAI]] names the stage where better capability makes the product feel worse.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The newest agent-architecture source adds a staged layer - structured output, tool calling, an MCP tool runtime judged over-engineered, then a general OS layer of [[BashAsMetaTool]] and [[AgentFilesystem]] where file-based [[LLMToolingSkills]] need no runtime of their own - and [[AgentDeploymentTradeoffs]] bounds deployment by latency, reproducibility, privacy and cost, and unmet browser and computer-use demand. Interface sources add an expectation boundary: [[ConversationalUI]] and [[VoiceAssistantUX]] both depend on calibrated naming, visible constraints, and honest limits, and [[UncannyValleyOfAI]] names the stage where better capability makes the product feel worse.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].

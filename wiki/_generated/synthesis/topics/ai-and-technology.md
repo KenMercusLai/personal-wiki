@@ -4,15 +4,15 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-17
-as_of_overview_commit: db5116ba083b79351d904904a500a4807d531bf4
-input_digest: b43af46b71d826b73862c5f1d5244df1398dc7622e32072252c791f56de45f34
+as_of_overview_commit: a37eb35e93d0ba53293d72e058778a04f9445e00
+input_digest: 449c096ab5d70695244b605468ed4daf5038555f91da144e79a16457f4ae1df3
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration. The newest agent-architecture source adds a staged layer and a deployment constraint: structured output, tool calling, and [[ModelContextProtocol]] standardize and run tools, while [[BashAsMetaTool]] and [[AgentFilesystem]] move the endpoint to a general OS layer and file-based [[LLMToolingSkills]] can carry prompts, scripts, and binaries without a runtime of their own; [[AgentDeploymentTradeoffs]] then bounds deployment by latency, reproducibility, privacy and cost, and unmet browser and computer-use demand.
 
 ## Cross-source Findings
 
@@ -140,3 +140,23 @@ Operational change safety, compliance evidence, database migration, and lifecycl
 
 - The Botnerds source is an industry-positioning argument from 2016, so it is strongest as evidence about expectation-setting and category language rather than as a measured adoption study.
 - The voice evidence is a 2017 strategic essay written before large generative models could answer far more phrasing without per-intent construction, so its back-end coverage limit is sharper than the expectation and discoverability parts of the claim.
+
+### Agent Architecture Layers Reach General Os
+
+Agent architecture accumulates as integration layers: structured output makes the model callable, [[OpenAI]] tool calling standardizes the argument contract, [[ModelContextProtocol]] adds the missing tool runtime that the same author judges over-engineered and not universal, and [[BashAsMetaTool]] plus [[AgentFilesystem]] move the endpoint to a general OS layer where one shell reaches the command-line ecosystem and files hold artifacts that cannot round-trip through the model in one step; [[LLMToolingSkills]] distribution follows the same logic, since a skill can ship prompts, scripts, and binaries as a self-contained folder with no runtime of its own.
+
+**Evidence:** [[LLMAgentStages]], [[BashAsMetaTool]], [[AgentFilesystem]], [[ModelContextProtocol]], [[LLMToolingSkills]], [[OpenAI]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[YanLi]]
+
+**Qualifications:**
+
+- The stage model is one practitioner narrative rather than a measured history; the MCP verdict is an adoption opinion rather than a reliability, permissioning, or auditability comparison, and the runtime-free skill claim assumes the client agent already provides a general OS substrate.
+
+### Agent Deployment Tradeoffs Shape Product Fit
+
+Where agents fit depends on deployment tradeoffs as much as on capability: the newest source trades quality against latency with a rough 20-30 second chatbot time-to-first-token target, keeps non-agentic [[RetrievalAugmentedGeneration]] viable on response time, treats reproducibility as the reason [[AgenticWorkflowPatterns]] still matter, notes privacy and cost pushing users toward smaller open-weight models, and names browser and computer use as the least covered surface.
+
+**Evidence:** [[AgentDeploymentTradeoffs]], [[RetrievalAugmentedGeneration]], [[AgenticWorkflowPatterns]], [[ComputerUse]], [[CodingAgentMinimalTooling]]
+
+**Qualifications:**
+
+- The latency threshold is an asserted heuristic rather than a measured product requirement, and the tradeoff list omits evaluation, safety, permissioning, and integration cost that other sources treat as first-order agent concerns.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [How LLM Agents Became What They Look Like in 2026?](sources/yan-li-how-llm-agents-became-what-they-look-like-in-2026.md) - Yan Li traces LLM agents from structured output and tool calling through MCP to bash, filesystems, and the OS, argues MCP is over-engineered, and expects file-based agent-skills to be adopted more widely.
 - [Understanding Email Layout and Structure](sources/understanding-email-layout-and-structure.md) - Chamaileon's tutorial separates an email's layout from its structure, documents the table, row, column, and box model of responsive HTML email, and recommends web-safe fonts and HTML buttons over image-based ones.
 - [Voice and the uncanny valley of AI](sources/voice-and-the-uncanny-valley-of-ai-benedict-evans.md) - Benedict Evans argues that voice input finally works but the hand-built back-end dialogue boxes do not scale, that users cannot remember what they may ask, and that better voice technology produced a worse experience at first.
 - [Understand, Design, Build: A Framework for Problem-Solving](sources/understand-design-build-a-framework-for-problem-solving-lob-blog.md) - Lob argues that engineers solve business problems rather than write code, and that understanding the problem and comparing approaches before building prevents interrupts, rework, and 2x-10x schedule overruns.
@@ -333,6 +334,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Yan Li](entities/YanLi.md) - Author of a staged history of LLM agent architecture who argues for a general OS layer over protocol-specific tool integrations.
 - [Chamaileon](entities/Chamaileon.md) - Drag-and-drop email-builder product whose tutorial supplies the wiki's account of email layout, structure, and rendering constraints.
 - [Lob](entities/Lob.md) - Company whose engineering blog published the Understand, Design, Build framework and uses it to mentor new engineers and decentralize decisions while scaling.
 - [Michael Seibel](entities/MichaelSeibel.md) - YC Core CEO and founder-operator behind Twitch and SocialCam, whose AMA defines product-market fit as drowning in demand.
@@ -1126,6 +1128,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [LLM Agent Stages](concepts/LLMAgentStages.md) - Staged account of agent architecture as structured output, tool calling, an MCP tool runtime, then a general OS layer of bash and files.
+- [Bash as Meta Tool](concepts/BashAsMetaTool.md) - Claim that a general-purpose shell can serve as the single meta tool through which an agent reaches most external capabilities.
+- [Agent Filesystem](concepts/AgentFilesystem.md) - Use of an ordinary filesystem as the durable store for intermediate artifacts that cannot round-trip through the model in one step.
+- [Agent Deployment Tradeoffs](concepts/AgentDeploymentTradeoffs.md) - Latency, reproducibility, privacy and cost, and multimodal demand constraints that keep agentic designs from fitting every product.
 - [Email Layout and Structure](concepts/EmailLayoutAndStructure.md) - Distinction between an email's layout and its structure, plus the building blocks from which templates are assembled.
 - [Email Table Layout](concepts/EmailTableLayout.md) - Table, row, column, and container-box model used to build responsive HTML email.
 - [Email Rendering Constraints](concepts/EmailRenderingConstraints.md) - Cross-client limits on fonts, images, and backgrounds that shape email design.

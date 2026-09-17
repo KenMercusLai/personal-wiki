@@ -1,6 +1,6 @@
-# Wiki Lint Report — 2026-09-15
+# Wiki Lint Report — 2026-09-17
 
-Scanned 1552 pages.
+Scanned 1817 pages.
 
 ## Structural Issues
 
@@ -13,17 +13,17 @@ No hub stubs detected — all high-degree nodes have sufficient content.
 
 ### Fragile Bridges (11 community pairs)
 These community connections rely on a single edge — one broken link isolates them:
-- Community 0 ↔ Community 13 via `concepts/StructuredCLIOutput` → `concepts/DataGeneratingProcess`
-- Community 0 ↔ Community 19 via `concepts/SelfHostedSurveillanceStorage` → `concepts/InternetOfThingsData`
-- Community 1 ↔ Community 16 via `concepts/EntropyReductionManagement` → `concepts/OrganizationalDataSharing`
-- Community 3 ↔ Community 7 via `concepts/CorporateSatire` → `concepts/CreatorFeedbackLoop`
-- Community 5 ↔ Community 19 via `concepts/DatabaseServiceExposure` → `concepts/PrivateDataChatbot`
-- Community 6 ↔ Community 8 via `concepts/AIInvestmentTheme` → `concepts/AIFirstEngineering`
-- Community 8 ↔ Community 18 via `concepts/UTXOModel` → `concepts/DoubleEntryAccounting`
-- Community 9 ↔ Community 18 via `concepts/BitcoinScript` → `concepts/SmartContracts`
-- Community 12 ↔ Community 16 via `concepts/ProductLedRetention` → `concepts/DifferentiationStrategy`
-- Community 13 ↔ Community 16 via `concepts/AppleAdvertisingPatterns` → `concepts/ProductEvolution`
-- Community 13 ↔ Community 18 via `concepts/CryptoWalletSecurity` → `concepts/ProductEvolution`
+- Community 1 ↔ Community 7 via `concepts/BehavioralData` → `concepts/SemanticSearch`
+- Community 1 ↔ Community 8 via `concepts/EconomicGraph` → `concepts/MOOCLearningAnalytics`
+- Community 1 ↔ Community 13 via `concepts/ExitAsGovernance` → `concepts/PrivacyPovertyDivide`
+- Community 3 ↔ Community 4 via `concepts/LivestreamCommerce` → `concepts/ConversionRateOptimization`
+- Community 3 ↔ Community 18 via `concepts/DigitalGifting` → `concepts/Gamification`
+- Community 6 ↔ Community 13 via `concepts/SecurityTokens` → `concepts/ComplianceArchitecture`
+- Community 7 ↔ Community 17 via `concepts/IndieGameDevelopment` → `concepts/GameLocalization`
+- Community 11 ↔ Community 12 via `concepts/DigitalProductTimelessness` → `concepts/BrandDistinctiveness`
+- Community 11 ↔ Community 18 via `concepts/EntropyReductionManagement` → `concepts/OrganizationalDataSharing`
+- Community 12 ↔ Community 13 via `concepts/CryptoWalletSecurity` → `concepts/ProductEvolution`
+- Community 13 ↔ Community 18 via `sources/building-for-trust-airbnb-engineering-data-science-medium` → `concepts/SupportLoadScaling`
 
 ### Isolated Communities (0 communities)
 No isolated communities — all clusters have external connections.
