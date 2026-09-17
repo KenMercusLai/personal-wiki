@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Yesterday's Failures Are Today's Successes](sources/yesterdays-failures-are-todays-successes-learning-by-shipping.md) - Steven Sinofsky argues that dot-com-era ideas returned as successful startups once the enabling foundation matured, listing mobile compute, battery, touch, bandwidth, location, identity, storage, payments, and sharing culture, and defining execution as the full product, price, place, and promotion mix.
 - [Unethical growth hacks: A look into the growing Youtube news bot epidemic](sources/unethical-growth-hacks-youtube-news-bot-epidemic.md) - A HackerNoon writer traces automated YouTube channels that turn stolen BBC, ABC, and Reuters reporting into monetized news videos, estimates their view and ad economics, and argues Google barely enforces against the practice while its search results favor video.
 - [The Boring Technology Behind a One-Person Internet Company](sources/wenbin-fang-the-boring-technology-behind-a-one-person-internet-company.md) - Wenbin Fang describes running Listen Notes as a one-person internet company on a deliberately boring Django, PostgreSQL, Redis, and Elasticsearch stack, with Ansible, a small deploy script, rented SaaS, over-provisioned AWS servers, and a closing argument that overthinking is the real barrier to shipping.
 - [I have an idea for a startup, but there's already a well funded startup with a related idea, what should I do?](sources/yash-gandhi-startup-idea-well-funded-competitor-quora.md) - Yash Gandhi answers that a funded competitor validates the market rather than closing it, argues that implementation and service matter more than the idea, and cites Ola, Flipkart, Google, and Quora as entrants that started anyway.
@@ -500,7 +501,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wait But Why](entities/WaitButWhy.md) - Illustrated long-form publication context for Tim Urban's career-planning source.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
-- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to strategic writing, execution context, and connected consumer-technology integration.
+- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to strategic writing, execution context, connected consumer-technology integration, and the technology-history case for why earlier product failures later succeed.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
@@ -753,7 +754,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition example and as a narrow-to-broad product-evolution case.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
-- [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth and marketplace-payment example.
+- [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth example and as foundational web-payment infrastructure that made merchant commerce viable.
 - [Ahmad Iqbal](entities/AhmadIqbal.md) - Merchant-founder who turned Nadeef customer-call experiments into Shopify apps such as Scout, Raven Callback, and Pizza Party.
 - [Nadeef](entities/Nadeef.md) - Shopify bidet store where abandoned-checkout calls, VIP thank-yous, and customer-experience app ideas were tested.
 - [Scout](entities/Scout.md) - Shopify abandoned-checkout alert app built after manual customer calls worked at Nadeef.
@@ -1848,5 +1849,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cardiorespiratory Fitness](concepts/CardiorespiratoryFitness.md) - Aerobic capacity frame in which higher fitness creates more reserve for future activities such as stair climbing.
 - [VPLS](concepts/VPLS.md) - Multipoint Ethernet L2VPN service whose IOS XR passthrough mode does not insert dummy VLAN tags in the source.
 - [Automated Content Farming](concepts/AutomatedContentFarming.md) - Programmatic harvesting of third-party articles and images into high-volume, ad-monetized content on a distribution platform.
+- [Technology Enabler Stack](concepts/TechnologyEnablerStack.md) - Widely available platform capabilities whose maturity decides whether a product idea can be built usefully and adopted broadly at a given time.
 
 ## Syntheses

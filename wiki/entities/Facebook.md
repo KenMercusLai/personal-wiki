@@ -8,15 +8,18 @@ sources:
   - advertising-models-in-mobile-messaging-apps-mobile-dev-memo
   - andre-staltz-the-web-began-dying-in-2014-heres-how
   - building-to-independence-on-top-of-other-platforms-greylock-perspectives
-last_updated: 2026-09-15
+  - yesterdays-failures-are-todays-successes-learning-by-shipping
+last_updated: 2026-09-17
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention, became central to Staltz's account of social traffic concentration after 2014, and served as a major platform-dependence case for consumer startups building on APIs, feeds, and social distribution.
+[[Facebook]] appears in the sources as a company that largely made the mobile transition, sought to turn messaging into a platform and advertising surface, stood among the five 2018 corporate giants while remaining vulnerable to shifts in user attention, became central to Staltz's account of social traffic concentration after 2014, served as a major platform-dependence case for consumer startups building on APIs, feeds, and social distribution, and is credited with changing what identity and social proof meant by making an authenticated profile the norm.
 
 ## Current Profile
 The Evans mobile article presents Facebook as one of the major mobile-era actors trying to influence discovery and runtime after the desktop web. Facebook had mostly adapted to mobile by the time of that source, and messaging represented its candidate route to a new development environment, discovery surface, and customer-acquisition layer outside the browser and app store. The Mobile Dev Memo source adds the monetization version of that ambition: [[FacebookMessenger]]'s scale and brand-thread model made chat a possible advertising surface, while Facebook's LiveRail acquisition and AI investment are treated as clues for future brand-interaction tooling. The Above Avalon source adds a 2018 market-power view: Facebook was one of the five largest U.S. public companies, a services company providing curated versions of the web through Facebook and Instagram, and a predictable advertising business still exposed to competitors that could capture attention in different data services. Staltz adds a dependency critique: Facebook concentrated social traffic, bought WhatsApp, left search competition behind, and used products such as Instant Articles to pull publisher activity closer to its own network. Elman's Greylock source adds the startup-builder version of the same power: Facebook Platform could help apps reach millions, but Facebook's API and distribution changes could damage companies that did not create direct product demand.
+
+One source treats Facebook as an enabling layer rather than as a competitor. The 2016 Learning By Shipping essay lists the social graph among the foundations that made previously failed product ideas work again, and its claim is about identity: the ability to authenticate as a real profile changed how people thought about who they were dealing with, which the essay contrasts with the anonymous screen names of the earlier internet. That reading puts Facebook into the same category as mobile compute, location, storage, and payments - infrastructure other products could rely on - rather than treating it only as a distributor or an advertising channel.
 
 ## Key Characteristics
 - Mostly completed the transition from desktop web social networking to mobile.
@@ -42,13 +45,17 @@ The Evans mobile article presents Facebook as one of the major mobile-era actors
 - Publisher dependency: [[andre-staltz-the-web-began-dying-in-2014-heres-how]] says Facebook traffic grew enough to make media sites dependent on Facebook alongside Google.
 - Platform-builder experience: [[building-to-independence-on-top-of-other-platforms-greylock-perspectives]] says [[JoshElman]] helped build Facebook Platform in 2008 and 2009 and helped developers scale on top of it.
 - Startup dependency risk: [[building-to-independence-on-top-of-other-platforms-greylock-perspectives]] warns that Facebook and similar platforms can change APIs and distribution without warning, harming companies that rely on one platform mechanic.
+- Identity enabler: [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says the ability to authenticate as a real profile changed how people thought about identity and social proof, in contrast to the AIM-era screen name.
 
 ## Qualifications
 The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger, WhatsApp, Instagram, metaverse, or AI strategy; it only captures the 2015 messaging-platform question. The Mobile Dev Memo source relies partly on an alleged leaked document and captures a February 2016 advertising snapshot, not the later rollout or user reaction. The Above Avalon source is a 2018 market-strategy snapshot and does not evaluate later rebranding, regulation, AI, or product outcomes. Staltz's source is a 2017 critique and forecast, so its traffic-dependence claims should be treated as source-scoped historical argument. Elman's source is founder advice about platform risk and does not provide Facebook's internal rationale for API or feed-policy changes.
 
+The identity claim is one sentence inside a 2016 essay about technology waves, and it is asserted rather than evidenced: it does not measure whether authenticity changed user behavior, how much of the change came from Facebook rather than from other platforms or shifting norms, or what it cost users who preferred pseudonymity, which the wiki's privacy and identity material documents elsewhere.
+
 ## What Changed
 - Added Facebook's role in Staltz's open-Web decline thesis: social traffic concentration, publisher dependence, Instant Articles, and post-browser social runtimes.
 - Added Facebook as a direct startup platform-dependence case through Elman's Facebook Platform experience and API-change warning.
+- Added Facebook as an enabling identity layer, credited with making the authenticated profile the basis of social proof.
 
 ## Relationships
 - [[MessagingAsPlatform]] - Facebook is one of the actors trying to make messaging a platform.
@@ -61,3 +68,5 @@ The Evans mobile source does not evaluate Facebook's later mobile ads, Messenger
 - [[WebCentralization]] - Facebook is one of the traffic and publishing gatekeepers in Staltz's argument.
 - [[BrowserBypass]] - Facebook's app, messaging, AR, and VR ambitions are browser-bypassing social surfaces in Staltz's source.
 - [[PlatformDistributionDependence]] - Facebook is Elman's main example of useful but risky borrowed startup distribution.
+- [[SocialProof]] - the authenticated profile is presented as the change that made real identity the default proof signal.
+- [[TechnologyEnablerStack]] - Facebook's social graph is one layer of the enabling foundation the essay lists.

@@ -484,16 +484,19 @@
       "id": "innovation-recombines-specialized-knowledge-and-shared-data",
       "qualifications": [
         "Cross-functional data sharing still requires governance, data quality, privacy controls, and semantic agreement.",
-        "The Long Nose evidence is a reconstructed archive note and should be treated as a technology-history frame, not a universal timing law."
+        "The Long Nose evidence is a reconstructed archive note and should be treated as a technology-history frame, not a universal timing law.",
+        "The technology-wave version is a retrospective list drawn from later winners rather than a measured account of recombinations that failed."
       ],
-      "statement": "[[InnovationAtIntersection]], [[OrganizationalDataSharing]], [[LongNoseInnovation]], [[BillBuxton]], and [[ProductEvolution]] frame innovation as both recombination and long refinement: teams combine knowledge, then make older ideas usable through patient maturation before market impact.",
+      "statement": "[[InnovationAtIntersection]], [[OrganizationalDataSharing]], [[LongNoseInnovation]], [[BillBuxton]], and [[ProductEvolution]] frame innovation as both recombination and long refinement: teams combine knowledge, then make older ideas usable through patient maturation before market impact. [[StevenSinofsky]] adds the technology-wave version of the same claim: there are few true inventions, and each wave realizes older ideas once the enabling foundation changes.",
       "status": "supported",
       "supporting_wikilinks": [
         "InnovationAtIntersection",
         "OrganizationalDataSharing",
         "LongNoseInnovation",
         "BillBuxton",
-        "ProductEvolution"
+        "ProductEvolution",
+        "StevenSinofsky",
+        "TechnologyEnablerStack"
       ]
     },
     {
@@ -680,8 +683,46 @@
         "BootstrappedSaaS",
         "DeploymentAutomation"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "technology-enabler-stack-gates-when-ideas-work",
+      "qualifications": [
+        "The claim comes from one 2016 essay whose evidence is a retrospective list assembled from ideas that later succeeded, so it cannot show how much of any outcome the enabling stack explains relative to team, distribution, capital, or luck.",
+        "It gives no account of ideas that had the same foundation and still failed, and no method for telling whether a missing enabler or a weak product is the blocker.",
+        "Its figures are rounded and unaudited, and the sharing, storage, and payment examples are named without supporting data."
+      ],
+      "statement": "[[TechnologyEnablerStack]] is the essay's answer to why ideas that failed during the dot-com bust returned as [[StartupFailurePatterns|startup success]] later: [[StevenSinofsky]] names mobile compute, battery life, touch interfaces, cellular bandwidth, GPS-based location and maps, an authenticated social graph on [[Facebook]], flash storage, [[PayPal]]-style web payments, and a sharing culture that only became mainstream with Wikipedia and [[YouTube]], and argues that this foundation changes how a concept is executed and how widely it diffuses rather than restoring an old idea unchanged.",
+      "status": "supported",
+      "supporting_wikilinks": [
+        "TechnologyEnablerStack",
+        "StevenSinofsky",
+        "PayPal",
+        "YouTube",
+        "MobileEcosystem",
+        "MobileInternet",
+        "Facebook",
+        "Apple",
+        "StartupFailurePatterns"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "execution-is-the-full-commercial-mix",
+      "qualifications": [
+        "The four-P framing is a managerial definition rather than a measured threshold and does not say how a team would recognize that the arrangement has been achieved.",
+        "It sits awkwardly beside the corpus's stricter fit tests - overwhelmed demand, retention, transactions per person - because a complete product, price, place, and promotion arrangement may still fall short of them."
+      ],
+      "statement": "[[StevenSinofsky]] defines execution as the complete set of product, price, place, and promotion, equates that arrangement with [[ProductMarketFit]], and argues that a remembered concept or an old screenshot is no evidence that anyone executed it, which widens the business material's fit language from product quality and retention toward the full commercial mix a team has to build.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "StevenSinofsky",
+        "ProductMarketFit",
+        "IdeaVersusExecution",
+        "TechnologyEnablerStack"
+      ]
     }
   ],
-  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales. A design-side source adds the template layer: the Chamaileon tutorial separates email layout from structure, treats responsive HTML email as a nested table system of rows, columns, and container boxes, and shows how web-safe-font, image-blocking, and Outlook background limits push designers toward text alternatives, fallback colors, and HTML buttons that survive image blocking and go fluid on mobile, alongside per-device hiding and column reordering. The newest TechCrunch explainer adds the round-level and fund-level layer to that financing material: [[StartupFundingRound]] exchanges ownership for capital the company never repays, [[StartupValuation]] is a negotiated forward bet on market size, revenue, growth, and exit likelihood whose high headline number can leave late investors and recently hired employees underwater after a smaller sale, [[AngelInvesting]] supplies personal early-stage capital where [[VentureCapitalFundStructure]] pools LP money into a finite-life fund that earns exit-driven returns and expects most portfolio companies to fail, and access to either depends on references, networks, and the credibility a firm such as [[SequoiaCapital]] transfers to its portfolio companies. The newest Quora answer adds the competitive-entry layer: [[YashGandhi]] treats a well-funded rival as validation of demand rather than a closed market, argues that [[IdeaVersusExecution]] and service decide the outcome, and cites [[Ola]] against [[Uber]], [[Flipkart]] against [[Amazon]], [[Google]] against [[Yahoo]]'s search lead, and [[Quora]] against Yahoo's question-and-answer audience, while naming only the entrants that survived. The newest one-person-company account adds the solo operating layer to that business material: [[WenbinFang]] runs [[ListenNotes]] as a free listener product plus a paid developer API on roughly twenty over-provisioned [[AWS]] servers, keeps a deliberately conventional Django, [[PostgreSQL]], and [[Redis]] stack with no Docker, Kubernetes, or serverless, releases through Ansible and a three-argument `deploy.sh`, rents capability from [[Stripe]], [[Cloudflare]], [[Mailchimp]], and [[Notion]] instead of hiring, and treats [[BoringTechnology]] plus resistance to overthinking as how one operator keeps shipping, with every outcome self-reported.",
+  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, platforms turn internal capabilities into adjacent markets, and growth only matters when it preserves retained value. Housel's repeatability filter adds that business and investing history should separate transferable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market, legal, regulatory, political, competitive, and path-dependent context. Early-stage companies convert runway, product roughness, technical choices, founder relationships, and stakeholder belief into learning before scale, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access all reshape who captures value. The topic remains qualification-heavy because many sources are practitioner essays, retrospective post-mortems, vendor case studies, investor arguments, or company-authored narratives rather than controlled cross-industry evidence. The newest Capital & Growth interview adds the corpus's strictest fit test: [[MichaelSeibel]] treats [[ProductMarketFit]] as demand that outruns the team's capacity to serve, warns that [[YCombinator]] companies fail by believing they have reached that point and scaling expenses on that belief, and pairs the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]], and founder disputes as the signals that decide which startups get to keep searching. The newest Lob engineering source adds an organization-design layer to delivery work: [[UnderstandDesignBuild]] and [[BenefitsRisksMitigations]] front-load problem understanding and option comparison, [[PrematureImplementation]] names what skipping the first step costs, and [[Lob]] presents the sequence as a way to keep delivery decisions with the engineers doing the work while the organization scales. A design-side source adds the template layer: the Chamaileon tutorial separates email layout from structure, treats responsive HTML email as a nested table system of rows, columns, and container boxes, and shows how web-safe-font, image-blocking, and Outlook background limits push designers toward text alternatives, fallback colors, and HTML buttons that survive image blocking and go fluid on mobile, alongside per-device hiding and column reordering. The newest TechCrunch explainer adds the round-level and fund-level layer to that financing material: [[StartupFundingRound]] exchanges ownership for capital the company never repays, [[StartupValuation]] is a negotiated forward bet on market size, revenue, growth, and exit likelihood whose high headline number can leave late investors and recently hired employees underwater after a smaller sale, [[AngelInvesting]] supplies personal early-stage capital where [[VentureCapitalFundStructure]] pools LP money into a finite-life fund that earns exit-driven returns and expects most portfolio companies to fail, and access to either depends on references, networks, and the credibility a firm such as [[SequoiaCapital]] transfers to its portfolio companies. The newest Quora answer adds the competitive-entry layer: [[YashGandhi]] treats a well-funded rival as validation of demand rather than a closed market, argues that [[IdeaVersusExecution]] and service decide the outcome, and cites [[Ola]] against [[Uber]], [[Flipkart]] against [[Amazon]], [[Google]] against [[Yahoo]]'s search lead, and [[Quora]] against Yahoo's question-and-answer audience, while naming only the entrants that survived. The newest one-person-company account adds the solo operating layer to that business material: [[WenbinFang]] runs [[ListenNotes]] as a free listener product plus a paid developer API on roughly twenty over-provisioned [[AWS]] servers, keeps a deliberately conventional Django, [[PostgreSQL]], and [[Redis]] stack with no Docker, Kubernetes, or serverless, releases through Ansible and a three-argument `deploy.sh`, rents capability from [[Stripe]], [[Cloudflare]], [[Mailchimp]], and [[Notion]] instead of hiring, and treats [[BoringTechnology]] plus resistance to overthinking as how one operator keeps shipping, with every outcome self-reported. The newest Learning By Shipping essay adds a technology-history layer to that business material: [[StevenSinofsky]] argues that products and services which failed spectacularly in the dot-com era returned as successful startups once the enabling foundation matured - mobile compute, battery life, touch interfaces, cellular bandwidth, location and maps, an authenticated social graph, flash storage, [[PayPal]]-style web payments, and a sharing culture - and defines execution as the complete product, price, place, and promotion mix, which he equates with [[ProductMarketFit]].",
   "topic_id": "business-and-markets"
 }

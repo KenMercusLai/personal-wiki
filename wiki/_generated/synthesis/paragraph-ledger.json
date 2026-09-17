@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e075231a76dbbeca3e316225bfa85970c48244524c9d43a4a9e99891fd533425",
       "a23c9f121fcf4949ea7d808e928dfc26bd0dc56fe5478840b24e0c2239547523",
       "2b9ff904c7b4794067655814660f81d6e7f08406ce9708b93619d3522c4b0a8a",
       "2dd6e27e7b66787ebfde1803d87afd3d944a2bdf3c4b3f6e4543496403b5e2c6",
@@ -281,11 +282,32 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 279
+    "paragraph_count": 280
   },
-  "overview_commit": "54db636296634323d648294ed4ec05dcf264f95f",
-  "overview_digest": "ae0ca58de321873b7d83dc13ce3cf7d1721867d466792fd912b69349c71a3ed1",
+  "overview_commit": "fa74470f3da288eb7122212258f7298ecf6d23db",
+  "overview_digest": "6334db261a7450df8fe83caeef72021daf3d8c46e06ac1bad90592e9ef5c6d55",
   "paragraphs": [
+    {
+      "id": "e075231a76dbbeca3e316225bfa85970c48244524c9d43a4a9e99891fd533425",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Sinofsky essay adds [[TechnologyEnablerStack]] to the wiki's account of why ideas fail and later succeed: products and services that failed spectacularly in the dot-com era returned as successful startups once a foundation everyone could rely on had matured, and the essay lists that foundation as mobile compute (roughly ten times the power of early-2000s PCs in two billion pockets), 16-20 hours of battery life against 4-6 for laptops, touch interfaces that force simplicity, cellular bandwidth treated as effectively unlimited, GPS-and-map location where printed street directories once served delivery, an authenticated social graph that replaced the anonymous screen name, flash storage without moving parts, [[PayPal]]-style payments that let merchants take money safely on the web, and a sharing culture that only became mainstream with Wikipedia and [[YouTube]]. Its companion claim is that there are few true inventions and that innovation is a stream of recombinations, so an earlier failure is evidence about the missing enablers rather than about the idea, and its execution claim is that execution is the complete product, price, place, and promotion mix - what it equates with product-market fit - so a remembered screenshot earns no credit. The essay is a 2016 practitioner retrospective chosen from later winners, so it evidences the framing more strongly than the causal weight of any single enabler, while it sharpens the wiki's [[StartupFailurePatterns]], [[IdeaVersusExecution]], and [[ProductMarketFit]] material by making timing and infrastructure explicit.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "IdeaVersusExecution",
+        "PayPal",
+        "ProductMarketFit",
+        "StartupFailurePatterns",
+        "TechnologyEnablerStack",
+        "YouTube"
+      ]
+    },
     {
       "id": "a23c9f121fcf4949ea7d808e928dfc26bd0dc56fe5478840b24e0c2239547523",
       "primary_topic": "ai-and-technology",

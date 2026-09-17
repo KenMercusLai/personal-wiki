@@ -5,17 +5,20 @@ tags: [person, management, writing, software]
 sources:
   - writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping
   - ces-2019-a-show-report-learning-by-shipping
-last_updated: 2026-09-15
+  - yesterdays-failures-are-todays-successes-learning-by-shipping
+last_updated: 2026-09-17
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[StevenSinofsky]] is represented in this wiki as a Learning By Shipping author who applies product-management judgment to both organizational writing and consumer-technology integration.
+[[StevenSinofsky]] is represented in this wiki as a Learning By Shipping author who applies product-management judgment to organizational writing, consumer-technology integration, and the technology-history argument about why ideas fail and later succeed.
 
 ## Current Profile
 Across the sources, Sinofsky argues from the perspective of a former [[Microsoft]] executive, long-form memo writer, and product observer. In the writing source, he treats writing as a management discipline that turns strategy into shareable reasoning: a written plan preserves rationale, reveals stakeholder implications, and gives teams the context needed to make consistent tradeoffs during execution. His argument is pro-writing but not blindly pro-process; he warns that successful rituals such as [[Amazon]] six-page memos can become status targets, be gamed through formatting tricks, or get mistaken for the work itself.
 
 The CES report shows the same reasoning style applied to consumer electronics. Sinofsky does not mainly catalog gadgets; he asks where intelligence, controls, standards, and runtime responsibility should live when every device can contain radios, sensors, cloud APIs, microphones, and apps. His product lens is optimistic about technical progress but skeptical of narrow demos, AI labels, and integration stories that do not yet make everyday use simple, reliable, and desirable.
+
+The 2016 essay on failed ideas shows a third register: technology history read through a product lens. It starts from the experience of watching your own concept fail and later become another company's success, and answers it with two claims - innovation is mostly recombination of older ideas, and the technology context of the moment decides what a concept can execute and how far it can diffuse. Its evidence is a list of enabling foundations that changed between the dot-com bust and the mid-2010s: mobile compute, battery life, touch interfaces, cellular bandwidth, location and maps, an authenticated social graph, flash storage, web payments, and a culture that accepted sharing. The essay's conclusion is product-management advice rather than history: execution is the complete set of product, price, place, and promotion, which he equates with product-market fit, so a remembered idea is not evidence that anyone executed it.
 
 ## Key Characteristics
 - Advocates writing as a way to think through strategy, not merely report decisions.
@@ -24,6 +27,7 @@ The CES report shows the same reasoning style applied to consumer electronics. S
 - Uses Microsoft memo experience as evidence that difficult strategic writing benefits from selective deep feedback.
 - Applies product-management judgment to connected consumer technology by asking where the smarts should be.
 - Warns that useful formats, standards, APIs, and integrations can become misleading when the label or demo outruns the real work.
+- Reads product failures historically, treating an early failed attempt as evidence about timing and enabling technology rather than about the idea alone.
 
 ## Evidence
 - Writing thesis: [[writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping]] presents Sinofsky's central claim that writing is thinking and that shared plans require written rationale.
@@ -33,13 +37,18 @@ The CES report shows the same reasoning style applied to consumer electronics. S
 - Connected-product lens: [[ces-2019-a-show-report-learning-by-shipping]] frames CES 2019 around the question of where the smarts should be in connected devices and services.
 - Demo and label skepticism: [[ces-2019-a-show-report-learning-by-shipping]] argues that voice integration, smart-home APIs, and AI signage can appear impressive before they become robust user experiences.
 - Process qualification: [[writing-is-thinking-an-annotated-twitter-thread-learning-by-shipping]] warns that memos can become evaluated as goals and can be gamed through fonts, margins, and layout constraints; [[ces-2019-a-show-report-learning-by-shipping]] applies a parallel caution to standards, integrations, and product demos.
+- Enabler argument: [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says products that failed during the dot-com bust later succeeded as other companies' startups once the enabling technology foundation matured.
+- Recombination and execution: [[yesterdays-failures-are-todays-successes-learning-by-shipping]] says there are few true inventions, and defines execution as the complete product, price, place, and promotion mix rather than as an idea or a screenshot.
 
 ## Qualifications
 This profile is source-scoped. It does not cover Sinofsky's full Microsoft career or later writing beyond the two ingested Learning By Shipping pieces. The CES report is a one-person show-floor lens rather than market research or a full technical audit of every product category.
 
+The 2016 essay is an argument from personal experience and a retrospective list of later winners, with rounded figures and no measurements, so it evidences a practitioner's framing of timing and enablers rather than a tested model of why products fail. The profile therefore covers three pieces from one author and one publication, which share a house style and are not independent corroboration of each other.
+
 ## What Changed
 - Created the source-scoped entity page for Sinofsky as an advocate of strategic writing and process-aware management.
 - Added Sinofsky's CES product-observer profile: optimistic about technical progress, but focused on integration, usability, and where intelligence should live.
+- Added the technology-history register, where earlier product failures are explained by a maturing enabling foundation rather than by bad ideas.
 
 ## Relationships
 - [[StrategicWriting]] - Sinofsky is the source's main advocate for writing as strategic reasoning.
@@ -50,3 +59,6 @@ This profile is source-scoped. It does not cover Sinofsky's full Microsoft caree
 - [[Microsoft]] - company context for his memo-writing experience.
 - [[Amazon]] - cautionary comparator for memo rituals and success attribution.
 - [[PeterPathe]] - person Sinofsky credits for the phrase "writing is thinking."
+- [[TechnologyEnablerStack]] - the enabler list and context-changes-execution argument in his 2016 essay.
+- [[InnovationAtIntersection]] - his claim that there are few true inventions, only recombinations, matches this concept.
+- [[ProductMarketFit]] - he defines execution as the full product, price, place, and promotion mix and calls that fit.
