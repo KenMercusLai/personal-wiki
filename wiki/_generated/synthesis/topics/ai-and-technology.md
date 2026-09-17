@@ -3,16 +3,16 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-09-15
-as_of_overview_commit: 7bdf0d5dc1b23aec86567480d2dc1f689c5e8ce4
-input_digest: d59e4b70c38e156fde4dc8c0ee9ec50e15470878a7a7dd83f6d4afdbba1a12c4
+last_updated: 2026-09-17
+as_of_overview_commit: db5116ba083b79351d904904a500a4807d531bf4
+input_digest: b43af46b71d826b73862c5f1d5244df1398dc7622e32072252c791f56de45f34
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot material adds an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The newest open-source source adds that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration.
 
 ## Cross-source Findings
 
@@ -132,10 +132,11 @@ Operational change safety, compliance evidence, database migration, and lifecycl
 
 ### Conversational Ui Needs Calibrated Scope
 
-[[ConversationalUI]] works better when its name, scope, and visible structure calibrate user expectations: first-wave "chatbot" framing overpromised humanlike conversation, while constrained bots often needed directed workflows, visible GUI surfaces, or true chat-first use cases such as [[Xiaoice]].
+[[ConversationalUI]] works better when its name, scope, and visible structure calibrate user expectations: first-wave "chatbot" framing overpromised humanlike conversation, while constrained bots often needed directed workflows, visible GUI surfaces, or true chat-first use cases such as [[Xiaoice]]. The same calibration governs voice, where [[VoiceAssistantUX]] shows that reliable recognition still leaves hand-built back-end coverage and the U-shaped command-discoverability curve as the binding constraints, [[AmazonEcho]] is the example credited with communicating its command limits better than a broader rival, and [[UncannyValleyOfAI]] names the resulting stage in which apparent generality outruns real coverage and [[ProductFlowFriction]] reappears as recall and expectation cost.
 
-**Evidence:** [[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[Xiaoice]]
+**Evidence:** [[AIMarketingHype]], [[AmazonEcho]], [[BenedictEvans]], [[ConversationalUI]], [[MessagingAsPlatform]], [[NaturalLanguageProcessing]], [[ProductFlowFriction]], [[UncannyValleyOfAI]], [[VoiceAssistantUX]], [[Xiaoice]]
 
 **Qualifications:**
 
 - The Botnerds source is an industry-positioning argument from 2016, so it is strongest as evidence about expectation-setting and category language rather than as a measured adoption study.
+- The voice evidence is a 2017 strategic essay written before large generative models could answer far more phrasing without per-intent construction, so its back-end coverage limit is sharper than the expectation and discoverability parts of the claim.

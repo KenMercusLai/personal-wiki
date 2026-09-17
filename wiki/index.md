@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Voice and the uncanny valley of AI](sources/voice-and-the-uncanny-valley-of-ai-benedict-evans.md) - Benedict Evans argues that voice input finally works but the hand-built back-end dialogue boxes do not scale, that users cannot remember what they may ask, and that better voice technology produced a worse experience at first.
 - [Understand, Design, Build: A Framework for Problem-Solving](sources/understand-design-build-a-framework-for-problem-solving-lob-blog.md) - Lob argues that engineers solve business problems rather than write code, and that understanding the problem and comparing approaches before building prevents interrupts, rework, and 2x-10x schedule overruns.
 - [Y Combinator CEO: If You Are Not Drowning in Demand, You Don't Have Product-Market Fit](sources/y-combinator-ceo-if-you-are-not-drowning-in-demand-you-dont-have-product-market-fit-capital-growth-blog.md) - Michael Seibel argues that product-market fit means demand that overwhelms capacity, that YC companies fail by presuming fit, and that technical founders, speed, commitment, and problem persistence are non-negotiable.
 - [Lucky vs. Repeatable](sources/collaborative-fund-lucky-vs-repeatable.md) - Morgan Housel argues that learners should separate repeatable skills and broad lessons from non-repeatable timing, market conditions, law, politics, and competitive context.
@@ -933,7 +934,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
-- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform strategy, Apple's trust-centered services positioning, transport-system consequences, and car software/interface transitions.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform strategy, Apple's trust-centered services positioning, transport-system consequences, car software/interface transitions, and the 2017 voice-assistant boom.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path, valuation caution, and later argument about intangible software economics.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
 - [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
@@ -948,7 +949,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Tim Cook](entities/TimCook.md) - Apple CEO tied to Services framing, active-device measurement, and Today at Apple retail positioning.
 - [Luca Maestri](entities/LucaMaestri.md) - Apple CFO tied to Apple's Services narrative, unit-disclosure change, and revenue/gross-margin framing.
 - [AirPlay 2](entities/AirPlay2.md) - Apple media streaming protocol used to reach third-party speakers and televisions while keeping Apple devices central.
-- [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform where Apple Music support protects Apple's content relationship with iPhone users.
+- [Amazon Echo](entities/AmazonEcho.md) - Smart-speaker platform where Apple Music support protects Apple's content relationship with iPhone users, and whose Alexa assistant is the reference case for scoping and communicating a voice product's limits.
 - [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming, as smart-TV content, and as an American Idol integration case.
 - [Camille Hearst](entities/CamilleHearst.md) - iTunes product manager in the American Idol integration case, balancing fan engagement with voting-signal constraints.
 - [Larry Jackson](entities/LarryJackson.md) - Apple Music content leader focused on artist collaboration, exclusives, and pop-culture positioning.
@@ -1123,6 +1124,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Uncanny Valley of AI](concepts/UncannyValleyOfAI.md) - Expectation-capability mismatch in AI products, where better realism or apparent generality makes the experience worse before coverage catches up.
 - [Understand, Design, Build](concepts/UnderstandDesignBuild.md) - Three-step problem-solving sequence of understanding the business problem and technical landscape, designing competing approaches, then building.
 - [Premature Implementation](concepts/PrematureImplementation.md) - Failure mode of building before the business problem and existing technical landscape are understood, producing needless interrupts and discarded work.
 - [Benefits, Risks, Mitigations](concepts/BenefitsRisksMitigations.md) - Design-comparison frame that states several candidate approaches and weighs each one's benefits, risks, and mitigations before committing.
@@ -1157,7 +1159,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
-- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by hands-free value, command discoverability, device naming, reliability, privacy, and whether microphones belong in every product.
+- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by hand-built back-end coverage, command discoverability, expectation setting, hands-free value, device naming, reliability, privacy, and whether microphones belong in every product.
 - [Smart Home Interoperability](concepts/SmartHomeInteroperability.md) - Ability of home devices, hubs, apps, standards, sensors, and infrastructure products to work together as a reliable household system.
 - [AI Marketing Hype](concepts/AIMarketingHype.md) - Pattern where "AI" becomes broad product-positioning language before the user benefit, model behavior, or technical distinction is clear.
 - [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.

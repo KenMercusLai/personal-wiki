@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-17
-as_of_overview_commit: af18edba53cef1c0ede38e06fb05392f9a37b7fc
+as_of_overview_commit: db5116ba083b79351d904904a500a4807d531bf4
 summary: "The wiki maps how technical systems, markets, institutions, work, learning, and personal judgment turn constraints into reusable practices for trust, change, and decision quality."
-episode_count: 323
-source_count: 323
-paragraph_count: 272
+episode_count: 324
+source_count: 324
+paragraph_count: 273
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. Interface sources add an expectation boundary: [[ConversationalUI]] and [[VoiceAssistantUX]] both depend on calibrated naming, visible constraints, and honest limits, and [[UncannyValleyOfAI]] names the stage where better capability makes the product feel worse.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
@@ -81,7 +81,7 @@ Science, health, and climate remains mostly indirect: it contains source-scoped 
 
 ### Work, Education, and Society
 
-Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems needing feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. The newest delivery-side source adds an ordering discipline: [[UnderstandDesignBuild]] puts problem understanding and [[BenefitsRisksMitigations]] comparison before building, [[PrematureImplementation]] names the cost of skipping that first step, and mentor check-ins make a junior's reasoning visible to the people supporting it.
+Work, education, and society sources frame learning, career development, collaboration, remote work, technical delivery, workplace incentives, and craft growth as practice-rich systems needing feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentive design, and deliberate social design. The newest delivery-side source adds an ordering discipline: [[UnderstandDesignBuild]] puts problem understanding and [[BenefitsRisksMitigations]] comparison before building, [[PrematureImplementation]] names the cost of skipping that first step, and mentor check-ins make a junior's reasoning visible to the people supporting it. One adjacent technology source arrives through shared vocabulary rather than a new work finding: [[VoiceAssistantUX]] and [[UncannyValleyOfAI]] restate the corpus's expectation-calibration boundary, where bounded scope and explicit limits serve users better than apparent generality.
 
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].

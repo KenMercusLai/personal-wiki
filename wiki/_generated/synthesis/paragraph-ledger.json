@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "096abfc06156fc732c216f8f784586042977cf9c25a810b0e7532f7fd09fac14",
       "5cd3283f7aa960be3c5bbac5c1cb6010634f18d4482736adc98a5fc3341bfc81",
       "7b95feb3369b58352587d43478bb72be3acf1cf482c668f061f48a22e34ddf0c",
       "a98b48e55da33fdcdaab004250da51142e93a73f69a558a206263d2a4376a0f8",
@@ -274,11 +275,33 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 272
+    "paragraph_count": 273
   },
-  "overview_commit": "af18edba53cef1c0ede38e06fb05392f9a37b7fc",
-  "overview_digest": "bd00c2389ebc713f8d55c526d6d92d035c6efd177d9e263cece6a7c1df4e962f",
+  "overview_commit": "db5116ba083b79351d904904a500a4807d531bf4",
+  "overview_digest": "2f3b67725841df919ebe85e6c69b72a9068e4c55f53a5bea5b6c93781e212211",
   "paragraphs": [
+    {
+      "id": "096abfc06156fc732c216f8f784586042977cf9c25a810b0e7532f7fd09fac14",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Evans source adds [[VoiceAssistantUX]] and [[UncannyValleyOfAI]] to the wiki's platform-strategy and product-experience material. [[BenedictEvans]] argues that the 2017 voice boom rested on real enablers - machine learning that finally made recognition and intent parsing work, cheap smartphone-supply-chain components and contract manufacturing, GAFA-scale revenue, and platform anxiety about Apple and Google controlling mobile distribution - while only the input half of the problem was solved. Transcribing a request and being able to execute it are different capabilities: the back-end dialogue boxes have to be hand-built, so the assistant is a machine-learned front end on a pre-data expert system that cannot scale to arbitrary questions without general AI. [[UncannyValleyOfAI]] names the resulting product experience, in which better technology produces a worse result at first because apparent generality outruns real coverage. The essay's practical conclusions connect to [[ConversationalUI]], [[ProductFlowFriction]], and [[AmazonEcho]]: voice needs a narrow and predictable domain, users must be told what they can ask, [[AIMarketingHype]]-style overpromising backfires, and some tasks need a screen with the voice part made optional.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AIMarketingHype",
+        "AmazonEcho",
+        "BenedictEvans",
+        "ConversationalUI",
+        "ProductFlowFriction",
+        "UncannyValleyOfAI",
+        "VoiceAssistantUX"
+      ]
+    },
     {
       "id": "5cd3283f7aa960be3c5bbac5c1cb6010634f18d4482736adc98a5fc3341bfc81",
       "primary_topic": "business-and-markets",

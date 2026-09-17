@@ -2598,3 +2598,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-17] ingest | Voice and the uncanny valley of AI
+
+Ingested Benedict Evans' 2017 essay on the voice-assistant boom. New pages: the source note and [[UncannyValleyOfAI]]. Updated [[VoiceAssistantUX]] with the hand-built dialogue-box coverage limit, the U-shaped command-discoverability curve, the screen fallback, and the habit/mental-model prerequisite; updated [[BenedictEvans]] and [[AmazonEcho]]. Key claims: voice input works while back-end intent execution does not scale without general AI; narrow, predictable domains plus explicit expectation setting decide whether a voice product feels good; and better technology produced a worse experience at first. The source contained no effective image references.
+
+## [2026-09-17] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
