@@ -3,16 +3,16 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-09-15
-as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
-input_digest: 873ee6e136c9b0498f092d16edad0974d5ab0c74d006b1c307902c2ce6b857b0
+last_updated: 2026-09-19
+as_of_overview_commit: 5b9139276731171b53cf0f8ddc14dc12af8a4f15
+input_digest: 24d771e86f8a26e9aaa3b636eced6bb7c680fd056021ac7bf1c1f2f7919209f4
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates.
 
 ## Cross-source Findings
 
@@ -96,10 +96,11 @@ Platforms and institutions gain power when they become trusted intermediaries fo
 
 ### Technical Systems Embed Social Consequences
 
-Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, or user autonomy.
+Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, user autonomy, or shared physical space; [[AutonomousDrivingSafety]] shows that socially illegible automation can become either a privileged threat or an exploitable obstacle even when collision avoidance improves.
 
-**Evidence:** [[WelfareSurveillance]], [[HTTP402PaymentRequired]], [[AgentPermissionModel]], [[VolunteerCampaignTechnology]], [[ArtworkPersonalization]]
+**Evidence:** [[WelfareSurveillance]], [[HTTP402PaymentRequired]], [[AgentPermissionModel]], [[VolunteerCampaignTechnology]], [[ArtworkPersonalization]], [[AutonomousDrivingSafety]]
 
 **Qualifications:**
 
-- The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, and entertainment artwork.
+- The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, entertainment artwork, and autonomous transport.
+- The autonomous-driving argument is a 2017 forecast, and standardized intention signals or policy could change the predicted legitimacy and coordination failures.

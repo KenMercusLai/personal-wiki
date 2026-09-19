@@ -2690,3 +2690,11 @@ Added Steven Sinofsky's 2016 Learning By Shipping essay on why ideas that failed
 ## [2026-09-17] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-19] ingest | Unexpected Consequences of Self Driving Cars
+
+Added Rodney Brooks' 2017 essay and comment thread on the social consequences of Level 4 and Level 5 autonomous vehicles. Created the source note and [[RodneyBrooks]] entity; updated [[AutonomousDrivingSafety]] with tacit pedestrian-driver negotiation, social legibility, operational-domain limits, machine-death risk tolerance, and the dispute over trolley-style ethics; and updated [[AutomobilitySecondOrderEffects]] with empty-vehicle circulation, strategic parking and queue use, commons costs, shared-fleet qualifications, and policy or signalling remedies. Key claims: vehicles that cannot read and reciprocate local street conventions may become opaque threats or exploitable traffic obstacles; automation lets owners trade their own time for shared road, curb, parking, and institutional capacity; early Level 4 deployment is therefore likely to remain geographically and operationally constrained; and public acceptance may lag aggregate safety improvement. The comment thread materially qualifies the essay by proposing standardized intention indicators, restrictions on unoccupied travel, and shared fleets, and by reframing ethics as everyday risk allocation. The source Markdown contains no effective image references, so no image inspection was required.
+
+## [2026-09-19] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

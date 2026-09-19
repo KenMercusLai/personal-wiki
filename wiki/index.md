@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Unexpected Consequences of Self Driving Cars](sources/unexpected-consequences-of-self-driving-cars-rodney-brooks.md) - Rodney Brooks argues that autonomous vehicles must negotiate tacit street norms and may create congestion, parking, legitimacy, and policy problems even when they drive safely.
 - [What Is ChatGPT Doing … and Why Does It Work?](sources/what-is-chatgpt-doing-and-why-does-it-work.md) - Stephen Wolfram explains ChatGPT as a next-token predictor, building from n-gram counting and neural-net training to embeddings, attention, and the claim that language is more law-like than assumed.
 - [Yesterday's Failures Are Today's Successes](sources/yesterdays-failures-are-todays-successes-learning-by-shipping.md) - Steven Sinofsky argues that dot-com-era ideas returned as successful startups once the enabling foundation matured, listing mobile compute, battery, touch, bandwidth, location, identity, storage, payments, and sharing culture, and defining execution as the full product, price, place, and promotion mix.
 - [Unethical growth hacks: A look into the growing Youtube news bot epidemic](sources/unethical-growth-hacks-youtube-news-bot-epidemic.md) - A HackerNoon writer traces automated YouTube channels that turn stolen BBC, ABC, and Reuters reporting into monetized news videos, estimates their view and ad economics, and argues Google barely enforces against the practice while its search results favor video.
@@ -341,6 +342,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Rodney Brooks](entities/RodneyBrooks.md) - Roboticist and essayist analyzing autonomous vehicles as social actors whose adoption depends on legibility, public acceptance, and real-world perception.
 - [Stephen Wolfram](entities/StephenWolfram.md) - Scientist-entrepreneur and author who explains ChatGPT from first principles and argues its success points to explicit laws of language.
 - [Wolfram Language](entities/WolframLanguage.md) - Computational language used for every example in the ChatGPT essay and proposed as the precise symbolic medium for a future discourse language.
 - [WolframAlpha](entities/WolframAlpha.md) - Computational knowledge engine proposed as the external tool a language model needs when a task requires real computation.

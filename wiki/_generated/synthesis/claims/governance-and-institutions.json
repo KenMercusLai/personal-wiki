@@ -143,19 +143,21 @@
       "global_candidate": false,
       "id": "technical-systems-embed-social-consequences",
       "qualifications": [
-        "The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, and entertainment artwork."
+        "The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, entertainment artwork, and autonomous transport.",
+        "The autonomous-driving argument is a 2017 forecast, and standardized intention signals or policy could change the predicted legitimacy and coordination failures."
       ],
-      "statement": "Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, or user autonomy.",
+      "statement": "Technical systems that look operationally narrow can carry social consequences when they mediate access, visibility, labor, public culture, user autonomy, or shared physical space; [[AutonomousDrivingSafety]] shows that socially illegible automation can become either a privileged threat or an exploitable obstacle even when collision avoidance improves.",
       "status": "qualified",
       "supporting_wikilinks": [
         "WelfareSurveillance",
         "HTTP402PaymentRequired",
         "AgentPermissionModel",
         "VolunteerCampaignTechnology",
-        "ArtworkPersonalization"
+        "ArtworkPersonalization",
+        "AutonomousDrivingSafety"
       ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates.",
   "topic_id": "governance-and-institutions"
 }

@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e9b393e78c57fbf069d0fe5daf36f3c121d070a50dc496381de31cc4df7ea36a",
+      "f0386dab63fa2877019c5e4100bfeaee906fc14e4d3400e5ca07375abe74827e",
       "556938b7ac7bc699ac0df5111f550ceced99ad128d16f5bb76ba2ae0c733acf0",
       "e075231a76dbbeca3e316225bfa85970c48244524c9d43a4a9e99891fd533425",
       "a23c9f121fcf4949ea7d808e928dfc26bd0dc56fe5478840b24e0c2239547523",
@@ -283,11 +285,40 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 281
+    "paragraph_count": 283
   },
-  "overview_commit": "23c8de79aacb30fb4e8aeedc909829913fe04256",
-  "overview_digest": "2c3550788e46c6bca84c6a59705a95b2aadb90310645e032e6c358cdf71e272c",
+  "overview_commit": "5b9139276731171b53cf0f8ddc14dc12af8a4f15",
+  "overview_digest": "61512f1e58ff49b55ed1661556ef1d8f377ea0e901991226c9fac581d776f1dd",
   "paragraphs": [
+    {
+      "id": "e9b393e78c57fbf069d0fe5daf36f3c121d070a50dc496381de31cc4df7ea36a",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest Rodney Brooks source adds a social-legibility and commons layer to the wiki's autonomous-vehicle material. [[AutonomousDrivingSafety]] now includes the tacit negotiation by which pedestrians and drivers acknowledge one another, infer intent, yield, reward patience, and follow locally variable street norms. A driverless vehicle that cannot participate may become either an opaque privileged threat or an over-cautious obstacle that pedestrians exploit and human drivers resent. This strengthens the case for constrained operational domains and adds a public-legitimacy problem: machine-caused deaths may face a much stricter tolerance than the larger human-driving baseline, even if automation reduces total harm. The source's comment thread preserves the counterargument that ethics still appears in everyday risk allocation and defensible design policy, even if Brooks rejects trolley cases whose distinctions vehicles cannot reliably perceive.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AutonomousDrivingSafety"
+      ]
+    },
+    {
+      "id": "f0386dab63fa2877019c5e4100bfeaee906fc14e4d3400e5ca07375abe74827e",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The same source extends [[AutomobilitySecondOrderEffects]] through owner-directed empty vehicles. Circling instead of parking, movable illegal waiting, advance occupation of scarce spaces, and unattended school queues show how automation can exchange an owner's time for congestion, curb, parking, and institutional costs borne by others. Those outcomes are conditional rather than inevitable: commenters propose shared fleets, limits on unoccupied travel, queue and parking rules, and standardized intention indicators. The broader synthesis is that autonomous driving's capacity and convenience gains will be shaped by adaptation, ownership, pricing, policy, and social signalling rather than vehicle control alone.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AutomobilitySecondOrderEffects"
+      ]
+    },
     {
       "id": "556938b7ac7bc699ac0df5111f550ceced99ad128d16f5bb76ba2ae0c733acf0",
       "primary_topic": "ai-and-technology",
