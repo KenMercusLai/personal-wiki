@@ -28,6 +28,14 @@ ASSET_NAME_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]*")
 ALLOWED_IMAGE_SUFFIXES = {".gif", ".jpeg", ".jpg", ".png", ".webp"}
 MAX_IMAGE_BYTES = 32 * 1024 * 1024
 MAX_IMAGE_DIMENSION = 20_000
+MAX_IMAGE_PIXELS = 40_000_000
+
+
+@dataclass(frozen=True)
+class MarkdownImage:
+    start: int
+    end: int
+    raw: str
 
 
 @dataclass(frozen=True)
@@ -246,10 +254,24 @@ def _image_dimensions(data: bytes, suffix: str) -> tuple[int, int]:
     raise ValueError("unsupported image format")
 
 
+def _strict_json_object(pairs: list[tuple[str, object]]) -> dict[str, object]:
+    value: dict[str, object] = {}
+    for key, item in pairs:
+        if key in value:
+            raise ValueError(f"duplicate JSON key: {key}")
+        value[key] = item
+    return value
+
+
 def load_image_sidecars(root: Path, sources: list[WikiPage]) -> dict[str, list[tuple[str, str, bytes]]]:
     assets_root = root / "wiki-assets"
     _require_regular_tree(assets_root, "canonical wiki assets")
     source_keys = {page.key for page in sources}
+    root_entries = sorted(
+        path.name for path in assets_root.iterdir() if not path.is_dir()
+    )
+    if root_entries:
+        raise ValueError(f"unexpected file in wiki-assets root: {root_entries[0]}")
     actual_directories = {path.name for path in assets_root.iterdir() if path.is_dir()}
     extra = sorted(actual_directories - source_keys)
     if extra:
@@ -261,12 +283,24 @@ def load_image_sidecars(root: Path, sources: list[WikiPage]) -> dict[str, list[t
         if not manifest_path.is_file() or manifest_path.is_symlink():
             raise ValueError(f"missing image manifest for source {key}")
         try:
-            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError as exc:
+            manifest = json.loads(
+                manifest_path.read_text(encoding="utf-8"),
+                object_pairs_hook=_strict_json_object,
+                parse_constant=lambda value: (_ for _ in ()).throw(
+                    ValueError(f"invalid JSON constant: {value}")
+                ),
+            )
+        except (json.JSONDecodeError, UnicodeDecodeError, ValueError) as exc:
             raise ValueError(f"invalid image manifest for source {key}") from exc
         if not isinstance(manifest, dict) or set(manifest) != {"version", "source_key", "images"}:
             raise ValueError(f"invalid image manifest schema for source {key}")
-        if manifest["version"] != 1 or manifest["source_key"] != key or not isinstance(manifest["images"], list):
+        if (
+            type(manifest["version"]) is not int
+            or manifest["version"] != 1
+            or not isinstance(manifest["source_key"], str)
+            or manifest["source_key"] != key
+            or not isinstance(manifest["images"], list)
+        ):
             raise ValueError(f"invalid image manifest identity for source {key}")
         images: list[tuple[str, str, bytes]] = []
         names: set[str] = set()
@@ -278,7 +312,12 @@ def load_image_sidecars(root: Path, sources: list[WikiPage]) -> dict[str, list[t
                 raise ValueError(f"invalid image filename for source {key}")
             if name.casefold() in {item.casefold() for item in names}:
                 raise ValueError(f"duplicate image filename for source {key}: {name}")
-            if not isinstance(alt, str) or not alt.strip() or any(char in alt for char in "\r\n\x00"):
+            if (
+                not isinstance(alt, str)
+                or not alt
+                or alt != alt.strip()
+                or any(char in alt for char in "\r\n\x00")
+            ):
                 raise ValueError(f"invalid image alt text for source {key}: {name}")
             suffix = Path(name).suffix.casefold()
             if suffix not in ALLOWED_IMAGE_SUFFIXES:
@@ -290,11 +329,25 @@ def load_image_sidecars(root: Path, sources: list[WikiPage]) -> dict[str, list[t
             if not data or len(data) > MAX_IMAGE_BYTES:
                 raise ValueError(f"invalid image size for source {key}: {name}")
             width, height = _image_dimensions(data, suffix)
-            if not (1 <= width <= MAX_IMAGE_DIMENSION and 1 <= height <= MAX_IMAGE_DIMENSION):
+            if (
+                not (1 <= width <= MAX_IMAGE_DIMENSION and 1 <= height <= MAX_IMAGE_DIMENSION)
+                or width * height > MAX_IMAGE_PIXELS
+            ):
                 raise ValueError(f"invalid image dimensions for source {key}: {name}")
             names.add(name)
-            images.append((name, alt.strip(), data))
-        extras = sorted(path.name for path in directory.iterdir() if path.is_file() and path.name != "manifest.json" and path.name not in names)
+            images.append((name, alt, data))
+        nested = sorted(
+            path.relative_to(directory).as_posix()
+            for path in directory.rglob("*")
+            if path.is_dir() or path.parent != directory
+        )
+        if nested:
+            raise ValueError(f"nested path in image sidecar for source {key}: {nested[0]}")
+        extras = sorted(
+            path.name
+            for path in directory.iterdir()
+            if path.is_file() and path.name != "manifest.json" and path.name not in names
+        )
         if extras:
             raise ValueError(f"unlisted image for source {key}: {extras[0]}")
         result[key] = images
@@ -357,8 +410,69 @@ def _stats(pages: list[WikiPage], references: int) -> bytes:
     return _front_matter(['title: "Wiki Stats"', 'type: "wiki"', 'url: "/wiki/stats/"', 'outputs: ["html"]'], body)
 
 
+CANONICAL_IMAGE_LINE = re.compile(
+    r"!\[(?P<alt>[^\]\r\n]+)\]"
+    r"\(\.\./\.\./wiki-assets/"
+    r"(?P<source_key>[A-Za-z0-9][A-Za-z0-9._-]*)/"
+    r"(?P<file>[A-Za-z0-9][A-Za-z0-9._-]*)\)"
+)
+IMAGE_SYNTAX_HINT = re.compile(r"!\[|(?i:<\s*(?:img|picture|source)\b)|wiki-assets/")
+RAW_MARKUP = re.compile(r"<!--|-->|<\?|<![A-Z]|</?[A-Za-z]")
+
+
+def _markdown_images(text: str) -> list[MarkdownImage]:
+    """Accept only standalone canonical image lines outside front matter and fences."""
+    if not IMAGE_SYNTAX_HINT.search(text):
+        return []
+    if RAW_MARKUP.search(text):
+        raise ValueError("unsupported canonical image reference: raw markup")
+
+    front_matter_end = -1
+    if text.startswith("---\n") or text.startswith("---\r\n"):
+        match = re.search(r"(?m)^---\s*$", text[text.find("\n") + 1:])
+        if match:
+            front_matter_end = text.find("\n") + 1 + match.end()
+
+    images: list[MarkdownImage] = []
+    fence_char = ""
+    fence_size = 0
+    offset = 0
+    for line in text.splitlines(keepends=True):
+        content = line.rstrip("\r\n")
+        stripped = content.lstrip(" ")
+        indentation = len(content) - len(stripped)
+        marker = re.match(r"(`{3,}|~{3,})", stripped) if indentation <= 3 else None
+        if marker and IMAGE_SYNTAX_HINT.search(content):
+            raise ValueError("image reference is not allowed on a fence marker line")
+        if marker:
+            token = marker.group(1)
+            if not fence_char:
+                fence_char = token[0]
+                fence_size = len(token)
+            elif (
+                token[0] == fence_char
+                and len(token) >= fence_size
+                and not stripped[len(token):].strip()
+            ):
+                fence_char = ""
+                fence_size = 0
+        elif IMAGE_SYNTAX_HINT.search(content):
+            match = CANONICAL_IMAGE_LINE.fullmatch(content)
+            if (
+                match is None
+                or fence_char
+                or (front_matter_end >= 0 and offset <= front_matter_end)
+            ):
+                raise ValueError(
+                    "image references must be standalone canonical body lines"
+                )
+            images.append(MarkdownImage(offset, offset + len(content), content))
+        offset += len(line)
+    return images
+
+
 def _source_projection(page: WikiPage, images: list[tuple[str, str, bytes]]) -> bytes:
-    source = page.path.read_text(encoding="utf-8").rstrip()
+    source = page.path.read_text(encoding="utf-8")
     date = page.metadata.get("date")
     if isinstance(date, str) and re.fullmatch(r"[0-9]{4}-(?:0[1-9]|1[0-2])", date):
         lines = source.splitlines()
@@ -378,21 +492,30 @@ def _source_projection(page: WikiPage, images: list[tuple[str, str, bytes]]) -> 
                 lines[index] = f"{key}:{raw.replace(value, replacement, 1)}"
                 break
         source = "\n".join(lines)
-    for name, alt, _ in images:
-        canonical = f"![{alt}](../../wiki-assets/{page.key}/{name})"
-        if source.count(canonical) != 1:
-            raise ValueError(
-                f"source image reference must occur exactly once: {page.key}: {canonical}"
-            )
-        source = source.replace(canonical, f"![{alt}]({name})", 1)
-    leftover = re.search(
-        r"!\[[^\]\r\n]+\]\(\.\./\.\./wiki-assets/[^\s)]+\)", source
-    )
-    if leftover:
-        raise ValueError(
-            f"unlisted canonical image reference: {page.key}: {leftover.group(0)}"
+    expected = [
+        (
+            f"![{alt}](../../wiki-assets/{page.key}/{name})",
+            f"![{alt}]({name})",
         )
-    return (source + "\n\n" + GENERATED_NOTICE + "\n").encode("utf-8")
+        for name, alt, _ in images
+    ]
+    actual = _markdown_images(source)
+    expected_raw = [canonical for canonical, _local in expected]
+    actual_raw = [image.raw for image in actual]
+    if actual_raw != expected_raw:
+        missing = [reference for reference in expected_raw if actual_raw.count(reference) != 1]
+        if missing:
+            raise ValueError(
+                f"source image reference must occur exactly once and in manifest order: "
+                f"{page.key}: {missing[0]}"
+            )
+        unexpected = [reference for reference in actual_raw if reference not in expected_raw]
+        if unexpected:
+            raise ValueError(f"unlisted canonical image reference: {page.key}: {unexpected[0]}")
+        raise ValueError(f"source image references are not in manifest order: {page.key}")
+    for image, (_canonical, local) in reversed(list(zip(actual, expected))):
+        source = source[:image.start] + local + source[image.end:]
+    return (source.rstrip() + "\n\n" + GENERATED_NOTICE + "\n").encode("utf-8")
 
 
 def _knowledge_signals(pages: list[WikiPage]) -> dict[str, object]:

@@ -173,6 +173,112 @@ class ExactConsumerContractTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "unlisted canonical image reference"):
                 prepare.prepare(fixture)
 
+    def test_source_projection_rejects_noncanonical_or_nonrendered_image_syntax(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_image_syntax")
+        variants = {
+            "html comment": "<!-- {reference} -->",
+            "fenced code": "```markdown\n{reference}\n```",
+            "fence marker line": "``` {reference}",
+            "trailing spaces": "{reference}  ",
+            "indented code": "    {reference}",
+            "raw code block": "<pre><code>{reference}</code></pre>",
+            "unclosed raw block": "<div>\n{reference}",
+            "bare raw block opener": "<div\n{reference}",
+            "list item": "- {reference}",
+            "link title": '[example](https://example.test "{reference}")',
+            "inline html attribute": '<x data-image="{reference}"></x>',
+            "processing instruction": "<?image {reference}?>",
+            "custom raw block": "<x>\n{reference}\n</x>",
+            "optional title": '![{alt}](../../wiki-assets/{key}/{file} "title")',
+            "angle destination": "![{alt}](<../../wiki-assets/{key}/{file}>)",
+            "empty alt": "![](../../wiki-assets/{key}/{file})",
+            "escaped alt": r"![Pricing \[page\]](../../wiki-assets/{key}/{file})",
+            "reference style": "![{alt}][pricing]\n\n[pricing]: ../../wiki-assets/{key}/{file}",
+            "raw html": '<img src="../../wiki-assets/{key}/{file}" alt="{alt}">',
+        }
+        for label, template in variants.items():
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as td:
+                fixture = Path(td)
+                shutil.copytree(ROOT / "wiki", fixture / "wiki")
+                shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+                source_key, filename, alt = ensure_image_record(fixture)
+                source_path = fixture / "wiki" / "sources" / f"{source_key}.md"
+                canonical = f"![{alt}](../../wiki-assets/{source_key}/{filename})"
+                replacement = template.format(
+                    reference=canonical, alt=alt, key=source_key, file=filename
+                )
+                source_path.write_text(
+                    source_path.read_text(encoding="utf-8").replace(canonical, replacement),
+                    encoding="utf-8",
+                )
+
+                with self.assertRaisesRegex(ValueError, "image reference"):
+                    prepare.prepare(fixture)
+
+    def test_source_projection_rejects_front_matter_and_duplicate_image_references(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_image_cardinality")
+        for label in ("front matter", "duplicate"):
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as td:
+                fixture = Path(td)
+                shutil.copytree(ROOT / "wiki", fixture / "wiki")
+                shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+                source_key, filename, alt = ensure_image_record(fixture)
+                source_path = fixture / "wiki" / "sources" / f"{source_key}.md"
+                canonical = f"![{alt}](../../wiki-assets/{source_key}/{filename})"
+                source = source_path.read_text(encoding="utf-8")
+                if label == "front matter":
+                    source = source.replace(canonical, "")
+                    source = source.replace("---\n", f"---\nimage: {json.dumps(canonical)}\n", 1)
+                else:
+                    source = source.rstrip() + f"\n\n{canonical}\n"
+                source_path.write_text(source, encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "image reference"):
+                    prepare.prepare(fixture)
+
+    def test_sidecar_schema_rejects_nonexact_records(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_sidecar_schema")
+        for label in (
+            "boolean version",
+            "padded alt",
+            "root file",
+            "nested path",
+            "empty nested directory",
+            "duplicate key",
+        ):
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as td:
+                fixture = Path(td)
+                shutil.copytree(ROOT / "wiki", fixture / "wiki")
+                shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+                source_key, _filename, _alt = ensure_image_record(fixture)
+                directory = fixture / "wiki-assets" / source_key
+                manifest_path = directory / "manifest.json"
+                manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                if label == "boolean version":
+                    manifest["version"] = True
+                    manifest_path.write_text(json.dumps(manifest) + "\n", encoding="utf-8")
+                elif label == "padded alt":
+                    manifest["images"][0]["alt"] = f" {manifest['images'][0]['alt']} "
+                    manifest_path.write_text(json.dumps(manifest) + "\n", encoding="utf-8")
+                elif label == "root file":
+                    (fixture / "wiki-assets" / "unexpected.bin").write_bytes(b"unexpected")
+                elif label == "nested path":
+                    nested = directory / "nested"
+                    nested.mkdir()
+                    (nested / "unlisted.bin").write_bytes(b"unlisted")
+                elif label == "empty nested directory":
+                    (directory / "empty").mkdir()
+                else:
+                    manifest_path.write_text(
+                        '{"version":1,"version":1,"source_key":'
+                        + json.dumps(source_key)
+                        + ',"images":[]}\n',
+                        encoding="utf-8",
+                    )
+                with self.assertRaisesRegex(
+                    ValueError, "image|manifest|sidecar|nested|unexpected file"
+                ):
+                    prepare.prepare(fixture)
+
     def test_month_only_source_date_is_normalized_only_in_hugo_projection(self):
         prepare = load_script(PREPARE, "prepare_personal_wiki_month_date")
         key = "blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li"
