@@ -134,6 +134,45 @@ class ExactConsumerContractTest(unittest.TestCase):
             source = (ROOT / ".generated/wiki/sources" / source_key / "index.md").read_text()
             self.assertIn(f"![{alt}]({filename})", source)
 
+    def test_source_projection_rewrites_canonical_image_reference_in_place(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_explicit_image_reference")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+            source_key, filename, alt = ensure_image_record(fixture)
+
+            prepare.prepare(fixture)
+
+            projected = (
+                fixture / ".generated" / "wiki" / "sources" / source_key / "index.md"
+            ).read_text(encoding="utf-8")
+            self.assertNotIn("../../wiki-assets/", projected)
+            self.assertEqual(projected.count(f"![{alt}]({filename})"), 1)
+            self.assertNotIn("## Images", projected)
+            self.assertTrue(
+                (fixture / ".generated" / "wiki" / "sources" / source_key / filename).is_file()
+            )
+
+    def test_source_projection_rejects_unlisted_canonical_image_reference(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_unlisted_image_reference")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            shutil.copytree(ROOT / "wiki-assets", fixture / "wiki-assets")
+            source_key = canonical_pages(fixture, "sources")[0][0]
+            source_path = fixture / "wiki" / "sources" / f"{source_key}.md"
+            source_path.write_text(
+                source_path.read_text(encoding="utf-8").rstrip()
+                + "\n\n![Missing](../../wiki-assets/"
+                + source_key
+                + "/missing.png)\n",
+                encoding="utf-8",
+            )
+
+            with self.assertRaisesRegex(ValueError, "unlisted canonical image reference"):
+                prepare.prepare(fixture)
+
     def test_month_only_source_date_is_normalized_only_in_hugo_projection(self):
         prepare = load_script(PREPARE, "prepare_personal_wiki_month_date")
         key = "blog-taresky-wu-feng-xian-nian-hua-360-xiao-bai-crypto-tao-li"
@@ -213,6 +252,15 @@ class ExactConsumerContractTest(unittest.TestCase):
             removed = manifest["images"].pop()
             manifest_path.write_text(
                 json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
+            source_path = fixture / "wiki" / "sources" / f"{source_key}.md"
+            canonical = (
+                f"![{removed['alt']}]"
+                f"(../../wiki-assets/{source_key}/{removed['file']})"
+            )
+            source_path.write_text(
+                source_path.read_text(encoding="utf-8").replace(canonical, ""),
                 encoding="utf-8",
             )
             (source_assets / removed["file"]).unlink()

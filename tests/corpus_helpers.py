@@ -153,6 +153,13 @@ def ensure_image_record(root: Path) -> tuple[str, str, str]:
         + "\n",
         encoding="utf-8",
     )
+    source_path = root / "wiki" / "sources" / f"{source_key}.md"
+    source_path.write_text(
+        source_path.read_text(encoding="utf-8").rstrip()
+        + f"\n\n## Image Evidence\n\n"
+        + f"![{alt}](../../wiki-assets/{source_key}/{filename})\n",
+        encoding="utf-8",
+    )
     return source_key, filename, alt
 
 

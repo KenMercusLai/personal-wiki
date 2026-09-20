@@ -378,8 +378,20 @@ def _source_projection(page: WikiPage, images: list[tuple[str, str, bytes]]) -> 
                 lines[index] = f"{key}:{raw.replace(value, replacement, 1)}"
                 break
         source = "\n".join(lines)
-    if images:
-        source += "\n\n## Images\n\n" + "\n\n".join(f"![{alt}]({name})" for name, alt, _ in images)
+    for name, alt, _ in images:
+        canonical = f"![{alt}](../../wiki-assets/{page.key}/{name})"
+        if source.count(canonical) != 1:
+            raise ValueError(
+                f"source image reference must occur exactly once: {page.key}: {canonical}"
+            )
+        source = source.replace(canonical, f"![{alt}]({name})", 1)
+    leftover = re.search(
+        r"!\[[^\]\r\n]+\]\(\.\./\.\./wiki-assets/[^\s)]+\)", source
+    )
+    if leftover:
+        raise ValueError(
+            f"unlisted canonical image reference: {page.key}: {leftover.group(0)}"
+        )
     return (source + "\n\n" + GENERATED_NOTICE + "\n").encode("utf-8")
 
 
