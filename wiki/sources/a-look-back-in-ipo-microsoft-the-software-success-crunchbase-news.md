@@ -32,4 +32,4 @@ Crunchbase News looks back at [[Microsoft]]'s 1986 IPO as an unusually profitabl
 
 ## Contradictions
 - No direct contradictions with existing wiki content. The source adds an origin-stage financial profile for [[Microsoft]] that complements the existing mobile-platform and marketing examples.
-- The local embedded asset named `a2692b3cf5a63f969b94c3bdd0a26a3c_MD5.png` could not be treated as an image because it is actually an HTML page for an Instagram downloader; it was not used as evidence.
+- The local embedded asset could not be treated as an image because it is actually an HTML page for an Instagram downloader; it was not used as evidence.

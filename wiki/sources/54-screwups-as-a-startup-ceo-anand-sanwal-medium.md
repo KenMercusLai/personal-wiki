@@ -39,5 +39,8 @@ source_file: "/mnt/ken_personal_wiki/Articles/54 Screwups as a Startup CEO - Ana
 - No direct contradictions found. The source qualifies the wiki's startup-scaling material by showing that some lessons pull in opposite directions depending on stage and context: ship earlier but improve requirements, hire carefully but avoid moving too slowly on exceptional candidates, celebrate wins but stay hungry, and use customer feedback without letting non-customers or competitors steer the roadmap.
 
 ## Image Notes
-- `3599a16c145a071fe88cde3e69ee99ad_MD5.png` is a readable screenshot of an early CB Insights pricing page. It shows themed vehicle plans named Limo, Town Car, and Cab, monthly prices of $900, $480, and $300, usage limits, an annual-license callout, and "Our best value!" copy, supporting the article's pricing critique.
-- `bce25941f2ac1ce14242118539088d0e_MD5.png` is a tiny duplicate/thumbnail of the same pricing screenshot and adds no separate evidence.
+
+![Early CB Insights pricing page listing Limo, Town Car, and Cab plans with monthly prices and usage limits](../../wiki-assets/54-screwups-as-a-startup-ceo-anand-sanwal-medium/cb-insights-pricing-page.png)
+
+- This early CB Insights pricing page shows themed vehicle plans named Limo, Town Car, and Cab, monthly prices of $900, $480, and $300, usage limits, an annual-license callout, and "Our best value!" copy, supporting the article's pricing critique.
+- A tiny duplicate/thumbnail of the same pricing screenshot added no separate evidence and was not preserved.
