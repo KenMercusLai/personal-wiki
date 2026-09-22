@@ -179,6 +179,7 @@
       "88d58ec7fb47bce00d096dda2b0e2f3169fb260f92ea431ce911b322a3430161",
       "8e3c224ec439e70da1da28912027e051bab3defad541f738adca26ae1743d328",
       "b1d7c87850c82bc36f48352cd4565540da0c667e96f49eb26becfd9be95b1ca8",
+      "ef95e4d279aff03ab71f977af59457fd0f05652485e93367a10aa12f2daeccf0",
       "e54e169c8a7495118270ac2ea0fdbad5180a656c009ada96a9a8c9d0740a027d",
       "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
       "f92b4444e1d63494cf7cc4dd6b0e7c8dda39365c4b3b0b180b8d5d38a1d41705",
@@ -301,10 +302,10 @@
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b"
     ],
-    "paragraph_count": 299
+    "paragraph_count": 300
   },
-  "overview_commit": "e40efbe05b6dcae40daa8423f63d6b5b53767e13",
-  "overview_digest": "a54d8e797ca28aa15a03fe1cb61c8f41e14fc4e761362da0b20058029a6467a3",
+  "overview_commit": "6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c",
+  "overview_digest": "71e3b1e7d16b696f1deeb45bbb0f7fc06a976711acdc18edc05a004509177ef8",
   "paragraphs": [
     {
       "id": "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
@@ -3719,6 +3720,20 @@
         "Metaknowledge",
         "SharedInformationBias",
         "WisdomOfCrowds"
+      ]
+    },
+    {
+      "id": "ef95e4d279aff03ab71f977af59457fd0f05652485e93367a10aa12f2daeccf0",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The Venngage Hacker News analysis adds a public-expert-community case to that collective-decision thread. [[HackerNews]] can expose technical weaknesses and genuine business risks, but visible ranked comments, shared developer preferences, and reputation incentives undermine independence and make launch sentiment a weak proxy for broad demand. This sharpens [[CustomerLedProductDevelopment]]: expert criticism can improve a product, while adoption, retention, and payment by relevant users answer the different question of whether a market exists. The source's own evidence is qualified by a success-heavy sample, no general-crowd control, a top-comment proxy, and material conflicts between its infographic and prose.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CustomerLedProductDevelopment",
+        "HackerNews"
       ]
     },
     {

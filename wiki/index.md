@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why You Need To Stop Obsessing Over Comments On Hacker News](sources/why-you-need-to-stop-obsessing-over-comments-on-hacker-news-venngage.md) - Venngage argues that Hacker News is useful for technical criticism but unreliable for market validation because its specialized public crowd lacks independence and representative diversity.
 - [You Can't Have a Rollback Button](sources/you-cant-have-a-rollback-button-skyliner.md) - Dan McKinley argues that reverting server code cannot restore all state changed by a live deployment, so teams should prefer small staged releases, off switches, and forward remediation.
 - [Two-Phase Commit](sources/unmesh-joshi-two-phase-commit.md) - Unmesh Joshi explains how participants durably prepare before a coordinator directs one atomic commit or rollback across multiple nodes.
 - [Why You Can't Search for a Job From a Remote Location](sources/why-you-cant-search-for-a-job-from-a-remote-location.md) - Mark Suster argues that candidates committed to location-bound work in a new city should establish local presence before searching so they can build relationships and reduce employer concern about relocation.
@@ -360,6 +361,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Hacker News](entities/HackerNews.md) - Technology and startup discussion community useful for technical critique but, in the source's analysis, limited as a proxy for mass-market demand.
 - [Dan McKinley](entities/DanMcKinley.md) - Software practitioner who argues that deployment recovery must account for persistent and mixed-version system state rather than relying on a universal rollback control.
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
 - [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.

@@ -294,6 +294,7 @@ sources:
   - unmesh-joshi-replicated-log
   - unmesh-joshi-two-phase-commit
   - you-cant-have-a-rollback-button-skyliner
+  - why-you-need-to-stop-obsessing-over-comments-on-hacker-news-venngage
 last_updated: 2026-09-23
 ---
 # Overview
@@ -657,6 +658,8 @@ The Above Avalon subscription retrospective adds a small-publisher version of th
 [[FilipPiekniewski]] adds a skeptical deep-learning counterweight to the wiki's AI material. [[AIWinter]] is framed as an expectation collapse that becomes visible when public narratives keep intensifying while real-world delivery slows. [[DeepLearningScaling]] is the article's technical wedge: the AlexNet-to-AlphaGo-Zero compute chart shows explosive training-compute growth, but Piekniewski argues that vision benchmarks, game agents, and simulation-heavy reinforcement learning did not translate into broad real-world competence. [[AutonomousDrivingSafety]] supplies the practical stress test, especially the Uber crash excerpt where the system observed a pedestrian seconds before impact, repeatedly changed classification, and had emergency braking disabled under computer control. This qualifies [[DeepLearning]]: representation learning can be valuable in data-rich automated systems, but benchmark success, compute growth, and hype do not by themselves prove robust perception, physical prediction, or safe action.
 
 [[GeorgeMusser]]'s Aeon essay adds a collective-decision layer to the wiki's statistical and behavioral material. [[WisdomOfCrowds]] is framed as fragile when respondents independently reuse the same common information, because that shared evidence gets counted many times while minority information is diluted. [[DrazenPrelec]]'s [[Metaknowledge]] method asks people for both their own answer and their prediction of others' answers, using that second signal to identify expertise, hidden beliefs, and survey responses distorted by [[FalseConsensusEffect]] or [[SharedInformationBias]]. The qualification is important: the method improves weak or divided crowds, but the source still treats strong consensus as the best available proxy for truth.
+
+The Venngage Hacker News analysis adds a public-expert-community case to that collective-decision thread. [[HackerNews]] can expose technical weaknesses and genuine business risks, but visible ranked comments, shared developer preferences, and reputation incentives undermine independence and make launch sentiment a weak proxy for broad demand. This sharpens [[CustomerLedProductDevelopment]]: expert criticism can improve a product, while adoption, retention, and payment by relevant users answer the different question of whether a market exists. The source's own evidence is qualified by a success-heavy sample, no general-crowd control, a top-comment proxy, and material conflicts between its infographic and prose.
 
 The first ingested source frames [[PersonalProductivity]] as a practical habit system rather than a heavyweight methodology: define the day's most important tasks, simplify information inputs, communicate concisely, and shape the workload by batching, deleting, delegating, or doing resisted work early. It ties [[WorkHabits]] to repeatable routines such as morning planning and planned message processing.
 

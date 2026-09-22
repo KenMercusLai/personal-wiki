@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: e40efbe05b6dcae40daa8423f63d6b5b53767e13
+as_of_overview_commit: 6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c
 summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable recovery."
-episode_count: 352
-source_count: 352
-paragraph_count: 299
+episode_count: 353
+source_count: 353
+paragraph_count: 300
 topic_count: 9
 ---
 
@@ -20,7 +20,7 @@ topic_count: 9
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 - Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought; [[ChangeSafety]] and [[DeploymentAutomation]] must also distinguish bounded code reversion from repair of persistent, client-visible, or mixed-version effects.
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected.
-- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[CustomerLedProductDevelopment]], [[BuilderUserFluencyGap]], [[CognitiveOverheadInProductDesign]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; calls, mockups, and proofs of concept expose false certainty, while feedback must be segmented because fluent employees and power users can reveal expert needs yet misrepresent newcomer comprehension; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
+- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[CustomerLedProductDevelopment]], [[BuilderUserFluencyGap]], [[CognitiveOverheadInProductDesign]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; calls, mockups, and proofs of concept expose false certainty, while feedback must be segmented because fluent employees, power users, and public experts such as [[HackerNews]] can reveal technical needs yet misrepresent newcomer comprehension or market demand; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
 - [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where choosing a city and establishing local presence precede the search for location-bound work.
@@ -36,7 +36,7 @@ Durable technical progress combines system understanding, scope-aware architectu
 
 ### Business and Markets
 
-Companies convert scarce resources into durable advantage when opportunity estimates expose assumptions, runway funds learning, and growth preserves retained value.
+Companies convert scarce resources into durable advantage when opportunity estimates expose assumptions, runway funds learning, expert criticism is separated from customer demand, and growth preserves retained value.
 
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected. Evidence: [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]].
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].

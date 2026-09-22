@@ -2827,6 +2827,10 @@ Added Unmesh Joshi's concise replicated-log pattern. Created [[ReplicatedLog]] a
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-23] ingest | Why You Need To Stop Obsessing Over Comments On Hacker News
+
+Added Venngage's 2015 analysis of early Hacker News reactions to ten startups. Created [[HackerNews]] and extended [[WisdomOfCrowds]] and [[CustomerLedProductDevelopment]]. The source argues that specialized public communities can provide useful technical criticism while remaining weak market-validation samples because members share domain preferences, see ranked prior comments, and face reputation incentives; it recommends prioritizing actual and paying-user behavior over forum affirmation. The note preserves major methodological limits: nine of ten companies were selected for later success, no general-crowd control was used, only the first 100 comments were analyzed, top comments were assumed to represent collective opinion, and the infographic conflicts with the prose on Meteor and Homejoy sentiment categories. Inspected both effective images: omitted the decorative lead illustration and recovered, retained, and canonically referenced the evidence-bearing infographic with a manifest.
+
 ## [2026-09-23] ingest | Two-Phase Commit
 
 Added Unmesh Joshi's concise two-phase-commit pattern. Created [[TwoPhaseCommit]] and extended [[UnmeshJoshi]]. The source explains prepare as a durable promise: each participant acquires required resources and votes whether it can later commit; any refusal causes a global rollback, while unanimous preparation permits the coordinator to direct the commit. Participants record their decisions with a mechanism such as a write-ahead log so a restarted node can finish the protocol. No direct contradiction was found; the synthesis preserves the existing microservices qualification that teams should first narrow transaction boundaries and prefer event-driven reconciliation when one cross-service atomic invariant is unnecessary. The article is a high-level overview that does not cover coordinator failure, blocked participants, message-delivery edge cases, recovery-state details, isolation, implementation variants, or performance costs. The source Markdown contains no effective image references, so no image inspection or asset manifest was required.
@@ -2846,6 +2850,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-23] ingest | You Can't Have a Rollback Button
 
 Added Dan McKinley's 2017 argument that a live web application has a current distributed state rather than a safely restorable version. Created [[DanMcKinley]] and extended [[ChangeSafety]], [[DeploymentAutomation]], and [[ContinuousDelivery]]. The source distinguishes reverting server code from restoring databases, caches, browsers, and mixed-version effects, and recommends dark deployment, gradual ramp-up, feature off switches, and small forward corrections. It directly qualifies earlier rollback-positive material: code reversion can still be useful when compatibility and state boundaries are controlled, but it is not evidence that the whole system has returned to a safe prior state. The source is a short practitioner essay supported by one cache-corruption example rather than comparative outcome evidence. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. Downstream synthesis was refreshed for AI and technology and governance and institutions, and the global artifact was recompacted because a global candidate changed.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-23] lint | Wiki health check
 
