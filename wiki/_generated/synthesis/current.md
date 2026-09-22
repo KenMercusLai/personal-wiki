@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-22
-as_of_overview_commit: 92261ef6b4d41c467f417e78c2f165d69a8fa301
-summary: "Durable systems align human constraints, institutional accountability, technical verification, representative market learning, cultural stewardship, and practiced judgment."
-episode_count: 340
-source_count: 340
-paragraph_count: 288
+as_of_overview_commit: 0fc22f155a96aa0fce9813a27c03aff409b9adfc
+summary: "Durable systems align human limits, accountable institutions, technical verification, representative learning, cultural stewardship, feedback, and practiced judgment."
+episode_count: 341
+source_count: 341
+paragraph_count: 289
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
+- [[ContinuousWorkplaceFeedback]] is strongest when recurring conversations serve distinct purposes: employee-led one-on-ones provide mentorship and organizational context, while peer sessions provide reciprocal reflection; [[CompassionateManagement]] and [[CEOScalingRole]] support the shared question-led stance without making peer support a substitute for management.
 
 ## Synthesis by Domain
 
@@ -81,7 +81,7 @@ The sparse topic links scientific computing, attention, data-science adoption, i
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, protected judgment, role clarity, fair incentives, social design, sustainable delivery, and maintenance responsibilities matched with capacity.
+Learning and work improve through feedback, protected judgment, distinct mentor and peer support, role clarity, fair incentives, social design, sustainable delivery, and maintenance responsibilities matched with capacity.
 
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].

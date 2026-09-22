@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why We Don’t Have Performance Reviews](sources/why-we-dont-have-performance-reviews.md) - Courtney Seiter describes Buffer's employee-led one-on-ones and optional peer masterminds as complementary, question-led alternatives to annual rated reviews.
 - [You Are Not Your Customer](sources/you-are-not-your-customer-greylock-perspectives.md) - Greylock Perspectives argues that employees and early adopters become too fluent to represent prospective users, so teams should segment feedback and protect newcomer comprehension from power-user feature bias.
 - [Unknown Unknowns: Why you should release early and often](sources/unknown-unknowns-why-you-should-release-early-and-often.md) - Daniel Karlsson argues that conversations, mockups, and proofs of concept expose false certainty and unknown unknowns before teams build the wrong product.
 - [Why AI writing is so generic, boring, and dangerous: Semantic ablation](sources/why-ai-writing-is-so-generic-boring-and-dangerous-semantic-ablation.md) - A Register opinion article names the loss of precise language, distinctive imagery, and complex structure during AI rewriting as semantic ablation, while proposing rather than demonstrating its decoding and entropy-decay mechanism.
@@ -486,7 +487,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mike Cohn](entities/MikeCohn.md) - User-story reference author cited for User Stories Applied and INVEST sizing refinement.
 - [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
 - [Nicholas Carlini](entities/NicholasCarlini.md) - Machine-learning security researcher and programmer represented here by a concrete, caveated taxonomy of practical LLM use.
-- [Courtney Seiter](entities/CourtneySeiter.md) - Buffer author represented by a four-year remote-work retrospective about trust, boundaries, communication, tooling, and intentional social connection.
+- [Courtney Seiter](entities/CourtneySeiter.md) - Buffer author represented by practitioner accounts of remote work and continuous, question-led employee coaching.
 - [Martin Fowler](entities/MartinFowler.md) - Agile Manifesto signer, Thoughtworks practitioner, and web writer combining technical-practice, architecture-governance, and online-information habits.
 - [James Shore](entities/JamesShore.md) - Extreme Programming pioneer, author of The Art of Agile Development, and co-creator of the Agile Fluency Model.
 - [Diana Larsen](entities/DianaLarsen.md) - Agile Fluency Model co-creator with James Shore.
@@ -766,7 +767,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
 - [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, career-option building, and subsidy-backed unit economics.
-- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, and founder-vision-alignment case.
+- [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, continuous-feedback, and founder-vision-alignment case.
 - [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition example and as a narrow-to-broad product-evolution case.
@@ -1159,6 +1160,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring employee development through timely mentor and peer conversations rather than one annual rated review.
 - [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
 - [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
 - [Contextual Technology Selection](concepts/ContextualTechnologySelection.md) - Practice of comparing a technology's historical priorities, tradeoffs, and scale assumptions with the adopter's actual problem.

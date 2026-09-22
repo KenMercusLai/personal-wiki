@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-22
-as_of_overview_commit: 6a3cb71b5a25d5d9c117b956454fe1fc615043bd
-input_digest: fce4605d186525c980c6cc053128634e1c9663b90235781cd23df1b7cba35bf8
+as_of_overview_commit: 0fc22f155a96aa0fce9813a27c03aff409b9adfc
+input_digest: 5b0af268c9088ba368f0596081a7f4f213c376f2ee2e5d740746da8f5c280091
 ---
 
 # Work, Education, and Society
@@ -97,6 +97,16 @@ Public technical work such as [[OpenSourceProjectMaintenance]] can build [[Perso
 **Qualifications:**
 
 - The Disco evidence is one Bloomberg company profile rather than a general proof; internal prices may clarify opportunity cost while also creating short-termism, research distraction, cultural-transfer problems, and continuous pressure when tied to pay and status.
+
+### Continuous Feedback Needs Distinct Support Relationships
+
+[[ContinuousWorkplaceFeedback]] is strongest when recurring conversations serve distinct purposes: employee-led one-on-ones provide mentorship and organizational context, while peer sessions provide reciprocal reflection; [[CompassionateManagement]] and [[CEOScalingRole]] support the shared question-led stance without making peer support a substitute for management.
+
+**Evidence:** [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[CEOScalingRole]]
+
+**Qualifications:**
+
+- The Buffer evidence is a company-published practitioner account without comparative performance, retention, compensation, promotion, fairness, or formal-accountability data; employee-led agendas may also leave avoided topics unspoken.
 
 ### Remote Work Requires Deliberate Boundaries And Social Design
 

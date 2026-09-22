@@ -2750,3 +2750,11 @@ Added Greylock Perspectives' argument that employees and early adopters accumula
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Why We Don’t Have Performance Reviews
+
+Added Courtney Seiter's 2016 account of Buffer's alternative to annual performance reviews. Created [[ContinuousWorkplaceFeedback]] and extended [[Buffer]] and [[CourtneySeiter]]. Key claims: annual reviews create recall delay and let ratings displace useful dialogue; Buffer used employee-led one-on-ones at least every two weeks for mentorship and optional peer masterminds for shared reflection; the formats were complementary rather than interchangeable; Buffer restored one-on-ones after a self-management experiment because mentorship remained valuable; and both formats emphasized listening and questions that help the speaker reach a solution. No direct contradiction was found. The source is company-published practitioner evidence without comparative performance, retention, fairness, compensation, promotion, or formal-accountability data. The sole referenced lead image now returns 404 and is not exposed by the current article page, so it could not be inspected and was not retained or used as evidence.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

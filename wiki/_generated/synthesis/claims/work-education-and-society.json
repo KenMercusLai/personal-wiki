@@ -146,6 +146,20 @@
     },
     {
       "global_candidate": true,
+      "id": "continuous-feedback-needs-distinct-support-relationships",
+      "qualifications": [
+        "The Buffer evidence is a company-published practitioner account without comparative performance, retention, compensation, promotion, fairness, or formal-accountability data; employee-led agendas may also leave avoided topics unspoken."
+      ],
+      "statement": "[[ContinuousWorkplaceFeedback]] is strongest when recurring conversations serve distinct purposes: employee-led one-on-ones provide mentorship and organizational context, while peer sessions provide reciprocal reflection; [[CompassionateManagement]] and [[CEOScalingRole]] support the shared question-led stance without making peer support a substitute for management.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ContinuousWorkplaceFeedback",
+        "CompassionateManagement",
+        "CEOScalingRole"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "remote-work-requires-deliberate-boundaries-and-social-design",
       "qualifications": [
         "The evidence is a Buffer practitioner reflection, so it may not transfer to physical-presence roles, low-trust organizations, unreliable internet, or home situations without quiet space."
