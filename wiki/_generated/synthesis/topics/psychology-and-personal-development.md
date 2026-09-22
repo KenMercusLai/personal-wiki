@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-22
-as_of_overview_commit: a07aa870c5248c4d1f46b68ea108c63787b1136e
-input_digest: 2191be2453e62678234a41067c4cd71656ea9ae4ba514676b9f8e74a369e0a6d
+as_of_overview_commit: 6074a2ec09a59c712516e67b540fa43070285d6d
+input_digest: 29dad14de208d3aab8f5e580f755982608a4fe83081ec2a27bb3bd0a63c988ba
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, similarity-based trust, and projection of expert fluency onto newcomers. Vacation policy adds that behavioral pressure can be implicit: an unwritten ceiling, peer comparison, workload, and guilt may suppress leave even when the formal language promises freedom, so actual use and low-use outliers matter. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, product-feedback sampling, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, network-selection, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, similarity-based trust, and projection of expert fluency onto newcomers. [[DeliberateNetworkBuilding]] adds that mentors, peers, communities, reading, and media form an environment that shapes perspective and ambition; choosing that environment for a desired direction may support growth, while default or prestigious circles can reinforce conformity. Vacation policy similarly shows that behavioral pressure can be implicit: an unwritten ceiling, peer comparison, workload, and guilt may suppress leave even when formal language promises freedom. The topic remains advice-heavy and context-sensitive: network influence is difficult to separate from self-selection, deliberate curation can become a status-driven bubble, and bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, product-feedback sampling, and conversion findings all depend on constraints, safety, access, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -127,3 +127,13 @@ Psychology and personal-development sources treat progress as a bounded attentio
 **Qualifications:**
 
 - This is a secondary fit for the psychology topic: the evidence is an ecommerce performance case study, not a controlled attention or decision-making study.
+
+### Networks Shape Growth And Judgment
+
+[[DeliberateNetworkBuilding]] and [[FounderNetworkBuilding]] treat relationships and recurring information inputs as formative environments: choosing mentors, peers, communities, and media for a desired direction can support growth, while default or prestigious networks can narrow judgment and ambition through conformity.
+
+**Evidence:** [[DeliberateNetworkBuilding]], [[FounderNetworkBuilding]]
+
+**Qualifications:**
+
+- The network-building source is a short practitioner essay that does not separate peer influence from self-selection or establish causal personal-development outcomes; deliberate curation can also become status seeking or an ideological bubble, and access is materially constrained.

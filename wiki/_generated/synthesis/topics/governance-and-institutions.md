@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-22
-as_of_overview_commit: a07aa870c5248c4d1f46b68ea108c63787b1136e
-input_digest: f3a2f7c497f69d4a8259ba1f3eded976e4b349858804522c3739e8d48974a8d5
+as_of_overview_commit: a0380f8c5ecade579cf3ecfb5303e922451dbdd2
+input_digest: cdb62770b559b974f9cd58bf006649e8886cf60d7003b1a73b5afb9c2d4b24ed
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates. The university-web source adds that institution-wide information architecture is itself a governance outcome: fragmented ownership, thin staffing, departmental silos, recruitment priorities, and political competition can make ordinary user tasks hard even when the visible symptom looks like poor design. The vacation-policy source adds an internal-governance boundary: a benefit's label is less accountable than observed use, because unwritten ceilings, workload, and status can turn nominal freedom into guilt, while explicit floors, relief, and usage measurement make real expectations more legible.
+Governance and institutional material spans platform control, privacy burdens, organizational boundaries, political technology, regulated delivery, browser concentration, infrastructure suppliers, public-space automation, institutional information architecture, and workplace policy. Across these cases, accountability depends on explicit ownership, observable behavior, usable controls, instrumentation, and credible alternatives rather than labels alone. [[NotificationDesign]] adds a platform-governance case in which user controls, developer engagement incentives, and operating-system context jointly determine who can interrupt attention, with privacy, opacity, urgent-response, accessibility, and missed-alert risks qualifying contextual ranking.
 
 ## Cross-source Findings
 
@@ -124,3 +124,14 @@ Technical systems that look operationally narrow can carry social consequences w
 **Qualifications:**
 
 - The vacation-policy evidence is a practitioner essay, its company examples are reported rather than independently compared, and the author says broader evidence on leave use was unsettled in 2016.
+
+### Notification Governance Distributes Attention Control
+
+[[NotificationDesign]] distributes governance over attention across users, app developers, [[Apple]], and [[Google]]: engagement incentives encourage reactivation prompts, while platform context can support prioritization and user-controlled batching but also raises privacy, transparency, and mistaken-suppression concerns.
+
+**Evidence:** [[NotificationDesign]], [[Apple]], [[Google]], [[ChrisBrycki]]
+
+**Qualifications:**
+
+- The source is a 2015 practitioner essay, so its platform capabilities and notification-volume figures are historical.
+- Platform prioritization can suppress valuable urgent or accessibility-sensitive alerts and can expand opaque behavioral inference.

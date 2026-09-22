@@ -177,6 +177,7 @@
       "66944136ad01eeafc62c58c74693e8923e03f67b3d9240a80c3f6cee96c76bb0",
       "f92b4444e1d63494cf7cc4dd6b0e7c8dda39365c4b3b0b180b8d5d38a1d41705",
       "b1d9168c78784ad66e6a8ca45958d8e204b3a06b031db797471db46590c9066b",
+      "400f195079eef3ecf4891c8b0e31c5c857aabf33ec3b6f5ffb1c8ed4957823d3",
       "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "b6b4b38c70019458b037592fa93cc07de82f277af3b90b381763c571663ca13c",
       "43a317c59849b6210090d1c8f452557ea10de445ccd628d60ee6c0d57ef4d4d5",
@@ -290,12 +291,13 @@
       "120a917eebc28e1db27ee39f46a7407c334b8813fa4eba12cc4aad403ba3292a",
       "88dafed2b1ca67dd1c377c20ffb5e081bacc0be6512146b86cd7a5824bac55fb",
       "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792",
-      "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6"
+      "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
+      "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd"
     ],
-    "paragraph_count": 290
+    "paragraph_count": 292
   },
-  "overview_commit": "a07aa870c5248c4d1f46b68ea108c63787b1136e",
-  "overview_digest": "cab13b8136e457b05e4b3d94429b3267595f4c1c3063b0c54fd743c03aa89314",
+  "overview_commit": "a0380f8c5ecade579cf3ecfb5303e922451dbdd2",
+  "overview_digest": "edb75df325a1af4208c556728802d0b7c6348773d876b517568e034a0a0dd6bc",
   "paragraphs": [
     {
       "id": "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
@@ -3672,6 +3674,26 @@
       ]
     },
     {
+      "id": "400f195079eef3ecf4891c8b0e31c5c857aabf33ec3b6f5ffb1c8ed4957823d3",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "history-and-geopolitics"
+      ],
+      "text": "[[ChrisBrycki]]'s notification essay adds a product-governance layer to that attention thread. [[NotificationDesign]] links user-level interruption and fear of missing out to app-level time-spent and daily-active-user incentives and to operating-system control over delivery context. The proposed response is shared rather than purely disciplinary: users can batch alerts with do-not-disturb, developers can pursue fewer high-value prompts, and [[Apple]] and [[Google]] can expose context-aware prioritization that individual apps struggle to build. The source's 2014-2015 interruption figures, notification-volume estimate, and platform description are historical, while contextual suppression also carries privacy, opacity, and missed-alert risks.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "Apple",
+        "ChrisBrycki",
+        "Google",
+        "NotificationDesign"
+      ]
+    },
+    {
       "id": "027391aff04dc07b809cdb8a05e6e4eeb5145141a507bf6a1c684599f40207ac",
       "primary_topic": "work-education-and-society",
       "secondary_topics": [],
@@ -5943,6 +5965,24 @@
         "TribunePublishing",
         "VacationPolicy",
         "WorkplaceIncentiveDesign"
+      ]
+    },
+    {
+      "id": "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The Savage Thoughts essay adds a formative layer to the wiki's career and relationship material. [[DeliberateNetworkBuilding]] treats mentors, colleagues, friends, communities, reading, and media as one social-information environment that shapes perspective and identity, not merely as a source of contacts. Its directional rule is to name the capability or way of working one wants, then seek people who can support that growth. [[FounderNetworkBuilding]] now includes the corresponding risk: accelerators, venture investors, and common media can provide access while standardizing founder assumptions into a hive mind. This qualifies instrumental networking advice without overturning it; value-first reciprocity still matters, but so do fit, disagreement, access constraints, and awareness that a deliberately curated network can itself become a status-driven bubble. The source is a short practitioner essay and does not separate peer influence from self-selection or demonstrate causal personal-growth outcomes.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DeliberateNetworkBuilding",
+        "FounderNetworkBuilding"
       ]
     }
   ],

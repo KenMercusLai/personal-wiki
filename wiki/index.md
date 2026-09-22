@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why We're Stuck In An Abusive Relationship With Our Phones](sources/why-were-stuck-in-an-abusive-relationship-with-our-phones.md) - Chris Brycki argues that notification overload arises from interruption costs, variable rewards, engagement incentives, and weak platform support for prioritization.
+- [You Become Your Network. Build It Wisely.](sources/you-become-your-network-build-it-wisely-savage-thoughts.md) - Savage Thoughts argues that relationships and information environments shape identity and growth, so mentors, peers, and communities should be chosen for direction rather than inherited by default.
 - [Unlimited Vacation and Other Forms of Guilt-Based Management](sources/unlimited-vacation-and-other-forms-of-guilt-based-management.md) - A practitioner essay arguing that unlimited leave can replace a clear entitlement with guilt and informal negotiation, while explicit minimums, incentives, closures, and usage measurement make recovery more usable.
 - [Why We Don’t Have Performance Reviews](sources/why-we-dont-have-performance-reviews.md) - Courtney Seiter describes Buffer's employee-led one-on-ones and optional peer masterminds as complementary, question-led alternatives to annual rated reviews.
 - [You Are Not Your Customer](sources/you-are-not-your-customer-greylock-perspectives.md) - Greylock Perspectives argues that employees and early adopters become too fluent to represent prospective users, so teams should segment feedback and protect newcomer comprehension from power-user feature bias.
@@ -350,6 +352,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Chris Brycki](entities/ChrisBrycki.md) - Product practitioner and author arguing for user, developer, and platform responsibility in notification design.
 - [Daniel Karlsson](entities/DanielKarlsson.md) - Programmer and startup founder who presents early release as a way to reduce product uncertainty before implementation costs accumulate.
 - [Oz Nova](entities/OzNova.md) - Bradfield author who presents UNPHAT as a context-sensitive method for technology and architecture decisions.
 - [Melonie Fullick](entities/MelonieFullick.md) - Writer who diagnoses university website failures as communication, user-experience, and institutional-governance problems.
@@ -1163,6 +1166,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.
+- [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing relationships, communities, mentors, and information inputs according to the direction in which one wants to grow.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
 - [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring employee development through timely mentor and peer conversations rather than one annual rated review.
 - [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
@@ -1461,7 +1466,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Reflective Connection](concepts/ReflectiveConnection.md) - Practice of noticing conceptual links, conversation takeaways, relationship interests, and future follow-up possibilities.
 - [Corporate Satire](concepts/CorporateSatire.md) - Humor that exaggerates workplace rituals, jargon, and status performances to reveal organizational incentives.
 - [Performative Meeting Behavior](concepts/PerformativeMeetingBehavior.md) - Meeting conduct or ritual aimed at signaling intelligence, creativity, helpfulness, authority, or rational management without improving the group's work.
-- [Founder Network Building](concepts/FounderNetworkBuilding.md) - Long-term value-first relationship-building used by founders to gain guidance, introductions, partnerships, and opportunity.
+- [Founder Network Building](concepts/FounderNetworkBuilding.md) - Deliberate, value-first relationship-building that gives founders guidance and opportunity while also shaping their judgment and ambition.
 - [Product Commoditization](concepts/ProductCommoditization.md) - Pressure that makes startup products easier to copy and pushes defensibility toward brand, culture, and business quality.
 - [Founder Time Leverage](concepts/FounderTimeLeverage.md) - Buying back scarce time through tools, automation, services, assistance, or delegation so attention returns to higher-value work, recovery, or well-being.
 - [Founder Success Definition](concepts/FounderSuccessDefinition.md) - Personal definition of what a founder wants the business to fund, protect, or make possible.

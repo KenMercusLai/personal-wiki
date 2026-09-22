@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-15
-as_of_overview_commit: e62283572dfcdd07935e83eeaab5276fc135149b
-input_digest: 329b047c63a8f4a9e8d55585df5af8135ddbfc75ee4567d962ff63d579eadc3c
+last_updated: 2026-09-22
+as_of_overview_commit: a0380f8c5ecade579cf3ecfb5303e922451dbdd2
+input_digest: 46d69dde95168a1d7c7b18a126bb38eb9da5da3438f0ae5acd9c15668c9d08a8
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. The newest Housel paragraph adds a repeatability filter: history can teach broad patterns, but exact business, legal, market, regulatory, and path-dependent conditions should not be treated as reproducible. The Jeff Huang paragraph is a routing spillover: it belongs mainly to work systems, productivity, and personal knowledge management, though it uses a long chronological work record. The App Annie/VentureBeat paragraph adds a 2015 market snapshot in which Google Play download growth was tied to emerging markets while iOS App Store revenue growth centered on China, the U.S., and Japan. Long Nose Innovation, Instapaper, and Vim show technology and software-product chronology, hidden maturation, and inherited conventions; numeric keypad history adds a physical-interface lineage; the accounting primer adds a source-scoped history where Luca Pacioli disseminated double-entry accounting in 1494 while the practice itself was older. Strategic writing adds a source-scoped corporate-history claim: written strategy records why decisions were made, but the topic remains mostly technology and organizational history rather than geopolitics.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[NotificationDesign]] paragraph is another routing spillover, contributing a source-scoped 2015 mobile-platform snapshot rather than a geopolitical finding.
 
 ## Cross-source Findings
 
@@ -96,3 +96,13 @@ The history and geopolitics topic currently contains technology, accounting, int
 **Qualifications:**
 
 - The substantive claim belongs under work, education, and society; the history relevance is limited to the recordkeeping and chronology vocabulary in the paragraph.
+
+### Notification Design Is Historical Platform Spillover
+
+[[NotificationDesign]], [[ChrisBrycki]], [[Apple]], and [[Google]] add a source-scoped 2015 platform-history snapshot in which app engagement metrics encouraged notification volume while mobile operating systems were urged to provide more contextual prioritization.
+
+**Evidence:** [[NotificationDesign]], [[ChrisBrycki]], [[Apple]], [[Google]]
+
+**Qualifications:**
+
+- The paragraph belongs primarily to business, platform governance, and attention design; its relevance here is limited to a 2015 snapshot of mobile notification practice.

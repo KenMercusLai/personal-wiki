@@ -2766,3 +2766,19 @@ Added a practitioner critique of unlimited vacation as an ambiguous social negot
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | You Become Your Network. Build It Wisely.
+
+Added Savage Thoughts' argument that relationships and recurring information inputs form an environment that shapes perspective, ambition, work, and personal growth. Created [[DeliberateNetworkBuilding]] and extended [[FounderNetworkBuilding]] from value-first access and opportunity to include formative influence and ecosystem conformity. The article recommends choosing mentors and peers according to a desired direction of growth, treats conversations, reading, and viewing as one allocation of formative time, and warns that common accelerators, venture investors, and media can produce a startup hive mind. No direct contradiction was found; the source qualifies instrumental networking advice by emphasizing that a network changes the participant as well as supplying help. The article is a short practitioner essay, does not separate selection from peer influence, and only gestures toward unnamed social-network research. The source Markdown contains no effective image references, so no image inspection or asset manifest was required.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Why We're Stuck In An Abusive Relationship With Our Phones
+
+Added Chris Brycki's 2015 essay on smartphone notifications and attention. Created [[NotificationDesign]] and [[ChrisBrycki]], and extended [[AttentionManagement]] from individual focus practices into app incentives and mobile-platform governance. Key claims: frequent alerts impose interruption and refocusing costs; fear of missing out and variable rewards discourage aggressive filtering; time-spent and daily-active-user metrics reward re-engagement prompts; individual product teams may not prioritize sophisticated ranking; and operating systems can potentially use context and response history to deliver fewer, higher-value interruptions. The source's do-not-disturb practice is recorded as user-controlled batching, not a universal prescription. Its numerical estimates and platform descriptions are time-bound, and the synthesis preserves urgent-response, accessibility, privacy, opacity, and mistaken-suppression qualifications. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. No direct contradiction was found; the article qualifies individual-discipline advice by assigning responsibility to users, developers, and platform owners.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

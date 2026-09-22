@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-22
-as_of_overview_commit: a07aa870c5248c4d1f46b68ea108c63787b1136e
-summary: "Durable systems align human limits, accountable institutions, technical verification, representative learning, fair incentives, feedback, and practiced judgment."
-episode_count: 342
-source_count: 342
-paragraph_count: 290
+as_of_overview_commit: a0380f8c5ecade579cf3ecfb5303e922451dbdd2
+summary: "Durable systems align human limits, accountable institutions, technical verification, representative learning, fair incentives, and practiced judgment."
+episode_count: 344
+source_count: 344
+paragraph_count: 292
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
+- [[DeliberateNetworkBuilding]] and [[FounderNetworkBuilding]] treat relationships and recurring information inputs as formative environments: choosing mentors, peers, communities, and media for a desired direction can support growth, while default or prestigious networks can narrow judgment and ambition through conformity.
 - [[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], and [[Disco]] show that both explicit prices and informal norms steer work: prices, auctions, penalties, game-like scoring, unwritten leave ceilings, peer comparison, and guilt can focus or suppress behavior while intensifying pressure; actual usage and outliers are therefore better tests than stated intent alone.
 
 ## Synthesis by Domain
@@ -36,14 +36,14 @@ Technical progress lasts when system understanding, verification, observable ope
 
 ### Business and Markets
 
-Durable businesses convert scarce capital and attention into representative learning and retained value while filtering strategy through economics, incentives, platform power, and demand.
+Durable businesses convert capital and attention into representative learning and retained value while filtering strategy through economics, incentives, platform power, and demand.
 
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 
 ### Cross-domain
 
-Across domains, useful infrastructure exposes hidden flows and constraints, supports recovery, and uses rough models without losing sight of human limits.
+Useful infrastructure exposes hidden flows and constraints, supports recovery, and uses rough models without losing sight of human limits.
 
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].
@@ -57,7 +57,7 @@ Media forms and platforms shape learning, creation, preservation, payment, and s
 
 ### Governance and Institutions
 
-Governance becomes visible in decision controls, instrumentation, operating boundaries, trusted intermediaries, usable entitlements, exit options, and information architecture shaped by ownership and authority.
+Governance becomes visible in decision controls, instrumentation, operating boundaries, trusted intermediaries, usable entitlements, exit options, and ownership of information and attention systems.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
@@ -68,7 +68,7 @@ The topic mainly tracks technical and organizational history, emphasizing inheri
 
 ### Psychology and Personal Development
 
-Progress depends on allocating attention, designing feedback loops, maintaining trust, and testing judgments and policy effects against other people's information, incentives, and constraints.
+Progress depends on allocating attention, designing feedback loops, maintaining trust, choosing formative relationships deliberately, and testing judgment against other people's information, incentives, and constraints.
 
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]].
 - [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; the leave-policy case adds that ambiguity and guilt can steer behavior as strongly as explicit rewards. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
@@ -81,7 +81,7 @@ The sparse topic links scientific computing, attention, data-science adoption, i
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, protected judgment, role clarity, usable time away, fair explicit and informal incentives, social design, sustainable delivery, and responsibilities matched with capacity.
+Learning and work improve through feedback, protected judgment, role clarity, usable time away, fair explicit and informal incentives, deliberate network choice, sustainable delivery, and responsibilities matched with capacity.
 
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].
