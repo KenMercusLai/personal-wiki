@@ -11,7 +11,8 @@ sources:
   - blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention
   - boz-time-isnt-money
   - understand-design-build-a-framework-for-problem-solving-lob-blog
-last_updated: 2026-09-17
+  - while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill
+last_updated: 2026-09-22
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,11 +20,11 @@ knowledge_schema: synthesis-v1
 [[AttentionManagement]] is the deliberate protection and allocation of limited mental capacity so important work, learning, and relationships receive real focus rather than only calendar time.
 
 ## Current Synthesis
-The wiki now frames attention management as a work-efficiency practice, a learning-input filter, a creative-production constraint, an agency boundary, a collaboration responsibility, and a capacity limit distinct from time. One source recommends single-tasking, reducing information sources, batching communication, going offline when the internet becomes distracting, and doing avoided work early so unfinished tasks do not intrude mentally. The INDIGO source adds that attention sharpens when a learner selects current creative topics and uses focused reading to ignore irrelevant material while noticing high-value sources. The tutorial-writing source adds that selecting one article and limiting work in progress can prevent topic overload and context switching during complex output work. The Durov podcast essay adds a stronger self-control frame: attention can be captured before work even begins if morning phone use lets other people's messages and feeds decide what the mind will process. Mission.org adds that attention is tested in recurring small choices: spare minutes, alarms, creative work, and time with loved ones become places where distraction spends scarce time. Fried's source adds the cleanest capacity distinction: a person may be able to find twenty minutes in the day while still lacking enough attention to responsibly support another person or project. Bosworth adds the social version of the same constraint: meetings, messages, and quick interruptions impose context-switch costs on other people and can let urgent demands beat important work. Lob's engineering material adds the implementation-side version of the same cost: an engineer who starts building before understanding the business problem has to keep stopping to ask others for information, so the interrupt spends the context of the asker and the asked alike.
+The wiki now frames attention management as a work-efficiency practice, a learning-input filter, a creative-production constraint, an agency boundary, a collaboration responsibility, and a capacity limit distinct from time. Single-tasking, reduced input sources, batched communication, offline work, topic-driven reading, limited work in progress, and early handling of avoided tasks all protect focus at the individual level. The Durov essay adds that capture can occur before work begins when feeds and messages set the morning agenda, while Mission.org treats recurring small choices as the places where distraction spends scarce time. Fried distinguishes calendar room from the mental capacity to support another commitment; Bosworth extends that cost socially to meetings and interruptions; and Lob shows how starting implementation without understanding creates avoidable context switches for both asker and respondent. Simmons adds an upstream media-allocation layer: because content abundance, personalization, and fear of missing out push people toward reactive consumption, attention management also requires deliberately choosing information for its expected learning value rather than trusting feeds and notifications to choose it.
 
 ## Key Claims
 - Single-tasking is presented as more effective and less error-prone than multitasking.
-- Information inputs should be simplified to preserve attention for valuable material.
+- Information inputs should be simplified and proactively selected to preserve attention for valuable material.
 - Similar tasks should be batched so messages and notifications do not repeatedly interrupt workflow.
 - Offline work can be useful when connectivity creates more distraction than benefit.
 - Focused reading can improve attention by turning broad intake into topic-driven filtering.
@@ -42,15 +43,15 @@ The wiki now frames attention management as a work-efficiency practice, a learni
 - Attention capacity: [[blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention]] argues that taking on an intern could fit into spare minutes but still fail if Fried's mind was absorbed by a few key projects.
 - Social interruption cost: [[boz-time-isnt-money]] argues that meeting requests, messages, and quick visits should clear a high burden because they spend others' time and trigger context switches.
 - Interrupt cost during implementation: [[understand-design-build-a-framework-for-problem-solving-lob-blog]] says engineers who start implementation without understanding the business problem frequently stop to ask others for information, and that interrupts are costly because they introduce context changes, usually for more than one individual.
+- Proactive media allocation: [[while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill]] argues that content shock, personalized feeds, constant distraction, and fear of missing out create a reactive media diet unless users select inputs deliberately.
 
 ## Counterevidence & Qualifications
-The productivity, Durov, and Bosworth sources do not fully distinguish harmful interruption from necessary responsiveness. Some work requires real-time collaboration, monitoring, logistics, or rapid context switching, so the advice is strongest for work that allows protected focus blocks. The focused-reading and tutorial-writing approaches also depend on choosing themes early enough; narrowing too soon can reduce serendipitous discovery or defer worthwhile adjacent projects. Mission.org's framing can make ordinary rest or entertainment look like failure unless the person also accounts for recovery, care duties, and realistic capacity. Fried's essay is a self-diagnosis from one workplace situation, so its attention-versus-time distinction is most useful as a language and boundary-setting tool, not as proof that attention is literally unrelated to time in every context. Bosworth's meeting advice also depends on organizational norms that let people decline, leave, or prune meetings without penalty.
+The productivity, Durov, Bosworth, and Simmons sources do not fully distinguish harmful interruption from necessary responsiveness. Some work requires real-time collaboration, monitoring, logistics, or rapid context switching, so protected focus depends on the task. Focused reading and proactive media filtering also require themes to be chosen early enough; narrowing too soon can reduce serendipitous discovery, favor sensational promises of transformation, or defer worthwhile adjacent material. Mission.org's framing can make ordinary rest or entertainment look like failure unless recovery, care duties, and realistic capacity are included. Fried's essay is a self-diagnosis from one workplace situation, so its attention-versus-time distinction is most useful as a boundary-setting tool, not proof that attention is unrelated to time. Bosworth's meeting advice depends on organizational norms that let people decline, leave, or prune meetings without penalty, while Simmons's media framework is a practitioner argument with commercial interests rather than a measured intervention.
 
 ## What Changed
-- Added Fried's distinction between available time and available attention.
-- Clarified that responsible collaboration can require declining commitments even when small calendar slots exist.
-- Added Bosworth's claim that meeting requests and interruptions have a social attention cost through context switching and urgent-over-important drift.
-- Added the Lob framework's claim that interrupts during implementation are expensive because they should have been unnecessary and they change the context of more than one person.
+- Added proactive media selection as an upstream attention practice, before a source is consumed.
+- Expanded distraction from interruptions and phone capture to content abundance, personalization, and fear of missing out.
+- Qualified high-value filtering with the risks of sensational selection, premature narrowing, and lost serendipity.
 
 ## Related Concepts
 - [[PersonalProductivity]] - managing attention is one of the article's main routes to productivity.
@@ -61,3 +62,5 @@ The productivity, Durov, and Bosworth sources do not fully distinguish harmful i
 - [[ExplanatoryWriting]] - clear tutorial writing may require sustained single-project attention.
 - [[OpportunityCost]] - attention spent on one activity cannot be spent on another.
 - [[WorkplaceCollaboration]] - collaborative requests should account for the attention cost imposed on colleagues.
+- [[InformationOverload]] - excess content and choice make deliberate attention allocation necessary.
+- [[BreakthroughKnowledge]] - expected learning value is one proposed criterion for deciding what deserves attention.

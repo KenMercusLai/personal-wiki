@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-19
-as_of_overview_commit: 5b9139276731171b53cf0f8ddc14dc12af8a4f15
+as_of_overview_commit: d451f3508f941d0bdbe6821b3998cb293683ee5d
 summary: "Systems, markets, institutions, work, and judgment turn constraints into reusable practice across technology, capital, trust, public space, and decision quality."
-episode_count: 334
-source_count: 334
+episode_count: 335
+source_count: 335
 paragraph_count: 283
 topic_count: 9
 ---
@@ -50,7 +50,7 @@ Across technical and human domains, durable outcomes come from making hidden flo
 
 ### Culture and Media
 
-Media form and platform economics shape how cultural work is created, discovered, preserved, interpreted, monetized, and vulnerable to automated copying.
+Media form and platform economics shape how cultural work is created, discovered, preserved, interpreted, monetized, and exposed to automated copying.
 
 - [[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed. Evidence: [[AutomatedContentFarming]], [[YouTube]], [[Google]], [[WebAdEconomics]], [[PlatformPublisherRevenue]], [[PlatformAbuseResponse]].
 - [[LearningMediaChoice]] treats media form and reading mode as part of learning design: encyclopedias, Q&A, SNS, video, books, [[SpeedReadingMethod]], [[FocusedReading]], and reading-note systems shape whether [[SystematicLearning]] can build breadth, depth, reviewability, and [[CrossDomainWisdom]]. Evidence: [[LearningMediaChoice]], [[SystematicLearning]], [[CrossDomainWisdom]], [[DIKWModel]], [[ActiveLearning]], [[FeynmanTechnique]], [[SpeedReadingMethod]], [[FocusedReading]], [[LearningByWriting]], [[ReadingNoteWorkflow]], [[NoteToolFit]], [[Obsidian]].

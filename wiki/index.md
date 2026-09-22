@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [While Everyone Is Distracted By Social Media, Successful People Double Down On An Underrated Skill](sources/while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill.md) - Michael Simmons argues for proactively filtering information overload in search of belief-changing knowledge, using disconfirmation, mental models, and learning-how-to-learn skills.
 - [Unexpected Consequences of Self Driving Cars](sources/unexpected-consequences-of-self-driving-cars-rodney-brooks.md) - Rodney Brooks argues that autonomous vehicles must negotiate tacit street norms and may create congestion, parking, legitimacy, and policy problems even when they drive safely.
 - [What Is ChatGPT Doing … and Why Does It Work?](sources/what-is-chatgpt-doing-and-why-does-it-work.md) - Stephen Wolfram explains ChatGPT as a next-token predictor, building from n-gram counting and neural-net training to embeddings, attention, and the claim that language is more law-like than assumed.
 - [Yesterday's Failures Are Today's Successes](sources/yesterdays-failures-are-todays-successes-learning-by-shipping.md) - Steven Sinofsky argues that dot-com-era ideas returned as successful startups once the enabling foundation matured, listing mobile compute, battery, touch, bandwidth, location, identity, storage, payments, and sharing culture, and defining execution as the full product, price, place, and promotion mix.
@@ -342,6 +343,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Michael Simmons](entities/MichaelSimmons.md) - Author who frames information selection, breakthrough knowledge, mental models, and learning how to learn as responses to attention scarcity.
 - [Rodney Brooks](entities/RodneyBrooks.md) - Roboticist and essayist analyzing autonomous vehicles as social actors whose adoption depends on legibility, public acceptance, and real-world perception.
 - [Stephen Wolfram](entities/StephenWolfram.md) - Scientist-entrepreneur and author who explains ChatGPT from first principles and argues its success points to explicit laws of language.
 - [Wolfram Language](entities/WolframLanguage.md) - Computational language used for every example in the ChatGPT essay and proposed as the precise symbolic medium for a future discourse language.
@@ -1148,6 +1150,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Information Overload](concepts/InformationOverload.md) - Condition in which content, social filtering, distraction, and attractive choices exceed a person's capacity to evaluate and consume them.
+- [Breakthrough Knowledge](concepts/BreakthroughKnowledge.md) - High-leverage information that changes governing beliefs, questions, or decisions by supplying a durable new lens.
+- [Mental Models](concepts/MentalModels.md) - Compact representations of recurring phenomena used to interpret situations and transfer patterns across domains.
+- [Learning How to Learn](concepts/LearningHowToLearn.md) - Trainable ability to find, evaluate, retain, and apply knowledge with less wasted time and attention.
 - [Neural Network](concepts/NeuralNetwork.md) - Layered weighted units whose composition computes a fitted mathematical function, with attractor basins, learned internal features, and capacity that depends on the task.
 - [Neural Network Training](concepts/NeuralNetworkTraining.md) - The loop of examples, loss, and weight updates that fits a network, including data acquisition, epochs, augmentation, hyperparameters, and GPU-bound scaling.
 - [Transformer Architecture](concepts/TransformerArchitecture.md) - Embedding module plus stacked attention blocks and a decode step to next-token probabilities, scaled through embedding width, block count, and head count.

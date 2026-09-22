@@ -2698,3 +2698,11 @@ Added Rodney Brooks' 2017 essay and comment thread on the social consequences of
 ## [2026-09-19] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | While Everyone Is Distracted By Social Media, Successful People Double Down On An Underrated Skill
+
+Added Michael Simmons's practitioner essay on filtering information overload for high-leverage learning. Key claims: content shock, echo chambers, constant distraction, and fear of missing out jointly push reactive users toward low-value media; breakthrough knowledge changes governing beliefs while incremental knowledge mostly confirms them; disconfirming evidence can carry asymmetric value; mental models are proposed as compressed, durable, cross-domain representations; and learning how to learn combines selection, evidence evaluation, diverse knowledge, bias awareness, retention, and application. Created MichaelSimmons, InformationOverload, BreakthroughKnowledge, MentalModels, and LearningHowToLearn, and extended AttentionManagement with proactive media allocation. The local Herbert Simon quotation graphic was inspected but omitted because its text is fully repeated in the article; the author portrait, LinkedIn UI assets, and recommendation thumbnails were decorative or unrelated. Two in-body images associated with Elon Musk's advice resolve only to the article URL, and the later knowledge-density graphic has no effective image reference, so those visual contents could not be verified and were not used as evidence. No direct contradiction was found; the new pages qualify the essay's promotional interests, anecdotal examples, and untested ranking of knowledge formats.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
