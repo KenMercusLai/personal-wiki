@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why You Should (And Shouldn’t) Join a Startup](sources/why-you-should-and-shouldnt-join-a-startup-atrium.md) - Justin Kan weighs weak management, unlikely riches, and instability against exceptional responsibility, founder networks, and accelerated learning when choosing startup work.
 - [You're Thinking Too Big](sources/youre-thinking-too-big.md) - Jennifer Tang explains microinteractions as trigger, rules, feedback, and loops or modes, arguing that small acknowledgments reduce uncertainty and should be designed early and refined in live use.
 - [Upgrading GitHub from Rails 3.2 to 5.2](sources/upgrading-github-from-rails-3-2-to-5-2-the-github-blog.md) - GitHub describes dual-booting Rails versions, ratcheting required CI through intermediate releases, and progressively exposing supported milestones in production during an eighteen-month no-downtime upgrade.
 - [Why You Need To Stop Obsessing Over Comments On Hacker News](sources/why-you-need-to-stop-obsessing-over-comments-on-hacker-news-venngage.md) - Venngage argues that Hacker News is useful for technical criticism but unreliable for market validation because its specialized public crowd lacks independence and representative diversity.
@@ -363,6 +364,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Justin Kan](entities/JustinKan.md) - Founder-operator arguing that startup employment should be chosen for fit and learning rather than assumed wealth or prestige.
+- [Justin.tv](entities/JustinTV.md) - Startup case where inexperienced employees gained high-consequence technical and business responsibility under real operational pressure.
 - [Jennifer Tang](entities/JenniferTang.md) - Product-design author explaining how microinteractions make system acknowledgment legible.
 - [Dan Saffer](entities/DanSaffer.md) - Interaction-design author credited with the trigger, rules, feedback, and loops or modes model of microinteractions.
 - [Hacker News](entities/HackerNews.md) - Technology and startup discussion community useful for technical critique but, in the source's analysis, limited as a proxy for mass-market demand.
@@ -429,7 +432,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Howie Liu](entities/HowieLiu.md) - Airtable founder cited for treating advice as context-dependent signal.
 - [Jared Smith](entities/JaredSmith.md) - Qualtrics operator cited for one-way/two-way decision advice and founder instinct.
 - [Laura Behrens Wu](entities/LauraBehrensWu.md) - Shippo founder cited for the toxic-fit versus open-role personnel warning.
-- [Paul Buchheit](entities/PaulBuchheit.md) - YC partner and Gmail creator cited for advising Front to follow its growth.
+- [Paul Buchheit](entities/PaulBuchheit.md) - YC partner and Gmail creator whose advice favors observed product growth and career learning rate over initial assumptions or status.
 - [Peter Reinhardt](entities/PeterReinhardt.md) - Segment founder/operator cited for repeating the mission at every all-hands.
 - [Qualtrics](entities/Qualtrics.md) - Company context for Jared Smith's decision and founder-instinct advice.
 - [Shippo](entities/Shippo.md) - Company context for Laura Behrens Wu's personnel advice.
@@ -1880,7 +1883,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Self-Funded Software Growth](concepts/SelfFundedSoftwareGrowth.md) - Software-company growth path where product revenue and capital-light operations reduce dependence on outside capital or emergency IPO timing.
 - [Startup Hypothesis Testing](concepts/StartupHypothesisTesting.md) - Early-stage startup discipline of naming assumptions, designing tests, evaluating results, and tying build work to validated learning.
 - [Startup Runway](concepts/StartupRunway.md) - Startup capital/time budget interpreted as learning capacity, product-scope constraint, and survival time rather than only calendar months before cash runs out.
-- [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate-side evaluation of startup viability, governance, team quality, milestone quality, and personal conviction before joining.
+- [Startup Job Diligence](concepts/StartupJobDiligence.md) - Candidate-side evaluation of startup viability and personal fit across risk, management structure, equity, autonomy, networks, and learning rate.
 - [Vanity Metrics](concepts/VanityMetrics.md) - Attention or activity metrics that look impressive but weakly evidence durable business progress unless tied to revenue, customers, retention, or active use.
 - [Startup Focus](concepts/StartupFocus.md) - Discipline of choosing one strategic path or differentiated wedge when service revenue, product adoption, technical novelty, product portfolios, and scarce founder attention conflict.
 - [Startup Failure Patterns](concepts/StartupFailurePatterns.md) - Recurring startup shutdown mechanisms involving weak fit, exhausted runway, bad timing, platform dependence, operational complexity, governance trouble, and unfocused scaling.

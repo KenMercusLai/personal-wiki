@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: 883e9f028de3e6807d70ff9e6d049fa4c9ade761
-summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable recovery."
-episode_count: 355
-source_count: 355
-paragraph_count: 302
+as_of_overview_commit: 5aceccf92310a2898d4a88ef3b7d3ff15365838b
+summary: "Across technology, business, institutions, culture, and work, durable outcomes require grounded evidence, feedback, fit-aware tradeoffs, and accountable recovery."
+episode_count: 356
+source_count: 356
+paragraph_count: 303
 topic_count: 9
 ---
 
@@ -21,9 +21,9 @@ topic_count: 9
 - Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought; [[ChangeSafety]] and [[DeploymentAutomation]] must also distinguish bounded code reversion from repair of persistent, client-visible, or mixed-version effects.
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[CustomerLedProductDevelopment]], [[BuilderUserFluencyGap]], [[CognitiveOverheadInProductDesign]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; calls, mockups, and proofs of concept expose false certainty, while feedback must be segmented because fluent employees, power users, and public experts such as [[HackerNews]] can reveal technical needs yet misrepresent newcomer comprehension or market demand; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
+- [[StartupJobDiligence]] should test candidate-company fit as well as company viability: [[JustinKan]] argues that the unusual responsibility, founder proximity, and learning available through cases such as [[JustinTV]] can justify uncertainty for self-directed people, while weak management structure, unstable career paths, work-life cost, and [[EmployeeEquityRisk]] make learning rate—not expected riches—the stronger reason to join.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
-- [[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments, protect [[InternalSoftwareQuality]], and tune [[CodeReviewPractice]] to risk; [[UnderstandDesignBuild]] guards against [[PrematureImplementation]], while [[GitHub]]'s [[IncrementalFrameworkUpgrade]] shows that dual-boot compatibility, required multi-version CI, [[DeploymentAutomation]], and staged [[ChangeSafety]] can keep a long framework migration inside ordinary delivery.
+- [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where local presence precedes a location-bound search, while [[StartupJobDiligence]] adds the candidate-side choice of whether responsibility and learning through environments such as [[JustinTV]] justify weak structure, instability, work-life cost, and [[EmployeeEquityRisk]].
 
 ## Synthesis by Domain
 
@@ -36,7 +36,7 @@ Durable technical progress combines system understanding, scope-aware architectu
 
 ### Business and Markets
 
-Companies convert scarce resources into durable advantage when opportunity estimates expose assumptions, runway funds learning, product feedback makes system state legible, expert criticism is separated from customer demand, and growth preserves retained value.
+Companies convert scarce resources into durable advantage when opportunity estimates expose assumptions, runway funds learning, candidate-company fit is explicit, and growth preserves retained value.
 
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected. Evidence: [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]].
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
@@ -81,7 +81,7 @@ This remains an indirect topic spanning scientific computing, attention, philoso
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, role clarity, bounded attention, fair incentives, and delivery practices that keep change observable and reversible only within explicit boundaries.
+Learning, careers, collaboration, technical delivery, and workplace policy work best as feedback-rich systems with explicit expectations, fit-aware risk choices, fair incentives, and deliberate social design.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why transaction access alone does not secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "435fa14209b4795162d821a0c0d4efdd1c4c9e159eb9757ae015b9c366b19646",
       "e7258c9db2dc2a575de184fbdb0dd1247bc359ef8841a7d855ec0eaf52ef9e82",
       "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
       "b6fa8c1af72d559ee3c2280630b2496fee81e1a867a9c3608eb63e730ce4479e",
@@ -304,11 +305,31 @@
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
       "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 302
+    "paragraph_count": 303
   },
-  "overview_commit": "883e9f028de3e6807d70ff9e6d049fa4c9ade761",
-  "overview_digest": "be5d42be6f6373e0781c2a5bf456865c8850239ee8121af1c5fd4f5493facd0c",
+  "overview_commit": "5aceccf92310a2898d4a88ef3b7d3ff15365838b",
+  "overview_digest": "74eeb21806d56efcc8812eeafb6541c4967d154f366b966140f10b46a090ae2c",
   "paragraphs": [
+    {
+      "id": "435fa14209b4795162d821a0c0d4efdd1c4c9e159eb9757ae015b9c366b19646",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Justin Kan source broadens [[StartupJobDiligence]] from assessing a company's viability to assessing the candidate-company fit. Runway, investors, governance, team quality, business milestones, and belief in the product still matter, but the candidate must also decide whether exceptional responsibility, founder proximity, and learning rate compensate for weak management structure, uncertain mentorship and progression, lower stability, work-life opportunity cost, and [[EmployeeEquityRisk]]. [[JustinTV]] supplies the main learning case: inexperienced employees took on high-scale backend, live-video, and partnership work that helped them acquire capabilities and relationships they later carried into Socialcam, Triplebyte, and Cruise. [[JustinKan]] explicitly rejects startup employment as a universal recommendation and rejects riches as its main justification; his preferred criterion is whether learning matters more to this person now than predictability. The argument is a 2018 founder talk built from memorable outliers rather than representative employment data, so it supports a decision framework more strongly than a general claim that startups reliably accelerate careers.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "EmployeeEquityRisk",
+        "JustinKan",
+        "JustinTV",
+        "StartupJobDiligence"
+      ]
+    },
     {
       "id": "e7258c9db2dc2a575de184fbdb0dd1247bc359ef8841a7d855ec0eaf52ef9e82",
       "primary_topic": "business-and-markets",

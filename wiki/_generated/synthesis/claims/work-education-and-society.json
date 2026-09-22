@@ -208,9 +208,10 @@
       "id": "career-paths-are-staged-experiments",
       "qualifications": [
         "Savings, health, visas, disability, care duties, housing, partner careers, local labor markets, life stage, organizational fairness, and structural barriers shape who can afford experiments, relocation, boundaries, or promotion paths; formal career architecture can clarify expectations but may become checklist theater unless calibrated with examples and fairness checks.",
-        "The relocation-first argument is a 2016 practitioner view without comparative outcome data; its claimed 100x advantage is rhetorical and does not apply automatically to remote-first work."
+        "The relocation-first argument is a 2016 practitioner view without comparative outcome data; its claimed 100x advantage is rhetorical and does not apply automatically to remote-first work.",
+        "The startup-employment evidence is a founder talk using selected outliers from the speaker's network, so it supports a fit framework rather than a general finding that startups reliably accelerate careers."
       ],
-      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where choosing a city and establishing local presence precede the search for location-bound work.",
+      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where local presence precedes a location-bound search, while [[StartupJobDiligence]] adds the candidate-side choice of whether responsibility and learning through environments such as [[JustinTV]] justify weak structure, instability, work-life cost, and [[EmployeeEquityRisk]].",
       "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
@@ -225,7 +226,10 @@
         "OneFitSearchMindset",
         "EngineeringCareerArchitecture",
         "NerdWallet",
-        "InMarketJobSearch"
+        "InMarketJobSearch",
+        "StartupJobDiligence",
+        "JustinTV",
+        "EmployeeEquityRisk"
       ]
     },
     {
@@ -386,6 +390,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, careers, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. Recent sources add two bounded transition strategies: local presence may improve discovery for location-bound careers while transferring relocation risk to candidates, and a large framework migration can remain inside normal delivery through multi-version CI, progressive exposure, and production evidence.",
+  "summary": "Work, education, and society sources frame learning, careers, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. Recent sources add bounded transition strategies: local presence may improve discovery for location-bound careers while transferring relocation risk to candidates; startup work may accelerate learning while sacrificing structure, stability, and dependable equity value; and a large framework migration can remain inside normal delivery through multi-version CI, progressive exposure, and production evidence.",
   "topic_id": "work-education-and-society"
 }

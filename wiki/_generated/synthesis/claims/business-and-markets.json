@@ -255,6 +255,22 @@
     },
     {
       "global_candidate": true,
+      "id": "startup-job-fit-balances-learning-and-risk",
+      "qualifications": [
+        "The evidence is a 2018 founder talk built from memorable examples in the speaker's own network rather than representative startup-employment data.",
+        "The claim that startup management generally performs poorly is a practitioner generalization, and exceptional responsibility can reflect understaffing or fragile operations rather than healthy development."
+      ],
+      "statement": "[[StartupJobDiligence]] should test candidate-company fit as well as company viability: [[JustinKan]] argues that the unusual responsibility, founder proximity, and learning available through cases such as [[JustinTV]] can justify uncertainty for self-directed people, while weak management structure, unstable career paths, work-life cost, and [[EmployeeEquityRisk]] make learning rate—not expected riches—the stronger reason to join.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "StartupJobDiligence",
+        "JustinKan",
+        "JustinTV",
+        "EmployeeEquityRisk"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "software-economics-requires-cost-structure-separation",
       "qualifications": [
         "The intangible-asset evidence comes through Gates's review of Haskel and Westlake rather than the full book, and the Microsoft and Uber examples come from very different eras and business models; the claim should separate software-like reproduction costs from defensibility, profitability, market power, labor economics, and policy design."
@@ -808,6 +824,6 @@
       ]
     }
   ],
-  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, public narratives, and [[Microinteractions]] that make product state legible reshape who captures value. [[CustomerLedProductDevelopment]] adds an evidence boundary: public expert communities such as [[HackerNews]] can improve technical detail without representing adoption, retention, or payment. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.",
+  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[StartupJobDiligence]] adds a labor-side boundary by asking whether startup learning and responsibility justify weak structure, instability, and equity risk for the particular candidate. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, public narratives, and [[Microinteractions]] that make product state legible reshape who captures value. [[CustomerLedProductDevelopment]] adds an evidence boundary: public expert communities such as [[HackerNews]] can improve technical detail without representing adoption, retention, or payment. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.",
   "topic_id": "business-and-markets"
 }

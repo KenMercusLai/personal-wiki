@@ -2878,3 +2878,11 @@ Added Jennifer Tang's 2016 account of microinteractions as small acknowledgments
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Why You Should (And Shouldn’t) Join a Startup
+
+Added Justin Kan's 2018 two-sided account of startup employment. Created [[JustinKan]] and [[JustinTV]], and extended [[StartupJobDiligence]] and [[PaulBuchheit]]. The source argues that weak management structure, uncertain mentorship and career paths, low stability, work-life opportunity cost, and statistically improbable employee wealth must be weighed against unusually large responsibility, founder networks, and fast learning through both success and failure. It explicitly rejects startup work as a universal recommendation and treats learning rate as the strongest reason to join only when that priority outweighs predictability. No direct contradiction was found; the source broadens existing company diligence into candidate-company fit and reinforces [[EmployeeEquityRisk]]. Its evidence is a founder's selected retrospective examples rather than representative employment data. The sole embedded file could not be interpreted: despite its `.png` name, it contains only an HTML redirect stub and no image bytes, so no visual claim was extracted, no asset was retained, and no manifest was created. Downstream synthesis was refreshed for business and markets and work, education, and society, and the global artifact was recompacted because the candidate set changed materially.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
