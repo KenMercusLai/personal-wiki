@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: a4db79b2d1b4898f16463d13e5f5238b535e3410
+as_of_overview_commit: 883e9f028de3e6807d70ff9e6d049fa4c9ade761
 summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable recovery."
-episode_count: 354
-source_count: 354
-paragraph_count: 301
+episode_count: 355
+source_count: 355
+paragraph_count: 302
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Durable technical progress combines system understanding, scope-aware architectu
 
 ### Business and Markets
 
-Companies convert scarce resources into durable advantage when opportunity estimates expose assumptions, runway funds learning, expert criticism is separated from customer demand, and growth preserves retained value.
+Companies convert scarce resources into durable advantage when opportunity estimates expose assumptions, runway funds learning, product feedback makes system state legible, expert criticism is separated from customer demand, and growth preserves retained value.
 
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected. Evidence: [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]].
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].

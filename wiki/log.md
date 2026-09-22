@@ -2870,3 +2870,11 @@ Added GitHub's 2018 retrospective on an eighteen-month, no-downtime upgrade of i
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | You're Thinking Too Big
+
+Added Jennifer Tang's 2016 account of microinteractions as small acknowledgments that make product behavior understandable and reassuring. Created [[Microinteractions]], [[JenniferTang]], and [[DanSaffer]]. The source presents Saffer's four-part model of trigger, rules, feedback, and loops or modes; emphasizes feedback for assurance, instruction, delight, and brand memory; and argues that teams should design these details early and refine them through live use because static mockups do not reproduce timing and feel. No direct contradiction was found. The synthesis qualifies the essay's illustrative evidence and notes that excessive animation, sound, vibration, repetition, or novelty can add delay, distraction, or accessibility costs. The source Markdown contains no effective image references, so no image inspection or asset manifest was required.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

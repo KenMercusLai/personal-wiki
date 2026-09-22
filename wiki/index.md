@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You're Thinking Too Big](sources/youre-thinking-too-big.md) - Jennifer Tang explains microinteractions as trigger, rules, feedback, and loops or modes, arguing that small acknowledgments reduce uncertainty and should be designed early and refined in live use.
 - [Upgrading GitHub from Rails 3.2 to 5.2](sources/upgrading-github-from-rails-3-2-to-5-2-the-github-blog.md) - GitHub describes dual-booting Rails versions, ratcheting required CI through intermediate releases, and progressively exposing supported milestones in production during an eighteen-month no-downtime upgrade.
 - [Why You Need To Stop Obsessing Over Comments On Hacker News](sources/why-you-need-to-stop-obsessing-over-comments-on-hacker-news-venngage.md) - Venngage argues that Hacker News is useful for technical criticism but unreliable for market validation because its specialized public crowd lacks independence and representative diversity.
 - [You Can't Have a Rollback Button](sources/you-cant-have-a-rollback-button-skyliner.md) - Dan McKinley argues that reverting server code cannot restore all state changed by a live deployment, so teams should prefer small staged releases, off switches, and forward remediation.
@@ -362,6 +363,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Jennifer Tang](entities/JenniferTang.md) - Product-design author explaining how microinteractions make system acknowledgment legible.
+- [Dan Saffer](entities/DanSaffer.md) - Interaction-design author credited with the trigger, rules, feedback, and loops or modes model of microinteractions.
 - [Hacker News](entities/HackerNews.md) - Technology and startup discussion community useful for technical critique but, in the source's analysis, limited as a proxy for mass-market demand.
 - [Dan McKinley](entities/DanMcKinley.md) - Software practitioner who argues that deployment recovery must account for persistent and mixed-version system state rather than relying on a universal rollback control.
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
@@ -1185,6 +1188,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
 
 ## Concepts
+- [Microinteractions](concepts/Microinteractions.md) - Small task-level exchanges structured by triggers, rules, feedback, and loops or modes that expose system state and acknowledgment.
 - [Two-Phase Commit](concepts/TwoPhaseCommit.md) - Atomic-commit protocol that durably prepares every participant before one coordinator-directed commit or rollback.
 - [In-Market Job Search](concepts/InMarketJobSearch.md) - Establishing sustained local presence and credible relocation commitment before pursuing location-bound work in a target city.
 - [Replicated Log](concepts/ReplicatedLog.md) - Shared ordered log that lets replicas execute agreed state changes in the same sequence and converge on one state.

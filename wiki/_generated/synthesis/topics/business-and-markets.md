@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-23
-as_of_overview_commit: 6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c
-input_digest: ed92a420976d1b5ffe038304bb3ac0ee95670c19c5e326b3ac695e2625d1fe2c
+as_of_overview_commit: 883e9f028de3e6807d70ff9e6d049fa4c9ade761
+input_digest: 9aed58a61fe1d4d3ac87af609cfbba8dbc22e2254d3f834b171b41c884ce114f
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value. [[CustomerLedProductDevelopment]] adds an evidence boundary: public expert communities such as [[HackerNews]] can improve technical detail without representing adoption, retention, or payment. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, public narratives, and [[Microinteractions]] that make product state legible reshape who captures value. [[CustomerLedProductDevelopment]] adds an evidence boundary: public expert communities such as [[HackerNews]] can improve technical detail without representing adoption, retention, or payment. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
 
 ## Cross-source Findings
 
@@ -412,6 +412,17 @@ Business and markets sources frame companies as systems for converting scarce re
 
 - The four-P framing is a managerial definition rather than a measured threshold and does not say how a team would recognize that the arrangement has been achieved.
 - It sits awkwardly beside the corpus's stricter fit tests - overwhelmed demand, retention, transactions per person - because a complete product, price, place, and promotion arrangement may still fall short of them.
+
+### Microinteractions Make Product State Legible
+
+[[Microinteractions]], using the four-part model attributed to [[DanSaffer]], make product state legible by connecting triggers and rules to perceptible feedback and to loops or modes; this task-level acknowledgment can reduce [[CognitiveOverheadInProductDesign]] and the [[BuilderUserFluencyGap]] when it clarifies acceptance, progress, completion, or failure before optional delight or brand expression.
+
+**Evidence:** [[Microinteractions]], [[DanSaffer]], [[CognitiveOverheadInProductDesign]], [[BuilderUserFluencyGap]]
+
+**Qualifications:**
+
+- The evidence is one 2016 practitioner essay using illustrative physical and digital examples rather than comparative usability or business-outcome tests.
+- More feedback is not automatically better: animation, sound, vibration, repetition, and novelty can add delay, distraction, habituation, notification noise, or accessibility barriers when they are poorly matched to the task.
 
 ### Notification Governance Shares Attention Responsibility
 

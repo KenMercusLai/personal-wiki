@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e7258c9db2dc2a575de184fbdb0dd1247bc359ef8841a7d855ec0eaf52ef9e82",
       "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
       "b6fa8c1af72d559ee3c2280630b2496fee81e1a867a9c3608eb63e730ce4479e",
       "1032574da258fc3c2d2d5f6b9cc97392897bbfcaf849a335bc8dee6a0e185614",
@@ -303,11 +304,28 @@
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
       "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 301
+    "paragraph_count": 302
   },
-  "overview_commit": "a4db79b2d1b4898f16463d13e5f5238b535e3410",
-  "overview_digest": "2be0b11fa5a86017d800982a97644caa7ac8d88f003400da29947f745924a731",
+  "overview_commit": "883e9f028de3e6807d70ff9e6d049fa4c9ade761",
+  "overview_digest": "be5d42be6f6373e0781c2a5bf456865c8850239ee8121af1c5fd4f5493facd0c",
   "paragraphs": [
+    {
+      "id": "e7258c9db2dc2a575de184fbdb0dd1247bc359ef8841a7d855ec0eaf52ef9e82",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Jennifer Tang source adds [[Microinteractions]] as the task-level acknowledgment layer of product experience. Drawing on [[DanSaffer]], it separates the event that starts an exchange, the rules that govern it, the feedback that makes its state perceptible, and the loops or modes that determine repetition or alternate behavior. The central claim is functional before decorative: visible motion, sound, vibration, progress, completion, and error cues reduce uncertainty about whether the system received an action and what happened next, connecting directly to [[CognitiveOverheadInProductDesign]] and [[BuilderUserFluencyGap]]. Delight and brand memory are possible secondary effects, but the article's broader process lesson is to design these responses early and refine timing and feel through live use because mockups and wireframes cannot reproduce the full experience. The evidence is illustrative rather than comparative, so the synthesis preserves accessibility, interruption, habituation, and excess-feedback risks and does not assume every interaction benefits from more animation, sound, repetition, or novelty.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BuilderUserFluencyGap",
+        "CognitiveOverheadInProductDesign",
+        "DanSaffer",
+        "Microinteractions"
+      ]
+    },
     {
       "id": "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
       "primary_topic": "ai-and-technology",
