@@ -4,7 +4,8 @@ type: concept
 tags: [product-design, ux, cognition]
 sources:
   - cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review
-last_updated: 2026-09-15
+  - you-are-not-your-customer-greylock-perspectives
+last_updated: 2026-09-22
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[CognitiveOverheadInProductDesign]] is the mental connection-making burden a user must cross to understand what a product is for, what is happening, and why an interaction is valuable.
 
 ## Current Synthesis
-[[DavidLieb]] frames cognitive overhead as the product-design enemy of cognitive simplicity. The central lesson is that fewer visible steps do not automatically make a product easier. Users can understand and trust a product more when it asks them to take a meaningful action, starts from familiar patterns, stays consistent enough to form habits, or slows down long enough to make invisible work legible. The [[Bump]] and [[Flock]] contrast is the core case: Bump required a physical phone bump but made the sharing action obvious, while Flock's predictive sharing was technologically smoother yet harder for many users to understand.
+[[DavidLieb]] frames cognitive overhead as the product-design enemy of cognitive simplicity. The central lesson is that fewer visible steps do not automatically make a product easier. Users can understand and trust a product more when it asks them to take a meaningful action, starts from familiar patterns, stays consistent enough to form habits, or slows down long enough to make invisible work legible. The [[Bump]] and [[Flock]] contrast is the core case: Bump required a physical phone bump but made the sharing action obvious, while Flock's predictive sharing was technologically smoother yet harder for many users to understand. Greylock adds an organizational cause: employees and early adopters can become too fluent to notice the cognitive cost of niche feature accumulation, so newcomer testing is part of complexity control.
 
 ## Key Claims
 - Product simplicity depends on comprehension, not only fewer buttons, steps, features, or milliseconds.
@@ -21,6 +22,7 @@ knowledge_schema: synthesis-v1
 - Consistent product purpose supports habit formation better than broad feature variety.
 - Deliberate slowness can build trust when it reveals work that would otherwise feel mysterious.
 - Cognitive-overhead testing should include people who lack product-team pattern fluency or who approximate distracted real-world use.
+- Power-user feature requests can raise newcomer comprehension costs even when they satisfy already-engaged users.
 
 ## Evidence
 - Definition and mobile context: [[cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review]] defines cognitive overhead as the logical connections needed to contextualize what users see and says mobile distraction makes cognitive simplicity more important.
@@ -30,12 +32,14 @@ knowledge_schema: synthesis-v1
 - Consistency: [[cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review]] contrasts WhatsApp's focused messaging identity with Twitter Moments making Twitter's purpose harder to explain.
 - Trust through time: [[cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review]] says travel-site delays can make search feel more exhaustive and valuable, while QR codes show that speed without recognition can fail.
 - Testing: [[cognitive-overhead-is-your-products-overlord-topple-it-with-these-tips-first-round-review]] recommends asking young, old, or distracted users what the product is for and how to use it.
+- Feature accumulation: [[you-are-not-your-customer-greylock-perspectives]] argues that building niche requests for employees and power users can make a product harder for new customers to understand without improving growth.
 
 ## Counterevidence & Qualifications
-The source is practitioner advice from Lieb's product experience, not a controlled cognitive-science study. Its counter-friction guidance does not mean teams should add arbitrary steps, fake delays, or nostalgic interfaces. Extra user work helps only when it creates control, recognition, trust, or learning that improves later behavior; otherwise it remains ordinary product-flow friction.
+Both sources are practitioner advice rather than controlled cognitive-science or growth experiments. Their guidance does not mean teams should add arbitrary steps, fake delays, nostalgic interfaces, or reject advanced functionality. Extra user work helps only when it creates control, recognition, trust, or learning that improves later behavior; expert functionality remains justified when its user value exceeds its complexity cost or can be progressively disclosed.
 
 ## What Changed
-- Created the concept to distinguish comprehension burden from raw interaction count.
+- Added insider and power-user fluency as an organizational cause of hidden newcomer complexity.
+- Qualified the argument so valuable expert functionality can remain when its complexity is contained or progressively disclosed.
 
 ## Related Concepts
 - [[CognitiveLoadInUXResearch]] - broader UX-research concept for hidden mental work in interface use.
@@ -43,3 +47,5 @@ The source is practitioner advice from Lieb's product experience, not a controll
 - [[ProductStickiness]] - consistency and habit formation can make a product easier to return to.
 - [[ProductEngagementLadder]] - staged learning can prevent later skills from overloading first use.
 - [[BehaviorDesign]] - user ability includes how simple the product feels to understand and act on.
+- [[BuilderUserFluencyGap]] - product-team expertise can conceal the cognitive connections newcomers must make.
+- [[CustomerLedProductDevelopment]] - customer requests need segmentation so expert depth does not silently displace newcomer clarity.

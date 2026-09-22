@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-22
-as_of_overview_commit: 6a3cb71b5a25d5d9c117b956454fe1fc615043bd
-summary: "Durable systems align human constraints, institutional accountability, technical verification, market learning, cultural stewardship, and practice that preserves judgment."
-episode_count: 339
-source_count: 339
-paragraph_count: 287
+as_of_overview_commit: 92261ef6b4d41c467f417e78c2f165d69a8fa301
+summary: "Durable systems align human constraints, institutional accountability, technical verification, representative market learning, cultural stewardship, and practiced judgment."
+episode_count: 340
+source_count: 340
+paragraph_count: 288
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
-- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; customer calls, paper mockups, and proofs of concept can expose false certainty before implementation accumulates, [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
+- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[CustomerLedProductDevelopment]], [[BuilderUserFluencyGap]], [[CognitiveOverheadInProductDesign]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; calls, mockups, and proofs of concept expose false certainty, while feedback must be segmented because fluent employees and power users can reveal expert needs yet misrepresent newcomer comprehension; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
@@ -36,7 +36,7 @@ Technical progress lasts when system understanding, verification, observable ope
 
 ### Business and Markets
 
-Durable businesses convert scarce capital and attention into learning and retained value while filtering strategy through unit economics, incentives, platform power, repeatable demand, and early tests for unknown unknowns.
+Durable businesses convert scarce capital and attention into representative learning and retained value while filtering strategy through economics, incentives, platform power, and demand.
 
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
@@ -57,7 +57,7 @@ Media forms and platforms shape learning, creation, preservation, payment, and s
 
 ### Governance and Institutions
 
-Governance becomes visible in decision controls, instrumentation, operating boundaries, trusted intermediaries, exit options, and information architecture shaped by ownership, staffing, and authority.
+Governance becomes visible in decision controls, instrumentation, operating boundaries, trusted intermediaries, exit options, and information architecture shaped by ownership and authority.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
@@ -68,7 +68,7 @@ The topic mainly tracks technical and organizational history, emphasizing inheri
 
 ### Psychology and Personal Development
 
-Progress depends on allocating attention, designing small feedback loops, maintaining trust, processing conflict, and using evidence to counter functional but error-prone cognitive shortcuts.
+Progress depends on allocating attention, designing feedback loops, maintaining trust, and testing judgments against other people's information, incentives, and constraints.
 
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]].
 - [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior change and leadership behavior as repeatable loops where motivation, ability, prompts, feedback, recognition, context-sharing, reflection, price signals, and bounded making shape future action. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
@@ -81,7 +81,7 @@ The sparse topic links scientific computing, attention, data-science adoption, i
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, protected judgment, role clarity, fair incentives, social design, sustainable delivery, and maintenance responsibilities matched with time, skill, access, and support.
+Learning and work improve through feedback, protected judgment, role clarity, fair incentives, social design, sustainable delivery, and maintenance responsibilities matched with capacity.
 
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. Evidence: [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]].

@@ -3,16 +3,16 @@
 generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
-last_updated: 2026-09-15
-as_of_overview_commit: 22ed6fcadba462397f5fc596ab794039a0b39baf
-input_digest: 5469da2856ae86e3cf27d22e41ed499697cf553d2d316cf1a2160bddedb0fac6
+last_updated: 2026-09-22
+as_of_overview_commit: 92261ef6b4d41c467f417e78c2f165d69a8fa301
+input_digest: e1801ad2968480a4717885cc52d2a0a7a2faeaa5bd13e6830c2642e2cea3e5ee
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, similarity-based trust, and projection of expert fluency onto newcomers. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, product-feedback sampling, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -68,13 +68,14 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 ### Judgment Tools Counter Cognitive And Social Biases
 
-[[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], and [[FalseConsensusEffect]] show that collective or personal judgment improves when people model what others know, not only what they themselves believe.
+[[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], [[FalseConsensusEffect]], and [[BuilderUserFluencyGap]] show that collective or product judgment improves when people model what others know rather than projecting their own information state; [[CustomerLedProductDevelopment]] should therefore separate newcomer evidence from feedback supplied by fluent employees and power users.
 
-**Evidence:** [[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], [[FalseConsensusEffect]]
+**Evidence:** [[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], [[FalseConsensusEffect]], [[BuilderUserFluencyGap]], [[CustomerLedProductDevelopment]], [[CognitiveOverheadInProductDesign]]
 
 **Qualifications:**
 
 - The method improves weak or divided crowds, but strong consensus remains treated as a useful proxy in the source.
+- The Greylock essay extends the sampling lesson through practitioner advice rather than controlled evidence, and expert feedback remains valuable for questions about advanced workflows, reliability, retention, accessibility, or revenue.
 
 ### Cognitive Biases Are Functional Shortcuts With Costs
 

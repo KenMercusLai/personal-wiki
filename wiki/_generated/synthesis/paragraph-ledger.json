@@ -287,12 +287,13 @@
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b",
-      "120a917eebc28e1db27ee39f46a7407c334b8813fa4eba12cc4aad403ba3292a"
+      "120a917eebc28e1db27ee39f46a7407c334b8813fa4eba12cc4aad403ba3292a",
+      "88dafed2b1ca67dd1c377c20ffb5e081bacc0be6512146b86cd7a5824bac55fb"
     ],
-    "paragraph_count": 287
+    "paragraph_count": 288
   },
-  "overview_commit": "6a3cb71b5a25d5d9c117b956454fe1fc615043bd",
-  "overview_digest": "88daa9b6d4b79534d06afc042cd09216a7c352c8cafc07fb6d10fd70f7a8899c",
+  "overview_commit": "92261ef6b4d41c467f417e78c2f165d69a8fa301",
+  "overview_digest": "bc72e179958db623f7c768593944500086a2a83fe63e2efe8548aced928716a2",
   "paragraphs": [
     {
       "id": "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
@@ -5881,6 +5882,25 @@
         "AIAssistedWriting",
         "SemanticAblation",
         "TextGenerationSampling"
+      ]
+    },
+    {
+      "id": "88dafed2b1ca67dd1c377c20ffb5e081bacc0be6512146b86cd7a5824bac55fb",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The Greylock customer essay adds a representativeness boundary to the product-learning material. [[CustomerLedProductDevelopment]] still favors observed problems, support encounters, behavior, and direct conversations over imagined demand, but those signals must be segmented by user fluency and by the decision being tested. Employees and early adopters can become power users whose deep product knowledge makes them useful witnesses for expert workflows yet weak proxies for prospective-user comprehension or acquisition. This extends [[BuilderUserFluencyGap]] from individual support misunderstandings into roadmap sampling and gives [[CognitiveOverheadInProductDesign]] an organizational cause: shared enthusiasm for insider features can add complexity without helping newcomers reach value. The essay is practitioner advice without quantitative comparison, so it does not establish that new-user needs should always outweigh retention, revenue, accessibility, or expert depth.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BuilderUserFluencyGap",
+        "CognitiveOverheadInProductDesign",
+        "CustomerLedProductDevelopment"
       ]
     }
   ],

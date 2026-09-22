@@ -2742,3 +2742,11 @@ Added Daniel Karlsson's short founder essay on early release as an uncertainty-r
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint over 1874 pages. Deterministic checks reported 0 orphans, 0 broken wikilinks, 0 missing entity pages, and 0 sparse pages; a self-link-aware review found 5 real orphans: MikeCohn, DerekSivers, WilliamWake, MichaelPorter, and NotebookLM. The 2026-09-17 graph snapshot reported 0 hub stubs, 13 fragile bridges, and 0 isolated communities, but is 36 pages behind the current wiki. The bundled semantic API pass could not run because LLM_MODEL is not provider-qualified; local review found that explicit source disagreements are already represented as qualifications or bounded tensions in the relevant synthesis pages. Report not saved to wiki/lint-report.md.
+
+## [2026-09-22] ingest | You Are Not Your Customer
+
+Added Greylock Perspectives' argument that employees and early adopters accumulate enough product knowledge to become poor proxies for prospective users. Extended [[CustomerLedProductDevelopment]] with feedback segmentation by user fluency and business question, [[BuilderUserFluencyGap]] from support empathy into roadmap sampling, [[CognitiveOverheadInProductDesign]] with expert-feature accumulation as a source of newcomer complexity, and [[GreylockPartners]] with the publication's customer-growth advice. The source contains no effective image references, so no image inspection or asset manifest was required. The article qualifies rather than contradicts existing customer-led material: established users provide grounded evidence, but their requests may not predict acquisition or comprehension, and the essay supplies no quantitative basis for universally preferring new-user needs over retention, revenue, accessibility, or expert workflows.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

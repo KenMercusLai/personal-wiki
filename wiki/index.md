@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You Are Not Your Customer](sources/you-are-not-your-customer-greylock-perspectives.md) - Greylock Perspectives argues that employees and early adopters become too fluent to represent prospective users, so teams should segment feedback and protect newcomer comprehension from power-user feature bias.
 - [Unknown Unknowns: Why you should release early and often](sources/unknown-unknowns-why-you-should-release-early-and-often.md) - Daniel Karlsson argues that conversations, mockups, and proofs of concept expose false certainty and unknown unknowns before teams build the wrong product.
 - [Why AI writing is so generic, boring, and dangerous: Semantic ablation](sources/why-ai-writing-is-so-generic-boring-and-dangerous-semantic-ablation.md) - A Register opinion article names the loss of precise language, distinctive imagery, and complex structure during AI rewriting as semantic ablation, while proposing rather than demonstrating its decoding and entropy-decay mechanism.
 - [You Are Not Google](sources/you-are-not-google-bradfield.md) - Oz Nova argues for matching technology to the adopter's workload, scale, and organization through the UNPHAT decision framework rather than imitating giant technology companies.

@@ -91,15 +91,19 @@
       "global_candidate": true,
       "id": "judgment-tools-counter-cognitive-and-social-biases",
       "qualifications": [
-        "The method improves weak or divided crowds, but strong consensus remains treated as a useful proxy in the source."
+        "The method improves weak or divided crowds, but strong consensus remains treated as a useful proxy in the source.",
+        "The Greylock essay extends the sampling lesson through practitioner advice rather than controlled evidence, and expert feedback remains valuable for questions about advanced workflows, reliability, retention, accessibility, or revenue."
       ],
-      "statement": "[[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], and [[FalseConsensusEffect]] show that collective or personal judgment improves when people model what others know, not only what they themselves believe.",
+      "statement": "[[WisdomOfCrowds]], [[Metaknowledge]], [[SharedInformationBias]], [[FalseConsensusEffect]], and [[BuilderUserFluencyGap]] show that collective or product judgment improves when people model what others know rather than projecting their own information state; [[CustomerLedProductDevelopment]] should therefore separate newcomer evidence from feedback supplied by fluent employees and power users.",
       "status": "supported",
       "supporting_wikilinks": [
         "WisdomOfCrowds",
         "Metaknowledge",
         "SharedInformationBias",
-        "FalseConsensusEffect"
+        "FalseConsensusEffect",
+        "BuilderUserFluencyGap",
+        "CustomerLedProductDevelopment",
+        "CognitiveOverheadInProductDesign"
       ]
     },
     {
@@ -178,6 +182,6 @@
       ]
     }
   ],
-  "summary": "Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, and similarity-based trust. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.",
+  "summary": "Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, similarity-based trust, and projection of expert fluency onto newcomers. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, product-feedback sampling, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.",
   "topic_id": "psychology-and-personal-development"
 }
