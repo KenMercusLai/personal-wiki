@@ -4,33 +4,37 @@ type: entity
 tags: [author, distributed-systems]
 sources:
   - unmesh-joshi-paxos
-last_updated: 2026-09-22
+  - unmesh-joshi-replicated-log
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[UnmeshJoshi]] is the author of the source article's concise pattern description of [[Paxos]].
+[[UnmeshJoshi]] is the author of concise pattern descriptions of [[Paxos]] and [[ReplicatedLog]].
 
 ## Current Profile
-In the available evidence, Joshi explains distributed-systems patterns through their problem, failure scenario, and protocol phases. His Paxos article frames the protocol around leaderless agreement, overlapping majorities, and the risk that a node chooses a value but disconnects before the whole cluster learns it.
+In the available evidence, Joshi explains distributed-systems patterns through their problem, failure scenario, and solution structure. His Paxos article frames agreement around proposal phases, overlapping majorities, and partial dissemination; his replicated-log article explains why replicas also need one agreed execution order to reach the same state.
 
 ## Key Characteristics
 - Writes concise, problem-and-solution descriptions of distributed-systems patterns.
 - Presents Paxos through prepare, accept, and commit phases.
+- Distinguishes consensus on individual changes from consensus on their ordering.
 - Connects protocol mechanics to node and network failure scenarios.
 
 ## Evidence
-- Authorship and scope: [[unmesh-joshi-paxos]] identifies Joshi as the author and describes the article as part of Patterns of Distributed Systems.
+- Authorship and scope: [[unmesh-joshi-paxos]] and [[unmesh-joshi-replicated-log]] identify Joshi as the author and place both articles in Patterns of Distributed Systems.
 - Explanatory approach: [[unmesh-joshi-paxos]] moves from leaderless quorum competition and disconnection risk to the three protocol phases.
 - Protocol framing: [[unmesh-joshi-paxos]] distinguishes the first two consensus-building phases from final dissemination.
+- Ordered replication: [[unmesh-joshi-replicated-log]] moves from per-request agreement to the additional need for one common log and sequential execution.
 
 ## Qualifications
-This profile is limited to one short article. It does not establish Joshi's broader biography, affiliations, or complete body of work.
+This profile is limited to two short articles in one pattern series. It does not establish Joshi's broader biography, affiliations, or complete body of work, and the articles are conceptual summaries rather than complete protocol specifications.
 
 ## What Changed
-- Created the entity page from the Paxos pattern article.
+- Extended the profile from one consensus protocol to Joshi's explanation of ordered replicated state.
 
 ## Relationships
 - [[Paxos]] - Joshi explains the protocol as a three-phase distributed-systems pattern.
+- [[ReplicatedLog]] - Joshi explains how one agreed request order keeps replica state synchronized.
 - [[DistributedConsensus]] - Joshi's article applies this broader problem to replicated nodes under partial failure.
 - [[LeslieLamport]] - Joshi credits Lamport with developing Paxos.

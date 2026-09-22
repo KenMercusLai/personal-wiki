@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-22
-as_of_overview_commit: 63da07206acd287fa7b3e9ef2e1db8a330d7c289
+last_updated: 2026-09-23
+as_of_overview_commit: a0a97c26204656cb339492c5d1cf478a48226837
 summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable judgment."
-episode_count: 348
-source_count: 348
-paragraph_count: 295
+episode_count: 349
+source_count: 349
+paragraph_count: 296
 topic_count: 9
 ---
 
@@ -57,14 +57,14 @@ Media forms and business models shape creation, learning, discovery, payment, in
 
 ### Governance and Institutions
 
-Institutional accountability depends on explicit ownership, usable controls, observable behavior, capacity, instrumentation, and credible alternatives across platforms, privacy, automation, public information, and workplace policy.
+Institutional accountability depends on explicit ownership, usable controls, observable behavior, capacity, instrumentation, credible alternatives, and agreed state transitions across platforms, privacy, automation, public information, workplace policy, and replicated systems.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
 
 ### History and Geopolitics
 
-The topic emphasizes technology and institutional history, showing that visible products, markets, interfaces, and practices inherit long maturation paths and context that should not be copied as timeless recipes.
+The topic emphasizes technology and institutional history, showing that visible products, markets, interfaces, and practices inherit long maturation paths and context that should not be copied as timeless recipes; replicated logs enter only as a technical routing spillover.
 
 ### Psychology and Personal Development
 

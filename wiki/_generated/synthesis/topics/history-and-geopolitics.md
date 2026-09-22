@@ -3,18 +3,29 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-22
-as_of_overview_commit: a0380f8c5ecade579cf3ecfb5303e922451dbdd2
-input_digest: 46d69dde95168a1d7c7b18a126bb38eb9da5da3438f0ae5acd9c15668c9d08a8
+last_updated: 2026-09-23
+as_of_overview_commit: a0a97c26204656cb339492c5d1cf478a48226837
+input_digest: 1abae99739572f4cc1e5d16754a2f5e97dbf93af12a4d27a7961f16316b0ccc2
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[NotificationDesign]] paragraph is another routing spillover, contributing a source-scoped 2015 mobile-platform snapshot rather than a geopolitical finding.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[ReplicatedLog]] paragraph is a routing spillover about a technical shared history, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; neither is geopolitical evidence.
 
 ## Cross-source Findings
+
+### Replicated Log Is Technical History Spillover
+
+[[ReplicatedLog]], [[DistributedConsensus]], and [[Paxos]] add a technical use of shared history: replicas converge by agreeing on one ordered request log, not by reconstructing historical or geopolitical events.
+
+**Evidence:** [[ReplicatedLog]], [[DistributedConsensus]], [[Paxos]]
+
+**Qualifications:**
+
+- This is distributed-systems material routed here because it describes a shared ordered history; it is not historical method or geopolitical evidence.
+- The source is a short pattern overview without implementation, recovery, liveness, or performance analysis.
 
 ### App Store Geography Is Market History Spillover
 

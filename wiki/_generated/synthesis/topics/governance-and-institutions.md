@@ -3,18 +3,29 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-09-22
-as_of_overview_commit: 485b698f709922b06052e4246d2c428f70d25397
-input_digest: fc1bd515f71ed2fa2dcfb44a1473281c798b978c1643b3dfa584580c2dd76ae0
+last_updated: 2026-09-23
+as_of_overview_commit: a0a97c26204656cb339492c5d1cf478a48226837
+input_digest: 040e095751dc417b9dd5f1e0c3b8477b381326455ae23618208a803af443d32c
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, and credible alternatives rather than labels alone. The newest creator-payment source adds a narrower market-governance point: advertising platforms and transaction businesses have different growth incentives, but a 2017 incentive hypothesis is not proof of present platform behavior or durable creator power.
+Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. The newest replicated-log source adds the technical boundary that independently accepted changes still require one shared execution order, while remaining a short pattern description rather than a complete protocol.
 
 ## Cross-source Findings
+
+### Replicated Logs Govern State Through Agreed Order
+
+[[ReplicatedLog]] makes execution order a governance boundary for replicated state: [[DistributedConsensus]] must establish one shared sequence of requests, not merely approve isolated changes, before nodes can execute that history consistently through crashes or disconnections.
+
+**Evidence:** [[ReplicatedLog]], [[DistributedConsensus]], [[Paxos]]
+
+**Qualifications:**
+
+- The source is a concise pattern overview and does not specify commit mechanics, deterministic execution, recovery, membership changes, consistency guarantees, liveness, or performance.
+- The article complements [[Paxos]] but does not prescribe Paxos as the replicated log's implementation.
 
 ### Platform Payment Incentives Shape Creator Market Openings
 

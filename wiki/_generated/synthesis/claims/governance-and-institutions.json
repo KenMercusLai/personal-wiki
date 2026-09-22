@@ -2,6 +2,21 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "replicated-logs-govern-state-through-agreed-order",
+      "qualifications": [
+        "The source is a concise pattern overview and does not specify commit mechanics, deterministic execution, recovery, membership changes, consistency guarantees, liveness, or performance.",
+        "The article complements [[Paxos]] but does not prescribe Paxos as the replicated log's implementation."
+      ],
+      "statement": "[[ReplicatedLog]] makes execution order a governance boundary for replicated state: [[DistributedConsensus]] must establish one shared sequence of requests, not merely approve isolated changes, before nodes can execute that history consistently through crashes or disconnections.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ReplicatedLog",
+        "DistributedConsensus",
+        "Paxos"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "platform-payment-incentives-shape-creator-market-openings",
       "qualifications": [
         "The claim is a short 2017 practitioner hypothesis without platform financial data, and later creator-market structure may differ."
@@ -224,6 +239,6 @@
       ]
     }
   ],
-  "summary": "Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, and credible alternatives rather than labels alone. The newest creator-payment source adds a narrower market-governance point: advertising platforms and transaction businesses have different growth incentives, but a 2017 incentive hypothesis is not proof of present platform behavior or durable creator power.",
+  "summary": "Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. The newest replicated-log source adds the technical boundary that independently accepted changes still require one shared execution order, while remaining a short pattern description rather than a complete protocol.",
   "topic_id": "governance-and-institutions"
 }

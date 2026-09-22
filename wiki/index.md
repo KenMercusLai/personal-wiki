@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Replicated Log](sources/unmesh-joshi-replicated-log.md) - Unmesh Joshi explains how consensus over one ordered write-ahead log lets replicas execute the same requests in the same sequence and maintain synchronized state.
 - [You Can't Judge Market Size by This Slide](sources/you-cant-judge-market-size-by-this-slide-nextview-ventures.md) - NextView Ventures classifies existing, expanding, and created markets and argues that founders should present auditable assumptions and calculations rather than an unsupported headline number.
 - [Why We’re Paying for Content These Days](sources/why-were-paying-for-content-these-days-hunter-walk.md) - Hunter Walk argues that direct content payment grew through low-friction checkout, personal creator support, stronger niche per-customer economics, and an opening left by advertising-focused platforms.
 - [You Can Always Find an Anonymous Former Employee to Trash the Founder](sources/you-can-always-find-an-anonymous-former-employee-to-trash-the-founder-hunter-walk.md) - Hunter Walk argues that anonymous criticism hides context needed to judge credibility and should function as a lead unless source risk and public importance justify protection.
@@ -358,7 +359,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Entities
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
 - [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.
-- [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who presents Paxos as a concise problem-and-solution pattern.
+- [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who explains Paxos and replicated logs through concise problem-and-solution patterns.
 - [Leslie Lamport](entities/LeslieLamport.md) - Computer scientist credited by the source with developing Paxos and publishing "The Part-Time Parliament."
 - [Chris Brycki](entities/ChrisBrycki.md) - Product practitioner and author arguing for user, developer, and platform responsibility in notification design.
 - [Daniel Karlsson](entities/DanielKarlsson.md) - Programmer and startup founder who presents early release as a way to reduce product uncertainty before implementation costs accumulate.
@@ -1174,6 +1175,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Replicated Log](concepts/ReplicatedLog.md) - Shared ordered log that lets replicas execute agreed state changes in the same sequence and converge on one state.
 - [Market Sizing](concepts/MarketSizing.md) - Evidence-backed estimation of existing, expanding, or newly created business opportunity through explicit sources, assumptions, and calculations.
 - [Anonymous Sourcing](concepts/AnonymousSourcing.md) - Journalistic use of identity protection, balancing access and source safety against lost credibility context and reputational risk.
 - [Paxos](concepts/Paxos.md) - Distributed-consensus protocol family that preserves one chosen value across competing proposals and partial failures.
@@ -1645,7 +1647,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Agent System Transparency](concepts/AgentSystemTransparency.md) - Ability to inspect, audit, trace, and recover from agent actions and side effects.
 - [Agent Team](concepts/AgentTeam.md) - Multi-agent software workflow with role-specific models, file-owned state, and document-mediated handoffs.
 - [Agent TDD Residual](concepts/AgentTDDResidual.md) - Coding-agent workflow that alternates test-only and implementation-only phases so humans review behavioral residuals.
-- [Distributed Consensus](concepts/DistributedConsensus.md) - Agreement problem for independent agents or nodes working under asynchronous communication, failure, and inconsistent local views.
+- [Distributed Consensus](concepts/DistributedConsensus.md) - Agreement problem for independent agents or nodes choosing values and ordered state changes under asynchronous communication and failure.
 - [Trust Topology](concepts/TrustTopology.md) - Verification-gate arrangement for making unreliable AI agents produce more reliable software systems.
 - [Oracle Routing](concepts/OracleRouting.md) - Human-escalation pattern for unresolved intent, semantic, or architectural decisions in automated agent pipelines.
 - [AI Application Framework](concepts/AIApplicationFramework.md) - Middle-layer developer tooling for composing LLMs with data, prompts, memory, chains, retrieval, tools, and agent loops.

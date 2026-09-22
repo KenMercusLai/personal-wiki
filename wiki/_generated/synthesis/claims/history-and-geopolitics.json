@@ -2,6 +2,21 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "replicated-log-is-technical-history-spillover",
+      "qualifications": [
+        "This is distributed-systems material routed here because it describes a shared ordered history; it is not historical method or geopolitical evidence.",
+        "The source is a short pattern overview without implementation, recovery, liveness, or performance analysis."
+      ],
+      "statement": "[[ReplicatedLog]], [[DistributedConsensus]], and [[Paxos]] add a technical use of shared history: replicas converge by agreeing on one ordered request log, not by reconstructing historical or geopolitical events.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ReplicatedLog",
+        "DistributedConsensus",
+        "Paxos"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "app-store-geography-is-market-history-spillover",
       "qualifications": [
         "This is a market-geography snapshot inside a history topic, not a geopolitical analysis; it is based on a 2015 App Annie/VentureBeat summary and does not provide later regional outcomes or absolute market sizes."
@@ -160,6 +175,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[NotificationDesign]] paragraph is another routing spillover, contributing a source-scoped 2015 mobile-platform snapshot rather than a geopolitical finding.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[ReplicatedLog]] paragraph is a routing spillover about a technical shared history, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; neither is geopolitical evidence.",
   "topic_id": "history-and-geopolitics"
 }
