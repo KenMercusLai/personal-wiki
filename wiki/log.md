@@ -2910,3 +2910,11 @@ Added Trevor McKendrick's critique of idea-first founder mythology through Sam W
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Usability 101: Introduction to Usability
+
+Added Jakob Nielsen's introductory usability framework. Created [[Usability]], [[UserTesting]], and [[JakobNielsen]], and connected the article to [[UserResearchPatternThreshold]], [[HeuristicEvaluation]], and [[ProductRedesign]]. The source defines five usability dimensions—learnability, efficiency, memorability, errors and recovery, and satisfaction—distinguishes usability from utility while treating both as necessary for usefulness, and recommends observing representative users performing representative tasks without coaching. No direct contradiction was found. The synthesis qualifies the five-user and ten-percent-budget recommendations as broad practitioner heuristics whose applicability depends on audience and task diversity, risk, accessibility, and the inference required. The sole embedded image was inspected and omitted as a branded title card that duplicates the article's usability-plus-utility formula, so no asset manifest was created.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

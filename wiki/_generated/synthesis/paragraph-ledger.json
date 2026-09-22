@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2bfb4b3526c6ab861b10a6d021ab918d9d3022326a07528547caad2672fa7a9a",
       "f81f004761efd71e750e11f7baa2868ef6f1fa667004d1e331197cae27033350",
       "d09b209840b7fae09b7c67e66c6e45ef6727f468562b98c1b8b3b5487be341b1",
       "99881712cae6e98177ea91ffe0926c6afb5a8833e9cf7240b4dd054758838244",
@@ -308,11 +309,32 @@
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
       "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 306
+    "paragraph_count": 307
   },
-  "overview_commit": "cd702fb427b84fc86043a118e5e768e0582c46c0",
-  "overview_digest": "a7a180c805ba5e0061fff92735cd4e8e06b2d8b6ac4ebc4c260627b07a25c34b",
+  "overview_commit": "d157cf1cf9f73ee8e9de3e135a2eb3385d05a0bc",
+  "overview_digest": "55808cf1f05585621627cbcee21ed48d8e6ea3512df82e34fcd2d092d12e2845",
   "paragraphs": [
+    {
+      "id": "2bfb4b3526c6ab861b10a6d021ab918d9d3022326a07528547caad2672fa7a9a",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest Jakob Nielsen source adds [[Usability]] as a multidimensional product-quality model and [[UserTesting]] as its central improvement method. Usability comprises learnability, efficiency, memorability, errors and recovery, and satisfaction; it is distinct from utility, but both are required for a product to be useful. The article therefore connects interface design to outcomes rather than polish alone: web users can leave when they cannot find, understand, or operate a product, while internal-system difficulty consumes employee time. Nielsen's testing method is individual and behavioral—representative users attempt representative tasks while researchers observe without coaching—and should recur from existing-product and competitor research through paper prototypes, successive refinements, and final implementation. This strengthens [[UserResearchPatternThreshold]], [[HeuristicEvaluation]], and [[ProductRedesign]] while preserving a qualification: five participants and a ten-percent usability budget are broad practitioner heuristics, not universal guarantees across diverse populations, tasks, accessibility needs, safety risks, or statistical questions. The inspected title card merely repeats the textual usability-plus-utility formula, so it was omitted as duplicate visual content.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "HeuristicEvaluation",
+        "ProductRedesign",
+        "Usability",
+        "UserResearchPatternThreshold",
+        "UserTesting"
+      ]
+    },
     {
       "id": "f81f004761efd71e750e11f7baa2868ef6f1fa667004d1e331197cae27033350",
       "primary_topic": "business-and-markets",

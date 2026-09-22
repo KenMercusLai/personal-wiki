@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Usability 101: Introduction to Usability](sources/usability-101-introduction-to-usability.md) - Jakob Nielsen defines usability through learnability, efficiency, memorability, errors, and satisfaction, distinguishes it from utility, and recommends early iterative task-based user testing.
 - [Why You Should Ignore Every Founder's Story About How They Started Their Company](sources/why-you-should-ignore-every-founders-story-about-how-they-started-their-company-trevor-mckendrick.md) - Trevor McKendrick uses Sam Walton's 15-year pre-Walmart retail apprenticeship to argue that polished founder stories hide the mistakes, persistence, and capability development that matter most.
 - [Your Media Business Will Not Be Saved](sources/your-media-business-will-not-be-saved-joshua-topolsky-medium.md) - Joshua Topolsky argues that fashionable formats cannot rescue weak media products and that durable publishers must serve finite audiences with distinctive work and sustainable economics.
 - [Upwork’s CEO on How an Introverted Engineer Learned to Lead](sources/upworks-ceo-on-how-an-introverted-engineer-learned-to-lead.md) - Stéphane Kasriel describes learning CEO leadership through stretch roles, education, structured networking, employee empowerment, and listening before solving.
@@ -367,6 +368,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Jakob Nielsen](entities/JakobNielsen.md) - Usability author and practitioner who defines five interface-quality dimensions and advocates early iterative user testing.
 - [Trevor McKendrick](entities/TrevorMcKendrick.md) - Essayist arguing that entrepreneurs should study long capability-building histories rather than polished company-origin anecdotes.
 - [Sam Walton](entities/SamWalton.md) - Retail operator whose 15 years of pre-Walmart experiments, failure recovery, and daily improvement challenge the overnight-success story.
 - [Walmart](entities/Walmart.md) - Discount retailer presented as the outcome of Walton's long retail apprenticeship, low-price discipline, and high-risk financing after investor rejection.
@@ -1200,6 +1202,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
 
 ## Concepts
+- [Usability](concepts/Usability.md) - Interface quality across learnability, efficiency, memorability, errors and recovery, and satisfaction, jointly required with utility for usefulness.
+- [User Testing](concepts/UserTesting.md) - Observation of representative users attempting representative tasks without coaching, repeated across design iterations.
 - [Founder Origin Stories](concepts/FounderOriginStories.md) - Retrospective company-beginning narratives that can compress years of capability building, mistakes, and adaptation into one memorable idea or moment.
 - [Adaptive Persistence](concepts/AdaptivePersistence.md) - Sustained effort through repeated improvement, recovery, and willingness to change direction when evidence shows an approach is wrong.
 - [Introverted Leadership](concepts/IntrovertedLeadership.md) - Leadership development that structures social demands and builds people-enablement skills without treating introversion as disqualifying.
