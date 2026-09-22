@@ -2726,3 +2726,11 @@ Added Oz Nova's Bradfield essay on context-sensitive technology choice. Key clai
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Why AI writing is so generic, boring, and dangerous: Semantic ablation
+
+Added a Register opinion article proposing [[SemanticAblation]] as the subtractive counterpart to hallucination: AI rewriting may preserve fluent form while removing rare metaphors, exact terminology, subtext, qualifications, and non-linear reasoning. Created the source note and concept page and extended [[AIAssistedWriting]] with a side-by-side fidelity check across claims, vocabulary, imagery, voice, and structure. The article's three stages are metaphoric cleansing, lexical flattening, and structural collapse, with repeated type-token-ratio decline proposed as a measurement. The wiki records a major qualification: the source reports no experiment, model, prompts, decoding settings, measurements, or controls, so its attribution to greedy decoding and reinforcement learning from human feedback remains a hypothesis, and vocabulary diversity alone cannot establish retained meaning. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. No direct contradiction was found; the narrower observation that top-token decoding can become flat and repetitive is consistent with existing [[TextGenerationSampling]] evidence. Downstream synthesis was refreshed for the dirty AI-and-technology topic, and the global artifact was recompacted because candidate material changed.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why AI writing is so generic, boring, and dangerous: Semantic ablation](sources/why-ai-writing-is-so-generic-boring-and-dangerous-semantic-ablation.md) - A Register opinion article names the loss of precise language, distinctive imagery, and complex structure during AI rewriting as semantic ablation, while proposing rather than demonstrating its decoding and entropy-decay mechanism.
 - [You Are Not Google](sources/you-are-not-google-bradfield.md) - Oz Nova argues for matching technology to the adopter's workload, scale, and organization through the UNPHAT decision framework rather than imitating giant technology companies.
 - [University websites: The so-so, the bad, and the egregious](sources/university-websites-the-so-so-the-bad-and-the-egregious-university-affairs.md) - Melonie Fullick argues that university website failures in navigation, search, content, accessibility, and audience focus reflect institutional silos, weak ownership, scarce staffing, and recruitment-heavy priorities.
 - [While Everyone Is Distracted By Social Media, Successful People Double Down On An Underrated Skill](sources/while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill.md) - Michael Simmons argues for proactively filtering information overload in search of belief-changing knowledge, using disconfirmation, mental models, and learning-how-to-learn skills.
@@ -1155,6 +1156,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
 - [Contextual Technology Selection](concepts/ContextualTechnologySelection.md) - Practice of comparing a technology's historical priorities, tradeoffs, and scale assumptions with the adopter's actual problem.
 - [University Website Governance](concepts/UniversityWebsiteGovernance.md) - Allocation of purpose, authority, staffing, standards, access, and maintenance responsibility across a university web presence.
 - [Information Overload](concepts/InformationOverload.md) - Condition in which content, social filtering, distraction, and attractive choices exceed a person's capacity to evaluate and consume them.

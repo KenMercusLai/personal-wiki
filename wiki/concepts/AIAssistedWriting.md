@@ -9,7 +9,8 @@ sources:
   - andrew-chen-how-i-use-ai-when-blogging-and-writing
   - andrew-chen-how-to-write-more
   - blog-simon-spati-will-ai-replace-human-thinking
-last_updated: 2026-09-14
+  - why-ai-writing-is-so-generic-boring-and-dangerous-semantic-ablation
+last_updated: 2026-09-22
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,6 +26,8 @@ Together, the sources shift the question from "Did AI write this?" to "Did the a
 
 Späti adds the strongest dependency warning in the set. He accepts deliberate AI use but argues that outsourcing the writing itself can remove the research, grappling, voice, conviction, and manual practice through which writers actually think. This does not negate AI-assisted workflows; it narrows their healthiest role toward support, critique, capture, structure, and optionality rather than finished authorship.
 
+Revision introduces a distinct risk: a rewrite can remain fluent and factually plausible while losing the rare metaphor, exact term, subtext, qualification, or non-linear structure that carried the author's signal. This makes fidelity a first-class review criterion. A polished draft should be compared with its input for retained meaning and voice, not accepted because readability improved; however, the attribution of this pattern to greedy decoding and human-feedback tuning remains a hypothesis rather than a demonstrated causal result.
+
 ## Key Claims
 - AI assistance can be deep without eliminating human authorship when topic choice, argument structure, and final judgment remain human-owned.
 - Draft generation is only one layer of writing; revision, taste, source verification, packaging, and accountability still determine publication quality.
@@ -32,7 +35,7 @@ Späti adds the strongest dependency warning in the set. He accepts deliberate A
 - "AI written" is a weak critique when it substitutes a tool label for engagement with claims, evidence, and reasoning.
 - AI acts as a multiplier of the user's thought quality: it can sharpen clear thinking or make confused thinking more fluent.
 - Stable AI-assisted writing improves by iterating the upstream workflow and average output quality, whether the workflow starts from notes, source material, imperfect drafts, brainstorming lists, cleaned voice transcripts, or small publishing experiments.
-- As fluent answers become cheap, question selection, material quality, angle, insight, noise filtering, and protected manual practice become more valuable creator skills.
+- As fluent answers become cheap, question selection, material quality, angle, insight, noise filtering, protected manual practice, and fidelity-preserving revision become more valuable creator skills.
 
 ## Evidence
 - Human-owned workflow: [[shi-de-wo-yong-ai-xie-wen-zhang-za-di]] says the author owns topic choice, viewpoint, evidence selection, logical structure, and final title direction while using AI to draft and package faster.
@@ -51,16 +54,17 @@ Späti adds the strongest dependency warning in the set. He accepts deliberate A
 - Cadence support: [[andrew-chen-how-to-write-more]] uses [[ChatGPT]] for aligned idea lists and topic sentences, while treating the outputs as material to curate inside a larger writing routine.
 - Spoken capture: [[andrew-chen-how-to-write-more]] says voice-to-text tools can turn five to ten minutes of rambling into acceptable prose for later editing.
 - Skill-atrophy warning: [[blog-simon-spati-will-ai-replace-human-thinking]] argues that writing is a thinking exercise and that outsourcing too much of it can produce generic prose, shallow summary habits, and weaker authorial judgment.
+- Revision fidelity: [[why-ai-writing-is-so-generic-boring-and-dangerous-semantic-ablation]] warns that AI polishing can replace distinctive metaphor, terminology, subtext, and reasoning structure with smoother but lower-information prose.
 
 ## Counterevidence & Qualifications
-The sources are practitioner accounts from experienced creators, so their claims are strongest where the author has prior domain knowledge, taste, editorial discipline, and willingness to verify facts. Chen's account also shows a quality boundary: if the user publishes the default draft rather than revising it, AI can produce generic, example-poor, poorly voiced prose. Multi-model agreement is useful evidence but not proof; shared model blind spots, prompt framing, and weak source grounding can still create confident errors. Workflow decomposition also requires the writer to understand their own craft well enough to externalize it. Späti's source adds that even accurate or fluent support can become harmful when it replaces the practice the author needs in order to think, learn, and develop a voice. The critique of "AI written" comments does not remove legitimate concerns about disclosure, originality, plagiarism, accuracy, labor displacement, overproduction, or craft dependency in other publishing contexts.
+The sources are practitioner accounts from experienced creators, so their claims are strongest where the author has prior domain knowledge, taste, editorial discipline, and willingness to verify facts. Chen's account also shows a quality boundary: if the user publishes the default draft rather than revising it, AI can produce generic, example-poor, poorly voiced prose. Multi-model agreement is useful evidence but not proof; shared model blind spots, prompt framing, and weak source grounding can still create confident errors. Workflow decomposition also requires the writer to understand their own craft well enough to externalize it. Späti's source adds that even accurate or fluent support can become harmful when it replaces the practice the author needs in order to think, learn, and develop a voice. The semantic-ablation article is an opinion argument with no reported experiment, so its type-token-ratio test and causal attribution to decoding and reinforcement learning should be treated as hypotheses; simpler wording can improve communication without necessarily destroying meaning. The critique of "AI written" comments does not remove legitimate concerns about disclosure, originality, plagiarism, accuracy, labor displacement, overproduction, or craft dependency in other publishing contexts.
 
 ## What Changed
 - Created the concept page for AI-assisted public writing as an authorship and editorial-accountability workflow.
 - Added Hanyang's humanities-oriented process design: traceable production, source preparation, decomposition, candidate generation, and material-grounded taste.
 - Added AI voice input as a capture-side writing workflow governed by strict transcript-fidelity rules.
 - Added Andrew Chen's blogging workflow: blank-page reduction, brainstorming questions and outlines, talk-to-text cleanup, tone passes, and the limitation that AI drafts still need human examples, story, statistics, and voice.
-- Added Chen's writing-cadence view and Späti's dependency warning: AI support is healthiest when it feeds human selection, feedback, manual thought, research depth, voice, and skill exercise.
+- Added Chen's cadence view, Späti's dependency warning, and the semantic-ablation fidelity test: support should preserve human selection, thought, voice, precise meaning, and skill exercise.
 
 ## Related Concepts
 - [[KnowledgeOutput]] - AI-assisted writing is one way to turn thinking and conversation into public output faster.
@@ -72,3 +76,4 @@ The sources are practitioner accounts from experienced creators, so their claims
 - [[AIWorkflowDesign]] - workflow design is the broader method that makes AI-assisted writing controllable and signable.
 - [[AIVoiceInput]] - voice input supplies spoken material for AI-assisted writing when cleanup remains faithful to the transcript.
 - [[AIDependencySkillAtrophy]] - overuse can turn assistance into loss of writing practice and judgment.
+- [[SemanticAblation]] - AI polishing can preserve fluency while deleting specificity, voice, and structural nuance.

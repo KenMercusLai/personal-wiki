@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-22
-as_of_overview_commit: 8d92441cc5e5b524200728a252e132301f4e70e1
-summary: "Durable systems align human constraints, institutional accountability, technical verification, market incentives, learning, and cultural stewardship."
-episode_count: 336
-source_count: 336
-paragraph_count: 285
+as_of_overview_commit: 24450e70174d5ef8f9ff609179ddd7f72cb63cb9
+summary: "Durable systems align human constraints, institutional accountability, technical verification, market incentives, learning, cultural stewardship, and fidelity-preserving AI use."
+episode_count: 338
+source_count: 338
+paragraph_count: 286
 topic_count: 9
 ---
 
@@ -17,6 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
+- Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed.
@@ -28,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress lasts when system understanding, verification, observable operations, calibrated interfaces, and inspectable AI tooling reinforce human judgment.
+Technical progress lasts when system understanding, verification, observable operations, calibrated interfaces, inspectable AI tooling, and fidelity checks reinforce human judgment.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
