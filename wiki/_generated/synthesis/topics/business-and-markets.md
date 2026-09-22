@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-23
-as_of_overview_commit: 5aceccf92310a2898d4a88ef3b7d3ff15365838b
-input_digest: a98d0e3979778aa876a722828b6935b22ba838be7c85dea4bdeb79e44e38e9a9
+as_of_overview_commit: cd702fb427b84fc86043a118e5e768e0582c46c0
+input_digest: 46de6e5a249fcf965e6928a9b6777a3b235a84b044f931f9da28a972eef1254f
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[StartupJobDiligence]] adds a labor-side boundary by asking whether startup learning and responsibility justify weak structure, instability, and equity risk for the particular candidate. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, public narratives, and [[Microinteractions]] that make product state legible reshape who captures value. [[CustomerLedProductDevelopment]] adds an evidence boundary: public expert communities such as [[HackerNews]] can improve technical detail without representing adoption, retention, or payment. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[FounderOriginStories]] adds a historical-learning boundary: [[SamWalton]]'s 15-year pre-[[Walmart]] apprenticeship and [[AdaptivePersistence]] show why a polished company beginning can hide the capability-building period, while the disputed [[Netflix]] late-fee anecdote warns against idea-first causality. [[StartupJobDiligence]] asks whether startup learning and responsibility justify weak structure, instability, and equity risk for the particular candidate. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, public narratives, and [[Microinteractions]] that make product state legible reshape who captures value. [[CustomerLedProductDevelopment]] adds an evidence boundary: public expert communities such as [[HackerNews]] can improve technical detail without representing adoption, retention, or payment. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
 
 ## Cross-source Findings
 
@@ -71,13 +71,14 @@ Business and markets sources frame companies as systems for converting scarce re
 
 ### Business History Lessons Need Repeatability Filter
 
-[[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], and [[DollosLaw]] frame business and investing history as useful when learners separate repeatable skills, temperament, management, branding, distribution focus, and broad speculative patterns from one-time market timing, legal systems, competitive conditions, politics, regulation, and path-dependent context.
+[[RepeatableLearningFromHistory]] requires both a context filter and a starting-point check: [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], and [[DollosLaw]] separate repeatable behavior from path-dependent conditions, while [[FounderOriginStories]] uses [[SamWalton]], [[Walmart]], [[AdaptivePersistence]], [[ReedHastings]], and [[Netflix]] to show that a famous company beginning can hide the apprenticeship, mistakes, recovery, and correction that contain the transferable lesson.
 
-**Evidence:** [[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[DollosLaw]]
+**Evidence:** [[RepeatableLearningFromHistory]], [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[DollosLaw]], [[FounderOriginStories]], [[SamWalton]], [[Walmart]], [[AdaptivePersistence]], [[ReedHastings]], [[Netflix]]
 
 **Qualifications:**
 
-- The repeatability evidence is a Morgan Housel essay and should be treated as a judgment heuristic rather than a formal causal decomposition of Amazon, Buffett, Rockefeller, Musk, or post-crash investing outcomes.
+- The repeatability evidence comes from Morgan Housel and Trevor McKendrick essays and should be treated as a judgment heuristic rather than a formal causal decomposition of Amazon, Buffett, Rockefeller, Musk, Walmart, Netflix, or post-crash investing outcomes.
+- The Walton account is retrospective and survivorship-shaped, while the Netflix example disputes a memorable anecdote without supplying a complete alternative founding history; adaptive persistence and concentrated collateral risk are therefore observations from the case rather than universal prescriptions.
 
 ### Packet Level Networking Needs Platform Verification
 

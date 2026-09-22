@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-23
-as_of_overview_commit: 1e12800d27c3960f6f98d2171f5de6e5a5a3a69d
-input_digest: 4711dd1d8ae323020fc5527016a9eb1f441e4681bbfeebe8ac884cece2bfa5e6
+as_of_overview_commit: cd702fb427b84fc86043a118e5e768e0582c46c0
+input_digest: 74752ae1d6abba621bb55e37b5eb29c169edab47d99821c4a673aa44de604af4
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame learning, careers, leadership, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, introverted leadership adaptation, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. Recent sources add bounded transition strategies: local presence may improve discovery for location-bound careers while transferring relocation risk to candidates; startup work may accelerate learning while sacrificing structure, stability, and dependable equity value; large framework migrations can remain inside normal delivery through multi-version CI and progressive exposure; technical experts can learn people leadership through stretch roles, structured social demands, and listening before solving; and media creators need distinctive work and direct value for a defined audience rather than intermediary-visible scale alone.
+Work, education, and society sources frame learning, careers, leadership, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, introverted leadership adaptation, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. [[AdaptivePersistence]] adds a source-scoped work-learning pattern in which [[SamWalton]] turns mistake ownership, repeated improvement, rebuilding, and changed direction into accumulated judgment, while [[FounderOriginStories]] warns that later success can hide that practice. Other recent sources add bounded transition strategies: local presence may improve discovery for location-bound careers while transferring relocation risk to candidates; startup work may accelerate learning while sacrificing structure, stability, and dependable equity value; large framework migrations can remain inside normal delivery through multi-version CI and progressive exposure; technical experts can learn people leadership through stretch roles, structured social demands, and listening before solving; and media creators need distinctive work and direct value for a defined audience rather than intermediary-visible scale alone.
 
 ## Cross-source Findings
 
@@ -235,3 +235,14 @@ AI-era and data-rich education should strengthen problem framing, [[Computationa
 
 - The sources are reflective practitioner advice, do not separate peer influence from self-selection or provide comparative placement data, and may overstate how freely people can choose mentors, colleagues, communities, media, and location.
 - Informal local hiring networks can reproduce exclusion, while sustained in-person access depends on money, mobility, time, visas, disability, caregiving, housing, and family flexibility.
+
+### Adaptive Persistence Links Failure To Correction
+
+[[AdaptivePersistence]] and [[FailureOwnership]] connect work-based learning to correction: the [[SamWalton]] case combines daily improvement, acceptance of a costly lease mistake, rebuilding after loss, and willingness to change direction, while [[FounderOriginStories]] warns that a polished [[Walmart]] or [[Netflix]] beginning can erase the long practice through which such judgment developed.
+
+**Evidence:** [[AdaptivePersistence]], [[FailureOwnership]], [[SamWalton]], [[FounderOriginStories]], [[Walmart]], [[Netflix]]
+
+**Qualifications:**
+
+- The evidence is one retrospective, survivorship-shaped account of Sam Walton; it does not show that persistence alone produces success or that collateralizing a home and existing stores is a generally safe response to rejection.
+- The disputed Netflix late-fee anecdote establishes a narrative caution in this source, not a complete alternative history of the company.

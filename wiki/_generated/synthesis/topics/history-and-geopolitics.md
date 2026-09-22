@@ -4,15 +4,15 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-23
-as_of_overview_commit: ab01b16ddffea2b4ebb67c3177973ae69c8ea749
-input_digest: 0cea6eed986a1ad49d4e1d02cb714b2bfdf4d090c1dc51d4bc045cc2c4040501
+as_of_overview_commit: cd702fb427b84fc86043a118e5e768e0582c46c0
+input_digest: 42864a635fa59184ca000e00b0b684920d473459f78e6317bfffe14d67fd3b81
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; none is geopolitical evidence.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. [[FounderOriginStories]] sharpens that lesson by showing how [[SamWalton]]'s 15-year pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, making narrative starting points part of the evidence problem. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; none is geopolitical evidence.
 
 ## Cross-source Findings
 
@@ -50,13 +50,14 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 ### History Teaches Through Repeatable Patterns Not Recreated Conditions
 
-[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad repeatable patterns while warning that exact market, legal, regulatory, competitive, and evolutionary paths are path-dependent and rarely reproducible.
+[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad patterns without pretending path-dependent conditions are reproducible; [[FounderOriginStories]], [[SamWalton]], [[Walmart]], and [[AdaptivePersistence]] add that the selected starting point can itself erase the apprenticeship, mistakes, and recovery that make a history instructive.
 
-**Evidence:** [[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]]
+**Evidence:** [[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[FounderOriginStories]], [[SamWalton]], [[Walmart]], [[AdaptivePersistence]]
 
 **Qualifications:**
 
-- The source is a business-and-investing essay routed into the history topic because it explicitly discusses historical learning and path dependence; it does not provide a full historical method or geopolitical analysis.
+- The evidence comes from business-and-investing essays routed into the history topic because they explicitly discuss historical learning, narrative selection, and path dependence; they do not provide a full historical method or geopolitical analysis.
+- The Walton case is retrospective and survivorship-shaped, and the disputed Netflix anecdote is a narrative warning rather than a complete alternative founding history.
 
 ### Strategic Writing Preserves Corporate History
 

@@ -66,9 +66,10 @@
       "global_candidate": false,
       "id": "history-teaches-through-repeatable-patterns-not-recreated-conditions",
       "qualifications": [
-        "The source is a business-and-investing essay routed into the history topic because it explicitly discusses historical learning and path dependence; it does not provide a full historical method or geopolitical analysis."
+        "The evidence comes from business-and-investing essays routed into the history topic because they explicitly discuss historical learning, narrative selection, and path dependence; they do not provide a full historical method or geopolitical analysis.",
+        "The Walton case is retrospective and survivorship-shaped, and the disputed Netflix anecdote is a narrative warning rather than a complete alternative founding history."
       ],
-      "statement": "[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad repeatable patterns while warning that exact market, legal, regulatory, competitive, and evolutionary paths are path-dependent and rarely reproducible.",
+      "statement": "[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad patterns without pretending path-dependent conditions are reproducible; [[FounderOriginStories]], [[SamWalton]], [[Walmart]], and [[AdaptivePersistence]] add that the selected starting point can itself erase the apprenticeship, mistakes, and recovery that make a history instructive.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "RepeatableLearningFromHistory",
@@ -79,7 +80,11 @@
         "WarrenBuffett",
         "JohnDRockefeller",
         "ElonMusk",
-        "JasonZweig"
+        "JasonZweig",
+        "FounderOriginStories",
+        "SamWalton",
+        "Walmart",
+        "AdaptivePersistence"
       ]
     },
     {
@@ -176,6 +181,6 @@
       ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; none is geopolitical evidence.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. [[FounderOriginStories]] sharpens that lesson by showing how [[SamWalton]]'s 15-year pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, making narrative starting points part of the evidence problem. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; none is geopolitical evidence.",
   "topic_id": "history-and-geopolitics"
 }

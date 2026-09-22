@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: 1e12800d27c3960f6f98d2171f5de6e5a5a3a69d
-summary: "Durable outcomes across technology, media, business, institutions, and work require audience value, grounded evidence, fit-aware tradeoffs, feedback, and accountable control."
-episode_count: 358
-source_count: 358
-paragraph_count: 305
+as_of_overview_commit: cd702fb427b84fc86043a118e5e768e0582c46c0
+summary: "Durable outcomes require grounded evidence, inspectable tradeoffs, feedback-rich practice, and histories that preserve capability building instead of polished endpoints."
+episode_count: 359
+source_count: 359
+paragraph_count: 306
 topic_count: 9
 ---
 
@@ -19,10 +19,10 @@ topic_count: 9
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 - Digital media technology changes production and distribution without solving audience value: [[AutomatedContentFarming]] makes scraped, machine-voiced publishing cheap enough to industrialize, while [[JoshuaTopolsky]] argues that video, bots, apps, algorithmic reach, and platform partnerships cannot rescue undifferentiated work. Per-view [[WebAdEconomics]] and [[PlatformDistributionDependence]] can reward volume without quality, sharpening [[AIEraCreativeStandards]], [[DigitalMediaMonetization]], and the [[PlatformAbuseResponse]] question for platforms such as [[YouTube]].
+- [[RepeatableLearningFromHistory]] requires both a context filter and a starting-point check: [[MorganHousel]], [[JeffBezos]], [[Amazon]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], and [[DollosLaw]] separate repeatable behavior from path-dependent conditions, while [[FounderOriginStories]] uses [[SamWalton]], [[Walmart]], [[AdaptivePersistence]], [[ReedHastings]], and [[Netflix]] to show that a famous company beginning can hide the apprenticeship, mistakes, recovery, and correction that contain the transferable lesson.
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected.
 - [[HunterWalk]] links growth in [[DigitalMediaMonetization]] through direct audience payment to familiar low-friction checkout, personal creator support, stronger niche per-customer economics, and an advertising orientation at [[Google]] and [[Facebook]], while [[CreatorEconomyStartups]] shows that payment access does not remove concentration, distribution, churn, take-rate, or defensibility problems.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
 - [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where local presence precedes a location-bound search, [[StartupJobDiligence]] asks whether responsibility and learning through environments such as [[JustinTV]] justify weak structure and instability, and [[IntrovertedLeadership]] shows [[StephaneKasriel]] deliberately expanding an engineer's social and people-management range without treating introversion as disqualifying.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ Durable technology combines underlying-system knowledge, verification near chang
 
 ### Business and Markets
 
-Companies build durable advantage when opportunity assumptions are auditable, runway funds learning, candidate fit is explicit, and growth preserves retained value.
+Companies build durable advantage when opportunity assumptions are auditable, runway funds learning, growth preserves retained value, and success histories retain the apprenticeship, mistakes, and context that produced capability.
 
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected. Evidence: [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]].
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
@@ -64,7 +64,7 @@ Institutional accountability depends on explicit ownership, usable controls, obs
 
 ### History and Geopolitics
 
-Technology and institutional history show that visible products and practices inherit long maturation paths and context that should not be copied as timeless recipes.
+Technology and institutional histories show that visible products inherit long maturation paths, selected starting points, and context that should not be copied as timeless recipes.
 
 ### Psychology and Personal Development
 
@@ -81,7 +81,7 @@ This remains an indirect topic spanning scientific computing, attention, philoso
 
 ### Work, Education, and Society
 
-Learning, careers, leadership, collaboration, technical delivery, creative production, and workplace policy work best as feedback-rich systems with explicit expectations, fair incentives, deliberate social design, and audience-aware value.
+Learning, careers, leadership, collaboration, technical delivery, creative production, and workplace policy work best as feedback-rich systems with explicit expectations, fair incentives, deliberate social design, and room to correct mistakes.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why transaction access alone does not secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

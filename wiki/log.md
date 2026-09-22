@@ -2902,3 +2902,11 @@ Added Joshua Topolsky's 2016 critique of novelty-driven digital media strategy. 
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Why You Should Ignore Every Founder's Story About How They Started Their Company
+
+Added Trevor McKendrick's critique of idea-first founder mythology through Sam Walton's 15-year pre-Walmart retail apprenticeship. Created [[TrevorMcKendrick]], [[SamWalton]], [[Walmart]], [[FounderOriginStories]], and [[AdaptivePersistence]], and extended [[RepeatableLearningFromHistory]], [[FailureOwnership]], [[ReedHastings]], and [[Netflix]]. The source argues that polished origins erase lease mistakes, relocation, failed experiments, disaster recovery, incremental improvement, capital rejection, and the accumulated capability that precedes the famous company. No direct contradiction was found; the synthesis qualifies the retrospective Walton case for survivorship bias and treats the disputed Netflix late-fee anecdote as a narrative caution rather than a complete alternative history. Four local images were inspected: the Walmart grand-opening advertisement and two newspaper clippings were retained as evidence, while a generic family-shadow photograph was omitted as decorative.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

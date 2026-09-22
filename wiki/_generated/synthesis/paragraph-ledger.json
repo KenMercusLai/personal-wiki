@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f81f004761efd71e750e11f7baa2868ef6f1fa667004d1e331197cae27033350",
       "d09b209840b7fae09b7c67e66c6e45ef6727f468562b98c1b8b3b5487be341b1",
       "99881712cae6e98177ea91ffe0926c6afb5a8833e9cf7240b4dd054758838244",
       "435fa14209b4795162d821a0c0d4efdd1c4c9e159eb9757ae015b9c366b19646",
@@ -307,11 +308,36 @@
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
       "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 305
+    "paragraph_count": 306
   },
-  "overview_commit": "1e12800d27c3960f6f98d2171f5de6e5a5a3a69d",
-  "overview_digest": "53f6c815f83b8e6783ef961337968c627beab66d7ebeba4f912a9fc041fb8750",
+  "overview_commit": "cd702fb427b84fc86043a118e5e768e0582c46c0",
+  "overview_digest": "a7a180c805ba5e0061fff92735cd4e8e06b2d8b6ac4ebc4c260627b07a25c34b",
   "paragraphs": [
+    {
+      "id": "f81f004761efd71e750e11f7baa2868ef6f1fa667004d1e331197cae27033350",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "work-education-and-society"
+      ],
+      "text": "The newest Trevor McKendrick source adds a narrative-selection warning to the wiki's startup and historical-learning material. New [[FounderOriginStories]] distinguishes a famous company's branded beginning from the longer capability-building period that made it possible: [[SamWalton]] was 44 and had 15 years of retail operating experience before the first [[Walmart]], including franchise experiments, a catastrophic lease omission, forced relocation, a failed shopping-mall attempt, tornado recovery, and repeated financing rejection. New [[AdaptivePersistence]] captures the source's more transferable pattern—daily improvement, ownership of mistakes, operational recovery, and willingness to change direction when wrong—while [[RepeatableLearningFromHistory]] now asks whether a polished story has selected the wrong starting point. [[FailureOwnership]] gains Walton's lease-loss case, and [[ReedHastings]] plus [[Netflix]] gain a qualification around the disputed Apollo 13 late-fee origin anecdote. The essay remains a retrospective, survivorship-shaped account and does not make persistence or Walton's high collateral risk a universal prescription. Of four inspected images, a grand-opening advertisement and two brief newspaper clippings were retained as price-positioning and contemporary-attention evidence; a generic family-shadow photograph was omitted as decorative.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AdaptivePersistence",
+        "FailureOwnership",
+        "FounderOriginStories",
+        "Netflix",
+        "ReedHastings",
+        "RepeatableLearningFromHistory",
+        "SamWalton",
+        "Walmart"
+      ]
+    },
     {
       "id": "d09b209840b7fae09b7c67e66c6e45ef6727f468562b98c1b8b3b5487be341b1",
       "primary_topic": "ai-and-technology",
