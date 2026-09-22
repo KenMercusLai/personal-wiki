@@ -1,27 +1,27 @@
 {
   "content_date": "2026-09-23",
   "corpus": {
-    "episode_count": 353,
-    "source_count": 353
+    "episode_count": 354,
+    "source_count": 354
   },
   "generated": true,
   "global": {
-    "candidate_digest": "092b74e8d2cd363839382cef526fc246493beba458ae5e3ff058416a3de2b62c",
-    "compacted_at": "2026-09-22T15:42:23.429325Z",
+    "candidate_digest": "43470bdb95823443af48b05aea216d5f78017b3328fa2f458c252765c3566713",
+    "compacted_at": "2026-09-22T16:05:44.532083Z",
     "content_date": "2026-09-23",
     "corpus": {
-      "episode_count": 353,
-      "source_count": 353
+      "episode_count": 354,
+      "source_count": 354
     },
-    "output_digest": "c6b57e5f1defe979abd75b8e9af6e195109ded78b43502d016538b6bc908d3a3",
-    "overview_commit": "6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c",
-    "overview_digest": "71e3b1e7d16b696f1deeb45bbb0f7fc06a976711acdc18edc05a004509177ef8",
+    "output_digest": "317eef921e4cebd7bb62c08d30a1c2ecf6e4a81343349c15170bfacf0fdc3e74",
+    "overview_commit": "a4db79b2d1b4898f16463d13e5f5238b535e3410",
+    "overview_digest": "2be0b11fa5a86017d800982a97644caa7ac8d88f003400da29947f745924a731",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c",
-  "overview_digest": "71e3b1e7d16b696f1deeb45bbb0f7fc06a976711acdc18edc05a004509177ef8",
-  "paragraph_count": 300,
+  "overview_commit": "a4db79b2d1b4898f16463d13e5f5238b535e3410",
+  "overview_digest": "2be0b11fa5a86017d800982a97644caa7ac8d88f003400da29947f745924a731",
+  "paragraph_count": 301,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
@@ -73,9 +73,9 @@
       "title": "Science, Health, and Climate"
     },
     "work-education-and-society": {
-      "claim_digest": "6a1a475dab2904decc43b81b118eaab2db37cf53c0648346a8c32d366efedb68",
-      "input_digest": "ab7048fb96a7846ccb1cabbcc9d07c433ec5dce07d7f32679ffc9c9c53cc1759",
-      "output_digest": "8497544d3641b9227ca2ec3b85e013719fd31b4ea77a8e201896212cb0c48164",
+      "claim_digest": "691a3131d223332a8864d2d0fc97ffba7079221130667279ef39334a2744c5c6",
+      "input_digest": "cb18f7ebed0e5d00ac37deb90d6277230dcd920f83f095c719c348706f8385db",
+      "output_digest": "749c6a359843497b36c50d3fbf5b319780d569782ccf6ca4ea85fa715b2c2b7f",
       "title": "Work, Education, and Society"
     }
   }

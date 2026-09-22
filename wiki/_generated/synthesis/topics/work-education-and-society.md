@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-23
-as_of_overview_commit: b3588caca2ba555978299e8e1a24d79a5c1750f7
-input_digest: ab7048fb96a7846ccb1cabbcc9d07c433ec5dce07d7f32679ffc9c9c53cc1759
+as_of_overview_commit: a4db79b2d1b4898f16463d13e5f5238b535e3410
+input_digest: cb18f7ebed0e5d00ac37deb90d6277230dcd920f83f095c719c348706f8385db
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and society sources frame learning, careers, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. The newest source adds a conditional location-bound career strategy: sustained local presence may improve relationship-based discovery and employer confidence, but moving before securing work transfers substantial financial and family risk to the candidate and does not generalize to remote-first employment.
+Work, education, and society sources frame learning, careers, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. Recent sources add two bounded transition strategies: local presence may improve discovery for location-bound careers while transferring relocation risk to candidates, and a large framework migration can remain inside normal delivery through multi-version CI, progressive exposure, and production evidence.
 
 ## Cross-source Findings
 
@@ -79,14 +79,15 @@ Public technical work such as [[OpenSourceProjectMaintenance]] can build [[Perso
 
 ### Sustainable Delivery Needs Feedback And Quality
 
-[[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments to live, protect [[InternalSoftwareQuality]] through tests and refactoring, and tune [[CodeReviewPractice]] to team trust and risk rather than treating ceremony as speed, while [[UnderstandDesignBuild]] argues that [[PrematureImplementation]] is avoided by understanding the business problem and comparing options through [[BenefitsRisksMitigations]] before committing.
+[[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments, protect [[InternalSoftwareQuality]], and tune [[CodeReviewPractice]] to risk; [[UnderstandDesignBuild]] guards against [[PrematureImplementation]], while [[GitHub]]'s [[IncrementalFrameworkUpgrade]] shows that dual-boot compatibility, required multi-version CI, [[DeploymentAutomation]], and staged [[ChangeSafety]] can keep a long framework migration inside ordinary delivery.
 
-**Evidence:** [[AgileSoftwareDevelopment]], [[BenefitsRisksMitigations]], [[CodeReviewPractice]], [[ContinuousDelivery]], [[InternalSoftwareQuality]], [[PrematureImplementation]], [[UnderstandDesignBuild]]
+**Evidence:** [[AgileSoftwareDevelopment]], [[BenefitsRisksMitigations]], [[CodeReviewPractice]], [[ContinuousDelivery]], [[InternalSoftwareQuality]], [[PrematureImplementation]], [[UnderstandDesignBuild]], [[GitHub]], [[IncrementalFrameworkUpgrade]], [[DeploymentAutomation]], [[ChangeSafety]], [[RubyOnRails]]
 
 **Qualifications:**
 
 - The small-team advice is context-sensitive: co-location, no pull requests, and minimal non-live environments fit best when trust, tests, pairing, observability, and release reversibility are already strong.
-- The front-loaded-understanding sequence pulls against the deploy-early advice, and both are practitioner positions rather than measured comparisons.
+- The front-loaded-understanding sequence pulls against deploy-early advice, and both are practitioner positions rather than measured comparisons.
+- GitHub's evidence is a company-authored Rails retrospective; dual booting adds conditional-code and CI-matrix cost, and CI plus click testing still missed local-development, slow-query, and other failures.
 
 ### Collaboration Needs Trust Role Clarity And Power Aware Restraint
 

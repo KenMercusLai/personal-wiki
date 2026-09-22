@@ -8,6 +8,7 @@ sources:
   - blog-martin-fowler-foreword-to-the-art-of-agile-development
   - chris-james-how-to-go-fast
   - you-cant-have-a-rollback-button-skyliner
+  - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
 last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
@@ -28,6 +29,8 @@ James adds a small-team operating rule: begin with a deployed "hello world," the
 
 McKinley adds that frequent deployment is safest when deployment and activation are separated. Teams can ship dark code behind disabled feature flags, expose it gradually, keep an off switch, and repair small diffs forward. These controls matter because reverting server code does not rewind databases, caches, browsers, or effects created while old and new instances coexist.
 
+GitHub's Rails migration adds a long-running compatibility case. Rather than isolating the upgrade on a branch or stopping normal delivery, the application could boot from current and next dependency locks while required CI ratcheted through each intermediate Rails version. Human product-area testing and progressive production exposure then supplied evidence that selected milestones behaved like the current release under real load.
+
 ## Key Claims
 - Continuous delivery is a release capability, not a list of tools.
 - CD depends on frequent small integration, automated tests, and repeated deployment practice.
@@ -35,7 +38,7 @@ McKinley adds that frequent deployment is safest when deployment and activation 
 - Feedback speed matters at both developer and CI levels.
 - Pipeline visibility helps teams identify bottlenecks and improve the production flow over time.
 - Regulated delivery needs compliance evidence and auditability without turning approval into a batch-size driver.
-- Frequent production delivery helps teams learn what users value in real use, and its safety improves when small releases can be activated gradually, disabled independently, observed, and corrected forward.
+- Frequent production delivery helps teams learn what users value in real use, and its safety improves when small releases can be activated gradually, disabled independently, observed, corrected forward, and kept compatible across a bounded migration window.
 
 ## Evidence
 - Tooling limit: [[architecting-for-continuous-delivery-thoughtworks]] says a CI server and version-control tool do not create CI when commits are large or automated tests are missing.
@@ -50,18 +53,22 @@ McKinley adds that frequent deployment is safest when deployment and activation 
 - WIP discipline: [[chris-james-how-to-go-fast]] treats code not in users' hands as work in progress and recommends optimizing for flow rather than resource allocation.
 - Deployment versus activation: [[you-cant-have-a-rollback-button-skyliner]] recommends shipping dark code behind disabled feature flags and ramping exposure gradually.
 - Forward recovery: [[you-cant-have-a-rollback-button-skyliner]] argues that small forward corrections are more verifiable than attempting to restore the complete prior state of a running system.
+- Multi-version integration: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] describes dual-boot dependency locks and required CI jobs that kept current and next Rails versions compatible while ordinary feature work continued.
+- Production feedback: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] used percentage exposure, exception and performance data, and a full-production peak-traffic gate before accepting deployed framework milestones.
 
 ## Counterevidence & Qualifications
 The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership; Fowler's foreword emphasizes agile learning and internal quality. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
 
 James's minimalist pipeline advice is strongest for early products and small teams. High-risk systems may need richer progressive-delivery controls, approval evidence, or production-like test environments, but the source's core warning still applies: extra environments and manual release process need a clear feedback or risk-reduction reason. McKinley's rollback essay is a forceful practitioner argument rather than comparative evidence; safely reversible changes still exist when state and compatibility boundaries are deliberately controlled.
 
+GitHub's account is a company-authored retrospective of one Rails application. Its dual-boot approach introduced temporary conditional code and a larger CI matrix, and the team still encountered CI, local-development, and slow-query problems that escaped automated and manual testing.
+
 ## What Changed
-- Created the concept from Thoughtworks' architecture-centered CD article.
-- Added regulated-delivery constraints from Nygard's compliance article.
-- Added Fowler's agile-product-learning rationale for frequent production delivery.
-- Added James's minimal-pipeline and low-WIP framing for small-team continuous delivery.
-- Added dark deployment, gradual activation, off switches, and forward correction as recovery-aware delivery controls.
+- Continuous delivery is a system property spanning architecture, tests, release flow, and production learning rather than a tool list.
+- Compliance evidence and auditability must preserve small batches rather than recreate central approval queues.
+- Small-team automation can be minimal, but it still needs fast verification and observable user feedback.
+- Deployment and activation should be separable because code reversion cannot restore every external state.
+- Multi-version CI and progressive production exposure can keep a long framework migration inside the normal delivery stream.
 
 ## Related Concepts
 - [[DeploymentPipeline]] - pipeline visibility is the article's core mechanism for CD release confidence.
@@ -75,3 +82,4 @@ James's minimalist pipeline advice is strongest for early products and small tea
 - [[InternalSoftwareQuality]] - high internal quality makes frequent reliable delivery cheaper.
 - [[ChangeSafety]] - small releases, tests, smoke checks, monitoring, and rollback thinking reduce production-change stress.
 - [[HarnessEngineering]] - feature flags and off switches can separate deployment from activation and constrain release effects.
+- [[IncrementalFrameworkUpgrade]] - continuous integration and production feedback turn a multi-version migration into a sequence of bounded milestones.

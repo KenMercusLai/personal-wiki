@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: 6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c
+as_of_overview_commit: a4db79b2d1b4898f16463d13e5f5238b535e3410
 summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable recovery."
-episode_count: 353
-source_count: 353
-paragraph_count: 300
+episode_count: 354
+source_count: 354
+paragraph_count: 301
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[CustomerLedProductDevelopment]], [[BuilderUserFluencyGap]], [[CognitiveOverheadInProductDesign]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; calls, mockups, and proofs of concept expose false certainty, while feedback must be segmented because fluent employees, power users, and public experts such as [[HackerNews]] can reveal technical needs yet misrepresent newcomer comprehension or market demand; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
-- [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where choosing a city and establishing local presence precede the search for location-bound work.
+- [[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments, protect [[InternalSoftwareQuality]], and tune [[CodeReviewPractice]] to risk; [[UnderstandDesignBuild]] guards against [[PrematureImplementation]], while [[GitHub]]'s [[IncrementalFrameworkUpgrade]] shows that dual-boot compatibility, required multi-version CI, [[DeploymentAutomation]], and staged [[ChangeSafety]] can keep a long framework migration inside ordinary delivery.
 
 ## Synthesis by Domain
 
@@ -81,7 +81,7 @@ This remains an indirect topic spanning scientific computing, attention, philoso
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, role clarity, bounded attention, fair incentives, and deliberate social design sensitive to access and risk.
+Learning and work improve through feedback, judgment, role clarity, bounded attention, fair incentives, and delivery practices that keep change observable and reversible only within explicit boundaries.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why transaction access alone does not secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Upgrading GitHub from Rails 3.2 to 5.2](sources/upgrading-github-from-rails-3-2-to-5-2-the-github-blog.md) - GitHub describes dual-booting Rails versions, ratcheting required CI through intermediate releases, and progressively exposing supported milestones in production during an eighteen-month no-downtime upgrade.
 - [Why You Need To Stop Obsessing Over Comments On Hacker News](sources/why-you-need-to-stop-obsessing-over-comments-on-hacker-news-venngage.md) - Venngage argues that Hacker News is useful for technical criticism but unreliable for market validation because its specialized public crowd lacks independence and representative diversity.
 - [You Can't Have a Rollback Button](sources/you-cant-have-a-rollback-button-skyliner.md) - Dan McKinley argues that reverting server code cannot restore all state changed by a live deployment, so teams should prefer small staged releases, off switches, and forward remediation.
 - [Two-Phase Commit](sources/unmesh-joshi-two-phase-commit.md) - Unmesh Joshi explains how participants durably prepare before a coordinator directs one atomic commit or rollback across multiple nodes.
@@ -1180,6 +1181,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
+- [GitHub](entities/GitHub.md) - Software-development platform whose main application used dual-boot compatibility, required multi-version CI, and progressive rollout for a large Rails upgrade.
+- [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
+
 ## Concepts
 - [Two-Phase Commit](concepts/TwoPhaseCommit.md) - Atomic-commit protocol that durably prepares every participant before one coordinator-directed commit or rollback.
 - [In-Market Job Search](concepts/InMarketJobSearch.md) - Establishing sustained local presence and credible relocation commitment before pursuing location-bound work in a target city.
@@ -1917,5 +1921,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [VPLS](concepts/VPLS.md) - Multipoint Ethernet L2VPN service whose IOS XR passthrough mode does not insert dummy VLAN tags in the source.
 - [Automated Content Farming](concepts/AutomatedContentFarming.md) - Programmatic harvesting of third-party articles and images into high-volume, ad-monetized content on a distribution platform.
 - [Technology Enabler Stack](concepts/TechnologyEnablerStack.md) - Widely available platform capabilities whose maturity decides whether a product idea can be built usefully and adopted broadly at a given time.
+
+- [Incremental Framework Upgrade](concepts/IncrementalFrameworkUpgrade.md) - Migration strategy that keeps old and new framework versions runnable, advances through CI compatibility milestones, and uses staged production evidence.
 
 ## Syntheses

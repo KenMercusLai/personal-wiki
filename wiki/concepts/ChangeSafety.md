@@ -8,6 +8,7 @@ sources:
   - asanas-september-8-outage
   - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
   - you-cant-have-a-rollback-button-skyliner
+  - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
 last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
@@ -27,6 +28,8 @@ Asana's outage adds a concrete recovery detail: knowing that a recent deploy cau
 Nygard's compliance source extends change safety into regulated delivery. Safe change is not only canarying, monitoring, and rollback; in regulated environments it also includes evidence that required controls passed, trust that evidence was gathered from the intended artifact or environment, and an audit trail showing the compliance process worked consistently.
 
 McKinley makes the recovery boundary more precise. Reverting application code does not restore the prior state of databases, caches, browsers, or concurrently running processes, and a v1-to-v2-to-v1 sequence can itself be destructive. The safer default is therefore to reduce the size and activation radius of each change, preserve off switches, and repair the system's current state forward; code rollback remains a conditional tactic rather than a promise of whole-system reversal.
+
+GitHub's Rails upgrade adds a migration-specific safety loop. Each intermediate compatibility milestone stayed under required CI, but production deployment was reserved for supported Rails versions. Team-by-team click testing preceded off-hours percentage exposure, exception and performance data drove corrections, and the final gate required thirty minutes across full production at peak traffic without visible impact.
 
 ## Key Claims
 - Production change is a major source of reliability risk.
@@ -51,16 +54,18 @@ McKinley makes the recovery boundary more precise. Reverting application code do
 - Point-of-change enforcement: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] describes admission-controller verification before deployment.
 - State boundary: [[you-cant-have-a-rollback-button-skyliner]] says a reverted SHA cannot undo effects already inflicted on databases, caches, browsers, and concurrent application instances.
 - Controlled activation: [[you-cant-have-a-rollback-button-skyliner]] recommends dark code, gradual ramp-up, feature off switches, and small forward corrections instead of relying on complete deployment rollback.
+- Compatibility containment: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] used required CI for old and next Rails versions so completed migration milestones could not silently regress.
+- Progressive acceptance: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] advanced through test-environment checks, percentage production exposure, exception and performance review, and a full-production peak-traffic gate.
 
 ## Counterevidence & Qualifications
-The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana case is company-authored and describes one web-service incident, while McKinley's categorical critique is a short practitioner essay with one cache example; neither should be overgeneralized into a universal recovery playbook.
+The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana and GitHub cases are company-authored accounts, while McKinley's categorical critique is a short practitioner essay with one cache example; none should be overgeneralized into a universal recovery playbook. GitHub explicitly reports CI, local-development, and slow-query problems that escaped its automated and manual gates.
 
 ## What Changed
-- Created the concept page for safe operational change and restoration-first incident handling.
-- Added production-like staging as a pre-release filter for risky changes.
-- Added Asana's outage as an example where revert target selection and bad-client-revision blacklisting mattered.
-- Added compliance evidence, provenance, and auditability as regulated change-safety concerns.
-- Reframed rollback as bounded code reversion and added off switches and forward repair for persistent or client-visible effects.
+- Safe change combines pre-production realism, staged exposure, monitoring, and restoration-first response.
+- A safe reversion needs a known-good target and client handling, not merely the previous server revision.
+- Regulated delivery adds objective evidence, trusted provenance, validation, and auditability.
+- Rollback is bounded code reversion; persistent and client-visible effects may need disabling or forward repair.
+- Large framework migrations benefit from version-by-version compatibility gates and measured production acceptance.
 
 ## Related Concepts
 - [[SystemReliability]] - safe change is one core reliability layer.
@@ -74,3 +79,4 @@ The sources do not cover all change-management contexts. Some code and immutable
 - [[ContinuousDelivery]] - small staged releases make production changes easier to observe, disable, and correct.
 - [[HarnessEngineering]] - activation controls can limit exposure and disable a feature without pretending to reverse all system state.
 - [[ComplianceArchitecture]] - regulated change safety depends on evidence and validation architecture.
+- [[IncrementalFrameworkUpgrade]] - migration milestones make compatibility and rollout risk observable in smaller units.

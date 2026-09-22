@@ -10,6 +10,7 @@ sources:
   - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
   - wenbin-fang-the-boring-technology-behind-a-one-person-internet-company
   - you-cant-have-a-rollback-button-skyliner
+  - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
 last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
@@ -34,6 +35,8 @@ The [[ListenNotes]] account supplies the low-ceremony end of the same spectrum. 
 
 McKinley's rollback critique narrows what that reversibility claim can mean. A deploy tool may reliably put an earlier commit on servers, but it cannot undo what the newer code already wrote to databases or caches, what browsers retained, or what concurrently running versions did to shared state. Deployment automation should therefore make its recovery boundary explicit: code reversion is one mechanism, while staged exposure, feature off switches, data repair, cache repair, client compatibility, and small forward corrections handle effects outside that boundary.
 
+GitHub's Rails upgrade shows deployment automation supporting migration rather than only release. Separate current and next dependency locks and conditional framework-version code let one codebase boot under multiple Rails versions, while required CI jobs preserved each completed compatibility step. Only supported milestones were deployed, first to a test environment and then to percentages of production, with exception and performance evidence governing expansion.
+
 ## Key Claims
 - Multiple deployment flows create maintenance cost across automation, documentation, and monitoring.
 - Immutable deployment through new AMIs and auto-scaling groups can reduce in-place update risk.
@@ -41,7 +44,7 @@ McKinley's rollback critique narrows what that reversibility claim can mean. A d
 - Functional tests should run both before production deployment and after deployment completes.
 - Deployment automation is stronger when linked to observability, smoke tests, staged exposure, and internal platform defaults, but it remains insufficient when release confidence is hidden, rollback history is untrustworthy, external state has changed, or execution records are missing.
 - Deployment automation can gather compliance evidence, but validation may be separated into point-of-change policy enforcement.
-- A small team can get repeatable releases from low-ceremony automation - a parameterized script, a timestamped checkout, a symlink swap, and a process restart - without adopting a heavyweight CI platform.
+- Deployment automation can range from a small parameterized release script to a multi-version boot and CI matrix; the appropriate mechanism depends on operator scale, compatibility risk, and required evidence.
 
 ## Evidence
 - Existing release paths: [[a-look-at-auth0-cloud-architecture-5-years-in]] describes Jenkins-triggered deployments using Puppet, SaltStack, Ansible, or AMI replacement and new auto-scaling groups.
@@ -63,16 +66,18 @@ McKinley's rollback critique narrows what that reversibility claim can mean. A d
 - Rollback as a version argument: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] supports an explicit commit SHA so a previous revision can be redeployed when needed.
 - Reversion boundary: [[you-cant-have-a-rollback-button-skyliner]] says reverting a web-server SHA does not reverse effects already applied to databases, caches, browsers, or concurrently running instances.
 - Safer release controls: [[you-cant-have-a-rollback-button-skyliner]] recommends dark deployment, gradual ramp-up, feature off switches, and small forward corrections.
+- Migration boot path: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] describes separate lockfiles and conditional code that made the current and next Rails versions deployable from the same evolving application.
+- Staged deployment evidence: [[upgrading-github-from-rails-3-2-to-5-2-the-github-blog]] moved selected Rails milestones through test, percentage production, and full peak-traffic exposure while collecting exceptions and performance data.
 
 ## Counterevidence & Qualifications
-The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering. The Listen Notes script is a single-operator account with no described test gate, staged rollout, or audit trail, so it demonstrates that minimal automation can work at small scale rather than that a script is sufficient where review, compliance, or blast-radius control is required. McKinley's argument is deliberately categorical and supported by one cache-corruption example; some immutable, stateless, or carefully backward-compatible changes can be reverted safely, but that does not justify treating whole-system reversibility as the default.
+The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering. The Listen Notes script is a single-operator account with no described test gate, staged rollout, or audit trail, so it demonstrates that minimal automation can work at small scale rather than that a script is sufficient where review, compliance, or blast-radius control is required. McKinley's argument is deliberately categorical and supported by one cache-corruption example; some immutable, stateless, or carefully backward-compatible changes can be reverted safely, but that does not justify treating whole-system reversibility as the default. GitHub's dual-boot approach is likewise one company-authored Rails case: it adds matrix and conditional-code cost and did not prevent all CI, local-development, or performance failures.
 
 ## What Changed
-- Unified heterogeneous, immutable, and blue/green release flows as a deployment-automation maturity problem.
-- Distinguished phase automation from end-to-end pipeline visibility and production confidence.
-- Added recovery concerns from Asana: safe revision selection and bad-client-revision invalidation.
-- Extended automation to preserved workflow records and compliance evidence gathered at the point of change.
-- Qualified commit-based rollback with the boundary between code reversion and repair of persistent or client-visible state.
+- Deployment automation spans heterogeneous, immutable, blue/green, scripted, and migration-specific release paths.
+- End-to-end visibility and meaningful verification matter more than automating isolated phases.
+- Recovery needs a known-good revision, client handling, and explicit boundaries around external state.
+- Automation can preserve workflow records and produce trusted compliance evidence at the point of change.
+- Multi-version boot and CI infrastructure can keep framework migration deployable without a long-lived branch.
 
 ## Related Concepts
 - [[ChangeSafety]] - deployment automation is a release-engineering mechanism for safer change.
@@ -87,3 +92,4 @@ The sources describe deployment automation through specific practitioner lenses.
 - [[ComplianceArchitecture]] - deployment automation can supply evidence for compliance validation.
 - [[BoringTechnology]] - conventional tooling can extend to the release path itself rather than only the runtime stack.
 - [[MicroCompany]] - a one-person operator needs automation that stays small enough to reason about without a platform team.
+- [[IncrementalFrameworkUpgrade]] - migration automation keeps current and next framework versions runnable and progressively deployable.

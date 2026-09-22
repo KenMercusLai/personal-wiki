@@ -300,12 +300,13 @@
       "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792",
       "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
-      "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b"
+      "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
+      "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 300
+    "paragraph_count": 301
   },
-  "overview_commit": "6971b96a3cee4ee4a1a8fa67f7207faa4b130c2c",
-  "overview_digest": "71e3b1e7d16b696f1deeb45bbb0f7fc06a976711acdc18edc05a004509177ef8",
+  "overview_commit": "a4db79b2d1b4898f16463d13e5f5238b535e3410",
+  "overview_digest": "2be0b11fa5a86017d800982a97644caa7ac8d88f003400da29947f745924a731",
   "paragraphs": [
     {
       "id": "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
@@ -6132,6 +6133,24 @@
         "DeliberateNetworkBuilding",
         "InMarketJobSearch",
         "MarkSuster"
+      ]
+    },
+    {
+      "id": "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest GitHub engineering source adds [[IncrementalFrameworkUpgrade]] to the wiki's delivery and reliability material. [[GitHub]] kept its main application deployable while moving from [[RubyOnRails|Rails]] 3.2 to 5.2.1 by dual-booting current and next dependency locks, using conditional compatibility code, and making each completed intermediate-version CI job required before advancing. Compatibility milestones were broader than production milestones: Rails 4.0 and 4.1 stayed in the migration path but were not deployed because GitHub had not backported security fixes to those releases, while 4.2 and 5.2 moved through team click testing, off-hours percentage exposure, exception and performance review, and a thirty-minute full-production peak-traffic gate. This strengthens [[ContinuousDelivery]], [[DeploymentAutomation]], and [[ChangeSafety]] by showing how an eighteen-month migration can remain inside normal feature delivery and accumulate learning rather than diverge on a long-lived branch. The reported acceleration from one year for 3.2-to-4.2 to five months for 4.2-to-5.2 also reflects improved framework support, staffing growth from one to four full-time engineers plus volunteers, and experience, so it should not be attributed to process alone. The sole embedded image was inspected and omitted as decorative artwork with no technical evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "ContinuousDelivery",
+        "DeploymentAutomation",
+        "GitHub",
+        "IncrementalFrameworkUpgrade",
+        "RubyOnRails"
       ]
     }
   ],

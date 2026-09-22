@@ -2862,3 +2862,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Upgrading GitHub from Rails 3.2 to 5.2
+
+Added GitHub's 2018 retrospective on an eighteen-month, no-downtime upgrade of its main application from Rails 3.2 to 5.2.1. Created [[GitHub]], [[RubyOnRails]], and [[IncrementalFrameworkUpgrade]], and extended [[ContinuousDelivery]], [[DeploymentAutomation]], and [[ChangeSafety]]. The source shows how separate current and next lockfiles, conditional compatibility code, sequential required CI gates, volunteer click testing, percentage production exposure, and exception and performance monitoring kept the migration integrated with ordinary feature delivery. It reports one year for Rails 3.2-to-4.2 and five months for 4.2-to-5.2, while qualifying that improved framework support, staffing growth, and accumulated experience all contributed. No direct contradiction was found; the account complements rollback skepticism by relying on bounded exposure and forward correction rather than claiming whole-system reversibility. The sole embedded image was inspected and omitted as decorative artwork with no technical evidence, so no asset manifest was created.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
