@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
+      "1338bbe0898e4537c08459fa4ab1ba1b2d95a03433342d82651128589c6c0001",
       "e9b393e78c57fbf069d0fe5daf36f3c121d070a50dc496381de31cc4df7ea36a",
       "f0386dab63fa2877019c5e4100bfeaee906fc14e4d3400e5ca07375abe74827e",
       "556938b7ac7bc699ac0df5111f550ceced99ad128d16f5bb76ba2ae0c733acf0",
@@ -285,11 +287,40 @@
       "43b42de29674f6328891e8fe0e1fe7118cd93fb39d998e5e9965cd6c5a6eb6ab",
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b"
     ],
-    "paragraph_count": 283
+    "paragraph_count": 285
   },
-  "overview_commit": "d451f3508f941d0bdbe6821b3998cb293683ee5d",
-  "overview_digest": "61512f1e58ff49b55ed1661556ef1d8f377ea0e901991226c9fac581d776f1dd",
+  "overview_commit": "8d92441cc5e5b524200728a252e132301f4e70e1",
+  "overview_digest": "aef1195fd97d11bfbd4b93ad39a4ac90bacce5e76cf7fc443978b09006b81964",
   "paragraphs": [
+    {
+      "id": "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest University Affairs source adds [[UniversityWebsiteGovernance]] to the wiki's UX and institutional-communication material. [[MelonieFullick]] argues that university sites fail users through buried schedules, fees, maps, contacts, directories, dates, and transcript information; weak search, link loops, large menus, inaccessible or non-mobile layouts; obsolete and contradictory content; and audience buckets that assume people already understand the institution. The source extends [[InformationHierarchy]] from page-level ordering to institution-wide architecture: when navigation mirrors departments, recruitment priorities, and internal political claims, users must decode the organization before completing ordinary tasks. Its service standard is a site that helps current students, prospective students, staff, faculty, parents, journalists, and the public make sense of institutional complexity.",
+      "topic_scores": {
+        "governance-and-institutions": 3
+      },
+      "wikilinks": [
+        "InformationHierarchy",
+        "MelonieFullick",
+        "UniversityWebsiteGovernance"
+      ]
+    },
+    {
+      "id": "1338bbe0898e4537c08459fa4ab1ba1b2d95a03433342d82651128589c6c0001",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The appended practitioner comments supply the operational qualification. Visible design flaws may persist because ownership is split between central teams and departments, publishers lack either access or expertise, one person may maintain dozens of sites, supporting data belongs to uncooperative units, and universities fund marketing more readily than ongoing web service. Delegating maintenance can increase rather than remove coordination work, while centralization cannot fix contested priorities without authority and capacity. The source is qualitative and dates from 2016, so it establishes a coherent governance diagnosis rather than comparative performance evidence; it does not show that any single organizational model solves the problem.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": []
+    },
     {
       "id": "e9b393e78c57fbf069d0fe5daf36f3c121d070a50dc496381de31cc4df7ea36a",
       "primary_topic": "governance-and-institutions",

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [University websites: The so-so, the bad, and the egregious](sources/university-websites-the-so-so-the-bad-and-the-egregious-university-affairs.md) - Melonie Fullick argues that university website failures in navigation, search, content, accessibility, and audience focus reflect institutional silos, weak ownership, scarce staffing, and recruitment-heavy priorities.
 - [While Everyone Is Distracted By Social Media, Successful People Double Down On An Underrated Skill](sources/while-everyone-is-distracted-by-social-media-successful-people-double-down-on-an-underrated-skill.md) - Michael Simmons argues for proactively filtering information overload in search of belief-changing knowledge, using disconfirmation, mental models, and learning-how-to-learn skills.
 - [Unexpected Consequences of Self Driving Cars](sources/unexpected-consequences-of-self-driving-cars-rodney-brooks.md) - Rodney Brooks argues that autonomous vehicles must negotiate tacit street norms and may create congestion, parking, legitimacy, and policy problems even when they drive safely.
 - [What Is ChatGPT Doing … and Why Does It Work?](sources/what-is-chatgpt-doing-and-why-does-it-work.md) - Stephen Wolfram explains ChatGPT as a next-token predictor, building from n-gram counting and neural-net training to embeddings, attention, and the claim that language is more law-like than assumed.
@@ -343,6 +344,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Melonie Fullick](entities/MelonieFullick.md) - Writer who diagnoses university website failures as communication, user-experience, and institutional-governance problems.
+- [University Affairs](entities/UniversityAffairs.md) - Higher-education publication that hosted Fullick's essay and the practitioner discussion appended to it.
 - [Michael Simmons](entities/MichaelSimmons.md) - Author who frames information selection, breakthrough knowledge, mental models, and learning how to learn as responses to attention scarcity.
 - [Rodney Brooks](entities/RodneyBrooks.md) - Roboticist and essayist analyzing autonomous vehicles as social actors whose adoption depends on legibility, public acceptance, and real-world perception.
 - [Stephen Wolfram](entities/StephenWolfram.md) - Scientist-entrepreneur and author who explains ChatGPT from first principles and argues its success points to explicit laws of language.
@@ -1150,6 +1153,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [University Website Governance](concepts/UniversityWebsiteGovernance.md) - Allocation of purpose, authority, staffing, standards, access, and maintenance responsibility across a university web presence.
 - [Information Overload](concepts/InformationOverload.md) - Condition in which content, social filtering, distraction, and attractive choices exceed a person's capacity to evaluate and consume them.
 - [Breakthrough Knowledge](concepts/BreakthroughKnowledge.md) - High-leverage information that changes governing beliefs, questions, or decisions by supplying a durable new lens.
 - [Mental Models](concepts/MentalModels.md) - Compact representations of recurring phenomena used to interpret situations and transfer patterns across domains.

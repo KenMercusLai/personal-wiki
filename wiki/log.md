@@ -2706,3 +2706,15 @@ Added Michael Simmons's practitioner essay on filtering information overload for
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | University websites: The so-so, the bad, and the egregious
+
+Added Melonie Fullick's 2016 University Affairs essay and its appended practitioner discussion on university website failures. Key claims: buried information, weak search, link loops, large menus, inaccessible or non-mobile layouts, stale content, and audience buckets often reflect institutional silos rather than isolated visual mistakes; recruitment and prestige priorities can displace everyday service for current students, staff, and faculty; and unclear ownership, distributed maintenance, insufficient staffing, inaccessible departmental data, and political competition for homepage space make defects persistent. Created UniversityWebsiteGovernance, MelonieFullick, and UniversityAffairs, and extended InformationHierarchy from page-level ordering to institution-wide architecture. The remote lead image was opened and is a generic decorative photograph of a laptop among plants; the local SVG was inspected and is a decorative reaction emoji. Both were omitted, so no image manifest was needed. No direct contradiction was found; the page records that the evidence is qualitative, reader comments are self-selected, and neither centralization nor redesign alone resolves capacity and authority problems.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

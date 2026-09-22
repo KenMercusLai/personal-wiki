@@ -3,16 +3,16 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-09-19
-as_of_overview_commit: 5b9139276731171b53cf0f8ddc14dc12af8a4f15
-input_digest: 24d771e86f8a26e9aaa3b636eced6bb7c680fd056021ac7bf1c1f2f7919209f4
+last_updated: 2026-09-22
+as_of_overview_commit: 8d92441cc5e5b524200728a252e132301f4e70e1
+input_digest: 3c24dff088f107d9480877b51981fb103b7ed06bd2bb59753c8c5f36206aeb78
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates. The newest university-web source adds that institution-wide information architecture is itself a governance outcome: fragmented ownership, thin staffing, departmental silos, recruitment priorities, and political competition can make ordinary user tasks hard even when the visible symptom looks like poor design.
 
 ## Cross-source Findings
 
@@ -104,3 +104,13 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The severity of consequences differs sharply between welfare surveillance, civic technology, agent permissions, browser payments, entertainment artwork, and autonomous transport.
 - The autonomous-driving argument is a 2017 forecast, and standardized intention signals or policy could change the predicted legitimacy and coordination failures.
+
+### Institutional Information Architecture Is Governance
+
+[[UniversityWebsiteGovernance]] shows that institution-wide [[InformationHierarchy]] is an operating outcome: ownership, staffing, publishing access, departmental silos, recruitment priorities, and political control of navigation determine whether people can complete ordinary tasks without first decoding the organization.
+
+**Evidence:** [[UniversityWebsiteGovernance]], [[InformationHierarchy]], [[MelonieFullick]]
+
+**Qualifications:**
+
+- The evidence is a 2016 opinion essay, Twitter responses, and self-selected practitioner comments rather than a comparative audit; centralization may improve coherence but is not sufficient without capacity and authority.

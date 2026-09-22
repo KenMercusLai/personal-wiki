@@ -156,8 +156,22 @@
         "ArtworkPersonalization",
         "AutonomousDrivingSafety"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "institutional-information-architecture-is-governance",
+      "qualifications": [
+        "The evidence is a 2016 opinion essay, Twitter responses, and self-selected practitioner comments rather than a comparative audit; centralization may improve coherence but is not sufficient without capacity and authority."
+      ],
+      "statement": "[[UniversityWebsiteGovernance]] shows that institution-wide [[InformationHierarchy]] is an operating outcome: ownership, staffing, publishing access, departmental silos, recruitment priorities, and political control of navigation determine whether people can complete ordinary tasks without first decoding the organization.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "UniversityWebsiteGovernance",
+        "InformationHierarchy",
+        "MelonieFullick"
+      ]
     }
   ],
-  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates.",
+  "summary": "Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates. The newest university-web source adds that institution-wide information architecture is itself a governance outcome: fragmented ownership, thin staffing, departmental silos, recruitment priorities, and political competition can make ordinary user tasks hard even when the visible symptom looks like poor design.",
   "topic_id": "governance-and-institutions"
 }
