@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-22
-as_of_overview_commit: 8d92441cc5e5b524200728a252e132301f4e70e1
-input_digest: 3c24dff088f107d9480877b51981fb103b7ed06bd2bb59753c8c5f36206aeb78
+as_of_overview_commit: a07aa870c5248c4d1f46b68ea108c63787b1136e
+input_digest: f3a2f7c497f69d4a8259ba1f3eded976e4b349858804522c3739e8d48974a8d5
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates. The newest university-web source adds that institution-wide information architecture is itself a governance outcome: fragmented ownership, thin staffing, departmental silos, recruitment priorities, and political competition can make ordinary user tasks hard even when the visible symptom looks like poor design.
+Governance and institutional material in the current corpus spans platform control, privacy burdens, startup and infrastructure operating models, political technology accountability, standardized technical systems, regulated delivery, harassment response, browser-market concentration, organizational boundary design, supplier power in enterprise cloud migration, historical institutional context, and exit-oriented alternatives to incumbent institutions. Recent material adds Greenhouse's organization-design frame and the Amazon-Oracle migration frame: as teams and platforms scale, values, release processes, validation loops, cloud workloads, and vendor dependencies become explicit operating boundaries rather than informal habits. McClure adds a VC governance wrinkle: at startup-fund scale, board-seat habits and partner attention are governance constraints, but rare-outlier economics can push funds toward different control assumptions and much larger portfolios. Housel's repeatability source adds that law, politics, regulation, and incumbent market structure can make a historical business path non-repeatable. The open-source source adds a lightweight governance case: popular public software needs contribution rules, maintainer delegation, release discipline, and boundaries around user demands. [[AutonomousDrivingSafety]] adds a public-space governance case: vehicles must negotiate tacit local norms and may face stricter legitimacy thresholds than human drivers, so deployment boundaries, social signalling, and defensible risk policy matter alongside collision rates. The university-web source adds that institution-wide information architecture is itself a governance outcome: fragmented ownership, thin staffing, departmental silos, recruitment priorities, and political competition can make ordinary user tasks hard even when the visible symptom looks like poor design. The vacation-policy source adds an internal-governance boundary: a benefit's label is less accountable than observed use, because unwritten ceilings, workload, and status can turn nominal freedom into guilt, while explicit floors, relief, and usage measurement make real expectations more legible.
 
 ## Cross-source Findings
 
@@ -114,3 +114,13 @@ Technical systems that look operationally narrow can carry social consequences w
 **Qualifications:**
 
 - The evidence is a 2016 opinion essay, Twitter responses, and self-selected practitioner comments rather than a comparative audit; centralization may improve coherence but is not sufficient without capacity and authority.
+
+### Workplace Policy Needs Behavioral Accountability
+
+[[VacationPolicy]] shows that workplace governance depends on usable entitlements and observed behavior, not policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while usage measurement and explicit floors or workload relief make the institution's real expectations more accountable.
+
+**Evidence:** [[VacationPolicy]], [[WorkplaceIncentiveDesign]], [[BurnoutPrevention]], [[Kickstarter]], [[TribunePublishing]], [[HubSpot]], [[RANDCorporation]]
+
+**Qualifications:**
+
+- The vacation-policy evidence is a practitioner essay, its company examples are reported rather than independently compared, and the author says broader evidence on leave use was unsettled in 2016.

@@ -2758,3 +2758,11 @@ Added Courtney Seiter's 2016 account of Buffer's alternative to annual performan
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Unlimited Vacation and Other Forms of Guilt-Based Management
+
+Added a practitioner critique of unlimited vacation as an ambiguous social negotiation rather than a literal entitlement. Created [[VacationPolicy]], [[RANDCorporation]], and [[TribunePublishing]]; extended [[BurnoutPrevention]], [[WorkplaceIncentiveDesign]], [[HubSpot]], and [[Kickstarter]]. The source argues that implicit ceilings, peer comparison, manager discretion, and guilt can suppress leave and contribute to martyrdom, burnout, and turnover, while fixed allowances, mandatory minimums, workload relief, use bonuses, planned closures, and low-use-outlier measurement make desired behavior clearer. All three local images were inspected and found to be duplicate or thumbnail versions of the same decorative beach-chair photograph, so none were retained and no image manifest was needed. No direct contradiction was found; the note preserves the author's acknowledgment that comparative evidence on unlimited leave use was unsettled in 2016 and treats the company examples as reported rather than causal evidence.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

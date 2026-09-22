@@ -289,12 +289,13 @@
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b",
       "120a917eebc28e1db27ee39f46a7407c334b8813fa4eba12cc4aad403ba3292a",
       "88dafed2b1ca67dd1c377c20ffb5e081bacc0be6512146b86cd7a5824bac55fb",
-      "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792"
+      "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792",
+      "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6"
     ],
-    "paragraph_count": 289
+    "paragraph_count": 290
   },
-  "overview_commit": "0fc22f155a96aa0fce9813a27c03aff409b9adfc",
-  "overview_digest": "8a6d7ee487d050f3f9cd4d0159a4e644e76d70420d79757529f99fa4d4ddccef",
+  "overview_commit": "a07aa870c5248c4d1f46b68ea108c63787b1136e",
+  "overview_digest": "cab13b8136e457b05e4b3d94429b3267595f4c1c3063b0c54fd743c03aa89314",
   "paragraphs": [
     {
       "id": "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
@@ -5919,6 +5920,29 @@
         "CEOScalingRole",
         "CompassionateManagement",
         "ContinuousWorkplaceFeedback"
+      ]
+    },
+    {
+      "id": "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The unlimited-vacation essay adds [[VacationPolicy]] to the wiki's workplace-design and burnout material. Its central distinction is between stated freedom and usable entitlement: because unlimited leave still has an unwritten ceiling, employees may have to infer acceptable use through managers, peers, workload, and status, turning time off into guilt-based [[WorkplaceIncentiveDesign]]. [[BurnoutPrevention]] therefore includes making recovery behavior legible through fixed allowances, minimums, workload relief, use incentives, planned closures, and measurement of actual leave, especially low-use outliers. [[Kickstarter]] and [[TribunePublishing]] are reported reversal cases, while [[HubSpot]] and [[RANDCorporation]] supply explicit-policy alternatives. The evidence remains practitioner-level and the author says comparative leave-use results were unsettled in 2016, so the stronger conclusion is to test observed behavior and distribution rather than assume either an unlimited or fixed label guarantees healthy use.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "HubSpot",
+        "Kickstarter",
+        "RANDCorporation",
+        "TribunePublishing",
+        "VacationPolicy",
+        "WorkplaceIncentiveDesign"
       ]
     }
   ],

@@ -4,15 +4,15 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-22
-as_of_overview_commit: 92261ef6b4d41c467f417e78c2f165d69a8fa301
-input_digest: e1801ad2968480a4717885cc52d2a0a7a2faeaa5bd13e6830c2642e2cea3e5ee
+as_of_overview_commit: a07aa870c5248c4d1f46b68ea108c63787b1136e
+input_digest: 2191be2453e62678234a41067c4cd71656ea9ae4ba514676b9f8e74a369e0a6d
 ---
 
 # Psychology and Personal Development
 
 ## Current State
 
-Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, similarity-based trust, and projection of expert fluency onto newcomers. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, product-feedback sampling, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
+Psychology and personal-development sources treat progress as a bounded attention, trust, incentive, relationship-maintenance, bias-calibration, and cognitive-shortcut problem. People improve outcomes by choosing fewer aims, protecting or buying back time, designing small feedback loops, sharing context, recognizing effort, processing conflict directly, deciding under uncertainty, learning from output, and using evidence to counter biases such as sunk cost, false consensus, overconfidence, incentive-shaped belief, status performance, similarity-based trust, and projection of expert fluency onto newcomers. Vacation policy adds that behavioral pressure can be implicit: an unwritten ceiling, peer comparison, workload, and guilt may suppress leave even when the formal language promises freedom, so actual use and low-use outliers matter. The topic remains advice-heavy and context-sensitive: bias taxonomies, trust-first stances, founder conflict norms, reputation evidence, gamified feedback, workplace incentives, productivity habits, creator metrics, fitness heuristics, time-saving services, leadership essays, product-feedback sampling, and conversion findings all depend on constraints, safety, existing motivation, cash, social norms, and the quality of the surrounding system.
 
 ## Cross-source Findings
 
@@ -28,13 +28,14 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 ### Small Designed Loops Support Change
 
-[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior change and leadership behavior as repeatable loops where motivation, ability, prompts, feedback, recognition, context-sharing, reflection, price signals, and bounded making shape future action.
+[[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; the leave-policy case adds that ambiguity and guilt can steer behavior as strongly as explicit rewards.
 
-**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]]
+**Evidence:** [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]]
 
 **Qualifications:**
 
-- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, gamification is treated as a weak reinforcer, prolific practice is an apprenticeship essay rather than a controlled study, the CEO lesson evidence is a first-person leadership essay, and workplace incentive loops can become high-pressure or short-term when tied to pay and status.
+- The behavior-model source is self-presentational, the journaling material is a practical habit pattern rather than comparative evidence, gamification is treated as a weak reinforcer, prolific practice is an apprenticeship essay rather than a controlled study, the CEO lesson evidence is a first-person leadership essay, and workplace incentive loops can become high-pressure, guilt-based, or short-term when tied to pay, status, or unwritten norms.
+- The vacation-policy evidence is practitioner argument and acknowledges unsettled comparative evidence; workload, manager behavior, legal entitlements, and bargaining power can matter more than the policy label.
 
 ### Trust And Good Faith Can Speed Collaboration
 

@@ -286,6 +286,7 @@ sources:
   - university-websites-the-so-so-the-bad-and-the-egregious-university-affairs
   - unknown-unknowns-why-you-should-release-early-and-often
   - you-are-not-your-customer-greylock-perspectives
+  - unlimited-vacation-and-other-forms-of-guilt-based-management
 last_updated: 2026-09-22
 ---
 # Overview
@@ -871,6 +872,8 @@ The newest AI-writing opinion source adds [[SemanticAblation]] as a subtractive 
 The Greylock customer essay adds a representativeness boundary to the product-learning material. [[CustomerLedProductDevelopment]] still favors observed problems, support encounters, behavior, and direct conversations over imagined demand, but those signals must be segmented by user fluency and by the decision being tested. Employees and early adopters can become power users whose deep product knowledge makes them useful witnesses for expert workflows yet weak proxies for prospective-user comprehension or acquisition. This extends [[BuilderUserFluencyGap]] from individual support misunderstandings into roadmap sampling and gives [[CognitiveOverheadInProductDesign]] an organizational cause: shared enthusiasm for insider features can add complexity without helping newcomers reach value. The essay is practitioner advice without quantitative comparison, so it does not establish that new-user needs should always outweigh retention, revenue, accessibility, or expert depth.
 
 The Buffer performance-review source adds a concrete people-development system to the wiki's startup-culture and coaching material. [[ContinuousWorkplaceFeedback]] treats annual reviews as too delayed and recall-heavy for everyday development, but its stronger contribution is to separate support relationships: employee-led one-on-ones offer mentorship and organizational context, while optional peer masterminds offer reciprocal reflection among people with overlapping work. Buffer's decision to restore one-on-ones after a self-management experiment qualifies any assumption that peer support makes management unnecessary. Both formats share a question-led coaching stance—listen closely and help the speaker form a solution—which aligns with [[CompassionateManagement]] and [[CEOScalingRole]] while leaving consequential evaluation, compensation, promotion, fairness, and underperformance processes unexplained.
+
+The unlimited-vacation essay adds [[VacationPolicy]] to the wiki's workplace-design and burnout material. Its central distinction is between stated freedom and usable entitlement: because unlimited leave still has an unwritten ceiling, employees may have to infer acceptable use through managers, peers, workload, and status, turning time off into guilt-based [[WorkplaceIncentiveDesign]]. [[BurnoutPrevention]] therefore includes making recovery behavior legible through fixed allowances, minimums, workload relief, use incentives, planned closures, and measurement of actual leave, especially low-use outliers. [[Kickstarter]] and [[TribunePublishing]] are reported reversal cases, while [[HubSpot]] and [[RANDCorporation]] supply explicit-policy alternatives. The evidence remains practitioner-level and the author says comparative leave-use results were unsettled in 2016, so the stronger conclusion is to test observed behavior and distribution rather than assume either an unlimited or fixed label guarantees healthy use.
 
 ## Open Questions
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Unlimited Vacation and Other Forms of Guilt-Based Management](sources/unlimited-vacation-and-other-forms-of-guilt-based-management.md) - A practitioner essay arguing that unlimited leave can replace a clear entitlement with guilt and informal negotiation, while explicit minimums, incentives, closures, and usage measurement make recovery more usable.
 - [Why We Don’t Have Performance Reviews](sources/why-we-dont-have-performance-reviews.md) - Courtney Seiter describes Buffer's employee-led one-on-ones and optional peer masterminds as complementary, question-led alternatives to annual rated reviews.
 - [You Are Not Your Customer](sources/you-are-not-your-customer-greylock-perspectives.md) - Greylock Perspectives argues that employees and early adopters become too fluent to represent prospective users, so teams should segment feedback and protect newcomer comprehension from power-user feature bias.
 - [Unknown Unknowns: Why you should release early and often](sources/unknown-unknowns-why-you-should-release-early-and-often.md) - Daniel Karlsson argues that conversations, mockups, and proofs of concept expose false certainty and unknown unknowns before teams build the wrong product.
@@ -770,7 +771,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, continuous-feedback, and founder-vision-alignment case.
 - [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
-- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition example and as a narrow-to-broad product-evolution case.
+- [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition, product-evolution, and explicit vacation-policy example.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
 - [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth example and as foundational web-payment infrastructure that made merchant commerce viable.
@@ -792,7 +793,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Firebox](entities/Firebox.md) - Gift and gadget retailer used as an affiliate-network growth example.
 - [Fog Creek](entities/FogCreek.md) - Software company context for Anil Dash's Twitter critique and Glitch example.
 - [Pokemon Go](entities/PokemonGo.md) - Mobile AR game used as a familiar-IP and free-download adoption example.
-- [Kickstarter](entities/Kickstarter.md) - Crowdfunding platform used as a community-embedded marketplace growth case.
+- [Kickstarter](entities/Kickstarter.md) - Crowdfunding platform used as a community-growth case and a reported unlimited-vacation reversal.
+- [RAND Corporation](entities/RANDCorporation.md) - Research organization cited for rewarding employees who use their full vacation allowance.
+- [Tribune Publishing](entities/TribunePublishing.md) - Media company cited as dropping an unlimited-vacation policy after one week.
 - [Booking.com](entities/BookingCom.md) - Hotel-booking platform used as a paid-search acquisition and repeat-direct-channel example.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
@@ -1160,6 +1163,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
 - [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring employee development through timely mentor and peer conversations rather than one annual rated review.
 - [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
 - [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
@@ -1344,7 +1348,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, useful disagreement, purposeful interaction, and responsible use of colleagues' time.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning, opportunity, and team-reputation infrastructure.
-- [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal and workplace practices that reduce exhaustion, always-on pressure, and overwork's health costs.
+- [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal boundaries and workplace systems that make recovery, communication limits, and usable leave possible.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
 - [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.
 - [Continuous Delivery](concepts/ContinuousDelivery.md) - Release capability for frequent, reliable, low-friction software delivery through architecture, tests, automation, and visible flow.
