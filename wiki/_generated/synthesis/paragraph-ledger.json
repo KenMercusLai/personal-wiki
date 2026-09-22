@@ -296,12 +296,13 @@
       "88dafed2b1ca67dd1c377c20ffb5e081bacc0be6512146b86cd7a5824bac55fb",
       "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792",
       "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
-      "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd"
+      "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
+      "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b"
     ],
-    "paragraph_count": 296
+    "paragraph_count": 297
   },
-  "overview_commit": "a0a97c26204656cb339492c5d1cf478a48226837",
-  "overview_digest": "fc020a4f2dec0f4788b45c2f67a2f03ee4b1cdffb8878ea6d05d12e29b1b06a8",
+  "overview_commit": "b3588caca2ba555978299e8e1a24d79a5c1750f7",
+  "overview_digest": "405aad5ecb56152c96ff63e38b893b6491717fa1abdf887f7fab27c5d0c430b4",
   "paragraphs": [
     {
       "id": "1032574da258fc3c2d2d5f6b9cc97392897bbfcaf849a335bc8dee6a0e185614",
@@ -6059,6 +6060,21 @@
       "wikilinks": [
         "DeliberateNetworkBuilding",
         "FounderNetworkBuilding"
+      ]
+    },
+    {
+      "id": "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Mark Suster source adds a relocation-and-hiring layer to the wiki's career material. [[InMarketJobSearch]] frames physical presence as both an opportunity channel and a commitment signal for candidates pursuing location-bound work in a chosen city: sustained meetings may reveal roles before job boards or recruiters create crowded pipelines, while resolved relocation makes housing, schooling, family, and commuting uncertainty less salient to hiring managers. [[DeliberateNetworkBuilding]] therefore gains a geographic, instrumental case alongside its formative account of relationships, and [[MarkSuster]] broadens from Bird investor commentary into career advice. The source is a forceful 2016 practitioner essay rather than comparative research; its \"100x\" claim is rhetorical, its advice shifts substantial risk to candidates, and it should not be generalized to remote-first roles or people constrained by finances, visas, disability, caregiving, housing, or a partner's career. The sole local image was inspected and omitted as a decorative photograph of a paper map.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "DeliberateNetworkBuilding",
+        "InMarketJobSearch",
+        "MarkSuster"
       ]
     }
   ],

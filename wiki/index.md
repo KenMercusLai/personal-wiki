@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why You Can't Search for a Job From a Remote Location](sources/why-you-cant-search-for-a-job-from-a-remote-location.md) - Mark Suster argues that candidates committed to location-bound work in a new city should establish local presence before searching so they can build relationships and reduce employer concern about relocation.
 - [Replicated Log](sources/unmesh-joshi-replicated-log.md) - Unmesh Joshi explains how consensus over one ordered write-ahead log lets replicas execute the same requests in the same sequence and maintain synchronized state.
 - [You Can't Judge Market Size by This Slide](sources/you-cant-judge-market-size-by-this-slide-nextview-ventures.md) - NextView Ventures classifies existing, expanding, and created markets and argues that founders should present auditable assumptions and calculations rather than an unsupported headline number.
 - [Why We’re Paying for Content These Days](sources/why-were-paying-for-content-these-days-hunter-walk.md) - Hunter Walk argues that direct content payment grew through low-friction checkout, personal creator support, stronger niche per-customer economics, and an opening left by advertising-focused platforms.
@@ -633,7 +634,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brad Ellis](entities/BradEllis.md) - Designer and Tall West founder arguing for reach-based iOS navigation on larger phones.
 - [Tall West](entities/TallWest.md) - Design agency context for Brad Ellis's reach-navigation essay.
 - [Bird](entities/Bird.md) - Electric scooter service framed as a category-creating micromobility startup with rapid demand and a bundled operating moat.
-- [Mark Suster](entities/MarkSuster.md) - Upfront Ventures investor-author explaining Bird's valuation, demand, and defensibility.
+- [Mark Suster](entities/MarkSuster.md) - Investor-author reasoning from local observation about Bird, hiring, networking, and relocation-first job search.
 - [Upfront Ventures](entities/UpfrontVentures.md) - Los Angeles venture firm that backed Bird across multiple recent rounds.
 - [Travis VanderZanden](entities/TravisVanderZanden.md) - Bird founder presented as an experienced operator behind the company's fast rollout and fundraising.
 - [Tom Tunguz](entities/TomTunguz.md) - SaaS strategy writer connecting cross-field innovation with team expertise and organizational data sharing.
@@ -1175,6 +1176,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [In-Market Job Search](concepts/InMarketJobSearch.md) - Establishing sustained local presence and credible relocation commitment before pursuing location-bound work in a target city.
 - [Replicated Log](concepts/ReplicatedLog.md) - Shared ordered log that lets replicas execute agreed state changes in the same sequence and converge on one state.
 - [Market Sizing](concepts/MarketSizing.md) - Evidence-backed estimation of existing, expanding, or newly created business opportunity through explicit sources, assumptions, and calculations.
 - [Anonymous Sourcing](concepts/AnonymousSourcing.md) - Journalistic use of identity protection, balancing access and source safety against lost credibility context and reputational risk.

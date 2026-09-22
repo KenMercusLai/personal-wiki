@@ -201,9 +201,10 @@
       "global_candidate": true,
       "id": "career-paths-are-staged-experiments",
       "qualifications": [
-        "Savings, health, care duties, local labor markets, life stage, organizational fairness, and structural barriers shape who can afford experiments, boundaries, or promotion paths; formal career architecture can clarify expectations but may become checklist theater unless calibrated with examples and fairness checks."
+        "Savings, health, visas, disability, care duties, housing, partner careers, local labor markets, life stage, organizational fairness, and structural barriers shape who can afford experiments, relocation, boundaries, or promotion paths; formal career architecture can clarify expectations but may become checklist theater unless calibrated with examples and fairness checks.",
+        "The relocation-first argument is a 2016 practitioner view without comparative outcome data; its claimed 100x advantage is rhetorical and does not apply automatically to remote-first work."
       ],
-      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]] that makes promotion expectations explicit while preserving craft judgment.",
+      "statement": "[[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[InMarketJobSearch]] adds the conditional case where choosing a city and establishing local presence precede the search for location-bound work.",
       "status": "supported",
       "supporting_wikilinks": [
         "CareerPlanning",
@@ -217,7 +218,8 @@
         "WorkHabits",
         "OneFitSearchMindset",
         "EngineeringCareerArchitecture",
-        "NerdWallet"
+        "NerdWallet",
+        "InMarketJobSearch"
       ]
     },
     {
@@ -365,16 +367,19 @@
       "global_candidate": false,
       "id": "career-networks-are-formative-environments",
       "qualifications": [
-        "The source is reflective practitioner advice, does not separate peer influence from self-selection, and may overstate how freely people can choose mentors, colleagues, communities, and media."
+        "The sources are reflective practitioner advice, do not separate peer influence from self-selection or provide comparative placement data, and may overstate how freely people can choose mentors, colleagues, communities, media, and location.",
+        "Informal local hiring networks can reproduce exclusion, while sustained in-person access depends on money, mobility, time, visas, disability, caregiving, housing, and family flexibility."
       ],
-      "statement": "[[DeliberateNetworkBuilding]] frames mentors, colleagues, communities, reading, and media as part of career and personal development, while [[FounderNetworkBuilding]] shows that startup networks can supply guidance and opportunity yet also standardize judgment and ambition.",
+      "statement": "[[DeliberateNetworkBuilding]] frames mentors, colleagues, communities, reading, and media as part of career and personal development; [[FounderNetworkBuilding]] shows that startup networks can supply guidance and opportunity yet standardize judgment, while [[InMarketJobSearch]] adds a geographic case where repeated local contact can reveal location-bound roles and signal relocation commitment.",
       "status": "qualified",
       "supporting_wikilinks": [
         "DeliberateNetworkBuilding",
-        "FounderNetworkBuilding"
+        "FounderNetworkBuilding",
+        "InMarketJobSearch",
+        "MarkSuster"
       ]
     }
   ],
-  "summary": "Work, education, and society sources frame learning, careers, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. The newest source adds a useful distinction: familiar payment infrastructure and personal creator support can enable paid work, but creator-business durability still depends on distribution, concentration, take rates, churn, differentiation, and defensibility.",
+  "summary": "Work, education, and society sources frame learning, careers, collaboration, technical delivery, workplace policy, creative production, and independent work as practice-rich systems that need feedback, judgment, bounded attention, role clarity, explicit expectations, fair incentives, and deliberate social design. The corpus spans active learning and writing, AI skill boundaries, career experiments and networks, remote work and meetings, organizational scaling, infrastructure tied to user outcomes, worker precarity and human service, knowledge systems, creator platforms, public technology, privacy, and automation's external costs. The newest source adds a conditional location-bound career strategy: sustained local presence may improve relationship-based discovery and employer confidence, but moving before securing work transfers substantial financial and family risk to the candidate and does not generalize to remote-first employment.",
   "topic_id": "work-education-and-society"
 }
