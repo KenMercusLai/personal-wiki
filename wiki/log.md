@@ -2886,3 +2886,19 @@ Added Justin Kan's 2018 two-sided account of startup employment. Created [[Justi
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Upwork’s CEO on How an Introverted Engineer Learned to Lead
+
+Added Stéphane Kasriel's 2016 HBR excerpt on learning executive leadership as an introverted engineer. Created [[StephaneKasriel]], [[Upwork]], and [[IntrovertedLeadership]]. The source presents introversion as a constraint to structure rather than a bar to leadership: Kasriel uses numeric goals at large events, pursues stretch roles, studies strategy and management, and reframes CEO work around motivation, empowerment, resourcing, and listening before applying an engineer's solution instinct. No direct contradiction was found; the synthesis reinforces [[CEOScalingRole]], [[CareerPlanning]], and [[CompassionateManagement]] while qualifying the single-executive retrospective, unequal access to education and stretch roles, and the lack of independent outcome evidence. The sole local image was inspected and omitted as a decorative studio portrait with no separate evidentiary content. Downstream synthesis was refreshed for work, education, and society; the global artifact was recompacted when its material-change gate became due.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Your Media Business Will Not Be Saved
+
+Added Joshua Topolsky's 2016 critique of novelty-driven digital media strategy. Created [[JoshuaTopolsky]] and extended [[DigitalMediaMonetization]], [[PlatformDistributionDependence]], and [[PlatformPublisherRevenue]]. The source argues that video, bots, newsletters, apps, and partnerships cannot rescue undifferentiated content; digital abundance and surrendered distribution control pushed publishers toward programmatic scale, cheaper attention, and algorithmic optimization; and a durable alternative begins with distinctive work for a finite audience, direct audience value, product thinking, and long-term planning. No direct contradiction was found: the essay qualifies diversified monetization by making product quality and audience relevance upstream constraints. All three local images were inspected; they are versions of the same retro-computer title montage, so the highest-resolution copy was retained and the two duplicates were omitted.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

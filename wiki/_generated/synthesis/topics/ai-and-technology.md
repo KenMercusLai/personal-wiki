@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-23
-as_of_overview_commit: e40efbe05b6dcae40daa8423f63d6b5b53767e13
-input_digest: ac163af963bbfcb4b505fe3c45a9cc0a5118a4a78a04b9281745526f0d926a34
+as_of_overview_commit: 1e12800d27c3960f6f98d2171f5de6e5a5a3a69d
+input_digest: 4c4c23d04f0353107d3ecb3a74818ed019aa3f2dc84e882418d222e360c25e73
 ---
 
 # AI and Technology
@@ -83,13 +83,14 @@ Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]],
 
 ### Automation Can Industrialize Media Production
 
-[[AutomatedContentFarming]] shows the automation edge of the AI-era production shift: scraped reporting, machine voice-over, and scheduled upload make publishing cheap enough to run as an industry, and per-view payment through [[WebAdEconomics]] gives that pipeline a revenue model that does not depend on quality, which sharpens [[AIEraCreativeStandards]] and leaves [[PlatformAbuseResponse]] as the enforcement question for platforms such as [[YouTube]].
+Digital media technology changes production and distribution without solving audience value: [[AutomatedContentFarming]] makes scraped, machine-voiced publishing cheap enough to industrialize, while [[JoshuaTopolsky]] argues that video, bots, apps, algorithmic reach, and platform partnerships cannot rescue undifferentiated work. Per-view [[WebAdEconomics]] and [[PlatformDistributionDependence]] can reward volume without quality, sharpening [[AIEraCreativeStandards]], [[DigitalMediaMonetization]], and the [[PlatformAbuseResponse]] question for platforms such as [[YouTube]].
 
-**Evidence:** [[AutomatedContentFarming]], [[WebAdEconomics]], [[AIEraCreativeStandards]], [[PlatformAbuseResponse]], [[YouTube]]
+**Evidence:** [[AutomatedContentFarming]], [[WebAdEconomics]], [[AIEraCreativeStandards]], [[PlatformAbuseResponse]], [[YouTube]], [[JoshuaTopolsky]], [[PlatformDistributionDependence]], [[DigitalMediaMonetization]]
 
 **Qualifications:**
 
-- The account is one 2018-era observation of a single platform, with revenue the author estimates rather than measures, no follow-up on the named channels, and no count of displaced human work.
+- The news-bot account is one 2018-era observation of a single platform, with revenue the author estimates rather than measures, no follow-up on the named channels, and no count of displaced human work.
+- Topolsky's 2016 practitioner essay supplies no comparative publisher data or demonstrated economics for its quality-and-finite-audience alternative.
 
 ### Agent Systems Need Simple Debuggable Harnesses
 

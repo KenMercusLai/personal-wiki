@@ -120,16 +120,20 @@
       "global_candidate": true,
       "id": "automation-can-industrialize-media-production",
       "qualifications": [
-        "The account is one 2018-era observation of a single platform, with revenue the author estimates rather than measures, no follow-up on the named channels, and no count of displaced human work."
+        "The news-bot account is one 2018-era observation of a single platform, with revenue the author estimates rather than measures, no follow-up on the named channels, and no count of displaced human work.",
+        "Topolsky's 2016 practitioner essay supplies no comparative publisher data or demonstrated economics for its quality-and-finite-audience alternative."
       ],
-      "statement": "[[AutomatedContentFarming]] shows the automation edge of the AI-era production shift: scraped reporting, machine voice-over, and scheduled upload make publishing cheap enough to run as an industry, and per-view payment through [[WebAdEconomics]] gives that pipeline a revenue model that does not depend on quality, which sharpens [[AIEraCreativeStandards]] and leaves [[PlatformAbuseResponse]] as the enforcement question for platforms such as [[YouTube]].",
+      "statement": "Digital media technology changes production and distribution without solving audience value: [[AutomatedContentFarming]] makes scraped, machine-voiced publishing cheap enough to industrialize, while [[JoshuaTopolsky]] argues that video, bots, apps, algorithmic reach, and platform partnerships cannot rescue undifferentiated work. Per-view [[WebAdEconomics]] and [[PlatformDistributionDependence]] can reward volume without quality, sharpening [[AIEraCreativeStandards]], [[DigitalMediaMonetization]], and the [[PlatformAbuseResponse]] question for platforms such as [[YouTube]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "AutomatedContentFarming",
         "WebAdEconomics",
         "AIEraCreativeStandards",
         "PlatformAbuseResponse",
-        "YouTube"
+        "YouTube",
+        "JoshuaTopolsky",
+        "PlatformDistributionDependence",
+        "DigitalMediaMonetization"
       ]
     },
     {

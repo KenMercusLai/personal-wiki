@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Your Media Business Will Not Be Saved](sources/your-media-business-will-not-be-saved-joshua-topolsky-medium.md) - Joshua Topolsky argues that fashionable formats cannot rescue weak media products and that durable publishers must serve finite audiences with distinctive work and sustainable economics.
+- [Upwork’s CEO on How an Introverted Engineer Learned to Lead](sources/upworks-ceo-on-how-an-introverted-engineer-learned-to-lead.md) - Stéphane Kasriel describes learning CEO leadership through stretch roles, education, structured networking, employee empowerment, and listening before solving.
 - [Why You Should (And Shouldn’t) Join a Startup](sources/why-you-should-and-shouldnt-join-a-startup-atrium.md) - Justin Kan weighs weak management, unlikely riches, and instability against exceptional responsibility, founder networks, and accelerated learning when choosing startup work.
 - [You're Thinking Too Big](sources/youre-thinking-too-big.md) - Jennifer Tang explains microinteractions as trigger, rules, feedback, and loops or modes, arguing that small acknowledgments reduce uncertainty and should be designed early and refined in live use.
 - [Upgrading GitHub from Rails 3.2 to 5.2](sources/upgrading-github-from-rails-3-2-to-5-2-the-github-blog.md) - GitHub describes dual-booting Rails versions, ratcheting required CI through intermediate releases, and progressively exposing supported milestones in production during an eighteen-month no-downtime upgrade.
@@ -364,6 +366,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Joshua Topolsky](entities/JoshuaTopolsky.md) - Media writer and entrepreneur arguing for distinctive work, finite audiences, product thinking, and long-term publishing strategy.
+- [Stéphane Kasriel](entities/StephaneKasriel.md) - Engineer-turned-Upwork CEO represented by a deliberate transition into people leadership.
+- [Upwork](entities/Upwork.md) - Company context for Kasriel's account of moving from technical problem solving toward employee enablement.
 - [Justin Kan](entities/JustinKan.md) - Founder-operator arguing that startup employment should be chosen for fit and learning rather than assumed wealth or prestige.
 - [Justin.tv](entities/JustinTV.md) - Startup case where inexperienced employees gained high-consequence technical and business responsibility under real operational pressure.
 - [Jennifer Tang](entities/JenniferTang.md) - Product-design author explaining how microinteractions make system acknowledgment legible.
@@ -1191,6 +1196,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
 
 ## Concepts
+- [Introverted Leadership](concepts/IntrovertedLeadership.md) - Leadership development that structures social demands and builds people-enablement skills without treating introversion as disqualifying.
 - [Microinteractions](concepts/Microinteractions.md) - Small task-level exchanges structured by triggers, rules, feedback, and loops or modes that expose system state and acknowledgment.
 - [Two-Phase Commit](concepts/TwoPhaseCommit.md) - Atomic-commit protocol that durably prepares every participant before one coordinator-directed commit or rollback.
 - [In-Market Job Search](concepts/InMarketJobSearch.md) - Establishing sustained local presence and credible relocation commitment before pursuing location-bound work in a target city.

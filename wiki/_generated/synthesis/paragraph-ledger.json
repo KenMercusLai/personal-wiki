@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d09b209840b7fae09b7c67e66c6e45ef6727f468562b98c1b8b3b5487be341b1",
+      "99881712cae6e98177ea91ffe0926c6afb5a8833e9cf7240b4dd054758838244",
       "435fa14209b4795162d821a0c0d4efdd1c4c9e159eb9757ae015b9c366b19646",
       "e7258c9db2dc2a575de184fbdb0dd1247bc359ef8841a7d855ec0eaf52ef9e82",
       "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
@@ -305,11 +307,50 @@
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
       "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 303
+    "paragraph_count": 305
   },
-  "overview_commit": "5aceccf92310a2898d4a88ef3b7d3ff15365838b",
-  "overview_digest": "74eeb21806d56efcc8812eeafb6541c4967d154f366b966140f10b46a090ae2c",
+  "overview_commit": "1e12800d27c3960f6f98d2171f5de6e5a5a3a69d",
+  "overview_digest": "53f6c815f83b8e6783ef961337968c627beab66d7ebeba4f912a9fc041fb8750",
   "paragraphs": [
+    {
+      "id": "d09b209840b7fae09b7c67e66c6e45ef6727f468562b98c1b8b3b5487be341b1",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Joshua Topolsky source adds an upstream quality-and-audience constraint to the wiki's digital-media economics. [[JoshuaTopolsky]] argues that video, bots, newsletters, apps, social channels, and platform partnerships can contribute to a strategy but cannot rescue undifferentiated work. His diagnosis connects the collapse of scarcity-based distribution to [[PlatformDistributionDependence]]: publishers ceded delivery and audience access to technology intermediaries, then tried to replace attention and user value with ever-more clicks, views, and programmatic inventory as each unit became less valuable. This sharpens [[DigitalMediaMonetization]] and [[PlatformPublisherRevenue]] by making distinctive voices, stories, ideas, brands, and direct attachment to a finite intended audience prerequisites rather than revenue tactics. It aligns with [[NicheSubscriptionPublishing]] without prescribing subscriptions specifically, and with [[VanityMetrics]] by rejecting scale detached from audience value. The article is a polemical 2016 practitioner essay with no comparative publisher data or demonstrated economics for its preferred model, so it qualifies single-answer media strategies more strongly than it proves what will replace them. Its three local images are versions of the same retro-computer title montage; the highest-resolution copy was retained and the two duplicates were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "DigitalMediaMonetization",
+        "JoshuaTopolsky",
+        "NicheSubscriptionPublishing",
+        "PlatformDistributionDependence",
+        "PlatformPublisherRevenue",
+        "VanityMetrics"
+      ]
+    },
+    {
+      "id": "99881712cae6e98177ea91ffe0926c6afb5a8833e9cf7240b4dd054758838244",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest HBR excerpt adds [[IntrovertedLeadership]] as a deliberate adaptation path from technical expertise into people leadership. [[StephaneKasriel]] describes preserving his preference for solitude or small groups while turning unavoidable large-event networking into bounded goals for conversations and follow-up. His wider development path combines stretch roles with reading, online study, and formal business education, but the more important role change is behavioral: as CEO of [[Upwork]], he learned to create excitement, empower employees, provide resources, and listen before treating every difficulty as an engineering problem to solve. This reinforces [[CEOScalingRole]], [[CareerPlanning]], and [[CompassionateManagement]] without implying that introverts need identical tactics or that education credentials cause leadership success. The evidence is a short first-person executive summary rather than a complete article or independent outcome study, and the inspected portrait was omitted because it adds no separate evidence.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CEOScalingRole",
+        "CareerPlanning",
+        "CompassionateManagement",
+        "IntrovertedLeadership",
+        "StephaneKasriel",
+        "Upwork"
+      ]
+    },
     {
       "id": "435fa14209b4795162d821a0c0d4efdd1c4c9e159eb9757ae015b9c366b19646",
       "primary_topic": "business-and-markets",
