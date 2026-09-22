@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-22
-as_of_overview_commit: f83ce162bb6170edd13fce5be2c6b991aaa6f377
-input_digest: c82708680571ede9296b31a96818a19211d258940c78b3c7d33e6e530c519e89
+as_of_overview_commit: 63da07206acd287fa7b3e9ef2e1db8a330d7c289
+input_digest: 351e886c8656086fc1d9561b6ab06063f3ff018a440f9e523d7303303c5799f5
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. Financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value, while the largely practitioner and retrospective evidence keeps many conclusions qualified. [[AnonymousSourcing]] adds that startup reputations can be shaped by criticism whose protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias, making corroboration central.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
 
 ## Cross-source Findings
 
@@ -26,6 +26,17 @@ Business and markets sources frame companies as systems for converting scarce re
 
 - The evidence is one technology-community author's brief 2015 opinion essay without newsroom cases, comparative evidence, or an operational threshold for source danger.
 - Confidential corroboration and partial role context may preserve more verifiability than the essay acknowledges, while a named source is not automatically truthful.
+
+### Market Size Is An Auditable Model
+
+[[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected.
+
+**Evidence:** [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]]
+
+**Qualifications:**
+
+- The three-part taxonomy comes from one short 2016 venture-practitioner article with no worked calculation, error range, adoption curve, or evidence that the framework predicts outcomes.
+- Bottom-up estimates can still conceal weak assumptions about reachable customers, adoption, pricing, and willingness to pay, while created-market language can mistake hoped-for demand for latent value.
 
 ### Engineering Practice Frameworks Encode Delivery Discipline
 

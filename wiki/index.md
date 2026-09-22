@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You Can't Judge Market Size by This Slide](sources/you-cant-judge-market-size-by-this-slide-nextview-ventures.md) - NextView Ventures classifies existing, expanding, and created markets and argues that founders should present auditable assumptions and calculations rather than an unsupported headline number.
 - [Why We’re Paying for Content These Days](sources/why-were-paying-for-content-these-days-hunter-walk.md) - Hunter Walk argues that direct content payment grew through low-friction checkout, personal creator support, stronger niche per-customer economics, and an opening left by advertising-focused platforms.
 - [You Can Always Find an Anonymous Former Employee to Trash the Founder](sources/you-can-always-find-an-anonymous-former-employee-to-trash-the-founder-hunter-walk.md) - Hunter Walk argues that anonymous criticism hides context needed to judge credibility and should function as a lead unless source risk and public importance justify protection.
 - [Paxos](sources/unmesh-joshi-paxos.md) - Unmesh Joshi explains Paxos as prepare and accept phases that safely choose a value under partial failure, followed by commit to disseminate the result.
@@ -355,6 +356,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
 - [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.
 - [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who presents Paxos as a concise problem-and-solution pattern.
 - [Leslie Lamport](entities/LeslieLamport.md) - Computer scientist credited by the source with developing Paxos and publishing "The Part-Time Parliament."
@@ -1172,6 +1174,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Market Sizing](concepts/MarketSizing.md) - Evidence-backed estimation of existing, expanding, or newly created business opportunity through explicit sources, assumptions, and calculations.
 - [Anonymous Sourcing](concepts/AnonymousSourcing.md) - Journalistic use of identity protection, balancing access and source safety against lost credibility context and reputational risk.
 - [Paxos](concepts/Paxos.md) - Distributed-consensus protocol family that preserves one chosen value across competing proposals and partial failures.
 - [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-22
-as_of_overview_commit: 485b698f709922b06052e4246d2c428f70d25397
-summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible constraints, grounded evidence, feedback, and accountable judgment."
-episode_count: 347
-source_count: 347
-paragraph_count: 294
+as_of_overview_commit: 63da07206acd287fa7b3e9ef2e1db8a330d7c289
+summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable judgment."
+episode_count: 348
+source_count: 348
+paragraph_count: 295
 topic_count: 9
 ---
 
@@ -18,9 +18,9 @@ topic_count: 9
 
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
+- [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected.
 - [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[CustomerLedProductDevelopment]], [[BuilderUserFluencyGap]], [[CognitiveOverheadInProductDesign]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; calls, mockups, and proofs of concept expose false certainty, while feedback must be segmented because fluent employees and power users can reveal expert needs yet misrepresent newcomer comprehension; [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
-- [[HunterWalk]] links growth in [[DigitalMediaMonetization]] through direct audience payment to familiar low-friction checkout, personal creator support, stronger niche per-customer economics, and an advertising orientation at [[Google]] and [[Facebook]], while [[CreatorEconomyStartups]] shows that payment access does not remove concentration, distribution, churn, take-rate, or defensibility problems.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on the claim that meaningful work and well-being depend on deliberately allocating scarce time and attention rather than letting defaults or disliked obligations consume them.
 - [[AgileSoftwareDevelopment]] and [[ContinuousDelivery]] produce sustainable speed when teams clarify user problems, keep WIP low, deploy small increments to live, protect [[InternalSoftwareQuality]] through tests and refactoring, and tune [[CodeReviewPractice]] to team trust and risk rather than treating ceremony as speed, while [[UnderstandDesignBuild]] argues that [[PrematureImplementation]] is avoided by understanding the business problem and comparing options through [[BenefitsRisksMitigations]] before committing.
@@ -29,17 +29,17 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress combines system understanding, scope-aware architecture, verification close to change, reliable operations, and inspectable AI harnesses that keep context, tools, retrieval, and human judgment visible.
+Durable technical progress combines system understanding, scope-aware architecture, verification close to change, reliable operations, calibrated interfaces, and inspectable AI harnesses that keep context, tools, retrieval, and human judgment visible.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
 
 ### Business and Markets
 
-Companies convert scarce resources into durable advantage when changing mechanisms serve stable demand, runway funds learning before scale, and growth preserves retained value across pricing, platforms, reliability, and evidence quality.
+Companies convert scarce resources into durable advantage when opportunity estimates expose their assumptions, changing mechanisms serve stable demand, runway funds learning before scale, and growth preserves retained value across pricing, platforms, reliability, and evidence quality.
 
+- [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected. Evidence: [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]].
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
-- [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
 
 ### Cross-domain
 
@@ -64,7 +64,7 @@ Institutional accountability depends on explicit ownership, usable controls, obs
 
 ### History and Geopolitics
 
-The topic currently emphasizes technology and institutional history, showing that visible products, markets, interfaces, and practices inherit long maturation paths and context that should not be copied as timeless recipes.
+The topic emphasizes technology and institutional history, showing that visible products, markets, interfaces, and practices inherit long maturation paths and context that should not be copied as timeless recipes.
 
 ### Psychology and Personal Development
 

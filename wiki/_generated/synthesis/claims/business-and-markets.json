@@ -15,6 +15,21 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "market-size-is-an-auditable-model",
+      "qualifications": [
+        "The three-part taxonomy comes from one short 2016 venture-practitioner article with no worked calculation, error range, adoption curve, or evidence that the framework predicts outcomes.",
+        "Bottom-up estimates can still conceal weak assumptions about reachable customers, adoption, pricing, and willingness to pay, while created-market language can mistake hoped-for demand for latent value."
+      ],
+      "statement": "[[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "MarketSizing",
+        "NextViewVentures",
+        "StartupValuation"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "engineering-practice-frameworks-encode-delivery-discipline",
       "qualifications": [
@@ -760,6 +775,6 @@
       ]
     }
   ],
-  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. Financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value, while the largely practitioner and retrospective evidence keeps many conclusions qualified. [[AnonymousSourcing]] adds that startup reputations can be shaped by criticism whose protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias, making corroboration central.",
+  "summary": "Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.",
   "topic_id": "business-and-markets"
 }

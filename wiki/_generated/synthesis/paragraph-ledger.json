@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "19c14f6792893d645ea61923b7ed5e7c7348e1004056d55756314f42cc88aa37",
       "03b7d69fe3225fbc21a926e599c98b3a45ebd86355d41f2ac6628b0b587e9957",
       "8fe47c11951e4ff9ccf149ce8acffc9114f2a73585475e366df92318e17ca503",
       "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
@@ -296,11 +297,26 @@
       "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd"
     ],
-    "paragraph_count": 294
+    "paragraph_count": 295
   },
-  "overview_commit": "485b698f709922b06052e4246d2c428f70d25397",
-  "overview_digest": "98d868cfe41e91386ca0fc250526d642f8ec8f34fa1f9113f393ae093bc3312a",
+  "overview_commit": "63da07206acd287fa7b3e9ef2e1db8a330d7c289",
+  "overview_digest": "9313d4e429e46855aa39ac19a0de42aa64f38611dd6e136a451bd436c11beb23",
   "paragraphs": [
+    {
+      "id": "19c14f6792893d645ea61923b7ed5e7c7348e1004056d55756314f42cc88aa37",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest NextView Ventures source adds [[MarketSizing]] as an auditable founder model rather than a decorative pitch-deck number. [[NextViewVentures]] separates existing markets, which can be estimated from public data with top-down, bottom-up, or blended methods, from expanding markets that reach additional customer groups or adjacent categories and created markets that unlock previously latent value. A startup may combine all three, so the classification exposes different uncertainties instead of assigning one rigid label. The practical standard is to show sources, assumptions, and calculations: investors will do their own diligence, and the quality of the derivation reveals more about customer understanding than an unsupported multi-billion-dollar headline. This strengthens [[StartupValuation]] by clarifying one input to early-stage value while preserving an important limit: the article is a short 2016 practitioner framework with no worked forecast, error range, or evidence that the taxonomy predicts outcomes, and bottom-up models can still conceal weak adoption, reach, pricing, or willingness-to-pay assumptions.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 6
+      },
+      "wikilinks": [
+        "MarketSizing",
+        "NextViewVentures",
+        "StartupValuation"
+      ]
+    },
     {
       "id": "03b7d69fe3225fbc21a926e599c98b3a45ebd86355d41f2ac6628b0b587e9957",
       "primary_topic": "governance-and-institutions",

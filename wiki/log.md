@@ -2810,3 +2810,11 @@ Added Hunter Walk's 2017 explanation for growing direct payment for online conte
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | You Can't Judge Market Size by This Slide
+
+Added NextView Ventures' 2016 argument that a market-size slide should be an auditable model rather than an unsupported headline number. Created [[MarketSizing]] and [[NextViewVentures]]. The source distinguishes measurable existing markets from expanding markets that reach adjacent customers and created markets that unlock latent value, while allowing a startup to combine all three. It prefers bottom-up analysis for existing categories and asks founders to expose sources, assumptions, and calculations because investors will conduct their own diligence. No direct contradiction was found; the framework sharpens [[StartupValuation]] by explaining one input to early-stage value. The note preserves that this is a short practitioner taxonomy without a worked estimate, error range, or outcome evidence, and that bottom-up models can still hide weak adoption, reach, pricing, or willingness-to-pay assumptions. The source contains no effective image references, so no image inspection or asset manifest was required. Downstream synthesis was refreshed for business and markets, and the global artifact was recompacted because candidate material changed.
+
+## [2026-09-23] lint | Wiki health check
+
+Health, identity, structural, and graph-aware lint checks completed. No structural issues were found; 13 fragile community bridges were reported from the existing 2026-09-17 graph and are provisional because that graph predates the latest ingests. Automated semantic lint was unavailable because LiteLLM has no provider-qualified model or API credentials configured; a manual review of the same 20-page sample found no direct contradictions and identified time-bound evidence and several single-source concepts for follow-up. No lint report was saved.
