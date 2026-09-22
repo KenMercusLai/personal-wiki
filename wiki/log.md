@@ -2718,3 +2718,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | You Are Not Google
+
+Added Oz Nova's Bradfield essay on context-sensitive technology choice. Key claims: engineers should begin with the actual problem rather than a favored solution; compare multiple candidates; read primary design material and recover its historical constraints; weigh sacrificed properties as well as advantages; use orders-of-magnitude checks to detect mismatch; and name evidence that would change the decision. Created [[ContextualTechnologySelection]] and [[OzNova]], and extended [[DistributedSystemRestraint]] with the Cassandra, Kafka, service-oriented architecture, and MapReduce examples. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. No direct contradiction was found; the new synthesis preserves availability, geography, burst, growth, and organizational readiness as possible reasons to accept distributed-system cost even at lower throughput.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
