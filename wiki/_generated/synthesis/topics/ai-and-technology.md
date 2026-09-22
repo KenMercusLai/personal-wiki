@@ -3,9 +3,9 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-09-22
-as_of_overview_commit: 6a3cb71b5a25d5d9c117b956454fe1fc615043bd
-input_digest: ccb61cb5cf5887e5f1eb4342403ec217a68e769877e80b793bf36abcd0495753
+last_updated: 2026-09-23
+as_of_overview_commit: e40efbe05b6dcae40daa8423f63d6b5b53767e13
+input_digest: ac163af963bbfcb4b505fe3c45a9cc0a5118a4a78a04b9281745526f0d926a34
 ---
 
 # AI and Technology
@@ -124,13 +124,14 @@ Context and retrieval are design surfaces, not background plumbing: Skills, MCP,
 
 ### Operations And Observability Are Product Capabilities
 
-Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought.
+Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought; [[ChangeSafety]] and [[DeploymentAutomation]] must also distinguish bounded code reversion from repair of persistent, client-visible, or mixed-version effects.
 
-**Evidence:** [[ChangeSafety]], [[DeploymentAutomation]], [[DeploymentPipeline]], [[ComplianceArchitecture]], [[ProductionAccessControl]], [[ProductionAgentInfrastructure]], [[EnterpriseCloudMigration]], [[WebScrapingProxyPool]], [[Redis]]
+**Evidence:** [[ChangeSafety]], [[DeploymentAutomation]], [[ContinuousDelivery]], [[DanMcKinley]], [[DeploymentPipeline]], [[ComplianceArchitecture]], [[ProductionAccessControl]], [[ProductionAgentInfrastructure]], [[EnterpriseCloudMigration]], [[WebScrapingProxyPool]], [[Redis]]
 
 **Qualifications:**
 
 - The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, risk, and responsible interaction with external systems.
+- McKinley's rollback critique is a categorical practitioner argument with one cache-corruption example; compatible stateless or immutable changes may still permit safe code reversion.
 
 ### Technology Signals Emerge Through Cross Domain Scanning
 

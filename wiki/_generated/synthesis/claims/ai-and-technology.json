@@ -192,13 +192,16 @@
       "global_candidate": true,
       "id": "operations-and-observability-are-product-capabilities",
       "qualifications": [
-        "The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, risk, and responsible interaction with external systems."
+        "The sources emphasize practices and case studies more than universal benchmarks; each operational pattern still depends on workload, team maturity, risk, and responsible interaction with external systems.",
+        "McKinley's rollback critique is a categorical practitioner argument with one cache-corruption example; compatible stateless or immutable changes may still permit safe code reversion."
       ],
-      "statement": "Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought.",
-      "status": "supported",
+      "statement": "Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are part of technical product capability, not a late paperwork or deployment afterthought; [[ChangeSafety]] and [[DeploymentAutomation]] must also distinguish bounded code reversion from repair of persistent, client-visible, or mixed-version effects.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "ChangeSafety",
         "DeploymentAutomation",
+        "ContinuousDelivery",
+        "DanMcKinley",
         "DeploymentPipeline",
         "ComplianceArchitecture",
         "ProductionAccessControl",

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [You Can't Have a Rollback Button](sources/you-cant-have-a-rollback-button-skyliner.md) - Dan McKinley argues that reverting server code cannot restore all state changed by a live deployment, so teams should prefer small staged releases, off switches, and forward remediation.
 - [Two-Phase Commit](sources/unmesh-joshi-two-phase-commit.md) - Unmesh Joshi explains how participants durably prepare before a coordinator directs one atomic commit or rollback across multiple nodes.
 - [Why You Can't Search for a Job From a Remote Location](sources/why-you-cant-search-for-a-job-from-a-remote-location.md) - Mark Suster argues that candidates committed to location-bound work in a new city should establish local presence before searching so they can build relationships and reduce employer concern about relocation.
 - [Replicated Log](sources/unmesh-joshi-replicated-log.md) - Unmesh Joshi explains how consensus over one ordered write-ahead log lets replicas execute the same requests in the same sequence and maintain synchronized state.
@@ -359,6 +360,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Dan McKinley](entities/DanMcKinley.md) - Software practitioner who argues that deployment recovery must account for persistent and mixed-version system state rather than relying on a universal rollback control.
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
 - [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.
 - [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who explains Paxos, replicated logs, and two-phase commit through concise problem-and-solution patterns.
@@ -1373,7 +1375,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal boundaries and workplace systems that make recovery, communication limits, and usable leave possible.
 - [Morning Recovery Routine](concepts/MorningRecoveryRoutine.md) - Start-of-day practice that uses sleep, device boundaries, reflection, movement, meditation, and simple actions to center attention.
 - [Sleep as Performance Enhancer](concepts/SleepAsPerformanceEnhancer.md) - Framing of sleep as support for cognition, emotional regulation, creativity, decision making, and sustainable work.
-- [Continuous Delivery](concepts/ContinuousDelivery.md) - Release capability for frequent, reliable, low-friction software delivery through architecture, tests, automation, and visible flow.
+- [Continuous Delivery](concepts/ContinuousDelivery.md) - Release capability for frequent, reliable, low-friction software delivery through architecture, tests, staged activation, automation, and visible flow.
 - [Deployment Pipeline](concepts/DeploymentPipeline.md) - Automated visible flow from source control to production that increases release confidence at each stage.
 - [CD Componentization](concepts/CDComponentization.md) - Component extraction used to improve continuous-delivery feedback, ownership, and deployment throughput.
 - [Test Pyramid](concepts/TestPyramid.md) - Test-suite strategy that favors fast unit tests, a smaller integration layer, and limited end-to-end acceptance checks.
@@ -1562,7 +1564,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Infrastructure as Code](concepts/InfrastructureAsCode.md) - Versioned, repeatable infrastructure provisioning and configuration used to create, change, replace, and scale environments.
 - [Network Automation](concepts/NetworkAutomation.md) - Using code and explicit operational models to configure, operate, or change networks while preserving design tradeoffs and change safety.
 - [Distributed System Restraint](concepts/DistributedSystemRestraint.md) - Delaying distributed architecture until product needs, team size, and operational capacity justify the complexity.
-- [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, rollout patterns, tests, and rollback mechanisms for moving service changes into production safely.
+- [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, staged rollout, verification, and bounded recovery mechanisms for moving service changes into production safely.
 - [Service Observability](concepts/ServiceObservability.md) - Metrics, probes, alarms, dashboards, logs, audit trails, and escalation channels used to understand service health.
 - [Internal Developer Platform](concepts/InternalDeveloperPlatform.md) - Internal product layer that gives teams standardized compute, monitoring, logging, backups, scaling, deployment, and rollback defaults.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
@@ -1695,7 +1697,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Performance Budget](concepts/PerformanceBudget.md) - Measurable time, byte, and critical-path limits for keeping web products usable on representative devices and networks.
 - [Time To Interactive](concepts/TimeToInteractive.md) - Web performance metric for when a page can reliably respond to user input.
 - [Dynamic Content Caching](concepts/DynamicContentCaching.md) - Caching runtime-changing application data while preserving enough freshness for user-facing correctness.
-- [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like staging, staged rollout, monitoring, rollback, blast-radius control, and restoration-first incident response.
+- [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like testing, staged activation, monitoring, bounded reversion, forward repair, and restoration-first response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, preference triage, and delivery flow.
 - [Codebook Development](concepts/CodebookDevelopment.md) - Designing and validating structured coding schemes for qualitative or categorical research data.

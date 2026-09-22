@@ -7,7 +7,8 @@ sources:
   - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
   - blog-martin-fowler-foreword-to-the-art-of-agile-development
   - chris-james-how-to-go-fast
-last_updated: 2026-09-15
+  - you-cant-have-a-rollback-button-skyliner
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,6 +26,8 @@ Fowler's agile foreword adds the product-learning reason for CD: reliable, frequ
 
 James adds a small-team operating rule: begin with a deployed "hello world," then let every green main-branch build go live and pass smoke tests. That makes release a non-event, reduces big-bang stress, and forces the team to invest early in tests, monitoring, shippable code, and low WIP.
 
+McKinley adds that frequent deployment is safest when deployment and activation are separated. Teams can ship dark code behind disabled feature flags, expose it gradually, keep an off switch, and repair small diffs forward. These controls matter because reverting server code does not rewind databases, caches, browsers, or effects created while old and new instances coexist.
+
 ## Key Claims
 - Continuous delivery is a release capability, not a list of tools.
 - CD depends on frequent small integration, automated tests, and repeated deployment practice.
@@ -32,7 +35,7 @@ James adds a small-team operating rule: begin with a deployed "hello world," the
 - Feedback speed matters at both developer and CI levels.
 - Pipeline visibility helps teams identify bottlenecks and improve the production flow over time.
 - Regulated delivery needs compliance evidence and auditability without turning approval into a batch-size driver.
-- Frequent production delivery helps teams learn what users value in real use, and a minimal early pipeline can be enough when it tests, deploys live, and runs smoke checks.
+- Frequent production delivery helps teams learn what users value in real use, and its safety improves when small releases can be activated gradually, disabled independently, observed, and corrected forward.
 
 ## Evidence
 - Tooling limit: [[architecting-for-continuous-delivery-thoughtworks]] says a CI server and version-control tool do not create CI when commits are large or automated tests are missing.
@@ -45,17 +48,20 @@ James adds a small-team operating rule: begin with a deployed "hello world," the
 - Minimal live loop: [[chris-james-how-to-go-fast]] recommends starting with a deployed "hello world," then deploying green main-branch builds to live and running smoke tests.
 - Small-batch safety: [[chris-james-how-to-go-fast]] says small frequent releases are easier and less risky than manually shipping one or two weeks of accumulated work.
 - WIP discipline: [[chris-james-how-to-go-fast]] treats code not in users' hands as work in progress and recommends optimizing for flow rather than resource allocation.
+- Deployment versus activation: [[you-cant-have-a-rollback-button-skyliner]] recommends shipping dark code behind disabled feature flags and ramping exposure gradually.
+- Forward recovery: [[you-cant-have-a-rollback-button-skyliner]] argues that small forward corrections are more verifiable than attempting to restore the complete prior state of a running system.
 
 ## Counterevidence & Qualifications
 The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership; Fowler's foreword emphasizes agile learning and internal quality. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
 
-James's minimalist pipeline advice is strongest for early products and small teams. High-risk systems may need richer progressive-delivery controls, approval evidence, or production-like test environments, but the source's core warning still applies: extra environments and manual release process need a clear feedback or risk-reduction reason.
+James's minimalist pipeline advice is strongest for early products and small teams. High-risk systems may need richer progressive-delivery controls, approval evidence, or production-like test environments, but the source's core warning still applies: extra environments and manual release process need a clear feedback or risk-reduction reason. McKinley's rollback essay is a forceful practitioner argument rather than comparative evidence; safely reversible changes still exist when state and compatibility boundaries are deliberately controlled.
 
 ## What Changed
 - Created the concept from Thoughtworks' architecture-centered CD article.
 - Added regulated-delivery constraints from Nygard's compliance article.
 - Added Fowler's agile-product-learning rationale for frequent production delivery.
 - Added James's minimal-pipeline and low-WIP framing for small-team continuous delivery.
+- Added dark deployment, gradual activation, off switches, and forward correction as recovery-aware delivery controls.
 
 ## Related Concepts
 - [[DeploymentPipeline]] - pipeline visibility is the article's core mechanism for CD release confidence.
@@ -68,3 +74,4 @@ James's minimalist pipeline advice is strongest for early products and small tea
 - [[AgileSoftwareDevelopment]] - CD supports agile learning by making production feedback frequent.
 - [[InternalSoftwareQuality]] - high internal quality makes frequent reliable delivery cheaper.
 - [[ChangeSafety]] - small releases, tests, smoke checks, monitoring, and rollback thinking reduce production-change stress.
+- [[HarnessEngineering]] - feature flags and off switches can separate deployment from activation and constrain release effects.

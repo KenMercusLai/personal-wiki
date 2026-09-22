@@ -2842,3 +2842,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | You Can't Have a Rollback Button
+
+Added Dan McKinley's 2017 argument that a live web application has a current distributed state rather than a safely restorable version. Created [[DanMcKinley]] and extended [[ChangeSafety]], [[DeploymentAutomation]], and [[ContinuousDelivery]]. The source distinguishes reverting server code from restoring databases, caches, browsers, and mixed-version effects, and recommends dark deployment, gradual ramp-up, feature off switches, and small forward corrections. It directly qualifies earlier rollback-positive material: code reversion can still be useful when compatibility and state boundaries are controlled, but it is not evidence that the whole system has returned to a safe prior state. The source is a short practitioner essay supported by one cache-corruption example rather than comparative outcome evidence. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. Downstream synthesis was refreshed for AI and technology and governance and institutions, and the global artifact was recompacted because a global candidate changed.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

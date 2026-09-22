@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
       "b6fa8c1af72d559ee3c2280630b2496fee81e1a867a9c3608eb63e730ce4479e",
       "1032574da258fc3c2d2d5f6b9cc97392897bbfcaf849a335bc8dee6a0e185614",
       "19c14f6792893d645ea61923b7ed5e7c7348e1004056d55756314f42cc88aa37",
@@ -300,11 +301,29 @@
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b"
     ],
-    "paragraph_count": 298
+    "paragraph_count": 299
   },
-  "overview_commit": "ab01b16ddffea2b4ebb67c3177973ae69c8ea749",
-  "overview_digest": "6c7f523670618fb5c352b9196b759411d45c7d3804c591cd6ff5a555c7e4af07",
+  "overview_commit": "e40efbe05b6dcae40daa8423f63d6b5b53767e13",
+  "overview_digest": "a54d8e797ca28aa15a03fe1cb61c8f41e14fc4e761362da0b20058029a6467a3",
   "paragraphs": [
+    {
+      "id": "bca1af40ac9f3786024e7e8179ebeb59f651baf25c035e2407f7973f5f3524c3",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest Dan McKinley source adds a recovery boundary to the wiki's release-engineering material. [[DanMcKinley]] argues that a running web application has a current distributed state rather than a safely restorable version: reverting the server SHA does not undo database writes, corrupted caches, browser state, or effects produced while old and new instances coexist, and the path from v1 to v2 to v1 can itself be destructive. [[ChangeSafety]] therefore now distinguishes bounded code reversion from whole-system restoration, while [[DeploymentAutomation]] must make clear which effects its rollback control can and cannot reverse. The source strengthens [[ContinuousDelivery]] through dark deployment, gradual exposure, off switches, and small forward corrections that reduce the amount of state at risk. This directly qualifies rollback-positive material without denying that compatible, stateless, or immutable changes can sometimes be reverted safely; the article is a categorical 2017 practitioner essay supported by one cache-corruption example rather than comparative outcome evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "ContinuousDelivery",
+        "DanMcKinley",
+        "DeploymentAutomation"
+      ]
+    },
     {
       "id": "b6fa8c1af72d559ee3c2280630b2496fee81e1a867a9c3608eb63e730ce4479e",
       "primary_topic": "business-and-markets",

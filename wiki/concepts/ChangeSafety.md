@@ -7,12 +7,13 @@ sources:
   - 7-reasons-why-your-staging-environment-sucks-loadmill
   - asanas-september-8-outage
   - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
-last_updated: 2026-09-14
+  - you-cant-have-a-rollback-button-skyliner
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[ChangeSafety]] is the operational practice of reducing incident risk from production changes through production-like pre-release testing, staged rollout, monitoring, rollback, blast-radius control, and restoration-first response.
+[[ChangeSafety]] is the operational practice of reducing incident risk from production changes through production-like testing, staged activation, monitoring, bounded reversion, forward repair, blast-radius control, and restoration-first response.
 
 ## Current Synthesis
 The source isolates change because many failures are connected to changes. Its strongest prescription is mandatory canary release for critical systems: gradual exposure controls blast radius, but human confidence can override discipline unless the process and consequences are strong enough. Monitoring and rollback complete the minimum safety loop because teams need to see change impact and undo harmful changes quickly when possible.
@@ -25,13 +26,15 @@ Asana's outage adds a concrete recovery detail: knowing that a recent deploy cau
 
 Nygard's compliance source extends change safety into regulated delivery. Safe change is not only canarying, monitoring, and rollback; in regulated environments it also includes evidence that required controls passed, trust that evidence was gathered from the intended artifact or environment, and an audit trail showing the compliance process worked consistently.
 
+McKinley makes the recovery boundary more precise. Reverting application code does not restore the prior state of databases, caches, browsers, or concurrently running processes, and a v1-to-v2-to-v1 sequence can itself be destructive. The safer default is therefore to reduce the size and activation radius of each change, preserve off switches, and repair the system's current state forward; code rollback remains a conditional tactic rather than a promise of whole-system reversal.
+
 ## Key Claims
 - Production change is a major source of reliability risk.
 - Canary release reduces blast radius by limiting early exposure.
 - Critical systems may need mandatory process rules and serious enforcement even when they slow delivery.
 - Monitoring is necessary to know whether a change is healthy.
 - Production-like staging can catch change-related risks before users become the first realistic testers.
-- Rollback is often the most useful response to a bad change, while non-rollbackable changes, uncertain revision history, and active incidents require restoration-first caution.
+- Code reversion can be a useful response to a bad change, but it is not whole-system rollback; persistent state, clients, mixed versions, and uncertain revision history may require disabling functionality or repairing forward.
 - Regulated change safety requires objective evidence, validation constraints, trusted provenance, and audit records.
 
 ## Evidence
@@ -46,15 +49,18 @@ Nygard's compliance source extends change safety into regulated delivery. Safe c
 - Compliance evidence: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says compliance verifies measured evidence against constraints and records the result.
 - Trust model: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] warns that build or production access can undermine auditability if changes can be introduced outside source control and logs.
 - Point-of-change enforcement: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] describes admission-controller verification before deployment.
+- State boundary: [[you-cant-have-a-rollback-button-skyliner]] says a reverted SHA cannot undo effects already inflicted on databases, caches, browsers, and concurrent application instances.
+- Controlled activation: [[you-cant-have-a-rollback-button-skyliner]] recommends dark code, gradual ramp-up, feature off switches, and small forward corrections instead of relying on complete deployment rollback.
 
 ## Counterevidence & Qualifications
-The sources do not cover all change-management contexts. Some incidents cannot be rolled back cleanly, some changes require forward fixes or data repair, and some regulated environments may require different approval or evidence-retention processes. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana case is company-authored and describes one web-service incident; it should not be overgeneralized into a universal rollback playbook.
+The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana case is company-authored and describes one web-service incident, while McKinley's categorical critique is a short practitioner essay with one cache example; neither should be overgeneralized into a universal recovery playbook.
 
 ## What Changed
 - Created the concept page for safe operational change and restoration-first incident handling.
 - Added production-like staging as a pre-release filter for risky changes.
 - Added Asana's outage as an example where revert target selection and bad-client-revision blacklisting mattered.
 - Added compliance evidence, provenance, and auditability as regulated change-safety concerns.
+- Reframed rollback as bounded code reversion and added off switches and forward repair for persistent or client-visible effects.
 
 ## Related Concepts
 - [[SystemReliability]] - safe change is one core reliability layer.
@@ -65,4 +71,6 @@ The sources do not cover all change-management contexts. Some incidents cannot b
 - [[ChaosEngineering]] - controlled failure can test change resilience before release.
 - [[ReliabilityInvestment]] - mandatory change controls require organizational willingness to spend time and enforce rules.
 - [[DeploymentAutomation]] - safe change depends on release, rollback, and revision-control mechanics.
+- [[ContinuousDelivery]] - small staged releases make production changes easier to observe, disable, and correct.
+- [[HarnessEngineering]] - activation controls can limit exposure and disable a feature without pretending to reverse all system state.
 - [[ComplianceArchitecture]] - regulated change safety depends on evidence and validation architecture.

@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-23
-as_of_overview_commit: ab01b16ddffea2b4ebb67c3177973ae69c8ea749
-input_digest: 92b0d666979dc07ba7777aeac504439f3365fae16e05d9b7b2945edf18f297ee
+as_of_overview_commit: e40efbe05b6dcae40daa8423f63d6b5b53767e13
+input_digest: 0ca8c6aab1a3c70d0e28a6727827896bbb70dafe4661362416d266b4cf8edbbd
 ---
 
 # Governance and Institutions
@@ -59,14 +59,15 @@ Platform-operated decision systems need explicit controls because ranking, perso
 
 ### Experimentation And Automation Need Instrumentation
 
-Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment.
+Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, staged activation, and explicit recovery boundaries that let operators compare behavior before broad rollout and repair the actual current state when code reversion is insufficient.
 
-**Evidence:** [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]]
+**Evidence:** [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[DeploymentAutomation]], [[ContinuousDelivery]], [[DanMcKinley]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]]
 
 **Qualifications:**
 
 - Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible.
 - Compliance instrumentation can still become harmful when central ownership turns evidence gathering into a release bottleneck.
+- Rollback controls are similarly bounded: a server-code revert does not prove that persistent, browser, cache, or mixed-version effects were reversed.
 
 ### Scale Changes Operating Boundaries
 

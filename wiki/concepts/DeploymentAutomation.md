@@ -9,12 +9,13 @@ sources:
   - beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium
   - blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture
   - wenbin-fang-the-boring-technology-behind-a-one-person-internet-company
-last_updated: 2026-09-17
+  - you-cant-have-a-rollback-button-skyliner
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[DeploymentAutomation]] is the set of tools, release patterns, tests, and rollback mechanisms that move service changes into production with controlled blast radius and repeatable verification.
+[[DeploymentAutomation]] is the set of tools, release patterns, tests, staged controls, and recovery mechanisms that move service changes into production with controlled blast radius and repeatable verification.
 
 ## Current Synthesis
 Auth0's architecture post shows deployment automation as a maturity gradient rather than a binary capability. Some services use Jenkins-triggered updates through Puppet, SaltStack, or Ansible. Others update AMIs and create new auto-scaling groups for immutable deployments. The coexistence of old and new flows creates operational cost because automation, documentation, and monitoring have to be maintained across multiple release paths.
@@ -31,12 +32,14 @@ Nygard's compliance source adds an evidence-production role for deployment autom
 
 The [[ListenNotes]] account supplies the low-ceremony end of the same spectrum. A one-person company configures machines with Ansible and releases through a three-argument `deploy.sh`: the environment, the code version - either `HEAD` or a specific commit for rollback - and the server type. The script builds and uploads the JavaScript bundle, clones the chosen revision into a timestamped directory on each target server, installs dependencies, switches a symlink, and restarts processes through `supervisorctl`. There is no Jenkins-style CI system in the account, and rollback is expressed as re-running the script with an earlier commit. This is deployment automation without a platform: the release path is repeatable and reversible while staying small enough for one operator to hold in their head, which fits the corpus's pattern that automation value comes from repeatability and a trustworthy rollback target rather than from tool weight.
 
+McKinley's rollback critique narrows what that reversibility claim can mean. A deploy tool may reliably put an earlier commit on servers, but it cannot undo what the newer code already wrote to databases or caches, what browsers retained, or what concurrently running versions did to shared state. Deployment automation should therefore make its recovery boundary explicit: code reversion is one mechanism, while staged exposure, feature off switches, data repair, cache repair, client compatibility, and small forward corrections handle effects outside that boundary.
+
 ## Key Claims
 - Multiple deployment flows create maintenance cost across automation, documentation, and monitoring.
 - Immutable deployment through new AMIs and auto-scaling groups can reduce in-place update risk.
 - Blue/green deployment is useful when teams need a unified rollout and rollback story across core services.
 - Functional tests should run both before production deployment and after deployment completes.
-- Deployment automation is stronger when linked to observability, smoke tests, and internal platform defaults, but it remains insufficient when release confidence is hidden across disconnected jobs, rollback history is untrustworthy, or execution records are missing.
+- Deployment automation is stronger when linked to observability, smoke tests, staged exposure, and internal platform defaults, but it remains insufficient when release confidence is hidden, rollback history is untrustworthy, external state has changed, or execution records are missing.
 - Deployment automation can gather compliance evidence, but validation may be separated into point-of-change policy enforcement.
 - A small team can get repeatable releases from low-ceremony automation - a parameterized script, a timestamped checkout, a symlink swap, and a process restart - without adopting a heavyweight CI platform.
 
@@ -58,16 +61,18 @@ The [[ListenNotes]] account supplies the low-ceremony end of the same spectrum. 
 - Release mechanics: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] builds and uploads JavaScript, clones a timestamped revision, runs `pip install`, switches a symlink, and restarts through `supervisorctl`.
 - Configuration management: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] uses Ansible to bring servers to the correct configuration rather than a bespoke provisioning system.
 - Rollback as a version argument: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] supports an explicit commit SHA so a previous revision can be redeployed when needed.
+- Reversion boundary: [[you-cant-have-a-rollback-button-skyliner]] says reverting a web-server SHA does not reverse effects already applied to databases, caches, browsers, or concurrently running instances.
+- Safer release controls: [[you-cant-have-a-rollback-button-skyliner]] recommends dark deployment, gradual ramp-up, feature off switches, and small forward corrections.
 
 ## Counterevidence & Qualifications
-The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering. The Listen Notes script is a single-operator account with no described test gate, staged rollout, or audit trail, so it demonstrates that minimal automation can work at small scale rather than that a script is sufficient where review, compliance, or blast-radius control is required.
+The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment, so they should not be treated as a substitute for full production release engineering. The Listen Notes script is a single-operator account with no described test gate, staged rollout, or audit trail, so it demonstrates that minimal automation can work at small scale rather than that a script is sufficient where review, compliance, or blast-radius control is required. McKinley's argument is deliberately categorical and supported by one cache-corruption example; some immutable, stateless, or carefully backward-compatible changes can be reverted safely, but that does not justify treating whole-system reversibility as the default.
 
 ## What Changed
-- Created the concept from Auth0's mixed deployment flows, its blue/green rollout goal, and Thoughtworks' distinction between automating phases and making the whole release flow visible through a pipeline.
-- Added Asana's outage to show rollback target selection and client-revision invalidation as deployment concerns.
-- Added scheduled notebooks as recurring data-workflow automation with preserved execution records.
-- Added compliance evidence gathering and point-of-change validation as deployment-automation responsibilities.
-- Added the Listen Notes deploy script as the low-ceremony end of the automation spectrum for a one-person company.
+- Unified heterogeneous, immutable, and blue/green release flows as a deployment-automation maturity problem.
+- Distinguished phase automation from end-to-end pipeline visibility and production confidence.
+- Added recovery concerns from Asana: safe revision selection and bad-client-revision invalidation.
+- Extended automation to preserved workflow records and compliance evidence gathered at the point of change.
+- Qualified commit-based rollback with the boundary between code reversion and repair of persistent or client-visible state.
 
 ## Related Concepts
 - [[ChangeSafety]] - deployment automation is a release-engineering mechanism for safer change.

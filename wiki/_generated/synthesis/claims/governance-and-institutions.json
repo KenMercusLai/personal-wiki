@@ -69,15 +69,19 @@
       "id": "experimentation-and-automation-need-instrumentation",
       "qualifications": [
         "Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible.",
-        "Compliance instrumentation can still become harmful when central ownership turns evidence gathering into a release bottleneck."
+        "Compliance instrumentation can still become harmful when central ownership turns evidence gathering into a release bottleneck.",
+        "Rollback controls are similarly bounded: a server-code revert does not prove that persistent, browser, cache, or mixed-version effects were reversed."
       ],
-      "statement": "Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment.",
-      "status": "supported",
+      "statement": "Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, staged activation, and explicit recovery boundaries that let operators compare behavior before broad rollout and repair the actual current state when code reversion is insufficient.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "DataExploration",
         "OfflinePolicyReplay",
         "NetworkAutomation",
         "ChangeSafety",
+        "DeploymentAutomation",
+        "ContinuousDelivery",
+        "DanMcKinley",
         "InferenceLoadBalancing",
         "ComplianceArchitecture"
       ]
