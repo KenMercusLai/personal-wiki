@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Paxos](sources/unmesh-joshi-paxos.md) - Unmesh Joshi explains Paxos as prepare and accept phases that safely choose a value under partial failure, followed by commit to disseminate the result.
 - [Why We're Stuck In An Abusive Relationship With Our Phones](sources/why-were-stuck-in-an-abusive-relationship-with-our-phones.md) - Chris Brycki argues that notification overload arises from interruption costs, variable rewards, engagement incentives, and weak platform support for prioritization.
 - [You Become Your Network. Build It Wisely.](sources/you-become-your-network-build-it-wisely-savage-thoughts.md) - Savage Thoughts argues that relationships and information environments shape identity and growth, so mentors, peers, and communities should be chosen for direction rather than inherited by default.
 - [Unlimited Vacation and Other Forms of Guilt-Based Management](sources/unlimited-vacation-and-other-forms-of-guilt-based-management.md) - A practitioner essay arguing that unlimited leave can replace a clear entitlement with guilt and informal negotiation, while explicit minimums, incentives, closures, and usage measurement make recovery more usable.
@@ -352,6 +353,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who presents Paxos as a concise problem-and-solution pattern.
+- [Leslie Lamport](entities/LeslieLamport.md) - Computer scientist credited by the source with developing Paxos and publishing "The Part-Time Parliament."
 - [Chris Brycki](entities/ChrisBrycki.md) - Product practitioner and author arguing for user, developer, and platform responsibility in notification design.
 - [Daniel Karlsson](entities/DanielKarlsson.md) - Programmer and startup founder who presents early release as a way to reduce product uncertainty before implementation costs accumulate.
 - [Oz Nova](entities/OzNova.md) - Bradfield author who presents UNPHAT as a context-sensitive method for technology and architecture decisions.
@@ -1166,6 +1169,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Paxos](concepts/Paxos.md) - Distributed-consensus protocol family that preserves one chosen value across competing proposals and partial failures.
 - [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.
 - [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing relationships, communities, mentors, and information inputs according to the direction in which one wants to grow.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.

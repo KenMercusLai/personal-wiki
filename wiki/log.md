@@ -2782,3 +2782,11 @@ Added Chris Brycki's 2015 essay on smartphone notifications and attention. Creat
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Paxos
+
+Added Unmesh Joshi's concise Paxos pattern description. Created [[Paxos]], [[UnmeshJoshi]], and [[LeslieLamport]], and extended [[DistributedConsensus]] from its multi-agent framing to classical replica agreement. The source distinguishes prepare and accept as consensus-building phases from commit as dissemination, and explains how generations, previously accepted values, and majority quorums help preserve a chosen result when a node disconnects before notifying the whole cluster. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. No direct contradiction was found; the wiki records that this is a high-level pattern overview rather than a complete Paxos specification, proof, implementation guide, or liveness analysis.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
