@@ -2734,3 +2734,11 @@ Added a Register opinion article proposing [[SemanticAblation]] as the subtracti
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Unknown Unknowns: Why you should release early and often
+
+Added Daniel Karlsson's short founder essay on early release as an uncertainty-reduction practice. Key claims: product teams can be harmed both by assumptions treated as facts and by domain gaps they do not know to investigate; customer calls, paper mockups, and proofs of concept can expose those errors before full implementation; delayed feedback makes accumulated build work vulnerable to a later premise-invalidating discovery; and perfectionism plus fear of criticism often block release even when founders already know the techniques. Created [[UnknownUnknowns]] and [[DanielKarlsson]], and extended [[IterativeProductShipping]] and [[StartupHypothesisTesting]] from explicit software releases and named hypotheses into pre-product probes for false certainty and hidden gaps. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. No direct contradiction was found; the updated pages record that the essay is personal practitioner guidance and that safety-, privacy-, compliance-, or reputation-sensitive work may require staged exposure or stronger release gates.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint over 1874 pages. Deterministic checks reported 0 orphans, 0 broken wikilinks, 0 missing entity pages, and 0 sparse pages; a self-link-aware review found 5 real orphans: MikeCohn, DerekSivers, WilliamWake, MichaelPorter, and NotebookLM. The 2026-09-17 graph snapshot reported 0 hub stubs, 13 fragile bridges, and 0 isolated communities, but is 36 pages behind the current wiki. The bundled semantic API pass could not run because LLM_MODEL is not provider-qualified; local review found that explicit source disagreements are already represented as qualifications or bounded tensions in the relevant synthesis pages. Report not saved to wiki/lint-report.md.

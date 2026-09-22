@@ -281,6 +281,7 @@
       "ea428e92cb2a94a26be376fc8739295cdbbfa016fe2a02a96e147dfa6f728da6",
       "f93a311489adbd7d7ea5a67c5f3b2f9d13604ed979cb2f6556dbdaa87dfa00a5",
       "098b082e442368c4ff563026d380d92d2d03995bb9617d70a88d33a9ab1c0110",
+      "ab51d2e7b83a85075ff4873973d933af51c243bd3af738f994aa6792c45b1d5d",
       "6aa06587d454a80d2100dc4c51d0ff2c5c15c2a94764a86bb1709627b057ed63",
       "352be01b8a97b24b97a7e5c7d2a3059c03638b150983931bbdac81fcebda0793",
       "e8db5fd2027517232b73d0a1a59523d49aeb2c4cd91edb477428d2a3083cff14",
@@ -288,10 +289,10 @@
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b",
       "120a917eebc28e1db27ee39f46a7407c334b8813fa4eba12cc4aad403ba3292a"
     ],
-    "paragraph_count": 286
+    "paragraph_count": 287
   },
-  "overview_commit": "24450e70174d5ef8f9ff609179ddd7f72cb63cb9",
-  "overview_digest": "519695bc69526681995733eb36becb219d81fd2c89652726dbae5537d01fce75",
+  "overview_commit": "6a3cb71b5a25d5d9c117b956454fe1fc615043bd",
+  "overview_digest": "88daa9b6d4b79534d06afc042cd09216a7c352c8cafc07fb6d10fd70f7a8899c",
   "paragraphs": [
     {
       "id": "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
@@ -5740,6 +5741,26 @@
         "SmallProductTeamBalance",
         "StartupHypothesisTesting",
         "UserResearchPatternThreshold"
+      ]
+    },
+    {
+      "id": "ab51d2e7b83a85075ff4873973d933af51c243bd3af738f994aa6792c45b1d5d",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "work-education-and-society"
+      ],
+      "text": "Daniel Karlsson's early-release essay adds an epistemic and behavioral layer to that product-learning system. New [[UnknownUnknowns]] distinguishes gaps a team does not know to investigate from recognized uncertainty, while Karlsson's companion warning is that beliefs treated as certain may never become explicit hypotheses at all. [[IterativeProductShipping]] and [[StartupHypothesisTesting]] now begin before production software: a customer call, paper mockup, or weekend proof of concept can expose willingness-to-pay errors, domain gaps, and a wrong product premise before larger implementation costs accumulate. The source also makes avoidance part of the model, arguing that perfectionism and fear of criticism can preserve uncertainty even when founders already know the relevant testing techniques; as a short personal essay, however, it does not establish universal release cadence or replace stronger gates for safety-, privacy-, compliance-, or reputation-sensitive work.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "IterativeProductShipping",
+        "StartupHypothesisTesting",
+        "UnknownUnknowns"
       ]
     },
     {

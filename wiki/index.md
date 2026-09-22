@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Unknown Unknowns: Why you should release early and often](sources/unknown-unknowns-why-you-should-release-early-and-often.md) - Daniel Karlsson argues that conversations, mockups, and proofs of concept expose false certainty and unknown unknowns before teams build the wrong product.
 - [Why AI writing is so generic, boring, and dangerous: Semantic ablation](sources/why-ai-writing-is-so-generic-boring-and-dangerous-semantic-ablation.md) - A Register opinion article names the loss of precise language, distinctive imagery, and complex structure during AI rewriting as semantic ablation, while proposing rather than demonstrating its decoding and entropy-decay mechanism.
 - [You Are Not Google](sources/you-are-not-google-bradfield.md) - Oz Nova argues for matching technology to the adopter's workload, scale, and organization through the UNPHAT decision framework rather than imitating giant technology companies.
 - [University websites: The so-so, the bad, and the egregious](sources/university-websites-the-so-so-the-bad-and-the-egregious-university-affairs.md) - Melonie Fullick argues that university website failures in navigation, search, content, accessibility, and audience focus reflect institutional silos, weak ownership, scarce staffing, and recruitment-heavy priorities.
@@ -346,6 +347,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
+- [Daniel Karlsson](entities/DanielKarlsson.md) - Programmer and startup founder who presents early release as a way to reduce product uncertainty before implementation costs accumulate.
 - [Oz Nova](entities/OzNova.md) - Bradfield author who presents UNPHAT as a context-sensitive method for technology and architecture decisions.
 - [Melonie Fullick](entities/MelonieFullick.md) - Writer who diagnoses university website failures as communication, user-experience, and institutional-governance problems.
 - [University Affairs](entities/UniversityAffairs.md) - Higher-education publication that hosted Fullick's essay and the practitioner discussion appended to it.
@@ -1156,6 +1158,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
 - [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
 - [Contextual Technology Selection](concepts/ContextualTechnologySelection.md) - Practice of comparing a technology's historical priorities, tradeoffs, and scale assumptions with the adopter's actual problem.
 - [University Website Governance](concepts/UniversityWebsiteGovernance.md) - Allocation of purpose, authority, staffing, standards, access, and maintenance responsibility across a university web presence.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-22
-as_of_overview_commit: 24450e70174d5ef8f9ff609179ddd7f72cb63cb9
-summary: "Durable systems align human constraints, institutional accountability, technical verification, market incentives, learning, cultural stewardship, and fidelity-preserving AI use."
-episode_count: 338
-source_count: 338
-paragraph_count: 286
+as_of_overview_commit: 6a3cb71b5a25d5d9c117b956454fe1fc615043bd
+summary: "Durable systems align human constraints, institutional accountability, technical verification, market learning, cultural stewardship, and practice that preserves judgment."
+episode_count: 339
+source_count: 339
+paragraph_count: 287
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
-- [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency.
+- [[MinimumViableProduct]], [[StartupRunway]], [[ProductMarketFit]], [[BeautifullyBrokenProducts]], [[StartupFailurePatterns]], [[SideProjectIncubation]], [[StartupHypothesisTesting]], [[IterativeProductShipping]], [[UnknownUnknowns]], [[ToolFamiliarity]], [[DistributedSystemRestraint]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], and [[Posterous]] frame early startup work as converting scarce time, capital, technical choices, product roughness, founder relationships, and stakeholder belief into learning before scale; customer calls, paper mockups, and proofs of concept can expose false certainty before implementation accumulates, [[Uber]], [[StitchFix]], [[Twitter]], [[HQTrivia]], and [[Android]] show that tolerated flaws can signal acute demand, and [[CBInsights]] adds that failure is usually compound.
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
 - [[AutomatedContentFarming]] shows the platform-media model from the revenue side: machine-voiced videos assembled from BBC, ABC, and Reuters reporting are published at high volume on [[YouTube]], monetized through advertising that [[Google]] displays and shares revenue on, and priced per view through [[WebAdEconomics]], so a costless copy competes for the same money as the publisher whose reporting it took, while [[PlatformAbuseResponse]] is the enforcement gap the article says remains unaddressed.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress lasts when system understanding, verification, observable operations, calibrated interfaces, inspectable AI tooling, and fidelity checks reinforce human judgment.
+Technical progress lasts when system understanding, verification, observable operations, calibrated interfaces, inspectable AI tooling, and early feedback reinforce human judgment.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
 
 ### Business and Markets
 
-Durable businesses convert scarce capital and attention into learning and retained value while filtering strategy through unit economics, incentives, platform power, and repeatable demand.
+Durable businesses convert scarce capital and attention into learning and retained value while filtering strategy through unit economics, incentives, platform power, repeatable demand, and early tests for unknown unknowns.
 
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
 - [[TimelessBusinessStrategy]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], and [[MarcAndreessen]] frame durable business and investment strategy as pairing change-driven competition with stable customer desires such as price, selection, speed, convenience, trust, and transparency. Evidence: [[TimelessBusinessStrategy]], [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[Amazon]], [[AWS]], [[AmazonPrime]], [[JeffBezos]], [[WarrenBuffett]], [[GEICO]], [[MarcAndreessen]].
