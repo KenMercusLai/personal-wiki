@@ -2790,3 +2790,15 @@ Added Unmesh Joshi's concise Paxos pattern description. Created [[Paxos]], [[Unm
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | You Can Always Find an Anonymous Former Employee to Trash the Founder
+
+Added Hunter Walk's 2015 critique of casual anonymous sourcing in technology reporting. Created [[AnonymousSourcing]] and [[HunterWalk]]. The source argues that unnamed criticism hides the speaker's role, access, incentives, and possible bias; that source protection is justified for important information when identification creates genuine jeopardy; and that confidential allegations should guide reporters toward documents, named testimony, or corroboration rather than serve as controversy-ready proof. No direct contradiction was found. The synthesis preserves that the essay is a brief opinion piece without newsroom cases, comparative evidence, or an operational threshold for anonymity, and that named sourcing is not automatically truthful. The source Markdown contains no effective image references, so no image inspection or asset manifest was required. Downstream synthesis was refreshed for the dirty business-and-markets and culture-and-media topics, and the global artifact was recompacted because candidate material changed.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

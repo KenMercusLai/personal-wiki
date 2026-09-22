@@ -4,17 +4,28 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-22
-as_of_overview_commit: a0380f8c5ecade579cf3ecfb5303e922451dbdd2
-input_digest: 91ba6887940d706868910e7117a7cd717add2d76e3159addce12b4cbcb6496f5
+as_of_overview_commit: f83ce162bb6170edd13fce5be2c6b991aaa6f377
+input_digest: c82708680571ede9296b31a96818a19211d258940c78b3c7d33e6e530c519e89
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. Financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, and platform access reshape who captures value, while the largely practitioner and retrospective evidence keeps many conclusions qualified. [[NotificationDesign]] adds that attention capture is also shaped by app engagement incentives and mobile-platform delivery control, distributing responsibility across users, developers, [[Apple]], and [[Google]] while leaving historical-data, privacy, opacity, accessibility, and missed-alert qualifications.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. Financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value, while the largely practitioner and retrospective evidence keeps many conclusions qualified. [[AnonymousSourcing]] adds that startup reputations can be shaped by criticism whose protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias, making corroboration central.
 
 ## Cross-source Findings
+
+### Anonymous Sourcing Trades Access For Verifiability
+
+[[AnonymousSourcing]] exposes a startup-reputation evidence tradeoff: protecting a genuinely endangered source can unlock important information, but hidden role, access, incentives, and bias weaken readers' ability to assess criticism, so [[HunterWalk]] argues that anonymous allegations should usually lead toward documents, named testimony, or corroboration rather than function as self-validating controversy.
+
+**Evidence:** [[AnonymousSourcing]], [[HunterWalk]]
+
+**Qualifications:**
+
+- The evidence is one technology-community author's brief 2015 opinion essay without newsroom cases, comparative evidence, or an operational threshold for source danger.
+- Confidential corroboration and partial role context may preserve more verifiability than the essay acknowledges, while a named source is not automatically truthful.
 
 ### Engineering Practice Frameworks Encode Delivery Discipline
 

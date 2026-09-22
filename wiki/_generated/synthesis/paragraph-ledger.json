@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8fe47c11951e4ff9ccf149ce8acffc9114f2a73585475e366df92318e17ca503",
       "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
       "1338bbe0898e4537c08459fa4ab1ba1b2d95a03433342d82651128589c6c0001",
       "e9b393e78c57fbf069d0fe5daf36f3c121d070a50dc496381de31cc4df7ea36a",
@@ -294,11 +295,27 @@
       "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd"
     ],
-    "paragraph_count": 292
+    "paragraph_count": 293
   },
-  "overview_commit": "dac1cee2afe0d9dc61387bfa3fb50fafab5674be",
-  "overview_digest": "edb75df325a1af4208c556728802d0b7c6348773d876b517568e034a0a0dd6bc",
+  "overview_commit": "f83ce162bb6170edd13fce5be2c6b991aaa6f377",
+  "overview_digest": "2b8bc65de7f851489a144566eb5c41a46f4bba36f0bc0d51abbcc096f51a59d7",
   "paragraphs": [
+    {
+      "id": "8fe47c11951e4ff9ccf149ce8acffc9114f2a73585475e366df92318e17ca503",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest Hunter Walk source adds [[AnonymousSourcing]] to the wiki's media, evidence, and startup-reputation material. [[HunterWalk]] argues that unnamed former employees are easy to recruit for negative quotations and that anonymity removes role, access, incentive, and bias context readers need to judge a claim. The source does not reject confidential reporting: it treats protection as justified when important disclosure creates genuine jeopardy, with illegal-activity whistleblowing as its clearest example. Its operational proposal is to use an anonymous allegation as a lead toward documents, named testimony, or corroboration rather than as self-validating controversy. Because the essay is a short, interested argument without newsroom cases or comparative evidence, [[AnonymousSourcing]] retains qualifications around confidential corroboration, partial contextual disclosure, public interest, proportionality, and the fact that being named does not itself make a source truthful.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "AnonymousSourcing",
+        "HunterWalk"
+      ]
+    },
     {
       "id": "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
       "primary_topic": "governance-and-institutions",
