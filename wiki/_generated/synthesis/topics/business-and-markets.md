@@ -3,16 +3,16 @@
 generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
-last_updated: 2026-09-22
-as_of_overview_commit: 63da07206acd287fa7b3e9ef2e1db8a330d7c289
-input_digest: 351e886c8656086fc1d9561b6ab06063f3ff018a440f9e523d7303303c5799f5
+last_updated: 2026-09-23
+as_of_overview_commit: ab01b16ddffea2b4ebb67c3177973ae69c8ea749
+input_digest: 2503eeba1f93033e5119b2635383a65d4b5aa4de9d0eebf4b8a5e093eceea6c6
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
+Business and markets sources frame companies as systems for converting scarce resources into durable advantage: strategy pairs stable demand with changing mechanisms, early companies convert runway into learning before scale, and growth only matters when it preserves retained value. [[MarketSizing]] makes opportunity an auditable set of customer, expansion, and created-demand assumptions rather than a decorative headline, while financing terms, portfolio construction, pricing, attribution, reliability, brand memory, data markets, platform access, and public narratives reshape who captures value. [[TwoPhaseCommit]] is a technical routing spillover about enforcing a business invariant across nodes, qualified by the preference for smaller transaction boundaries and event-driven reconciliation when atomicity is unnecessary. The largely practitioner and retrospective evidence keeps many conclusions qualified, including [[AnonymousSourcing]], where protected provenance enables access but reduces readers' ability to assess knowledge, incentives, and bias unless reporting is corroborated.
 
 ## Cross-source Findings
 
@@ -422,3 +422,14 @@ Business and markets sources frame companies as systems for converting scarce re
 
 - The evidence is one 2015 practitioner essay whose notification counts, platform description, and interruption studies are time-bound.
 - Context-aware suppression can protect attention but also creates privacy, opacity, urgent-response, accessibility, and missed-alert risks.
+
+### Two Phase Commit Is Business Invariant Spillover
+
+[[TwoPhaseCommit]] adds a technical boundary around business invariants: participants durably prepare before one coordinator-directed commit or rollback, while [[AggregateTransactionBoundary]] and [[EventDrivenConsistency]] argue that teams should first narrow the invariant and prefer local transactions plus events when delayed reconciliation is acceptable.
+
+**Evidence:** [[TwoPhaseCommit]], [[AggregateTransactionBoundary]], [[EventDrivenConsistency]]
+
+**Qualifications:**
+
+- This is distributed-systems material routed here because the paragraph discusses business invariants; it is not a business or market finding.
+- The mechanism source is a short overview that omits coordinator failure, unavailable decisions, message-delivery edge cases, isolation, implementation variants, and performance costs.

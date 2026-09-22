@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: b3588caca2ba555978299e8e1a24d79a5c1750f7
+as_of_overview_commit: ab01b16ddffea2b4ebb67c3177973ae69c8ea749
 summary: "Across technology, business, institutions, culture, and work, durable outcomes require visible assumptions, grounded evidence, feedback, and accountable judgment."
-episode_count: 350
-source_count: 350
-paragraph_count: 297
+episode_count: 351
+source_count: 351
+paragraph_count: 298
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Durable technical progress combines system understanding, scope-aware architectu
 
 ### Business and Markets
 
-Companies convert scarce resources into durable advantage when opportunity estimates expose their assumptions, changing mechanisms serve stable demand, runway funds learning before scale, and growth preserves retained value across pricing, platforms, reliability, and evidence quality.
+Companies convert scarce resources into durable advantage when opportunity estimates expose their assumptions, changing mechanisms serve stable demand, runway funds learning before scale, and growth preserves retained value; two-phase commit appears only as a technical spillover about enforcing cross-node invariants.
 
 - [[MarketSizing]] is strongest as an auditable model rather than a headline number: [[NextViewVentures]] separates measurable existing demand from expansion into adjacent customers and newly created demand, allows all three to overlap, and asks founders to expose sources, assumptions, and calculations so the reasoning behind [[StartupValuation]] can be inspected. Evidence: [[MarketSizing]], [[NextViewVentures]], [[StartupValuation]].
 - [[ProductMarketFit]] is defined most strictly in the corpus by [[MichaelSeibel]], who treats fit as demand that outruns the team's capacity to serve rather than as user love, retention, or reservations, names believing otherwise and then scaling expenses as the major failure mode for [[YCombinator]] companies, and surrounds the fit bar with [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], and [[ProblemPersistence]] as the build, commitment, and iteration conditions that keep the search alive. Evidence: [[ProductMarketFit]], [[MichaelSeibel]], [[YCombinator]], [[FounderTechnicalCapability]], [[StartupExecutionSpeed]], [[ProblemPersistence]].
@@ -57,14 +57,14 @@ Media forms and business models shape creation, learning, discovery, payment, in
 
 ### Governance and Institutions
 
-Institutional accountability depends on explicit ownership, usable controls, observable behavior, capacity, instrumentation, credible alternatives, and agreed state transitions across platforms, privacy, automation, public information, workplace policy, and replicated systems.
+Institutional accountability depends on explicit ownership, usable controls, observable behavior, capacity, instrumentation, credible alternatives, and agreed state transitions; replicated logs and two-phase commit provide technical examples of ordered and atomic decisions.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, or other instrumentation that lets operators compare behavior before broad rollout or deployment. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].
 
 ### History and Geopolitics
 
-The topic emphasizes technology and institutional history, showing that visible products, markets, interfaces, and practices inherit long maturation paths and context that should not be copied as timeless recipes; replicated logs enter only as a technical routing spillover.
+The topic emphasizes technology and institutional history, showing that visible products, markets, interfaces, and practices inherit long maturation paths and context that should not be copied as timeless recipes; distributed protocols enter only as technical routing spillovers.
 
 ### Psychology and Personal Development
 

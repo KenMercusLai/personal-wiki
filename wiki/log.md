@@ -2827,9 +2827,17 @@ Added Unmesh Joshi's concise replicated-log pattern. Created [[ReplicatedLog]] a
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-23] ingest | Two-Phase Commit
+
+Added Unmesh Joshi's concise two-phase-commit pattern. Created [[TwoPhaseCommit]] and extended [[UnmeshJoshi]]. The source explains prepare as a durable promise: each participant acquires required resources and votes whether it can later commit; any refusal causes a global rollback, while unanimous preparation permits the coordinator to direct the commit. Participants record their decisions with a mechanism such as a write-ahead log so a restarted node can finish the protocol. No direct contradiction was found; the synthesis preserves the existing microservices qualification that teams should first narrow transaction boundaries and prefer event-driven reconciliation when one cross-service atomic invariant is unnecessary. The article is a high-level overview that does not cover coordinator failure, blocked participants, message-delivery edge cases, recovery-state details, isolation, implementation variants, or performance costs. The source Markdown contains no effective image references, so no image inspection or asset manifest was required.
+
 ## [2026-09-23] ingest | Why You Can't Search for a Job From a Remote Location
 
 Added Mark Suster's 2016 relocation-first job-search argument. Created [[InMarketJobSearch]] and extended [[MarkSuster]] and [[DeliberateNetworkBuilding]]. The source argues that sustained local presence improves access to unadvertised opportunities and signals credible relocation commitment, while unresolved housing, schooling, partner, or commuting constraints can make an equivalent local candidate less risky to a hiring manager. No direct contradiction was found because the claim concerns location-bound roles rather than remote-first employment. The note preserves that this is practitioner opinion without comparative outcome evidence, that the "100x" claim is rhetorical, and that moving first transfers financial and family risk to the candidate. The sole local image was inspected and omitted as a decorative photograph of a paper map, so no asset manifest was created.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-23] lint | Wiki health check
 

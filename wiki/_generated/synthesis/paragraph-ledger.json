@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b6fa8c1af72d559ee3c2280630b2496fee81e1a867a9c3608eb63e730ce4479e",
       "1032574da258fc3c2d2d5f6b9cc97392897bbfcaf849a335bc8dee6a0e185614",
       "19c14f6792893d645ea61923b7ed5e7c7348e1004056d55756314f42cc88aa37",
       "03b7d69fe3225fbc21a926e599c98b3a45ebd86355d41f2ac6628b0b587e9957",
@@ -299,11 +300,33 @@
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b"
     ],
-    "paragraph_count": 297
+    "paragraph_count": 298
   },
-  "overview_commit": "b3588caca2ba555978299e8e1a24d79a5c1750f7",
-  "overview_digest": "405aad5ecb56152c96ff63e38b893b6491717fa1abdf887f7fab27c5d0c430b4",
+  "overview_commit": "ab01b16ddffea2b4ebb67c3177973ae69c8ea749",
+  "overview_digest": "6c7f523670618fb5c352b9196b759411d45c7d3804c591cd6ff5a555c7e4af07",
   "paragraphs": [
+    {
+      "id": "b6fa8c1af72d559ee3c2280630b2496fee81e1a867a9c3608eb63e730ce4479e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest Unmesh Joshi source adds [[TwoPhaseCommit]] as the atomic-decision counterpart to the wiki's consensus and replicated-log material. A coordinator first asks every participant to prepare: each node acquires required resources such as locks, durably records enough state to honor its promise, and reports whether it can later commit. Any refusal leads to a global rollback and resource release, while unanimous preparation permits the coordinator to direct the commit. Durable decision records, such as a write-ahead log, let a crashed and restarted participant finish the protocol. This mechanism is narrower than general [[DistributedConsensus]] and does not itself establish a replicated execution history like [[ReplicatedLog]]. It is also not a default microservice consistency strategy: [[AggregateTransactionBoundary]] and [[EventDrivenConsistency]] preserve the existing qualification that teams should first narrow the business invariant and use independent local transactions plus events when delayed reconciliation is acceptable. The source does not cover coordinator failure, unavailable decisions, message-delivery edge cases, isolation, implementation variants, or performance costs.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AggregateTransactionBoundary",
+        "DistributedConsensus",
+        "EventDrivenConsistency",
+        "ReplicatedLog",
+        "TwoPhaseCommit"
+      ]
+    },
     {
       "id": "1032574da258fc3c2d2d5f6b9cc97392897bbfcaf849a335bc8dee6a0e185614",
       "primary_topic": "governance-and-institutions",

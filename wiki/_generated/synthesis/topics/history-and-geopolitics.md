@@ -4,28 +4,28 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-23
-as_of_overview_commit: a0a97c26204656cb339492c5d1cf478a48226837
-input_digest: 1abae99739572f4cc1e5d16754a2f5e97dbf93af12a4d27a7961f16316b0ccc2
+as_of_overview_commit: ab01b16ddffea2b4ebb67c3177973ae69c8ea749
+input_digest: 0cea6eed986a1ad49d4e1d02cb714b2bfdf4d090c1dc51d4bc045cc2c4040501
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[ReplicatedLog]] paragraph is a routing spillover about a technical shared history, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; neither is geopolitical evidence.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; none is geopolitical evidence.
 
 ## Cross-source Findings
 
-### Replicated Log Is Technical History Spillover
+### Distributed Protocols Are Technical History Spillover
 
-[[ReplicatedLog]], [[DistributedConsensus]], and [[Paxos]] add a technical use of shared history: replicas converge by agreeing on one ordered request log, not by reconstructing historical or geopolitical events.
+[[ReplicatedLog]], [[DistributedConsensus]], and [[Paxos]] add a technical use of shared history through one ordered request log, while [[TwoPhaseCommit]] uses durable participant state to finish one atomic decision after a crash; neither is historical or geopolitical evidence.
 
-**Evidence:** [[ReplicatedLog]], [[DistributedConsensus]], [[Paxos]]
+**Evidence:** [[ReplicatedLog]], [[DistributedConsensus]], [[Paxos]], [[TwoPhaseCommit]]
 
 **Qualifications:**
 
-- This is distributed-systems material routed here because it describes a shared ordered history; it is not historical method or geopolitical evidence.
-- The source is a short pattern overview without implementation, recovery, liveness, or performance analysis.
+- This is distributed-systems material routed here because it describes shared history and durable state; it is not historical method or geopolitical evidence.
+- The sources are short pattern overviews without complete implementation, recovery, liveness, or performance analysis.
 
 ### App Store Geography Is Market History Spillover
 

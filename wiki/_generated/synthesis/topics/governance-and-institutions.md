@@ -4,15 +4,15 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-23
-as_of_overview_commit: a0a97c26204656cb339492c5d1cf478a48226837
-input_digest: 040e095751dc417b9dd5f1e0c3b8477b381326455ae23618208a803af443d32c
+as_of_overview_commit: ab01b16ddffea2b4ebb67c3177973ae69c8ea749
+input_digest: 92b0d666979dc07ba7777aeac504439f3365fae16e05d9b7b2945edf18f297ee
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. The newest replicated-log source adds the technical boundary that independently accepted changes still require one shared execution order, while remaining a short pattern description rather than a complete protocol.
+Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives.
 
 ## Cross-source Findings
 
@@ -156,3 +156,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The source is a 2015 practitioner essay, so its platform capabilities and notification-volume figures are historical.
 - Platform prioritization can suppress valuable urgent or accessibility-sensitive alerts and can expand opaque behavioral inference.
+
+### Atomic Commit Needs Durable Agreed Decision
+
+[[TwoPhaseCommit]] governs one multi-node transaction through an explicit coordinator decision: every participant durably prepares before unanimous commit, any refusal produces rollback, and [[AggregateTransactionBoundary]] plus [[EventDrivenConsistency]] qualify when that cross-node atomicity should be required at all.
+
+**Evidence:** [[TwoPhaseCommit]], [[AggregateTransactionBoundary]], [[EventDrivenConsistency]]
+
+**Qualifications:**
+
+- This is a technical coordination pattern rather than evidence about political or institutional governance.
+- The source does not specify coordinator recovery, waiting behavior, message-delivery edge cases, isolation, implementation variants, or performance costs.

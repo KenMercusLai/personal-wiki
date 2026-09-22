@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Two-Phase Commit](sources/unmesh-joshi-two-phase-commit.md) - Unmesh Joshi explains how participants durably prepare before a coordinator directs one atomic commit or rollback across multiple nodes.
 - [Why You Can't Search for a Job From a Remote Location](sources/why-you-cant-search-for-a-job-from-a-remote-location.md) - Mark Suster argues that candidates committed to location-bound work in a new city should establish local presence before searching so they can build relationships and reduce employer concern about relocation.
 - [Replicated Log](sources/unmesh-joshi-replicated-log.md) - Unmesh Joshi explains how consensus over one ordered write-ahead log lets replicas execute the same requests in the same sequence and maintain synchronized state.
 - [You Can't Judge Market Size by This Slide](sources/you-cant-judge-market-size-by-this-slide-nextview-ventures.md) - NextView Ventures classifies existing, expanding, and created markets and argues that founders should present auditable assumptions and calculations rather than an unsupported headline number.
@@ -360,7 +361,7 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Entities
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
 - [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.
-- [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who explains Paxos and replicated logs through concise problem-and-solution patterns.
+- [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who explains Paxos, replicated logs, and two-phase commit through concise problem-and-solution patterns.
 - [Leslie Lamport](entities/LeslieLamport.md) - Computer scientist credited by the source with developing Paxos and publishing "The Part-Time Parliament."
 - [Chris Brycki](entities/ChrisBrycki.md) - Product practitioner and author arguing for user, developer, and platform responsibility in notification design.
 - [Daniel Karlsson](entities/DanielKarlsson.md) - Programmer and startup founder who presents early release as a way to reduce product uncertainty before implementation costs accumulate.
@@ -1176,6 +1177,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
 ## Concepts
+- [Two-Phase Commit](concepts/TwoPhaseCommit.md) - Atomic-commit protocol that durably prepares every participant before one coordinator-directed commit or rollback.
 - [In-Market Job Search](concepts/InMarketJobSearch.md) - Establishing sustained local presence and credible relocation commitment before pursuing location-bound work in a target city.
 - [Replicated Log](concepts/ReplicatedLog.md) - Shared ordered log that lets replicas execute agreed state changes in the same sequence and converge on one state.
 - [Market Sizing](concepts/MarketSizing.md) - Evidence-backed estimation of existing, expanding, or newly created business opportunity through explicit sources, assumptions, and calculations.

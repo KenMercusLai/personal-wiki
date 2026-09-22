@@ -237,8 +237,23 @@
         "Google",
         "ChrisBrycki"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "atomic-commit-needs-durable-agreed-decision",
+      "qualifications": [
+        "This is a technical coordination pattern rather than evidence about political or institutional governance.",
+        "The source does not specify coordinator recovery, waiting behavior, message-delivery edge cases, isolation, implementation variants, or performance costs."
+      ],
+      "statement": "[[TwoPhaseCommit]] governs one multi-node transaction through an explicit coordinator decision: every participant durably prepares before unanimous commit, any refusal produces rollback, and [[AggregateTransactionBoundary]] plus [[EventDrivenConsistency]] qualify when that cross-node atomicity should be required at all.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "TwoPhaseCommit",
+        "AggregateTransactionBoundary",
+        "EventDrivenConsistency"
+      ]
     }
   ],
-  "summary": "Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. The newest replicated-log source adds the technical boundary that independently accepted changes still require one shared execution order, while remaining a short pattern description rather than a complete protocol.",
+  "summary": "Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives.",
   "topic_id": "governance-and-institutions"
 }
