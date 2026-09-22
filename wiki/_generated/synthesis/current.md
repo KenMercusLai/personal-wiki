@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: d157cf1cf9f73ee8e9de3e135a2eb3385d05a0bc
+as_of_overview_commit: a1cae67ff5c4883d8ad9b7e450ad5931beefe3b3
 summary: "Durable outcomes require grounded evidence, inspectable tradeoffs, feedback-rich practice, and products whose capabilities remain usable in real work."
-episode_count: 360
-source_count: 360
-paragraph_count: 307
+episode_count: 361
+source_count: 361
+paragraph_count: 308
 topic_count: 9
 ---
 

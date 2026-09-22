@@ -2918,3 +2918,11 @@ Added Jakob Nielsen's introductory usability framework. Created [[Usability]], [
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | Your Product Manager Super Power: Not Knowing Everything
+
+Added Mind the Product's 2017 argument that a product manager's advantage lies in system-level judgment and useful questions rather than complete specialist knowledge. Created [[ValueBasedProductScoping]] and extended [[ProductManagement]], [[ProductManagerAsCEO]], [[IterativeProductShipping]], and [[MindTheProduct]]. The source recommends questioning why components are needed, using repeated why questions to expose underlying motives, identifying minimum independent deliverables and their dependencies, and releasing smaller pieces only when they create value or useful learning. No direct contradiction was found; the synthesis qualifies the practitioner advice for psychological safety, specialist expertise, tight coupling, regulated or safety-critical work, and the risk of making releases small without preserving a meaningful outcome. The source Markdown contains no effective image references, so no image inspection, retained asset, or manifest was required. Downstream synthesis was refreshed for work, education, and society, and the global artifact was recompacted because the candidate claim changed materially.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

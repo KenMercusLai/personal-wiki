@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Your Product Manager Super Power: Not Knowing Everything](sources/your-product-manager-super-power-not-knowing-everything-mind-the-product.md) - Mind the Product argues that PM uncertainty enables value-focused questions, assumption testing, and decomposition into independently useful releases.
 - [Usability 101: Introduction to Usability](sources/usability-101-introduction-to-usability.md) - Jakob Nielsen defines usability through learnability, efficiency, memorability, errors, and satisfaction, distinguishes it from utility, and recommends early iterative task-based user testing.
 - [Why You Should Ignore Every Founder's Story About How They Started Their Company](sources/why-you-should-ignore-every-founders-story-about-how-they-started-their-company-trevor-mckendrick.md) - Trevor McKendrick uses Sam Walton's 15-year pre-Walmart retail apprenticeship to argue that polished founder stories hide the mistakes, persistence, and capability development that matter most.
 - [Your Media Business Will Not Be Saved](sources/your-media-business-will-not-be-saved-joshua-topolsky-medium.md) - Joshua Topolsky argues that fashionable formats cannot rescue weak media products and that durable publishers must serve finite audiences with distinctive work and sustainable economics.
@@ -1946,5 +1947,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Technology Enabler Stack](concepts/TechnologyEnablerStack.md) - Widely available platform capabilities whose maturity decides whether a product idea can be built usefully and adopted broadly at a given time.
 
 - [Incremental Framework Upgrade](concepts/IncrementalFrameworkUpgrade.md) - Migration strategy that keeps old and new framework versions runnable, advances through CI compatibility milestones, and uses staged production evidence.
+- [Value-Based Product Scoping](concepts/ValueBasedProductScoping.md) - Testing why proposed components are needed and dividing work into the smallest coherent deliverables that create value or learning.
 
 ## Syntheses

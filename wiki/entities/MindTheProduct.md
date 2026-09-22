@@ -5,20 +5,22 @@ tags: [publication, product-management]
 sources:
   - 7-lessons-on-building-product-with-outsourced-developers-mind-the-product
   - 5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product
-last_updated: 2026-09-15
+  - your-product-manager-super-power-not-knowing-everything-mind-the-product
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[MindTheProduct]] is the product-management publication context for sources on outsourced product development and first-use app retention.
+[[MindTheProduct]] is the product-management publication context for sources on outsourced product development, first-use app retention, and question-led product scoping.
 
 ## Current Profile
-Within this wiki, Mind the Product appears as a practitioner-oriented product-management venue. One ingested article uses a product manager's outsourced-development experience to give operational advice about hiring, scope control, communication, QA, technical documentation, and tracking. A second article gives product-design advice for connected-product apps, emphasizing no-strings exploration, low-friction onboarding, benefit-led first impressions, fewer choices, and coherence between physical and digital interactions.
+Within this wiki, Mind the Product appears as a practitioner-oriented product-management venue. One ingested article uses a product manager's outsourced-development experience to give operational advice about hiring, scope control, communication, QA, technical documentation, and tracking. A second gives product-design advice for connected-product apps, emphasizing no-strings exploration, low-friction onboarding, benefit-led first impressions, fewer choices, and coherence between physical and digital interactions. A third treats not knowing everything as a PM strength when it enables value-focused questions, assumption testing, and decomposition into independently useful deliverables.
 
 ## Key Characteristics
 - Publishes practitioner product-management guidance.
 - Hosts advice about managing outsourced or overseas development teams.
 - Hosts product-design advice about first-use app retention and connected-product experience.
+- Hosts leadership guidance that frames PM uncertainty as a tool for questioning assumptions and aligning specialists.
 - Frames product-building decisions around strategy, validation, communication, execution risk, and user value.
 
 ## Evidence
@@ -27,12 +29,15 @@ Within this wiki, Mind the Product appears as a practitioner-oriented product-ma
 - Product strategy frame: [[7-lessons-on-building-product-with-outsourced-developers-mind-the-product]] connects outsourced work to prototype validation, later refactoring, and roadmap or business-plan expectations.
 - Product-design context: [[5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product]] is titled as a Mind the Product article and presents app-retention guidance for product teams.
 - First-use retention: [[5-product-design-tips-making-your-app-sticky-from-the-start-mind-the-product]] advises letting users try the app before signup, avoiding distracting detours, showing benefits first, reducing choices, and aligning app interactions with hardware interactions.
+- Product-management stance: [[your-product-manager-super-power-not-knowing-everything-mind-the-product]] uses a conductor analogy to frame PM work as coordinating specialist contributions without claiming complete expertise.
+- Value-based scope: [[your-product-manager-super-power-not-knowing-everything-mind-the-product]] recommends repeated why questions, minimum independent deliverables, and small releases that create value or learning.
 
 ## Qualifications
-The wiki currently has only two Mind the Product sources, so this entity page should not be treated as a comprehensive profile of the publication, its editorial scope, ownership, audience, or current strategy.
+The wiki currently has only three Mind the Product sources, so this entity page should not be treated as a comprehensive profile of the publication, its editorial scope, ownership, audience, or current strategy.
 
 ## What Changed
 - Added Mind the Product's app-retention and connected-product design source alongside its outsourced-development source.
+- Added its question-led product-management and value-based scoping guidance.
 
 ## Relationships
 - [[OutsourcedProductDevelopment]] - publication source for the wiki's initial outsourced-development synthesis.
@@ -41,3 +46,5 @@ The wiki currently has only two Mind the Product sources, so this entity page sh
 - [[ProductStickiness]] - publication source for first-use app-retention advice.
 - [[ProductFlowFriction]] - publication source for no-strings exploration, fewer early choices, and reduced onboarding detours.
 - [[ConnectedProductSystems]] - publication source for aligning app and hardware interaction models.
+- [[ProductManagement]] - publication source for epistemically humble, question-led PM practice.
+- [[ValueBasedProductScoping]] - publication source for decomposing work around value, learning, and dependency structure.

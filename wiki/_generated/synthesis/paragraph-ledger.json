@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f3bea6a6726534c929d4b52aa8985e16c06ae0c0e80b6e978da758518478e448",
       "2bfb4b3526c6ab861b10a6d021ab918d9d3022326a07528547caad2672fa7a9a",
       "f81f004761efd71e750e11f7baa2868ef6f1fa667004d1e331197cae27033350",
       "d09b209840b7fae09b7c67e66c6e45ef6727f468562b98c1b8b3b5487be341b1",
@@ -309,11 +310,28 @@
       "d5be4ea974e5ca6a8c3f911821b49567a988fe897fe5381eff0fd3b6589c765b",
       "a9ec910534f8eec4c1d79a1759465cc3bb2c68a6959ebb1340b9130611381034"
     ],
-    "paragraph_count": 307
+    "paragraph_count": 308
   },
-  "overview_commit": "d157cf1cf9f73ee8e9de3e135a2eb3385d05a0bc",
-  "overview_digest": "55808cf1f05585621627cbcee21ed48d8e6ea3512df82e34fcd2d092d12e2845",
+  "overview_commit": "a1cae67ff5c4883d8ad9b7e450ad5931beefe3b3",
+  "overview_digest": "7868ed78a8c28b9c7e28768fcc162706ddf589cd615015696d6bf645ba0f7880",
   "paragraphs": [
+    {
+      "id": "f3bea6a6726534c929d4b52aa8985e16c06ae0c0e80b6e978da758518478e448",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Mind the Product source adds [[ValueBasedProductScoping]] to the wiki's product-management and iterative-delivery material. It treats not knowing everything as a practical PM strength: the product manager resembles a conductor who understands the whole and coordinates specialists without pretending to play every instrument. That framing sharpens [[ProductManagement]] and qualifies [[ProductManagerAsCEO]] by turning breadth into epistemic humility, assumption testing, and questions about why a component is needed, what value it enables, and what would be omitted under tighter time. Scope then becomes a dependency problem: identify minimum independent deliverables, determine ordering and parallelism, and distinguish increments that create value alone from pieces that work only together. This strengthens [[IterativeProductShipping]] with a quality gate—small releases matter when they deliver value or useful learning, not merely because they are small. The article is a concise practitioner argument without comparative evidence, so its Five Whys and layered-delivery advice remains sensitive to psychological safety, specialist knowledge, coupling, regulation, and safety risk. No image references were present in the source Markdown.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "IterativeProductShipping",
+        "ProductManagement",
+        "ProductManagerAsCEO",
+        "ValueBasedProductScoping"
+      ]
+    },
     {
       "id": "2bfb4b3526c6ab861b10a6d021ab918d9d3022326a07528547caad2672fa7a9a",
       "primary_topic": "ai-and-technology",
