@@ -2802,3 +2802,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-22] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-22] ingest | Why We’re Paying for Content These Days
+
+Added Hunter Walk's 2017 explanation for growing direct payment for online content. Extended [[HunterWalk]], [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[WebAdEconomics]], and [[CreatorEconomyStartups]]. The source identifies four converging conditions: familiar low-friction online checkout, a more personal creator-audience payment relationship, higher per-customer value for niche content than conventional advertising, and an experimentation gap left by Google and Facebook's stronger advertising incentives. The synthesis qualifies this enabling-conditions argument with later creator-economy evidence: easy payment does not solve creator concentration, distribution scarcity, take-rate pressure, churn, or startup defensibility. No direct contradiction was found. The source is a brief 2017 practitioner hypothesis without causal data, and its platform characterization is time-bound. Its only embedded image is a decorative illustrated portrait of Walk, so the image was inspected and omitted without copying an asset or creating a manifest. Downstream synthesis was refreshed for culture-and-media, governance-and-institutions, and work-education-and-society, and the global artifact was recompacted because candidate material changed.
+
+## [2026-09-22] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

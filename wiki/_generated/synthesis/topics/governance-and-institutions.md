@@ -4,17 +4,27 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-22
-as_of_overview_commit: a0380f8c5ecade579cf3ecfb5303e922451dbdd2
-input_digest: cdb62770b559b974f9cd58bf006649e8886cf60d7003b1a73b5afb9c2d4b24ed
+as_of_overview_commit: 485b698f709922b06052e4246d2c428f70d25397
+input_digest: fc1bd515f71ed2fa2dcfb44a1473281c798b978c1643b3dfa584580c2dd76ae0
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material spans platform control, privacy burdens, organizational boundaries, political technology, regulated delivery, browser concentration, infrastructure suppliers, public-space automation, institutional information architecture, and workplace policy. Across these cases, accountability depends on explicit ownership, observable behavior, usable controls, instrumentation, and credible alternatives rather than labels alone. [[NotificationDesign]] adds a platform-governance case in which user controls, developer engagement incentives, and operating-system context jointly determine who can interrupt attention, with privacy, opacity, urgent-response, accessibility, and missed-alert risks qualifying contextual ranking.
+Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, and credible alternatives rather than labels alone. The newest creator-payment source adds a narrower market-governance point: advertising platforms and transaction businesses have different growth incentives, but a 2017 incentive hypothesis is not proof of present platform behavior or durable creator power.
 
 ## Cross-source Findings
+
+### Platform Payment Incentives Shape Creator Market Openings
+
+[[HunterWalk]] argues that [[Google]] and [[Facebook]] could grow advertising through inventory, advertiser demand, and targeting while transaction businesses depended on price and conversion, creating room for [[CreatorEconomyStartups]] and direct [[DigitalMediaMonetization]].
+
+**Evidence:** [[HunterWalk]], [[Google]], [[Facebook]], [[CreatorEconomyStartups]], [[DigitalMediaMonetization]], [[WebAdEconomics]], [[Stripe]]
+
+**Qualifications:**
+
+- The claim is a short 2017 practitioner hypothesis without platform financial data, and later creator-market structure may differ.
 
 ### Open Source Maintenance Is Lightweight Governance
 

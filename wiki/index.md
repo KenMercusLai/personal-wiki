@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Why We’re Paying for Content These Days](sources/why-were-paying-for-content-these-days-hunter-walk.md) - Hunter Walk argues that direct content payment grew through low-friction checkout, personal creator support, stronger niche per-customer economics, and an opening left by advertising-focused platforms.
 - [You Can Always Find an Anonymous Former Employee to Trash the Founder](sources/you-can-always-find-an-anonymous-former-employee-to-trash-the-founder-hunter-walk.md) - Hunter Walk argues that anonymous criticism hides context needed to judge credibility and should function as a lead unless source risk and public importance justify protection.
 - [Paxos](sources/unmesh-joshi-paxos.md) - Unmesh Joshi explains Paxos as prepare and accept phases that safely choose a value under partial failure, followed by commit to disseminate the result.
 - [Why We're Stuck In An Abusive Relationship With Our Phones](sources/why-were-stuck-in-an-abusive-relationship-with-our-phones.md) - Chris Brycki argues that notification overload arises from interruption costs, variable rewards, engagement incentives, and weak platform support for prioritization.
@@ -354,7 +355,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
 
 ## Entities
-- [Hunter Walk](entities/HunterWalk.md) - Technology-community author arguing that anonymous negative quotations should be reserved for important reporting and pursued toward stronger evidence.
+- [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.
 - [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who presents Paxos as a concise problem-and-solution pattern.
 - [Leslie Lamport](entities/LeslieLamport.md) - Computer scientist credited by the source with developing Paxos and publishing "The Part-Time Parliament."
 - [Chris Brycki](entities/ChrisBrycki.md) - Product practitioner and author arguing for user, developer, and platform responsibility in notification design.

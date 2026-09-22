@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "03b7d69fe3225fbc21a926e599c98b3a45ebd86355d41f2ac6628b0b587e9957",
       "8fe47c11951e4ff9ccf149ce8acffc9114f2a73585475e366df92318e17ca503",
       "289ceb90abd075505c151ab6ddaabab519c2c1a8c5e20b53fd9500907c219808",
       "1338bbe0898e4537c08459fa4ab1ba1b2d95a03433342d82651128589c6c0001",
@@ -295,11 +296,35 @@
       "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd"
     ],
-    "paragraph_count": 293
+    "paragraph_count": 294
   },
-  "overview_commit": "f83ce162bb6170edd13fce5be2c6b991aaa6f377",
-  "overview_digest": "2b8bc65de7f851489a144566eb5c41a46f4bba36f0bc0d51abbcc096f51a59d7",
+  "overview_commit": "485b698f709922b06052e4246d2c428f70d25397",
+  "overview_digest": "98d868cfe41e91386ca0fc250526d642f8ec8f34fa1f9113f393ae093bc3312a",
   "paragraphs": [
+    {
+      "id": "03b7d69fe3225fbc21a926e599c98b3a45ebd86355d41f2ac6628b0b587e9957",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The newest Hunter Walk source adds an enabling-conditions account to the wiki's creator and media economics. [[HunterWalk]] argues that direct content payment grew as ecommerce, app stores, stored credentials, and biometric approval made checkout familiar; crowdfunding, marketplaces, [[Stripe]], and tipping made payment feel like support for a person; and one purchase or small recurring fee could deliver more value from an enthusiastic niche user than a year of ads. This sharpens [[NicheSubscriptionPublishing]] and [[DigitalMediaMonetization]] by separating the availability of audience payment from any single subscription format. It also extends [[WebAdEconomics]] and [[CreatorEconomyStartups]] through an incentive contrast: [[Google]] and [[Facebook]] could grow advertising through inventory, advertiser demand, and targeting, while transaction businesses needed price or conversion gains, leaving more experimentation to startups. The later creator-economy source qualifies that optimism: payment access does not solve creator power laws, scarce distribution, take-rate pressure, churn, or defensibility. Walk's essay is a short 2017 hypothesis without causal data, and its platform characterization is time-bound.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CreatorEconomyStartups",
+        "DigitalMediaMonetization",
+        "Facebook",
+        "Google",
+        "HunterWalk",
+        "NicheSubscriptionPublishing",
+        "Stripe",
+        "WebAdEconomics"
+      ]
+    },
     {
       "id": "8fe47c11951e4ff9ccf149ce8acffc9114f2a73585475e366df92318e17ca503",
       "primary_topic": "business-and-markets",
