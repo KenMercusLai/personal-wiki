@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fe3454d8658a904e36fe7c88124439d045eef2106675d5269cf570ea995eeff0",
       "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
       "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
       "0e6e060156a54c3b6de27bc674ffafabaa24316392b1991e234e0da9b4627354",
@@ -355,11 +356,29 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 353
+    "paragraph_count": 354
   },
-  "overview_commit": "5b1e3620766f359a35bdc13bd34b46d297781514",
-  "overview_digest": "b696be640d3d8fffcddff559988ea414d494422f1885eaf40c69f75f1e3ba5ca",
+  "overview_commit": "8bcf8a05ede2c5398b0eb320066f4c5f46031430",
+  "overview_digest": "1a475526a4ac714c54e7949955cae2c1f1149cd84f0a4c3e9c9fa3dabb3ecbde",
   "paragraphs": [
+    {
+      "id": "fe3454d8658a904e36fe7c88124439d045eef2106675d5269cf570ea995eeff0",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Hunter Walk source adds [[FounderInvestorFit]] as a relationship-and-attention boundary within the wiki's fundraising material. Walk's reported founder accepted that substantive disagreement can stress-test assumptions and improve a pitch, but ended one seed-investor meeting after an unsupported claim that her nascent market would not exist became a demand to “convince me.” The decision was not presented as freedom from criticism: it depended on judging that the investor lacked relevant grounding, was unlikely to invest, and was probably not a desirable long-term cap-table partner. [[FounderTimeLeverage]] now includes selective disengagement alongside tools, services, and delegation because refusing a low-value persuasion contest can protect scarce time and emotional energy. The synthesis remains deliberately narrow: this is one successful founder's anecdote relayed by an investor-author, the other participant's view is absent, an oversubscribed round gives a founder unusual choice, and the source offers no reliable test for separating terse but valuable skepticism from a power move. All four local images were opened and omitted as decorative reaction imagery, including two near-duplicate NSYNC frames and two animated dismissal clips.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "FounderInvestorFit",
+        "FounderTimeLeverage"
+      ]
+    },
     {
       "id": "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
       "primary_topic": "ai-and-technology",

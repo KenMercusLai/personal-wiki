@@ -3407,3 +3407,11 @@ Added Xavier Amatriain's secondhand organizational diagnosis of Yahoo as a compo
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | “Convince Me” said the Investor. “No” said the Founder.
+
+Added Hunter Walk's founder-investor fit and selective-disengagement argument. Created [[FounderInvestorFit]] and updated [[HunterWalk]] and [[FounderTimeLeverage]] to distinguish grounded skepticism from low-information power tests and to treat investor selection as mutual because cap-table relationships persist beyond the pitch. All four local images were opened and omitted as decorative reaction imagery: two near-duplicate NSYNC frames, an animated dismissive gesture, and an “ON TO THE NEXT ONE” GIF. Downstream synthesis refreshed business and markets plus psychology and personal development; global compaction ran because the updated candidate set crossed the material-change gate.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

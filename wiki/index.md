@@ -427,6 +427,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dijkstra's Shortest Path Algorithm - A Detailed and Visual Introduction](sources/freecodecamp-dijkstras-shortest-path-algorithm-a-detailed-and-visual-introduction.md) - Estefania Cassingena Navone visually explains graph structure, greedy distance selection, relaxation, and the resulting shortest-path tree.
 - [A Neural Network in 11 lines of Python (Part 1)](sources/iamtrask-a-neural-network-in-11-lines-of-python-part-1.md) - iamtrask explains sigmoid networks, full-batch weight updates, backpropagation, and hidden-layer XOR learning in compact NumPy.
 - [深度解读：OpenClaw 架构及生态](sources/lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai.md) - Lencx analyzes OpenClaw's embedded engine, IM bus, Skills, persistent sessions, heartbeats, model routing, Moltbook ecosystem, token economics, and prompt-injection and credential risks.
+- [“Convince Me” said the Investor. “No” said the Founder.](sources/convince-me-said-the-investor-no-said-the-founder-hunter-walk.md) - Hunter Walk argues that founders should treat fundraising as mutual selection and end low-value persuasion contests when an investor offers neither likely capital nor grounded feedback.
 
 ## Entities
 
@@ -1347,6 +1348,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Founder-Investor Fit](concepts/FounderInvestorFit.md) - Two-way assessment of informed conviction, mutual respect, and working compatibility before a founder and investor enter a long-term financing relationship.
 - [Research-to-Product Transfer](concepts/ResearchToProductTransfer.md) - Organizational capability that moves ideas and prototypes from research into products, operations, and measurable impact.
 - [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Use of acquisitions to advance a coherent direction while managing talent, product, focus, and cultural integration.
 - [Service-Lifetime Background Tasks](concepts/ServiceLifetimeBackgroundTasks.md) - In-process workers deliberately bound to service startup and shutdown rather than to one request.

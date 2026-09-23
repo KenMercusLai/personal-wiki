@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-24
-as_of_overview_commit: 5b1e3620766f359a35bdc13bd34b46d297781514
-input_digest: 29e07608afc6d71dfe1dac507feb79f865898a5f2ef1be283000e2c75c32bc9d
+as_of_overview_commit: 8bcf8a05ede2c5398b0eb320066f4c5f46031430
+input_digest: 383c8c125f68838888350c5602fbb571644a3862e706c152a67178e05340154c
 ---
 
 # Psychology and Personal Development
@@ -29,13 +29,13 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 ### Attention Is Scarce And Must Be Allocated
 
-[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the same principle to products by treating engagement as justified only when it advances the user's outside goal, while [[VisualAttention]] shows that stimulus-driven contrast, motion, social cues, novelty, and self-relevance compete with top-down goals and can become easier to reject when conspicuous design signals irrelevance.
+[[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products and [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals.
 
-**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]]
+**Evidence:** [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]]
 
 **Qualifications:**
 
-- The sources are advice-heavy overall and acknowledge that health, caregiving, work type, cash, social norms, and external constraints can limit how freely people reallocate time; the NPR evidence adds experimental and survey support for buying time, but its durability remains uncertain.
+- The sources are advice-heavy overall and acknowledge that health, caregiving, work type, cash, financing options, social norms, and external constraints can limit how freely people reallocate time; the NPR evidence adds experimental and survey support for buying time, but its durability remains uncertain, while the founder-investor meeting evidence is one anecdote from an oversubscribed round.
 - The least-resistance product argument uses anecdotes rather than comparative behavioral data, and price, habit, accessibility, safety, trust, switching costs, or cognitively useful steps can outweigh immediate ease.
 - The visual-attention source is a marketer's secondary review that combines heterogeneous laboratory findings, neural observations, evolutionary explanations, and design extrapolations; capturing a fixation does not establish comprehension, preference, trust, conversion, or value.
 
