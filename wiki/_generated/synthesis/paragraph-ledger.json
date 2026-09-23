@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "668c8ed5a806332763623269185f336079ff015c5a150fa242ce880ede9c5665",
       "45c9a840016e35306eb1d18de4aa1d8046f770b0b3f502c3801a5eb63b3a706e",
       "fe3454d8658a904e36fe7c88124439d045eef2106675d5269cf570ea995eeff0",
       "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
@@ -357,11 +358,27 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 355
+    "paragraph_count": 356
   },
-  "overview_commit": "85867a3c75a9ea5dc3a8c58fcac55874079ce335",
-  "overview_digest": "410448279f244e96d7165566f9d02c3ae4c479d04569cb1886ab0832b80eff01",
+  "overview_commit": "a8a5a07e487eee1b4cc041feebd923e9b62b642e",
+  "overview_digest": "32e663044fe61eeb9335b6d39bb6fbd233d59c443f11bc3e458aaa86fa62eeac",
   "paragraphs": [
+    {
+      "id": "668c8ed5a806332763623269185f336079ff015c5a150fa242ce880ede9c5665",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Steven Sinofsky source adds [[TechnologyTransitionStrategy]] as a cross-cutting product-management frame for platform change. Its late-2015 recommendations connect mobile OS and ARM investment, device-side compute, public cloud, native platform teams, computer-science research, open-source community strength, security and privacy defaults, and quality-oriented planning: choose around the direction of a compounding ecosystem and beware transitional architectures whose compatibility burden becomes permanent. The current synthesis makes that argument conditional rather than categorical. A bridge can be rational when regulation, installed bases, accessibility, migration risk, or scarce skills prevent a clean break, but it needs an explicit destination, bounded lifetime, and retirement path. The source also adds historically useful deep-learning optimism around recommendation, classification, and local inference, qualified by the wiki's later evidence on benchmark limits and safety-critical transfer. Both referenced images were opened and omitted as decorative duplicate stills of a group discussion.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "TechnologyTransitionStrategy"
+      ]
+    },
     {
       "id": "45c9a840016e35306eb1d18de4aa1d8046f770b0b3f502c3801a5eb63b3a706e",
       "primary_topic": "work-education-and-society",

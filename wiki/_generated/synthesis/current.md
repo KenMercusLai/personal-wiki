@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 85867a3c75a9ea5dc3a8c58fcac55874079ce335
+as_of_overview_commit: a8a5a07e487eee1b4cc041feebd923e9b62b642e
 summary: "Durable outcomes require grounded evidence, explicit tradeoffs, coherent organizations, inspectable systems, and accountable human judgment."
-episode_count: 421
-source_count: 421
-paragraph_count: 355
+episode_count: 422
+source_count: 422
+paragraph_count: 356
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Durable technical progress joins system understanding, scope-aware architecture,
 
 ### Business and Markets
 
-Companies turn scarce resources into durable advantage when demand, incentives, ownership, founder-investor fit, culture, talent, portfolio focus, research transfer, reliability, metrics, and retained value are explicit and tested.
+Companies turn scarce resources into durable advantage when demand, incentives, ownership, technology transitions, culture, talent, portfolio focus, research transfer, reliability, metrics, and retained value are explicit and tested.
 
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone. Evidence: [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]].

@@ -429,6 +429,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [深度解读：OpenClaw 架构及生态](sources/lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai.md) - Lencx analyzes OpenClaw's embedded engine, IM bus, Skills, persistent sessions, heartbeats, model routing, Moltbook ecosystem, token economics, and prompt-injection and credential risks.
 - [“Convince Me” said the Investor. “No” said the Founder.](sources/convince-me-said-the-investor-no-said-the-founder-hunter-walk.md) - Hunter Walk argues that founders should treat fundraising as mutual selection and end low-value persuasion contests when an investor offers neither likely capital nor grounded feedback.
 - [You Should Plan On Switching Jobs Every Three Years For The Rest Of Your Life](sources/vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life.md) - Vivian Giang presents Patty McCord's three-to-four-year job-mobility heuristic as a route to faster learning while leaving its pay and performance claims unproven.
+- [“Hallway Debates”: A 2016 Product Manager Discussion Guide](sources/hallway-debates-a-2016-product-manager-discussion-guide-learning-by-shipping.md) - Steven Sinofsky connects forward-looking mobile, cloud, platform, research, security, open-source, and quality choices while warning that unbounded bridge architectures can become permanent complexity.
 
 ## Entities
 
@@ -1351,6 +1352,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Technology Transition Strategy](concepts/TechnologyTransitionStrategy.md) - Choosing how directly to commit to an emerging ecosystem or architecture while bounding compatibility, migration, and retirement costs.
 - [Strategic Job Mobility](concepts/StrategicJobMobility.md) - Deliberate employer changes pursued for learning, responsibility, fit, or market position rather than a fixed switching timer.
 - [Founder-Investor Fit](concepts/FounderInvestorFit.md) - Two-way assessment of informed conviction, mutual respect, and working compatibility before a founder and investor enter a long-term financing relationship.
 - [Research-to-Product Transfer](concepts/ResearchToProductTransfer.md) - Organizational capability that moves ideas and prototypes from research into products, operations, and measurable impact.

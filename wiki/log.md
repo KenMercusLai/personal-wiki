@@ -3423,3 +3423,11 @@ Added Vivian Giang's account of Patty McCord's three-to-four-year job-mobility h
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | “Hallway Debates”: A 2016 Product Manager Discussion Guide
+
+Added Steven Sinofsky's late-2015 discussion agenda for product leaders choosing among mobile, ARM, local compute, deep learning, public cloud, native platforms, open-source communities, research tracking, security, privacy, and quality. Created [[TechnologyTransitionStrategy]] and updated [[StevenSinofsky]], [[MobileEcosystem]], [[MobileProductivity]], and [[DeepLearning]] while qualifying categorical platform advice by migration constraints and later evidence on deep-learning transfer and safety. Both referenced images were opened and omitted as decorative duplicate stills of a group discussion.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
