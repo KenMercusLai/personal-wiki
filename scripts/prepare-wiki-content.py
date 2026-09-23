@@ -245,26 +245,11 @@ def _image_dimensions(data: bytes, suffix: str) -> tuple[int, int]:
             offset += length
         raise ValueError("JPEG dimensions are missing")
     if suffix == ".webp":
-        if len(data) < 16 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
+        if len(data) < 30 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
             raise ValueError("invalid WebP encoding")
         kind = data[12:16]
         if kind == b"VP8X":
-            if len(data) < 30:
-                raise ValueError("invalid WebP encoding")
             return 1 + int.from_bytes(data[24:27], "little"), 1 + int.from_bytes(data[27:30], "little")
-        if kind == b"VP8 ":
-            if len(data) < 30 or data[23:26] != b"\x9d\x01\x2a":
-                raise ValueError("invalid WebP encoding")
-            width = int.from_bytes(data[26:28], "little") & 0x3FFF
-            height = int.from_bytes(data[28:30], "little") & 0x3FFF
-            if not width or not height:
-                raise ValueError("invalid WebP dimensions")
-            return width, height
-        if kind == b"VP8L":
-            if len(data) < 25 or data[20] != 0x2F:
-                raise ValueError("invalid WebP encoding")
-            bits = int.from_bytes(data[21:25], "little")
-            return 1 + (bits & 0x3FFF), 1 + ((bits >> 14) & 0x3FFF)
         raise ValueError("unsupported WebP encoding")
     raise ValueError("unsupported image format")
 

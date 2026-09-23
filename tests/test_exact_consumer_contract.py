@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import base64
 import hashlib
 import importlib.util
 import json
@@ -134,19 +133,6 @@ class ExactConsumerContractTest(unittest.TestCase):
         for source_key, filename, alt in image_records(ROOT):
             source = (ROOT / ".generated/wiki/sources" / source_key / "index.md").read_text()
             self.assertIn(f"![{alt}]({filename})", source)
-
-    def test_complete_webp_encodings_are_supported(self):
-        prepare = load_script(PREPARE, "prepare_personal_wiki_webp_encodings")
-        fixtures = {
-            "lossy VP8": "UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoCAAMAAUAmJaACdLoB+AADsAD+8ut//NgVzXPv9//S4P0uD9Lg/9KQAAA=",
-            "lossless VP8L": "UklGRhwAAABXRUJQVlA4TA8AAAAvAYAAAAcQ/Y/+ByKi/wEA",
-        }
-        for label, encoded in fixtures.items():
-            with self.subTest(label=label):
-                self.assertEqual(
-                    prepare._image_dimensions(base64.b64decode(encoded), ".webp"),
-                    (2, 3),
-                )
 
     def test_source_projection_rewrites_canonical_image_reference_in_place(self):
         prepare = load_script(PREPARE, "prepare_personal_wiki_explicit_image_reference")
