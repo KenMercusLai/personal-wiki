@@ -3351,3 +3351,11 @@ Added Wulc's synthesis of 《认知红利》 on attention, time leverage, compou
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Viral Marketing
+
+Added Nathan Kontny's argument that shareable ideas often become interesting by negating a familiar expectation. Created [[ExpectationBreakingContent]], [[NathanKontny]], [[CaseyNeistat]], [[MurrayDavis]], and [[TrickAJournalist]], and updated [[ContentLedAcquisition]] with the distinction between a provocative creative filter and a reliable acquisition mechanism. Preserved qualifications around selection bias, missing comparative metrics, satire misreading, platform effects, and Casey's broader requirements for zeitgeist, timing, relatability, freshness, clarity, and watchability. All three referenced images were opened; retained one full-size viral-video flowchart under a descriptive canonical filename and omitted its tiny thumbnail and duplicate full-size copy.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Viral Marketing](sources/viral-marketing-the-set-list-medium.md) - Nathan Kontny applies Murray Davis's negation pattern to Casey Neistat videos and the satirical Trick a Journalist campaign, treating expectation-breaking as a creative filter rather than a guarantee of virality.
 - [《认知红利》阅读笔记(1) - 概念重塑](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su.md) - Wulc summarizes attention, time leverage, compounding, identity, metacognition, strategic potential, idea valuation, uncertainty, and luck through practical frameworks and eight inspected diagrams.
 - [umount: /: target is busy](sources/umount-target-is-busy.md) - An Ask Ubuntu Q&A distinguishes busy-root diagnosis, lazy detachment, NFS force-unmounting, and an unverified LVM deactivation sequence.
 - [Write or fade away as a designer](sources/write-or-fade-away-as-a-designer-inside-design-blog.md) - Michael Abehsera uses five designer examples to argue that audience-specific public writing can create traffic, clients, teaching demand, speaking, relationships, and jobs, while acknowledging only anecdotal evidence.
@@ -423,6 +424,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Nathan Kontny](entities/NathanKontny.md) - Marketing author who adapts Murray Davis's interestingness theory into an expectation-breaking creative filter.
+- [Casey Neistat](entities/CaseyNeistat.md) - Filmmaker and YouTuber used as the central case for expectation-breaking video and a broader viral-video checklist.
+- [Murray Davis](entities/MurrayDavis.md) - Sociologist whose analysis of interesting propositions centers on negating accepted assumptions.
+- [Trick a Journalist](entities/TrickAJournalist.md) - Satirical campaign exposing indiscriminate automated outreach to journalists.
 - [Michael Abehsera](entities/MichaelAbehsera.md) - Front-end developer, UI designer, and design editor arguing that repeated public writing expands professional discovery and opportunity.
 - [Terrible Software](entities/TerribleSoftware.md) - Software-engineering publication represented here by a practitioner essay framing ambiguity reduction as the foundation of senior work.
 - [Tony Stubblebine](entities/TonyStubblebine.md) - Productivity writer and coach who formulated interstitial journaling as a repeatable project-transition ritual.
@@ -1331,6 +1336,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Expectation-Breaking Content](concepts/ExpectationBreakingContent.md) - Creative strategy that makes an idea interesting through a recognizable assumption and credible reversal, without guaranteeing virality or conversion.
 - [Filesystem Unmounting](concepts/FilesystemUnmounting.md) - Releasing or accounting for active filesystem dependencies before removing a mount, with explicit limits on lazy, forced, and backing-volume operations.
 - [Ambiguity Reduction](concepts/AmbiguityReduction.md) - Turning vague goals into explicit problems, users, assumptions, downside, priorities, and bounded executable decisions.
 - [Interstitial Journaling](concepts/InterstitialJournaling.md) - Work-transition practice that records cognitive closure, a literal first action, and strategy before the next project begins.
