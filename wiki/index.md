@@ -7,6 +7,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Write or fade away as a designer](sources/write-or-fade-away-as-a-designer-inside-design-blog.md) - Michael Abehsera uses five designer examples to argue that audience-specific public writing can create traffic, clients, teaching demand, speaking, relationships, and jobs, while acknowledging only anecdotal evidence.
+- [What Actually Makes You Senior](sources/terrible-software-what-actually-makes-you-senior.md) - Terrible Software argues that senior engineers distinguish themselves by turning vague requests into clear problems, explicit assumptions, bounded choices, and lower-risk executable work.
 - [Replace Your To-Do List With Interstitial Journaling To Increase Productivity](sources/replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity.md) - Tony Stubblebine proposes a transition journal that closes the previous work context, identifies a literal first action and strategy for the next project, and makes distraction easier to notice and recover from.
 - [电商系统的高并发库存扣减](sources/kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian.md) - Kikcat compares database updates, Redis locks, an event-driven in-memory stock system, and AliSQL Inventory Hint, then traces split brain, stale snapshots, reconciliation, and the tradeoffs among throughput, consistency, availability, complexity, and portability.
 - [Vine insiders say Twitter never liked what Vine became](sources/vine-insiders-say-twitter-never-liked-what-vine-became.md) - Daniel Roberts argues that Vine's user-led shift from art toward comedy and personality collided with weak creator support, monetization, acquisition alignment, and shutdown stewardship at Twitter.
@@ -419,6 +421,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Michael Abehsera](entities/MichaelAbehsera.md) - Front-end developer, UI designer, and design editor arguing that repeated public writing expands professional discovery and opportunity.
+- [Terrible Software](entities/TerribleSoftware.md) - Software-engineering publication represented here by a practitioner essay framing ambiguity reduction as the foundation of senior work.
 - [Tony Stubblebine](entities/TonyStubblebine.md) - Productivity writer and coach who formulated interstitial journaling as a repeatable project-transition ritual.
 - [Kikcat](entities/Kikcat.md) - Developer-author analyzing high-concurrency ecommerce inventory through database contention, Redis coordination, event-driven reconciliation, and failure recovery.
 - [eShares](entities/EShares.md) - Growth-stage software company whose 2015 employee course linked culture, leverage, management, finance, and compensation.
@@ -1325,6 +1329,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Ambiguity Reduction](concepts/AmbiguityReduction.md) - Turning vague goals into explicit problems, users, assumptions, downside, priorities, and bounded executable decisions.
 - [Interstitial Journaling](concepts/InterstitialJournaling.md) - Work-transition practice that records cognitive closure, a literal first action, and strategy before the next project begins.
 - [High-Concurrency Inventory Deduction](concepts/HighConcurrencyInventoryDeduction.md) - Coordinating simultaneous purchase attempts across order, inventory, cache, and database boundaries while bounding overselling, underselling, latency, and availability loss.
 - [Video as Content Container](concepts/VideoAsContentContainer.md) - Use of audiovisual media as a portable wrapper for text, motion, sound, live action, interface-like sequences, and advertising.
@@ -2113,7 +2118,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vuja De](concepts/VujaDe.md) - Practice of seeing a familiar situation afresh so experience informs judgment without automatically closing off changed possibilities.
 - [Startup Opportunity Selection](concepts/StartupOpportunitySelection.md) - Judgment that distinguishes commonplace startup activity from the rarer opportunity to found, join, or fund an exceptional company.
 
-- [Professional Blogging](concepts/ProfessionalBlogging.md) - Career-scale public writing that combines durable ideas, repeatable practice, owned distribution, direct audience relationships, and delayed professional value.
+- [Professional Blogging](concepts/ProfessionalBlogging.md) - Sustained public writing that combines audience fit, useful ideas, repeatable practice, durable distribution, and delayed professional opportunity.
 - [Serverless Computing](concepts/ServerlessComputing.md) - Managed cloud execution and service composition across functions, containers, events, storage, messaging, and delivery infrastructure.
 
 - [Emergent Product Identity](concepts/EmergentProductIdentity.md) - Product meaning and primary use that arise from users, creators, community norms, and competition rather than management intent alone.

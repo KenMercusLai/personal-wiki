@@ -346,12 +346,14 @@
       "c308d65b7459c3083fbe8747db3c1cfa1300510eb151ea59b2dd3a83e6b32705",
       "fe47ed722da8de36d7b9aa05663dec7e34eb48c658cbf16d30fc1dca83a4f168",
       "1b6bafe155daaa78f4011a63d32f21424ef5ce8dc3d2dd914275b79980c67902",
-      "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e"
+      "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e",
+      "805dfd300e50968dc6b27bd0078c86c95f1036d29e9c254ab43c40395792408e",
+      "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea"
     ],
-    "paragraph_count": 346
+    "paragraph_count": 348
   },
-  "overview_commit": "8401dfc7705c5f71c5144fd8e66a448976d365ca",
-  "overview_digest": "42474be16814791600b1785c60c525907a88e9523b5eaabf7d7b17c777c87fcc",
+  "overview_commit": "dfd08925456269f0eaacbaf012b73d38fe0d2540",
+  "overview_digest": "501f2a1e5bd57330412d138271306253bfad9fad9a78b937e8a31e341d270976",
   "paragraphs": [
     {
       "id": "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
@@ -7048,6 +7050,39 @@
         "Moltbook",
         "OpenClaw",
         "ProductionAgentInfrastructure"
+      ]
+    },
+    {
+      "id": "805dfd300e50968dc6b27bd0078c86c95f1036d29e9c254ab43c40395792408e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Terrible Software source adds [[AmbiguityReduction]] as a behavioral account of senior engineering judgment. Vague requests become executable when an engineer identifies the underlying problem and specific user, surfaces assumptions and the downside of being wrong, separates signal from noise, and divides immediate, deferred, and removable scope. This sharpens [[EngineeringCareerArchitecture]] by supplying evidence that technology, tenure, and algorithm checklists can miss: what someone does when the assignment itself is incomplete. It also aligns with [[UnderstandDesignBuild]] and [[PrematureImplementation]] by treating front-loaded clarification as project-risk reduction rather than delay. The synthesis retains an important limit: one practitioner essay does not establish ambiguity reduction as the single sufficient definition of seniority, and some uncertainty is better reduced through a bounded experiment than through more analysis. The article's only image is an abstract salt-crack texture with no independent evidence, so it was inspected and omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AmbiguityReduction",
+        "EngineeringCareerArchitecture",
+        "PrematureImplementation",
+        "UnderstandDesignBuild"
+      ]
+    },
+    {
+      "id": "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Michael Abehsera source adds a designer-focused layer to [[ProfessionalBlogging]] and [[ContentLedAcquisition]]. Across examples involving Eyal Zuri, Paul Jarvis, Nick Babich, Matt West, Andrew Graunke, and [[MichaelAbehsera]], public writing is associated with product traffic, course demand, speaking, executive dialogue, and recruitment. The actionable pattern is narrower than “write and opportunities appear”: choose the audience one wants, address a concrete struggle, deliver useful or entertaining value before mentioning paid help, take a focused position, and reduce startup friction by drafting before editing and publishing before the idea feels perfect. This reinforces [[PersonalBranding]] as discoverable work rather than persona alone, but the evidence remains selected and self-reported; it does not isolate writing from reputation, network, timing, topic quality, or survivorship, and the claimed revenue and traffic effects are not independently verified. The sole embedded asset was inspected and found to be an S3 redirect-error XML document rather than an image, so it was omitted and no visual manifest was created.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ContentLedAcquisition",
+        "MichaelAbehsera",
+        "PersonalBranding",
+        "ProfessionalBlogging"
       ]
     }
   ],

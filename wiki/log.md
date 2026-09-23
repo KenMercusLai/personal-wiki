@@ -3319,3 +3319,19 @@ Added PsiACE's proposal for turning Tape's immutable entries, anchors, views, an
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | What Actually Makes You Senior
+
+Added Terrible Software's practitioner argument that senior engineers distinguish themselves by turning vague requests into clear problems, explicit users, surfaced assumptions, understood downside, and bounded work before implementation. Created [[TerribleSoftware]] and [[AmbiguityReduction]], and updated [[EngineeringCareerArchitecture]] to use performance on underspecified work as one behavioral signal while preserving multidimensional, organization-specific leveling evidence. The source's claim that ambiguity reduction is the single core senior skill remains qualified by its anecdotal scope, the importance of technical depth and execution, and cases where a bounded experiment reduces uncertainty more cheaply than further analysis. The sole referenced image was opened and identified as a decorative abstract salt-crack texture, so it was omitted and no asset manifest was created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Write or fade away as a designer
+
+Added Michael Abehsera's designer-focused argument for public writing as professional leverage. Created [[MichaelAbehsera]] and updated [[ProfessionalBlogging]] and [[ContentLedAcquisition]] with audience-problem alignment, help-before-selling, starting-practice advice, and selected examples of traffic, teaching demand, speaking, relationship formation, and recruitment. Preserved qualifications around selection, self-reporting, causality, production cost, prior reputation, platform reach, and survivorship. The sole embedded asset was opened and identified as an S3 redirect-error XML document rather than an image, so it was omitted and no asset manifest was created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
