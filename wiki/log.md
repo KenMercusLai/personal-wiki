@@ -3383,3 +3383,11 @@ Added Wulc's 2017 summary of data-informed user operations and retention. Create
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Visual Attention: An Enormous Guide
+
+Added Nick Kolenda's nine-family taxonomy of visual attention and its central bottom-up versus top-down qualification. Created [[VisualAttention]] and [[NickKolenda]], connected the source to attention, behavior design, cognitive load, and expectation-breaking, and preserved limits around heterogeneous evidence, evolutionary storytelling, context, individual differences, and the distinction between capture and downstream value. All 83 remote instructional images were opened successfully through the original host or an archival fallback; retained the long nine-stimulus infographic as the most comprehensive non-redundant visual synthesis and omitted 82 decorative headers, section recaps, and prose-repeated examples.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

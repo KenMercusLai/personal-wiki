@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Visual Attention: An Enormous Guide](sources/visual-attention-an-enormous-guide.md) - Nick Kolenda organizes visual attention into nine stimulus families while showing that goal-directed search can reverse simple salience advice.
 - [如何用数据武装运营工作](sources/wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo.md) - Wulc links funnel decomposition, multidimensional diagnosis, and layered experiments into a data-driven operations loop while warning that metrics need context and cannot originate every discontinuous innovation.
 - [《认知红利》阅读笔记(2) - 大脑升级](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji.md) - Wulc summarizes emotional regulation, knowledge integration, focused work, structured problem solving, systems feedback, deliberate choice, planning, evolution, and innovation as practical but source-scoped frameworks.
 - [Writing great documentation](sources/writing-great-documentation-taylor-singletary-medium.md) - Taylor Singletary treats developer documentation as reader-centered narrative, actionable instruction, linked atomic content, scan-friendly reference design, product feedback, and continuous maintenance.
@@ -427,6 +428,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Nick Kolenda](entities/NickKolenda.md) - Marketing-psychology author translating visual-attention research into concrete design tactics and qualifications.
 - [Taylor Singletary](entities/TaylorSingletary.md) - Developer-relations practitioner advocating reader-centered, actionable, linked, and continuously maintained documentation.
 - [Nathan Kontny](entities/NathanKontny.md) - Marketing author who adapts Murray Davis's interestingness theory into an expectation-breaking creative filter.
 - [Casey Neistat](entities/CaseyNeistat.md) - Filmmaker and YouTuber used as the central case for expectation-breaking video and a broader viral-video checklist.
@@ -1340,6 +1342,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Visual Attention](concepts/VisualAttention.md) - Selective perceptual processing shaped by stimulus-driven signals, learned cues, viewer goals, and cognitive load.
 - [Data-Driven Operations](concepts/DataDrivenOperations.md) - Operational loop that decomposes one outcome into a funnel, diagnoses the weak stage by dimension, and tests interventions while preserving contextual judgment.
 - [Knowledge Integration](concepts/KnowledgeIntegration.md) - Filtering, externalizing, organizing, linking, retrieving, and recombining knowledge for a present question or action.
 - [Structured Problem Solving](concepts/StructuredProblemSolving.md) - Turning a vague difficulty into a desired-state gap, organized causal analysis, visible tradeoffs, and an executable response.

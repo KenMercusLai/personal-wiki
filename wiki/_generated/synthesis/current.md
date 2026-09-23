@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: d7788988e063ecfeac2579751043154764dae5d4
+as_of_overview_commit: dfbc06d7049fd64e695c73cfaaabc7159b5646c5
 summary: "Durable outcomes require grounded evidence, explicit tradeoffs, contextual metrics, representative feedback, and inspectable systems with human ownership."
-episode_count: 416
-source_count: 416
-paragraph_count: 350
+episode_count: 417
+source_count: 417
+paragraph_count: 351
 topic_count: 9
 ---
 
@@ -68,9 +68,9 @@ The bounded topic is mainly technical and institutional history: visible practic
 
 ### Psychology and Personal Development
 
-Progress depends on bounded attention, calibrated judgment, representative evidence, incentives, relationships, sequencing, feedback, and environments that make desired behavior repeatable without ignoring safety, access, power, health, or structural constraints.
+Progress depends on bounded and context-sensitive attention, calibrated judgment, representative evidence, incentives, relationships, sequencing, feedback, and environments that make desired behavior repeatable without ignoring safety, access, power, health, or structural constraints.
 
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the same principle to products by treating engagement as justified only when it advances the user's outside goal, with [[CognitiveOverheadInProductDesign]] qualifying when an explicit step lowers total burden. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]].
+- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; [[UtilityOrientedUX]] applies the same principle to products by treating engagement as justified only when it advances the user's outside goal, while [[VisualAttention]] shows that stimulus-driven contrast, motion, social cues, novelty, and self-relevance compete with top-down goals and can become easier to reject when conspicuous design signals irrelevance. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]].
 - [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; the leave-policy case adds that ambiguity and guilt can steer behavior as strongly as explicit rewards. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
 
 ### Science, Health, and Climate

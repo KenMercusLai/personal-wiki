@@ -350,12 +350,13 @@
       "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e",
       "805dfd300e50968dc6b27bd0078c86c95f1036d29e9c254ab43c40395792408e",
       "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea",
-      "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076"
+      "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076",
+      "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd"
     ],
-    "paragraph_count": 350
+    "paragraph_count": 351
   },
-  "overview_commit": "d7788988e063ecfeac2579751043154764dae5d4",
-  "overview_digest": "87ecd473dbb2ff5f13a7b855b63a2434ce8ddee637f866580ee2362d66162e87",
+  "overview_commit": "dfbc06d7049fd64e695c73cfaaabc7159b5646c5",
+  "overview_digest": "7b58ef4e90bdb91b166b2e0875caa4688654ce9fbb4112f02416361387c0aaeb",
   "paragraphs": [
     {
       "id": "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
@@ -7119,6 +7120,20 @@
       },
       "wikilinks": [
         "DeveloperDocumentation"
+      ]
+    },
+    {
+      "id": "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Nick Kolenda source adds [[VisualAttention]] as a context-sensitive bridge among perception, [[BehaviorDesign]], and the [[AttentionEconomy]]. Its nine stimulus families—salience, motion, people, animals, spatial cues, high arousal, unpredictability, self-relevance, and goal relevance—describe overlapping ways that a visible item can win limited processing capacity. The synthesis keeps the practical hierarchy rule: contrast in color, orientation, size, movement, direction, novelty, or personal relevance can create an entry point, while stacking every trigger can erase the contrast that produced salience. The bottom-up and top-down distinction supplies the stronger boundary: conspicuous design can interrupt low-load browsing, but focused viewers favor target-like information and may use ad-like salience as a reason to suppress a stimulus. The source is a marketer's secondary review rather than a systematic review; its laboratory findings, neural observations, evolutionary stories, and modern tactics should not be treated as one uniform evidence class, and capture does not establish comprehension, preference, trust, conversion, or value. All 83 remote instructional images were opened successfully through the original host or an archival fallback; the long nine-stimulus infographic was retained as the most comprehensive non-redundant visual synthesis, while 82 decorative headers, section recaps, and prose-repeated examples were omitted.",
+      "topic_scores": {
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "AttentionEconomy",
+        "BehaviorDesign",
+        "VisualAttention"
       ]
     }
   ],
