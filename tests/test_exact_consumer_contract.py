@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import hashlib
 import importlib.util
 import json
@@ -133,6 +134,38 @@ class ExactConsumerContractTest(unittest.TestCase):
         for source_key, filename, alt in image_records(ROOT):
             source = (ROOT / ".generated/wiki/sources" / source_key / "index.md").read_text()
             self.assertIn(f"![{alt}]({filename})", source)
+
+    def test_complete_webp_encodings_are_supported(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_webp_encodings")
+        fixtures = {
+            "lossy VP8": "UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoCAAMAAUAmJaACdLoB+AADsAD+8ut//NgVzXPv9//S4P0uD9Lg/9KQAAA=",
+            "lossless VP8L": "UklGRhwAAABXRUJQVlA4TA8AAAAvAYAAAAcQ/Y/+ByKi/wEA",
+        }
+        for label, encoded in fixtures.items():
+            with self.subTest(label=label):
+                data = base64.b64decode(encoded)
+                self.assertEqual(prepare._image_dimensions(data, ".webp"), (2, 3))
+
+    def test_malformed_webp_encodings_are_rejected(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_invalid_webp_encodings")
+        lossy = base64.b64decode(
+            "UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoCAAMAAUAmJaACdLoB+AADsAD+8ut//NgVzXPv9//S4P0uD9Lg/9KQAAA="
+        )
+        lossless = base64.b64decode("UklGRhwAAABXRUJQVlA4TA8AAAAvAYAAAAcQ/Y/+ByKi/wEA")
+        malformed = {
+            "truncated RIFF": lossy[:-1],
+            "truncated VP8 chunk": lossy[:30],
+            "zero-length VP8 chunk": lossy[:16] + b"\x00\x00\x00\x00" + lossy[20:],
+            "VP8 interframe": lossy[:20] + bytes([lossy[20] | 1]) + lossy[21:],
+            "VP8 invalid profile": lossy[:20] + bytes([lossy[20] | 0x08]) + lossy[21:],
+            "VP8 oversized first partition": lossy[:20] + b"\x10\xff\xff" + lossy[23:],
+            "VP8L nonzero version": lossless[:24] + bytes([lossless[24] | 0x20]) + lossless[25:],
+        }
+        for label, data in malformed.items():
+            with self.subTest(label=label), self.assertRaisesRegex(
+                ValueError, "invalid WebP encoding"
+            ):
+                prepare._image_dimensions(data, ".webp")
 
     def test_source_projection_rewrites_canonical_image_reference_in_place(self):
         prepare = load_script(PREPARE, "prepare_personal_wiki_explicit_image_reference")
