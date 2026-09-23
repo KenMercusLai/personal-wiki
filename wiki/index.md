@@ -428,9 +428,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Neural Network in 11 lines of Python (Part 1)](sources/iamtrask-a-neural-network-in-11-lines-of-python-part-1.md) - iamtrask explains sigmoid networks, full-batch weight updates, backpropagation, and hidden-layer XOR learning in compact NumPy.
 - [深度解读：OpenClaw 架构及生态](sources/lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai.md) - Lencx analyzes OpenClaw's embedded engine, IM bus, Skills, persistent sessions, heartbeats, model routing, Moltbook ecosystem, token economics, and prompt-injection and credential risks.
 - [“Convince Me” said the Investor. “No” said the Founder.](sources/convince-me-said-the-investor-no-said-the-founder-hunter-walk.md) - Hunter Walk argues that founders should treat fundraising as mutual selection and end low-value persuasion contests when an investor offers neither likely capital nor grounded feedback.
+- [You Should Plan On Switching Jobs Every Three Years For The Rest Of Your Life](sources/vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life.md) - Vivian Giang presents Patty McCord's three-to-four-year job-mobility heuristic as a route to faster learning while leaving its pay and performance claims unproven.
 
 ## Entities
 
+- [Vivian Giang](entities/VivianGiang.md) - Career and workplace writer presenting job mobility as a potentially deliberate development strategy.
+- [Patty McCord](entities/PattyMcCord.md) - Former Netflix talent executive advocating contributor-centered employment and periodic moves for faster learning.
 - [Xavier Amatriain](entities/XavierAmatriain.md) - Outside observer framing Yahoo's decline as an interacting organizational system rather than one failed decision.
 - [Hadoop](entities/Hadoop.md) - Data-infrastructure project used here as a qualified example of research contribution without equivalent business-value capture.
 - [FastAPI](entities/FastAPI.md) - Python web framework used here to contrast request-scoped background work with lifespan-owned asynchronous workers.
@@ -1348,6 +1351,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Strategic Job Mobility](concepts/StrategicJobMobility.md) - Deliberate employer changes pursued for learning, responsibility, fit, or market position rather than a fixed switching timer.
 - [Founder-Investor Fit](concepts/FounderInvestorFit.md) - Two-way assessment of informed conviction, mutual respect, and working compatibility before a founder and investor enter a long-term financing relationship.
 - [Research-to-Product Transfer](concepts/ResearchToProductTransfer.md) - Organizational capability that moves ideas and prototypes from research into products, operations, and measurable impact.
 - [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Use of acquisitions to advance a coherent direction while managing talent, product, focus, and cultural integration.

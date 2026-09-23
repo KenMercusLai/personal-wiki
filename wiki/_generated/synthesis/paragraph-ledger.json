@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "45c9a840016e35306eb1d18de4aa1d8046f770b0b3f502c3801a5eb63b3a706e",
       "fe3454d8658a904e36fe7c88124439d045eef2106675d5269cf570ea995eeff0",
       "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
       "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
@@ -356,11 +357,26 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 354
+    "paragraph_count": 355
   },
-  "overview_commit": "8bcf8a05ede2c5398b0eb320066f4c5f46031430",
-  "overview_digest": "1a475526a4ac714c54e7949955cae2c1f1149cd84f0a4c3e9c9fa3dabb3ecbde",
+  "overview_commit": "85867a3c75a9ea5dc3a8c58fcac55874079ce335",
+  "overview_digest": "410448279f244e96d7165566f9d02c3ae4c479d04569cb1886ab0832b80eff01",
   "paragraphs": [
+    {
+      "id": "45c9a840016e35306eb1d18de4aa1d8046f770b0b3f502c3801a5eb63b3a706e",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Vivian Giang source adds [[StrategicJobMobility]] to the wiki's career-planning and workplace-learning material. [[PattyMcCord]] recommends that young workers consider changing companies every three to four years because unfamiliar organizations create steeper learning curves and pressure to contribute quickly; [[VivianGiang]] also reports that the older stigma linking short tenure to disloyalty was weakening. The useful synthesis is conditional rather than calendrical: a move should create meaningful learning, responsibility, fit, compensation, or future-option gains that exceed switching costs and the value still available in the current role. The article is a short 2016 advice piece built from expert commentary and secondary reporting, so its large pay claim does not establish causation and its cadence should not be generalized across occupations, benefits, visas, caregiving constraints, or roles where institutional knowledge and long-term relationships compound.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "PattyMcCord",
+        "StrategicJobMobility",
+        "VivianGiang"
+      ]
+    },
     {
       "id": "fe3454d8658a904e36fe7c88124439d045eef2106675d5269cf570ea995eeff0",
       "primary_topic": "business-and-markets",

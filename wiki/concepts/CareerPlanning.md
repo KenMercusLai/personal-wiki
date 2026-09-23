@@ -13,7 +13,8 @@ sources:
   - blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me
   - blog-tim-urban-waitbutwhy-how-to-pick-a-career
   - would-i-do-this-for-10-years
-last_updated: 2026-09-23
+  - vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -27,6 +28,8 @@ Urban adds the strongest self-audit and uncertainty frame. His [[WantRealityCare
 
 Shipper sharpens the feedback rule for early entrepreneurship. A beginner should not treat imagined willingness to pursue a new idea for ten years as reliable evidence, because durable preference is difficult to infer before experience and early company results fluctuate sharply. The nearer question is whether the work is producing the kind of learning the person wants. This does not rule out long commitments; it postpones that judgment until lived evidence can replace mood and projection.
 
+Giang and McCord add employer tenure as another revisable career variable. A move can be useful when a new company creates a steeper learning curve, greater responsibility, better fit, or stronger market position, but the article's three-to-four-year suggestion is a heuristic rather than an evidence-based deadline. [[StrategicJobMobility]] therefore extends the experimental-path model: staying and leaving should both be justified by what they make learnable or reachable next.
+
 Career planning sometimes begins after an old plan becomes impossible or loses meaning, not after a neat strategic exercise. Entering tech around 30 can mean starting over among younger, more technically advanced peers, while also bringing prior management experience, social confidence, and clearer values about the work and people one wants.
 
 ## Key Claims
@@ -36,7 +39,7 @@ Career planning sometimes begins after an old plan becomes impossible or loses m
 - Alternative career paths should be tested against financial constraints, social support, psychological cost, and a time-boxed exit option.
 - Side projects can support a career transition when they make missing or doubted experience concrete.
 - Non-linear careers can still have coherence when experiments repeatedly return to the same values, mediums, problems, and communities.
-- Career choices should be treated as staged experiments under uncertainty, using desired learning and other proximal evidence instead of demanding confident forecasts about a distant future self.
+- Career choices should be treated as staged experiments under uncertainty, using desired learning, fit, responsibility, future option value, and other proximal evidence to judge both employer tenure and larger path changes instead of relying on loyalty norms, fixed timers, or confident forecasts about a distant future self.
 
 ## Evidence
 - Fit dimensions: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] presents gifts, passion, and values as the elements behind career reflection, while [[blog-tim-urban-waitbutwhy-how-to-pick-a-career]] warns that wants and fears need auditing before they can be trusted.
@@ -56,15 +59,17 @@ Career planning sometimes begins after an old plan becomes impossible or loses m
 - Organizational realism: [[blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me]] separates technical merit from promotion and compensation, warns about dishonest employers, and treats hierarchy, relationships, and emotional intelligence as career realities.
 - Want/Reality audit: [[blog-tim-urban-waitbutwhy-how-to-pick-a-career]] uses inspected diagrams of the option pool, Yearning Octopus, yearning hierarchy, pace-and-persistence distances, and feedback loops to support a structured career self-audit.
 - Early-founder feedback: [[would-i-do-this-for-10-years]] argues that novices cannot reliably distinguish temporary enthusiasm from durable interest and should ask whether they are learning what they want to learn instead of forecasting ten years of commitment.
+- Employer mobility: [[vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life]] argues that changing companies can create faster learning and cites a three-to-four-year heuristic, without establishing a universal optimal cadence.
 
 ## Counterevidence & Qualifications
-The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, freelancing may be unwise under heavy debt, family support obligations, or weak income prospects, and a side project may have little hiring impact if it is not relevant, deep, iterated, and visible. Wibowo's source adds that sexism and harassment can distort career planning by making otherwise meaningful technical environments unsafe or demoralizing. James adds an organizational qualification: even a well-evidenced promotion plan can stall because of company ambiguity, budget, values mismatch, weak manager alignment, burnout, or lack of suitable scope. Chen adds that job decisions remain partly emotional, and that some people may over-prepare for future roles they could already attempt because of risk aversion or imposter syndrome. Banks' article is aphoristic and self-directed, so its life-stage claims should be adapted to actual family, financial, health, spiritual, and labor-market context. The junior-developer source is intentionally encouraging, so its optimism should be held together with its own cautions about risk, family time, burnout, and the emotional cost of being older and junior. Urban's framework adds useful introspection but may still underweight structural barriers, discrimination, immigration limits, health constraints, and caregiving demands that cannot be solved by better self-knowledge alone. Shipper's learning test can also become a reason to continue work with poor economics, harmful conditions, or no user value; learning is one continuation signal, not a complete startup or career scorecard.
+The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, freelancing may be unwise under heavy debt, family support obligations, or weak income prospects, and a side project may have little hiring impact if it is not relevant, deep, iterated, and visible. Wibowo's source adds that sexism and harassment can distort career planning by making otherwise meaningful technical environments unsafe or demoralizing. James adds an organizational qualification: even a well-evidenced promotion plan can stall because of company ambiguity, budget, values mismatch, weak manager alignment, burnout, or lack of suitable scope. Chen adds that job decisions remain partly emotional, and that some people may over-prepare for future roles they could already attempt because of risk aversion or imposter syndrome. Banks' article is aphoristic and self-directed, so its life-stage claims should be adapted to actual family, financial, health, spiritual, and labor-market context. The junior-developer source is intentionally encouraging, so its optimism should be held together with its own cautions about risk, family time, burnout, and the emotional cost of being older and junior. Urban's framework adds useful introspection but may still underweight structural barriers, discrimination, immigration limits, health constraints, and caregiving demands that cannot be solved by better self-knowledge alone. Shipper's learning test can also become a reason to continue work with poor economics, harmful conditions, or no user value; learning is one continuation signal, not a complete startup or career scorecard. Giang's article similarly does not establish that a fixed switching cadence causes better pay, learning, performance, or loyalty; occupational differences, selection effects, benefits, visas, caregiving, institutional knowledge, and relationship compounding can all change the decision.
 
 ## What Changed
 - Added [[WantRealityCareerFramework]] as a self-audit and reality-audit model for career decisions.
 - Reframed career moves as next-dot experiments with feedback rather than irreversible tunnel choices.
 - Added inherited motives, conventional wisdom, and changing career game boards as career-planning risks.
 - Added desired learning as a proximal continuation test when long-horizon preference forecasts are premature.
+- Added employer tenure as a revisable career variable and qualified the three-to-four-year mobility heuristic.
 
 ## Related Concepts
 - [[GPVCareerFormula]] - provides the source's three-factor method for judging career fit.
@@ -80,3 +85,4 @@ The sources are reflective advice and personal experience, not systematic career
 - [[TechCommunityParticipation]] - community involvement can create relationships, confidence, and opportunities during a career change.
 - [[BurnoutPrevention]] - career plans need recovery and boundaries when effort becomes endless.
 - [[OpportunityCost]] - each career choice spends time and attention that could have gone to other paths.
+- [[StrategicJobMobility]] - applies career experimentation to the decision to stay with or leave an employer.

@@ -3415,3 +3415,11 @@ Added Hunter Walk's founder-investor fit and selective-disengagement argument. C
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | You Should Plan On Switching Jobs Every Three Years For The Rest Of Your Life
+
+Added Vivian Giang's account of Patty McCord's three-to-four-year job-mobility heuristic. Created [[StrategicJobMobility]], [[VivianGiang]], and [[PattyMcCord]], and updated [[CareerPlanning]] to treat employer tenure as a revisable choice based on learning, responsibility, fit, compensation, and future options rather than loyalty norms or a fixed timer. Preserved the central qualification that the 2016 article offers expert commentary and secondary claims rather than causal or longitudinal evidence, so the suggested cadence is not universal. The source contains no image references, so no visual assets or manifest were created. Downstream synthesis refreshed work, education, and society; global compaction ran because the updated candidate set crossed the material-change gate.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

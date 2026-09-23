@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 8bcf8a05ede2c5398b0eb320066f4c5f46031430
-summary: "Durable outcomes require grounded evidence, explicit tradeoffs, coherent organizations, contextual metrics, inspectable systems, and accountable human judgment."
-episode_count: 420
-source_count: 420
-paragraph_count: 354
+as_of_overview_commit: 85867a3c75a9ea5dc3a8c58fcac55874079ce335
+summary: "Durable outcomes require grounded evidence, explicit tradeoffs, coherent organizations, inspectable systems, and accountable human judgment."
+episode_count: 421
+source_count: 421
+paragraph_count: 355
 topic_count: 9
 ---
 
@@ -23,7 +23,7 @@ topic_count: 9
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone.
 - [[Yahoo]] links [[TalentDensity]], [[StartupFocus]], [[AcquisitionStrategy]], [[ResearchToProductTransfer]], and [[StartupCulture]] as one organizational-coherence problem: weaker hiring and retention, an unconstrained portfolio, acquisition-led talent repair, and research without a product path can compound, while [[MarissaMayer]]'s mobile-capability rationale shows that a locally valid intervention can still have disputed company-wide effects.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
-- [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
+- [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[StrategicJobMobility]] adds employer tenure as a conditional learning, fit, responsibility, compensation, and future-option decision rather than a fixed timer, [[InMarketJobSearch]] adds the case where local presence precedes a location-bound search, [[StartupJobDiligence]] asks whether responsibility and learning through environments such as [[JustinTV]] justify weak structure and instability, [[StartupOpportunitySelection]] distinguishes plentiful startup activity from rare exceptional-company experience, and [[IntrovertedLeadership]] shows [[StephaneKasriel]] deliberately expanding an engineer's social and people-management range without treating introversion as disqualifying.
 
 ## Synthesis by Domain
 
@@ -81,7 +81,7 @@ This heterogeneous topic offers source-scoped scientific-computing, language-mod
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, and organizations that connect people and ideas to strategic impact.
+Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, and career choices that weigh learning and future options against real switching constraints.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
