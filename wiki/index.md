@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [《认知红利》阅读笔记(2) - 大脑升级](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji.md) - Wulc summarizes emotional regulation, knowledge integration, focused work, structured problem solving, systems feedback, deliberate choice, planning, evolution, and innovation as practical but source-scoped frameworks.
 - [Writing great documentation](sources/writing-great-documentation-taylor-singletary-medium.md) - Taylor Singletary treats developer documentation as reader-centered narrative, actionable instruction, linked atomic content, scan-friendly reference design, product feedback, and continuous maintenance.
 - [Viral Marketing](sources/viral-marketing-the-set-list-medium.md) - Nathan Kontny applies Murray Davis's negation pattern to Casey Neistat videos and the satirical Trick a Journalist campaign, treating expectation-breaking as a creative filter rather than a guarantee of virality.
 - [《认知红利》阅读笔记(1) - 概念重塑](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su.md) - Wulc summarizes attention, time leverage, compounding, identity, metacognition, strategic potential, idea valuation, uncertainty, and luck through practical frameworks and eight inspected diagrams.
@@ -1338,6 +1339,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Knowledge Integration](concepts/KnowledgeIntegration.md) - Filtering, externalizing, organizing, linking, retrieving, and recombining knowledge for a present question or action.
+- [Structured Problem Solving](concepts/StructuredProblemSolving.md) - Turning a vague difficulty into a desired-state gap, organized causal analysis, visible tradeoffs, and an executable response.
+- [Systems Thinking](concepts/SystemsThinking.md) - Explaining behavior through relationships, feedback loops, boundaries, change over time, and system archetypes.
 - [Developer Documentation](concepts/DeveloperDocumentation.md) - Task guidance, concepts, examples, reference facts, links, and feedback loops that help developers begin, act, recover, and gain mastery.
 - [Expectation-Breaking Content](concepts/ExpectationBreakingContent.md) - Creative strategy that makes an idea interesting through a recognizable assumption and credible reversal, without guaranteeing virality or conversion.
 - [Filesystem Unmounting](concepts/FilesystemUnmounting.md) - Releasing or accounting for active filesystem dependencies before removing a mount, with explicit limits on lazy, forced, and backing-volume operations.

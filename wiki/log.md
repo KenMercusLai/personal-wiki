@@ -3367,3 +3367,11 @@ Added Taylor Singletary's practitioner framework for reader-centered, actionable
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | 《认知红利》阅读笔记(2) - 大脑升级
+
+Added Wulc's synthesis of emotional regulation, knowledge integration, focus, problem definition, causal and structural reasoning, systems feedback, deliberate choice, planning, evolution, and innovation. Created [[KnowledgeIntegration]], [[StructuredProblemSolving]], and [[SystemsThinking]], and updated [[MetacognitiveFeedback]] and [[Wulc]] while preserving qualifications around secondary-source evidence, emotional suppression, binary knowledge labels, false causal structure, quantification, and universalized rest advice. The source contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
