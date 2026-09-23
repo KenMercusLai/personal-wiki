@@ -245,11 +245,36 @@ def _image_dimensions(data: bytes, suffix: str) -> tuple[int, int]:
             offset += length
         raise ValueError("JPEG dimensions are missing")
     if suffix == ".webp":
-        if len(data) < 30 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
+        if len(data) < 20 or data[:4] != b"RIFF" or data[8:12] != b"WEBP":
+            raise ValueError("invalid WebP encoding")
+        riff_size = int.from_bytes(data[4:8], "little")
+        chunk_size = int.from_bytes(data[16:20], "little")
+        chunk_end = 20 + chunk_size
+        if riff_size != len(data) - 8 or chunk_end > len(data) or chunk_end + (chunk_size & 1) > len(data):
             raise ValueError("invalid WebP encoding")
         kind = data[12:16]
         if kind == b"VP8X":
+            if chunk_size < 10:
+                raise ValueError("invalid WebP encoding")
             return 1 + int.from_bytes(data[24:27], "little"), 1 + int.from_bytes(data[27:30], "little")
+        if kind == b"VP8 ":
+            if chunk_size < 10 or data[23:26] != b"\x9d\x01\x2a":
+                raise ValueError("invalid WebP encoding")
+            frame_tag = int.from_bytes(data[20:23], "little")
+            profile = (frame_tag >> 1) & 0x07
+            first_partition_length = frame_tag >> 5
+            if frame_tag & 1 or profile > 3 or not (frame_tag & 0x10):
+                raise ValueError("invalid WebP encoding")
+            if first_partition_length > chunk_size - 10:
+                raise ValueError("invalid WebP encoding")
+            return int.from_bytes(data[26:28], "little") & 0x3FFF, int.from_bytes(data[28:30], "little") & 0x3FFF
+        if kind == b"VP8L":
+            if chunk_size < 5 or data[20] != 0x2F:
+                raise ValueError("invalid WebP encoding")
+            bits = int.from_bytes(data[21:25], "little")
+            if bits >> 29:
+                raise ValueError("invalid WebP encoding")
+            return 1 + (bits & 0x3FFF), 1 + ((bits >> 14) & 0x3FFF)
         raise ValueError("unsupported WebP encoding")
     raise ValueError("unsupported image format")
 
