@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [“The Linux of social media”—How LiveJournal pioneered (then lost) blogging](sources/the-linux-of-social-media-how-livejournal-pioneered-then-lost-blogging-ars-technica.md) - Steven T. Wright traces LiveJournal's feature leadership and community value alongside infrastructure strain, governance debt, policy conflict, acquisition mismatch, and failure to adapt to public-feed social media.
 - [“How-do-you-feel dinners” - Thinking about Startups](sources/how-do-you-feel-dinners-thinking-about-startups.md) - A recurring founder check-in surfaces personal pressures before work and strategy, sometimes clarifying that separation is healthier than continued drift.
 - [What lessons can Silicon Valley tech executives learn from what went wrong at Yahoo?](sources/xavier-amatriains-answer-to-what-lessons-can-silicon-valley-tech-executives-learn-from-what-went-wrong-at-yahoo-quora.md) - Xavier Amatriain diagnoses Yahoo's decline as a compounding failure of talent density, strategic focus, acquisition integration, research transfer, and culture.
 - [Python Web 框架中的后台任务](sources/yuchanns-python-web-kuang-jia-zhong-de-hou-tai-ren-wu.md) - Yuchanns distinguishes request follow-up work from a continuous service worker and manages the latter through FastAPI lifespan and asyncio cancellation.
@@ -434,6 +435,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [LiveJournal](entities/LiveJournal.md) - Early journal-centered social platform whose technical and community innovation was constrained by operational strain, governance conflict, and ownership mismatch.
+- [Brad Fitzpatrick](entities/BradFitzpatrick.md) - LiveJournal founder whose behavior-led feature invention scaled a personal CGI experiment into a major platform and a management bottleneck.
+- [Six Apart](entities/SixApart.md) - Blogging-software company whose 2005 LiveJournal acquisition exposed a mismatch between commercial pressure and inherited community commitments.
+- [Dreamwidth](entities/Dreamwidth.md) - Community-oriented LiveJournal fork founded by former contributors and later used by people leaving Russian-hosted LiveJournal.
 - [Vivian Giang](entities/VivianGiang.md) - Career and workplace writer presenting job mobility as a potentially deliberate development strategy.
 - [Patty McCord](entities/PattyMcCord.md) - Former Netflix talent executive advocating contributor-centered employment and periodic moves for faster learning.
 - [Xavier Amatriain](entities/XavierAmatriain.md) - Outside observer framing Yahoo's decline as an interacting organizational system rather than one failed decision.
@@ -1353,6 +1358,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Community Governance Debt](concepts/CommunityGovernanceDebt.md) - Accumulated promises, precedents, informal decision rights, policy ambiguity, and distrust that make later platform change costly.
 - [Technology Transition Strategy](concepts/TechnologyTransitionStrategy.md) - Choosing how directly to commit to an emerging ecosystem or architecture while bounding compatibility, migration, and retirement costs.
 - [Strategic Job Mobility](concepts/StrategicJobMobility.md) - Deliberate employer changes pursued for learning, responsibility, fit, or market position rather than a fixed switching timer.
 - [Founder-Investor Fit](concepts/FounderInvestorFit.md) - Two-way assessment of informed conviction, mutual respect, and working compatibility before a founder and investor enter a long-term financing relationship.

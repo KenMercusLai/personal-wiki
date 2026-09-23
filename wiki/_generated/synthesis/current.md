@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 86a69cba8af696fcee2a637614f9ce19053a0e60
+as_of_overview_commit: 6c967f81dae97f42703981b75cb2512078423e4f
 summary: "Durable outcomes require grounded evidence, explicit tradeoffs, coherent organizations, inspectable systems, and accountable human judgment."
-episode_count: 423
-source_count: 423
-paragraph_count: 357
+episode_count: 424
+source_count: 424
+paragraph_count: 358
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees.
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone.
 - [[Yahoo]] links [[TalentDensity]], [[StartupFocus]], [[AcquisitionStrategy]], [[ResearchToProductTransfer]], and [[StartupCulture]] as one organizational-coherence problem: weaker hiring and retention, an unconstrained portfolio, acquisition-led talent repair, and research without a product path can compound, while [[MarissaMayer]]'s mobile-capability rationale shows that a locally valid intervention can still have disputed company-wide effects.
-- Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
+- Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, browser choice, safety, cloud workloads, or regulation; [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], and [[WebCentralization]] show browser defaults and nonprofit counterweights, while [[AWS]], [[Oracle]], and [[EnterpriseCloudMigration]] show supplier power shifting with critical workloads. [[LiveJournal]] and [[CommunityGovernanceDebt]] add that founder promises, volunteer authority, personalized support, policy precedent, and distrust can harden into informal decision rights; [[PlatformAbuseResponse]] further shows that personal controls and literal rules need platform-level protection, contextual standards, and accountable discretion, while credible alternatives such as [[Dreamwidth]] can discipline institutional power.
 - [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[StrategicJobMobility]] adds employer tenure as a conditional learning, fit, responsibility, compensation, and future-option decision rather than a fixed timer, [[InMarketJobSearch]] adds the case where local presence precedes a location-bound search, [[StartupJobDiligence]] asks whether responsibility and learning through environments such as [[JustinTV]] justify weak structure and instability, [[StartupOpportunitySelection]] distinguishes plentiful startup activity from rare exceptional-company experience, and [[IntrovertedLeadership]] shows [[StephaneKasriel]] deliberately expanding an engineer's social and people-management range without treating introversion as disqualifying.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ Durable technical progress joins system understanding, scope-aware architecture,
 
 ### Business and Markets
 
-Companies turn scarce resources into durable advantage when demand, incentives, ownership, founder alignment, technology transitions, culture, talent, portfolio focus, research transfer, reliability, metrics, and retained value are explicit and tested.
+Companies turn scarce resources into durable advantage when demand, incentives, ownership, founder alignment, technology transitions, culture, talent, portfolio focus, research transfer, platform identity, governance, reliability, metrics, and retained value are explicit and tested.
 
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone. Evidence: [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]].
@@ -50,14 +50,14 @@ Infrastructure works across domains when hidden flows, constraints, ownership bo
 
 ### Culture and Media
 
-Media form, infrastructure, feedback, audience assumptions, preservation, and business models jointly shape creation, discovery, access, identity, payment, and durability.
+Media form, infrastructure, feedback, audience assumptions, community norms, preservation, and business models jointly shape creation, discovery, identity, access, payment, and durability.
 
 - [[HunterWalk]] links growth in [[DigitalMediaMonetization]] through direct audience payment to familiar low-friction checkout, personal creator support, stronger niche per-customer economics, and an advertising orientation at [[Google]] and [[Facebook]], while [[CreatorEconomyStartups]] shows that payment access does not remove concentration, distribution, churn, take-rate, or defensibility problems. Evidence: [[HunterWalk]], [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[WebAdEconomics]], [[CreatorEconomyStartups]], [[Google]], [[Facebook]], [[Stripe]].
 - [[AnonymousSourcing]] trades access and source safety against audience verifiability: [[HunterWalk]] argues that hidden role, access, incentives, and bias weaken unnamed criticism, while genuine jeopardy can still justify protection and confidential allegations can direct reporting toward corroboration. Evidence: [[AnonymousSourcing]], [[HunterWalk]].
 
 ### Governance and Institutions
 
-Accountability across platforms and institutions depends on explicit ownership, usable controls, observable behavior, capacity, credible alternatives, and honest trust boundaries.
+Accountability across platforms and institutions depends on explicit ownership, usable controls, contextual standards, observable behavior, capacity, credible alternatives, and honest trust boundaries.
 
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust. Evidence: [[ArtworkPersonalization]], [[PrivacyPovertyDivide]], [[AlgorithmicDecisionOpacity]], [[VolunteerCampaignTechnology]], [[CampaignTechnologyAccountability]].
 - Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, staged activation, and explicit recovery boundaries that let operators compare behavior before broad rollout and repair the actual current state when code reversion is insufficient. Evidence: [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[DeploymentAutomation]], [[ContinuousDelivery]], [[DanMcKinley]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]].

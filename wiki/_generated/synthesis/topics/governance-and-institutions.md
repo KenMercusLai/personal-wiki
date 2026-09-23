@@ -3,16 +3,16 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-09-23
-as_of_overview_commit: 0b8a28cbf80a8eafb04de78b3abadef707a0f16a
-input_digest: 6c5ed5a96580d73df0317c91f7db272287dad38f10db776422693c862ea87ffb
+last_updated: 2026-09-24
+as_of_overview_commit: 6c967f81dae97f42703981b75cb2512078423e4f
+input_digest: 7a4c39f8b23ce38ad9725163487878b9dadc05e44c43318ee82ae767d90256a8
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone; [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself.
+Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone; [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[LiveJournal]] adds [[CommunityGovernanceDebt]] as a platform boundary: founder promises, volunteer authority, personalized support, policy ambiguity, ownership change, and distrust can turn later product and business change into a legitimacy problem, while “Nipplegate” shows reporting tools and literal rules becoming abuse surfaces when moderators lack contextual standards and trusted discretion. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself.
 
 ## Cross-source Findings
 
@@ -115,9 +115,9 @@ Scale turns informal or one-off practices into boundary-design problems across o
 
 ### Platform Trust Is A Strategic Asset
 
-Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, browser choice, safety, cloud workloads, or regulation; [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], and [[WebCentralization]] show browser defaults and nonprofit counterweights as part of web governance, [[AWS]], [[Oracle]], and [[EnterpriseCloudMigration]] show supplier power shifting when critical infrastructure workloads move, while [[PlatformAbuseResponse]], [[Twitter]], and [[SocialMediaCuration]] show that personal controls need platform-level harassment prevention and exit-oriented technology arguments stress that credible alternatives can discipline institutional power.
+Platforms and institutions gain power when they become trusted intermediaries for discovery, payment, content access, browser choice, safety, cloud workloads, or regulation; [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], and [[WebCentralization]] show browser defaults and nonprofit counterweights, while [[AWS]], [[Oracle]], and [[EnterpriseCloudMigration]] show supplier power shifting with critical workloads. [[LiveJournal]] and [[CommunityGovernanceDebt]] add that founder promises, volunteer authority, personalized support, policy precedent, and distrust can harden into informal decision rights; [[PlatformAbuseResponse]] further shows that personal controls and literal rules need platform-level protection, contextual standards, and accountable discretion, while credible alternatives such as [[Dreamwidth]] can discipline institutional power.
 
-**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[AWS]], [[Oracle]], [[EnterpriseCloudMigration]], [[ExitAsGovernance]], [[PlatformAbuseResponse]], [[Twitter]], [[SocialMediaCuration]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[WebCentralization]]
+**Evidence:** [[AppleContentDistributionStrategy]], [[StreamingContentEconomics]], [[BrowserPaymentBroker]], [[WebAdEconomics]], [[DeveloperPlatformTrust]], [[AWS]], [[Oracle]], [[EnterpriseCloudMigration]], [[ExitAsGovernance]], [[PlatformAbuseResponse]], [[Twitter]], [[SocialMediaCuration]], [[Chrome]], [[Firefox]], [[Mozilla]], [[Google]], [[WebCentralization]], [[LiveJournal]], [[CommunityGovernanceDebt]], [[Dreamwidth]]
 
 **Qualifications:**
 
@@ -126,6 +126,7 @@ Platforms and institutions gain power when they become trusted intermediaries fo
 - The Amazon-Oracle database migration evidence is a 2018 CNBC report and does not verify the migration's final outcome or current Oracle/AWS market positions.
 - Exit-oriented arguments can understate unequal capacity to leave and the possibility that new software platforms create their own lock-in.
 - Personal curation helps some users reduce exposure, but Fowler's account explicitly says it is easier for people who are not frequent harassment targets.
+- The LiveJournal account is retrospective; user resistance may protect privacy or community value, so governance debt does not make management preferences automatically legitimate.
 
 ### Exit And Voice Discipline Institutions
 

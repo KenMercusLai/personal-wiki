@@ -3312,6 +3312,10 @@ Added Tony Stubblebine's transition-based journaling method for closing the prev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-24] ingest | “The Linux of social media”—How LiveJournal pioneered (then lost) blogging
+
+Added Steven T. Wright's retrospective on LiveJournal's rise from Brad Fitzpatrick's dorm-room posting script to a ten-million-account social platform and its decline through operational strain, founder burnout, policy conflict, commercialization pressure, acquisition mismatch, and competition from public-feed networks. Created [[LiveJournal]], [[BradFitzpatrick]], [[SixApart]], [[Dreamwidth]], and [[CommunityGovernanceDebt]]; updated [[EmergentProductIdentity]] and [[PlatformAbuseResponse]] with community-shaped product identity, adversarial reporting, contextual moderation, and the cost of inherited promises and distrust. All four unique local images were opened: two duplicate Jon Snow stills and a generic social-app phone photograph were omitted, while a memcached hits-and-misses chart was retained with a descriptive filename and explicit qualification that it is a 2013 Ars server example rather than LiveJournal performance data.
+
 ## [2026-09-24] ingest | tape x topic: 我对智能体上下文的组织方式
 
 Added PsiACE's proposal for turning Tape's immutable entries, anchors, views, and handoff into business-facing topic ranges. Created [[AgentTopicLifecycle]], and updated [[TapeAndAnchors]], [[AgentMemory]], [[PsiACE]], and [[Bub]] with explicit topic boundaries, lifecycle hooks, indexed recall, unfinished-topic recovery, infrastructure portability, sharing, fact extraction, and token-cost accounting. Preserved the proposal's unresolved concurrency, topic-boundary, correction, privacy, access-control, deletion, retrieval-quality, and hook-reliability questions. All four referenced diagrams were opened and retained under descriptive canonical filenames because they independently show the range model, common lifecycle, recall-anchor flow, and aborted-topic recovery path.
@@ -3435,6 +3439,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] ingest | “How-do-you-feel dinners” - Thinking about Startups
 
 Added a recurring founder check-in that moves from personal life, to work, to desired changes so emotional and family pressures can be separated from the plans, roles, and strategy they may drive. Updated [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]] with the equal-status listening rules, the practice's preventive role, and its central limit: greater clarity can establish that separation or shutdown is healthier than continued drift. The single embedded image was opened and omitted as a decorative photograph of a wine glass.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-24] lint | Wiki health check
 

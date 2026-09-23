@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "the-linux-of-social-media-how-livejournal-pioneered-then-lost-blogging-ars-technica",
+  "images": [
+    {
+      "file": "memcached-hits-and-misses.png",
+      "alt": "Weekly memcached request chart with cache hits far exceeding misses"
+    }
+  ]
+}

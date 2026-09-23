@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "3a51bb32fe14ec6d1b2c6e7f83d9f2cb5687f4bc970a6fe8fd76114b9c798524",
       "80f3620aad863c4ee9bf66b57c6b464621bce6f0a7e1bc87f58adfd661805cae",
       "668c8ed5a806332763623269185f336079ff015c5a150fa242ce880ede9c5665",
       "45c9a840016e35306eb1d18de4aa1d8046f770b0b3f502c3801a5eb63b3a706e",
@@ -359,11 +360,37 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 357
+    "paragraph_count": 358
   },
-  "overview_commit": "86a69cba8af696fcee2a637614f9ce19053a0e60",
-  "overview_digest": "c56126d27bc688f28ea7ebb335de0003284f7c2d5678af9bea5c5c798532ba83",
+  "overview_commit": "6c967f81dae97f42703981b75cb2512078423e4f",
+  "overview_digest": "64b52efa9298206f6b988940ec9016c5d67bff21a7e84fbbafef336e8c8c5552",
   "paragraphs": [
+    {
+      "id": "3a51bb32fe14ec6d1b2c6e7f83d9f2cb5687f4bc970a6fe8fd76114b9c798524",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "culture-and-media"
+      ],
+      "text": "The newest Ars Technica source adds [[LiveJournal]] as a combined product-identity, governance, and acquisition case. [[BradFitzpatrick]] built a dorm-room status script into a journal-centered social platform with comments, communities, friends pages, custom privacy groups, mobile and audio posting, and more than ten million accounts; he also created memcached for its infrastructure. The platform's intimacy and configurability supported socially essential affinity communities, but the same founder responsiveness, volunteer authority, personalized support, policy precedent, and promises against unilateral change accumulated as [[CommunityGovernanceDebt]]. [[SixApart]] inherited that debt while seeking advertising and professional management, and the “Nipplegate” episode now extends [[PlatformAbuseResponse]] with adversarial reporting: staff recognized malicious use of a nudity rule but lacked contextual standards and trusted discretion. [[EmergentProductIdentity]] now covers not just creator-led content, as in Vine, but an entire community-shaped privacy and interaction model that owners could neither commercialize cleanly nor replace without threatening its value. The later sale to SUP Media, U.S. layoffs, Russian server move, and migration toward [[Dreamwidth]] compounded the decline, while Facebook's public news feed reset social expectations. The retrospective does not prove that ads, stricter moderation, a feed, or independence would have saved LiveJournal; feature leadership did not substitute for coherent defaults, governance, product story, business model, or competitive adaptation. Four unique images were inspected: duplicate Jon Snow stills and a generic social-app phone image were omitted, while a 2013 Ars memcached request chart was retained as illustrative infrastructure context rather than LiveJournal performance evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "culture-and-media": 2,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BradFitzpatrick",
+        "CommunityGovernanceDebt",
+        "Dreamwidth",
+        "EmergentProductIdentity",
+        "LiveJournal",
+        "PlatformAbuseResponse",
+        "SixApart"
+      ]
+    },
     {
       "id": "80f3620aad863c4ee9bf66b57c6b464621bce6f0a7e1bc87f58adfd661805cae",
       "primary_topic": "business-and-markets",
