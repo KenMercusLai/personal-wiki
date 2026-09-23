@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [“How-do-you-feel dinners” - Thinking about Startups](sources/how-do-you-feel-dinners-thinking-about-startups.md) - A recurring founder check-in surfaces personal pressures before work and strategy, sometimes clarifying that separation is healthier than continued drift.
 - [What lessons can Silicon Valley tech executives learn from what went wrong at Yahoo?](sources/xavier-amatriains-answer-to-what-lessons-can-silicon-valley-tech-executives-learn-from-what-went-wrong-at-yahoo-quora.md) - Xavier Amatriain diagnoses Yahoo's decline as a compounding failure of talent density, strategic focus, acquisition integration, research transfer, and culture.
 - [Python Web 框架中的后台任务](sources/yuchanns-python-web-kuang-jia-zhong-de-hou-tai-ren-wu.md) - Yuchanns distinguishes request follow-up work from a continuous service worker and manages the latter through FastAPI lifespan and asyncio cancellation.
 - [Visual Attention: An Enormous Guide](sources/visual-attention-an-enormous-guide.md) - Nick Kolenda organizes visual attention into nine stimulus families while showing that goal-directed search can reverse simple salience advice.

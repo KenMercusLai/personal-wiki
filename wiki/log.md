@@ -3431,3 +3431,11 @@ Added Steven Sinofsky's late-2015 discussion agenda for product leaders choosing
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | “How-do-you-feel dinners” - Thinking about Startups
+
+Added a recurring founder check-in that moves from personal life, to work, to desired changes so emotional and family pressures can be separated from the plans, roles, and strategy they may drive. Updated [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]] with the equal-status listening rules, the practice's preventive role, and its central limit: greater clarity can establish that separation or shutdown is healthier than continued drift. The single embedded image was opened and omitted as a decorative photograph of a wine glass.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

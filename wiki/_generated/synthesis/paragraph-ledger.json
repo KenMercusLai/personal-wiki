@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "80f3620aad863c4ee9bf66b57c6b464621bce6f0a7e1bc87f58adfd661805cae",
       "668c8ed5a806332763623269185f336079ff015c5a150fa242ce880ede9c5665",
       "45c9a840016e35306eb1d18de4aa1d8046f770b0b3f502c3801a5eb63b3a706e",
       "fe3454d8658a904e36fe7c88124439d045eef2106675d5269cf570ea995eeff0",
@@ -358,11 +359,29 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 356
+    "paragraph_count": 357
   },
-  "overview_commit": "a8a5a07e487eee1b4cc041feebd923e9b62b642e",
-  "overview_digest": "32e663044fe61eeb9335b6d39bb6fbd233d59c443f11bc3e458aaa86fa62eeac",
+  "overview_commit": "86a69cba8af696fcee2a637614f9ce19053a0e60",
+  "overview_digest": "c56126d27bc688f28ea7ebb335de0003284f7c2d5678af9bea5c5c798532ba83",
   "paragraphs": [
+    {
+      "id": "80f3620aad863c4ee9bf66b57c6b464621bce6f0a7e1bc87f58adfd661805cae",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest founder check-in essay adds a concrete preventive practice to [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]]. Its recurring meal moves deliberately from personal life, to work, to desired changes; one founder speaks at a time while peers ask clarifying questions, and no chair or secretary is appointed. The mechanism is to uncover the concerns beneath an operational position: title, travel, fundraising, hiring, or technical-responsibility disputes may proxy for exclusion, family pressure, envy, financial fear, overwork, or unequal quality responsibility. The source therefore broadens alignment beyond product and strategy to personal goals and motivation, while making relationship maintenance more structured than generic advice to communicate. Its closing case supplies the key boundary: a facilitated conversation revealed irreconcilable disagreement about product, near-term plans, and personal motivation, leading the founders to close the company before further drift destroyed more time and friendship. The account is anecdotal, does not establish that its cadence or sequence prevents failure, and assumes trust, consent, confidentiality, and enough psychological safety for personal disclosure; wine is incidental, as the author later adapted the practice to lunch. The only embedded image was inspected and omitted as a decorative photograph of a wine glass.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CoFounderConflict",
+        "FounderVisionAlignment",
+        "StartupTeamBond"
+      ]
+    },
     {
       "id": "668c8ed5a806332763623269185f336079ff015c5a150fa242ce880ede9c5665",
       "primary_topic": "business-and-markets",
