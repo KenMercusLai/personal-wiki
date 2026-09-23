@@ -343,12 +343,13 @@
       "9931440d97c63d6529ad8446dbdab1603e7fee97dd6ea53d8e599087956afd60",
       "c308d65b7459c3083fbe8747db3c1cfa1300510eb151ea59b2dd3a83e6b32705",
       "fe47ed722da8de36d7b9aa05663dec7e34eb48c658cbf16d30fc1dca83a4f168",
-      "1b6bafe155daaa78f4011a63d32f21424ef5ce8dc3d2dd914275b79980c67902"
+      "1b6bafe155daaa78f4011a63d32f21424ef5ce8dc3d2dd914275b79980c67902",
+      "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e"
     ],
-    "paragraph_count": 343
+    "paragraph_count": 344
   },
-  "overview_commit": "16392e50d58953a0347aa9b73cb8c924f9376dc5",
-  "overview_digest": "9463d8013a88867a6f2738adaf74948d9903fa30f923e41bb4745b3aabe4dfb8",
+  "overview_commit": "58a02e46060b7d2a62c4d4a26414fae82caae691",
+  "overview_digest": "252da73c46fe656a619cedf5b2a6d0f86dda6d53a567e8fc013f61ad0a5b2ef2",
   "paragraphs": [
     {
       "id": "0e6e060156a54c3b6de27bc674ffafabaa24316392b1991e234e0da9b4627354",
@@ -6996,6 +6997,26 @@
         "DeepLearning",
         "NeuralNetwork",
         "NeuralNetworkTraining"
+      ]
+    },
+    {
+      "id": "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Lencx source turns [[OpenClaw]] from a product and safety reference into a concrete [[HeadlessAgentArchitecture]]. Pi supplies an embedded model and tool loop, while OpenClaw owns IM channels, session policy, injected capabilities, sandbox connections, and durable execution. A mutable session index plus append-only JSONL transcripts, parent-linked branches, branch summaries, pre-compaction memory flushes, and pruning safeguards support long-running work; heartbeat files add scheduled proactivity, and [[LLMToolingSkills]] package endpoints, authentication rules, examples, scripts, and recurring-work conventions. This convenience intensifies the control problem identified by [[ProductionAgentInfrastructure]]: hostile web, email, or [[Moltbook]] content can influence a model that also holds shell, filesystem, network, and API authority, so logs, dry runs, scoped tools, approvals, sandboxing, allowlists, least privilege, resumable effects, and independent audit records are complementary rather than optional. [[Moltbook]] itself is retained as a qualified ecosystem case: API-first interaction can distribute operational knowledge, but similar-model feedback loops, ordinary REST posting, weak verification, reported credential exposure, and a large gap between registered agents and verified owners undermine claims about population and autonomous machine culture. Model routing and reusable Markdown context may reduce marginal cost, but the source supplies no benchmark showing that file-based warm starts replace retrieval or that long-running autonomy is economical. Five images were inspected: the logo and mascot illustration were decorative and omitted; the ecosystem-role table, RAG-versus-file comparison, and Moltbook security screenshots were retained with descriptive canonical filenames.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "HeadlessAgentArchitecture",
+        "LLMToolingSkills",
+        "Moltbook",
+        "OpenClaw",
+        "ProductionAgentInfrastructure"
       ]
     }
   ],

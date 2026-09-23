@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-23
-as_of_overview_commit: 16392e50d58953a0347aa9b73cb8c924f9376dc5
-summary: "Durable outcomes require grounded evidence, inspectable incentives, explicit tradeoffs, representative feedback, and systems aligned with human goals."
-episode_count: 405
-source_count: 405
-paragraph_count: 343
+as_of_overview_commit: 58a02e46060b7d2a62c4d4a26414fae82caae691
+summary: "Durable outcomes require grounded evidence, explicit tradeoffs, representative feedback, and systems whose incentives, authority, recovery paths, and human goals remain visible."
+episode_count: 406
+source_count: 406
+paragraph_count: 344
 topic_count: 9
 ---
 
@@ -18,18 +18,18 @@ topic_count: 9
 
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, [[OrhunParmaksiz]] adds that a sustainable mixed workflow may preserve enjoyable manual craft and a final human quality pass rather than turn all implementation into [[CodeReviewPractice]], and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
+- [[HeadlessAgentArchitecture]] uses existing messaging channels over a persistent runtime: [[OpenClaw]] embeds an agent engine, injects its own tools, records branchable transcripts, flushes memory before compaction, and schedules heartbeat work, while [[Moltbook]] shows that API-first agent ecosystems also need strong identity, provenance, credential, ranking, and safety controls; these mechanisms extend rather than replace [[ProductionAgentInfrastructure]] and runtime-enforced [[LLMToolingSkills]] policy.
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees.
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone.
 - [[EngineeringLedOrganizationDesign]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], and [[ScalingCommunication]] show startup scaling as organization design: founders transfer context through leaders, recruiting systems, small teams, dashboards, feedback loops, and repeated mission. [[EShares]] adds a tightly coupled teaching system in which shared vocabulary, synchronized rituals, [[OrganizationalLeverage]], finance rules, and [[MarketBasedCompensation]] reinforce one operating philosophy, while testing resume prestige, advice, benchmarks, and practices against contribution, reversibility, employee autonomy, and cultural multiplication effects.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
 - [[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
-- [[ContinuousWorkplaceFeedback]] is strongest when recurring conversations serve distinct purposes: direct-manager one-on-ones provide mentorship, peer sessions provide reciprocal reflection, [[EShares]] adds skip-level and CEO listening walks as relationship channels, and [[ReverseMentoring]] lets senior leaders learn current skills and frontline reality from junior colleagues; [[CompassionateManagement]] and [[CEOScalingRole]] support a question-led stance, but every upward or cross-level format needs explicit purpose, consent, credit, confidentiality, and reciprocity because organizational power remains unequal.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-Durable technical progress combines system understanding, scope-aware architecture, verification near change, reliable operations, and AI or automation loops that keep context, tools, recovery, and human ownership inspectable.
+Durable technical progress combines system understanding, scope-aware architecture, verification near change, reliable operations, and AI-agent runtimes whose context, tools, authority, side effects, recovery, and human ownership remain inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].

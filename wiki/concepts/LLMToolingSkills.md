@@ -6,7 +6,8 @@ sources:
   - yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
-last_updated: 2026-09-17
+  - lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ The loading model is the practical distinction. Rules are short always-on constr
 
 The newest source reframes Skills as a distribution format rather than only a prompting technique. It calls agent-skills a protocol for dynamic prompt injection in which the agent decides which prompts to load, and notes that in practice a skill is nothing more than a set of files. That makes the folder the product: `prompt.md`, `tools.sh`, `helper.py`, executables, shared libraries, and arbitrary assets can all travel together, and because the skill needs no runtime or dependencies as long as the client agent already operates at the general-OS stage, its author expects it to be adopted more widely than [[ModelContextProtocol]]. The imagined end state is an OS package manager that installs a program and its agent skill in the same command.
 
+In OpenClaw's operational model, a Moltbook Skill is not only explanatory prose: the main file records endpoints, authentication boundaries, request templates, response shapes, rate limits, and refusal conditions, while companion heartbeat and messaging files shape recurring participation and notification behavior. This supports the folder-as-distribution framing but also exposes its safety boundary: natural-language restrictions remain probabilistic unless the runtime independently scopes credentials, hosts, tools, and sensitive actions.
+
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
 - Skill-following depends on the model's respect for context and remains probabilistic, and over-constraining behavior can make reasoning less flexible.
@@ -27,7 +30,7 @@ The newest source reframes Skills as a distribution format rather than only a pr
 - Skills remain useful when a task is too open-ended, low-interaction, or expensive to encode as a dedicated server API.
 - Skills can encode more than linear SOPs; exploration and brainstorming skills may be valuable precisely because they prompt multi-dimensional analysis.
 - Skills work best when separated from rules and specs instead of becoming a large undifferentiated prompt file.
-- A skill can ship as a self-contained folder with no runtime or dependency requirements when the client agent already runs on a general OS, which one author argues makes it more likely than MCP to be widely adopted.
+- A skill can ship as a self-contained folder with instructions, examples, scripts, metadata, safety rules, and recurring-work conventions when the client agent already supplies the runtime.
 
 ## Evidence
 - Prompt nature: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] describes Skills as instructions shown to the LLM rather than external action channels.
@@ -43,13 +46,16 @@ The newest source reframes Skills as a distribution format rather than only a pr
 - Arbitrary payloads: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says a skill can pack `prompt.md`, `tools.sh`, `helper.py`, `bin/executable`, `lib/library.so`, and any other OS-runnable asset.
 - Adoption forecast: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] argues agent-skills is more likely than MCP to be widely adopted because it is simple, self-contained, and dependency-free.
 - Package-manager metaphor: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] imagines an OS distro installing a program and its agent skill in one command.
+- Operational contract: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] describes a Moltbook Skill containing API endpoints, authentication and domain restrictions, request examples, result formats, and rate limits.
+- Recurring behavior: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] adds heartbeat and messaging files that turn one-off tool knowledge into scheduled participation and notification policy.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, or combined with tools. The newest source describes a distribution and adoption thesis rather than a deployed standard, and its argument that runtime-free folders beat MCP assumes the client already provides the file and shell substrate, which shifts rather than removes the dependency.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, or combined with tools. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written domain and key restrictions are useful instructions but are not enforcement boundaries against prompt injection or model noncompliance.
 
 ## What Changed
 - Added the rule/spec/skill loading distinction and the claim that focused on-demand skills improve instruction signal-to-noise.
 - Added the file-based distribution framing: dynamic prompt injection, self-contained folders, packaged executables and libraries, and the adoption comparison against MCP.
+- Added the Moltbook operational example: API and safety instructions plus companion heartbeat and messaging conventions, qualified by the need for runtime enforcement.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.
@@ -60,3 +66,4 @@ The sources evaluate Skills conceptually and through practitioner workflow rathe
 - [[BottleneckAwareAICoding]] - focused skills help address SDLC bottlenecks rather than only code typing.
 - [[LLMAgentStages]] - runtime-free skill distribution presumes a client already operating at the general-OS stage.
 - [[BashAsMetaTool]] - a script-capable shell is what lets a skill folder carry its own execution.
+- [[AgentPermissionModel]] - runtime-enforced authority must backstop probabilistic safety instructions in skills.

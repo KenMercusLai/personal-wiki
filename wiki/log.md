@@ -3287,3 +3287,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | 深度解读：OpenClaw 架构及生态
+
+Added Lencx's analysis of OpenClaw's embedded Pi engine, IM-first daemon, injected tool surface, file-based Skills, persistent transcript trees, heartbeats, context safeguards, model routing, and Moltbook ecosystem. Created [[Lencx]], [[Moltbook]], and [[HeadlessAgentArchitecture]], and updated [[OpenClaw]], [[LLMToolingSkills]], [[AgentSystemTransparency]], and [[AgentPermissionModel]] with explicit qualifications around prompt injection, effect recovery, token cost, unverifiable activity, and reported credential exposure. All five embedded images were opened successfully; retained the ecosystem-role table, RAG-versus-file comparison, and Moltbook security screenshots under descriptive canonical names, while omitting the decorative logo and mascot illustration.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

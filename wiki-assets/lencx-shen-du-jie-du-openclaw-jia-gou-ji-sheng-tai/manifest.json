@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai",
+  "images": [
+    {
+      "file": "openclaw-ecosystem-roles.png",
+      "alt": "OpenClaw ecosystem roles map OpenClaw, Moltbook, warm starts, teacher and student models, Skills, memory, context distillation, and tokens to their functions"
+    },
+    {
+      "file": "rag-versus-file-warm-start.png",
+      "alt": "Comparison table contrasts vector-database RAG with OpenClaw file-based warm starts across storage, memory format, model compatibility, updates, and purpose"
+    },
+    {
+      "file": "moltbook-security-evidence.png",
+      "alt": "Social posts and screenshots report weak Moltbook verification, exposed API keys and email addresses, database write access, and REST posting by any key holder"
+    }
+  ]
+}

@@ -413,6 +413,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Write less code, be more responsible](sources/write-less-code-be-more-responsible-orhuns-blog.md) - Orhun Parmaksız argues for task-selective AI coding, sustainable human review, transparent tool use, and full developer responsibility for released software.
 - [Dijkstra's Shortest Path Algorithm - A Detailed and Visual Introduction](sources/freecodecamp-dijkstras-shortest-path-algorithm-a-detailed-and-visual-introduction.md) - Estefania Cassingena Navone visually explains graph structure, greedy distance selection, relaxation, and the resulting shortest-path tree.
 - [A Neural Network in 11 lines of Python (Part 1)](sources/iamtrask-a-neural-network-in-11-lines-of-python-part-1.md) - iamtrask explains sigmoid networks, full-batch weight updates, backpropagation, and hidden-layer XOR learning in compact NumPy.
+- [深度解读：OpenClaw 架构及生态](sources/lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai.md) - Lencx analyzes OpenClaw's embedded engine, IM bus, Skills, persistent sessions, heartbeats, model routing, Moltbook ecosystem, token economics, and prompt-injection and credential risks.
 
 ## Entities
 
@@ -1316,6 +1317,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Vine](entities/Vine.md) - Six-second looping-video platform whose emergent creator culture diverged from Twitter's preferred identity and business strategy.
 - [Edsger W. Dijkstra](entities/EdsgerWDijkstra.md) - Dutch computer scientist who designed and published the greedy shortest-path algorithm bearing his name.
 - [iamtrask](entities/Iamtrask.md) - Source-scoped author handle teaching neural-network mechanics through compact, inspectable NumPy examples.
+- [Lencx](entities/Lencx.md) - Author analyzing OpenClaw runtime architecture, agent ecosystems, reusable context artifacts, economics, and security.
+- [Moltbook](entities/Moltbook.md) - Agent-oriented social network and Skill ecosystem whose API-first participation is paired with provenance, verification, ranking, and credential risks.
 
 ## Concepts
 
@@ -2112,5 +2115,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dijkstra's Algorithm](concepts/DijkstrasAlgorithm.md) - Greedy single-source shortest-path procedure for graphs with non-negative edge weights.
 - [Graph Modeling](concepts/GraphModeling.md) - Representation of entities and relationships as nodes and directed or undirected, optionally weighted edges.
 - [Backpropagation](concepts/Backpropagation.md) - Backward credit-assignment procedure that turns output error into earlier-layer deltas and parameter gradients.
+- [Headless Agent Architecture](concepts/HeadlessAgentArchitecture.md) - IM- or API-first agent runtime combining an event-driven daemon, tools, durable state, scheduled work, and explicit observability and permission controls.
 
 ## Syntheses
