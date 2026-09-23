@@ -4,17 +4,39 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-23
-as_of_overview_commit: e40efbe05b6dcae40daa8423f63d6b5b53767e13
-input_digest: 0ca8c6aab1a3c70d0e28a6727827896bbb70dafe4661362416d266b4cf8edbbd
+as_of_overview_commit: 0b8a28cbf80a8eafb04de78b3abadef707a0f16a
+input_digest: 6c5ed5a96580d73df0317c91f7db272287dad38f10db776422693c862ea87ffb
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives.
+Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone; [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself.
 
 ## Cross-source Findings
+
+### Email Magic Links Relocate Authentication Trust
+
+[[EmailMagicLinkAuthentication]] changes an authentication governance boundary rather than removing it: [[AuthenticationInfrastructure]] must make email delivery, expiring single-use token state, replay prevention, throttling, callback validation, and session issuance secure and accountable.
+
+**Evidence:** [[EmailMagicLinkAuthentication]], [[AuthenticationInfrastructure]]
+
+**Qualifications:**
+
+- The evidence is a short 2017 practitioner essay rather than a comparative security assessment, and its captured database schema is incomplete.
+- Removing a site password does not address inbox compromise, phishing, leaked or scanned links, shared devices, email enumeration, delivery failure, provider outages, or session security.
+
+### Password Hashing Is Not Complete Authentication
+
+[[PasswordHashing]] can keep reusable plaintext credentials out of a database through unique salts and adaptive verification, but [[AuthenticationInfrastructure]] still requires correct query logic, cost and upgrade policy, throttling, recovery, sessions, multi-factor controls, and breach response.
+
+**Evidence:** [[PasswordHashing]], [[AuthenticationInfrastructure]], [[PostgreSQL]]
+
+**Qualifications:**
+
+- The evidence is a short 2023 tutorial rather than a security standard or audited production design.
+- Its SHA-256 step is only pedagogical, its bcrypt cost is implicit, and the final SQL function has identifier-shadowing, volatility, and null-result defects.
 
 ### Replicated Logs Govern State Through Agreed Order
 
@@ -158,6 +180,16 @@ Technical systems that look operationally narrow can carry social consequences w
 - The source is a 2015 practitioner essay, so its platform capabilities and notification-volume figures are historical.
 - Platform prioritization can suppress valuable urgent or accessibility-sensitive alerts and can expand opaque behavioral inference.
 
+### Engagement Metrics Need User Value Boundary
+
+[[UtilityOrientedUX]] adds a design-level governance boundary for attention: teams should judge [[ProductFlowFriction]] against the user's outside goal rather than maximize engagement by default, while [[CognitiveOverheadInProductDesign]] preserves explicit steps when they create control, safety, trust, or comprehension.
+
+**Evidence:** [[UtilityOrientedUX]], [[ProductFlowFriction]], [[CognitiveOverheadInProductDesign]], [[Usability]], [[Uber]]
+
+**Qualifications:**
+
+- The least-resistance argument is a practitioner essay supported by historical company examples rather than comparative evidence, and legitimate safety, accessibility, trust, or comprehension needs can justify more interaction.
+
 ### Atomic Commit Needs Durable Agreed Decision
 
 [[TwoPhaseCommit]] governs one multi-node transaction through an explicit coordinator decision: every participant durably prepares before unanimous commit, any refusal produces rollback, and [[AggregateTransactionBoundary]] plus [[EventDrivenConsistency]] qualify when that cross-node atomicity should be required at all.
@@ -168,3 +200,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - This is a technical coordination pattern rather than evidence about political or institutional governance.
 - The source does not specify coordinator recovery, waiting behavior, message-delivery edge cases, isolation, implementation variants, or performance costs.
+
+### Digital Purchases Inherit Platform Governance
+
+[[DigitalPurchaseDurability]] adds an ownership boundary to platform governance: the continuing usefulness of paid apps depends on compatibility choices and infrastructure around [[IOS]] and [[Android]], so purchase alone does not create independent or perpetual access.
+
+**Evidence:** [[DigitalPurchaseDurability]], [[IOS]], [[Android]]
+
+**Qualifications:**
+
+- The source is a personal 2016 account and does not compare platform policy, licensing, exportability, emulation, DRM, or server-dependent failure modes.
+- Payment does not itself promise perpetual compatibility, but the essay does not establish what compatibility or preservation duties platform owners should have.

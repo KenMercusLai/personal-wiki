@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "freecodecamp-dijkstras-shortest-path-algorithm-a-detailed-and-visual-introduction",
+  "images": [
+    {
+      "file": "weighted-graph-example.png",
+      "alt": "Seven-node undirected weighted graph used for the Dijkstra walkthrough"
+    },
+    {
+      "file": "tentative-distance-comparison.png",
+      "alt": "Tentative distance for node 3 remains 7 because the alternative route costs 14"
+    },
+    {
+      "file": "final-shortest-path-tree.png",
+      "alt": "Final shortest-path tree from node 0 with settled nodes outlined in red"
+    }
+  ]
+}

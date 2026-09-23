@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "user-research-is-overrated-muzli-design-inspiration",
+  "images": [
+    {
+      "file": "conventional-design-process.png",
+      "alt": "Conventional design process moving from problem definition through research, sketching, feedback, digital design, and finalization"
+    },
+    {
+      "file": "five-day-design-sprint.jpg",
+      "alt": "Five-panel sketch of a design sprint progressing toward a tested prototype"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "iamtrask-a-neural-network-in-11-lines-of-python-part-1",
+  "images": [
+    {
+      "file": "sigmoid-activation-curve.png",
+      "alt": "Sigmoid activation curve mapping real-valued inputs to outputs between zero and one"
+    },
+    {
+      "file": "sigmoid-slope-examples.png",
+      "alt": "Sigmoid curve with steep central slope and shallower slopes near saturated outputs"
+    },
+    {
+      "file": "single-example-weight-update.png",
+      "alt": "Single training example showing inputs, weights, a 0.99 prediction, and a small error-weighted update"
+    },
+    {
+      "file": "full-batch-weight-updates.png",
+      "alt": "Four training examples contributing simultaneous updates to three input weights"
+    },
+    {
+      "file": "bicycle-pixel-combinations.png",
+      "alt": "Composite rider and fish-shaped bicycle illustrating recognition from combinations of pixels"
+    },
+    {
+      "file": "pipe-image-classification.jpg",
+      "alt": "Pipe photograph with a high-confidence object-detection box"
+    }
+  ]
+}

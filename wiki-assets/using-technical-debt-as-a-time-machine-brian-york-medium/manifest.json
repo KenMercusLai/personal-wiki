@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "using-technical-debt-as-a-time-machine-brian-york-medium",
+  "images": [
+    {
+      "file": "repository-size-and-technical-debt.png",
+      "alt": "Bliss repository size and technical debt from May through April, with repository size rising and debt returning to an acceptable green zone"
+    },
+    {
+      "file": "move-fast-and-break-things.png",
+      "alt": "Mark Zuckerberg presenting the words Move Fast and Break Things on a conference stage"
+    }
+  ]
+}

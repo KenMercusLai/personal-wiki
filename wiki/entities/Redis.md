@@ -7,49 +7,46 @@ sources:
   - blog-antirez-dont-fall-into-the-anti-ai-hype
   - blog-wulc-pa-chong-zhua-qu-dai-li-ip
   - building-a-shop-with-sub-second-page-loads-lessons-learned
-last_updated: 2026-09-15
+  - kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Redis]] is the server-side data system Wang Ziting used heavily for a cloud-engine task queue, that [[Antirez]] references as a concrete project context for AI-assisted debugging and internal-change reproduction, that Wulc uses as persistent set storage for scraper proxy candidates, and that Baqend uses for high-write-throughput Bloom-filter maintenance.
+[[Redis]] is an in-memory data system used across the sources for queue coordination, Lua-scripted atomic transitions, proxy-pool persistence, cache-freshness metadata, and latency-critical ecommerce inventory snapshots. Its speed and flexible primitives support narrow, high-throughput designs, while its replication and failover model require application-level decisions about durability, freshness, fencing, and availability.
 
 ## Current Profile
-The Wang Ziting source presents Redis as both an implementation substrate and a design example. Operationally, it stores task-queue state, provides consistency guarantees, and supports Lua-scripted atomic operations. Conceptually, Wang Ziting treats Redis as one of the best server-side systems he has used because it chose a strong entry point and a clear position, making its design feel simple.
+The sources show Redis in several roles unified by fast state access and atomic server-side operations. Wang Ziting stores task-queue state in Redis and uses Lua for atomic coordination, while Wulc uses a Redis set as a persistent, randomly sampled proxy pool. Baqend stores an expiring Bloom filter in Redis to support dynamic browser-cache freshness checks. These uses keep Redis's responsibility bounded to coordination or quickly changing metadata rather than treating it as an undifferentiated general database.
 
-Antirez's AI essay adds Redis as a live maintenance and experimentation context. He says [[ClaudeCode]] fixed transient Redis test failures by reproducing timing-related and TCP deadlock conditions, and that the tool reproduced Redis Streams internal changes from his design document. This does not change Redis's product profile directly, but it makes Redis one of the wiki's examples of substantial AI-assisted systems-programming work.
+Kikcat's inventory design places more correctness pressure on Redis. The synchronous order path checks and decrements an in-memory SKU snapshot with Lua, while database order items and stock events later reconcile durable goods state. That reduces latency and database contention, but the snapshot is trustworthy only while its freshness and failover generation are known. The design therefore rejects writes when `is_stale` is set, checks Sentinel configuration epochs as fencing-like tokens, consults a Sentinel majority, and uses a coordinator to drain pending events and rebuild Redis before restoring service.
 
-Wulc's proxy-scraping note adds a smaller operational use case: Redis stores a reusable set of proxy IP-port strings so a scraper can sample candidates, validate them against a target site, and remove failed proxies rather than losing the pool when the process exits.
+The same source establishes an important limit. Sentinel failover can create an old and new master during a network partition because ordinary writes do not require quorum confirmation. Replica-health configuration, client circuit breakers, epoch checks, freshness deadlines, and delayed recovery narrow the exposure but do not remove it, especially around long process pauses or clock anomalies. Redis can therefore support very high-throughput inventory admission only by making residual inconsistency and deliberate unavailability explicit system-level tradeoffs.
 
-In the Thinks webshop architecture, Redis also works as a cache-coherence support system. MongoDB stores primary data while Redis maintains an expiring Bloom filter used by Baqend's dynamic browser-caching scheme. That use case emphasizes high write throughput and freshness metadata rather than queues or proxy-pool persistence.
+Antirez's essay supplies a different view of Redis as a mature systems project: [[ClaudeCode]] reproduced transient test failures and Redis Streams internal changes from a design document under expert direction. This is evidence about maintenance practice rather than Redis's runtime guarantees.
 
 ## Key Characteristics
-- Stores queue state and coordination data for server-side task scheduling.
-- Supports atomic multi-step operations through Lua scripts.
-- Helps Node.js workers recover or coordinate asynchronous task execution.
-- Serves as an example of narrow product positioning producing a simple-feeling design.
-- Redis 5 Streams are identified as a promising basis for open-source task-queue projects.
-- Appears as a mature systems project where AI coding agents can assist with test flake debugging and internal feature work under expert supervision.
-- Stores reusable scraper proxy candidates for random selection, validation, and eviction, and maintains high-write-throughput freshness metadata for dynamic-content caching.
+- Provides low-latency shared state and atomic multi-step transitions through Lua scripts.
+- Supports bounded coordination roles including task queues, proxy pools, cache-freshness sketches, and inventory snapshots.
+- Can remove a relational database from a latency-critical admission path while leaving durable state to event-driven reconciliation.
+- Requires explicit stale-state, failover-generation, and recovery controls when business correctness depends on the in-memory snapshot.
+- Sentinel improves failover availability but cannot by itself prevent split-brain writes or guarantee zero overselling.
+- Its narrow primitives and positioning make it adaptable, but correctness comes from the surrounding protocol rather than Redis alone.
+- Serves as both production infrastructure and a mature systems-code context for expert-supervised AI maintenance.
 
 ## Evidence
-- Queue substrate: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] says all task-queue state was stored in Redis with consistency guarantees.
-- Atomicity: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] says Lua scripts implemented atomic operations for the task queue.
-- Node.js context: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] says the author used Node.js workers and Redis-maintained critical state to avoid single points and recover interrupted tasks.
-- Product-positioning praise: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] says Redis found a good entry point and position, which made its design look simple.
-- Streams direction: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] interprets Redis 5 Streams as well-suited to task queues.
-- AI-assisted maintenance: [[blog-antirez-dont-fall-into-the-anti-ai-hype]] says Claude Code reproduced Redis test failures, inspected process state, fixed bugs, and reproduced Redis Streams internals from a design document.
-- Proxy-pool storage: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] uses Redis sets to store proxy strings, sample random candidates, and remove invalid entries.
-- Cache-sketch storage: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] says Baqend uses Redis for the expiring Bloom filter because of its high write throughput.
+- Atomic coordination and queue state: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] uses Redis-maintained task state and Lua scripts so Node.js workers can coordinate and recover interrupted work; [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] uses Lua for conditional inventory deduction, snapshot-freshness checks, and epoch comparison.
+- Bounded high-change data roles: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] persists and prunes proxy candidates in a Redis set, while [[building-a-shop-with-sub-second-page-loads-lessons-learned]] stores Baqend's high-write-throughput expiring Bloom filter.
+- Inventory snapshot and recovery: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] places synchronous stock in Redis, rejects writes to stale snapshots, and rebuilds state only after a coordinator drains pending order and stock events.
+- Failover boundary: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] shows that Sentinel network partitions can leave two writable masters and that epoch, majority, timeout, and replica-health controls only reduce the unsafe window.
+- Product and project character: [[2018-nian-du-xiao-jie-ji-shu-fang-mian]] praises Redis's narrow positioning and interprets Streams as promising for queues; [[blog-antirez-dont-fall-into-the-anti-ai-hype]] describes AI-assisted Redis test debugging and internal-change reproduction.
 
 ## Qualifications
-The sources are practitioner reflections and vendor case-study material, not benchmarks or complete Redis evaluations. They emphasize one task-queue use case, one author's subjective judgment of Redis's design, Antirez's anecdotal examples of AI-assisted Redis work, one small scraper-support pattern, and one cache-coherence metadata use case.
+The sources are practitioner reflections and a vendor case study rather than a complete Redis evaluation. Kikcat reports an expected inventory throughput of roughly ten thousand to tens of thousands of TPS without an independently reproduced benchmark, and explicitly concedes residual overselling and underselling windows. The inventory design's guarantees belong to its whole protocol - durable events, idempotency, fencing, circuit breaking, recovery, and reconciliation - not to Redis alone.
 
 ## What Changed
-- Created the Redis entity page from the task-queue implementation discussion.
-- Added Antirez's Redis test and Redis Streams examples as evidence of AI-assisted systems-programming maintenance.
-- Added Wulc's scraper proxy-pool use case, where Redis persists and samples candidate proxies.
-- Added Baqend's expiring Bloom-filter use case for dynamic web caching.
+- Reframed Redis as a bounded coordination and fast-changing-state substrate across several use cases.
+- Added the inventory snapshot path, stale-state rejection, Sentinel epoch checking, and coordinator recovery.
+- Qualified Sentinel availability with split-brain, long-pause, and residual inconsistency risks.
 
 ## Relationships
 - [[TaskQueueDesign]] - Redis is the queue state and atomicity substrate.
@@ -61,3 +58,5 @@ The sources are practitioner reflections and vendor case-study material, not ben
 - [[WebScrapingProxyPool]] - Redis stores, samples, and prunes proxy candidates in Wulc's scraper workflow.
 - [[DynamicContentCaching]] - Redis maintains the Bloom-filter freshness metadata in Baqend's approach.
 - [[Baqend]] - platform using Redis in the Thinks performance stack.
+- [[HighConcurrencyInventoryDeduction]] - Redis provides the synchronous stock snapshot and atomic Lua checks in the proposed design.
+- [[EventDrivenConsistency]] - durable stock events reconcile Redis-side decisions with the goods database.

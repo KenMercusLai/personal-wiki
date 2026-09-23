@@ -85,8 +85,23 @@
         "IPhone",
         "WearableComputing"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "managed-composition-needs-explicit-boundaries",
+      "qualifications": [
+        "The bmpi.dev evidence is one small AWS implementation; its cost estimate is dated and simplified, and its environment-variable token path omits stronger managed-secret controls."
+      ],
+      "statement": "[[ServerlessComputing]] reduces direct server operation but still needs explicit workload and tool boundaries through [[InfrastructureAsCode]], plus network-cost and [[SecretManagement]] decisions that shape the real operating profile.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "CloudCostOptimization",
+        "InfrastructureAsCode",
+        "SecretManagement",
+        "ServerlessComputing"
+      ]
     }
   ],
-  "summary": "Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.",
+  "summary": "Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, applied algorithms, and serverless composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.",
   "topic_id": "cross-domain"
 }

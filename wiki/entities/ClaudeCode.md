@@ -10,12 +10,13 @@ sources:
   - blog-antirez-dont-fall-into-the-anti-ai-hype
   - blog-guangzhengli-vibe-coding-and-context-coding
   - claude-code-on-the-go
-last_updated: 2026-09-15
+  - corti-ai-powered-knowledge-management-obsidian-claude-code
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[ClaudeCode]] is the command-line coding agent discussed as a practitioner tool for project-wide vibe coding, provider-aware context and prompt-cache management, role-based agent-team work, simple steerable coding-agent loops, systems-programming leverage, and phone-controlled cloud development.
+[[ClaudeCode]] is the command-line agent discussed as a practitioner tool for project-wide coding, provider-aware context and prompt-cache management, role-based agent-team work, simple steerable loops, systems-programming leverage, phone-controlled cloud development, and Markdown knowledge-base maintenance.
 
 ## Current Profile
 The usage retrospective presents Claude Code as the strongest available tool for deep [[VibeCoding]] at the time of the author's test. Its perceived advantage comes from whole-project command-line operation, high token throughput, rapid product updates, planning workflows, subagents, custom commands, hooks, and integration with surrounding tools such as MCP servers. The author treats it as powerful but bounded: it is better at code understanding, diagrams, scaffolding, tests, and common web or TypeScript work than at exact global refactors or lower-data domains such as some Swift/iOS tasks.
@@ -32,6 +33,8 @@ Guangzhengli adds a comparative tool-evolution profile. Claude Code is presented
 
 The mobile setup adds an operating-environment profile. Claude Code can be run as a cloud-hosted worker supervised from a phone when Termius, mosh, Tailscale, tmux, hooks, push notifications, git worktrees, and a disposable VM surround it. This profile makes Claude Code less like a local IDE assistant and more like an asynchronous agent process that can work for minutes, stop on clarification, and notify the user outside the terminal.
 
+Corti's knowledge-management architecture extends the tool beyond software implementation into repository-shaped content operations. In that design, Claude Code reads vault-level instructions and performs semantic tasks such as summarization, tag proposals, relationship discovery, health analysis, and project-note compilation, while deterministic scripts and CI/CD retain responsibility for repeatable structural checks, exports, and deployment.
+
 ## Key Characteristics
 - Operates as a command-line coding agent with project-wide context rather than an editor-only assistant.
 - Supports planning, custom commands, hooks, subagents, todo management, and notification-triggered clarification as workflow primitives.
@@ -39,7 +42,7 @@ The mobile setup adds an operating-environment profile. Claude Code can be run a
 - Uses provider-aware [[PromptCaching]] tactics and smaller helper-model calls to manage cost, context, and high-volume tool results.
 - Relies on highly structured prompt and tool design, including context files, Markdown/XML sections, examples, emphatic reminders, deterministic higher-level tools, and live Unix-style code search.
 - Works best when paired with small steps, version control, tests, compilation, linting, isolated environments, and human review.
-- Supports role-specialized Agent Team workflows, experienced-programmer leverage, and asynchronous mobile/cloud supervision when paired with file-backed state, clear intent, worktree isolation, and verification infrastructure.
+- Supports role-specialized teams, experienced-programmer leverage, asynchronous mobile/cloud supervision, and knowledge-vault maintenance when paired with file-backed state, clear intent, isolation, and verification infrastructure.
 
 ## Evidence
 - Project-wide operation: [[yi-ge-ban-yue-gao-qiang-du-claude-code-shi-yong-hou-gan-shou]] contrasts Claude Code's command-line project view with editor AI interactions centered on a file or selected lines.
@@ -53,15 +56,14 @@ The mobile setup adds an operating-environment profile. Claude Code can be run a
 - Large-task comparison: [[blog-guangzhengli-vibe-coding-and-context-coding]] says Claude Code can outperform Cursor on tasks that require inspecting and modifying more than ten files because it retrieves context through terminal commands and spends tokens more freely.
 - Context UI evidence: [[blog-guangzhengli-vibe-coding-and-context-coding]] includes an inspected `/context` screenshot showing token usage broken out across system prompt, system tools, MCP tools, messages, and free space.
 - Mobile/cloud supervision: [[claude-code-on-the-go]] describes six Claude Code agents running in tmux windows on a Tailscale-only Vultr VM, controlled from a phone through Termius and mosh, with worktrees and deterministic port allocation for parallel features.
+- Knowledge-vault maintenance: [[corti-ai-powered-knowledge-management-obsidian-claude-code]] assigns Claude Code summaries, semantic tags, relationship suggestions, health analysis, and project compilation inside a CI/CD-managed Markdown repository.
 
 ## Qualifications
-The profile partly reflects practitioner experience, source-code reading, logged request interpretation, and a single mobile setup rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields. The MinusX source argues for one main loop and limited branching, while the mihomo-rust case study and mobile setup show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, and verification keep the workflow bounded. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
+The profile partly reflects practitioner experience, source-code reading, logged request interpretation, a single mobile setup, and one prescriptive knowledge-vault design rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields. The MinusX source argues for one main loop and limited branching, while the mihomo-rust case study and mobile setup show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, and verification keep the workflow bounded. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
 
 ## What Changed
-- Added Claude Code as a phone-supervised, cloud-hosted agent process.
-- Added PreToolUse notification hooks as a workflow primitive.
-- Added VM isolation, limited secrets, worktrees, and deterministic ports as operating-environment guardrails for parallel Claude Code sessions.
-- Reframed parallel use as viable when bounded by worktree isolation, verification, and human clarification checkpoints.
+- Extended Claude Code's profile from coding workflows to semantic maintenance of a repository-shaped Markdown knowledge base.
+- Clarified the boundary between agent interpretation and deterministic validation, export, and deployment.
 
 ## Relationships
 - [[Claude]] - Claude Code is built around the Claude model family in the sources' accounts.
@@ -77,3 +79,4 @@ The profile partly reflects practitioner experience, source-code reading, logged
 - [[Antirez]] - practitioner using Claude Code on Redis-adjacent and systems-programming tasks.
 - [[ContextCoding]] - Claude Code is a major tool in Guangzhengli's context-coding account.
 - [[MobileAgentDevelopment]] - Claude Code is the agent at the center of the phone-controlled VM workflow.
+- [[KnowledgeAsCode]] - Claude Code supplies semantic maintenance tasks inside the proposed repository workflow.

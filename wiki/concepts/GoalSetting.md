@@ -9,7 +9,8 @@ sources:
   - li-mu-yong-sui-ji-ti-du-xia-jiang-lai-you-hua-ren-sheng
   - zhi-shi-gu-zhi-wang-luo
   - anything-is-possible-if-you-pay-the-price-mission-org-medium
-last_updated: 2026-09-13
+  - zak-slayback-you-have-to-show-up-every-day
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,7 @@ knowledge_schema: synthesis-v1
 [[GoalSetting]] is the practice of choosing explicit aims that focus attention, motivate thought, guide strategy selection, and turn a desired direction into staged action.
 
 ## Current Synthesis
-The wiki now treats goal setting as a layered practice: ordinary goals guide attention and action, while deeper value questions determine whether those goals are merely instrumental or connected to something more durable. Goals are especially useful for learners whose interests are not yet self-sustaining because they help attach value to knowledge, turn required study into a possible source of curiosity, and protect students from purely external tracks of grades, exams, and credentials. The knowledge-valuation source makes this mechanism sharper: personal goals act as root values from which semantic networks can pass value to otherwise local facts, skills, or choices. They also matter when a desired career cannot be reached immediately; a person may need interim work, adjacent roles, or a broader path toward better-fit work. [[LiMu]] adds a machine-learning metaphor: a goal should be large enough that the endpoint is not already obvious, because worthwhile search often resembles optimization over a complex landscape rather than solving a known exercise.
+The wiki now treats goal setting as a layered practice: ordinary goals guide attention and action, while deeper value questions determine whether those goals are merely instrumental or connected to something more durable. Goals are especially useful for learners whose interests are not yet self-sustaining because they help attach value to knowledge, turn required study into a possible source of curiosity, and protect students from purely external tracks of grades, exams, and credentials. The knowledge-valuation source makes this mechanism sharper: personal goals act as root values from which semantic networks can pass value to otherwise local facts, skills, or choices. Slayback adds an execution threshold: an aspiration becomes a goal only when it identifies a sufficiently specific outcome and a path of work, after which repeatable habits can turn direction into progress and [[SelfEfficacy]]. Goals also matter when a desired career cannot be reached immediately; a person may need interim work, adjacent roles, or a broader path toward better-fit work. [[LiMu]] adds a machine-learning metaphor: a goal should be large enough that the endpoint is not already obvious, because worthwhile search often resembles optimization over a complex landscape rather than solving a known exercise.
 
 At the philosophical level, [[PiotrWozniak]] argues that most goals derive their value from later outcomes, so the deepest goal is not one more task but the search for objective intrinsic value through knowledge growth and reality modeling. The Mission.org source adds a sharper choice requirement: goals become real only when they make other paths, habits, and good-but-not-best options costly enough to reject. The combined view is qualified rather than rigid. Goals should strengthen [[LearnDrive]], clarify [[CareerPlanning]], and remain open to deeper [[KnowledgeValuationNetwork]] questions rather than becoming coercive status targets or simplistic commands to monetize every passion.
 
@@ -28,7 +29,7 @@ At the philosophical level, [[PiotrWozniak]] argues that most goals derive their
 - Goal setting is more important for young or constrained learners than for mature experts with strong curiosity.
 - Goals should emerge through small non-painful decisions rather than coercive imposition.
 - External status targets can become harmful when they replace personally meaningful aims, while personally meaningful goals provide root values that let value propagate from life aims to local knowledge and action.
-- Career, large, or meta-level goals can require staged paths, open search, inquiry into intrinsic value, and actual choice, because moving in many directions at once weakens the practical force of any one aim.
+- Actionable goals require more specificity than fuzzy aspiration and can require staged paths, open search, inquiry into intrinsic value, repeated habits, and actual choice.
 
 ## Evidence
 - Focus and strategy: [[she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo]] says high goals help people focus attention, energize thought, and choose better strategies.
@@ -43,16 +44,17 @@ At the philosophical level, [[PiotrWozniak]] argues that most goals derive their
 - Meta-goal framing: [[nei-zai-jia-zhi-zhuang-tai]] argues that ordinary goals are instrumentally valuable and that the search for intrinsic value is the defensible higher-order purpose.
 - Large-goal search: [[li-mu-yong-sui-ji-ti-du-xia-jiang-lai-you-hua-ren-sheng]] argues that a too-obvious endpoint suggests the goal is too simple, while a larger objective keeps exploration alive.
 - Decision cost: [[anything-is-possible-if-you-pay-the-price-mission-org-medium]] argues that a person must choose what to do and who to be, then give up the trivial many and many good options for a few best ones.
+- Aspiration-to-action bridge: [[zak-slayback-you-have-to-show-up-every-day]] argues that an aspiration becomes a goal when it specifies an outcome and a path, then becomes effective through repeated habits.
 
 ## Counterevidence & Qualifications
-The Wozniak goal-setting source explicitly rejects a universal rule that genius requires goals or self-discipline. The newer knowledge-valuation source also warns that externally imposed goals can become coercive when they override the learner's valuation system. The career source resists simple passion advice by noting that hobbies may not work as direct jobs. The intrinsically valuable state source is speculative: it does not prove that intrinsic value exists, but argues that inquiry is rational under uncertainty. Li Mu's contribution is metaphorical rather than empirical, and large goals can become vague or coercive unless paired with feedback and humane pacing. Mission.org's decision rhetoric can also overstate personal control when constraints limit which options are realistically available.
+The Wozniak goal-setting source explicitly rejects a universal rule that genius requires goals or self-discipline. The newer knowledge-valuation source also warns that externally imposed goals can become coercive when they override the learner's valuation system. The career source resists simple passion advice by noting that hobbies may not work as direct jobs. The intrinsically valuable state source is speculative: it does not prove that intrinsic value exists, but argues that inquiry is rational under uncertainty. Li Mu's contribution is metaphorical rather than empirical, and large goals can become vague or coercive unless paired with feedback and humane pacing. Mission.org's decision rhetoric can also overstate personal control when constraints limit which options are realistically available. Slayback's aspiration-goal distinction is useful but underspecified: a path may need revision as evidence arrives, and daily continuity may be infeasible without accommodation or recovery.
 
 ## What Changed
 - Broadened goal setting from learning motivation to include career-path staging.
 - Added a qualification that career goals should not assume every hobby can become a direct job.
 - Added Wozniak's meta-goal distinction and Li Mu's optimization metaphor, which together distinguish instrumental goals, intrinsic-value inquiry, large objectives, open search, and avoiding premature comfort-zone convergence.
 - Added the knowledge-valuation mechanism by which goals supply root values for learning and decision networks.
-- Added the "pay the price" frame: goals become concrete when they force tradeoffs among competing directions.
+- Added the distinction between vague aspirations and goals with an outcome and path, plus habits as the bridge from goals to self-efficacy.
 
 ## Related Concepts
 - [[LearnDrive]] - goal setting is valuable when it protects or strengthens the learner's desire to know.
@@ -65,3 +67,5 @@ The Wozniak goal-setting source explicitly rejects a universal rule that genius 
 - [[IntrinsicallyValuableState]] - Wozniak frames it as the meta-goal that can orient ordinary goals.
 - [[StochasticGradientDescent]] - Li Mu's metaphor treats goals as objective functions for iterative life search.
 - [[OpportunityCost]] - chosen goals make rejected alternatives visible as costs.
+- [[WorkHabits]] - repeated routines turn explicit goals into sustained action.
+- [[SelfEfficacy]] - progressive success can strengthen belief in one's capacity to pursue larger goals.

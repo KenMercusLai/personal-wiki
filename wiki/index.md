@@ -6,6 +6,43 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+
+- [电商系统的高并发库存扣减](sources/kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian.md) - Kikcat compares database updates, Redis locks, an event-driven in-memory stock system, and AliSQL Inventory Hint, then traces split brain, stale snapshots, reconciliation, and the tradeoffs among throughput, consistency, availability, complexity, and portability.
+- [Vine insiders say Twitter never liked what Vine became](sources/vine-insiders-say-twitter-never-liked-what-vine-became.md) - Daniel Roberts argues that Vine's user-led shift from art toward comedy and personality collided with weak creator support, monetization, acquisition alignment, and shutdown stewardship at Twitter.
+- [Video is the new HTML](sources/video-is-the-new-html-benedict-evans.md) - Benedict Evans argues that video and platform-native formats became portable content containers coupling distribution, rendering, analytics, advertising, and monetization.
+- [eShares 101](sources/eshares-101-owners-manual-blog-by-carta-medium.md) - Henry Ward documents eShares' founder-led culture course, software-leverage model, one-on-ones, capital discipline, market-based compensation, and alumni ambition.
+- [Would I do this for 10 years?](sources/would-i-do-this-for-10-years.md) - Dan Shipper argues that novice founders should replace unreliable ten-year commitment forecasts with the nearer test of whether they are learning what they want to learn.
+- [Video Games Are Boring](sources/video-games-are-boring-gamesindustry-biz.md) - Brie Code argues that many non-gamers reject narrow themes, hostile representation, inaccessible controls, and conflict-heavy conventions rather than interactivity itself, calling for games co-designed around their lives and desired forms of meaning.
+- [How I Review Code](sources/cyle-how-i-review-code.md) - Cyle presents code review as author-aware, future-reader-aware communication built on clear code, small scope, prompt follow-up, and humane feedback.
+- [Worth Less To Worthless](sources/worth-less-to-worthless-500ish.md) - A personal media collection illustrates how physical and digital purchases can retain past use value while losing resale value, compatibility, and practical usefulness.
+- [There Is No Finish Line for Entrepreneurs](sources/venture-hacks-there-is-no-finish-line-for-entrepreneurs.md) - Venture Hacks defines entrepreneurship as the open-ended joint pursuit of deeper customer advancement and broader reach, while offering a normative framework rather than outcome evidence.
+- [Building an AI-Powered Knowledge Management System](sources/corti-ai-powered-knowledge-management-obsidian-claude-code.md) - Sascha Corti proposes treating an Obsidian vault as a versioned software project with tests, graphs, backups, CI/CD, publishing pipelines, and bounded Claude Code maintenance tasks.
+- [Work-Life Balance Is About Years, Not Days](sources/work-life-balance-is-about-years-not-days-thrive-global-medium.md) - A Thrive Global essay uses Inga Clendinnen's midlife turn to historical writing to argue that work-life balance can emerge across phases and decades rather than within every day.
+- [Venture Capital Blind Spots: The Top 7 Reasons Why VCs Miss Billion-Dollar Outcomes](sources/venture-capital-blind-spots-645-ventures-medium.md) - Nnamdi Okike and Aaron Holiday identify seven founder, valuation, customer, consensus, market, competition, and behavior-change errors that can cause VCs to miss rare breakout investments.
+- [Vanity is Good: A Hierarchy of Social Drivers](sources/vanity-is-good-a-hierarchy-of-social-drivers-christian-limon-medium.md) - Christian Limon ranks utility, content, community, and vanity as social-network drivers and argues that visible recognition and local celebrity strengthen product loops, while offering no comparative validation of the hierarchy.
+- [Words still matter](sources/words-still-matter-3-min-read.md) - Ev Williams argues that ad-funded media rewards captured attention over depth and presents Medium's subscriptions, open paywall, and partner program as a reader-aligned alternative.
+- [Valuation Inflation](sources/valuation-inflation-avc.md) - Fred Wilson's review of 55 USV-led or co-led rounds finds higher seed and Series A valuations from the 2012 to 2017 timeframes, with stage, geography, sample, and return-timing limits.
+- [Winner-takes-all effects in autonomous cars](sources/winner-takes-all-effects-in-autonomous-cars-benedict-evans.md) - Benedict Evans argues that autonomy's strongest network effects sit in maps and driving data, while diminishing returns, pooling, and separable layers may prevent an inevitable monopoly.
+- [Simple Authentication with only PostgreSQL](sources/valentin-mouret-simple-authentication-with-only-postgresql.md) - Valentin Mouret demonstrates per-record bcrypt password hashing with PostgreSQL pgcrypto, while the synthesis flags the sample function's SQL defects and the wider controls omitted by the minimal design.
+- [Will Amazon Kill FedEx?](sources/will-amazon-kill-fedex.md) - Devin Leonard examines Amazon's 2016 logistics buildout as selective capacity integration that could strengthen Prime without immediately replacing FedEx, UPS, or the Postal Service.
+- [How we saved over $240K per year by replacing Mixpanel with BigQuery, Dataflow & Kubernetes](sources/vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes.md) - Vadim Solovey describes Jelly Button's 2017 migration from Mixpanel to a GKE, Pub/Sub, Dataflow, and BigQuery event pipeline, reporting about 500 events per second and projected annual savings above $240,000.
+- [Will AirPods Spark the Next Technology Wave?](sources/will-airpods-spark-the-next-technology-wave-how-personal-audio-computing-could-reshape-the-industry-geekwire.md) - A 2019 GeekWire essay tests AirPods against friction, novel-scenario, and developer-ecosystem requirements, concluding that they foreshadow personal audio computing without yet forming an independent platform.
+- ["Bot" Is the Wrong Name](sources/aaron-batalion-bot-is-the-wrong-name.md) - Aaron Batalion frames Messenger bots as platform-hosted micro apps that reuse identity, payment, location, media, support, and distribution while combining rich UI, software, and people.
+- [VPs That Can't Hire](sources/vps-that-cant-hire-jason-m-lemkin-medium.md) - Jason Lemkin argues that founders should validate a VP candidate through strong people they personally recruited and the role-specific results those hires produced.
+- [Why’d You Do That?!? An Engineer’s Guide to Debugging User Behavior](sources/whyd-you-do-that-an-engineers-guide-to-debugging-user-behavior.md) - Edmond Lau maps software-debugging habits to product learning through minimal tests, A/B experiments, session logs, and direct user observation.
+- [Zebras Fix What Unicorns Break](sources/zebras-fix-what-unicorns-break-jennifer-mara-astrid-aniyia-medium.md) - Jennifer Brandel, Mara Zepeda, Astrid Scholz, and Aniyia Williams propose durable, capital-efficient zebra companies and the aligned capital, legal, adoption, and peer infrastructure they need.
+- [Zapier Passes 1 Million Users, Thanks to You!](sources/zapier-passes-1-million-users-thanks-to-you.md) - Zapier's 2016 milestone post connects one million users, customer-driven integration growth, no-code multi-step workflows, and a fully remote team.
+- [Why You Should Kill Your Cash Cow](sources/why-you-should-kill-your-cash-cow-the-startup-medium.md) - A strategy essay uses BlackBerry and Apple to argue that mature-product cash should fund uncertain successors before lagging financial results reveal strategic decline.
+- [Using Technical Debt as a Time Machine](sources/using-technical-debt-as-a-time-machine-brian-york-medium.md) - Brian York uses Bliss's repository and debt trends to connect early validation, fundraising, hiring, and a later shift toward sustainable maintenance.
+- [You Have to Show Up. Every. Day.](sources/zak-slayback-you-have-to-show-up-every-day.md) - Zak Slayback argues that specific goals, personality-compatible habit systems, and progressively harder repeated action build self-efficacy and make continued participation easier.
+- [Users always choose the path of least resistance](sources/users-always-choose-the-path-of-least-resistance.md) - A design essay argues that products win by minimizing the total effort required for users to complete outside goals, not by maximizing engagement or novelty.
+- [Why We’re Switching Ulysses to Subscription](sources/why-were-switching-ulysses-to-subscription-building-ulysses-medium.md) - The Ulysses team argues that recurring revenue better funds continuous cross-platform maintenance than one-time sales or paid upgrades, while proposing unified access and read-only export after cancellation.
+- [Your Users Don't Need a Password](sources/your-users-dont-need-a-password-aleksandr-krivoshchekov-medium.md) - Aleksandr Krivoshchekov proposes passwordless email-link sign-in with expiring single-use tokens, throttling, and context-dependent adoption, while shifting trust to email and session infrastructure.
+- [Users You Don’t Want](sources/users-you-dont-want.md) - Michael Seibel argues that startups should test whether unexpected users represent a scalable, economically compatible market before allowing them to redirect the product.
+- [Why note-taking apps don’t make us smarter](sources/why-note-taking-apps-dont-make-us-smarter.md) - Casey Newton argues that note software excels at capture and storage without necessarily improving thought, while data saturation and fragmented feeds can increase analytical burden.
+- [Why You Shouldn't Learn to Code With Codeacademy](sources/why-you-shouldnt-learn-to-code-with-codeacademy.md) - A historical critique argues that Codecademy is useful for accessible syntax practice but needs projects, review, tooling, debugging, and feedback to develop transferable programming skill.
+- [User Research is Overrated](sources/user-research-is-overrated-muzli-design-inspiration.md) - Jonathan Courtney argues that bounded product questions often yield more actionable evidence from rapid realistic prototype tests than from weeks of up-front research artifacts, while preserving discovery for unclear problems.
+- [Use (and Misuse) of Business Case Studies](sources/use-and-misuse-of-business-case-studies-learning-by-shipping.md) - Steven Sinofsky argues that cases develop judgment through context and questions, while copying a winner's visible tools or structure mistakes organizational form for substance.
 - [Your Product Manager Super Power: Not Knowing Everything](sources/your-product-manager-super-power-not-knowing-everything-mind-the-product.md) - Mind the Product argues that PM uncertainty enables value-focused questions, assumption testing, and decomposition into independently useful releases.
 - [Usability 101: Introduction to Usability](sources/usability-101-introduction-to-usability.md) - Jakob Nielsen defines usability through learnability, efficiency, memorability, errors, and satisfaction, distinguishes it from utility, and recommends early iterative task-based user testing.
 - [Why You Should Ignore Every Founder's Story About How They Started Their Company](sources/why-you-should-ignore-every-founders-story-about-how-they-started-their-company-trevor-mckendrick.md) - Trevor McKendrick uses Sam Walton's 15-year pre-Walmart retail apprenticeship to argue that polished founder stories hide the mistakes, persistence, and capability development that matter most.
@@ -259,6 +296,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [The Dinner Party Jerk Test](sources/andrew-chen-the-dinner-party-jerk-test.md) - Andrew Chen argues that early founders should pitch team, earned secrets, proof points, and future upside more forcefully than ordinary social modesty permits.
 - [The Next Next Job, a framework for making big career decisions](sources/andrew-chen-the-next-next-job.md) - Andrew Chen argues that career moves should be evaluated by the next-next role they enable, the gaps they close, and the superpower they help build.
+- [10 years in the Bay Area – what I've learned](sources/andrewchen-10-years-in-the-bay-area.md) - Andrew Chen argues that durable relationships and writing compound, experts need fresh sight when technology cycles change, and exceptional companies are much rarer than startup attempts.
+- [10 years of professional blogging – what I've learned](sources/andrewchen-10-years-professional-blogging.md) - Andrew Chen argues that frequent, durable writing scales professional discovery when writers develop strong ideas, own their channels, and let audience and opportunity compound over a career.
 - [Every time you ask the user to click you lose half](sources/every-time-you-ask-the-user-to-click-you-lose-half.md) - Andrew Chen argues that every extra click, field, tutorial, install, or signup demand spends user intent and should remain only when it improves later product value.
 - [Fun graph from Peter Attia's book Outlive](sources/andrew-chen-fun-graph-from-peter-attias-book-outlive.md) - Andrew Chen uses an Outlive VO2 max chart to argue that building high cardiovascular fitness earlier preserves later-life capacity for ordinary activities such as brisk stair climbing.
 - [How I use AI when blogging and writing](sources/andrew-chen-how-i-use-ai-when-blogging-and-writing.md) - Andrew Chen argues that AI helps blogging most as a rough-draft, brainstorming, outline, voice-cleanup, and revision companion rather than as publishable prose by default.
@@ -367,8 +406,66 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Are you a victim of the Sunk Cost Fallacy?](sources/are-you-a-victim-of-the-sunk-cost-fallacy-desk-of-van-schneider-medium.md) - Tobias van Schneider explains how unrecoverable time, money, emotion, and pride distort future decisions, including abandoned projects and sticky game/product design.
 - [Architecting for Continuous Delivery](sources/architecting-for-continuous-delivery-thoughtworks.md) - Vishal Naik argues that continuous delivery depends on architecture, fast test feedback, and deployment-pipeline visibility rather than tooling alone.
 - [Goodbye Microservices: From 100s of Problem Children to 1 Superstar](sources/alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar.md) - Alexandra Noonan explains how Twilio Segment moved server-side destinations from microservices back to one monolithic service after service, repo, queue, dependency, and testing overhead overwhelmed the team.
+- [Why You Should Look To Your Junior Staff As Mentors](sources/why-you-should-look-to-your-junior-staff-as-mentors.md) - James Kenigsberg argues that senior leaders can renew skills, gain operational visibility, and strengthen relationships by learning informally from junior staff.
+
+- [Your next browser will pay you](sources/your-next-browser-will-pay-you-by-daniel-colin-james.md) - Daniel Colin James presents Brave and BAT as a browser-mediated, opt-in advertising system that blocks incumbent tracking, matches ads locally, and shares value with users and publishers.
+- [Serverless应用开发小记](sources/bmpi-serverless-ying-yong-kai-fa-xiao-ji.md) - bmpi.dev documents a hybrid AWS serverless application using scheduled Fargate, Lambda, API Gateway, SNS, S3, CloudFront, Terraform, and Serverless Framework.
+- [Write less code, be more responsible](sources/write-less-code-be-more-responsible-orhuns-blog.md) - Orhun Parmaksız argues for task-selective AI coding, sustainable human review, transparent tool use, and full developer responsibility for released software.
+- [Dijkstra's Shortest Path Algorithm - A Detailed and Visual Introduction](sources/freecodecamp-dijkstras-shortest-path-algorithm-a-detailed-and-visual-introduction.md) - Estefania Cassingena Navone visually explains graph structure, greedy distance selection, relaxation, and the resulting shortest-path tree.
+- [A Neural Network in 11 lines of Python (Part 1)](sources/iamtrask-a-neural-network-in-11-lines-of-python-part-1.md) - iamtrask explains sigmoid networks, full-batch weight updates, backpropagation, and hidden-layer XOR learning in compact NumPy.
 
 ## Entities
+
+- [Kikcat](entities/Kikcat.md) - Developer-author analyzing high-concurrency ecommerce inventory through database contention, Redis coordination, event-driven reconciliation, and failure recovery.
+- [eShares](entities/EShares.md) - Growth-stage software company whose 2015 employee course linked culture, leverage, management, finance, and compensation.
+- [Henry Ward](entities/HenryWard.md) - eShares chief executive and author-instructor of the eShares 101 course.
+- [Brie Code](entities/BrieCode.md) - Game designer and studio founder advocating participatory, care-centered interactive experiences for people excluded by dominant game conventions.
+- [Cyle](entities/Cyle.md) - Tumblr engineer who frames code review as contextual coaching, durable explanation, timely follow-up, and respectful collaboration.
+- [Tumblr](entities/Tumblr.md) - Historical engineering setting for a large multilingual codebase using pull requests, peer approval, automated checks, and round-robin reviewers.
+- [Venture Hacks](entities/VentureHacks.md) - Startup publication defining entrepreneurship through the joint pursuit of customer advancement and scale.
+- [Sascha Corti](entities/SaschaCorti.md) - Author proposing an AI-assisted, CI/CD-managed Obsidian knowledge vault.
+- [Inga Clendinnen](entities/IngaClendinnen.md) - Australian cultural historian whose family-centered early adulthood and midlife turn to research illustrate phase-based work-life balance.
+- [645 Ventures](entities/645Ventures.md) - Venture-capital firm represented by a product-market discipline and seven-part framework for reducing costly investment blind spots.
+- [Nnamdi Okike](entities/NnamdiOkike.md) - 645 Ventures coauthor connecting power-law outcomes with founder, customer, consensus, valuation, and market-model blind spots.
+- [Aaron Holiday](entities/AaronHoliday.md) - 645 Ventures coauthor of a framework for diagnosing venture-capital omission errors.
+- [Christian Limon](entities/ChristianLimon.md) - Product-strategy author who proposed the social-driver hierarchy and treated visible recognition as a consumer-network design input.
+- [Musical.ly](entities/MusicalLy.md) - Lip-sync video app used as a case of self-presentation layered over commodity media-sharing utility.
+- [Flipagram](entities/Flipagram.md) - Music-video sharing product framed as strengthening users' sense of local celebrity.
+- [PumpUp](entities/PumpUp.md) - Health-and-wellness community used to argue that status and affirmation loops can support prosocial behavior.
+- [Medium](entities/Medium.md) - Publishing platform whose 2017 strategy paired reader subscriptions with an open paywall and contributor payments based on member value.
+- [Ev Williams](entities/EvWilliams.md) - Medium co-founder who frames online-media quality as an incentive problem linking attention to money.
+- [Valentin Mouret](entities/ValentinMouret.md) - Author of a 2023 SQL walkthrough for password hashing and verification with PostgreSQL pgcrypto.
+- [Devin Leonard](entities/DevinLeonard.md) - Bloomberg Businessweek journalist who reported Amazon's emerging logistics network and its implications for incumbent carriers.
+- [FedEx](entities/FedEx.md) - Parcel carrier that publicly dismissed Amazon's threat while outside observers treated aircraft leasing as a strategic escalation.
+- [UPS](entities/UPS.md) - Major Amazon carrier presented as an essential capacity partner strained by disputed holiday peak volume.
+- [Vadim Solovey](entities/VadimSolovey.md) - DoiT author documenting Jelly Button's custom Google Cloud analytics pipeline.
+- [Jelly Button Games](entities/JellyButtonGames.md) - Mobile and web game company operating the high-volume event workload described in the migration case.
+- [DoiT International](entities/DoiTInternational.md) - Cloud consultancy that co-designed and implemented Jelly Button's analytics pipeline.
+- [Mixpanel](entities/Mixpanel.md) - Managed product-analytics service replaced in the reported cost-saving project.
+- [BigQuery](entities/BigQuery.md) - Analytical storage and query destination for transformed Jelly Button events.
+- [Google Cloud Dataflow](entities/GoogleCloudDataflow.md) - Managed streaming ETL layer that transforms Pub/Sub events before BigQuery storage.
+- [Google Cloud Pub/Sub](entities/GoogleCloudPubSub.md) - Persistent asynchronous messaging boundary between event ingestion and Dataflow.
+- [Google Kubernetes Engine](entities/GoogleKubernetesEngine.md) - Managed Kubernetes service hosting the multi-region, autoscaled ingestion tier.
+- [Aaron Batalion](entities/AaronBatalion.md) - Investor and author who proposed the "micro app" frame for application-like services built inside messaging platforms.
+- [Shyp](entities/Shyp.md) - Mobile shipping service used to decompose a product into platform-provided camera, location, payment, support, and tracking capabilities plus physical fulfillment.
+- [Jason Lemkin](entities/JasonLemkin.md) - SaaS author who treats demonstrated direct-report recruiting ability as a defining VP qualification.
+- [SaaStr](entities/SaaStr.md) - Publication and event context represented by practical advice about scaling SaaS leadership teams.
+- [Edmond Lau](entities/EdmondLau.md) - Engineer and author who frames product experimentation and user research through software-debugging discipline.
+- [Zebras Unite](entities/ZebrasUnite.md) - Founder-and-funder movement promoting durable companies that pursue profit and social benefit together.
+- [Zapier](entities/Zapier.md) - No-code automation platform and remote company that reported one million users and more than one million daily automated tasks in 2016.
+- [Brian York](entities/BrianYork.md) - Bliss co-founder who interprets technical-debt trends as a record of startup priorities and organizational change.
+- [Bliss](entities/Bliss.md) - Startup case connecting repository growth and debt management to validation, fundraising, and engineering hiring.
+- [Zak Slayback](entities/ZakSlayback.md) - Personal-development author who connects goal clarity, repeatable habits, and progressively built self-efficacy.
+
+- [Ulysses](entities/Ulysses.md) - Cross-platform writing app whose team moved from separate one-time purchases to one subscription intended to fund continuous compatibility, quality, and support.
+- [Aleksandr Krivoshchekov](entities/AleksandrKrivoshchekov.md) - Author of a 2017 practitioner proposal for email magic-link authentication.
+- [Casey Newton](entities/CaseyNewton.md) - Technology journalist represented by a critique of productivity software that stores more information without necessarily producing better thinking.
+- [The Verge](entities/TheVerge.md) - Technology publication and Platformer host represented by Newton’s subscription-truncated note-taking article.
+- [Codecademy](entities/Codecademy.md) - Interactive programming-learning platform profiled as a useful entry point and syntax primer whose historical guided exercises did not reliably produce independent development skill.
+- [Jonathan Courtney](entities/JonathanCourtney.md) - AJ&Smart founding partner arguing for realistic prototype testing before lengthy research documentation on bounded product questions.
+- [AJ&Smart](entities/AJSmart.md) - Product-design consultancy whose reported process shifted from research-heavy engagements to five-day Design Sprints.
+- [Jake Knapp](entities/JakeKnapp.md) - Product-design practitioner whose writing introduced Courtney to GV's Design Sprint process.
+- [GV](entities/GV.md) - Organization credited in the source with the rapid prototype-and-test Design Sprint method.
 - [Jakob Nielsen](entities/JakobNielsen.md) - Usability author and practitioner who defines five interface-quality dimensions and advocates early iterative user testing.
 - [Trevor McKendrick](entities/TrevorMcKendrick.md) - Essayist arguing that entrepreneurs should study long capability-building histories rather than polished company-origin anecdotes.
 - [Sam Walton](entities/SamWalton.md) - Retail operator whose 15 years of pre-Walmart experiments, failure recovery, and daily improvement challenge the overnight-success story.
@@ -539,7 +636,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
 - [Elon Musk](entities/ElonMusk.md) - Founder example used to illustrate all-in future-oriented action after PayPal.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
-- [Tesla](entities/Tesla.md) - Electric-vehicle company used as an example of desire expressed through concrete commitment.
+- [Tesla](entities/Tesla.md) - Electric-vehicle company represented through founder commitment and a 2017 camera-led, vertically integrated autonomy data strategy.
 - [Mark Zuckerberg](entities/MarkZuckerberg.md) - Founder example used to show learning by quickly launching Thefacebook and responding to real problems.
 - [Mahesh Balakrishnan](entities/MaheshBalakrishnan.md) - Distributed-systems academic and Delos tech lead represented by production database leadership lessons.
 - [Delos](entities/Delos.md) - Facebook production storage system used as the case for production infrastructure leadership, reliability, API migration, and observability lessons.
@@ -558,7 +655,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wait But Why](entities/WaitButWhy.md) - Illustrated long-form publication context for Tim Urban's career-planning source.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
-- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to strategic writing, execution context, connected consumer-technology integration, and the technology-history case for why earlier product failures later succeed.
+- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to writing, connected technology, historical context, and disciplined learning from business cases.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
@@ -600,7 +697,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publication context for the beautifully broken products essay.
 - [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by seetd office seating optimization and by early manual personal-shopping demand.
 - [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
-- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem framed as institutionally shaped by startups, forks, labor mobility, and exit.
+- [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem shaped by exit and mobility as well as dense, long-lived relationships and a high volume of startup attempts.
 - [Aytekin Tank](entities/AytekinTank.md) - Jotform founder using his own side-project path to argue for patient startup incubation.
 - [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
 - [Vox](entities/Vox.md) - Explanatory journalism publication source for the automation-and-human-labor article.
@@ -714,15 +811,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Eric Seufert](entities/EricSeufert.md) - Mobile Dev Memo author classifying advertising models in mobile messaging apps.
 - [Mobile Dev Memo](entities/MobileDevMemo.md) - Mobile app and advertising publication context for Seufert's messaging-ad taxonomy.
 - [David Marcus](entities/DavidMarcus.md) - Facebook Messenger leader quoted on Hipmunk's early chatbot experience being better than mobile web.
-- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as a CRM-like brand-thread advertising case and early chatbot platform.
+- [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product used as a CRM-like advertising case and early host for chatbot, micro-app, payment, and hybrid-interface ambitions.
 - [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
 - [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
-- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover feature exemplifies opt-in brand content channels.
+- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover feature exemplifies opt-in brand content and whose self-recording behavior illustrates changing personal-sharing norms.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
 - [Tango](entities/Tango.md) - Messaging app example of promoted brand channels and sponsored native content.
-- [BlackBerry](entities/BlackBerry.md) - Pre-iPhone smartphone incumbent whose late software-platform response and collapsing hardware sales made it a core smartphone-disruption case.
+- [BlackBerry](entities/BlackBerry.md) - Pre-iPhone smartphone incumbent whose revenue kept growing after the strategic platform break, delaying its late software response and hardware collapse.
 - [BlackBerry Messenger](entities/BlackBerryMessenger.md) - Messaging app example supporting promoted brand and sponsored-content formats.
 - [Jean-Louis Gassee](entities/JeanLouisGassee.md) - Technology-strategy author distinguishing smartphone incumbent failures by technology timing, execution, and business-model fit.
 - [George Musser](entities/GeorgeMusser.md) - Science writer presenting metaknowledge as a practical repair for fragile crowd wisdom.
@@ -804,7 +901,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Women in Product](entities/WomenInProduct.md) - Publication or Medium collection context for the rule-of-threes product-management source.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
-- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, beautifully broken demand, career-option building, and subsidy-backed unit economics.
+- [Uber](entities/Uber.md) - Transportation marketplace used as an example of early-adopter growth, platform trust, rough but valued service, exceptional-company career judgment, and subsidy-backed unit economics.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, continuous-feedback, and founder-vision-alignment case.
 - [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
@@ -837,7 +934,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
 - [HQ Trivia](entities/HQTrivia.md) - Live mobile trivia product used as an example of rapid concurrent growth, video lag, and user tolerance of infrastructure strain.
-- [Twitter](entities/Twitter.md) - Social platform used as a growth, onboarding, fail-whale reliability, cultural, and curated-information case with safety, metric, user-tooling, and developer-trust challenges.
+- [Twitter](entities/Twitter.md) - Social platform used as a status-driven growth, idea-distribution, onboarding, fail-whale reliability, cultural, and curated-information case with safety and trust challenges.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
 - [MyEtherWallet](entities/MyEtherWallet.md) - Early Ethereum wallet interface that grew from a two-person side project into widely used crypto infrastructure.
@@ -917,12 +1014,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, and startup metrics checklists.
-- [Fred Wilson](entities/FredWilson.md) - Investor-author of the AVC essay arguing that active investing requires concentrated time, energy, intellect, and influence.
-- [AVC](entities/AVC.md) - Publication context for Fred Wilson's active-versus-passive investing framework.
+- [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing to concentrated attention and using USV's portfolio experience to analyze early-stage valuation inflation.
+- [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing frameworks and venture-market analysis.
+- [Union Square Ventures](entities/UnionSquareVentures.md) - Venture firm whose 55 led or co-led early-stage investments form Wilson's valuation sample.
+- [SV Angel](entities/SVAngel.md) - Seed investor whose observation about larger rounds and higher valuations prompted Wilson's analysis.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator cited as recommending 10-year option exercise periods for new companies.
-- [Andrew Chen](entities/AndrewChen.md) - Startup writer whose essays frame pre-fit founder struggle, founder pitching, creator-economy dynamics, career-option planning, product-flow friction, AI-assisted blogging, and behavior-change heuristics.
+- [Andrew Chen](entities/AndrewChen.md) - Startup writer framing founder struggle, pitching, creator-economy dynamics, product growth, writing, relationship compounding, fresh judgment, and career-option selection.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator partner associated with the startup-life diagram behind the Trough of Sorrow frame.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
@@ -993,7 +1092,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ROZENMD](entities/ROZENMD.md) - Max Rozen's French business that runs OnlineOrNot and sells his products.
 - [ClawShell](entities/ClawShell.md) - Open-source project cited as practice around scoped token and capability control for agents.
 - [CREAO](entities/CREAO.md) - AI agent platform company presented as the case study for an AI-first engineering workflow.
-- [Dan Shipper](entities/DanShipper.md) - Author quoted on note taking as a relationship with a future self.
+- [Dan Shipper](entities/DanShipper.md) - Author and entrepreneur connecting future-oriented note taking with learning-based startup decisions.
+- [Firefly](entities/Firefly.md) - Company used in Dan Shipper's example of desired learning sustaining early entrepreneurial work through discouraging results.
 - [Derek Lieu](entities/DerekLieu.md) - Game-trailer creator and educator whose course influenced the source author's tutorial-writing practice.
 - [Derek Sivers](entities/DerekSivers.md) - Entrepreneur and writer cited for product-idea filtering, business creativity, and open email connection.
 - [Dynamo Inference Platform](entities/DynamoInferencePlatform.md) - Inference platform whose router uses local tokenizers, KV events, cost-based routing, and replica synchronization.
@@ -1010,7 +1110,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
-- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform strategy, Apple's trust-centered services positioning, transport-system consequences, car software/interface transitions, and the 2017 voice-assistant boom.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform-native media, autonomous-vehicle market structure and consequences, car interfaces, Apple's trust positioning, and voice assistants.
+- [Waymo](entities/Waymo.md) - Autonomous-driving technology company used to illustrate real-world testing, simulation scale, and potential platform power in a 2017 strategy essay.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path, valuation caution, and later argument about intangible software economics.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
 - [Jonathan Haskel](entities/JonathanHaskel.md) - Co-author of Capitalism Without Capital, represented here through Gates's review of intangible-asset economics.
@@ -1032,7 +1133,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zane Lowe](entities/ZaneLowe.md) - Apple Music and Beats 1 editorial voice focused on artist conversation and shared music moments.
 - [Bozoma Saint John](entities/BozomaSaintJohn.md) - Apple Music marketing leader focused on brand, discovery, and mainstream cultural attention.
 - [Beats 1](entities/Beats1.md) - Apple Music radio station used as a human-curation and shared-moment layer.
-- [AirPods](entities/AirPods.md) - Apple's ear-worn wearable used with Apple Watch as evidence of wrists-and-ears momentum before smart glasses.
+- [AirPods](entities/AirPods.md) - Apple's low-friction ear-worn wearable and a precursor to personal audio computing whose Siri restrictions limit independent platform status.
 - [ARKit](entities/ARKit.md) - Apple's augmented-reality developer platform used to seed AR behavior on iPhones and iPads before smart glasses.
 - [Magic Leap](entities/MagicLeap.md) - AR company contrasted with Apple's installed base, developers, and wearable-learning advantages.
 - [Rolex](entities/Rolex.md) - Incumbent watchmaker used as the Apple Watch revenue benchmark in the Asymco source.
@@ -1050,7 +1151,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform and software company framed through intangible economics, self-funded origins, missed mobile shift, and later enterprise-services adaptation.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
-- [Facebook](entities/Facebook.md) - Mobile-transition actor seeking messaging as a discovery, runtime, and advertising platform.
+- [Facebook](entities/Facebook.md) - Mobile-transition and distribution platform whose advertising incentives, identity layer, dependencies, and reported decline in personal sharing expose competing strategic roles.
 - [Ted Livingston](entities/TedLivingston.md) - Kik leader and author arguing that chat could become the new browser and bots the new websites.
 - [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example, sponsored Moments ad surface, and chat-payments proof case.
 - [Xiaoice](entities/Xiaoice.md) - Conversational chatbot used by Botnerds as an example where the chatbot label accurately fits a chat-first product.
@@ -1201,8 +1302,56 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [GitHub](entities/GitHub.md) - Software-development platform whose main application used dual-boot compatibility, required multi-version CI, and progressive rollout for a large Rails upgrade.
 - [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
+- [James Kenigsberg](entities/JamesKenigsberg.md) - 2U technology executive advocating informal learning relationships with junior staff.
+- [2U](entities/2U.md) - Edtech company providing the historical workplace context for Kenigsberg's reverse-mentoring account.
+
+- [Daniel Colin James](entities/DanielColinJames.md) - Technology writer whose commissioned 2018 article advocates Brave and BAT while disclosing token ownership.
+- [Brave](entities/Brave.md) - Browser presented as the launch platform for default ad blocking and optional locally targeted BAT-funded advertising.
+- [Basic Attention Token](entities/BasicAttentionToken.md) - Cryptocurrency proposed as the settlement layer for user attention, publisher support, and advertiser spending.
+- [Brendan Eich](entities/BrendanEich.md) - Brave leader whose JavaScript, Mozilla, and Firefox background supports the article's credibility argument.
+- [bmpi.dev](entities/BMPIDev.md) - Developer-author documenting a low-cost hybrid AWS serverless application and its infrastructure tradeoffs.
+- [Orhun Parmaksız](entities/OrhunParmaksiz.md) - Rust and open-source developer advocating selective AI assistance, retained craft, and accountable software publication.
+- [Codex](entities/Codex.md) - OpenAI coding agent in Orhun Parmaksız's experiment with broad delegation, exhaustive review, and mixed task allocation.
+
+- [Vine](entities/Vine.md) - Six-second looping-video platform whose emergent creator culture diverged from Twitter's preferred identity and business strategy.
+- [Edsger W. Dijkstra](entities/EdsgerWDijkstra.md) - Dutch computer scientist who designed and published the greedy shortest-path algorithm bearing his name.
+- [iamtrask](entities/Iamtrask.md) - Source-scoped author handle teaching neural-network mechanics through compact, inspectable NumPy examples.
 
 ## Concepts
+
+- [High-Concurrency Inventory Deduction](concepts/HighConcurrencyInventoryDeduction.md) - Coordinating simultaneous purchase attempts across order, inventory, cache, and database boundaries while bounding overselling, underselling, latency, and availability loss.
+- [Video as Content Container](concepts/VideoAsContentContainer.md) - Use of audiovisual media as a portable wrapper for text, motion, sound, live action, interface-like sequences, and advertising.
+- [Organizational Leverage](concepts/OrganizationalLeverage.md) - Redesigning work through software, automation, reusable systems, or capability growth so fixed effort produces greater impact.
+- [Market-Based Compensation](concepts/MarketBasedCompensation.md) - Setting salary and equity from estimated external role demand and individual skill while accounting for measurement, transparency, and fairness limits.
+- [Audience-Centered Game Design](concepts/AudienceCenteredGameDesign.md) - Designing interactive experiences from intended players' lives, tastes, barriers, and desired forms of meaning rather than inherited gamer conventions.
+- [Digital Purchase Durability](concepts/DigitalPurchaseDurability.md) - Persistence of a digital purchase across changes in compatible devices, operating systems, stores, services, interface conventions, and user habits.
+- [Entrepreneurial Quality and Scale](concepts/EntrepreneurialQualityAndScale.md) - Source-scoped standard that entrepreneurial products should deepen customer benefit while extending it to more people.
+- [Knowledge as Code](concepts/KnowledgeAsCode.md) - Managing a Markdown knowledge base through versioning, executable workflows, validation, derived artifacts, and controlled publishing.
+- [Work-Life Balance](concepts/WorkLifeBalance.md) - Allocation of attention across work, family, rest, and personal life, evaluated across seasons or decades rather than only within each day.
+- [Venture Capital Blind Spots](concepts/VentureCapitalBlindSpots.md) - Cognitive and market-model errors that cause investors to overlook exceptional companies within opportunities they could reasonably evaluate.
+- [Social Driver Hierarchy](concepts/SocialDriverHierarchy.md) - Christian Limon's proposed ordering of utility, content, community, and vanity as progressively stronger consumer social-network motivations.
+- [Attention Economy](concepts/AttentionEconomy.md) - Media incentive system in which measured human attention becomes a commodity and route to revenue.
+- [Password Hashing](concepts/PasswordHashing.md) - One-way credential storage using a purpose-built adaptive hash and unique salt, treated as one control within a larger authentication system.
+- [Logistics Vertical Integration](concepts/LogisticsVerticalIntegration.md) - Selective internalization of transportation, sorting, fulfillment, or last-mile capacity when outside networks constrain a customer promise.
+- [Event Analytics Pipeline](concepts/EventAnalyticsPipeline.md) - System for receiving, buffering, transforming, storing, and querying product or behavioral events.
+- [Personal Audio Computing](concepts/PersonalAudioComputing.md) - Ear-worn, private, always-near computing whose platform potential depends on low interaction friction, novel scenarios, and third-party extensibility.
+- [User Behavior Debugging](concepts/UserBehaviorDebugging.md) - Investigation of unexpected product use through minimal assumption tests, behavioral traces, experiments, and direct observation.
+- [Zebra Companies](concepts/ZebraCompanies.md) - Durable, capital-efficient businesses designed to pursue profitability and social benefit together through aligned governance, finance, and peer support.
+- [Mission-Aligned Capital](concepts/MissionAlignedCapital.md) - Financing whose return expectations, time horizon, ownership terms, and governance fit a company's mission and sustainable operating path.
+- [No-Code Workflow Automation](concepts/NoCodeWorkflowAutomation.md) - User configuration of triggers, transformations, searches, and actions across software services without conventional integration code.
+- [Technology S-Curve](concepts/TechnologySCurve.md) - Model of slow early improvement, rapid growth, and mature flattening that separates current financial performance from future strategic position.
+- [Innovator's Dilemma](concepts/InnovatorsDilemma.md) - Incumbent conflict between optimizing a profitable current product and funding a weak, uncertain successor that may define the next market.
+- [BCG Growth-Share Matrix](concepts/BCGGrowthShareMatrix.md) - Portfolio model whose capital-allocation logic routes cash from mature leaders toward uncertain future stars.
+- [Strategic Self-Cannibalization](concepts/StrategicSelfCannibalization.md) - Deliberately allowing a new offer to displace a successful existing product in order to preserve customer relevance.
+- [Self-Efficacy](concepts/SelfEfficacy.md) - Belief in one's capacity for effective action, strengthened in the source through repeated, progressively demanding mastery experiences.
+
+- [Utility-Oriented UX](concepts/UtilityOrientedUX.md) - Product-design orientation that treats interfaces as tools for outside goals and minimizes justified user burden rather than maximizing attention.
+- [Email Magic-Link Authentication](concepts/EmailMagicLinkAuthentication.md) - Passwordless login that proves inbox control through an expiring single-use link and shifts risk toward email delivery, token handling, and session security.
+- [Target User Discipline](concepts/TargetUserDiscipline.md) - Practice of evaluating unexpected users as possible segments while declining isolated requests that would fragment the product or economics.
+- [Design Sprint](concepts/DesignSprint.md) - Short structured process that moves a bounded product assumption to a realistic prototype and user test within roughly one working week.
+- [Prototype-First Product Discovery](concepts/PrototypeFirstProductDiscovery.md) - Sequencing approach that tests a tangible product assumption early while preserving exploratory research for problem uncertainty.
+- [Business Case Method](concepts/BusinessCaseMethod.md) - Discussion-centered analysis of researched organizational situations, designed to build contextual judgment rather than supply recipes.
+- [Survivorship Bias](concepts/SurvivorshipBias.md) - Outcome-selection distortion that overrepresents winners and makes all visible attributes of success look more causal than they are.
 - [Usability](concepts/Usability.md) - Interface quality across learnability, efficiency, memorability, errors and recovery, and satisfaction, jointly required with utility for usefulness.
 - [User Testing](concepts/UserTesting.md) - Observation of representative users attempting representative tasks without coaching, repeated across design iterations.
 - [Founder Origin Stories](concepts/FounderOriginStories.md) - Retrospective company-beginning narratives that can compress years of capability building, mistakes, and adaptation into one memorable idea or moment.
@@ -1240,8 +1389,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overthinking as a Barrier](concepts/OverthinkingAsBarrier.md) - Claim that deliberation and premature optimization, not missing tools or skill, are the usual obstacle between a builder and a shipped product.
 - [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
 - [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.
-- [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event that is repaid only through an exit, staged as seed and lettered rounds, and sized to accelerate growth.
-- [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round, rests on future expectations in early stages, and creates downside when a later exit is smaller.
+- [Startup Funding Round](concepts/StartupFundingRound.md) - Ownership-for-cash event whose stage, size, valuation, and timing vary, with price and capital raised able to move independently.
+- [Startup Valuation](concepts/StartupValuation.md) - Negotiated estimate of company worth that prices a round and varies by stage, period, geography, evidence, and investor sample.
 - [Venture Capital Fund Structure](concepts/VentureCapitalFundStructure.md) - LP-backed fund with a finite life that earns returns from exits and keeps a share of the upside, assuming most portfolio companies fail.
 - [Angel Investing](concepts/AngelInvesting.md) - Early-stage funding by individuals investing their own money, contrasted with VCs managing a fund.
 - [LLM Agent Stages](concepts/LLMAgentStages.md) - Staged account of agent architecture as structured output, tool calling, an MCP tool runtime, then a general OS layer of bash and files.
@@ -1260,7 +1409,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Problem Persistence](concepts/ProblemPersistence.md) - Discipline of staying loyal to the customer and the problem while treating the current solution as disposable.
 - [Founder Technical Capability](concepts/FounderTechnicalCapability.md) - Founding-team ability to build its own product, treated as a screening criterion that conflicts with bounded-outsourcing advice.
 - [Startup Execution Speed](concepts/StartupExecutionSpeed.md) - Founder-level rate of accomplishment, used as an evaluation signal about quality, commitment, and iteration throughput.
-- [Repeatable Learning From History](concepts/RepeatableLearningFromHistory.md) - Learning filter that separates transferable skills and broad patterns from one-time historical circumstances.
+- [Repeatable Learning From History](concepts/RepeatableLearningFromHistory.md) - Learning filter that separates transferable mechanisms and broad patterns from one-time history and context-bound organizational forms.
 - [Dollo's Law](concepts/DollosLaw.md) - Path-dependence analogy for outcomes caused by real forces that cannot be repeated exactly.
 - [Co-Founder Conflict](concepts/CoFounderConflict.md) - Founder relationship tension that becomes risky when teams avoid direct disagreement or fight constantly without decision boundaries.
 - [Open Source Project Maintenance](concepts/OpenSourceProjectMaintenance.md) - Practice of designing, releasing, supporting, delegating, and evolving public software projects while preserving user trust and maintainer sustainability.
@@ -1288,7 +1437,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Enterprise Cloud Migration](concepts/EnterpriseCloudMigration.md) - Workload migration pattern where cloud adoption displaces incumbent enterprise systems and changes supplier power.
 - [Streaming App UX](concepts/StreamingAppUX.md) - Streaming-product design quality across browsing, playback, entitlement clarity, conversion paths, and account forms.
 - [Consumer Electronics Integration](concepts/ConsumerElectronicsIntegration.md) - Product discipline of deciding where intelligence, connectivity, controls, privacy, runtime, and standards should live across connected consumer devices.
-- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by hand-built back-end coverage, command discoverability, expectation setting, hands-free value, device naming, reliability, privacy, and whether microphones belong in every product.
+- [Voice Assistant UX](concepts/VoiceAssistantUX.md) - Spoken-control experience shaped by back-end coverage, discoverability, hands-free context, ecosystem access, privacy, naming, and visible-interface limits.
 - [Smart Home Interoperability](concepts/SmartHomeInteroperability.md) - Ability of home devices, hubs, apps, standards, sensors, and infrastructure products to work together as a reliable household system.
 - [AI Marketing Hype](concepts/AIMarketingHype.md) - Pattern where "AI" becomes broad product-positioning language before the user benefit, model behavior, or technical distinction is clear.
 - [Cross-Domain Scanning](concepts/CrossDomainScanning.md) - Curiosity-driven practice of collecting concrete observations across unrelated fields so weak signals and transferable patterns become visible.
@@ -1468,7 +1617,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
 - [Deep Learning Scaling](concepts/DeepLearningScaling.md) - Contested link between increasing compute, data, model size, and transferable deep-learning capability.
-- [Autonomous Driving Safety](concepts/AutonomousDrivingSafety.md) - Reliability problem of making automated vehicles perceive, predict, decide, and act safely in open-world traffic.
+- [Autonomous Driving Safety](concepts/AutonomousDrivingSafety.md) - Reliability problem spanning perception, maps, fleet learning, simulation, handoff, social coordination, and public legitimacy in open-world traffic.
+- [Autonomous Vehicle Data Network Effects](concepts/AutonomousVehicleDataNetworkEffects.md) - Fleet-learning advantages from shared maps, driving behavior data, and simulation, qualified by interpretability, pooling, interoperability, and diminishing returns.
 - [Automotive Interface Transition](concepts/AutomotiveInterfaceTransition.md) - Shift from feature-heavy car dashboards toward sensor-fused software platforms, direct action, partial autonomy, and eventually reduced driver-interface burden.
 - [Automobility Second-Order Effects](concepts/AutomobilitySecondOrderEffects.md) - Downstream social, economic, spatial, labor, energy, and surveillance effects of electric and autonomous vehicle adoption.
 - [Small Team Leverage](concepts/SmallTeamLeverage.md) - Startup pattern where a compact team with little capital reaches outsized usage through focus, timing, network support, and execution.
@@ -1538,7 +1688,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Customer Success](concepts/CustomerSuccess.md) - SaaS operating practice of proactively helping customers adopt the product and realize value after purchase or trial.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
-- [Product Flow Friction](concepts/ProductFlowFriction.md) - Onboarding and critical-flow effort model where every extra ask spends user intent and must be justified by later product value.
+- [Product Flow Friction](concepts/ProductFlowFriction.md) - Total practical and cognitive effort in a user flow, including app-store, installation, signup, login, and platform-data tradeoffs.
 - [Cognitive Overhead in Product Design](concepts/CognitiveOverheadInProductDesign.md) - Product-design burden created when users must make too many mental connections to understand purpose, control, system behavior, or value.
 - [Product Engagement Ladder](concepts/ProductEngagementLadder.md) - Product-growth framework for staging user learning from first value through deeper engagement and expertise.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.
@@ -1546,7 +1696,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, support, and protection mechanisms that reduce transaction risk enough for marketplace participation.
 - [Apple Advertising Patterns](concepts/AppleAdvertisingPatterns.md) - Recurring Apple advertising tactics around simple category explanation, cultural borrowing, product demonstration, contrast, proof, aspiration, and overreach risk.
-- [Wearable Computing](concepts/WearableComputing.md) - Wrist-, ear-, or eye-worn computing that extends mobile functions while creating health, AR, assistant, and contextual use cases.
+- [Wearable Computing](concepts/WearableComputing.md) - Wrist-, ear-, or eye-worn computing shaped by body proximity, mobile dependence, new scenarios, extensibility, health, assistants, and AR.
 - [Smart Glasses](concepts/SmartGlasses.md) - Eye-worn computing category framed as Apple's likely next personal-computing frontier after wrists and ears.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
@@ -1642,7 +1792,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Speed Reading Method](concepts/SpeedReadingMethod.md) - Nonfiction reading workflow that evaluates a book, skims for structure and concepts, and deep-reads selected parts for output.
 - [Programmer Mindset](concepts/ProgrammerMindset.md) - Learned habit of reasoning precisely about code behavior, details, and whole-program effects.
 - [Skill Stacking](concepts/SkillStacking.md) - Career strategy of combining multiple useful skills into a distinctive profile rather than competing only on one axis.
-- [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and revisiting known codebase liabilities through lightweight markers, tool support, and team conventions.
+- [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and interpreting item-level liabilities and aggregate debt trends to support context-sensitive maintenance decisions.
 - [TODO Comments](concepts/TodoComments.md) - Source-code comments used to mark future work, refactoring ideas, or unresolved code smells.
 - [Continuous Game Server Updates](concepts/ContinuousGameServerUpdates.md) - Progressive online-game update model where old and new versions coexist while traffic gradually moves with minimal player-visible maintenance.
 - [Game Server Cloud-Native Delivery](concepts/GameServerCloudNativeDelivery.md) - Applying service units, standardized runtime environments, container delivery, and DevOps ownership to game-server architecture.
@@ -1740,7 +1890,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.
 - [Computer Use](concepts/ComputerUse.md) - Agentic software-control pattern where LLMs operate desktop or browser interfaces through lower-level action channels.
-- [Conversational UI](concepts/ConversationalUI.md) - Chat-like software interaction pattern revived by LLMs after first-wave chatbot failures around naming, hidden UI, brittle context, and support escalation.
+- [Conversational UI](concepts/ConversationalUI.md) - Chat-like interaction pattern spanning first-wave bot and micro-app naming disputes, hybrid visual interfaces, and the later LLM revival.
 - [Cognitive Load in UX Research](concepts/CognitiveLoadInUXResearch.md) - Hidden mental work users perform to understand interface state, product behavior, recovery paths, and possible actions.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
@@ -1921,7 +2071,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Platform Abuse Response](concepts/PlatformAbuseResponse.md) - Product, policy, enforcement, and communication system for preventing harassment and coordinated attacks beyond personal filters.
 - [Platform Cultural Metrics](concepts/PlatformCulturalMetrics.md) - Measures and narratives that capture a platform's cultural role beyond signups or raw usage.
 - [Mobile Runtime](concepts/MobileRuntime.md) - Competing service and monetization surfaces after the desktop browser model, including native apps, web, assistants, maps, messaging, and notifications.
-- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a development environment, discovery layer, customer-acquisition channel, and monetization surface.
+- [Messaging as Platform](concepts/MessagingAsPlatform.md) - Strategy of turning messaging into a shared-capability runtime, development environment, discovery layer, acquisition channel, and monetization surface.
 - [Internet of Things Data](concepts/InternetOfThingsData.md) - Data and system-redesign opportunity created by cheap networked sensors from smartphone-scale supply chains.
 - [Mobile Productivity](concepts/MobileProductivity.md) - Reshaping of work software as cloud and mobile devices absorb tasks once centered on PCs and office suites.
 - [Volunteer Campaign Technology](concepts/VolunteerCampaignTechnology.md) - Campaign-supporting software and data work built by loosely affiliated supporters rather than only official staff or vendors.
@@ -1948,5 +2098,19 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Incremental Framework Upgrade](concepts/IncrementalFrameworkUpgrade.md) - Migration strategy that keeps old and new framework versions runnable, advances through CI compatibility milestones, and uses staged production evidence.
 - [Value-Based Product Scoping](concepts/ValueBasedProductScoping.md) - Testing why proposed components are needed and dividing work into the smallest coherent deliverables that create value or learning.
+- [Reverse Mentoring](concepts/ReverseMentoring.md) - Upward knowledge transfer in which senior employees learn current skills and frontline perspective from junior colleagues.
+
+- [Attention-Based Advertising](concepts/AttentionBasedAdvertising.md) - Advertising design that locally matches optional ads and shares attention value among users, publishers, and advertisers.
+- [Professional Relationship Compounding](concepts/ProfessionalRelationshipCompounding.md) - Long-term accumulation of learning, trust, friendship, audience, and opportunity through repeated participation in a durable professional community.
+- [Vuja De](concepts/VujaDe.md) - Practice of seeing a familiar situation afresh so experience informs judgment without automatically closing off changed possibilities.
+- [Startup Opportunity Selection](concepts/StartupOpportunitySelection.md) - Judgment that distinguishes commonplace startup activity from the rarer opportunity to found, join, or fund an exceptional company.
+
+- [Professional Blogging](concepts/ProfessionalBlogging.md) - Career-scale public writing that combines durable ideas, repeatable practice, owned distribution, direct audience relationships, and delayed professional value.
+- [Serverless Computing](concepts/ServerlessComputing.md) - Managed cloud execution and service composition across functions, containers, events, storage, messaging, and delivery infrastructure.
+
+- [Emergent Product Identity](concepts/EmergentProductIdentity.md) - Product meaning and primary use that arise from users, creators, community norms, and competition rather than management intent alone.
+- [Dijkstra's Algorithm](concepts/DijkstrasAlgorithm.md) - Greedy single-source shortest-path procedure for graphs with non-negative edge weights.
+- [Graph Modeling](concepts/GraphModeling.md) - Representation of entities and relationships as nodes and directed or undirected, optionally weighted edges.
+- [Backpropagation](concepts/Backpropagation.md) - Backward credit-assignment procedure that turns output error into earlier-layer deltas and parameter gradients.
 
 ## Syntheses

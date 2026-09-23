@@ -4,15 +4,15 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-23
-as_of_overview_commit: cd702fb427b84fc86043a118e5e768e0582c46c0
-input_digest: 42864a635fa59184ca000e00b0b684920d473459f78e6317bfffe14d67fd3b81
+as_of_overview_commit: 585c8a9c2609a016ef9397315ba71a9491d526d9
+input_digest: a40f4b4a911c903291d9e2f9e697d40c111774c86141a2058d8ce9f66a07dfd6
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes. [[FounderOriginStories]] sharpens that lesson by showing how [[SamWalton]]'s 15-year pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, making narrative starting points part of the evidence problem. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, while [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot; none is geopolitical evidence.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.
 
 ## Cross-source Findings
 
@@ -39,25 +39,27 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 ### Software Product Histories Show Lineage And Platform Adaptation
 
-[[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], and [[ProductEvolution]] form technology and software-product histories about hidden invention-to-adoption timelines, read-later design, editor inheritance, ownership or maintenance changes, platform adaptation, durable conventions, business-model shifts, and reliability recovery rather than a geopolitical finding.
+[[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], [[ProductEvolution]], and [[DigitalPurchaseDurability]] form technology and software-product histories about hidden invention-to-adoption timelines, inherited interfaces, platform adaptation, durability, obsolescence, business-model shifts, and reliability recovery rather than a geopolitical finding.
 
-**Evidence:** [[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], [[ConstraintShapedInterfaceDesign]], [[ProductEvolution]]
+**Evidence:** [[LongNoseInnovation]], [[BillBuxton]], [[InnovationAtIntersection]], [[Instapaper]], [[MarcoArment]], [[Betaworks]], [[Pinterest]], [[AppStore]], [[ReadLaterProduct]], [[Vim]], [[UnixEditorLineage]], [[BillJoy]], [[BramMoolenaar]], [[ConstraintShapedInterfaceDesign]], [[ProductEvolution]], [[DigitalPurchaseDurability]], [[IOS]], [[Android]]
 
 **Qualifications:**
 
 - These paragraphs are historical in the sense of software chronology and lineage; they do not make geopolitical claims.
 - The Long Nose article is represented through a reconstructed archive note, so its timing claims should remain source-scoped.
+- The media-obsolescence evidence is one author's personal 2016 account rather than a longitudinal study of compatibility, licensing, app survival, or preservation.
 
 ### History Teaches Through Repeatable Patterns Not Recreated Conditions
 
-[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad patterns without pretending path-dependent conditions are reproducible; [[FounderOriginStories]], [[SamWalton]], [[Walmart]], and [[AdaptivePersistence]] add that the selected starting point can itself erase the apprenticeship, mistakes, and recovery that make a history instructive.
+[[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], and [[JasonZweig]] frame history as useful when it yields broad patterns without pretending path-dependent conditions are reproducible; [[FounderOriginStories]], [[SamWalton]], [[Walmart]], and [[AdaptivePersistence]] add that narrative starting points can erase apprenticeship and recovery, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] warn that copying a winner's visible organizational form confuses outcome-selected evidence with a transferable mechanism.
 
-**Evidence:** [[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[FounderOriginStories]], [[SamWalton]], [[Walmart]], [[AdaptivePersistence]]
+**Evidence:** [[RepeatableLearningFromHistory]], [[DollosLaw]], [[MorganHousel]], [[Amazon]], [[JeffBezos]], [[WarrenBuffett]], [[JohnDRockefeller]], [[ElonMusk]], [[JasonZweig]], [[FounderOriginStories]], [[SamWalton]], [[Walmart]], [[AdaptivePersistence]], [[BusinessCaseMethod]], [[SurvivorshipBias]]
 
 **Qualifications:**
 
 - The evidence comes from business-and-investing essays routed into the history topic because they explicitly discuss historical learning, narrative selection, and path dependence; they do not provide a full historical method or geopolitical analysis.
 - The Walton case is retrospective and survivorship-shaped, and the disputed Netflix anecdote is a narrative warning rather than a complete alternative founding history.
+- Sinofsky's case-method argument is a practitioner essay shaped by HBS and Microsoft experience rather than comparative learning research, so it provides a transfer guardrail rather than a complete causal method.
 
 ### Strategic Writing Preserves Corporate History
 
@@ -118,3 +120,25 @@ The history and geopolitics topic currently contains technology, accounting, int
 **Qualifications:**
 
 - The paragraph belongs primarily to business, platform governance, and attention design; its relevance here is limited to a 2015 snapshot of mobile notification practice.
+
+### Event Analytics Case Is Technology History Spillover
+
+[[EventAnalyticsPipeline]], [[GoogleKubernetesEngine]], [[GoogleCloudPubSub]], [[GoogleCloudDataflow]], [[BigQuery]], and [[Mixpanel]] add a source-scoped 2017 technology-history snapshot of one product-analytics build-versus-buy decision rather than a geopolitical finding.
+
+**Evidence:** [[EventAnalyticsPipeline]], [[GoogleKubernetesEngine]], [[GoogleCloudPubSub]], [[GoogleCloudDataflow]], [[BigQuery]], [[Mixpanel]]
+
+**Qualifications:**
+
+- The paragraph belongs primarily to AI and technology plus business and markets; its relevance here is limited to a 2017 snapshot of Google Cloud analytics architecture and pricing.
+- Its throughput, costs, savings, delivery, and robustness claims are vendor-authored and unaudited.
+
+### Dijkstra History Is Technical Spillover
+
+[[EdsgerWDijkstra]], [[DijkstrasAlgorithm]], and [[GraphModeling]] add a source-scoped computer-science-history example: Dijkstra published his shortest-path method in 1959 and later associated its simple greedy design with avoiding unnecessary complexity.
+
+**Evidence:** [[EdsgerWDijkstra]], [[DijkstrasAlgorithm]], [[GraphModeling]]
+
+**Qualifications:**
+
+- The substantive material is an introductory graph-algorithm walkthrough; its relevance here is limited to the 1959 publication history and Dijkstra's retrospective design account.
+- The source is secondary and pedagogical, does not prove the algorithm or analyze complexity, and incorrectly narrows valid weights from non-negative to strictly positive.

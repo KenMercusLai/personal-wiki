@@ -3,16 +3,16 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-14
-as_of_overview_commit: fef4e4f7e0b9b900989509acc1a3c5a82e9d01a5
-input_digest: 9284b9d312d04dd08430064f44700a18f7c17bbecf834d6f82be8c3a64ddb141
+last_updated: 2026-09-23
+as_of_overview_commit: d409840b08062a616be10bf67acf2d80179f8e78
+input_digest: d48bdafad6d0dd84fa879a6a5edaa824a3104e247cabae37794c669cec0d393e
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, and applied algorithms: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, applied algorithms, and serverless composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.
 
 ## Cross-source Findings
 
@@ -75,3 +75,13 @@ Platform growth can combine near-term extraction with longer-term compounding, a
 **Qualifications:**
 
 - This is drawn from one Above Avalon Apple interpretation and should not be read as a general platform-growth law.
+
+### Managed Composition Needs Explicit Boundaries
+
+[[ServerlessComputing]] reduces direct server operation but still needs explicit workload and tool boundaries through [[InfrastructureAsCode]], plus network-cost and [[SecretManagement]] decisions that shape the real operating profile.
+
+**Evidence:** [[CloudCostOptimization]], [[InfrastructureAsCode]], [[SecretManagement]], [[ServerlessComputing]]
+
+**Qualifications:**
+
+- The bmpi.dev evidence is one small AWS implementation; its cost estimate is dated and simplified, and its environment-variable token path omits stronger managed-secret controls.

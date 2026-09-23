@@ -2,6 +2,35 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "email-magic-links-relocate-authentication-trust",
+      "qualifications": [
+        "The evidence is a short 2017 practitioner essay rather than a comparative security assessment, and its captured database schema is incomplete.",
+        "Removing a site password does not address inbox compromise, phishing, leaked or scanned links, shared devices, email enumeration, delivery failure, provider outages, or session security."
+      ],
+      "statement": "[[EmailMagicLinkAuthentication]] changes an authentication governance boundary rather than removing it: [[AuthenticationInfrastructure]] must make email delivery, expiring single-use token state, replay prevention, throttling, callback validation, and session issuance secure and accountable.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "EmailMagicLinkAuthentication",
+        "AuthenticationInfrastructure"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "password-hashing-is-not-complete-authentication",
+      "qualifications": [
+        "The evidence is a short 2023 tutorial rather than a security standard or audited production design.",
+        "Its SHA-256 step is only pedagogical, its bcrypt cost is implicit, and the final SQL function has identifier-shadowing, volatility, and null-result defects."
+      ],
+      "statement": "[[PasswordHashing]] can keep reusable plaintext credentials out of a database through unique salts and adaptive verification, but [[AuthenticationInfrastructure]] still requires correct query logic, cost and upgrade policy, throttling, recovery, sessions, multi-factor controls, and breach response.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "PasswordHashing",
+        "AuthenticationInfrastructure",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "replicated-logs-govern-state-through-agreed-order",
       "qualifications": [
         "The source is a concise pattern overview and does not specify commit mechanics, deterministic execution, recovery, membership changes, consistency guarantees, liveness, or performance.",
@@ -244,6 +273,22 @@
     },
     {
       "global_candidate": false,
+      "id": "engagement-metrics-need-user-value-boundary",
+      "qualifications": [
+        "The least-resistance argument is a practitioner essay supported by historical company examples rather than comparative evidence, and legitimate safety, accessibility, trust, or comprehension needs can justify more interaction."
+      ],
+      "statement": "[[UtilityOrientedUX]] adds a design-level governance boundary for attention: teams should judge [[ProductFlowFriction]] against the user's outside goal rather than maximize engagement by default, while [[CognitiveOverheadInProductDesign]] preserves explicit steps when they create control, safety, trust, or comprehension.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "UtilityOrientedUX",
+        "ProductFlowFriction",
+        "CognitiveOverheadInProductDesign",
+        "Usability",
+        "Uber"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "atomic-commit-needs-durable-agreed-decision",
       "qualifications": [
         "This is a technical coordination pattern rather than evidence about political or institutional governance.",
@@ -256,8 +301,23 @@
         "AggregateTransactionBoundary",
         "EventDrivenConsistency"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "digital-purchases-inherit-platform-governance",
+      "qualifications": [
+        "The source is a personal 2016 account and does not compare platform policy, licensing, exportability, emulation, DRM, or server-dependent failure modes.",
+        "Payment does not itself promise perpetual compatibility, but the essay does not establish what compatibility or preservation duties platform owners should have."
+      ],
+      "statement": "[[DigitalPurchaseDurability]] adds an ownership boundary to platform governance: the continuing usefulness of paid apps depends on compatibility choices and infrastructure around [[IOS]] and [[Android]], so purchase alone does not create independent or perpetual access.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "DigitalPurchaseDurability",
+        "IOS",
+        "Android"
+      ]
     }
   ],
-  "summary": "Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives.",
+  "summary": "Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, and agreed state transitions rather than labels alone; [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself.",
   "topic_id": "governance-and-institutions"
 }

@@ -6,15 +6,18 @@ sources:
   - betting-on-things-that-never-change-collaborative-fund
   - bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next
   - collaborative-fund-lucky-vs-repeatable
-last_updated: 2026-09-15
+  - will-amazon-kill-fedex
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[JeffBezos]] is Amazon's founder and CEO in the wiki's sources, cited for grounding strategy in stable customer desires, profiled by Forbes as the leader designing Amazon's expansion, experimentation, and long-term decision system, and used by Housel as an example of exceptional skill embedded in non-repeatable historical conditions.
+[[JeffBezos]] is Amazon's founder and CEO in the historical sources, cited for grounding strategy in stable customer desires, designing Amazon's expansion and decision system, framing logistics capacity as a supplement to carrier networks, and illustrating how exceptional skill remains embedded in non-repeatable conditions.
 
 ## Current Profile
 The timeless-strategy essay presents Bezos as a strategist who grounds Amazon's long-term investment in stable customer desires. His quoted argument is that customers will continue to want low prices, fast delivery, and vast selection, making those durable enough for sustained energy and capital. The Forbes profile adds a broader operating portrait: Bezos frames Amazon's retail and cloud markets as practically unconstrained, creates multiple paths to yes for reversible experiments, slows large irreversible decisions, and evaluates major moves for differentiation, scale, and returns on capital. He spends little time on the current quarter, saying much of his work is two or three years in the future, while AWS profits give Amazon room to invest in healthcare, advertising, entertainment, hardware, and physical stores. The repeatability essay qualifies Bezos as a learning example: management, vision, ambition, and long-term thinking may be repeatable lessons, while Amazon's exact historical setup is not.
+
+In the 2016 logistics interview, Bezos describes Amazon's new network as supplemental capacity rather than a plan to eliminate FedEx, UPS, or the Postal Service. That account is consistent with a bottleneck strategy: take all useful external capacity, add internal capacity where growth exceeds it, and preserve leverage over price and service. The article does not establish whether the supplemental framing remained durable as Amazon's network expanded.
 
 ## Key Characteristics
 - Frames long-term strategy around what will not change.
@@ -23,7 +26,7 @@ The timeless-strategy essay presents Bezos as a strategist who grounds Amazon's 
 - Treats Amazon's retail and cloud markets as unusually large and unconstrained.
 - Designs Amazon around multiple paths to yes for reversible experiments.
 - Slows major one-way-door decisions and tests them for originality, scale, and returns.
-- Works primarily on future road maps in the Forbes profile and illustrates Housel's claim that rare skill can coexist with non-repeatable historical context.
+- Works primarily on future road maps, frames logistics integration as capacity supplementation, and illustrates how rare skill can coexist with non-repeatable historical context.
 
 ## Evidence
 - Strategic question: [[betting-on-things-that-never-change-collaborative-fund]] quotes Bezos saying the question of what will not change in ten years is more important than what will change.
@@ -37,12 +40,14 @@ The timeless-strategy essay presents Bezos as a strategist who grounds Amazon's 
 - Visual evidence: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] includes inspected Forbes cover and net-worth graphics presenting Bezos as the Forbes 400 leader and Amazon's "unbound" strategist.
 - Repeatability boundary: [[collaborative-fund-lucky-vs-repeatable]] says Bezos was visionary, ambitious, and savvy while also benefiting from Internet growth, market conditions, competitor weakness, politics, and regulation that a new founder could not repeat exactly.
 - Transferable lesson: [[collaborative-fund-lucky-vs-repeatable]] says Bezos can teach management and long-term thinking more readily than the exact contexts of ecommerce and cloud computing.
+- Logistics stance: [[will-amazon-kill-fedex]] quotes Bezos saying Amazon wanted all available UPS and Postal Service capacity and still needed to supplement it.
+- Bargaining nuance: [[will-amazon-kill-fedex]] records Bezos denying that better carrier prices were the purpose before joking that Amazon would always welcome them.
 
 ## Qualifications
-The profile sources emphasize Bezos's strategic self-description and business achievements, not a full evaluation of his leadership record. They do not address Amazon labor conditions, antitrust, privacy, regulatory pressure, succession, Blue Origin beyond a visible logo in one image, or later outcomes for the healthcare initiative, advertising growth, Prime economics, and physical stores. Housel's repeatability essay is also a learning heuristic, not a full causal decomposition of Amazon's success.
+The sources emphasize Bezos's strategic self-description and business achievements, not a full evaluation of his leadership. They do not address Amazon labor conditions, antitrust, privacy, succession, or later outcomes across logistics and other expansion bets. The 2016 supplemental-capacity claim is a contemporaneous executive statement, not proof of later competitive intent, and Housel's repeatability essay is a learning heuristic rather than a causal decomposition.
 
 ## What Changed
-- Added Housel's qualification that Bezos's repeatable skills should be separated from Amazon's non-repeatable historical context.
+- Added Bezos's supplemental-capacity explanation for Amazon's early logistics integration, with a bargaining-power qualification.
 
 ## Relationships
 - [[Amazon]] - company whose strategy Bezos explains.
@@ -55,3 +60,6 @@ The profile sources emphasize Bezos's strategic self-description and business ac
 - [[JeffWilke]] - Amazon lieutenant whose Kindle account illustrates Bezos's capability-learning logic.
 - [[MorganHousel]] - author interpreting Bezos's strategy.
 - [[RepeatableLearningFromHistory]] - Bezos is the essay's central example of skill plus non-repeatable context.
+- [[FedEx]] - incumbent Bezos denied seeking to eliminate through Amazon's delivery buildout.
+- [[UPS]] - carrier whose capacity Bezos said Amazon would continue using and growing.
+- [[LogisticsVerticalIntegration]] - captures the selective buildout described by Bezos as supplementation.

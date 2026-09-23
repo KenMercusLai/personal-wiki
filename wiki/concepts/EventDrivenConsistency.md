@@ -4,39 +4,44 @@ type: concept
 tags: [distributed-systems, microservices, events, consistency]
 sources:
   - christian-posta-the-hardest-part-about-microservices-your-data
-last_updated: 2026-09-15
+  - kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[EventDrivenConsistency]] is a distributed consistency strategy where services publish immutable domain events after local transactions and other bounded contexts consume those events to update their own state over time.
+[[EventDrivenConsistency]] is a distributed consistency strategy where services record durable state-change events around local transactions and other bounded contexts consume those events to update projections or authoritative state over time.
 
 ## Current Synthesis
-Posta presents event-driven consistency as the practical answer to reconciling small transactional boundaries across unreliable networks. Instead of treating REST, SOAP, RPC frameworks, or two-phase commit as ways to preserve single-database thinking across services, the article accepts that distributed systems cannot promise timely knowledge everywhere. Services publish facts about what happened, and peers decide how to store, derive, or act on those facts.
+Posta presents event-driven consistency as the practical answer to reconciling small transactional boundaries across unreliable networks. Instead of using REST, RPC, or two-phase commit to reproduce one-database assumptions across services, each bounded context commits what it knows locally and communicates immutable facts. Aggregates can emit domain events directly, a dedicated event store can be both database and pub-sub topic, or change data capture can move ACID database changes into a replicated log.
 
-The article gives several implementation paths. Aggregates can emit domain events directly; a dedicated event store can act as both database and pub-sub topic; or an ordinary ACID database can be paired with change data capture into a replicated log such as Kafka through Debezium. The core principle is stable across implementations: immutable events communicate consistency across boundaries without forcing every service into the same transaction.
+Kikcat's inventory design makes the operational obligations concrete. Redis accepts the latency-critical stock deduction, each `order_item` becomes a stock-change event, and a consumer applies the deduction to the goods database; replenishment writes the durable goods change and a stock event that refreshes Redis. This decouples order responsiveness from database write latency and avoids one cross-service atomic commit, but it does not make consistency automatic.
+
+The inventory case adds the missing recovery boundary: consumers must be idempotent, unsynchronized items and events must remain discoverable, stale snapshots must reject new writes, and a coordinator must drain pending changes before rebuilding Redis and restoring service. If the order fails after Redis deduction and even the local failure ledger is lost, periodic reconciliation is still required. Event-driven consistency is therefore a protocol of durable evidence, replay, freshness, and repair rather than merely publishing messages.
 
 ## Key Claims
 - Cross-boundary consistency should not usually depend on distributed transactions or synchronous point-to-point calls.
 - Immutable events communicate facts across bounded contexts while preserving service autonomy.
-- Event consumers need idempotency and their own decision logic because they observe other systems with delay.
+- Event consumers need idempotency, retryable evidence, and their own decision logic because they observe other systems with delay.
 - Event-driven consistency enables services to choose local storage and schema evolution independently.
-- CQRS becomes more natural after write and read concerns are separated by events.
-- Event-driven approaches improve flexibility but increase debugging, operations, and CAP-related design burden.
+- A low-latency projection must fail closed when its event position or freshness is not trustworthy.
+- Recovery requires draining or replaying pending events before a derived snapshot is declared ready.
+- Event-driven approaches improve flexibility but move atomicity work into durability, ordering, reconciliation, observability, and operations.
 
 ## Evidence
-- Distributed-system limit: [[christian-posta-the-hardest-part-about-microservices-your-data]] cites unreliable asynchronous networks and warns against hiding the network behind frameworks.
-- Event recommendation: [[christian-posta-the-hardest-part-about-microservices-your-data]] says boundaries should use events to communicate consistency.
-- Booking-to-ticketing example: [[christian-posta-the-hardest-part-about-microservices-your-data]] says Booking can publish `NewBookingCreated` and Ticketing can consume it.
-- Implementation options: [[christian-posta-the-hardest-part-about-microservices-your-data]] names domain events, event stores, Kafka, and Debezium as possible ways to publish changes.
-- Diagram evidence: [[christian-posta-the-hardest-part-about-microservices-your-data]] shows data capture and event handlers around Admin, Orders/Booking, and Search services feeding a distributed replicated event log.
-- Tradeoff list: [[christian-posta-the-hardest-part-about-microservices-your-data]] lists scalability, flexibility, and independent schemas as advantages, while naming debugging and operational difficulty as disadvantages.
+- Boundary and implementation choices: [[christian-posta-the-hardest-part-about-microservices-your-data]] recommends events across bounded contexts and names aggregate events, event stores, Kafka, Debezium, and change data capture as implementation paths.
+- Cross-service examples: [[christian-posta-the-hardest-part-about-microservices-your-data]] uses Booking and Ticketing, while [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] turns order items and replenishments into stock events spanning Redis, order storage, and the goods database.
+- Idempotency and projection freshness: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] calls for Lua-backed idempotent consumption and rejects inventory writes while the Redis snapshot is stale.
+- Recovery and reconciliation: [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] drains unsynced order items and stock events before rebuilding Redis and uses local-ledger or periodic reconciliation for failed order creation.
+- Architectural tradeoff: [[christian-posta-the-hardest-part-about-microservices-your-data]] lists scalability, flexibility, and independent schemas alongside debugging and operational costs; [[kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian]] adds deliberate unavailability and residual over- or underselling risk.
 
 ## Counterevidence & Qualifications
-The source explicitly says this model is more complicated and harder to debug and operate. It does not present events as a free replacement for transactions; events move consistency work into modeling, idempotency, ordering, observability, and operations.
+Neither source presents events as a free replacement for transactions. Posta explicitly names the debugging and operational burden; Kikcat shows that event sourcing does not by itself prevent overselling or underselling when Redis fails, a process pauses, a failure record is lost, or reconciliation has not completed. Claims of “guaranteed consistency” must therefore be read as conditional on durable capture, idempotent application, correct fencing, replay, and repair.
 
 ## What Changed
-- Created the concept from Posta's event-based cross-boundary consistency model.
+- Added a concrete inventory state-machine example spanning synchronous Redis decisions and asynchronous durable application.
+- Made stale-projection rejection, coordinator recovery, and reconciliation explicit parts of the consistency model.
+- Narrowed any guarantee claim to the full durability, idempotency, fencing, and repair protocol.
 
 ## Related Concepts
 - [[MessagePassing]] - event-driven consistency is a domain-event form of message-based coordination.
@@ -45,3 +50,5 @@ The source explicitly says this model is more complicated and harder to debug an
 - [[TaskQueueDesign]] - delivery, ordering, retry, and idempotency concerns overlap with queue design.
 - [[DistributedProgramming]] - event propagation is a distributed-programming communication pattern.
 - [[SystemReliability]] - event-based systems require operational visibility and failure handling.
+- [[HighConcurrencyInventoryDeduction]] - demonstrates event-driven consistency under a latency-sensitive inventory invariant.
+- [[TwoPhaseCommit]] - provides stronger atomic coordination when delayed reconciliation is unacceptable.

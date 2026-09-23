@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian",
+  "images": [
+    {
+      "file": "replenishment-event-flow.jpg",
+      "alt": "Replenishment writes a stock event to the goods database and a consumer applies the increment to the Redis snapshot"
+    },
+    {
+      "file": "order-deduction-event-flow.jpg",
+      "alt": "An order decrements Redis first, persists order items, and asynchronously applies stock events to the goods database"
+    },
+    {
+      "file": "stale-snapshot-circuit-breaker.jpg",
+      "alt": "The order API rejects inventory writes when the Redis snapshot is marked stale"
+    },
+    {
+      "file": "sentinel-master-failure-failover.jpg",
+      "alt": "Redis Sentinel promotes one replica after the old master fails and clients move to the new master"
+    },
+    {
+      "file": "sentinel-network-partition-split-brain.jpg",
+      "alt": "A network partition leaves the old and newly promoted Redis masters accepting stock decrements concurrently"
+    },
+    {
+      "file": "sentinel-majority-epoch-query.jpg",
+      "alt": "An application queries three Sentinels and uses the majority epoch instead of one isolated stale response"
+    },
+    {
+      "file": "epoch-fencing-rejects-old-master.jpg",
+      "alt": "A client carrying the new epoch is rejected by the old Redis master and accepted by the promoted master"
+    },
+    {
+      "file": "long-pause-failover-race.jpg",
+      "alt": "A paused client resumes with an old epoch while failover has created a new Redis master"
+    },
+    {
+      "file": "coordinator-forced-stock-reconciliation.jpg",
+      "alt": "The coordinator drains unsynced order items and stock events before refreshing Redis and clearing its stale state"
+    }
+  ]
+}

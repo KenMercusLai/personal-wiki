@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "why-were-switching-ulysses-to-subscription-building-ulysses-medium",
+  "images": [
+    {
+      "file": "one-time-release-sales-spikes.png",
+      "alt": "Conceptual chart showing one-time software sales spiking after release and update, then falling below gradually rising costs"
+    },
+    {
+      "file": "paid-upgrade-sales-spikes.png",
+      "alt": "Conceptual chart showing paid upgrades adding larger update sales spikes without eliminating revenue troughs"
+    },
+    {
+      "file": "cross-platform-version-incompatibility.png",
+      "alt": "Timeline showing a Mac update purchase and an ignored iOS update leading to incompatible data"
+    },
+    {
+      "file": "subscription-revenue-growth.png",
+      "alt": "Conceptual chart showing subscription revenue rising above costs and creating room to grow"
+    }
+  ]
+}

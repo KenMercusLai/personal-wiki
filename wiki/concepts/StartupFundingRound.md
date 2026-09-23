@@ -4,7 +4,8 @@ type: concept
 tags: [startup, funding, venture-capital]
 sources:
   - wtf-is-a-funding-round-techcrunch
-last_updated: 2026-09-17
+  - valuation-inflation-avc
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,14 +17,16 @@ TechCrunch frames the funding round as a trade rather than a transaction with a 
 
 The staging is part of the concept rather than an administrative label. Seed is the first round and later rounds take successive letters, and investors sort themselves by stage, so a founder raising a Series A is shopping in a different market than a founder raising a seed round. What a round does not do is certify the outcome. TechCrunch's closing point is that the money is a bet on a possible future, and most startups that raise still fail.
 
+Wilson's USV sample shows that the price of ownership and the amount of capital raised can change independently. Between the 2012 and 2017 timeframes, average seed capital rose from about $2.5 million to more than $4 million as seed valuations increased, while average Series A capital remained around $5–7 million even though Series A valuations roughly doubled. A stage label therefore does not imply a stable round size, valuation, or dilution pattern across time and place.
+
 ## Key Claims
 - A funding round exchanges ownership for cash rather than borrowing against future repayment.
-- Investors bear the loss if the company fails, and they are compensated through the possibility of an acquisition or IPO rather than through interest.
 - Equity is the default for young companies because qualifying for a bank loan is difficult, and loans taken alongside equity still have to be repaid with interest.
 - Round sizes are justified by a growth plan: hiring, sales and marketing, and production costs, depending on the business.
 - Rounds are staged - seed first, then Series A and later letters - and investors often specialize in one stage rather than the whole sequence.
+- Round size and valuation can move independently, so a higher price does not necessarily mean that more capital is raised.
 - Fundraising is episodic and partly precautionary, with many startups raising roughly every one to two years and often well before they need the money.
-- Raising a round is evidence of investor belief rather than of business success, because most startups fail anyway.
+- Stage benchmarks depend on time, geography, and sample rather than remaining fixed market constants.
 
 ## Evidence
 - Ownership exchange: [[wtf-is-a-funding-round-techcrunch]] says investors give the startup money in exchange for an ownership stake and hope the share price rises as the company grows.
@@ -31,14 +34,18 @@ The staging is part of the concept rather than an administrative label. Seed is 
 - Loan comparison: [[wtf-is-a-funding-round-techcrunch]] says loans do not dilute ownership but must be repaid with interest, that young businesses struggle to get them, and that startups nonetheless borrow from lenders such as Silicon Valley Bank or Square 1 Bank.
 - Use of funds: [[wtf-is-a-funding-round-techcrunch]] says the money is used to accelerate growth through new employees, sales and marketing, and production costs.
 - Round labels and investor specialization: [[wtf-is-a-funding-round-techcrunch]] says seed is the first round, that each subsequent round takes a letter starting with "A", and that investors label themselves seed-stage or late-stage funds.
+- Seed change: [[valuation-inflation-avc]] reports average seed capital rising from about $2.5 million to more than $4 million between the 2012 and 2017 timeframes alongside higher seed valuations.
+- Series A decoupling: [[valuation-inflation-avc]] reports Series A capital staying around $5–7 million even as the average pre-money range rose from $10–15 million to $22–27 million.
+- Benchmark boundary: [[valuation-inflation-avc]] combines several US and European markets and says its eight Series B rounds were insufficient for a trend conclusion.
 - Raise cadence: [[wtf-is-a-funding-round-techcrunch]] says many startups raise every one to two years and often raise before they need the money in case problems appear later.
 - Outcome base rate: [[wtf-is-a-funding-round-techcrunch]] says the majority of startups fail even though some make billions.
 
 ## Counterevidence & Qualifications
-The article is a general-audience explainer from 2020 and describes equity rounds as the norm without covering venture debt, revenue-based financing, bridge rounds, or extension rounds, and it does not distinguish priced rounds from [[UnpricedSeedFinancing]] instruments such as SAFEs and convertible notes. Its "no payback" framing is accurate for equity but not for the loans it mentions in the same breath, and it leaves out liquidation preferences, pro rata rights, board control, and other terms that determine what investors and founders actually get. TechCrunch's growth-use-of-funds claim is descriptive rather than a test of whether particular rounds were well spent, and its "most startups fail" statement is asserted without a measured definition of failure or a comparable cohort.
+The TechCrunch article is a general-audience explainer from 2020 and describes equity rounds as the norm without covering venture debt, revenue-based financing, bridge rounds, or extension rounds, and it does not distinguish priced rounds from [[UnpricedSeedFinancing]] instruments such as SAFEs and convertible notes. Its "no payback" framing is accurate for equity but not for loans. Wilson's reported averages cover only USV-led or co-led investments, combine markets with different prices, and are not enough to infer a Series B pattern. Neither source explains how changing round size and valuation translated into dilution, governance, capital efficiency, or returns.
 
 ## What Changed
-- Created the concept as the plain-language counterpart to [[StartupFinancingMechanics]]: what a round is for, why it is equity, and how rounds are sequenced.
+- Added historical evidence that seed round sizes rose while Series A sizes stayed flat despite higher Series A valuations.
+- Qualified stage benchmarks by period, geography, investor sample, and data sufficiency.
 
 ## Related Concepts
 - [[StartupFinancingMechanics]] - the term-level mechanics of shares, valuation, conversion, and dilution that sit underneath a round.

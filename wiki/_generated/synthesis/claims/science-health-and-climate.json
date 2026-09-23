@@ -35,6 +35,21 @@
     },
     {
       "global_candidate": false,
+      "id": "progressive-practice-can-build-self-efficacy",
+      "qualifications": [
+        "This is a practitioner claim rather than a health or psychological outcome study, and perceived capability is not the same as measured competence.",
+        "Continuity should be adapted for recovery, disability, health, caregiving, structural constraints, and feedback quality rather than interpreted as identical daily physical effort."
+      ],
+      "statement": "[[SelfEfficacy]] is framed as a feedback loop in which [[GoalSetting]] identifies a path and progressively demanding [[WorkHabits]] create repeated mastery experiences that can make future participation feel easier.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "SelfEfficacy",
+        "GoalSetting",
+        "WorkHabits"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "science-does-not-settle-intrinsic-value",
       "qualifications": [
         "This is a philosophy-of-science claim from Wozniak's essay, not an empirical scientific consensus review."
@@ -68,9 +83,9 @@
       "global_candidate": false,
       "id": "language-model-behaviour-frames-a-scientific-thesis",
       "qualifications": [
-        "The essay is a machine-learning explanation whose central thesis the author presents as inference from a working system, so it belongs here only as a source-scoped framing claim about how science might describe language."
+        "The essay offers a proposal about explanation and modeling rather than a health, climate, or independently validated empirical finding."
       ],
-      "statement": "The newest source reaches this topic through its scientific framing rather than through natural-science results: [[StephenWolfram]] argues from the behaviour of [[ChatGPT]] and [[NeuralNetwork]] that ordinary language may be more law-like and computationally shallower than assumed, while [[ComputationalIrreducibility]] still bounds what can be learned as patterns - a claim about explanation and modelling rather than a health, climate, or empirical finding.",
+      "statement": "The language-model source reaches this topic through scientific framing rather than natural-science results: [[StephenWolfram]] argues from the behavior of [[ChatGPT]] and [[NeuralNetwork]] that ordinary language may be more law-like and computationally shallower than assumed, while [[ComputationalIrreducibility]] still bounds what can be learned as patterns.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "StephenWolfram",
@@ -80,8 +95,23 @@
         "SemanticGrammar",
         "ComputationalLanguage"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "inventory-correctness-is-a-distributed-systems-tradeoff",
+      "qualifications": [
+        "This is a distributed-systems claim that the deterministic topic router placed here indirectly; it is not a science, health, or climate finding.",
+        "The Sentinel design reduces but does not eliminate overselling windows during partitions, long pauses, or clock anomalies."
+      ],
+      "statement": "[[HighConcurrencyInventoryDeduction]] uses [[Redis]] and [[EventDrivenConsistency]] to exchange synchronous database contention for low-latency deduction plus fencing, stale-state rejection, replay, and reconciliation.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "HighConcurrencyInventoryDeduction",
+        "Redis",
+        "EventDrivenConsistency"
+      ]
     }
   ],
-  "summary": "The topic remains mostly indirect. It now includes a beginner scientific-computing claim that NumPy makes Python practical for vector, matrix, slicing, masking, and vectorized array work; an attention and mental-load claim from productivity advice; a philosophy-of-science claim that current science does not settle intrinsic value; a developer-data claim that data-science technology adoption marks market structure and research capacity rather than just language preference; and a source-scoped framing claim from an AI explainer that language may be more law-like than assumed while irreducible computation still bounds what can be learned from data.",
+  "summary": "This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; and a newly misrouted distributed-systems case about ecommerce inventory correctness. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.",
   "topic_id": "science-health-and-climate"
 }

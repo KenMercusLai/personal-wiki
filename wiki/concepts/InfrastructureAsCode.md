@@ -5,6 +5,7 @@ tags: [infrastructure, automation, cloud, operations]
 sources:
   - a-look-at-auth0-cloud-architecture-5-years-in
   - an-infrastructure-guide-for-founders-starting-up-security-medium
+  - bmpi-serverless-ying-yong-kai-fa-xiao-ji
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -19,6 +20,8 @@ The Startup Security source shifts the same practice earlier in the company life
 
 Infrastructure as code does not remove the need for playbooks or operational judgment. The sources pair automation with incident-response documentation, failover exercises, platform work, and access constraints because reproducible infrastructure still needs humans to understand procedures, consequences, and service-specific maturity.
 
+The bmpi.dev implementation shows the practice split across tools by subsystem: Terraform defines the container, IAM, messaging, network, and scheduling layer, while Serverless Framework drives the Lambda, API, DNS, certificate, storage, CDN, and CloudFormation-backed web layer. A repeatable deployment can therefore span multiple infrastructure languages, but the boundary and permissions between them remain part of the design.
+
 ## Key Claims
 - Infrastructure as code becomes more valuable as cloud resource count, service count, and regional footprint grow.
 - Provider-specific automation can move faster than platform-independent automation when a company has standardized on one cloud.
@@ -26,6 +29,7 @@ Infrastructure as code does not remove the need for playbooks or operational jud
 - Repository-backed infrastructure lets teams apply code review, tests, and CI/CD standards to cloud changes.
 - Limiting console writes and manual changes helps prevent drift, malicious modification, and forgotten temporary exposure.
 - Automation must be paired with playbooks because incidents still require understanding, coordination, and practiced response.
+- Multiple infrastructure tools can coexist when their ownership boundaries are explicit and the combined deployment remains repeatable.
 
 ## Evidence
 - Scale pressure: [[a-look-at-auth0-cloud-architecture-5-years-in]] reports growth to more than a thousand cloud resources and four environments.
@@ -35,11 +39,14 @@ Infrastructure as code does not remove the need for playbooks or operational jud
 - Playbooks: [[a-look-at-auth0-cloud-architecture-5-years-in]] says playbooks helped engineers understand, manage, and respond to incidents in a growing service mesh.
 - Early discipline: [[an-infrastructure-guide-for-founders-starting-up-security-medium]] argues that Terraform or CloudFormation can make infrastructure part of the same deploy pipeline as application code.
 - Change control: [[an-infrastructure-guide-for-founders-starting-up-security-medium]] links limited console access, required reviews, tests, and CI/CD execution to lower drift and stronger resistance to erroneous or malicious changes.
+- Tool boundary: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] uses Terraform for ECR, ECS/Fargate, IAM, SNS, VPC, and CloudWatch scheduling, while Serverless Framework provisions Lambda, API Gateway, Route53, certificates, S3, CloudFront, and CloudFormation resources.
+- Repeated workflow: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] reduces code changes to rebuilding the Docker image and applying the infrastructure definitions through Make targets.
 
 ## Counterevidence & Qualifications
-The sources are not controlled comparisons of Terraform, SaltStack, CloudFormation, or alternative infrastructure tools. They also show that infrastructure as code can remain incomplete: Auth0 describes its automation as not perfect and still needing broader platform and deployment unification, while the startup guide notes that disciplined infrastructure workflows have to balance security with developer velocity.
+The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift.
 
 ## What Changed
+- Added a small-application case where Terraform and Serverless Framework divide infrastructure ownership by subsystem.
 - Added the startup security guide's argument that infrastructure as code should start early to apply review, tests, CI/CD, and drift resistance to cloud changes.
 
 ## Related Concepts
@@ -49,3 +56,4 @@ The sources are not controlled comparisons of Terraform, SaltStack, CloudFormati
 - [[InternalDeveloperPlatform]] - internal platforms can package infrastructure as code behind simpler developer interfaces.
 - [[ReliabilityInvestment]] - sustained automation work is a reliability investment.
 - [[StartupSecurityDebt]] - early IaC adoption prevents unreviewed cloud changes from becoming security debt.
+- [[ServerlessComputing]] - managed-service composition makes repeatable resource and permission definitions especially important.

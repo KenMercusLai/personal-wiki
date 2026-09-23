@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "why-you-should-kill-your-cash-cow-the-startup-medium",
+  "images": [
+    {
+      "file": "blackberry-revenue-2004-2016.png",
+      "alt": "BlackBerry annual revenue rises from 595 million dollars in 2004 to 19.9 billion in 2011 before falling to 2.16 billion in 2016"
+    },
+    {
+      "file": "disruptive-growth-bar-chart.jpg",
+      "alt": "Low-resolution bar chart showing accelerating growth used to illustrate a challenger becoming significant"
+    },
+    {
+      "file": "bcg-growth-share-matrix.jpg",
+      "alt": "BCG growth-share matrix with stars, question marks, cash cows, and dogs arranged by market growth and relative market share"
+    },
+    {
+      "file": "technology-product-s-curve.jpg",
+      "alt": "Technology product S-curve rising from early experimentation through rapid growth to a mature plateau"
+    },
+    {
+      "file": "incumbent-disruptor-s-curves.jpg",
+      "alt": "Successive S-curves showing an incumbent technology plateau as a newer disruptive technology accelerates"
+    },
+    {
+      "file": "incumbent-revenue-vs-product-lifecycle.jpg",
+      "alt": "Incumbent revenue curve peaking after the underlying product life-cycle curve has begun to decline"
+    },
+    {
+      "file": "apple-functional-organization.jpg",
+      "alt": "Apple functional organization chart with one chief executive above shared specialist functions rather than separate product divisions"
+    }
+  ]
+}

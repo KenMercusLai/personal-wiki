@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "users-always-choose-the-path-of-least-resistance",
+  "images": [
+    {
+      "file": "apple-pay-contactless-checkout.jpg",
+      "alt": "An iPhone displaying Apple Pay beside a contactless payment terminal in the UK"
+    },
+    {
+      "file": "uber-mobile-pickup.jpg",
+      "alt": "A rider setting an Uber pickup location on a phone beside a London taxi"
+    }
+  ]
+}

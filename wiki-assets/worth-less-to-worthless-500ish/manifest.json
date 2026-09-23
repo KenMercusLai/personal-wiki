@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "worth-less-to-worthless-500ish",
+  "images": [
+    {
+      "file": "overlapping-compact-discs.jpg",
+      "alt": "Overexposed close-up of overlapping compact discs"
+    },
+    {
+      "file": "legacy-iphone-app-list.png",
+      "alt": "Legacy iPhone app list displayed on a narrow canvas"
+    },
+    {
+      "file": "legacy-iphone-app-interface.png",
+      "alt": "Legacy iPhone app interface with dense text and skeuomorphic styling"
+    }
+  ]
+}

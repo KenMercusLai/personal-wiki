@@ -7,7 +7,8 @@ sources:
   - 7-best-practices-for-doing-code-reviews
   - being-a-junior-developer-at-30-by
   - 4-awesome-ways-we-leveled-up-as-a-dev-team-grant-ammons-medium
-last_updated: 2026-09-15
+  - cyle-how-i-review-code
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,7 +20,7 @@ The source presents workplace learning as an apprenticeship-like practice rather
 
 The article also adds a structural learning rule. When entering a new domain, learners need both a macro map and key anchors; otherwise scattered facts feel familiar in the moment but disappear or fail to transfer. Hands-on tools such as Wireshark, tcpdump, source-code reading, and repeated experiments provide the "body feel" that turns abstract technical explanations into durable understanding.
 
-Peer review can provide another version of the same learning loop. Reviewers can learn a codebase by predicting which files should change, comparing that model with the actual diff, visualizing call hierarchies, and using review to learn how coworkers reason about the system.
+Peer review can provide another version of the same learning loop. Reviewers can learn a codebase by predicting which files should change, comparing that model with the actual diff, visualizing call hierarchies, and studying how coworkers reason about the system. Cyle extends that loop across time: visible review discussion can teach engineers who were not part of the original change and preserve the decision context a future maintainer needs.
 
 Learning at work depends not only on traces and techniques but also on whether a boss, mentor, and teammates make it possible to ask questions, discuss insecurity, and get honest feedback about code quality and learning pace. Ammons adds the leadership-level version of that condition: technical leaders should explicitly sanction learning time during work, because recurring lunch-and-learns, shared videos, book clubs, and speaking practice create a social container where team learning is legitimate rather than extracurricular.
 
@@ -32,7 +33,7 @@ The group formats also broaden what counts as workplace evidence. A hairy bug ex
 - New domains need a big-picture map and key anchors before facts can connect and self-grow.
 - Hands-on verification gives abstract technical ideas concrete feel and improves recall.
 - General diagnostic methods can be more transferable than memorizing one expert's known fix.
-- Code review, mentors, managers, teammates, and protected group-learning rituals can turn prediction, verification, vulnerable questions, and shared discussion into usable learning feedback.
+- Code review, durable review archives, mentors, managers, teammates, and protected group-learning rituals can turn prediction, verification, vulnerable questions, and shared discussion into usable learning feedback.
 
 ## Evidence
 - Case review: [[ru-he-zai-gong-zuo-zhong-xue-xi]] recommends analyzing how a colleague solved a problem, what knowledge guided the reasoning, and which known facts the learner failed to apply.
@@ -42,6 +43,7 @@ The group formats also broaden what counts as workplace evidence. A hairy bug ex
 - Concrete feel: [[ru-he-zai-gong-zuo-zhong-xue-xi]] uses TCP three-way-handshake study with Wireshark as an example of making theory tangible.
 - Transferable diagnostics: [[ru-he-zai-gong-zuo-zhong-xue-xi]] contrasts a tcpdump-based investigation with a MySQL-specific `skip-name-resolve` fix, valuing the general method's portability.
 - Review learning: [[7-best-practices-for-doing-code-reviews]] recommends predicting changed files, visualizing method calls, quizzing oneself, and using review to learn coworkers' codebase reasoning.
+- Review memory: [[cyle-how-i-review-code]] says junior engineers learn by reading other engineers' reviews and that later maintainers can use pull-request context to recover why code works as it does.
 - Feedback safety: [[being-a-junior-developer-at-30-by]] says the author talked with her boss about insecurities, asked for feedback on learning speed and code quality, asked questions, and learned from supportive teammates.
 - Mentorship: [[being-a-junior-developer-at-30-by]] describes [[ManuelMatuzovic]] as a teacher, friend, and mentor who challenged the author and recognized her ambition.
 - Sanctioned learning time: [[4-awesome-ways-we-leveled-up-as-a-dev-team-grant-ammons-medium]] says technical leaders should deliberately take engineers away from delivery work so they can learn.
@@ -56,6 +58,7 @@ The sources are practitioner essays, not empirical comparisons of learning metho
 - Added code review as an active-learning setting for understanding codebase structure and teammate reasoning.
 - Added psychological safety, mentoring, and manager feedback as conditions that let junior developers ask learning-rich questions.
 - Added leadership-sanctioned team learning rituals, including lunch-and-learns, shared videos, book clubs, and speaking practice.
+- Added review archives as durable learning and decision-memory artifacts for engineers beyond the original author-reviewer pair.
 
 ## Related Concepts
 - [[ActiveLearning]] - workplace learning becomes active through experiments, replay, and problem review.

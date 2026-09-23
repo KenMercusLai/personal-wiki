@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "your-next-browser-will-pay-you-by-daniel-colin-james",
+  "images": [
+    {
+      "file": "ad-tech-landscape.png",
+      "alt": "2018 display-advertising landscape showing intermediaries between marketers and publishers"
+    },
+    {
+      "file": "programmatic-ad-delivery-flow.png",
+      "alt": "Programmatic ad-delivery flow linking a user, publisher servers, an SSP, an exchange, DSPs, an agency, and a brand"
+    },
+    {
+      "file": "adblock-device-growth.jpg",
+      "alt": "PageFair chart of desktop and mobile devices using ad-blocking software from 2009 through 2016"
+    },
+    {
+      "file": "slow-page-performance-audit.jpg",
+      "alt": "Lighthouse performance audit showing a score of 3, first meaningful paint at 14.36 seconds, and first interactive at 28.93 seconds"
+    },
+    {
+      "file": "us-newspaper-ad-revenue-decline.png",
+      "alt": "Pew chart showing U.S. newspaper advertising revenue rising through the late twentieth century and falling sharply after the mid-2000s"
+    },
+    {
+      "file": "digital-ad-fraud-estimates.png",
+      "alt": "2018 chart comparing historical and projected digital ad spend with an author's estimates of impression and click fraud"
+    },
+    {
+      "file": "bat-participant-model.png",
+      "alt": "Basic Attention Token model connecting users, advertisers, and publishers behind an on-device privacy shield"
+    }
+  ]
+}

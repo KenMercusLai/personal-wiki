@@ -8,7 +8,8 @@ sources:
   - 7-lessons-on-building-product-with-outsourced-developers-mind-the-product
   - build-a-product-that-fits-your-runway-elizabeth-yin
   - building-apps-for-shopify-fall-in-love-with-the-problem-not-the
-last_updated: 2026-09-15
+  - whyd-you-do-that-an-engineers-guide-to-debugging-user-behavior
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,7 +17,7 @@ knowledge_schema: synthesis-v1
 [[MinimumViableProduct]] is the smallest product, workflow, artifact, or market test that can expose whether a target user wants the core value strongly enough to justify further building.
 
 ## Current Synthesis
-The sources present MVPs and related early tests as demand probes rather than miniature complete products. The examples show several forms: a simple web page, a manually delivered service, a WordPress-and-PDF workflow, a video, a pricing landing page, a closed beta, an internal prototype, a single feature placed on a powerful platform, outsourced prototype work, or a hypothesis-specific operational experiment. Yin sharpens the product-scope side of the pattern: when runway is limited, a viable first product may deliberately feel like one strong feature rather than a full system. The [[Scout]] case adds an especially narrow workflow MVP: after manually proving the value of calling abandoned-checkout customers, the first software version only sent an alert with the details needed to make the call. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, broad platform support, and sometimes maintainable internal code until real usage, orders, signups, service learning, or community traction suggest the core bet is worth expanding. Maderight adds that an MVP-like service path must eventually clarify whether it is validating software, validating a services company, or delaying a hard choice; the outsourced-development source and the handwritten-card failure both warn that early implementation can create waste if the test is not tied to a clear learning goal.
+The sources present MVPs and related early tests as demand probes rather than miniature complete products. The examples show several forms: a simple web page, a manually delivered service, a WordPress-and-PDF workflow, a video, a pricing landing page, a closed beta, an internal prototype, a single feature placed on a powerful platform, outsourced prototype work, or a hypothesis-specific operational experiment. Yin sharpens the product-scope side of the pattern: when runway is limited, a viable first product may deliberately feel like one strong feature rather than a full system. The [[Scout]] case adds an especially narrow workflow MVP: after manually proving the value of calling abandoned-checkout customers, the first software version only sent an alert with the details needed to make the call. [[EdmondLau]] adds an engineering interpretation: an MVP is the product equivalent of a minimal reproducible test case, built to isolate the smallest functionality needed to test one expected user behavior. The shared pattern is disciplined incompleteness: founders defer automation, inventory, full feature sets, broad platform support, and sometimes maintainable internal code until real usage, orders, signups, service learning, or community traction suggest the core bet is worth expanding. Maderight adds that an MVP-like service path must eventually clarify whether it is validating software, validating a services company, or delaying a hard choice; the outsourced-development source and the handwritten-card failure both warn that early implementation can create waste if the test is not tied to a clear learning goal.
 
 ## Key Claims
 - MVPs test core value before teams invest in full systems.
@@ -25,7 +26,7 @@ The sources present MVPs and related early tests as demand probes rather than mi
 - Distribution context can be part of the MVP, not just the product itself.
 - A narrow or feature-like product can still be viable when it proves the main user experience, fits runway, and has a credible expansion path.
 - Successful MVP stories require caution because later company success can make early experiments look more deterministic than they were.
-- MVP-like tests should be tied to explicit hypotheses and evaluated against the strategic path they are meant to validate, including whether the right starting point is a manually proven workflow, a coded prototype, or throwaway implementation.
+- MVP-like tests should isolate explicit hypotheses and be evaluated against the strategic path they are meant to validate, including whether the right starting point is a written interface, manually proven workflow, coded prototype, or throwaway implementation.
 
 ## Evidence
 - Core-value focus: [[15-examples-of-successful-mvps-startups-web-pages-software-brothers]] describes Facebook connecting students, Spotify testing music streaming, Foursquare starting with check-ins and badges, Uber connecting iPhone users with drivers, and the first iPhone omitting many expected features.
@@ -40,13 +41,16 @@ The sources present MVPs and related early tests as demand probes rather than mi
 - Feature-to-platform path: [[build-a-product-that-fits-your-runway-elizabeth-yin]] uses [[SendGrid]] and [[HubSpot]] to argue that narrow early products can later expand into broader marketing platforms.
 - Workflow MVP: [[building-apps-for-shopify-fall-in-love-with-the-problem-not-the]] says [[Scout]] started as a weekend-built alert after manual abandoned-checkout calls had already worked.
 - Manual-first warning: [[building-apps-for-shopify-fall-in-love-with-the-problem-not-the]] says the handwritten-card app should have been tested by manually writing cards and speaking with merchants before writing new code.
+- Minimal reproducible behavior: [[whyd-you-do-that-an-engineers-guide-to-debugging-user-behavior]] says an MVP should isolate the smallest functionality that can validate whether users behave as expected.
+- Written-interface probe: [[whyd-you-do-that-an-engineers-guide-to-debugging-user-behavior]] reports that Joshua Bloch surveyed engineers using one- or two-page API-interface proposals before writing code.
 
 ## Counterevidence & Qualifications
-One source is a retrospective list of famous winners, so it risks survivorship bias and compressed origin stories. Other sources are single founder retrospectives, the outsourced-development source is practitioner advice from one product context, and Yin's two-month guideline is a heuristic rather than a universal development rule. Together they do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, implementation quality, platform discovery, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, operationally complex, or dependent on technical product-manager oversight, so they may not transfer directly to small independent software.
+One source is a retrospective list of famous winners, so it risks survivorship bias and compressed origin stories. Other sources are single founder retrospectives, the outsourced-development source is practitioner advice from one product context, Yin's two-month guideline is a heuristic rather than a universal development rule, and Lau's debugging analogy does not show that product behavior is as reproducible as a software failure. Together they do not prove that any given MVP pattern will work, nor do they separate a test's causal role from timing, founder network, funding, brand, customer type, implementation quality, platform discovery, or later execution. Several examples are venture-backed, platform-dependent, service-heavy, operationally complex, or dependent on technical product-manager oversight, so they may not transfer directly to small independent software.
 
 ## What Changed
 - Added Scout as a workflow MVP that followed manual proof rather than preceding it.
 - Added the handwritten-card failure as a code-before-validation caution.
+- Reframed an MVP as a minimal reproducible test of one expected user behavior, while preserving the limits of the software analogy.
 
 ## Related Concepts
 - [[CustomerLedProductDevelopment]] - MVPs create evidence about what customers want before larger buildout.
@@ -60,3 +64,4 @@ One source is a retrospective list of famous winners, so it risks survivorship b
 - [[OutsourcedProductDevelopment]] - external developers can build validation prototypes when scope, QA, and later ownership are explicit.
 - [[StartupRunway]] - available runway constrains how much product can be built before learning from the market.
 - [[Scout]] - concrete Shopify-app example of a minimal alert workflow.
+- [[UserBehaviorDebugging]] - uses an MVP to isolate product assumptions before deeper behavioral investigation.

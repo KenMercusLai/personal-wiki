@@ -8,7 +8,9 @@ sources:
   - above-avalon-above-avalon-subscriptions-turn-three
   - unethical-growth-hacks-youtube-news-bot-epidemic
   - why-were-paying-for-content-these-days-hunter-walk
-last_updated: 2026-09-17
+  - your-next-browser-will-pay-you-by-daniel-colin-james
+  - words-still-matter-3-min-read
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,16 +18,16 @@ knowledge_schema: synthesis-v1
 [[WebAdEconomics]] describes the web funding model in which users receive content or services without direct payment while advertising, tracking, analytics, and data collection monetize their attention and behavior.
 
 ## Current Synthesis
-The sources describe web advertising as an implicit exchange whose incentives differ from direct transactions. Users often experience content as free while attention, tracking, scripts, privacy exposure, and per-view inventory produce revenue. BuzzFeed argues that large platforms capture too much of the advertising value around professional content, and the YouTube news-bot case shows why per-view payment can reward a near-zero-cost copy regardless of who funded the reporting. [[HunterWalk]] adds the platform mechanism: advertising networks can grow by expanding inventory, advertiser demand, and targeting without charging users, while transaction growth requires higher prices or better conversion. Above Avalon and Humphrey supply alternatives in direct subscription and browser-mediated payment, enabled partly by consumer familiarity with trusted low-friction checkout.
+The sources describe web advertising as an implicit exchange whose incentives differ from direct transactions. Users often experience content as free while attention, tracking, scripts, privacy exposure, and per-view inventory produce revenue. BuzzFeed argues that large platforms capture too much of the advertising value around professional content, and the YouTube news-bot case shows why per-view payment can reward a near-zero-cost copy regardless of who funded the reporting. [[EvWilliams]] adds the editorial consequence: when attention equals money, systems reward capture regardless of quality or conscious choice, while falling revenue per reader pressures publishers toward speed, volume, and clicks. [[HunterWalk]] adds the platform mechanism: advertising networks can grow by expanding inventory, advertiser demand, and targeting without charging users, while transaction growth requires higher prices or better conversion. Above Avalon, Medium, and Humphrey supply alternatives in direct subscription and browser-mediated payment. The Brave/BAT source adds another path: keep advertising, but let the browser block incumbent delivery, match optional ads locally, and distribute tokenized revenue to users and publishers.
 
 ## Key Claims
 - The web has been built around both free information ideals and commerce, so users who experience content as free usually pay indirectly through attention, behavioral data, tracking, page weight, privacy exposure, and third-party script risk.
-- Ad blocking makes the implicit bargain harder to ignore because it removes a major revenue path without automatically replacing it.
+- Ad blocking makes the implicit bargain harder to ignore because it removes a major revenue path without automatically replacing it; Brave's proposed response is a browser-controlled opt-in replacement.
 - Mobile platforms have normalized small direct payments, and browser-integrated payments could make web transactions explicit while preserving free access where publishers and users prefer it.
 - Advertising networks can grow through inventory, demand, and targeting improvements, giving them different incentives from transaction businesses that depend on price and conversion.
-- Platform-controlled advertising markets can weaken professional publishers, pushing responses such as platform-payment pressure, direct commerce, subscriptions, licensing, studio work, and other non-ad revenue lines.
-- Ad-free niche subscriptions can align writers with reader trust and quality when the audience values specialized analysis enough to pay.
+- Platform-controlled advertising markets can weaken professional publishers, pushing responses such as platform-payment pressure, direct commerce, subscriptions, licensing, studio work, and other non-ad revenue lines; ad-free subscriptions can align writers with reader trust when audiences pay for quality.
 - Per-view advertising rewards whoever attracts the views, not whoever paid to produce the content, so near-zero-cost automated video can earn from volume at rates that would not sustain the original reporting.
+- Because attention is rewarded independently of conscious choice or informational value, ad-funded systems can mistake compulsion for demand and favor speed and volume over depth.
 
 ## Evidence
 - Free-versus-fee continuum: [[402-payment-required-david-humphrey-medium]] says web use is rarely completely free because tracking and analytics monetize activity.
@@ -41,13 +43,22 @@ The sources describe web advertising as an implicit exchange whose incentives di
 - Free-riding on authored work: [[unethical-growth-hacks-youtube-news-bot-epidemic]] describes ad-bearing videos assembled from other outlets' reporting and images, with no payment to the original producers.
 - Ad-versus-transaction incentives: [[why-were-paying-for-content-these-days-hunter-walk]] argues that Google and Facebook can improve ad revenue without taxing consumers or requiring creator conversion work, while transaction businesses must raise price or conversion.
 - Niche revenue gap: [[why-were-paying-for-content-these-days-hunter-walk]] says advertising yields only a few dollars annually from even enthusiastic niche users, making a purchase or recurring payment potentially much more valuable.
+- Intermediary complexity: [[your-next-browser-will-pay-you-by-daniel-colin-james]] includes a 2018 display-advertising landscape and a programmatic delivery diagram with agencies, servers, SSPs, exchanges, DSPs, networks, and publishers.
+- User costs and publisher pressure: [[your-next-browser-will-pay-you-by-daniel-colin-james]] combines an ad-block adoption chart, a slow-page audit, and a newspaper advertising-revenue chart to argue that users and publishers both lose under the incumbent model.
+- Browser-ad alternative: [[your-next-browser-will-pay-you-by-daniel-colin-james]] proposes optional locally matched ads, BAT rewards, publisher shares, and automatic creator contributions.
+- Attention incentive: [[words-still-matter-3-min-read]] argues that monetized attention rewards capture regardless of quality or context and can make compulsive behavior look like preference.
+- Editorial pressure: [[words-still-matter-3-min-read]] links falling ad revenue per reader to quantity, speed, clicks, weaker privacy, and less room for research, fact-checking, nuance, or polish.
+- Open-paywall alternative: [[words-still-matter-3-min-read]] presents Medium subscriptions, an ad-free product, and member-value-based partner earnings as an attempted incentive realignment.
 
 ## Counterevidence & Qualifications
-Humphrey's source is a product and protocol proposal, not evidence that user payment can replace advertising at web scale. BuzzFeed's memo does not prove that platform revenue will scale or that diversification can replace weak ad economics. Above Avalon does not disclose enough data to generalize its subscription model. Walk's 2017 account offers an incentive hypothesis without platform financial data and may not describe later transaction strategies. The YouTube source's per-view range is reported hearsay rather than measured payout and omits eligibility, topic, geography, and demonetization effects.
+Humphrey's source is a product and protocol proposal, not evidence that user payment can replace advertising at web scale. BuzzFeed's memo does not prove that platform revenue will scale or that diversification can replace weak ad economics. Above Avalon does not disclose enough data to generalize its subscription model. Medium's 2017 company-authored announcement provides no outcome evidence that subscriptions improved quality or that partner payouts tracked depth. Walk's 2017 account offers an incentive hypothesis without platform financial data and may not describe later transaction strategies. The YouTube source's per-view range is reported hearsay rather than measured payout and omits eligibility, topic, geography, and demonetization effects. The Brave/BAT article is commissioned promotional writing by a disclosed token holder; its revenue shares, speed claims, privacy promises, user count, ad-fraud estimates, and adoption forecasts are historical source claims rather than independently verified outcomes.
 
 ## What Changed
 - Added the different growth levers and organizational incentives of advertising networks and transaction businesses.
 - Added niche per-user revenue as a reason direct payment can outperform ads for focused content.
+- Added browser-local, tokenized advertising as a proposed alternative to both surveillance advertising and direct payment.
+- Added the editorial and behavioral consequences of rewarding attention independently of quality or conscious choice.
+- Added Medium's open paywall as a platform-scale direct-payment alternative, with outcome uncertainty preserved.
 
 ## Related Concepts
 - [[AdBlocking]] - ad blocking pressures the ad-funded bargain.
@@ -58,3 +69,5 @@ Humphrey's source is a product and protocol proposal, not evidence that user pay
 - [[DigitalMediaMonetization]] - media companies diversify revenue when advertising is insufficient.
 - [[NicheSubscriptionPublishing]] - reader-paid niche publishing avoids some ad-funded tradeoffs.
 - [[AutomatedContentFarming]] - per-view payment is what makes harvested content profitable at low production cost.
+- [[AttentionBasedAdvertising]] - keeps advertising while shifting matching, measurement, and part of the revenue to the browser and user.
+- [[AttentionEconomy]] - explains why captured attention becomes the central commodity in the ad-funded model.

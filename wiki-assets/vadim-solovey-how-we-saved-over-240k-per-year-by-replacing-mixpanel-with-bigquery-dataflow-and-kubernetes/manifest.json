@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes",
+  "images": [
+    {
+      "file": "mobile-gaming-analytics-reference-architecture.png",
+      "alt": "Google mobile gaming analytics reference architecture routes real-time and batch events through Pub/Sub, Cloud Storage, Dataflow, and BigQuery to analysis tools"
+    },
+    {
+      "file": "pubsub-topic-subscription-delivery.webp",
+      "alt": "Pub/Sub delivery model shows publishers writing messages to a topic and subscribers consuming them through subscriptions backed by a message store"
+    },
+    {
+      "file": "jelly-button-event-analytics-pipeline.png",
+      "alt": "Jelly Button analytics architecture routes iOS, Android, and web events through Google Container Engine, Pub/Sub, Dataflow, and BigQuery"
+    },
+    {
+      "file": "june-july-2017-gcp-costs.png",
+      "alt": "June versus July 2017 GCP daily cost chart shows mostly stable spend with a late-June spike and Dataflow and Compute Engine as the largest series"
+    }
+  ]
+}

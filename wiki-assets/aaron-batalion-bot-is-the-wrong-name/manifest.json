@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "aaron-batalion-bot-is-the-wrong-name",
+  "images": [
+    {
+      "file": "klm-messenger-travel-flow.jpeg",
+      "alt": "KLM Messenger travel flow showing delay notification, itinerary, boarding pass, and check-in cards"
+    },
+    {
+      "file": "shyp-mobile-shipping-flow.jpeg",
+      "alt": "Shyp mobile flow showing item photography, courier location, and shipment tracking"
+    }
+  ]
+}

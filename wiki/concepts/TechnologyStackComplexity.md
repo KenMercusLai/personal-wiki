@@ -9,7 +9,8 @@ sources:
   - ben-houston-i-didnt-need-kubernetes
   - blog-martin-fowler-default-trial-retire
   - wenbin-fang-the-boring-technology-behind-a-one-person-internet-company
-last_updated: 2026-09-17
+  - vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes
+last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
 
@@ -29,6 +30,8 @@ Technology-choice governance can respond to the same problem before sprawl appea
 
 The [[ListenNotes]] account adds the extreme small-team boundary of the same judgment. A one-person company runs a real product on Django, Python, [[PostgreSQL]], [[Redis]], Elasticsearch, Celery, and Supervisord, and reports no Docker, Kubernetes, or serverless at all, on the reasoning that container tooling can fit a billion-dollar mid-size startup while still being over-engineering for a solo founder. Its alternative to fine-grained orchestration is deliberate over-provisioning: buy more server capacity than the traffic needs instead of buying configuration and scaling complexity to match it exactly. That trade is only available when infrastructure cost is small relative to an operator's attention, so it extends the concept rather than contradicting it - stack complexity is a budget that can be paid in money, in attention, or in both, and the right balance depends on team size.
 
+The Jelly Button analytics case supplies the opposite boundary. Replacing one managed product with GKE, Pub/Sub, Dataflow, and BigQuery increases the number of services and failure boundaries, yet the added stack reportedly bought lower direct cost, custom streaming transformations, multi-region latency control, and elastic capacity at a sustained high event volume. Complexity is therefore not minimized by component count alone; it is justified when each boundary pays for a requirement that a simpler product cannot meet economically or flexibly enough.
+
 ## Key Claims
 - Stack complexity grows with every additional datastore because each one has distinct language, consistency, and operational semantics.
 - Cross-system data movement creates extra reasoning cost beyond the complexity of each database alone.
@@ -36,7 +39,7 @@ The [[ListenNotes]] account adds the extreme small-team boundary of the same jud
 - Simpler stacks let teams spend more attention on product features instead of database operations.
 - Removing a database service can reduce network and credential complexity while increasing sensitivity to local file, backup, transaction, and availability constraints.
 - Team familiarity, organizational capacity, orchestration abstractions, and explicit technology-choice limits are part of stack complexity because people must learn, debug, coordinate, and retire the chosen architecture.
-- Orchestration and serverless are themselves stack choices that can be declined: a one-person company may buy extra servers instead of buying service-discovery, cluster, and rollout complexity.
+- Orchestration, serverless, and managed data services are contextual stack choices: a one-person company may buy extra servers instead of automation, while a high-volume pipeline may rationally add services when each owns a clear latency, buffering, transformation, storage, or scaling responsibility whose benefit exceeds ownership cost.
 
 ## Evidence
 - Multi-database path: [[shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog]] lists PostgreSQL, Elasticsearch, InfluxDB, Pinecone, and ClickHouse as an example of rapid stack expansion.
@@ -55,18 +58,20 @@ The [[ListenNotes]] account adds the extreme small-team boundary of the same jud
 - Small-team floor: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] runs one product on Django, Python, PostgreSQL, Redis, Elasticsearch, Celery, and Supervisord with one operator.
 - Declined orchestration: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] reports no Docker, Kubernetes, or serverless and argues container tooling can be over-engineering at one-person scale.
 - Capacity over automation: [[wenbin-fang-the-boring-technology-behind-a-one-person-internet-company]] says servers are deliberately over-provisioned for traffic spikes rather than finely scaled.
+- Purposeful decomposition: [[vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes]] assigns synchronous ingestion, durable messaging, streaming ETL, and analytical storage to GKE, Pub/Sub, Dataflow, and BigQuery respectively.
+- Complexity-for-value trade: [[vadim-solovey-how-we-saved-over-240k-per-year-by-replacing-mixpanel-with-bigquery-dataflow-and-kubernetes]] reports lower direct cost and more flexible analytics at about 500 events per second, but also a five-week custom implementation.
 
 ## Counterevidence & Qualifications
-The sources do not claim small stacks are always better. Specialized systems can be justified when PostgreSQL lacks a critical feature or when scale pressure makes the added complexity worthwhile. Likewise, SQLite's smaller operational surface can be a poor fit when the system needs multi-machine availability, heavy parallel writes, or client-server tooling. Appcanary's argument is also context-sensitive: unfamiliar or distributed tools can be justified when their benefits exceed the team's adoption and coordination cost. Cloud Run can reduce orchestration complexity, but it may introduce provider dependence, local-emulation gaps, and limits that Kubernetes users intentionally avoid. The Listen Notes position is the narrowest case in the corpus - one founder-reported product, with unmeasured cost and uptime - so over-provisioning should be read as a viable trade for a small operator with low infrastructure spend rather than a general rule, since it converts a fixed cost into available headroom instead of removing the work of failure handling.
+The sources do not claim small stacks are always better. Specialized systems can be justified when PostgreSQL lacks a critical feature or when scale pressure makes the added complexity worthwhile. Likewise, SQLite's smaller operational surface can be a poor fit when the system needs multi-machine availability, heavy parallel writes, or client-server tooling. Appcanary's argument is also context-sensitive: unfamiliar or distributed tools can be justified when their benefits exceed the team's adoption and coordination cost. Cloud Run can reduce orchestration complexity, but it may introduce provider dependence, local-emulation gaps, and limits that Kubernetes users intentionally avoid. The Listen Notes position is the narrowest case in the corpus - one founder-reported product, with unmeasured cost and uptime - so over-provisioning should be read as a viable trade for a small operator with low infrastructure spend rather than a general rule. The Jelly Button case is also source-scoped and omits maintenance and reliability accounting, so its four-service decomposition demonstrates feasibility rather than proving that custom analytics infrastructure is globally simpler or cheaper.
 
 Default Trial Retire is a heuristic, not a proof that three options is always optimal. The source also says organization-wide alignment and consolidation are slower than team-level decisions, so broader portfolios may temporarily carry more variation.
 
 ## What Changed
-- Created the concept to represent database sprawl and cross-system operational burden.
 - Added SQLite as an example of complexity reduction that also relocates complexity into file and transaction operations.
 - Added Kubernetes-to-Cloud-Run migration as an orchestration-complexity case where a narrower managed platform reduces burden for a suitable workload.
 - Added Default Trial Retire as a governance mechanism for capping stack variety before it accumulates.
 - Added Listen Notes as the one-person boundary case where over-provisioning is preferred to orchestration.
+- Added Jelly Button as the high-volume boundary where deliberate service decomposition can justify more stack complexity.
 
 ## Related Concepts
 - [[DatabaseConsolidation]] - consolidation is the source's proposed response to stack complexity.
@@ -83,3 +88,4 @@ Default Trial Retire is a heuristic, not a proof that three options is always op
 - [[DefaultTrialRetire]] - team-level rule for capping default, trial, and retire options in each technology class.
 - [[TechnologyRadar]] - organization-level communication mechanism for technology status.
 - [[BoringTechnology]] - the stance that conventional, proven components are the cheapest way to keep stack complexity down.
+- [[EventAnalyticsPipeline]] - example where distinct pipeline stages justify a multi-service architecture.

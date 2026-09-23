@@ -4,17 +4,27 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-23
-as_of_overview_commit: d157cf1cf9f73ee8e9de3e135a2eb3385d05a0bc
-input_digest: ddc668b988fc86fd610cd02727a15e9867d8d4d5470d7739fbf4a27ccaf65c9a
+as_of_overview_commit: ddd8b8bd67f4bffc1af9c6d706c0cce543f57f10
+input_digest: d01008df219bea69f07a54a40023fd33bbb286b63f1cddbedbfccc9748349afa
 ---
 
 # AI and Technology
 
 ## Current State
 
-AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration. The newest agent-architecture source adds a staged layer and a deployment constraint: structured output, tool calling, and [[ModelContextProtocol]] standardize and run tools, while [[BashAsMetaTool]] and [[AgentFilesystem]] move the endpoint to a general OS layer and file-based [[LLMToolingSkills]] can carry prompts, scripts, and binaries without a runtime of their own; [[AgentDeploymentTradeoffs]] then bounds deployment by latency, reproducibility, privacy and cost, and unmet browser and computer-use demand. One adjacent media source adds the content-supply version of the same automation question: [[AutomatedContentFarming]] turns other outlets' reporting into machine-voiced video published at volume and monetized per view, so cheap generation changes who is paid for content and how much enforcement the platform owes. The language-model source supplies the mechanism underneath this material: [[ChatGPT]] is a next-token predictor, the probability it samples with [[TextGenerationSampling]] comes from learned [[Embeddings]] transformed by attention, and its feed-forward structure leaves deep computation to external tools. The newest AI-writing opinion adds [[SemanticAblation]] as a fidelity warning: polishing may preserve fluency while deleting exact terminology, distinctive imagery, qualifications, voice, or reasoning structure, although its greedy-decoding, human-feedback, and entropy-decay explanation remains untested in the supplied evidence. The university-web operations paragraph adds a smaller socio-technical case: visible interface failures can persist when digital ownership, access, staffing, coordination, and authority are fragmented, and no single centralization pattern is sufficient. An adjacent product-learning source adds a general technical feedback boundary: [[UnknownUnknowns]] can be surfaced before full implementation when [[IterativeProductShipping]] and [[StartupHypothesisTesting]] start with customer calls, paper mockups, or proofs of concept, while higher-risk systems still need stronger release gates. The usability material adds that technical capability becomes useful only when needed functionality is realistically operable, and that representative task observation should inform design throughout implementation.
+AI and technology sources frame durable technical progress as socio-technical practice: teams need underlying system understanding, scope-aware architecture governance, verification close to change, reliable operations, and AI-agent harnesses that keep context, tools, retrieval, and human judgment inspectable. The systems material ranges from concurrency vocabulary to operational patterns: [[ConcurrentProgramming]], [[ParallelProgramming]], and [[DistributedProgramming]] clarify execution boundaries, [[ContinuousDelivery]] and [[AgileSoftwareDevelopment]] show speed depending on small batches, tests, refactoring, and live feedback, [[DatabaseConsolidation]] and [[EnterpriseCloudMigration]] show database choices needing periodic re-evaluation against scale, vendor dependence, and migration cost, [[WebScrapingProxyPool]] shows how fragile external dependencies need persistence and pacing, and [[AIGuidedWebScraping]] shows browser agents needing grounded HTML retrieval, page-state feedback, and safe action boundaries. The chatbot and voice material add an interface lesson: [[ConversationalUI]] depends not only on language capability but on calibrated naming, visible constraints, and a fit between open-ended chat expectations and the actual workflow, while [[VoiceAssistantUX]] shows the same limit in speech, where reliable recognition still leaves hand-built back-end coverage and command discoverability as the binding constraints and [[UncannyValleyOfAI]] captures the stage at which better capability makes the product feel worse. [[CrossDomainScanning]] adds a source-scoped way to notice early or informal technology-use signals before they become validated models. The open-source material shows that developer-facing libraries are product systems: APIs, docs, tests, types, CI, contribution paths, and release discipline are part of the technology, not decoration. [[OrhunParmaksiz]] adds a task-allocation and stewardship boundary to [[AICodingPractice]]: unrestricted [[Codex]] delegation can weaken comprehension, exhaustive generated-code review can consume craft and motivation, and a mixed workflow can preserve selected manual implementation plus final human quality control while [[HumanCodeResponsibility]] remains with the publisher. The newest agent-architecture source adds a staged layer and a deployment constraint: structured output, tool calling, and [[ModelContextProtocol]] standardize and run tools, while [[BashAsMetaTool]] and [[AgentFilesystem]] move the endpoint to a general OS layer and file-based [[LLMToolingSkills]] can carry prompts, scripts, and binaries without a runtime of their own; [[AgentDeploymentTradeoffs]] then bounds deployment by latency, reproducibility, privacy and cost, and unmet browser and computer-use demand. One adjacent media source adds the content-supply version of the same automation question: [[AutomatedContentFarming]] turns other outlets' reporting into machine-voiced video published at volume and monetized per view, so cheap generation changes who is paid for content and how much enforcement the platform owes. The browser-advertising source adds a different architecture question: [[AttentionBasedAdvertising]] asks whether [[Brave]] can keep targeting and attention measurement local while [[BasicAttentionToken]] redistributes value, but its commissioned 2018 proposal does not prove that the privacy, verification, fraud, and incentive boundaries work together at scale. The language-model source supplies the mechanism underneath this material: [[ChatGPT]] is a next-token predictor, the probability it samples with [[TextGenerationSampling]] comes from learned [[Embeddings]] transformed by attention, and its feed-forward structure leaves deep computation to external tools. The newest AI-writing opinion adds [[SemanticAblation]] as a fidelity warning: polishing may preserve fluency while deleting exact terminology, distinctive imagery, qualifications, voice, or reasoning structure, although its greedy-decoding, human-feedback, and entropy-decay explanation remains untested in the supplied evidence. The university-web operations paragraph adds a smaller socio-technical case: visible interface failures can persist when digital ownership, access, staffing, coordination, and authority are fragmented, and no single centralization pattern is sufficient. An adjacent product-learning source adds a general technical feedback boundary: [[UnknownUnknowns]] can be surfaced before full implementation when [[IterativeProductShipping]] and [[StartupHypothesisTesting]] start with customer calls, paper mockups, or proofs of concept, while higher-risk systems still need stronger release gates. The usability material adds that technical capability becomes useful only when needed functionality is realistically operable, and that representative task observation should inform design throughout implementation. The note-taking material adds a parallel cognitive limit: [[PersonalKnowledgeManagement]] may improve capture and retrieval while [[InformationOverload]] leaves interpretation as the bottleneck, so neither elaborate interfaces nor generative AI are evidence of better thinking without measured reasoning or output gains. [[KnowledgeAsCode]] extends that limit into operations: versioned tests, graphs, backups, exports, CI/CD, and bounded [[ClaudeCode]] maintenance can control drift in a large Markdown vault, but the illustrative architecture earns its complexity only through better retrieval, insight, or output. The lifecycle material adds that technical and financial curves can diverge: [[TechnologySCurve]] treats mature performance as a possible lagging indicator, while [[InnovatorsDilemma]] explains why firms may underfund weak early successors; this is a qualified retrospective model, not a predictive law. The Jelly Button case adds [[EventAnalyticsPipeline]] as a build-versus-buy example where a thin multi-region GKE tier, Pub/Sub, Dataflow, and BigQuery turn explicit latency, buffering, transformation, and analytical-storage requirements into separate services, trading managed-product simplicity for reported cost savings and control. The autonomy material adds a conditional data-platform case: [[AutonomousVehicleDataNetworkEffects]] can improve high-definition maps, behavior prediction, and simulation across a fleet, but [[Tesla]] and [[Waymo]] illustrate different 2017 collection and validation strategies rather than proof that raw scale guarantees [[AutonomousDrivingSafety]] or monopoly power.
 
 ## Cross-source Findings
+
+### Productivity Subscriptions Fund Cross Platform Maintenance
+
+[[Ulysses]] extends [[ProductivityAppSubscriptions]] into a cross-platform maintenance case: recurring payment is presented as funding operating-system adaptation and incremental releases while one entitlement reduces paid-upgrade version skew across Mac and iOS.
+
+**Evidence:** [[Ulysses]], [[ProductivityAppSubscriptions]]
+
+**Qualifications:**
+
+- The Ulysses evidence is a vendor-authored 2017 transition rationale supported by conceptual diagrams rather than audited financial, retention, compatibility, or customer-value outcomes.
 
 ### Open Source Libraries Are Product Systems
 
@@ -68,9 +78,9 @@ Architecture and technology governance should vary by organizational scope, coup
 
 ### Ai Task Fit Requires Human Practice
 
-Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
+Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, [[OrhunParmaksiz]] adds that a sustainable mixed workflow may preserve enjoyable manual craft and a final human quality pass rather than turn all implementation into [[CodeReviewPractice]], and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
 
-**Evidence:** [[PracticalLLMUse]], [[AICodingPractice]], [[AIAssistedWriting]], [[AIDependencySkillAtrophy]], [[HumanCodeResponsibility]], [[SimonSpati]], [[NicholasCarlini]], [[Antirez]], [[ClaudeCode]], [[ContextCoding]], [[VibeCoding]], [[SemanticAblation]], [[TextGenerationSampling]]
+**Evidence:** [[PracticalLLMUse]], [[AICodingPractice]], [[AIAssistedWriting]], [[AIDependencySkillAtrophy]], [[HumanCodeResponsibility]], [[SimonSpati]], [[NicholasCarlini]], [[Antirez]], [[ClaudeCode]], [[ContextCoding]], [[VibeCoding]], [[SemanticAblation]], [[TextGenerationSampling]], [[OrhunParmaksiz]], [[CodeReviewPractice]], [[Codex]]
 
 **Qualifications:**
 
@@ -80,6 +90,7 @@ Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]],
 - Guangzhengli's naming distinction narrows pure vibe coding to no-review, result-steered work and treats maintainable AI programming as context coding.
 - The mechanism source adds a structural version of the same caution: a feed-forward next-token model produces text that sounds right rather than text that has been computed, so verification and tool use remain the boundary.
 - The semantic-ablation source usefully names fidelity loss during AI revision, but its attribution to greedy decoding and human-feedback tuning is an untested opinion thesis, and vocabulary diversity alone cannot distinguish lost meaning from legitimate clarification.
+- Parmaksız's mixed-workflow account is a time-sensitive practitioner judgment rather than comparative evidence; its AI-code licensing and FOSS-ethics questions are explicitly unresolved.
 
 ### Automation Can Industrialize Media Production
 
@@ -91,6 +102,16 @@ Digital media technology changes production and distribution without solving aud
 
 - The news-bot account is one 2018-era observation of a single platform, with revenue the author estimates rather than measures, no follow-up on the named channels, and no count of displaced human work.
 - Topolsky's 2016 practitioner essay supplies no comparative publisher data or demonstrated economics for its quality-and-finite-audience alternative.
+
+### Browser Local Advertising Can Redraw Data Boundaries
+
+[[AttentionBasedAdvertising]] uses the browser as both enforcement and matching boundary: [[Brave]] blocks incumbent ads and trackers, performs optional ad selection and attention measurement locally, and uses [[BasicAttentionToken]] to distribute value without claiming that personal data must leave the device; this is a source-scoped architecture proposal, not proof that local measurement, advertiser verification, fraud control, and privacy can all be satisfied together.
+
+**Evidence:** [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[WebAdEconomics]], [[AdBlocking]]
+
+**Qualifications:**
+
+- The evidence is a commissioned 2018 advocacy article by a disclosed BAT holder; it describes proposed privacy, performance, revenue-share, and adoption outcomes rather than independently verified operation at scale.
 
 ### Agent Systems Need Simple Debuggable Harnesses
 
@@ -104,14 +125,15 @@ Effective coding-agent systems depend on simple, debuggable harnesses: inspectab
 
 ### Context And Retrieval Are Design Surfaces
 
-Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what the model can use or misuse.
+Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what a model can use or misuse. [[PersonalKnowledgeManagement]] and [[InformationOverload]] add the human boundary that better capture, linkage, and retrieval do not by themselves demonstrate better reasoning when interpretation remains the bottleneck.
 
-**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]]
+**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]], [[PersonalKnowledgeManagement]], [[InformationOverload]]
 
 **Qualifications:**
 
 - Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, stale instruction files, or hidden retrieval failure modes.
 - For live codebases and browser pages, current search, semantic retrieval, and structured environment access should be evaluated as complementary signals rather than as an absolute RAG-versus-grep or vision-versus-DOM choice.
+- The note-taking evidence is a subscription-truncated practitioner column: it establishes a useful distinction between storage or retrieval capability and cognitive outcomes, but does not measure reasoning improvement or resolve whether generative AI closes that gap.
 
 ### Browser Agents Need Grounded Retrieval And Safe Actions
 
@@ -227,3 +249,46 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 **Qualifications:**
 
 - The five-dimension model is practical rather than exhaustive, and the five-user and budget figures are broad heuristics rather than universal requirements.
+
+### Mature Technology Performance Can Lag Strategic Decline
+
+[[TechnologySCurve]] adds a lifecycle boundary to technical progress: a mature architecture can remain optimized and profitable after a successor begins accelerating, so [[BlackBerry]]'s 2011 revenue peak is treated as a lagging indicator and [[InnovatorsDilemma]] as the organizational difficulty of funding uncertain replacement curves.
+
+**Evidence:** [[TechnologySCurve]], [[BlackBerry]], [[InnovatorsDilemma]]
+
+**Qualifications:**
+
+- The S-curve is a simplifying model rather than a forecast; most proposed successor technologies fail, and the source's BlackBerry interpretation is retrospective.
+- Six of the seven retained evidentiary images are low-resolution thumbnails, so only their visible structures support the synthesis.
+
+### Event Analytics Pipelines Trade Managed Simplicity For Control
+
+[[EventAnalyticsPipeline]] shows a scope-sensitive decomposition in which [[GoogleKubernetesEngine]] handles multi-region ingestion, [[GoogleCloudPubSub]] separates acceptance from processing, [[GoogleCloudDataflow]] performs streaming transformation, and [[BigQuery]] supplies analytical storage; the design makes [[Kubernetes]] justified by explicit latency and elasticity requirements while moving integration and operational responsibility from [[Mixpanel]] to the operator.
+
+**Evidence:** [[EventAnalyticsPipeline]], [[GoogleKubernetesEngine]], [[GoogleCloudPubSub]], [[GoogleCloudDataflow]], [[BigQuery]], [[Kubernetes]], [[Mixpanel]]
+
+**Qualifications:**
+
+- The evidence is a vendor-authored 2017 case with no audited Mixpanel baseline, total labor or maintenance cost, feature-parity analysis, incident record, or current provider comparison.
+- The reported 500 events per second, five-week implementation, roughly $1,300 monthly GCP service cost, and projected annual saving above $240,000 are workload-specific historical claims rather than a universal build-versus-buy rule.
+
+### Autonomy Data Feedback Is Conditional Platform Power
+
+[[AutonomousVehicleDataNetworkEffects]] distinguish commodity hardware scale from learning feedback in high-definition maps, driving-behavior data, and simulation: [[Tesla]] illustrates a vertically integrated camera-fleet bet and [[Waymo]] illustrates dedicated real-world and simulated testing, but raw miles do not guarantee [[AutonomousDrivingSafety]] and the market need not become winner-take-all if data can be pooled or improvement plateaus.
+
+**Evidence:** [[AutonomousVehicleDataNetworkEffects]], [[Tesla]], [[Waymo]], [[AutonomousDrivingSafety]]
+
+**Qualifications:**
+
+- The evidence is one speculative 2017 strategy essay rather than contemporary measured fleet performance, and it predates later sensor, model, simulation, regulatory, and deployment changes.
+- Fleet scale improves safety only when observations are interpretable, representative, legally usable, and incorporated into reliable validation; pooled maps, interoperability, and diminishing returns can weaken proprietary advantage.
+
+### Knowledge As Code Needs Outcome Justified Automation
+
+[[KnowledgeAsCode]] treats an [[Obsidian]] Markdown vault as canonical repository content behind versioned tasks, deterministic checks, graphs, backups, exports, and CI/CD, while [[ClaudeCode]] handles bounded semantic maintenance; the automation is justified only when it improves [[PersonalKnowledgeManagement]] retrieval, insight, or output enough to offset dependencies and review burden.
+
+**Evidence:** [[KnowledgeAsCode]], [[Obsidian]], [[ClaudeCode]], [[PersonalKnowledgeManagement]]
+
+**Qualifications:**
+
+- The evidence is one prescriptive architecture with illustrative snippets rather than a measured deployment, so it does not establish that AI-generated links, quality metrics, or the full CI/CD stack improve insight or reduce total maintenance cost.
