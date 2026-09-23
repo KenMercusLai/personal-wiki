@@ -3295,3 +3295,27 @@ Added Lencx's analysis of OpenClaw's embedded Pi engine, IM-first daemon, inject
 ## [2026-09-23] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-23] ingest | On Technical Accessibility
+
+Re-ingested Andrej Karpathy's Micrograd reflection from its renamed raw article. Re-keyed the existing source note to `on-technical-accessibility`, corrected its publication date and source path, removed a stale visual reference that is not present in the current Markdown, and preserved the existing [[AndrejKarpathy]], [[Micrograd]], and [[TechnicalAccessibility]] synthesis without duplicating its evidence inventory. The requested source contains no effective image references, so no visual assets were retained or left uninterpreted.
+
+## [2026-09-23] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Replace Your To-Do List With Interstitial Journaling To Increase Productivity
+
+Added Tony Stubblebine's transition-based journaling method for closing the previous work context, selecting a literal first action, and considering strategy before starting the next project. Created [[InterstitialJournaling]] and [[TonyStubblebine]], and updated [[JournalingPractice]] to distinguish daily reflection, programming records, and work-transition journals while preserving qualifications about evidence quality, logging overhead, work context, and individual differences in action granularity. All 12 distinct local images were opened successfully; retained the Wunderlist working-list screenshot as a concrete UI comparison and omitted the cover photograph, author avatar, repeated divider, and eight stock illustrations as decorative or redundant. Downstream synthesis was refreshed for work, education, and society, and the global artifact was recompacted because its material-change gate was due.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | tape x topic: 我对智能体上下文的组织方式
+
+Added PsiACE's proposal for turning Tape's immutable entries, anchors, views, and handoff into business-facing topic ranges. Created [[AgentTopicLifecycle]], and updated [[TapeAndAnchors]], [[AgentMemory]], [[PsiACE]], and [[Bub]] with explicit topic boundaries, lifecycle hooks, indexed recall, unfinished-topic recovery, infrastructure portability, sharing, fact extraction, and token-cost accounting. Preserved the proposal's unresolved concurrency, topic-boundary, correction, privacy, access-control, deletion, retrieval-quality, and hook-reliability questions. All four referenced diagrams were opened and retained under descriptive canonical filenames because they independently show the range model, common lifecycle, recall-anchor flow, and aborted-topic recovery path.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Replace Your To-Do List With Interstitial Journaling To Increase Productivity](sources/replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity.md) - Tony Stubblebine proposes a transition journal that closes the previous work context, identifies a literal first action and strategy for the next project, and makes distraction easier to notice and recover from.
 - [电商系统的高并发库存扣减](sources/kikcat-dian-shang-xi-tong-de-gao-bing-fa-ku-cun-kou-jian.md) - Kikcat compares database updates, Redis locks, an event-driven in-memory stock system, and AliSQL Inventory Hint, then traces split brain, stale snapshots, reconciliation, and the tradeoffs among throughput, consistency, availability, complexity, and portability.
 - [Vine insiders say Twitter never liked what Vine became](sources/vine-insiders-say-twitter-never-liked-what-vine-became.md) - Daniel Roberts argues that Vine's user-led shift from art toward comedy and personality collided with weak creator support, monetization, acquisition alignment, and shutdown stewardship at Twitter.
 - [Video is the new HTML](sources/video-is-the-new-html-benedict-evans.md) - Benedict Evans argues that video and platform-native formats became portable content containers coupling distribution, rendering, analytics, advertising, and monetization.
@@ -228,7 +229,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Arianna Huffington on sleep, mornings and work](sources/arianna-huffington-on-sleep-mornings-and-work-the-early-hour.md) - Annie Ridout interviews Arianna Huffington on sleep as performance support, morning routines, HuffPost burnout prevention, vacation-email deletion, and The Sleep Revolution.
 - [Another tax on the poor: Surrendering privacy for survival](sources/another-tax-on-the-poor-surrendering-privacy-for-survival.md) - Fast Company argues that poor and marginalized people often surrender more privacy for benefits, work, housing, credit, and safety while having fewer resources to repair data harms.
 - [A from-scratch tour of Bitcoin in Python](sources/andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python.md) - Andrej Karpathy reconstructs Bitcoin in pure Python, showing key generation, address encoding, UTXOs, P2PKH scripts, transaction signing, fees, and proof-of-work incentives.
-- [Andrej Karpathy on X: on technical accessibility](sources/andrej-karpathy-on-x-on-technical-accessibility.md) - Karpathy argues that Micrograd's unchanged code reached far more learners only after he built an explanatory video ramp around it.
+- [On Technical Accessibility](sources/on-technical-accessibility.md) - Karpathy argues that Micrograd's unchanged code reached far more learners only after he built an explanatory video ramp around it.
 - [Andre Staltz - The Web began dying in 2014, here's how](sources/andre-staltz-the-web-began-dying-in-2014-heres-how.md) - Andre Staltz argues that the Web began losing practical relevance as Google, Facebook, and Amazon concentrated traffic, discovery, commerce, mobile runtimes, and infrastructure.
 - [An Open Letter to Millennials Like Talia...](sources/an-open-letter-to-millennials-like-talia-stefanie-williams-medium.md) - Stefanie Williams rejects Talia Jane's wage-precarity framing and argues that roommates, second jobs, service work, and humility are expected early-career tradeoffs.
 - [An Introduction to Scientific Python - NumPy](sources/an-introduction-to-scientific-python-numpy-data-dependence.md) - Jamal introduces NumPy as a fast scientific Python library built around arrays, vector and matrix representation, slicing, vectorized operations, dot products, and boolean masking.
@@ -354,6 +355,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [为什么你不该沉迷知识管理](sources/liang-mouyin-wei-shen-me-ni-bu-gai-chen-mi-zhi-shi-guan-li.md) - Liang Mouyin's critique of knowledge-management tool-chasing, arguing that PKM should be simplified around personal fit and tested by actual output.
 - [李沐 - 用随机梯度下降来优化人生](sources/li-mu-yong-sui-ji-ti-du-xia-jiang-lai-you-hua-ren-sheng.md) - A machine-learning metaphor essay using stochastic gradient descent to frame life strategy around large goals, small repeated steps, rest, exploration, humility about starting points, and restart after failure.
 - [木匠,锤子,钉子](sources/mu-jiang-chui-zi-ding-zi.md) - A practitioner essay by PsiACE on coding-agent minimal tools, RAG limits for live codebases, OpenClaw versus Bub agent paradigms, group-chat agents, and tape-and-anchor context management.
+- [tape x topic: 我对智能体上下文的组织方式](sources/tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi.md) - PsiACE's proposal for topic-bounded Tape context with lifecycle hooks, indexed recall, unfinished-topic recovery, and infrastructure-portable storage.
 - [是的，我用AI写文章，咋滴](sources/shi-de-wo-yong-ai-xie-wen-zhang-za-di.md) - A creator essay defending AI-assisted writing as a human-owned workflow of topic selection, structure, model-supported drafting, cross-checking, revision, visual generation, and accountable publication.
 - [年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅](sources/zhang-xiaoji-jian-ru-jia-jing-xie-gang-cheng-xu-yuan-de-shu-zi-you-min-zhuan-xing-zhi-lu.md) - A slash-programmer retrospective on leaving employment, abandoning a failed short-video experiment, and building a small portfolio of paid tools through user validation, early monetization, build-in-public distribution, and platform tailwinds.
 - [常用端口利用总结](sources/chang-yong-duan-kou-li-yong-zong-jie-infvies-blog.md) - A security checklist mapping common service ports to defensive triage categories such as weak credentials, cleartext protocols, unauthenticated access, remote administration exposure, middleware consoles, and database service risk.
@@ -417,6 +419,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Tony Stubblebine](entities/TonyStubblebine.md) - Productivity writer and coach who formulated interstitial journaling as a repeatable project-transition ritual.
 - [Kikcat](entities/Kikcat.md) - Developer-author analyzing high-concurrency ecommerce inventory through database contention, Redis coordination, event-driven reconciliation, and failure recovery.
 - [eShares](entities/EShares.md) - Growth-stage software company whose 2015 employee course linked culture, leverage, management, finance, and compensation.
 - [Henry Ward](entities/HenryWard.md) - eShares chief executive and author-instructor of the eShares 101 course.
@@ -1037,8 +1040,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
 - [Liang Mouyin](entities/LiangMouyin.md) - Author arguing that knowledge management should be simplified and judged by output rather than tool or method sophistication.
 - [Li Mu](entities/LiMu.md) - Machine-learning educator-author who uses stochastic gradient descent as a metaphor for life optimization.
-- [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, and context-management models.
-- [Bub](entities/Bub.md) - PsiACE's group-chat-oriented coding-agent project contrasted with personal-assistant agents such as OpenClaw.
+- [PsiACE](entities/PsiACE.md) - Practitioner-author writing about databases, RAG, agent protocols, coding agents, Bub, Tape, and topic-based context architecture.
+- [Bub](entities/Bub.md) - PsiACE's group-chat-oriented agent project and one vertical application of the Tape design language.
 - [Hanyang](entities/Hanyang.md) - Writer and creator presenting AI workflow design for humanities, cultural production, and accountable AI-assisted writing.
 - [FUNES](entities/FUNES.md) - Cultural or knowledge-production project that supplied production pressure behind Hanyang's AI workflow method.
 - [Shi Shu Feng](entities/ShiShuFeng.md) - Podcast venue where Hanyang's AI guide for humanities workers was publicly discussed.
@@ -1322,6 +1325,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Interstitial Journaling](concepts/InterstitialJournaling.md) - Work-transition practice that records cognitive closure, a literal first action, and strategy before the next project begins.
 - [High-Concurrency Inventory Deduction](concepts/HighConcurrencyInventoryDeduction.md) - Coordinating simultaneous purchase attempts across order, inventory, cache, and database boundaries while bounding overselling, underselling, latency, and availability loss.
 - [Video as Content Container](concepts/VideoAsContentContainer.md) - Use of audiovisual media as a portable wrapper for text, motion, sound, live action, interface-like sequences, and advertising.
 - [Organizational Leverage](concepts/OrganizationalLeverage.md) - Redesigning work through software, automation, reusable systems, or capability growth so fixed effort produces greater impact.
@@ -1806,6 +1810,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Coding Agent Minimal Tooling](concepts/CodingAgentMinimalTooling.md) - Design idea that small search, read, edit, write, and shell-like tool surfaces can power coding-agent loops.
 - [Agentic RAG](concepts/AgenticRAG.md) - Retrieval pattern where an agent searches and reads current material iteratively instead of relying only on static indexes.
 - [Tape and Anchors](concepts/TapeAndAnchors.md) - Context-management model using append-only history, minimal anchors, and on-demand context assembly.
+- [Agent Topic Lifecycle](concepts/AgentTopicLifecycle.md) - Topic-bounded context pattern using start/finalization anchors, lifecycle hooks, indexed recall, and unfinished-topic recovery.
 - [AI-Assisted Writing](concepts/AIAssistedWriting.md) - Writing workflow where AI accelerates ideation, drafting, checking, voice cleanup, titles, visuals, and layout while humans retain argument, taste, verification, and accountability.
 - [AI Workflow Design](concepts/AIWorkflowDesign.md) - Practice of turning AI use into traceable, controllable, verifiable task pipelines and exploratory loops grounded in source material and human judgment.
 - [AI Voice Input](concepts/AIVoiceInput.md) - Speech-to-text workflow where transcription and AI cleanup turn spoken language into faithful readable writing and rough draft material.

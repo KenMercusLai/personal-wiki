@@ -3,7 +3,7 @@ title: "Micrograd"
 type: entity
 tags: [software, ai, education]
 sources:
-  - andrej-karpathy-on-x-on-technical-accessibility
+  - on-technical-accessibility
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -22,10 +22,10 @@ The post presents Micrograd as already compact and pedagogically designed: rough
 - Serves as evidence that educational software needs both an artifact and an entry ramp.
 
 ## Evidence
-- Minimal scope: [[andrej-karpathy-on-x-on-technical-accessibility]] describes Micrograd as around 200 lines and focused on the heart of an autograd engine.
-- Documentation baseline: [[andrej-karpathy-on-x-on-technical-accessibility]] says the code and README were already extensively commented.
-- Engagement shift: [[andrej-karpathy-on-x-on-technical-accessibility]] says the same code saw much larger interest after the explanatory video.
-- Learning role: [[andrej-karpathy-on-x-on-technical-accessibility]] says the repo became a frequently cited reference for people learning backpropagation.
+- Minimal scope: [[on-technical-accessibility]] describes Micrograd as around 200 lines and focused on the heart of an autograd engine.
+- Documentation baseline: [[on-technical-accessibility]] says the code and README were already extensively commented.
+- Engagement shift: [[on-technical-accessibility]] says the same code saw much larger interest after the explanatory video.
+- Learning role: [[on-technical-accessibility]] says the repo became a frequently cited reference for people learning backpropagation.
 
 ## Qualifications
 This page reflects Karpathy's retrospective post rather than an independent inspection of the repository, GitHub metrics, or the video analytics.

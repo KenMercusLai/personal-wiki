@@ -4,7 +4,7 @@ type: entity
 tags: [software, ai, education, cryptocurrency]
 sources:
   - andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python
-  - andrej-karpathy-on-x-on-technical-accessibility
+  - on-technical-accessibility
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -28,8 +28,8 @@ The Bitcoin tutorial presents Karpathy as both learner and explainer: he starts 
 - Blockchain framing: [[andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python]] presents Bitcoin as a seed example of open software plus shared running state.
 - Safety boundaries: [[andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python]] warns against using the educational cryptography in production and notes skipped standards such as RFC 6979.
 - Reference-project link: [[andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python]] points to [[Cryptos]] as a cleaner, separated, tested implementation.
-- Accessibility lesson: [[andrej-karpathy-on-x-on-technical-accessibility]] says [[Micrograd]] grew much more after Karpathy made a from-scratch video, even though the code itself did not change.
-- Audience humility: [[andrej-karpathy-on-x-on-technical-accessibility]] argues that technical creators often overestimate how self-explanatory code, comments, papers, and READMEs are.
+- Accessibility lesson: [[on-technical-accessibility]] says [[Micrograd]] grew much more after Karpathy made a from-scratch video, even though the code itself did not change.
+- Audience humility: [[on-technical-accessibility]] argues that technical creators often overestimate how self-explanatory code, comments, papers, and READMEs are.
 
 ## Qualifications
 This profile is limited to two educational sources. It does not summarize Karpathy's broader AI research, teaching, or industry work.

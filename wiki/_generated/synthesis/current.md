@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-23
-as_of_overview_commit: 58a02e46060b7d2a62c4d4a26414fae82caae691
-summary: "Durable outcomes require grounded evidence, explicit tradeoffs, representative feedback, and systems whose incentives, authority, recovery paths, and human goals remain visible."
-episode_count: 406
-source_count: 406
-paragraph_count: 344
+last_updated: 2026-09-24
+as_of_overview_commit: 8401dfc7705c5f71c5144fd8e66a448976d365ca
+summary: "Durable outcomes require grounded evidence, explicit tradeoffs, representative feedback, and inspectable systems with visible incentives, authority, recovery, and human goals."
+episode_count: 408
+source_count: 408
+paragraph_count: 346
 topic_count: 9
 ---
 
@@ -18,7 +18,7 @@ topic_count: 9
 
 - Effective AI use depends on task fit: [[PracticalLLMUse]], [[AICodingPractice]], and [[AIAssistedWriting]] work best when outputs are bounded, inspectable, context-grounded, fidelity-checked, and owned by humans; [[Antirez]] shows substantial Claude Code use shifting programming toward problem representation and inspection, [[ContextCoding]] names the disciplined context-engineering version, [[AIDependencySkillAtrophy]] warns against replacing the practice needed for judgment, [[OrhunParmaksiz]] adds that a sustainable mixed workflow may preserve enjoyable manual craft and a final human quality pass rather than turn all implementation into [[CodeReviewPractice]], and [[SemanticAblation]] names the source-scoped risk that fluent revision deletes precise meaning, voice, or structure.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
-- [[HeadlessAgentArchitecture]] uses existing messaging channels over a persistent runtime: [[OpenClaw]] embeds an agent engine, injects its own tools, records branchable transcripts, flushes memory before compaction, and schedules heartbeat work, while [[Moltbook]] shows that API-first agent ecosystems also need strong identity, provenance, credential, ranking, and safety controls; these mechanisms extend rather than replace [[ProductionAgentInfrastructure]] and runtime-enforced [[LLMToolingSkills]] policy.
+- Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what a model can use or misuse. [[TapeAndAnchors]] adds immutable entries, anchors, selectable views, and handoff, while [[AgentTopicLifecycle]] shows how explicit range boundaries, summaries, hooks, and index-backed replay can make business topics and recall auditable without replacing original history. [[PersonalKnowledgeManagement]] and [[InformationOverload]] add the human boundary that better capture, linkage, and retrieval do not by themselves demonstrate better reasoning when interpretation remains the bottleneck.
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees.
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone.
 - [[EngineeringLedOrganizationDesign]], [[ExecutiveHiring]], [[StartupHiringAtScale]], [[StartupScaling]], [[CEOScalingRole]], [[StartupCulture]], and [[ScalingCommunication]] show startup scaling as organization design: founders transfer context through leaders, recruiting systems, small teams, dashboards, feedback loops, and repeated mission. [[EShares]] adds a tightly coupled teaching system in which shared vocabulary, synchronized rituals, [[OrganizationalLeverage]], finance rules, and [[MarketBasedCompensation]] reinforce one operating philosophy, while testing resume prestige, advice, benchmarks, and practices against contribution, reversibility, employee autonomy, and cultural multiplication effects.
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress combines system understanding, scope-aware architecture, verification near change, reliable operations, and AI-agent runtimes whose context, tools, authority, side effects, recovery, and human ownership remain inspectable.
+Durable technical progress combines system understanding, verification near change, reliable operations, and agent runtimes whose context, history, topic boundaries, tools, authority, recovery, and human ownership remain inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
 
 ### Business and Markets
 
-Companies convert scarce capital, time, labor, attention, and technical capability into advantage only when customer demand, incentives, ownership, culture, reliability, and retained value are made explicit and tested against representative outcomes.
+Companies convert scarce capital, time, labor, attention, and technical capability into advantage only when customer demand, incentives, ownership, culture, reliability, and retained value are explicit and tested against representative outcomes.
 
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone. Evidence: [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]].
@@ -50,7 +50,7 @@ Infrastructure works across personal data, APIs, marketing, security, estimation
 
 ### Culture and Media
 
-Media form, infrastructure, feedback, audience assumptions, preservation, and business models jointly shape cultural creation, discovery, access, identity, payment, and durability, while platform control and automation redistribute visibility and revenue.
+Media form, infrastructure, feedback, audience assumptions, preservation, and business models jointly shape cultural creation, discovery, access, identity, payment, and durability, while platforms and automation redistribute visibility and revenue.
 
 - [[HunterWalk]] links growth in [[DigitalMediaMonetization]] through direct audience payment to familiar low-friction checkout, personal creator support, stronger niche per-customer economics, and an advertising orientation at [[Google]] and [[Facebook]], while [[CreatorEconomyStartups]] shows that payment access does not remove concentration, distribution, churn, take-rate, or defensibility problems. Evidence: [[HunterWalk]], [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[WebAdEconomics]], [[CreatorEconomyStartups]], [[Google]], [[Facebook]], [[Stripe]].
 - [[AnonymousSourcing]] trades access and source safety against audience verifiability: [[HunterWalk]] argues that hidden role, access, incentives, and bias weaken unnamed criticism, while genuine jeopardy can still justify protection and confidential allegations can direct reporting toward corroboration. Evidence: [[AnonymousSourcing]], [[HunterWalk]].
@@ -64,7 +64,7 @@ Accountability across platforms, public systems, organizations, authentication, 
 
 ### History and Geopolitics
 
-The bounded topic is mainly technical and institutional history: visible practices inherit long maturation paths, selected evidence, path-dependent context, and compatibility decay that should not be mistaken for reproducible recipes or substantive geopolitical findings.
+The bounded topic is mainly technical and institutional history: visible practices inherit long maturation paths, selected evidence, path-dependent context, and compatibility decay that should not be mistaken for reproducible recipes or geopolitical findings.
 
 ### Psychology and Personal Development
 
@@ -75,13 +75,13 @@ Progress depends on bounded attention, calibrated judgment, representative evide
 
 ### Science, Health, and Climate
 
-This remains a heterogeneous, indirect topic spanning scientific computing, language-model framing, data-science adoption, attention and self-efficacy advice, philosophy of science, and one misrouted distributed-systems inventory case; its claims are source-scoped rather than broad scientific conclusions.
+This remains a heterogeneous, indirect topic spanning scientific computing, language-model framing, data-science adoption, attention and self-efficacy advice, philosophy of science, and one misrouted distributed-systems case; claims remain source-scoped.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Learning and organizational practice improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, power-aware relationships, usable knowledge systems, and inspectable examples rather than decontextualized recipes.
+Learning and organizational practice improve through feedback, judgment, bounded attention, deliberate transition rituals, role clarity, fair incentives, power-aware relationships, usable knowledge systems, and inspectable examples rather than decontextualized recipes.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

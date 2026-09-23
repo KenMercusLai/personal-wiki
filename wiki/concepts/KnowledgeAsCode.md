@@ -19,7 +19,7 @@ Semantic operations that ordinary scripts cannot perform reliably from syntax al
 ## Key Claims
 - Version control and executable task definitions make knowledge-base maintenance repeatable and reviewable.
 - Automated lint, link, metadata, structure, and content checks can detect drift before publication.
-- Graphs, indexes, exports, and deployments should be derived from canonical Markdown rather than maintained as unrelated copies.
+- Graphs, indexes, exports, and deployments should be derived from canonical Markdown rather than maintained as unrelated copies; a Knowledge Graph is one such derived view of links, tags, and note metadata.
 - AI agents are best used for semantic tasks such as summarization, classification, relationship discovery, and synthesis, with deterministic validation around their output.
 - CI/CD can turn content changes into a controlled sequence of validation, derivation, publication, and health monitoring.
 - Backups, manifests, hashes, batching, retries, exclusions, and secret handling become necessary once the vault is operated as a production system.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
       "0e6e060156a54c3b6de27bc674ffafabaa24316392b1991e234e0da9b4627354",
       "ff88643ddcfa6a06256bd91951002b054f216452c4a77f0a0ad6fa6925bca966",
       "1d0a1ba85b9d9981d39dec7edbb9c2e409afad92314d13003dbf2e7d103d7dfa",
@@ -288,6 +289,7 @@
       "75c3ac7ce3d5703e46ad3997d62c211153096d904ed1a39a766099376999f92e",
       "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
       "f5ba49764d48c9bb59fb7c3a2ba7ae522a4312e10db8e3905b6f48a62be84791",
+      "3bd8931204006eb3ce6c887dd07782cc64436cf19a1278708169c00cd0339f31",
       "896f61bf77ff0847031cb4f3a078e7b96e5a76a754b5bb740f413612ab544ed4",
       "589feef7f33659b8947614b12c562fa716931d2931725dfce3b14864f4de99af",
       "d4e8cb2d1247336696e714bf8d888a8054e80f92d9ecf71e429da47e374206a4",
@@ -346,11 +348,25 @@
       "1b6bafe155daaa78f4011a63d32f21424ef5ce8dc3d2dd914275b79980c67902",
       "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e"
     ],
-    "paragraph_count": 344
+    "paragraph_count": 346
   },
-  "overview_commit": "58a02e46060b7d2a62c4d4a26414fae82caae691",
-  "overview_digest": "252da73c46fe656a619cedf5b2a6d0f86dda6d53a567e8fc013f61ad0a5b2ef2",
+  "overview_commit": "8401dfc7705c5f71c5144fd8e66a448976d365ca",
+  "overview_digest": "42474be16814791600b1785c60c525907a88e9523b5eaabf7d7b17c777c87fcc",
   "paragraphs": [
+    {
+      "id": "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Tony Stubblebine source adds [[InterstitialJournaling]] as a work-transition ritual within the wiki's productivity, journaling, and attention material. A minimum entry records the time, closes the previous project by externalizing what remains mentally active, names a literal first action for the next project, and briefly considers strategy, scope, mood, and skill. This expands [[JournalingPractice]] from daily reflection and programming records into an execution surface: the journal can replace the day's active checklist while leaving long-term backlogs intact, and continuous entries can turn noticing distraction into a recovery cue. [[TonyStubblebine]] derives the practice from Pomodoro gaps, action decomposition, and coaching-group feedback, but the evidence remains personal and informal; the saved article does not substantiate its 40% multitasking figure, compare outcomes with other workflows, or show that frequent logging helps across urgent, collaborative, physical, or safety-critical work. All 12 distinct local images were opened; the Wunderlist working-list screenshot was retained as a concrete UI comparison, while the cover, avatar, divider, and stock illustrations were omitted as decorative or redundant.",
+      "topic_scores": {
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "InterstitialJournaling",
+        "JournalingPractice",
+        "TonyStubblebine"
+      ]
+    },
     {
       "id": "0e6e060156a54c3b6de27bc674ffafabaa24316392b1991e234e0da9b4627354",
       "primary_topic": "science-health-and-climate",
@@ -5914,6 +5930,21 @@
         "CodingAgentMinimalTooling",
         "OpenClaw",
         "RetrievalAugmentedGeneration",
+        "TapeAndAnchors"
+      ]
+    },
+    {
+      "id": "3bd8931204006eb3ce6c887dd07782cc64436cf19a1278708169c00cd0339f31",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Tape article turns that context model into a more explicit specification and business-layer proposal. [[TapeAndAnchors]] now distinguishes immutable interaction entries, anchor entries, selectable views, and handoff while remaining portable across local files, databases, object stores, vector retrieval, and observability systems. New [[AgentTopicLifecycle]] places `topic_initial` and `topic_finalized` anchors around indexed entry ranges, then uses lifecycle hooks for summary, recall, unfinished-topic recovery, fact extraction, sharing, and token-cost accounting. This sharpens [[AgentMemory]] by treating recall as compact topic summaries plus index-backed replay of original entries rather than necessarily as a detached memory service. The four retained diagrams show the topic-range model, normal finalization, a recall anchor that references an earlier topic, and automatic closure of an aborted predecessor; concurrency, boundary detection, access control, deletion, recall quality, and hook reliability remain open design problems.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1
+      },
+      "wikilinks": [
+        "AgentMemory",
+        "AgentTopicLifecycle",
         "TapeAndAnchors"
       ]
     },

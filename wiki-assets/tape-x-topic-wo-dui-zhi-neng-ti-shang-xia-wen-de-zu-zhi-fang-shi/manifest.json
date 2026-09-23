@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "tape-x-topic-wo-dui-zhi-neng-ti-shang-xia-wen-de-zu-zhi-fang-shi",
+  "images": [
+    {
+      "file": "topic-ranges.png",
+      "alt": "Diagram showing a Tape divided into topic views bounded by topic IDs, with entries collapsed into each topic range"
+    },
+    {
+      "file": "common-topic-lifecycle.png",
+      "alt": "Diagram of a common topic lifecycle from topic_initial through user and assistant entries to topic_finalized"
+    },
+    {
+      "file": "memory-topic-recall.png",
+      "alt": "Diagram of a memory-enabled topic inserting a recall anchor that references an earlier topic before normal interaction"
+    },
+    {
+      "file": "aborted-topic-recovery.png",
+      "alt": "Diagram contrasting an aborted topic with a recovery flow that finalizes the previous topic before starting the next"
+    }
+  ]
+}

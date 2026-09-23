@@ -3,7 +3,7 @@ title: "Technical Accessibility"
 type: concept
 tags: [technical-education, explanation, learning]
 sources:
-  - andrej-karpathy-on-x-on-technical-accessibility
+  - on-technical-accessibility
 last_updated: 2026-09-13
 knowledge_schema: synthesis-v1
 ---
@@ -22,11 +22,11 @@ Karpathy's Micrograd reflection shows accessibility as a multiplier on existing 
 - From-scratch walkthroughs can turn a finished artifact into a teachable path.
 
 ## Evidence
-- Creator fluency: [[andrej-karpathy-on-x-on-technical-accessibility]] says the Micrograd code made sense to Karpathy because he wrote it, but that did not mean it was self-explanatory to others.
-- Documentation limits: [[andrej-karpathy-on-x-on-technical-accessibility]] says the repo was around 200 lines, extensively commented, and had a README, yet still stagnated.
-- Impact multiplier: [[andrej-karpathy-on-x-on-technical-accessibility]] reports that the same code saw much larger engagement after the explanatory video.
-- Expert benefit: [[andrej-karpathy-on-x-on-technical-accessibility]] notes that even technical friends could have understood the code with time but were deterred by the barrier to entry.
-- Walkthrough ramp: [[andrej-karpathy-on-x-on-technical-accessibility]] frames the video as building the ramp after building the thing.
+- Creator fluency: [[on-technical-accessibility]] says the Micrograd code made sense to Karpathy because he wrote it, but that did not mean it was self-explanatory to others.
+- Documentation limits: [[on-technical-accessibility]] says the repo was around 200 lines, extensively commented, and had a README, yet still stagnated.
+- Impact multiplier: [[on-technical-accessibility]] reports that the same code saw much larger engagement after the explanatory video.
+- Expert benefit: [[on-technical-accessibility]] notes that even technical friends could have understood the code with time but were deterred by the barrier to entry.
+- Walkthrough ramp: [[on-technical-accessibility]] frames the video as building the ramp after building the thing.
 
 ## Counterevidence & Qualifications
 The source is a single creator reflection about one project, so its 10-100X framing should be treated as a practical heuristic rather than a general measured law. Better accessibility cannot rescue every weak artifact, and the source does not compare video against other ramps such as interactive notebooks, diagrams, examples, documentation, courses, or workshops.

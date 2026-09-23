@@ -1,13 +1,13 @@
 ---
-title: "Andrej Karpathy on X: on technical accessibility"
+title: "On Technical Accessibility"
 type: source
 tags: [technical-education, accessibility, ai, learning]
-date: 2026-04-14
-source_file: "/mnt/ken_personal_wiki/Articles/Andrej Karpathy on X # on technical accessibility.md"
+date: 2024-02-22
+source_file: "/mnt/ken_personal_wiki/Articles/on technical accessibility.md"
 ---
 
 ## Summary
-[[AndrejKarpathy]] reflects that [[Micrograd]] attracted modest GitHub interest until he published a video building it from scratch, after which the same code saw much larger engagement and became a common reference for learning backpropagation. The post argues that technical artifacts, even when short, commented, and well documented, can still need an accessible ramp for both beginners and experts. The inspected SVG is a simple rising-chart icon that visually reinforces the growth claim but adds no separate technical evidence.
+[[AndrejKarpathy]] reflects that [[Micrograd]] attracted modest GitHub interest until he published a video building it from scratch, after which the unchanged code saw much larger engagement and became a frequently cited reference for learning backpropagation. The post argues that technical artifacts, even when short, commented, and documented, still need an accessible ramp for beginners and experts who might otherwise find the initial effort too high.
 
 ## Key Claims
 - [[TechnicalAccessibility]] can multiply the reach of the same underlying work by lowering the effort needed to engage with it.
@@ -29,4 +29,4 @@ source_file: "/mnt/ken_personal_wiki/Articles/Andrej Karpathy on X # on technica
 - [[FromScratchProtocolLearning]] - related implementation-first educational style, though here applied to backpropagation rather than Bitcoin.
 
 ## Contradictions
-- No direct contradictions found. The source strengthens existing explanatory-writing and active-learning themes by showing that an unchanged artifact can gain substantially more reach when paired with a better learning ramp.
+- No direct contradictions found. The source strengthens existing explanatory-writing and active-learning themes by showing that an unchanged artifact can gain substantially more reach when paired with a better learning ramp. Its reported 10-100X potential is a creator estimate from one case, not a general measured effect.
