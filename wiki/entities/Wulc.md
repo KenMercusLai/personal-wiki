@@ -13,15 +13,16 @@ sources:
   - blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu
   - blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu
   - blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi
-last_updated: 2026-09-15
+  - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, DMP-based data trading, user-insight methods, introductory Python scraping and systems explanation, practical reading methodology, and personal-investing course synthesis.
+[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, user-insight methods, introductory Python and systems explanation, practical reading methodology, personal-investing education, and synthesis of personal-development frameworks.
 
 ## Current Profile
-The current source set presents Wulc as a cross-domain explainer. In [[chang]], Wulc uses philosophical references, work experience, creativity writing, family psychology, and moral psychology to argue that people are shaped by the environments or "fields" they inhabit. In [[da-shu-ju-shi-fou-neng-gou-gai-zao-ni-de-hang-ye]], Wulc summarizes a big-data argument about deep learning, behavior data, full-population processing, and automated applications. In [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]], Wulc applies the same data-business lens to [[DataMonetization]], advertising product history, [[ProgrammaticAdvertising]], ecommerce recommendation, retargeting, look-alike expansion, and mobile scene data. [[blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu]] adds the operational user-insight layer: Wulc explains [[AudienceTargeting]], [[BehavioralTargeting]], tag-system design, behavior weighting, recency handling, and Reach/CTR evaluation. [[blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi]] adds the adtech market layer: Wulc ranks behavior data by intent value, explains identity resolution, first-party and third-party [[DataManagementPlatform]] business models, DMP-to-DSP trading through ADX, impression-based pricing concerns, and privacy constraints. The Python parallel-programming overview adds a pedagogical technical mode: Wulc explains [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], communication models, and concurrency failure modes through diagrams and simple examples. [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] adds a practical scraper-operations mode through proxy collection, Redis-backed reuse, target validation, eviction, and paced crawling. The Linux process note extends the technical mode into operating-system lifecycle cleanup by distinguishing [[OrphanProcess]] from [[ZombieProcess]]. The speed-reading article adds a learning-method mode: Wulc summarizes [[SpeedReadingMethod]] as evaluation, selective skimming, and output-oriented deep reading. The Zhang Xiaoyu course note adds an investing-education mode built around [[PersonalInvestorStrategy]], [[AssetAllocation]], [[MarketTiming]], [[MacroForecastingHumility]], and [[HomeBias]].
+The current source set presents Wulc as a cross-domain explainer who condenses books, courses, and talks into practical models while sometimes recording doubts about their reach. In [[chang]], Wulc uses work, family, creativity, and moral psychology to argue that people are shaped by the environments they inhabit. The big-data and advertising notes connect [[DeepLearning]], [[DataMonetization]], [[AudienceTargeting]], [[BehavioralTargeting]], and [[DataManagementPlatform]] mechanics to operational business decisions. The Python, scraping, and Linux notes teach systems concepts through small examples and inspected diagrams. The speed-reading and investing notes turn courses into selective-reading and ordinary-investor heuristics. [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su]] adds personal-development synthesis across [[AttentionManagement]], [[AttentionEconomy]], [[MetacognitiveFeedback]], compounding, role and identity, strategic potential, uncertainty, and unit economics; its eight diagrams show Wulc's recurring preference for causal maps, layered models, matrices, and comprehensive visual summaries.
 
 ## Key Characteristics
 - Uses broad cross-domain analogy to connect work, family, creation, and human nature.
@@ -29,8 +30,8 @@ The current source set presents Wulc as a cross-domain explainer. In [[chang]], 
 - Summarizes technical-business arguments into practical criteria, from big-data industry transformation to advertising [[DataMonetization]], [[DataManagementPlatform]] trading, and [[AudienceTargeting]].
 - Treats data-informed decision-making as a challenge to unsupported prior experience and as a way to increase traffic monetization value, while noting identity and privacy boundaries.
 - Writes introductory and practical systems material in Chinese, from [[Python]] concurrency and scraper proxy handling to Unix-like [[OrphanProcess]] and [[ZombieProcess]] lifecycle cleanup.
-- Summarizes practical learning methods, connecting [[FocusedReading]], [[ActiveLearning]], and written output.
-- Summarizes personal-investing frameworks by turning market history, behavioral finance, risk discipline, and product-choice advice into practical heuristics.
+- Summarizes practical learning and self-direction methods, connecting [[FocusedReading]], [[ActiveLearning]], [[AttentionManagement]], and [[MetacognitiveFeedback]].
+- Converts personal-investing, strategy, and unit-economics material into usable heuristics while preserving selected doubts and limitations.
 
 ## Evidence
 - Cross-domain synthesis: [[chang]] connects workplace incentives, family-of-origin patterns, intimate relationships, creative receptivity, and moral situations under the "field" metaphor.
@@ -48,12 +49,16 @@ The current source set presents Wulc as a cross-domain explainer. In [[chang]], 
 - Process lifecycle explanation: [[blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng]] defines orphan processes, zombie processes, `wait`/`waitpid` cleanup, PID retention risk, and a `ps` command for finding zombies.
 - Reading methodology: [[blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou]] presents nonfiction reading as evaluation, speed reading for structure and concepts, and deep reading for memory and output.
 - Investing synthesis: [[blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-1-shi-chang-gui-lu]] summarizes Zhang Xiaoyu's market-rules course around ordinary-investor advantages, diversification, timing traps, macro humility, consequence-based risk, and overseas allocation.
+- Cognitive-framework synthesis: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su]] organizes a book's first half around attention, time leverage, compounding, identity, metacognition, multidimensional skill, trends, valuation, uncertainty, and luck.
+- Visual framework translation: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su]] retains eight inspected diagrams for causal growth, strategic diagnosis, top-down planning, cognitive control, potential hierarchy, idea valuation, uncertainty domains, and the complete concept map.
+- Critical distance: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su]] calls parts of the attention argument strained, the offline-store example weak in practical guidance, and the estimate-cancellation claim unclear, then offers comparable-product research as an alternative.
 
 ## Qualifications
-The wiki currently knows Wulc only through ten source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles.
+The wiki currently knows Wulc only through eleven source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles. Several notes summarize other authors, books, courses, or talks; their underlying claims should not automatically be treated as Wulc's original theories or demonstrated results.
 
 ## What Changed
-- Added Wulc's proxy-scraping note as a practical web-scraping operations example, including Redis-backed proxy reuse and sustainable crawl pacing.
+- Added Wulc's synthesis of personal-development frameworks spanning attention, identity, metacognition, strategic potential, uncertainty, and unit economics.
+- Added visual-model building and explicit skepticism toward selected source claims as profile characteristics.
 
 ## Relationships
 - [[EnvironmentalField]] - Wulc's essay supplies the wiki's central account of field-shaped life.
@@ -81,3 +86,8 @@ The wiki currently knows Wulc only through ten source notes, so the profile shou
 - [[MarketTiming]] - Wulc summarizes why timing is difficult even when investors are directionally right.
 - [[MacroForecastingHumility]] - Wulc uses Keynes and company-level analysis to argue against macro overconfidence.
 - [[HomeBias]] - Wulc summarizes overseas allocation as a response to familiarity bias.
+- [[AttentionManagement]] - Wulc treats attention as productive capacity that can be wasted, captured, or deliberately invested.
+- [[AttentionEconomy]] - Wulc describes behavioral traces feeding recommendation and advertising systems that seek further attention.
+- [[MetacognitiveFeedback]] - Wulc presents self-observation as a correction loop over input, reasoning, and action.
+- [[CustomerLifetimeValue]] - Wulc uses a simplified LTV estimate as one input to preliminary idea valuation.
+- [[CustomerAcquisitionCost]] - Wulc pairs acquisition cost with LTV, user scale, and downside risk.

@@ -3343,3 +3343,11 @@ Added an Ask Ubuntu troubleshooting note about an LVM-backed root filesystem tha
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | 《认知红利》阅读笔记(1) - 概念重塑
+
+Added Wulc's synthesis of 《认知红利》 on attention, time leverage, compounding, roles and identity, metacognition, multidimensional ability, strategic potential, idea valuation, uncertainty, and accumulated luck. Updated [[Wulc]], [[AttentionManagement]], [[AttentionEconomy]], [[MetacognitiveFeedback]], [[CustomerLifetimeValue]], and [[CustomerAcquisitionCost]] while preserving qualifications around secondary-source evidence, ranked talent labels, voluntary cognitive control, and simplified valuation formulas. All eight referenced images were opened and retained under descriptive canonical filenames because they independently show the source's causal loops, layered planning and information-control models, potential hierarchy, valuation formula, uncertainty matrix, and complete concept map.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

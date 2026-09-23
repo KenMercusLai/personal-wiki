@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su",
+  "images": [
+    {
+      "file": "cognitive-dividend-mind-map.png",
+      "alt": "Mind map of the book note across wealth, self, and world reframing"
+    },
+    {
+      "file": "compound-growth-curve.jpg",
+      "alt": "Compound growth stays nearly flat before a late milestone and acceleration"
+    },
+    {
+      "file": "offline-store-causal-chain.jpg",
+      "alt": "Online transaction changes lead through cheaper ecommerce to lower store traffic, falling sales, and weaker team morale"
+    },
+    {
+      "file": "understanding-levels-top-down-planning.jpg",
+      "alt": "Top-down planning maps mission and identity through beliefs, capabilities, behavior, and environment"
+    },
+    {
+      "file": "metacognitive-information-control.jpg",
+      "alt": "Metacognition filters inputs and stores concepts, values, thinking methods, and methodologies before behavior"
+    },
+    {
+      "file": "point-line-surface-system-potential.jpg",
+      "alt": "Point line surface and system levels accumulate cognitive, efficiency, scale, and attraction potential"
+    },
+    {
+      "file": "idea-valuation-model.jpg",
+      "alt": "Idea valuation combines user scale, acquisition cost, customer lifetime value, and risk cost"
+    },
+    {
+      "file": "certainty-knowledge-domain-matrix.jpg",
+      "alt": "Known versus unknown and certain versus uncertain form control, blind, probability, and risk domains"
+    }
+  ]
+}

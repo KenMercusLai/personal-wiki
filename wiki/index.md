@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [《认知红利》阅读笔记(1) - 概念重塑](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su.md) - Wulc summarizes attention, time leverage, compounding, identity, metacognition, strategic potential, idea valuation, uncertainty, and luck through practical frameworks and eight inspected diagrams.
 - [umount: /: target is busy](sources/umount-target-is-busy.md) - An Ask Ubuntu Q&A distinguishes busy-root diagnosis, lazy detachment, NFS force-unmounting, and an unverified LVM deactivation sequence.
 - [Write or fade away as a designer](sources/write-or-fade-away-as-a-designer-inside-design-blog.md) - Michael Abehsera uses five designer examples to argue that audience-specific public writing can create traffic, clients, teaching demand, speaking, relationships, and jobs, while acknowledging only anecdotal evidence.
 - [What Actually Makes You Senior](sources/terrible-software-what-actually-makes-you-senior.md) - Terrible Software argues that senior engineers distinguish themselves by turning vague requests into clear problems, explicit assumptions, bounded choices, and lower-risk executable work.
