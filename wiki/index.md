@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [umount: /: target is busy](sources/umount-target-is-busy.md) - An Ask Ubuntu Q&A distinguishes busy-root diagnosis, lazy detachment, NFS force-unmounting, and an unverified LVM deactivation sequence.
 - [Write or fade away as a designer](sources/write-or-fade-away-as-a-designer-inside-design-blog.md) - Michael Abehsera uses five designer examples to argue that audience-specific public writing can create traffic, clients, teaching demand, speaking, relationships, and jobs, while acknowledging only anecdotal evidence.
 - [What Actually Makes You Senior](sources/terrible-software-what-actually-makes-you-senior.md) - Terrible Software argues that senior engineers distinguish themselves by turning vague requests into clear problems, explicit assumptions, bounded choices, and lower-risk executable work.
 - [Replace Your To-Do List With Interstitial Journaling To Increase Productivity](sources/replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity.md) - Tony Stubblebine proposes a transition journal that closes the previous work context, identifies a literal first action and strategy for the next project, and makes distraction easier to notice and recover from.
@@ -1329,6 +1330,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Filesystem Unmounting](concepts/FilesystemUnmounting.md) - Releasing or accounting for active filesystem dependencies before removing a mount, with explicit limits on lazy, forced, and backing-volume operations.
 - [Ambiguity Reduction](concepts/AmbiguityReduction.md) - Turning vague goals into explicit problems, users, assumptions, downside, priorities, and bounded executable decisions.
 - [Interstitial Journaling](concepts/InterstitialJournaling.md) - Work-transition practice that records cognitive closure, a literal first action, and strategy before the next project begins.
 - [High-Concurrency Inventory Deduction](concepts/HighConcurrencyInventoryDeduction.md) - Coordinating simultaneous purchase attempts across order, inventory, cache, and database boundaries while bounding overselling, underselling, latency, and availability loss.

@@ -3335,3 +3335,11 @@ Added Michael Abehsera's designer-focused argument for public writing as profess
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | umount: /: target is busy
+
+Added an Ask Ubuntu troubleshooting note about an LVM-backed root filesystem that could not be unmounted while the operating system was running. Created [[FilesystemUnmounting]] to distinguish active-reference diagnosis, lazy detachment, NFS-scoped forced unmounting, and backing-volume dependency order. Preserved the source's limitations: no reproducible `lsof` or `fuser` procedure, warnings that lazy unmounting does not complete cleanup immediately, and an unaccepted LVM answer whose typo and deactivate-before-unmount sequence make it unsuitable as a runbook. All four referenced images were opened; the Ask Ubuntu logo and three user avatars were decorative, so none were retained.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
