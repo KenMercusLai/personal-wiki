@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 8b7a4f969e85975f2d3e2276abe04e9f0aa92ee2
-summary: "Durable outcomes require grounded evidence, explicit tradeoffs, representative feedback, and inspectable systems with visible incentives, authority, recovery, and human goals."
-episode_count: 414
-source_count: 414
-paragraph_count: 349
+as_of_overview_commit: d7788988e063ecfeac2579751043154764dae5d4
+summary: "Durable outcomes require grounded evidence, explicit tradeoffs, contextual metrics, representative feedback, and inspectable systems with human ownership."
+episode_count: 416
+source_count: 416
+paragraph_count: 350
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Durable technical progress combines system understanding, verification near chan
 
 ### Business and Markets
 
-Companies convert scarce capital, time, labor, attention, expertise, and technical capability into advantage only when customer demand, audience fit, incentives, ownership, culture, documentation, reliability, attribution, and retained value are explicit and tested against representative outcomes.
+Companies convert scarce capital, time, labor, attention, expertise, and technical capability into advantage only when customer demand, incentives, ownership, culture, documentation, reliability, contextual metrics, experiments, and retained value are explicit and tested against representative outcomes.
 
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone. Evidence: [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]].
@@ -81,7 +81,7 @@ This remains a heterogeneous, indirect topic spanning scientific computing, lang
 
 ### Work, Education, and Society
 
-Learning and organizational practice improve through feedback, judgment, bounded attention, deliberate transition rituals, role clarity, fair incentives, power-aware relationships, maintained documentation, usable knowledge systems, and inspectable examples rather than decontextualized recipes.
+Learning and organizational practice improve through feedback, contextual metrics, experiments, bounded attention, deliberate transitions, role clarity, fair incentives, power-aware relationships, maintained documentation, and inspectable examples rather than decontextualized recipes.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

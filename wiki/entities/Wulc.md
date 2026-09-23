@@ -15,21 +15,22 @@ sources:
   - blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi
   - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su
   - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji
+  - wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo
 last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, user-insight methods, introductory Python and systems explanation, practical reading methodology, personal-investing education, and synthesis of personal-development frameworks.
+[[Wulc]] is a Chinese blogger represented in the wiki by reflective life philosophy, technical-business synthesis, advertising-data monetization, product-operations analysis, user-insight methods, introductory Python and systems explanation, practical reading methodology, personal-investing education, and synthesis of personal-development frameworks.
 
 ## Current Profile
-The current source set presents Wulc as a cross-domain explainer who condenses books, courses, and talks into practical models while sometimes recording doubts about their reach. In [[chang]], Wulc uses work, family, creativity, and moral psychology to argue that people are shaped by the environments they inhabit. The big-data and advertising notes connect [[DeepLearning]], [[DataMonetization]], [[AudienceTargeting]], [[BehavioralTargeting]], and [[DataManagementPlatform]] mechanics to operational business decisions. The Python, scraping, and Linux notes teach systems concepts through small examples and inspected diagrams. The speed-reading and investing notes turn courses into selective-reading and ordinary-investor heuristics. The two 《认知红利》 notes add personal-development synthesis across attention, metacognition, knowledge use, problem framing, systems feedback, choice, planning, and innovation. Together they show Wulc's preference for causal maps, layered models, matrices, explicit procedures, and qualified translation of broad frameworks into practical prompts.
+The current source set presents Wulc as a cross-domain explainer who condenses books, courses, and talks into practical models while sometimes recording doubts about their reach. In [[chang]], Wulc uses work, family, creativity, and moral psychology to argue that people are shaped by the environments they inhabit. The big-data, advertising, and operations notes connect [[DeepLearning]], [[DataMonetization]], [[AudienceTargeting]], [[BehavioralTargeting]], [[DataManagementPlatform]], and [[DataDrivenOperations]] to business decisions through automation criteria, user labels, funnel diagnosis, reporting dimensions, and experiments. The Python, scraping, and Linux notes teach systems concepts through small examples and inspected diagrams. The speed-reading and investing notes turn courses into selective-reading and ordinary-investor heuristics. The two 《认知红利》 notes add personal-development synthesis across attention, metacognition, knowledge use, problem framing, systems feedback, choice, planning, and innovation. Together they show Wulc's preference for causal maps, layered models, matrices, explicit procedures, and qualified translation of broad frameworks into practical prompts.
 
 ## Key Characteristics
 - Uses broad cross-domain analogy to connect work, family, creation, and human nature.
 - Frames personal growth as environmental discernment rather than pure willpower.
 - Summarizes technical-business arguments into practical criteria, from big-data industry transformation to advertising [[DataMonetization]], [[DataManagementPlatform]] trading, and [[AudienceTargeting]].
-- Treats data-informed decision-making as a challenge to unsupported prior experience and as a way to increase traffic monetization value, while noting identity and privacy boundaries.
+- Treats data-informed decision-making as a challenge to unsupported prior experience, a way to improve traffic monetization and operations, and a bounded practice that still requires metric context, experimental discipline, privacy safeguards, and creative judgment.
 - Writes introductory and practical systems material in Chinese, from [[Python]] concurrency and scraper proxy handling to Unix-like [[OrphanProcess]] and [[ZombieProcess]] lifecycle cleanup.
 - Summarizes practical learning and self-direction methods, connecting [[FocusedReading]], [[ActiveLearning]], [[AttentionManagement]], and [[MetacognitiveFeedback]] with knowledge organization, causal and structural reasoning, systems feedback, decision criteria, planning, and innovation.
 - Converts personal-investing, strategy, and unit-economics material into usable heuristics while preserving selected doubts and limitations.
@@ -55,13 +56,15 @@ The current source set presents Wulc as a cross-domain explainer who condenses b
 - Critical distance: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su]] calls parts of the attention argument strained, the offline-store example weak in practical guidance, and the estimate-cancellation claim unclear, then offers comparable-product research as an alternative.
 - Method synthesis: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji]] links emotional self-observation, external knowledge systems, focused work, gap-based problem definition, causal and structural reasoning, systems loops, deliberate choice, planning, evolution, and innovation.
 - Practical structure: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji]] repeatedly turns broad themes into staged procedures, including awareness-understanding-conversion, desired-versus-current state analysis, plan difficulty levels, and recombination or modification methods for innovation.
+- Operational analytics: [[wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo]] connects goal-aligned funnels, multidimensional diagnosis, and layered A/B testing while warning that metrics need product context and cannot originate every discontinuous innovation.
 
 ## Qualifications
-The wiki currently knows Wulc only through twelve source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles. Several notes summarize other authors, books, courses, or talks; their underlying claims should not automatically be treated as Wulc's original theories or demonstrated results. The second 《认知红利》 note in particular collects many named frameworks without independently validating their psychological, causal, or managerial claims.
+The wiki currently knows Wulc only through thirteen source notes, so the profile should not infer a broader biography, professional role, investment practice, or stable intellectual program beyond these articles. Several notes summarize other authors, books, courses, or talks; their underlying claims should not automatically be treated as Wulc's original theories or demonstrated results. The operations note partly qualifies the earlier claim that data should outrank experience: measured evidence can diagnose and optimize an existing system, but neither a dashboard nor an A/B test guarantees causal understanding or discontinuous innovation. The second 《认知红利》 note likewise collects many named frameworks without independently validating their psychological, causal, or managerial claims.
 
 ## What Changed
-- Extended Wulc's personal-development synthesis from conceptual reframing into knowledge use, problem-solving, systems thinking, deliberate choice, planning, and innovation.
-- Clarified that staged procedures are a recurring explanatory form while the underlying book claims remain source-scoped heuristics.
+- Added product operations as another domain where Wulc uses a staged procedure: funnel localization, dimensional diagnosis, and controlled experimentation.
+- Qualified Wulc's evidence-over-experience stance by separating data-supported optimization from discontinuous innovation and causal certainty.
+- Strengthened the profile's recurring pattern of turning secondary material into practical, layered operating models.
 
 ## Relationships
 - [[EnvironmentalField]] - Wulc's essay supplies the wiki's central account of field-shaped life.
@@ -97,3 +100,4 @@ The wiki currently knows Wulc only through twelve source notes, so the profile s
 - [[KnowledgeIntegration]] - Wulc describes how filtering, external notes, structure, links, retrieval, and recombination turn intake into usable thought.
 - [[StructuredProblemSolving]] - Wulc organizes problem definition, causal reasoning, decomposition, decision criteria, and planning into a practical sequence.
 - [[SystemsThinking]] - Wulc summarizes feedback loops, growth constraints, and symptomatic-versus-fundamental solutions.
+- [[DataDrivenOperations]] - Wulc summarizes funnel decomposition, multidimensional reporting, experiment layering, and the limits of data-led optimization.

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [如何用数据武装运营工作](sources/wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo.md) - Wulc links funnel decomposition, multidimensional diagnosis, and layered experiments into a data-driven operations loop while warning that metrics need context and cannot originate every discontinuous innovation.
 - [《认知红利》阅读笔记(2) - 大脑升级](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-2-da-nao-sheng-ji.md) - Wulc summarizes emotional regulation, knowledge integration, focused work, structured problem solving, systems feedback, deliberate choice, planning, evolution, and innovation as practical but source-scoped frameworks.
 - [Writing great documentation](sources/writing-great-documentation-taylor-singletary-medium.md) - Taylor Singletary treats developer documentation as reader-centered narrative, actionable instruction, linked atomic content, scan-friendly reference design, product feedback, and continuous maintenance.
 - [Viral Marketing](sources/viral-marketing-the-set-list-medium.md) - Nathan Kontny applies Murray Davis's negation pattern to Casey Neistat videos and the satirical Trick a Journalist campaign, treating expectation-breaking as a creative filter rather than a guarantee of virality.
@@ -1339,6 +1340,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Data-Driven Operations](concepts/DataDrivenOperations.md) - Operational loop that decomposes one outcome into a funnel, diagnoses the weak stage by dimension, and tests interventions while preserving contextual judgment.
 - [Knowledge Integration](concepts/KnowledgeIntegration.md) - Filtering, externalizing, organizing, linking, retrieving, and recombining knowledge for a present question or action.
 - [Structured Problem Solving](concepts/StructuredProblemSolving.md) - Turning a vague difficulty into a desired-state gap, organized causal analysis, visible tradeoffs, and an executable response.
 - [Systems Thinking](concepts/SystemsThinking.md) - Explaining behavior through relationships, feedback loops, boundaries, change over time, and system archetypes.

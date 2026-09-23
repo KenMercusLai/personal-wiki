@@ -3375,3 +3375,11 @@ Added Wulc's synthesis of emotional regulation, knowledge integration, focus, pr
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | 如何用数据武装运营工作
+
+Added Wulc's 2017 summary of data-informed user operations and retention. Created [[DataDrivenOperations]] to connect goal-aligned conversion funnels, multidimensional diagnosis, and layered A/B testing, and updated [[Wulc]] with the method and its limits. The synthesis explicitly qualifies an earlier evidence-over-experience stance: metrics must be interpreted in product context, segment exploration and overlapping experiments need stronger statistical safeguards than the article supplies, and local optimization cannot by itself generate discontinuous innovation. The source contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

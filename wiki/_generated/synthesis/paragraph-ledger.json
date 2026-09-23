@@ -75,6 +75,7 @@
       "784054c05985bacb15d2f5b161930423b4b7d4434cfce27d7bff1a1f7cf553ec",
       "0d70d8093ffa57f77699c7dcd9b8f401f277f75cc2b5f955a7ecd9fe3a3c7973",
       "1d0e0b4d498dfccd92ad223ecf3fef3a36dece9f023e6ff1ed3ebed15d375b5b",
+      "425ddd4f75f6b77b34b5e26983e13903a82cbe3139226c87a030b298de334933",
       "7a792e6bedfb8d3685ea6e661d79f2c909bdff36ff06f9ee9cead0adbcd1adea",
       "b4d04cc205fbfa668169e4a2c26398a49ae97029d9750c9f3a5aecb3232b1b8d",
       "f13479c6bb6100fdd1f9ba451408de9fe9cff26de0c7f670896aeb0c04471469",
@@ -351,10 +352,10 @@
       "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea",
       "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076"
     ],
-    "paragraph_count": 349
+    "paragraph_count": 350
   },
-  "overview_commit": "b45af2f3b09d5cd54da7d813481aade065f04bf4",
-  "overview_digest": "7662daa014952fae2a596ff86ba57e93a5a7454003c15d34ec5463deedae430e",
+  "overview_commit": "d7788988e063ecfeac2579751043154764dae5d4",
+  "overview_digest": "87ecd473dbb2ff5f13a7b855b63a2434ce8ddee637f866580ee2362d66162e87",
   "paragraphs": [
     {
       "id": "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
@@ -1810,6 +1811,25 @@
         "FocusedReading",
         "LearningByWriting",
         "SpeedReadingMethod"
+      ]
+    },
+    {
+      "id": "425ddd4f75f6b77b34b5e26983e13903a82cbe3139226c87a030b298de334933",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Wulc operations source adds [[DataDrivenOperations]] as a three-stage learning loop: express one target outcome as a user conversion funnel, use multidimensional reporting to diagnose the weak stage, and test a proposed intervention through a controlled experiment. It strengthens [[ConversionRateOptimization]] and [[ProductMetricLadder]] by treating activation, retention, active-user, duration, UV/PV, dwell-time, bounce-rate, and heatmap measures as contextual evidence rather than self-explanatory scores; a high bounce rate can be normal for a single-page product. The source also connects [[BehavioralData]] and [[EventAnalyticsPipeline]] to operating practice while preserving two boundaries: segment exploration and overlapping experiment layers need statistical and interference safeguards the short article does not supply, and local A/B optimization cannot by itself originate discontinuous innovation.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BehavioralData",
+        "ConversionRateOptimization",
+        "DataDrivenOperations",
+        "EventAnalyticsPipeline",
+        "ProductMetricLadder"
       ]
     },
     {
