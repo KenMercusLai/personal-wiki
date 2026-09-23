@@ -3399,3 +3399,11 @@ Added Yuchanns's distinction between request-triggered follow-up work and a cont
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | What lessons can Silicon Valley tech executives learn from what went wrong at Yahoo?
+
+Added Xavier Amatriain's secondhand organizational diagnosis of Yahoo as a compound failure across talent density, strategic focus, acquisition integration, research-to-product transfer, and culture. Created [[XavierAmatriain]], [[Hadoop]], [[AcquisitionStrategy]], and [[ResearchToProductTransfer]]; updated [[Yahoo]], [[MarissaMayer]], [[Netflix]], [[TalentDensity]], [[StartupFocus]], [[StartupCulture]], and [[StartupHiringAtScale]] while preserving the tension between Mayer's mobile-capability rationale and Amatriain's company-wide integration critique. The source contains no image references, so no visual assets or manifest were created. Downstream synthesis refreshed business and markets, psychology and personal development, and work, education, and society; global compaction ran because the new organizational-coherence claim crossed the material-change gate.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

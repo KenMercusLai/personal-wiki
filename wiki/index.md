@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [What lessons can Silicon Valley tech executives learn from what went wrong at Yahoo?](sources/xavier-amatriains-answer-to-what-lessons-can-silicon-valley-tech-executives-learn-from-what-went-wrong-at-yahoo-quora.md) - Xavier Amatriain diagnoses Yahoo's decline as a compounding failure of talent density, strategic focus, acquisition integration, research transfer, and culture.
 - [Python Web 框架中的后台任务](sources/yuchanns-python-web-kuang-jia-zhong-de-hou-tai-ren-wu.md) - Yuchanns distinguishes request follow-up work from a continuous service worker and manages the latter through FastAPI lifespan and asyncio cancellation.
 - [Visual Attention: An Enormous Guide](sources/visual-attention-an-enormous-guide.md) - Nick Kolenda organizes visual attention into nine stimulus families while showing that goal-directed search can reverse simple salience advice.
 - [如何用数据武装运营工作](sources/wulc-ru-he-yong-shu-ju-wu-zhuang-yun-ying-gong-zuo.md) - Wulc links funnel decomposition, multidimensional diagnosis, and layered experiments into a data-driven operations loop while warning that metrics need context and cannot originate every discontinuous innovation.
@@ -429,6 +430,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Xavier Amatriain](entities/XavierAmatriain.md) - Outside observer framing Yahoo's decline as an interacting organizational system rather than one failed decision.
+- [Hadoop](entities/Hadoop.md) - Data-infrastructure project used here as a qualified example of research contribution without equivalent business-value capture.
 - [FastAPI](entities/FastAPI.md) - Python web framework used here to contrast request-scoped background work with lifespan-owned asynchronous workers.
 - [Nick Kolenda](entities/NickKolenda.md) - Marketing-psychology author translating visual-attention research into concrete design tactics and qualifications.
 - [Taylor Singletary](entities/TaylorSingletary.md) - Developer-relations practitioner advocating reader-centered, actionable, linked, and continuously maintained documentation.
@@ -1344,6 +1347,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Research-to-Product Transfer](concepts/ResearchToProductTransfer.md) - Organizational capability that moves ideas and prototypes from research into products, operations, and measurable impact.
+- [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Use of acquisitions to advance a coherent direction while managing talent, product, focus, and cultural integration.
 - [Service-Lifetime Background Tasks](concepts/ServiceLifetimeBackgroundTasks.md) - In-process workers deliberately bound to service startup and shutdown rather than to one request.
 - [Visual Attention](concepts/VisualAttention.md) - Selective perceptual processing shaped by stimulus-driven signals, learned cues, viewer goals, and cognitive load.
 - [Data-Driven Operations](concepts/DataDrivenOperations.md) - Operational loop that decomposes one outcome into a funnel, diagnoses the weak stage by dimension, and tests interventions while preserving contextual judgment.

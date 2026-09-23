@@ -352,12 +352,13 @@
       "805dfd300e50968dc6b27bd0078c86c95f1036d29e9c254ab43c40395792408e",
       "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea",
       "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076",
-      "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd"
+      "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
+      "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 352
+    "paragraph_count": 353
   },
-  "overview_commit": "156e9acfb8c83e31fd3b3a396b5b50315c421b7a",
-  "overview_digest": "3137cf4efe770f565982bcff90ec026ee154fc61fc4cc8a450436cb2c955ca5f",
+  "overview_commit": "5b1e3620766f359a35bdc13bd34b46d297781514",
+  "overview_digest": "b696be640d3d8fffcddff559988ea414d494422f1885eaf40c69f75f1e3ba5ca",
   "paragraphs": [
     {
       "id": "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
@@ -7155,6 +7156,35 @@
         "AttentionEconomy",
         "BehaviorDesign",
         "VisualAttention"
+      ]
+    },
+    {
+      "id": "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Xavier Amatriain source adds [[Yahoo]] as a compound organizational-failure case rather than a single bad-decision story. [[TalentDensity]] becomes dynamic: weaker hiring, strong-employee departures, and managers who feel unable to correct team composition can reinforce one another. [[StartupFocus]] expands from founder attention and product scope into large-company portfolio discipline, because a broad \"web\" identity or stated mobile-ad direction does not guide tradeoffs while many unrelated initiatives continue. [[AcquisitionStrategy]] now holds a direct tension: [[MarissaMayer]] elsewhere describes acquisitions as a response to Yahoo's tiny mobile organization, while Amatriain argues that acquisition-led talent repair diluted focus and culture; a real local capability gap and poor company-wide integration can coexist. [[ResearchToProductTransfer]] separates prolific laboratory work from business impact, using [[Hadoop]] as a qualified example of technology associated with Yahoo but commercialized more visibly elsewhere. [[StartupCulture]] also gains an important semantic boundary: a \"family\" atmosphere can support disciplined customer intimacy at [[SmugMug]] or, in Amatriain's secondhand Yahoo account, comfort without impact-oriented accountability, while [[Netflix]]'s professional-team frame supplies a contrasting explicit standard. The source is an informed outsider's short retrospective with no deal data, research-transfer metrics, employee performance evidence, or full causal history, and it contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 6,
+        "culture-and-media": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AcquisitionStrategy",
+        "Hadoop",
+        "MarissaMayer",
+        "Netflix",
+        "ResearchToProductTransfer",
+        "SmugMug",
+        "StartupCulture",
+        "StartupFocus",
+        "TalentDensity",
+        "Yahoo"
       ]
     }
   ],
