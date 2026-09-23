@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
       "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
       "0e6e060156a54c3b6de27bc674ffafabaa24316392b1991e234e0da9b4627354",
       "ff88643ddcfa6a06256bd91951002b054f216452c4a77f0a0ad6fa6925bca966",
@@ -353,11 +354,31 @@
       "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076",
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd"
     ],
-    "paragraph_count": 351
+    "paragraph_count": 352
   },
-  "overview_commit": "dfbc06d7049fd64e695c73cfaaabc7159b5646c5",
-  "overview_digest": "7b58ef4e90bdb91b166b2e0875caa4688654ce9fbb4112f02416361387c0aaeb",
+  "overview_commit": "156e9acfb8c83e31fd3b3a396b5b50315c421b7a",
+  "overview_digest": "3137cf4efe770f565982bcff90ec026ee154fc61fc4cc8a450436cb2c955ca5f",
   "paragraphs": [
+    {
+      "id": "09504207ed6e543de2f49ebadff97e8ed45a4e1edcda4b40c86941b57e055445",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest Yuchanns source adds [[ServiceLifetimeBackgroundTasks]] as an ownership-and-lifecycle distinction within the wiki's Python concurrency and task infrastructure material. FastAPI's request `BackgroundTasks` suit cleanup or follow-up work scheduled by a handler, while a continuous consumer should start with the service and have an explicit shutdown path. The demonstrated pattern gives a [[FastAPI]] lifespan context responsibility for creating an `asyncio` task before `yield`, then cancelling and awaiting it after service operation ends; a loop-local exception handler and cooperative sleep keep one processing error from terminating the worker or producing an immediate retry spin. This updates [[PythonConcurrencyLibraries]] beyond its 2016 thread, process, Parallel Python, and Celery inventory without collapsing distinct models: an in-process coroutine is lightweight for suitable asynchronous I/O, but the article does not cover multi-process duplication, blocking work, durable delivery, crash recovery, independent scaling, or distributed coordination. Those requirements remain closer to [[TaskQueueDesign]] or separately supervised workers. The source contains no effective image references, so no visual assets or manifest were created.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FastAPI",
+        "PythonConcurrencyLibraries",
+        "ServiceLifetimeBackgroundTasks",
+        "TaskQueueDesign"
+      ]
+    },
     {
       "id": "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
       "primary_topic": "work-education-and-society",

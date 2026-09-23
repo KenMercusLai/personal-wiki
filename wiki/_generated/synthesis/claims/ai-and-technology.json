@@ -51,9 +51,10 @@
       "global_candidate": true,
       "id": "concurrency-models-shape-systems-reasoning",
       "qualifications": [
-        "The Wulc source is a 2016 beginner overview; it does not cover modern Python async practice, the GIL, detailed distributed-systems failure models, or current library recommendations."
+        "Wulc's taxonomy is a 2016 beginner overview, while Yuchanns supplies one modern in-process web-worker pattern rather than a general library survey; neither source covers the GIL, detailed distributed failure models, or current recommendation matrices.",
+        "A lifespan-owned coroutine can be duplicated by multi-process web deployments and does not itself provide durable delivery, crash recovery, independent scaling, blocking-work isolation, or distributed coordination."
       ],
-      "statement": "Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk.",
+      "statement": "Systems reasoning starts with clear execution, communication, and lifecycle models: [[ConcurrentProgramming]] interleaves scheduled work, [[ParallelProgramming]] uses multiple cores, [[DistributedProgramming]] coordinates networked machines, [[InterprocessCommunication]] choices shape consistency and failure risk, and [[ServiceLifetimeBackgroundTasks]] use [[FastAPI]] plus [[PythonConcurrencyLibraries|asyncio]] to bind suitable in-process coroutine work to service startup and cancellation rather than the durability semantics of [[TaskQueueDesign]].",
       "status": "supported",
       "supporting_wikilinks": [
         "ConcurrentProgramming",
@@ -62,7 +63,10 @@
         "InterprocessCommunication",
         "MessagePassing",
         "ConcurrencyFailureModes",
-        "PythonConcurrencyLibraries"
+        "PythonConcurrencyLibraries",
+        "ServiceLifetimeBackgroundTasks",
+        "FastAPI",
+        "TaskQueueDesign"
       ]
     },
     {

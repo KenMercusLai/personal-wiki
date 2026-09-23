@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-24
-as_of_overview_commit: 1ff5fe2207c335821722d2b2b513c371422906cc
-input_digest: 652dbd097ae77bd3e0146bf289bee1349041f97ff6d9198e68702d09f0d70c8d
+as_of_overview_commit: 156e9acfb8c83e31fd3b3a396b5b50315c421b7a
+input_digest: aafe7a4d7aea6a81b3569d09d42f04a21530f6c3d45b1a98c15d0df5527d40a8
 ---
 
 # AI and Technology
@@ -48,13 +48,14 @@ Durable technical practice depends on understanding underlying systems rather th
 
 ### Concurrency Models Shape Systems Reasoning
 
-Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk.
+Systems reasoning starts with clear execution, communication, and lifecycle models: [[ConcurrentProgramming]] interleaves scheduled work, [[ParallelProgramming]] uses multiple cores, [[DistributedProgramming]] coordinates networked machines, [[InterprocessCommunication]] choices shape consistency and failure risk, and [[ServiceLifetimeBackgroundTasks]] use [[FastAPI]] plus [[PythonConcurrencyLibraries|asyncio]] to bind suitable in-process coroutine work to service startup and cancellation rather than the durability semantics of [[TaskQueueDesign]].
 
-**Evidence:** [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]]
+**Evidence:** [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]], [[ServiceLifetimeBackgroundTasks]], [[FastAPI]], [[TaskQueueDesign]]
 
 **Qualifications:**
 
-- The Wulc source is a 2016 beginner overview; it does not cover modern Python async practice, the GIL, detailed distributed-systems failure models, or current library recommendations.
+- Wulc's taxonomy is a 2016 beginner overview, while Yuchanns supplies one modern in-process web-worker pattern rather than a general library survey; neither source covers the GIL, detailed distributed failure models, or current recommendation matrices.
+- A lifespan-owned coroutine can be duplicated by multi-process web deployments and does not itself provide durable delivery, crash recovery, independent scaling, blocking-work isolation, or distributed coordination.
 
 ### Verification As Technical Accelerator
 

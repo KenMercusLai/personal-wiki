@@ -3391,3 +3391,11 @@ Added Nick Kolenda's nine-family taxonomy of visual attention and its central bo
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Python Web 框架中的后台任务
+
+Added Yuchanns's distinction between request-triggered follow-up work and a continuous worker owned by the web service lifecycle. Created [[FastAPI]] and [[ServiceLifetimeBackgroundTasks]], and updated [[PythonConcurrencyLibraries]] and [[Python]] with the `asyncio.create_task()` plus lifespan pattern, explicit cancellation and awaiting, loop-local error containment, and the boundary between lightweight in-process work and durable external task infrastructure. Preserved qualifications around multi-process duplication, blocking or CPU-bound work, crashes, durability, distributed coordination, and the source's experience-based Twisted comparison. The source contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
