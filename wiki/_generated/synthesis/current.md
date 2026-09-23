@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: dfd08925456269f0eaacbaf012b73d38fe0d2540
+as_of_overview_commit: 8b7a4f969e85975f2d3e2276abe04e9f0aa92ee2
 summary: "Durable outcomes require grounded evidence, explicit tradeoffs, representative feedback, and inspectable systems with visible incentives, authority, recovery, and human goals."
-episode_count: 410
-source_count: 410
-paragraph_count: 348
+episode_count: 414
+source_count: 414
+paragraph_count: 349
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress combines system understanding, verification near change, reliable operations, and agent runtimes whose context, history, topic boundaries, tools, authority, recovery, and human ownership remain inspectable.
+Durable technical progress combines system understanding, verification near change, reliable operations, and agent runtimes whose context, history, tools, authority, recovery, and human ownership remain inspectable.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution and communication models: [[ConcurrentProgramming]] interleaves work through scheduling, [[ParallelProgramming]] runs work simultaneously across cores, [[DistributedProgramming]] coordinates machines over a network, and [[InterprocessCommunication]] choices such as [[MessagePassing]] shape consistency, memory cost, and failure risk. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]].
 
 ### Business and Markets
 
-Companies convert scarce capital, time, labor, attention, expertise, and technical capability into advantage only when customer demand, audience fit, incentives, ownership, culture, reliability, attribution, and retained value are explicit and tested against representative outcomes.
+Companies convert scarce capital, time, labor, attention, expertise, and technical capability into advantage only when customer demand, audience fit, incentives, ownership, culture, documentation, reliability, attribution, and retained value are explicit and tested against representative outcomes.
 
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone. Evidence: [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]].
@@ -75,13 +75,13 @@ Progress depends on bounded attention, calibrated judgment, representative evide
 
 ### Science, Health, and Climate
 
-This remains a heterogeneous, indirect topic spanning scientific computing, language-model framing, data-science adoption, attention and self-efficacy advice, philosophy of science, and one misrouted distributed-systems case; claims remain source-scoped.
+This remains a heterogeneous, indirect topic spanning scientific computing, language-model framing, data-science adoption, attention and self-efficacy advice, philosophy of science, and a misrouted distributed-systems case; claims remain source-scoped.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Learning and organizational practice improve through feedback, judgment, bounded attention, deliberate transition rituals, role clarity, fair incentives, power-aware relationships, usable knowledge systems, and inspectable examples rather than decontextualized recipes.
+Learning and organizational practice improve through feedback, judgment, bounded attention, deliberate transition rituals, role clarity, fair incentives, power-aware relationships, maintained documentation, usable knowledge systems, and inspectable examples rather than decontextualized recipes.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

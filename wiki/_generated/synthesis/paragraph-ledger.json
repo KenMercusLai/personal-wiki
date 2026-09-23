@@ -348,12 +348,13 @@
       "1b6bafe155daaa78f4011a63d32f21424ef5ce8dc3d2dd914275b79980c67902",
       "499657a1891e429a802f3b5e3d0830ea8e19dc3951dc06f582527284dc04e32e",
       "805dfd300e50968dc6b27bd0078c86c95f1036d29e9c254ab43c40395792408e",
-      "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea"
+      "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea",
+      "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076"
     ],
-    "paragraph_count": 348
+    "paragraph_count": 349
   },
-  "overview_commit": "faf5058fd2b66b29fc36ce46c99165a501d8c419",
-  "overview_digest": "501f2a1e5bd57330412d138271306253bfad9fad9a78b937e8a31e341d270976",
+  "overview_commit": "8b7a4f969e85975f2d3e2276abe04e9f0aa92ee2",
+  "overview_digest": "7662daa014952fae2a596ff86ba57e93a5a7454003c15d34ec5463deedae430e",
   "paragraphs": [
     {
       "id": "50fe9e0408fdd4e2ec50880ef6b57e459fcf4eed72740715610621319d612633",
@@ -7083,6 +7084,21 @@
         "MichaelAbehsera",
         "PersonalBranding",
         "ProfessionalBlogging"
+      ]
+    },
+    {
+      "id": "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Taylor Singletary source adds [[DeveloperDocumentation]] as a designed developer-experience surface. A guide makes the reader the actor, uses active and actionable language, and combines examples, exercises, and tools with a path from easy entry to mastery; the wider system separates reusable atomic topics, cross-links them deliberately, and uses FAQs for smaller canonical answers. Visual hierarchy supports scanning, while compact labels and grouping make reference facts glanceable, as illustrated by the retained nutrition-label image. Documentation work also becomes product work: authors test before writing, expose ambiguity and limitations while outlining, repair stale material, thread new concepts through older pages, and treat repeated questions as signals that either the text or product needs revision. The advice remains a 2016 practitioner essay rather than outcome evidence, and its humor, conspicuous emphasis, pseudocode preference, repetition, and warning against turnkey abstraction require adjustment for audience, accessibility, precision, and risk. Seven distinct images were opened; the evidence-bearing nutrition label was retained, while the typewriter hero and thumbnail, section illustrations, city photograph, and Highlights badge were omitted as decorative or redundant.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DeveloperDocumentation"
       ]
     }
   ],

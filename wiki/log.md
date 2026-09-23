@@ -3359,3 +3359,11 @@ Added Nathan Kontny's argument that shareable ideas often become interesting by 
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Writing great documentation
+
+Added Taylor Singletary's practitioner framework for reader-centered, actionable, linked, scan-friendly, tested, and continuously maintained developer documentation. Created [[DeveloperDocumentation]] and [[TaylorSingletary]], and updated [[ExplanatoryWriting]], [[DeveloperExperience]], and [[Slack]] with documentation-specific evidence and qualifications. All seven distinct local images were opened; retained the evidence-bearing nutrition-label reference-layout example under a descriptive canonical filename and omitted the typewriter hero and thumbnail, Highlights badge, and section illustrations as decorative or redundant.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

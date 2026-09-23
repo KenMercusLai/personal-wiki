@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Writing great documentation](sources/writing-great-documentation-taylor-singletary-medium.md) - Taylor Singletary treats developer documentation as reader-centered narrative, actionable instruction, linked atomic content, scan-friendly reference design, product feedback, and continuous maintenance.
 - [Viral Marketing](sources/viral-marketing-the-set-list-medium.md) - Nathan Kontny applies Murray Davis's negation pattern to Casey Neistat videos and the satirical Trick a Journalist campaign, treating expectation-breaking as a creative filter rather than a guarantee of virality.
 - [《认知红利》阅读笔记(1) - 概念重塑](sources/blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su.md) - Wulc summarizes attention, time leverage, compounding, identity, metacognition, strategic potential, idea valuation, uncertainty, and luck through practical frameworks and eight inspected diagrams.
 - [umount: /: target is busy](sources/umount-target-is-busy.md) - An Ask Ubuntu Q&A distinguishes busy-root diagnosis, lazy detachment, NFS force-unmounting, and an unverified LVM deactivation sequence.
@@ -424,6 +425,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Taylor Singletary](entities/TaylorSingletary.md) - Developer-relations practitioner advocating reader-centered, actionable, linked, and continuously maintained documentation.
 - [Nathan Kontny](entities/NathanKontny.md) - Marketing author who adapts Murray Davis's interestingness theory into an expectation-breaking creative filter.
 - [Casey Neistat](entities/CaseyNeistat.md) - Filmmaker and YouTuber used as the central case for expectation-breaking video and a broader viral-video checklist.
 - [Murray Davis](entities/MurrayDavis.md) - Sociologist whose analysis of interesting propositions centers on negating accepted assumptions.
@@ -1336,6 +1338,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Developer Documentation](concepts/DeveloperDocumentation.md) - Task guidance, concepts, examples, reference facts, links, and feedback loops that help developers begin, act, recover, and gain mastery.
 - [Expectation-Breaking Content](concepts/ExpectationBreakingContent.md) - Creative strategy that makes an idea interesting through a recognizable assumption and credible reversal, without guaranteeing virality or conversion.
 - [Filesystem Unmounting](concepts/FilesystemUnmounting.md) - Releasing or accounting for active filesystem dependencies before removing a mount, with explicit limits on lazy, forced, and backing-volume operations.
 - [Ambiguity Reduction](concepts/AmbiguityReduction.md) - Turning vague goals into explicit problems, users, assumptions, downside, priorities, and bounded executable decisions.

@@ -333,6 +333,7 @@ sources:
   - lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai
   - replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity
   - terrible-software-what-actually-makes-you-senior
+  - writing-great-documentation-taylor-singletary-medium
 last_updated: 2026-09-24
 ---
 # Overview
@@ -1037,6 +1038,8 @@ The newest Terrible Software source adds [[AmbiguityReduction]] as a behavioral 
 
 The newest Michael Abehsera source adds a designer-focused layer to [[ProfessionalBlogging]] and [[ContentLedAcquisition]]. Across examples involving Eyal Zuri, Paul Jarvis, Nick Babich, Matt West, Andrew Graunke, and [[MichaelAbehsera]], public writing is associated with product traffic, course demand, speaking, executive dialogue, and recruitment. The actionable pattern is narrower than “write and opportunities appear”: choose the audience one wants, address a concrete struggle, deliver useful or entertaining value before mentioning paid help, take a focused position, and reduce startup friction by drafting before editing and publishing before the idea feels perfect. This reinforces [[PersonalBranding]] as discoverable work rather than persona alone, but the evidence remains selected and self-reported; it does not isolate writing from reputation, network, timing, topic quality, or survivorship, and the claimed revenue and traffic effects are not independently verified. The sole embedded asset was inspected and found to be an S3 redirect-error XML document rather than an image, so it was omitted and no visual manifest was created.
 
+The newest Taylor Singletary source adds [[DeveloperDocumentation]] as a designed developer-experience surface. A guide makes the reader the actor, uses active and actionable language, and combines examples, exercises, and tools with a path from easy entry to mastery; the wider system separates reusable atomic topics, cross-links them deliberately, and uses FAQs for smaller canonical answers. Visual hierarchy supports scanning, while compact labels and grouping make reference facts glanceable, as illustrated by the retained nutrition-label image. Documentation work also becomes product work: authors test before writing, expose ambiguity and limitations while outlining, repair stale material, thread new concepts through older pages, and treat repeated questions as signals that either the text or product needs revision. The advice remains a 2016 practitioner essay rather than outcome evidence, and its humor, conspicuous emphasis, pseudocode preference, repetition, and warning against turnkey abstraction require adjustment for audience, accessibility, precision, and risk. Seven distinct images were opened; the evidence-bearing nutrition label was retained, while the typewriter hero and thumbnail, section illustrations, city photograph, and Highlights badge were omitted as decorative or redundant.
+
 ## Open Questions
 
 - Which observable signals can distinguish a genuine sleeper or Trojan-horse market from a small category whose demand and expansion will never materialize?
@@ -1185,3 +1188,4 @@ The newest Michael Abehsera source adds a designer-focused layer to [[Profession
 - How should an acquired platform decide whether an emergent creator-led identity deserves strategic investment, monetization experiments, or deliberate rejection?
 - How should shortest-path implementations choose among simple scans, priority queues, and alternative algorithms when graph size, density, negative weights, and update frequency vary?
 - Which writing practices create professional opportunity beyond what prior reputation, network position, platform reach, and survivorship already explain?
+- Which documentation interventions reduce recurring developer support demand without hiding platform mechanics or shifting complexity into opaque abstractions?
