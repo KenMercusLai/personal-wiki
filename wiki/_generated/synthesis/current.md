@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-25
-as_of_overview_commit: c709637bf7f8bd7a4d6377f40f5f92d10ea8d755
+as_of_overview_commit: a8a7faa36b34b30bc68465523bcbcb0abda1ad57
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, community design, and judgment turn constraints into outcomes."
-episode_count: 453
-source_count: 453
-paragraph_count: 385
+episode_count: 454
+source_count: 454
+paragraph_count: 386
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress combines underlying-system knowledge, contextual architecture, verification, operability, inspectable automation, and human ownership. AI and agent systems add leverage when context, retrieval, tools, state, safety, and responsibility remain visible and testable.
+Durable technical progress combines underlying-system knowledge, contextual architecture and procurement, verification, operability, inspectable automation, and human ownership.
 
-- [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
+- [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[FailureInformedVendorSelection]], [[PhilipYurchuk]].
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[SoftwareEngineering]] and [[EssentialAndAccidentalComplexity]] add that successive abstractions, delivery methods, and LLMs can reduce or relocate implementation friction without proving that problem understanding, coordination, verification, operation, and maintenance have disappeared, while [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]], [[SoftwareEngineering]], [[EssentialAndAccidentalComplexity]], [[ForwardReferenceLearning]], [[LearningHowToLearn]].
 
 ### Business and Markets
 
-Companies convert scarce resources into durable value through stable demand, learning, retained value, coherent incentives, explicit platform boundaries, and relationship channels. Most strategy, growth, acquisition, and organization claims remain practitioner or retrospective evidence requiring contextual tests.
+Companies convert scarce resources into durable value through stable demand, learning, retained value, coherent incentives, explicit platform boundaries, and relationship channels.
 
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].
 - [[AudienceTargeting]], [[ProgrammaticAdvertising]], and [[DataManagementPlatform]] connect marketing economics across three layers: campaign objectives should extend from impressions and conversions to customer value, inventory moves through direct, guaranteed, preferred, private-auction, and open-exchange paths, and synchronized identifiers turn audience segments into bids; [[IdentityResolution]] strengthens continuity by linking cross-site identifiers to a person while also raising the privacy stakes. Evidence: [[AudienceTargeting]], [[ProgrammaticAdvertising]], [[DataManagementPlatform]], [[IdentityResolution]], [[GoogleAdWords]], [[GoogleAnalytics]], [[AnalyticsVidhya]].
@@ -50,25 +50,25 @@ Reusable insight comes from making hidden flows, constraints, ownership boundari
 
 ### Culture and Media
 
-Culture and media depend on linked systems of form, infrastructure, audience practice, relationships, governance, preservation, and economics. Platforms and tools shape possibilities without removing human judgment, unequal distribution, technical dependence, or governance debt.
+Culture and media depend on linked systems of form, infrastructure, audience practice, relationships, governance, preservation, and economics.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Accountable institutions, managers, platforms, and technical systems need explicit ownership, usable controls, observable behavior, provenance, capacity, fair process, and agreed state transitions. Authentication, moderation, memory, and managerial care relocate rather than eliminate trust.
+Accountable institutions, managers, platforms, and technical systems need explicit ownership, usable controls, observable behavior, provenance, capacity, fair process, and agreed state transitions.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
 
 ### History and Geopolitics
 
-The historical material emphasizes path dependence, hidden maturation, unequal starting conditions, institutional context, and compatibility decay rather than reproducible recipes. The topic currently contains little direct geopolitical evidence.
+The historical material emphasizes path dependence, hidden maturation, unequal starting conditions, institutional context, and compatibility decay rather than reproducible recipes.
 
 ### Psychology and Personal Development
 
-Progress is context-sensitive: attention, identity, influence, trust, incentives, relationships, feedback, and agency remain bounded by structural and situational constraints. Community architecture adds that pseudonymity, thread durability, search, real-name identity, and social discovery shape participation differently.
+Progress is context-sensitive: attention, identity, influence, trust, incentives, relationships, feedback, and agency remain bounded by structural and situational constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].
@@ -81,7 +81,7 @@ This remains a heterogeneous, mostly indirect topic whose workplace, computing, 
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate relationships, observable practice, and outcome-tested design. Access, power, transfer limits, and automation's external costs qualify the advice.
+Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate relationships, observable practice, and outcome-tested design.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

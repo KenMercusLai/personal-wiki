@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Ask a Repair Shop](sources/ask-a-repair-shop-philip-yurchuk.md) - Philip Yurchuk argues that enterprise buyers should consult failure-exposed system integrators before vendors while checking those advisers for partnership and referral conflicts.
 - [Are forums still relevant in a Facebook world?](sources/are-forums-still-relevant-in-a-facebook-world.md) - Threadloom contrasts Facebook Groups' scale, discovery, sharing, and moderator tools with forums' specialization, pseudonymity, durable threads, and retrieval.
 - [Apple's iOS App Store users spent $11.5 billion in Q4, 95% more than Google Play](sources/apples-ios-app-store-users-spent-11-5-billion-in-q4-95-more-than-google-play.md) - AppleInsider reports App Annie's Q4 2017 split between Google Play's download scale and the App Store's much stronger consumer spending.
 - [Anti-Perks](sources/anti-perks-even.md) - Even distinguishes portable, employee-controlled benefits from office-bound “anti-perks” that may increase distraction, pressure, immobility, or exclusion.
@@ -465,6 +466,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Philip Yurchuk](entities/PhilipYurchuk.md) - Software practitioner and author of a repair-shop analogy for failure-informed enterprise procurement.
 - [Threadloom](entities/Threadloom.md) - Forum-search vendor and publisher whose commercial position qualifies its comparison of forums with Facebook Groups.
 - [Jessica Salvatore](entities/JessicaSalvatore.md) - Psychologist quoted on connection, emergent forum identity, wellbeing, and offline civic participation.
 - [Louise Pendry](entities/LouisePendry.md) - Psychologist distinguishing friendship-driven Facebook Group retention from traditional forums' retrieval advantages.
@@ -1423,6 +1425,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Failure-Informed Vendor Selection](concepts/FailureInformedVendorSelection.md) - Product diligence grounded in the cross-vendor failure, repair, implementation, and maintenance experience of downstream practitioners.
 - [Forum Community Design](concepts/ForumCommunityDesign.md) - Specialized, thread-based community architecture balancing durable retrieval, shared identity, pseudonymity, moderation, and discovery.
 - [Workplace Perk Design](concepts/WorkplacePerkDesign.md) - Values- and outcomes-led selection of benefits, amenities, and deliberate exclusions based on autonomy, wellbeing, inclusion, and work effects.
 - [Academic Research Workflow](concepts/AcademicResearchWorkflow.md) - End-to-end system connecting source collection, annotation, linked synthesis, Markdown drafting, citation processing, project tracking, and manuscript export.

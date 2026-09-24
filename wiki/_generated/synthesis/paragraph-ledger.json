@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "f1f1581bceaee7f6291efc4a7b150ea22401533b5f3030432d996941e7758376",
       "743369967a4157761b9f07f093aa03f5cf063aea120ef8389b9036f2c83b65ab",
       "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
       "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
@@ -387,11 +388,25 @@
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe"
     ],
-    "paragraph_count": 385
+    "paragraph_count": 386
   },
-  "overview_commit": "c709637bf7f8bd7a4d6377f40f5f92d10ea8d755",
-  "overview_digest": "8098edc645f10feee22dd558d55bbc552023ed7102304164ddc5cbe20c5eff10",
+  "overview_commit": "a8a7faa36b34b30bc68465523bcbcb0abda1ad57",
+  "overview_digest": "a9c9bc361470847720543255270ff1a05a6bfabf517103a366955099aec34943",
   "paragraphs": [
+    {
+      "id": "f1f1581bceaee7f6291efc4a7b150ea22401533b5f3030432d996941e7758376",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[PhilipYurchuk]] source adds [[FailureInformedVendorSelection]] as a procurement complement to [[ContextualTechnologySelection]]. Its central move is to ask people exposed to post-sale consequences—repair shops for appliances and multi-vendor system integrators for enterprise software—about recurring failures, customization burden, maintainability, and products they would avoid supporting. That evidence addresses an information asymmetry in which executives move from feature lists directly into vendor-led sales conversations without comparative implementation knowledge. The source also prevents the intermediary from becoming a new unquestioned authority: partner certification, vendor-generated leads, kickbacks, and concentrated revenue can suppress candid criticism, while practitioners may over-weight repairability, familiar systems, or billable complexity. The resulting synthesis is triangulation: compare several downstream accounts, ask for concrete failure modes, inspect incentives, and combine those observations with requirements, pilots, references, contracts, and internal evaluation. The article is an anecdotal 2017 practitioner argument rather than measured procurement research. Its sole local image is a generic workshop-tools photograph and was omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 2
+      },
+      "wikilinks": [
+        "ContextualTechnologySelection",
+        "FailureInformedVendorSelection",
+        "PhilipYurchuk"
+      ]
+    },
     {
       "id": "743369967a4157761b9f07f093aa03f5cf063aea120ef8389b9036f2c83b65ab",
       "primary_topic": "psychology-and-personal-development",

@@ -3683,3 +3683,11 @@ Added Threadloom's historical comparison of Facebook Groups and specialized foru
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Ask a Repair Shop
+
+Added Philip Yurchuk's repair-shop analogy for enterprise procurement and created [[FailureInformedVendorSelection]] and [[PhilipYurchuk]]. The synthesis treats repairers and multi-vendor system integrators as sources of comparative evidence about failures, customization, and maintainability, while preserving the central qualification that partnerships, vendor leads, kickbacks, familiar-product bias, and revenue dependence can compromise their advice. No direct contradiction was found. Inspected the sole local image, a generic workshop-tools photograph, and omitted it as decorative without creating an asset manifest.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
