@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Bar Raisers at Coinbase: If you're not a hell yes, you're a no](sources/bar-raisers-at-coinbase-if-youre-not-a-hell-yes-youre-a-no.md) - Brian Armstrong describes Coinbase's trained hiring veto, dual skill-and-values screen, and deliberate preference for false negatives during hypergrowth.
 - [Avoiding Zombie Startups](sources/avoiding-zombie-startups.md) - Mathias Pastor offers a candidate-side screen for stagnant startups using investor quality, product and sales evidence, team equity, hiring intent, transparency, and employee opportunity cost.
 - [Attack Of The Micro Brands](sources/attack-of-the-micro-brands-positive-slope-medium.md) - Scott Belsky argues that targeted social discovery, modular commerce infrastructure, and low-inventory production let many small brands collectively pressure incumbents.
 - [Ask a Repair Shop](sources/ask-a-repair-shop-philip-yurchuk.md) - Philip Yurchuk argues that enterprise buyers should consult failure-exposed system integrators before vendors while checking those advisers for partnership and referral conflicts.
@@ -708,8 +709,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Beefy Finance](entities/BeefyFinance.md) - Auto-compounding vault platform used for staking and reinvesting Belt LP-token rewards in Taresky's walkthrough.
 - [OKX](entities/OKX.md) - Cryptocurrency exchange example for hourly auction-based lending in the crypto arbitrage source.
 - [Bitfinex](entities/Bitfinex.md) - Cryptocurrency exchange example for order-book lending in the crypto arbitrage source.
-- [Coinbase](entities/Coinbase.md) - Regulated cryptocurrency exchange and custody company profiled as a mainstream crypto on-ramp under boom-bust, operational, and institutionalization pressure.
-- [Brian Armstrong](entities/BrianArmstrong.md) - Coinbase founder and CEO whose Bitcoin thesis became a regulated exchange and custody strategy.
+- [Coinbase](entities/Coinbase.md) - Regulated cryptocurrency exchange and custody company using market-legitimacy and hiring-governance controls while scaling.
+- [Brian Armstrong](entities/BrianArmstrong.md) - Coinbase founder and CEO combining a regulated crypto strategy with a deliberately conservative hypergrowth hiring system.
 - [AICOIN](entities/AICOIN.md) - Crypto trading tool named for funding-rate arbitrage order execution and parameter testing.
 - [Coinglass](entities/Coinglass.md) - Crypto-market data site represented by funding-rate heatmaps and rankings in the article.
 - [beepb00p](entities/Beepb00p.md) - Practitioner-author mapping personal data liberation infrastructure around local exports, HPI, Promnesia, Orger, and interoperability workarounds.
@@ -1862,14 +1863,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull, willingness to pay, and repeatable value justifies shifting from discovery toward growth and organization-building.
 - [Trough of Sorrow](concepts/TroughOfSorrow.md) - Pre-product-market-fit startup phase after launch excitement fades and before market pull becomes clear.
 - [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual, high-touch startup work used to create early customer love and learn before automation.
-- [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow founder-led early hiring to larger recruiting systems that preserve standards and culture.
+- [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow early hiring to recruiting systems that preserve standards through role clarity, evidence, and decision checks under growth pressure.
 - [Startup Culture](concepts/StartupCulture.md) - Shared mission, values, and behavioral standard maintained through hiring, leadership example, repetition, rituals, feedback, and strategic commitment.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
 - [Co-CEO Leadership](concepts/CoCEOLeadership.md) - Shared executive-leadership structure where two or more top leaders divide responsibility, monitor each other, and sustain unified decisions.
 - [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into coaching and humane accountability while preserving fair process.
 - [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.
-- [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.
+- [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers shaped by selection governance, meaningful opportunity, retention, and corrective capacity.
 - [Employee Opportunity Design](concepts/EmployeeOpportunityDesign.md) - Organizational practice of giving employees meaningful responsibility so talent can become real contribution.
 - [Twelve-Factor App](concepts/TwelveFactorApp.md) - Application-design methodology used here for stdout logging, environment-variable configuration, and deployment-friendly container behavior.
 - [Container Application Startup](concepts/ContainerApplicationStartup.md) - Application-owned initialization design for optional config, env overrides, local directories, dependency retry, and startup logs in containers.

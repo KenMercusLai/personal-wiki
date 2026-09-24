@@ -369,6 +369,7 @@ sources:
   - are-forums-still-relevant-in-a-facebook-world
   - ask-a-repair-shop-philip-yurchuk
   - atlassians-5-5-billion-user-onboarding-magic
+  - bar-raisers-at-coinbase-if-youre-not-a-hell-yes-youre-a-no
 last_updated: 2026-09-25
 ---
 # Overview
@@ -1151,6 +1152,8 @@ The newest [[CraigSilverman]] source adds an adversarial integrity layer to [[Ma
 
 The newest Even source adds [[WorkplacePerkDesign]] as the benefits-and-amenities layer of [[WorkplaceIncentiveDesign]]. Its “anti-perks” frame distinguishes portable, employee-controlled support—minimum paid leave, flexible schedules, health coverage, compensation, equity, and flexible stipends—from office-bound amenities that may increase immobility, distraction, long-hours presence, coerced participation, or exclusion. The Oakland redesign supplies the spatial version: [[Even]] reports polling employees, adding private rooms, shared offices, and flex space for varied work modes, and deliberately omitting a recreation area. The useful synthesis is not a universal ban on food, pets, alcohol, or social events, but a behavioral and distributional test: state the desired outcome, examine who benefits and who bears costs, observe actual use, and revisit the design as the workforce changes. This also strengthens [[VacationPolicy]] with a source-scoped minimum-leave example. The evidence remains one company-authored 2017 account from a 17-person team, with no comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data. Two unique local images were opened; the full office photograph was retained once at its semantic position, while the 60×45 thumbnail and repeated full-resolution embed were omitted as duplicates.
 
+The newest [[BrianArmstrong]] source adds a hiring-governance case to [[StartupHiringAtScale]] and [[TalentDensity]]. Under hypergrowth, [[Coinbase]] treated urgent staffing demand and inexperienced interviewers as risks to the company-wide bar: candidates had to meet both skill and values criteria, and every panel included a trained bar raiser who could veto the hiring manager. The process made its error preference unusually explicit by accepting some false negatives to reduce false-positive hires, while prompts about interviewer energy, learning, relative strength, immediate contribution, and raising the average operationalized the “hell yes” threshold. This turns a hiring bar from aspiration into decision architecture, but does not validate the architecture. The company-authored essay provides no performance, retention, fairness, diversity, calibration, veto-consistency, or candidate-experience outcomes; subjective energy and superiority judgments can encode affinity or confidence bias, and strict rejection can worsen vacancies or exclude unconventional talent. [[EmployeeOpportunityDesign]] remains a necessary counterweight because selection quality does not ensure that strong hires receive meaningful scope after joining. Four local images were inspected and omitted as decorative, duplicated, or fully repeated by the prose.
+
 ## Open Questions
 
 - Which community purposes benefit most from forum-style durable threads and pseudonymity, and which benefit more from real-name social distribution and feed discovery?
@@ -1304,6 +1307,7 @@ The newest Even source adds [[WorkplacePerkDesign]] as the benefits-and-amenitie
 - How should startup candidates compare extended exercise windows against strike price, valuation, dilution, tax exposure, and liquidity probability?
 - When do short option exercise windows function as legitimate retention design, and when do they become hidden forfeiture of already vested compensation?
 - What evidence would show whether 10-year exercise periods materially change startup hiring quality, employee retention, or investor returns?
+- Which structured criteria, calibration practices, and outcome audits distinguish a useful independent hiring veto from subjective or biased gatekeeping?
 - When does moving before a job search materially improve access and hiring confidence enough to justify the candidate's financial and family risk?
 - Which adaptations help introverted leaders meet social demands without rewarding shallow networking volume or creating unsustainable performance pressure?
 - What leading indicators can distinguish a mature product's healthy optimization from a revenue peak that masks loss of strategic relevance?

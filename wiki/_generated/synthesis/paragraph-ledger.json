@@ -387,12 +387,13 @@
       "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed",
       "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115",
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
-      "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe"
+      "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
+      "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52"
     ],
-    "paragraph_count": 387
+    "paragraph_count": 388
   },
-  "overview_commit": "122419c09de067ce5a9c995e2782b8859ca1c1bc",
-  "overview_digest": "2fe8e0e82e9c52b7e5b4f1ccd6ea5a9e53a2763e6a85ae7ae44ac4aeec587038",
+  "overview_commit": "701c36b9ea8b45ff30faa1531185cc4e2aa4e57f",
+  "overview_digest": "069bbb2ad4e4306fbaabe441192b6c4976f13951cc6673f2b719e409ee2b16a0",
   "paragraphs": [
     {
       "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
@@ -7877,6 +7878,28 @@
         "VacationPolicy",
         "WorkplaceIncentiveDesign",
         "WorkplacePerkDesign"
+      ]
+    },
+    {
+      "id": "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[BrianArmstrong]] source adds a hiring-governance case to [[StartupHiringAtScale]] and [[TalentDensity]]. Under hypergrowth, [[Coinbase]] treated urgent staffing demand and inexperienced interviewers as risks to the company-wide bar: candidates had to meet both skill and values criteria, and every panel included a trained bar raiser who could veto the hiring manager. The process made its error preference unusually explicit by accepting some false negatives to reduce false-positive hires, while prompts about interviewer energy, learning, relative strength, immediate contribution, and raising the average operationalized the “hell yes” threshold. This turns a hiring bar from aspiration into decision architecture, but does not validate the architecture. The company-authored essay provides no performance, retention, fairness, diversity, calibration, veto-consistency, or candidate-experience outcomes; subjective energy and superiority judgments can encode affinity or confidence bias, and strict rejection can worsen vacancies or exclude unconventional talent. [[EmployeeOpportunityDesign]] remains a necessary counterweight because selection quality does not ensure that strong hires receive meaningful scope after joining. Four local images were inspected and omitted as decorative, duplicated, or fully repeated by the prose.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BrianArmstrong",
+        "Coinbase",
+        "EmployeeOpportunityDesign",
+        "StartupHiringAtScale",
+        "TalentDensity"
       ]
     }
   ],

@@ -3723,3 +3723,11 @@ Added a 2018 practitioner taxonomy of eight B2B blog formats: search explainers,
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Bar Raisers at Coinbase: If you're not a hell yes, you're a no
+
+Added Brian Armstrong's account of Coinbase's hypergrowth hiring controls: dual skill-and-values screening, a trained bar raiser with veto power on every panel, shared interviewer responsibility, and a deliberate preference for false negatives over bad hires. Updated [[Coinbase]], [[BrianArmstrong]], [[StartupHiringAtScale]], and [[TalentDensity]] from their complete ordered source inventories. Preserved the limits of the company-authored process account: no outcome, calibration, fairness, diversity, veto-consistency, or candidate-experience evidence, plus affinity and confidence risks in subjective energy and superiority prompts. Inspected four local images and omitted three duplicate or resized title artworks plus one tiny prose-repeated illustration; no asset manifest was created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
