@@ -291,6 +291,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [多 Agent 协作本质是分布式系统问题，模型多强也没用](sources/duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong.md) - Ci Jian De Shan Lin argues that multi-agent AI coding is a distributed-consensus problem requiring verification topology, failure detection, and human escalation rather than simply stronger models.
 - [Above Avalon: The Curious State of Apple Product Pricing](sources/above-avalon-the-curious-state-of-apple-product-pricing.md) - Neil Cybart argues that Apple uses aggressive AirPods and Apple Watch entry pricing, premium SKUs, scale, and vertical integration to make luxury wearable experiences more accessible.
 - [Above Avalon: Apple on Track to Buy 50% of Itself in Three Years](sources/above-avalon-apple-on-track-to-buy-50-of-itself-in-three-years.md) - Neil Cybart argues that Apple could retire half of its peak share count by combining ongoing buybacks with repatriated foreign cash after tax reform.
+- [Above Avalon: Apple Doesn't Need to Buy Netflix](sources/above-avalon-apple-doesnt-need-to-buy-netflix.md) - Neil Cybart argues that Apple could pursue entertainment relevance through acquired vision, relationships, and ideas rather than buying Netflix's revenue, subscribers, and content operation.
 - [Above Avalon: Above Avalon Subscriptions Turn Three](sources/above-avalon-above-avalon-subscriptions-turn-three.md) - Neil Cybart argues that Above Avalon's Apple-focused subscription model works by selling strong perspective, daily analysis, archive access, and community rather than chasing ad-supported page views.
 - [Above Avalon: Apple Is Figuring Out What's Next](sources/above-avalon-apple-is-figuring-out-whats-next.md) - Neil Cybart argues that Apple's WWDC 2018 AR, Siri, ML, Watch, and AirPods moves were preparation for smart glasses as the next personal-computing form factor.
 - [Above Avalon: Apple's Content Distribution Strategy](sources/above-avalon-apples-content-distribution-strategy.md) - Neil Cybart argues that Apple can selectively put content services on non-Apple hardware while preserving premium Apple devices as the best integrated experiences.
@@ -988,7 +989,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shopify](entities/Shopify.md) - E-commerce SaaS and app ecosystem used as a free-trial acquisition case and platform for merchant-founded Shopify apps.
 - [WP Engine](entities/WPEngine.md) - WordPress hosting company used as a generous affiliate-incentive growth case.
 - [TripAdvisor](entities/TripAdvisor.md) - Travel-review platform used as an SEO, review, badge, and partnership growth case.
-- [Spotify](entities/Spotify.md) - Music-streaming company represented through acquisition tactics and a practitioner-designed one-on-one framework.
+- [Spotify](entities/Spotify.md) - Music-streaming company represented through acquisition tactics, a practitioner-designed one-on-one framework, and Apple's 2014 counterfactual choice between buying scale and buying vision.
 - [Tobias van Schneider](entities/TobiasVanSchneider.md) - Designer-author using writing, .Mail, and product examples to explain sunk-cost decision traps.
 - [.Mail App](entities/DotMailApp.md) - Abandoned email-client project used as Tobias van Schneider's personal sunk-cost example.
 - [Semplice](entities/Semplice.md) - Designer portfolio platform named in Tobias van Schneider's author biography.
@@ -1047,7 +1048,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Salesforce](entities/Salesforce.md) - SaaS company used as the custom-build attribution-system case in Bill Macaitis's experience.
 - [Zendesk](entities/Zendesk.md) - SaaS case where attribution showed display and content influenced long nurture cycles, lead creation, velocity, deal size, and revenue growth.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
-- [Netflix](entities/Netflix.md) - Culture, talent-density, large-scale personalization, notebook data-platform infrastructure, and early subscription product-management example spanning Reed Hastings, artwork selection, Jupyter workflows, and the DVD-era queue and recommendation model.
+- [Netflix](entities/Netflix.md) - Culture, personalization, notebook infrastructure, early subscription product management, and a 2017 counterfactual Apple acquisition target whose scale did not by itself establish strategic fit.
 - [Jupyter](entities/Jupyter.md) - Open-source notebook ecosystem whose protocol, file format, kernel model, and computational narrative pattern underpin Netflix's notebook platform.
 - [nteract](entities/Nteract.md) - React-based notebook UI chosen by Netflix for simple, composable notebook interaction and data exploration.
 - [Papermill](entities/Papermill.md) - Notebook parameterization and execution library used by Netflix to turn notebooks into reusable templates and scheduled artifacts.
@@ -1189,7 +1190,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Horace Dediu](entities/HoraceDediu.md) - Asymco analyst-author interpreting Apple Watch's early revenue scale and wearable trajectory.
 - [Asymco](entities/Asymco.md) - Technology-analysis publication context for Horace Dediu's Apple Watch strategy source.
 - [Apple Watch](entities/AppleWatch.md) - Apple's wearable product framed as a large early watch business, health-oriented mobile extension, and possible smart-glasses enabler.
-- [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as both a content-distribution asset and a culture-platform experiment.
+- [Apple Music](entities/AppleMusic.md) - Apple's paid music-streaming service used as a content-distribution asset, a culture-platform experiment, and evidence for capability-led acquisition strategy.
 - [Apple TV](entities/AppleTV.md) - Apple's premium video hardware and TV-app context in the content distribution strategy.
 - [HomePod](entities/HomePod.md) - Apple's premium speaker contrasted with cheaper smart speakers in the content distribution strategy.
 - [Tim Cook](entities/TimCook.md) - Apple CEO tied to Services framing, active-device measurement, and Today at Apple retail positioning.
@@ -1199,6 +1200,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [iTunes](entities/ITunes.md) - Apple's earlier digital media platform, used as historical contrast to streaming, as smart-TV content, and as an American Idol integration case.
 - [Camille Hearst](entities/CamilleHearst.md) - iTunes product manager in the American Idol integration case, balancing fan engagement with voting-signal constraints.
 - [Larry Jackson](entities/LarryJackson.md) - Apple Music content leader focused on artist collaboration, exclusives, and pop-culture positioning.
+- [Jimmy Iovine](entities/JimmyIovine.md) - Beats co-founder presented as the music-industry visionary and relationship-builder at the center of Apple's acquisition.
 - [Zane Lowe](entities/ZaneLowe.md) - Apple Music and Beats 1 editorial voice focused on artist conversation and shared music moments.
 - [Bozoma Saint John](entities/BozomaSaintJohn.md) - Apple Music marketing leader focused on brand, discovery, and mainstream cultural attention.
 - [Beats 1](entities/Beats1.md) - Apple Music radio station used as a human-curation and shared-moment layer.

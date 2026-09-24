@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
       "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
       "8d50ffb69233e0d4524bc88a97f6b3ceaabd514ae1cb4c66a45eda5f3ae07858",
       "87428a5ad66253bd8af32fecf23ad376a652ee536d7868ce97c155ec61aa5a4d",
@@ -375,11 +376,36 @@
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e"
     ],
-    "paragraph_count": 373
+    "paragraph_count": 374
   },
-  "overview_commit": "8e1567a0d7d34d99ddde0d386fd5da2dbbb1541b",
-  "overview_digest": "3fbdfcfd78956d7aabcdf0f981528503c26efbcc5ebb95965c776089c6022fd6",
+  "overview_commit": "12b5a4a5ec78a669be9b98833cc863c8b27b228d",
+  "overview_digest": "2b704d62ed324007f0d01755d2e8c3a993844dfac1d01f7c301f0fdc04b752c5",
   "paragraphs": [
+    {
+      "id": "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest Above Avalon source adds a capability-led acquisition case to the wiki's Apple and streaming material. [[AcquisitionStrategy]] now distinguishes a defined product gap from attractive headline assets: [[Apple]] could have bought [[Spotify]]'s established service or [[Netflix]]'s subscribers, revenue, business model, and original-content operation, but [[NeilCybart]] argues that its actual gap involved creative vision, talent, and industry relationships. [[JimmyIovine]] and the Beats team therefore become the strategic center of the 2014 deal, with [[AppleMusic]]'s early growth and culture positioning used as evidence that Apple could build scale without acquiring the market leader. [[AppleMusicCulturePlatform]] gains relevance and mindshare as explicit aims behind artist arrangements, original shows, and iOS integration, while [[StreamingContentEconomics]] gains a measurement warning: the retained chart compares Apple Music and Spotify at different service ages without harmonized definitions, promotions, bundles, geography, price, or market conditions. [[Netflix]] remains a valuable historical streaming-scale case, but the article is a 2017 analyst counterfactual and does not prove Apple's internal rationale, Iovine's isolated causal contribution, Netflix's willingness to sell, or the outcome of a hypothetical acquisition. The single local chart was inspected, retained under a readable canonical filename, and placed beside the historical subscriber comparison.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "culture-and-media": 2,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AcquisitionStrategy",
+        "Apple",
+        "AppleMusic",
+        "AppleMusicCulturePlatform",
+        "JimmyIovine",
+        "NeilCybart",
+        "Netflix",
+        "Spotify",
+        "StreamingContentEconomics"
+      ]
+    },
     {
       "id": "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
       "primary_topic": "business-and-markets",

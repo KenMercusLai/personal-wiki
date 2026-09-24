@@ -5,9 +5,9 @@
       "id": "direct-creator-payment-enables-but-does-not-secure-creator-businesses",
       "qualifications": [
         "The payment argument is a time-bound practitioner hypothesis, and easier checkout does not solve power-law outcomes, scarce distribution, churn, take-rate pressure, or defensibility.",
-        "The Apple Music and BuzzFeed accounts are strategy profiles and operator arguments rather than neutral outcome comparisons."
+        "The Apple Music and BuzzFeed accounts are strategy profiles and operator arguments rather than neutral outcome comparisons; the 2017 subscriber chart does not harmonize service age, definitions, promotions, bundles, geography, price, or market conditions."
       ],
-      "statement": "[[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage.",
+      "statement": "[[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.",
       "status": "qualified",
       "supporting_wikilinks": [
         "DigitalMediaMonetization",
@@ -18,7 +18,9 @@
         "StreamingContentEconomics",
         "HunterWalk",
         "Buzzfeed",
-        "AppleMusicCulturePlatform"
+        "AppleMusicCulturePlatform",
+        "AppleMusic",
+        "JimmyIovine"
       ]
     },
     {
@@ -244,6 +246,6 @@
       ]
     }
   ],
-  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
+  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
   "topic_id": "culture-and-media"
 }

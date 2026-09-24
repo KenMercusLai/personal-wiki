@@ -3587,3 +3587,11 @@ Added a conceptual architecture note that distinguishes a searchable vector log 
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Above Avalon: Apple Doesn't Need to Buy Netflix
+
+Added Neil Cybart's 2017 argument that Apple did not need Netflix's revenue, subscribers, or content operation to pursue video. Created [[JimmyIovine]]; updated [[AppleMusic]], [[Spotify]], [[Netflix]], [[AcquisitionStrategy]], [[StreamingContentEconomics]], and [[AppleMusicCulturePlatform]] from their complete ordered source inventories. The synthesis treats Beats as a capability-, relationship-, and vision-led acquisition while preserving the source's counterfactual and historical limits. Retained the paid-subscriber growth chart canonically and qualified its cross-service comparability.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
