@@ -7,6 +7,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [A One Year PWA Retrospective](sources/a-one-year-pwa-retrospective-pinterest-engineering-blog-medium.md) - Zack Argyle describes Pinterest's mobile-web rewrite, its PWA architecture and regression controls, and company-reported growth in engagement and conversion.
+- [A Tale of 2 API Platforms](sources/a-tale-of-2-api-platforms-ggv-capital-medium.md) - Jason Costa contrasts Twitter's API retrenchment with Slack's complementary app strategy to argue for explicit boundaries, reciprocal value, and long-term ecosystem stewardship.
 - [A Manager’s FAQ](sources/a-managers-faq-owners-manual-blog-by-carta-medium.md) - Henry Ward frames management as strength amplification, diagnostic curiosity, developmental delegation, upward problem ownership, self-evaluation, influence, and accountable exits.
 - [A Guide to Co-founder Fit](sources/a-guide-to-co-founder-fit-fundersclub.md) - FundersClub treats founder fit as an evolving system of tested trust, complementary capability, role clarity, strategic and equity alignment, recurring candor, and mutual support.
 - [A Crowded Space, The Rebundling of Craigslist](sources/a-crowded-space-the-rebundling-of-craigslist.md) - Josh Breinlinger argues that many micro-vertical Craigslist unbundlers lacked sufficient frequency or transaction value, favoring broader category platforms while leaving room for large vertical exceptions such as Airbnb.
@@ -449,6 +451,12 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Project Duplo](entities/ProjectDuplo.md) - Pinterest's cross-functional 2017-2018 initiative to rebuild mobile web as a progressive web app.
+- [Gestalt](entities/Gestalt.md) - Pinterest's open-source React component library and design-system foundation for the mobile-web rewrite.
+- [Zack Argyle](entities/ZackArgyle.md) - Pinterest engineering manager who authored the one-year PWA retrospective.
+- [Jason Costa](entities/JasonCosta.md) - Product and platform-strategy author comparing Twitter and Slack's historical API ecosystems.
+- [GGV Capital](entities/GGVCapital.md) - Venture-capital publication and employer context for Jason Costa's API-platform essay.
+- [UberMedia](entities/UberMedia.md) - Third-party Twitter-client consolidator presented as a platform-control risk during Twitter's API transition.
 - [Joshua Merrill](entities/JoshuaMerrill.md) - eShares product leader used by Henry Ward to illustrate why senior management depends on influence rather than command.
 - [FundersClub](entities/FundersClub.md) - Venture-capital organization publishing practitioner guidance on co-founder fit and descriptive portfolio founder-count data.
 - [Josh Breinlinger](entities/JoshBreinlinger.md) - Marketplace investor and author of the Craigslist rebundling thesis, with disclosed portfolio exposure to OfferUp and Upwork.
@@ -1384,6 +1392,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Performance Regression Prevention](concepts/PerformanceRegressionPrevention.md) - Continuous monitoring and code-level constraints that stop routine changes from eroding application speed.
+- [Progressive Web Apps](concepts/ProgressiveWebApps.md) - Web applications combining broad reach with progressively available caching, installability, push, app shells, and fast repeat navigation.
+- [API Ecosystem Governance](concepts/APIEcosystemGovernance.md) - Continuing design of API boundaries, access, incentives, policy, distribution, and support across providers, developers, and users.
 - [Managerial Responsibility](concepts/ManagerialResponsibility.md) - Leadership model in which authority increases the obligation to develop others, absorb difficult work, diagnose failures, and own fair personnel decisions.
 - [Co-Founder Fit](concepts/CoFounderFit.md) - Evolving compatibility among founders across trust, values, capabilities, roles, ambition, economics, communication, and support.
 - [Marketplace Rebundling](concepts/MarketplaceRebundling.md) - Consolidation of narrow marketplace use cases into broader category platforms when frequency, transaction value, shared liquidity, and limited user attention favor breadth.

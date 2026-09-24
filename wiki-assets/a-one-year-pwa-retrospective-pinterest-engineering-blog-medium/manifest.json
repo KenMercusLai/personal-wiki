@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "a-one-year-pwa-retrospective-pinterest-engineering-blog-medium",
+  "images": [
+    {
+      "file": "pinterest-pwa-mobile-ui.png",
+      "alt": "Two Pinterest progressive web app screens showing a profile and a Pin detail view in a native-like mobile interface"
+    },
+    {
+      "file": "gestalt-layout-boundaries.png",
+      "alt": "Small Gestalt layout diagram showing nested page components and a full-width section crossing container boundaries"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
+      "8d50ffb69233e0d4524bc88a97f6b3ceaabd514ae1cb4c66a45eda5f3ae07858",
       "87428a5ad66253bd8af32fecf23ad376a652ee536d7868ce97c155ec61aa5a4d",
       "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
       "7ab9f6bcecefaddc7d5f5385c6f60549b2242123c5e41f37f70f1cd284c08d92",
@@ -372,11 +374,49 @@
       "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750"
     ],
-    "paragraph_count": 370
+    "paragraph_count": 372
   },
-  "overview_commit": "d88f4f727d4f4a7c7e1b79efd24889e6bc331c1d",
-  "overview_digest": "9600be8e7916b61810ff8a8321b003b4f6fea00d189651f56404a372d1bb7d15",
+  "overview_commit": "02bacd86db6e62aad2be0d9b175c62454c53080e",
+  "overview_digest": "88089d1abfd8ead6c9950050d25e101d08c730cc2dfce837b3442d426f7943b8",
   "paragraphs": [
+    {
+      "id": "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Pinterest engineering source adds a large-scale mobile-web case to the wiki's performance, product-growth, and platform material. [[ProgressiveWebApps]] now joins URL-based reach with a server-rendered user-specific app shell, service-worker caching, homescreen installation, push notifications, route and component code-splitting, preloading, and normalized partial-data rendering. [[ProjectDuplo]], [[ZackArgyle]], and [[Gestalt]] anchor the cross-functional implementation, which targeted constrained international networks and a weak logged-out conversion funnel. [[PerformanceRegressionPrevention]] adds the post-launch discipline: bundle-size graphs, permitted-growth alerts, dependency-heavy import bans, and safe shared-package boundaries defend performance as a roughly 600-file JavaScript codebase grows. [[Pinterest]] reports substantial year-over-year gains in activity, session depth, logins, signups, and homescreen use, but the figures are company-authored comparisons without absolute baselines, controls, uncertainty estimates, or causal decomposition. Both images were retained: a native-like mobile UI example and a tiny component-boundary diagram whose resolution limits its independent evidentiary value.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Gestalt",
+        "PerformanceRegressionPrevention",
+        "Pinterest",
+        "ProgressiveWebApps",
+        "ProjectDuplo",
+        "ZackArgyle"
+      ]
+    },
+    {
+      "id": "8d50ffb69233e0d4524bc88a97f6b3ceaabd514ae1cb4c66a45eda5f3ae07858",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JasonCosta]] source adds [[APIEcosystemGovernance]] as the product-boundary and incentive layer behind developer-platform trust. [[Twitter]]'s early permissive API reportedly grew to 900,000 registered apps, 600,000 developers, and 13 billion daily requests before advertising, first-party UI ownership, uneven client quality, and [[UberMedia]]'s client consolidation made consumer-facing complements look competitive; v1.1 restrictions directly affected only part of the ecosystem but signaled risk widely enough to erode [[DeveloperPlatformTrust]]. [[Slack]] supplies Costa's contrasting 2016 case: OAuth scopes, review and directory distribution, roadmap and customer-problem signals, promotion, and an $80 million fund guided developers toward complementary apps. The broader synthesis is not that APIs must remain unrestricted, but that providers should decide which experiences they must own, explain and manage changes proportionately, and invest in reciprocal value for users, developers, and the platform. The comparison is one favorable practitioner essay rather than equivalent outcome data, and it does not prove that Twitter could have sustained open core-client access or that Slack's mechanisms produced durable developer economics. Six image references resolved to five unique files: the full Twitter ecosystem map was retained and its repeated embed was deduplicated, while a tiny thumbnail of the same map, the unreadable 60×35 API quadrant, a Slack logo, and an app-icon strip were omitted.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "APIEcosystemGovernance",
+        "DeveloperPlatformTrust",
+        "JasonCosta",
+        "Slack",
+        "Twitter",
+        "UberMedia"
+      ]
+    },
     {
       "id": "87428a5ad66253bd8af32fecf23ad376a652ee536d7868ce97c155ec61aa5a4d",
       "primary_topic": "work-education-and-society",

@@ -3563,3 +3563,19 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A Tale of 2 API Platforms
+
+Added Jason Costa's 2016 comparison of Twitter and Slack's API strategies. Created [[APIEcosystemGovernance]], [[JasonCosta]], [[GGVCapital]], and [[UberMedia]]; updated [[Twitter]], [[Slack]], and [[DeveloperPlatformTrust]] from their complete ordered source inventories. The synthesis treats a public API as a long-term governance commitment requiring explicit core-product boundaries, reciprocal value, proportionate policy, distribution, communication, and developer support, while preserving Twitter's legitimate advertising, user-experience, and client-consolidation pressures and the lack of comparative outcome evidence for Slack. Six image references resolved to five unique files: retained the full Twitter ecosystem map under a descriptive canonical filename and deduplicated its repeated embed, while omitting a tiny thumbnail of that map, an unreadable 60×35 API quadrant, a Slack logo, and an app-icon strip.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A One Year PWA Retrospective
+
+Added Zack Argyle's account of Pinterest's 2017-2018 mobile-web rewrite. Created [[ProgressiveWebApps]], [[PerformanceRegressionPrevention]], [[ZackArgyle]], [[Gestalt]], and [[ProjectDuplo]], and updated [[Pinterest]] and [[WebPerformanceOptimization]] from their complete ordered source inventories. Preserved the central qualifications that the reported year-over-year gains lack absolute baselines, controls, uncertainty estimates, and causal decomposition, and that bundle size is only one performance proxy. Opened both local images and retained them canonically: a native-like product UI example and a 60x32-pixel component-boundary diagram whose low resolution limits its independent evidentiary value.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
