@@ -3608,6 +3608,14 @@ Ran lint. See lint-report.md for details.
 
 Added James Clear's framework for reconciling luck and effort through comparison scale, starting position, trajectory, and opportunity exposure. Created [[LuckAndEffortInSuccess]], [[JamesClear]], and [[TuYouyou]], and updated [[WarrenBuffett]] from his complete ordered source inventory. Preserved the main qualifications that similar peers still have unequal constraints, the framework does not estimate causal weights, action only raises rather than guarantees opportunity, and Tu's popularized story compresses team and institutional contributions. Inspected the sole local image, a decorative compass illustration, and omitted it without creating an asset manifest.
 
+## [2026-09-24] ingest | Ads just work. No matter what you think
+
+Added John Val John's 2018 argument that advertising can influence evaluation through limited-attention association, evaluative conditioning, and identity meaning. Created [[AutomaticAdvertisingInfluence]] and [[JohnValJohn]], and updated [[AttentionEconomy]] from its complete ordered source inventory. Preserved the distinction between useful informational ads and associative persuasion, while qualifying the unsupported daily exposure estimates and the gap between controlled conditioning effects, real purchases, aggregate spending, and social or environmental harm. The source contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

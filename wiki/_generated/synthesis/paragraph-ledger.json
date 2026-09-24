@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
       "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
       "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
       "8d50ffb69233e0d4524bc88a97f6b3ceaabd514ae1cb4c66a45eda5f3ae07858",
@@ -378,11 +379,30 @@
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
       "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed"
     ],
-    "paragraph_count": 376
+    "paragraph_count": 377
   },
-  "overview_commit": "712beb39507986914935fabc3b0350908b44e879",
-  "overview_digest": "49a6dbd2caffbf50ed54577fb74ee22efe9d593227c8af1ec3361cb8909d8ca0",
+  "overview_commit": "d737ffcf66d6ee0680d4da40f89242bcda85efd0",
+  "overview_digest": "f21c4426a980bb5e9996e8fdbded7670125e0fccd7c05124f685ab9a88945afd",
   "paragraphs": [
+    {
+      "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[JohnValJohn]] source adds [[AutomaticAdvertisingInfluence]] as the psychological layer between ad delivery and deliberate choice. It separates brand or ad proximity from perception, conscious awareness, and engagement, then argues that screening most surrounding stimuli does not guarantee immunity: automatic valence and evaluative conditioning can associate a logo or product with pleasant people, animals, landscapes, celebrity, or other cues, while cultural imprinting connects purchases to identity, status, aspiration, and anticipated social judgment. This extends [[AttentionEconomy]] beyond captured attention alone and complements [[VisualAttention]]'s warning that a glance is not the same as comprehension or action. The synthesis remains bounded: the article's daily exposure counts have no documented methodology, and six reported conditioning experiments support a laboratory attitude effect more directly than durable purchases, aggregate spending, anxiety, overconsumption, waste, or the claim that most advertising operates unconsciously. Some ads also provide useful product information. The source contains no image references, so no visual assets or manifest were created.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionEconomy",
+        "AutomaticAdvertisingInfluence",
+        "JohnValJohn",
+        "VisualAttention"
+      ]
+    },
     {
       "id": "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
       "primary_topic": "business-and-markets",
