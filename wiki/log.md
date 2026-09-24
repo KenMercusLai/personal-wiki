@@ -3699,3 +3699,11 @@ Added Jackson Noel's historical teardown of onboarding across JIRA, HipChat, Con
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Attack Of The Micro Brands
+
+Added Scott Belsky's 2018 thesis that a long tail of narrow consumer brands can collectively pressure incumbents by combining targeted social discovery, design-led positioning, modular commerce services, and small-batch or delayed production. Created [[ScottBelsky]] and [[MicroBrandCommerce]], and updated [[Instagram]], [[Shopify]], and [[CustomerAcquisitionCost]] from their complete ordered source inventories. Preserved the source's limits: unnamed second-hand revenue examples, no survival or cohort-profitability data, customer risk from pre-selling before production, dependence on social-platform economics, and Belsky's disclosed investments. Opened all five local image assets, retained two full-resolution Instagram ad montages at their semantic positions, and omitted three resized duplicates.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

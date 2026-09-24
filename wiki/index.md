@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Attack Of The Micro Brands](sources/attack-of-the-micro-brands-positive-slope-medium.md) - Scott Belsky argues that targeted social discovery, modular commerce infrastructure, and low-inventory production let many small brands collectively pressure incumbents.
 - [Ask a Repair Shop](sources/ask-a-repair-shop-philip-yurchuk.md) - Philip Yurchuk argues that enterprise buyers should consult failure-exposed system integrators before vendors while checking those advisers for partnership and referral conflicts.
 - [Are forums still relevant in a Facebook world?](sources/are-forums-still-relevant-in-a-facebook-world.md) - Threadloom contrasts Facebook Groups' scale, discovery, sharing, and moderator tools with forums' specialization, pseudonymity, durable threads, and retrieval.
 - [Apple's iOS App Store users spent $11.5 billion in Q4, 95% more than Google Play](sources/apples-ios-app-store-users-spent-11-5-billion-in-q4-95-more-than-google-play.md) - AppleInsider reports App Annie's Q4 2017 split between Google Play's download scale and the App Store's much stronger consumer spending.
@@ -467,6 +468,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Scott Belsky](entities/ScottBelsky.md) - Author and investor framing micro brands as an aggregate competitive force enabled by social targeting and modular commerce infrastructure.
 - [Atlassian](entities/Atlassian.md) - Australian workplace-software company used as a historical case of focused-product, self-service SaaS growth.
 - [Philip Yurchuk](entities/PhilipYurchuk.md) - Software practitioner and author of a repair-shop analogy for failure-informed enterprise procurement.
 - [Threadloom](entities/Threadloom.md) - Forum-search vendor and publisher whose commercial position qualifies its comparison of forums with Facebook Groups.
@@ -1427,6 +1429,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from narrow positioning, targeted discovery, modular operations, and low-commitment production.
 - [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS acquisition and activation enabled by clear product scope, free evaluation, contextual guidance, and meaningful first actions.
 - [Failure-Informed Vendor Selection](concepts/FailureInformedVendorSelection.md) - Product diligence grounded in the cross-vendor failure, repair, implementation, and maintenance experience of downstream practitioners.
 - [Forum Community Design](concepts/ForumCommunityDesign.md) - Specialized, thread-based community architecture balancing durable retrieval, shared identity, pseudonymity, moderation, and discovery.
