@@ -3,9 +3,9 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-24
-as_of_overview_commit: 712beb39507986914935fabc3b0350908b44e879
-input_digest: 2f151eb8e6c276d0c458c42cad7125bb5faff6072ad377104d155e1bf4c733ef
+last_updated: 2026-09-25
+as_of_overview_commit: b5272fd2c70d91ae1290ddb63454076cb0881406
+input_digest: 066b58264093a5499e2e9982551115e6a72d06774b41a13248e6ba9c7b861cb1
 ---
 
 # History and Geopolitics
@@ -29,13 +29,14 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 ### App Store Geography Is Market History Spillover
 
-[[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], and [[Google]] add a source-scoped market-history snapshot: 2015 app-store downloads were driven by emerging-market Google Play growth while iOS App Store revenue growth was concentrated in China, the U.S., and Japan.
+[[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], and [[Google]] add source-scoped market history: emerging markets drove Google Play's 2015 download lead while China, the U.S., and Japan drove App Store revenue growth, and Q4 2017 again paired more than 19 billion Google Play downloads against roughly 8 billion App Store downloads with the App Store's $11.5 billion consumer spend reported at 95% above Google Play.
 
 **Evidence:** [[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], [[Google]], [[MobileEcosystem]]
 
 **Qualifications:**
 
-- This is a market-geography snapshot inside a history topic, not a geopolitical analysis; it is based on a 2015 App Annie/VentureBeat summary and does not provide later regional outcomes or absolute market sizes.
+- This is market-history spillover rather than geopolitical analysis; it is based on secondary summaries of 2015 and Q4 2017 App Annie estimates rather than complete methodology or current market data.
+- Google Play's limited China presence makes it an incomplete proxy for Android economics, and the Q4 2017 article's rounded figures conflict internally.
 
 ### Software Product Histories Show Lineage And Platform Adaptation
 

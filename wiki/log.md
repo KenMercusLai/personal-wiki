@@ -3652,6 +3652,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-25] ingest | Apple's iOS App Store users spent $11.5 billion in Q4, 95% more than Google Play
+
+Added AppleInsider's Q4 2017 App Annie snapshot: Google Play delivered more than 19 billion new downloads versus roughly 8 billion for Apple's App Store, while the App Store generated $11.5 billion in consumer spend and was reported at 95% above Google Play. Updated the core app-store economics and platform pages from their complete ordered source inventories. Preserved the article's China-coverage limitation, unsupported causal claims, and internal numerical inconsistencies. Inspected all nine image references, retained one canonical consumer-spend chart, omitted its duplicate, and omitted seven unrelated promotional thumbnails.
+
 ## [2026-09-25] ingest | Anti-Perks
 
 Added Even's 2017 framework for distinguishing employee-controlled benefits from office-bound “anti-perks.” Created [[Even]] and [[WorkplacePerkDesign]], and updated [[WorkplaceIncentiveDesign]] and [[VacationPolicy]] from their complete ordered source inventories. Preserved the central limitation that this is a company-authored account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee evidence. Opened both unique local images, retained the full-resolution Oakland office photograph at its semantic position, and omitted the thumbnail and repeated embed as duplicates.
@@ -3663,6 +3667,18 @@ Added Craig Silverman's 2018 investigation of alleged click injection and click 
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Are forums still relevant in a Facebook world?
+
+Added Threadloom's historical comparison of Facebook Groups and specialized forums. Created [[ForumCommunityDesign]], [[Threadloom]], [[JessicaSalvatore]], and [[LouisePendry]], and updated [[Facebook]] from its complete ordered source inventory. Preserved the tradeoff between Facebook's distribution, sharing, relationships, and moderator tools and forums' pseudonymity, durable threads, search, and accumulated niche knowledge. Flagged the vendor's forum-search interest, incompletely specified statistics and research, and 2017-era product scope. Attempted to open all three remote images, but each source URL was unavailable, so no image-derived evidence, retained assets, or manifest was created.
 
 ## [2026-09-25] lint | Wiki health check
 

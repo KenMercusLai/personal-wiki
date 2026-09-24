@@ -20,9 +20,10 @@
       "global_candidate": false,
       "id": "app-store-geography-is-market-history-spillover",
       "qualifications": [
-        "This is a market-geography snapshot inside a history topic, not a geopolitical analysis; it is based on a 2015 App Annie/VentureBeat summary and does not provide later regional outcomes or absolute market sizes."
+        "This is market-history spillover rather than geopolitical analysis; it is based on secondary summaries of 2015 and Q4 2017 App Annie estimates rather than complete methodology or current market data.",
+        "Google Play's limited China presence makes it an incomplete proxy for Android economics, and the Q4 2017 article's rounded figures conflict internally."
       ],
-      "statement": "[[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], and [[Google]] add a source-scoped market-history snapshot: 2015 app-store downloads were driven by emerging-market Google Play growth while iOS App Store revenue growth was concentrated in China, the U.S., and Japan.",
+      "statement": "[[MobileAppStoreEconomics]], [[GooglePlay]], [[AppStore]], [[Android]], [[IOS]], [[Apple]], and [[Google]] add source-scoped market history: emerging markets drove Google Play's 2015 download lead while China, the U.S., and Japan drove App Store revenue growth, and Q4 2017 again paired more than 19 billion Google Play downloads against roughly 8 billion App Store downloads with the App Store's $11.5 billion consumer spend reported at 95% above Google Play.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "MobileAppStoreEconomics",

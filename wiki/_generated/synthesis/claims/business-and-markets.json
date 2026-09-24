@@ -1,6 +1,21 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "app-store-reach-and-spending-diverge",
+      "qualifications": [
+        "The evidence consists of historical App Annie estimates summarized by VentureBeat and AppleInsider rather than complete methodology or current market data.",
+        "Google Play's limited China presence makes the store an incomplete proxy for Android economics, the Q4 2017 article's rounded spending figures do not reconcile exactly with its chart, and its subscription, piracy, and developer-priority claims are asserted rather than demonstrated."
+      ],
+      "statement": "[[MobileAppStoreEconomics]] separates reach from monetization across two historical snapshots: [[GooglePlay]] had twice the downloads of Apple's [[AppStore]] in 2015 while the App Store generated 75% more revenue, and in Q4 2017 Google Play delivered more than 19 billion new downloads against roughly 8 billion while App Store consumer spend reached $11.5 billion and was reported at 95% above Google Play; download growth of 7% versus spending growth of 20% further shows that marketplace value can rise faster than distribution volume.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "MobileAppStoreEconomics",
+        "GooglePlay",
+        "AppStore"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "platform-ecosystems-need-aligned-boundaries",
       "qualifications": [

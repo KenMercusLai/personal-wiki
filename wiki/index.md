@@ -7,6 +7,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Are forums still relevant in a Facebook world?](sources/are-forums-still-relevant-in-a-facebook-world.md) - Threadloom contrasts Facebook Groups' scale, discovery, sharing, and moderator tools with forums' specialization, pseudonymity, durable threads, and retrieval.
+- [Apple's iOS App Store users spent $11.5 billion in Q4, 95% more than Google Play](sources/apples-ios-app-store-users-spent-11-5-billion-in-q4-95-more-than-google-play.md) - AppleInsider reports App Annie's Q4 2017 split between Google Play's download scale and the App Store's much stronger consumer spending.
 - [Anti-Perks](sources/anti-perks-even.md) - Even distinguishes portable, employee-controlled benefits from office-bound “anti-perks” that may increase distraction, pressure, immobility, or exclusion.
 - [An Updated Academic Workflow: Zotero & Obsidian](sources/alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian.md) - Alexandra Phelan divides academic research among Zotero source management, Obsidian linked notes and drafting, and Pandoc citation-aware DOCX export.
 - [Ads just work. No matter what you think](sources/ads-just-work-no-matter-what-you-think-noteworthy-the-journal-blog.md) - John Val John argues that advertising can shape brand evaluation through limited-attention association, evaluative conditioning, and identity meaning, while leaving real-world effect sizes and social harms underdocumented.
@@ -463,6 +465,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Threadloom](entities/Threadloom.md) - Forum-search vendor and publisher whose commercial position qualifies its comparison of forums with Facebook Groups.
+- [Jessica Salvatore](entities/JessicaSalvatore.md) - Psychologist quoted on connection, emergent forum identity, wellbeing, and offline civic participation.
+- [Louise Pendry](entities/LouisePendry.md) - Psychologist distinguishing friendship-driven Facebook Group retention from traditional forums' retrieval advantages.
 - [Even](entities/Even.md) - Small company whose 2017 anti-perks essay ties benefits and office design to autonomy, trust, focused work, and life outside work.
 - [Alexandra Phelan](entities/AlexandraPhelan.md) - Academic author documenting a Zotero, Obsidian, and Pandoc research-writing workflow.
 - [Zotero](entities/Zotero.md) - Reference manager serving as the source, PDF, annotation, citekey, and citation-data system in an academic workflow.
@@ -1117,8 +1122,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Marco Arment](entities/MarcoArment.md) - Founder who launched Instapaper as a 2008 side project.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
 - [Pinterest](entities/Pinterest.md) - Company that acquired Instapaper in 2016 and made Premium free while keeping the product standalone.
-- [App Store](entities/AppStore.md) - Apple's mobile app marketplace, a distribution platform for Instapaper and a 2015 revenue leader versus Google Play.
-- [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 estimates frame the Google Play versus App Store download and revenue split.
+- [App Store](entities/AppStore.md) - Apple's mobile marketplace, combining app distribution and volatile discovery with stronger spending than Google Play in the 2015 and Q4 2017 snapshots.
+- [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 and Q4 2017 estimates frame the Google Play versus App Store download and spending split.
 - [Sensor Tower](entities/SensorTower.md) - Mobile app analytics firm whose App Intelligence data shows short-lived No. 1 iPhone download-chart visibility.
 - [编程随想](entities/BianChengSuiXiang.md) - Authorial identity behind the systematic-learning article connecting media choice, Feynman-style explanation, DIKW, and cross-domain wisdom.
 - [Bixuan](entities/Bixuan.md) - Software-engineering practitioner-author arguing that reliability succeeds through robust code, safe change, restoration-first response, and sustained investment.
@@ -1191,7 +1196,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
 - [Google](entities/Google.md) - Web-platform, scaling, mobile, and geospatial actor associated with protocol evolution, Android reach, Google Play scale, and personalized mapping infrastructure.
 - [Google AdWords](entities/GoogleAdWords.md) - Google's self-service advertising product used as a product-management case for reconciling sales, engineering, relevance, and revenue constraints.
-- [Google Play](entities/GooglePlay.md) - Google's Android app marketplace, leading 2015 downloads while trailing Apple's App Store revenue in the App Annie snapshot.
+- [Google Play](entities/GooglePlay.md) - Google's Android marketplace, pairing sustained download scale with weaker direct spending and significant distribution-governance responsibilities.
 - [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
 - [Google Maps](entities/GoogleMaps.md) - Google's mass-market mapping product where personalization, local search, ads, user contributions, moderation, and location data converge.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
@@ -1234,12 +1239,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [QNX](entities/QNX.md) - Unix-like platform BlackBerry acquired in 2010 as a late attempt to modernize its smartphone software base.
 - [WebOS](entities/WebOS.md) - Palm's Linux-based smartphone platform, launched with Palm Pre but unable to overcome late timing and weak ecosystem momentum.
 - [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
-- [Android](entities/Android.md) - Google's broad mobile operating-system ecosystem, complicated by early clunkiness, Google-service dependency, OEM customization, discovery control, and download-versus-revenue economics.
-- [iOS](entities/IOS.md) - Apple's mobile operating-system ecosystem, service-control surface, and App Store revenue base in the mobile platform order.
+- [Android](entities/Android.md) - Google's broad mobile ecosystem, combining global reach and Google Play download scale with fragmentation, data-access, monetization, and governance tradeoffs.
+- [iOS](entities/IOS.md) - Apple's mobile ecosystem, service-control surface, interaction-design environment, and high-spending App Store base.
 - [Microsoft](entities/Microsoft.md) - Legacy PC-platform and software company framed through intangible economics, self-funded origins, missed mobile shift, and later enterprise-services adaptation.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
-- [Facebook](entities/Facebook.md) - Mobile-transition and distribution platform whose advertising incentives, identity layer, dependencies, and reported decline in personal sharing expose competing strategic roles.
+- [Facebook](entities/Facebook.md) - Mobile-transition and distribution platform whose advertising, identity, dependency, and Groups tradeoffs expose competing strategic roles.
 - [Ted Livingston](entities/TedLivingston.md) - Kik leader and author arguing that chat could become the new browser and bots the new websites.
 - [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example, sponsored Moments ad surface, and chat-payments proof case.
 - [Xiaoice](entities/Xiaoice.md) - Conversational chatbot used by Botnerds as an example where the chatbot label accurately fits a chat-first product.
@@ -1418,6 +1423,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Forum Community Design](concepts/ForumCommunityDesign.md) - Specialized, thread-based community architecture balancing durable retrieval, shared identity, pseudonymity, moderation, and discovery.
 - [Workplace Perk Design](concepts/WorkplacePerkDesign.md) - Values- and outcomes-led selection of benefits, amenities, and deliberate exclusions based on autonomy, wellbeing, inclusion, and work effects.
 - [Academic Research Workflow](concepts/AcademicResearchWorkflow.md) - End-to-end system connecting source collection, annotation, linked synthesis, Markdown drafting, citation processing, project tracking, and manuscript export.
 - [Automatic Advertising Influence](concepts/AutomaticAdvertisingInfluence.md) - Brand evaluation shaped through associative cues and identity meanings without requiring sustained conscious attention.
@@ -1751,7 +1757,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Streaming Content Economics](concepts/StreamingContentEconomics.md) - Music and video streaming economics shaped by subscriber scale, rights costs, content spending, and platform leverage.
 - [Apple Music Culture Platform](concepts/AppleMusicCulturePlatform.md) - Strategy of making Apple Music a home for artists, radio, brand, and shared cultural moments rather than only a streaming catalog.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
-- [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile app marketplace downloads, revenue, geography, category mix, and ranking durability.
+- [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile marketplace reach, spending, geography, category mix, growth rates, and ranking durability.
 - [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.

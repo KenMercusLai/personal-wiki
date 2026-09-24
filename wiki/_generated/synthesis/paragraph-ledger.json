@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "743369967a4157761b9f07f093aa03f5cf063aea120ef8389b9036f2c83b65ab",
       "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
       "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
       "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
@@ -167,7 +168,8 @@
       "ad94f8925ed340cecc5a4384835ae65c2949ba2eed1da0acf56e937673c72565",
       "e61aad23a46fc9cae09677ce2e08dab91115778c52a06ebfb70345747899412c",
       "a40198b503fbe1118cfdf1092b24ee782e6785b6761f04933ad309caca860a11",
-      "c9795312e24e8b8cb81c86a3bb02d9c5c041fcce257ee9cbbddde0134bb97743",
+      "8cc21b2e0f868fdcfacfb3a17672bcf2e9aa1339afac7fa5fd6bfb06b4be2e6e",
+      "34f3409a103caef0322c3a7122e9f3f0ec889dbd99ca4e9ee704e019cdf5c974",
       "09db6118f3e539f8e538ddaf45e517a88d3853d48d4669f2ad2c7dfcf882c5e7",
       "686aa1ff62b57d56b1fe172ce263b7e48928ff6b2024a311882a24cc93398237",
       "4d02b1f6c6a47691e402de58fe80374272d6fab3ddefd253bed30e8a2f5c3d2b",
@@ -385,11 +387,30 @@
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe"
     ],
-    "paragraph_count": 383
+    "paragraph_count": 385
   },
-  "overview_commit": "bab51cf0f126f41faaa0a68d3bc48ac11303a9a9",
-  "overview_digest": "068647774ccdd9dfb9a635ecc4ca4f85a52e757d9440a5c7e29a45e561f2941f",
+  "overview_commit": "c709637bf7f8bd7a4d6377f40f5f92d10ea8d755",
+  "overview_digest": "8098edc645f10feee22dd558d55bbc552023ed7102304164ddc5cbe20c5eff10",
   "paragraphs": [
+    {
+      "id": "743369967a4157761b9f07f093aa03f5cf063aea120ef8389b9036f2c83b65ab",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Threadloom source adds [[ForumCommunityDesign]] as the information-architecture and identity layer of online community. Traditional forums combine narrow topical scope, durable threads, search, and pseudonymous participation, turning repeated conversation into reusable specialist knowledge and giving people room to discuss stigmatized topics without tying membership to a public real-name profile. [[Facebook]] Groups supply a different strength bundle: an existing social graph, recommendations, easy resharing, friendship, metrics, membership tools, linked groups, and scheduled posts. The historical comparison makes scale conditional rather than decisive—feed-first discovery helps current activity but can bury archives and repeat questions as volume grows, while authenticated identity can support [[SocialProof]] and simultaneously expose sensitive membership. [[JessicaSalvatore]] supplies the source-scoped group-identity and civic-engagement rationale; [[LouisePendry]] separates Facebook's relational benefit from forums' retrieval advantage. The synthesis remains bounded by a vendor-authored argument, incompletely specified adoption statistics, unlinked research details, 2017-era product behavior, and Threadloom's commercial interest in forum search. All three remote image references were attempted, but their URLs were unavailable; no visual evidence or asset manifest was created.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Facebook",
+        "ForumCommunityDesign",
+        "JessicaSalvatore",
+        "LouisePendry",
+        "SocialProof"
+      ]
+    },
     {
       "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
       "primary_topic": "business-and-markets",
@@ -3613,12 +3634,29 @@
       ]
     },
     {
-      "id": "c9795312e24e8b8cb81c86a3bb02d9c5c041fcce257ee9cbbddde0134bb97743",
+      "id": "8cc21b2e0f868fdcfacfb3a17672bcf2e9aa1339afac7fa5fd6bfb06b4be2e6e",
       "primary_topic": "business-and-markets",
       "secondary_topics": [
         "history-and-geopolitics"
       ],
-      "text": "The newest VentureBeat/App Annie source adds a quantified app-store economics layer to the wiki's mobile-platform material. [[MobileAppStoreEconomics]] captures the split: in 2015 [[GooglePlay]] generated twice as many downloads as Apple's [[AppStore]], while Apple's store generated 75% more revenue. This sharpens [[MobileEcosystem]], [[Android]], and [[IOS]] by separating platform reach from monetization: emerging markets such as Brazil, India, Indonesia, Turkey, and Mexico drove Google Play download growth, while China, the U.S., and Japan drove iOS App Store revenue growth. [[Apple]] therefore gains a concrete 2015 example of smaller-but-higher-spending ecosystem economics, while [[Google]] and [[GooglePlay]] gain a counterbalancing volume-strength profile.",
+      "text": "The newest AppleInsider/App Annie source adds a Q4 2017 time point to the wiki's app-store economics layer. [[MobileAppStoreEconomics]] now shows the reach-versus-monetization split persisting beyond the 2015 snapshot: [[GooglePlay]] delivered more than 19 billion new downloads against roughly 8 billion for Apple's [[AppStore]], while the App Store generated $11.5 billion in consumer spend and was reported at 95% above Google Play. Downloads grew 7% year over year while app and subscription spending grew 20%, suggesting that marketplace value can compound faster than distribution volume. The comparison remains source-scoped because Google Play had little presence in China, the article's rounded totals do not reconcile exactly with its chart, and its claims about subscription propensity, piracy, and iOS-first development are asserted rather than demonstrated.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AppStore",
+        "GooglePlay",
+        "MobileAppStoreEconomics"
+      ]
+    },
+    {
+      "id": "34f3409a103caef0322c3a7122e9f3f0ec889dbd99ca4e9ee704e019cdf5c974",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The prior VentureBeat/App Annie source adds the earlier quantified baseline. In 2015 [[GooglePlay]] generated twice as many downloads as Apple's [[AppStore]], while Apple's store generated 75% more revenue. This sharpens [[MobileEcosystem]], [[Android]], and [[IOS]] by separating platform reach from monetization: emerging markets such as Brazil, India, Indonesia, Turkey, and Mexico drove Google Play download growth, while China, the U.S., and Japan drove iOS App Store revenue growth. [[Apple]] therefore gains a concrete 2015 example of smaller-but-higher-spending ecosystem economics, while [[Google]] and [[GooglePlay]] gain a counterbalancing volume-strength profile.",
       "topic_scores": {
         "business-and-markets": 1,
         "history-and-geopolitics": 1
@@ -3630,7 +3668,6 @@
         "Google",
         "GooglePlay",
         "IOS",
-        "MobileAppStoreEconomics",
         "MobileEcosystem"
       ]
     },
