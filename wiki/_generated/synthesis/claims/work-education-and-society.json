@@ -601,6 +601,22 @@
     },
     {
       "global_candidate": false,
+      "id": "work-marketplaces-may-broaden-across-adjacent-jobs",
+      "qualifications": [
+        "The claim comes from one 2017 investor essay whose failure labels lack a stated method and whose author had portfolio exposure to Upwork.",
+        "The essay provides no worker outcomes, transaction, liquidity, retention, acquisition-cost, revenue, or profitability evidence and does not establish that breadth always improves matching quality."
+      ],
+      "statement": "[[MarketplaceRebundling]] adds a work-platform boundary: [[Upwork]] is presented as a broad remote-jobs marketplace and [[Thumbtack]] as a platform spanning adjacent household service needs, on the theory that users cross job functions and service categories rather than remaining inside one micro-vertical.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MarketplaceRebundling",
+        "Upwork",
+        "Thumbtack",
+        "JoshBreinlinger"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "organizational-capability-needs-integration-and-correction",
       "qualifications": [
         "The Yahoo diagnosis is secondhand and retrospective, with no comparative data showing which intervention caused decline or which alternative organization design would have worked.",

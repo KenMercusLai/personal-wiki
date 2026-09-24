@@ -352,6 +352,7 @@ sources:
   - wo-zuo-xi-tong-jia-gou-de-yi-xie-yuan-ze-ku-ke-coolshell
   - a-101-on-1-1s-labs
   - a-comprehensive-guide-to-digital-marketing-and-analytics
+  - a-crowded-space-the-rebundling-of-craigslist
 last_updated: 2026-09-24
 ---
 # Overview
@@ -1094,9 +1095,13 @@ The newest Xavier Amatriain source adds [[Yahoo]] as a compound organizational-f
 
 The newest [[HuYuanming]] source adds a high-concurrency practitioner case to the wiki's AI-coding cluster. [[ClaudeCode]] becomes a queue-driven worker pool: fresh non-interactive processes use worktrees, streamed JSON logs, explicit merge-and-test recovery, `CLAUDE.md`, `PROGRESS.md`, a web task center, and batched Plan Mode review, while [[MobileAgentDevelopment]] moves from resilient phone terminals to a purpose-built Safari control plane with [[AIVoiceInput]]. This sharpens [[BottleneckAwareAICoding]] because the author reports moving his constraint toward ideas and credits, yet the headline measures—commits per minute and dispatch success—do not establish defect rate, maintenance cost, delivery value, or safe operation when code review is intentionally skipped. New [[PersonalSoftware]] captures the narrower economic insight: a skilled owner can remove multi-user, scale, compatibility, and support requirements and build an exact private workflow more cheaply, without proving the stronger forecast that standardized software or SaaS will disappear. [[MeshyAI]] and [[TaichiProgrammingLanguage]] provide the founder and GPU-systems context for the account. Twelve remote images were opened; nine evidence-bearing editor, kernel, lifecycle, architecture, recovery, memory, dashboard, and Plan Mode screenshots were retained, while the volcano and street photographs and author/QR card were omitted as decorative or promotional.
 
+The newest [[JoshBreinlinger]] source adds [[MarketplaceRebundling]] to the wiki's marketplace and startup-entry material. The original Craigslist category map remains useful for identifying narrow wedges, but the five-to-seven-year retrospective marks many micro-vertical entrants as dead, dying, or pivoted and argues that low transaction frequency, low transaction value, and users' limited attention favor broader category platforms. [[Craigslist]] now supplies both sides of that synthesis: an incumbent can contain separable first products, while durable marketplace scale may require recombining adjacent jobs. [[OfferUp]], [[Thumbtack]], and [[Upwork]] illustrate breadth across local commerce, household services, and remote work; [[Airbnb]] is the stated exception where one high-value section can support a major standalone vertical. The claim remains an interested 2017 investor thesis rather than a cohort study: Breinlinger had portfolio exposure to OfferUp and Upwork, the failure labels have no stated method, and the essay gives no liquidity, retention, acquisition-cost, revenue, or profitability data. Three unique diagrams were retained at their semantic positions; a duplicate thumbnail and decorative Tumblr avatar were omitted.
+
 ## Open Questions
 
 - When should an in-process lifespan-owned coroutine become a separately supervised or durable worker, and how should multi-process web deployments prevent duplicate execution?
+- What transaction-frequency, ticket-size, liquidity, retention, and acquisition-cost thresholds distinguish a viable narrow marketplace from one that must broaden into adjacent categories?
+- When does marketplace rebundling improve user convenience and network depth, and when does breadth weaken matching quality, trust, or category-specific workflow?
 - Which observable signals can distinguish a genuine sleeper or Trojan-horse market from a small category whose demand and expansion will never materialize?
 - How can venture firms measure whether diverse sourcing and independent decision processes reduce costly omission errors without simply increasing false positives?
 - How did higher seed and Series A entry valuations affect dilution, follow-on financing, and realized investor returns once the 2010–2020 cohorts matured?

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [A Crowded Space, The Rebundling of Craigslist](sources/a-crowded-space-the-rebundling-of-craigslist.md) - Josh Breinlinger argues that many micro-vertical Craigslist unbundlers lacked sufficient frequency or transaction value, favoring broader category platforms while leaving room for large vertical exceptions such as Airbnb.
 - [A Comprehensive Guide to Digital Marketing and Analytics](sources/a-comprehensive-guide-to-digital-marketing-and-analytics.md) - Analytics Vidhya maps digital marketing from media channels and auction mechanics through tagging, programmatic infrastructure, DMP targeting, identity resolution, and profit-linked campaign analytics.
 - [A 101 on 1:1s](sources/a-101-on-1-1s-labs.md) - A Spotify manager uses five explicit goals to turn vague one-on-ones into focused conversations about trust, feedback, development, team health, and product direction.
 - [10x-ing Your Team: The End of Superstar Developer Culture](sources/10x-ing-your-team-the-end-of-superstar-developer-culture.md) - Parker Thompson argues that engineering output should be optimized at team level through cross-functional roles, collaboration, problem-oriented craft, and early inclusive hiring.
@@ -445,6 +446,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Josh Breinlinger](entities/JoshBreinlinger.md) - Marketplace investor and author of the Craigslist rebundling thesis, with disclosed portfolio exposure to OfferUp and Upwork.
+- [OfferUp](entities/OfferUp.md) - Broad local-commerce marketplace used as the for-sale category example in the rebundling thesis.
 - [Parker Thompson](entities/ParkerThompson.md) - Startup adviser arguing for team-level engineering productivity, cross-functional product roles, collaborative craft, and early inclusive hiring.
 - [Chen Hao](entities/ChenHao.md) - Technical author connecting protocol standards and complex-system architecture to delivery, reliability, cost, operability, and evidence-based decisions.
 - [胡涂说 (Hutusi)](entities/Hutusi.md) - 以软件工程史、第一性原理和 ChatGPT 编码实验讨论大模型时代开发模式的技术作者。
@@ -1375,6 +1378,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Marketplace Rebundling](concepts/MarketplaceRebundling.md) - Consolidation of narrow marketplace use cases into broader category platforms when frequency, transaction value, shared liquidity, and limited user attention favor breadth.
 - [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, cookie, or partner identifiers to a durable person-level identity for recognition and targeting, with heightened privacy risk.
 - [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.
 - [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication and shared direction.

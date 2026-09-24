@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-24
-as_of_overview_commit: 418ee7f0b0906792558b038e4008053e295058f5
-input_digest: 04a5edc2af546828a0f3a1b77faf52848cda7abd338de32f27824abd002289f9
+as_of_overview_commit: 6b20505d8dd53f28443f8c4cd16b3777c5130db4
+input_digest: e1ff114426f7a5a3c480dc01da172f32ccab5a46d8719ec054adff912d302e38
 ---
 
 # Work, Education, and Society
@@ -353,6 +353,17 @@ AI-era and data-rich education should strengthen problem framing, [[Computationa
 
 - The evidence is one concise 2017 secondary summary rather than a measured organizational case, and it omits experiment power, guardrails, interaction analysis, data quality, and recovery from harmful changes.
 - A funnel simplifies paths that may branch or repeat, and a metric such as bounce rate changes meaning with the intended user journey; analytics practice therefore needs domain judgment rather than automatic score maximization.
+
+### Work Marketplaces May Broaden Across Adjacent Jobs
+
+[[MarketplaceRebundling]] adds a work-platform boundary: [[Upwork]] is presented as a broad remote-jobs marketplace and [[Thumbtack]] as a platform spanning adjacent household service needs, on the theory that users cross job functions and service categories rather than remaining inside one micro-vertical.
+
+**Evidence:** [[MarketplaceRebundling]], [[Upwork]], [[Thumbtack]], [[JoshBreinlinger]]
+
+**Qualifications:**
+
+- The claim comes from one 2017 investor essay whose failure labels lack a stated method and whose author had portfolio exposure to Upwork.
+- The essay provides no worker outcomes, transaction, liquidity, retention, acquisition-cost, revenue, or profitability evidence and does not establish that breadth always improves matching quality.
 
 ### Organizational Capability Needs Integration And Correction
 

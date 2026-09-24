@@ -367,12 +367,13 @@
       "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076",
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
-      "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d"
+      "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d",
+      "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6"
     ],
-    "paragraph_count": 367
+    "paragraph_count": 368
   },
-  "overview_commit": "4a654dd490d54ee94702cd4ad1ead07637fa10ec",
-  "overview_digest": "f29492c0f10e58791ee6ccebb56cc360e53eac8f65abccef4ca55973b622b1db",
+  "overview_commit": "6b20505d8dd53f28443f8c4cd16b3777c5130db4",
+  "overview_digest": "ecc501f2ba8124e75f754e1ef288ed0e7f2fb19940250ea5e6ee0054b04e4aa5",
   "paragraphs": [
     {
       "id": "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
@@ -7465,6 +7466,27 @@
         "MobileAgentDevelopment",
         "PersonalSoftware",
         "TaichiProgrammingLanguage"
+      ]
+    },
+    {
+      "id": "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[JoshBreinlinger]] source adds [[MarketplaceRebundling]] to the wiki's marketplace and startup-entry material. The original Craigslist category map remains useful for identifying narrow wedges, but the five-to-seven-year retrospective marks many micro-vertical entrants as dead, dying, or pivoted and argues that low transaction frequency, low transaction value, and users' limited attention favor broader category platforms. [[Craigslist]] now supplies both sides of that synthesis: an incumbent can contain separable first products, while durable marketplace scale may require recombining adjacent jobs. [[OfferUp]], [[Thumbtack]], and [[Upwork]] illustrate breadth across local commerce, household services, and remote work; [[Airbnb]] is the stated exception where one high-value section can support a major standalone vertical. The claim remains an interested 2017 investor thesis rather than a cohort study: Breinlinger had portfolio exposure to OfferUp and Upwork, the failure labels have no stated method, and the essay gives no liquidity, retention, acquisition-cost, revenue, or profitability data. Three unique diagrams were retained at their semantic positions; a duplicate thumbnail and decorative Tumblr avatar were omitted.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Airbnb",
+        "Craigslist",
+        "JoshBreinlinger",
+        "MarketplaceRebundling",
+        "OfferUp",
+        "Thumbtack",
+        "Upwork"
       ]
     }
   ],

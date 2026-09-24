@@ -1212,6 +1212,25 @@
     },
     {
       "global_candidate": true,
+      "id": "marketplace-wedges-may-need-category-rebundling",
+      "qualifications": [
+        "The evidence is one short 2017 investor essay rather than a marketplace cohort study, and its dead, dying, or pivoted annotations have no stated classification method.",
+        "The author had portfolio exposure to OfferUp and Upwork, and the proposed one-or-two-winner outcome is unsupported by liquidity, retention, acquisition-cost, revenue, profitability, or counterfactual data."
+      ],
+      "statement": "[[MarketplaceRebundling]] distinguishes a narrow marketplace entry wedge from a durable endpoint: the [[Craigslist]] retrospective argues that low transaction frequency, low ticket value, and limited user attention can favor broader category platforms such as [[OfferUp]], [[Thumbtack]], and [[Upwork]], while [[Airbnb]] shows that a sufficiently large and valuable segment can remain a major vertical.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "MarketplaceRebundling",
+        "Craigslist",
+        "OfferUp",
+        "Thumbtack",
+        "Upwork",
+        "Airbnb",
+        "JoshBreinlinger"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "organizational-coherence-links-talent-strategy-and-transfer",
       "qualifications": [
         "The evidence is one short, secondhand retrospective by an outside observer without deal-level results, retention series, research-transfer metrics, employee-performance evidence, or a full causal history.",

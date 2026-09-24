@@ -3527,3 +3527,11 @@ Added Analytics Vidhya's 2018 map of digital marketing channels, acquisition jou
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A Crowded Space, The Rebundling of Craigslist
+
+Added Josh Breinlinger's 2017 retrospective on Craigslist unbundling and created [[MarketplaceRebundling]] as the middle layer between one universal classifieds site and dozens of micro-vertical apps. Created [[JoshBreinlinger]] and [[OfferUp]], and updated [[Craigslist]], [[Upwork]], [[Thumbtack]], and [[Airbnb]] from their complete ordered source inventories. Preserved the main qualifications: the failure labels have no stated method, the one-or-two-winners claim is speculative, and Breinlinger's portfolio exposure to OfferUp and Upwork makes the favorable forecast interested rather than independent evidence. Retained three unique evidence-bearing diagrams and omitted a duplicate thumbnail and decorative Tumblr avatar.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

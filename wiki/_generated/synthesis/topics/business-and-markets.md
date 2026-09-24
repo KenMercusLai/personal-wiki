@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-24
-as_of_overview_commit: 4a654dd490d54ee94702cd4ad1ead07637fa10ec
-input_digest: 6217d47d2dd0629a97a87e9077cb5d3f4430b918e6c288ffffcc57e0a0feefab
+as_of_overview_commit: 6b20505d8dd53f28443f8c4cd16b3777c5130db4
+input_digest: 5984b6aa681ff4156f5c3cf65960178d4635510a9a266d532359d3d330b31f40
 ---
 
 # Business and Markets
@@ -696,6 +696,17 @@ The [[JellyButtonGames]] case extends [[CloudCostOptimization]] into analytics b
 
 - The evidence is one expert founder-programmer's private tool and does not show that typical users can safely build, operate, or maintain custom systems.
 - The forecast that standardized software or SaaS will disappear omits shared infrastructure, collaboration, security, compliance, interoperability, accessibility, support, and long-term maintenance costs.
+
+### Marketplace Wedges May Need Category Rebundling
+
+[[MarketplaceRebundling]] distinguishes a narrow marketplace entry wedge from a durable endpoint: the [[Craigslist]] retrospective argues that low transaction frequency, low ticket value, and limited user attention can favor broader category platforms such as [[OfferUp]], [[Thumbtack]], and [[Upwork]], while [[Airbnb]] shows that a sufficiently large and valuable segment can remain a major vertical.
+
+**Evidence:** [[MarketplaceRebundling]], [[Craigslist]], [[OfferUp]], [[Thumbtack]], [[Upwork]], [[Airbnb]], [[JoshBreinlinger]]
+
+**Qualifications:**
+
+- The evidence is one short 2017 investor essay rather than a marketplace cohort study, and its dead, dying, or pivoted annotations have no stated classification method.
+- The author had portfolio exposure to OfferUp and Upwork, and the proposed one-or-two-winner outcome is unsupported by liquidity, retention, acquisition-cost, revenue, profitability, or counterfactual data.
 
 ### Organizational Coherence Links Talent Strategy And Transfer
 

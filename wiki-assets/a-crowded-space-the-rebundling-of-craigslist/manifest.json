@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "a-crowded-space-the-rebundling-of-craigslist",
+  "images": [
+    {
+      "file": "craigslist-unbundling-map.png",
+      "alt": "Original Craigslist unbundling map linking narrow startups to individual classifieds sections"
+    },
+    {
+      "file": "failed-vertical-marketplaces.jpg",
+      "alt": "Craigslist unbundling map annotated with failed, dying, and pivoted vertical marketplaces"
+    },
+    {
+      "file": "broad-category-marketplace-winners.png",
+      "alt": "Proposed broad-category marketplace winners around the Craigslist category map"
+    }
+  ]
+}
