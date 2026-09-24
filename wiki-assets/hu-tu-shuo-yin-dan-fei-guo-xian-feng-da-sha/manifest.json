@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha",
+  "images": [
+    {
+      "file": "design-path-dependence.jpg",
+      "alt": "Horse carriage, steam carriage, and automobile illustrating how inherited assumptions shape new designs"
+    },
+    {
+      "file": "margaret-hamilton-apollo-code.webp",
+      "alt": "Margaret Hamilton standing beside stacked Apollo guidance software printouts"
+    },
+    {
+      "file": "fred-brooks-mythical-man-month.jpg",
+      "alt": "Fred Brooks beside The Mythical Man-Month and Brooks's law about adding people to a late project"
+    },
+    {
+      "file": "npm-dependency-complexity.png",
+      "alt": "Three cartoons comparing node_modules and npm dependencies to extremely heavy objects"
+    }
+  ]
+}

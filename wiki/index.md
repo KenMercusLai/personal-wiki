@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [银弹飞过先锋大厦](sources/hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha.md) - 胡涂说回顾软件工程从早期编程、开源与敏捷到云与 DevOps 的演进，并以 ChatGPT 编码实验提出又限定“大模型是银弹”的预测。
 - [关于前置引用现象，学习卡顿的根源](sources/hulatu-forward-reference-learning-friction.md) - 胡拉图的后花园把学习卡顿解释为非线性知识中的前置引用，并建议通过全局首轮、标记、预读和重点复习逐步闭合概念依赖。
 - [「人格蒸馏」是一种愚蠢的谎言 | 螺莉莉的数据中心](sources/ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's self-imitation experiment argues that persona “distillation” is role-card summarization, not personal reconstruction, and connects its limits to data generation, context capacity, retrieval, and traffic-driven farming.
 - [“Too many people already do what I want to do.”](sources/too-many-people-already-do-what-i-want-to-do-seanwes-tv-medium.md) - seanwes tv reframes crowded-field anxiety through selective comparison, competition as qualified demand evidence, personal voice, and direct investment in an early audience.
@@ -439,6 +440,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [胡涂说 (Hutusi)](entities/Hutusi.md) - 以软件工程史、第一性原理和 ChatGPT 编码实验讨论大模型时代开发模式的技术作者。
 - [胡拉图的后花园](entities/HuLaTuDeHouHuaYuan.md) - 中文作者，以编程中的前置引用类比自学卡顿，并提出多轮阅读与陌生项标记策略。
 - [seanwes tv](entities/SeanwesTV.md) - Creator-education publication combining market-entry encouragement, personal voice, and relationship-centered audience growth.
 - [LiveJournal](entities/LiveJournal.md) - Early journal-centered social platform whose technical and community innovation was constrained by operational strain, governance conflict, and ownership mismatch.
@@ -1364,6 +1366,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working software while managing quality, delivery time, cost, complexity, change, operation, and maintenance.
+- [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between difficulty inherent in understanding a problem and the machinery required to implement and operate its solution.
 - [Forward-Reference Learning](concepts/ForwardReferenceLearning.md) - Learning pattern in which a concept is encountered or used before its dependencies are fully explained, requiring temporary ambiguity and later review.
 - [Persona Distillation](concepts/PersonaDistillation.md) - Lossy compression of a person's recorded outputs into a role card that can guide imitation without reconstructing the person or their generating process.
 - [Community Governance Debt](concepts/CommunityGovernanceDebt.md) - Accumulated promises, precedents, informal decision rights, policy ambiguity, and distrust that make later platform change costly.

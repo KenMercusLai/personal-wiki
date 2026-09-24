@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
       "26b6a171316cb2e911fd11cdfeee3d35d34abf0eee0fcf30e76819d8c567e7d0",
       "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
       "3a51bb32fe14ec6d1b2c6e7f83d9f2cb5687f4bc970a6fe8fd76114b9c798524",
@@ -364,11 +365,32 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 362
+    "paragraph_count": 363
   },
-  "overview_commit": "60069c8643cc365d60280ef6e1c94f4db5895660",
-  "overview_digest": "c730641d94f95ca36fe3928258fc08308b94c0055989fdc1920dddf84589342f",
+  "overview_commit": "e8202f4f1694d0b7fd7645fcd038793fe2e5e4cc",
+  "overview_digest": "aa1c854d395aa981e820a515d3059d89938911967741fa36fc7a4e1c71634421",
   "paragraphs": [
+    {
+      "id": "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Hutusi]] source adds a long historical frame for [[SoftwareEngineering]] and makes the wiki's strongest LLM-coding forecast. It traces successive attempts to control software cost, quality, time, and change through abstraction, project management, structured and object-oriented programming, open-source collaboration, [[AgileSoftwareDevelopment]], cloud platforms, reusable components, and DevOps. [[EssentialAndAccidentalComplexity]] captures its central Brooks-derived distinction: tools can substantially reduce the machinery around implementation and delivery without necessarily removing the harder work of understanding a changing problem and coordinating a useful abstraction. A retained path-dependence illustration supports the warning against designing AI-era workflows from inherited assumptions; the Hamilton code-stack photograph, Brooks/book composite, and npm-dependency cartoons preserve historical and complexity context, while a decorative Ada Lovelace portrait was omitted. The source's small [[ChatGPT]] exercise genuinely demonstrates task-to-code leverage: staged prompts produced and explained a Next.js feature, refined its behavior, translated it to TypeScript, and supported debugging. But that same transcript qualifies the author's prediction that LLMs are the software \"silver bullet\": the human still decomposed the need, supplied local context, corrected copied omissions, debugged, and accepted the running result. [[AICodingPractice]] therefore records the case as evidence that models can compress translation work, not as proof that analysis, design, verification, maintainability, or ownership disappear.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AICodingPractice",
+        "AgileSoftwareDevelopment",
+        "ChatGPT",
+        "EssentialAndAccidentalComplexity",
+        "Hutusi",
+        "SoftwareEngineering"
+      ]
+    },
     {
       "id": "26b6a171316cb2e911fd11cdfeee3d35d34abf0eee0fcf30e76819d8c567e7d0",
       "primary_topic": "ai-and-technology",
