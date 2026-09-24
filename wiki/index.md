@@ -466,6 +466,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Amazon's New Customer](sources/amazons-new-customer-stratechery-by-ben-thompson.md) - Ben Thompson interprets Whole Foods as the anchor customer for a modular Amazon grocery-services platform built on the same fixed-cost and scale logic as AWS.
 - [Android Apps With More Than 2 Billion Total Downloads Are Committing Ad Fraud](sources/android-apps-with-more-than-2-billion-total-downloads-are-committing-ad-fraud.md) - Craig Silverman reports how eight high-download Android apps allegedly manipulated last-click install attribution through click injection, click flooding, permission access, and network concealment.
 - [Atlassian's $5.5 billion user onboarding magic](sources/atlassians-5-5-billion-user-onboarding-magic.md) - Jackson Noel argues that Atlassian's efficient self-service growth came from focused products and clear first actions more than exceptional onboarding polish.
+- [B2B Blog Post Ideas: Tried And True Ideas For B2B Brands](sources/b2b-blog-post-ideas-tried-and-true-ideas-for-b2b-brands.md) - A practitioner taxonomy of eight B2B post formats, linking search, instruction, evidence, debate, scanning, and company news to different audience and distribution jobs.
 
 ## Entities
 
@@ -2277,5 +2278,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.
 - [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, channel fit, and progression from responsive early audiences to competitive scaled reach.
 - [App Install Attribution Fraud](concepts/AppInstallAttributionFraud.md) - Manipulation of mobile click, install, and open signals to claim payment for demand an actor did not create.
+- [B2B Content Formats](concepts/B2BContentFormats.md) - Reusable brand-editorial structures selected for search discovery, instruction, evidence, debate, scanning, or relationship nurture.
 
 ## Syntheses

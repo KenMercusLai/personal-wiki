@@ -3715,3 +3715,11 @@ Added Mathias Pastor's candidate-side framework for detecting startups whose fun
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | B2B Blog Post Ideas: Tried And True Ideas For B2B Brands
+
+Added a 2018 practitioner taxonomy of eight B2B blog formats: search explainers, educational case studies, original-data analysis, new-concept thought leadership, exposés, list posts, instructional guides, and company updates. Created [[B2BContentFormats]] and updated [[ContentLedAcquisition]] from its complete ordered source inventory. Preserved the limits of selected success examples, underspecified performance claims, historical search and social conditions, missing scraped examples, and the distinction between audience nurture and durable acquisition. Inspected the sole local image, identified it as a branded title card whose text duplicates the article title, and omitted it as decorative without creating an asset manifest.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
