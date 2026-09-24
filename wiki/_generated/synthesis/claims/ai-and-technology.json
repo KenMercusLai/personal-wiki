@@ -142,9 +142,10 @@
       "id": "automation-can-industrialize-media-production",
       "qualifications": [
         "The news-bot account is one 2018-era observation of a single platform, with revenue the author estimates rather than measures, no follow-up on the named channels, and no count of displaced human work.",
-        "Topolsky's 2016 practitioner essay supplies no comparative publisher data or demonstrated economics for its quality-and-finite-audience alternative."
+        "Topolsky's 2016 practitioner essay supplies no comparative publisher data or demonstrated economics for its quality-and-finite-audience alternative.",
+        "RORIRI's extension from stolen-news pipelines to persona cards, AI music, and an ad-heavy video app is anecdotal and concerns unnamed operators, so it supports the incentive pattern more strongly than any specific allegation."
       ],
-      "statement": "Digital media technology changes production and distribution without solving audience value: [[AutomatedContentFarming]] makes scraped, machine-voiced publishing cheap enough to industrialize, while [[JoshuaTopolsky]] argues that video, bots, apps, algorithmic reach, and platform partnerships cannot rescue undifferentiated work. Per-view [[WebAdEconomics]] and [[PlatformDistributionDependence]] can reward volume without quality, sharpening [[AIEraCreativeStandards]], [[DigitalMediaMonetization]], and the [[PlatformAbuseResponse]] question for platforms such as [[YouTube]].",
+      "statement": "Digital media technology changes production and distribution without solving audience value: [[AutomatedContentFarming]] makes scraped, machine-voiced publishing cheap enough to industrialize and can also turn thin persona cards, synthetic media, or unreliable AI services into attention inventory, while [[JoshuaTopolsky]] argues that video, bots, apps, algorithmic reach, and platform partnerships cannot rescue undifferentiated work. Per-view [[WebAdEconomics]] and [[PlatformDistributionDependence]] can reward volume without fidelity or delivered value, sharpening [[AIEraCreativeStandards]], [[DigitalMediaMonetization]], and the [[PlatformAbuseResponse]] question for platforms such as [[YouTube]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "AutomatedContentFarming",
@@ -219,6 +220,21 @@
         "AgentMemory",
         "PersonalKnowledgeManagement",
         "InformationOverload"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "persona-simulation-fits-traces-not-generators",
+      "qualifications": [
+        "The evidence is one author's first-person experiment, the reported under-30-percent likeness has no operational metric, and the source does not establish a ceiling on future simulation quality or settle philosophical identity questions.",
+        "Retrieval can improve factual grounding, archival access, or disclosed role-play without reconstructing biography, embodiment, real-time stimulus, or experiential continuity."
+      ],
+      "statement": "[[PersonaDistillation]] separates summarizing a person's recorded traces, prompting an LLM performance, and reconstructing the person: visible style can be imitated, but a text archive and context window do not contain the full [[DataGeneratingProcess]] that produced it, and [[RetrievalAugmentedGeneration]] improves access to records rather than closing that identity gap.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "PersonaDistillation",
+        "DataGeneratingProcess",
+        "RetrievalAugmentedGeneration"
       ]
     },
     {

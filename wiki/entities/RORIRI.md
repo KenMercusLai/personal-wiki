@@ -9,15 +9,16 @@ sources:
   - li-jie-wu-cha-luo-li-li-de-shu-ju-zhong-xin
   - yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin
   - agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin
-last_updated: 2026-09-13
+  - ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, and UX research report design.
+[[RORIRI]] is the author of sources explaining Agent Experience, LLM terminology, context management, AI-era education, statistical reasoning, UX research report design, and the limits and incentives of persona simulation.
 
 ## Current Profile
-Within this wiki, RORIRI appears as an AI commentator and educator who connects practical agent tooling terms to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, and human agency. One source ties MCP, Skills, RAG, Memory, prompt caching, and Computer Use to the shared problem of shaping LLM context; the AX essay expands that frame into user input, internal state, external action, transparency, permissions, interface-delivered context, and humanistic agent design. The education source asks what abilities humans need when AI handles more execution; the statistics sources turn model thinking into concrete lessons about data generation, variance, covariance, orthogonality, regression error, residuals, omitted variables, and heteroskedasticity; and the UX research source shows how conflicting evidence can be arranged into an explanatory report structure.
+Within this wiki, RORIRI appears as an AI commentator and educator who connects practical agent tooling terms to broader questions of cognition, learning, statistical judgment, research interpretation, interface design, and human agency. One source ties MCP, Skills, RAG, Memory, prompt caching, and Computer Use to the shared problem of shaping LLM context; the AX essay expands that frame into user input, internal state, external action, transparency, permissions, interface-delivered context, and humanistic agent design. The education source asks what abilities humans need when AI handles more execution; the statistics sources turn model thinking into concrete lessons about data generation, variance, covariance, orthogonality, regression error, residuals, omitted variables, and heteroskedasticity; and the UX research source shows how conflicting evidence can be arranged into an explanatory report structure. A self-imitation experiment applies those same context and data-generation concerns to persona prompts, arguing that style reproduction and factual retrieval should not be mistaken for reconstruction of a person, and links shallow AI artifacts to traffic-driven content farming.
 
 ## Key Characteristics
 - Explains LLM tooling concepts through context management, action control, retrieval, memory, and active compression.
@@ -26,7 +27,7 @@ Within this wiki, RORIRI appears as an AI commentator and educator who connects 
 - Extends computational thinking for AI-era education through statistics, abstraction/programming, academic writing, and taste as problem sense.
 - Explains statistics through examples that distinguish data-generation assumptions, sample relationships, model error, residuals, inference uncertainty, and plausible explanations that blur diagnostics or target quantities.
 - Treats UX research reporting as information design, where data layers and contradictions require an explicit explanatory chain.
-- Critiques LLM sycophancy and proposes humanistic agent design that clarifies cognition, intent, and self-awareness.
+- Critiques LLM sycophancy and persona-resurrection rhetoric, proposing clearer boundaries around cognition, intent, identity, and model imitation.
 
 ## Evidence
 - Context frame: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] ties Skills, MCP, RAG, Memory, and Computer Use to context pollution and context limits.
@@ -44,13 +45,17 @@ Within this wiki, RORIRI appears as an AI commentator and educator who connects 
 - AX frame: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] divides Agent Experience into user-to-agent communication, agent internal state, and agent-to-world action.
 - Interface and permission design: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] argues for auditability, behavior alarms, tiered permissions, and interfaces that place timely diagnostics into an agent's observed context.
 - Humanistic AI: [[agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin]] criticizes unconditional agreement and proposes agents that ask why, challenge assumptions, and help users clarify their real next need.
+- Persona mechanism: [[ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin]] distinguishes role-card summarization and style imitation from model distillation or personal resurrection.
+- Self-experiment: [[ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin]] reports that extensive personal text reproduced surface format better than omitted traits and judgments.
+- Incentive critique: [[ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin]] connects thin persona repositories and unreliable AI products to traffic- and advertising-driven farming.
 
 ## Qualifications
-The wiki's RORIRI evidence is still limited to explanatory essays and a practitioner UX research case rather than formal specifications, empirical education research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, or validated agent-safety standards.
+The wiki's RORIRI evidence is still limited to explanatory essays, a practitioner UX research case, and a first-person persona experiment rather than formal specifications, empirical education research, statistical textbooks, broad benchmarks, peer-reviewed UX-method studies, or validated agent-safety standards. The persona article's fit percentage and allegations about unnamed farmers are subjective and should not be treated as performance measurements or independently established misconduct.
 
 ## What Changed
 - Added RORIRI's UX research article as evidence that their teaching style also covers report architecture, mixed-method interpretation, and cognitive explanations for contradictory usability findings.
 - Added the full Agent Experience essay as evidence that RORIRI connects agent tooling to interface design, permissions, transparency, sycophancy, and humanistic AI.
+- Added RORIRI's self-imitation experiment and critique of persona-distillation rhetoric, context limits, and traffic-driven AI farming.
 
 ## Relationships
 - [[LLMContextManagement]] - RORIRI uses this as the unifying frame for LLM tooling terms.
@@ -73,3 +78,6 @@ The wiki's RORIRI evidence is still limited to explanatory essays and a practiti
 - [[AgentInterfaceAsContext]] - RORIRI treats interfaces as mechanisms for delivering context to agents.
 - [[LLMSycophancy]] - RORIRI critiques uncritical agreement as a reasoning and safety risk.
 - [[HumanisticAgentDesign]] - RORIRI proposes clarification and assumption-checking as a design value.
+- [[PersonaDistillation]] - RORIRI treats persona cards as lossy summaries for imitation rather than reconstructions of a person.
+- [[DataGeneratingProcess]] - RORIRI uses accumulated history and real-time stimuli to explain the limits of output fitting.
+- [[AutomatedContentFarming]] - RORIRI connects shallow AI artifacts and unreliable ad-driven services to attention incentives.

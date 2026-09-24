@@ -3467,3 +3467,7 @@ Added a reading note that frames Zettelkasten as an external thinking and writin
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | 「人格蒸馏」是一种愚蠢的谎言 | 螺莉莉的数据中心
+
+Added RORIRI's self-imitation experiment and critique of persona “distillation.” Created [[PersonaDistillation]], extended [[DataGeneratingProcess]] from observed statistical outcomes to the source's human-output analogy, updated [[RORIRI]], and broadened [[AutomatedContentFarming]] from automated plagiarism to thin prompt, media, and app production optimized for attention over fidelity or delivered value. Preserved the main limits: the “under 30%” fit is a subjective self-rating, the identity argument is conceptual rather than a benchmark, and the farming examples about unnamed operators are anecdotal allegations rather than independently verified misconduct. The source contains no image references, so no visual assets or manifest were created.

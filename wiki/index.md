@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [「人格蒸馏」是一种愚蠢的谎言 | 螺莉莉的数据中心](sources/ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's self-imitation experiment argues that persona “distillation” is role-card summarization, not personal reconstruction, and connects its limits to data generation, context capacity, retrieval, and traffic-driven farming.
 - [“Too many people already do what I want to do.”](sources/too-many-people-already-do-what-i-want-to-do-seanwes-tv-medium.md) - seanwes tv reframes crowded-field anxiety through selective comparison, competition as qualified demand evidence, personal voice, and direct investment in an early audience.
 - [“The Linux of social media”—How LiveJournal pioneered (then lost) blogging](sources/the-linux-of-social-media-how-livejournal-pioneered-then-lost-blogging-ars-technica.md) - Steven T. Wright traces LiveJournal's feature leadership and community value alongside infrastructure strain, governance debt, policy conflict, acquisition mismatch, and failure to adapt to public-feed social media.
 - [“How-do-you-feel dinners” - Thinking about Startups](sources/how-do-you-feel-dinners-thinking-about-startups.md) - A recurring founder check-in surfaces personal pressures before work and strategy, sometimes clarifying that separation is healthier than continued drift.
@@ -1255,7 +1256,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Replit](entities/Replit.md) - Browser-based coding environment used to run the tutorial without local setup.
 - [Readlang](entities/Readlang.md) - Language-learning web app used as a one-person bootstrapped startup case.
 - [Reuters Corpus](entities/ReutersCorpus.md) - News-text corpus used as the training data for the tutorial's trigram language model.
-- [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM terminology, AI-era education, and statistical reasoning.
+- [RORIRI](entities/RORIRI.md) - AI commentator and educator explaining LLM systems, AI-era learning, statistical reasoning, UX evidence, and persona-simulation limits.
 - [Sanad Rizvi](entities/SanadRizvi.md) - Analytics Vidhya author explaining language modeling through N-grams, neural models, and GPT-2.
 - [Simon Späti](entities/SimonSpati.md) - Writer warning that indiscriminate AI use can erode manual writing, coding, thinking, and learning practice.
 - [Jamovi](entities/Jamovi.md) - Open-source statistics software used as RORIRI's UX research case for reconciling subjective ratings, behavior errors, PURE walkthroughs, and heuristic findings.
@@ -1361,6 +1362,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Persona Distillation](concepts/PersonaDistillation.md) - Lossy compression of a person's recorded outputs into a role card that can guide imitation without reconstructing the person or their generating process.
 - [Community Governance Debt](concepts/CommunityGovernanceDebt.md) - Accumulated promises, precedents, informal decision rights, policy ambiguity, and distrust that make later platform change costly.
 - [Technology Transition Strategy](concepts/TechnologyTransitionStrategy.md) - Choosing how directly to commit to an emerging ecosystem or architecture while bounding compatibility, migration, and retirement costs.
 - [Strategic Job Mobility](concepts/StrategicJobMobility.md) - Deliberate employer changes pursued for learning, responsibility, fit, or market position rather than a fixed switching timer.
@@ -1955,7 +1957,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creative Presence](concepts/CreativePresence.md) - Receptive, relaxed creative attention that prepares the conditions for inspiration and turns it into a complete work.
 - [Cleartext Protocol Exposure](concepts/CleartextProtocolExposure.md) - Security risk created when credentials, commands, or sensitive data traverse a network without transport encryption.
 - [Database Service Exposure](concepts/DatabaseServiceExposure.md) - Risk created when database, cache, search, or storage services are reachable with weak authentication, unsafe configuration, or application abuse paths.
-- [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, and noise that produces observed data.
+- [Data Generating Process](concepts/DataGeneratingProcess.md) - Assumed system of factors, interactions, history, context, and noise that produces observed outputs.
 - [Data Monetization](concepts/DataMonetization.md) - Turning collected or inferred data into economic value by improving targeting, recommendation, allocation, label trading, and related business decisions.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
@@ -2153,7 +2155,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [VO2 Max](concepts/VO2Max.md) - Maximum oxygen uptake metric used to connect cardiovascular fitness, age-related decline, and later-life activity capacity.
 - [Cardiorespiratory Fitness](concepts/CardiorespiratoryFitness.md) - Aerobic capacity frame in which higher fitness creates more reserve for future activities such as stair climbing.
 - [VPLS](concepts/VPLS.md) - Multipoint Ethernet L2VPN service whose IOS XR passthrough mode does not insert dummy VLAN tags in the source.
-- [Automated Content Farming](concepts/AutomatedContentFarming.md) - Programmatic harvesting of third-party articles and images into high-volume, ad-monetized content on a distribution platform.
+- [Automated Content Farming](concepts/AutomatedContentFarming.md) - High-volume, low-cost production optimized for platform attention or advertising while judgment, originality, fidelity, or delivered user value remain weak.
 - [Technology Enabler Stack](concepts/TechnologyEnablerStack.md) - Widely available platform capabilities whose maturity decides whether a product idea can be built usefully and adopted broadly at a given time.
 
 - [Incremental Framework Upgrade](concepts/IncrementalFrameworkUpgrade.md) - Migration strategy that keeps old and new framework versions runnable, advances through CI compatibility milestones, and uses staged production evidence.

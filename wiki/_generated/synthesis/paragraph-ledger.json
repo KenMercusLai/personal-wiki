@@ -296,6 +296,7 @@
       "17ec4fbc01ecec3c2f79567a77302cf01c83e0439e4823de606adb084036fd5d",
       "831f85cea8b14e68e607df4d033e07681acfc7be15cadd9acf7aa383e5ac06d6",
       "75c3ac7ce3d5703e46ad3997d62c211153096d904ed1a39a766099376999f92e",
+      "289da69d652e50211ef16c92ca4d277af391ebabf6d2445ce6ceba4e4dec3221",
       "b1bc2fd4549cecb6ed6cbfc03ad9c7bea19201062b05a0e8ba469b3240c914b2",
       "f5ba49764d48c9bb59fb7c3a2ba7ae522a4312e10db8e3905b6f48a62be84791",
       "3bd8931204006eb3ce6c887dd07782cc64436cf19a1278708169c00cd0339f31",
@@ -362,10 +363,10 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 360
+    "paragraph_count": 361
   },
-  "overview_commit": "57420eb895a74b82598047bb2e65daee951883b8",
-  "overview_digest": "76e078636c68d80543228a37384229436a9309e62893932a19468ea13a04482c",
+  "overview_commit": "e9d76e53cf688495c11bd578fe370f29495a5cbe",
+  "overview_digest": "32331a397ae2c20e249a680ff8a3ec96fa52f7e40e58ea85e17d8b4cfaec3284",
   "paragraphs": [
     {
       "id": "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
@@ -6066,6 +6067,23 @@
         "HumanisticAgentDesign",
         "LLMContextManagement",
         "LLMSycophancy"
+      ]
+    },
+    {
+      "id": "289da69d652e50211ef16c92ca4d277af391ebabf6d2445ce6ceba4e4dec3221",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest RORIRI persona source adds [[PersonaDistillation]] as a limit case for context engineering and statistical model thinking. Its central distinction is between summarizing traces, prompting a performance, and reconstructing the person who produced those traces: message length, emoji, vocabulary, and other visible regularities may be imitated, but a textual archive does not contain the full [[DataGeneratingProcess]] of biography, embodiment, environment, and real-time stimulus. The author's experiment used public writing and nearly ten years of chats yet still received only a subjectively “under 30%” likeness, so that number is evidence of dissatisfaction rather than a benchmark. [[RetrievalAugmentedGeneration]] can improve factual access without closing the identity gap, while context capacity and lossy summarization create further limits. The essay also broadens [[AutomatedContentFarming]] from stolen-news pipelines toward thin celebrity role-card repositories, synthetic-media volume, and ad-heavy AI services, but those broader examples are anecdotal and unnamed; the durable claim is about incentives that reward scale and attention over fidelity or delivered value, not an independently established accusation against a specific operator.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AutomatedContentFarming",
+        "DataGeneratingProcess",
+        "PersonaDistillation",
+        "RetrievalAugmentedGeneration"
       ]
     },
     {

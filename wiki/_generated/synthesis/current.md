@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 57420eb895a74b82598047bb2e65daee951883b8
+as_of_overview_commit: e9d76e53cf688495c11bd578fe370f29495a5cbe
 summary: "Durable outcomes require grounded evidence, explicit tradeoffs, inspectable systems, coherent organizations, and accountable human judgment."
-episode_count: 426
-source_count: 426
-paragraph_count: 360
+episode_count: 427
+source_count: 427
+paragraph_count: 361
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress joins system understanding, scope-aware architecture, verification near change, reliable operations, and inspectable AI context, tools, authority, recovery, and human ownership.
+Durable technical progress joins system understanding, verification near change, reliable operations, inspectable context and retrieval, and human ownership; persona simulation adds that fitting recorded traces is not reconstructing their generator.
 
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]].
 - Systems reasoning starts with clear execution, communication, and lifecycle models: [[ConcurrentProgramming]] interleaves scheduled work, [[ParallelProgramming]] uses multiple cores, [[DistributedProgramming]] coordinates networked machines, [[InterprocessCommunication]] choices shape consistency and failure risk, and [[ServiceLifetimeBackgroundTasks]] use [[FastAPI]] plus [[PythonConcurrencyLibraries|asyncio]] to bind suitable in-process coroutine work to service startup and cancellation rather than the durability semantics of [[TaskQueueDesign]]. Evidence: [[ConcurrentProgramming]], [[ParallelProgramming]], [[DistributedProgramming]], [[InterprocessCommunication]], [[MessagePassing]], [[ConcurrencyFailureModes]], [[PythonConcurrencyLibraries]], [[ServiceLifetimeBackgroundTasks]], [[FastAPI]], [[TaskQueueDesign]].
 
 ### Business and Markets
 
-Companies turn scarce resources into durable advantage when demand, incentives, ownership, founder alignment, technology transitions, culture, talent, portfolio focus, research transfer, platform identity, governance, reliability, metrics, and retained value are explicit and tested.
+Companies turn scarce resources into durable advantage when demand, incentives, ownership, founder alignment, technology transitions, culture, talent, portfolio focus, research transfer, governance, and retained value are explicit and tested.
 
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
 - [[ZebraCompanies]] and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: because capital expectations can shape culture, strategy, user experience, and social outcomes, [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible time horizons, ownership and governance terms, legal structures, institutional adoption work, role models, and peer infrastructure rather than unicorn-style growth and exit pressure alone. Evidence: [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]].
@@ -68,7 +68,7 @@ The bounded topic is mainly technical and institutional history: visible practic
 
 ### Psychology and Personal Development
 
-Progress depends on context-sensitive attention, calibrated judgment, representative evidence, incentives, relationships, candid but safe conflict processing, feedback, and environments whose standards and corrective capacity preserve safety and access.
+Progress depends on context-sensitive attention, calibrated judgment, representative evidence, incentives, relationships, candid but safe conflict processing, feedback, and environments that preserve safety and access.
 
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products and [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]].
 - [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; the leave-policy case adds that ambiguity and guilt can steer behavior as strongly as explicit rewards. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
@@ -81,7 +81,7 @@ This heterogeneous topic offers source-scoped scientific-computing, language-mod
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, audience-aware creative positioning, and career choices that weigh learning and future options against real market and switching constraints.
+Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, audience-aware creative positioning, and career choices that weigh learning against real constraints.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].
