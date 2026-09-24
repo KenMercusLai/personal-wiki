@@ -3543,3 +3543,15 @@ Added FundersClub's practitioner guide to selecting and maintaining a founding p
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A Manager’s FAQ
+
+Added Henry Ward's 2016 eShares management doctrine and created [[ManagerialResponsibility]] around strength-based feedback, diagnostic curiosity, developmental delegation, upward problem ownership, self-evaluation, influence, and accountable exits. Created [[JoshuaMerrill]] and updated [[EShares]], [[HenryWard]], [[ContinuousWorkplaceFeedback]], and [[CompassionateManagement]] from their complete ordered source inventories. Preserved the central qualifications that the essay is a founder-authored operating philosophy rather than outcome evidence, that strength development cannot displace correction of harmful work, and that sincere managerial judgment does not replace documentation, employee response, anti-bias controls, accommodation, policy, or law. All three unique local assets were opened: the decorative title illustration and its thumbnail duplicate were omitted, while the small feedback-comparison graphic was retained canonically with its evidentiary limits recorded.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ sources:
   - why-we-dont-have-performance-reviews
   - eshares-101-owners-manual-blog-by-carta-medium
   - a-101-on-1-1s-labs
+  - a-managers-faq-owners-manual-blog-by-carta-medium
 last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
@@ -22,12 +23,14 @@ The eShares account broadens the model beyond the direct manager. Employees walk
 
 The Spotify account supplies a complementary structure for cases where an open agenda and silence do not surface concerns. After using an A3 process to clarify the purpose of one-on-ones, the author organized them around five areas: trust, sensitive or private discussion and personal feedback, career development, team reflection and happiness, and product vision or direction. The author reports that this framing quickly surfaced product disagreement, interpersonal problems, and boredom that had not appeared in other forums. Together, the sources suggest that employee ownership and attentive listening can coexist with explicit purpose: structure can provide prompts and a stopping rule without turning the meeting into a status review.
 
+Ward's management FAQ adds a performance-diagnosis layer. It recommends reinforcing strong work, beginning negative feedback with genuine curiosity about the employee's reasoning, and testing whether an error reflects unclear communication or missing training. It also treats self-evaluation as a capability managers should develop: the employee offers an assessment first and the manager responds with perspective. This strengthens the case for feedback that builds judgment, but the essay's claim that most failure belongs to management is a useful inquiry posture rather than a complete causal rule.
+
 ## Key Claims
-- Frequent conversations reduce the delay and recall burden built into annual reviews.
+- Frequent conversations reduce the delay and recall burden built into annual reviews, while strength-specific recognition can reinforce effective behavior close to the work.
 - Employee-owned agendas can surface achievements, challenges, and development needs, while explicit purpose areas can help when a wholly open agenda produces silence.
 - Mentor one-on-ones and peer masterminds provide different kinds of support and should not be treated as interchangeable.
 - Regular coaching can give managers signals about workflow and structure while giving employees advice, reflection, and accountability.
-- Question-led listening aims to strengthen the employee's judgment and motivation rather than create dependence on the coach's answer.
+- Question-led listening and employee-first self-evaluation aim to strengthen judgment and motivation rather than create dependence on a coach's answer or institutional grade.
 - Skip-level and executive one-on-ones can strengthen relationships across organizational layers, but their purpose and confidentiality need clarity.
 - Continuous feedback is an evolving operating practice, not a complete substitute for every evaluation, pay, promotion, or accountability process.
 
@@ -42,14 +45,19 @@ The Spotify account supplies a complementary structure for cases where an open a
 - Purpose framework: [[a-101-on-1-1s-labs]] organizes one-on-ones around trust, private feedback, career development, team and happiness reflection, and product direction.
 - Surfacing hidden concerns: [[a-101-on-1-1s-labs]] reports that the framework exposed a product disagreement, interpersonal conflict, and boredom that had not emerged through retrospectives or open-ended conversation.
 - Conversation boundary: [[a-101-on-1-1s-labs]] treats the five purposes as prompts and as a stopping rule once the relevant areas and spontaneous topics are exhausted.
+- Strength reinforcement: [[a-managers-faq-owners-manual-blog-by-carta-medium]] recommends identifying strong work rather than concentrating feedback almost entirely on mistakes.
+- Diagnostic feedback: [[a-managers-faq-owners-manual-blog-by-carta-medium]] begins negative feedback with curiosity and distinguishes mistaken managerial judgment from employee misunderstanding and missing training.
+- Self-evaluation: [[a-managers-faq-owners-manual-blog-by-carta-medium]] asks employees to assess their own work before the manager supplies perspective.
 
 ## Counterevidence & Qualifications
-The evidence comes from three company-published practitioner accounts and relies on intended practice and operating experience rather than measured comparisons. None shows whether the approach improved performance, retention, promotion fairness, pay equity, well-being, or manager consistency. The Spotify report covers one manager's immediate experience and does not include employee perspectives or sustained outcomes. Employee-led agendas may leave avoided topics unspoken, but manager-provided prompts can become an interrogation or covert status review if they override employee priorities. Optional peer sessions require trust, overlap, and psychological safety; personal disclosure can become intrusive if expected. Product conflict and private life concerns also need clear confidentiality, follow-through, and escalation boundaries, especially in skip-level or executive conversations.
+The evidence comes from four company-published practitioner accounts and relies on intended practice and operating experience rather than measured comparisons. None shows whether the approach improved performance, retention, promotion fairness, pay equity, well-being, or manager consistency. The Spotify report covers one manager's immediate experience and does not include employee perspectives or sustained outcomes. Employee-led agendas may leave avoided topics unspoken, but manager-provided prompts can become an interrogation or covert status review if they override employee priorities. Optional peer sessions require trust, overlap, and psychological safety; personal disclosure can become intrusive if expected. Product conflict and private life concerns also need clear confidentiality, follow-through, and escalation boundaries, especially in skip-level or executive conversations. Strength-first feedback must not defer correction of harmful, unsafe, unethical, or repeatedly high-impact work. Assuming good intent can support inquiry, but managers still need evidence, clear expectations, and accountability; communication and training are not the only possible causes of poor performance.
 
 ## What Changed
 - Added a purpose-based one-on-one structure for cases where a fully open agenda does not surface concerns.
 - Extended the practice beyond development feedback to trust, team health, and product-direction discussion.
 - Added the distinction between supportive prompts and a manager-led interrogation or status review.
+- Added strength reinforcement, diagnostic curiosity, and employee-first self-evaluation as feedback practices.
+- Added boundaries for harmful work, evidence, expectations, and causes outside communication or training.
 
 ## Related Concepts
 - [[StartupCulture]] - recurring feedback rituals turn learning values into everyday practice.
@@ -60,3 +68,4 @@ The evidence comes from three company-published practitioner accounts and relies
 - [[FounderVisionAlignment]] - feedback systems cannot by themselves resolve deeper disagreement about the company being built.
 - [[EShares]] - source case for recurring manager, skip-level, and CEO listening walks.
 - [[Spotify]] - source case for purpose-guided manager-engineer one-on-ones.
+- [[ManagerialResponsibility]] - feedback quality depends on managers examining the conditions they created while preserving fair accountability.

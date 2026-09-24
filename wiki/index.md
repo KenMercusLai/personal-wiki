@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [A Manager’s FAQ](sources/a-managers-faq-owners-manual-blog-by-carta-medium.md) - Henry Ward frames management as strength amplification, diagnostic curiosity, developmental delegation, upward problem ownership, self-evaluation, influence, and accountable exits.
 - [A Guide to Co-founder Fit](sources/a-guide-to-co-founder-fit-fundersclub.md) - FundersClub treats founder fit as an evolving system of tested trust, complementary capability, role clarity, strategic and equity alignment, recurring candor, and mutual support.
 - [A Crowded Space, The Rebundling of Craigslist](sources/a-crowded-space-the-rebundling-of-craigslist.md) - Josh Breinlinger argues that many micro-vertical Craigslist unbundlers lacked sufficient frequency or transaction value, favoring broader category platforms while leaving room for large vertical exceptions such as Airbnb.
 - [A Comprehensive Guide to Digital Marketing and Analytics](sources/a-comprehensive-guide-to-digital-marketing-and-analytics.md) - Analytics Vidhya maps digital marketing from media channels and auction mechanics through tagging, programmatic infrastructure, DMP targeting, identity resolution, and profit-linked campaign analytics.
@@ -447,6 +448,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Joshua Merrill](entities/JoshuaMerrill.md) - eShares product leader used by Henry Ward to illustrate why senior management depends on influence rather than command.
 - [FundersClub](entities/FundersClub.md) - Venture-capital organization publishing practitioner guidance on co-founder fit and descriptive portfolio founder-count data.
 - [Josh Breinlinger](entities/JoshBreinlinger.md) - Marketplace investor and author of the Craigslist rebundling thesis, with disclosed portfolio exposure to OfferUp and Upwork.
 - [OfferUp](entities/OfferUp.md) - Broad local-commerce marketplace used as the for-sale category example in the rebundling thesis.
@@ -474,8 +476,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Terrible Software](entities/TerribleSoftware.md) - Software-engineering publication represented here by a practitioner essay framing ambiguity reduction as the foundation of senior work.
 - [Tony Stubblebine](entities/TonyStubblebine.md) - Productivity writer and coach who formulated interstitial journaling as a repeatable project-transition ritual.
 - [Kikcat](entities/Kikcat.md) - Developer-author analyzing high-concurrency ecommerce inventory through database contention, Redis coordination, event-driven reconciliation, and failure recovery.
-- [eShares](entities/EShares.md) - Growth-stage software company whose 2015 employee course linked culture, leverage, management, finance, and compensation.
-- [Henry Ward](entities/HenryWard.md) - eShares chief executive and author-instructor of the eShares 101 course.
+- [eShares](entities/EShares.md) - Growth-stage software company whose founder-authored operating model links culture and leverage with upward managerial responsibility.
+- [Henry Ward](entities/HenryWard.md) - eShares chief executive advocating strength-based feedback, diagnostic curiosity, developmental delegation, influence, and humane exits.
 - [Brie Code](entities/BrieCode.md) - Game designer and studio founder advocating participatory, care-centered interactive experiences for people excluded by dominant game conventions.
 - [Cyle](entities/Cyle.md) - Tumblr engineer who frames code review as contextual coaching, durable explanation, timely follow-up, and respectful collaboration.
 - [Tumblr](entities/Tumblr.md) - Historical engineering setting for a large multilingual codebase using pull requests, peer approval, automated checks, and round-robin reviewers.
@@ -1380,6 +1382,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Managerial Responsibility](concepts/ManagerialResponsibility.md) - Leadership model in which authority increases the obligation to develop others, absorb difficult work, diagnose failures, and own fair personnel decisions.
 - [Co-Founder Fit](concepts/CoFounderFit.md) - Evolving compatibility among founders across trust, values, capabilities, roles, ambition, economics, communication, and support.
 - [Marketplace Rebundling](concepts/MarketplaceRebundling.md) - Consolidation of narrow marketplace use cases into broader category platforms when frequency, transaction value, shared liquidity, and limited user attention favor breadth.
 - [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, cookie, or partner identifiers to a durable person-level identity for recognition and targeting, with heightened privacy risk.
@@ -1456,7 +1459,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.
 - [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing relationships, communities, mentors, and information inputs according to the direction in which one wants to grow.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
-- [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring conversations for trust, development, feedback, team health, and organizational context rather than one annual rated review.
+- [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring, curiosity-led conversations that combine listening, explicit purpose, strength recognition, and employee self-evaluation.
 - [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
 - [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
 - [Contextual Technology Selection](concepts/ContextualTechnologySelection.md) - Practice of comparing a technology's historical priorities, tradeoffs, and scale assumptions with the adopter's actual problem.
@@ -1797,7 +1800,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Scaling Communication](concepts/ScalingCommunication.md) - Move from informal shared context to explicit, repeated, written, staged, and broadcast communication as organizations grow or handle sensitive change.
 - [CEO Scaling Role](concepts/CEOScalingRole.md) - Evolution of CEO work from direct doing toward strategy, culture, senior hiring, coaching, communication, and obstacle removal.
 - [Co-CEO Leadership](concepts/CoCEOLeadership.md) - Shared executive-leadership structure where two or more top leaders divide responsibility, monitor each other, and sustain unified decisions.
-- [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into action, trust, conflict reduction, coaching, and humane accountability.
+- [Compassionate Management](concepts/CompassionateManagement.md) - Leadership practice that turns perspective-taking into coaching and humane accountability while preserving fair process.
 - [Economic Graph](concepts/EconomicGraph.md) - LinkedIn platform vision for representing workers, companies, jobs, skills, education, and published knowledge to expand economic opportunity.
 - [Talent Density](concepts/TalentDensity.md) - Concentration of strong performers treated as enabling freedom, low bureaucracy, and strong culture.
 - [Employee Opportunity Design](concepts/EmployeeOpportunityDesign.md) - Organizational practice of giving employees meaningful responsibility so talent can become real contribution.

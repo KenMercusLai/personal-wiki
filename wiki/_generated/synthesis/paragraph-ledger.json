@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "87428a5ad66253bd8af32fecf23ad376a652ee536d7868ce97c155ec61aa5a4d",
       "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
       "7ab9f6bcecefaddc7d5f5385c6f60549b2242123c5e41f37f70f1cd284c08d92",
       "e1e1d421462dc4236875309c13ab895199c837c71eb7d046deb7bde6a122b4ce",
@@ -371,11 +372,32 @@
       "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750"
     ],
-    "paragraph_count": 369
+    "paragraph_count": 370
   },
-  "overview_commit": "66b1b3de83694d34aa95da5b17c3c623fc15e4da",
-  "overview_digest": "0728cdb8ae74d147cbc27f23e312078c0c321402fc20c0c7e67ea748973ef04f",
+  "overview_commit": "323f91d547c970536a4ae422a1979762b51b5fa1",
+  "overview_digest": "9600be8e7916b61810ff8a8321b003b4f6fea00d189651f56404a372d1bb7d15",
   "paragraphs": [
+    {
+      "id": "87428a5ad66253bd8af32fecf23ad376a652ee536d7868ce97c155ec61aa5a4d",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[HenryWard]] source adds [[ManagerialResponsibility]] as an eShares doctrine of authority without privilege. It connects strength-specific recognition, curiosity before criticism, managerial ownership of communication and training, delegation of desirable work, upward absorption of difficult problems, employee self-evaluation, and influence over command. [[ContinuousWorkplaceFeedback]] now includes a performance-diagnosis layer: ask for the employee's reasoning, test whether the manager is mistaken or support was insufficient, and let the employee assess their work before adding managerial perspective. [[CompassionateManagement]] gains a concrete but contested exit practice—explain the decision, apologize for hiring or support failures, listen, and offer an honest reference—while rejecting Ward's stronger implication that sincere managerial certainty can replace evidence or a good-faith correction process. The useful synthesis is responsibility direction, not a complete personnel system: strengths do not excuse unsafe, unethical, or repeatedly high-impact work, and humane decisions still need clear expectations, documentation, employee response, accommodation, anti-bias controls, policy, and law. The source is a founder-authored 2016 prescription without employee accounts or comparative outcomes. Of three unique local assets, the title art and duplicate thumbnail were omitted as decorative, while the small paired-pie comparison was retained only as support for the surrounding strengths-versus-errors example.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "CompassionateManagement",
+        "ContinuousWorkplaceFeedback",
+        "HenryWard",
+        "ManagerialResponsibility"
+      ]
+    },
     {
       "id": "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
       "primary_topic": "psychology-and-personal-development",
