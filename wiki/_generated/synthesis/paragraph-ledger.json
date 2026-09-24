@@ -380,12 +380,13 @@
       "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
-      "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed"
+      "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed",
+      "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115"
     ],
-    "paragraph_count": 380
+    "paragraph_count": 381
   },
-  "overview_commit": "a17108c65f601931b1dd215fcf1da3644ef3a8f0",
-  "overview_digest": "423350c5ee038e2eb201ff6df43cb2cce3d95702fae7b8d845fb0b496ff8d3c1",
+  "overview_commit": "eb9f4665f7eba2a531d04f6f2328cd1a16245c6b",
+  "overview_digest": "eb4ec85d837b63e41289ec75cd61767fba9f2be3d36c044b0969a177bf8c5961",
   "paragraphs": [
     {
       "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
@@ -7745,6 +7746,24 @@
         "RepeatableLearningFromHistory",
         "TuYouyou",
         "WorkHabits"
+      ]
+    },
+    {
+      "id": "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[AndrewChen]] source adds [[StartupDistributionStrategy]] as the missing bridge between [[ProductMarketFit]] and customer acquisition. A startup needs both a customer insight that creates value and a distribution insight that creates traction, ideally joined by product mechanics that expose, share, or invite: Dropbox folders, Uber rides, Substack publishing, and Zoom collaboration illustrate the pattern. The channel portfolio then progresses from small, relevant, responsive routes to larger, less responsive, more competitive ones, with product cadence constraining the choice—episodic use favors high-intent discovery, collaboration can support referrals, and commerce often uses paid or creator channels. This qualifies generic [[GrowthHacking]] and [[ViralLoops]] advice because most non-networked products cannot assume free distribution, early channels change and saturate, and platform waves can lend reach without creating durable independent demand. At scale, strong product value reasserts itself because organic usage and word of mouth lower blended [[CustomerAcquisitionCost]]. The framework is a practitioner thesis without comparative channel data, quantified responsiveness or saturation, or isolated attribution for its company examples. The sole remote image was opened and omitted as a decorative title card that repeats the article's text.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AndrewChen",
+        "CustomerAcquisitionCost",
+        "GrowthHacking",
+        "ProductMarketFit",
+        "StartupDistributionStrategy",
+        "ViralLoops"
       ]
     }
   ],

@@ -328,6 +328,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A Simple Way to Run a Sprint Retrospective](sources/a-simple-way-to-run-a-sprint-retrospective.md) - Mountain Goat Software's start-stop-continue workflow for generating, voting on, limiting, reviewing, and carrying forward sprint-retrospective actions.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
+- [Startups need dual theories on distribution and product/market fit. One is not enough](sources/andrew-chen-startups-need-dual-theories-on-distribution-and-product-market-fit.md) - Andrew Chen argues that startups must co-design customer value and distribution, then move from responsive niche channels toward competitive scale where product-driven organic demand matters most.
 - [The Dinner Party Jerk Test](sources/andrew-chen-the-dinner-party-jerk-test.md) - Andrew Chen argues that early founders should pitch team, earned secrets, proof points, and future upside more forcefully than ordinary social modesty permits.
 - [The Next Next Job, a framework for making big career decisions](sources/andrew-chen-the-next-next-job.md) - Andrew Chen argues that career moves should be evaluated by the next-next role they enable, the gaps they close, and the superpower they help build.
 - [10 years in the Bay Area – what I've learned](sources/andrewchen-10-years-in-the-bay-area.md) - Andrew Chen argues that durable relationships and writing compound, experts need fresh sight when technology cycles change, and exceptional companies are much rarer than startup attempts.
@@ -2247,5 +2248,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Personal Software](concepts/PersonalSoftware.md) - Software built around one person's exact workflow without necessarily taking on the generalization, scale, and support obligations of a multi-user product.
 
 - [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.
+- [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, channel fit, and progression from responsive early audiences to competitive scaled reach.
 
 ## Syntheses

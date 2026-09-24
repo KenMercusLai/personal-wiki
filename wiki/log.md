@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-25] ingest | Startups need dual theories on distribution and product/market fit. One is not enough
+
+Added Andrew Chen's framework for co-designing customer value and distribution, then progressing from small responsive channels toward larger competitive ones. Created [[StartupDistributionStrategy]] and updated [[ProductMarketFit]] and [[AndrewChen]] from their complete ordered source inventories. Preserved the limits of a practitioner thesis without comparative channel data, quantified channel thresholds, or isolated attribution for the company examples. Inspected the sole remote image and omitted it as a decorative title card that repeated the article title; no asset manifest was needed.
+
 ## [2026-09-24] ingest | An Updated Academic Workflow: Zotero & Obsidian
 
 Added Alexandra Phelan's 2023 practitioner workflow dividing academic research across Zotero, Obsidian, and Pandoc. Created [[AlexandraPhelan]], [[Zotero]], [[Pandoc]], and [[AcademicResearchWorkflow]]; updated [[Obsidian]] and [[ReadingNoteWorkflow]] to capture imported citekey-named literature notes, Markdown drafting, citation-aware DOCX export, and the distinction between comprehensive source capture and selective synthesis. The source acknowledges setup cost and provides no comparative outcome evidence. It contains no effective image references, so no visual assets were retained or left uninterpreted.
@@ -3641,5 +3645,9 @@ Ran lint. See lint-report.md for details.
 Added Andrew Chen's operational account of entering the Bay Area through warm introductions, advice-seeking, a purposeful project, useful domain expertise, focused subcommunities, and public writing. Updated [[AndrewChen]], [[SiliconValley]], [[ProfessionalRelationshipCompounding]], [[FounderNetworkBuilding]], and [[ProfessionalBlogging]] from their complete ordered source inventories. Preserved the limits of a retrospective practitioner account and the access, cost, monoculture, selection, and causality qualifications around Bay Area residence and high-volume networking. Inspected the sole remote image, identified it as a decorative futuristic title card, and omitted it without creating an asset manifest.
 
 ## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

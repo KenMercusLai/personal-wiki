@@ -364,7 +364,8 @@ sources:
   - alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian
   - amazons-new-customer-stratechery-by-ben-thompson
   - andrew-chen-how-to-break-into-silicon-valley
-last_updated: 2026-09-24
+  - andrew-chen-startups-need-dual-theories-on-distribution-and-product-market-fit
+last_updated: 2026-09-25
 ---
 # Overview
 
@@ -1132,9 +1133,13 @@ The newest AI-memory architecture note sharpens [[AgentMemory]] by separating pe
 
 The newest [[JamesClear]] source adds [[LuckAndEffortInSuccess]] as an attribution framework spanning comparison scale and time. Buffett's ovarian lottery makes birth, nationality, wealth, health, genes, timing, and connections part of the initial position rather than personal merit; Clear therefore argues that luck becomes more important when comparing radically different starting conditions or explaining extreme outcomes. Within a narrower reference class, choices, preparation, persistence, and [[WorkHabits]] become more discriminating, while the slope metaphor separates a partly controllable trajectory from an inherited intercept. [[TuYouyou]] supplies the interaction case: an ancient clue and historical setting were contingent, but systematic screening, returning to failed assumptions, low-temperature extraction, personal risk, and sustained research converted the lead into a usable antimalarial treatment. This complements [[RepeatableLearningFromHistory]] and [[BehavioralRiskJudgment]] by separating learnable behavior from unrepeatable context and skill from fortunate outcome. The synthesis keeps the model qualified: supposedly similar peers retain unequal constraints, early advantage compounds, severe shocks can overwhelm effort, action only raises the probability of opportunity, and the popular Tu narrative compresses team and institutional contributions. The sole local compass illustration was inspected and omitted as decorative.
 
+The newest [[AndrewChen]] source adds [[StartupDistributionStrategy]] as the missing bridge between [[ProductMarketFit]] and customer acquisition. A startup needs both a customer insight that creates value and a distribution insight that creates traction, ideally joined by product mechanics that expose, share, or invite: Dropbox folders, Uber rides, Substack publishing, and Zoom collaboration illustrate the pattern. The channel portfolio then progresses from small, relevant, responsive routes to larger, less responsive, more competitive ones, with product cadence constraining the choice—episodic use favors high-intent discovery, collaboration can support referrals, and commerce often uses paid or creator channels. This qualifies generic [[GrowthHacking]] and [[ViralLoops]] advice because most non-networked products cannot assume free distribution, early channels change and saturate, and platform waves can lend reach without creating durable independent demand. At scale, strong product value reasserts itself because organic usage and word of mouth lower blended [[CustomerAcquisitionCost]]. The framework is a practitioner thesis without comparative channel data, quantified responsiveness or saturation, or isolated attribution for its company examples. The sole remote image was opened and omitted as a decorative title card that repeats the article's text.
+
 ## Open Questions
 
 - How should empirical studies define a genuinely comparable peer group when estimating the relative effects of effort, habit, opportunity, and inherited advantage?
+- How can startups distinguish durable product-embedded distribution from temporary platform tailwinds or novelty-driven word of mouth?
+- What evidence should trigger a move from a responsive niche channel into a larger, less responsive channel without abandoning the learning advantage too early?
 - When does increasing exposure to opportunity produce useful learning, and when do unequal downside costs make repeated experimentation impractical?
 - When should an in-process lifespan-owned coroutine become a separately supervised or durable worker, and how should multi-process web deployments prevent duplicate execution?
 - How should AI-memory systems evaluate compaction loss, temporal correctness, conflict resolution, provenance quality, and retrieval usefulness together rather than optimizing similarity alone?
