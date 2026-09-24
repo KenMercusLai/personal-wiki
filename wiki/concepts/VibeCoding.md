@@ -8,7 +8,8 @@ sources:
   - yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua
   - blog-guangzhengli-vibe-coding-and-context-coding
   - write-less-code-be-more-responsible-orhuns-blog
-last_updated: 2026-09-23
+  - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,8 +25,10 @@ Guangzhengli adds a naming correction. The article argues that many debates conf
 
 Parmaksız adds an open-source trust perspective and a compact behavioral boundary: do not “vibe code and commit.” His concern is not that AI use invalidates software, but that cheap creation makes it easier to publish projects whose maintainers do not fully understand the code or cannot guarantee safe future releases. His mixed workflow preserves AI leverage while reserving final quality judgment and selected enjoyable implementation work for the human.
 
+Hu Yuanming supplies an extreme expert-user case close to the original no-review meaning: he deliberately avoids reading code beyond `CLAUDE.md`, runs multiple Claude Code sessions in parallel, and judges the system through task completion, tests, merges, and whether his private CEO tool works for him. The case shows how much infrastructure can sit underneath apparently effortless vibe coding—queues, worktrees, streamed logs, recovery rules, backups, persistent lessons, Plan Mode, and a custom control plane—but it does not resolve whether commit velocity or dispatch success produces maintainable software.
+
 ## Key Claims
-- Vibe coding's most visible effect is faster product iteration rather than only smarter models.
+- Vibe coding's most visible effect is faster product iteration and lower scope cost, but local activity measures such as commits or agent completions do not by themselves establish delivery value.
 - Command-line agents can produce a deeper vibe-coding experience than editor-bound AI when they understand and modify whole projects.
 - Planning is useful for existing systems and architecture-sensitive work, while exploratory prototypes may benefit from faster implementation-first loops.
 - Small, reviewable iterations and fine-grained natural-language implementation instructions usually beat large uncontrolled generations because they preserve understanding and rollback ability.
@@ -50,16 +53,16 @@ Parmaksız adds an open-source trust perspective and a compact behavioral bounda
 - Expert leverage: [[blog-guangzhengli-vibe-coding-and-context-coding]] contrasts the Leo case with @levelsio's AI-built flight-simulator example, where the builder's prior programming experience made takeover and repair more plausible.
 - Open-source trust: [[write-less-code-be-more-responsible-orhuns-blog]] describes the unease of adopting an impressive but visibly vibe-coded project without confidence that a future release will be safe or maintainable.
 - Workflow boundary: [[write-less-code-be-more-responsible-orhuns-blog]] rejects unreviewed commits while retaining AI for tedious or slow work and applying a final human quality pass.
+- Expert no-review case: [[hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong]] describes parallel Claude Code workers, a web task center, automated integration, and a personal application whose author intentionally does not inspect most generated code.
+- Hidden infrastructure: [[hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong]] documents worktree isolation, task state, streamed logs, merge and test recovery, `PROGRESS.md`, database backups, and Plan Mode beneath the fast conversational surface.
 
 ## Counterevidence & Qualifications
-The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, or human responsibility.
+The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's private single-user case benefits from deep expertise and intentionally avoids public-product burdens, so it cannot establish that routine non-review is safe for shared or consequential software. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, or human responsibility.
 
 ## What Changed
-- Created the concept page for vibe coding as an agent-driven, speed-amplified software work mode with practical guardrails.
-- Added the independent-developer source's risk-postponement warning and "Chinese as code" task-slicing pattern.
-- Added a large-system variant where vibe-coding acceleration is structured through Agent Team and harness design.
-- Added Guangzhengli's distinction between original no-review vibe coding and disciplined context coding.
-- Added the open-source stewardship boundary that rapid generation does not excuse unreviewed commits, weak maintainer understanding, or unsafe future releases.
+- Added an expert, single-user no-review case that demonstrates both extreme agent leverage and the infrastructure hidden beneath it.
+- Clarified that commit frequency and task-dispatch success are activity measures, not proof of delivered value, safety, or maintainability.
+- Strengthened the boundary between private disposable customization and public software stewardship.
 
 ## Related Concepts
 - [[AICodingPractice]] - vibe coding needs disciplined norms for human judgment, review, and maintainability.
@@ -71,3 +74,5 @@ The sources are personal practitioner accounts rather than comparative studies. 
 - [[AgentTeam]] - role separation is one way to scale vibe coding beyond a single agent conversation.
 - [[ContextCoding]] - proposed label for serious AI-assisted programming where context, review, and verification remain central.
 - [[OpenSourceProjectMaintenance]] - public release turns generated-code comprehension and future safety into maintainer obligations.
+- [[PersonalSoftware]] - single-user scope can make aggressive vibe coding cheaper while avoiding many public-product obligations.
+- [[BottleneckAwareAICoding]] - parallel agents move rather than eliminate constraints in planning, integration, review, and verification.

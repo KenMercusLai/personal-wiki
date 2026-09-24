@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong",
+  "images": [
+    {
+      "file": "mobile-ceo-editor.png",
+      "alt": "Mobile CEO support editor with document, voice input, mind-map, meeting, email, and news controls"
+    },
+    {
+      "file": "cursor-gpu-kernel-session.png",
+      "alt": "Cursor agent session editing and profiling a GPU matrix-multiplication kernel"
+    },
+    {
+      "file": "claude-task-lifecycle.png",
+      "alt": "Claude Code task lifecycle from queue pickup through isolated worktree, merge, testing, cleanup, and lesson capture"
+    },
+    {
+      "file": "parallel-worktree-architecture.png",
+      "alt": "Parallel Claude Code worktree architecture with isolated data and shared task, lock, and API-key files"
+    },
+    {
+      "file": "rebase-test-recovery.png",
+      "alt": "Recovery rules for resolving rebase conflicts and failed tests before a Claude Code task continues"
+    },
+    {
+      "file": "progress-memory-template.png",
+      "alt": "PROGRESS.md lesson template recording a problem, cause, avoidance rule, and commit ID"
+    },
+    {
+      "file": "claude-code-task-center.png",
+      "alt": "Claude Code task-center board showing queued, active, review, completed, failed, and cancelled work"
+    },
+    {
+      "file": "plan-mode-questions.png",
+      "alt": "Plan Mode review screen asking the user to choose news sources, update frequency, and notification behavior"
+    },
+    {
+      "file": "plan-mode-ui-spec.png",
+      "alt": "Plan Mode review showing a mobile voice-control UI specification and manual test strategy"
+    }
+  ]
+}

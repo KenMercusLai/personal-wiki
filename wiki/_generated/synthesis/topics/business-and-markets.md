@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-24
-as_of_overview_commit: 6c967f81dae97f42703981b75cb2512078423e4f
-input_digest: c16dedb6816a3ba41274172ba741838a013ad891e5f28e4986d82bda2c8ac2f1
+as_of_overview_commit: 49c70edcdb07ac9e75cb20a39dffb15163fc9040
+input_digest: 7869df847b1aadb61d9e93649f17b3d9b07f95881117f3819b16bc13af3431bb
 ---
 
 # Business and Markets
@@ -663,6 +663,17 @@ The [[JellyButtonGames]] case extends [[CloudCostOptimization]] into analytics b
 
 - The evidence is one concise 2017 secondary summary with no dataset, funnel calculation, experiment result, power analysis, guardrail metric, or post-test validation.
 - Funnel stages can hide non-linear user paths, dimensional searches can create false discoveries, and orthogonal traffic assignment does not guarantee independent treatment effects; local optimization also cannot originate every discontinuous product innovation.
+
+### Personal Software Removes Product Scope Not All Cost
+
+[[PersonalSoftware]] can lower scope cost by removing multi-user access, broad compatibility, scale, onboarding, and support requirements, as [[HuYuanming]] shows with a private CEO system built through a parallel [[ClaudeCode]] workflow; [[BottleneckAwareAICoding]] qualifies the result because commit and dispatch rates do not establish product value, defect rates, or maintainability.
+
+**Evidence:** [[PersonalSoftware]], [[HuYuanming]], [[ClaudeCode]], [[BottleneckAwareAICoding]]
+
+**Qualifications:**
+
+- The evidence is one expert founder-programmer's private tool and does not show that typical users can safely build, operate, or maintain custom systems.
+- The forecast that standardized software or SaaS will disappear omits shared infrastructure, collaboration, security, compliance, interoperability, accessibility, support, and long-term maintenance costs.
 
 ### Organizational Coherence Links Talent Strategy And Transfer
 

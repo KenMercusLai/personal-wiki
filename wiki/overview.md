@@ -348,6 +348,7 @@ sources:
   - ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin
   - hulatu-forward-reference-learning-friction
   - hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha
+  - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
 last_updated: 2026-09-24
 ---
 # Overview
@@ -1082,6 +1083,8 @@ The newest Nick Kolenda source adds [[VisualAttention]] as a context-sensitive b
 
 The newest Xavier Amatriain source adds [[Yahoo]] as a compound organizational-failure case rather than a single bad-decision story. [[TalentDensity]] becomes dynamic: weaker hiring, strong-employee departures, and managers who feel unable to correct team composition can reinforce one another. [[StartupFocus]] expands from founder attention and product scope into large-company portfolio discipline, because a broad "web" identity or stated mobile-ad direction does not guide tradeoffs while many unrelated initiatives continue. [[AcquisitionStrategy]] now holds a direct tension: [[MarissaMayer]] elsewhere describes acquisitions as a response to Yahoo's tiny mobile organization, while Amatriain argues that acquisition-led talent repair diluted focus and culture; a real local capability gap and poor company-wide integration can coexist. [[ResearchToProductTransfer]] separates prolific laboratory work from business impact, using [[Hadoop]] as a qualified example of technology associated with Yahoo but commercialized more visibly elsewhere. [[StartupCulture]] also gains an important semantic boundary: a "family" atmosphere can support disciplined customer intimacy at [[SmugMug]] or, in Amatriain's secondhand Yahoo account, comfort without impact-oriented accountability, while [[Netflix]]'s professional-team frame supplies a contrasting explicit standard. The source is an informed outsider's short retrospective with no deal data, research-transfer metrics, employee performance evidence, or full causal history, and it contains no image references.
 
+The newest [[HuYuanming]] source adds a high-concurrency practitioner case to the wiki's AI-coding cluster. [[ClaudeCode]] becomes a queue-driven worker pool: fresh non-interactive processes use worktrees, streamed JSON logs, explicit merge-and-test recovery, `CLAUDE.md`, `PROGRESS.md`, a web task center, and batched Plan Mode review, while [[MobileAgentDevelopment]] moves from resilient phone terminals to a purpose-built Safari control plane with [[AIVoiceInput]]. This sharpens [[BottleneckAwareAICoding]] because the author reports moving his constraint toward ideas and credits, yet the headline measures—commits per minute and dispatch success—do not establish defect rate, maintenance cost, delivery value, or safe operation when code review is intentionally skipped. New [[PersonalSoftware]] captures the narrower economic insight: a skilled owner can remove multi-user, scale, compatibility, and support requirements and build an exact private workflow more cheaply, without proving the stronger forecast that standardized software or SaaS will disappear. [[MeshyAI]] and [[TaichiProgrammingLanguage]] provide the founder and GPU-systems context for the account. Twelve remote images were opened; nine evidence-bearing editor, kernel, lifecycle, architecture, recovery, memory, dashboard, and Plan Mode screenshots were retained, while the volcano and street photographs and author/QR card were omitted as decorative or promotional.
+
 ## Open Questions
 
 - When should an in-process lifespan-owned coroutine become a separately supervised or durable worker, and how should multi-process web deployments prevent duplicate execution?
@@ -1192,6 +1195,8 @@ The newest Xavier Amatriain source adds [[Yahoo]] as a compound organizational-f
 - How should organizations measure whether AI-first role redesign improves product quality rather than only deployment frequency?
 - When does vibe coding benefit from planning-first collaboration, and when does a rough prototype teach more than extended planning?
 - How can developers measure when coding-agent speed is improving throughput versus creating overlarge diffs, weak understanding, or unsustainable pace?
+- Which outcome and maintenance metrics can distinguish a useful parallel coding-agent worker pool from activity inflation measured only by commits and task completions?
+- Which classes of personal software remain economical once data durability, security, interoperability, accessibility, and long-term maintenance are counted?
 - Which context-management tactics for coding agents have measurable effects on success rates, recovery quality, and token cost?
 - When does a coding-agent project benefit from a full Agent Team, and when do role boundaries, specs, and status documents add more overhead than value?
 - Which agent-generated regression snapshots catch meaningful drift without producing too much noisy review burden?

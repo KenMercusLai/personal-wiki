@@ -363,12 +363,13 @@
       "68f63124f54b2dc7aed207892c5aadbd77ffd5987554b3320bff58012f28b5ea",
       "46d7d21b5b431feb774605ec55771cf33dfe653b5ba5d78c7b83f6e7c7897076",
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
-      "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
+      "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
+      "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d"
     ],
-    "paragraph_count": 363
+    "paragraph_count": 364
   },
-  "overview_commit": "e8202f4f1694d0b7fd7645fcd038793fe2e5e4cc",
-  "overview_digest": "aa1c854d395aa981e820a515d3059d89938911967741fa36fc7a4e1c71634421",
+  "overview_commit": "49c70edcdb07ac9e75cb20a39dffb15163fc9040",
+  "overview_digest": "ed40d7018bffe7ea9946912746eb16c05154197c1015b2c49defe4d24af134e8",
   "paragraphs": [
     {
       "id": "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
@@ -7380,6 +7381,28 @@
         "StartupFocus",
         "TalentDensity",
         "Yahoo"
+      ]
+    },
+    {
+      "id": "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[HuYuanming]] source adds a high-concurrency practitioner case to the wiki's AI-coding cluster. [[ClaudeCode]] becomes a queue-driven worker pool: fresh non-interactive processes use worktrees, streamed JSON logs, explicit merge-and-test recovery, `CLAUDE.md`, `PROGRESS.md`, a web task center, and batched Plan Mode review, while [[MobileAgentDevelopment]] moves from resilient phone terminals to a purpose-built Safari control plane with [[AIVoiceInput]]. This sharpens [[BottleneckAwareAICoding]] because the author reports moving his constraint toward ideas and credits, yet the headline measures—commits per minute and dispatch success—do not establish defect rate, maintenance cost, delivery value, or safe operation when code review is intentionally skipped. New [[PersonalSoftware]] captures the narrower economic insight: a skilled owner can remove multi-user, scale, compatibility, and support requirements and build an exact private workflow more cheaply, without proving the stronger forecast that standardized software or SaaS will disappear. [[MeshyAI]] and [[TaichiProgrammingLanguage]] provide the founder and GPU-systems context for the account. Twelve remote images were opened; nine evidence-bearing editor, kernel, lifecycle, architecture, recovery, memory, dashboard, and Plan Mode screenshots were retained, while the volcano and street photographs and author/QR card were omitted as decorative or promotional.",
+      "topic_scores": {
+        "ai-and-technology": 4,
+        "business-and-markets": 2
+      },
+      "wikilinks": [
+        "AIVoiceInput",
+        "BottleneckAwareAICoding",
+        "ClaudeCode",
+        "HuYuanming",
+        "MeshyAI",
+        "MobileAgentDevelopment",
+        "PersonalSoftware",
+        "TaichiProgrammingLanguage"
       ]
     }
   ],

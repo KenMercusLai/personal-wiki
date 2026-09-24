@@ -186,10 +186,11 @@
       "global_candidate": true,
       "id": "agent-systems-need-simple-debuggable-harnesses",
       "qualifications": [
-        "Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, context hygiene, and verification rather than opaque handoff chains."
+        "Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, context hygiene, and verification rather than opaque handoff chains.",
+        "Hu Yuanming's queue-driven Claude Code case reports high commit and dispatch rates but intentionally skips routine code review, so it demonstrates local orchestration leverage rather than established delivery quality, safety, or maintainability."
       ],
-      "statement": "Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]], [[Cursor]], and [[GitHubCopilot]] are best judged by how they expose current project context and keep generated work reviewable.",
-      "status": "supported",
+      "statement": "Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand. [[HuYuanming]] extends [[ClaudeCode]] into a queue-driven worker pool with worktrees, streamed logs, durable lessons, mobile planning, and [[AIVoiceInput]], while [[BottleneckAwareAICoding]] keeps commit velocity distinct from delivery value and [[PersonalSoftware]] limits the strongest economics claim to a single-user scope.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "ClaudeCode",
         "Cursor",
@@ -199,7 +200,11 @@
         "AgenticRAG",
         "LLMContextManagement",
         "HarnessEngineering",
-        "ContextCoding"
+        "ContextCoding",
+        "HuYuanming",
+        "AIVoiceInput",
+        "BottleneckAwareAICoding",
+        "PersonalSoftware"
       ]
     },
     {

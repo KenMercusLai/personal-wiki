@@ -3487,3 +3487,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | 胡渊鸣 | 我给 10 个 Claude Code 打工
+
+Added Hu Yuanming's account of turning Claude Code into a mobile, queue-driven pool of parallel workers through EC2 isolation, worktrees, streamed logs, `CLAUDE.md`, `PROGRESS.md`, a web task center, voice input, and batched Plan Mode review. Created [[HuYuanming]], [[MeshyAI]], [[TaichiProgrammingLanguage]], and [[PersonalSoftware]], and updated [[ClaudeCode]], [[VibeCoding]], [[BottleneckAwareAICoding]], [[MobileAgentDevelopment]], and [[AIVoiceInput]]. Preserved the central qualifications that commit frequency and dispatch success are not delivery or quality measures, permissive execution and absent code review carry material risk, and the predicted end of standardized software is speculative. Opened all 12 remote images; retained nine evidence-bearing UI, architecture, workflow, and recovery screenshots and omitted three decorative or promotional images.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

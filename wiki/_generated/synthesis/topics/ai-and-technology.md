@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-24
-as_of_overview_commit: e8202f4f1694d0b7fd7645fcd038793fe2e5e4cc
-input_digest: de8b2bd3efbe37aedf474ab8a886efb81c173417ecd692e4858491de5036a244
+as_of_overview_commit: 49c70edcdb07ac9e75cb20a39dffb15163fc9040
+input_digest: 9e7cc64e83cc43ee5f011dc3bdadf27f4089b926a518f50a9146af50840403cf
 ---
 
 # AI and Technology
@@ -120,13 +120,14 @@ Digital media technology changes production and distribution without solving aud
 
 ### Agent Systems Need Simple Debuggable Harnesses
 
-Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand, so tools such as [[ClaudeCode]], [[Cursor]], and [[GitHubCopilot]] are best judged by how they expose current project context and keep generated work reviewable.
+Effective coding-agent systems depend on simple, debuggable harnesses: inspectable tools, context management, live retrieval, file-backed state, verification feedback, and loops that users can understand. [[HuYuanming]] extends [[ClaudeCode]] into a queue-driven worker pool with worktrees, streamed logs, durable lessons, mobile planning, and [[AIVoiceInput]], while [[BottleneckAwareAICoding]] keeps commit velocity distinct from delivery value and [[PersonalSoftware]] limits the strongest economics claim to a single-user scope.
 
-**Evidence:** [[ClaudeCode]], [[Cursor]], [[GitHubCopilot]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]], [[ContextCoding]]
+**Evidence:** [[ClaudeCode]], [[Cursor]], [[GitHubCopilot]], [[AgenticWorkflowPatterns]], [[CodingAgentMinimalTooling]], [[AgenticRAG]], [[LLMContextManagement]], [[HarnessEngineering]], [[ContextCoding]], [[HuYuanming]], [[AIVoiceInput]], [[BottleneckAwareAICoding]], [[PersonalSoftware]]
 
 **Qualifications:**
 
 - Large projects may still need role-specialized agents, but added agents need file-backed state, explicit responsibilities, context hygiene, and verification rather than opaque handoff chains.
+- Hu Yuanming's queue-driven Claude Code case reports high commit and dispatch rates but intentionally skips routine code review, so it demonstrates local orchestration leverage rather than established delivery quality, safety, or maintainability.
 
 ### Context And Retrieval Are Design Surfaces
 

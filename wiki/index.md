@@ -437,6 +437,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [You Should Plan On Switching Jobs Every Three Years For The Rest Of Your Life](sources/vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life.md) - Vivian Giang presents Patty McCord's three-to-four-year job-mobility heuristic as a route to faster learning while leaving its pay and performance claims unproven.
 - [“Hallway Debates”: A 2016 Product Manager Discussion Guide](sources/hallway-debates-a-2016-product-manager-discussion-guide-learning-by-shipping.md) - Steven Sinofsky connects forward-looking mobile, cloud, platform, research, security, open-source, and quality choices while warning that unbounded bridge architectures can become permanent complexity.
 - [《卡片笔记写作法》笔记](sources/ka-pian-bi-ji-xie-zuo-fa-bi-ji.md) - 一篇将卡片盒解释为从闪念和文献笔记到永久笔记、链接、主题发展与成稿的外部思考系统的读书笔记。
+- [胡渊鸣 | 我给 10 个 Claude Code 打工](sources/hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong.md) - 胡渊鸣记录如何用任务队列、Git worktree、流式日志、持久经验、网页管理器、语音输入和批量 Plan Mode 管理并行 Claude Code，并据此讨论个人软件与工程角色变化。
 
 ## Entities
 
@@ -1363,6 +1364,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [iamtrask](entities/Iamtrask.md) - Source-scoped author handle teaching neural-network mechanics through compact, inspectable NumPy examples.
 - [Lencx](entities/Lencx.md) - Author analyzing OpenClaw runtime architecture, agent ecosystems, reusable context artifacts, economics, and security.
 - [Moltbook](entities/Moltbook.md) - Agent-oriented social network and Skill ecosystem whose API-first participation is paired with provenance, verification, ranking, and credential risks.
+- [Hu Yuanming](entities/HuYuanming.md) - Founder-engineer associated with Taichi and Meshy AI who describes a queue-driven, mobile workflow for parallel Claude Code workers.
+- [Meshy AI](entities/MeshyAI.md) - 3D AI product and company providing the CEO and foundation-model context for Hu Yuanming's personal software account.
+- [Taichi Programming Language](entities/TaichiProgrammingLanguage.md) - GPU-oriented programming language and compiler created by Hu Yuanming for high-performance physical simulation.
 
 ## Concepts
 
@@ -2182,5 +2186,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Graph Modeling](concepts/GraphModeling.md) - Representation of entities and relationships as nodes and directed or undirected, optionally weighted edges.
 - [Backpropagation](concepts/Backpropagation.md) - Backward credit-assignment procedure that turns output error into earlier-layer deltas and parameter gradients.
 - [Headless Agent Architecture](concepts/HeadlessAgentArchitecture.md) - IM- or API-first agent runtime combining an event-driven daemon, tools, durable state, scheduled work, and explicit observability and permission controls.
+- [Personal Software](concepts/PersonalSoftware.md) - Software built around one person's exact workflow without necessarily taking on the generalization, scale, and support obligations of a multi-user product.
 
 ## Syntheses

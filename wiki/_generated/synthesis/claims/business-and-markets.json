@@ -1160,6 +1160,22 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "personal-software-removes-product-scope-not-all-cost",
+      "qualifications": [
+        "The evidence is one expert founder-programmer's private tool and does not show that typical users can safely build, operate, or maintain custom systems.",
+        "The forecast that standardized software or SaaS will disappear omits shared infrastructure, collaboration, security, compliance, interoperability, accessibility, support, and long-term maintenance costs."
+      ],
+      "statement": "[[PersonalSoftware]] can lower scope cost by removing multi-user access, broad compatibility, scale, onboarding, and support requirements, as [[HuYuanming]] shows with a private CEO system built through a parallel [[ClaudeCode]] workflow; [[BottleneckAwareAICoding]] qualifies the result because commit and dispatch rates do not establish product value, defect rates, or maintainability.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "PersonalSoftware",
+        "HuYuanming",
+        "ClaudeCode",
+        "BottleneckAwareAICoding"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "organizational-coherence-links-talent-strategy-and-transfer",
       "qualifications": [
