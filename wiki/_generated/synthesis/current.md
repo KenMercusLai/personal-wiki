@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: f05c7fe3722b2120a263fc31820dcff262612dd3
+as_of_overview_commit: 418ee7f0b0906792558b038e4008053e295058f5
 summary: "Across technology, organizations, markets, culture, and learning, durable outcomes require explicit goals, contextual evidence, feedback, and accountable ownership."
-episode_count: 431
-source_count: 431
-paragraph_count: 365
+episode_count: 433
+source_count: 433
+paragraph_count: 366
 topic_count: 9
 ---
 
@@ -35,7 +35,7 @@ Durable technical progress combines underlying-system understanding, benefits-fi
 
 ### Business and Markets
 
-Companies convert scarce resources into durable advantage through learning, retained customer value, coherent operating systems, and incentives matched to strategy. Architecture, reliability, culture, financing, product governance, and distribution are business capabilities whose value depends on explicit assumptions, context, and measured outcomes.
+Companies convert scarce resources into durable advantage through learning, retained customer value, coherent operating systems, and incentives matched to strategy. Architecture, reliability, culture, financing, product governance, distribution, and purpose-guided management conversations are business capabilities whose value depends on explicit assumptions, context, and measured outcomes.
 
 - [[SystemArchitecturePrinciples]] treats architecture as a business operating capability when it improves delivery throughput, service stability, and total human, time, or financial cost; [[ContextualTechnologySelection]] keeps mature ecosystem and staffing advantages subordinate to diagnosis and fit, while standard [[APIErrorHandling]] lets generic monitoring and recovery infrastructure act on failures. Evidence: [[SystemArchitecturePrinciples]], [[ContextualTechnologySelection]], [[APIErrorHandling]], [[ChenHao]].
 - [[VentureCapitalPortfolioSizing]] and [[VentureCapitalBlindSpots]] identify separate ways a fund can miss rare return-dominating companies: insufficient portfolio exposure can omit every outlier, while founder pattern matching, [[Homophily]], price anchoring, investor self-reference, groupthink, static [[MarketSizing]], premature category closure, and missed behavioral change can reject an outlier already in the funnel; diverse judgment, target-customer evidence, independent analysis, explicit upside scenarios, and attention to changing adoption curves are process safeguards rather than guarantees. Evidence: [[VentureCapitalPortfolioSizing]], [[VentureCapitalBlindSpots]], [[Homophily]], [[MarketSizing]].
@@ -67,7 +67,7 @@ The available historical material emphasizes path dependence, hidden maturation,
 
 ### Psychology and Personal Development
 
-Progress is treated as a context-sensitive problem of attention, trust, incentives, relationships, bias calibration, feedback, and evidence sequencing. Advice remains qualified by power, access, safety, motivation, social norms, and the limits of practitioner anecdotes.
+Progress is treated as a context-sensitive problem of attention, trust, incentives, relationships, bias calibration, feedback, and evidence sequencing. Purposeful conversations can help surface concerns, but advice remains qualified by power, access, safety, motivation, social norms, and the limits of practitioner anecdotes.
 
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products and [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]].
 - [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], and [[BizStone]] frame behavior as shaped by repeatable loops of motivation, ability, prompts, feedback, recognition, context, reflection, prices, and social norms; the leave-policy case adds that ambiguity and guilt can steer behavior as strongly as explicit rewards. Evidence: [[FoggBehaviorModel]], [[BehaviorDesign]], [[Gamification]], [[WorkplaceIncentiveDesign]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[JournalingPractice]], [[GratitudePractice]], [[ProlificPractice]], [[CEOScalingRole]], [[BizStone]].
@@ -80,7 +80,7 @@ This remains a heterogeneous and mostly indirect topic spanning scientific compu
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate relationships, and observable practice. Careers, collaboration, documentation, analytics, creative work, and organizational capability all require transfer and access qualifications rather than fixed universal recipes.
+Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate relationships, and observable practice. Careers, collaboration, documentation, analytics, creative work, and purpose-guided one-on-ones all require power, transfer, evidence, and access qualifications rather than fixed universal recipes.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

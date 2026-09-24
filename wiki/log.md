@@ -3511,3 +3511,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A 101 on 1:1s
+
+Added a 2015 Spotify practitioner account that turns vague manager-engineer one-on-ones into five explicit purposes: trust, private issues and feedback, career development, team health, and product direction. Updated [[ContinuousWorkplaceFeedback]] with purpose-guided prompts and a stopping condition, and expanded [[Spotify]] from a growth example to include this source-scoped management practice. Preserved the limits that the reported improvements are immediate, anecdotal, and missing employee perspectives or sustained outcomes. The original remote header returned HTTP 410; the equivalent image on Spotify's current official page was opened and omitted as a decorative daruma photograph.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

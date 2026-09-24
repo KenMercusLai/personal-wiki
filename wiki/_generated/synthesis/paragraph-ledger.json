@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7ab9f6bcecefaddc7d5f5385c6f60549b2242123c5e41f37f70f1cd284c08d92",
       "e1e1d421462dc4236875309c13ab895199c837c71eb7d046deb7bde6a122b4ce",
       "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
       "26b6a171316cb2e911fd11cdfeee3d35d34abf0eee0fcf30e76819d8c567e7d0",
@@ -367,11 +368,29 @@
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
       "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d"
     ],
-    "paragraph_count": 365
+    "paragraph_count": 366
   },
-  "overview_commit": "712ea1a039c6825e4f38ca0ff6ea4ce6d1bc0c9f",
-  "overview_digest": "5ffd801a51b9dc88b6aec261ce1f3f5c1f2dd3be630344884a5dc0c455b26a3a",
+  "overview_commit": "418ee7f0b0906792558b038e4008053e295058f5",
+  "overview_digest": "298b32e52adf0210145ea2471922364a6c21bac47699bded0ef6c2fa752344a1",
   "paragraphs": [
+    {
+      "id": "7ab9f6bcecefaddc7d5f5385c6f60549b2242123c5e41f37f70f1cd284c08d92",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Spotify Labs source adds a purpose-design layer to [[ContinuousWorkplaceFeedback]]. A manager working with senior engineers found that vague relationship-building guidance, open-ended questions, silence, and conventional goal setting did not reliably produce useful one-on-ones. An A3-guided review led to five explicit purposes—trust, private issues and personal feedback, career development, team reflection and happiness, and product direction—which reportedly surfaced a product-owner disagreement, interpersonal problems absent from retrospectives, and boredom within the first week. The framework complements Buffer's employee-led agenda and eShares' listening rule: explicit prompts can provide focus and a stopping condition without requiring a manager to dominate the conversation. The evidence remains one manager's immediate 2015 practitioner account, with no employee perspectives, comparison group, company-wide policy claim, or sustained measures of trust, performance, retention, promotion, or well-being. The original header URL returned HTTP 410, but the current official-page equivalent was opened and omitted as a decorative daruma photograph.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "ContinuousWorkplaceFeedback"
+      ]
+    },
     {
       "id": "e1e1d421462dc4236875309c13ab895199c837c71eb7d046deb7bde6a122b4ce",
       "primary_topic": "ai-and-technology",

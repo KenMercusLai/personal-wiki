@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [A 101 on 1:1s](sources/a-101-on-1-1s-labs.md) - A Spotify manager uses five explicit goals to turn vague one-on-ones into focused conversations about trust, feedback, development, team health, and product direction.
 - [10x-ing Your Team: The End of Superstar Developer Culture](sources/10x-ing-your-team-the-end-of-superstar-developer-culture.md) - Parker Thompson argues that engineering output should be optimized at team level through cross-functional roles, collaboration, problem-oriented craft, and early inclusive hiring.
 - [我做系统架构的一些原则](sources/wo-zuo-xi-tong-jia-gou-de-yi-xie-yuan-ze-ku-ke-coolshell.md) - 陈皓以交付、稳定性和成本收益统领复杂系统架构，并讨论服务/API 视角、完备性、标准、可运维性、控制面、技术债、诊断和探索。
 - [银弹飞过先锋大厦](sources/hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha.md) - 胡涂说回顾软件工程从早期编程、开源与敏捷到云与 DevOps 的演进，并以 ChatGPT 编码实验提出又限定“大模型是银弹”的预测。
@@ -968,7 +969,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shopify](entities/Shopify.md) - E-commerce SaaS and app ecosystem used as a free-trial acquisition case and platform for merchant-founded Shopify apps.
 - [WP Engine](entities/WPEngine.md) - WordPress hosting company used as a generous affiliate-incentive growth case.
 - [TripAdvisor](entities/TripAdvisor.md) - Travel-review platform used as an SEO, review, badge, and partnership growth case.
-- [Spotify](entities/Spotify.md) - Music-streaming service used as a widget-sharing and freemium-acquisition example.
+- [Spotify](entities/Spotify.md) - Music-streaming company represented through acquisition tactics and a practitioner-designed one-on-one framework.
 - [Tobias van Schneider](entities/TobiasVanSchneider.md) - Designer-author using writing, .Mail, and product examples to explain sunk-cost decision traps.
 - [.Mail App](entities/DotMailApp.md) - Abandoned email-client project used as Tobias van Schneider's personal sunk-cost example.
 - [Semplice](entities/Semplice.md) - Designer portfolio platform named in Tobias van Schneider's author biography.
@@ -1446,7 +1447,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Notification Design](concepts/NotificationDesign.md) - Design of notification timing, value, prioritization, controls, and the product incentives that govern interruption.
 - [Deliberate Network Building](concepts/DeliberateNetworkBuilding.md) - Choosing relationships, communities, mentors, and information inputs according to the direction in which one wants to grow.
 - [Vacation Policy](concepts/VacationPolicy.md) - Organizational rules, entitlements, incentives, minimums, and closures that determine whether employees can actually take time away from work.
-- [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring employee development through timely mentor and peer conversations rather than one annual rated review.
+- [Continuous Workplace Feedback](concepts/ContinuousWorkplaceFeedback.md) - Recurring conversations for trust, development, feedback, team health, and organizational context rather than one annual rated review.
 - [Unknown Unknowns](concepts/UnknownUnknowns.md) - Relevant gaps, constraints, and failure modes that a decision-maker does not yet recognize as missing from their understanding.
 - [Semantic Ablation](concepts/SemanticAblation.md) - Proposed subtractive failure mode in which AI rewriting preserves fluent form while eroding precise meaning, distinctive voice, and structural nuance.
 - [Contextual Technology Selection](concepts/ContextualTechnologySelection.md) - Practice of comparing a technology's historical priorities, tradeoffs, and scale assumptions with the adopter's actual problem.
