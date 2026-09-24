@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Being a Solo Founder: Pros, Cons, Tips & Tricks](sources/being-a-solo-founder-pros-cons-tips-tricks-baremetrics.md) - Baremetrics frames solo founding as a trade between speed and clear authority versus concentrated decisions, blind spots, isolation, and health risk.
 - [Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters](sources/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters.md) - A reversible zero-width Unicode marker can attribute copied text to a recipient, but its reported success is qualified by stripping, tampering, and false-attribution risks.
 - [Bar Raisers at Coinbase: If you're not a hell yes, you're a no](sources/bar-raisers-at-coinbase-if-youre-not-a-hell-yes-youre-a-no.md) - Brian Armstrong describes Coinbase's trained hiring veto, dual skill-and-values screen, and deliberate preference for false negatives during hypergrowth.
 - [Avoiding Zombie Startups](sources/avoiding-zombie-startups.md) - Mathias Pastor offers a candidate-side screen for stagnant startups using investor quality, product and sales evidence, team equity, hiring intent, transparency, and employee opportunity cost.
@@ -472,6 +473,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Baremetrics](entities/Baremetrics.md) - Company and publishing context for a first-person account of solo-founder tradeoffs and coping systems.
 - [Mathias Pastor](entities/MathiasPastor.md) - Startup-career author who frames employee selection as diligence into momentum, incentives, hiring intent, and transparency.
 - [The Family](entities/TheFamily.md) - European startup-support organization used as an example of flexible hiring, employee-equity advice, and startup-worker education.
 - [Scott Belsky](entities/ScottBelsky.md) - Author and investor framing micro brands as an aggregate competitive force enabled by social targeting and modular commerce infrastructure.
@@ -1435,6 +1437,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Solo Founding](concepts/SoloFounding.md) - Company formation led by one founder, concentrating authority, decision load, risk, and the need for distributed support.
 - [Zero-Width Text Fingerprinting](concepts/ZeroWidthTextFingerprinting.md) - Invisible recipient-specific Unicode encoding for tracing copied text, with preservation, tampering, authentication, and privacy limitations.
 - [Zombie Startup](concepts/ZombieStartup.md) - Company that retains startup appearance and financing while showing too little product, customer, or execution momentum for its promised trajectory.
 - [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from narrow positioning, targeted discovery, modular operations, and low-commitment production.

@@ -3739,3 +3739,11 @@ Added a 2018 account of encoding per-recipient identifiers with invisible Unicod
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Being a Solo Founder: Pros, Cons, Tips & Tricks
+
+Added Baremetrics's account of solo founding as a concentration tradeoff: faster decisions, clear authority, and less co-founder drama versus decision fatigue, narrower perspective, loneliness, and unchecked judgment. Created [[SoloFounding]] and [[Baremetrics]], and updated [[CoFounderFit]] and [[BurnoutPrevention]] from their complete ordered source inventories. Preserved the source's limits as first-person practitioner advice, qualified its categorical warning against adding a later co-founder, and distinguished personal health practices from structural workload remedies. Inspected the sole local image, identified it as a decorative abstract hero illustration, and omitted it without creating an asset manifest.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
