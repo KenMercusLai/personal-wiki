@@ -389,12 +389,13 @@
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
       "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52",
-      "07a8d807d13719b703f81cbb3ee281d4485f175db8f04c2d1694b656a92672b1"
+      "07a8d807d13719b703f81cbb3ee281d4485f175db8f04c2d1694b656a92672b1",
+      "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6"
     ],
-    "paragraph_count": 389
+    "paragraph_count": 390
   },
-  "overview_commit": "05d793aa0d2cbecc3e6398c7d8976b39282f0dc7",
-  "overview_digest": "3aa16168e6dcc6348a21dfa84f6db0630c61c3dc547b5c4eac440786ae531b97",
+  "overview_commit": "410ad9c8c181d7daadfb420332525427ccbf1634",
+  "overview_digest": "f6859129f878ff18ca898dad807c93cff725f0791e71c660b11cfe4387dd0a2b",
   "paragraphs": [
     {
       "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
@@ -7915,6 +7916,24 @@
         "AnonymousSourcing",
         "IdentityResolution",
         "ZeroWidthTextFingerprinting"
+      ]
+    },
+    {
+      "id": "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JoshuaWohle]] source adds [[StartupCTORoleEvolution]] as the leader-side mechanism inside [[StartupScaling]]. At [[SuperAwesome]], the dominant CTO constraint moved from restoring acquired physical-server infrastructure through trusted-network recruiting, product management, company-wide product alignment, customer strategy, and anticipation of future product-and-engineering bottlenecks. The recurring move was not simply hiring more people beneath the founder: a Chief Architect, Head of Engineering, and Chief Product Officer each received focused ownership of work Wöhle had previously carried. This sharpens [[ExecutiveHiring]] by treating senior roles as real transfers of authority and sharpens [[ProductManagement]] by showing why a technical founder may temporarily absorb product leadership before the portfolio requires a dedicated CPO. The source's durable claim is that a startup CTO role can change every six to twelve months and that relinquishing control is part of scaling, but its eight-stage sequence is a 2013-2018 first-person retrospective from one category-creating company rather than a universal ladder. It supplies no independent team, delivery, reliability, retention, or business-outcome comparison. The Markdown contains no image references.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ExecutiveHiring",
+        "JoshuaWohle",
+        "ProductManagement",
+        "StartupCTORoleEvolution",
+        "StartupScaling",
+        "SuperAwesome"
       ]
     }
   ],

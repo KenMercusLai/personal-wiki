@@ -3672,10 +3672,6 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
-## [2026-09-25] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
-
 ## [2026-09-25] ingest | Are forums still relevant in a Facebook world?
 
 Added Threadloom's historical comparison of Facebook Groups and specialized forums. Created [[ForumCommunityDesign]], [[Threadloom]], [[JessicaSalvatore]], and [[LouisePendry]], and updated [[Facebook]] from its complete ordered source inventory. Preserved the tradeoff between Facebook's distribution, sharing, relationships, and moderator tools and forums' pseudonymity, durable threads, search, and accumulated niche knowledge. Flagged the vendor's forum-search interest, incompletely specified statistics and research, and 2017-era product scope. Attempted to open all three remote images, but each source URL was unavailable, so no image-derived evidence, retained assets, or manifest was created.
@@ -3743,6 +3739,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-25] ingest | Being a Solo Founder: Pros, Cons, Tips & Tricks
 
 Added Baremetrics's account of solo founding as a concentration tradeoff: faster decisions, clear authority, and less co-founder drama versus decision fatigue, narrower perspective, loneliness, and unchecked judgment. Created [[SoloFounding]] and [[Baremetrics]], and updated [[CoFounderFit]] and [[BurnoutPrevention]] from their complete ordered source inventories. Preserved the source's limits as first-person practitioner advice, qualified its categorical warning against adding a later co-founder, and distinguished personal health practices from structural workload remedies. Inspected the sole local image, identified it as a decorative abstract hero illustration, and omitted it without creating an asset manifest.
+
+## [2026-09-25] ingest | Being a start-up CTO (or ‘how I fired myself enough times to finally become CTO’)
+
+Added Joshua Wöhle's eight-stage account of his changing role at SuperAwesome, from system recovery and early recruiting through product leadership, specialist executive handoffs, and forward-looking scaling work. Created [[StartupCTORoleEvolution]], [[JoshuaWohle]], [[SuperAwesome]], [[JannaBastow]], and [[MartijnVerburg]], and updated [[StartupScaling]] from its complete ordered source inventory. Preserved the limits of a single founder retrospective and did not treat its six-to-twelve-month cadence or Chief Architect, Head of Engineering, and Chief Product Officer sequence as universal. The Markdown contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-25] lint | Wiki health check
 

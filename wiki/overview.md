@@ -371,6 +371,7 @@ sources:
   - atlassians-5-5-billion-user-onboarding-magic
   - bar-raisers-at-coinbase-if-youre-not-a-hell-yes-youre-a-no
   - be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters
+  - being-a-start-up-cto-or-how-i-fired-myself-enough-times-to-finally-become-cto
 last_updated: 2026-09-25
 ---
 # Overview
@@ -1157,8 +1158,11 @@ The newest [[BrianArmstrong]] source adds a hiring-governance case to [[StartupH
 
 The newest zero-width-character source adds [[ZeroWidthTextFingerprinting]] as a lightweight leak-attribution mechanism. A system can convert a recipient identifier into binary, map bits and character boundaries to invisible Unicode code points, insert the sequence into displayed text, and reverse that process if a redistributed copy preserves the marker. The author's private-forum case reportedly identified the account for which a leaked announcement had been rendered, connecting the technique to [[IdentityResolution]] and showing how it can compromise [[AnonymousSourcing]]. The same properties sharply limit the inference: invisible text can be stripped, normalized, corrupted, or forged; a public username makes false attribution especially easy; and even a non-public identifier associates the copy with a rendered account rather than proving which human redistributed it. Without integrity protection and evidence about channel survival, the decoded marker is an investigative signal rather than conclusive proof. Both unique local image files were inspected and omitted as duplicate text-only title illustrations that add no independent evidence.
 
+The newest [[JoshuaWohle]] source adds [[StartupCTORoleEvolution]] as the leader-side mechanism inside [[StartupScaling]]. At [[SuperAwesome]], the dominant CTO constraint moved from restoring acquired physical-server infrastructure through trusted-network recruiting, product management, company-wide product alignment, customer strategy, and anticipation of future product-and-engineering bottlenecks. The recurring move was not simply hiring more people beneath the founder: a Chief Architect, Head of Engineering, and Chief Product Officer each received focused ownership of work Wöhle had previously carried. This sharpens [[ExecutiveHiring]] by treating senior roles as real transfers of authority and sharpens [[ProductManagement]] by showing why a technical founder may temporarily absorb product leadership before the portfolio requires a dedicated CPO. The source's durable claim is that a startup CTO role can change every six to twelve months and that relinquishing control is part of scaling, but its eight-stage sequence is a 2013-2018 first-person retrospective from one category-creating company rather than a universal ladder. It supplies no independent team, delivery, reliability, retention, or business-outcome comparison. The Markdown contains no image references.
+
 ## Open Questions
 
+- What operational signals show that a startup CTO should transfer architecture, engineering management, or product ownership before founder attention becomes a constraint?
 - When can an invisible per-recipient text marker provide useful leak evidence, and what integrity, survival, consent, and corroboration controls are required before acting on it?
 - Which community purposes benefit most from forum-style durable threads and pseudonymity, and which benefit more from real-name social distribution and feed discovery?
 - How should empirical studies define a genuinely comparable peer group when estimating the relative effects of effort, habit, opportunity, and inherited advantage?

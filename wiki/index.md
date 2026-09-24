@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Being a start-up CTO (or ‘how I fired myself enough times to finally become CTO’)](sources/being-a-start-up-cto-or-how-i-fired-myself-enough-times-to-finally-become-cto.md) - Joshua Wöhle argues that a scaling startup CTO must repeatedly transfer former responsibilities to specialist leaders and anticipate the next bottleneck.
 - [Being a Solo Founder: Pros, Cons, Tips & Tricks](sources/being-a-solo-founder-pros-cons-tips-tricks-baremetrics.md) - Baremetrics frames solo founding as a trade between speed and clear authority versus concentrated decisions, blind spots, isolation, and health risk.
 - [Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters](sources/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters.md) - A reversible zero-width Unicode marker can attribute copied text to a recipient, but its reported success is qualified by stripping, tampering, and false-attribution risks.
 - [Bar Raisers at Coinbase: If you're not a hell yes, you're a no](sources/bar-raisers-at-coinbase-if-youre-not-a-hell-yes-youre-a-no.md) - Brian Armstrong describes Coinbase's trained hiring veto, dual skill-and-values screen, and deliberate preference for false negatives during hypergrowth.
@@ -472,6 +473,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [B2B Blog Post Ideas: Tried And True Ideas For B2B Brands](sources/b2b-blog-post-ideas-tried-and-true-ideas-for-b2b-brands.md) - A practitioner taxonomy of eight B2B post formats, linking search, instruction, evidence, debate, scanning, and company news to different audience and distribution jobs.
 
 ## Entities
+
+- [Janna Bastow](entities/JannaBastow.md) - ProdPad co-founder and ProductTank leader who helped Joshua Wöhle learn product management.
+- [Joshua Wöhle](entities/JoshuaWohle.md) - SuperAwesome co-founder whose CTO role shifted from system recovery through product leadership to strategic scaling work.
+- [Martijn Verburg](entities/MartijnVerburg.md) - Mentor who helped Joshua Wöhle reason through repeated startup-scaling challenges.
+- [SuperAwesome](entities/SuperAwesome.md) - Kidtech company whose growth drove specialist architecture, engineering, and product leadership.
 
 - [Baremetrics](entities/Baremetrics.md) - Company and publishing context for a first-person account of solo-founder tradeoffs and coping systems.
 - [Mathias Pastor](entities/MathiasPastor.md) - Startup-career author who frames employee selection as diligence into momentum, incentives, hiring intent, and transparency.
@@ -1436,6 +1442,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Craig Silverman](entities/CraigSilverman.md) - BuzzFeed News journalist who reported and updated the 2018 Android attribution-fraud investigation.
 
 ## Concepts
+
+- [Startup CTO Role Evolution](concepts/StartupCTORoleEvolution.md) - A startup technology leader's responsibilities change as successive technical, product, people, and coordination bottlenecks emerge.
 
 - [Solo Founding](concepts/SoloFounding.md) - Company formation led by one founder, concentrating authority, decision load, risk, and the need for distributed support.
 - [Zero-Width Text Fingerprinting](concepts/ZeroWidthTextFingerprinting.md) - Invisible recipient-specific Unicode encoding for tracing copied text, with preservation, tampering, authentication, and privacy limitations.
