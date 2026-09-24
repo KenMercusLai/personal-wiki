@@ -3447,3 +3447,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | “Too many people already do what I want to do.”
+
+Added seanwes tv's 2015 response to creator anxiety about crowded fields. Created [[SeanwesTV]], updated [[CreatorAnxiety]] with feed-selection and exceptional-peer comparison, expanded [[CreatorPositioning]] with personal voice and one-aspect improvement, and added creator-market evidence to [[IdeaVersusExecution]]. The synthesis treats competition as a qualified demand signal rather than a guarantee, preserves limits around saturation, incumbents, acquisition costs, network effects, attribution, and copyright, and does not accept the article's uncited population or comparison figures as established facts. All five local images were inspected and omitted: three are duplicate presenter frames, while two 60-pixel graphics restate prose claims without recoverable additional evidence.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

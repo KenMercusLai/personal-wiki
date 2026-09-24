@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 6c967f81dae97f42703981b75cb2512078423e4f
+as_of_overview_commit: 1f064f84f84371ea374377706d0834898bf87a67
 summary: "Durable outcomes require grounded evidence, explicit tradeoffs, coherent organizations, inspectable systems, and accountable human judgment."
-episode_count: 424
-source_count: 424
-paragraph_count: 358
+episode_count: 425
+source_count: 425
+paragraph_count: 359
 topic_count: 9
 ---
 
@@ -81,7 +81,7 @@ This heterogeneous topic offers source-scoped scientific-computing, language-mod
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, and career choices that weigh learning and future options against real switching constraints.
+Learning and work improve through feedback, judgment, bounded attention, role clarity, fair incentives, deliberate social design, audience-aware creative positioning, and career choices that weigh learning and future options against real market and switching constraints.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

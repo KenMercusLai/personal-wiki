@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
       "3a51bb32fe14ec6d1b2c6e7f83d9f2cb5687f4bc970a6fe8fd76114b9c798524",
       "80f3620aad863c4ee9bf66b57c6b464621bce6f0a7e1bc87f58adfd661805cae",
       "668c8ed5a806332763623269185f336079ff015c5a150fa242ce880ede9c5665",
@@ -360,11 +361,28 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 358
+    "paragraph_count": 359
   },
-  "overview_commit": "6c967f81dae97f42703981b75cb2512078423e4f",
-  "overview_digest": "64b52efa9298206f6b988940ec9016c5d67bff21a7e84fbbafef336e8c8c5552",
+  "overview_commit": "1f064f84f84371ea374377706d0834898bf87a67",
+  "overview_digest": "f1709d2235e9f49b0cc40b9e3033ece54e14686a4f9e94f0867e94c7466516cb",
   "paragraphs": [
+    {
+      "id": "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[SeanwesTV]] source extends the wiki's creator-anxiety and market-entry material. It argues that feeds create a selective “bubble of awesomeness” by making active, exceptional creators visible while non-creators disappear from comparison, so an occupied field can look more saturated than the broader audience opportunity. [[CreatorAnxiety]] now includes that exceptional-peer selection effect and an alternative to milestone thinking: publish, serve the small audience already present, and use direct relationships as learning and advocacy rather than waiting for a follower count to make the work matter. [[CreatorPositioning]] now treats experience, style, perspective, history, tone, and improvement of one existing offer dimension as legitimate differences when an idea is not new. [[IdeaVersusExecution]] gains a creator-side version of competition as demand evidence, but the synthesis is qualified: the 2015 motivational essay does not establish reachable demand, economic viability, or a way to distinguish healthy competition from saturation, strong incumbents, acquisition cost, or network effects. Its population forecast and precise creator-comparison percentages are uncited, and its “swipe it” language needs attribution, copyright, and substantive-transformation boundaries. Five local images were inspected and omitted: three are duplicate presenter frames, while two 60-pixel graphics merely restate the population-growth and unique-voice arguments without recoverable additional evidence.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "CreatorAnxiety",
+        "CreatorPositioning",
+        "IdeaVersusExecution",
+        "SeanwesTV"
+      ]
+    },
     {
       "id": "3a51bb32fe14ec6d1b2c6e7f83d9f2cb5687f4bc970a6fe8fd76114b9c798524",
       "primary_topic": "business-and-markets",
