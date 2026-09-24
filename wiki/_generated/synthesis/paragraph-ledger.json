@@ -207,6 +207,7 @@
       "5622dd4e53493a975168aac8f3217a3de76b8f6a92ef957c53b07828842eb161",
       "c55e159f47ffaa70e65e458da56beef612caafcdf4f497fcf1b9c4221e1d7de1",
       "528bc6c5cf7d6a7a300c11d448fefa8167a0ec8e4e3836d49fe270a95fcbbcf4",
+      "47c25fdf17b3b30958e1f6044031c52096e02a1d4270415729e9af632cde4cc6",
       "e6d587b4e3d1161c794d1bdff4caad200607892123c84c9b82bb05601cbed26f",
       "9d3c07feb220fcb432dec0bafbd5883201df8b62d2f624b3a36d10f3f9674cb3",
       "ef990c7aa52ca533d176c566364fe2ded69f40ed994d09819a807b19b8613437",
@@ -376,10 +377,10 @@
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e"
     ],
-    "paragraph_count": 374
+    "paragraph_count": 375
   },
-  "overview_commit": "12b5a4a5ec78a669be9b98833cc863c8b27b228d",
-  "overview_digest": "2b704d62ed324007f0d01755d2e8c3a993844dfac1d01f7c301f0fdc04b752c5",
+  "overview_commit": "9b0ad12abe716524519c203b5b8f7c257b5e78b8",
+  "overview_digest": "4196240688addd4014c4fa029cd2e3763b933d7423bd5fb74aadd2cf2d79816f",
   "paragraphs": [
     {
       "id": "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
@@ -4353,6 +4354,25 @@
         "AppleWatch",
         "NeilCybart",
         "WearableComputing"
+      ]
+    },
+    {
+      "id": "47c25fdf17b3b30958e1f6044031c52096e02a1d4270415729e9af632cde4cc6",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The new Above Avalon cash-generation source connects Apple's product strategy to free-cash-flow conversion. [[AppleCashGenerationModel]] names [[NeilCybart]]'s 2017 framework: product primacy, a focused portfolio, contract manufacturing, integrated premium hardware, and scale economics helped [[Apple]] turn operating cash into $51B of trailing-twelve-month free cash flow, about $3B more than [[Amazon]], [[Facebook]], and Alphabet combined in the source's snapshot. The retained chart shows that historical comparison, while the synthesis qualifies it as an analyst interpretation rather than a causal decomposition across unlike businesses. Outsourcing lowers owned-factory capital intensity but transfers rather than eliminates manufacturing and supply-chain risk, and the article's [[HomePod]], AI, transportation, and competitor-reinvestment claims were launch-era forecasts rather than measured later outcomes.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "Amazon",
+        "Apple",
+        "AppleCashGenerationModel",
+        "Facebook",
+        "HomePod",
+        "NeilCybart"
       ]
     },
     {

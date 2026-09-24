@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 12b5a4a5ec78a669be9b98833cc863c8b27b228d
+as_of_overview_commit: 9b0ad12abe716524519c203b5b8f7c257b5e78b8
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, and judgment turn constraints into outcomes under uneven evidence."
-episode_count: 442
-source_count: 442
-paragraph_count: 374
+episode_count: 443
+source_count: 443
+paragraph_count: 375
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress combines system knowledge, contextual architecture, verification, operability, and inspectable AI or automation harnesses with human ownership.
+Durable technical progress combines system knowledge, contextual architecture, verification, operability, inspectable AI or automation harnesses, and human ownership; the Apple cash-generation case adds that product and manufacturing systems can shape financial conversion, but only as a time-bounded analyst interpretation.
 
 - [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[SoftwareEngineering]] and [[EssentialAndAccidentalComplexity]] add that successive abstractions, delivery methods, and LLMs can reduce or relocate implementation friction without proving that problem understanding, coordination, verification, operation, and maintenance have disappeared, while [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]], [[SoftwareEngineering]], [[EssentialAndAccidentalComplexity]], [[ForwardReferenceLearning]], [[LearningHowToLearn]].

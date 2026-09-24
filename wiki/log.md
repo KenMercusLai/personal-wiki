@@ -3595,3 +3595,11 @@ Added Neil Cybart's 2017 argument that Apple did not need Netflix's revenue, sub
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Above Avalon: Apple Has the Best Business Model for Generating Cash
+
+Added Neil Cybart's 2017 explanation of Apple's exceptional free-cash-flow conversion and created [[AppleCashGenerationModel]] around product primacy, focus, contract manufacturing, integrated premium hardware, and scale as an economic amplifier rather than the primary monetization requirement. Updated [[Apple]], [[AboveAvalon]], [[NeilCybart]], [[HomePod]], and [[ApplePricingStrategy]] from their complete ordered source inventories. Preserved the central qualifications that the company comparison is a time-bounded analyst interpretation rather than a causal decomposition, that outsourcing transfers rather than eliminates manufacturing risk, and that HomePod margins, competitor reinvestment, AI resilience, and new-category fit were forecasts. Retained the article's free-cash-flow comparison chart canonically.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
