@@ -3,9 +3,9 @@
 generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
-last_updated: 2026-09-24
-as_of_overview_commit: a17108c65f601931b1dd215fcf1da3644ef3a8f0
-input_digest: 40d00ae561e5b81127b6cafda2c0de0dda758cab68c0f84bf1c315844fe54a5c
+last_updated: 2026-09-25
+as_of_overview_commit: bab51cf0f126f41faaa0a68d3bc48ac11303a9a9
+input_digest: ae5f4295367b4da963dfc8845d5f55e84d0434df5e05cf813b608cb0fd531a4c
 ---
 
 # Work, Education, and Society
@@ -114,14 +114,15 @@ Public technical work such as [[OpenSourceProjectMaintenance]] can build [[Perso
 
 ### Workplace Incentives Shape Behavior And Pressure
 
-[[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], and [[Disco]] show that both explicit prices and informal norms steer work: prices, auctions, penalties, game-like scoring, unwritten leave ceilings, peer comparison, and guilt can focus or suppress behavior while intensifying pressure; actual usage and outliers are therefore better tests than stated intent alone.
+[[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], [[Disco]], and [[Even]] show that explicit prices, policy ambiguity, and ordinary amenities all steer work: auctions, penalties, game-like scoring, unwritten leave ceilings, food, recreation, alcohol, social events, and pets can change attention, movement, presence, participation, and pressure, so actual use and distributional effects are better tests than stated generosity alone.
 
-**Evidence:** [[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[Gamification]], [[Disco]]
+**Evidence:** [[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[BurnoutPrevention]], [[WorkEnvironment]], [[Gamification]], [[Disco]], [[Even]]
 
 **Qualifications:**
 
 - The Disco evidence is one Bloomberg company profile rather than a general proof; internal prices may clarify opportunity cost while also creating short-termism, research distraction, cultural-transfer problems, and continuous pressure when tied to pay and status.
 - The vacation-policy evidence is a practitioner essay that acknowledges unsettled comparative leave-use evidence; staffing, manager example, labor law, and bargaining power may outweigh the formal policy label.
+- Even's anti-perks evidence is one company-authored 2017 account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data; its exclusions are local design hypotheses, not a universal blacklist.
 
 ### Continuous Feedback Needs Distinct Support Relationships
 

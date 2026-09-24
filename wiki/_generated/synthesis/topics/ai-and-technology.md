@@ -3,9 +3,9 @@
 generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
-last_updated: 2026-09-24
-as_of_overview_commit: 9b0ad12abe716524519c203b5b8f7c257b5e78b8
-input_digest: 92a0c0350be49432f473e7618ae2fca6b508bdc78cb4e2b42ed8b78956776a78
+last_updated: 2026-09-25
+as_of_overview_commit: c7393ad88d783a3f27e366f1a2edf7a5c24e278c
+input_digest: a8c1480c026c7aaf9ac02074a296e607188b802119a7b919745a3769e67c2c8a
 ---
 
 # AI and Technology
@@ -365,3 +365,14 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 - The $51B comparison is a 2017 snapshot across companies with different accounting, capital needs, market stages, and monetization models; free cash flow alone does not establish superior durability, growth, customer value, or social benefit.
 - Outsourcing assembly transfers rather than eliminates manufacturing capital, labor, concentration, and supply-chain risk, while the HomePod, AI, transportation, and competitor-reinvestment claims were forecasts rather than audited later outcomes.
+
+### Attribution Telemetry Is A Security Boundary
+
+[[AppInstallAttributionFraud]] shows that analytics rules can become attack surfaces: [[CheetahMobile]] and [[KikaTech]] apps allegedly used Android installation or search visibility, late injected clicks, speculative click flooding, automatic app opening, and multi-network concealment to win last-click bounties without creating demand, so [[MarketingAttribution]] and [[GooglePlay]] governance require trustworthy event provenance, anomaly detection, publisher transparency, and platform enforcement as well as better credit models.
+
+**Evidence:** [[AppInstallAttributionFraud]], [[CheetahMobile]], [[KikaTech]], [[MarketingAttribution]], [[GooglePlay]], [[Android]]
+
+**Qualifications:**
+
+- The evidence is a disputed November 2018 investigation rather than a complete published forensic report: Cheetah denied that its own SDKs injected clicks, Kika denied intent, and Google initially said it had not confirmed fraud.
+- The apps' combined download counts measure potential exposure rather than the number of fraudulent events, and the source does not establish current company conduct, Android permissions, attribution controls, or Google Play enforcement.

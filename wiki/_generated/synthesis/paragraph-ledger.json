@@ -381,12 +381,14 @@
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
       "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed",
-      "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115"
+      "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115",
+      "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
+      "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe"
     ],
-    "paragraph_count": 381
+    "paragraph_count": 383
   },
-  "overview_commit": "eb9f4665f7eba2a531d04f6f2328cd1a16245c6b",
-  "overview_digest": "eb4ec85d837b63e41289ec75cd61767fba9f2be3d36c044b0969a177bf8c5961",
+  "overview_commit": "bab51cf0f126f41faaa0a68d3bc48ac11303a9a9",
+  "overview_digest": "068647774ccdd9dfb9a635ecc4ca4f85a52e757d9440a5c7e29a45e561f2941f",
   "paragraphs": [
     {
       "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
@@ -7764,6 +7766,46 @@
         "ProductMarketFit",
         "StartupDistributionStrategy",
         "ViralLoops"
+      ]
+    },
+    {
+      "id": "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[CraigSilverman]] source adds an adversarial integrity layer to [[MarketingAttribution]], [[Android]], and [[GooglePlay]]. New [[AppInstallAttributionFraud]] separates click injection—waiting for an installation and inserting a synthetic late click—from click flooding, which places many speculative clicks against apps a user may install. Kochava alleged that seven [[CheetahMobile]] apps and [[KikaTech]]'s keyboard used installation or search visibility, automatic app opening, proprietary code, and attribution routing through more than 20 ad networks to claim $0.50-$3 bounties without creating demand. This turns last-click attribution from merely an incomplete credit model into a security-sensitive decision rule: telemetry provenance, anomaly detection, publisher transparency, and platform enforcement become prerequisites for trustworthy budget automation. The synthesis remains allegation-aware and time-bounded: Cheetah denied that its own SDKs injected clicks, Kika denied intent, Google initially said it had not confirmed fraud, combined download counts measure potential exposure rather than fraudulent events, and the 2018 article does not establish current conduct or controls. Two evidence-bearing images were retained at their semantic positions: an eight-app chart totaling about 2.445 billion downloads and a process diagram contrasting legitimate install attribution with Cheetah's alleged injected last-click path; the decorative phone hero was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Android",
+        "AppInstallAttributionFraud",
+        "CheetahMobile",
+        "CraigSilverman",
+        "GooglePlay",
+        "KikaTech",
+        "MarketingAttribution"
+      ]
+    },
+    {
+      "id": "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "science-health-and-climate"
+      ],
+      "text": "The newest Even source adds [[WorkplacePerkDesign]] as the benefits-and-amenities layer of [[WorkplaceIncentiveDesign]]. Its “anti-perks” frame distinguishes portable, employee-controlled support—minimum paid leave, flexible schedules, health coverage, compensation, equity, and flexible stipends—from office-bound amenities that may increase immobility, distraction, long-hours presence, coerced participation, or exclusion. The Oakland redesign supplies the spatial version: [[Even]] reports polling employees, adding private rooms, shared offices, and flex space for varied work modes, and deliberately omitting a recreation area. The useful synthesis is not a universal ban on food, pets, alcohol, or social events, but a behavioral and distributional test: state the desired outcome, examine who benefits and who bears costs, observe actual use, and revisit the design as the workforce changes. This also strengthens [[VacationPolicy]] with a source-scoped minimum-leave example. The evidence remains one company-authored 2017 account from a 17-person team, with no comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data. Two unique local images were opened; the full office photograph was retained once at its semantic position, while the 60×45 thumbnail and repeated full-resolution embed were omitted as duplicates.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "science-health-and-climate": 2,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "Even",
+        "VacationPolicy",
+        "WorkplaceIncentiveDesign",
+        "WorkplacePerkDesign"
       ]
     }
   ],

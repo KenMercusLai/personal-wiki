@@ -184,18 +184,21 @@
       "id": "workplace-incentives-shape-behavior-and-pressure",
       "qualifications": [
         "The Disco evidence is one Bloomberg company profile rather than a general proof; internal prices may clarify opportunity cost while also creating short-termism, research distraction, cultural-transfer problems, and continuous pressure when tied to pay and status.",
-        "The vacation-policy evidence is a practitioner essay that acknowledges unsettled comparative leave-use evidence; staffing, manager example, labor law, and bargaining power may outweigh the formal policy label."
+        "The vacation-policy evidence is a practitioner essay that acknowledges unsettled comparative leave-use evidence; staffing, manager example, labor law, and bargaining power may outweigh the formal policy label.",
+        "Even's anti-perks evidence is one company-authored 2017 account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data; its exclusions are local design hypotheses, not a universal blacklist."
       ],
-      "statement": "[[WorkplaceIncentiveDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], and [[Disco]] show that both explicit prices and informal norms steer work: prices, auctions, penalties, game-like scoring, unwritten leave ceilings, peer comparison, and guilt can focus or suppress behavior while intensifying pressure; actual usage and outliers are therefore better tests than stated intent alone.",
+      "statement": "[[WorkplaceIncentiveDesign]], [[WorkplacePerkDesign]], [[InternalMarketManagement]], [[VacationPolicy]], [[WorkEnvironment]], [[Gamification]], [[Disco]], and [[Even]] show that explicit prices, policy ambiguity, and ordinary amenities all steer work: auctions, penalties, game-like scoring, unwritten leave ceilings, food, recreation, alcohol, social events, and pets can change attention, movement, presence, participation, and pressure, so actual use and distributional effects are better tests than stated generosity alone.",
       "status": "qualified",
       "supporting_wikilinks": [
         "WorkplaceIncentiveDesign",
+        "WorkplacePerkDesign",
         "InternalMarketManagement",
         "VacationPolicy",
         "BurnoutPrevention",
         "WorkEnvironment",
         "Gamification",
-        "Disco"
+        "Disco",
+        "Even"
       ]
     },
     {

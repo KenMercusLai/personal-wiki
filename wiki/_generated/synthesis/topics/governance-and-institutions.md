@@ -3,9 +3,9 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-09-24
-as_of_overview_commit: 8e1567a0d7d34d99ddde0d386fd5da2dbbb1541b
-input_digest: 272e4ec8f585e84a3dcd30ae3c04e95850ad6058cb10b2a73b2feb729fb510c0
+last_updated: 2026-09-25
+as_of_overview_commit: bab51cf0f126f41faaa0a68d3bc48ac11303a9a9
+input_digest: eaed445329e5487a0121bbfe0afd4a29688a07d1dd6d3b3d4f5ff49d3cbe55c5
 ---
 
 # Governance and Institutions
@@ -184,13 +184,14 @@ Technical systems that look operationally narrow can carry social consequences w
 
 ### Workplace Policy Needs Behavioral Accountability
 
-[[VacationPolicy]] shows that workplace governance depends on usable entitlements and observed behavior, not policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while usage measurement and explicit floors or workload relief make the institution's real expectations more accountable.
+[[VacationPolicy]] and [[WorkplacePerkDesign]] show that workplace governance depends on usable entitlements, distributional effects, and observed behavior rather than policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while explicit floors, workload relief, employee control, and evaluation of who benefits or bears costs make the institution's real expectations more accountable.
 
-**Evidence:** [[VacationPolicy]], [[WorkplaceIncentiveDesign]], [[BurnoutPrevention]], [[Kickstarter]], [[TribunePublishing]], [[HubSpot]], [[RANDCorporation]]
+**Evidence:** [[VacationPolicy]], [[WorkplacePerkDesign]], [[WorkplaceIncentiveDesign]], [[Even]], [[BurnoutPrevention]], [[Kickstarter]], [[TribunePublishing]], [[HubSpot]], [[RANDCorporation]]
 
 **Qualifications:**
 
 - The vacation-policy evidence is a practitioner essay, its company examples are reported rather than independently compared, and the author says broader evidence on leave use was unsettled in 2016.
+- The perk-design evidence is one company-authored 2017 account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data.
 
 ### Notification Governance Distributes Attention Control
 

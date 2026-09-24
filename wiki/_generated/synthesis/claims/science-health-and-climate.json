@@ -110,8 +110,24 @@
         "Redis",
         "EventDrivenConsistency"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "workplace-perk-health-effects-are-unevaluated",
+      "qualifications": [
+        "This is a company-authored workplace-design argument, not health research, and the deterministic topic assignment is indirect.",
+        "The 17-person company case reports no comparative wellbeing, productivity, inclusion, utilization, or employee-outcome data."
+      ],
+      "statement": "[[WorkplacePerkDesign]] and [[WorkplaceIncentiveDesign]] raise source-scoped wellbeing questions about movement, distraction, recovery, and alcohol or social pressure, but [[Even]]'s anti-perks account does not establish health effects.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "WorkplacePerkDesign",
+        "WorkplaceIncentiveDesign",
+        "Even",
+        "VacationPolicy"
+      ]
     }
   ],
-  "summary": "This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; and a newly misrouted distributed-systems case about ecommerce inventory correctness. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.",
+  "summary": "This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; a misrouted distributed-systems case about ecommerce inventory correctness; and a workplace-perk argument that raises but does not measure wellbeing effects. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.",
   "topic_id": "science-health-and-climate"
 }

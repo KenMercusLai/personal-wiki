@@ -1,33 +1,33 @@
 {
   "content_date": "2026-09-25",
   "corpus": {
-    "episode_count": 449,
-    "source_count": 449
+    "episode_count": 451,
+    "source_count": 451
   },
   "generated": true,
   "global": {
-    "candidate_digest": "604779a254536d3b668f52e8c15bfee5a02cdba56b8d1463714def59eabcdd66",
-    "compacted_at": "2026-09-24T14:27:31.723183Z",
+    "candidate_digest": "8b931a49afc6df76150e6c59d83a654289aecbfe643c680dc6f7adb0637e0224",
+    "compacted_at": "2026-09-24T14:57:01.014323Z",
     "content_date": "2026-09-25",
     "corpus": {
-      "episode_count": 449,
-      "source_count": 449
+      "episode_count": 451,
+      "source_count": 451
     },
-    "output_digest": "e89f788db97f2796d209531622a74bf7c3a665cd0c7f699dfdbaeba95c1f2cc1",
-    "overview_commit": "eb9f4665f7eba2a531d04f6f2328cd1a16245c6b",
-    "overview_digest": "eb4ec85d837b63e41289ec75cd61767fba9f2be3d36c044b0969a177bf8c5961",
+    "output_digest": "d0fd7acc25fbc8984989358052196508c38f510a13999e40cdfc7f4cec40839f",
+    "overview_commit": "bab51cf0f126f41faaa0a68d3bc48ac11303a9a9",
+    "overview_digest": "068647774ccdd9dfb9a635ecc4ca4f85a52e757d9440a5c7e29a45e561f2941f",
     "pending_ingests": 0,
     "pending_topics": []
   },
-  "overview_commit": "eb9f4665f7eba2a531d04f6f2328cd1a16245c6b",
-  "overview_digest": "eb4ec85d837b63e41289ec75cd61767fba9f2be3d36c044b0969a177bf8c5961",
-  "paragraph_count": 381,
+  "overview_commit": "bab51cf0f126f41faaa0a68d3bc48ac11303a9a9",
+  "overview_digest": "068647774ccdd9dfb9a635ecc4ca4f85a52e757d9440a5c7e29a45e561f2941f",
+  "paragraph_count": 383,
   "schema_version": 1,
   "topics": {
     "ai-and-technology": {
-      "claim_digest": "8217c59df18bf3a047cfd583b4e87037a5d1dcf454f87c7134591a972eab3f4d",
-      "input_digest": "92a0c0350be49432f473e7618ae2fca6b508bdc78cb4e2b42ed8b78956776a78",
-      "output_digest": "44a2d78c56dcab0e66ac61c3d95ca03d19e3899dbe33f48979f2447ff69d9c4a",
+      "claim_digest": "3d9837eb281d1180b4c541f7dd13b606e1793a699ebd32bb9e89c01193c1bbc2",
+      "input_digest": "a8c1480c026c7aaf9ac02074a296e607188b802119a7b919745a3769e67c2c8a",
+      "output_digest": "e1620dfac68b2ac9d8f2993598b2bfa7129a3c38a8aa6a26907d5b120aa1dfbd",
       "title": "AI and Technology"
     },
     "business-and-markets": {
@@ -49,9 +49,9 @@
       "title": "Culture and Media"
     },
     "governance-and-institutions": {
-      "claim_digest": "c8dcfd6b6d2637e0f992393b3ee89b4a1d9a2c1bfdd3a40767a459bc686c9ef4",
-      "input_digest": "272e4ec8f585e84a3dcd30ae3c04e95850ad6058cb10b2a73b2feb729fb510c0",
-      "output_digest": "af9bb355d050fa83a6dfc0a6cb0da93c4ee2b49cde32586132e53a3d268bf451",
+      "claim_digest": "29d6056fa08d6889778b73de0709b45892ccde1b9372d2bf852171f29998fb13",
+      "input_digest": "eaed445329e5487a0121bbfe0afd4a29688a07d1dd6d3b3d4f5ff49d3cbe55c5",
+      "output_digest": "20d345793b848c29432d92398f93c2b3a93652ae5a7684a6e1a18fca3465d7da",
       "title": "Governance and Institutions"
     },
     "history-and-geopolitics": {
@@ -67,15 +67,15 @@
       "title": "Psychology and Personal Development"
     },
     "science-health-and-climate": {
-      "claim_digest": "3969602e6f920af5cc7d84bee05d624e1ca56aeb415e3cde13f231d012689e1f",
-      "input_digest": "6c43187ba560d1b705ee87cdfb1c51493ac7c89fd5b57589e0dc417794c82519",
-      "output_digest": "6ac27410a58cc071a413efc5299d1fd77d6aabbe79f39cd24cd18eb0a8a70cc3",
+      "claim_digest": "5e4f2a6b48228ff95972c387db1a171bd34f570f5314428b9a9c4b486b5264dc",
+      "input_digest": "b5b61d7dfda3e113b634745a9ecbafab4aa0da0cfe2c89e52504272396c994cb",
+      "output_digest": "de73a054cd035481cb951d5cf6e3c213c638138c918ff3815dc9dc0a0c5cbb50",
       "title": "Science, Health, and Climate"
     },
     "work-education-and-society": {
-      "claim_digest": "85da6057a00ca18ccc3c16d314657f8502aa041db40c64082d2189f889f04f87",
-      "input_digest": "40d00ae561e5b81127b6cafda2c0de0dda758cab68c0f84bf1c315844fe54a5c",
-      "output_digest": "8d7d1deb36e9793a25d4a144efbd2b51f8c715bbb6491493a0bf89b79607bd80",
+      "claim_digest": "69238d8f8e5e26940a49584615a50e1d5e164c4c8ea2e276425243016d94e9e6",
+      "input_digest": "ae5f4295367b4da963dfc8845d5f55e84d0434df5e05cf813b608cb0fd531a4c",
+      "output_digest": "07fc138c0e864f63cbfc67ffe58fd22dc581728c01ef24bf8c5a7f3d0da3b96f",
       "title": "Work, Education, and Society"
     }
   }

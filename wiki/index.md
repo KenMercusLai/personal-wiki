@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Anti-Perks](sources/anti-perks-even.md) - Even distinguishes portable, employee-controlled benefits from office-bound “anti-perks” that may increase distraction, pressure, immobility, or exclusion.
 - [An Updated Academic Workflow: Zotero & Obsidian](sources/alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian.md) - Alexandra Phelan divides academic research among Zotero source management, Obsidian linked notes and drafting, and Pandoc citation-aware DOCX export.
 - [Ads just work. No matter what you think](sources/ads-just-work-no-matter-what-you-think-noteworthy-the-journal-blog.md) - John Val John argues that advertising can shape brand evaluation through limited-attention association, evaluative conditioning, and identity meaning, while leaving real-world effect sizes and social harms underdocumented.
 - [Absolute Success is Luck. Relative Success is Hard Work.](sources/absolute-success-is-luck-relative-success-is-hard-work.md) - James Clear distinguishes unequal starting positions from controllable trajectory, arguing that luck weighs more in absolute and extreme success while habits, preparation, and effort better explain relative differences.
@@ -458,9 +459,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [胡渊鸣 | 我给 10 个 Claude Code 打工](sources/hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong.md) - 胡渊鸣记录如何用任务队列、Git worktree、流式日志、持久经验、网页管理器、语音输入和批量 Plan Mode 管理并行 Claude Code，并据此讨论个人软件与工程角色变化。
 
 - [Amazon's New Customer](sources/amazons-new-customer-stratechery-by-ben-thompson.md) - Ben Thompson interprets Whole Foods as the anchor customer for a modular Amazon grocery-services platform built on the same fixed-cost and scale logic as AWS.
+- [Android Apps With More Than 2 Billion Total Downloads Are Committing Ad Fraud](sources/android-apps-with-more-than-2-billion-total-downloads-are-committing-ad-fraud.md) - Craig Silverman reports how eight high-download Android apps allegedly manipulated last-click install attribution through click injection, click flooding, permission access, and network concealment.
 
 ## Entities
 
+- [Even](entities/Even.md) - Small company whose 2017 anti-perks essay ties benefits and office design to autonomy, trust, focused work, and life outside work.
 - [Alexandra Phelan](entities/AlexandraPhelan.md) - Academic author documenting a Zotero, Obsidian, and Pandoc research-writing workflow.
 - [Zotero](entities/Zotero.md) - Reference manager serving as the source, PDF, annotation, citekey, and citation-data system in an academic workflow.
 - [Pandoc](entities/Pandoc.md) - Document converter and citation processor bridging Markdown drafts and formatted DOCX manuscripts.
@@ -1408,9 +1411,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Taichi Programming Language](entities/TaichiProgrammingLanguage.md) - GPU-oriented programming language and compiler created by Hu Yuanming for high-performance physical simulation.
 
 - [Whole Foods](entities/WholeFoods.md) - Grocery retailer interpreted as the acquired anchor customer for Amazon's proposed grocery-services infrastructure.
+- [Cheetah Mobile](entities/CheetahMobile.md) - Mobile-app company alleged to have embedded install-attribution manipulation across seven high-scale Android apps.
+- [Kika Tech](entities/KikaTech.md) - Developer of Kika Keyboard, alleged to have combined Play Store search monitoring with click flooding and injection.
+- [Kochava](entities/Kochava.md) - Mobile attribution provider that detected and documented the reported Cheetah and Kika behavior.
+- [Craig Silverman](entities/CraigSilverman.md) - BuzzFeed News journalist who reported and updated the 2018 Android attribution-fraud investigation.
 
 ## Concepts
 
+- [Workplace Perk Design](concepts/WorkplacePerkDesign.md) - Values- and outcomes-led selection of benefits, amenities, and deliberate exclusions based on autonomy, wellbeing, inclusion, and work effects.
 - [Academic Research Workflow](concepts/AcademicResearchWorkflow.md) - End-to-end system connecting source collection, annotation, linked synthesis, Markdown drafting, citation processing, project tracking, and manuscript export.
 - [Automatic Advertising Influence](concepts/AutomaticAdvertisingInfluence.md) - Brand evaluation shaped through associative cues and identity meanings without requiring sustained conscious attention.
 - [Luck and Effort in Success](concepts/LuckAndEffortInSuccess.md) - Attribution framework separating unequal starting conditions and extreme outcomes from the trajectory influenced by habits, preparation, and effort.
@@ -2249,5 +2257,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.
 - [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, channel fit, and progression from responsive early audiences to competitive scaled reach.
+- [App Install Attribution Fraud](concepts/AppInstallAttributionFraud.md) - Manipulation of mobile click, install, and open signals to claim payment for demand an actor did not create.
 
 ## Syntheses

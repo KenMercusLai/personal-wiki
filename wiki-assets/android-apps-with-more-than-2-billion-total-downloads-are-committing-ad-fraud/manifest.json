@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "android-apps-with-more-than-2-billion-total-downloads-are-committing-ad-fraud",
+  "images": [
+    {
+      "file": "app-download-counts.jpg",
+      "alt": "Download counts for eight Cheetah Mobile and Kika apps: Clean Master 1B; Security Master 540M; CM Launcher 3D 225M; Kika Keyboard 205M; Battery Doctor 200M; Cheetah Keyboard 105M; CM Locker 105M; CM File Manager 65M."
+    },
+    {
+      "file": "click-injection-process.jpg",
+      "alt": "Comparison of normal app-install attribution and Cheetah Mobile click injection: a legitimate ad click is credited after install and open, while an injected click after an ad-free install makes Cheetah appear to be the last-click publisher and collect payment."
+    }
+  ]
+}

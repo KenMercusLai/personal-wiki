@@ -277,13 +277,16 @@
       "global_candidate": false,
       "id": "workplace-policy-needs-behavioral-accountability",
       "qualifications": [
-        "The vacation-policy evidence is a practitioner essay, its company examples are reported rather than independently compared, and the author says broader evidence on leave use was unsettled in 2016."
+        "The vacation-policy evidence is a practitioner essay, its company examples are reported rather than independently compared, and the author says broader evidence on leave use was unsettled in 2016.",
+        "The perk-design evidence is one company-authored 2017 account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee data."
       ],
-      "statement": "[[VacationPolicy]] shows that workplace governance depends on usable entitlements and observed behavior, not policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while usage measurement and explicit floors or workload relief make the institution's real expectations more accountable.",
+      "statement": "[[VacationPolicy]] and [[WorkplacePerkDesign]] show that workplace governance depends on usable entitlements, distributional effects, and observed behavior rather than policy labels alone: an unwritten ceiling can turn nominal freedom into guilt-based [[WorkplaceIncentiveDesign]], while explicit floors, workload relief, employee control, and evaluation of who benefits or bears costs make the institution's real expectations more accountable.",
       "status": "source-scoped",
       "supporting_wikilinks": [
         "VacationPolicy",
+        "WorkplacePerkDesign",
         "WorkplaceIncentiveDesign",
+        "Even",
         "BurnoutPrevention",
         "Kickstarter",
         "TribunePublishing",

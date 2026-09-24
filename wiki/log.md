@@ -3651,3 +3651,19 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Anti-Perks
+
+Added Even's 2017 framework for distinguishing employee-controlled benefits from office-bound “anti-perks.” Created [[Even]] and [[WorkplacePerkDesign]], and updated [[WorkplaceIncentiveDesign]] and [[VacationPolicy]] from their complete ordered source inventories. Preserved the central limitation that this is a company-authored account from a 17-person team without comparative productivity, wellbeing, retention, inclusion, utilization, or dissenting employee evidence. Opened both unique local images, retained the full-resolution Oakland office photograph at its semantic position, and omitted the thumbnail and repeated embed as duplicates.
+
+## [2026-09-25] ingest | Android Apps With More Than 2 Billion Total Downloads Are Committing Ad Fraud
+
+Added Craig Silverman's 2018 investigation of alleged click injection and click flooding across seven Cheetah Mobile apps and Kika Keyboard. Created [[AppInstallAttributionFraud]], [[CheetahMobile]], [[KikaTech]], [[Kochava]], and [[CraigSilverman]]; updated [[Android]], [[GooglePlay]], and [[MarketingAttribution]] from their complete ordered source inventories. Preserved the companies' denials, Google's initial non-confirmation, the distinction between download exposure and proven fraudulent events, and the source's historical scope. Retained the eight-app download chart and the normal-versus-injected attribution process diagram canonically; omitted the decorative phone hero.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

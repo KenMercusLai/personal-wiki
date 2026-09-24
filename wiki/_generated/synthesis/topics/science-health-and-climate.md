@@ -3,16 +3,16 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-23
-as_of_overview_commit: 16392e50d58953a0347aa9b73cb8c924f9376dc5
-input_digest: 6c43187ba560d1b705ee87cdfb1c51493ac7c89fd5b57589e0dc417794c82519
+last_updated: 2026-09-25
+as_of_overview_commit: bab51cf0f126f41faaa0a68d3bc48ac11303a9a9
+input_digest: b5b61d7dfda3e113b634745a9ecbafab4aa0da0cfe2c89e52504272396c994cb
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; and a newly misrouted distributed-systems case about ecommerce inventory correctness. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.
+This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; a misrouted distributed-systems case about ecommerce inventory correctness; and a workplace-perk argument that raises but does not measure wellbeing effects. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
 
@@ -88,3 +88,14 @@ The language-model source reaches this topic through scientific framing rather t
 
 - This is a distributed-systems claim that the deterministic topic router placed here indirectly; it is not a science, health, or climate finding.
 - The Sentinel design reduces but does not eliminate overselling windows during partitions, long pauses, or clock anomalies.
+
+### Workplace Perk Health Effects Are Unevaluated
+
+[[WorkplacePerkDesign]] and [[WorkplaceIncentiveDesign]] raise source-scoped wellbeing questions about movement, distraction, recovery, and alcohol or social pressure, but [[Even]]'s anti-perks account does not establish health effects.
+
+**Evidence:** [[WorkplacePerkDesign]], [[WorkplaceIncentiveDesign]], [[Even]], [[VacationPolicy]]
+
+**Qualifications:**
+
+- This is a company-authored workplace-design argument, not health research, and the deterministic topic assignment is indirect.
+- The 17-person company case reports no comparative wellbeing, productivity, inclusion, utilization, or employee-outcome data.
