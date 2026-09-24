@@ -1,6 +1,22 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "architecture-is-a-business-operating-capability",
+      "qualifications": [
+        "The source is a practitioner retrospective rather than comparative evidence, and its scope is explicitly complex systems; control-plane centralization, standards work, and debt repayment can impose costs or bottlenecks when applied without local need.",
+        "The article's Java recommendation is adoption-based and should not replace contextual workload, team, runtime, migration, and deployment analysis."
+      ],
+      "statement": "[[SystemArchitecturePrinciples]] treats architecture as a business operating capability when it improves delivery throughput, service stability, and total human, time, or financial cost; [[ContextualTechnologySelection]] keeps mature ecosystem and staffing advantages subordinate to diagnosis and fit, while standard [[APIErrorHandling]] lets generic monitoring and recovery infrastructure act on failures.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "SystemArchitecturePrinciples",
+        "ContextualTechnologySelection",
+        "APIErrorHandling",
+        "ChenHao"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "founder-investor-fit-bounds-persuasion-effort",
       "qualifications": [

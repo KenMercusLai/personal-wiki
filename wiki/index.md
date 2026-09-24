@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [我做系统架构的一些原则](sources/wo-zuo-xi-tong-jia-gou-de-yi-xie-yuan-ze-ku-ke-coolshell.md) - 陈皓以交付、稳定性和成本收益统领复杂系统架构，并讨论服务/API 视角、完备性、标准、可运维性、控制面、技术债、诊断和探索。
 - [银弹飞过先锋大厦](sources/hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha.md) - 胡涂说回顾软件工程从早期编程、开源与敏捷到云与 DevOps 的演进，并以 ChatGPT 编码实验提出又限定“大模型是银弹”的预测。
 - [关于前置引用现象，学习卡顿的根源](sources/hulatu-forward-reference-learning-friction.md) - 胡拉图的后花园把学习卡顿解释为非线性知识中的前置引用，并建议通过全局首轮、标记、预读和重点复习逐步闭合概念依赖。
 - [「人格蒸馏」是一种愚蠢的谎言 | 螺莉莉的数据中心](sources/ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's self-imitation experiment argues that persona “distillation” is role-card summarization, not personal reconstruction, and connects its limits to data generation, context capacity, retrieval, and traffic-driven farming.
@@ -441,6 +442,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Chen Hao](entities/ChenHao.md) - Technical author connecting protocol standards and complex-system architecture to delivery, reliability, cost, operability, and evidence-based decisions.
 - [胡涂说 (Hutusi)](entities/Hutusi.md) - 以软件工程史、第一性原理和 ChatGPT 编码实验讨论大模型时代开发模式的技术作者。
 - [胡拉图的后花园](entities/HuLaTuDeHouHuaYuan.md) - 中文作者，以编程中的前置引用类比自学卡顿，并提出多轮阅读与陌生项标记策略。
 - [seanwes tv](entities/SeanwesTV.md) - Creator-education publication combining market-entry encouragement, personal voice, and relationship-centered audience growth.
@@ -1124,7 +1126,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Auth0](entities/Auth0.md) - Identity-platform SaaS whose architecture illustrates AWS-based authentication infrastructure, high availability, automation, observability, and internal platform work.
 - [Baidu Maps](entities/BaiduMaps.md) - Map platform used in the trajectory drawing example for displaying simplified vehicle routes.
 - [Bernard Marr](entities/BernardMarr.md) - Author credited for the productivity habits article.
-- [Chen Hao](entities/ChenHao.md) - Technical author explaining HTTP history through protocol engineering and architecture tradeoffs.
 - [Chris Grieser](entities/ChrisGrieser.md) - Researcher-author connecting note size, PKM methods, and Obsidian-style tool affordances.
 - [Claude](entities/Claude.md) - AI assistant used in engineering workflows and discussed as a context-sensitive statistical-analysis helper.
 - [Claude Code](entities/ClaudeCode.md) - Command-line coding agent represented through vibe-coding practice, prompt-cache behavior, Agent Team use, simple-loop design analysis, systems-programming examples, and mobile/cloud supervision.
@@ -1370,6 +1371,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [System Architecture Principles](concepts/SystemArchitecturePrinciples.md) - Benefits-first rules connecting services, correctness, standards, control capabilities, operability, debt boundaries, and contextual technology choice.
 - [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working software while managing quality, delivery time, cost, complexity, change, operation, and maintenance.
 - [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between difficulty inherent in understanding a problem and the machinery required to implement and operate its solution.
 - [Forward-Reference Learning](concepts/ForwardReferenceLearning.md) - Learning pattern in which a concept is encountered or used before its dependencies are fully explained, requiring temporary ambiguity and later review.

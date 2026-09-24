@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-24] ingest | 我做系统架构的一些原则
+
+Added Chen Hao's benefits-first framework for complex-system architecture. Created [[SystemArchitecturePrinciples]], expanded [[ChenHao]], updated [[APIErrorHandling]] with the operational role of 4xx/5xx semantics, and updated [[ContextualTechnologySelection]] with mature-ecosystem priors, diagnostic data, and X-Y problem discovery. Preserved the central conflict between context-sensitive selection and the article's blanket Java recommendation, plus a reader's unresolved correction to its Sleuth/Zipkin description. All twelve unique local images were opened and omitted as non-evidentiary page art: a generic architecture illustration, related-post thumbnails, rating/loading icons, a repeated avatar, and a promotional portrait; no asset manifest was needed.
+
 ## [2026-09-24] ingest | 银弹飞过先锋大厦
 
 Added Hutusi's history of software engineering and its strong LLM-as-silver-bullet forecast. Created [[Hutusi]], [[SoftwareEngineering]], and [[EssentialAndAccidentalComplexity]]; updated [[ChatGPT]] and [[AICodingPractice]] with the staged Next.js/TypeScript generation and debugging case while preserving the central qualification that the transcript still required human requirement decomposition, local context, correction, verification, and acceptance. Four of five local images were retained with canonical descriptive filenames: the carriage-to-car path-dependence illustration, Margaret Hamilton with Apollo code printouts, Fred Brooks with The Mythical Man-Month and Brooks's law, and npm dependency-complexity cartoons. The Ada Lovelace portrait was inspected and omitted as illustrative-only.
@@ -3491,6 +3495,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] ingest | 胡渊鸣 | 我给 10 个 Claude Code 打工
 
 Added Hu Yuanming's account of turning Claude Code into a mobile, queue-driven pool of parallel workers through EC2 isolation, worktrees, streamed logs, `CLAUDE.md`, `PROGRESS.md`, a web task center, voice input, and batched Plan Mode review. Created [[HuYuanming]], [[MeshyAI]], [[TaichiProgrammingLanguage]], and [[PersonalSoftware]], and updated [[ClaudeCode]], [[VibeCoding]], [[BottleneckAwareAICoding]], [[MobileAgentDevelopment]], and [[AIVoiceInput]]. Preserved the central qualifications that commit frequency and dispatch success are not delivery or quality measures, permissive execution and absent code review carry material risk, and the predicted end of standardized software is speculative. Opened all 12 remote images; retained nine evidence-bearing UI, architecture, workflow, and recovery screenshots and omitted three decorative or promotional images.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-24] lint | Wiki health check
 

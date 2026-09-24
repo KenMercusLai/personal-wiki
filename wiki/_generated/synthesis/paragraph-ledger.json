@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e1e1d421462dc4236875309c13ab895199c837c71eb7d046deb7bde6a122b4ce",
       "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
       "26b6a171316cb2e911fd11cdfeee3d35d34abf0eee0fcf30e76819d8c567e7d0",
       "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
@@ -366,11 +367,31 @@
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
       "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d"
     ],
-    "paragraph_count": 364
+    "paragraph_count": 365
   },
-  "overview_commit": "49c70edcdb07ac9e75cb20a39dffb15163fc9040",
-  "overview_digest": "ed40d7018bffe7ea9946912746eb16c05154197c1015b2c49defe4d24af134e8",
+  "overview_commit": "f05c7fe3722b2120a263fc31820dcff262612dd3",
+  "overview_digest": "5ffd801a51b9dc88b6aec261ce1f3f5c1f2dd3be630344884a5dc0c455b26a3a",
   "paragraphs": [
+    {
+      "id": "e1e1d421462dc4236875309c13ab895199c837c71eb7d046deb7bde6a122b4ce",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[ChenHao]] source adds [[SystemArchitecturePrinciples]] as a benefits-first framework for complex systems. It says architecture should improve team delivery flow, service stability, or total human, time, and financial cost; services and external APIs provide a shared viewpoint across development and operations; strong invariants should normally precede performance shortcuts; and standards make monitoring, retry, circuit breaking, traffic control, configuration, telemetry, deployment, and middleware governance more tractable. [[APIErrorHandling]] now makes the operational consequence explicit: application-specific body codes may add detail, but returning HTTP 200 for every failure hides 4xx-versus-5xx semantics from generic infrastructure. [[ContextualTechnologySelection]] adopts mature global ecosystems as a useful risk-reduction prior and reinforces diagnosis, research, alternative comparison, and X-Y problem discovery, while rejecting the article's blanket Java recommendation as insufficiently conditioned on workload, team, runtime, migration, and deployment constraints. The wider synthesis treats extensibility and operability as lifecycle properties, and legacy debt as something to repay or isolate behind an anti-corruption boundary rather than pass into new architecture. This remains one practitioner's retrospective rather than comparative evidence; simple systems may need less structure, centralized control planes can become bottlenecks, and the article's own comments dispute its stack generalization and one Sleuth/Zipkin implementation claim. All twelve unique local images were opened and omitted: one generic architecture illustration, six related-post thumbnails, three rating/loading icons, a repeated avatar, and one promotional portrait; none adds material evidence to the article.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "APIErrorHandling",
+        "ChenHao",
+        "ContextualTechnologySelection",
+        "SystemArchitecturePrinciples"
+      ]
+    },
     {
       "id": "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
       "primary_topic": "ai-and-technology",

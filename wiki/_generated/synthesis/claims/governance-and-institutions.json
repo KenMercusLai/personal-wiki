@@ -1,6 +1,22 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "technical-standards-create-operational-governance",
+      "qualifications": [
+        "The evidence is one practitioner's framework for complex systems rather than comparative governance research, and centralized control capabilities can become coupling, ownership, or outage bottlenecks.",
+        "Standards need documented domain policies for ambiguous cases; HTTP status classes alone do not settle every business rejection, missing resource, retry, or disclosure decision."
+      ],
+      "statement": "[[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "SystemArchitecturePrinciples",
+        "APIErrorHandling",
+        "ContextualTechnologySelection",
+        "ChenHao"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "email-magic-links-relocate-authentication-trust",
       "qualifications": [

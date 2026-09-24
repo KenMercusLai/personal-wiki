@@ -1,6 +1,22 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "architecture-outcomes-need-contextual-standards",
+      "qualifications": [
+        "The evidence is one practitioner's retrospective for complex systems rather than comparative outcome data; simpler systems may need less structure, centralized control capabilities can become bottlenecks, and the source's blanket Java recommendation is not sufficiently conditioned on workload, team, runtime, migration, or deployment constraints.",
+        "A reader comment disputes one Sleuth and Zipkin implementation description, so that detail remains unresolved within the supplied source."
+      ],
+      "statement": "[[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "SystemArchitecturePrinciples",
+        "APIErrorHandling",
+        "ContextualTechnologySelection",
+        "ChenHao"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "productivity-subscriptions-fund-cross-platform-maintenance",
       "qualifications": [
