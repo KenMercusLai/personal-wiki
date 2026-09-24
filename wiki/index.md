@@ -317,6 +317,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [A small-screen iPod, an Internet Communicator and a Phone](sources/a-small-screen-ipod-an-internet-communicator-and-a-phone-asymco.md) - Horace Dediu argues that Apple Watch had quickly become a major watch business and was moving from iPhone companion toward independent wearable computing and health.
 - [A Note from Juicero's New CEO](sources/a-note-from-juiceros-new-ceo-juicero-medium.md) - Jeff Dunn's response to Juicero hand-squeezing criticism, defending the Press, Produce Packs, app, sourcing, logistics, food-safety controls, and refund guarantee as one connected product system.
 - [A Practitioner's Guide to Net Promoter Score at andrewchen](sources/a-practitioners-guide-to-net-promoter-score-at-andrewchen.md) - Sachin Rekhi's practical guide to making NPS useful through representative sampling, consistent methodology, open-ended comment analysis, behavior correlation, and product-planning integration.
+- [A Simple Way to Run a Sprint Retrospective](sources/a-simple-way-to-run-a-sprint-retrospective.md) - Mountain Goat Software's start-stop-continue workflow for generating, voting on, limiting, reviewing, and carrying forward sprint-retrospective actions.
 - [After the Techcrunch bump: Life in the "Trough of Sorrow" at andrewchen](sources/after-the-techcrunch-bump-life-in-the-trough-of-sorrow-at-andrewchen.md) - Andrew Chen argues that founders in the pre-fit trough need emotional steadiness, root-bottleneck diagnosis, reduced product risk, runway for iterations, and small tactical wins.
 - [Creator Economy 2.0: What we've learned, why it's hard, and what's next](sources/andrew-chen-creator-economy-2-0-what-weve-learned-why-its-hard-and-whats-next.md) - Andrew Chen argues that creator-economy startups must navigate creator power laws, bio-link scarcity, graduation risk, and algorithmic traffic volatility.
 - [The Dinner Party Jerk Test](sources/andrew-chen-the-dinner-party-jerk-test.md) - Andrew Chen argues that early founders should pitch team, earned secrets, proof points, and future upside more forcefully than ordinary social modesty permits.
@@ -679,6 +680,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fábio Aguiar](entities/FabioAguiar.md) - Co-author of the Product Backlog Building technique with Paulo Caroli.
 - [Kent Beck](entities/KentBeck.md) - Extreme Programming practitioner credited here with introducing the User Story term.
 - [Mike Cohn](entities/MikeCohn.md) - User-story reference author cited for User Stories Applied and INVEST sizing refinement.
+- [Mountain Goat Software](entities/MountainGoatSoftware.md) - Agile and Scrum publisher represented by a practical start-stop-continue sprint-retrospective guide.
 - [William C. Wake](entities/WilliamWake.md) - Source of the INVEST user-story quality acronym in the PBB article.
 - [Nicholas Carlini](entities/NicholasCarlini.md) - Machine-learning security researcher and programmer represented here by a concrete, caveated taxonomy of practical LLM use.
 - [Courtney Seiter](entities/CourtneySeiter.md) - Buffer author represented by practitioner accounts of remote work and continuous, question-led employee coaching.
@@ -1876,7 +1878,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
 - [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
 - [Iterative Product Shipping](concepts/IterativeProductShipping.md) - Releasing product work in frequent staged versions so each release creates evidence, reduces bugs, and guides investment.
-- [Product Retrospectives](concepts/ProductRetrospectives.md) - Team reflection practice using start, stop, and continue to turn recent product work into process learning.
+- [Product Retrospectives](concepts/ProductRetrospectives.md) - Structured team reflection that turns iteration or project experience into a small, prioritized set of product and process changes.
 - [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.

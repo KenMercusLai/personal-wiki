@@ -3328,6 +3328,10 @@ Added Tony Stubblebine's transition-based journaling method for closing the prev
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-24] ingest | A Simple Way to Run a Sprint Retrospective
+
+Added Mountain Goat Software's action-oriented start-stop-continue retrospective workflow: vary elicitation, vote when ideation slows, select no more than three priorities, reinforce continues until habitual, prune achieved or obsolete items, and carry the previous list forward as optional context. Created [[MountainGoatSoftware]] and updated [[ProductRetrospectives]] from its complete ordered source inventory. Preserved the main qualifications that this is practitioner guidance rather than comparative outcome evidence, open call-outs and voting can reproduce participation and popularity biases, and a strict action focus can suppress emotional, interpersonal, burnout, or power-dynamic evidence. The sole local image was opened and retained canonically because it depicts both the three-column board and ballot-based prioritization.
+
 ## [2026-09-24] ingest | “The Linux of social media”—How LiveJournal pioneered (then lost) blogging
 
 Added Steven T. Wright's retrospective on LiveJournal's rise from Brad Fitzpatrick's dorm-room posting script to a ten-million-account social platform and its decline through operational strain, founder burnout, policy conflict, commercialization pressure, acquisition mismatch, and competition from public-feed networks. Created [[LiveJournal]], [[BradFitzpatrick]], [[SixApart]], [[Dreamwidth]], and [[CommunityGovernanceDebt]]; updated [[EmergentProductIdentity]] and [[PlatformAbuseResponse]] with community-shaped product identity, adversarial reporting, contextual moderation, and the cost of inherited promises and distrust. All four unique local images were opened: two duplicate Jon Snow stills and a generic social-app phone photograph were omitted, while a memcached hits-and-misses chart was retained with a descriptive filename and explicit qualification that it is a 2013 Ars server example rather than LiveJournal performance data.
@@ -3547,6 +3551,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] ingest | A Manager’s FAQ
 
 Added Henry Ward's 2016 eShares management doctrine and created [[ManagerialResponsibility]] around strength-based feedback, diagnostic curiosity, developmental delegation, upward problem ownership, self-evaluation, influence, and accountable exits. Created [[JoshuaMerrill]] and updated [[EShares]], [[HenryWard]], [[ContinuousWorkplaceFeedback]], and [[CompassionateManagement]] from their complete ordered source inventories. Preserved the central qualifications that the essay is a founder-authored operating philosophy rather than outcome evidence, that strength development cannot displace correction of harmful work, and that sincere managerial judgment does not replace documentation, employee response, anti-bias controls, accommodation, policy, or law. All three unique local assets were opened: the decorative title illustration and its thumbnail duplicate were omitted, while the small feedback-comparison graphic was retained canonically with its evidentiary limits recorded.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-24] lint | Wiki health check
 
