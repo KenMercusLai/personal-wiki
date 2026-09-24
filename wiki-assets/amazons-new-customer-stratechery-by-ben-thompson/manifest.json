@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "amazons-new-customer-stratechery-by-ben-thompson",
+  "images": [
+    {
+      "file": "amazon-grocery-services-model.png",
+      "alt": "Diagram of modular Amazon Grocery Services linking suppliers to Whole Foods, delivery, and restaurant customers"
+    }
+  ]
+}

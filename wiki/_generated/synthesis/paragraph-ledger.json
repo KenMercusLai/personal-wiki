@@ -48,6 +48,7 @@
       "1338bbe0898e4537c08459fa4ab1ba1b2d95a03433342d82651128589c6c0001",
       "e9b393e78c57fbf069d0fe5daf36f3c121d070a50dc496381de31cc4df7ea36a",
       "f0386dab63fa2877019c5e4100bfeaee906fc14e4d3400e5ca07375abe74827e",
+      "62ea7b70b862d2757d904c2cc3951f2cbdd8d5849ef0996bfa9fe8af0d5f0165",
       "556938b7ac7bc699ac0df5111f550ceced99ad128d16f5bb76ba2ae0c733acf0",
       "e075231a76dbbeca3e316225bfa85970c48244524c9d43a4a9e99891fd533425",
       "a23c9f121fcf4949ea7d808e928dfc26bd0dc56fe5478840b24e0c2239547523",
@@ -380,10 +381,10 @@
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
       "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed"
     ],
-    "paragraph_count": 378
+    "paragraph_count": 379
   },
-  "overview_commit": "920c22ca6874dee7b61fc895308804ae7ffc654c",
-  "overview_digest": "eb6176b4f15c68a5e438b02e2d661a3d4473816300b510938e2a00f45cf36929",
+  "overview_commit": "522a7c602cebab6afad950f228e760ad4e01ee44",
+  "overview_digest": "525fb7ca8e6a4772e22f91dab1777563f34e7af47e109115ac07ce1e26d147cd",
   "paragraphs": [
     {
       "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
@@ -1278,6 +1279,24 @@
       },
       "wikilinks": [
         "AutomobilitySecondOrderEffects"
+      ]
+    },
+    {
+      "id": "62ea7b70b862d2757d904c2cc3951f2cbdd8d5849ef0996bfa9fe8af0d5f0165",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Stratechery source sharpens the wiki's Amazon expansion model through [[FirstAndBestCustomer]]. [[BenThompson]] argues that [[Amazon]] is best understood as a scale-protected services provider: its own demanding operation justifies high fixed-cost infrastructure, modular primitives let external customers reuse it, and their demand raises utilization and returns to scale. [[AWS]] and third-party fulfillment supply the established analogies, while the 2017 [[WholeFoods]] acquisition is interpreted as buying the anchor customer that AmazonFresh lacked for city-level perishable inventory. [[AmazonPrime]] adds the consumer motive because frequent grocery trips repeatedly expose members to competing retailers despite Prime's convenience moat. The inspected diagram materially supports the model by separating modular suppliers, a shared Amazon Grocery Services layer, and customers including Whole Foods, delivery, and restaurants. The synthesis preserves a strict forecast boundary: the source does not establish that the proposed external grocery-services or restaurant-supply platform was later built or profitable.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2
+      },
+      "wikilinks": [
+        "AWS",
+        "Amazon",
+        "AmazonPrime",
+        "BenThompson",
+        "FirstAndBestCustomer",
+        "WholeFoods"
       ]
     },
     {

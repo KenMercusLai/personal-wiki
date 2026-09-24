@@ -6,24 +6,27 @@ sources:
   - adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson
   - apples-middle-age-stratechery-by-ben-thompson
   - apples-social-network-stratechery-by-ben-thompson
-last_updated: 2026-09-13
+  - amazons-new-customer-stratechery-by-ben-thompson
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, [[Apple]]'s mature vertical hardware strategy, and Apple's customer-engagement reporting gap.
+[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, [[Apple]]'s mature vertical hardware strategy, Apple's customer-engagement reporting gap, and [[Amazon]]'s scale-driven services model.
 
 ## Current Profile
 The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeCloud]] through the economics of packaged software, SaaS, productivity apps, and mobile platforms. His argument moves from user-level willingness to pay to producer incentives and then to platform-owner strategy: subscriptions can help app makers survive, but they can also help platform owners retain users who depend on indispensable apps. The Apple middle-age source shows the same incentive lens applied to a hardware company: Thompson argues that [[AppleMusic]] and Services should be understood as ways to differentiate and sell Apple devices, with [[HomePod]] as a case where service adoption bridges into hardware profit. The Apple social-network source adds a measurement lens: if Apple wants investors to value engagement and installed-base monetization, Thompson argues it should disclose active customers and revenue per user rather than only active devices and Services revenue.
+
+Thompson applies a goal-strategy-tactics and infrastructure-economics lens to Amazon. He argues that ecommerce is a tactic inside a broader services model: Amazon uses itself—or an acquired operation such as [[WholeFoods]]—as the [[FirstAndBestCustomer]] for expensive infrastructure, decomposes the system into primitives, and sells it to outside customers. The essay is strongest as a model of Amazon's behavior; its specific grocery delivery and restaurant-supply claims are forecasts.
 
 ## Key Characteristics
 - Frames technology announcements through business-model and incentive changes.
 - Uses economic-surplus reasoning to explain why packaged productivity software misprices different users.
 - Connects software monetization to platform strategy rather than treating it as a developer-only concern.
-- Treats app-store subscription support as a way for platforms to strengthen user retention.
-- Distinguishes services financial contribution from a company's underlying business model.
+- Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
 - Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
-- Uses reporting choices, customer metrics, and engagement programs to test whether Apple's public story matches the economics it wants investors to believe.
+- Uses reporting choices, customer metrics, and engagement programs to test whether a company's public story matches its underlying economics.
+- Separates goals, strategies, and tactics while tracing how anchor demand, modular primitives, and scale economics can turn operations into platforms.
 
 ## Evidence
 - Business-model lens: [[adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson]] says Adobe's announcement matters because new business models are rarer than new product versions.
@@ -34,12 +37,13 @@ The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeC
 - Market maturity: [[apples-middle-age-stratechery-by-ben-thompson]] argues Apple's 2018 growth pressure came from premium-smartphone saturation, lengthening upgrade cycles, and the need to sell more to existing users.
 - Reporting critique: [[apples-social-network-stratechery-by-ben-thompson]] argues Apple's post-unit-sales reporting still lacked active-customer and revenue-per-user metrics.
 - Engagement lens: [[apples-social-network-stratechery-by-ben-thompson]] frames [[TodayAtApple]] as Apple's controlled, real-world alternative to a traditional social network.
+- Amazon model: [[amazons-new-customer-stratechery-by-ben-thompson]] interprets Whole Foods as an anchor customer for a modular grocery-services layer modeled on AWS and fulfillment.
 
 ## Qualifications
-This page covers Thompson only through three Stratechery articles. It does not summarize his broader publishing history, aggregation theory work, later writing, or current views.
+This page covers Thompson only through four Stratechery articles. It does not summarize his broader publishing history, aggregation theory work, later writing, or current views. The Amazon grocery-services thesis was prospective in 2017 and should not be read as a verified later outcome.
 
 ## What Changed
-- Added Thompson's Apple customer-engagement and reporting critique alongside the Adobe and mature-Apple strategy analyses.
+- Added Thompson's Amazon services-provider thesis and first-and-best-customer mechanism.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -49,3 +53,5 @@ This page covers Thompson only through three Stratechery articles. It does not s
 - [[Apple]] - company whose mature hardware-centered strategy Thompson analyzes.
 - [[AppleMiddleAgeStrategy]] - concept capturing Thompson's Apple maturity argument.
 - [[AppleRealWorldSocialNetwork]] - concept capturing Thompson's Today at Apple engagement analogy.
+- [[Amazon]] - company Thompson interprets through fixed costs, modular infrastructure, and returns to scale.
+- [[FirstAndBestCustomer]] - anchor-demand mechanism developed in Thompson's Amazon analysis.

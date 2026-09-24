@@ -3627,3 +3627,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Amazon's New Customer
+
+Added Ben Thompson's first-and-best-customer framework for understanding Amazon as a scale-driven services provider. Created [[FirstAndBestCustomer]] and [[WholeFoods]], and updated [[Amazon]], [[AmazonPrime]], [[AmazonCapabilityLedExpansion]], [[BenThompson]], and [[JeffBezos]] from their complete ordered source inventories. Preserved the boundary between the article's infrastructure model and its unverified 2017 forecasts about external grocery services and restaurant supply. Inspected and retained the article's substantive grocery-services architecture diagram with a canonical asset manifest.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

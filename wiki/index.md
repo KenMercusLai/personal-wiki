@@ -455,6 +455,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [《卡片笔记写作法》笔记](sources/ka-pian-bi-ji-xie-zuo-fa-bi-ji.md) - 一篇将卡片盒解释为从闪念和文献笔记到永久笔记、链接、主题发展与成稿的外部思考系统的读书笔记。
 - [胡渊鸣 | 我给 10 个 Claude Code 打工](sources/hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong.md) - 胡渊鸣记录如何用任务队列、Git worktree、流式日志、持久经验、网页管理器、语音输入和批量 Plan Mode 管理并行 Claude Code，并据此讨论个人软件与工程角色变化。
 
+- [Amazon's New Customer](sources/amazons-new-customer-stratechery-by-ben-thompson.md) - Ben Thompson interprets Whole Foods as the anchor customer for a modular Amazon grocery-services platform built on the same fixed-cost and scale logic as AWS.
+
 ## Entities
 
 - [Alexandra Phelan](entities/AlexandraPhelan.md) - Academic author documenting a Zotero, Obsidian, and Pandoc research-writing workflow.
@@ -1403,6 +1405,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Meshy AI](entities/MeshyAI.md) - 3D AI product and company providing the CEO and foundation-model context for Hu Yuanming's personal software account.
 - [Taichi Programming Language](entities/TaichiProgrammingLanguage.md) - GPU-oriented programming language and compiler created by Hu Yuanming for high-performance physical simulation.
 
+- [Whole Foods](entities/WholeFoods.md) - Grocery retailer interpreted as the acquired anchor customer for Amazon's proposed grocery-services infrastructure.
+
 ## Concepts
 
 - [Academic Research Workflow](concepts/AcademicResearchWorkflow.md) - End-to-end system connecting source collection, annotation, linked synthesis, Markdown drafting, citation processing, project tracking, and manuscript export.
@@ -2240,5 +2244,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Backpropagation](concepts/Backpropagation.md) - Backward credit-assignment procedure that turns output error into earlier-layer deltas and parameter gradients.
 - [Headless Agent Architecture](concepts/HeadlessAgentArchitecture.md) - IM- or API-first agent runtime combining an event-driven daemon, tools, durable state, scheduled work, and explicit observability and permission controls.
 - [Personal Software](concepts/PersonalSoftware.md) - Software built around one person's exact workflow without necessarily taking on the generalization, scale, and support obligations of a multi-user product.
+
+- [First-and-Best Customer](concepts/FirstAndBestCustomer.md) - Platform pattern in which internal or acquired anchor demand underwrites high fixed-cost infrastructure before external commercialization.
 
 ## Syntheses
