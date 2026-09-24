@@ -463,9 +463,11 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Amazon's New Customer](sources/amazons-new-customer-stratechery-by-ben-thompson.md) - Ben Thompson interprets Whole Foods as the anchor customer for a modular Amazon grocery-services platform built on the same fixed-cost and scale logic as AWS.
 - [Android Apps With More Than 2 Billion Total Downloads Are Committing Ad Fraud](sources/android-apps-with-more-than-2-billion-total-downloads-are-committing-ad-fraud.md) - Craig Silverman reports how eight high-download Android apps allegedly manipulated last-click install attribution through click injection, click flooding, permission access, and network concealment.
+- [Atlassian's $5.5 billion user onboarding magic](sources/atlassians-5-5-billion-user-onboarding-magic.md) - Jackson Noel argues that Atlassian's efficient self-service growth came from focused products and clear first actions more than exceptional onboarding polish.
 
 ## Entities
 
+- [Atlassian](entities/Atlassian.md) - Australian workplace-software company used as a historical case of focused-product, self-service SaaS growth.
 - [Philip Yurchuk](entities/PhilipYurchuk.md) - Software practitioner and author of a repair-shop analogy for failure-informed enterprise procurement.
 - [Threadloom](entities/Threadloom.md) - Forum-search vendor and publisher whose commercial position qualifies its comparison of forums with Facebook Groups.
 - [Jessica Salvatore](entities/JessicaSalvatore.md) - Psychologist quoted on connection, emergent forum identity, wellbeing, and offline civic participation.
@@ -1425,6 +1427,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS acquisition and activation enabled by clear product scope, free evaluation, contextual guidance, and meaningful first actions.
 - [Failure-Informed Vendor Selection](concepts/FailureInformedVendorSelection.md) - Product diligence grounded in the cross-vendor failure, repair, implementation, and maintenance experience of downstream practitioners.
 - [Forum Community Design](concepts/ForumCommunityDesign.md) - Specialized, thread-based community architecture balancing durable retrieval, shared identity, pseudonymity, moderation, and discovery.
 - [Workplace Perk Design](concepts/WorkplacePerkDesign.md) - Values- and outcomes-led selection of benefits, amenities, and deliberate exclusions based on autonomy, wellbeing, inclusion, and work effects.

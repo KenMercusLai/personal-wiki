@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
       "f1f1581bceaee7f6291efc4a7b150ea22401533b5f3030432d996941e7758376",
       "743369967a4157761b9f07f093aa03f5cf063aea120ef8389b9036f2c83b65ab",
       "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
@@ -388,11 +389,29 @@
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe"
     ],
-    "paragraph_count": 386
+    "paragraph_count": 387
   },
-  "overview_commit": "a8a7faa36b34b30bc68465523bcbcb0abda1ad57",
-  "overview_digest": "a9c9bc361470847720543255270ff1a05a6bfabf517103a366955099aec34943",
+  "overview_commit": "b4cafb8979ddd567a2d39df249d30e949f943192",
+  "overview_digest": "2fe8e0e82e9c52b7e5b4f1ccd6ea5a9e53a2763e6a85ae7ae44ac4aeec587038",
   "paragraphs": [
+    {
+      "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Atlassian source adds [[SelfServiceSaaSGrowth]] as a product-scope and onboarding layer across the wiki's SaaS growth material. The historical case argues that [[Atlassian]] could rely on a low-touch funnel because JIRA, HipChat, Confluence, and Bitbucket each presented a focused job and one meaningful first action, while free tiers or a credit-card-free trial lowered commitment before value. [[ProductFlowFriction]] gains a sharper distinction: skippable explanation of unfamiliar terminology can reduce cognitive burden, but email-confirmation detours, 46–60-second provisioning waits, repeated login, and missing collaborator prompts either break momentum or fail to establish team value. [[FreemiumAcquisition]] gains a portfolio example in which free tiers and trials varied by product rather than applying one model uniformly. The article reports $320 million in annual revenue, virtually no sales team, 12–21% sales-and-marketing spend, and more than 40% research-and-development spend, but those figures are relayed from another analyst and the teardown supplies no funnel, retention, support-cost, or causal comparison data. The stronger synthesis is therefore conditional: focused products can make self-service activation easier, while complex suites and divergent user needs may still require human discovery, implementation, or account support. The Markdown contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Atlassian",
+        "FreemiumAcquisition",
+        "ProductFlowFriction",
+        "SelfServiceSaaSGrowth"
+      ]
+    },
     {
       "id": "f1f1581bceaee7f6291efc4a7b150ea22401533b5f3030432d996941e7758376",
       "primary_topic": "ai-and-technology",

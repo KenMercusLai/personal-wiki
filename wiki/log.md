@@ -3691,3 +3691,11 @@ Added Philip Yurchuk's repair-shop analogy for enterprise procurement and create
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Atlassian's $5.5 billion user onboarding magic
+
+Added Jackson Noel's historical teardown of onboarding across JIRA, HipChat, Confluence, and Bitbucket. Created [[Atlassian]] and [[SelfServiceSaaSGrowth]], and updated [[ProductFlowFriction]] and [[FreemiumAcquisition]] from their complete ordered source inventories. The synthesis attributes the low-touch model to focused products, clear first actions, and low-commitment evaluation while preserving observed email, provisioning, login, and invitation friction. It treats the financial figures as relayed historical claims rather than verified causal evidence. The source contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

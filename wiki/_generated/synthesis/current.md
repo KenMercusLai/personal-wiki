@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-25
-as_of_overview_commit: a8a7faa36b34b30bc68465523bcbcb0abda1ad57
+as_of_overview_commit: b4cafb8979ddd567a2d39df249d30e949f943192
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, community design, and judgment turn constraints into outcomes."
-episode_count: 454
-source_count: 454
-paragraph_count: 386
+episode_count: 455
+source_count: 455
+paragraph_count: 387
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Durable technical progress combines underlying-system knowledge, contextual arch
 
 ### Business and Markets
 
-Companies convert scarce resources into durable value through stable demand, learning, retained value, coherent incentives, explicit platform boundaries, and relationship channels.
+Companies convert scarce resources into durable value through stable demand, focused product scope, learning, retained value, coherent incentives, explicit platform boundaries, and relationship channels; self-service growth is conditional on clear activation rather than onboarding spectacle alone.
 
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].
 - [[AudienceTargeting]], [[ProgrammaticAdvertising]], and [[DataManagementPlatform]] connect marketing economics across three layers: campaign objectives should extend from impressions and conversions to customer value, inventory moves through direct, guaranteed, preferred, private-auction, and open-exchange paths, and synchronized identifiers turn audience segments into bids; [[IdentityResolution]] strengthens continuity by linking cross-site identifiers to a person while also raising the privacy stakes. Evidence: [[AudienceTargeting]], [[ProgrammaticAdvertising]], [[DataManagementPlatform]], [[IdentityResolution]], [[GoogleAdWords]], [[GoogleAnalytics]], [[AnalyticsVidhya]].
