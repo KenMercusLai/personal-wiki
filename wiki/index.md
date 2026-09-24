@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [A Guide to Co-founder Fit](sources/a-guide-to-co-founder-fit-fundersclub.md) - FundersClub treats founder fit as an evolving system of tested trust, complementary capability, role clarity, strategic and equity alignment, recurring candor, and mutual support.
 - [A Crowded Space, The Rebundling of Craigslist](sources/a-crowded-space-the-rebundling-of-craigslist.md) - Josh Breinlinger argues that many micro-vertical Craigslist unbundlers lacked sufficient frequency or transaction value, favoring broader category platforms while leaving room for large vertical exceptions such as Airbnb.
 - [A Comprehensive Guide to Digital Marketing and Analytics](sources/a-comprehensive-guide-to-digital-marketing-and-analytics.md) - Analytics Vidhya maps digital marketing from media channels and auction mechanics through tagging, programmatic infrastructure, DMP targeting, identity resolution, and profit-linked campaign analytics.
 - [A 101 on 1:1s](sources/a-101-on-1-1s-labs.md) - A Spotify manager uses five explicit goals to turn vague one-on-ones into focused conversations about trust, feedback, development, team health, and product direction.
@@ -446,6 +447,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [FundersClub](entities/FundersClub.md) - Venture-capital organization publishing practitioner guidance on co-founder fit and descriptive portfolio founder-count data.
 - [Josh Breinlinger](entities/JoshBreinlinger.md) - Marketplace investor and author of the Craigslist rebundling thesis, with disclosed portfolio exposure to OfferUp and Upwork.
 - [OfferUp](entities/OfferUp.md) - Broad local-commerce marketplace used as the for-sale category example in the rebundling thesis.
 - [Parker Thompson](entities/ParkerThompson.md) - Startup adviser arguing for team-level engineering productivity, cross-functional product roles, collaborative craft, and early inclusive hiring.
@@ -1378,6 +1380,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Co-Founder Fit](concepts/CoFounderFit.md) - Evolving compatibility among founders across trust, values, capabilities, roles, ambition, economics, communication, and support.
 - [Marketplace Rebundling](concepts/MarketplaceRebundling.md) - Consolidation of narrow marketplace use cases into broader category platforms when frequency, transaction value, shared liquidity, and limited user attention favor breadth.
 - [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, cookie, or partner identifiers to a durable person-level identity for recognition and targeting, with heightened privacy risk.
 - [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.

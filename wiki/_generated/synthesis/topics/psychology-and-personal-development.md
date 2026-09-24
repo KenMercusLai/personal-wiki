@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-24
-as_of_overview_commit: 4a654dd490d54ee94702cd4ad1ead07637fa10ec
-input_digest: e6325f37c0a252fd9624a426c61c04d82ff2bd8e8b60277d524502adf21d65eb
+as_of_overview_commit: 66b1b3de83694d34aa95da5b17c3c623fc15e4da
+input_digest: 86957808cc12a09979816fdb43feb88d82c33b3a78398ddc54481dda961fa406
 ---
 
 # Psychology and Personal Development
@@ -63,14 +63,14 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 ### Trust And Good Faith Can Speed Collaboration
 
-[[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]] argue that collaboration improves when people start from good faith, maintain relationships actively, process conflict directly, and define decision boundaries before avoidance or chronic fighting consumes trust; one founder practice operationalizes this as an equal-status sequence from personal life to work to desired changes, surfacing feelings and motivations before debating plans while accepting that honest clarity may still support separation.
+[[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderFit]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[FounderTechnicalCapability]], and [[StartupTeamBond]] argue that collaboration improves when people start from good faith, test trust and capability through observed work, align values, roles, strategy, and equity, maintain relationships actively, and process conflict before avoidance or chronic fighting consumes trust; recurring private conversation can surface feelings and motivations before plans are contested, while honest clarity may still support renegotiation or separation.
 
-**Evidence:** [[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[StartupTeamBond]], [[Posterous]], [[GarryTan]]
+**Evidence:** [[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderFit]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[FounderTechnicalCapability]], [[StartupTeamBond]], [[Posterous]], [[GarryTan]], [[FundersClub]]
 
 **Qualifications:**
 
 - The same sources warn that low-trust, unsafe, coercive, bad-faith, or already-broken contexts require boundaries, stronger skepticism, role changes, outside help, or separation rather than naive harmony.
-- The three-question founder ritual is an anecdotal practitioner account, not comparative evidence; personal disclosure requires consent, confidentiality, trust, and psychological safety, and alcohol is not a necessary or universally safe aid.
+- The three-question founder ritual and FundersClub guide are anecdotal practitioner accounts, not comparative evidence; personal disclosure requires consent, confidentiality, trust, and psychological safety, the guide does not validate its quoted failure rate or connect founder count to outcomes, and public solidarity must not conceal misconduct.
 
 ### Future Choice Should Not Be Anchored To Past Cost
 

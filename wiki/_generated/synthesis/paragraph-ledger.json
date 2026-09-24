@@ -368,12 +368,13 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
       "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d",
-      "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6"
+      "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
+      "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750"
     ],
-    "paragraph_count": 368
+    "paragraph_count": 369
   },
-  "overview_commit": "6b20505d8dd53f28443f8c4cd16b3777c5130db4",
-  "overview_digest": "ecc501f2ba8124e75f754e1ef288ed0e7f2fb19940250ea5e6ee0054b04e4aa5",
+  "overview_commit": "66b1b3de83694d34aa95da5b17c3c623fc15e4da",
+  "overview_digest": "0728cdb8ae74d147cbc27f23e312078c0c321402fc20c0c7e67ea748973ef04f",
   "paragraphs": [
     {
       "id": "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
@@ -7487,6 +7488,27 @@
         "OfferUp",
         "Thumbtack",
         "Upwork"
+      ]
+    },
+    {
+      "id": "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[FundersClub]] guide adds [[CoFounderFit]] as the integrated founder-team layer across selection and maintenance. Its practical test is not simple friendship or personality similarity: founders should gather evidence through prior strain, joint work, tangible deliverables, independent expert assessment when one partner cannot judge another's domain, and an early separation mechanism. Complementary capabilities create leverage only alongside compatible values, explicit decision ownership, and shared definitions of mission, growth pace, spending, risk, exit, success, and failure; equity and vesting are relationship infrastructure because formal ownership does not eliminate motivational resentment. The guide also reinforces [[CoFounderConflict]], [[FounderVisionAlignment]], [[FounderTechnicalCapability]], and [[StartupTeamBond]] through recurring private conversation, optional coaching, private challenge, and dependable public support. The synthesis remains qualified: its examples are selected practitioner anecdotes, the quoted 65% management-instability failure claim lacks study details in the supplied document, and its chart of 177 portfolio companies describes founder counts without comparing outcomes or proving that the largest category—two founders at 51%—is optimal. Both local images were inspected; the decorative lead photograph was omitted and the founder-count chart was retained canonically.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CoFounderConflict",
+        "CoFounderFit",
+        "FounderTechnicalCapability",
+        "FounderVisionAlignment",
+        "FundersClub",
+        "StartupTeamBond"
       ]
     }
   ],

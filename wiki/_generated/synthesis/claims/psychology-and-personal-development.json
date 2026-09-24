@@ -86,19 +86,22 @@
       "id": "trust-and-good-faith-can-speed-collaboration",
       "qualifications": [
         "The same sources warn that low-trust, unsafe, coercive, bad-faith, or already-broken contexts require boundaries, stronger skepticism, role changes, outside help, or separation rather than naive harmony.",
-        "The three-question founder ritual is an anecdotal practitioner account, not comparative evidence; personal disclosure requires consent, confidentiality, trust, and psychological safety, and alcohol is not a necessary or universally safe aid."
+        "The three-question founder ritual and FundersClub guide are anecdotal practitioner accounts, not comparative evidence; personal disclosure requires consent, confidentiality, trust, and psychological safety, the guide does not validate its quoted failure rate or connect founder count to outcomes, and public solidarity must not conceal misconduct."
       ],
-      "statement": "[[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderConflict]], [[FounderVisionAlignment]], and [[StartupTeamBond]] argue that collaboration improves when people start from good faith, maintain relationships actively, process conflict directly, and define decision boundaries before avoidance or chronic fighting consumes trust; one founder practice operationalizes this as an equal-status sequence from personal life to work to desired changes, surfacing feelings and motivations before debating plans while accepting that honest clarity may still support separation.",
+      "statement": "[[AssumePositiveIntent]], [[WorkplaceCollaboration]], [[HanlonsRazor]], [[CoFounderFit]], [[CoFounderConflict]], [[FounderVisionAlignment]], [[FounderTechnicalCapability]], and [[StartupTeamBond]] argue that collaboration improves when people start from good faith, test trust and capability through observed work, align values, roles, strategy, and equity, maintain relationships actively, and process conflict before avoidance or chronic fighting consumes trust; recurring private conversation can surface feelings and motivations before plans are contested, while honest clarity may still support renegotiation or separation.",
       "status": "qualified",
       "supporting_wikilinks": [
         "AssumePositiveIntent",
         "WorkplaceCollaboration",
         "HanlonsRazor",
+        "CoFounderFit",
         "CoFounderConflict",
         "FounderVisionAlignment",
+        "FounderTechnicalCapability",
         "StartupTeamBond",
         "Posterous",
-        "GarryTan"
+        "GarryTan",
+        "FundersClub"
       ]
     },
     {

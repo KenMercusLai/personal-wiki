@@ -3535,3 +3535,11 @@ Added Josh Breinlinger's 2017 retrospective on Craigslist unbundling and created
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A Guide to Co-founder Fit
+
+Added FundersClub's practitioner guide to selecting and maintaining a founding partnership. Created [[CoFounderFit]] and [[FundersClub]], connecting tested joint work, complementary capabilities, shared values, explicit decision domains, aligned definitions of success and failure, acceptable equity and vesting, recurring private candor, and dependable public support. Preserved the central qualifications that the guide is anecdotal, does not compare outcomes by founder count, and gives no study details for its quoted 65% management-instability failure claim. Both local images were inspected: the decorative lead photograph was omitted, while the chart of founder counts across 177 FundersClub portfolio companies was retained canonically and described as portfolio context rather than evidence that any team size performs better.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
