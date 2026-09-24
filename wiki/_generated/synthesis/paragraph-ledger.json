@@ -390,12 +390,13 @@
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
       "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52",
       "07a8d807d13719b703f81cbb3ee281d4485f175db8f04c2d1694b656a92672b1",
-      "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6"
+      "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6",
+      "1cd0f64b4997aa5fe15323c8ce8ade83a80aebb4643007b2c89393a8ac9252b2"
     ],
-    "paragraph_count": 390
+    "paragraph_count": 391
   },
-  "overview_commit": "410ad9c8c181d7daadfb420332525427ccbf1634",
-  "overview_digest": "f6859129f878ff18ca898dad807c93cff725f0791e71c660b11cfe4387dd0a2b",
+  "overview_commit": "07e00c713b09a689f1ab60f28d9cd83739754fc2",
+  "overview_digest": "03da0d7b10eb04c5aa5316b8f88bccaf0d4f1874383c6a9f298e0bde6f0a0cca",
   "paragraphs": [
     {
       "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
@@ -7934,6 +7935,26 @@
         "StartupCTORoleEvolution",
         "StartupScaling",
         "SuperAwesome"
+      ]
+    },
+    {
+      "id": "1cd0f64b4997aa5fe15323c8ce8ade83a80aebb4643007b2c89393a8ac9252b2",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[FredWilson]] source adds [[LiveProductDemo]] as an evidence mechanism inside [[StartupVisionSelling]]. In Wilson's account of [[JeffLawson]]'s 2008 [[Twilio]] seed pitch, Lawson compressed the platform thesis into reducing telephony to five API calls, answered disbelief by naming the calls, then live-coded an application that made Wilson's own phone ring within about 30 seconds. The case sharpens the relationship between vision and proof: a surprising abstraction becomes credible when the demonstrated behavior is tightly aligned with the claim, personally verifiable, and fast enough to resolve the audience's central doubt. It also connects the product promise to [[DeveloperExperience]], because the persuasive move depends on making a complex infrastructure domain programmable through a small interface. The evidence remains one investor's retrospective about an exceptional encounter; the demonstration proves one capability, not market demand, production reliability, the full diligence case, or that the pitch caused Twilio's later IPO. The Markdown contains no image references.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "DeveloperExperience",
+        "FredWilson",
+        "JeffLawson",
+        "LiveProductDemo",
+        "StartupVisionSelling",
+        "Twilio"
       ]
     }
   ],

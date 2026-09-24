@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Best Seed Pitch Ever](sources/best-seed-pitch-ever-avc.md) - Fred Wilson recalls Jeff Lawson pairing Twilio's five-API-call value proposition with a live-coded demo that made Wilson's phone ring within about 30 seconds.
 - [Being a start-up CTO (or ‘how I fired myself enough times to finally become CTO’)](sources/being-a-start-up-cto-or-how-i-fired-myself-enough-times-to-finally-become-cto.md) - Joshua Wöhle argues that a scaling startup CTO must repeatedly transfer former responsibilities to specialist leaders and anticipate the next bottleneck.
 - [Being a Solo Founder: Pros, Cons, Tips & Tricks](sources/being-a-solo-founder-pros-cons-tips-tricks-baremetrics.md) - Baremetrics frames solo founding as a trade between speed and clear authority versus concentrated decisions, blind spots, isolation, and health risk.
 - [Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters](sources/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters.md) - A reversible zero-width Unicode marker can attribute copied text to a recipient, but its reported success is qualified by stripping, tampering, and false-attribution risks.
@@ -1441,6 +1442,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kochava](entities/Kochava.md) - Mobile attribution provider that detected and documented the reported Cheetah and Kika behavior.
 - [Craig Silverman](entities/CraigSilverman.md) - BuzzFeed News journalist who reported and updated the 2018 Android attribution-fraud investigation.
 
+- [Jeff Lawson](entities/JeffLawson.md) - Twilio founder and CEO whose 2008 seed pitch paired a compressed API claim with a working live demonstration.
+- [Twilio](entities/Twilio.md) - Communications API company presented as reducing telephony complexity to a few developer-facing calls.
+
 ## Concepts
 
 - [Startup CTO Role Evolution](concepts/StartupCTORoleEvolution.md) - A startup technology leader's responsibilities change as successive technical, product, people, and coordination bottlenecks emerge.
@@ -2293,5 +2297,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Startup Distribution Strategy](concepts/StartupDistributionStrategy.md) - Co-designed theory for product-driven acquisition, channel fit, and progression from responsive early audiences to competitive scaled reach.
 - [App Install Attribution Fraud](concepts/AppInstallAttributionFraud.md) - Manipulation of mobile click, install, and open signals to claim payment for demand an actor did not create.
 - [B2B Content Formats](concepts/B2BContentFormats.md) - Reusable brand-editorial structures selected for search discovery, instruction, evidence, debate, scanning, or relationship nurture.
+
+- [Live Product Demo](concepts/LiveProductDemo.md) - Real-time product proof that performs a core promise for an audience and makes an abstract claim directly observable.
 
 ## Syntheses

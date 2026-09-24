@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-25
-as_of_overview_commit: 410ad9c8c181d7daadfb420332525427ccbf1634
+as_of_overview_commit: 07e00c713b09a689f1ab60f28d9cd83739754fc2
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, community design, and judgment turn constraints into outcomes."
-episode_count: 462
-source_count: 462
-paragraph_count: 390
+episode_count: 463
+source_count: 463
+paragraph_count: 391
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Durable technical progress combines underlying-system knowledge, contextual arch
 
 ### Business and Markets
 
-Companies create durable value through stable demand, focused learning, coherent incentives, explicit platform and hiring-governance boundaries, role redesign, and measured customer outcomes.
+Companies create durable value through stable demand, focused learning, coherent incentives, explicit platform and hiring-governance boundaries, role redesign, measured customer outcomes, and product claims grounded in appropriately bounded evidence.
 
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].
 - [[AudienceTargeting]], [[ProgrammaticAdvertising]], and [[DataManagementPlatform]] connect marketing economics across three layers: campaign objectives should extend from impressions and conversions to customer value, inventory moves through direct, guaranteed, preferred, private-auction, and open-exchange paths, and synchronized identifiers turn audience segments into bids; [[IdentityResolution]] strengthens continuity by linking cross-site identifiers to a person while also raising the privacy stakes. Evidence: [[AudienceTargeting]], [[ProgrammaticAdvertising]], [[DataManagementPlatform]], [[IdentityResolution]], [[GoogleAdWords]], [[GoogleAnalytics]], [[AnalyticsVidhya]].
@@ -68,7 +68,7 @@ The historical material emphasizes path dependence, hidden maturation, unequal s
 
 ### Psychology and Personal Development
 
-Progress and identity are context-sensitive: attention, influence, trust, incentives, relationships, feedback, attribution signals, and agency remain bounded by structural, situational, privacy, and evidentiary constraints.
+Progress and identity are context-sensitive: attention, influence, trust, incentives, relationships, feedback, attribution signals, personally verifiable evidence, and agency remain bounded by structural, situational, privacy, and evidentiary constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].

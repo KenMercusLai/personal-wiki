@@ -3751,3 +3751,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Best Seed Pitch Ever
+
+Added Fred Wilson's account of Jeff Lawson's 2008 Twilio seed pitch, where a claim that telephony had been reduced to five API calls was followed by a live-coded application that made Wilson's phone ring within about 30 seconds. Created [[JeffLawson]], [[Twilio]], and [[LiveProductDemo]], and updated [[FredWilson]], [[AVC]], and [[StartupVisionSelling]] from their complete ordered source inventories. Preserved the source's limits as one retrospective anecdote that does not describe full diligence, establish general pitch effectiveness, or show that the demo caused Twilio's later IPO. The Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
