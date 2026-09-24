@@ -6,15 +6,16 @@ sources:
   - blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian
   - blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu
   - blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi
-last_updated: 2026-09-15
+  - a-comprehensive-guide-to-digital-marketing-and-analytics
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[ProgrammaticAdvertising]] is automated ad buying in which exchanges and buying platforms use user, context, and advertiser data to decide whether and how much to bid for an impression.
+[[ProgrammaticAdvertising]] is technology-assisted ad buying in which buying platforms, selling platforms, and exchanges use inventory, user, context, and advertiser data to allocate or bid for impressions.
 
 ## Current Synthesis
-The sources position programmatic advertising as the stage where ad monetization moves beyond platform-owned targeting data. In the inspected process diagram, a user visits a media site, the site sends an ad request to an ADX, the ADX sends user information and bid requests to multiple DSPs, and DSPs decide whether to bid using advertiser-side data such as cookie mappings and audience criteria. The audience-targeting source adds why those criteria matter: labels can describe user, context, ad, and user-advertiser relationships, including advertiser-specific states such as old users, potential users, and lost users. The data-trading source adds the DMP side: first-party or third-party DMPs sell label data into DSP demand, often through ADX routing so attached data can travel with the real-time bid request rather than through separate DMP-DSP integrations.
+The sources position programmatic advertising as the stage where ad monetization moves beyond platform-owned targeting data. A publisher exposes inventory through an SSP, an advertiser or trading desk buys through a DSP, and exchanges mediate private or open auctions. Audience and DMP sources explain the data layer: user, context, ad, and advertiser-relationship labels can travel with a request or be recognized through synchronized identifiers. The digital-marketing guide adds the inventory waterfall: direct and guaranteed commitments take priority, preferred buyers receive access next, and remaining inventory reaches private auction and then open real-time bidding.
 
 ## Key Claims
 - Programmatic advertising exists because advertiser-specific targeting needs exceed the generic targeting a platform can provide by itself.
@@ -23,7 +24,7 @@ The sources position programmatic advertising as the stage where ad monetization
 - Audience labels can include advertiser-specific user states, making user-advertiser relationship data central to programmatic buying.
 - Third-party or media data can expand reach through look-alike modeling when advertiser seed audiences are small.
 - DMPs become programmatic data suppliers when they attach label products to ADX-mediated bid requests for DSPs.
-- Programmatic buying increases participation by smaller advertisers because they can decide impression value more directly.
+- Programmatic does not mean every impression enters an open auction: DSPs, SSPs, and exchanges also support guaranteed, preferred, private-auction, and open-exchange paths in a priority waterfall.
 
 ## Evidence
 - Need for customization: [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]] says bidding ads still cannot satisfy all advertiser-specific targeting needs.
@@ -34,12 +35,15 @@ The sources position programmatic advertising as the stage where ad monetization
 - Integration economics: [[blog-wulc-you-jia-zhi-de-shu-ju-ying-gai-ru-he-jiao-yi]] argues ADX routing avoids the cost of every DMP and DSP directly connecting to each other.
 - Retargeting: [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]] lists site retargeting, search retargeting, and personalized retargeting.
 - Look-alike expansion: [[blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian]] says DSPs use advertiser seed users and media behavior data to find similar potential customers.
+- Inventory priority: [[a-comprehensive-guide-to-digital-marketing-and-analytics]] and its inspected waterfall diagram order direct buy, programmatic guaranteed, preferred, private auction, and real-time bidding.
+- Platform roles: [[a-comprehensive-guide-to-digital-marketing-and-analytics]] and its inspected ecosystem diagram place trading desks and DSPs on the demand side, SSPs on the supply side, and private or real-time exchanges between them.
 
 ## Counterevidence & Qualifications
-The sources explain the product, targeting, and DMP data-flow logic but do not evaluate fraud, brand safety, auction transparency, cookie deprecation, measurement error, or later adtech ecosystem changes. The newest source does add privacy constraints around PII, opt-out, retention, and sparse-data reidentification, so the 2017 programmatic picture should be treated as a conceptual snapshot rather than a current compliance or implementation guide.
+The sources explain product roles, targeting, inventory priority, and DMP data flow but do not evaluate fraud, brand safety, auction transparency, supply-path optimization, header bidding, cookie deprecation, measurement error, or later ecosystem changes. The 2017-2018 descriptions should be treated as conceptual snapshots rather than current compliance or implementation guides.
 
 ## What Changed
-- Added DMP label supply and ADX-mediated data trading to the existing ADX/DSP bidding model.
+- Added the publisher-side SSP role and the priority waterfall from direct commitments through open real-time bidding.
+- Clarified that programmatic includes guaranteed, preferred, private-auction, and open-exchange transactions rather than only RTB.
 
 ## Related Concepts
 - [[DataMonetization]] - programmatic advertising is an operational form of monetizing traffic-attached data.
@@ -50,3 +54,4 @@ The sources explain the product, targeting, and DMP data-flow logic but do not e
 - [[WebAdEconomics]] - programmatic ad buying is part of the indirect funding system for free web services.
 - [[MarketingAttribution]] - advertisers need attribution to judge whether programmatic spend creates downstream value.
 - [[MobileMessagingAdvertising]] - both are digital ad formats, but messaging ads focus on mobile chat surfaces while programmatic advertising focuses on automated buying infrastructure.
+- [[IdentityResolution]] - lets buying systems recognize audience membership across identifiers and contexts.

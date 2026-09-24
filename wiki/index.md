@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [A Comprehensive Guide to Digital Marketing and Analytics](sources/a-comprehensive-guide-to-digital-marketing-and-analytics.md) - Analytics Vidhya maps digital marketing from media channels and auction mechanics through tagging, programmatic infrastructure, DMP targeting, identity resolution, and profit-linked campaign analytics.
 - [A 101 on 1:1s](sources/a-101-on-1-1s-labs.md) - A Spotify manager uses five explicit goals to turn vague one-on-ones into focused conversations about trust, feedback, development, team health, and product direction.
 - [10x-ing Your Team: The End of Superstar Developer Culture](sources/10x-ing-your-team-the-end-of-superstar-developer-culture.md) - Parker Thompson argues that engineering output should be optimized at team level through cross-functional roles, collaboration, problem-oriented craft, and early inclusive hiring.
 - [我做系统架构的一些原则](sources/wo-zuo-xi-tong-jia-gou-de-yi-xie-yuan-ze-ku-ke-coolshell.md) - 陈皓以交付、稳定性和成本收益统领复杂系统架构，并讨论服务/API 视角、完备性、标准、可运维性、控制面、技术债、诊断和探索。
@@ -1374,6 +1375,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, cookie, or partner identifiers to a durable person-level identity for recognition and targeting, with heightened privacy risk.
 - [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.
 - [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication and shared direction.
 - [Inclusive Hiring](concepts/InclusiveHiring.md) - Early design of commitment, sourcing, candidate experience, and team conditions so varied contributors can join without absorbing monoculture risk.

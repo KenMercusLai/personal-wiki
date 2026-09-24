@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "source_key": "a-comprehensive-guide-to-digital-marketing-and-analytics",
+  "images": [
+    {"file": "india-ad-spend-2013-2019.jpg", "alt": "Bar chart of total media, digital, and mobile internet ad spending in India from 2013 to 2019"},
+    {"file": "india-internet-time-2013-2018.png", "alt": "Line chart of daily internet time among Indian adult internet users and the total adult population from 2013 to 2018"},
+    {"file": "t-vs-pi-shaped-talent.png", "alt": "Diagram contrasting T-shaped data-science talent with Pi-shaped talent spanning data science and the digital marketing ecosystem"},
+    {"file": "owned-paid-earned-media.png", "alt": "Diagram classifying owned, paid, and earned digital media with examples"},
+    {"file": "acquisition-journeys.png", "alt": "Diagram linking ad exposure, conversion, and customer journeys to click-through, conversion, and profitability optimization"},
+    {"file": "insurance-lifetime-profit-table.png", "alt": "Illustrative table of annual insurance revenue, cost, and profit by customer tenure"},
+    {"file": "paid-vs-organic-search.png", "alt": "Google results screenshot contrasting a paid Adobe search ad with an organic Google Analytics result"},
+    {"file": "display-ad-example.png", "alt": "CNBC page screenshot showing a banner display advertisement"},
+    {"file": "search-ad-ranks.png", "alt": "Google results screenshot showing first- and second-ranked sponsored insurance ads"},
+    {"file": "ad-auction-ranking.jpg", "alt": "Illustrative Google search auction where bid multiplied by quality score determines ad rank"},
+    {"file": "ad-auction-price.jpg", "alt": "Illustrative second-price-style calculation of what ranked search advertisers pay"},
+    {"file": "adwords-adsense-flow.jpg", "alt": "Diagram of advertisers using AdWords and publishers using AdSense around Google ad inventory"},
+    {"file": "display-ad-formats.png", "alt": "Reference chart of common display advertising formats and pixel dimensions"},
+    {"file": "ad-manager-metrics.png", "alt": "Table defining ad impressions, coverage, monetized pageviews, clicks, CTR, revenue, and eCPM"},
+    {"file": "ad-revenue-by-category.png", "alt": "Illustrative ad performance table by travel-blog page category"},
+    {"file": "destination-traffic-performance.png", "alt": "Illustrative ad performance table comparing Facebook and organic traffic for destination pages"},
+    {"file": "ad-performance-by-banner.png", "alt": "Illustrative ad performance table comparing leaderboard, skyscraper, and square placements"},
+    {"file": "doubleclick-product-map.png", "alt": "Diagram mapping DoubleClick ad exchange, studio, publisher, advertiser, search, and bid manager products"},
+    {"file": "google-analytics-tracking-id.jpg", "alt": "Google Analytics JavaScript snippet highlighting the tracking ID"},
+    {"file": "tag-manager-example.png", "alt": "Google Tag Manager interface listing analytics, AdWords, Floodlight, Optimize, Surveys, and custom HTML tag types"},
+    {"file": "tag-manager-data-layer.png", "alt": "Diagram showing a website data layer exchanging data with Google Tag Manager and marketing and analytics tags"},
+    {"file": "inventory-priority-waterfall.png", "alt": "Diagram of ad inventory flowing through direct buy, programmatic guaranteed, preferred, private auction, and real-time bidding priority"},
+    {"file": "programmatic-advertising-flow.png", "alt": "Diagram of direct and programmatic paths between advertiser trading desks, DSPs, ad exchanges, SSPs, and publishers"},
+    {"file": "identity-resolution-flow.png", "alt": "Diagram showing a third-party cookie linked across digital partners and then connected to personally identifiable information"},
+    {"file": "analytics-platform-comparison.png", "alt": "2018 comparison table of Google Analytics and Adobe Analytics audience, implementation, cost, integration, remarketing, and support"}
+  ]
+}

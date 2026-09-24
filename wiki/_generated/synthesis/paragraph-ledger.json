@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
       "7ab9f6bcecefaddc7d5f5385c6f60549b2242123c5e41f37f70f1cd284c08d92",
       "e1e1d421462dc4236875309c13ab895199c837c71eb7d046deb7bde6a122b4ce",
       "8c593853d8e24d40b16faf724885d8f7b78ea2c5435fa7f852cdbba5734ecf73",
@@ -368,11 +369,32 @@
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
       "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d"
     ],
-    "paragraph_count": 366
+    "paragraph_count": 367
   },
-  "overview_commit": "418ee7f0b0906792558b038e4008053e295058f5",
-  "overview_digest": "298b32e52adf0210145ea2471922364a6c21bac47699bded0ef6c2fa752344a1",
+  "overview_commit": "4a654dd490d54ee94702cd4ad1ead07637fa10ec",
+  "overview_digest": "f29492c0f10e58791ee6ccebb56cc360e53eac8f65abccef4ca55973b622b1db",
   "paragraphs": [
+    {
+      "id": "63f4f9800999230d4f8e715302e481a6c9d571eef794f8219f57e261eba2cf6a",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[AnalyticsVidhya]] guide adds a 2018 ecosystem map for digital marketing analytics. [[AudienceTargeting]] now connects impression-to-click and click-to-conversion optimization with the harder goal-to-profit step, while preserving the boundary that ad platforms may hold real-time targeting variables and advertisers may hold proprietary customer-value data without either side freely sharing the full picture. [[ProgrammaticAdvertising]] gains the publisher-side SSP role and an inventory waterfall from direct and guaranteed deals through preferred access, private auction, and open real-time bidding; [[DataManagementPlatform]] gains the identifier-synchronization loop that turns a segment decision into a DSP bid. New [[IdentityResolution]] captures the guide's most privacy-sensitive mechanism: linking cookies seen across digital partners to personally identifiable information supplied at one partner. [[GoogleAdWords]] and [[GoogleAnalytics]] gain their advertiser, auction, tracking, tag-management, remarketing, and integration roles, but every product name, price, reach figure, cookie assumption, and platform relationship remains bounded to the source's 2018 context. Twenty-five evidence-bearing charts, tables, screenshots, and system diagrams were retained; the generic lead image and duplicate app badges were omitted, while one external internet-usage chart could not be inspected because its URL returned HTTP 404.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 3
+      },
+      "wikilinks": [
+        "AnalyticsVidhya",
+        "AudienceTargeting",
+        "DataManagementPlatform",
+        "GoogleAdWords",
+        "GoogleAnalytics",
+        "IdentityResolution",
+        "ProgrammaticAdvertising"
+      ]
+    },
     {
       "id": "7ab9f6bcecefaddc7d5f5385c6f60549b2242123c5e41f37f70f1cd284c08d92",
       "primary_topic": "work-education-and-society",

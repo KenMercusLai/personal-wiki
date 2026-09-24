@@ -2,6 +2,21 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "identity-linked-targeting-raises-attention-governance-risk",
+      "qualifications": [
+        "The mechanism comes from a conceptual 2018 advertising tutorial built around third-party cookies, not a current legal, technical, or behavioral evaluation.",
+        "The source explains how continuity can be produced but does not establish matching accuracy, informed consent, acceptable use, fairness, or user control."
+      ],
+      "statement": "[[IdentityResolution]] and [[AudienceTargeting]] show how attention and behavior can be transformed from transient browser events into durable person-level profiles, making privacy, consent, purpose limitation, and proxy discrimination part of the behavioral system rather than external compliance details.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "IdentityResolution",
+        "AudienceTargeting",
+        "AnalyticsVidhya"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "passwordless-friction-trades-against-shifted-risk",
       "qualifications": [
         "The source is a short 2017 practitioner argument, not a measured comparison of completion, abandonment, recovery, or account-takeover outcomes.",

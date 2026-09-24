@@ -3519,3 +3519,11 @@ Added a 2015 Spotify practitioner account that turns vague manager-engineer one-
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | A Comprehensive Guide to Digital Marketing and Analytics
+
+Added Analytics Vidhya's 2018 map of digital marketing channels, acquisition journeys, search and display auctions, advertiser and publisher tooling, tagging, programmatic inventory, DMP activation, identity resolution, and analytics platforms. Created [[IdentityResolution]]; updated [[AudienceTargeting]], [[DataManagementPlatform]], [[ProgrammaticAdvertising]], [[GoogleAdWords]], [[GoogleAnalytics]], and [[AnalyticsVidhya]] from their complete ordered source inventories. Preserved the main qualifications that product names, prices, reach claims, cookie assumptions, and platform relationships are time-bound, and that profitability-based targeting can create regulatory, privacy, and proxy-discrimination risk. Retained 25 evidence-bearing images in a canonical manifest, omitted the generic lead illustration and duplicate app badges, and recorded that one external internet-usage chart returned HTTP 404 and could not be inspected.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

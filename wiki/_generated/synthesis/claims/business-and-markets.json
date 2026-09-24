@@ -2,6 +2,25 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "digital-advertising-connects-inventory-data-and-value",
+      "qualifications": [
+        "The evidence is a broad 2018 tutorial whose product names, prices, reach figures, cookie assumptions, and platform relationships are time-bound rather than current implementation guidance.",
+        "Linking acquisition to profitability improves economic alignment but can encode regulated, privacy-invasive, or discriminatory proxies; the source does not supply a modern governance framework."
+      ],
+      "statement": "[[AudienceTargeting]], [[ProgrammaticAdvertising]], and [[DataManagementPlatform]] connect marketing economics across three layers: campaign objectives should extend from impressions and conversions to customer value, inventory moves through direct, guaranteed, preferred, private-auction, and open-exchange paths, and synchronized identifiers turn audience segments into bids; [[IdentityResolution]] strengthens continuity by linking cross-site identifiers to a person while also raising the privacy stakes.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AudienceTargeting",
+        "ProgrammaticAdvertising",
+        "DataManagementPlatform",
+        "IdentityResolution",
+        "GoogleAdWords",
+        "GoogleAnalytics",
+        "AnalyticsVidhya"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "architecture-is-a-business-operating-capability",
       "qualifications": [
         "The source is a practitioner retrospective rather than comparative evidence, and its scope is explicitly complex systems; control-plane centralization, standards work, and debt repayment can impose costs or bottlenecks when applied without local need.",
