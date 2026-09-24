@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Absolute Success is Luck. Relative Success is Hard Work.](sources/absolute-success-is-luck-relative-success-is-hard-work.md) - James Clear distinguishes unequal starting positions from controllable trajectory, arguing that luck weighs more in absolute and extreme success while habits, preparation, and effort better explain relative differences.
 - [AI Memory 的真正难点：为什么 Vector Store + Embedding 远远不够](sources/ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou.md) - A conceptual architecture note argues that searchable vector logs need compaction, temporal evolution, provenance, and conflict handling to become durable AI memory.
 - [A One Year PWA Retrospective](sources/a-one-year-pwa-retrospective-pinterest-engineering-blog-medium.md) - Zack Argyle describes Pinterest's mobile-web rewrite, its PWA architecture and regression controls, and company-reported growth in engagement and conversion.
 - [A Tale of 2 API Platforms](sources/a-tale-of-2-api-platforms-ggv-capital-medium.md) - Jason Costa contrasts Twitter's API retrenchment with Slack's complementary app strategy to argue for explicit boundaries, reciprocal value, and long-term ecosystem stewardship.
@@ -454,6 +455,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Tu Youyou](entities/TuYouyou.md) - Project 523 scientist whose artemisinin research illustrates persistent, corrective experimentation under uncertainty.
+- [James Clear](entities/JamesClear.md) - Author framing success through comparison scale, inherited starting position, controllable trajectory, and opportunity exposure.
 - [Project Duplo](entities/ProjectDuplo.md) - Pinterest's cross-functional 2017-2018 initiative to rebuild mobile web as a progressive web app.
 - [Gestalt](entities/Gestalt.md) - Pinterest's open-source React component library and design-system foundation for the mobile-web rewrite.
 - [Zack Argyle](entities/ZackArgyle.md) - Pinterest engineering manager who authored the one-year PWA retrospective.
@@ -1396,6 +1399,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Luck and Effort in Success](concepts/LuckAndEffortInSuccess.md) - Attribution framework separating unequal starting conditions and extreme outcomes from the trajectory influenced by habits, preparation, and effort.
 - [Memory Conflict Resolution](concepts/MemoryConflictResolution.md) - Detection and adjudication of incompatible memories using time, provenance, confidence, context, and version history.
 - [Memory Evolution](concepts/MemoryEvolution.md) - Maintenance of current, historical, superseded, and temporarily valid memory state.
 - [Memory Compaction](concepts/MemoryCompaction.md) - Semantic consolidation of repeated interaction records without losing material distinctions or exceptions.

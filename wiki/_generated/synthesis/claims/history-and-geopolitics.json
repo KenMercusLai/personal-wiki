@@ -219,8 +219,26 @@
         "DijkstrasAlgorithm",
         "GraphModeling"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "success-attribution-is-historical-context-spillover",
+      "qualifications": [
+        "This is historical-learning and personal-development material routed here because it discusses birth conditions, path dependence, and a scientific-discovery narrative; it is not geopolitical evidence.",
+        "The framework is an essayistic heuristic rather than a causal decomposition, and the Tu Youyou narrative compresses team, institutional, and traditional-knowledge contributions."
+      ],
+      "statement": "[[LuckAndEffortInSuccess]] extends [[RepeatableLearningFromHistory]] by treating birth conditions and extreme outcomes as historically contingent while preserving a role for habits and corrective effort; [[JamesClear]] uses [[TuYouyou]] as the source-scoped interaction case rather than proof that persistence reliably overcomes structural conditions.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "LuckAndEffortInSuccess",
+        "RepeatableLearningFromHistory",
+        "JamesClear",
+        "TuYouyou",
+        "WorkHabits",
+        "BehavioralRiskJudgment"
+      ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits and corrective effort can still shape trajectory without neutralizing structural constraints. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.",
   "topic_id": "history-and-geopolitics"
 }

@@ -375,12 +375,13 @@
       "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d",
       "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
-      "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e"
+      "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
+      "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed"
     ],
-    "paragraph_count": 375
+    "paragraph_count": 376
   },
-  "overview_commit": "9b0ad12abe716524519c203b5b8f7c257b5e78b8",
-  "overview_digest": "4196240688addd4014c4fa029cd2e3763b933d7423bd5fb74aadd2cf2d79816f",
+  "overview_commit": "712beb39507986914935fabc3b0350908b44e879",
+  "overview_digest": "49a6dbd2caffbf50ed54577fb74ee22efe9d593227c8af1ec3361cb8909d8ca0",
   "paragraphs": [
     {
       "id": "117289c0083ca8ea53bd2d0bb17939aa11edec94e83e546ad280105d43e872e5",
@@ -7640,6 +7641,30 @@
         "MemoryEvolution",
         "TapeAndAnchors",
         "VectorDatabase"
+      ]
+    },
+    {
+      "id": "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[JamesClear]] source adds [[LuckAndEffortInSuccess]] as an attribution framework spanning comparison scale and time. Buffett's ovarian lottery makes birth, nationality, wealth, health, genes, timing, and connections part of the initial position rather than personal merit; Clear therefore argues that luck becomes more important when comparing radically different starting conditions or explaining extreme outcomes. Within a narrower reference class, choices, preparation, persistence, and [[WorkHabits]] become more discriminating, while the slope metaphor separates a partly controllable trajectory from an inherited intercept. [[TuYouyou]] supplies the interaction case: an ancient clue and historical setting were contingent, but systematic screening, returning to failed assumptions, low-temperature extraction, personal risk, and sustained research converted the lead into a usable antimalarial treatment. This complements [[RepeatableLearningFromHistory]] and [[BehavioralRiskJudgment]] by separating learnable behavior from unrepeatable context and skill from fortunate outcome. The synthesis keeps the model qualified: supposedly similar peers retain unequal constraints, early advantage compounds, severe shocks can overwhelm effort, action only raises the probability of opportunity, and the popular Tu narrative compresses team and institutional contributions. The sole local compass illustration was inspected and omitted as decorative.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "history-and-geopolitics": 2,
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BehavioralRiskJudgment",
+        "JamesClear",
+        "LuckAndEffortInSuccess",
+        "RepeatableLearningFromHistory",
+        "TuYouyou",
+        "WorkHabits"
       ]
     }
   ],

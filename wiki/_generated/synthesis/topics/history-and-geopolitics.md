@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-23
-as_of_overview_commit: 585c8a9c2609a016ef9397315ba71a9491d526d9
-input_digest: a40f4b4a911c903291d9e2f9e697d40c111774c86141a2058d8ce9f66a07dfd6
+last_updated: 2026-09-24
+as_of_overview_commit: 712beb39507986914935fabc3b0350908b44e879
+input_digest: 2f151eb8e6c276d0c458c42cad7125bb5faff6072ad377104d155e1bf4c733ef
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits and corrective effort can still shape trajectory without neutralizing structural constraints. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.
 
 ## Cross-source Findings
 
@@ -142,3 +142,14 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 - The substantive material is an introductory graph-algorithm walkthrough; its relevance here is limited to the 1959 publication history and Dijkstra's retrospective design account.
 - The source is secondary and pedagogical, does not prove the algorithm or analyze complexity, and incorrectly narrows valid weights from non-negative to strictly positive.
+
+### Success Attribution Is Historical Context Spillover
+
+[[LuckAndEffortInSuccess]] extends [[RepeatableLearningFromHistory]] by treating birth conditions and extreme outcomes as historically contingent while preserving a role for habits and corrective effort; [[JamesClear]] uses [[TuYouyou]] as the source-scoped interaction case rather than proof that persistence reliably overcomes structural conditions.
+
+**Evidence:** [[LuckAndEffortInSuccess]], [[RepeatableLearningFromHistory]], [[JamesClear]], [[TuYouyou]], [[WorkHabits]], [[BehavioralRiskJudgment]]
+
+**Qualifications:**
+
+- This is historical-learning and personal-development material routed here because it discusses birth conditions, path dependence, and a scientific-discovery narrative; it is not geopolitical evidence.
+- The framework is an essayistic heuristic rather than a causal decomposition, and the Tu Youyou narrative compresses team, institutional, and traditional-knowledge contributions.

@@ -359,6 +359,7 @@ sources:
   - a-managers-faq-owners-manual-blog-by-carta-medium
   - a-tale-of-2-api-platforms-ggv-capital-medium
   - above-avalon-apple-doesnt-need-to-buy-netflix
+  - absolute-success-is-luck-relative-success-is-hard-work
 last_updated: 2026-09-24
 ---
 # Overview
@@ -1117,8 +1118,12 @@ The newest [[FundersClub]] guide adds [[CoFounderFit]] as the integrated founder
 
 The newest AI-memory architecture note sharpens [[AgentMemory]] by separating persistence and retrieval from knowledge maintenance. [[Embeddings]] plus a [[VectorDatabase]] can turn interaction history into a searchable log, but similarity does not determine what is true, current, authoritative, or safe to merge. New [[MemoryCompaction]] covers semantic consolidation and its two hard constraints: choosing a useful abstraction level and preserving exceptions such as an allergy that invalidates a broad food-preference summary. New [[MemoryEvolution]] treats facts as time-varying state with timestamps, confidence, validity windows, and different expectations for episodic and semantic records. New [[MemoryConflictResolution]] distinguishes genuine change, inconsistent statements, and model inference errors, using recency as one signal alongside provenance, confidence, and time-bounded versions rather than an unconditional latest-wins rule. This can coexist with [[TapeAndAnchors]]: immutable history preserves evidence, while summaries, state views, and recall indexes remain revisable derived layers. The source is a conceptual design note, not comparative evidence; it supplies no evaluated compaction policy, calibrated confidence scheme, conflict benchmark, or proof that a particular graph, document, relational, or vector-store combination is best. The Markdown contains no image references.
 
+The newest [[JamesClear]] source adds [[LuckAndEffortInSuccess]] as an attribution framework spanning comparison scale and time. Buffett's ovarian lottery makes birth, nationality, wealth, health, genes, timing, and connections part of the initial position rather than personal merit; Clear therefore argues that luck becomes more important when comparing radically different starting conditions or explaining extreme outcomes. Within a narrower reference class, choices, preparation, persistence, and [[WorkHabits]] become more discriminating, while the slope metaphor separates a partly controllable trajectory from an inherited intercept. [[TuYouyou]] supplies the interaction case: an ancient clue and historical setting were contingent, but systematic screening, returning to failed assumptions, low-temperature extraction, personal risk, and sustained research converted the lead into a usable antimalarial treatment. This complements [[RepeatableLearningFromHistory]] and [[BehavioralRiskJudgment]] by separating learnable behavior from unrepeatable context and skill from fortunate outcome. The synthesis keeps the model qualified: supposedly similar peers retain unequal constraints, early advantage compounds, severe shocks can overwhelm effort, action only raises the probability of opportunity, and the popular Tu narrative compresses team and institutional contributions. The sole local compass illustration was inspected and omitted as decorative.
+
 ## Open Questions
 
+- How should empirical studies define a genuinely comparable peer group when estimating the relative effects of effort, habit, opportunity, and inherited advantage?
+- When does increasing exposure to opportunity produce useful learning, and when do unequal downside costs make repeated experimentation impractical?
 - When should an in-process lifespan-owned coroutine become a separately supervised or durable worker, and how should multi-process web deployments prevent duplicate execution?
 - How should AI-memory systems evaluate compaction loss, temporal correctness, conflict resolution, provenance quality, and retrieval usefulness together rather than optimizing similarity alone?
 - What transaction-frequency, ticket-size, liquidity, retention, and acquisition-cost thresholds distinguish a viable narrow marketplace from one that must broaden into adjacent categories?

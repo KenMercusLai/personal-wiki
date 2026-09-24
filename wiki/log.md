@@ -3603,3 +3603,11 @@ Added Neil Cybart's 2017 explanation of Apple's exceptional free-cash-flow conve
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | Absolute Success is Luck. Relative Success is Hard Work.
+
+Added James Clear's framework for reconciling luck and effort through comparison scale, starting position, trajectory, and opportunity exposure. Created [[LuckAndEffortInSuccess]], [[JamesClear]], and [[TuYouyou]], and updated [[WarrenBuffett]] from his complete ordered source inventory. Preserved the main qualifications that similar peers still have unequal constraints, the framework does not estimate causal weights, action only raises rather than guarantees opportunity, and Tu's popularized story compresses team and institutional contributions. Inspected the sole local image, a decorative compass illustration, and omitted it without creating an asset manifest.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
