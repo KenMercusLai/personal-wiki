@@ -358,6 +358,7 @@
       "02be5d92185e572a623086a36a19408928434288e8daa8d7f4519c062ddb3c54",
       "7a17f064150b8954ba7be5b393b7cb366a238b251b53272a1a5eafc1d1683091",
       "69876161ad8d05c01df7af7ebab91d0164c3cc684c393ba51ed8c86cfb2a8513",
+      "5a49fd18addb77a5378191f5d1b9442ca827d22a0f4cfd253da7c349fb40ca57",
       "63e2efa414b409be0be9d87edf9552c878c2c57bb6aae1283a98c42d51dffcac",
       "48a78d65ceec5779ef5caaf4190e93401b9eabed29ededa5c27fda43d8edf841",
       "dbf0aed8e2b7d70f1cc1a545099dc7d8d5ac2169ae38f6372408212697f4c905",
@@ -381,10 +382,10 @@
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
       "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed"
     ],
-    "paragraph_count": 379
+    "paragraph_count": 380
   },
-  "overview_commit": "522a7c602cebab6afad950f228e760ad4e01ee44",
-  "overview_digest": "525fb7ca8e6a4772e22f91dab1777563f34e7af47e109115ac07ce1e26d147cd",
+  "overview_commit": "a17108c65f601931b1dd215fcf1da3644ef3a8f0",
+  "overview_digest": "423350c5ee038e2eb201ff6df43cb2cce3d95702fae7b8d845fb0b496ff8d3c1",
   "paragraphs": [
     {
       "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
@@ -7298,6 +7299,25 @@
         "StartupOpportunitySelection",
         "Uber",
         "VujaDe"
+      ]
+    },
+    {
+      "id": "5a49fd18addb77a5378191f5d1b9442ca827d22a0f4cfd253da7c349fb40ca57",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "Chen's newer Silicon Valley essay makes the entry mechanics behind that relationship compounding explicit. A newcomer begins with a few trusted contacts, turns each introduction into learning and a concise follow-up, and asks for two or three more relevant people, creating a referral loop rather than collecting isolated contacts. [[FounderNetworkBuilding]] becomes more reciprocal when the person has a concrete company, project, podcast, book, or other quest and contributes useful domain knowledge while seeking advice. [[ProfessionalBlogging]] then converts recurring, non-confidential community ideas into durable public artifacts that attract further conversations and scale beyond conferences or repeated coffee meetings. Focused subcommunities can concentrate collaborators and insight, but also increase conformity risk. The strong recommendation to spend three to five years in the Bay Area remains source-scoped: the overlapping first-person retrospectives do not compare remote or other ecosystems, establish causal career gains, or fully account for housing, immigration, family, disability, financial, exclusion, monoculture, and opportunity-cost constraints. The inspected futuristic title card was decorative and was omitted.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "FounderNetworkBuilding",
+        "ProfessionalBlogging"
       ]
     },
     {

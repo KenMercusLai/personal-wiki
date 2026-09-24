@@ -3635,3 +3635,11 @@ Added Ben Thompson's first-and-best-customer framework for understanding Amazon 
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | How to break into Silicon Valley
+
+Added Andrew Chen's operational account of entering the Bay Area through warm introductions, advice-seeking, a purposeful project, useful domain expertise, focused subcommunities, and public writing. Updated [[AndrewChen]], [[SiliconValley]], [[ProfessionalRelationshipCompounding]], [[FounderNetworkBuilding]], and [[ProfessionalBlogging]] from their complete ordered source inventories. Preserved the limits of a retrospective practitioner account and the access, cost, monoculture, selection, and causality qualifications around Bay Area residence and high-volume networking. Inspected the sole remote image, identified it as a decorative futuristic title card, and omitted it without creating an asset manifest.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

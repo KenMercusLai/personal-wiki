@@ -141,6 +141,20 @@
       ]
     },
     {
+      "global_candidate": false,
+      "id": "public-writing-converts-community-learning-into-discovery",
+      "qualifications": [
+        "The evidence is one successful writer's overlapping retrospectives, not a comparison with conferences, private relationship-building, remote participation, or other ecosystems; it does not isolate publishing from prior access, topic quality, distribution, timing, and survivorship.",
+        "Turning conversation into publication requires permission and confidentiality judgment, while focused subcommunities can improve relevance and also narrow the ideas participants encounter."
+      ],
+      "statement": "[[ProfessionalBlogging]] can convert recurring, non-confidential ideas from purposeful professional conversations into durable public artifacts that attract further relevant people, while [[FounderNetworkBuilding]] supplies the reciprocal upstream conditions of a concrete quest, advice-seeking, useful expertise, warm introductions, and community fit.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ProfessionalBlogging",
+        "FounderNetworkBuilding"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "creative-media-work-combines-expression-and-infrastructure",
       "qualifications": [
@@ -251,6 +265,6 @@
       ]
     }
   ],
-  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
+  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[ProfessionalBlogging]] adds a source-scoped conversation-to-publication loop in which recurring community ideas become durable artifacts and future discovery, while [[FounderNetworkBuilding]] supplies purposeful, reciprocal upstream relationships and a warning that focused communities can also narrow judgment. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
   "topic_id": "culture-and-media"
 }
