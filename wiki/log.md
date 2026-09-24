@@ -3579,3 +3579,11 @@ Added Zack Argyle's account of Pinterest's 2017-2018 mobile-web rewrite. Created
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | AI Memory 的真正难点：为什么 Vector Store + Embedding 远远不够
+
+Added a conceptual architecture note that distinguishes a searchable vector log from maintained AI memory. Created [[MemoryCompaction]], [[MemoryEvolution]], and [[MemoryConflictResolution]], and updated [[AgentMemory]] plus [[VectorDatabase]] from their complete ordered source inventories. Preserved the source's limits: it offers examples and heuristics rather than evaluated compaction triggers, calibrated confidence, conflict-resolution benchmarks, or a proven storage design. The source contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

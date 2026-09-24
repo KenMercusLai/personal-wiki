@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 02bacd86db6e62aad2be0d9b175c62454c53080e
+as_of_overview_commit: 8e1567a0d7d34d99ddde0d386fd5da2dbbb1541b
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, and judgment turn constraints into outcomes under uneven evidence."
-episode_count: 440
-source_count: 440
-paragraph_count: 372
+episode_count: 441
+source_count: 441
+paragraph_count: 373
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Durable technical progress combines underlying system knowledge, context-sensitive architecture, verification, operability, and inspectable AI or automation harnesses that keep human judgment responsible for outcomes.
+Durable technical progress combines underlying system knowledge, context-sensitive architecture, verification, operability, and inspectable AI or automation harnesses that keep human judgment responsible for outcomes; agent memory adds that retrieval must be separated from compaction, temporal state, provenance, and conflict resolution.
 
 - [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[SoftwareEngineering]] and [[EssentialAndAccidentalComplexity]] add that successive abstractions, delivery methods, and LLMs can reduce or relocate implementation friction without proving that problem understanding, coordination, verification, operation, and maintenance have disappeared, while [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]], [[SoftwareEngineering]], [[EssentialAndAccidentalComplexity]], [[ForwardReferenceLearning]], [[LearningHowToLearn]].
@@ -57,7 +57,7 @@ Culture and media depend on linked systems of form, infrastructure, audience pra
 
 ### Governance and Institutions
 
-Accountable institutions and managers need explicit ownership, usable controls, observable behavior, capacity, credible alternatives, agreed state transitions, and fair process proportional to impact.
+Accountable institutions, technical systems, and managers need explicit ownership, usable controls, observable behavior, provenance, capacity, credible alternatives, agreed state transitions, and fair process proportional to impact.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [AI Memory 的真正难点：为什么 Vector Store + Embedding 远远不够](sources/ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou.md) - A conceptual architecture note argues that searchable vector logs need compaction, temporal evolution, provenance, and conflict handling to become durable AI memory.
 - [A One Year PWA Retrospective](sources/a-one-year-pwa-retrospective-pinterest-engineering-blog-medium.md) - Zack Argyle describes Pinterest's mobile-web rewrite, its PWA architecture and regression controls, and company-reported growth in engagement and conversion.
 - [A Tale of 2 API Platforms](sources/a-tale-of-2-api-platforms-ggv-capital-medium.md) - Jason Costa contrasts Twitter's API retrenchment with Slack's complementary app strategy to argue for explicit boundaries, reciprocal value, and long-term ecosystem stewardship.
 - [A Manager’s FAQ](sources/a-managers-faq-owners-manual-blog-by-carta-medium.md) - Henry Ward frames management as strength amplification, diagnostic curiosity, developmental delegation, upward problem ownership, self-evaluation, influence, and accountable exits.
@@ -1392,6 +1393,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Memory Conflict Resolution](concepts/MemoryConflictResolution.md) - Detection and adjudication of incompatible memories using time, provenance, confidence, context, and version history.
+- [Memory Evolution](concepts/MemoryEvolution.md) - Maintenance of current, historical, superseded, and temporarily valid memory state.
+- [Memory Compaction](concepts/MemoryCompaction.md) - Semantic consolidation of repeated interaction records without losing material distinctions or exceptions.
 - [Performance Regression Prevention](concepts/PerformanceRegressionPrevention.md) - Continuous monitoring and code-level constraints that stop routine changes from eroding application speed.
 - [Progressive Web Apps](concepts/ProgressiveWebApps.md) - Web applications combining broad reach with progressively available caching, installability, push, app shells, and fast repeat navigation.
 - [API Ecosystem Governance](concepts/APIEcosystemGovernance.md) - Continuing design of API boundaries, access, incentives, policy, distribution, and support across providers, developers, and users.

@@ -372,12 +372,13 @@
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce",
       "197fcce3f89b100718f34f74217231054ac9b646a3d4bcc553d6306f446d804d",
       "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
-      "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750"
+      "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
+      "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e"
     ],
-    "paragraph_count": 372
+    "paragraph_count": 373
   },
-  "overview_commit": "02bacd86db6e62aad2be0d9b175c62454c53080e",
-  "overview_digest": "88089d1abfd8ead6c9950050d25e101d08c730cc2dfce837b3442d426f7943b8",
+  "overview_commit": "8e1567a0d7d34d99ddde0d386fd5da2dbbb1541b",
+  "overview_digest": "3fbdfcfd78956d7aabcdf0f981528503c26efbcc5ebb95965c776089c6022fd6",
   "paragraphs": [
     {
       "id": "1cc04a02d79e18e904b69caf376fc5cc0af5cbede93b34a0322cedc091dcb7ca",
@@ -7571,6 +7572,28 @@
         "FounderVisionAlignment",
         "FundersClub",
         "StartupTeamBond"
+      ]
+    },
+    {
+      "id": "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest AI-memory architecture note sharpens [[AgentMemory]] by separating persistence and retrieval from knowledge maintenance. [[Embeddings]] plus a [[VectorDatabase]] can turn interaction history into a searchable log, but similarity does not determine what is true, current, authoritative, or safe to merge. New [[MemoryCompaction]] covers semantic consolidation and its two hard constraints: choosing a useful abstraction level and preserving exceptions such as an allergy that invalidates a broad food-preference summary. New [[MemoryEvolution]] treats facts as time-varying state with timestamps, confidence, validity windows, and different expectations for episodic and semantic records. New [[MemoryConflictResolution]] distinguishes genuine change, inconsistent statements, and model inference errors, using recency as one signal alongside provenance, confidence, and time-bounded versions rather than an unconditional latest-wins rule. This can coexist with [[TapeAndAnchors]]: immutable history preserves evidence, while summaries, state views, and recall indexes remain revisable derived layers. The source is a conceptual design note, not comparative evidence; it supplies no evaluated compaction policy, calibrated confidence scheme, conflict benchmark, or proof that a particular graph, document, relational, or vector-store combination is best. The Markdown contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AgentMemory",
+        "Embeddings",
+        "MemoryCompaction",
+        "MemoryConflictResolution",
+        "MemoryEvolution",
+        "TapeAndAnchors",
+        "VectorDatabase"
       ]
     }
   ],
