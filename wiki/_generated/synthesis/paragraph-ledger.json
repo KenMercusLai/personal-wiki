@@ -360,6 +360,7 @@
       "63e2efa414b409be0be9d87edf9552c878c2c57bb6aae1283a98c42d51dffcac",
       "48a78d65ceec5779ef5caaf4190e93401b9eabed29ededa5c27fda43d8edf841",
       "dbf0aed8e2b7d70f1cc1a545099dc7d8d5ac2169ae38f6372408212697f4c905",
+      "4ac460e0fdfa2ea84188cb48de8aa74dbe1b8f17b941f0725e33c4bdaa84ece7",
       "8608fd5eac2a316b9f88c19ffea50e46c86aedb59bdb05ddb532a6e74fc00a4c",
       "fd724feed8d60c95c890514c45654af614d4e3d0f06bdfacd0659db08d6a7d6a",
       "761fc1413671b86418a476504f26cf3ed16f3c8e8b21594a8f9af82d995bb59c",
@@ -379,10 +380,10 @@
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
       "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed"
     ],
-    "paragraph_count": 377
+    "paragraph_count": 378
   },
-  "overview_commit": "d737ffcf66d6ee0680d4da40f89242bcda85efd0",
-  "overview_digest": "f21c4426a980bb5e9996e8fdbded7670125e0fccd7c05124f685ab9a88945afd",
+  "overview_commit": "920c22ca6874dee7b61fc895308804ae7ffc654c",
+  "overview_digest": "eb6176b4f15c68a5e438b02e2d661a3d4473816300b510938e2a00f45cf36929",
   "paragraphs": [
     {
       "id": "1b9c509f30bd80fe9415e83c1e18e9cf486dcbf593c310e68e3d7d8c0c6f77ed",
@@ -7329,6 +7330,26 @@
         "Obsidian",
         "PersonalKnowledgeManagement",
         "SaschaCorti"
+      ]
+    },
+    {
+      "id": "4ac460e0fdfa2ea84188cb48de8aa74dbe1b8f17b941f0725e33c4bdaa84ece7",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The Alexandra Phelan source adds [[AcademicResearchWorkflow]] as a concrete collection-to-submission pipeline. [[Zotero]] owns bibliographic metadata, PDFs, annotations, stable citekeys, and citation data; [[Obsidian]] imports that material into linked literature notes and supports synthesis, Markdown drafting, project management, and publication tracking; [[Pandoc]] resolves style-neutral citations against a BibTeX library and exports journal-facing DOCX files. The shared citekey joins source records, internal notes, and in-text citations while syntax keeps links distinct from citations. This strengthens the wiki's output-oriented [[PersonalKnowledgeManagement]] thread, but also exposes a terminology and practice boundary in [[ReadingNoteWorkflow]]: an automatically imported \"literature note\" can be a comprehensive source record, whereas the Zettelkasten account uses the same term for a brief selective restatement that feeds permanent synthesis. Both can coexist as stages only when capture is not mistaken for understanding. The source is a 2023 practitioner configuration with plugin dependencies and an acknowledged learning curve, not comparative evidence of productivity or reliability; it contains no image references.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AcademicResearchWorkflow",
+        "Obsidian",
+        "Pandoc",
+        "PersonalKnowledgeManagement",
+        "ReadingNoteWorkflow",
+        "Zotero"
       ]
     },
     {

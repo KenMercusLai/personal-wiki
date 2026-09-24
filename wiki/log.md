@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-24] ingest | An Updated Academic Workflow: Zotero & Obsidian
+
+Added Alexandra Phelan's 2023 practitioner workflow dividing academic research across Zotero, Obsidian, and Pandoc. Created [[AlexandraPhelan]], [[Zotero]], [[Pandoc]], and [[AcademicResearchWorkflow]]; updated [[Obsidian]] and [[ReadingNoteWorkflow]] to capture imported citekey-named literature notes, Markdown drafting, citation-aware DOCX export, and the distinction between comprehensive source capture and selective synthesis. The source acknowledges setup cost and provides no comparative outcome evidence. It contains no effective image references, so no visual assets were retained or left uninterpreted.
+
 ## [2026-09-24] ingest | 10x-ing Your Team: The End of Superstar Developer Culture
 
 Added Pivotal's 2017 interview with Parker Thompson on replacing individual-superstar narratives with team-level productivity. Created [[ParkerThompson]], [[TeamProductivity]], [[CrossFunctionalProductTeams]], and [[InclusiveHiring]]; connected the argument to startup scaling, culture, talent density, and collaboration while preserving its limits as practitioner guidance without comparative outcome data. Opened all six unique local images: retained the high-resolution hero illustration contrasting a stressed lone nighttime developer with a collaborative daytime team, and omitted a duplicate hero, thumbnail, avatar, Pivotal logo, tiny divider, and repeated references as decorative or redundant.
@@ -3611,6 +3615,10 @@ Added James Clear's framework for reconciling luck and effort through comparison
 ## [2026-09-24] ingest | Ads just work. No matter what you think
 
 Added John Val John's 2018 argument that advertising can influence evaluation through limited-attention association, evaluative conditioning, and identity meaning. Created [[AutomaticAdvertisingInfluence]] and [[JohnValJohn]], and updated [[AttentionEconomy]] from its complete ordered source inventory. Preserved the distinction between useful informational ads and associative persuasion, while qualifying the unsupported daily exposure estimates and the gap between controlled conditioning effects, real purchases, aggregate spending, and social or environmental harm. The source contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-24] lint | Wiki health check
 

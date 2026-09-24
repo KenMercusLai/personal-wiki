@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [An Updated Academic Workflow: Zotero & Obsidian](sources/alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian.md) - Alexandra Phelan divides academic research among Zotero source management, Obsidian linked notes and drafting, and Pandoc citation-aware DOCX export.
 - [Ads just work. No matter what you think](sources/ads-just-work-no-matter-what-you-think-noteworthy-the-journal-blog.md) - John Val John argues that advertising can shape brand evaluation through limited-attention association, evaluative conditioning, and identity meaning, while leaving real-world effect sizes and social harms underdocumented.
 - [Absolute Success is Luck. Relative Success is Hard Work.](sources/absolute-success-is-luck-relative-success-is-hard-work.md) - James Clear distinguishes unequal starting positions from controllable trajectory, arguing that luck weighs more in absolute and extreme success while habits, preparation, and effort better explain relative differences.
 - [AI Memory 的真正难点：为什么 Vector Store + Embedding 远远不够](sources/ai-memory-de-zhen-zheng-nan-dian-wei-shen-me-vector-store-embedding-yuan-yuan-bu-gou.md) - A conceptual architecture note argues that searchable vector logs need compaction, temporal evolution, provenance, and conflict handling to become durable AI memory.
@@ -456,6 +457,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Alexandra Phelan](entities/AlexandraPhelan.md) - Academic author documenting a Zotero, Obsidian, and Pandoc research-writing workflow.
+- [Zotero](entities/Zotero.md) - Reference manager serving as the source, PDF, annotation, citekey, and citation-data system in an academic workflow.
+- [Pandoc](entities/Pandoc.md) - Document converter and citation processor bridging Markdown drafts and formatted DOCX manuscripts.
 - [John Val John](entities/JohnValJohn.md) - Author connecting ad saturation, automatic association, evaluative conditioning, identity, and consumerism.
 - [Tu Youyou](entities/TuYouyou.md) - Project 523 scientist whose artemisinin research illustrates persistent, corrective experimentation under uncertainty.
 - [James Clear](entities/JamesClear.md) - Author framing success through comparison scale, inherited starting position, controllable trajectory, and opportunity exposure.
@@ -1401,6 +1405,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Academic Research Workflow](concepts/AcademicResearchWorkflow.md) - End-to-end system connecting source collection, annotation, linked synthesis, Markdown drafting, citation processing, project tracking, and manuscript export.
 - [Automatic Advertising Influence](concepts/AutomaticAdvertisingInfluence.md) - Brand evaluation shaped through associative cues and identity meanings without requiring sustained conscious attention.
 - [Luck and Effort in Success](concepts/LuckAndEffortInSuccess.md) - Attribution framework separating unequal starting conditions and extreme outcomes from the trajectory influenced by habits, preparation, and effort.
 - [Memory Conflict Resolution](concepts/MemoryConflictResolution.md) - Detection and adjudication of incompatible memories using time, provenance, confidence, context, and version history.

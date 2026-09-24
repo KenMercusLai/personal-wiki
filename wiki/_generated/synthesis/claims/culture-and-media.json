@@ -101,9 +101,10 @@
       "id": "media-form-shapes-systematic-learning",
       "qualifications": [
         "The book-centered, speed-reading, and card-note recommendations are qualitative workflow accounts rather than comparative learning studies.",
-        "The Zettelkasten source is a secondary book note with shifting three-note taxonomies and broad psychological claims that should remain hypotheses rather than universal findings."
+        "The Zettelkasten source is a secondary book note with shifting three-note taxonomies and broad psychological claims that should remain hypotheses rather than universal findings.",
+        "The academic toolchain is one practitioner's 2023 plugin configuration; it does not establish comparative productivity, current compatibility, or that imported annotations produce understanding."
       ],
-      "statement": "[[LearningMediaChoice]], [[SpeedReadingMethod]], and [[FocusedReading]] treat selection and reading mode as part of learning design, while [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], and [[LearningByWriting]] turn selective literature notes into independently understandable, linked permanent notes whose condensed rewriting tests understanding and supports bottom-up argument development.",
+      "statement": "[[LearningMediaChoice]], [[SpeedReadingMethod]], and [[FocusedReading]] treat selection and reading mode as part of learning design, while [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], and [[LearningByWriting]] turn selective literature notes into linked permanent notes whose rewriting tests understanding. [[AcademicResearchWorkflow]] adds a publication layer in which [[Zotero]] source records and annotations enter [[Obsidian]] under stable citekeys before [[Pandoc]] converts citation-bearing drafts, while preserving the boundary between comprehensive capture and synthesis.",
       "status": "qualified",
       "supporting_wikilinks": [
         "LearningMediaChoice",
@@ -118,7 +119,11 @@
         "ZettelkastenMethod",
         "LearningByWriting",
         "NoteToolFit",
-        "Obsidian"
+        "Obsidian",
+        "AcademicResearchWorkflow",
+        "Zotero",
+        "Pandoc",
+        "PersonalKnowledgeManagement"
       ]
     },
     {
@@ -246,6 +251,6 @@
       ]
     }
   ],
-  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
+  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
   "topic_id": "culture-and-media"
 }
