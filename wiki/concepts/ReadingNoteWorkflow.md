@@ -4,7 +4,8 @@ type: concept
 tags: [reading, note-taking, pkm]
 sources:
   - ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li
-last_updated: 2026-09-12
+  - ka-pian-bi-ji-xie-zuo-fa-bi-ji
+last_updated: 2026-09-24
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,16 +13,16 @@ knowledge_schema: synthesis-v1
 [[ReadingNoteWorkflow]] is a note-taking practice that turns books, reading histories, summaries, metadata, lists, and reflections into a linked knowledge system for later recall, comparison, discovery, and writing.
 
 ## Current Synthesis
-The source treats reading notes as the most practical entry point for card-note practice because reading already produces material worth recording. Instead of using a Zettelkasten to endlessly discuss Zettelkasten, the reader can use ordinary book notes to create three complementary note types: entry notes for books and related entities, outline notes for booklists and chronologies, and opinion notes for compact judgments or essays. In the mystery-fiction example, links among books, authors, genres, awards, plot devices, influences, and personal comments make reading history visible as a navigable knowledge graph.
+The sources treat reading notes as a practical entry point for card-note practice because reading already supplies material to summarize, compare, and judge. One workflow organizes book knowledge into entry notes for works and entities, outline notes for lists and chronologies, and opinion notes for compact judgments. The other distinguishes brief literature notes from permanent notes: while reading, select and restate only what may matter; soon afterward, test those notes against existing questions and rewrite useful ideas as context-independent claims in one's own words. Together, these layers turn reading history into both a navigable graph and reusable material for later arguments.
 
 ## Key Claims
-- Reading notes are a strong beginner workflow because summaries and book reviews already require restating material in one's own words.
-- A card-note system works better when it is applied to a substantive domain rather than kept at the level of note-taking theory.
-- Entry notes capture book metadata, publication context, plot summaries, influences, genres, styles, and tricks.
-- Outline notes organize author chronologies, genre maps, award lists, and personal reading histories as linked booklists.
-- Opinion notes preserve interpretive judgments without requiring every book to become a long-form review.
-- Software affordances such as backlinks, local graph views, graph grouping, task plugins, and spoiler folding can make reading notes more usable.
-- Lightweight linked notes can be more sustainable than trying to write a full essay about every book.
+- Reading notes are a strong beginner workflow because summaries and reviews require restating material in one's own words.
+- A card-note system works better when applied to a substantive domain rather than kept at the level of note-taking theory.
+- Literature notes should be brief, selective, close enough to the source for traceability, and designed to support later permanent notes.
+- Permanent notes rewrite useful ideas as independently understandable claims and connect them to existing questions and arguments.
+- Entry, outline, and opinion notes provide complementary structures for metadata, reading maps, and interpretive judgments.
+- Lightweight linked notes can be more sustainable than writing a full essay about every book, while still feeding later long-form writing.
+- Software affordances can improve navigation, but understanding, selection, and rewriting remain the core work.
 
 ## Evidence
 - Beginner entry point: [[ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li]] argues that book notes are a shortcut into card-note practice because reviews and summaries avoid turning the method itself into the object.
@@ -31,12 +32,15 @@ The source treats reading notes as the most practical entry point for card-note 
 - Opinion notes: [[ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li]] treats opinion notes as a flexible form between brief judgment and traditional review.
 - Tool affordances: [[ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li]] uses Obsidian backlinks, local graph views, graph groups, task plugins, and HTML detail folding to support the workflow.
 - Sustainability: [[ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li]] contrasts short, flexible card notes with the unrealistic expectation of writing a long review for every book.
+- Literature-to-permanent processing: [[ka-pian-bi-ji-xie-zuo-fa-bi-ji]] recommends making selective literature notes, reviewing them soon, and rewriting useful ideas in one's own words as permanent notes.
+- Understanding test: [[ka-pian-bi-ji-xie-zuo-fa-bi-ji]] argues that condensed restatement exposes the illusion of understanding that rereading or copying can preserve.
 
 ## Counterevidence & Qualifications
-The source is based on one author's reading practice and uses mystery fiction as the example domain. Its workflow depends on the reader caring about relationships among works, authors, genres, awards, and devices; readers who only want private impressions or simple completion tracking may not need the same level of linking. The source also presents Obsidian and similar backlink-and-graph tools as useful examples rather than as the only viable software.
+Both sources are practitioner or reading-note accounts rather than comparative studies of note-taking outcomes. The mystery-fiction workflow depends on caring about relationships among works, authors, genres, awards, and devices; simple completion tracking may not need the same linking. The literature/permanent distinction is useful operationally but sits beside a second fleeting/permanent/project taxonomy in the same source, so the labels should serve the workflow rather than become rigid doctrine. Obsidian and similar backlink tools are examples, not requirements.
 
 ## What Changed
 - Created the concept to capture reading notes as a concrete application layer for card-note practice.
+- Added the literature-note-to-permanent-note processing loop and clarified that rewriting, not software, performs the main understanding test.
 
 ## Related Concepts
 - [[ZettelkastenMethod]] - reading notes operationalize card-note practice through entry, outline, and opinion notes.

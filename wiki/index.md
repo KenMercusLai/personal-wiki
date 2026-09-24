@@ -433,6 +433,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [“Convince Me” said the Investor. “No” said the Founder.](sources/convince-me-said-the-investor-no-said-the-founder-hunter-walk.md) - Hunter Walk argues that founders should treat fundraising as mutual selection and end low-value persuasion contests when an investor offers neither likely capital nor grounded feedback.
 - [You Should Plan On Switching Jobs Every Three Years For The Rest Of Your Life](sources/vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life.md) - Vivian Giang presents Patty McCord's three-to-four-year job-mobility heuristic as a route to faster learning while leaving its pay and performance claims unproven.
 - [“Hallway Debates”: A 2016 Product Manager Discussion Guide](sources/hallway-debates-a-2016-product-manager-discussion-guide-learning-by-shipping.md) - Steven Sinofsky connects forward-looking mobile, cloud, platform, research, security, open-source, and quality choices while warning that unbounded bridge architectures can become permanent complexity.
+- [《卡片笔记写作法》笔记](sources/ka-pian-bi-ji-xie-zuo-fa-bi-ji.md) - 一篇将卡片盒解释为从闪念和文献笔记到永久笔记、链接、主题发展与成稿的外部思考系统的读书笔记。
 
 ## Entities
 

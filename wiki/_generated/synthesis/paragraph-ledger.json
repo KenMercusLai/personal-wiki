@@ -234,6 +234,7 @@
       "5d8554511c35b8f911f8d3bd2013d85890619abda913371e649895672402ec2e",
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
+      "288af91aa9d87fd6887e5e4493aeba87396f77129851fc787d02781e8bfedd3f",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
@@ -361,10 +362,10 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 359
+    "paragraph_count": 360
   },
-  "overview_commit": "1f064f84f84371ea374377706d0834898bf87a67",
-  "overview_digest": "f1709d2235e9f49b0cc40b9e3033ece54e14686a4f9e94f0867e94c7466516cb",
+  "overview_commit": "57420eb895a74b82598047bb2e65daee951883b8",
+  "overview_digest": "76e078636c68d80543228a37384229436a9309e62893932a19468ea13a04482c",
   "paragraphs": [
     {
       "id": "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
@@ -4800,6 +4801,21 @@
         "NoteToolFit",
         "Obsidian",
         "OrphanNotes",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "288af91aa9d87fd6887e5e4493aeba87396f77129851fc787d02781e8bfedd3f",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest Zettelkasten reading note adds an end-to-end processing and writing layer. [[ZettelkastenMethod]] now connects low-friction fleeting capture and selective literature notes to independently understandable permanent notes, meaningful links, topic entry points, bottom-up argument development, drafting, and revision. This strengthens [[ReadingNoteWorkflow]] by making condensed rewriting—not copying or repeated rereading—the main understanding test, and it strengthens [[LearningByWriting]] by treating linked notes as externalized partial thought that can preserve counterevidence and feed several projects. The source remains a secondary book note, however: its shifting three-note taxonomies and broad claims about expertise, handwriting, memory, and growth mindset are workflow hypotheses rather than settled universal findings.",
+      "topic_scores": {
+        "culture-and-media": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "LearningByWriting",
+        "ReadingNoteWorkflow",
         "ZettelkastenMethod"
       ]
     },

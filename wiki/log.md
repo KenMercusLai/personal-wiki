@@ -3459,3 +3459,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-24] ingest | 《卡片笔记写作法》笔记
+
+Added a reading note that frames Zettelkasten as an external thinking and writing system spanning fleeting capture, selective literature notes, permanent notes, semantic links, bottom-up topic development, drafting, and revision. Updated [[ZettelkastenMethod]], [[ReadingNoteWorkflow]], [[LearningByWriting]], and [[NiklasLuhmann]], while preserving the source's inconsistent three-note taxonomies and qualifying its broad psychological and expertise claims as secondary, non-comparative evidence. The source contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

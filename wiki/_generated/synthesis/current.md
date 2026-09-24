@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-24
-as_of_overview_commit: 1f064f84f84371ea374377706d0834898bf87a67
-summary: "Durable outcomes require grounded evidence, explicit tradeoffs, coherent organizations, inspectable systems, and accountable human judgment."
-episode_count: 425
-source_count: 425
-paragraph_count: 359
+as_of_overview_commit: 57420eb895a74b82598047bb2e65daee951883b8
+summary: "Durable outcomes require grounded evidence, explicit tradeoffs, inspectable systems, coherent organizations, and accountable human judgment."
+episode_count: 426
+source_count: 426
+paragraph_count: 360
 topic_count: 9
 ---
 
@@ -50,10 +50,10 @@ Infrastructure works across domains when hidden flows, constraints, ownership bo
 
 ### Culture and Media
 
-Media form, infrastructure, feedback, audience assumptions, community norms, preservation, and business models jointly shape creation, discovery, identity, access, payment, and durability.
+Media form, infrastructure, audience practice, governance, feedback, preservation, and business models jointly shape creation, learning, discovery, identity, access, payment, and durability.
 
-- [[HunterWalk]] links growth in [[DigitalMediaMonetization]] through direct audience payment to familiar low-friction checkout, personal creator support, stronger niche per-customer economics, and an advertising orientation at [[Google]] and [[Facebook]], while [[CreatorEconomyStartups]] shows that payment access does not remove concentration, distribution, churn, take-rate, or defensibility problems. Evidence: [[HunterWalk]], [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[WebAdEconomics]], [[CreatorEconomyStartups]], [[Google]], [[Facebook]], [[Stripe]].
-- [[AnonymousSourcing]] trades access and source safety against audience verifiability: [[HunterWalk]] argues that hidden role, access, incentives, and bias weaken unnamed criticism, while genuine jeopardy can still justify protection and confidential allegations can direct reporting toward corroboration. Evidence: [[AnonymousSourcing]], [[HunterWalk]].
+- [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]].
+- [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
