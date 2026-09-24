@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-25] ingest | Bezos Prime
+
+Added Fortune's 2016 profile of Jeff Bezos's transition from founder-centered control to a leader-of-leaders model across Amazon, the Washington Post, and Blue Origin. Created [[BlueOrigin]], [[WashingtonPost]], [[JasonRezaian]], [[MartyBaron]], and [[LeaderOfLeaders]]; updated [[JeffBezos]], [[Amazon]], [[JeffWilke]], and [[StrategicWriting]] from their complete ordered source inventories. Preserved the unresolved Amazon workplace-culture dispute, the Post's undisclosed economics, and Blue Origin's passenger and orbital forecasts as qualifications rather than outcomes. Inspected all six local images, retained the Rezaian retrieval, New Shepard landing, and Amazon Books photographs at their semantic positions, and omitted two duplicate cover images plus one decorative portrait.
+
 ## [2026-09-25] ingest | Startups need dual theories on distribution and product/market fit. One is not enough
 
 Added Andrew Chen's framework for co-designing customer value and distribution, then progressing from small responsive channels toward larger competitive ones. Created [[StartupDistributionStrategy]] and updated [[ProductMarketFit]] and [[AndrewChen]] from their complete ordered source inventories. Preserved the limits of a practitioner thesis without comparative channel data, quantified channel thresholds, or isolated attribution for the company examples. Inspected the sole remote image and omitted it as a decorative title card that repeated the article title; no asset manifest was needed.
@@ -3763,6 +3767,26 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-25] ingest | Beware the One-Person Team
 
 Added Edmond Lau's argument that staffing an entire software project with one person trades away early feedback, shared learning, continuity, parallel momentum, and social reinforcement. Created [[OnePersonTeamRisk]], and updated [[SmallProductTeamBalance]], [[EngineeringTeamMotivation]], and [[EdmondLau]] from their complete ordered source inventories. Preserved the boundary between individually owned tasks and isolated whole-project staffing, and qualified the proposed two-person floor as practitioner guidance rather than a universal optimum. Inspected both unique local images; the repeated stressed-developer photograph was illustrative and the duplicated book cover was promotional, so neither was retained.
+
+## [2026-09-25] ingest | BeyondCorp: How Google Ditched VPNs for Remote Employee Access - The New Stack
+
+Added The New Stack's 2018 account of Google's BeyondCorp architecture and migration from VPN perimeter trust to contextual, application-level employee access. Created [[BeyondCorp]] and [[ZeroTrustAccess]], and updated [[Google]] from its complete ordered source inventory. Preserved the distinction between public reachability and authorization, the complementary role of layered controls, and the limits of a presenter-reported historical case with no independent breach, policy-error, reliability, user-impact, or cost evidence. Inspected the sole local image, identified it as a generic phone-to-shield-to-laptop security illustration with no independent evidence, and omitted it without creating an asset manifest.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | 运气与努力
+
+Added 1Byte's essay on success as an interaction among lifelong learning, judgment, preparation, unequal starting conditions, historical timing, and chance. Created [[ShanWeijian]] and [[PAG]]; updated [[LuckAndEffortInSuccess]], [[RepeatableLearningFromHistory]], and [[SurvivorshipBias]] from their complete ordered source inventories; and connected the synthesis to [[CharlieMunger]], [[WarrenBuffett]], [[BillGates]], [[Microsoft]], [[SteveJobs]], and [[SystematicLearning]]. Preserved the limits of retrospectively selected success stories, rejected the article's unsupported normal-distribution assumption as evidence, and treated its critique of expensive success groups as a warning about causal claims and mystique rather than a claim that all paid teaching lacks value. The Markdown contains no image references, so no visual assets or manifest were created.
 
 ## [2026-09-25] lint | Wiki health check
 

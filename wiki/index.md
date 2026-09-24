@@ -7,6 +7,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Bezos Prime](sources/bezos-prime-fortune.md) - Fortune profiles Jeff Bezos's shift from founder hub to leader of leaders across Amazon, the Washington Post, and Blue Origin through senior ownership, written reviews, patient capital, and selective depth.
+- [BeyondCorp: How Google Ditched VPNs for Remote Employee Access - The New Stack](sources/beyondcorp-how-google-ditched-vpns-for-remote-employee-access-the-new-stack.md) - Google presenters describe replacing VPN perimeter trust with identity- and device-aware application access, tiered policy, proxy enforcement, and replay-tested migration.
 - [Beware the One-Person Team](sources/beware-the-one-person-team.md) - Edmond Lau argues that solo project staffing trades coordination cost for weaker feedback, learning, continuity, momentum, and morale.
 - [Best Seed Pitch Ever](sources/best-seed-pitch-ever-avc.md) - Fred Wilson recalls Jeff Lawson pairing Twilio's five-API-call value proposition with a live-coded demo that made Wilson's phone ring within about 30 seconds.
 - [Being a start-up CTO (or ‘how I fired myself enough times to finally become CTO’)](sources/being-a-start-up-cto-or-how-i-fired-myself-enough-times-to-finally-become-cto.md) - Joshua Wöhle argues that a scaling startup CTO must repeatedly transfer former responsibilities to specialist leaders and anticipate the next bottleneck.
@@ -473,9 +475,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Android Apps With More Than 2 Billion Total Downloads Are Committing Ad Fraud](sources/android-apps-with-more-than-2-billion-total-downloads-are-committing-ad-fraud.md) - Craig Silverman reports how eight high-download Android apps allegedly manipulated last-click install attribution through click injection, click flooding, permission access, and network concealment.
 - [Atlassian's $5.5 billion user onboarding magic](sources/atlassians-5-5-billion-user-onboarding-magic.md) - Jackson Noel argues that Atlassian's efficient self-service growth came from focused products and clear first actions more than exceptional onboarding polish.
 - [B2B Blog Post Ideas: Tried And True Ideas For B2B Brands](sources/b2b-blog-post-ideas-tried-and-true-ideas-for-b2b-brands.md) - A practitioner taxonomy of eight B2B post formats, linking search, instruction, evidence, debate, scanning, and company news to different audience and distribution jobs.
+- [运气与努力](sources/blog-1byte-io-yun-qi-yu-nu-li.md) - 1Byte argues that learning, judgment, preparation, structural opportunity, and chance jointly shape success, with implications for humility and imitation.
 
 ## Entities
 
+- [Blue Origin](entities/BlueOrigin.md) - Bezos-funded aerospace company pursuing reusable flight and long-run human settlement in space through iterative technical development.
+- [The Washington Post](entities/WashingtonPost.md) - Journalism institution using patient private ownership for digital experimentation while preserving editorial authority boundaries.
+- [Jason Rezaian](entities/JasonRezaian.md) - Washington Post correspondent whose release and retrieval illustrate institutional duty of care for dangerous reporting.
+- [Marty Baron](entities/MartyBaron.md) - Washington Post editor advocating internet-native adaptation while retaining newsroom control over coverage.
 - [Janna Bastow](entities/JannaBastow.md) - ProdPad co-founder and ProductTank leader who helped Joshua Wöhle learn product management.
 - [Joshua Wöhle](entities/JoshuaWohle.md) - SuperAwesome co-founder whose CTO role shifted from system recovery through product leadership to strategic scaling work.
 - [Martijn Verburg](entities/MartijnVerburg.md) - Mentor who helped Joshua Wöhle reason through repeated startup-scaling challenges.
@@ -1216,7 +1223,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
-- [Google](entities/Google.md) - Web-platform, scaling, mobile, and geospatial actor associated with protocol evolution, Android reach, Google Play scale, and personalized mapping infrastructure.
+- [Google](entities/Google.md) - Web-platform, scaling, mobile, geospatial, and enterprise-security actor associated with protocol evolution, Android reach, mapping infrastructure, and BeyondCorp.
 - [Google AdWords](entities/GoogleAdWords.md) - Google's self-service advertising product used as a product-management case for reconciling sales, engineering, relevance, and revenue constraints.
 - [Google Play](entities/GooglePlay.md) - Google's Android marketplace, pairing sustained download scale with weaker direct spending and significant distribution-governance responsibilities.
 - [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
@@ -1445,9 +1452,14 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Jeff Lawson](entities/JeffLawson.md) - Twilio founder and CEO whose 2008 seed pitch paired a compressed API claim with a working live demonstration.
 - [Twilio](entities/Twilio.md) - Communications API company presented as reducing telephony complexity to a few developer-facing calls.
+- [Shan Weijian (单伟建)](entities/ShanWeijian.md) - Investor and author whose biography grounds a success framework built from lifelong learning, judgment, luck, and prepared opportunity.
+- [PAG](entities/PAG.md) - Asia-focused private investment group identified in the source as founded by Shan Weijian, with current scale left unverified.
 
 ## Concepts
 
+- [Leader of Leaders](concepts/LeaderOfLeaders.md) - Scaling model where executives lead through durable senior owners, written review mechanisms, teaching, explicit authority boundaries, and selective depth.
+- [BeyondCorp](concepts/BeyondCorp.md) - Google's identity- and device-aware employee-access architecture replacing broad VPN perimeter trust with application-level policy enforcement.
+- [Zero-Trust Access](concepts/ZeroTrustAccess.md) - Access model authorizing each user-to-application request from identity, device, authentication, and resource context rather than network location.
 - [Startup CTO Role Evolution](concepts/StartupCTORoleEvolution.md) - A startup technology leader's responsibilities change as successive technical, product, people, and coordination bottlenecks emerge.
 
 - [Solo Founding](concepts/SoloFounding.md) - Company formation led by one founder, concentrating authority, decision load, risk, and the need for distributed support.

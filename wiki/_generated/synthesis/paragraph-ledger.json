@@ -1,6 +1,8 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1492036979a78cdef9fca13c401758f85e80d4ab7baed5aac3ebaeb04beacc22",
+      "348533de2964124b35cee0527dac49ff228182cfd77a7a09af6246f3225ab094",
       "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
       "f1f1581bceaee7f6291efc4a7b150ea22401533b5f3030432d996941e7758376",
       "743369967a4157761b9f07f093aa03f5cf063aea120ef8389b9036f2c83b65ab",
@@ -394,11 +396,49 @@
       "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6",
       "1cd0f64b4997aa5fe15323c8ce8ade83a80aebb4643007b2c89393a8ac9252b2"
     ],
-    "paragraph_count": 392
+    "paragraph_count": 394
   },
-  "overview_commit": "e557d70570ac217a68c25af8aeedd96e8b186bd8",
-  "overview_digest": "1fa6924cc64304ac4b1c4c51ee95bf769d7081432668374bc9489ab79e02c5f6",
+  "overview_commit": "977e7d801c230547def52b44dc5a1e54a308b53c",
+  "overview_digest": "07ef76967dc67f369eea07961b70f9cf32aa0e3e53d06e262a3fe04e319e17c7",
   "paragraphs": [
+    {
+      "id": "1492036979a78cdef9fca13c401758f85e80d4ab7baed5aac3ebaeb04beacc22",
+      "primary_topic": "history-and-geopolitics",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest 1Byte source deepens [[LuckAndEffortInSuccess]] by placing learned judgment between effort and outcome. [[ShanWeijian]]'s account joins lifelong learning, direction-setting judgment, and luck; his Gobi history and the author's Yale admission show preparation making a contingent opening usable without turning adversity into a guaranteed success formula. The [[BillGates]] and [[Microsoft]] case makes contingency cumulative: early computer access, family position and relationships, IBM's need, Digital Research's missed negotiation, and QDOS availability interacted with talent and strategy. This sharpens [[RepeatableLearningFromHistory]] and [[SurvivorshipBias]] with a practical test—separate historical position, enabling conditions, accidents, and purposeful action, then ask whether a visible trait caused success or was merely survived by a winner. It also adds an ethical conclusion: recognizing unequal opportunity should support humility, continued learning, and compassion rather than merit-only judgment. The article's attack on expensive success groups is best read as skepticism toward mystique and untested transfer, not proof that all paid teaching lacks value. Its examples are retrospective and selected, and its casual normal-distribution claim for luck is unsupported. The Markdown contains no image references, so no visual assets or manifest were created.",
+      "topic_scores": {
+        "history-and-geopolitics": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BillGates",
+        "LuckAndEffortInSuccess",
+        "Microsoft",
+        "RepeatableLearningFromHistory",
+        "ShanWeijian",
+        "SurvivorshipBias"
+      ]
+    },
+    {
+      "id": "348533de2964124b35cee0527dac49ff228182cfd77a7a09af6246f3225ab094",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest BeyondCorp source adds [[ZeroTrustAccess]] and Google's [[BeyondCorp]] implementation to the wiki's security material. Its core distinction is between reachability and authorization: employee-facing applications can use public IP addresses while a reverse proxy and trust engine decide each request from user identity, authentication strength, device state, and resource sensitivity. Live device inventory, security keys, device certificates, TLS, trust tiers, and vulnerability scanning form a layered control path rather than assuming that VPN entry or internal network location proves legitimacy. The migration itself used recorded-traffic replay—reported at about 80 TB per day—to find incompatible services and users who could switch safely, connecting the case to the wiki's broader recorded-traffic testing theme. The source also reports location-independent access and roughly 90-second Chromebook configuration, but these are Google-presenter claims in a 2018 trade article with no independent breach, false-decision, latency, availability, policy-maintenance, support, or total-cost evidence. The durable synthesis is therefore narrower than “ditch every VPN”: scope authorization per application and treat the network as untrusted, while preserving complementary segmentation, transport protection, application security, accurate inventory, monitored exceptions, and recovery paths. The sole local image was inspected and omitted as a generic phone-to-shield-to-laptop illustration with no independent evidence.",
+      "topic_scores": {
+        "governance-and-institutions": 3,
+        "psychology-and-personal-development": 3,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BeyondCorp",
+        "ZeroTrustAccess"
+      ]
+    },
     {
       "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
       "primary_topic": "business-and-markets",

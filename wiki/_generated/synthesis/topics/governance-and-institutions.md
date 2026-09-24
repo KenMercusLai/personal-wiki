@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-25
-as_of_overview_commit: bab51cf0f126f41faaa0a68d3bc48ac11303a9a9
-input_digest: eaed445329e5487a0121bbfe0afd4a29688a07d1dd6d3b3d4f5ff49d3cbe55c5
+as_of_overview_commit: 26d90b1060ffc3e0a60289a70936b1143cee4038
+input_digest: c12491e137e3323225d4f6125768a0c507c817956e5236b8ca5089708670151a
 ---
 
 # Governance and Institutions
@@ -255,3 +255,14 @@ Technical systems that look operationally narrow can carry social consequences w
 **Qualifications:**
 
 - The source offers heuristics rather than a complete adjudication protocol and does not address deception, multi-user authority, appeals, or confidence calibration.
+
+### Zero Trust Access Separates Reachability From Authorization
+
+[[ZeroTrustAccess]] and [[BeyondCorp]] separate institutional reachability from authorization: network location does not establish legitimacy, so each application request is governed by identity, authentication, device, resource, and policy context while complementary controls remain necessary.
+
+**Evidence:** [[ZeroTrustAccess]], [[BeyondCorp]]
+
+**Qualifications:**
+
+- The evidence is a 2018 trade-publication account of Google presenters' claims, with no independent breach, false-decision, reliability, policy-maintenance, support, or cost outcomes.
+- The case does not imply that public reachability or removing a VPN is safe without accurate inventory, strong identity and device controls, transport and application security, monitored exceptions, and recovery paths.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-25
-as_of_overview_commit: e557d70570ac217a68c25af8aeedd96e8b186bd8
+as_of_overview_commit: 977e7d801c230547def52b44dc5a1e54a308b53c
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, community design, and judgment turn constraints into outcomes."
-episode_count: 464
-source_count: 464
-paragraph_count: 392
+episode_count: 467
+source_count: 467
+paragraph_count: 394
 topic_count: 9
 ---
 
@@ -64,7 +64,7 @@ Accountable institutions, managers, platforms, and technical systems need explic
 
 ### History and Geopolitics
 
-The historical material emphasizes path dependence, hidden maturation, unequal starting conditions, institutional context, and compatibility decay rather than reproducible recipes.
+The historical material emphasizes path dependence, hidden maturation, unequal starting conditions, learned judgment, institutional context, and compatibility decay rather than reproducible recipes.
 
 ### Psychology and Personal Development
 
@@ -81,7 +81,7 @@ This remains a heterogeneous, mostly indirect topic whose workplace, computing, 
 
 ### Work, Education, and Society
 
-Learning and work improve through feedback, judgment, bounded attention, shared context, role clarity, fair incentives, calibrated hiring governance, meaningful opportunity, and observable practice.
+Learning and work improve through feedback, judgment, bounded attention, shared context, role clarity, fair incentives, calibrated hiring governance, meaningful opportunity, and observable practice, while starting conditions and historical timing constrain individual agency.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

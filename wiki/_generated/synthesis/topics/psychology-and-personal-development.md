@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-25
-as_of_overview_commit: 07e00c713b09a689f1ab60f28d9cd83739754fc2
-input_digest: d2b58301a82a68b7c649aee06ffa3ba4f4094597d99254712ecf599a9d0ab568
+as_of_overview_commit: 26d90b1060ffc3e0a60289a70936b1143cee4038
+input_digest: 6f13f8d9d62bd6bb40528858204bb6cbdf030b2d953828147211a2f6dcc230fa
 ---
 
 # Psychology and Personal Development
@@ -241,3 +241,14 @@ Psychology and personal-development sources treat progress as a bounded attentio
 
 - The source provides a memorable heuristic rather than empirical weights for luck, effort, habits, or structural advantage.
 - Apparently similar peers can still differ in health, wealth, discrimination, caregiving, networks, risk capacity, and cumulative opportunity; action increases exposure to opportunity but does not guarantee it.
+
+### Access Trust Needs Context Not Location
+
+[[ZeroTrustAccess]] and [[BeyondCorp]] provide a technical trust-calibration example: a user's network location is an insufficient proxy for legitimacy, so access decisions should use explicit identity, authentication, device, and resource evidence.
+
+**Evidence:** [[ZeroTrustAccess]], [[BeyondCorp]]
+
+**Qualifications:**
+
+- This is a secondary fit for the psychology topic: the evidence concerns enterprise access architecture rather than interpersonal or cognitive trust.
+- The Google-presented historical case supplies no independent security, policy-error, reliability, user-impact, or cost comparison.

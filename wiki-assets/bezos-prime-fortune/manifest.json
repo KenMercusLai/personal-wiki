@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "bezos-prime-fortune",
+  "images": [
+    {
+      "file": "bezos-and-jason-rezaian.jpg",
+      "alt": "Jeff Bezos and freed Washington Post reporter Jason Rezaian aboard an aircraft"
+    },
+    {
+      "file": "new-shepard-powered-landing.jpg",
+      "alt": "Blue Origin New Shepard booster performing a powered vertical landing"
+    },
+    {
+      "file": "amazon-books-service-counter.jpg",
+      "alt": "Amazon Books service counter with a Fire tablet display in the Seattle store"
+    }
+  ]
+}
