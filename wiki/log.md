@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-24] ingest | 关于前置引用现象，学习卡顿的根源
+
+Added 胡拉图的后花园's essay on learning friction caused by encountering concepts before their dependencies are fully explained. Created [[HuLaTuDeHouHuaYuan]] and [[ForwardReferenceLearning]], and updated [[LearningHowToLearn]] with temporary-ambiguity regulation, a complete first pass, unfamiliar-item marking, and selective later review. The synthesis preserves the article's limits: forward reference is extended from programming as a learning metaphor, and its defense of rote memorization is not backed by comparative evidence or separated from retrieval practice, spacing, and application. Both local images were opened; the decorative black “life” banner was omitted, while the bilingual encyclopedia definition screenshot was retained with a descriptive canonical filename at the definition context.
+
 ## [2026-09-23] ingest | 电商系统的高并发库存扣减
 
 Added Kikcat's 2026 comparison of atomic database deduction, Redis distributed locks, an event-driven in-memory inventory system, and AliSQL Inventory Hint. Created [[Kikcat]] and [[HighConcurrencyInventoryDeduction]], updated [[Redis]] with stale-snapshot, Sentinel epoch, split-brain, long-pause, and coordinator-recovery boundaries, and expanded [[EventDrivenConsistency]] with idempotency, fail-closed projections, replay, and reconciliation. The synthesis treats throughput, consistency, availability, complexity, and portability as explicit tradeoffs: the Sentinel design reduces but does not eliminate overselling or underselling windows. All nine referenced local diagrams were opened and retained with descriptive filenames at their semantic positions; none were decorative, duplicated, missing, or uninterpretable.
@@ -3471,3 +3475,7 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-24] ingest | 「人格蒸馏」是一种愚蠢的谎言 | 螺莉莉的数据中心
 
 Added RORIRI's self-imitation experiment and critique of persona “distillation.” Created [[PersonaDistillation]], extended [[DataGeneratingProcess]] from observed statistical outcomes to the source's human-output analogy, updated [[RORIRI]], and broadened [[AutomatedContentFarming]] from automated plagiarism to thin prompt, media, and app production optimized for attention over fidelity or delivered value. Preserved the main limits: the “under 30%” fit is a subjective self-rating, the identity argument is conceptual rather than a benchmark, and the farming examples about unnamed operators are anecdotal allegations rather than independently verified misconduct. The source contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-24] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

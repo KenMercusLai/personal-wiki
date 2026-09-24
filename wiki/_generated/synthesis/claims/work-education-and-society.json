@@ -56,9 +56,10 @@
       "global_candidate": true,
       "id": "active-learning-builds-usable-judgment",
       "qualifications": [
-        "Practice needs feedback, examples, safety, and time boundaries; LLM help is safest when the user can inspect, test, correct, or discard the output; prolific practice transfers best to settings where small attempts are cheap enough to learn from."
+        "Practice needs feedback, examples, safety, and time boundaries; LLM help is safest when the user can inspect, test, correct, or discard the output; prolific practice transfers best to settings where small attempts are cheap enough to learn from.",
+        "[[ForwardReferenceLearning]] is a practitioner analogy rather than a tested educational model; temporary ambiguity may support orientation, but genuine prerequisite gaps and safety-critical or strictly cumulative material can require immediate repair, and the source does not compare rote repetition with retrieval, spacing, or application."
       ],
-      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.",
+      "statement": "[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material.",
       "status": "supported",
       "supporting_wikilinks": [
         "ActiveLearning",
@@ -69,7 +70,10 @@
         "FocusedReading",
         "WorkplaceLearning",
         "ProgrammerMindset",
-        "SystematicLearning"
+        "SystematicLearning",
+        "ForwardReferenceLearning",
+        "LearningHowToLearn",
+        "MetacognitiveFeedback"
       ]
     },
     {

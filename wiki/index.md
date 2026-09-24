@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [关于前置引用现象，学习卡顿的根源](sources/hulatu-forward-reference-learning-friction.md) - 胡拉图的后花园把学习卡顿解释为非线性知识中的前置引用，并建议通过全局首轮、标记、预读和重点复习逐步闭合概念依赖。
 - [「人格蒸馏」是一种愚蠢的谎言 | 螺莉莉的数据中心](sources/ren-ge-zheng-liu-shi-yi-zhong-yu-chun-de-huang-yan-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's self-imitation experiment argues that persona “distillation” is role-card summarization, not personal reconstruction, and connects its limits to data generation, context capacity, retrieval, and traffic-driven farming.
 - [“Too many people already do what I want to do.”](sources/too-many-people-already-do-what-i-want-to-do-seanwes-tv-medium.md) - seanwes tv reframes crowded-field anxiety through selective comparison, competition as qualified demand evidence, personal voice, and direct investment in an early audience.
 - [“The Linux of social media”—How LiveJournal pioneered (then lost) blogging](sources/the-linux-of-social-media-how-livejournal-pioneered-then-lost-blogging-ars-technica.md) - Steven T. Wright traces LiveJournal's feature leadership and community value alongside infrastructure strain, governance debt, policy conflict, acquisition mismatch, and failure to adapt to public-feed social media.
@@ -438,6 +439,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [胡拉图的后花园](entities/HuLaTuDeHouHuaYuan.md) - 中文作者，以编程中的前置引用类比自学卡顿，并提出多轮阅读与陌生项标记策略。
 - [seanwes tv](entities/SeanwesTV.md) - Creator-education publication combining market-entry encouragement, personal voice, and relationship-centered audience growth.
 - [LiveJournal](entities/LiveJournal.md) - Early journal-centered social platform whose technical and community innovation was constrained by operational strain, governance conflict, and ownership mismatch.
 - [Brad Fitzpatrick](entities/BradFitzpatrick.md) - LiveJournal founder whose behavior-led feature invention scaled a personal CGI experiment into a major platform and a management bottleneck.
@@ -1362,6 +1364,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Forward-Reference Learning](concepts/ForwardReferenceLearning.md) - Learning pattern in which a concept is encountered or used before its dependencies are fully explained, requiring temporary ambiguity and later review.
 - [Persona Distillation](concepts/PersonaDistillation.md) - Lossy compression of a person's recorded outputs into a role card that can guide imitation without reconstructing the person or their generating process.
 - [Community Governance Debt](concepts/CommunityGovernanceDebt.md) - Accumulated promises, precedents, informal decision rights, policy ambiguity, and distrust that make later platform change costly.
 - [Technology Transition Strategy](concepts/TechnologyTransitionStrategy.md) - Choosing how directly to commit to an emerging ecosystem or architecture while bounding compatibility, migration, and retirement costs.

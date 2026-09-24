@@ -32,9 +32,10 @@
       "global_candidate": true,
       "id": "technical-depth-over-framework-memorization",
       "qualifications": [
-        "Frameworks, cloud services, packaged tools, incumbent databases, and AI assistants remain useful when teams understand their fit boundaries, context requirements, migration costs, and operational tradeoffs."
+        "Frameworks, cloud services, packaged tools, incumbent databases, and AI assistants remain useful when teams understand their fit boundaries, context requirements, migration costs, and operational tradeoffs.",
+        "[[ForwardReferenceLearning]] is a practitioner analogy rather than a tested educational model; temporary deferral is unsafe where an unresolved prerequisite blocks correct or safe action, and its source does not compare rote repetition with retrieval, spacing, or application."
       ],
-      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes.",
+      "statement": "Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained.",
       "status": "supported",
       "supporting_wikilinks": [
         "VersatileWebStackFluency",
@@ -44,7 +45,9 @@
         "EnterpriseCloudMigration",
         "NetworkLoadBalancing",
         "AgileSoftwareDevelopment",
-        "ContextCoding"
+        "ContextCoding",
+        "ForwardReferenceLearning",
+        "LearningHowToLearn"
       ]
     },
     {

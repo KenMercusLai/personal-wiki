@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-24
-as_of_overview_commit: 1f064f84f84371ea374377706d0834898bf87a67
-input_digest: 3d87113391375fc297a845a7fe42aaa64dd23f82b855891340ccd1d26d7efd4b
+as_of_overview_commit: 60069c8643cc365d60280ef6e1c94f4db5895660
+input_digest: 592ba2b6cbd160e6c2e1460b5271a3bbcebecc1115321dd3371f14350f51d958
 ---
 
 # Work, Education, and Society
@@ -49,13 +49,14 @@ Public technical work such as [[OpenSourceProjectMaintenance]] can build [[Perso
 
 ### Active Learning Builds Usable Judgment
 
-[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers.
+[[ActiveLearning]] builds usable judgment when learners explain, write, experiment, practice [[LearningByWriting]] and [[SpeedReadingMethod]], use [[ProlificPractice]] to make many small feedback-rich artifacts, apply [[PracticalLLMUse]] only where outputs can be inspected, and study real systems rather than only collecting answers. [[ForwardReferenceLearning]] adds a sequencing layer to [[LearningHowToLearn]]: a first pass can map the whole while marking unresolved concepts for selective later review instead of repeatedly restarting familiar material.
 
-**Evidence:** [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]]
+**Evidence:** [[ActiveLearning]], [[LearningByWriting]], [[SpeedReadingMethod]], [[ProlificPractice]], [[PracticalLLMUse]], [[FocusedReading]], [[WorkplaceLearning]], [[ProgrammerMindset]], [[SystematicLearning]], [[ForwardReferenceLearning]], [[LearningHowToLearn]], [[MetacognitiveFeedback]]
 
 **Qualifications:**
 
 - Practice needs feedback, examples, safety, and time boundaries; LLM help is safest when the user can inspect, test, correct, or discard the output; prolific practice transfers best to settings where small attempts are cheap enough to learn from.
+- [[ForwardReferenceLearning]] is a practitioner analogy rather than a tested educational model; temporary ambiguity may support orientation, but genuine prerequisite gaps and safety-critical or strictly cumulative material can require immediate repair, and the source does not compare rote repetition with retrieval, spacing, or application.
 
 ### Ai Dependency Threatens Skill Formation
 

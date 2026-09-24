@@ -308,6 +308,20 @@
     },
     {
       "global_candidate": false,
+      "id": "instructional-sequencing-needs-prerequisite-judgment",
+      "qualifications": [
+        "The evidence extends a programming term into a practitioner learning metaphor and does not establish that deferral, repeated reading, or rote memorization improves outcomes across domains; safety-critical and strictly cumulative material may require immediate prerequisite repair."
+      ],
+      "statement": "[[ForwardReferenceLearning]] adds a small instructional-governance boundary: authors and learners must decide which prerequisites need immediate explanation and which unresolved concepts can be marked, carried through a first pass, and revisited when later context arrives.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ForwardReferenceLearning",
+        "LearningHowToLearn",
+        "SystematicLearning"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "digital-purchases-inherit-platform-governance",
       "qualifications": [
         "The source is a personal 2016 account and does not compare platform policy, licensing, exportability, emulation, DRM, or server-dependent failure modes.",

@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-24
-as_of_overview_commit: e9d76e53cf688495c11bd578fe370f29495a5cbe
-input_digest: 76117d4eec11421a283b7e33ceadfed07cfe22d328ad96a9e37df3d5d40ffd5f
+as_of_overview_commit: 60069c8643cc365d60280ef6e1c94f4db5895660
+input_digest: 788921441b431761a63460bd1c4ffc3c418a1f94aeb04095ff7654f1697c1531
 ---
 
 # AI and Technology
@@ -38,13 +38,14 @@ AI and technology sources frame durable technical progress as socio-technical pr
 
 ### Technical Depth Over Framework Memorization
 
-Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes.
+Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained.
 
-**Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]]
+**Evidence:** [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]], [[ForwardReferenceLearning]], [[LearningHowToLearn]]
 
 **Qualifications:**
 
 - Frameworks, cloud services, packaged tools, incumbent databases, and AI assistants remain useful when teams understand their fit boundaries, context requirements, migration costs, and operational tradeoffs.
+- [[ForwardReferenceLearning]] is a practitioner analogy rather than a tested educational model; temporary deferral is unsafe where an unresolved prerequisite blocks correct or safe action, and its source does not compare rote repetition with retrieval, spacing, or application.
 
 ### Concurrency Models Shape Systems Reasoning
 

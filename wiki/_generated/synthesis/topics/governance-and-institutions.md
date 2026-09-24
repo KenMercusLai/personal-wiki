@@ -4,8 +4,8 @@ generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
 last_updated: 2026-09-24
-as_of_overview_commit: 6c967f81dae97f42703981b75cb2512078423e4f
-input_digest: 7a4c39f8b23ce38ad9725163487878b9dadc05e44c43318ee82ae767d90256a8
+as_of_overview_commit: 60069c8643cc365d60280ef6e1c94f4db5895660
+input_digest: bb86b8488101d2511cbb0a58cc0329423c3d94e99f7705d02cabd7dd6a53cb23
 ---
 
 # Governance and Institutions
@@ -201,6 +201,16 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - This is a technical coordination pattern rather than evidence about political or institutional governance.
 - The source does not specify coordinator recovery, waiting behavior, message-delivery edge cases, isolation, implementation variants, or performance costs.
+
+### Instructional Sequencing Needs Prerequisite Judgment
+
+[[ForwardReferenceLearning]] adds a small instructional-governance boundary: authors and learners must decide which prerequisites need immediate explanation and which unresolved concepts can be marked, carried through a first pass, and revisited when later context arrives.
+
+**Evidence:** [[ForwardReferenceLearning]], [[LearningHowToLearn]], [[SystematicLearning]]
+
+**Qualifications:**
+
+- The evidence extends a programming term into a practitioner learning metaphor and does not establish that deferral, repeated reading, or rote memorization improves outcomes across domains; safety-critical and strictly cumulative material may require immediate prerequisite repair.
 
 ### Digital Purchases Inherit Platform Governance
 

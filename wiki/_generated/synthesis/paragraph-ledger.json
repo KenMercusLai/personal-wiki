@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "26b6a171316cb2e911fd11cdfeee3d35d34abf0eee0fcf30e76819d8c567e7d0",
       "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
       "3a51bb32fe14ec6d1b2c6e7f83d9f2cb5687f4bc970a6fe8fd76114b9c798524",
       "80f3620aad863c4ee9bf66b57c6b464621bce6f0a7e1bc87f58adfd661805cae",
@@ -363,11 +364,33 @@
       "165b6fbe592b6c4a49576c6eb38e014c5db3b3e3296776baf7960bbda64952cd",
       "b829021ee25e6a532654dab3eccd32452efd74244f0c5901a3de722912dc04ce"
     ],
-    "paragraph_count": 361
+    "paragraph_count": 362
   },
-  "overview_commit": "e9d76e53cf688495c11bd578fe370f29495a5cbe",
-  "overview_digest": "32331a397ae2c20e249a680ff8a3ec96fa52f7e40e58ea85e17d8b4cfaec3284",
+  "overview_commit": "60069c8643cc365d60280ef6e1c94f4db5895660",
+  "overview_digest": "c730641d94f95ca36fe3928258fc08308b94c0055989fdc1920dddf84589342f",
   "paragraphs": [
+    {
+      "id": "26b6a171316cb2e911fd11cdfeee3d35d34abf0eee0fcf30e76819d8c567e7d0",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[HuLaTuDeHouHuaYuan]] source adds [[ForwardReferenceLearning]] to the wiki's self-directed-learning material. Its core diagnosis is that complex knowledge cannot always be taught as a perfectly linear prerequisite chain: a learner may need to use `print` before formally understanding functions, or meet a term before later chapters supply its full model. [[LearningHowToLearn]] therefore now includes uncertainty regulation as well as information selection—distinguish a temporarily open dependency from evidence that the foundation actually failed. The proposed response is a staged pass: first obtain a global map while marking unfamiliar nodes, then skip familiar material and revisit unresolved concepts with later context; annotation previews and brief memorization can provide recognition cues. This complements [[SystematicLearning]], [[FocusedReading]], and [[MetacognitiveFeedback]], but remains a practitioner analogy rather than a tested educational model. The article does not compare repeated reading, retrieval practice, spacing, or application, and its strong defense of rote memorization should not be generalized to safety-critical or strictly cumulative domains where immediate prerequisite mastery matters. Of two local images, the decorative “life” title graphic was omitted; the bilingual encyclopedia screenshot defining forward reference was retained at the definition context.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FocusedReading",
+        "ForwardReferenceLearning",
+        "HuLaTuDeHouHuaYuan",
+        "LearningHowToLearn",
+        "MetacognitiveFeedback",
+        "SystematicLearning"
+      ]
+    },
     {
       "id": "37e73ef3f8c60aba01de01ccf2893d77a8a117726538969590b87a97aa6a1d40",
       "primary_topic": "work-education-and-society",
