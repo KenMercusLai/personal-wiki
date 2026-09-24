@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-25
-as_of_overview_commit: 701c36b9ea8b45ff30faa1531185cc4e2aa4e57f
-input_digest: 42b671de29498b3ca529946b70f10e8befc5fa855ca1bc55b8c49912c7cc8130
+as_of_overview_commit: e557d70570ac217a68c25af8aeedd96e8b186bd8
+input_digest: 6da622e02002373297197c432d67a73c72805767bd2c03622996f7ee64692cdb
 ---
 
 # Work, Education, and Society
@@ -400,3 +400,14 @@ AI-era and data-rich education should strengthen problem framing, [[Computationa
 
 - The evidence is one academic's 2023 self-reported setup rather than a comparative study of productivity, learning, reliability, or tool choice.
 - Plugin dependencies and imported annotations add maintenance and accumulation risk, so stable identifiers and automation do not replace selection, restatement, or synthesis.
+
+### Shared Context Bounds Small Team Staffing
+
+[[OnePersonTeamRisk]] and [[SmallProductTeamBalance]] distinguish bounded individual ownership from isolating a whole project: shared context can improve early feedback, learning, continuity, parallel momentum, and [[EngineeringTeamMotivation]], while priority serialization and [[TeamFocus]] let organizations form real teams instead of spreading people across many solo projects.
+
+**Evidence:** [[OnePersonTeamRisk]], [[SmallProductTeamBalance]], [[EngineeringTeamMotivation]], [[TeamFocus]], [[ScalingCommunication]], [[MicroCompany]]
+
+**Qualifications:**
+
+- The evidence is a practitioner essay rather than a comparative staffing study, so a two-person project floor is conditional guidance rather than a universal optimum.
+- Narrow, exploratory, confidential, or low-risk work may reasonably have one owner, while shared staffing still creates communication cost and cannot repair unfair pay, weak purpose, disrespect, burnout, or unsafe culture.

@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-25
-as_of_overview_commit: 07e00c713b09a689f1ab60f28d9cd83739754fc2
-input_digest: 8a5281fb9e0166998e7cd00acc1ec8367087e1791bd210feff23ea7cbcb24773
+as_of_overview_commit: e557d70570ac217a68c25af8aeedd96e8b186bd8
+input_digest: 1a91d11cae2cbe95c71ad7e5e03c573ca71b04442e1a792296b94506fbc2d063
 ---
 
 # Business and Markets
@@ -524,14 +524,15 @@ Business and markets sources frame companies as incentive systems for converting
 
 ### One Person Companies Rent Capability On Boring Stacks
 
-[[ListenNotes]], described by [[WenbinFang]], adds the one-person-company end of the business material: a free listener product and a paid developer API run by one operator on roughly twenty over-provisioned [[AWS]] servers, a deliberately conventional Django, [[PostgreSQL]], and [[Redis]] stack with no Docker, Kubernetes, or serverless, releases through Ansible and a three-argument `deploy.sh`, and rented capability from [[Stripe]], [[Cloudflare]], [[Mailchimp]], [[Notion]], and [[Slack]] in place of hiring, with [[BoringTechnology]] and resistance to overthinking framed as the way a solo founder keeps shipping.
+[[ListenNotes]], described by [[WenbinFang]], adds the one-person-company end of the business material: a free listener product and a paid developer API run by one operator on roughly twenty over-provisioned [[AWS]] servers, a deliberately conventional Django, [[PostgreSQL]], and [[Redis]] stack with no Docker, Kubernetes, or serverless, releases through Ansible and a three-argument `deploy.sh`, and rented capability from [[Stripe]], [[Cloudflare]], [[Mailchimp]], [[Notion]], and [[Slack]] in place of hiring. [[BoringTechnology]] and resistance to overthinking help a solo founder keep shipping, while [[OnePersonTeamRisk]] names the feedback, continuity, learning, and morale costs that concentrated context can create when the same structure is used to staff organizational projects.
 
-**Evidence:** [[ListenNotes]], [[WenbinFang]], [[AWS]], [[PostgreSQL]], [[Redis]], [[Stripe]], [[Cloudflare]], [[Mailchimp]], [[Notion]], [[Slack]], [[BoringTechnology]], [[OverthinkingAsBarrier]], [[MicroCompany]], [[BootstrappedSaaS]], [[DeploymentAutomation]]
+**Evidence:** [[ListenNotes]], [[WenbinFang]], [[AWS]], [[PostgreSQL]], [[Redis]], [[Stripe]], [[Cloudflare]], [[Mailchimp]], [[Notion]], [[Slack]], [[BoringTechnology]], [[OverthinkingAsBarrier]], [[MicroCompany]], [[BootstrappedSaaS]], [[DeploymentAutomation]], [[OnePersonTeamRisk]]
 
 **Qualifications:**
 
 - The account is a single founder's self-report with no revenue, churn, cost, or incident figures, so it demonstrates that a solo boring-stack business can operate rather than that the model is superior or durable.
 - The reported near-absent downtime and ease of one-person building are unmeasured, and the source names one surviving example rather than comparing failed solo products.
+- [[OnePersonTeamRisk]] comes from a separate practitioner essay about organizational project staffing, not solo-company outcome data, but it makes the concentration tradeoff explicit: low coordination cost can mean weaker feedback, continuity, shared learning, and morale.
 
 ### Technology Enabler Stack Gates When Ideas Work
 

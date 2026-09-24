@@ -3759,3 +3759,11 @@ Added Fred Wilson's account of Jeff Lawson's 2008 Twilio seed pitch, where a cla
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Beware the One-Person Team
+
+Added Edmond Lau's argument that staffing an entire software project with one person trades away early feedback, shared learning, continuity, parallel momentum, and social reinforcement. Created [[OnePersonTeamRisk]], and updated [[SmallProductTeamBalance]], [[EngineeringTeamMotivation]], and [[EdmondLau]] from their complete ordered source inventories. Preserved the boundary between individually owned tasks and isolated whole-project staffing, and qualified the proposed two-person floor as practitioner guidance rather than a universal optimum. Inspected both unique local images; the repeated stressed-developer photograph was illustrative and the duplicated book cover was promotional, so neither was retained.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

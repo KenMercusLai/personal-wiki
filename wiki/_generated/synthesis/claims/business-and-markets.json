@@ -947,10 +947,11 @@
       "id": "one-person-companies-rent-capability-on-boring-stacks",
       "qualifications": [
         "The account is a single founder's self-report with no revenue, churn, cost, or incident figures, so it demonstrates that a solo boring-stack business can operate rather than that the model is superior or durable.",
-        "The reported near-absent downtime and ease of one-person building are unmeasured, and the source names one surviving example rather than comparing failed solo products."
+        "The reported near-absent downtime and ease of one-person building are unmeasured, and the source names one surviving example rather than comparing failed solo products.",
+        "[[OnePersonTeamRisk]] comes from a separate practitioner essay about organizational project staffing, not solo-company outcome data, but it makes the concentration tradeoff explicit: low coordination cost can mean weaker feedback, continuity, shared learning, and morale."
       ],
-      "statement": "[[ListenNotes]], described by [[WenbinFang]], adds the one-person-company end of the business material: a free listener product and a paid developer API run by one operator on roughly twenty over-provisioned [[AWS]] servers, a deliberately conventional Django, [[PostgreSQL]], and [[Redis]] stack with no Docker, Kubernetes, or serverless, releases through Ansible and a three-argument `deploy.sh`, and rented capability from [[Stripe]], [[Cloudflare]], [[Mailchimp]], [[Notion]], and [[Slack]] in place of hiring, with [[BoringTechnology]] and resistance to overthinking framed as the way a solo founder keeps shipping.",
-      "status": "supported",
+      "statement": "[[ListenNotes]], described by [[WenbinFang]], adds the one-person-company end of the business material: a free listener product and a paid developer API run by one operator on roughly twenty over-provisioned [[AWS]] servers, a deliberately conventional Django, [[PostgreSQL]], and [[Redis]] stack with no Docker, Kubernetes, or serverless, releases through Ansible and a three-argument `deploy.sh`, and rented capability from [[Stripe]], [[Cloudflare]], [[Mailchimp]], [[Notion]], and [[Slack]] in place of hiring. [[BoringTechnology]] and resistance to overthinking help a solo founder keep shipping, while [[OnePersonTeamRisk]] names the feedback, continuity, learning, and morale costs that concentrated context can create when the same structure is used to staff organizational projects.",
+      "status": "qualified",
       "supporting_wikilinks": [
         "ListenNotes",
         "WenbinFang",
@@ -966,7 +967,8 @@
         "OverthinkingAsBarrier",
         "MicroCompany",
         "BootstrappedSaaS",
-        "DeploymentAutomation"
+        "DeploymentAutomation",
+        "OnePersonTeamRisk"
       ]
     },
     {

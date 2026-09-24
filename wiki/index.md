@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Beware the One-Person Team](sources/beware-the-one-person-team.md) - Edmond Lau argues that solo project staffing trades coordination cost for weaker feedback, learning, continuity, momentum, and morale.
 - [Best Seed Pitch Ever](sources/best-seed-pitch-ever-avc.md) - Fred Wilson recalls Jeff Lawson pairing Twilio's five-API-call value proposition with a live-coded demo that made Wilson's phone ring within about 30 seconds.
 - [Being a start-up CTO (or ‘how I fired myself enough times to finally become CTO’)](sources/being-a-start-up-cto-or-how-i-fired-myself-enough-times-to-finally-become-cto.md) - Joshua Wöhle argues that a scaling startup CTO must repeatedly transfer former responsibilities to specialist leaders and anticipate the next bottleneck.
 - [Being a Solo Founder: Pros, Cons, Tips & Tricks](sources/being-a-solo-founder-pros-cons-tips-tricks-baremetrics.md) - Baremetrics frames solo founding as a trade between speed and clear authority versus concentrated decisions, blind spots, isolation, and health risk.
@@ -563,7 +564,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shyp](entities/Shyp.md) - Mobile shipping service used to decompose a product into platform-provided camera, location, payment, support, and tracking capabilities plus physical fulfillment.
 - [Jason Lemkin](entities/JasonLemkin.md) - SaaS author who treats demonstrated direct-report recruiting ability as a defining VP qualification.
 - [SaaStr](entities/SaaStr.md) - Publication and event context represented by practical advice about scaling SaaS leadership teams.
-- [Edmond Lau](entities/EdmondLau.md) - Engineer and author who frames product experimentation and user research through software-debugging discipline.
+- [Edmond Lau](entities/EdmondLau.md) - Engineer and author connecting software-debugging discipline to product learning and shared-context team design.
 - [Zebras Unite](entities/ZebrasUnite.md) - Founder-and-funder movement promoting durable companies that pursue profit and social benefit together.
 - [Zapier](entities/Zapier.md) - No-code automation platform and remote company that reported one million users and more than one million daily automated tasks in 2016.
 - [Brian York](entities/BrianYork.md) - Bliss co-founder who interprets technical-debt trends as a record of startup priorities and organizational change.
@@ -1952,6 +1953,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Unix Editor Lineage](concepts/UnixEditorLineage.md) - Historical chain from `ed` through `em`, `en`, `ex`, `vi`, open-source clones, and Vim.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
+- [One-Person Team Risk](concepts/OnePersonTeamRisk.md) - Quality, learning, continuity, momentum, and morale failures caused by concentrating a whole project's context in one person.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
 - [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges, DSPs, and DMP-provided labels use user, context, advertiser, and audience data to decide whether and how much to bid for impressions.
 - [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.

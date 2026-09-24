@@ -82,6 +82,7 @@
       "14a534f208be1d6641cd314414cba8347e2a3492d515a537f379737df068703f",
       "67719221132060d2abaeb9e5a3d025addd0fdd98a1893b73bad387b985bc11f5",
       "b02fdd1ae30d7bfef7b8f77297109ba67c0049353c969e46af9fb3c3bf4cc5d1",
+      "2f1020c2e089105408355fbd9f62332b859d2a79e67b75dcfa2edf8268faad40",
       "1666b94ba656f6f2754ce898cfb1c5d6c7ba10045c0c90d5a6292b2c3f4f50e3",
       "a22452a994692700489fe06844e32d1830f8f2e97a33ef18e24cdb6f4b350b8b",
       "6c52ac2418bb9a44b5bcf7f0db8ee2fe12508678116bb4e1e94bdf2b45468cf3",
@@ -393,10 +394,10 @@
       "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6",
       "1cd0f64b4997aa5fe15323c8ce8ade83a80aebb4643007b2c89393a8ac9252b2"
     ],
-    "paragraph_count": 391
+    "paragraph_count": 392
   },
-  "overview_commit": "07e00c713b09a689f1ab60f28d9cd83739754fc2",
-  "overview_digest": "03da0d7b10eb04c5aa5316b8f88bccaf0d4f1874383c6a9f298e0bde6f0a0cca",
+  "overview_commit": "e557d70570ac217a68c25af8aeedd96e8b186bd8",
+  "overview_digest": "1fa6924cc64304ac4b1c4c51ee95bf769d7081432668374bc9489ab79e02c5f6",
   "paragraphs": [
     {
       "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
@@ -1999,6 +2000,28 @@
         "JoelGascoigne",
         "SaaSOperatingTransparency",
         "SmallProductTeamBalance"
+      ]
+    },
+    {
+      "id": "2f1020c2e089105408355fbd9f62332b859d2a79e67b75dcfa2edf8268faad40",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The Edmond Lau one-person-team source adds a lower staffing boundary to that small-team material. New [[OnePersonTeamRisk]] explains that eliminating coordination overhead by assigning a whole software project to one engineer can also eliminate early contextual feedback, shared learning, continuity, parallel momentum, and social reinforcement. [[SmallProductTeamBalance]] now separates individual task ownership from whole-project isolation: two people with shared context can preserve review and progress without requiring every task to be performed jointly, while [[EngineeringTeamMotivation]] gains peer commitment, shared struggle, and joint celebration as day-to-day mechanisms. The recommendation to serialize priorities rather than spread engineers across many solo projects strengthens [[TeamFocus]] and qualifies the positive [[MicroCompany]] material: a solo operator may deliberately accept concentrated risk for autonomy, but that does not make one-person project staffing generally optimal inside an organization. The source is a practitioner essay and does not establish two people as a universal minimum for narrow, exploratory, confidential, or low-risk work. Its repeated stressed-developer photograph and duplicated book promotion were non-evidentiary and omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "EngineeringTeamMotivation",
+        "MicroCompany",
+        "OnePersonTeamRisk",
+        "SmallProductTeamBalance",
+        "TeamFocus"
       ]
     },
     {
