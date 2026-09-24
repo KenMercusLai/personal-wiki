@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-25
-as_of_overview_commit: 701c36b9ea8b45ff30faa1531185cc4e2aa4e57f
+as_of_overview_commit: 3e50921cdf6f8a7f8d03b0574e789f0d1b23d1f6
 summary: "The wiki maps how technology, organizations, markets, institutions, culture, learning, community design, and judgment turn constraints into outcomes."
-episode_count: 459
-source_count: 459
-paragraph_count: 388
+episode_count: 460
+source_count: 460
+paragraph_count: 389
 topic_count: 9
 ---
 
@@ -68,7 +68,7 @@ The historical material emphasizes path dependence, hidden maturation, unequal s
 
 ### Psychology and Personal Development
 
-Progress is context-sensitive: attention, identity, influence, trust, incentives, relationships, feedback, and agency remain bounded by structural and situational constraints.
+Progress and identity are context-sensitive: attention, influence, trust, incentives, relationships, feedback, attribution signals, and agency remain bounded by structural, situational, privacy, and evidentiary constraints.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].

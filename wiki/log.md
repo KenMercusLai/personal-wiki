@@ -3731,3 +3731,11 @@ Added Brian Armstrong's account of Coinbase's hypergrowth hiring controls: dual 
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters
+
+Added a 2018 account of encoding per-recipient identifiers with invisible Unicode characters so copied confidential text can be attributed. Created [[ZeroWidthTextFingerprinting]] and connected it to identity resolution, anonymous sourcing, and leak prevention. Preserved the distinction between an account marker and proof of who copied the text, plus the risks of stripping, normalization, tampering, and false attribution. Inspected both unique local image files, identified them as duplicate text-only title illustrations that add no independent evidence, and omitted them without creating an asset manifest.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

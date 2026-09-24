@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters](sources/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters.md) - A reversible zero-width Unicode marker can attribute copied text to a recipient, but its reported success is qualified by stripping, tampering, and false-attribution risks.
 - [Bar Raisers at Coinbase: If you're not a hell yes, you're a no](sources/bar-raisers-at-coinbase-if-youre-not-a-hell-yes-youre-a-no.md) - Brian Armstrong describes Coinbase's trained hiring veto, dual skill-and-values screen, and deliberate preference for false negatives during hypergrowth.
 - [Avoiding Zombie Startups](sources/avoiding-zombie-startups.md) - Mathias Pastor offers a candidate-side screen for stagnant startups using investor quality, product and sales evidence, team equity, hiring intent, transparency, and employee opportunity cost.
 - [Attack Of The Micro Brands](sources/attack-of-the-micro-brands-positive-slope-medium.md) - Scott Belsky argues that targeted social discovery, modular commerce infrastructure, and low-inventory production let many small brands collectively pressure incumbents.
@@ -1434,6 +1435,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Zero-Width Text Fingerprinting](concepts/ZeroWidthTextFingerprinting.md) - Invisible recipient-specific Unicode encoding for tracing copied text, with preservation, tampering, authentication, and privacy limitations.
 - [Zombie Startup](concepts/ZombieStartup.md) - Company that retains startup appearance and financing while showing too little product, customer, or execution momentum for its promised trajectory.
 - [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from narrow positioning, targeted discovery, modular operations, and low-commitment production.
 - [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS acquisition and activation enabled by clear product scope, free evaluation, contextual guidance, and meaningful first actions.

@@ -388,12 +388,13 @@
       "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115",
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
-      "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52"
+      "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52",
+      "07a8d807d13719b703f81cbb3ee281d4485f175db8f04c2d1694b656a92672b1"
     ],
-    "paragraph_count": 388
+    "paragraph_count": 389
   },
-  "overview_commit": "701c36b9ea8b45ff30faa1531185cc4e2aa4e57f",
-  "overview_digest": "069bbb2ad4e4306fbaabe441192b6c4976f13951cc6673f2b719e409ee2b16a0",
+  "overview_commit": "3e50921cdf6f8a7f8d03b0574e789f0d1b23d1f6",
+  "overview_digest": "3aa16168e6dcc6348a21dfa84f6db0630c61c3dc547b5c4eac440786ae531b97",
   "paragraphs": [
     {
       "id": "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
@@ -7900,6 +7901,20 @@
         "EmployeeOpportunityDesign",
         "StartupHiringAtScale",
         "TalentDensity"
+      ]
+    },
+    {
+      "id": "07a8d807d13719b703f81cbb3ee281d4485f175db8f04c2d1694b656a92672b1",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest zero-width-character source adds [[ZeroWidthTextFingerprinting]] as a lightweight leak-attribution mechanism. A system can convert a recipient identifier into binary, map bits and character boundaries to invisible Unicode code points, insert the sequence into displayed text, and reverse that process if a redistributed copy preserves the marker. The author's private-forum case reportedly identified the account for which a leaked announcement had been rendered, connecting the technique to [[IdentityResolution]] and showing how it can compromise [[AnonymousSourcing]]. The same properties sharply limit the inference: invisible text can be stripped, normalized, corrupted, or forged; a public username makes false attribution especially easy; and even a non-public identifier associates the copy with a rendered account rather than proving which human redistributed it. Without integrity protection and evidence about channel survival, the decoded marker is an investigative signal rather than conclusive proof. Both unique local image files were inspected and omitted as duplicate text-only title illustrations that add no independent evidence.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AnonymousSourcing",
+        "IdentityResolution",
+        "ZeroWidthTextFingerprinting"
       ]
     }
   ],
