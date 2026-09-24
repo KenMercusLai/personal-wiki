@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Avoiding Zombie Startups](sources/avoiding-zombie-startups.md) - Mathias Pastor offers a candidate-side screen for stagnant startups using investor quality, product and sales evidence, team equity, hiring intent, transparency, and employee opportunity cost.
 - [Attack Of The Micro Brands](sources/attack-of-the-micro-brands-positive-slope-medium.md) - Scott Belsky argues that targeted social discovery, modular commerce infrastructure, and low-inventory production let many small brands collectively pressure incumbents.
 - [Ask a Repair Shop](sources/ask-a-repair-shop-philip-yurchuk.md) - Philip Yurchuk argues that enterprise buyers should consult failure-exposed system integrators before vendors while checking those advisers for partnership and referral conflicts.
 - [Are forums still relevant in a Facebook world?](sources/are-forums-still-relevant-in-a-facebook-world.md) - Threadloom contrasts Facebook Groups' scale, discovery, sharing, and moderator tools with forums' specialization, pseudonymity, durable threads, and retrieval.
@@ -468,6 +469,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Mathias Pastor](entities/MathiasPastor.md) - Startup-career author who frames employee selection as diligence into momentum, incentives, hiring intent, and transparency.
+- [The Family](entities/TheFamily.md) - European startup-support organization used as an example of flexible hiring, employee-equity advice, and startup-worker education.
 - [Scott Belsky](entities/ScottBelsky.md) - Author and investor framing micro brands as an aggregate competitive force enabled by social targeting and modular commerce infrastructure.
 - [Atlassian](entities/Atlassian.md) - Australian workplace-software company used as a historical case of focused-product, self-service SaaS growth.
 - [Philip Yurchuk](entities/PhilipYurchuk.md) - Software practitioner and author of a repair-shop analogy for failure-informed enterprise procurement.
@@ -1429,6 +1432,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Zombie Startup](concepts/ZombieStartup.md) - Company that retains startup appearance and financing while showing too little product, customer, or execution momentum for its promised trajectory.
 - [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from narrow positioning, targeted discovery, modular operations, and low-commitment production.
 - [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS acquisition and activation enabled by clear product scope, free evaluation, contextual guidance, and meaningful first actions.
 - [Failure-Informed Vendor Selection](concepts/FailureInformedVendorSelection.md) - Product diligence grounded in the cross-vendor failure, repair, implementation, and maintenance experience of downstream practitioners.

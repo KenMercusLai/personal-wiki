@@ -3707,3 +3707,11 @@ Added Scott Belsky's 2018 thesis that a long tail of narrow consumer brands can 
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Avoiding Zombie Startups
+
+Added Mathias Pastor's candidate-side framework for detecting startups whose fundraising, awards, publicity, or continued survival conceal weak product, customer, and execution momentum. Created [[ZombieStartup]], [[MathiasPastor]], and [[TheFamily]], and updated [[StartupJobDiligence]] and [[StartupOpportunitySelection]] from their complete ordered source inventories. Preserved the distinction between a stagnant venture-style company and a healthy business designed to remain small, and treated public funding, inexperienced investors, awards, press, and slow growth as contextual signals rather than proven causes. Inspected the sole local image, a stock-style photograph of costumed zombies, and omitted it as decorative without creating an asset manifest.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
