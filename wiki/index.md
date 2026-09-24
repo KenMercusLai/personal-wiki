@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [10x-ing Your Team: The End of Superstar Developer Culture](sources/10x-ing-your-team-the-end-of-superstar-developer-culture.md) - Parker Thompson argues that engineering output should be optimized at team level through cross-functional roles, collaboration, problem-oriented craft, and early inclusive hiring.
 - [我做系统架构的一些原则](sources/wo-zuo-xi-tong-jia-gou-de-yi-xie-yuan-ze-ku-ke-coolshell.md) - 陈皓以交付、稳定性和成本收益统领复杂系统架构，并讨论服务/API 视角、完备性、标准、可运维性、控制面、技术债、诊断和探索。
 - [银弹飞过先锋大厦](sources/hu-tu-shuo-yin-dan-fei-guo-xian-feng-da-sha.md) - 胡涂说回顾软件工程从早期编程、开源与敏捷到云与 DevOps 的演进，并以 ChatGPT 编码实验提出又限定“大模型是银弹”的预测。
 - [关于前置引用现象，学习卡顿的根源](sources/hulatu-forward-reference-learning-friction.md) - 胡拉图的后花园把学习卡顿解释为非线性知识中的前置引用，并建议通过全局首轮、标记、预读和重点复习逐步闭合概念依赖。
@@ -442,6 +443,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Parker Thompson](entities/ParkerThompson.md) - Startup adviser arguing for team-level engineering productivity, cross-functional product roles, collaborative craft, and early inclusive hiring.
 - [Chen Hao](entities/ChenHao.md) - Technical author connecting protocol standards and complex-system architecture to delivery, reliability, cost, operability, and evidence-based decisions.
 - [胡涂说 (Hutusi)](entities/Hutusi.md) - 以软件工程史、第一性原理和 ChatGPT 编码实验讨论大模型时代开发模式的技术作者。
 - [胡拉图的后花园](entities/HuLaTuDeHouHuaYuan.md) - 中文作者，以编程中的前置引用类比自学卡顿，并提出多轮阅读与陌生项标记策略。
@@ -1371,6 +1373,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.
+- [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication and shared direction.
+- [Inclusive Hiring](concepts/InclusiveHiring.md) - Early design of commitment, sourcing, candidate experience, and team conditions so varied contributors can join without absorbing monoculture risk.
 - [System Architecture Principles](concepts/SystemArchitecturePrinciples.md) - Benefits-first rules connecting services, correctness, standards, control capabilities, operability, debt boundaries, and contextual technology choice.
 - [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working software while managing quality, delivery time, cost, complexity, change, operation, and maintenance.
 - [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between difficulty inherent in understanding a problem and the machinery required to implement and operate its solution.
