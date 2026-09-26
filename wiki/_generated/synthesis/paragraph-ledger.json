@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "53d5bc5f39c71646cb81abf85e9b89f236cef8e58d12b8ea21ee9c568618f319",
       "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
       "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
       "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
@@ -444,11 +445,30 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 442
+    "paragraph_count": 443
   },
-  "overview_commit": "5c68ed46afd8b8851c1ca5879da13d957d8ca14e",
-  "overview_digest": "1acf7a3b35b5b1148f0b31ddbbf719204cdb5ec48533f9efc75238437ad5dbb8",
+  "overview_commit": "e60eaee31101da0d523ebe3e41bca5dbbb9838e0",
+  "overview_digest": "8af47da48ea0d710f7d26473a0fd8bc176b2d2dbca95d9f31d8f31438a1bcf45",
   "paragraphs": [
+    {
+      "id": "53d5bc5f39c71646cb81abf85e9b89f236cef8e58d12b8ea21ee9c568618f319",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[BenedictEvans]] source rejects \"creation on PCs, consumption on mobile\" as both a category error and a poor description of actual computer use. It preserves a boundary for precision-heavy professional software but argues that this work involved only a small minority of the PC base; routine email, web, and business processes did not require a file system, precision pointer, or complex windowing, while phones already supported writing, photography, video, sharing, games, and communication. New [[CapabilityAccessibility]] separates a missing feature from one a person cannot discover or operate: both are practically unavailable, so simpler iOS and Android abstractions can reduce some expert capability while enabling vastly more ordinary users. This sharpens [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] by treating smartphone scale as usable participation and first-computer access, not only device shipments. The essay remains a 2017 strategic argument built from approximate, partly overlapping market and software-user estimates plus anecdotes; it does not independently assess disability access, mobile-only disadvantage, connectivity and charging cost, or later changes in PC and mobile workflows. The source contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BenedictEvans",
+        "CapabilityAccessibility",
+        "MobileEcosystem",
+        "MobileInternet",
+        "MobileProductivity"
+      ]
+    },
     {
       "id": "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
       "primary_topic": "business-and-markets",

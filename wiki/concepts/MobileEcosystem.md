@@ -10,7 +10,8 @@ sources:
   - blackberry-meditation-at-the-grave-jean-louis-gassee-medium
   - cars-as-feature-phones-benedict-evans
   - hallway-debates-a-2016-product-manager-discussion-guide-learning-by-shipping
-last_updated: 2026-09-24
+  - creation-and-consumption-benedict-evans
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,12 +19,12 @@ knowledge_schema: synthesis-v1
 [[MobileEcosystem]] is the smartphone-centered computing system of devices, operating systems, chips, app stores, cloud services, developers, suppliers, users, adjacent devices, business investment, and marketplace economics.
 
 ## Current Synthesis
-The sources argue that mobile became the central technology ecosystem because smartphone scale, operating systems, chips, app stores, suppliers, and user behavior redirected investment and innovation away from the PC and older handset platforms. Benedict Evans' frame says "mobile" does not mean small screens or walking-around use; it means the ARM, [[IOS]], and [[Android]] ecosystem becoming the new center of gravity for computing. Sinofsky makes the corresponding product bet explicit: decide around the mobile OS attributes—continuous connectivity, app distribution, touch, security, battery life—and around the ARM component and supply-chain wave rather than arguing over whether one device shape resembles another. He adds that the resulting compute should be used locally, including caching and packaged trained models where server round trips harm experience.
+The sources argue that mobile became the central technology ecosystem because smartphone scale, operating systems, chips, app stores, suppliers, user behavior, and interface accessibility redirected investment and innovation away from the PC and older handset platforms. Benedict Evans' frame says "mobile" does not mean small screens or walking-around use; it means the ARM, [[IOS]], and [[Android]] ecosystem becoming the new center of gravity for computing. His creation essay adds that ecosystem scale is not only device distribution: integrated and simpler workflows let many ordinary users exercise capabilities they did not master on PCs. Sinofsky makes the corresponding product bet explicit: decide around the mobile OS attributes—continuous connectivity, app distribution, touch, security, battery life—and around the ARM component and supply-chain wave rather than arguing over whether one device shape resembles another. He adds that the resulting compute should be used locally, including caching and packaged trained models where server round trips harm experience.
 
 The incumbent-failure view is that [[IPhone]] and Android did not merely outsell older smartphones; they changed the required software depth, application framework, developer ecosystem, and business model, leaving [[BlackBerry]], [[Palm]], [[Nokia]], and [[Microsoft]] with different failure modes. Evans' car-dashboard analogy shows the mobile transition as a reusable pattern: when features, firmware, and custom device software accrete beyond the old interface model, the product may need a real software platform rather than another visible control. Ecosystem scale and marketplace value can also diverge: [[GooglePlay]] had twice the downloads of Apple's [[AppStore]] in 2015, while Apple's store generated 75% more revenue. The satellite-device claim becomes concrete through [[AppleWatch]]: a watch can begin as an iPhone companion, inherit phone, music, maps, assistant, and internet roles, and still develop a more independent [[WearableComputing]] path through health and fitness. The post-iPhone extension is that the smartphone ecosystem can seed technologies and behaviors, such as [[ARKit]] and developer experimentation, that are ultimately better suited to future form factors like [[SmartGlasses]].
 
 ## Key Claims
-- Computing generations shift when a new ecosystem reaches much larger scale, redirects investment, and turns reach into new distribution and revenue markets.
+- Computing generations shift when a new ecosystem reaches much larger scale, redirects investment, and turns reach into new distribution, revenue, and usable-capability markets.
 - Mobile should be understood as an ecosystem, not as a device posture, screen size, or location.
 - Ecosystem shifts can defeat incumbents through different mechanisms and can also serve as analogies for other devices whose feature-by-feature firmware has outgrown the old interface model.
 - The mobile ecosystem can absorb more PC use cases as hardware, software, cloud services, and peripherals improve.
@@ -49,13 +50,15 @@ The incumbent-failure view is that [[IPhone]] and Android did not merely outsell
 - Maturity pressure: [[above-avalon-apple-is-figuring-out-whats-next]] uses flat iPhone unit sales and rising wearables to motivate Apple's search for what comes next.
 - OS and ARM bet: [[hallway-debates-a-2016-product-manager-discussion-guide-learning-by-shipping]] grounds mobile strategy in operating-system attributes, ARM performance, component availability, supplier depth, and ecosystem investment rather than screen shape.
 - Device-side compute: [[hallway-debates-a-2016-product-manager-discussion-guide-learning-by-shipping]] argues that local caching and packaged trained models can reduce latency and server cost for suitable mobile workloads.
+- Accessible creation: [[creation-and-consumption-benedict-evans]] argues that phones combine writing, photography, video, sharing, sensors, and apps in workflows usable by a much broader population.
+- PC boundary: [[creation-and-consumption-benedict-evans]] preserves precision-heavy professional software as a durable PC use while rejecting it as the definition of computing overall.
 
 ## Counterevidence & Qualifications
-The Evans and Sinofsky sources are late-2015 strategic theses rather than measured forecast reviews. They do not prove how much PC work will move to mobile, whether native teams always outperform cross-platform approaches, or which workloads benefit from local models, and they predate later cloud, AI, web-runtime, regulatory, and enterprise changes. The car-interface source is an analogy from 2017, so it should be used to compare platform-transition patterns rather than as current evidence about car UX or autonomy. The BlackBerry source is a 2016 retrospective essay and separates failure modes persuasively, but it does not fully settle every disputed cause of BlackBerry, Palm, Nokia, Windows Phone, or Microsoft's broader mobile strategy. The App Annie/VentureBeat source is a 2015 app-store snapshot and should not be treated as current download or revenue data. The Asymco and Above Avalon sources are Apple-focused analyst interpretations based on estimates and product-strategy inference, so they support the satellite-to-independence and post-iPhone-seeding patterns without proving later market outcomes.
+The Evans and Sinofsky sources are 2015–2017 strategic theses rather than measured forecast reviews. They do not prove how much PC work will move to mobile, whether native teams always outperform cross-platform approaches, or which workloads benefit from local models, and they predate later cloud, AI, web-runtime, regulatory, and enterprise changes. The creation essay relies on approximate, partly overlapping market figures and anecdotes, while leaving disability access, mobile-only disadvantage, connectivity, and charging costs underexamined. The car-interface source is an analogy from 2017, so it should be used to compare platform-transition patterns rather than as current evidence about car UX or autonomy. The BlackBerry source is a 2016 retrospective essay and separates failure modes persuasively, but it does not fully settle every disputed cause of BlackBerry, Palm, Nokia, Windows Phone, or Microsoft's broader mobile strategy. The App Annie/VentureBeat source is a 2015 app-store snapshot and should not be treated as current download or revenue data. The Asymco and Above Avalon sources are Apple-focused analyst interpretations based on estimates and product-strategy inference, so they support the satellite-to-independence and post-iPhone-seeding patterns without proving later market outcomes.
 
 ## What Changed
-- Added the car-dashboard analogy as a cross-category use of the smartphone transition: feature accretion can force an interface and software-platform reset in other devices.
-- Added the product-strategy case for betting on mobile OS and ARM ecosystem attributes, plus device-side compute as a mobile execution pattern.
+- Added capability accessibility as a mechanism behind mobile's population scale, not only hardware distribution.
+- Qualified PC displacement by preserving precision-heavy professional workflows while separating them from mainstream computer use.
 
 ## Related Concepts
 - [[MobileInternet]] - the internet itself is reframed through mobile's new primary access layer.
@@ -71,3 +74,4 @@ The Evans and Sinofsky sources are late-2015 strategic theses rather than measur
 - [[ARKit]] - existing mobile devices seed AR behavior for later form factors.
 - [[SmartGlasses]] - possible post-iPhone device category seeded through the mobile ecosystem.
 - [[TechnologyTransitionStrategy]] - treats the mobile ecosystem as a directional platform bet rather than a form-factor choice.
+- [[CapabilityAccessibility]] - explains how interface abstraction can turn platform reach into usable capability.

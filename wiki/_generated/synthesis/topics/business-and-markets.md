@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-26
-as_of_overview_commit: 5fded7b10f0aa7adb1f4357a1b1682b109237668
-input_digest: 92b2d5cbcd024eb394fa2fe7bfad757dd4e05dcb90e3a8d1b41fb8b38fdcc914
+as_of_overview_commit: e60eaee31101da0d523ebe3e41bca5dbbb9838e0
+input_digest: ec420857000731fe6cd31765483b6e77601889d96b638ee2afba4a1e5e487699
 ---
 
 # Business and Markets
@@ -15,6 +15,17 @@ input_digest: 92b2d5cbcd024eb394fa2fe7bfad757dd4e05dcb90e3a8d1b41fb8b38fdcc914
 Business and markets sources show that durable advantage and participation depend on aligning customer value, distribution, incentives, operating capability, retained economics, founder capacity, and survivability rather than optimizing one layer in isolation. [[TechnologyBubbles]] adds a speculative-market boundary: abundant capital may finance experiments and infrastructure while closed narratives, [[VanityMetrics]], leverage, and scams weaken participant judgment, so long-term involvement requires outside comparison, adoption evidence, liquidity, and the capacity to survive a crash. [[WebAdEconomics]] includes a two-sided intermediary conflict, with [[SubscriptionSurplusAlignment]] as a conditional renewal-based alternative; [[ContentLedAcquisition]] combines an audience-product loop with diagnostic [[MultiProductContentStrategy]], while [[OrganizationalScaleTradeoffs]] explains why incumbent resources become market response only through strategy, customer fit, staffing, autonomy, and dependency coordination. The wider topic spans governed data and platform ecosystems, startup learning and financing, SaaS and creator businesses, pricing and retention, organizational design, infrastructure and reliability, marketplaces, media, strategic transitions, and founder psychology. Most evidence is practitioner, company-authored, or retrospective, so claims remain bounded by context, base rates, costs, conflicts, and measured outcomes. [[ArtKleiner]] adds a source-scoped organizational boundary: [[StartupCulture]] emerges from repeated behavior even when leaders intentionally design [[HypeAndCraftCultures|cross-subculture]] boundaries, persistent teams, postmortems, experiments, and cross-team learning through [[TeamBasedOrganizationalDesign]]. [[FirstMileProductExperience]] adds a newcomer-activation boundary to product growth: purpose, achievable value, and a clear next action should precede deeper [[ProductEngagementLadder]] learning, with templates, defaults, useful empty states, familiar patterns, and immediate utility reducing initial burden. The claim remains source-scoped because Belsky's 2016 examples are selected and historical, strong defaults can reduce agency, novelty can fade, and neither activation outcomes nor the proposed 30% resource allocation are measured. [[RedditMarketing]] adds a source-scoped first-user distribution tactic: study each community's successful posts and rules, participate without spam, and treat replies as possible learning rather than proof of customers. [[Baremetrics]] adds a qualified [[ProductIdeaPrioritization]] heuristic that compares demonstrated demand, current-goal impact, and coarse effort while preserving judgment because the scale is incomplete and unvalidated.
 
 ## Cross-source Findings
+
+### Mobile Capability Expands Creation Participation
+
+[[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments.
+
+**Evidence:** [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]]
+
+**Qualifications:**
+
+- The evidence is a 2017 strategy essay using approximate, partly overlapping market and software-user estimates plus illustrative computer-literacy anecdotes rather than controlled task or usability comparisons.
+- Simpler mobile abstraction does not eliminate precision-heavy professional requirements and does not by itself address disability access, mobile-only disadvantage, connectivity and charging cost, interoperability, repairability, or later platform changes.
 
 ### Technology Bubbles Need Survivable Participation
 

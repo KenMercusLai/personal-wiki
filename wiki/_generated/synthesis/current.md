@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 5c68ed46afd8b8851c1ca5879da13d957d8ca14e
-summary: "The atlas maps technology, markets, culture, governance, learning, work, and wellbeing as systems shaped by incentives, evidence, autonomy, boundaries, scale, and context."
-episode_count: 534
-source_count: 534
-paragraph_count: 442
+as_of_overview_commit: e60eaee31101da0d523ebe3e41bca5dbbb9838e0
+summary: "The atlas maps technology, markets, culture, governance, learning, work, and wellbeing through usable capability, incentives, evidence, autonomy, scale, and context."
+episode_count: 535
+source_count: 535
+paragraph_count: 443
 topic_count: 9
 ---
 
@@ -18,8 +18,8 @@ topic_count: 9
 
 - Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall; [[ZettelkastenMethod]] and [[SecondBrain]] add a non-AI counterpart in which stable identity, hypertext, keywords, and relational complexity can produce useful surprise, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
+- [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments.
 - [[WebAdEconomics]] creates conflicts on both sides of an advertising platform: reach and targeting can move the service away from user interests, while durable advertiser-customer relationships can reduce intermediary dependence; [[AlbertWenger]] and [[UnionSquareVentures]] present [[SubscriptionSurplusAlignment]] as a conditional alternative in which continuing revenue depends on renewal value and additional use carries no marginal charge.
-- [[OrganizationalScaleTradeoffs]] explains why incumbent resources do not automatically become competitive speed: [[SaumilMehta]] reports that [[Square]] combined accessible leadership and specialist support with engineering scarcity, hiring, strategy, installed-customer, autonomy, dependency, and cultural constraints, while [[LightspeedVenturePartners]] adds a source-scoped CPG case in which customer distance, acquisition reliance, and a reported 12-24-month idea-to-customer cycle create openings for [[MicroBrandCommerce]] entrants using flexible distribution and faster feedback; both sharpen [[CorporateGiantFragility]] without making full-company alignment harmless.
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
 - [[IdeaManagement]], [[KnowledgeOutput]], [[ActiveLearning]], [[ProlificPractice]], and [[PersonalKnowledgeManagement]] treat output as an iterative system of capture, small attempts, reflection, failure information, and audience or self-feedback. [[ChristianTietze]], [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], and [[NoteGranularity]] add a concrete internal feedback loop: regroup captured fragments by intent, branch reusable detail notes from a general cluster note, and feed discoveries back into the overview.
@@ -36,10 +36,10 @@ Technical progress relocates rather than removes complexity: reliable systems re
 
 ### Business and Markets
 
-Durable participation and advantage depend on aligning customer value, audience and community fit, distribution, incentives, operating capability, capital, scale, and survivability while tracing where risk and power move.
+Durable participation and advantage depend on usable capability, customer value, audience and community fit, distribution, incentives, operating capacity, capital, scale, and survivability while tracing where risk and power move.
 
+- [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments. Evidence: [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]].
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
-- [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].
 
 ### Cross-domain
 

@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Creation and consumption](sources/creation-and-consumption-benedict-evans.md) - Benedict Evans argues that mobile creation and simpler interface abstractions expand effective computing capability far beyond the minority doing precision-heavy professional work on PCs.
 - [Create a Zettelkasten for your Notes to Improve Thinking and Writing](sources/create-a-zettelkasten-for-your-notes-to-improve-thinking-and-writing-zettelkasten-method.md) - Christian Tietze frames a linked slip-box as a communication partner built from writing, stable note identity, loose filing, relational complexity, and serendipitous retrieval.
 - [Constantly tweaking: How The Guardian continues to develop its in-house analytics system](sources/constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab.md) - Joseph Lichterman shows how the Guardian made Ophan broadly usable through real-time editorial feedback, accessible measures, alerts, and minimum-first iteration.
 - [Reddit Marketing Strategy for SaaS with Zero Users](sources/constantin-reddit-marketing-strategy-for-saas-with-zero-users.md) - Constantin proposes studying subreddit winners and rules, posting without spam, and engaging with every reply to seek a SaaS product's first users.
@@ -1356,7 +1357,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Earth](entities/GoogleEarth.md) - Google's planetary visualization product, descended from Keyhole's EarthViewer and framed as a future place-storytelling canvas.
 - [Street View](entities/StreetView.md) - Google's immersive street-level imagery system and privacy flashpoint for physical map collection.
 - [OpenStreetMap](entities/OpenStreetMap.md) - Volunteer-maintained open-data mapping project contrasted with Google's proprietary map stream.
-- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, platform-native media, autonomous-vehicle market structure and consequences, car interfaces, Apple's trust positioning, and voice assistants.
+- [Benedict Evans](entities/BenedictEvans.md) - Technology analyst writing about mobile ecosystems, accessible creation, platform-native media, autonomous-vehicle market structure and consequences, car interfaces, Apple's trust positioning, and voice assistants.
 - [Waymo](entities/Waymo.md) - Autonomous-driving technology company used to illustrate real-world testing, simulation scale, and potential platform power in a 2017 strategy essay.
 - [Bill Gates](entities/BillGates.md) - Microsoft co-founder presented through the company's cash-positive IPO path, valuation caution, and later argument about intangible software economics.
 - [Capitalism Without Capital](entities/CapitalismWithoutCapital.md) - Haskel and Westlake book that Gates recommends for understanding intangible-asset economics and its policy consequences.
@@ -1600,6 +1601,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Capability Accessibility](concepts/CapabilityAccessibility.md) - Practical availability of a computing function based on whether people can discover, understand, and operate it, not only whether the feature exists.
 - [Newsroom Analytics](concepts/NewsroomAnalytics.md) - Practice of making audience evidence accessible and actionable while preserving editorial context and judgment.
 - [Reddit Marketing](concepts/RedditMarketing.md) - Subreddit-specific audience research, norm-aware publishing, and comment engagement for early product distribution.
 - [Programmer Anarchy](concepts/ProgrammerAnarchy.md) - Source-scoped organization model combining programmer-selected work, removed management layers, and end-to-end accountability.

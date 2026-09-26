@@ -1,6 +1,23 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "mobile-capability-expands-creation-participation",
+      "qualifications": [
+        "The evidence is a 2017 strategy essay using approximate, partly overlapping market and software-user estimates plus illustrative computer-literacy anecdotes rather than controlled task or usability comparisons.",
+        "Simpler mobile abstraction does not eliminate precision-heavy professional requirements and does not by itself address disability access, mobile-only disadvantage, connectivity and charging cost, interoperability, repairability, or later platform changes."
+      ],
+      "statement": "[[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "CapabilityAccessibility",
+        "BenedictEvans",
+        "MobileProductivity",
+        "MobileInternet",
+        "MobileEcosystem"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "technology-bubbles-need-survivable-participation",
       "qualifications": [

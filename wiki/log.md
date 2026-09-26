@@ -4322,3 +4322,19 @@ Added Christian Tietze's 2013 communication-partner model of Zettelkasten practi
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Creation and consumption
+
+Added Benedict Evans's critique of the creation-on-PC versus consumption-on-mobile frame. Created [[CapabilityAccessibility]]; updated [[BenedictEvans]], [[MobileEcosystem]], [[MobileInternet]], and [[MobileProductivity]] from their complete ordered source inventories with the distinction between expert capability ceilings and functions ordinary users can actually discover and exercise. Preserved precision-heavy professional PC work as a qualification and marked the article's device, software-user, and computer-literacy evidence as an approximate 2017 snapshot. The source contains no image references, so no asset manifest was required.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
