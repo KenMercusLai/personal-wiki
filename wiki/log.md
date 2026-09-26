@@ -4346,3 +4346,11 @@ Added Kenneth Lin's account of Credit Karma's startup brand practice: ground ide
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable
+
+Added Henrik Kniberg's distinction between coherent outcome slices and unusable component delivery, plus his Earliest Testable, Usable, and Lovable thresholds for separating feedback, voluntary use, and market affection. Created [[HenrikKniberg]], [[EarliestTestableUsableLovable]], [[Minecraft]], [[PUST]], and [[Lego]]; updated [[MinimumViableProduct]] and [[Spotify]] from their complete ordered source inventories. Preserved comment-thread objections that Lean Startup MVPs can be non-product experiments and that the skateboard sequence may describe replaceable prototypes rather than cumulative implementation. Opened both effective local SVG embeds in the comment thread and omitted them as decorative reaction emoji, so no asset manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

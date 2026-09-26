@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable](sources/crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable.md) - Henrik Kniberg separates feedback-producing, voluntarily usable, and lovable releases while arguing for coherent customer outcomes and early real-user learning.
 - [Credit Karma's CEO Built a Sexy Brand in an Unsexy Category with No PR Firm and a Tiny Budget - Here's How](sources/credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review.md) - Kenneth Lin explains how Credit Karma linked authentic values, product guardrails, founder engagement, measured delight, and Reddit feedback to trust and word-of-mouth growth.
 - [Creation and consumption](sources/creation-and-consumption-benedict-evans.md) - Benedict Evans argues that mobile creation and simpler interface abstractions expand effective computing capability far beyond the minority doing precision-heavy professional work on PCs.
 - [Create a Zettelkasten for your Notes to Improve Thinking and Writing](sources/create-a-zettelkasten-for-your-notes-to-improve-thinking-and-writing-zettelkasten-method.md) - Christian Tietze frames a linked slip-box as a communication partner built from writing, stable note identity, loose filing, relational complexity, and serendipitous retrieval.
@@ -549,6 +550,10 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Henrik Kniberg](entities/HenrikKniberg.md) - Agile and lean practitioner who frames uncertain product development around coherent outcomes and early user learning.
+- [Minecraft](entities/Minecraft.md) - Game used as a release-early case for discovering core fun through frequent public iteration.
+- [PUST](entities/PUST.md) - Swedish Police field software project that staged rollout by region and crime type before national expansion.
+- [LEGO](entities/Lego.md) - Toy company represented through early child testing and the delayed-feedback Lego Universe counterexample.
 - [Kenneth Lin](entities/KennethLin.md) - Credit Karma founder represented through a values-grounded, product-connected approach to startup brand building.
 - [Credit Karma](entities/CreditKarma.md) - Consumer credit-information company used as a case of aligning a free-access promise, product utility, direct engagement, and measured advocacy.
 - [The Guardian](entities/TheGuardian.md) - News organization represented through broad newsroom access to analytics and iterative development of Ophan.
@@ -1604,6 +1609,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Earliest Testable, Usable, and Lovable Product](concepts/EarliestTestableUsableLovable.md) - Three-threshold vocabulary separating feedback, voluntary use, and customer affection in early product releases.
 - [Startup Brand Strategy](concepts/StartupBrandStrategy.md) - Alignment of real company identity, non-negotiable promises, product choices, customer interaction, and advocacy measurement.
 - [Capability Accessibility](concepts/CapabilityAccessibility.md) - Practical availability of a computing function based on whether people can discover, understand, and operate it, not only whether the feature exists.
 - [Newsroom Analytics](concepts/NewsroomAnalytics.md) - Practice of making audience evidence accessible and actionable while preserving editorial context and judgment.
