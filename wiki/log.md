@@ -4309,3 +4309,11 @@ Added Constantin's subreddit-by-subreddit routine for seeking a SaaS product's f
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Constantly tweaking: How The Guardian continues to develop its in-house analytics system
+
+Added Joseph Lichterman's 2015 account of the Guardian's Ophan system as broadly accessible, real-time editorial decision support. Created [[TheGuardian]], [[Ophan]], and [[NewsroomAnalytics]]; updated [[DataInformedCulture]] and [[AgileSoftwareDevelopment]] from their complete ordered source inventories with last-mile access, threshold alerts, direct user feedback, minimum-first iteration, and safeguards for context when reacting to traffic. Opened all six embedded images, omitted the decorative Guardian office photograph, and retained five evidence-bearing Ophan interface screenshots under descriptive canonical filenames with a manifest.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

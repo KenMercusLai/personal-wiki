@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab",
+  "images": [
+    {
+      "file": "article-performance.webp",
+      "alt": "Ophan article view showing page views, median attention time, referral mix, and a week-long traffic graph"
+    },
+    {
+      "file": "live-content-breakdown.webp",
+      "alt": "Ophan live content view comparing traffic sources and views per minute across Guardian content and other pages"
+    },
+    {
+      "file": "top-stories.webp",
+      "alt": "Ophan Top 10 view ranking live stories by views per minute with referral details"
+    },
+    {
+      "file": "email-alerts.jpg",
+      "alt": "Ophan email-alert configuration listing named referral and views-per-minute thresholds"
+    },
+    {
+      "file": "google-search-referrals.jpg",
+      "alt": "Ophan Google Search Referrals ticker showing live queries and the Guardian pages they reached"
+    }
+  ]
+}

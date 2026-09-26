@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Constantly tweaking: How The Guardian continues to develop its in-house analytics system](sources/constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab.md) - Joseph Lichterman shows how the Guardian made Ophan broadly usable through real-time editorial feedback, accessible measures, alerts, and minimum-first iteration.
 - [Reddit Marketing Strategy for SaaS with Zero Users](sources/constantin-reddit-marketing-strategy-for-saas-with-zero-users.md) - Constantin proposes studying subreddit winners and rules, posting without spam, and engaging with every reply to seek a SaaS product's first users.
 - [Calculate what feature to build next - Baremetrics](sources/calculate-what-feature-to-build-next-baremetrics.md) - Baremetrics presents DIE as a lightweight, lower-is-better score balancing customer demand, goal impact, and delivery effort without replacing product judgment.
 - [You Are Not A Commodity](sources/you-are-not-a-commodity-dev-community.md) - Jeff Meyerson argues that cheap infrastructure lets engineers and small teams pursue product ownership, a manifesto qualified by the practical risks of independent work.
@@ -545,6 +546,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [The Guardian](entities/TheGuardian.md) - News organization represented through broad newsroom access to analytics and iterative development of Ophan.
+- [Ophan](entities/Ophan.md) - Guardian in-house analytics system providing accessible live performance, referral, ranking, alert, and search-query views.
 - [Constantin](entities/Constantin.md) - Practitioner represented by a concise Reddit marketing routine for zero-user SaaS founders.
 - [Reddit](entities/Reddit.md) - Community platform whose subreddit-specific norms and ranked posts shape the source's early-user method.
 - [Jeff Meyerson](entities/JeffMeyerson.md) - Software Engineering Daily author advocating engineer ownership, prototyping, and independent product creation.
@@ -1596,6 +1599,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Newsroom Analytics](concepts/NewsroomAnalytics.md) - Practice of making audience evidence accessible and actionable while preserving editorial context and judgment.
 - [Reddit Marketing](concepts/RedditMarketing.md) - Subreddit-specific audience research, norm-aware publishing, and comment engagement for early product distribution.
 - [Programmer Anarchy](concepts/ProgrammerAnarchy.md) - Source-scoped organization model combining programmer-selected work, removed management layers, and end-to-end accountability.
 - [Technology Bubbles](concepts/TechnologyBubbles.md) - Speculative technology phases that can finance experiments and infrastructure while amplifying narrative, metric, leverage, volatility, and fraud risks.
