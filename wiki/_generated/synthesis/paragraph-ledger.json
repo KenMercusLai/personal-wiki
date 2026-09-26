@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
       "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
       "5db2ddde4a2630e19f67735e9aaa9dd2d11bf70bac3a072e68e06c987b6056d3",
       "cde06dd9a968c1ffed726ce9aa89fef3ca53be926b0dcc13c76e8a949b237e36",
@@ -438,11 +439,33 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 436
+    "paragraph_count": 437
   },
-  "overview_commit": "2d86090ae3901528b16e4bc9b15ead52e992e199",
-  "overview_digest": "d00b70cac769247572421d55fc87fbad146d690df89622b38878c14cd24cf844",
+  "overview_commit": "9516eb653e5127691fa6ca483cb9955f1ea52e74",
+  "overview_digest": "264c9b68c12631ae1fae7e1945352d732b21bb2f92c8b0ea4366413b62794bbd",
   "paragraphs": [
+    {
+      "id": "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[ScottBelsky]] source adds [[FirstMileProductExperience]] as the newcomer-facing boundary between expressed interest and deeper product learning. A user reaches Belsky's \"Zone\" when they understand why they are present, what they can accomplish, and what to do next; templates, sensible defaults, useful empty states, familiar terminology, immediate utility or novelty, and visible response can create that orientation more effectively than explanation-heavy tours. [[ProductEngagementLadder]] is sharpened by separating this entry threshold from later skill progression, while [[CognitiveOverheadInProductDesign]], [[ProductFlowFriction]], and [[ProductLedRetention]] gain a cohort-sensitive first-use case. The argument is a 2016 practitioner framework built from selected historical products, not controlled activation or retention evidence; strong defaults can reduce agency when wrong, novelty can fade, \"ego analytics\" is not a universal motive, and the proposed 30% resource allocation is unmeasured. All 14 unique local images were opened: the full-size hero was decorative, and the remaining 60-pixel thumbnails were duplicates, slide restatements, or examples too small for reliable independent interpretation, so none was retained.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CognitiveOverheadInProductDesign",
+        "FirstMileProductExperience",
+        "ProductEngagementLadder",
+        "ProductFlowFriction",
+        "ProductLedRetention",
+        "ScottBelsky"
+      ]
+    },
     {
       "id": "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
       "primary_topic": "business-and-markets",

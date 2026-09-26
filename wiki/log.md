@@ -4254,3 +4254,11 @@ Added Art Kleiner's 2000 diagnosis of interdependent hype and craft cultures in 
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Crafting The First Mile Of Product
+
+Added Scott Belsky's 2016 framework for moving newcomers from expressed interest to an oriented "Zone" where they understand purpose, achievable value, and the next action. Created [[FirstMileProductExperience]] and [[Behance]]; updated [[ScottBelsky]] and [[ProductEngagementLadder]] from their complete ordered source inventories with proactive assistance, immediate utility, defaults, empty states, familiar patterns, and changing newcomer cohorts. Preserved the source's limits as an unmeasured practitioner argument with selected historical examples, reductive language about user motives, and no evidence for its 30% resource-allocation recommendation. Opened all 14 unique local images; omitted the decorative hero and the duplicate or evidence-poor 60-pixel thumbnails, whose substantive points were repeated in the prose.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

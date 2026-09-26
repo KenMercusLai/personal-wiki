@@ -1723,8 +1723,27 @@
         "HypeAndCraftCultures",
         "TeamBasedOrganizationalDesign"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "newcomer-activation-needs-oriented-first-value",
+      "qualifications": [
+        "The evidence is one 2016 practitioner essay built from selected historical consumer-product examples rather than controlled activation or retention studies.",
+        "Strong defaults can reduce agency when wrong, novelty can fade, visible social feedback is not a universal motive, and the proposed allocation of more than 30% of product energy to the first mile is unmeasured.",
+        "The source's chart and product screenshots were only 60-pixel thumbnails and could not independently substantiate the prose."
+      ],
+      "statement": "[[FirstMileProductExperience]] treats activation as the transition from expressed interest to understanding purpose, achievable value, and the next action; [[ScottBelsky]] argues that proactive setup, immediate utility, useful defaults and empty states, familiar patterns, and visible response can establish that orientation before the [[ProductEngagementLadder]] asks users to learn deeper behaviors.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "FirstMileProductExperience",
+        "ScottBelsky",
+        "ProductEngagementLadder",
+        "CognitiveOverheadInProductDesign",
+        "ProductFlowFriction",
+        "ProductLedRetention"
+      ]
     }
   ],
-  "summary": "Business and markets sources show that durable advantage and participation depend on aligning customer value, distribution, incentives, operating capability, retained economics, founder capacity, and survivability rather than optimizing one layer in isolation. [[TechnologyBubbles]] adds a speculative-market boundary: abundant capital may finance experiments and infrastructure while closed narratives, [[VanityMetrics]], leverage, and scams weaken participant judgment, so long-term involvement requires outside comparison, adoption evidence, liquidity, and the capacity to survive a crash. [[WebAdEconomics]] includes a two-sided intermediary conflict, with [[SubscriptionSurplusAlignment]] as a conditional renewal-based alternative; [[ContentLedAcquisition]] combines an audience-product loop with diagnostic [[MultiProductContentStrategy]], while [[OrganizationalScaleTradeoffs]] explains why incumbent resources become market response only through strategy, customer fit, staffing, autonomy, and dependency coordination. The wider topic spans governed data and platform ecosystems, startup learning and financing, SaaS and creator businesses, pricing and retention, organizational design, infrastructure and reliability, marketplaces, media, strategic transitions, and founder psychology. Most evidence is practitioner, company-authored, or retrospective, so claims remain bounded by context, base rates, costs, conflicts, and measured outcomes. [[ArtKleiner]] adds a source-scoped organizational boundary: [[StartupCulture]] emerges from repeated behavior even when leaders intentionally design [[HypeAndCraftCultures|cross-subculture]] boundaries, persistent teams, postmortems, experiments, and cross-team learning through [[TeamBasedOrganizationalDesign]].",
+  "summary": "Business and markets sources show that durable advantage and participation depend on aligning customer value, distribution, incentives, operating capability, retained economics, founder capacity, and survivability rather than optimizing one layer in isolation. [[TechnologyBubbles]] adds a speculative-market boundary: abundant capital may finance experiments and infrastructure while closed narratives, [[VanityMetrics]], leverage, and scams weaken participant judgment, so long-term involvement requires outside comparison, adoption evidence, liquidity, and the capacity to survive a crash. [[WebAdEconomics]] includes a two-sided intermediary conflict, with [[SubscriptionSurplusAlignment]] as a conditional renewal-based alternative; [[ContentLedAcquisition]] combines an audience-product loop with diagnostic [[MultiProductContentStrategy]], while [[OrganizationalScaleTradeoffs]] explains why incumbent resources become market response only through strategy, customer fit, staffing, autonomy, and dependency coordination. The wider topic spans governed data and platform ecosystems, startup learning and financing, SaaS and creator businesses, pricing and retention, organizational design, infrastructure and reliability, marketplaces, media, strategic transitions, and founder psychology. Most evidence is practitioner, company-authored, or retrospective, so claims remain bounded by context, base rates, costs, conflicts, and measured outcomes. [[ArtKleiner]] adds a source-scoped organizational boundary: [[StartupCulture]] emerges from repeated behavior even when leaders intentionally design [[HypeAndCraftCultures|cross-subculture]] boundaries, persistent teams, postmortems, experiments, and cross-team learning through [[TeamBasedOrganizationalDesign]]. [[FirstMileProductExperience]] adds a newcomer-activation boundary to product growth: purpose, achievable value, and a clear next action should precede deeper [[ProductEngagementLadder]] learning, with templates, defaults, useful empty states, familiar patterns, and immediate utility reducing initial burden. The claim remains source-scoped because Belsky's 2016 examples are selected and historical, strong defaults can reduce agency, novelty can fade, and neither activation outcomes nor the proposed 30% resource allocation are measured.",
   "topic_id": "business-and-markets"
 }

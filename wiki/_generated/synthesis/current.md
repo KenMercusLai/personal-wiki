@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 2d86090ae3901528b16e4bc9b15ead52e992e199
+as_of_overview_commit: 9516eb653e5127691fa6ca483cb9955f1ea52e74
 summary: "The atlas maps technology, markets, culture, governance, learning, and wellbeing as systems shaped by incentives, evidence, boundaries, scale, survivability, and context."
-episode_count: 525
-source_count: 525
-paragraph_count: 436
+episode_count: 526
+source_count: 526
+paragraph_count: 437
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress relocates complexity; reliable systems still need contextual 
 
 ### Business and Markets
 
-Durable advantage and participation depend on aligning customer value, distribution, incentives, capital, operating capability, scale, and survivability; technology bubbles, advertising, and subscriptions can create value while redistributing risk and conflict.
+Durable advantage and participation depend on aligning customer value, newcomer orientation, distribution, incentives, capital, operating capability, scale, and survivability; technology bubbles, advertising, subscriptions, and product onboarding can create value while redistributing risk and conflict.
 
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].
@@ -64,7 +64,7 @@ Rules work through authority, incentives, information, enforcement, recourse, an
 
 ### History and Geopolitics
 
-Historical learning is strongest when it reconstructs long lineages and path-dependent conditions instead of treating visible winners as reproducible recipes.
+Historical learning is strongest when it reconstructs long lineages and path-dependent conditions instead of treating visible winners or historical product examples as reproducible recipes.
 
 ### Psychology and Personal Development
 
@@ -81,7 +81,7 @@ Scientific and health claims require careful measurement, uncertainty, intervent
 
 ### Work, Education, and Society
 
-Learning and work depend on active practice, feedback, fair incentives, shared context, legible purpose, visible contribution, deliberate boundaries, and scale-aware organizational and social design.
+Learning and work depend on active practice, feedback, fair incentives, shared context, legible purpose, visible contribution, deliberate boundaries, and scale-aware design; product learning likewise begins with orientation before deeper skill progression.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

@@ -535,6 +535,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Consensus vs. Collaboration](sources/consensus-vs-collaboration-silicon-valley-product-group.md) - SVPG distinguishes inclusive cross-functional collaboration from unanimous approval and argues for explicit decision authority when product trade-offs remain unresolved.
 - [Content is King, But Context is God](sources/content-is-king-but-context-is-god-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that value-first content works when it respects platform psychology, audience intent, the surrounding experience, and a consistent brand goal.
 - [Corporate Culture in Internet Time](sources/corporate-culture-in-internet-time.md) - Art Kleiner diagnoses early Internet-company conflict between commercial hype and production craft, then proposes persistent teams, cross-team learning, and bounded experimentation.
+- [Crafting The First Mile Of Product](sources/crafting-the-first-mile-of-product-positive-slope-medium.md) - Scott Belsky argues that onboarding, defaults, empty states, copy, immediate utility, and familiar patterns should orient changing newcomer cohorts toward value and a clear next action.
 
 ## Entities
 
@@ -543,6 +544,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.
 - [LiveRamp](entities/LiveRamp.md) - Source-bounded 2019 profile of a people-data middleware company in Auren Hoffman’s DaaS account.
 - [Simon Shaw](entities/SimonShaw.md) - Trinity McQueen cofounder who studies how repeated commercial nudges affect trust, emotion, and consumer resistance.
+- [Behance](entities/Behance.md) - Creative-portfolio and professional-network platform used as a first-mile utility and familiar-terminology case.
 - [Trinity McQueen](entities/TrinityMcQueen.md) - UK insight consultancy represented through its 2019 experiment on hotel-booking scarcity and social-proof claims.
 - [Brandable](entities/Brandable.md) - Lightspeed portfolio company used to anchor its 2018 thesis about the modern consumer-packaged-goods company.
 - [Josh Pigford](entities/JoshPigford.md) - Baremetrics founder-author describing growth-amplified pressure, criticism, and practical responses to imposter syndrome.
@@ -588,7 +590,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Baremetrics](entities/Baremetrics.md) - Company and publishing context for a first-person account of solo-founder tradeoffs and coping systems.
 - [Mathias Pastor](entities/MathiasPastor.md) - Startup-career author who frames employee selection as diligence into momentum, incentives, hiring intent, and transparency.
 - [The Family](entities/TheFamily.md) - European startup-support organization used as an example of flexible hiring, employee-equity advice, and startup-worker education.
-- [Scott Belsky](entities/ScottBelsky.md) - Author and investor framing micro brands as an aggregate competitive force enabled by social targeting and modular commerce infrastructure.
+- [Scott Belsky](entities/ScottBelsky.md) - Product and business author framing newcomer activation and low-overhead micro-brand formation through practitioner models.
 - [Atlassian](entities/Atlassian.md) - Australian workplace-software company used as a historical case of focused-product, self-service SaaS growth.
 - [Philip Yurchuk](entities/PhilipYurchuk.md) - Software practitioner and author of a repair-shop analogy for failure-informed enterprise procurement.
 - [Threadloom](entities/Threadloom.md) - Forum-search vendor and publisher whose commercial position qualifies its comparison of forums with Facebook Groups.
@@ -2492,5 +2494,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Crowded Market Entry](concepts/CrowdedMarketEntry.md) - Entering an established category by treating competition as qualified demand evidence and serving a distinct reachable subsegment.
 - [Hype and Craft Cultures](concepts/HypeAndCraftCultures.md) - Distinguishes commercial urgency and promise-making from reflective production craft while treating both as interdependent.
 - [Team-Based Organizational Design](concepts/TeamBasedOrganizationalDesign.md) - Uses persistent accountable teams, bounded experiments, and cross-team learning infrastructure as the basis of capability and resilience.
+- [First Mile Product Experience](concepts/FirstMileProductExperience.md) - Newcomer-facing welcome, onboarding, defaults, copy, empty states, and initial actions that create orientation and immediate value.
 
 ## Syntheses
