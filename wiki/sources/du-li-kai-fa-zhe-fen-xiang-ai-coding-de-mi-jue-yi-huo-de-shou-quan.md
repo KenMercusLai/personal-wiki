@@ -2,7 +2,7 @@
 title: "独立开发者分享 AI Coding 的秘诀（已获得授权）"
 type: source
 tags: [ai, software-engineering, ai-coding, independent-developer]
-date: 2026-03-18
+date: 2025-09-05
 source_file: /mnt/ken_personal_wiki/Articles/独立开发者分享 AI Coding 的秘诀（已获得授权）.md
 ---
 

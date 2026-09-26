@@ -2,7 +2,7 @@
 title: "Will Amazon Kill FedEx?"
 type: source
 tags: [amazon, logistics, ecommerce, shipping, competition]
-date: 2016-09-05
+date: 2016-08-31
 source_file: /mnt/ken_personal_wiki/Articles/Will Amazon Kill FedEx-.md
 ---
 

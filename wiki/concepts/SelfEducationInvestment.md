@@ -4,7 +4,8 @@ type: concept
 tags: [education, learning, personal-growth]
 sources:
   - always-invest-in-your-education-the-blog-of-darius-foroux-medium
-last_updated: 2026-09-13
+  - cnbc-erik-finman-bitcoin-millionaire-who-skipped-college
+last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,7 +15,7 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 Foroux frames self-education as continuous maintenance rather than a stockpile. Knowledge is treated as perishable: if a person stops reading, practicing, researching, and testing ideas, capability decays and growth slows. This makes education closer to a recurring life input than to a completed credential.
 
-The source's strongest contribution is its investment metaphor. Education is valuable because it can keep producing returns across changing conditions: better decisions, more ideas, higher usefulness to employers or customers, and a skill base that remains after money, reputation, clients, or jobs are lost. The essay's inspected illustration reinforces this metaphor by pointing the phrase "Always invest in this thing" at a brain.
+Foroux's strongest contribution is the investment metaphor. Education is valuable because it can keep producing returns across changing conditions: better decisions, more ideas, higher usefulness to employers or customers, and a skill base that remains after money, reputation, clients, or jobs are lost. The essay's inspected illustration reinforces this metaphor by pointing the phrase "Always invest in this thing" at a brain. Finman's profile separates learning from credential acquisition more sharply: he presents operating [[Botangle]], writing consequential emails, and using free internet resources as his education. Together, the sources support recurring and applied learning, but not the universal rejection of degrees or structured instruction.
 
 ## Key Claims
 - Education is not merely accumulated once; it requires continuous renewal because knowledge can fade or become stale.
@@ -23,6 +24,7 @@ The source's strongest contribution is its investment metaphor. Education is val
 - Skill development can make workers and entrepreneurs more valuable when it helps them solve specific problems exceptionally well.
 - Education can function as a resilience asset because practiced knowledge and reusable skills survive many external losses.
 - Small daily commitments can make self-education sustainable.
+- Real projects can convert self-education into judgment, communication, and operational skill without requiring that credentials have no value.
 
 ## Evidence
 - Perishable knowledge: [[always-invest-in-your-education-the-blog-of-darius-foroux-medium]] says education, learning, and knowledge require constant supply and can be lost if not used or improved.
@@ -31,12 +33,15 @@ The source's strongest contribution is its investment metaphor. Education is val
 - Labor-market value: [[always-invest-in-your-education-the-blog-of-darius-foroux-medium]] contrasts interchangeable workers or commodity entrepreneurs with people whose skills solve specific weaknesses or create exceptional products.
 - Resilience value: [[always-invest-in-your-education-the-blog-of-darius-foroux-medium]] says knowledge and skills can remain useful after other assets are lost.
 - Habit design: [[always-invest-in-your-education-the-blog-of-darius-foroux-medium]] proposes 30 minutes per day of reading, learning, or practice.
+- Applied business learning: [[cnbc-erik-finman-bitcoin-millionaire-who-skipped-college]] says Finman learned through starting and selling Botangle and through practical communication with important people.
+- Credential distinction: [[cnbc-erik-finman-bitcoin-millionaire-who-skipped-college]] records Finman's rejection of a GED and college alongside his preference for free online resources.
 
 ## Counterevidence & Qualifications
-The source is motivational and autobiographical, so the causal links between self-education and earning more, finding more opportunities, or surviving uncertainty should be treated as source-scoped claims. The essay also uses deliberately extreme rhetoric, which should not be read as a literal claim that all non-learning immediately destroys a life. Existing wiki material on [[FreeLearning]] and [[CoerciveLearning]] adds an important qualification: ongoing education is healthiest when it protects curiosity and valuation rather than becoming another imposed pressure system.
+Both sources are motivational and autobiographical, so causal links between self-education and earning, opportunity, resilience, or entrepreneurial success remain source-scoped. Foroux's extreme rhetoric should not be read literally, while Finman's wealth depended heavily on exceptional cryptocurrency timing and concentration; neither source compares educational paths or accounts adequately for selection effects, access, risk, and the social or professional value of credentials. Existing wiki material on [[FreeLearning]] and [[CoerciveLearning]] adds a further qualification: ongoing education is healthiest when it protects curiosity and valuation rather than becoming another imposed pressure system.
 
 ## What Changed
 - Created the concept page for self-education as ongoing investment.
+- Added project execution as one route from autonomous study to applied skill, while rejecting a general anti-credential conclusion.
 
 ## Related Concepts
 - [[LearnDrive]] - self-education investment depends on keeping the desire to learn alive over time.
@@ -46,3 +51,4 @@ The source is motivational and autobiographical, so the causal links between sel
 - [[PersonalProductivity]] - recurring learning requires attention and habit design.
 - [[FreeLearning]] - autonomous learning qualifies the concept by emphasizing curiosity and self-direction.
 - [[CoerciveLearning]] - coercive pressure is the risk when self-education becomes obligation without personal value.
+- [[Botangle]] - business through which Finman says he developed practical skills.

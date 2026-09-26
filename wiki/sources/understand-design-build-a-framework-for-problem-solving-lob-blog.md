@@ -2,7 +2,7 @@
 title: "Understand, Design, Build: A Framework for Problem-Solving"
 type: source
 tags: [software-engineering, problem-solving, engineering-management, mentoring]
-date: 2019-02-26
+date: 2019-02-25
 source_file: "/mnt/ken_personal_wiki/Articles/Understand, Design, Build- A Framework for Problem-Solving - Lob Blog.md"
 ---
 

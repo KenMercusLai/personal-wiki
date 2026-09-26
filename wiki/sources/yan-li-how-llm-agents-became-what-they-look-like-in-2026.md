@@ -2,7 +2,7 @@
 title: "How LLM Agents Became What They Look Like in 2026?"
 type: source
 tags: [ai, agents, llm, tool-calling, mcp, agent-skills, context-management]
-date: 2026-09-17
+date: 2026-01-19
 source_file: "/mnt/ken_personal_wiki/Articles/Yan Li - How LLM Agents Became What They Look Like in 2026.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Optimize generative AI applications with pgvector indexing"
 type: source
 tags: [aws, pgvector, postgresql, rag, vector-search, indexing]
-date: 2026-01-23
+date: 2024-03-15
 source_file: /mnt/ken_personal_wiki/Articles/AWS Blog - Optimize generative AI applications with pgvector indexing.md
 ---
 

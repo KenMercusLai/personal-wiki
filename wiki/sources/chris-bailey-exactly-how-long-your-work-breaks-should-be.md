@@ -2,7 +2,7 @@
 title: "Chris Bailey - Here's Exactly How Long Your Work Breaks Should Be"
 type: source
 tags: [productivity, breaks, energy-management, attention]
-date: 2021-12-03
+date: 2016-03-14
 source_file: /mnt/ken_personal_wiki/Articles/Chris Bailey - Exactly How Long Your Work Breaks Should Be.md
 ---
 

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-transitional-architecture",
+  "images": [
+    {
+      "file": "legacy-configuration.png",
+      "alt": "Legacy system publishing through a queue and integration middleware to a legacy storefront while middleware and reports share the legacy database"
+    },
+    {
+      "file": "target-architecture.png",
+      "alt": "Target architecture connecting an asset disposal router and asset sale processing to a storefront manager and legacy storefront through events and a version-two API"
+    },
+    {
+      "file": "event-router-seam.png",
+      "alt": "Event router inserted between the legacy queue and integration middleware as the first migration seam"
+    },
+    {
+      "file": "storefront-manager-transition.png",
+      "alt": "Transitional storefront architecture with an event transformer, storefront manager, database adapter, and management-information data mimic alongside the legacy middleware"
+    },
+    {
+      "file": "middleware-decommissioned.png",
+      "alt": "Storefront migration after legacy middleware removal with the event router, transformer, database adapter, and management-information data mimic still operating"
+    },
+    {
+      "file": "asset-disposal-router-transition.png",
+      "alt": "Later migration state with the asset disposal router and storefront manager in place while only the legacy database adapter remains transitional"
+    }
+  ]
+}

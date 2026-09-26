@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "blog-wulc-liu-lan-qi-huan-cun-ji-zhi",
+  "images": [
+    {
+      "file": "expires-response-headers.png",
+      "alt": "HTTP response headers showing Date, Expires, Cache-Control, and Last-Modified values for a JavaScript resource"
+    },
+    {
+      "file": "cache-control-response-headers.png",
+      "alt": "HTTP response headers highlighting Cache-Control max-age 300"
+    },
+    {
+      "file": "first-request-cache-flow.png",
+      "alt": "First browser request flowing through a cache miss to the web server before storing response metadata"
+    },
+    {
+      "file": "repeat-request-revalidation-flow.png",
+      "alt": "Repeat browser request choosing a fresh cache hit or conditional ETag and Last-Modified validation before a 200 or 304 response"
+    }
+  ]
+}

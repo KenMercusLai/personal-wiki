@@ -2,7 +2,7 @@
 title: "There Is No Finish Line for Entrepreneurs"
 type: source
 tags: [entrepreneurship, product-quality, scale, innovation]
-date: 2025-08-03
+date: 2013-02-18
 source_file: "/mnt/ken_personal_wiki/Articles/Venture Hacks - There Is No Finish Line for Entrepreneurs.md"
 ---
 

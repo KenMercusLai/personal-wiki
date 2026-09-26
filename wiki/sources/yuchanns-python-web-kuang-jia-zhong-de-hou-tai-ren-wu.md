@@ -2,7 +2,7 @@
 title: "Python Web 框架中的后台任务"
 type: source
 tags: [python, web, async, fastapi, background-tasks]
-date: 2026-01-24
+date: 2025-04-08
 source_file: /mnt/ken_personal_wiki/Articles/yuchanns - Python Web 框架中的后台任务.md
 ---
 

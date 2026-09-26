@@ -2,7 +2,7 @@
 title: "The Next Next Job, a framework for making big career decisions"
 type: source
 tags: [career, decision-making, startups]
-date: 2026-09-13
+date: 2023-08-13
 source_file: "/mnt/ken_personal_wiki/Articles/Andrew Chen - The Next Next Job.md"
 ---
 

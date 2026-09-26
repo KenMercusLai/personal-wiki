@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "building-products-without-coding-learning-new-stuff-medium",
+  "images": [
+    {
+      "file": "bugrex-live-coding-help-chat.png",
+      "alt": "BugRex live coding-help page beside an active expert chat"
+    },
+    {
+      "file": "reacthelp-unbounce-editor.png",
+      "alt": "ReactHelp landing page being assembled in the Unbounce visual editor"
+    }
+  ]
+}

@@ -1,6 +1,25 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "19b267be8a5c23968286c09cc0d944396bf9edd87fbb9f184f3b2da77a5f0c9b",
+      "a0eb32e05d182a6463f4f725a67e430371b09f63ac8f5ab6544ffd364759f153",
+      "9c8d1dfa786847fee0c4cd4067e28f3c434ed4fcdfb03b95c77f08e05bc12237",
+      "11e38d8f5df2fc990fec521549ec05fd92d2a554239b48aa0426a40afa5394a9",
+      "c6f93be44ba0bb327f08215b2642f6a424cc2500f09c9ce03933e0a5e160f8c1",
+      "f988636afcd6b7beda1db68fb271f476b26ab989930cdde5851df40d44334a21",
+      "f741a2829a07c2be3d99b8928e277537dad856bc2bc364be10715e855e07f41d",
+      "18afc3e3d76c2aefbc2c44bed1066e29f0244caf5de0d9e84eb2702137ae8f63",
+      "4edaa402b7eb6a4fc78fcdd771ab066e823f45b8d1e7dee5353c808357880475",
+      "50f974f5922cd417e8dea360fd786109bba64f192d7105d8505803d05210013a",
+      "738f0bb113db7e3624c342c17c3c706459f8055dc623f93a0b928a3ff2fd3435",
+      "232cf333b8b945822ca2d21602e6fe73640c4faf9eb213383291f42f8fe1bbef",
+      "f284a6eb168efa2e286253484fa57bb43c6ab80bc45712f22b2caa01b344e3b4",
+      "346604ad0640139ac544e2dcb21570c34be52d6dd868c8bd1973ac39c153b5a7",
+      "467813f70593a49986ea3678ea60ffdcf98abda00d4936321190d70c38acd933",
+      "4fca1b7c4b6138a322ce8fcf71d6e3e4494c672bc684b9e555e87ea3c7cc4f86",
+      "b91a42e1c56e2ab91ad5de6ae73882916575d920addebb4ff36395a7b219d0fa",
+      "b2f11f499f32bdeb15b9f93b04b487a869427030d3e080c3095e4c13031f8494",
+      "5a4cdb359fdc655f147adf7ff7d77a00a957f3cd17822b2ecdf9a5360eacd1b9",
       "1492036979a78cdef9fca13c401758f85e80d4ab7baed5aac3ebaeb04beacc22",
       "348533de2964124b35cee0527dac49ff228182cfd77a7a09af6246f3225ab094",
       "2cd359f2837a9a7c8c3e5a2deeca6763f9ea5d065c4462251f5b255e8d474530",
@@ -80,6 +99,7 @@
       "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
       "264264967f6099ce4807fe191f95d40c8b16feba16a4a544c16b098fa45ddb0f",
       "ed0b910c09f01f84b57e584c3f52c0e18a3038727a2989447708b7c2b165c40e",
+      "baee6e0bd10aa4e2a267ef10d853fb6e23d4094c1c99cd21d01dedc45b93aa1a",
       "3d98a2f39e03c613ebf342860b17d464649bc95672d0c446ee4e47ed71f7f0c6",
       "14a534f208be1d6641cd314414cba8347e2a3492d515a537f379737df068703f",
       "67719221132060d2abaeb9e5a3d025addd0fdd98a1893b73bad387b985bc11f5",
@@ -126,7 +146,9 @@
       "cef1a82f078e713deb917f306729d8cabbe178bc70dba8b7f5a4f22138f04c21",
       "2eb6565ed647660102b3ac0f0f291f500382a17b0d144ba1af556b9906d07935",
       "6f53565edb251442faef424870ff0409f21ae87a2a9cc22f4b6d74a362f24288",
+      "05f1bfcf84630de93ebb7f61826620571a4da31178e9f53155089c87d3e222dd",
       "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
+      "af80f55cbb9d4a60929dc6000bcff2ab79ef3ad2aac7159acec672c47061ca40",
       "1ceac4d859ef61bcbdf10f5cfb0111206e21e8a4007f584b3b3fef96c52778fb",
       "6d50cec35a7fd0a0b2de5566b33bea99c4f3140a09c6de5173707c1ef85c3bd8",
       "a7bc1196b541898a73e7bf671c39aaf0ec509af4efc93261701016cd3f5fffce",
@@ -143,6 +165,7 @@
       "f6871f953ce61ee8c7352746aed9be46d79e18126bd53f3cc6b1953afd3c5450",
       "f8d95b92c773a1fd59e48dbee661ad7dbade57faaa514c07969c162f3bbbc186",
       "1918f7031ed6df08f024a26dbb0ef6c256ee5626a3820119f41d4fafb1af914a",
+      "87113fbc563a6bf1835dbfb9217218b82257e29a4357efa84df1b384f31b8629",
       "fde07d1457a59f9dfbd6519e43c64c8110f6023e0262273a95ac3b1be4f22365",
       "668a1fd832e7f6cb2ec448076fcd07966505c3867ed8c969a2beb8b521671dac",
       "5ed5dbb995b3182f3145d24b1bfab870b1c414b350c7151c7708d66ff5b242ca",
@@ -350,6 +373,7 @@
       "060f6f9ef3ce3469e24481e2321b43f5a91b214f384df228d20a68f9f0dad89b",
       "120a917eebc28e1db27ee39f46a7407c334b8813fa4eba12cc4aad403ba3292a",
       "88dafed2b1ca67dd1c377c20ffb5e081bacc0be6512146b86cd7a5824bac55fb",
+      "d7a3721c3a393e3246495fc6798365eaff42af9b3bcf09b28487e30fc8c0d2d6",
       "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792",
       "920d5657e934d2aa706d58a4d73845f3f5df5da5ab655651556c33b60fd162f6",
       "1479348f8805e4b90f37340be3999c7454064c0213578e8dc84407feaa0e9ddd",
@@ -387,20 +411,388 @@
       "63bb28244ffb78b8a88719172a6b524c95aa7fb3722cd4769a08d5a24b9c1aa6",
       "758987162dfda0fc0de34c937e1f92e3f28aed5258661baebaf1ef0df111f750",
       "cc82c3878024e99587d9c3d503bd3e395bc52b3d6db501090a8baff2a551676e",
-      "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed",
+      "9f20de5994ab639e86be5391379d53b1bfc8c191a550defaf1f75f8526a903fb",
+      "b6afd0631549c05d1cffed93469a01eff0908aa11d725205e32ab9fb58a6a689",
       "b0e3c112665a25420f0d1ff8df9a0e532cdd60123317b036eec33091d90af115",
       "b36d5bd6963a9678a23446bc64dda6f7483f70f02d97c2d053f7bdbbd5b7c179",
       "a83e6172d5ddc7c2c1691d49f36715cccb4bea8aafb2c6b0aaa5a24138631dfe",
       "d0f80457aca6875bbf35b204d1848406ddf1988a43502f6a73edf7a6cc12ec52",
       "07a8d807d13719b703f81cbb3ee281d4485f175db8f04c2d1694b656a92672b1",
       "3fa4f83b4a797f957b3845cdbdee36f66279808a591e875a462ba3d4b69d67c6",
-      "1cd0f64b4997aa5fe15323c8ce8ade83a80aebb4643007b2c89393a8ac9252b2"
+      "1cd0f64b4997aa5fe15323c8ce8ade83a80aebb4643007b2c89393a8ac9252b2",
+      "39d0a85c1cca0e5c81698718ac4cec6cc1292a510561781544a4c948900cb4fd",
+      "0cc63aeb8c24c09d880ba5f94a9d2717f6300da9d337f09099121ad055ecbdd9",
+      "6b50db58791b8e919d9a7ad343335058c5e540fb760e2e106bfaa042312089aa",
+      "7d870805262b7239e52fd59d3b724c65ccf6a18186fe37cd1ad15c915519071c",
+      "3ae03c655f8fc9690fb843c5b10b24198073687f81966aba7477619ac1580ffc",
+      "8fc52e6b628c66f5457206ec05d64b77fd91e0f823b180a0ac3a6b774c01550f",
+      "4795b3ebb7581796eb4c9cb569fb63368db456c5b3029d357e27ad0833dd99f8",
+      "855f0e686bb95cf5f254e7857e21fa34c2e30292736b221c2ba0133479d78870",
+      "dab33ffc07346011bca5fc51b0a72b48810fd9029d0bac9c12bc82b4a2c3f7fb",
+      "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
+      "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2"
     ],
-    "paragraph_count": 394
+    "paragraph_count": 430
   },
-  "overview_commit": "977e7d801c230547def52b44dc5a1e54a308b53c",
-  "overview_digest": "07ef76967dc67f369eea07961b70f9cf32aa0e3e53d06e262a3fe04e319e17c7",
+  "overview_commit": "5e885acca24be27a788946b0e3e34aa9d70bd906",
+  "overview_digest": "88a16af0f46c6f0b0509693c022a713c1ecd3c85b2872ba9360626373bc25711",
   "paragraphs": [
+    {
+      "id": "19b267be8a5c23968286c09cc0d944396bf9edd87fbb9f184f3b2da77a5f0c9b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest content-strategy source adds [[MultiProductContentStrategy]] as a portfolio-planning layer for [[ContentLedAcquisition]]. Its central choice follows the business model: when several products serve a similar team, as in [[Zendesk]], use products as the primary segments; when a similar offer serves materially different teams, as in [[Clearbit]], segment by audience. Each segment is then mapped across awareness, consideration, and purchase so a tagged [[Airtable]] inventory can expose missing coverage. The matrix remains a diagnostic rather than a quota system because content volume can vary with product maturity, demand, keyword difficulty, and writing quality, while individual assets may cross both audience and funnel boundaries. The evidence is one 2018 practitioner article using two illustrative company profiles, with no comparative acquisition or revenue outcomes; its remote title image returned HTTP 404 and the diagrams named in the prose are absent from the supplied Markdown.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "Airtable",
+        "Clearbit",
+        "ContentLedAcquisition",
+        "MultiProductContentStrategy",
+        "Zendesk"
+      ]
+    },
+    {
+      "id": "a0eb32e05d182a6463f4f725a67e430371b09f63ac8f5ab6544ffd364759f153",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[LightspeedVenturePartners]] source adds a consumer-goods instance of the wiki's micro-brand and incumbent-fragility theses. Changing demand is framed around personalization, ingredient transparency, brand identity, and social endorsement; entrant capability comes from selling across retailers, marketplaces, boutiques, and owned channels, measuring acquisition by digital channel, and shortening the path from idea to customer. This broadens [[MicroBrandCommerce]] beyond low-inventory production and targeted discovery while giving [[StartupExecutionSpeed]] a source-scoped physical-product example: an unnamed CPG conglomerate reportedly needed 12-24 months from idea to customer versus under 12 weeks for startups. [[CorporateGiantFragility]] gains customer distance, low perceived internal innovation, and acquisition dependence as category-specific mechanisms, but the essay is a 2018 investor argument tied to [[Brandable]] and other portfolio companies, with no comparative launch, retention, margin, market-share, or M&A-outcome data. Both unique local images were opened; the full incumbent-brand montage was retained once as a product-category example, and its 60-by-33-pixel duplicate thumbnail was omitted.",
+      "topic_scores": {
+        "business-and-markets": 7,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Brandable",
+        "CorporateGiantFragility",
+        "LightspeedVenturePartners",
+        "MicroBrandCommerce",
+        "StartupExecutionSpeed"
+      ]
+    },
+    {
+      "id": "9c8d1dfa786847fee0c4cd4067e28f3c434ed4fcdfb03b95c77f08e05bc12237",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[SaumilMehta]] source adds [[OrganizationalScaleTradeoffs]] as a mechanism connecting startup speed with incumbent constraints. After a decade in startups and more than two years at [[Square]], Mehta reports that a competent large company could preserve direct executive access, candid questioning, specialist support, and high-quality employee infrastructure while still moving more slowly than a ten-person startup. The gap is not explained by laziness or weak talent: scarce engineering capacity, hiring at scale, company strategy, existing customers, reduced engineering freedom, larger dependency sets, specialization, and infrequent hierarchical budgeting mediate whether resources become action. This sharpens [[CorporateGiantFragility]] by distinguishing feature copying from full-company commitment and qualifies [[StartupExecutionSpeed]] by making generalism, autonomy, and low coordination load part of the speed mechanism rather than treating pace only as founder character. Specialization and abundance can create real leverage while also making marginally useful work easier to request, so small amounts of good-faith waste compound across a large system. The source remains one employee's unmeasured 2018 retrospective from one well-run company, explicitly omits politics, tools, and much of culture, and warns that an incumbent aligned in full can still be dangerous. All three unique local images were opened; the repeated Square/Uber photograph and the two 60-by-34-pixel thumbnails added no interpretable evidence beyond the prose, so none was retained.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CorporateGiantFragility",
+        "OrganizationalScaleTradeoffs",
+        "SaumilMehta",
+        "Square",
+        "StartupExecutionSpeed"
+      ]
+    },
+    {
+      "id": "11e38d8f5df2fc990fec521549ec05fd92d2a554239b48aa0426a40afa5394a9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[HackReactor]] source adds [[CodingBootcampEducation]] as a framework for evaluating accelerated vocational programming programs beyond headline placement rates. A pseudonymous 2016 graduate describes roughly six weeks of JavaScript-centered lectures, paired two-day sprints, solution videos, recent-graduate support, and assessment, followed by roughly six weeks dominated by team projects and job-search preparation. The source argues that US$19,780 tuition was poor value given limited instructor contact, aging equipment, single-language scope, and a reported change from 99% placement within three months to 98% within six months. The durable synthesis is narrower than that verdict: distinguish technical instruction from projects and career services, evaluate mentor expertise and curriculum depth, and require outcome denominators, exclusions, job definitions, search windows, student-entry qualifications, and comparison baselines. The account supplies no audited outcome data, representative alumni sample, institutional response, or self-study counterfactual, and none of its 2016 operational details should be treated as current. Both distinct local images were opened and omitted because they are duplicate versions of the same generic classroom photograph and add no source-specific evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "CodingBootcampEducation",
+        "HackReactor"
+      ]
+    },
+    {
+      "id": "c6f93be44ba0bb327f08215b2642f6a424cc2500f09c9ce03933e0a5e160f8c1",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JohnGreathouse]] source adds a direct-diligence failure to the wiki's venture-capital and marketplace material. Greathouse says he repeatedly declined to hear [[Uber]]'s seed pitch because a secondhand description looked like thesis-mismatched service fulfillment, geographically limited demand, jurisdiction-by-jurisdiction regulatory risk, and a difficult two-sided market; he later rejected the Series A on valuation as well. [[VentureCapitalBlindSpots]] therefore gains a practical distinction between taking a meeting and making an investment: a trusted repeated referral can justify direct founder learning without weakening portfolio-loss discipline. New [[MarketplaceColdStart]] captures the driver-rider coordination problem and Uber's reported response—dense San Francisco, underused town cars, affluent smartphone users, and a narrow premium wedge that could later expand toward taxis. The retrospective also describes free rides and communication tools turning customer enthusiasm into regulatory pressure, but it is a hindsight-shaped account of a famous winner, supplies no city-launch or unit-economic data, and does not displace the wiki's [[SubsidizedUnitEconomics]] qualification. The two identical remote image references returned HTTP 404; the source labels the image as an Uber logo, but it could not be independently inspected and no asset was retained.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "JohnGreathouse",
+        "MarketplaceColdStart",
+        "SubsidizedUnitEconomics",
+        "Uber",
+        "VentureCapitalBlindSpots"
+      ]
+    },
+    {
+      "id": "f988636afcd6b7beda1db68fb271f476b26ab989930cdde5851df40d44334a21",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[SteveLopez]] source adds [[HousingCostDrivenMigration]] to the wiki's work, career, and household-security material. Its central distinction is between moving for occupational advancement and moving because a lower-cost place makes a similar income go further: selected California-to-[[LasVegas]] households report cheaper rent or mortgages, shorter commutes, larger homes, retirement saving, graduate study, and a path to ownership. [[EmployeeFinancialPrecarity]] therefore gains geographic exit as a possible household-level response, while the column treats repeated exit as evidence of California's housing shortage rather than a sufficient policy solution. The moves remain losses as well as gains because interviewees retained strong attachments to California family, culture, climate, and outdoor life. The evidence is a 2017 opinion column built from selected anecdotes, one lightly specified census trend, and an economic-development advocate; it does not control for wages, services, moving costs, later price changes, or selection effects. The sole image was opened and omitted as a decorative Las Vegas Strip photograph.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "EmployeeFinancialPrecarity",
+        "HousingCostDrivenMigration",
+        "LasVegas",
+        "SteveLopez"
+      ]
+    },
+    {
+      "id": "f741a2829a07c2be3d99b8928e277537dad856bc2bc364be10715e855e07f41d",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[Cloudflare]] postmortem documents how a valueless query parameter, incomplete autonomous-task testing, and direct coupling between authoritative configuration and operational state produced a six-hour BYOIP outage. About 1,100 of 4,306 BYOIP prefixes were withdrawn, affecting CDN and security services, Spectrum, Dedicated Egress, and Magic Transit on those ranges; 1.1.1.1 DNS resolution remained available even though its website returned 403 errors. [[ChangeSafety]] gains configuration-specific controls—typed API semantics, task-runner scenarios, health-mediated rollout, and rate or breadth circuit breakers—while [[DeploymentAutomation]] gains versioned snapshots between configured intent and production application. The recovery is the strongest evidence: stopping the process prevented further deletion but did not reconstruct prefixes whose service bindings had been removed, leaving roughly 300 to require global edge propagation. This supports the corpus's bounded-rollback view and makes dependent-state reconstruction part of restoration planning. The remediation remains a vendor commitment rather than a measured outcome, and the postmortem provides no independent customer-impact estimate. One chart was retained because its roughly 6,500-to-5,200 fall and staged recovery add temporal evidence beyond the prose; the header graphic was decorative and omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "Cloudflare",
+        "DeploymentAutomation"
+      ]
+    },
+    {
+      "id": "18afc3e3d76c2aefbc2c44bed1066e29f0244caf5de0d9e84eb2702137ae8f63",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics",
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[JoshLaurito]] source adds [[Gawker]] as a historical operating case in digital publishing and [[Kinja]] as a publication-centered community layer. The retrospective counts 202,370 posts, 420 human, group, and bot publishing identities, roughly 7 billion pageviews across more than 3 billion visits, and more than 16 million comments. [[PlatformDistributionDependence]] gains an operational consequence: weakening direct and homepage traffic was associated with less incentive and capacity for high-frequency publishing, although layoffs and the end of per-post compensation changed at the same time. [[ForumCommunityDesign]] gains evidence that comments and recommendation signals can become a valued part of a publication's product, while total activity does not establish contribution quality, retrieval, moderation performance, or community health. The historical totals remain source-scoped because Gawker predated modern analytics, Cityfile material was merged into the archive, tag data contained acknowledged errors, and the captured Markdown omits the detailed rankings and tables announced in its prose. The sole embedded image was opened and omitted as a decorative Gawker logo.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "ForumCommunityDesign",
+        "Gawker",
+        "JoshLaurito",
+        "Kinja",
+        "PlatformDistributionDependence"
+      ]
+    },
+    {
+      "id": "4edaa402b7eb6a4fc78fcdd771ab066e823f45b8d1e7dee5353c808357880475",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[JonahPeretti]] interview adds an earlier, partnership-oriented layer to the wiki's BuzzFeed and publisher-platform material. Peretti argues that legacy publishers had decades of cash flow and advance warning about the internet but protected quarterly earnings instead of building digital capability, while Facebook, Google, Netflix, and Amazon invested for a long-term shift. [[PlatformPublisherRevenue]] therefore needs a two-sided diagnosis: publisher underinvestment can explain lost leverage even if Peretti's later [[9-boxes]] memo is also right that platforms capture too much advertising value and underpay professional creators. [[DistributedPublishingStrategy]] becomes more operational through BuzzFeed's use of more than 30 social platforms, short video for reach, longer video for watch time, and Facebook Live election programming. [[DigitalMediaMonetization]] gains a free-versus-paywalled reach tradeoff, news-and-entertainment complementarity, and the Audience Engine's use of publishing data for branded-content pitches, while [[Tasty]] supplies the short, practical, cross-generational service-brand case. The evidence remains BuzzFeed's 2017 self-presentation: its scale, revenue, engagement, and completion figures lack independent methods or later outcomes, its platform-investment claim is a forecast, and the remote lead image returned HTTP 403 and could not be inspected.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "9-boxes",
+        "DigitalMediaMonetization",
+        "DistributedPublishingStrategy",
+        "JonahPeretti",
+        "PlatformPublisherRevenue",
+        "Tasty"
+      ]
+    },
+    {
+      "id": "50f974f5922cd417e8dea360fd786109bba64f192d7105d8505803d05210013a",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[MikeHearn]] source expands [[AuthenticationInfrastructure]] from login implementation into a complete account lifecycle: durable email or phone identifiers, federation, passwordless sign-in, recovery, brute-force and signup abuse controls, multi-factor support, session continuity and revocation, and transactional-email deliverability. Its strongest architectural claim is an ownership test: because these capabilities accumulate security, reliability, support, and international-delivery obligations, teams should first consider a specialist platform or federated provider instead of assuming local credentials are core product work. [[EmailMagicLinkAuthentication]] gains independent practitioner support from the observation that inbox control already governs many password resets, plus a client boundary—email-equipped computers and phones fit better than televisions or game consoles, where pairing may be preferable. The article's absolutes remain qualified: federation transfers dependency, privacy, portability, access-loss, and outage risk; email links transfer trust to inbox and delivery security; a local password can still contribute in layered or risk-scored designs; and “do not expire sessions” is narrowed by the article's own short-lived, silently renewed cookie design with server-side forced-logout checks. Of six unique local images, the CAPTCHA gallery was retained as an implementation example; the hero and its thumbnail, password and phone icons, and tiny mail screenshot were omitted as decorative, duplicate, or prose-redundant.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AuthenticationInfrastructure",
+        "EmailMagicLinkAuthentication",
+        "MikeHearn"
+      ]
+    },
+    {
+      "id": "738f0bb113db7e3624c342c17c3c706459f8055dc623f93a0b928a3ff2fd3435",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest one-man SaaS source adds a completed small-exit case to the wiki's solo-founder and side-project material. An unnamed developer reports that a four-year SaaS build reached about $3,500 in monthly revenue, gave his household enough flexibility for his wife to leave employment for a year, and later sold for $100,000. [[BootstrappedSaaS]] and [[SideProjectIncubation]] therefore gain an outcome between ramen profitability and venture-scale success: a narrow recurring-revenue product can create a second income, household optionality, and a saleable asset. [[SoloFounding]] gains the article's more important subjective return—cross-functional learning from personally carrying customer relationships, marketing, PR, UX, pricing, conversion, email, case studies, product planning, infrastructure, and support—and [[IdeaVersusExecution]] gains a concrete account of why experienced builders value repeated implementation over ideas alone. The account remains a celebratory survivor story with no failure base rate, full time accounting, customer-acquisition cost, churn, net-profit reconciliation, or evidence that success can reliably be repeated; it supports possibility and capability growth rather than typical returns. The sole image was opened and omitted as a staged medieval-joust photograph that illustrates the “grand quest” metaphor without adding source evidence.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BootstrappedSaaS",
+        "IdeaVersusExecution",
+        "SideProjectIncubation",
+        "SoloFounding"
+      ]
+    },
+    {
+      "id": "232cf333b8b945822ca2d21602e6fe73640c4faf9eb213383291f42f8fe1bbef",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[Gusto]] source adds [[DataInformedCulture]] as an organizational practice that combines evidence with values, principles, experience, and contextual judgment rather than allowing metrics to replace decision ownership. Gusto's 2015-2016 sequence was foundation-first: consolidate production replicas, events, and vendor inputs in [[AmazonRedshift]]; organize a [[LayeredDataWarehouse]] into restricted raw sources, reusable denormalized BI tables, and team-specific views; use [[ApacheAirflow]] for ingestion, SQL transformations, tests, and quality alerts; and expose the results through [[Looker]]. [[DataScienceEngineeringPractice]] therefore gains an organizational layer around individual coding habits: explicit engineering-science-analytics responsibilities, reusable definitions, governed access, and analyst-authored ETL can reduce handoffs while keeping sensitive raw and PII data controlled. The source says this choice deferred quick modeling wins but prepared fraud, growth-targeting, and customer-insight work; it provides no measured data-quality, productivity, reliability, access-risk, or business outcomes, and notes that the pattern came before major scaling pressure. Its sole architecture diagram is missing from the supplied vault and could not be recovered, so the synthesis is limited to the prose and no visual asset or manifest was created.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AmazonRedshift",
+        "ApacheAirflow",
+        "DataInformedCulture",
+        "DataScienceEngineeringPractice",
+        "Gusto",
+        "LayeredDataWarehouse",
+        "Looker"
+      ]
+    },
+    {
+      "id": "f284a6eb168efa2e286253484fa57bb43c6ab80bc45712f22b2caa01b344e3b4",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[PerHaraldBorgen]] source adds [[NoCodeProductPrototyping]] as a compositional form of [[MinimumViableProduct]]. [[BugRex]] needed a landing page, customer-expert chat, mobile dispatch, payments, and expert applications, but its first learning questions concerned demand, customer willingness to pay, and required expert compensation rather than ownership of those implementations. Unbounce, Olark, Trillian, [[PayPal]] PayPal.me, and Typeform jointly supplied a functional path through the service, while the retained interface shows the visible offer of fifteen free minutes followed by US$25 per hour. The payment compromise is the key qualification: money flowed directly from customer to expert, so the prototype could test payment behavior without testing whether BugRex could collect a marketplace fee. The source reports a rough three-weeks-to-three-months saving and a later Unbounce-to-GitHub-Pages migration when customization became necessary, but gives no conversion, retention, liquidity, response-time, support-load, take-rate, or profitability results. Nine distinct local images were opened; the full-resolution BugRex interface and ReactHelp Unbounce editor were retained canonically, while duplicate thumbnails, prose-redundant service screenshots, empty placeholders, and a promotional Scrimba banner were omitted.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BugRex",
+        "MinimumViableProduct",
+        "NoCodeProductPrototyping",
+        "PayPal",
+        "PerHaraldBorgen"
+      ]
+    },
+    {
+      "id": "346604ad0640139ac544e2dcb21570c34be52d6dd868c8bd1973ac39c153b5a7",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[Slack]] architecture source adds [[HybridDesktopApplicationArchitecture]] and [[PreloadBridgeSecurity]] to the wiki's desktop, web-runtime, and security material. Slack's 2016 client shipped a trusted local Electron shell while loading most application assets and code remotely, replacing its aging MacGap macOS client with one macOS, Windows, and Linux codebase. [[Electron]] contributes a Chromium multi-process model in which each signed-in team occupies its own renderer and can be restarted independently, while a separate GPU process contains another failure class. That separation is not the authorization policy: remote WebView content receives no direct Node.js access and instead requests selected desktop actions through a preload-defined `window` API. File-path validation, avoidance of Node.js object leakage, and equivalent auditing of `electron-remote` proxy objects make capability design the real security boundary. Proxy-based asynchronous IPC can improve developer ergonomics and avoid synchronous IPC or remote-handler pitfalls, but it does not make privileged remote calls safe by itself. The account is a first-party 2016 description with no controlled performance, memory, reliability, exploit, or incident comparison, and it predates later Electron security guidance. All three local image references were opened and omitted as decorative or duplicate versions of the same hybrid-car metaphor.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "Electron",
+        "HybridDesktopApplicationArchitecture",
+        "PreloadBridgeSecurity",
+        "Slack"
+      ]
+    },
+    {
+      "id": "467813f70593a49986ea3678ea60ffdcf98abda00d4936321190d70c38acd933",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[BrettFox]] source adds [[FounderInvestorRelations]] as the post-close operating counterpart to fundraising. Quarterly requests can combine a fully diluted cap table with revenue, margin, expenses, profit or loss, cash, debt, equity raised, headcount, burn, valuation, D&O insurance, and financing plans; preparation may be delegated to a controller, but Fox retains founder review responsibility because investors use the information in portfolio reviews. [[VentureCapitalFundStructure]] now includes a narrow downstream view of fund obligations: a portfolio founder may serve as a reference while the venture firm raises from LPs and may contribute operating expertise when it evaluates another company. [[FounderInvestorFit]] therefore extends beyond pitch-room conduct to reporting expectations, diligence requests, and event culture, including the contrast between a restrained annual dinner and a costly two-day retreat. The key tension with [[FounderTimeLeverage]] is temporal: a founder may end a low-value investor meeting before accepting capital, but similar requests can become difficult to refuse after the relationship is on the cap table. The evidence remains one founder's retrospective; the counterparties appear anonymized, contractual rights are not described, and no representative frequency, cost, or outcome data show that every request is mandatory or beneficial. The Markdown contains no effective image references, so no visual assets or manifest were created.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BrettFox",
+        "FounderInvestorFit",
+        "FounderInvestorRelations",
+        "FounderTimeLeverage",
+        "VentureCapitalFundStructure"
+      ]
+    },
+    {
+      "id": "4fca1b7c4b6138a322ce8fcf71d6e3e4494c672bc684b9e555e87ea3c7cc4f86",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Innei]] source adds a long-lived React application case to [[WebPerformanceOptimization]] and [[DeveloperExperience]]. At [[LobeHub]], profiling redirected attention from individually small costs to high-fan-out abstractions: a Flexbox benchmark showed similar timing but 14.99 MB post-batch heap growth for `react-layout-kit` versus about 1.1 MB for local CSS and a native web component; a widely used dynamic style hook repeated work on rerender; and foundational overlays multiplied their cost across complex message items. Static styling, deferred collapsed content, lighter Base UI primitives, and Activity-based offscreen retention addressed those paths, with the retained development profiles showing the home subtree fall from about 504 ms to 55.7 ms and a selected Tooltip path fall from 0.5 ms to below 0.1 ms. [[DesktopApplicationPackaging]] and [[Electron]] extend the case into distribution: localization pruning plus bundled-dependency exclusion with explicit native-module exceptions reportedly removed about 100 MB and left a roughly 260 MB app. Flat i18n keys, typed decorator-based IPC, and a proposed [[NextJS]]-to-Vite migration make local conventions, type safety, and workstation resource use part of DX. The evidence remains source-scoped: these are author-reported development point measurements without hardware, repeated trials, variance, or production telemetry; offscreen retention can trade speed for memory; the prose's “ten orders of magnitude” conflicts with its roughly fourteen-fold screenshot; and the Vite migration is exploratory rather than complete. All five evidence-bearing benchmark and profiler images were retained at their semantic positions.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DesktopApplicationPackaging",
+        "DeveloperExperience",
+        "Electron",
+        "Innei",
+        "LobeHub",
+        "NextJS",
+        "WebPerformanceOptimization"
+      ]
+    },
+    {
+      "id": "b91a42e1c56e2ab91ad5de6ae73882916575d920addebb4ff36395a7b219d0fa",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Cartwright, Horn, and Lewis source deepens [[TransitionalArchitecture]] from a category of compatibility components into a lifecycle and investment discipline. Temporary routing, transformation, database adapters, and reporting mimics are justified when earlier time-to-value and lower [[LegacyDisplacement]] risk outweigh their build-and-removal cost; disposability does not imply low value. The storefront sequence makes that test concrete: an [[EventInterception]] router first creates a seam, selected product traffic moves through a clean event transformer and storefront manager, and separate [[LegacyMimic]] components preserve operational database updates and critical reporting. The middleware can then disappear before the rest of the legacy system, followed by the router, transformer, and MI mimic when target event production and reporting arrive, and finally the database adapter when sale processing moves. [[AntiCorruptionLayer]] gains a temporary isolation case: the transformer protects the new event model only until the authoritative producer emits that contract directly. The durable lesson is to record the dependency and removal condition for every bridge, invest in removability, and remove unused components rather than letting migration scaffolding become accidental architecture. The article remains practitioner pattern guidance without comparative cost, delivery-time, failure-rate, or maintenance evidence. All six unique diagrams were opened and retained at their semantic positions; the target image repeated at safe arrival was stored and embedded only once.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AntiCorruptionLayer",
+        "EventInterception",
+        "LegacyDisplacement",
+        "LegacyMimic",
+        "TransitionalArchitecture"
+      ]
+    },
+    {
+      "id": "b2f11f499f32bdeb15b9f93b04b487a869427030d3e080c3095e4c13031f8494",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Auren Hoffman source adds [[DataAsAService]] as an operating category distinct from both SaaS and compute. Its three-pillar model connects acquisition, transformation, and delivery to factual quality, temporal freshness, documentation, evaluation, standardized rights, and workflow integration. New [[DataJoinability]] explains why coherent entity themes and reusable identifiers can make external data more valuable when combined with internal or complementary datasets; the SIMPLE criteria ask whether a key is storable, immutable, meticulous, portable, low-cost, and established. The economic argument is conditional: fixed or step-function acquisition costs can make early reported margins look weak before revenue scales, and dominant providers may compound quality while lowering unit prices, but the winner-takes-most claim is not established by representative evidence. The truth-versus-prediction distinction is also porous because acquisition, entity resolution, filtering, and ontology design embed uncertainty and judgment. People and location data add privacy, consent, security, correction, deletion, and reidentification risks that joinability can intensify. Three of six images were retained at their semantic positions—the compute-cost time series, the truth/religion × data/application matrix, and the illustrative margin table—while two text-repetition graphics and a decorative cover were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DataAsAService",
+        "DataJoinability"
+      ]
+    },
+    {
+      "id": "5a4cdb359fdc655f147adf7ff7d77a00a957f3cd17822b2ecdf9a5360eacd1b9",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Arthur Chiao translation adds [[GenerativeAIAgentArchitecture]] as a system-level account of agency: a language model sits inside a runtime whose orchestration layer maintains goals, instructions, short- and long-term memory, state, planning, tool selection, observations, and stopping conditions. This sharpens [[AgentComputerInterface]] by separating schema design from execution ownership. Extensions package operations, parameters, and examples for agent-side API execution, while function calls return a name and structured arguments to client middleware for authentication, sequencing, private connectivity, or human review. [[RetrievalAugmentedGeneration]] becomes the data-store branch of the same architecture—embed the query, retrieve similar content, return it to the agent, then decide whether to answer or act—and [[LangChain]]/LangGraph supply the paper's small two-tool ReAct prototype. Seven of fourteen inspected diagrams were retained at their semantic positions: the core runtime, ReAct loop, extension mapping, function execution boundary and sequence, RAG lifecycle, and Vertex AI end-to-end architecture. The remaining diagrams were omitted as questions, simplified precursors, or near-duplicates. The synthesis remains source-scoped: this is an introductory, Google-centered 2024 white paper rather than comparative production evidence, its tool names are provider-specific, and it does not quantify reliability, safety, cost, latency, authorization, observability, or recovery.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AgentComputerInterface",
+        "GenerativeAIAgentArchitecture",
+        "LangChain",
+        "RetrievalAugmentedGeneration"
+      ]
+    },
     {
       "id": "1492036979a78cdef9fca13c401758f85e80d4ab7baed5aac3ebaeb04beacc22",
       "primary_topic": "history-and-geopolitics",
@@ -1964,6 +2356,21 @@
       ]
     },
     {
+      "id": "baee6e0bd10aa4e2a267ef10d853fb6e23d4094c1c99cd21d01dedc45b93aa1a",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "Wulc's browser-cache article adds [[BrowserCaching]] as the protocol-level mechanism behind one part of that performance stack. Its inspected headers and diagrams separate fresh reuse under `Cache-Control: max-age` or `Expires` from stale-response validation through `ETag`/`If-None-Match` and `Last-Modified`/`If-Modified-Since`: an unchanged representation can produce a bodyless `304`, while a changed one returns `200` and replaces the stored response. This extends [[HTTP]], [[HTTP11]], and [[LatencyHierarchy]] by showing how local reuse removes round trips and how conditional requests reduce transfer when a request is still necessary. The 2016 source remains qualified: `no-cache` permits storage but requires validation, `Expires` is not simply ignored by HTTP/1.1 clients, `If-Modified-Since` carries the stored modification timestamp rather than the request time, validators do not require `Cache-Control`, and reload behavior plus entity-tag generation vary by implementation.",
+      "topic_scores": {
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BrowserCaching",
+        "HTTP",
+        "HTTP11",
+        "LatencyHierarchy"
+      ]
+    },
+    {
       "id": "3d98a2f39e03c613ebf342860b17d464649bc95672d0c446ee4e47ed71f7f0c6",
       "primary_topic": "work-education-and-society",
       "secondary_topics": [],
@@ -2824,6 +3231,24 @@
       ]
     },
     {
+      "id": "05f1bfcf84630de93ebb7f61826620571a4da31178e9f53155089c87d3e222dd",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[SimonShaw]] source adds an adaptation-and-resistance limit to the wiki's behavior-design and conversion material. In a nationally representative experiment with 2,102 British adults, nine real hotel-booking scarcity and social-proof claims were interpreted as sales pressure by 65%, were expected to create distrust by 49%, and were believed by 16%; 34% selected negative emotions such as contempt or disgust. New [[PsychologicalReactance]] captures the proposed mechanism: repeated exposure can teach people to recognize a persuasion script, inferred coercive intent can reverse the signal's meaning, and a conversion prompt can instead create distrust, avoidance, or competitor preference. This qualifies [[SocialProof]], [[ProductPageOptimization]], and [[BehaviorDesign]] by making prior exposure, perceived intent, autonomy, and long-run trust part of intervention design. The boundary is important: the public article summarizes one hypothetical British hotel-booking scenario, bundles scarcity with social proof, reports stated reactions rather than purchases, and does not publish the full stimuli or analysis; cross-sector nudge resistance and harm to prosocial interventions remain hypotheses. The sole local image was a generic watercolor web/mobile wireframe and was omitted as decorative.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BehaviorDesign",
+        "ProductPageOptimization",
+        "PsychologicalReactance",
+        "SimonShaw",
+        "SocialProof"
+      ]
+    },
+    {
       "id": "fd50149328aef9328d2c94889db26a8af2f191de4673cd9f7068ba69053fbf60",
       "primary_topic": "ai-and-technology",
       "secondary_topics": [],
@@ -2839,6 +3264,26 @@
         "LegacyDisplacement",
         "LegacyMimic",
         "TransitionalArchitecture"
+      ]
+    },
+    {
+      "id": "af80f55cbb9d4a60929dc6000bcff2ab79ef3ad2aac7159acec672c47061ca40",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Cartwright, Horn, and Lewis source adds [[DivertTheFlow]] as the other side of that sequencing choice. A [[CriticalAggregator]] such as reporting can freeze upstream systems through business-critical but invasive data dependencies; leaving it until last forces each displaced producer to maintain [[LegacyMimic]] feeds, while replacing it early lets the program progressively loosen those contracts. [[RevertToSource]] sharpens provenance by tracing data past an apparent mainframe or warehouse to its ultimate origin, and can be combined with [[EventInterception]] while sources migrate. [[ParallelRunning]] supplies the validation discipline: deliver reports in slices, use known inputs and worked outputs, investigate disagreement rather than presuming legacy correctness, divert users in cohorts, and monitor feed timeliness and output tolerances. The pattern is qualified by opaque calculations, undocumented spreadsheet or manual workarounds, test-environment limits, and the risk that temporary repositories and facades become permanent. Both diagrams were retained at their semantic positions: the first shows reporting coupled to five legacy systems with indirect warehouse and till provenance; the second moves new reporting outside the legacy boundary, introduces stock and sales repositories, and marks old reporting paths for retirement.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CriticalAggregator",
+        "DivertTheFlow",
+        "EventInterception",
+        "LegacyMimic",
+        "ParallelRunning",
+        "RevertToSource"
       ]
     },
     {
@@ -3156,6 +3601,27 @@
         "ExecutiveHiring",
         "StartupCulture",
         "StartupHiringAtScale"
+      ]
+    },
+    {
+      "id": "87113fbc563a6bf1835dbfb9217218b82257e29a4357efa84df1b384f31b8629",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest CS183C session note adds the primary [[PatrickCollison]] account behind several existing Stripe scaling claims and extends them into product and infrastructure design. [[Stripe]] begins as [[PatrickCollison]] and [[JohnCollison]]'s `/dev/payments` response to difficult online payment acceptance, with friends and [[YCombinator]] companies supplying many early users; later Connect work shows why initial pull did not mean the product, partnerships, or operating system were complete. [[StartupHiringAtScale]] gains persistent sourcing, week-long work trials, real-work laptop interviews, and the “hiring tree” frame that an early employee influences many later recruits, qualified by cost, accessibility, legal context, and founder-network homogeneity. [[CoFounderFit]] gains the brothers' long shared history as conflict-resolution evidence without treating Collison's unsupported tenure correlation as a rule. [[ScalingCommunication]] gains the context-asymmetry mechanism: rapid growth leaves new employees without earlier debates, so durable, revisable writing complements broadcast speech as leaders delegate more decisions. New [[APIBackwardCompatibility]] captures Stripe's historical use of version translation and direct outreach to the last three users of a 2010 API before deprecation, while noting that the interview supplies no architecture, testing, cost, or customer-outcome evidence. The source Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "history-and-geopolitics": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "APIBackwardCompatibility",
+        "CoFounderFit",
+        "JohnCollison",
+        "PatrickCollison",
+        "ScalingCommunication",
+        "StartupHiringAtScale",
+        "Stripe",
+        "YCombinator"
       ]
     },
     {
@@ -7161,6 +7627,27 @@
       ]
     },
     {
+      "id": "d7a3721c3a393e3246495fc6798365eaff42af9b3bcf09b28487e30fc8c0d2d6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The Christensen Institute overview adds [[JobsToBeDone]] to that product-learning thread. It reframes product and service choices as attempts to make progress within particular circumstances, where functional, social, and emotional forces jointly shape what a person or organization “hires.” Housing, school-technology, and milkshake examples show why a decision story can reveal more than demographics, attributes, or a direct request for reasons, while Nigerian solar adoption, health care, and microschools extend the proposed lens beyond consumer marketing. This sharpens [[CustomerLedProductDevelopment]] and [[ProductUserSegmentation]] by suggesting that recurring circumstances, not only stated preferences or user categories, should organize evidence. The claim remains source-scoped: the institute-authored page provides illustrations but no replicable interview protocol, comparative evaluation, or measured innovation outcomes.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "CustomerLedProductDevelopment",
+        "JobsToBeDone",
+        "ProductUserSegmentation"
+      ]
+    },
+    {
       "id": "e2ddd7fec3a552b710986c482d71e8e7fc1b00bf7ac5bfe7961ae0287a9dc792",
       "primary_topic": "work-education-and-society",
       "secondary_topics": [],
@@ -7865,13 +8352,27 @@
       ]
     },
     {
-      "id": "813ae183abcc3cb0cedbe12a1e070849b67ccc2ccbb9e27b614cefdb180babed",
+      "id": "9f20de5994ab639e86be5391379d53b1bfc8c191a550defaf1f75f8526a903fb",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[JamesClear]] source adds commitment filtering to the wiki's productivity and opportunity-cost material. Clear argues that elimination should precede optimization because unnecessary work consumes no time only when it is not undertaken. [[OpportunityCost]] now makes the asymmetry explicit: a no rejects one option, while a yes allocates future time and excludes every competing use of that block; [[PersonalProductivity]] therefore includes screening requests before they become obligations, not only executing accepted work efficiently. Clear recommends raising the acceptance threshold as experience and opportunities improve, while preserving more experimentation early in a project or career. The synthesis remains qualified because refusal is easier with money, authority, and security, and because care, maintenance, reciprocal relationships, junior roles, and necessary coordination may not pass an excitement-based filter. The source contains no effective image references.",
+      "topic_scores": {
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "JamesClear",
+        "OpportunityCost",
+        "PersonalProductivity"
+      ]
+    },
+    {
+      "id": "b6afd0631549c05d1cffed93469a01eff0908aa11d725205e32ab9fb58a6a689",
       "primary_topic": "history-and-geopolitics",
       "secondary_topics": [
         "work-education-and-society",
         "psychology-and-personal-development"
       ],
-      "text": "The newest [[JamesClear]] source adds [[LuckAndEffortInSuccess]] as an attribution framework spanning comparison scale and time. Buffett's ovarian lottery makes birth, nationality, wealth, health, genes, timing, and connections part of the initial position rather than personal merit; Clear therefore argues that luck becomes more important when comparing radically different starting conditions or explaining extreme outcomes. Within a narrower reference class, choices, preparation, persistence, and [[WorkHabits]] become more discriminating, while the slope metaphor separates a partly controllable trajectory from an inherited intercept. [[TuYouyou]] supplies the interaction case: an ancient clue and historical setting were contingent, but systematic screening, returning to failed assumptions, low-temperature extraction, personal risk, and sustained research converted the lead into a usable antimalarial treatment. This complements [[RepeatableLearningFromHistory]] and [[BehavioralRiskJudgment]] by separating learnable behavior from unrepeatable context and skill from fortunate outcome. The synthesis keeps the model qualified: supposedly similar peers retain unequal constraints, early advantage compounds, severe shocks can overwhelm effort, action only raises the probability of opportunity, and the popular Tu narrative compresses team and institutional contributions. The sole local compass illustration was inspected and omitted as decorative.",
+      "text": "The earlier [[JamesClear]] success source adds [[LuckAndEffortInSuccess]] as an attribution framework spanning comparison scale and time. Buffett's ovarian lottery makes birth, nationality, wealth, health, genes, timing, and connections part of the initial position rather than personal merit; Clear therefore argues that luck becomes more important when comparing radically different starting conditions or explaining extreme outcomes. Within a narrower reference class, choices, preparation, persistence, and [[WorkHabits]] become more discriminating, while the slope metaphor separates a partly controllable trajectory from an inherited intercept. [[TuYouyou]] supplies the interaction case: an ancient clue and historical setting were contingent, but systematic screening, returning to failed assumptions, low-temperature extraction, personal risk, and sustained research converted the lead into a usable antimalarial treatment. This complements [[RepeatableLearningFromHistory]] and [[BehavioralRiskJudgment]] by separating learnable behavior from unrepeatable context and skill from fortunate outcome. The synthesis keeps the model qualified: supposedly similar peers retain unequal constraints, early advantage compounds, severe shocks can overwhelm effort, action only raises the probability of opportunity, and the popular Tu narrative compresses team and institutional contributions. The sole local compass illustration was inspected and omitted as decorative.",
       "topic_scores": {
         "ai-and-technology": 1,
         "history-and-geopolitics": 2,
@@ -8018,6 +8519,204 @@
         "LiveProductDemo",
         "StartupVisionSelling",
         "Twilio"
+      ]
+    },
+    {
+      "id": "39d0a85c1cca0e5c81698718ac4cec6cc1292a510561781544a4c948900cb4fd",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[TimUrban]] source broadens the wiki's view of [[WaitButWhy]] from career frameworks to visual travel explanation. [[Bhutan]] is presented as a small Himalayan Buddhist kingdom whose restricted tourism and immigration, historically delayed television and internet access, uniform traditional architecture, extensive forests, and [[GrossNationalHappiness]] policy express an unusually strong preservation model. That model faces an internal development tension: young people leave for opportunity, while [[GelephuMindfulnessCity]] is proposed as an innovation hub that would create economic options without abandoning Bhutanese tradition. The source remains a short, affectionate account of a one-week guided visit rather than a national assessment: it supplies no emissions inventory, migration data, wellbeing measurements, policy documents, or independent support for favorable stories about the king, and Urban explicitly says he could not verify the world's-happiest-country reputation. Four local images were opened; the regional map, riverside dzong, and Tiger's Nest monastery were retained as geographic and architectural evidence, while a duplicate promotional video thumbnail was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Bhutan",
+        "GelephuMindfulnessCity",
+        "GrossNationalHappiness",
+        "TimUrban",
+        "WaitButWhy"
+      ]
+    },
+    {
+      "id": "0cc63aeb8c24c09d880ba5f94a9d2717f6300da9d337f09099121ad055ecbdd9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[PoppyRowse]] and [[ChrisShepherd]] source reframes [[InternalDeveloperPlatform]] as an internal product rather than only a bundle of operational defaults. New [[InfrastructurePlatformProductManagement]] begins with a gate: select one primary organizational problem, make the intended outcome measurable, and accept that postmortem and future-backwards work may show that no platform is needed. When a platform is justified, product teams become customers; interviews and timeline-based discovery expose pain, systems, delays, and handoffs, while shortest-path-to-value onboarding puts a thin slice in front of real users before accumulated implementation choices harden. C4 diagrams communicate present or intended structure, [[ArchitectureDecisionRecords]] preserve why choices were made, and [[UserJourneyMapping]] makes loops, waiting, manual work, and missing automation visible. The source's self-service direction is qualified by its own complexity warning: every additional component creates maintenance, support, and shared failure exposure, and simplified UX can move complexity into the platform. Delivery lead time, deployment frequency, change failure rate, and mean time to recovery are trailing indicators after adoption, not substitutes for early user learning. The framework remains practitioner guidance without comparative adoption, delivery, cost, security, or reliability evidence. All five unique evidence-bearing images were opened and retained once: two Event Storming timelines and three current, ideal, and intermediate onboarding journeys; the repeated timeline embed was deduplicated.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ArchitectureDecisionRecords",
+        "ChrisShepherd",
+        "InfrastructurePlatformProductManagement",
+        "InternalDeveloperPlatform",
+        "PoppyRowse",
+        "UserJourneyMapping"
+      ]
+    },
+    {
+      "id": "6b50db58791b8e919d9a7ad343335058c5e540fb760e2e106bfaa042312089aa",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[Hutusi]] source connects a popular history of [[NeuralNetwork]] research to the tooling and artifact-distribution layer around [[HuggingFace]]. Its useful synthesis is cumulative rather than a single-inventor story: nonlinear hidden representations, [[Backpropagation]], improved optimization, greater compute, deep belief networks, AlexNet, [[TransformerArchitecture]], pretraining, and model reuse each reduce a different barrier to building or applying [[DeepLearning]] systems. [[GeoffreyHinton]] supplies the narrative spine from decades of connectionist research to AlexNet, while Hugging Face extends pretraining's resource-sharing logic through Transformers, Datasets, Tokenizers, Diffusers, and a hub for models, datasets, and demonstrations. The ecosystem can widen practical participation, but \"AI democratization\" remains qualified by compute, data rights, technical skill, governance, security, and platform dependence. The article is a 2024 secondary popular history: it over-compresses the multi-author lineage of backpropagation, Transformer naming, RLHF as post-training, multi-turn conversation orchestration, scaling laws, GPT-4 parameter claims, and time-sensitive Hub counts. The supplied local Markdown contains no effective image references, so no visual assets or manifest were created.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Backpropagation",
+        "DeepLearning",
+        "GeoffreyHinton",
+        "HuggingFace",
+        "Hutusi",
+        "NeuralNetwork",
+        "TransformerArchitecture"
+      ]
+    },
+    {
+      "id": "7d870805262b7239e52fd59d3b724c65ccf6a18186fe37cd1ad15c915519071c",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[AndrewBosworth]] source adds [[WorkplaceInformationSeeking]] as the inbound complement to meeting and broadcast communication. Necessary context is treated as something a worker actively obtains by choosing channels and review cadences, pruning low-signal inputs, mapping dependent people and projects, creating missing flows, recording surprises that challenge [[MentalModels]], telling others enough context to attract relevant updates, and registering explicit cross-team callbacks. [[InformationOverload]] now includes that capacity response: inability to process every chosen channel is a reason to reduce memberships, mailing lists, or work scope rather than simply consume faster. The strongest synthesis is reciprocal information-flow ownership, not exhaustive monitoring. Bosworth's read-every-item practice is a senior Facebook leader's unmeasured prescription, aggressive pruning can hide rare or dissenting signals, and non-defensive listening does not require tolerating abuse, coercion, or unsafe communication. The source Markdown contains no image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AndrewBosworth",
+        "InformationOverload",
+        "MentalModels",
+        "WorkplaceInformationSeeking"
+      ]
+    },
+    {
+      "id": "3ae03c655f8fc9690fb843c5b10b24198073687f81966aba7477619ac1580ffc",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[MattWarzel]] source adds a market-aware job-search layer to [[CareerPlanning]] and an employer-facing form of [[PersonalBranding]]. A mission statement, assessments, career journal, industry and employer research, SWOT analysis, marketing plan, and elevator speech form one sequence: clarify goals and values, identify transferable capabilities and setbacks, test them against market conditions, then express a specific contribution consistently across resumes, cover letters, interviews, portfolios, online profiles, and networking. The useful principle is not that a person is literally a product, but that skills and accomplishments become more legible when translated into evidence of problems solved, revenue gained, or costs saved for a defined audience and paired with a concrete next request. The synthesis remains qualified because this is prescriptive advice from 2011 rather than comparative hiring evidence; its growth-versus-decline industry examples are dated, assessments can misclassify people, commercial framing can underweight dignity and mutual fit, and coherent messaging cannot overcome structural barriers or substitute for competence. The Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CareerPlanning",
+        "MattWarzel",
+        "PersonalBranding"
+      ]
+    },
+    {
+      "id": "8fc52e6b628c66f5457206ec05d64b77fd91e0f823b180a0ac3a6b774c01550f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[DanielGross]] source extends [[StartupJobDiligence]] from company finances, governance, organization, and personal fit into the commercial logic of an ML/AI employer. Candidates should ask why the problem matters, whether the product is newly possible, roughly ten times better, or roughly ten times cheaper than the pre-AI alternative, what founders learned about underlying user problems, how the current product makes money, and how growth, market size, and defensibility work. [[MarketSizing]] gains a compact price-times-customer-count-times-frequency interview test, while [[StartupDistributionStrategy]] now distinguishes measured referral or word-of-mouth mechanics from “word of mouth” as an unsupported plan and connects paid acquisition to channels, [[CustomerAcquisitionCost]], lifetime value, retention, and payback. [[StartupDefensibility]] separates technical novelty from a persistent value-capture mechanism: an algorithm alone is often reproducible, while reinforcing structures such as network effects can compound. The source remains a short 2017 practitioner guide with no predictive outcomes; its ten-times threshold, preference for paid marketing, venture-scale market canary, and network-effect example are useful challenges rather than universal rules. All three local images were inspected and omitted as decorative duplicates of the same question-mark illustration.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CustomerAcquisitionCost",
+        "DanielGross",
+        "MarketSizing",
+        "StartupDefensibility",
+        "StartupDistributionStrategy",
+        "StartupJobDiligence"
+      ]
+    },
+    {
+      "id": "4795b3ebb7581796eb4c9cb569fb63368db456c5b3029d357e27ad0833dd99f8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[IvyExec]] source adds [[TechnicalLeadershipRoleDesign]] as a functional boundary inside [[StartupCTORoleEvolution]]. Its CTO concentrates on technical edge, advanced exploration, intellectual property, external representation, technical due diligence, and shared technical strategy; its VP Engineering owns the people hierarchy, coordinated program execution, roadmap, cross-functional planning, and engineering budget that turn product vision into delivery. Read beside [[JoshuaWohle]]'s SuperAwesome account, the useful principle is not a universal title chart but a real transfer of sustained ownership when founder attention becomes the constraint. The article's 15–20-company-employee and 10/100-technical-staff thresholds are dated practitioner heuristics, not measured breakpoints, and its model omits Head of Engineering, Chief Architect, CPO, combined-role, regulated, and hardware-heavy variants. The local circuit-board photograph was inspected and omitted as decorative; the source's remote comparison image now resolves to page HTML, so a mirrored copy of the same evidence-bearing vision, strategy, and supervision graphic was inspected and retained canonically.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "IvyExec",
+        "JoshuaWohle",
+        "StartupCTORoleEvolution",
+        "TechnicalLeadershipRoleDesign"
+      ]
+    },
+    {
+      "id": "855f0e686bb95cf5f254e7857e21fa34c2e30292736b221c2ba0133479d78870",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[NoahJessop]] source adds an end-to-end operating layer to [[FounderLedSales]]. A founder should qualify not only interest but whether budget, authority, implementation capacity, and purchase timing fit the startup's survival horizon; establish the purpose and best achievable next step for each meeting; book follow-up while attention is fresh; deliver promised material; and ask directly for the sale so remaining blockers become explicit. [[FounderNetworkBuilding]] gains the double-opt-in introduction pattern: give the referrer self-contained context to forward, reply first as requester, and remove the introducer from the active thread. [[StartupVisionSelling]] gains the customer-facing steak-and-sizzle balance, where real product substance becomes actionable only when the founder makes a changed future or urgent problem vivid, without allowing narrative to replace proof. The advice remains one founder's practitioner essay without conversion or cycle-length comparisons, and its unconventional persistence tactics require consent- and context-sensitive judgment. The generic checklist photograph was inspected and omitted; a final blank-alt subscription-widget image returned HTTP 404 and could not be inspected, but its placement and URL identify it as promotional rather than article evidence.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "FounderLedSales",
+        "FounderNetworkBuilding",
+        "NoahJessop",
+        "StartupVisionSelling"
+      ]
+    },
+    {
+      "id": "dab33ffc07346011bca5fc51b0a72b48810fd9029d0bac9c12bc82b4a2c3f7fb",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[RescueTime]] source adds [[CommunicationMultitasking]] as a measurable workplace form of task switching. In anonymized activity data from nearly 50,000 users, RescueTime reports that email or instant messaging overlapped with 40.1% of productive time and that the average knowledge worker had only 1 hour 12 minutes per day of productive time without communication multitasking. The article connects that overlap to short email-resumption costs, longer message-triggered detours, self-interruption, perceived urgency, and the larger switching penalty of complex work. [[AttentionManagement]] therefore gains a communication-specific distinction: alert suppression reduces external interruption, while deliberate batching and team response norms are also needed to address self-initiated checking without eliminating necessary coordination. The findings remain source-scoped because the commercial article provides no sampling frame, operational definitions, distribution, uncertainty, or causal comparison, and a reader says its graphs used medians while its prose said “average.” The local phone-and-laptop stock photograph was omitted as decorative, and two remote references were empty lazy-load placeholders.",
+      "topic_scores": {
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "CommunicationMultitasking",
+        "RescueTime"
+      ]
+    },
+    {
+      "id": "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The configuration-management source sharpens the wiki's infrastructure automation map by separating [[ConfigurationManagement]] from [[ImmutableInfrastructure]]. [[JonahHorowitz]] credits CFEngine-style convergence with faster provisioning, fewer mistakes, and broader fleet comprehension, yet argues that central ownership, dangerous distributed authority, asynchronous runs, and partial failures make it a poor application-release boundary at scale. His alternative builds application packages and dependencies into reviewed AMIs or container images, promotes the same artifact through environments and regions, and activates it through canaries, rolling replacement, or blue/green [[DeploymentAutomation]]. This qualifies [[InfrastructureAsCode]] rather than rejecting it: reproducible provisioning, mutable convergence, and image replacement are distinct mechanisms with different failure modes. The source is experiential and categorical, and its own caveats preserve configuration tools for image construction or minimal bare-metal layers while leaving runtime configuration, persistent data, secrets, external effects, and mixed-version compatibility outside the immutable artifact.",
+      "topic_scores": {
+        "ai-and-technology": 1
+      },
+      "wikilinks": [
+        "ConfigurationManagement",
+        "DeploymentAutomation",
+        "ImmutableInfrastructure",
+        "InfrastructureAsCode",
+        "JonahHorowitz"
+      ]
+    },
+    {
+      "id": "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Baremetrics essay adds [[ImposterSyndrome]] to the wiki's founder-psychology material. [[JoshPigford]] describes a gap between Baremetrics's visible growth and his internal confidence: greater revenue brought more mental pressure, negative public comments outweighed a supportive majority, and distance from routine customers left leaders hearing disproportionately about fires. The source sharpens [[SoloFounding]] and [[BurnoutPrevention]] by treating peer founders, non-startup perspective, direct customer contact, and honest acknowledgment of difficult days as social and informational safeguards. [[FounderSuccessDefinition]] gains a psychological stopping-rule function: “fake it till you make it” cannot end until “made it” has a personal meaning. The account remains a first-person practitioner reflection, not clinical guidance or evidence that these practices treat persistent distress.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "FounderSuccessDefinition",
+        "ImposterSyndrome",
+        "JoshPigford",
+        "SoloFounding"
       ]
     }
   ],

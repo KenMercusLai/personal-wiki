@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "blog-intel-labs-knowledge-retrieval-takes-center-stage",
+  "images": [
+    {
+      "file": "rcg-advantages-and-challenges.jpeg",
+      "alt": "Retrieval-centric generation advantages and challenges across privacy, accuracy, abstraction, model size, maturity, and fine-tuning"
+    },
+    {
+      "file": "rag-versus-rcg-data-flow.jpeg",
+      "alt": "Retrieval pipeline showing public and private data flowing through a vector database and retrieval front end into a generative AI model"
+    },
+    {
+      "file": "kioxia-retrieval-output-comparison.jpeg",
+      "alt": "Kioxia factory-location answers comparing accurate retrieval-centric generation with hallucinated RAG and retrieval-off generation output"
+    },
+    {
+      "file": "clutrr-learned-family-rules.jpeg",
+      "alt": "GPT-4 family-relationship rules learned from the CLUTRR dataset in the Hypotheses-to-Theories framework"
+    }
+  ]
+}

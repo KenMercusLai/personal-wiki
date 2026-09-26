@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "building-account-systems-mikes-blog",
+  "images": [
+    {
+      "file": "captcha-gallery.gif",
+      "alt": "A gallery of varied distorted text CAPTCHAs with configuration links"
+    }
+  ]
+}

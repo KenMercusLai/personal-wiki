@@ -2,7 +2,7 @@
 title: "Cognitive Overhead is Your Product's Overlord"
 type: source
 tags: [product-design, ux, cognitive-load]
-date: 2017-12-04
+date: 2017-02-06
 source_file: "/mnt/ken_personal_wiki/Articles/Cognitive Overhead is Your Product’s Overlord — Topple it With These Tips - First Round Review.md"
 ---
 

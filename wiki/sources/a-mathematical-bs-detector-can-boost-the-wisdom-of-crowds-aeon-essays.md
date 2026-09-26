@@ -2,7 +2,7 @@
 title: "A mathematical BS detector can boost the wisdom of crowds"
 type: source
 tags: [crowd-wisdom, metaknowledge, behavioral-economics, decision-making]
-date: 2026-03-28
+date: 2016-07-06
 source_file: /mnt/ken_personal_wiki/Articles/A mathematical BS detector can boost the wisdom of crowds - Aeon Essays.md
 ---
 

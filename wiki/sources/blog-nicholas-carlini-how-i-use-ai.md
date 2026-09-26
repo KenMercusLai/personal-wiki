@@ -2,7 +2,7 @@
 title: "How I Use \"AI\""
 type: source
 tags: [ai, llm, productivity, programming]
-date: 2025-01-17
+date: 2024-08-01
 source_file: /mnt/ken_personal_wiki/Articles/Blog - Nicholas Carlini - How I Use AI.md
 ---
 

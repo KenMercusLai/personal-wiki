@@ -2,7 +2,7 @@
 title: "74% of No. 1 iPhone Apps Don't Last a Month in the Top 25"
 type: source
 tags: [app-store, mobile, rankings, user-acquisition]
-date: 2017-03-01
+date: 2017-03-21
 source_file: /mnt/ken_personal_wiki/Articles/74- of No. 1 iPhone Apps Don't Last a Month in the Top 25.md
 ---
 

@@ -2,7 +2,7 @@
 title: "A Terrible, Horrible, No Good, Very Bad Hardbound Update"
 type: source
 tags: [startup, fundraising, failure, entrepreneurship]
-date: 2017-06-29
+date: 2017-06-28
 source_file: /mnt/ken_personal_wiki/Articles/A Terrible, Horrible, No Good, Very Bad Hardbound Update.md
 ---
 

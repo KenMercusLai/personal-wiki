@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "cloudflare-outage-on-february-20-2026",
+  "images": [
+    {
+      "file": "advertised-ipv4-prefixes-during-outage.png",
+      "alt": "Advertised IPv4 prefixes fell from about 6,500 to 5,200 before staged restoration returned them to roughly 6,400"
+    }
+  ]
+}

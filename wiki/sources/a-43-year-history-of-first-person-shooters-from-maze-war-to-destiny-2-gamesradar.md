@@ -2,7 +2,7 @@
 title: "A 43-year history of first-person shooters - from Maze War to Destiny 2"
 type: source
 tags: [games, fps, history]
-date: 2026-03-20
+date: 2017-05-01
 source_file: /mnt/ken_personal_wiki/Articles/A 43-year history of first-person shooters - from Maze War to Destiny 2 - GamesRadar+.md
 ---
 

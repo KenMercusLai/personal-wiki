@@ -2,7 +2,7 @@
 title: "3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech"
 type: source
 tags: [career, side-projects, job-search]
-date: 2026-03-08
+date: 2017-12-14
 source_file: /mnt/ken_personal_wiki/Articles/3 Principles to Make Your Side Project Stand Out to Help You Land a Job in Tech – Hack Career.md
 ---
 

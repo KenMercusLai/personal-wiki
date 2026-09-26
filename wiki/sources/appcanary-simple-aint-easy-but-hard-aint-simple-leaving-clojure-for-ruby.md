@@ -2,7 +2,7 @@
 title: "Simple Ain't Easy, but Hard Ain't Simple: Leaving Clojure for Ruby"
 type: source
 tags: [clojure, ruby, programming-languages, developer-experience]
-date: 2026-03-28
+date: 2017-05-22
 source_file: /mnt/ken_personal_wiki/Articles/Appcanary - Simple Ain't Easy, but Hard Ain't Simple- Leaving Clojure for Ruby.md
 ---
 

@@ -2,7 +2,7 @@
 title: "Cars as feature-phones"
 type: source
 tags: [automotive, software, interfaces, autonomous-vehicles]
-date: 2017-01-10
+date: 2017-01-11
 source_file: "/mnt/ken_personal_wiki/Articles/Cars as feature-phones — Benedict Evans.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "A first peek behind the scenes of Hillary Clinton's technology operation"
 type: source
 tags: [campaign-tech, product, fundraising, politics]
-date: 2016-04-21
+date: 2016-04-20
 source_file: "/mnt/ken_personal_wiki/Articles/A first peek behind the scenes of Hillary Clinton’s technology operation.md"
 ---
 

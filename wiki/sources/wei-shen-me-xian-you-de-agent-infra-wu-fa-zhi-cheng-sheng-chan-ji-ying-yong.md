@@ -2,7 +2,7 @@
 title: "为什么现有的 Agent Infra 无法支撑生产级应用？"
 type: source
 tags: [ai, agents, infrastructure, reliability, security]
-date: 2026-03-17
+date: 2026-03-08
 source_file: /mnt/ken_personal_wiki/Articles/为什么现有的 Agent Infra 无法支撑生产级应用？.md
 ---
 

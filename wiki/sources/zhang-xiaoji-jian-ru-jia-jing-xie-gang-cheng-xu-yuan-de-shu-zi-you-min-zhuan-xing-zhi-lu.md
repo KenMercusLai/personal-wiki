@@ -2,7 +2,7 @@
 title: "年度征文 | 渐入佳境：斜杠程序员的数字游民转型之旅"
 type: source
 tags: [indie-dev, digital-nomad, entrepreneurship, build-in-public]
-date: 2024-03-03
+date: 2024-03-04
 source_file: /mnt/ken_personal_wiki/Articles/张小吉 - 渐入佳境：斜杠程序员的数字游民转型之旅.md
 ---
 

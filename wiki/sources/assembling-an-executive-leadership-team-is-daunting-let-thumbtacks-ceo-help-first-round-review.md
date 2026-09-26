@@ -2,7 +2,7 @@
 title: "Assembling an Executive Leadership Team is Daunting - Let Thumbtack's CEO Help"
 type: source
 tags: [leadership, hiring, executive-search, management]
-date: 2026-03-30
+date: 2018-04-16
 source_file: /mnt/ken_personal_wiki/Articles/Assembling an Executive Leadership Team is Daunting — Let Thumbtack’s CEO Help - First Round Review.md
 ---
 

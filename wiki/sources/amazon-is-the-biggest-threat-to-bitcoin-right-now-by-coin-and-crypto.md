@@ -2,7 +2,7 @@
 title: "Amazon is the biggest threat to bitcoin right now"
 type: source
 tags: [bitcoin, cryptocurrency, amazon, payments]
-date: 2026-03-28
+date: 2017-12-13
 source_file: /mnt/ken_personal_wiki/Articles/Amazon is the biggest threat to bitcoin right now - By Coin and Crypto.md
 ---
 

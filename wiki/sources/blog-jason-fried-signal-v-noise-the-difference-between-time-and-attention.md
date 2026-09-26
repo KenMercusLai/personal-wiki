@@ -2,7 +2,7 @@
 title: "The Difference Between Time and Attention"
 type: source
 tags: [productivity, attention, time-management, work]
-date: 2026-02-11
+date: 2015-08-19
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - Jason Fried (Signal v. Noise) - The Difference Between Time and Attention.md"
 ---
 

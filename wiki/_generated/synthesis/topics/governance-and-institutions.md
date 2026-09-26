@@ -3,16 +3,16 @@
 generated: true
 topic_id: governance-and-institutions
 title: "Governance and Institutions"
-last_updated: 2026-09-25
-as_of_overview_commit: 26d90b1060ffc3e0a60289a70936b1143cee4038
-input_digest: c12491e137e3323225d4f6125768a0c507c817956e5236b8ca5089708670151a
+last_updated: 2026-09-26
+as_of_overview_commit: 827e704c5f53b46fdc89596457875a40f9933410
+input_digest: 760dfb044a42d06bf3ab14839ae6d589175814e1dacab12dae5c64e87683d4aa
 ---
 
 # Governance and Institutions
 
 ## Current State
 
-Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational and managerial boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, fair process, and agreed state transitions rather than labels or sincere authority alone. [[ManagerialResponsibility]] adds the workplace version: managers can reinforce strengths, diagnose support failures, delegate developmental work, absorb difficult problems, and use influence, but humane personnel action still needs evidence, employee response, accommodation, anti-bias safeguards, policy, and law. [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[LiveJournal]] adds [[CommunityGovernanceDebt]] as a platform boundary: founder promises, volunteer authority, personalized support, policy ambiguity, ownership change, and distrust can turn later product and business change into a legitimacy problem, while “Nipplegate” shows reporting tools and literal rules becoming abuse surfaces when moderators lack contextual standards and trusted discretion. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself. The newest AI-memory note adds a narrower information-governance case: [[MemoryConflictResolution]] requires claims to carry provenance, confidence, temporal validity, and preserved versions because similarity and unconditional latest-wins cannot decide authority; [[AgentMemory]] and [[TapeAndAnchors]] can separate immutable evidence from revisable current-state judgments, but the proposal is unbenchmarked.
+[[Bhutan]] and [[GrossNationalHappiness]] add a qualified governance case in which wellbeing, conservation, and cultural continuity are stated priorities beyond GDP, while youth migration and [[GelephuMindfulnessCity]] expose the need for measurable outcomes and accountable development tradeoffs. Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational and managerial boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, fair process, and agreed state transitions rather than labels or sincere authority alone. [[ManagerialResponsibility]] adds the workplace version: managers can reinforce strengths, diagnose support failures, delegate developmental work, absorb difficult problems, and use influence, but humane personnel action still needs evidence, employee response, accommodation, anti-bias safeguards, policy, and law. [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[LiveJournal]] adds [[CommunityGovernanceDebt]] as a platform boundary: founder promises, volunteer authority, personalized support, policy ambiguity, ownership change, and distrust can turn later product and business change into a legitimacy problem, while “Nipplegate” shows reporting tools and literal rules becoming abuse surfaces when moderators lack contextual standards and trusted discretion. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself. The newest AI-memory note adds a narrower information-governance case: [[MemoryConflictResolution]] requires claims to carry provenance, confidence, temporal validity, and preserved versions because similarity and unconditional latest-wins cannot decide authority; [[AgentMemory]] and [[TapeAndAnchors]] can separate immutable evidence from revisable current-state judgments, but the proposal is unbenchmarked. [[PreloadBridgeSecurity]] adds a desktop-software case to capability governance: remote renderer content should receive narrow validated methods rather than ambient Node.js authority, and proxying a privileged action across a process boundary does not make it safe. Slack’s account is a historical first-party design description rather than a current security audit.
 
 ## Cross-source Findings
 
@@ -103,15 +103,16 @@ Platform-operated decision systems need explicit controls because ranking, perso
 
 ### Experimentation And Automation Need Instrumentation
 
-Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, staged activation, and explicit recovery boundaries that let operators compare behavior before broad rollout and repair the actual current state when code reversion is insufficient.
+Automation becomes governable when systems expose logs, metrics, replayable evidence, validation checks, compliance records, staged activation, and explicit recovery boundaries. [[Cloudflare]]'s BYOIP outage adds typed request semantics, autonomous-job scenarios, health-mediated snapshots, and rate or breadth circuit breakers to [[ChangeSafety]] and [[DeploymentAutomation]], because stopping a faulty process does not reconstruct deleted bindings or restore the actual operational state.
 
-**Evidence:** [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[DeploymentAutomation]], [[ContinuousDelivery]], [[DanMcKinley]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]]
+**Evidence:** [[DataExploration]], [[OfflinePolicyReplay]], [[NetworkAutomation]], [[ChangeSafety]], [[DeploymentAutomation]], [[Cloudflare]], [[ContinuousDelivery]], [[DanMcKinley]], [[InferenceLoadBalancing]], [[ComplianceArchitecture]]
 
 **Qualifications:**
 
 - Instrumentation does not by itself prove causal impact or social legitimacy; it makes evaluation possible.
 - Compliance instrumentation can still become harmful when central ownership turns evidence gathering into a release bottleneck.
-- Rollback controls are similarly bounded: a server-code revert does not prove that persistent, browser, cache, or mixed-version effects were reversed.
+- Rollback controls are similarly bounded: a server-code revert does not prove that persistent, browser, cache, mixed-version, or dependent operational effects were reversed.
+- Cloudflare's postmortem is first-party and its proposed schema, snapshot, health-gate, and circuit-breaker controls were not yet supported by measured post-remediation outcomes.
 
 ### Scale Changes Operating Boundaries
 
@@ -266,3 +267,24 @@ Technical systems that look operationally narrow can carry social consequences w
 
 - The evidence is a 2018 trade-publication account of Google presenters' claims, with no independent breach, false-decision, reliability, policy-maintenance, support, or cost outcomes.
 - The case does not imply that public reachability or removing a VPN is safe without accurate inventory, strong identity and device controls, transport and application security, monitored exceptions, and recovery paths.
+
+### Wellbeing Governance Needs Measurement
+
+[[Bhutan]] and [[GrossNationalHappiness]] show a governance model that publicly prioritizes wellbeing, cultural continuity, and conservation beyond GDP, while the tension around youth migration and [[GelephuMindfulnessCity]] shows why stated objectives still need transparent measures, resident evidence, and accountable tradeoffs.
+
+**Evidence:** [[Bhutan]], [[GrossNationalHappiness]], [[GelephuMindfulnessCity]]
+
+**Qualifications:**
+
+- The evidence is one affectionate account of a one-week guided visit without policy documents, wellbeing data, emissions inventories, migration statistics, or independent verification of favorable royal stories.
+
+### Renderer Boundaries Need Capability Governance
+
+[[PreloadBridgeSecurity]] shows that governance follows authority rather than process location: remote content needs narrow validated capabilities, and [[Electron]] renderer isolation or asynchronous IPC cannot replace semantic authorization and audit.
+
+**Evidence:** [[PreloadBridgeSecurity]], [[Electron]], [[HybridDesktopApplicationArchitecture]], [[Slack]]
+
+**Qualifications:**
+
+- The source predates later Electron security guidance and provides no exploit, incident, or comparative outcome evidence.
+- Origin, navigation, sandbox, update, transport, dependency, and host-implementation controls remain outside the described bridge API.

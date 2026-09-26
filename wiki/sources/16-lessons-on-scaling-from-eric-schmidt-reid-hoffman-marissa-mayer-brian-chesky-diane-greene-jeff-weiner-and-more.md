@@ -2,7 +2,7 @@
 title: "16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more"
 type: source
 tags: [startup, scaling, management, hiring, culture]
-date: 2015-12-10
+date: 2015-12-09
 source_file: /mnt/ken_personal_wiki/Articles/16 lessons on scaling from Eric Schmidt, Reid Hoffman, Marissa Mayer, Brian Chesky, Diane Greene, Jeff Weiner, and more.md
 ---
 

@@ -2,7 +2,7 @@
 title: "12 Factor CLI Apps"
 type: source
 tags: [cli, developer-tools, software-engineering]
-date: 2018-10-10
+date: 2018-10-09
 source_file: /mnt/ken_personal_wiki/Articles/12 Factor CLI Apps - Jeff Dickey - Medium.md
 ---
 

@@ -2,7 +2,7 @@
 title: "是的，我用AI写文章，咋滴"
 type: source
 tags: [ai, writing, content-creation]
-date: 2026-04-12
+date: 2026-04-07
 source_file: /mnt/ken_personal_wiki/Articles/是的，我用AI写文章，咋滴.md
 ---
 

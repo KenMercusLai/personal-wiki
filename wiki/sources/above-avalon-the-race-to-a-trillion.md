@@ -2,7 +2,7 @@
 title: "Above Avalon: The Race to a Trillion"
 type: source
 tags: [apple, market-capitalization, corporate-strategy, software, data]
-date: 2026-03-25
+date: 2018-07-11
 source_file: /mnt/ken_personal_wiki/Articles/Above Avalon- The Race to a Trillion.md
 ---
 

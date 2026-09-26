@@ -2,7 +2,7 @@
 title: "The Strong and Weak Forces of Architecture"
 type: source
 tags: [architecture, governance, organizational-design]
-date: 2026-09-14
+date: 2021-11-10
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - Martin Fowler - The Strong and Weak Forces of Architecture.md"
 ---
 

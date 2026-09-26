@@ -2,7 +2,7 @@
 title: "Bezos Prime"
 type: source
 tags: [amazon, leadership, media, space, strategy]
-date: 2016-04-01
+date: 2016-03-24
 source_file: /mnt/ken_personal_wiki/Articles/Bezos Prime - Fortune.md
 ---
 

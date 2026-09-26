@@ -2,7 +2,7 @@
 title: "Voice and the uncanny valley of AI"
 type: source
 tags: [ai, voice-assistants, platform-strategy, ux, machine-learning]
-date: 2017-02-22
+date: 2017-03-09
 source_file: '/mnt/ken_personal_wiki/Articles/Voice and the uncanny valley of AI — Benedict Evans.md'
 ---
 

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "blog-arthur-chiao-yi-ai-agent-ji-shu-bai-pi-shu-google-2024",
+  "images": [
+    {
+      "file": "agent-runtime-architecture.png",
+      "alt": "Agent runtime containing orchestration, memory, model-based reasoning, a model, and tools"
+    },
+    {
+      "file": "react-flight-loop.png",
+      "alt": "ReAct flight-search loop selecting a tool, observing results, and returning an answer"
+    },
+    {
+      "file": "extensions-api-mapping.png",
+      "alt": "One agent selecting flight, maps, and weather extensions connected to their APIs"
+    },
+    {
+      "file": "function-client-control-boundary.png",
+      "alt": "Extensions execute on the agent side while function calls return through client middleware for execution"
+    },
+    {
+      "file": "function-call-sequence.png",
+      "alt": "Function-call sequence from user query through model JSON output, client API execution, and response"
+    },
+    {
+      "file": "rag-request-lifecycle.png",
+      "alt": "RAG request lifecycle from query embedding and vector retrieval to agent response"
+    },
+    {
+      "file": "vertex-ai-agent-architecture.png",
+      "alt": "End-to-end Vertex AI agent architecture with custom UI, prompts, tool definitions, functions, extensions, model, and APIs"
+    }
+  ]
+}

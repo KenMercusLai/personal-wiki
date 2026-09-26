@@ -2,7 +2,7 @@
 title: "What Makes Claude Code So Damn Good"
 type: source
 tags: [ai, agents, coding-agent, claude-code, prompt-engineering]
-date: 2026-09-14
+date: 2025-08-21
 source_file: /mnt/ken_personal_wiki/Articles/Blog - MinusX (Nuwanda) - What Makes Claude Code So Damn Good.md
 ---
 

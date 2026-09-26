@@ -2,7 +2,7 @@
 title: "Will AI Replace Human Thinking? The Case for Writing and Coding Manually"
 type: source
 tags: [ai, writing, coding, learning]
-date: 2026-01-14
+date: 2024-08-31
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - Simon Späti - Will AI Replace Human Thinking.md"
 ---
 

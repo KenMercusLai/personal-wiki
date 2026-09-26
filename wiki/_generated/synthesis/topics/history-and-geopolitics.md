@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-25
-as_of_overview_commit: 977e7d801c230547def52b44dc5a1e54a308b53c
-input_digest: 0d01bc9e8cfc9eee7a8bb46c89098940c4112fe14336abf29c32c7912f31e397
+last_updated: 2026-09-26
+as_of_overview_commit: f7d3331bfbfe63f171d8b5b98bda14c4c79e7426
+input_digest: a97076e707a2b527f8747ced05a1119a2318567ee068fb5f2ede38608f476b11
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.
+The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]] paragraph is a 2016 media-history spillover whose substantive findings belong to business and community design; the [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.
 
 ## Cross-source Findings
 
@@ -155,3 +155,14 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 - This is historical-learning and personal-development material routed here because it discusses birth conditions, path dependence, and a scientific-discovery narrative; it is not geopolitical evidence.
 - The framework is an essayistic heuristic rather than a causal decomposition; the Tu Youyou narrative compresses team, institutional, and traditional-knowledge contributions, and the 1Byte source's claim that luck is normally distributed is unsupported.
+
+### Gawker Retrospective Is Media History Spillover
+
+[[Gawker]], [[JoshLaurito]], and [[Kinja]] add a source-scoped 2016 digital-media history snapshot in which publishing, traffic, contributor, and comment totals document the end of original operations while [[PlatformDistributionDependence]] and [[ForumCommunityDesign]] carry the substantive business and community findings.
+
+**Evidence:** [[Gawker]], [[JoshLaurito]], [[Kinja]], [[PlatformDistributionDependence]], [[ForumCommunityDesign]]
+
+**Qualifications:**
+
+- The paragraph is a digital-publishing operating retrospective routed here because it is historical; it adds no substantive geopolitical claim.
+- Its counts are first-party estimates affected by pre-modern analytics, acquired Cityfile material, tagging errors, and missing detailed tables.

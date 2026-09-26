@@ -4,6 +4,34 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-25] ingest | This high school dropout who invested in bitcoin at $12 is now a millionaire at 18
+
+Added CNBC's 2017 profile of Erik Finman's early Bitcoin investment, Botangle founding and sale, reported 403-bitcoin holding, peer-to-peer technology thesis, and preference for entrepreneurial and internet-based learning over formal credentials. Created [[ErikFinman]] and [[Botangle]]; updated [[Bitcoin]], [[CNBC]], [[FreeLearning]], and [[SelfEducationInvestment]] from their complete ordered source inventories. Preserved the article's June 2017 price context, extreme and conflicting forecasts, lack of independent holdings audit, and the survivorship and selection limits of generalizing from an exceptional cryptocurrency outcome. The source Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] ingest | BuzzFeed's Jonah Peretti: news publishers only have themselves to blame for losing out to Google and Facebook
+
+Added The Drum's 2017 interview with Jonah Peretti on legacy-publisher short-termism, internet-native media strategy, platform partnerships, free news reach, video-format design, and BuzzFeed's combined news-and-entertainment model. Updated [[JonahPeretti]], [[Buzzfeed]], [[Tasty]], [[DistributedPublishingStrategy]], [[PlatformPublisherRevenue]], and [[DigitalMediaMonetization]] from their complete ordered source inventories. Preserved the change in emphasis between Peretti's partnership-oriented interview and his later platform-payment critique, and qualified all company-reported scale, revenue, engagement, and completion figures as historical self-presentation rather than independently verified outcomes. The remote lead image returned HTTP 403 and could not be opened or interpreted, so no visual asset or manifest was created.
+
+## [2026-09-25] ingest | 从神经网络到 Hugging Face
+
+Added Hutusi's popular history connecting perceptrons, neural-network training, deep learning, Transformer models, and the Hugging Face ecosystem. Created [[HuggingFace]] and [[GeoffreyHinton]]; updated [[Hutusi]] and [[DeepLearning]] from their complete ordered source inventories. Preserved the article's useful account of parameters, loss, backpropagation, artifact reuse, and open tooling while qualifying its compressed priority history, Transformer naming, RLHF staging, multi-turn explanation, scaling claims, GPT-4 parameter estimate, and time-sensitive Hub counts. The supplied Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] ingest | Building Infrastructure Platforms
+
+Added Poppy Rowse and Chris Shepherd's seven-principle framework for treating shared infrastructure as an internal product. Created [[PoppyRowse]], [[ChrisShepherd]], and [[InfrastructurePlatformProductManagement]]; updated [[InternalDeveloperPlatform]], [[ArchitectureDecisionRecords]], and [[UserJourneyMapping]] from their complete ordered source inventories with problem-first strategy, discovery, shortest-path-to-value onboarding, technical communication, service design, complexity control, and adoption-stage measurement. Preserved the framework's limits as practitioner guidance without comparative adoption, delivery, cost, security, or reliability outcomes. Opened all five unique local images, retained two Event Storming timelines and three onboarding-journey diagrams with descriptive canonical filenames, and deduplicated the repeated first timeline reference.
+
+## [2026-09-25] ingest | The Ultimate Productivity Hack is Saying No
+
+Added James Clear's argument that productivity begins with filtering commitments because a yes allocates future time and excludes competing uses, while elimination avoids work that efficient execution cannot redeem. Updated [[JamesClear]], [[PersonalProductivity]], and [[OpportunityCost]] from their complete ordered source inventories with commitment asymmetry, rising acceptance thresholds, and the early-exploration exception. Preserved power, care, hierarchy, maintenance, reciprocity, and necessary coordination as qualifications to strong refusal heuristics. The source contains no effective image references, so no visual assets were retained or left uninterpreted.
+
+## [2026-09-25] ingest | Transitional Architecture
+
+Added Ian Cartwright, Rob Horn, and James Lewis's lifecycle and investment framework for temporary migration architecture. Updated [[TransitionalArchitecture]], [[LegacyDisplacement]], [[EventInterception]], [[LegacyMimic]], [[AntiCorruptionLayer]], and the three author entities from their complete ordered source inventories. The storefront example now records progressive routing, separate operational and reporting compatibility components, and dependency-ordered decommissioning; the synthesis preserves the source's limits as practitioner guidance without comparative cost or outcome evidence. Opened all six unique local diagrams and retained each with a descriptive filename at its semantic position; the duplicated target-state reference was stored and embedded once.
+
+## [2026-09-25] ingest | [译] AI Agent（智能体）技术白皮书（Google，2024）
+
+Added Arthur Chiao's translation of Google's 2024 generative-AI agent white paper. Created [[GenerativeAIAgentArchitecture]] and updated [[AgentComputerInterface]], [[RetrievalAugmentedGeneration]], and [[LangChain]] from their complete ordered source inventories. Preserved the distinction between a model and its stateful application runtime, made execution ownership explicit across extensions and function calls, and treated RAG as an information tool inside the larger agent loop. Qualified the paper as an introductory, Google-centered architecture source without comparative production evidence or quantified reliability, safety, cost, latency, authorization, observability, or recovery results. Inspected all fourteen local diagrams, retained seven evidence-bearing architecture and sequence diagrams at their semantic positions, and omitted seven question, precursor, or near-duplicate diagrams.
+
 ## [2026-09-25] ingest | Bezos Prime
 
 Added Fortune's 2016 profile of Jeff Bezos's transition from founder-centered control to a leader-of-leaders model across Amazon, the Washington Post, and Blue Origin. Created [[BlueOrigin]], [[WashingtonPost]], [[JasonRezaian]], [[MartyBaron]], and [[LeaderOfLeaders]]; updated [[JeffBezos]], [[Amazon]], [[JeffWilke]], and [[StrategicWriting]] from their complete ordered source inventories. Preserved the unresolved Amazon workplace-culture dispute, the Post's undisclosed economics, and Blue Origin's passenger and orbital forecasts as qualifications rather than outcomes. Inspected all six local images, retained the Rezaian retrieval, New Shepard landing, and Amazon Books photographs at their semantic positions, and omitted two duplicate cover images plus one decorative portrait.
@@ -3656,6 +3684,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-25] ingest | Building a One Man SaaS App Offers a Profound Sense of Personal Achievement
+
+Added an unnamed solo developer's account of a four-year SaaS side project that reportedly reached about $3,500 in monthly revenue and sold for $100,000. Updated [[SoloFounding]], [[SideProjectIncubation]], and [[BootstrappedSaaS]] from their complete ordered source inventories with cross-functional founder learning, household financial optionality, and the possibility of a modest exit, while qualifying the account's survivor bias and missing cost, churn, acquisition, working-time, and failure-rate evidence. Inspected the sole local image and omitted the staged medieval-joust photograph as an illustrative quest metaphor that adds no independent source evidence; no asset manifest was created.
+
 ## [2026-09-25] ingest | Apple's iOS App Store users spent $11.5 billion in Q4, 95% more than Google Play
 
 Added AppleInsider's Q4 2017 App Annie snapshot: Google Play delivered more than 19 billion new downloads versus roughly 8 billion for Apple's App Store, while the App Store generated $11.5 billion in consumer spend and was reported at 95% above Google Play. Updated the core app-store economics and platform pages from their complete ordered source inventories. Preserved the article's China-coverage limitation, unsupported causal claims, and internal numerical inconsistencies. Inspected all nine image references, retained one canonical consumer-spend chart, omitted its duplicate, and omitted seven unrelated promotional thumbnails.
@@ -3791,3 +3823,378 @@ Added 1Byte's essay on success as an interaction among lifelong learning, judgme
 ## [2026-09-25] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Scaling the Practice of Architecture, Conversationally
+
+Added Andrew Harmel-Law's five-element model for scaling architecture through distributed decision rights, mandatory advice, visible records, recurring cross-team conversations, team-sourced principles, and a local technology radar. Created [[AndrewHarmelLaw]], [[DecentralizedArchitectureGovernance]], [[AdviceProcess]], [[ArchitectureDecisionRecords]], and [[ArchitectureAdvisoryForum]]; updated [[SystemArchitecturePrinciples]], [[TechnologyRadar]], and [[ArchitectureAlignmentForces]] from their complete ordered source inventories. Preserved the limits of practitioner-reported outcomes, the model's dependence on inclusion and trust, and its explicit exclusion of technical-strategy and cross-functional-requirement design. The Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Data-As-A-Service Bible: Everything You Wanted To Know About Running DaaS Companies
+
+Added Auren Hoffman's 2019 operating framework for data businesses. Created [[AurenHoffman]], [[SafeGraph]], [[DataAsAService]], and [[DataJoinability]]; connected acquisition, transformation, delivery, factual quality, stable identifiers, evaluation, data rights, and fixed-cost scale economics while preserving the framework's operator-authored and historically bounded nature. Qualified its winner-takes-most thesis, its sharp truth-versus-prediction split, its unverified market-growth forecast, and the privacy, consent, correction, deletion, security, and reidentification risks of joinable people and location data. Opened all six local images; retained the compute-cost series, market-positioning matrix, and illustrative margin table with descriptive canonical filenames, and omitted two prose-repetition graphics plus the decorative cover.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Divert the Flow
+
+Added Ian Cartwright, Rob Horn, and James Lewis's strategy for replacing a business-critical cross-cutting aggregator before its upstream systems. Created [[DivertTheFlow]], [[CriticalAggregator]], [[RevertToSource]], and [[ParallelRunning]]; updated [[LegacyDisplacement]], [[TransitionalArchitecture]], [[EventInterception]], [[LegacyMimic]], [[IanCartwright]], [[RobHorn]], and [[JamesLewis]] from their complete ordered source inventories. Preserved the alternative of leaving the aggregator until last with mimic feeds, the limits of reconstructing undocumented calculations, and the need to interpret rather than merely eliminate old/new output differences. Opened both local architecture diagrams and retained them with descriptive filenames and canonical semantic placement; together they show reporting moving outside the legacy boundary while direct repositories and dotted retirement paths replace invasive legacy dependencies.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | 记 LobeHub 的性能和 DX 优化
+
+Added Innei's account of React runtime, Electron packaging, and developer-experience optimization at LobeHub. Created [[Innei]], [[LobeHub]], [[Electron]], [[ReactRuntimePerformance]], and [[DesktopApplicationPackaging]]; updated [[WebPerformanceOptimization]], [[DeveloperExperience]], and [[NextJS]] from their complete ordered source inventories. Retained all five evidence-bearing benchmark and profiler screenshots with readable filenames and canonical semantic placement. Preserved the limits of development point measurements, flagged that 14.99 MB versus roughly 1.1 MB is about fourteen times rather than ten orders of magnitude, and kept the proposed Next.js-to-Vite migration provisional.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Knowledge Retrieval Takes Center Stage
+
+Added Intel Labs' retrieval-centric generation thesis, distinguishing systems where retrieval supplements model memory from systems where curated external evidence supplies most factual content. Created [[IntelLabs]], [[FastRAG]], [[SimplyRetrieve]], [[RetrievalCentricGeneration]], and [[SchemaBasedReasoning]]; updated [[RetrievalAugmentedGeneration]] from its complete ordered source inventory. Preserved the proposal's limited evidence: near-100% accuracy is an ambition, the compact-model claim is conditional, and the visible RCG/RAG/ROG comparison covers one query. Opened and retained all four evidence-bearing images with descriptive canonical filenames; they show RCG's stated tradeoffs, the shared retrieval data flow, a factory-location hallucination comparison, and GPT-4's verbose CLUTRR family-rule induction.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | The Ultimate Habit Tracker Guide: Why and How to Track Your Habits
+
+Added James Clear's framework for using a visible completion record to bridge delayed habit outcomes with immediate prompts, progress evidence, and satisfaction. Created [[HabitTracking]] and updated [[JamesClear]] from its complete ordered source inventory, preserving the limits of commercial framing, abbreviated research support, tracking overhead, streak perfectionism, and fixed-threshold heuristics. Opened and retained both evidence-bearing journal images with readable filenames and canonical semantic placement; they show a multi-habit calendar grid and equivalent completion marks using Xs, shaded cells, checkmarks, and dots.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Shipping at Inference-Speed
+
+Added Peter Steinberger's account of a solo coding-agent workflow where implementation speed shifts the bottleneck toward inference time, architecture, dependencies, product judgment, and human attention. Created [[PeterSteinberger]]; updated [[VibeCoding]] and [[Codex]] from their complete ordered source inventories; and preserved the tension between deep agent autonomy, executable verification, and responsibility for largely unread code. The Markdown contains no effective image references, so no visual assets or manifest were created. The article's one-shot results and model comparisons remain practitioner reports rather than controlled evidence of defect rate, maintainability, security, or team-scale productivity.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | The sights and sounds of Bhutan
+
+Added Tim Urban's guided travelogue on Bhutan's Buddhist monarchy, cultural-preservation policies, architecture, environmental claims, Gross National Happiness, youth migration, and proposed Gelephu Mindfulness City. Created [[Bhutan]], [[GelephuMindfulnessCity]], and [[GrossNationalHappiness]]; updated [[TimUrban]] and [[WaitButWhy]] from their complete ordered source inventories. Preserved the source's epistemic limits: a one-week guided visit cannot verify official stories, carbon accounting, national happiness, migration trends, or a long-horizon city plan. Opened all four local images; retained the regional map, riverside dzong, and Tiger's Nest monastery with readable filenames and canonical semantic placement, and omitted the duplicate promotional video thumbnail.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | RAG Is More Than Just Vector Search
+
+Added Timescale's argument that production RAG should route among semantic search, raw records, generated summaries, structured filters, time-series analysis, and text-to-SQL rather than equating retrieval with vector similarity alone. Created [[Pgvectorscale]], [[Pgai]], [[EvalsDrivenAIDevelopment]], and [[TextToSQL]]; updated [[RetrievalAugmentedGeneration]], [[PostgreSQL]], [[Timescale]], and [[Pgvector]] from their complete ordered source inventories. Preserved the source's vendor and implementation limits, including linked rather than reproduced benchmark claims, routing-only tests, an unimplemented SQL executor, and `label`/`issue_label` schema drift. The Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | 浏览器缓存机制
+
+Added Wulc's explanation of browser-cache freshness and conditional validation. Created [[BrowserCaching]] and updated [[Wulc]] from its complete ordered source inventory; preserved the distinction between fresh reuse, `ETag`/`If-None-Match`, `Last-Modified`/`If-Modified-Since`, and `200` versus `304` outcomes while qualifying the article's simplified claims about `no-cache`, `Expires`, validator prerequisites, Apache entity tags, and reload behavior. Opened and retained all four evidence-bearing images with readable filenames and canonical semantic placement: two response-header screenshots and two first/repeat-request flow diagrams.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Listening is The Job
+
+Added Andrew Bosworth's account of listening as active ownership of workplace information flow. Created [[WorkplaceInformationSeeking]] and updated [[AndrewBosworth]] and [[InformationOverload]] from their complete ordered source inventories. The synthesis combines deliberate channel choice, review cadence and depth, low-signal pruning, communicator feedback, dependency mapping, missing-channel creation, surprise-driven follow-up, outbound context, cross-team callbacks, and non-defensive interpretation. It preserves the limits of a single senior Facebook leader's unmeasured practice: exhaustive reading can itself create overload, pruning can suppress rare or dissenting signals, and receptive listening does not require tolerating abuse, coercion, discrimination, or unsafe communication. The source Markdown contains no image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Boring Obligations From Investors
+
+Added Brett Fox's account of post-close investor obligations. Created [[BrettFox]] and [[FounderInvestorRelations]]; updated [[FounderInvestorFit]] and [[VentureCapitalFundStructure]] from their complete ordered source inventories. The synthesis connects quarterly reporting, LP references, prospective-deal diligence, and investor events while preserving the source's anecdotal scope, anonymized counterparties, unspecified contractual basis, and unmeasured costs and outcomes. The Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | When VCs Say the Giants Will Enter Your Market
+
+Added Brett Fox's strategy for answering incumbent-entry concerns: acknowledge that a giant can copy or enter, then explain how concentrated focus, speed, and segment choice create a credible defense. Created [[IncumbentAttentionAsymmetry]] and [[Maxim]], and updated [[BrettFox]], [[CorporateGiantFragility]], and [[IncumbentShadowAdvantage]] from their complete ordered source inventories. The synthesis preserves Fox's reversal: Maxim first won as the focused challenger, then failed to displace smaller communications specialists when the market was existential to them but only another Maxim product line. It also adds the core-market boundary that attacking most of an incumbent's revenue invites concentrated retaliation. The account remains a retrospective practitioner argument without independent product, pricing, market-share, or causal evidence. The Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Browsers, not apps, are the future of mobile
+
+Added Inside Intercom's 2016 argument that native apps fit frequent hardware-integrated tasks while social and messaging products can operate as contextual browsers and bots as dynamic bookmarks. Created [[Telegram]] and updated [[MobileRuntime]], [[MessagingAsPlatform]], and [[MobilePlatformDiscovery]] from their complete ordered source inventories. The synthesis preserves later chatbot counterevidence and distinguishes proprietary in-app browsing from the open web. Inspected all four referenced local images: omitted the duplicated decorative hero illustration and retained the Facebook in-app browser screenshot, comScore app-time chart, and Telegram music-bot GIF with readable filenames and canonical semantic placement.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Building Hybrid Applications with Electron
+
+Added Slack's 2016 account of replacing its MacGap client with a shared macOS, Windows, and Linux Electron application. Created [[HybridDesktopApplicationArchitecture]] and [[PreloadBridgeSecurity]], and updated [[Slack]] and [[Electron]] from their complete ordered source inventories with local-versus-remote delivery, renderer isolation, constrained preload APIs, asynchronous IPC, and remote-object audit requirements. Preserved the limits of a first-party historical description without comparative performance, memory, reliability, exploit, or incident evidence and noted that it predates later Electron security guidance. Opened all three local images and omitted them as decorative or duplicate versions of the same hybrid-car metaphor; no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Building Products Without Coding
+
+Added Per Harald Borgen's account of assembling the BugRex coding-help marketplace from Unbounce, Olark, Trillian, PayPal.me, and Typeform. Created [[PerHaraldBorgen]], [[BugRex]], and [[NoCodeProductPrototyping]]; updated [[StartupHypothesisTesting]], [[MinimumViableProduct]], [[Unbounce]], and [[PayPal]] from their complete ordered source inventories. The synthesis distinguishes the demand, customer-price, and expert-compensation assumptions the prototype could test from the platform take rate it deliberately left untested, and preserves the limits of rough time-saving estimates with no reported conversion, retention, liquidity, response-time, or profitability outcomes. Opened nine distinct local image files; retained the full-resolution BugRex interface and ReactHelp Unbounce editor with readable filenames and canonical semantic placement, while omitting duplicate thumbnails, prose-redundant service screenshots, empty placeholders, and a promotional Scrimba banner.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Building a Data-Informed Culture: An Introduction to Data at Gusto
+
+Added Gusto's 2016 account of building a data-informed culture through shared warehouse infrastructure, role clarity, layered data products, governed self-service, and later predictive investment. Created [[Gusto]], [[ApacheAirflow]], [[AmazonRedshift]], [[DataInformedCulture]], and [[LayeredDataWarehouse]]; updated [[Looker]] and [[DataScienceEngineeringPractice]] from their complete ordered source inventories. Preserved the first-party source's lack of measured quality, productivity, reliability, access-risk, or business outcomes and its warning that tools, pipelines, and organization must evolve with scale. The sole referenced architecture diagram is missing from the supplied vault and could not be recovered or inspected, so no visual asset or manifest was created and the recorded architecture is limited to the prose.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Building Account Systems
+
+Added Mike Hearn's 2017 account-system guidance. Created [[MikeHearn]] and updated [[AuthenticationInfrastructure]] and [[EmailMagicLinkAuthentication]] from their complete ordered source inventories. The synthesis expands authentication from credential verification into ownership choice, identifiers, recovery, abuse controls, multi-factor support, session invalidation, support, and transactional-email deliverability while qualifying the article's absolute federation, password, and session-expiry claims. Opened six unique local images; retained the CAPTCHA gallery once with a readable filename and canonical semantic placement, while omitting the hero and thumbnail, password and phone icons, and tiny mail screenshot as decorative, duplicate, or prose-redundant.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | Brand: You. Creating and Self-Marketing Yourself to Find a Job During Tough Times
+
+Added Matt Warzel's 2011 framework for turning mission, self-assessment, transferable skills, market research, the marketing mix, SWOT analysis, and an elevator speech into a targeted job-search plan. Created [[MattWarzel]] and updated [[PersonalBranding]] and [[CareerPlanning]] from their complete ordered source inventories. The synthesis distinguishes a coherent employer-facing value proposition from generic self-promotion while qualifying the article's commercial framing, dated industry examples, imperfect assessment tools, structural blind spots, and lack of comparative hiring outcomes. The source Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+## [2026-09-25] ingest | Business Questions Engineers Should Ask When Interviewing at ML/AI Companies
+
+Added Daniel Gross's business-focused diligence framework for engineers and data scientists evaluating ML/AI employers. Created [[DanielGross]] and [[StartupDefensibility]], and updated [[StartupJobDiligence]], [[MarketSizing]], and [[StartupDistributionStrategy]] from their complete ordered source inventories. The synthesis tests customer need, improvement over pre-AI alternatives, user-learning depth, current monetization, acquisition channels and economics, derived market size, and durable advantage beyond an algorithm while preserving the limits of the source's ten-times heuristic, paid-marketing preference, venture-scale assumptions, and lack of predictive outcome data. Opened all three local images and omitted them as decorative duplicate variants of the same question-mark illustration; no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | CES 2018: Real Advances, Real Progress, Real Questions
+
+Added Steven Sinofsky's CES 2018 show-floor report on cumulative consumer-technology progress, voice control, endpoint complexity, smart-home strategy, displays, appliances, mobility, charging, robotics, and health products. Created [[Samsung]] and [[LG]]; updated [[StevenSinofsky]], [[ConsumerElectronicsIntegration]], [[SmartHomeInteroperability]], [[VoiceAssistantUX]], and [[LongNoseInnovation]] from their complete ordered source inventories. The synthesis preserves the report's one-observer, prototype-heavy, period-specific scope and distinguishes reliable bounded commands and useful component advances from universal-assistant expectations and short-lived software embedded in decade-long products. Opened all 85 referenced local images, including sampled frames from every GIF; retained six evidentiary demonstrations with readable filenames and canonical semantic placement, while omitting the duplicate hero, crowd and booth photos, tiny prose-redundant product thumbnails, and other decorative or low-information images.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | CS183C Session 11: Patrick Collison, Stripe
+
+Added Patrick Collison's 2015 CS183C account of Stripe's origin, early Y Combinator distribution, patient recruiting, engineering-led product work, organization choices, marketplace-payment expansion, API compatibility, and written communication at scale. Created [[JohnCollison]] and [[APIBackwardCompatibility]]; updated [[PatrickCollison]], [[Stripe]], [[StartupHiringAtScale]], [[ScalingCommunication]], and [[CoFounderFit]] from their complete ordered source inventories. The synthesis distinguishes early product pull from a finished business and qualifies founder-reported hiring multipliers, long work trials, founder-network selection, a universal 150-person communication threshold, and unsupported founder-tenure correlation. The source Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-25] ingest | CTO vs VP Engineering: What's the Difference?
+
+Added Ivy Exec's role-boundary model separating CTO ownership of technical edge, exploration, intellectual property, external representation, and due diligence from VP Engineering ownership of people, programs, roadmaps, cross-functional execution, and budgets. Created [[IvyExec]] and [[TechnicalLeadershipRoleDesign]], and updated [[StartupCTORoleEvolution]] from its complete ordered source inventory. Preserved the article's 15–20-company-employee and 10/100-technical-staff thresholds as dated practitioner heuristics rather than universal breakpoints, and noted the absence of comparative organizational outcomes. Inspected both referenced images: omitted the local circuit-board photograph as decorative and retained a mirrored copy of the otherwise inaccessible role-comparison graphic with a readable filename and canonical semantic placement.
+
+## [2026-09-25] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Christensen Institute - Jobs to Be Done Theory
+
+Added the Christensen Institute's introduction to Jobs to Be Done as a circumstance- and progress-centered lens on decisions. Created [[ChristensenInstitute]] and [[JobsToBeDone]], and updated [[CustomerLedProductDevelopment]] from its complete ordered source inventory with functional, social, and emotional dimensions, changing jobs, and decision-story research. The synthesis preserves the source's limits as an institution-authored overview without a replicable interview protocol, comparative evaluation, or measured outcomes. The source Markdown contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-26] ingest | Cisco Catalyst SD-WAN Control Components Certificates and Authorized Serial Number File Prescriptive Deployment Guide
+
+Added Cisco's prescriptive control-plane certificate and authorized-device-list guide. Created [[CiscoCatalystSDWAN]], [[CertificateBasedDeviceIdentity]], and [[AuthorizedDeviceLists]]; updated [[Cisco]] from its complete ordered source inventory. The synthesis separates certificate identity from inventory-based authorization, covers automated and manual Cisco PKI plus enterprise-CA workflows, and preserves version, vendor-authorship, centralized-inventory, and incomplete security-evaluation limits. Opened and retained all 11 referenced local diagrams with readable filenames and canonical semantic placement because each contributes architecture, trust, workflow, authorization, or topology evidence.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Confessions of a $20K bootcamp graduate. (Hack Reactor)
+
+Added a pseudonymous graduate's 2016 critique of Hack Reactor's compressed JavaScript curriculum, recent-graduate instructional support, technical-versus-project phase split, US$19,780 tuition, and placement-rate framing. Created [[HackReactor]] and [[CodingBootcampEducation]], using the source to establish an evaluation framework across teaching depth, mentor expertise, curriculum breadth, project and career services, cost, student selection, and outcome transparency. Preserved the account as one unverified historical perspective rather than a current institutional audit or general verdict on bootcamps. Opened both distinct local image files and omitted them as duplicate versions of the same generic classroom photograph, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Closing the Book on Gawker.com
+
+Added Josh Laurito's quantitative retrospective of Gawker at the end of its original operations. Created [[Gawker]], [[Kinja]], and [[JoshLaurito]]; updated [[PlatformDistributionDependence]] with the association between declining direct traffic and lower publishing frequency, and updated [[ForumCommunityDesign]] with publication comments and recommendations as a community product layer. Preserved the source's historical analytics, tagging, Cityfile-acquisition, causal, and missing-table limitations. Inspected the sole embedded image and omitted it as a decorative Gawker logo, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Cloudflare outage on February 20, 2026
+
+Added Cloudflare's first-party postmortem of a six-hour-seven-minute BYOIP outage caused by an ambiguous empty-valued cleanup query and incomplete autonomous-task testing. Updated [[Cloudflare]], [[ChangeSafety]], and [[DeploymentAutomation]] from their complete ordered source inventories with authoritative-configuration propagation, typed API semantics, health-mediated snapshots, rate and breadth circuit breakers, configured-versus-operational-state separation, and dependent-state recovery. Preserved the distinction between the one.one.one.one website's 403 errors and unaffected 1.1.1.1 DNS resolution, and qualified the remediation as proposed rather than completed. Opened both local images, omitted the decorative header illustration, and retained the advertised-prefix chart with a readable filename and canonical semantic placement because it shows the stepped fall and multi-stage recovery.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Column: They're leaving California for Las Vegas to find the middle-class life that eluded them - Los Angeles Times
+
+Added Steve Lopez's 2017 account of Californians moving to Las Vegas because lower housing and commuting costs could make similar earnings support savings, shorter commutes, larger homes, and homeownership. Created [[SteveLopez]], [[LasVegas]], and [[HousingCostDrivenMigration]], and updated [[EmployeeFinancialPrecarity]] from its complete ordered source inventory to distinguish household-level geographic relief from a structural solution to origin-region affordability. Preserved the column's anecdotal, selected, period-specific, and opinionated scope, including its lack of controlled wage, tax, service, moving-cost, and later-price comparisons. Opened the sole local image and omitted it as a decorative Las Vegas Strip photograph, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint; the report was printed to the session and was not saved. Structural and graph-aware checks completed, but semantic checks were unavailable because the configured LiteLLM model lacks a provider-qualified name and required API setup.
+
+## [2026-09-26] ingest | Common Rules For Uncommon People
+
+Added Noah Jessop's practical founder-sales guide from warm introductions through meeting control, follow-up, qualification, persistence, and closing. Created [[NoahJessop]]; updated [[FounderLedSales]], [[FounderNetworkBuilding]], and [[StartupVisionSelling]] from their complete ordered source inventories with purchase timing relative to runway, concrete next-step control, double opt-in introduction etiquette, and the balance between product substance and customer-facing possibility. Preserved the source's limits as an unmeasured practitioner essay and qualified its unconventional persistence tactics by consent, setting, and intrusiveness risk. Inspected the generic lead checklist photograph and omitted it as decorative; the final blank-alt subscription-widget image returned HTTP 404 and could not be inspected, but its placement and URL indicate non-article promotional media, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Communication Multitasking: You Only Get 1h 12min/day Without Email
+
+Added RescueTime's 2018 analysis of communication multitasking from nearly 50,000 anonymized users. Created [[RescueTime]] and [[CommunicationMultitasking]], and updated [[AttentionManagement]] from its complete ordered source inventory with reported communication overlap, communication-free focus time, resumption costs, self-interruption, and batching. Preserved the figures as source-scoped observational findings because the article omits sampling and measurement details and a reader disputes its average-versus-median language. Inspected the local phone-and-laptop stock photograph and omitted it as decorative; the two remote image references are 1x1 lazy-load placeholders, so no visual assets or manifest were created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Competing with BigCo: 2018 Edition
+
+Added Steven Sinofsky's late-2017 framework for competing with mature technology companies: strong product-market fit concentrates incumbents on endpoint quantity, price, bundle breadth, and margin while leaving conditional openings in seams, weak peripheral modules, and new abstractions. Created [[EnterpriseBundleCompetition]] and updated [[StevenSinofsky]], [[CorporateGiantFragility]], and [[AcquisitionStrategy]] from their complete ordered source inventories. Preserved the article's period-specific company profiles and qualified its disruption and acquisition claims as selected practitioner examples rather than comparative outcome evidence. Opened all three effective local image references and omitted them as duplicate decorative versions of the same Star Trek ship-versus-Borg illustration, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Competition Does Not Matter
+
+Added a founder-advice essay arguing that self-funded SaaS builders should not reject markets merely because competitors exist. Created [[CrowdedMarketEntry]] by combining the new source with the wiki's earlier creator-market evidence: visible competition can indicate educated demand and customer dissatisfaction, but does not prove attractive acquisition costs, switching conditions, network effects, margins, or distribution. Updated [[DifferentiationStrategy]] from its complete ordered source inventory with preference-based niches and the need for a legible segment, marketing angle, and distinct offer. Preserved the essay's winner-selection and measurement limits, including its unsupported three-year persistence claim and unverified publication date. Inspected the sole local image and omitted the generic arm-wrestling photograph as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Conceptual Debt is Worse than Technical Debt
+
+Added Nicolae Rusan's distinction between implementation-focused technical debt and user-visible conceptual debt created by flawed core objects, actions, and rules. Created [[NicolaeRusan]] and [[ConceptualDebt]]; updated [[MentalModels]] and [[CognitiveOverheadInProductDesign]] from their complete ordered source inventories with product-specific user models, redundant abstractions, exception-heavy rules, and established-user switching costs. Qualified the claim that conceptual debt is categorically worse than technical debt, preserved the captured publication-date discrepancy, and treated familiar models as conditional on fit and observed comprehension. Inspected the sole effective local image and omitted its duplicated subscription prompt as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Confessions Of A VC: Crap - Why I Passed On Uber's Seed Round
+
+Added John Greathouse's retrospective on declining to hear Uber's seed pitch despite repeated trusted referrals and later rejecting its Series A. Created [[JohnGreathouse]] and [[MarketplaceColdStart]]; updated [[Uber]] and [[VentureCapitalBlindSpots]] from their complete ordered source inventories with direct-diligence failure, a concentrated San Francisco town-car wedge, taxi-market expansion, and consumer-backed regulatory pressure. Preserved Greathouse's distinction between taking a meeting and lowering the investment bar, and qualified the famous-winner hindsight with missing launch data and the wiki's [[SubsidizedUnitEconomics]] evidence. The two identical remote image references returned HTTP 404; the source labels the image as an Uber logo, but it could not be independently inspected, so no asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Confessions of a Startup Mole in a Dumb Big Company
+
+Added Saumil Mehta's first-person comparison of a decade in startups with more than two years at Square. Created [[SaumilMehta]] and [[OrganizationalScaleTradeoffs]]; updated [[Square]], [[JackDorsey]], [[CorporateGiantFragility]], and [[StartupExecutionSpeed]] from their complete ordered source inventories with evidence on executive access, specialization, strategic and customer constraints, dependency load, and abundance-driven waste. Preserved the essay's personal, single-company, unmeasured scope and its warning that an incumbent aligned in full remains dangerous. Opened all three unique local images; omitted the repeated Square/Uber photograph and two low-resolution thumbnails as decorative or duplicative because their substantive comparisons are fully stated in the prose, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Configuration Management is an Antipattern
+
+Added Jonah Horowitz's practitioner argument that configuration management was a major improvement over manual server administration but becomes a weak application-release boundary when repository ownership, broad change authority, asynchronous convergence, and partial fleet failures are hard to control. Created [[JonahHorowitz]], [[ConfigurationManagement]], and [[ImmutableInfrastructure]]; updated [[InfrastructureAsCode]], [[DeploymentAutomation]], and [[Netflix]] with the distinction between in-place convergence and build-and-replace delivery, plus base-image construction, canaries, rolling replacement, blue/green activation, fast startup, regional promotion, and persistent-state boundaries. Preserved the source's categorical framing as a qualification: it is an experience report rather than a controlled comparison, retains bounded configuration-management uses, and does not make runtime configuration, data, secrets, external effects, or mixed-version compatibility immutable. Opened all eight unique local slides, retained each evidence-bearing slide once with descriptive filenames and canonical references, and deduplicated the repeated manual-release slide.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Confronting imposter syndrome as a startup founder
+
+Added Josh Pigford's first-person account of founder imposter syndrome at Baremetrics. Created [[JoshPigford]] and [[ImposterSyndrome]]; updated [[Baremetrics]], [[SoloFounding]], [[FounderSuccessDefinition]], and [[BurnoutPrevention]] from their complete ordered source inventories with growth-amplified pressure, filtered customer feedback, peer support, perspective outside startup culture, direct customer contact, emotional acknowledgment, and the need for a personal definition of “made it.” Preserved the essay's practitioner scope and distinguished imposter feelings from burnout, clinical distress, and structurally excessive workload. Inspected the sole local image and omitted the abstract hero artwork as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Consensus vs. Collaboration
+
+Added SVPG's distinction between inclusive collaboration and consensus-based approval. Updated [[WorkplaceCollaboration]], [[ProductManagement]], [[CrossFunctionalProductTeams]], [[SmallProductTeamBalance]], and [[SiliconValleyProductGroup]] from their complete ordered source inventories with broad input, being heard without veto power, explicit domain authority, accountable cross-domain product calls, and the risk that routine executive escalation weakens ownership. Preserved the essay's practitioner scope and qualified product-manager final authority where safety, legal, regulatory, security, accessibility, or technical constraints assign binding decisions elsewhere. The source contains no image references, so no visual assets or manifest were required.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Consumer Packaged Goods are ripe for disruption
+
+Added Lightspeed Venture Partners' 2018 CPG disruption thesis. Created [[Brandable]]; updated [[LightspeedVenturePartners]], [[MicroBrandCommerce]], [[CorporateGiantFragility]], and [[StartupExecutionSpeed]] from their complete ordered source inventories with personalization, transparency, social endorsement, multi-channel distribution, measurable acquisition, customer distance, M&A dependence, and the source's anecdotal 12-24-month versus under-12-week launch comparison. Preserved the investor and portfolio-company perspective and the absence of comparative launch, retention, profitability, market-share, or acquisition-outcome data. Opened both unique local image files, retained the full incumbent-brand montage once with a canonical asset and manifest entry, and omitted the 60-by-33-pixel duplicate thumbnail.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Consumer startups are dead. Long live consumer startups.
+
+Added a 2018 investor thesis that the early smartphone era produced an unusually strong 2009-2012 consumer-startup cohort before mobile growth increasingly reinforced established leaders through network effects, distribution, capital, talent, and platform control. Created [[ConsumerStartupCompetition]] to preserve both sides of the argument: incumbent advantage intensified, but multi-homing, occasional app-store breakouts, and cheaper product-development infrastructure left conditional openings for entrants. Qualified the article's unicorn counts, valuations, App Store rankings, and company metrics as period-specific proxies with cohort right-censoring and no failure base rate. Inspected the sole effective local image and retained its evidence-bearing consumer-unicorn founding-year chart under a descriptive canonical filename with a manifest entry.
+
+## [2026-09-26] ingest | Consumers Are Becoming Wise to Your Nudge
+
+Added Simon Shaw's report of a February 2019 Trinity McQueen experiment with a nationally representative sample of 2,102 British adults. Created [[SimonShaw]], [[TrinityMcQueen]], and [[PsychologicalReactance]]; updated [[SocialProof]] from its complete ordered source inventory with evidence that familiar hotel-booking scarcity and popularity prompts can be read as pressure, reduce trust, and attract little belief. Preserved the narrow study scope: a hypothetical British hotel-booking scenario, bundled tactics, stated responses, and no full public methods or observed purchase behavior. Inspected the sole local image and omitted the generic watercolor web/mobile wireframe as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Content Marketing Strategy for Multi-Product Companies
+
+Added a practitioner framework for organizing multi-product content as a product-or-audience by funnel-depth matrix. Created [[MultiProductContentStrategy]] and [[Clearbit]]; updated [[ContentLedAcquisition]], [[Zendesk]], and [[Airtable]] from their complete ordered source inventories with offer anchoring, business-model-sensitive segmentation, full-funnel coverage, and tagged gap audits. Preserved the framework's limits: coverage need not be even, posts can cross audiences or stages, and the source provides no comparative performance evidence. The sole effective remote title image returned HTTP 404, and the diagrams mentioned in the prose are absent from the supplied Markdown, so no visual assets or manifest were created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] report | LiveRamp and Psychological Safety backfill
+
+Created [[LiveRamp]] from Auren Hoffman's 2019 DaaS article as a historical, source-bounded entity profile. Created [[PsychologicalSafety]] from the architecture-governance, product-management, and junior-developer source notes as a qualified cross-source concept, distinguishing the Wiki's label from the architecture author's own wording. Resolved the three existing links without changing their referring pages.

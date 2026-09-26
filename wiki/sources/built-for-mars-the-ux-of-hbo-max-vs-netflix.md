@@ -2,7 +2,7 @@
 title: "The user experience of HBO Max (vs Netflix)"
 type: source
 tags: [ux, streaming, case-study]
-date: 2026-02-27
+date: 2022-09-05
 source_file: /mnt/ken_personal_wiki/Articles/Built for Mars - The UX of HBO Max vs Netflix.md
 ---
 

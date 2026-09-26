@@ -2,7 +2,7 @@
 title: "Work-Life Balance Is About Years, Not Days"
 type: source
 tags: [work-life-balance, career, creativity, life-stages]
-date: 2017-02-15
+date: 2017-02-13
 source_file: "/mnt/ken_personal_wiki/Articles/Work-Life Balance Is About Years, Not Days - Thrive Global - Medium.md"
 ---
 

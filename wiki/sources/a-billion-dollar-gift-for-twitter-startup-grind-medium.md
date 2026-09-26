@@ -2,7 +2,7 @@
 title: "A billion dollar gift for Twitter"
 type: source
 tags: [twitter, product-strategy, platform-governance, developer-platforms]
-date: 2017-06-25
+date: 2016-12-30
 source_file: /mnt/ken_personal_wiki/Articles/A billion dollar gift for Twitter - Startup Grind - Medium.md
 ---
 

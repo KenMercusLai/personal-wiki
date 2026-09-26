@@ -2,7 +2,7 @@
 title: "All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding"
 type: source
 tags: [startups, transportation, venture-capital, marketplaces]
-date: 2018-06-29
+date: 2018-06-28
 source_file: "/mnt/ken_personal_wiki/Articles/All The Questions You Wanted Answered about Bird Scooters and Their Recent $300 Million Funding.md"
 ---
 

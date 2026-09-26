@@ -2,7 +2,7 @@
 title: "A small-screen iPod, an Internet Communicator and a Phone"
 type: source
 tags: [apple, apple-watch, wearables, mobile, product-strategy]
-date: 2017-09-24
+date: 2017-09-25
 source_file: /mnt/ken_personal_wiki/Articles/A small-screen iPod, an Internet Communicator and a Phone - Asymco.md
 ---
 

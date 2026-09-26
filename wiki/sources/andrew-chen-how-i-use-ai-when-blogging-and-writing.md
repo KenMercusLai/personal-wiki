@@ -2,7 +2,7 @@
 title: "How I use AI when blogging and writing"
 type: source
 tags: [ai, writing, blogging, workflow]
-date: 2023-08-01
+date: 2023-08-23
 source_file: "/mnt/ken_personal_wiki/Articles/Andrew Chen - How I use AI when blogging and writing.md"
 ---
 

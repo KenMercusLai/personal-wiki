@@ -2,7 +2,7 @@
 title: "Become a Better Coder by Keeping a Programming Journal"
 type: source
 tags: [programming, journaling, learning, productivity]
-date: 2026-04-04
+date: 2016-10-21
 source_file: "/mnt/ken_personal_wiki/Articles/Become a Better Coder by Keeping a Programming Journal.md"
 ---
 

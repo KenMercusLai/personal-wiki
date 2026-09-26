@@ -2,7 +2,7 @@
 title: "Building Effective AI Agents"
 type: source
 tags: [ai, agents, llm, software-engineering]
-date: 2026-01-14
+date: 2024-12-19
 source_file: /mnt/ken_personal_wiki/Articles/Blog - Anthropic - Building Effective AI Agents.md
 ---
 

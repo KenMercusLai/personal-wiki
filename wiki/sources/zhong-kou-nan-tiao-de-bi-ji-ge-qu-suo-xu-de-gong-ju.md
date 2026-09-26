@@ -2,7 +2,7 @@
 title: "众口难调的笔记，各取所需的工具"
 type: source
 tags: [note-taking, pkm, zettelkasten, tools]
-date: 2026-03-17
+date: 2022-12-01
 source_file: /mnt/ken_personal_wiki/Articles/众口难调的笔记，各取所需的工具.md
 ---
 

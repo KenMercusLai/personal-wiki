@@ -2,7 +2,7 @@
 title: "为什么，以及如何处理孤儿笔记"
 type: source
 tags: [note-taking, pkm, zettelkasten]
-date: 2026-03-17
+date: 2022-11-23
 source_file: /mnt/ken_personal_wiki/Articles/为什么，以及如何处理孤儿笔记.md
 ---
 

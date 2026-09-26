@@ -2,7 +2,7 @@
 title: "52 Things I Learned in 2017"
 type: source
 tags: [technology, trivia, cross-domain, learning]
-date: 2017-12-04
+date: 2017-12-01
 source_file: "/mnt/ken_personal_wiki/Articles/52 things I learned in 2017 - Fluxx Studio Notes - Medium.md"
 ---
 

@@ -243,8 +243,25 @@
         "BehavioralRiskJudgment",
         "ShanWeijian"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "gawker-retrospective-is-media-history-spillover",
+      "qualifications": [
+        "The paragraph is a digital-publishing operating retrospective routed here because it is historical; it adds no substantive geopolitical claim.",
+        "Its counts are first-party estimates affected by pre-modern analytics, acquired Cityfile material, tagging errors, and missing detailed tables."
+      ],
+      "statement": "[[Gawker]], [[JoshLaurito]], and [[Kinja]] add a source-scoped 2016 digital-media history snapshot in which publishing, traffic, contributor, and comment totals document the end of original operations while [[PlatformDistributionDependence]] and [[ForumCommunityDesign]] carry the substantive business and community findings.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Gawker",
+        "JoshLaurito",
+        "Kinja",
+        "PlatformDistributionDependence",
+        "ForumCommunityDesign"
+      ]
     }
   ],
-  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.",
+  "summary": "The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]] paragraph is a 2016 media-history spillover whose substantive findings belong to business and community design; the [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence.",
   "topic_id": "history-and-geopolitics"
 }

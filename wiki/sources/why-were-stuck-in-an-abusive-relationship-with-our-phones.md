@@ -2,7 +2,7 @@
 title: "Why We're Stuck In An Abusive Relationship With Our Phones"
 type: source
 tags: [attention, notifications, smartphone-addiction, product-design]
-date: 2015-12-15
+date: 2015-12-16
 source_file: "/mnt/ken_personal_wiki/Articles/Why We're Stuck In An Abusive Relationship With Our Phones.md"
 ---
 

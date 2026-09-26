@@ -2,7 +2,7 @@
 title: "用研报告中的信息设计要素 | 螺莉莉的数据中心"
 type: source
 tags: [ux-research, information-design, research-methods]
-date: 2026-03-18
+date: 2026-03-19
 source_file: /mnt/ken_personal_wiki/Articles/用研报告中的信息设计要素 螺莉莉的数据中心.md
 ---
 

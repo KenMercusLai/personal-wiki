@@ -2,7 +2,7 @@
 title: "Active vs Passive Investing"
 type: source
 tags: [investing, venture-capital]
-date: 2026-03-25
+date: 2016-07-17
 source_file: /mnt/ken_personal_wiki/Articles/Active vs Passive Investing – AVC.md
 ---
 

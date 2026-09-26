@@ -2,7 +2,7 @@
 title: "Cancer on Nautilus: Getting Googled By Your Doctor Is the New Normal"
 type: source
 tags: [healthcare, privacy, social-media, medical-ethics]
-date: 2026-04-05
+date: 2017-06-22
 source_file: "/mnt/ken_personal_wiki/Articles/Cancer on Nautilus- Getting Googled By Your Doctor Is the New Normal.md"
 ---
 

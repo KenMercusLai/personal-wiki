@@ -2,7 +2,7 @@
 title: "褪墨 - 提高工作效率的十条好习惯"
 type: source
 tags: [archive, productivity, habits]
-date: 2026-09-11
+date: 2014-07-31
 source_file: /mnt/ken_personal_wiki/Articles/褪墨 - 提高工作效率的十条好习惯.md
 ---
 

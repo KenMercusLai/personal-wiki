@@ -2,7 +2,7 @@
 title: "Automated Testing for League of Legends"
 type: source
 tags: [testing, automation, game-development]
-date: 2026-03-30
+date: 2016-02-26
 source_file: /mnt/ken_personal_wiki/Articles/Automated Testing for League of Legends - Riot Games Technology.md
 ---
 

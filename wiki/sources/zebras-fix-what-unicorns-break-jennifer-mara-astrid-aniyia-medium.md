@@ -2,7 +2,7 @@
 title: "Zebras Fix What Unicorns Break"
 type: source
 tags: [startups, venture-capital, social-enterprise, ethics]
-date: 2017-03-09
+date: 2017-03-08
 source_file: /mnt/ken_personal_wiki/Articles/Zebras Fix What Unicorns Break - Jennifer, Mara, Astrid - Aniyia - Medium.md
 ---
 

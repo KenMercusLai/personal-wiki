@@ -2,7 +2,7 @@
 title: "A Note from Juicero's New CEO"
 type: source
 tags: [startup, hardware, public-relations, food]
-date: 2017-04-21
+date: 2017-04-20
 source_file: /mnt/ken_personal_wiki/Articles/A Note from Juicero’s New CEO - Juicero - Medium.md
 ---
 

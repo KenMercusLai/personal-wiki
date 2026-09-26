@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "blog-martinfowler-com-building-infrastructure-platforms",
+  "images": [
+    {
+      "file": "event-storming-delivery-timeline.png",
+      "alt": "Event Storming timeline from project start through live production"
+    },
+    {
+      "file": "event-storming-pain-points.png",
+      "alt": "Event Storming timeline with infrastructure delivery pain points overlaid"
+    },
+    {
+      "file": "complex-platform-onboarding-journey.png",
+      "alt": "Complex developer onboarding journey with handoffs and loops"
+    },
+    {
+      "file": "self-service-platform-onboarding.png",
+      "alt": "Ideal three-step self-service developer onboarding journey"
+    },
+    {
+      "file": "realistic-platform-onboarding-journey.png",
+      "alt": "Realistic developer onboarding journey involving platform-team work"
+    }
+  ]
+}

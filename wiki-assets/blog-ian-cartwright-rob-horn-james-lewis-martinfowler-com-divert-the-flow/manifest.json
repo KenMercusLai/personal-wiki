@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-divert-the-flow",
+  "images": [
+    {
+      "file": "reporting-critical-aggregator.png",
+      "alt": "Legacy reporting aggregator coupled to systems A through E, with warehouse and till data flowing through intermediate legacy systems"
+    },
+    {
+      "file": "extracted-critical-aggregator.png",
+      "alt": "New reporting aggregator outside the legacy boundary, fed by stock and sales repositories while legacy reporting dependencies are phased out"
+    }
+  ]
+}

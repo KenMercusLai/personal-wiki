@@ -2,7 +2,7 @@
 title: "Serverless应用开发小记"
 type: source
 tags: [serverless, aws, terraform, docker, cloud-cost]
-date: 2026-02-27
+date: 2020-08-30
 source_file: "/mnt/ken_personal_wiki/Articles/bmpi - Serverless应用开发小记.md"
 ---
 

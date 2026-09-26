@@ -2,7 +2,7 @@
 title: "Build as Much as You Can"
 type: source
 tags: []
-date: 2026-04-04
+date: 2017-03-23
 source_file: "/mnt/ken_personal_wiki/Articles/Build as Much as You Can - 8th Light.md"
 ---
 

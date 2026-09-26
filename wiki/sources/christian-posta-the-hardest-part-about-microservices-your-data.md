@@ -2,7 +2,7 @@
 title: "The Hardest Part About Microservices: Your Data"
 type: source
 tags: [microservices, data, domain-driven-design, distributed-systems]
-date: 2026-03-02
+date: 2016-07-15
 source_file: /mnt/ken_personal_wiki/Articles/Christian Posta - The Hardest Part About Microservices Your Data.md
 ---
 

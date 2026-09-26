@@ -2,7 +2,7 @@
 title: "如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验"
 type: source
 tags: [writing, tutorial, knowledge-management, creativity]
-date: 2026-03-17
+date: 2022-11-28
 source_file: /mnt/ken_personal_wiki/Articles/如何写得干货满满又通俗易懂？从一篇文章分享我的创作经验 机核 GCORES.md
 ---
 

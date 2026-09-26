@@ -2,7 +2,7 @@
 title: "2023: Focusing on a Single Product Pays Off"
 type: source
 tags: [indie-hacker, bootstrapping, saas, product-focus, year-review]
-date: 2023-12-31
+date: 2023-12-23
 source_file: "/mnt/ken_personal_wiki/Articles/2023 Focusing on a single product pays off.md"
 ---
 

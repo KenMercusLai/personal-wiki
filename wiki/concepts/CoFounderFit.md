@@ -5,6 +5,7 @@ tags: [startup, co-founders, leadership, team-design]
 sources:
   - a-guide-to-co-founder-fit-fundersclub
   - being-a-solo-founder-pros-cons-tips-tricks-baremetrics
+  - cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium
 last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
@@ -13,7 +14,7 @@ knowledge_schema: synthesis-v1
 [[CoFounderFit]] is the evolving compatibility of a startup's founders across trust, values, capabilities, roles, ambition, economics, communication, and mutual support.
 
 ## Current Synthesis
-Co-founder fit is better treated as an evidence-gathering and maintenance problem than as a personality match. Prior friendship can reveal behavior under pressure, but the more decision-relevant signals are whether founders respect one another's competence, can complete joint work, accept complementary responsibilities, and share enough values to make disagreement productive. A team can contain very different skills without being compatible, while apparently similar founders can create duplicate authority and strategic blind spots.
+Co-founder fit is better treated as an evidence-gathering and maintenance problem than as a personality match. Prior friendship or family history can reveal behavior under pressure: the Collison brothers supply a source-scoped case where about two decades of resolving problems together preceded Stripe. The more decision-relevant signals remain whether founders respect one another's competence, can complete joint work, accept complementary responsibilities, and share enough values to make disagreement productive. A team can contain very different skills without being compatible, while apparently similar founders can create duplicate authority and strategic blind spots.
 
 The guide divides fit into choices made before commitment and practices sustained afterward. Before commitment, founders can build or test something together, inspect actual deliverables, bring in a trusted domain expert when they cannot evaluate a candidate themselves, and agree on an early separation mechanism. After commitment, they need explicit decision domains, recurring conversations about mission and risk, an equity arrangement each person can live with, vesting, private space for candor, and a norm of not undermining one another publicly.
 
@@ -38,15 +39,14 @@ Fit is therefore dynamic. Definitions of success, failure, acceptable spending, 
 - Descriptive team-size context: [[a-guide-to-co-founder-fit-fundersclub]] reports that 51% of 177 FundersClub portfolio companies with founder data had two founders, but offers no outcome comparison by team size.
 - Solo outside option: [[being-a-solo-founder-pros-cons-tips-tricks-baremetrics]] prefers having a suitable co-founder but argues that internal feuding and directional disagreement can make a poor match worse than founding alone.
 - Trial and hierarchy advice: [[being-a-solo-founder-pros-cons-tips-tricks-baremetrics]] recommends a test project and clear final authority before commitment, reinforcing observed joint work while offering a more CEO-centered authority model than the FundersClub guide.
+- Long relationship case: [[cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium]] says [[PatrickCollison]] and [[JohnCollison]] had about twenty years of learning to resolve problems together before and during Stripe's formation.
 
 ## Counterevidence & Qualifications
-Both sources are practitioner guidance built mainly from founder anecdotes, selected company examples, and normative advice. Neither compares matched teams or quantifies whether its practices improve survival, and FundersClub's portfolio distribution does not show that the most common founder count is optimal. Its reported claim that management-team instability causes 65% of startup failures lacks a study definition and traceable evidence in the supplied document. The Baremetrics rule against adding a co-founder after formation is categorical and unsupported; late entry creates real priority, authority, and equity risks, but timing alone does not establish poor fit. Deep prior relationships can preserve unhealthy assumptions, public solidarity must not become concealment of misconduct, and an early exit clause or vesting schedule cannot repair coercion, discrimination, or a fundamentally unfair agreement.
+The sources are practitioner guidance built mainly from founder anecdotes, selected company examples, and normative advice. None compares matched teams or quantifies whether its practices improve survival, and FundersClub's portfolio distribution does not show that the most common founder count is optimal. Collison describes an inverse correlation between how long founders knew one another and splitting up, but supplies no dataset or controls; sibling history may also create assumptions, role lock-in, or conflict that duration alone cannot reveal. FundersClub's reported claim that management-team instability causes 65% of startup failures likewise lacks a study definition and traceable evidence. The Baremetrics rule against adding a co-founder after formation is categorical and unsupported; timing alone does not establish poor fit. Public solidarity must not become concealment of misconduct, and an early exit clause or vesting schedule cannot repair coercion, discrimination, or a fundamentally unfair agreement.
 
 ## What Changed
-- Created the concept as an integrated model of founder selection, alignment, operating boundaries, economics, and relationship maintenance.
-- Distinguished complementary capability from compatibility in values and conflict norms.
-- Framed founder fit as dynamic and periodically re-evaluated rather than fixed at company formation.
-- Added solo founding as the relevant outside option and qualified the claim that co-founder timing alone determines fit.
+- Added the Collison brothers as a case where a long shared history supplied conflict-resolution practice.
+- Qualified founder-tenure correlation as an unsupported observational claim rather than a selection rule.
 
 ## Related Concepts
 - [[CoFounderConflict]] - unresolved mistrust, role ambiguity, and public undermining are symptoms of deteriorating fit.

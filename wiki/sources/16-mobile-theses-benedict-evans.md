@@ -2,7 +2,7 @@
 title: "16 mobile theses"
 type: source
 tags: [mobile, technology, platform, ecosystem, internet]
-date: 2015-12-15
+date: 2015-12-18
 source_file: /mnt/ken_personal_wiki/Articles/16 mobile theses — Benedict Evans.md
 ---
 

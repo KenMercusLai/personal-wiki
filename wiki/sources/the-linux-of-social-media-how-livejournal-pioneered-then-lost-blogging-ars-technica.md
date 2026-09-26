@@ -2,7 +2,7 @@
 title: "“The Linux of social media”—How LiveJournal pioneered (then lost) blogging"
 type: source
 tags: [livejournal, social-media, blogging, platform-governance, internet-history]
-date: 2019-01-03
+date: 2019-01-22
 source_file: "/mnt/ken_personal_wiki/Articles/“The Linux of social media”—How LiveJournal pioneered (then lost) blogging - Ars Technica.md"
 ---
 

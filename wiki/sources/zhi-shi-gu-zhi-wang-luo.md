@@ -2,7 +2,7 @@
 title: "知识估值网络"
 type: source
 tags: [learning, neuroscience, education, supermemo]
-date: 2026-03-19
+date: 2023-04-05
 source_file: /mnt/ken_personal_wiki/Articles/知识估值网络.md
 ---
 

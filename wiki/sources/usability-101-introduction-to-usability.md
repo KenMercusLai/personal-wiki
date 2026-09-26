@@ -2,7 +2,7 @@
 title: "Usability 101: Introduction to Usability"
 type: source
 tags: [usability, ux, design, user-research]
-date: 2026-04-03
+date: 2012-01-03
 source_file: "/mnt/ken_personal_wiki/Articles/Usability 101- Introduction to Usability.md"
 ---
 

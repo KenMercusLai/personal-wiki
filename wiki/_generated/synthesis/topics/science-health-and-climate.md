@@ -3,16 +3,16 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-25
-as_of_overview_commit: bab51cf0f126f41faaa0a68d3bc48ac11303a9a9
-input_digest: b5b61d7dfda3e113b634745a9ecbafab4aa0da0cfe2c89e52504272396c994cb
+last_updated: 2026-09-26
+as_of_overview_commit: f7d3331bfbfe63f171d8b5b98bda14c4c79e7426
+input_digest: faf5df10d4588f5e149d4dbe33d728e2be4aa9bc4101c74566ea8613b977d1dd
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; a misrouted distributed-systems case about ecommerce inventory correctness; and a workplace-perk argument that raises but does not measure wellbeing effects. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.
+This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; a misrouted distributed-systems case about ecommerce inventory correctness; a workplace-perk argument that raises but does not measure wellbeing effects; and a Gawker media-metrics paragraph that adds no science, health, or climate finding. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
 
@@ -99,3 +99,14 @@ The language-model source reaches this topic through scientific framing rather t
 
 - This is a company-authored workplace-design argument, not health research, and the deterministic topic assignment is indirect.
 - The 17-person company case reports no comparative wellbeing, productivity, inclusion, utilization, or employee-outcome data.
+
+### Gawker Metrics Are Media Spillover
+
+[[Gawker]], [[JoshLaurito]], and [[Kinja]] are digital-media evidence routed into this topic by generic historical and measurement language; their substantive claims concern [[PlatformDistributionDependence]] and [[ForumCommunityDesign]], not science, health, or climate.
+
+**Evidence:** [[Gawker]], [[JoshLaurito]], [[Kinja]], [[PlatformDistributionDependence]], [[ForumCommunityDesign]]
+
+**Qualifications:**
+
+- The deterministic router assigned a digital-publishing paragraph to this topic indirectly; it provides no science, health, or climate finding.
+- The Gawker figures are historical first-party operational estimates rather than a scientific dataset or evaluation of community health.

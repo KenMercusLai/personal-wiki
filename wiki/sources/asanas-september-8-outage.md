@@ -2,7 +2,7 @@
 title: "Asana's September 8 Outage"
 type: source
 tags: [software-engineering, reliability, incident-response, outage]
-date: 2016-09-10
+date: 2016-09-09
 source_file: /mnt/ken_personal_wiki/Articles/Asana's September 8 outage.md
 ---
 

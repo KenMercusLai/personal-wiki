@@ -4,7 +4,8 @@ type: concept
 tags: [smart-home, interoperability, consumer-electronics]
 sources:
   - ces-2019-a-show-report-learning-by-shipping
-last_updated: 2026-09-15
+  - ces-2018-real-advances-real-progress-real-questions
+last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,9 +13,9 @@ knowledge_schema: synthesis-v1
 [[SmartHomeInteroperability]] is the ability of home devices, hubs, apps, standards, sensors, controls, and infrastructure products to work together as a reliable household system rather than as isolated first-party kits.
 
 ## Current Synthesis
-The CES 2019 smart-home section shows a market that had made genuine progress but remained fragmented at the system level. Security kits, cameras, appliances, lighting, locks, doorbells, water monitoring, HVAC, gas, package delivery, and mesh WiFi were all moving quickly. Yet the practical user still faced a patchwork of hubs, apps, protocols, cloud accounts, device categories, and uneven third-party integrations.
+The CES 2018 and 2019 smart-home sections show a market that had made genuine progress but remained fragmented at the system level. Security kits, cameras, appliances, lighting, locks, doorbells, water monitoring, HVAC, gas, package delivery, and mesh WiFi were all moving quickly. Basic on/off voice control was already reliable enough to be useful in bounded settings, and appliance makers were combining physical improvements with remote status and control. Yet the practical user still faced a patchwork of hubs, apps, protocols, cloud accounts, device categories, and uneven third-party integrations.
 
-The report's strongest smart-home lesson is that first-party completeness and ecosystem interoperability are different achievements. A vendor can offer a good lock, doorbell, alarm, light, or package workflow, while the household still needs multiple systems to cover real scenarios. Legacy physical constraints make this harder: doors vary, smoke alarms may have line voltage, lighting starts from existing fixtures, and home infrastructure has lifecycle expectations far longer than many connected-device companies are built to support.
+The reports' strongest smart-home lesson is that first-party completeness and ecosystem interoperability are different achievements. A vendor can offer a good lock, doorbell, alarm, light, appliance, or package workflow, while the household still needs multiple systems to cover real scenarios. The 2018 report adds a strategic tension: Samsung and LG wanted proprietary household hubs and suites while also supporting Alexa and Google Assistant, creating incentives to embed redundant microphones, screens, and runtimes. Legacy physical constraints make this harder: doors vary, smoke alarms may have line voltage, lighting starts from existing fixtures, appliances are replaced at different times, and home infrastructure has lifecycle expectations far longer than many connected-device companies are built to support.
 
 ## Key Claims
 - Smart-home security, monitoring, appliances, lighting, and infrastructure control became cheaper and easier by CES 2019.
@@ -25,16 +26,17 @@ The report's strongest smart-home lesson is that first-party completeness and ec
 
 ## Evidence
 - Market progress: [[ces-2019-a-show-report-learning-by-shipping]] lists perimeter security, cameras, appliances, lighting, and infrastructure monitoring as broadly controllable categories.
+- Useful bounded control: [[ces-2018-real-advances-real-progress-real-questions]] reports reliable voice operation of lights, drapes, alarms, and other basic hotel-room functions while describing richer programmed scenarios as immature.
 - First-party fragmentation: [[ces-2019-a-show-report-learning-by-shipping]] says alarm kits converge on basic hubs and sensors but then diverge or fill gaps through integrations.
-- Standards complexity: [[ces-2019-a-show-report-learning-by-shipping]] describes the smart-home space as a sea of radio standards, hubs, and apps.
+- Standards complexity: [[ces-2019-a-show-report-learning-by-shipping]] describes the smart-home space as a sea of radio standards, hubs, and apps; [[ces-2018-real-advances-real-progress-real-questions]] shows appliance vendors balancing proprietary assistants with Alexa and Google support.
 - Front-door integration: [[ces-2019-a-show-report-learning-by-shipping]] highlights locks, video doorbells, Ring, Amazon Key, Chamberlain garage-door support, and package boxes as linked entryway innovations.
-- Physical and lifecycle fit: [[ces-2019-a-show-report-learning-by-shipping]] notes that lock makers must handle real door variations and that water, HVAC, gas, and other infrastructure products face 10-20 year support expectations.
+- Physical and lifecycle fit: [[ces-2019-a-show-report-learning-by-shipping]] notes that lock makers must handle real door variations and that infrastructure products face 10-20 year support expectations; [[ces-2018-real-advances-real-progress-real-questions]] questions embedding rapidly aging screens, microphones, and software in appliances and plumbing.
 
 ## Counterevidence & Qualifications
-The report is deliberately show-floor and source-scoped, so it emphasizes visible product patterns rather than adoption data, standards roadmaps, or later ecosystem consolidation. It also acknowledges substantial progress, especially in home alarms and front-door products; the critique is not that smart homes were stalled, but that integration still lagged the promise.
+The reports are deliberately show-floor and source-scoped, so they emphasize visible product patterns rather than adoption data, standards roadmaps, or later ecosystem consolidation. They also acknowledge substantial progress in bounded control, appliance design, alarms, and front-door products; the critique is not that smart homes were stalled, but that integration and lifecycle design still lagged the promise.
 
 ## What Changed
-- Created the concept to capture smart-home progress and fragmentation as a reusable interoperability pattern.
+- Added CES 2018 evidence that reliable bounded control and physical appliance innovation can coexist with fragmented hubs and short-lived embedded software.
 
 ## Related Concepts
 - [[ConsumerElectronicsIntegration]] - smart homes are the report's deepest case of the broader connected-device integration problem.

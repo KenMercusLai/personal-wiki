@@ -2,7 +2,7 @@
 title: "AI winter is well on its way - Piekniewski's blog"
 type: source
 tags: [ai, deep-learning, autonomous-driving, skepticism]
-date: 2018-05-29
+date: 2018-05-28
 source_file: /mnt/ken_personal_wiki/Articles/AI winter is well on its way – Piekniewski's blog.md
 ---
 

@@ -2,7 +2,7 @@
 title: "常用端口利用总结"
 type: source
 tags: [security, penetration-testing, ports, cheatsheet]
-date: 2026-02-28
+date: 2019-11-18
 source_file: /mnt/ken_personal_wiki/Articles/常用端口利用总结 - Infvie's Blog.md
 ---
 

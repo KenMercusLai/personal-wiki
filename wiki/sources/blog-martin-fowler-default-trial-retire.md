@@ -2,7 +2,7 @@
 title: "Default Trial Retire"
 type: source
 tags: [technology-management, enterprise-architecture, governance]
-date: 2026-09-14
+date: 2021-11-10
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - Martin Fowler - Default Trial Retire.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "The Boring Technology Behind a One-Person Internet Company"
 type: source
 tags: [indie-hacker, architecture, startup, one-person-company, devops]
-date: 2026-09-17
+date: 2018-01-24
 source_file: "/mnt/ken_personal_wiki/Articles/Wenbin Fang - The Boring Technology Behind a One-Person Internet Company.md"
 ---
 

@@ -4,7 +4,8 @@ type: concept
 tags: [product-management, engineering, design, collaboration]
 sources:
   - 10x-ing-your-team-the-end-of-superstar-developer-culture
-last_updated: 2026-09-24
+  - consensus-vs-collaboration-silicon-valley-product-group
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,12 +17,15 @@ Thompson's three-role frame treats design, engineering, and product management a
 
 Division of labor does not require heavy bureaucracy. The source argues for the lightest process that still keeps roles functional and talking to one another. The central test is whether the team combines technical execution, product direction, and design understanding quickly enough to learn and deliver together.
 
+SVPG adds that communication alone is insufficient when roles disagree. The product manager, lead designer, and lead engineer should argue openly and seek agreement, but each retains authority in a domain. When a trade-off crosses those domains and agreement fails, an explicit final decision owner prevents collaboration from turning into consensus delay or senior-management escalation.
+
 ## Key Claims
 - Product teams need explicit ownership of design, engineering, and product-management work.
 - Role assignment is incomplete without a communication design connecting the roles.
 - Treating engineering as the only valuable function hides product-management work and deprives technical decisions of customer context.
 - Strong specialists who do not communicate can still create slow, inefficient product iteration.
 - Process should remain lightweight while preserving functional division of labor and shared direction.
+- Cross-functional participation should be broad, while explicit domain and final-call authority prevents every participant from acquiring veto power.
 
 ## Evidence
 - Three-role frame: [[10x-ing-your-team-the-end-of-superstar-developer-culture]] identifies design, engineering, and product management as the core product-team responsibilities.
@@ -29,12 +33,15 @@ Division of labor does not require heavy bureaucracy. The source argues for the 
 - Context failure: [[10x-ing-your-team-the-end-of-superstar-developer-culture]] describes engineers asked to make product decisions despite being kept away from customers and product meetings.
 - Direction metaphor: [[10x-ing-your-team-the-end-of-superstar-developer-culture]] compares excellent engineering with weak direction to a strong engine paired with a bad rudder.
 - Lightweight process: [[10x-ing-your-team-the-end-of-superstar-developer-culture]] recommends processes that are as light as possible while sustaining communication and division of labor.
+- Collaboration boundary: [[consensus-vs-collaboration-silicon-valley-product-group]] says close cross-functional work includes passionate disagreement and negotiation but does not require unanimity.
+- Decision ownership: [[consensus-vs-collaboration-silicon-valley-product-group]] assigns domain authority across the product trio and gives the product manager unresolved cross-domain calls.
 
 ## Counterevidence & Qualifications
-The three-role model is a compact practitioner heuristic, not a universal staffing template. Research, data, marketing, sales, support, operations, security, legal, accessibility, or domain specialists may be essential depending on the product. One person may also cover multiple responsibilities in a very small team, provided the work and context are not silently omitted.
+The three-role model is a compact practitioner heuristic, not a universal staffing template. Research, data, marketing, sales, support, operations, security, legal, accessibility, or domain specialists may be essential depending on the product. One person may also cover multiple responsibilities in a very small team, provided the work and context are not silently omitted. SVPG's product-manager final-call rule is likewise contextual: regulated or high-risk decisions may assign binding authority elsewhere, and consultation without real influence can become theater.
 
 ## What Changed
 - Created the concept from Thompson's three-role ownership and communication framework.
+- Added explicit domain and final-call authority as the mechanism that separates collaboration from consensus.
 
 ## Related Concepts
 - [[ProductManagement]] - supplies product direction, customer context, and business integration within the team.

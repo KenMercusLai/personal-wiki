@@ -2,7 +2,7 @@
 title: "The Dinner Party Jerk Test"
 type: source
 tags: [startup, pitching, fundraising, founder-advice]
-date: 2026-09-13
+date: 2024-02-12
 source_file: "/mnt/ken_personal_wiki/Articles/Andrew Chen - The Dinner Party Jerk Test.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Bleacher Report embraces 'content-everywhere' strategy"
 type: source
 tags: [media, platforms, publishing]
-date: 2026-04-04
+date: 2016-03-04
 source_file: "/mnt/ken_personal_wiki/Articles/Bleacher Report embraces 'content-everywhere' strategy.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Winner-takes-all effects in autonomous cars"
 type: source
 tags: [autonomous-vehicles, network-effects, maps, machine-learning, platform-strategy]
-date: 2017-08-20
+date: 2017-08-22
 source_file: "/mnt/ken_personal_wiki/Articles/Winner-takes-all effects in autonomous cars — Benedict Evans.md"
 ---
 

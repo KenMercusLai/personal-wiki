@@ -2,7 +2,7 @@
 title: "Advocating for a Complete Product Redesign"
 type: source
 tags: [product-design, ux-research, redesign]
-date: 2018-10-02
+date: 2018-10-01
 source_file: "/mnt/ken_personal_wiki/Articles/Advocating for a Complete Product Redesign - Google Design - Medium.md"
 ---
 

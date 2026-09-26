@@ -2,7 +2,7 @@
 title: "How to Write More"
 type: source
 tags: [writing, productivity, blogging]
-date: 2026-09-13
+date: 2024-01-15
 source_file: "/mnt/ken_personal_wiki/Articles/Andrew Chen - How to Write More.md"
 ---
 

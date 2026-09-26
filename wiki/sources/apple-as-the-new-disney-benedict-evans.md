@@ -2,7 +2,7 @@
 title: "Apple as the new Disney"
 type: source
 tags: [apple, services, subscriptions, brand, trust]
-date: 2019-04-04
+date: 2019-04-05
 source_file: /mnt/ken_personal_wiki/Articles/Apple as the new Disney — Benedict Evans.md
 ---
 

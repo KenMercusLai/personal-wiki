@@ -2,7 +2,7 @@
 title: "Video is the new HTML"
 type: source
 tags: [video, media, platforms, mobile, advertising]
-date: 2016-04-04
+date: 2016-06-02
 source_file: "/mnt/ken_personal_wiki/Articles/Video is the new HTML — Benedict Evans.md"
 ---
 

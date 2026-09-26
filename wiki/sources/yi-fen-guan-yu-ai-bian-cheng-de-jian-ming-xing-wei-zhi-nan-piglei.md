@@ -2,7 +2,7 @@
 title: "一份关于 AI 编程的简明行为指南 | Piglei"
 type: source
 tags: [ai, software-engineering, coding-practice]
-date: 2026-04-17
+date: 2026-03-20
 source_file: /mnt/ken_personal_wiki/Articles/一份关于 AI 编程的简明行为指南 Piglei.md
 ---
 

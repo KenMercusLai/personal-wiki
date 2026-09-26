@@ -2,7 +2,7 @@
 title: "ClassPass' Founder on How Marketplace Startups Can Achieve Product-Market Fit"
 type: source
 tags: [startups, marketplaces, product-market-fit]
-date: 2018-05-15
+date: 2018-05-14
 source_file: "/mnt/ken_personal_wiki/Articles/ClassPass’ Founder on How Marketplace Startups Can Achieve Product-Market Fit - First Round Review.md"
 ---
 

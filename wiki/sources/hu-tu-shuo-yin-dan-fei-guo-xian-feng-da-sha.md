@@ -2,7 +2,7 @@
 title: "银弹飞过先锋大厦"
 type: source
 tags: [software-engineering, history, ai, llm]
-date: 2025-01-25
+date: 2024-05-28
 source_file: "/mnt/ken_personal_wiki/Articles/胡涂说 - 银弹飞过先锋大厦.md"
 ---
 

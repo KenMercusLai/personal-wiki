@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "blog-innei-lobehub-performance-and-dx-optimization",
+  "images": [
+    {
+      "file": "flexbox-memory-benchmark.jpg",
+      "alt": "Flexbox batch benchmark showing similar render timings but 14.99 MB heap growth for react-layout-kit versus about 1.1 MB for local CSS and a native web component"
+    },
+    {
+      "file": "home-return-before-offscreen.png",
+      "alt": "React profiler flame chart before offscreen retention showing DesktopHomeLayout and its subtree taking about 504 milliseconds to return to the home route"
+    },
+    {
+      "file": "home-return-after-activity.png",
+      "alt": "React profiler flame chart after Activity-based offscreen retention showing DesktopHomeLayout and its subtree taking about 56 milliseconds to return to the home route"
+    },
+    {
+      "file": "antd-tooltip-render-profile.png",
+      "alt": "React profiler view of the previous Ant Design Tooltip showing a selected initial render duration of 0.5 milliseconds"
+    },
+    {
+      "file": "base-ui-tooltip-render-profile.jpg",
+      "alt": "React profiler view of the replacement Base UI tooltip with Tooltip and TooltipTrigger rendering below 0.1 milliseconds"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 title: "2018 年度小结（技术方面）"
 type: source
 tags: [technical-retrospective, containers, kubernetes, redis, game-backend]
-date: 2019-01-30
+date: 2019-01-31
 source_file: /mnt/ken_personal_wiki/Articles/2018 年度小结（技术方面）.md
 ---
 

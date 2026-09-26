@@ -2,7 +2,7 @@
 title: "Apple's Stream Team: Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future"
 type: source
 tags: [apple, apple-music, streaming, music-industry, interview]
-date: 2026-03-29
+date: 2017-01-16
 source_file: /mnt/ken_personal_wiki/Articles/Apple's Stream Team- Zane Lowe, Bozoma Saint John, and Larry Jackson Are Taking Music to the Future - Complex.md
 ---
 

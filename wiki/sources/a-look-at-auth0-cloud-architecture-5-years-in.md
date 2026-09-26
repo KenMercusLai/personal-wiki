@@ -2,7 +2,7 @@
 title: "A Look at Auth0 Cloud Architecture: 5 Years In"
 type: source
 tags: [cloud-architecture, reliability, aws, authentication, observability]
-date: 2026-03-27
+date: 2018-08-15
 source_file: /mnt/ken_personal_wiki/Articles/A Look at Auth0 Cloud Architecture- 5 Years In.md
 ---
 

@@ -2,7 +2,7 @@
 title: "卡片笔记实操篇：推理小说与读书笔记（以 Obsidian 为例）"
 type: source
 tags: [note-taking, pkm, zettelkasten, reading]
-date: 2026-03-17
+date: 2023-01-11
 source_file: /mnt/ken_personal_wiki/Articles/卡片笔记实操篇：推理小说与读书笔记（以 Obsidian 为例）.md
 ---
 

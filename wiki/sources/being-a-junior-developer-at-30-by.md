@@ -2,7 +2,7 @@
 title: "Being a Junior Developer at 30"
 type: source
 tags: [career, software-engineering, junior-developer]
-date: 2026-04-04
+date: 2017-06-02
 source_file: "/mnt/ken_personal_wiki/Articles/Being a Junior Developer at 30 - By.md"
 ---
 

@@ -7,60 +7,65 @@ sources:
   - mu-jiang-chui-zi-ding-zi
   - aws-blog-optimize-generative-ai-applications-with-pgvector-indexing
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
-last_updated: 2026-09-17
+  - blog-arthur-chiao-yi-ai-agent-ji-shu-bai-pi-shu-google-2024
+  - blog-intel-labs-knowledge-retrieval-takes-center-stage
+  - blog-timescale-rag-is-more-than-just-vector-search
+last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[RetrievalAugmentedGeneration]] is an LLM application pattern that retrieves relevant external information and supplies it as context to a model so generated answers can be grounded in that information.
+[[RetrievalAugmentedGeneration]] is an LLM application pattern that retrieves relevant external information and supplies it as context so a model can answer with information beyond its parametric memory.
 
 ## Current Synthesis
-The first source explains RAG through a private-data chatbot workflow. Documents are imported and chunked, chunks are embedded and stored in a vector database, user questions are embedded for similarity search, and the retrieved passages are sent to the LLM alongside the current question and previous conversation history. In this framing, RAG is the practical bridge between general-purpose language models and user-specific data.
+The baseline RAG pipeline imports and chunks documents, embeds source chunks and questions, searches a vector store, and passes retrieved passages to an LLM with the current question and optionally conversation history. This gives general models access to private, proprietary, or changing information without putting the entire corpus into training. But vector similarity is only one retrieval operation: useful questions may also require lexical matching, metadata and time filters, joins, aggregation, raw-record access, derived summaries, or [[TextToSQL]].
 
-RAG has a sharp fit boundary in frequently changing codebases: static indexes grow stale, chunking and indexing can interrupt development flow, and generic embeddings may not bridge natural language and code semantics. In those situations, [[AgenticRAG]] can retrieve current code context through grep, reading, and iterative agent-loop exploration.
+RAG is both an application pattern and an infrastructure chain. Corpus quality, chunking, embeddings, index choice, filters, reranking, context construction, model interpretation, and source governance can all affect the answer. PostgreSQL with pgvector can provide the vector layer; exact search preserves recall at higher cost, while IVFFlat and HNSW introduce different recall, build, and latency tradeoffs. An agent can also use RAG as one tool within a wider observe-act loop.
 
-Enterprise RAG also has a database layer. The pattern can fill the gap between general foundation models and private enterprise context, but its retrieval path depends on embedding generation, vector storage, and index choice. For PostgreSQL-backed RAG, exact search may be acceptable for small or accuracy-critical cases, while [[ApproximateNearestNeighborSearch]] with [[IVFFlatIndex]] or [[HNSWIndex]] can make retrieval fast enough for larger interactive applications.
+The pattern has fit boundaries. Frequently changing codebases can make static indexes stale and generic embeddings can miss code relationships, so [[AgenticRAG]] may instead search and read the live workspace iteratively. Conversely, single-pass RAG remains useful where interactive latency matters more than an agent's deeper but slower exploration. A middle path uses a bounded router over specialized retrieval tools: the Timescale example chooses among original records, generated summaries, and SQL analysis, then evaluates routing separately from implementation.
 
-A staged-history source adds a product-fit reason the non-agentic form survives. It argues that agentic loops buy quality with latency, and that ordinary chatbot users expect a response within roughly 20-30 seconds, so a single retrieval pass can still be the better design even when an agent could answer more thoroughly. In that account RAG persists not because retrieval is better than agency but because its response-time profile matches interactive use, which places the pattern inside the wider set of [[AgentDeploymentTradeoffs]].
+[[RetrievalCentricGeneration]] supplies a second architectural boundary. In this framing, ordinary RAG leaves the model as a major source of information and uses retrieval as a supplement; RCG uses a similar retrieval front end but attempts to make external curated sources dominant and train the model mainly to interpret unseen context. That distinction usefully exposes possible conflicts between retrieved and memorized facts, although the available evidence does not establish RCG's general superiority.
 
 ## Key Claims
-- RAG starts with document ingestion, parsing, chunking, and embedding source chunks plus user questions for similarity search.
-- A vector database stores document vectors, and retrieved chunks become contextual evidence for the LLM answer; the single-pass design also keeps non-agentic RAG viable where an agentic loop would be too slow.
-- Conversation history can be included with retrieved passages and the current question.
-- Chunk size, corpus stability, update frequency, retrieval timing, and semantic representation quality affect whether the model receives enough relevant context, too much irrelevant material, or stale material.
-- Live codebases may be better served by [[AgenticRAG]] than by static vector indexes.
-- Enterprise RAG often exists because foundation models lack organization-specific context.
-- PostgreSQL plus pgvector can act as the vector retrieval layer for a RAG application, where index choice introduces a recall-latency tradeoff that affects grounding.
+- RAG combines ingestion, enrichment, multiple retrieval methods, context assembly, and model generation; vector search is one component rather than the whole application.
+- Retrieved context can connect general models to private, proprietary, or dynamic data without retraining on the full corpus.
+- Chunk size, corpus freshness, embedding fit, retrieval timing, index choice, and context limits determine whether relevant evidence reaches the model.
+- Exact and approximate vector search trade recall, latency, index-build cost, and tuning effort.
+- Non-agentic RAG remains useful where bounded interactive latency matters, while live or semantically difficult corpora may favor iterative [[AgenticRAG]].
+- RAG can route among vector search, structured filters, summaries, raw records, and SQL, but orchestration does not remove retrieval-quality, schema, or access-control failures.
+- RAG may blend retrieved evidence with conflicting parametric memory; [[RetrievalCentricGeneration]] proposes making retrieved sources dominant instead.
 
 ## Evidence
-- Pipeline overview: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] lists import/parse/split, embeddings, FAISS storage, question embeddings, similarity search, and LLM answering as the main steps.
-- Context assembly: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] says the current question, previous Q&A, and found passages are passed to the model together.
-- Chunking tradeoff: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] explains that chunk size controls how much reference information the model receives.
-- Implementation tools: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] identifies LangChain splitters, OpenAI embeddings, vector stores, FAISS, and LLMChain as implementation pieces.
-- Codebase limits: [[mu-jiang-chui-zi-ding-zi]] says frequently changing codebases create indexing cost and freshness problems for naive RAG.
-- Semantic limits: [[mu-jiang-chui-zi-ding-zi]] says common embeddings can struggle to represent code from natural-language queries.
-- Agentic alternative: [[mu-jiang-chui-zi-ding-zi]] says grep plus reading plus an agent loop can be more intuitive and effective for coding agents.
-- Enterprise-context motivation: [[aws-blog-optimize-generative-ai-applications-with-pgvector-indexing]] says foundation models need RAG or other customization methods to answer with private enterprise context.
-- PostgreSQL retrieval layer: [[aws-blog-optimize-generative-ai-applications-with-pgvector-indexing]] stores product-catalog embeddings in PostgreSQL with pgvector and retrieves similar chunks for prompts.
-- Index tradeoff: [[aws-blog-optimize-generative-ai-applications-with-pgvector-indexing]] compares exact search, IVFFlat, and HNSW as retrieval-performance choices.
-- Latency fit: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] says the tolerable latency of a chatbot is roughly 20-30 seconds to first token and names that as one reason non-agentic RAG still exists.
+- Baseline pipeline and context assembly: [[ling-ji-chu-da-jian-ji-yu-si-yu-shu-ju-de-chatgpt]] describes parsing, chunking, embeddings, FAISS retrieval, and passing found passages with the current question and conversation history.
+- Enterprise motivation and vector infrastructure: [[aws-blog-optimize-generative-ai-applications-with-pgvector-indexing]] uses private product context to motivate RAG and compares exact search, IVFFlat, and HNSW in PostgreSQL with pgvector.
+- Live-code limitation and agentic alternative: [[mu-jiang-chui-zi-ding-zi]] argues that codebase churn and natural-language-to-code embedding gaps can favor grep, reading, and an agent loop over static indexing.
+- Latency fit: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] names interactive response-time expectations as a reason single-pass, non-agentic RAG persists.
+- Agent-tool placement: [[blog-arthur-chiao-yi-ai-agent-ji-shu-bai-pi-shu-google-2024]] depicts query embedding, vector matching, retrieved text, agent decision, and final response within an agent runtime.
+- Parametric-memory conflict: [[blog-intel-labs-knowledge-retrieval-takes-center-stage]] argues that retrieved data can conflict with memorized facts and reproduces one [[SimplyRetrieve]] query where a RAG answer adds unsupported locations.
+- Architectural boundary: [[blog-intel-labs-knowledge-retrieval-takes-center-stage]] shows RAG and RCG sharing a retrieval pipeline while assigning different informational roles to the model.
+- Beyond vector-only retrieval: [[blog-timescale-rag-is-more-than-just-vector-search]] shows a GitHub-issue application combining embeddings with repository filters, time-series data, aggregation, raw records, summaries, and SQL.
+- User-driven enrichment and routing: [[blog-timescale-rag-is-more-than-just-vector-search]] derives labels and summaries during ingestion, then tests model choice among three typed retrieval tools.
 
 ## Counterevidence & Qualifications
-The private-data chatbot source presents the basic pattern but does not cover advanced retrieval quality, reranking, source attribution, evaluation, prompt injection, access control, freshness, or conflict handling across retrieved passages. The coding-agent source is a practitioner critique rather than a benchmark and explicitly preserves a role for naive RAG when code and comments are stable, semantically rich, versioned, or documentation-like. The AWS source benchmarks retrieval infrastructure but does not publish answer-quality or recall measurements for generated responses. The latency argument is an assertion about user tolerance rather than a measured threshold, and it compares retrieval against agency in general rather than against a fast, bounded agent loop.
+These sources explain architectures and implementation cases more than they measure end-to-end answer quality. They do not jointly benchmark modern hybrid search, reranking, citation faithfulness, prompt-injection defense, permissions, freshness, or conflict resolution. The codebase critique is practitioner evidence and explicitly leaves room for stable or documentation-like corpora; the latency threshold is asserted rather than measured; and the AWS and Timescale performance claims concern retrieval infrastructure rather than generated-answer accuracy. The Timescale snippets also mix `label` and `issue_label`, and their routing assertions do not test execution or answer quality. The Intel Labs RAG-versus-RCG comparison is a single qualitative query and the article concedes RAG may succeed elsewhere. Retrieval can improve grounding without guaranteeing that a source was retrieved, trusted, interpreted correctly, or followed instead of parametric memory.
 
 ## What Changed
-- Created the initial concept page for retrieval-augmented generation.
-- Added coding-agent fit boundaries around freshness, code semantics, and agentic retrieval.
-- Added PostgreSQL/pgvector indexing as a database-layer constraint for enterprise RAG.
-- Added latency as a stated reason non-agentic RAG remains a live option.
+- Added the distinction between retrieval as an augmentation to model memory and retrieval as the dominant factual layer.
+- Added conflict between retrieved evidence and parametric memory as an explicit RAG failure mode.
+- Qualified the RCG comparison as a proposed architecture supported by limited evidence.
+- Expanded RAG from a vector pipeline to routed semantic, structured, temporal, and analytical retrieval.
+- Added tool-routing evaluation as useful decomposition without treating it as end-to-end correctness.
 
 ## Related Concepts
-- [[PrivateDataChatbot]] - private-data chatbots use RAG to answer from uploaded data.
-- [[Embeddings]] - embeddings make semantic retrieval possible.
-- [[VectorDatabase]] - vector databases provide the retrieval store for embedded chunks.
-- [[AIApplicationFramework]] - frameworks such as LangChain package RAG implementation steps.
-- [[NaturalLanguageInterface]] - RAG lets natural-language questions operate over external data.
-- [[AgenticRAG]] - agentic RAG retrieves current task context through search/read loops.
-- [[Pgvector]] - pgvector can provide the PostgreSQL vector retrieval layer for RAG.
-- [[ApproximateNearestNeighborSearch]] - ANN can reduce retrieval latency when exact search is too slow.
-- [[AgentDeploymentTradeoffs]] - response-time expectations help decide between retrieval and agency.
+- [[PrivateDataChatbot]] - private-data chatbots use RAG to answer from uploaded or organization-held content.
+- [[Embeddings]] - embeddings represent questions and source chunks for semantic matching.
+- [[VectorDatabase]] - vector databases store and search embedded source material.
+- [[Pgvector]] - pgvector provides a PostgreSQL retrieval layer with exact and approximate indexes.
+- [[ApproximateNearestNeighborSearch]] - ANN reduces search latency by accepting index and recall tradeoffs.
+- [[AgenticRAG]] - agentic RAG retrieves and refines context through an iterative tool loop.
+- [[AgentDeploymentTradeoffs]] - latency and predictability influence the choice between single-pass retrieval and agency.
+- [[GenerativeAIAgentArchitecture]] - agents can use RAG as one external-information tool.
+- [[RetrievalCentricGeneration]] - RCG proposes making retrieval the primary source of facts instead of an augmentation.
+- [[SchemaBasedReasoning]] - retrieved evidence still requires structural interpretation to become a valid answer.
+- [[TextToSQL]] - structured analytical retrieval covers questions vector similarity cannot answer alone.
+- [[EvalsDrivenAIDevelopment]] - routing and answer behavior require separate, repeatable evaluation layers.

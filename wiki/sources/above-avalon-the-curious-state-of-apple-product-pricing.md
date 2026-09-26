@@ -2,7 +2,7 @@
 title: "Above Avalon: The Curious State of Apple Product Pricing"
 type: source
 tags: [apple, pricing, wearables, product-strategy, luxury]
-date: 2026-03-25
+date: 2017-03-15
 source_file: /mnt/ken_personal_wiki/Articles/Above Avalon- The Curious State of Apple Product Pricing.md
 ---
 

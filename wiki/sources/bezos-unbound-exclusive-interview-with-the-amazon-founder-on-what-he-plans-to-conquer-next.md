@@ -2,7 +2,7 @@
 title: "Bezos Unbound: Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next"
 type: source
 tags: [amazon, strategy, innovation, ecommerce, cloud]
-date: 2018-09-30
+date: 2018-08-30
 source_file: /mnt/ken_personal_wiki/Articles/Bezos Unbound- Exclusive Interview With The Amazon Founder On What He Plans To Conquer Next.md
 ---
 

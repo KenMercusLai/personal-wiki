@@ -2,7 +2,7 @@
 title: "Cars and second order consequences"
 type: source
 tags: [transportation, electric-vehicles, autonomous-vehicles, cities]
-date: 2017-03-20
+date: 2017-03-30
 source_file: "/mnt/ken_personal_wiki/Articles/Cars and second order consequences — Benedict Evans.md"
 ---
 

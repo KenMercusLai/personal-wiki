@@ -2,7 +2,7 @@
 title: "Burning money on paid ads for a dev tool - what we've learned"
 type: source
 tags: [developer-tools, paid-ads, marketing, startups]
-date: 2026-04-12
+date: 2023-09-28
 source_file: "/mnt/ken_personal_wiki/Articles/Burning money on paid ads for a dev tool – what we've learned - PostHog.md"
 ---
 

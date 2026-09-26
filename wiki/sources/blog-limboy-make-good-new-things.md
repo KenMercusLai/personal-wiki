@@ -2,7 +2,7 @@
 title: "Make Good New Things"
 type: source
 tags: [creativity, career, life-philosophy, ai]
-date: 2026-09-14
+date: 2026-01-02
 source_file: /mnt/ken_personal_wiki/Articles/Blog - Limboy - Make Good New Things.md
 ---
 

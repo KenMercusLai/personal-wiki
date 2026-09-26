@@ -2,7 +2,7 @@
 title: "AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办"
 type: source
 tags: [ai, learning, software-engineering, hobbyist]
-date: 2026-03-14
+date: 2026-03-08
 source_file: /mnt/ken_personal_wiki/Articles/AI 提高了效率，喜欢打开黑盒的 hobbyist 怎么办 – 属于CYY自己的世界.md
 ---
 

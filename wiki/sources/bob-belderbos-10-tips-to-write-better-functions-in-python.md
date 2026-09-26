@@ -2,7 +2,7 @@
 title: "10 Tips To Write Better Functions In Python"
 type: source
 tags: [python, functions, code-quality]
-date: 2026-02-27
+date: 2022-01-19
 source_file: /mnt/ken_personal_wiki/Articles/Bob Belderbos - 10 Tips To Write Better Functions In Python.md
 ---
 

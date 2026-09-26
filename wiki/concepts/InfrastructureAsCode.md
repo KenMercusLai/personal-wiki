@@ -6,7 +6,8 @@ sources:
   - a-look-at-auth0-cloud-architecture-5-years-in
   - an-infrastructure-guide-for-founders-starting-up-security-medium
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
-last_updated: 2026-09-13
+  - configuration-management-is-an-antipattern-by
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,8 +23,10 @@ Infrastructure as code does not remove the need for playbooks or operational jud
 
 The bmpi.dev implementation shows the practice split across tools by subsystem: Terraform defines the container, IAM, messaging, network, and scheduling layer, while Serverless Framework drives the Lambda, API, DNS, certificate, storage, CDN, and CloudFormation-backed web layer. A repeatable deployment can therefore span multiple infrastructure languages, but the boundary and permissions between them remain part of the design.
 
+Horowitz adds an important category boundary. Versioned infrastructure code can describe provisioning, but convergence-oriented [[ConfigurationManagement]] repeatedly mutates existing nodes while [[ImmutableInfrastructure]] builds a versioned image and replaces nodes. Both are reproducible automation; their failure surfaces differ. Convergence must detect and repair partial application across a live fleet, whereas replacement requires a reliable image factory, artifact promotion, rollout controls, and explicit treatment of state outside the image.
+
 ## Key Claims
-- Infrastructure as code becomes more valuable as cloud resource count, service count, and regional footprint grow.
+- Infrastructure as code becomes more valuable as cloud resource count, service count, and regional footprint grow, but its provisioning, convergence, and replacement mechanisms should not be treated as interchangeable.
 - Provider-specific automation can move faster than platform-independent automation when a company has standardized on one cloud.
 - Reproducible provisioning supports regional expansion, environment replacement, and scaling up or down.
 - Repository-backed infrastructure lets teams apply code review, tests, and CI/CD standards to cloud changes.
@@ -41,11 +44,14 @@ The bmpi.dev implementation shows the practice split across tools by subsystem: 
 - Change control: [[an-infrastructure-guide-for-founders-starting-up-security-medium]] links limited console access, required reviews, tests, and CI/CD execution to lower drift and stronger resistance to erroneous or malicious changes.
 - Tool boundary: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] uses Terraform for ECR, ECS/Fargate, IAM, SNS, VPC, and CloudWatch scheduling, while Serverless Framework provisions Lambda, API Gateway, Route53, certificates, S3, CloudFront, and CloudFormation resources.
 - Repeated workflow: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] reduces code changes to rebuilding the Docker image and applying the infrastructure definitions through Make targets.
+- Convergence boundary: [[configuration-management-is-an-antipattern-by]] credits CFEngine with faster, more reliable provisioning but reports that asynchronous or failed runs still leave some machines out of sync.
+- Replacement boundary: [[configuration-management-is-an-antipattern-by]] advocates building application packages into base-derived AMIs or container images and promoting those artifacts rather than mutating long-lived application hosts.
 
 ## Counterevidence & Qualifications
-The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift.
+The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, configuration managers, image pipelines, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift. Horowitz's categorical critique is a practitioner account that retains configuration management for image construction and small bare-metal foundations; immutable images also leave runtime configuration, data, secrets, and external dependencies outside the artifact.
 
 ## What Changed
+- Distinguished in-place configuration convergence from build-and-replace immutable infrastructure as two infrastructure-as-code mechanisms with different failure boundaries.
 - Added a small-application case where Terraform and Serverless Framework divide infrastructure ownership by subsystem.
 - Added the startup security guide's argument that infrastructure as code should start early to apply review, tests, CI/CD, and drift resistance to cloud changes.
 
@@ -57,3 +63,5 @@ The sources are not controlled comparisons of Terraform, SaltStack, Serverless F
 - [[ReliabilityInvestment]] - sustained automation work is a reliability investment.
 - [[StartupSecurityDebt]] - early IaC adoption prevents unreviewed cloud changes from becoming security debt.
 - [[ServerlessComputing]] - managed-service composition makes repeatable resource and permission definitions especially important.
+- [[ConfigurationManagement]] - applies infrastructure definitions by converging existing machines toward desired state.
+- [[ImmutableInfrastructure]] - applies repeatability by building versioned images and replacing machines.

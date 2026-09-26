@@ -2,7 +2,7 @@
 title: "Atlassian's $5.5 billion user onboarding magic"
 type: source
 tags: [onboarding, saas, atlassian, product-led-growth]
-date: 2026-09-25
+date: 2015-12
 source_file: "/mnt/ken_personal_wiki/Articles/Atlassian's $5.5 billion user onboarding magic.md"
 ---
 

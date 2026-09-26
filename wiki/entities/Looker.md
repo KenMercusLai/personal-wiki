@@ -4,33 +4,42 @@ type: entity
 tags: [company, analytics, business-intelligence, saas]
 sources:
   - all-new-ideas-are-combinations-of-old-ideas
-last_updated: 2026-09-13
+  - building-a-data-informed-culture-an-introduction-to-data-at-gusto
+last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Looker]] is the analytics and business-intelligence product cited in the source through Looker Blocks, paired with [[TwilioSegment]] Sources for end-to-end funnel analysis.
+[[Looker]] is an analytics and business-intelligence product represented through reusable analytical components, self-service exploration, and team dashboards over integrated warehouse data.
 
 ## Current Profile
-The source presents Looker narrowly as part of a startup data-stack example. In Tunguz's framing, Looker Blocks help turn integrated source data into reusable analyses that can span the customer lifecycle from campaign and landing page through sales, customer success, lifecycle marketing, and upsell.
+Tunguz presents Looker Blocks as the analytical half of a startup data-stack combination: integrated source data becomes reusable analysis spanning the customer lifecycle from campaign and landing page through sales, customer success, lifecycle marketing, and upsell.
+
+Gusto's account adds an operating view. Looker sits downstream of raw sources, Airflow transformations, and denormalized BI tables, giving teams a place to explore data and build core dashboards. Analysts can publish newly created BI tables into that interface, so Looker is part of a governed self-service path rather than a standalone reporting endpoint.
 
 ## Key Characteristics
-- Analytics product context in the source.
-- Cited through Looker Blocks rather than as a full company profile.
-- Paired with [[TwilioSegment]] Sources to support cross-system funnel analysis.
+- Turns integrated warehouse data into reusable analysis and team-facing dashboards.
+- Looker Blocks are presented as reusable analytical components over Twilio Segment Sources.
+- Sits downstream of governed warehouse tables and orchestrated transformations in Gusto's platform.
+- Supports analyst self-service by exposing newly created BI tables for exploration and further analysis.
 
 ## Evidence
 - Tool combination: [[all-new-ideas-are-combinations-of-old-ideas]] names Segment Sources and Looker Blocks as an important recent advance for startups.
 - Funnel scope: [[all-new-ideas-are-combinations-of-old-ideas]] says the combination enables analysis from marketing campaign through upsell.
 - Organizational role: [[all-new-ideas-are-combinations-of-old-ideas]] uses the tool pair as an example of [[OrganizationalDataSharing]].
+- Dashboard role: [[building-a-data-informed-culture-an-introduction-to-data-at-gusto]] says teams throughout Gusto used Looker to explore data and build core dashboards.
+- Self-service path: [[building-a-data-informed-culture-an-introduction-to-data-at-gusto]] says analysts could create BI tables through Airflow and expose them in Looker.
 
 ## Qualifications
-The source is from 2016 and discusses Looker Blocks as part of that period's startup analytics stack. It does not describe Looker's full product line, ownership history, current capabilities, pricing, or alternatives.
+Both sources are from 2016 and describe selected use cases rather than Looker's full product line, ownership history, current capabilities, pricing, adoption, reliability, or alternatives. Neither supplies measured dashboard usage, analyst productivity, query performance, or decision-quality outcomes.
 
 ## What Changed
-- Created Looker as the analytics product entity cited in the organizational data-sharing example.
+- Added Looker's downstream role in a layered warehouse and governed analyst-self-service workflow.
 
 ## Relationships
 - [[TwilioSegment]] - paired data-source product in the source.
 - [[OrganizationalDataSharing]] - concept Looker supports in the article.
 - [[InnovationAtIntersection]] - shared analytics lets business knowledge intersect across teams.
+- [[Gusto]] - company using Looker for exploration and team dashboards.
+- [[LayeredDataWarehouse]] - supplies the reusable BI tables and team views that Looker exposes.
+- [[ApacheAirflow]] - produces and validates transformations upstream of Looker.

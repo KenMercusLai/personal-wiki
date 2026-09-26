@@ -2,7 +2,7 @@
 title: "Can You Afford It?: Real-world Web Performance Budgets"
 type: source
 tags: [web-performance, pwa, javascript, performance-budget]
-date: 2017-10-09
+date: 2017-10-22
 source_file: "/mnt/ken_personal_wiki/Articles/Can You Afford It-- Real-world Web Performance Budgets – Infrequently Noted.md"
 ---
 

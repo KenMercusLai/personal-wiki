@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "source_key": "configuration-management-is-an-antipattern-by",
+  "images": [
+    {
+      "file": "manual-cvs-release.jpg",
+      "alt": "Manual CVS release sequence that archives a website, copies it to a server over SCP, unpacks it, and restarts the service"
+    },
+    {
+      "file": "scripted-multi-server-release.jpg",
+      "alt": "Bash deployment script that copies an archive to each server and restarts Tomcat through an SSH loop"
+    },
+    {
+      "file": "manual-server-install-process-2001.jpg",
+      "alt": "2001 server install process from rack installation and a Mandrake Linux CD through a manual checklist, code push, and load balancer registration"
+    },
+    {
+      "file": "cloud-server-install-process-2012.jpg",
+      "alt": "2012 cloud server install process based on launching a current Amazon Linux AMI and adding it to an ELB"
+    },
+    {
+      "file": "cfengine-before-after.jpg",
+      "alt": "CFEngine before-and-after comparison showing provisioning time falling from one day to one hour, mistake chance from fifty percent to one percent, and understood fleet share rising from seventy to ninety-nine percent"
+    },
+    {
+      "file": "configuration-ownership-dilemma.jpg",
+      "alt": "Configuration management ownership dilemma contrasting centralized operations control with distributed developer control"
+    },
+    {
+      "file": "out-of-sync-deployments.jpg",
+      "alt": "Slide naming broken, buggy, or out-of-sync deployments as a configuration management failure mode"
+    },
+    {
+      "file": "immutable-infrastructure-alternative.jpg",
+      "alt": "Immutable infrastructure alternative represented by a machine image and Docker containers"
+    }
+  ]
+}

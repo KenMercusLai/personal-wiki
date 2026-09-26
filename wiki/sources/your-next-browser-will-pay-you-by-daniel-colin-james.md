@@ -2,7 +2,7 @@
 title: "Your next browser will pay you"
 type: source
 tags: [brave, advertising, browsers, privacy, cryptocurrency]
-date: 2018-09-18
+date: 2018-09-06
 source_file: "/mnt/ken_personal_wiki/Articles/Your next browser will pay you - By Daniel Colin James.md"
 ---
 

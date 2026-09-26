@@ -2,7 +2,7 @@
 title: "一个独立创造者的五年"
 type: source
 tags: [indie-hacker, saas, entrepreneurship]
-date: 2026-03-17
+date: 2023-07-12
 source_file: /mnt/ken_personal_wiki/Articles/一个独立创造者的五年.md
 ---
 

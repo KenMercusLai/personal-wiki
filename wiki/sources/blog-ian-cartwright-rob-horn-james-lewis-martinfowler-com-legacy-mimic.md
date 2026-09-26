@@ -2,7 +2,7 @@
 title: "Legacy Mimic"
 type: source
 tags: [legacy-displacement, architecture, migration, transitional-architecture]
-date: 2026-09-14
+date: 2022-01-12
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - Ian Cartwright, Rob Horn, James Lewis (martinfowler.com) - Legacy Mimic.md"
 ---
 

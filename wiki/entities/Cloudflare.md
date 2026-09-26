@@ -5,42 +5,49 @@ tags: [cloud, edge, hosting, dns, storage]
 sources:
   - wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai
   - 2023-focusing-on-a-single-product-pays-off
-last_updated: 2026-09-12
+  - cloudflare-outage-on-february-20-2026
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Cloudflare]] is presented in the sources as both a low-cost infrastructure platform for DNS, security, Pages, Workers, D1 database hosting, and R2 object storage, and as [[MaxRozen]]'s full-time employer during his 2023 independent SaaS work.
+[[Cloudflare]] is an edge-infrastructure company represented in the sources through low-cost hosting, DNS, security, compute, data, and storage services; employment and product-development context; and a first-party account of a serious network-configuration outage.
 
 ## Current Profile
-The migration article frames Cloudflare as both a Vercel alternative and a broader service-substitution platform. Cloudflare Pages can deploy Next.js projects and generate public `pages.dev` URLs, while DNS, security features, Workers, D1, and R2 can replace or complement services that might otherwise be bought from Vercel, AWS, Supabase, or other providers. Rozen's retrospective adds an organizational angle: Cloudflare employment can provide financial support for slow independent SaaS building, and internal product work on D1 can draw on product and writing skills developed outside the company.
+The migration article frames Cloudflare as both a Vercel alternative and a broader service-substitution platform. Pages can deploy Next.js projects, while DNS, security features, Workers, D1, and R2 can replace or complement services bought from Vercel, AWS, Supabase, or other providers. Rozen's retrospective adds an organizational angle: Cloudflare employment can support slow independent SaaS building, and internal D1 work can draw on product and writing skills developed outside the company.
+
+The February 2026 postmortem adds the platform's operational risk boundary. Cloudflare's Addressing API was the authoritative source for customer IP configuration and propagated changes to its global edge. A newly automated BYOIP cleanup task sent an ambiguous empty-valued query, received all prefixes rather than only pending deletions, and withdrew about 1,100 customer prefixes before being stopped. Recovery took six hours and seven minutes because some records also lost service bindings and required a global configuration rollout, showing that a low-cost global edge platform also concentrates configuration-state and change-control risk.
 
 ## Key Characteristics
 - Offers low-cost or free-tier-friendly website infrastructure for small independent projects.
-- Provides Pages and Workers for frontend hosting, edge functions, scripts, scheduled jobs, and API proxies.
-- Supplies adjacent platform services such as DNS, security controls, D1, and R2.
+- Provides Pages, Workers, DNS, security controls, D1, and R2 across hosting, compute, database, and storage needs.
 - Requires edge-runtime compatibility work for Next.js applications.
-- Provides the full-time employment context that made slow [[OnlineOrNot]] growth sustainable for Max Rozen.
-- Contains the [[CloudflareD1]] product team where Rozen became one of the founding engineers.
+- Provides the full-time employment and D1 product context for [[MaxRozen]]'s independent SaaS work.
+- Operates authoritative addressing workflows in which customer configuration can propagate to BGP routers and edge machines.
+- Has committed to typed API schemas, desired-versus-operational-state separation, staged health-mediated snapshots, and circuit breakers after the 2026 BYOIP outage.
 
 ## Evidence
-- Pages hosting: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes deploying Next.js through `@cloudflare/next-on-pages`, Wrangler, and Cloudflare Pages.
-- DNS and security: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] lists DNS, interactive challenges, DDoS protection, firewall rules, rate limits, and IP allow/block lists.
-- Data and storage: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] suggests D1 as a lower-cost database option and R2 as an S3-compatible object-storage replacement.
+- Platform breadth and cost: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] describes Pages, Workers, DNS, security controls, D1, and R2 as a lower-cost service combination.
 - Compatibility boundary: [[wo-ba-wang-zhan-qian-yi-dao-cf-sheng-le-ji-wan-kuai]] says Cloudflare-hosted Next.js projects must use edge runtime and replace incompatible Node.js APIs.
-- Employment support: [[2023-focusing-on-a-single-product-pays-off]] says Rozen's full-time Cloudflare role enabled patient work on [[OnlineOrNot]].
-- D1 role: [[2023-focusing-on-a-single-product-pays-off]] says Rozen helped with an early-alpha Wrangler-integrated product and became one of the founding engineers of [[CloudflareD1]].
+- Employment and D1 work: [[2023-focusing-on-a-single-product-pays-off]] says Cloudflare employment enabled Rozen's patient work on [[OnlineOrNot]] and connected him to a founding-engineer role on [[CloudflareD1]].
+- Authoritative network configuration: [[cloudflare-outage-on-february-20-2026]] says Addressing API changes trigger operational workflows that propagate IP advertisement and product binding changes to the global edge.
+- Outage scale and recovery: [[cloudflare-outage-on-february-20-2026]] reports about 1,100 withdrawn BYOIP prefixes, roughly 300 prefixes requiring manual/global configuration recovery, and a six-hour-seven-minute incident.
+- Remediation direction: [[cloudflare-outage-on-february-20-2026]] proposes schema standardization, snapshots, health gates, configured/operational-state separation, and broad-change circuit breakers.
 
 ## Qualifications
-The sources are not comprehensive Cloudflare profiles. The migration source is strongly favorable toward Cloudflare but notes unresolved questions such as whether Cloudflare offers easy migration from Supabase to D1. Rozen's source describes Cloudflare mainly as employer and work context, not as an independent assessment of D1 or the Workers platform.
+These sources are not a comprehensive or independent Cloudflare assessment. The migration source is strongly favorable but leaves service-migration questions unresolved; Rozen describes Cloudflare mainly as employer and work context. The outage account is Cloudflare's own postmortem, supplies no independent customer-impact measure, and describes remediation commitments rather than completed controls. Its timeline also distinguishes website failures from DNS: one.one.one.one returned 403 errors, but 1.1.1.1 resolver traffic, including DNS over HTTPS, remained available.
 
 ## What Changed
-- Added Cloudflare as Max Rozen's full-time work context and connected D1 to his 2023 role.
+- Added the Addressing API and BYOIP operational path to Cloudflare's profile.
+- Reframed the platform's global reach as both a capability and a configuration blast-radius risk.
+- Added the February 2026 outage, state-dependent recovery, and stated remediation program.
 
 ## Relationships
 - [[Vercel]] - Cloudflare Pages is presented as a lower-cost managed alternative to Vercel.
-- [[NextJS]] - Cloudflare can host Next.js projects when they are adapted for edge runtime.
+- [[NextJS]] - Cloudflare can host Next.js projects when adapted for edge runtime.
 - [[EdgeRuntime]] - Cloudflare's Next.js support is constrained by edge-runtime compatibility.
-- [[CloudCostOptimization]] - Cloudflare is the source's main service-consolidation and cost-reduction platform.
+- [[CloudCostOptimization]] - Cloudflare is used for service consolidation and cost reduction.
 - [[CloudflareD1]] - Cloudflare database product where Rozen became a founding engineer.
-- [[MaxRozen]] - Cloudflare employment made Rozen's patient SaaS work possible in the source.
+- [[MaxRozen]] - Cloudflare employment made Rozen's patient SaaS work possible.
+- [[ChangeSafety]] - Cloudflare's BYOIP outage demonstrates the need for staged, health-mediated configuration changes.
+- [[NetworkAutomation]] - Cloudflare automates customer prefix and edge-configuration workflows through APIs.

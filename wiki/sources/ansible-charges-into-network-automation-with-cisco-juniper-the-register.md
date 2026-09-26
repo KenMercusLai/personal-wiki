@@ -2,7 +2,7 @@
 title: "Ansible charges into network automation with Cisco, Juniper"
 type: source
 tags: [networking, automation, devops]
-date: 2026-03-28
+date: 2016-02-18
 source_file: /mnt/ken_personal_wiki/Articles/Ansible charges into network automation with Cisco, Juniper • The Register.md
 ---
 

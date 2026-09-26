@@ -2,7 +2,7 @@
 title: "Capitalism-Without-Capital | Bill Gates"
 type: source
 tags: [economics, intangible-assets, software, policy]
-date: 2026-04-04
+date: 2018-08-14
 source_file: /mnt/ken_personal_wiki/Articles/Capitalism-Without-Capital - Bill Gates.md
 ---
 

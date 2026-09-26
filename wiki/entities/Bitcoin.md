@@ -7,19 +7,20 @@ sources:
   - andrej-karpathy-a-from-scratch-tour-of-bitcoin-in-python
   - balaji-srinivasan-silicon-valleys-ultimate-exit-genius
   - coinbase-wants-to-be-too-big-to-fail-fortune
-last_updated: 2026-09-15
+  - cnbc-erik-finman-bitcoin-millionaire-who-skipped-college
+last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Bitcoin]] is presented as an incumbent cryptocurrency vulnerable to merchant-adoption choices, as a concrete protocol where value is represented by UTXOs and proof-of-work-secured transactions, as a technology that could reduce state control over capital movement, and as the asset that created Coinbase's mainstream on-ramp opportunity.
+[[Bitcoin]] is presented as an incumbent cryptocurrency vulnerable to merchant-adoption choices, a concrete protocol where value is represented by UTXOs and proof-of-work-secured transactions, a potential exit from centralized control, the asset behind Coinbase's mainstream on-ramp, and a volatile concentrated investment that funded [[ErikFinman]]'s entrepreneurial path.
 
 ## Current Profile
-The market-adoption source treats Bitcoin as a popular speculative asset and aspirational currency whose practical payment ambitions could be constrained by volatility, recovery risk, throughput, and large-platform choices by [[Amazon]]. Karpathy's tutorial adds the protocol layer underneath that payment story: Bitcoin funds are not account balances but spendable [[UTXOModel]] outputs with amounts and locking scripts. Users control funds through [[CryptographicIdentity]], construct spends through [[BitcoinTransactionModel]], satisfy P2PKH locking conditions through [[BitcoinScript]], and rely on [[BitcoinProofOfWork]] miners to package valid transactions into blocks. Srinivasan's talk adds a political-technology frame: Bitcoin is an exit tool because it can make capital controls, bail-ins, and money seizure more like packet filtering than centralized financial command. Fortune adds the institutionalization layer: Bitcoin's difficulty for ordinary buyers created room for [[Coinbase]], while the 2017 boom and subsequent bust showed how Bitcoin speculation could build and then stress a regulated intermediary.
+The market-adoption source treats Bitcoin as a popular speculative asset and aspirational currency whose practical payment ambitions could be constrained by volatility, recovery risk, throughput, and large-platform choices by [[Amazon]]. Karpathy's tutorial adds the protocol layer underneath that payment story: Bitcoin funds are not account balances but spendable [[UTXOModel]] outputs with amounts and locking scripts. Users control funds through [[CryptographicIdentity]], construct spends through [[BitcoinTransactionModel]], satisfy P2PKH locking conditions through [[BitcoinScript]], and rely on [[BitcoinProofOfWork]] miners to package valid transactions into blocks. Srinivasan's talk adds a political-technology frame: Bitcoin is an exit tool because it can make capital controls, bail-ins, and money seizure more like packet filtering than centralized financial command. Fortune adds the institutionalization layer: Bitcoin's difficulty for ordinary buyers created room for [[Coinbase]], while the 2017 boom and subsequent bust showed how Bitcoin speculation could build and then stress a regulated intermediary. Finman's profile supplies an individual case: early gains financed [[Botangle]], a later technology sale returned 300 bitcoin, and a concentrated holding crossed a nominal million-dollar threshold, while CNBC paired his extreme optimism with an explicit volatility warning.
 
 ## Key Characteristics
 - Held the incumbent "number one cryptocurrency" position in the source's framing.
-- Drew speculative investment attention despite severe volatility and recovery risks.
+- Drew speculative investment attention and enabled exceptional early-holder gains despite severe volatility, concentration, and recovery risks.
 - Was presented as too slow for Amazon-scale checkout demand at roughly seven transactions per second.
 - Needed widespread merchant adoption to function as currency rather than only as an investment vehicle, and functions in Srinivasan's thesis as exit infrastructure for moving capital outside conventional controls.
 - Represents spendable value as fully consumed and newly created UTXOs, with ordinary P2PKH spends authorized through public-key hashes, unlocking scripts, and ECDSA-style signatures.
@@ -38,13 +39,17 @@ The market-adoption source treats Bitcoin as a popular speculative asset and asp
 - Paper Belt disruption: [[balaji-srinivasan-silicon-valleys-ultimate-exit-genius]] lists Bitcoin among technologies threatening Washington, D.C.'s regulatory power.
 - Coinbase on-ramp demand: [[coinbase-wants-to-be-too-big-to-fail-fortune]] says early Bitcoin buying required wallet software, offshore transfers, or shadowy middlemen, motivating a simpler Coinbase purchase and custody flow.
 - Boom-bust exposure: [[coinbase-wants-to-be-too-big-to-fail-fortune]] reports Bitcoin's 2017 surge, its later fall to about $6,410 by September 13, 2018, and the resulting threat to Coinbase trading revenue.
+- Entrepreneurial financing: [[cnbc-erik-finman-bitcoin-millionaire-who-skipped-college]] reports that Finman converted an early Bitcoin position into roughly $100,000 for Botangle, then accepted 300 bitcoin when selling its technology.
+- Concentrated-holder outcome: [[cnbc-erik-finman-bitcoin-millionaire-who-skipped-college]] valued Finman's 403 bitcoin at about $1.09 million in June 2017.
+- Peer-to-peer thesis: [[cnbc-erik-finman-bitcoin-millionaire-who-skipped-college]] presents Bitcoin and blockchain as infrastructure for removing service intermediaries, but supplies no operating deployment evidence.
 
 ## Qualifications
-This page still does not attempt a complete monetary, regulatory, market, or consensus history of Bitcoin. The Amazon scenarios are speculative, the Karpathy tutorial intentionally focuses on legacy P2PKH-style testnet transactions while omitting modern features such as Segwit, bech32, Taproot, mining implementation, and full validation, Srinivasan's capital-control claim is a political forecast rather than proof that governments cannot regulate cryptocurrency, and the Fortune article reflects a 2018 market cycle rather than current Bitcoin adoption or Coinbase performance.
+This page still does not attempt a complete monetary, regulatory, market, or consensus history of Bitcoin. The Amazon scenarios are speculative, the Karpathy tutorial intentionally focuses on legacy P2PKH-style testnet transactions while omitting modern features such as Segwit, bech32, Taproot, mining implementation, and full validation, Srinivasan's capital-control claim is a political forecast rather than proof that governments cannot regulate cryptocurrency, and the Fortune article reflects a 2018 market cycle rather than current Bitcoin adoption or Coinbase performance. Finman's story is a June 2017 snapshot and an extreme survivor case; its prices, holdings, and predictions are historical claims, not current valuation or general investment evidence.
 
 ## What Changed
 - Added Srinivasan's frame of Bitcoin as exit infrastructure against capital controls and bail-ins.
 - Added Bitcoin's role as the asset that created Coinbase's mainstream on-ramp opportunity and boom-bust revenue exposure.
+- Added an individual case in which early Bitcoin gains financed a startup and a later Bitcoin-denominated sale amplified concentrated exposure.
 
 ## Relationships
 - [[Amazon]] - retailer whose cryptocurrency choice is framed as a possible threat to Bitcoin's leadership.
@@ -59,3 +64,5 @@ This page still does not attempt a complete monetary, regulatory, market, or con
 - [[PaperBelt]] - Bitcoin is framed as part of Silicon Valley's challenge to D.C.-centered regulatory power.
 - [[Coinbase]] - regulated intermediary that made Bitcoin easier to buy and custody for ordinary users.
 - [[BrianArmstrong]] - founder whose Bitcoin thesis led to Coinbase.
+- [[ErikFinman]] - early holder whose reported gains financed Botangle and crossed a nominal million-dollar threshold in 2017.
+- [[Botangle]] - education startup financed and sold through Bitcoin-linked transactions.

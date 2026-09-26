@@ -9,7 +9,8 @@ sources:
   - blog-guangzhengli-vibe-coding-and-context-coding
   - write-less-code-be-more-responsible-orhuns-blog
   - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
-last_updated: 2026-09-24
+  - blog-peter-steinberger-shipping-at-inference-speed
+last_updated: 2026-09-25
 knowledge_schema: synthesis-v1
 ---
 
@@ -27,12 +28,14 @@ Parmaksız adds an open-source trust perspective and a compact behavioral bounda
 
 Hu Yuanming supplies an extreme expert-user case close to the original no-review meaning: he deliberately avoids reading code beyond `CLAUDE.md`, runs multiple Claude Code sessions in parallel, and judges the system through task completion, tests, merges, and whether his private CEO tool works for him. The case shows how much infrastructure can sit underneath apparently effortless vibe coding—queues, worktrees, streamed logs, recovery rules, backups, persistent lessons, Plan Mode, and a custom control plane—but it does not resolve whether commit velocity or dispatch success produces maintainable software.
 
+A second expert, low-code-reading case has a different operating shape. [[PeterSteinberger]] queues conversational work across one main project and several satellite projects, lets [[Codex]] spend substantial time inspecting repositories, keeps durable subsystem docs, reuses examples from neighboring codebases, and starts products with a CLI that the agent can execute and check. His account sharpens the bottleneck shift: implementation can become cheap enough that architecture, dependencies, system boundaries, product feel, inference time, and human attention dominate. It also sharpens the unresolved risk, because knowing the system map and checking behavior are not equivalent to reviewing the generated implementation.
+
 ## Key Claims
 - Vibe coding's most visible effect is faster product iteration and lower scope cost, but local activity measures such as commits or agent completions do not by themselves establish delivery value.
 - Command-line agents can produce a deeper vibe-coding experience than editor-bound AI when they understand and modify whole projects.
-- Planning is useful for existing systems and architecture-sensitive work, while exploratory prototypes may benefit from faster implementation-first loops.
+- Planning is useful for existing systems and architecture-sensitive work, but it may happen through an ordinary exploratory conversation rather than a separately restricted mode; prototypes may still benefit from faster implementation-first loops.
 - Small, reviewable iterations and fine-grained natural-language implementation instructions usually beat large uncontrolled generations because they preserve understanding and rollback ability.
-- Context windows, compaction, and session boundaries become workflow constraints that must be actively managed.
+- Context windows, documentation, codebase exploration, compaction, and session boundaries become workflow constraints whose best handling can vary by model and task.
 - Verification, human pace, and reviewability matter: accelerated tools should not eliminate compilation, tests, linting, thinking time, formal roles, specs, CI, or production responsibility.
 - Pure no-review vibe coding is especially risky for non-programmers and public-software maintainers because security, subscription, API-key, database, comprehension, later-release, user-trust, and review failures can arrive faster than the builder can understand or safely maintain them.
 
@@ -55,14 +58,20 @@ Hu Yuanming supplies an extreme expert-user case close to the original no-review
 - Workflow boundary: [[write-less-code-be-more-responsible-orhuns-blog]] rejects unreviewed commits while retaining AI for tedious or slow work and applying a final human quality pass.
 - Expert no-review case: [[hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong]] describes parallel Claude Code workers, a web task center, automated integration, and a personal application whose author intentionally does not inspect most generated code.
 - Hidden infrastructure: [[hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong]] documents worktree isolation, task state, streamed logs, merge and test recovery, `PROGRESS.md`, database backups, and Plan Mode beneath the fast conversational surface.
+- Bottleneck shift: [[blog-peter-steinberger-shipping-at-inference-speed]] says coding throughput is increasingly limited by inference time, hard thinking, system design, dependency choice, and the author's own attention rather than typing.
+- Repository-scale work: [[blog-peter-steinberger-shipping-at-inference-speed]] reports that Codex may read files for ten to fifteen minutes before editing and can be slower per attempt yet faster overall when fewer corrective passes are needed.
+- Conversational planning: [[blog-peter-steinberger-shipping-at-inference-speed]] replaces a separate Plan Mode with research, code exploration, dialogue, plan refinement, and an explicit instruction to build.
+- Agent-verifiable interfaces: [[blog-peter-steinberger-shipping-at-inference-speed]] recommends starting with a CLI so the model can invoke the product and inspect its output directly.
+- Solo workflow boundary: [[blog-peter-steinberger-shipping-at-inference-speed]] describes direct-to-main work, limited checkpointing, and three-to-eight concurrent projects while explicitly warning that the pattern would not transfer unchanged to a larger team.
 
 ## Counterevidence & Qualifications
-The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's private single-user case benefits from deep expertise and intentionally avoids public-product burdens, so it cannot establish that routine non-review is safe for shared or consequential software. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, or human responsibility.
+The sources are personal practitioner accounts rather than comparative studies. They also treat specific models and tools as strong in their moment, so some conclusions may depend on model quality, token allowances, pricing, language/domain coverage, and tool design. The term itself is unstable: some sources use vibe coding broadly for AI-assisted development, while Guangzhengli reserves it for a narrower no-review style and recommends [[ContextCoding]] for serious practice. Hu's and Steinberger's cases benefit from deep expertise, personal infrastructure, and mostly solo or single-user conditions, so they cannot establish that routine non-review is safe for shared or consequential software. Steinberger's one-shot refactor and speed claims lack independent defect, maintenance, security, and lifecycle measurements. Parmaksız's unsafe-future-release example expresses a trust risk, not evidence that a particular project caused harm. Vibe coding is not presented as a replacement for exact IDE refactors, domain expertise, or human responsibility.
 
 ## What Changed
-- Added an expert, single-user no-review case that demonstrates both extreme agent leverage and the infrastructure hidden beneath it.
-- Clarified that commit frequency and task-dispatch success are activity measures, not proof of delivered value, safety, or maintainability.
-- Strengthened the boundary between private disposable customization and public software stewardship.
+- Added Steinberger's contrasting expert workflow: ordinary conversation, deep repository reading, durable docs, cross-project examples, and CLI-first verification rather than a custom worker pool.
+- Shifted the current bottleneck account from code production toward inference time, architecture, dependencies, system boundaries, product judgment, and human attention.
+- Qualified Plan Mode and session-reset prescriptions as model- and task-dependent rather than universal.
+- Strengthened the warning that system-level awareness and executable checks do not by themselves prove generated-code maintainability or safety.
 
 ## Related Concepts
 - [[AICodingPractice]] - vibe coding needs disciplined norms for human judgment, review, and maintainability.

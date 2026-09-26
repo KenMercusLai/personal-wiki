@@ -2,7 +2,7 @@
 title: "Academia to Data Science"
 type: source
 tags: [data-science, career, academia, industry, airbnb]
-date: 2016-10-20
+date: 2016-10-19
 source_file: /mnt/ken_personal_wiki/Articles/Academia to Data Science - Airbnb Engineering - Data Science - Medium.md
 ---
 

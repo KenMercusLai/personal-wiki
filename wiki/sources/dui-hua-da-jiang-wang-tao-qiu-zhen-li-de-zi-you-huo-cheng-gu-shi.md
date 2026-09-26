@@ -2,7 +2,7 @@
 title: "对话大疆汪滔：求真理、得自由、活成故事"
 type: source
 tags: [interview, entrepreneurship, hardware, management]
-date: 2026-04-12
+date: 2026-04-10
 source_file: /mnt/ken_personal_wiki/Articles/对话大疆汪滔：求真理、得自由、活成故事.md
 ---
 

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "blog-tim-urban-waitbutwhy-the-sights-and-sounds-of-bhutan",
+  "images": [
+    {
+      "file": "bhutan-between-india-and-china.png",
+      "alt": "Cartoon map showing Bhutan as a small country between India and China"
+    },
+    {
+      "file": "riverside-bhutanese-dzong.jpg",
+      "alt": "Traditional Bhutanese dzong beside a river and forested mountain valley"
+    },
+    {
+      "file": "tigers-nest-monastery.jpg",
+      "alt": "Tiger's Nest monastery built into a steep forested cliff in Bhutan"
+    }
+  ]
+}

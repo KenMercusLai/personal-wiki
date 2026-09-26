@@ -2,7 +2,7 @@
 title: "不上班的1000天，程序员自由职业 B 计划 - 做什么/收入/经验教训 | Viking"
 type: source
 tags: [freelancing, programming, independent-creator, personal-brand]
-date: 2026-03-17
+date: 2022-12-09
 source_file: /mnt/ken_personal_wiki/Articles/不上班的1000天，程序员自由职业 B 计划 - 做什么收入经验教训 Viking.md
 ---
 

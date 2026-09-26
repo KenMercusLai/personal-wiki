@@ -2,7 +2,7 @@
 title: "Would I do this for 10 years?"
 type: source
 tags: [entrepreneurship, career, learning, decision-making]
-date: 2026-03-04
+date: 2016-09-20
 source_file: "/mnt/ken_personal_wiki/Articles/Would I do this for 10 years-.md"
 ---
 

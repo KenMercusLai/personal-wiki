@@ -2,7 +2,7 @@
 title: "A Dark Room: From Sabbatical Year to $800,000"
 type: source
 tags: [indie-game, sabbatical, app-store, creator-economics]
-date: 2026-03-25
+date: 2017-12-26
 source_file: "/mnt/ken_personal_wiki/Articles/A Dark Room- From Sabbatical Year to $800,000.md"
 ---
 

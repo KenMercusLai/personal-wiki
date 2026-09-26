@@ -2,7 +2,7 @@
 title: "A One Year PWA Retrospective"
 type: source
 tags: [pwa, mobile-web, web-performance, product-growth]
-date: 2018-07-21
+date: 2018-07-20
 source_file: "/mnt/ken_personal_wiki/Articles/A one year PWA retrospective - Pinterest Engineering Blog - Medium.md"
 ---
 

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "source_key": "cisco-cisco-catalyst-sd-wan-control-components-certificates-deployment-guide",
+  "images": [
+    {"file": "sd-wan-planes-and-components.jpg", "alt": "Cisco Catalyst SD-WAN architecture showing orchestration, management, control, and data planes"},
+    {"file": "authorized-list-distribution.jpg", "alt": "Distribution of administrator-defined control components and the signed WAN Edge list"},
+    {"file": "certificate-signature-validation.jpg", "alt": "PKI device identity validation by comparing a certificate hash with its decrypted signature"},
+    {"file": "control-and-edge-identity-roots.jpg", "alt": "Certificate roots for SD-WAN control components and IOS XE WAN Edge hardware"},
+    {"file": "mutual-authentication-paths.jpg", "alt": "Trust checks across Validator, Manager, Controller, physical WAN Edge, and virtual WAN Edge paths"},
+    {"file": "automated-cisco-pki-workflow.jpg", "alt": "Automated Cisco PKI certificate signing and installation workflow"},
+    {"file": "manual-cisco-pki-workflow.jpg", "alt": "Manual Cisco PKI certificate signing and installation workflow"},
+    {"file": "enterprise-ca-workflow.jpg", "alt": "Enterprise CA root-chain, CSR signing, and control-component certificate workflow"},
+    {"file": "authorized-control-components.jpg", "alt": "Authorized control-component list distributed from SD-WAN Manager"},
+    {"file": "wan-edge-list-sync.jpg", "alt": "Automatic and manual WAN Edge authorized serial-number list synchronization"},
+    {"file": "example-control-topology.jpg", "alt": "Example Manager, Validator, and Controller topology with management and DTLS paths"}
+  ]
+}

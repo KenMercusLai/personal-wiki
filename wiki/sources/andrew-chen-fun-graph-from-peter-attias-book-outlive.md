@@ -2,7 +2,7 @@
 title: "Fun graph from Peter Attia's book Outlive"
 type: source
 tags: [health, fitness, longevity, vo2max]
-date: 2024-01-01
+date: 2024-01-10
 source_file: "/mnt/ken_personal_wiki/Articles/Andrew Chen - Fun graph from Peter Attia's book Outlive.md"
 ---
 

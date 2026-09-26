@@ -2,7 +2,7 @@
 title: "AWS costs every programmer should know"
 type: source
 tags: [aws, cloud-cost, infrastructure, reference-numbers]
-date: 2026-03-30
+date: 2019-06-09
 source_file: /mnt/ken_personal_wiki/Articles/AWS costs every programmer should know.md
 ---
 

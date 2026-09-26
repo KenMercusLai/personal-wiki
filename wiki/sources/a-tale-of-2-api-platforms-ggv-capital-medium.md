@@ -2,7 +2,7 @@
 title: "A Tale of 2 API Platforms"
 type: source
 tags: [api, platform-strategy, developer-ecosystems, twitter, slack]
-date: 2016-10-26
+date: 2016-10-25
 source_file: "/mnt/ken_personal_wiki/Articles/A Tale of 2 API Platforms - GGV Capital - Medium.md"
 ---
 

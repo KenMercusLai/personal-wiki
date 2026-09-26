@@ -2,7 +2,7 @@
 title: "Don't fall into the anti-AI hype"
 type: source
 tags: [ai, programming, career]
-date: 2025-01-14
+date: 2026-01-11
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - antirez - Don't fall into the anti-AI hype.md"
 ---
 

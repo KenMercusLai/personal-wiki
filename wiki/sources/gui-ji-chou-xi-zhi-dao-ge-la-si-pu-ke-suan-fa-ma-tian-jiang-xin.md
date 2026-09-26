@@ -2,7 +2,7 @@
 title: "轨迹抽稀之道格拉斯-普克算法 | 码田匠心"
 type: source
 tags: [algorithm, gis, trajectory, map]
-date: 2026-03-31
+date: 2020-09-08
 source_file: /mnt/ken_personal_wiki/Articles/轨迹抽稀之道格拉斯-普克算法 码田匠心.md
 ---
 

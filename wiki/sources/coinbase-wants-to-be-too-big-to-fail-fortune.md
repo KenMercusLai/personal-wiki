@@ -2,7 +2,7 @@
 title: "Coinbase Wants To Be Too Big To Fail | Fortune"
 type: source
 tags: [coinbase, cryptocurrency, finance, startup]
-date: 2018-10-01
+date: 2018-09-27
 source_file: /mnt/ken_personal_wiki/Articles/Coinbase Wants To Be Too Big To Fail - Fortune.md
 ---
 

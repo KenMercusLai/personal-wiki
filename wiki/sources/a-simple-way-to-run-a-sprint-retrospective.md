@@ -2,7 +2,7 @@
 title: "A Simple Way to Run a Sprint Retrospective"
 type: source
 tags: [agile, scrum, retrospective]
-date: 2026-03-30
+date: 2016-01-26
 source_file: "/mnt/ken_personal_wiki/Articles/A Simple Way to Run a Sprint Retrospective.md"
 ---
 

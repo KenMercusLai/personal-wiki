@@ -2,7 +2,7 @@
 title: "Building Engineering Careers at NerdWallet"
 type: source
 tags: [engineering-management, career-development, leveling]
-date: 2026-04-04
+date: 2018-11-08
 source_file: "/mnt/ken_personal_wiki/Articles/Building Engineering Careers at NerdWallet - NerdWallet.md"
 ---
 

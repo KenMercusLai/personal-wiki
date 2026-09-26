@@ -2,7 +2,7 @@
 title: "泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳"
 type: source
 tags: [business, investing, consumer-brand, ip]
-date: 2026-04-12
+date: 2026-04-09
 source_file: /mnt/ken_personal_wiki/Articles/泡泡玛特《因为独特》读后感和王宁卖星星棒的故事-李佶澳.md
 ---
 

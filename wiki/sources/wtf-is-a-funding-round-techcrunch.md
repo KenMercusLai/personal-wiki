@@ -2,7 +2,7 @@
 title: "WTF is a funding round?"
 type: source
 tags: [startup, venture-capital, funding]
-date: 2020-01-17
+date: 2017-01-08
 source_file: "/mnt/ken_personal_wiki/Articles/WTF is a funding round- - TechCrunch.md"
 ---
 

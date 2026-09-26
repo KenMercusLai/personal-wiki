@@ -2,7 +2,7 @@
 title: "Billboards for Small Businesses: Costs, Advice, and Thinking Twice"
 type: source
 tags: [marketing, advertising, small-business]
-date: 2026-04-04
+date: 2013-12-03
 source_file: "/mnt/ken_personal_wiki/Articles/Billboards for Small Businesses- Costs, Advice, and Thinking Twice.md"
 ---
 

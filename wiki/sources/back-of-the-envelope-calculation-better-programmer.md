@@ -2,7 +2,7 @@
 title: "Back of the Envelope Calculation | Better Programmer"
 type: source
 tags: [system-design, performance, estimation]
-date: 2026-04-04
+date: 2016-09-21
 source_file: /mnt/ken_personal_wiki/Articles/Back of the Envelope Calculation - Better Programmer.md
 ---
 

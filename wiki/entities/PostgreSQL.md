@@ -7,6 +7,7 @@ sources:
   - aws-blog-optimize-generative-ai-applications-with-pgvector-indexing
   - anze-pecar-gotchas-with-sqlite-in-production
   - valentin-mouret-simple-authentication-with-only-postgresql
+  - blog-timescale-rag-is-more-than-just-vector-search
 last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
@@ -21,13 +22,15 @@ The article's argument is architectural rather than absolutist. PostgreSQL is no
 
 PostgreSQL's extension story is concrete in vector retrieval work: it can store embedding vectors through [[Pgvector]], use distance operator classes for L2, cosine, or inner-product search, and add ANN indexes when exact vector comparison is too slow for interactive RAG workloads.
 
+The Timescale GitHub-issue example extends that role beyond a vector store. PostgreSQL holds original records, LLM-derived summaries and labels, embeddings, repository keys, and timestamps; [[Pgvectorscale]] supplies DiskANN indexing, while SQL joins, filters, aggregation, and time-series functions answer questions semantic similarity cannot. This is evidence for a shared retrieval substrate, not proof that one database is optimal for every RAG workload.
+
 PostgreSQL also serves as the contrast case for embedded-database simplicity. When an application needs multi-machine high availability, heavy parallel writes, long-running transactions, broader migration ergonomics, or mature replication options, a client-server database such as PostgreSQL may be simpler than stretching SQLite with distributed add-ons.
 
 The `pgcrypto` extension adds another narrowly useful workload: password-hash creation and verification can live in the database through salted bcrypt hashes. That mechanism reduces application-side code for a small system, but it does not turn PostgreSQL into a complete authentication platform, and the source's sample function shows how SQL name resolution and incorrect volatility declarations can undermine an otherwise reasonable storage pattern.
 
 ## Key Characteristics
 - Acts as a consolidation-first default for transactional and adjacent data workloads.
-- Supports many use cases through an advanced extension architecture, including exact and approximate vector search through pgvector.
+- Supports mixed semantic, relational, temporal, and analytical retrieval through extensions such as pgvector and pgvectorscale.
 - Has mature production history, deployment patterns, recovery approaches, and high-availability practices.
 - Reduces operational and reasoning complexity when it replaces premature multi-database choices.
 - Can still be outgrown when workloads exceed its design envelope or require critical missing capabilities.
@@ -45,15 +48,18 @@ The `pgcrypto` extension adds another narrowly useful workload: password-hash cr
 - SQLite contrast: [[anze-pecar-gotchas-with-sqlite-in-production]] recommends considering PostgreSQL or MySQL when applications need multiple machines, continuous heavy writes, long transactions, stronger replication options, or simpler migration tooling.
 - Password hashing: [[valentin-mouret-simple-authentication-with-only-postgresql]] uses `pgcrypto` to generate a distinct bcrypt salt per credential and verify a candidate against the stored hash.
 - Authentication boundary: [[valentin-mouret-simple-authentication-with-only-postgresql]] explicitly omits recovery and other full-system concerns, while its final SQL function demonstrates name-resolution, volatility, and null-result hazards.
+- Mixed RAG retrieval: [[blog-timescale-rag-is-more-than-just-vector-search]] stores raw issues, summaries, labels, timestamps, and embeddings together so tools can choose semantic search or SQL analysis.
+- Vector scaling extension: [[blog-timescale-rag-is-more-than-just-vector-search]] adds pgvectorscale DiskANN indexes to pgvector-backed tables.
 
 ## Qualifications
-The PostgreSQL-first source is an advocacy essay connected to a Timescale promotion, not a benchmark or neutral database comparison. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, not a universal rule. The authentication source is a short tutorial whose final function should not be copied as written. Together they support PostgreSQL's maturity and extensibility but do not prove that PostgreSQL is always better than specialized systems or that extension support replaces domain-specific design and review.
+The PostgreSQL-first and Timescale RAG sources are advocacy material connected to Timescale products, not neutral database comparisons. The AWS source is a vendor technical article with a single vector-search benchmark. The SQLite source is a practitioner comparison, not a universal rule. The authentication source is a short tutorial whose final function should not be copied as written. The RAG tutorial likewise contains a `label`/`issue_label` mismatch and omits important query-safety controls. Together they support PostgreSQL's maturity and extensibility but do not prove that PostgreSQL is always better than specialized systems or that extension support replaces domain-specific design and review.
 
 ## What Changed
 - Created the PostgreSQL entity page as a database-consolidation anchor.
 - Added pgvector-backed vector search as a concrete extension workload.
 - Added SQLite as a contrasting simplicity path whose limits can push teams back toward PostgreSQL.
 - Added `pgcrypto` password hashing as a compact extension workload, with explicit limits around the wider authentication lifecycle and the article's flawed function example.
+- Added mixed semantic, relational, and time-series retrieval as a PostgreSQL-centered RAG workload.
 
 ## Relationships
 - [[DatabaseConsolidation]] - PostgreSQL is the source's preferred consolidation platform.
@@ -66,3 +72,5 @@ The PostgreSQL-first source is an advocacy essay connected to a Timescale promot
 - [[SQLite]] - SQLite is contrasted with PostgreSQL around availability, concurrency, replication, and migrations.
 - [[PasswordHashing]] - pgcrypto implements the source's per-credential bcrypt storage and verification pattern.
 - [[AuthenticationInfrastructure]] - PostgreSQL can perform credential verification but does not supply the complete login, recovery, session, and abuse-control system.
+- [[Pgvectorscale]] - pgvectorscale adds the DiskANN vector indexes used in the mixed-retrieval tutorial.
+- [[TextToSQL]] - generated SQL provides an analytical retrieval path over PostgreSQL data.

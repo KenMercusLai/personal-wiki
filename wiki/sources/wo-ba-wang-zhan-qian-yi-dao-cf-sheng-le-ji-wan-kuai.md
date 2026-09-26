@@ -2,7 +2,7 @@
 title: "我把网站迁移到 cf，省了几万块"
 type: source
 tags: [cloudflare, vercel, nextjs, deployment, cost-optimization]
-date: 2026-03-18
+date: 2024-08-12
 source_file: /mnt/ken_personal_wiki/Articles/我把网站迁移到 cf，省了几万块.md
 ---
 

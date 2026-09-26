@@ -2,7 +2,7 @@
 title: "CES 2019: A Show Report"
 type: source
 tags: [consumer-electronics, ces, product-management, smart-home, voice-assistants]
-date: 2019-01-25
+date: 2019-01-14
 source_file: '/mnt/ken_personal_wiki/Articles/CES 2019- A Show Report - Learning By Shipping.md'
 ---
 

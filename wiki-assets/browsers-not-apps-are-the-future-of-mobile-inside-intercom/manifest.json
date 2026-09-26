@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "browsers-not-apps-are-the-future-of-mobile-inside-intercom",
+  "images": [
+    {
+      "file": "facebook-in-app-browser.png",
+      "alt": "Facebook in-app browser showing its URL field, back button, and bookmark control"
+    },
+    {
+      "file": "app-time-concentration.png",
+      "alt": "ComScore chart showing 50 percent of smartphone app time in the most-used app and 78 percent in the top three"
+    },
+    {
+      "file": "telegram-music-bot.gif",
+      "alt": "Telegram Classical Music bot demonstrating search, paginated results, and in-chat playback"
+    }
+  ]
+}

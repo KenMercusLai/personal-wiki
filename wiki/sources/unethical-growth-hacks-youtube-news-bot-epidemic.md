@@ -2,7 +2,7 @@
 title: "Unethical growth hacks: A look into the growing Youtube news bot epidemic"
 type: source
 tags: [youtube, automation, content-farming, media, platform-governance]
-date: 2026-04-03
+date: 2018-04-13
 source_file: "/mnt/ken_personal_wiki/Articles/Unethical growth hacks- A look into the growing Youtube news bot epidemic - By.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "为什么你的\"AI 优先\"战略可能大错特错？"
 type: source
 tags: [ai, software-engineering, ai-first]
-date: 2026-04-21
+date: 2026-04-13
 source_file: /mnt/ken_personal_wiki/Articles/为什么你的AI 优先战略可能大错特错？.md
 ---
 

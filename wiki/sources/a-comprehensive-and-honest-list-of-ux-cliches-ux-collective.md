@@ -2,7 +2,7 @@
 title: "A comprehensive (and honest) list of UX cliches - UX Collective"
 type: source
 tags: [ux, satire, design]
-date: 2019-03-11
+date: 2019-02-26
 source_file: "/mnt/ken_personal_wiki/Articles/A comprehensive _and honest_ list of UX clichés - UX Collective.md"
 ---
 

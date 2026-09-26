@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "ces-2018-real-advances-real-progress-real-questions",
+  "images": [
+    {
+      "file": "alexa-clock-endpoint.gif",
+      "alt": "Alexa-enabled clock demonstrates voice runtime embedded in an ordinary endpoint"
+    },
+    {
+      "file": "samsung-modular-wall-display.gif",
+      "alt": "Samsung's modular display changes from a brick-like surface into a full image"
+    },
+    {
+      "file": "refrigerator-touch-interface.gif",
+      "alt": "Touchscreen refrigerator illustrates software embedded in a long-lived appliance"
+    },
+    {
+      "file": "clearmotion-road-response-demo.gif",
+      "alt": "ClearMotion demonstration maps a road and previews software-controlled suspension response"
+    },
+    {
+      "file": "samsung-flip-whiteboard.gif",
+      "alt": "Samsung Flip demonstration shows a purpose-built pen and touch whiteboard workflow"
+    },
+    {
+      "file": "righteye-eye-tracking-demo.gif",
+      "alt": "RightEye demonstration uses eye tracking as an input to specialist diagnostic assessment"
+    }
+  ]
+}

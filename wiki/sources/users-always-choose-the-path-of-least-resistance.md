@@ -2,7 +2,7 @@
 title: "Users always choose the path of least resistance"
 type: source
 tags: [product-design, ux, usability, engagement]
-date: 2026-04-03
+date: 2016-02-16
 source_file: "/mnt/ken_personal_wiki/Articles/Users always choose the path of least resistance.md"
 ---
 

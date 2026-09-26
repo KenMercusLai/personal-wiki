@@ -2,7 +2,7 @@
 title: "4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support"
 type: source
 tags: [wsl, windows, developer-environment, systemd]
-date: 2026-09-12
+date: 2023-01-02
 source_file: "/mnt/ken_personal_wiki/Articles/4wk - Clean Uninstall Then Reinstall of WSL on Windows 10 with systemD Support.md"
 ---
 

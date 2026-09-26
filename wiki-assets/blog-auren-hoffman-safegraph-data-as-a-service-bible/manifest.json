@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "blog-auren-hoffman-safegraph-data-as-a-service-bible",
+  "images": [
+    {
+      "file": "compute-cost-growth.png",
+      "alt": "Long-run decline in computing cost, plotted as log MIPS per 2004 US dollar by year"
+    },
+    {
+      "file": "truth-religion-data-application-matrix.png",
+      "alt": "Matrix separating truth from prediction and raw-data companies from application companies, with representative firms"
+    },
+    {
+      "file": "daas-margin-scale-example.png",
+      "alt": "Illustrative data-company revenue, data-cost, and implied-margin path from 2011 through 2018"
+    }
+  ]
+}

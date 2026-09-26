@@ -1,6 +1,20 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "account-access-design-shapes-participation-and-dependence",
+      "qualifications": [
+        "The evidence is one 2017 practitioner essay focused on implementation burden rather than a comparative study of exclusion, privacy, trust, or participation outcomes.",
+        "Requiring one external identity provider can exclude users who lack or reject that account, while email, phone, device-pairing, and locally managed alternatives each create different access and recovery constraints."
+      ],
+      "statement": "Account access is also a participation boundary: [[MikeHearn]] separates stable email or phone identity from mutable public names and shows how [[AuthenticationInfrastructure]] choices distribute dependence among identity providers, inboxes, phone networks, devices, and local support rather than merely changing a login form.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "MikeHearn",
+        "AuthenticationInfrastructure"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "direct-creator-payment-enables-but-does-not-secure-creator-businesses",
       "qualifications": [

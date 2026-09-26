@@ -2,7 +2,7 @@
 title: "9 Boxes"
 type: source
 tags: [media, business-models, strategy, organization]
-date: 2026-03-14
+date: 2017-12-13
 source_file: /mnt/ken_personal_wiki/Articles/9 Boxes.md
 ---
 

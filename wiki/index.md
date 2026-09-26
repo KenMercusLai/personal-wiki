@@ -7,6 +7,45 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Content Marketing Strategy for Multi-Product Companies](sources/content-marketing-strategy-for-multi-product-companies.md) - A practitioner framework maps products or audiences against funnel stages to audit and prioritize multi-product content coverage.
+- [Consumers Are Becoming Wise to Your Nudge](sources/consumers-are-becoming-wise-to-your-nudge-behavioral-scientist.md) - Simon Shaw reports a representative British experiment in which familiar hotel-booking scarcity and social-proof claims were widely read as pressure and often reduced trust.
+- [Consumer startups are dead. Long live consumer startups.](sources/consumer-startups-are-dead-long-live-consumer-startups.md) - A 2018 investor essay argues that mobile consumer power shifted toward incumbents after 2013, while multi-homing, residual app discovery, and cheaper product development left conditional openings for entrants.
+- [Consumer Packaged Goods are ripe for disruption](sources/consumer-packaged-goods-are-ripe-for-disruption-lightspeed-venture-partners-medium.md) - Lightspeed argues that personalized, transparent brands can use flexible distribution, measurable digital acquisition, and faster product cycles to challenge CPG incumbents.
+- [Confronting imposter syndrome as a startup founder](sources/confronting-imposter-syndrome-as-a-startup-founder-baremetrics.md) - Josh Pigford argues that growth can intensify founder self-doubt and recommends peer support, outside perspective, customer contact, and naming difficult days.
+- [Configuration Management is an Antipattern](sources/configuration-management-is-an-antipattern-by.md) - Jonah Horowitz credits configuration management's historical gains but argues for prebuilt immutable images, staged promotion, and instance replacement over mutable fleet convergence.
+- [Confessions of a Startup Mole in a Dumb Big Company](sources/confessions-of-a-startup-mole-in-a-dumb-big-company.md) - Saumil Mehta contrasts startup speed and generalism with Square's accessible leadership, specialist support, strategic constraints, dependencies, and abundance-driven waste.
+- [Confessions of a $20K bootcamp graduate. (Hack Reactor)](sources/confessions-of-a-20k-bootcamp-graduate-hack-reactor.md) - A pseudonymous graduate critiques Hack Reactor's compressed 2016 teaching model, recent-graduate support, JavaScript-only scope, premium tuition, and hard-to-interpret placement claims.
+- [Confessions Of A VC: Crap - Why I Passed On Uber's Seed Round](sources/confessions-of-a-vc-crap-why-i-passed-on-ubers-seed-round-john-greathouse.md) - John Greathouse examines how thesis filtering, secondhand framing, local-market assumptions, and marketplace risk led him to skip Uber's pitch despite repeated trusted referrals.
+- [Conceptual Debt is Worse than Technical Debt](sources/conceptual-debt-is-worse-than-technical-debt-all-things-product-management-medium.md) - Nicolae Rusan argues that flawed or redundant product abstractions compound across user comprehension, support, code, and redesign, making them costly to replace after users adapt.
+- [Competition Does Not Matter](sources/competition-does-not-matter.md) - A founder-advice essay reframes competition as educated demand and preference-based niche opportunity for self-funded SaaS, while relying on selected success anecdotes rather than comparative evidence.
+- [Competing with BigCo: 2018 Edition](sources/competing-with-bigco-2018-edition-learning-by-shipping.md) - Steven Sinofsky argues that mature incumbents optimize endpoints, price, bundles, and margin, leaving conditional startup openings in seams, weak peripheral modules, and new abstractions.
+- [Communication Multitasking: You Only Get 1h 12min/day Without Email](sources/communication-multitasking-you-only-get-1h-12min-day-without-email.md) - RescueTime reports extensive overlap between productive work and email or IM while qualifying its focus-time benchmarks as observational, method-limited product data.
+- [Common Rules For Uncommon People](sources/common-rules-for-uncommon-people-by.md) - Noah Jessop turns an enterprise-sales qualification failure into practical rules for warm introductions, concise communication, meeting control, follow-up, persistence, and closing.
+- [Cloudflare outage on February 20, 2026](sources/cloudflare-outage-on-february-20-2026.md) - Cloudflare traces a six-hour BYOIP outage to an ambiguous cleanup query, direct configuration propagation, incomplete task-runner testing, and stateful recovery gaps.
+- [Closing the Book on Gawker.com](sources/closing-the-book-on-gawker-com.md) - Josh Laurito's quantitative farewell records Gawker's publishing, traffic, contributor, topic, and Kinja comment scale with explicit historical-data caveats.
+- [Cisco Catalyst SD-WAN Control Components Certificates and Authorized Serial Number File Prescriptive Deployment Guide](sources/cisco-cisco-catalyst-sd-wan-control-components-certificates-deployment-guide.md) - Cisco combines certificate identity, organization checks, signed challenges, and authorized device lists across SD-WAN deployment, renewal, and migration workflows.
+- [Christensen Institute - Jobs to Be Done Theory](sources/christensen-institute-jobs-to-be-done-theory.md) - The Christensen Institute frames product and service choices as attempts to make functional, social, and emotional progress within changing circumstances.
+- [CTO vs VP Engineering: What's the Difference?](sources/cto-vs-vp-engineering-whats-the-difference-ivy-exec-blog.md) - Ivy Exec distinguishes CTO technology direction from VP Engineering ownership of people, delivery, roadmaps, and budgets while treating hiring thresholds as context-dependent.
+- [CS183C Session 11: Patrick Collison, Stripe](sources/cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium.md) - Patrick Collison connects Stripe's founding problem to patient hiring, developer-led product work, API compatibility, and written communication at scale.
+- [This high school dropout who invested in bitcoin at $12 is now a millionaire at 18](sources/cnbc-erik-finman-bitcoin-millionaire-who-skipped-college.md) - CNBC profiles Erik Finman's Bitcoin-financed path through Botangle and his rejection of formal credentials while explicitly noting volatility and divergent price forecasts.
+- [BuzzFeed's Jonah Peretti: news publishers only have themselves to blame for losing out to Google and Facebook](sources/buzzfeeds-jonah-peretti-news-publishers-only-have-themselves-to-blame-for-losing-out-to-google-and-facebook-the-drum.md) - Jonah Peretti argues that legacy publishers' short-termism created their digital weakness while presenting BuzzFeed's distributed news, entertainment, video, and platform-partnership strategy.
+- [Business Questions Engineers Should Ask When Interviewing at ML/AI Companies](sources/business-questions-engineers-should-ask-when-interviewing-at-ml-ai-companies.md) - Daniel Gross gives ML/AI job candidates a business-diligence framework spanning customer need, comparative value, user learning, revenue, growth economics, market size, and defensibility.
+- [Building Account Systems](sources/building-account-systems-mikes-blog.md) - Mike Hearn frames authentication as a broad lifecycle and argues for outsourcing identity where possible, with passwordless sign-in, explicit session invalidation, and careful recovery and email operations where teams retain control.
+- [Building a One Man SaaS App Offers a Profound Sense of Personal Achievement](sources/building-a-one-man-saas-app-offers-a-profound-sense-of-personal-achievement.md) - A solo developer reports that a four-year SaaS side project produced income and an exit, while cross-functional execution created the deeper return of confidence and reusable business judgment.
+- [Building a Data-Informed Culture: An Introduction to Data at Gusto](sources/building-a-data-informed-culture-an-introduction-to-data-at-gusto.md) - Gusto describes a foundation-first path from fragmented queries to a governed layered warehouse, analyst self-service, and predictive-data investment.
+- [Building Products Without Coding](sources/building-products-without-coding-learning-new-stuff-medium.md) - Per Harald Borgen describes a five-service BugRex MVP built to test marketplace demand, pricing, and expert compensation before custom coding.
+- [Building Hybrid Applications with Electron](sources/building-hybrid-applications-with-electron-several-people-are-coding.md) - Slack describes a shared Electron desktop client combining a trusted local shell, remotely loaded team content, renderer isolation, constrained preload APIs, and asynchronous IPC.
+- [Browsers, not apps, are the future of mobile](sources/browsers-not-apps-are-the-future-of-mobile-inside-intercom.md) - Inside Intercom argues that social and messaging products can become contextual mobile browsers while bots act as dynamic, actionable bookmarks, a 2016 forecast qualified by later chatbot evidence.
+- [When VCs Say the Giants Will Enter Your Market](sources/brett-fox-when-vcs-say-giants-will-enter-your-market.md) - Brett Fox argues that focused specialists can beat larger entrants when the market is existential to them, but attacking an incumbent's core revenue pool provokes concentrated defense.
+- [Boring Obligations From Investors](sources/brett-fox-boring-obligations-from-investors.md) - Brett Fox presents quarterly reporting, LP references, portfolio diligence, and investor events as consequential post-funding founder obligations.
+- [从神经网络到 Hugging Face](sources/blog-hu-tu-shuo-cong-shen-jing-wang-luo-dao-hugging-face.md) - 胡涂说以感知机、深度学习、Transformer 与 Hugging Face 串联神经网络史，并把预训练模型、开源工具和 Hub 视为扩大成果复用的基础设施。
+- [RAG Is More Than Just Vector Search](sources/blog-timescale-rag-is-more-than-just-vector-search.md) - Timescale demonstrates a PostgreSQL-centered RAG system that routes among semantic search, raw records, summaries, time-series analysis, and text-to-SQL, while exposing evaluation and schema-consistency limits.
+- [The sights and sounds of Bhutan](sources/blog-tim-urban-waitbutwhy-the-sights-and-sounds-of-bhutan.md) - Tim Urban's guided travelogue presents Bhutan's Buddhist monarchy, cultural and environmental policies, distinctive architecture, and tension between preservation and youth opportunity.
+- [Shipping at Inference-Speed](sources/blog-peter-steinberger-shipping-at-inference-speed.md) - Peter Steinberger describes a solo coding-agent workflow where implementation speed shifts the bottleneck toward inference, architecture, dependencies, product judgment, and human attention.
+- [The Ultimate Productivity Hack is Saying No](sources/blog-james-clear-the-ultimate-productivity-hack-is-saying-no.md) - James Clear argues that eliminating unnecessary commitments preserves future time and optionality, while acceptance thresholds should rise with opportunity cost without erasing exploration or power constraints.
+- [The Ultimate Habit Tracker Guide: Why and How to Track Your Habits](sources/blog-james-clear-the-ultimate-habit-tracker-guide.md) - James Clear presents selective habit tracking as immediate feedback, motivation, process focus, and a recovery aid when long-term outcomes are delayed.
+- [Knowledge Retrieval Takes Center Stage](sources/blog-intel-labs-knowledge-retrieval-takes-center-stage.md) - Intel Labs proposes retrieval-centric generation, where curated external sources dominate factual content and schema-capable targeted models interpret previously unseen enterprise data.
+- [AI Agent（智能体）技术白皮书（Google，2024，译文）](sources/blog-arthur-chiao-yi-ai-agent-ji-shu-bai-pi-shu-google-2024.md) - Arthur Chiao's translation of Google's agent white paper explains model-orchestration-tool architecture, ReAct loops, execution boundaries, RAG data stores, targeted learning, and a LangChain/LangGraph prototype.
 - [Bezos Prime](sources/bezos-prime-fortune.md) - Fortune profiles Jeff Bezos's shift from founder hub to leader of leaders across Amazon, the Washington Post, and Blue Origin through senior ownership, written reviews, patient capital, and selective depth.
 - [BeyondCorp: How Google Ditched VPNs for Remote Employee Access - The New Stack](sources/beyondcorp-how-google-ditched-vpns-for-remote-employee-access-the-new-stack.md) - Google presenters describe replacing VPN perimeter trust with identity- and device-aware application access, tiered policy, proxy enforcement, and replay-tested migration.
 - [Beware the One-Person Team](sources/beware-the-one-person-team.md) - Edmond Lau argues that solo project staffing trades coordination cost for weaker feedback, learning, continuity, momentum, and morale.
@@ -161,6 +200,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Can Digital Products Be "Timeless?"](sources/can-digital-products-be-timeless-startup-grind-medium.md) - Startup Grind argues that digital products can become timeless design candidates when a focused, iconic core survives rapid platform change, using the Google Homepage and Porsche 911 as the central comparison.
 - [Amazon Plans to Move Off Oracle Software by Early 2020](sources/cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020.md) - CNBC reports that Amazon planned to complete a move away from Oracle databases by early 2020, framing the migration as both a scalability decision and a public AWS-versus-Oracle cloud signal.
 - [CES 2019: A Show Report](sources/ces-2019-a-show-report-learning-by-shipping.md) - Steven Sinofsky reads CES 2019 as a connected-product integration moment where smart-home, voice, TV, AI, wireless, and PC/gaming advances still needed better product judgment to become reliable everyday experiences.
+- [CES 2018: Real Advances, Real Progress, Real Questions](sources/ces-2018-real-advances-real-progress-real-questions.md) - Steven Sinofsky argues that cumulative consumer-technology progress matters while questioning voice expectations, endpoint complexity, fragmented smart-home platforms, and software embedded in long-lived devices.
 - [CEO Advice from a New CEO](sources/ceo-advice-from-a-new-ceo-the-biz-stone-collection-medium.md) - Biz Stone distills early CEO lessons around frequent communication, selective outside advice, firing, praise, and decisive leadership under uncertainty.
 - [Co-CEOs: Are Two Better than One?](sources/co-ceos-are-two-better-than-one.md) - Shared-governance article arguing that co-CEOs can work through complementary skills, peer oversight, divided responsibility, global coverage, and disciplined conflict norms.
 - [Buying Time, Not Stuff, Might Make You Happier](sources/buying-time-not-stuff-might-make-you-happier-shots-health-news-npr.md) - NPR reports on research suggesting that spending money on time-saving services can improve positive emotion and life satisfaction more than buying material goods, while leaving durability questions open.
@@ -196,6 +236,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [怎样用数据洞察你的用户](sources/blog-wulc-zen-yang-yong-shu-ju-dong-cha-ni-de-yong-hu.md) - Wulc explains audience targeting and user profiling as demand-driven label design, from structured versus advertiser-specific tag systems to behavioral targeting, recency weighting, thresholds, and Reach/CTR evaluation.
 - [张潇雨的个人投资课(3)-投资组合构建](sources/blog-wulc-zhang-xiao-yu-de-ge-ren-tou-zi-ke-3-tou-zi-zu-he-gou-jian.md) - Wulc summarizes Zhang Xiaoyu's portfolio-construction course section: asset allocation, asset classes, Permanent/All Weather/Swensen portfolios, rebalancing, factor investing, index-fund categories, and investing-language traps.
 - [孤儿进程和僵尸进程](sources/blog-wulc-gu-er-jin-cheng-he-jiang-shi-jin-cheng.md) - Wulc distinguishes orphan processes from zombie processes, explaining init adoption, wait/waitpid reaping, PID exhaustion risk, and parent-focused cleanup.
+- [浏览器缓存机制](sources/blog-wulc-liu-lan-qi-huan-cun-ji-zhi.md) - Wulc explains browser-cache freshness and conditional validation through Cache-Control, Expires, ETag, Last-Modified, and inspected request-flow diagrams, with modern qualifications.
 - [如何用数据来挣钱](sources/blog-wulc-ru-he-yong-shu-ju-lai-zhuan-qian.md) - Wulc explains how free internet traffic becomes monetizable through data-enhanced advertising, from demographic contracts and auctions to programmatic trading, retargeting, look-alike recommendation, ecommerce recommendation, and mobile scene data.
 - [如何成为快速阅读高手](sources/blog-wulc-ru-he-cheng-wei-kuai-su-yue-du-gao-shou.md) - Wulc summarizes a three-stage nonfiction reading method: evaluate a book, speed-read for structure and key concepts, then deep-read selectively for memory and output.
 - [python 并行编程概述](sources/blog-wulc-python-bing-xing-bian-cheng-gai-shu.md) - Wulc introduces concurrent, parallel, and distributed programming; shared state versus message passing; deadlock, starvation, race conditions; and Python modules such as threading, multiprocessing, Parallel Python, and Celery.
@@ -220,6 +261,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Strong and Weak Forces of Architecture](sources/blog-martin-fowler-the-strong-and-weak-forces-of-architecture.md) - Martin Fowler argues that architecture governance should vary by organizational alignment strength, with stronger domain-level forces tolerating faster change and weaker organization-wide forces requiring loose coupling, contracts, and formal guidance.
 - [How I Use Twitter](sources/blog-martin-fowler-how-i-use-twitter.md) - Martin Fowler describes Twitter as a curated information and article-discovery tool shaped by selective follows, lists, chronological feeds, reply avoidance, Instapaper handoff, and harassment concerns.
 - [Foreword to The Art of Agile Development](sources/blog-martin-fowler-foreword-to-the-art-of-agile-development.md) - Martin Fowler argues that real agile work depends on interconnected value, collaboration, technical-quality, XP, DevOps, and continuous-delivery practices rather than ceremonies alone.
+- [Building Infrastructure Platforms](sources/blog-martinfowler-com-building-infrastructure-platforms.md) - Poppy Rowse and Chris Shepherd frame infrastructure platforms as internal products requiring measurable strategy, user discovery, early onboarding, technical communication, service design, complexity control, and actionable metrics.
 - [16 Observations on Livestreaming in China](sources/16-observations-on-livestreaming-in-china-andreessen-horowitz.md) - Connie Chan analyzes China's social livestreaming boom as mobile self-expression, digital gifting, live commerce, creator economics, and regulated entertainment.
 - [纳瓦尔深度洞察：对待 AI 你得行动起来！](sources/blog-maiyang-naval-insights-taking-action-with-ai.md) - MaiYang uses Naval's action-first framing to argue that AI-era progress comes from self-owned desire, concrete building, and learning by doing rather than passive success-content consumption.
 - [42 Things I Learned from Building a Production Database](sources/blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database.md) - Mahesh Balakrishnan distills Delos lessons on production infrastructure leadership across customers, project management, API design, review culture, observability, strategy, and research.
@@ -229,6 +271,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Difference Between Time and Attention](sources/blog-jason-fried-signal-v-noise-the-difference-between-time-and-attention.md) - Jason Fried argues that useful commitments are constrained by attention rather than calendar time, so saying no can be more honest when mental presence is unavailable.
 - [12 Best Practices For Boosting Product Page Conversions](sources/12-best-practices-for-boosting-product-page-conversions.md) - An ecommerce CRO article arguing that product pages convert through product media, trust badges, reviews, FAQs, value propositions, mobile speed, social proof, and carefully tested scarcity.
 - [Legacy Mimic](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-legacy-mimic.md) - Ian Cartwright, Rob Horn, and James Lewis describe temporary service-providing and service-consuming mimic components that keep legacy processes working while capabilities are incrementally displaced.
+- [Divert the Flow](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-divert-the-flow.md) - Ian Cartwright, Rob Horn, and James Lewis replace a critical aggregator early, redirect its inputs toward ultimate sources, reconcile outputs, and release upstream systems from legacy reporting contracts.
+- [Transitional Architecture](sources/blog-ian-cartwright-rob-horn-james-lewis-martinfowler-com-transitional-architecture.md) - Ian Cartwright, Rob Horn, and James Lewis explain how temporary routing, translation, and state-replication components trade construction cost for earlier value and lower legacy-migration risk.
 - [Learning By Writing](sources/blog-holden-karnofsky-cold-takes-learning-by-writing.md) - Holden Karnofsky argues that writing premature hypotheses, attacking their weaknesses, and reading toward view-changing subquestions can make learning and research more focused than open-ended intake.
 - [Career Advice I'd Give To 20-, 30- and 40-Something Year Old Me](sources/blog-ethan-banks-career-advice-id-give-to-20-30-and-40-something-year-old-me.md) - Ethan Banks offers age-staged career advice on asymmetric risk, humility, promotion reality, goals, relationships, recovery, saying no, habits, restraint, and choosing one's own priorities.
 - [Compliance in a DevOps Culture](sources/blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture.md) - Carl Nygard compares manual, pipeline, composition, and point-of-change compliance patterns, arguing for evidence-driven controls that preserve DevOps delivery at scale.
@@ -463,6 +507,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Serverless应用开发小记](sources/bmpi-serverless-ying-yong-kai-fa-xiao-ji.md) - bmpi.dev documents a hybrid AWS serverless application using scheduled Fargate, Lambda, API Gateway, SNS, S3, CloudFront, Terraform, and Serverless Framework.
 - [Write less code, be more responsible](sources/write-less-code-be-more-responsible-orhuns-blog.md) - Orhun Parmaksız argues for task-selective AI coding, sustainable human review, transparent tool use, and full developer responsibility for released software.
 - [Dijkstra's Shortest Path Algorithm - A Detailed and Visual Introduction](sources/freecodecamp-dijkstras-shortest-path-algorithm-a-detailed-and-visual-introduction.md) - Estefania Cassingena Navone visually explains graph structure, greedy distance selection, relaxation, and the resulting shortest-path tree.
+- [Brand: You. Creating and Self-Marketing Yourself to Find a Job During Tough Times](sources/business-insider-matt-warzel-brand-you-creating-and-self-marketing-yourself-to-find-a-job-during-tough-times.md) - Matt Warzel combines mission, self-assessment, market research, SWOT, career branding, and an elevator speech into a targeted job-search plan.
 - [A Neural Network in 11 lines of Python (Part 1)](sources/iamtrask-a-neural-network-in-11-lines-of-python-part-1.md) - iamtrask explains sigmoid networks, full-batch weight updates, backpropagation, and hidden-layer XOR learning in compact NumPy.
 - [深度解读：OpenClaw 架构及生态](sources/lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai.md) - Lencx analyzes OpenClaw's embedded engine, IM bus, Skills, persistent sessions, heartbeats, model routing, Moltbook ecosystem, token economics, and prompt-injection and credential risks.
 - [“Convince Me” said the Investor. “No” said the Founder.](sources/convince-me-said-the-investor-no-said-the-founder-hunter-walk.md) - Hunter Walk argues that founders should treat fundraising as mutual selection and end low-value persuasion contests when an investor offers neither likely capital nor grounded feedback.
@@ -477,8 +522,50 @@ This file is maintained by the LLM. Updated on every ingest.
 - [B2B Blog Post Ideas: Tried And True Ideas For B2B Brands](sources/b2b-blog-post-ideas-tried-and-true-ideas-for-b2b-brands.md) - A practitioner taxonomy of eight B2B post formats, linking search, instruction, evidence, debate, scanning, and company news to different audience and distribution jobs.
 - [运气与努力](sources/blog-1byte-io-yun-qi-yu-nu-li.md) - 1Byte argues that learning, judgment, preparation, structural opportunity, and chance jointly shape success, with implications for humility and imitation.
 
+- [Scaling the Practice of Architecture, Conversationally](sources/blog-andrew-harmel-law-martinfowler-com-scaling-the-practice-of-architecture-conversationally.md) - Andrew Harmel-Law proposes a conversational architecture model combining distributed decision rights, mandatory advice, ADRs, an open advisory forum, team-sourced principles, and an internal technology radar.
+- [Data-As-A-Service Bible: Everything You Wanted To Know About Running DaaS Companies](sources/blog-auren-hoffman-safegraph-data-as-a-service-bible.md) - Auren Hoffman frames data businesses around acquisition, transformation, delivery, truth, joinability, scale economics, evaluation, and rights.
+- [记 LobeHub 的性能和 DX 优化](sources/blog-innei-lobehub-performance-and-dx-optimization.md) - Innei reports profiler-guided React runtime work, Electron package reduction, and developer-workflow changes at LobeHub while qualifying the measurements as development-environment observations.
+- [Listening is The Job](sources/boz-listening-is-the-job.md) - Andrew Bosworth frames listening as ownership of workplace information flow through deliberate channels, pruning, gap mapping, follow-up, callbacks, outbound context, and receptive interpretation.
+- [Column: They're leaving California for Las Vegas to find the middle-class life that eluded them - Los Angeles Times](sources/column-theyre-leaving-california-for-las-vegas-to-find-the-middle-class-life-that-eluded-them-los-angeles-times.md) - Steve Lopez uses California transplant stories to show how lower Las Vegas housing and commuting costs can restore savings, time, and ownership prospects without a higher-paying job.
+- [Consensus vs. Collaboration](sources/consensus-vs-collaboration-silicon-valley-product-group.md) - SVPG distinguishes inclusive cross-functional collaboration from unanimous approval and argues for explicit decision authority when product trade-offs remain unresolved.
+
 ## Entities
 
+- [LiveRamp](entities/LiveRamp.md) - Source-bounded 2019 profile of a people-data middleware company in Auren Hoffman’s DaaS account.
+- [Simon Shaw](entities/SimonShaw.md) - Trinity McQueen cofounder who studies how repeated commercial nudges affect trust, emotion, and consumer resistance.
+- [Trinity McQueen](entities/TrinityMcQueen.md) - UK insight consultancy represented through its 2019 experiment on hotel-booking scarcity and social-proof claims.
+- [Brandable](entities/Brandable.md) - Lightspeed portfolio company used to anchor its 2018 thesis about the modern consumer-packaged-goods company.
+- [Josh Pigford](entities/JoshPigford.md) - Baremetrics founder-author describing growth-amplified pressure, criticism, and practical responses to imposter syndrome.
+- [Jonah Horowitz](entities/JonahHorowitz.md) - Infrastructure practitioner arguing from manual releases, configuration management, and Netflix image practices toward immutable delivery.
+- [Saumil Mehta](entities/SaumilMehta.md) - Startup founder and Square operator whose first-person comparison links scale to both stronger support and higher coordination cost.
+- [Hack Reactor](entities/HackReactor.md) - Coding bootcamp represented through one graduate's critical account of its 2016 curriculum, teaching structure, tuition, and job-outcome framing.
+- [John Greathouse](entities/JohnGreathouse.md) - Venture capitalist whose Uber anti-portfolio retrospective distinguishes direct diligence from lowering investment standards.
+- [Nicolae Rusan](entities/NicolaeRusan.md) - Product-design writer who frames conceptual clarity as a foundation spanning user understanding, business cost, and implementation.
+- [RescueTime](entities/RescueTime.md) - Digital activity-tracking product and publisher of a 2018 observational analysis of communication multitasking.
+- [Noah Jessop](entities/NoahJessop.md) - Founder-author presenting qualification timing, low-friction communication, next-step control, and direct closing as practical sales disciplines.
+- [Gawker](entities/Gawker.md) - Digital publication represented through its publishing scale, traffic history, broad contributor base, and Kinja community at the end of original operations.
+- [Kinja](entities/Kinja.md) - Gawker Media CMS and commenting system represented as a large publication-community layer using comments and recommendations.
+- [Josh Laurito](entities/JoshLaurito.md) - Gawker Data Team author who compiled the site's 2016 quantitative retrospective and documented its measurement boundaries.
+- [Cisco Catalyst SD-WAN](entities/CiscoCatalystSDWAN.md) - Cisco overlay architecture represented through control-component roles, certificate identity, authorized inventories, and staged certificate operations.
+- [Christensen Institute](entities/ChristensenInstitute.md) - Think tank represented through its Jobs to Be Done theory and social-sector applications.
+- [Ivy Exec](entities/IvyExec.md) - Executive-career publication represented by a practitioner framework for CTO and VP Engineering role boundaries.
+- [Erik Finman](entities/ErikFinman.md) - Teenage investor and Botangle founder represented through a 2017 Bitcoin-funded entrepreneurial and self-education story.
+- [Botangle](entities/Botangle.md) - Online video-tutoring startup financed from and later sold for Bitcoin-linked consideration.
+- [Daniel Gross](entities/DanielGross.md) - Author presenting a business-first framework for evaluating prospective ML/AI employers.
+- [Mike Hearn](entities/MikeHearn.md) - Software engineer and practitioner-author framing account security as a build-versus-outsource and lifecycle-design problem.
+- [Gusto](entities/Gusto.md) - Payroll and benefits software company represented through its 2016 data-platform and organization account.
+- [Apache Airflow](entities/ApacheAirflow.md) - Workflow orchestrator used for ingestion, SQL transformation, testing, quality alerts, and analyst-authored ETL.
+- [Amazon Redshift](entities/AmazonRedshift.md) - Analytical warehouse at the center of Gusto's raw, BI, team-view, and controlled-PII layers.
+- [Telegram](entities/Telegram.md) - Messaging app used as the host of an early in-chat music bot and as an example of messaging becoming a service runtime.
+- [Maxim](entities/Maxim.md) - Semiconductor company used as both a focused challenger and a larger entrant unable to displace committed specialists.
+- [Brett Fox](entities/BrettFox.md) - Founder-author and former semiconductor operator writing about investor obligations, focused competition, and market-entry strategy.
+- [Hugging Face](entities/HuggingFace.md) - Machine-learning company and ecosystem connecting open-source libraries with hosted models, datasets, and AI applications.
+- [Geoffrey Hinton](entities/GeoffreyHinton.md) - Neural-network researcher represented through Boltzmann machines, multilayer training, deep belief networks, and AlexNet.
+- [Bhutan](entities/Bhutan.md) - Himalayan Buddhist kingdom balancing cultural and environmental preservation with youth migration and economic opportunity.
+- [Gelephu Mindfulness City](entities/GelephuMindfulnessCity.md) - Planned Bhutanese innovation hub intended to create opportunity while preserving national tradition.
+- [Intel Labs](entities/IntelLabs.md) - Intel research organization advocating retrieval-centric enterprise AI and developing FastRAG.
+- [FastRAG](entities/FastRAG.md) - Intel Labs retrieval project using small pretrained models and external knowledge bases through Haystack.
+- [SimplyRetrieve](entities/SimplyRetrieve.md) - Kioxia research prototype separating context interpretation from knowledge memorization in an RCG architecture.
 - [Blue Origin](entities/BlueOrigin.md) - Bezos-funded aerospace company pursuing reusable flight and long-run human settlement in space through iterative technical development.
 - [The Washington Post](entities/WashingtonPost.md) - Journalism institution using patient private ownership for digital experimentation while preserving editorial authority boundaries.
 - [Jason Rezaian](entities/JasonRezaian.md) - Washington Post correspondent whose release and retrieval illustrate institutional duty of care for dangerous reporting.
@@ -503,7 +590,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Pandoc](entities/Pandoc.md) - Document converter and citation processor bridging Markdown drafts and formatted DOCX manuscripts.
 - [John Val John](entities/JohnValJohn.md) - Author connecting ad saturation, automatic association, evaluative conditioning, identity, and consumerism.
 - [Tu Youyou](entities/TuYouyou.md) - Project 523 scientist whose artemisinin research illustrates persistent, corrective experimentation under uncertainty.
-- [James Clear](entities/JamesClear.md) - Author framing success through comparison scale, inherited starting position, controllable trajectory, and opportunity exposure.
+- [James Clear](entities/JamesClear.md) - Author framing success through comparison scale, controllable trajectory, behavioral feedback, and selective commitment of future time.
 - [Project Duplo](entities/ProjectDuplo.md) - Pinterest's cross-functional 2017-2018 initiative to rebuild mobile web as a progressive web app.
 - [Gestalt](entities/Gestalt.md) - Pinterest's open-source React component library and design-system foundation for the mobile-web rewrite.
 - [Zack Argyle](entities/ZackArgyle.md) - Pinterest engineering manager who authored the one-year PWA retrospective.
@@ -516,7 +603,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [OfferUp](entities/OfferUp.md) - Broad local-commerce marketplace used as the for-sale category example in the rebundling thesis.
 - [Parker Thompson](entities/ParkerThompson.md) - Startup adviser arguing for team-level engineering productivity, cross-functional product roles, collaborative craft, and early inclusive hiring.
 - [Chen Hao](entities/ChenHao.md) - Technical author connecting protocol standards and complex-system architecture to delivery, reliability, cost, operability, and evidence-based decisions.
-- [胡涂说 (Hutusi)](entities/Hutusi.md) - 以软件工程史、第一性原理和 ChatGPT 编码实验讨论大模型时代开发模式的技术作者。
+- [胡涂说 (Hutusi)](entities/Hutusi.md) - 以软件工程史、神经网络史、第一性原理和实践案例解释当代 AI 转型的技术作者。
 - [胡拉图的后花园](entities/HuLaTuDeHouHuaYuan.md) - 中文作者，以编程中的前置引用类比自学卡顿，并提出多轮阅读与陌生项标记策略。
 - [seanwes tv](entities/SeanwesTV.md) - Creator-education publication combining market-entry encouragement, personal voice, and relationship-centered audience growth.
 - [LiveJournal](entities/LiveJournal.md) - Early journal-centered social platform whose technical and community innovation was constrained by operational strain, governance conflict, and ownership mismatch.
@@ -710,12 +797,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
 - [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
-- [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented here by power-aware product-review meetings and time-respectful meeting ownership.
+- [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented by power-aware reviews, time stewardship, and systematic workplace information seeking.
 - [CB Insights](entities/CBInsights.md) - Startup and venture research publisher and SaaS/data company represented by failure-postmortem research plus Anand Sanwal's operating retrospective.
 - [Anand Sanwal](entities/AnandSanwal.md) - CB Insights founder/CEO voice behind the 54 startup screwups retrospective.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
-- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, big-data transformation, advertising-data monetization, DMP-based data trading, audience targeting, Python concurrency and scraping, Linux process lifecycle, and practical reading methods.
+- [Wulc](entities/Wulc.md) - Chinese blogger explaining environmental fields, data and operations, Python and Unix systems, HTTP browser caching, investing, reading, and practical frameworks.
 - [Zhang Xiaoyu](entities/ZhangXiaoyu.md) - Personal-investing course teacher represented here by market-rules guidance for ordinary investors.
 - [John Maynard Keynes](entities/JohnMaynardKeynes.md) - Economist and investor example used to illustrate the limits of macro-driven investing.
 - [Joel Tillinghast](entities/JoelTillinghast.md) - Investor-author cited for company-level "think small" analysis instead of macro fixation.
@@ -768,16 +855,18 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
 - [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
 - [Joe Lonsdale](entities/JoeLonsdale.md) - 8VC general partner represented here by stage-sensitive advice on when startups should hire experienced operators.
-- [Ian Cartwright](entities/IanCartwright.md) - Coauthor of the Legacy Mimic pattern article, represented here by incremental legacy-displacement guidance.
-- [Rob Horn](entities/RobHorn.md) - Coauthor of the Legacy Mimic pattern article, represented here by transitional architecture and mimic examples.
-- [James Lewis](entities/JamesLewis.md) - Coauthor of the Legacy Mimic pattern article, represented here by legacy compatibility and anti-corruption-layer distinctions.
+- [Ian Cartwright](entities/IanCartwright.md) - Coauthor of legacy-displacement patterns on temporary compatibility, migration sequencing, and bridge retirement.
+- [Rob Horn](entities/RobHorn.md) - Coauthor represented here by transitional architecture, data redirection, staged routing, and migration validation.
+- [James Lewis](entities/JamesLewis.md) - Coauthor connecting legacy compatibility, aggregator sequencing, and decommissioning discipline to incremental modernization.
 - [Holden Karnofsky](entities/HoldenKarnofsky.md) - Cold Takes author represented here by a writing-centered investigation method that uses provisional claims, weakness finding, targeted reading, revision, and feedback.
 - [Ethan Banks](entities/EthanBanks.md) - Career-advice author whose age-staged reflection connects risk timing, goals, relationships, boundaries, habits, and restraint.
-- [Tim Urban](entities/TimUrban.md) - Wait But Why writer represented here by a first-principles career-decision framework.
-- [Wait But Why](entities/WaitButWhy.md) - Illustrated long-form publication context for Tim Urban's career-planning source.
+- [Tim Urban](entities/TimUrban.md) - Wait But Why writer using illustrated frameworks, personal experience, and qualified travel observation to explain unfamiliar systems.
+- [Wait But Why](entities/WaitButWhy.md) - Illustrated long-form publication combining informal explanatory essays with diagrams, photography, maps, and video.
 - [Carl Nygard](entities/CarlNygard.md) - Thoughtworks Technical Principal arguing for evidence-driven compliance architecture in DevOps cultures.
 - [Brandon Byars](entities/BrandonByars.md) - Thoughtworks technology leader and author of the integration-strategy article arguing against tool-owned integration architecture.
-- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to writing, connected technology, historical context, and disciplined learning from business cases.
+- [Steven Sinofsky](entities/StevenSinofsky.md) - Learning By Shipping author applying product-management judgment to writing, connected technology, historical context, incumbent competition, and disciplined learning from business cases.
+- [Samsung](entities/Samsung.md) - Korean consumer-electronics manufacturer represented through displays, appliances, connected-home breadth, Bixby, and endpoint-lifecycle tradeoffs.
+- [LG](entities/LG.md) - Korean consumer-electronics manufacturer represented through OLED, WebOS, appliances, Cloi, and endpoint-lifecycle tradeoffs.
 - [Peter Pathe](entities/PeterPathe.md) - Microsoft Word executive credited by Sinofsky as the source of the phrase "writing is thinking."
 - [Aakash Japi](entities/AakashJapi.md) - Technical author explaining local-file search engines through inverted indexing, phrase queries, tf-idf ranking, and cosine similarity.
 - [Bleacher Report](entities/BleacherReport.md) - Sports publisher used as a case in distributed media operations, channel hedging, platform-specific editorial work, and social interaction metrics.
@@ -816,7 +905,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ClassPass](entities/ClassPass.md) - Fitness and wellness marketplace case that found product-market fit by moving from search to Passport to subscription around class-attendance behavior.
 - [Payal Kadakia](entities/PayalKadakia.md) - ClassPass founder represented by advice on marketplace product-market fit, behavior change, manual product learning, and true-north metrics.
 - [Adam Taussig](entities/AdamTaussig.md) - Investor-author arguing that early product flaws can reveal demand when users keep returning for the core value.
-- [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publication context for the beautifully broken products essay.
+- [Lightspeed Venture Partners](entities/LightspeedVenturePartners.md) - Venture-capital publisher and investor represented by consumer-product demand and CPG disruption theses.
 - [Stitch Fix](entities/StitchFix.md) - Retail-technology company represented by seetd office seating optimization and by early manual personal-shopping demand.
 - [seetd](entities/Seetd.md) - Stitch Fix internal tool for allocating people to office seats through weighted optimization and simulated annealing.
 - [Silicon Valley](entities/SiliconValley.md) - Technology ecosystem shaped by exit and mobility as well as dense, long-lived relationships and a high volume of startup attempts.
@@ -844,6 +933,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Exception Not Found](entities/ExceptionNotFound.md) - Software-writing publication represented here by a developer support essay on user confusion, empathy, and Hanlon's Razor.
 - [Vishal Naik](entities/VishalNaik.md) - Thoughtworks author connecting continuous delivery to architecture, test feedback, and deployment-pipeline visibility.
 - [Thoughtworks](entities/Thoughtworks.md) - Technology consultancy and publisher associated with Snap CI and Go.CD in the continuous-delivery source.
+- [Poppy Rowse](entities/PoppyRowse.md) - Thoughtworks business analyst and co-author of a user-focused infrastructure-platform framework.
+- [Chris Shepherd](entities/ChrisShepherd.md) - Thoughtworks lead developer and co-author of a product-oriented infrastructure-platform framework.
 - [Snap CI](entities/SnapCI.md) - Hosted CI/CD product used as the simple staged-pipeline example in the Thoughtworks article.
 - [Go.CD](entities/GoCD.md) - On-premise continuous-delivery tool used as the complex dependency value-stream example in the Thoughtworks article.
 - [MYOB](entities/MYOB.md) - Software company Fowler uses to illustrate internal technology-radar guidance and team/domain/vertical architecture-governance forces.
@@ -976,6 +1067,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Photoshop](entities/Photoshop.md) - Adobe image-editing product used to explain productivity-app value variance and subscription fit.
 - [pgvector](entities/Pgvector.md) - PostgreSQL extension for storing embeddings and running vector similarity search with exact or approximate indexes.
 - [Timescale](entities/Timescale.md) - PostgreSQL ecosystem company presented as support for scaling PostgreSQL-centered systems.
+- [pgvectorscale](entities/Pgvectorscale.md) - Timescale PostgreSQL extension presented as a DiskANN performance and scaling layer for pgvector workloads.
+- [pgai](entities/Pgai.md) - Timescale project positioned around embedding creation and LLM operations near PostgreSQL data.
 - [Stack Overflow](entities/StackOverflow.md) - Developer Q&A platform represented by reputation-based community governance and traffic data used to compare technology attention across countries.
 - [David Robinson](entities/DavidRobinson.md) - Stack Overflow data scientist author using question-visit data to segment global developer-technology patterns.
 - [Bill Joy](entities/BillJoy.md) - Berkeley Unix editor creator whose `vi` work explains Vim's lineage and constraint-shaped command interface.
@@ -1068,9 +1161,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Glitch](entities/Glitch.md) - Developer tool and remix platform used as an example of Twitter bot-building potential.
 - [Twitter Moments](entities/TwitterMoments.md) - Twitter feature used by David Lieb as an example of feature variety clouding product purpose.
 - [One Dollar Shave Club](entities/OneDollarShaveClub.md) - Subscription grooming company used as a viral comedy video acquisition case.
-- [Buzzfeed](entities/Buzzfeed.md) - Digital media company used as a shareable quiz and viral-format traffic example.
-- [Jonah Peretti](entities/JonahPeretti.md) - BuzzFeed executive author of the nine-box strategy memo on platform revenue, diversified monetization, and media-brand portfolios.
-- [Tasty](entities/Tasty.md) - BuzzFeed food media brand used as the source's flagship example of a service-oriented, multi-revenue media brand.
+- [Buzzfeed](entities/Buzzfeed.md) - Digital media company combining shareable formats, distributed news and entertainment, audience data, platform partnerships, and diversified revenue.
+- [Jonah Peretti](entities/JonahPeretti.md) - BuzzFeed founder represented through long-term digital-media strategy and an evolving stance on publisher-platform economics.
+- [Tasty](entities/Tasty.md) - BuzzFeed food media brand spanning short-form social reach, broadcast distribution, service content, and multiple revenue lines.
 - [CS183C](entities/CS183C.md) - Stanford technology-enabled blitzscaling course context for scaling syntheses and operator fireside chats.
 - [Reid Hoffman](entities/ReidHoffman.md) - CS183C instructor, scaling theorist, and LinkedIn interviewer used to define blitzscaling, stage-specific advice, common language, and global optimization.
 - [Eric Schmidt](entities/EricSchmidt.md) - Google operator cited for scaling timing, recruiting, small-team product creation, and CEO path-clearing.
@@ -1098,8 +1191,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [For Entrepreneurs](entities/ForEntrepreneurs.md) - Startup and SaaS publication context for the Bill Macaitis attribution-marketing interview.
 - [Salesforce](entities/Salesforce.md) - SaaS company used as the custom-build attribution-system case in Bill Macaitis's experience.
 - [Zendesk](entities/Zendesk.md) - SaaS case where attribution showed display and content influenced long nurture cycles, lead creation, velocity, deal size, and revenue growth.
+- [Clearbit](entities/Clearbit.md) - Data-enrichment SaaS example used to show audience-based full-funnel content segmentation.
 - [VMware](entities/VMware.md) - Company context for Diane Greene's hiring and written communication examples during scale.
-- [Netflix](entities/Netflix.md) - Culture, personalization, notebook infrastructure, early subscription product management, and a 2017 counterfactual Apple acquisition target whose scale did not by itself establish strategic fit.
+- [Netflix](entities/Netflix.md) - Culture, personalization, notebook and immutable-image infrastructure, early subscription product management, and an acquisition-strategy counterfactual.
 - [Jupyter](entities/Jupyter.md) - Open-source notebook ecosystem whose protocol, file format, kernel model, and computational narrative pattern underpin Netflix's notebook platform.
 - [nteract](entities/Nteract.md) - React-based notebook UI chosen by Netflix for simple, composable notebook interaction and data exploration.
 - [Papermill](entities/Papermill.md) - Notebook parameterization and execution library used by Netflix to turn notebooks into reusable templates and scheduled artifacts.
@@ -1116,7 +1210,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Large-company example for acquisitions and mobile capability scaling under Marissa Mayer, and the incumbent that later entrants in search and question-and-answer started against.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
-- [Slack](entities/Slack.md) - Collaboration software used as an equity hindsight, viral invitation, landing-page value-proposition, and advanced attribution-measurement example.
+- [Slack](entities/Slack.md) - Collaboration software represented through its pivot, team invitation loop, marketing systems, developer ecosystem, and hybrid Electron desktop architecture.
 - [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
 - [Tiny Habits](entities/TinyHabits.md) - BJ Fogg book presented as a deeper public explanation of the Fogg Behavior Model and behavior-design methods.
 - [Fab](entities/Fab.md) - Startup-equity counterexample used to contrast famous winning outcomes.
@@ -1190,7 +1284,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sahil Bloom](entities/SahilBloom.md) - Creator whose Creator Science interview informs the source author's thinking about value, follower quality, consistency, and evergreen content.
 - [Xiaohongshu](entities/Xiaohongshu.md) - Recommendation-driven social platform used as the source's main example of volatile creator metrics.
 - [Plantegg](entities/Plantegg.md) - Software practitioner-author presenting workplace learning through problem review, expert trace replay, and hands-on technical verification.
-- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, big-data criteria, advertising-data monetization, audience targeting, software pedagogy, scraper operations, and reading methodology.
+- [Wulc](entities/Wulc.md) - Blogger-author connecting environmental influence, data and operations, software and web-protocol pedagogy, investing, and reading methodology.
 - [AIBrix](entities/AIBrix.md) - AI inference platform gateway critiqued for tokenizer choices, metric collection paths, and large-scale polling cost.
 - [Alibaba Cloud](entities/AlibabaCloud.md) - Cloud provider whose SLB/NGLB examples show cloud productization of LVS-style network load balancing.
 - [AlgoCasts](entities/AlgoCasts.md) - Hawstein's algorithm teaching content product and first independent income source.
@@ -1206,7 +1300,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nuwanda](entities/Nuwanda.md) - MinusX practitioner-author analyzing Claude Code's control loop, prompts, tools, live search, and steerability.
 - [MinusX](entities/MinusX.md) - Agent-building company context for the Claude Code design-analysis source.
 - [Guangzhengli](entities/Guangzhengli.md) - Practitioner-author distinguishing vibe coding from context coding through Copilot, Cursor, and Claude Code experience.
-- [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform used for low-cost DNS, security, Pages, Workers, D1, and R2 services.
+- [Cloudflare](entities/Cloudflare.md) - Edge infrastructure platform represented through low-cost services, D1 work, and a first-party account of a serious BYOIP configuration outage.
 - [Cloudflare D1](entities/CloudflareD1.md) - Cloudflare database product where Max Rozen became a founding engineer after contributing bug fixes and UX ideas.
 - [Max Rozen](entities/MaxRozen.md) - Web developer and indie SaaS founder arguing from OnlineOrNot that one working product can compound over time.
 - [OnlineOrNot](entities/OnlineOrNot.md) - Max Rozen's focused SaaS product whose customer memory, operating learning, and maturity drove the source's 2023 growth story.
@@ -1383,7 +1477,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
 - [Asana](entities/Asana.md) - Work-management software company and engineering-blog context for code-review practice and a 2016 production outage postmortem.
-- [Silicon Valley Product Group](entities/SiliconValleyProductGroup.md) - Marty Cagan's product advisory and publication context for the product-management role argument.
+- [Silicon Valley Product Group](entities/SiliconValleyProductGroup.md) - Product advisory and publication context connecting broad product accountability with collaboration, explicit decision rights, and no boss authority.
 - [Marty Cagan](entities/MartyCagan.md) - SVPG founder and author arguing that product management is an essential outcome-accountable role.
 - [Martina Lauchengco](entities/MartinaLauchengco.md) - Product manager in the Microsoft Word for Mac recovery case.
 - [Jane Manning](entities/JaneManning.md) - Product manager in the early Google AdWords launch case.
@@ -1433,7 +1527,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Brendan Eich](entities/BrendanEich.md) - Brave leader whose JavaScript, Mozilla, and Firefox background supports the article's credibility argument.
 - [bmpi.dev](entities/BMPIDev.md) - Developer-author documenting a low-cost hybrid AWS serverless application and its infrastructure tradeoffs.
 - [Orhun Parmaksız](entities/OrhunParmaksiz.md) - Rust and open-source developer advocating selective AI assistance, retained craft, and accountable software publication.
-- [Codex](entities/Codex.md) - OpenAI coding agent in Orhun Parmaksız's experiment with broad delegation, exhaustive review, and mixed task allocation.
+- [Codex](entities/Codex.md) - OpenAI coding agent profiled through contrasting review-centered and high-autonomy practitioner workflows.
+- [Peter Steinberger](entities/PeterSteinberger.md) - Software developer running a high-throughput, CLI-first, coding-agent-centered solo workflow.
 
 - [Vine](entities/Vine.md) - Six-second looping-video platform whose emergent creator culture diverged from Twitter's preferred identity and business strategy.
 - [Edsger W. Dijkstra](entities/EdsgerWDijkstra.md) - Dutch computer scientist who designed and published the greedy shortest-path algorithm bearing his name.
@@ -1455,8 +1550,54 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shan Weijian (单伟建)](entities/ShanWeijian.md) - Investor and author whose biography grounds a success framework built from lifelong learning, judgment, luck, and prepared opportunity.
 - [PAG](entities/PAG.md) - Asia-focused private investment group identified in the source as founded by Shan Weijian, with current scale left unverified.
 
+- [Andrew Harmel-Law](entities/AndrewHarmelLaw.md) - Software-architecture practitioner who reframes architects as stewards of inclusive distributed decision conversations rather than default approvers.
+- [Auren Hoffman](entities/AurenHoffman.md) - Data-company entrepreneur and investor presenting a practitioner framework for DaaS operations and economics.
+- [SafeGraph](entities/SafeGraph.md) - Historical place-data company example organized around documented, joinable facts about physical locations.
+- [Innei](entities/Innei.md) - LobeHub engineer reporting React performance, Electron packaging, and developer-experience work.
+- [LobeHub](entities/LobeHub.md) - React and Electron application context for a version-2.0 performance and DX optimization sprint.
+- [Electron](entities/Electron.md) - Chromium-and-Node.js desktop runtime examined through Slack's hybrid multi-process client and LobeHub's packaging and typed IPC work.
+
+- [BugRex](entities/BugRex.md) - On-demand developer-help marketplace whose first functional prototype combined five hosted services.
+- [Per Harald Borgen](entities/PerHaraldBorgen.md) - Founder advocating assumption-first product validation through service-composed prototypes.
+- [Matt Warzel](entities/MattWarzel.md) - Career-advice author applying strategic marketing tools to career planning and job-search communication.
+
+- [John Collison](entities/JohnCollison.md) - Stripe co-founder who built the early payment prototype with Patrick Collison after a long history of working through problems together.
+- [Steve Lopez](entities/SteveLopez.md) - Los Angeles Times columnist represented through his 2017 reporting and argument on housing affordability and cost-driven migration.
+- [Las Vegas](entities/LasVegas.md) - Nevada city presented as a nearby lower-cost job and housing destination for Californians.
+
 ## Concepts
 
+- [Psychological Safety](concepts/PsychologicalSafety.md) - Conditions for asking questions, voicing dissent, and learning from mistakes without suppressing accountability.
+- [Psychological Reactance](concepts/PsychologicalReactance.md) - Resistance to perceived threats to autonomy, including distrust or opposition when familiar persuasion tactics feel coercive.
+- [Consumer Startup Competition](concepts/ConsumerStartupCompetition.md) - Competition model in which incumbent network, distribution, and resource advantages are partly offset by multi-homing, residual discovery, and lower experimentation costs.
+- [Imposter Syndrome](concepts/ImposterSyndrome.md) - Persistent self-doubt despite evidence of competence or success, examined here through founder growth, scrutiny, and filtered feedback.
+- [Configuration Management](concepts/ConfigurationManagement.md) - Desired-state automation for converging existing machines, historically valuable but exposed to ownership, drift, partial-application, and release-boundary problems.
+- [Immutable Infrastructure](concepts/ImmutableInfrastructure.md) - Build-and-replace operating model based on versioned images, staged promotion, and explicit treatment of runtime and persistent state.
+- [Organizational Scale Tradeoffs](concepts/OrganizationalScaleTradeoffs.md) - Coupled gains and costs created when specialization, resources, strategy, and dependencies replace small-team generalism and autonomy.
+- [Coding Bootcamp Education](concepts/CodingBootcampEducation.md) - Accelerated vocational programming education evaluated through teaching depth, mentor expertise, projects, career support, price, selection, and transparent outcomes.
+- [Marketplace Cold Start](concepts/MarketplaceColdStart.md) - Coordination problem of concentrating enough relevant supply and demand for a marketplace to become usable.
+- [Conceptual Debt](concepts/ConceptualDebt.md) - Accumulated user, business, and engineering cost of building a product around confusing, redundant, or inconsistent core abstractions.
+- [Enterprise Bundle Competition](concepts/EnterpriseBundleCompetition.md) - Mature suites optimize endpoints, price, bundle breadth, and margin while leaving conditional openings in seams and weak peripheral modules.
+- [Communication Multitasking](concepts/CommunicationMultitasking.md) - Repeated switching between primary work and email or instant messaging, including alert-driven and self-initiated checks.
+- [Certificate-Based Device Identity](concepts/CertificateBasedDeviceIdentity.md) - Device identity established through private keys, signed certificates, trusted CA chains, and operational certificate lifecycle controls.
+- [Authorized Device Lists](concepts/AuthorizedDeviceLists.md) - Explicit inventories that turn authenticated device identities into valid, staged, or denied network participation.
+- [Jobs to Be Done](concepts/JobsToBeDone.md) - Decision-research lens centered on the progress people or organizations seek under particular circumstances.
+- [Technical Leadership Role Design](concepts/TechnicalLeadershipRoleDesign.md) - Allocation of technology direction, architecture, engineering execution, people, programs, and budgets among senior technical leaders.
+- [API Backward Compatibility](concepts/APIBackwardCompatibility.md) - Evolving an API through version translation, explicit support boundaries, and controlled migration of deprecated clients.
+
+- [Startup Defensibility](concepts/StartupDefensibility.md) - Persistence of a startup's business advantage beyond a copyable current algorithm or technical implementation.
+- [Data-Informed Culture](concepts/DataInformedCulture.md) - Organizational practice combining governed evidence with values, principles, experience, and contextual judgment.
+- [Layered Data Warehouse](concepts/LayeredDataWarehouse.md) - Raw, reusable BI, and team-facing data layers balancing fidelity, usability, governance, and self-service.
+- [Hybrid Desktop Application Architecture](concepts/HybridDesktopApplicationArchitecture.md) - Desktop pattern combining a privileged local shell with remotely delivered application code behind explicit process and capability boundaries.
+- [Preload Bridge Security](concepts/PreloadBridgeSecurity.md) - Least-authority design and auditing of APIs that let renderer content request selected privileged desktop actions.
+- [Incumbent Attention Asymmetry](concepts/IncumbentAttentionAsymmetry.md) - Competitive condition where a specialist's survival-level focus outweighs a larger entrant's divided attention, until the entrant attacks the incumbent's core business.
+- [Founder-Investor Relations](concepts/FounderInvestorRelations.md) - Continuing post-financing exchange of reporting, assistance, access, and participation between founders and investors.
+- [Workplace Information Seeking](concepts/WorkplaceInformationSeeking.md) - Deliberate ownership of work-relevant information flows through channel design, gap discovery, follow-up, reciprocal signaling, callbacks, and receptive listening.
+- [Gross National Happiness](concepts/GrossNationalHappiness.md) - Public-policy frame that treats collective wellbeing as a more important national objective than GDP alone.
+- [Habit Tracking](concepts/HabitTracking.md) - Recording target behavior to create immediate feedback, visible progress, selective accountability, and rapid recovery from lapses.
+- [Retrieval-Centric Generation](concepts/RetrievalCentricGeneration.md) - Generative-AI architecture where curated external stores hold most facts and the model primarily interprets retrieved unseen data.
+- [Schema-Based Reasoning](concepts/SchemaBasedReasoning.md) - Applying learned abstract roles and relations to new instances without memorizing each concrete case.
+- [Generative AI Agent Architecture](concepts/GenerativeAIAgentArchitecture.md) - Application architecture combining models, orchestration, state, goals, instructions, and tools into an observe-plan-act-adjust loop.
 - [Leader of Leaders](concepts/LeaderOfLeaders.md) - Scaling model where executives lead through durable senior owners, written review mechanisms, teaching, explicit authority boundaries, and selective depth.
 - [BeyondCorp](concepts/BeyondCorp.md) - Google's identity- and device-aware employee-access architecture replacing broad VPN perimeter trust with application-level policy enforcement.
 - [Zero-Trust Access](concepts/ZeroTrustAccess.md) - Access model authorizing each user-to-application request from identity, device, authentication, and resource context rather than network location.
@@ -1465,7 +1606,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Solo Founding](concepts/SoloFounding.md) - Company formation led by one founder, concentrating authority, decision load, risk, and the need for distributed support.
 - [Zero-Width Text Fingerprinting](concepts/ZeroWidthTextFingerprinting.md) - Invisible recipient-specific Unicode encoding for tracing copied text, with preservation, tampering, authentication, and privacy limitations.
 - [Zombie Startup](concepts/ZombieStartup.md) - Company that retains startup appearance and financing while showing too little product, customer, or execution momentum for its promised trajectory.
-- [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from narrow positioning, targeted discovery, modular operations, and low-commitment production.
+- [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from differentiated positioning, targeted discovery, flexible distribution, modular operations, and rapid low-commitment production.
 - [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS acquisition and activation enabled by clear product scope, free evaluation, contextual guidance, and meaningful first actions.
 - [Failure-Informed Vendor Selection](concepts/FailureInformedVendorSelection.md) - Product diligence grounded in the cross-vendor failure, repair, implementation, and maintenance experience of downstream practitioners.
 - [Forum Community Design](concepts/ForumCommunityDesign.md) - Specialized, thread-based community architecture balancing durable retrieval, shared identity, pseudonymity, moderation, and discovery.
@@ -1484,7 +1625,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Marketplace Rebundling](concepts/MarketplaceRebundling.md) - Consolidation of narrow marketplace use cases into broader category platforms when frequency, transaction value, shared liquidity, and limited user attention favor breadth.
 - [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, cookie, or partner identifiers to a durable person-level identity for recognition and targeting, with heightened privacy risk.
 - [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.
-- [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication and shared direction.
+- [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication, shared direction, and accountable decision rights.
 - [Inclusive Hiring](concepts/InclusiveHiring.md) - Early design of commitment, sourcing, candidate experience, and team conditions so varied contributors can join without absorbing monoculture risk.
 - [System Architecture Principles](concepts/SystemArchitecturePrinciples.md) - Benefits-first rules connecting services, correctness, standards, control capabilities, operability, debt boundaries, and contextual technology choice.
 - [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working software while managing quality, delivery time, cost, complexity, change, operation, and maintenance.
@@ -1597,7 +1738,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Benefits, Risks, Mitigations](concepts/BenefitsRisksMitigations.md) - Design-comparison frame that states several candidate approaches and weighs each one's benefits, risks, and mitigations before committing.
 - [Problem Persistence](concepts/ProblemPersistence.md) - Discipline of staying loyal to the customer and the problem while treating the current solution as disposable.
 - [Founder Technical Capability](concepts/FounderTechnicalCapability.md) - Founding-team ability to build its own product, treated as a screening criterion that conflicts with bounded-outsourcing advice.
-- [Startup Execution Speed](concepts/StartupExecutionSpeed.md) - Founder-level rate of accomplishment, used as an evaluation signal about quality, commitment, and iteration throughput.
+- [Startup Execution Speed](concepts/StartupExecutionSpeed.md) - Rate at which a small team reaches shipped customer outcomes through commitment, autonomy, low coordination load, and fast feedback channels.
 - [Repeatable Learning From History](concepts/RepeatableLearningFromHistory.md) - Learning filter that separates transferable mechanisms and broad patterns from one-time history and context-bound organizational forms.
 - [Dollo's Law](concepts/DollosLaw.md) - Path-dependence analogy for outcomes caused by real forces that cannot be repeated exactly.
 - [Co-Founder Conflict](concepts/CoFounderConflict.md) - Founder relationship tension that becomes risky when teams avoid direct disagreement or fight constantly without decision boundaries.
@@ -1697,11 +1838,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Text File Productivity](concepts/TextFileProductivity.md) - Plain-text daily planning workflow where a chronological file combines task execution, notes, retrieval, and work history.
 - [Product Page Optimization](concepts/ProductPageOptimization.md) - Ecommerce product-detail pages combine visual evidence, trust, proof, usability, copy, and objection handling to move shoppers toward purchase.
 - [Legacy Mimic](concepts/LegacyMimic.md) - Transitional pattern where a new component conforms to legacy interfaces, events, schemas, or semantics during incremental replacement.
-- [Transitional Architecture](concepts/TransitionalArchitecture.md) - Temporary architecture that lets old and new systems interoperate while legacy capabilities are displaced.
-- [Legacy Displacement](concepts/LegacyDisplacement.md) - Incremental replacement of legacy capabilities while business processes continue across old and new components.
+- [Transitional Architecture](concepts/TransitionalArchitecture.md) - Temporary, removable architecture that enables earlier value and safer old/new coexistence during legacy displacement.
+- [Legacy Displacement](concepts/LegacyDisplacement.md) - Incremental replacement of legacy capabilities through staged traffic, responsibility, and dependency migration.
 - [Anti-Corruption Layer](concepts/AntiCorruptionLayer.md) - Translation boundary that protects a system's domain model from another model or interface.
-- [Event Interception](concepts/EventInterception.md) - Migration mechanism for capturing legacy activity so a new capability can react without replacing the producer first.
+- [Event Interception](concepts/EventInterception.md) - Migration mechanism for routing legacy activity toward new capabilities before the authoritative producer is replaced.
 - [Extract Value Streams](concepts/ExtractValueStreams.md) - Sequencing approach that moves a business capability out of a legacy system while surrounding processes keep running.
+- [Divert the Flow](concepts/DivertTheFlow.md) - Strategy that replaces a cross-cutting legacy aggregator early and progressively redirects it toward decoupled data sources.
+- [Critical Aggregator](concepts/CriticalAggregator.md) - Business-critical cross-cutting capability whose reports, metrics, or calculations depend on multiple upstream systems.
+- [Revert to Source](concepts/RevertToSource.md) - Migration approach that obtains data from its ultimate origin instead of preserving an indirect legacy feed.
+- [Parallel Running](concepts/ParallelRunning.md) - Concurrent old/new operation with output reconciliation to reduce migration cutover risk.
 - [Compliance Architecture](concepts/ComplianceArchitecture.md) - Design of evidence, validation, audit, and ownership structures that prove compliance while preserving delivery flow.
 - [Integration Strategy](concepts/IntegrationStrategy.md) - Architectural discipline of exposing and evolving business capabilities through clean interfaces rather than outsourcing integration thinking to a tool.
 - [Architecture Alignment Forces](concepts/ArchitectureAlignmentForces.md) - Architecture-governance model that varies coupling, contracts, and decision formality by organizational alignment strength and decision blast radius.
@@ -1737,7 +1882,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
-- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through communication, trust, role clarity, useful disagreement, purposeful interaction, and responsible use of colleagues' time.
+- [Workplace Collaboration](concepts/WorkplaceCollaboration.md) - Coordination through trust, useful disagreement, broad input, purposeful interaction, and explicit authority without requiring unanimity.
 - [Executive Hiring](concepts/ExecutiveHiring.md) - Senior-leadership recruiting practice built around role focus, fit evaluation, reference discipline, and reciprocal feedback.
 - [Tech Community Participation](concepts/TechCommunityParticipation.md) - Career-related involvement in meetups, conferences, hackathons, teaching, speaking, and event organizing as learning, opportunity, and team-reputation infrastructure.
 - [Burnout Prevention](concepts/BurnoutPrevention.md) - Personal boundaries and workplace systems that make recovery, communication limits, and usable leave possible.
@@ -1787,7 +1932,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Browser Bypass](concepts/BrowserBypass.md) - Movement of internet activity away from open browser-land into apps, assistants, voice devices, AR/VR, proprietary clouds, and controlled runtimes.
 - [Trinet](concepts/Trinet.md) - Andre Staltz's speculative model of internet infrastructure optimized mainly around Google, Facebook, and Amazon traffic.
 - [Cryptocurrency Merchant Adoption](concepts/CryptocurrencyMerchantAdoption.md) - Cryptocurrency payment adoption by merchants, especially large platforms whose choices can validate or redirect tokens and payment rails.
-- [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame arguing that software-era giants remain vulnerable when new technologies and business models require cultures and value-creation processes they resist changing.
+- [Corporate Giant Fragility](concepts/CorporateGiantFragility.md) - Strategic frame linking incumbent vulnerability to culture, process, attention, customer distance, long cycles, and dependence on external innovation.
 - [Smartphone Platform Disruption](concepts/SmartphonePlatformDisruption.md) - Transition in which iOS and Android displaced older handset strategies by changing software depth, app ecosystems, timing demands, and business models.
 - [Apple Pricing Strategy](concepts/ApplePricingStrategy.md) - Above Avalon's frame for Apple's accessible-luxury pricing through low entry models, premium SKUs, scale, and vertical integration.
 - [Apple Cash Generation Model](concepts/AppleCashGenerationModel.md) - Cybart's 2017 framework connecting Apple's product focus, contract manufacturing, integrated hardware, and scale economics to free-cash-flow conversion.
@@ -1839,7 +1984,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Design Career Ladder](concepts/ProductDesignCareerLadder.md) - Structured model of product-designer levels, seniority signals, and promotion planning.
 - [Design Skill Axes](concepts/DesignSkillAxes.md) - Product-design growth dimensions spanning product thinking, interaction design, visual design, intentionality, drive, and self-awareness.
 - [Product Redesign](concepts/ProductRedesign.md) - Evidence-backed reworking of a product's UX, hierarchy, and interface when design debt makes a visual refresh insufficient.
-- [Product Management](concepts/ProductManagement.md) - Cross-functional product role accountable for integrating customer, business, technical, and organizational constraints into product outcomes.
+- [Product Management](concepts/ProductManagement.md) - Cross-functional role integrating customer, business, technical, and organizational constraints while owning unresolved product trade-offs without boss authority.
 - [Product Manager as CEO](concepts/ProductManagerAsCEO.md) - Controversial metaphor for product-manager breadth that must be bounded by humility, earned trust, and no formal team authority.
 - [Product Leadership](concepts/ProductLeadership.md) - Product role of setting and communicating vision and strategy strongly enough to move organizations through risky product change.
 - [Product Review Meetings](concepts/ProductReviewMeetings.md) - Product-review discussions facilitated to improve judgment while preserving presenter agency, team ownership, trust, and explicit stewardship of meeting time.
@@ -1869,6 +2014,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
 - [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
+- [Multi-Product Content Strategy](concepts/MultiProductContentStrategy.md) - Mapping products, audiences, or use cases against funnel stages to expose and prioritize content-coverage gaps.
 - [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue, lead quality, retention, and the time needed to recover it.
 - [Marketing Attribution](concepts/MarketingAttribution.md) - Assigning credit across marketing touchpoints and feedback loops so teams can judge which channels produce valuable outcomes.
 - [Algorithmic Attribution](concepts/AlgorithmicAttribution.md) - Data-driven attribution approach that estimates proportional channel influence from touchpoint and outcome data instead of fixed rules.
@@ -1937,6 +2083,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Deployment Automation](concepts/DeploymentAutomation.md) - Release tooling, staged rollout, verification, and bounded recovery mechanisms for moving service changes into production safely.
 - [Service Observability](concepts/ServiceObservability.md) - Metrics, probes, alarms, dashboards, logs, audit trails, and escalation channels used to understand service health.
 - [Internal Developer Platform](concepts/InternalDeveloperPlatform.md) - Internal product layer that gives teams standardized compute, monitoring, logging, backups, scaling, deployment, and rollback defaults.
+- [Infrastructure Platform Product Management](concepts/InfrastructurePlatformProductManagement.md) - Internal-product discipline aligning platform strategy, discovery, onboarding, architecture, UX, complexity, and measures with product-team outcomes.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
 - [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
@@ -1964,7 +2111,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Support Load Scaling](concepts/SupportLoadScaling.md) - Startup operations problem where high-volume, high-stakes support demand forces more durable teams, systems, and company structure.
 - [Unix Editor Lineage](concepts/UnixEditorLineage.md) - Historical chain from `ed` through `em`, `en`, `ex`, `vi`, open-source clones, and Vim.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
-- [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, accountability, and distributed decision ownership.
+- [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, shared context, and explicit domain and cross-domain decision ownership.
 - [One-Person Team Risk](concepts/OnePersonTeamRisk.md) - Quality, learning, continuity, momentum, and morale failures caused by concentrating a whole project's context in one person.
 - [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
 - [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges, DSPs, and DMP-provided labels use user, context, advertiser, and audience data to decide whether and how much to bid for impressions.
@@ -2069,6 +2216,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Performance Budget](concepts/PerformanceBudget.md) - Measurable time, byte, and critical-path limits for keeping web products usable on representative devices and networks.
 - [Time To Interactive](concepts/TimeToInteractive.md) - Web performance metric for when a page can reliably respond to user input.
 - [Dynamic Content Caching](concepts/DynamicContentCaching.md) - Caching runtime-changing application data while preserving enough freshness for user-facing correctness.
+- [Browser Caching](concepts/BrowserCaching.md) - Reusing stored HTTP responses through freshness rules and conditional validation to reduce network work without abandoning correctness.
 - [Change Safety](concepts/ChangeSafety.md) - Reducing production-change risk through production-like testing, staged activation, monitoring, bounded reversion, forward repair, and restoration-first response.
 - [Chaos Engineering](concepts/ChaosEngineering.md) - Deliberately introducing controlled failure or surprise so resilience can be verified before uncontrolled production failure.
 - [Code Review Practice](concepts/CodeReviewPractice.md) - Human workflow of inspecting, discussing, and approving code changes for shared understanding, behavior checks, preference triage, and delivery flow.
@@ -2092,7 +2240,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Defensive Port Triage](concepts/DefensivePortTriage.md) - Using exposed ports and service families as a first-pass map of likely security risks and validation priorities.
 - [Deterministic Testing](concepts/DeterministicTesting.md) - Making test outputs stable enough that failures and snapshot diffs reflect real behavior changes rather than noise.
 - [Dynamic Context Compression](concepts/DynamicContextCompression.md) - Active context-management approach that removes, stores, or retrieves information to preserve prompt quality.
-- [Deep Learning](concepts/DeepLearning.md) - Representation-learning approach that trains features and models together to exploit large datasets.
+- [Deep Learning](concepts/DeepLearning.md) - Layered representation learning shaped by training mechanics, data and compute scale, operational deployment, reusable artifacts, and transfer limits.
 - [Dependency Degradation](concepts/DependencyDegradation.md) - Reliability design practice of classifying dependencies and building fallback, degradation, or fail-fast behavior around weak links and capacity limits.
 - [Differentiation Strategy](concepts/DifferentiationStrategy.md) - Strategic choice to make a product, company, or brand meaningfully distinct enough for customers to choose it over alternatives.
 - [Incumbent Shadow Advantage](concepts/IncumbentShadowAdvantage.md) - Startup pattern where a dominant platform expands demand and deters rivals while leaving specialized segments open.
@@ -2170,10 +2318,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Object Withdrawal](concepts/ObjectWithdrawal.md) - Claim that objects retain an inaccessible dimension beyond use, perception, theory, or relation.
 - [Orthogonality](concepts/Orthogonality.md) - Zero-covariance relationship in observed data, distinct from independence in the generating process.
 - [Omitted Variable Bias](concepts/OmittedVariableBias.md) - Regression bias from leaving out a relevant factor that correlates with an included predictor.
-- [Personal Productivity](concepts/PersonalProductivity.md) - Arranging priorities, attention capacity, routines, calendar defaults, text-file planning, and task triage to complete meaningful work efficiently.
+- [Personal Productivity](concepts/PersonalProductivity.md) - Filtering commitments and arranging priorities, attention, routines, planning, and task triage so meaningful work receives time before execution is optimized.
 - [Phrase Query](concepts/PhraseQuery.md) - Search query requiring terms to appear in the same adjacent order as the requested phrase.
 - [Pseudowire Transport Types](concepts/PseudowireTransportTypes.md) - MPLS pseudowire Type 4/Type 5 and transport-mode choices that govern Ethernet/VLAN encapsulation behavior.
-- [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives, habits, time uses, and identities given up when choosing one direction strongly.
+- [Opportunity Cost](concepts/OpportunityCost.md) - Value of the alternatives and future optionality given up when scarce time, attention, or resources are committed to one direction.
 - [Sunk Cost Fallacy](concepts/SunkCostFallacy.md) - Decision trap where unrecoverable past investment wrongly justifies continued future investment, also framed as a fast-action completion shortcut.
 - [P-Hacking](concepts/PHacking.md) - Searching many analytical choices and selectively reporting favorable or significant results.
 - [Personal Branding](concepts/PersonalBranding.md) - Building a public audience and trust channel that can support products, courses, and independent work.
@@ -2191,6 +2339,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Reverse Learning](concepts/ReverseLearning.md) - Negative learning in which aversive context associations suppress valuation and memory consolidation.
 - [Reading Note Workflow](concepts/ReadingNoteWorkflow.md) - Practical workflow for turning books, metadata, booklists, summaries, and opinions into linked notes for recall, discovery, and writing.
 - [Retrieval-Augmented Generation](concepts/RetrievalAugmentedGeneration.md) - LLM pattern that retrieves external information and supplies it as answer context.
+- [Evals-Driven AI Development](concepts/EvalsDrivenAIDevelopment.md) - Practice of using repeatable model-behavior checks to shape AI tools, prompts, data, and architecture during development.
+- [Text-to-SQL](concepts/TextToSQL.md) - Controlled translation of natural-language analytical requests into schema-grounded SQL queries.
 - [Robust Programming](concepts/RobustProgramming.md) - Code-level reliability practice of enforcing boundaries, understanding APIs, and failing predictably under unexpected conditions.
 - [Remote Administration Exposure](concepts/RemoteAdministrationExposure.md) - Risk created when login, file-transfer, remote-desktop, command, or management-console services are reachable beyond their intended administration boundary.
 - [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
@@ -2313,5 +2463,18 @@ This file is maintained by the LLM. Updated on every ingest.
 - [B2B Content Formats](concepts/B2BContentFormats.md) - Reusable brand-editorial structures selected for search discovery, instruction, evidence, debate, scanning, or relationship nurture.
 
 - [Live Product Demo](concepts/LiveProductDemo.md) - Real-time product proof that performs a core promise for an audience and makes an abstract claim directly observable.
+
+- [Decentralized Architecture Governance](concepts/DecentralizedArchitectureGovernance.md) - Operating model that distributes architectural decisions while using advice, records, forums, principles, and landscape sensing to preserve coherence.
+- [Advice Process](concepts/AdviceProcess.md) - Decision rule allowing anyone to decide after consulting affected people and relevant experts without requiring consensus.
+- [Architecture Decision Records](concepts/ArchitectureDecisionRecords.md) - Lightweight records that scaffold and preserve architectural context, alternatives, consequences, advice, and revision history.
+- [Architecture Advisory Forum](concepts/ArchitectureAdvisoryForum.md) - Recurring open forum where originators receive architectural advice and share learning without surrendering decision ownership.
+- [Data as a Service](concepts/DataAsAService.md) - Continuous acquisition, transformation, and delivery of maintained external datasets for use in customer systems and decisions.
+- [Data Joinability](concepts/DataJoinability.md) - Ability to connect datasets reliably through shared identifiers, compatible keys, time, geography, or resolvable entities.
+- [React Runtime Performance](concepts/ReactRuntimePerformance.md) - Reduction of cumulative component, styling, navigation, and memory cost in long-lived React applications.
+- [Desktop Application Packaging](concepts/DesktopApplicationPackaging.md) - Assembly of desktop releases with only required runtime resources, bundled dependencies, and native-module exceptions.
+
+- [No-Code Product Prototyping](concepts/NoCodeProductPrototyping.md) - Assembly of existing hosted services into a testable customer workflow before custom application code.
+- [Housing-Cost-Driven Migration](concepts/HousingCostDrivenMigration.md) - Relocation driven by lower housing and commuting costs that improve household living standards without requiring higher destination pay.
+- [Crowded Market Entry](concepts/CrowdedMarketEntry.md) - Entering an established category by treating competition as qualified demand evidence and serving a distinct reachable subsegment.
 
 ## Syntheses

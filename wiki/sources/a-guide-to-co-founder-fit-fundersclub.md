@@ -2,7 +2,7 @@
 title: "A Guide to Co-founder Fit"
 type: source
 tags: [startup, co-founders, leadership, equity]
-date: 2026-03-26
+date: 2016-08-03
 source_file: /mnt/ken_personal_wiki/Articles/A Guide to Co-founder Fit - FundersClub.md
 ---
 

@@ -2,7 +2,7 @@
 title: "Creator Economy 2.0: What we've learned, why it's hard, and what's next"
 type: source
 tags: [creator-economy, startups, marketplaces, platforms]
-date: 2023-08-18
+date: 2023-08-21
 source_file: /mnt/ken_personal_wiki/Articles/Andrew Chen - Creator Economy 2.0 What we've learned, why it's hard, and what's next.md
 ---
 
