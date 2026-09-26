@@ -548,6 +548,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Content is King, But Context is God](sources/content-is-king-but-context-is-god-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that value-first content works when it respects platform psychology, audience intent, the surrounding experience, and a consistent brand goal.
 - [Corporate Culture in Internet Time](sources/corporate-culture-in-internet-time.md) - Art Kleiner diagnoses early Internet-company conflict between commercial hype and production craft, then proposes persistent teams, cross-team learning, and bounded experimentation.
 - [Crafting The First Mile Of Product](sources/crafting-the-first-mile-of-product-positive-slope-medium.md) - Scott Belsky argues that onboarding, defaults, empty states, copy, immediate utility, and familiar patterns should orient changing newcomer cohorts toward value and a clear next action.
+- [Culture Is the Behavior You Reward and Punish](sources/culture-is-the-behavior-you-reward-and-punish-jocelyngoldfein.md) - Jocelyn Goldfein argues that public rewards, consequences, and role models reveal and reproduce an organization's actual culture, especially during rapid growth.
 
 ## Entities
 
@@ -1609,6 +1610,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Las Vegas](entities/LasVegas.md) - Nevada city presented as a nearby lower-cost job and housing destination for Californians.
 - [Gary Vaynerchuk](entities/GaryVaynerchuk.md) - Marketing practitioner represented by value-first, platform-aware content strategy and brand-coherence advice.
 - [Art Kleiner](entities/ArtKleiner.md) - Management author represented by an early Internet-company account of emergent culture, hype and craft, and persistent teams.
+- [Jocelyn Goldfein](entities/JocelynGoldfein.md) - Author and VMware offsite participant explaining culture through observable rewards, consequences, and role models.
+- [Charles O'Reilly](entities/CharlesOReilly.md) - Stanford GSB professor represented through a diagnostic that asks what behavior actually produces success inside a company.
 
 ## Concepts
 

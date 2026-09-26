@@ -4362,3 +4362,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Culture Is the Behavior You Reward and Punish
+
+Added Jocelyn Goldfein's account of a 2008 VMware workshop that exposed culture as the public pattern of behavior an organization rewards, punishes, and tolerates rather than its stated values alone. Created [[JocelynGoldfein]] and [[CharlesOReilly]]; updated [[VMware]], [[StartupCulture]], and [[WorkplaceIncentiveDesign]] from their complete ordered source inventories with observable-success diagnostics, public-versus-private signaling, role-model consistency, and rapid-growth fragility. Opened all three embedded images and omitted them as duplicate or thumbnail versions of the same decorative carrot-and-knife photograph, so no asset manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
