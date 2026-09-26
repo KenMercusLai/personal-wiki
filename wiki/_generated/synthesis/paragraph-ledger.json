@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7bed67ffd116b0d75e392b5cb1ee4c282fcdf8162462000e7529144fae69028f",
       "53d5bc5f39c71646cb81abf85e9b89f236cef8e58d12b8ea21ee9c568618f319",
       "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
       "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
@@ -445,11 +446,34 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 443
+    "paragraph_count": 444
   },
-  "overview_commit": "19c5de8f2585a7310ecbe0659d8e3e25c85c76dd",
-  "overview_digest": "8af47da48ea0d710f7d26473a0fd8bc176b2d2dbca95d9f31d8f31438a1bcf45",
+  "overview_commit": "ec8b731890575daf4141970678b107ee4494d367",
+  "overview_digest": "506cde515bdba46096640b3c72edd50b73e170a13b4a102ed33d1f6cc0da99a0",
   "paragraphs": [
+    {
+      "id": "7bed67ffd116b0d75e392b5cb1ee4c282fcdf8162462000e7529144fae69028f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[AdGuard]] source adds [[BrowserCryptomining]] as a historical web-monetization and consent case. In October 2017, AdGuard reported scanning the Alexa top 100,000 home pages for [[CoinHive]] and JSEcoin code, finding 220 detections and estimating that the sites collectively reached 500 million people and earned more than US$43,000 over three weeks. Those numbers are source estimates of site prevalence, aggregate audience, and modeled revenue—not verified unique miners, sessions, device impact, or audited profit. The durable distinction is governance: browser mining can propose an explicit exchange of visitor computation and energy for site funding, but hidden execution appropriates resources without informed, revocable choice. CoinHive reportedly recommended disclosure but could not prevent covert embedding, so enforcement spanned operator notice, user permission, AdGuard warnings, blockers and antivirus tools, and [[Cloudflare]] account suspension. The article frames consensual mining as a possible alternative to [[WebAdEconomics]], yet its company-authored first-month snapshot supplies no false-positive analysis, resource measurements, consent data, or longitudinal evidence that the model became viable. Its sole remote lead image now returns HTTP 404 and could not be interpreted or retained.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "science-health-and-climate": 1
+      },
+      "wikilinks": [
+        "AdGuard",
+        "BrowserCryptomining",
+        "Cloudflare",
+        "CoinHive",
+        "WebAdEconomics"
+      ]
+    },
     {
       "id": "53d5bc5f39c71646cb81abf85e9b89f236cef8e58d12b8ea21ee9c568618f319",
       "primary_topic": "business-and-markets",

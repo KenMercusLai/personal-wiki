@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-26] ingest | Cryptocurrency mining affects over 500 million people. And they have no idea it is happening.
+
+Added AdGuard's October 2017 scan of the Alexa top 100,000 sites for CoinHive and JSEcoin, preserving the distinction between 220 detected home pages, their estimated aggregate audience of 500 million, and confirmed individual mining exposure. Created [[AdGuard]], [[CoinHive]], and [[BrowserCryptomining]]; updated [[Cloudflare]] from its complete ordered source inventory with infrastructure-level enforcement against mining without permission. Treated the more-than-US$43,000 three-week revenue estimate and consent-based advertising-alternative thesis as historical, company-authored claims without session telemetry, device-impact measurements, or longitudinal outcomes. The sole remote lead image now returns HTTP 404 and could not be opened or interpreted, so no visual asset or manifest was created.
+
 ## [2026-09-26] ingest | Calculate what feature to build next - Baremetrics
 
 Added Baremetrics' 2016 Demand, Impact, and Effort framework for feature prioritization. Updated [[ProductIdeaPrioritization]] and [[Baremetrics]] from their complete ordered source inventories with customer-evidence quality, current-goal impact, coarse effort bands, lower-is-better scoring, and the explicit boundary that a score guides rather than automates roadmap judgment. Preserved the framework's limits: the prose omits the full numeric mapping, does not validate commensurability or predictive performance, and can conceal sampling, confidence, dependency, and non-growth work. Opened the sole local image and omitted it as a decorative hero illustration, so no visual asset or manifest was created.
@@ -4350,6 +4354,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable
 
 Added Henrik Kniberg's distinction between coherent outcome slices and unusable component delivery, plus his Earliest Testable, Usable, and Lovable thresholds for separating feedback, voluntary use, and market affection. Created [[HenrikKniberg]], [[EarliestTestableUsableLovable]], [[Minecraft]], [[PUST]], and [[Lego]]; updated [[MinimumViableProduct]] and [[Spotify]] from their complete ordered source inventories. Preserved comment-thread objections that Lean Startup MVPs can be non-product experiments and that the skateboard sequence may describe replaceable prototypes rather than cumulative implementation. Opened both effective local SVG embeds in the comment thread and omitted them as decorative reaction emoji, so no asset manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] lint | Wiki health check
 

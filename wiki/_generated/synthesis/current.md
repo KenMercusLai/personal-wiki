@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: e60eaee31101da0d523ebe3e41bca5dbbb9838e0
+as_of_overview_commit: ec8b731890575daf4141970678b107ee4494d367
 summary: "The atlas maps technology, markets, culture, governance, learning, work, and wellbeing through usable capability, incentives, evidence, autonomy, scale, and context."
-episode_count: 535
-source_count: 535
-paragraph_count: 443
+episode_count: 538
+source_count: 538
+paragraph_count: 444
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress relocates rather than removes complexity: reliable systems require contextual architecture, explicit state and trust boundaries, verification, recoverable operations, curated context, and accountable human judgment.
+Technical progress relocates rather than removes complexity: reliable systems require contextual architecture, explicit state and consent boundaries, verification, recoverable operations, curated context, and accountable human judgment.
 
 - [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[FailureInformedVendorSelection]], [[PhilipYurchuk]].
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[SoftwareEngineering]] and [[EssentialAndAccidentalComplexity]] add that successive abstractions, delivery methods, and LLMs can reduce or relocate implementation friction without proving that problem understanding, coordination, verification, operation, and maintenance have disappeared, while [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]], [[SoftwareEngineering]], [[EssentialAndAccidentalComplexity]], [[ForwardReferenceLearning]], [[LearningHowToLearn]].
 
 ### Business and Markets
 
-Durable participation and advantage depend on usable capability, customer value, audience and community fit, distribution, incentives, operating capacity, capital, scale, and survivability while tracing where risk and power move.
+Durable participation and advantage depend on usable capability, customer value, audience and community fit, distribution, consent, incentives, operating capacity, capital, scale, and survivability while tracing where risk and power move.
 
 - [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments. Evidence: [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]].
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
@@ -57,7 +57,7 @@ Culture and media emerge from form, infrastructure, audience practice, governanc
 
 ### Governance and Institutions
 
-Rules work through authority, incentives, information, enforcement, recourse, and exit; accountability needs explicit boundaries, contextual evidence, fair process, and power-aware safeguards.
+Rules work through authority, incentives, information, consent, enforcement, recourse, and exit; accountability needs explicit boundaries, contextual evidence, fair process, and power-aware safeguards.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
