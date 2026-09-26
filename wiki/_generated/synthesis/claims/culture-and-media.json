@@ -277,8 +277,24 @@
         "DijkstrasAlgorithm",
         "EdsgerWDijkstra"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "startup-culture-emerges-through-team-design",
+      "qualifications": [
+        "The evidence is one anecdotal management essay from the 2000 dot-com context rather than a comparative or longitudinal study of team persistence, delivery, retention, or resilience.",
+        "The hype/craft binary can flatten differences within commercial, product, design, engineering, operations, and client-facing work, while long-lived teams can create local optimization, exclusion, or staffing rigidity."
+      ],
+      "statement": "[[ArtKleiner]] treats [[StartupCulture]] as emergent from repeated behavior rather than directly programmable: [[HypeAndCraftCultures]] makes commercial urgency and production craft interdependent, while [[TeamBasedOrganizationalDesign]] uses persistent accountable teams, postmortems, bounded experiments, and cross-team learning infrastructure to influence the conditions under which shared norms form.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ArtKleiner",
+        "StartupCulture",
+        "HypeAndCraftCultures",
+        "TeamBasedOrganizationalDesign"
+      ]
     }
   ],
-  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[ProfessionalBlogging]] adds a source-scoped conversation-to-publication loop in which recurring community ideas become durable artifacts and future discovery, while [[FounderNetworkBuilding]] supplies purposeful, reciprocal upstream relationships and a warning that focused communities can also narrow judgment. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence.",
+  "summary": "Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[ProfessionalBlogging]] adds a source-scoped conversation-to-publication loop in which recurring community ideas become durable artifacts and future discovery, while [[FounderNetworkBuilding]] supplies purposeful, reciprocal upstream relationships and a warning that focused communities can also narrow judgment. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence. [[ArtKleiner]] adds a source-scoped organizational boundary: [[StartupCulture]] emerges from repeated behavior even when leaders intentionally design [[HypeAndCraftCultures|cross-subculture]] boundaries, persistent teams, postmortems, experiments, and cross-team learning through [[TeamBasedOrganizationalDesign]].",
   "topic_id": "culture-and-media"
 }

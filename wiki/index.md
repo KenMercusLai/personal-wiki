@@ -534,6 +534,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Column: They're leaving California for Las Vegas to find the middle-class life that eluded them - Los Angeles Times](sources/column-theyre-leaving-california-for-las-vegas-to-find-the-middle-class-life-that-eluded-them-los-angeles-times.md) - Steve Lopez uses California transplant stories to show how lower Las Vegas housing and commuting costs can restore savings, time, and ownership prospects without a higher-paying job.
 - [Consensus vs. Collaboration](sources/consensus-vs-collaboration-silicon-valley-product-group.md) - SVPG distinguishes inclusive cross-functional collaboration from unanimous approval and argues for explicit decision authority when product trade-offs remain unresolved.
 - [Content is King, But Context is God](sources/content-is-king-but-context-is-god-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that value-first content works when it respects platform psychology, audience intent, the surrounding experience, and a consistent brand goal.
+- [Corporate Culture in Internet Time](sources/corporate-culture-in-internet-time.md) - Art Kleiner diagnoses early Internet-company conflict between commercial hype and production craft, then proposes persistent teams, cross-team learning, and bounded experimentation.
 
 ## Entities
 
@@ -1574,6 +1575,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steve Lopez](entities/SteveLopez.md) - Los Angeles Times columnist represented through his 2017 reporting and argument on housing affordability and cost-driven migration.
 - [Las Vegas](entities/LasVegas.md) - Nevada city presented as a nearby lower-cost job and housing destination for Californians.
 - [Gary Vaynerchuk](entities/GaryVaynerchuk.md) - Marketing practitioner represented by value-first, platform-aware content strategy and brand-coherence advice.
+- [Art Kleiner](entities/ArtKleiner.md) - Management author represented by an early Internet-company account of emergent culture, hype and craft, and persistent teams.
 
 ## Concepts
 
@@ -2488,5 +2490,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [No-Code Product Prototyping](concepts/NoCodeProductPrototyping.md) - Assembly of existing hosted services into a testable customer workflow before custom application code.
 - [Housing-Cost-Driven Migration](concepts/HousingCostDrivenMigration.md) - Relocation driven by lower housing and commuting costs that improve household living standards without requiring higher destination pay.
 - [Crowded Market Entry](concepts/CrowdedMarketEntry.md) - Entering an established category by treating competition as qualified demand evidence and serving a distinct reachable subsegment.
+- [Hype and Craft Cultures](concepts/HypeAndCraftCultures.md) - Distinguishes commercial urgency and promise-making from reflective production craft while treating both as interdependent.
+- [Team-Based Organizational Design](concepts/TeamBasedOrganizationalDesign.md) - Uses persistent accountable teams, bounded experiments, and cross-team learning infrastructure as the basis of capability and resilience.
 
 ## Syntheses

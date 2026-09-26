@@ -435,12 +435,13 @@
       "dab33ffc07346011bca5fc51b0a72b48810fd9029d0bac9c12bc82b4a2c3f7fb",
       "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
-      "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb"
+      "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
+      "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 435
+    "paragraph_count": 436
   },
-  "overview_commit": "42f488169a211485504c5080285ea27b94d379bb",
-  "overview_digest": "bf80f37b01fe8b8c8f751fe199e116efe41b67f54054220662ad363ef69769c2",
+  "overview_commit": "2d86090ae3901528b16e4bc9b15ead52e992e199",
+  "overview_digest": "d00b70cac769247572421d55fc87fbad146d690df89622b38878c14cd24cf844",
   "paragraphs": [
     {
       "id": "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
@@ -8811,6 +8812,26 @@
         "LLMToolingSkills",
         "ModelContextProtocol",
         "PromptCaching"
+      ]
+    },
+    {
+      "id": "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "culture-and-media",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[ArtKleiner]] source adds [[HypeAndCraftCultures]] as a historically situated explanation of early Internet-company conflict. Commercial actors rewarded for capital, deals, scale, and urgency depend on craft practitioners motivated by reflection, professional judgment, and elegant delivery, yet each can make the other ineffective through overcommitment, resistance, or commodity treatment. [[StartupCulture]] therefore gains a boundary: leaders can design structures, incentives, boundaries, and rituals, but shared norms still emerge from repeated behavior rather than declarations. New [[TeamBasedOrganizationalDesign]] locates the practical response in persistent accountable teams, recurring postmortems, bounded experiments, and company-level infrastructure for rotations, standards, knowledge exchange, and senior participation. The essay predicts that teams can become more stable than companies and carry capability across projects or owners, but supplies anecdotes rather than comparative or longitudinal evidence; its 2000 dot-com setting, hype/craft binary, and four unavailable legacy GIFs further bound the claim. The available Strategy+Business logo was inspected and omitted as decorative.",
+      "topic_scores": {
+        "business-and-markets": 4,
+        "culture-and-media": 2,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "ArtKleiner",
+        "HypeAndCraftCultures",
+        "StartupCulture",
+        "TeamBasedOrganizationalDesign"
       ]
     }
   ],

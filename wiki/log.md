@@ -4246,3 +4246,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Corporate Culture in Internet Time
+
+Added Art Kleiner's 2000 diagnosis of interdependent hype and craft cultures in early Internet companies. Created [[ArtKleiner]], [[HypeAndCraftCultures]], and [[TeamBasedOrganizationalDesign]]; updated [[StartupCulture]] from its complete ordered source inventory with the distinction between emergent norms and designed operating conditions, plus persistent teams, postmortems, bounded experiments, and cross-team learning infrastructure. Inspected and omitted the Strategy+Business logo as decorative. Four legacy GIFs referenced at section boundaries were missing; their placement suggests decoration, but their contents could not be verified.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

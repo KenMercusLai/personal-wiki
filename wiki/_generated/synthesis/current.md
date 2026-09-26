@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 42f488169a211485504c5080285ea27b94d379bb
+as_of_overview_commit: 2d86090ae3901528b16e4bc9b15ead52e992e199
 summary: "The atlas maps technology, markets, culture, governance, learning, and wellbeing as systems shaped by incentives, evidence, boundaries, scale, survivability, and context."
-episode_count: 524
-source_count: 524
-paragraph_count: 435
+episode_count: 525
+source_count: 525
+paragraph_count: 436
 topic_count: 9
 ---
 
