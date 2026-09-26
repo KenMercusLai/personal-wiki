@@ -2,7 +2,7 @@
 title: "Confessions Of A VC: Crap - Why I Passed On Uber's Seed Round"
 type: source
 tags: [venture-capital, uber, marketplaces, investment-judgment]
-date: 2016-02-29
+date: 2016-02-12
 source_file: "/mnt/ken_personal_wiki/Articles/Confessions Of A VC- Crap – Why I Passed On Uber's Seed Round - John Greathouse.md"
 ---
 

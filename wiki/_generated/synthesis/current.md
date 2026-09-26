@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 5fded7b10f0aa7adb1f4357a1b1682b109237668
+as_of_overview_commit: 5c68ed46afd8b8851c1ca5879da13d957d8ca14e
 summary: "The atlas maps technology, markets, culture, governance, learning, work, and wellbeing as systems shaped by incentives, evidence, autonomy, boundaries, scale, and context."
-episode_count: 532
-source_count: 532
-paragraph_count: 441
+episode_count: 534
+source_count: 534
+paragraph_count: 442
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
+- Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall; [[ZettelkastenMethod]] and [[SecondBrain]] add a non-AI counterpart in which stable identity, hypertext, keywords, and relational complexity can produce useful surprise, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, and low WIP can make speed safer rather than more frantic.
 - [[WebAdEconomics]] creates conflicts on both sides of an advertising platform: reach and targeting can move the service away from user interests, while durable advertiser-customer relationships can reduce intermediary dependence; [[AlbertWenger]] and [[UnionSquareVentures]] present [[SubscriptionSurplusAlignment]] as a conditional alternative in which continuing revenue depends on renewal value and additional use carries no marginal charge.
 - [[OrganizationalScaleTradeoffs]] explains why incumbent resources do not automatically become competitive speed: [[SaumilMehta]] reports that [[Square]] combined accessible leadership and specialist support with engineering scarcity, hiring, strategy, installed-customer, autonomy, dependency, and cultural constraints, while [[LightspeedVenturePartners]] adds a source-scoped CPG case in which customer distance, acquisition reliance, and a reported 12-24-month idea-to-customer cycle create openings for [[MicroBrandCommerce]] entrants using flexible distribution and faster feedback; both sharpen [[CorporateGiantFragility]] without making full-company alignment harmless.

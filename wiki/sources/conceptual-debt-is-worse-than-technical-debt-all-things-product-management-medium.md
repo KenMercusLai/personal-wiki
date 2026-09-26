@@ -2,7 +2,7 @@
 title: "Conceptual Debt is Worse than Technical Debt"
 type: source
 tags: [product-design, mental-models, conceptual-debt]
-date: 2015-12-29
+date: 2015-12-28
 source_file: "/mnt/ken_personal_wiki/Articles/Conceptual Debt is Worse than Technical Debt - All Things Product Management - Medium.md"
 ---
 

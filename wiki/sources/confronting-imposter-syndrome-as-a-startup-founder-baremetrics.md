@@ -2,7 +2,7 @@
 title: "Confronting imposter syndrome as a startup founder"
 type: source
 tags: [startup, founder, imposter-syndrome, wellbeing]
-date: 2017-02-22
+date: 2017-02-21
 source_file: "/mnt/ken_personal_wiki/Articles/Confronting imposter syndrome as a startup founder - Baremetrics.md"
 ---
 

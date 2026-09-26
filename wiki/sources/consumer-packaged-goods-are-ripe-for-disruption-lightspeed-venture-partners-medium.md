@@ -2,7 +2,7 @@
 title: "Consumer Packaged Goods are ripe for disruption"
 type: source
 tags: [consumer-packaged-goods, direct-to-consumer, brands, retail, venture-capital]
-date: 2018-06-08
+date: 2018-06-07
 source_file: "/mnt/ken_personal_wiki/Articles/Consumer Packaged Goods are ripe for disruption - Lightspeed Venture Partners - Medium.md"
 ---
 

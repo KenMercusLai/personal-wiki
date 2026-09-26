@@ -2,7 +2,7 @@
 title: "Content is King, But Context is God"
 type: source
 tags: [content-marketing, social-media, audience, branding]
-date: 2016-03-04
+date: 2016-03-01
 source_file: "/mnt/ken_personal_wiki/Articles/Content is King, But Context is God - Gary Vaynerchuk - Medium.md"
 ---
 

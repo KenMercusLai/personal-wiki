@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Create a Zettelkasten for your Notes to Improve Thinking and Writing](sources/create-a-zettelkasten-for-your-notes-to-improve-thinking-and-writing-zettelkasten-method.md) - Christian Tietze frames a linked slip-box as a communication partner built from writing, stable note identity, loose filing, relational complexity, and serendipitous retrieval.
 - [Constantly tweaking: How The Guardian continues to develop its in-house analytics system](sources/constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab.md) - Joseph Lichterman shows how the Guardian made Ophan broadly usable through real-time editorial feedback, accessible measures, alerts, and minimum-first iteration.
 - [Reddit Marketing Strategy for SaaS with Zero Users](sources/constantin-reddit-marketing-strategy-for-saas-with-zero-users.md) - Constantin proposes studying subreddit winners and rules, posting without spam, and engaging with every reply to seek a SaaS product's first users.
 - [Calculate what feature to build next - Baremetrics](sources/calculate-what-feature-to-build-next-baremetrics.md) - Baremetrics presents DIE as a lightweight, lower-is-better score balancing customer demand, goal impact, and delivery effort without replacing product judgment.
@@ -556,7 +557,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Yuan Chaofa](entities/YuanChaofa.md) - Technical author explaining RAG, agent tools, and reinforcement-learned search.
 - [Chatbox](entities/Chatbox.md) - Open-source LLM chat project with file-aware agentic and prompted retrieval paths.
 - [Search-R1](entities/SearchR1.md) - Reinforcement-learning framework for interleaved reasoning and multi-turn search.
-- [Christian Tietze](entities/ChristianTietze.md) - Zettelkasten practitioner presenting a paper-to-digital reading-note workflow and a concern-separation account of atomicity.
+- [Christian Tietze](entities/ChristianTietze.md) - Zettelkasten practitioner presenting a communication-partner model, paper-to-digital reading workflow, and concern-separation account of atomicity.
 - [Albert Wenger](entities/AlbertWenger.md) - Investor-author connecting business-model incentives, purpose and recognition, and resilient participation in technology bubbles.
 - [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
 - [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.
@@ -1443,7 +1444,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nicky Case](entities/NickyCase.md) - Creator whose explanation-design advice informs concrete-first tutorial writing and early reader testing.
 - [NLTK](entities/NLTK.md) - Python NLP toolkit used for Reuters corpus access and trigram construction in the language-model tutorial.
 - [NotebookLM](entities/NotebookLM.md) - External knowledge-base LLM used as an example of a RAG-like interface orchestrated by a Skill.
-- [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice.
+- [Niklas Luhmann](entities/NiklasLuhmann.md) - Sociologist cited as the historical model for Zettelkasten small-note practice and communication with slip-boxes.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
@@ -2219,7 +2220,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Bottleneck-Aware AI Coding](concepts/BottleneckAwareAICoding.md) - Applying AI coding tools to the limiting step in software delivery rather than optimizing code generation in isolation.
 - [AI Knowledge Assistant](concepts/AIKnowledgeAssistant.md) - AI-supported summarization, association, classification, and retrieval for personal notes.
 - [Active Learning](concepts/ActiveLearning.md) - Learning through explanation, teaching, recreation, writing, and other output-oriented use.
-- [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered investigation method where provisional hypotheses, weakness lists, targeted reading, and revision direct learning.
+- [Learning By Writing](concepts/LearningByWriting.md) - Writing-centered learning method where inspectable reasoning, provisional hypotheses, targeted research, feedback, and revision direct understanding.
 - [Agent Resumability](concepts/AgentResumability.md) - Ability to resume agent execution with state, context, side-effect facts, and environment semantics intact.
 - [Art as Object Tension](concepts/ArtAsObjectTension.md) - Aesthetic account of art as tension between a withdrawn real object and sensuous qualities.
 - [Attention Management](concepts/AttentionManagement.md) - Protecting and allocating limited mental capacity so important work gets real focus instead of being lost to distraction, context switching, or nominally available minutes.
@@ -2385,7 +2386,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robust Programming](concepts/RobustProgramming.md) - Code-level reliability practice of enforcing boundaries, understanding APIs, and failing predictably under unexpected conditions.
 - [Remote Administration Exposure](concepts/RemoteAdministrationExposure.md) - Risk created when login, file-transfer, remote-desktop, command, or management-console services are reachable beyond their intended administration boundary.
 - [Role Modeling](concepts/RoleModeling.md) - Visible behavior teaching norms more forcefully than verbal instruction.
-- [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, and synthesis.
+- [Second Brain](concepts/SecondBrain.md) - An external knowledge system that supports memory, retrieval, connection, synthesis, and sometimes conversational discovery.
 - [SaaS Discounting](concepts/SaaSDiscounting.md) - Subscription-software price reductions that can aid conversion while damaging perceived value, retention, and unit economics.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [SaaS Pricing](concepts/SaaSPricing.md) - Strategic subscription pricing choices around value, discounts, incentives, and retention economics.
@@ -2424,7 +2425,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Work Habits](concepts/WorkHabits.md) - Repeatable routines and practices that shape how work gets done.
 - [Workplace Learning](concepts/WorkplaceLearning.md) - Learning from real work problems, teammate reasoning, protected team rituals, and hands-on verification.
 - [Work Environment](concepts/WorkEnvironment.md) - Workplace field of incentives, managers, colleagues, feedback loops, values, and daily norms.
-- [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice based on compact thought units, links, sequences, and emergent structure.
+- [Zettelkasten Method](concepts/ZettelkastenMethod.md) - Small-note knowledge practice using compact thought units, stable identity, semantic links, emergent structure, and serendipitous retrieval.
 - [Blind Box Retail](concepts/BlindBoxRetail.md) - Sales format that adds controlled randomness inside chosen product series, with revenue quality depending on base product appeal.
 - [Designer Toy IP Operations](concepts/DesignerToyIPOperations.md) - Character-IP business practice built from repeated design refresh, category expansion, licensing, collaborations, and recognition maintenance.
 - [Founder-Led Organizational Evolution](concepts/FounderLedOrganizationalEvolution.md) - Pattern where founder judgment and market feedback repeatedly redirect a company toward larger business forms.

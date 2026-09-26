@@ -2,7 +2,7 @@
 title: "良性压力的机制"
 type: source
 tags: [stress, learning, psychology, exploration]
-date: 2026-03-19
+date: 2021-01-13
 source_file: /mnt/ken_personal_wiki/Articles/良性压力的机制.md
 ---
 

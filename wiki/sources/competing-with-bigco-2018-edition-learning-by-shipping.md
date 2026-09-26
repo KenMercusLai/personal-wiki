@@ -2,7 +2,7 @@
 title: "Competing with BigCo: 2018 Edition"
 type: source
 tags: [startups, incumbents, enterprise-software, product-market-fit, competition]
-date: 2017-12-20
+date: 2017-12-19
 source_file: "/mnt/ken_personal_wiki/Articles/Competing with BigCo- 2018 Edition - Learning By Shipping.md"
 ---
 

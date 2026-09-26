@@ -2,7 +2,7 @@
 title: "Configuration Management is an Antipattern"
 type: source
 tags: [configuration-management, immutable-infrastructure, release-engineering, devops, cloud]
-date: 2026-04-04
+date: 2017-03-09
 source_file: "/mnt/ken_personal_wiki/Articles/Configuration Management is an Antipattern - By.md"
 ---
 

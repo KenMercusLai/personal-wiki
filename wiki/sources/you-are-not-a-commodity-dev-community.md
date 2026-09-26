@@ -2,7 +2,7 @@
 title: "You Are Not A Commodity"
 type: source
 tags: [career, engineering, entrepreneurship, startup, software]
-date: 2026-02-28
+date: 2016-08-07
 source_file: "/mnt/ken_personal_wiki/Articles/You Are Not A Commodity - DEV Community.md"
 ---
 

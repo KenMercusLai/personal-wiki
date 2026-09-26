@@ -2,7 +2,7 @@
 title: "Competition Does Not Matter"
 type: source
 tags: [saas, competition, differentiation, bootstrapping]
-date: 2026-04-04
+date: 2016-10-04
 source_file: "/mnt/ken_personal_wiki/Articles/Competition Does Not Matter.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Common Rules For Uncommon People"
 type: source
 tags: [startup, sales, meetings, communication]
-date: 2026-04-04
+date: 2018-04-10
 source_file: "/mnt/ken_personal_wiki/Articles/Common Rules For Uncommon People - By.md"
 ---
 

@@ -4059,9 +4059,6 @@ Added the Christensen Institute's introduction to Jobs to Be Done as a circumsta
 
 Added Cisco's prescriptive control-plane certificate and authorized-device-list guide. Created [[CiscoCatalystSDWAN]], [[CertificateBasedDeviceIdentity]], and [[AuthorizedDeviceLists]]; updated [[Cisco]] from its complete ordered source inventory. The synthesis separates certificate identity from inventory-based authorization, covers automated and manual Cisco PKI plus enterprise-CA workflows, and preserves version, vendor-authorship, centralized-inventory, and incomplete security-evaluation limits. Opened and retained all 11 referenced local diagrams with readable filenames and canonical semantic placement because each contributes architecture, trust, workflow, authorization, or topology evidence.
 
-## [2026-09-26] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] ingest | Confessions of a $20K bootcamp graduate. (Hack Reactor)
 
@@ -4313,6 +4310,14 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | Constantly tweaking: How The Guardian continues to develop its in-house analytics system
 
 Added Joseph Lichterman's 2015 account of the Guardian's Ophan system as broadly accessible, real-time editorial decision support. Created [[TheGuardian]], [[Ophan]], and [[NewsroomAnalytics]]; updated [[DataInformedCulture]] and [[AgileSoftwareDevelopment]] from their complete ordered source inventories with last-mile access, threshold alerts, direct user feedback, minimum-first iteration, and safeguards for context when reacting to traffic. Opened all six embedded images, omitted the decorative Guardian office photograph, and retained five evidence-bearing Ophan interface screenshots under descriptive canonical filenames with a manifest.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Create a Zettelkasten for your Notes to Improve Thinking and Writing
+
+Added Christian Tietze's 2013 communication-partner model of Zettelkasten practice: writing makes reasoning inspectable, while stable IDs, loose filing, direct links, keywords, search, and relational complexity enable serendipitous retrieval. Updated [[ZettelkastenMethod]], [[LearningByWriting]], [[SecondBrain]], [[NiklasLuhmann]], and [[ChristianTietze]] from their complete ordered source inventories, preserving qualifications that the memory, creativity, productivity, and dense-linking claims are conceptual rather than comparative evidence. The duplicate local image target was missing, so the original hosted JPEG was recovered and opened; one evidence-bearing photograph of physical indexed slip boxes and cards arranged into working groups was retained under a descriptive canonical filename.
 
 ## [2026-09-26] lint | Wiki health check
 

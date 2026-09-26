@@ -2,7 +2,7 @@
 title: "Consumer startups are dead. Long live consumer startups."
 type: source
 tags: [consumer-startups, mobile, incumbents, network-effects, distribution]
-date: 2018-07-23
+date: 2018-07-22
 source_file: "/mnt/ken_personal_wiki/Articles/Consumer startups are dead. Long live consumer startups.md"
 ---
 

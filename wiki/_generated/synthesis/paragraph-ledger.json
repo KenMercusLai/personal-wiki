@@ -286,6 +286,7 @@
       "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
       "288af91aa9d87fd6887e5e4493aeba87396f77129851fc787d02781e8bfedd3f",
       "511145bebf037d1b273546474fd9253cb3af06d1c68807c51a1eaabf90ff7425",
+      "a62d3e81294945663f9368b9098cd242d63a8ed7cfe6da523d9679e4c87d727b",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
@@ -443,10 +444,10 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 441
+    "paragraph_count": 442
   },
-  "overview_commit": "ec7f7809782ff1275dfe7ba10aa7b5d634d3298b",
-  "overview_digest": "ffe4d993d9a7446c092d63b7b6c20b34eba97e224ffd9ab36e7071c869ed8bcb",
+  "overview_commit": "5c68ed46afd8b8851c1ca5879da13d957d8ca14e",
+  "overview_digest": "1acf7a3b35b5b1148f0b31ddbbf719204cdb5ec48533f9efc75238437ad5dbb8",
   "paragraphs": [
     {
       "id": "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
@@ -5867,6 +5868,22 @@
         "ChristianTietze",
         "NoteGranularity",
         "ReadingNoteWorkflow",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "a62d3e81294945663f9368b9098cd242d63a8ed7cfe6da523d9679e4c87d727b",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "Tietze's earlier introductory essay supplies the communication model beneath that workflow. Drawing on [[NiklasLuhmann]], it argues that writing makes a point and its development inspectable, while stable note IDs, direct links, keywords, full-text search, and loose rather than prematurely hierarchical filing let a [[ZettelkastenMethod|Zettelkasten]] develop enough relational complexity to answer queries with useful surprise. This makes [[SecondBrain]] broader than AI-assisted retrieval: a linked hypertext archive can act conversationally by resurfacing associations its author did not expect. It also strengthens [[LearningByWriting]] by preserving earlier reasoning against hindsight. The model remains a practitioner argument, however; it does not measure whether dense linking improves memory, creativity, reasoning, or output, and its anti-sorting advice coexists with explicit IDs, keywords, and emergent clusters. The retained photograph shows physical indexed slip boxes beside cards spread into working groups.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "LearningByWriting",
+        "NiklasLuhmann",
+        "SecondBrain",
         "ZettelkastenMethod"
       ]
     },

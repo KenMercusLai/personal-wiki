@@ -2,7 +2,7 @@
 title: "Crafting The First Mile Of Product"
 type: source
 tags: [product-design, onboarding, activation, product-growth]
-date: 2016-06-22
+date: 2016-06-21
 source_file: "/mnt/ken_personal_wiki/Articles/Crafting The First Mile Of Product - Positive Slope - Medium.md"
 ---
 
