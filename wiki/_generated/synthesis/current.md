@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 3623a538797604aaa0c0e7b2b8e83d8225d8303b
+as_of_overview_commit: 5fded7b10f0aa7adb1f4357a1b1682b109237668
 summary: "The atlas maps technology, markets, culture, governance, learning, work, and wellbeing as systems shaped by incentives, evidence, autonomy, boundaries, scale, and context."
-episode_count: 531
-source_count: 531
-paragraph_count: 440
+episode_count: 532
+source_count: 532
+paragraph_count: 441
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress relocates rather than removes complexity: reliable systems re
 
 ### Business and Markets
 
-Durable participation and advantage depend on aligning customer value, distribution, incentives, operating capability, capital, scale, and survivability while tracing where risk and power move.
+Durable participation and advantage depend on aligning customer value, audience and community fit, distribution, incentives, operating capability, capital, scale, and survivability while tracing where risk and power move.
 
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].

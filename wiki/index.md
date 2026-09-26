@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Reddit Marketing Strategy for SaaS with Zero Users](sources/constantin-reddit-marketing-strategy-for-saas-with-zero-users.md) - Constantin proposes studying subreddit winners and rules, posting without spam, and engaging with every reply to seek a SaaS product's first users.
 - [Calculate what feature to build next - Baremetrics](sources/calculate-what-feature-to-build-next-baremetrics.md) - Baremetrics presents DIE as a lightweight, lower-is-better score balancing customer demand, goal impact, and delivery effort without replacing product judgment.
 - [You Are Not A Commodity](sources/you-are-not-a-commodity-dev-community.md) - Jeff Meyerson argues that cheap infrastructure lets engineers and small teams pursue product ownership, a manifesto qualified by the practical risks of independent work.
 - [RAG 进化之路：传统 RAG 到工具与强化学习双轮驱动的 Agentic RAG](sources/yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag.md) - Yuan Chaofa contrasts fixed RAG with Chatbox's coarse-to-fine tools and Search-R1's learned multi-turn search policy.
@@ -544,6 +545,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Constantin](entities/Constantin.md) - Practitioner represented by a concise Reddit marketing routine for zero-user SaaS founders.
+- [Reddit](entities/Reddit.md) - Community platform whose subreddit-specific norms and ranked posts shape the source's early-user method.
 - [Jeff Meyerson](entities/JeffMeyerson.md) - Software Engineering Daily author advocating engineer ownership, prototyping, and independent product creation.
 - [Software Engineering Daily](entities/SoftwareEngineeringDaily.md) - Software-engineering publication context for Jeff Meyerson's entrepreneurial career essay.
 - [Fred George](entities/FredGeorge.md) - Practitioner credited by the source with the Programmer Anarchy model.
@@ -1593,6 +1596,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Reddit Marketing](concepts/RedditMarketing.md) - Subreddit-specific audience research, norm-aware publishing, and comment engagement for early product distribution.
 - [Programmer Anarchy](concepts/ProgrammerAnarchy.md) - Source-scoped organization model combining programmer-selected work, removed management layers, and end-to-end accountability.
 - [Technology Bubbles](concepts/TechnologyBubbles.md) - Speculative technology phases that can finance experiments and infrastructure while amplifying narrative, metric, leverage, volatility, and fraud risks.
 - [Purpose and Recognition](concepts/PurposeAndRecognition.md) - Paired need to understand why an activity matters and to have one's contribution noticed and acknowledged.

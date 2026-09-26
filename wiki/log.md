@@ -4302,3 +4302,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-26] ingest | Reddit Marketing Strategy for SaaS with Zero Users
+
+Added Constantin's subreddit-by-subreddit routine for seeking a SaaS product's first users through audience research, rule-aware posting, restrained cadence, and comment engagement. Created [[Constantin]], [[Reddit]], and [[RedditMarketing]]; updated [[SaaSMarketing]] from its complete ordered source inventory and qualified the source's first-customer promise because it reports X engagement but no Reddit conversion, retention, moderation, or labor outcomes. Opened the sole embedded image and retained its evidence-bearing list of 20 product, startup, beta-testing, growth, design, SaaS, and indie-hacker communities under a descriptive canonical filename with a manifest entry.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
       "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
       "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
       "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
@@ -442,11 +443,27 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 440
+    "paragraph_count": 441
   },
-  "overview_commit": "3623a538797604aaa0c0e7b2b8e83d8225d8303b",
-  "overview_digest": "e08b5738003caa5d2772177fc5f6c8a0a4c050034f8dd4fe3c2dd3e762810630",
+  "overview_commit": "5fded7b10f0aa7adb1f4357a1b1682b109237668",
+  "overview_digest": "ffe4d993d9a7446c092d63b7b6c20b34eba97e224ffd9ab36e7071c869ed8bcb",
   "paragraphs": [
+    {
+      "id": "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[Constantin]] source adds [[RedditMarketing]] as a community-specific first-user tactic within [[SaaSMarketing]]. Instead of treating [[Reddit]] as one broadcast channel, the post recommends choosing a subreddit, studying its top posts across monthly, yearly, and all-time windows, inferring its preferred formats, publishing within its promotion rules, replying to every response, and repeating at roughly one post per day without spamming. The retained image expands prospecting into 20 communities spanning side projects, beta testing, self-promotion, entrepreneurship, growth, design critique, SaaS, startups, and indie hacking. This sharpens the wiki's distribution material with a useful distinction between attention seeking and norm-aware participation, while comment engagement may also create [[CustomerLedProductDevelopment]] opportunities. The evidence remains thin: the source is one short practitioner post whose 30.6K views, 326 reposts, 894 likes, and 19 replies measure interest on X, not Reddit-derived customers; it supplies no conversion, retention, time-cost, removal, moderator, or product-fit outcomes, and subreddit rules and audiences can change.",
+      "topic_scores": {
+        "business-and-markets": 3
+      },
+      "wikilinks": [
+        "Constantin",
+        "CustomerLedProductDevelopment",
+        "Reddit",
+        "RedditMarketing",
+        "SaaSMarketing"
+      ]
+    },
     {
       "id": "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
       "primary_topic": "ai-and-technology",
