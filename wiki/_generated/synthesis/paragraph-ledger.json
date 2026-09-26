@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
       "5db2ddde4a2630e19f67735e9aaa9dd2d11bf70bac3a072e68e06c987b6056d3",
       "cde06dd9a968c1ffed726ce9aa89fef3ca53be926b0dcc13c76e8a949b237e36",
       "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
@@ -436,11 +437,30 @@
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb"
     ],
-    "paragraph_count": 434
+    "paragraph_count": 435
   },
-  "overview_commit": "1c0a12f772b7bc8d16a60551db88995fa9eb6fcb",
-  "overview_digest": "0624bd552733950a577723a6495898ebf63128d1d7f57e00047b74083024cd2f",
+  "overview_commit": "42f488169a211485504c5080285ea27b94d379bb",
+  "overview_digest": "bf80f37b01fe8b8c8f751fe199e116efe41b67f54054220662ad363ef69769c2",
   "paragraphs": [
+    {
+      "id": "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[AlbertWenger]] source adds [[TechnologyBubbles]] as a two-level account of speculative technology waves. At the system level, Wenger argues that bubbles can finance real experiments and infrastructure, including the decentralized internet he expected a cryptocurrency boom to support. At the participant level, the same environment can replace outside comparison with self-reinforcing internal logic, elevate pageviews or cumulative registrations over actual end-user adoption, normalize explicit or contract-embedded leverage, and attract scams. The recommended objective is survivability rather than perfect timing: retain critical distance, avoid borrowing, preserve segregated liquidity and dry powder, take some gains during the rise, and remain able to participate after a crash if the underlying technology still matters. This extends [[VanityMetrics]] from startup operations into speculative-market judgment and adds a financial application to [[Antifragile]]. The source is a short May 2017 investor essay, not a comparative history or current cryptocurrency assessment; it does not define adoption operationally, quantify bubbles' net infrastructure value, or incorporate later cycles, failures, regulation, and outcomes. Its sole local image was opened and omitted as a decorative author portrait.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 4,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AlbertWenger",
+        "Antifragile",
+        "TechnologyBubbles",
+        "VanityMetrics"
+      ]
+    },
     {
       "id": "5db2ddde4a2630e19f67735e9aaa9dd2d11bf70bac3a072e68e06c987b6056d3",
       "primary_topic": "work-education-and-society",

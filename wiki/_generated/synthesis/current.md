@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 1c0a12f772b7bc8d16a60551db88995fa9eb6fcb
-summary: "The atlas maps technology, markets, culture, governance, learning, and wellbeing as systems shaped by incentives, evidence, boundaries, scale, and context."
-episode_count: 523
-source_count: 523
-paragraph_count: 434
+as_of_overview_commit: 42f488169a211485504c5080285ea27b94d379bb
+summary: "The atlas maps technology, markets, culture, governance, learning, and wellbeing as systems shaped by incentives, evidence, boundaries, scale, survivability, and context."
+episode_count: 524
+source_count: 524
+paragraph_count: 435
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress relocates complexity; reliable systems still need contextual 
 
 ### Business and Markets
 
-Durable advantage depends on aligning customer value, distribution, incentives, capital, operating capability, and scale; advertising and subscriptions redistribute conflicts rather than eliminating them.
+Durable advantage and participation depend on aligning customer value, distribution, incentives, capital, operating capability, scale, and survivability; technology bubbles, advertising, and subscriptions can create value while redistributing risk and conflict.
 
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].

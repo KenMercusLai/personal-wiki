@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-26] ingest | Some Lessons I Learned from the Dotcom Bubble for the Coming Crypto Bubble
+
+Added Albert Wenger's May 2017 framework for treating technology bubbles as possible funders of experimentation and infrastructure without confusing that system-level role with safe participant behavior. Created [[TechnologyBubbles]]; updated [[AlbertWenger]], [[VanityMetrics]], and [[Antifragile]] from their complete ordered source inventories with critical-distance, end-user-adoption, no-borrowing, dry-powder, partial-profit-taking, scam-awareness, and long-term-participation guidance. Preserved the essay's historical and investor-opinion limits: it does not quantify bubbles' net value, define adoption operationally, predict timing, or account for later cryptocurrency cycles and outcomes. Opened the sole local image and omitted the Albert Wenger portrait as decorative, so no visual asset or manifest was created.
+
 ## [2026-09-26] ingest | Context Engineering from the Inside Out
 
 Added a practitioner framework that treats context engineering as the joint discipline of curating effective attention and preserving stable prompt prefixes. Updated the wiki's context-management, skills, prompt-caching, MCP, shell-tooling, and Claude Code syntheses with always-on project files, on-demand skills, action-triggered hooks, hidden tool-schema cost, deterministic tool responses, and lossy compaction/subagent handoffs. Preserved qualifications around the article's implementation-dependent cache claims, opinionated CLI comparison, and self-reported tagging-agent accuracy. Inspected all eight local diagrams and retained each at its semantic position under descriptive canonical filenames with a complete manifest.
@@ -4230,6 +4234,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | From Advertising to Subscriptions and the Evolution of the USV Investment Thesis
 
 Added Albert Wenger's 2018 argument that online-advertising economics push platforms toward reach and targeting, creating conflicts with users and with advertisers that could otherwise build durable direct customer relationships. Created [[AlbertWenger]]; updated [[UnionSquareVentures]], [[WebAdEconomics]], and [[SubscriptionSurplusAlignment]] from their complete ordered source inventories with trusted-brand incentives, renewal-dependent value, use without marginal charges, cross-category consumer examples, and hybrid free/ad-supported and paid/ad-free tiers. Preserved the source's investor-essay scope and the absence of comparative price, conversion, churn, profitability, affordability, underuse, or cancellation evidence. Opened the sole local image and omitted the author portrait as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] lint | Wiki health check
 

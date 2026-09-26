@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Some Lessons I Learned from the Dotcom Bubble for the Coming Crypto Bubble](sources/continuations-by-albert-wenger-some-lessons-i-learned-from-the-dotcom-bubble-for.md) - Albert Wenger argues that technology bubbles can fund experiments and infrastructure while participants need adoption metrics, low leverage, liquidity, skepticism, and durable involvement.
 - [Our Need for Purpose and Recognition](sources/continuations-by-albert-wenger-our-need-for-purpose-and-recognition.md) - Albert Wenger argues that purpose and acknowledgment are human needs that managers must connect to daily work and societies must reconsider beyond traditional employment.
 - [From Advertising to Subscriptions and the Evolution of the USV Investment Thesis](sources/continuations-by-albert-wenger-from-advertising-to-subscriptions-and-the.md) - Albert Wenger argues that ad platforms face conflicts with users and advertisers, while consumer subscriptions can align renewal revenue with continuing customer value.
 - [Context Engineering from the Inside Out](sources/context-engineering-from-the-inside-out.md) - A practitioner framework for curating effective agent context and stable cacheable prefixes through project instructions, skills, hooks, CLI discovery, deterministic tool results, compaction, and subagents.
@@ -536,7 +537,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
-- [Albert Wenger](entities/AlbertWenger.md) - Investor-author connecting business-model incentives, workplace motivation, and post-work questions of purpose and recognition.
+- [Albert Wenger](entities/AlbertWenger.md) - Investor-author connecting business-model incentives, purpose and recognition, and resilient participation in technology bubbles.
 - [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
 - [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.
 - [LiveRamp](entities/LiveRamp.md) - Source-bounded 2019 profile of a people-data middleware company in Auren Hoffman’s DaaS account.
@@ -1576,6 +1577,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Technology Bubbles](concepts/TechnologyBubbles.md) - Speculative technology phases that can finance experiments and infrastructure while amplifying narrative, metric, leverage, volatility, and fraud risks.
 - [Purpose and Recognition](concepts/PurposeAndRecognition.md) - Paired need to understand why an activity matters and to have one's contribution noticed and acknowledged.
 - [Psychological Safety](concepts/PsychologicalSafety.md) - Conditions for asking questions, voicing dissent, and learning from mistakes without suppressing accountability.
 - [Psychological Reactance](concepts/PsychologicalReactance.md) - Resistance to perceived threats to autonomy, including distrust or opposition when familiar persuasion tactics feel coercive.

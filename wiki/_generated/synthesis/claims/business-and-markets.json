@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "technology-bubbles-need-survivable-participation",
+      "qualifications": [
+        "The evidence is one short May 2017 investor essay drawing an analogy from the dot-com era to an anticipated cryptocurrency bubble, not a comparative history, current market assessment, or measured test of the proposed guardrails.",
+        "The source does not operationally define adoption, quantify bubbles' net infrastructure value, resolve valuation or timing, or incorporate later cryptocurrency cycles, failures, regulation, custody, and counterparty outcomes."
+      ],
+      "statement": "[[TechnologyBubbles]] can finance experiments and infrastructure while their closed comparative logic elevates [[VanityMetrics]], leverage, and scams; [[AlbertWenger]] therefore frames durable participation through outside judgment, end-user adoption, no borrowing, segregated liquidity, partial profit-taking, and continued post-crash capacity, extending [[Antifragile]] from technical learning into speculative-market survivability without making bubble timing predictable.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "TechnologyBubbles",
+        "VanityMetrics",
+        "AlbertWenger",
+        "Antifragile"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "content-acquisition-needs-an-audience-product-loop",
       "qualifications": [
         "The evidence is a 2016 practitioner account centered on Contently's CEO rather than a controlled comparison, so its six-month runway, channel hierarchy, cadence, and A/B-testing emphasis are contextual heuristics rather than universal rules.",
@@ -1693,6 +1709,6 @@
       ]
     }
   ],
-  "summary": "Business and markets sources show that durable advantage comes from aligning customer value, distribution, incentives, operating capability, retained economics, and founder capacity rather than optimizing one layer in isolation. [[WebAdEconomics]] now includes a two-sided intermediary conflict: reach and targeting can diverge from user interests, while durable advertiser-customer relationships can weaken platform dependence; [[SubscriptionSurplusAlignment]] is the conditional alternative in which renewal depends on continuing value and added use carries no marginal charge. [[ContentLedAcquisition]] combines an audience-product loop with diagnostic [[MultiProductContentStrategy]], while [[OrganizationalScaleTradeoffs]] explains why incumbent resources become market response only through strategy, customer fit, staffing, autonomy, and dependency coordination. The wider topic spans governed data and platform ecosystems, startup learning and financing, SaaS and creator businesses, pricing and retention, organizational design, infrastructure and reliability, marketplaces, media, strategic transitions, and founder psychology. Most evidence is practitioner, company-authored, or retrospective, so claims remain bounded by context, base rates, costs, conflicts, and measured outcomes.",
+  "summary": "Business and markets sources show that durable advantage and participation depend on aligning customer value, distribution, incentives, operating capability, retained economics, founder capacity, and survivability rather than optimizing one layer in isolation. [[TechnologyBubbles]] adds a speculative-market boundary: abundant capital may finance experiments and infrastructure while closed narratives, [[VanityMetrics]], leverage, and scams weaken participant judgment, so long-term involvement requires outside comparison, adoption evidence, liquidity, and the capacity to survive a crash. [[WebAdEconomics]] includes a two-sided intermediary conflict, with [[SubscriptionSurplusAlignment]] as a conditional renewal-based alternative; [[ContentLedAcquisition]] combines an audience-product loop with diagnostic [[MultiProductContentStrategy]], while [[OrganizationalScaleTradeoffs]] explains why incumbent resources become market response only through strategy, customer fit, staffing, autonomy, and dependency coordination. The wider topic spans governed data and platform ecosystems, startup learning and financing, SaaS and creator businesses, pricing and retention, organizational design, infrastructure and reliability, marketplaces, media, strategic transitions, and founder psychology. Most evidence is practitioner, company-authored, or retrospective, so claims remain bounded by context, base rates, costs, conflicts, and measured outcomes.",
   "topic_id": "business-and-markets"
 }
