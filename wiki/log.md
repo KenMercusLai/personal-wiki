@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-26] ingest | Content is Eating the World - Contently's CEO on Winning at Marketing's New Hotness
+
+Added Joe Coleman's 2016 First Round Review framework for treating content as an audience product built through customer research, patient milestones, consistent voice and cadence, editorial white space, deliberate distribution, premium quality, engagement measurement, owned publishing, and controlled experimentation. Created [[JoeColeman]] and [[Contently]]; updated [[FirstRoundReview]], [[ContentLedAcquisition]], and [[MarketingAttribution]] from their complete ordered source inventories. Preserved fixed-runway, channel-ranking, historical-context, and causal-attribution limits, especially that reader-to-customer correlation does not prove content caused sales. Opened the sole local image and retained it as a Contently office photograph whose wall text reinforces the storytelling thesis without adding independent performance evidence.
+
 ## [2026-09-25] ingest | This high school dropout who invested in bitcoin at $12 is now a millionaire at 18
 
 Added CNBC's 2017 profile of Erik Finman's early Bitcoin investment, Botangle founding and sale, reported 403-bitcoin holding, peer-to-peer technology thesis, and preference for entrepreneurial and internet-based learning over formal credentials. Created [[ErikFinman]] and [[Botangle]]; updated [[Bitcoin]], [[CNBC]], [[FreeLearning]], and [[SelfEducationInvestment]] from their complete ordered source inventories. Preserved the article's June 2017 price context, extreme and conflicting forecasts, lack of independent holdings audit, and the survivorship and selection limits of generalizing from an exceptional cryptocurrency outcome. The source Markdown contains no effective image references, so no visual assets or manifest were created.
@@ -4198,3 +4202,7 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] report | LiveRamp and Psychological Safety backfill
 
 Created [[LiveRamp]] from Auren Hoffman's 2019 DaaS article as a historical, source-bounded entity profile. Created [[PsychologicalSafety]] from the architecture-governance, product-management, and junior-developer source notes as a qualified cross-source concept, distinguishing the Wiki's label from the architecture author's own wording. Resolved the three existing links without changing their referring pages.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

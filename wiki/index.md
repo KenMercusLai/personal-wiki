@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Content is Eating the World - Contently's CEO on Winning at Marketing's New Hotness](sources/content-is-eating-the-world-contentlys-ceo-on-winning-at-marketings-new-hotness-first-round-review.md) - Joe Coleman frames content as an audience product built through research, cadence, differentiation, deliberate distribution, quality, engagement measurement, and controlled iteration.
 - [Content Marketing Strategy for Multi-Product Companies](sources/content-marketing-strategy-for-multi-product-companies.md) - A practitioner framework maps products or audiences against funnel stages to audit and prioritize multi-product content coverage.
 - [Consumers Are Becoming Wise to Your Nudge](sources/consumers-are-becoming-wise-to-your-nudge-behavioral-scientist.md) - Simon Shaw reports a representative British experiment in which familiar hotel-booking scarcity and social-proof claims were widely read as pressure and often reduced trust.
 - [Consumer startups are dead. Long live consumer startups.](sources/consumer-startups-are-dead-long-live-consumer-startups.md) - A 2018 investor essay argues that mobile consumer power shifted toward incumbents after 2013, while multi-homing, residual app discovery, and cheaper product development left conditional openings for entrants.
@@ -531,6 +532,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
+- [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.
 - [LiveRamp](entities/LiveRamp.md) - Source-bounded 2019 profile of a people-data middleware company in Auren Hoffman’s DaaS account.
 - [Simon Shaw](entities/SimonShaw.md) - Trinity McQueen cofounder who studies how repeated commercial nudges affect trust, emotion, and consumer resistance.
 - [Trinity McQueen](entities/TrinityMcQueen.md) - UK insight consultancy represented through its 2019 experiment on hotel-booking scarcity and social-proof claims.
@@ -924,7 +927,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Speed of Trust](entities/TheSpeedOfTrust.md) - Book cited as support for high-trust relationships improving efficiency and effectiveness.
 - [Marco Zappacosta](entities/MarcoZappacosta.md) - Thumbtack co-founder and CEO explaining a founder-led process for executive hiring.
 - [Thumbtack](entities/Thumbtack.md) - Local-services marketplace used as the source case for assembling an experienced executive leadership team.
-- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication represented by interviews on Thumbtack executive hiring, ClassPass product-market fit, and David Lieb's cognitive-overhead product advice.
+- [First Round Review](entities/FirstRoundReview.md) - Startup-operating publication represented by practitioner material on executive hiring, marketplace fit, cognitive simplicity, and content marketing.
 - [Manuel Matuzovic](entities/ManuelMatuzovic.md) - Teacher, friend, and mentor in the junior-developer career-transition source.
 - [Arianna Huffington](entities/AriannaHuffington.md) - Media founder and sleep advocate connecting HuffPost leadership with The Sleep Revolution, recovery routines, and burnout-prevention practices.
 - [Annie Ridout](entities/AnnieRidout.md) - Journalist and interviewer for The Early Hour's Arianna Huffington interview.
@@ -2013,10 +2016,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Growth Hacking](concepts/GrowthHacking.md) - Startup-oriented growth practice using product behavior, channels, incentives, trust, and attention to drive rapid adoption or revenue.
 - [Viral Loops](concepts/ViralLoops.md) - Acquisition mechanisms where normal product use exposes non-users through shares, invitations, embeds, public artifacts, or visible behavior.
 - [Freemium Acquisition](concepts/FreemiumAcquisition.md) - Free tier, free trial, free download, or free utility used to reduce adoption friction and create later monetization paths.
-- [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using useful, entertaining, searchable, or shareable content to attract audiences and convert attention into product growth.
+- [Content-Led Acquisition](concepts/ContentLedAcquisition.md) - Using valuable or memorable content, deliberate distribution, owned audience, and measurement to turn attention into product growth.
 - [Multi-Product Content Strategy](concepts/MultiProductContentStrategy.md) - Mapping products, audiences, or use cases against funnel stages to expose and prioritize content-coverage gaps.
 - [Customer Acquisition Cost](concepts/CustomerAcquisitionCost.md) - Acquisition spend evaluated against recurring revenue, lead quality, retention, and the time needed to recover it.
-- [Marketing Attribution](concepts/MarketingAttribution.md) - Assigning credit across marketing touchpoints and feedback loops so teams can judge which channels produce valuable outcomes.
+- [Marketing Attribution](concepts/MarketingAttribution.md) - Assigning credit across touchpoints with deep outcomes, mixed evidence, trustworthy telemetry, and careful causal limits.
 - [Algorithmic Attribution](concepts/AlgorithmicAttribution.md) - Data-driven attribution approach that estimates proportional channel influence from touchpoint and outcome data instead of fixed rules.
 - [Marketing Operations](concepts/MarketingOperations.md) - Operational and analytical function that builds tracking, data, integration, and automation systems behind measurable marketing.
 - [Deep Funnel Metrics](concepts/DeepFunnelMetrics.md) - Downstream customer and revenue metrics used to judge marketing impact beyond clicks, forms, signups, or trials.

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 5e885acca24be27a788946b0e3e34aa9d70bd906
+as_of_overview_commit: 5de1c7bd6187d5f3464af5099b2c2699e41cb600
 summary: "The atlas maps technology, organizations, markets, culture, and learning as systems shaped by boundaries, evidence, incentives, judgment, scale, and context."
-episode_count: 518
-source_count: 518
-paragraph_count: 430
+episode_count: 519
+source_count: 519
+paragraph_count: 431
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress reduces or relocates complexity; reliable systems still need 
 
 ### Business and Markets
 
-Durable companies align customer value, distribution, defensibility, capital, incentives, operating capability, founder capacity, organizational scale, direct diligence, retained economics, and portfolio planning.
+Durable companies align customer value, audience and product fit, deliberate distribution, defensibility, capital, incentives, operating capability, organizational scale, retained economics, and evidence that does not overstate causation.
 
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
 - [[APIEcosystemGovernance]] treats a public API as a durable boundary-and-incentive commitment: [[Twitter]] shows how advertising, first-party interface control, client quality, and [[UberMedia]] consolidation can turn complements into competitors, while [[Slack]] shows how scoped access, review, discovery, guidance, promotion, and funding can steer complementary development; [[DeveloperPlatformTrust]] depends on making such boundaries and changes legible, proportionate, and reciprocally valuable. Evidence: [[APIEcosystemGovernance]], [[Twitter]], [[UberMedia]], [[Slack]], [[DeveloperPlatformTrust]].
@@ -68,7 +68,7 @@ Historical learning is strongest when it reconstructs long lineages and path-dep
 
 ### Psychology and Personal Development
 
-Judgment depends on bounded attention, representative feedback, identity, trust, bias calibration, structural conditions, and evidence interpreted alongside values and context; repeated persuasion cues can also trigger reactance when people infer coercive intent.
+Judgment depends on bounded attention, representative feedback, identity, trust, bias calibration, structural conditions, and evidence interpreted alongside values and context.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].

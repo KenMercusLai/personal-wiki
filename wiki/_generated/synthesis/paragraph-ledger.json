@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
       "19b267be8a5c23968286c09cc0d944396bf9edd87fbb9f184f3b2da77a5f0c9b",
       "a0eb32e05d182a6463f4f725a67e430371b09f63ac8f5ab6544ffd364759f153",
       "9c8d1dfa786847fee0c4cd4067e28f3c434ed4fcdfb03b95c77f08e05bc12237",
@@ -432,11 +433,29 @@
       "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2"
     ],
-    "paragraph_count": 430
+    "paragraph_count": 431
   },
-  "overview_commit": "5e885acca24be27a788946b0e3e34aa9d70bd906",
-  "overview_digest": "88a16af0f46c6f0b0509693c022a713c1ecd3c85b2872ba9360626373bc25711",
+  "overview_commit": "5de1c7bd6187d5f3464af5099b2c2699e41cb600",
+  "overview_digest": "b4f5e38ed318a1915579df9896eaad6a6acc1dc5a2eee0abc67236f3a46c6296",
   "paragraphs": [
+    {
+      "id": "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[FirstRoundReview]] source adds [[JoeColeman]]'s [[Contently]] experience as an operating loop for [[ContentLedAcquisition]]. Content is treated as an audience product: repeated customer questions identify useful topics, realistic engagement milestones protect the long build, consistent cadence and a codified voice make the publication recognizable, competitive research exposes editorial white space, and premium quality means delivering practical or perspective-changing value rather than maximizing keyword output. Distribution combines email, existing networks, paid learning, targeted syndication, abridged external posts, and an owned hub with restrained brand cues; measurement should progress from impressions toward dwell time, scroll depth, returning readers, referrals, subscriptions, downloads, sales feedback, and reader-to-customer overlap. This also sharpens [[MarketingAttribution]] because the reported Salesforce and subscriber matching provide downstream evidence without proving that content caused purchases. The framework remains a 2016 practitioner account: its six-month runway, channel rankings, A/B emphasis, and sales correlation are context-sensitive rather than universal, and the retained office photograph reinforces the storytelling thesis without adding independent performance evidence.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ContentLedAcquisition",
+        "Contently",
+        "FirstRoundReview",
+        "JoeColeman",
+        "MarketingAttribution"
+      ]
+    },
     {
       "id": "19b267be8a5c23968286c09cc0d944396bf9edd87fbb9f184f3b2da77a5f0c9b",
       "primary_topic": "business-and-markets",
