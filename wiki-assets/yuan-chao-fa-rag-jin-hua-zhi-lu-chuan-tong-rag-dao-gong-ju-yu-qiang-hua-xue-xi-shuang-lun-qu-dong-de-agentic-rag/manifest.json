@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag",
+  "images": [
+    {
+      "file": "native-rag-offline-online-pipeline.png",
+      "alt": "Native RAG offline ingestion and online retrieval-generation pipeline"
+    },
+    {
+      "file": "agentic-rag-tool-loop.png",
+      "alt": "Agentic RAG loop between an LLM and search tools until the model answers"
+    },
+    {
+      "file": "chatbox-agentic-rag-routing.png",
+      "alt": "Chatbox routing between tool-driven agentic retrieval and a prompted retrieval fallback"
+    },
+    {
+      "file": "search-r1-reason-search-loop.png",
+      "alt": "Search-R1 reasoning loop that searches when needed and returns to reasoning with results"
+    },
+    {
+      "file": "search-r1-multi-turn-rollout-algorithm.png",
+      "alt": "Search-R1 bounded multi-turn rollout algorithm with search, answer, and rethink branches"
+    },
+    {
+      "file": "search-r1-example-trajectory.png",
+      "alt": "Search-R1 example trajectory using repeated searches to identify a shared profession"
+    }
+  ]
+}

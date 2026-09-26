@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-26] ingest | Calculate what feature to build next - Baremetrics
+
+Added Baremetrics' 2016 Demand, Impact, and Effort framework for feature prioritization. Updated [[ProductIdeaPrioritization]] and [[Baremetrics]] from their complete ordered source inventories with customer-evidence quality, current-goal impact, coarse effort bands, lower-is-better scoring, and the explicit boundary that a score guides rather than automates roadmap judgment. Preserved the framework's limits: the prose omits the full numeric mapping, does not validate commensurability or predictive performance, and can conceal sampling, confidence, dependency, and non-growth work. Opened the sole local image and omitted it as a decorative hero illustration, so no visual asset or manifest was created.
+
 ## [2026-09-26] ingest | Some Lessons I Learned from the Dotcom Bubble for the Coming Crypto Bubble
 
 Added Albert Wenger's May 2017 framework for treating technology bubbles as possible funders of experimentation and infrastructure without confusing that system-level role with safe participant behavior. Created [[TechnologyBubbles]]; updated [[AlbertWenger]], [[VanityMetrics]], and [[Antifragile]] from their complete ordered source inventories with critical-distance, end-user-adoption, no-borrowing, dry-powder, partial-profit-taking, scam-awareness, and long-term-participation guidance. Preserved the essay's historical and investor-opinion limits: it does not quantify bubbles' net value, define adoption operationally, predict timing, or account for later cryptocurrency cycles and outcomes. Opened the sole local image and omitted the Albert Wenger portrait as decorative, so no visual asset or manifest was created.
@@ -4274,6 +4278,26 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | 良性压力的机制
 
 Added Piotr Wozniak's model of eustress as self-regulated acute challenge followed by reward, and separated its Problem Valuation Network from the existing Knowledge Valuation Network. Created [[Eustress]], [[ProblemValuationNetwork]], [[StressResilience]], and [[ChronicStress]]; updated [[PiotrWozniak]], [[FreeLearning]], and [[CoerciveLearning]] from their complete ordered source inventories with the approach-retreat-reassessment loop and the distinction between autonomous challenge and imposed overload. Opened and retained the source's evidence-bearing chart, which plots rising reward, falling success probability, and a broad expected-reward maximum at intermediate difficulty. Preserved the article's developmental, neuroscience, sleep, and mental-health claims as source-scoped because it supplies no controlled or clinical evidence.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | RAG 进化之路：传统 RAG 到工具与强化学习双轮驱动的 Agentic RAG
+
+Added Yuan Chaofa's progression from fixed offline/online RAG to model-controlled coarse-to-fine retrieval and reinforcement-learned search. Created [[YuanChaofa]], [[Chatbox]], and [[SearchR1]]; updated [[AgenticRAG]], [[RetrievalAugmentedGeneration]], and [[ReinforcementLearning]] from their complete ordered source inventories with tool-capable and fallback routing, bounded search/answer rollouts, answer-level reward, latency and training-cost qualifications, and the distinction between the article's policy-gradient teaching code and Search-R1's stated GRPO implementation. Opened all seven local images, retained six evidence-bearing architecture, algorithm, and trajectory diagrams with canonical names and in-place references, and omitted the promotional WeChat QR banner.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | You Are Not A Commodity
+
+Added Jeff Meyerson's manifesto for escaping interchangeable corporate maintenance work through greenfield prototyping, product ownership, cheap cloud infrastructure, and modular business services. Created [[JeffMeyerson]], [[SoftwareEngineeringDaily]], [[FredGeorge]], and [[ProgrammerAnarchy]]; updated [[EngineerLeverage]], [[SmallTeamLeverage]], and [[IndependentCreator]] from their complete ordered source inventories. Preserved the article's limits as advocacy without comparative career outcomes, and qualified its claims of complete value capture, easy reversibility, universally superior small teams, and tooling-driven remote-work effectiveness. The source contains no effective image references, so no visual assets or manifest were created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] lint | Wiki health check
 

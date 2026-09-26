@@ -7,6 +7,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Calculate what feature to build next - Baremetrics](sources/calculate-what-feature-to-build-next-baremetrics.md) - Baremetrics presents DIE as a lightweight, lower-is-better score balancing customer demand, goal impact, and delivery effort without replacing product judgment.
+- [You Are Not A Commodity](sources/you-are-not-a-commodity-dev-community.md) - Jeff Meyerson argues that cheap infrastructure lets engineers and small teams pursue product ownership, a manifesto qualified by the practical risks of independent work.
+- [RAG 进化之路：传统 RAG 到工具与强化学习双轮驱动的 Agentic RAG](sources/yuan-chao-fa-rag-jin-hua-zhi-lu-chuan-tong-rag-dao-gong-ju-yu-qiang-hua-xue-xi-shuang-lun-qu-dong-de-agentic-rag.md) - Yuan Chaofa contrasts fixed RAG with Chatbox's coarse-to-fine tools and Search-R1's learned multi-turn search policy.
 - [Create Zettel from Reading Notes According to the Principle of Atomicity](sources/create-zettel-from-reading-notes-zettelkasten-method.md) - Christian Tietze demonstrates pulling paper reading notes, clustering them by purpose rather than source order, and writing linked overview and detail Zettel around reusable concerns.
 - [Some Lessons I Learned from the Dotcom Bubble for the Coming Crypto Bubble](sources/continuations-by-albert-wenger-some-lessons-i-learned-from-the-dotcom-bubble-for.md) - Albert Wenger argues that technology bubbles can fund experiments and infrastructure while participants need adoption metrics, low leverage, liquidity, skepticism, and durable involvement.
 - [Our Need for Purpose and Recognition](sources/continuations-by-albert-wenger-our-need-for-purpose-and-recognition.md) - Albert Wenger argues that purpose and acknowledgment are human needs that managers must connect to daily work and societies must reconsider beyond traditional employment.
@@ -541,6 +544,12 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Jeff Meyerson](entities/JeffMeyerson.md) - Software Engineering Daily author advocating engineer ownership, prototyping, and independent product creation.
+- [Software Engineering Daily](entities/SoftwareEngineeringDaily.md) - Software-engineering publication context for Jeff Meyerson's entrepreneurial career essay.
+- [Fred George](entities/FredGeorge.md) - Practitioner credited by the source with the Programmer Anarchy model.
+- [Yuan Chaofa](entities/YuanChaofa.md) - Technical author explaining RAG, agent tools, and reinforcement-learned search.
+- [Chatbox](entities/Chatbox.md) - Open-source LLM chat project with file-aware agentic and prompted retrieval paths.
+- [Search-R1](entities/SearchR1.md) - Reinforcement-learning framework for interleaved reasoning and multi-turn search.
 - [Christian Tietze](entities/ChristianTietze.md) - Zettelkasten practitioner presenting a paper-to-digital reading-note workflow and a concern-separation account of atomicity.
 - [Albert Wenger](entities/AlbertWenger.md) - Investor-author connecting business-model incentives, purpose and recognition, and resilient participation in technology bubbles.
 - [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
@@ -1584,6 +1593,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Programmer Anarchy](concepts/ProgrammerAnarchy.md) - Source-scoped organization model combining programmer-selected work, removed management layers, and end-to-end accountability.
 - [Technology Bubbles](concepts/TechnologyBubbles.md) - Speculative technology phases that can finance experiments and infrastructure while amplifying narrative, metric, leverage, volatility, and fraud risks.
 - [Purpose and Recognition](concepts/PurposeAndRecognition.md) - Paired need to understand why an activity matters and to have one's contribution noticed and acknowledged.
 - [Psychological Safety](concepts/PsychologicalSafety.md) - Conditions for asking questions, voicing dissent, and learning from mistakes without suppressing accountability.

@@ -179,6 +179,7 @@
       "35f009164a4bbb7d948102ca5d495aca4fd2116dd05d136f1f1c5076df87b31b",
       "85197be8a23d8b6331d8ce229d2e43291d8f02016741c1c2782e56e6c4fdae8c",
       "4f3bc423d395f3d2be26917492b1dfb34e596447b7c0f08d5267094275be6497",
+      "4456e64426ab76913e9cd77f98252d988850965776503f21994fec7204ecbb23",
       "c40b2763442228dcb4131d9881c2b3cbb426fe96d50c6bfcf39d1c4af386da10",
       "b50533f76578a3f6a1208ff2ea6b9eb56be9edaa9ad14616822d2b7e5056822d",
       "6f64d3b88b601887a0ad4ac2a7fb2d2dfbdff852e942810b73975c07efa7edd1",
@@ -441,10 +442,10 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 439
+    "paragraph_count": 440
   },
-  "overview_commit": "d96c220d5b8d24d87b49206d7e2bc3d37ffd4f54",
-  "overview_digest": "11934fa88e2f30468aa3072b8a2e3edd0e6b996c452a51e312018bdaeb3b69c2",
+  "overview_commit": "3623a538797604aaa0c0e7b2b8e83d8225d8303b",
+  "overview_digest": "e08b5738003caa5d2772177fc5f6c8a0a4c050034f8dd4fe3c2dd3e762810630",
   "paragraphs": [
     {
       "id": "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
@@ -3871,6 +3872,25 @@
         "ProductIdeaPrioritization",
         "ProductManagement",
         "ViralLoops"
+      ]
+    },
+    {
+      "id": "4456e64426ab76913e9cd77f98252d988850965776503f21994fec7204ecbb23",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[Baremetrics]] source adds customer evidence to that prioritization model through DIE: record each feature idea, rate Demand from recurring requests or observed problems, rate Impact against the company's current revenue, growth, usage, or other goal, and rate Effort from XS to XL across design, research, engineering, time, and money. A lower [[ProductIdeaPrioritization]] score favors high-demand, high-impact, low-effort work, but the article explicitly keeps the result subordinate to judgment because software estimates mix data and intuition. The framework is practical rather than validated: the supplied prose gives best and worst scores but omits the complete numeric mapping, does not show that the dimensions are commensurable, and reports no comparative decision or product outcomes. The sole local image was opened and omitted as a decorative hero illustration.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Baremetrics",
+        "ProductIdeaPrioritization"
       ]
     },
     {
