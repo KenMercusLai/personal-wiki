@@ -4370,3 +4370,11 @@ Added Jocelyn Goldfein's account of a 2008 VMware workshop that exposed culture 
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Curiosity is Better Than Knowledge
+
+Added an unnamed author's 2017 argument that compelling questions can drive observation, cross-role inquiry, rapid learning, construction, and market feedback before complete knowledge is available. Created [[CuriosityDrivenAction]] and [[Praxis]], and updated [[LearnDrive]] from its complete ordered source inventory. Preserved the central qualifications that the essay is anecdotal, its knowledge-versus-curiosity slogan conflicts with evidence that knowledge improves valuation and question quality, and its categorical claims about academics and formal schooling do not establish general effects. Opened all three local images and omitted them as duplicate or thumbnail versions of the same decorative cat-at-window photograph, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

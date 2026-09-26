@@ -444,12 +444,13 @@
       "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
-      "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
+      "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821",
+      "40baf9fea60ec737044a812a5958ad3fd4be0c0d503b6b6685005d7ce81666f7"
     ],
-    "paragraph_count": 444
+    "paragraph_count": 445
   },
-  "overview_commit": "a578adc1d3587bcbb0a1e4c28bfd6c8d41dfcbc3",
-  "overview_digest": "506cde515bdba46096640b3c72edd50b73e170a13b4a102ed33d1f6cc0da99a0",
+  "overview_commit": "5e9009ed64115dd04d864f3c7d140c8b4d6ece2d",
+  "overview_digest": "bb5b591611f9406083492f0284443e875b6e344e2aad7973d8dd24c8013e1b15",
   "paragraphs": [
     {
       "id": "7bed67ffd116b0d75e392b5cb1ee4c282fcdf8162462000e7529144fae69028f",
@@ -8996,6 +8997,25 @@
         "HypeAndCraftCultures",
         "StartupCulture",
         "TeamBasedOrganizationalDesign"
+      ]
+    },
+    {
+      "id": "40baf9fea60ec737044a812a5958ad3fd4be0c0d503b6b6685005d7ce81666f7",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest curiosity source adds [[CuriosityDrivenAction]] to the wiki's learning and experimentation material. Its central loop begins with a compelling question, then moves through observation, estimation, cross-role inquiry, conceptual exploration, construction, and external feedback; the author's launch of [[Praxis]] and coffee-shop economics game are the main examples. [[LearnDrive]] therefore gains an action mechanism beyond motivation and valuation, while the combined synthesis rejects a literal curiosity-versus-knowledge opposition: curiosity can prevent expertise from hardening into certainty, but accumulated understanding improves questions and protects against unsafe, illegal, or wasteful experiments. The essay's claims about entrepreneurs, academics, employees, and formal schooling are anecdotal and rhetorical rather than comparative evidence. All three local image references were opened and identified as duplicate or thumbnail versions of the same decorative cat-at-a-window photograph, so none was retained.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CuriosityDrivenAction",
+        "LearnDrive",
+        "Praxis"
       ]
     }
   ],

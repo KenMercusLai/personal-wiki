@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: ec8b731890575daf4141970678b107ee4494d367
+as_of_overview_commit: 5e9009ed64115dd04d864f3c7d140c8b4d6ece2d
 summary: "The atlas maps technology, markets, culture, governance, learning, work, and wellbeing through usable capability, incentives, evidence, autonomy, scale, and context."
-episode_count: 538
-source_count: 538
-paragraph_count: 444
+episode_count: 540
+source_count: 540
+paragraph_count: 445
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress relocates rather than removes complexity: reliable systems require contextual architecture, explicit state and consent boundaries, verification, recoverable operations, curated context, and accountable human judgment.
+Technical progress relocates rather than removes complexity: durable systems need contextual architecture, explicit boundaries, verification, recoverable operations, curated context, and accountable human judgment.
 
 - [[SystemArchitecturePrinciples]] frames architecture as a lifecycle capability measured by delivery flow, stability, and total cost: shared service and API semantics make distributed control and monitoring more tractable, while [[APIErrorHandling]] preserves machine-readable 4xx-versus-5xx boundaries and [[ContextualTechnologySelection]] treats mature ecosystems as defeasible priors rather than universal stack mandates. [[FailureInformedVendorSelection]] adds downstream evidence from multi-vendor repairers and implementers about recurring failures, customization, and maintainability, but treats those advisers as incentive-bearing inputs to triangulate rather than neutral authorities. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[FailureInformedVendorSelection]], [[PhilipYurchuk]].
 - Durable technical practice depends on understanding underlying systems rather than only memorizing current tool, framework, database, cloud-service, AI assistant, or process recipes; [[SoftwareEngineering]] and [[EssentialAndAccidentalComplexity]] add that successive abstractions, delivery methods, and LLMs can reduce or relocate implementation friction without proving that problem understanding, coordination, verification, operation, and maintenance have disappeared, while [[ForwardReferenceLearning]] adds that technical learners may still need a staged first pass because some concepts are used before their dependencies can be fully explained. Evidence: [[VersatileWebStackFluency]], [[FrameworkCombinatorialComplexity]], [[TechnologyStackComplexity]], [[DatabaseConsolidation]], [[EnterpriseCloudMigration]], [[NetworkLoadBalancing]], [[AgileSoftwareDevelopment]], [[ContextCoding]], [[SoftwareEngineering]], [[EssentialAndAccidentalComplexity]], [[ForwardReferenceLearning]], [[LearningHowToLearn]].
 
 ### Business and Markets
 
-Durable participation and advantage depend on usable capability, customer value, audience and community fit, distribution, consent, incentives, operating capacity, capital, scale, and survivability while tracing where risk and power move.
+Durable advantage depends on usable customer value, distribution, aligned incentives, operating capacity, consent, retained economics, capital discipline, and survivability rather than one optimized layer.
 
 - [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments. Evidence: [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]].
 - [[DataAsAService]] links acquisition, transformation, delivery, factual quality, evaluation, rights, and integration to an economic thesis in which fixed or step-function data costs can support attractive incremental margins; [[DataJoinability]] can expand customer value across datasets, but neither scale economics nor interoperable keys establish inevitable market dominance. Evidence: [[DataAsAService]], [[DataJoinability]].
@@ -50,7 +50,7 @@ Across domains, useful reasoning makes hidden flows, constraints, ownership, ass
 
 ### Culture and Media
 
-Culture and media emerge from form, infrastructure, audience practice, governance, economics, and knowledge workflows; platforms shape discovery and payment without guaranteeing durable value or preservation.
+Culture and media emerge from form, infrastructure, audience practice, governance, economics, and knowledge workflows; curiosity can widen inquiry, but platforms and tools do not guarantee durable value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
@@ -64,7 +64,7 @@ Rules work through authority, incentives, information, consent, enforcement, rec
 
 ### History and Geopolitics
 
-Historical learning is strongest when it reconstructs lineages, institutions, market geography, and path-dependent conditions instead of treating visible winners or past practices as reproducible recipes.
+Historical learning is strongest when it reconstructs lineages, institutions, market geography, and path-dependent conditions instead of treating visible winners as reproducible recipes.
 
 ### Psychology and Personal Development
 
@@ -75,13 +75,13 @@ Judgment and development depend on bounded attention, representative feedback, i
 
 ### Science, Health, and Climate
 
-Scientific and health claims require careful measurement, uncertainty, intervention boundaries, and source-quality checks; this topic's sparse, heterogeneous coverage limits broad conclusions.
+Scientific and health claims require careful measurement, uncertainty, intervention boundaries, and source-quality checks; sparse, heterogeneous coverage limits broad conclusions.
 
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Learning and work depend on active practice, feedback, shared context, fair incentives, legible purpose, deliberate boundaries, and scale-aware design; autonomy can regulate challenge but does not make every risk safe.
+Learning and work depend on active practice, question-led inquiry, feedback, shared context, fair incentives, legible purpose, deliberate boundaries, and scale-aware social design.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

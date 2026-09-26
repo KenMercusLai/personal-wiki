@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Curiosity is Better Than Knowledge](sources/curiosity-is-better-than-knowledge-mission-org-medium.md) - A motivational essay argues that questions drive experiments, cross-role learning, and market feedback while qualifying its sharp opposition between curiosity, knowledge, and formal schooling.
 - [Cryptocurrency mining affects over 500 million people. And they have no idea it is happening.](sources/cryptocurrency-mining-affects-over-500-million-people-and-they-have-no-idea-it-is-happening.md) - AdGuard's 2017 scan found browser-mining code on 220 of 100,000 high-traffic sites and argues that disclosure, permission, and opt-out separate consensual monetization from abuse.
 - [Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable](sources/crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable.md) - Henrik Kniberg separates feedback-producing, voluntarily usable, and lovable releases while arguing for coherent customer outcomes and early real-user learning.
 - [Credit Karma's CEO Built a Sexy Brand in an Unsexy Category with No PR Firm and a Tiny Budget - Here's How](sources/credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review.md) - Kenneth Lin explains how Credit Karma linked authentic values, product guardrails, founder engagement, measured delight, and Reddit feedback to trust and word-of-mouth growth.
@@ -552,6 +553,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Praxis](entities/Praxis.md) - Venture used as a question-led experiment in creating a zero-cost, one-year path toward work young people love.
 - [AdGuard](entities/AdGuard.md) - Ad-blocking and privacy-software company that measured early browser mining and offered users allow-or-block controls.
 - [CoinHive](entities/CoinHive.md) - Embeddable browser-mining service whose rapid 2017 adoption exposed a gap between recommended consent and operator behavior.
 - [Henrik Kniberg](entities/HenrikKniberg.md) - Agile and lean practitioner who frames uncertain product development around coherent outcomes and early user learning.
@@ -1615,6 +1617,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Curiosity-Driven Action](concepts/CuriosityDrivenAction.md) - Turning unresolved questions into observation, experiments, construction, and feedback before complete knowledge is available.
 - [Browser Cryptomining](concepts/BrowserCryptomining.md) - Website monetization through visitor CPU work, distinguished from abuse by disclosure, affirmative choice, and revocable consent.
 - [Earliest Testable, Usable, and Lovable Product](concepts/EarliestTestableUsableLovable.md) - Three-threshold vocabulary separating feedback, voluntary use, and customer affection in early product releases.
 - [Startup Brand Strategy](concepts/StartupBrandStrategy.md) - Alignment of real company identity, non-negotiable promises, product choices, customer interaction, and advocacy measurement.
