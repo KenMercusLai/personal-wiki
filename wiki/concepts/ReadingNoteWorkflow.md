@@ -6,7 +6,8 @@ sources:
   - ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li
   - ka-pian-bi-ji-xie-zuo-fa-bi-ji
   - alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian
-last_updated: 2026-09-24
+  - create-zettel-from-reading-notes-zettelkasten-method
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,16 +15,16 @@ knowledge_schema: synthesis-v1
 [[ReadingNoteWorkflow]] is a note-taking practice that turns books, reading histories, summaries, metadata, lists, and reflections into a linked knowledge system for later recall, comparison, discovery, and writing.
 
 ## Current Synthesis
-The sources treat reading notes as a practical entry point for card-note practice because reading already supplies material to summarize, compare, and judge. One workflow organizes book knowledge into entry, outline, and opinion notes. The Zettelkasten account distinguishes brief literature notes from permanent notes: readers select and restate what may matter, then rewrite useful ideas as context-independent claims. Phelan uses "literature note" differently for a comprehensive, source-linked import of metadata, annotations, and highlights from Zotero. These uses can form successive layers—source capture followed by selective synthesis—but only if imported material is not mistaken for finished understanding. Together, the layers turn reading history into a navigable graph and reusable material for arguments and manuscripts.
+The sources treat reading notes as a practical entry point for card-note practice because reading already supplies material to summarize, compare, and judge. One workflow organizes book knowledge into entry, outline, and opinion notes, while Tietze separates paper capture from digital processing and inserts purpose-led clustering before permanent writing. The Zettelkasten account distinguishes brief literature notes from permanent notes: readers select and restate what may matter, then rewrite useful ideas as context-independent claims. Phelan uses "literature note" differently for a comprehensive, source-linked import of metadata, annotations, and highlights from Zotero. These uses can form successive layers—capture, source record, orthogonal clustering, selective synthesis, and linked output—but only if imported or collected material is not mistaken for finished understanding.
 
 ## Key Claims
 - Reading notes are a strong beginner workflow because summaries and reviews require restating material in one's own words.
 - A card-note system works better when applied to a substantive domain rather than kept at the level of note-taking theory.
 - "Literature note" can mean either a selective reading memo or a comprehensive per-source import; the workflow must make clear which layer performs synthesis.
-- Permanent notes rewrite useful ideas as independently understandable claims and connect them to existing questions and arguments.
+- Before permanent writing, source-order notes can be regrouped around reading intent, definitions, arguments, or topics to recover a useful architecture.
+- Permanent notes can begin as a cluster overview, then branch prerequisites and details into independently reusable linked notes.
 - Entry, outline, and opinion notes provide complementary structures for metadata, reading maps, and interpretive judgments.
-- Lightweight linked notes can be more sustainable than writing a full essay about every book, while still feeding later long-form writing.
-- Software affordances can improve navigation, but understanding, selection, and rewriting remain the core work.
+- Lightweight linked notes can be more sustainable than writing a full essay about every book, while still feeding later long-form writing and reinterpretation of older notes.
 
 ## Evidence
 - Beginner entry point: [[ka-pian-bi-ji-shi-cao-pian-tui-li-xiao-shuo-yu-du-shu-bi-ji-yi-obsidian-wei-li]] argues that book notes are a shortcut into card-note practice because reviews and summaries avoid turning the method itself into the object.
@@ -37,13 +38,18 @@ The sources treat reading notes as a practical entry point for card-note practic
 - Understanding test: [[ka-pian-bi-ji-xie-zuo-fa-bi-ji]] argues that condensed restatement exposes the illusion of understanding that rereading or copying can preserve.
 - Source-linked import: [[alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian]] uses Zotero Integration to create citekey-named literature notes containing metadata, source links, highlights, notes, and color-coded annotation groups.
 - Manuscript bridge: [[alexandra-phelan-an-updated-academic-workflow-zotero-and-obsidian]] connects literature notes to linked synthesis, Markdown drafts, Pandoc citations, and DOCX export.
+- Capture-processing split: [[create-zettel-from-reading-notes-zettelkasten-method]] uses paper slips to protect reading focus, then treats them as an inbox requiring later interpretation.
+- Purpose-led clustering: [[create-zettel-from-reading-notes-zettelkasten-method]] reorganizes slips orthogonally to book order before transcription.
+- Overview-detail writing: [[create-zettel-from-reading-notes-zettelkasten-method]] writes one general note per cluster, branches complex prerequisites into linked details, and updates the overview from those details.
+- Cross-source reuse: [[create-zettel-from-reading-notes-zettelkasten-method]] connects new Kanban notes with older Getting Things Done notes to generate new interpretations.
 
 ## Counterevidence & Qualifications
-All three sources are practitioner or reading-note accounts rather than comparative studies of note-taking outcomes. The mystery-fiction workflow depends on relationship-rich reading; simple completion tracking may not need the same linking. The literature/permanent distinction sits beside another note taxonomy in the same source, so labels should serve the workflow rather than become rigid doctrine. Phelan's automated import improves provenance and convenience but may accumulate highlights without producing selection, restatement, or synthesis. Obsidian, Zotero, and similar tools are examples, not requirements.
+All four sources are practitioner or reading-note accounts rather than comparative studies of note-taking outcomes. The mystery-fiction workflow depends on relationship-rich reading; simple completion tracking may not need the same linking. Tietze's paper-first process reflects his context-switching preference and uses a short book read in one sitting, so its fit for digital readers or dense scholarship is untested. The literature/permanent distinction sits beside another note taxonomy in the same source, so labels should serve the workflow rather than become rigid doctrine. Phelan's automated import improves provenance and convenience but may accumulate highlights without producing selection, restatement, or synthesis.
 
 ## What Changed
-- Distinguished comprehensive source-linked literature notes from selective literature notes and permanent synthesis.
-- Added the route from imported annotations through Markdown drafting and citation-aware manuscript export.
+- Added purpose-led clustering as an explicit bridge between capture and durable note writing.
+- Added the overview-detail feedback loop for separating and recombining complex arguments.
+- Qualified paper-first capture as a personal attention strategy rather than a universal recommendation.
 
 ## Related Concepts
 - [[ZettelkastenMethod]] - reading notes operationalize card-note practice through entry, outline, and opinion notes.

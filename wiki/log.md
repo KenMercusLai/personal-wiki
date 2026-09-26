@@ -4262,3 +4262,11 @@ Added Scott Belsky's 2016 framework for moving newcomers from expressed interest
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Create Zettel from Reading Notes According to the Principle of Atomicity
+
+Added Christian Tietze's three-phase paper-to-Zettel workflow: pull loose reading slips, cluster them orthogonally to source order around reading intent, then write general cluster notes with linked detail branches and feed discoveries back into the overview. Created [[ChristianTietze]]; updated [[ZettelkastenMethod]], [[ReadingNoteWorkflow]], and [[NoteGranularity]] from their complete ordered source inventories with a concern-separation account of atomicity and qualifications about the article's personal, short-book demonstration. Recovered and opened all five unique hosted images because the supplied local asset folder was missing; retained three evidence-bearing views of loose slips, topic clusters, and the nvALT note network, and omitted the duplicate thumbnail and illustrative book-cover photo.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

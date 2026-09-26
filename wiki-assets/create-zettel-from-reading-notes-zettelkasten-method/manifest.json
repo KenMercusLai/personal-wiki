@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "create-zettel-from-reading-notes-zettelkasten-method",
+  "images": [
+    {
+      "file": "loose-paper-reading-notes.jpg",
+      "alt": "Loose handwritten reading notes beside a book and computer keyboard"
+    },
+    {
+      "file": "topic-clusters-of-reading-notes.jpg",
+      "alt": "Handwritten reading slips arranged into separate topic clusters"
+    },
+    {
+      "file": "nvalt-linked-kanban-notes.png",
+      "alt": "nvALT showing linked Kanban and Getting Things Done notes beside a selected note"
+    }
+  ]
+}

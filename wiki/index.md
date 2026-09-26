@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Create Zettel from Reading Notes According to the Principle of Atomicity](sources/create-zettel-from-reading-notes-zettelkasten-method.md) - Christian Tietze demonstrates pulling paper reading notes, clustering them by purpose rather than source order, and writing linked overview and detail Zettel around reusable concerns.
 - [Some Lessons I Learned from the Dotcom Bubble for the Coming Crypto Bubble](sources/continuations-by-albert-wenger-some-lessons-i-learned-from-the-dotcom-bubble-for.md) - Albert Wenger argues that technology bubbles can fund experiments and infrastructure while participants need adoption metrics, low leverage, liquidity, skepticism, and durable involvement.
 - [Our Need for Purpose and Recognition](sources/continuations-by-albert-wenger-our-need-for-purpose-and-recognition.md) - Albert Wenger argues that purpose and acknowledgment are human needs that managers must connect to daily work and societies must reconsider beyond traditional employment.
 - [From Advertising to Subscriptions and the Evolution of the USV Investment Thesis](sources/continuations-by-albert-wenger-from-advertising-to-subscriptions-and-the.md) - Albert Wenger argues that ad platforms face conflicts with users and advertisers, while consumer subscriptions can align renewal revenue with continuing customer value.
@@ -539,6 +540,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Christian Tietze](entities/ChristianTietze.md) - Zettelkasten practitioner presenting a paper-to-digital reading-note workflow and a concern-separation account of atomicity.
 - [Albert Wenger](entities/AlbertWenger.md) - Investor-author connecting business-model incentives, purpose and recognition, and resilient participation in technology bubbles.
 - [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
 - [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.

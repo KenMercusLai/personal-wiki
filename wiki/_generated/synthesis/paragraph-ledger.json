@@ -282,6 +282,7 @@
       "0828e3d94b01122f9ca08ebcc0938a648625792659345a2f03ecd343063fde09",
       "ca10e89f4abc9bb3a3f5bb9d0cd860424a98d9c0043cc8e209c8ed154da01afe",
       "288af91aa9d87fd6887e5e4493aeba87396f77129851fc787d02781e8bfedd3f",
+      "511145bebf037d1b273546474fd9253cb3af06d1c68807c51a1eaabf90ff7425",
       "cb5eae90558e8b0fcec5818e05a2083831aa46e2866c9de759f120db604a9fb6",
       "aeb4e5b367bf9d476fae71263be45513c2f50745f68cafbc08f706ea27fbfbbb",
       "d6fe849bfac457eaa4b596f10a2e27c1e52053f5f1acd186509754944c0ad2c9",
@@ -439,10 +440,10 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 437
+    "paragraph_count": 438
   },
-  "overview_commit": "9516eb653e5127691fa6ca483cb9955f1ea52e74",
-  "overview_digest": "264c9b68c12631ae1fae7e1945352d732b21bb2f92c8b0ea4366413b62794bbd",
+  "overview_commit": "b54e9ef4947b71a42ee4f053e36736c2858cf749",
+  "overview_digest": "ff9365925c5b7aacf05f8966736c637565f218d46db2a481b9b35d0a8227675a",
   "paragraphs": [
     {
       "id": "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
@@ -5786,6 +5787,26 @@
       },
       "wikilinks": [
         "LearningByWriting",
+        "ReadingNoteWorkflow",
+        "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "511145bebf037d1b273546474fd9253cb3af06d1c68807c51a1eaabf90ff7425",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Christian Tietze source adds an explicit synthesis stage between reading capture and permanent notes. [[ChristianTietze]] pulls paper slips from a book, groups them orthogonally to page order around intent, definitions, arguments, or topics, writes a general note for each cluster, and branches complex prerequisites into linked detail notes whose discoveries feed back into the overview. This sharpens [[ReadingNoteWorkflow]], [[ZettelkastenMethod]], and [[NoteGranularity]]: atomicity is not a demand for uniformly tiny files, but a judgment about keeping cohesive material together while separating concerns that can be reused. The retained images show the transition from loose handwritten slips to topic clusters and a digital nvALT network that connects Kanban with older Getting Things Done notes. The account remains one practitioner's 2013 workflow, demonstrated with a short book read in one sitting rather than comparative evidence about paper capture, learning, or scale.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ChristianTietze",
+        "NoteGranularity",
         "ReadingNoteWorkflow",
         "ZettelkastenMethod"
       ]
