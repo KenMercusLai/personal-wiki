@@ -4063,6 +4063,10 @@ Added a pseudonymous graduate's 2016 critique of Hack Reactor's compressed JavaS
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-26] ingest | Our Need for Purpose and Recognition
+
+Added Albert Wenger's 2016 argument that purpose and recognition are paired human needs with consequences for management, organizational scale, and a society moving away from traditional work. Created [[PurposeAndRecognition]]; updated [[AlbertWenger]] and [[EngineeringTeamMotivation]] from their complete ordered source inventories with task-to-mission explanation, acknowledgment distinct from praise, founder-held context, and declining employee visibility across management layers. Preserved the source's limits as a short practitioner essay that invokes research without citations, uses personal and television anecdotes, and does not measure outcomes or specify tested post-work alternatives. Opened the sole local image and omitted the author portrait as decorative, so no visual asset or manifest was created.
+
 ## [2026-09-26] ingest | Closing the Book on Gawker.com
 
 Added Josh Laurito's quantitative retrospective of Gawker at the end of its original operations. Created [[Gawker]], [[Kinja]], and [[JoshLaurito]]; updated [[PlatformDistributionDependence]] with the association between declining direct traffic and lower publishing frequency, and updated [[ForumCommunityDesign]] with publication comments and recommendations as a community product layer. Preserved the source's historical analytics, tagging, Cityfile-acquisition, causal, and missing-table limitations. Inspected the sole embedded image and omitted it as a decorative Gawker logo, so no visual asset or manifest was created.
@@ -4226,6 +4230,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | From Advertising to Subscriptions and the Evolution of the USV Investment Thesis
 
 Added Albert Wenger's 2018 argument that online-advertising economics push platforms toward reach and targeting, creating conflicts with users and with advertisers that could otherwise build durable direct customer relationships. Created [[AlbertWenger]]; updated [[UnionSquareVentures]], [[WebAdEconomics]], and [[SubscriptionSurplusAlignment]] from their complete ordered source inventories with trusted-brand incentives, renewal-dependent value, use without marginal charges, cross-category consumer examples, and hybrid free/ad-supported and paid/ad-free tiers. Preserved the source's investor-essay scope and the absence of comparative price, conversion, churn, profitability, affordability, underuse, or cancellation evidence. Opened the sole local image and omitted the author portrait as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] lint | Wiki health check
 

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-26
-as_of_overview_commit: 96707ccd061de06b23a769659d4ebc2fc2912140
+as_of_overview_commit: 1c0a12f772b7bc8d16a60551db88995fa9eb6fcb
 summary: "The atlas maps technology, markets, culture, governance, learning, and wellbeing as systems shaped by incentives, evidence, boundaries, scale, and context."
-episode_count: 522
-source_count: 522
-paragraph_count: 433
+episode_count: 523
+source_count: 523
+paragraph_count: 434
 topic_count: 9
 ---
 
@@ -81,7 +81,7 @@ Scientific and health claims require careful measurement, uncertainty, intervent
 
 ### Work, Education, and Society
 
-Learning and work depend on active practice, feedback, role clarity, fair incentives, shared context, deliberate boundaries, and scale-aware organizational design.
+Learning and work depend on active practice, feedback, fair incentives, shared context, legible purpose, visible contribution, deliberate boundaries, and scale-aware organizational and social design.
 
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
 - Public technical work such as [[OpenSourceProjectMaintenance]] can build [[PersonalBranding]], [[TechCommunityParticipation]], skill, and community goodwill, but [[SlickCarousel]] shows that unpaid popularity can also create criticism, entitlement, and [[BurnoutPrevention]] problems without delegation and boundaries. Evidence: [[OpenSourceProjectMaintenance]], [[PersonalBranding]], [[TechCommunityParticipation]], [[SlickCarousel]], [[BurnoutPrevention]].

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "5db2ddde4a2630e19f67735e9aaa9dd2d11bf70bac3a072e68e06c987b6056d3",
       "cde06dd9a968c1ffed726ce9aa89fef3ca53be926b0dcc13c76e8a949b237e36",
       "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
       "19b267be8a5c23968286c09cc0d944396bf9edd87fbb9f184f3b2da77a5f0c9b",
@@ -435,11 +436,28 @@
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb"
     ],
-    "paragraph_count": 433
+    "paragraph_count": 434
   },
-  "overview_commit": "96707ccd061de06b23a769659d4ebc2fc2912140",
-  "overview_digest": "5ec78458a0c7b6473349f40aff91356b3c1b2c47b8309ffbe5cba51fddbfa2f4",
+  "overview_commit": "1c0a12f772b7bc8d16a60551db88995fa9eb6fcb",
+  "overview_digest": "0624bd552733950a577723a6495898ebf63128d1d7f57e00047b74083024cd2f",
   "paragraphs": [
+    {
+      "id": "5db2ddde4a2630e19f67735e9aaa9dd2d11bf70bac3a072e68e06c987b6056d3",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[AlbertWenger]] source adds [[PurposeAndRecognition]] as a paired motivation and social-design problem. Purpose is practical when a person can connect a specific assignment to a project, mission, or outcome; recognition begins with noticing and acknowledging contribution rather than praise alone. This sharpens [[EngineeringTeamMotivation]] by making task-to-mission explanation and employee visibility management responsibilities alongside compensation, professional respect, and peer support. It also extends [[ScalingCommunication]]: founders may understand the full vision and strategy while employees cannot recover context that remains in a leader's head, and added management layers can make early employees feel obscure. At the societal level, Wenger argues that equating employment with purpose makes job displacement remove meaning and acknowledgment as well as income. The source is a short 2016 practitioner essay that invokes research without citations and relies on a resignation story and *Undercover Boss* observations for management examples; it does not measure outcomes or test alternatives outside work. Its sole local image was opened and omitted as a decorative author portrait.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 5
+      },
+      "wikilinks": [
+        "AlbertWenger",
+        "EngineeringTeamMotivation",
+        "PurposeAndRecognition",
+        "ScalingCommunication"
+      ]
+    },
     {
       "id": "cde06dd9a968c1ffed726ce9aa89fef3ca53be926b0dcc13c76e8a949b237e36",
       "primary_topic": "business-and-markets",
