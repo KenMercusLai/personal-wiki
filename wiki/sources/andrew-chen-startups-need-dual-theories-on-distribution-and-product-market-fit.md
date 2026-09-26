@@ -2,7 +2,7 @@
 title: "Startups need dual theories on distribution and product/market fit. One is not enough"
 type: source
 tags: [startup, distribution, product-market-fit, growth]
-date: 2024-02
+date: 2024-02-06
 source_file: "/mnt/ken_personal_wiki/Articles/Andrew Chen - Startups need dual theories on distribution and product-market fit.md"
 ---
 

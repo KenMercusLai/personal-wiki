@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "liang-xing-ya-li-de-ji-zhi",
+  "images": [
+    {
+      "file": "expected-reward-by-problem-difficulty.png",
+      "alt": "Expected reward peaks at an intermediate problem difficulty as reward rises and success probability falls"
+    }
+  ]
+}

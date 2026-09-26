@@ -2,7 +2,7 @@
 title: "无风险年化 360%？小白也能懂的 Crypto 套利"
 type: source
 tags: [crypto, arbitrage, funding-rate, investing]
-date: 2024-03
+date: 2024-03-04
 source_file: "/mnt/ken_personal_wiki/Articles/Blog - taresky - 无风险年化 360%？小白也能懂的 Crypto 套利.md"
 ---
 

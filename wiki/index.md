@@ -448,6 +448,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [给人文工作者的 AI 使用指南](sources/gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan.md) - Hanyang's guide for humanities workers arguing that AI becomes useful when embedded in traceable, controllable, verifiable workflows grounded in real materials and trained taste.
 - [稳定性，难的不是技术，而是](sources/wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi.md) - Bixuan's reliability essay arguing that robust code, dependency degradation, capacity protection, canarying, monitoring, rollback, and restore-first incident response only work when backed by sustained organizational investment.
 - [知识估值网络](sources/zhi-shi-gu-zhi-wang-luo.md) - Piotr Wozniak's learning-neuroscience essay arguing that personal goals, semantic networks, free learning, and neural valuation circuitry shape how knowledge becomes valuable or aversive.
+- [良性压力的机制](sources/liang-xing-ya-li-de-ji-zhi.md) - Piotr Wozniak's model of eustress, problem valuation, autonomous exploration, stress resilience, and the boundary where imposed challenge becomes chronic stress.
 - [由「上线」产生的思考](sources/you-shang-xian-chan-sheng-de-si-kao.md) - Xiaoshuojun Fp's game-server operations essay arguing that launch experience becomes useful when scale, stability, SLA, low-ops design, cloud-native delivery, and continuous updates reshape engineering judgment.
 - [用研报告中的信息设计要素 | 螺莉莉的数据中心](sources/yong-yan-bao-gao-zhong-de-xin-xi-she-ji-yao-su-luo-li-li-de-shu-ju-zhong-xin.md) - RORIRI's UX research essay arguing that reports must design relationships among methods, evidence layers, contradictions, and conclusions instead of dumping raw observations.
 - [用 Claude Code 将三万行 Go 项目移植到 Rust：Agent Team 实践与 Harness 效率优化](sources/yong-claude-code-jiang-san-wan-hang-go-xiang-mu-yi-zhi-dao-rust-agent-team-shi-jian-yu-harness-xiao-lu-you-hua.md) - A large-project Claude Code case study showing how Agent Team roles, specs, ADRs, memory, CLAUDE.md, milestone respawns, and layered CI made a 31,000-line Rust port reviewable.
@@ -2242,6 +2243,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Core Regression Test Separation](concepts/CoreRegressionTestSeparation.md) - Splitting human-confirmed correctness tests from agent-generated continuity tests so review attention follows behavior changes.
 - [Covariance](concepts/Covariance.md) - Joint dispersion between variables, including the shared variation needed for correct variance decomposition.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
+- [Chronic Stress](concepts/ChronicStress.md) - Prolonged or repeatedly inescapable stress without adequate control, resolution, reward, or recovery.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
 - [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems, support conversations, direct calls, and usage context as primary build signals.
 - [Builder-User Fluency Gap](concepts/BuilderUserFluencyGap.md) - Difference between what builders find obvious from system fluency and what users can infer from the interface.
@@ -2275,6 +2277,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Fogg Behavior Model](concepts/FoggBehaviorModel.md) - Behavior-change framework where motivation, ability, and prompts must converge for an action to occur.
 - [Fork Recovery](concepts/ForkRecovery.md) - Agent recovery from execution-graph checkpoints that preserve model output, tool output, and effect-log cursor state.
 - [Free Learning](concepts/FreeLearning.md) - Self-directed learning guided by curiosity, play, personal goals, and real-time knowledge valuation.
+- [Eustress](concepts/Eustress.md) - Brief, manageable stress made beneficial by autonomy, productive progress, reward, or relief.
 - [Goal Setting](concepts/GoalSetting.md) - Choosing explicit aims that focus attention, guide strategy, and make learning feel personally valuable.
 - [Web Ad Economics](concepts/WebAdEconomics.md) - Web funding model where users receive content without direct payment while advertising and tracking monetize attention and behavior.
 - [GPV Career Formula](concepts/GPVCareerFormula.md) - Career-reflection framework combining gifts, passion, and values to reason about fit.
@@ -2303,9 +2306,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [KV-Cache-Aware Routing](concepts/KVCacheAwareRouting.md) - Routing strategy that considers reusable key-value cache blocks to reduce inference prefill work.
 - [Knowledge Output](concepts/KnowledgeOutput.md) - Turning intake and research into notes, articles, explanations, or courses that deepen learning and test knowledge systems.
 - [Knowledge Valuation Network](concepts/KnowledgeValuationNetwork.md) - Motivational framework for assigning value to knowledge so learning becomes meaningful and desirable.
+- [Problem Valuation Network](concepts/ProblemValuationNetwork.md) - Proposed system for choosing challenges by balancing expected reward against difficulty, effort, failure probability, fear, and danger.
 - [Junior Engineer Learning](concepts/JuniorEngineerLearning.md) - Early-career software learning focused on durable debugging, design, documentation, architecture, and judgment.
 - [Language Modeling](concepts/LanguageModeling.md) - Estimating probabilities over word or character sequences so systems can predict, score, or generate language.
 - [Learn Drive](concepts/LearnDrive.md) - Intrinsic drive to learn, powered by curiosity, existing knowledge, and perceived value.
+- [Stress Resilience](concepts/StressResilience.md) - Capacity to appraise threats, tolerate manageable stress, recover, and continue effective action.
 - [L2VPN](concepts/L2VPN.md) - Layer-2 VPN service family where pseudowire type, VLAN rewrite, labels, control words, and QoS bits determine packet behavior.
 - [L2VPN Dummy VLAN](concepts/L2VPNDummyVLAN.md) - VLAN ID 0 tag used in some L2VPN pseudowire cases to carry 802.1p priority after rewrite strips the customer VLAN tag.
 - [EoMPLS](concepts/EoMPLS.md) - Ethernet-over-MPLS L2VPN service that exposes the successful IOS XR Type 4 dummy VLAN test in the source.

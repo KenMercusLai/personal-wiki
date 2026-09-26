@@ -2,7 +2,7 @@
 title: "白话：区块链\"稳定币挖矿\"是什么"
 type: source
 tags: [crypto, defi, stablecoin, yield-farming]
-date: 2021
+date: 2021-04-18
 source_file: '/mnt/ken_personal_wiki/Articles/Blog - taresky - 白话：区块链"稳定币挖矿"是什么.md'
 ---
 

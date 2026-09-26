@@ -4270,3 +4270,11 @@ Added Christian Tietze's three-phase paper-to-Zettel workflow: pull loose readin
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | 良性压力的机制
+
+Added Piotr Wozniak's model of eustress as self-regulated acute challenge followed by reward, and separated its Problem Valuation Network from the existing Knowledge Valuation Network. Created [[Eustress]], [[ProblemValuationNetwork]], [[StressResilience]], and [[ChronicStress]]; updated [[PiotrWozniak]], [[FreeLearning]], and [[CoerciveLearning]] from their complete ordered source inventories with the approach-retreat-reassessment loop and the distinction between autonomous challenge and imposed overload. Opened and retained the source's evidence-bearing chart, which plots rising reward, falling success probability, and a broad expected-reward maximum at intermediate difficulty. Preserved the article's developmental, neuroscience, sleep, and mental-health claims as source-scoped because it supplies no controlled or clinical evidence.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

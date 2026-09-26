@@ -2,7 +2,7 @@
 title: "An Updated Academic Workflow: Zotero & Obsidian"
 type: source
 tags: [academic-workflow, zotero, obsidian, pandoc, citation-management]
-date: 2023-08-01
+date: 2023-08-21
 source_file: "/mnt/ken_personal_wiki/Articles/Alexandra Phelan - An Updated Academic Workflow Zotero and Obsidian.md"
 ---
 

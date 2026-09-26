@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
       "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
       "5954a68980f5edc43010ce9c982ec5abded60982d1caf142dc3743ae9b45314b",
       "5db2ddde4a2630e19f67735e9aaa9dd2d11bf70bac3a072e68e06c987b6056d3",
@@ -440,11 +441,32 @@
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821"
     ],
-    "paragraph_count": 438
+    "paragraph_count": 439
   },
-  "overview_commit": "b54e9ef4947b71a42ee4f053e36736c2858cf749",
-  "overview_digest": "ff9365925c5b7aacf05f8966736c637565f218d46db2a481b9b35d0a8227675a",
+  "overview_commit": "d96c220d5b8d24d87b49206d7e2bc3d37ffd4f54",
+  "overview_digest": "11934fa88e2f30468aa3072b8a2e3edd0e6b996c452a51e312018bdaeb3b69c2",
   "paragraphs": [
+    {
+      "id": "756a070317f5beca0b049aced4e886b304b5ba2da94b07597c9a48605ee8eb19",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[PiotrWozniak]] source extends the wiki's autonomy-centered learning model from valuing knowledge to valuing challenges. Its [[ProblemValuationNetwork]] compares expected reward with difficulty, success probability, effort, fear, and danger, while the retained chart illustrates a source-specific Goldilocks model in which expected reward peaks at intermediate problem difficulty. [[FreeLearning]] gains an approach-retreat-reassessment loop: a learner can regulate exposure, build skill, and convert manageable acute stress into [[Eustress]] and possibly [[StressResilience]]. [[CoerciveLearning]] gains the inverse mechanism: steep, high-stakes, or inescapable demands can override retreat and recovery, becoming [[ChronicStress]] rather than preparation. These developmental, neural, sleep, anxiety, and resilience claims remain theoretical and illustrative because the article supplies no controlled, longitudinal, or clinical evidence, and its plotted curves are not empirical estimates.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ChronicStress",
+        "CoerciveLearning",
+        "Eustress",
+        "FreeLearning",
+        "PiotrWozniak",
+        "ProblemValuationNetwork",
+        "StressResilience"
+      ]
+    },
     {
       "id": "1a59d7a945743360c61e3be76ebd4f1313ee0a2cde82ae90d9cab66d2f98596f",
       "primary_topic": "business-and-markets",

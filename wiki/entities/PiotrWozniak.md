@@ -6,25 +6,28 @@ sources:
   - she-li-mu-biao-ke-yi-gai-bian-ni-de-sheng-huo
   - nei-zai-jia-zhi-zhuang-tai
   - zhi-shi-gu-zhi-wang-luo
-last_updated: 2026-09-12
+  - liang-xing-ya-li-de-ji-zhi
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[PiotrWozniak]] is the author credited for sources on goal setting, learning drive, knowledge valuation, SuperMemo, and the philosophical idea of an [[IntrinsicallyValuableState]].
+[[PiotrWozniak]] is the author credited for sources on goal setting, learning drive, knowledge and problem valuation, SuperMemo, useful stress, and the philosophical idea of an [[IntrinsicallyValuableState]].
 
 ## Current Profile
 Within this wiki, Wozniak is represented as a learning theorist and SuperMemo-associated author whose work links educational motivation, neural valuation, and a larger philosophy of purpose. In the goal-setting source, he argues that goals can help learners value knowledge, sustain curiosity, and avoid schooling or credential systems that turn study into painful compliance. In the knowledge-valuation source, he gives that claim a fuller architecture: knowledge is valued through personal goals, semantic networks, emotional and rational valuation, OFC-centered reward circuitry, and self-directed learning conditions. In the intrinsically valuable state source, he extends this into a meta-goal: because science cannot currently determine whether objective intrinsic value exists, people should grow knowledge and model reality while searching for or refuting it.
 
 His stance is qualified rather than conventional self-help. Some accomplished minds may thrive through curiosity alone, but younger learners often need humane goals, [[FreeLearning]], and small decisions to protect their [[LearnDrive]]. He is sharply critical of [[CoerciveLearning]], arguing that false rewards, punishment, passive schooling, and [[ReverseLearning]] can damage valuation and memory. At the existential level, Wozniak treats knowledge-seeking under uncertainty as more defensible than resting purpose on religion, pleasure, immortality, or arbitrary preference.
 
+The eustress source extends the same autonomy-centered theory from knowledge choice to challenge choice. Its [[ProblemValuationNetwork]] balances reward against difficulty, effort, fear, and danger; freely adjustable intermediate challenges can become [[Eustress]] and build [[StressResilience]], while inescapable pressure can become [[ChronicStress]] and impair later threat appraisal.
+
 ## Key Characteristics
-- Associated here with theories of learning motivation, goal setting, and knowledge valuation.
+- Associated here with theories of learning motivation, goal setting, knowledge valuation, problem valuation, and stress calibration.
 - Treats curiosity and learning drive as stronger foundations than forced discipline.
 - Distinguishes mature experts from younger students whose interests are still fragile.
 - Recommends small, low-friction exploratory study rather than imposed dreams or painful commitments.
 - Uses SuperMemo's origin as a personal example of valuation-driven self-learning.
-- Connects learning motivation to neural valuation models such as the [[CommonCurrencyModel]] and criticizes coercive schooling as damaging to valuation, curiosity, and memory.
+- Connects learning motivation to neural valuation models such as the [[CommonCurrencyModel]] and treats autonomy as central to both learning and useful challenge.
 - Frames the search for objective intrinsic value as a scientific meta-goal for human purpose.
 
 ## Evidence
@@ -39,14 +42,19 @@ His stance is qualified rather than conventional self-help. Some accomplished mi
 - Philosophical meta-goal: [[nei-zai-jia-zhi-zhuang-tai]] defines intrinsically valuable state as a non-instrumental target above ordinary goals.
 - Knowledge under uncertainty: [[nei-zai-jia-zhi-zhuang-tai]] argues that current science does not determine intrinsic value, so the defensible response is to grow knowledge and model reality.
 - Personal stakes: [[nei-zai-jia-zhi-zhuang-tai]] describes Wozniak's youth, failed attempts to interest others in the concept, and his claim that a clear meta-goal simplified his life.
+- Challenge valuation: [[liang-xing-ya-li-de-ji-zhi]] introduces a [[ProblemValuationNetwork]] that balances reward, success probability, effort, fear, and danger.
+- Stress boundary: [[liang-xing-ya-li-de-ji-zhi]] distinguishes self-chosen, rewarded [[Eustress]] from prolonged or uncontrollable [[ChronicStress]].
+- Developmental claim: [[liang-xing-ya-li-de-ji-zhi]] argues that free exploration can build [[StressResilience]], while excessive childhood pressure can impair threat appraisal.
 
 ## Qualifications
-This profile is source-scoped and relies on Wozniak-attributed essays rather than independent biography or criticism. The knowledge-valuation source mixes educational argument, autobiographical memory, and neuroscience interpretation; the intrinsically valuable state source reports philosophical claims that the wiki has not independently corroborated.
+This profile is source-scoped and relies on Wozniak-attributed essays rather than independent biography or criticism. The valuation sources mix educational argument, illustrative models, autobiographical memory, and neuroscience interpretation; the intrinsically valuable state source reports philosophical claims that the wiki has not independently corroborated. The eustress essay does not supply controlled or clinical evidence for its developmental and mental-health mechanisms.
 
 ## What Changed
 - Broadened Wozniak's profile from learning motivation to include his philosophical meta-goal of intrinsically valuable state.
 - Added a qualification that the new material is autobiographical and theoretical rather than independently evaluated.
 - Added SuperMemo, neural valuation, free learning, coercive learning, and reverse learning as major parts of his profile in this wiki.
+- Extended the profile from valuing knowledge to valuing challenges under effort, risk, fear, and reward.
+- Added autonomy as the proposed boundary between resilience-building eustress and harmful chronic stress.
 
 ## Relationships
 - [[GoalSetting]] - Wozniak argues that goals can focus attention and motivate learning.
@@ -58,3 +66,7 @@ This profile is source-scoped and relies on Wozniak-attributed essays rather tha
 - [[CommonCurrencyModel]] - he uses this neuroscience model to frame integrated valuation.
 - [[CreativeAbstraction]] - he recommends abstraction and general principles in complex fields.
 - [[IntrinsicallyValuableState]] - Wozniak presents this as the meta-goal behind ordinary goals.
+- [[ProblemValuationNetwork]] - Wozniak uses it to model challenge selection under reward and danger.
+- [[Eustress]] - he frames rewarded, controllable acute stress as useful for learning and exploration.
+- [[StressResilience]] - he argues that freely explored manageable challenges can build it.
+- [[ChronicStress]] - he contrasts prolonged uncontrollable pressure with beneficial challenge.
