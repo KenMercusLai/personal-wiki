@@ -4206,3 +4206,11 @@ Created [[LiveRamp]] from Auren Hoffman's 2019 DaaS article as a historical, sou
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Content is King, But Context is God
+
+Added Gary Vaynerchuk's 2016 practitioner framework for value-first, context-aware content. Created [[GaryVaynerchuk]]; updated [[ContentLedAcquisition]] and [[PlatformSpecificEditorialStrategy]] from their complete ordered source inventories with platform psychology, audience intent, non-interruption, misleading accidental clicks, brand coherence, and organizational north-star communication. Preserved the source's limits as an unmeasured practitioner argument whose platform assumptions are historically situated. Opened all four local image files, retained one high-resolution audience/platform illustration with a descriptive canonical filename and manifest entry, and omitted its larger near-duplicate plus two low-resolution thumbnails.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -529,6 +529,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Listening is The Job](sources/boz-listening-is-the-job.md) - Andrew Bosworth frames listening as ownership of workplace information flow through deliberate channels, pruning, gap mapping, follow-up, callbacks, outbound context, and receptive interpretation.
 - [Column: They're leaving California for Las Vegas to find the middle-class life that eluded them - Los Angeles Times](sources/column-theyre-leaving-california-for-las-vegas-to-find-the-middle-class-life-that-eluded-them-los-angeles-times.md) - Steve Lopez uses California transplant stories to show how lower Las Vegas housing and commuting costs can restore savings, time, and ownership prospects without a higher-paying job.
 - [Consensus vs. Collaboration](sources/consensus-vs-collaboration-silicon-valley-product-group.md) - SVPG distinguishes inclusive cross-functional collaboration from unanimous approval and argues for explicit decision authority when product trade-offs remain unresolved.
+- [Content is King, But Context is God](sources/content-is-king-but-context-is-god-gary-vaynerchuk-medium.md) - Gary Vaynerchuk argues that value-first content works when it respects platform psychology, audience intent, the surrounding experience, and a consistent brand goal.
 
 ## Entities
 
@@ -1567,6 +1568,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [John Collison](entities/JohnCollison.md) - Stripe co-founder who built the early payment prototype with Patrick Collison after a long history of working through problems together.
 - [Steve Lopez](entities/SteveLopez.md) - Los Angeles Times columnist represented through his 2017 reporting and argument on housing affordability and cost-driven migration.
 - [Las Vegas](entities/LasVegas.md) - Nevada city presented as a nearby lower-cost job and housing destination for Californians.
+- [Gary Vaynerchuk](entities/GaryVaynerchuk.md) - Marketing practitioner represented by value-first, platform-aware content strategy and brand-coherence advice.
 
 ## Concepts
 
