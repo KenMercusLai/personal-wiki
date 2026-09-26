@@ -4338,3 +4338,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | Credit Karma's CEO Built a Sexy Brand in an Unsexy Category with No PR Firm and a Tiny Budget - Here's How
+
+Added Kenneth Lin's account of Credit Karma's startup brand practice: ground identity in actual team behavior, define upstream prohibitions, express the promise through product and service, engage critics directly, measure delight and advocacy, and turn promoter feedback into product changes. Created [[KennethLin]], [[CreditKarma]], and [[StartupBrandStrategy]]; updated [[NetPromoterScore]], [[RedditMarketing]], and [[Reddit]] from their complete ordered source inventories. Preserved the case's limits as a company-side retrospective that does not isolate branding or Reddit from product utility, pricing, timing, and other growth causes. Opened the sole local image and omitted it as an illustrative event photograph that adds no evidence beyond the prose.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

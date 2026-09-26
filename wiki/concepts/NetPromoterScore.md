@@ -5,7 +5,8 @@ tags: [product-management, metrics, customer-loyalty]
 sources:
   - a-practitioners-guide-to-net-promoter-score-at-andrewchen
   - attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs
-last_updated: 2026-09-14
+  - credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -15,6 +16,8 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources treat Net Promoter Score as a useful but fragile product-management and customer-satisfaction signal. Its basic calculation is simple: ask how likely a customer is to recommend the company, classify scores of 9-10 as promoters, 7-8 as passives, and 0-6 as detractors, then subtract detractor share from promoter share. The practical value comes from the surrounding program: open-ended comments, representative sampling, consistent methodology, behavior correlation, quarterly analysis, and roadmap follow-through. The Slack attribution source adds that NPS can also become one input to [[MarketingAttribution]] when a company wants to understand how brand, offline, word-of-mouth, product, and lifecycle touches contribute to satisfaction and recommendation.
 
+The [[CreditKarma]] case extends NPS from general measurement into advocate discovery: high scores, sharing, referrals, and unsolicited public defense can identify promoters whose feedback may inform product work. But it also reinforces that NPS should sit beside behavioral signals such as return frequency, sharing, referrals, and unsubscribes rather than being treated as a causal growth lever by itself.
+
 ## Key Claims
 - NPS is calculated by separating promoters, passives, and detractors from a 0-10 recommendation-likelihood question.
 - The metric becomes actionable when teams ask why the respondent gave that score.
@@ -22,7 +25,7 @@ The sources treat Net Promoter Score as a useful but fragile product-management 
 - NPS should be compared across surveys only when methodology remains consistent.
 - Verbatim analysis and product-behavior correlation can translate scores into product priorities.
 - NPS is a lagging and sampled measure, so it should complement rather than replace operational metrics and strategy.
-- NPS can be used at both relational and transactional levels when teams want to connect specific experiences with recommendation likelihood.
+- NPS can be used relationally or transactionally and can help locate likely advocates, but scores need behavioral corroboration and should deepen product learning rather than merely target promotion.
 
 ## Evidence
 - Calculation: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] describes promoters as 9-10, passives as 7-8, detractors as 0-6, and NPS as promoter percentage minus detractor percentage; the inspected diagram shows the same grouping and subtraction formula.
@@ -32,13 +35,16 @@ The sources treat Net Promoter Score as a useful but fragile product-management 
 - Product learning: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] describes categorizing promoter and detractor comments and correlating product actions with higher NPS to infer activation behaviors.
 - Operational limits: [[a-practitioners-guide-to-net-promoter-score-at-andrewchen]] says NPS is too infrequent for day-to-day operations, carries margin-of-error limits, and is not a replacement for strategy.
 - Attribution input: [[attribution-marketing-creating-a-growth-engine-at-salesforce-zendesk-and-slack-for-entrepreneurs]] says [[Slack]] tracks NPS at both relational and transactional levels and feeds satisfaction data into its attribution model.
+- Advocate discovery: [[credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review]] combines NPS with sharing, referrals, forum advocacy, return behavior, and unsubscribes to identify and understand promoters.
+- Product loop: [[credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review]] says [[CreditKarma]] asked Reddit advocates what they needed and built Direct Dispute in response to report-inaccuracy complaints.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance from LinkedIn and Slack contexts rather than universal measurement proof. NPS can be biased by response channels, sampling, customer tenure, engagement, seasonality, methodology changes, and the difficulty of linking satisfaction to specific prior touchpoints. It is also too slow for A/B tests or daily management and should be paired with acquisition, engagement, monetization, attribution, and other operational dashboards.
+The sources are practitioner guidance and company retrospectives from LinkedIn, Slack, and Credit Karma rather than universal measurement proof. NPS can be biased by response channels, sampling, customer tenure, engagement, seasonality, methodology changes, and the difficulty of linking satisfaction to specific prior touchpoints. Credit Karma's quoted claim that category NPS leaders grow twice as fast does not include the underlying study or establish causation. NPS is also too slow for A/B tests or daily management and should be paired with acquisition, engagement, monetization, referral, retention, attribution, and other operational dashboards.
 
 ## What Changed
 - Created the concept page for NPS as a customer-loyalty metric and product-learning program.
 - Added Slack's relational and transactional NPS usage as an attribution and satisfaction signal.
+- Added NPS as one input to advocate discovery and product feedback, qualified by behavioral corroboration and unverified causal growth claims.
 
 ## Related Concepts
 - [[ProductMetricLadder]] - NPS can be a slow business-level metric that needs shorter-cycle proxy metrics.

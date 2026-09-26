@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Credit Karma's CEO Built a Sexy Brand in an Unsexy Category with No PR Firm and a Tiny Budget - Here's How](sources/credit-karmas-ceo-built-a-sexy-brand-in-an-unsexy-category-with-no-pr-firm-and-a-tiny-budget-heres-how-first-round-review.md) - Kenneth Lin explains how Credit Karma linked authentic values, product guardrails, founder engagement, measured delight, and Reddit feedback to trust and word-of-mouth growth.
 - [Creation and consumption](sources/creation-and-consumption-benedict-evans.md) - Benedict Evans argues that mobile creation and simpler interface abstractions expand effective computing capability far beyond the minority doing precision-heavy professional work on PCs.
 - [Create a Zettelkasten for your Notes to Improve Thinking and Writing](sources/create-a-zettelkasten-for-your-notes-to-improve-thinking-and-writing-zettelkasten-method.md) - Christian Tietze frames a linked slip-box as a communication partner built from writing, stable note identity, loose filing, relational complexity, and serendipitous retrieval.
 - [Constantly tweaking: How The Guardian continues to develop its in-house analytics system](sources/constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab.md) - Joseph Lichterman shows how the Guardian made Ophan broadly usable through real-time editorial feedback, accessible measures, alerts, and minimum-first iteration.
@@ -548,6 +549,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Kenneth Lin](entities/KennethLin.md) - Credit Karma founder represented through a values-grounded, product-connected approach to startup brand building.
+- [Credit Karma](entities/CreditKarma.md) - Consumer credit-information company used as a case of aligning a free-access promise, product utility, direct engagement, and measured advocacy.
 - [The Guardian](entities/TheGuardian.md) - News organization represented through broad newsroom access to analytics and iterative development of Ophan.
 - [Ophan](entities/Ophan.md) - Guardian in-house analytics system providing accessible live performance, referral, ranking, alert, and search-query views.
 - [Constantin](entities/Constantin.md) - Practitioner represented by a concise Reddit marketing routine for zero-user SaaS founders.
@@ -1601,6 +1604,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Startup Brand Strategy](concepts/StartupBrandStrategy.md) - Alignment of real company identity, non-negotiable promises, product choices, customer interaction, and advocacy measurement.
 - [Capability Accessibility](concepts/CapabilityAccessibility.md) - Practical availability of a computing function based on whether people can discover, understand, and operate it, not only whether the feature exists.
 - [Newsroom Analytics](concepts/NewsroomAnalytics.md) - Practice of making audience evidence accessible and actionable while preserving editorial context and judgment.
 - [Reddit Marketing](concepts/RedditMarketing.md) - Subreddit-specific audience research, norm-aware publishing, and comment engagement for early product distribution.
