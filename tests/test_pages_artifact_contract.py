@@ -118,8 +118,8 @@ class PagesArtifactContractTest(unittest.TestCase):
             page = copied / "wiki/open-questions/index.html"
             text = page.read_text(encoding="utf-8")
             changed, count = re.subn(
-                r"<li>How should developers back up or export WSL distributions before "
-                r"destructive cleanup steps such as <code>wsl --unregister</code>\?</li>",
+                r"<li>(?:<p>)?How should developers back up or export WSL distributions before "
+                r"destructive cleanup steps such as <code>wsl --unregister</code>\?(?:</p>)?</li>",
                 "",
                 text,
                 count=1,
