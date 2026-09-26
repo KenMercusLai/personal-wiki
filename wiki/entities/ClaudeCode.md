@@ -12,7 +12,8 @@ sources:
   - claude-code-on-the-go
   - corti-ai-powered-knowledge-management-obsidian-claude-code
   - hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong
-last_updated: 2026-09-24
+  - context-engineering-from-the-inside-out
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -38,9 +39,11 @@ Hu Yuanming's workflow pushes that operating model into an application layer. Fr
 
 Corti's knowledge-management architecture extends the tool beyond software implementation into repository-shaped content operations. In that design, Claude Code reads vault-level instructions and performs semantic tasks such as summarization, tag proposals, relationship discovery, health analysis, and project-note compilation, while deterministic scripts and CI/CD retain responsibility for repeatable structural checks, exports, and deployment.
 
+The context-engineering essay adds a systems explanation for several of these product primitives. Concise `CLAUDE.md` files place global project rules early, skills load task-specific procedures only when relevant, hooks inject action-specific constraints near execution, stable tool and conversation prefixes support cache reuse, and compaction or subagents provide fresh windows through lossy handoffs. These are presented as design patterns illustrated through Claude Code and related agents, not as an official or exhaustive product specification.
+
 ## Key Characteristics
 - Operates as a command-line coding agent with project-wide context rather than an editor-only assistant.
-- Supports planning, custom commands, hooks, subagents, todo management, and notification-triggered clarification as workflow primitives.
+- Supports planning, custom commands, always-on project context, on-demand skills, action-triggered hooks, subagents, todo management, and notification-triggered clarification as workflow and context-placement primitives.
 - Keeps its central control structure simple: one main loop/message history, with limited subagent branching for complex tasks.
 - Uses provider-aware [[PromptCaching]] tactics and smaller helper-model calls to manage cost, context, and high-volume tool results.
 - Relies on highly structured prompt and tool design, including context files, Markdown/XML sections, examples, emphatic reminders, deterministic higher-level tools, and live Unix-style code search.
@@ -61,14 +64,15 @@ Corti's knowledge-management architecture extends the tool beyond software imple
 - Mobile/cloud supervision: [[claude-code-on-the-go]] describes six Claude Code agents running in tmux windows on a Tailscale-only Vultr VM, controlled from a phone through Termius and mosh, with worktrees and deterministic port allocation for parallel features.
 - Queue-driven worker pool: [[hu-yuan-ming-wo-gei-10-ge-claude-code-da-gong]] describes repeated `claude -p` launches, a shared task queue, streamed JSON logs, worktree isolation, merge-and-test rules, and a web task center; its inspected diagrams show the lifecycle, shared files, recovery rules, lesson format, and Plan Mode review interface.
 - Knowledge-vault maintenance: [[corti-ai-powered-knowledge-management-obsidian-claude-code]] assigns Claude Code summaries, semantic tags, relationship suggestions, health analysis, and project compilation inside a CI/CD-managed Markdown repository.
+- Context placement: [[context-engineering-from-the-inside-out]] explains `CLAUDE.md` as concise global context, skills as model-selected task context, and hooks as runtime-triggered context placed around matching actions.
+- Fresh windows: [[context-engineering-from-the-inside-out]] compares reactive compaction with delegated subagents and treats both as lossy handoff boundaries that trade detail for renewed context capacity.
 
 ## Qualifications
-The profile partly reflects practitioner experience, source-code reading, logged request interpretation, two mobile setups, and one prescriptive knowledge-vault design rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields. The MinusX source argues for one main loop and limited branching, while the mihomo-rust, mobile, and queue-manager cases show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, and verification keep the workflow bounded. Hu's reported increase from roughly 20% to 95% dispatch success is unexplained and does not establish code quality; his use of permissive mode and routine non-review is materially riskier than sources that require human inspection or stronger isolation. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
+The profile partly reflects practitioner experience, source-code reading, logged request interpretation, two mobile setups, and one prescriptive knowledge-vault design rather than official product documentation or controlled benchmarks. The prompt-cache behavior is inferred from private API fields, and the newest source sometimes generalizes from Qwen3 templates and neighboring agent implementations to Claude Code-like design. The MinusX source argues for one main loop and limited branching, while the mihomo-rust, mobile, and queue-manager cases show that larger or more parallel projects can still use multiple Claude Code sessions when file-backed state, worktree isolation, specs, and verification keep the workflow bounded. Hu's reported increase from roughly 20% to 95% dispatch success is unexplained and does not establish code quality; his use of permissive mode and routine non-review is materially riskier than sources that require human inspection or stronger isolation. Corti does not report whether AI-generated tags, links, or summaries remain accurate at scale. Antirez's and Guangzhengli's comparisons are anecdotal and depend on expert users who can define, inspect, and review the work.
 
 ## What Changed
-- Expanded the mobile profile from remote terminal supervision to a purpose-built phone web manager with voice capture and batched planning.
-- Added queue-driven fresh sessions, streamed logs, worktree isolation, and `PROGRESS.md` as an external worker-pool pattern.
-- Qualified parallel throughput with permissive-execution, automated-integration, no-review, and unverified-quality risks.
+- Added global files, on-demand skills, action-triggered hooks, compaction, and subagents as context-placement primitives.
+- Qualified the design account as a cross-agent practitioner interpretation rather than an official exhaustive Claude Code specification.
 
 ## Relationships
 - [[Claude]] - Claude Code is built around the Claude model family in the sources' accounts.

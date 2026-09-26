@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Context Engineering from the Inside Out](sources/context-engineering-from-the-inside-out.md) - A practitioner framework for curating effective agent context and stable cacheable prefixes through project instructions, skills, hooks, CLI discovery, deterministic tool results, compaction, and subagents.
 - [Content is Eating the World - Contently's CEO on Winning at Marketing's New Hotness](sources/content-is-eating-the-world-contentlys-ceo-on-winning-at-marketings-new-hotness-first-round-review.md) - Joe Coleman frames content as an audience product built through research, cadence, differentiation, deliberate distribution, quality, engagement measurement, and controlled iteration.
 - [Content Marketing Strategy for Multi-Product Companies](sources/content-marketing-strategy-for-multi-product-companies.md) - A practitioner framework maps products or audiences against funnel stages to audit and prioritize multi-product content coverage.
 - [Consumers Are Becoming Wise to Your Nudge](sources/consumers-are-becoming-wise-to-your-nudge-behavioral-scientist.md) - Simon Shaw reports a representative British experiment in which familiar hotel-booking scarcity and social-proof claims were widely read as pressure and often reduced trust.

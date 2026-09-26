@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-26] ingest | Context Engineering from the Inside Out
+
+Added a practitioner framework that treats context engineering as the joint discipline of curating effective attention and preserving stable prompt prefixes. Updated the wiki's context-management, skills, prompt-caching, MCP, shell-tooling, and Claude Code syntheses with always-on project files, on-demand skills, action-triggered hooks, hidden tool-schema cost, deterministic tool responses, and lossy compaction/subagent handoffs. Preserved qualifications around the article's implementation-dependent cache claims, opinionated CLI comparison, and self-reported tagging-agent accuracy. Inspected all eight local diagrams and retained each at its semantic position under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-26] ingest | Content is Eating the World - Contently's CEO on Winning at Marketing's New Hotness
 
 Added Joe Coleman's 2016 First Round Review framework for treating content as an audience product built through customer research, patient milestones, consistent voice and cadence, editorial white space, deliberate distribution, premium quality, engagement measurement, owned publishing, and controlled experimentation. Created [[JoeColeman]] and [[Contently]]; updated [[FirstRoundReview]], [[ContentLedAcquisition]], and [[MarketingAttribution]] from their complete ordered source inventories. Preserved fixed-runway, channel-ranking, historical-context, and causal-attribution limits, especially that reader-to-customer correlation does not prove content caused sales. Opened the sole local image and retained it as a Contently office photograph whose wall text reinforces the storytelling thesis without adding independent performance evidence.
@@ -4210,6 +4214,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | Content is King, But Context is God
 
 Added Gary Vaynerchuk's 2016 practitioner framework for value-first, context-aware content. Created [[GaryVaynerchuk]]; updated [[ContentLedAcquisition]] and [[PlatformSpecificEditorialStrategy]] from their complete ordered source inventories with platform psychology, audience intent, non-interruption, misleading accidental clicks, brand coherence, and organizational north-star communication. Preserved the source's limits as an unmeasured practitioner argument whose platform assumptions are historically situated. Opened all four local image files, retained one high-resolution audience/platform illustration with a descriptive canonical filename and manifest entry, and omitted its larger near-duplicate plus two low-resolution thumbnails.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] lint | Wiki health check
 

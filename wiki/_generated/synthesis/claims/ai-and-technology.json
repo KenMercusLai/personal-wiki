@@ -248,9 +248,10 @@
         "Longer context windows reduce pressure but do not eliminate stale traces, noisy tool outputs, misleading summaries, stale instruction files, or hidden retrieval failure modes.",
         "For live codebases and browser pages, current search, semantic retrieval, and structured environment access should be evaluated as complementary signals rather than as an absolute RAG-versus-grep or vision-versus-DOM choice.",
         "The note-taking evidence is a subscription-truncated practitioner column: it establishes a useful distinction between storage or retrieval capability and cognitive outcomes, but does not measure reasoning improvement or resolve whether generative AI closes that gap.",
-        "The Tape topic lifecycle is a practitioner design proposal rather than a benchmarked implementation; concurrency, topic-boundary detection, correction, privacy, access control, deletion, recall quality, and hook reliability remain unresolved."
+        "The Tape topic lifecycle is a practitioner design proposal rather than a benchmarked implementation; concurrency, topic-boundary detection, correction, privacy, access control, deletion, recall quality, and hook reliability remain unresolved.",
+        "The context-engineering tagging case is self-reported without a published dataset size, evaluation protocol, uncertainty estimate, or independent replication; its thinking-token and cross-session cache claims also depend on runtime and provider behavior."
       ],
-      "statement": "Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what a model can use or misuse. [[TapeAndAnchors]] adds immutable entries, anchors, selectable views, and handoff, while [[AgentTopicLifecycle]] shows how explicit range boundaries, summaries, hooks, and index-backed replay can make business topics and recall auditable without replacing original history. [[PersonalKnowledgeManagement]] and [[InformationOverload]] add the human boundary that better capture, linkage, and retrieval do not by themselves demonstrate better reasoning when interpretation remains the bottleneck.",
+      "statement": "Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.",
       "status": "qualified",
       "supporting_wikilinks": [
         "LLMContextManagement",
@@ -266,7 +267,10 @@
         "AgentTopicLifecycle",
         "AgentMemory",
         "PersonalKnowledgeManagement",
-        "InformationOverload"
+        "InformationOverload",
+        "LLMToolingSkills",
+        "ModelContextProtocol",
+        "BashAsMetaTool"
       ]
     },
     {

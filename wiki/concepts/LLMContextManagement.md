@@ -11,7 +11,8 @@ sources:
   - gei-ren-wen-gong-zuo-zhe-de-ai-shi-yong-zhi-nan
   - agent-experience-dao-lun-luo-li-li-de-shu-ju-zhong-xin
   - blog-guangzhengli-vibe-coding-and-context-coding
-last_updated: 2026-09-14
+  - context-engineering-from-the-inside-out
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -33,14 +34,16 @@ The full AX essay broadens context management from a tooling concern into one of
 
 Guangzhengli turns context management into a practical history of AI coding tools. In that account, Copilot, Cursor, and Claude Code are not only better models or interfaces; they are progressively richer ways to select, retrieve, and expose project context. The source also adds a maintenance warning: instruction files help only when they are concise and current, because stale context can mislead an agent more severely than missing context.
 
+The newest source makes this practice explicit as context engineering and gives it two coupled objectives: curate what the model can use effectively, and keep the reusable prefix stable enough for KV-cache reuse. It maps always-on project instructions to the beginning of context, task-selected skills and action-triggered hooks to timely loading near the current action, and recursive CLI discovery to a way of avoiding large always-loaded tool-schema catalogs. It also treats pattern pollution as distinct from factual noise: examples of undesirable behavior in the trajectory can become implicit instructions that the model repeats.
+
 ## Key Claims
 - LLMs generate from probability distributions over tokens, so context strongly shapes both reasoning and action.
 - Skills, MCP, RAG, Memory, and Computer Use can be understood as different context-management and action-interface patterns.
 - Longer context windows reduce capacity pressure but do not remove noise, irrelevant material, misleading traces, tool-call outputs, or messy source formats that pollute later reasoning.
 - Context quality can degrade through accumulated failed attempts, contradictory instructions, emotional pressure, lossy summarization, or overloaded sessions.
-- Stable system/tool prefixes, dynamic conversation suffixes, and provider-side cache edits offer ways to balance context adaptation with prompt-cache reuse.
+- Stable system/tool prefixes, deterministic tool results, dynamic conversation suffixes, and provider-side cache edits offer ways to balance context adaptation with prompt-cache reuse.
 - Long coding-agent and group-chat sessions create practical failure modes when auto-compaction happens mid-task, topics run in parallel, or a task is too large for one session.
-- Append-only history, minimal anchors, milestone resets, file-backed state, context-budget views, and interface-delivered diagnostics can reduce the pressure to carry every past state in active, summarized, or stale multi-agent context.
+- Always-on project files, on-demand skills, action-triggered hooks, append-only history, milestone resets, file-backed state, and interface-delivered diagnostics can put information closer to the moment when it is useful without carrying every past state forward.
 
 ## Evidence
 - Shared framing: [[yi-kou-qi-ba-suo-you-rang-ni-mu-xuan-de-llm-ming-ci-quan-dou-guo-yi-bian]] explicitly says Skills, MCP, and coding-agent command execution are different openings from LLM text generation into the outside world, then frames them as solving context pollution.
@@ -58,20 +61,22 @@ Guangzhengli turns context management into a practical history of AI coding tool
 - AI coding context: [[blog-guangzhengli-vibe-coding-and-context-coding]] compares Copilot's open-file and cursor context, Cursor's RAG/rules/Git-history/documentation context, and Claude Code's Unix-tool project exploration.
 - Instruction-file staleness: [[blog-guangzhengli-vibe-coding-and-context-coding]] warns that outdated project context in rules files can be more harmful than no saved context.
 - Context visibility: [[blog-guangzhengli-vibe-coding-and-context-coding]] includes an inspected Claude Code `/context` screenshot that breaks usage into system prompt, tools, MCP tools, messages, and free space.
+- Effective attention: [[context-engineering-from-the-inside-out]] uses the lost-in-the-middle pattern to distinguish nominal context capacity from the smaller region where instructions and evidence remain salient.
+- Placement and loading: [[context-engineering-from-the-inside-out]] assigns broad project rules to concise `AGENTS.md`/`CLAUDE.md` files, task-specific procedures to on-demand skills, and action-specific guardrails to hooks immediately around tool execution.
+- Pattern and cache hygiene: [[context-engineering-from-the-inside-out]] warns that trajectories teach behavior by example and recommends stable ordering plus removal of irrelevant timestamps, UUIDs, and metadata from tool results when cross-request reuse matters.
+- Lossy handoff: [[context-engineering-from-the-inside-out]] frames compaction and subagents as sequential and parallel uses of fresh context that both compress information at the handoff boundary.
 
 ## Counterevidence & Qualifications
-The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the interface-as-context claim remains a design argument rather than a validated UI standard. Guangzhengli's tool comparison is also experience-based and may change with pricing, model quality, and product behavior.
+The sources are practitioner essays and code-reading analyses rather than empirical benchmarks. They give vivid model-behavior examples but do not provide controlled evidence for failure rates across models, tools, or task types. The private cache-edit account depends on inferred provider behavior, and the interface-as-context claim remains a design argument rather than a validated UI standard. Guangzhengli's tool comparison is also experience-based and may change with pricing, model quality, and product behavior. The newest source's tagging-agent accuracy is self-reported without a published evaluation protocol, and its claims about thinking-token removal depend on a particular runtime.
 
 The tape-and-anchors model is also conceptual: it gives a useful alternative to inherited session state, but does not yet specify anchor schemas, retrieval evaluation, conflict handling, or deletion/privacy semantics.
 
 The humanities-workflow source gives practical heuristics but not measured thresholds for how much text different models can reliably use, or when RAG, batching, and manual source preparation outperform each other.
 
 ## What Changed
-- Created the concept page for context management as the cross-cutting frame behind multiple LLM tooling terms.
-- Added Claude Code session-management tactics as a practical context-management case.
-- Added provider-side prompt-cache behavior plus tape-and-anchor continuity as context-management layers.
-- Added milestone respawn, file-system state, source preparation, compression, and clean-material handling as context-management tactics for coding, humanities, and writing work.
-- Added AX's internal-state layer, interface-delivered diagnostics, and context coding as context-management concerns.
+- Added effective attention, pattern pollution, and stable-prefix reuse as joint context-engineering concerns.
+- Distinguished always-on project files, task-selected skills, and action-triggered hooks by loading time and context position.
+- Added deterministic tool-response normalization and the lossy-handoff equivalence between compaction and subagents.
 
 ## Related Concepts
 - [[LLMToolingSkills]] - Skills manage context by adding expert instructions.

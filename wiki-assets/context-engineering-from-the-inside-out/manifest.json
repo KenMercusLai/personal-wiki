@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "context-engineering-from-the-inside-out",
+  "images": [
+    {"file": "effective-context-window.png", "alt": "Effective context window diagram showing strong primacy and recency attention with blurred intermediate context"},
+    {"file": "context-engineering-principles.png", "alt": "Context engineering principles diagram pairing selective context curation with high KV-cache hit rate"},
+    {"file": "agents-md-global-context.png", "alt": "AGENTS.md global-context diagram placing project rules near the system prompt ahead of tools, skills, and environment state"},
+    {"file": "skills-on-demand-context.png", "alt": "Skills diagram showing metadata preloaded globally and task-specific workflow files loaded into context on demand"},
+    {"file": "hooks-action-triggered-context.png", "alt": "Hooks diagram showing action-triggered context enrichment and a credential-writing guardrail before tool execution"},
+    {"file": "cli-versus-mcp-context.png", "alt": "CLI versus MCP diagram contrasting always-loaded tool schemas with recursive on-demand command discovery"},
+    {"file": "kv-cache-prefix-caching.png", "alt": "KV-cache diagram showing reusable prompt prefixes, nondeterministic tool-response misses, and deterministic response normalization"},
+    {"file": "compaction-and-subagents.png", "alt": "Compaction and subagent diagram comparing sequential context summarization with parallel delegated fresh context windows"}
+  ]
+}

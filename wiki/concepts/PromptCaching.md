@@ -4,7 +4,8 @@ type: concept
 tags: [ai, llm, caching, inference]
 sources:
   - ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache
-last_updated: 2026-09-12
+  - context-engineering-from-the-inside-out
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,6 +17,8 @@ The source presents prompt caching as both an infrastructure optimization and a 
 
 [[ClaudeCode]] is the main case study. It improves cache reuse by keeping cache-covered structures stable and moving some changing control information into appended messages. Its private microcompact path extends this idea: large, low-value tool results can be assigned `cache_reference` names, then later `cache_edits` can delete those references from the provider-side cached view. The local conversation is not rewritten; instead, request serialization sends a persistent edit script that changes the effective cached prefix while preserving stable surrounding content.
 
+The newer source broadens the design surface from one provider's cache controls to the whole agent trajectory. Tool definitions are part of the prefix, so adding, removing, or reordering tools can invalidate reuse. Across repeated workflows, nondeterministic tool fields such as timestamps, UUIDs, unstable result ordering, and irrelevant changing metadata can also prevent otherwise similar prefixes from matching. This makes response normalization a cache concern as well as a context-quality concern.
+
 ## Key Claims
 - Prompt-cache keys are shaped by stable request content rather than by a separate application-provided key.
 - Cache breakpoints let a client choose which prompt prefix or segment should be cacheable.
@@ -23,6 +26,7 @@ The source presents prompt caching as both an infrastructure optimization and a 
 - Claude Code's microcompact mechanism treats selected large tool results as logically deletable from the provider-side cached view.
 - Replayed cache edits suggest a persistent "cached prefix plus edit script" model rather than a permanently rewritten cache object.
 - Prompt caching links context-management quality with inference cost, latency, and routing concerns.
+- Stable tool catalogs and deterministic tool-result serialization can increase reuse across repeated sessions, while compaction deliberately accepts a one-time prefix reset.
 
 ## Evidence
 - Cache-key shape: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] infers that Anthropic cache matching covers system, tools, model, message prefix, thinking config, and beta headers.
@@ -30,12 +34,16 @@ The source presents prompt caching as both an infrastructure optimization and a 
 - Stability tactics: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] says Claude Code preserves tool definitions and appends system-reminder messages when tool availability changes.
 - Microcompact semantics: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] describes `cache_reference` and `cache_edits` as a logical deletion mechanism for old tool results.
 - Edit replay: [[ru-he-xiang-claude-code-yi-yang-shi-yong-si-you-api-guan-li-prompt-cache]] argues that pinned cache edits being resent in later requests points to a stable request shape containing the edit script.
+- Tool-schema stability: [[context-engineering-from-the-inside-out]] notes that complete tool schemas occupy the system prefix and that changing their membership or order forces prefix recomputation.
+- Deterministic responses: [[context-engineering-from-the-inside-out]] recommends stripping irrelevant timestamps and UUIDs, sorting by stable keys, and removing changing metadata where repeated workflows can otherwise share prefixes.
+- Compaction trade-off: [[context-engineering-from-the-inside-out]] says reactive compaction causes a one-time cache miss when the summary becomes a new prefix, after which that prefix can remain stable again.
 
 ## Counterevidence & Qualifications
-The source is based on code reading and inference about private provider behavior, not official public API documentation for the private cache-edit fields. It explicitly treats some serving-side consequences, such as whether freed KV blocks must be recomputed later, as uncertain.
+The sources combine code reading, inference about private provider behavior, and a practitioner design essay rather than controlled serving benchmarks. Private cache-edit fields are not documented public API, and the claimed cross-session benefit of deterministic tool results depends on provider caching scope, retention, routing, and exact serialization. Within one append-only conversation, a new tool result extends rather than invalidates the preceding prefix.
 
 ## What Changed
-- Created the concept page for prompt caching as a bridge between context management, Claude Code behavior, and inference-serving cost.
+- Added tool-schema stability and deterministic tool-result serialization as cross-request cache-design concerns.
+- Clarified that compaction trades a one-time prefix reset for a new stable cacheable trajectory.
 
 ## Related Concepts
 - [[LLMContextManagement]] - prompt caching rewards stable organization of instructions, tools, and history.

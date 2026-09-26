@@ -7,7 +7,8 @@ sources:
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
   - lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai
-last_updated: 2026-09-23
+  - context-engineering-from-the-inside-out
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,13 +24,15 @@ The newest source reframes Skills as a distribution format rather than only a pr
 
 In OpenClaw's operational model, a Moltbook Skill is not only explanatory prose: the main file records endpoints, authentication boundaries, request templates, response shapes, rate limits, and refusal conditions, while companion heartbeat and messaging files shape recurring participation and notification behavior. This supports the folder-as-distribution framing but also exposes its safety boundary: natural-language restrictions remain probabilistic unless the runtime independently scopes credentials, hosts, tools, and sensitive actions.
 
+The newest source explains why on-demand loading matters inside the prompt. Only skill names and selection descriptions need remain in the always-on index; the full procedure enters context after the current task makes it relevant. This protects limited effective attention from unrelated workflows and puts the selected instructions near the current generation. It also distinguishes skills from hooks: the model selects a skill by task relevance, while the runtime triggers a hook around a particular action.
+
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
 - Skill-following depends on the model's respect for context and remains probabilistic, and over-constraining behavior can make reasoning less flexible.
 - Skills guide reasoning rather than enforce execution; the execution channel can be a separate tool, or a script, binary, or library that travels inside the skill folder.
 - Skills remain useful when a task is too open-ended, low-interaction, or expensive to encode as a dedicated server API.
 - Skills can encode more than linear SOPs; exploration and brainstorming skills may be valuable precisely because they prompt multi-dimensional analysis.
-- Skills work best when separated from rules and specs instead of becoming a large undifferentiated prompt file.
+- Skills work best when separated from rules and specs: a lightweight always-on index plus on-demand full instructions protects context capacity and instruction salience better than one undifferentiated prompt file.
 - A skill can ship as a self-contained folder with instructions, examples, scripts, metadata, safety rules, and recurring-work conventions when the client agent already supplies the runtime.
 
 ## Evidence
@@ -48,14 +51,15 @@ In OpenClaw's operational model, a Moltbook Skill is not only explanatory prose:
 - Package-manager metaphor: [[yan-li-how-llm-agents-became-what-they-look-like-in-2026]] imagines an OS distro installing a program and its agent skill in one command.
 - Operational contract: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] describes a Moltbook Skill containing API endpoints, authentication and domain restrictions, request examples, result formats, and rate limits.
 - Recurring behavior: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] adds heartbeat and messaging files that turn one-off tool knowledge into scheduled participation and notification policy.
+- On-demand trajectory: [[context-engineering-from-the-inside-out]] shows an always-loaded index of skill names, descriptions, and locations followed by a model-selected read that brings only the relevant skill into the active trajectory.
+- Trigger distinction: [[context-engineering-from-the-inside-out]] contrasts task-selected skills with action-triggered hooks that inject safeguards immediately before or after matching tool calls.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, or combined with tools. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written domain and key restrictions are useful instructions but are not enforcement boundaries against prompt injection or model noncompliance.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, or combined with tools. Selection can fail when metadata is weak or the model does not recognize relevance. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written domain and key restrictions are useful instructions but are not enforcement boundaries against prompt injection or model noncompliance.
 
 ## What Changed
-- Added the rule/spec/skill loading distinction and the claim that focused on-demand skills improve instruction signal-to-noise.
-- Added the file-based distribution framing: dynamic prompt injection, self-contained folders, packaged executables and libraries, and the adoption comparison against MCP.
-- Added the Moltbook operational example: API and safety instructions plus companion heartbeat and messaging conventions, qualified by the need for runtime enforcement.
+- Added the lightweight-index/full-file trajectory as the mechanism behind on-demand skill loading.
+- Distinguished model-selected skills from runtime-triggered hooks by when and why context is injected.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.

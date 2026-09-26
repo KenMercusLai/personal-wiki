@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-26
-as_of_overview_commit: 9e64df22e5716838a33a4864d6722c1669af68ae
-input_digest: a3574e2206cddc467a28c0b77dfcb0c23696d9ab12eb5b858277ae847dd2ba7d
+as_of_overview_commit: da3fc1229a0cd12c318c4d7be13c5e592d74936d
+input_digest: 49273b71766521ae3ca8dc70e4c96cde6addcdadf8908986f80d4afcc5bf062e
 ---
 
 # AI and Technology
@@ -155,9 +155,9 @@ Effective coding-agent systems depend on simple, debuggable harnesses: inspectab
 
 ### Context And Retrieval Are Design Surfaces
 
-Context and retrieval are design surfaces, not background plumbing: Skills, MCP, RAG, memory, prompt caching, dynamic compression, interface-delivered diagnostics, instruction files, live code search, and live HTML retrieval all shape what a model can use or misuse. [[TapeAndAnchors]] adds immutable entries, anchors, selectable views, and handoff, while [[AgentTopicLifecycle]] shows how explicit range boundaries, summaries, hooks, and index-backed replay can make business topics and recall auditable without replacing original history. [[PersonalKnowledgeManagement]] and [[InformationOverload]] add the human boundary that better capture, linkage, and retrieval do not by themselves demonstrate better reasoning when interpretation remains the bottleneck.
+Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
 
-**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]], [[TapeAndAnchors]], [[AgentTopicLifecycle]], [[AgentMemory]], [[PersonalKnowledgeManagement]], [[InformationOverload]]
+**Evidence:** [[LLMContextManagement]], [[RetrievalAugmentedGeneration]], [[AgenticRAG]], [[PromptCaching]], [[DynamicContextCompression]], [[AgentInterfaceAsContext]], [[AIGuidedWebScraping]], [[ContextCoding]], [[CodingAgentMinimalTooling]], [[TapeAndAnchors]], [[AgentTopicLifecycle]], [[AgentMemory]], [[PersonalKnowledgeManagement]], [[InformationOverload]], [[LLMToolingSkills]], [[ModelContextProtocol]], [[BashAsMetaTool]]
 
 **Qualifications:**
 
@@ -165,6 +165,7 @@ Context and retrieval are design surfaces, not background plumbing: Skills, MCP,
 - For live codebases and browser pages, current search, semantic retrieval, and structured environment access should be evaluated as complementary signals rather than as an absolute RAG-versus-grep or vision-versus-DOM choice.
 - The note-taking evidence is a subscription-truncated practitioner column: it establishes a useful distinction between storage or retrieval capability and cognitive outcomes, but does not measure reasoning improvement or resolve whether generative AI closes that gap.
 - The Tape topic lifecycle is a practitioner design proposal rather than a benchmarked implementation; concurrency, topic-boundary detection, correction, privacy, access control, deletion, recall quality, and hook reliability remain unresolved.
+- The context-engineering tagging case is self-reported without a published dataset size, evaluation protocol, uncertainty estimate, or independent replication; its thinking-token and cross-session cache claims also depend on runtime and provider behavior.
 
 ### Persona Simulation Fits Traces Not Generators
 

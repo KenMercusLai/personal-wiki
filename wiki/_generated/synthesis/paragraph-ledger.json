@@ -431,12 +431,13 @@
       "855f0e686bb95cf5f254e7857e21fa34c2e30292736b221c2ba0133479d78870",
       "dab33ffc07346011bca5fc51b0a72b48810fd9029d0bac9c12bc82b4a2c3f7fb",
       "32a3720cb510cf1b579437cbedc539cec638d6c7262dd20370c326c1b4be8afa",
-      "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2"
+      "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
+      "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb"
     ],
-    "paragraph_count": 431
+    "paragraph_count": 432
   },
-  "overview_commit": "6834fb17d95571f61d442f2d70332301856be64b",
-  "overview_digest": "b4f5e38ed318a1915579df9896eaad6a6acc1dc5a2eee0abc67236f3a46c6296",
+  "overview_commit": "da3fc1229a0cd12c318c4d7be13c5e592d74936d",
+  "overview_digest": "4419582048c9f280369c6fa1bc8c13b505779de2b8db59178731f66b89544c04",
   "paragraphs": [
     {
       "id": "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
@@ -8736,6 +8737,22 @@
         "ImposterSyndrome",
         "JoshPigford",
         "SoloFounding"
+      ]
+    },
+    {
+      "id": "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest context-engineering source unifies several agent mechanisms through two coupled constraints: effective model attention and reusable prompt prefixes. [[LLMContextManagement]] now distinguishes concise always-on project rules, model-selected [[LLMToolingSkills]], action-triggered hooks, and fresh windows created through compaction or subagents; the last two both lose information at the handoff boundary. [[PromptCaching]] gains a trajectory-level concern because tool catalogs occupy the system prefix and nondeterministic timestamps, UUIDs, ordering, or metadata can prevent otherwise repeated workflows from sharing cached prefixes. [[ModelContextProtocol]] is therefore qualified by schema breadth: focused structured integrations retain value, but a large always-loaded tool catalog can consume attention and destabilize cache reuse, while [[BashAsMetaTool]] exposes CLI branches recursively through `--help`. The enterprise tagging case reports improvement from roughly 60% to 95-100% after workflow decomposition, on-demand patterns, and triggered hints, but supplies no dataset size, evaluation protocol, uncertainty, or independent replication; its stronger model, schema-shortening, and custom-training failures are likewise project-local observations. All eight local diagrams were inspected and retained at their semantic positions with descriptive canonical filenames.",
+      "topic_scores": {
+        "ai-and-technology": 2
+      },
+      "wikilinks": [
+        "BashAsMetaTool",
+        "LLMContextManagement",
+        "LLMToolingSkills",
+        "ModelContextProtocol",
+        "PromptCaching"
       ]
     }
   ],
