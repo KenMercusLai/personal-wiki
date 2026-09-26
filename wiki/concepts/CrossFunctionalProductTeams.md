@@ -5,6 +5,7 @@ tags: [product-management, engineering, design, collaboration]
 sources:
   - 10x-ing-your-team-the-end-of-superstar-developer-culture
   - consensus-vs-collaboration-silicon-valley-product-group
+  - customer-inspired-technology-enabled-silicon-valley-product-group
 last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
@@ -19,6 +20,8 @@ Division of labor does not require heavy bureaucracy. The source argues for the 
 
 SVPG adds that communication alone is insufficient when roles disagree. The product manager, lead designer, and lead engineer should argue openly and seek agreement, but each retains authority in a domain. When a trade-off crosses those domains and agreement fails, an explicit final decision owner prevents collaboration from turning into consensus delay or senior-management escalation.
 
+The technology-enabled innovation source moves engineering involvement earlier than implementation. Engineers receive vision, strategy, analytics, commercial and legal constraints, and direct customer pain; they then prototype and test possible solutions during discovery. Product management still integrates customer, business, data, and company context, but translates demands into constraints rather than handing over predetermined requirements. Whole-team outcome measures reinforce that discovery and delivery are shared work.
+
 ## Key Claims
 - Product teams need explicit ownership of design, engineering, and product-management work.
 - Role assignment is incomplete without a communication design connecting the roles.
@@ -26,6 +29,7 @@ SVPG adds that communication alone is insufficient when roles disagree. The prod
 - Strong specialists who do not communicate can still create slow, inefficient product iteration.
 - Process should remain lightweight while preserving functional division of labor and shared direction.
 - Cross-functional participation should be broad, while explicit domain and final-call authority prevents every participant from acquiring veto power.
+- Engineers contribute product judgment when they have customer and business context, discovery time, and shared outcome accountability.
 
 ## Evidence
 - Three-role frame: [[10x-ing-your-team-the-end-of-superstar-developer-culture]] identifies design, engineering, and product management as the core product-team responsibilities.
@@ -35,13 +39,15 @@ SVPG adds that communication alone is insufficient when roles disagree. The prod
 - Lightweight process: [[10x-ing-your-team-the-end-of-superstar-developer-culture]] recommends processes that are as light as possible while sustaining communication and division of labor.
 - Collaboration boundary: [[consensus-vs-collaboration-silicon-valley-product-group]] says close cross-functional work includes passionate disagreement and negotiation but does not require unanimity.
 - Decision ownership: [[consensus-vs-collaboration-silicon-valley-product-group]] assigns domain authority across the product trio and gives the product manager unresolved cross-domain calls.
+- Engineering in discovery: [[customer-inspired-technology-enabled-silicon-valley-product-group]] recommends direct exposure to customer pain, business context, constraints rather than fixed requirements, prototype time, and whole-team measures.
 
 ## Counterevidence & Qualifications
-The three-role model is a compact practitioner heuristic, not a universal staffing template. Research, data, marketing, sales, support, operations, security, legal, accessibility, or domain specialists may be essential depending on the product. One person may also cover multiple responsibilities in a very small team, provided the work and context are not silently omitted. SVPG's product-manager final-call rule is likewise contextual: regulated or high-risk decisions may assign binding authority elsewhere, and consultation without real influence can become theater.
+The three-role model is a compact practitioner heuristic, not a universal staffing template. Research, data, marketing, sales, support, operations, security, legal, accessibility, or domain specialists may be essential depending on the product. One person may also cover multiple responsibilities in a very small team, provided the work and context are not silently omitted. SVPG's product-manager final-call rule is likewise contextual: regulated or high-risk decisions may assign binding authority elsewhere, and consultation without real influence can become theater. Engineer participation is not automatically customer insight: technically novel ideas still need design judgment, representative testing, feasibility work, and market evidence.
 
 ## What Changed
 - Created the concept from Thompson's three-role ownership and communication framework.
 - Added explicit domain and final-call authority as the mechanism that separates collaboration from consensus.
+- Added business context, direct customer exposure, constraint translation, discovery time, and shared outcomes as conditions for engineering product contribution.
 
 ## Related Concepts
 - [[ProductManagement]] - supplies product direction, customer context, and business integration within the team.
@@ -50,3 +56,4 @@ The three-role model is a compact practitioner heuristic, not a universal staffi
 - [[WorkplaceCollaboration]] - specialists need useful interaction rather than isolated functional excellence.
 - [[TeamProductivity]] - collective output depends on cross-functional direction as well as implementation speed.
 - [[EngineeringLedOrganizationDesign]] - team roles and communication are part of intentional organizational design.
+- [[TechnologyEnabledProductInnovation]] - explains why engineering belongs in product discovery as well as delivery.

@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-26] ingest | Customer Inspired; Technology Enabled
+
+Added SVPG's model of customer-inspired, technology-enabled innovation: customer pain and behavior define the problem while engineering insight, prototypes, enabling technologies, and explicit constraints expand the solution space. Created [[TechnologyEnabledProductInnovation]]; updated [[ProductManagement]], [[CrossFunctionalProductTeams]], [[PrototypeFirstProductDiscovery]], [[MartyCagan]], and [[SiliconValleyProductGroup]] from their complete ordered source inventories. Preserved the limits of retrospective success cases and the continuing need for design, customer evidence, leadership, capital, infrastructure, timing, and delivery quality. The source Markdown contains no image references, so no asset manifest was required.
+
 ## [2026-09-26] ingest | Cryptocurrency mining affects over 500 million people. And they have no idea it is happening.
 
 Added AdGuard's October 2017 scan of the Alexa top 100,000 sites for CoinHive and JSEcoin, preserving the distinction between 220 detected home pages, their estimated aggregate audience of 500 million, and confirmed individual mining exposure. Created [[AdGuard]], [[CoinHive]], and [[BrowserCryptomining]]; updated [[Cloudflare]] from its complete ordered source inventory with infrastructure-level enforcement against mining without permission. Treated the more-than-US$43,000 three-week revenue estimate and consent-based advertising-alternative thesis as historical, company-authored claims without session telemetry, device-impact measurements, or longitudinal outcomes. The sole remote lead image now returns HTTP 404 and could not be opened or interpreted, so no visual asset or manifest was created.
@@ -4374,6 +4378,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] ingest | Curiosity is Better Than Knowledge
 
 Added an unnamed author's 2017 argument that compelling questions can drive observation, cross-role inquiry, rapid learning, construction, and market feedback before complete knowledge is available. Created [[CuriosityDrivenAction]] and [[Praxis]], and updated [[LearnDrive]] from its complete ordered source inventory. Preserved the central qualifications that the essay is anecdotal, its knowledge-versus-curiosity slogan conflicts with evidence that knowledge improves valuation and question quality, and its categorical claims about academics and formal schooling do not establish general effects. Opened all three local images and omitted them as duplicate or thumbnail versions of the same decorative cat-at-window photograph, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-26] lint | Wiki health check
 

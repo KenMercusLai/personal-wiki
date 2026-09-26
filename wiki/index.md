@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [Customer Inspired; Technology Enabled](sources/customer-inspired-technology-enabled-silicon-valley-product-group.md) - SVPG argues that customer pain should inspire the problem while engineers use enabling technology, prototypes, business context, and constraints to discover solutions customers could not specify.
 - [Curiosity is Better Than Knowledge](sources/curiosity-is-better-than-knowledge-mission-org-medium.md) - A motivational essay argues that questions drive experiments, cross-role learning, and market feedback while qualifying its sharp opposition between curiosity, knowledge, and formal schooling.
 - [Cryptocurrency mining affects over 500 million people. And they have no idea it is happening.](sources/cryptocurrency-mining-affects-over-500-million-people-and-they-have-no-idea-it-is-happening.md) - AdGuard's 2017 scan found browser-mining code on 220 of 100,000 high-traffic sites and argues that disclosure, permission, and opt-out separate consensual monetization from abuse.
 - [Making sense of MVP (Minimum Viable Product) - and why I prefer Earliest Testable/Usable/Lovable](sources/crisps-blog-making-sense-of-mvp-minimum-viable-product-and-why-i-prefer-earliest-testable-usable-lovable.md) - Henrik Kniberg separates feedback-producing, voluntarily usable, and lovable releases while arguing for coherent customer outcomes and early real-user learning.
@@ -1617,6 +1618,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 
+- [Technology-Enabled Product Innovation](concepts/TechnologyEnabledProductInnovation.md) - Product discovery that combines observed customer problems with engineering knowledge of newly practical technical possibilities.
 - [Curiosity-Driven Action](concepts/CuriosityDrivenAction.md) - Turning unresolved questions into observation, experiments, construction, and feedback before complete knowledge is available.
 - [Browser Cryptomining](concepts/BrowserCryptomining.md) - Website monetization through visitor CPU work, distinguished from abuse by disclosure, affirmative choice, and revocable consent.
 - [Earliest Testable, Usable, and Lovable Product](concepts/EarliestTestableUsableLovable.md) - Three-threshold vocabulary separating feedback, voluntary use, and customer affection in early product releases.

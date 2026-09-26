@@ -6,6 +6,7 @@ sources:
   - behind-every-great-product-silicon-valley-product-group
   - ceo-of-the-product-revisited-silicon-valley-product-group
   - consensus-vs-collaboration-silicon-valley-product-group
+  - customer-inspired-technology-enabled-silicon-valley-product-group
 last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
@@ -20,14 +21,16 @@ SVPG's product doctrine in these sources is simultaneously ambitious and anti-hi
 
 Its culture doctrine likewise separates participation from approval. Product companies should invite relevant information, make people feel heard, and expect product, design, and engineering to debate trade-offs closely. They should not require unanimity: explicit domain authority and accountable final calls are presented as safeguards against slow, risk-averse design by committee.
 
+The technology-enabled innovation essay adds an engineering-discovery doctrine. Customer pain inspires the problem, but teams should expose engineers to full business context and let technical insight, prototypes, and enabling technologies shape solutions customers could not request in advance. Requirements are reframed as constraints, and engineering discovery time plus whole-team measures keep product work from collapsing into backlog delivery.
+
 ## Key Characteristics
 - Publishes and teaches product-management ideas for technology product teams.
 - Founded by Marty Cagan after his eBay experience.
 - Frames product management as essential and still widely misunderstood.
-- Uses real product case studies to explain the product-manager contribution.
 - Treats title as less important than the product work being performed.
 - Defends CEO-like product accountability while rejecting boss-like PM behavior.
 - Distinguishes inclusive collaboration from consensus, universal veto power, and routine executive escalation.
+- Treats engineers as product-discovery partners whose technical insight needs customer and business context.
 
 ## Evidence
 - Founding context: [[behind-every-great-product-silicon-valley-product-group]] says Cagan started SVPG after leaving eBay.
@@ -38,14 +41,16 @@ Its culture doctrine likewise separates participation from approval. Product com
 - Training emphasis: [[ceo-of-the-product-revisited-silicon-valley-product-group]] says many product managers have little real training, making the fuller role scope worth teaching directly.
 - Culture distinction: [[consensus-vs-collaboration-silicon-valley-product-group]] argues that people should contribute information and feel heard without requiring everyone to approve a decision.
 - Decision doctrine: [[consensus-vs-collaboration-silicon-valley-product-group]] recommends domain authority within the product trio and product-manager accountability for unresolved cross-domain trade-offs.
+- Engineering-discovery doctrine: [[customer-inspired-technology-enabled-silicon-valley-product-group]] recommends customer exposure, context sharing, constraint translation, prototyping time, and shared outcome measurement.
 
 ## Qualifications
-The sources are SVPG doctrine and case-study storytelling rather than an independent profile of the organization. They provide no comparative evidence that product-manager final-call authority is universally superior, and regulated or high-risk work may assign binding decisions to other roles.
+The sources are SVPG doctrine and case-study storytelling rather than an independent profile of the organization. They provide no comparative evidence that product-manager final-call authority is universally superior or that engineering participation alone caused the cited innovations; regulated or high-risk work may also assign binding decisions to other roles.
 
 ## What Changed
 - Created SVPG as the publication and advisory context for the product-management source.
 - Added SVPG's qualified defense of CEO-like product-manager accountability.
 - Added SVPG's distinction between inclusive collaboration and consensus-based decision rights.
+- Added SVPG's customer-inspired, engineering-enabled product-discovery model.
 
 ## Relationships
 - [[MartyCagan]] - founder and author of the source.
@@ -54,3 +59,4 @@ The sources are SVPG doctrine and case-study storytelling rather than an indepen
 - [[ProductManagerAsCEO]] - metaphor SVPG uses to explain PM breadth while rejecting formal authority.
 - [[WorkplaceCollaboration]] - culture practice SVPG separates from unanimous approval.
 - [[CrossFunctionalProductTeams]] - product, design, and engineering setting for SVPG's role and decision-right guidance.
+- [[TechnologyEnabledProductInnovation]] - innovation model connecting customer pain with engineering knowledge of what has become possible.

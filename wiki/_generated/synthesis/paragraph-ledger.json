@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "ab515fb7f16efce5a57397129191a3256c14b8bbb22cc18b818880f56d0c06d8",
       "7bed67ffd116b0d75e392b5cb1ee4c282fcdf8162462000e7529144fae69028f",
       "53d5bc5f39c71646cb81abf85e9b89f236cef8e58d12b8ea21ee9c568618f319",
       "def06bdfe5f7f286f83b8c2fb72f32925b427b1484526bd58a82e62da7fd5828",
@@ -447,11 +448,31 @@
       "711cfcb37591417c1eef691e40b1a261fa080e68739ee4486b93071b5e089821",
       "40baf9fea60ec737044a812a5958ad3fd4be0c0d503b6b6685005d7ce81666f7"
     ],
-    "paragraph_count": 445
+    "paragraph_count": 446
   },
-  "overview_commit": "5e9009ed64115dd04d864f3c7d140c8b4d6ece2d",
-  "overview_digest": "bb5b591611f9406083492f0284443e875b6e344e2aad7973d8dd24c8013e1b15",
+  "overview_commit": "46cf299add74ec64856af483f86bb38d999b4337",
+  "overview_digest": "7a831f7d07f7572262182fdf4f6e082edb6971a8b3011eb3a095803131a28841",
   "paragraphs": [
+    {
+      "id": "ab515fb7f16efce5a57397129191a3256c14b8bbb22cc18b818880f56d0c06d8",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[SiliconValleyProductGroup]] source adds [[TechnologyEnabledProductInnovation]] as a product-discovery model that separates problem evidence from solution specification. Customers expose pain, behavior, comprehension, and willingness to buy, while engineers can recognize newly practical technical capabilities and make an unfamiliar solution concrete through prototypes. The operating consequence is deeper than inviting engineering feedback: [[ProductManagement]] shares vision, strategy, analytics, commercial and legal context, translates demands into constraints rather than fixed requirements, gives engineers time with customers and prototypes, and measures the [[CrossFunctionalProductTeams|cross-functional product team]] against shared outcomes. The Alexa, MagicBand, Google Translate, iPhone, and Workiva cases illustrate the model, but they are retrospective success narratives rather than controlled comparisons; leadership, design, capital, infrastructure, timing, distribution, and implementation remain alternative contributors, and technically novel ideas still require representative customer evidence.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CrossFunctionalProductTeams",
+        "ProductManagement",
+        "SiliconValleyProductGroup",
+        "TechnologyEnabledProductInnovation"
+      ]
+    },
     {
       "id": "7bed67ffd116b0d75e392b5cb1ee4c282fcdf8162462000e7529144fae69028f",
       "primary_topic": "ai-and-technology",
