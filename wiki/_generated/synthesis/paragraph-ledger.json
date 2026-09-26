@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "cde06dd9a968c1ffed726ce9aa89fef3ca53be926b0dcc13c76e8a949b237e36",
       "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
       "19b267be8a5c23968286c09cc0d944396bf9edd87fbb9f184f3b2da77a5f0c9b",
       "a0eb32e05d182a6463f4f725a67e430371b09f63ac8f5ab6544ffd364759f153",
@@ -434,11 +435,30 @@
       "670cc323e72bc1b452c7f1ff18b5d3dab68b46e4f8d1ca2ef436db12d4e2c3a2",
       "fd54563d6e43e4c60a96254c6cfc746198ec582f8f9e47a50eff2a46f725dabb"
     ],
-    "paragraph_count": 432
+    "paragraph_count": 433
   },
-  "overview_commit": "da3fc1229a0cd12c318c4d7be13c5e592d74936d",
-  "overview_digest": "4419582048c9f280369c6fa1bc8c13b505779de2b8db59178731f66b89544c04",
+  "overview_commit": "96707ccd061de06b23a769659d4ebc2fc2912140",
+  "overview_digest": "5ec78458a0c7b6473349f40aff91356b3c1b2c47b8309ffbe5cba51fddbfa2f4",
   "paragraphs": [
+    {
+      "id": "cde06dd9a968c1ffed726ce9aa89fef3ca53be926b0dcc13c76e8a949b237e36",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[AlbertWenger]] source adds a two-sided incentive account to [[WebAdEconomics]] and broadens [[SubscriptionSurplusAlignment]] beyond packaged-software pricing. Wenger argues that abundant online publishing fragmented attention and depressed ad prices, pushing ad-funded platforms toward reach and detailed targeting; this can conflict with users, while the platform's need to remain an intermediary can also conflict with advertisers seeking durable direct customer relationships. Consumer subscriptions are offered as the alternative: renewal makes continuing customer value necessary, and a fixed recurring payment lets users sample more of a service without marginal charges. [[UnionSquareVentures]] enters as the investment context for this “trusted brands” thesis, with 2018 examples spanning media, music, health, education, finance, and publishing, including hybrid free/ad-supported and paid/ad-free tiers. The argument remains a historically situated investor essay rather than a comparative study: it provides no price, conversion, churn, profitability, affordability, underuse, or cancellation evidence, and does not establish that subscriptions eliminate business-model conflict. The sole local image was opened and omitted as a decorative author portrait.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 6,
+        "culture-and-media": 2,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlbertWenger",
+        "SubscriptionSurplusAlignment",
+        "UnionSquareVentures",
+        "WebAdEconomics"
+      ]
+    },
     {
       "id": "0eb3b9b5f659dbeb5743852e7c6652ce0d854634c5e0fa0225fc03ed7a2a67d8",
       "primary_topic": "business-and-markets",

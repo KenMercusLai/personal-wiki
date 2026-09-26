@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 
+- [From Advertising to Subscriptions and the Evolution of the USV Investment Thesis](sources/continuations-by-albert-wenger-from-advertising-to-subscriptions-and-the.md) - Albert Wenger argues that ad platforms face conflicts with users and advertisers, while consumer subscriptions can align renewal revenue with continuing customer value.
 - [Context Engineering from the Inside Out](sources/context-engineering-from-the-inside-out.md) - A practitioner framework for curating effective agent context and stable cacheable prefixes through project instructions, skills, hooks, CLI discovery, deterministic tool results, compaction, and subagents.
 - [Content is Eating the World - Contently's CEO on Winning at Marketing's New Hotness](sources/content-is-eating-the-world-contentlys-ceo-on-winning-at-marketings-new-hotness-first-round-review.md) - Joe Coleman frames content as an audience product built through research, cadence, differentiation, deliberate distribution, quality, engagement measurement, and controlled iteration.
 - [Content Marketing Strategy for Multi-Product Companies](sources/content-marketing-strategy-for-multi-product-companies.md) - A practitioner framework maps products or audiences against funnel stages to audit and prioritize multi-product content coverage.
@@ -534,6 +535,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Entities
 
+- [Albert Wenger](entities/AlbertWenger.md) - Investor-author connecting USV's trusted-brand thesis to advertising conflicts and consumer-subscription incentives.
 - [Joe Coleman](entities/JoeColeman.md) - Contently CEO represented through a nine-part operating framework for startup content marketing.
 - [Contently](entities/Contently.md) - Content-marketing company using The Content Strategist as an owned-publication and measurement case.
 - [LiveRamp](entities/LiveRamp.md) - Source-bounded 2019 profile of a people-data middleware company in Auren Hoffman’s DaaS account.
@@ -1237,7 +1239,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, and startup metrics checklists.
 - [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing to concentrated attention and using USV's portfolio experience to analyze early-stage valuation inflation.
 - [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing frameworks and venture-market analysis.
-- [Union Square Ventures](entities/UnionSquareVentures.md) - Venture firm whose 55 led or co-led early-stage investments form Wilson's valuation sample.
+- [Union Square Ventures](entities/UnionSquareVentures.md) - Early-stage venture firm represented through a valuation sample and a trusted-brand thesis favoring customer-aligned consumer subscriptions.
 - [SV Angel](entities/SVAngel.md) - Seed investor whose observation about larger rounds and higher valuations prompted Wilson's analysis.
 - [Quora](entities/Quora.md) - Company presented as an early private-company adopter of 10-year employee stock-option exercise periods, and cited as an entrant in question-and-answer.
 - [Scott Kupor](entities/ScottKupor.md) - Investor-author whose critique of 10-year option exercise windows prompts Adam D'Angelo's response.
@@ -2354,7 +2356,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Discounting](concepts/SaaSDiscounting.md) - Subscription-software price reductions that can aid conversion while damaging perceived value, retention, and unit economics.
 - [SaaS Marketing](concepts/SaaSMarketing.md) - Practical customer-acquisition and trust-building work for subscription software products.
 - [SaaS Pricing](concepts/SaaSPricing.md) - Strategic subscription pricing choices around value, discounts, incentives, and retention economics.
-- [Subscription Surplus Alignment](concepts/SubscriptionSurplusAlignment.md) - Pricing pattern where recurring payments better track growing user value than a one-time software purchase.
+- [Subscription Surplus Alignment](concepts/SubscriptionSurplusAlignment.md) - Recurring-pricing pattern tying revenue to renewal value while reducing upfront and per-use friction.
 - [Social Proof](concepts/SocialProof.md) - Visitor inference from visible approval, absence, relevance, or mismatch around a product, page, or creator.
 - [Semantic Search](concepts/SemanticSearch.md) - Retrieval by similarity of meaning rather than exact keyword overlap, commonly using vector representations.
 - [Semantic Isolation](concepts/SemanticIsolation.md) - Isolation of capabilities, credentials, tool-call meanings, and side effects rather than only code or processes.

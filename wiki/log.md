@@ -4222,3 +4222,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-26] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-26] ingest | From Advertising to Subscriptions and the Evolution of the USV Investment Thesis
+
+Added Albert Wenger's 2018 argument that online-advertising economics push platforms toward reach and targeting, creating conflicts with users and with advertisers that could otherwise build durable direct customer relationships. Created [[AlbertWenger]]; updated [[UnionSquareVentures]], [[WebAdEconomics]], and [[SubscriptionSurplusAlignment]] from their complete ordered source inventories with trusted-brand incentives, renewal-dependent value, use without marginal charges, cross-category consumer examples, and hybrid free/ad-supported and paid/ad-free tiers. Preserved the source's investor-essay scope and the absence of comparative price, conversion, churn, profitability, affordability, underuse, or cancellation evidence. Opened the sole local image and omitted the author portrait as decorative, so no visual asset or manifest was created.
+
+## [2026-09-26] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
