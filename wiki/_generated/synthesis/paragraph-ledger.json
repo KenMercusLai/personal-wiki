@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "58dd17cbadcaa9972f48c72a400a95e1622c2d2980c1474ee9731eb9fafafe2f",
       "e3340fbe40ccac78a3141f707058162d20ebca092f44b42c1275d7be778730c7",
       "c5baaa37801f63c4a59cde615d00529418141c06f1688510b84e75ce90189d61",
       "a305fed08affd280feacfab9b11020a4a2e976f9703947029f70211648f1acd8",
@@ -502,11 +503,29 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
     ],
-    "paragraph_count": 500
+    "paragraph_count": 501
   },
-  "overview_commit": "2e3d9d833932cd92d8586f578dabffed24799150",
-  "overview_digest": "d76386136ce96b125c6c898fef13d92f0426125e083cfae38ee8aef1fc86dd42",
+  "overview_commit": "727809baf621c8efe0aa213e0b8dc93c38c00980",
+  "overview_digest": "c2485f132c8a634d4bfcf380d4fb2cb6fcb33f671706c13268f9987d93596532",
   "paragraphs": [
+    {
+      "id": "58dd17cbadcaa9972f48c72a400a95e1622c2d2980c1474ee9731eb9fafafe2f",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "culture-and-media"
+      ],
+      "text": "The newest [[EvaParish]] source adds [[EditingForClarity]] as an intent-first practice spanning academic, creative, interpersonal, and technical writing. A private preamble naming the point, audience, tone, or mood gives the draft an explicit success criterion; revision then removes words that do not change meaning, replaces ambiguous pronouns and unexplained acronyms, names responsible actors, uses specific verbs and concrete examples, stabilizes tone, and adds closure. The technical examples deepen [[DeveloperDocumentation]] because active voice can expose an incomplete system model—rewriting “an alert is triggered” forces the author to identify which service acts—while imperatives, completion checks, definitions, headings, lists, tables, emphasis, and whitespace support task completion and scanning. This also sharpens [[ExplanatoryWriting]] by treating reader knowledge and non-linear reading as design constraints. The recommendations remain practitioner heuristics rather than measured laws: passive voice can appropriately foreground an affected object, shared jargon can be efficient, repetition can become clutter, and genre, culture, accessibility, risk, and audience expectations determine whether brevity or emphasis improves comprehension. The source contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "DeveloperDocumentation",
+        "EditingForClarity",
+        "EvaParish",
+        "ExplanatoryWriting"
+      ]
+    },
     {
       "id": "e3340fbe40ccac78a3141f707058162d20ebca092f44b42c1275d7be778730c7",
       "primary_topic": "ai-and-technology",

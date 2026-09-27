@@ -5255,3 +5255,11 @@ Added [[JohnAllspaw]]'s 2016 account of Etsy's deliberately small technology set
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | What I think about when I edit
+
+Added [[EvaParish]]'s 2019 cross-genre editing framework, centered on an explicit purpose and audience, strategic repetition, concision, named actors, specific language, reader context, tonal consistency, and scan-friendly structure. Created [[EditingForClarity]] and Eva Parish, and updated [[ExplanatoryWriting]] and [[DeveloperDocumentation]] from their complete ordered evidence inventories. Preserved the source's final qualification that active voice, adverb avoidance, and other named rules are diagnostic heuristics serving the message rather than unconditional prohibitions. The source contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [What I think about when I edit](sources/eva-parish-what-i-think-about-when-i-edit.md) - Eva Parish presents intent-first, audience-aware editing through precise language, explicit agency, useful context, consistent tone, and scan-friendly structure.
 - [Etsy CTO Q&A: We Need Software Engineers, Not Developers](sources/etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack.md) - John Allspaw describes Etsy's small familiar toolset, explicit novelty costs, simple deployment, production ownership, multidisciplinary engineering, and human-centered machine-learning stance.
 - [Estimation for Fun and Profit (but mostly for sanity)](sources/estimation-for-fun-and-profit-but-mostly-for-sanity-8th-light.md) - Bjorn Johnson connects vertical user-story slices with three-scenario PERT estimates and simultaneous team input while treating schedules as uncertain judgments rather than commitments.
 - [Estimating Work: A Software Development Superpower](sources/estimating-work-a-software-development-superpower-hackernoon-com-medium.md) - A HackerNoon essay recommends phase-by-phase software estimates and review by codebase-familiar engineers while tying forecast error to cost and lost capacity.
@@ -664,6 +665,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Eva Parish](entities/EvaParish.md) - Writer and technical-documentation practitioner represented through a cross-genre, judgment-led editing philosophy.
 - [John Allspaw](entities/JohnAllspaw.md) - Etsy CTO represented through a 2016 engineering philosophy of stack restraint, production ownership, cross-domain learning, and human judgment in automation.
 - [Bjorn Johnson](entities/BjornJohnson.md) - 8th Light author connecting deliverable user-story slices with uncertainty-aware team estimation.
 - [Robert C. Martin](entities/RobertCMartin.md) - Author cited as the source of the “Flying Fingers” simultaneous estimation technique.
@@ -1875,6 +1877,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Editing for Clarity](concepts/EditingForClarity.md) - Intent-first revision that reduces ambiguity across language, reader context, tone, and visual structure.
 - [Production Ownership](concepts/ProductionOwnership.md) - Continuing responsibility for observing, operating, and improving software after the people who build it deploy it.
 - [PERT Estimation](concepts/PERTEstimation.md) - Three-scenario estimation method that makes optimistic, realistic, and pessimistic conditions, risk, and team disagreement explicit.
 - [Software Estimation](concepts/SoftwareEstimation.md) - Forecasting delivery effort through inspectable decomposition, explicit assumptions, codebase-informed review, and uncertainty-aware resource judgment.
