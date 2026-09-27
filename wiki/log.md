@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-27] ingest | Evaluating Delusional Startups
+
+Added Zach Holman's 2016 candidate-side screen for startup delusion. Created [[ZachHolman]] and [[StewartButterfield]], and updated [[StartupJobDiligence]] and [[StartupCulture]] from their complete ordered source inventories with qualified warning signals around guaranteed-riches recruiting, blame across hierarchy, contempt for colleagues, product complacency, and hatred of competitors. Preserved the distinction between necessary startup conviction and grandiosity, and between accountability and humiliation; the essay is an anecdotal practitioner argument rather than a validated predictor of company performance. The source Markdown contains no image references, so no visual asset or manifest was required.
+
 ## [2026-09-27] ingest | Entrepreneurial Careers: Beyond the Fairy Tale Narrative
 
 Added [[AdamSmith]]'s 2017 argument for planning a founder career beyond one startup or acquisition. Created [[EntrepreneurialCareerPaths]], [[AdamSmith]], [[Xobni]], and [[Kite]]; updated [[CareerPlanning]], [[FounderExitTradeoff]], and [[AcquisitionStrategy]] from their complete ordered source inventories with post-startup role choices, work-rhythm differences, acquired-founder experience, and long-term company-building intent. Preserved the central evidence limits: the model is practitioner advice, named examples are illustrative, no path frequencies or comparative outcomes are supplied, and the proposed one-third distribution is explicitly a guess. Opened both unique local images, retained the simplified fairy-tale arc and branching career map at their semantic positions, and omitted the repeated first image as a duplicate.
@@ -5259,6 +5263,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-27] ingest | What I think about when I edit
 
 Added [[EvaParish]]'s 2019 cross-genre editing framework, centered on an explicit purpose and audience, strategic repetition, concision, named actors, specific language, reader context, tonal consistency, and scan-friendly structure. Created [[EditingForClarity]] and Eva Parish, and updated [[ExplanatoryWriting]] and [[DeveloperDocumentation]] from their complete ordered evidence inventories. Preserved the source's final qualification that active voice, adverb avoidance, and other named rules are diagnostic heuristics serving the message rather than unconditional prohibitions. The source contains no effective image references, so no visual asset or manifest was required.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-27] lint | Wiki health check
 

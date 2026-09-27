@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "96821f5efcc97b5ce5661e2703418da9699f00f822c342bf6b7ec45d128e3108",
       "58dd17cbadcaa9972f48c72a400a95e1622c2d2980c1474ee9731eb9fafafe2f",
       "e3340fbe40ccac78a3141f707058162d20ebca092f44b42c1275d7be778730c7",
       "c5baaa37801f63c4a59cde615d00529418141c06f1688510b84e75ce90189d61",
@@ -503,11 +504,33 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
     ],
-    "paragraph_count": 501
+    "paragraph_count": 502
   },
-  "overview_commit": "727809baf621c8efe0aa213e0b8dc93c38c00980",
-  "overview_digest": "c2485f132c8a634d4bfcf380d4fb2cb6fcb33f671706c13268f9987d93596532",
+  "overview_commit": "04e02a6469b900a5ad0be17a44bc5f5f13e48397",
+  "overview_digest": "76a0bf6144a707259d69fd9fe5c113751635fea774b54170050dc96ab273cb81",
   "paragraphs": [
+    {
+      "id": "96821f5efcc97b5ce5661e2703418da9699f00f822c342bf6b7ec45d128e3108",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[ZachHolman]] source extends [[StartupJobDiligence]] from financing, product logic, and personal fit into observable interview behavior. Assured promises that stock will make a hire rich obscure [[EmployeeEquityRisk]]; missed commitments followed by excuses, public blame across hierarchy, contempt for coworkers, satisfaction with an aging product, and unqualified hatred of competitors can expose how a company handles uncertainty, mistakes, learning, and differentiation. [[StartupCulture]] therefore gains a boundary between accountability and blame: ambitious teams can investigate failures and demand improvement without humiliating people, while product confidence remains healthier when leaders can name deficiencies and discuss competitors' philosophies with nuance. [[StewartButterfield]] and [[Slack]] provide Holman's positive product-humility example, but the essay remains a humorous practitioner account based on a few anonymized interviews, friends' reported compensation outcomes, and one executive quotation; its signals are prompts for deeper investigation, not validated predictors of company performance or employee experience. The source Markdown contains no image references.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "EmployeeEquityRisk",
+        "Slack",
+        "StartupCulture",
+        "StartupJobDiligence",
+        "StewartButterfield",
+        "ZachHolman"
+      ]
+    },
     {
       "id": "58dd17cbadcaa9972f48c72a400a95e1622c2d2980c1474ee9731eb9fafafe2f",
       "primary_topic": "ai-and-technology",
