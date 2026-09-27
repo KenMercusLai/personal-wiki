@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Everything You Need To Know About Startup Recruitment](sources/everything-you-need-to-know-about-startup-recruitment-rocketshp.md) - ROCKETSHP connects hiring need and role design with sourcing, screening, evidence, pipeline management, onboarding, culture, and retention while exposing dated and bias-prone tactics.
 - [Evernote is what happens when you mix VC with a Notes app](sources/evernote-is-what-happens-when-you-mix-vc-with-a-notes-app.md) - A competitor-authored 2016 essay uses Evernote to argue that venture growth and exit pressure can undermine focus, reliability, privacy, and long-term note custody.
 - [Evan Spiegel’s Most Underrated Skill](sources/evan-spiegels-most-underrated-skill-product-hunt.md) - A 2017 Product Hunt essay presents Snapchat's mapping, hardware, lens, avatar, search, computer-vision, and code features as products of acquisition-led capability building.
 - [Evaluating Delusional Startups](sources/evaluating-delusional-startups.md) - Zach Holman proposes interview-stage warning signs around promised riches, blame, colleague contempt, product complacency, and hatred of competitors.
@@ -2046,7 +2047,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.
 - [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication, shared direction, early participation, and accountable decision rights.
 - [Inclusive Hiring](concepts/InclusiveHiring.md) - Early design of sourcing, transparent evidence criteria, candidate access, calibration, and team conditions for varied contributors.
-- [Hiring System Design](concepts/HiringSystemDesign.md) - Product-style design of team outcomes, evidence criteria, candidate interactions, decision rights, measurement, and iteration.
+- [Hiring System Design](concepts/HiringSystemDesign.md) - End-to-end design of hiring need, role outcomes, candidate acquisition, job-relevant evidence, decisions, onboarding, measurement, and retention feedback.
 - [System Architecture Principles](concepts/SystemArchitecturePrinciples.md) - Benefits-first rules connecting services, correctness, standards, control capabilities, operability, debt boundaries, and contextual technology choice.
 - [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working, operable software through multidisciplinary design, delivery, observation, ownership, and maintenance.
 - [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between difficulty inherent in understanding a problem and the machinery required to implement and operate its solution.

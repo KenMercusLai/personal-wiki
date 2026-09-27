@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-27
-as_of_overview_commit: 92ca265b4f3df6a1d7742dcb8bce72629d0a7bcf
+as_of_overview_commit: 48733f01a13c7490478ad9703d2f39635998c2fb
 summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, capability, consent, and recoverable boundaries."
-episode_count: 654
-source_count: 654
-paragraph_count: 503
+episode_count: 655
+source_count: 655
+paragraph_count: 504
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, explicit ownership, evaluated cont
 
 ### Business and Markets
 
-Durable value depends on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, and risk discipline; financing choices can change what growth and stewardship mean.
+Durable value depends on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, and risk discipline; financing choices can change what growth and stewardship mean. [[HiringSystemDesign]] now extends role and team definition across candidate acquisition, evidence-based selection, onboarding, and retention, while subjective cultural fit and historical tactics remain qualified.
 
 - [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity. Evidence: [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]].
 - [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments. Evidence: [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]].
@@ -81,7 +81,7 @@ Heterogeneous evidence in science, health, and climate requires careful measurem
 
 ### Work, Education, and Society
 
-Work, education, and social systems need accessible entry points, feedback, judgment, consent, role clarity, fair incentives, and boundaries around attention, power, and responsibility.
+Work, education, and social systems need accessible entry points, feedback, judgment, consent, role clarity, fair incentives, and boundaries around attention, power, and responsibility. [[HiringSystemDesign]] now joins role clarity with candidate acquisition, structured evidence, onboarding, and retention, while affinity-based fit tests and burdensome trials require fairness controls.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].

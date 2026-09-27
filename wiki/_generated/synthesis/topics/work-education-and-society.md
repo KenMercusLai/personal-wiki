@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-27
-as_of_overview_commit: 04e02a6469b900a5ad0be17a44bc5f5f13e48397
-input_digest: fd5ae816226d220945a20ce8a574f7bfd3a4001cab65bee681101f911efeb69a
+as_of_overview_commit: 48733f01a13c7490478ad9703d2f39635998c2fb
+input_digest: 59e9813b61f9c4dfe1b514854ea719ce8029b1723b404772880b674ab8d935f7
 ---
 
 # Work, Education, and Society
@@ -608,14 +608,15 @@ AI-era and data-rich education should strengthen problem framing, [[Computationa
 
 ### Hiring System Design Needs Audited Feedback
 
-[[HiringSystemDesign]] treats team composition and candidate process as coupled products: [[DanPupius]] connects company-specific behavioral criteria, excluded pedigree, transparent and plural demonstration modes, interviewer calibration, explicit decision rights, candidate feedback, and focused iteration to [[InclusiveHiring]], while requiring demographic and outcome auditing rather than assuming process consistency proves fairness.
+[[HiringSystemDesign]] treats hiring need, team composition, candidate acquisition, selection, onboarding, and retention as one feedback system: [[DanPupius]] connects company-specific behavioral criteria, excluded pedigree, plural demonstration modes, interviewer calibration, explicit decision rights, candidate feedback, and focused iteration to [[InclusiveHiring]], while the ROCKETSHP handbook adds hire-versus-contractor choice, outcome-based role design, multi-channel sourcing, source tracking, and talent-pool maintenance without making subjective cultural fit reliable evidence.
 
 **Evidence:** [[HiringSystemDesign]], [[DanPupius]], [[InclusiveHiring]], [[Medium]], [[Range]]
 
 **Qualifications:**
 
-- The evidence is one 2018 practitioner interview about [[Medium]] and early-stage [[Range]], without comparative selection, performance, demographic, retention, or causal outcome data.
-- Rubrics and calibration can reproduce shared bias, alternative exercises can create unequal burdens, offer acceptance and retention are confounded, and informal backchannels raise privacy, fairness, and legal concerns.
+- The evidence combines one 2018 practitioner interview about [[Medium]] and early-stage [[Range]] with a broad 2017 startup-recruiting handbook; neither supplies comparative selection, performance, demographic, retention, or causal outcome data, and the handbook's statistics, platforms, and tools are historical.
+- Rubrics and calibration can reproduce shared bias; personality quizzes, intuition, and social-affinity tests are especially weak substitutes for job evidence; and work trials, alternative exercises, and informal backchannels raise burden, accessibility, compensation, privacy, fairness, and legal concerns.
+- The handbook's early-generalist preference has role-specific exceptions, its retention outcomes are confounded, its 23 remote images were unavailable for inspection, and its claim that dilution makes existing shares worthless is incorrect.
 
 ### Household Allocation Precedes Market Stress
 

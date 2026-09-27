@@ -5287,3 +5287,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Everything You Need To Know About Startup Recruitment
+
+Added ROCKETSHP's 2017 end-to-end startup recruiting handbook, connecting the hire-versus-contractor decision and outcome-based role definition with employer positioning, multi-channel sourcing, screening, work evidence, pipeline management, onboarding, culture, and retention. Updated [[HiringSystemDesign]] from its complete ordered evidence inventory, while preserving direct contradictions around affinity-based cultural-fit tests, personality screening, burdensome auditions, overbroad generalist advice, and the incorrect claim that dilution makes existing shares worthless. All 23 remote image references were unavailable from the origin and had no local copies, so their charts, diagrams, and screenshots could not be inspected or retained and no visual evidence was used.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

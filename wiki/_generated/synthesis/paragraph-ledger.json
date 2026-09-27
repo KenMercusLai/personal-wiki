@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "25cc91033cc476b2ee1c02430d1685eff59d9cbfdfdd00b5bae62208f27bdccc",
       "632ae35e6fe1550d4522c2b6a8b0fb07b441ee78aef315a05771fe67887dd96b",
       "96821f5efcc97b5ce5661e2703418da9699f00f822c342bf6b7ec45d128e3108",
       "58dd17cbadcaa9972f48c72a400a95e1622c2d2980c1474ee9731eb9fafafe2f",
@@ -505,11 +506,27 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
     ],
-    "paragraph_count": 503
+    "paragraph_count": 504
   },
-  "overview_commit": "92ca265b4f3df6a1d7742dcb8bce72629d0a7bcf",
-  "overview_digest": "f22feed8017182de71fb430dbbba8ea04a813ef83274a9b8a68d2ecb8d05b81b",
+  "overview_commit": "48733f01a13c7490478ad9703d2f39635998c2fb",
+  "overview_digest": "b0dd46f8d3533001552222b33f1d50ade08057ff05841fc219a662fc363dbabf",
   "paragraphs": [
+    {
+      "id": "25cc91033cc476b2ee1c02430d1685eff59d9cbfdfdd00b5bae62208f27bdccc",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest ROCKETSHP source extends [[HiringSystemDesign]] from interview-process design into the full startup hiring loop. A company should first test whether bounded work calls for a contractor or a permanent employee, choose the role from its highest-impact near-term goal, and express the job through daily responsibilities and outcomes. Candidate acquisition then becomes a measurable portfolio of employer culture and benefits, inbound content, direct outreach, recruiters, and targeted job boards; source tracking and a reusable talent pool connect those channels to later learning. Screening questions, skills tests, interviews, work samples, references, and short trials can supply relevant evidence, while onboarding, transparency, growth opportunity, compensation, manager attention, and retention reveal whether a nominally successful hire becomes durable contribution. This broadens the system boundary without accepting every tactic in the 2017 handbook: personality quizzes, intuition, and “get a drink” cultural-fit tests can encode affinity or disability bias; multi-day trials raise burden, compensation, confidentiality, accessibility, and legal questions; early-stage generalism has role-specific exceptions; and the claim that dilution makes existing shares worthless is incorrect. The source supplies no comparative hiring outcomes, and its statistics, job boards, platform features, and tools require current verification. All 23 remote image references were unavailable from the origin and had no local copies, so their charts, process diagrams, and screenshots could not be inspected or retained and no visual evidence was used.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "HiringSystemDesign"
+      ]
+    },
     {
       "id": "632ae35e6fe1550d4522c2b6a8b0fb07b441ee78aef315a05771fe67887dd96b",
       "primary_topic": "business-and-markets",
