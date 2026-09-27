@@ -54,6 +54,24 @@
     },
     {
       "global_candidate": false,
+      "id": "facebook-ad-costs-are-auction-contextual",
+      "qualifications": [
+        "The evidence is a first-party 2019 vendor benchmark with more than $636 million in reported managed spend but no campaign counts, advertiser mix, weighting, dispersion, uncertainty, or independent audit; its 2017-Q1 2019 prices are historical rather than current targets.",
+        "The repeated chart embeds are invalid local files containing unrelated HTML, so the plotted evidence could not be independently inspected, and click, like, or install cost does not by itself establish revenue, retention, incrementality, or full acquisition economics."
+      ],
+      "statement": "[[FacebookAdvertisingCosts]] are auction outcomes rather than fixed prices: [[AdEspresso]] links bids, objectives, placements, overlapping audiences, relevance rankings, and timing to both cost and delivery, while [[AudienceTargeting]], [[MarketingAttribution]], [[MarketingIncrementality]], and [[CustomerAcquisitionCost]] show why a cheaper click can be less useful when volume or downstream value is weak.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "FacebookAdvertisingCosts",
+        "AdEspresso",
+        "AudienceTargeting",
+        "MarketingAttribution",
+        "MarketingIncrementality",
+        "CustomerAcquisitionCost"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "personal-financial-strategy-requires-fit",
       "qualifications": [
         "The evidence is a short persuasive essay using hypothetical financial contrasts rather than comparative investor outcomes or a method for measuring fit.",
@@ -2271,6 +2289,6 @@
       ]
     }
   ],
-  "summary": "[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure. The new-media panel adds a market-gap qualification: the space between mass advertising and expensive specialist information may require subscriptions or mixed portfolios, platform support, and direct audience relationships rather than one universal model. [[ContextualSignalCollection]] adds that personalization value depends not only on signal coverage but also on request timing, user comprehension, and boundaries around sensitive data.",
+  "summary": "[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure. The new-media panel adds a market-gap qualification: the space between mass advertising and expensive specialist information may require subscriptions or mixed portfolios, platform support, and direct audience relationships rather than one universal model. [[ContextualSignalCollection]] adds that personalization value depends not only on signal coverage but also on request timing, user comprehension, and boundaries around sensitive data. [[FacebookAdvertisingCosts]] adds that platform prices are auction- and context-dependent, while volume and downstream value limit the usefulness of cheap intermediate outcomes.",
   "topic_id": "business-and-markets"
 }

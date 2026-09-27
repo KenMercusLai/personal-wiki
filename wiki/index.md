@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Facebook Ads Cost: The Complete Resource to Understand It](sources/facebook-ads-cost-the-complete-resource-to-understand-it.md) - AdEspresso's historical 2017-Q1 2019 benchmarks frame Facebook ad prices as auction outcomes shaped by objectives, audience competition, placement, relevance, timing, and delivery volume.
 - [Exploring Effective User Signals](sources/exploring-effective-user-signals-pinterest-engineering-blog-medium.md) - Pinterest's onboarding experiments show that a signal request can help personalization yet damage signup when its timing and value are unclear.
 - [Expiring vs. Long-Term Knowledge](sources/expiring-vs-long-term-knowledge-collaborative-fund.md) - Morgan Housel distinguishes short-lived facts from durable causal explanations that accumulate, transfer, and improve interpretation of later news.
 - [Extend Your Mind and Memory With a Zettelkasten](sources/extend-your-mind-and-memory-with-a-zettelkasten-zettelkasten-method.md) - Christian Tietze argues that durable storage extends memory while deliberate links enable unexpected retrieval, cross-text synthesis, and creative reuse.
@@ -679,6 +680,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [AdEspresso](entities/AdEspresso.md) - Advertising-management platform and publisher represented through its historical aggregate Facebook ad-cost benchmarks.
 - [Elizabeth Holmes](entities/ElizabethHolmes.md) - Theranos founder represented through a truncated source's claims about disputed technical judgment and corporate secrecy.
 - [Theranos](entities/Theranos.md) - Biotechnology startup portrayed through a source-bounded account of discredited blood-testing claims, secrecy, and collapse.
 - [Nick Bilton](entities/NickBilton.md) - Vanity Fair journalist credited with the saved page's promised Theranos investigation.
@@ -1909,6 +1911,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Facebook Advertising Costs](concepts/FacebookAdvertisingCosts.md) - Auction-determined campaign prices whose meaning depends on objective, audience, competition, placement, relevance, timing, volume, and downstream value.
 - [Knowledge Durability](concepts/KnowledgeDurability.md) - Degree to which information remains useful across time and contexts because it explains recurring mechanisms rather than only current facts.
 - [Rapid Organizational Restructuring](concepts/RapidOrganizationalRestructuring.md) - Compressed change to leadership, staffing, decision rights, working conditions, and priorities, evaluated beyond speed and immediate continuity.
 - [Organizational Secrecy](concepts/OrganizationalSecrecy.md) - Restricted information flow that becomes a governance risk when it blocks challenge, verification, or correction of consequential claims.

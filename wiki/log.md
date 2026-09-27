@@ -5379,3 +5379,15 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook Ads Cost: The Complete Resource to Understand It
+
+Added AdEspresso's historical 2017-Q1 2019 Facebook advertising benchmarks and their auction-based interpretation. Created [[AdEspresso]] and [[FacebookAdvertisingCosts]], connecting intermediate click, page-like, and app-install prices to [[AudienceTargeting]], [[Adtech]], [[MarketingAttribution]], [[MarketingIncrementality]], and [[CustomerAcquisitionCost]] while preserving the source's first-party, historical, and methodological limits. Every repeated `.jpg` and `.png` embed resolved to the same unrelated HTML page rather than valid image data, so the charts could not be independently inspected or retained and no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

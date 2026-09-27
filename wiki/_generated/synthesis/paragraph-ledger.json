@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
       "ac5f347214d56e908161f088ddf8153886c52b8d06a27a588e670b7c697fa4da",
       "99c55d9c7d16783b6aed36bf561f839a62c0611c697d0603e1722e8d493b11bf",
       "e4599bc574f21802933db23a677d47efe35383a85c5afac033adde3510f3df95",
@@ -512,11 +513,31 @@
       "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
       "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9"
     ],
-    "paragraph_count": 510
+    "paragraph_count": 511
   },
-  "overview_commit": "eb6b16e2b174e94c08180d1d4a524be7b33bd4d1",
-  "overview_digest": "f643a99a83dfeacbd50a4780d8216fad5691a347f69422a9d7509543f1b821e9",
+  "overview_commit": "144a88af8b79aaae3ca6f2a85903ae1d3e7aa239",
+  "overview_digest": "7baed0ede077978ae975db81b8f4beffd0c843b7f98f1b33cee302b8c1c044df",
   "paragraphs": [
+    {
+      "id": "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[AdEspresso]] source adds [[FacebookAdvertisingCosts]] as a conditional auction model rather than a universal platform price. In its historical 2017-Q1 2019 benchmarks, bids, objectives, placements, overlapping audiences, relevance rankings, season, day, and hour affect cost, while available traffic volume and the intended downstream result determine whether a cheaper click is actually useful. The source reports conversion-objective CPC falling from $2.55 in Q1 2018 to $0.55 in Q1 2019 even as overall CPC tended to rise toward the holiday season; weekend differences were small, and cheaper overnight traffic was also scarcer. This sharpens [[AudienceTargeting]] and [[Adtech]] by connecting auction pressure and relevance signals to delivery price, while [[MarketingAttribution]], [[MarketingIncrementality]], and [[CustomerAcquisitionCost]] preserve the boundary between intermediate platform metrics and business value. The evidence is a first-party vendor aggregate with more than $636 million in reported managed spend but no campaign counts, mix, weighting, dispersion, uncertainty, or independent audit, and it is a historical reference rather than a current benchmark. Every repeated local `.jpg` and `.png` embed is the same unrelated HTML page rather than a valid image, so the charts could not be independently inspected or retained and the numerical findings rely on the article's prose.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "AdEspresso",
+        "Adtech",
+        "AudienceTargeting",
+        "CustomerAcquisitionCost",
+        "FacebookAdvertisingCosts",
+        "MarketingAttribution",
+        "MarketingIncrementality"
+      ]
+    },
     {
       "id": "ac5f347214d56e908161f088ddf8153886c52b8d06a27a588e670b7c697fa4da",
       "primary_topic": "work-education-and-society",
