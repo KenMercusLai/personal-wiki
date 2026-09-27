@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: 160ebb1dabc45b9327edd9a7981c6a9c8461b5b4
-input_digest: e390ea565cd92369f244d14ea7686b8a71a52df47b61318239b30379cec1a126
+as_of_overview_commit: c1ae9c9165d3b457654152a8a8582eea71fde611
+input_digest: b0c1314a78a4cde9b5d5388895485604fc53ae1e11e7449107672495147997ee
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[ProductImitationStrategy]] and [[FeatureCreep]] make competitive response and product breadth conditional on coherent customer value rather than feature count. New [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias.
+Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[EmployeeTermination]] treats departure quality as a full organizational system spanning fair warning, secure offboarding, truthful communication, separation terms, and continuing relationships. [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[ProductImitationStrategy]] and [[FeatureCreep]] make competitive response and product breadth conditional on coherent customer value rather than feature count. New [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias.
 
 ## Cross-source Findings
 
@@ -1371,6 +1371,18 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - The category boundary comes from one practitioner's taxonomy rather than an industry standard, and the product comparison contains no comparative benchmarks.
 - The reported GreptimeDB performance rationale is explicitly speculative, while product data models and storage engines can change across versions.
+
+### Employee Termination Is An End To End System
+
+[[EmployeeTermination]] is an end-to-end organizational system rather than a speed maxim: [[ZachHolman]] connects good-faith warning and response opportunity, decisions under stress, dependency-aware access removal, truthful internal communication, written separation terms, benefits, [[ExtendedStockOptionExerciseWindow|equity deadlines]], coworker support, and alumni relationships; [[ManagerialResponsibility]] and [[CompassionateManagement]] therefore need both humane accountability and fair procedure.
+
+**Evidence:** [[EmployeeTermination]], [[ZachHolman]], [[ExtendedStockOptionExerciseWindow]], [[ManagerialResponsibility]], [[CompassionateManagement]], [[GitHub]]
+
+**Qualifications:**
+
+- The evidence is Zach Holman's retrospective first-person account plus stories he reports hearing from others, not a comparative study, and the rationale for his own dismissal remained unresolved.
+- The legal, HR, benefits, equity, and tax guidance reflects a historical California technology-startup setting; reporting channels, required process, representation, and option treatment vary by jurisdiction and contract.
+- Performance improvement plans can offer clear expectations and a genuine recovery path or become pretextual documentation, while prompt access revocation is beneficial only when dependencies involving personal data and essential employment records are protected.
 
 ### Startup Job Diligence Includes Cultural Behavior
 

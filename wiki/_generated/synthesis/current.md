@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: eebd26c7cba2a56662b3cfa5ee82c5275c751a44
+as_of_overview_commit: c1ae9c9165d3b457654152a8a8582eea71fde611
 summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, discovery, contextual fit, and sustainable learning."
-episode_count: 686
-source_count: 686
-paragraph_count: 525
+episode_count: 687
+source_count: 687
+paragraph_count: 526
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, system understanding, workloa
 
 ### Business and Markets
 
-Durable businesses align customer outcomes, coherent scope, sustainable economics, governed distribution, operating capability, capital, learning, and risk discipline; most claims remain contextual because the evidence is practitioner, company-authored, or retrospective.
+Durable businesses align customer outcomes, coherent scope, sustainable economics, governed distribution, operating capability, capital, learning, risk discipline, and responsible employment lifecycles; most claims remain contextual because the evidence is practitioner, company-authored, or retrospective.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

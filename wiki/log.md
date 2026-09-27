@@ -5348,6 +5348,10 @@ Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | Firing People
+
+Added [[ZachHolman]]'s first-person account of his 2015 dismissal from [[GitHub]] and created [[EmployeeTermination]] as an end-to-end process spanning performance clarity, decisions under stress, secure offboarding, truthful internal communication, separation terms, benefits, equity, coworker support, and alumni relationships. Updated Zach Holman, GitHub, and [[ExtendedStockOptionExerciseWindow]] from their complete ordered evidence inventories; preserved the uncertainty around the dismissal rationale, the source's historical California startup scope, the limits of its categorical HR advice, and the imprecision of its 90-day ISO claim. The Markdown references five local images, but the supplied `Firing People_files` directory is absent, so none could be opened or retained and the visual portion of the source remains unverified.
+
 ## [2026-09-28] ingest | Extend Your Mind and Memory With a Zettelkasten
 
 Added Christian Tietze's 2013 distinction between durable notes as external memory and manual links as a route to cross-text comparison, unexpected retrieval, and creative recombination. Updated [[ZettelkastenMethod]] and [[ChristianTietze]] from their complete ordered evidence inventories, preserving the limits that the extended-mind and creativity claims are practitioner analogies rather than measured effects. The local body image was missing, so the matching remote original was opened and inspected; retained one canonical BrainGate exhibit image at its semantic position and omitted the duplicate thumbnail/body references.
@@ -5542,6 +5546,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Finding new music in the algorithm age
 
 Added [[AnnDerrickGaillot]]'s six-person account of music discovery across streaming recommendations, specialist platforms, publications, professional and social networks, submissions, live shows, stores, liner notes, and musical histories. Created [[MusicDiscovery]], Ann-Derrick Gaillot, [[JenMalone]], [[LaurenRearick]], [[HuaHsu]], [[DrDemento]], [[DelaneyMotter]], [[MarcusMoore]], [[Bandcamp]], and [[SoundCloud]]; updated [[Spotify]] from its complete ordered evidence inventory with listener-facing discovery paths and the distinction between easy song recommendation and deeper artist engagement. Preserved the interview sample's role, genre, access, place, and time limits and the absence of comparative outcome evidence. Opened and omitted the sole local image as a generic decorative stock composition, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

@@ -40,6 +40,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Evernote is what happens when you mix VC with a Notes app](sources/evernote-is-what-happens-when-you-mix-vc-with-a-notes-app.md) - A competitor-authored 2016 essay uses Evernote to argue that venture growth and exit pressure can undermine focus, reliability, privacy, and long-term note custody.
 - [Evan Spiegel’s Most Underrated Skill](sources/evan-spiegels-most-underrated-skill-product-hunt.md) - A 2017 Product Hunt essay presents Snapchat's mapping, hardware, lens, avatar, search, computer-vision, and code features as products of acquisition-led capability building.
 - [Evaluating Delusional Startups](sources/evaluating-delusional-startups.md) - Zach Holman proposes interview-stage warning signs around promised riches, blame, colleague contempt, product complacency, and hatred of competitors.
+- [Firing People](sources/firing-people.md) - Zach Holman treats termination as a human, operational, financial, and cultural process spanning warning, offboarding, separation terms, and alumni relationships.
 - [What I think about when I edit](sources/eva-parish-what-i-think-about-when-i-edit.md) - Eva Parish presents intent-first, audience-aware editing through precise language, explicit agency, useful context, consistent tone, and scan-friendly structure.
 - [Etsy CTO Q&A: We Need Software Engineers, Not Developers](sources/etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack.md) - John Allspaw describes Etsy's small familiar toolset, explicit novelty costs, simple deployment, production ownership, multidisciplinary engineering, and human-centered machine-learning stance.
 - [Estimation for Fun and Profit (but mostly for sanity)](sources/estimation-for-fun-and-profit-but-mostly-for-sanity-8th-light.md) - Bjorn Johnson connects vertical user-story slices with three-scenario PERT estimates and simultaneous team input while treating schedules as uncertain judgments rather than commitments.
@@ -747,7 +748,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
 - [Standard Notes](entities/StandardNotes.md) - Open-source, private, cross-platform note project promoted as a long-horizon alternative to Evernote.
 - [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader framed through acquisition-led product capability building, with causal attribution kept qualified.
-- [Zach Holman](entities/ZachHolman.md) - Startup practitioner presenting behavioral and cultural signals for evaluating prospective employers.
+- [Zach Holman](entities/ZachHolman.md) - Startup practitioner writing about employer diligence, termination, offboarding, and alumni relationships.
 - [Stewart Butterfield](entities/StewartButterfield.md) - Slack leader used as a source-scoped example of dissatisfaction with a successful product's current state.
 - [Eva Parish](entities/EvaParish.md) - Writer and technical-documentation practitioner represented through a cross-genre, judgment-led editing philosophy.
 - [John Allspaw](entities/JohnAllspaw.md) - Etsy CTO represented through a 2016 engineering philosophy of stack restraint, production ownership, cross-domain learning, and human judgment in automation.
@@ -1892,7 +1893,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jeff Dean](entities/JeffDean.md) - Google engineer whose Stanford distributed-systems advice supplies the latency-reference and back-of-envelope estimation frame in the source.
 - [Jeff Huang](entities/JeffHuang.md) - Academic author represented here by a long-running calendar-plus-text-file productivity workflow.
 
-- [GitHub](entities/GitHub.md) - Software-development platform whose main application used dual-boot compatibility, required multi-version CI, and progressive rollout for a large Rails upgrade.
+- [GitHub](entities/GitHub.md) - Software collaboration platform represented through application engineering, scientific-data workflows, and an attributed former-employee termination account.
 - [Ruby on Rails](entities/RubyOnRails.md) - Web application framework whose deprecations, breaking changes, and upstream capabilities shaped GitHub's version-by-version migration.
 - [James Kenigsberg](entities/JamesKenigsberg.md) - 2U technology executive advocating informal learning relationships with junior staff.
 - [2U](entities/2U.md) - Edtech company providing the historical workplace context for Kenigsberg's reverse-mentoring account.
@@ -2621,6 +2622,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Internal Developer Platform](concepts/InternalDeveloperPlatform.md) - Internal product layer that gives teams standardized compute, monitoring, logging, backups, scaling, deployment, and rollback defaults.
 - [Infrastructure Platform Product Management](concepts/InfrastructurePlatformProductManagement.md) - Internal-product discipline aligning platform strategy, discovery, onboarding, architecture, UX, complexity, and measures with product-team outcomes.
 - [Extended Stock Option Exercise Window](concepts/ExtendedStockOptionExerciseWindow.md) - Startup equity policy that gives departing employees years rather than days to exercise vested stock options.
+- [Employee Termination](concepts/EmployeeTermination.md) - End-to-end process spanning expectations, dismissal, secure offboarding, communication, separation terms, and alumni relations.
 - [Employee Equity Risk](concepts/EmployeeEquityRisk.md) - Risk that startup employee equity will not become usable wealth because liquidity, vesting, preference, dilution, or company outcome do not favor the employee.
 - [Startup Equity Transparency](concepts/StartupEquityTransparency.md) - Norm that startup candidates should clearly understand exercise windows, vesting consequences, liquidity risk, and equity tradeoffs before joining.
 - [Startup Financing Mechanics](concepts/StartupFinancingMechanics.md) - Practical system of shares, valuation, investor instruments, conversion terms, and ownership math that determines how fundraising changes a startup cap table.
