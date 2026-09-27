@@ -5638,3 +5638,11 @@ Added [[AlexisMadrigal]]'s 2016 argument that phone cameras are becoming real-ti
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Founder Dilution - How Much Is Normal?
+
+Added [[FredWilson]]'s qualified 2009 rule of thumb for cumulative [[CapTableDilution]] across three to four financing rounds and management equity. Updated Cap Table Dilution, [[FounderExitTradeoff]], Fred Wilson, and [[AVC]] from their complete ordered evidence inventories, distinguishing percentage ownership from total company value and linking outcomes to capital needs, valuation, round timing, team grants, and exit horizon. Preserved the source's explicit evidence gap: its below-5% to above-25% range and representative 10-20% founder endpoint are practitioner estimates without cap tables, transaction values, preference terms, or population data, not current norms. The supplied Markdown contains no image references, so no asset manifest was needed.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

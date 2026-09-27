@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
       "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
       "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
       "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
@@ -537,11 +538,26 @@
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1"
     ],
-    "paragraph_count": 535
+    "paragraph_count": 536
   },
-  "overview_commit": "ea82fc5aa831f29521c2850e03da99f86c9150c1",
-  "overview_digest": "80deb1e934bfb8442e92065ba3ea66d188df731a2d80ebabb22feebc2cd7d5e1",
+  "overview_commit": "46ec32b6f812bb86498af1ba1c7b7992c1aa99c5",
+  "overview_digest": "abe8b4e028b5df42e7f0c78d9550c688b451b7d1b95463e88daec6e0b633229c",
   "paragraphs": [
+    {
+      "id": "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[FredWilson]] source extends [[CapTableDilution]] from one-round mechanics to a company's cumulative financing and hiring path. Wilson's 2009 experience-based rule of thumb combines three to four equity rounds with roughly 20-25% allocated to recruit and retain management, leaving the founder team at roughly 10-20% by the time a lasting company becomes sustainable or profitable; he reports outcomes below 5% and above 25% to emphasize variation. The durable mechanism matters more than the range: capital requirements, financing valuations, round timing, and team equity determine how many shares are issued and what percentage founders retain. [[FounderExitTradeoff]] gains the corresponding capitalization dimension: an earlier sale can preserve more founder ownership because fewer dilutive events have occurred, but generally pairs that larger percentage with a less-developed, lower-value company. The essay supplies no cap tables, transaction values, preference terms, population sample, or return comparison, and its request for survey participation makes the evidence gap explicit. Its figures are historical practitioner estimates, not current norms; the supplied Markdown contains no image references.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "CapTableDilution",
+        "FounderExitTradeoff",
+        "FredWilson"
+      ]
+    },
     {
       "id": "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
       "primary_topic": "business-and-markets",

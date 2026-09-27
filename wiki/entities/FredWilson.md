@@ -9,23 +9,24 @@ sources:
   - diversification-aka-how-to-survive-a-crash-avc
   - employee-equity-how-much-avc
   - first-mover-disadvantage-avc
+  - founder-dilution-how-much-is-normal-avc
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[FredWilson]] is an investor and AVC author whose ingested essays distinguish active from passive investing, analyze early-stage financing and employee-equity design, recall [[JeffLawson]]'s seed pitch for [[Twilio]], translate a severe dot-com-era household loss into a diversification lesson, and frame first-mover advantage as an operating burden as well as an opportunity.
+[[FredWilson]] is an investor and AVC author whose ingested essays distinguish active from passive investing, analyze early-stage financing, founder dilution, and employee-equity design, recall [[JeffLawson]]'s seed pitch for [[Twilio]], translate a severe dot-com-era household loss into a diversification lesson, and frame first-mover advantage as an operating burden as well as an opportunity.
 
 ## Current Profile
 Wilson prefers active investing because it lets capital be amplified by time, energy, judgment, and influence, but he accepts that active and passive models can both work when their portfolio structures fit their demands. His household-risk account places a boundary around that preference: after wealth accumulated during the Internet boom remained concentrated in venture capital and Internet stocks, his family lost roughly 90% of its net worth; real estate bought before the crash preserved the remainder. He therefore treats diversification as ex-ante capital preservation rather than a reactive sale after prices collapse, and presents a four-bucket personal target spanning cash, blue-chip stocks, low-leverage income real estate, and high-risk assets.
 
-His startup-operating sources combine directional evidence with explicit judgment. One reviews 55 USV-led or co-led rounds while limiting its generality; another treats Lawson's immediate demonstration as stronger evidence than a surprising platform claim alone. His employee-equity framework similarly turns a judgment problem into a repeatable method after a startup's first exceptional hires: bracket roles, multiply salary into a target grant value, and convert that value into fully diluted shares. Wilson also marks the method's boundary by excluding CEO and COO grants, treating early hires as bespoke, and warning that the published 2010 multipliers became obsolete. His [[FirstMoverStrategy]] essay prefers uncontested early entry but makes durable leadership conditional on product and engineering strength, balance-sheet and team building, technical adaptation, competitor learning, and management quality.
+His startup-operating sources combine directional evidence with explicit judgment. One reviews 55 USV-led or co-led rounds while limiting its generality; another treats Lawson's immediate demonstration as stronger evidence than a surprising platform claim alone. His 2009 founder-dilution essay provides a cumulative rule of thumb across three to four financing rounds and management equity, but explicitly calls for survey data rather than presenting the estimate as a measured norm. His employee-equity framework similarly turns a judgment problem into a repeatable method after a startup's first exceptional hires: bracket roles, multiply salary into a target grant value, and convert that value into fully diluted shares. Wilson also marks the method's boundary by excluding CEO and COO grants, treating early hires as bespoke, and warning that the published 2010 multipliers became obsolete. His [[FirstMoverStrategy]] essay prefers uncontested early entry but makes durable leadership conditional on product and engineering strength, balance-sheet and team building, technical adaptation, competitor learning, and management quality.
 
 ## Key Characteristics
 - Distinguishes investing modes by the investor's role, not only by asset class.
 - Prefers active investing for large gains while treating it as capacity-constrained because attention and judgment do not scale like capital.
 - Warns angel, seed, and venture investors against claiming active support across portfolios too broad to serve actively.
-- Uses simplified methods and firm experience to structure valuation and compensation decisions while marking sample and market limits.
+- Uses simplified methods and firm experience to structure valuation, founder-dilution, and compensation decisions while marking sample and market limits.
 - Treats a fast, claim-aligned product demonstration as unusually persuasive seed-stage evidence.
 - Separates professional conviction from household survivability by recommending diversification before a crash.
 - Treats first-mover advantage as a temporary position that capable management must convert into adaptive market leadership.
@@ -43,15 +44,17 @@ His startup-operating sources combine directional evidence with explicit judgmen
 - Grant-sizing method: [[employee-equity-how-much-avc]] has later-stage startups convert salary and a role multiplier into a target dollar value, then use current company value and fully diluted shares to calculate a grant.
 - Method boundary: [[employee-equity-how-much-avc]] treats the earliest key hires as bespoke, reserves CEO and COO grants for the board, and explicitly warns that its 2010 multipliers became below-market.
 - Market-leadership judgment: [[first-mover-disadvantage-avc]] argues that first entry can ease initial dominance but that technical debt, legacy assumptions, follower innovation, and leadership quality shape whether the advantage persists.
+- Founder-dilution judgment: [[founder-dilution-how-much-is-normal-avc]] estimates that three to four rounds plus management equity can leave a founder team with roughly 10-20%, while presenting below-5% and above-25% cases and calling for better data.
 
 ## Qualifications
-The active-investing, diversification, and first-mover sources are short opinion essays; the diversification account relies on Wilson's recollection, does not provide account records or an exact holdings timeline, and offers personal target weights rather than regulated or individualized financial advice. The first-mover essay supplies illustrative company references but no comparative sample, definitions, outcome measures, or causal evidence about entry order. The valuation source is a descriptive review of one firm's selected investments, the Twilio source is a retrospective anecdote, and the equity source is a simplified practitioner framework without labor-market data, fairness analysis, or employee outcomes. Its role multipliers are explicitly obsolete, and its expected company growth is an aspiration rather than a risk-adjusted forecast. Together the sources do not provide realized return comparisons, causal evidence, or a full account of Wilson's investing and operating record.
+The active-investing, diversification, first-mover, and founder-dilution sources are short opinion essays; the diversification account relies on Wilson's recollection, does not provide account records or an exact holdings timeline, and offers personal target weights rather than regulated or individualized financial advice. The first-mover essay supplies illustrative company references but no comparative sample, definitions, outcome measures, or causal evidence about entry order. The founder-dilution ranges are historical experience-based estimates without cap tables, transaction values, or population data. The valuation source is a descriptive review of one firm's selected investments, the Twilio source is a retrospective anecdote, and the equity source is a simplified practitioner framework without labor-market data, fairness analysis, or employee outcomes. Its role multipliers are explicitly obsolete, and its expected company growth is an aspiration rather than a risk-adjusted forecast. Together the sources do not provide realized return comparisons, causal evidence, or a full account of Wilson's investing and operating record.
 
 ## What Changed
 - Added Wilson's distinction between attaining a first-mover lead and sustaining it through adaptive execution and management.
 - Added the dot-com household-loss account and its diversification-before-crisis lesson.
 - Added Wilson's personal four-bucket allocation target and explicit limit on crypto concentration.
 - Added his stage-sensitive employee-equity formula while preserving the obsolescence of its 2010 multipliers and the gap between grant value and employee outcome.
+- Added his historical founder-dilution range and the capital, valuation, timing, management-equity, and exit variables that qualify it.
 
 ## Relationships
 - [[AVC]] - publication where Wilson's investing framework appears.
@@ -67,3 +70,5 @@ The active-investing, diversification, and first-mover sources are short opinion
 - [[TechnologyBubbles]] - dot-com and cryptocurrency context for Wilson's crash-survival advice.
 - [[EmployeeEquityGrantSizing]] - compensation method Wilson adapts for startups beyond their first exceptional hires.
 - [[FirstMoverStrategy]] - strategic position Wilson prefers but treats as difficult to sustain.
+- [[CapTableDilution]] - ownership consequence Wilson models across multiple financings and management grants.
+- [[FounderExitTradeoff]] - early-exit alternative Wilson frames as higher ownership of a less-developed company.

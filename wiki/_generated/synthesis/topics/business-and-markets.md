@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: ea82fc5aa831f29521c2850e03da99f86c9150c1
-input_digest: 4a9929323d2928de74e9876698913f94e5cf6dcc9bac735c16bf8ca40b26cab1
+as_of_overview_commit: 46ec32b6f812bb86498af1ba1c7b7992c1aa99c5
+input_digest: 7a1e752813c483b2f1ce280110ff6b0ff479901f29dab85d456cce0935c09df7
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, growth, and interface-language practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[LargeScaleWebScraping]] adds a high-volume data-operation case in which throughput, target change, anti-bot handling, and automated quality controls must be designed together rather than optimized independently. [[InterfaceCopywriting]] makes task-critical words part of product design and early testing rather than final-stage decoration. [[VentureCapitalUpsideEvaluation]] joins rare-outlier economics to a qualified test of bull-case scale, credibility, foreseeability, and investor fit. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[EmployeeTermination]] treats departure quality as a full organizational system spanning fair warning, secure offboarding, truthful communication, separation terms, and continuing relationships. [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[FirstMoverStrategy]], [[ProductImitationStrategy]], and [[FeatureCreep]] make market position, competitive response, and product breadth conditional on adaptive capability and coherent customer value rather than chronology or feature count. [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias. [[SarahTavel]]'s [[Pinterest]] case links meaningful activation metrics, end-to-end team ownership, segment-aware request interpretation, accumulated user trust, and differentiated strategic focus as interacting scaling practices.
+Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, growth, and interface-language practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[CapTableDilution]] adds the cumulative ownership consequence of capital needs, financing valuation and timing, team equity, and exit horizon. [[LargeScaleWebScraping]] adds a high-volume data-operation case in which throughput, target change, anti-bot handling, and automated quality controls must be designed together rather than optimized independently. [[InterfaceCopywriting]] makes task-critical words part of product design and early testing rather than final-stage decoration. [[VentureCapitalUpsideEvaluation]] joins rare-outlier economics to a qualified test of bull-case scale, credibility, foreseeability, and investor fit. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[EmployeeTermination]] treats departure quality as a full organizational system spanning fair warning, secure offboarding, truthful communication, separation terms, and continuing relationships. [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[FirstMoverStrategy]], [[ProductImitationStrategy]], and [[FeatureCreep]] make market position, competitive response, and product breadth conditional on adaptive capability and coherent customer value rather than chronology or feature count. [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias. [[SarahTavel]]'s [[Pinterest]] case links meaningful activation metrics, end-to-end team ownership, segment-aware request interpretation, accumulated user trust, and differentiated strategic focus as interacting scaling practices.
 
 ## Cross-source Findings
 
@@ -580,7 +580,7 @@ Business and markets sources show durable value depending on customer outcomes, 
 
 ### Startup Financing Terms Change Ownership Math
 
-[[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]], [[StartupFundingRound]], and [[StartupValuation]] show early-stage funding as ownership math and round design: common shares, founder splits, employee pools, SAFEs or notes, discounts, valuation caps, priced Series A shares, and conversion terms can change post-money valuation, investor returns, founder dilution, employee-pool percentage, and voting control, while the round itself trades ownership rather than borrowing, is sized to a growth plan, is staged from seed through lettered rounds, and prices the company through a negotiated bet that a smaller later exit can leave underwater.
+[[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]], [[StartupFundingRound]], and [[StartupValuation]] show early-stage funding as cumulative ownership math and round design: common shares, founder splits, employee pools, SAFEs or notes, discounts, valuation caps, priced rounds, and conversion terms change valuation, investor returns, founder and employee percentages, and control; across multiple rounds, capital needs, financing prices and timing, team grants, and the independence horizon determine how much ownership founders retain.
 
 **Evidence:** [[StartupFinancingMechanics]], [[UnpricedSeedFinancing]], [[CapTableDilution]], [[StartupFundingRound]], [[StartupValuation]], [[StartupRunway]]
 
@@ -588,6 +588,7 @@ Business and markets sources show durable value depending on customer outcomes, 
 
 - The Crunchbase News evidence is a simplified fictitious case rather than legal or investment advice; it does not cover liquidation preferences, pro rata rights, option-pool refreshes, tax consequences, note maturity, down-round anti-dilution, or post-money SAFE variants.
 - The TechCrunch evidence is a general-audience 2020 explainer written at headline level: it presents equity as the default, treats the absence of repayment as the defining feature of a round, and does not cover venture debt, revenue-based financing, bridge or extension rounds, or how liquidation preferences change what common shareholders actually receive.
+- Wilson's cumulative founder-ownership figures are 2009 experience-based ranges without cap tables, transaction values, preference terms, or a population sample, so they identify mechanisms and variation rather than current norms or expected founder returns.
 
 ### Growth Must Preserve Retained Value
 
@@ -1330,15 +1331,16 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 ### Acquisition Rationale Does Not Guarantee Post Close Priority
 
-[[FounderExitTradeoff]] separates a rational sale decision from later integration and career outcomes: [[JoshuaSchachter]] says traffic, downtime, exhaustion, weak fundraising, and Yahoo’s promised infrastructure made selling [[Delicious|Del.icio.us]] defensible, while [[AdamSmith]] and [[EntrepreneurialCareerPaths]] show acquisition employment, rest, another startup, investing, larger-company work, or retirement as later states; [[AcquisitionStrategy]] must therefore preserve authority, speed, resources, product and customer continuity, and a viable founder role rather than treating the deal as the endpoint.
+[[FounderExitTradeoff]] separates a rational sale decision from later integration and career outcomes: [[JoshuaSchachter]] says traffic, downtime, exhaustion, weak fundraising, and Yahoo’s promised infrastructure made selling [[Delicious|Del.icio.us]] defensible, while [[AdamSmith]] and [[EntrepreneurialCareerPaths]] show later career states; exit timing also changes [[CapTableDilution]], so a larger founder percentage in an earlier, lower-value sale must be weighed with continued financing, company development, authority, resources, product continuity, and the post-close role.
 
-**Evidence:** [[FounderExitTradeoff]], [[JoshuaSchachter]], [[Delicious]], [[AdamSmith]], [[EntrepreneurialCareerPaths]], [[AcquisitionStrategy]], [[Yahoo]]
+**Evidence:** [[FounderExitTradeoff]], [[JoshuaSchachter]], [[Delicious]], [[AdamSmith]], [[EntrepreneurialCareerPaths]], [[CapTableDilution]], [[AcquisitionStrategy]], [[Yahoo]]
 
 **Qualifications:**
 
 - The evidence is one retrospective founder interview without deal documents, Yahoo's response, independent operating metrics, or a counterfactual showing how Del.icio.us would have performed without the sale.
 - The reported purchase price remains undisclosed, while Schachter's tagging-priority and product-influence claims are not independently verified in the supplied source.
 - Smith’s evidence is a 2017 practitioner essay using prominent examples rather than comparative career or integration outcomes; his proposed distribution across post-startup choices is explicitly a guess.
+- Wilson's early-exit examples provide neither cap tables nor transaction values, so they frame rather than measure the relationship between founder percentage, company value, and exit timing.
 
 ### User Growth Accounting Separates Retention From Replacement
 
