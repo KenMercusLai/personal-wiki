@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
       "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
       "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
       "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
@@ -530,11 +531,32 @@
       "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752"
     ],
-    "paragraph_count": 528
+    "paragraph_count": 529
   },
-  "overview_commit": "1ac18bfc2b4be70324c2c882fe0e3b5ff130671e",
-  "overview_digest": "97d22b7158a00208a60177c70129c82d476b494cfb827e512d706faa6c4a80f8",
+  "overview_commit": "cbfb1f96fec8202f19277d9fd06c5efb8ad64029",
+  "overview_digest": "7d204f14323e2b62db1adf1425380846e6fd6991cc2fc4a4abed4e09df77f130",
   "paragraphs": [
+    {
+      "id": "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "[[SarahTavel]]'s Pinterest retrospective adds a joined scaling model across metrics, organization design, user segmentation, trust, and strategic resilience. [[ProductMetricLadder]] now includes an ownership test: Pinterest's shift from monthly active users to new weekly active pinners made Growth responsible for moving newcomers from signup and first feed into a core Pin or repin action rather than merely filling a leaky acquisition funnel. [[TeamBasedOrganizationalDesign]] gains the matching structural claim that a strategic initiative needs end-to-end capacity and a reporting line aligned with its roadmap; Tavel contrasts matrixed Discovery dependencies with full-stack teams and says moving Growth from Marketing to Product reduced coordination overhead. [[ProductUserSegmentation]] gains a representativeness boundary: vocal power users reveal real needs without standing in for newcomers or future cohorts, and the move from requested Pin rearrangement to personal search illustrates diagnosing the underlying retrieval job rather than copying the proposed feature. [[UserTrustCapital]] names goodwill accumulated through core experience, error copy, support, and change communication, while [[StartupFocus]] frames Pinterest's response to lost Facebook distribution as renewed commitment to a differentiated value proposition. The evidence remains one first-person 2017 retrospective without counterfactual teams, absolute growth series, or controlled attribution; its under-5% feature-use claim and five-positive-to-one-negative trust ratio are unsupported rules of thumb. All ten local images were inspected: duplicate team photographs and prose-duplicating lesson graphics were omitted, while the single retained Facebook growth chart is too low-resolution to recover reliable axes, dates, or values.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ProductMetricLadder",
+        "ProductUserSegmentation",
+        "SarahTavel",
+        "StartupFocus",
+        "TeamBasedOrganizationalDesign",
+        "UserTrustCapital"
+      ]
+    },
     {
       "id": "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
       "primary_topic": "business-and-markets",

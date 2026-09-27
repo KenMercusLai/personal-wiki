@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Five Lessons from Scaling Pinterest
+
+Added [[SarahTavel]]'s first-person account of Pinterest's scale from roughly five to 650 employees. Created Sarah Tavel and [[UserTrustCapital]]; updated [[Pinterest]], [[ProductMetricLadder]], [[TeamBasedOrganizationalDesign]], and [[ProductUserSegmentation]] from their complete ordered evidence inventories with the MAU-to-weekly-active-pinner shift, end-to-end team ownership, power-user representativeness limits, personal search as root-cause product design, cross-functional trust deposits, and first-principles recovery from lost Facebook distribution. Preserved the account's retrospective and causal limits, the unsupported under-5% and five-positive-to-one-negative figures, and the distinction between interpreting user evidence and ignoring users. Opened all ten effective local images, omitted duplicate team photographs and prose-duplicating lesson graphics, and retained the one growth chart at its semantic position under a descriptive filename; its 60-by-22-pixel resolution prevents reliable recovery of axes, dates, or values.
+
 ## [2026-09-28] ingest | Extremely Hardcore
 
 Added Schiffer, Newton, and Heath's investigation of Elon Musk's first three months owning Twitter. Created [[RapidOrganizationalRestructuring]]; updated [[ElonMusk]], [[Twitter]], [[JackDorsey]], and [[RemoteWork]] from their complete ordered source inventories with the distinction between rapid cost reduction and broader product, safety, revenue, legal, reliability, culture, and trust outcomes. Preserved the counterevidence that Twitter mostly remained online after deep cuts and the source boundary that this January 2023 account does not establish the later trajectory or optimal long-run staffing level. Opened and retained all five editorial illustrations at their semantic positions under descriptive canonical filenames with a complete manifest.
@@ -5562,6 +5566,10 @@ Added MIT Technology Review's account of [[JosueOrtega]] and [[PhilippHergovich]
 ## [2026-09-28] ingest | First Mover Disadvantage
 
 Added [[FredWilson]]'s qualified [[FirstMoverStrategy]] argument: uncontested entry can ease initial dominance, but lasting leadership depends on product and engineering execution, balance-sheet and team building, technical adaptation, competitor learning, and management quality. Created First-Mover Strategy and updated Fred Wilson and [[AVC]] from their complete ordered evidence inventories. Preserved the absence of comparative cases, outcome measures, and causal evidence behind the Apple, Google, cryptocurrency, and Facebook illustrations. The supplied Markdown contains no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

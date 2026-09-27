@@ -7,6 +7,7 @@ sources:
   - users-you-dont-want
   - dave-teare-at-wwdc-how-one-month-for-1password-became-8-years-the-mac-observer
   - feature-creep-isnt-the-real-problem-product-habits
+  - five-lessons-from-scaling-pinterest-sarah-tavel-medium
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -19,14 +20,16 @@ The sources show that segmentation affects interface design, technical assumptio
 
 At the portfolio level, segment-specific features are not automatically bloat when they help different customers realize the same core value. The JIRA case links small-team task assignment, enterprise security and recovery, and customizable workflows to a common teamwork-management promise. The risk appears when teams tack on isolated requests without proving relevance to the segment or coherence with the product. Segment boundaries should therefore follow recurring behavior, needs, technical context, economics, shared core value, and evidence quality rather than prestige, internal labels, or the presence of one vocal requester.
 
+Pinterest sharpens the evidence problem inside an existing segment. Vocal users are often committed power users who understand and value the current product, so their resistance to change and requests for expert controls can be genuine without representing newcomers or the next growth cohort. The product task is neither automatic obedience nor dismissal: infer the underlying job, compare request and behavioral evidence, and look for a solution that serves more people. Pinterest's move from requested Pin rearrangement to personal search illustrates that a narrow proposed feature can be evidence of a broad retrieval problem.
+
 ## Key Claims
-- New-user simplification should not degrade experienced-user workflows.
+- New-user simplification and future-cohort growth should be weighed against, but not dictated by, established power-user workflows.
 - Status markers become confusing when they bundle identity, prestige, and tool access.
-- Power-user and community-management tools should be granted by need and behavior.
+- Power-user requests reveal real needs but can overrepresent current habits, resistance to change, and expert-level complexity.
 - Advertiser-only or brand-only tool boundaries can withhold useful controls from ordinary high-impact users.
 - Product organization should follow user jobs rather than internal categories such as influencer, advertiser, or ordinary user.
 - A product need not serve every identifiable segment; materially different needs, economics, or core value require an explicit scope decision.
-- Unexpected or expanding segments should be evaluated through repeated evidence, outcome relevance, and promise coherence rather than obeyed or rejected from one anecdote; support patterns can discover a segment without precisely sizing it.
+- Unexpected, expanding, or especially vocal segments should be evaluated through repeated evidence, outcome relevance, underlying jobs, and promise coherence rather than obeyed or rejected from one anecdote; support patterns can discover a segment without precisely sizing it.
 
 ## Evidence
 - New-user defaults: [[a-billion-dollar-gift-for-twitter-startup-grind-medium]] accepts simpler new-user experiences but says they should be limited to new users.
@@ -43,16 +46,19 @@ At the portfolio level, segment-specific features are not automatically bloat wh
 - Cohesive segment expansion: [[feature-creep-isnt-the-real-problem-product-habits]] presents JIRA's small-team, enterprise, and general workflow capabilities as varied expressions of one teamwork-management vision.
 - Segment navigation: [[feature-creep-isnt-the-real-problem-product-habits]] retains an Atlassian image organizing offerings by startup, small-business, enterprise, and team function.
 - Evaluation rule: [[feature-creep-isnt-the-real-problem-product-habits]] says teams should test whether a feature helps a user in a defined segment accomplish the product vision, using outcome measures such as HEART.
+- Representativeness boundary: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] says vocal users are power users accustomed to the current product and do not represent all current or future users.
+- Complexity risk: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] reports that highly requested features repeatedly reached fewer than 5% of users, though it supplies no supporting feature-level dataset.
+- Underlying job: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] says Pinterest answered Pin-rearrangement requests with personal search after diagnosing the broader need to retrieve saved Pins.
 
 ## Counterevidence & Qualifications
-Behavior-based unlocks can create incentives to chase superficial thresholds, and safety or moderation tools may need broader access than popularity-based rules. Dash's source is an outside product proposal and does not evaluate technical complexity, abuse potential, or operational costs for each suggested entitlement. Seibel offers questions rather than quantitative segment thresholds, and his successful Justin.tv example is retrospective. The 1Password source is also retrospective and company-authored: support contacts overrepresent users with problems, sales do not reveal active cross-platform use, and the roughly 10% desktop-free share is explicitly a guess. Shah's JIRA-versus-Trello comparison does not isolate segment breadth from pricing, distribution, category position, or acquisition strategy, and a broad promise can become an unfalsifiable excuse for complexity. Product scope also should not become a pretext for ignoring accessibility, safety, privacy, or underserved groups whose needs expose a flawed initial segmentation.
+Behavior-based unlocks can create incentives to chase superficial thresholds, and safety or moderation tools may need broader access than popularity-based rules. Dash's source is an outside product proposal and does not evaluate technical complexity, abuse potential, or operational costs for each suggested entitlement. Seibel offers questions rather than quantitative segment thresholds, and his successful Justin.tv example is retrospective. The 1Password source is also retrospective and company-authored: support contacts overrepresent users with problems, sales do not reveal active cross-platform use, and the roughly 10% desktop-free share is explicitly a guess. Shah's JIRA-versus-Trello comparison does not isolate segment breadth from pricing, distribution, category position, or acquisition strategy, and a broad promise can become an unfalsifiable excuse for complexity. Tavel likewise gives no denominator or feature-level evidence for the under-5% figure; search does not prove rearrangement would have been valueless to an important minority. Product scope and future-user growth should not become pretexts for ignoring accessibility, safety, privacy, expert workflows, or underserved groups whose needs expose flawed initial segmentation.
 
 ## What Changed
-- Expanded segmentation from tool entitlement to the strategic decision of whether an adjacent user group belongs inside the product's service boundary.
-- Added needs, cost-to-serve, market size, and growth potential as segment tests.
-- Added technical context and user fluency as segment dimensions that can force product-architecture and onboarding changes.
-- Added an evidence-quality boundary: support patterns can discover a segment without measuring its prevalence.
-- Added shared core value and measurable outcome relevance as tests for coherent segment expansion.
+- Extended segmentation from tool entitlement to explicit decisions about adjacent groups, service boundaries, and future cohorts.
+- Added needs, cost-to-serve, market size, growth potential, and shared core value as segment tests.
+- Added technical context and user fluency as dimensions that can force architecture and onboarding changes.
+- Clarified that support volume and vocality can discover a need without establishing prevalence or representativeness.
+- Added underlying-job diagnosis as an alternative to implementing a power user's proposed feature literally.
 
 ## Related Concepts
 - [[ProductMetricLadder]] - behavior thresholds can become operational metrics for tool access.
@@ -63,3 +69,5 @@ Behavior-based unlocks can create incentives to chase superficial thresholds, an
 - [[StartupFocus]] - segment boundaries keep incompatible user problems from fragmenting the roadmap.
 - [[PrivacyPreservingProductMeasurement]] - limited collection constrains how precisely product segments can be measured.
 - [[FeatureCreep]] - distinguishes coherent segment-specific breadth from disconnected feature accumulation.
+- [[FirstMileProductExperience]] - represents newcomers whose comprehension and activation needs differ from those of established users.
+- [[CustomerLedProductDevelopment]] - user requests are evidence to interpret by segment and underlying need rather than instructions to copy literally.

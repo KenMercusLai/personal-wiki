@@ -8,7 +8,8 @@ sources:
   - being-a-product-manager-how-to-get-your-products-built
   - building-products-the-year-of-the-looking-glass-medium
   - dau-mau-is-an-important-metric-to-measure-engagement-but-heres-where-it-fails-at-andrewchen
-last_updated: 2026-09-26
+  - five-lessons-from-scaling-pinterest-sarah-tavel-medium
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,10 +21,12 @@ The sources argue that product teams need goals and metrics at multiple horizons
 
 The ladder also has an upstream prioritization and interpretation use. A PM should learn how executives talk about business goals, treat company KPIs as the scoreboard, and avoid pitching ideas that do not plausibly move key business goals. Building Products adds two safeguards: teams should define success before launch to reduce confirmation bias, and when a metric moves unexpectedly they should investigate why before deciding how to amplify or counteract it. In this view, metrics are not only post-launch evaluation tools; they are also filters for deciding which ideas deserve development investment and diagnostic instruments for understanding whether observed behavior reflects real value.
 
+Metric choice also establishes organizational ownership. At [[Pinterest]], the growth team initially optimized monthly active users and acquired signups while no team owned the transition from registration to productive use. Replacing MAU with new weekly active pinners made the core Pin or repin action—and the experience from signup through the first home feed—the operative goal. A metric ladder therefore needs more than horizon alignment: each rung must represent progress toward user value closely enough that teams do not improve a visible number while leaving a leaky activation or retention system untouched.
+
 A category-fit constraint applies across the ladder. A short-cycle engagement ratio is only a good proxy when it matches the product's natural usage cadence. Daily frequency may be central for communication products but misleading for travel, recruiting, enterprise tools, mobility, or infrequent commerce, where retention, transaction value, monetization, or accumulated data can better express value. Even a well-known proxy must therefore be checked against its denominator mechanics, cohorts, category, and business model.
 
 ## Key Claims
-- Product goals should start from a core business theme.
+- Product goals should start from a core business theme and express meaningful user progress rather than surface activity alone.
 - Long-term business metrics are often too slow to guide iterative product work.
 - A product-level metric should mark the user-behavior change expected on the path to the business goal.
 - A very-short-term proxy metric can let teams make decisions before a full long-term cohort matures, but short-cycle metrics need time-zone buffers when the user base is international.
@@ -46,13 +49,16 @@ A category-fit constraint applies across the ladder. A short-cycle engagement ra
 - Cadence fit: [[dau-mau-is-an-important-metric-to-measure-engagement-but-heres-where-it-fails-at-andrewchen]] argues that [[DAUMAU]] fits daily communication and social behavior better than episodic travel, recruiting, enterprise, mobility, or commerce use.
 - Denominator effect: [[dau-mau-is-an-important-metric-to-measure-engagement-but-heres-where-it-fails-at-andrewchen]] says notifications can increase MAU faster than DAU and lower the ratio even while total activity grows.
 - Alternative evidence: [[dau-mau-is-an-important-metric-to-measure-engagement-but-heres-where-it-fails-at-andrewchen]] recommends examining hardcore cohorts, network or content accumulation, monetization, and value per interaction when daily frequency is structurally low.
+- Metric-choice failure: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] says Pinterest's MAU goal rewarded top-of-funnel growth while ownership of new-user activation remained split or absent.
+- Core-action replacement: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] says the shift to new weekly active pinners aligned Growth with getting newcomers from signup to Pinterest's core Pin or repin behavior.
 
 ## Counterevidence & Qualifications
-Proxy metrics can mislead when they stop correlating with the long-term business outcome, mismatch the product's natural cadence, or encourage local optimization. A ratio can also move because its denominator changes: reactivation may increase MAU faster than DAU without reducing total use. Slow KPIs can mislead in the opposite direction when teams overreact to small sampled changes, methodology shifts, or seasonality. Countermetrics reduce but do not eliminate metric gaming because teams can still choose weak safeguards or miss second-order effects. KPI alignment can also become too narrow if teams only pitch ideas with obvious near-term metric effects and ignore qualitative learning, platform quality, risk reduction, or strategic-option value. The sources give operating patterns but not full statistical validation rules, so teams still need to check whether short-cycle metrics remain trustworthy leading indicators and whether long-cycle metrics remain comparable across time.
+Proxy metrics can mislead when they stop correlating with the long-term business outcome, mismatch the product's natural cadence, or encourage local optimization. A ratio can also move because its denominator changes: reactivation may increase MAU faster than DAU without reducing total use. Slow KPIs can mislead in the opposite direction when teams overreact to small sampled changes, methodology shifts, or seasonality. Countermetrics reduce but do not eliminate metric gaming because teams can still choose weak safeguards or miss second-order effects. KPI alignment can also become too narrow if teams only pitch ideas with obvious near-term metric effects and ignore qualitative learning, platform quality, risk reduction, or strategic-option value. Pinterest's account is retrospective and gives no absolute MAU or weekly-active-pinner series, attribution method, or proof that the metric change alone accelerated growth. The sources give operating patterns but not full statistical validation rules, so teams still need to check whether short-cycle metrics remain trustworthy leading indicators and whether long-cycle metrics remain comparable across time.
 
 ## What Changed
 - Added Building Products' pre-launch metric definition, countermetric pairing, Crystal Ball technique, and causal investigation norm for unexpected metric changes.
 - Added category cadence, denominator mechanics, and value-per-interaction as tests for whether an engagement proxy is actually meaningful.
+- Added Pinterest's MAU-to-weekly-active-pinner shift as a case where metric choice changed team ownership from acquisition volume to successful activation around a core action.
 
 ## Related Concepts
 - [[RuleOfThreesProductDevelopment]] - supplies the long, short, and very-short goal structure.
@@ -65,3 +71,5 @@ Proxy metrics can mislead when they stop correlating with the long-term business
 - [[ProductIdeaPrioritization]] - uses KPI impact as one way to rank candidate product ideas.
 - [[ProductMarketFit]] - retention can be a stronger fit metric than raw engagement or total users.
 - [[DAUMAU]] - example of a short-cycle engagement ratio whose meaning depends on product cadence and denominator behavior.
+- [[VanityMetrics]] - explains how an improving surface number can become self-reinforcing despite weak evidence of user value.
+- [[FirstMileProductExperience]] - activation metrics should make the newcomer's path to initial value visible and owned.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Five Lessons from Scaling Pinterest](sources/five-lessons-from-scaling-pinterest-sarah-tavel-medium.md) - Sarah Tavel connects Pinterest's metric, organization, user-segment, trust, and strategic-focus choices to scaling from roughly five to 650 employees.
 - [First Mover Disadvantage](sources/first-mover-disadvantage-avc.md) - Fred Wilson argues that first entry can ease initial dominance but sustaining leadership requires adaptive product, engineering, financial, organizational, and management capability.
 - [First Evidence That Online Dating Is Changing the Nature of Society](sources/first-evidence-that-online-dating-is-changing-the-nature-of-society-mit-technology-review.md) - A 2017 article links online dating's stranger connections to modeled interracial integration and marriage stability while preserving the gap between simulation, historical correlation, and causation.
 - [Finding new music in the algorithm age](sources/finding-new-music-in-the-algorithm-age-the-outline.md) - Six music professionals combine streaming, specialist platforms, publications, networks, shows, stores, submissions, and credits while questioning whether easy recommendation produces deep engagement.
@@ -704,6 +705,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Sarah Tavel](entities/SarahTavel.md) - Product leader represented through her first-person retrospective on scaling Pinterest's metrics, teams, product decisions, trust, and strategy.
 - [Josue Ortega](entities/JosueOrtega.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
 - [Philipp Hergovich](entities/PhilippHergovich.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
 - [Ann-Derrick Gaillot](entities/AnnDerrickGaillot.md) - Writer who frames six contrasting human and platform-based responses to algorithm-dominated music discovery.
@@ -1624,7 +1626,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Instapaper](entities/Instapaper.md) - Read-later service that grew from a narrow offline-reading side project through mixed early revenue, platform expansion, acquisitions, and a mature reading workflow.
 - [Marco Arment](entities/MarcoArment.md) - Instapaper founder who moved from a five-hour prototype and evening development to a deliberately small full-time software business.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
-- [Pinterest](entities/Pinterest.md) - Visual-discovery company represented through acquisition, viral artifacts, mobile-web investment, and contextual personalization-signal experiments.
+- [Pinterest](entities/Pinterest.md) - Visual-discovery company represented through acquisition, growth systems, mobile-web investment, feature discipline, organization design, trust, and strategic resilience.
 - [Sophia Feng](entities/SophiaFeng.md) - Pinterest Growth software engineer who documented experiments on onboarding, signal coverage, and personalization.
 - [App Store](entities/AppStore.md) - Apple's mobile marketplace, combining app distribution and volatile discovery with stronger spending than Google Play in the 2015 and Q4 2017 snapshots.
 - [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 and Q4 2017 estimates frame the Google Play versus App Store download and spending split.
@@ -1974,6 +1976,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [User Trust Capital](concepts/UserTrustCapital.md) - Accumulated goodwill from reliable product experiences and communication that shapes how users interpret failures and major changes.
 - [First-Mover Strategy](concepts/FirstMoverStrategy.md) - Turning uncontested early entry into durable market leadership through capability building, adaptation, and competitor learning.
 - [Online Dating Social Integration](concepts/OnlineDatingSocialIntegration.md) - Hypothesis that dating platforms add ties beyond existing social circles and can alter population-level partner matching.
 - [Music Discovery](concepts/MusicDiscovery.md) - Encountering unfamiliar music through interacting platform, human, editorial, physical, live, and historical pathways.
@@ -2657,11 +2660,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, shared context, and explicit domain and cross-domain decision ownership.
 - [One-Person Team Risk](concepts/OnePersonTeamRisk.md) - Quality, learning, continuity, momentum, and morale failures caused by concentrating a whole project's context in one person.
-- [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking long-term business themes to product goals and frequently measured proxy metrics.
+- [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking business outcomes to meaningful user behavior, countermetrics, and frequently measured proxies.
 - [DAU/MAU](concepts/DAUMAU.md) - Daily-to-monthly active-user ratio whose meaning depends on natural product cadence, denominator behavior, and complementary value evidence.
 - [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges, DSPs, and DMP-provided labels use user, context, advertiser, and audience data to decide whether and how much to bid for impressions.
 - [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.
-- [Product User Segmentation](concepts/ProductUserSegmentation.md) - Product practice of tailoring tools, defaults, and permissions to distinct user needs and behaviors.
+- [Product User Segmentation](concepts/ProductUserSegmentation.md) - Product practice of interpreting evidence and tailoring scope, tools, defaults, and permissions across distinct user groups.
 - [Social Media Curation](concepts/SocialMediaCuration.md) - Deliberate shaping of social-platform follows, lists, feeds, and interaction boundaries for useful information intake.
 - [Net Promoter Score](concepts/NetPromoterScore.md) - Customer-loyalty metric and survey program that subtracts detractor share from promoter share and turns open-ended comments into product input.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
@@ -3028,7 +3031,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Housing-Cost-Driven Migration](concepts/HousingCostDrivenMigration.md) - Relocation driven by lower housing and commuting costs that improve household living standards without requiring higher destination pay.
 - [Crowded Market Entry](concepts/CrowdedMarketEntry.md) - Entering an established category by treating competition as qualified demand evidence and serving a distinct reachable subsegment.
 - [Hype and Craft Cultures](concepts/HypeAndCraftCultures.md) - Distinguishes commercial urgency and promise-making from reflective production craft while treating both as interdependent.
-- [Team-Based Organizational Design](concepts/TeamBasedOrganizationalDesign.md) - Uses persistent accountable teams, bounded experiments, and cross-team learning infrastructure as the basis of capability and resilience.
+- [Team-Based Organizational Design](concepts/TeamBasedOrganizationalDesign.md) - Uses accountable teams with strategy-aligned, end-to-end capability plus cross-team learning infrastructure as the basis of delivery and resilience.
 - [First Mile Product Experience](concepts/FirstMileProductExperience.md) - Newcomer-facing welcome, onboarding, defaults, copy, empty states, and initial actions that create orientation and immediate value.
 - [Design Operations](concepts/DesignOperations.md) - Coordination of principles, tools, files, components, governance, and terminology for coherent cross-functional product work.
 - [Haar Cascade Object Detection](concepts/HaarCascadeObjectDetection.md) - Multiscale cascade detector whose convenient real-time use is balanced by parameter sensitivity and false positives.
