@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Facebook’s Desperate Smoke Screen](sources/facebooks-desperate-smoke-screen-study-hacks-cal-newport.md) - Cal Newport argues that Facebook emphasized tractable democratic harms while avoiding the deeper conflict between reducing compulsive use and protecting engagement-linked advertising revenue.
 - [Facebook knew about Snap's struggles months before the public](sources/facebook-knew-about-snaps-struggles-months-before-the-public-engadget.md) - Onavo telemetry reportedly gave Facebook early visibility into Snapchat, WhatsApp, and live-video rivals while raising consent and competition concerns.
 - [Facebook isn’t the social network anymore. So what is it?](sources/facebook-isnt-the-social-network-anymore-so-what-is-it.md) - A 2016 account argues that context collapse shifted Facebook from personal sharing toward a media portal while its acquisitions hedged social interaction across narrower products.
 - [Facebook and the Cost of Monopoly](sources/facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson.md) - Ben Thompson argues that Facebook's free user service can still exercise power over publishers, advertisers, and innovation through demand aggregation and network leverage.
@@ -683,6 +684,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Cal Newport](entities/CalNewport.md) - Study Hacks author represented through his critique of attention capture and engagement-funded social platforms.
+- [George Soros](entities/GeorgeSoros.md) - Philanthropist and open-society advocate represented through his 2018 criticism of social-media addiction and political manipulation.
 - [Jon Fingas](entities/JonFingas.md) - Engadget journalist reporting on Facebook's use of Onavo telemetry for competitive decisions.
 - [Onavo](entities/Onavo.md) - Facebook-owned VPN and mobile-data team whose Protect telemetry reportedly informed competitive decisions.
 - [AdEspresso](entities/AdEspresso.md) - Advertising-management platform and publisher represented through its historical aggregate Facebook ad-cost benchmarks.
@@ -1916,6 +1919,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Engagement Incentive Conflict](concepts/EngagementIncentiveConflict.md) - Tension between revenue that benefits from more usage and user welfare that may require less compulsive, more bounded engagement.
 - [Competitive Intelligence](concepts/CompetitiveIntelligence.md) - Use of rival and market signals for strategic decisions, with consumer telemetry adding consent, purpose, and power concerns.
 - [Context Collapse](concepts/ContextCollapse.md) - The compression of distinct audiences into one setting can suppress personal disclosure even while overall platform use remains high.
 - [Aggregator Monopoly Power](concepts/AggregatorMonopolyPower.md) - Multi-sided platform power that appears in supplier surplus, advertising scarcity, or innovation even when users pay no monetary price.

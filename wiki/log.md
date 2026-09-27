@@ -5415,3 +5415,11 @@ Added [[JonFingas]]'s 2017 report that [[Facebook]] used aggregated app-frequenc
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook’s Desperate Smoke Screen
+
+Added Cal Newport's qualified argument that Facebook's engagement-funded economics make compulsive-use reform harder than content-focused democracy initiatives; created Cal Newport, George Soros, and Engagement Incentive Conflict pages, and updated Facebook and Attention Economy.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

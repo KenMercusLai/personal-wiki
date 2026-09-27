@@ -6,7 +6,8 @@ sources:
   - words-still-matter-3-min-read
   - blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su
   - ads-just-work-no-matter-what-you-think-noteworthy-the-journal-blog
-last_updated: 2026-09-24
+  - facebooks-desperate-smoke-screen-study-hacks-cal-newport
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,12 +15,12 @@ knowledge_schema: synthesis-v1
 [[AttentionEconomy]] is the media and platform incentive system in which human attention is measured, commodified, and rewarded as a route to revenue.
 
 ## Current Synthesis
-When attention converts into money, publishers, recommendation systems, and advertisers can profit from whatever captures people most cheaply, regardless of quality, context, truth, or deliberate choice. Online attention traces can be recorded, analyzed to infer preference, and reused or traded to capture more attention, creating a feedback loop in which compulsion may be mistaken for demand. Exposure also need not become sustained conscious attention before every psychological effect is possible: associative cues may alter evaluations even when much of the surrounding advertising field is screened out. This makes exposure, perception, awareness, and engagement distinct outcomes and connects attention economics to [[AutomaticAdvertisingInfluence]].
+When attention converts into money, publishers, recommendation systems, and advertisers can profit from whatever captures people most cheaply, regardless of quality, context, truth, or deliberate choice. Online attention traces can be recorded, analyzed to infer preference, and reused or traded to capture more attention, creating a feedback loop in which compulsion may be mistaken for demand. Newport adds a firm-level consequence: when advertising inventory grows with time spent, reducing compulsive use can threaten revenue more directly than changing which content sustains engagement, producing an [[EngagementIncentiveConflict]]. Exposure also need not become sustained conscious attention before every psychological effect is possible: associative cues may alter evaluations even when much of the surrounding advertising field is screened out. This makes exposure, perception, awareness, and engagement distinct outcomes and connects attention economics to [[AutomaticAdvertisingInfluence]].
 
 The proposed responses span personal allocation discipline, reduced involuntary exposure, and incentive realignment through direct reader payment, ad-free service, and contributor rewards tied to depth and member value. None is complete: subscription systems can still optimize compulsion, personal discipline cannot remove ambient exposure, and the evidence does not quantify how often low-attention exposure changes real purchases or aggregate welfare.
 
 ## Key Claims
-- Attention-based revenue rewards capture independently of whether attention was earned through informed, conscious choice.
+- Attention-based revenue rewards capture independently of whether attention was earned through informed, conscious choice, and can make reduced usage economically costly.
 - Systems that infer preference from observed behavior can confuse compulsion, outrage, or morbid curiosity with genuine desire.
 - Volume and speed become economically favored when revenue per reader falls and each additional click remains monetizable.
 - Direct reader payment can reduce the conflict between maximizing advertiser attention and serving readers, but only if payment actually rewards quality and value.
@@ -36,15 +37,18 @@ The proposed responses span personal allocation discipline, reduced involuntary 
 - Behavioral feedback: [[blog-wulc-ren-zhi-hong-li-yue-du-bi-ji-1-gai-nian-zhong-su]] says online attention trails can be analyzed to predict preferred content, target further material, or be shared with other merchants.
 - Attention stages: [[ads-just-work-no-matter-what-you-think-noteworthy-the-journal-blog]] distinguishes brand and ad exposure from perception, awareness, and engagement, although its numerical estimates lack documented methodology.
 - Low-attention influence: [[ads-just-work-no-matter-what-you-think-noteworthy-the-journal-blog]] describes evaluative-conditioning experiments whose reported effects persisted under cognitive load, counter-instructions, and financial incentive.
+- Engagement conflict: [[facebooks-desperate-smoke-screen-study-hacks-cal-newport]] argues that Facebook could address political content while preserving usage, whereas removing compulsive features would directly challenge an advertising model tied to time spent.
+- Useful-use boundary: [[facebooks-desperate-smoke-screen-study-hacks-cal-newport]] acknowledges valuable Facebook Groups but argues that deliberately using them requires much less engagement than the platform has an incentive to generate.
 
 ## Counterevidence & Qualifications
-All three sources offer practitioner or popular syntheses rather than measured system-level causal evidence. Wulc's article is also a secondary reading note and does not specify which attention signals are stored, sold, or causally responsible for later behavior. John Val John's article does not document the methodology behind its exposure counts or show that laboratory conditioning effects produce durable purchases, aggregate spending, anxiety, or environmental harm. Direct payment does not inherently produce truthful, nuanced, or high-quality work, and subscription systems can still optimize engagement, personalize compulsively, or reward popularity. The Medium article provides no before-and-after data showing that its alternative improved content or user understanding.
+All four sources offer practitioner or popular syntheses rather than measured system-level causal evidence. Wulc's article is also a secondary reading note and does not specify which attention signals are stored, sold, or causally responsible for later behavior. John Val John's article does not document the methodology behind its exposure counts or show that laboratory conditioning effects produce durable purchases, aggregate spending, anxiety, or environmental harm. Newport's article is a polemical incentive analysis: it does not establish Facebook's intent, clinically measure addiction, or support its 5-10% engagement scenario with a financial model. Direct payment does not inherently produce truthful, nuanced, or high-quality work, and subscription systems can still optimize engagement, personalize compulsively, or reward popularity. The Medium article provides no before-and-after data showing that its alternative improved content or user understanding.
 
 ## What Changed
 - Added behavioral trace collection and reuse as the feedback mechanism connecting attention capture to later targeting.
 - Distinguished wasted attention from commercially harvested and reused attention.
 - Preserved direct payment as only one qualified incentive countermodel, alongside personal allocation discipline.
 - Distinguished exposure, conscious attention, and engagement while adding limited-attention associative influence as a qualified mechanism.
+- Added the conflict between reducing compulsive usage and protecting engagement-linked advertising revenue, while preserving valuable bounded use as a qualification.
 
 ## Related Concepts
 - [[WebAdEconomics]] - advertising is the revenue mechanism connecting attention to publisher income.
@@ -53,3 +57,4 @@ All three sources offer practitioner or popular syntheses rather than measured s
 - [[NicheSubscriptionPublishing]] - direct reader revenue offers one alternative incentive structure.
 - [[VanityMetrics]] - raw attention measures can look valuable without demonstrating durable reader benefit.
 - [[AutomaticAdvertisingInfluence]] - explains why conscious attention may not capture every psychological effect of ad exposure.
+- [[EngagementIncentiveConflict]] - explains why an attention-funded platform may prefer reforms that preserve total usage.
