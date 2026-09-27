@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Flavors of Engineering Management](sources/flavors-of-engineering-management-thinking-inside-a-large-box.md) - Benjamin Encz compares functional tech-lead, cross-functional product-team, and people-focused engineering managers through their scope, ownership, evaluation, and accountability tradeoffs.
 - [Five principles for great interface copywriting](sources/five-principles-for-great-interface-copywriting-gv-library.md) - A GV Library essay treats clear, specific, direct interface language as design material that should be written and tested throughout prototyping.
 - [Five Lessons from Scaling Pinterest](sources/five-lessons-from-scaling-pinterest-sarah-tavel-medium.md) - Sarah Tavel connects Pinterest's metric, organization, user-segment, trust, and strategic-focus choices to scaling from roughly five to 650 employees.
 - [First Mover Disadvantage](sources/first-mover-disadvantage-avc.md) - Fred Wilson argues that first entry can ease initial dominance but sustaining leadership requires adaptive product, engineering, financial, organizational, and management capability.
@@ -707,6 +708,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Benjamin Encz](entities/BenjaminEncz.md) - Engineering leader represented through a three-part practitioner taxonomy of engineering-manager role design.
 - [Sarah Tavel](entities/SarahTavel.md) - Product leader represented through her first-person retrospective on scaling Pinterest's metrics, teams, product decisions, trust, and strategy.
 - [Josue Ortega](entities/JosueOrtega.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
 - [Philipp Hergovich](entities/PhilippHergovich.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
@@ -1978,6 +1980,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Engineering Manager Role Design](concepts/EngineeringManagerRoleDesign.md) - Allocation of technical depth, people management, product ownership, evaluation, and accountability around engineering-team topology.
 - [Interface Copywriting](concepts/InterfaceCopywriting.md) - Design of labels, controls, instructions, and supporting text for clear action, context, trust, and iterative product testing.
 - [User Trust Capital](concepts/UserTrustCapital.md) - Accumulated goodwill from reliable product experiences and communication that shapes how users interpret failures and major changes.
 - [First-Mover Strategy](concepts/FirstMoverStrategy.md) - Turning uncontested early entry into durable market leadership through capability building, adaptation, and competitor learning.

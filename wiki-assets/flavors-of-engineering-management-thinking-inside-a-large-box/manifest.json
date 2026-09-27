@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "flavors-of-engineering-management-thinking-inside-a-large-box",
+  "images": [
+    {
+      "file": "functional-tech-lead-organization.png",
+      "alt": "Functional engineering managers lead stack-specific engineers who collaborate through a separate cross-functional feature team"
+    },
+    {
+      "file": "cross-functional-product-team-managers.png",
+      "alt": "Product-team engineering managers each lead engineers from several technology stacks within one feature area"
+    },
+    {
+      "file": "people-manager-across-feature-teams.png",
+      "alt": "A people engineering manager spans engineers in multiple feature teams while local tech leads guide technical work"
+    }
+  ]
+}

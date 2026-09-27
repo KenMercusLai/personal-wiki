@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Flavors of Engineering Management
+
+Added Benjamin Encz's 2018 comparison of functional tech-lead, cross-functional product-team, and people-focused engineering managers. Created [[BenjaminEncz]] and [[EngineeringManagerRoleDesign]] with the resulting tradeoffs among coding, technical depth, product ownership, management span, evaluation evidence, delegated leadership, and accountability. Preserved the essay's practitioner and historical limits, its illustrative rather than validated team-size ranges, and Encz's explicit lack of firsthand experience with the people-manager model. The local export's three referenced image files were absent; recovered the same diagrams from the original published article, inspected them, and retained all three at their semantic positions under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-28] ingest | Five Lessons from Scaling Pinterest
 
 Added [[SarahTavel]]'s first-person account of Pinterest's scale from roughly five to 650 employees. Created Sarah Tavel and [[UserTrustCapital]]; updated [[Pinterest]], [[ProductMetricLadder]], [[TeamBasedOrganizationalDesign]], and [[ProductUserSegmentation]] from their complete ordered evidence inventories with the MAU-to-weekly-active-pinner shift, end-to-end team ownership, power-user representativeness limits, personal search as root-cause product design, cross-functional trust deposits, and first-principles recovery from lost Facebook distribution. Preserved the account's retrospective and causal limits, the unsupported under-5% and five-positive-to-one-negative figures, and the distinction between interpreting user evidence and ignoring users. Opened all ten effective local images, omitted duplicate team photographs and prose-duplicating lesson graphics, and retained the one growth chart at its semantic position under a descriptive filename; its 60-by-22-pixel resolution prevents reliable recovery of axes, dates, or values.
@@ -5586,6 +5590,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Five principles for great interface copywriting
 
 Added a GV Library practitioner's five-part account of interface copy as functional design material. Created [[InterfaceCopywriting]] and updated [[GV]] from its complete ordered evidence inventory with action-specific wording, front-loaded labels, direct context, trust-supporting explanations, and realistic copy throughout prototypes and user tests. Preserved the limits of an unmeasured practitioner essay rather than treating its reading and prototype-performance claims as universal evidence. Opened all four local images and omitted them as duplicate crops or tiny versions of the same hand-drawn web sketch whose reliable lesson is already repeated in the prose and caption, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 
