@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import base64
+import contextlib
 import hashlib
 import importlib.util
+import io
 import json
 from pathlib import Path
 import shutil
@@ -38,6 +40,22 @@ def managed_hashes(root: Path) -> dict[str, str]:
 
 
 class ExactConsumerContractTest(unittest.TestCase):
+    def test_missing_wikilink_reports_source_without_blocking_preparation(self):
+        prepare = load_script(PREPARE, "prepare_personal_wiki_missing_link")
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / "wiki/sources/example.md"
+            source.parent.mkdir(parents=True)
+            source.write_text("See [[Missing|readable label]] and [[Missing]].\n", encoding="utf-8")
+            page = prepare.WikiPage("example", "Example", "sources", source, {})
+            warnings = io.StringIO()
+            with contextlib.redirect_stderr(warnings):
+                links, references = prepare.make_link_data([page], root)
+            self.assertEqual(references, 2)
+            self.assertIn("example", links)
+            self.assertNotIn("Missing", links)
+            self.assertIn("WARNING: missing Wiki target Missing (2): wiki/sources/example.md", warnings.getvalue())
+
     def test_checked_in_managed_inputs_exactly_match_head_git_blobs(self):
         tracked = subprocess.run(
             ["git", "ls-tree", "-r", "--name-only", "-z", "HEAD", "--", "wiki", "wiki-assets"],

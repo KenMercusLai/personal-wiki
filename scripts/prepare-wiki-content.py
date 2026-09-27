@@ -199,9 +199,12 @@ def make_link_data(pages: list[WikiPage], root: Path) -> tuple[dict[str, object]
             target = _wikilink_target(match.group(1))
             if target not in by_key:
                 missing[target].append(path.relative_to(root).as_posix())
-    if missing:
-        summary = ", ".join(f"{key} ({len(paths)})" for key, paths in sorted(missing.items()))
-        raise ValueError(f"missing Wiki targets: {summary}")
+    for key, paths in sorted(missing.items()):
+        print(
+            f"WARNING: missing Wiki target {key} ({len(paths)}): "
+            + ", ".join(sorted(set(paths))),
+            file=sys.stderr,
+        )
     payload = {
         GENERATED_JSON_KEY: GENERATOR_ID,
         **{

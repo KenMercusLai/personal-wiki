@@ -557,13 +557,6 @@ def _load_contract(repository: pathlib.Path) -> CanonicalContract:
                 f"canonical synthesis page has invalid exact ordered H2 schema: {page.key}"
             )
 
-    for path in sorted(wiki.rglob("*.md")):
-        if "_generated" in path.parts or path.name in {"index.md", "log.md", "overview.md"}:
-            continue
-        for raw in WIKILINK_RE.findall(path.read_text(encoding="utf-8")):
-            target = _wikilink_target(raw)
-            if target not in by_key:
-                raise ValueError(f"canonical wikilink has no target: {path}: {target}")
 
     expected_images: dict[str, tuple[bytes, str]] = {}
     source_keys = {page.key for page in pages if page.section == "sources"}
@@ -809,23 +802,40 @@ def _verify_identity_page(
             raise ValueError(f"{relative}: each Evidence item must contain a canonical source anchor")
         relationship = "Related Concepts" if page.section == "concepts" else "Relationships"
         relationship_items = [item for item in parser.section_items if item.section == relationship]
-        if not relationship_items or any(not item.hrefs for item in relationship_items):
-            raise ValueError(f"{relative}: each {relationship} item must contain a relationship anchor")
+        if not relationship_items:
+            raise ValueError(f"{relative}: {relationship} items are missing")
         relationship_match = re.search(
             rf"(?ms)^##[ \t]+{re.escape(relationship)}[ \t]*$\n(.*?)(?=^##[ \t]+|\Z)",
             page.body,
         )
         if relationship_match is None:
             raise ValueError(f"invalid canonical relationship section: {page.key}")
+        relationship_bullets = re.findall(r"(?m)^[ \t]{0,3}[-+*] +(.+)$", relationship_match.group(1))
+        if len(relationship_bullets) != len(relationship_items):
+            raise ValueError(f"{relative}: relationship item count mismatch")
         expected_relationships: list[tuple[str, str]] = []
-        for raw in WIKILINK_RE.findall(relationship_match.group(1)):
-            target_key = _wikilink_target(raw)
-            target = pages_by_key.get(target_key)
-            if target is None or target.section not in {"concepts", "entities"}:
-                raise ValueError(
-                    f"invalid canonical Concept/Entity relationship target: {page.key}: {target_key}"
-                )
-            expected_relationships.append((urljoin(root_url, target.route), target.title))
+        for bullet, item in zip(relationship_bullets, relationship_items):
+            raw_links = WIKILINK_RE.findall(bullet)
+            if not raw_links:
+                raise ValueError(f"{relative}: relationship item has no canonical wikilink")
+            expected_hrefs: list[str] = []
+            for raw in raw_links:
+                target_key = _wikilink_target(raw)
+                target = pages_by_key.get(target_key)
+                if target is None:
+                    label = raw.split("|", 1)[1] if "|" in raw else target_key
+                    if label not in item.text:
+                        raise ValueError(f"{relative}: missing relationship label: {label}")
+                    continue
+                if target.section not in {"concepts", "entities"}:
+                    raise ValueError(
+                        f"invalid canonical Concept/Entity relationship target: {page.key}: {target_key}"
+                    )
+                href = urljoin(root_url, target.route)
+                expected_hrefs.append(href)
+                expected_relationships.append((href, target.title))
+            if [urljoin(canonical, href) for href in item.hrefs] != expected_hrefs:
+                raise ValueError(f"{relative}: {relationship} relationship anchor mismatch")
         actual_relationships = [
             (
                 urljoin(canonical, anchor.attrs.get("href", "")),
