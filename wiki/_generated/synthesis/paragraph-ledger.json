@@ -505,12 +505,13 @@
       "7f034b30b649ddeefe2f45fd606c30657324aa81099d7454dcaefddaf622fa41",
       "f6acd2364baf8b08efb4ac808b9a24109a270492b7fa26ffdbeac4aa25abe4cd",
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
-      "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
+      "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
+      "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9"
     ],
-    "paragraph_count": 505
+    "paragraph_count": 506
   },
-  "overview_commit": "69d1eca0cf743e24e7ef4fe6d792cb8f0e4f8a70",
-  "overview_digest": "55dd8efc5dcb26d93a95f9cc0adb16605c3acc25c8b7514e5fcb34c95d8c7a0c",
+  "overview_commit": "2cc80ee0f4a7b0f9ec32e79b311d0de8a3898356",
+  "overview_digest": "2a1dc83515eba7a7a8867370855d830bb60f45b6f6ad5df1e648db8ca48ca25c",
   "paragraphs": [
     {
       "id": "e4599bc574f21802933db23a677d47efe35383a85c5afac033adde3510f3df95",
@@ -10215,6 +10216,23 @@
         "TDengine",
         "TimeSeriesDatabase",
         "TimescaleDB"
+      ]
+    },
+    {
+      "id": "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[Loish]] source adds [[ArtBlock]] as a visual-art instance of [[CreatorAnxiety]] and extends [[ProlificPractice]] with retrospective self-comparison. Paired 2004 and 2016 drawings visibly differ in anatomy, volume, gesture, detail, and line confidence, making a creator's own earlier work a more informative progress baseline than current flaws judged only against professionals. The practical response combines evidence and reduced stakes: revisit old work to notice development, then allow the next attempt to be poor or playful so fear of failure does not prevent making. This also connects to [[CreativePresence]], because drawing for enjoyment can loosen performance pressure. The evidence remains selected before-and-after work plus practitioner testimony; it does not isolate repetition from instruction, feedback, maturation, elapsed time, or curation, and it does not address every cause of persistent creative blockage. Two unique comparison images were retained at their semantic positions, while a lower-resolution duplicate of the portrait comparison was omitted.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ArtBlock",
+        "CreativePresence",
+        "CreatorAnxiety",
+        "Loish",
+        "ProlificPractice"
       ]
     }
   ],

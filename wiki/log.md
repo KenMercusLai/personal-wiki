@@ -5303,3 +5303,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Evolving as an artist and overcoming art block
+
+Added a 2016 Talk Illustration article using [[Loish]]'s 2004 and 2016 redraws to connect visible artistic development with expectation-driven [[ArtBlock]]. Created Loish and Art Block; updated [[CreatorAnxiety]] and [[ProlificPractice]] from their complete ordered evidence inventories with retrospective self-comparison, permission for imperfect work, and the limits of selected before-and-after evidence. Opened all three local images, retained two unique comparison studies with descriptive canonical filenames and a complete manifest, and omitted one lower-resolution duplicate.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

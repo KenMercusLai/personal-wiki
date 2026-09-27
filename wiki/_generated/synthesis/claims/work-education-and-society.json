@@ -36,13 +36,18 @@
       "id": "personal-benchmarks-protect-distinctive-work",
       "qualifications": [
         "The argument comes from a short persuasive essay and two anonymized writer anecdotes, not comparative research on autonomy, performance, satisfaction, or career outcomes.",
-        "Personal benchmarks need external reality checks, and autonomy does not eliminate shared quality, ethical, legal, safety, or coordination obligations."
+        "Personal benchmarks need external reality checks, and autonomy does not eliminate shared quality, ethical, legal, safety, or coordination obligations.",
+        "[[Loish]]'s paired drawings and art-block advice are selected practitioner evidence; they show change but do not isolate repetition from instruction, feedback, maturation, elapsed time, or curation, and they do not address every cause of persistent creative blockage."
       ],
-      "statement": "[[PersonStrategyFit]] connects creative autonomy with self-directed evaluation: methods and work environments should be tested against the individual's voice, skills, temperament, and goals, while personal benchmarks and the authentic-want discipline in [[WantRealityCareerFramework]] can reduce imitation without rejecting learning from others.",
+      "statement": "[[PersonStrategyFit]] connects creative autonomy with self-directed evaluation: methods and work environments should be tested against the individual's voice, skills, temperament, and goals, while personal benchmarks and the authentic-want discipline in [[WantRealityCareerFramework]] can reduce imitation without rejecting learning from others. [[Loish]] adds a visual-art case: comparing current work with older work can make progress visible, while permission for an imperfect or playful next attempt can reduce expectation-driven [[ArtBlock]] and reconnect [[CreatorAnxiety]] with [[ProlificPractice]].",
       "status": "qualified",
       "supporting_wikilinks": [
         "PersonStrategyFit",
-        "WantRealityCareerFramework"
+        "WantRealityCareerFramework",
+        "Loish",
+        "ArtBlock",
+        "CreatorAnxiety",
+        "ProlificPractice"
       ]
     },
     {
@@ -1107,6 +1112,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence.",
+  "summary": "Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence.",
   "topic_id": "work-education-and-society"
 }

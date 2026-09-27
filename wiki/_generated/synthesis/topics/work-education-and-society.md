@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-27
-as_of_overview_commit: 48733f01a13c7490478ad9703d2f39635998c2fb
-input_digest: 59e9813b61f9c4dfe1b514854ea719ce8029b1723b404772880b674ab8d935f7
+as_of_overview_commit: 2cc80ee0f4a7b0f9ec32e79b311d0de8a3898356
+input_digest: 0d60c30320d3b9133eb4df4b15d38b8eb0dfa491a67941e570bbfe230635b9d1
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence.
+Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence.
 
 ## Cross-source Findings
 
@@ -39,14 +39,15 @@ Work, education, and social systems are practice-rich environments in which acce
 
 ### Personal Benchmarks Protect Distinctive Work
 
-[[PersonStrategyFit]] connects creative autonomy with self-directed evaluation: methods and work environments should be tested against the individual's voice, skills, temperament, and goals, while personal benchmarks and the authentic-want discipline in [[WantRealityCareerFramework]] can reduce imitation without rejecting learning from others.
+[[PersonStrategyFit]] connects creative autonomy with self-directed evaluation: methods and work environments should be tested against the individual's voice, skills, temperament, and goals, while personal benchmarks and the authentic-want discipline in [[WantRealityCareerFramework]] can reduce imitation without rejecting learning from others. [[Loish]] adds a visual-art case: comparing current work with older work can make progress visible, while permission for an imperfect or playful next attempt can reduce expectation-driven [[ArtBlock]] and reconnect [[CreatorAnxiety]] with [[ProlificPractice]].
 
-**Evidence:** [[PersonStrategyFit]], [[WantRealityCareerFramework]]
+**Evidence:** [[PersonStrategyFit]], [[WantRealityCareerFramework]], [[Loish]], [[ArtBlock]], [[CreatorAnxiety]], [[ProlificPractice]]
 
 **Qualifications:**
 
 - The argument comes from a short persuasive essay and two anonymized writer anecdotes, not comparative research on autonomy, performance, satisfaction, or career outcomes.
 - Personal benchmarks need external reality checks, and autonomy does not eliminate shared quality, ethical, legal, safety, or coordination obligations.
+- [[Loish]]'s paired drawings and art-block advice are selected practitioner evidence; they show change but do not isolate repetition from instruction, feedback, maturation, elapsed time, or curation, and they do not address every cause of persistent creative blockage.
 
 ### Production Constraints Turn Concepts Into Shared Practice
 

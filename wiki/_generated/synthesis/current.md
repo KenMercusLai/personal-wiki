@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-27
-as_of_overview_commit: 69d1eca0cf743e24e7ef4fe6d792cb8f0e4f8a70
+as_of_overview_commit: 2cc80ee0f4a7b0f9ec32e79b311d0de8a3898356
 summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, capability, consent, and recoverable boundaries."
-episode_count: 656
-source_count: 656
-paragraph_count: 505
+episode_count: 657
+source_count: 657
+paragraph_count: 506
 topic_count: 9
 ---
 

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Evolving as an artist and overcoming art block](sources/evolving-as-an-artist-and-overcoming-art-block-talk-illustration.md) - Loish's 2004 and 2016 redraws frame visible personal progress, lower expectations, and playful imperfect work as responses to art block.
 - [Everything You Need to Know About What Amazon Is Doing in Financial Services](sources/everything-you-need-to-know-about-what-amazon-is-doing-in-financial-services.md) - CB Insights frames Amazon's mid-2018 payments, cash, lending, cards, insurance, and fintech investments as commerce-ecosystem infrastructure rather than a conventional universal bank.
 - [Everything You Need To Know About Startup Recruitment](sources/everything-you-need-to-know-about-startup-recruitment-rocketshp.md) - ROCKETSHP connects hiring need and role design with sourcing, screening, evidence, pipeline management, onboarding, culture, and retention while exposing dated and bias-prone tactics.
 - [Evernote is what happens when you mix VC with a Notes app](sources/evernote-is-what-happens-when-you-mix-vc-with-a-notes-app.md) - A competitor-authored 2016 essay uses Evernote to argue that venture growth and exit pressure can undermine focus, reliability, privacy, and long-term note custody.
@@ -670,6 +671,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Loish](entities/Loish.md) - Digital artist and animator represented through longitudinal redraws and advice about progress, expectations, and art block.
 - [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
 - [Standard Notes](entities/StandardNotes.md) - Open-source, private, cross-platform note project promoted as a long-horizon alternative to Evernote.
 - [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader framed through acquisition-led product capability building, with causal attribution kept qualified.
@@ -1887,6 +1889,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Art Block](concepts/ArtBlock.md) - Creative inhibition linked here to unrealistic expectations, flaw-focused comparison, and fear of failure.
 - [Venture-Backed Growth Pressure](concepts/VentureBackedGrowthPressure.md) - Incentive risk that external equity and expected liquidity can make expansion or exit more salient than a smaller stable product.
 - [Editing for Clarity](concepts/EditingForClarity.md) - Intent-first revision that reduces ambiguity across language, reader context, tone, and visual structure.
 - [Production Ownership](concepts/ProductionOwnership.md) - Continuing responsibility for observing, operating, and improving software after the people who build it deploy it.
