@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "camera-filters-mediate-self-presentation",
+      "qualifications": [
+        "The source offers a cultural interpretation rather than user research, so it does not establish effects on identity development, authenticity, social connection, or wellbeing.",
+        "The retained illustration demonstrates an expressive transformation but does not show live tracking or observed behavior."
+      ],
+      "statement": "[[AugmentedReality]] can mediate self-presentation when [[Snapchat]] Lenses transform the captured face into an expressive message; [[AlexisMadrigal]] connects this camera interface to mood and narrative, while [[SocialDriverHierarchy]] provides a related but independently unvalidated motivation model.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AugmentedReality",
+        "Snapchat",
+        "AlexisMadrigal",
+        "SocialDriverHierarchy"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "responsibility-boundaries-emerge-through-change",
       "qualifications": [
         "The evidence is one practitioner refactoring and a self-selected comment thread, not a comparative decomposition method or objective responsibility metric.",

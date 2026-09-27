@@ -5630,3 +5630,11 @@ Added [[HomepageMessagingClarity]] as a homepage-level standard for making an of
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Forget drones and spaceships: The Snapchat dogface filter is the future
+
+Added [[AlexisMadrigal]]'s 2016 argument that phone cameras are becoming real-time processing and communication interfaces, with [[Snapchat]] Lenses reframing [[AugmentedReality]] from overlaying external space toward transforming the camera-mediated self. Created Alexis Madrigal and Augmented Reality; updated Snapchat and [[EvanSpiegel]] from their complete ordered evidence inventories with the camera-company thesis, rotating Lens mechanism, and reported Looksery link. Preserved the essay's cultural and strategic claims as unmeasured interpretations rather than evidence that face filters displaced spatial AR or caused retention, identity, or network outcomes. Opened the sole local image and retained it under a descriptive canonical filename at the relevant product claim; it demonstrates an expressive dog-face Lens example without showing live tracking or user behavior.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

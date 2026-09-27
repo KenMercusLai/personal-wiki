@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "camera-transformation-links-product-and-self-presentation",
+      "qualifications": [
+        "The evidence is one interpretive 2016 essay without comparative usage, retention, revenue, identity, wellbeing, technical-performance, or acquisition-return measures.",
+        "Face filters broaden augmented reality beyond overlay-only definitions but do not establish that selfie transformation displaced spatial, industrial, game, or glasses-based AR."
+      ],
+      "statement": "[[AlexisMadrigal]] interprets [[Snapchat]] Lenses as a product model in which [[AugmentedReality]] turns the camera into a real-time transformation and communication input; rotating and sponsored effects connect [[EvanSpiegel]]'s camera-company position with proposed repeat use and commercial surfaces, while [[SocialDriverHierarchy]] supplies a related self-presentation mechanism.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AlexisMadrigal",
+        "Snapchat",
+        "AugmentedReality",
+        "EvanSpiegel",
+        "SocialDriverHierarchy"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "interface-copy-is-testable-product-design",
       "qualifications": [
         "The evidence is one practitioner essay without sample sizes, task measures, controlled wording comparisons, or comparative prototype outcomes.",

@@ -4,8 +4,8 @@ generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
 last_updated: 2026-09-28
-as_of_overview_commit: 6a36ccdd5fab87911b033e50771dec6aa0b3cfa4
-input_digest: 21310d95ceeb7f483752076bb3fca4a0bdc63d27ec657e4ca2494d1925b8d31f
+as_of_overview_commit: ea82fc5aa831f29521c2850e03da99f86c9150c1
+input_digest: e456ad3f89dfb91ec77cf5df4bb193a6f93427734603687771b317c521814c78
 ---
 
 # Science, Health, and Climate
@@ -15,6 +15,17 @@ input_digest: 21310d95ceeb7f483752076bb3fca4a0bdc63d27ec657e4ca2494d1925b8d31f
 This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, language-model science framing, developer-economy signals, and several technology, work, philosophy, and habit claims routed here indirectly. The newest graduate-finance source reaches the topic only through health-plan deductible risk and supplies no general medical finding; none of the indirect material supports a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
+
+### Augmented Reality Is Router Spillover
+
+[[AugmentedReality]], [[Snapchat]], and [[AlexisMadrigal]] reach this topic through a technology-category argument: real-time face processing broadens AR beyond overlaying information on external space, while [[EvanSpiegel]] and [[SocialDriverHierarchy]] belong to its product and self-presentation context.
+
+**Evidence:** [[AugmentedReality]], [[Snapchat]], [[AlexisMadrigal]], [[EvanSpiegel]], [[SocialDriverHierarchy]]
+
+**Qualifications:**
+
+- The deterministic router assigned this camera-interface paragraph here indirectly; it is not a health, climate, or natural-science finding.
+- One 2016 essay and a retained product illustration provide no comparative technical-performance or user-outcome evidence.
 
 ### Graduate Finance Health Guidance Is Indirect And Historical
 

@@ -10,6 +10,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’](sources/for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk.md) - Hunter Walk argues that venture decisions and failure post-mortems should judge foreseeable risks against the scale, assumptions, and credibility of the successful outcome.
 - [For New Social Networks, Offering an Audience is No Longer Enough](sources/for-new-social-networks-offering-an-audience-is-no-longer-enough.md) - A 2016 essay uses Vine to argue that fragmented creator networks and monetization alternatives make creator churn a core social-platform risk.
 - [For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages](sources/for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages.md) - Scrapinghub frames large-scale product extraction as a coupled throughput-and-quality system spanning site change, pipeline separation, request efficiency, anti-bot operations, and automated QA.
+- [Forget drones and spaceships: The Snapchat dogface filter is the future](sources/forget-drones-and-spaceships-the-snapchat-dogface-filter-is-the-future.md) - Alexis Madrigal reframes Snapchat Lenses as camera-mediated self-transformation and a mass-market alternative to overlay-only visions of augmented reality.
 - [Flavors of Engineering Management](sources/flavors-of-engineering-management-thinking-inside-a-large-box.md) - Benjamin Encz compares functional tech-lead, cross-functional product-team, and people-focused engineering managers through their scope, ownership, evaluation, and accountability tradeoffs.
 - [Five principles for great interface copywriting](sources/five-principles-for-great-interface-copywriting-gv-library.md) - A GV Library essay treats clear, specific, direct interface language as design material that should be written and tested throughout prototyping.
 - [Five Lessons from Scaling Pinterest](sources/five-lessons-from-scaling-pinterest-sarah-tavel-medium.md) - Sarah Tavel connects Pinterest's metric, organization, user-segment, trust, and strategic-focus choices to scaling from roughly five to 650 employees.
@@ -712,6 +713,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Alexis Madrigal](entities/AlexisMadrigal.md) - Technology writer represented through a 2016 interpretation of cameras, augmented reality, and visual self-presentation.
 - [Meltwater](entities/Meltwater.md) - Historical customer account of a media-contact-data offer obscured by broad homepage positioning and explained through a sales conversation.
 - [84.51°](entities/EightyFourFiftyOne.md) - Historical retail-data case in which broad homepage language prevented a visitor from confirming a specific dataset fit.
 - [Scrapinghub](entities/Scrapinghub.md) - Historical web-data-extraction company profile connecting Scrapy, Frontera, Crawlera, crawl engineering, and QA operations.
@@ -767,7 +769,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Loish](entities/Loish.md) - Digital artist and animator represented through longitudinal redraws and advice about progress, expectations, and art block.
 - [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
 - [Standard Notes](entities/StandardNotes.md) - Open-source, private, cross-platform note project promoted as a long-horizon alternative to Evernote.
-- [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader framed through acquisition-led product capability building, with causal attribution kept qualified.
+- [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader associated with acquisition-led capability building and Snap's camera-as-communication product thesis.
 - [Zach Holman](entities/ZachHolman.md) - Startup practitioner writing about employer diligence, termination, offboarding, and alumni relationships.
 - [Stewart Butterfield](entities/StewartButterfield.md) - Slack leader used as a source-scoped example of dissatisfaction with a successful product's current state.
 - [Eva Parish](entities/EvaParish.md) - Writer and technical-documentation practitioner represented through a cross-genre, judgment-led editing philosophy.
@@ -1416,7 +1418,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product spanning CRM-like ads, chatbot and micro-app ambitions, hybrid interfaces, and Messenger Day's broadcast-context conflict.
 - [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
 - [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
-- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover, sharing norms, Stories format, and acquisition-derived capabilities shaped its product position.
+- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover, Stories, Lenses, sharing norms, and acquisition-derived capabilities shaped its product position.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
@@ -1990,6 +1992,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Augmented Reality](concepts/AugmentedReality.md) - Real-time transformation of a camera-mediated view through both spatial overlays and edits to captured people or environments.
 - [Homepage Messaging Clarity](concepts/HomepageMessagingClarity.md) - Making a homepage's offer, audience, customer job, and practical value quickly legible.
 - [Venture Capital Upside Evaluation](concepts/VentureCapitalUpsideEvaluation.md) - Judging whether a startup's credible successful outcome justifies its failure risks within a power-law venture portfolio.
 - [Large-Scale Web Scraping](concepts/LargeScaleWebScraping.md) - High-volume extraction discipline that couples crawl throughput with maintenance, anti-bot resilience, and automated data-quality controls.

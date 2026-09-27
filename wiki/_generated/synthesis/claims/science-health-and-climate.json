@@ -2,6 +2,23 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "augmented-reality-is-router-spillover",
+      "qualifications": [
+        "The deterministic router assigned this camera-interface paragraph here indirectly; it is not a health, climate, or natural-science finding.",
+        "One 2016 essay and a retained product illustration provide no comparative technical-performance or user-outcome evidence."
+      ],
+      "statement": "[[AugmentedReality]], [[Snapchat]], and [[AlexisMadrigal]] reach this topic through a technology-category argument: real-time face processing broadens AR beyond overlaying information on external space, while [[EvanSpiegel]] and [[SocialDriverHierarchy]] belong to its product and self-presentation context.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "AugmentedReality",
+        "Snapchat",
+        "AlexisMadrigal",
+        "EvanSpiegel",
+        "SocialDriverHierarchy"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "graduate-finance-health-guidance-is-indirect-and-historical",
       "qualifications": [
         "This is one 2016 U.S. personal-finance article, not medical, insurance, tax, or benefits guidance; its eligibility rules and dollar figures require current individualized verification.",

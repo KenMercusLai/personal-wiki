@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
       "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
       "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
       "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
@@ -536,11 +537,33 @@
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1"
     ],
-    "paragraph_count": 534
+    "paragraph_count": 535
   },
-  "overview_commit": "08540daf4f18c2d071021d182754b681f59dd131",
-  "overview_digest": "74707304f698768843e0b212a25c2e97ebbc96d0fa7777885641486bd5884c9b",
+  "overview_commit": "ea82fc5aa831f29521c2850e03da99f86c9150c1",
+  "overview_digest": "80deb1e934bfb8442e92065ba3ea66d188df731a2d80ebabb22feebc2cd7d5e1",
   "paragraphs": [
+    {
+      "id": "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "science-health-and-climate",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[AlexisMadrigal]] source adds [[AugmentedReality]] as real-time transformation of a camera-mediated view, not only a graphic or informational layer placed over external space. In its 2016 [[Snapchat]] case, Lenses smooth skin, enlarge eyes, or turn a face into an animal or effect, making the image sensor an input and the processed result a social message. This sharpens [[SocialDriverHierarchy]] by giving self-presentation an interface mechanism: the camera can help users transmit mood and narrative rather than claim fidelity, while rotating and sponsored effects create proposed return-use and commercial surfaces. It also gives [[EvanSpiegel]]'s “camera company” position a product interpretation and corroborates Looksery as an acquisition associated with Lens capability. The synthesis remains plural and source-scoped: face filters demonstrate that AR need not be limited to data glasses or environmental overlays, but one essay does not establish the category's lasting dominant form or provide comparative usage, retention, identity, wellbeing, technical-performance, or acquisition-return evidence. The retained illustration visibly combines Snapchat's ghost with a dog-face Lens and sunglasses, supporting the expressive transformation example without showing live tracking or user behavior.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlexisMadrigal",
+        "AugmentedReality",
+        "EvanSpiegel",
+        "Snapchat",
+        "SocialDriverHierarchy"
+      ]
+    },
     {
       "id": "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
       "primary_topic": "business-and-markets",
