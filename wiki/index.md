@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Facebook’s shameless copying of Snapchat and what it means for your product strategy](sources/facebooks-shameless-copying-of-snapchat-and-what-it-means-for-your-product-strategy-product-habits.md) - Hiten Shah uses Facebook's Stories rollout and KISSmetrics' missed competitor responses to argue for customer-grounded imitation and faster competitive execution.
 - [Facebook’s algorithm isn’t surfacing one-third of our posts. And it’s getting worse](sources/facebooks-algorithm-isnt-surfacing-one-third-of-our-posts-and-its-getting-worse.md) - Kurt Gessler shows that the Chicago Tribune's growing Facebook audience masked a rapid increase in severe organic-reach misses, while leaving the cause unresolved.
 - [Facebook’s Mental Health Problem](sources/facebooks-mental-health-problem-anxy-magazine-medium.md) - A first-person account and clinician interviews distinguish social media causing depression from reward, comparison, attention, and performance harms during an existing episode.
 - [Facebook, The App Store, And The Sound Of Inevitability](sources/facebook-the-app-store-and-the-sound-of-inevitability-techcrunch.md) - MG Siegler uses AOL to argue that controlled platforms accelerate mainstream adoption but must open as external technologies and user needs expand.
@@ -687,6 +688,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [KISSmetrics](entities/KISSmetrics.md) - Product-analytics company presented as an early innovator that later discounted important competitor signals.
+- [Heap](entities/Heap.md) - Product-analytics competitor represented through automatic website-event capture.
 - [Chicago Tribune](entities/ChicagoTribune.md) - Newspaper represented through a 2017 analysis of the gap between Facebook follower growth and organic post reach.
 - [Kurt Gessler](entities/KurtGessler.md) - Chicago Tribune digital editor who analyzed 15 months of Facebook reach using averages, medians, and distribution buckets.
 - [Deanna Zandt](entities/DeannaZandt.md) - Media technologist and writer represented through her account of depressive dissonance between lived distress and curated public identity.
@@ -1928,6 +1931,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Product Imitation Strategy](concepts/ProductImitationStrategy.md) - Deliberate adoption or adaptation of a proven competitor move to close a customer-value gap.
 - [Depression and Social Media](concepts/DepressionAndSocialMedia.md) - Interaction between existing depression and reward seeking, attention, comparison, performative identity, intimacy, and platform boundaries.
 - [Open-Closed Platform Cycle](concepts/OpenClosedPlatformCycle.md) - Proposed pattern in which controlled platforms simplify adoption but later face pressure to open or be displaced by outside technologies and ecosystems.
 - [Engagement Incentive Conflict](concepts/EngagementIncentiveConflict.md) - Tension between revenue that benefits from more usage and user welfare that may require less compulsive, more bounded engagement.

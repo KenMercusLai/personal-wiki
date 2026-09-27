@@ -2306,8 +2306,27 @@
         "Pinterest",
         "ProductFlowFriction"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "competitive-imitation-needs-customer-fit-and-execution",
+      "qualifications": [
+        "The evidence is one founder-practitioner retrospective whose Facebook adoption figures do not isolate copying from network strength, distribution, acquisition, timing, or product quality.",
+        "The KISSmetrics counterfactual is untested, Messenger Day shows that portfolio logic does not guarantee host-product fit, and network-leveraged copying can weaken innovation competition even when it is rational for the incumbent."
+      ],
+      "statement": "[[ProductImitationStrategy]] treats competitor success as market evidence rather than a ban on response: [[Facebook]] used existing distribution to answer [[Snapchat]] Stories, while [[KISSmetrics]] is presented as missing product, pricing, mobile, and automatic-capture signals from [[Mixpanel]] and [[Heap]]; [[CompetitiveIntelligence]] and customer research should therefore update one market hypothesis before teams copy, adapt, or decline a move.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ProductImitationStrategy",
+        "Facebook",
+        "Snapchat",
+        "KISSmetrics",
+        "Mixpanel",
+        "Heap",
+        "CompetitiveIntelligence"
+      ]
     }
   ],
-  "summary": "[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure. The new-media panel adds a market-gap qualification: the space between mass advertising and expensive specialist information may require subscriptions or mixed portfolios, platform support, and direct audience relationships rather than one universal model. [[ContextualSignalCollection]] adds that personalization value depends not only on signal coverage but also on request timing, user comprehension, and boundaries around sensitive data. [[FacebookAdvertisingCosts]] adds that platform prices are auction- and context-dependent, while volume and downstream value limit the usefulness of cheap intermediate outcomes. [[AggregatorMonopolyPower]] adds that a free, low-marginal-cost user service can still shift costs into publisher bargaining, differentiated advertising inventory, and innovation competition, though the evidence is source-scoped rather than a legal or causal finding.",
+  "summary": "Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. New [[ProductImitationStrategy]] adds that competitor moves can reveal customer-value gaps, but a response still needs contextual fit, execution, and governance; the Facebook and KISSmetrics cases do not prove that copying alone caused success or that a missed imitation would have reversed decline.",
   "topic_id": "business-and-markets"
 }

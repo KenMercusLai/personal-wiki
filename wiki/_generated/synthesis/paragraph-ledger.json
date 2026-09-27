@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c8979081412ed707ba29f2d1495db58dbc5bbaf33f0209bef16deba4eafcd662",
       "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
       "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
       "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
@@ -518,11 +519,33 @@
       "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559",
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d"
     ],
-    "paragraph_count": 516
+    "paragraph_count": 517
   },
-  "overview_commit": "2800c3b6098a8661aa4ae67f6cdaef85efa4ea25",
-  "overview_digest": "2051a202d289eb3d88b2f5b05d38ebd9d8355078b7ba7b16796b4eb19010efa2",
+  "overview_commit": "8a77f0870849b24c534e93cc970c9443f3f8911c",
+  "overview_digest": "cdaa5ab659a05796ad5b2f06d153f964122d821abfaefb9d16efcbb3478ffb5b",
   "paragraphs": [
+    {
+      "id": "c8979081412ed707ba29f2d1495db58dbc5bbaf33f0209bef16deba4eafcd662",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[HitenShah]] source adds [[ProductImitationStrategy]] as a customer-grounded response to competitive discovery rather than a rejection of innovation. In its positive case, [[Facebook]] treated [[Snapchat]]'s hold on younger attention as an existential signal, moved from failed standalone camera apps to Stories-style features across Instagram, WhatsApp, Messenger, and Facebook, and paired a thirty-year direction with six-month reassessment. In its negative case, [[KISSmetrics]] validated real analytics pain and shipped a rough one-month MVP but later discounted [[Mixpanel]]'s free plan, mobile focus, and demonstrative real-time view plus [[Heap]]'s automatic capture. This broadens [[CompetitiveIntelligence]] from privileged telemetry to ordinary product, pricing, positioning, and sales signals that should update a team's market hypothesis alongside customer research. The synthesis is narrower than “copy competitors”: a visible move still requires evidence of customer value, contextual fit, feasible execution, and acceptable competitive effects. The essay is a founder retrospective with an untested KISSmetrics counterfactual, and Facebook's reported adoption figures do not isolate copying from network strength, distribution, acquisition, or timing. [[MessengerDay]] shows that a portfolio strategy can succeed while one host product remains a poor fit, and [[AggregatorMonopolyPower]] preserves the opposing view that network-leveraged copying can reduce innovation competition. Eleven inspected evidence-bearing images were retained at their semantic positions; only the decorative Product Habits banner was omitted.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AggregatorMonopolyPower",
+        "CompetitiveIntelligence",
+        "Facebook",
+        "Heap",
+        "HitenShah",
+        "KISSmetrics",
+        "MessengerDay",
+        "Mixpanel",
+        "ProductImitationStrategy",
+        "Snapchat"
+      ]
+    },
     {
       "id": "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
       "primary_topic": "science-health-and-climate",

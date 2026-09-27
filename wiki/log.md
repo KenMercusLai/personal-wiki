@@ -5443,3 +5443,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Facebook’s algorithm isn’t surfacing one-third of our posts. And it’s getting worse
 
 Added [[KurtGessler]]'s 15-month analysis showing that the [[ChicagoTribune]]'s growing Facebook audience masked a rapid expansion of severe organic-reach misses. Created Kurt Gessler and Chicago Tribune, and updated [[Facebook]], [[PlatformDistributionDependence]], and [[AlgorithmicFeastAndFamine]] from their complete ordered evidence inventories. Preserved the key causal boundary: posting frequency, content mix, Instant Articles, news cycles, competition, post quality, and Facebook ranking remain possible contributors rather than isolated causes. Opened all nine unique local images, retained the two full-resolution evidence-bearing charts once each, and omitted seven degraded 60×40 thumbnails whose material information was repeated in the prose.
+
+## [2026-09-28] ingest | Facebook’s shameless copying of Snapchat and what it means for your product strategy
+
+Added [[HitenShah]]'s argument that selective competitor imitation can close an important customer-value gap, using Facebook's Stories rollout as the positive case and KISSmetrics' missed responses to Mixpanel and Heap as the cautionary case. Created [[KISSmetrics]], [[Heap]], and [[ProductImitationStrategy]], and updated Hiten Shah, Product Habits, and [[CompetitiveIntelligence]] from their complete ordered evidence inventories. Preserved the untested KISSmetrics counterfactual, the mismatch between compared user-count scopes, Messenger Day's host-product fit conflict, and the monopoly-power objection to network-leveraged copying. Inspected all 12 remote images, omitted the decorative Product Habits banner, and retained 11 evidence-bearing headline composites, strategy-book pages, historical usage data, and KISSmetrics testimonials under descriptive canonical filenames.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

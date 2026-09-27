@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "source_key": "facebooks-shameless-copying-of-snapchat-and-what-it-means-for-your-product-strategy-product-habits",
+  "images": [
+    {
+      "file": "press-copying-headlines.png",
+      "alt": "Press headlines repeatedly frame Facebook's Stories launches as copies of Snapchat"
+    },
+    {
+      "file": "press-criticism-headlines.png",
+      "alt": "Critical press headlines question Facebook's innovation and describe its Snapchat imitation as confusing"
+    },
+    {
+      "file": "create-the-thing-that-kills-facebook.jpg",
+      "alt": "Facebook Little Red Book page says the company must create the thing that kills Facebook before someone else does"
+    },
+    {
+      "file": "six-months-or-thirty-years.jpg",
+      "alt": "Facebook Little Red Book page pairs a thirty-year direction with six-month planning cycles"
+    },
+    {
+      "file": "press-competitive-outcome-headlines.png",
+      "alt": "Later press headlines frame Facebook's copied Stories products as a competitive threat to Snapchat"
+    },
+    {
+      "file": "snapchat-instagram-stories-daily-users.png",
+      "alt": "Historical chart shows Instagram Stories daily users rising from launch to 200 million while Snapchat rises from roughly 90 million to 160 million"
+    },
+    {
+      "file": "kissmetrics-funnel-matt-wensing.png",
+      "alt": "Matt Wensing praises fast retroactive funnel creation in the KISSmetrics beta"
+    },
+    {
+      "file": "kissmetrics-funnel-joanna-lord.png",
+      "alt": "Joanna Lord praises creating KISSmetrics conversion funnels on the fly"
+    },
+    {
+      "file": "kissmetrics-live-debugger-taylor-brown.png",
+      "alt": "Taylor Brown praises the KISSmetrics live debugger's real-time event display"
+    },
+    {
+      "file": "kissmetrics-api-tim-oakes.png",
+      "alt": "Tim Oakes comments favorably on working with the KISSmetrics API"
+    },
+    {
+      "file": "kissmetrics-people-tab-sean-ellis.png",
+      "alt": "Sean Ellis praises the KISSmetrics people tab for showing an individual's event timeline"
+    }
+  ]
+}

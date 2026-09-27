@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 2800c3b6098a8661aa4ae67f6cdaef85efa4ea25
-summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, and recoverable boundaries."
-episode_count: 673
-source_count: 673
-paragraph_count: 516
+as_of_overview_commit: 8a77f0870849b24c534e93cc970c9443f3f8911c
+summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, contextual fit, and recoverable boundaries."
+episode_count: 674
+source_count: 674
+paragraph_count: 517
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, explicit ownership, evaluated cont
 
 ### Business and Markets
 
-Durable value depends on customer outcomes, sustainable economics, governed distribution, operating capability, aligned capital, learning, risk discipline, and scrutiny of platform power.
+Durable value depends on customer outcomes, sustainable economics, governed distribution, contextual competitive response, operating capability, aligned capital, learning, risk discipline, and scrutiny of platform power.
 
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
 - [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity. Evidence: [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]].
