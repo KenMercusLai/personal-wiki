@@ -5356,6 +5356,10 @@ Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’
+
+Added [[HunterWalk]]'s upside-first framework for venture decisions and failed-startup post-mortems. Created [[VentureCapitalUpsideEvaluation]] and updated Hunter Walk from his complete ordered evidence inventory with power-law outcome scale, bull-case credibility, foreseeability, execution difficulty, investor risk-profile fit, and a qualified proposal for background conversations with reporters. Preserved the boundary that optimistic assumptions cannot make every investment defensible and the source's lack of fund data, memo examples, comparative cases, reporter perspectives, or a prospective scoring method. Opened both local images, retained one readable copy of their near-duplicate power-law curve, and omitted the duplicate.
+
 ## [2026-09-28] ingest | Firing People
 
 Added [[ZachHolman]]'s first-person account of his 2015 dismissal from [[GitHub]] and created [[EmployeeTermination]] as an end-to-end process spanning performance clarity, decisions under stress, secure offboarding, truthful internal communication, separation terms, benefits, equity, coworker support, and alumni relationships. Updated Zach Holman, GitHub, and [[ExtendedStockOptionExerciseWindow]] from their complete ordered evidence inventories; preserved the uncertainty around the dismissal rationale, the source's historical California startup scope, the limits of its categorical HR advice, and the imprecision of its 90-day ISO claim. The Markdown references five local images, but the supplied `Firing People_files` directory is absent, so none could be opened or retained and the visual portion of the source remains unverified.
@@ -5610,6 +5614,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | For New Social Networks, Offering an Audience is No Longer Enough
 
 Added a short 2016 argument that audience access alone cannot retain creators when their networks span multiple platforms and monetization alternatives are available. Updated [[Vine]] and [[CreatorGraduationProblem]] from their complete ordered evidence inventories, distinguishing cross-platform effort shifts from the later creator-independence and take-rate account. Preserved the source's limits as an unquantified contemporary interpretation of Vine rather than a causal study. The Markdown contains no image references, so no asset manifest was needed.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

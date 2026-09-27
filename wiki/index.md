@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’](sources/for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk.md) - Hunter Walk argues that venture decisions and failure post-mortems should judge foreseeable risks against the scale, assumptions, and credibility of the successful outcome.
 - [For New Social Networks, Offering an Audience is No Longer Enough](sources/for-new-social-networks-offering-an-audience-is-no-longer-enough.md) - A 2016 essay uses Vine to argue that fragmented creator networks and monetization alternatives make creator churn a core social-platform risk.
 - [For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages](sources/for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages.md) - Scrapinghub frames large-scale product extraction as a coupled throughput-and-quality system spanning site change, pipeline separation, request efficiency, anti-bot operations, and automated QA.
 - [Flavors of Engineering Management](sources/flavors-of-engineering-management-thinking-inside-a-large-box.md) - Benjamin Encz compares functional tech-lead, cross-functional product-team, and people-focused engineering managers through their scope, ownership, evaluation, and accountability tradeoffs.
@@ -1069,7 +1070,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Hacker News](entities/HackerNews.md) - Technology and startup discussion community useful for technical critique but, in the source's analysis, limited as a proxy for mass-market demand.
 - [Dan McKinley](entities/DanMcKinley.md) - Software practitioner who argues that deployment recovery must account for persistent and mixed-version system state rather than relying on a universal rollback control.
 - [NextView Ventures](entities/NextViewVentures.md) - Venture-capital publisher presenting market size as an inspectable founder argument rather than a pitch-deck spectacle.
-- [Hunter Walk](entities/HunterWalk.md) - Technology-community author analyzing anonymous-sourcing standards, creator payment, and media-platform incentives.
+- [Hunter Walk](entities/HunterWalk.md) - Investor-author analyzing media credibility, creator economics, founder-investor fit, and upside-first venture judgment.
 - [Ellen Chisa](entities/EllenChisa.md) - Product leader framing creator compensation through content-specific revenue models, direct audience relationships, discovery, and meaningful metrics.
 - [Nick Rockwell](entities/NickRockwell.md) - Media technology executive advocating subscription-first economics while accepting mixed advertising and subscription portfolios.
 - [Unmesh Joshi](entities/UnmeshJoshi.md) - Distributed-systems author who explains Paxos, replicated logs, and two-phase commit through concise problem-and-solution patterns.
@@ -1986,6 +1987,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Venture Capital Upside Evaluation](concepts/VentureCapitalUpsideEvaluation.md) - Judging whether a startup's credible successful outcome justifies its failure risks within a power-law venture portfolio.
 - [Large-Scale Web Scraping](concepts/LargeScaleWebScraping.md) - High-volume extraction discipline that couples crawl throughput with maintenance, anti-bot resilience, and automated data-quality controls.
 - [Engineering Manager Role Design](concepts/EngineeringManagerRoleDesign.md) - Allocation of technical depth, people management, product ownership, evaluation, and accountability around engineering-team topology.
 - [Interface Copywriting](concepts/InterfaceCopywriting.md) - Design of labels, controls, instructions, and supporting text for clear action, context, trust, and iterative product testing.

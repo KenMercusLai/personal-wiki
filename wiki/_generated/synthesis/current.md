@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: bc4f1080f9941af4cf86aae02ada65e7572333c9
+as_of_overview_commit: 73f6452c19c6488bc3fdc4b5f14b3afb81afbc90
 summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, contextual fit, recovery, and learning."
-episode_count: 695
-source_count: 695
-paragraph_count: 533
+episode_count: 696
+source_count: 696
+paragraph_count: 534
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, system understanding, workloa
 
 ### Business and Markets
 
-Durable businesses align customer outcomes, coherent scope, meaningful metrics, sustainable economics, governed distribution, accumulated trust, operating capability, and risk discipline. [[LargeScaleWebScraping]] adds that high-volume data operations must couple throughput with maintenance, anti-bot state, and automated quality controls.
+Durable businesses align customer outcomes, coherent scope, meaningful metrics, sustainable economics, governed distribution, accumulated trust, operating capability, and risk discipline. [[VentureCapitalUpsideEvaluation]] adds that power-law investing must test both downside and the scale, credibility, foreseeability, and investor fit of the successful case, while [[LargeScaleWebScraping]] adds that high-volume data operations must couple throughput with maintenance, anti-bot state, and automated quality controls.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

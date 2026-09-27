@@ -114,6 +114,7 @@
       "ff88643ddcfa6a06256bd91951002b054f216452c4a77f0a0ad6fa6925bca966",
       "1d0a1ba85b9d9981d39dec7edbb9c2e409afad92314d13003dbf2e7d103d7dfa",
       "169f6abbf294feeced9fda235eb8a68e06aa8f07412c31130937aa4d2ba7f252",
+      "3cda1c11b04fe8e0ad044b69fe222010ea2a8ebf35908815633de44d18f9ef61",
       "6f5fde4fa230cd894ef110fa8dd9c1e8c173b1ef7347b6ae6b585254edef4776",
       "2eb3d4c29725425d7f111d8e7bb44d279c740875b637738c13636f56297bf9a6",
       "74974135ffa87a88cfafecce46e3a8e9c05ebff4d0704f0dfca8da18d6f1ffe1",
@@ -535,10 +536,10 @@
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1"
     ],
-    "paragraph_count": 533
+    "paragraph_count": 534
   },
-  "overview_commit": "bc4f1080f9941af4cf86aae02ada65e7572333c9",
-  "overview_digest": "d258ea577440585461b2eb490dbbdef91840c98666b5a3a887c4af7fa988d4c6",
+  "overview_commit": "73f6452c19c6488bc3fdc4b5f14b3afb81afbc90",
+  "overview_digest": "54965dde535a67fb8769f688804caa83a351fc62442193307f734a65c5080e64",
   "paragraphs": [
     {
       "id": "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
@@ -2688,6 +2689,24 @@
         "StartupValuation",
         "VentureCapitalBlindSpots",
         "VentureCapitalPortfolioSizing"
+      ]
+    },
+    {
+      "id": "3cda1c11b04fe8e0ad044b69fe222010ea2a8ebf35908815633de44d18f9ef61",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "[[HunterWalk]] extends that omission-risk account into [[VentureCapitalUpsideEvaluation]]: early-stage investors should identify downside, but a plausible failure mode is not dispositive when a few large wins must offset many zeros. The proposed decision and post-mortem test asks whether the successful outcome was venture-scale, whether its assumptions were credible at the time, how difficult execution would be, whether failure came from foreseeable risks or later technology, market, or regulatory change, and whether the firm had relevant experience with that risk profile. This also qualifies [[StartupFailurePatterns]] by separating a company's eventual causal account from the quality of the ex-ante investment decision. The framework does not excuse every failed bet: flexible probabilities and inflated assumptions can manufacture a paper bull case, and the source offers no fund data, memo examples, comparative decisions, reporter perspective, or prospective scoring method. Investors discussing completed-company reasoning on background may improve collective learning, but founder confidence and non-blaming analysis remain explicit boundaries. One of two near-duplicate power-law curves was retained as visual support and the duplicate was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "HunterWalk",
+        "StartupFailurePatterns",
+        "VentureCapitalUpsideEvaluation"
       ]
     },
     {
