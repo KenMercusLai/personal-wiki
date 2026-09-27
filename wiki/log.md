@@ -5391,3 +5391,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook and the Cost of Monopoly
+
+Added [[BenThompson]]'s 2017 argument that [[Facebook]]'s free, near-zero-marginal-cost user service can still exercise [[AggregatorMonopolyPower]] across publisher revenue sharing, differentiated advertising inventory, and innovation competition. Created Aggregator Monopoly Power and updated Facebook, Ben Thompson, and [[AggregationTheory]] from their complete ordered evidence inventories, preserving the unresolved ad-price test and the source's limits as a strategic argument rather than a legal finding or measured innovation counterfactual. Opened the sole effective local image and retained its monopoly-innovation diagram under a descriptive canonical filename; several earlier graphs mentioned by the prose were absent from the Markdown export and could not be inspected or retained.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

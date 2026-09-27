@@ -4,17 +4,28 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: 144a88af8b79aaae3ca6f2a85903ae1d3e7aa239
-input_digest: cbd02e623fcbe454b75efc7806ef212a5b947ba0fa2ba2e6619e14a5312173bb
+as_of_overview_commit: 0037a6e748c162921f694ce68dcd6071dfcfe435
+input_digest: 10429dd69aaab4a043ca2173e3edbfc5e89c440de696301f7b1d962825ac8c5d
 ---
 
 # Business and Markets
 
 ## Current State
 
-[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure. The new-media panel adds a market-gap qualification: the space between mass advertising and expensive specialist information may require subscriptions or mixed portfolios, platform support, and direct audience relationships rather than one universal model. [[ContextualSignalCollection]] adds that personalization value depends not only on signal coverage but also on request timing, user comprehension, and boundaries around sensitive data. [[FacebookAdvertisingCosts]] adds that platform prices are auction- and context-dependent, while volume and downstream value limit the usefulness of cheap intermediate outcomes.
+[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure. The new-media panel adds a market-gap qualification: the space between mass advertising and expensive specialist information may require subscriptions or mixed portfolios, platform support, and direct audience relationships rather than one universal model. [[ContextualSignalCollection]] adds that personalization value depends not only on signal coverage but also on request timing, user comprehension, and boundaries around sensitive data. [[FacebookAdvertisingCosts]] adds that platform prices are auction- and context-dependent, while volume and downstream value limit the usefulness of cheap intermediate outcomes. [[AggregatorMonopolyPower]] adds that a free, low-marginal-cost user service can still shift costs into publisher bargaining, differentiated advertising inventory, and innovation competition, though the evidence is source-scoped rather than a legal or causal finding.
 
 ## Cross-source Findings
+
+### Aggregator Power Can Shift Costs Across Market Sides
+
+[[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization.
+
+**Evidence:** [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]]
+
+**Qualifications:**
+
+- The evidence is one 2017 strategy essay rather than a legal market definition, causal study, or observed counterfactual for publisher revenue and innovation.
+- The advertising mechanism is conditional: constrained inventory supports differentiated market power only if prices rise rather than spending moving to substitutes, and copied features can also broaden consumer access.
 
 ### Privacy Differentiation And Channel Focus Interact
 

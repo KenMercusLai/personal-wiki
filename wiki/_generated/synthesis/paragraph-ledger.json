@@ -511,12 +511,13 @@
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
       "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9",
       "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
-      "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9"
+      "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
+      "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698"
     ],
-    "paragraph_count": 511
+    "paragraph_count": 512
   },
-  "overview_commit": "144a88af8b79aaae3ca6f2a85903ae1d3e7aa239",
-  "overview_digest": "7baed0ede077978ae975db81b8f4beffd0c843b7f98f1b33cee302b8c1c044df",
+  "overview_commit": "0037a6e748c162921f694ce68dcd6071dfcfe435",
+  "overview_digest": "2d1856d6fe69187e04d09e25a00b7f3a8a5d299682c0f0a19017acad74a11a4e",
   "paragraphs": [
     {
       "id": "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
@@ -10337,6 +10338,25 @@
         "Pinterest",
         "ProductFlowFriction",
         "SophiaFeng"
+      ]
+    },
+    {
+      "id": "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[BenThompson]] source adds [[AggregatorMonopolyPower]] as a side-specific account of harm in free, multi-sided platforms. [[Facebook]]'s near-zero marginal cost for another user weakens the conventional user-price and quantity test, but Thompson argues that demand control can still reduce publisher bargaining power, make constrained advertising inventory more profitable if prices rise, and let an incumbent copy [[Snapchat]]'s Stories format and camera-first vision into a much stronger network. This extends [[AggregationTheory]] from concentration and data processing into surplus allocation and innovation incentives, while [[PlatformPublisherRevenue]] and [[PlatformDistributionDependence]] show why content suppliers might keep participating despite weak native monetization. The synthesis remains source-scoped: this 2017 strategy essay does not define a legal market, observe the predicted ad-price response, estimate publisher counterfactual revenue, or measure innovations displaced by copying. Its sole effective local image was opened and retained as a diagram of Facebook capturing most innovation benefit while leaving reduced consumer benefit and deadweight loss; several earlier economic graphs mentioned in the prose were absent from the Markdown export.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AggregationTheory",
+        "AggregatorMonopolyPower",
+        "BenThompson",
+        "Facebook",
+        "PlatformDistributionDependence",
+        "PlatformPublisherRevenue",
+        "Snapchat"
       ]
     }
   ],
