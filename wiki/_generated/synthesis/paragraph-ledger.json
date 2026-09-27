@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "2d497d78b72d8959522d9b8ed1262476f9a1b233aecc16edd6e95f311c2ae25b",
       "d73256d331e038d2b72fc35020af9e14824a59096372320133c54dcff6f1a837",
       "c8f0c3100f46e9f5e7f877355151da5a0ccc9bd8287a817f001cb4fb971c1ab7",
       "44567a6547b6054497dcb33077037cec2106b420b37649d820ccaddbbeab4307",
@@ -523,11 +524,30 @@
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
     ],
-    "paragraph_count": 521
+    "paragraph_count": 522
   },
-  "overview_commit": "3f6b0d5bb13bd89cb05aaf40edef58372f1ae10e",
-  "overview_digest": "ff2e222c5b46ccf0a7ae0aaa6e27e3264b1bef1ce7328dee21ab7f03832c1213",
+  "overview_commit": "6a36ccdd5fab87911b033e50771dec6aa0b3cfa4",
+  "overview_digest": "da48d9be1dd83efd8cc65407232588f51b6efc7efdb74f812bf9749a51c53ecd",
   "paragraphs": [
+    {
+      "id": "2d497d78b72d8959522d9b8ed1262476f9a1b233aecc16edd6e95f311c2ae25b",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "science-health-and-climate"
+      ],
+      "text": "The newest [[DavidAndersen]] source adds [[GraduateStudentFinancialPlanning]] as an optionality-centered sequence for a narrow audience: U.S. computer-science Ph.D. students in 2016 who were citizens, permanent residents, or expected to remain and retire in the country. Positive stipend cash flow and unusually large internship income create the saving base; eligible post-tax retirement accounts can exploit comparatively low current tax rates; taxable or cash reserves cover moving, deposits, transportation, and other graduation costs; and [[IndexFundStrategy]] supplies a low-cost default that avoids timing, concentrated stock selection, hot tips, and high-fee management. The useful synthesis is broader than the named products: housing needs short-horizon transaction-cost analysis, high-deductible health plans require enough liquidity for the deductible, high-interest and subsidized debt differ, side work should not impede graduation, and money needed soon should carry less volatility than long-horizon savings. The source's tax brackets, exemptions, eligibility claims, account limits, fund tickers, expense ratios, and minimums are historical rather than current individualized guidance. Its sole image syntax has an empty target, so there was no effective visual reference to inspect or retain.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1,
+        "science-health-and-climate": 2,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "DavidAndersen",
+        "GraduateStudentFinancialPlanning",
+        "IndexFundStrategy"
+      ]
+    },
     {
       "id": "d73256d331e038d2b72fc35020af9e14824a59096372320133c54dcff6f1a837",
       "primary_topic": "ai-and-technology",

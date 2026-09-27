@@ -5506,3 +5506,11 @@ Added Figma's first-party explanation of multiplayer ordered-sequence editing: c
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Finances for CS Ph.D. students
+
+Added [[DavidAndersen]]'s 2016 financial-planning sequence for U.S. computer-science doctoral students, centered on living below stipend income, capturing internship savings, verifying tax-advantaged account eligibility, preserving graduation liquidity, evaluating debt, housing, and health-plan risks, and using simple low-cost investments. Created David Andersen and [[GraduateStudentFinancialPlanning]], and updated [[IndexFundStrategy]] from its complete ordered evidence inventory with target-date implementation, withdrawal-horizon risk matching, and historical-product qualifications. Preserved the article's narrow audience and marked its tax brackets, exemptions, account limits, eligibility claims, fund tickers, fees, and minimums as historical rather than current advice. The sole Markdown image reference has an empty target, so it is not an effective resolvable image and no visual asset or manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

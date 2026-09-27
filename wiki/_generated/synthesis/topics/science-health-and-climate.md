@@ -4,17 +4,28 @@ generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
 last_updated: 2026-09-28
-as_of_overview_commit: ca2e76875c4ee212ae83495930bbfe0859e242ef
-input_digest: 4e81165f01fd129538a4f839d489616bd1dffcef1df015fe9a10533771611365
+as_of_overview_commit: 6a36ccdd5fab87911b033e50771dec6aa0b3cfa4
+input_digest: 21310d95ceeb7f483752076bb3fca4a0bdc63d27ec657e4ca2494d1925b8d31f
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-This topic now contains one direct but source-scoped mental-health synthesis on depression and social-media use, alongside beginner scientific computing, language-model science framing, developer-economy signals, attention and habit advice, philosophy of value, and several deterministically routed technology, workplace, and media claims. None supports a broad health, climate, or natural-science conclusion.
+This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, language-model science framing, developer-economy signals, and several technology, work, philosophy, and habit claims routed here indirectly. The newest graduate-finance source reaches the topic only through health-plan deductible risk and supplies no general medical finding; none of the indirect material supports a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
+
+### Graduate Finance Health Guidance Is Indirect And Historical
+
+[[GraduateStudentFinancialPlanning]] reaches this topic only through a liquidity warning: [[DavidAndersen]] says a student considering a high-deductible health plan should be able to cover its deductible, while [[IndexFundStrategy]] and other financial choices belong to a wider planning sequence.
+
+**Evidence:** [[GraduateStudentFinancialPlanning]], [[DavidAndersen]], [[IndexFundStrategy]]
+
+**Qualifications:**
+
+- This is one 2016 U.S. personal-finance article, not medical, insurance, tax, or benefits guidance; its eligibility rules and dollar figures require current individualized verification.
+- The deterministic router assigned the paragraph here because it mentions health-plan risk, but the source supplies no comparative health-outcome evidence.
 
 ### Depression And Social Media Is Condition Specific
 

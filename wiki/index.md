@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Finances for CS Ph.D. students](sources/finances-for-cs-ph-d-students.md) - David Andersen gives 2016 U.S. CS doctoral students an optionality-focused plan spanning spending, internship savings, Roth eligibility, liquidity, debt, insurance, housing, and low-cost index funds.
 - [Realtime Editing of Ordered Sequences](sources/figma-realtime-editing-of-ordered-sequences.md) - Figma explains why its multiplayer editor uses arbitrary-precision fractional positions instead of operational transformation for ordered object lists.
 - [Feel like a fraud?](sources/feel-like-a-fraud.md) - Kirsten Weir explains how high achievers can discount success, links impostor feelings to belonging and perfectionistic effort, and surveys social, behavioral, and clinical responses.
 - [Feature/Product Fit](sources/feature-product-fit-casey-accidental.md) - Casey Winters argues that features need their own retention and scalable adoption while improving, or at least not harming, the core product.
@@ -695,6 +696,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [David Andersen](entities/DavidAndersen.md) - Computer-science professor and adviser represented through his 2016 financial-planning guide for U.S. CS Ph.D. students.
 - [Kirsten Weir](entities/KirstenWeir.md) - Psychology writer represented through a 2013 synthesis of research, clinicians, and graduate-student accounts of impostor feelings.
 - [Pauline Rose Clance](entities/PaulineRoseClance.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through its perfectionism cycle and good-enough response.
 - [Suzanne Imes](entities/SuzanneImes.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through achievement pressure, secrecy, and gradual reframing.
@@ -1950,6 +1952,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Graduate Student Financial Planning](concepts/GraduateStudentFinancialPlanning.md) - Coordination of cash flow, taxes, liquidity, debt, insurance, housing, and long-horizon investing around graduate-school constraints and career transitions.
 - [Real-Time Collaborative Editing](concepts/RealtimeCollaborativeEditing.md) - Responsive multi-client editing whose concurrent operations must converge on one shared document state.
 - [Operational Transformation](concepts/OperationalTransformation.md) - Collaborative sequence-editing method that rewrites concurrent operations to preserve their intended effects.
 - [Fractional Indexing](concepts/FractionalIndexing.md) - Ordering method that inserts or moves items by assigning sortable positions between neighboring values.

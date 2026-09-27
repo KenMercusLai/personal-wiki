@@ -1,6 +1,21 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "graduate-finance-health-guidance-is-indirect-and-historical",
+      "qualifications": [
+        "This is one 2016 U.S. personal-finance article, not medical, insurance, tax, or benefits guidance; its eligibility rules and dollar figures require current individualized verification.",
+        "The deterministic router assigned the paragraph here because it mentions health-plan risk, but the source supplies no comparative health-outcome evidence."
+      ],
+      "statement": "[[GraduateStudentFinancialPlanning]] reaches this topic only through a liquidity warning: [[DavidAndersen]] says a student considering a high-deductible health plan should be able to cover its deductible, while [[IndexFundStrategy]] and other financial choices belong to a wider planning sequence.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "GraduateStudentFinancialPlanning",
+        "DavidAndersen",
+        "IndexFundStrategy"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "depression-and-social-media-is-condition-specific",
       "qualifications": [
@@ -178,6 +193,6 @@
       ]
     }
   ],
-  "summary": "This topic now contains one direct but source-scoped mental-health synthesis on depression and social-media use, alongside beginner scientific computing, language-model science framing, developer-economy signals, attention and habit advice, philosophy of value, and several deterministically routed technology, workplace, and media claims. None supports a broad health, climate, or natural-science conclusion.",
+  "summary": "This topic contains one direct but source-scoped mental-health synthesis, beginner scientific computing, language-model science framing, developer-economy signals, and several technology, work, philosophy, and habit claims routed here indirectly. The newest graduate-finance source reaches the topic only through health-plan deductible risk and supplies no general medical finding; none of the indirect material supports a broad health, climate, or natural-science conclusion.",
   "topic_id": "science-health-and-climate"
 }
