@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Facebook’s algorithm isn’t surfacing one-third of our posts. And it’s getting worse](sources/facebooks-algorithm-isnt-surfacing-one-third-of-our-posts-and-its-getting-worse.md) - Kurt Gessler shows that the Chicago Tribune's growing Facebook audience masked a rapid increase in severe organic-reach misses, while leaving the cause unresolved.
 - [Facebook’s Mental Health Problem](sources/facebooks-mental-health-problem-anxy-magazine-medium.md) - A first-person account and clinician interviews distinguish social media causing depression from reward, comparison, attention, and performance harms during an existing episode.
 - [Facebook, The App Store, And The Sound Of Inevitability](sources/facebook-the-app-store-and-the-sound-of-inevitability-techcrunch.md) - MG Siegler uses AOL to argue that controlled platforms accelerate mainstream adoption but must open as external technologies and user needs expand.
 - [Facebook’s Desperate Smoke Screen](sources/facebooks-desperate-smoke-screen-study-hacks-cal-newport.md) - Cal Newport argues that Facebook emphasized tractable democratic harms while avoiding the deeper conflict between reducing compulsive use and protecting engagement-linked advertising revenue.
@@ -686,6 +687,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Chicago Tribune](entities/ChicagoTribune.md) - Newspaper represented through a 2017 analysis of the gap between Facebook follower growth and organic post reach.
+- [Kurt Gessler](entities/KurtGessler.md) - Chicago Tribune digital editor who analyzed 15 months of Facebook reach using averages, medians, and distribution buckets.
 - [Deanna Zandt](entities/DeannaZandt.md) - Media technologist and writer represented through her account of depressive dissonance between lived distress and curated public identity.
 - [Isabella Heuser](entities/IsabellaHeuser.md) - Psychiatrist explaining reward anticipation, anhedonia, depleted resistance, attention, and comparison during depression.
 - [MG Siegler](entities/MGSiegler.md) - TechCrunch author represented through a 2010 argument about recurring pressure between controlled platforms and the open web.

@@ -515,12 +515,13 @@
       "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
       "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
       "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698",
-      "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559"
+      "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559",
+      "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d"
     ],
-    "paragraph_count": 515
+    "paragraph_count": 516
   },
-  "overview_commit": "ca2e76875c4ee212ae83495930bbfe0859e242ef",
-  "overview_digest": "969f7c1b1d1851aa9642d4c2dce9e8e415b20a9e9653f95db4556dd5ce5e78d0",
+  "overview_commit": "2800c3b6098a8661aa4ae67f6cdaef85efa4ea25",
+  "overview_digest": "2051a202d289eb3d88b2f5b05d38ebd9d8355078b7ba7b16796b4eb19010efa2",
   "paragraphs": [
     {
       "id": "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
@@ -10419,6 +10420,19 @@
         "Onavo",
         "Snapchat",
         "WhatsApp"
+      ]
+    },
+    {
+      "id": "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
+      "primary_topic": "cross-domain",
+      "secondary_topics": [],
+      "text": "The newest [[KurtGessler]] source adds a measured publisher case to [[PlatformDistributionDependence]] and [[AlgorithmicFeastAndFamine]]. For the [[ChicagoTribune]], Facebook posts reaching at most 10,000 people rose from 8 in December 2016 to 242 in March 2017—about one-third of posts—even as the page gained more than 130,000 fans. Daily average organic reach remained volatile but superficially familiar, while average per-post reach declined and the median reached a record low; this makes distribution buckets and medians better diagnostics than follower growth or aggregate averages when a few successes can conceal many severe misses. Posting rose from roughly 20 to 24 times daily and the page's 97.2% link mix was high, but both were broadly consistent with peer newspaper practice and the content mix had not materially changed. Facebook's nearby “authentic and timely” update, non-adoption of Instant Articles, news cycles, competition, post quality, and cadence remain possible explanations rather than established causes because the evidence is one publisher's observational time series without post-level controls or platform-side data. Two full-resolution charts were retained; seven 60×40 thumbnails were opened and omitted because their material information was repeated in prose and their labels were not reliably legible.",
+      "topic_scores": {},
+      "wikilinks": [
+        "AlgorithmicFeastAndFamine",
+        "ChicagoTribune",
+        "KurtGessler",
+        "PlatformDistributionDependence"
       ]
     }
   ],

@@ -3,16 +3,16 @@
 generated: true
 topic_id: cross-domain
 title: "Cross-domain"
-last_updated: 2026-09-23
-as_of_overview_commit: d409840b08062a616be10bf67acf2d80179f8e78
-input_digest: d48bdafad6d0dd84fa879a6a5edaa824a3104e247cabae37794c669cec0d393e
+last_updated: 2026-09-28
+as_of_overview_commit: 2800c3b6098a8661aa4ae67f6cdaef85efa4ea25
+input_digest: 980f54295c2c56557e0379a6457bd5adaf0306340e01c024f35f8983fa664cad
 ---
 
 # Cross-domain
 
 ## Current State
 
-Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, applied algorithms, and serverless composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.
+Cross-domain sources emphasize infrastructure thinking across process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, and managed-service composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, evidence limits, and tradeoffs explicit enough to inspect and reuse.
 
 ## Cross-source Findings
 
@@ -85,3 +85,13 @@ Platform growth can combine near-term extraction with longer-term compounding, a
 **Qualifications:**
 
 - The bmpi.dev evidence is one small AWS implementation; its cost estimate is dated and simplified, and its environment-variable token path omits stronger managed-secret controls.
+
+### Ranked Platform Audiences Are Not Owned Reach
+
+[[PlatformDistributionDependence]] can produce [[AlgorithmicFeastAndFamine]] even as nominal audiences grow: the [[ChicagoTribune]] case shows why medians and distribution buckets can reveal severe reach misses hidden by follower totals and aggregate averages.
+
+**Evidence:** [[PlatformDistributionDependence]], [[AlgorithmicFeastAndFamine]], [[ChicagoTribune]], [[KurtGessler]]
+
+**Qualifications:**
+
+- The analysis covers one publisher and cannot isolate Facebook ranking from cadence, format, content, news cycles, competition, or Instant Articles.

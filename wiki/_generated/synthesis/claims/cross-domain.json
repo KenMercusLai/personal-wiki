@@ -100,8 +100,23 @@
         "SecretManagement",
         "ServerlessComputing"
       ]
+    },
+    {
+      "global_candidate": true,
+      "id": "ranked-platform-audiences-are-not-owned-reach",
+      "qualifications": [
+        "The analysis covers one publisher and cannot isolate Facebook ranking from cadence, format, content, news cycles, competition, or Instant Articles."
+      ],
+      "statement": "[[PlatformDistributionDependence]] can produce [[AlgorithmicFeastAndFamine]] even as nominal audiences grow: the [[ChicagoTribune]] case shows why medians and distribution buckets can reveal severe reach misses hidden by follower totals and aggregate averages.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "PlatformDistributionDependence",
+        "AlgorithmicFeastAndFamine",
+        "ChicagoTribune",
+        "KurtGessler"
+      ]
     }
   ],
-  "summary": "Cross-domain sources emphasize infrastructure thinking across process lifecycle cleanup, personal data, attention, marketing, APIs, systems estimation, mobile ergonomics, platform strategy, security triage, applied algorithms, and serverless composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, and tradeoffs explicit enough to inspect and reuse.",
+  "summary": "Cross-domain sources emphasize infrastructure thinking across process lifecycles, personal data, attention, communication, APIs, systems estimation, mobile ergonomics, platform growth and distribution, security triage, applied algorithms, and managed-service composition: durable outcomes come from making hidden flows, constraints, ownership boundaries, evidence limits, and tradeoffs explicit enough to inspect and reuse.",
   "topic_id": "cross-domain"
 }

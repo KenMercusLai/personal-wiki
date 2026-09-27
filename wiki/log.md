@@ -5439,3 +5439,7 @@ Added a first-person and clinician-supported account of how an existing depressi
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook’s algorithm isn’t surfacing one-third of our posts. And it’s getting worse
+
+Added [[KurtGessler]]'s 15-month analysis showing that the [[ChicagoTribune]]'s growing Facebook audience masked a rapid expansion of severe organic-reach misses. Created Kurt Gessler and Chicago Tribune, and updated [[Facebook]], [[PlatformDistributionDependence]], and [[AlgorithmicFeastAndFamine]] from their complete ordered evidence inventories. Preserved the key causal boundary: posting frequency, content mix, Instant Articles, news cycles, competition, post quality, and Facebook ranking remain possible contributors rather than isolated causes. Opened all nine unique local images, retained the two full-resolution evidence-bearing charts once each, and omitted seven degraded 60×40 thumbnails whose material information was repeated in the prose.
