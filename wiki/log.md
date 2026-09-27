@@ -5538,3 +5538,11 @@ Added a practitioner framework for choosing acquisition channels from customer e
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Finding new music in the algorithm age
+
+Added [[AnnDerrickGaillot]]'s six-person account of music discovery across streaming recommendations, specialist platforms, publications, professional and social networks, submissions, live shows, stores, liner notes, and musical histories. Created [[MusicDiscovery]], Ann-Derrick Gaillot, [[JenMalone]], [[LaurenRearick]], [[HuaHsu]], [[DrDemento]], [[DelaneyMotter]], [[MarcusMoore]], [[Bandcamp]], and [[SoundCloud]]; updated [[Spotify]] from its complete ordered evidence inventory with listener-facing discovery paths and the distinction between easy song recommendation and deeper artist engagement. Preserved the interview sample's role, genre, access, place, and time limits and the absence of comparative outcome evidence. Opened and omitted the sole local image as a generic decorative stock composition, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

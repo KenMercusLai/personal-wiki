@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Finding new music in the algorithm age](sources/finding-new-music-in-the-algorithm-age-the-outline.md) - Six music professionals combine streaming, specialist platforms, publications, networks, shows, stores, submissions, and credits while questioning whether easy recommendation produces deep engagement.
 - [Finding Your Startup's Customer Acquisition Channels](sources/finding-your-startups-customer-acquisition-channels.md) - A practitioner framework maps customer economics, buying behavior, product mechanics, and company stage to paid, search, sales, content, referral, and scrappy acquisition tactics.
 - [Finding Time to Become a Better Developer](sources/finding-time-to-become-a-better-developer.md) - A practitioner essay links selective learning, lifecycle-aware code quality, expectation management, risk-sensitive refinement, and scheduled recovery to sustainable developer effectiveness.
 - [Finances for CS Ph.D. students](sources/finances-for-cs-ph-d-students.md) - David Andersen gives 2016 U.S. CS doctoral students an optionality-focused plan spanning spending, internship savings, Roth eligibility, liquidity, debt, insurance, housing, and low-cost index funds.
@@ -700,6 +701,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Ann-Derrick Gaillot](entities/AnnDerrickGaillot.md) - Writer who frames six contrasting human and platform-based responses to algorithm-dominated music discovery.
+- [Jen Malone](entities/JenMalone.md) - Music supervisor combining SoundCloud, Spotify, Instagram review, licensing contacts, and an Atlanta network.
+- [Lauren Rearick](entities/LaurenRearick.md) - Music blogger using Bandcamp tags and buyer trails alongside publications, musicians, and streaming releases.
+- [Hua Hsu](entities/HuaHsu.md) - Writer represented through lineage-based listening, trusted recommendations, publications, stores, and Bandcamp trails.
+- [Dr. Demento](entities/DrDemento.md) - Specialist radio curator using direct submissions and taste-aligned filtering while personally favoring familiar music.
+- [Delaney Motter](entities/DelaneyMotter.md) - Music blogger emphasizing word of mouth and live bills while qualifying the depth of Spotify recommendations.
+- [Marcus Moore](entities/MarcusMoore.md) - Bandcamp editor and journalist combining cross-genre shows, platforms, email, stores, credits, and advocacy.
+- [Bandcamp](entities/Bandcamp.md) - Music platform represented through tags, collections, buyer activity, catalog browsing, and editorial crate digging.
+- [SoundCloud](entities/SoundCloud.md) - Music platform represented as a 2018 discovery and licensing channel for emerging hip-hop, rap, and trap.
 - [LawnStarter](entities/LawnStarter.md) - Local-services startup used as a case for bridging early Yelp and Groupon traction to sustained paid-channel experimentation.
 - [David Andersen](entities/DavidAndersen.md) - Computer-science professor and adviser represented through his 2016 financial-planning guide for U.S. CS Ph.D. students.
 - [Kirsten Weir](entities/KirstenWeir.md) - Psychology writer represented through a 2013 synthesis of research, clinicians, and graduate-student accounts of impostor feelings.
@@ -1959,6 +1969,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Music Discovery](concepts/MusicDiscovery.md) - Encountering unfamiliar music through interacting platform, human, editorial, physical, live, and historical pathways.
 - [Graduate Student Financial Planning](concepts/GraduateStudentFinancialPlanning.md) - Coordination of cash flow, taxes, liquidity, debt, insurance, housing, and long-horizon investing around graduate-school constraints and career transitions.
 - [Real-Time Collaborative Editing](concepts/RealtimeCollaborativeEditing.md) - Responsive multi-client editing whose concurrent operations must converge on one shared document state.
 - [Operational Transformation](concepts/OperationalTransformation.md) - Collaborative sequence-editing method that rewrites concurrent operations to preserve their intended effects.

@@ -524,12 +524,13 @@
       "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698",
       "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559",
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
-      "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
+      "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16",
+      "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23"
     ],
-    "paragraph_count": 524
+    "paragraph_count": 525
   },
-  "overview_commit": "2d8a4cde6318a74571e2974e0aeaf78017839ae6",
-  "overview_digest": "ef7fdd3b38dbf6dfe0577a05f47af9d5ce2b2c9eb3378b6c09ef2974d86e9edc",
+  "overview_commit": "eebd26c7cba2a56662b3cfa5ee82c5275c751a44",
+  "overview_digest": "92c08d636ffdcf8722ddfda7042c2e20abfd5d58881b7c914933f46293b3978c",
   "paragraphs": [
     {
       "id": "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
@@ -10603,6 +10604,27 @@
         "Grafana",
         "InfluxDB",
         "NetworkAutomation"
+      ]
+    },
+    {
+      "id": "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest Outline source adds a listener-side discovery layer to the wiki's Spotify material. New [[MusicDiscovery]] treats discovery as a portfolio rather than a contest between algorithms and nostalgia: [[Spotify]] supplies related artists, friends' playlists, Discover, and Release Radar; [[Bandcamp]] exposes tags, collections, buyer trails, and editorial browsing; [[SoundCloud]] is presented as an early route into emerging hip-hop, rap, and trap; and friends, professional contacts, publications, submissions, shows, record stores, liner notes, and musical histories supply human context and branching paths. [[JenMalone]], [[LaurenRearick]], [[HuaHsu]], [[DrDemento]], [[DelaneyMotter]], and [[MarcusMoore]] differ in role, genre, access, age, and available time, but collectively distinguish encountering a track from developing deeper attachment to an artist or scene. The source is six selected 2018 self-reports, not comparative evidence that human curation is more diverse or effective than algorithms, and several speakers benefit from professional access unavailable to ordinary listeners. Its single local image was opened and omitted as a decorative stock composition with no source-specific evidence.",
+      "topic_scores": {
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "Bandcamp",
+        "DelaneyMotter",
+        "DrDemento",
+        "HuaHsu",
+        "JenMalone",
+        "LaurenRearick",
+        "MarcusMoore",
+        "MusicDiscovery",
+        "SoundCloud",
+        "Spotify"
       ]
     }
   ],
