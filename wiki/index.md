@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Exclusive Interview: OpenAI’s Sam Altman Talks ChatGPT And How Artificial General Intelligence Can ‘Break Capitalism’](sources/exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism.md) - Sam Altman attributes ChatGPT's breakout to fine-tuning and interaction design, predicts gradual AGI, and argues its economic and release governance require new institutional arrangements.
 - [Evolving as an artist and overcoming art block](sources/evolving-as-an-artist-and-overcoming-art-block-talk-illustration.md) - Loish's 2004 and 2016 redraws frame visible personal progress, lower expectations, and playful imperfect work as responses to art block.
 - [Everything You Need to Know About What Amazon Is Doing in Financial Services](sources/everything-you-need-to-know-about-what-amazon-is-doing-in-financial-services.md) - CB Insights frames Amazon's mid-2018 payments, cash, lending, cards, insurance, and fintech investments as commerce-ecosystem infrastructure rather than a conventional universal bank.
 - [Everything You Need To Know About Startup Recruitment](sources/everything-you-need-to-know-about-startup-recruitment-rocketshp.md) - ROCKETSHP connects hiring need and role design with sourcing, screening, evidence, pipeline management, onboarding, culture, and retention while exposing dated and bias-prone tactics.
@@ -671,6 +672,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [DALL-E](entities/DALLE.md) - OpenAI image-generation tool represented through a retained fictional Sam Altman Forbes-cover example from 2023.
 - [Loish](entities/Loish.md) - Digital artist and animator represented through longitudinal redraws and advice about progress, expectations, and art block.
 - [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
 - [Standard Notes](entities/StandardNotes.md) - Open-source, private, cross-platform note project promoted as a long-horizon alternative to Evernote.
@@ -1502,7 +1504,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sao Paulo Clean City Law](entities/SaoPauloCleanCityLaw.md) - Outdoor-advertising ban used as a physical-world analogy for software-enabled ad-free public space.
 - [Reed Hastings](entities/ReedHastings.md) - Netflix operator cited for culture decks, talent density, context over control, and CEO role evolution.
 - [Patrick Collison](entities/PatrickCollison.md) - Stripe founder cited for slow early hiring, post-150 communication, and CEO responsibilities.
-- [Sam Altman](entities/SamAltman.md) - Startup advisor cited for hiring slowly before product-market fit.
+- [Sam Altman](entities/SamAltman.md) - OpenAI CEO and startup advisor represented through early-hiring discipline, ChatGPT launch judgment, gradual-AGI expectations, and release governance.
 - [Mariam Naficy](entities/MariamNaficy.md) - Founder-operator cited for internal leadership development, outside executives, prioritization, and post-fit growth.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
@@ -1557,7 +1559,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Shi Shu Feng](entities/ShiShuFeng.md) - Podcast venue where Hanyang's AI guide for humanities workers was publicly discussed.
 - [Feng Ruohang](entities/FengRuohang.md) - Database author, entrepreneur, and public writer describing his AI-assisted writing workflow.
 - [Gemini](entities/Gemini.md) - AI system used in the source for draft fact checking and image generation.
-- [ChatGPT](entities/ChatGPT.md) - AI assistant used for writing workflows including fact checking, rough drafting, brainstorming, outlining, voice cleanup, and tone revision.
+- [ChatGPT](entities/ChatGPT.md) - AI assistant profiled through next-token mechanics, writing and coding workflows, and a launch shaped by fine-tuning and interaction design.
 - [Spokenly](entities/Spokenly.md) - AI voice-input tool used by the author as a local customizable fallback.
 - [Typeless](entities/Typeless.md) - AI voice-input tool valued by the author for strong performance.
 - [VoiceInk](entities/VoiceInk.md) - AI voice-input tool named as a target for customizable cleanup prompts.
@@ -1662,7 +1664,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
 - [Android](entities/Android.md) - Google's broad mobile ecosystem, combining global reach and Google Play download scale with fragmentation, data-access, monetization, and governance tradeoffs.
 - [iOS](entities/IOS.md) - Apple's mobile ecosystem, service-control surface, interaction-design environment, and high-spending App Store base.
-- [Microsoft](entities/Microsoft.md) - Legacy PC-platform and software company framed through intangible economics, self-funded origins, missed mobile shift, and later enterprise-services adaptation.
+- [Microsoft](entities/Microsoft.md) - Software and platform company framed through profitable origins, intangible economics, mobile-era adaptation, product innovation, and OpenAI partnership safeguards.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
 - [Facebook](entities/Facebook.md) - Social and distribution platform whose advertising, identity, graph mediation, Groups, dependency, and data-factory roles expose competing incentives and context-dependent strengths.
@@ -1715,7 +1717,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
-- [OpenAI](entities/OpenAI.md) - AI API provider used in the private-data chatbot tutorial for model calls and embeddings.
+- [OpenAI](entities/OpenAI.md) - AI model and API provider represented through GPT research, tool calling, ChatGPT productization, mixed release modes, and AGI-oriented governance.
 - [OpenClaw](entities/OpenClaw.md) - Local-first personal-agent runtime combining IM channels, durable sessions, tools, and Skills with substantial permission, isolation, and recovery risks.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
@@ -1889,6 +1891,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Artificial General Intelligence](concepts/ArtificialGeneralIntelligence.md) - Broad AI capability framed as a gradual, disputed transition with economic concentration, access, profit-sharing, and governance consequences.
+- [Responsible AI Release](concepts/ResponsibleAIRelease.md) - Layered governance of public AI products, APIs, open-source artifacts, contracts, and downstream accountability.
 - [Art Block](concepts/ArtBlock.md) - Creative inhibition linked here to unrealistic expectations, flaw-focused comparison, and fear of failure.
 - [Venture-Backed Growth Pressure](concepts/VentureBackedGrowthPressure.md) - Incentive risk that external equity and expected liquidity can make expansion or exit more salient than a smaller stable product.
 - [Editing for Clarity](concepts/EditingForClarity.md) - Intent-first revision that reduces ambiguity across language, reader context, tone, and visual structure.

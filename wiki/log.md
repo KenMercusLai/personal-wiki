@@ -5311,3 +5311,11 @@ Added a 2016 Talk Illustration article using [[Loish]]'s 2004 and 2016 redraws t
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Exclusive Interview: OpenAI’s Sam Altman Talks ChatGPT And How Artificial General Intelligence Can ‘Break Capitalism’
+
+Added Sam Altman's early-2023 account of ChatGPT's launch, gradual AGI, possible disruption to capitalism, and layered release governance. Created [[ArtificialGeneralIntelligence]], [[ResponsibleAIRelease]], and [[DALLE|DALL-E]]; updated [[SamAltman]], [[OpenAI]], [[ChatGPT]], and [[Microsoft]] from their complete ordered evidence inventories. Preserved the boundaries that the AGI and exponential-progress claims are forecasts, the corporate safeguards are described by an interested party without contract evidence, public availability is not the same as open source, and public experimentation can create harms as well as social learning. Opened both local images, omitted the generic portrait as decorative, and retained the DALL-E-generated fictional Forbes-cover example with a descriptive canonical filename and complete manifest.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
