@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "for-the-love-of-god-please-tell-me-what-your-company-does-by",
+  "images": [
+    {
+      "file": "meltwater-homepage.png",
+      "alt": "Meltwater homepage led with \"Welcome to Outside Insight\" over a stylized office scene"
+    },
+    {
+      "file": "optimizely-homepage.png",
+      "alt": "Optimizely homepage paired an innovation headline with copy explaining experimentation across design choices and algorithms"
+    },
+    {
+      "file": "eighty-four-fifty-one-homepage.png",
+      "alt": "84.51 degree homepage foregrounded a broad promise about making people's lives easier"
+    }
+  ]
+}

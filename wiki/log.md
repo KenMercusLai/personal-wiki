@@ -5622,3 +5622,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | For the Love of God, Please Tell Me What Your Company Does
+
+Added [[HomepageMessagingClarity]] as a homepage-level standard for making an offer, audience, customer job, and value legible before generic brand language. Created source-bounded historical profiles for [[Meltwater]] and [[EightyFourFiftyOne|84.51°]], and updated [[Optimizely]] from its complete ordered evidence inventory. Preserved the essay's upsell and imitation explanations as hypotheses rather than facts, plus screenshot-level counterevidence that Optimizely's aspirational headline was followed by a concrete product explanation. Retained all three local screenshots with canonical names and semantic placement; the remote HackerNoon default title image returned HTTP 404 and could not be inspected or retained.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

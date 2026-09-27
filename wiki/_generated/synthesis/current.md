@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 73f6452c19c6488bc3fdc4b5f14b3afb81afbc90
-summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, contextual fit, recovery, and learning."
-episode_count: 696
-source_count: 696
+as_of_overview_commit: 08540daf4f18c2d071021d182754b681f59dd131
+summary: "A cross-domain knowledge map covering technology, business, culture, governance, psychology, health, work, and society, with claims bounded by their source evidence."
+episode_count: 697
+source_count: 697
 paragraph_count: 534
 topic_count: 9
 ---
@@ -16,14 +16,14 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, low WIP, and lifecycle-aware [[InternalSoftwareQuality]] can make speed safer rather than more frantic. [[IterativeRefinement]] and the attributed [[KentBeck]] work-right-fast sequence separate initial function, design improvement, and user-relevant optimization without making perfection the target.
-- [[FirstMoverStrategy]] and [[ProductImitationStrategy]] make competitive advantage adaptive rather than chronological: [[FredWilson]] argues that an early lead survives only when converted into product, engineering, financial, and organizational capability, while [[Facebook]] used existing distribution to answer [[Snapchat]] Stories and [[KISSmetrics]] is presented as missing product, pricing, mobile, and automatic-capture signals from [[Mixpanel]] and [[Heap]]; [[CompetitiveIntelligence]] and customer research should update one market hypothesis before teams copy, adapt, or decline a move.
-- [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], and [[AIMarketingHype]] turn product work into business outcomes by integrating customer value, technology, viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, ecosystem constraints, privacy, and accountability without boss authority. [[ToddJackson]] and [[ProductManagerHiring]] translate that scope into stage-sensitive selection evidence around product vision, team influence, iteration, structured reasoning, and service; [[TechnologyTransitionStrategy]] extends the integration to directional platform bets whose destination, lifetime, and retirement path are explicit.
-- [[MusicDiscovery]] is a portfolio of platform and human paths: [[Spotify]] lowers entry friction through playlists and related artists, [[Bandcamp]] supports tag, collection, buyer, and editorial exploration, [[SoundCloud]] surfaces emerging uploads, and trusted people, publications, shows, stores, liner notes, and musical histories add context and branching depth beyond encountering one recommended track.
-- [[TechnicalDecisionReview]] makes technical approval an operational-governance loop: connect an understood problem to necessary scope, expose failure assumptions, define milestones or [[ServiceObservability]], identify a response, and raise the decision threshold when [[ChangeSafety]] cannot provide a credible reversal path.
-- [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
+- [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
+- [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts.
+- Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
+- [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
+- [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process.
+- [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships.
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
-- Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach.
+- [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer.
 
 ## Synthesis by Domain
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, system understanding, workloa
 
 ### Business and Markets
 
-Durable businesses align customer outcomes, coherent scope, meaningful metrics, sustainable economics, governed distribution, accumulated trust, operating capability, and risk discipline. [[VentureCapitalUpsideEvaluation]] adds that power-law investing must test both downside and the scale, credibility, foreseeability, and investor fit of the successful case, while [[LargeScaleWebScraping]] adds that high-volume data operations must couple throughput with maintenance, anti-bot state, and automated quality controls.
+Durable businesses align customer outcomes, coherent scope, meaningful metrics, sustainable economics, governed distribution, accumulated trust, operating capability, and risk discipline; most claims in this topic remain contextual practitioner or retrospective evidence.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
@@ -64,7 +64,7 @@ Authority, technical rules, data advantages, defaults, and delegated power requi
 
 ### History and Geopolitics
 
-Historical learning improves when it reconstructs lineages, institutions, interfaces, and path dependence instead of copying visible winners as recipes; the current corpus contains little direct geopolitical evidence, and its large-scale scraping material is a dated operations spillover rather than a geopolitical claim.
+Historical learning improves when it reconstructs lineages, institutions, interfaces, and path dependence instead of copying visible winners as recipes; the current corpus contains little direct geopolitical evidence.
 
 ### Psychology and Personal Development
 
@@ -82,7 +82,7 @@ Direct health evidence is narrow and source-scoped, and the topic contains littl
 
 ### Work, Education, and Society
 
-Work, learning, and social participation are shaped by accessible entry points, active practice, feedback, judgment, role clarity, fair incentives, consent, opportunity structure, recovery, and power-aware boundaries. Creator work adds that audience access alone cannot retain people whose cross-platform networks make better monetization reachable.
+Work, learning, and social participation are shaped by accessible entry points, active practice, feedback, judgment, role clarity, fair incentives, consent, opportunity structure, recovery, and power-aware boundaries.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

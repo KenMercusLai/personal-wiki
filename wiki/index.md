@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [For the Love of God, Please Tell Me What Your Company Does](sources/for-the-love-of-god-please-tell-me-what-your-company-does-by.md) - A practitioner essay argues that homepages should identify the offer before presenting generic aspiration, while its screenshots add important counterevidence about layered clarity.
 - [For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’](sources/for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk.md) - Hunter Walk argues that venture decisions and failure post-mortems should judge foreseeable risks against the scale, assumptions, and credibility of the successful outcome.
 - [For New Social Networks, Offering an Audience is No Longer Enough](sources/for-new-social-networks-offering-an-audience-is-no-longer-enough.md) - A 2016 essay uses Vine to argue that fragmented creator networks and monetization alternatives make creator churn a core social-platform risk.
 - [For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages](sources/for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages.md) - Scrapinghub frames large-scale product extraction as a coupled throughput-and-quality system spanning site change, pipeline separation, request efficiency, anti-bot operations, and automated QA.
@@ -711,6 +712,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Meltwater](entities/Meltwater.md) - Historical customer account of a media-contact-data offer obscured by broad homepage positioning and explained through a sales conversation.
+- [84.51°](entities/EightyFourFiftyOne.md) - Historical retail-data case in which broad homepage language prevented a visitor from confirming a specific dataset fit.
 - [Scrapinghub](entities/Scrapinghub.md) - Historical web-data-extraction company profile connecting Scrapy, Frontera, Crawlera, crawl engineering, and QA operations.
 - [Scrapy](entities/Scrapy.md) - Open-source crawling framework placed in Scrapinghub's historical large-scale extraction ecosystem.
 - [Frontera](entities/Frontera.md) - Crawl frontier used to queue discovered product URLs for separate extraction workers.
@@ -1987,6 +1990,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Homepage Messaging Clarity](concepts/HomepageMessagingClarity.md) - Making a homepage's offer, audience, customer job, and practical value quickly legible.
 - [Venture Capital Upside Evaluation](concepts/VentureCapitalUpsideEvaluation.md) - Judging whether a startup's credible successful outcome justifies its failure risks within a power-law venture portfolio.
 - [Large-Scale Web Scraping](concepts/LargeScaleWebScraping.md) - High-volume extraction discipline that couples crawl throughput with maintenance, anti-bot resilience, and automated data-quality controls.
 - [Engineering Manager Role Design](concepts/EngineeringManagerRoleDesign.md) - Allocation of technical depth, people management, product ownership, evaluation, and accountability around engineering-team topology.
