@@ -5431,3 +5431,11 @@ Added [[MGSiegler]]'s 2010 thesis that controlled platforms can accelerate mains
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook’s Mental Health Problem
+
+Added a first-person and clinician-supported account of how an existing depressive episode can interact with learned feed anticipation, anhedonia, depleted resistance, impaired attention, curated comparison, and public-private identity dissonance without establishing that social media causes depression. Created [[DepressionAndSocialMedia]], [[IsabellaHeuser]], and [[DeannaZandt]], and updated [[Facebook]] from its complete ordered evidence inventory. Preserved the source's anecdotal, interview-based, historical, and non-treatment boundaries plus the counterexample of supportive online communities. Opened all four local images and omitted them as duplicate resolutions and thumbnails of one prose-repeating editorial Facebook stress graphic, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
       "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
       "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
       "ac5f347214d56e908161f088ddf8153886c52b8d06a27a588e670b7c697fa4da",
@@ -516,11 +517,31 @@
       "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698",
       "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559"
     ],
-    "paragraph_count": 514
+    "paragraph_count": 515
   },
-  "overview_commit": "ed6f102ca386a5d70a6f81eee5e9ea874546dd54",
-  "overview_digest": "75229bb673e787167b911bf478eed1f5f68068a799fe767fca85522e9eb0d0e8",
+  "overview_commit": "ca2e76875c4ee212ae83495930bbfe0859e242ef",
+  "overview_digest": "969f7c1b1d1851aa9642d4c2dce9e8e415b20a9e9653f95db4556dd5ce5e78d0",
   "paragraphs": [
+    {
+      "id": "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
+      "primary_topic": "science-health-and-climate",
+      "secondary_topics": [],
+      "text": "The newest Facebook mental-health source adds [[DepressionAndSocialMedia]] as a condition-specific interaction rather than a blanket claim that platforms cause depression. In the author's account, an existing episode preserved the learned anticipation of feed-based relief while anhedonia prevented the expected joy or connection; low energy weakened resistance to checking, impaired concentration made fast feeds both attractive and damaging, and curated posts enabled comparison with other people and with the author's own earlier public identity. [[IsabellaHeuser]] supplies the source's clinical interpretation of anticipation, anhedonia, depleted willpower, and self-critical comparison, while [[DeannaZandt]] adds public-private identity dissonance and alienation. Deleting social and other rapid-reward apps, silencing notifications, limiting later access, single-tasking, walking, reading when possible, and prioritizing close relationships reportedly helped, connecting [[AttentionManagement]] and [[SocialMediaCuration]] to recovery practices. The evidence remains a personal essay with clinician interviews, acquaintance reports, and testimony rather than a representative sample, tested neurobiological mechanism, causal study, or treatment protocol; [[SocialMediaClinicalCare]] also preserves the counterexample that some online communities provide genuine support. All four local embeds were opened and identified as duplicate resolutions and thumbnails of one editorial Facebook stress graphic whose slogan repeats the prose, so no visual asset or manifest was retained.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AttentionManagement",
+        "DeannaZandt",
+        "DepressionAndSocialMedia",
+        "IsabellaHeuser",
+        "SocialMediaClinicalCare",
+        "SocialMediaCuration"
+      ]
+    },
     {
       "id": "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
       "primary_topic": "work-education-and-society",

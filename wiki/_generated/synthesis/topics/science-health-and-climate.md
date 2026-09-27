@@ -3,18 +3,29 @@
 generated: true
 topic_id: science-health-and-climate
 title: "Science, Health, and Climate"
-last_updated: 2026-09-27
-as_of_overview_commit: ab2a92d79da89b6a0c1c34a5e95704ffc222e3c7
-input_digest: 639882ba64aafb438394f58334141b6e179fcc9beec88c76d3125547a6b14238
+last_updated: 2026-09-28
+as_of_overview_commit: ca2e76875c4ee212ae83495930bbfe0859e242ef
+input_digest: 4e81165f01fd129538a4f839d489616bd1dffcef1df015fe9a10533771611365
 ---
 
 # Science, Health, and Climate
 
 ## Current State
 
-This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; and router spillover from computer-science representation design, ecommerce inventory correctness, workplace-perk design, and Gawker media metrics. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.
+This topic now contains one direct but source-scoped mental-health synthesis on depression and social-media use, alongside beginner scientific computing, language-model science framing, developer-economy signals, attention and habit advice, philosophy of value, and several deterministically routed technology, workplace, and media claims. None supports a broad health, climate, or natural-science conclusion.
 
 ## Cross-source Findings
+
+### Depression And Social Media Is Condition Specific
+
+[[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
+
+**Evidence:** [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]]
+
+**Qualifications:**
+
+- The evidence is a personal essay supported by clinician interviews, acquaintance reports, and testimony rather than a representative sample, causal study, tested neurobiological mechanism, or treatment protocol.
+- The source does not establish that social media causes depression, and supportive online communities show that effects depend on condition, purpose, design, and mode of use.
 
 ### Scientific Python Depends On Array Tooling
 

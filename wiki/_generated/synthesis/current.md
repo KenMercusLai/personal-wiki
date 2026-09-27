@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: ed6f102ca386a5d70a6f81eee5e9ea874546dd54
+as_of_overview_commit: ca2e76875c4ee212ae83495930bbfe0859e242ef
 summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, and recoverable boundaries."
-episode_count: 671
-source_count: 671
-paragraph_count: 514
+episode_count: 672
+source_count: 672
+paragraph_count: 515
 topic_count: 9
 ---
 
@@ -75,8 +75,9 @@ Judgment and development depend on bounded attention, consent, representative fe
 
 ### Science, Health, and Climate
 
-Heterogeneous evidence in science, health, and climate requires careful measurement, uncertainty, intervention boundaries, source-quality checks, and transparent spillovers.
+Health and science claims require careful causal boundaries: the direct mental-health evidence is source-scoped, while the remaining topic includes indirect or deterministically routed material.
 
+- [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
