@@ -5407,3 +5407,11 @@ Added a 2016 account of Facebook's reported decline in original sharing, the mai
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook knew about Snap's struggles months before the public
+
+Added [[JonFingas]]'s 2017 report that [[Facebook]] used aggregated app-frequency and duration data from [[Onavo]] Protect to detect [[Snapchat]] trends, assess [[WhatsApp]] before acquisition, and inform live-video entry. Created Onavo, Jon Fingas, and [[CompetitiveIntelligence]], and updated Facebook, Snapchat, WhatsApp, and [[AggregatorMonopolyPower]] from their complete ordered evidence inventories, preserving the limits of secondary reporting, absent raw telemetry, uncertain causal attribution, and the distinction between formal disclosure and demonstrated user comprehension. Opened the sole local image and omitted it as a generic editorial photograph without independent evidence, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Facebook knew about Snap's struggles months before the public](sources/facebook-knew-about-snaps-struggles-months-before-the-public-engadget.md) - Onavo telemetry reportedly gave Facebook early visibility into Snapchat, WhatsApp, and live-video rivals while raising consent and competition concerns.
 - [Facebook isn’t the social network anymore. So what is it?](sources/facebook-isnt-the-social-network-anymore-so-what-is-it.md) - A 2016 account argues that context collapse shifted Facebook from personal sharing toward a media portal while its acquisitions hedged social interaction across narrower products.
 - [Facebook and the Cost of Monopoly](sources/facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson.md) - Ben Thompson argues that Facebook's free user service can still exercise power over publishers, advertisers, and innovation through demand aggregation and network leverage.
 - [Facebook Ads Cost: The Complete Resource to Understand It](sources/facebook-ads-cost-the-complete-resource-to-understand-it.md) - AdEspresso's historical 2017-Q1 2019 benchmarks frame Facebook ad prices as auction outcomes shaped by objectives, audience competition, placement, relevance, timing, and delivery volume.
@@ -682,6 +683,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Jon Fingas](entities/JonFingas.md) - Engadget journalist reporting on Facebook's use of Onavo telemetry for competitive decisions.
+- [Onavo](entities/Onavo.md) - Facebook-owned VPN and mobile-data team whose Protect telemetry reportedly informed competitive decisions.
 - [AdEspresso](entities/AdEspresso.md) - Advertising-management platform and publisher represented through its historical aggregate Facebook ad-cost benchmarks.
 - [Elizabeth Holmes](entities/ElizabethHolmes.md) - Theranos founder represented through a truncated source's claims about disputed technical judgment and corporate secrecy.
 - [Theranos](entities/Theranos.md) - Biotechnology startup portrayed through a source-bounded account of discredited blood-testing claims, secrecy, and collapse.
@@ -1913,6 +1916,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Competitive Intelligence](concepts/CompetitiveIntelligence.md) - Use of rival and market signals for strategic decisions, with consumer telemetry adding consent, purpose, and power concerns.
 - [Context Collapse](concepts/ContextCollapse.md) - The compression of distinct audiences into one setting can suppress personal disclosure even while overall platform use remains high.
 - [Aggregator Monopoly Power](concepts/AggregatorMonopolyPower.md) - Multi-sided platform power that appears in supplier surplus, advertising scarcity, or innovation even when users pay no monetary price.
 - [Facebook Advertising Costs](concepts/FacebookAdvertisingCosts.md) - Auction-determined campaign prices whose meaning depends on objective, audience, competition, placement, relevance, timing, volume, and downstream value.

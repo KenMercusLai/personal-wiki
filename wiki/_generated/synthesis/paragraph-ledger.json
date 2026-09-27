@@ -513,12 +513,13 @@
       "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9",
       "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
       "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
-      "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698"
+      "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698",
+      "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559"
     ],
-    "paragraph_count": 513
+    "paragraph_count": 514
   },
-  "overview_commit": "b1ff383e7053d6800f3411b2ca800ef11ac4679b",
-  "overview_digest": "d42db3adfce1069329098cf2f4f5d8a6a058b11770666e9ec306afb8aea30c26",
+  "overview_commit": "4f4fdf02283a8b7493762072890e99c47bc7fd73",
+  "overview_digest": "75229bb673e787167b911bf478eed1f5f68068a799fe767fca85522e9eb0d0e8",
   "paragraphs": [
     {
       "id": "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
@@ -10376,6 +10377,27 @@
         "PlatformDistributionDependence",
         "PlatformPublisherRevenue",
         "Snapchat"
+      ]
+    },
+    {
+      "id": "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[JonFingas]] source adds [[CompetitiveIntelligence]] as an information mechanism behind incumbent response. Aggregated app-frequency and duration data from [[Onavo]] Protect reportedly let [[Facebook]] see [[Snapchat]] slowing after Instagram Stories, assess [[WhatsApp]]'s geographic strength before acquiring it, and observe Meerkat and Periscope before adding live video. This extends [[DataFactories]] beyond recommendation and advertising: consumer telemetry can become strategic output that shortens the interval between a challenger's traction and an incumbent's decision to copy, buy, or enter. It also sharpens [[AggregatorMonopolyPower]], because network distribution and privileged rival visibility can reinforce one another. The evidence remains a 2017 Engadget summary of Wall Street Journal reporting with no raw data, sampling method, causal identification, or internal decision records. Facebook said collection and use were disclosed, but notice does not establish user comprehension or settle purpose compatibility, platform-policy, or competition concerns. The sole local image was opened and omitted as a generic Facebook editorial photograph without independent evidence.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AggregatorMonopolyPower",
+        "CompetitiveIntelligence",
+        "DataFactories",
+        "Facebook",
+        "JonFingas",
+        "Onavo",
+        "Snapchat",
+        "WhatsApp"
       ]
     }
   ],
