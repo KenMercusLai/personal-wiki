@@ -116,6 +116,21 @@ class OverviewProjectionTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "digest"):
                 overview.project(fixture)
 
+    def test_valid_compact_snapshot_may_lag_live_overview(self):
+        overview = load_script("personal_overview_lagging_snapshot")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            manifest_path = fixture / "wiki/_generated/synthesis/manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            # The prior summary keeps its own identity when newer content updates Overview.
+            manifest["global"]["overview_digest"] = hashlib.sha256(b"earlier overview").hexdigest()
+            manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+            report = overview.project(fixture)
+            self.assertEqual(report.source_count, manifest["global"]["corpus"]["source_count"])
+            projected = (fixture / ".generated/wiki-projections/current-synthesis.md").read_text()
+            self.assertIn("## Executive Summary", projected)
+
     def test_tampered_topic_and_matching_manifest_digest_fail_closed(self):
         overview = load_script("personal_overview_tampered_topic")
         with tempfile.TemporaryDirectory() as td:
@@ -160,7 +175,7 @@ class OverviewProjectionTest(unittest.TestCase):
                 else:
                     manifest_path = synthesis / "manifest.json"
                     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-                    manifest["global"]["overview_digest"] = "0" * 64
+                    manifest["global"]["overview_digest"] = "0" * 63
                     manifest_path.write_text(
                         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
                         encoding="utf-8",

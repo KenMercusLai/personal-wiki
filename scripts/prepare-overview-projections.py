@@ -366,8 +366,7 @@ def _compact(
     }:
         raise ValueError("compact synthesis manifest has invalid global state")
     if (
-        global_state.get("overview_digest") != manifest.get("overview_digest")
-        or not isinstance(global_state.get("overview_digest"), str)
+        not isinstance(global_state.get("overview_digest"), str)
         or not re.fullmatch(r"[0-9a-f]{64}", str(global_state["overview_digest"]))
         or not isinstance(global_state.get("overview_commit"), str)
         or not re.fullmatch(r"[0-9a-f]{40}", str(global_state["overview_commit"]))
