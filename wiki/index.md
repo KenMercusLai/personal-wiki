@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Founder Friendly? No thanks](sources/founder-friendly-no-thanks-sam-gerstenzang-medium.md) - Sam Gerstenzang argues that boards should respect founder operating context without promising unconditional loyalty when leadership fit or conduct conflicts with the company's needs.
 - [For the Love of God, Please Tell Me What Your Company Does](sources/for-the-love-of-god-please-tell-me-what-your-company-does-by.md) - A practitioner essay argues that homepages should identify the offer before presenting generic aspiration, while its screenshots add important counterevidence about layered clarity.
 - [For VCs, ‘What Could Go Right’ Is More Important Than ‘What Could Go Wrong’](sources/for-vcs-what-could-go-right-is-more-important-than-what-could-go-wrong-hunter-walk.md) - Hunter Walk argues that venture decisions and failure post-mortems should judge foreseeable risks against the scale, assumptions, and credibility of the successful outcome.
 - [For New Social Networks, Offering an Audience is No Longer Enough](sources/for-new-social-networks-offering-an-audience-is-no-longer-enough.md) - A 2016 essay uses Vine to argue that fragmented creator networks and monetization alternatives make creator churn a core social-platform risk.
@@ -714,6 +715,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Sam Gerstenzang](entities/SamGerstenzang.md) - Startup and venture-capital writer arguing for company-centered board accountability and stage-dependent founder leadership.
 - [Alexis Madrigal](entities/AlexisMadrigal.md) - Technology writer represented through a 2016 interpretation of cameras, augmented reality, and visual self-presentation.
 - [Meltwater](entities/Meltwater.md) - Historical customer account of a media-contact-data offer obscured by broad homepage positioning and explained through a sales conversation.
 - [84.51°](entities/EightyFourFiftyOne.md) - Historical retail-data case in which broad homepage language prevented a visitor from confirming a specific dataset fit.
@@ -1993,6 +1995,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Startup Board Governance](concepts/StartupBoardGovernance.md) - Balancing founder operating knowledge with director challenge, evaluation, coaching boundaries, and stage-dependent leadership decisions.
 - [Augmented Reality](concepts/AugmentedReality.md) - Real-time transformation of a camera-mediated view through both spatial overlays and edits to captured people or environments.
 - [Homepage Messaging Clarity](concepts/HomepageMessagingClarity.md) - Making a homepage's offer, audience, customer job, and practical value quickly legible.
 - [Venture Capital Upside Evaluation](concepts/VentureCapitalUpsideEvaluation.md) - Judging whether a startup's credible successful outcome justifies its failure risks within a power-law venture portfolio.

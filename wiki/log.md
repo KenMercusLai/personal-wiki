@@ -5646,3 +5646,11 @@ Added [[FredWilson]]'s qualified 2009 rule of thumb for cumulative [[CapTableDil
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Founder Friendly? No thanks
+
+Added [[SamGerstenzang]]'s company-centered critique of unconditional “founder friendly” board behavior. Created Sam Gerstenzang and [[StartupBoardGovernance]], and updated [[FounderInvestorFit]] and [[CEOScalingRole]] from their complete ordered evidence inventories with board-philosophy diligence, founder information advantage, director pattern recognition, coaching-versus-evaluation tension, and stage-dependent CEO succession. Preserved the essay's limits as an unmeasured practitioner argument, its incomplete historical examples, the ambiguity over who defines the company's interests, and the risk that boards can mistake investor preference for warranted intervention. The supplied Markdown contains no effective image references, so no asset manifest was needed.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

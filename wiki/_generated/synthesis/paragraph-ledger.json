@@ -536,12 +536,13 @@
       "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752",
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
-      "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1"
+      "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
+      "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162"
     ],
-    "paragraph_count": 536
+    "paragraph_count": 537
   },
-  "overview_commit": "46ec32b6f812bb86498af1ba1c7b7992c1aa99c5",
-  "overview_digest": "abe8b4e028b5df42e7f0c78d9550c688b451b7d1b95463e88daec6e0b633229c",
+  "overview_commit": "065e42b277f3d961430657eec908ec6f9d3d56d1",
+  "overview_digest": "dc55984dd57b31e4325f059f0dda71429405baa03770e3d479b3a2d125d768ab",
   "paragraphs": [
     {
       "id": "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
@@ -10835,6 +10836,23 @@
       "wikilinks": [
         "CreatorGraduationProblem",
         "Vine"
+      ]
+    },
+    {
+      "id": "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[SamGerstenzang]] source adds [[StartupBoardGovernance]] as a balance between founder operating context and director accountability. Founders usually possess more detailed company and market information, while experienced directors may contribute cross-company pattern recognition, standards for unfamiliar executive roles, and independence when performance or conduct threatens the company. This extends [[FounderInvestorFit]] from chemistry, speed, services, and post-close burden into board philosophy: respecting founder judgment is different from promising unconditional founder loyalty. It also adds a succession boundary to [[CEOScalingRole]], because the leader suited to discovery and product-market fit may not be suited to incentive design, organizational scale, or multi-product expansion. The source distinguishes formal evaluation from confidential coaching, but it remains one normative practitioner essay. It supplies no comparative outcome evidence, does not resolve who defines the company's interests, and does not protect against directors mistaking investor preference or faulty pattern matching for warranted intervention. Its Plaxo, Facebook, Benchmark, and Uber references are incomplete illustrations, and its claim that earlier Benchmark action would have improved Uber is counterfactual. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CEOScalingRole",
+        "FounderInvestorFit",
+        "SamGerstenzang",
+        "StartupBoardGovernance"
       ]
     }
   ],
