@@ -5319,3 +5319,11 @@ Added Sam Altman's early-2023 account of ChatGPT's launch, gradual AGI, possible
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down
+
+Added a source-bounded note for Vanity Fair's truncated Theranos capture, preserving the standfirst's claims about [[ElizabethHolmes]], disputed blood-testing technology, medical-expert conflict, and [[OrganizationalSecrecy]] while making clear that the investigation itself is absent behind the paywall. Created Elizabeth Holmes, [[Theranos]], [[NickBilton]], and Organizational Secrecy. Opened the sole local image and omitted it as a non-evidentiary portrait; no visual asset or manifest was required.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

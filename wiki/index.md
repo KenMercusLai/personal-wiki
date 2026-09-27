@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down](sources/exclusive-how-elizabeth-holmess-house-of-cards-came-tumbling-down-vanity-fair.md) - A truncated Vanity Fair standfirst attributes Theranos's collapse to disputed blood-testing claims, rejected medical expertise, and organizational secrecy, while leaving the promised evidence unavailable.
 - [Exclusive Interview: OpenAI’s Sam Altman Talks ChatGPT And How Artificial General Intelligence Can ‘Break Capitalism’](sources/exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism.md) - Sam Altman attributes ChatGPT's breakout to fine-tuning and interaction design, predicts gradual AGI, and argues its economic and release governance require new institutional arrangements.
 - [Evolving as an artist and overcoming art block](sources/evolving-as-an-artist-and-overcoming-art-block-talk-illustration.md) - Loish's 2004 and 2016 redraws frame visible personal progress, lower expectations, and playful imperfect work as responses to art block.
 - [Everything You Need to Know About What Amazon Is Doing in Financial Services](sources/everything-you-need-to-know-about-what-amazon-is-doing-in-financial-services.md) - CB Insights frames Amazon's mid-2018 payments, cash, lending, cards, insurance, and fintech investments as commerce-ecosystem infrastructure rather than a conventional universal bank.
@@ -672,6 +673,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Elizabeth Holmes](entities/ElizabethHolmes.md) - Theranos founder represented through a truncated source's claims about disputed technical judgment and corporate secrecy.
+- [Theranos](entities/Theranos.md) - Biotechnology startup portrayed through a source-bounded account of discredited blood-testing claims, secrecy, and collapse.
+- [Nick Bilton](entities/NickBilton.md) - Vanity Fair journalist credited with the saved page's promised Theranos investigation.
 - [DALL-E](entities/DALLE.md) - OpenAI image-generation tool represented through a retained fictional Sam Altman Forbes-cover example from 2023.
 - [Loish](entities/Loish.md) - Digital artist and animator represented through longitudinal redraws and advice about progress, expectations, and art block.
 - [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
@@ -1891,6 +1895,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Organizational Secrecy](concepts/OrganizationalSecrecy.md) - Restricted information flow that becomes a governance risk when it blocks challenge, verification, or correction of consequential claims.
 - [Artificial General Intelligence](concepts/ArtificialGeneralIntelligence.md) - Broad AI capability framed as a gradual, disputed transition with economic concentration, access, profit-sharing, and governance consequences.
 - [Responsible AI Release](concepts/ResponsibleAIRelease.md) - Layered governance of public AI products, APIs, open-source artifacts, contracts, and downstream accountability.
 - [Art Block](concepts/ArtBlock.md) - Creative inhibition linked here to unrealistic expectations, flaw-focused comparison, and fear of failure.
