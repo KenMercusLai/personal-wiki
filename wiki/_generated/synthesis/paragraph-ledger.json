@@ -517,12 +517,13 @@
       "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
       "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698",
       "91bdddd4d7e451103f2bb1ad12bfc033a194fc5f0ae3d0cd42104cb25a3b6559",
-      "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d"
+      "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
+      "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
     ],
-    "paragraph_count": 517
+    "paragraph_count": 518
   },
-  "overview_commit": "4364eb4972d0d5531082e6fbfc56b6bc566534fd",
-  "overview_digest": "cdaa5ab659a05796ad5b2f06d153f964122d821abfaefb9d16efcbb3478ffb5b",
+  "overview_commit": "a53c19deb4520e20b1137ab323b629f7b9b5abf3",
+  "overview_digest": "06e36fa4949e82deca51fa2adc9cd9918770ae46539fc1e6404d2d0c956ed87f",
   "paragraphs": [
     {
       "id": "c8979081412ed707ba29f2d1495db58dbc5bbaf33f0209bef16deba4eafcd662",
@@ -10456,6 +10457,28 @@
         "ChicagoTribune",
         "KurtGessler",
         "PlatformDistributionDependence"
+      ]
+    },
+    {
+      "id": "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "governance-and-institutions",
+        "history-and-geopolitics"
+      ],
+      "text": "The newest FastNetMon source adds [[DDoSTrafficMonitoring]] as a staged operational pipeline rather than a single “ban” action. In its historical CentOS 7 example, [[FastNetMon]] scopes CIDR ranges, consumes packet or flow telemetry, evaluates packet-rate, bandwidth, and flow thresholds, invokes a callback, and exports Graphite-formatted measurements to [[InfluxDB]]; [[Grafana]] then combines direction-specific Mbps and packet rates with trends and top-talker tables. A deliberately low-threshold `iperf` UDP test verifies metric flow, detection state, and notification logging, but does not establish production accuracy, false-positive behavior, sustained capture capacity, or actual packet enforcement. This sharpens [[NetworkAutomation]] by placing BGP or FlowSpec mitigation behind an explicit integration boundary: the article discusses route-based diversion, yet its supplied ExaBGP and FlowSpec options are disabled and no mitigation or recovery is tested. The source is also version-bound to a 2019 stack, so its CentOS 7 commands, InfluxDB 1.7.6, Grafana 6.1.6, dashboard template, and FastNetMon syntax require current verification. The sole local image was opened and retained at its semantic position because it demonstrates the dashboard's gauges, directionality, time traces, refresh window, and ranked host tables.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DDoSTrafficMonitoring",
+        "FastNetMon",
+        "Grafana",
+        "InfluxDB",
+        "NetworkAutomation"
       ]
     }
   ],

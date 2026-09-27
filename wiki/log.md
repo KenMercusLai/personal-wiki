@@ -5467,3 +5467,11 @@ Added a GV Library essay arguing that realistic self-directed design simulations
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | FastNetMon+Grafana监控网段流量及DDoS预警
+
+Added a historical CentOS 7 walkthrough of a staged DDoS traffic-monitoring pipeline: [[FastNetMon]] observes configured networks, evaluates rate thresholds, invokes a notification callback, exports Graphite metrics to [[InfluxDB]], and feeds a [[Grafana]] dashboard. Created FastNetMon, Grafana, and [[DDoSTrafficMonitoring]]; updated InfluxDB from its complete ordered evidence inventory with Graphite ingestion and the concrete monitoring role. Preserved the boundary between FastNetMon's internal ban state and external enforcement, the mixed alternative capture configurations, the synthetic test's limited evidentiary value, and the age of the commands and versions. Opened and retained the sole local image at its semantic position because it documents inbound and outbound bandwidth, packet rates, trends, refresh settings, and ranked top talkers.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

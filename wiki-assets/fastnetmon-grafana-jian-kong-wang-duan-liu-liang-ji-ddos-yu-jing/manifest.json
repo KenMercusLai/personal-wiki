@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "fastnetmon-grafana-jian-kong-wang-duan-liu-liang-ji-ddos-yu-jing",
+  "images": [
+    {
+      "file": "fastnetmon-grafana-traffic-dashboard.png",
+      "alt": "FastNetMon Grafana dashboard with inbound and outbound bandwidth, packet rates, trends, and top talkers"
+    }
+  ]
+}

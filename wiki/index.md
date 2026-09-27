@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [FastNetMon+Grafana监控网段流量及DDoS预警](sources/fastnetmon-grafana-jian-kong-wang-duan-liu-liang-ji-ddos-yu-jing.md) - A historical CentOS 7 walkthrough connects FastNetMon threshold detection and callbacks to InfluxDB metric storage and a Grafana traffic dashboard while leaving BGP mitigation untested.
 - [Fake designs yield real results](sources/fake-designs-yield-real-results-gv-library.md) - A GV Library essay argues that realistic self-directed design simulations can build repetitions, stretch capability, create portfolio evidence, and teach constraints without becoming coerced spec work.
 - [Faceless Publishers](sources/faceless-publishers-stratechery-by-ben-thompson.md) - Ben Thompson argues that creator-owned brands can remain independent while a shared publisher supplies scalable technology, monetization, support, and business operations.
 - [Facebook’s shameless copying of Snapchat and what it means for your product strategy](sources/facebooks-shameless-copying-of-snapchat-and-what-it-means-for-your-product-strategy-product-habits.md) - Hiten Shah uses Facebook's Stories rollout and KISSmetrics' missed competitor responses to argue for customer-grounded imitation and faster competitive execution.
@@ -690,6 +691,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [FastNetMon](entities/FastNetMon.md) - Network-traffic analyzer represented through threshold detection, response hooks, and Graphite metric export.
+- [Grafana](entities/Grafana.md) - Dashboard layer showing FastNetMon-derived bandwidth, packet-rate, trend, and top-talker metrics from InfluxDB.
 - [KISSmetrics](entities/KISSmetrics.md) - Product-analytics company presented as an early innovator that later discounted important competitor signals.
 - [Heap](entities/Heap.md) - Product-analytics competitor represented through automatic website-event capture.
 - [Chicago Tribune](entities/ChicagoTribune.md) - Newspaper represented through a 2017 analysis of the gap between Facebook follower growth and organic post reach.
@@ -724,7 +727,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Robert C. Martin](entities/RobertCMartin.md) - Author cited as the source of the “Flying Fingers” simultaneous estimation technique.
 - [Eric Fu](entities/EricFu.md) - Technical author proposing a data-model-centered definition of time-series databases.
 - [Prometheus](entities/Prometheus.md) - Monitoring and time-series system presented as the snapshot-oriented PromQL reference case.
-- [InfluxDB](entities/InfluxDB.md) - Measurement-and-tag time-series database presented as the vector-oriented query reference case.
+- [InfluxDB](entities/InfluxDB.md) - Measurement-and-tag time-series database presented through both vector-oriented query semantics and Graphite metric ingestion.
 - [GreptimeDB](entities/GreptimeDB.md) - Time-series database described through named tagged series and LSM-Parquet storage.
 - [TDengine](entities/TDengine.md) - Time-series database whose supertables group tag-partitioned subtables.
 - [TimescaleDB](entities/TimescaleDB.md) - PostgreSQL extension optimizing temporal scans while retaining a relational model.
@@ -1936,6 +1939,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [DDoS Traffic Monitoring](concepts/DDoSTrafficMonitoring.md) - Staged observation, threshold detection, notification, historical metric storage, visualization, and separately controlled mitigation of attack-like network traffic.
 - [Fake Design Practice](concepts/FakeDesignPractice.md) - Self-directed realistic design simulation used to build skill, test capability, and create portfolio evidence before paid opportunity exists.
 - [Product Imitation Strategy](concepts/ProductImitationStrategy.md) - Deliberate adoption or adaptation of a proven competitor move to close a customer-value gap.
 - [Depression and Social Media](concepts/DepressionAndSocialMedia.md) - Interaction between existing depression and reward seeking, attention, comparison, performative identity, intimacy, and platform boundaries.
