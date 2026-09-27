@@ -5558,3 +5558,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | First Evidence That Online Dating Is Changing the Nature of Society
 
 Added MIT Technology Review's account of [[JosueOrtega]] and [[PhilippHergovich]]'s absent-ties model, which predicts that online dating can increase interracial matching and modeled marriage stability by connecting people outside existing social circles. Created both researcher entities and [[OnlineDatingSocialIntegration]], and updated [[Homophily]] from its complete ordered evidence inventory to distinguish similarity preference from clustered opportunity structure. Preserved the gap between simulation, historical timing, and causal evidence, plus the model's simplifying assumptions. Recovered and inspected the article's broken lead-image reference from the publication's current asset host; retained its two-panel meeting-channel chart under a descriptive canonical filename and recorded its axes, trends, approximate values, and missing methodological context.
+
+## [2026-09-28] ingest | First Mover Disadvantage
+
+Added [[FredWilson]]'s qualified [[FirstMoverStrategy]] argument: uncontested entry can ease initial dominance, but lasting leadership depends on product and engineering execution, balance-sheet and team building, technical adaptation, competitor learning, and management quality. Created First-Mover Strategy and updated Fred Wilson and [[AVC]] from their complete ordered evidence inventories. Preserved the absence of comparative cases, outcome measures, and causal evidence behind the Apple, Google, cryptocurrency, and Facebook illustrations. The supplied Markdown contains no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

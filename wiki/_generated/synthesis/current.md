@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 4fbe77a86d7b17609df6b53187aff709a2859bea
-summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, discovery, contextual fit, and sustainable learning."
-episode_count: 688
-source_count: 688
-paragraph_count: 527
+as_of_overview_commit: 1ac18bfc2b4be70324c2c882fe0e3b5ff130671e
+summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, contextual fit, adaptation, and sustainable learning."
+episode_count: 689
+source_count: 689
+paragraph_count: 528
 topic_count: 9
 ---
 
@@ -17,8 +17,8 @@ topic_count: 9
 ## Executive Summary
 
 - [[SoftwareVerification]] is the recurring accelerator and safety boundary across [[ContinuousDelivery]], automated testing, code review, staging, AI coding, agent TDD, migrations, and production change; the delivery sources add that small live increments, smoke tests, low WIP, and lifecycle-aware [[InternalSoftwareQuality]] can make speed safer rather than more frantic. [[IterativeRefinement]] and the attributed [[KentBeck]] work-right-fast sequence separate initial function, design improvement, and user-relevant optimization without making perfection the target.
+- [[FirstMoverStrategy]] and [[ProductImitationStrategy]] make competitive advantage adaptive rather than chronological: [[FredWilson]] argues that an early lead survives only when converted into product, engineering, financial, and organizational capability, while [[Facebook]] used existing distribution to answer [[Snapchat]] Stories and [[KISSmetrics]] is presented as missing product, pricing, mobile, and automatic-capture signals from [[Mixpanel]] and [[Heap]]; [[CompetitiveIntelligence]] and customer research should update one market hypothesis before teams copy, adapt, or decline a move.
 - [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], and [[AIMarketingHype]] turn product work into business outcomes by integrating customer value, technology, viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, ecosystem constraints, privacy, and accountability without boss authority. [[ToddJackson]] and [[ProductManagerHiring]] translate that scope into stage-sensitive selection evidence around product vision, team influence, iteration, structured reasoning, and service; [[TechnologyTransitionStrategy]] extends the integration to directional platform bets whose destination, lifetime, and retirement path are explicit.
-- Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[MusicDiscovery]] is a portfolio of platform and human paths: [[Spotify]] lowers entry friction through playlists and related artists, [[Bandcamp]] supports tag, collection, buyer, and editorial exploration, [[SoundCloud]] surfaces emerging uploads, and trusted people, publications, shows, stores, liner notes, and musical histories add context and branching depth beyond encountering one recommended track.
 - [[RapidOrganizationalRestructuring]] makes compressed organizational change a governance problem: the [[Twitter]] case shows that deep cuts and concentrated authority can reduce cost while weakening comparable evaluation, protected dissent, product-risk review, and [[PlatformAbuseResponse]], so immediate uptime must be judged alongside safety, revenue, legal obligations, institutional knowledge, and recovery costs.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, system understanding, workloa
 
 ### Business and Markets
 
-Durable businesses align customer outcomes, coherent scope, sustainable economics, governed distribution, operating capability, capital, learning, risk discipline, and responsible employment lifecycles; most claims remain contextual because the evidence is practitioner, company-authored, or retrospective.
+Durable businesses align customer outcomes, coherent scope, adaptive competitive capability, sustainable economics, governed distribution, operating capacity, capital, learning, risk discipline, and responsible employment lifecycles; most claims remain contextual because the evidence is practitioner, company-authored, or retrospective.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].

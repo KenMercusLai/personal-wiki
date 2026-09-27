@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
       "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
       "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
       "c14d382da583464086aa29ed765eb7fab03229a08719becbdb95f5f29fad175b",
@@ -529,11 +530,28 @@
       "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752"
     ],
-    "paragraph_count": 527
+    "paragraph_count": 528
   },
-  "overview_commit": "4fbe77a86d7b17609df6b53187aff709a2859bea",
-  "overview_digest": "8870c0bfc02fa63ab4da3dc6c50f187572e4c387959b7a836dfd646b2ce0ec31",
+  "overview_commit": "1ac18bfc2b4be70324c2c882fe0e3b5ff130671e",
+  "overview_digest": "97d22b7158a00208a60177c70129c82d476b494cfb827e512d706faa6c4a80f8",
   "paragraphs": [
+    {
+      "id": "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[FredWilson]] source adds [[FirstMoverStrategy]] as a transition from uncontested entry to adaptive market leadership. Wilson still prefers arriving first because initial dominance can be easier before competitors identify the opportunity, but he rejects chronology as a durable moat: installed product assumptions and technical debt accumulate while followers can design for the current market and expose ideas worth learning from. The leader must convert its head start into a strong balance sheet, capable organization, and first-rate product and engineering execution. Brief references to Apple's earlier-era identity systems, single-asset cryptocurrency software, and Facebook's imitation provide mechanisms rather than comparative proof. The essay supplies no market definitions, company sample, entry-order classification, or outcome measures, so management quality remains a plausible practitioner explanation rather than a demonstrated causal law; neither first-mover persistence nor fast-follower victory is treated as inevitable.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FirstMoverStrategy",
+        "FredWilson"
+      ]
+    },
     {
       "id": "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
       "primary_topic": "work-education-and-society",

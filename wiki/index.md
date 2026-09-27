@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [First Mover Disadvantage](sources/first-mover-disadvantage-avc.md) - Fred Wilson argues that first entry can ease initial dominance but sustaining leadership requires adaptive product, engineering, financial, organizational, and management capability.
 - [First Evidence That Online Dating Is Changing the Nature of Society](sources/first-evidence-that-online-dating-is-changing-the-nature-of-society-mit-technology-review.md) - A 2017 article links online dating's stranger connections to modeled interracial integration and marriage stability while preserving the gap between simulation, historical correlation, and causation.
 - [Finding new music in the algorithm age](sources/finding-new-music-in-the-algorithm-age-the-outline.md) - Six music professionals combine streaming, specialist platforms, publications, networks, shows, stores, submissions, and credits while questioning whether easy recommendation produces deep engagement.
 - [Finding Your Startup's Customer Acquisition Channels](sources/finding-your-startups-customer-acquisition-channels.md) - A practitioner framework maps customer economics, buying behavior, product mechanics, and company stage to paid, search, sales, content, referral, and scrappy acquisition tactics.
@@ -1973,6 +1974,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [First-Mover Strategy](concepts/FirstMoverStrategy.md) - Turning uncontested early entry into durable market leadership through capability building, adaptation, and competitor learning.
 - [Online Dating Social Integration](concepts/OnlineDatingSocialIntegration.md) - Hypothesis that dating platforms add ties beyond existing social circles and can alter population-level partner matching.
 - [Music Discovery](concepts/MusicDiscovery.md) - Encountering unfamiliar music through interacting platform, human, editorial, physical, live, and historical pathways.
 - [Graduate Student Financial Planning](concepts/GraduateStudentFinancialPlanning.md) - Coordination of cash flow, taxes, liquidity, debt, insurance, housing, and long-horizon investing around graduate-school constraints and career transitions.
