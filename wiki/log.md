@@ -5271,3 +5271,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Evan Spiegel’s Most Underrated Skill
+
+Added a 2017 Product Hunt account of acquisition-led product building at Snapchat, covering Zenly, Vergence Labs, Looksery, Bitstrips, Vurb, Seene, and the purchase behind Snapcodes. Created [[EvanSpiegel]] and updated [[Snapchat]] and [[AcquisitionStrategy]] from their complete ordered evidence inventories, while qualifying personal attribution, selected-success bias, integration costs, internal follow-on work, and unmeasured returns. Opened all six unique local images, omitted two portrait/branding images and one repeated non-specific promotional GIF, and retained three product examples for face lenses, Bitmoji messaging, and World Lenses under descriptive canonical filenames with a complete manifest.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

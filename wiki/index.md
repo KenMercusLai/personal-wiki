@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Evan Spiegel’s Most Underrated Skill](sources/evan-spiegels-most-underrated-skill-product-hunt.md) - A 2017 Product Hunt essay presents Snapchat's mapping, hardware, lens, avatar, search, computer-vision, and code features as products of acquisition-led capability building.
 - [Evaluating Delusional Startups](sources/evaluating-delusional-startups.md) - Zach Holman proposes interview-stage warning signs around promised riches, blame, colleague contempt, product complacency, and hatred of competitors.
 - [What I think about when I edit](sources/eva-parish-what-i-think-about-when-i-edit.md) - Eva Parish presents intent-first, audience-aware editing through precise language, explicit agency, useful context, consistent tone, and scan-friendly structure.
 - [Etsy CTO Q&A: We Need Software Engineers, Not Developers](sources/etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack.md) - John Allspaw describes Etsy's small familiar toolset, explicit novelty costs, simple deployment, production ownership, multidisciplinary engineering, and human-centered machine-learning stance.
@@ -666,6 +667,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader framed through acquisition-led product capability building, with causal attribution kept qualified.
 - [Zach Holman](entities/ZachHolman.md) - Startup practitioner presenting behavioral and cultural signals for evaluating prospective employers.
 - [Stewart Butterfield](entities/StewartButterfield.md) - Slack leader used as a source-scoped example of dissatisfaction with a successful product's current state.
 - [Eva Parish](entities/EvaParish.md) - Writer and technical-documentation practitioner represented through a cross-genre, judgment-led editing philosophy.
@@ -1312,7 +1314,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product spanning CRM-like ads, chatbot and micro-app ambitions, hybrid interfaces, and Messenger Day's broadcast-context conflict.
 - [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
 - [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
-- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover, self-recording norms, and Stories format shaped Facebook's product responses.
+- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover, sharing norms, Stories format, and acquisition-derived capabilities shaped its product position.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
@@ -2051,7 +2053,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Strategic Job Mobility](concepts/StrategicJobMobility.md) - Deliberate employer changes pursued for learning, responsibility, fit, or market position rather than a fixed switching timer.
 - [Founder-Investor Fit](concepts/FounderInvestorFit.md) - Two-way assessment of informed conviction, mutual respect, and working compatibility before a founder and investor enter a long-term financing relationship.
 - [Research-to-Product Transfer](concepts/ResearchToProductTransfer.md) - Organizational capability that moves ideas and prototypes from research into products, operations, and measurable impact.
-- [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Use of acquisitions to advance a coherent direction while sustaining post-close authority, resources, talent, product focus, and cultural integration.
+- [Acquisition Strategy](concepts/AcquisitionStrategy.md) - Use of acquisitions to fill capability gaps and advance a coherent direction while sustaining post-close authority, resources, product focus, and integration.
 - [Service-Lifetime Background Tasks](concepts/ServiceLifetimeBackgroundTasks.md) - In-process workers deliberately bound to service startup and shutdown rather than to one request.
 - [Visual Attention](concepts/VisualAttention.md) - Selective perceptual processing shaped by stimulus-driven signals, learned cues, viewer goals, and cognitive load.
 - [Data-Driven Operations](concepts/DataDrivenOperations.md) - Operational loop that decomposes one outcome into a funnel, diagnoses the weak stage by dimension, and tests interventions while preserving contextual judgment.

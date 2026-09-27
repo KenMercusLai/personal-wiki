@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "evan-spiegels-most-underrated-skill-product-hunt",
+  "images": [
+    {
+      "file": "looksery-face-lens-example.png",
+      "alt": "Looksery-derived face lens shown on a phone"
+    },
+    {
+      "file": "bitmoji-personal-message-example.png",
+      "alt": "Bitmoji used as a personalized message"
+    },
+    {
+      "file": "snapchat-world-lens-example.gif",
+      "alt": "Snapchat World Lens placing an animated rainbow in a park"
+    }
+  ]
+}
