@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "deconstructing-the-monolith-shopify-engineering",
+  "images": [
+    {
+      "file": "modularity-and-deployment-units.jpg",
+      "alt": "Matrix separating modularity from deployment-unit count across a modular monolith, microservices, and two big-ball-of-mud architectures"
+    },
+    {
+      "file": "rails-organization-before-after.jpg",
+      "alt": "Before-and-after Rails directory trees reorganized from technical layers into business-domain components"
+    },
+    {
+      "file": "wedge-component-isolation-dashboard.jpg",
+      "alt": "Shopify Wedge dashboard ranking components by isolation progress, public calls, internal associations, and public-interface status"
+    }
+  ]
+}

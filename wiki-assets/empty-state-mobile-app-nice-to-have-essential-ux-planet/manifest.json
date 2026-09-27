@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "empty-state-mobile-app-nice-to-have-essential-ux-planet",
+  "images": [
+    {
+      "file": "trip-planner-empty-state.png",
+      "alt": "Trip-planner mobile empty state explaining that no elective trips exist yet and directing the user to add one"
+    },
+    {
+      "file": "invoice-dashboard-empty-state.gif",
+      "alt": "Invoice dashboard empty state using an illustration, explanatory copy, and a prominent plus button to create the first sale"
+    },
+    {
+      "file": "workmates-section-empty-states.gif",
+      "alt": "Workmates empty states pairing section-specific explanations with direct actions to invite people, add favorites, or start a chat"
+    }
+  ]
+}

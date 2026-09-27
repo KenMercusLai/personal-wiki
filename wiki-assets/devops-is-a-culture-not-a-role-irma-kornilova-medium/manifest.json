@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "devops-is-a-culture-not-a-role-irma-kornilova-medium",
+  "images": [
+    {
+      "file": "devops-lifecycle.png",
+      "alt": "DevOps lifecycle linking development and operations through plan, code, build, test, release, deploy, operate, and monitor"
+    }
+  ]
+}

@@ -4,33 +4,41 @@ type: entity
 tags: [venture-capital, marketplaces, startups]
 sources:
   - checklists-for-startups-david-lee-medium
-last_updated: 2026-09-15
+  - dont-get-trampled-the-puzzle-for-unicorn-employees
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[BillGurley]] appears in this wiki as the recommended source for marketplace-evaluation factors in David Lee's startup checklist article.
+[[BillGurley]] appears in this wiki as a venture investor referenced for marketplace evaluation and for warning employees about the liquidity consequences of preference-heavy late-stage financing.
 
 ## Current Profile
-The current evidence is narrow. Lee points marketplace founders to Gurley's "All Markets Are Not Created Equal" factors as an additional checklist for evaluating digital marketplaces. The source does not summarize the ten factors, so this page records Gurley's role as a referenced marketplace-analysis authority rather than extracting the substance of the original Gurley article.
+David Lee points marketplace founders to Gurley’s “All Markets Are Not Created Equal” factors as a checklist for evaluating digital marketplaces, but does not reproduce the factors. Scott Belsky cites a separate Gurley post, “On the Road to Recap,” for the warning that employees face very low odds of receiving liquidity near the value they expect when leadership both accepts a “dirty” round and resists an IPO. The evidence therefore represents Gurley as a cited authority on marketplace quality and financing-dependent employee liquidity, while remaining indirect because neither original Gurley article has been ingested.
 
 ## Key Characteristics
 - Used as a marketplace-specific authority in a startup checklist collection.
 - Associated with evaluating whether different digital marketplace opportunities are attractive.
 - Functions as a supplement to general startup, fundraising, and metrics checklists.
+- Cited for connecting preference-heavy late-stage rounds with reduced employee liquidity prospects.
+- Treats leadership’s willingness to pursue an IPO as relevant to whether private-company equity becomes realizable.
 
 ## Evidence
 - Marketplace authority: [[checklists-for-startups-david-lee-medium]] recommends Gurley's marketplace factors for founders building a marketplace.
 - Checklist context: [[checklists-for-startups-david-lee-medium]] places Gurley's article after general startup, fundraising, and monetization checklists.
 - Scope limit: [[checklists-for-startups-david-lee-medium]] links to Gurley's factor list but does not reproduce the factors.
+- Financing warning: [[dont-get-trampled-the-puzzle-for-unicorn-employees]] quotes Gurley’s claim that combining a dirty round with an anti-IPO posture makes expected employee liquidity very unlikely.
+- Citation context: [[dont-get-trampled-the-puzzle-for-unicorn-employees]] uses the Gurley warning to support employee diligence about leadership’s financing and liquidity strategy.
 
 ## Qualifications
-This page is intentionally source-scoped. The wiki has not ingested Gurley's original marketplace article, so it should not claim the details of his ten factors from this source alone.
+This page is intentionally source-scoped. The wiki has not ingested either original Gurley article, so it should not infer the ten marketplace factors, define every structure he would call a dirty round, or generalize the quoted employee-liquidity warning beyond Belsky’s use of it. The claim is directional and does not quantify outcomes or account for later recapitalization, tender offers, acquisitions, or changes in IPO strategy.
 
 ## What Changed
-- Created the entity page for Gurley as a marketplace-checklist reference.
+- Added the cited connection between dirty rounds, anti-IPO leadership, and employee-liquidity risk.
 
 ## Relationships
 - [[StartupEvaluationChecklists]] - Gurley's marketplace factors are one checklist in Lee's recommended set.
 - [[MarketplaceTrust]] - Gurley's marketplace evaluation is adjacent to trust and liquidity questions, though this source does not detail those factors.
 - [[DavidLee]] - Lee recommends Gurley's marketplace article.
+- [[ScottBelsky]] - cites Gurley’s late-stage financing warning in an employee-equity diligence framework.
+- [[EmployeeEquityRisk]] - Gurley’s quoted warning connects financing terms and exit posture to realizable employee value.
+- [[StartupFinancingMechanics]] - the “dirty round” reference concerns protective terms beneath a financing headline.

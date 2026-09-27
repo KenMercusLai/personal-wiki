@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "detecting-cats-in-images-with-opencv-pyimagesearch",
+  "images": [
+    {
+      "file": "partially-occluded-cat-detection.jpg",
+      "alt": "OpenCV output detecting a partially occluded cat face inside a paper sleeve"
+    },
+    {
+      "file": "meowing-kitten-detection.jpg",
+      "alt": "OpenCV output detecting a meowing kitten's face"
+    },
+    {
+      "file": "full-body-cat-detection.jpg",
+      "alt": "OpenCV output detecting a cat face in a full-body studio image"
+    },
+    {
+      "file": "multiple-cat-detections.jpg",
+      "alt": "OpenCV output detecting three cat faces with labels returned in non-spatial order"
+    }
+  ]
+}

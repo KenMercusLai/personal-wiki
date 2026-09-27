@@ -4,7 +4,8 @@ type: concept
 tags: [product-design, ux, product-development]
 sources:
   - advocating-for-a-complete-product-redesign-google-design-medium
-last_updated: 2026-09-13
+  - designing-the-new-uber-app-uber-design-medium
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,6 +15,8 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The Crashlytics source presents redesign as a case-building problem before it is a screen-design problem. A platform migration into [[Firebase]] and [[MaterialDesign]] made a visual update necessary, but the designer argued that the deeper issue was accumulated design debt: users could not reach the information they cared about and sometimes did not know existing features were present. The redesign case therefore required user understanding, journey mapping, internal co-design, recurring pain-theme synthesis, stakeholder context, and explicit problem framing before the team committed to changing the dashboard and issue-detail experience.
 
+Uber adds a consumer-product case in which the original simplifying premise stopped scaling. A ride-first flow and product slider became error-prone as offerings, scheduling, pickup decisions, and trip states multiplied. Daily interviews with Framer and Swift prototypes supported an [[OutcomeFirstProductFlow]]: ask for the destination early, then use it to contextualize fares, arrival times, pickup preparation, and driver matching. Together the cases show that redesign is warranted when the product's underlying information sequence or operating assumption no longer fits its complexity, not merely when the interface looks old.
+
 ## Key Claims
 - Redesign should be grounded in how users currently use the product, not only in a new visual system.
 - A required visual refresh can become a strategic opportunity to repair deeper user-experience debt.
@@ -21,6 +24,7 @@ The Crashlytics source presents redesign as a case-building problem before it is
 - Internal experts can contribute useful redesign evidence when their context is separated into independent sessions and connected back to customer pain.
 - The case for redesign is stronger when stakeholders participate throughout the research process.
 - Information hierarchy is a common redesign target when users scroll, click, or ask for already-existing features because important material is buried.
+- A redesign may need to replace the product's original interaction premise when added options make the old simplification cause errors or hide useful context.
 
 ## Evidence
 - Visual trigger: [[advocating-for-a-complete-product-redesign-google-design-medium]] says the need to adopt Firebase's Material Design surface created the opportunity to rethink Crashlytics' whole UX.
@@ -29,12 +33,16 @@ The Crashlytics source presents redesign as a case-building problem before it is
 - Internal co-design: [[advocating-for-a-complete-product-redesign-google-design-medium]] describes paper-cutout sessions where teammates independently rearranged the dashboard.
 - Problem framing: [[advocating-for-a-complete-product-redesign-google-design-medium]] says the final pitch centered on unclear information hierarchy.
 - Image evidence: [[advocating-for-a-complete-product-redesign-google-design-medium]] includes inspected before/after screenshots showing clearer overview cards, filters, trend charts, issues, device details, session tabs, and stack-trace surfaces in the Firebase redesign.
+- Flow premise: [[designing-the-new-uber-app-uber-design-medium]] says Uber replaced a ride-first interaction with destination-first entry after product growth made its slider crowded and contributed to wrong selections.
+- Iterative research: [[designing-the-new-uber-app-uber-design-medium]] reports daily interviews using Framer and Swift prototypes before the team settled on contextual product comparisons.
+- System scope: [[designing-the-new-uber-app-uber-design-medium]] describes redesigning the rider flow while simultaneously building foundations, components, motion, maps, loading states, and other design-system elements.
 
 ## Counterevidence & Qualifications
-The source is a single team retrospective and does not provide quantitative before/after metrics. Its strongest evidence is process evidence, repeated qualitative pain themes, and inspected interface artifacts. Internal co-design should not replace direct user research; in this case, it worked because the team also drew on users, developer relations, support patterns, and long-tenured product knowledge.
+Both sources are first-party team retrospectives and do not provide quantitative before/after metrics. Their strongest evidence is process evidence, repeated qualitative themes, and described or inspected interface artifacts. Internal co-design should not replace direct user research; in the Crashlytics case, it worked alongside users, developer relations, support patterns, and long-tenured product knowledge. Uber reports frequent prototype interviews but not the sample, tasks, alternatives, accessibility findings, or post-launch outcomes, and its captured UI images are too small for independent detail-level interpretation.
 
 ## What Changed
 - Created the concept page for product redesign as evidence-backed case-building rather than a purely visual refresh.
+- Added legacy interaction premises and product-option growth as redesign triggers, with daily prototype research and concurrent design-system work as the response.
 
 ## Related Concepts
 - [[InformationHierarchy]] - unclear hierarchy was the central problem the redesign addressed.
@@ -43,3 +51,5 @@ The source is a single team retrospective and does not provide quantitative befo
 - [[InvestigateAndFixFlow]] - repeated user flow shaped the redesigned Crashlytics experience.
 - [[CustomerLedProductDevelopment]] - customer and support signals justified changing product direction.
 - [[UXResearchInformationDesign]] - research findings had to be organized into a stakeholder-readable case.
+- [[OutcomeFirstProductFlow]] - Uber's redesign changed the sequence of interaction so destination context could guide later choices.
+- [[DesignOperations]] - broad redesigns may require product surfaces and shared system components to evolve together.

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "distributed-architecture-concepts-i-learned-while-building-a-large-payments-system",
+  "images": [
+    {
+      "file": "replicated-data-failure-recovery.png",
+      "alt": "Replicated data remains available after one storage node fails"
+    },
+    {
+      "file": "durable-message-delivery.png",
+      "alt": "A durable message remains deliverable after one queue node fails"
+    }
+  ]
+}

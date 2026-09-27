@@ -98,6 +98,21 @@
     },
     {
       "global_candidate": false,
+      "id": "interval-and-indexing-design-is-router-spillover",
+      "qualifications": [
+        "The deterministic router placed this computer-science representation argument in the science topic; it is not a health, climate, or natural-science finding.",
+        "The Mesa error-reduction report is unquantified, and the argument does not prove zero-based half-open ranges optimal for every user-facing or compatibility-bound domain."
+      ],
+      "statement": "[[EdsgerWDijkstra]] derives [[ZeroBasedIndexing]] from [[HalfOpenIntervals]] by aligning sequence length, adjacency, empty-range behavior, and the count of preceding elements.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "EdsgerWDijkstra",
+        "HalfOpenIntervals",
+        "ZeroBasedIndexing"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "inventory-correctness-is-a-distributed-systems-tradeoff",
       "qualifications": [
         "This is a distributed-systems claim that the deterministic topic router placed here indirectly; it is not a science, health, or climate finding.",
@@ -145,6 +160,6 @@
       ]
     }
   ],
-  "summary": "This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; a misrouted distributed-systems case about ecommerce inventory correctness; a workplace-perk argument that raises but does not measure wellbeing effects; and a Gawker media-metrics paragraph that adds no science, health, or climate finding. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.",
+  "summary": "This topic remains a heterogeneous, mostly indirect collection: beginner scientific computing with NumPy; scientific framing of language-model behavior; developer-economy signals around data-science adoption; advice about attention, habits, and self-efficacy; philosophical uncertainty about intrinsic value; and router spillover from computer-science representation design, ecommerce inventory correctness, workplace-perk design, and Gawker media metrics. Each claim is source-scoped rather than a broad health, climate, or natural-science conclusion.",
   "topic_id": "science-health-and-climate"
 }

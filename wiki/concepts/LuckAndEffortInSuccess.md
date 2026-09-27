@@ -5,7 +5,8 @@ tags: [success, luck, effort, habits, inequality]
 sources:
   - absolute-success-is-luck-relative-success-is-hard-work
   - blog-1byte-io-yun-qi-yu-nu-li
-last_updated: 2026-09-25
+  - dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,7 @@ The framework rejects a single answer to whether success comes from luck or hard
 
 Time adds a second distinction. Buffett's ovarian lottery sets the starting position, while Clear's slope metaphor represents the direction affected by repeated behavior. Tu Youyou's long search for an antimalarial treatment illustrates the interaction: an ancient-text clue and historical circumstances were contingent, but systematic testing, revisiting failed assumptions, redesigning extraction, accepting personal risk, and continuing under publication constraints made the discovery usable. Action can therefore increase exposure to lucky breaks and the capacity to exploit them, but it cannot erase severe shocks, sustained privilege or disadvantage, or randomness in which opportunity appears.
 
-The 1Byte essay adds judgment between effort and outcome. [[ShanWeijian]] argues that learning builds the capacity to choose a useful direction, while his life and the author's Yale admission show preparation making a contingent opening usable. Its [[BillGates]] case extends the model from individual starting conditions to a chain of historical and relational contingencies: unusually early computer access, family networks, IBM access, a competitor's failure to close a deal, and the availability of QDOS interacted with talent and strategy. Acknowledging luck therefore has practical and moral consequences: remain teachable, resist confusing privilege with merit, treat weaker starting positions with compassion, and inspect success stories before copying or buying them.
+The 1Byte essay adds judgment between effort and outcome. [[ShanWeijian]] argues that learning builds the capacity to choose a useful direction, while his life and the author's Yale admission show preparation making a contingent opening usable. Its [[BillGates]] case extends the model from individual starting conditions to a chain of historical and relational contingencies: unusually early computer access, family networks, IBM access, a competitor's failure to close a deal, and the availability of QDOS interacted with talent and strategy. SJO supplies the blunt operational boundary: hard work can be a necessary baseline without being sufficient, and neither accumulated hours nor desire repairs a bad direction, absent opportunity, weak practice, or market mismatch. Acknowledging luck therefore has practical and moral consequences: remain teachable, resist confusing privilege with merit, treat weaker starting positions with compassion, and inspect success stories before copying or buying them.
 
 ## Key Claims
 - Attribution depends on the reference class: global comparisons foreground unequal starting conditions, while local comparisons make behavior more discriminating.
@@ -25,7 +26,7 @@ The 1Byte essay adds judgment between effort and outcome. [[ShanWeijian]] argues
 - Starting position and trajectory are different: people inherit much of the former but can influence part of the latter through choices and habits.
 - Persistent experimentation can turn a contingent clue into a repeatable result, as the source presents through Tu Youyou's work on artemisinin.
 - Preparation and repeated action can increase exposure and responsiveness to opportunity without making luck controllable.
-- Judgment determines where effort is applied and can be improved through sustained learning, but it does not remove contingency.
+- Judgment determines where effort is applied and can be improved through sustained learning, evidence, and feedback, but it does not remove contingency.
 - Effort cannot reliably overcome every illness, institutional barrier, financial shock, or compounding advantage, so the slope metaphor is a qualified agency claim rather than a promise.
 
 ## Evidence
@@ -38,11 +39,14 @@ The 1Byte essay adds judgment between effort and outcome. [[ShanWeijian]] argues
 - Compound contingency: [[blog-1byte-io-yun-qi-yu-nu-li]] presents Gates and Microsoft as the outcome of ability and strategy interacting with early access, family position, social ties, competitor error, and technological timing.
 - Ethical implication: [[blog-1byte-io-yun-qi-yu-nu-li]] argues that recognizing unequal opportunity should produce humility, continued learning, and kindness toward people with weaker starting conditions.
 - Limits: [[absolute-success-is-luck-relative-success-is-hard-work]] explicitly notes that severe illness, pension collapse, and sustained advantage or disadvantage can overwhelm or redirect an individual's trajectory.
+- Necessary-not-sufficient boundary: [[dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com]] contrasts the author's opportunities after immigrating to Canada with harder-working relatives in Pakistan and India, arguing that effort alone cannot overcome unequal access.
+- Practice quality: [[dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com]] argues that elapsed hours, desire, and persistence are weak explanations when practice quality and unsuccessful practitioners are omitted.
 
 ## Counterevidence & Qualifications
-The sources offer attribution heuristics, not an empirical decomposition of luck, judgment, effort, and structural advantage. "Similar" peers can still differ materially in wealth, discrimination, health, caregiving, risk capacity, network access, and cumulative opportunity, so local comparison does not isolate hard work. The slope model can also understate feedback loops: early advantage may improve both later opportunity and the apparent return to effort, while hardship can reduce the time, safety, or health needed to sustain habits. Tu Youyou, Shan, Gates, Microsoft, and the unnamed author's admission are retrospectively selected successes; they do not show how often comparable preparation fails, how much teams and institutions contributed, or whether luck is normally distributed as the 1Byte essay casually claims. Increasing exposure to opportunity raises chances, not guarantees, and may impose unequal costs.
+The sources offer attribution heuristics, not an empirical decomposition of luck, judgment, effort, and structural advantage. "Similar" peers can still differ materially in wealth, discrimination, health, caregiving, risk capacity, network access, and cumulative opportunity, so local comparison does not isolate hard work. The slope model can also understate feedback loops: early advantage may improve both later opportunity and the apparent return to effort, while hardship can reduce the time, safety, or health needed to sustain habits. Tu Youyou, Shan, Gates, Microsoft, the unnamed author's admission, and SJO's family comparison are retrospectively selected examples; they do not show how often comparable preparation fails, how much teams and institutions contributed, or whether luck is normally distributed as the 1Byte essay casually claims. Hard work is not literally necessary for every inherited, accidental, or extractive outcome, and the new source provides no general threshold for when more effort becomes irrational. Increasing exposure to opportunity raises chances, not guarantees, and may impose unequal costs.
 
 ## What Changed
+- Made the necessary-versus-sufficient distinction explicit and added evidence quality, practice quality, and direction as constraints on effort.
 - Added judgment as the learned mechanism that directs effort and added humility, compassion, and imitation skepticism as consequences of recognizing luck.
 - Created the concept by combining comparison scale, starting position, trajectory, and opportunity exposure into one qualified attribution framework.
 

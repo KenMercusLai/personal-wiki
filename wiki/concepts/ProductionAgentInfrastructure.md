@@ -5,7 +5,8 @@ tags: [ai, agents, infrastructure, reliability, security]
 sources:
   - wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong
   - duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong
-last_updated: 2026-09-13
+  - dont-trust-ai-agents-nanoclaw-blog
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,13 +18,15 @@ The source argues that production agents are not just LLM wrappers with tools. T
 
 Multi-agent production systems also inherit consensus and liveness problems. Agents progress asynchronously, can hang inside tools, can kill their own process, and can continue from incompatible interpretations of an underspecified prompt. Production infrastructure therefore needs not only effect logs, capability gateways, and semantic recovery, but also coordination mechanisms, failure detection, and verification gates that decide when to retry, stop, or escalate.
 
+NanoClaw contributes a narrower containment pattern for short-lived agent invocations: give every agent its own ephemeral container, filesystem, session history, unprivileged identity, explicit mounts, and group boundary. This can reduce process persistence and lateral data leakage, but it complements rather than replaces semantic effect records and scoped external capabilities. A container can be cleanly destroyed after the agent has already sent a message, changed a remote system, or exposed data through an authorized network path.
+
 ## Key Claims
 - Production agents differ from ordinary services because failure can occur after many state-changing decisions.
 - The key risk is structural: long runtime, untrusted input, credentials, nondeterminism, and side effects interact.
 - Durable side-effect records must exist before safe recovery is possible.
 - Capability boundaries must be enforced by infrastructure rather than by model obedience.
 - Recovery must preserve semantic correctness, not merely restart a process.
-- Existing sandboxes and workflow engines can support agent systems but do not replace agent-specific primitives.
+- Per-agent ephemeral sandboxes can contain local state and lateral access but do not undo legitimate external side effects.
 - Multi-agent agent infrastructure must handle consensus, failure detection, and liveness tradeoffs in addition to side effects and capabilities.
 
 ## Evidence
@@ -33,13 +36,15 @@ Multi-agent production systems also inherit consensus and liveness problems. Age
 - Existing-system limits: [[wei-shen-me-xian-you-de-agent-infra-wu-fa-zhi-cheng-sheng-chan-ji-ying-yong]] treats Kubernetes, Firecracker, gVisor, Modal, E2B, Temporal, and Conductor as useful at their own layers but outside agent semantic needs.
 - Consensus and liveness: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] maps agent hangs, asynchronous tool progress, and incompatible prompt interpretations onto distributed-system failure modes.
 - Failure detection: [[duo-agent-xie-zuo-ben-zhi-shi-fen-bu-shi-xi-tong-wen-ti-mo-xing-duo-qiang-ye-mei-yong]] notes that even imperfect failure detectors can make consensus more practical.
+- Per-agent containment: [[dont-trust-ai-agents-nanoclaw-blog]] describes fresh unprivileged containers, separate filesystems and histories, explicit mounts, read-only host code, and group-level isolation.
+- Boundary layering: [[dont-trust-ai-agents-nanoclaw-blog]] treats the container as the hard local boundary and mount policy as defense against user misconfiguration, while the earlier infrastructure source requires separate semantic controls for credentials and effects.
 
 ## Counterevidence & Qualifications
-The production-infrastructure source assumes that mainstream agents will converge toward long-running, high-permission autonomous execution. It explicitly notes an alternate path where agents stay short-running, low-permission, and human-approved at every step; in that world, capability isolation remains important but effect logs and fork recovery become less urgent. The distributed-systems source adds that coordination mechanisms improve practical outcomes but still make safety, liveness, and fault-tolerance tradeoffs.
+The production-infrastructure source assumes that mainstream agents will converge toward long-running, high-permission autonomous execution. It explicitly notes an alternate path where agents stay short-running, low-permission, and human-approved at every step; NanoClaw's ephemeral-invocation design makes that alternative more concrete, though its agents can still receive meaningful data and permissions. The distributed-systems source adds that coordination mechanisms improve practical outcomes but still make safety, liveness, and fault-tolerance tradeoffs. NanoClaw's container guarantees are first-party claims and do not account fully for kernel, runtime, mount, network, credential, or external-side-effect failures.
 
 ## What Changed
-- Created the concept page for the article's production-agent infrastructure frame.
-- Added distributed-consensus, failure-detection, and liveness concerns for multi-agent infrastructure.
+- Added per-agent ephemeral isolation as a concrete local-containment pattern for short-lived work.
+- Clarified that container teardown limits persistence but cannot reverse remote effects or replace capability and effect semantics.
 
 ## Related Concepts
 - [[EffectLog]] - provides durable side-effect semantics for production agents.
@@ -50,3 +55,4 @@ The production-infrastructure source assumes that mainstream agents will converg
 - [[HarnessEngineering]] - production agent infrastructure is a runtime extension of agent harness design.
 - [[DistributedConsensus]] - multi-agent production systems need coordination despite failures and ambiguity.
 - [[TrustTopology]] - verification gates help decide when to accept, retry, stop, or escalate agent work.
+- [[NanoClaw]] - demonstrates the per-agent container and group-isolation side of the infrastructure stack.

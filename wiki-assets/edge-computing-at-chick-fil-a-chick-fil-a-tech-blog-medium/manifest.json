@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium",
+  "images": [
+    {
+      "file": "restaurant-edge-architecture.png",
+      "alt": "Chick-fil-A edge architecture linking cloud control services, a Kubernetes-based restaurant platform, and connected devices"
+    },
+    {
+      "file": "distributed-restaurant-clusters.png",
+      "alt": "Diagram contrasting a few very large clusters with Chick-fil-A's geographically distributed fleet of small restaurant clusters"
+    }
+  ]
+}

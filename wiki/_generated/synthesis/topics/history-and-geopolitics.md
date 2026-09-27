@@ -3,16 +3,16 @@
 generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
-last_updated: 2026-09-26
-as_of_overview_commit: 9516eb653e5127691fa6ca483cb9955f1ea52e74
-input_digest: 6d4aaacfc8b24fd091f4b446812f1e61edac844ce0da391849832f9b1e7aecf1
+last_updated: 2026-09-27
+as_of_overview_commit: 2afb6f55eb20ba845f85d11889c1d6f9e53f29d5
+input_digest: b82af4a55577193bb08082614d1bcee081b25e02a3b6a2ac9aaa835dca0694ed
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]] paragraph is a 2016 media-history spillover whose substantive findings belong to business and community design; the [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence. The [[FirstMileProductExperience]] paragraph is another historical product-design spillover rather than geopolitical evidence: it uses selected 2016-era consumer-product examples to argue for evolving newcomer orientation, while later product changes and absent measured outcomes limit historical transfer.
+[[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]] paragraph is a 2016 media-history spillover whose substantive findings belong to business and community design; the [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence. The [[FirstMileProductExperience]] paragraph is another historical product-design spillover rather than geopolitical evidence: it uses selected 2016-era consumer-product examples to argue for evolving newcomer orientation, while later product changes and absent measured outcomes limit historical transfer. The [[Asana]] paragraph is likewise a dated 2017 operations-history spillover whose substantive findings belong to reliability and observability, not geopolitics.
 
 ## Cross-source Findings
 
@@ -177,3 +177,36 @@ The history and geopolitics topic currently contains technology, accounting, int
 
 - The source offers selected practitioner examples rather than a comparative product history, and its claims do not constitute geopolitical evidence.
 - Later changes to the named products, unmeasured activation outcomes, and unreadable 60-pixel evidence thumbnails limit historical transfer.
+
+### Asana Outage Is Operations History Spillover
+
+[[Asana]], [[SystemReliability]], and [[ServiceObservability]] add a source-scoped January 2017 operations-history snapshot in which failed provisioning, unnoticed alerts, exceptional demand, nonlinear overload, manual scaling, and load shedding combined in one partial outage rather than a history or geopolitics finding.
+
+**Evidence:** [[Asana]], [[SystemReliability]], [[ServiceObservability]]
+
+**Qualifications:**
+
+- The paragraph belongs substantively to reliability and observability; it enters this topic only as a dated 2017 incident account and adds no geopolitical evidence.
+- The evidence is a first-party postmortem, and the embedded file presented as a PNG contains current Asana blog HTML rather than interpretable historical visual evidence.
+
+### Gmail Workflow Is Product History Spillover
+
+The [[AndreasKlinger]] email workflow is product-history spillover: its historical [[Gmail]] screenshots show configurable stars, searches, panels, and Labs controls being assembled into [[EmailTaskManagement]], while the durable idea is state visibility rather than continued availability of the exact interface.
+
+**Evidence:** [[AndreasKlinger]], [[Gmail]], [[EmailTaskManagement]]
+
+**Qualifications:**
+
+- The source documents one user’s historical configuration and does not establish current Gmail feature names, settings paths, or mobile behavior.
+- Its relevance to history and geopolitics is secondary technical-history context, not a geopolitical claim.
+
+### Tesla Capacity Memo Is Operations History Spillover
+
+[[Tesla]], [[ElonMusk]], and [[ProductionCapacityBuffer]] add a source-scoped 2018 operations-history snapshot in which reported Model 3 output, factory upgrades, staffing, supplier demonstrations, and above-target burst capacity form a coupled production-ramp plan rather than a history or geopolitics finding.
+
+**Evidence:** [[Tesla]], [[ElonMusk]], [[ProductionCapacityBuffer]]
+
+**Qualifications:**
+
+- The paragraph is a dated manufacturing-operations snapshot routed here because it is historical; it adds no substantive geopolitical claim.
+- The incomplete blog reproduction reports executive claims and targets without independent outcome evidence and ends before the headline's advertised productivity advice.

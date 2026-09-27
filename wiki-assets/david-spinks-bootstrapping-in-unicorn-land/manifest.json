@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "david-spinks-bootstrapping-in-unicorn-land",
+  "images": [
+    {
+      "file": "feast-delivery-boxes.jpeg",
+      "alt": "A Feast team member beside a car trunk packed with large delivery boxes"
+    },
+    {
+      "file": "five-hundred-startups-cohort.jpeg",
+      "alt": "A large founder cohort posing beneath a 500 Startups screen"
+    }
+  ]
+}

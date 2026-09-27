@@ -8,7 +8,8 @@ sources:
   - 3-strategies-for-picking-your-battles-as-a-software-developer
   - wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de
   - cyle-how-i-review-code
-last_updated: 2026-09-23
+  - dont-waste-time-writing-perfect-code-dzone-devops
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -26,12 +27,14 @@ Head and Cyle add an interpersonal layer. A reviewer should distinguish codebase
 
 AI-heavy work adds a capacity-management layer. When AI doubles or triples local code production, review can become the real constraint: larger PRs and more queued PRs make feedback slower, context switching worse, and delivery no better. In this practice, code review is not only a quality gate or learning ritual; it is a scarce system resource that must be protected through PR sizing, pre-review verification, WIP limits, and risk-based escalation.
 
+Bird supplies a compact priority test for that scarce attention. Review should concentrate on correctness, defensive behavior, security, comprehension, debuggability, and whether the code is safe to change. Formatting belongs to automation, while style, pattern purity, and subjective elegance matter only when they materially affect understanding, teaching, or risk.
+
 ## Key Claims
 - Teams should choose review goals and approval strictness according to the change's purpose and risk.
 - Reviews should preserve motivation and decision context while spreading codebase knowledge to current and future engineers.
 - Execution, tests, development tooling, and automated style checks should support human judgment rather than leaving every check to diff reading.
 - Small changes, prompt first passes, explicit next steps, revision follow-up, and bounded review-stage work reduce blocking and queue growth.
-- Reviewers should separate genuine standards, performance, readability, and correctness concerns from personal preference.
+- Reviewers should separate correctness, security, defensive behavior, material performance, and readability concerns from personal preference or aesthetic perfection.
 - Feedback should adapt to the author's experience while remaining respectful and useful to the wider team.
 - Critical infrastructure may justify multiple accepts, slower review, and discarded candidate code that would be excessive for routine low-risk changes.
 
@@ -40,18 +43,20 @@ AI-heavy work adds a capacity-management layer. When AI doubles or triples local
 - Shared learning: [[7-best-practices-for-doing-code-reviews]] recommends predicting files and visualizing calls; [[cyle-how-i-review-code]] says engineers learn by reading other people's reviews.
 - Tool-supported judgment: [[7-best-practices-for-doing-code-reviews]] recommends running the app and checking compiler, test, and runtime feedback; [[cyle-how-i-review-code]] says Tumblr automated coding-standard enforcement so reviewers could focus on clarity and documentation.
 - Flow and scope: [[cyle-how-i-review-code]] favors small PRs, ticket-linked deferral, prompt review, and follow-up after revisions; [[wei-shen-me-ai-xie-dai-ma-geng-kuai-dan-jiao-fu-mei-bian-yi-ji-wo-zen-me-ba-ta-ban-hui-lai-de]] shows how oversized AI-generated queues can saturate reviewer capacity.
-- Preference triage: [[3-strategies-for-picking-your-battles-as-a-software-developer]] recommends letting a good PR go when feedback is not about a standard, material performance, or readability; [[7-best-practices-for-doing-code-reviews]] similarly discourages blocking simple non-bug suggestions.
+- Preference triage: [[3-strategies-for-picking-your-battles-as-a-software-developer]] recommends letting a good PR go when feedback is not about a standard, material performance, or readability; [[7-best-practices-for-doing-code-reviews]] similarly discourages blocking simple non-bug suggestions; [[dont-waste-time-writing-perfect-code-dzone-devops]] prioritizes correctness, defensive behavior, security, comprehension, and safe change over elegance or pattern purity.
+- Mechanical boundaries: [[dont-waste-time-writing-perfect-code-dzone-devops]] assigns formatting to development tools and treats style as review-worthy when it obstructs understanding or supports mentoring.
 - Author-aware communication: [[cyle-how-i-review-code]] varies examples, references, documentation requests, and explanation by author context while insisting that comments remain kind and appropriate for any reader.
 - Risk-scaled gates: [[blog-mahesh-balakrishnan-42-things-i-learned-from-building-a-production-database]] supports multiple accepts, slower landing, and throwing away wrong candidate code for critical components.
 
 ## Counterevidence & Qualifications
-The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Default-to-approval and ticketed deferral fit low-risk, traceable work better than unresolved safety, security, accessibility, migration, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
+The sources are mostly practitioner reflections rather than universal empirical studies, though the AI coding bottleneck source cites industry telemetry for review latency and PR growth. Tumblr's reported workflow is a historical case from one large company, and author-sensitive feedback can become inconsistent or paternalistic if it substitutes assumptions about seniority for evidence in the change. Bird's advice to ignore non-material style is not permission to bypass standards that encode accessibility, interoperability, safety, or maintainability. Default-to-approval and ticketed deferral fit low-risk, traceable work better than unresolved safety, security, accessibility, migration, or correctness risk. Conversely, Balakrishnan's stricter gates fit critical infrastructure better than routine changes, where excessive approvals can block cleanup and learning.
 
 ## What Changed
 - Review now includes durable decision context for future maintainers, not only immediate feedback and approval.
 - Reviewer judgment now explicitly combines author-aware coaching with respectful, publicly readable communication.
 - Flow guidance now includes small scope, traceable deferral, prompt response, revision follow-up, and WIP control.
 - Risk remains the main qualification: critical components may justify slower review, multiple accepts, and discarded candidate code.
+- Review attention now explicitly follows correctness, defensive behavior, security, comprehension, debuggability, and change safety rather than aesthetic perfection.
 
 ## Related Concepts
 - [[PRReviewHygiene]] - review hygiene shapes code changes and feedback so human review remains usable.

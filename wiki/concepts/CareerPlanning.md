@@ -15,7 +15,9 @@ sources:
   - would-i-do-this-for-10-years
   - vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life
   - business-insider-matt-warzel-brand-you-creating-and-self-marketing-yourself-to-find-a-job-during-tough-times
-last_updated: 2026-09-25
+  - drew-houstons-commencement-address-mit-news
+  - entrepreneurial-careers-beyond-the-fairy-tale-narrative-by
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -27,6 +29,8 @@ The sources frame career planning as broader than picking a job title. A career 
 
 Urban adds the strongest self-audit and uncertainty frame. His [[WantRealityCareerFramework]] says a career path should come from the overlap between authentic wants and realistic reachability, but both sides are hard to know. Wants may be internally conflicted or inherited from parents, peers, culture, heroes, past selves, and conventional wisdom. Reality is also easy to misread because careers are changing game boards rather than static ladders, and success depends on improving at the whole game through pace and persistence. This turns career planning into repeated hypothesis testing: choose the next dot, act, learn from feedback, and update the plan as both the person and world change.
 
+Houston reinforces the experimental model while adding an attention-based diagnostic. A post-graduation grand plan may be impossible because both destination and future self remain uncertain; the nearer evidence is which important problems repeatedly pull attention, whether direct work remains energizing despite difficulty, and what becomes learnable after starting. His “tennis ball” metaphor is stronger than generic “do what you love” advice because it distinguishes declared preference from observed absorption, but it remains a retrospective founder heuristic rather than a validated career test.
+
 Shipper sharpens the feedback rule for early entrepreneurship. A beginner should not treat imagined willingness to pursue a new idea for ten years as reliable evidence, because durable preference is difficult to infer before experience and early company results fluctuate sharply. The nearer question is whether the work is producing the kind of learning the person wants. This does not rule out long commitments; it postpones that judgment until lived evidence can replace mood and projection.
 
 Giang and McCord add employer tenure as another revisable career variable. A move can be useful when a new company creates a steeper learning curve, greater responsibility, better fit, or stronger market position, but the article's three-to-four-year suggestion is a heuristic rather than an evidence-based deadline. [[StrategicJobMobility]] therefore extends the experimental-path model: staying and leaving should both be justified by what they make learnable or reachable next.
@@ -35,6 +39,8 @@ Warzel adds a job-search execution layer. A candidate first clarifies goals, val
 
 Career planning sometimes begins after an old plan becomes impossible or loses meaning, not after a neat strategic exercise. Entering tech around 30 can mean starting over among younger, more technically advanced peers, while also bringing prior management experience, social confidence, and clearer values about the work and people one wants.
 
+Smith extends the experimental path beyond one startup. Founding, continued operation, failure, departure, acquisition employment, rest, another startup, venture investing, larger-company work, and retirement are connected career states rather than a single success ladder. His preference for building a lasting company adds long-horizon orientation, but his own caveat preserves the broader synthesis: the right transition depends on values, desired work rhythm, life stage, and constraints, and long-term intent should still be revised with lived evidence.
+
 ## Key Claims
 - Career planning should account for gifts, passion, values, motives, and constraints together rather than only titles or salary.
 - A career is a path rather than a single endpoint or job title, and formal promotion paths work best when expectations, feedback, next-level goals, and review cadence are explicit.
@@ -42,7 +48,7 @@ Career planning sometimes begins after an old plan becomes impossible or loses m
 - Alternative career paths and job searches should connect self-assessment to labor-market research, target-employer needs, transferable value, compensation criteria, financial and social constraints, and a time-boxed action or exit plan.
 - Side projects can support a career transition when they make missing or doubted experience concrete.
 - Non-linear careers can still have coherence when experiments repeatedly return to the same values, mediums, problems, and communities.
-- Career choices should be treated as staged experiments under uncertainty, using desired learning, fit, responsibility, future option value, and other proximal evidence to judge both employer tenure and larger path changes instead of relying on loyalty norms, fixed timers, or confident forecasts about a distant future self.
+- Career choices should be treated as staged experiments under uncertainty, using desired learning, observed problem engagement, fit, responsibility, future option value, and other proximal evidence to judge both employer tenure and larger path changes instead of relying on loyalty norms, fixed timers, or confident forecasts about a distant future self.
 
 ## Evidence
 - Fit dimensions: [[tuimo-shi-yong-gpv-si-kao-ni-de-zhi-ye-sheng-ya]] presents gifts, passion, and values as the elements behind career reflection, while [[blog-tim-urban-waitbutwhy-how-to-pick-a-career]] warns that wants and fears need auditing before they can be trusted.
@@ -65,16 +71,19 @@ Career planning sometimes begins after an old plan becomes impossible or loses m
 - Employer mobility: [[vivian-giang-you-should-plan-on-switching-jobs-every-three-years-for-the-rest-of-your-life]] argues that changing companies can create faster learning and cites a three-to-four-year heuristic, without establishing a universal optimal cadence.
 - Job-search strategy: [[business-insider-matt-warzel-brand-you-creating-and-self-marketing-yourself-to-find-a-job-during-tough-times]] integrates a mission statement, assessments, journaling, market research, the marketing mix, SWOT, deadlines, and a rehearsed elevator speech into a targeted plan.
 - Transferable employer value: [[business-insider-matt-warzel-brand-you-creating-and-self-marketing-yourself-to-find-a-job-during-tough-times]] recommends translating capabilities and accomplishments into evidence of the problems, revenue, or costs a candidate can affect.
+- Attention as evidence: [[drew-houstons-commencement-address-mit-news]] contrasts Houston's declining engagement with SAT preparation against the involuntary attention he gave a poker bot and Dropbox, framing observed absorption as a clue to better-fit problems.
+- Action under uncertainty: [[drew-houstons-commencement-address-mit-news]] rejects a fully knowable post-graduation grand plan and argues that doing creates learning unavailable through indefinite preparation.
+- Founder-career branching: [[entrepreneurial-careers-beyond-the-fairy-tale-narrative-by]] maps startup operation, failure, departure, acquisition employment, rest, serial founding, venture investing, larger-company work, and retirement as linked career states rather than one terminal exit.
 
 ## Counterevidence & Qualifications
-The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, freelancing may be unwise under heavy debt, family support obligations, or weak income prospects, and a side project may have little hiring impact if it is not relevant, deep, iterated, and visible. Wibowo's source adds that sexism and harassment can distort career planning by making otherwise meaningful technical environments unsafe or demoralizing. James adds that even a well-evidenced promotion plan can stall because of company ambiguity, budget, values mismatch, weak manager alignment, burnout, or lack of suitable scope. Chen adds that job decisions remain partly emotional and that risk aversion can produce over-preparation. Banks' life-stage advice needs adaptation to actual family, financial, health, spiritual, and labor-market context. The junior-developer source is intentionally encouraging, so its optimism should be held with its cautions about risk, family time, burnout, and the cost of being older and junior. Urban may still underweight structural barriers, discrimination, immigration, health, and caregiving constraints that self-knowledge cannot solve. Warzel's product-and-market analogy can focus a search, but it can also overstate individual control and reduce mutual employment fit to commercial packaging; personality assessments are imperfect, and his industry examples are dated. Shipper's learning test is not a complete economic or ethical scorecard, while Giang does not establish that fixed switching causes better outcomes.
+The sources are reflective advice and personal experience, not systematic career-outcomes research. They also acknowledge constraints: some hobbies may not become reliable careers in a direct form, freelancing may be unwise under heavy debt, family support obligations, or weak income prospects, and a side project may have little hiring impact if it is not relevant, deep, iterated, and visible. Wibowo's source adds that sexism and harassment can distort career planning by making otherwise meaningful technical environments unsafe or demoralizing. James adds that even a well-evidenced promotion plan can stall because of company ambiguity, budget, values mismatch, weak manager alignment, burnout, or lack of suitable scope. Chen adds that job decisions remain partly emotional and that risk aversion can produce over-preparation. Banks' life-stage advice needs adaptation to actual family, financial, health, spiritual, and labor-market context. The junior-developer source is intentionally encouraging, so its optimism should be held with its cautions about risk, family time, burnout, and the cost of being older and junior. Urban may still underweight structural barriers, discrimination, immigration, health, and caregiving constraints that self-knowledge cannot solve. Warzel's product-and-market analogy can focus a search, but it can also overstate individual control and reduce mutual employment fit to commercial packaging; personality assessments are imperfect, and his industry examples are dated. Shipper's learning test is not a complete economic or ethical scorecard, while Giang does not establish that fixed switching causes better outcomes. Houston's “tennis ball” can confuse absorption with sustainable fit when obsession is unhealthy, externally subsidized, or detached from economic and relational obligations; reader comments also challenge the speech's elite Silicon Valley success frame and emphasize meaning outside career achievement. Smith's founder map is likewise a 2017 technology-founder model with no outcome frequencies; its proposed one-third split is explicitly a guess, and its preference for lasting company-building may underweight changing interests, non-work meaning, burnout, caregiving, health, and financial independence.
 
 ## What Changed
+- Extended career planning beyond one startup by treating acquisition, departure, rest, investing, another company, and larger-company work as connected transitions.
 - Added [[WantRealityCareerFramework]] as a self-audit and reality-audit model for career decisions.
 - Reframed career moves as next-dot experiments with feedback rather than irreversible tunnel choices.
-- Added desired learning as a proximal continuation test when long-horizon preference forecasts are premature.
+- Added desired learning and observed problem engagement as proximal continuation tests when long-horizon preference forecasts are premature.
 - Added employer tenure as a revisable career variable and qualified the three-to-four-year mobility heuristic.
-- Added a market-aware job-search layer connecting mission, self-assessment, transferable value, target employers, compensation, channels, and concrete action.
 
 ## Related Concepts
 - [[GPVCareerFormula]] - provides the source's three-factor method for judging career fit.
@@ -92,3 +101,5 @@ The sources are reflective advice and personal experience, not systematic career
 - [[OpportunityCost]] - each career choice spends time and attention that could have gone to other paths.
 - [[StrategicJobMobility]] - applies career experimentation to the decision to stay with or leave an employer.
 - [[PersonalBranding]] - translates a career plan into a consistent employer-facing value proposition.
+- [[DeliberateNetworkBuilding]] - peers, mentors, heroes, and place can reinforce or redirect the path being tested.
+- [[EntrepreneurialCareerPaths]] - applies revisable path planning to startup outcomes and founder roles after one company.

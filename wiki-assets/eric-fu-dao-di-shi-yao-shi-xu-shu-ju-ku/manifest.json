@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku",
+  "images": [
+    {
+      "file": "time-series-example.png",
+      "alt": "A cpu_usage table of timestamp-value pairs converted into a line chart"
+    },
+    {
+      "file": "name-label-time-model.webp",
+      "alt": "Metric tables and label rows forming a plane extended along the time axis"
+    },
+    {
+      "file": "vector-perspective.webp",
+      "alt": "Vector perspective selecting a time series by metric name and labels"
+    },
+    {
+      "file": "snapshot-perspective.webp",
+      "alt": "Snapshot perspective selecting all series values at one query time"
+    },
+    {
+      "file": "time-dimension-aggregation.webp",
+      "alt": "Maximum over a five-minute window reducing points along one series"
+    },
+    {
+      "file": "label-dimension-aggregation.webp",
+      "alt": "Maximum by cluster combining several node series at each timestamp"
+    }
+  ]
+}

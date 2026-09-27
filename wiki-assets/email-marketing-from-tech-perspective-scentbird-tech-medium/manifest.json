@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "email-marketing-from-tech-perspective-scentbird-tech-medium",
+  "images": [
+    {
+      "file": "spam-inbox.png",
+      "alt": "Spam inbox dominated by deceptive discounts and unsolicited offers"
+    },
+    {
+      "file": "regional-email-open-times.png",
+      "alt": "Regional email-opening time chart cited to support time-zone-aware delivery"
+    },
+    {
+      "file": "sendy-campaign-report.png",
+      "alt": "Sendy campaign report interface with engagement and link metrics"
+    },
+    {
+      "file": "ecommerce-customer-flow.jpg",
+      "alt": "Ecommerce customer flow from entry and product browsing through cart and purchase"
+    },
+    {
+      "file": "drip-campaign-sequence.png",
+      "alt": "Drip campaign sequence branching from scheduled messages to user actions"
+    }
+  ]
+}

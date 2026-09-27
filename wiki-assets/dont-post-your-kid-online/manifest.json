@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "dont-post-your-kid-online",
+  "images": [
+    {
+      "file": "data-broker-profile-attributes.jpg",
+      "alt": "Examples of the demographic, financial, household, health, interest, search, purchase, and behavioral attributes attributed to Acxiom and Oracle consumer profiles"
+    },
+    {
+      "file": "acxiom-data-activation-cycle.png",
+      "alt": "Acxiom marketing diagram showing channel signals unified into a profile, validated and enhanced with first-, second-, and third-party data, activated across channels, and fed back continuously"
+    },
+    {
+      "file": "parent-child-data-safety-guidance.png",
+      "alt": "Children’s Commissioner guidance for parents and carers: avoid revealing posts, change device defaults, buy genuine gadgets, install updates, and question organizations holding child data"
+    }
+  ]
+}

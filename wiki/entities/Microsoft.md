@@ -8,21 +8,22 @@ sources:
   - a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news
   - above-avalon-the-race-to-a-trillion
   - capitalism-without-capital-bill-gates
-last_updated: 2026-09-15
+  - danny-glasser-is-typing-danny-glasser
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Microsoft]] appears in the sources as a profitable early software success, an example of intangible software economics, a legacy PC-platform owner that missed the mobile platform shift, a Windows 8 landing-page example where missing student-relevant testimonials become negative social proof, and a 2018 corporate giant whose differentiated enterprise-services path followed acceptance that it had missed mobile.
+[[Microsoft]] appears in the sources as a profitable early software success, an example of intangible software economics, the company behind [[MSNMessenger]] and the original [[TypingIndicator]], a legacy PC-platform owner that missed the mobile shift, and a later enterprise-services giant adapting after that miss.
 
 ## Current Profile
-The IPO source presents Microsoft as a capital-light software company whose 1986 public offering came after years of profitable growth, product expansion, and limited dependence on venture capital. By the mid-1980s it had moved from BASIC and MS-DOS into Word, Excel, and Windows, and the article frames that foundation as proof that software could already be an unusually attractive business. Gates's later essay generalizes that origin story: Microsoft spent heavily to create software but could distribute later units at near-zero marginal cost, making its assets and long-term returns unfamiliar to investors trained on tangible goods. The mobile source shows the later strategic inversion: Microsoft remained powerful through Windows and Office cash flows, but no longer controlled the center of computing once mobile became dominant. The landing-page source adds a narrower marketing example where a Windows 8 student page full of product and price information is criticized for lacking relatable student testimonials. The Above Avalon source then reads Microsoft as one of 2018's five giants: an enterprise-focused services company whose shift away from consumer markets showed management accepting the missed mobile revolution and choosing a different path.
+The IPO source presents Microsoft as a capital-light software company whose 1986 public offering followed years of profitable growth, product expansion, and limited dependence on venture capital. Gates's later essay generalizes that origin story: Microsoft spent heavily to create software but could distribute later units at near-zero marginal cost, making its assets unfamiliar to investors trained on tangible goods. Glasser's Messenger retrospective adds a product-innovation case: a coded activity mechanism, rough proof of concept, internal self-hosting, and collaborative interface polish produced a messaging convention later copied across the industry. The mobile source shows the later strategic inversion: Microsoft remained powerful through Windows and Office cash flows but no longer controlled computing's center once mobile became dominant. The landing-page source adds a narrow marketing example where a Windows 8 student page lacked relatable testimonials, while Above Avalon reads Microsoft in 2018 as an enterprise-services giant choosing a differentiated path after missing mobile.
 
 ## Key Characteristics
 - Built a profitable pre-IPO software business before the later Windows/Office legacy position, entering public markets from cash and product momentum rather than desperation.
 - Exemplifies [[IntangibleAssetEconomics]] because software has high creation cost and very low reproduction cost.
-- Missed the shift to the new mobile platform.
-- Retains legacy market power through Windows and Office rather than mobile leadership.
+- Produced [[MSNMessenger]] and the original [[TypingIndicator]] through mechanism design, rapid prototyping, internal use, and collaborative interface work.
+- Missed the mobile platform shift while retaining legacy market power through Windows and Office.
 - Is described as abandoning the old universal Windows platform strategy and choosing a differentiated post-mobile enterprise-services path.
 - Can suffer marketing credibility gaps when proof does not match the target audience.
 - Appears in the trillion-dollar-race source as a cash-rich enterprise-services giant whose post-mobile path illustrates both resilience and [[CorporateGiantFragility]].
@@ -31,6 +32,8 @@ The IPO source presents Microsoft as a capital-light software company whose 1986
 - Profitable origin: [[a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news]] says Microsoft went public in 1986 after annual profitability, fast revenue growth, and early products including MS-DOS, Word, Excel, and Windows.
 - Intangible cost structure: [[capitalism-without-capital-bill-gates]] says Microsoft could spend heavily on the first unit of a program while later copies were virtually free to produce.
 - Investor education: [[capitalism-without-capital-bill-gates]] says Gates had to explain Microsoft's asset logic to investors who could not imagine its long-term returns.
+- Messaging innovation: [[danny-glasser-is-typing-danny-glasser]] traces the typing indicator from Danny Glasser's mechanism and rough UI through self-hosting and the polished Messenger 1.0 release.
+- Patent and product credit: [[danny-glasser-is-typing-danny-glasser]] distinguishes Microsoft's patent on activity detection and communication from the broader team's interface contributions.
 - Advice capital: [[a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news]] says Microsoft's $1 million outside investment was mainly for adding venture board advice, not operating cash.
 - IPO posture: [[a-look-back-in-ipo-microsoft-the-software-success-crunchbase-news]] says Microsoft had cash on hand comparable to expected IPO proceeds and was not forced public by investor pressure.
 - Missed platform shift: [[16-mobile-theses-benedict-evans]] says Microsoft missed the move to the new platform.
@@ -43,10 +46,11 @@ The IPO source presents Microsoft as a capital-light software company whose 1986
 - Strategic adaptation: [[above-avalon-the-race-to-a-trillion]] says Microsoft's shift away from consumer markets symbolized accepting that it missed mobile and staking out a differentiated path.
 
 ## Qualifications
-The IPO source is a retrospective and does not fully evaluate Microsoft's product strategy, competitive environment, or later monopoly and antitrust issues. The Gates essay uses Microsoft as an example inside a book review rather than as a full company history. The mobile source is a 2015 view and does not cover Microsoft's later cloud, AI, developer-tooling, gaming, or enterprise-platform trajectory. The landing-page source is a 2013 copywriting critique of one Windows 8 page, not a full assessment of Microsoft's marketing. The Above Avalon source is a 2018 comparator snapshot rather than a full Microsoft company history.
+The IPO and Messenger sources are retrospectives, and the latter is one participant's account of one feature rather than a complete team or patent history. The Gates essay uses Microsoft as an example inside a book review. The mobile source is a 2015 view and does not cover Microsoft's later cloud, AI, developer-tooling, gaming, or enterprise-platform trajectory. The landing-page source is a 2013 critique of one page, and the Above Avalon source is a 2018 comparator snapshot rather than a full company history.
 
 ## What Changed
-- Added Microsoft's role as Gates's concrete example of intangible software economics and investor unfamiliarity with software assets.
+- Added the typing indicator as a concrete Microsoft product-innovation case linking mechanism design, prototyping, self-hosting, interface collaboration, and broad imitation.
+- Clarified that patent inventorship and complete product contribution are not the same evidence set.
 
 ## Relationships
 - [[BillGates]] - Microsoft co-founder whose comments anchor the source's financing and IPO-pricing account.
@@ -59,3 +63,6 @@ The IPO source is a retrospective and does not fully evaluate Microsoft's produc
 - [[SocialProof]] - the Windows 8 example shows how missing relevant testimonials can weaken a target-audience page.
 - [[CorporateGiantFragility]] - Microsoft appears as a corporate giant whose path changed after missing a major platform shift.
 - [[Amazon]] - corporate-giant comparator in the Above Avalon source.
+- [[DannyGlasser]] - engineer who conceived and implemented the original typing-activity mechanism.
+- [[MSNMessenger]] - Microsoft product in which the modern typing indicator debuted.
+- [[TypingIndicator]] - widely adopted interaction pattern originating in Messenger 1.0.

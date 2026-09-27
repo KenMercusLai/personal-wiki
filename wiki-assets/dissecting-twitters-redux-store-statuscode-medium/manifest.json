@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "dissecting-twitters-redux-store-statuscode-medium",
+  "images": [
+    {
+      "file": "redux-state-tree.png",
+      "alt": "Twitter Redux store showing top-level application state slices"
+    },
+    {
+      "file": "normalized-tweet-entities.png",
+      "alt": "Normalized tweet entity table keyed by tweet ID"
+    },
+    {
+      "file": "home-timeline-tweet-references.png",
+      "alt": "Home timeline array containing ordered tweet ID references"
+    },
+    {
+      "file": "timeline-cursors-and-fetch-times.png",
+      "alt": "Timeline top and bottom cursors with last-fetch timestamps"
+    },
+    {
+      "file": "entity-fetch-status-tables.png",
+      "alt": "Parallel entity tables and per-ID fetch-status maps"
+    }
+  ]
+}

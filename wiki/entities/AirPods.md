@@ -6,6 +6,7 @@ sources:
   - above-avalon-apple-is-figuring-out-whats-next
   - above-avalon-the-curious-state-of-apple-product-pricing
   - will-airpods-spark-the-next-technology-wave-how-personal-audio-computing-could-reshape-the-industry-geekwire
+  - echo-interfaces-and-friction-benedict-evans
 last_updated: 2026-09-23
 knowledge_schema: synthesis-v1
 ---
@@ -16,7 +17,7 @@ knowledge_schema: synthesis-v1
 ## Current Profile
 The smart-glasses source groups AirPods with [[AppleWatch]] as part of Apple's growing wearables momentum: the wrist and ears are early body locations where Apple had already won meaningful user adoption before the proposed battle for the eyes. The pricing source gives AirPods a sharper market role. [[NeilCybart]] argues that at $159, AirPods were not simply expensive earbuds or free EarPods replacements, but "computers for your ears" whose sensors, W1 chip, and charging case made them Apple's second wearables product. The embedded launch image showing $159 reinforces the pricing point, and the comparison list places most named truly wireless competitors between $199 and $300.
 
-Automatic pairing, wire-free use, the charging case, and pocketability compound into lower activation friction, keeping a private microphone and speaker near the ear while the user's hands and eyes remain free. That convenience supports calls, podcasts, reminders, and audio gap-filling, but it does not by itself make AirPods a computing platform. Current AirPods lack an open developer ecosystem in the 2019 account because [[Apple]] restricts application interaction with Siri. AirPods are therefore strong evidence for ear-worn behavior change and smartphone extension, but only a precursor to an independent computing wave unless novel scenarios and third-party extensibility emerge.
+Automatic pairing, wire-free use, the charging case, and pocketability compound into lower activation friction, keeping a private microphone and speaker near the ear while the user's hands and eyes remain free. Evans clarifies that this does not eliminate effort so much as relocate it: plugging in and untangling a cable on every use becomes occasional case charging, with the use-to-management ratio determining whether the trade feels better. That convenience supports calls, podcasts, reminders, and audio gap-filling, but it does not by itself make AirPods a computing platform. Current AirPods lack an open developer ecosystem in the 2019 account because [[Apple]] restricts application interaction with Siri. AirPods are therefore strong evidence for ear-worn behavior change and smartphone extension, but only a precursor to an independent computing wave unless novel scenarios and third-party extensibility emerge.
 
 ## Key Characteristics
 - Represents Apple's ear-worn wearable position in the source.
@@ -37,13 +38,15 @@ Automatic pairing, wire-free use, the charging case, and pocketability compound 
 - Interaction friction: [[will-airpods-spark-the-next-technology-wave-how-personal-audio-computing-could-reshape-the-industry-geekwire]] says automatic iPhone connection, no wires, the battery case, and pocketability make a speaker and microphone much more likely to remain near the ear.
 - Behavioral effect: [[will-airpods-spark-the-next-technology-wave-how-personal-audio-computing-could-reshape-the-industry-geekwire]] describes audio gap-filling and hands-free use across calls, podcasts, reminders, sleep, and cycling.
 - Platform limit: [[will-airpods-spark-the-next-technology-wave-how-personal-audio-computing-could-reshape-the-industry-geekwire]] argues restricted Siri and application access leave AirPods without the developer ecosystem required for a computing wave.
+- Friction relocation: [[echo-interfaces-and-friction-benedict-evans]] argues that AirPods replace plugging in and untangling a cable on every use with infrequent charging through the case.
+- Management ratio: [[echo-interfaces-and-friction-benedict-evans]] treats long use between short charging sessions as a reduction in mental load rather than proof that battery management disappeared.
 
 ## Qualifications
-The smart-glasses source does not separate AirPods unit sales from Apple Watch sales in the embedded chart. The pricing source is a 2017 launch-era analyst comparison and does not include later AirPods models, margins, sales outcomes, audio-quality comparisons, or competitor trajectories. The GeekWire source is a speculative 2019 essay: its sales estimate, Amazon forecast, future scenarios, and platform conclusion are time-bound, and it does not measure behavioral effects, developer demand, privacy acceptance, or later ecosystem changes.
+The smart-glasses source does not separate AirPods unit sales from Apple Watch sales in the embedded chart. The pricing and friction sources are 2017 launch-era and 2016 strategic comparisons; they do not include later models, margins, sales outcomes, audio quality, battery degradation, measured charging burden, or competitor trajectories. The GeekWire source is a speculative 2019 essay: its sales estimate, Amazon forecast, future scenarios, and platform conclusion are time-bound, and it does not measure behavioral effects, developer demand, privacy acceptance, or later ecosystem changes.
 
 ## What Changed
-- Reclassified AirPods as strong evidence for lower-friction ear-worn interaction but not yet an independent computing platform.
-- Added closed Siri and application access as the central ecosystem constraint on the product's platform potential.
+- Distinguished friction removal from friction relocation: cable handling on every use becomes occasional charging and battery management.
+- Added use-to-management ratio as the test for whether the wireless trade reduces practical and cognitive burden.
 
 ## Relationships
 - [[Apple]] - maker of AirPods.

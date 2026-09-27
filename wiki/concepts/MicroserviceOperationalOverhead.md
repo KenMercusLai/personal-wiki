@@ -6,7 +6,9 @@ sources:
   - alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar
   - appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby
   - architecting-for-continuous-delivery-thoughtworks
-last_updated: 2026-09-14
+  - deconstructing-the-monolith-shopify-engineering
+  - emily-reinhold-the-opportunities-microservices-provide-at-uber-engineering
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +22,10 @@ The key architectural lesson is that isolation has a carrying cost. If tooling d
 
 Service extraction also has a positive continuous-delivery case: it can improve cycle time by giving teams autonomy, independent deployment, and separate scaling. That benefit depends on the same boundary condition as the overhead critique: organizations need enough maturity to choose service boundaries and operate the resulting distributed system.
 
+Shopify adds a pre-decomposition decision case. Microservices could have reduced internal coupling, but would also have multiplied pipelines and infrastructure, moved calls onto the network, complicated data access, and made cross-service refactors require coordinated deployments. Shopify therefore pursued [[ModularMonolith]] boundaries first, preserving one deployment while making domain coupling visible and removable.
+
+Uber's Tincup account supplies the qualified positive case at organizational scale. Uber did not make hundreds of services cheap by boundary choice alone; it invested in RFC governance, discovery and routing, strict contracts, rate limits, circuit breaking, load tests, container isolation, and controlled disruption. These shared capabilities can lower the marginal risk of another service, but they require a platform organization and do not erase slow consumer migration or technology-learning cost.
+
 ## Key Claims
 - Microservices can solve one isolation problem while creating a larger operational surface.
 - Service count, repository count, queue count, dependency versions, and autoscaling profiles can grow together.
@@ -27,7 +33,7 @@ Service extraction also has a positive continuous-delivery case: it can improve 
 - Operational overhead matters especially when a small team must maintain many heterogeneous load patterns.
 - The right service boundary depends on tooling and team capacity, not only on domain decomposition.
 - Small teams should delay distributed service boundaries until they can afford the deployment and coordination cost.
-- Service extraction can improve cycle time and deployment autonomy, but only when boundaries and organizational readiness support it.
+- Service extraction can improve cycle time and deployment autonomy when boundaries, organizational readiness, and shared platform controls support it.
 
 ## Evidence
 - Isolation benefit: [[alexandra-noonan-goodbye-microservices-from-100s-of-problem-children-to-1-superstar]] says separate destination queues kept one destination's backlog from delaying others.
@@ -39,14 +45,17 @@ Service extraction also has a positive continuous-delivery case: it can improve 
 - Delay heuristic: [[appcanary-simple-aint-easy-but-hard-aint-simple-leaving-clojure-for-ruby]] advises avoiding distributed systems for as long as possible.
 - Positive CD case: [[architecting-for-continuous-delivery-thoughtworks]] says services can give teams autonomy, independent deployment, and independent scaling.
 - Maturity warning: [[architecting-for-continuous-delivery-thoughtworks]] says microservices are not free and require enough organizational readiness to use effectively.
+- Shopify cost model: [[deconstructing-the-monolith-shopify-engineering]] identifies multiple pipelines, duplicated infrastructure, network latency and reliability, constrained data access, and coordinated refactors as service costs.
+- Alternative boundary: [[deconstructing-the-monolith-shopify-engineering]] says Shopify chose component boundaries inside one application rather than increasing deployment units.
+- Platform mitigation: [[emily-reinhold-the-opportunities-microservices-provide-at-uber-engineering]] describes RFC review, health-aware routing, strict interfaces, load tests, containers, and controlled disruption around Uber's service ecosystem.
+- Residual coordination: [[emily-reinhold-the-opportunities-microservices-provide-at-uber-engineering]] says migrating consumers remains long and slow even after the service and platform exist.
 
 ## Counterevidence & Qualifications
-The sources do not argue that microservices are generally bad. In the Segment case, destination-specific services initially improved fault isolation and test isolation; in the Appcanary essay, microservices remain useful for some larger teams; in the Thoughtworks article, services can reduce CD cycle time. The critique applies when service proliferation outruns tooling, operational automation, boundary design, and team capacity.
+The sources do not argue that microservices are generally bad. In the Segment case, destination-specific services initially improved fault isolation and test isolation; in the Appcanary essay, microservices remain useful for some larger teams; in the Thoughtworks article, services can reduce CD cycle time. Shopify's account is a 2019 company-specific design choice, not proof that one deployment is universally superior. Uber's account is the inverse but equally company-specific case: it shows substantial platform investment without comparative cost, reliability, or delivery results. The critique applies when service proliferation outruns tooling, operational automation, boundary design, governance, and team capacity.
 
 ## What Changed
-- Created the concept from the Twilio Segment destinations migration.
-- Added Appcanary's small-team warning that distributed systems should be delayed until the team can coordinate them.
-- Added Thoughtworks' qualified positive case for service extraction as a continuous-delivery accelerator.
+- Added shared governance and platform controls as mechanisms that can reduce marginal service risk at large organizational scale.
+- Preserved slow consumer migration and platform-maintenance cost as overhead that tooling does not eliminate.
 
 ## Related Concepts
 - [[MonolithConsolidation]] - consolidation is the source's response to excessive service overhead.
@@ -58,3 +67,5 @@ The sources do not argue that microservices are generally bad. In the Segment ca
 - [[StartupFocus]] - distributed architecture can distract small teams from core product and business work.
 - [[CDComponentization]] - service extraction is one componentization path for CD, but not the only one.
 - [[DeploymentPipeline]] - service dependencies need visible pipeline support to preserve release confidence.
+- [[ModularMonolith]] - preserves domain boundaries while avoiding some network and deployment overhead.
+- [[MicroservicePlatformEngineering]] - packages recurring governance and operational controls so each service need not solve them independently.

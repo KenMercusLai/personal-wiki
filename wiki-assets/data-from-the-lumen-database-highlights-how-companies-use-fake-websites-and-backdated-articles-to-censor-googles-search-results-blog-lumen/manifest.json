@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "source_key": "data-from-the-lumen-database-highlights-how-companies-use-fake-websites-and-backdated-articles-to-censor-googles-search-results-blog-lumen",
+  "images": [
+    {
+      "file": "fox18-whois-registration-change.png",
+      "alt": "Fox18News.com WHOIS comparison showing the registrant changing from Bahakel Communications to a private Scottsdale registration in August 2015"
+    },
+    {
+      "file": "fox18-ip-address-history.png",
+      "alt": "Fox18News.com IP address history showing a change from 50.63.202.49 to 208.91.199.51 on September 1, 2015"
+    },
+    {
+      "file": "fox18-name-server-history.png",
+      "alt": "Fox18News.com name-server history showing a transfer from Domaincontrol.com to Webhostbox.net on August 27, 2015"
+    },
+    {
+      "file": "backdated-fox18-news-article.png",
+      "alt": "Archived Fox18 News copy of the Trails Carolina article displaying a November 25, 2014 publication date"
+    },
+    {
+      "file": "original-new-york-daily-news-article.jpg",
+      "alt": "New York Daily News Trails Carolina article displaying its November 26, 2014 publication date"
+    },
+    {
+      "file": "dmca-notice-word-cloud.png",
+      "alt": "Word cloud of suspicious DMCA notice descriptions dominated by copied, article, content, site, text, and permission"
+    },
+    {
+      "file": "fake-website-dmca-submissions.png",
+      "alt": "Monthly fake-website DMCA notice submissions rising from isolated cases in 2013 to a sharp peak in spring 2016"
+    }
+  ]
+}

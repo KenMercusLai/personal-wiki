@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "design-conflicts-in-messenger-day-quora-design-medium",
+  "images": [
+    {
+      "file": "messenger-day-inbox-row.png",
+      "alt": "Messenger inbox with large Messenger Day preview cards above the conversation list"
+    },
+    {
+      "file": "instagram-stories-avatar-row.png",
+      "alt": "Instagram feed with a compact row of circular Stories avatars above a photo post"
+    }
+  ]
+}

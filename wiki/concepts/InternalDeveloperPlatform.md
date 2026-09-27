@@ -6,7 +6,8 @@ sources:
   - a-look-at-auth0-cloud-architecture-5-years-in
   - beyond-interactive-notebook-innovation-at-netflix-netflix-techblog-medium
   - blog-martinfowler-com-building-infrastructure-platforms
-last_updated: 2026-09-25
+  - deploy-with-haste-the-story-of-rig-buzzfeed-tech
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,14 +23,16 @@ A data-platform version of the same pattern appears when notebook users do not e
 
 Rowse and Shepherd add the product discipline needed before and around those technical capabilities. Repeated infrastructure work can motivate a platform, but leaders should first identify one primary organizational problem, make the intended outcome measurable, and accept that the resulting strategy may not require a platform. When it does, product teams are customers: discovery, early onboarding, technical communication, service design, journey mapping, scope restraint, and stage-appropriate metrics determine whether operational defaults become a usable paved path rather than another mandated dependency.
 
+BuzzFeed's Rig supplies a production adoption case for that model. Its standard service interface connected a local VM and Python CLI to CI-built Docker images, ECS deployment, automated networking, and default logging, metrics, and alerts. BuzzFeed reports 227 production services and roughly 150 deployments per day, but the same retrospective shows that a paved path remains product work: support channels and user research informed the roadmap, while Terraform and secret-management workflows still created friction.
+
 ## Key Claims
-- Internal platforms become valuable when service count and engineering-team count make bespoke operations confusing.
+- Internal platforms can become valuable when service count and engineering-team count make bespoke operations slow, inconsistent, or coordination-heavy.
 - A PaaS-style interface can hide infrastructure complexity while still exposing declarative service configuration.
 - Operational defaults should include compute, monitoring, logging, backups, scaling, deployment, and rollback.
 - Platform work can turn reliability practices into paved paths rather than team-by-team reinvention.
 - Internal platforms can also package data-workflow primitives such as notebooks, kernels, storage namespaces, scheduling, and read-only sharing.
 - Platform scope should follow a validated organizational problem and product-team discovery rather than infrastructure fashion.
-- Early users, simple onboarding, and actionable measures are part of an evolving platform product whose implementation choices and scope may change.
+- Early users, support loops, simple onboarding, and actionable measures are part of an evolving platform product whose implementation choices and scope may change.
 
 ## Evidence
 - Organizational trigger: [[a-look-at-auth0-cloud-architecture-5-years-in]] says new teams are building services and need automation, tooling, and scalability guidance.
@@ -41,14 +44,18 @@ Rowse and Shepherd add the product discipline needed before and around those tec
 - Product practice: [[blog-martinfowler-com-building-infrastructure-platforms]] recommends discovery, shortest-path-to-value onboarding, C4 and ADR communication, journey mapping, self-service design, complexity control, and actionable measurement.
 - Visual onboarding evidence: [[blog-martinfowler-com-building-infrastructure-platforms]] contrasts a long cross-team journey with a three-step self-service flow and a more realistic intermediate release.
 - Implementation uncertainty: [[a-look-at-auth0-cloud-architecture-5-years-in]] says the effort is early, currently on ECS, and might change toward EKS.
+- Standard service interface: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] combines service metadata, Docker packaging, runtime requirements, health checks, local tooling, CI, deployment, and observability behind Rig.
+- Adoption indicators: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] reports 227 production services and 18,228 tracked deployments, averaging about 150 per day.
+- Continuing product work: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] uses support channels, office hours, talks, interviews, and surveys while naming Terraform and secrets as unresolved workflow problems.
 
 ## Counterevidence & Qualifications
-The Auth0 source describes an initiative, not a completed platform with measured outcomes. It should be read as evidence for the problem and intended direction, while details such as ECS, EKS, YAML shape, and feature scope may have changed after the source date. The Netflix source describes a successful internal direction but likewise does not publish long-term maintenance costs, governance failure modes, or user-satisfaction data. Rowse and Shepherd provide practitioner guidance and illustrative journeys rather than comparative evidence that their seven principles improve adoption, delivery, cost, security, or reliability; standardized self-service can also shift substantial complexity into the platform.
+The Auth0 source describes an initiative, not a completed platform with measured outcomes. It should be read as evidence for the problem and intended direction, while details such as ECS, EKS, YAML shape, and feature scope may have changed after the source date. Netflix and BuzzFeed describe adopted internal systems but do not publish long-term maintenance costs, governance failure modes, controlled productivity effects, or user-satisfaction data; BuzzFeed's service and deployment counts are activity measures rather than causal proof. Rowse and Shepherd provide practitioner guidance and illustrative journeys rather than comparative evidence that their seven principles improve adoption, delivery, cost, security, or reliability. Standardized self-service can shift substantial complexity into the platform and constrain workloads that do not fit its conventions.
 
 ## What Changed
 - Added a strategy gate: repeated infrastructure work does not by itself prove that a platform is needed.
 - Reframed discovery, early onboarding, service design, and self-service UX as core platform-product work.
 - Added complexity control and adoption-stage measurement as conditions for a sustainable paved path.
+- Added Rig as a production adoption case connecting a standard service contract with self-service delivery, observability, feedback loops, and explicit remaining friction.
 
 ## Related Concepts
 - [[InfrastructureAsCode]] - internal platforms can package infrastructure definitions behind simpler interfaces.
@@ -59,3 +66,4 @@ The Auth0 source describes an initiative, not a completed platform with measured
 - [[NotebookWorkflowInfrastructure]] - notebook platforms package compute, storage, sharing, scheduling, and execution defaults for data work.
 - [[InfrastructurePlatformProductManagement]] - governs platform strategy, discovery, adoption, experience, complexity, and measurement.
 - [[UserJourneyMapping]] - reveals friction and automation opportunities in platform onboarding.
+- [[DeveloperExperience]] - internal platforms design the path from local development through production operation.

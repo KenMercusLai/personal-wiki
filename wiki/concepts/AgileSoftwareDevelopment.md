@@ -7,7 +7,8 @@ sources:
   - blog-paulo-caroli-martinfowler-com-product-backlog-building-canvas
   - chris-james-how-to-go-fast
   - constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab
-last_updated: 2026-09-26
+  - elegant-coding-the-problem-with-todays-software-thought-leaders
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,8 +26,10 @@ James adds an operating-speed version of the same synthesis. Agile speed comes f
 
 The Ophan case extends this from product-team advice to an internal newsroom tool. Developers began with a narrow hack-day system, released minimum versions, observed broad editorial use, and added mobile access, broader views, alerts, and search-referral experiments from recurring user feedback. It shows discovery and delivery operating together, although the account does not describe the technical-quality practices needed to keep repeated iteration reliable.
 
+The Elegant Coding essay challenges the evidence beneath broader Agile claims. Its strongest point is not that Agile has been disproved, but that popularity, manifesto authority, anecdotes, and consulting success do not demonstrate productivity or return-on-investment effects. This creates a second requirement alongside practice depth: claims that Agile causes outcomes should identify the intervention, context, comparison, and evidence, and should remain “not proven” when those are absent.
+
 ## Key Claims
-- Agile depends on interconnected value, planning, collaboration, and reliable-delivery practices rather than isolated rituals.
+- Agile depends on interconnected value, planning, collaboration, and reliable-delivery practices rather than isolated rituals, while claims about its causal benefits require empirical support.
 - Technical practices are often under-taught, creating a gap between agile vocabulary and agile capability.
 - [[ExtremeProgramming]] is an important practice foundation for the Agile movement.
 - Production delivery and observation help teams learn what is valuable in real use.
@@ -43,6 +46,7 @@ The Ophan case extends this from product-team advice to an internal newsroom too
 - Sustainable speed: [[chris-james-how-to-go-fast]] ties fast delivery to small teams, two-week showcases, deployed increments, low WIP, user observation, and avoiding overbuilt process.
 - User-story conversation: [[chris-james-how-to-go-fast]] says user stories should describe user problems and success measures rather than dictate implementation.
 - Internal-product iteration: [[constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab]] describes Ophan growing from a three-minute hack-day prototype through mobile, multi-level views, alerts, and experiments in response to newsroom feedback.
+- Evidential burden: [[elegant-coding-the-problem-with-todays-software-thought-leaders]] argues that Agile outcome claims should be treated as unproven when they lack citations, data, or comparative study.
 
 ## Counterevidence & Qualifications
 The current evidence comes from Fowler's foreword and is intentionally normative. It criticizes ceremony-led agile adoption but does not compare named agile frameworks empirically or define when lightweight Scrum-like practice may be sufficient.
@@ -53,9 +57,11 @@ James's advice is similarly context-sensitive. Co-location, no pull requests, an
 
 The Ophan report calls its development agile and documents minimum-first iteration, but it supplies no engineering detail about tests, refactoring, deployment safety, reliability, backlog governance, or cost. It therefore supports the feedback and incremental-delivery portion of agile practice, not the entire capability system.
 
+The Elegant Coding essay is a polemic rather than a systematic evidence review. It correctly separates unsupported claims from disproved ones, but it neither evaluates the full Agile research literature nor substantiates its allegations that advocates' commercial incentives explain their positions. Its criticism therefore raises an evidence requirement without establishing that Agile is ineffective.
+
 ## What Changed
-- Added a newsroom internal-tool case in which direct domain-user feedback and minimum releases progressively expanded product scope.
-- Qualified that product iteration alone does not demonstrate the technical practices required for durable agility.
+- Added an explicit evidence standard for causal claims about Agile productivity, communication, and return on investment.
+- Distinguished “not proven” from “disproved” and qualified the critic's own unsupported incentive claims.
 
 ## Related Concepts
 - [[ExtremeProgramming]] - agile practice tradition Fowler presents as a central pillar.
@@ -67,3 +73,4 @@ The Ophan report calls its development agile and documents minimum-first iterati
 - [[ProductBacklogBuilding]] - collaborative backlog-building practice within agile planning.
 - [[CodeReviewPractice]] - review ceremony should be tuned to trust, risk, and feedback-loop cost.
 - [[NewsroomAnalytics]] - domain setting in which the Ophan feedback loop shaped an internal analytics product.
+- [[EvidenceBasedSoftwareEngineering]] - requires Agile outcome claims to match confidence to empirical support.

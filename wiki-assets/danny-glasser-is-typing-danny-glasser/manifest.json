@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "danny-glasser-is-typing-danny-glasser",
+  "images": [
+    {
+      "file": "typing-indicator-patent.png",
+      "alt": "First page of US patent 6,519,639 describing periodic activity messages and timeout-based indicator removal"
+    },
+    {
+      "file": "sender-typing-mockup.jpg",
+      "alt": "Classroom mock-up showing Hermione composing an unsent MSN Messenger reply"
+    },
+    {
+      "file": "recipient-writing-indicator-mockup.jpg",
+      "alt": "Classroom mock-up showing Harry receiving a generic message that Hermione is writing"
+    }
+  ]
+}

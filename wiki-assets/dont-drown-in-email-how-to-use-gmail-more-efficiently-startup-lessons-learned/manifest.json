@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "source_key": "dont-drown-in-email-how-to-use-gmail-more-efficiently-startup-lessons-learned",
+  "images": [
+    {"file": "gmail-multiple-inbox-overview.png", "alt": "Gmail with an empty primary inbox and right-side action, awaiting-reply, and scheduled panels"},
+    {"file": "awaiting-reply-thread.png", "alt": "Replied Gmail thread marked with a purple question icon to indicate an awaited reply"},
+    {"file": "multiple-inboxes-lab-setting.png", "alt": "Historical Gmail Labs control with Multiple Inboxes enabled"},
+    {"file": "special-stars-selection.png", "alt": "Gmail special-star configuration with action, reply, delegation, and schedule symbols in use"},
+    {"file": "multiple-inbox-search-panels.png", "alt": "Multiple Inboxes queries and panel titles for action, awaiting reply, scheduled, and delegated email"},
+    {"file": "default-inbox-settings.png", "alt": "Historical Gmail inbox settings using the default type, no importance markers, and no filter overrides"},
+    {"file": "compact-density-menu.png", "alt": "Gmail settings menu with Compact display density and Configure inbox controls"},
+    {"file": "inbox-tabs-configuration.png", "alt": "Gmail tab configuration with only the Primary category selected"},
+    {"file": "todo-star-on-message.png", "alt": "Yellow action marker applied to a Gmail message before archiving"},
+    {"file": "automatic-invoice-filter.png", "alt": "Gmail filter that labels and archives a recurring Akismet account statement"},
+    {"file": "keyboard-shortcuts-setting.png", "alt": "Gmail setting with keyboard shortcuts enabled"},
+    {"file": "auto-advance-setting.png", "alt": "Historical Gmail Labs setting with auto-advance enabled and configured to open the next conversation"},
+    {"file": "undo-send-setting.png", "alt": "Historical Gmail Labs setting with Undo Send enabled"},
+    {"file": "smtp-account-configuration.png", "alt": "Gmail send-mail-as account configured through an SMTP server with TLS"},
+    {"file": "reply-from-received-address.png", "alt": "Gmail preference to reply from the same address to which a message was sent"}
+  ]
+}

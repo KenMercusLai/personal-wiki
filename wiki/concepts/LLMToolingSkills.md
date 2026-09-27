@@ -8,12 +8,13 @@ sources:
   - yan-li-how-llm-agents-became-what-they-look-like-in-2026
   - lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai
   - context-engineering-from-the-inside-out
-last_updated: 2026-09-26
+  - dont-trust-ai-agents-nanoclaw-blog
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
 ## Definition
-[[LLMToolingSkills]] are prompt-level instruction bundles that add domain knowledge, procedures, and reasoning guidance to an LLM's context without directly giving the model a new external action channel.
+[[LLMToolingSkills]] are agent-readable packages that add domain knowledge, procedures, and reasoning guidance and may also carry reference implementations or executable assets; instructions shape model behavior, while runtime integration determines any actual capability.
 
 ## Current Synthesis
 The sources present Skills as prompt-level workflow guidance. A Skill imports expert structure into the prompt so the model can approach a task with better assumptions and workflow, but it does not enforce execution like a runtime API. Its value is highest when a task needs richer thinking, domain framing, or loose coordination that cannot easily be reduced to RPC-style functions.
@@ -26,10 +27,12 @@ In OpenClaw's operational model, a Moltbook Skill is not only explanatory prose:
 
 The newest source explains why on-demand loading matters inside the prompt. Only skill names and selection descriptions need remain in the always-on index; the full procedure enters context after the current task makes it relevant. This protects limited effective attention from unrelated workflows and puts the selected instructions near the current generation. It also distinguishes skills from hooks: the model selects a skill by task relevance, while the runtime triggers a hook around a particular action.
 
+NanoClaw adds a security and installation variant: a skill includes instructions plus a working reference implementation that a coding agent merges into the owner's codebase after review. In that model, skills keep the core small and make installed integrations explicit, but review and selective installation—not the skill format itself—provide the intended security benefit. Once merged, executable code joins the trusted installation and still needs runtime isolation, credential scoping, and verification.
+
 ## Key Claims
 - Skills add instructions and expert cognitive structure to the model context.
 - Skill-following depends on the model's respect for context and remains probabilistic, and over-constraining behavior can make reasoning less flexible.
-- Skills guide reasoning rather than enforce execution; the execution channel can be a separate tool, or a script, binary, or library that travels inside the skill folder.
+- Skills guide reasoning rather than enforce execution; the execution channel can be a separate tool, a bundled executable asset, or reviewed reference code merged into the installation.
 - Skills remain useful when a task is too open-ended, low-interaction, or expensive to encode as a dedicated server API.
 - Skills can encode more than linear SOPs; exploration and brainstorming skills may be valuable precisely because they prompt multi-dimensional analysis.
 - Skills work best when separated from rules and specs: a lightweight always-on index plus on-demand full instructions protects context capacity and instruction salience better than one undifferentiated prompt file.
@@ -53,13 +56,15 @@ The newest source explains why on-demand loading matters inside the prompt. Only
 - Recurring behavior: [[lencx-shen-du-jie-du-openclaw-jia-gou-ji-sheng-tai]] adds heartbeat and messaging files that turn one-off tool knowledge into scheduled participation and notification policy.
 - On-demand trajectory: [[context-engineering-from-the-inside-out]] shows an always-loaded index of skill names, descriptions, and locations followed by a model-selected read that brings only the relevant skill into the active trajectory.
 - Trigger distinction: [[context-engineering-from-the-inside-out]] contrasts task-selected skills with action-triggered hooks that inject safeguards immediately before or after matching tool calls.
+- Reviewed installation: [[dont-trust-ai-agents-nanoclaw-blog]] describes skills as instructions with working reference implementations that a coding agent merges only after the owner reviews the proposed code.
+- Attack-surface claim: [[dont-trust-ai-agents-nanoclaw-blog]] argues that selective skill installation keeps dormant integrations out of the runtime, unlike a monolith where disabled code remains present.
 
 ## Counterevidence & Qualifications
-The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, or combined with tools. Selection can fail when metadata is weak or the model does not recognize relevance. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written domain and key restrictions are useful instructions but are not enforcement boundaries against prompt injection or model noncompliance.
+The sources evaluate Skills conceptually and through practitioner workflow rather than isolating skill effects in controlled benchmarks. They also use "Skills" broadly; implementations may vary in how they are selected, injected, validated, positioned in context, combined with tools, or merged as code. Selection can fail when metadata is weak or the model does not recognize relevance. The runtime-free distribution thesis assumes the client already provides file, shell, scheduling, credential, and policy substrates, which shifts rather than removes dependencies. Written restrictions and human code review are useful controls but are not enforcement boundaries against prompt injection, dependency compromise, review error, or model noncompliance.
 
 ## What Changed
-- Added the lightweight-index/full-file trajectory as the mechanism behind on-demand skill loading.
-- Distinguished model-selected skills from runtime-triggered hooks by when and why context is injected.
+- Broadened the definition to cover reviewed reference implementations merged into an installation as well as prompt-only guidance and bundled executable assets.
+- Separated the auditability benefit of selective installation from the security guarantees still required at runtime.
 
 ## Related Concepts
 - [[LLMContextManagement]] - Skills manage context by adding structured instructions.
@@ -71,3 +76,4 @@ The sources evaluate Skills conceptually and through practitioner workflow rathe
 - [[LLMAgentStages]] - runtime-free skill distribution presumes a client already operating at the general-OS stage.
 - [[BashAsMetaTool]] - a script-capable shell is what lets a skill folder carry its own execution.
 - [[AgentPermissionModel]] - runtime-enforced authority must backstop probabilistic safety instructions in skills.
+- [[NanoClaw]] - uses reviewed skill merges to keep its installed code surface owner-selected and explicit.

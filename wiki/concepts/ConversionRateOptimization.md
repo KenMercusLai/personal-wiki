@@ -8,7 +8,8 @@ sources:
   - every-time-you-ask-the-user-to-click-you-lose-half
   - 12-best-practices-for-boosting-product-page-conversions
   - building-a-shop-with-sub-second-page-loads-lessons-learned
-last_updated: 2026-09-15
+  - david-kadavy-a-a-testing-how-i-increased-conversions-300-percent-by-doing-absolutely-nothing
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,10 +21,12 @@ The sources show conversion optimization across five surfaces: a high-pressure f
 
 The Baqend source makes speed itself a conversion variable. It connects one extra second of page-load time to fewer conversions, page views, and satisfaction, then reports the Thinks webshop maintaining sub-second loads during TV-driven demand and converting at 7.8%. This adds an operational layer to CRO: experiments on copy and flow can be erased if slow infrastructure leaks intent before users reach the decision point.
 
+Kadavy's repeated identical-email tests add a calibration layer. Across 56 campaigns and more than 750,000 sends, no-change variants produced dramatic-looking relative differences, so an apparent lift is not self-validating. Conversion work needs adequate sample size and power, attention to absolute as well as relative effects, and a metric tied to downstream value. [[AATesting]] can reveal how an experiment system and its users behave when the true treatment effect is zero, while post-rollout monitoring checks whether a selected change persists in production.
+
 ## Key Claims
 - Conversion optimization can target operational efficiency, not only top-line acquisition.
 - Removing account confusion and repeated data entry can materially change completion rates.
-- A/B test wins are stronger when the metric improvement appears after full rollout, not only inside the experiment.
+- A/B test wins are stronger when the experiment is adequately powered, survives a zero-effect calibration mindset, and appears after full rollout rather than only inside the test.
 - Campaign fundraising products can apply the same experimentation discipline as commercial products.
 - Conversion metrics need interpretation because some test lifts fail to appear in later reporting, and each surface needs audience-specific testing.
 - Conversion gains from lower friction must be weighed against user intent, retention, and paying-customer quality.
@@ -43,15 +46,19 @@ The Baqend source makes speed itself a conversion variable. It connects one extr
 - Visual evidence: [[12-best-practices-for-boosting-product-page-conversions]] includes an inspected lead illustration that callouts product image, copy, CTA, navigation, and supporting modules as parts of a product-detail page.
 - Latency impact: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] cites one extra second of page-load time as associated with 7% lower conversions, 11% fewer page views, and 16% lower customer satisfaction.
 - Spike conversion: [[building-a-shop-with-sub-second-page-loads-lessons-learned]] reports that Thinks kept page loads below one second during the DHDL spike and reached a 7.8% conversion rate.
+- Zero-effect calibration: [[david-kadavy-a-a-testing-how-i-increased-conversions-300-percent-by-doing-absolutely-nothing]] reports that identical email variants produced apparent lifts as large as 300% across 56 campaigns and more than 750,000 sends.
+- Power boundary: [[david-kadavy-a-a-testing-how-i-increased-conversions-300-percent-by-doing-absolutely-nothing]] says a 2.2% baseline with 29,034 recipients could begin detecting roughly a 0.49-percentage-point change at 80% power and a 5% significance level.
+- Downstream value: [[david-kadavy-a-a-testing-how-i-increased-conversions-300-percent-by-doing-absolutely-nothing]] warns that fewer clicks may still produce warmer prospects and more valuable conversions.
 
 ## Counterevidence & Qualifications
-The Clinton source reports campaign-internal results and screenshots rather than raw experiment data. It also notes a common problem: some A/B test improvements do not later appear in regular reports after rollout. The Appster, Chen, ecommerce product-page, and Baqend sources are broader practitioner or vendor case-study material and cite examples rather than controlled public experiments. The product-page source also bundles many tactics, so any observed lift would need testing to isolate image quality, page speed, proof, copy, mobile ergonomics, or scarcity effects. The concept therefore depends on both experiment design and post-deployment monitoring, and conversion lifts should be interpreted alongside downstream quality.
+The Clinton source reports campaign-internal results and screenshots rather than raw experiment data. It also notes a common problem: some A/B test improvements do not later appear in regular reports after rollout. Kadavy's article supplies a vivid counterweight but is also a first-person practitioner report without the complete campaign-level dataset, allocation details, confidence intervals, or multiplicity analysis. The Appster, Chen, ecommerce product-page, and Baqend sources are broader practitioner or vendor case-study material and cite examples rather than controlled public experiments. The product-page source also bundles many tactics, so any observed lift would need testing to isolate image quality, page speed, proof, copy, mobile ergonomics, or scarcity effects. The concept therefore depends on experiment design, power, calibrated interpretation, and post-deployment monitoring; conversion lifts should be read in absolute terms and alongside downstream quality.
 
 ## What Changed
 - Added ecommerce product pages as a distinct conversion surface where confidence-building modules can be useful friction.
 - Added Chen's product-flow friction heuristic and the warning that more signups may not mean proportionally more paying customers.
 - Added app landing-page conversion levers: value proposition, CTA clarity, visuals, proof, hierarchy, speed, and testing.
 - Added page-load performance as an infrastructure-level conversion surface.
+- Added A/A calibration, statistical-power limits, and the distinction between relative lift and downstream business value.
 
 ## Related Concepts
 - [[ProductMetricLadder]] - conversion metrics can act as short-cycle proxies for larger fundraising goals.
@@ -62,3 +69,4 @@ The Clinton source reports campaign-internal results and screenshots rather than
 - [[ProductFlowFriction]] - step reduction and justified friction are core conversion design choices.
 - [[ProductPageOptimization]] - product-detail pages combine usability, persuasion, trust, proof, and objection handling before checkout.
 - [[WebPerformanceOptimization]] - page speed protects conversion before users reach the explicit product or checkout flow.
+- [[AATesting]] - provides a zero-effect calibration for experiment systems and interpretation.

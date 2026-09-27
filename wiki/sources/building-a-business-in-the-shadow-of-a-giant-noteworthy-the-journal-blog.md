@@ -31,7 +31,7 @@ This Noteworthy article argues that startups can thrive near dominant technology
 - [[DifferentiationStrategy]] - Wistia competes by specializing around B2B video workflows rather than matching YouTube's broad platform.
 - [[Airtable]] - passing example of a startup building near a giant by offering a specialized alternative to spreadsheet-like collaboration.
 - [[Slack]] - passing example of a company that built its own large business while facing acquisition interest from a giant.
-- [[OneDollarShaveClub]] - viral business-video example showing how YouTube helped normalize video as a business medium.
+- [[DollarShaveClub]] - viral business-video example showing how YouTube helped normalize video as a business medium.
 
 ## Contradictions
 - No direct contradiction. The source qualifies big-tech dominance narratives by arguing that incumbents can simultaneously dominate broad categories and create room for specialized companies in adjacent wedges.

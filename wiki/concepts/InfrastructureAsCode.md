@@ -7,7 +7,8 @@ sources:
   - an-infrastructure-guide-for-founders-starting-up-security-medium
   - bmpi-serverless-ying-yong-kai-fa-xiao-ji
   - configuration-management-is-an-antipattern-by
-last_updated: 2026-09-26
+  - deploy-with-haste-the-story-of-rig-buzzfeed-tech
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,8 +26,10 @@ The bmpi.dev implementation shows the practice split across tools by subsystem: 
 
 Horowitz adds an important category boundary. Versioned infrastructure code can describe provisioning, but convergence-oriented [[ConfigurationManagement]] repeatedly mutates existing nodes while [[ImmutableInfrastructure]] builds a versioned image and replaces nodes. Both are reproducible automation; their failure surfaces differ. Convergence must detect and repair partial application across a live fleet, whereas replacement requires a reliable image factory, artifact promotion, rollout controls, and explicit treatment of state outside the image.
 
+BuzzFeed's Rig adds infrastructure experimentation and internal-platform leverage. Terraform made ECS clusters repeatable enough to stand up quickly for failure, stability, security, network, and operability tests before migrating low-risk services. That transparency supported peer review and confidence, yet the team later found Terraform difficult at scale and wanted cluster creation to become substantially simpler. Reproducibility therefore does not guarantee an ergonomic workflow or eliminate abstraction work.
+
 ## Key Claims
-- Infrastructure as code becomes more valuable as cloud resource count, service count, and regional footprint grow, but its provisioning, convergence, and replacement mechanisms should not be treated as interchangeable.
+- Infrastructure as code becomes more valuable as cloud resource count, service count, and regional footprint grow, but its provisioning, convergence, replacement, and user-workflow concerns should not be treated as interchangeable.
 - Provider-specific automation can move faster than platform-independent automation when a company has standardized on one cloud.
 - Reproducible provisioning supports regional expansion, environment replacement, and scaling up or down.
 - Repository-backed infrastructure lets teams apply code review, tests, and CI/CD standards to cloud changes.
@@ -46,14 +49,17 @@ Horowitz adds an important category boundary. Versioned infrastructure code can 
 - Repeated workflow: [[bmpi-serverless-ying-yong-kai-fa-xiao-ji]] reduces code changes to rebuilding the Docker image and applying the infrastructure definitions through Make targets.
 - Convergence boundary: [[configuration-management-is-an-antipattern-by]] credits CFEngine with faster, more reliable provisioning but reports that asynchronous or failed runs still leave some machines out of sync.
 - Replacement boundary: [[configuration-management-is-an-antipattern-by]] advocates building application packages into base-derived AMIs or container images and promoting those artifacts rather than mutating long-lived application hosts.
+- Experimental leverage: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] says Terraform made Rig clusters automated and repeatable enough to stand up quickly for infrastructure-level tests and staged migration.
+- Workflow limit: [[deploy-with-haste-the-story-of-rig-buzzfeed-tech]] reports that Terraform remained hard at scale and that provisioning a cluster still needed a simpler interface.
 
 ## Counterevidence & Qualifications
-The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, configuration managers, image pipelines, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift. Horowitz's categorical critique is a practitioner account that retains configuration management for image construction and small bare-metal foundations; immutable images also leave runtime configuration, data, secrets, and external dependencies outside the artifact.
+The sources are not controlled comparisons of Terraform, SaltStack, Serverless Framework, CloudFormation, configuration managers, image pipelines, or alternatives. They also show that infrastructure as code can remain incomplete: Auth0 still needed broader platform and deployment unification, BuzzFeed still found Terraform-at-scale and cluster provisioning difficult, the startup guide balances security with developer velocity, and the bmpi.dev case does not evaluate cross-tool state coordination, rollback, policy testing, or drift. Horowitz's categorical critique is a practitioner account that retains configuration management for image construction and small bare-metal foundations; immutable images also leave runtime configuration, data, secrets, and external dependencies outside the artifact.
 
 ## What Changed
 - Distinguished in-place configuration convergence from build-and-replace immutable infrastructure as two infrastructure-as-code mechanisms with different failure boundaries.
 - Added a small-application case where Terraform and Serverless Framework divide infrastructure ownership by subsystem.
 - Added the startup security guide's argument that infrastructure as code should start early to apply review, tests, CI/CD, and drift resistance to cloud changes.
+- Added repeatable cluster creation as an infrastructure-testing enabler while making Terraform workflow scalability an explicit limit.
 
 ## Related Concepts
 - [[DeclarativeInfrastructure]] - both use declared desired state, but infrastructure as code here emphasizes provisioning and configuration automation rather than controller reconciliation.

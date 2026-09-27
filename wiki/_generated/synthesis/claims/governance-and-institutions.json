@@ -1,6 +1,51 @@
 {
   "claims": [
     {
+      "global_candidate": false,
+      "id": "institutional-standardization-can-erode-person-fit",
+      "qualifications": [
+        "The evidence is two anonymized writer anecdotes without institutional responses, outcome measures, or causal comparison.",
+        "Shared standards can remain necessary for coordination, quality, safety, fairness, and accountability; the source does not specify how institutions should distinguish productive autonomy from harmful inconsistency."
+      ],
+      "statement": "[[PersonStrategyFit]] creates an institutional-design boundary: [[CollaborativeFund]] describes successful media organizations whose standardized style and editorial control allegedly suppressed the distinctive voice and intuition of talented independent writers, showing that a system effective for the institution need not fit every contributor.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "PersonStrategyFit",
+        "CollaborativeFund"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "payment-correctness-needs-explicit-system-boundaries",
+      "qualifications": [
+        "The evidence is one incomplete first-person [[Uber]] architecture retrospective without topology, incident, reconciliation, compliance, security, or measured end-to-end loss data.",
+        "Its SLA, delivery, and distributed-locking terminology is imprecise, and the retained single-node-failure diagrams do not establish behavior under correlated failures."
+      ],
+      "statement": "[[DistributedPaymentArchitecture]] makes technical guarantees an accountability boundary: [[DataDurability]] and [[DurableMessaging]] preserve acknowledged records and work, while [[IdempotentPaymentProcessing]] converts Kafka at-least-once redelivery into one intended financial effect through versioned, strongly consistent state.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "DistributedPaymentArchitecture",
+        "DataDurability",
+        "DurableMessaging",
+        "IdempotentPaymentProcessing",
+        "Uber"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "client-state-normalization-separates-operational-concerns",
+      "qualifications": [
+        "The evidence is an unofficial DevTools inspection of one 2017 Twitter mobile-web client rather than an official or current architecture account.",
+        "The screenshots establish visible state shape, while request deduplication and rendering before full entity arrival remain unobserved author inferences."
+      ],
+      "statement": "[[ClientStateNormalization]] separates canonical records from ordered views, pagination boundaries, and loading status; the observed [[Redux]] store shows how stable IDs can join those concerns without duplicating tweet payloads.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "ClientStateNormalization",
+        "Redux"
+      ]
+    },
+    {
       "global_candidate": true,
       "id": "managerial-authority-requires-fair-accountability",
       "qualifications": [
@@ -447,8 +492,100 @@
         "AdGuard",
         "Cloudflare"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "automation-adoption-needs-error-legitimacy",
+      "qualifications": [
+        "The source's examples are thought experiments and a brief company anecdote rather than evidence about actual legal doctrine, public-risk tolerance, medical adoption, or production support outcomes.",
+        "Institutional design may narrow the gap through transparent responsibility, appeal, human oversight, insurance, regulation, and measured whole-system benefit."
+      ],
+      "statement": "[[AutomationErrorTolerance]] adds legitimacy to automation governance: better aggregate performance does not settle deployment when machine-caused harm is attributed to one designer or provider, so [[AutonomousDrivingSafety]] and other high-stakes systems require explicit responsibility, recourse, oversight, and domain-specific error evidence.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "AutomationErrorTolerance",
+        "AutonomousDrivingSafety",
+        "DavidHeinemeierHansson"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "patent-credit-does-not-equal-product-credit",
+      "qualifications": [
+        "The evidence is one inventor's retrospective and does not independently reconstruct the complete MSN Messenger team or patent prosecution.",
+        "The article explicitly leaves continuation-patent status, cross-license effects, and later implementations' claim coverage unresolved."
+      ],
+      "statement": "[[DannyGlasser]]'s [[TypingIndicator]] history separates formal invention credit from complete product contribution: the patent covers the activity mechanism, while [[MSNMessenger]]'s polished interface depended on collaborators whose work fell outside those claims.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "DannyGlasser",
+        "TypingIndicator",
+        "MSNMessenger"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "operational-alerting-and-load-shedding-encode-governance",
+      "qualifications": [
+        "The evidence is one first-party historical postmortem and does not establish a universal paging threshold or customer-priority rule.",
+        "Escalation and load-shedding policy must reflect system criticality, contractual obligations, safety effects, fairness, dependencies, and the cost of unnecessary pages."
+      ],
+      "statement": "[[Asana]] adds an operational-governance case: [[ServiceObservability]] failed when lock-timeout warnings were not routed to human action, while load shedding made an explicit service-priority choice that protected paying customers and most free users during a [[SystemReliability]] incident.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Asana",
+        "ServiceObservability",
+        "SystemReliability"
+      ]
+    },
+    {
+      "global_candidate": true,
+      "id": "interface-defaults-require-transparent-governance",
+      "qualifications": [
+        "The source is a 2018 strategic forecast without measured default-switching, self-preferencing, paid-placement, consumer-welfare, or enforcement outcomes.",
+        "Interface power remains conditional on technical coverage, user trust, meaningful override, interoperable alternatives, and governance that can distinguish personalization from commercial influence."
+      ],
+      "statement": "[[DisruptiveInterfaces]] make defaults a governance surface when an intermediary chooses what users see, hear, buy, or pay with; [[ScottBelsky]] links that power to source and AI disclosure, while [[VoiceAssistantUX]] and [[FirstMileProductExperience]] together show that lower effort does not remove the need for legible incentives, comparison, override, and verification.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "DisruptiveInterfaces",
+        "ScottBelsky",
+        "VoiceAssistantUX",
+        "FirstMileProductExperience"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "seo-delegation-needs-owner-control",
+      "qualifications": [
+        "The guidance reflects the search platform’s rules and risk framing rather than independent evidence that the checklist predicts ethical conduct or consultant quality.",
+        "Read-only Search Console access does not govern permissions in hosting, content management, domain registration, analytics, advertising, or other site systems."
+      ],
+      "statement": "[[SEOConsultantSelection]] makes delegated search work an accountability problem: owners retain responsibility, should stage a paid audit through read-only [[GoogleSearchConsole]] access, corroborate recommendations, track changes, and reject secrecy, false platform relationships, shadow domains, doorway pages, hidden links, and link schemes; [[Google]] supplies these platform-authored expectations.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "SEOConsultantSelection",
+        "GoogleSearchConsole",
+        "Google"
+      ]
+    },
+    {
+      "global_candidate": false,
+      "id": "email-state-systems-govern-work-visibility",
+      "qualifications": [
+        "The evidence consists of two individual workflows rather than comparative outcome research.",
+        "Klinger’s screenshots document an older Gmail interface, and an empty inbox can hide unfinished work when saved views are not reviewed consistently."
+      ],
+      "statement": "[[EmailTaskManagement]] treats inbox configuration as lightweight personal governance: [[AndreasKlinger]] uses historical [[Gmail]] markers, searches, archiving, and filters to separate arrival from action and follow-up, while the Jeff Huang source shows that explicit states need not make inbox zero the governing objective.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "EmailTaskManagement",
+        "AndreasKlinger",
+        "Gmail",
+        "blog-jeff-huang-my-productivity-app-is-a-never-ending-txt-file"
+      ]
     }
   ],
-  "summary": "[[BrowserCryptomining]] adds a historical case in which provider policy could recommend consent but not enforce it, leaving governance distributed across website disclosure, user choice, blocking software, and infrastructure sanctions; the evidence is one company-authored 2017 snapshot without consent or enforcement outcomes. [[Bhutan]] and [[GrossNationalHappiness]] add a qualified governance case in which wellbeing, conservation, and cultural continuity are stated priorities beyond GDP, while youth migration and [[GelephuMindfulnessCity]] expose the need for measurable outcomes and accountable development tradeoffs. Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational and managerial boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, fair process, and agreed state transitions rather than labels or sincere authority alone. [[ManagerialResponsibility]] adds the workplace version: managers can reinforce strengths, diagnose support failures, delegate developmental work, absorb difficult problems, and use influence, but humane personnel action still needs evidence, employee response, accommodation, anti-bias safeguards, policy, and law. [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[LiveJournal]] adds [[CommunityGovernanceDebt]] as a platform boundary: founder promises, volunteer authority, personalized support, policy ambiguity, ownership change, and distrust can turn later product and business change into a legitimacy problem, while “Nipplegate” shows reporting tools and literal rules becoming abuse surfaces when moderators lack contextual standards and trusted discretion. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself. The newest AI-memory note adds a narrower information-governance case: [[MemoryConflictResolution]] requires claims to carry provenance, confidence, temporal validity, and preserved versions because similarity and unconditional latest-wins cannot decide authority; [[AgentMemory]] and [[TapeAndAnchors]] can separate immutable evidence from revisable current-state judgments, but the proposal is unbenchmarked. [[PreloadBridgeSecurity]] adds a desktop-software case to capability governance: remote renderer content should receive narrow validated methods rather than ambient Node.js authority, and proxying a privileged action across a process boundary does not make it safe. Slack’s account is a historical first-party design description rather than a current security audit.",
+  "summary": "[[EmailTaskManagement]] adds a qualified personal-governance case: explicit action, waiting, delegation, and schedule states can keep obligations visible outside the inbox, but saved views require consistent review and the documented [[Gmail]] controls are historical. [[DistributedPaymentArchitecture]] adds a source-scoped technical-accountability case: explicit financial invariants connect measurable service targets with selective consistency, [[DataDurability]], [[DurableMessaging]], and [[IdempotentPaymentProcessing]], while the incomplete [[Uber]] retrospective and imprecise terminology keep the claim bounded. [[ClientStateNormalization]] adds a source-scoped technical-governance boundary: canonical records, view order, pagination, and loading status can remain independently inspectable, although the 2017 [[Redux]] case does not verify inferred runtime behavior or current Twitter/X architecture. [[TypingIndicator]] adds a narrow invention-credit boundary: patent claims can identify a communication mechanism without representing every collaborator who produced the shipping experience. [[BrowserCryptomining]] adds a historical case in which provider policy could recommend consent but not enforce it, leaving governance distributed across website disclosure, user choice, blocking software, and infrastructure sanctions; the evidence is one company-authored 2017 snapshot without consent or enforcement outcomes. [[Bhutan]] and [[GrossNationalHappiness]] add a qualified governance case in which wellbeing, conservation, and cultural continuity are stated priorities beyond GDP, while youth migration and [[GelephuMindfulnessCity]] expose the need for measurable outcomes and accountable development tradeoffs. Governance and institutional material spans platform control, browser and supplier concentration, privacy burdens, organizational and managerial boundaries, public-space automation, political technology, regulated delivery, information architecture, workplace policy, authentication, digital-purchase continuity, and the institutions that shape learning and innovation. Across these cases, accountability depends on explicit ownership, usable controls, observable behavior, instrumentation, capacity, credible alternatives, fair process, and agreed state transitions rather than labels or sincere authority alone. [[ManagerialResponsibility]] adds the workplace version: managers can reinforce strengths, diagnose support failures, delegate developmental work, absorb difficult problems, and use influence, but humane personnel action still needs evidence, employee response, accommodation, anti-bias safeguards, policy, and law. [[DigitalPurchaseDurability]] adds that paid access can still depend on platform compatibility and surrounding infrastructure. [[LiveJournal]] adds [[CommunityGovernanceDebt]] as a platform boundary: founder promises, volunteer authority, personalized support, policy ambiguity, ownership change, and distrust can turn later product and business change into a legitimacy problem, while “Nipplegate” shows reporting tools and literal rules becoming abuse surfaces when moderators lack contextual standards and trusted discretion. [[ReplicatedLog]] adds the technical boundary that accepted changes still require one shared execution order, while [[TwoPhaseCommit]] adds durable unanimous preparation before one commit-or-rollback decision; both remain concise pattern descriptions rather than complete protocols, and the latter is qualified by smaller transaction boundaries and event-driven alternatives. Authentication likewise relocates rather than removes trust: [[EmailMagicLinkAuthentication]] depends on inbox, token, delivery, callback, and session controls, while [[PasswordHashing]] protects stored credentials but still requires safe verification and a wider account lifecycle. [[UtilityOrientedUX]] adds an attention boundary: interface engagement is justified by user value, safety, control, or comprehension rather than treated as an end in itself. The newest AI-memory note adds a narrower information-governance case: [[MemoryConflictResolution]] requires claims to carry provenance, confidence, temporal validity, and preserved versions because similarity and unconditional latest-wins cannot decide authority; [[AgentMemory]] and [[TapeAndAnchors]] can separate immutable evidence from revisable current-state judgments, but the proposal is unbenchmarked. [[PreloadBridgeSecurity]] adds a desktop-software case to capability governance: remote renderer content should receive narrow validated methods rather than ambient Node.js authority, and proxying a privileged action across a process boundary does not make it safe. Slack’s account is a historical first-party design description rather than a current security audit. [[AutomationErrorTolerance]] adds that legitimate deployment depends on responsibility, recourse, oversight, and measured harm as well as lower aggregate error. [[Asana]] adds a source-scoped operational-governance case: alert routing determines whether detected control-plane failure becomes action, and load shedding makes explicit choices about whose service is preserved under scarcity. [[DisruptiveInterfaces]] adds default selection as an interface-governance boundary: reduced effort does not remove the need to disclose sources, AI involvement, commercial incentives, omitted alternatives, and meaningful verification or override, while the 2018 forecast lacks measured consumer-welfare or enforcement outcomes. [[SEOConsultantSelection]] adds a qualified delegated-governance case: staged permissions, recommendation corroboration, visible changes, owner accountability, and rejection of deceptive control mechanisms can bound consultant risk, while [[Google]] remains the platform rule-maker and source of the guidance.",
   "topic_id": "governance-and-institutions"
 }

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "source_key": "diligence-at-social-capital-part-1-accounting-for-user-growth",
+  "images": [
+    {
+      "file": "sample-mau-growth.png",
+      "alt": "Sample monthly active users rising from roughly 250 to 6,200 over 16 months"
+    },
+    {
+      "file": "user-growth-accounting.png",
+      "alt": "Monthly user-growth accounting with new and resurrected users above zero, churn below zero, and retention and quick-ratio overlays"
+    },
+    {
+      "file": "higher-retention-growth-accounting.png",
+      "alt": "Alternative user-growth accounting with lower churn, higher retention, and the same topline MAU growth"
+    }
+  ]
+}

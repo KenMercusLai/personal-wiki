@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "data-wrangling-at-slack-several-people-are-coding",
+  "images": [
+    {
+      "file": "slack-data-platform-flow.jpg",
+      "alt": "Slack data pipeline routing logs and job queues through Kafka and Secor, MySQL backups through Sqooper, and Hive, Spark, and Presto into a shared warehouse"
+    },
+    {
+      "file": "version-pinned-parquet-compatibility.jpg",
+      "alt": "Slack warehouse shared across EMR 4.7 engines using version-pinned Slack Parquet formats and an EMR 4.1 Spark cluster"
+    }
+  ]
+}

@@ -3,18 +3,29 @@
 generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
-last_updated: 2026-09-26
-as_of_overview_commit: 5e9009ed64115dd04d864f3c7d140c8b4d6ece2d
-input_digest: b55b5e0d3e11311c280c8051d1ccc115bd4e5e5a7ba27089318880a3a512f768
+last_updated: 2026-09-27
+as_of_overview_commit: 17c3f8a6fedd6e94bb1d1a3992ecc75b6611cb95
+input_digest: ce6509a5a355d2b0670a507fe3bb64334eb107573898c9f8cb158c1269247f53
 ---
 
 # Culture and Media
 
 ## Current State
 
-Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[ProfessionalBlogging]] adds a source-scoped conversation-to-publication loop in which recurring community ideas become durable artifacts and future discovery, while [[FounderNetworkBuilding]] supplies purposeful, reciprocal upstream relationships and a warning that focused communities can also narrow judgment. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence. [[ArtKleiner]] adds a source-scoped organizational boundary: [[StartupCulture]] emerges from repeated behavior even when leaders intentionally design [[HypeAndCraftCultures|cross-subculture]] boundaries, persistent teams, postmortems, experiments, and cross-team learning through [[TeamBasedOrganizationalDesign]]. [[ChristianTietze]] adds purpose-led clustering between capture and durable notes, refining [[NoteGranularity]] so atomicity means cohesive separation of reusable concerns rather than uniformly tiny files; this remains a single practitioner workflow rather than comparative learning evidence. [[CuriosityDrivenAction]] adds a qualified cultural practice of preserving question-forming freedom and moving from ordinary observation to construction and feedback; the [[Praxis]] and coffee-shop examples are anecdotal, and the essay does not establish that curiosity should displace knowledge or formal learning.
+[[ProgrammingLiteracy]] extends cultural participation from consuming software toward expressing logic inside task-specific tools, but the literacy analogy remains aspirational and historically bounded. Culture and media emerge from linked systems of form, infrastructure, audience practice, governance, and economics. Platforms shape discovery, status, payment, moderation, and preservation; reading, note, citation, and writing systems shape what can become durable knowledge; and games show especially clearly that expressive experiences depend on audience assumptions, localization, testing, delivery, and live operations. [[ProfessionalBlogging]] adds a source-scoped conversation-to-publication loop in which recurring community ideas become durable artifacts and future discovery, while [[FounderNetworkBuilding]] supplies purposeful, reciprocal upstream relationships and a warning that focused communities can also narrow judgment. [[AcademicResearchWorkflow]] connects Zotero capture, Obsidian synthesis and drafting, and Pandoc export while preserving the distinction between imported annotations and understanding. The Apple Music material adds that a streaming catalog can also compete through human relationships, curation, original ideas, and cultural relevance, while historical subscriber scale remains difficult to compare and does not by itself establish acquisition fit. Across these sources, tools and formats create possibilities but do not remove human judgment, unequal distribution, governance debt, evidence limits, or technical dependence. [[ArtKleiner]] adds a source-scoped organizational boundary: [[StartupCulture]] emerges from repeated behavior even when leaders intentionally design [[HypeAndCraftCultures|cross-subculture]] boundaries, persistent teams, postmortems, experiments, and cross-team learning through [[TeamBasedOrganizationalDesign]]. [[ChristianTietze]] adds purpose-led clustering between capture and durable notes, refining [[NoteGranularity]] so atomicity means cohesive separation of reusable concerns rather than uniformly tiny files; this remains a single practitioner workflow rather than comparative learning evidence. [[CuriosityDrivenAction]] adds a qualified cultural practice of preserving question-forming freedom and moving from ordinary observation to construction and feedback; the [[Praxis]] and coffee-shop examples are anecdotal, and the essay does not establish that curiosity should displace knowledge or formal learning.
 
 ## Cross-source Findings
+
+### Programming Literacy Expands Computational Participation
+
+[[ProgrammingLiteracy]] frames practical program creation as cultural and computational participation rather than professional identity, with [[EndUserComputing]] using task-specific environments to make that agency more accessible.
+
+**Evidence:** [[ProgrammingLiteracy]], [[EndUserComputing]]
+
+**Qualifications:**
+
+- The printing-press and textual-literacy comparison is an analogy, not evidence that programming access will diffuse through the same mechanisms or have comparable effects.
+- The source is a 2013 practitioner essay whose mass-market assessment and examples are historically bounded.
 
 ### Account Access Design Shapes Participation And Dependence
 

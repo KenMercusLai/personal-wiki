@@ -10,7 +10,8 @@ sources:
   - you-cant-have-a-rollback-button-skyliner
   - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
   - cloudflare-outage-on-february-20-2026
-last_updated: 2026-09-26
+  - deploy-release-part-1-turbine-labs
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ knowledge_schema: synthesis-v1
 
 ## Current Synthesis
 The source isolates change because many failures are connected to changes. Its strongest prescription is mandatory canary release for critical systems: gradual exposure controls blast radius, but human confidence can override discipline unless the process and consequences are strong enough. Monitoring and rollback complete the minimum safety loop because teams need to see change impact and undo harmful changes quickly when possible.
+
+Turbine Labs sharpens this loop by separating deployment from release. Installing a version on production infrastructure can establish startup and health readiness before it receives traffic; release is the independent act that creates customer exposure. This turns traffic activation into a controllable safety boundary, whereas release-in-place exposes customers to startup failures and application defects together. Canarying bounds that exposure but does not remove risk for canary traffic.
 
 During an active incident, the article argues that restoring service matters more than fully solving the cause. Restarting, shifting traffic, or using multi-active capacity can be the right first move, provided the team preserves enough evidence for later analysis.
 
@@ -38,7 +41,7 @@ The incident also strengthens the distinction between reverting an executable an
 
 ## Key Claims
 - Production change is a major source of reliability risk, whether the changed artifact is code, infrastructure, authoritative data, or operational configuration.
-- Staged exposure, health mediation, and rate or breadth circuit breakers reduce blast radius by limiting early propagation.
+- Separating deployment from traffic release, then using staged exposure, health mediation, and rate or breadth circuit breakers, reduces blast radius by limiting early customer impact and propagation.
 - Critical systems may need mandatory process rules and serious enforcement even when they slow delivery.
 - Monitoring must include user-facing health so a technically accepted change can be stopped when customer behavior degrades.
 - Production-like staging and task-runner scenario tests can catch risks before users or production data become the first realistic test.
@@ -48,6 +51,9 @@ The incident also strengthens the distinction between reverting an executable an
 ## Evidence
 - Change focus: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] says incidents often relate to changes, so change deserves special attention.
 - Canarying: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] argues that forced grayscale/canary change limits failure impact and may need strict rules for core systems.
+- Deployment-versus-release boundary: [[deploy-release-part-1-turbine-labs]] says a version may be running and healthy on production infrastructure without serving production traffic.
+- Release-in-place risk: [[deploy-release-part-1-turbine-labs]] says restarting traffic-serving instances on the new version exposes customers to deployment failure as well as application behavior risk.
+- Canary qualification: [[deploy-release-part-1-turbine-labs]] limits release-in-place exposure by the new-version share of the cluster but does not eliminate risk for that share.
 - Monitoring and rollback: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] says teams cannot judge changed-state health without monitoring and often recover fastest by rolling back.
 - Pre-release filtering: [[7-reasons-why-your-staging-environment-sucks-loadmill]] argues that representative staging can expose bugs from architecture, data, traffic, monitoring, internet exposure, and failure before release.
 - Non-rollbackable risk: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] warns that changes that cannot roll back should be treated with high caution.
@@ -67,14 +73,14 @@ The incident also strengthens the distinction between reverting an executable an
 - Health-mediated containment: [[cloudflare-outage-on-february-20-2026]] proposes snapshots, staged rollout, customer-service signals, and circuit breakers for unusually rapid or broad withdrawals.
 
 ## Counterevidence & Qualifications
-The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. Staging realism also reduces but does not eliminate release risk because production traffic, scale, data, task scheduling, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana, GitHub, and Cloudflare cases are company-authored accounts, while McKinley's categorical critique is a short practitioner essay with one cache example; none should be overgeneralized into a universal recovery playbook. Cloudflare's proposed controls were not yet reported as complete, and typed schemas, snapshots, circuit breakers, and health signals can themselves be incomplete or wrong.
+The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. An inactive production version can still mutate shared data, consume capacity, or affect queues and control planes, so deployment is only near-zero customer risk when those side effects are isolated. Instance share may also differ from traffic or customer exposure. Staging realism reduces but does not eliminate release risk because production traffic, scale, data, task scheduling, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana, GitHub, Cloudflare, and Turbine Labs accounts are practitioner or company-authored sources rather than controlled comparisons; none should be overgeneralized into a universal recovery playbook. Cloudflare's proposed controls were not yet reported as complete, and routing, typed schemas, snapshots, circuit breakers, and health signals can themselves be incomplete or wrong.
 
 ## What Changed
+- Added deployment-versus-release separation as a customer-exposure boundary.
 - Extended change safety from software release to authoritative configuration and automated operational tasks.
 - Added typed request semantics and task-runner scenarios to pre-production verification.
 - Added health-mediated snapshots and rate or breadth circuit breakers to staged containment.
 - Strengthened recovery around configured-versus-operational state and dependent-object reconstruction.
-- Preserved rollback as a bounded tactic rather than a whole-system guarantee.
 
 ## Related Concepts
 - [[SystemReliability]] - safe change is one core reliability layer.
@@ -85,6 +91,7 @@ The sources do not cover all change-management contexts. Some code and immutable
 - [[ChaosEngineering]] - controlled failure can test change resilience before release.
 - [[ReliabilityInvestment]] - mandatory change controls require organizational willingness to spend time and enforce rules.
 - [[DeploymentAutomation]] - safe change depends on release, rollback, and revision-control mechanics.
+- [[DeploymentReleaseSeparation]] - independent traffic activation prevents a successful installation from automatically exposing users.
 - [[ContinuousDelivery]] - small staged releases make production changes easier to observe, disable, and correct.
 - [[ComplianceArchitecture]] - regulated change safety depends on evidence and validation architecture.
 - [[IncrementalFrameworkUpgrade]] - migration milestones make compatibility and rollout risk observable in smaller units.

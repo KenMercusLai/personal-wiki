@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "data-factories-stratechery-by-ben-thompson",
+  "images": [
+    {
+      "file": "facebook-data-factory-flow.png",
+      "alt": "Facebook data factory receiving raw data and returning processed value across users, advertisers, third parties, and embedded badges"
+    },
+    {
+      "file": "child-stitching-soccer-balls.jpg",
+      "alt": "Child stitching branded soccer balls in Pakistan in the factory-opacity example"
+    }
+  ]
+}

@@ -6,14 +6,17 @@ sources:
   - continuations-by-albert-wenger-from-advertising-to-subscriptions-and-the
   - continuations-by-albert-wenger-our-need-for-purpose-and-recognition
   - continuations-by-albert-wenger-some-lessons-i-learned-from-the-dotcom-bubble-for
-last_updated: 2026-09-26
+  - did-i-make-a-mistake-selling-del-icio-us-to-yahoo
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AlbertWenger]] is an investor and Continuations author represented here through essays on customer-aligned internet business models, purpose and recognition, and resilient participation in technology bubbles.
+[[AlbertWenger]] is represented as a Del.icio.us operating executive, investor, and Continuations author whose sources cover a startup acquisition, customer-aligned internet business models, purpose and recognition, and resilient participation in technology bubbles.
 
 ## Current Profile
+[[JoshuaSchachter]] identifies Wenger as the COO beside him when [[Delicious|Del.icio.us]] signed Yahoo's no-shop agreement in 2005. The interview supplies only this narrow operating role, but it adds a company-building episode to a profile otherwise represented through Wenger's later investor essays.
+
 Wenger's 2018 business-model essay traces how the web inherited advertising from publishing, argues that fragmented attention turned scale and targeting into conflicts with users and advertisers, and presents consumer subscriptions as a more promising basis for trust because providers must keep delivering enough value to earn renewal. His examples range from [[Netflix]] and [[Spotify]] to a cross-category USV portfolio.
 
 His 2016 management essay applies a similarly incentive- and system-oriented lens to motivation. It argues that people need to understand why their work matters and to have their effort noticed, while founders commonly retain too much vision and strategy as private context. Wenger extends the claim beyond companies: if society equates work with purpose, job displacement removes a source of meaning and social acknowledgment as well as income.
@@ -21,8 +24,8 @@ His 2016 management essay applies a similarly incentive- and system-oriented len
 His May 2017 cryptocurrency essay uses his dot-com experience to distinguish the system-level value of speculative capital from participant-level fragility. Bubbles may finance experiments and decentralized-internet infrastructure, but participants should retain outside perspective, prefer adoption over vanity metrics, avoid explicit or embedded leverage, preserve dry powder, take some gains, and screen for scams without assuming that recognizing a bubble makes its end predictable.
 
 ## Key Characteristics
-- Connects brand trust to the incentives created by a company's revenue model.
-- Analyzes advertising as a two-sided platform conflict affecting both end users and advertisers.
+- Served as Del.icio.us COO during the process leading to its Yahoo acquisition.
+- Connects brand trust to revenue-model incentives and analyzes advertising as a conflict affecting users and advertisers.
 - Advocates consumer subscriptions as a conditional alignment mechanism based on continuing value and zero marginal price for additional use.
 - Uses USV's investment thesis and portfolio as practical examples of the argument.
 - Treats purpose and recognition as paired needs that management systems can support or erode.
@@ -37,13 +40,13 @@ His May 2017 cryptocurrency essay uses his dot-com experience to distinguish the
 - Scaling and social transition: [[continuations-by-albert-wenger-our-need-for-purpose-and-recognition]] says added management layers can reduce employee visibility and that societies moving away from traditional work need other sources of purpose and recognition.
 - Bubble interpretation: [[continuations-by-albert-wenger-some-lessons-i-learned-from-the-dotcom-bubble-for]] argues that speculative capital can finance experimentation and infrastructure while a self-contained narrative weakens judgment.
 - Bubble participation: [[continuations-by-albert-wenger-some-lessons-i-learned-from-the-dotcom-bubble-for]] recommends end-user adoption metrics, no borrowing, post-crash liquidity, partial profit-taking, scam awareness, and resilient long-term involvement.
+- Del.icio.us role: [[did-i-make-a-mistake-selling-del-icio-us-to-yahoo]] identifies Wenger as COO and present with Schachter when the Yahoo agreement was signed.
 
 ## Qualifications
-This profile is intentionally bounded to three short essays. It does not establish Wenger's complete biography, investment record, later views, whether the named subscription companies achieved durable alignment or performance, or the empirical strength of the purpose-and-recognition framework. The 2016 essay refers generally to research but provides no citations and relies on personal and television anecdotes for its management examples. The 2017 bubble essay is historically situated investor guidance: it does not compare bubbles empirically, define adoption precisely, or account for later cryptocurrency cycles and outcomes.
+This profile is intentionally bounded to three short essays and one retrospective interview by Schachter. It does not establish Wenger's complete biography, his actions or views during the Yahoo negotiation, his investment record, later views, whether the named subscription companies achieved durable alignment or performance, or the empirical strength of the purpose-and-recognition framework. The 2016 essay cites no research, and the 2017 bubble essay is historically situated investor guidance rather than a comparative study.
 
 ## What Changed
-- Expanded the profile from internet business-model incentives to Wenger's management and post-work account of purpose and recognition.
-- Added Wenger's distinction between bubbles' possible infrastructure value and the judgment, leverage, measurement, and fraud risks borne by participants.
+- Added Wenger's source-bounded operating role as Del.icio.us COO during the Yahoo acquisition process.
 
 ## Relationships
 - [[UnionSquareVentures]] - investment firm whose thesis and portfolio anchor Wenger's argument.
@@ -56,3 +59,6 @@ This profile is intentionally bounded to three short essays. It does not establi
 - [[TechnologyBubbles]] - captures Wenger's dot-com-derived framework for resilient participation in speculative technology waves.
 - [[VanityMetrics]] - measurement failure Wenger illustrates with pageviews and cumulative registrations.
 - [[Antifragile]] - cited frame for preserving financial capacity through bubble volatility.
+- [[JoshuaSchachter]] - Del.icio.us founder who identifies Wenger as his COO during the Yahoo agreement.
+- [[Delicious]] - company setting for Wenger's operating role in the new source.
+- [[Yahoo]] - acquirer involved in that source-bounded operating episode.

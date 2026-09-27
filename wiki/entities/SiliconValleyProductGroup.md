@@ -7,7 +7,8 @@ sources:
   - ceo-of-the-product-revisited-silicon-valley-product-group
   - consensus-vs-collaboration-silicon-valley-product-group
   - customer-inspired-technology-enabled-silicon-valley-product-group
-last_updated: 2026-09-26
+  - developer-powered-innovation-silicon-valley-product-group
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,7 +22,7 @@ SVPG's product doctrine in these sources is simultaneously ambitious and anti-hi
 
 Its culture doctrine likewise separates participation from approval. Product companies should invite relevant information, make people feel heard, and expect product, design, and engineering to debate trade-offs closely. They should not require unanimity: explicit domain authority and accountable final calls are presented as safeguards against slow, risk-averse design by committee.
 
-The technology-enabled innovation essay adds an engineering-discovery doctrine. Customer pain inspires the problem, but teams should expose engineers to full business context and let technical insight, prototypes, and enabling technologies shape solutions customers could not request in advance. Requirements are reframed as constraints, and engineering discovery time plus whole-team measures keep product work from collapsing into backlog delivery.
+The engineering essays add a discovery doctrine and a motivation mechanism. Customer pain inspires the problem, but teams should expose engineers to full business context and let technical insight, prototypes, and enabling technologies shape solutions customers could not request in advance. Direct contact makes that pain visible rather than filtered, while selective participation, senior-engineer representation, and customer etiquette keep the practice bounded. Requirements are reframed as constraints, and engineering discovery time plus whole-team measures keep product work from collapsing into backlog delivery.
 
 ## Key Characteristics
 - Publishes and teaches product-management ideas for technology product teams.
@@ -30,7 +31,7 @@ The technology-enabled innovation essay adds an engineering-discovery doctrine. 
 - Treats title as less important than the product work being performed.
 - Defends CEO-like product accountability while rejecting boss-like PM behavior.
 - Distinguishes inclusive collaboration from consensus, universal veto power, and routine executive escalation.
-- Treats engineers as product-discovery partners whose technical insight needs customer and business context.
+- Treats engineers as product-discovery partners whose technical insight and motivation need customer and business context, including selective firsthand exposure.
 
 ## Evidence
 - Founding context: [[behind-every-great-product-silicon-valley-product-group]] says Cagan started SVPG after leaving eBay.
@@ -42,15 +43,17 @@ The technology-enabled innovation essay adds an engineering-discovery doctrine. 
 - Culture distinction: [[consensus-vs-collaboration-silicon-valley-product-group]] argues that people should contribute information and feel heard without requiring everyone to approve a decision.
 - Decision doctrine: [[consensus-vs-collaboration-silicon-valley-product-group]] recommends domain authority within the product trio and product-manager accountability for unresolved cross-domain trade-offs.
 - Engineering-discovery doctrine: [[customer-inspired-technology-enabled-silicon-valley-product-group]] recommends customer exposure, context sharing, constraint translation, prototyping time, and shared outcome measurement.
+- Direct-exposure doctrine: [[developer-powered-innovation-silicon-valley-product-group]] links engineers' problem-solving energy to the problems they witness and recommends prepared customer contact for some, often senior, developers.
 
 ## Qualifications
-The sources are SVPG doctrine and case-study storytelling rather than an independent profile of the organization. They provide no comparative evidence that product-manager final-call authority is universally superior or that engineering participation alone caused the cited innovations; regulated or high-risk work may also assign binding decisions to other roles.
+The sources are SVPG doctrine and case-study storytelling rather than an independent profile of the organization. They provide no comparative evidence that product-manager final-call authority is universally superior, that engineering participation alone caused the cited innovations, or that direct customer exposure consistently improves motivation; regulated or high-risk work may also assign binding decisions or customer contact to other roles.
 
 ## What Changed
 - Created SVPG as the publication and advisory context for the product-management source.
 - Added SVPG's qualified defense of CEO-like product-manager accountability.
 - Added SVPG's distinction between inclusive collaboration and consensus-based decision rights.
 - Added SVPG's customer-inspired, engineering-enabled product-discovery model.
+- Added selective direct customer exposure as a mechanism for engineering empathy, motivation, and product insight.
 
 ## Relationships
 - [[MartyCagan]] - founder and author of the source.
@@ -60,3 +63,4 @@ The sources are SVPG doctrine and case-study storytelling rather than an indepen
 - [[WorkplaceCollaboration]] - culture practice SVPG separates from unanimous approval.
 - [[CrossFunctionalProductTeams]] - product, design, and engineering setting for SVPG's role and decision-right guidance.
 - [[TechnologyEnabledProductInnovation]] - innovation model connecting customer pain with engineering knowledge of what has become possible.
+- [[DeveloperCustomerExposure]] - SVPG practice connecting selected engineers directly with users and customers.

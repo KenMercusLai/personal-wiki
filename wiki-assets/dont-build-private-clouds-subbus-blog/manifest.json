@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "dont-build-private-clouds-subbus-blog",
+  "images": [
+    {
+      "file": "data-center-ownership-by-server-count.png",
+      "alt": "Conceptual server-count thresholds for owning data centers, running private cloud, or consuming services"
+    }
+  ]
+}

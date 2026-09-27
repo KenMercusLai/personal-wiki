@@ -7,7 +7,8 @@ sources:
   - 7-reasons-why-your-staging-environment-sucks-loadmill
   - a-look-at-auth0-cloud-architecture-5-years-in
   - asanas-september-8-outage
-last_updated: 2026-09-14
+  - details-on-the-january-9th-2017-asana-outage
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,10 +26,12 @@ Auth0 adds a concrete SaaS architecture case. For an authentication provider, re
 
 Asana adds a smaller but vivid incident case. A logging bug from a late deployment increased web-server CPU; Thursday morning peak traffic then raised latency, lengthened database-connection holds, backed off non-critical queues, and made search indexing fall behind. The system did not fail from one isolated component but from a load interaction across web servers, database connections, queues, alerts, release history, and human diagnosis.
 
+Asana's later capacity outage shows why automation, capacity margin, overload behavior, and load shedding must be designed together. A hung lock prevented web-server provisioning, non-paging warnings were ignored, and exceptional Monday traffic exceeded the weekend fleet. The servers did not merely slow down: memory exhaustion blocked cheap forks, the OOM killer removed the preinitialized master, and expensive process startup turned memory pressure into CPU saturation. Throttling some free-user traffic restored health almost immediately while slower fleet expansion completed.
+
 ## Key Claims
 - Reliability spans code, design, change, operations, and recovery rather than one technical layer.
 - Known principles are necessary but insufficient without concrete implementation details.
-- Fail-fast behavior protects online services from resource exhaustion and uncontrolled backlog.
+- Fail-fast behavior and deliberate load shedding protect online services from resource exhaustion, nonlinear collapse, and uncontrolled backlog.
 - Dependency classification, degradation, capacity protection, and disaster recovery are design-level reliability controls.
 - Change-related incidents require canarying, monitoring, rollback, blast-radius reduction, tests, probes, observability, playbooks, and failover exercises.
 - Production-like staging and clear observability can reveal architecture, data, traffic, saturation, and failure-mode risks before or during incidents.
@@ -43,17 +46,21 @@ Asana adds a smaller but vivid incident case. A logging bug from a late deployme
 - Load interaction: [[asanas-september-8-outage]] traces the outage from excessive logging to web-server CPU, latency, database-connection hold time, queue backoff, search-index lag, and user-visible downtime.
 - Diagnosis path: [[asanas-september-8-outage]] says engineers initially investigated the database, later found the databases underloaded, and only then correlated maxed-out web CPU with the prior release.
 - Recovery sequence: [[asanas-september-8-outage]] describes identifying the faulty change, reverting to a known-good revision, blacklisting the bad client revision, and returning the app to normal.
+- Capacity-control chain: [[details-on-the-january-9th-2017-asana-outage]] connects an indefinitely hung provisioning lock, missing timeouts, non-paging alerts, reduced weekend capacity, and exceptional demand.
+- Overload collapse: [[details-on-the-january-9th-2017-asana-outage]] says failed process forks led to OOM termination of the master process, after which from-scratch startup saturated CPU.
+- Load shedding: [[details-on-the-january-9th-2017-asana-outage]] says throttling a fraction of free-user traffic restored fleet health almost immediately while added capacity took longer.
 - Organizational layer: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] argues that postmortem recommendations repeat known principles, but teams struggle to sustain the investment needed to implement them.
 - Business priority: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] uses Taobao and high-stakes businesses as examples where making reliability a top business target changed outcomes.
 
 ## Counterevidence & Qualifications
-The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. The staging article also recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0 and Asana are company-authored accounts and source-date-specific, especially around cloud-provider choices, service capabilities, and internal incident process.
+The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. Load shedding also encodes a product-policy choice: Asana protected paying customers and most free users rather than treating all requests equally. The staging article recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0 and Asana are company-authored accounts and source-date-specific, especially around cloud-provider choices, service capabilities, and internal incident process.
 
 ## What Changed
 - Created the general reliability concept to complement existing AI-harness and game-server-specific reliability pages.
 - Added production-like staging as a pre-release reliability layer.
 - Added Auth0 as a large-scale SaaS case connecting reliability to cloud HA, observability, deployment, testing, and playbooks.
 - Added Asana's outage as a concrete load-interaction and incident-diagnosis case.
+- Added Asana's capacity outage as a case in silent automation failure, nonlinear overload collapse, and load shedding.
 
 ## Related Concepts
 - [[RobustProgramming]] - code-level reliability is one layer of system reliability.

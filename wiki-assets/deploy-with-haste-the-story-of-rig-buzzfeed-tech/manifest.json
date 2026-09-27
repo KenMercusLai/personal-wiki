@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "deploy-with-haste-the-story-of-rig-buzzfeed-tech",
+  "images": [
+    {
+      "file": "rig-run-local-service.gif",
+      "alt": "Rig terminal demo building and running the deploy UI service with linked dependencies and local routing"
+    }
+  ]
+}

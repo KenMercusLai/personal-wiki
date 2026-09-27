@@ -6,7 +6,8 @@ sources:
   - 402-payment-required-david-humphrey-medium
   - your-next-browser-will-pay-you-by-daniel-colin-james
   - video-is-the-new-html-benedict-evans
-last_updated: 2026-09-23
+  - doc-searls-brands-need-to-fire-adtech
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,16 +15,16 @@ knowledge_schema: synthesis-v1
 [[AdBlocking]] is the use of browser or user-agent mechanisms to prevent advertising and related third-party content from loading or displaying.
 
 ## Current Synthesis
-The sources treat ad blocking less as a settled moral verdict and more as a forcing function. Apple's iOS 9 Safari content-filtering hooks made mobile ad blocking easier, intensifying the conflict between users who resent tracking-heavy advertising and publishers who depend on ad revenue. Humphrey proposes explicit browser payments as a middle path; the Brave source instead proposes default blocking followed by optional, browser-delivered ads whose targeting and attention measurement remain on-device and whose revenue is shared with users and publishers. Evans adds a distribution consequence: when content and ads arrive inside encrypted, proprietary audiovisual streams, filtering becomes harder, and blocking pressure may encourage publishers to leave the open web for platform-controlled formats.
+The sources treat ad blocking less as a settled moral verdict and more as a forcing function and market signal. Apple's iOS 9 Safari content-filtering hooks made mobile blocking easier, intensifying the conflict between users who reject tracking-heavy delivery and publishers who depend on ad revenue. Searls argues that blocking and tracking protection are legitimate responses to surveillance rather than external attacks on publishers. Humphrey proposes explicit browser payments as a middle path; Brave proposes default blocking followed by optional browser-delivered ads matched locally, while Evans warns that integrated proprietary streams can make filtering harder and encourage movement away from the open web.
 
 ## Key Claims
-- Ad blocking changes the rules of web experience by allowing users to create ad-free spaces through software.
-- The conflict is intense because web content has become deeply dependent on advertising revenue.
-- Advertising imposes costs beyond visual clutter, including tracking, download bloat, security risk, and privacy invasion.
-- Blocking ads without better payment alternatives leaves publishers and users in an all-or-nothing access model.
-- Browser-mediated payments are proposed as one way to move the debate from implicit ad exchange toward explicit user choice.
-- Brave proposes another replacement path: block incumbent ads and trackers by default, then offer opt-in browser-mediated advertising with token rewards.
-- Ad resistance can be designed into the delivery container when content and advertising share one proprietary stream.
+- Ad blocking lets users reject advertising, tracking, and related third-party content at the user-agent boundary.
+- The conflict is intense because ad-funded content depends on revenue from delivery users may experience as intrusive, slow, insecure, or privacy-invasive.
+- Blocking and tracking protection can be read as legitimate market feedback about the terms of the exchange, not only as threats to publishers.
+- Blocking without a replacement leaves publishers and users in an all-or-nothing access model.
+- Browser-mediated payments offer one path toward explicit purchase, while Brave proposes opt-in local advertising and shared token revenue.
+- User-controlled interest signaling could separate a willingness to receive relevant offers from consent to third-party surveillance.
+- Integrated proprietary content-and-ad streams can make technical filtering harder and may shift distribution away from the open web.
 
 ## Evidence
 - iOS 9 trigger: [[402-payment-required-david-humphrey-medium]] says Apple did not ship an ad blocker but added Safari content-filtering APIs.
@@ -33,14 +34,15 @@ The sources treat ad blocking less as a settled moral verdict and more as a forc
 - Adoption trend: [[your-next-browser-will-pay-you-by-daniel-colin-james]] includes a PageFair chart showing desktop ad-blocking devices rising from 21 million in January 2010 to 236 million in 2016, while mobile devices rise from 145 million in 2015 to 380 million in 2016.
 - Brave alternative: [[your-next-browser-will-pay-you-by-daniel-colin-james]] frames default blocking as the first step before an optional local-targeting and BAT-funded replacement.
 - Platform-stream response: [[video-is-the-new-html-benedict-evans]] argues that encrypted data from one IP, rendered in a proprietary runtime with an ad inside the audiovisual stream, is difficult for a blocker to separate.
+- Market-response framing: [[doc-searls-brands-need-to-fire-adtech]] treats blocking and tracking protection as user responses to surveillance and repeated ineffective opt-outs.
+- Control alternative: [[doc-searls-brands-need-to-fire-adtech]] proposes open user-controlled preference signaling rather than tracker-defined interest profiles.
 
 ## Counterevidence & Qualifications
-None of the sources denies that advertising funds web content. Their critique is that the current bargain is often implicit and bundled with unwanted technical and privacy costs. All predate later privacy, browser, advertising, streaming, and web-payments developments. The PageFair chart is a historical device-count series rather than a current adoption measure, the Brave source is promotional evidence for a proposed replacement, and Evans's claim that mobile blocking would drive publishers from the open web is a 2016 prediction rather than demonstrated outcome evidence.
+None of the sources denies that advertising funds web content. Their critique is that the bargain is often implicit and bundled with unwanted technical and privacy costs. All predate later privacy, browser, advertising, streaming, and web-payments developments. The PageFair chart is a historical device-count series, the Brave source is promotional evidence for a proposed replacement, Searls's market-response framing does not measure publisher losses or user willingness to pay, and Evans's open-web consequence is a prediction rather than demonstrated outcome evidence.
 
 ## What Changed
-- Created the ad-blocking concept page around the article's iOS 9 debate framing.
-- Added Brave's default-blocking and opt-in attention-advertising proposal, with historical and promotional qualifications.
-- Added the proprietary-stream response in which integrated content and ads are harder to filter and can shift distribution away from the open web.
+- Added blocking and tracking protection as market feedback about surveillance and failed opt-out controls.
+- Added open, user-controlled interest signaling as a possible alternative to tracker-defined profiles.
 
 ## Related Concepts
 - [[WebAdEconomics]] - ad blocking exposes the implicit economics of ad-funded access.
@@ -49,3 +51,4 @@ None of the sources denies that advertising funds web content. Their critique is
 - [[SaoPauloCleanCityLaw]] - the physical-world analogy for ad-free public space.
 - [[AttentionBasedAdvertising]] - proposed opt-in advertising layer after default blocking.
 - [[Brave]] - browser used to implement the source's block-then-replace strategy.
+- [[Adtech]] - tracking-heavy delivery is a major target of blocking and protection tools.

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com",
+  "images": [
+    {
+      "file": "survivorship-bias-lottery-comic.png",
+      "alt": "Comic showing a lottery winner recommending persistence while failed ticket buyers remain invisible"
+    },
+    {
+      "file": "detroit-to-st-petersburg-bike-route.png",
+      "alt": "Map of a 1,268-mile bicycle route from Detroit to St. Petersburg"
+    },
+    {
+      "file": "dream-video-monetization-overlay.png",
+      "alt": "Dream-pursuit video frame overlaid with a learn-how-to-make-money advertisement"
+    },
+    {
+      "file": "deception-detection-researcher-quote.png",
+      "alt": "Researcher explaining that untrained gut-sense lie detection often performs below chance"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "does-wake-on-lan-via-wan-needs-port-forwarding",
+  "images": [
+    {
+      "file": "wake-on-lan-magic-packet-capture.png",
+      "alt": "Packet capture of a Wake-on-LAN magic packet sent over UDP to a LAN broadcast address"
+    }
+  ]
+}

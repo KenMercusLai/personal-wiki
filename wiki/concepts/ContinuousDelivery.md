@@ -9,7 +9,8 @@ sources:
   - chris-james-how-to-go-fast
   - you-cant-have-a-rollback-button-skyliner
   - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
-last_updated: 2026-09-23
+  - devops-is-a-culture-not-a-role-irma-kornilova-medium
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ knowledge_schema: synthesis-v1
 The Thoughtworks source frames continuous delivery as broader than tool selection. Version control, CI servers, infrastructure configuration, monitoring, and deployment automation matter, but they do not produce CD if developers avoid small frequent commits, lack automated tests, or cannot see and improve the release path.
 
 The durable synthesis is that CD is a system property. Slow monolithic builds, brittle acceptance-test suites, and disconnected deployment jobs each reduce release confidence. Architecture, test design, and pipeline design therefore become delivery concerns, not secondary implementation details.
+
+Kornilova adds the organizational boundary: automation and common tools do not sustain frequent reliable delivery when development and operations remain adversaries with conflicting measures. Leadership sponsorship, early stakeholder participation, shared goals, and joint attention to lead time, deployment frequency, uptime, change failure rate, and recovery time make CD part of a wider [[DevOpsCulture]]. Small pilots can test the operating model before a company attempts broad adoption.
 
 Nygard's compliance source adds the regulated-environment constraint: CD in a DevOps culture must preserve team autonomy, frequent small releases, and low MTTR while still producing objective compliance evidence and auditability. Compliance architecture can either support CD by moving checks left and to the point of change, or inhibit CD by adding central queues, manual gates, and large approval batches.
 
@@ -33,7 +36,7 @@ GitHub's Rails migration adds a long-running compatibility case. Rather than iso
 
 ## Key Claims
 - Continuous delivery is a release capability, not a list of tools.
-- CD depends on frequent small integration, automated tests, and repeated deployment practice.
+- CD depends on frequent small integration, automated tests, repeated deployment practice, and organizational alignment around delivery and reliability.
 - Architectural choices can improve or damage delivery throughput.
 - Feedback speed matters at both developer and CI levels.
 - Pipeline visibility helps teams identify bottlenecks and improve the production flow over time.
@@ -48,6 +51,8 @@ GitHub's Rails migration adds a long-running compatibility case. Rather than iso
 - DevOps compliance fit: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says DevOps culture stresses autonomy, frequent small releases, and low MTTR while still needing compliance controls and audit.
 - Batch pressure: [[blog-carl-nygard-martinfowler-com-compliance-in-a-devops-culture]] says slow compliance approvals can force larger deployment batches because approval capacity limits release count.
 - Product learning: [[blog-martin-fowler-foreword-to-the-art-of-agile-development]] says frequent production features let teams learn what is valuable by observing software use.
+- Organizational alignment: [[devops-is-a-culture-not-a-role-irma-kornilova-medium]] argues that senior sponsorship and broad stakeholder participation must turn development and operations from opposing incentives toward shared delivery goals.
+- Shared measures: [[devops-is-a-culture-not-a-role-irma-kornilova-medium]] pairs lead time and deployment frequency with uptime, change failure rate, and mean time to recover, and recommends small pilots that can demonstrate change.
 - Minimal live loop: [[chris-james-how-to-go-fast]] recommends starting with a deployed "hello world," then deploying green main-branch builds to live and running smoke tests.
 - Small-batch safety: [[chris-james-how-to-go-fast]] says small frequent releases are easier and less risky than manually shipping one or two weeks of accumulated work.
 - WIP discipline: [[chris-james-how-to-go-fast]] treats code not in users' hands as work in progress and recommends optimizing for flow rather than resource allocation.
@@ -59,18 +64,21 @@ GitHub's Rails migration adds a long-running compatibility case. Rather than iso
 ## Counterevidence & Qualifications
 The sources are practitioner guidance rather than a universal CD taxonomy. Naik's examples focus on codebase decomposition, test feedback, and pipeline tooling; Nygard's regulated-delivery examples add compliance controls, auditability, and organizational ownership; Fowler's foreword emphasizes agile learning and internal quality. Later practices such as feature flags, canary rollout, progressive delivery, and production observability can extend the same release-confidence frame.
 
+Kornilova's account draws on transformation guidance and a selected [[Raytheon]] anecdote rather than comparative adoption evidence. The reported move from two monthly integration procedures to 27 in one night measures integration activity, not production deployment, customer value, long-run reliability, or security. Shared metrics can align work, but they can also be gamed or optimized locally when detached from system and customer outcomes.
+
 James's minimalist pipeline advice is strongest for early products and small teams. High-risk systems may need richer progressive-delivery controls, approval evidence, or production-like test environments, but the source's core warning still applies: extra environments and manual release process need a clear feedback or risk-reduction reason. McKinley's rollback essay is a forceful practitioner argument rather than comparative evidence; safely reversible changes still exist when state and compatibility boundaries are deliberately controlled.
 
 GitHub's account is a company-authored retrospective of one Rails application. Its dual-boot approach introduced temporary conditional code and a larger CI matrix, and the team still encountered CI, local-development, and slow-query problems that escaped automated and manual testing.
 
 ## What Changed
-- Continuous delivery is a system property spanning architecture, tests, release flow, and production learning rather than a tool list.
+- Continuous delivery is a system property spanning organizational incentives, architecture, tests, release flow, and production learning rather than a tool list.
 - Compliance evidence and auditability must preserve small batches rather than recreate central approval queues.
 - Small-team automation can be minimal, but it still needs fast verification and observable user feedback.
 - Deployment and activation should be separable because code reversion cannot restore every external state.
 - Multi-version CI and progressive production exposure can keep a long framework migration inside the normal delivery stream.
 
 ## Related Concepts
+- [[DevOpsCulture]] - supplies the shared responsibility, leadership support, and cross-functional alignment around continuous delivery.
 - [[DeploymentPipeline]] - pipeline visibility is the article's core mechanism for CD release confidence.
 - [[DeploymentAutomation]] - automation is necessary but insufficient for CD.
 - [[CDComponentization]] - component boundaries can improve CD feedback and ownership.

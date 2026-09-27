@@ -4,7 +4,8 @@ type: concept
 tags: [platforms, strategy, marketplaces]
 sources:
   - aggregators-and-trust-luca-dellanna
-last_updated: 2026-09-13
+  - data-factories-stratechery-by-ben-thompson
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,7 +13,7 @@ knowledge_schema: synthesis-v1
 [[AggregationTheory]] is a platform-strategy frame in which companies gain power by controlling demand-side access to supply, typically through direct user relationships, low marginal user-serving costs, and demand-driven multi-sided networks.
 
 ## Current Synthesis
-Dellanna adopts the Stratechery frame but argues that aggregator power should not be understood only as matching supply and demand. In markets where unfamiliar parties must transact, demand historically leaned on supplier popularity as a shortcut for trust. Aggregators such as [[Airbnb]] and [[Uber]] alter that structure by becoming the trusted intermediary: users trust the platform's reviews, payments, guarantees, dispatch, targeting, or delisting power enough to use unfamiliar suppliers. The result is two-sided: supplier profits can flatten because less-known suppliers become acceptable, while trust, attention, and profit centralize at the aggregator layer.
+Dellanna adopts the Stratechery frame but argues that aggregator power should not be understood only as matching supply and demand. In markets where unfamiliar parties must transact, aggregators such as [[Airbnb]] and [[Uber]] become the trusted intermediary, making unfamiliar suppliers transactable while centralizing trust, attention, and profit. Thompson adds the advertising-super-aggregator case: because [[Facebook]] and [[Google]] control demand, they must keep users engaged even though advertisers pay for access to that attention. Their [[DataFactories|data factories]] deepen the advantage by combining user, supplier, advertiser, and third-party inputs into recommendations, distribution, targeting, and hidden processed profiles.
 
 ## Key Claims
 - Aggregators control demand by becoming the preferred access point to supply.
@@ -21,6 +22,7 @@ Dellanna adopts the Stratechery frame but argues that aggregator power should no
 - A trusted aggregator can flatten supplier profit distribution by making unfamiliar suppliers transactable.
 - The same trust transfer can centralize profits and power at the aggregator layer.
 - Aggregator disruption is hardest on demand ownership and more plausible around new trust-minimization mechanisms.
+- In advertising aggregation, users are simultaneously the demand to retain and the attention advertisers pay to reach; the data-processing layer improves value to both sides.
 
 ## Evidence
 - Demand-control frame: [[aggregators-and-trust-luca-dellanna]] summarizes Ben Thompson's aggregator traits as direct user relationships, near-zero marginal user-serving costs, and demand-driven networks.
@@ -28,12 +30,15 @@ Dellanna adopts the Stratechery frame but argues that aggregator power should no
 - Trust transfer: [[aggregators-and-trust-luca-dellanna]] says [[Airbnb]] lets guests and hosts rely on reviews, insurance, payment, reimbursement, and delisting rather than preexisting relationships.
 - Profit redistribution: [[aggregators-and-trust-luca-dellanna]] argues that aggregators flatten supplier profits while centralizing profits at the aggregator layer.
 - Disruption vector: [[aggregators-and-trust-luca-dellanna]] points to smart locks and smart contracts as possible ways to reduce the platform's trust-provision role.
+- User-versus-product distinction: [[data-factories-stratechery-by-ben-thompson]] argues that aggregators prioritize users because demand control is their power, while advertisers buy access to user attention.
+- Data-processing extension: [[data-factories-stratechery-by-ben-thompson]] shows content, ads, uploaded customer lists, third-party records, and external integrations feeding processed product and targeting outputs.
 
 ## Counterevidence & Qualifications
-The source is a strategic essay, not an empirical measurement of profit distribution, take rates, fraud, review quality, or supplier outcomes. It also mostly develops level-2 aggregator examples and gives level-1 and level-3 cases less treatment. Demand ownership may still dominate trust innovation because users and suppliers go where the existing network is deepest.
+Both sources are strategic essays rather than empirical measurements of profit distribution, take rates, user welfare, targeting lift, privacy harm, or competitive outcomes. Dellanna mostly develops marketplace examples and gives advertising aggregation less treatment; Thompson develops Facebook and generalizes to Google without a complete technical audit. Demand ownership may still dominate trust or transparency reforms because users, suppliers, and advertisers go where the existing network is deepest.
 
 ## What Changed
-- Created the concept to connect aggregator demand control with Dellanna's trust-transfer extension.
+- Added advertising super-aggregators, where users are demand to retain while their attention is sold to advertisers.
+- Added the data-processing layer as a mechanism that strengthens product, supplier, and advertiser value around demand control.
 
 ## Related Concepts
 - [[MarketplaceTrust]] - aggregator trust infrastructure is a marketplace-trust mechanism with profit-distribution effects.
@@ -41,3 +46,5 @@ The source is a strategic essay, not an empirical measurement of profit distribu
 - [[GrowthHacking]] - marketplace trust can unlock adoption, but aggregation theory adds platform power and profit concentration.
 - [[SocialProof]] - supplier popularity can act as a proxy for trust before stronger platform mechanisms exist.
 - [[PlatformStickiness]] - aggregators and platforms both become hard to bypass when users depend on their trusted access layer.
+- [[DataFactories]] - transforms multi-sided data inputs into outputs that reinforce aggregator demand and advertising value.
+- [[WebAdEconomics]] - explains the indirect exchange through which advertisers fund services and buy access to attention.

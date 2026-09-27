@@ -6,6 +6,7 @@ sources:
   - shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog
   - anze-pecar-gotchas-with-sqlite-in-production
   - cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020
+  - eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku
 last_updated: 2026-09-15
 knowledge_schema: synthesis-v1
 ---
@@ -22,14 +23,16 @@ Consolidation does not deny that specialized databases can be valuable. Its clai
 
 At extreme scale, consolidation around one incumbent database can become a strategic and scalability liability. Amazon's reported move away from Oracle was not a case for database sprawl; it shows that the consolidation question must include workload fit, vendor dependence, migration cost, and whether a database platform can keep pace with the business's performance needs.
 
+The time-series material sharpens the specialization gate. A dedicated engine has a stronger case when data naturally forms stable name-label vectors and needs temporal resampling, gap filling, aligned joins, columnar timestamp-value storage, or distinct time- and label-axis operators. Merely having timestamped rows is not enough: PostgreSQL extensions such as [[TimescaleDB]] can retain consolidation and relational features while optimizing temporal scans, whereas vector-native systems may deliver a better fit for metrics-shaped workloads.
+
 ## Key Claims
 - One capable database can reduce the operational surface area of a young or moderate system.
 - Consolidating workloads lowers cross-system data-flow and consistency complexity.
 - PostgreSQL is a strong consolidation platform because it is mature, extensible, and broadly supported.
 - Specialized databases should be adopted when they solve a critical gap whose benefit exceeds the complexity cost.
-- Outgrowing a consolidated architecture can be a success signal rather than evidence that early specialization was necessary.
 - SQLite-style consolidation can remove the database service itself, but only within a tighter operational envelope.
 - Consolidation can become harmful when a vendor-controlled database cannot meet scale, performance, or strategic independence needs.
+- Time-series specialization is strongest when the workload needs vector-native storage and operators, not merely a timestamp column.
 
 ## Evidence
 - Sprawl example: [[shi-yong-postgresql-jian-hua-ni-de-ji-shu-zhan-huangz-blog]] describes teams using separate databases for transactions, search, time series, vector operations, and analytics.
@@ -41,14 +44,15 @@ At extreme scale, consolidation around one incumbent database can become a strat
 - Incumbent limit: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says Amazon's primary issue with Oracle was inability to scale the database technology to Amazon's performance needs.
 - Migration cost: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says Amazon had considered leaving Oracle for years but initially judged the engineering work too large for too little payoff.
 - Core dependency: [[cnbc-amazon-plans-to-move-off-oracle-software-by-early-2020]] says some core shopping systems still relied on Oracle even after a years-long migration.
+- Specialization gate: [[eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku]] distinguishes name-label time-series vectors from general timestamped relational data and identifies specialized aggregation and alignment operations.
+- Consolidated temporal path: [[eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku]] characterizes TimescaleDB as retaining PostgreSQL's relational model and features while reorganizing cooled data for scans and compression.
 
 ## Counterevidence & Qualifications
-The argument is a heuristic for architectural restraint, not a proof that PostgreSQL, SQLite, Oracle, or any other database will outperform specialized systems. The PostgreSQL source acknowledges that a PostgreSQL-first system may eventually exceed PostgreSQL's design capacity or require capabilities better served by another datastore. The SQLite source is even more conditional: simplifying to a local database file can be wrong when availability, concurrency, or operational tooling needs dominate. The Amazon-Oracle source shows a different boundary: even a powerful incumbent enterprise database can become a migration target when scale, performance, vendor strategy, or cloud positioning change.
+The argument is a heuristic for architectural restraint, not a proof that PostgreSQL, SQLite, Oracle, or any other database will outperform specialized systems. The PostgreSQL source acknowledges that a PostgreSQL-first system may eventually exceed PostgreSQL's design capacity or require capabilities better served by another datastore. The SQLite source is even more conditional: simplifying to a local database file can be wrong when availability, concurrency, or operational tooling needs dominate. The Amazon-Oracle source shows a different boundary: even a powerful incumbent enterprise database can become a migration target when scale, performance, vendor strategy, or cloud positioning change. The time-series source adds a positive specialization criterion, but its product boundary is one author's taxonomy and is not supported by comparative benchmarks.
 
 ## What Changed
-- Created the concept to capture the article's PostgreSQL-first simplification strategy.
-- Added SQLite as a more radical but narrower consolidation path.
-- Added Amazon's Oracle exit as a caution that consolidation must be revisited when scale and vendor constraints change.
+- Added data-model fit as a positive reason to specialize: stable name-label vectors can need operators and layouts a general timestamped table does not provide.
+- Distinguished vector-native time-series systems from PostgreSQL extensions that preserve a consolidated relational model.
 
 ## Related Concepts
 - [[TechnologyStackComplexity]] - database consolidation is a proposed remedy for stack sprawl.
@@ -59,3 +63,5 @@ The argument is a heuristic for architectural restraint, not a proof that Postgr
 - [[VectorDatabase]] - vector search is one workload category considered in the consolidation tradeoff.
 - [[EnterpriseCloudMigration]] - cloud database migrations can be triggered when a consolidated incumbent no longer fits.
 - [[CloudHighAvailability]] - consolidated database choices still need mature recovery and availability patterns.
+- [[TimeSeriesDatabase]] - supplies a model-based test for when temporal specialization may justify another datastore.
+- [[TimescaleDB]] - illustrates temporal optimization that retains the PostgreSQL relational model.

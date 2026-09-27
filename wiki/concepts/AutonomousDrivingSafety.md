@@ -8,7 +8,8 @@ sources:
   - cars-as-feature-phones-benedict-evans
   - unexpected-consequences-of-self-driving-cars-rodney-brooks
   - winner-takes-all-effects-in-autonomous-cars-benedict-evans
-last_updated: 2026-09-23
+  - dhh-its-easier-to-forgive-a-human-than-a-robot
+last_updated: 2026-09-26
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,7 +19,7 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources present autonomous-driving safety as a technical, interface, social, and legitimacy problem. [[FilipPiekniewski]] uses autonomous driving as the practical stress test for deep-learning claims: road safety requires more than classifying scene elements, because a system must quickly detect obstacles, anticipate motion, handle rare cases, and choose protective action under time pressure. [[BenedictEvans]] asks both what follows if autonomy eliminates most human-error crashes and how warning-heavy dashboards, sensor fusion, and partial self-driving create dangerous handoff questions before that endpoint.
 
-In mixed urban traffic, pedestrians and drivers use acknowledgement, gaze, tentative movement, patience, and local convention to negotiate right of way. A vehicle that cannot read and reciprocate those signals may behave so cautiously that people bully it and traffic backs up, or so opaquely that pedestrians treat it as a privileged threat. Safety therefore includes socially legible intent, operational-domain limits, and public acceptance. [[RodneyBrooks]] predicts an asymmetric legitimacy threshold: society may reject even a small number of machine-caused deaths while tolerating a far larger human-driving baseline, although commenters argue that trolley-style thought experiments can still expose everyday risk-allocation choices even when Brooks regards their assumed perception as unrealistic.
+In mixed urban traffic, pedestrians and drivers use acknowledgement, gaze, tentative movement, patience, and local convention to negotiate right of way. A vehicle that cannot read and reciprocate those signals may behave so cautiously that people bully it and traffic backs up, or so opaquely that pedestrians treat it as a privileged threat. Safety therefore includes socially legible intent, operational-domain limits, and public acceptance. [[RodneyBrooks]] predicts an asymmetric legitimacy threshold: society may reject even a small number of machine-caused deaths while tolerating a far larger human-driving baseline. [[DavidHeinemeierHansson]] generalizes this into [[AutomationErrorTolerance]]: a fleet can be safer in aggregate yet remain socially or commercially unacceptable when its residual deaths are visibly attributed to one provider. Commenters on Brooks' essay argue that trolley-style thought experiments can still expose everyday risk-allocation choices even when Brooks regards their assumed perception as unrealistic.
 
 Evans' winner-takes-all essay adds the learning infrastructure behind reliability. High-definition maps give vehicles a prior road model; cameras and lidar localize the car and detect live actors; fleet data supplies examples of human behavior; and simulation turns captured scenarios into repeatable tests for new software. These mechanisms create [[AutonomousVehicleDataNetworkEffects]], but scale is not safety by itself: data must be interpretable and representative, simulations can omit sensor failures or become circular, and rarely used manual controls may not provide meaningful recovery after automation has allowed driver skill and attention to atrophy.
 
@@ -52,16 +53,16 @@ Evans' winner-takes-all essay adds the learning infrastructure behind reliabilit
 - Replayable testing: [[winner-takes-all-effects-in-autonomous-cars-benedict-evans]] says simulation can rerun captured situations against changed software, unlike uncontrolled road encounters, while noting that it may miss sensor-detection failures and can become circular.
 - Manual-recovery analogy: [[winner-takes-all-effects-in-autonomous-cars-benedict-evans]] uses the retained science-fiction excerpt to illustrate how unfamiliar manual controls can fail as a recovery mechanism after long automation.
 - Risk-tolerance asymmetry: [[unexpected-consequences-of-self-driving-cars-rodney-brooks]] predicts that a small number of driverless-car deaths may be judged unacceptable even if automation prevents far more human-caused deaths.
+- Concentrated-responsibility thought experiment: [[dhh-its-easier-to-forgive-a-human-than-a-robot]] imagines a provider controlling half of U.S. driving and shows how a system much safer than humans could still be associated with hundreds or thousands of deaths each year.
 - Ethics qualification: [[unexpected-consequences-of-self-driving-cars-rodney-brooks]] records a dispute between Brooks, who sees stylized trolley cases as operationally unavailable under unreliable perception, and commenters who treat them as probes of ordinary risk allocation and defensible design policy.
 
 ## Counterevidence & Qualifications
-The sources sit on different sides of the feasibility and transition questions. Piekniewski is a skeptical 2018 essay about brittle systems and does not provide current fleet data or later regulatory outcomes. Evans' essays are 2017 strategy analyses: the consequences essay is speculative about what happens if autonomy works, the interface essay frames handoff risk through analogy, and the data essay predates later sensor, model, simulation, and deployment changes. Brooks' claims about contempt, bullying, traffic delay, and unusually strict public risk tolerance are forecasts, not deployment measurements. His comment thread offers real counterarguments: standardized external signals may make intent legible, policy may prevent empty-vehicle abuses, and ethics can be reframed as routine risk management rather than fantastical crash triage. Together the sources imply that safety analysis must handle technical reliability, learning-system quality, human-machine handoff, social coordination, public legitimacy, and the downstream consequences of success.
+The sources sit on different sides of the feasibility and transition questions. Piekniewski is a skeptical 2018 essay about brittle systems and does not provide current fleet data or later regulatory outcomes. Evans' essays are 2017 strategy analyses: the consequences essay is speculative about what happens if autonomy works, the interface essay frames handoff risk through analogy, and the data essay predates later sensor, model, simulation, and deployment changes. Brooks' claims about contempt, bullying, traffic delay, and unusually strict public risk tolerance are forecasts, not deployment measurements. Hansson independently reinforces the risk-tolerance asymmetry but does so through illustrative arithmetic rather than behavioral, legal, or fleet evidence; his examples do not show that public rejection is inevitable or identify the conditions under which familiarity, regulation, insurance, or visible aggregate benefit could change it. Brooks' comment thread offers real counterarguments: standardized external signals may make intent legible, policy may prevent empty-vehicle abuses, and ethics can be reframed as routine risk management rather than fantastical crash triage. Together the sources imply that safety analysis must handle technical reliability, learning-system quality, human-machine handoff, social coordination, public legitimacy, and the downstream consequences of success.
 
 ## What Changed
-- Added high-definition maps, fleet driving data, and replayable simulation as reliability mechanisms.
-- Qualified fleet scale: raw observations help only when sensing, interpretation, scenario coverage, and validation are adequate.
-- Extended the handoff risk with the retained analogy of emergency controls that users have never practiced.
-- Preserved social legibility, public risk tolerance, and operational-domain restriction as constraints beyond collision rates.
+- Strengthened the public-legitimacy judgment with an independent cross-domain account of asymmetric machine-error tolerance.
+- Distinguished aggregate crash reduction from the concentrated responsibility assigned to an autonomy provider.
+- Preserved the new source's numerical scenarios as thought experiments rather than measured adoption thresholds.
 
 ## Related Concepts
 - [[DeepLearning]] - autonomous driving is used to test deep learning outside controlled benchmarks.
@@ -71,3 +72,4 @@ The sources sit on different sides of the feasibility and transition questions. 
 - [[AutomobilitySecondOrderEffects]] - crash reduction is one driver of broader transport, city, labor, and surveillance consequences.
 - [[AutomotiveInterfaceTransition]] - the transition from warning lights to partial autonomy changes the driver-safety problem.
 - [[AutonomousVehicleDataNetworkEffects]] - fleet scale can improve maps, behavioral learning, and simulation while still facing diminishing returns.
+- [[AutomationErrorTolerance]] - social acceptance may require machine error rates far below the human baseline.

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source_key": "deploy-release-part-1-turbine-labs",
+  "images": [
+    {
+      "file": "failed-release-and-rollback.png",
+      "alt": "A failed v1.2 deploy and release followed by rollback to v1.1"
+    },
+    {
+      "file": "deployed-not-released.png",
+      "alt": "Version v1.2 deployed beside v1.1 while production traffic remains on v1.1"
+    },
+    {
+      "file": "traffic-cutover-to-v1-2.png",
+      "alt": "Production traffic moved from v1.1 to the newly released v1.2"
+    },
+    {
+      "file": "canary-release-in-place.png",
+      "alt": "Canary release with a minority of instances running v1.2 while the remainder stay on v1.1"
+    }
+  ]
+}

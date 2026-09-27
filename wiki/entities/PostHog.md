@@ -4,38 +4,41 @@ type: entity
 tags: [analytics, developer-tools, saas]
 sources:
   - burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog
-last_updated: 2026-09-15
+  - dev-tool-marketing-for-early-stage-startups-what-weve-learned
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[PostHog]] is a developer-tool company used in this wiki as a practitioner case for paid advertising and developer marketing.
+[[PostHog]] is a developer-tool company used in this wiki as a practitioner case for developer marketing, content-led acquisition, paid advertising, and channel measurement.
 
 ## Current Profile
-The paid-ads source presents PostHog as a developer-tool startup that treats marketing as a broad operating system rather than a pure ad budget. Its marketing mix gives most team time to writing, uses paid ads as a smaller experimental layer, and judges channels by developer audience fit, conversion quality, awareness value, and qualitative attribution. The company is skeptical of superficially cheap paid channels when traffic quality or placement control is weak.
+Two overlapping PostHog articles present marketing as a stage-dependent operating system rather than an ad budget. Before product-market fit, the company emphasizes unusually useful writing, maintained SEO assets, a product-like website, substantive content review, careful outsourcing, and direct signup attribution. After fit, it adds a developer-writer, paid ads, sponsorships, events, and focused social experiments. Across both sources, writing remains dominant and channels are judged by developer fit, conversion quality, repeatability, awareness value, and qualitative evidence rather than headline traffic or cheap reported CPA.
 
 ## Key Characteristics
-- Uses writing as the dominant marketing investment while keeping paid ads to a smaller share of team time.
-- Separates conversion-oriented demand capture from awareness-oriented demand creation.
-- Supplements quantitative attribution with signup and demo self-reporting because developer buyers may be influenced without clicking.
-- Treats agency help as execution leverage that still requires internal channel fluency and critical judgment.
-- Evaluates paid channels by audience quality and technical-user fit rather than headline CPA alone.
+- Uses deep, genuinely useful writing as the marketing foundation and maintains strong SEO assets rather than maximizing output volume.
+- Treats the website and editorial process as product-quality systems that should protect the developer experience.
+- Sequences expensive or scalable channels after product-market fit while separating conversion-oriented demand capture from awareness creation.
+- Supplements click attribution with signup and demo self-reporting because developer buyers may be influenced without clicking.
+- Keeps critical judgment internal when using freelancers or agencies and evaluates channels by technical-audience quality rather than headline CPA or traffic.
 
 ## Evidence
-- Marketing mix: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] says paid ads take about 10% of PostHog marketing-team time while writing takes more than 80%.
-- Demand split: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] says PostHog splits budget between conversion and awareness instead of spending everything on conversion.
-- Attribution practice: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] says PostHog asks users where they heard about the product at signup or demo booking.
-- Agency boundary: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] recommends founders learn major channels well enough to guide an agency.
-- Channel judgment: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] recommends avoiding Google Display despite low apparent CPA because it produced bots and irrelevant conversions.
+- Content and website quality: [[dev-tool-marketing-for-early-stage-startups-what-weve-learned]] recommends depth over volume, continued investment in the best SEO pieces, product-like website governance, and peer review of every article.
+- Marketing mix and stage: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] says writing takes more than 80% of marketing-team time, while [[dev-tool-marketing-for-early-stage-startups-what-weve-learned]] places paid ads after product-market fit.
+- Demand split and channel judgment: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] separates conversion from awareness and rejects Google Display's superficially cheap but low-quality conversions.
+- Attribution practice: both [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] and [[dev-tool-marketing-for-early-stage-startups-what-weve-learned]] use free-text discovery questions to recover influence that click data misses.
+- Delegation boundary: [[burning-money-on-paid-ads-for-a-dev-tool-what-weve-learned-posthog]] keeps channel judgment internal when using agencies, while [[dev-tool-marketing-for-early-stage-startups-what-weve-learned]] applies the same rule to content outsourcing.
 
 ## Qualifications
-The page is based on one PostHog marketing article, so it should not be read as a complete company profile. The article is explicitly scoped to early-stage startups that have already decided paid ads make sense, and its lessons may depend on PostHog's category, budget, brand awareness, and audience.
+The page is based on two closely related first-party marketing articles, not a complete or independent company profile. The advice is scoped to early developer-tool startups and may depend on PostHog's category, budget, brand, team, and audience. Channel judgments, cost figures, and reported relative performance are practitioner observations rather than controlled comparisons.
 
 ## What Changed
-- Created PostHog as a developer-tool marketing case.
+- Expanded the profile from paid advertising into a pre- and post-fit developer-marketing system centered on content depth, product-quality web surfaces, and technical credibility.
+- Generalized the internal-judgment boundary from paid agencies to content freelancers.
 
 ## Relationships
 - [[DeveloperToolPaidAdvertising]] - PostHog supplies the source's concrete channel-by-channel playbook.
+- [[DeveloperMarketing]] - PostHog supplies the stage-dependent content, channel, and credibility model.
 - [[SaaSMarketing]] - PostHog treats paid ads as one part of broader software marketing.
 - [[MarketingAttribution]] - PostHog uses qualitative attribution to recover influence that click data misses.
 - [[ContentLedAcquisition]] - writing remains the dominant marketing investment in the article.

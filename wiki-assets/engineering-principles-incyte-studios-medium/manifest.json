@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "engineering-principles-incyte-studios-medium",
+  "images": [
+    {
+      "file": "tower-of-babel.jpg",
+      "alt": "Tower of Babel illustrating the coordination failure that shared engineering principles are intended to reduce"
+    }
+  ]
+}

@@ -4,7 +4,8 @@ type: concept
 tags: [product-design, onboarding, activation, product-growth]
 sources:
   - crafting-the-first-mile-of-product-positive-slope-medium
-last_updated: 2026-09-26
+  - empty-state-mobile-app-nice-to-have-essential-ux-planet
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,17 +13,19 @@ knowledge_schema: synthesis-v1
 [[FirstMileProductExperience]] is the newcomer-facing part of a product—welcome, onboarding, copy, defaults, empty states, and initial actions—that turns expressed interest into enough orientation and immediate value to continue.
 
 ## Current Synthesis
-[[ScottBelsky]] defines first-mile success as reaching "The Zone": a newcomer knows why they are present, what they can accomplish, and what to do next, even before they know how the whole product works. This makes first-use design an activation problem rather than a compressed feature tour. Templates, presumptive but sensible defaults, useful empty states, familiar language, and proactive setup can create early competence with less explanation.
+[[ScottBelsky]] defines first-mile success as reaching "The Zone": a newcomer knows why they are present, what they can accomplish, and what to do next, even before they know how the whole product works. This makes first-use design an activation problem rather than a compressed feature tour. Templates, presumptive but sensible defaults, useful empty states, familiar language, and proactive setup can create early competence with less explanation. [[NickBabich]] sharpens the empty-state case: identify the section, set expectations for what will appear, and expose the action or event that moves the screen into a useful state.
 
 The immediate hook may be narrower than the product's long-term promise. [[Pinterest]] collections and [[Behance]] portfolios offered personal utility before network effects matured, while [[Slack]] used small novelties to make early interaction rewarding. Feedback about social response can also pull users back, but Belsky's "ego analytics" frame is best treated as one proposed mechanism rather than a universal motive.
 
 The first mile is a moving boundary. As adoption expands beyond technically fluent early users into new demographics, devices, countries, and expectations, onboarding that once worked can become exclusionary. Teams therefore need continued newcomer research and redesign even while power users and revenue-producing customers pull attention toward advanced features.
 
+Not every empty screen is a first-mile problem. Error states and user-cleared states need different explanations, recovery paths, or acknowledgements. Personality, illustration, and humor can support orientation, but they should not displace accurate status, accessibility, or a credible next action.
+
 ## Key Claims
 - First-use success means orienting users toward purpose, achievable value, and the next action rather than teaching the entire product.
 - Proactive useful work, templates, and well-chosen defaults can outperform tours or explanations when they create immediate success.
 - Immediate personal utility or novelty can bridge the delay before network, marketplace, or long-term workflow value appears.
-- Copy, terminology, empty states, and default destinations are core product behavior, not launch-time decoration.
+- Copy, terminology, default destinations, and first-use empty states are core product behavior; blank screens should explain expected content and expose the next value-producing action, while error and user-cleared states require context-specific treatment.
 - Familiar patterns should carry ordinary interactions so scarce learning effort is reserved for behavior that creates unique value.
 - Social feedback can strengthen return motivation when it makes the response to a user's contribution visible.
 - First-mile design must evolve with changing newcomer cohorts instead of being frozen around early adopters.
@@ -32,14 +35,17 @@ The first mile is a moving boundary. As adoption expands beyond technically flue
 - Proactive assistance: [[crafting-the-first-mile-of-product-positive-slope-medium]] ranks doing above showing and explaining, using templates and presumptive defaults as examples.
 - Early value bridge: [[crafting-the-first-mile-of-product-positive-slope-medium]] uses Pinterest collections, Behance portfolios, and Slack novelties to argue that immediate utility or novelty precedes delayed product benefits.
 - Choice and comprehension: [[crafting-the-first-mile-of-product-positive-slope-medium]] treats defaults, active empty states, familiar terminology, and established patterns as ways to reduce newcomer burden.
+- Empty-state anatomy: [[empty-state-mobile-app-nice-to-have-essential-ux-planet]] asks first-use screens to explain what belongs in a section, where the user is, and what action or event makes content appear.
+- Context boundary: [[empty-state-mobile-app-nice-to-have-essential-ux-planet]] distinguishes onboarding from failure and user-cleared content, with clearer recovery obligations when the user is blocked.
 - Cohort change: [[crafting-the-first-mile-of-product-positive-slope-medium]] points to mobile-only users and Snapchat's later growth among older adults as reasons onboarding must evolve.
 - Attention tradeoff: [[crafting-the-first-mile-of-product-positive-slope-medium]] presents Twitter as a case where core-product work and power-user gravity did not solve weak newcomer activation.
 
 ## Counterevidence & Qualifications
-The evidence is one 2016 practitioner essay using selected historical product examples, not controlled activation, retention, or resource-allocation studies. Strong defaults can be wrong, opaque, manipulative, or autonomy-reducing; novelty can fade; visible social feedback can distort behavior; and some products require explanation because mistakes are costly or trust depends on informed choice. "Lazy, vain, and selfish" compresses varied user motives into a memorable heuristic, while the proposed 30% allocation to first-mile work has no demonstrated universal optimum. The supplied screenshots and chart were only 60-pixel thumbnails, so they could not independently substantiate the prose.
+The evidence consists of two 2016 practitioner essays using selected historical product examples, not controlled activation, retention, or resource-allocation studies. Strong defaults can be wrong, opaque, manipulative, or autonomy-reducing; novelty can fade; visible social feedback can distort behavior; and some products require explanation because mistakes are costly or trust depends on informed choice. "Lazy, vain, and selfish" compresses varied user motives into a memorable heuristic, while the proposed 30% allocation to first-mile work has no demonstrated universal optimum. Babich repeats third-party churn figures without enough cohort detail to attribute retention outcomes to empty states, and humor or animation may interfere with accessibility or recovery. Belsky's supplied screenshots and chart were only 60-pixel thumbnails; Babich's three retained examples illustrate the proposed anatomy but do not establish outcome effects.
 
 ## What Changed
-- Created the concept with a moving-cohort model of first-use orientation, immediate value, proactive assistance, and continued redesign.
+- Made the anatomy of a useful first-use empty state explicit: expected content, present context, and the action or event that creates value.
+- Separated first-mile blank states from error and user-cleared states that require different treatment.
 
 ## Related Concepts
 - [[ProductEngagementLadder]] - begins after or around first-mile orientation by staging progressively deeper product skills.
@@ -49,3 +55,4 @@ The evidence is one 2016 practitioner essay using selected historical product ex
 - [[BehaviorDesign]] - supplies broader mechanisms for ability, motivation, prompting, and feedback in first-use behavior.
 - [[ProductUserSegmentation]] - distinguishes newcomer cohorts whose needs change across demographics, devices, and experience.
 - [[MinimumViableProduct]] - can fail when launch scope treats the newcomer experience as disposable rather than part of the viable product.
+- [[EmptyStateDesign]] - supplies the context-sensitive blank-screen pattern used within the first mile.

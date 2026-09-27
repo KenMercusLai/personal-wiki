@@ -8,15 +8,16 @@ sources:
   - billboards-for-small-businesses-costs-advice-and-thinking-twice
   - build-a-product-that-fits-your-runway-elizabeth-yin
   - understanding-email-layout-and-structure
-last_updated: 2026-09-17
+  - email-marketing-benchmarks
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Mailchimp]] is an email-marketing software company used as an example of category familiarity, signature-based product exposure, playful brand advertising, and incumbent feature breadth.
+[[Mailchimp]] is an email-marketing software company represented in the wiki through its brand, product, distribution, interface, and aggregated campaign-data roles.
 
 ## Current Profile
-The strategy source uses Mailchimp to show why [[BrandDistinctiveness]] and market share can overpower subtle product comparison. The virality source adds a mechanism-level view: emails sent through Mailchimp can append a promotional badge or footer, exposing recipients to the product at the moment they receive a message. The billboard source adds a brand-delight case: Mailchimp's mascot billboard campaign is described as intentionally avoiding feature selling and aiming to make users and fans smile. Yin's runway essay uses Mailchimp as an incumbent whose mature email-marketing feature breadth a startup should not try to copy in its first product.
+The sources portray Mailchimp as both a recognizable email product and a platform with several strategic surfaces. Familiarity can put it into buyers' consideration sets; promotional footers can turn sent messages into distribution; mascot billboards can reinforce brand delight; mature feature breadth can deter unfocused startup imitation; and its editor supplies a comparison point for email-layout control. The March 2018 benchmark adds a data role: Mailchimp aggregates tracked campaigns into industry reference rates, although the disclosed methodology is too limited to turn those averages into timeless performance standards.
 
 ## Key Characteristics
 - Presented as a leading email-marketing tool.
@@ -25,7 +26,7 @@ The strategy source uses Mailchimp to show why [[BrandDistinctiveness]] and mark
 - Uses outgoing email as a possible product-exposure surface.
 - Uses mascot-led billboard advertising as a brand-delight example.
 - Serves as a feature-breadth contrast for runway-constrained startup product scope.
-- Email-builder UI example: its editor exposes built-in multi-column elements and less granular row and column control than pixel-level builders.
+- Supplies email-builder controls and platform-scale campaign benchmarks as two distinct product-data surfaces.
 
 ## Evidence
 - Category leader: [[cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr]] says Mailchimp ranks first in email marketing software.
@@ -35,16 +36,14 @@ The strategy source uses Mailchimp to show why [[BrandDistinctiveness]] and mark
 - Billboard delight: [[billboards-for-small-businesses-costs-advice-and-thinking-twice]] presents a Mailchimp mascot billboard campaign as a deliberate attempt to delight users rather than sell features.
 - Feature-breadth contrast: [[build-a-product-that-fits-your-runway-elizabeth-yin]] says founders building a new email-marketing tool cannot afford to match all the features of a full-fledged traditional email-marketing system like Mailchimp.
 - Email-builder UI example: [[understanding-email-layout-and-structure]] uses Mailchimp's editor as an example of a "single column" template that actually contains multiple columns, and of a builder that offers built-in multi-column elements rather than fine-grained row and column control.
+- Campaign-data platform: [[email-marketing-benchmarks]] says Mailchimp scanned hundreds of millions of tracked emails to calculate industry averages for opens, clicks, bounces, abuse complaints, and unsubscribes.
 
 ## Qualifications
-The sources do not compare Mailchimp's current feature set, pricing, market share, opt-out patterns, or billboard campaign performance in detail. They use the brand for recognition, outgoing-message exposure, customer delight, and as an illustrative incumbent rather than a complete company history.
+The sources do not provide a current product, pricing, or market-share audit. The benchmark is dated March 2018, applies only to tracked campaigns of at least 1,000 subscribers from users who reported an industry, and omits sample sizes, distributions, weighting, observation dates, and metric definitions. The other sources use Mailchimp as an illustrative brand or product comparison rather than providing a complete company history.
 
 ## What Changed
-- Created an entity page for the source's mental-availability example.
-- Added Mailchimp as an outgoing-signature viral-loop example.
-- Added Mailchimp's mascot billboard as a brand-delight example.
-- Added Mailchimp as an incumbent-feature-breadth contrast for runway-fit product scope.
-- Added Mailchimp's editor as an example of automated multi-column email-template structure.
+- Expanded the profile from brand and product examples to include aggregated campaign-data infrastructure.
+- Added the methodological and historical limits on Mailchimp's March 2018 industry benchmarks.
 
 ## Relationships
 - [[BrandDistinctiveness]] - Mailchimp illustrates how familiarity drives consideration.
@@ -55,3 +54,5 @@ The sources do not compare Mailchimp's current feature set, pricing, market shar
 - [[StartupRunway]] - Mailchimp is used to show why runway constrains feature breadth.
 - [[EmailTableLayout]] - Mailchimp's built-in multi-column elements illustrate automated table layout.
 - [[Chamaileon]] - a competing email builder that compares its row and column controls with Mailchimp's.
+- [[EmailCampaignBenchmarking]] - Mailchimp's tracked campaign data supplies historical industry reference rates.
+- [[EmailMarketingAtScale]] - aggregated campaign volume supports cross-customer operational analysis.

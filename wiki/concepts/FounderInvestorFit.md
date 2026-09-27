@@ -5,7 +5,8 @@ tags: [startups, fundraising, investors, relationships]
 sources:
   - convince-me-said-the-investor-no-said-the-founder-hunter-walk
   - brett-fox-boring-obligations-from-investors
-last_updated: 2026-09-25
+  - do-vcs-really-add-value-founders-say-sometimes-by-carl-fritjofsson
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -13,13 +14,13 @@ knowledge_schema: synthesis-v1
 [[FounderInvestorFit]] is the two-way assessment of whether a founder and investor have enough informed conviction, mutual respect, compatible working behavior, and acceptable post-close expectations to justify a long-term financing relationship.
 
 ## Current Synthesis
-The sources treat fundraising as the selection of an ongoing working relationship, not a one-way test of whether a founder can persuade. Before investment, a skeptical question can improve assumptions and storytelling when it comes from relevant knowledge and substantive engagement, while an unsupported assertion can reveal poor fit; one reported founder ended such a meeting after deciding that neither capital nor useful learning was likely. After investment, Fox shows what selection commits the company to: recurring financial and cap-table reporting, LP references, diligence help for prospective investments, and portfolio events whose time and cost vary sharply by investor style. The combined judgment is therefore broader than interpersonal chemistry. Founders should assess the investor's reasoning, conduct, reporting expectations, use of company expertise, event culture, and likely demands on scarce attention before accepting a long-lived cap-table relationship.
+The sources treat fundraising as the selection of an ongoing working relationship, not a one-way test of whether a founder can persuade. One account shows why the quality of investor skepticism matters: a grounded challenge can improve assumptions and storytelling, while an unsupported assertion can reveal poor fit. A second shows what selection commits the company to after closing, including reporting, LP references, diligence help, and portfolio events whose costs vary by investor style. The survey evidence broadens those anecdotes: founders and VCs both ranked personal relationship and chemistry first, but founders valued decision speed much more than investors expected and rated investor impact lower than investors rated themselves. Fit is therefore neither chemistry alone nor a service checklist. Founders should assess reasoning, responsiveness, terms, stage-relevant capabilities, reporting expectations, conduct, and demands on scarce attention before accepting a long-lived cap-table relationship.
 
 ## Key Claims
 - Fundraising is a mutual selection process, even though the investor often has more immediate power in the meeting.
 - Useful skepticism is grounded in relevant knowledge or reasoning and can help a founder improve assumptions or communication.
 - Unsupported demands to “convince me” may test compliance or establish dominance without producing useful learning.
-- Cap-table relationships make investor style, reporting expectations, assistance requests, and event culture relevant beyond the immediate probability of closing a round.
+- Chemistry matters, but fit also includes decision speed, terms, stage-relevant networks or experience, reporting expectations, assistance requests, and event culture.
 - A founder can rationally disengage when a meeting is unlikely to produce either investment or decision-useful feedback.
 - Once financing closes, requests that looked optional during courtship may become difficult to decline without harming the relationship.
 
@@ -31,13 +32,17 @@ The sources treat fundraising as the selection of an ongoing working relationshi
 - Disengagement decision: [[convince-me-said-the-investor-no-said-the-founder-hunter-walk]] reports that the founder respectfully ended the meeting rather than spending more time and energy persuading him.
 - Post-close workload: [[brett-fox-boring-obligations-from-investors]] describes reporting, LP references, prospective-deal diligence, and portfolio events as recurring founder obligations after funding.
 - Style comparison: [[brett-fox-boring-obligations-from-investors]] contrasts one investor's restrained annual dinner with another's costly two-day retreat, showing that relationship burden can differ even when both provide capital.
+- Shared priority: [[do-vcs-really-add-value-founders-say-sometimes-by-carl-fritjofsson]] reports that founders and VCs both ranked personal relationship and chemistry as the most important partnership criterion.
+- Expectation mismatch: [[do-vcs-really-add-value-founders-say-sometimes-by-carl-fritjofsson]] finds that founders placed much more weight on decision speed than investors expected, while investors overestimated brand importance and their own impact.
+- Context dependence: [[do-vcs-really-add-value-founders-say-sometimes-by-carl-fritjofsson]] reports different relative priorities by geography and financing stage, arguing against one universal investor-fit checklist.
 
 ## Counterevidence & Qualifications
-Both sources are anecdotal and omit the counterparties' perspectives. Walk does not define an objective boundary between a useful stress test and a power move, while Fox does not distinguish contractual duties from courtesy requests or perceived pressure. Founders can misread terse skepticism, avoid necessary challenge, underestimate legitimate investor information rights, or accept avoidable demands to preserve goodwill. Selection power is also unequal: an oversubscribed founder can disengage more readily than one with few financing options, and a funded founder may have even less room to refuse. Fit is therefore a due-diligence frame, not evidence that a specific interaction style predicts company or investment outcomes.
+The two narrative sources are anecdotal and omit their counterparties' perspectives. Walk does not define an objective boundary between a useful stress test and a power move, while Fox does not distinguish contractual duties from courtesy requests or perceived pressure. The survey adds both sides' perspectives but uses separate, unmatched voluntary samples and reports no uncertainty estimates, subgroup sizes, response rate, or outcome measures. Founders can misread terse skepticism, avoid necessary challenge, underestimate legitimate investor information rights, or accept avoidable demands to preserve goodwill. Selection power is also unequal: an oversubscribed founder can disengage more readily than one with few financing options, and a funded founder may have even less room to refuse. Fit is therefore a due-diligence frame, not evidence that a specific interaction style predicts company or investment outcomes.
 
 ## What Changed
-- Expanded fit from fundraising-room behavior to post-close reporting, assistance, and participation expectations.
-- Added the qualification that a founder's freedom to disengage narrows after an investor joins the cap table.
+- Added survey support for chemistry as a shared top priority rather than relying only on anecdotes.
+- Expanded fit to include decision speed, terms, brand, experience, and stage- or geography-dependent needs.
+- Added the gap between investor self-assessment and founder-perceived impact as a reason to diligence claims of support.
 
 ## Related Concepts
 - [[StartupVisionSelling]] - founders often need to persuade before proof is complete, while fit determines where that effort is worth spending.
@@ -46,3 +51,4 @@ Both sources are anecdotal and omit the counterparties' perspectives. Walk does 
 - [[MissionAlignedCapital]] - both concepts treat financing partners and their incentives as part of company design rather than neutral money.
 - [[VentureCapitalBlindSpots]] - investor assumptions and pattern errors can produce rejection without establishing that the founder's market thesis is wrong.
 - [[FounderInvestorRelations]] - the post-close operating relationship through which fit becomes recurring work.
+- [[VentureCapitalValueAdd]] - founder-perceived usefulness is an outcome of fit, not simply a fund's advertised service inventory.

@@ -9,7 +9,8 @@ sources:
   - boz-the-p-rules
   - boz-time-isnt-money
   - consensus-vs-collaboration-silicon-valley-product-group
-last_updated: 2026-09-26
+  - design-process-and-collaboration-at-stripe-in-progress-medium
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -25,14 +26,16 @@ Bosworth adds a power-aware meeting layer. In product reviews, collaboration dep
 
 The SVPG essay separates collaboration from consensus. Healthy participation means that people bring relevant information, feel heard, argue viewpoints, and negotiate trade-offs; it does not give every participant approval or veto power. Explicit decision rights preserve movement and accountability when agreement is unavailable. This distinction connects the interpersonal conditions in the other sources to an organizational rule: openness to input works best when the team also knows who must decide.
 
+Pettersson adds a creative-team balance between autonomy and visibility. Stripe designers reportedly owned large areas and had room to experiment, while critiques and a shared stream of unfinished work let colleagues follow, advise, and support one another. The process lesson is diagnostic rather than maximalist: add a small mechanism when team growth causes a valuable informal behavior to disappear, and keep rough work safe to share before polish narrows the opportunity for influence.
+
 ## Key Claims
-- Collaboration can break down when project stress turns stakeholders toward defensive self-protection.
-- Shared assumptions about good faith can reduce friction in hard conversations.
+- When project stress creates defensive self-protection, bounded assumptions of good faith can reduce friction in hard conversations.
 - Trust-based collaboration can be faster than contract-heavy coordination when the relationship is healthy.
 - Boundaries remain necessary when the environment is low-trust or a person has already violated trust.
 - Interaction should be justified by usefulness: scheduled meetings need purpose and ownership, while informal talks should stop once value disappears.
 - Useful disagreement depends on product value, likely influence, emotional cost, and whether even a losing disagreement expands shared understanding or motivates better evidence gathering.
 - High-status review collaboration requires restraint from senior participants plus leader practices that make people feel heard without confusing participation with unanimous approval or veto power.
+- Creative autonomy remains collaborative when unfinished work is visible early and small coordination mechanisms restore feedback or support lost to team growth.
 
 ## Evidence
 - Project crisis: [[assume-positive-intent-rick-manelius]] describes a client-budget conflict where both sides became irritable and defensive.
@@ -57,16 +60,18 @@ The SVPG essay separates collaboration from consensus. Healthy participation mea
 - Participation without unanimity: [[consensus-vs-collaboration-silicon-valley-product-group]] says people should supply relevant information and be heard even though not everyone will agree with the final decision.
 - Productive disagreement: [[consensus-vs-collaboration-silicon-valley-product-group]] defines close work as communication, passionate argument, and trade-off negotiation rather than consensus.
 - Decision-right boundary: [[consensus-vs-collaboration-silicon-valley-product-group]] argues that clear authority prevents universal input from becoming universal veto power.
+- Autonomy and visibility: [[design-process-and-collaboration-at-stripe-in-progress-medium]] describes individual designers owning substantial work while keeping the team informed and available for support.
+- Early-work safety: [[design-process-and-collaboration-at-stripe-in-progress-medium]] says a shared feed worked because designers could post rough work rather than only polished outcomes.
+- Growth-triggered process: [[design-process-and-collaboration-at-stripe-in-progress-medium]] recommends critiques or similar small changes when informal sharing no longer happens naturally.
 
 ## Counterevidence & Qualifications
-The sources are personal essays rather than broad empirical studies. Trust can be misplaced in environments with coercive power, repeated deception, legal exposure, or unequal ability to absorb risk. Collaboration may also require explicit agreements, incentives, resources, scheduled decision forums, and decision rights, not only better assumptions about intent, informal conversation, or individual restraint. "Picking battles" language can also over-personalize shared product work if teams forget that the goal is better evidence and better outcomes rather than individual victory. Power-aware restraint and meeting pruning do not eliminate the need for direct intervention when risk is urgent, decision rights are explicit, or inclusion requires scheduled participation. Conversely, rejecting consensus must not become a pretext for token consultation: legitimate safety, legal, ethical, accessibility, and domain constraints can carry binding authority, and decision owners remain responsible for seeking disconfirming input.
+The sources are personal essays rather than broad empirical studies. Trust can be misplaced in environments with coercive power, repeated deception, legal exposure, or unequal ability to absorb risk. Collaboration may also require explicit agreements, incentives, resources, scheduled decision forums, and decision rights, not only better assumptions about intent, informal conversation, or individual restraint. "Picking battles" language can also over-personalize shared product work if teams forget that the goal is better evidence and better outcomes rather than individual victory. Power-aware restraint and meeting pruning do not eliminate the need for direct intervention when risk is urgent, decision rights are explicit, or inclusion requires scheduled participation. Conversely, rejecting consensus must not become a pretext for token consultation: legitimate safety, legal, ethical, accessibility, and domain constraints can carry binding authority, and decision owners remain responsible for seeking disconfirming input. Work-in-progress visibility can also become surveillance, performance, or interruption pressure unless teams protect psychological safety and preserve real focus time; Stripe's reported balance is a historical insider account, not measured proof.
 
 ## What Changed
-- Created the concept from the Manelius article's project-conflict case.
-- Added Barnett's distinction between useful collaboration and rational-looking meeting procedure.
 - Added a software-team disagreement frame for deciding when to press, let go, or start a useful losing debate.
 - Added power-aware product-review collaboration: senior restraint, presenter agency, team ownership, and emotional repair in meetings.
 - Distinguished meaningful participation and being heard from unanimous approval or veto power, with explicit decision rights as the accountability boundary.
+- Added creative autonomy with early unfinished-work visibility and growth-triggered minimal process.
 
 ## Related Concepts
 - [[AssumePositiveIntent]] - trust-first attribution is the source's proposed collaboration move.
@@ -80,3 +85,4 @@ The sources are personal essays rather than broad empirical studies. Trust can b
 - [[AttentionManagement]] - collaboration requests should protect colleagues from avoidable context switching and attention waste.
 - [[CrossFunctionalProductTeams]] - product, design, and engineering collaboration combines distinct expertise under explicit decision rights.
 - [[AdviceProcess]] - another governance model that requires consultation without consensus.
+- [[DesignOperations]] - shared critique and work visibility are lightweight operating supports for creative collaboration.

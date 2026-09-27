@@ -6,7 +6,8 @@ sources:
   - behind-every-great-product-silicon-valley-product-group
   - ceo-of-the-product-revisited-silicon-valley-product-group
   - customer-inspired-technology-enabled-silicon-valley-product-group
-last_updated: 2026-09-26
+  - developer-powered-innovation-silicon-valley-product-group
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,7 +19,7 @@ The sources present Cagan as a product-management advocate who left eBay with st
 
 His later "CEO of the product" article shows a more explicit teaching stance. Cagan says he had long been conflicted about the metaphor because it can encourage boss behavior, but he decides to embrace it with strong qualifications because many product managers lack the training and role ambition needed for real [[ProductManagement]].
 
-The technology-enabled innovation essay extends that philosophy to engineers. It argues that engineers should receive business context, observe customer pain, work from constraints rather than fixed requirements, spend time in discovery, and share product-team outcomes. Product management remains responsible for deep customer, data, industry, and company understanding while treating engineers as solution partners rather than coding capacity.
+The two engineering-focused essays extend that philosophy from role design into exposure and discovery. Engineers should receive business context, observe customer pain firsthand, work from constraints rather than fixed requirements, spend time in discovery, and share product-team outcomes. Cagan explains enthusiasm for developer tooling as a consequence of engineers seeing colleagues' problems regularly, not evidence that they lack interest in customers. Product management remains responsible for deep customer, data, industry, and company understanding while treating engineers as solution partners rather than coding capacity.
 
 ## Key Characteristics
 - Founded SVPG after leaving eBay.
@@ -27,7 +28,7 @@ The technology-enabled innovation essay extends that philosophy to engineers. It
 - Uses case studies of real product people rather than only abstract role definitions.
 - Frames strong product management as smart, creative, persistent, and leadership-heavy.
 - Teaches the "CEO of the product" metaphor as responsibility without formal authority.
-- Treats engineering insight and prototypes as major sources of product innovation when grounded in customer pain and business context.
+- Treats engineering insight and prototypes as major sources of product innovation when grounded in customer pain, direct exposure, and business context.
 
 ## Evidence
 - SVPG origin: [[behind-every-great-product-silicon-valley-product-group]] says Cagan started SVPG after leaving eBay.
@@ -37,14 +38,16 @@ The technology-enabled innovation essay extends that philosophy to engineers. It
 - Metaphor clarification: [[ceo-of-the-product-revisited-silicon-valley-product-group]] says Cagan embraces the CEO-of-product comparison while emphasizing humility and that PMs are not anyone's boss.
 - Training diagnosis: [[ceo-of-the-product-revisited-silicon-valley-product-group]] says Cagan sees many titled PMs as undertrained and not doing the job companies need.
 - Engineering participation: [[customer-inspired-technology-enabled-silicon-valley-product-group]] gives six practices for moving engineers into discovery while preserving collaborative product-management leadership.
+- Exposure mechanism: [[developer-powered-innovation-silicon-valley-product-group]] argues that engineers become motivated by problems they witness and recommends direct contact for selected, often senior, developers.
 
 ## Qualifications
-The sources are Cagan's own arguments and reflect his product philosophy. They do not independently verify every case, quantify the product-manager training gap, compare his view with alternative product-management schools, or isolate engineering participation as the cause of the innovation examples.
+The sources are Cagan's own arguments and reflect his product philosophy. They do not independently verify every case, quantify the product-manager training gap, compare his view with alternative product-management schools, isolate engineering participation as the cause of the innovation examples, or measure whether direct customer exposure improves motivation or outcomes.
 
 ## What Changed
 - Created Marty Cagan as the authorial and product-theory source for this ingest.
 - Added Cagan's later qualified defense of the CEO-of-product metaphor.
 - Added his customer-inspired, technology-enabled model of engineering participation in product discovery.
+- Added direct customer exposure as his proposed explanation for and remedy to apparent developer distance from customer problems.
 
 ## Relationships
 - [[SiliconValleyProductGroup]] - Cagan's organization and publication context.
@@ -52,3 +55,4 @@ The sources are Cagan's own arguments and reflect his product philosophy. They d
 - [[ProductLeadership]] - leadership extension he illustrates through Adobe.
 - [[ProductManagerAsCEO]] - metaphor he adopts with humility and no-authority qualifications.
 - [[TechnologyEnabledProductInnovation]] - product-discovery model he illustrates through engineering-led prototypes and enabling technologies.
+- [[DeveloperCustomerExposure]] - practice he recommends for grounding developer motivation and invention in firsthand user problems.

@@ -13,7 +13,8 @@ sources:
   - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
   - cloudflare-outage-on-february-20-2026
   - configuration-management-is-an-antipattern-by
-last_updated: 2026-09-26
+  - deploy-release-part-1-turbine-labs
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -21,6 +22,8 @@ knowledge_schema: synthesis-v1
 [[DeploymentAutomation]] is the set of tools, release patterns, tests, staged controls, and recovery mechanisms that move service changes into production with controlled blast radius and repeatable verification.
 
 ## Current Synthesis
+Turbine Labs provides the core phase model: deployment installs a running, health-checked version on production infrastructure, while release independently moves production traffic to it. Automation should therefore represent installation, readiness, traffic activation, and reversal as distinct controls rather than treating a successful process restart as a successful customer release. Release-in-place collapses these controls and exposes users to startup failure; canarying narrows but does not remove that exposure.
+
 Auth0's architecture post shows deployment automation as a maturity gradient rather than a binary capability. Some services use Jenkins-triggered updates through Puppet, SaltStack, or Ansible. Others update AMIs and create new auto-scaling groups for immutable deployments. The coexistence of old and new flows creates operational cost because automation, documentation, and monitoring have to be maintained across multiple release paths.
 
 The source's desired direction is blue/green deployment across core and supporting services. That would align deployment, scaling, rollback, and verification more consistently, especially when paired with functional tests in staging before release and again in production after deployment.
@@ -48,13 +51,16 @@ The proposed correction treats operational configuration more like a versioned r
 ## Key Claims
 - Multiple deployment flows create maintenance cost across automation, documentation, and monitoring.
 - Software binaries and operational configuration both need versioned artifacts, staged propagation, health gates, and known-good recovery targets.
-- Immutable, blue/green, percentage, and snapshot-mediated deployment patterns reduce in-place or broad-change risk when their boundaries match the changed state.
+- Separating installation from traffic release, then using immutable, blue/green, percentage, or snapshot-mediated patterns, reduces in-place or broad-change risk when controls match the changed state.
 - Functional and scenario tests should cover autonomous jobs as well as explicit user journeys, before production deployment and after activation.
 - Deployment automation is stronger when linked to observability, circuit breakers, smoke tests, staged exposure, and internal platform defaults, but remains insufficient when selection semantics, release confidence, rollback history, or external state are unsafe.
 - Deployment automation can gather compliance evidence, while separate point-of-change policy or admission checks decide whether a release is allowed.
 - Automation can range from a small parameterized script to a global configuration pipeline; required controls grow with statefulness, operator count, propagation speed, and blast radius.
 
 ## Evidence
+- Phase separation: [[deploy-release-part-1-turbine-labs]] distinguishes a deployed, health-checked version from a released version serving production traffic.
+- Release-in-place boundary: [[deploy-release-part-1-turbine-labs]] says replacing and restarting a traffic-serving version makes deployment and release simultaneous and exposes customers to startup failure.
+- Recovery path: [[deploy-release-part-1-turbine-labs]] defines rollback as another deploy and release performed under time pressure into a possibly changed environment.
 - Existing release paths: [[a-look-at-auth0-cloud-architecture-5-years-in]] describes Jenkins-triggered deployments using Puppet, SaltStack, Ansible, or AMI replacement and new auto-scaling groups.
 - Operational cost: [[a-look-at-auth0-cloud-architecture-5-years-in]] says maintaining different deployment types for old and new services is largely ineffective.
 - Blue/green direction: [[a-look-at-auth0-cloud-architecture-5-years-in]] says Auth0 is rolling out blue/green deployments for core services and intends to extend them.
@@ -86,12 +92,14 @@ The proposed correction treats operational configuration more like a versioned r
 - Rolling and blue/green activation: [[configuration-management-is-an-antipattern-by]] uses rolling replacement when cluster state must be preserved and blue/green traffic switching when parallel capacity is available.
 
 ## Counterevidence & Qualifications
-The sources describe deployment automation through specific practitioner lenses. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, snapshot, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment. The Listen Notes script demonstrates small-scale repeatability, not sufficiency for large blast radii. McKinley's rollback critique is deliberately categorical and supported by one cache example; some controlled changes can be reverted safely. GitHub and Cloudflare are first-party cases, and Cloudflare's snapshots, circuit breakers, and state separation are proposed remediations rather than measured completed controls. Horowitz's categorical rejection of configuration management is likewise experiential rather than comparative, and immutable rollout cannot reverse data changes or external effects merely by switching traffic back to an older image.
+The sources describe deployment automation through specific practitioner lenses. Turbine Labs' phase distinction assumes an inactive deployment can be isolated; shared data, queues, control planes, migrations, and capacity can violate that assumption before traffic release. Auth0 describes intent and partial rollout, not a completed uniform platform, and does not compare blue/green with canary, rolling, feature-flag, snapshot, or progressive-delivery approaches. Thoughtworks emphasizes pipeline visibility, but a pipeline only creates confidence when its automated stages are fast, meaningful, and maintained. Nygard adds that compliance automation can still be harmful if central ownership blocks team-specific pipeline evolution. Asana's outage describes one rollback path and does not specify its full deployment tooling. Netflix's scheduled notebooks are workflow automation rather than general service deployment. The Listen Notes script demonstrates small-scale repeatability, not sufficiency for large blast radii. McKinley's rollback critique is deliberately categorical and supported by one cache example; some controlled changes can be reverted safely. GitHub and Cloudflare are first-party cases, and Cloudflare's snapshots, circuit breakers, and state separation are proposed remediations rather than measured completed controls. Horowitz's categorical rejection of configuration management is likewise experiential rather than comparative, and immutable rollout cannot reverse data changes or external effects merely by switching traffic back to an older image.
 
 ## What Changed
+- Separated deployment readiness from release-time traffic activation.
+- Added release-in-place as the pattern that exposes startup and behavior risk simultaneously.
+- Framed rollback as a second fallible deploy-and-release operation under pressure.
 - Added a historical progression from manual release and scripted mutation to configuration convergence and image-based replacement.
 - Clarified that immutable delivery simplifies host-state transitions while moving risk into artifact build, promotion, traffic activation, and persistent-state compatibility.
-- Added prebuilt startup speed as an autoscaling and failure-recovery property of the release system.
 
 ## Related Concepts
 - [[ChangeSafety]] - deployment automation is a release-engineering mechanism for safer change.
@@ -110,3 +118,4 @@ The sources describe deployment automation through specific practitioner lenses.
 - [[NetworkAutomation]] - configuration deployment can directly alter routing and edge behavior.
 - [[ConfigurationManagement]] - convergence tooling is a deployment mechanism whose partial-application states need explicit control.
 - [[ImmutableInfrastructure]] - makes a versioned image the promoted and replaced release unit.
+- [[DeploymentReleaseSeparation]] - models installation, readiness, and production traffic activation as distinct automated controls.

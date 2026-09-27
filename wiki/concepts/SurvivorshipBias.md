@@ -5,7 +5,8 @@ tags: [bias, evidence, business-cases, decision-making]
 sources:
   - use-and-misuse-of-business-case-studies-learning-by-shipping
   - blog-1byte-io-yun-qi-yu-nu-li
-last_updated: 2026-09-25
+  - dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,7 @@ In the source's business-case setting, favorable outcomes cast a halo over a who
 
 Failure narratives can produce a mirror-image error: once the outcome is bad, every visible feature appears obviously wrong even though failed organizations may contain valuable practices. Better learning compares mechanisms and context, looks for missing cases and alternatives, and avoids treating outcome knowledge as proof that every component caused the result.
 
-The 1Byte essay adds a commercialization consequence. Admirers may copy a winner's most visible behavior—such as [[SteveJobs]]'s personality weaknesses or an admired company's unhealthy culture—because those features are easy to see, while timing, access, competitor mistakes, and enabling relationships remain hidden. Sellers of success systems can exploit the same selection effect by presenting their own outcome as proof of a transferable method. The relevant question is therefore not only what winners did, but whether they succeeded because of a feature, despite it, or through conditions missing from the comparison set.
+The 1Byte essay adds a commercialization consequence. Admirers may copy a winner's most visible behavior—such as [[SteveJobs]]'s personality weaknesses or an admired company's unhealthy culture—because those features are easy to see, while timing, access, competitor mistakes, and enabling relationships remain hidden. Sellers of success systems can exploit the same selection effect by presenting their own outcome as proof of a transferable method. The SJO essay sharpens the resulting harm: generic promises about hustle, belief, accumulated hours, or intuition can make risky action look causally justified and make unsuccessful followers blame themselves when the omitted failure set was never visible. The relevant question is therefore not only what winners did, but whether they succeeded because of a feature, despite it, or through conditions missing from the comparison set.
 
 ## Key Claims
 - Winner-centered evidence overrepresents successful companies, people, and practices.
@@ -25,6 +26,7 @@ The 1Byte essay adds a commercialization consequence. Admirers may copy a winner
 - Retrospective success stories tend to suppress luck, serendipity, failed alternatives, and internal disagreement.
 - Failed outcomes can invert the halo, making useful components look obviously defective.
 - Success teachers can turn one selected outcome into apparent validation for an untested, expensive, or non-transferable method.
+- Winner stories can turn effort, persistence, practice hours, or intuition into false sufficiency claims while hiding structurally similar failures.
 - Transfer requires examining mechanisms, interactions, context, and missing cases rather than copying winners' visible features.
 
 ## Evidence
@@ -34,11 +36,14 @@ The 1Byte essay adds a commercialization consequence. Admirers may copy a winner
 - Failure inversion: [[use-and-misuse-of-business-case-studies-learning-by-shipping]] notes that failed teams are often treated as though their structure, people, tools, and decisions were all wrong, despite useful elements within the failure.
 - Visible-trait imitation: [[blog-1byte-io-yun-qi-yu-nu-li]] argues that imitators often copy a famous leader's personality defects or a successful company's unhealthy culture because surface attributes are easier to observe than causal mechanisms.
 - Method-selling risk: [[blog-1byte-io-yun-qi-yu-nu-li]] warns that people with some success may mistake contingency for a repeatable system or sell that impression to an audience seeking certainty.
+- Motivational harm: [[dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com]] argues that guru narratives show visible winners but not comparably hardworking failures, encouraging unplanned risk and self-blame when belief or effort does not produce the promised result.
+- Practice and intuition: [[dont-let-gurus-sell-you-on-survivorship-bias-sjo-com-sjo-com]] uses the 10,000-hour simplification and untrained lie detection to show how selected outcomes can hide practice quality and below-chance judgment.
 
 ## Counterevidence & Qualifications
-Both sources identify the bias through practitioner observation rather than a measured sample of business cases, success teachers, or imitators. A winning organization's practice can genuinely contribute to success, a paid course can organize valuable knowledge, and a failed organization's practice can genuinely be defective; the bias concerns overgeneralization from outcome-selected evidence, not a rule that outcomes reveal nothing or that all instruction is fraudulent. Reducing it requires broader comparison and causal investigation that the sources recommend in principle but do not operationalize.
+The sources identify the bias through practitioner observation rather than a measured sample of business cases, success teachers, imitators, or followers. The SJO essay's broad condemnation of gurus rests on selected anecdotes and linked commentary, and its claim that science is signal while gurus are noise understates bad measurement, biased data, and legitimate expertise. A winning organization's practice can genuinely contribute to success, a paid course can organize valuable knowledge, and a failed organization's practice can genuinely be defective; the bias concerns overgeneralization from outcome-selected evidence, not a rule that outcomes reveal nothing or that all instruction is fraudulent. Reducing it requires broader comparison and causal investigation that the sources recommend in principle but do not operationalize.
 
 ## What Changed
+- Added how winner-only motivational stories convert effort, persistence, practice hours, and intuition into false sufficiency claims that can produce risky action and self-blame.
 - Added the link between winner selection, surface imitation, and monetized claims that success is reproducible.
 - Created the concept from Sinofsky's warning that successful and failed business cases distort attribution in opposite directions.
 

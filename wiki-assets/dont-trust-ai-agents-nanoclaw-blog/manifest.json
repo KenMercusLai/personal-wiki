@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "dont-trust-ai-agents-nanoclaw-blog",
+  "images": [
+    {
+      "file": "openclaw-nanoclaw-code-size-treemap.jpg",
+      "alt": "Treemap compares an 839,234-line OpenClaw tree dominated by agents, extensions, gateway, infrastructure, commands, and configuration with a 3,968-line NanoClaw tree"
+    }
+  ]
+}
