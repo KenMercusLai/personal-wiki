@@ -532,12 +532,13 @@
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16",
       "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752",
-      "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313"
+      "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
+      "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1"
     ],
-    "paragraph_count": 532
+    "paragraph_count": 533
   },
-  "overview_commit": "c178e4871d233acc5355727bc2bde45b463f3644",
-  "overview_digest": "4033d1d7f783d1218a9ea693fd9b83c8b012e2ff44060396594b48ebbbb7b76a",
+  "overview_commit": "bc4f1080f9941af4cf86aae02ada65e7572333c9",
+  "overview_digest": "d258ea577440585461b2eb490dbbdef91840c98666b5a3a887c4af7fa988d4c6",
   "paragraphs": [
     {
       "id": "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
@@ -10761,6 +10762,21 @@
         "TechnicalDecisionReview",
         "TechnicalLeadershipRoleDesign",
         "UnderstandDesignBuild"
+      ]
+    },
+    {
+      "id": "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Vine essay sharpens the wiki's creator-platform synthesis by treating creator audiences as fragmented and partly portable rather than automatically locked into one social graph. [[Vine]] could mint prominent creators and command cultural attention, yet leading creators moved on as growth stagnated and monetization remained difficult. This broadens the [[CreatorGraduationProblem]] beyond creators building independent stacks or resisting take rates: creators can also graduate by reallocating effort toward another network that offers better economics. Audience creation is therefore only one retention input; durable creator platforms also need monetization, differentiated tools, demand, community, or other value that survives cross-platform switching. The source is a brief contemporary argument without comparative data, so it does not establish how much monetization caused Vine's decline relative to competition, product strategy, governance, or other factors.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "CreatorGraduationProblem",
+        "Vine"
       ]
     }
   ],

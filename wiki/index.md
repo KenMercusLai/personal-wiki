@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [For New Social Networks, Offering an Audience is No Longer Enough](sources/for-new-social-networks-offering-an-audience-is-no-longer-enough.md) - A 2016 essay uses Vine to argue that fragmented creator networks and monetization alternatives make creator churn a core social-platform risk.
 - [For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages](sources/for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages.md) - Scrapinghub frames large-scale product extraction as a coupled throughput-and-quality system spanning site change, pipeline separation, request efficiency, anti-bot operations, and automated QA.
 - [Flavors of Engineering Management](sources/flavors-of-engineering-management-thinking-inside-a-large-box.md) - Benjamin Encz compares functional tech-lead, cross-functional product-team, and people-focused engineering managers through their scope, ownership, evaluation, and accountability tradeoffs.
 - [Five principles for great interface copywriting](sources/five-principles-for-great-interface-copywriting-gv-library.md) - A GV Library essay treats clear, specific, direct interface language as design material that should be written and tested throughout prototyping.
@@ -1922,7 +1923,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Codex](entities/Codex.md) - OpenAI coding agent profiled through contrasting review-centered and high-autonomy practitioner workflows.
 - [Peter Steinberger](entities/PeterSteinberger.md) - Software developer running a high-throughput, CLI-first, coding-agent-centered solo workflow.
 
-- [Vine](entities/Vine.md) - Six-second looping-video platform whose emergent creator culture diverged from Twitter's preferred identity and business strategy.
+- [Vine](entities/Vine.md) - Six-second looping-video platform whose creator culture, weak monetization, and creator churn outpaced Twitter's strategy.
 - [Edsger W. Dijkstra](entities/EdsgerWDijkstra.md) - Dutch computer scientist who designed and published the greedy shortest-path algorithm bearing his name.
 - [iamtrask](entities/Iamtrask.md) - Source-scoped author handle teaching neural-network mechanics through compact, inspectable NumPy examples.
 - [Lencx](entities/Lencx.md) - Author analyzing OpenClaw runtime architecture, agent ecosystems, reusable context artifacts, economics, and security.
@@ -2716,7 +2717,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Creator Economy Startups](concepts/CreatorEconomyStartups.md) - Creator-monetization companies analyzed through distribution scarcity, power-law supply, take-rate pressure, and defensibility.
 - [Creator Power Law](concepts/CreatorPowerLaw.md) - Concentration pattern where a small number of creators capture most audience, earnings, and platform revenue.
 - [Link-In-Bio Competition](concepts/LinkInBioCompetition.md) - Zero-sum fight for scarce organic traffic from the prominent external link on a creator's social profile.
-- [Creator Graduation Problem](concepts/CreatorGraduationProblem.md) - Risk that successful creators outgrow a platform, pressure its take rate downward, or leave with their audience.
+- [Creator Graduation Problem](concepts/CreatorGraduationProblem.md) - Risk that successful creators outgrow, bypass, or redirect effort away from a platform while taking audience and revenue with them.
 - [Algorithmic Feast and Famine](concepts/AlgorithmicFeastAndFamine.md) - Spiky acquisition pattern created by dependence on social-feed algorithms and viral creator content.
 - [Digital Media Monetization](concepts/DigitalMediaMonetization.md) - Turning digital media audience attention, brands, platform distribution, commerce, and studio work into diversified revenue.
 - [Creator Positioning](concepts/CreatorPositioning.md) - Choosing a creator direction by defining audience, value, credibility, and a defensible point of view.

@@ -5606,3 +5606,11 @@ Added [[Scrapinghub]]'s historical practitioner account of [[LargeScaleWebScrapi
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | For New Social Networks, Offering an Audience is No Longer Enough
+
+Added a short 2016 argument that audience access alone cannot retain creators when their networks span multiple platforms and monetization alternatives are available. Updated [[Vine]] and [[CreatorGraduationProblem]] from their complete ordered evidence inventories, distinguishing cross-platform effort shifts from the later creator-independence and take-rate account. Preserved the source's limits as an unquantified contemporary interpretation of Vine rather than a causal study. The Markdown contains no image references, so no asset manifest was needed.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
