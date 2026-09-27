@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
       "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
       "868a969fe5e146f7de7450c6e1c67d45dfb6d3391b1f884f53224e2c5a3821ef",
       "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
@@ -532,11 +533,27 @@
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752",
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313"
     ],
-    "paragraph_count": 530
+    "paragraph_count": 531
   },
-  "overview_commit": "4dd44d3890d98e0a8bbbc6e273468b7e76723ff6",
-  "overview_digest": "357bdb9514875c8e0e51b04846d53ba3927ce9e8ebad3455c0821f82a2f02ca8",
+  "overview_commit": "25058369fba399b87e85708536900ec9b80e5214",
+  "overview_digest": "1fcec3fd95016d8ae1323a8fd873b4d3a10e4bdf61407de1a7c9c9cf37c80ecb",
   "paragraphs": [
+    {
+      "id": "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest GV Library source adds [[InterfaceCopywriting]] as functional product design rather than final-stage decoration. Task-critical language should prioritize clarity over raw brevity or conspicuous personality: distinguish actions such as filtering, searching, saving, and submitting; expand avoidable abbreviations; front-load labels; replace generic confirmation controls with explicit outcomes; and preview what a multi-page flow will ask next. Headlines, buttons, links, and field labels deserve disproportionate attention because people use them to understand and act, while supporting explanations can strengthen trust when they address relevant security, privacy, or company context. The source also extends [[GV]]'s test-oriented design profile: early prototypes should contain real copy so [[UserTesting]] or A/B experiments can revise language alongside interactions and visuals. The synthesis remains practitioner guidance, not a universal reading model or comparative experiment; comprehension varies by audience and context, longer explanations can add cognitive load, and the essay supplies no sample sizes or outcome measures. All four local images were opened and omitted as duplicate crops or tiny versions of the same hand-drawn web sketch whose reliable lesson is already repeated in the prose and caption.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "GV",
+        "InterfaceCopywriting",
+        "UserTesting"
+      ]
+    },
     {
       "id": "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
       "primary_topic": "business-and-markets",

@@ -5582,3 +5582,11 @@ Added an unnamed development lead's five-question protocol for reviewing technic
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Five principles for great interface copywriting
+
+Added a GV Library practitioner's five-part account of interface copy as functional design material. Created [[InterfaceCopywriting]] and updated [[GV]] from its complete ordered evidence inventory with action-specific wording, front-loaded labels, direct context, trust-supporting explanations, and realistic copy throughout prototypes and user tests. Preserved the limits of an unmeasured practitioner essay rather than treating its reading and prototype-performance claims as universal evidence. Opened all four local images and omitted them as duplicate crops or tiny versions of the same hand-drawn web sketch whose reliable lesson is already repeated in the prose and caption, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

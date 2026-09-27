@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Five principles for great interface copywriting](sources/five-principles-for-great-interface-copywriting-gv-library.md) - A GV Library essay treats clear, specific, direct interface language as design material that should be written and tested throughout prototyping.
 - [Five Lessons from Scaling Pinterest](sources/five-lessons-from-scaling-pinterest-sarah-tavel-medium.md) - Sarah Tavel connects Pinterest's metric, organization, user-segment, trust, and strategic-focus choices to scaling from roughly five to 650 employees.
 - [First Mover Disadvantage](sources/first-mover-disadvantage-avc.md) - Fred Wilson argues that first entry can ease initial dominance but sustaining leadership requires adaptive product, engineering, financial, organizational, and management capability.
 - [First Evidence That Online Dating Is Changing the Nature of Society](sources/first-evidence-that-online-dating-is-changing-the-nature-of-society-mit-technology-review.md) - A 2017 article links online dating's stranger connections to modeled interracial integration and marriage stability while preserving the gap between simulation, historical correlation, and causation.
@@ -1045,7 +1046,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jonathan Courtney](entities/JonathanCourtney.md) - AJ&Smart founding partner arguing for realistic prototype testing before lengthy research documentation on bounded product questions.
 - [AJ&Smart](entities/AJSmart.md) - Product-design consultancy whose reported process shifted from research-heavy engagements to five-day Design Sprints.
 - [Jake Knapp](entities/JakeKnapp.md) - Product-design practitioner whose writing introduced Courtney to GV's Design Sprint process.
-- [GV](entities/GV.md) - Organization credited in the source with the rapid prototype-and-test Design Sprint method.
+- [GV](entities/GV.md) - Organization represented through rapid prototype-and-test practice spanning Design Sprints, interface writing, and user research.
 - [Jakob Nielsen](entities/JakobNielsen.md) - Usability author and practitioner who defines five interface-quality dimensions and advocates early iterative user testing.
 - [Trevor McKendrick](entities/TrevorMcKendrick.md) - Essayist arguing that entrepreneurs should study long capability-building histories rather than polished company-origin anecdotes.
 - [Sam Walton](entities/SamWalton.md) - Retail operator whose 15 years of pre-Walmart experiments, failure recovery, and daily improvement challenge the overnight-success story.
@@ -1977,6 +1978,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Interface Copywriting](concepts/InterfaceCopywriting.md) - Design of labels, controls, instructions, and supporting text for clear action, context, trust, and iterative product testing.
 - [User Trust Capital](concepts/UserTrustCapital.md) - Accumulated goodwill from reliable product experiences and communication that shapes how users interpret failures and major changes.
 - [First-Mover Strategy](concepts/FirstMoverStrategy.md) - Turning uncontested early entry into durable market leadership through capability building, adaptation, and competitor learning.
 - [Online Dating Social Integration](concepts/OnlineDatingSocialIntegration.md) - Hypothesis that dating platforms add ties beyond existing social circles and can alter population-level partner matching.
