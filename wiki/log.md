@@ -5598,3 +5598,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages
+
+Added [[Scrapinghub]]'s historical practitioner account of [[LargeScaleWebScraping]] as a coupled throughput-and-data-quality system. Created Scrapinghub, [[Scrapy]], [[Frontera]], [[Crawlera]], and Large-Scale Web Scraping; updated [[WebScrapingProxyPool]] from its complete ordered evidence inventory with rotation, throttling, sessions, blacklisting, managed-service boundaries, and residual behavioral defenses. Preserved the first-party marketing boundary around volume, staffing, thresholds, tool recommendations, and anti-bot claims, plus the absence of legal, ethical, privacy, and target-impact analysis. The five Markdown embeds all resolve to the same HTML document mislabeled as a JPG; because it is duplicated, has no image metadata or alt text, and appears only at section breaks, it was omitted as non-evidentiary and no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

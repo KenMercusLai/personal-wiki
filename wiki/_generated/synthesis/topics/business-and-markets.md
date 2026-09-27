@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: 25058369fba399b87e85708536900ec9b80e5214
-input_digest: cbb9e98343f45590b7b11b55309a2e0fd3484c9a1e4c32a6bc3a00efcdb2a3aa
+as_of_overview_commit: c178e4871d233acc5355727bc2bde45b463f3644
+input_digest: b3c8a3296d4e596ec8d4bd97269c62f4ef2b87aab549d3b59da1f95ead79b158
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, growth, and interface-language practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[InterfaceCopywriting]] makes task-critical words part of product design and early testing rather than final-stage decoration. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[EmployeeTermination]] treats departure quality as a full organizational system spanning fair warning, secure offboarding, truthful communication, separation terms, and continuing relationships. [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[FirstMoverStrategy]], [[ProductImitationStrategy]], and [[FeatureCreep]] make market position, competitive response, and product breadth conditional on adaptive capability and coherent customer value rather than chronology or feature count. New [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias. [[SarahTavel]]'s [[Pinterest]] case links meaningful activation metrics, end-to-end team ownership, segment-aware request interpretation, accumulated user trust, and differentiated strategic focus as interacting scaling practices.
+Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, growth, and interface-language practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[LargeScaleWebScraping]] adds a high-volume data-operation case in which throughput, target change, anti-bot handling, and automated quality controls must be designed together rather than optimized independently. [[InterfaceCopywriting]] makes task-critical words part of product design and early testing rather than final-stage decoration. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[EmployeeTermination]] treats departure quality as a full organizational system spanning fair warning, secure offboarding, truthful communication, separation terms, and continuing relationships. [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. [[FirstMoverStrategy]], [[ProductImitationStrategy]], and [[FeatureCreep]] make market position, competitive response, and product breadth conditional on adaptive capability and coherent customer value rather than chronology or feature count. [[ProductManagerHiring]] translates broad PM accountability into stage-sensitive evidence, reciprocal evaluation, and motivation-aware closing, while remaining unvalidated and vulnerable to pedigree, access, charisma, and affinity bias. [[SarahTavel]]'s [[Pinterest]] case links meaningful activation metrics, end-to-end team ownership, segment-aware request interpretation, accumulated user trust, and differentiated strategic focus as interacting scaling practices.
 
 ## Cross-source Findings
 
@@ -1440,3 +1440,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 - The evidence is one first-person 2017 practitioner retrospective without counterfactual organizations, absolute growth series, experiment specifications, or controlled causal attribution.
 - The reported under-5% use of highly requested features has no feature-level dataset, and the five-positive-to-one-negative trust exchange rate is uncited hearsay rather than a calibrated operating threshold.
 - Future-user growth does not justify dismissing accessibility, safety, expert workflows, or material harms to established users, while full-stack ownership does not remove every need for platform or functional coordination.
+
+### Large Scale Scraping Couples Throughput And Quality
+
+[[LargeScaleWebScraping]] couples request throughput to data validity: [[Scrapinghub]] separates discovery through [[Frontera]] from heavier [[Scrapy]] extraction, minimizes unnecessary rendering and requests, manages proxy and anti-bot state, and monitors value, volume, error, and site-change signals so faster collection does not amplify bad data.
+
+**Evidence:** [[LargeScaleWebScraping]], [[Scrapinghub]], [[Frontera]], [[Scrapy]]
+
+**Qualifications:**
+
+- The evidence is a vendor-authored historical overview that promotes [[Crawlera]] and does not independently verify its page volumes, staffing ratios, failure rates, request threshold, or worker-sizing heuristic.
+- The source does not adequately address authorization, terms of service, robots.txt, copyright, privacy, jurisdiction, target-site impact, or governance of attempts to evade anti-bot controls.

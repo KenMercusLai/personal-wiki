@@ -4,7 +4,8 @@ type: concept
 tags: [web-scraping, proxy, operations, redis]
 sources:
   - blog-wulc-pa-chong-zhua-qu-dai-li-ip
-last_updated: 2026-09-15
+  - for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -12,15 +13,18 @@ knowledge_schema: synthesis-v1
 [[WebScrapingProxyPool]] is an operational pattern for collecting, storing, selecting, validating, and retiring proxy IP addresses used by web scrapers.
 
 ## Current Synthesis
-Wulc's source frames proxy handling as a lifecycle rather than a static list. A scraper can collect candidate IP-port pairs from public proxy pages, but those candidates only become useful after they are persisted, sampled, tested against the actual target site, and removed when they fail. The source also treats proxy acquisition as a rate-limited activity: scraping the proxy providers too quickly can trigger blocks and impose avoidable load on free services.
+Proxy handling is a lifecycle rather than a static list. At small scale, a scraper can collect candidate IP-port pairs from public proxy pages, persist them, sample them, validate them against the actual target, and remove failures. Acquisition itself must be paced because proxy sources can block aggressive collectors and free services can be harmed by excess load.
+
+At e-commerce scale, the pool becomes a broader request-routing operation. Rotation, request throttling, session continuity, blacklisting, target-specific validation, and monitoring all interact, while sophisticated behavioral defenses may still defeat an otherwise working proxy. This operational burden creates a build-versus-buy decision: a managed endpoint can hide fleet mechanics, but it does not remove site-specific anti-bot, compliance, or data-quality responsibilities.
 
 ## Key Claims
 - Proxy collection can itself be implemented as a scraper that parses proxy-list pages for IP and port fields.
-- Durable storage matters because in-memory proxy sets disappear when a scraper exits or crashes.
-- Random sampling from a stored set spreads attempts across available candidates.
+- Durable storage preserves candidates across process failures, while sampling spreads attempts across the stored pool.
 - Target-specific validation is necessary because a proxy that exists may still fail, time out, or be blocked by the desired destination.
 - Removing failed proxies keeps the pool from repeatedly selecting unusable candidates.
 - Sustainable proxy acquisition requires crawl pacing, not just maximal collection speed.
+- Large-scale proxy operations also require rotation, throttling, session management, blacklisting, and target-specific monitoring.
+- Managed proxy services can reduce internal infrastructure work but cannot guarantee access through sophisticated behavioral defenses.
 
 ## Evidence
 - Collection flow: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] describes parsing current-page table rows, storing proxies, then moving to the next page.
@@ -29,13 +33,18 @@ Wulc's source frames proxy handling as a lifecycle rather than a static list. A 
 - Target validation: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] tests proxies by trying to reach the intended target site with a timeout.
 - Eviction: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] removes proxies from storage when validation fails.
 - Crawl pacing: [[blog-wulc-pa-chong-zhua-qu-dai-li-ip]] recommends sleeping after each proxy-source page to reduce blocking and provider load.
+- Fleet operations: [[for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages]] names IP rotation, throttling, sessions, and blacklisting as necessary at high request volumes.
+- Managed service boundary: [[for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages]] recommends a single-endpoint provider when maintaining proxy infrastructure would distract from extraction and analysis.
+- Residual defenses: [[for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages]] says advanced sites also inspect JavaScript and behavioral signals, so proxies alone are insufficient.
 
 ## Counterevidence & Qualifications
-The source is a 2016 practical note, so its specific proxy-provider examples, Python 2 syntax, and assumptions about public free proxies should be treated as time-bound. It does not address legal constraints, robots.txt, paid proxy services, modern anti-bot systems, HTTPS proxy configuration, or privacy implications beyond operational availability.
+Wulc's source is a 2016 practical note, so its provider examples, Python 2 syntax, and assumptions about public free proxies are time-bound. The Scrapinghub source broadens the operational model but is a vendor-authored article that promotes its own managed service without independent cost or effectiveness evidence. Neither source establishes authorization to scrape or adequately addresses terms of service, robots.txt, copyright, privacy, jurisdiction, target-site impact, or the governance risks of evading access controls.
 
 ## What Changed
-- Created the concept from Wulc's proxy-scraping workflow.
+- Expanded the proxy lifecycle from public-candidate validation to rotation, throttling, sessions, blacklisting, managed services, and residual behavioral defenses.
 
 ## Related Concepts
 - [[Redis]] - storage substrate for reusable proxy candidates and random selection.
 - [[Python]] - implementation context for the scraping and proxy-validation examples.
+- [[LargeScaleWebScraping]] - broader operating system in which proxy routing must balance throughput, blocking risk, and data quality.
+- [[Crawlera]] - historical managed-service alternative to operating the proxy lifecycle internally.

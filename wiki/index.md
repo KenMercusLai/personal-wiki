@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [For E-Commerce Data Scientists: Lessons Learned Scraping 100 Billion Product Pages](sources/for-e-commerce-data-scientists-lessons-learned-scraping-100-billion-products-pages.md) - Scrapinghub frames large-scale product extraction as a coupled throughput-and-quality system spanning site change, pipeline separation, request efficiency, anti-bot operations, and automated QA.
 - [Flavors of Engineering Management](sources/flavors-of-engineering-management-thinking-inside-a-large-box.md) - Benjamin Encz compares functional tech-lead, cross-functional product-team, and people-focused engineering managers through their scope, ownership, evaluation, and accountability tradeoffs.
 - [Five principles for great interface copywriting](sources/five-principles-for-great-interface-copywriting-gv-library.md) - A GV Library essay treats clear, specific, direct interface language as design material that should be written and tested throughout prototyping.
 - [Five Lessons from Scaling Pinterest](sources/five-lessons-from-scaling-pinterest-sarah-tavel-medium.md) - Sarah Tavel connects Pinterest's metric, organization, user-segment, trust, and strategic-focus choices to scaling from roughly five to 650 employees.
@@ -708,6 +709,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Scrapinghub](entities/Scrapinghub.md) - Historical web-data-extraction company profile connecting Scrapy, Frontera, Crawlera, crawl engineering, and QA operations.
+- [Scrapy](entities/Scrapy.md) - Open-source crawling framework placed in Scrapinghub's historical large-scale extraction ecosystem.
+- [Frontera](entities/Frontera.md) - Crawl frontier used to queue discovered product URLs for separate extraction workers.
+- [Crawlera](entities/Crawlera.md) - Historical managed downloader promoted as an alternative to operating proxy infrastructure internally.
 - [Benjamin Encz](entities/BenjaminEncz.md) - Engineering leader represented through a three-part practitioner taxonomy of engineering-manager role design.
 - [Sarah Tavel](entities/SarahTavel.md) - Product leader represented through her first-person retrospective on scaling Pinterest's metrics, teams, product decisions, trust, and strategy.
 - [Josue Ortega](entities/JosueOrtega.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
@@ -1980,6 +1985,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Large-Scale Web Scraping](concepts/LargeScaleWebScraping.md) - High-volume extraction discipline that couples crawl throughput with maintenance, anti-bot resilience, and automated data-quality controls.
 - [Engineering Manager Role Design](concepts/EngineeringManagerRoleDesign.md) - Allocation of technical depth, people management, product ownership, evaluation, and accountability around engineering-team topology.
 - [Interface Copywriting](concepts/InterfaceCopywriting.md) - Design of labels, controls, instructions, and supporting text for clear action, context, trust, and iterative product testing.
 - [User Trust Capital](concepts/UserTrustCapital.md) - Accumulated goodwill from reliable product experiences and communication that shapes how users interpret failures and major changes.

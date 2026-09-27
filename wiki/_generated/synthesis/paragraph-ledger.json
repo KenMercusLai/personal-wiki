@@ -165,6 +165,7 @@
       "eafe0fec979c21e9a7fbbce3d73ccde8f16f2eaeaf145462e251808311502b39",
       "87839af36ebd4a98983dc1a6f504f2e30a83072724ec7e6b71ec443111b3acbf",
       "264264967f6099ce4807fe191f95d40c8b16feba16a4a544c16b098fa45ddb0f",
+      "92e98caec8a47fb8a486f3c78763914c07c44e100ed3f8db3284ce7c124658d9",
       "ed0b910c09f01f84b57e584c3f52c0e18a3038727a2989447708b7c2b165c40e",
       "baee6e0bd10aa4e2a267ef10d853fb6e23d4094c1c99cd21d01dedc45b93aa1a",
       "3d98a2f39e03c613ebf342860b17d464649bc95672d0c446ee4e47ed71f7f0c6",
@@ -533,10 +534,10 @@
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752",
       "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313"
     ],
-    "paragraph_count": 531
+    "paragraph_count": 532
   },
-  "overview_commit": "29554574df63616dc7f9fbd29eee5a17bb6982b7",
-  "overview_digest": "1fcec3fd95016d8ae1323a8fd873b4d3a10e4bdf61407de1a7c9c9cf37c80ecb",
+  "overview_commit": "c178e4871d233acc5355727bc2bde45b463f3644",
+  "overview_digest": "4033d1d7f783d1218a9ea693fd9b83c8b012e2ff44060396594b48ebbbb7b76a",
   "paragraphs": [
     {
       "id": "a15c409af9360bfbfeeb306311d5ea6370952c9f6ea46fc8ccf4f45fa580fa99",
@@ -3706,6 +3707,25 @@
         "AgentComputerInterface",
         "AgenticWorkflowPatterns",
         "ComputerUse"
+      ]
+    },
+    {
+      "id": "92e98caec8a47fb8a486f3c78763914c07c44e100ed3f8db3284ce7c124658d9",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "history-and-geopolitics"
+      ],
+      "text": "The newest [[Scrapinghub]] source adds [[LargeScaleWebScraping]] as the operational boundary around those extraction techniques. At product-catalog scale, throughput and data quality are coupled: changing layouts, regional variants, malformed responses, Ajax, and anti-bot systems make maintenance and QA recurring costs, while indiscriminate browser rendering or unnecessary product-page and image requests consume the crawl window. The proposed architecture separates discovery from extraction through [[Frontera]], assigns more capacity to the heavier extraction stage, uses configurable [[Scrapy]] spiders, and treats proxies as a lifecycle of rotation, throttling, sessions, blacklisting, and target-specific validation. Automated checks for value validity, cross-version consistency, record-volume anomalies, errors, and site changes close the loop. The evidence remains a vendor-authored historical overview that promotes [[Crawlera]] and does not independently validate its page counts, staffing ratios, thresholds, or legal and ethical controls.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "Crawlera",
+        "Frontera",
+        "LargeScaleWebScraping",
+        "Scrapinghub",
+        "Scrapy"
       ]
     },
     {

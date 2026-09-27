@@ -4,15 +4,15 @@ generated: true
 topic_id: history-and-geopolitics
 title: "History and Geopolitics"
 last_updated: 2026-09-28
-as_of_overview_commit: a53c19deb4520e20b1137ab323b629f7b9b5abf3
-input_digest: fa5c64311083c18d9ccf1b86fdd8e313bd14897806804e3cc59c6ab4c3cb4b65
+as_of_overview_commit: c178e4871d233acc5355727bc2bde45b463f3644
+input_digest: 6ee8727015fbe1bc4408d1579d45154ca12088fd4a79989a71d5985626a3d1cb
 ---
 
 # History and Geopolitics
 
 ## Current State
 
-[[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, and historical-learning material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]] paragraph is a 2016 media-history spillover whose substantive findings belong to business and community design; the [[ReplicatedLog]] and [[TwoPhaseCommit]] paragraphs are routing spillovers about technical history and durable protocol state, [[NotificationDesign]] contributes a source-scoped 2015 platform snapshot, and [[EventAnalyticsPipeline]] adds a source-scoped 2017 cloud-architecture and pricing snapshot; none is geopolitical evidence. [[EdsgerWDijkstra]] and [[DijkstrasAlgorithm]] add a bounded 1959 computer-science-history note, while the algorithmic walkthrough itself is technical spillover rather than geopolitical evidence. The [[FirstMileProductExperience]] paragraph is another historical product-design spillover rather than geopolitical evidence: it uses selected 2016-era consumer-product examples to argue for evolving newcomer orientation, while later product changes and absent measured outcomes limit historical transfer. The [[Asana]] paragraph is likewise a dated 2017 operations-history spillover whose substantive findings belong to reliability and observability, not geopolitics. The [[FastNetMon]] paragraph is a 2019 network-operations-history spillover: it records a CentOS 7, [[InfluxDB]], and [[Grafana]] monitoring stack whose durable lesson is the separation of detection from enforcement, not a geopolitical finding or current installation guide.
+[[EmailTaskManagement]] adds a technology-history spillover: a Labs-era [[Gmail]] interface records how one user assembled message states from configurable product primitives, but it is historical evidence rather than current setup guidance. The history and geopolitics topic currently contains technology, accounting, interface, organizational-memory, market-geography, media-obsolescence, historical-learning, and web-operations material rather than substantive geopolitical claims. Its strongest shared lesson is that visible products and practices preserve long lineages, hidden maturation, path-dependent conditions, and institutional context that should not be mistaken for reproducible recipes; [[DigitalPurchaseDurability]] adds that older media and apps may preserve past use value while compatibility and present usefulness decay. [[FounderOriginStories]] shows how [[SamWalton]]'s pre-[[Walmart]] apprenticeship disappears when history begins at the famous company, while [[BusinessCaseMethod]] and [[SurvivorshipBias]] add that outcome-selected cases can make every visible feature of a winner look transferable even when its effect depends on a larger organizational system. [[LuckAndEffortInSuccess]] adds a source-scoped attribution extension: birth conditions and extreme outcomes are historically contingent, while habits, learned judgment, and corrective effort can still shape trajectory without neutralizing structural constraints. [[ShanWeijian]], [[BillGates]], and [[Microsoft]] sharpen the historical-learning test by separating preparation and strategy from family position, timing, relationships, competitor error, and accidental opportunity. The [[Gawker]], [[ReplicatedLog]], [[TwoPhaseCommit]], [[NotificationDesign]], [[EventAnalyticsPipeline]], [[DijkstrasAlgorithm]], [[FirstMileProductExperience]], [[Asana]], [[FastNetMon]], and [[LargeScaleWebScraping]] paragraphs are dated media, protocol, platform, product, and operations spillovers whose substantive findings belong to other domains rather than geopolitical evidence.
 
 ## Cross-source Findings
 
@@ -221,3 +221,14 @@ The [[AndreasKlinger]] email workflow is product-history spillover: its historic
 
 - The paragraph is a dated technical-operations snapshot routed here through historical and routing language; it adds no substantive geopolitical evidence.
 - Its versions, commands, dashboard template, and FastNetMon syntax are historical, and its BGP or FlowSpec mitigation path was not tested.
+
+### Large Scale Scraping Is Operations History Spillover
+
+The [[LargeScaleWebScraping]] paragraph is a historical web-operations spillover: [[Scrapinghub]] records a period-specific stack of configurable spiders, crawl frontiers, proxy management, anti-bot work, and automated QA, while its substantive architecture and business lessons belong outside geopolitics.
+
+**Evidence:** [[LargeScaleWebScraping]], [[Scrapinghub]]
+
+**Qualifications:**
+
+- The source provides no geopolitical claim and appears in this topic only because its historical technology and organization vocabulary crosses the planner boundary.
+- Its vendor-authored scale, staffing, tool, and threshold claims are time-sensitive and independently unverified.

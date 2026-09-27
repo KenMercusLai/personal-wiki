@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 29554574df63616dc7f9fbd29eee5a17bb6982b7
+as_of_overview_commit: c178e4871d233acc5355727bc2bde45b463f3644
 summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, contextual fit, recovery, and learning."
-episode_count: 693
-source_count: 693
-paragraph_count: 531
+episode_count: 694
+source_count: 694
+paragraph_count: 532
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, system understanding, workloa
 
 ### Business and Markets
 
-Durable businesses align customer outcomes, coherent scope, clear interfaces, meaningful metrics, adaptive competitive capability, sustainable economics, governed distribution, accumulated trust, capital, learning, and risk discipline; most evidence remains contextual and practitioner-led.
+Durable businesses align customer outcomes, coherent scope, meaningful metrics, sustainable economics, governed distribution, accumulated trust, operating capability, and risk discipline. [[LargeScaleWebScraping]] adds that high-volume data operations must couple throughput with maintenance, anti-bot state, and automated quality controls.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
@@ -64,7 +64,7 @@ Authority, technical rules, data advantages, defaults, and delegated power requi
 
 ### History and Geopolitics
 
-Historical learning improves when it reconstructs lineages, institutions, geography, interfaces, and path dependence instead of copying visible winners as recipes; the current corpus contains little direct geopolitical evidence.
+Historical learning improves when it reconstructs lineages, institutions, interfaces, and path dependence instead of copying visible winners as recipes; the current corpus contains little direct geopolitical evidence, and its large-scale scraping material is a dated operations spillover rather than a geopolitical claim.
 
 ### Psychology and Personal Development
 
