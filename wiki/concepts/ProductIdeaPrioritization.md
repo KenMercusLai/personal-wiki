@@ -6,7 +6,8 @@ sources:
   - being-a-product-manager-how-to-get-your-products-built
   - building-products-the-year-of-the-looking-glass-medium
   - calculate-what-feature-to-build-next-baremetrics
-last_updated: 2026-09-26
+  - estimating-work-a-software-development-superpower-hackernoon-com-medium
+last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,14 +17,14 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources present prioritization as a pre-greenlight discipline for product teams with more ideas than development capacity. PMInsider emphasizes scoring ideas by potential impact on company KPIs and difficulty to build, then sorting them into growth, activation, engagement, reactivation, and revenue. Baremetrics makes customer evidence explicit through its DIE score: Demand represents repeated requests or observed problems, Impact asks how strongly the feature could move the company's current goal, and Effort captures the design, research, engineering, time, and money required. Lower combined scores rank more favorably, with high-demand, high-impact, XS-effort work as the ideal case.
 
-Building Products adds an upstream exploration discipline: before a team chooses a winner, it should go broad enough to expose non-obvious solutions, then use empirical evidence, higher-fidelity prototypes, and user reactions to narrow the set. Together, the sources make prioritization a business and learning argument rather than only a taste argument: a PM should be able to explain which scoreboard the idea moves, what customer evidence supports demand, why the expected behavior matters, what alternatives were considered, and what delivery tradeoff the team is accepting.
+Building Products adds an upstream exploration discipline: before a team chooses a winner, it should go broad enough to expose non-obvious solutions, then use empirical evidence, higher-fidelity prototypes, and user reactions to narrow the set. The software-estimation essay makes the effort side more inspectable: rather than accept one large duration guess, divide the project into phases and have several codebase-familiar engineers review the component estimates, blockers, and help needs. Together, the sources make prioritization a business and learning argument rather than only a taste argument: a PM should be able to explain which scoreboard the idea moves, what customer evidence supports demand, why the expected behavior matters, what alternatives were considered, and what delivery tradeoff the team is accepting.
 
 PMInsider's category list also keeps growth from collapsing into acquisition alone. Growth means signups and invite loops; activation means reaching the magic moment quickly; engagement means getting existing users to participate more often; reactivation means bringing dormant users back through channels such as push or email; and revenue means creating money while preserving the core user experience. Building Products adds that a thin exploration set is itself a warning sign: if a team cannot answer whether it considered another plausible solution, the prioritization process may have skipped the creative breadth needed before scoring or testing.
 
 ## Key Claims
 - Product teams need a way to choose among many plausible ideas before development is greenlit.
 - Strong scoring compares customer demand, KPI or goal impact, and build difficulty while treating unsupported hunches as weak demand evidence.
-- Coarse effort bands can reduce false precision when delivery estimates are inherently uncertain, but scores should structure judgment rather than automatically decide the roadmap.
+- Coarse effort bands can reduce false precision during early comparison; once a candidate needs a more credible resource decision, phase decomposition and review by codebase-familiar engineers can expose omitted work without turning the estimate into a guarantee.
 - Product ideas can be grouped by growth, activation, engagement, reactivation, and revenue.
 - Activation ideas depend on identifying the product's magic moment and accelerating new users toward it.
 - Reactivation work needs personalization, timing, and context so push or email messages do not become spam.
@@ -42,16 +43,19 @@ PMInsider's category list also keeps growth from collapsing into acquisition alo
 - DIE dimensions: [[calculate-what-feature-to-build-next-baremetrics]] evaluates each recorded idea through demonstrated demand, impact on the current company goal, and estimated effort.
 - Demand quality: [[calculate-what-feature-to-build-next-baremetrics]] rates recurring requests or observed customer problems above an unevidenced founder hunch.
 - Coarse effort: [[calculate-what-feature-to-build-next-baremetrics]] uses XS-to-XL bands to avoid overanalyzing uncertain estimates while allowing days or money as alternatives.
+- Decomposed effort: [[estimating-work-a-software-development-superpower-hackernoon-com-medium]] recommends splitting a project into phases and asking several codebase-familiar engineers to challenge the estimates, blockers, and help needs.
+- Capacity cost: [[estimating-work-a-software-development-superpower-hackernoon-com-medium]] connects schedule error to both added engineering cost and the opportunity cost of delaying other work.
 - Decision-aid boundary: [[calculate-what-feature-to-build-next-baremetrics]] says a lower score favors a feature but does not categorically make the decision.
 
 ## Counterevidence & Qualifications
-The sources are practitioner guidance, not formal prioritization frameworks with calibrated scoring, empirical weights, or controlled comparisons. Baremetrics provides endpoint examples of 3 and 11 but the supplied prose does not specify every rating-to-number mapping, validate the scale, or show that ordinal demand, impact, and effort judgments are commensurable. Customer requests can overrepresent vocal users, impact is hard to forecast, and effort estimates can be wrong. A five-bucket growth taxonomy may also miss risk reduction, infrastructure, quality, compliance, accessibility, or strategic-option work. Broad ideation can become theater if the team generates many weak options without evidence, constraints, or target-user clarity, while a neat score can conceal strategic dependencies or confidence differences among estimates.
+The sources are practitioner guidance, not formal prioritization frameworks with calibrated scoring, empirical weights, or controlled comparisons. Baremetrics provides endpoint examples of 3 and 11 but the supplied prose does not specify every rating-to-number mapping, validate the scale, or show that ordinal demand, impact, and effort judgments are commensurable. Customer requests can overrepresent vocal users, impact is hard to forecast, and effort estimates can be wrong even after decomposition: dependencies, integration, interruptions, changing scope, and correlated risks do not disappear when work is split into phases. Group review may also anchor on an initial estimate or suppress minority objections. A five-bucket growth taxonomy may miss risk reduction, infrastructure, quality, compliance, accessibility, or strategic-option work. Broad ideation can become theater if the team generates many weak options without evidence, constraints, or target-user clarity, while a neat score can conceal strategic dependencies or confidence differences among estimates.
 
 ## What Changed
 - Added explicit customer demand to KPI impact and build difficulty as a prioritization dimension.
 - Added DIE's lower-is-better ranking and its high-demand, high-impact, low-effort ideal.
 - Added coarse effort bands as a defense against false precision.
 - Clarified that scoring guides judgment rather than automatically choosing a roadmap.
+- Added phase decomposition and codebase-informed peer review as a deeper check when coarse effort bands are insufficient.
 
 ## Related Concepts
 - [[ProductManagement]] - product idea prioritization is one pre-greenlight responsibility of the PM.
@@ -62,3 +66,4 @@ The sources are practitioner guidance, not formal prioritization frameworks with
 - [[ProductLedRetention]] - activation, engagement, and reactivation ideas are retention-adjacent prioritization categories.
 - [[StartupHypothesisTesting]] - prioritized ideas become stronger when they are framed as testable assumptions.
 - [[CustomerLedProductDevelopment]] - customer requests and observed problems provide evidence for the demand dimension.
+- [[SoftwareEstimation]] - turns a candidate's effort dimension into inspectable phases, assumptions, and capacity trade-offs.

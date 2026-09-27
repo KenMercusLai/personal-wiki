@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Estimating Work: A Software Development Superpower](sources/estimating-work-a-software-development-superpower-hackernoon-com-medium.md) - A HackerNoon essay recommends phase-by-phase software estimates and review by codebase-familiar engineers while tying forecast error to cost and lost capacity.
 - [到底什么是时序数据库？](sources/eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku.md) - Eric Fu defines time-series data through named and labeled timestamp-value vectors, separates time- and label-axis operations, and uses the model to compare six database designs.
 - [Entrepreneurial Careers: Beyond the Fairy Tale Narrative](sources/entrepreneurial-careers-beyond-the-fairy-tale-narrative-by.md) - Adam Smith replaces the startup-to-acquisition fairy tale with a qualified map of founder roles, integration consequences, rest, serial entrepreneurship, investing, and larger-company work.
 - [Entrepreneurs Who Go It Alone — By Choice](sources/entrepreneurs-who-go-it-alone-by-choice-ideas-for-small-business-time.md) - Kristina Dell profiles Instapaper's path from a five-hour side project to a profitable one-person business built around offline reading, mixed revenue, and deliberate independence from investor growth expectations.
@@ -1869,6 +1870,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Software Estimation](concepts/SoftwareEstimation.md) - Forecasting delivery effort through inspectable decomposition, explicit assumptions, codebase-informed review, and uncertainty-aware resource judgment.
 - [Time Series Database](concepts/TimeSeriesDatabase.md) - Database model built around named and labeled timestamp-value vectors, temporal operators, and explicit alignment semantics.
 - [Entrepreneurial Career Paths](concepts/EntrepreneurialCareerPaths.md) - Branching founder transitions across operating, acquisition, rest, serial founding, investing, larger-company work, and retirement.
 - [Data Science Platform Engineering](concepts/DataSciencePlatformEngineering.md) - Horizontal services, abstractions, and safeguards that enable data scientists to own domain pipelines, algorithms, and APIs through production.

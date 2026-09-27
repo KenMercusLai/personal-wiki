@@ -5231,3 +5231,11 @@ Added Eric Fu's data-model-centered account of time-series databases: timestamp-
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Estimating Work: A Software Development Superpower
+
+Added a 2016 practitioner argument for phase-by-phase software estimation, peer review by engineers familiar with the codebase, and explicit treatment of schedule error as labor and opportunity cost. Created [[SoftwareEstimation]] and updated [[ProductIdeaPrioritization]] from its complete ordered evidence inventory, preserving coarse sizing for early comparison while adding decomposition as a deeper resource check and qualifying anchoring, correlated risks, changing scope, and the absence of forecast-accuracy evidence. Opened all three local image embeds and omitted them as duplicate renditions of one illustration whose large-estimate-versus-decomposed-estimates message is fully repeated in the prose.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-27
-as_of_overview_commit: b6bb1e6abc934fba7546744215729afb957e5293
+as_of_overview_commit: 516e56ef2cbe7f6131e2e53fdff926c78b118f12
 summary: "The atlas connects technology, markets, governance, culture, work, wellbeing, and privacy through calibrated evidence, capability, incentives, consent, and explicit boundaries."
-episode_count: 647
-source_count: 647
+episode_count: 648
+source_count: 648
 paragraph_count: 498
 topic_count: 9
 ---
