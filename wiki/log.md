@@ -5459,3 +5459,11 @@ Added [[BenThompson]]'s 2017 model of publishing unbundling: creator brands and 
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Fake designs yield real results
+
+Added a GV Library essay arguing that realistic self-directed design simulations can supply repetitions, stretch learners into work they are not yet trusted to perform, and create portfolio evidence that leads to paid opportunity. Created [[FakeDesignPractice]] and updated [[ProlificPractice]] from its complete ordered evidence inventory, while preserving the source's distinctions among self-directed fake work, freely chosen volunteer work, and client-extracted spec work. Qualified the retrospective examples by noting absent critique, untested and subjective redesign claims, selection effects, and the limits of simulation. Opened all four local images and omitted three duplicate decorative apple images plus one prose-repeating Mozilla/Firefox logo pair, so no asset manifest was created; also recorded the export's conflicting 2017-11-05 and 2017-11-13 publication dates.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

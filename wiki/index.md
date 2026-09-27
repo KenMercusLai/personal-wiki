@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Fake designs yield real results](sources/fake-designs-yield-real-results-gv-library.md) - A GV Library essay argues that realistic self-directed design simulations can build repetitions, stretch capability, create portfolio evidence, and teach constraints without becoming coerced spec work.
 - [Faceless Publishers](sources/faceless-publishers-stratechery-by-ben-thompson.md) - Ben Thompson argues that creator-owned brands can remain independent while a shared publisher supplies scalable technology, monetization, support, and business operations.
 - [Facebook’s shameless copying of Snapchat and what it means for your product strategy](sources/facebooks-shameless-copying-of-snapchat-and-what-it-means-for-your-product-strategy-product-habits.md) - Hiten Shah uses Facebook's Stories rollout and KISSmetrics' missed competitor responses to argue for customer-grounded imitation and faster competitive execution.
 - [Facebook’s algorithm isn’t surfacing one-third of our posts. And it’s getting worse](sources/facebooks-algorithm-isnt-surfacing-one-third-of-our-posts-and-its-getting-worse.md) - Kurt Gessler shows that the Chicago Tribune's growing Facebook audience masked a rapid increase in severe organic-reach misses, while leaving the cause unresolved.
@@ -1935,6 +1936,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Fake Design Practice](concepts/FakeDesignPractice.md) - Self-directed realistic design simulation used to build skill, test capability, and create portfolio evidence before paid opportunity exists.
 - [Product Imitation Strategy](concepts/ProductImitationStrategy.md) - Deliberate adoption or adaptation of a proven competitor move to close a customer-value gap.
 - [Depression and Social Media](concepts/DepressionAndSocialMedia.md) - Interaction between existing depression and reward seeking, attention, comparison, performative identity, intimacy, and platform boundaries.
 - [Open-Closed Platform Cycle](concepts/OpenClosedPlatformCycle.md) - Proposed pattern in which controlled platforms simplify adoption but later face pressure to open or be displaced by outside technologies and ecosystems.

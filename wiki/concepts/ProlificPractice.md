@@ -7,7 +7,8 @@ sources:
   - dont-make-it-perfect-make-it-work-and-refine-8th-light
   - drew-houstons-commencement-address-mit-news
   - evolving-as-an-artist-and-overcoming-art-block-talk-illustration
-last_updated: 2026-09-27
+  - fake-designs-yield-real-results-gv-library
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -23,8 +24,10 @@ Houston generalizes the action-before-readiness principle beyond software craft.
 
 Loish's paired drawings extend the model into visual art and add retrospective evidence as a motivational tool. Comparing 2004 work with 2016 redraws makes changes in anatomy, volume, gesture, detail, and line confidence visible, while permission to make a poor next piece lowers the stakes of restarting. The comparison supports a practice-and-feedback interpretation but does not prove that repetition alone caused the improvement.
 
+The fake-design case adds a career bridge. Self-directed simulations can create many repetitions, expose a learner to work they are not yet trusted to perform, and produce portfolio evidence that leads to a real opportunity. Its Verizon example also sharpens the quality boundary: a useful exercise preserves realistic data, copy, recovery paths, advertising, and organizational pressure, then tests the result with intended users when possible. Volume generates encounters with problems, but realism and feedback determine how much those encounters teach.
+
 ## Key Claims
-- Repeated making can improve quality more reliably than extended planning for one ideal artifact.
+- Repeated making, including self-directed simulations that can also build portfolio evidence, can improve quality more reliably than extended planning for one ideal artifact.
 - Prolific output is a learnable discipline rather than only a motivational slogan.
 - The thinking-doing gap grows when fear of failure turns into over-research, excessive questioning, or abstract theory.
 - Failure teaches best when work is small and specific enough that the lesson remains visible.
@@ -43,11 +46,16 @@ Loish's paired drawings extend the model into visual art and add retrospective e
 - Action-before-readiness: [[drew-houstons-commencement-address-mit-news]] argues that direct work creates faster learning after school and presents Houston's founder experiences as repeated cases of acting without feeling fully prepared.
 - Artistic progress retrospective: [[evolving-as-an-artist-and-overcoming-art-block-talk-illustration]] pairs Loish's 2004 and 2016 studies to make changes in volume, gesture, anatomy, detail, and line confidence visible.
 - Lowering the next attempt's stakes: [[evolving-as-an-artist-and-overcoming-art-block-talk-illustration]] argues that accepting an imperfect result can reduce fear and make playful creation possible again.
+- Repetitions before permission: [[fake-designs-yield-real-results-gv-library]] reports one hundred self-designed album covers and a fictional functioning e-commerce site as practice for work the author and team had not yet been hired to perform.
+- Portfolio conversion: [[fake-designs-yield-real-results-gv-library]] says the Coffee Cartel simulation helped the studio win a real retailer's e-commerce and inventory-system project.
+- Realism and testing boundary: [[fake-designs-yield-real-results-gv-library]] recommends realistic data, copy, recovery states, and organizational constraints, with representative-user testing as the strongest version of the exercise.
 
 ## Counterevidence & Qualifications
-All four sources are practitioner or motivational essays rather than controlled studies of craft learning or decisions. Their advice fits settings where small artifacts can be made cheaply, reversed, and reviewed quickly; high-risk production systems, safety-critical work, public interfaces, persistent-data changes, and work with large financial, ethical, or coordination costs may require stronger planning, review, and verification before making. The 8th Light sources retain explicit quality controls, while Houston's broader “failure doesn't matter” rhetoric should be read as encouragement against perfectionism rather than a literal risk model. Loish's selected before-and-after drawings demonstrate change but cannot separate repetition from instruction, feedback, maturation, elapsed time, or selection.
+All five sources are practitioner or motivational essays rather than controlled studies of craft learning or decisions. Their advice fits settings where small artifacts can be made cheaply, reversed, and reviewed quickly; high-risk production systems, safety-critical work, public interfaces, persistent-data changes, and work with large financial, ethical, or coordination costs may require stronger planning, review, and verification before making. The 8th Light sources retain explicit quality controls, while Houston's broader “failure doesn't matter” rhetoric should be read as encouragement against perfectionism rather than a literal risk model. Loish's selected before-and-after drawings demonstrate change but cannot separate repetition from instruction, feedback, maturation, elapsed time, or selection. The fake-design account likewise relies on retrospective career examples: its album covers lacked external critique, its Verizon redesign was untested, and its estimated improvement was subjective. Simulations cannot fully reproduce accountability to real users, production systems, stakeholders, or consequential failure.
 
 ## What Changed
+- Added realistic self-directed simulation as a way to accumulate repetitions, stretch into not-yet-authorized work, and build portfolio evidence.
+- Clarified that volume alone is insufficient when the exercise removes real constraints or lacks meaningful feedback and testing.
 - Extended repeated making into visual-art development through paired work across time.
 - Added retrospective self-comparison as a way to expose accumulated progress and restart blocked practice.
 - Clarified that before-and-after work cannot establish repetition as the sole cause of improvement.
@@ -63,3 +71,4 @@ All four sources are practitioner or motivational essays rather than controlled 
 - [[IterativeRefinement]] - turns a provisional implementation into a better design through inspection and improvement.
 - [[CareerPlanning]] - direct attempts can test whether a problem, field, or working style fits before a long commitment is knowable.
 - [[ArtBlock]] - low-stakes repeated making can interrupt expectation-driven creative inhibition.
+- [[FakeDesignPractice]] - uses fictional or unsolicited projects as a permissionless setting for repeated making and career evidence.
