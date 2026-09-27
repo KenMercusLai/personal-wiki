@@ -16,6 +16,7 @@ sources:
   - yesterdays-failures-are-todays-successes-learning-by-shipping
   - andrew-chen-startups-need-dual-theories-on-distribution-and-product-market-fit
   - diligence-at-social-capital-part-1-accounting-for-user-growth
+  - feature-product-fit-casey-accidental
 last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
@@ -30,11 +31,13 @@ The 2016 Learning By Shipping essay adds a context layer that the other sources 
 
 Hsu's [[UserGrowthAccounting]] framework adds a diagnostic layer beneath the headline traction measures. A rising MAU curve can come from improving retention or from enough new and resurrected users to replace heavy churn, so the topline alone cannot distinguish a compounding product from an acquisition-dependent one. Decomposing growth into new, retained, resurrected, and churned users makes retention quality and the burden of replacement visible before a team or investor interprets growth as fit.
 
+Company-level fit does not become a blanket endorsement of every later addition. A retention, eventual-monetization, and acquisition-economics view of fit can be adapted into [[FeatureProductFit]]: each feature needs retained use and scalable adoption while improving, or at least not harming, the core product. Product-market fit therefore changes the work but does not end validation; established products still need segment-specific experiments and whole-product countermetrics.
+
 ## Key Claims
 - Hiring too early can create burn, inertia, and career-process concerns before the company knows what works.
 - Evidence of product love can matter more than broad but weak adoption, but love and usage still need supporting growth, monetization, or production economics.
 - Product-market fit changes the CEO role toward hiring, strategy, culture, growth direction, and experienced leaders for repeatable business processes.
-- Revenue scaling and new verticals or geographies become important after fit.
+- Revenue scaling, new verticals or geographies, and feature-level validation become important after fit.
 - Pre-fit sales and founder-market proximity should preserve learning about problems, willingness to pay, solution shape, and whether the founder's own pain is repeatable in a larger market.
 - Revenue from a service path can obscure whether the technology product has found its own market.
 - A durable solution must solve a real problem in a way competitors cannot easily replicate; pre-fit teams must diagnose whether the bottleneck is product, retention, growth, or transactions, decompose topline active-user growth before treating it as fit evidence, and co-design product mechanics and channel choice so organic demand can support scaled acquisition.
@@ -82,6 +85,10 @@ Traction quality beneath topline growth:
 - [[diligence-at-social-capital-part-1-accounting-for-user-growth]] defines net MAU change as new plus resurrected minus churned users and uses `(new + resurrected) / churned` as an inflow-to-loss diagnostic.
 - [[diligence-at-social-capital-part-1-accounting-for-user-growth]] argues that improving retention should generally precede aggressive acquisition when the product loses most users it adds.
 
+Validation after fit:
+- [[feature-product-fit-casey-accidental]] recaps product-market fit as retention, monetization potential, and scalable profitable acquisition, then argues that later features still need their own retention and adoption evidence plus favorable core-product outcomes.
+- [[feature-product-fit-casey-accidental]] warns that feature usage created through broad forced exposure can reduce activation, retention, or communication-channel value elsewhere.
+
 ## Counterevidence & Qualifications
 The sources often assume venture-style startups where fast growth becomes possible and desirable after fit, though the Shopify-app case is more bootstrapped and cash-flow oriented. They do not define a quantitative threshold for product-market fit, and the right hiring pace, executive timing, or retention target may differ for regulated, enterprise, service-heavy, content-heavy, consumer, capital-intensive, or platform-dependent companies. Maderight shows that some customer demand may validate a service business while leaving the software product's fit unresolved. Hardbound shows that visible love and engagement may still be insufficient for a venture path if growth, revenue, or supply-side economics do not close. Scout shows the opposite caution: organic usage and positive reviews are encouraging, but a free product still leaves willingness to pay unresolved. ClassPass shows that marketplace fit may be highly transaction-specific: users can love variety while suppliers still need a business model that works for them. Retention is a strong fit signal, but it can lag, be cohort-sensitive, or miss cases where infrequent use still represents high value. Grady's comments, Lonsdale's timing advice, Bashaw's investor summaries, Kadakia's retrospective, and Iqbal's Shopify-app results are founder/investor interpretations rather than controlled tests.
 
@@ -93,12 +100,14 @@ Chen's dual-theories model is also practitioner guidance, not comparative channe
 
 Hsu's framework is likewise investor-practitioner guidance built from fictional examples. Its user-growth quick ratio and retention ranges are descriptive heuristics rather than validated fit thresholds, and the output depends on the active-user definition, measurement window, seasonality, identity resolution, cohort mix, and natural usage frequency. Decomposed user growth still does not establish willingness to pay, unit economics, market size, or overwhelmed demand.
 
+Winters's three-part recap is another practitioner definition rather than a reconciled threshold, and it is looser than Seibel's overwhelmed-demand test. The source does not show that its retention, monetization, and acquisition components are jointly sufficient for fit, nor does company-level fit guarantee that a new feature creates incremental value rather than redistributing existing behavior.
+
 ## What Changed
-- Added ClassPass as a marketplace case where repeated transactions per person, not press or raw attention, made product-market fit legible.
 - Added Seibel's drowning-in-demand definition and the presumed-fit scaling failure it is meant to prevent.
 - Added the marketing-mix definition of execution and the claim that the enabling technology context partly decides when fit becomes possible.
 - Added distribution as a coupled hypothesis and clarified why product value reasserts itself in expensive scaled channels.
 - Added user-growth decomposition to distinguish durable retention from acquisition that merely replaces churn beneath the same topline MAU curve.
+- Added the post-fit requirement that new features prove their own adoption and retention without damaging core-product outcomes.
 
 ## Related Concepts
 - [[MinimumViableProduct]] - MVPs can generate early evidence before product-market fit.
@@ -117,3 +126,4 @@ Hsu's framework is likewise investor-practitioner guidance built from fictional 
 - [[IdeaVersusExecution]] - the essay's claim that a remembered idea is not evidence of execution is the same distinction at the level of individual credit.
 - [[StartupDistributionStrategy]] - distribution is a co-designed hypothesis that carries fit from first users into scaled channels.
 - [[UserGrowthAccounting]] - decomposes active-user growth before the topline is treated as evidence of fit.
+- [[FeatureProductFit]] - carries fit-style validation into post-fit feature decisions and whole-product countermetrics.

@@ -5483,3 +5483,10 @@ Added [[HitenShah]]'s argument that feature count is a weak diagnosis: coherent 
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+## [2026-09-28] ingest | Feature/Product Fit
+
+Added [[CaseyWinters]]'s feature-level fit framework: repeat use and scalable adoption are necessary but insufficient unless the feature also improves, or at least does not damage, the core product's retention, engagement, or monetization. Created Casey Winters, [[Grubhub]], and [[FeatureProductFit]]; updated [[Pinterest]] and [[ProductMarketFit]] from their complete ordered evidence inventories. Preserved the framework's absent thresholds and causal specifications, its selected retrospective evidence, and the strategic exception for neutral cannibalization. Opened the duplicated remote screenshot through the article's migrated media copy, retained one canonical version showing a customer reporting a broken Grubhub app through Twitter, and omitted the duplicate header placement.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

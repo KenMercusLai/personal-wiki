@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Feature/Product Fit](sources/feature-product-fit-casey-accidental.md) - Casey Winters argues that features need their own retention and scalable adoption while improving, or at least not harming, the core product.
 - [Feature Creep Isn’t the Real Problem](sources/feature-creep-isnt-the-real-problem-product-habits.md) - Hiten Shah reframes feature creep as a symptom of weak value execution or committee-driven incentives and argues that coherent breadth depends on segment outcomes and one product promise.
 - [FastNetMon+Grafana监控网段流量及DDoS预警](sources/fastnetmon-grafana-jian-kong-wang-duan-liu-liang-ji-ddos-yu-jing.md) - A historical CentOS 7 walkthrough connects FastNetMon threshold detection and callbacks to InfluxDB metric storage and a Grafana traffic dashboard while leaving BGP mitigation untested.
 - [Fake designs yield real results](sources/fake-designs-yield-real-results-gv-library.md) - A GV Library essay argues that realistic self-directed design simulations can build repetitions, stretch capability, create portfolio evidence, and teach constraints without becoming coerced spec work.
@@ -692,6 +693,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Casey Winters](entities/CaseyWinters.md) - Product and growth practitioner represented through a feature/product-fit framework and Grubhub and Pinterest cases.
+- [Grubhub](entities/Grubhub.md) - Food-delivery company represented through early mobile conversion, incentive, and support experiments.
 - [Neil Patel](entities/NeilPatel.md) - Crazy Egg cofounder represented here through his limited role in the failed Vision Web Hosting project.
 - [Vision Web Hosting](entities/VisionWebHosting.md) - Unreleased shared-hosting project used as Hiten Shah's first-person case of committee-driven product drift and loss.
 - [FastNetMon](entities/FastNetMon.md) - Network-traffic analyzer represented through threshold detection, response hooks, and Graphite metric export.
@@ -1942,6 +1945,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Feature/Product Fit](concepts/FeatureProductFit.md) - Feature-level test requiring repeat use, scalable adoption, and positive or neutral impact on the core product.
 - [Feature Creep](concepts/FeatureCreep.md) - Incoherent capability accumulation diagnosed through relevance to segment outcomes and product promise rather than raw feature count.
 - [DDoS Traffic Monitoring](concepts/DDoSTrafficMonitoring.md) - Staged observation, threshold detection, notification, historical metric storage, visualization, and separately controlled mitigation of attack-like network traffic.
 - [Fake Design Practice](concepts/FakeDesignPractice.md) - Self-directed realistic design simulation used to build skill, test capability, and create portfolio evidence before paid opportunity exists.
