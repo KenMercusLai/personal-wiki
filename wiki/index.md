@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Evernote is what happens when you mix VC with a Notes app](sources/evernote-is-what-happens-when-you-mix-vc-with-a-notes-app.md) - A competitor-authored 2016 essay uses Evernote to argue that venture growth and exit pressure can undermine focus, reliability, privacy, and long-term note custody.
 - [Evan Spiegel’s Most Underrated Skill](sources/evan-spiegels-most-underrated-skill-product-hunt.md) - A 2017 Product Hunt essay presents Snapchat's mapping, hardware, lens, avatar, search, computer-vision, and code features as products of acquisition-led capability building.
 - [Evaluating Delusional Startups](sources/evaluating-delusional-startups.md) - Zach Holman proposes interview-stage warning signs around promised riches, blame, colleague contempt, product complacency, and hatred of competitors.
 - [What I think about when I edit](sources/eva-parish-what-i-think-about-when-i-edit.md) - Eva Parish presents intent-first, audience-aware editing through precise language, explicit agency, useful context, consistent tone, and scan-friendly structure.
@@ -667,6 +668,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
+- [Standard Notes](entities/StandardNotes.md) - Open-source, private, cross-platform note project promoted as a long-horizon alternative to Evernote.
 - [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader framed through acquisition-led product capability building, with causal attribution kept qualified.
 - [Zach Holman](entities/ZachHolman.md) - Startup practitioner presenting behavioral and cultural signals for evaluating prospective employers.
 - [Stewart Butterfield](entities/StewartButterfield.md) - Slack leader used as a source-scoped example of dissatisfaction with a successful product's current state.
@@ -1882,6 +1885,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Venture-Backed Growth Pressure](concepts/VentureBackedGrowthPressure.md) - Incentive risk that external equity and expected liquidity can make expansion or exit more salient than a smaller stable product.
 - [Editing for Clarity](concepts/EditingForClarity.md) - Intent-first revision that reduces ambiguity across language, reader context, tone, and visual structure.
 - [Production Ownership](concepts/ProductionOwnership.md) - Continuing responsibility for observing, operating, and improving software after the people who build it deploy it.
 - [PERT Estimation](concepts/PERTEstimation.md) - Three-scenario estimation method that makes optimistic, realistic, and pessimistic conditions, risk, and team disagreement explicit.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "632ae35e6fe1550d4522c2b6a8b0fb07b441ee78aef315a05771fe67887dd96b",
       "96821f5efcc97b5ce5661e2703418da9699f00f822c342bf6b7ec45d128e3108",
       "58dd17cbadcaa9972f48c72a400a95e1622c2d2980c1474ee9731eb9fafafe2f",
       "e3340fbe40ccac78a3141f707058162d20ebca092f44b42c1275d7be778730c7",
@@ -504,11 +505,31 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
     ],
-    "paragraph_count": 502
+    "paragraph_count": 503
   },
-  "overview_commit": "d1ac03b9e8b85d29382c2a5798e0bd6da8b017d3",
-  "overview_digest": "76a0bf6144a707259d69fd9fe5c113751635fea774b54170050dc96ab273cb81",
+  "overview_commit": "92ca265b4f3df6a1d7742dcb8bce72629d0a7bcf",
+  "overview_digest": "f22feed8017182de71fb430dbbba8ea04a813ef83274a9b8a68d2ecb8d05b81b",
   "paragraphs": [
+    {
+      "id": "632ae35e6fe1550d4522c2b6a8b0fb07b441ee78aef315a05771fe67887dd96b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest Evernote essay adds [[VentureBackedGrowthPressure]] as a governance-risk hypothesis: outside equity and expected liquidity can make continued scale, valuation growth, acquisition, or IPO more salient than a smaller stable product. [[Evernote]] is the source's negative case, with alleged bloat, bugs, note-access failures, performance problems, and a privacy-policy controversy used to argue that users bear the cost when growth outruns reliability and stewardship. The source also extends [[ExitAsGovernance]] into data-bearing consumer software. Because notes may preserve identity and memory across decades, a credible exit requires advance contingency planning and preservation of access, not merely the existence of a competing app; [[StandardNotes]] is promoted as the author's open-source, private, cross-platform alternative. The causal and competitive boundaries are substantial: the essay was written by that alternative's builder, offers no internal Evernote evidence or comparison group, treats IPO, acquisition, and financing failure as a non-exhaustive rhetorical trilemma, and does not test Standard Notes' portability, security, funding, reliability, or longevity. Its financing thesis is therefore an incentive-risk lens rather than proof that venture capital caused Evernote's problems. Both unique local images were opened and omitted because they are full-size and thumbnail versions of the same metaphorical crouched-elephant painting rather than independent evidence.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Evernote",
+        "ExitAsGovernance",
+        "StandardNotes",
+        "VentureBackedGrowthPressure"
+      ]
+    },
     {
       "id": "96821f5efcc97b5ce5661e2703418da9699f00f822c342bf6b7ec45d128e3108",
       "primary_topic": "business-and-markets",

@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-27
-as_of_overview_commit: 04e02a6469b900a5ad0be17a44bc5f5f13e48397
-input_digest: 8f994b28965b19d70a5e9b61bfe53da6d82b2aa61827531805744dd268535cd7
+as_of_overview_commit: 92ca265b4f3df6a1d7742dcb8bce72629d0a7bcf
+input_digest: 13dbca1fe40552da54ffb3567aceef5a81031f4a1060cb9a5c686f0b16e57261
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] now adds observed [[StartupCulture]] to company fundamentals: assured employee-wealth promises, blame, colleague contempt, product complacency, and competitor hatred are qualified prompts for deeper investigation, not validated predictors.
+[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] now adds observed [[StartupCulture]] to company fundamentals: assured employee-wealth promises, blame, colleague contempt, product complacency, and competitor hatred are qualified prompts for deeper investigation, not validated predictors.
 
 ## Cross-source Findings
 
@@ -317,9 +317,9 @@ Business and markets sources show durable value depending on customer outcomes, 
 
 ### Capital Incentives Shape Company Behavior
 
-[[BootstrappedCompanyBuilding]], [[ZebraCompanies]], and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: [[DavidSpinks]] contrasts [[Feast]], where fundability became an operating goal, with customer-funded [[CMX]], while [[StefLewandowski]] and [[EmilyQuinton]] add [[Makelight]], where a hosted-service course test, consulting income, preorders, membership, and customer listening preserved early optionality but cash-flow constraints later reopened angel, crowdfunding, and debt choices; [[ZebrasUnite]] extends the principle by arguing that durable profit-and-purpose companies need compatible time horizons, ownership, governance, and peer infrastructure rather than unicorn-style pressure alone.
+[[BootstrappedCompanyBuilding]], [[ZebraCompanies]], and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: [[DavidSpinks]] contrasts [[Feast]], where fundability became an operating goal, with customer-funded [[CMX]], while [[StefLewandowski]] and [[EmilyQuinton]] add [[Makelight]], where a hosted-service course test, consulting income, preorders, membership, and customer listening preserved early optionality but cash-flow constraints later reopened angel, crowdfunding, and debt choices. [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible capital, and [[VentureBackedGrowthPressure]] adds the qualified risk that exit expectations can make expansion more salient than stable stewardship, using [[Evernote]] as an interested rather than causal case.
 
-**Evidence:** [[BootstrappedCompanyBuilding]], [[DavidSpinks]], [[Feast]], [[CMX]], [[StefLewandowski]], [[EmilyQuinton]], [[Makelight]], [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]]
+**Evidence:** [[BootstrappedCompanyBuilding]], [[DavidSpinks]], [[Feast]], [[CMX]], [[StefLewandowski]], [[EmilyQuinton]], [[Makelight]], [[ZebraCompanies]], [[MissionAlignedCapital]], [[ZebrasUnite]], [[VentureBackedGrowthPressure]], [[Evernote]], [[StandardNotes]]
 
 **Qualifications:**
 
@@ -327,6 +327,7 @@ Business and markets sources show durable value depending on customer outcomes, 
 - Lewandowski's Makelight figures are unaudited founder-reported 2016 snapshots without margins, acquisition cost, retention, founder-labor accounting, or later outcomes; the case also depended on complementary founder skills, an existing audience, consulting income, preorders, and household tolerance for unstable cash flow.
 - The zebra evidence is a 2017 movement-building manifesto rather than comparative evidence that zebra companies outperform conventional startups or that the proposed funding instruments produce better returns or social outcomes.
 - The manifesto’s demographic funding shares and impact-investment market size are historical and methodologically undocumented in the captured text, while bootstrapped, profit-and-purpose, or impact labels do not by themselves prove aligned governance, inclusion, durability, or impact.
+- The [[Evernote]] critique is a polemical competitor-authored essay without internal decision evidence, a comparison group, or a causal test connecting venture finance to the alleged product, reliability, access, and privacy problems; it also does not test [[StandardNotes]]' durability.
 
 ### No Code Automation Connects Specialized Tools
 

@@ -4534,6 +4534,10 @@ Added Stef Lewandowski's 2016 account of turning Emily Quinton's photography tea
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-27] ingest | Evernote is what happens when you mix VC with a Notes app
+
+Added a polemical 2016 critique linking [[Evernote]]'s alleged bloat, reliability and access problems, privacy controversy, and uncertain continuity to [[VentureBackedGrowthPressure]]. Created Evernote, [[StandardNotes]], and Venture-Backed Growth Pressure; updated [[ExitAsGovernance]] from its complete ordered evidence inventory to include data-preserving consumer-software contingency planning. Preserved the boundaries that the competitor-authored essay does not establish VC causation, offers a non-exhaustive three-path forecast, and does not independently test Standard Notes' promises. Opened both unique local image files and omitted the full-size crouched-elephant painting plus its duplicate thumbnail as metaphorical rather than evidentiary.
+
 ## [2026-09-27] ingest | Entrepreneurs Who Go It Alone — By Choice
 
 Added Kristina Dell's 2011 profile of [[MarcoArment]] and [[Instapaper]], connecting a five-hour lost-link prototype, evening offline-iPhone development, mixed paid-app/advertising/subscription revenue, and a revenue-backed departure from [[Tumblr]] to [[SideProjectIncubation]], [[ReadLaterProduct]], [[SoloFounding]], and [[BootstrappedCompanyBuilding]]. Updated the two entity pages and four concept pages from their complete ordered evidence inventories, treating profitability, 1.8 million users, and the one-person structure as a historical journalistic snapshot rather than a representative or permanent outcome. The duplicated remote lead image could not be opened because the retired TIME image host did not resolve, so no image-derived claim or asset was retained.
@@ -5275,6 +5279,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-27] ingest | Evan Spiegel’s Most Underrated Skill
 
 Added a 2017 Product Hunt account of acquisition-led product building at Snapchat, covering Zenly, Vergence Labs, Looksery, Bitstrips, Vurb, Seene, and the purchase behind Snapcodes. Created [[EvanSpiegel]] and updated [[Snapchat]] and [[AcquisitionStrategy]] from their complete ordered evidence inventories, while qualifying personal attribution, selected-success bias, integration costs, internal follow-on work, and unmeasured returns. Opened all six unique local images, omitted two portrait/branding images and one repeated non-specific promotional GIF, and retained three product examples for face lenses, Bitmoji messaging, and World Lenses under descriptive canonical filenames with a complete manifest.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-27] lint | Wiki health check
 
