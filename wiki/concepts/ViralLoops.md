@@ -6,7 +6,8 @@ sources:
   - 51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses
   - 9-ways-to-build-virality-into-your-product-gabor-cselle-medium
   - being-a-product-manager-how-to-get-your-products-built
-last_updated: 2026-09-14
+  - finding-your-startups-customer-acquisition-channels
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -16,14 +17,12 @@ knowledge_schema: synthesis-v1
 ## Current Synthesis
 The sources present viral loops as product-mediated distribution, not ordinary word of mouth. [[Hotmail]] and [[Mailchimp]] attach product exposure to outgoing messages, [[Dropbox]] and [[GoodEggs]] use two-sided referral rewards, [[LinkedIn]] and [[Twitter]] make public metrics into status targets, [[Slack]], [[GoogleDocs]], and [[Airtable]] make collaboration invitations part of core value, and [[Instagram]], [[Pinterest]], [[Lyft]], [[TripAdvisor]], [[Spotify]], and [[NestCam]] show how artifacts, links, embeds, widgets, and visible hardware can expose non-users. [[GaborCselle]]'s taxonomy sharpens the earlier growth-hacking examples by separating incentive loops, vanity loops, collaboration loops, embed loops, social or messaging artifacts, signatures, first-message onboarding, and highly visible hardware.
 
-A product-management prioritization lens adds a warning: invite loops should be built only when the core experience is already sticky enough that users can invite friends without feeling spammy or embarrassed. Two-sided incentives can help, as with [[Uber]]'s ride-credit example, but both inviter and invitee need to feel real value. These loops still need recipient relevance, low-friction conversion, and a product good enough to retain the users who arrive.
+A product-management prioritization lens adds a warning: invite loops should be built only when the core experience is already sticky enough that users can invite friends without feeling spammy or embarrassed. Two-sided incentives can help, as with [[Uber]]'s ride-credit example, but both inviter and invitee need to feel real value. The channel-selection source further separates generic referral prompts from amplification of an existing behavior: people already ride together, pay one another, collaborate, share files, or observe branded products in public. Incentives can increase the frequency or speed of that behavior, while badges, signatures, uniforms, stickers, and visible hardware can make private or ambiguous use legible to non-users. These loops still need recipient relevance, low-friction conversion, cohort-quality economics, and a product good enough to retain the users who arrive.
 
 ## Key Claims
-- Viral loops work when sharing is a natural part of using the product rather than a separate campaign.
-- Public artifacts such as profiles, badges, embeds, links, and sent messages can become acquisition surfaces.
-- Offline visibility can create similar curiosity loops when product use is socially noticeable.
-- Incentives can strengthen a viral loop when both sender and recipient receive relevant value.
-- Incentivized invite loops should wait until the core product is good and sticky enough to justify invitation.
+- Viral loops work when sharing amplifies an existing social behavior, creates enough value or social capital for the user, and remains a natural part of product use rather than a separate campaign.
+- Public artifacts such as profiles, badges, embeds, links, sent messages, and socially noticeable offline use can become acquisition surfaces.
+- Incentives can strengthen a viral loop when both parties receive relevant value, the core product is sticky enough to justify invitation, and cohort-adjusted economics include cannibalization and gaming.
 - Collaboration loops work when inviting another person unlocks more product value for the inviter.
 - Viral-loop examples are vulnerable to hindsight bias when sources do not measure conversion paths directly.
 
@@ -35,13 +34,18 @@ A product-management prioritization lens adds a warning: invite loops should be 
 - Badge, widget, and embed loops: [[51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses]] presents [[TripAdvisor]] review badges, Skyscanner widgets, and [[Spotify]] widgets as link-generating and account-generating distribution; [[9-ways-to-build-virality-into-your-product-gabor-cselle-medium]] adds tweets and YouTube videos embedded on trusted sites.
 - Artifact and visibility loops: [[9-ways-to-build-virality-into-your-product-gabor-cselle-medium]] uses [[Instagram]], [[Pinterest]], [[Lyft]], [[Square]], and [[NestCam]] to show shared outputs, messaging links, and visible hardware as discovery surfaces.
 - Offline curiosity: [[51-examples-of-growth-hacking-strategies-techniques-from-the-worlds-most-innovative-businesses]] frames [[Shazam]] users holding phones to speakers and Urban Spoon's shake gesture as visible behaviors that prompt questions from bystanders.
+- Existing behavior and social capital: [[finding-your-startups-customer-acquisition-channels]] uses rides, payments, file sharing, shared meals, and visible scooters to argue that loops should amplify behavior already inherent in the product.
+- Referral test economics: [[finding-your-startups-customer-acquisition-channels]] recommends starting from cohort-adjusted LTV, accounting for cannibalization and gamers, then testing a break-even incentive before optimizing CAC.
+- Public exposure: [[finding-your-startups-customer-acquisition-channels]] describes badges, window stickers, uniforms, branded equipment, signatures, and free-tier branding as ways to make use visible beyond the current customer.
 
 ## Counterevidence & Qualifications
-The sources rarely supply funnel-level evidence for each loop. Some cases may have grown because of product utility, novelty, market timing, press, search ranking, or advertising support. Viral loops can also decay when platforms restrict sharing surfaces, users perceive invitations as spam, recipients no longer find the artifact novel, or the product fails to convert and retain users after exposure. Incentives are especially fragile when the reward substitutes for product value instead of amplifying it.
+The sources rarely supply funnel-level evidence for each loop. Some cases may have grown because of product utility, novelty, market timing, press, search ranking, or advertising support. Viral loops can also decay when platforms restrict sharing surfaces, users perceive invitations as spam, recipients no longer find the artifact novel, or the product fails to convert and retain users after exposure. Incentives are especially fragile when the reward substitutes for product value instead of amplifying it. The newest source's claim that every large social network scaled through virality is an illustrative generalization, and some cited cold-start or visibility tactics involved unauthorized content, automation, or platform gaming that should not be treated as acceptable current practice.
 
 ## What Changed
-- Added Cselle's nine-part taxonomy and the qualification that conversion and loyalty still depend on product quality.
-- Added PMInsider's warning that incentivized invites require a sticky core experience and real two-sided value.
+- Added existing social behavior and social-capital effects as referral-design tests.
+- Added cohort-adjusted LTV, cannibalization, and incentive gaming to paid-referral economics.
+- Expanded visible-use loops from hardware to badges, uniforms, signatures, and free-tier branding.
+- Added ethical and evidentiary limits to historical cold-start examples.
 
 ## Related Concepts
 - [[GrowthHacking]] - viral loops are one of its recurring mechanisms.
@@ -49,3 +53,6 @@ The sources rarely supply funnel-level evidence for each loop. Some cases may ha
 - [[ProductMarketFit]] - a loop spreads faster when recipients actually value the product.
 - [[MobilePlatformDiscovery]] - app and mobile surfaces influence how loops are exposed.
 - [[SaaSMarketing]] - SaaS products often use invitations, shared artifacts, and embeds for acquisition.
+- [[CustomerAcquisitionCost]] - paid referrals need a cohort-adjusted acquisition-cost model.
+- [[CustomerLifetimeValue]] - incentive ceilings depend on the value of referred cohorts, not overall average value.
+- [[StartupDistributionStrategy]] - virality is one channel family whose fit depends on product mechanics and user behavior.

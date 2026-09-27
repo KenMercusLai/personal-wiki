@@ -5530,3 +5530,11 @@ Added a practitioner framework for selective developer learning, lifecycle-aware
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Finding Your Startup's Customer Acquisition Channels
+
+Added a practitioner framework for choosing acquisition channels from customer economics, buying behavior, product mechanics, and company stage rather than indiscriminate tactic testing. Created [[LawnStarter]] and updated [[StartupDistributionStrategy]], [[CustomerAcquisitionCost]], [[CustomerLifetimeValue]], and [[ViralLoops]] from their complete ordered evidence inventories. Preserved the source-scoped nature of its 3:1 LTV:CAC, six-month payback, 12-18 month SEO, SMB cold-calling, and virality claims, and flagged spam, consent, voting, platform-policy, and search-manipulation concerns in several historical scrappy tactics. The sole local image reference resolves to an HTML Bluehost "Account Suspended" page mislabeled as PNG, so it could not be interpreted as the intended image and no asset or manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Finding Your Startup's Customer Acquisition Channels](sources/finding-your-startups-customer-acquisition-channels.md) - A practitioner framework maps customer economics, buying behavior, product mechanics, and company stage to paid, search, sales, content, referral, and scrappy acquisition tactics.
 - [Finding Time to Become a Better Developer](sources/finding-time-to-become-a-better-developer.md) - A practitioner essay links selective learning, lifecycle-aware code quality, expectation management, risk-sensitive refinement, and scheduled recovery to sustainable developer effectiveness.
 - [Finances for CS Ph.D. students](sources/finances-for-cs-ph-d-students.md) - David Andersen gives 2016 U.S. CS doctoral students an optionality-focused plan spanning spending, internship savings, Roth eligibility, liquidity, debt, insurance, housing, and low-cost index funds.
 - [Realtime Editing of Ordered Sequences](sources/figma-realtime-editing-of-ordered-sequences.md) - Figma explains why its multiplayer editor uses arbitrary-precision fractional positions instead of operational transformation for ordered object lists.
@@ -699,6 +700,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [LawnStarter](entities/LawnStarter.md) - Local-services startup used as a case for bridging early Yelp and Groupon traction to sustained paid-channel experimentation.
 - [David Andersen](entities/DavidAndersen.md) - Computer-science professor and adviser represented through his 2016 financial-planning guide for U.S. CS Ph.D. students.
 - [Kirsten Weir](entities/KirstenWeir.md) - Psychology writer represented through a 2013 synthesis of research, clinicians, and graduate-student accounts of impostor feelings.
 - [Pauline Rose Clance](entities/PaulineRoseClance.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through its perfectionism cycle and good-enough response.
