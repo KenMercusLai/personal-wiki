@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Everything You Need to Know About What Amazon Is Doing in Financial Services](sources/everything-you-need-to-know-about-what-amazon-is-doing-in-financial-services.md) - CB Insights frames Amazon's mid-2018 payments, cash, lending, cards, insurance, and fintech investments as commerce-ecosystem infrastructure rather than a conventional universal bank.
 - [Everything You Need To Know About Startup Recruitment](sources/everything-you-need-to-know-about-startup-recruitment-rocketshp.md) - ROCKETSHP connects hiring need and role design with sourcing, screening, evidence, pipeline management, onboarding, culture, and retention while exposing dated and bias-prone tactics.
 - [Evernote is what happens when you mix VC with a Notes app](sources/evernote-is-what-happens-when-you-mix-vc-with-a-notes-app.md) - A competitor-authored 2016 essay uses Evernote to argue that venture growth and exit pressure can undermine focus, reliability, privacy, and long-term note custody.
 - [Evan Spiegel’s Most Underrated Skill](sources/evan-spiegels-most-underrated-skill-product-hunt.md) - A 2017 Product Hunt essay presents Snapchat's mapping, hardware, lens, avatar, search, computer-vision, and code features as products of acquisition-led capability building.
@@ -1087,7 +1088,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chrome](entities/Chrome.md) - Google browser product criticized in the Firefox campaign source as a dominant route into Google's advertising-centered web power.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented by power-aware reviews, time stewardship, and systematic workplace information seeking.
-- [CB Insights](entities/CBInsights.md) - Startup and venture research publisher and SaaS/data company represented by failure-postmortem research plus Anand Sanwal's operating retrospective.
+- [CB Insights](entities/CBInsights.md) - Startup, venture, and market-intelligence publisher represented by failure research, company-strategy analysis, and Anand Sanwal's operating retrospective.
 - [Anand Sanwal](entities/AnandSanwal.md) - CB Insights founder/CEO voice behind the 54 startup screwups retrospective.
 - [Bob Belderbos](entities/BobBelderbos.md) - Python educator and author represented here by practical advice on clear, small, testable functions.
 - [PyBites](entities/PyBites.md) - Python education and community context for Bob Belderbos's function-quality article.
@@ -1177,8 +1178,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [San Jose State University](entities/SanJoseStateUniversity.md) - University partner in the Udacity online-course study discussed as an early higher-education MOOC analytics case.
 - [Google Course Builder](entities/GoogleCourseBuilder.md) - Google's online-course platform example where activity completion was linked with final-project completion.
 - [edX](entities/EdX.md) - MOOC platform represented through HarvardX course-log analyses and big-data learning-research claims.
-- [Amazon Go](entities/AmazonGo.md) - Amazon's cashierless physical-store experiment combining app identity, AI, cameras, sensors, grocery learning, and payments.
-- [Amazon Prime](entities/AmazonPrime.md) - Amazon's membership system linking retail frequency, subscriptions, fulfillment, entertainment, sellers, and physical stores.
+- [Amazon Go](entities/AmazonGo.md) - Amazon's cashierless physical-store experiment combining app identity, AI, cameras, sensors, grocery learning, and ambient payment.
+- [Amazon Prime](entities/AmazonPrime.md) - Amazon's membership system linking retail frequency, subscriptions, fulfillment, entertainment, sellers, physical stores, and financial rewards.
 - [Forbes](entities/Forbes.md) - Business publication context for the Bezos Unbound interview and Amazon strategy profile.
 - [Jeff Wilke](entities/JeffWilke.md) - Amazon consumer and retail executive quoted on experimentation failure and Kindle-era hardware learning.
 - [DZone](entities/DZone.md) - Software-development publication represented by practitioner articles on API error handling and pragmatic code quality.
@@ -1268,7 +1269,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Eastgate Centre](entities/EastgateCentre.md) - Harare building used as a biomimetic architecture example for innovation at intersections.
 - [Benjamin Jones](entities/BenjaminJones.md) - Economist cited for the burden-of-knowledge argument behind complementary-team innovation.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
-- [Amazon](entities/Amazon.md) - Retail and logistics giant framed by Above Avalon as a trillion-dollar contender with a strong utility-like market narrative but no exemption from corporate fragility.
+- [Amazon](entities/Amazon.md) - Retail, infrastructure, and ecosystem company using internal capabilities and partners across commerce, cloud, logistics, and financial services.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
 - [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, business strategy, psychology, optionality, and behavioral risk judgment.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and investing-firm context for essays on durable strategy, behavioral judgment, repeatable learning, and person-strategy fit.
@@ -2291,7 +2292,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Procedural Rationality](concepts/ProceduralRationality.md) - Rational-looking organizational procedure that can signal legitimate work even when substantive purpose or output is unclear.
 - [Informal Collaboration](concepts/InformalCollaboration.md) - Spontaneous useful coordination or idea generation that continues only while it has value.
 - [MOOC Learning Analytics](concepts/MOOCLearningAnalytics.md) - Analysis of online-course behavioral logs and outcomes, with a caution that massive clickstream data can be reduced to thin activity-achievement correlations.
-- [Amazon Capability-Led Expansion](concepts/AmazonCapabilityLedExpansion.md) - Strategy pattern where Amazon turns internal capabilities into external products, adjacent markets, or cross-business systems.
+- [Platform-Embedded Financial Services](concepts/PlatformEmbeddedFinancialServices.md) - Payments, credit, rewards, cash access, or insurance designed primarily to deepen participation in a platform's core ecosystem.
+- [Amazon Capability-Led Expansion](concepts/AmazonCapabilityLedExpansion.md) - Strategy pattern where Amazon turns internal capabilities into external products, adjacent markets, cross-business systems, or partnered ecosystem infrastructure.
 - [Multiple Paths to Yes](concepts/MultiplePathsToYes.md) - Bezos's Amazon decision model for giving reversible ideas many internal sponsorship paths while slowing irreversible bets.
 - [API Error Handling](concepts/APIErrorHandling.md) - Practice of designing API failures so clients can understand, recover from, or escalate errors using status codes, messages, and documentation.
 - [Versatile Web Stack Fluency](concepts/VersatileWebStackFluency.md) - Broad web-development competence grounded in protocols, servers, operations, encodings, caching, and integration boundaries rather than only framework names.

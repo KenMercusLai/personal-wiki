@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-27] ingest | Everything You Need to Know About What Amazon Is Doing in Financial Services
+
+Added CB Insights' mid-2018 analysis of Amazon's payments, cash access, lending, cards, insurance activity, and international fintech investments. Created [[PlatformEmbeddedFinancialServices]]; updated [[Amazon]], [[AmazonGo]], [[AmazonPrime]], [[AmazonCapabilityLedExpansion]], and [[CBInsights]] from their complete ordered evidence inventories. Preserved the distinction between Amazon-owned experience and distribution versus partner-owned regulated or physical capabilities, and between launched products, investments, patents, and rumors. Opened all three local images, omitted the decorative cover, and retained the Amazon Go cashierless example and India-centered fintech investment map under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-27] ingest | Evaluating Delusional Startups
 
 Added Zach Holman's 2016 candidate-side screen for startup delusion. Created [[ZachHolman]] and [[StewartButterfield]], and updated [[StartupJobDiligence]] and [[StartupCulture]] from their complete ordered source inventories with qualified warning signals around guaranteed-riches recruiting, blame across hierarchy, contempt for colleagues, product complacency, and hatred of competitors. Preserved the distinction between necessary startup conviction and grandiosity, and between accountability and humiliation; the essay is an anecdotal practitioner argument rather than a validated predictor of company performance. The source Markdown contains no image references, so no visual asset or manifest was required.
@@ -5291,6 +5295,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-27] ingest | Everything You Need To Know About Startup Recruitment
 
 Added ROCKETSHP's 2017 end-to-end startup recruiting handbook, connecting the hire-versus-contractor decision and outcome-based role definition with employer positioning, multi-channel sourcing, screening, work evidence, pipeline management, onboarding, culture, and retention. Updated [[HiringSystemDesign]] from its complete ordered evidence inventory, while preserving direct contradictions around affinity-based cultural-fit tests, personality screening, burdensome auditions, overbroad generalist advice, and the incorrect claim that dilution makes existing shares worthless. All 23 remote image references were unavailable from the origin and had no local copies, so their charts, diagrams, and screenshots could not be inspected or retained and no visual evidence was used.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-27] lint | Wiki health check
 

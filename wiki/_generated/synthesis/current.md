@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-27
-as_of_overview_commit: 48733f01a13c7490478ad9703d2f39635998c2fb
+as_of_overview_commit: 69d1eca0cf743e24e7ef4fe6d792cb8f0e4f8a70
 summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, capability, consent, and recoverable boundaries."
-episode_count: 655
-source_count: 655
-paragraph_count: 504
+episode_count: 656
+source_count: 656
+paragraph_count: 505
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, explicit ownership, evaluated cont
 
 ### Business and Markets
 
-Durable value depends on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, and risk discipline; financing choices can change what growth and stewardship mean. [[HiringSystemDesign]] now extends role and team definition across candidate acquisition, evidence-based selection, onboarding, and retention, while subjective cultural fit and historical tactics remain qualified.
+Durable value depends on customer outcomes, sustainable economics, governed distribution, aligned capital, operating capability, and risk discipline; platform-embedded finance adds a partnered route for reinforcing core commerce.
 
 - [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity. Evidence: [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]].
 - [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments. Evidence: [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]].
@@ -57,7 +57,7 @@ Culture and media emerge from form, infrastructure, audience practice, editing, 
 
 ### Governance and Institutions
 
-Rules and delegated authority work through incentives, information, consent, enforcement, recourse, staged access, transparency, accountability, and credible data-preserving alternatives.
+Rules and delegated authority work through incentives, information, consent, enforcement, recourse, staged access, transparency, accountability, and credible alternatives.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
@@ -81,7 +81,7 @@ Heterogeneous evidence in science, health, and climate requires careful measurem
 
 ### Work, Education, and Society
 
-Work, education, and social systems need accessible entry points, feedback, judgment, consent, role clarity, fair incentives, and boundaries around attention, power, and responsibility. [[HiringSystemDesign]] now joins role clarity with candidate acquisition, structured evidence, onboarding, and retention, while affinity-based fit tests and burdensome trials require fairness controls.
+Work, education, and social systems need accessible entry points, feedback, judgment, consent, role clarity, fair incentives, and boundaries around attention, power, and responsibility.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].

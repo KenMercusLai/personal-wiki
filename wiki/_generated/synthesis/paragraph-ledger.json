@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e4599bc574f21802933db23a677d47efe35383a85c5afac033adde3510f3df95",
       "25cc91033cc476b2ee1c02430d1685eff59d9cbfdfdd00b5bae62208f27bdccc",
       "632ae35e6fe1550d4522c2b6a8b0fb07b441ee78aef315a05771fe67887dd96b",
       "96821f5efcc97b5ce5661e2703418da9699f00f822c342bf6b7ec45d128e3108",
@@ -506,11 +507,32 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
     ],
-    "paragraph_count": 504
+    "paragraph_count": 505
   },
-  "overview_commit": "48733f01a13c7490478ad9703d2f39635998c2fb",
-  "overview_digest": "b0dd46f8d3533001552222b33f1d50ade08057ff05841fc219a662fc363dbabf",
+  "overview_commit": "69d1eca0cf743e24e7ef4fe6d792cb8f0e4f8a70",
+  "overview_digest": "55dd8efc5dcb26d93a95f9cc0adb16605c3acc25c8b7514e5fcb34c95d8c7a0c",
   "paragraphs": [
+    {
+      "id": "e4599bc574f21802933db23a677d47efe35383a85c5afac033adde3510f3df95",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[CBInsights]] source adds [[PlatformEmbeddedFinancialServices]] as a model of finance serving a platform's primary ecosystem rather than becoming a universal bank. In its mid-2018 snapshot, [[Amazon]] used Amazon Pay, cash-loading routes, seller lending, Prime-linked cards, and insurance distribution to add buyers and sellers, increase their activity, and reduce transaction friction. The architecture was partnered rather than wholly vertically integrated: banks, card networks, retailers, kiosks, insurers, and local fintech companies supplied regulated balance-sheet or physical capabilities while Amazon controlled much of the interface, selection, rewards, and distribution. This extends [[AmazonCapabilityLedExpansion]] beyond AWS-like externalization because a capability can create value mainly by reinforcing Amazon's own commerce system. [[AmazonGo]] makes that integration tangible by absorbing checkout into app identity, computer vision, sensors, machine learning, and payment; the retained store image explicitly emphasizes “no lines, no checkout.” The retained investment map shows the 2008-June 2018 fintech portfolio concentrated in India across payments, lending, comparison tools, and insurance. The synthesis remains historical and evidence-tiered: Amazon Local Register shows that low fees could not overcome merchant concern about sharing data with a retail competitor, no causal analysis proves that every product increased commerce, and checking accounts, mortgages, home or health insurance, cryptocurrency work, a fintech charter, and buying a bank were rumors or prospective scenarios rather than established launches. The decorative cover was omitted, while both evidence-bearing images were retained at their semantic positions.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 7,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "Amazon",
+        "AmazonCapabilityLedExpansion",
+        "AmazonGo",
+        "CBInsights",
+        "PlatformEmbeddedFinancialServices"
+      ]
+    },
     {
       "id": "25cc91033cc476b2ee1c02430d1685eff59d9cbfdfdd00b5bae62208f27bdccc",
       "primary_topic": "work-education-and-society",

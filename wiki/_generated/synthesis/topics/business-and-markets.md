@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-27
-as_of_overview_commit: 48733f01a13c7490478ad9703d2f39635998c2fb
-input_digest: f62a688d0e2e90eecacb8f6edcd890e5bcb1884f0276c0cfe40aa8e456d464d8
+as_of_overview_commit: 69d1eca0cf743e24e7ef4fe6d792cb8f0e4f8a70
+input_digest: df3b8105400f71a6e5b6df918d0b43ecdf7275c9e258b4db991a75a2f5dc3413
 ---
 
 # Business and Markets
 
 ## Current State
 
-[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] now adds observed [[StartupCulture]] to company fundamentals: assured employee-wealth promises, blame, colleague contempt, product complacency, and competitor hatred are qualified prompts for deeper investigation, not validated predictors.
+[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] now adds observed [[StartupCulture]] to company fundamentals: assured employee-wealth promises, blame, colleague contempt, product complacency, and competitor hatred are qualified prompts for deeper investigation, not validated predictors. [[PlatformEmbeddedFinancialServices]] now adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure rather than requiring a universal bank.
 
 ## Cross-source Findings
 
@@ -439,13 +439,14 @@ input_digest: f62a688d0e2e90eecacb8f6edcd890e5bcb1884f0276c0cfe40aa8e456d464d8
 
 ### Capability Led Platforms Turn Operations Into Markets
 
-[[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], and [[EnterpriseCloudMigration]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, physical-retail technology, and database self-reliance into adjacent market expansion and supplier displacement.
+[[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[EnterpriseCloudMigration]], and [[PlatformEmbeddedFinancialServices]] show Amazon turning internal capabilities, reversible experimentation, cloud profits, membership economics, physical-retail technology, database self-reliance, and partnered financial infrastructure into adjacent markets, supplier displacement, or deeper commerce participation. The financial-services case separates Amazon-controlled interfaces, selection, rewards, and distribution from bank, card-network, retailer, insurer, and fintech capabilities it did not wholly own.
 
-**Evidence:** [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]], [[EnterpriseCloudMigration]], [[Oracle]], [[AmazonAurora]]
+**Evidence:** [[AmazonCapabilityLedExpansion]], [[MultiplePathsToYes]], [[AWS]], [[AmazonPrime]], [[AmazonGo]], [[Amazon]], [[EnterpriseCloudMigration]], [[Oracle]], [[AmazonAurora]], [[PlatformEmbeddedFinancialServices]], [[CBInsights]]
 
 **Qualifications:**
 
-- The Amazon evidence combines a 2018 Forbes profile that largely presents Bezos's strategic self-description with a 2018 CNBC report based partly on unnamed migration sourcing; it does not settle later antitrust, labor, privacy, healthcare, advertising, physical-store, cloud-competition, or Oracle-migration outcomes.
+- The Amazon evidence combines a 2018 Forbes profile that largely presents Bezos’s strategic self-description, a 2018 CNBC report based partly on unnamed migration sourcing, and a mid-2018 CB Insights portfolio report; it does not settle later profitability, antitrust, labor, privacy, credit, physical-store, cloud-competition, or Oracle-migration outcomes.
+- The financial-services report mixes launches, company figures, third-party estimates, investments, partnerships, patents, and explicitly labeled rumors; it does not causally show that each product increased ecosystem activity, and checking, mortgage, insurance, cryptocurrency, charter, and bank-acquisition scenarios were not established launches.
 
 ### Product Management Integrates Outcomes
 
