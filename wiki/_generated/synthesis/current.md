@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 42d85eac648e823336dd9b9bc80c017a225a4f7c
+as_of_overview_commit: 3f6b0d5bb13bd89cb05aaf40edef58372f1ae10e
 summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, value, ownership, incentives, consent, and contextual fit."
-episode_count: 680
-source_count: 680
-paragraph_count: 520
+episode_count: 681
+source_count: 681
+paragraph_count: 521
 topic_count: 9
 ---
 
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress needs calibrated evidence, explicit ownership, evaluated context and retrieval, verification, accountable judgment, and recoverable lifecycle controls.
+Technical progress needs calibrated evidence, workload-fit architecture, explicit ownership, verification, accountable judgment, and recoverable lifecycle controls.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
@@ -57,7 +57,7 @@ Culture and media emerge from form, infrastructure, practice, editing, governanc
 
 ### Governance and Institutions
 
-Rules, data advantages, product scope, and delegated authority require explicit ownership, fair process, protected feedback, staged controls, recourse, transparency, consent, and credible alternatives.
+Rules, data advantages, technical arbitration, product scope, and delegated authority require explicit ownership, fair process, staged controls, recourse, transparency, consent, and credible alternatives.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].

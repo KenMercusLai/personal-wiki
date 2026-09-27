@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "collaborative-convergence-needs-explicit-arbitration-boundaries",
+      "qualifications": [
+        "The source does not specify how the server selects and disseminates replacement positions, handles failure or malicious clients, or reconciles offline replicas.",
+        "Central collision repair is one workload-specific control, not proof that all collaborative editors should centralize ordering authority."
+      ],
+      "statement": "[[RealtimeCollaborativeEditing]] makes arbitration authority part of technical governance: [[Figma]] lets [[FractionalIndexing]] absorb ordinary concurrent ordering but relies on the server to repair identical positions, while its rejection of [[OperationalTransformation]] shows that stronger edit semantics must be weighed against implementation and verification burden.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RealtimeCollaborativeEditing",
+        "Figma",
+        "FractionalIndexing",
+        "OperationalTransformation"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "feature-scope-needs-organizational-governance",
       "qualifications": [
         "The evidence is a founder retrospective without project records, accounts from other contributors, or comparative evidence that committee dynamics were the sole cause of failure.",

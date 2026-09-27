@@ -5498,3 +5498,11 @@ Added [[KirstenWeir]]'s 2013 account of the impostor phenomenon, broadening [[Im
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Realtime Editing of Ordered Sequences
+
+Added Figma's first-party explanation of multiplayer ordered-sequence editing: clients apply edits locally, the system requires convergence across different arrival orders, and bounded design-object lists use arbitrary-precision fractional positions instead of operational transformation. Created [[RealtimeCollaborativeEditing]], [[OperationalTransformation]], and [[FractionalIndexing]], and updated [[Figma]] from its complete ordered evidence inventory. Preserved the workload-specific tradeoffs around index growth, concurrent interleaving, identical-position repair, OT complexity, and the absence of a complete protocol or failure study. Opened and retained both local diagrams at their semantic positions with descriptive canonical filenames: one traces OT transformation across two clients and a server, and the other shows before, between, and after insertion through fractional positions.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

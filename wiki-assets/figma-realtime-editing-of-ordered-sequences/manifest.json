@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "figma-realtime-editing-of-ordered-sequences",
+  "images": [
+    {
+      "file": "operational-transformation-concurrent-edits.png",
+      "alt": "Sequence diagram showing an insert and delete transformed across two clients and a server so both documents converge"
+    },
+    {
+      "file": "fractional-indexing-insertions.png",
+      "alt": "Ordered objects receiving fractional positions for insertions between, before, and after existing items"
+    }
+  ]
+}

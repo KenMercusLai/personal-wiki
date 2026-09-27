@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "collaborative-ordering-should-match-workload",
+      "qualifications": [
+        "The evidence is one first-party 2017 Figma explanation without a complete protocol, benchmark, offline reconciliation model, compaction design, or failure study.",
+        "Fractional positions can grow, interleave concurrent inserts, and collide; text, huge sequences, atomic multi-object operations, or serverless peers may require different guarantees."
+      ],
+      "statement": "[[RealtimeCollaborativeEditing]] needs convergence without assuming one universal sequence algorithm: [[Figma]] chose [[FractionalIndexing]] for bounded ordered design objects because insertion and movement usually change one position, while [[OperationalTransformation]] retains advantages for large text sequences and non-interleaved concurrent insertion at the cost of more operation-pair logic.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RealtimeCollaborativeEditing",
+        "Figma",
+        "FractionalIndexing",
+        "OperationalTransformation"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "end-user-computing-supports-task-centered-programming-literacy",
       "qualifications": [
         "The evidence is one 2013 practitioner interpretation of a 1993 book rather than a comparative adoption or learning study.",

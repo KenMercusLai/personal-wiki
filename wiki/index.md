@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Realtime Editing of Ordered Sequences](sources/figma-realtime-editing-of-ordered-sequences.md) - Figma explains why its multiplayer editor uses arbitrary-precision fractional positions instead of operational transformation for ordered object lists.
 - [Feel like a fraud?](sources/feel-like-a-fraud.md) - Kirsten Weir explains how high achievers can discount success, links impostor feelings to belonging and perfectionistic effort, and surveys social, behavioral, and clinical responses.
 - [Feature/Product Fit](sources/feature-product-fit-casey-accidental.md) - Casey Winters argues that features need their own retention and scalable adoption while improving, or at least not harming, the core product.
 - [Feature Creep Isn’t the Real Problem](sources/feature-creep-isnt-the-real-problem-product-habits.md) - Hiten Shah reframes feature creep as a symptom of weak value execution or committee-driven incentives and argues that coherent breadth depends on segment outcomes and one product promise.
@@ -1628,7 +1629,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Table To Figma](entities/TableToFigma.md) - Figma plugin for applying structured data to designs and batch-generating visual assets.
 - [Fit Curve](entities/FitCurve.md) - Narrow Figma plugin for drawing smooth curves.
 - [Glimmer Card](entities/GlimmerCard.md) - iOS app for creating designed text-card images for social sharing.
-- [Figma](entities/Figma.md) - UI/UX design platform and plugin ecosystem used as a small-product launch channel.
+- [Figma](entities/Figma.md) - Collaborative UI/UX design platform represented through its plugin ecosystem and multiplayer ordering architecture.
 - [UX Collective](entities/UXCollective.md) - Design publication context for practitioner UX satire and product-design career guidance.
 - [Aaron James](entities/AaronJames.md) - Product-design practitioner-author explaining career ladders, seniority signals, and career-plan mechanics.
 - [Byron Sharp](entities/ByronSharp.md) - Marketing researcher cited for distinguishing brand distinctiveness, recognition, and mental availability from differentiation-first strategy.
@@ -1949,6 +1950,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Real-Time Collaborative Editing](concepts/RealtimeCollaborativeEditing.md) - Responsive multi-client editing whose concurrent operations must converge on one shared document state.
+- [Operational Transformation](concepts/OperationalTransformation.md) - Collaborative sequence-editing method that rewrites concurrent operations to preserve their intended effects.
+- [Fractional Indexing](concepts/FractionalIndexing.md) - Ordering method that inserts or moves items by assigning sortable positions between neighboring values.
 - [Perfectionism](concepts/Perfectionism.md) - Unrealistically exacting standards that can produce avoidance or excessive preparation and reinforce anxiety-driven effort rituals.
 - [Social Identity Threat](concepts/SocialIdentityThreat.md) - Context-sensitive uncertainty about belonging and evaluation when a social identity is underrepresented or devalued.
 - [Feature/Product Fit](concepts/FeatureProductFit.md) - Feature-level test requiring repeat use, scalable adoption, and positive or neutral impact on the core product.
