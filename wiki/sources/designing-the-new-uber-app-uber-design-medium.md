@@ -2,7 +2,7 @@
 title: "Designing the New Uber App"
 type: source
 tags: [product-design, redesign, design-systems, ride-hailing]
-date: 2016-11-18
+date: 2016-11-16
 source_file: "/mnt/ken_personal_wiki/Articles/Designing the new Uber App - Uber Design - Medium.md"
 ---
 

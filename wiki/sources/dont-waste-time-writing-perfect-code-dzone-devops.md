@@ -2,7 +2,7 @@
 title: "Don't Waste Time Writing Perfect Code"
 type: source
 tags: [software-development, code-quality, refactoring, code-review]
-date: 2026-04-12
+date: 2014-11-05
 source_file: "/mnt/ken_personal_wiki/Articles/Don't Waste Time Writing Perfect Code - DZone DevOps.md"
 ---
 

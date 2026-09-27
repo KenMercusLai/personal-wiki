@@ -2,7 +2,7 @@
 title: "Designing for Personalization: the Story of Optimizely's Homepage"
 type: source
 tags: [personalization, marketing, experimentation, abm, web-design]
-date: 2016-03-24
+date: 2016-03-23
 source_file: "/mnt/ken_personal_wiki/Articles/Designing for Personalization- the Story of Optimizely's Homepage - Optimizely Blog.md"
 ---
 

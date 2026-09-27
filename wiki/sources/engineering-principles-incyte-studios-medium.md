@@ -2,7 +2,7 @@
 title: "Engineering Principles"
 type: source
 tags: [software-engineering, team-principles, decision-making, engineering-culture]
-date: 2015-11-17
+date: 2015-11-16
 source_file: "/mnt/ken_personal_wiki/Articles/Engineering Principles - Incyte Studios - Medium.md"
 ---
 

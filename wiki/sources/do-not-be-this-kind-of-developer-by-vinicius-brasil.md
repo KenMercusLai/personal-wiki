@@ -2,7 +2,7 @@
 title: "Do not be this kind of developer"
 type: source
 tags: [software-development, programming-languages, business-value, workplace-culture]
-date: 2026-04-12
+date: 2018-06-08
 source_file: /mnt/ken_personal_wiki/Articles/Do not be this kind of developer - By Vinicius Brasil.md
 ---
 

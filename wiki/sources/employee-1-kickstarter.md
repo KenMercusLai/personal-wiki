@@ -2,7 +2,7 @@
 title: "Employee #1: Kickstarter"
 type: source
 tags: [startups, community, crowdfunding, workplace, management]
-date: 2026-04-12
+date: 2016-12-03
 source_file: "/mnt/ken_personal_wiki/Articles/Employee #1- Kickstarter.md"
 ---
 

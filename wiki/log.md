@@ -5522,3 +5522,11 @@ Added [[ToddJackson]]'s role-specific framework for defining, sourcing, evaluati
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Finding Time to Become a Better Developer
+
+Added a practitioner framework for selective developer learning, lifecycle-aware code quality, expectation management, risk-sensitive refinement, and scheduled recovery. Updated [[BurnoutPrevention]], [[InternalSoftwareQuality]], [[IterativeRefinement]], [[PersonalProductivity]], and [[KentBeck]] from their complete ordered evidence inventories. Opened all six local images and omitted them as decorative illustrations or reaction GIFs with no independent evidence beyond the prose.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

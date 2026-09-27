@@ -2,7 +2,7 @@
 title: "Culture Is the Behavior You Reward and Punish"
 type: source
 tags: [culture, management, incentives, scaling]
-date: 2017-02-24
+date: 2017-02-23
 source_file: "/mnt/ken_personal_wiki/Articles/Culture is the Behavior You Reward and Punish - jocelyngoldfein.md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Ecommerce Product Bundling Strategy (Hint: Baby Monkey)"
 type: source
 tags: [ecommerce, product-bundling, average-order-value, merchandising]
-date: 2026-04-11
+date: 2018-05-06
 source_file: /mnt/ken_personal_wiki/Articles/Ecommerce Product Bundling Strategy (Hint- Baby Monkey).md
 ---
 

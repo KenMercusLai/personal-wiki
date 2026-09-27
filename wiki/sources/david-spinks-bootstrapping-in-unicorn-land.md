@@ -2,7 +2,7 @@
 title: "Bootstrapping in Unicorn Land"
 type: source
 tags: [bootstrapping, startups, venture-capital, community]
-date: 2016-03-08
+date: 2016-03-07
 source_file: "/mnt/ken_personal_wiki/Articles/David Spinks - Bootstrapping in Unicorn Land.md"
 ---
 

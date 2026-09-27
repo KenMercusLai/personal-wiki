@@ -2,7 +2,7 @@
 title: "Do Not Make the Mistakes I Have - Document Your Business Dealings from Day 0"
 type: source
 tags: [startup, contracts, documentation, intellectual-property]
-date: 2026-04-11
+date: 2018-04-06
 source_file: "/mnt/ken_personal_wiki/Articles/Do Not Make the Mistakes I Have - Document your Business Dealings from Day 0 - startups.md"
 ---
 

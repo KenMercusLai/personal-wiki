@@ -2,7 +2,7 @@
 title: "Evernote is what happens when you mix VC with a Notes app"
 type: source
 tags: [evernote, venture-capital, note-taking, product-sustainability]
-date: 2016-12-29
+date: 2016-12-28
 source_file: "/mnt/ken_personal_wiki/Articles/Evernote is what happens when you mix VC with a Notes app.md"
 ---
 

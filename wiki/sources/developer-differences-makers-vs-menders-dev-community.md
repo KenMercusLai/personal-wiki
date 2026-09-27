@@ -2,7 +2,7 @@
 title: "Developer Differences: Makers vs Menders"
 type: source
 tags: [software-development, engineering-management, motivation, product-lifecycle]
-date: 2016-12-30
+date: 2015-08-14
 source_file: "/mnt/ken_personal_wiki/Articles/Developer Differences- Makers vs Menders - DEV Community .md"
 ---
 

@@ -2,7 +2,7 @@
 title: "Doing Data Science Right — Your Most Common Questions Answered"
 type: source
 tags: [data-science, organization-design, data-culture, startups]
-date: 2026-04-12
+date: 2016-04-05
 source_file: "/mnt/ken_personal_wiki/Articles/Doing Data Science Right — Your Most Common Questions Answered - First Round Review.md"
 ---
 

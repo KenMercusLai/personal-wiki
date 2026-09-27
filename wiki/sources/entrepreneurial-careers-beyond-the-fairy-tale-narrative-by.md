@@ -2,7 +2,7 @@
 title: "Entrepreneurial Careers: Beyond the Fairy Tale Narrative"
 type: source
 tags: [entrepreneurship, career, acquisitions, founders]
-date: 2017-04-28
+date: 2017-05-07
 source_file: "/mnt/ken_personal_wiki/Articles/Entrepreneurial Careers- Beyond the Fairy Tale Narrative - By.md"
 ---
 

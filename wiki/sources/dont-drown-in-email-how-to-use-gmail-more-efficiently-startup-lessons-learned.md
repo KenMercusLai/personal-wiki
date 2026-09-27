@@ -2,7 +2,7 @@
 title: "Don’t Drown in Email! How to Use Gmail More Efficiently"
 type: source
 tags: [email, productivity, gmail, inbox-zero]
-date: 2026-04-12
+date: 2013-12-30
 source_file: "/mnt/ken_personal_wiki/Articles/Don’t drown in email! How to use Gmail more efficiently. - Startup Lessons Learned.md"
 ---
 

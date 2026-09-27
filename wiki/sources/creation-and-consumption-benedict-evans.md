@@ -2,7 +2,7 @@
 title: "Creation and consumption"
 type: source
 tags: [mobile, computing, productivity, user-interface, accessibility]
-date: 2017-07-13
+date: 2017-07-14
 source_file: /mnt/ken_personal_wiki/Articles/Creation and consumption — Benedict Evans.md
 ---
 

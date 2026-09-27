@@ -2,7 +2,7 @@
 title: "Elegant Coding: The Problem with Today’s Software Thought Leaders"
 type: source
 tags: [software-engineering, agile, evidence, research]
-date: 2026-04-11
+date: 2017-04-10
 source_file: "/mnt/ken_personal_wiki/Articles/Elegant Coding- The Problem with Today’s Software Thought Leaders.md"
 ---
 

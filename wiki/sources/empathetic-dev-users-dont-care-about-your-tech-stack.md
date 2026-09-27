@@ -2,7 +2,7 @@
 title: "Users Don't Care About Your Tech Stack"
 type: source
 tags: [software-engineering, technology-selection, product-development, user-needs]
-date: 2026-09-27
+date: 2025-02-02
 source_file: /mnt/ken_personal_wiki/Articles/Empathetic.dev - Users Don't Care About Your Tech Stack.md
 ---
 

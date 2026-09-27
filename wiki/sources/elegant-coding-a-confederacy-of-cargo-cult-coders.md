@@ -2,7 +2,7 @@
 title: "Elegant Coding: A Confederacy of Cargo Cult Coders"
 type: source
 tags: [software-engineering, programming, learning, team-dynamics]
-date: 2026-04-11
+date: 2011-10-22
 source_file: "/mnt/ken_personal_wiki/Articles/Elegant Coding- A Confederacy of Cargo Cult Coders.md"
 ---
 

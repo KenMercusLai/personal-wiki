@@ -2,7 +2,7 @@
 title: "Engineering to Improve Marketing Effectiveness (Part 1)"
 type: source
 tags: [netflix, adtech, marketing-operations, localization, automation]
-date: 2018-03-15
+date: 2018-03-14
 source_file: "/mnt/ken_personal_wiki/Articles/Engineering to Improve Marketing Effectiveness (Part 1).md"
 ---
 

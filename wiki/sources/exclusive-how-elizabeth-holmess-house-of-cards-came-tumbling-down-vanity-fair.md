@@ -2,7 +2,7 @@
 title: "Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down"
 type: source
 tags: [theranos, biotechnology, corporate-secrecy, investigative-journalism]
-date: 2016-09
+date: 2016-09-06
 source_file: /mnt/ken_personal_wiki/Articles/Exclusive- How Elizabeth Holmes’s House of Cards Came Tumbling Down - Vanity Fair.md
 ---
 

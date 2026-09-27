@@ -2,7 +2,7 @@
 title: "Echo, interfaces and friction"
 type: source
 tags: [interfaces, friction, voice-assistants, consumer-electronics, platforms]
-date: 2016-10-10
+date: 2016-10-11
 source_file: "/mnt/ken_personal_wiki/Articles/Echo, interfaces and friction — Benedict Evans.md"
 ---
 

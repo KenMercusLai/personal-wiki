@@ -2,7 +2,7 @@
 title: "Dev tool marketing for early-stage startups – what we’ve learned"
 type: source
 tags: [developer-tools, marketing, content, startups]
-date: 2026-04-17
+date: 2023-02-16
 source_file: "/mnt/ken_personal_wiki/Articles/Dev tool marketing for early-stage startups – what we’ve learned.md"
 ---
 

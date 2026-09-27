@@ -2,7 +2,7 @@
 title: "Design Principles Behind Great Products"
 type: source
 tags: [product-design, design-principles, design-systems, ux]
-date: 2017-02-10
+date: 2017-02-08
 source_file: "/mnt/ken_personal_wiki/Articles/Design Principles Behind Great Products - Muzli - Design Inspiration.md"
 ---
 

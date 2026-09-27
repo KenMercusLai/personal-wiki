@@ -2,7 +2,7 @@
 title: "Do VCs Really Add Value? — Founders Say Sometimes"
 type: source
 tags: [venture-capital, founders, fundraising, investor-relations, survey]
-date: 2018-05
+date: 2018-06-02
 source_file: "/mnt/ken_personal_wiki/Articles/Do VCs really add value- — Founders say sometimes. - By Carl Fritjofsson.md"
 ---
 

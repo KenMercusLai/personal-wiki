@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Finding Time to Become a Better Developer](sources/finding-time-to-become-a-better-developer.md) - A practitioner essay links selective learning, lifecycle-aware code quality, expectation management, risk-sensitive refinement, and scheduled recovery to sustainable developer effectiveness.
 - [Finances for CS Ph.D. students](sources/finances-for-cs-ph-d-students.md) - David Andersen gives 2016 U.S. CS doctoral students an optionality-focused plan spanning spending, internship savings, Roth eligibility, liquidity, debt, insurance, housing, and low-cost index funds.
 - [Realtime Editing of Ordered Sequences](sources/figma-realtime-editing-of-ordered-sequences.md) - Figma explains why its multiplayer editor uses arbitrary-precision fractional positions instead of operational transformation for ordered object lists.
 - [Feel like a fraud?](sources/feel-like-a-fraud.md) - Kirsten Weir explains how high achievers can discount success, links impostor feelings to belonging and perfectionistic effort, and surveys social, behavioral, and clinical responses.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
       "c14d382da583464086aa29ed765eb7fab03229a08719becbdb95f5f29fad175b",
       "2d497d78b72d8959522d9b8ed1262476f9a1b233aecc16edd6e95f311c2ae25b",
       "d73256d331e038d2b72fc35020af9e14824a59096372320133c54dcff6f1a837",
@@ -525,11 +526,33 @@
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
     ],
-    "paragraph_count": 523
+    "paragraph_count": 524
   },
-  "overview_commit": "160ebb1dabc45b9327edd9a7981c6a9c8461b5b4",
-  "overview_digest": "afd1af5701f7e858e6eb6dff5f46731005553b127adf3393b9d0f0dfddc989c4",
+  "overview_commit": "30800188123e8a8668e1e1e6f6f0f7eec04517d8",
+  "overview_digest": "ef7fdd3b38dbf6dfe0577a05f47af9d5ce2b2c9eb3378b6c09ef2974d86e9edc",
   "paragraphs": [
+    {
+      "id": "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest developer-time source treats sustainable effectiveness as an allocation problem across learning, implementation, commitments, and recovery. It prioritizes durable fundamentals, the actively used stack, and technologies with credible adoption signals over indiscriminate trend-following, while a small scheduled learning block makes improvement routine rather than aspirational. [[InternalSoftwareQuality]] gains a lifecycle cost frame: initial coding time does not include later debugging, refactoring, or constraints imposed on adjacent work, so testability and design can be time-saving investments. [[IterativeRefinement]] gains the attributed [[KentBeck]] sequence “make it work, make it right, make it fast,” with “right” bounded by reliability and changeability and “fast” by material user experience rather than maximal optimization. [[BurnoutPrevention]] and [[PersonalProductivity]] converge around credible commitments and calendar-protected recovery: chronic deadline heroics can create an impossible baseline, damage health, and eventually make delivery less reliable. The source is one practitioner's retrospective rather than comparative evidence; it does not validate the claimed tenfold learning benefit, market-leader adoption filter, universal superiority of test-driven development, or a specific break schedule, and individual pushback cannot repair workloads or power conditions that make refusal unsafe. All six local images were opened and omitted as decorative photographs, reaction GIFs, or a generic ROI illustration without independent evidence.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "BurnoutPrevention",
+        "InternalSoftwareQuality",
+        "IterativeRefinement",
+        "KentBeck",
+        "PersonalProductivity"
+      ]
+    },
     {
       "id": "c14d382da583464086aa29ed765eb7fab03229a08719becbdb95f5f29fad175b",
       "primary_topic": "business-and-markets",

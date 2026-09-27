@@ -2,7 +2,7 @@
 title: "Employee Incentives in a Tokenized World"
 type: source
 tags: [blockchain, tokens, employee-compensation, incentives]
-date: 2018-01-01
+date: 2017-12
 source_file: "/mnt/ken_personal_wiki/Articles/Employee Incentives in a Tokenized World - Token Economy.md"
 ---
 

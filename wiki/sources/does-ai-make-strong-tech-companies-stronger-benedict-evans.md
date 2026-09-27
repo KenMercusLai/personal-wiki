@@ -2,7 +2,7 @@
 title: "Does AI make strong tech companies stronger?"
 type: source
 tags: [machine-learning, data, competition, startups, network-effects]
-date: 2018-12-19
+date: 2018-12-20
 source_file: "/mnt/ken_personal_wiki/Articles/Does AI make strong tech companies stronger- — Benedict Evans.md"
 ---
 

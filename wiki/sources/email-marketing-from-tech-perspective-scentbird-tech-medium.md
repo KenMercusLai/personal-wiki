@@ -2,7 +2,7 @@
 title: "Email marketing from tech perspective"
 type: source
 tags: [email-marketing, marketing-automation, deliverability, engineering]
-date: 2016-05-10
+date: 2016-05-09
 source_file: "/mnt/ken_personal_wiki/Articles/Email marketing from tech perspective - Scentbird Tech - Medium.md"
 ---
 

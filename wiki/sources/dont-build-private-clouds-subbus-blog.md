@@ -2,7 +2,7 @@
 title: "Don’t Build Private Clouds"
 type: source
 tags: [private-cloud, public-cloud, data-centers, migration, organizational-culture]
-date: 2016-11-25
+date: 2016-11-24
 source_file: "/mnt/ken_personal_wiki/Articles/Don’t Build Private Clouds - Subbu’s Blog.md"
 ---
 

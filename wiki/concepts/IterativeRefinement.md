@@ -5,7 +5,8 @@ tags: [software-design, iteration, refactoring, decision-making]
 sources:
   - dont-make-it-perfect-make-it-work-and-refine-8th-light
   - dont-waste-time-writing-perfect-code-dzone-devops
-last_updated: 2026-09-27
+  - finding-time-to-become-a-better-developer
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,6 +20,8 @@ The loop changes where quality is controlled. Perfection is not required at the 
 
 Bird sharpens the stopping rule by distinguishing useful refinement from open-ended polish. Refactoring is justified when it improves comprehension, cleans up the code being changed, or prepares a necessary change; code outside that path may be left merely sufficient. This makes refinement proportional to the next decision and its risk while retaining correctness, understandability, safe failure, and security as baseline obligations.
 
+The developer-time essay contributes an explicit phase order: make the code work, make the design right, then make execution fast. Its value is not a rigid three-pass ritual but separation of concerns: a working artifact creates evidence, refinement makes future change safer, and performance optimization follows demonstrated user impact. The source also pairs the loop with test-first work, though neither it nor the other practitioner essays proves that one test sequence fits every development context.
+
 ## Key Claims
 - A working implementation provides stronger design evidence than imagined outcomes alone.
 - Small steps reduce the amount at risk in any one implementation decision.
@@ -26,6 +29,7 @@ Bird sharpens the stopping rule by distinguishing useful refinement from open-en
 - Refactoring, clearer naming, reduced duplication, and simplification turn a provisional solution into maintainable code.
 - Final quality depends on the refinement standard and stopping rule, not on making the first attempt perfect.
 - Refinement should follow practical change and risk rather than pursue elegance in code that is stable, temporary, or likely to be rewritten.
+- Performance optimization belongs after functional and design feedback and should stop when additional speed no longer improves the user experience.
 
 ## Evidence
 - Tangible assessment: [[dont-make-it-perfect-make-it-work-and-refine-8th-light]] says developers can judge an implementation more effectively once code exists to inspect.
@@ -35,13 +39,16 @@ Bird sharpens the stopping rule by distinguishing useful refinement from open-en
 - Stopping quality: [[dont-make-it-perfect-make-it-work-and-refine-8th-light]] argues that an iterative process controls quality through the decision about when refinement is sufficient.
 - Opportunistic scope: [[dont-waste-time-writing-perfect-code-dzone-devops]] limits refactoring to comprehension, cleanup, and preparation needed for the current change.
 - Practical baseline: [[dont-waste-time-writing-perfect-code-dzone-devops]] retains correctness, understandability, defensive behavior, security, and safe change while rejecting perfection as the target.
+- Phase order: [[finding-time-to-become-a-better-developer]] uses “make it work, make it right, make it fast” to separate initial functionality, design refinement, and selective optimization.
+- Test-first loop: [[finding-time-to-become-a-better-developer]] argues that writing tests first can encourage smaller functions and fewer dependencies, while offering no comparative outcome data.
 
 ## Counterevidence & Qualifications
-The sources do not compare iterative refinement with up-front design or measure defect, cost, or delivery outcomes. Bird's expected-change heuristic can be wrong when code ownership, dependencies, or future importance are unclear. A code change being revertible does not make every consequence cheap: released interfaces, persisted data, security exposure, user harm, operational disruption, and coordination across teams can survive a source-control rollback. Up-front analysis, design review, staged rollout, and stronger verification remain necessary when feedback is expensive or failure is difficult to contain.
+The sources do not compare iterative refinement with up-front design or measure defect, cost, or delivery outcomes. Bird's expected-change heuristic can be wrong when code ownership, dependencies, or future importance are unclear, and test-first sequencing is not automatically superior for every legacy, exploratory, visual, or performance-sensitive task. A code change being revertible does not make every consequence cheap: released interfaces, persisted data, security exposure, user harm, operational disruption, and coordination across teams can survive a source-control rollback. Up-front analysis, design review, staged rollout, and stronger verification remain necessary when feedback is expensive or failure is difficult to contain.
 
 ## What Changed
 - Created a distinct loop linking provisional implementation, tangible assessment, and deliberate quality control.
 - Bounded the loop with opportunistic and preparatory refactoring tied to real change and risk.
+- Added an explicit functional-design-performance order and user-impact stopping rule without treating TDD as universally proven.
 
 ## Related Concepts
 - [[AnalysisParalysis]] - iterative refinement replaces prolonged prediction with bounded evidence generation.

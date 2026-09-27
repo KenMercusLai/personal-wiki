@@ -2,7 +2,7 @@
 title: "Demystifying Secret"
 type: source
 tags: [secret, anonymity, privacy, security, social-networking]
-date: 2014-12-01
+date: 2014-02-03
 source_file: "/mnt/ken_personal_wiki/Articles/Demystifying Secret - David Byttow - Medium.md"
 ---
 

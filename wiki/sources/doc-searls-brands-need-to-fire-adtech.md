@@ -2,7 +2,7 @@
 title: "Brands need to fire adtech"
 type: source
 tags: [advertising, adtech, privacy, media, brand-safety]
-date: 2017-03-25
+date: 2017-03-23
 source_file: "/mnt/ken_personal_wiki/Articles/Doc Searls - Brands need to fire adtech.md"
 ---
 

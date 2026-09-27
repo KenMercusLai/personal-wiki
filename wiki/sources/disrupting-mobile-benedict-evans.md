@@ -2,7 +2,7 @@
 title: "Disrupting mobile"
 type: source
 tags: [mobile, platforms, ecosystems, disruption, ai]
-date: 2016-03-08
+date: 2016-03-09
 source_file: "/mnt/ken_personal_wiki/Articles/Disrupting mobile — Benedict Evans.md"
 ---
 
