@@ -408,8 +408,12 @@ def _compact(
     if len(re.findall(r"(?m)^# Current Synthesis\s*$", body)) != 1:
         raise ValueError("compact synthesis must contain one Current Synthesis heading")
     missing = sorted(set(WIKILINK_RE.findall(body)) - known_keys)
-    if missing:
-        raise ValueError(f"compact synthesis has missing Wiki targets: {', '.join(missing)}")
+    for target in missing:
+        print(
+            f"WARNING: compact synthesis missing Wiki target {target}: "
+            "wiki/_generated/synthesis/current.md",
+            file=sys.stderr,
+        )
     return metadata, body
 
 

@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import contextlib
 import hashlib
 import importlib.util
+import io
 import json
 from pathlib import Path
 import shutil
@@ -27,6 +29,30 @@ def load_script(name: str):
 
 
 class OverviewProjectionTest(unittest.TestCase):
+    def test_compact_synthesis_missing_wikilink_warns_without_losing_snapshot_authentication(self):
+        overview = load_script("personal_overview_missing_wikilink")
+        with tempfile.TemporaryDirectory() as td:
+            fixture = Path(td)
+            shutil.copytree(ROOT / "wiki", fixture / "wiki")
+            synthesis = fixture / "wiki/_generated/synthesis"
+            current = synthesis / "current.md"
+            original = current.read_text(encoding="utf-8")
+            body_start = original.index("# Current Synthesis")
+            import re
+            changed, count = re.subn(
+                r"\[\[[^\]\n]+\]\]", "[[UnwrittenFuturePage]]", original[body_start:], count=1,
+            )
+            self.assertEqual(count, 1)
+            current.write_text(original[:body_start] + changed, encoding="utf-8")
+            manifest_path = synthesis / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["global"]["output_digest"] = hashlib.sha256(current.read_bytes()).hexdigest()
+            manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+            warnings = io.StringIO()
+            with contextlib.redirect_stderr(warnings):
+                overview.project(fixture)
+            self.assertIn("WARNING: compact synthesis missing Wiki target UnwrittenFuturePage", warnings.getvalue())
+
     def test_compact_synthesis_and_open_questions_are_projected_without_semantic_work(self):
         overview = load_script("personal_overview")
         before = hashlib.sha256((ROOT / "wiki/overview.md").read_bytes()).hexdigest()

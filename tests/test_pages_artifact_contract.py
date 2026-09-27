@@ -177,6 +177,37 @@ class PagesArtifactContractTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "unresolved internal URL"):
                 verifier.verify_site(copied, self.schema_root)
 
+    def test_missing_canonical_relationship_renders_as_text_and_is_reported(self):
+        with tempfile.TemporaryDirectory() as td:
+            repository = Path(td) / "repository"
+            shutil.copytree(
+                self.schema_root, repository,
+                ignore=shutil.ignore_patterns(".generated", "public", "resources", ".cache", "__pycache__"),
+            )
+            (repository / ".cache").symlink_to(ROOT / ".cache", target_is_directory=True)
+            canonical = repository / "wiki/concepts" / f"{self.concept_key}.md"
+            original = canonical.read_text(encoding="utf-8")
+            canonical.write_text(
+                original.replace(
+                    f"[[{self.entity_key}]] - deterministic relationship target.",
+                    "[[MissingFutureConcept|Future concept]] - deterministic relationship target.",
+                ),
+                encoding="utf-8",
+            )
+            self.assertNotEqual(canonical.read_text(encoding="utf-8"), original)
+            result = subprocess.run(
+                ["./build.sh"], cwd=repository, capture_output=True, text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout[-2000:] + result.stderr[-2000:])
+            self.assertIn(
+                f"WARNING: missing Wiki target MissingFutureConcept (1): wiki/concepts/{self.concept_key}.md",
+                result.stderr,
+            )
+            html = (repository / "public/wiki/concepts" / self.concept_key.casefold() / "index.html").read_text()
+            self.assertIn("Future concept", html)
+            self.assertNotIn("[[MissingFutureConcept", html)
+            self.assertNotIn("wiki/concepts/missingfutureconcept/", html)
+
     def test_unresolved_wikilink_in_non_html_public_text_is_rejected(self):
         verifier = load_verifier("personal_artifact_text_wikilink")
         with tempfile.TemporaryDirectory() as td:

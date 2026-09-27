@@ -20,7 +20,7 @@
   {{- if $targetPage -}}
     {{- $targetURL := strings.TrimPrefix "/" $targetPage.url | relURL -}}
     {{- $content = replace $content $link (printf "[%s](%s)" $escapedLabel $targetURL) -}}
-  {{- else if $page.Params.wiki_projection -}}
+  {{- else -}}
     {{- $content = replace $content $link $escapedLabel -}}
   {{- end -}}
 {{- end -}}
