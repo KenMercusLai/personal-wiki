@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Feature Creep Isn’t the Real Problem](sources/feature-creep-isnt-the-real-problem-product-habits.md) - Hiten Shah reframes feature creep as a symptom of weak value execution or committee-driven incentives and argues that coherent breadth depends on segment outcomes and one product promise.
 - [FastNetMon+Grafana监控网段流量及DDoS预警](sources/fastnetmon-grafana-jian-kong-wang-duan-liu-liang-ji-ddos-yu-jing.md) - A historical CentOS 7 walkthrough connects FastNetMon threshold detection and callbacks to InfluxDB metric storage and a Grafana traffic dashboard while leaving BGP mitigation untested.
 - [Fake designs yield real results](sources/fake-designs-yield-real-results-gv-library.md) - A GV Library essay argues that realistic self-directed design simulations can build repetitions, stretch capability, create portfolio evidence, and teach constraints without becoming coerced spec work.
 - [Faceless Publishers](sources/faceless-publishers-stratechery-by-ben-thompson.md) - Ben Thompson argues that creator-owned brands can remain independent while a shared publisher supplies scalable technology, monetization, support, and business operations.
@@ -691,6 +692,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Neil Patel](entities/NeilPatel.md) - Crazy Egg cofounder represented here through his limited role in the failed Vision Web Hosting project.
+- [Vision Web Hosting](entities/VisionWebHosting.md) - Unreleased shared-hosting project used as Hiten Shah's first-person case of committee-driven product drift and loss.
 - [FastNetMon](entities/FastNetMon.md) - Network-traffic analyzer represented through threshold detection, response hooks, and Graphite metric export.
 - [Grafana](entities/Grafana.md) - Dashboard layer showing FastNetMon-derived bandwidth, packet-rate, trend, and top-talker metrics from InfluxDB.
 - [KISSmetrics](entities/KISSmetrics.md) - Product-analytics company presented as an early innovator that later discounted important competitor signals.
@@ -1939,6 +1942,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Feature Creep](concepts/FeatureCreep.md) - Incoherent capability accumulation diagnosed through relevance to segment outcomes and product promise rather than raw feature count.
 - [DDoS Traffic Monitoring](concepts/DDoSTrafficMonitoring.md) - Staged observation, threshold detection, notification, historical metric storage, visualization, and separately controlled mitigation of attack-like network traffic.
 - [Fake Design Practice](concepts/FakeDesignPractice.md) - Self-directed realistic design simulation used to build skill, test capability, and create portfolio evidence before paid opportunity exists.
 - [Product Imitation Strategy](concepts/ProductImitationStrategy.md) - Deliberate adoption or adaptation of a proven competitor move to close a customer-value gap.

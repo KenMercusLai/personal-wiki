@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": true,
+      "id": "feature-breadth-needs-value-coherence",
+      "qualifications": [
+        "The evidence is one 2017 practitioner essay using selected retrospective cases rather than comparative feature-use, retention, delivery, or organizational data.",
+        "JIRA and Trello differed on many dimensions, broad promises can rationalize bloat, and safety, accessibility, infrastructure, or compliance work may create necessary value indirectly."
+      ],
+      "statement": "[[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "FeatureCreep",
+        "HitenShah",
+        "ProductUserSegmentation",
+        "VisionWebHosting"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "aggregator-power-can-shift-costs-across-market-sides",
       "qualifications": [
         "The evidence is one 2017 strategy essay rather than a legal market definition, causal study, or observed counterfactual for publisher revenue and innovation.",
@@ -2327,6 +2343,6 @@
       ]
     }
   ],
-  "summary": "Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. New [[ProductImitationStrategy]] adds that competitor moves can reveal customer-value gaps, but a response still needs contextual fit, execution, and governance; the Facebook and KISSmetrics cases do not prove that copying alone caused success or that a missed imitation would have reversed decline.",
+  "summary": "Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. New [[ProductImitationStrategy]] adds that competitor moves can reveal customer-value gaps, but a response still needs contextual fit, execution, and governance; the Facebook and KISSmetrics cases do not prove that copying alone caused success or that a missed imitation would have reversed decline. [[FeatureCreep]] adds a qualified product-scope rule: breadth can serve distinct segments when every capability advances one measurable promise, while disconnected additions may signal weak value execution or misaligned incentives; the selected 2017 cases do not isolate scope as the cause of company outcomes.",
   "topic_id": "business-and-markets"
 }

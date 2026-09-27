@@ -5475,3 +5475,11 @@ Added a historical CentOS 7 walkthrough of a staged DDoS traffic-monitoring pipe
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Feature Creep Isn’t the Real Problem
+
+Added [[HitenShah]]'s argument that feature count is a weak diagnosis: coherent breadth serves customer segments through one core promise, while disconnected additions often reflect weak value execution or committee-driven incentives. Created [[FeatureCreep]], [[VisionWebHosting]], and [[NeilPatel]], and updated Hiten Shah and [[ProductUserSegmentation]] from their complete ordered evidence inventories. Preserved the selected-case, retrospective, and causal limits of the HubSpot, JIRA/Trello, Clearbit, Slack, and failed-hosting examples. Opened all seven remote images, omitted the decorative Product Habits banner, and retained six evidence-bearing product screenshots, system maps, segment navigation views, and survey language at their semantic positions.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

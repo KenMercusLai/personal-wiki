@@ -4,17 +4,28 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: 8a77f0870849b24c534e93cc970c9443f3f8911c
-input_digest: 379ab7765cfdf5bee703f285802d40aa8506bf243db92d16bbda82008ff5b90a
+as_of_overview_commit: 894a536faf573f94027dd7e3f61d58b00543a2d5
+input_digest: a4202fb345effdfc658e4908a25cf4c350f497f02c779316c3adfb5fb7597538
 ---
 
 # Business and Markets
 
 ## Current State
 
-Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. New [[ProductImitationStrategy]] adds that competitor moves can reveal customer-value gaps, but a response still needs contextual fit, execution, and governance; the Facebook and KISSmetrics cases do not prove that copying alone caused success or that a missed imitation would have reversed decline.
+Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual because most evidence is practitioner, company-authored, or retrospective. [[VentureBackedGrowthPressure]] adds a qualified financing-governance risk, [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] shows finance reinforcing commerce through partnered regulated infrastructure. [[ContextualSignalCollection]] makes user comprehension and request timing part of personalization value, while [[FacebookAdvertisingCosts]] makes platform prices auction- and context-dependent. [[AggregatorMonopolyPower]] shows that free user services can shift costs into supplier bargaining and innovation competition. New [[ProductImitationStrategy]] adds that competitor moves can reveal customer-value gaps, but a response still needs contextual fit, execution, and governance; the Facebook and KISSmetrics cases do not prove that copying alone caused success or that a missed imitation would have reversed decline. [[FeatureCreep]] adds a qualified product-scope rule: breadth can serve distinct segments when every capability advances one measurable promise, while disconnected additions may signal weak value execution or misaligned incentives; the selected 2017 cases do not isolate scope as the cause of company outcomes.
 
 ## Cross-source Findings
+
+### Feature Breadth Needs Value Coherence
+
+[[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts.
+
+**Evidence:** [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]]
+
+**Qualifications:**
+
+- The evidence is one 2017 practitioner essay using selected retrospective cases rather than comparative feature-use, retention, delivery, or organizational data.
+- JIRA and Trello differed on many dimensions, broad promises can rationalize bloat, and safety, accessibility, infrastructure, or compliance work may create necessary value indirectly.
 
 ### Aggregator Power Can Shift Costs Across Market Sides
 

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "feature-creep-isnt-the-real-problem-product-habits",
+  "images": [
+    {
+      "file": "hubspot-marketing-dashboard.png",
+      "alt": "HubSpot dashboard combines landing pages, lists, workflows, page editing, and performance reporting"
+    },
+    {
+      "file": "early-jira-issue-tracker.png",
+      "alt": "Early JIRA interface presents a focused issue navigator for tracking and managing issues"
+    },
+    {
+      "file": "atlassian-team-segments.png",
+      "alt": "Atlassian navigation groups offerings by team size and function from startups through enterprise"
+    },
+    {
+      "file": "clearbit-products-integrations.png",
+      "alt": "Clearbit groups products for marketers sales teams and developers alongside several integrations"
+    },
+    {
+      "file": "intercom-delivery-system-map.png",
+      "alt": "Intercom whiteboard map shows campaign delivery services queues data flows and external dependencies"
+    },
+    {
+      "file": "slack-primary-benefit-word-cloud.png",
+      "alt": "Slack survey word cloud emphasizes communication team email people chat and integrations as primary benefits"
+    }
+  ]
+}

@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: a53c19deb4520e20b1137ab323b629f7b9b5abf3
-summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, contextual fit, and recoverable boundaries."
-episode_count: 677
-source_count: 677
-paragraph_count: 518
+as_of_overview_commit: 894a536faf573f94027dd7e3f61d58b00543a2d5
+summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, value, ownership, incentives, consent, and contextual fit."
+episode_count: 678
+source_count: 678
+paragraph_count: 519
 topic_count: 9
 ---
 
@@ -16,14 +16,14 @@ topic_count: 9
 
 ## Executive Summary
 
-- Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall; [[ZettelkastenMethod]] and [[SecondBrain]] add a non-AI counterpart in which stable identity, hypertext, keywords, and relational complexity can produce useful surprise, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
-- [[IntangibleAssetEconomics]], [[CapitalismWithoutCapital]], [[Microsoft]], [[BillGates]], [[SelfFundedSoftwareGrowth]], [[StartupRunway]], and [[SubsidizedUnitEconomics]] separate software-like first-copy investment and near-zero reproduction cost from businesses where physical service delivery costs remain high; this distinction affects investor valuation, capital needs, GDP measurement, IP, competition, taxation, and whether growth signals sustainable economics.
-- [[WebAdEconomics]] creates conflicts on both sides of an advertising platform: reach and targeting can move the service away from user interests, while durable advertiser-customer relationships can reduce intermediary dependence; [[AlbertWenger]] and [[UnionSquareVentures]] present [[SubscriptionSurplusAlignment]] as a conditional alternative in which continuing revenue depends on renewal value and additional use carries no marginal charge.
-- [[RapidOrganizationalRestructuring]] makes compressed organizational change a governance problem: the [[Twitter]] case shows that deep cuts and concentrated authority can reduce cost while weakening comparable evaluation, protected dissent, product-risk review, and [[PlatformAbuseResponse]], so immediate uptime must be judged alongside safety, revenue, legal obligations, institutional knowledge, and recovery costs.
+- [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
+- [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts.
+- Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
+- [[RapidOrganizationalRestructuring]] makes compressed organizational change a governance problem: the [[Twitter]] case shows that deep cuts and concentrated authority can reduce cost while weakening comparable evaluation, protected dissent, product-risk review, and [[PlatformAbuseResponse]], so immediate uptime must be judged alongside safety, revenue, legal obligations, institutional knowledge, and recovery costs.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
-- [[PlatformDistributionDependence]] can produce [[AlgorithmicFeastAndFamine]] even as nominal audiences grow: the [[ChicagoTribune]] case shows why medians and distribution buckets can reveal severe reach misses hidden by follower totals and aggregate averages.
-- [[KnowledgeDurability]] and [[MentalModels]] distinguish transient observations from reusable explanations: recurring mechanisms can organize later facts, transfer across contexts, and help [[FocusedReading]] allocate attention, while current evidence must keep apparently timeless frameworks calibrated to change.
+- [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
+- [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer.
 
 ## Synthesis by Domain
 
@@ -36,10 +36,10 @@ Technical progress needs calibrated evidence, explicit ownership, evaluated cont
 
 ### Business and Markets
 
-Durable value depends on customer outcomes, sustainable economics, governed distribution, contextual competitive response, operating capability, aligned capital, learning, risk discipline, and scrutiny of platform power.
+Durable value depends on customer outcomes, coherent product scope, sustainable economics, governed distribution, operating capability, aligned capital, learning, and risk discipline.
 
+- [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
-- [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity. Evidence: [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]].
 
 ### Cross-domain
 
@@ -57,7 +57,7 @@ Culture and media emerge from form, infrastructure, practice, editing, governanc
 
 ### Governance and Institutions
 
-Rules, data advantages, and delegated authority require explicit ownership, fair process, protected feedback, staged controls, recourse, transparency, consent, and credible alternatives.
+Rules, data advantages, product scope, and delegated authority require explicit ownership, fair process, protected feedback, staged controls, recourse, transparency, consent, and credible alternatives.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].

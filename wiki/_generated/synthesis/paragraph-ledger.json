@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "44567a6547b6054497dcb33077037cec2106b420b37649d820ccaddbbeab4307",
       "c8979081412ed707ba29f2d1495db58dbc5bbaf33f0209bef16deba4eafcd662",
       "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
       "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
@@ -520,11 +521,32 @@
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
     ],
-    "paragraph_count": 518
+    "paragraph_count": 519
   },
-  "overview_commit": "a53c19deb4520e20b1137ab323b629f7b9b5abf3",
-  "overview_digest": "06e36fa4949e82deca51fa2adc9cd9918770ae46539fc1e6404d2d0c956ed87f",
+  "overview_commit": "894a536faf573f94027dd7e3f61d58b00543a2d5",
+  "overview_digest": "6b3f1a22da40fdf6d5f50822da601c2029fba4962c9092b6eecd94fdd10188ec",
   "paragraphs": [
+    {
+      "id": "44567a6547b6054497dcb33077037cec2106b420b37649d820ccaddbbeab4307",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[HitenShah]] source adds [[FeatureCreep]] as a diagnosis of product coherence rather than a count of capabilities. A product can be broad when segment-specific functions still deliver one promise: the article presents HubSpot's marketing-and-sales surfaces, JIRA's movement from issue tracking to plans for different team sizes and functions, and Clearbit's products and integrations as historical examples. Disconnected additions instead point to weak execution of customer value or development by committee, illustrated by [[VisionWebHosting]], which Shah says never launched after two years and more than $1 million in losses under conflicting contributor motivations. This sharpens [[ProductUserSegmentation]]: recurring segment needs justify expansion only when teams can state the shared core value and measure whether each feature advances it. The proposed controls are an empirical feature test, willingness to refuse requests, aligned goals, explicit ownership, a shared model of product internals, and a visible roadmap. The evidence remains a selected 2017 practitioner comparison without feature-use, retention, delivery, or organizational data; JIRA and Trello differed on many dimensions, a broad promise can rationalize bloat, and safety, accessibility, infrastructure, or compliance work may create necessary value indirectly. The decorative Product Habits banner was omitted, while six retained screenshots document the product surfaces, segment navigation, system dependencies, and Slack survey language used by the argument.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "FeatureCreep",
+        "HitenShah",
+        "ProductUserSegmentation",
+        "VisionWebHosting"
+      ]
+    },
     {
       "id": "c8979081412ed707ba29f2d1495db58dbc5bbaf33f0209bef16deba4eafcd662",
       "primary_topic": "business-and-markets",
