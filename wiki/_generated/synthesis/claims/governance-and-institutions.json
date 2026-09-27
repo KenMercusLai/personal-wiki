@@ -573,6 +573,23 @@
       ]
     },
     {
+      "global_candidate": true,
+      "id": "rapid-restructuring-needs-multidimensional-accountability",
+      "qualifications": [
+        "The evidence is a January 2023 journalistic reconstruction based heavily on current and former Twitter employees, some anonymous, rather than a controlled comparison of organizational change.",
+        "Twitter's immediate continuity is real counterevidence to predictions of collapse, but the early snapshot cannot establish optimal long-run staffing or Twitter/X's later trajectory."
+      ],
+      "statement": "[[RapidOrganizationalRestructuring]] makes compressed organizational change a governance problem: the [[Twitter]] case shows that deep cuts and concentrated authority can reduce cost while weakening comparable evaluation, protected dissent, product-risk review, and [[PlatformAbuseResponse]], so immediate uptime must be judged alongside safety, revenue, legal obligations, institutional knowledge, and recovery costs.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RapidOrganizationalRestructuring",
+        "Twitter",
+        "PlatformAbuseResponse",
+        "PsychologicalSafety",
+        "ElonMusk"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "email-state-systems-govern-work-visibility",
       "qualifications": [

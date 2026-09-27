@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Extremely Hardcore
+
+Added Schiffer, Newton, and Heath's investigation of Elon Musk's first three months owning Twitter. Created [[RapidOrganizationalRestructuring]]; updated [[ElonMusk]], [[Twitter]], [[JackDorsey]], and [[RemoteWork]] from their complete ordered source inventories with the distinction between rapid cost reduction and broader product, safety, revenue, legal, reliability, culture, and trust outcomes. Preserved the counterevidence that Twitter mostly remained online after deep cuts and the source boundary that this January 2023 account does not establish the later trajectory or optimal long-run staffing level. Opened and retained all five editorial illustrations at their semantic positions under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-27] ingest | Everything You Need to Know About What Amazon Is Doing in Financial Services
 
 Added CB Insights' mid-2018 analysis of Amazon's payments, cash access, lending, cards, insurance activity, and international fintech investments. Created [[PlatformEmbeddedFinancialServices]]; updated [[Amazon]], [[AmazonGo]], [[AmazonPrime]], [[AmazonCapabilityLedExpansion]], and [[CBInsights]] from their complete ordered evidence inventories. Preserved the distinction between Amazon-owned experience and distribution versus partner-owned regulated or physical capabilities, and between launched products, investments, patents, and rumors. Opened all three local images, omitted the decorative cover, and retained the Amazon Go cashierless example and India-centered fintech investment map under descriptive canonical filenames with a complete manifest.
@@ -5363,6 +5367,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Exploring Effective User Signals
 
 Added [[SophiaFeng]]'s account of more than twenty Pinterest Growth Activation experiments on profile-signal coverage, onboarding, and personalization. Created Sophia Feng and [[ContextualSignalCollection]], and updated [[Pinterest]] from its complete ordered evidence inventory with the contrast between a damaging pre-registration request and a successful post-signup explanatory step. Preserved the limits of first-party relative metrics, missing statistical detail and long-term outcomes, and the source's dated binary gender framing and absent consent, privacy, inclusivity, and fairness analysis. Opened the sole local image and retained its Google-authentication control flow under a descriptive canonical filename with a complete manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

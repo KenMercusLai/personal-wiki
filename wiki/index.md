@@ -9,6 +9,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Exploring Effective User Signals](sources/exploring-effective-user-signals-pinterest-engineering-blog-medium.md) - Pinterest's onboarding experiments show that a signal request can help personalization yet damage signup when its timing and value are unclear.
 - [Expiring vs. Long-Term Knowledge](sources/expiring-vs-long-term-knowledge-collaborative-fund.md) - Morgan Housel distinguishes short-lived facts from durable causal explanations that accumulate, transfer, and improve interpretation of later news.
 - [Extend Your Mind and Memory With a Zettelkasten](sources/extend-your-mind-and-memory-with-a-zettelkasten-zettelkasten-method.md) - Christian Tietze argues that durable storage extends memory while deliberate links enable unexpected retrieval, cross-text synthesis, and creative reuse.
+- [Extremely Hardcore](sources/extremely-hardcore.md) - Schiffer, Newton, and Heath report that Musk's first three months at Twitter combined deep cuts and rapid launches with improvised evaluation, weakened feedback, safety failures, advertiser distrust, and operational strain.
 - [Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down](sources/exclusive-how-elizabeth-holmess-house-of-cards-came-tumbling-down-vanity-fair.md) - A truncated Vanity Fair standfirst attributes Theranos's collapse to disputed blood-testing claims, rejected medical expertise, and organizational secrecy, while leaving the promised evidence unavailable.
 - [Exclusive: Ideo’s Plan To Stage An AI Revolution](sources/exclusive-ideos-plan-to-stage-an-ai-revolution.md) - IDEO's 2017 Datascope acquisition frames data and algorithms as design media and proposes augmented intelligence built through human-centered, iterative collaboration.
 - [Exclusive Interview: OpenAI’s Sam Altman Talks ChatGPT And How Artificial General Intelligence Can ‘Break Capitalism’](sources/exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism.md) - Sam Altman attributes ChatGPT's breakout to fine-tuning and interaction design, predicts gradual AGI, and argues its economic and release governance require new institutional arrangements.
@@ -1153,7 +1154,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Xiaomi](entities/Xiaomi.md) - Chinese hardware company using livestreaming for product demonstrations and launches.
 - [MaiYang](entities/MaiYang.md) - Author and presenter framing AI adoption around action, self-honest desire, and founder examples.
 - [Naval Ravikant](entities/NavalRavikant.md) - Entrepreneurial thinker cited for the article's closing claim that determination matters more than spectator guidance.
-- [Elon Musk](entities/ElonMusk.md) - Founder represented through all-in post-PayPal action, repeatable risk-taking and branding, and a historical Tesla production-ramp memo.
+- [Elon Musk](entities/ElonMusk.md) - Founder represented through all-in action, repeatable risk-taking, Tesla production management, and centralized rapid restructuring at Twitter.
 - [SpaceX](entities/SpaceX.md) - Space-exploration company used as an example of ambitious action under uncertainty.
 - [Tesla](entities/Tesla.md) - Electric-vehicle company represented through founder commitment, a 2017 camera-led autonomy data strategy, and a 2018 Model 3 capacity-ramp memo.
 - [Mark Zuckerberg](entities/MarkZuckerberg.md) - Founder example used to show learning by quickly launching Thefacebook and responding to real problems.
@@ -1463,7 +1464,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Moz](entities/Moz.md) - SEO software company used as an educational-content and SaaS-trial conversion example.
 - [GoPro](entities/GoPro.md) - Action-camera company used as a user-generated publicity and lifestyle-brand example.
 - [HQ Trivia](entities/HQTrivia.md) - Live mobile trivia product used as an example of rapid concurrent growth, video lag, and user tolerance of infrastructure strain.
-- [Twitter](entities/Twitter.md) - Social platform used as a status-driven growth, idea-distribution, onboarding, fail-whale reliability, cultural, and curated-information case with safety and trust challenges.
+- [Twitter](entities/Twitter.md) - Social platform used as a growth, curation, reliability, safety, ecosystem-governance, and rapid organizational restructuring case.
 - [Redux](entities/Redux.md) - JavaScript state container represented through Twitter's normalized entity, timeline, cursor, and fetch-status architecture.
 - [Taylor Monahan](entities/TaylorMonahan.md) - MyEtherWallet co-creator and MyCrypto launch author whose account centers wallet support, security, and organizational maturity.
 - [MyCrypto](entities/MyCrypto.md) - Ethereum wallet company and brand created by Monahan's team after the MyEtherWallet split.
@@ -1789,7 +1790,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Commit to Vote](entities/CommitToVote.md) - Hillary Clinton campaign app for voter commitment and polling or caucus lookup.
 - [Balloon Email](entities/BalloonEmail.md) - Emergency Clinton campaign mass-email tool built after a vendor outage near a fundraising deadline.
 - [Joanna Wiebe](entities/JoannaWiebe.md) - Conversion copywriter whose landing-page article frames social proof as an unavoidable trust signal.
-- [Jack Dorsey](entities/JackDorsey.md) - Twitter leader addressed by Anil Dash's public advice.
+- [Jack Dorsey](entities/JackDorsey.md) - Executive represented through public accountability and hands-on Square engagement, but criticized as distant from Twitter's daily operations.
 - [Unbounce](entities/Unbounce.md) - Landing-page company and article publisher used as a positive relevant-testimonial example.
 - [Maderight](entities/Maderight.md) - Software-powered apparel manufacturing startup whose failure illustrates hypothesis testing, founder-led sales, runway, and focus lessons before product-market fit.
 - [StartX](entities/StartX.md) - Startup accelerator mentioned as part of Maderight's early validation context.
@@ -1909,6 +1910,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Knowledge Durability](concepts/KnowledgeDurability.md) - Degree to which information remains useful across time and contexts because it explains recurring mechanisms rather than only current facts.
+- [Rapid Organizational Restructuring](concepts/RapidOrganizationalRestructuring.md) - Compressed change to leadership, staffing, decision rights, working conditions, and priorities, evaluated beyond speed and immediate continuity.
 - [Organizational Secrecy](concepts/OrganizationalSecrecy.md) - Restricted information flow that becomes a governance risk when it blocks challenge, verification, or correction of consequential claims.
 - [Augmented Intelligence](concepts/AugmentedIntelligence.md) - AI design aimed at extending human capability through continuing collaboration among people, data, and algorithms.
 - [Human-Centered Design](concepts/HumanCenteredDesign.md) - Iterative inquiry into people's needs, contexts, interactions, and outcomes across products and sociotechnical systems.
@@ -2229,7 +2231,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Prolific Practice](concepts/ProlificPractice.md) - Craft-learning habit of making many small things so repeated feedback and bounded failures improve quality.
 - [Engineering-Led Organization Design](concepts/EngineeringLedOrganizationDesign.md) - Applying engineering design habits to organization-building through problem definition, requirements, implementation, validation, and iteration.
 - [SaaS Operating Transparency](concepts/SaaSOperatingTransparency.md) - Public reporting of subscription-business metrics, company context, strategy, and leadership transitions.
-- [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by trust, tools, routines, explicit communication, intentional connection, and sometimes strategic company identity.
+- [Remote Work](concepts/RemoteWork.md) - Work away from a shared office, sustained by deliberate coordination and trust, with location policy also treated as a cultural and employment commitment.
 - [Function Design](concepts/FunctionDesign.md) - Shaping function names, responsibilities, inputs, outputs, state effects, and defaults so behavior is readable, reusable, testable, and maintainable.
 - [Audience Targeting](concepts/AudienceTargeting.md) - Advertising user-insight practice that turns users, context, and campaign goals into segments and deployable acquisition levers.
 - [Behavioral Targeting](concepts/BehavioralTargeting.md) - Audience-targeting method that maps historical actions into weighted, recency-aware labels and thresholds.

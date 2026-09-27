@@ -1087,6 +1087,24 @@
     },
     {
       "global_candidate": false,
+      "id": "rapid-restructuring-trades-trust-for-speed",
+      "qualifications": [
+        "The evidence is one contemporaneous investigation of Twitter's first three months under new ownership, not a controlled comparison of layoffs, remote work, or high-intensity cultures.",
+        "The platform mostly remained online after deep cuts, while the source cannot establish the optimal staffing level or later company trajectory."
+      ],
+      "statement": "[[RapidOrganizationalRestructuring]] shows a workplace boundary around speed: [[Twitter]]'s mass layoffs, abrupt [[RemoteWork]] reversal, improvised evaluation, meeting restrictions, and high-intensity pledge produced immediate change while fear of dismissal weakened [[PsychologicalSafety]], upward correction, retention, and trust.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "RapidOrganizationalRestructuring",
+        "Twitter",
+        "RemoteWork",
+        "PsychologicalSafety",
+        "ElonMusk",
+        "JackDorsey"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "email-state-systems-separate-arrival-from-obligation",
       "qualifications": [
         "Both sources are individual practitioner workflows without comparative productivity evidence.",

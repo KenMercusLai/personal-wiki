@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "extremely-hardcore",
+  "images": [
+    {
+      "file": "twitter-office-chair-for-sale.jpg",
+      "alt": "Blue Twitter office chair marked for sale beside a Twitter-branded cup"
+    },
+    {
+      "file": "printed-code-review.jpg",
+      "alt": "Office copier spilling printed code beside boxes labeled CODE"
+    },
+    {
+      "file": "saluting-employee-emojis.jpg",
+      "alt": "Three saluting emoji figures representing departing Twitter employees"
+    },
+    {
+      "file": "elon-musk-dartboard.jpg",
+      "alt": "Elon Musk portrait used as a dartboard with darts marked by red crosses"
+    },
+    {
+      "file": "no-exit-office-door.jpg",
+      "alt": "Illuminated NO EXIT sign above a closed office door"
+    }
+  ]
+}

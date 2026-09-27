@@ -3,12 +3,12 @@
 schema_version: 1
 generated: true
 synthesis_source: compact
-last_updated: 2026-09-27
-as_of_overview_commit: 2b104f8722d0167316a62c367c2edb429077c870
-summary: "The atlas links technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, durable models, and recoverable boundaries."
-episode_count: 664
-source_count: 664
-paragraph_count: 509
+last_updated: 2026-09-28
+as_of_overview_commit: eb6b16e2b174e94c08180d1d4a524be7b33bd4d1
+summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, and recoverable boundaries."
+episode_count: 665
+source_count: 665
+paragraph_count: 510
 topic_count: 9
 ---
 
@@ -22,7 +22,7 @@ topic_count: 9
 - [[BootstrappedCompanyBuilding]], [[ZebraCompanies]], and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: [[DavidSpinks]] contrasts [[Feast]], where fundability became an operating goal, with customer-funded [[CMX]], while [[StefLewandowski]] and [[EmilyQuinton]] add [[Makelight]], where a hosted-service course test, consulting income, preorders, membership, and customer listening preserved early optionality but cash-flow constraints later reopened angel, crowdfunding, and debt choices. [[ZebrasUnite]] argues that durable profit-and-purpose companies need compatible capital, and [[VentureBackedGrowthPressure]] adds the qualified risk that exit expectations can make expansion more salient than stable stewardship, using [[Evernote]] as an interested rather than causal case.
 - [[CrossFunctionalProductTeams]] can expand the product solution space when [[ProductManagement]] supplies business context, constraints, prototype time, and shared outcomes; [[DeveloperCustomerExposure]] adds selective, prepared firsthand contact as the mechanism connecting [[EngineeringTeamMotivation]] and customer pain to [[TechnologyEnabledProductInnovation]].
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
-- [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process.
+- [[RapidOrganizationalRestructuring]] makes compressed organizational change a governance problem: the [[Twitter]] case shows that deep cuts and concentrated authority can reduce cost while weakening comparable evaluation, protected dissent, product-risk review, and [[PlatformAbuseResponse]], so immediate uptime must be judged alongside safety, revenue, legal obligations, institutional knowledge, and recovery costs.
 - [[KnowledgeDurability]] and [[MentalModels]] distinguish transient observations from reusable explanations: recurring mechanisms can organize later facts, transfer across contexts, and help [[FocusedReading]] allocate attention, while current evidence must keep apparently timeless frameworks calibrated to change.
 
 ## Synthesis by Domain
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, explicit ownership, evaluated cont
 
 ### Business and Markets
 
-Durable value depends on customer outcomes, sustainable economics, governed distribution, operating capability, aligned capital, organizational learning, risk discipline, and user-value-aligned data practices.
+Durable value depends on customer outcomes, sustainable economics, governed distribution, operating capability, aligned capital, learning, and risk discipline.
 
 - [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity. Evidence: [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]].
 - [[CapabilityAccessibility]] separates technical feature presence from functions people can actually discover and exercise: [[BenedictEvans]] argues that phones already made writing, photography, video, sharing, games, and communication available to far more people than precision-heavy professional PC software served, so [[MobileProductivity]], [[MobileInternet]], and [[MobileEcosystem]] should be judged by usable creation and first-computer participation as well as expert capability ceilings and device shipments. Evidence: [[CapabilityAccessibility]], [[BenedictEvans]], [[MobileProductivity]], [[MobileInternet]], [[MobileEcosystem]].
@@ -50,14 +50,14 @@ Useful cross-domain reasoning makes hidden flows, constraints, ownership, assump
 
 ### Culture and Media
 
-Culture and media emerge from form, infrastructure, practice, editing, governance, economics, and knowledge workflows; payment and platform support enable possibilities without guaranteeing durable value.
+Culture and media emerge from form, infrastructure, practice, editing, governance, economics, and knowledge workflows; payment and platform support do not guarantee durable value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Rules and delegated authority work through incentives, information, consent, enforcement, recourse, staged access, transparency, accountability, and credible alternatives.
+Rules and delegated authority require explicit ownership, fair process, protected feedback, staged controls, recourse, transparency, and credible alternatives.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]].
@@ -68,7 +68,7 @@ Historical learning is strongest when it reconstructs lineages, institutions, ma
 
 ### Psychology and Personal Development
 
-Judgment and development depend on bounded attention, meaningful consent, representative feedback, incentive awareness, flexible fit, trust, reversible learning loops, and models kept current by evidence.
+Judgment and development depend on bounded attention, consent, representative feedback, incentive awareness, trust, reversible learning loops, and evidence-calibrated models.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].
@@ -81,7 +81,7 @@ Heterogeneous evidence in science, health, and climate requires careful measurem
 
 ### Work, Education, and Society
 
-Work, education, and social systems need contextual entry points, feedback, judgment, meaningful consent, role clarity, fair incentives, and boundaries around attention, power, platform dependence, sensitive data, and responsibility.
+Work, education, and social systems need contextual entry points, feedback, role clarity, fair incentives, protected voice, meaningful consent, and power-aware boundaries.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to transactions, support tools, or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].
