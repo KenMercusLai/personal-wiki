@@ -5399,3 +5399,11 @@ Added [[BenThompson]]'s 2017 argument that [[Facebook]]'s free, near-zero-margin
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook isn’t the social network anymore. So what is it?
+
+Added a 2016 account of Facebook's reported decline in original sharing, the main product's shift toward a personalized media portal, and the company's portfolio hedges across Instagram, WhatsApp, Messenger, Oculus, chatbots, and virtual assistants. Created [[ContextCollapse]] and updated [[Facebook]] and [[MarkZuckerberg]] from their complete ordered source inventories, preserving the lack of underlying company data, causal identification, and later outcome evidence. Opened the duplicated local hero image and omitted it as a decorative editorial photograph without independent evidence, so no visual asset or manifest was required.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

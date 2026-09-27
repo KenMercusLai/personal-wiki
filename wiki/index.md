@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Facebook isn’t the social network anymore. So what is it?](sources/facebook-isnt-the-social-network-anymore-so-what-is-it.md) - A 2016 account argues that context collapse shifted Facebook from personal sharing toward a media portal while its acquisitions hedged social interaction across narrower products.
 - [Facebook and the Cost of Monopoly](sources/facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson.md) - Ben Thompson argues that Facebook's free user service can still exercise power over publishers, advertisers, and innovation through demand aggregation and network leverage.
 - [Facebook Ads Cost: The Complete Resource to Understand It](sources/facebook-ads-cost-the-complete-resource-to-understand-it.md) - AdEspresso's historical 2017-Q1 2019 benchmarks frame Facebook ad prices as auction outcomes shaped by objectives, audience competition, placement, relevance, timing, and delivery volume.
 - [Exploring Effective User Signals](sources/exploring-effective-user-signals-pinterest-engineering-blog-medium.md) - Pinterest's onboarding experiments show that a signal request can help personalization yet damage signup when its timing and value are unclear.
@@ -1912,6 +1913,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Context Collapse](concepts/ContextCollapse.md) - The compression of distinct audiences into one setting can suppress personal disclosure even while overall platform use remains high.
 - [Aggregator Monopoly Power](concepts/AggregatorMonopolyPower.md) - Multi-sided platform power that appears in supplier surplus, advertising scarcity, or innovation even when users pay no monetary price.
 - [Facebook Advertising Costs](concepts/FacebookAdvertisingCosts.md) - Auction-determined campaign prices whose meaning depends on objective, audience, competition, placement, relevance, timing, volume, and downstream value.
 - [Knowledge Durability](concepts/KnowledgeDurability.md) - Degree to which information remains useful across time and contexts because it explains recurring mechanisms rather than only current facts.

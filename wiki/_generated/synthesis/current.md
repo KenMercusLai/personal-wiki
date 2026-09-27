@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 0037a6e748c162921f694ce68dcd6071dfcfe435
+as_of_overview_commit: b1ff383e7053d6800f3411b2ca800ef11ac4679b
 summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, consent, and recoverable boundaries."
-episode_count: 667
-source_count: 667
-paragraph_count: 512
+episode_count: 668
+source_count: 668
+paragraph_count: 513
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress needs calibrated evidence, explicit ownership, evaluated cont
 
 ### Business and Markets
 
-Durable value depends on customer outcomes, sustainable economics, governed distribution, operating capability, aligned capital, learning, risk discipline, and scrutiny of how platform power reallocates surplus.
+Durable value depends on customer outcomes, sustainable economics, governed distribution, operating capability, aligned capital, learning, risk discipline, and scrutiny of platform power.
 
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
 - [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity. Evidence: [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]].
@@ -81,7 +81,7 @@ Heterogeneous evidence in science, health, and climate requires careful measurem
 
 ### Work, Education, and Society
 
-Work, education, and social systems need contextual entry points, feedback, role clarity, fair incentives, protected voice, meaningful consent, and power-aware boundaries.
+Work, education, and social systems need contextual entry points, feedback, role clarity, fair incentives, meaningful consent, legible audience boundaries, and power-aware protection of voice.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to transactions, support tools, or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].

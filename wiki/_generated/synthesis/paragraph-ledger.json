@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
       "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
       "ac5f347214d56e908161f088ddf8153886c52b8d06a27a588e670b7c697fa4da",
       "99c55d9c7d16783b6aed36bf561f839a62c0611c697d0603e1722e8d493b11bf",
@@ -514,11 +515,29 @@
       "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
       "d3aea8811f0bc8658d8a083eaed087d6ddc24daa5bdc22918671975665bb9698"
     ],
-    "paragraph_count": 512
+    "paragraph_count": 513
   },
-  "overview_commit": "0037a6e748c162921f694ce68dcd6071dfcfe435",
-  "overview_digest": "2d1856d6fe69187e04d09e25a00b7f3a8a5d299682c0f0a19017acad74a11a4e",
+  "overview_commit": "b1ff383e7053d6800f3411b2ca800ef11ac4679b",
+  "overview_digest": "d42db3adfce1069329098cf2f4f5d8a6a058b11770666e9ec306afb8aea30c26",
   "paragraphs": [
+    {
+      "id": "c2757bbee37e96d26d70d7ab4f8c551eb0722ca7d26319b26a7d88a1d24fcda3",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest Facebook source adds [[ContextCollapse]] as a mechanism separating platform attention from interpersonal participation. In its 2016 account, Facebook could retain high overall use while reported original sharing declined because a broad friend graph blurred family, friend, coworker, acquaintance, and public audiences; tedious privacy controls and advertising surveillance further weakened confidence in the boundary. The main product was therefore becoming a personalized portal for ranked news, entertainment, games, and video, while Instagram, WhatsApp, and Messenger supplied narrower social contexts. This connects [[MobilePlatformDiscovery]] and [[PlatformPublisherRevenue]] to Facebook's interest-based feed, native publishing, and video strategy, while [[AcquisitionStrategy]] explains the wider hedge across Instagram, WhatsApp, Oculus, Messenger bots, and the M assistant. The evidence is a contemporaneous outside interpretation built partly on confidential data reported by other publications: it supplies no underlying series or causal test, and its trust, reversal, and portfolio-success claims are forecasts rather than measured later outcomes. The duplicated local hero image was opened and identified as an editorial photograph of Mark Zuckerberg without independent evidentiary content, so it was omitted as decorative and no asset manifest was created.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AcquisitionStrategy",
+        "ContextCollapse",
+        "MobilePlatformDiscovery",
+        "PlatformPublisherRevenue"
+      ]
+    },
     {
       "id": "d979296aa8ec4edfb8ab451eb74a9fe3b1aeb4557ed96d9a74fa6b1f0b7cd1dd",
       "primary_topic": "business-and-markets",
