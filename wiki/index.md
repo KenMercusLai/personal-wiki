@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [First Evidence That Online Dating Is Changing the Nature of Society](sources/first-evidence-that-online-dating-is-changing-the-nature-of-society-mit-technology-review.md) - A 2017 article links online dating's stranger connections to modeled interracial integration and marriage stability while preserving the gap between simulation, historical correlation, and causation.
 - [Finding new music in the algorithm age](sources/finding-new-music-in-the-algorithm-age-the-outline.md) - Six music professionals combine streaming, specialist platforms, publications, networks, shows, stores, submissions, and credits while questioning whether easy recommendation produces deep engagement.
 - [Finding Your Startup's Customer Acquisition Channels](sources/finding-your-startups-customer-acquisition-channels.md) - A practitioner framework maps customer economics, buying behavior, product mechanics, and company stage to paid, search, sales, content, referral, and scrappy acquisition tactics.
 - [Finding Time to Become a Better Developer](sources/finding-time-to-become-a-better-developer.md) - A practitioner essay links selective learning, lifecycle-aware code quality, expectation management, risk-sensitive refinement, and scheduled recovery to sustainable developer effectiveness.
@@ -702,6 +703,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Josue Ortega](entities/JosueOrtega.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
+- [Philipp Hergovich](entities/PhilippHergovich.md) - Economist and coauthor of a model connecting online dating's absent ties to social integration.
 - [Ann-Derrick Gaillot](entities/AnnDerrickGaillot.md) - Writer who frames six contrasting human and platform-based responses to algorithm-dominated music discovery.
 - [Jen Malone](entities/JenMalone.md) - Music supervisor combining SoundCloud, Spotify, Instagram review, licensing contacts, and an Atlanta network.
 - [Lauren Rearick](entities/LaurenRearick.md) - Music blogger using Bandcamp tags and buyer trails alongside publications, musicians, and streaming releases.
@@ -1970,6 +1973,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Online Dating Social Integration](concepts/OnlineDatingSocialIntegration.md) - Hypothesis that dating platforms add ties beyond existing social circles and can alter population-level partner matching.
 - [Music Discovery](concepts/MusicDiscovery.md) - Encountering unfamiliar music through interacting platform, human, editorial, physical, live, and historical pathways.
 - [Graduate Student Financial Planning](concepts/GraduateStudentFinancialPlanning.md) - Coordination of cash flow, taxes, liquidity, debt, insurance, housing, and long-horizon investing around graduate-school constraints and career transitions.
 - [Real-Time Collaborative Editing](concepts/RealtimeCollaborativeEditing.md) - Responsive multi-client editing whose concurrent operations must converge on one shared document state.

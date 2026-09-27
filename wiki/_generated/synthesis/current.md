@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: c1ae9c9165d3b457654152a8a8582eea71fde611
+as_of_overview_commit: 4fbe77a86d7b17609df6b53187aff709a2859bea
 summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, incentives, discovery, contextual fit, and sustainable learning."
-episode_count: 687
-source_count: 687
-paragraph_count: 526
+episode_count: 688
+source_count: 688
+paragraph_count: 527
 topic_count: 9
 ---
 
@@ -82,7 +82,7 @@ Direct health evidence is narrow and source-scoped, and the topic contains littl
 
 ### Work, Education, and Society
 
-Work and learning improve through accessible entry points, active practice, feedback, judgment, role clarity, fair incentives, consent, recovery, and power-aware boundaries, with persistent qualifications around unequal access, transfer, evidence, and structural constraint.
+Work, learning, and social participation are shaped by accessible entry points, active practice, feedback, judgment, role clarity, fair incentives, consent, opportunity structure, recovery, and power-aware boundaries, with persistent qualifications around unequal access, transfer, evidence, and structural constraint.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to transactions, support tools, or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].

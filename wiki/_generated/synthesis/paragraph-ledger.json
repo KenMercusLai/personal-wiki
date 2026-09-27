@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
       "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
       "c14d382da583464086aa29ed765eb7fab03229a08719becbdb95f5f29fad175b",
       "2d497d78b72d8959522d9b8ed1262476f9a1b233aecc16edd6e95f311c2ae25b",
@@ -528,11 +529,28 @@
       "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
       "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752"
     ],
-    "paragraph_count": 526
+    "paragraph_count": 527
   },
-  "overview_commit": "c1ae9c9165d3b457654152a8a8582eea71fde611",
-  "overview_digest": "5c4c89dd632f4110ebbfb2d8d6f119798d236bdfe11b31081a7a7ba4bfa08b6a",
+  "overview_commit": "4fbe77a86d7b17609df6b53187aff709a2859bea",
+  "overview_digest": "8870c0bfc02fa63ab4da3dc6c50f187572e4c387959b7a836dfd646b2ce0ec31",
   "paragraphs": [
+    {
+      "id": "943ae1be445b7540230724b74b0730873f95c26c552a28f81ccde1336e95ebff",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest online-dating source adds [[OnlineDatingSocialIntegration]] as a network-level mechanism linking digital introductions to social structure. [[JosueOrtega]] and [[PhilippHergovich]] model offline partner formation as embedded in clustered family, friendship, work, school, church, and neighborhood networks, while dating platforms create absent ties between strangers; in their simulation, even a small number of cross-group links sharply increases interracial matching and improves modeled marriage strength. This extends [[Homophily]] beyond individual preference or evaluator bias into opportunity structure. The retained two-panel chart independently establishes a large meeting-channel shift—online meeting rises to roughly one-fifth of heterosexual couples and around two-thirds of same-sex couples by the late 2000s—but the article's U.S. marriage timing and separately reported breakup evidence remain observational. The model simplifies race, gender, orientation, preferences, and relationship forms, and coincidence with Match.com or Tinder does not isolate online dating from changing attitudes, laws, demographics, selection, or other social changes. The original lead-image URL was broken; the matching current publisher asset was recovered, inspected, and retained with its axes, series, approximate trends, and missing methodological context recorded.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 4
+      },
+      "wikilinks": [
+        "Homophily",
+        "JosueOrtega",
+        "OnlineDatingSocialIntegration",
+        "PhilippHergovich"
+      ]
+    },
     {
       "id": "05824270c96cff53371c21823885c8c8ef3bc90cbf215b67a200c8f525042d75",
       "primary_topic": "ai-and-technology",

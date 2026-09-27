@@ -4,17 +4,28 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-28
-as_of_overview_commit: 30800188123e8a8668e1e1e6f6f0f7eec04517d8
-input_digest: 8692dbab8dfaed03075da6b51b26d2ad42e95ce852cd5deae94155bb1199b122
+as_of_overview_commit: 4fbe77a86d7b17609df6b53187aff709a2859bea
+input_digest: 17f0b01365fb56bdc15607d78339cdb7e397ccdea1470740cf40e76f9da94ee6
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress, while [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work shows a labor-design boundary: platforms can reduce monetization and discovery friction, but direct audiences, interpretable metrics, community support, and burnout mitigation still matter. [[ContextCollapse]] shows that attention can remain high while heterogeneous audiences suppress personal participation. Pinterest's onboarding case makes first-mile requests conditional on clear timing, value, consent, and privacy. The graduate-finance source adds a narrow 2016 case in which saving and liquidity can widen career choice but current individualized verification remains necessary. New [[ProductManagerHiring]] adds reciprocal, stage-sensitive role evaluation and honest candidate closing, while underscoring that unvalidated pedigree, culture, enthusiasm, and presentation signals require accessibility and adverse-impact controls.
+Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, opportunity structure, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, relationships, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. [[OnlineDatingSocialIntegration]] adds a model in which digitally created absent ties can weaken network-level [[Homophily]], while the observed meeting-channel shift does not establish causal effects on interracial marriage or stability. Personal benchmarks can preserve distinctive work and reveal progress, while [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work shows a labor-design boundary: platforms can reduce monetization and discovery friction, but direct audiences, interpretable metrics, community support, and burnout mitigation still matter. [[ContextCollapse]] shows that attention can remain high while heterogeneous audiences suppress personal participation. Pinterest's onboarding case makes first-mile requests conditional on clear timing, value, consent, and privacy. The graduate-finance source adds a narrow 2016 case in which saving and liquidity can widen career choice but current individualized verification remains necessary. New [[ProductManagerHiring]] adds reciprocal, stage-sensitive role evaluation and honest candidate closing, while underscoring that unvalidated pedigree, culture, enthusiasm, and presentation signals require accessibility and adverse-impact controls.
 
 ## Cross-source Findings
+
+### Online Dating Absent Ties Can Change Matching
+
+[[OnlineDatingSocialIntegration]] extends [[Homophily]] from similarity preference into opportunity structure: [[JosueOrtega]] and [[PhilippHergovich]] model dating platforms as creating absent ties between otherwise clustered groups, which can change partner matching even when only a small number of new cross-group links appears.
+
+**Evidence:** [[OnlineDatingSocialIntegration]], [[Homophily]], [[JosueOrtega]], [[PhilippHergovich]]
+
+**Qualifications:**
+
+- The integration and marriage-strength results come from a stylized model whose race, gender, orientation, preference, and relationship assumptions do not represent the full population or platform environment.
+- The meeting-channel chart establishes a large shift toward online introductions, especially among same-sex couples, but timing around Match.com or Tinder and separately reported breakup rates do not identify online dating as the cause of changing interracial marriage or stability.
 
 ### Graduate Financial Planning Buys Career Optionality
 
