@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c8f0c3100f46e9f5e7f877355151da5a0ccc9bd8287a817f001cb4fb971c1ab7",
       "44567a6547b6054497dcb33077037cec2106b420b37649d820ccaddbbeab4307",
       "c8979081412ed707ba29f2d1495db58dbc5bbaf33f0209bef16deba4eafcd662",
       "25bf6461574b0c948ceeb45243bb6f4916990e3501c6d34ca58f2b598b1fa224",
@@ -521,11 +522,28 @@
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
     ],
-    "paragraph_count": 519
+    "paragraph_count": 520
   },
-  "overview_commit": "7e205cd402dbd346c10fc5401e1085e346bde3b0",
-  "overview_digest": "d8e9bed0a88010ded129d7af9e72f75c011e34e4dd76ed703e0b9414ecb98055",
+  "overview_commit": "42d85eac648e823336dd9b9bc80c017a225a4f7c",
+  "overview_digest": "2e63b8dd0213fd1c8f11373c550a44826b6eb408c9248db9acd0047af0b60720",
   "paragraphs": [
+    {
+      "id": "c8f0c3100f46e9f5e7f877355151da5a0ccc9bd8287a817f001cb4fb971c1ab7",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[KirstenWeir]] source broadens [[ImposterSyndrome]] from a founder-specific account into a cross-context pattern among high-achieving students and professionals. [[PaulineRoseClance]] and [[SuzanneImes]] frame it as difficulty internalizing success rather than a formal DSM diagnosis: achievement can be credited to luck, sympathy, or punishing effort while ordinary new-role uncertainty becomes a verdict about belonging. The article adds achievement-contingent self-worth, mixed family messages, outsider status, and [[Perfectionism]] as possible mechanisms; procrastination or overpreparation can become self-reinforcing when later success is attributed to anxiety. Mentoring, teaching less-experienced people, realistic self-assessment, deliberate celebration, and gradual good-enough experiments supply social and behavioral counterevidence, while therapy may help with persistent distress. These claims remain qualified by the source's form—a 2013 magazine synthesis using selected studies, clinicians, and student accounts rather than a current systematic review or treatment trial—and neither impostor framing nor individual coping should erase depression, anxiety, discrimination, isolation, or unsustainable conditions. The local APA logo was decorative and omitted; a referenced cover image was missing from the supplied vault and could not be interpreted or retained.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "ImposterSyndrome",
+        "KirstenWeir",
+        "PaulineRoseClance",
+        "Perfectionism",
+        "SuzanneImes"
+      ]
+    },
     {
       "id": "44567a6547b6054497dcb33077037cec2106b420b37649d820ccaddbbeab4307",
       "primary_topic": "business-and-markets",

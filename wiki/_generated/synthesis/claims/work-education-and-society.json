@@ -1150,6 +1150,23 @@
         "ZachHolman",
         "EmployeeEquityRisk"
       ]
+    },
+    {
+      "global_candidate": false,
+      "id": "impostor-feelings-combine-evidence-discounting-with-context",
+      "qualifications": [
+        "The added evidence is a 2013 magazine synthesis of selected studies, clinicians, and student accounts rather than a current systematic review or treatment trial.",
+        "The impostor phenomenon is not a formal DSM diagnosis, and individual coping should not erase depression, anxiety, discrimination, isolation, or objectively unsustainable conditions."
+      ],
+      "statement": "[[ImposterSyndrome]] combines evidence discounting with social and task context: high achievers may credit success to luck, sympathy, or punishing effort, while new-role uncertainty, achievement-contingent worth, outsider status, filtered feedback, and [[Perfectionism]] can turn development needs into doubts about belonging. Mentoring, representative feedback, realistic self-assessment, celebration, and gradual good-enough experiments can supply counterevidence without replacing clinical care or structural change.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "ImposterSyndrome",
+        "Perfectionism",
+        "KirstenWeir",
+        "PaulineRoseClance",
+        "SuzanneImes"
+      ]
     }
   ],
   "summary": "Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work now also shows a labor-design boundary: platforms can reduce monetization and discovery friction, but direct audience relationships, interpretable metrics, community support, and burnout mitigation matter because creators increasingly combine making with marketing, entrepreneurship, and community leadership. [[ContextCollapse]] adds an audience-design boundary: attention can remain high while heterogeneous audiences suppress personal participation and shift activity toward media consumption or narrower social contexts. Pinterest's onboarding case adds that first-mile education can justify an extra setup step when timing and user value are clear, while sensitive signal requests still require consent and privacy boundaries beyond completion metrics.",

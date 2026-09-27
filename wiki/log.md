@@ -5490,3 +5490,11 @@ Added [[CaseyWinters]]'s feature-level fit framework: repeat use and scalable ad
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Feel like a fraud?
+
+Added [[KirstenWeir]]'s 2013 account of the impostor phenomenon, broadening [[ImposterSyndrome]] from founder self-doubt to high-achieving students and professionals. Created Kirsten Weir, [[PaulineRoseClance]], [[SuzanneImes]], [[Perfectionism]], and [[SocialIdentityThreat]]; updated the existing concept from its complete ordered evidence inventory with achievement-contingent self-worth, belonging, outsider status, perfectionistic effort rituals, mentoring, realistic self-assessment, gradual good-enough experiments, celebration, and therapy. Preserved the boundary between a descriptive phenomenon and DSM diagnosis and qualified the source as a magazine synthesis rather than current systematic or treatment evidence. Opened and omitted the decorative APA logo; the referenced cover image was absent from the supplied vault and could not be inspected or retained.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-28
-as_of_overview_commit: b1ff383e7053d6800f3411b2ca800ef11ac4679b
-input_digest: 64a0a5232b51c4681404581d296449edddf845d1ed18dc0fcefb3ae7bd4fe4f5
+as_of_overview_commit: 42d85eac648e823336dd9b9bc80c017a225a4f7c
+input_digest: b8270ceb1a298d7043a2ee882f2c52e472a9e9e656d4fc2f75c23e6ed587f760
 ---
 
 # Work, Education, and Society
@@ -695,3 +695,14 @@ AI-era and data-rich education should strengthen problem framing, [[Computationa
 
 - The evidence is one humorous practitioner essay based on a few anonymized interviews, friends’ reported compensation outcomes, and one executive quotation, not a validated predictor of company performance or employee experience.
 - Blamelessness does not remove accountability, criticism can be necessary, and confidence or dissatisfaction can be healthy when paired with evidence, respect, and clear decision rights.
+
+### Impostor Feelings Combine Evidence Discounting With Context
+
+[[ImposterSyndrome]] combines evidence discounting with social and task context: high achievers may credit success to luck, sympathy, or punishing effort, while new-role uncertainty, achievement-contingent worth, outsider status, filtered feedback, and [[Perfectionism]] can turn development needs into doubts about belonging. Mentoring, representative feedback, realistic self-assessment, celebration, and gradual good-enough experiments can supply counterevidence without replacing clinical care or structural change.
+
+**Evidence:** [[ImposterSyndrome]], [[Perfectionism]], [[KirstenWeir]], [[PaulineRoseClance]], [[SuzanneImes]]
+
+**Qualifications:**
+
+- The added evidence is a 2013 magazine synthesis of selected studies, clinicians, and student accounts rather than a current systematic review or treatment trial.
+- The impostor phenomenon is not a formal DSM diagnosis, and individual coping should not erase depression, anxiety, discrimination, isolation, or objectively unsustainable conditions.

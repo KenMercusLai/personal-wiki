@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Feel like a fraud?](sources/feel-like-a-fraud.md) - Kirsten Weir explains how high achievers can discount success, links impostor feelings to belonging and perfectionistic effort, and surveys social, behavioral, and clinical responses.
 - [Feature/Product Fit](sources/feature-product-fit-casey-accidental.md) - Casey Winters argues that features need their own retention and scalable adoption while improving, or at least not harming, the core product.
 - [Feature Creep Isn’t the Real Problem](sources/feature-creep-isnt-the-real-problem-product-habits.md) - Hiten Shah reframes feature creep as a symptom of weak value execution or committee-driven incentives and argues that coherent breadth depends on segment outcomes and one product promise.
 - [FastNetMon+Grafana监控网段流量及DDoS预警](sources/fastnetmon-grafana-jian-kong-wang-duan-liu-liang-ji-ddos-yu-jing.md) - A historical CentOS 7 walkthrough connects FastNetMon threshold detection and callbacks to InfluxDB metric storage and a Grafana traffic dashboard while leaving BGP mitigation untested.
@@ -693,6 +694,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Kirsten Weir](entities/KirstenWeir.md) - Psychology writer represented through a 2013 synthesis of research, clinicians, and graduate-student accounts of impostor feelings.
+- [Pauline Rose Clance](entities/PaulineRoseClance.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through its perfectionism cycle and good-enough response.
+- [Suzanne Imes](entities/SuzanneImes.md) - Clinical psychologist and co-originator of the impostor-phenomenon construct, represented through achievement pressure, secrecy, and gradual reframing.
 - [Casey Winters](entities/CaseyWinters.md) - Product and growth practitioner represented through a feature/product-fit framework and Grubhub and Pinterest cases.
 - [Grubhub](entities/Grubhub.md) - Food-delivery company represented through early mobile conversion, incentive, and support experiments.
 - [Neil Patel](entities/NeilPatel.md) - Crazy Egg cofounder represented here through his limited role in the failed Vision Web Hosting project.
@@ -1945,6 +1949,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Perfectionism](concepts/Perfectionism.md) - Unrealistically exacting standards that can produce avoidance or excessive preparation and reinforce anxiety-driven effort rituals.
+- [Social Identity Threat](concepts/SocialIdentityThreat.md) - Context-sensitive uncertainty about belonging and evaluation when a social identity is underrepresented or devalued.
 - [Feature/Product Fit](concepts/FeatureProductFit.md) - Feature-level test requiring repeat use, scalable adoption, and positive or neutral impact on the core product.
 - [Feature Creep](concepts/FeatureCreep.md) - Incoherent capability accumulation diagnosed through relevance to segment outcomes and product promise rather than raw feature count.
 - [DDoS Traffic Monitoring](concepts/DDoSTrafficMonitoring.md) - Staged observation, threshold detection, notification, historical metric storage, visualization, and separately controlled mitigation of attack-like network traffic.
@@ -2069,7 +2075,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Psychological Safety](concepts/PsychologicalSafety.md) - Conditions for asking questions, voicing dissent, and learning from mistakes without suppressing accountability.
 - [Psychological Reactance](concepts/PsychologicalReactance.md) - Resistance to perceived threats to autonomy, including distrust or opposition when familiar persuasion tactics feel coercive.
 - [Consumer Startup Competition](concepts/ConsumerStartupCompetition.md) - Competition model in which incumbent network, distribution, and resource advantages are partly offset by multi-homing, residual discovery, and lower experimentation costs.
-- [Imposter Syndrome](concepts/ImposterSyndrome.md) - Persistent self-doubt despite evidence of competence or success, examined here through founder growth, scrutiny, and filtered feedback.
+- [Imposter Syndrome](concepts/ImposterSyndrome.md) - Difficulty internalizing success, synthesized across achievement pressure, belonging, filtered feedback, and perfectionistic effort rituals.
 - [Configuration Management](concepts/ConfigurationManagement.md) - Desired-state automation for converging existing machines, historically valuable but exposed to ownership, drift, partial-application, and release-boundary problems.
 - [Immutable Infrastructure](concepts/ImmutableInfrastructure.md) - Build-and-replace operating model based on versioned images, staged promotion, and explicit treatment of runtime and persistent state.
 - [Organizational Scale Tradeoffs](concepts/OrganizationalScaleTradeoffs.md) - Coupled gains and costs created when specialization, resources, strategy, and dependencies replace small-team generalism and autonomy.
