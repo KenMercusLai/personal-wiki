@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down](sources/exclusive-how-elizabeth-holmess-house-of-cards-came-tumbling-down-vanity-fair.md) - A truncated Vanity Fair standfirst attributes Theranos's collapse to disputed blood-testing claims, rejected medical expertise, and organizational secrecy, while leaving the promised evidence unavailable.
+- [Exclusive: Ideo’s Plan To Stage An AI Revolution](sources/exclusive-ideos-plan-to-stage-an-ai-revolution.md) - IDEO's 2017 Datascope acquisition frames data and algorithms as design media and proposes augmented intelligence built through human-centered, iterative collaboration.
 - [Exclusive Interview: OpenAI’s Sam Altman Talks ChatGPT And How Artificial General Intelligence Can ‘Break Capitalism’](sources/exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism.md) - Sam Altman attributes ChatGPT's breakout to fine-tuning and interaction design, predicts gradual AGI, and argues its economic and release governance require new institutional arrangements.
 - [Evolving as an artist and overcoming art block](sources/evolving-as-an-artist-and-overcoming-art-block-talk-illustration.md) - Loish's 2004 and 2016 redraws frame visible personal progress, lower expectations, and playful imperfect work as responses to art block.
 - [Everything You Need to Know About What Amazon Is Doing in Financial Services](sources/everything-you-need-to-know-about-what-amazon-is-doing-in-financial-services.md) - CB Insights frames Amazon's mid-2018 payments, cash, lending, cards, insurance, and fintech investments as commerce-ecosystem infrastructure rather than a conventional universal bank.
@@ -676,6 +677,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Elizabeth Holmes](entities/ElizabethHolmes.md) - Theranos founder represented through a truncated source's claims about disputed technical judgment and corporate secrecy.
 - [Theranos](entities/Theranos.md) - Biotechnology startup portrayed through a source-bounded account of discredited blood-testing claims, secrecy, and collapse.
 - [Nick Bilton](entities/NickBilton.md) - Vanity Fair journalist credited with the saved page's promised Theranos investigation.
+- [IDEO](entities/IDEO.md) - Design consultancy represented through its acquisition of Datascope and its effort to bring human-centered design into AI and data science.
+- [Datascope](entities/Datascope.md) - Chicago data-science consultancy acquired by IDEO after four years of project collaboration.
+- [Tim Brown](entities/TimBrown.md) - IDEO leader describing data, algorithms, and machine learning as a new design medium.
+- [Mike Stringer](entities/MikeStringer.md) - Datascope cofounder defining augmented intelligence as technology that extends human capability.
+- [Dean Malmgren](entities/DeanMalmgren.md) - Datascope cofounder describing iterative learning through a people-data-algorithm feedback loop.
 - [DALL-E](entities/DALLE.md) - OpenAI image-generation tool represented through a retained fictional Sam Altman Forbes-cover example from 2023.
 - [Loish](entities/Loish.md) - Digital artist and animator represented through longitudinal redraws and advice about progress, expectations, and art block.
 - [Evernote](entities/Evernote.md) - Note-taking service used in a source-bounded critique of venture growth, reliability, privacy, and continuity risk.
@@ -1896,6 +1902,9 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Concepts
 - [Organizational Secrecy](concepts/OrganizationalSecrecy.md) - Restricted information flow that becomes a governance risk when it blocks challenge, verification, or correction of consequential claims.
+- [Augmented Intelligence](concepts/AugmentedIntelligence.md) - AI design aimed at extending human capability through continuing collaboration among people, data, and algorithms.
+- [Human-Centered Design](concepts/HumanCenteredDesign.md) - Iterative inquiry into people's needs, contexts, interactions, and outcomes across products and sociotechnical systems.
+- [Algorithmic Bias](concepts/AlgorithmicBias.md) - Systematic disparity or distortion arising across an algorithmic system's data, objectives, operation, deployment, or outcomes.
 - [Artificial General Intelligence](concepts/ArtificialGeneralIntelligence.md) - Broad AI capability framed as a gradual, disputed transition with economic concentration, access, profit-sharing, and governance consequences.
 - [Responsible AI Release](concepts/ResponsibleAIRelease.md) - Layered governance of public AI products, APIs, open-source artifacts, contracts, and downstream accountability.
 - [Art Block](concepts/ArtBlock.md) - Creative inhibition linked here to unrealistic expectations, flaw-focused comparison, and fear of failure.

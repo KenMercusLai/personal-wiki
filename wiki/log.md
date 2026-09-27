@@ -5327,3 +5327,11 @@ Added a source-bounded note for Vanity Fair's truncated Theranos capture, preser
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Exclusive: Ideo’s Plan To Stage An AI Revolution
+
+Added the 2017 account of [[IDEO]] acquiring [[Datascope]] and framing data, algorithms, and machine learning as design media. Created IDEO, Datascope, [[TimBrown]], [[MikeStringer]], [[DeanMalmgren]], [[AugmentedIntelligence]], [[HumanCenteredDesign]], and [[AlgorithmicBias]], preserving the distinction between a proposed human-centered safeguard and demonstrated fairness or system outcomes. Opened all three local images and omitted two duplicate Tim Brown portraits plus the Mike Stringer and Dean Malmgren portrait as identity imagery whose information is repeated in the prose; no visual asset or manifest was required.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
