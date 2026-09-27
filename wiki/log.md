@@ -5451,3 +5451,11 @@ Added [[HitenShah]]'s argument that selective competitor imitation can close an 
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Faceless Publishers
+
+Added [[BenThompson]]'s 2017 model of publishing unbundling: creator brands and editorial work can remain independent while technology, advertising sales, subscriptions, support, and administration consolidate in [[FacelessPublishingInfrastructure]]. Created [[BillSimmons]], [[TheRinger]], [[VoxMedia]], and Faceless Publishing Infrastructure; updated Ben Thompson, [[Stratechery]], and [[Medium]] from their complete ordered evidence inventories. Preserved the argument as a forecast grounded chiefly in one announced partnership, with later adoption, revenue sharing, data control, portability, and backend bargaining power unresolved. Opened and retained the sole local image as the article's architecture diagram, showing many audience-owning creators surrounding one shared layer of resources, monetization, and infrastructure.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

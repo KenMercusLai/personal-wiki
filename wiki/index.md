@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Faceless Publishers](sources/faceless-publishers-stratechery-by-ben-thompson.md) - Ben Thompson argues that creator-owned brands can remain independent while a shared publisher supplies scalable technology, monetization, support, and business operations.
 - [Facebook’s shameless copying of Snapchat and what it means for your product strategy](sources/facebooks-shameless-copying-of-snapchat-and-what-it-means-for-your-product-strategy-product-habits.md) - Hiten Shah uses Facebook's Stories rollout and KISSmetrics' missed competitor responses to argue for customer-grounded imitation and faster competitive execution.
 - [Facebook’s algorithm isn’t surfacing one-third of our posts. And it’s getting worse](sources/facebooks-algorithm-isnt-surfacing-one-third-of-our-posts-and-its-getting-worse.md) - Kurt Gessler shows that the Chicago Tribune's growing Facebook audience masked a rapid increase in severe organic-reach misses, while leaving the cause unresolved.
 - [Facebook’s Mental Health Problem](sources/facebooks-mental-health-problem-anxy-magazine-medium.md) - A first-person account and clinician interviews distinguish social media causing depression from reward, comparison, attention, and performance harms during an existing episode.
@@ -1426,7 +1427,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing software business models, platform incentives, aggregation, data factories, and processed-profile transparency.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing software business models, platforms, aggregation, data factories, monopoly power, and publishing infrastructure.
+- [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
+- [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
+- [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
 - [Anki](entities/Anki.md) - Spaced-repetition software used as a random-review and creative recombination surface for orphaned note fragments.
 - [Gabe Zichermann](entities/GabeZichermann.md) - Gamification practitioner represented here by the SAPS reward hierarchy.
 - [Gabor Cselle](entities/GaborCselle.md) - Product-growth author of the nine-part virality taxonomy.
@@ -2434,6 +2438,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Apple News Ecosystem](concepts/AppleNewsEcosystem.md) - Taxonomy of Apple-focused news, rumor, general publication, analysis, research, and community publishing economics.
 - [Mobile App Store Economics](concepts/MobileAppStoreEconomics.md) - Distinction between mobile marketplace reach, spending, geography, category mix, growth rates, and ranking durability.
 - [Niche Subscription Publishing](concepts/NicheSubscriptionPublishing.md) - Reader-funded publishing model for specialized analysis, perspective, archive access, and community around a narrow subject.
+- [Faceless Publishing Infrastructure](concepts/FacelessPublishingInfrastructure.md) - Shared monetization, technology, support, and business operations behind independent creator-owned publication brands.
 - [Black-Box Learning](concepts/BlackBoxLearning.md) - Learning through direct exploration of opaque technical systems, especially debugging, tracing, measurement, and implementation work that AI can now offload.
 - [AI Winter](concepts/AIWinter.md) - Hype-cycle collapse where artificial-intelligence expectations, funding, or confidence fall after claims outrun demonstrated capability.
 - [Deep Learning Scaling](concepts/DeepLearningScaling.md) - Contested link between increasing compute, data, model size, and transferable deep-learning capability.
