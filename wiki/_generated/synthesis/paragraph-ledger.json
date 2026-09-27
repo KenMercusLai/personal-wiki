@@ -507,12 +507,13 @@
       "f6acd2364baf8b08efb4ac808b9a24109a270492b7fa26ffdbeac4aa25abe4cd",
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
-      "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9"
+      "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9",
+      "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255"
     ],
-    "paragraph_count": 507
+    "paragraph_count": 508
   },
-  "overview_commit": "3a8a3be42364acf7aefada2370f55aef58986c70",
-  "overview_digest": "0935994836f3f72da19e49cad5f72e0665b30ca3c3237dfd6b447b19e5d05a6c",
+  "overview_commit": "c6e8d41bbf3a68e43e134cd548e0aed9f677edb2",
+  "overview_digest": "5df71db3955b3084aab64f0dd476ca1c42e1a25f5eb18196a518ff53b352f362",
   "paragraphs": [
     {
       "id": "99c55d9c7d16783b6aed36bf561f839a62c0611c697d0603e1722e8d493b11bf",
@@ -10256,6 +10257,23 @@
         "CreatorAnxiety",
         "Loish",
         "ProlificPractice"
+      ]
+    },
+    {
+      "id": "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest [[MorganHousel]] source adds [[KnowledgeDurability]] as a time-horizon filter for reading and judgment. Recent acquisitions, quarterly results, vacancy rates, and one-year manager performance may be useful now, but their value decays unless they are interpreted through recurring mechanisms such as industry consolidation, sustainable competitive advantage, demand drivers, motivation, and execution. This extends [[MentalModels]] by showing how durable causal frameworks can organize later observations and combine with ideas from other domains; it also qualifies [[InformationOverload]] and [[FocusedReading]] by making likely future relevance one selection criterion. The synthesis is complementary rather than anti-news: current facts show what happened, while longer-lived explanations help decide what deserves attention and what it means. The article offers examples and personal recall rather than measured evidence of retention, transfer, or decision quality; books can contain obsolete detail, journalism can reveal durable mechanisms, and apparently timeless models still need testing against change. The remote lead image returned 404 over HTTP and HTTPS, and the current publisher page exposes no replacement, so no visual evidence was used.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "psychology-and-personal-development": 3
+      },
+      "wikilinks": [
+        "FocusedReading",
+        "InformationOverload",
+        "KnowledgeDurability",
+        "MentalModels",
+        "MorganHousel"
       ]
     }
   ],

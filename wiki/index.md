@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Expiring vs. Long-Term Knowledge](sources/expiring-vs-long-term-knowledge-collaborative-fund.md) - Morgan Housel distinguishes short-lived facts from durable causal explanations that accumulate, transfer, and improve interpretation of later news.
 - [Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down](sources/exclusive-how-elizabeth-holmess-house-of-cards-came-tumbling-down-vanity-fair.md) - A truncated Vanity Fair standfirst attributes Theranos's collapse to disputed blood-testing claims, rejected medical expertise, and organizational secrecy, while leaving the promised evidence unavailable.
 - [Exclusive: Ideo’s Plan To Stage An AI Revolution](sources/exclusive-ideos-plan-to-stage-an-ai-revolution.md) - IDEO's 2017 Datascope acquisition frames data and algorithms as design media and proposes augmented intelligence built through human-centered, iterative collaboration.
 - [Exclusive Interview: OpenAI’s Sam Altman Talks ChatGPT And How Artificial General Intelligence Can ‘Break Capitalism’](sources/exclusive-interview-openais-sam-altman-talks-chatgpt-and-how-artificial-general-intelligence-can-break-capitalism.md) - Sam Altman attributes ChatGPT's breakout to fine-tuning and interaction design, predicts gradual AGI, and argues its economic and release governance require new institutional arrangements.
@@ -1288,7 +1289,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Looker](entities/Looker.md) - Analytics product cited through Looker Blocks as part of an end-to-end funnel-analysis stack.
 - [Amazon](entities/Amazon.md) - Retail, infrastructure, and ecosystem company using internal capabilities and partners across commerce, cloud, logistics, and financial services.
 - [Jeff Bezos](entities/JeffBezos.md) - Amazon founder cited for the strategic question of what will not change over a ten-year horizon.
-- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, business strategy, psychology, optionality, and behavioral risk judgment.
+- [Morgan Housel](entities/MorganHousel.md) - Collaborative Fund author connecting investing, strategy, behavioral judgment, repeatability, and durable knowledge.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and investing-firm context for essays on durable strategy, behavioral judgment, repeatable learning, and person-strategy fit.
 - [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage and for staying inside a defined circle of competence.
 - [GEICO](entities/GEICO.md) - Insurance company used to illustrate persistent cost and convenience advantages amid changing channels.
@@ -1904,6 +1905,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Knowledge Durability](concepts/KnowledgeDurability.md) - Degree to which information remains useful across time and contexts because it explains recurring mechanisms rather than only current facts.
 - [Organizational Secrecy](concepts/OrganizationalSecrecy.md) - Restricted information flow that becomes a governance risk when it blocks challenge, verification, or correction of consequential claims.
 - [Augmented Intelligence](concepts/AugmentedIntelligence.md) - AI design aimed at extending human capability through continuing collaboration among people, data, and algorithms.
 - [Human-Centered Design](concepts/HumanCenteredDesign.md) - Iterative inquiry into people's needs, contexts, interactions, and outcomes across products and sociotechnical systems.
@@ -2151,7 +2153,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [University Website Governance](concepts/UniversityWebsiteGovernance.md) - Allocation of purpose, authority, staffing, standards, access, and maintenance responsibility across a university web presence.
 - [Information Overload](concepts/InformationOverload.md) - Condition in which content, social filtering, distraction, and attractive choices exceed a person's capacity to evaluate and consume them.
 - [Breakthrough Knowledge](concepts/BreakthroughKnowledge.md) - High-leverage information that changes governing beliefs, questions, or decisions by supplying a durable new lens.
-- [Mental Models](concepts/MentalModels.md) - Compact representations of recurring phenomena used to interpret situations and transfer patterns across domains.
+- [Mental Models](concepts/MentalModels.md) - Simplifying representations used to interpret systems and events, predict outcomes, and transfer recurring patterns across domains.
 - [Learning How to Learn](concepts/LearningHowToLearn.md) - Trainable ability to find, evaluate, retain, and apply knowledge with less wasted time and attention.
 - [Neural Network](concepts/NeuralNetwork.md) - Layered weighted units whose composition computes a fitted mathematical function, with attractor basins, learned internal features, and capacity that depends on the task.
 - [Neural Network Training](concepts/NeuralNetworkTraining.md) - The loop of examples, loss, and weight updates that fits a network, including data acquisition, epochs, augmentation, hyperparameters, and GPU-bound scaling.

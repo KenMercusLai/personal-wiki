@@ -6,7 +6,8 @@ sources:
   - betting-on-things-that-never-change-collaborative-fund
   - blog-morgan-housel-collab-fund-a-few-beliefs
   - collaborative-fund-lucky-vs-repeatable
-last_updated: 2026-09-15
+  - expiring-vs-long-term-knowledge-collaborative-fund
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,7 +15,7 @@ knowledge_schema: synthesis-v1
 [[MorganHousel]] is a Collaborative Fund author in the wiki corpus whose essays connect investing, business strategy, psychology, and personal judgment.
 
 ## Current Profile
-The sources present Housel as a writer who compresses investing and business ideas into memorable judgment heuristics. In the timeless-strategy essay, he uses Amazon, Bezos, Buffett, GEICO, and venture-capital examples to argue that compounding depends on stable demand as well as change. In the beliefs article, he shifts from company strategy to personal decision quality: risk what you need for what you want and you can ruin yourself; debt reduces optionality while savings expand it; incentives, confirmation, denial, stale beliefs, and narrow experience distort confidence. The repeatability essay adds a learning filter: instead of debating whether success was lucky, ask which parts of the result can actually be repeated by someone else in a different era.
+The sources present Housel as a writer who compresses investing and business ideas into memorable judgment heuristics. In the timeless-strategy essay, he uses Amazon, Bezos, Buffett, GEICO, and venture-capital examples to argue that compounding depends on stable demand as well as change. In the beliefs article, he shifts from company strategy to personal decision quality: risk what you need for what you want and you can ruin yourself; debt reduces optionality while savings expand it; incentives, confirmation, denial, stale beliefs, and narrow experience distort confidence. The repeatability essay adds a historical-learning filter: ask which parts of a result another person could reproduce in a different era. The knowledge-durability essay adds an information filter: distinguish current facts from reusable explanations, then use the latter to interpret the former.
 
 ## Key Characteristics
 - Writes about business and investing through memorable strategic patterns.
@@ -23,6 +24,7 @@ The sources present Housel as a writer who compresses investing and business ide
 - Emphasizes behavioral humility: probability, regret, incentives, expectations, overconfidence, and personal limits matter as much as analysis.
 - Connects money to optionality, time control, status signaling, and expectations rather than only returns.
 - Separates repeatable skills and broad lessons from one-time historical circumstances.
+- Distinguishes short-lived facts from durable causal frameworks that can organize later information.
 
 ## Evidence
 - Authorial role: [[betting-on-things-that-never-change-collaborative-fund]] is written as Housel's essay at Collaborative Fund.
@@ -32,12 +34,13 @@ The sources present Housel as a writer who compresses investing and business ide
 - Personal-finance scope: [[blog-morgan-housel-collab-fund-a-few-beliefs]] treats happiness, expectations, status spending, and control over time as financial outcomes.
 - Repeatability frame: [[collaborative-fund-lucky-vs-repeatable]] asks what is not repeatable and applies the filter to Amazon, Buffett, Rockefeller, Musk, Bezos, and post-crash investing lessons.
 - History-learning boundary: [[collaborative-fund-lucky-vs-repeatable]] argues that business and investing history should teach broad lessons without being treated as a direct future map.
+- Knowledge filter: [[expiring-vs-long-term-knowledge-collaborative-fund]] distinguishes expiring facts from explanations of recurring mechanisms and uses Microsoft, management, books, and news as examples.
 
 ## Qualifications
-This page only captures Housel's role in the ingested sources. It does not profile his later books, full investing philosophy, or broader career.
+This page only captures Housel's role in the ingested sources. It does not profile his complete body of work, investing philosophy, or broader career. The knowledge-durability essay relies on examples and personal recall rather than measured comparisons of media, retention, or decision outcomes.
 
 ## What Changed
-- Added Housel's repeatability filter for learning from success stories and financial history.
+- Added Housel's durability filter for distinguishing current facts from reusable explanations.
 
 ## Relationships
 - [[CollaborativeFund]] - publication context for Housel's essay.
@@ -45,5 +48,7 @@ This page only captures Housel's role in the ingested sources. It does not profi
 - [[InvestmentRiskDiscipline]] - behavioral guardrails reinforced by his beliefs article.
 - [[BehavioralRiskJudgment]] - uncertainty and belief-calibration concept developed from his beliefs article.
 - [[RepeatableLearningFromHistory]] - learning filter developed from his repeatability essay.
+- [[KnowledgeDurability]] - information-selection and interpretation filter developed from the newest essay.
+- [[MentalModels]] - reusable frameworks that connect Housel's durable-knowledge argument to later interpretation.
 - [[Amazon]] - central company case in the essay.
 - [[WarrenBuffett]] - investor example Housel uses to compare change and timelessness.

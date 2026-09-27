@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - expiring-vs-long-term-knowledge-collaborative-fund
   - expert-revenue-models-for-new-media
   - exclusive-ideos-plan-to-stage-an-ai-revolution
   - everything-you-need-to-know-about-what-amazon-is-doing-in-financial-services
@@ -1615,7 +1616,10 @@ The newest [[EricFu]] source adds [[TimeSeriesDatabase]] as a data-model distinc
 
 The newest [[Loish]] source adds [[ArtBlock]] as a visual-art instance of [[CreatorAnxiety]] and extends [[ProlificPractice]] with retrospective self-comparison. Paired 2004 and 2016 drawings visibly differ in anatomy, volume, gesture, detail, and line confidence, making a creator's own earlier work a more informative progress baseline than current flaws judged only against professionals. The practical response combines evidence and reduced stakes: revisit old work to notice development, then allow the next attempt to be poor or playful so fear of failure does not prevent making. This also connects to [[CreativePresence]], because drawing for enjoyment can loosen performance pressure. The evidence remains selected before-and-after work plus practitioner testimony; it does not isolate repetition from instruction, feedback, maturation, elapsed time, or curation, and it does not address every cause of persistent creative blockage. Two unique comparison images were retained at their semantic positions, while a lower-resolution duplicate of the portrait comparison was omitted.
 
+The newest [[MorganHousel]] source adds [[KnowledgeDurability]] as a time-horizon filter for reading and judgment. Recent acquisitions, quarterly results, vacancy rates, and one-year manager performance may be useful now, but their value decays unless they are interpreted through recurring mechanisms such as industry consolidation, sustainable competitive advantage, demand drivers, motivation, and execution. This extends [[MentalModels]] by showing how durable causal frameworks can organize later observations and combine with ideas from other domains; it also qualifies [[InformationOverload]] and [[FocusedReading]] by making likely future relevance one selection criterion. The synthesis is complementary rather than anti-news: current facts show what happened, while longer-lived explanations help decide what deserves attention and what it means. The article offers examples and personal recall rather than measured evidence of retention, transfer, or decision quality; books can contain obsolete detail, journalism can reveal durable mechanisms, and apparently timeless models still need testing against change. The remote lead image returned 404 over HTTP and HTTPS, and the current publisher page exposes no replacement, so no visual evidence was used.
+
 ## Open Questions
+- How can readers test whether an apparently durable framework still explains current evidence rather than merely surviving because it is memorable?
 - Which workload measurements justify a vector-native time-series engine over PostgreSQL extensions or a general analytical database once operations and data movement are included?
 - How should systems align, interpolate, and qualify independently sampled series without turning missing data into false precision?
 - Which product measures and user-research designs can distinguish valuable configurability from builder-driven feature breadth before complexity accumulates?

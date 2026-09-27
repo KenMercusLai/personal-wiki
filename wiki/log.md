@@ -5347,3 +5347,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Expiring vs. Long-Term Knowledge
+
+Added [[MorganHousel]]'s distinction between expiring facts and durable explanations of recurring mechanisms, incentives, and relationships. Created [[KnowledgeDurability]] and updated [[MentalModels]] and Morgan Housel from their complete ordered evidence inventories, preserving the limits that the argument is a practitioner heuristic, media format does not determine durability, current facts can be decision-critical, and long-lived models can themselves expire. The sole remote lead image returned HTTP 404 over both HTTP and HTTPS, and the current publisher page exposes no replacement, so it could not be inspected or retained and no visual evidence was used.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
