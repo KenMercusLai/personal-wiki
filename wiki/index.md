@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Etsy CTO Q&A: We Need Software Engineers, Not Developers](sources/etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack.md) - John Allspaw describes Etsy's small familiar toolset, explicit novelty costs, simple deployment, production ownership, multidisciplinary engineering, and human-centered machine-learning stance.
 - [Estimation for Fun and Profit (but mostly for sanity)](sources/estimation-for-fun-and-profit-but-mostly-for-sanity-8th-light.md) - Bjorn Johnson connects vertical user-story slices with three-scenario PERT estimates and simultaneous team input while treating schedules as uncertain judgments rather than commitments.
 - [Estimating Work: A Software Development Superpower](sources/estimating-work-a-software-development-superpower-hackernoon-com-medium.md) - A HackerNoon essay recommends phase-by-phase software estimates and review by codebase-familiar engineers while tying forecast error to cost and lost capacity.
 - [到底什么是时序数据库？](sources/eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku.md) - Eric Fu defines time-series data through named and labeled timestamp-value vectors, separates time- and label-axis operations, and uses the model to compare six database designs.
@@ -663,6 +664,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [John Allspaw](entities/JohnAllspaw.md) - Etsy CTO represented through a 2016 engineering philosophy of stack restraint, production ownership, cross-domain learning, and human judgment in automation.
 - [Bjorn Johnson](entities/BjornJohnson.md) - 8th Light author connecting deliverable user-story slices with uncertainty-aware team estimation.
 - [Robert C. Martin](entities/RobertCMartin.md) - Author cited as the source of the “Flying Fingers” simultaneous estimation technique.
 - [Eric Fu](entities/EricFu.md) - Technical author proposing a data-model-centered definition of time-series databases.
@@ -1189,7 +1191,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Jotform](entities/Jotform.md) - Bootstrapped form-builder company presented as a side project that became a full-time SaaS business.
 - [Vox](entities/Vox.md) - Explanatory journalism publication source for the automation-and-human-labor article.
 - [Starbucks](entities/Starbucks.md) - Coffee-service example where visible barista attention and preparation performance carry value.
-- [Etsy](entities/Etsy.md) - Craft marketplace example where non-mass-produced goods and maker connection are part of the appeal.
+- [Etsy](entities/Etsy.md) - Craft marketplace combining maker-centered value with product experimentation, stack restraint, simple deployment, and production ownership.
 - [Jim Merrill](entities/JimMerrill.md) - Riot Games engineer and BVS-Dev tech captain explaining League of Legends test automation.
 - [Riot Games](entities/RiotGames.md) - Game company operating League of Legends and the Build Verification System described in the source.
 - [League of Legends](entities/LeagueOfLegends.md) - Live multiplayer game used as the source's production-scale automated testing target.
@@ -1873,6 +1875,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [Production Ownership](concepts/ProductionOwnership.md) - Continuing responsibility for observing, operating, and improving software after the people who build it deploy it.
 - [PERT Estimation](concepts/PERTEstimation.md) - Three-scenario estimation method that makes optimistic, realistic, and pessimistic conditions, risk, and team disagreement explicit.
 - [Software Estimation](concepts/SoftwareEstimation.md) - Forecasting delivery effort through inspectable decomposition, explicit assumptions, codebase-informed review, and uncertainty-aware resource judgment.
 - [Time Series Database](concepts/TimeSeriesDatabase.md) - Database model built around named and labeled timestamp-value vectors, temporal operators, and explicit alignment semantics.
@@ -1929,7 +1932,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Founder Exit Tradeoff](concepts/FounderExitTradeoff.md) - Decision to exchange control, momentum, and uncertain upside for liquidity, stability, resources, and reduced independent risk.
 - [Developer Customer Exposure](concepts/DeveloperCustomerExposure.md) - Direct user and customer contact for selected engineers to ground motivation and product judgment in firsthand problems.
 - [Maker-Mender Developer Styles](concepts/MakerMenderDeveloperStyles.md) - Practitioner heuristic contrasting attraction to greenfield creation with attraction to sustained improvement of existing software.
-- [DevOps Culture](concepts/DevOpsCulture.md) - Organization-wide shared responsibility, goals, feedback, and delivery practices for moving software quickly without sacrificing reliability or security.
+- [DevOps Culture](concepts/DevOpsCulture.md) - Organization-wide shared responsibility joining delivery authority, production feedback, common goals, and cross-domain operational learning.
 - [Developer Marketing](concepts/DeveloperMarketing.md) - Stage-dependent marketing for technical products built around useful content, credible participation, product-quality web surfaces, and measured channel expansion.
 - [Mobility on Demand](concepts/MobilityOnDemand.md) - Transportation model that replaces ownership of one compromise vehicle with convenient access to a purpose-fit vehicle for each trip or task.
 - [Outcome-First Product Flow](concepts/OutcomeFirstProductFlow.md) - Interaction structure that collects outcome-defining context early so later choices can be narrowed, explained, and prepared in parallel.
@@ -2033,7 +2036,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Inclusive Hiring](concepts/InclusiveHiring.md) - Early design of sourcing, transparent evidence criteria, candidate access, calibration, and team conditions for varied contributors.
 - [Hiring System Design](concepts/HiringSystemDesign.md) - Product-style design of team outcomes, evidence criteria, candidate interactions, decision rights, measurement, and iteration.
 - [System Architecture Principles](concepts/SystemArchitecturePrinciples.md) - Benefits-first rules connecting services, correctness, standards, control capabilities, operability, debt boundaries, and contextual technology choice.
-- [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working software while managing quality, delivery time, cost, complexity, change, operation, and maintenance.
+- [Software Engineering](concepts/SoftwareEngineering.md) - Turning needs into working, operable software through multidisciplinary design, delivery, observation, ownership, and maintenance.
 - [Essential and Accidental Complexity](concepts/EssentialAndAccidentalComplexity.md) - Distinction between difficulty inherent in understanding a problem and the machinery required to implement and operate its solution.
 - [Forward-Reference Learning](concepts/ForwardReferenceLearning.md) - Learning pattern in which a concept is encountered or used before its dependencies are fully explained, requiring temporary ambiguity and later review.
 - [Persona Distillation](concepts/PersonaDistillation.md) - Lossy compression of a person's recorded outputs into a role card that can guide imitation without reconstructing the person or their generating process.
@@ -2121,7 +2124,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Semantic Grammar](concepts/SemanticGrammar.md) - Proposed rules about how meaningful units combine, finer than syntax, resting on a model of the world and generalizing logic's small corner of meaning.
 - [Computational Language](concepts/ComputationalLanguage.md) - A precise, executable symbolic representation that can talk about the world, requiring an ontology and expected to compress what ordinary language says with turns of phrase.
 - [Text Generation Sampling](concepts/TextGenerationSampling.md) - The rule that turns a next-token probability list into text, from deterministic greedy decoding to temperature-based sampling of lower-ranked tokens.
-- [Boring Technology](concepts/BoringTechnology.md) - Practice of choosing mature, well-understood tools over fashionable ones so a small operator's attention goes to the product rather than the stack.
+- [Boring Technology](concepts/BoringTechnology.md) - Choosing and governing mature, well-understood tools so engineering attention goes to product value rather than unnecessary novelty costs.
 - [Overthinking as a Barrier](concepts/OverthinkingAsBarrier.md) - Claim that deliberation and premature optimization, not missing tools or skill, are the usual obstacle between a builder and a shipped product.
 - [Idea Versus Execution](concepts/IdeaVersusExecution.md) - Claim that implementation, service, and effort rather than the idea decide a startup's outcome, including in markets a funded competitor already occupies.
 - [Circle of Competence](concepts/CircleOfCompetence.md) - Bounded set of domains a person has built enough understanding to evaluate, where knowing the boundary matters more than the size.

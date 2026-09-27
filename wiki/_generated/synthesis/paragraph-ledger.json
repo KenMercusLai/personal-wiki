@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "e3340fbe40ccac78a3141f707058162d20ebca092f44b42c1275d7be778730c7",
       "c5baaa37801f63c4a59cde615d00529418141c06f1688510b84e75ce90189d61",
       "a305fed08affd280feacfab9b11020a4a2e976f9703947029f70211648f1acd8",
       "5cdb4119c8280c8ec7424e2053d33ad92070a332ea1c12e9c1d647bfa141b97a",
@@ -501,11 +502,28 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba"
     ],
-    "paragraph_count": 499
+    "paragraph_count": 500
   },
-  "overview_commit": "4ca02473a5f9809cd7337e26a0751ae374c6d1c4",
-  "overview_digest": "fdfcced593a805b581aed02788db9ff06da5e417596868136176027a7200296f",
+  "overview_commit": "2e3d9d833932cd92d8586f578dabffed24799150",
+  "overview_digest": "d76386136ce96b125c6c898fef13d92f0426125e083cfae38ee8aef1fc86dd42",
   "paragraphs": [
+    {
+      "id": "e3340fbe40ccac78a3141f707058162d20ebca092f44b42c1275d7be778730c7",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest [[JohnAllspaw]] interview adds [[ProductionOwnership]] as the operational feedback loop inside the wiki's software-engineering and DevOps material. Etsy's “you build it, you own it” model joins easy deploy authority with responsibility for monitoring, alerting, metrics, failure discovery, and recovery, while preserving specialist expertise through shared cross-domain learning rather than expecting one person to know every layer. [[BoringTechnology]] gains an organization-scale mechanism: keep a small familiar toolset, use architecture review to surface existing internal solutions, and make each proposed technology's long-term learning and support cost explicit so infrastructure novelty does not consume product freedom. The source also qualifies its “engineers, not developers” title as a responsibility model rather than a stable occupational hierarchy, and its human-centered machine-learning stance treats recommendations and other automated decisions as encoded judgment rather than an escape from judgment. The evidence is one 2016 executive interview without comparative incident, delivery, workforce, or recommendation outcomes; production ownership needs real authority, platform support, sustainable on-call practice, access controls, and psychological safety to avoid becoming blame or overload. All seven local images were opened and omitted as non-evidentiary office, artwork, portrait, or sponsor images.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BoringTechnology",
+        "JohnAllspaw",
+        "ProductionOwnership"
+      ]
+    },
     {
       "id": "c5baaa37801f63c4a59cde615d00529418141c06f1688510b84e75ce90189d61",
       "primary_topic": "ai-and-technology",

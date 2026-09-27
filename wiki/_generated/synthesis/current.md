@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-27
-as_of_overview_commit: 4ca02473a5f9809cd7337e26a0751ae374c6d1c4
-summary: "The atlas connects technology, markets, governance, culture, work, wellbeing, and privacy through calibrated evidence, capability, incentives, consent, and explicit boundaries."
-episode_count: 649
-source_count: 649
-paragraph_count: 499
+as_of_overview_commit: 2e3d9d833932cd92d8586f578dabffed24799150
+summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, ownership, capability, incentives, consent, and recoverable boundaries."
+episode_count: 650
+source_count: 650
+paragraph_count: 500
 topic_count: 9
 ---
 
@@ -16,7 +16,7 @@ topic_count: 9
 
 ## Executive Summary
 
-- [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
+- [[ProductionOwnership]] makes observation and operation part of the product feedback loop: [[JohnAllspaw]] connects simple deploy authority with monitoring, alerting, metrics, recovery, and supported learning across application, database, network, and infrastructure boundaries. Operational change safety, compliance evidence, database migration, and lifecycle management for fragile external or incumbent dependencies are likewise technical product capabilities, not late paperwork or deployment afterthoughts. [[Cloudflare]]'s BYOIP outage extends [[ChangeSafety]] and [[DeploymentAutomation]] to authoritative configuration: typed selection semantics, autonomous-job tests, health-mediated snapshots, and rate or breadth circuit breakers must contain propagation, while recovery must distinguish stopping a process or reverting code from reconstructing persistent, client-visible, mixed-version, and dependent operational state. [[DataFormatInteroperability]] adds persisted data to that boundary: [[Slack]]'s [[ApacheParquet]] case shows that shared format and metadata labels do not guarantee common semantics across library versions, null handling, field identity, schema layers, or live readers, so sanitization, constrained evolution, compatibility tests, and version-pinned I/O can become change controls.
 - Context and retrieval are design surfaces, not background plumbing: [[LLMContextManagement]] must balance effective attention with stable cacheable prefixes, using concise always-on rules, task-selected [[LLMToolingSkills]], action-triggered hooks, and lossy fresh-window handoffs. [[PromptCaching]] makes broad always-loaded schemas and nondeterministic tool results trajectory costs; focused [[ModelContextProtocol]] integrations retain structured value, while [[BashAsMetaTool]] can reveal large CLI surfaces recursively on demand. RAG, memory, dynamic compression, interface-delivered diagnostics, live code search, and live HTML retrieval likewise shape what a model can use or misuse. [[TapeAndAnchors]] and [[AgentTopicLifecycle]] preserve original history beneath selectable views and bounded recall; [[ZettelkastenMethod]] and [[SecondBrain]] add a non-AI counterpart in which stable identity, hypertext, keywords, and relational complexity can produce useful surprise, while [[PersonalKnowledgeManagement]] and [[InformationOverload]] retain the human limit that better retrieval does not by itself prove better reasoning.
 - [[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity.
 - [[BootstrappedCompanyBuilding]], [[ZebraCompanies]], and [[MissionAlignedCapital]] frame company design and financing design as one incentive system: [[DavidSpinks]] contrasts [[Feast]], where fundability became an operating goal, with customer-funded [[CMX]], while [[StefLewandowski]] and [[EmilyQuinton]] add [[Makelight]], where a hosted-service course test, consulting income, preorders, membership, and customer listening preserved early optionality but cash-flow constraints later reopened angel, crowdfunding, and debt choices; [[ZebrasUnite]] extends the principle by arguing that durable profit-and-purpose companies need compatible time horizons, ownership, governance, and peer infrastructure rather than unicorn-style pressure alone.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress needs calibrated evidence, explicit lifecycle and capability boundaries, evaluated context and retrieval, verification, accountable judgment, and controlled recovery.
+Technical progress needs calibrated evidence, explicit ownership and lifecycle boundaries, evaluated context and retrieval, verification, accountable judgment, and controlled recovery.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].

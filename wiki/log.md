@@ -5247,3 +5247,11 @@ Added [[BjornJohnson]]'s 2016 workflow connecting vertically sliced [[UserStorie
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Etsy CTO Q&A: We Need Software Engineers, Not Developers
+
+Added [[JohnAllspaw]]'s 2016 account of Etsy's deliberately small technology set, explicit review of novelty costs, simple new-hire deployment, production responsibility, and human-centered view of machine learning. Created John Allspaw and [[ProductionOwnership]]; updated [[Etsy]], [[SoftwareEngineering]], [[DevOpsCulture]], and [[BoringTechnology]] from their complete ordered evidence inventories. Preserved the boundaries that “engineers, not developers” is a rhetorical responsibility model rather than a universal title hierarchy, that broad ownership needs real authority and organizational support, and that the interview supplies no comparative delivery, incident, workforce, or recommendation outcomes. Opened all seven local images and omitted six office, artwork, and portrait photographs plus one sponsor logo as non-evidentiary.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
