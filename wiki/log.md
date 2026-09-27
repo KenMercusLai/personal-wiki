@@ -5344,6 +5344,10 @@ Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | Extend Your Mind and Memory With a Zettelkasten
+
+Added Christian Tietze's 2013 distinction between durable notes as external memory and manual links as a route to cross-text comparison, unexpected retrieval, and creative recombination. Updated [[ZettelkastenMethod]] and [[ChristianTietze]] from their complete ordered evidence inventories, preserving the limits that the extended-mind and creativity claims are practitioner analogies rather than measured effects. The local body image was missing, so the matching remote original was opened and inspected; retained one canonical BrainGate exhibit image at its semantic position and omitted the duplicate thumbnail/body references.
+
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -5359,6 +5363,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Exploring Effective User Signals
 
 Added [[SophiaFeng]]'s account of more than twenty Pinterest Growth Activation experiments on profile-signal coverage, onboarding, and personalization. Created Sophia Feng and [[ContextualSignalCollection]], and updated [[Pinterest]] from its complete ordered evidence inventory with the contrast between a damaging pre-registration request and a successful post-signup explanatory step. Preserved the limits of first-party relative metrics, missing statistical detail and long-term outcomes, and the source's dated binary gender framing and absent consent, privacy, inclusivity, and fairness analysis. Opened the sole local image and retained its Google-authentication control flow under a descriptive canonical filename with a complete manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 
