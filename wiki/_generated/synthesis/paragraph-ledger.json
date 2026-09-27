@@ -508,12 +508,13 @@
       "51cf967724e6170e222ccb5aa4362ad09247bdf082566f491e62f89444d25bf4",
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
       "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9",
-      "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255"
+      "355a7aadeb2dce2c69b37e2a3a8ce7be0f74d16165cbf654fc468edce75af255",
+      "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9"
     ],
-    "paragraph_count": 508
+    "paragraph_count": 509
   },
-  "overview_commit": "c6e8d41bbf3a68e43e134cd548e0aed9f677edb2",
-  "overview_digest": "5df71db3955b3084aab64f0dd476ca1c42e1a25f5eb18196a518ff53b352f362",
+  "overview_commit": "83fe38b6972075127daea00841cc1d5b9d41c80d",
+  "overview_digest": "0c680b29373f9f178f6f8a82fd07d47ed85d9adcd78a6fa80a391ae38a155f4d",
   "paragraphs": [
     {
       "id": "99c55d9c7d16783b6aed36bf561f839a62c0611c697d0603e1722e8d493b11bf",
@@ -10274,6 +10275,24 @@
         "KnowledgeDurability",
         "MentalModels",
         "MorganHousel"
+      ]
+    },
+    {
+      "id": "8c03d30a39b53c7c419a7b33fc61ae869b834b38445d3ed5606a216a296a6ee9",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[Pinterest]] source adds [[ContextualSignalCollection]] as a bridge between personalization data, product education, and onboarding design. [[SophiaFeng]] reports that asking Google-authenticated users for gender before registration improved activation among those who continued but reduced Google signups by 30%; moving a redesigned request after signup reportedly increased onboarding completion by 11% despite adding a step. A Facebook cohort with complete gender coverage also improved by 8%, suggesting that explaining how Pinterest personalizes content contributed separately from obtaining a missing field. This qualifies [[ProductFlowFriction]]: an extra action is not inherently harmful when it resolves uncertainty or teaches users why later value depends on setup, while a useful request can still fail when it violates the expected authentication boundary. The evidence is a first-party 2018 retrospective with relative metrics but no sample sizes, absolute rates, uncertainty, retention, or recommendation-quality outcomes. Its binary gender framing and coverage-first language also omit consent quality, privacy, inclusivity, fairness, non-disclosure, and whether less intrusive signals could provide comparable relevance. The retained control-flow diagram grounds the baseline transition from Google authentication through registration into topic selection and the home feed.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "ContextualSignalCollection",
+        "Pinterest",
+        "ProductFlowFriction",
+        "SophiaFeng"
       ]
     }
   ],

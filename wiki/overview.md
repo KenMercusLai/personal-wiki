@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - exploring-effective-user-signals-pinterest-engineering-blog-medium
   - expiring-vs-long-term-knowledge-collaborative-fund
   - expert-revenue-models-for-new-media
   - exclusive-ideos-plan-to-stage-an-ai-revolution
@@ -1618,7 +1619,11 @@ The newest [[Loish]] source adds [[ArtBlock]] as a visual-art instance of [[Crea
 
 The newest [[MorganHousel]] source adds [[KnowledgeDurability]] as a time-horizon filter for reading and judgment. Recent acquisitions, quarterly results, vacancy rates, and one-year manager performance may be useful now, but their value decays unless they are interpreted through recurring mechanisms such as industry consolidation, sustainable competitive advantage, demand drivers, motivation, and execution. This extends [[MentalModels]] by showing how durable causal frameworks can organize later observations and combine with ideas from other domains; it also qualifies [[InformationOverload]] and [[FocusedReading]] by making likely future relevance one selection criterion. The synthesis is complementary rather than anti-news: current facts show what happened, while longer-lived explanations help decide what deserves attention and what it means. The article offers examples and personal recall rather than measured evidence of retention, transfer, or decision quality; books can contain obsolete detail, journalism can reveal durable mechanisms, and apparently timeless models still need testing against change. The remote lead image returned 404 over HTTP and HTTPS, and the current publisher page exposes no replacement, so no visual evidence was used.
 
+The newest [[Pinterest]] source adds [[ContextualSignalCollection]] as a bridge between personalization data, product education, and onboarding design. [[SophiaFeng]] reports that asking Google-authenticated users for gender before registration improved activation among those who continued but reduced Google signups by 30%; moving a redesigned request after signup reportedly increased onboarding completion by 11% despite adding a step. A Facebook cohort with complete gender coverage also improved by 8%, suggesting that explaining how Pinterest personalizes content contributed separately from obtaining a missing field. This qualifies [[ProductFlowFriction]]: an extra action is not inherently harmful when it resolves uncertainty or teaches users why later value depends on setup, while a useful request can still fail when it violates the expected authentication boundary. The evidence is a first-party 2018 retrospective with relative metrics but no sample sizes, absolute rates, uncertainty, retention, or recommendation-quality outcomes. Its binary gender framing and coverage-first language also omit consent quality, privacy, inclusivity, fairness, non-disclosure, and whether less intrusive signals could provide comparable relevance. The retained control-flow diagram grounds the baseline transition from Google authentication through registration into topic selection and the home feed.
+
 ## Open Questions
+- How should products test the incremental value of a sensitive profile attribute against behavioral or contextual alternatives that demand less disclosure?
+- Which experiment designs can separate the benefit of collecting a signal from the benefit of explaining personalization and orienting a new user?
 - How can readers test whether an apparently durable framework still explains current evidence rather than merely surviving because it is memorable?
 - Which workload measurements justify a vector-native time-series engine over PostgreSQL extensions or a general analytical database once operations and data movement are included?
 - How should systems align, interpolate, and qualify independently sampled series without turning missing data into false precision?

@@ -5355,3 +5355,11 @@ Added [[MorganHousel]]'s distinction between expiring facts and durable explanat
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Exploring Effective User Signals
+
+Added [[SophiaFeng]]'s account of more than twenty Pinterest Growth Activation experiments on profile-signal coverage, onboarding, and personalization. Created Sophia Feng and [[ContextualSignalCollection]], and updated [[Pinterest]] from its complete ordered evidence inventory with the contrast between a damaging pre-registration request and a successful post-signup explanatory step. Preserved the limits of first-party relative metrics, missing statistical detail and long-term outcomes, and the source's dated binary gender framing and absent consent, privacy, inclusivity, and fairness analysis. Opened the sole local image and retained its Google-authentication control flow under a descriptive canonical filename with a complete manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

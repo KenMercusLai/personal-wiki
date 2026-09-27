@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Exploring Effective User Signals](sources/exploring-effective-user-signals-pinterest-engineering-blog-medium.md) - Pinterest's onboarding experiments show that a signal request can help personalization yet damage signup when its timing and value are unclear.
 - [Expiring vs. Long-Term Knowledge](sources/expiring-vs-long-term-knowledge-collaborative-fund.md) - Morgan Housel distinguishes short-lived facts from durable causal explanations that accumulate, transfer, and improve interpretation of later news.
 - [Exclusive: How Elizabeth Holmes’s House of Cards Came Tumbling Down](sources/exclusive-how-elizabeth-holmess-house-of-cards-came-tumbling-down-vanity-fair.md) - A truncated Vanity Fair standfirst attributes Theranos's collapse to disputed blood-testing claims, rejected medical expertise, and organizational secrecy, while leaving the promised evidence unavailable.
 - [Exclusive: Ideo’s Plan To Stage An AI Revolution](sources/exclusive-ideos-plan-to-stage-an-ai-revolution.md) - IDEO's 2017 Datascope acquisition frames data and algorithms as design media and proposes augmented intelligence built through human-centered, iterative collaboration.
@@ -1558,7 +1559,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Instapaper](entities/Instapaper.md) - Read-later service that grew from a narrow offline-reading side project through mixed early revenue, platform expansion, acquisitions, and a mature reading workflow.
 - [Marco Arment](entities/MarcoArment.md) - Instapaper founder who moved from a five-hour prototype and evening development to a deliberately small full-time software business.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
-- [Pinterest](entities/Pinterest.md) - Company that acquired Instapaper in 2016 and made Premium free while keeping the product standalone.
+- [Pinterest](entities/Pinterest.md) - Visual-discovery company represented through acquisition, viral artifacts, mobile-web investment, and contextual personalization-signal experiments.
+- [Sophia Feng](entities/SophiaFeng.md) - Pinterest Growth software engineer who documented experiments on onboarding, signal coverage, and personalization.
 - [App Store](entities/AppStore.md) - Apple's mobile marketplace, combining app distribution and volatile discovery with stronger spending than Google Play in the 2015 and Q4 2017 snapshots.
 - [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 and Q4 2017 estimates frame the Google Play versus App Store download and spending split.
 - [Sensor Tower](entities/SensorTower.md) - Mobile app analytics firm whose App Intelligence data shows short-lived No. 1 iPhone download-chart visibility.
@@ -2475,6 +2477,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [SaaS Retention](concepts/SaaSRetention.md) - Ability of a SaaS business to keep customers using and paying despite competition and low switching costs.
 - [Product-Led Retention](concepts/ProductLedRetention.md) - Retention strategy based on compounding product value, deeper usage, account expansion, and message-value fit.
 - [Product Flow Friction](concepts/ProductFlowFriction.md) - Total practical and cognitive effort in a user flow, including app-store, installation, signup, login, and platform-data tradeoffs.
+- [Contextual Signal Collection](concepts/ContextualSignalCollection.md) - Requesting user information where its purpose, product value, and interruption cost are understandable.
 - [Cognitive Overhead in Product Design](concepts/CognitiveOverheadInProductDesign.md) - Product-design burden created when users must make too many mental connections to understand purpose, control, system behavior, or value.
 - [Product Engagement Ladder](concepts/ProductEngagementLadder.md) - Product-growth framework for staging user learning from first value through deeper engagement and expertise.
 - [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.

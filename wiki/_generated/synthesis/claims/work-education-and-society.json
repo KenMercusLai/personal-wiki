@@ -967,10 +967,10 @@
       "global_candidate": false,
       "id": "first-mile-design-sequences-newcomer-learning",
       "qualifications": [
-        "The evidence is a 2016 practitioner framework rather than controlled research on learning, activation, or retention.",
-        "Proactive defaults may reduce agency or trust when wrong, novelty may not persist, users have more varied motives than the source's heuristic suggests, and later cohorts require renewed research rather than automatic reuse."
+        "The evidence combines a 2016 practitioner framework with one first-party 2018 experiment retrospective that omits sample sizes, absolute rates, uncertainty, duration, and long-term retention.",
+        "Proactive defaults and profile requests may reduce agency or trust when wrong; sensitive attributes also require consent, privacy, inclusivity, fairness, and non-disclosure options that the Pinterest account does not evaluate."
       ],
-      "statement": "[[FirstMileProductExperience]] and [[ProductEngagementLadder]] divide product learning into an orientation threshold followed by deeper skill progression: templates, useful defaults and empty states, familiar patterns, immediate utility, and a clear next action can reduce [[CognitiveOverheadInProductDesign]] before broader instruction.",
+      "statement": "[[FirstMileProductExperience]] and [[ProductEngagementLadder]] divide product learning into an orientation threshold followed by deeper skill progression: templates, useful defaults and empty states, familiar patterns, immediate utility, and a clear next action can reduce [[CognitiveOverheadInProductDesign]] before broader instruction. [[ContextualSignalCollection]] adds that a justified setup step can improve onboarding when its timing and personalization value are clear, while the same request can cause abandonment across an unexpected registration boundary.",
       "status": "qualified",
       "supporting_wikilinks": [
         "FirstMileProductExperience",
@@ -978,7 +978,10 @@
         "CognitiveOverheadInProductDesign",
         "ProductFlowFriction",
         "ProductLedRetention",
-        "ScottBelsky"
+        "ScottBelsky",
+        "ContextualSignalCollection",
+        "Pinterest",
+        "SophiaFeng"
       ]
     },
     {
@@ -1115,6 +1118,6 @@
       ]
     }
   ],
-  "summary": "Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work now also shows a labor-design boundary: platforms can reduce monetization and discovery friction, but direct audience relationships, interpretable metrics, community support, and burnout mitigation matter because creators increasingly combine making with marketing, entrepreneurship, and community leadership.",
+  "summary": "Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work now also shows a labor-design boundary: platforms can reduce monetization and discovery friction, but direct audience relationships, interpretable metrics, community support, and burnout mitigation matter because creators increasingly combine making with marketing, entrepreneurship, and community leadership. Pinterest's onboarding case adds that first-mile education can justify an extra setup step when timing and user value are clear, while sensitive signal requests still require consent and privacy boundaries beyond completion metrics.",
   "topic_id": "work-education-and-society"
 }

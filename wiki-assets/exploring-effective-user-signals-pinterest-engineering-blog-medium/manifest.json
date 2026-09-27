@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "exploring-effective-user-signals-pinterest-engineering-blog-medium",
+  "images": [
+    {
+      "file": "pinterest-google-signup-control-flow.png",
+      "alt": "Pinterest control flow from signup through Google authentication, topic selection, and the home feed"
+    }
+  ]
+}
