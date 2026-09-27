@@ -5239,3 +5239,11 @@ Added a 2016 practitioner argument for phase-by-phase software estimation, peer 
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Estimation for Fun and Profit (but mostly for sanity)
+
+Added [[BjornJohnson]]'s 2016 workflow connecting vertically sliced [[UserStories]], acceptance criteria, [[PERTEstimation]], and simultaneous team estimates. Created [[BjornJohnson]], [[RobertCMartin]], and PERT Estimation; updated [[SoftwareEstimation]], User Stories, and [[8thLight]] from their complete ordered evidence inventories. Preserved the distinction between scenario range and team disagreement, and qualified averaging, confidence language, and PERT calculation because the source supplies no formula, calibration, or forecast-versus-actual results. The relative layer-cake image was absent from the export and the remote logo returned HTTP 404, so neither could be inspected or retained and no visual evidence was used.
+
+## [2026-09-27] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

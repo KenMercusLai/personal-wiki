@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Estimation for Fun and Profit (but mostly for sanity)](sources/estimation-for-fun-and-profit-but-mostly-for-sanity-8th-light.md) - Bjorn Johnson connects vertical user-story slices with three-scenario PERT estimates and simultaneous team input while treating schedules as uncertain judgments rather than commitments.
 - [Estimating Work: A Software Development Superpower](sources/estimating-work-a-software-development-superpower-hackernoon-com-medium.md) - A HackerNoon essay recommends phase-by-phase software estimates and review by codebase-familiar engineers while tying forecast error to cost and lost capacity.
 - [到底什么是时序数据库？](sources/eric-fu-dao-di-shi-yao-shi-xu-shu-ju-ku.md) - Eric Fu defines time-series data through named and labeled timestamp-value vectors, separates time- and label-axis operations, and uses the model to compare six database designs.
 - [Entrepreneurial Careers: Beyond the Fairy Tale Narrative](sources/entrepreneurial-careers-beyond-the-fairy-tale-narrative-by.md) - Adam Smith replaces the startup-to-acquisition fairy tale with a qualified map of founder roles, integration consequences, rest, serial entrepreneurship, investing, and larger-company work.
@@ -662,6 +663,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
 ## Entities
+- [Bjorn Johnson](entities/BjornJohnson.md) - 8th Light author connecting deliverable user-story slices with uncertainty-aware team estimation.
+- [Robert C. Martin](entities/RobertCMartin.md) - Author cited as the source of the “Flying Fingers” simultaneous estimation technique.
 - [Eric Fu](entities/EricFu.md) - Technical author proposing a data-model-centered definition of time-series databases.
 - [Prometheus](entities/Prometheus.md) - Monitoring and time-series system presented as the snapshot-oriented PromQL reference case.
 - [InfluxDB](entities/InfluxDB.md) - Measurement-and-tag time-series database presented as the vector-oriented query reference case.
@@ -1870,6 +1873,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
 ## Concepts
+- [PERT Estimation](concepts/PERTEstimation.md) - Three-scenario estimation method that makes optimistic, realistic, and pessimistic conditions, risk, and team disagreement explicit.
 - [Software Estimation](concepts/SoftwareEstimation.md) - Forecasting delivery effort through inspectable decomposition, explicit assumptions, codebase-informed review, and uncertainty-aware resource judgment.
 - [Time Series Database](concepts/TimeSeriesDatabase.md) - Database model built around named and labeled timestamp-value vectors, temporal operators, and explicit alignment semantics.
 - [Entrepreneurial Career Paths](concepts/EntrepreneurialCareerPaths.md) - Branching founder transitions across operating, acquisition, rest, serial founding, investing, larger-company work, and retirement.
