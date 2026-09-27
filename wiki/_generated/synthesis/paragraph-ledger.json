@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "c14d382da583464086aa29ed765eb7fab03229a08719becbdb95f5f29fad175b",
       "2d497d78b72d8959522d9b8ed1262476f9a1b233aecc16edd6e95f311c2ae25b",
       "d73256d331e038d2b72fc35020af9e14824a59096372320133c54dcff6f1a837",
       "c8f0c3100f46e9f5e7f877355151da5a0ccc9bd8287a817f001cb4fb971c1ab7",
@@ -524,11 +525,32 @@
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16"
     ],
-    "paragraph_count": 522
+    "paragraph_count": 523
   },
-  "overview_commit": "6a36ccdd5fab87911b033e50771dec6aa0b3cfa4",
-  "overview_digest": "da48d9be1dd83efd8cc65407232588f51b6efc7efdb74f812bf9749a51c53ecd",
+  "overview_commit": "160ebb1dabc45b9327edd9a7981c6a9c8461b5b4",
+  "overview_digest": "afd1af5701f7e858e6eb6dff5f46731005553b127adf3393b9d0f0dfddc989c4",
   "paragraphs": [
+    {
+      "id": "c14d382da583464086aa29ed765eb7fab03229a08719becbdb95f5f29fad175b",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[ToddJackson]] source adds [[ProductManagerHiring]] as a role-specific application of hiring-system design. Product management is compressed into three observable responsibilities—articulate what winning looks like, rally the team, and iterate toward the result—while baseline synthesis, communication, leadership, and organizational effectiveness are separated from stage-dependent technical, analytical, entrepreneurial, coding, mockup, and hands-on analysis skills. The proposed funnel combines a reciprocal screen, cross-functional interviews, an explicit stop gate, and a product presentation with live questions; closing begins with frequent direct communication and truthfully connects the role to the candidate's strongest individual motivation. This sharpens [[ProductManagement]] and [[ProductManagerAsCEO]] by treating influence, root-cause diagnosis, bounded experiments, example-setting, and unglamorous service work as positive evidence, rather than command authority. The framework remains one practitioner's account without scoring anchors, interviewer reliability, accessibility or burden controls, demographic outcomes, predictive validity, or post-hire validation. School reputation, prior-company prestige, technical pedigree, enthusiasm, culture judgments, and presentation polish can reproduce access and affinity bias unless translated into observable requirements and audited against outcomes. The sole local image was opened and retained as a documentary photograph identifying Jackson as the featured practitioner; it adds no independent evidence for the framework.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "ProductManagement",
+        "ProductManagerAsCEO",
+        "ProductManagerHiring",
+        "ToddJackson"
+      ]
+    },
     {
       "id": "2d497d78b72d8959522d9b8ed1262476f9a1b233aecc16edd6e95f311c2ae25b",
       "primary_topic": "work-education-and-society",

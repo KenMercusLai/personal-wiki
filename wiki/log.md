@@ -5514,3 +5514,11 @@ Added [[DavidAndersen]]'s 2016 financial-planning sequence for U.S. computer-sci
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Find, Vet and Close the Best Product Managers
+
+Added [[ToddJackson]]'s role-specific framework for defining, sourcing, evaluating, and closing product-manager candidates. Created Todd Jackson and [[ProductManagerHiring]], and updated [[ProductManagement]], [[ProductManagerAsCEO]], [[HiringSystemDesign]], and [[FirstRoundReview]] from their complete ordered evidence inventories. Preserved the practitioner-only evidence boundary and the risks that school reputation, employer prestige, technical pedigree, enthusiasm, culture judgments, and presentation polish can reproduce access or affinity bias without explicit scoring, calibration, accessibility, outcome validation, and adverse-impact review. Opened and retained the sole local image once at its semantic position as a documentary photograph identifying Jackson; it contributes no independent evidence for the hiring framework.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

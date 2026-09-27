@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 6a36ccdd5fab87911b033e50771dec6aa0b3cfa4
-summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, value, ownership, incentives, consent, and contextual fit."
-episode_count: 682
-source_count: 682
-paragraph_count: 522
+as_of_overview_commit: 160ebb1dabc45b9327edd9a7981c6a9c8461b5b4
+summary: "The atlas connects technology, markets, governance, culture, work, and wellbeing through evidence, value, ownership, incentives, consent, contextual fit, and auditable learning."
+episode_count: 683
+source_count: 683
+paragraph_count: 523
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts.
+- [[ProductManagement]], [[ProductLeadership]], [[ProductIdeaPrioritization]], [[ProductManagerAsCEO]], [[CEOScalingRole]], [[FounderInstinct]], [[ConsumerElectronicsIntegration]], [[VoiceAssistantUX]], [[SmartHomeInteroperability]], [[StreamingAppUX]], and [[AIMarketingHype]] turn product work into business outcomes by integrating customer value, technology, viability, KPIs, legal, marketing, finance, operations, stakeholder persuasion, ecosystem constraints, privacy, and accountability without boss authority. [[ToddJackson]] and [[ProductManagerHiring]] translate that scope into stage-sensitive selection evidence around product vision, team influence, iteration, structured reasoning, and service; [[TechnologyTransitionStrategy]] extends the integration to directional platform bets whose destination, lifetime, and retirement path are explicit.
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[RapidOrganizationalRestructuring]] makes compressed organizational change a governance problem: the [[Twitter]] case shows that deep cuts and concentrated authority can reduce cost while weakening comparable evaluation, protected dissent, product-risk review, and [[PlatformAbuseResponse]], so immediate uptime must be judged alongside safety, revenue, legal obligations, institutional knowledge, and recovery costs.
@@ -29,7 +29,7 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress needs calibrated evidence, workload-fit architecture, explicit ownership, verification, accountable judgment, and recoverable lifecycle controls.
+Technical progress needs calibrated evidence, workload-fit architecture, explicit ownership, verification, and recoverable lifecycle controls.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
@@ -75,14 +75,14 @@ Judgment and development depend on bounded attention, consent, representative fe
 
 ### Science, Health, and Climate
 
-Health and science claims require careful causal boundaries: the direct mental-health evidence is source-scoped, while the remaining topic is indirect or deterministically routed.
+Health and science claims require careful causal boundaries because direct evidence is narrow and much of the routed material is indirect.
 
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work, education, and social systems need accessible entry points, active learning, fair incentives, feedback, recovery, power-aware boundaries, and financial room for meaningful choice.
+Work, education, and social systems need accessible entry points, active learning, fair incentives, feedback, recovery, power-aware boundaries, and auditable hiring evidence.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to transactions, support tools, or redistributed ad revenue does not by itself secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]].

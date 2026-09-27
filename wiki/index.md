@@ -695,6 +695,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dollar Shave Club: How Michael Dubin Created A Massively Successful Company and Re-Defined CPG](sources/dollar-shave-club-how-michael-dubin-created-a-massively-successful-company-and-re-defined-cpg.md) - An investor retrospective links Dollar Shave Club's growth to direct customer ownership, subscription fit, founder-led content, data, product expansion, and integrated execution.
 - [Edge Computing at Chick-fil-A](sources/edge-computing-at-chick-fil-a-chick-fil-a-tech-blog-medium.md) - Chick-fil-A's IoT/Edge team describes a cloud-first platform with thousands of small restaurant Kubernetes clusters for local availability, sensing, and automation.
 
+- [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
+
 ## Entities
 - [David Andersen](entities/DavidAndersen.md) - Computer-science professor and adviser represented through his 2016 financial-planning guide for U.S. CS Ph.D. students.
 - [Kirsten Weir](entities/KirstenWeir.md) - Psychology writer represented through a 2013 synthesis of research, clinicians, and graduate-student accounts of impostor feelings.
@@ -1951,6 +1953,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Unilever](entities/Unilever.md) - Consumer-goods incumbent represented here as Dollar Shave Club's acquirer and prospective global scaling partner.
 - [Chick-fil-A](entities/ChickFilA.md) - Restaurant company represented through its 2018 cloud-first, locally resilient IoT and edge-computing platform.
 
+- [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
+
 ## Concepts
 - [Graduate Student Financial Planning](concepts/GraduateStudentFinancialPlanning.md) - Coordination of cash flow, taxes, liquidity, debt, insurance, housing, and long-horizon investing around graduate-school constraints and career transitions.
 - [Real-Time Collaborative Editing](concepts/RealtimeCollaborativeEditing.md) - Responsive multi-client editing whose concurrent operations must converge on one shared document state.
@@ -3018,5 +3022,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edge Computing](concepts/EdgeComputing.md) - Placing compute near physical operations when latency or continued operation during connectivity loss justifies a distributed local platform.
 
 - [Employee Equity Grant Sizing](concepts/EmployeeEquityGrantSizing.md) - Stage-sensitive method for translating role, salary, company value, and fully diluted capitalization into a proposed employee share grant.
+
+- [Product Manager Hiring](concepts/ProductManagerHiring.md) - Role-specific hiring system linking PM responsibilities to varied sourcing, structured evidence, reciprocal evaluation, and honest candidate closing.
 
 ## Syntheses

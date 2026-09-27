@@ -5,7 +5,8 @@ tags: [product, leadership, management]
 sources:
   - ceo-of-the-product-revisited-silicon-valley-product-group
   - your-product-manager-super-power-not-knowing-everything-mind-the-product
-last_updated: 2026-09-23
+  - find-vet-and-close-the-best-product-managers-first-round-review
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,8 +20,10 @@ The danger is equally central. Cagan accepts the critique that the phrase can en
 
 Mind the Product's conductor analogy supplies a complementary and less hierarchical image. The PM should understand how the whole product ought to work and help specialists coordinate, but is not expected to play every instrument. Read together, the metaphors define breadth as responsibility for coherence while preserving dependence on engineering, design, and other domain expertise.
 
+[[ToddJackson]] calls the CEO metaphor broadly accurate but operationalizes it through three duties: articulate the winning product, rally the team, and iterate toward the result. His hiring examples make the authority boundary concrete: desirable leadership diagnoses disagreement, leads by example, time-bounds a disputed experiment, and performs unglamorous service work instead of blaming or issuing directives.
+
 ## Key Claims
-- CEO-like product work means broad business integration, not formal authority.
+- CEO-like product work means broad business integration, outcome responsibility, and team influence, not formal authority.
 - The metaphor is risky because weak PMs can use it to justify bossy behavior.
 - The metaphor is useful because many PMs lack training and underestimate the real scope of the role.
 - Strong PM work spans legal, finance, marketing, sales, technology, customer success, analytics, security, and customer discovery.
@@ -35,6 +38,7 @@ Mind the Product's conductor analogy supplies a complementary and less hierarchi
 - Authority boundary: [[ceo-of-the-product-revisited-silicon-valley-product-group]] explicitly says the metaphor does not mean the PM is anyone's boss.
 - Leadership preparation: [[ceo-of-the-product-revisited-silicon-valley-product-group]] says good product management can be a proving ground for future startup CEOs.
 - Complementary metaphor: [[your-product-manager-super-power-not-knowing-everything-mind-the-product]] describes the PM as a conductor who coordinates the whole without performing every specialist role.
+- Behavioral boundary: [[find-vet-and-close-the-best-product-managers-first-round-review]] treats blame, defensiveness, command-and-control behavior, and contempt for operational work as negative evidence while favoring root-cause diagnosis, humility, experiments, example-setting, and service.
 
 ## Counterevidence & Qualifications
 The source is an SVPG practitioner essay, not a comparative study of product organizations. Its strongest empirical basis is Cagan's coaching and industry observation, so the training-gap claim should be treated as a product-leadership diagnosis rather than a measured population statistic.
@@ -43,9 +47,12 @@ The metaphor should be avoided or heavily qualified in environments where it wou
 
 The conductor metaphor avoids some hierarchical baggage but remains an analogy rather than an organizational model. It should not obscure shared product ownership, specialist disagreement, or the fact that teams may distribute integration work differently.
 
+Jackson's article supports the metaphor through practitioner judgment and interview examples, not comparative evidence that CEO language or the proposed behaviors predict PM performance. Even influence-oriented language can privilege confidence and presentation style unless evaluators distinguish job-relevant reasoning from charisma.
+
 ## What Changed
 - Added a dedicated concept for the CEO-of-product metaphor and its authority boundary.
 - Added the conductor analogy as a complementary account of broad responsibility without total expertise.
+- Added observable leadership boundaries: root-cause diagnosis, example-setting, bounded experiments, and service rather than blame or command.
 
 ## Related Concepts
 - [[ProductManagement]] - parent role whose scope the metaphor tries to communicate.
@@ -53,3 +60,4 @@ The conductor metaphor avoids some hierarchical baggage but remains an analogy r
 - [[CEOScalingRole]] - related scaling problem where founder or CEO integration must turn into delegated operating systems.
 - [[ProductBacklogBuilding]] - contrasts broad PM accountability with Product Owner-only backlog administration.
 - [[ValueBasedProductScoping]] - shows how a broadly accountable PM can guide specialist work through value questions rather than commands.
+- [[ProductManagerHiring]] - tests whether candidates express broad responsibility as influence and service rather than status.
