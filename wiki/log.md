@@ -5423,3 +5423,11 @@ Added Cal Newport's qualified argument that Facebook's engagement-funded economi
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Facebook, The App Store, And The Sound Of Inevitability
+
+Added [[MGSiegler]]'s 2010 thesis that controlled platforms can accelerate mainstream adoption through simplicity, perceived safety, and centralized execution but face pressure to open as external technology and user needs expand. Created MG Siegler, [[AOL]], and [[OpenClosedPlatformCycle]], and updated the [[AppStore]] from its complete ordered evidence inventory while qualifying the AOL analogy, HTML5 forecast, and claim of inevitability. The three remote image references resolve to two distinct assets, both of which now return HTTP 404 or 410 from the publisher and former WordPress host; they could not be inspected or retained, and no visual evidence was used.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
