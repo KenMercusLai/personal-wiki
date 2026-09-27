@@ -4,15 +4,15 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-27
-as_of_overview_commit: 69d1eca0cf743e24e7ef4fe6d792cb8f0e4f8a70
-input_digest: df3b8105400f71a6e5b6df918d0b43ecdf7275c9e258b4db991a75a2f5dc3413
+as_of_overview_commit: 3a8a3be42364acf7aefada2370f55aef58986c70
+input_digest: 06febb42ab4b0361312621ad37e96d07f3eb81e1456f0dc40e2310f420af2605
 ---
 
 # Business and Markets
 
 ## Current State
 
-[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] now adds observed [[StartupCulture]] to company fundamentals: assured employee-wealth promises, blame, colleague contempt, product complacency, and competitor hatred are qualified prompts for deeper investigation, not validated predictors. [[PlatformEmbeddedFinancialServices]] now adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure rather than requiring a universal bank.
+[[VentureBackedGrowthPressure]] adds a qualified financing-governance risk: capital and expected exits can make expansion more salient than stable stewardship, but the competitor-authored [[Evernote]] case does not establish causation or prove [[StandardNotes]] durable. Business and markets sources show durable value depending on customer outcomes, product and model fit, sustainable economics, governed distribution, aligned capital, operating capability, organizational learning, and risk discipline. Product, platform, startup, media, financing, pricing, reliability, data, hiring, and growth practices remain contextual rather than universal because most evidence is practitioner, company-authored, or retrospective. [[StartupJobDiligence]] adds observed [[StartupCulture]] to company fundamentals, and [[PlatformEmbeddedFinancialServices]] adds a historical Amazon case in which finance reinforces commerce through partnered regulated infrastructure. The new-media panel adds a market-gap qualification: the space between mass advertising and expensive specialist information may require subscriptions or mixed portfolios, platform support, and direct audience relationships rather than one universal model.
 
 ## Cross-source Findings
 
@@ -670,13 +670,13 @@ input_digest: df3b8105400f71a6e5b6df918d0b43ecdf7275c9e258b4db991a75a2f5dc3413
 
 ### Media And Consumer Ip Need Portfolio Economics
 
-[[WebAdEconomics]], [[BrowserPaymentBroker]], [[AttentionBasedAdvertising]], [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[NicheSubscriptionPublishing]], [[BlindBoxRetail]], and [[DesignerToyIPOperations]] show media and consumer-IP businesses choosing among trusted direct payments, browser-local opt-in advertising, platform revenue, portfolio strategy, subscriptions, and hit-IP operations. [[JonahPeretti]] adds a two-sided publisher-platform diagnosis: legacy short-termism can destroy digital leverage even when platforms capture too much value, while [[DistributedPublishingStrategy]] couples free reach, goal-specific formats, and dependency across external surfaces. [[Brave]] and [[BasicAttentionToken]] supply the source-scoped block-then-replace proposal: keep advertising, match it locally, and share value with users and publishers.
+[[WebAdEconomics]], [[BrowserPaymentBroker]], [[AttentionBasedAdvertising]], [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[NicheSubscriptionPublishing]], [[BlindBoxRetail]], and [[DesignerToyIPOperations]] show media and consumer-IP businesses choosing among direct payments, advertising, platform revenue, subscriptions, commerce, and portfolio strategy. [[EllenChisa]] and [[NickRockwell]] add the difficult middle between mass advertising and high-priced specialist information: subscription-first or mixed models may fit when pure membership cannot, while platforms should reduce monetization and discovery friction without becoming the creator's only audience relationship. [[JonahPeretti]] adds a two-sided publisher-platform diagnosis, [[DistributedPublishingStrategy]] couples free reach with dependency across external surfaces, and [[Brave]] plus [[BasicAttentionToken]] supply the source-scoped block-then-replace advertising proposal.
 
-**Evidence:** [[WebAdEconomics]], [[BrowserPaymentBroker]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[DigitalMediaMonetization]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[JonahPeretti]], [[DistributedPublishingStrategy]], [[NicheSubscriptionPublishing]], [[BlindBoxRetail]], [[DesignerToyIPOperations]]
+**Evidence:** [[WebAdEconomics]], [[BrowserPaymentBroker]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[DigitalMediaMonetization]], [[EllenChisa]], [[NickRockwell]], [[HunterWalk]], [[Medium]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[JonahPeretti]], [[DistributedPublishingStrategy]], [[NicheSubscriptionPublishing]], [[BlindBoxRetail]], [[DesignerToyIPOperations]]
 
 **Qualifications:**
 
-- Payment, platform, media-portfolio, and consumer-IP evidence remains source-scoped and sensitive to rights, revenue share, fraud, trend risk, platform bargaining power, production cost, and audience ownership.
+- Payment, platform, media-portfolio, and consumer-IP evidence remains source-scoped and sensitive to rights, revenue share, fraud, trend risk, platform bargaining power, production cost, and audience ownership; the 2017 panel supplies no comparative revenue, churn, creator-income, discovery, burnout, or quality-metric data.
 - [[JonahPeretti]]'s 2017 account is BuzzFeed's self-presentation: its scale, revenue, engagement, and completion figures lack independent methods or later outcomes, its forecast of greater platform investment in news is not an outcome, and the later [[9-boxes]] memo changes bargaining emphasis without establishing why or when his judgment shifted.
 - The Brave/BAT evidence is a commissioned 2018 advocacy article by a disclosed token holder; its allocation rules, privacy claims, advertiser benefits, publisher income, and adoption forecasts are proposals rather than independently verified outcomes.
 

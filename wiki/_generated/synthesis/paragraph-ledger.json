@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "99c55d9c7d16783b6aed36bf561f839a62c0611c697d0603e1722e8d493b11bf",
       "e4599bc574f21802933db23a677d47efe35383a85c5afac033adde3510f3df95",
       "25cc91033cc476b2ee1c02430d1685eff59d9cbfdfdd00b5bae62208f27bdccc",
       "632ae35e6fe1550d4522c2b6a8b0fb07b441ee78aef315a05771fe67887dd96b",
@@ -508,11 +509,33 @@
       "d8d18a76638a9933134b0ce8eafc00f35c7c1c291593b9937e83164482b2a1ba",
       "d84c620c994c189fd93ff6f47eb1fd8551b4aa3722485cd59dae136d3e6d94d9"
     ],
-    "paragraph_count": 506
+    "paragraph_count": 507
   },
-  "overview_commit": "9f8c498ebbed16b3c21d1ad51cd49d237f7fc80b",
-  "overview_digest": "bffe237e889a5c655e35a49859d7bb40b402c7341fcbb7a50cba98cd2d686e68",
+  "overview_commit": "3a8a3be42364acf7aefada2370f55aef58986c70",
+  "overview_digest": "0935994836f3f72da19e49cad5f72e0665b30ca3c3237dfd6b447b19e5d05a6c",
   "paragraphs": [
+    {
+      "id": "99c55d9c7d16783b6aed36bf561f839a62c0611c697d0603e1722e8d493b11bf",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest new-media panel adds an explicit market-gap and platform-responsibility layer to [[DigitalMediaMonetization]]. [[EllenChisa]] separates mass content supported by advertising, specialist information supported by a few expensive customers, bounded projects suited to crowdfunding, and a difficult middle of blogs, essays, and niche creators; [[NickRockwell]] therefore favors subscription-first media while conceding that few publishers can sustain pure membership and that mixed ad-plus-subscription portfolios may be necessary. [[HunterWalk]] uses theSkimm's sponsored newsletter, paid app, video, and commerce as a mission-consistent portfolio and argues that platforms should build or facilitate monetization, advertiser demand, commerce, useful data interpretation, community, education, and recognition rather than leave creators to solve everything externally. Chisa supplies the dependency boundary: direct creator-audience relationships are more resilient when a platform changes or disappears, even though platforms reduce payment and discovery friction. This deepens [[CreatorEconomyStartups]] beyond payment processing because creator work now includes marketing, entrepreneurship, community leadership, and burnout, while [[Medium]]'s reported layoffs show that creator value and cultural reach do not themselves establish a viable platform business. The evidence remains a 2017 practitioner discussion without comparative revenue, churn, income, discovery, burnout, or quality-metric data; its examples and predictions are historical, and the panel itself warns that no single formula fits every medium. The currency collage was omitted as decorative, while the repeated `.jpg` was actually unrelated HTML rather than interpretable image data and was not retained.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "history-and-geopolitics": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "CreatorEconomyStartups",
+        "DigitalMediaMonetization",
+        "EllenChisa",
+        "HunterWalk",
+        "Medium",
+        "NickRockwell"
+      ]
+    },
     {
       "id": "e4599bc574f21802933db23a677d47efe35383a85c5afac033adde3510f3df95",
       "primary_topic": "business-and-markets",

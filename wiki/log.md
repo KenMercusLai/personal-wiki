@@ -5335,3 +5335,15 @@ Added the 2017 account of [[IDEO]] acquiring [[Datascope]] and framing data, alg
 ## [2026-09-27] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-27] ingest | Expert Revenue Models for New Media
+
+Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on the difficult middle between mass advertising and expensive specialist content, subscription-first and mixed revenue portfolios, direct audience resilience, creator-platform responsibility, and longer-horizon quality metrics. Created Ellen Chisa and Nick Rockwell; updated Hunter Walk, [[Medium]], [[DigitalMediaMonetization]], and [[CreatorEconomyStartups]] from their complete ordered evidence inventories. Opened the decorative currency collage and omitted it; the repeated `.jpg` was actually an unrelated HTML page rather than valid image data, so it could not be visually interpreted and was not retained.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

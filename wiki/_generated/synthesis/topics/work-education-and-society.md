@@ -4,15 +4,15 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-27
-as_of_overview_commit: 2cc80ee0f4a7b0f9ec32e79b311d0de8a3898356
-input_digest: 0d60c30320d3b9133eb4df4b15d38b8eb0dfa491a67941e570bbfe230635b9d1
+as_of_overview_commit: 3a8a3be42364acf7aefada2370f55aef58986c70
+input_digest: 03b8b0182e91b87d09bd1d8b80ebe8caf021d461d896bf9b2d16384aa4720f89
 ---
 
 # Work, Education, and Society
 
 ## Current State
 
-Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence.
+Work, education, and social systems are practice-rich environments in which accessible entry points, active learning, feedback, judgment, role clarity, fair incentives, consent, and boundaries around attention and power shape outcomes. The corpus spans careers, management, collaboration, technical delivery, workplace policy, creative and independent work, knowledge systems, privacy, media, and automation, with recurring qualifications around access, evidence, transfer, and structural constraint. Personal benchmarks can preserve distinctive work and reveal progress: [[Loish]]'s retrospective drawings add a visual-art case where self-comparison and permission for imperfection can lower [[ArtBlock]], while remaining selected practitioner evidence rather than a complete theory of creative blockage. [[StartupJobDiligence]] adds observed [[StartupCulture]] as one bounded career-choice input rather than a substitute for business, compensation, and personal-fit evidence. Creator work now also shows a labor-design boundary: platforms can reduce monetization and discovery friction, but direct audience relationships, interpretable metrics, community support, and burnout mitigation matter because creators increasingly combine making with marketing, entrepreneurship, and community leadership.
 
 ## Cross-source Findings
 
@@ -149,13 +149,13 @@ Work, education, and social systems are practice-rich environments in which acce
 
 ### Creator Payment Access Does Not Guarantee Durable Creator Work
 
-[[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]], while [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Later evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to either transactions or redistributed ad revenue does not by itself secure durable creator work.
+[[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] shows why access to transactions, support tools, or redistributed ad revenue does not by itself secure durable creator work.
 
-**Evidence:** [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]]
+**Evidence:** [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]]
 
 **Qualifications:**
 
-- Walk's 2017 essay is a causal hypothesis without adoption data, and creator categories vary in distribution, economics, and defensibility.
+- Walk's 2017 essay and the new-media panel are practitioner hypotheses without comparative revenue, churn, creator-income, discovery, burnout, or quality-metric data; creator categories vary in distribution, economics, and defensibility.
 - The Brave/BAT source is commissioned promotional writing by a disclosed token holder and supplies proposed attention payouts rather than measured durable creator or publisher income.
 
 ### Public Technical Work Needs Boundaries
