@@ -44,6 +44,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Evan Spiegel’s Most Underrated Skill](sources/evan-spiegels-most-underrated-skill-product-hunt.md) - A 2017 Product Hunt essay presents Snapchat's mapping, hardware, lens, avatar, search, computer-vision, and code features as products of acquisition-led capability building.
 - [Evaluating Delusional Startups](sources/evaluating-delusional-startups.md) - Zach Holman proposes interview-stage warning signs around promised riches, blame, colleague contempt, product complacency, and hatred of competitors.
 - [Firing People](sources/firing-people.md) - Zach Holman treats termination as a human, operational, financial, and cultural process spanning warning, offboarding, separation terms, and alumni relationships.
+- [Five Questions](sources/five-questions.md) - A development lead proposes five questions for reviewing technical plans through purpose, failure modes, detection, response, and reversibility.
 - [What I think about when I edit](sources/eva-parish-what-i-think-about-when-i-edit.md) - Eva Parish presents intent-first, audience-aware editing through precise language, explicit agency, useful context, consistent tone, and scan-friendly structure.
 - [Etsy CTO Q&A: We Need Software Engineers, Not Developers](sources/etsy-cto-q-a-we-need-software-engineers-not-developers-the-new-stack.md) - John Allspaw describes Etsy's small familiar toolset, explicit novelty costs, simple deployment, production ownership, multidisciplinary engineering, and human-centered machine-learning stance.
 - [Estimation for Fun and Profit (but mostly for sanity)](sources/estimation-for-fun-and-profit-but-mostly-for-sanity-8th-light.md) - Bjorn Johnson connects vertical user-story slices with three-scenario PERT estimates and simultaneous team input while treating schedules as uncertain judgments rather than commitments.
@@ -3049,5 +3050,6 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Employee Equity Grant Sizing](concepts/EmployeeEquityGrantSizing.md) - Stage-sensitive method for translating role, salary, company value, and fully diluted capitalization into a proposed employee share grant.
 
 - [Product Manager Hiring](concepts/ProductManagerHiring.md) - Role-specific hiring system linking PM responsibilities to varied sourcing, structured evidence, reciprocal evaluation, and honest candidate closing.
+- [Technical Decision Review](concepts/TechnicalDecisionReview.md) - Structured inquiry testing a technical plan's purpose, failure modes, detection signals, response options, and reversibility.
 
 ## Syntheses

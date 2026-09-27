@@ -5574,3 +5574,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Five Questions
+
+Added an unnamed development lead's five-question protocol for reviewing technical plans through purpose, failure modes, detection, response, and reversibility. Created [[TechnicalDecisionReview]] and connected it to [[UnderstandDesignBuild]], [[ServiceObservability]], [[ChangeSafety]], [[UnknownUnknowns]], and [[TechnicalLeadershipRoleDesign]] without treating general inquiry as a substitute for specialist knowledge. Preserved the source's qualifications that not every failure is predictable and not every plan has a practical undo path; the supplied Markdown contains no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -529,12 +529,13 @@
       "80a95d6222419a5190ddd2c0b74ffd75d439ce6f4a9898c909ed5b92f885a25d",
       "f65f7c82d4a1fdf6aaa44590e729672394a1d6986c849102541d2bd375b79d16",
       "3486462647bd28b89ef4a4a70dceb28c5315afef40f8d293c9a53371db7cab23",
-      "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752"
+      "9dbee9a3e9eab3848fa71d8bd1098177a59953a48e1181a6a4ff7b68a4fb3752",
+      "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313"
     ],
-    "paragraph_count": 529
+    "paragraph_count": 530
   },
-  "overview_commit": "cbfb1f96fec8202f19277d9fd06c5efb8ad64029",
-  "overview_digest": "7d204f14323e2b62db1adf1425380846e6fd6991cc2fc4a4abed4e09df77f130",
+  "overview_commit": "4dd44d3890d98e0a8bbbc6e273468b7e76723ff6",
+  "overview_digest": "357bdb9514875c8e0e51b04846d53ba3927ce9e8ebad3455c0821f82a2f02ca8",
   "paragraphs": [
     {
       "id": "a5dfb0874a140fecac6b35ab228a48001d2db2007eefe236f5c39226240909e4",
@@ -10704,6 +10705,25 @@
         "GitHub",
         "ManagerialResponsibility",
         "ZachHolman"
+      ]
+    },
+    {
+      "id": "829c707eedca1755b1a7e623a52d78c75e1cc4552acf6a12144a999bd7019313",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest technical-leadership source adds a compact pre-commitment review protocol for unfamiliar systems. [[TechnicalDecisionReview]] asks five linked questions: what the team is doing and why, how it could fail, how failure will be detected, what response is available, and whether the decision can be undone. This connects [[UnderstandDesignBuild]] to [[ServiceObservability]] and [[ChangeSafety]] by requiring purpose, assumptions, milestones or monitoring, recovery stakes, and reversibility to be discussed as one decision loop. It also sharpens [[TechnicalLeadershipRoleDesign]]: a lead can contribute through disciplined inquiry, comprehension, and action without pretending to be the deepest specialist, while the framework remains practitioner advice and does not replace domain expertise or prove that a nominal rollback restores distributed state.",
+      "topic_scores": {
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ChangeSafety",
+        "ServiceObservability",
+        "TechnicalDecisionReview",
+        "TechnicalLeadershipRoleDesign",
+        "UnderstandDesignBuild"
       ]
     }
   ],
