@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
       "43d703705f803754497c223fb6854b65c29dc5a1f543874b9a1a583018d4ab19",
       "46a83cb4dee4bd69e86a2ed639d53fad425c9da06987230ed1ec53ffb57d7c36",
       "1cb6bac853ee1a04ac3e43b0014cc63c5ace8c266b71667152a09296a7b7e1ef",
@@ -589,11 +590,29 @@
       "fc934dcb38776b801cd06d957a927b7a23b6736234ea626b24205a2c8c2c95ea",
       "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527"
     ],
-    "paragraph_count": 587
+    "paragraph_count": 588
   },
-  "overview_commit": "a4662f6408f6c15fa69cc31887c4f847aeedcaaa",
-  "overview_digest": "86fcf61f0156834835cc1f14d3cb03d6b85aafd38543c6d5e963bd32e86c175a",
+  "overview_commit": "3eaa89868ed72c091bec0d3124efe39247bf35bc",
+  "overview_digest": "1f5ab256792c28e161e67a1120ebfa779e82f7d17960232d1ce0157b47ccdbac",
   "paragraphs": [
+    {
+      "id": "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[BenSandofsky]] source adds [[Halide]] as a first-year case linking focused camera positioning, [[IterativeProductShipping]], [[AppStore]] distribution, and one-time software economics. Versions 1.1 through 1.8 combined stability fixes, older-device support, speed, an iPhone X redesign, RAW compatibility, advanced depth tools, accessibility, and a Darkroom integration while filtering requests through a deliberate-photography promise. The team reports that launch exceeded 350 million App Store impressions and reached number three in Top Paid Apps, yet represented only 27% of first-year profit; major releases generated visible spikes and progressively raised slow-day revenue to about four times its August 2017 level, while the iOS 11 App Store redesign reportedly lifted sales 50%. This sharpens [[ProductivityAppSubscriptions]] through counterevidence: Halide acknowledged that recurring revenue could make maintenance easier to prioritize but retained upfront pricing, raised its price, and delivered what it called an episodic Halide 2 to existing buyers rather than withholding features for a paid upgrade. Useful RAW-photography articles reportedly outperformed paid promotion, and the delayed workaround for unsupported low-resolution RAW previews shows why recurring user confusion becomes the product team's problem even when platform behavior is the immediate cause. The evidence remains bounded by a celebratory first-party narrative, self-reported metrics, no audited revenue or retention data, uncontrolled attribution among releases, press, seasonality, price, devices, and featuring, and 60-pixel archived charts whose broad trends are visible but whose small labels cannot be independently recovered. Nine evidence-bearing product and trend images were retained under descriptive canonical names; nine decorative, duplicative, or prose-repeating images were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AppStore",
+        "BenSandofsky",
+        "Halide",
+        "IterativeProductShipping",
+        "ProductivityAppSubscriptions"
+      ]
+    },
     {
       "id": "43d703705f803754497c223fb6854b65c29dc5a1f543874b9a1a583018d4ab19",
       "primary_topic": "work-education-and-society",

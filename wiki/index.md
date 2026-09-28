@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Halide: One Year Later](sources/halide-one-year-later-halide.md) - Ben Sandofsky reviews Halide's first year of focused product iteration, App Store distribution, one-time pricing, support lessons, and release-linked sales.
 - [Hacking the Attention Economy](sources/hacking-the-attention-economy-data-society-points.md) - danah boyd traces attention hacking from 4chan meme campaigns to marketing, activism, harassment, propaganda, institutional doubt, and political power.
 - [Hacking law firms with abandoned domain names](sources/hacking-law-firms-with-abandoned-domain-names-gabor-szathmari-medium.md) - Gabor Szathmari and Jeremiah Cruz show how re-registering expired law-firm domains exposed continuing email, domain-verification, and third-party account-recovery paths.
 - [The 37signals Guide to Internal Communication](sources/guide-37signals-how-we-communicate.md) - Jason Fried describes 37signals' asynchronous, writing-led communication system, centralized Basecamp record, recurring check-ins, and contextual project discussions.
@@ -792,6 +793,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Halide](entities/Halide.md) - Paid iPhone camera app built for deliberate advanced photography and evolved through focused first-year releases.
+- [Ben Sandofsky](entities/BenSandofsky.md) - Halide co-creator and author of its first-year product and business retrospective.
+- [Sebastiaan de With](entities/SebastiaanDeWith.md) - Halide co-creator associated with its tactile design, iPhone X redesign, and educational photography content.
 - [danah boyd](entities/DanahBoyd.md) - Researcher and author connecting hacker culture, platform mechanics, media incentives, manipulation, harassment, and political power.
 - [4chan](entities/4chan.md) - Ephemeral image-board community represented as a training ground for meme mutation, attention gaming, and divergent political tactics.
 - [Gabor Szathmari](entities/GaborSzathmari.md) - Cybersecurity practitioner and lead author of the abandoned-law-firm-domain research report.
@@ -1803,7 +1807,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Betaworks](entities/Betaworks.md) - Company that acquired Instapaper in 2013 and expanded team-led product, infrastructure, redesign, ranking, and app work.
 - [Pinterest](entities/Pinterest.md) - Visual-discovery company represented through acquisition, growth systems, mobile-web investment, feature discipline, organization design, trust, and strategic resilience.
 - [Sophia Feng](entities/SophiaFeng.md) - Pinterest Growth software engineer who documented experiments on onboarding, signal coverage, and personalization.
-- [App Store](entities/AppStore.md) - Apple's mobile marketplace, combining app distribution and volatile discovery with stronger spending than Google Play in the 2015 and Q4 2017 snapshots.
+- [App Store](entities/AppStore.md) - Apple's mobile marketplace, combining app distribution, editorial and chart-mediated discovery, and stronger spending than Google Play in historical snapshots.
 - [App Annie](entities/AppAnnie.md) - Mobile analytics firm whose 2015 and Q4 2017 estimates frame the Google Play versus App Store download and spending split.
 - [Sensor Tower](entities/SensorTower.md) - Mobile app analytics firm whose App Intelligence data shows short-lived No. 1 iPhone download-chart visibility.
 - [编程随想](entities/BianChengSuiXiang.md) - Authorial identity behind the systematic-learning article connecting media choice, Feynman-style explanation, DIKW, and cross-domain wisdom.
@@ -2843,7 +2847,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Contextual Signal Collection](concepts/ContextualSignalCollection.md) - Requesting user information where its purpose, product value, and interruption cost are understandable.
 - [Cognitive Overhead in Product Design](concepts/CognitiveOverheadInProductDesign.md) - Product-design burden created when users must make too many mental connections to understand purpose, control, system behavior, or value.
 - [Product Engagement Ladder](concepts/ProductEngagementLadder.md) - Product-growth framework for staging user learning from first value through deeper engagement and expertise.
-- [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for serious productivity software whose user value, maintenance needs, and platform effects grow over time.
+- [Productivity App Subscriptions](concepts/ProductivityAppSubscriptions.md) - Recurring-payment model for continuously maintained software, qualified by Halide's deliberate one-time-purchase countercase.
 - [Public Relations Strategy](concepts/PublicRelationsStrategy.md) - Goal-led communication practice for shaping how important publics understand and respond to a startup or company.
 - [Connected Product Systems](concepts/ConnectedProductSystems.md) - Products whose value depends on coordinated hardware, software, data, supply chains, services, and user workflows.
 - [Marketplace Trust](concepts/MarketplaceTrust.md) - Reputation, payment, policy, review, support, and protection mechanisms that reduce transaction risk enough for marketplace participation.
@@ -2941,7 +2945,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
 - [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
 - [Bounceback User Research](concepts/BouncebackUserResearch.md) - Contrastive activation research with users who abandoned a product, returned after a gap, and then became habitually active.
-- [Iterative Product Shipping](concepts/IterativeProductShipping.md) - Releasing product work in frequent staged versions so each release creates evidence, reduces bugs, and guides investment.
+- [Iterative Product Shipping](concepts/IterativeProductShipping.md) - Frequent staged releases that produce learning and compound into larger change while creating maintenance-versus-feature incentives.
 - [Product Retrospectives](concepts/ProductRetrospectives.md) - Structured team reflection that turns iteration or project experience into a small, prioritized set of product and process changes.
 - [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.
 - [DIKW Model](concepts/DIKWModel.md) - Hierarchy distinguishing data, information, knowledge, and wisdom by meaning, durability, structure, and explanatory power.

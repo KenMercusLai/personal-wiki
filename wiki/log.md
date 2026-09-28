@@ -6240,3 +6240,11 @@ Added [[MarianoRodriguezColombelli]]'s account of the Hibox-to-[[Beamer]] semi-p
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Halide: One Year Later
+
+Added [[BenSandofsky]]'s first-year retrospective on [[Halide]] as a focused paid iPhone camera app shaped by user support, device changes, repeated releases, App Store distribution, educational content, and upfront-pricing tradeoffs. Created [[Halide]], [[BenSandofsky]], and [[SebastiaanDeWith]], and updated [[AppStore]], [[IterativeProductShipping]], and [[ProductivityAppSubscriptions]] from their complete ordered evidence inventories. Preserved the company-authored, historical, self-reported, and causally uncontrolled boundaries around impressions, rankings, users, sales, profit, advertising, pricing, and release effects. Opened all 18 local images; retained nine evidence-bearing product examples and trend charts under descriptive canonical filenames, and omitted nine decorative, duplicate, or prose-repeating images. Several retained charts are only 60 pixels wide in the archive, so their broad shapes were recorded while unreadable labels and independently unrecoverable exact values were not inferred.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

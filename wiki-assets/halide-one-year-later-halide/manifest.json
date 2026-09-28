@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "source_key": "halide-one-year-later-halide",
+  "images": [
+    {
+      "file": "iphone-x-one-handed-controls.jpg",
+      "alt": "Halide controls arranged in the lower corners of an iPhone X screen for one-handed reach"
+    },
+    {
+      "file": "raw-preview-resolution-comparison.jpg",
+      "alt": "Side-by-side dog photo comparison showing a low-resolution RAW preview and the intended detailed image"
+    },
+    {
+      "file": "depth-map-ar-viewer.jpg",
+      "alt": "Halide depth capture displayed as a tilted three-dimensional surface above an iPhone"
+    },
+    {
+      "file": "first-year-sales-launch-spike.png",
+      "alt": "First-year sales chart dominated by a sharp launch spike followed by a much lower baseline"
+    },
+    {
+      "file": "post-launch-daily-sales-spikes.png",
+      "alt": "Daily sales chart after launch showing recurring spikes around product and publicity events"
+    },
+    {
+      "file": "cumulative-profit-maintenance-plateau.png",
+      "alt": "Cumulative profit chart rising quickly at launch, flattening during maintenance work, then resuming growth"
+    },
+    {
+      "file": "ios-11-app-store-sales-lift.png",
+      "alt": "Sales trend chart stepping upward after the iOS 11 App Store launch"
+    },
+    {
+      "file": "major-updates-raise-sales-baseline.png",
+      "alt": "Slow-day revenue trend rising across successive major Halide updates"
+    },
+    {
+      "file": "halide-first-year-product-evolution.jpg",
+      "alt": "Halide launch interface beside the substantially expanded interface after one year"
+    }
+  ]
+}

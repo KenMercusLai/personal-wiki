@@ -6,7 +6,8 @@ sources:
   - 7-ways-to-use-the-rule-of-threes-to-build-great-products
   - unknown-unknowns-why-you-should-release-early-and-often
   - your-product-manager-super-power-not-knowing-everything-mind-the-product
-last_updated: 2026-09-23
+  - halide-one-year-later-halide
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,8 +19,10 @@ The sources treat shipping as a learning system rather than merely a delivery ev
 
 Mind the Product adds a scope-quality test: a small release should deliver some value or generate valuable learning. Teams therefore need to find minimum independent deliverables, identify ordering and parallelism, and distinguish increments that create value alone from components that only work together. Iteration is not simply cutting work into smaller tickets; it requires [[ValueBasedProductScoping]] that preserves a meaningful outcome.
 
+The [[Halide]] retrospective adds a year-long commercial case. Versions 1.1 through 1.8 mixed stability, compatibility, speed, device-specific redesign, requested features, accessibility, and an editing partnership, eventually producing what the team called an episodically delivered Halide 2. The releases reportedly raised slow-day revenue over time, but the case also exposes incentive distortion: large, clearly messaged features created stronger sales spikes than maintenance, even though delayed fixes produced support cost and user frustration.
+
 ## Key Claims
-- Consistent shipping keeps a product current, gives engineers momentum, and reduces accumulated bug risk.
+- Consistent shipping can keep a product current, reduce accumulated bug risk, and compound into a major product change without withholding improvements for a single upgrade event.
 - Releases should be designed to collect data, not only to publish finished features.
 - A two-week cadence across six versions can support useful learning cycles.
 - Full feature versions, early test artifacts, and independently valuable increments serve different roles in the same iteration system.
@@ -34,14 +37,19 @@ Mind the Product adds a scope-quality test: a small release should deliver some 
 - Pre-product release: [[unknown-unknowns-why-you-should-release-early-and-often]] recommends calls, paper mockups, and weekend proofs of concept to expose foundational assumptions before full implementation.
 - Behavioral barrier: [[unknown-unknowns-why-you-should-release-early-and-often]] says perfectionism and fear make an unreleased product feel safe even as the risk of building the wrong thing grows.
 - Increment quality: [[your-product-manager-super-power-not-knowing-everything-mind-the-product]] says teams should map dependencies and release smaller pieces only when they create value or useful learning.
+- Product accumulation: [[halide-one-year-later-halide]] traces seven first-year versions whose combined redesigns, fixes, and features were substantial enough for the team to call the current app an episodically delivered Halide 2.
+- Commercial feedback: [[halide-one-year-later-halide]] reports that large, clearly messaged releases produced bigger spikes and that successive major updates raised the slow-day revenue baseline.
+- Maintenance tension: [[halide-one-year-later-halide]] says release-tied sales made visible features easier to justify than maintenance, despite the team's commitment to alternate quieter “Snow” releases with blockbusters.
 
 ## Counterevidence & Qualifications
-The sources offer practitioner guidance rather than comparative outcome evidence, and the recommended two-week cadence is not a universal delivery law. Regulated, safety-critical, privacy-sensitive, infrastructure-heavy, tightly coupled, or enterprise-integrated products may need simulation, staged exposure, or stronger release gates. Early feedback can also mislead when the test audience is unrepresentative or the artifact does not preserve the core value being tested; arbitrary decomposition can produce small releases that teach nothing.
+The sources offer practitioner guidance and one company-authored retrospective rather than comparative outcome evidence, and the recommended two-week cadence is not a universal delivery law. Halide's sales timing does not isolate release effects from press, App Store featuring, price, seasonality, or new-device adoption, and it shows that shipping incentives can systematically underfund maintenance. Regulated, safety-critical, privacy-sensitive, infrastructure-heavy, tightly coupled, or enterprise-integrated products may need simulation, staged exposure, or stronger release gates. Early feedback can also mislead when the test audience is unrepresentative or the artifact does not preserve the core value being tested; arbitrary decomposition can produce small releases that teach nothing.
 
 ## What Changed
 - Extended release from a software cadence into pre-product tests that expose false certainty and unknown unknowns.
 - Added emotional avoidance as a practical obstacle to obtaining early evidence.
 - Added independently valuable scope and dependency analysis as conditions for useful small releases.
+- Added Halide's commercial case in which episodic releases compounded into a major product change and raised the reported sales baseline.
+- Added the counterpressure that feature-linked sales can make necessary maintenance harder to prioritize.
 
 ## Related Concepts
 - [[RuleOfThreesProductDevelopment]] - supplies the V1, V2, and V3 iteration frame.
@@ -53,3 +61,4 @@ The sources offer practitioner guidance rather than comparative outcome evidence
 - [[UnknownUnknowns]] - early release can reveal gaps a team did not know to investigate.
 - [[MinimumViableProduct]] - minimal artifacts can produce learning before a complete product exists.
 - [[ValueBasedProductScoping]] - identifies increments that preserve value or learning instead of optimizing for smallness alone.
+- [[Halide]] - first-year case of accumulating fixes, redesigns, and major features through repeated releases.
