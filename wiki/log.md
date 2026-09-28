@@ -5793,3 +5793,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | From Side Project to 25 Million Downloads
 
 Added Ryan Hanna's first-person account of using Codecademy Code Year as an entry point and transferring a randomization pattern into Sworkit, a personally useful workout app built with web technologies and PhoneGap. Created source-bounded profiles for [[RyanHanna]], [[Sworkit]], and [[Nexercise]]; updated [[Codecademy]], [[ProgrammerMindset]], and [[SideProjectIncubation]] from their complete ordered evidence inventories. Preserved the central boundary that a platform-published founder success story shows possibility rather than typical learner or side-project outcomes, and that downloads do not establish retention. Opened all five local images, omitted three duplicate portrait variants, and retained the two evidence-bearing code screenshots; their supplied 60-pixel width prevents reliable code transcription, so only the prose-supported comparison was used.
+## [2026-09-28] ingest | From Not Working to Neural Networking
+
+Added a short 2016 Economist excerpt connecting early AI overpromising, later avoidance of the “AI” label, and its reported rehabilitation after the 2012 [[ImageNet]] Challenge. Updated [[DeepLearning]], ImageNet, [[GeoffreyHinton]], and [[AIWinter]] from their complete ordered evidence inventories with the excerpt's 72% (2010), 85% (2012), and 96% (2015) benchmark sequence, while preserving the missing-metric, task-scope, excerpt-completeness, and single-cause qualifications. Opened the duplicated local JPEG and omitted it as a non-evidentiary editorial illustration, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
