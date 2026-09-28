@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: 51d76ed1425f63a1a072c07d7815dac689117d93
+as_of_overview_commit: 8beec66fbac9e682db86c8bb455722bc0acf735b
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, and trust."
-episode_count: 758
-source_count: 758
-paragraph_count: 576
+episode_count: 759
+source_count: 759
+paragraph_count: 577
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, risk discipline, and context-aware interface design.
+Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, and risk discipline.
 
 - [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].
 - [[SuperApp]] economics begin with a frequent use case and expand into adjacent demand, but control differs by model: [[GoogleMaps]] uses advertising, APIs, and partners to reduce fulfillment burden, [[Meituan]] operates more transactions and delivery, [[Grab]] uses localized mobility to enter delivery and finance, and [[WeChat]] combines messaging, mini programs, payments, and commerce. Evidence: [[SuperApp]], [[GoogleMaps]], [[Meituan]], [[Grab]], [[WeChat]].
@@ -50,14 +50,14 @@ Cross-domain findings connect inspectable infrastructure, transferable models, f
 
 ### Culture and Media
 
-Media and culture combine expression, identity, distribution, monetization, platform power, and the infrastructure behind durable audience and organizational value.
+Media and culture combine expression, identity, distribution, monetization, platform power, and the infrastructure behind durable audience value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, and accountability where human-machine systems allocate visibility, opportunity, or risk.
+Institutions need explicit authority, evidence, appeal, transparency, and accountability where systems allocate visibility, opportunity, or risk.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].
@@ -82,7 +82,7 @@ Direct conclusions remain narrow and source-scoped, with mental-health findings 
 
 ### Work, Education, and Society
 
-Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, transparent coordination, opportunity, power-aware boundaries, and usable collaboration contracts.
+Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, transparent coordination, and power-aware boundaries.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

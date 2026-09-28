@@ -576,12 +576,13 @@
       "dea79d47d1452d8d68cd14542bbd23ee1630b589322c95e45d0aeb067a21009b",
       "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
       "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd",
-      "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4"
+      "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4",
+      "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97"
     ],
-    "paragraph_count": 576
+    "paragraph_count": 577
   },
-  "overview_commit": "51d76ed1425f63a1a072c07d7815dac689117d93",
-  "overview_digest": "c02acf0e38b15f11f02ce008dc8390b24c33c7cb30d80871b955c4c3c8b7649e",
+  "overview_commit": "8beec66fbac9e682db86c8bb455722bc0acf735b",
+  "overview_digest": "fd9fa21f1091cc2bbeaa0ac3c88e0588981ad3d2f59a5f8ac050286a670778a1",
   "paragraphs": [
     {
       "id": "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
@@ -11671,6 +11672,31 @@
         "JohnSuler",
         "OnlineDisinhibitionEffect",
         "PennyArcade"
+      ]
+    },
+    {
+      "id": "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[GregBrockman]] source adds OpenAI's 2015-2017 formation and early research infrastructure to the wiki's later product-and-governance view of [[OpenAI]]. Brockman's central organizational claim is constraint-driven: he first recruited, organized, and removed non-research work from [[IlyaSutskever]], then exchanged responsibilities with him when [[OpenAIGym]] software became the bottleneck, and later argued that a roughly forty-person research organization needed full-time organizational execution. This qualifies a one-way reading of [[StartupCTORoleEvolution]] and [[TechnicalLeadershipRoleDesign]]: senior technical attention can move back into hands-on implementation when engineering limits discovery, provided ownership is explicit. New [[MachineLearningResearchEngineering]] names the software boundary around the algorithmic core - data movement, interfaces, metrics, video, distributed scheduling, and experiment orchestration - while Gym and [[OpenAIUniverse]] show why researcher workflow and iteration latency are part of research design. The source remains a January 2017 founder retrospective: it does not independently verify causal credit, recruiting perspectives, project outcomes, or the sustainability of intense coding, and its cooperative-AI vision is an aspiration rather than a demonstrated result. The supplied Markdown contains no effective image references.",
+      "topic_scores": {
+        "ai-and-technology": 3,
+        "business-and-markets": 3,
+        "governance-and-institutions": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "GregBrockman",
+        "IlyaSutskever",
+        "MachineLearningResearchEngineering",
+        "OpenAI",
+        "OpenAIGym",
+        "OpenAIUniverse",
+        "StartupCTORoleEvolution",
+        "TechnicalLeadershipRoleDesign"
       ]
     }
   ],

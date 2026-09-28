@@ -6112,3 +6112,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | #define CTO OpenAI
+
+Added [[GregBrockman]]'s account of OpenAI's 2015-2017 formation, founding-team recruitment, and early engineering/research organization. Created [[IlyaSutskever]], [[OpenAIGym]], [[OpenAIUniverse]], and [[MachineLearningResearchEngineering]], and updated [[OpenAI]], [[StartupCTORoleEvolution]], and [[TechnicalLeadershipRoleDesign]] from their complete ordered evidence inventories. Preserved the source as an interested founder retrospective rather than an independent institutional history, and qualified its role attributions, schedule claims, intense coding practice, and cooperative-AI aspirations. The supplied Markdown contains no effective image references.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

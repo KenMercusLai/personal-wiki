@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [#define CTO OpenAI](sources/greg-brockman-define-cto-openai.md) - Greg Brockman recounts OpenAI's formation, early recruiting, constraint-driven leadership shifts, and the research-engineering work behind Gym and Universe.
 - [Greater Internet Fuckwad Theory | Know Your Meme](sources/greater-internet-fuckwad-theory-know-your-meme.md) - Know Your Meme traces a 2004 Penny Arcade equation about anonymity and audience through online-disinhibition research, precursors, remixes, and later internet culture.
 - [GraphQL: A success story for PayPal Checkout](sources/graphql-a-success-story-for-paypal-checkout-paypal-engineering-medium.md) - PayPal describes Checkout's progression from atomic and orchestrated REST through Bulk REST to client-shaped, schema-discoverable GraphQL.
 - [GraphQL vs. REST](sources/graphql-vs-rest-apollo-graphql.md) - Apollo compares REST routes and server-shaped resources with GraphQL schemas, client-selected fields, relationship traversal, and resolver-composed responses.
@@ -776,6 +777,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Greg Brockman](entities/GregBrockman.md) - OpenAI co-founder represented as a founding organizer and hands-on research engineer whose CTO work followed the current bottleneck.
+- [Ilya Sutskever](entities/IlyaSutskever.md) - OpenAI founding research leader represented through complementary institution design and flexible responsibility sharing with Greg Brockman.
+- [OpenAI Gym](entities/OpenAIGym.md) - Standardized reinforcement-learning environment library whose software abstractions and quality shaped early research iteration.
+- [OpenAI Universe](entities/OpenAIUniverse.md) - Early OpenAI system exposing keyboard, mouse, and screen environments to agents through programmatic VNC infrastructure.
 - [John Suler](entities/JohnSuler.md) - Psychologist represented through his multi-factor account of benign and toxic online disinhibition.
 - [Penny Arcade](entities/PennyArcade.md) - Gaming webcomic that originated the Greater Internet Fuckwad Theory and its chalkboard equation.
 - [Apollo GraphQL](entities/ApolloGraphQL.md) - Publication and developer-tooling context for the source's GraphQL education, client caching, and server-infrastructure examples.
@@ -1939,7 +1944,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Obsidian](entities/Obsidian.md) - Note-taking app and plugin ecosystem used to illustrate big-note, small-note, reading-note, and simplified personal workflows.
 - [Onevcat](entities/Onevcat.md) - Developer-author reflecting on intensive Claude Code use, vibe coding workflows, and coding-agent limits.
 - [码田匠心](entities/MaTianJiangXin.md) - Technical blog/source account explaining Ramer-Douglas-Peucker trajectory simplification through a vehicle-track rendering example.
-- [OpenAI](entities/OpenAI.md) - AI model and API provider represented through GPT research, tool calling, ChatGPT productization, mixed release modes, and AGI-oriented governance.
+- [OpenAI](entities/OpenAI.md) - AI research organization represented from its early engineering/research design through GPT, APIs, tool calling, ChatGPT, and AGI-oriented governance.
 - [OpenClaw](entities/OpenClaw.md) - Local-first personal-agent runtime combining IM channels, durable sessions, tools, and Skills with substantial permission, isolation, and recovery risks.
 - [Pavel Durov](entities/PavelDurov.md) - Interview subject whose discipline practices anchor the source essay's claims about attention, alcohol avoidance, and example-setting.
 - [Peter Pang](entities/PeterPang.md) - Author of the translated AI-first engineering essay and narrator of CREAO's workflow redesign.
@@ -2146,6 +2151,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Machine Learning Research Engineering](concepts/MachineLearningResearchEngineering.md) - Software, infrastructure, interfaces, and workflows that make machine-learning experiments feasible and fast enough to support research progress.
 - [Greater Internet Fuckwad Theory](concepts/GreaterInternetFuckwadTheory.md) - Internet-culture aphorism joining reduced accountability and an audience as conditions for abusive online behavior.
 - [Online Disinhibition Effect](concepts/OnlineDisinhibitionEffect.md) - Loosening of face-to-face social restraint online, with both benign and toxic forms shaped by multiple mechanisms.
 - [GraphQL](concepts/GraphQL.md) - Typed API model combining client-selected fields, resolver execution, schema discovery, and fewer application-data round trips.
@@ -2338,7 +2344,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Certificate-Based Device Identity](concepts/CertificateBasedDeviceIdentity.md) - Device identity established through private keys, signed certificates, trusted CA chains, and operational certificate lifecycle controls.
 - [Authorized Device Lists](concepts/AuthorizedDeviceLists.md) - Explicit inventories that turn authenticated device identities into valid, staged, or denied network participation.
 - [Jobs to Be Done](concepts/JobsToBeDone.md) - Decision-research lens centered on the progress people or organizations seek under particular circumstances.
-- [Technical Leadership Role Design](concepts/TechnicalLeadershipRoleDesign.md) - Allocation of technology direction, architecture, engineering execution, people, programs, and budgets among senior technical leaders.
+- [Technical Leadership Role Design](concepts/TechnicalLeadershipRoleDesign.md) - Explicit, revisable allocation of technical direction, engineering execution, people, programs, and research infrastructure among senior leaders.
 - [API Backward Compatibility](concepts/APIBackwardCompatibility.md) - Evolving an API through version translation, explicit support boundaries, and controlled migration of deprecated clients.
 
 - [Startup Defensibility](concepts/StartupDefensibility.md) - Persistence of a startup's advantage through reinforcing business mechanisms, including conditional rather than assumed data network effects.
@@ -2358,7 +2364,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Leader of Leaders](concepts/LeaderOfLeaders.md) - Scaling model where executives lead through durable senior owners, written review mechanisms, teaching, explicit authority boundaries, and selective depth.
 - [BeyondCorp](concepts/BeyondCorp.md) - Google's identity- and device-aware employee-access architecture replacing broad VPN perimeter trust with application-level policy enforcement.
 - [Zero-Trust Access](concepts/ZeroTrustAccess.md) - Access model authorizing each user-to-application request from identity, device, authentication, and resource context rather than network location.
-- [Startup CTO Role Evolution](concepts/StartupCTORoleEvolution.md) - A startup technology leader's responsibilities change as successive technical, product, people, and coordination bottlenecks emerge.
+- [Startup CTO Role Evolution](concepts/StartupCTORoleEvolution.md) - A startup technology leader's responsibilities move among coding, product, people, and coordination as the dominant constraint changes.
 
 - [Solo Founding](concepts/SoloFounding.md) - Company formation led by one founder, concentrating authority, workload, risk, learning, and control over the job the business creates.
 - [Zero-Width Text Fingerprinting](concepts/ZeroWidthTextFingerprinting.md) - Invisible recipient-specific Unicode encoding for tracing copied text, with preservation, tampering, authentication, and privacy limitations.
