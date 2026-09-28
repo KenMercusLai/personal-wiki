@@ -6184,3 +6184,11 @@ Added [[StartupGrowthSignalQuality]] to distinguish real but short-lived early g
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Growth is getting hard from intensive competition, consolidation, and saturation
+
+Added [[AndrewChen]]'s 2017 diagnosis of [[GrowthChannelSaturation]] as a coupled effect of mobile concentration, paid-auction pressure, user adaptation, widespread tooling, fast incumbent imitation, and zero-sum attention. Updated [[AndrewChen]], [[ConsumerStartupCompetition]], and [[ProductImitationStrategy]] from their complete ordered evidence inventories while preserving the essay's historical, selected-example, and non-causal limits. The local lead image was inspected and omitted as a decorative title card; eight post-header references reused invalid HTML files, so the linked article was used to identify one duplicate title card and recover, inspect, and retain the seven distinct evidence-bearing originals under descriptive canonical filenames.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

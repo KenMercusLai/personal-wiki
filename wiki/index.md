@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Growth is getting hard from intensive competition, consolidation, and saturation](sources/growth-is-getting-hard-from-intensive-competition-consolidation-and-saturation-at-andrewchen.md) - Andrew Chen links harder late-cycle growth to mobile concentration, contested paid channels, user adaptation, tool diffusion, faster incumbents, and zero-sum attention.
 - [Growth as a false signal in Y Combinator startups](sources/growth-as-a-false-signal-in-y-combinator-startups-techcrunch.md) - Doug Renert argues that short-window revenue growth is weak standalone evidence without base size, persistence, retention, engagement, and viable unit economics.
 - [Growth Hacking vs Value Hacking - By](sources/growth-hacking-vs-value-hacking-by.md) - Practitioner essay arguing that teams should treat growth metrics as proxies for customer value, segment users by distinct value functions, and pursue adjacent propositions when existing optimization plateaus.
 - [Growth Engineering at Netflix — Accelerating Innovation](sources/growth-engineering-at-netflix-accelerating-innovation.md) - Netflix joins continuous signup experimentation with a stateless client protocol, centralized orchestration, state-machine decisions, instrumentation, and fault tolerance across markets and devices.
@@ -2166,6 +2167,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Growth Channel Saturation](concepts/GrowthChannelSaturation.md) - Acquisition advantage decays as platforms concentrate discovery, auctions crowd, users adapt, tools diffuse, incumbents copy faster, and attention becomes zero-sum.
 - [Value Hacking](concepts/ValueHacking.md) - Product-growth practice that tests segment-specific value propositions and adjacent use cases instead of indefinitely optimizing one aggregate growth proxy.
 - [Growth Engineering](concepts/GrowthEngineering.md) - Measured acquisition, activation, retention, and revenue improvement backed by product experiments, instrumentation, reliable software, and enabling platform architecture.
 - [Person-Strategy Fit](concepts/PersonStrategyFit.md) - Alignment between a person's distinctive strengths and the method, goal, environment, or venture they can sustain effectively.
