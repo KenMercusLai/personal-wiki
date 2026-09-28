@@ -2,6 +2,24 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "zoopla-aligns-focus-economics-and-integration",
+      "qualifications": [
+        "The evidence is one celebratory investor retrospective that does not independently substantiate its financial or operating figures, compare failed or rejected strategies, or isolate which practices caused the outcome.",
+        "The account supplies no employee, customer, competitor, agent, co-investor, or transaction-counterparty perspectives, and a successful acquisition announcement creates substantial hindsight and selection bias."
+      ],
+      "statement": "[[Zoopla]] joins several business disciplines inside one source-scoped success case: [[StartupFocus]] distinguishes reinforcing a UK real-estate mission from unrelated diversification, [[CapTableDilution]] treats strategic-counterparty equity as potential alignment rather than ownership loss alone, [[MarketSizing]] adds recurrence, churn, concentration, and margin quality to the headline revenue pool, [[AcquisitionStrategy]] gains an explicit 90-day core-system migration, and [[ProductMetricLadder]] keeps the board scoreboard small and stable above deeper operating analysis.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Zoopla",
+        "StartupFocus",
+        "CapTableDilution",
+        "MarketSizing",
+        "AcquisitionStrategy",
+        "ProductMetricLadder"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "startup-survival-aligns-focus-crisis-and-role-fit",
       "qualifications": [
         "The evidence is one successful founder's retrospective relayed by an investor publication, without independent verification, comparison with failed companies, or employee, successor, partner, investor, and board perspectives.",

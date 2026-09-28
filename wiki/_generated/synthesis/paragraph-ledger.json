@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
       "50766921b76cf44d3c860cbbfcb2d57bbf8017ec29d59d2bd7bf36c6389c57e6",
       "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
       "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
@@ -541,11 +542,32 @@
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
       "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162"
     ],
-    "paragraph_count": 539
+    "paragraph_count": 540
   },
-  "overview_commit": "66aee87ae85fdbb57aac9593f08c95f18b946a24",
-  "overview_digest": "7fdda6195d5a38c085c1721d4962b6d6a49fd7d7c8e5d9883c2f302708da9c5f",
+  "overview_commit": "7663895b8cff7c1e77cbc3187840b143a3d9151f",
+  "overview_digest": "b81851a347626278b153e9266afabc8d935e6202df3c3b069ef547a154ec5f98",
   "paragraphs": [
+    {
+      "id": "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[FredDestin]] source adds [[Zoopla]] as a joined case in focused vertical strategy, strategic ownership, market economics, acquisition execution, and operating governance. Destin says the UK property company raised about $20 million, listed at roughly $1.2 billion after seven years, and reached an announced $3 billion acquisition after ten despite remaining in one geography, one vertical, and behind Rightmove. [[StartupFocus]] therefore gains a boundary between unrelated diversification and acquisitions that reinforce the same mission. [[CapTableDilution]] gains a strategic-counterparty dimension because equity granted to estate agents and transaction consideration are framed as ways to align power brokers and consolidate the market, not only as ownership loss. [[MarketSizing]] gains recurrence, churn, concentration, and margin quality as complements to headline revenue-pool size. [[AcquisitionStrategy]] gains a concrete integration test through the reported 90-day FindAProperty migration, including billing, while [[ProductMetricLadder]] gains a small stable board-level KPI layer above deeper operating analysis. The account remains a celebratory investor retrospective: it does not independently substantiate its figures, compare rejected or failed strategies, isolate causation, or provide employee, customer, competitor, or counterparty perspectives. The sole local image was opened and omitted as a contextual portrait of Destin with no independent evidence, so no asset manifest was created.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "governance-and-institutions": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AcquisitionStrategy",
+        "CapTableDilution",
+        "FredDestin",
+        "MarketSizing",
+        "ProductMetricLadder",
+        "StartupFocus",
+        "Zoopla"
+      ]
+    },
     {
       "id": "50766921b76cf44d3c860cbbfcb2d57bbf8017ec29d59d2bd7bf36c6389c57e6",
       "primary_topic": "business-and-markets",

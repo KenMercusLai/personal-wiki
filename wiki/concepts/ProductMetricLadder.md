@@ -9,6 +9,7 @@ sources:
   - building-products-the-year-of-the-looking-glass-medium
   - dau-mau-is-an-important-metric-to-measure-engagement-but-heres-where-it-fails-at-andrewchen
   - five-lessons-from-scaling-pinterest-sarah-tavel-medium
+  - fred-destin-10-years-to-3bn-ten-things-i-learned-from-zoopla
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
@@ -25,14 +26,16 @@ Metric choice also establishes organizational ownership. At [[Pinterest]], the g
 
 A category-fit constraint applies across the ladder. A short-cycle engagement ratio is only a good proxy when it matches the product's natural usage cadence. Daily frequency may be central for communication products but misleading for travel, recruiting, enterprise tools, mobility, or infrequent commerce, where retention, transaction value, monetization, or accumulated data can better express value. Even a well-known proxy must therefore be checked against its denominator mechanics, cohorts, category, and business model.
 
+The Zoopla account adds a governance constraint: more available analysis does not require more board-level KPIs. Destin says he and Chesterman designed a small KPI set in 2008 and changed it little for about six years. A metric ladder should therefore expose enough detail for diagnosis while keeping the governing scoreboard deliberately small and stable enough to preserve shared meaning over time.
+
 ## Key Claims
-- Product goals should start from a core business theme and express meaningful user progress rather than surface activity alone.
+- Product goals should start from a small, stable core business scoreboard and express meaningful user progress rather than surface activity alone.
 - Long-term business metrics are often too slow to guide iterative product work.
 - A product-level metric should mark the user-behavior change expected on the path to the business goal.
 - A very-short-term proxy metric can let teams make decisions before a full long-term cohort matures, but short-cycle metrics need time-zone buffers when the user base is international.
 - Slow loyalty KPIs such as NPS can guide planning when paired with faster operational dashboards and consistent methodology.
 - Company KPIs should act as a scoreboard for deciding which product ideas are worth pitching, and success metrics should be defined before launch with countermetrics that reveal unintended tradeoffs.
-- Unexpected metric movement should trigger causal investigation before strategy changes, and proxy metrics should match natural product cadence rather than impose a daily ratio as a universal value or product-market-fit score.
+- Unexpected metric movement should trigger causal investigation before strategy changes; proxy metrics should match natural product cadence, and operating teams should retain deeper diagnostics beneath the small board-level KPI set.
 
 ## Evidence
 - Business theme: [[7-ways-to-use-the-rule-of-threes-to-build-great-products]] names NPS, conversion, and revenue as typical core themes depending on company stage.
@@ -51,14 +54,16 @@ A category-fit constraint applies across the ladder. A short-cycle engagement ra
 - Alternative evidence: [[dau-mau-is-an-important-metric-to-measure-engagement-but-heres-where-it-fails-at-andrewchen]] recommends examining hardcore cohorts, network or content accumulation, monetization, and value per interaction when daily frequency is structurally low.
 - Metric-choice failure: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] says Pinterest's MAU goal rewarded top-of-funnel growth while ownership of new-user activation remained split or absent.
 - Core-action replacement: [[five-lessons-from-scaling-pinterest-sarah-tavel-medium]] says the shift to new weekly active pinners aligned Growth with getting newcomers from signup to Pinterest's core Pin or repin behavior.
+- Stable governance layer: [[fred-destin-10-years-to-3bn-ten-things-i-learned-from-zoopla]] says Zoopla's board KPI set was designed in 2008 and changed little, if at all, for roughly six years.
 
 ## Counterevidence & Qualifications
-Proxy metrics can mislead when they stop correlating with the long-term business outcome, mismatch the product's natural cadence, or encourage local optimization. A ratio can also move because its denominator changes: reactivation may increase MAU faster than DAU without reducing total use. Slow KPIs can mislead in the opposite direction when teams overreact to small sampled changes, methodology shifts, or seasonality. Countermetrics reduce but do not eliminate metric gaming because teams can still choose weak safeguards or miss second-order effects. KPI alignment can also become too narrow if teams only pitch ideas with obvious near-term metric effects and ignore qualitative learning, platform quality, risk reduction, or strategic-option value. Pinterest's account is retrospective and gives no absolute MAU or weekly-active-pinner series, attribution method, or proof that the metric change alone accelerated growth. The sources give operating patterns but not full statistical validation rules, so teams still need to check whether short-cycle metrics remain trustworthy leading indicators and whether long-cycle metrics remain comparable across time.
+Proxy metrics can mislead when they stop correlating with the long-term business outcome, mismatch the product's natural cadence, or encourage local optimization. A ratio can also move because its denominator changes: reactivation may increase MAU faster than DAU without reducing total use. Slow KPIs can mislead in the opposite direction when teams overreact to small sampled changes, methodology shifts, or seasonality. Countermetrics reduce but do not eliminate metric gaming because teams can still choose weak safeguards or miss second-order effects. KPI alignment can also become too narrow if teams only pitch ideas with obvious near-term metric effects and ignore qualitative learning, platform quality, risk reduction, or strategic-option value. Pinterest's and Zoopla's accounts are retrospectives and provide no proof that their metric choices caused growth; a stable KPI set can become stale when the business model, strategy, risks, or customer behavior materially change. The sources give operating patterns but not full statistical validation rules, so teams still need to check whether short-cycle metrics remain trustworthy leading indicators and whether long-cycle metrics remain comparable and decision-relevant across time.
 
 ## What Changed
 - Added Building Products' pre-launch metric definition, countermetric pairing, Crystal Ball technique, and causal investigation norm for unexpected metric changes.
 - Added category cadence, denominator mechanics, and value-per-interaction as tests for whether an engagement proxy is actually meaningful.
 - Added Pinterest's MAU-to-weekly-active-pinner shift as a case where metric choice changed team ownership from acquisition volume to successful activation around a core action.
+- Added a small, stable board KPI layer above deeper operational analysis, with an explicit stale-metric qualification.
 
 ## Related Concepts
 - [[RuleOfThreesProductDevelopment]] - supplies the long, short, and very-short goal structure.

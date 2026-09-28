@@ -5701,3 +5701,11 @@ Added [[AdamTaussig]]'s four-promise model of brand across product, price, chann
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | 10 Years to $3bn — Ten Things I Learned from Zoopla
+
+Added [[FredDestin]]'s retrospective on backing [[Zoopla]] from seed through IPO and an announced $3 billion acquisition. Created source-bounded profiles for Fred Destin, Zoopla, [[AlexChesterman]], and [[AtlasVenture]]; updated [[StartupFocus]], [[CapTableDilution]], [[MarketSizing]], [[AcquisitionStrategy]], and [[ProductMetricLadder]] from their complete ordered evidence inventories with focused vertical expansion, strategic-counterparty equity, revenue-quality economics, 90-day integration, and a small stable board KPI layer. Preserved the account's limits as a celebratory investor retrospective without independently verified financial or operating figures, counterfactual strategies, failed-deal comparisons, or employee, customer, competitor, and counterparty perspectives. Opened the sole local image and omitted it as a contextual portrait of Destin with no independent evidence, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

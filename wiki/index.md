@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [10 Years to $3bn — Ten Things I Learned from Zoopla](sources/fred-destin-10-years-to-3bn-ten-things-i-learned-from-zoopla.md) - Fred Destin uses Zoopla to connect focused vertical strategy, strategic dilution, revenue quality, investor conviction, rapid acquisition integration, and stable KPIs.
 - [Four Questions Towards Understanding User Adoption of Your Product](sources/four-questions-towards-understanding-user-adoption-of-your-product.md) - Josh Elman proposes interviewing active users who initially abandoned a product and later returned to identify activation messages, obstacles, and successful behaviors.
 - [Four promises a brand makes to its customers](sources/four-promises-a-brand-makes-to-its-customers-lightspeed-venture-partners-medium.md) - Adam Taussig defines brand equity as customer belief earned by consistently delivering promises across product, price, channel, and marketing.
 - [Founder's Guide to Automation](sources/founders-guide-to-automation-fundersclub.md) - FundersClub argues for automating stable recurring startup work while preserving human oversight, escalation, and high-touch learning with first customers.
@@ -722,6 +723,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Four fundamentals of workplace automation](sources/four-fundamentals-of-workplace-automation-mckinsey.md) - McKinsey's 2015 activity-level model argues that partial automation will reshape many more jobs than it eliminates wholesale, making process redesign, augmentation, adoption constraints, and transition risks central.
 
 ## Entities
+- [Fred Destin](entities/FredDestin.md) - Venture investor represented through Zoopla financing, ownership, market-quality, and operating lessons.
+- [Zoopla](entities/Zoopla.md) - UK property-technology company presented as a focused vertical, stakeholder-alignment, and acquisition-integration case.
+- [Alex Chesterman](entities/AlexChesterman.md) - Zoopla founder credited with focus, stakeholder strategy, integration discipline, delegation, and operational attention.
+- [Atlas Venture](entities/AtlasVenture.md) - Venture firm represented through its seed and follow-on financing of Zoopla.
 - [Adaptive Path](entities/AdaptivePath.md) - Design and research organization represented through its source-scoped role in Twitter's 2009 user-adoption research.
 - [Tim Westergren](entities/TimWestergren.md) - Pandora founder represented through music-discovery work, strategic focus, crisis leadership, and a later move from CEO to strategy.
 - [Pandora](entities/Pandora.md) - Music-discovery company that evolved from Savage Beast Technologies through a cash crisis, leadership recasting, and an IPO.
