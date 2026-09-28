@@ -575,12 +575,13 @@
       "a54da65d0751c8919c913f309632b8b06eedad60d8964f06ef318cb85111c8ab",
       "dea79d47d1452d8d68cd14542bbd23ee1630b589322c95e45d0aeb067a21009b",
       "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
-      "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd"
+      "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd",
+      "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4"
     ],
-    "paragraph_count": 575
+    "paragraph_count": 576
   },
-  "overview_commit": "d5442844d2c3b14eff948cf031ef66df505057d1",
-  "overview_digest": "e533a3355f91b4db2561d64d5faca1d36dbc7d1ee4a65a5ddc9e9002b7f41c44",
+  "overview_commit": "51d76ed1425f63a1a072c07d7815dac689117d93",
+  "overview_digest": "c02acf0e38b15f11f02ce008dc8390b24c33c7cb30d80871b955c4c3c8b7649e",
   "paragraphs": [
     {
       "id": "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
@@ -11650,6 +11651,26 @@
         "AugmentedIntelligence",
         "LongNoseInnovation",
         "TimOReilly"
+      ]
+    },
+    {
+      "id": "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [
+        "culture-and-media",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest Know Your Meme source adds [[GreaterInternetFuckwadTheory]] as a durable internet-culture shorthand rather than a validated behavioral law. [[PennyArcade]]'s 2004 chalkboard equation joins an ordinary person, anonymity, and an audience to explain abusive conduct, while the article's 1978 CB-radio precursor suggests that reduced accountability can matter outside the internet. [[JohnSuler]]'s [[OnlineDisinhibitionEffect]] supplies the more useful mechanism boundary: anonymity is only one factor beside invisibility, asynchronicity, solipsistic introjection, dissociative imagination, minimized authority, personality differences, and altered self-boundaries, and lowered restraint can produce benign disclosure as well as toxic harassment. The source's selected YouTube, 4chan, gaming, misogyny, and racism examples establish cultural circulation, not prevalence or causality; they do not show that identity disclosure alone improves conduct. All nine local image files were opened, two duplicate originals were consolidated, and five evidence-bearing visuals were retained. The shared remote GIF URL identifies itself as a blank placeholder but could not be fetched because its host did not resolve; every remote reference had a cached local original that was inspected.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "GreaterInternetFuckwadTheory",
+        "JohnSuler",
+        "OnlineDisinhibitionEffect",
+        "PennyArcade"
       ]
     }
   ],

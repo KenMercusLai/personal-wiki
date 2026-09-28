@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "online-disinhibition-meme-compresses-a-multifactor-pattern",
+      "qualifications": [
+        "The Know Your Meme source documents cultural circulation through selected examples and remixes rather than measuring prevalence, causality, or the effect of identity disclosure.",
+        "Suler's framework includes benign disclosure as well as toxic conduct and treats anonymity as only one mechanism among several."
+      ],
+      "statement": "[[GreaterInternetFuckwadTheory]] shows how [[PennyArcade]] turned anonymity plus audience into a durable cultural shorthand, while [[JohnSuler]] and [[OnlineDisinhibitionEffect]] broaden the pattern to include visibility, timing, imagined interaction, authority, personality, and self-boundary changes.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "GreaterInternetFuckwadTheory",
+        "PennyArcade",
+        "JohnSuler",
+        "OnlineDisinhibitionEffect"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "programming-literacy-expands-computational-participation",
       "qualifications": [
         "The printing-press and textual-literacy comparison is an analogy, not evidence that programming access will diffuse through the same mechanisms or have comparable effects.",

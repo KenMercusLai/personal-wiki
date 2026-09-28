@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "online-disinhibition-has-benign-and-toxic-paths",
+      "qualifications": [
+        "The current evidence is Know Your Meme's secondary summary and a retained framework image rather than Suler's complete paper or later empirical research.",
+        "Selected examples of toxic behavior do not show that anonymous participation is generally harmful or that public identity by itself produces civil conduct."
+      ],
+      "statement": "[[OnlineDisinhibitionEffect]] distinguishes benign disclosure from toxic misconduct and, through [[JohnSuler]], expands the memorable [[GreaterInternetFuckwadTheory]] beyond anonymity and audience to visibility, asynchronicity, imagined interaction, dissociation, authority cues, personality, and changing self-boundaries; [[PennyArcade]] supplies the cultural formulation, not psychological proof.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "OnlineDisinhibitionEffect",
+        "JohnSuler",
+        "GreaterInternetFuckwadTheory",
+        "PennyArcade"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "camera-filters-mediate-self-presentation",
       "qualifications": [
         "The sources offer cultural and strategy interpretations rather than user research, so they do not establish effects on identity development, authenticity, social connection, or wellbeing.",

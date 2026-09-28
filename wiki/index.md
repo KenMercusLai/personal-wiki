@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Greater Internet Fuckwad Theory | Know Your Meme](sources/greater-internet-fuckwad-theory-know-your-meme.md) - Know Your Meme traces a 2004 Penny Arcade equation about anonymity and audience through online-disinhibition research, precursors, remixes, and later internet culture.
 - [GraphQL: A success story for PayPal Checkout](sources/graphql-a-success-story-for-paypal-checkout-paypal-engineering-medium.md) - PayPal describes Checkout's progression from atomic and orchestrated REST through Bulk REST to client-shaped, schema-discoverable GraphQL.
 - [GraphQL vs. REST](sources/graphql-vs-rest-apollo-graphql.md) - Apollo compares REST routes and server-shaped resources with GraphQL schemas, client-selected fields, relationship traversal, and resolver-composed responses.
 - [Gradually, then suddenly](sources/gradually-then-suddenly-oreilly.md) - Tim O'Reilly surveys gradual technological shifts nearing visible consequence and argues for human-machine partnership, institutional capacity, and deliberate moral choice.
@@ -775,6 +776,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [John Suler](entities/JohnSuler.md) - Psychologist represented through his multi-factor account of benign and toxic online disinhibition.
+- [Penny Arcade](entities/PennyArcade.md) - Gaming webcomic that originated the Greater Internet Fuckwad Theory and its chalkboard equation.
 - [Apollo GraphQL](entities/ApolloGraphQL.md) - Publication and developer-tooling context for the source's GraphQL education, client caching, and server-infrastructure examples.
 - [Tim O'Reilly](entities/TimOReilly.md) - Technology publisher and commentator represented through cumulative change, human-machine partnership, institutional capacity, and moral choice.
 - [Ron Amadeo](entities/RonAmadeo.md) - Ars Technica author connecting Google's repeated shutdowns to portfolio-wide product-lifecycle trust.
@@ -2143,6 +2146,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Greater Internet Fuckwad Theory](concepts/GreaterInternetFuckwadTheory.md) - Internet-culture aphorism joining reduced accountability and an audience as conditions for abusive online behavior.
+- [Online Disinhibition Effect](concepts/OnlineDisinhibitionEffect.md) - Loosening of face-to-face social restraint online, with both benign and toxic forms shaped by multiple mechanisms.
 - [GraphQL](concepts/GraphQL.md) - Typed API model combining client-selected fields, resolver execution, schema discovery, and fewer application-data round trips.
 - [REST API](concepts/RESTAPI.md) - HTTP resource interface whose atomic, orchestration, and bulk-composition patterns trade simplicity against client round trips and coupling.
 - [Staff Meetings](concepts/StaffMeetings.md) - Recurring leadership forums governed by concrete coordination needs, distinct facilitation and recordkeeping roles, purposeful agendas, shared notes, and explicit reassessment.

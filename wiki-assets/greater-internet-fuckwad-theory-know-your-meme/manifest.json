@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "greater-internet-fuckwad-theory-know-your-meme",
+  "images": [
+    {
+      "file": "original-gift-equation.jpg",
+      "alt": "Penny Arcade's chalkboard equation: normal person plus anonymity plus audience equals abusive behavior"
+    },
+    {
+      "file": "online-disinhibition-mechanisms.jpg",
+      "alt": "John Suler's online disinhibition framework lists anonymity, invisibility, asynchronicity, solipsistic introjection, dissociative imagination, and minimized authority"
+    },
+    {
+      "file": "xkcd-youtube-comments.jpg",
+      "alt": "xkcd depicts hostile and poorly reasoned comments beneath a YouTube video"
+    },
+    {
+      "file": "anonymity-mask-remix.jpg",
+      "alt": "An anonymity-mask remix associates concealed identity with racist online speech"
+    },
+    {
+      "file": "alternate-gift-equation.jpg",
+      "alt": "An alternate version replaces anonymity with perceived privacy and the audience with approving yes-men"
+    }
+  ]
+}

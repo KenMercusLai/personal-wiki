@@ -6097,9 +6097,17 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | Greater Internet Fuckwad Theory | Know Your Meme
+
+Added Know Your Meme's history of [[GreaterInternetFuckwadTheory]] from [[PennyArcade]]'s 2004 equation through precursors, cultural spread, remixes, and commenting-policy debates. Created [[OnlineDisinhibitionEffect]], [[JohnSuler]], and [[PennyArcade]] while preserving the distinction between a memorable folk model and a multi-factor psychological framework, the benign uses of lowered restraint, and the source's lack of causal or prevalence evidence. Opened all nine local image files, deduplicated the original equation, retained five evidence-bearing visuals, and omitted decorative or prose-duplicating variants. The shared remote URL identifies itself as a blank placeholder but could not be fetched because its host did not resolve; every remote reference had a cached local original that was inspected.
+
 ## [2026-09-29] ingest | GraphQL: A success story for PayPal Checkout
 
 Added PayPal Engineering's Checkout progression from atomic and orchestrated REST through Bulk REST to GraphQL. Updated [[GraphQL]], [[RESTAPI]], and [[PayPal]] from their complete ordered evidence inventories with the reported 700 ms 99th-percentile network-trip cost, the six-week three-developer mobile-SDK case, schema-driven parallel work, field-level evolution, and adoption across more than 30 applications or teams. Preserved the company-authored source boundary and missing controlled latency, conversion, backend-cost, reliability, and maintenance comparisons. Opened all 12 distinct local images referenced by 13 embeds, retained two full-resolution Checkout interfaces, omitted four decorative or duplicate images, and omitted six evidence-oriented thumbnails whose 60-pixel width made them uninterpretable beyond prose-repeated captions.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

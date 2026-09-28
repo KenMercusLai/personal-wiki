@@ -2,6 +2,22 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "online-conduct-governance-exceeds-identity-disclosure",
+      "qualifications": [
+        "The source is a secondary meme history and does not compare anonymous and identified communities or moderation systems.",
+        "The selected examples establish cultural salience rather than the prevalence or causal strength of anonymity, audience effects, or any proposed remedy."
+      ],
+      "statement": "[[GreaterInternetFuckwadTheory]] frames abusive conduct as an anonymity-and-audience problem, but [[JohnSuler]]'s [[OnlineDisinhibitionEffect]] and the source's [[PennyArcade]] history imply a wider governance boundary involving consequences, visibility, timing, authority, audience reinforcement, personality, and norms; identity disclosure alone is not established as sufficient control.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "GreaterInternetFuckwadTheory",
+        "JohnSuler",
+        "OnlineDisinhibitionEffect",
+        "PennyArcade"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "superapp-breadth-concentrates-governance",
       "qualifications": [
         "The evidence is one 2019 journalistic source and does not measure later antitrust, privacy, labor, moderation, interoperability, or consumer-welfare outcomes.",
