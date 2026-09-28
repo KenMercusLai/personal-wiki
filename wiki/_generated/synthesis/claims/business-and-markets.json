@@ -1,6 +1,23 @@
 {
   "claims": [
     {
+      "global_candidate": true,
+      "id": "growth-pressure-mixes-capital-culture-and-founder-goals",
+      "qualifications": [
+        "The Baremetrics evidence is one unaudited first-person retrospective; it does not isolate how much funding, culture, optimism, hiring, spending, or execution contributed to the runway crisis and recovery.",
+        "The retained revenue chart has no explicit metric label or underlying data, and a ten-day break supports a perspective shift without proving that time away caused the reported financial recovery."
+      ],
+      "statement": "[[Baremetrics]] qualifies [[VentureBackedGrowthPressure]] by separating capital from direct coercion: two funding rounds expanded spending capacity, but the author attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]] rather than investor demands. [[FounderSuccessDefinition]] therefore becomes an operating choice about durability, income, employee experience, customer happiness, and exit, while [[BurnoutPrevention]] supplies distance for re-examining the race without replacing financial correction.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "Baremetrics",
+        "VentureBackedGrowthPressure",
+        "StartupCulture",
+        "FounderSuccessDefinition",
+        "BurnoutPrevention"
+      ]
+    },
+    {
       "global_candidate": false,
       "id": "zoopla-aligns-focus-economics-and-integration",
       "qualifications": [

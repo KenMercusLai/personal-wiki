@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
       "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
       "ed87364b3d470221c2feb37b03ce4d8463ba381c31f426afeacacf28ec029fa8",
       "744ff369a05a5fe390d5c397f7a001fdf1101023138d273c2274dc26f0133ef8",
@@ -558,11 +559,30 @@
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86"
     ],
-    "paragraph_count": 556
+    "paragraph_count": 557
   },
-  "overview_commit": "6a115c769463668a8a199ab562b89ee9e26e63e0",
-  "overview_digest": "da8d26e84d287f492ce8fc4577f9bbaf6a0e34fbd512fe2c220414e5324160df",
+  "overview_commit": "fbd7a049e0fd25ec25d148ee68661acd799e6b9a",
+  "overview_digest": "3f22ead24868411dbe7e62922b3a9d1b59c95a7d81fc2087091fabc16ac3e9c8",
   "paragraphs": [
+    {
+      "id": "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[Baremetrics]] source turns a 2016 cash crisis into a qualified critique of startup growth culture. After two funding rounds totaling $800,000, fast hiring and spending based on expected hockey-stick growth reportedly left the company with less than two months of runway; 15% team and 30% founder pay cuts preceded restored salaries and profitability. The retained chart supports the narrower claim that revenue rose steadily from roughly $1,000 in December 2013 to about $67,000 by December 2016 without a sudden breakout, but it has no explicit metric label or underlying data. [[VentureBackedGrowthPressure]] gains important counterevidence: the author says investors did not demand this behavior, so capital expanded spending capacity while optimism and internalized [[StartupCulture]] supplied the immediate pressure. [[FounderSuccessDefinition]] broadens from personal lifestyle and financial targets to company durability, employee experience, customer happiness, and the legitimate possibility of never selling. [[BurnoutPrevention]] gains full disconnection as a perspective test—a ten-day break exposed the imagined race and frantic launch cycle—while preserving the boundary that rest did not itself repair runway, staffing, or spending. The recovery, profitability, salary, and forecast claims remain an unaudited first-person account without margins, retention, causal attribution, or later outcomes. The decorative race illustration was omitted; the revenue time series was retained at its semantic position.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Baremetrics",
+        "BurnoutPrevention",
+        "FounderSuccessDefinition",
+        "StartupCulture",
+        "VentureBackedGrowthPressure"
+      ]
+    },
     {
       "id": "acc6c0169c84f545a8b7f62086299ffaaae39c637d3d05f62d2398d0b3d7f329",
       "primary_topic": "ai-and-technology",

@@ -5924,3 +5924,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Getting out of the startup rat race
+
+Added Baremetrics' first-person account of a 2016 runway crisis, salary cuts, steady rather than hockey-stick revenue, and a reported return to profitability. Updated [[Baremetrics]], [[FounderSuccessDefinition]], [[VentureBackedGrowthPressure]], and [[BurnoutPrevention]] from their complete ordered evidence inventories, distinguishing direct investor demands from self-imposed startup norms and separating the perspective benefit of time away from the structural work of financial recovery. Opened both local images, omitted the decorative startup-race illustration, and retained the revenue time series under a descriptive canonical filename with a matching manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

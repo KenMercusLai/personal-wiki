@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Getting out of the startup rat race](sources/getting-out-of-the-startup-rat-race-baremetrics.md) - A Baremetrics runway crisis leads its author to reject self-imposed hockey-stick pressure and define success through sustainable economics, wellbeing, employees, and customers.
 - [Getting beyond MVP – the morning paper](sources/getting-beyond-mvp-the-morning-paper.md) - Adrian Colyer proposes CI, staging, tested bottom-up module extraction, and feature towers for modernizing a validated MVP without stopping product delivery.
 - [Getting a VC Job](sources/getting-a-vc-job-better-everyday.md) - A practitioner argues that early-career VC candidates should prove incremental deal access through domain depth, trusted networks, sourcing practice, and a long-cycle recruiting process.
 - [Getting Human Resources Right](sources/getting-human-resources-right-avc.md) - Fred Wilson frames HR as direct-to-CEO culture and leadership infrastructure and pairs it with training, hotline, anonymous-feedback, and recurring whistleblower communication.
