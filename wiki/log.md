@@ -5356,6 +5356,10 @@ Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | From Campus Drive to Cisco: Our Journey with AppDynamics
+
+Added [[AppDynamics]] and source-bounded profiles for [[JyotiBansal]], [[DavidWadhwani]], [[BhaskarSunkara]], [[AsheemChandna]], and [[RajeevMotwani]]. Updated [[Cisco]], [[GreylockPartners]], [[ExecutiveHiring]], and [[StartupScaling]] from their complete ordered evidence inventories; created [[SaaSLandAndExpand]] for the attributed five-times average and fourteen-times top-account expansion claims. Preserved the article's limits as a celebratory investor retrospective without audited metrics, transaction economics, unsuccessful alternatives, or post-acquisition outcomes. Opened all three local images, retained the highest-resolution leadership portrait, and omitted the other two as duplicate crops.
+
 ## [2026-09-28] ingest | Founder Stories: A Hacker's Hacker
 
 Added OpenOcean's profile of [[MontyWidenius]] and created Monty Widenius, [[MySQLAB]], [[MySQL]], [[MariaDB]], [[OpenOcean]], [[OpenSourceCommercialization]], and [[DeveloperLedTechnicalCulture]]. Captured MySQL's long development from customer-informed precursor code, its reported open-source and commercial-use model, work-sample-based contributor hiring, Widenius's coding-focused CTO role, and the later MariaDB and OpenOcean continuities. Preserved the source's promotional interest, conflicting 1985-versus-1995/1996 chronology, simplified honor-system licensing description, unsupported exceptional-talent claims, and missing account of the broader management system and collective work. Opened both local image files, retained the full-size portrait once under a descriptive canonical filename, and omitted the tiny thumbnail and repeated embeds as duplicates.
@@ -5737,6 +5741,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | From Bid Shading to Score Shading: Dual Optimization and Game Governance in Mixed Ranking Systems
 
 Added [[ScoreShading]] as a dual-control framework for mixed-format ranking and [[MixedRankingGovernance]] as the platform layer needed to contain score deflation, coupled-controller oscillation, and strategic reporting. Updated [[ProgrammaticAdvertising]] with first-price bid shading and refreshed [[Wulc]] from his complete ordered evidence inventory. Preserved the article's proposal status: the extracted equations are absent, the Gaussian versus log-normal presentation is inconsistent, and no production experiment, calibration result, controller analysis, latency benchmark, or common cross-format value function is supplied. The Markdown contains no effective image references, so no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

@@ -726,6 +726,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Four fundamentals of workplace automation](sources/four-fundamentals-of-workplace-automation-mckinsey.md) - McKinsey's 2015 activity-level model argues that partial automation will reshape many more jobs than it eliminates wholesale, making process redesign, augmentation, adoption constraints, and transition risks central.
 - [From Bid Shading to Score Shading: Dual Optimization and Game Governance in Mixed Ranking Systems](sources/from-bid-shading-to-score-shadingdual-optimization-and-game-governance-in-mixed-ranking-systems.md) - Wulc adapts first-price bid shading to mixed ranking, then argues that dual control needs distribution modeling, exploration, and platform-wide governance.
 
+- [From Campus Drive to Cisco: Our Journey with AppDynamics](sources/from-campus-drive-to-cisco-our-journey-with-appdynamics.md) - Asheem Chandna recounts AppDynamics' path from 2008 Series A and early product formation through CEO succession, IPO preparation, and Cisco's last-minute acquisition proposal.
+
 ## Entities
 - [Andrew Ng](entities/AndrewNg.md) - AI researcher represented through Google Brain, the unlabeled-image experiment, input-to-output learning, and the AI-as-electricity industrial thesis.
 - [Fei-Fei Li](entities/FeiFeiLi.md) - Computer-vision researcher who founded ImageNet as large labeled-data infrastructure and a public evaluation institution.
@@ -2031,6 +2033,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [James Manyika](entities/JamesManyika.md) - McKinsey Global Institute director and coauthor of the 2015 workplace-automation analysis.
 - [Mehdi Miremadi](entities/MehdiMiremadi.md) - McKinsey principal and coauthor of the 2015 workplace-automation analysis.
 
+- [AppDynamics](entities/AppDynamics.md) - Enterprise application-monitoring company represented from early engineering formation through public-market preparation and acquisition by Cisco.
+- [Jyoti Bansal](entities/JyotiBansal.md) - AppDynamics founder who moved from operating CEO to chairman as the company entered a later scaling stage.
+- [David Wadhwani](entities/DavidWadhwani.md) - Scaling CEO recruited from Adobe to prepare AppDynamics for larger subscription operation and public markets.
+- [Bhaskar Sunkara](entities/BhaskarSunkara.md) - AppDynamics' first hire and early engineering leader, later described as product head and CTO.
+- [Asheem Chandna](entities/AsheemChandna.md) - Greylock investor who originated the AppDynamics investment and participated in its CEO search.
+- [Rajeev Motwani](entities/RajeevMotwani.md) - Stanford contact whose trusted introduction connected Asheem Chandna with Jyoti Bansal's early AppDynamics venture.
+
 ## Concepts
 - [Score Shading](concepts/ScoreShading.md) - Dynamic mixed-ranking score control that optimizes format utility under load or score-cost constraints.
 - [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform rules that prevent deflation, controller oscillation, and strategic misalignment across competing content formats.
@@ -3125,5 +3134,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Technical Decision Review](concepts/TechnicalDecisionReview.md) - Structured inquiry testing a technical plan's purpose, failure modes, detection signals, response options, and reversibility.
 
 - [Workplace Automation](concepts/WorkplaceAutomation.md) - Activity-level framework for automating parts of jobs while redesigning processes, roles, skills, controls, and accountability.
+
+- [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion that turns an initial account foothold into broader retained customer spending.
 
 ## Syntheses

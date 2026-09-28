@@ -9,7 +9,8 @@ sources:
   - change-at-buffer-the-next-phase-and-why-our-co-founder-and-our-cto-are-moving-on
   - 9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium
   - vps-that-cant-hire-jason-m-lemkin-medium
-last_updated: 2026-09-23
+  - from-campus-drive-to-cisco-our-journey-with-appdynamics
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,9 @@ knowledge_schema: synthesis-v1
 [[ExecutiveHiring]] is the practice of recruiting and evaluating senior leaders whose functional expertise, leadership style, and fit will shape a company's trajectory.
 
 ## Current Synthesis
-The sources frame executive hiring as a high-stakes process where founder intuition, resume prestige, and generic respect for experience are all insufficient. A founder may not know enough about engineering, product, finance, HR, operations, marketing, legal, or marketplace leadership to judge skill directly, so the process must generate signal from role focus, structured fit conversations, broad references, and self-awareness tests. Lemkin adds a team-building test: founders should separate people a candidate personally recruited from inherited reports, speak directly with strong former hires, and examine their role-specific results. The beautiful-resume warning adds a behavioral filter: even real name-brand experience can be dangerous if the candidate values status, budget, headcount, security, and territory more than company-level momentum. Lonsdale adds a timing filter: senior operators should be hired when their repeatable-process expertise matches a scaling need, not simply because their presence makes the company look safer. Buffer adds that executive hiring is also a vision question: some leaders may want to grow the team, hire senior operators, raise more funding, and formalize the board earlier than a founder choosing sustainable growth and cultural experimentation. Collin adds an onboarding filter: executive autonomy can fail if the founder has not deliberately transmitted the company-specific instinct built from customers and early operating work. The strongest pattern is humility plus evidence: define the few strengths the role truly needs, validate what the candidate personally created and whom they personally recruited, test whether the company is ready for the function, test whether the leader's desired company matches the actual path, use references to test skill and behavior, and invest in founder-context transfer before expecting full autonomy.
+The sources frame executive hiring as a high-stakes process where founder intuition, resume prestige, and generic respect for experience are insufficient. A founder may not know enough about a senior function to judge skill directly, so the process must generate signal from role focus, structured fit conversations, broad references, self-awareness tests, and evidence of whom the candidate personally recruited and what those teams achieved. The behavioral filter matters too: name-brand experience can be dangerous when a candidate values status, budget, security, or territory more than company-level momentum.
+
+Timing and transition complete the model. Senior operators should be hired when their repeatable-process expertise matches a scaling need and when their desired company path fits the founder's strategy. They also need concentrated founder-context transfer before autonomy. The AppDynamics case adds a positive succession narrative: after reaching hundreds of employees and more than a thousand claimed enterprise customers, founder, board, investor, and talent-search participants spent an extended period finding and courting [[DavidWadhwani]] as a public-company-scale CEO; [[JyotiBansal]] became chairman. This supports stage-fit and sustained courtship, but the later IPO demand and Cisco sale cannot isolate the hire's causal effect.
 
 ## Key Claims
 - Executive roles should be defined by a small number of critical strengths rather than a comprehensive wish list.
@@ -26,7 +29,7 @@ The sources frame executive hiring as a high-stakes process where founder intuit
 - Fit includes ambition, motivation, leadership style, failure history, vulnerability, how the candidate wants to work, and whether the founder has transmitted enough company context for autonomy.
 - Skill validation should combine broad, targeted references with direct evidence about whom the executive personally recruited and what those hires achieved.
 - Resume prestige should be treated as weak evidence until the process separates personal contribution from riding an already-successful organization.
-- Hiring experienced operators too early can obstruct invention, while hiring them too late can leave repeatable functions underbuilt; the timing choice also implies a company strategy and culture.
+- Hiring experienced operators too early can obstruct invention, while hiring them too late can leave repeatable functions underbuilt; a stage-matched succession can transfer operating leadership while preserving founder involvement through a chairman role.
 
 ## Evidence
 - Role focus: [[assembling-an-executive-leadership-team-is-daunting-let-thumbtacks-ceo-help-first-round-review]] says Thumbtack narrows hiring plans to the three essential skills for the role, such as team-building, recruiting, and mentorship for an executive expected to grow a team from 20 to 200.
@@ -44,6 +47,9 @@ The sources frame executive hiring as a high-stakes process where founder intuit
 - Early obstruction risk: [[bring-in-the-adults-8vc-news-medium]] argues that veteran management brought into year-one invention work can stultify startup innovation.
 - Vision and timing conflict: [[change-at-buffer-the-next-phase-and-why-our-co-founder-and-our-cto-are-moving-on]] says disagreement at Buffer included whether to bring in senior leaders, raise more funding, adopt a more traditional board setup, and grow the team while pursuing product quality and culture.
 - Founder-context transfer: [[9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium]] says Collin's first executive hire received too much autonomy too soon, so later executives spent two months being closely onboarded to absorb founder instinct.
+- Stage-matched succession: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] says AppDynamics began its CEO search after reaching hundreds of employees and more than a thousand claimed enterprise customers and aspiring to public-company scale.
+- Search persistence and courtship: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] describes an extended search followed by a four-month effort to recruit Wadhwani from Adobe.
+- Founder transition: [[from-campus-drive-to-cisco-our-journey-with-appdynamics]] says Wadhwani became CEO while Bansal moved to chairman.
 
 ## Counterevidence & Qualifications
 The model comes from founder/operator/investor advice and is optimized for startup executive searches. It does not prove that 10 to 20 references are feasible for every role, that backchanneling is equally appropriate across labor markets, or that vulnerability signals should outweigh measurable functional performance. The big-company-versus-startup contrast is a useful behavioral and timing filter but can become an overbroad stereotype if it treats all large-company experience as suspect. The Buffer case is a company-authored account of internal disagreement, not a full diagnostic of which leadership model would have worked best. The process also depends on careful handling of confidentiality around current employers.
@@ -52,12 +58,12 @@ Collin's onboarding lesson is a founder retrospective and may overstate how much
 
 Lemkin's two-hire test is concrete but comes from practitioner advice rather than comparative hiring research. It may disadvantage first-time executives or candidates whose recruiting record is difficult to verify, and the article's stated VP failure rate, 95-in-100 risk judgment, and 45-to-180-day detection range are uncited estimates rather than established benchmarks.
 
+The AppDynamics case is a retrospective written by an investor who helped make the hire and later celebrated a major transaction. The sequence is consistent with a successful succession, but it does not prove Wadhwani caused the reported subscription performance, IPO reception, or acquisition, nor does it reveal unsuccessful candidates or internal dissent.
+
 ## What Changed
-- Added resume-prestige risk and contribution-versus-momentum checks as executive-hiring filters.
-- Added process-readiness timing: experienced executives are most valuable when the company has repeatable functions to scale.
-- Added strategic-fit timing: senior-leadership buildout can reveal disagreement about the company's desired growth path.
-- Added founder-context transfer as an executive onboarding requirement before full autonomy.
-- Added personally recruited direct reports and their outcomes as evidence of executive team-building ability.
+- Added AppDynamics as a positive but non-causal CEO succession case at public-company scale.
+- Added extended search and candidate courtship as evidence that stage-matched executive recruiting may require persistence.
+- Added founder-to-chairman transition as one way to preserve founder involvement while transferring operating leadership.
 
 ## Related Concepts
 - [[StartupHiringAtScale]] - executive hiring is the senior-leadership layer of scaling hiring systems.
@@ -67,3 +73,5 @@ Lemkin's two-hire test is concrete but comes from practitioner advice rather tha
 - [[TalentDensity]] - senior hires influence the quality bar and leverage of the broader organization.
 - [[FounderVisionAlignment]] - executive-timing preferences can expose deeper company-building differences.
 - [[FounderInstinct]] - executive onboarding can transmit founder judgment before delegation.
+- [[AppDynamics]] - supplies the source-bounded CEO succession case.
+- [[SaaSLandAndExpand]] - one reported operating outcome associated with the later leadership stage, without proving causation.
