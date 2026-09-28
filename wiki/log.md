@@ -5709,3 +5709,11 @@ Added [[FredDestin]]'s retrospective on backing [[Zoopla]] from seed through IPO
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From 0 to $1B - Slack's Founder Shares Their Epic Launch Strategy
+
+Added a source note for Stewart Butterfield's historical account of Slack's staged beta cohorts, preview launch, category education, bottom-up team adoption, feedback operations, activation metric, and focused product differentiation. Updated Slack, Stewart Butterfield, Customer-Led Product Development, Product Metric Ladder, Category Creation, and Self-Service SaaS Growth. The sole image was inspected and omitted as a non-evidentiary portrait.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

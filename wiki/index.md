@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From 0 to $1B - Slack's Founder Shares Their Epic Launch Strategy](sources/from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review.md) - Stewart Butterfield connects Slack's launch to staged beta cohorts, category education, bottom-up team adoption, feedback operations, a product-specific activation threshold, and three focused differentiators.
 - [10 Years to $3bn — Ten Things I Learned from Zoopla](sources/fred-destin-10-years-to-3bn-ten-things-i-learned-from-zoopla.md) - Fred Destin uses Zoopla to connect focused vertical strategy, strategic dilution, revenue quality, investor conviction, rapid acquisition integration, and stable KPIs.
 - [Four Questions Towards Understanding User Adoption of Your Product](sources/four-questions-towards-understanding-user-adoption-of-your-product.md) - Josh Elman proposes interviewing active users who initially abandoned a product and later returned to identify activation messages, obstacles, and successful behaviors.
 - [Four promises a brand makes to its customers](sources/four-promises-a-brand-makes-to-its-customers-lightspeed-venture-partners-medium.md) - Adam Taussig defines brand equity as customer belief earned by consistently delivering promises across product, price, channel, and marketing.
@@ -796,7 +797,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Standard Notes](entities/StandardNotes.md) - Open-source, private, cross-platform note project promoted as a long-horizon alternative to Evernote.
 - [Evan Spiegel](entities/EvanSpiegel.md) - Snapchat leader associated with acquisition-led capability building and Snap's camera-as-communication product thesis.
 - [Zach Holman](entities/ZachHolman.md) - Startup practitioner writing about employer diligence, termination, offboarding, and alumni relationships.
-- [Stewart Butterfield](entities/StewartButterfield.md) - Slack leader used as a source-scoped example of dissatisfaction with a successful product's current state.
+- [Stewart Butterfield](entities/StewartButterfield.md) - Slack founder represented through staged beta learning, category education, feedback operations, activation metrics, focused differentiation, and resistance to product complacency.
 - [Eva Parish](entities/EvaParish.md) - Writer and technical-documentation practitioner represented through a cross-genre, judgment-led editing philosophy.
 - [John Allspaw](entities/JohnAllspaw.md) - Etsy CTO represented through a 2016 engineering philosophy of stack restraint, production ownership, cross-domain learning, and human judgment in automation.
 - [Bjorn Johnson](entities/BjornJohnson.md) - 8th Light author connecting deliverable user-story slices with uncertainty-aware team estimation.
@@ -1632,7 +1633,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Dropbox](entities/Dropbox.md) - Startup example used for slow early hiring before scale.
 - [Yahoo](entities/Yahoo.md) - Internet company represented through capability-building acquisitions, incumbent positions, systemic decline claims, and Del.icio.us integration failures.
 - [While West](entities/WhileWest.md) - Startup-work publication behind the employee-equity risk essay.
-- [Slack](entities/Slack.md) - Collaboration software represented through its pivot, team invitation loop, marketing systems, developer ecosystem, and hybrid Electron desktop architecture.
+- [Slack](entities/Slack.md) - Collaboration software represented through its pivot, staged launch, bottom-up team adoption, feedback and measurement systems, developer ecosystem, and technical architecture.
 - [Tiny Speck](entities/TinySpeck.md) - Pre-pivot game-company context for the Slack equity example.
 - [Tiny Habits](entities/TinyHabits.md) - BJ Fogg book presented as a deeper public explanation of the Fogg Behavior Model and behavior-design methods.
 - [Fab](entities/Fab.md) - Startup-equity counterexample used to contrast famous winning outcomes.
@@ -2205,7 +2206,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Zero-Width Text Fingerprinting](concepts/ZeroWidthTextFingerprinting.md) - Invisible recipient-specific Unicode encoding for tracing copied text, with preservation, tampering, authentication, and privacy limitations.
 - [Zombie Startup](concepts/ZombieStartup.md) - Company that retains startup appearance and financing while showing too little product, customer, or execution momentum for its promised trajectory.
 - [Micro-Brand Commerce](concepts/MicroBrandCommerce.md) - Small-team consumer commerce built from differentiated positioning, targeted discovery, flexible distribution, modular operations, and rapid low-commitment production.
-- [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS acquisition and activation enabled by clear product scope, free evaluation, contextual guidance, and meaningful first actions.
+- [Self-Service SaaS Growth](concepts/SelfServiceSaaSGrowth.md) - Low-touch SaaS growth through clear scope, meaningful first actions, local champions, team-level adoption, and activation beyond account creation.
 - [Failure-Informed Vendor Selection](concepts/FailureInformedVendorSelection.md) - Product diligence grounded in the cross-vendor failure, repair, implementation, and maintenance experience of downstream practitioners.
 - [Forum Community Design](concepts/ForumCommunityDesign.md) - Specialized, thread-based community architecture balancing durable retrieval, shared identity, pseudonymity, moderation, and discovery.
 - [Workplace Perk Design](concepts/WorkplacePerkDesign.md) - Values- and outcomes-led selection of benefits, amenities, and deliberate exclusions based on autonomy, wellbeing, inclusion, and work effects.
@@ -2718,7 +2719,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rule of Threes Product Development](concepts/RuleOfThreesProductDevelopment.md) - Product-management heuristic that organizes teams, goals, stories, research, releases, and retrospectives into balanced triads.
 - [Small Product Team Balance](concepts/SmallProductTeamBalance.md) - Very small product-team design around role clarity, motivation, shared context, and explicit domain and cross-domain decision ownership.
 - [One-Person Team Risk](concepts/OnePersonTeamRisk.md) - Quality, learning, continuity, momentum, and morale failures caused by concentrating a whole project's context in one person.
-- [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking business outcomes to meaningful user behavior, countermetrics, and frequently measured proxies.
+- [Product Metric Ladder](concepts/ProductMetricLadder.md) - Goal-setting pattern linking business outcomes to meaningful behavior, product-specific activation thresholds, countermetrics, and frequently measured proxies.
 - [DAU/MAU](concepts/DAUMAU.md) - Daily-to-monthly active-user ratio whose meaning depends on natural product cadence, denominator behavior, and complementary value evidence.
 - [Programmatic Advertising](concepts/ProgrammaticAdvertising.md) - Automated ad buying where exchanges, DSPs, and DMP-provided labels use user, context, advertiser, and audience data to decide whether and how much to bid for impressions.
 - [Product Shipping Credibility](concepts/ProductShippingCredibility.md) - Trust earned when a company visibly and consistently ships meaningful product improvements.
@@ -2756,7 +2757,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Small Product Portfolio](concepts/SmallProductPortfolio.md) - Independent-creator strategy of building several narrow paid products to diversify learning and income, qualified by the risk of fragmenting compounding.
 - [Blue Ocean Strategy](concepts/BlueOceanStrategy.md) - Market-creation strategy that seeks uncontested demand through value innovation rather than direct red-ocean competition.
 - [Brand Distinctiveness](concepts/BrandDistinctiveness.md) - Brand recognition and mental availability that help buyers notice, remember, and consider a company even when products seem similar.
-- [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that teaches a market to see a new problem or category so the creator becomes the default reference point.
+- [Category Creation](concepts/CategoryCreation.md) - Positioning strategy that makes an unnamed or fragmented workflow legible as a category and associates the creator with its solution.
 - [Creator Anxiety](concepts/CreatorAnxiety.md) - Recurring creator pressure around topic choice, expertise, perfectionism, audience data, and future ideas.
 - [Creator Feedback Loop](concepts/CreatorFeedbackLoop.md) - Publishing, draft testing, intermediate sharing, and reader response used to learn and sustain creative work.
 - [Creator Platform Metrics](concepts/CreatorPlatformMetrics.md) - Views, likes, followers, and platform-distribution signals as useful but psychologically risky creator feedback.
@@ -2833,7 +2834,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Coercive Learning](concepts/CoerciveLearning.md) - Learning pressure that overrides personal valuation signals through imposed curriculum, punishment, false rewards, or passive compliance.
 - [Chronic Stress](concepts/ChronicStress.md) - Prolonged or repeatedly inescapable stress without adequate control, resolution, reward, or recovery.
 - [Common Currency Model](concepts/CommonCurrencyModel.md) - Neural valuation model in which diverse reward and knowledge signals converge into a shared final value signal.
-- [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach that treats real customer problems, support conversations, direct calls, and usage context as primary build signals.
+- [Customer-Led Product Development](concepts/CustomerLedProductDevelopment.md) - Product-development approach using segmented cohorts, support, usage context, and routed feedback systems as primary build signals.
 - [Builder-User Fluency Gap](concepts/BuilderUserFluencyGap.md) - Difference between what builders find obvious from system fluency and what users can infer from the interface.
 - [Beautifully Broken Products](concepts/BeautifullyBrokenProducts.md) - Early products whose core value is strong enough that users tolerate obvious defects, outages, lag, clunky design, or manual workflows.
 - [Minimum Viable Product](concepts/MinimumViableProduct.md) - Smallest product, workflow, artifact, market test, or feature-like wedge that can validate core value before larger buildout.

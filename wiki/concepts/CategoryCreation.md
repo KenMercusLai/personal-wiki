@@ -6,7 +6,8 @@ sources:
   - cha-yi-hua-zhan-lue-zhi-nan-what-why-yu-how-36kr
   - 8-lessons-from-one-of-silicon-valleys-top-vcs-drift
   - being-different-beats-being-better-darius-foroux
-last_updated: 2026-09-14
+  - from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -14,11 +15,11 @@ knowledge_schema: synthesis-v1
 [[CategoryCreation]] is a positioning strategy that frames a new market category, problem, or buying logic so a company becomes associated with the category rather than merely compared inside an existing one.
 
 ## Current Synthesis
-The sources treat category creation as a stronger move than feature-level positioning in crowded markets and as one marker of a venture-scale company. A company does not always need to invent the first product in a technical sense; it can teach the market to see a new problem or solution category, then position itself as the obvious answer. The Grady interview adds a higher-ambition version: "fundamental companies" can define a category, dominate it, and reveal a problem or possibility the world had not clearly seen before. Foroux adds the personal-positioning version: being known as first in a category can matter more than proving invention or marginal superiority, whether the example is lifestyle entrepreneurship, music identity, or a career built from unusual skill combinations.
+The sources treat category creation as a stronger move than feature-level positioning in crowded markets and as one marker of a venture-scale company. A company does not always need to invent the first product in a technical sense; it can teach the market to see a new problem or solution category, then position itself as the obvious answer. The Slack account makes that educational burden concrete. Most prospective users said they used “nothing” for internal communication while actually combining email, mailing lists, Hangouts, SMS, Skype, private social groups, or legacy chat systems; Slack therefore had to name the category, explain the inadequacy of the existing bundle, and equip team administrators to teach coworkers how to adopt it. The Grady interview adds a higher-ambition version: "fundamental companies" can define a category, dominate it, and reveal a problem or possibility the world had not clearly seen before. Foroux adds the personal-positioning version: being known as first in a category can matter more than proving invention or marginal superiority, whether the example is lifestyle entrepreneurship, music identity, or a career built from unusual skill combinations.
 
 ## Key Claims
 - Category creation helps a company escape direct comparison with similar products.
-- The category creator often sells the problem before it sells the product.
+- The category creator often has to reveal that customers already perform a fragmented workflow before it can sell a named product category.
 - Being associated with a category can create leadership and mental-availability advantages.
 - Category creation requires stronger innovation and education than ordinary messaging.
 - If a company cannot become first or second in an existing category, creating a narrower or reframed category may be strategically attractive.
@@ -37,12 +38,16 @@ The sources treat category creation as a stronger move than feature-level positi
 - Firstness question: [[being-different-beats-being-better-darius-foroux]] cites [[AlRies]] and [[JackTrout]] for asking what category a new product is first in.
 - Public association: [[being-different-beats-being-better-darius-foroux]] uses [[TimFerriss]] to argue that being known for a category can matter more than inventing it.
 - Career category: [[being-different-beats-being-better-darius-foroux]] uses [[ScottAdams]] and [[SkillStacking]] to show how a person can become a category-like comparison point.
+- Unrecognized incumbent behavior: [[from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review]] says 70-80% of surveyed Slack users reported using “nothing” for internal communication despite relying on fragmented email, chat, SMS, and social tools.
+- Category teaching: [[from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review]] says Slack treated recognition of team communication as a software category as a major go-to-market task rather than relying on a feature list.
+- Internal champion education: [[from-0-to-1b-slacks-founder-shares-their-epic-launch-strategy-first-round-review]] says Slack created materials for individuals and team administrators so local champions could explain the product and reduce member veto risk.
 
 ## Counterevidence & Qualifications
-The sources present category creation as powerful but expensive and risky. A new category may begin with little demand, so the company must create understanding and urgency rather than simply capture existing search or comparison traffic. The Grady source also risks investor-selection bias: the advice comes from a venture lens optimized for exceptional outcomes, not every sustainable business. Foroux's examples emphasize recognition and memorability, but they do not distinguish durable category creation from short-lived novelty.
+The sources present category creation as powerful but expensive and risky. A new category may begin with little explicit demand because users describe a fragmented bundle as “nothing,” so the company must create understanding and urgency rather than simply capture existing search or comparison traffic. Slack's 70-80% estimate is an unsampled founder recollection, and its success does not establish that every hidden workflow can support a durable category. Education also adds adoption work: individuals and administrators must learn the product and persuade teammates, while one resistant member can block evaluation. The Grady source also risks investor-selection bias: the advice comes from a venture lens optimized for exceptional outcomes, not every sustainable business. Foroux's examples emphasize recognition and memorability, but they do not distinguish durable category creation from short-lived novelty.
 
 ## What Changed
 - Added Foroux's distinction between technical invention and being publicly known as first in a category.
+- Added Slack's case of converting an unnamed fragmented workflow into a legible category through market and administrator education.
 
 ## Related Concepts
 - [[DifferentiationStrategy]] - category creation is an aggressive form of differentiation.
@@ -52,3 +57,4 @@ The sources present category creation as powerful but expensive and risky. A new
 - [[CreatorPositioning]] - both define a legible place in the audience's mind.
 - [[StartupFocus]] - narrow entry helps category ambition avoid unfocused pursuit of a huge market.
 - [[SkillStacking]] - unusual skill combinations can create a personal category.
+- [[SelfServiceSaaSGrowth]] - category education must be carried through onboarding and local champions when salespeople are absent.
