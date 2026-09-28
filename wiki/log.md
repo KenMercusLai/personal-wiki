@@ -6232,3 +6232,11 @@ Added [[DanahBoyd]]'s 2017 account of attention hacking from [[4chan]] meme camp
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Halfway There: The Road to $1M ARR
+
+Added [[MarianoRodriguezColombelli]]'s account of the Hibox-to-[[Beamer]] semi-pivot from a broad collaboration product into a focused release-communication SaaS. Created [[Beamer]], [[Hibox]], [[MarianoRodriguezColombelli]], and [[SpencerCoon]], and updated [[ProductMarketFit]], [[BootstrappedSaaS]], [[SmallTeamLeverage]], and [[StartupDistributionStrategy]] from their complete ordered evidence inventories. Preserved the founder-retrospective boundary, the missing recurring-cohort and unit-economic evidence, the contrast between 3,000 one-time AppSumo customers and durable ARR, and the unresolved 5,000-company versus 20,000-product adoption counts. Opened all seven local images; retained the evidence-bearing dashboard/widget screenshot and customer-logo banner under descriptive canonical filenames, and omitted the founder photo plus four decorative stock or location photographs.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

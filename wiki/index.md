@@ -789,6 +789,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 - [Hacker Puts Hosting Service Code Spaces Out of Business](sources/hacker-puts-hosting-service-code-spaces-out-of-business-threatpost.md) - Threatpost reports how compromised AWS control-plane access let an attacker delete Code Spaces' production assets and backups, forcing the code-hosting company to cease trading.
+- [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
 - [danah boyd](entities/DanahBoyd.md) - Researcher and author connecting hacker culture, platform mechanics, media incentives, manipulation, harassment, and political power.
@@ -2180,6 +2181,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Wildbit](entities/Wildbit.md) - Software company represented through a team-centered product-management philosophy.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 - [Code Spaces](entities/CodeSpaces.md) - Code-hosting and collaboration company forced to cease trading after an attacker deleted AWS-hosted production and recovery assets.
+- [Beamer](entities/Beamer.md) - Focused release-communication SaaS spun from Hibox and operated through organic distribution, automation, and a compact remote team.
+- [Hibox](entities/Hibox.md) - Broad collaboration SaaS whose focus and cash-flow crisis preceded the Beamer spinout.
+- [Mariano Rodriguez Colombelli](entities/MarianoRodriguezColombelli.md) - Hibox and Beamer co-founder advocating narrow buyer focus, rapid iteration, automation, and constrained headcount.
+- [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
 - [Networked Information Manipulation](concepts/NetworkedInformationManipulation.md) - Coordinated exploitation of platform distribution, social participation, and media incentives to shape visibility, interpretation, trust, and speech.
