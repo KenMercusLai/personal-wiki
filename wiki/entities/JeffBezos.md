@@ -9,7 +9,8 @@ sources:
   - will-amazon-kill-fedex
   - amazons-new-customer-stratechery-by-ben-thompson
   - bezos-prime-fortune
-last_updated: 2026-09-25
+  - go-fast-and-break-things-the-difference-between-reversible-and-irreversible-decisions
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -17,7 +18,7 @@ knowledge_schema: synthesis-v1
 [[JeffBezos]] is Amazon's founder and CEO in the historical sources, cited for grounding strategy in stable customer desires, designing Amazon's expansion and decision system, framing logistics capacity as a supplement to carrier networks, and pursuing a scale-driven services model whose infrastructure can serve customers beyond Amazon itself.
 
 ## Current Profile
-The timeless-strategy essay presents Bezos as a strategist who grounds Amazon's long-term investment in stable customer desires. His quoted argument is that customers will continue to want low prices, fast delivery, and vast selection, making those durable enough for sustained energy and capital. The Forbes profile adds a broader operating portrait: Bezos frames Amazon's retail and cloud markets as practically unconstrained, creates multiple paths to yes for reversible experiments, slows large irreversible decisions, and evaluates major moves for differentiation, scale, and returns on capital. He spends little time on the current quarter, saying much of his work is two or three years in the future, while AWS profits give Amazon room to invest in healthcare, advertising, entertainment, hardware, and physical stores. The repeatability essay qualifies Bezos as a learning example: management, vision, ambition, and long-term thinking may be repeatable lessons, while Amazon's exact historical setup is not.
+The timeless-strategy essay presents Bezos as a strategist who grounds Amazon's long-term investment in stable customer desires. His quoted argument is that customers will continue to want low prices, fast delivery, and vast selection, making those durable enough for sustained energy and capital. The Forbes profile adds a broader operating portrait: Bezos frames Amazon's retail and cloud markets as practically unconstrained, creates multiple paths to yes for reversible experiments, slows large irreversible decisions, and evaluates major moves for differentiation, scale, and returns on capital. Farnam Street supplies a more general statement of that decision logic: two-way doors can move with incomplete information and course correction, while one-way doors need methodical consultation; its attributed 70% threshold emphasizes acting before certainty on correctable choices. He spends little time on the current quarter, saying much of his work is two or three years in the future, while AWS profits give Amazon room to invest in healthcare, advertising, entertainment, hardware, and physical stores. The repeatability essay qualifies Bezos as a learning example: management, vision, ambition, and long-term thinking may be repeatable lessons, while Amazon's exact historical setup is not.
 
 In the 2016 logistics interview, Bezos describes Amazon's new network as supplemental capacity rather than a plan to eliminate FedEx, UPS, or the Postal Service. That account is consistent with a bottleneck strategy: take all useful external capacity, add internal capacity where growth exceeds it, and preserve leverage over price and service. The article does not establish whether the supplemental framing remained durable as Amazon's network expanded.
 
@@ -28,10 +29,10 @@ The 2016 Fortune profile adds the organizational mechanism that made this wideni
 ## Key Characteristics
 - Frames long-term strategy around what will not change.
 - Connects Amazon's retail investments to low prices, fast delivery, and vast selection.
-- Treats stable customer desire as a reason to invest heavily over long horizons.
 - Treats Amazon's retail and cloud markets as unusually large and unconstrained.
 - Designs Amazon around multiple paths to yes for reversible experiments.
 - Slows major one-way-door decisions and tests them for originality, scale, and returns.
+- Uses reversibility to calibrate decision speed and willingness to act before information is complete.
 - Works primarily on future road maps, scales through durable senior leaders and written reviews, and frames selective integration as a route to capacity and reusable capability.
 
 ## Evidence
@@ -41,6 +42,7 @@ The 2016 Fortune profile adds the organizational mechanism that made this wideni
 - Market-size frame: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] quotes Bezos saying Amazon's market size is practically unconstrained because retail and cloud are both very large markets.
 - Experimentation system: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] quotes Bezos explaining that management-chain vetoes can kill ideas, so Amazon creates multiple paths to yes for two-way-door decisions.
 - Strategic slowdown: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] says Bezos plays chief slowdown officer for one-way-door bets and looks for differentiated ideas, large scale, and good returns on capital.
+- Decision threshold: [[go-fast-and-break-things-the-difference-between-reversible-and-irreversible-decisions]] attributes to Bezos the advice to decide around 70% certainty on correctable choices and then course-correct.
 - Hardware learning: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] quotes Bezos accepting likely Kindle execution problems because Amazon needed to learn hardware.
 - Time horizon: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] quotes Bezos saying he works two or three years into the future and was working on a 2021 quarter in 2018.
 - Visual evidence: [[bezos-unbound-exclusive-interview-with-the-amazon-founder-on-what-he-plans-to-conquer-next]] includes inspected Forbes cover and net-worth graphics presenting Bezos as the Forbes 400 leader and Amazon's "unbound" strategist.
@@ -56,12 +58,11 @@ The 2016 Fortune profile adds the organizational mechanism that made this wideni
 - Duty of care: [[bezos-prime-fortune]] reports and visually documents Bezos personally retrieving [[JasonRezaian]] after the Post correspondent's release from Iranian detention.
 
 ## Qualifications
-The sources emphasize Bezos's strategic self-description and business achievements more than independent evaluation. Fortune reports but cannot resolve the conflict between Amazon's defense of its intense culture and the New York Times workplace investigation; it also treats Blue Origin passenger dates and the Post's financial sustainability as unknowns. The corpus does not fully address labor outcomes, antitrust, privacy, succession, or later results across logistics and other expansion bets. The 2016 supplemental-capacity claim is a contemporaneous executive statement, Housel's repeatability essay is a learning heuristic rather than a causal decomposition, and Thompson's grocery-services model is an outside forecast rather than Bezos testimony or verified execution.
+The sources emphasize Bezos's strategic self-description and business achievements more than independent evaluation. Fortune reports but cannot resolve the conflict between Amazon's defense of its intense culture and the New York Times workplace investigation; it also treats Blue Origin passenger dates and the Post's financial sustainability as unknowns. The corpus does not fully address labor outcomes, antitrust, privacy, succession, or later results across logistics and other expansion bets. The 2016 supplemental-capacity claim is a contemporaneous executive statement, Housel's repeatability essay is a learning heuristic rather than a causal decomposition, and Thompson's grocery-services model is an outside forecast rather than Bezos testimony or verified execution. Farnam Street's 70% threshold is not a measured optimum and depends on correctly identifying rollback cost and affected parties.
 
 ## What Changed
-- Added Thompson's outside interpretation of Bezos's unbounded customer-centric goal as a scale-driven services strategy.
-- Added the shift from founder hub to leader of leaders through long-tenured executives, written reviews, and selective deep involvement.
-- Extended the profile across the Post and Blue Origin, including authority boundaries, patient capital, and institutional duty of care.
+- Added the reported 70% threshold and feedback rationale for reversible decisions.
+- Qualified the heuristic by making correct classification and external consequences explicit.
 
 ## Relationships
 - [[Amazon]] - company whose strategy Bezos explains.
@@ -83,3 +84,4 @@ The sources emphasize Bezos's strategic self-description and business achievemen
 - [[WashingtonPost]] - personally owned institution where Bezos funds digital reinvention without directing coverage.
 - [[BlueOrigin]] - personally funded space company governed through long-horizon reviews.
 - [[JasonRezaian]] - Post correspondent Bezos personally retrieved after release from detention.
+- [[ReversibleDecisionMaking]] - general decision heuristic attributed to Bezos and illustrated through Amazon.

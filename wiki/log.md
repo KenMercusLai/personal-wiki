@@ -5364,6 +5364,10 @@ Ran lint. See lint-report.md for details.
 
 Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on the difficult middle between mass advertising and expensive specialist content, subscription-first and mixed revenue portfolios, direct audience resilience, creator-platform responsibility, and longer-horizon quality metrics. Created Ellen Chisa and Nick Rockwell; updated Hunter Walk, [[Medium]], [[DigitalMediaMonetization]], and [[CreatorEconomyStartups]] from their complete ordered evidence inventories. Opened the decorative currency collage and omitted it; the repeated `.jpg` was actually an unrelated HTML page rather than valid image data, so it could not be visually interpreted and was not retained.
 
+## [2026-09-28] ingest | Go Fast and Break Things: The Difference Between Reversible and Irreversible Decisions
+
+Added Farnam Street's synthesis of [[JeffBezos]]'s one-way-door/two-way-door heuristic and created [[ReversibleDecisionMaking]] as a proportional decision-process concept. Updated [[MultiplePathsToYes]], Bezos, [[Amazon]], and [[FarnamStreet]] from their complete ordered evidence inventories, adding the reported 70% information threshold and Amazon's 111-day one-hour-delivery example while qualifying classification, rollback, third-party, and medical-evidence limits. Inspected the local diagram and retained it under a descriptive canonical filename; the original remote lead image returned 404, and a surviving low-resolution republication showed only a decorative broken-versus-intact vase illustration, so it was omitted.
+
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
@@ -5972,6 +5976,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | GitOps - Operations by Pull Request
 
 Added [[AlexisRichardson]]'s early account of [[Weaveworks]]'s [[GitOps]] operating model: reviewed desired state in Git, pull-request delivery, environment drift detection, automated convergence through [[WeaveFlux]], and reconstructible recovery. Created source-bounded pages for Richardson, Weaveworks, Weave Flux, and GitOps; updated [[DeclarativeInfrastructure]] and [[Kubernetes]] from their complete ordered evidence inventories. Qualified the reported under-45-minute system rebuild as a company-authored case and limited Git-based rollback at data, external-side-effect, and incorrect-declaration boundaries. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

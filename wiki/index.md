@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Go Fast and Break Things: The Difference Between Reversible and Irreversible Decisions](sources/go-fast-and-break-things-the-difference-between-reversible-and-irreversible-decisions.md) - Farnam Street presents Bezos's one-way/two-way-door heuristic for matching decision speed and information demands to actual reversibility.
 - [Gmail Creator and YC Partner Paul Buchheit on Joining Google, How to Become a Great Engineer and Happiness](sources/gmail-creator-and-yc-partner-paul-buchheit-on-joining-google-how-to-become-a-great-engineer-and-happiness-triplebyte-blog.md) - Paul Buchheit connects self-directed practice, cross-layer engineering, early Google and Gmail, and startup job choice as an investment in learning.
 - [GitOps - Operations by Pull Request](sources/gitops-operations-by-pull-request.md) - Alexis Richardson describes Weaveworks's repository-driven operating loop of reviewed desired state, automated delivery, drift detection, convergence, and reconstructible recovery.
 - [Git-flow 与 GitHub-Flow 分支策略](sources/git-flow-yu-github-flow-fen-zhi-ce-lve.md) - A concise comparison ties Git-flow to explicit multi-version release lanes and GitHub Flow to a frequently integrated, release-ready main branch.
@@ -2112,6 +2113,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab](entities/GitLab.md) - Software company whose candid 2017 incident account exposed the gap between nominal database safeguards and demonstrated recovery.
 
 ## Concepts
+- [Reversible Decision Making](concepts/ReversibleDecisionMaking.md) - Decision practice that varies speed, evidence, and review burden according to actual rollback cost and consequence.
 - [Engineering Expertise](concepts/EngineeringExpertise.md) - Practical judgment developed through sustained implementation, cross-layer systems reasoning, diagnostic skill, and consequential feedback.
 - [GitOps](concepts/GitOps.md) - Repository-driven operations model combining reviewed declarative intent, automated delivery, drift detection, and convergence.
 - [Git-flow](concepts/GitFlow.md) - Branching model separating development, feature, release, stable-production, and hotfix work for explicit version management.

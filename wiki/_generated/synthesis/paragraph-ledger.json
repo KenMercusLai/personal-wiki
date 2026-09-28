@@ -561,12 +561,13 @@
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86",
       "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c",
-      "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee"
+      "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee",
+      "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8"
     ],
-    "paragraph_count": 561
+    "paragraph_count": 562
   },
-  "overview_commit": "bcc93eb1aee5a70cf2e64751be850a1765c3644d",
-  "overview_digest": "771e57397658527e0a9d1a724e1d5cf4b68706dc65d0971f3c3bf019643ecd85",
+  "overview_commit": "a6cc8b047615134b6df99b9d9d46255c3d6b379c",
+  "overview_digest": "7ba86df1c2a9d9592a02bbcd3fcf05ab26af4f36a9033e533e9a0625340b01b6",
   "paragraphs": [
     {
       "id": "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
@@ -11369,6 +11370,27 @@
         "Kubernetes",
         "WeaveFlux",
         "Weaveworks"
+      ]
+    },
+    {
+      "id": "ad203b1ab36285031315b7e7b70f4dd8874d8a3ff174e55540c13ef6e6749fd8",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[FarnamStreet]] source adds [[ReversibleDecisionMaking]] as proportional process rather than a generic command to move fast. Its synthesis of [[JeffBezos]]'s one-way and two-way doors says genuinely reversible choices can proceed with incomplete information because action produces evidence and course correction remains available, while irreversible or nearly irreversible choices need slower analysis and consultation. This deepens [[MultiplePathsToYes]] by supplying the learning rationale behind decentralized experimentation and adds a reported 70% information threshold plus Amazon's 111-day one-hour-delivery case. The boundary is classification: technical rollback does not erase lasting safety, data, financial, trust, employee, customer, or third-party effects, and the source offers no measured optimum or reliable test for distinguishing the door types. Its second-hand medical example is not clinical guidance. The local diagram was inspected and retained as a circular two-way path beside a one-way arrow; the original remote lead image returned 404, while a surviving low-resolution republication showed only a decorative broken-versus-intact vase illustration and was omitted.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 2,
+        "science-health-and-climate": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "FarnamStreet",
+        "JeffBezos",
+        "MultiplePathsToYes",
+        "ReversibleDecisionMaking"
       ]
     }
   ],
