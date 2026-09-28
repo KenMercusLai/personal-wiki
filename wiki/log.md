@@ -5940,3 +5940,11 @@ Added [[BenBasche]]’s 2016 argument that [[Snapchat]] is [[AuthenticallyMobile
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Branding for Builders
+
+Added [[GibsonBiddle]]'s positioning and brand-pyramid frameworks and his retrospective of [[Netflix]]'s product-and-brand evolution from DVD commerce to streaming and original content. Created [[BrandPositioning]] and [[BrandPyramid]], and updated [[StartupBrandStrategy]], [[BrandEquity]], and Netflix from their complete ordered evidence inventories. Qualified homepage conversion experiments as evidence about tested presentations rather than independent proof of durable brand equity, and used Qwikster as a reminder that accumulated trust can be impaired. Opened all four local images and omitted them because they were non-evidentiary or mismatched with the surrounding diagram captions.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

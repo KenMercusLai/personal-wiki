@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 908031bf30460b234c687c7ffd0cb2a5acbb8e75
+as_of_overview_commit: a266fbbf08707bf6e9ded1736ff23d8e4f0af443
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence and explicit limits."
-episode_count: 736
-source_count: 736
-paragraph_count: 557
+episode_count: 737
+source_count: 737
+paragraph_count: 558
 topic_count: 9
 ---
 
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit system boundaries, v
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, staged demand evidence, sustainable economics, coherent products, operating capability, and risk discipline; growth pressure can arise from capital, founder optimism, and internalized culture without direct investor coercion.
+Durable value aligns customer outcomes, staged demand evidence, sustainable economics, coherent products, memorable positioning, operating capability, and risk discipline; growth and brand claims remain causally narrower than their success stories.
 
 - [[Baremetrics]] qualifies [[VentureBackedGrowthPressure]] by separating capital from direct coercion: two funding rounds expanded spending capacity, but the author attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]] rather than investor demands. [[FounderSuccessDefinition]] therefore becomes an operating choice about durability, income, employee experience, customer happiness, and exit, while [[BurnoutPrevention]] supplies distance for re-examining the race without replacing financial correction. Evidence: [[Baremetrics]], [[VentureBackedGrowthPressure]], [[StartupCulture]], [[FounderSuccessDefinition]], [[BurnoutPrevention]].
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].

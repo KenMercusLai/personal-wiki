@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Branding for Builders](sources/gibson-biddle-branding-for-builders.md) - Gibson Biddle links positioning and a layered brand pyramid to Netflix's product evolution and homepage experimentation while qualifying conversion tests as partial brand evidence.
 - [Ghost in the machine: Snapchat isn’t mobile-first — it’s something else entirely](sources/ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely.md) - Ben Basche contrasts persistent presentation feeds with Snapchat’s camera-first, ephemeral, authentically mobile model of entering friends’ present experience.
 - [Getting out of the startup rat race](sources/getting-out-of-the-startup-rat-race-baremetrics.md) - A Baremetrics runway crisis leads its author to reject self-imposed hockey-stick pressure and define success through sustainable economics, wellbeing, employees, and customers.
 - [Getting beyond MVP – the morning paper](sources/getting-beyond-mvp-the-morning-paper.md) - Adrian Colyer proposes CI, staging, tested bottom-up module extraction, and feature towers for modernizing a validated MVP without stopping product delivery.
@@ -753,6 +754,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Get That Life: How Two Friends Started The Skimm From Their Apartment](sources/get-that-life-how-two-friends-started-the-skimm-from-their-apartment.md) - Danielle Weisberg and Carly Zakin explain theSkimm's audience-routine thesis, email launch, founder-network referrals, early operating strain, and first fundraising.
 
 ## Entities
+- [Gibson Biddle](entities/GibsonBiddle.md) - Former Netflix VP of Product who presents brand as a cross-functional product-and-marketing system.
 - [Ben Basche](entities/BenBasche.md) - Product-strategy author represented by a 2016 interpretation of Snapchat as an authentically mobile social product.
 - [Path](entities/Path.md) - Private mobile social product that shifted from photo sharing to a multi-format life journal after observing user-created posting behavior.
 - [Gergely Orosz](entities/GergelyOrosz.md) - Software-engineering writer represented through a reported analysis of Atlassian's April 2022 cloud outage.
@@ -2100,6 +2102,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Adrian Colyer](entities/AdrianColyer.md) - The morning paper author applying classic modular-design guidance to incremental post-MVP modernization.
 
 ## Concepts
+- [Brand Positioning](concepts/BrandPositioning.md) - Dynamic three-part model for the relative idea, customer benefit, and relational personality a product seeks to own.
+- [Brand Pyramid](concepts/BrandPyramid.md) - Layered framework connecting changing product attributes to functional, emotional, and aspirational meaning.
 - [Authentically Mobile](concepts/AuthenticallyMobile.md) - Product category whose core experience depends on coupled mobile capabilities and context rather than simply adapting a desktop interaction.
 - [Incremental MVP Modernization](concepts/IncrementalMVPModernization.md) - Post-validation transition from prototype structure to tested modules and safer delivery while customer-facing work continues.
 - [Get Out Of The Way Design Philosophy](concepts/GetOutOfTheWayDesignPhilosophy.md) - Product-discovery loop that finds recurring user adaptations, supports the valuable behavior, and removes obstructive founder assumptions.

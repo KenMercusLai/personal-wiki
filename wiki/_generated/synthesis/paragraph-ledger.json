@@ -557,12 +557,13 @@
       "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a",
       "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039",
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
-      "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86"
+      "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86",
+      "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c"
     ],
-    "paragraph_count": 557
+    "paragraph_count": 558
   },
-  "overview_commit": "908031bf30460b234c687c7ffd0cb2a5acbb8e75",
-  "overview_digest": "3f22ead24868411dbe7e62922b3a9d1b59c95a7d81fc2087091fabc16ac3e9c8",
+  "overview_commit": "a266fbbf08707bf6e9ded1736ff23d8e4f0af443",
+  "overview_digest": "695de6ecd2339c9a40fdf5f7ce8d17f19a46fae8dbed9602006007b08af7d5a7",
   "paragraphs": [
     {
       "id": "a2411f2719d25820d193337ddb509b8d6c8339fee0c38c299d2309c17f7da308",
@@ -11285,6 +11286,25 @@
         "HardwareAfterlives",
         "LateralThinkingWithWitheredTechnology",
         "Nintendo"
+      ]
+    },
+    {
+      "id": "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[GibsonBiddle]] source adds [[BrandPositioning]] and the [[BrandPyramid]] as complementary direction-setting tools inside [[StartupBrandStrategy]]. Positioning asks what a product is, how it benefits customers, and what relational personality it should express; the pyramid then connects changing product attributes to functional benefits, emotional benefits, and a long-term aspiration. [[Netflix]] supplies the historical case: DVD selection, queues, no late fees, streaming reach, and original content changed while easy movie enjoyment, delight, and escape remained comparatively stable, and product and marketing repeatedly tested how to present the evolving offer. This extends [[BrandEquity]] with recognition, reduced explanation, trust, and willingness to pay as possible commercial expressions, while keeping causality narrow. Homepage A/B tests can estimate how tested presentations affect trial starts and free-to-paid conversion, but cannot isolate durable brand meaning from product quality, catalog, price, distribution, familiarity, or market structure; the reported 2% and 90% benchmarks also lack sample periods, segmentation, and uncertainty. Qwikster's reported 800,000 quarterly cancellations shows that accumulated trust can be impaired. The account is a selected former-executive retrospective, and all four local images were opened and omitted because they depict an event portrait, a “Customer Obsession” graphic, Starbucks Reserve artwork, and the Netflix logo rather than the positioning or pyramid diagrams named by the surrounding prose.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "BrandEquity",
+        "BrandPositioning",
+        "BrandPyramid",
+        "GibsonBiddle",
+        "Netflix",
+        "StartupBrandStrategy"
       ]
     }
   ],
