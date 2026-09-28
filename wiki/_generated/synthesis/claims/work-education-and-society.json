@@ -49,16 +49,21 @@
       "global_candidate": false,
       "id": "audience-boundaries-separate-attention-from-participation",
       "qualifications": [
-        "The Facebook account is a contemporaneous 2016 interpretation built partly on confidential data reported by other publications; it supplies no underlying series, segment breakdown, causal test, or later outcome evidence.",
-        "Context collapse is one plausible mechanism alongside ranking, changing norms, privacy concern, commercial incentives, competition, and mobile behavior, and broad audiences can also support public identity, advocacy, and discovery."
+        "The Facebook accounts are contemporaneous 2016 interpretations and supply no underlying series, segment breakdown, causal test, identity study, or later outcome evidence.",
+        "Context collapse and persistent identity are plausible mechanisms alongside ranking, changing norms, privacy concern, commercial incentives, competition, and mobile behavior; broad audiences can also support public identity, advocacy, discovery, and deliberate variation."
       ],
-      "statement": "[[ContextCollapse]] shows why platform attention need not imply interpersonal participation: a heterogeneous audience can suppress original sharing while [[MobilePlatformDiscovery]] and [[PlatformPublisherRevenue]] sustain a media-oriented feed, and [[AcquisitionStrategy]] can shift narrower social contexts into a wider product portfolio.",
+      "statement": "[[ContextCollapse]] shows why platform attention need not imply interpersonal participation: a heterogeneous audience and persistent public record can suppress temporary expression while [[MobilePlatformDiscovery]] and [[PlatformPublisherRevenue]] sustain a media-oriented feed. [[AlexDanco]] frames [[Facebook]]'s resulting identity tradeoff as a qualified grand bargain, with [[Snapchat]], [[Instagram]], and [[HereAndNowMedia]] showing narrower or more ephemeral alternatives rather than guaranteed authenticity.",
       "status": "qualified",
       "supporting_wikilinks": [
         "ContextCollapse",
         "MobilePlatformDiscovery",
         "PlatformPublisherRevenue",
-        "AcquisitionStrategy"
+        "AcquisitionStrategy",
+        "AlexDanco",
+        "Facebook",
+        "Snapchat",
+        "Instagram",
+        "HereAndNowMedia"
       ]
     },
     {

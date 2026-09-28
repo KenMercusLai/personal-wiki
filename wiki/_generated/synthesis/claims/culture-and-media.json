@@ -95,6 +95,26 @@
     },
     {
       "global_candidate": true,
+      "id": "presence-can-become-part-of-media-value",
+      "qualifications": [
+        "The claim comes from one speculative 2016 essay that supplies no comparative adoption, retention, identity, market, or profit evidence and whose author disclaims firsthand Twitch use.",
+        "Ephemerality does not guarantee authenticity or intimacy, live products can remain passive or placeless, and search, feeds, archives, asynchronous exchange, and fixed works remain valuable."
+      ],
+      "statement": "[[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "HereAndNowMedia",
+        "EmergentLayerTheory",
+        "Twitch",
+        "AugmentedReality",
+        "Facebook",
+        "Snapchat",
+        "Instagram",
+        "AlexDanco"
+      ]
+    },
+    {
+      "global_candidate": true,
       "id": "platform-publishing-can-reward-harvesting-over-authorship",
       "qualifications": [
         "The revenue and scale figures are the author's estimates and the source does not follow up on the named channels, so it establishes the incentive more strongly than the prevalence or total harm."

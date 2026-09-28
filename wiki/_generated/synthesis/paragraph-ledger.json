@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
       "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
       "50766921b76cf44d3c860cbbfcb2d57bbf8017ec29d59d2bd7bf36c6389c57e6",
       "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
@@ -545,11 +546,35 @@
       "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716"
     ],
-    "paragraph_count": 543
+    "paragraph_count": 544
   },
-  "overview_commit": "ad988d519050bcea35b5a25699bdd08d813819b6",
-  "overview_digest": "d7b1e9efb58fbb17c3de2a4a126b22a1a6c24ac5bd827d170698b27a8a14750e",
+  "overview_commit": "f4e9a4555eafd6f6f7699134b6b183a61464d52f",
+  "overview_digest": "52d5c67143f1424aff7340a3aff33efaa478e64732c56c93041cc539721f78c4",
   "paragraphs": [
+    {
+      "id": "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [
+        "work-education-and-society",
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest [[AlexDanco]] source adds [[HereAndNowMedia]] as a qualified scarcity-shift interpretation of social and participatory media. The web made content and distribution more abundant and elevated pull through search or destination and push through feeds; Danco then argues that front-facing cameras and ephemeral messages widened access to varied, temporary self-expression. This reframes [[Facebook]]'s broad feed as a “grand bargain” between distribution and a persistent, legible self, while [[Snapchat]] lowers persistence pressure without necessarily creating a durable shared place. [[Instagram]] Stories becomes both competitive copying and a move toward camera-first ephemerality. [[Twitch]] supplies the stronger shared-presence hypothesis by combining gameplay, viewing, and audience participation, while [[AugmentedReality]] can make physical location and urgency part of the experience and mutable streaming releases can add time variation to formerly fixed works. The synthesis extends [[EmergentLayerTheory]] by separating access to an old scarce resource from control of the next bottleneck, but it remains one speculative 2016 essay: Danco disclaims firsthand Twitch use, supplies no adoption or profit evidence, and neither ephemerality nor a persistent feed guarantees authenticity or a single identity. All four local images were opened; three duplicate title covers were omitted, and the remaining 60-by-37-pixel diagram was not used because its labels remain unreadable after lossless enlargement.",
+      "topic_scores": {
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlexDanco",
+        "AugmentedReality",
+        "EmergentLayerTheory",
+        "Facebook",
+        "HereAndNowMedia",
+        "Instagram",
+        "Snapchat",
+        "Twitch"
+      ]
+    },
     {
       "id": "aaa1ace87d91d7e6cb345ee76871fac974aac6f637972ff523bc7f3dc85f9c50",
       "primary_topic": "business-and-markets",

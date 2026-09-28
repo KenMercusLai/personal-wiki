@@ -4,16 +4,19 @@
       "global_candidate": false,
       "id": "camera-filters-mediate-self-presentation",
       "qualifications": [
-        "The source offers a cultural interpretation rather than user research, so it does not establish effects on identity development, authenticity, social connection, or wellbeing.",
-        "The retained illustration demonstrates an expressive transformation but does not show live tracking or observed behavior."
+        "The sources offer cultural and strategy interpretations rather than user research, so they do not establish effects on identity development, authenticity, social connection, or wellbeing.",
+        "A persistent broad-audience feed does not enforce one literal self, while ephemerality can reduce persistence pressure without guaranteeing authenticity, safety, intimacy, or a durable shared place."
       ],
-      "statement": "[[AugmentedReality]] can mediate self-presentation when [[Snapchat]] Lenses transform the captured face into an expressive message; [[AlexisMadrigal]] connects this camera interface to mood and narrative, while [[SocialDriverHierarchy]] provides a related but independently unvalidated motivation model.",
-      "status": "source-scoped",
+      "statement": "[[AugmentedReality]] can mediate self-presentation when [[Snapchat]] Lenses transform the captured face into an expressive message; [[AlexisMadrigal]] connects the camera to mood and narrative, while [[AlexDanco]] argues that front cameras and ephemerality widen access to temporary identity variation relative to [[Facebook]]'s persistent broad-audience feed and only partly approach [[HereAndNowMedia]].",
+      "status": "qualified",
       "supporting_wikilinks": [
         "AugmentedReality",
         "Snapchat",
         "AlexisMadrigal",
-        "SocialDriverHierarchy"
+        "SocialDriverHierarchy",
+        "AlexDanco",
+        "Facebook",
+        "HereAndNowMedia"
       ]
     },
     {

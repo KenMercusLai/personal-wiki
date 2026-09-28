@@ -5356,6 +5356,10 @@ Added a 2017 panel with [[HunterWalk]], [[EllenChisa]], and [[NickRockwell]] on 
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | From Pull and Push to Here and Now: the grand bargain of Facebook and the Feed is unraveling. What comes next?
+
+Added [[HereAndNowMedia]] as Alex Danco's qualified media-scarcity thesis, distinguishing access to varied ephemeral expression from ownership of a shared presence layer organized around participation, location, immediacy, or mutability. Created a source-bounded [[Twitch]] profile and updated [[AlexDanco]], [[EmergentLayerTheory]], [[Facebook]], [[Snapchat]], [[Instagram]], [[AugmentedReality]], and [[SocialLivestreaming]] from their complete ordered evidence inventories. Preserved the essay's 2016 historical scope, its speculative and non-falsified profit-pool claims, Danco's lack of firsthand Twitch use, and counterexamples to a literal one-self policy or guaranteed authenticity through ephemerality. Opened all four local images; omitted three decorative duplicate title covers and did not use the remaining 60-by-37-pixel diagram because its labels remain unreadable after lossless enlargement, so no asset manifest was created.
+
 ## [2026-09-28] ingest | From Campus Drive to Cisco: Our Journey with AppDynamics
 
 Added [[AppDynamics]] and source-bounded profiles for [[JyotiBansal]], [[DavidWadhwani]], [[BhaskarSunkara]], [[AsheemChandna]], and [[RajeevMotwani]]. Updated [[Cisco]], [[GreylockPartners]], [[ExecutiveHiring]], and [[StartupScaling]] from their complete ordered evidence inventories; created [[SaaSLandAndExpand]] for the attributed five-times average and fourteen-times top-account expansion claims. Preserved the article's limits as a celebratory investor retrospective without audited metrics, transaction economics, unsuccessful alternatives, or post-acquisition outcomes. Opened all three local images, retained the highest-resolution leadership portrait, and omitted the other two as duplicate crops.
@@ -5761,6 +5765,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | From Idea to App Store: A Design Sprint Case Study
 
 Added AJ&Smart's remote Oak redesign as a staged alignment case spanning expert interview, shared mapping, inspiration, sketches, voting, narrated feedback, prototype variants, screen production, and developer handoff. Created [[RemoteDesignSprint]], [[KevinRose]], and [[Oak]]; updated [[DesignSprint]], [[AJSmart]], [[JonathanCourtney]], and [[JakeKnapp]] from their complete bounded evidence inventories. Preserved the central qualifications: the brief expanded from one screen to a total redesign, handoff took four weeks, and launch recognition is reported without representative-user testing or causal outcome metrics. Opened all six embedded images, retained the high-resolution Oak interface and Product Hunt badge under canonical descriptive filenames, and omitted duplicate thumbnails, a tiny launch screenshot, and a decorative author photo.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

@@ -4,36 +4,42 @@ type: entity
 tags: [writer, startup-strategy, innovation]
 sources:
   - emergent-layers-chapter-3-explosive-growth-the-startup-medium
-last_updated: 2026-09-27
+  - from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[AlexDanco]] is represented in the wiki as the author of the 2016 essay “Emergent Layers, Chapter 3: Explosive Growth.”
+[[AlexDanco]] is represented through two 2016 essays that interpret technological shifts by asking which resource becomes abundant, which customer purpose that abundance unlocks, and where scarcity and strategic value move next.
 
 ## Current Profile
-Danco combines supply-side scarcity and abstraction with demand-side [[JobsToBeDone]] to explain why some products appear to grow vertically. His [[EmergentLayerTheory]] says an abstraction can make a formerly scarce input abundant, unlock an underserved higher-order job, weaken incumbents whose economics depend on the old constraint, and create a new scarce layer. The essay treats this as a retrospective interpretive aid rather than a deterministic forecasting system and develops Amazon as its most deliberate company case.
+Danco's [[EmergentLayerTheory]] joins supply-side abstraction with higher-order [[JobsToBeDone]]: removing a constraint can weaken an incumbent profit pool, unlock unusually strong demand, and make a new network, standard, ecosystem, data asset, or platform layer scarce. His media essay applies an earlier version of the same logic to content, distribution, pull, push, ephemeral expression, and [[HereAndNowMedia]]. Across both pieces, company histories and emerging products are used to generate strategic hypotheses rather than to claim deterministic prediction.
 
 ## Key Characteristics
-- Writes about startup strategy, technological abstraction, disruption, and value creation.
-- Frames customer demand as layered jobs that can be simultaneously overserved at one level and underserved at another.
-- Uses company histories to reason about shifts in scarcity, profit pools, and platform power.
-- Explicitly limits the framework's predictive certainty even while using strong growth and dominance language.
+- Writes about technology through shifts from scarcity to abundance and the new bottlenecks those shifts create.
+- Combines supply-side capability change with customer purpose, expression, and experience.
+- Uses selected company and product histories as retrospective strategic cases.
+- Distinguishes access to an old scarce resource from ownership of the next scarce layer.
+- Acknowledges uncertainty while still making strong interpretive claims about future value and profit pools.
 
 ## Evidence
-- Framework authorship: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] names and explains Emergent Layer Theory.
-- Demand and supply synthesis: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] combines scarce-to-abundant resources with overserved-to-underserved customer jobs.
-- Case method: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] applies the framework to WhatsApp, Tesla, Uber, Medium, Intel, Google, the iPhone, and Amazon.
-- Stated boundary: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] says the model is neither deterministic nor a rule for identifying winners.
+- General framework: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] connects abstraction, higher-order jobs, incumbent friction, and new strategic bottlenecks.
+- Media application: [[from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next]] moves from content and distribution through pull and push toward momentary expression and situated presence.
+- Case method: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] and [[from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next]] use recognizable companies to illustrate the model, including Amazon, Google, Uber, Facebook, Snapchat, Twitch, and Apple.
+- Stated limits: [[emergent-layers-chapter-3-explosive-growth-the-startup-medium]] calls the framework non-deterministic, while [[from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next]] declines detailed prediction and admits that its Twitch interpretation is not based on personal use.
 
 ## Qualifications
-This profile is bounded to one 2016 essay and does not establish Danco's broader biography, later work, institutional roles, or whether the featured company interpretations held up. The article's selected winners illustrate a theory but do not validate it prospectively.
+These pages establish Danco's arguments, not a broader biography or proof that the framework predicts outcomes. Both essays select visible success cases, leave key constructs difficult to measure, and can underweight capital, regulation, distribution, execution, timing, and failed analogues. The media article is especially speculative about future profit pools and uses 2016 product snapshots that should not be read as current evaluations.
 
 ## What Changed
-- Created a source-bounded profile of Danco and his Emergent Layer Theory.
+- Extended Danco's profile from the later emergent-layer formulation to its media-scarcity application.
+- Added the distinction between expanding access to momentary expression and controlling the next presence-based bottleneck.
+- Strengthened the framework's retrospective, hypothesis-generating boundary.
 
 ## Relationships
-- [[EmergentLayerTheory]] - Danco develops and names the framework.
-- [[JobsToBeDone]] - Danco uses layered customer jobs as the demand side of the model.
-- [[Amazon]] - Danco's principal example of deliberate abstraction and platform expansion.
-- [[ProductMarketFit]] - Danco proposes “mega product-market fit” as alignment between a removed constraint and a higher-order job.
+- [[EmergentLayerTheory]] - Danco develops and names the broader scarcity, abstraction, and higher-order-job model.
+- [[HereAndNowMedia]] - media application in which presence becomes the proposed new bottleneck.
+- [[JobsToBeDone]] - supplies the demand-side distinction between an immediate product function and a higher-order purpose.
+- [[Amazon]] - principal deliberate capability-building case in the emergent-layer essay.
+- [[Snapchat]] - camera-and-ephemerality case in the media essay.
+- [[Twitch]] - speculative participatory-presence case in the media essay.

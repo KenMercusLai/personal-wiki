@@ -4,8 +4,8 @@ generated: true
 topic_id: work-education-and-society
 title: "Work, Education, and Society"
 last_updated: 2026-09-28
-as_of_overview_commit: a6d3fef6e440693084d77e8ad580ddfed9078624
-input_digest: 92f1c269c698fa75f34063bde7810d0480e7bb5a975ea4c79d34aeb9b79a99f7
+as_of_overview_commit: f4e9a4555eafd6f6f7699134b6b183a61464d52f
+input_digest: 2ea2ed51109f445405c860365fb07825128d488a26fc36fc24d4569f88d2660a
 ---
 
 # Work, Education, and Society
@@ -51,14 +51,14 @@ Work, education, and social systems are practice-rich environments in which acce
 
 ### Audience Boundaries Separate Attention From Participation
 
-[[ContextCollapse]] shows why platform attention need not imply interpersonal participation: a heterogeneous audience can suppress original sharing while [[MobilePlatformDiscovery]] and [[PlatformPublisherRevenue]] sustain a media-oriented feed, and [[AcquisitionStrategy]] can shift narrower social contexts into a wider product portfolio.
+[[ContextCollapse]] shows why platform attention need not imply interpersonal participation: a heterogeneous audience and persistent public record can suppress temporary expression while [[MobilePlatformDiscovery]] and [[PlatformPublisherRevenue]] sustain a media-oriented feed. [[AlexDanco]] frames [[Facebook]]'s resulting identity tradeoff as a qualified grand bargain, with [[Snapchat]], [[Instagram]], and [[HereAndNowMedia]] showing narrower or more ephemeral alternatives rather than guaranteed authenticity.
 
-**Evidence:** [[ContextCollapse]], [[MobilePlatformDiscovery]], [[PlatformPublisherRevenue]], [[AcquisitionStrategy]]
+**Evidence:** [[ContextCollapse]], [[MobilePlatformDiscovery]], [[PlatformPublisherRevenue]], [[AcquisitionStrategy]], [[AlexDanco]], [[Facebook]], [[Snapchat]], [[Instagram]], [[HereAndNowMedia]]
 
 **Qualifications:**
 
-- The Facebook account is a contemporaneous 2016 interpretation built partly on confidential data reported by other publications; it supplies no underlying series, segment breakdown, causal test, or later outcome evidence.
-- Context collapse is one plausible mechanism alongside ranking, changing norms, privacy concern, commercial incentives, competition, and mobile behavior, and broad audiences can also support public identity, advocacy, and discovery.
+- The Facebook accounts are contemporaneous 2016 interpretations and supply no underlying series, segment breakdown, causal test, identity study, or later outcome evidence.
+- Context collapse and persistent identity are plausible mechanisms alongside ranking, changing norms, privacy concern, commercial incentives, competition, and mobile behavior; broad audiences can also support public identity, advocacy, discovery, and deliberate variation.
 
 ### Task Centered Tools Lower Access Barriers Without Ensuring Transfer
 

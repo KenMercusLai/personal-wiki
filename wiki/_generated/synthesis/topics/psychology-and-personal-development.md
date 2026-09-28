@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-28
-as_of_overview_commit: 4df75503262dd0dfaf45b41ec95a11e0a1cfc81e
-input_digest: f593095c4f899929cec468cbe18373c7246e523eed56ad37dd72d9f54bd39eb4
+as_of_overview_commit: f4e9a4555eafd6f6f7699134b6b183a61464d52f
+input_digest: dc2f7dbcd3672942cb90c6abeffc9fb69866631f8fb070d1b27d806e96f545f6
 ---
 
 # Psychology and Personal Development
@@ -18,14 +18,14 @@ input_digest: f593095c4f899929cec468cbe18373c7246e523eed56ad37dd72d9f54bd39eb4
 
 ### Camera Filters Mediate Self Presentation
 
-[[AugmentedReality]] can mediate self-presentation when [[Snapchat]] Lenses transform the captured face into an expressive message; [[AlexisMadrigal]] connects this camera interface to mood and narrative, while [[SocialDriverHierarchy]] provides a related but independently unvalidated motivation model.
+[[AugmentedReality]] can mediate self-presentation when [[Snapchat]] Lenses transform the captured face into an expressive message; [[AlexisMadrigal]] connects the camera to mood and narrative, while [[AlexDanco]] argues that front cameras and ephemerality widen access to temporary identity variation relative to [[Facebook]]'s persistent broad-audience feed and only partly approach [[HereAndNowMedia]].
 
-**Evidence:** [[AugmentedReality]], [[Snapchat]], [[AlexisMadrigal]], [[SocialDriverHierarchy]]
+**Evidence:** [[AugmentedReality]], [[Snapchat]], [[AlexisMadrigal]], [[SocialDriverHierarchy]], [[AlexDanco]], [[Facebook]], [[HereAndNowMedia]]
 
 **Qualifications:**
 
-- The source offers a cultural interpretation rather than user research, so it does not establish effects on identity development, authenticity, social connection, or wellbeing.
-- The retained illustration demonstrates an expressive transformation but does not show live tracking or observed behavior.
+- The sources offer cultural and strategy interpretations rather than user research, so they do not establish effects on identity development, authenticity, social connection, or wellbeing.
+- A persistent broad-audience feed does not enforce one literal self, while ephemerality can reduce persistence pressure without guaranteeing authenticity, safety, intimacy, or a durable shared place.
 
 ### Responsibility Boundaries Emerge Through Change
 

@@ -4,8 +4,8 @@ generated: true
 topic_id: culture-and-media
 title: "Culture and Media"
 last_updated: 2026-09-28
-as_of_overview_commit: 2873493a865061e7a5d3d61f3c326c55ff027270
-input_digest: 399390d9dbeddf3e5dd64f486a92c89974d59c799bce39ca1a11380268bb8a1c
+as_of_overview_commit: f4e9a4555eafd6f6f7699134b6b183a61464d52f
+input_digest: 10b82ed4c321695012ca10bb1eb535116eedbadd7f17f2b458e0fb97cd80b709
 ---
 
 # Culture and Media
@@ -70,6 +70,17 @@ Account access is also a participation boundary: [[MikeHearn]] separates stable 
 
 - One 2016 practitioner essay supplies no comparative retention, well-being, network-strength, or business data.
 - Its vanity label collapses distinct motives, and the proposed four layers may coexist rather than form a strict hierarchy.
+
+### Presence Can Become Part Of Media Value
+
+[[HereAndNowMedia]] extends [[EmergentLayerTheory]] into cultural form: front cameras and ephemerality can widen temporary self-expression, while [[Twitch]], [[AugmentedReality]], and participatory or mutable works suggest that shared presence, location, audience agency, and time variation can themselves become part of media value; the [[Facebook]]-[[Snapchat]]-[[Instagram]] sequence also shows that access to the older expressive constraint does not guarantee control of the next bottleneck.
+
+**Evidence:** [[HereAndNowMedia]], [[EmergentLayerTheory]], [[Twitch]], [[AugmentedReality]], [[Facebook]], [[Snapchat]], [[Instagram]], [[AlexDanco]]
+
+**Qualifications:**
+
+- The claim comes from one speculative 2016 essay that supplies no comparative adoption, retention, identity, market, or profit evidence and whose author disclaims firsthand Twitch use.
+- Ephemerality does not guarantee authenticity or intimacy, live products can remain passive or placeless, and search, feeds, archives, asynchronous exchange, and fixed works remain valuable.
 
 ### Platform Publishing Can Reward Harvesting Over Authorship
 

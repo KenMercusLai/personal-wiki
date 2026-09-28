@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From Pull and Push to Here and Now: the grand bargain of Facebook and the Feed is unraveling. What comes next?](sources/from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next.md) - Alex Danco argues that cameras and ephemerality made varied expression abundant while shared presence, participation, location, and mutability became newly scarce media resources.
 - [From Experiment to Product: Capital-as-a-Service One Year Later](sources/from-experiment-to-product-capital-as-a-service-one-year-later.md) - Social Capital's first-year CaaS retrospective reports global automated-diligence reach and early portfolio signals without validating model accuracy, bias reduction, or investment performance.
 - [From 2016: Why Deep Learning Is Suddenly Changing Your Life](sources/from-2016-why-deep-learning-is-suddenly-changing-your-life-fortune.md) - A 2016 history links deep learning's commercial breakthrough to labeled data, GPUs, multilayer training, ImageNet, and industrial adoption while preserving limits around reasoning, medicine, and open-world transfer.
 - [From 0 to 70% Market Share: How Google Chrome Ate the Internet](sources/from-0-to-70-market-share-how-google-chrome-ate-the-internet.md) - A 2019 retrospective links Chrome's architecture, developer ecosystem, distribution, and enterprise expansion to browser dominance and later standards and privacy concerns.
@@ -731,6 +732,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From Idea to App Store: A Design Sprint Case Study](sources/from-idea-to-app-store-a-design-sprint-case-study-ux-planet.md) - Jonathan Courtney documents AJ&Smart's remote Oak redesign, from shared sprint exercises and staged client alignment through four-week handoff and qualified launch recognition.
 
 ## Entities
+- [Twitch](entities/Twitch.md) - Source-bounded 2016 case for livestreamed media combining gameplay, viewing, audience participation, and a shared sense of presence.
 - [Capital-as-a-Service](entities/CapitalAsAService.md) - Social Capital's online product for automated, operating-data-based early-stage diligence and funding decisions.
 - [Andrew Ng](entities/AndrewNg.md) - AI researcher represented through Google Brain, the unlabeled-image experiment, input-to-output learning, and the AI-as-electricity industrial thesis.
 - [Fei-Fei Li](entities/FeiFeiLi.md) - Computer-vision researcher who founded ImageNet as large labeled-data infrastructure and a public evaluation institution.
@@ -839,7 +841,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Cassie Marketos](entities/CassieMarketos.md) - Kickstarter's first employee, represented through early community operations, editorial curation, broad generalist work, and later lessons about feedback and managing up.
 - [Emily Reinhold](entities/EmilyReinhold.md) - Author of a 2016 Uber Engineering account of Tincup and the platform surrounding microservice development.
 - [Tincup](entities/Tincup.md) - Uber currency and exchange-rate service used as a small production case for its microservice stack.
-- [Alex Danco](entities/AlexDanco.md) - Startup-strategy writer represented through Emergent Layer Theory's synthesis of abstraction, layered customer jobs, disruption, and platform power.
+- [Alex Danco](entities/AlexDanco.md) - Strategy writer connecting scarcity, abundance, layered customer purposes, platform power, and presence-based media.
 - [Andrei Rebrov](entities/AndreiRebrov.md) - Scentbird CTO represented through a 2016 engineering account of mass, transactional, and drip email systems.
 - [Scentbird](entities/Scentbird.md) - Subscription-commerce company represented through its historical customer-state-driven email architecture.
 - [Sendy](entities/Sendy.md) - Self-hosted mass-email application used with Amazon SES in Scentbird's reported 2016 stack.
@@ -1460,7 +1462,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Facebook Messenger](entities/FacebookMessenger.md) - Facebook messaging product spanning CRM-like ads, chatbot and micro-app ambitions, hybrid interfaces, and Messenger Day's broadcast-context conflict.
 - [Hipmunk](entities/Hipmunk.md) - Travel-service chatbot example used to argue that early bots could outperform mobile web for transactions.
 - [Kik](entities/Kik.md) - Messaging app example of promoted brand chats, keyword-sensitive bot responses, and early chatbot-platform tooling.
-- [Snapchat](entities/Snapchat.md) - Messaging and social app whose Discover, Stories, Lenses, sharing norms, and acquisition-derived capabilities shaped its product position.
+- [Snapchat](entities/Snapchat.md) - Camera-centered social app connecting Stories, ephemerality, Lenses, temporary self-expression, acquired capabilities, and partial shared presence.
 - [Zhao CS](entities/ZhaoCS.md) - Network-practitioner author who investigates IOS XR L2VPN dummy VLAN behavior through packet captures.
 - [ZhaoCS.info](entities/ZhaoCSInfo.md) - Technical blog publication context for Zhao CS's L2VPN dummy VLAN investigation.
 - [LINE](entities/LINE.md) - Japanese messaging app used as the branded-sticker advertising example.
@@ -1535,7 +1537,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Google Docs](entities/GoogleDocs.md) - Collaboration-product example where sharing documents creates an invitation loop.
 - [Airtable](entities/Airtable.md) - Specialized collaboration SaaS example that can spread internally after team adoption.
 - [Good Eggs](entities/GoodEggs.md) - Grocery-delivery example of two-sided referral rewards and gifting psychology.
-- [Instagram](entities/Instagram.md) - Visual product whose shareable artifacts, targeted discovery, and Stories implementation illustrate distribution and contextual product fit.
+- [Instagram](entities/Instagram.md) - Visual product whose artifacts, targeted discovery, and Stories implementation illustrate distribution, contextual fit, and Facebook's ephemeral turn.
 - [Lyft](entities/Lyft.md) - Ride-hailing marketplace used as both a product-sharing growth example and a marketing-automation platform case.
 - [GroupMe](entities/GroupMe.md) - Messaging product example that used SMS as a first-message onboarding surface.
 - [Nest Cam](entities/NestCam.md) - Visible-hardware example where outdoor security cameras create awareness.
@@ -1808,7 +1810,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Microsoft](entities/Microsoft.md) - Software and platform company framed through profitable origins, intangible economics, mobile-era adaptation, product innovation, and OpenAI partnership safeguards.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
 - [Windows Subsystem for Linux](entities/WindowsSubsystemForLinux.md) - Windows developer-environment layer covered through clean reinstall, distribution switching, native systemd setup, and WSL configuration boundaries.
-- [Facebook](entities/Facebook.md) - Social and distribution platform whose advertising, identity, graph mediation, Groups, dependency, and data-factory roles expose competing incentives and context-dependent strengths.
+- [Facebook](entities/Facebook.md) - Social, media, advertising, and data platform whose graph, persistent identity, distribution power, and engagement model create context-dependent strengths and tensions.
 - [Ted Livingston](entities/TedLivingston.md) - Kik leader and author arguing that chat could become the new browser and bots the new websites.
 - [WeChat](entities/WeChat.md) - China messaging app used as the strongest messaging-platform example, sponsored Moments ad surface, and chat-payments proof case.
 - [Xiaoice](entities/Xiaoice.md) - Conversational chatbot used by Botnerds as an example where the chatbot label accurately fits a chat-first product.
@@ -2046,6 +2048,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Rajeev Motwani](entities/RajeevMotwani.md) - Stanford contact whose trusted introduction connected Asheem Chandna with Jyoti Bansal's early AppDynamics venture.
 
 ## Concepts
+- [Here-and-Now Media](concepts/HereAndNowMedia.md) - Proposed media paradigm in which shared presence, participation, location, immediacy, or mutability become part of content's value.
 - [Score Shading](concepts/ScoreShading.md) - Dynamic mixed-ranking score control that optimizes format utility under load or score-cost constraints.
 - [Mixed Ranking Governance](concepts/MixedRankingGovernance.md) - Platform rules that prevent deflation, controller oscillation, and strategic misalignment across competing content formats.
 - [Unsupervised Learning](concepts/UnsupervisedLearning.md) - Learning recurring structure without explicit per-example labels, promising broader data use while retaining interpretation and transfer limits.
@@ -2054,7 +2057,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Open-Source Commercialization](concepts/OpenSourceCommercialization.md) - Revenue and licensing arrangements intended to fund public software development without abandoning community participation.
 - [Developer-Led Technical Culture](concepts/DeveloperLedTechnicalCulture.md) - Organizational pattern combining hands-on technical leadership, visible work-sample hiring, delegated responsibility, and contributor autonomy.
 - [Startup Board Governance](concepts/StartupBoardGovernance.md) - Balancing founder operating knowledge with director challenge, evaluation, coaching boundaries, and stage-dependent leadership decisions.
-- [Augmented Reality](concepts/AugmentedReality.md) - Real-time transformation of a camera-mediated view through both spatial overlays and edits to captured people or environments.
+- [Augmented Reality](concepts/AugmentedReality.md) - Real-time transformation of camera views or relationships to physical space through overlays, captured-scene edits, and location-bound experience.
 - [Homepage Messaging Clarity](concepts/HomepageMessagingClarity.md) - Making a homepage's offer, audience, customer job, and practical value quickly legible.
 - [Venture Capital Upside Evaluation](concepts/VentureCapitalUpsideEvaluation.md) - Judging whether a startup's credible successful outcome justifies its failure risks within a power-law venture portfolio.
 - [Large-Scale Web Scraping](concepts/LargeScaleWebScraping.md) - High-volume extraction discipline that couples crawl throughput with maintenance, anti-bot resilience, and automated data-quality controls.
@@ -2110,7 +2113,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Community Norm Seeding](concepts/CommunityNormSeeding.md) - Deliberate early support, examples, curation, and constraints that establish behaviors later community members can copy and teach.
 - [Managing Up](concepts/ManagingUp.md) - Employee practice of making feedback, priorities, follow-up, and relationship repair explicit while preserving managerial accountability.
 - [Microservice Platform Engineering](concepts/MicroservicePlatformEngineering.md) - Shared governance, runtime infrastructure, contracts, testing, isolation, and operational controls that make independently owned services repeatable to build and safer to operate.
-- [Emergent Layer Theory](concepts/EmergentLayerTheory.md) - Interpretive model in which scalable abstraction removes a scarce constraint, unlocks a higher-order job, and shifts advantage to a newly scarce layer.
+- [Emergent Layer Theory](concepts/EmergentLayerTheory.md) - Interpretive model in which abstraction makes a constraint abundant, unlocks a higher-order purpose, and relocates advantage to a new bottleneck.
 - [Email Lifecycle Automation](concepts/EmailLifecycleAutomation.md) - Customer-state and event-driven coordination of campaign, transactional, and drip messages with safe scheduling, queue isolation, and shared suppression.
 - [Email Deliverability](concepts/EmailDeliverability.md) - Operational discipline spanning message quality, authentication, reputation, list health, consent, and recipient feedback.
 - [Email Campaign Benchmarking](concepts/EmailCampaignBenchmarking.md) - Comparison of campaign engagement and list-health measures against relevant cohorts with explicit methodological and historical limits.
@@ -2449,7 +2452,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Extreme Programming](concepts/ExtremeProgramming.md) - Agile technical-practice tradition Fowler presents as a central pillar for reliable agile execution.
 - [Agile Fluency Model](concepts/AgileFluencyModel.md) - Shore-Larsen model Fowler cites for distinguishing levels of team agile capability.
 - [Internal Software Quality](concepts/InternalSoftwareQuality.md) - Practical codebase and design quality that protects operation and change without treating aesthetic perfection as the goal.
-- [Social Livestreaming](concepts/SocialLivestreaming.md) - Mobile livestreaming organized around real-time broadcaster-viewer interaction, gifts, recognition, and presence.
+- [Social Livestreaming](concepts/SocialLivestreaming.md) - Real-time media whose chat, gifts, requests, recognition, and audience participation help produce the content and shared presence.
 - [Digital Gifting](concepts/DigitalGifting.md) - Paid virtual goods used as social signals, payments, and attention-seeking messages inside platforms.
 - [Livestream Commerce](concepts/LivestreamCommerce.md) - Ecommerce conducted through live video demonstrations, seller interaction, launches, and limited-time offers.
 - [Livestreaming Creator Economics](concepts/LivestreamingCreatorEconomics.md) - Incentive system for recruiting, paying, surfacing, and professionalizing livestream broadcasters.
