@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 20f788f6d4a6ac5aa5b876409a7394a6d9a4583f
-summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, and control."
-episode_count: 752
-source_count: 752
-paragraph_count: 570
+as_of_overview_commit: 1af1030e451bf861a72e4000801e226dbf6cb250
+summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, and trust."
+episode_count: 753
+source_count: 753
+paragraph_count: 571
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[SuperApp]] economics begin with a frequent use case and expand into adjacent demand, but control differs by model: [[GoogleMaps]] uses advertising, APIs, and partners to reduce fulfillment burden, [[Meituan]] operates more transactions and delivery, [[Grab]] uses localized mobility to enter delivery and finance, and [[WeChat]] combines messaging, mini programs, payments, and commerce.
+- [[ProductLifecycleTrust]] treats continued support as a portfolio-level business asset: [[RonAmadeo]] argues that repeated closures make consumers, enterprises, developers, and hardware partners discount unrelated future products, with [[GoogleStadia]] launch questions showing reputation spillover and [[PhilHarrison]]’s investment assurance remaining incomplete without lifecycle, migration, and recourse evidence; [[DeveloperPlatformTrust]] therefore extends beyond endpoint availability to pricing, enforcement, support, and whole-product continuity.
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[IndieGameDevelopment]] and [[AudienceCenteredGameDesign]] treat games as expressive experiences whose relevance depends on identity, care, relationships, themes, controls, and challenge, while [[GameLocalization]], [[AutomatedGameTesting]], [[GameServerScaleAndStability]], [[ContinuousGameServerUpdates]], and [[ServerSideGameLogic]] show that equivalent player experience also depends on translation, verification, delivery, and live operations.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
@@ -36,7 +36,7 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, coherent product and team design, sustainable economics, governed distribution, focused leadership, reversible learning, and risk discipline.
+Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, and risk discipline.
 
 - [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].
 - [[SuperApp]] economics begin with a frequent use case and expand into adjacent demand, but control differs by model: [[GoogleMaps]] uses advertising, APIs, and partners to reduce fulfillment burden, [[Meituan]] operates more transactions and delivery, [[Grab]] uses localized mobility to enter delivery and finance, and [[WeChat]] combines messaging, mini programs, payments, and commerce. Evidence: [[SuperApp]], [[GoogleMaps]], [[Meituan]], [[Grab]], [[WeChat]].
@@ -50,39 +50,39 @@ Cross-domain findings connect inspectable infrastructure, transferable models, f
 
 ### Culture and Media
 
-Media and culture combine expression, identity, distribution, monetization, platform power, and the operational infrastructure behind durable audience value.
+Media and culture combine expression, identity, distribution, monetization, platform power, and the infrastructure behind durable audience value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, and accountability where platforms or automated systems allocate visibility, opportunity, or risk.
+Institutions need explicit authority, evidence, appeal, transparency, and accountability where systems allocate visibility, opportunity, or risk.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].
 
 ### History and Geopolitics
 
-Historical cases show that visible products and practices preserve long lineages, path dependence, institutional context, and selection effects rather than simple recipes.
+Historical cases preserve long lineages, path dependence, institutional context, and selection effects rather than simple reproducible recipes.
 
 ### Psychology and Personal Development
 
-Human outcomes depend on bounded attention, identity, trust, incentives, relationships, evidence calibration, and privacy-aware control over behavioral data.
+Human outcomes depend on bounded attention, identity, trust, incentives, relationships, evidence calibration, and privacy-aware control.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].
 
 ### Science, Health, and Climate
 
-Direct conclusions remain narrow and source-scoped, with mental-health findings separated from technology and work material routed into the topic indirectly.
+Direct conclusions remain narrow and source-scoped, with mental-health findings separated from indirectly routed technology and work material.
 
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and learning improve through accessible practice, feedback, judgment, role clarity, fair incentives, consent, opportunity, and boundaries around attention and power.
+Work and learning improve through accessible practice, feedback, judgment, role clarity, fair incentives, consent, opportunity, and power-aware boundaries.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

@@ -6064,3 +6064,11 @@ Added [[CaseyWinters]]'s 2018 argument that mobile search is shifting [[Google]]
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Google’s Constant Product Shutdowns Are Damaging Its Brand
+
+Added Ron Amadeo's April 2019 argument that Google's dense shutdown cadence damaged portfolio-wide [[ProductLifecycleTrust]] across consumers, enterprises, developers, and hardware partners. Created [[GoogleStadia]] as the launch-time spillover case and updated [[Google]] and [[DeveloperPlatformTrust]] from their complete ordered evidence inventories, preserving the distinction between reported skepticism and measured brand or adoption outcomes. Opened all six local image occurrences, omitted two decorative Google-wordmark variants, and retained one canonical copy each of the duplicated discontinued-app strip and Phil Harrison Stadia presentation photograph.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

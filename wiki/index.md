@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Google’s Constant Product Shutdowns Are Damaging Its Brand](sources/googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica.md) - Ron Amadeo argues that Google's dense 2019 shutdown cadence weakened portfolio-wide trust and burdened Stadia's launch with longevity questions.
 - [Google’s New Strategy and How It Affects Aggregators](sources/googles-new-strategy-and-how-it-affects-aggregators-casey-accidental.md) - Casey Winters argues that mobile search is shifting Google from referral toward direct answers and vertical discovery, weakening aggregator SEO while favoring listing-level participation and direct audience loyalty.
 - [Google: 82% Of Super Bowl Ad Searches Happened On Mobile, Up From 70%](sources/google-82-of-super-bowl-ad-searches-happened-on-mobile-up-from-70-search-engine-land.md) - Google reported 7.5-million-plus incremental Super Bowl ad searches, an 82% smartphone share, first-half concentration, and an automotive-heavy brand ranking.
 - [Google, Uber, and the Evolution of Transportation-as-a-Service](sources/google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson.md) - Ben Thompson decomposes autonomous ride service into drivers, cars, maps, routing, and riders, then compares Google's technology lead with Uber's operating and customer advantages.
@@ -770,6 +771,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Ron Amadeo](entities/RonAmadeo.md) - Ars Technica author connecting Google's repeated shutdowns to portfolio-wide product-lifecycle trust.
+- [Phil Harrison](entities/PhilHarrison.md) - Stadia executive who acknowledged commitment concerns and cited the project's cross-company investment.
+- [Google Stadia](entities/GoogleStadia.md) - Google game-streaming platform represented here as a launch-time test of inherited product-lifecycle trust.
 - [Ginny Marvin](entities/GinnyMarvin.md) - Search Engine Land author who reported Google's 2016 Super Bowl ad-search analysis.
 - [Jason Snell](entities/JasonSnell.md) - Macworld contributor whose 2016 essay argues for platform-native cross-platform application design.
 - [Grab](entities/Grab.md) - Southeast Asian mobility company presented as a localized superapp built outward from ride-hailing.
@@ -2133,6 +2137,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Product Lifecycle Trust](concepts/ProductLifecycleTrust.md) - Confidence that a product and its supporting services will last long enough to justify adoption and dependency costs.
 - [Search Platform Disintermediation](concepts/SearchPlatformDisintermediation.md) - Shift from external search referrals toward platform-owned answers, option ranking, and vertical discovery.
 - [Cross-Media Search Response](concepts/CrossMediaSearchResponse.md) - Immediate search activity following exposure in another medium, with attribution and downstream-outcome limits.
 - [Platform-Native Design](concepts/PlatformNativeDesign.md) - Adapting controls and interaction language to a host operating system while preserving product identity.
