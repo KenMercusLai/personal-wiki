@@ -6296,3 +6296,11 @@ Added [[HerbertLui]]'s year-long account of a roughly 800-card [[ZettelkastenMet
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Here's How (and Why) Entrepreneurs Are Getting Venture Investors Out of Their Companies
+
+Added Inc.'s account of [[Wistia]] and [[Buffer]] using debt- and cash-flow-funded share repurchases to reduce investor misalignment and pursue profitable independence. Created [[ChrisSavage]], [[PrivateCompanyInvestorBuyout]], and [[EmployeeProfitSharing]], and updated [[Wistia]], [[Buffer]], [[JoelGascoigne]], [[VentureBackedGrowthPressure]], and [[VentureCapitalFundStructure]] from their complete ordered evidence inventories. Preserved the distinction between direct investor tension and founder-internalized growth pressure, plus the selection, debt, reserve, valuation, consent, and missing-transaction-document limits on treating buyouts as a general solution. Opened the sole local image and omitted it because it is a generic stock-office photograph without transaction or company evidence.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

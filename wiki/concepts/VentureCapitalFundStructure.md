@@ -5,7 +5,8 @@ tags: [venture-capital, finance, funding]
 sources:
   - wtf-is-a-funding-round-techcrunch
   - brett-fox-boring-obligations-from-investors
-last_updated: 2026-09-25
+  - heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -19,14 +20,16 @@ The structure carries an explicit tolerance for failure. It is expected that mos
 
 Fox adds a narrow operating view of how fund obligations reach portfolio companies. Investors use quarterly company data in portfolio reviews, may ask founders to speak with LPs while raising another fund, and may draw on portfolio-company expertise when assessing new investments. These examples do not establish a universal governance model, but they show that an LP-backed fund can create information and relationship requests downstream rather than interacting with each company only through capital and board meetings.
 
+The Inc. article adds the implication for viable but non-outlier companies. A stable business producing substantial profit or a $25 million exit can be transformative to a founder yet immaterial or disappointing to a fund whose losses must be offset by rare large multiples. Holdings that no longer fit that return path may already be marked down heavily, creating room for a negotiated repurchase even when the payout would not look compelling under venture arithmetic. Wistia and Buffer show the company side of that mismatch, while also showing that the fund's need for liquidity does not itself provide the company with cash, debt capacity, acceptable pricing, or investor consent.
+
 ## Key Claims
 - Venture capitalists invest a fund's capital rather than their own personal money, which is the defining difference from [[AngelInvesting]].
 - Fund capital comes from LPs including financial institutions, high-net-worth individuals, pension funds, university funds, and other institutional or individual sources.
-- Venture funds commonly run on a ten-year life cycle and are expected to produce returns by the end of that period.
-- Fund returns are realized through exits such as IPOs and acquisitions rather than through interest or repayment.
+- Venture funds commonly run on a ten-year life cycle and seek returns through liquidity events such as IPOs, acquisitions, and negotiated secondary or company repurchases rather than operating-company interest payments.
 - The venture firm keeps a portion of the returns it generates for its LPs.
 - The model assumes that most portfolio companies fail and that the best performers must cover the fund's losses and produce a profit on top.
-- Portfolio review and fund fundraising can create reporting, reference, and diligence requests for portfolio-company founders.
+- A founder-significant outcome can still be fund-insignificant when it cannot move portfolio-level returns.
+- Portfolio review, fund fundraising, and liquidity needs can create reporting, reference, diligence, growth, or exit pressure for portfolio-company founders.
 
 ## Evidence
 - Pooled capital: [[wtf-is-a-funding-round-techcrunch]] says angels invest their own personal money while VCs manage a fund.
@@ -37,12 +40,16 @@ Fox adds a narrow operating view of how fund obligations reach portfolio compani
 - Failure budget: [[wtf-is-a-funding-round-techcrunch]] says most startups are expected to fail and that the best ones must provide enough returns to cover every loss and more.
 - Portfolio information flow: [[brett-fox-boring-obligations-from-investors]] says investors use quarterly company information in portfolio reviews.
 - LP and deal support: [[brett-fox-boring-obligations-from-investors]] describes a founder serving as an LP reference during fund fundraising and helping assess a prospective investment.
+- Outcome-scale mismatch: [[heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com]] contrasts a $25 million exit that could transform a founder's life with the same outcome disappointing a venture fund.
+- Portfolio arithmetic: [[heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com]] says a venture investor allocates attention and capital toward companies capable of the largest multiples, not toward keeping every company operating.
+- Alternative liquidity: [[heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com]] reports negotiated investor repurchases at Wistia and Buffer, including partial seller participation and returns outside normal outlier expectations.
 
 ## Counterevidence & Qualifications
-The TechCrunch source compresses venture fund economics into a few sentences and omits the mechanics that dominate real funds: management fees, carried-interest rates and hurdles, fund vintages and the J-curve, investment periods versus fund life, capital calls, reserves and follow-on policy, DPI and TVPI reporting, and the secondary market for fund interests. It presents the ten-year life as typical without saying that extension options, evergreen vehicles, and special-purpose vehicles are common alternatives. Fox adds examples of portfolio review and LP-facing support but only from one founder's retrospective experience with apparently anonymized investors. He does not establish whether the requests were contractual, typical, effective, or proportionate, and neither source gives realized fund-performance data.
+The TechCrunch source compresses venture fund economics into a few sentences and omits the mechanics that dominate real funds: management fees, carried-interest rates and hurdles, fund vintages and the J-curve, investment periods versus fund life, capital calls, reserves and follow-on policy, DPI and TVPI reporting, and secondary markets. It presents the ten-year life as typical without saying that extension options, evergreen vehicles, and special-purpose vehicles are common alternatives. Fox adds examples of portfolio review and LP-facing support but only from one founder's retrospective experience with apparently anonymized investors. The Inc. article provides memorable founder-side arithmetic but no fund sizes, ownership models, mark histories, investor interviews, transaction documents, or realized portfolio returns. The $25 million example and near-zero write-down claim are illustrative, not universal thresholds.
 
 ## What Changed
 - Added a portfolio-company view of how fund review, fundraising, and prospective-deal needs can produce requests for founders.
+- Added the founder-versus-fund outcome-scale mismatch and negotiated company repurchases as an alternative liquidity path.
 
 ## Related Concepts
 - [[VentureCapitalPortfolioSizing]] - the company-count consequence of the fund's rare-winner return model.
@@ -53,3 +60,5 @@ The TechCrunch source compresses venture fund economics into a few sentences and
 - [[StartupFailurePatterns]] - the failure side of the fund's power-law assumption.
 - [[PassiveInvesting]] - the contrasting model in which the investor supplies capital without seeking control or exits.
 - [[FounderInvestorRelations]] - downstream reporting and assistance relationship between the fund's investors and portfolio-company founders.
+- [[PrivateCompanyInvestorBuyout]] - company-funded liquidity mechanism for holdings that no longer fit a fund's return path.
+- [[VentureBackedGrowthPressure]] - portfolio-scale return requirements can narrow the growth and exit outcomes treated as successful.
