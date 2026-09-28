@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [GitOps - Operations by Pull Request](sources/gitops-operations-by-pull-request.md) - Alexis Richardson describes Weaveworks's repository-driven operating loop of reviewed desired state, automated delivery, drift detection, convergence, and reconstructible recovery.
 - [Git-flow 与 GitHub-Flow 分支策略](sources/git-flow-yu-github-flow-fen-zhi-ce-lve.md) - A concise comparison ties Git-flow to explicit multi-version release lanes and GitHub Flow to a frequently integrated, release-ready main branch.
 - [Branding for Builders](sources/gibson-biddle-branding-for-builders.md) - Gibson Biddle links positioning and a layered brand pyramid to Netflix's product evolution and homepage experimentation while qualifying conversion tests as partial brand evidence.
 - [Ghost in the machine: Snapchat isn’t mobile-first — it’s something else entirely](sources/ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely.md) - Ben Basche contrasts persistent presentation feeds with Snapchat’s camera-first, ephemeral, authentically mobile model of entering friends’ present experience.
@@ -757,6 +758,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Alexis Richardson](entities/AlexisRichardson.md) - Author represented through his early explanation of Weaveworks's GitOps operating model.
+- [Weaveworks](entities/Weaveworks.md) - Cloud-native company whose developer-operated SaaS supplies the source's GitOps case.
+- [Weave Flux](entities/WeaveFlux.md) - Open-source Git-to-cluster synchronization project in the early Weaveworks GitOps toolchain.
 - [Gibson Biddle](entities/GibsonBiddle.md) - Former Netflix VP of Product who presents brand as a cross-functional product-and-marketing system.
 - [Ben Basche](entities/BenBasche.md) - Product-strategy author represented by a 2016 interpretation of Snapchat as an authentically mobile social product.
 - [Path](entities/Path.md) - Private mobile social product that shifted from photo sharing to a multi-format life journal after observing user-created posting behavior.
@@ -2107,6 +2111,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab](entities/GitLab.md) - Software company whose candid 2017 incident account exposed the gap between nominal database safeguards and demonstrated recovery.
 
 ## Concepts
+- [GitOps](concepts/GitOps.md) - Repository-driven operations model combining reviewed declarative intent, automated delivery, drift detection, and convergence.
 - [Git-flow](concepts/GitFlow.md) - Branching model separating development, feature, release, stable-production, and hotfix work for explicit version management.
 - [GitHub Flow](concepts/GitHubFlow.md) - Lightweight branching model centered on frequent integration into one release-ready main branch.
 - [Brand Positioning](concepts/BrandPositioning.md) - Dynamic three-part model for the relative idea, customer benefit, and relational personality a product seeks to own.

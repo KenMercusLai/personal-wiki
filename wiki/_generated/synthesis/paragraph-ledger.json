@@ -559,12 +559,13 @@
       "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039",
       "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
       "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86",
-      "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c"
+      "076217687052b3f724825fd7ca530cfbaec9615756fa76fb45f99ce5e384803c",
+      "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee"
     ],
-    "paragraph_count": 559
+    "paragraph_count": 560
   },
-  "overview_commit": "5cf7e7312bea4ba97269c0289a0bf8244c5e71da",
-  "overview_digest": "a8f71dc1ad48970889521a16042d3c9d40f4e5ce7a5de83f2fe570b5d1896bf8",
+  "overview_commit": "7b38243e47605929521c767d6c93f90bfe67911f",
+  "overview_digest": "49a0b199f599d8e31c99eb865682158771fc3e9ec28d33ec95948f7c99ee9cd6",
   "paragraphs": [
     {
       "id": "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
@@ -11324,6 +11325,28 @@
         "GibsonBiddle",
         "Netflix",
         "StartupBrandStrategy"
+      ]
+    },
+    {
+      "id": "50518231bbc39c0b83f2c7829533bfdd4910a575640dd60f69f53c8f1d80dfee",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[AlexisRichardson]] source establishes [[GitOps]] as a closed operational loop rather than merely storing Kubernetes YAML in Git. At [[Weaveworks]], pull requests and pipelines changed versioned declarative intent; kubediff, ansiblediff, and terradiff compared that intent with development and production; alerts exposed persistent divergence; and [[WeaveFlux]] synchronized Git-managed definitions with clusters. This extends [[DeclarativeInfrastructure]] by distinguishing authoritative intended state from observable live state, and it adds a repository-driven operating role to [[Kubernetes]]. The reported reconstruction of deleted AWS services, clusters, applications, and observability in under 45 minutes illustrates how versioned definitions can improve recovery, but it is a single company-authored case tied to related products. Git rollback is also bounded: reverting a declaration cannot by itself reverse database changes, external effects, lost data, or a bad desired state that automation has faithfully propagated.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1
+      },
+      "wikilinks": [
+        "AlexisRichardson",
+        "DeclarativeInfrastructure",
+        "GitOps",
+        "Kubernetes",
+        "WeaveFlux",
+        "Weaveworks"
       ]
     }
   ],

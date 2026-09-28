@@ -5964,3 +5964,11 @@ Added GitLab's live account of the January 2017 production-database incident and
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | GitOps - Operations by Pull Request
+
+Added [[AlexisRichardson]]'s early account of [[Weaveworks]]'s [[GitOps]] operating model: reviewed desired state in Git, pull-request delivery, environment drift detection, automated convergence through [[WeaveFlux]], and reconstructible recovery. Created source-bounded pages for Richardson, Weaveworks, Weave Flux, and GitOps; updated [[DeclarativeInfrastructure]] and [[Kubernetes]] from their complete ordered evidence inventories. Qualified the reported under-45-minute system rebuild as a company-authored case and limited Git-based rollback at data, external-side-effect, and incorrect-declaration boundaries. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

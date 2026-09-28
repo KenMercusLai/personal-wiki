@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 5cf7e7312bea4ba97269c0289a0bf8244c5e71da
+as_of_overview_commit: 7b38243e47605929521c767d6c93f90bfe67911f
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence and explicit limits."
-episode_count: 739
-source_count: 739
-paragraph_count: 559
+episode_count: 740
+source_count: 740
+paragraph_count: 560
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, release-model fit, explicit boundaries, verification, operational ownership, inspectable human control, and workload fit.
+Technical progress depends on calibrated evidence, explicit intended-versus-live state, verification, operational ownership, inspectable human control, and workload fit.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, staged demand evidence, sustainable economics, coherent products, memorable positioning, operating capability, and risk discipline.
+Durable value aligns customer outcomes, staged demand evidence, sustainable economics, coherent products, reviewable operations, organizational learning, and risk discipline.
 
 - [[Baremetrics]] qualifies [[VentureBackedGrowthPressure]] by separating capital from direct coercion: two funding rounds expanded spending capacity, but the author attributes fast hiring, optimistic hockey-stick assumptions, and a runway crisis to internalized [[StartupCulture]] rather than investor demands. [[FounderSuccessDefinition]] therefore becomes an operating choice about durability, income, employee experience, customer happiness, and exit, while [[BurnoutPrevention]] supplies distance for re-examining the race without replacing financial correction. Evidence: [[Baremetrics]], [[VentureBackedGrowthPressure]], [[StartupCulture]], [[FounderSuccessDefinition]], [[BurnoutPrevention]].
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
@@ -57,7 +57,7 @@ Culture emerges from creative form, infrastructure, discovery, audience practice
 
 ### Governance and Institutions
 
-Authority, data, defaults, technical state, reporting, and institutional change require ownership, fair process, staged controls, traceability, recourse, and recovery.
+Authority and automation require explicit intended and observed state, ownership, fair process, staged controls, traceability, recourse, and recovery.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].
