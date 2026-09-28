@@ -5789,3 +5789,7 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | From Side Project to 25 Million Downloads
+
+Added Ryan Hanna's first-person account of using Codecademy Code Year as an entry point and transferring a randomization pattern into Sworkit, a personally useful workout app built with web technologies and PhoneGap. Created source-bounded profiles for [[RyanHanna]], [[Sworkit]], and [[Nexercise]]; updated [[Codecademy]], [[ProgrammerMindset]], and [[SideProjectIncubation]] from their complete ordered evidence inventories. Preserved the central boundary that a platform-published founder success story shows possibility rather than typical learner or side-project outcomes, and that downloads do not establish retention. Opened all five local images, omitted three duplicate portrait variants, and retained the two evidence-bearing code screenshots; their supplied 60-pixel width prevents reliable code transcription, so only the prose-supported comparison was used.

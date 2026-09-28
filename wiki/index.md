@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [From Side Project to 25 Million Downloads](sources/from-side-project-to-25-million-downloads-codecademy-medium.md) - Ryan Hanna traces Sworkit from a Codecademy-supported learning project through Lifehacker distribution, paid release, full-time operation, acquisition, and reported mass-market scale.
 - [From Show HN to Series D](sources/from-show-hn-to-series-d-segment-blog.md) - Segment's founders trace Analytics.js from a developer launch through customer feedback, activation metrics, a bridge round, corrected monetization, and a customer-data platform.
 - [From Pull and Push to Here and Now: the grand bargain of Facebook and the Feed is unraveling. What comes next?](sources/from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next.md) - Alex Danco argues that cameras and ephemerality made varied expression abundant while shared presence, participation, location, and mutability became newly scarce media resources.
 - [From Experiment to Product: Capital-as-a-Service One Year Later](sources/from-experiment-to-product-capital-as-a-service-one-year-later.md) - Social Capital's first-year CaaS retrospective reports global automated-diligence reach and early portfolio signals without validating model accuracy, bias reduction, or investment performance.
@@ -1102,7 +1103,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Aleksandr Krivoshchekov](entities/AleksandrKrivoshchekov.md) - Author of a 2017 practitioner proposal for email magic-link authentication.
 - [Casey Newton](entities/CaseyNewton.md) - Technology journalist represented by a critique of productivity software that stores more information without necessarily producing better thinking.
 - [The Verge](entities/TheVerge.md) - Technology publication and Platformer host represented by Newton’s subscription-truncated note-taking article.
-- [Codecademy](entities/Codecademy.md) - Interactive programming-learning platform profiled as a useful entry point and syntax primer whose historical guided exercises did not reliably produce independent development skill.
+- [Codecademy](entities/Codecademy.md) - Interactive programming-learning platform profiled as a useful entry layer whose transfer depends on independent projects, practice, tooling, and feedback.
 - [Jonathan Courtney](entities/JonathanCourtney.md) - AJ&Smart founding partner represented through prototype-first arguments and the remote Oak redesign case.
 - [AJ&Smart](entities/AJSmart.md) - Product-design consultancy represented through its shift toward rapid Design Sprints and its distributed Oak redesign.
 - [Jake Knapp](entities/JakeKnapp.md) - Product-design practitioner credited with the Design Sprint framework AJ&Smart adopted and adapted remotely.
@@ -2051,6 +2052,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Asheem Chandna](entities/AsheemChandna.md) - Greylock investor who originated the AppDynamics investment and participated in its CEO search.
 - [Rajeev Motwani](entities/RajeevMotwani.md) - Stanford contact whose trusted introduction connected Asheem Chandna with Jyoti Bansal's early AppDynamics venture.
 
+- [Ryan Hanna](entities/RyanHanna.md) - Sworkit creator whose Codecademy-supported learning project led to mobile consulting, full-time product work, acquisition, and an engineering leadership role.
+- [Sworkit](entities/Sworkit.md) - Flexible-workout app that grew from a personally useful side project through public release, paid distribution, and acquisition.
+- [Nexercise](entities/Nexercise.md) - Fitness-app company that acquired and merged with Sworkit and appointed Ryan Hanna as a product and engineering executive.
+
 ## Concepts
 - [Early Startup Demand Validation](concepts/EarlyStartupDemandValidation.md) - Evidence ladder separating launch attention, qualified intent, signup, activation, retention, payment, and model correction.
 - [Here-and-Now Media](concepts/HereAndNowMedia.md) - Proposed media paradigm in which shared presence, participation, location, immediacy, or mutability become part of content's value.
@@ -2517,7 +2522,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Exit as Governance](concepts/ExitAsGovernance.md) - Governance frame where credible alternatives, switching, forking, founding, relocation, or opt-out infrastructure discipline institutions.
 - [Opt-In Society](concepts/OptInSociety.md) - Voluntary technology-mediated society that people join by choice rather than inherited jurisdiction.
 - [Paper Belt](concepts/PaperBelt.md) - Srinivasan's label for paper-era institutional centers in education, media, finance, entertainment, and law.
-- [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of using protected spare time and staged commitment to turn learning or a narrow problem into evidence for a product, business, or other valued outcome.
+- [Side Project Incubation](concepts/SideProjectIncubation.md) - Practice of using protected spare time, personal utility, release, distribution, and staged commitment to turn learning or a narrow problem into evidence for a larger outcome.
 - [Human-Premium Services](concepts/HumanPremiumServices.md) - Services whose value depends on perceived human attention, craft, care, presence, or social interaction.
 - [Automated Game Testing](concepts/AutomatedGameTesting.md) - Using controlled game clients, servers, harnesses, and reporting systems to verify gameplay behavior repeatedly at live-game cadence.
 - [Assume Positive Intent](concepts/AssumePositiveIntent.md) - Trust-first interpersonal heuristic for beginning from good faith until evidence warrants skepticism.
@@ -2772,7 +2777,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Learning Media Choice](concepts/LearningMediaChoice.md) - Choosing learning media and source types by whether they support breadth, depth, review, and structure.
 - [Systematic Learning](concepts/SystematicLearning.md) - Learning that builds both breadth and depth so a person can truly understand and use a domain.
 - [Speed Reading Method](concepts/SpeedReadingMethod.md) - Nonfiction reading workflow that evaluates a book, skims for structure and concepts, and deep-reads selected parts for output.
-- [Programmer Mindset](concepts/ProgrammerMindset.md) - Learned habit of reasoning precisely about code behavior, details, and whole-program effects.
+- [Programmer Mindset](concepts/ProgrammerMindset.md) - Learned habit of reasoning precisely about code and transferring lesson patterns into independently chosen, integrated, and debugged systems.
 - [Skill Stacking](concepts/SkillStacking.md) - Career strategy of combining multiple useful skills into a distinctive profile rather than competing only on one axis.
 - [Technical Debt Tracking](concepts/TechnicalDebtTracking.md) - Recording and interpreting item-level liabilities and aggregate debt trends to support context-sensitive maintenance decisions.
 - [TODO Comments](concepts/TodoComments.md) - Source-code comments used to mark future work, refactoring ideas, or unresolved code smells.

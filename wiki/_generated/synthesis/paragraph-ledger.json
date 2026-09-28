@@ -37,6 +37,7 @@
       "83a08f36593dfd9aa4c87e4a30b213d3e28acdeaf6b3b8eafbc4abbb068f6328",
       "7371cc88f3d93ad8779ce42c6b016aab8409184ae47b80fb225235c7d365d1a8",
       "78f13e16526678b6314a52879731c1d74f257e3f48f4026813ab25906d69c0b3",
+      "c41d82cb6b55883330f381c08ea4d2ff450539c81b2e93ad61c3bd662e631c8e",
       "4589573edbb9e644c8015fecc6381d6bf4c2465410e4e902b8b849b38a928c03",
       "31aa6aff0a44248fd6175ac27ed7f271da2fc8cd745e754a5a8b63e00a9ef770",
       "5f0c417c6d83a03fe0d054c9305cb03e34b497bcde769b42bd0821657b654cc5",
@@ -547,10 +548,10 @@
       "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716"
     ],
-    "paragraph_count": 545
+    "paragraph_count": 546
   },
-  "overview_commit": "6e4b695af2cd821440b8c32fd2545f50b2ae07ef",
-  "overview_digest": "16eed7fcf7de02245d86b95b1b1102b71a05b800883aad4fd9905378198f4dcf",
+  "overview_commit": "907ca28548af6aed73bcab14c4914bb4dacc5a69",
+  "overview_digest": "88f4090b99ef65a8713a74f8d0cf1ae183d1febec2eccf0eef39a99360fe4254",
   "paragraphs": [
     {
       "id": "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
@@ -1260,6 +1261,24 @@
         "MattHaughey",
         "SideProjectIncubation",
         "Slack"
+      ]
+    },
+    {
+      "id": "c41d82cb6b55883330f381c08ea4d2ff450539c81b2e93ad61c3bd662e631c8e",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[RyanHanna]] source connects [[Codecademy]], [[ProgrammerMindset]], and [[SideProjectIncubation]] through [[Sworkit]]. Hanna says Code Year provided the entry format that finally worked for him, but the transfer occurred when he chose his own flexible-workout problem, adapted a virtual-dice randomization pattern, integrated HTML, CSS, JavaScript, jQuery, and PhoneGap, researched obstacles, shipped, and learned from users. The product then moved through a direct Lifehacker pitch, thousands of downloads, a paid version, consulting-supported maintenance, full-time operation, and acquisition by [[Nexercise]], which made Hanna vice president of product and engineering. This is a strong possibility case for guided instruction plus independent construction and staged commitment, not evidence that course completion alone creates product skill or that personal side projects typically reach scale. Codecademy published the selected success story, and its claims of 25 million downloads, more than 50 million workouts, profitability, and a leading fitness-app ranking lack retention, financial, comparison-group, and independent verification detail. Five images were opened: three duplicate portrait variants were omitted, while two 60-pixel-wide code screenshots were retained as the article's direct comparison even though their exact code is not reliably legible.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "culture-and-media": 1
+      },
+      "wikilinks": [
+        "Codecademy",
+        "Nexercise",
+        "ProgrammerMindset",
+        "RyanHanna",
+        "SideProjectIncubation",
+        "Sworkit"
       ]
     },
     {
