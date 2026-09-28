@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 80d90ec49a3bc3e17033eb0c46861872b724b952
+as_of_overview_commit: 7803cb7fff573a109767e6dd980a5ecbcb36c7ca
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 727
-source_count: 727
-paragraph_count: 552
+episode_count: 728
+source_count: 728
+paragraph_count: 553
 topic_count: 9
 ---
 
@@ -29,14 +29,14 @@ topic_count: 9
 
 ### AI and Technology
 
-Technical progress needs calibrated evidence, system understanding, workload fit, verification, explicit defect decisions, ownership, and inspectable human control.
+Technical progress needs calibrated evidence, system understanding, workload fit, verification, explicit defect decisions, ownership, and inspectable human control; mature hardware can also create value through practical tradeoffs and later creative reuse.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value aligns customer outcomes, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline.
+Durable value aligns customer outcomes, practical product fit, staged demand and financing evidence, coherent scope, sustainable economics, operating capability, and risk discipline.
 
 - [[FeatureCreep]] separates product breadth from incoherent scope: [[HitenShah]] argues that segment-specific capabilities can remain coherent when they advance one measurable customer promise, while weak value execution and committee-driven incentives produce disconnected additions; [[ProductUserSegmentation]] therefore needs outcome and promise tests rather than feature counts. Evidence: [[FeatureCreep]], [[HitenShah]], [[ProductUserSegmentation]], [[VisionWebHosting]].
 - [[AggregatorMonopolyPower]] extends [[AggregationTheory]] beyond a free user-facing market: [[BenThompson]] argues that [[Facebook]]'s demand control can weaken [[PlatformPublisherRevenue]], make differentiated advertising scarcity profitable, and use network leverage against [[Snapchat]], while [[PlatformDistributionDependence]] explains why suppliers may remain despite weak monetization. Evidence: [[AggregatorMonopolyPower]], [[AggregationTheory]], [[BenThompson]], [[Facebook]], [[PlatformPublisherRevenue]], [[Snapchat]], [[PlatformDistributionDependence]].
@@ -50,7 +50,7 @@ Cross-domain reasoning makes lifecycle, data, attention, cost, security, interfa
 
 ### Culture and Media
 
-Culture joins creative form with infrastructure, discovery, governance, economics, and presence without equating immediacy or reach with value.
+Culture joins creative form with infrastructure, discovery, governance, economics, community, and presence without equating immediacy or reach with value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].

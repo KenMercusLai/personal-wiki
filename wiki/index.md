@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Game Boys Have Infinite Lives](sources/game-boys-have-infinite-lives-at-30-they-live-on-in-unexpected-ways-los-angeles-times.md) - A Game Boy anniversary feature connects practical mature-technology tradeoffs with hardware modification, chiptune performance, and low-resolution photography.
 - [DeepMind Challenges for StarCraft](sources/gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft.md) - Ben Weber's 2016 forecast frames StarCraft as a coupled test of hidden-state inference, action abstraction, strategic adaptation, robust training, simulation access, and real-time control.
 - [0 Bugs Policy](sources/gal-zellermayer-0-bugs-policy.md) - Gal Zellermayer proposes fixing or explicitly closing every new defect instead of retaining an indefinitely deferred bug inventory, while leaving evidence and traceability limits explicit.
 - [Gaijin Engineer in Tokyo](sources/gaijin-engineer-in-tokyo-alejandro-wainzinger-medium.md) - Alejandro Wainzinger gives a qualified first-person account of engineering systems, communication, hierarchy, overwork, and outsider status inside Japanese companies.
@@ -744,6 +745,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Great Video Game Exodus](sources/gamasutra-the-great-video-game-exodus.md) - Simon Parkin connects game-industry career exits to contract churn, relocation, crunch, production uncertainty, post-launch work, weak comparative pay, ownership constraints, and sexism.
 
 ## Entities
+- [Game Boy](entities/GameBoy.md) - Nintendo's 1989 handheld represented through practical product tradeoffs and long-lived musical, photographic, and customization uses.
+- [Nintendo](entities/Nintendo.md) - Game company represented through the Game Boy and a source-bounded strategy of accessibility and product form over specification leadership.
+- [Gunpei Yokoi](entities/GunpeiYokoi.md) - Nintendo inventor associated with the Game Boy and Lateral Thinking with Withered Technology.
 - [Ben Weber](entities/BenWeber.md) - StarCraft AI researcher and competition founder represented through his 2016 account of expert-level game-agent challenges.
 - [DeepMind](entities/DeepMind.md) - AI research organization presented through AlphaGo and a prospective 2016 StarCraft challenge.
 - [StarCraft](entities/StarCraft.md) - Real-time strategy game represented as a partially observable, high-dimensional, adaptive AI environment.
@@ -2081,6 +2085,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kristen Koster](entities/KristenKoster.md) - Early Ultima Online designer whose account links sexism, role displacement, caregiving, and extreme on-call expectations.
 
 ## Concepts
+- [Lateral Thinking with Withered Technology](concepts/LateralThinkingWithWitheredTechnology.md) - Product philosophy that creates new user value by recombining mature technology rather than maximizing specifications.
+- [Hardware Afterlives](concepts/HardwareAfterlives.md) - Repair, customization, repurposing, and selective preservation that give physical products useful post-market roles.
+- [Chiptune](concepts/Chiptune.md) - Music made through characteristic game-system sound hardware, represented here by portable Game Boy composition and performance.
 - [StarCraft as an AI Testbed](concepts/StarCraftAITestbed.md) - Benchmark framing that joins hidden state, hierarchical control, strategic change, rare tactics, simulation limits, and real-time deadlines.
 - [Zero Bugs Policy](concepts/ZeroBugsPolicy.md) - Defect-inventory rule that replaces indefinite bug deferral with prompt repair or explicit non-repair decisions.
 - [Cross-Cultural Workplace Adaptation](concepts/CrossCulturalWorkplaceAdaptation.md) - Learning an unfamiliar workplace's technical, linguistic, relational, and institutional system without turning culture into an excuse for avoidable harm.

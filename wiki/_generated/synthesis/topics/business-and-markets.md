@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: d46862120d4d357f7e8584a4cd03264897c8d3fa
-input_digest: 23b022429055b731474def6ac752fec68e721cace7aea54e8f3421e1a29aee4e
+as_of_overview_commit: 7803cb7fff573a109767e6dd980a5ecbcb36c7ca
+input_digest: 5f221ecf40e4a9e51508d2c9ef2bdf11cc2396659277a620a63ee005bf62a77f
 ---
 
 # Business and Markets
@@ -1569,3 +1569,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - The evidence is one founder retrospective selected and published by Codecademy, with no learner comparison group, side-project success base rate, acquisition terms, or independent causal attribution.
 - Reported downloads and completed workouts do not establish active use, retention, profitability quality, or typical outcomes, and the two retained code screenshots are too low-resolution for exact transcription.
+
+### Practical Product Fit Can Beat Specification Leadership
+
+[[GameBoy]] supplies a source-scoped product-strategy case in which [[Nintendo]] reportedly beat technically stronger handheld rivals through price, battery practicality, portability, and home-like play; [[HardwareAfterlives]] then extends value beyond the launch market as users repair, customize, and repurpose the device.
+
+**Evidence:** [[GameBoy]], [[Nintendo]], [[HardwareAfterlives]]
+
+**Qualifications:**
+
+- The evidence is one celebratory 2019 anniversary feature and does not compare the Game Boy's software catalog, brand, licensing, retail distribution, or profitability with competitors.
+- Historical sales and market-rank claims may depend on product-family boundaries, while selected modification, music, and photography cases do not establish mainstream prevalence.

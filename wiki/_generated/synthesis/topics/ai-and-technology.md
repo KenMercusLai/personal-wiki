@@ -4,8 +4,8 @@ generated: true
 topic_id: ai-and-technology
 title: "AI and Technology"
 last_updated: 2026-09-28
-as_of_overview_commit: d46862120d4d357f7e8584a4cd03264897c8d3fa
-input_digest: 79cbf54084c21c1e05b3f4fcf4beffb23e6ee86226a946aa81b4092b22cd12ca
+as_of_overview_commit: 7803cb7fff573a109767e6dd980a5ecbcb36c7ca
+input_digest: 71f1ae5ff164f8193d76a5e3e20cc3d6983b40713a58dc45c532c30b87e54784
 ---
 
 # AI and Technology
@@ -650,3 +650,14 @@ Long-sequence language probabilities cannot be counted: with about 40,000 common
 
 - The evidence is one 2019 CentOS 7 walkthrough using deliberately low thresholds and one synthetic UDP load, without production false-positive, capture-capacity, mitigation, or recovery measurements.
 - The supplied ExaBGP and FlowSpec settings are disabled, so route-based enforcement is proposed rather than demonstrated; software versions, commands, and dashboard references require current verification.
+
+### Mature Hardware Tradeoffs Can Enable Creative Afterlives
+
+[[LateralThinkingWithWitheredTechnology]] treats mature components as a system-level product choice when lower cost, manageable battery demand, and portability create more user value than specification leadership; the [[GameBoy]] also shows how understandable constraints can support [[HardwareAfterlives]] in repair, customization, [[Chiptune]], and low-resolution photography.
+
+**Evidence:** [[LateralThinkingWithWitheredTechnology]], [[GameBoy]], [[HardwareAfterlives]], [[Chiptune]]
+
+**Qualifications:**
+
+- The evidence is one celebratory 2019 anniversary feature based on selected enthusiasts rather than a comparative product history or prevalence study.
+- The reported 110-million-unit total, best-selling rank, mobile-gaming influence, and philosophical continuity with the Switch are source-scoped, and the source does not isolate hardware tradeoffs from software, brand, licensing, or distribution.

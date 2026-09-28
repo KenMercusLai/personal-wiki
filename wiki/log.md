@@ -5864,3 +5864,11 @@ Added Ben Weber's 2016 forecast of expert-level StarCraft AI as a coupled proble
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Game Boys Have Infinite Lives
+
+Added the Los Angeles Times' 2019 account of the [[GameBoy]] as both a practical mature-technology product and a platform for continuing repair, customization, music, and photography. Created source-bounded profiles for [[GameBoy]], [[Nintendo]], and [[GunpeiYokoi]], plus [[LateralThinkingWithWitheredTechnology]], [[HardwareAfterlives]], and [[Chiptune]]. Qualified the article's historical sales, market-rank, influence, and philosophy-continuity claims. Opened the single local image and retained its evidence-bearing depiction of intimate handheld use under a descriptive canonical filename with a matching manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

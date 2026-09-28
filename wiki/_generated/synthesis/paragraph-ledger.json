@@ -552,12 +552,13 @@
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
       "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a",
       "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039",
-      "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd"
+      "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
+      "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86"
     ],
-    "paragraph_count": 552
+    "paragraph_count": 553
   },
-  "overview_commit": "80d90ec49a3bc3e17033eb0c46861872b724b952",
-  "overview_digest": "88b5112ddf230b08e431e2ef4a86dc74f52d570dec0e67ab79526f2218d48afc",
+  "overview_commit": "7803cb7fff573a109767e6dd980a5ecbcb36c7ca",
+  "overview_digest": "faa99defef80db5970f9d08c3a2e7e6380b682f5201b2264e58f709e504dd763",
   "paragraphs": [
     {
       "id": "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
@@ -11176,6 +11177,28 @@
         "ReinforcementLearning",
         "StarCraft",
         "StarCraftAITestbed"
+      ]
+    },
+    {
+      "id": "3b8ab156fb09c4f35c68332eb32f98a02cebfb60c2f94f409c1b98fcc167df86",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets"
+      ],
+      "text": "The newest [[GameBoy]] source connects launch-era product judgment with post-market cultural reuse. [[GunpeiYokoi]]'s [[LateralThinkingWithWitheredTechnology]] explains why [[Nintendo]] could accept weaker specifications when lower price, manageable battery needs, and true portability produced a better whole product. New [[HardwareAfterlives]] then separates restoration from selective transformation: enthusiasts replace shells, add backlights and audio hardware, turn the console into a synthesizer or MIDI-controlled instrument, and preserve the Game Boy Camera's 128-by-112-pixel monochrome limits as an aesthetic choice. [[Chiptune]] likewise becomes more than nostalgia, combining portable cartridge software, performance control, emotionally distinctive timbre, and local community formation. The evidence is a celebratory 2019 feature built from selected practitioners; its 110-million-unit figure, best-selling claim, broad mobile-gaming influence, and continuity with the Switch remain source-scoped rather than independently established. The retained photograph directly illustrates intimate handheld use but does not prove the article's market claims.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 2,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "Chiptune",
+        "GameBoy",
+        "GunpeiYokoi",
+        "HardwareAfterlives",
+        "LateralThinkingWithWitheredTechnology",
+        "Nintendo"
       ]
     }
   ],
