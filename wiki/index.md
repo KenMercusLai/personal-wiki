@@ -6,6 +6,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Houseparty's Teenage Consultants Help Design the App](sources/housepartys-teenage-consultants-help-design-the-app.md) - Yiren Lu compares Houseparty's school visits with Musical.ly's continuous user groups to show how adult teams involved teenage users in design, learning, and early network spread.
+- [Hiring is Broken... And It Isn't Worth Fixing](sources/hiring-is-broken-and-it-isnt-worth-fixing-daedtech.md) - Erik Dietrich proposes replacing high-volume cold interviews with longer-lived evidence relationships while commenters expose the alternative's access, bias, relevance, and candidate-leverage trade-offs.
 - [Hierarchy of Trust: The 5 Experiential Levels of Website Commitment](sources/hierarchy-of-trust-the-5-experiential-levels-of-website-commitment.md) - A five-level UX framework for matching requests for information, money, and relationship commitment to trust already earned.
 - [Here’s How TurboTax Just Tricked You Into Paying to File Your Taxes](sources/heres-how-turbotax-just-tricked-you-into-paying-to-file-your-taxes-propublica.md) - ProPublica traces how search promotion, similar product names, delayed upgrade prices, opaque routing, and competing controls steered eligible taxpayers away from an IRS-backed free filing path.
 - [Here's Why There Won't Be an Uber for Accounting](sources/heres-why-there-wont-be-an-uber-for-accounting-going-concern.md) - Going Concern argues that relationship-heavy accounting is a poor fit for on-demand matching, while standardized low-end work faces direct software automation.
@@ -808,6 +810,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Houseparty](entities/Houseparty.md) - Synchronous group video-chat app shaped through school-based teenage feedback and spread through dense local relationships.
+- [Alex Zhu](entities/AlexZhu.md) - Musical.ly founder represented through deliberate youth targeting and continuous pre-code user participation.
+- [Yiren Lu](entities/YirenLu.md) - Journalist examining demographic distance, teenage product participation, and social-app adoption.
+- [Erik Dietrich](entities/ErikDietrich.md) - Software-industry author and consultant who frames developer hiring as an organizational-design problem and advocates relationship-led evidence over trivia screens.
 - [Ryan Holiday](entities/RyanHoliday.md) - Author presenting the Briefcase Technique through coaching, career, and Thiel-Gawker examples while acknowledging failure and self-protective underpreparation.
 - [Ramit Sethi](entities/RamitSethi.md) - Career adviser credited in the source with naming a researched, candidate-led interview presentation the Briefcase Technique.
 - [ProPublica](entities/ProPublica.md) - Investigative newsroom represented through a journey-based audit of TurboTax's commercial and IRS-backed filing paths.
@@ -2232,6 +2238,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Participatory Product Design](concepts/ParticipatoryProductDesign.md) - Involving intended users in ideas, artifacts, and product choices before and during implementation, with explicit sampling and power boundaries.
 - [Hierarchy of Trust](concepts/HierarchyOfTrust.md) - Five-level UX framework for calibrating website requests to established relevance, preference, information trust, and relationship readiness.
 - [Briefcase Technique](concepts/BriefcaseTechnique.md) - Researched, concrete proposal used to demonstrate judgment and initiative in a consequential meeting without guaranteeing acceptance or ethical merit.
 - [Dark Patterns](concepts/DarkPatterns.md) - Journey-level deceptive design using claims, naming, routing, disclosure timing, friction, and control hierarchy to steer choices.

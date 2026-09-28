@@ -6,7 +6,8 @@ sources:
   - develop-your-hiring-system-like-a-product-to-eliminate-bias-and-boost-retention-first-round-review
   - everything-you-need-to-know-about-startup-recruitment-rocketshp
   - find-vet-and-close-the-best-product-managers-first-round-review
-last_updated: 2026-09-28
+  - hiring-is-broken-and-it-isnt-worth-fixing-daedtech
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -22,14 +23,16 @@ Measurement operates on different time horizons: source yield, funnel movement, 
 
 Jackson's product-manager process adds a role-specific example. It turns the job into baseline and stage-dependent capabilities, uses a reciprocal screen, cross-functional interviews, an explicit continuation gate, and a product presentation with live questions, then treats frequent direct communication and honest motivation matching as part of the close. This strengthens work relevance and candidate reciprocity, while leaving the broader system responsible for scoring anchors, interviewer calibration, accessibility, burden, adverse-impact review, and post-hire validation.
 
+[[ErikDietrich]] challenges a deeper assumption: perhaps cold stranger selection should not remain the center of hiring at all. His alternative is to accept slower growth and cultivate longer-lived evidence through prior collaboration, internships, communities, and visible work. That proposal sharpens the need-versus-hire gate and candidate reciprocity, but the source's own comments show why it cannot simply replace one filter with referrals: relationship-led evidence can exclude people without strong networks, reproduce affinity, and depend on bargaining power many applicants do not have. The defensible synthesis is therefore plural rather than absolute: reduce unnecessary hiring, prefer job-relevant evidence accumulated over realistic time horizons, preserve accessible entry routes for unknown candidates, and measure both prediction and exclusion.
+
 ## Key Claims
-- Hiring design should begin by testing the need for a hire and defining the team outcome, not by opening a familiar title or collecting individually impressive candidates.
+- Hiring design should begin by testing the need for a permanent hire or cold selection and defining the team outcome, while preserving accessible routes for candidates without prior relationships or public work.
 - Criteria should be defined in behavioral and job-relevant terms, while pedigree and other weak or bias-inducing signals are explicitly excluded or treated as hypotheses requiring stronger evidence.
 - Sourcing should use a clear candidate proposition, multiple relevant channels, source measurement, and a reusable talent pool rather than depend on one undifferentiated applicant stream.
 - Fair evaluation requires transparent expectations, multiple job-relevant demonstration modes, calibrated interviewers, and explicit controls on candidate burden.
 - Decision authority should be explicit so evidence can inform a timely decision without forcing panel consensus.
 - Candidate communication, closing, onboarding, contribution, and retention are linked system outcomes and should feed process improvement.
-- Metrics and themed iteration can make the system learn, but no single funnel, acceptance, performance, or retention measure proves hiring quality or fairness.
+- Metrics and themed iteration can make the system learn, but no single funnel, acceptance, performance, retention, or referral measure proves hiring quality or fairness.
 
 ## Evidence
 - Need and role definition: [[everything-you-need-to-know-about-startup-recruitment-rocketshp]] asks whether a contractor can cover bounded work, ties role priority to the next three-to-six months, and describes the job through daily tasks, responsibilities, and outcomes.
@@ -39,6 +42,8 @@ Jackson's product-manager process adds a role-specific example. It turns the job
 - Interviewer reliability and governance: [[develop-your-hiring-system-like-a-product-to-eliminate-bias-and-boost-retention-first-round-review]] describes shadowing and reverse shadowing, gives the hiring manager the final decision, and asks dissenting panelists to commit to the hire's success.
 - Role-specific work evidence: [[find-vet-and-close-the-best-product-managers-first-round-review]] links PM responsibilities to product, technical, conflict, strategy, service, motivation, presentation, and live-question evidence, with a stop gate before the panel exercise.
 - Reciprocal close: [[find-vet-and-close-the-best-product-managers-first-round-review]] treats direct communication and an honest match between role conditions and individual motivation as part of hiring rather than a post-decision sales step.
+- Institutional alternative and candidate agency: [[hiring-is-broken-and-it-isnt-worth-fixing-daedtech]] argues that high-volume screens ignore rich work evidence, recommends explicit candidate boundaries, and proposes longer-lived known-work pathways instead of repeated cold interviews.
+- Access trade-off: the comments preserved in [[hiring-is-broken-and-it-isnt-worth-fixing-daedtech]] warn that referrals and prior collaboration can privilege established networks, geography, free time, and social access, while many candidates cannot afford to refuse conventional processes.
 - Feedback across the lifecycle: [[develop-your-hiring-system-like-a-product-to-eliminate-bias-and-boost-retention-first-round-review]] combines funnel analytics, demographic patterns, candidate surveys, employee pulse checks, retention, and themed retrospectives; [[everything-you-need-to-know-about-startup-recruitment-rocketshp]] adds channel tracking, onboarding, transparency, internal growth, and one-to-one attention.
 
 ## Counterevidence & Qualifications
@@ -48,12 +53,13 @@ Behavioral rubrics can still encode disputed values, observable behavior can be 
 
 The PM-specific source likewise supplies no predictive-validity, interviewer-agreement, demographic, accessibility, or post-hire outcome evidence. Its use of school reputation, prior-company prestige, enthusiasm, technical pedigree, cultural effectiveness, and presentation polish needs the evidence and fairness controls described elsewhere on this page.
 
+Dietrich's article is a 2016 argument and comment discussion, not a comparison of selection systems. Its claims about employer scale, algorithm relevance, candidate leverage, and future employment patterns are not independently tested. Known-work pathways can improve evidence depth but also reward network position, public free labor, social confidence, and geographic access; conventional open applications remain an important access path when designed around relevant evidence. Conversely, standardized tests may be scalable without being valid, and job relevance cannot be assumed merely because an algorithm appears somewhere in an employer's technical work.
+
 ## What Changed
-- Extended the system boundary upstream to the hire-versus-contractor decision and outcome-based role design.
-- Added multi-channel attraction, source tracking, and talent-pool maintenance as measurable acquisition components.
-- Extended the feedback loop downstream through onboarding, contribution, culture, growth, and retention.
-- Separated potentially useful work evidence from subjective cultural-fit screens and burdensome auditions.
-- Added a PM-specific staged example connecting role capabilities, cross-functional evidence, an exercise gate, candidate communication, and motivation-aware closing.
+- Added the possibility that cold stranger selection itself, not only its interview mechanics, should be redesigned or avoided.
+- Added longer-lived known-work pathways as richer evidence, qualified by network access, affinity bias, and unequal candidate leverage.
+- Made plural access explicit: reducing unnecessary hiring and preferring realistic evidence must not close routes for unknown candidates.
+- Extended candidate reciprocity from communication and closing to advance boundary setting and refusal of misaligned processes.
 
 ## Related Concepts
 - [[InclusiveHiring]] - supplies the fairness objective and tests whether varied candidates can enter and contribute.
@@ -63,3 +69,4 @@ The PM-specific source likewise supplies no predictive-validity, interviewer-agr
 - [[UserCenteredDesign]] - supplies the user-focused logic for treating candidates as participants whose experience and feedback matter.
 - [[TalentDensity]] - hiring-system evidence can discipline capability judgments without making individual talent the only team objective.
 - [[ProductManagerHiring]] - applies the system to a role where cross-functional influence and product judgment must be observed without overvaluing pedigree or charisma.
+- [[EmployeeOpportunityDesign]] - asks whether the organization can offer meaningful work before it expands headcount.

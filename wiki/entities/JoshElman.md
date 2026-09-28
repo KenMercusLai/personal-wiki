@@ -6,12 +6,13 @@ sources:
   - building-to-independence-on-top-of-other-platforms-greylock-perspectives
   - building-your-growth-model-and-ladder-of-engagement
   - four-questions-towards-understanding-user-adoption-of-your-product
-last_updated: 2026-09-28
+  - housepartys-teenage-consultants-help-design-the-app
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[JoshElman]] appears in the wiki as an investor and former product operator behind advice on platform distribution, growth models, staged engagement, and qualitative activation research.
+[[JoshElman]] appears in the wiki as an investor and former product operator behind advice on platform distribution, growth models, staged engagement, qualitative activation research, and direct target-user learning for social products.
 
 ## Current Profile
 The sources present Elman as someone who has worked from both sides of consumer-platform growth. He helped build Facebook Platform in 2008 and 2009, worked with developers trying to scale on top of it, and also experienced apps he helped build being shut down by other platforms. His advice to founders is neither platform avoidance nor naive platform reliance. Instead, he argues that startups can use large platforms for early distribution while deliberately moving toward independent user demand and an enduring company.
@@ -20,6 +21,8 @@ His growth-model article adds a more product-internal version of that advice. El
 
 The earlier bounceback-user article supplies a qualitative diagnostic for the same transition. Instead of starting with generic retention benchmarks, Elman recommends interviewing active users who initially abandoned the product and returned after a meaningful gap. Their original motivation, first-use failure, return trigger, and eventual activation behavior can reveal changes to both messaging and onboarding. Twitter's reported shift toward helping newcomers find and follow relevant accounts serves as the historical case.
 
+Lu's 2017 report adds an investor interpretation of field research. As an investor in Houseparty and Musical.ly, Elman argues that Houseparty's school visits were not merely promotion: putting a plausible target cohort together let the team observe enjoyment, hear objections, and leave either with advocates or feedback. He connects the products' early spread to dense school relationships while resisting a simple old-versus-young axis; the broader product opportunity is live, creative, mutable social expression that can later be reinterpreted by other groups.
+
 ## Key Characteristics
 - Advises consumer startups on growth and platform strategy.
 - Draws on direct experience building Facebook Platform.
@@ -27,6 +30,7 @@ The earlier bounceback-user article supplies a qualitative diagnostic for the sa
 - Emphasizes independence as the end state for enduring companies.
 - Frames growth around purpose, hook, adoption, habit, and staged user learning.
 - Uses contrastive user stories to diagnose why initially unsuccessful users later activate.
+- Treats target-user gatherings as combined product learning and potential distribution rather than promotion alone.
 
 ## Evidence
 - Platform-building experience: [[building-to-independence-on-top-of-other-platforms-greylock-perspectives]] says Elman helped build Facebook Platform in 2008 and 2009 and helped developers scale on Facebook.
@@ -37,12 +41,16 @@ The earlier bounceback-user article supplies a qualitative diagnostic for the sa
 - Engagement ladder: [[building-your-growth-model-and-ladder-of-engagement]] uses Twitter to show how onboarding can prioritize basic value behaviors before deeper participation and power-user skills.
 - Activation diagnosis: [[four-questions-towards-understanding-user-adoption-of-your-product]] recommends interviewing active returners about first interest, failed expectations, the return trigger, and what worked on the second attempt.
 - Research-to-product loop: [[four-questions-towards-understanding-user-adoption-of-your-product]] says repeated answers should change both marketing messages and the onboarding path, and reports that Twitter shifted emphasis from broadcasting toward finding and following useful accounts.
+- Field-learning interpretation: [[housepartys-teenage-consultants-help-design-the-app]] quotes Elman distinguishing Houseparty's school visits from marketing and describing enjoyment or criticism as useful outcomes.
+- Social-distribution context: [[housepartys-teenage-consultants-help-design-the-app]] connects school density to network spread and reports Elman's view that newer generations remain more open to unfamiliar connection modes.
+- Product-frame qualification: [[housepartys-teenage-consultants-help-design-the-app]] records Elman's distinction between age targeting and a broader shift toward fun, creative, live, and mutable social expression.
 
 ## Qualifications
-This page is source-scoped. It does not independently profile Elman's full career, later roles, investments, or broader writing beyond the three included product-growth and platform-strategy sources. The bounceback method is practitioner guidance supported by one reported Twitter case, not a comparative validation of interview sample size, cadence, or causal effect.
+This page is source-scoped. It does not independently profile Elman's full career, later roles, investments, or broader writing beyond the four included product-growth, platform-strategy, and social-app sources. The bounceback method is practitioner guidance supported by one reported Twitter case, not a comparative validation of interview sample size, cadence, or causal effect. The Houseparty and Musical.ly account comes from an investor in both companies and does not separate research effects from selection, timing, product quality, capital, or network structure.
 
 ## What Changed
-- Added Elman's contrastive bounceback-user method for connecting activation research to messaging and onboarding.
+- Added Elman's distinction between promotional outreach and target-user gatherings that produce either advocacy or design feedback.
+- Extended his growth profile from funnel and activation mechanics to school-network context and generational openness, with investor-bias and causal limits.
 
 ## Relationships
 - [[GreylockPartners]] - publication and venture-firm context for Elman's advice.
@@ -54,3 +62,6 @@ This page is source-scoped. It does not independently profile Elman's full caree
 - [[ProductEngagementLadder]] - framework Elman uses for staged product learning.
 - [[BouncebackUserResearch]] - method Elman proposes for learning from users who failed, returned, and then activated.
 - [[FirstMileProductExperience]] - product boundary where bounceback interviews expose unmet expectations and confusing setup.
+- [[Houseparty]] - portfolio company whose school visits Elman interprets as product learning.
+- [[MusicalLy]] - portfolio company used alongside Houseparty to discuss young early adopters.
+- [[ParticipatoryProductDesign]] - direct user involvement that Elman links to both learning and spread.

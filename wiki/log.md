@@ -6360,3 +6360,23 @@ Added a five-level [[HierarchyOfTrust]] framework for calibrating website reques
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hiring is Broken... And It Isn't Worth Fixing
+
+Added [[ErikDietrich]]'s 2016 critique of high-volume developer hiring as a mismatch between candidates seeking individual evaluation and organizations optimizing standardized throughput. Created [[ErikDietrich]] and updated [[HiringSystemDesign]] from its complete prior evidence inventory to incorporate longer-lived known-work pathways, candidate boundary setting, and the possibility of avoiding unnecessary cold selection. Preserved the comment thread's counterarguments about algorithm relevance, unequal bargaining power, geographic and network access, referral quality, affinity bias, and the continuing need for open routes for unknown candidates. Opened all three effective images; retained the evidence-bearing hostile-interview illustration under a descriptive canonical filename and omitted two decorative reaction emoji.
+
+## [2026-09-29] ingest | Houseparty's Teenage Consultants Help Design the App
+
+Added [[YirenLu]]'s 2017 comparison of [[Houseparty]] school visits and [[MusicalLy]] user groups as forms of [[ParticipatoryProductDesign]] that address builder-audience distance while also seeding dense school networks. Created [[Houseparty]], [[AlexZhu]], [[YirenLu]], and [[ParticipatoryProductDesign]], and updated [[MusicalLy]] and [[JoshElman]] from their complete ordered evidence inventories. Preserved the source's historical, selected-success, investor, sampling, causality, participant-power, privacy, and minor-safeguarding limits. Opened both effective local images and omitted them because they are duplicate decorative crops of the same beer-pong photograph.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

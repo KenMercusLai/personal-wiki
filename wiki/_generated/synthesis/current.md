@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: b1577e0b4f5a34ff809228ff9d2f292ad4571a8d
-summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, and choice."
-episode_count: 789
-source_count: 789
-paragraph_count: 597
+as_of_overview_commit: 45ed2a0930727d2becd808fadb793dc24c70d58d
+summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, trust, participation, and choice."
+episode_count: 791
+source_count: 791
+paragraph_count: 598
 topic_count: 9
 ---
 
@@ -17,26 +17,26 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[AppPermissionGovernance]] joins access scope to business-model scrutiny: [[NicoleNguyen]]'s historical [[UnrollMe]] case reports that email access granted for inbox cleanup also produced receipt data sold through an analytics business, so [[DataMonetization]] can create secondary uses not explained by capability labels alone; review and revocation help, while [[PrivacyPovertyDivide]] qualifies the assumption that every user can buy or exit toward a privacy-oriented alternative.
+- [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]].
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale.
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience.
-- [[DarkPatterns]] can operate across a whole decision journey: search promotion, similar product names, delayed price disclosure, opaque routing, and competing controls can steer users even when individual screens contain some accurate text; [[InterfaceCopywriting]], [[ProductFlowFriction]], [[SearchPlatformDisintermediation]], and [[UserTrustCapital]] therefore need to be evaluated together when access to [[IRSFreeFile]] depends on discoverability and switching cost.
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects.
-- [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer.
+- [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people.
+- [[CareerPlanning]] is repeatedly framed as staged experimentation through [[WantRealityCareerFramework]], [[NextNextJobFramework]], side projects, freelancing, independent creation, skill stacks, age-staged risk choices, [[BurnoutPrevention]], [[WorkHabits]], [[OneFitSearchMindset]], and organization-level [[EngineeringCareerArchitecture]]; [[MattWarzel]] adds a market-aware job-search sequence that connects mission, self-assessment, transferable capabilities, employer research, compensation criteria, action planning, and [[PersonalBranding]]. [[StrategicJobMobility]] makes employer tenure conditional on learning, fit, responsibility, compensation, and future options, while [[InMarketJobSearch]], [[StartupJobDiligence]], [[StartupOpportunitySelection]], and [[IntrovertedLeadership]] add location, startup quality, role, and leadership-range tests. [[AdamSmith]] and [[EntrepreneurialCareerPaths]] extend the same experimental model beyond one startup by treating continued operation, failure or departure, acquisition employment, rest, another company, venture investing, larger-company work, and retirement as value- and stage-dependent transitions rather than a single success ladder.
 
 ## Synthesis by Domain
 
 ### AI and Technology
 
-Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and ethical boundaries on visible technical capability.
+Technical progress depends on calibrated evidence, explicit state, verification, operational ownership, human control, workload fit, and power-aware participation rather than capability alone.
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]]. Evidence: [[EvidenceBasedSoftwareEngineering]], [[GregWilson]], [[AgileSoftwareDevelopment]], [[MartinFowler]].
 - [[DeploymentReleaseSeparation]] distinguishes installing and health-checking a production version from directing user traffic to it: [[TurbineLabs]] shows how separate activation can isolate startup risk and support staged release, while [[ChangeSafety]] and [[DeploymentAutomation]] retain canary exposure and rollback as bounded, fallible controls rather than guarantees. Evidence: [[DeploymentReleaseSeparation]], [[TurbineLabs]], [[ChangeSafety]], [[DeploymentAutomation]].
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed access and distribution, lifecycle trust, recoverability, and prepared opportunity use without treating effort as entitlement.
+Durable value joins customer outcomes, sustainable economics, governed access and distribution, lifecycle trust, recoverability, and evidence that separates product learning from promotional spread.
 
 - [[AbandonedDomainTakeover]] makes retired-domain custody part of [[AuthenticationInfrastructure]]: [[GaborSzathmari]] and [[JeremiahCruz]] report that re-registering former-business domains restored catch-all mail, supported ownership verification and account-recovery attempts, and exposed continuing correspondence, so mergers, rebrands, departures, and closure need domain retention, account cleanup, stronger recovery, unique credentials, and MFA as layered controls. Evidence: [[AbandonedDomainTakeover]], [[AuthenticationInfrastructure]], [[GaborSzathmari]], [[JeremiahCruz]].
 - [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
@@ -50,14 +50,14 @@ Cross-domain findings connect inspectable infrastructure, transferable models, f
 
 ### Culture and Media
 
-Media and culture combine expression, identity, distribution, monetization, platform power, and durable knowledge practices bounded by judgment and evidence.
+Media and culture combine expression, identity, distribution, monetization, platform power, participation, and durable knowledge practices bounded by judgment and evidence.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, bounded stewardship, and ethical accountability when private capability is converted into consequential action.
+Institutions need explicit authority, evidence, appeal, transparency, bounded stewardship, and ethical accountability when private capability becomes consequential action.
 
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
@@ -75,14 +75,14 @@ Human outcomes depend on bounded attention, identity, trust, incentives, relatio
 
 ### Science, Health, and Climate
 
-Direct conclusions remain narrow and source-scoped, with mental-health findings separated from indirectly routed technology and work material.
+Direct conclusions remain narrow and source-scoped, with health and climate claims separated from indirectly routed technology, work, and market material.
 
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, power-aware boundaries, sustainable conditions, and service models fitted to the work itself.
+Work and learning improve through accessible practice, feedback, judgment, agency, fair incentives, representative participation, power-aware boundaries, and sustainable conditions.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

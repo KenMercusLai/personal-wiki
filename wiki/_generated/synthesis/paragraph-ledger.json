@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "995bb2bc737455283d985755e17f4267b2bf66d79ba8aa96bf15bd9e885e2a8a",
       "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
       "27c65aabb0fcbe96cb66fa1f3a43c143a0388a5276ea7a45412c2b8d6dfe7ff8",
       "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
@@ -599,11 +600,33 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 597
+    "paragraph_count": 598
   },
-  "overview_commit": "b1577e0b4f5a34ff809228ff9d2f292ad4571a8d",
-  "overview_digest": "4610f8da7c1608163a547ac2f4a8fbf49b516912bbd1c487ebefa31e602afff4",
+  "overview_commit": "45ed2a0930727d2becd808fadb793dc24c70d58d",
+  "overview_digest": "eb7f3274eeb5c7de43d823d6302c851fce0d799292e76e79a07cebe9cd3edcbc",
   "paragraphs": [
+    {
+      "id": "995bb2bc737455283d985755e17f4267b2bf66d79ba8aa96bf15bd9e885e2a8a",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "ai-and-technology",
+        "work-education-and-society"
+      ],
+      "text": "The newest [[YirenLu]] source adds [[ParticipatoryProductDesign]] as a response to builder-audience distance. [[Houseparty]] used 2016 high-school and college visits to discuss room capacity, presence notifications, and spontaneous use, deliberately looking beyond coastal technology hubs; [[AlexZhu]] says [[MusicalLy]] used continuing WeChat and WhatsApp groups to discuss major ideas, mockups, and wireframes before coding. Participation here is also a distribution mechanism because socially connected students recruited friends and dense school networks increased local value. That overlap sharpens [[CustomerLedProductDevelopment]]: direct contact can produce context and advocacy, but enthusiasm, App Store rank, and reported minutes cannot identify which design choice caused growth. Houseparty's summer decline also supplies a useful counterintuitive observation—school contact appeared to stimulate online use rather than replace it—while adult and family examples show that a narrow early cohort need not define every later use. The evidence remains one favorable 2017 magazine account built partly from company, investor, and enthusiastic-user reports, with no failed cohorts, audited metrics, participant-selection protocol, causal comparison, or treatment of compensation, privacy, moderation, and safeguarding for minors. Both local JPEGs were opened and omitted because they are duplicate decorative crops of the same beer-pong photograph.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 3,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AlexZhu",
+        "CustomerLedProductDevelopment",
+        "Houseparty",
+        "MusicalLy",
+        "ParticipatoryProductDesign",
+        "YirenLu"
+      ]
+    },
     {
       "id": "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
       "primary_topic": "psychology-and-personal-development",
