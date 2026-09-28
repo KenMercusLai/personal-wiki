@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "source_key": "graphql-vs-rest-apollo-graphql",
+  "images": [
+    {
+      "file": "rest-routes-vs-graphql-schema.png",
+      "alt": "REST sends separate route requests while GraphQL sends one request through a schema to posts, comments, and authors"
+    }
+  ]
+}

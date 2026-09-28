@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-29] ingest | GraphQL vs. REST
+
+Added Apollo GraphQL's 2017 comparison of [[GraphQL]] and [[RESTAPI]], emphasizing their shared HTTP and server-function foundations while distinguishing route-bound representations from typed schemas, client-selected fields, relationship traversal, and resolver-composed responses. Created source-bounded GraphQL and Apollo GraphQL pages, synthesized REST API from this comparison plus the existing error-handling evidence, and updated [[HTTP]] from its complete ordered evidence inventory with the API-style and caching boundary. Preserved qualifications around vendor framing, omitted hypermedia and identification topics, backend work behind a single request, and historical tooling maturity. Opened all four effective local image embeds, retained the full routing diagram, omitted its thumbnail duplicate and two duplicated promotional graphics, and ignored one empty image marker.
+
 ## [2026-09-28] ingest | Google: 82% Of Super Bowl Ad Searches Happened On Mobile, Up From 70%
 
 Added [[GinnyMarvin]]'s report of Google's 2016 Super Bowl television-ad search analysis. Created [[CrossMediaSearchResponse]]; updated [[Google]], [[YouTube]], and [[MarketingAttribution]] from their complete ordered evidence inventories with the reported 82% smartphone share, more than 7.5 million incremental searches, 40% year-over-year lift, first-half timing, and automotive-heavy brand ranking. Preserved the distinction between platform-reported search attention and a reproducible causal or business-outcome measure. Opened all four unique remote images after recovering them from the publisher's current asset path, omitted the generic Google-device photograph and Super Bowl illustration as decorative, deduplicated repeated copies, and retained the two evidence-bearing charts under descriptive canonical filenames with a complete manifest.
@@ -6086,5 +6090,9 @@ Ran lint. See lint-report.md for details.
 Added [[TimOReilly]]'s cross-domain argument that technological change often accumulates before becoming visibly abrupt. Updated [[LongNoseInnovation]] and [[AugmentedIntelligence]] from their complete ordered evidence inventories with algorithmic organizations, infrastructure shifts, neural interfaces, and performance-adjacent learning, while preserving boundaries around forecast evidence, timing, allocation power, surveillance, and two incomplete source passages. Opened the sole local image and omitted it as a decorative ocean-sunrise photograph.
 
 ## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.

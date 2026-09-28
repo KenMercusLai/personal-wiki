@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [GraphQL vs. REST](sources/graphql-vs-rest-apollo-graphql.md) - Apollo compares REST routes and server-shaped resources with GraphQL schemas, client-selected fields, relationship traversal, and resolver-composed responses.
 - [Gradually, then suddenly](sources/gradually-then-suddenly-oreilly.md) - Tim O'Reilly surveys gradual technological shifts nearing visible consequence and argues for human-machine partnership, institutional capacity, and deliberate moral choice.
 - [Gossip, Rumors, and Lies](sources/gossip-rumors-and-lies-rands-in-repose.md) - Rands in Repose frames staff meetings around concrete start conditions, separate runner and historian roles, story-producing metrics, team-owned topics, rumor correction, shared notes, and continuing value tests.
 - [Google’s Constant Product Shutdowns Are Damaging Its Brand](sources/googles-constant-product-shutdowns-are-damaging-its-brand-ars-technica.md) - Ron Amadeo argues that Google's dense 2019 shutdown cadence weakened portfolio-wide trust and burdened Stadia's launch with longevity questions.
@@ -773,6 +774,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Apollo GraphQL](entities/ApolloGraphQL.md) - Publication and developer-tooling context for the source's GraphQL education, client caching, and server-infrastructure examples.
 - [Tim O'Reilly](entities/TimOReilly.md) - Technology publisher and commentator represented through cumulative change, human-machine partnership, institutional capacity, and moral choice.
 - [Ron Amadeo](entities/RonAmadeo.md) - Ars Technica author connecting Google's repeated shutdowns to portfolio-wide product-lifecycle trust.
 - [Phil Harrison](entities/PhilHarrison.md) - Stadia executive who acknowledged commitment concerns and cited the project's cross-company investment.
@@ -2140,6 +2142,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [GraphQL](concepts/GraphQL.md) - Typed API query and execution model combining schemas, client-selected fields, relationship traversal, and resolver-composed responses.
+- [REST API](concepts/RESTAPI.md) - HTTP-oriented resource interface built from URLs, methods, status semantics, handler dispatch, and server-defined representations.
 - [Staff Meetings](concepts/StaffMeetings.md) - Recurring leadership forums governed by concrete coordination needs, distinct facilitation and recordkeeping roles, purposeful agendas, shared notes, and explicit reassessment.
 - [Product Lifecycle Trust](concepts/ProductLifecycleTrust.md) - Confidence that a product and its supporting services will last long enough to justify adoption and dependency costs.
 - [Search Platform Disintermediation](concepts/SearchPlatformDisintermediation.md) - Shift from external search referrals toward platform-owned answers, option ranking, and vertical discovery.

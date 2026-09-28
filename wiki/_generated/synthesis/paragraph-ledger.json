@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "9ab015792f13656fc784fc8e73601cdcf717b6a0e8119cacd1e4dbdd9c40d44e",
       "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
       "79ef7fcdb9a50c0863a86e985899c173a001e767b1a968bfdd3edbd37cf35f62",
       "7f02cdfe51d04f5299fb802c835b15eb5142f7e60ef108f7009b3a50cd564f92",
@@ -575,11 +576,29 @@
       "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
       "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd"
     ],
-    "paragraph_count": 573
+    "paragraph_count": 574
   },
-  "overview_commit": "f33720cd32c9e9425cd724412539425afa80323f",
-  "overview_digest": "13449e518ffa219f68b82eed50a36706b9c296e451a6812905451f4cd1853974",
+  "overview_commit": "f086155eb0cb170742a3e84bf672eb20bd815a7f",
+  "overview_digest": "2b9dee8a2f4d366d188f72e824f1e78694fa448aef9b2bb31cf78e328a5cc18f",
   "paragraphs": [
+    {
+      "id": "9ab015792f13656fc784fc8e73601cdcf717b6a0e8119cacd1e4dbdd9c40d44e",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest Apollo GraphQL source adds [[GraphQL]] and [[RESTAPI]] as closely related API models separated mainly by interface composition. Both can identify resources, travel over [[HTTP]], return JSON, and dispatch to ordinary server functions. REST commonly couples a route and method to a handler and server-selected representation; GraphQL separates schema types from root operations, lets clients choose fields and traverse relationships, and invokes multiple field resolvers to construct a response matching one operation. This sharpens [[DeveloperExperience]] and [[HTTP]] without treating one network request as free backend work: GraphQL can reduce over-fetching and client round trips, while REST aligns more directly with standard HTTP caching and can add embedding or sparse-field conventions. The evidence is a vendor-associated 2017 introduction that explicitly omits full treatments of object identification, hypermedia, and caching and does not benchmark latency, server cost, or operational complexity. The full routing diagram was retained because it contrasts three REST paths with one schema-mediated `/graphql` request; its thumbnail duplicate, two duplicated Apollo promotional graphics, and an empty image marker were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "DeveloperExperience",
+        "GraphQL",
+        "HTTP",
+        "RESTAPI"
+      ]
+    },
     {
       "id": "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
       "primary_topic": "business-and-markets",

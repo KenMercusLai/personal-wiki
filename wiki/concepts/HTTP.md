@@ -6,7 +6,8 @@ sources:
   - chen-hao-http-de-qian-shi-jin-sheng
   - 402-payment-required-david-humphrey-medium
   - best-practices-for-api-error-handling-dzone-integration
-last_updated: 2026-09-14
+  - graphql-vs-rest-apollo-graphql
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -20,6 +21,8 @@ Across these sources, HTTP becomes not just a document-transfer protocol but a g
 
 HTTP status codes sit at the boundary between protocol semantics and product or developer experience. A reserved code such as [[HTTP402PaymentRequired]] can be imagined as a browser-readable payment signal when paired with metadata and a trusted [[BrowserPaymentBroker]]. In REST APIs, ordinary status codes play a more immediate integration role: they are useful shared labels, but providers still need readable messages, documentation links, and responsibility boundaries so clients know whether to recover, change their request, or wait for a server-side fix.
 
+The GraphQL comparison adds an API-style boundary. Both [[RESTAPI]] and [[GraphQL]] can travel over HTTP and return JSON, yet they use the protocol differently: REST commonly makes URLs and methods part of resource operations and benefits directly from standard HTTP caching, while GraphQL can concentrate varied field selections behind one route and move read-versus-write intent into query and mutation operations.
+
 ## Key Claims
 - HTTP's evolution is a sequence of engineering separations: protocol versioning, metadata headers, status codes, and content typing.
 - HTTP/1.0 made the protocol more general but suffered from one new TCP connection per resource.
@@ -27,7 +30,7 @@ HTTP status codes sit at the boundary between protocol semantics and product or 
 - [[HTTP2]] improved performance by replacing textual request sequencing with binary framing, multiplexing, header compression, and server push.
 - [[HTTP3]] changes the transport foundation by using [[QUIC]] over UDP rather than TCP.
 - Standard HTTP adoption is treated as an architectural advantage because it increases compatibility with industry tooling and open-source ecosystems.
-- HTTP status codes can be product-interface and developer-experience hooks when paired with metadata, actionable messages, documentation, or client-recovery guidance.
+- HTTP semantics can be product-interface and developer-experience hooks: methods, URLs, status codes, caching metadata, actionable messages, and client-recovery guidance all shape API behavior.
 
 ## Evidence
 - Early engineering maturity: [[chen-hao-http-de-qian-shi-jin-sheng]] identifies versioning, headers, status codes, and content types as the changes that made HTTP/1.0 more disciplined.
@@ -38,14 +41,16 @@ HTTP status codes sit at the boundary between protocol semantics and product or 
 - Standardization benefit: [[chen-hao-http-de-qian-shi-jin-sheng]] argues that internal architectures benefit when they follow industry standards.
 - Payment signaling: [[402-payment-required-david-humphrey-medium]] proposes using [[HTTP402PaymentRequired]] metadata so browsers can present paid-access options.
 - API error practice: [[best-practices-for-api-error-handling-dzone-integration]] recommends choosing only the status codes an API needs and giving clients enough detail to recover or wait appropriately.
+- API-style comparison: [[graphql-vs-rest-apollo-graphql]] shows REST using HTTP routes and methods more directly, while GraphQL carries field selection and read-versus-write intent in its operation document.
 
 ## Counterevidence & Qualifications
-The protocol-history source is an explanatory technical essay, not a standards document or benchmark. Some adoption claims and browser-support references are time-bound to the article's publication date of 2019-10-01. The 402 source is a 2015 proposal rather than an implemented standard, so its payment claims should be read as design imagination. The DZone source is practical REST advice and does not settle the exact status-code taxonomy or response schema a specific API should adopt.
+The protocol-history source is an explanatory technical essay, not a standards document or benchmark. Some adoption claims and browser-support references are time-bound to the article's publication date of 2019-10-01. The 402 source is a 2015 proposal rather than an implemented standard, so its payment claims should be read as design imagination. The DZone source is practical REST advice and does not settle the exact status-code taxonomy or response schema a specific API should adopt. The Apollo comparison is a 2017 vendor-associated introduction that leaves out detailed object identification, hypermedia, caching, and alternative transports; its REST-versus-GraphQL contrast is useful but not exhaustive.
 
 ## What Changed
 - Created the HTTP concept page as the parent protocol thread for the new networking source.
 - Added the 402 payment proposal as an example of HTTP status semantics becoming browser product infrastructure.
 - Added REST API error handling as a practical status-code selection and client-guidance use case.
+- Added the distinction between REST's direct use of routes, methods, and HTTP caching and GraphQL's operation-level field selection.
 
 ## Related Concepts
 - [[HTTP11]] - HTTP/1.1 extends HTTP with persistent connections and richer application-protocol features.
@@ -56,3 +61,5 @@ The protocol-history source is an explanatory technical essay, not a standards d
 - [[HTTP402PaymentRequired]] - 402 is a reserved HTTP status code proposed as a payment signal.
 - [[BrowserPaymentBroker]] - browser-mediated payment depends on clients interpreting the HTTP 402 response.
 - [[APIErrorHandling]] - API error practice uses HTTP status codes as shared client-server semantics.
+- [[RESTAPI]] - uses HTTP resources, methods, status codes, and caching as core interface semantics.
+- [[GraphQL]] - commonly uses HTTP as transport while moving field selection and operation structure into a typed query document.
