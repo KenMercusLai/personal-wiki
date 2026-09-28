@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 8beec66fbac9e682db86c8bb455722bc0acf735b
-input_digest: c94265b687fa529a8051d57755b69db884ff41355dcf2fcb4a552d6df49e0eb9
+as_of_overview_commit: 928d898ca4cdad9af937e3e32d60ba7287bc80c5
+input_digest: 0c28af26e6e0f45b0a9dc694b568a11197532de5912ed971f6c4a5b24fa36a58
 ---
 
 # Business and Markets
@@ -237,14 +237,15 @@ input_digest: c94265b687fa529a8051d57755b69db884ff41355dcf2fcb4a552d6df49e0eb9
 
 ### Unit Economics Separates Growth From Viability
 
-[[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity.
+[[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[Groupon]] adds a merchant-side example in which consumer distribution can produce a loss-making restaurant redemption unless incrementality, spare capacity, add-on contribution, breakage, or profitable repeat behavior recovers the acquisition investment. [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap, and [[StartupOpportunitySelection]] preserves the boundary between a genuine customer pain and a viable company opportunity.
 
-**Evidence:** [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]]
+**Evidence:** [[UnitEconomics]], [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], [[GuyShachar]], [[Groupon]], [[SubsidizedUnitEconomics]], [[StartupOpportunitySelection]]
 
 **Qualifications:**
 
-- Shachar's 2016 essay is a practitioner argument without company-level CAC, LTV, retention, cohort, contribution-margin, or cost-to-serve calculations, so it does not show that the named on-demand services shared one cost structure or could not improve.
-- Temporary negative unit economics can fund experimentation or marketplace formation when a testable mechanism can improve price, acquisition, retention, utilization, or delivery cost; CAC and LTV are uncertain estimates rather than fixed facts.
+- Shachar's 2016 essay is a practitioner argument without company-level calculations, while the Groupon restaurant critique relies on one simplified example and reader anecdotes rather than contract data or representative merchant cohorts.
+- Temporary negative economics can fund experimentation, marketplace formation, or customer acquisition when a testable mechanism can improve price, incrementality, retention, utilization, add-on contribution, breakage, or delivery cost; CAC and LTV are uncertain estimates rather than fixed facts.
+- The restaurant example omits negotiated terms, tips, unused vouchers, spare capacity, repeat behavior, and observed lifetime value, so a loss-making redemption does not by itself establish loss-making customer lifetime economics.
 
 ### Mobile Capability Expands Creation Participation
 

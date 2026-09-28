@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
       "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
       "9ab015792f13656fc784fc8e73601cdcf717b6a0e8119cacd1e4dbdd9c40d44e",
       "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
@@ -579,11 +580,27 @@
       "56842e275c7575e2a6020b95a60d8be86942c491de2b5d87ca7017188872e8a4",
       "aadbe05f211e4ae7ba346204a1668d47ff67bb9f8a888b71fdb09f9c252d0e97"
     ],
-    "paragraph_count": 577
+    "paragraph_count": 578
   },
-  "overview_commit": "3d48068b4594df663992d2407029a054e7b2841e",
-  "overview_digest": "ffc14df1223032a5f6b8386304fa1ea04c10fcfb30cf0c2ea33ea196eddef33d",
+  "overview_commit": "928d898ca4cdad9af937e3e32d60ba7287bc80c5",
+  "overview_digest": "ad40f23ef94e26e3cfb9cfe9dcd94321ede4de5dbcefad0b7be2d984ec5c0ba5",
   "paragraphs": [
+    {
+      "id": "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest Brandon O'Dell source adds a restaurant-merchant counterweight to the wiki's consumer-growth account of [[Groupon]]. The existing growth-tactics source shows sharing, referrals, multiple purchases, and daily emails distributing bargains; O'Dell's 2013 critique asks whether that reach creates value for the supplier. In its illustrative deal, a restaurant gives a customer $40 of food for a $20 voucher, then receives $9.30 after Groupon's stated share and processing fees against estimated food cost of $10–$16 before labor, supplies, and displaced full-price demand. This sharpens [[UnitEconomics]] and [[CustomerAcquisitionCost]] by treating the initial redemption loss as marketing investment whose viability depends on incrementality, unused capacity, breakage, add-on contribution, and profitable repeat behavior rather than voucher volume alone. The source argues that deal customers remain loyal to Groupon rather than the restaurant, but this is practitioner opinion supported by one simplified example and reader anecdotes, not contract data or representative cohorts; it omits negotiated terms, tips, add-on purchases, unused vouchers, capacity utilization, and observed lifetime value. Its US-market and company-failure predictions are dated forecasts. The remote lead image now redirects to a suspended-host page, so it could not be interpreted or retained.",
+      "topic_scores": {
+        "business-and-markets": 5,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "CustomerAcquisitionCost",
+        "Groupon",
+        "UnitEconomics"
+      ]
+    },
     {
       "id": "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
       "primary_topic": "business-and-markets",

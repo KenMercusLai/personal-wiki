@@ -341,16 +341,18 @@
       "global_candidate": true,
       "id": "unit-economics-separates-growth-from-viability",
       "qualifications": [
-        "Shachar's 2016 essay is a practitioner argument without company-level CAC, LTV, retention, cohort, contribution-margin, or cost-to-serve calculations, so it does not show that the named on-demand services shared one cost structure or could not improve.",
-        "Temporary negative unit economics can fund experimentation or marketplace formation when a testable mechanism can improve price, acquisition, retention, utilization, or delivery cost; CAC and LTV are uncertain estimates rather than fixed facts."
+        "Shachar's 2016 essay is a practitioner argument without company-level calculations, while the Groupon restaurant critique relies on one simplified example and reader anecdotes rather than contract data or representative merchant cohorts.",
+        "Temporary negative economics can fund experimentation, marketplace formation, or customer acquisition when a testable mechanism can improve price, incrementality, retention, utilization, add-on contribution, breakage, or delivery cost; CAC and LTV are uncertain estimates rather than fixed facts.",
+        "The restaurant example omits negotiated terms, tips, unused vouchers, spare capacity, repeat behavior, and observed lifetime value, so a loss-making redemption does not by itself establish loss-making customer lifetime economics."
       ],
-      "statement": "[[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap; the test also sharpens [[StartupOpportunitySelection]] because a genuine customer pain is not automatically a viable company opportunity.",
+      "statement": "[[UnitEconomics]] separates adoption from business viability by comparing [[CustomerLifetimeValue]], [[CustomerAcquisitionCost]], and variable delivery cost: [[GuyShachar]] argues that convenience, fundraising, valuation, and transaction volume do not make loss-making orders sustainable, while [[Groupon]] adds a merchant-side example in which consumer distribution can produce a loss-making restaurant redemption unless incrementality, spare capacity, add-on contribution, breakage, or profitable repeat behavior recovers the acquisition investment. [[SubsidizedUnitEconomics]] explains how investor capital, supplier underpayment, or future fees can temporarily conceal the gap, and [[StartupOpportunitySelection]] preserves the boundary between a genuine customer pain and a viable company opportunity.",
       "status": "qualified",
       "supporting_wikilinks": [
         "UnitEconomics",
         "CustomerLifetimeValue",
         "CustomerAcquisitionCost",
         "GuyShachar",
+        "Groupon",
         "SubsidizedUnitEconomics",
         "StartupOpportunitySelection"
       ]

@@ -6128,3 +6128,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Groupon a bad deal for restaurants and everyone else, including Groupon
+
+Added Brandon O'Dell's 2013 restaurant-consulting critique of [[Groupon]], including its illustrative $40-face-value voucher, $9.30 merchant proceeds, estimated $10–$16 food cost, and claim that weak full-price return behavior can make the promotion an expensive acquisition channel. Updated [[Groupon]] and [[UnitEconomics]] from their complete ordered evidence inventories, coupling consumer distribution with merchant viability and distinguishing a loss-making first transaction from necessarily loss-making lifetime economics. Preserved the article's practitioner-opinion, simplified-model, anecdotal-comment, and dated-forecast limits. The remote lead image now redirects to a suspended-host page, so it could not be opened, interpreted, or retained.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Groupon a bad deal for restaurants and everyone else, including Groupon](sources/groupon-a-bad-deal-for-restaurants-and-everyone-else-including-groupon-odell-restaurant-consultings-blog.md) - Brandon O'Dell argues that Groupon's restaurant promotions can turn customer acquisition into a loss-making redemption without profitable repeat behavior.
 - [Ground Control To Silicon Valley](sources/ground-control-to-silicon-valley.md) - Nitasha Tiku argues that Code Conference's elite access, social proximity, and future-focused spectacle can weaken scrutiny of concentrated technology power.
 - [#define CTO OpenAI](sources/greg-brockman-define-cto-openai.md) - Greg Brockman recounts OpenAI's formation, early recruiting, constraint-driven leadership shifts, and the research-engineering work behind Gym and Universe.
 - [Greater Internet Fuckwad Theory | Know Your Meme](sources/greater-internet-fuckwad-theory-know-your-meme.md) - Know Your Meme traces a 2004 Penny Arcade equation about anonymity and audience through online-disinhibition research, precursors, remixes, and later internet culture.
@@ -1648,7 +1649,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition, product-evolution, and explicit vacation-policy example.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
-- [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
+- [Groupon](entities/Groupon.md) - Daily-deals company whose consumer distribution loops can conflict with merchant unit economics and customer quality.
 - [PayPal](entities/PayPal.md) - Payments company represented through referral growth, web-payment infrastructure, prototype payments, and Checkout API evolution.
 - [Ahmad Iqbal](entities/AhmadIqbal.md) - Merchant-founder who turned Nadeef customer-call experiments into Shopify apps such as Scout, Raven Callback, and Pizza Party.
 - [Nadeef](entities/Nadeef.md) - Shopify bidet store where abandoned-checkout calls, VIP thank-yous, and customer-experience app ideas were tested.
