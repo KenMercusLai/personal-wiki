@@ -6032,3 +6032,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Google Is Making the Same Mistake Now That Microsoft Did in the 90s
+
+Added [[JasonSnell]]'s comparison of Google's 2016 Material-styled iOS applications with Microsoft's Windows-derived Office 6 for Mac, and created [[PlatformNativeDesign]] to distinguish host-platform familiarity from vendor-wide interface consistency. Updated [[GoogleDocs]] and [[MaterialDesign]] from their complete ordered evidence inventories, preserving the article as practitioner judgment rather than usability or adoption evidence. Opened all four effective local image references: retained the substantive Android Google Docs photograph, and omitted three repeated references to an uninterpretable 1x1 transparent placeholder while recording that limitation in the source note.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

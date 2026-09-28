@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Google Is Making the Same Mistake Now That Microsoft Did in the 90s](sources/google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld.md) - Jason Snell compares Google's Material-styled iOS apps with Windows-derived Office for Mac to argue that host-platform fit can matter more than vendor-wide consistency.
 - [Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive](sources/google-maps-is-ready-to-transform-the-world-of-superapps-a-skift-deep-dive-skift.md) - Skift compares Google Maps' discovery-led platform expansion with WeChat, Grab, and Meituan while preserving limits around local context, partner fulfillment, regional habits, regulation, and estimated revenue.
 - [Google data collection research](sources/google-data-collection-research-digital-content-next.md) - Digital Content Next summarizes 2018 experiments on passive Android and Chrome telemetry, background location communication, and Google advertising-identifier linkage.
 - [Good/Bad Product Manager](sources/good-bad-product-manager-wildbit-medium.md) - Wildbit reframes product management around team health, direct customer learning, facilitative strategy, realistic priorities, and hands-on execution.
@@ -766,6 +767,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Jason Snell](entities/JasonSnell.md) - Macworld contributor whose 2016 essay argues for platform-native cross-platform application design.
 - [Grab](entities/Grab.md) - Southeast Asian mobility company presented as a localized superapp built outward from ride-hailing.
 - [Meituan](entities/Meituan.md) - China local-services platform contrasting transaction and in-house fulfillment with Google Maps' partner model.
 - [Justin Bauer](entities/JustinBauer.md) - Amplitude product executive represented through a practitioner model of customer-connected, analytics-informed, outcome-oriented teams.
@@ -2127,6 +2129,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Platform-Native Design](concepts/PlatformNativeDesign.md) - Adapting controls and interaction language to a host operating system while preserving product identity.
 - [Superapp](concepts/SuperApp.md) - High-frequency mobile platform that integrates many services through a habitual core, shared capabilities, and varying degrees of transaction control.
 - [Fundraising Momentum](concepts/FundraisingMomentum.md) - Timely business evidence, investor attention, process urgency, and responsive diligence that keep a financing process moving despite changing concerns.
 - [Reversible Decision Making](concepts/ReversibleDecisionMaking.md) - Decision practice that varies speed, evidence, and review burden according to actual rollback cost and consequence.
