@@ -2,6 +2,10 @@
 
 Append-only chronological record of all operations.
 
+## [2026-09-29] ingest | Here's The Thing With Free Apps And Services
+
+Added [[NicoleNguyen]]'s 2017 consumer guide to the privacy and business-model tradeoffs of zero-price apps. Created [[NicoleNguyen]], [[UnrollMe]], and [[AppPermissionGovernance]], and updated [[DataMonetization]] from its complete ordered evidence inventory to include secondary use of feature-access data, permission proportionality, and user-expectation governance. Preserved the historical boundary around platform settings and company policies, distinguished a permission request from proof that every capability was exercised, and qualified paid privacy alternatives through [[PrivacyPovertyDivide]]. Opened all four local images; retained the full Unroll.me permission screen and TLDRLegal example under descriptive filenames, and omitted a duplicate permission crop plus a generic laptop photograph.
+
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
 ## [2026-09-29] ingest | Here's How Trello Nailed Localization and Global Marketing
@@ -6304,6 +6308,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Here's How (and Why) Entrepreneurs Are Getting Venture Investors Out of Their Companies
 
 Added Inc.'s account of [[Wistia]] and [[Buffer]] using debt- and cash-flow-funded share repurchases to reduce investor misalignment and pursue profitable independence. Created [[ChrisSavage]], [[PrivateCompanyInvestorBuyout]], and [[EmployeeProfitSharing]], and updated [[Wistia]], [[Buffer]], [[JoelGascoigne]], [[VentureBackedGrowthPressure]], and [[VentureCapitalFundStructure]] from their complete ordered evidence inventories. Preserved the distinction between direct investor tension and founder-internalized growth pressure, plus the selection, debt, reserve, valuation, consent, and missing-transaction-document limits on treating buyouts as a general solution. Opened the sole local image and omitted it because it is a generic stock-office photograph without transaction or company evidence.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

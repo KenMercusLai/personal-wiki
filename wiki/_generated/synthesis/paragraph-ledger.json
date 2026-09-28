@@ -593,12 +593,13 @@
       "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d",
       "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e",
       "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb",
-      "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa"
+      "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
+      "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f"
     ],
-    "paragraph_count": 593
+    "paragraph_count": 594
   },
-  "overview_commit": "38e09c7350cf0c02e524305a665f0ddfe9a47d79",
-  "overview_digest": "2207296d7feb1507c1dd55f8027a89c01c6a3fd91fc60882bd10d761e21c59f8",
+  "overview_commit": "a2c366311569f355df534050f82e43f7e525da4a",
+  "overview_digest": "d57492b47c29fc841f2b516143bc1a4bbec68c0dc16ac1245afd644d4399e11f",
   "paragraphs": [
     {
       "id": "fc4cb6987ed94bfe7f22d8476c3b4f310a982c2d468252878fd04596a43c4ab6",
@@ -12011,6 +12012,27 @@
         "NoteToolFit",
         "PersonalKnowledgeManagement",
         "ZettelkastenMethod"
+      ]
+    },
+    {
+      "id": "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[NicoleNguyen]] source adds [[AppPermissionGovernance]] as a continuing access decision rather than a one-time consent click. The 2017 [[UnrollMe]] case connects a useful inbox-cleanup feature and broad Google-account authority with a separate [[DataMonetization]] path: the article reports that receipt information extracted from email became an analytics product sold through Slice Intelligence to [[Uber]]. This sharpens the wiki's free-service model because targeted advertising, aggregate analytics, and transfer of derived records are distinct mechanisms even when each is compressed into “you are the product.” The practical loop is to compare requested capabilities with actual purpose, recognize that send/delete authority carries greater stakes than passive viewing, inspect privacy language and revenue sources, revisit connected apps and phone permissions, and revoke stale access. Terms summaries and paid alternatives may reduce review or incentive problems, but neither guarantees privacy, and [[PrivacyPovertyDivide]] qualifies the assumption that every user can afford to exit a data-funded service. The source is historical consumer journalism rather than a legal or technical audit: product policies and settings paths may have changed, the retained authorization screen proves requested scope rather than actual use of every capability, and the report does not test anonymization or reidentification. All four local images were opened; the full permission screen and TLDRLegal example were retained under descriptive filenames, while a duplicate crop and generic laptop photograph were omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 2,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AppPermissionGovernance",
+        "DataMonetization",
+        "NicoleNguyen",
+        "PrivacyPovertyDivide",
+        "Uber",
+        "UnrollMe"
       ]
     }
   ],

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "heres-the-thing-with-free-apps-and-services",
+  "images": [
+    {
+      "file": "unroll-me-google-permissions.jpg",
+      "alt": "Google authorization screen showing Unroll.me requesting permission to read, send, delete, and manage email, view profile details, and manage contacts"
+    },
+    {
+      "file": "tldrlegal-youtube-liability-example.png",
+      "alt": "TLDRLegal plain-language summary beside the corresponding YouTube terms limiting liability for third-party video content"
+    }
+  ]
+}

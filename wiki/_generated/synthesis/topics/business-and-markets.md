@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-29
-as_of_overview_commit: 38e09c7350cf0c02e524305a665f0ddfe9a47d79
-input_digest: c69d15a527abb164e1d7109cd830e67d840ddc7be666d252bb9753af35a606d5
+as_of_overview_commit: a2c366311569f355df534050f82e43f7e525da4a
+input_digest: d533c78a420591b2f6ac811950dce8beb6b005cdbaf160442951f82fcbbbc69f
 ---
 
 # Business and Markets
@@ -1744,3 +1744,14 @@ A solo [[BootstrappedSaaS]] side project can produce both financial optionality 
 
 - The evidence is a 2012 practitioner retrospective without traffic, conversion, retention, engineering-cost, platform-policy, or counterfactual measurements, so it establishes an implementation mechanism rather than causal impact.
 - The prediction that marketer-coder hybrids displace non-technical marketing leadership is historically and organizationally narrower than the useful claim that technical and marketing work can be tightly coupled.
+
+### Free Service Data Use Needs Permission And Model Governance
+
+[[AppPermissionGovernance]] joins access scope to business-model scrutiny: [[NicoleNguyen]]'s historical [[UnrollMe]] case reports that email access granted for inbox cleanup also produced receipt data sold through an analytics business, so [[DataMonetization]] can create secondary uses not explained by capability labels alone; review and revocation help, while [[PrivacyPovertyDivide]] qualifies the assumption that every user can buy or exit toward a privacy-oriented alternative.
+
+**Evidence:** [[AppPermissionGovernance]], [[NicoleNguyen]], [[UnrollMe]], [[DataMonetization]], [[PrivacyPovertyDivide]]
+
+**Qualifications:**
+
+- The evidence is one 2017 consumer article rather than a legal analysis, technical audit, or representative study, and the named settings paths, product policies, and company practices may have changed.
+- The retained authorization screen establishes requested permission scope rather than use of every capability; paid services do not guarantee privacy, and the source does not test anonymization or reidentification.

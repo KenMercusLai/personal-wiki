@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Here's The Thing With Free Apps And Services](sources/heres-the-thing-with-free-apps-and-services.md) - Nicole Nguyen uses the Unroll.me controversy to connect free-service data monetization with permission review, policy scrutiny, revocation, and business-model checks.
 - [Here's How Trello Nailed Localization and Global Marketing](sources/heres-how-trello-nailed-localization-and-global-marketing.md) - Trello's 2016 case joins demand-led experiments, managed volunteer translation, professional fallback, internationalization, and local marketing in a 20-language rollout.
 - [Here's How (and Why) Entrepreneurs Are Getting Venture Investors Out of Their Companies](sources/heres-how-and-why-entrepreneurs-are-getting-venture-investors-out-of-their-companies-inc-com.md) - Wistia and Buffer show how debt- or cash-flow-funded investor buyouts can restore strategic control when profitable independence no longer fits venture-scale return expectations.
 - [8 Lessons from 800 Note Cards in the Zettelkasten](sources/herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten.md) - Herbert Lui describes a paper-first, review-driven Zettelkasten that moves digital when retrieval slows and stays portable through Markdown export.
@@ -801,6 +802,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Nicole Nguyen](entities/NicoleNguyen.md) - Technology reporter translating free-service privacy risks into consumer checks around permissions, policies, and revenue models.
+- [Unroll.me](entities/UnrollMe.md) - Email-management service represented through a 2017 controversy over broad inbox access and secondary receipt-data monetization.
 - [Trello](entities/Trello.md) - Visual collaboration product represented through its experiment-led, community-assisted 2016 localization program.
 - [Alexia Ohannessian](entities/AlexiaOhannessian.md) - Trello international marketing lead who coordinated its country experiments, volunteer translation system, engineering work, and launch marketing.
 - [Patrick Yip](entities/PatrickYip.md) - Former OneSky marketing lead and author of the Trello localization case study.
@@ -2214,6 +2217,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [App Permission Governance](concepts/AppPermissionGovernance.md) - Continuing practice of matching application access to purpose and trust, then reviewing and revoking it as conditions change.
 - [Crowdsourced Localization](concepts/CrowdsourcedLocalization.md) - Managed use of community translators through tooling, terminology, context, review, motivation, governance, and professional fallback.
 - [Private Company Investor Buyout](concepts/PrivateCompanyInvestorBuyout.md) - Negotiated repurchase of private-company investor shares using cash, debt, or other financing to provide liquidity and change ownership or control.
 - [Employee Profit Sharing](concepts/EmployeeProfitSharing.md) - Compensation that distributes realized company profit to employees and can make operating economics more immediate than illiquid equity upside.
