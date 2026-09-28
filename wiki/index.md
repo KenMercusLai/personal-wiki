@@ -740,6 +740,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From Selling Scoops Of Ice Cream To Founding ZeroCater](sources/from-selling-scoops-of-ice-cream-to-founding-zerocater-techcrunch.md) - Arram Sabeti traces ZeroCater from Justin.tv apprenticeship and manual meal operations through founder-led sales, scaling bottlenecks, cofounder loss, Y Combinator, and fundraising.
 - [From the Editor: ACSM's Health & Fitness Journal](sources/from-the-editor-acsm-s-health-fitness-journal.md) - Steven Keteyian frames accurate research translation as a health and fitness professional duty and previews one practitioner issue without supplying the featured studies' evidence.
 - [Programmer, Interrupted](sources/gamasutra-programmer-interrupted.md) - Chris Parnin connects programmer interruption to measured resumption delay, context reconstruction, and workload-sensitive timing while preserving the supplied excerpt's limits.
+- [The Great Video Game Exodus](sources/gamasutra-the-great-video-game-exodus.md) - Simon Parkin connects game-industry career exits to contract churn, relocation, crunch, production uncertainty, post-launch work, weak comparative pay, ownership constraints, and sexism.
 
 ## Entities
 - [Gal Zellermayer](entities/GalZellermayer.md) - VMware Israel R&D manager represented through a practitioner proposal for prompt fix-or-close defect decisions.
@@ -2068,6 +2069,12 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Sworkit](entities/Sworkit.md) - Flexible-workout app that grew from a personally useful side project through public release, paid distribution, and acquisition.
 - [Nexercise](entities/Nexercise.md) - Fitness-app company that acquired and merged with Sworkit and appointed Ryan Hanna as a product and engineering executive.
 - [Chris Parnin](entities/ChrisParnin.md) - Software-engineering researcher represented through work on programmer interruptions, cognitive load, and context recovery.
+- [Simon Parkin](entities/SimonParkin.md) - Journalist who frames game-developer departures as a systemic labor and production problem.
+- [Frank D'Angelo](entities/FrankDAngelo.md) - Former game-audio professional whose contract churn and relocation losses led to a stability-driven move into finance.
+- [J Allard](entities/JAllard.md) - Former Microsoft and Xbox executive connecting game burnout to production uncertainty, budget pressure, live-service work, and compensation gaps.
+- [Rick Kelly](entities/RickKelly.md) - Programmer whose path through ZeniMax, indie development, and computer security centers creative ownership and livelihood sustainability.
+- [Alejandro Scrivano](entities/AlejandroScrivano.md) - Former game producer connecting world-building appeal with overtime, coordination strain, poor governance, and studio closure.
+- [Kristen Koster](entities/KristenKoster.md) - Early Ultima Online designer whose account links sexism, role displacement, caregiving, and extreme on-call expectations.
 
 ## Concepts
 - [Zero Bugs Policy](concepts/ZeroBugsPolicy.md) - Defect-inventory rule that replaces indefinite bug deferral with prompt repair or explicit non-repair decisions.
@@ -3172,5 +3179,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [SaaS Land and Expand](concepts/SaaSLandAndExpand.md) - Enterprise SaaS motion measured through larger retained customer spending, with cohort, time-window, churn, and distribution definitions determining what expansion figures mean.
 - [Programmer Interruption Recovery](concepts/ProgrammerInterruptionRecovery.md) - Rebuilding task context, intent, and code-location awareness after attention shifts away from software work.
+- [Game Industry Labor Precarity](concepts/GameIndustryLaborPrecarity.md) - Interacting project, financing, staffing, scheduling, compensation, geographic, and cultural conditions that make game careers unstable.
 
 ## Syntheses

@@ -550,12 +550,13 @@
       "11a448980e1a87152a052b8619812ae987925ecf2753c62e008a11645ef6f411",
       "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
-      "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a"
+      "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a",
+      "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039"
     ],
-    "paragraph_count": 550
+    "paragraph_count": 551
   },
-  "overview_commit": "9d924c08317d07dd7f0951cbab3f3376f1ef3847",
-  "overview_digest": "38481d08fd96b8c4974a38470b53e10d55945c5999995aacb02edbbde1f7fbfb",
+  "overview_commit": "ee2bad989065e8d7df680454f9b4cefc976c8843",
+  "overview_digest": "9c260d2f0fc161db47c9717cc550c4c9aceeb8e77757b22d9fc323c9d711f68d",
   "paragraphs": [
     {
       "id": "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
@@ -11130,6 +11131,29 @@
         "MathildeCollin",
         "SaaSLandAndExpand",
         "StartupFundingRound"
+      ]
+    },
+    {
+      "id": "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[SimonParkin]] source adds [[GameIndustryLaborPrecarity]] as a systems account of why creative game careers can become unsustainable. [[FrankDAngelo]]'s repeated short contracts, four interstate moves in five years, rapid post-relocation layoff, depleted savings, and eventual move into finance connect project churn to household risk. [[JAllard]] supplies the production mechanism: fluid scope, technology and platform shifts, holiday deadlines, optimistic forecasts, publisher budget pressure, and continuing servers, patches, downloadable content, cheating, and monetization work transfer uncertainty into understaffing and crunch. [[RickKelly]] shows that [[IndieGameDevelopment]] can restore ownership without guaranteeing livelihood even after visible store rankings, while [[AlejandroScrivano]] adds cross-functional strain and an alleged investor theft that closed a studio. [[KristenKoster]] extends [[WorkplaceSexismInTech]] through credibility denial, design-role displacement after her husband's promotion, a caregiving-incompatible support offer, and extreme on-call expectations. The article's 2018 GDC tenure figures are suggestive rather than causal: conference attendance is not a representative workforce panel, and the selected exit narratives do not establish prevalence. Its structural alternatives—moving staff among projects, internal tools, training, and prototypes—are proposals rather than measured remedies. The single local `.jpg` could not be interpreted or retained because its bytes are actually HTML rather than image data.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "AlejandroScrivano",
+        "FrankDAngelo",
+        "GameIndustryLaborPrecarity",
+        "IndieGameDevelopment",
+        "JAllard",
+        "KristenKoster",
+        "RickKelly",
+        "SimonParkin",
+        "WorkplaceSexismInTech"
       ]
     }
   ],

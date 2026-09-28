@@ -5848,3 +5848,11 @@ Added [[ChrisParnin]]'s account of programmer interruption as a measurable conte
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | The Great Video Game Exodus
+
+Added [[SimonParkin]]'s 2018 account of game-industry career exit as an interaction among project finance, schedule uncertainty, contract churn, relocation, crunch, live-service work, comparative pay, ownership constraints, governance, and sexism. Created [[GameIndustryLaborPrecarity]] and source-bounded profiles for Parkin, [[FrankDAngelo]], [[JAllard]], [[RickKelly]], [[AlejandroScrivano]], and [[KristenKoster]]; updated [[IndieGameDevelopment]] and [[WorkplaceSexismInTech]] from their complete ordered evidence inventories. Preserved the limits of selected retrospective interviews and a cross-sectional GDC attendee tenure distribution, which does not directly measure representative exit rates or causation. The single local `.jpg` could not be interpreted or retained because its bytes are actually HTML rather than valid image data, so no image-derived claim or asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
