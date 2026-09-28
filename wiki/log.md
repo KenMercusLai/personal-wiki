@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-29] ingest | The 37signals Guide to Internal Communication
+
+Added [[JasonFried]]'s account of [[37signals]]' asynchronous, writing-led communication system. Created [[AsynchronousWorkplaceCommunication]] and [[Basecamp]], and updated [[37signals]], [[JasonFried]], [[StrategicWriting]], [[ScalingCommunication]], and [[RemoteWork]] from their complete ordered evidence inventories with delayed-response norms, durable complete thoughts, contextual project discussion, a centralized record, recurring daily/weekly/six-week cadences, and meeting-cost boundaries. Preserved the guide's first-party, unmeasured, and transferability limits, including exceptions for emergencies, sensitive conflict, accessibility needs, frontline work, and other coordination contexts. The supplied Markdown contains no effective image references.
+
 ## [2026-09-29] ingest | Grow the Puzzle Around You
 
 Added [[JessicaLivingston]]'s account of how her social judgment, operations, event experience, candor, and founder care complemented technical cofounders in building [[YCombinator]]. Updated YC, [[PaulGraham]], and [[PersonStrategyFit]] from their complete ordered evidence inventories with the batch model, high-touch founder infrastructure, complementary-role design, culture formation, and the argument for building a venture around distinctive strengths. Preserved qualifications around retrospective founder testimony, the disputed "first accelerator" label, and the limits of personal fit without demand, execution, timing, capital, and luck. Opened all nine local image embeds, omitted one lower-resolution duplicate of the first YC dinner photograph, and retained eight unique historical images under descriptive canonical filenames with a complete manifest.
@@ -6196,6 +6200,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | GrubHub is buying up thousands of restaurant web addresses. That means Mom and Pop can't own their slice of the internet
 
 Added [[HClaireBrown]]'s investigation of more than 23,000 Grubhub-registered restaurant-linked domains, thousands more attributed to [[Seamless]], generic microsites, forwarding numbers, ranked visibility, and disputed commission attribution. Created [[HClaireBrown]], [[StacyMitchell]], and [[Seamless]], and updated [[Grubhub]] and [[AggregatorMonopolyPower]] from their complete ordered evidence inventories. Preserved Grubhub's contractual defense, owners' disagreement about permission, expired-domain uncertainty, and variation in merchant value when a platform supplies delivery or incremental demand. The four remote images could not be opened from the retired origin and had no local copies; migrated captions were available, but no visual asset or image-only evidence was retained.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 

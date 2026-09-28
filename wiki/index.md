@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The 37signals Guide to Internal Communication](sources/guide-37signals-how-we-communicate.md) - Jason Fried describes 37signals' asynchronous, writing-led communication system, centralized Basecamp record, recurring check-ins, and contextual project discussions.
 - [GrubHub is buying up thousands of restaurant web addresses. That means Mom and Pop can't own their slice of the internet](sources/grubhub-is-buying-up-thousands-of-restaurant-web-addresses-that-means-mom-and-pop-cant-own-their-slice-of-the-internet-new-food-economy.md) - H. Claire Brown investigates restaurant-linked domains, microsites, forwarding numbers, and commission attribution that placed Grubhub between local restaurants and direct customers.
 - [Growth is getting hard from intensive competition, consolidation, and saturation](sources/growth-is-getting-hard-from-intensive-competition-consolidation-and-saturation-at-andrewchen.md) - Andrew Chen links harder late-cycle growth to mobile concentration, contested paid channels, user adaptation, tool diffusion, faster incumbents, and zero-sum attention.
 - [Growth as a false signal in Y Combinator startups](sources/growth-as-a-false-signal-in-y-combinator-startups-techcrunch.md) - Doug Renert argues that short-window revenue growth is weak standalone evidence without base size, persistence, retention, engagement, and viable unit economics.
@@ -787,6 +788,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Basecamp](entities/Basecamp.md) - 37signals collaboration product used as the durable, contextual system of record for nearly all reported internal communication.
 - [H. Claire Brown](entities/HClaireBrown.md) - Journalist who investigated Grubhub's restaurant-linked domains, microsites, and phone-order commissions.
 - [Stacy Mitchell](entities/StacyMitchell.md) - Local-economy advocate interpreting restaurant-platform intermediation as gatekeeping that warrants policy attention.
 - [Seamless](entities/Seamless.md) - Grubhub subsidiary reported to have registered thousands of restaurant-linked domains.
@@ -1036,7 +1038,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Daniel Wessel](entities/DanielWessel.md) - Author and scientist represented through a 2011 large-file personal reference workflow.
 - [DEVONthink](entities/DEVONthink.md) - Document and information-management application represented through groups, replicants, smart groups, tagging, and duplicate detection.
 - [David Heinemeier Hansson](entities/DavidHeinemeierHansson.md) - Technology executive and writer arguing that AI adoption may require far more than human-level accuracy because machine errors attract concentrated blame and liability.
-- [37signals](entities/37signals.md) - Software company whose AI customer-support experiments exposed a mix of strong difficult-case performance and seriously wrong answers.
+- [37signals](entities/37signals.md) - Software company represented through its asynchronous Basecamp-centered communication system and cautious AI customer-support experiments.
 
 - [Praxis](entities/Praxis.md) - Venture used as a question-led experiment in creating a zero-cost, one-year path toward work young people love.
 - [AdGuard](entities/AdGuard.md) - Ad-blocking and privacy-software company that measured early browser mining and offered users allow-or-block controls.
@@ -1387,7 +1389,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [ZooKeeper](entities/ZooKeeper.md) - Coordination/storage system referenced as the incumbent Facebook infrastructure Delos was replacing.
 - [Limboy](entities/Limboy.md) - Writer represented here by a reflection on creation, AI-enabled making, high standards, curiosity, and attention.
 - [Joel Spolsky](entities/JoelSpolsky.md) - Software writer and Stack Overflow cofounder represented here by a retrospective on reputation-based gamification.
-- [Jason Fried](entities/JasonFried.md) - Signal v. Noise author represented here by the distinction between available time and available attention.
+- [Jason Fried](entities/JasonFried.md) - 37signals co-founder connecting scarce attention with deliberate, asynchronous, writing-led company communication.
 - [Jani Mustonen](entities/JaniMustonen.md) - Author of the prognst programming-learning essay on programmer mindset.
 - [Joe Lonsdale](entities/JoeLonsdale.md) - 8VC general partner represented here by stage-sensitive advice on when startups should hire experienced operators.
 - [Ian Cartwright](entities/IanCartwright.md) - Coauthor of legacy-displacement patterns on temporary compatibility, migration sequencing, and bridge retirement.
@@ -2171,6 +2173,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Asynchronous Workplace Communication](concepts/AsynchronousWorkplaceCommunication.md) - Delayed, durable, context-rich work exchange designed around considered responses rather than shared schedules or routine urgency.
 - [Growth Channel Saturation](concepts/GrowthChannelSaturation.md) - Acquisition advantage decays as platforms concentrate discovery, auctions crowd, users adapt, tools diffuse, incumbents copy faster, and attention becomes zero-sum.
 - [Value Hacking](concepts/ValueHacking.md) - Product-growth practice that tests segment-specific value propositions and adjacent use cases instead of indefinitely optimizing one aggregate growth proxy.
 - [Growth Engineering](concepts/GrowthEngineering.md) - Measured acquisition, activation, retention, and revenue improvement backed by product experiments, instrumentation, reliable software, and enabling platform architecture.

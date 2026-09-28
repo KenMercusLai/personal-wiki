@@ -8,7 +8,8 @@ sources:
   - change-at-buffer-the-next-phase-and-why-our-co-founder-and-our-cto-are-moving-on
   - 9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium
   - cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium
-last_updated: 2026-09-25
+  - guide-37signals-how-we-communicate
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -24,11 +25,13 @@ Sensitive leadership changes add another communication pattern. Gascoigne staged
 
 Collin's advice source adds mission repetition as a compact all-hands practice. Repeating the mission at every all-hands keeps the organization's purpose visible even when the rest of the meeting is tactical, connecting scaling communication to why the work matters rather than only what changed.
 
+The 37signals guide supplies an alternative to meeting-heavy broadcast. One centralized written workspace, automatic prompts, durable announcements, project-local discussion, and daily, weekly, and six-week summaries distribute context without requiring everyone to follow every detail or synchronize calendars. This does not disprove the value of all-hands or staff meetings; it expands the design space from choosing what leaders broadcast to choosing cadence, medium, audience, location, and expected response time.
+
 ## Key Claims
 - Fast-growing organizations lose shared context because many employees were not present for earlier decisions.
 - Broadcast communication becomes necessary even if it feels artificial.
 - Leaders should keep messages few, repeat them, and make changes explicit.
-- Regular staff meetings, written updates, strategy reviews, all-hands, and orientation rituals create alignment infrastructure.
+- Staff meetings, written updates, strategy reviews, all-hands, automatic prompts, and periodic summaries are alternative or complementary alignment infrastructure.
 - Communication systems reinforce culture by highlighting priorities, purpose, and desired behavior.
 - Written plans preserve rationale and corporate history, but communication formats can decay into performative rituals if the artifact is rewarded over the thinking or decision quality.
 - Sensitive leadership changes need staged communication across executives, team members, investors, and the public, with more personal channels before broad disclosure.
@@ -46,20 +49,20 @@ Collin's advice source adds mission repetition as a compact all-hands practice. 
 - Mission repetition: [[9-most-useful-pieces-of-advice-ive-received-mathilde-collin-medium]] cites [[PeterReinhardt]]'s advice to state the mission at every all-hands so people remember why they are there and what the work is meant to change.
 - Context asymmetry: [[cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium]] says new employees missed the company's earlier debates while the CEO was learning on a tighter loop than anyone else.
 - Persistence and correction: [[cs183c-session-11-patrick-collison-stripe-blitzscaling-class-notes-and-essays-medium]] argues that writing persists, reaches beyond one spoken audience, adds clarity, and can be updated.
+- Asynchronous cadence: [[guide-37signals-how-we-communicate]] describes daily reflections, weekly projections, optional social prompts, six-week Heartbeats and Kickoffs, and durable announcements inside one shared workspace.
+- Context segmentation: [[guide-37signals-how-we-communicate]] keeps detailed work inside project boundaries while making broad summaries available company-wide.
 
 ## Counterevidence & Qualifications
 The sources do not compare communication load with execution cost, and Sinofsky explicitly says strong writing takes time and often receives limited draft feedback. Broadcast systems can become empty ritual if leaders repeat messages without substance, avoid difficult tradeoffs, or fail to connect communication to decisions. Written formats have the same risk: memos and plans can be copied from successful companies, gamed for appearance, or treated as the goal instead of the work. The Buffer disclosure timeline is a first-person account and does not prove how every recipient experienced the sequencing or whether the communication resolved uncertainty.
 
 Mission repetition can also become slogan-like if leaders do not connect it to real choices, tradeoffs, customer outcomes, or operating behavior.
 
-The Stripe headcount threshold is a historical company observation, not a universal breakpoint; communication needs depend on growth rate, distribution, function boundaries, and how much context work already makes explicit.
+The Stripe headcount threshold is a historical company observation, not a universal breakpoint; communication needs depend on growth rate, distribution, function boundaries, and how much context work already makes explicit. The 37signals model is likewise a first-party operating account, not evidence that meeting-light asynchronous systems outperform broadcast meetings across organizations.
 
 ## What Changed
-- Added written strategic plans as a mechanism for preserving rationale, corporate history, and execution context.
-- Added the qualification that scaling-communication formats can decay into ritual when the artifact displaces decision quality.
-- Added Buffer's staged leadership-transition disclosure as a sensitive-change communication case.
-- Added asymmetric context between executives, long-tenured staff, and new employees as the mechanism behind Stripe's communication shift.
-- Strengthened the case for writing through persistence, revisability, and clearer disagreement.
+- Expanded alignment infrastructure from leader broadcasts and meetings to predictable asynchronous prompts, summaries, and contextual records.
+- Added audience segmentation: company-wide awareness need not require company-wide exposure to every project detail.
+- Added cadence, medium, location, and response expectation as joint communication-system choices.
 
 ## Related Concepts
 - [[StartupCulture]] - repeated communication reinforces values and priorities.
@@ -69,3 +72,4 @@ The Stripe headcount threshold is a historical company observation, not a univer
 - [[StrategicWriting]] - written plans are a concrete communication format for preserving rationale at scale.
 - [[SaaSOperatingTransparency]] - public disclosure can extend internal communication into external operating transparency.
 - [[FounderInstinct]] - repeated mission helps transmit founder context beyond direct interaction.
+- [[AsynchronousWorkplaceCommunication]] - delayed, durable communication is a meeting-light way to distribute organizational context.
