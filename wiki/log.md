@@ -6248,3 +6248,11 @@ Added [[BenSandofsky]]'s first-year retrospective on [[Halide]] as a focused pai
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Happy Xiao - 冷酷之道
+
+Added [[HappyXiao]]'s short argument for daily content practice, emotional distance from individual performance numbers, attention to personal growth, and a longer creative horizon. Updated [[ProlificPractice]], [[CreatorPlatformMetrics]], [[MarcAndreessen]], and [[AndreessenHorowitz]] from their complete ordered evidence inventories, while preserving the distinction between reducing reward attachment and ignoring useful feedback. The source is a second-hand gambling analogy without outcome evidence and contains no image references, so no visual asset or manifest was required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

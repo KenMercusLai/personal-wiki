@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Happy Xiao - 冷酷之道](sources/happy-xiao-leng-ku-zhi-dao.md) - Happy Xiao argues that creators should practice daily, detach each attempt from short-term numbers, and judge growth over a longer horizon.
 - [Halide: One Year Later](sources/halide-one-year-later-halide.md) - Ben Sandofsky reviews Halide's first year of focused product iteration, App Store distribution, one-time pricing, support lessons, and release-linked sales.
 - [Hacking the Attention Economy](sources/hacking-the-attention-economy-data-society-points.md) - danah boyd traces attention hacking from 4chan meme campaigns to marketing, activism, harassment, propaganda, institutional doubt, and political power.
 - [Hacking law firms with abandoned domain names](sources/hacking-law-firms-with-abandoned-domain-names-gabor-szathmari-medium.md) - Gabor Szathmari and Jeremiah Cruz show how re-registering expired law-firm domains exposed continuing email, domain-verification, and third-party account-recovery paths.
@@ -793,6 +794,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Happy Xiao](entities/HappyXiao.md) - Writer connecting daily content practice, emotional steadiness around results, and long-horizon growth.
 - [Halide](entities/Halide.md) - Paid iPhone camera app built for deliberate advanced photography and evolved through focused first-year releases.
 - [Ben Sandofsky](entities/BenSandofsky.md) - Halide co-creator and author of its first-year product and business retrospective.
 - [Sebastiaan de With](entities/SebastiaanDeWith.md) - Halide co-creator associated with its tactile design, iPhone X redesign, and educational photography content.
@@ -1535,7 +1537,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Collaborative Fund](entities/CollaborativeFund.md) - Publication and investing-firm context for essays on durable strategy, behavioral judgment, repeatable learning, and person-strategy fit.
 - [Warren Buffett](entities/WarrenBuffett.md) - Investor example used for long-term compounding around GEICO's enduring direct-sales advantage and for staying inside a defined circle of competence.
 - [GEICO](entities/GEICO.md) - Insurance company used to illustrate persistent cost and convenience advantages amid changing channels.
-- [Marc Andreessen](entities/MarcAndreessen.md) - Venture-capital comparison point for investing around technological and market change.
+- [Marc Andreessen](entities/MarcAndreessen.md) - Venture capitalist cited on change-oriented investing and emotionally detached competition.
 - [Bitcoin](entities/Bitcoin.md) - Incumbent cryptocurrency framed as vulnerable to merchant-adoption constraints, transaction throughput, and Amazon-scale platform choice.
 - [Ivan Pepelnjak](entities/IvanPepelnjak.md) - Networking author and educator framing automation as a practical design and career-adaptation problem.
 - [ipSpace.net](entities/IpSpace.md) - Networking publication and training context for practitioner essays on automation, SDN, and cloud networking.
@@ -1787,7 +1789,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Heroku](entities/Heroku.md) - Cloud application platform used as the source's context for twelve-factor methodology and CLI design examples.
 - [Oclif](entities/Oclif.md) - Node CLI framework presented as implementing help, docs, autocomplete, plugins, topics, and fast startup conventions.
 - [Adam D'Angelo](entities/AdamDAngelo.md) - Quora founder/operator defending 10-year employee stock-option exercise periods as fair and compatible with market-based compensation.
-- [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, and startup metrics checklists.
+- [Andreessen Horowitz](entities/AndreessenHorowitz.md) - Venture-capital firm connected to startup equity debate, China livestreaming analysis, metrics checklists, and an attributed norm of emotionally steady competition.
 - [Fred Wilson](entities/FredWilson.md) - Investor-author connecting active investing, household diversification, venture-market analysis, founder dilution, employee-equity design, and direct product-demonstration evidence.
 - [AVC](entities/AVC.md) - Publication context for Fred Wilson's investing frameworks, household-risk lessons, venture-market analysis, founder dilution, startup compensation, and startup retrospectives.
 - [Flatiron Partners](entities/FlatironPartners.md) - Venture firm Fred Wilson co-founded before the Internet-boom wealth accumulation and loss behind his diversification lesson.

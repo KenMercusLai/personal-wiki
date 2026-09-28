@@ -633,10 +633,11 @@
       "id": "creative-and-technical-output-needs-feedback-loops",
       "qualifications": [
         "Platform metrics can distort motivation, prolific practice fits bounded low-risk making better than high-stakes production, and AI-era quality claims need adaptation to domains where distribution, timing, team constraints, or opportunity cost dominate.",
+        "[[HappyXiao]]'s brief second-hand gambling analogy supplies no outcome evidence and cannot establish that emotional suppression, risk-taking, or continuous disregard of weak performance signals improves creative judgment.",
         "Topolsky's quality-and-audience prescription is a polemical 2016 practitioner argument without comparative publisher outcomes or a demonstrated sustainable replacement model.",
         "The seanwes tv argument is a 2015 motivational essay: visible competition may validate interest, but it does not establish reachable demand, viable economics, or whether incumbency, attention saturation, acquisition cost, and network effects leave room; personal voice also requires attribution and substantive transformation."
       ],
-      "statement": "Creative and technical output improves through visible feedback loops, meaningful direction, and action: [[ExplanatoryWriting]], [[CreatorFeedbackLoop]], [[KnowledgeOutput]], [[LearningByWriting]], [[ProlificPractice]], [[MakeGoodNewThings]], [[CognitiveCuriosity]], [[AIEraCreativeStandards]], and [[ActionBiasInAI]] turn private learning into inspectable work. [[CreatorAnxiety]] and [[CreatorPositioning]] add that exceptional-peer feeds can exaggerate saturation, while a credible voice, one improved offer dimension, and direct investment in a small audience can distinguish familiar work; [[IdeaVersusExecution]] treats competition as a qualified demand signal rather than proof that entry is attractive. [[JoshuaTopolsky]] adds that media output becomes economically defensible only when distinctive work serves a defined audience; [[VanityMetrics]] and [[PlatformDistributionDependence]] can otherwise substitute intermediary-visible scale for audience value.",
+      "statement": "Creative and technical output improves through visible feedback loops, meaningful direction, and action: [[ExplanatoryWriting]], [[CreatorFeedbackLoop]], [[KnowledgeOutput]], [[LearningByWriting]], [[ProlificPractice]], [[MakeGoodNewThings]], [[CognitiveCuriosity]], [[AIEraCreativeStandards]], and [[ActionBiasInAI]] turn private learning into inspectable work. [[CreatorAnxiety]] and [[CreatorPositioning]] add that exceptional-peer feeds can exaggerate saturation, while a credible voice, one improved offer dimension, and direct investment in a small audience can distinguish familiar work; [[IdeaVersusExecution]] treats competition as a qualified demand signal rather than proof that entry is attractive. [[HappyXiao]] adds emotional outcome detachment to [[ProlificPractice]]: repeated creation can be protected from short-term reward volatility when [[CreatorPlatformMetrics]] are reviewed as evidence rather than treated as verdicts, without discarding deliberate analysis or strategy change. [[JoshuaTopolsky]] adds that media output becomes economically defensible only when distinctive work serves a defined audience; [[VanityMetrics]] and [[PlatformDistributionDependence]] can otherwise substitute intermediary-visible scale for audience value.",
       "status": "supported",
       "supporting_wikilinks": [
         "ExplanatoryWriting",
@@ -652,6 +653,8 @@
         "MimeticDesire",
         "CreatorAnxiety",
         "CreatorPositioning",
+        "CreatorPlatformMetrics",
+        "HappyXiao",
         "IdeaVersusExecution",
         "SeanwesTV",
         "JoshuaTopolsky",

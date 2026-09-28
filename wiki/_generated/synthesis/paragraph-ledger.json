@@ -588,12 +588,13 @@
       "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0",
       "31576f5b424bdfce04ac6455afd90a01d02771ba0f029498d458dd3a8bdcc4ef",
       "fc934dcb38776b801cd06d957a927b7a23b6736234ea626b24205a2c8c2c95ea",
-      "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527"
+      "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527",
+      "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d"
     ],
-    "paragraph_count": 588
+    "paragraph_count": 589
   },
-  "overview_commit": "3eaa89868ed72c091bec0d3124efe39247bf35bc",
-  "overview_digest": "1f5ab256792c28e161e67a1120ebfa779e82f7d17960232d1ce0157b47ccdbac",
+  "overview_commit": "38f988d56b05db051df81c3b3b52d609cc0bc391",
+  "overview_digest": "f0d214ee63c0673a916d3123dc67275d05f7a3878b898b88fdc35afaebb3b76f",
   "paragraphs": [
     {
       "id": "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
@@ -11907,6 +11908,26 @@
         "AttentionEconomy",
         "DanahBoyd",
         "NetworkedInformationManipulation"
+      ]
+    },
+    {
+      "id": "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d",
+      "primary_topic": "work-education-and-society",
+      "secondary_topics": [],
+      "text": "The newest [[HappyXiao]] source adds emotional outcome detachment to the wiki's creator-practice model. Borrowing a [[MarcAndreessen]] anecdote about [[AndreessenHorowitz]] and professional gamblers, it argues that creators should make one piece after another, loosen each attempt's connection to applause or visible numbers, attend to their own growth, and play a longer game. This strengthens [[ProlificPractice]] by separating the repetition needed for learning from the emotional verdict attached to a single result, and it sharpens [[CreatorPlatformMetrics]] by distinguishing scheduled evidence review from compulsive reward-seeking. The useful synthesis is not to ignore data or suppress feeling: metrics can still reveal topic fit, packaging, distribution, and commercial outcomes, while persistent weak results can justify changing craft or strategy. The source is a very short personal essay built on a second-hand gambling analogy; it supplies no outcome evidence and does not establish that emotional suppression or risk-taking improves judgment. Its Markdown contains no image references, so no visual asset or manifest was required.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 2
+      },
+      "wikilinks": [
+        "AndreessenHorowitz",
+        "CreatorPlatformMetrics",
+        "HappyXiao",
+        "MarcAndreessen",
+        "ProlificPractice"
       ]
     }
   ],
