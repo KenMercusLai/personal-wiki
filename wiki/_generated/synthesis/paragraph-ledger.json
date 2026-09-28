@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
       "79ef7fcdb9a50c0863a86e985899c173a001e767b1a968bfdd3edbd37cf35f62",
       "7f02cdfe51d04f5299fb802c835b15eb5142f7e60ef108f7009b3a50cd564f92",
       "88ce7accb96d8fad750bc20ba85c951480beb5699e892f451330ecf88a094748",
@@ -570,11 +571,28 @@
       "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
       "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64"
     ],
-    "paragraph_count": 568
+    "paragraph_count": 569
   },
-  "overview_commit": "cbf45bb08e592d5c187ad732bde23b846bed5f07",
-  "overview_digest": "9bb6da9ccfaf2bbabc35500a9f84951a50e8d1f83d1f5b3702162f3d3545cfb5",
+  "overview_commit": "5cc233da949a4918bf2188602ec0b1cd2d7e0590",
+  "overview_digest": "6ea721478a7e04173692a66eb7bc190efd60e2e72f2266d9d22e1b3f281467be",
   "paragraphs": [
+    {
+      "id": "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[GinnyMarvin]] source adds [[CrossMediaSearchResponse]] as an intermediate behavior between mass-media exposure and business outcomes. Google reported that 2016 Super Bowl television ads produced more than 7.5 million incremental searches across Google and [[YouTube]], 40% more lift than the prior year's advertisers, with smartphones accounting for 82% of the response versus 11% on desktop or laptop and 7% on tablets. The retained timing chart shows second-quarter volume slightly above first-quarter volume, followed by the third and fourth quarters with halftime lowest; the retained advertiser ranking places Audi, Acura, Universal Pictures, Honda, and Kia in the top five and four automotive brands among them. This sharpens [[MarketingAttribution]] by making search lift a measurable second-screen signal while preserving the outcome boundary: Google did not publish its counterfactual baseline, attribution window, query classification, unique-user count, uncertainty, or absolute brand values, and searches do not establish sentiment, sales, customer value, or profit. The generic Google-device photo and Super Bowl illustration were opened and omitted as decorative, duplicate copies were removed, and both evidence-bearing charts were retained once at their semantic positions.",
+      "topic_scores": {
+        "business-and-markets": 3,
+        "culture-and-media": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "CrossMediaSearchResponse",
+        "GinnyMarvin",
+        "MarketingAttribution",
+        "YouTube"
+      ]
+    },
     {
       "id": "79ef7fcdb9a50c0863a86e985899c173a001e767b1a968bfdd3edbd37cf35f62",
       "primary_topic": "ai-and-technology",

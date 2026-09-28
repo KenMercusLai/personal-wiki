@@ -4,6 +4,10 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-09-28] ingest | Google: 82% Of Super Bowl Ad Searches Happened On Mobile, Up From 70%
+
+Added [[GinnyMarvin]]'s report of Google's 2016 Super Bowl television-ad search analysis. Created [[CrossMediaSearchResponse]]; updated [[Google]], [[YouTube]], and [[MarketingAttribution]] from their complete ordered evidence inventories with the reported 82% smartphone share, more than 7.5 million incremental searches, 40% year-over-year lift, first-half timing, and automotive-heavy brand ranking. Preserved the distinction between platform-reported search attention and a reproducible causal or business-outcome measure. Opened all four unique remote images after recovering them from the publisher's current asset path, omitted the generic Google-device photograph and Super Bowl illustration as decorative, deduplicated repeated copies, and retained the two evidence-bearing charts under descriptive canonical filenames with a complete manifest.
+
 ## [2026-09-28] ingest | Going Up and Down the VC Roller Coaster
 
 Added [[DavidFrankel]]'s practitioner account of changing investor confidence between the formal milestones of a financing round. Created [[FundraisingMomentum]] and updated [[StartupFundingRound]] from its complete ordered evidence inventory with reference, industry-diligence, competing-opportunity, visible-progress, process-concentration, seasonality, and responsiveness mechanisms. Preserved the boundary between momentum and business quality: urgency or fear of missing out can influence a decision without resolving market, economic, reference, term, fit, or outcome risk. Opened the local roller-coaster photograph and omitted it as decorative; both remote image URLs returned HTTP 404, so they could not be inspected or retained and supplied no visual evidence.
@@ -6044,6 +6048,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Google, Uber, and the Evolution of Transportation-as-a-Service
 
 Added [[BenThompson]]'s 2016 [[Stratechery]] framework for [[TransportationAsAService]] as five coupled components: drivers, cars, mapping, routing, and riders. Updated [[Uber]], [[Google]], Ben Thompson, and Stratechery from their complete ordered evidence inventories, distinguishing Google's mapping and autonomy lead from Uber's pooled-routing experience, service model, customer habit, and existential urgency. Preserved the company ranking as a forecast qualified by autonomy's removal of the driver-side network effect, unresolved fleet capital and labor, government approval, routing defensibility, subsidy-backed economics, and later outcomes. Opened and retained the sole local image as a transition diagram linking UberX customer relationships, UberPool routing, and UberHop/Waze commuter sharing to Google self-driving cars.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

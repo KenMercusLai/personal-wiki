@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Google: 82% Of Super Bowl Ad Searches Happened On Mobile, Up From 70%](sources/google-82-of-super-bowl-ad-searches-happened-on-mobile-up-from-70-search-engine-land.md) - Google reported 7.5-million-plus incremental Super Bowl ad searches, an 82% smartphone share, first-half concentration, and an automotive-heavy brand ranking.
 - [Google, Uber, and the Evolution of Transportation-as-a-Service](sources/google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson.md) - Ben Thompson decomposes autonomous ride service into drivers, cars, maps, routing, and riders, then compares Google's technology lead with Uber's operating and customer advantages.
 - [Google Is Making the Same Mistake Now That Microsoft Did in the 90s](sources/google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld.md) - Jason Snell compares Google's Material-styled iOS apps with Windows-derived Office for Mac to argue that host-platform fit can matter more than vendor-wide consistency.
 - [Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive](sources/google-maps-is-ready-to-transform-the-world-of-superapps-a-skift-deep-dive-skift.md) - Skift compares Google Maps' discovery-led platform expansion with WeChat, Grab, and Meituan while preserving limits around local context, partner fulfillment, regional habits, regulation, and estimated revenue.
@@ -768,6 +769,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GitLab.com database incident](sources/gitlab-com-database-incident-gitlab.md) - GitLab's live account traces abusive writes, failed replication repair, accidental primary deletion, ineffective backups, and recovery with six hours of database data loss.
 
 ## Entities
+- [Ginny Marvin](entities/GinnyMarvin.md) - Search Engine Land author who reported Google's 2016 Super Bowl ad-search analysis.
 - [Jason Snell](entities/JasonSnell.md) - Macworld contributor whose 2016 essay argues for platform-native cross-platform application design.
 - [Grab](entities/Grab.md) - Southeast Asian mobility company presented as a localized superapp built outward from ride-hailing.
 - [Meituan](entities/Meituan.md) - China local-services platform contrasting transaction and in-house fulfillment with Google Maps' partner model.
@@ -2130,6 +2132,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
+- [Cross-Media Search Response](concepts/CrossMediaSearchResponse.md) - Immediate search activity following exposure in another medium, with attribution and downstream-outcome limits.
 - [Platform-Native Design](concepts/PlatformNativeDesign.md) - Adapting controls and interaction language to a host operating system while preserving product identity.
 - [Superapp](concepts/SuperApp.md) - High-frequency mobile platform that integrates many services through a habitual core, shared capabilities, and varying degrees of transaction control.
 - [Fundraising Momentum](concepts/FundraisingMomentum.md) - Timely business evidence, investor attention, process urgency, and responsive diligence that keep a financing process moving despite changing concerns.

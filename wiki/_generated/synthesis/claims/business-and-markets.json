@@ -191,6 +191,22 @@
     },
     {
       "global_candidate": false,
+      "id": "cross-media-search-lift-is-an-intermediate-outcome",
+      "qualifications": [
+        "The evidence is one 2016 Search Engine Land report of Google-supplied aggregate figures; Google did not publish the counterfactual baseline, attribution window, query rules, unique-user count, uncertainty, absolute brand values, or a Google Search-versus-YouTube split.",
+        "Search can reflect curiosity, confusion, comparison, criticism, or prior interest and does not by itself establish favorable sentiment, ad recall, sales, customer value, profit, or generalization to other events and periods."
+      ],
+      "statement": "[[CrossMediaSearchResponse]] makes branded search a measurable intermediate outcome after mass-media exposure: [[GinnyMarvin]] reports that Google attributed more than 7.5 million Google and [[YouTube]] searches to 2016 Super Bowl ads, with smartphones supplying 82% of the response; [[MarketingAttribution]] therefore needs to preserve the gap between platform-reported attention lift and reproducible business impact.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "CrossMediaSearchResponse",
+        "GinnyMarvin",
+        "YouTube",
+        "MarketingAttribution"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "facebook-ad-costs-are-auction-contextual",
       "qualifications": [
         "The evidence is a first-party 2019 vendor benchmark with more than $636 million in reported managed spend but no campaign counts, advertiser mix, weighting, dispersion, uncertainty, or independent audit; its 2017-Q1 2019 prices are historical rather than current targets.",

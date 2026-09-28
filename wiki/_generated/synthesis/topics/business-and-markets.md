@@ -4,8 +4,8 @@ generated: true
 topic_id: business-and-markets
 title: "Business and Markets"
 last_updated: 2026-09-28
-as_of_overview_commit: 8339e67d041b418e5eab4951da57b8efa10f07d6
-input_digest: 6d62f59dae0429331012ae38f2a4c2a72a274680c1a6390a4b88dfeb78c40058
+as_of_overview_commit: 5cc233da949a4918bf2188602ec0b1cd2d7e0590
+input_digest: 1217061d52882cc6579737f65fab3631bbb9ec935f8a8fe95f3f2adcd50a793d
 ---
 
 # Business and Markets
@@ -136,6 +136,17 @@ input_digest: 6d62f59dae0429331012ae38f2a4c2a72a274680c1a6390a4b88dfeb78c40058
 
 - The distinction comes from one polemical 2017 essay without comparative campaign, brand-lift, publisher-revenue, or privacy outcome data; its near-zero effectiveness claim is rhetorical and its GDPR extinction forecast is not evaluated later.
 - The boundary is conditional rather than technological: contextual, guaranteed, or deliberately selected programmatic inventory can support brand objectives, while direct sponsorship does not automatically prevent unsafe adjacency or wasted reach.
+
+### Cross Media Search Lift Is An Intermediate Outcome
+
+[[CrossMediaSearchResponse]] makes branded search a measurable intermediate outcome after mass-media exposure: [[GinnyMarvin]] reports that Google attributed more than 7.5 million Google and [[YouTube]] searches to 2016 Super Bowl ads, with smartphones supplying 82% of the response; [[MarketingAttribution]] therefore needs to preserve the gap between platform-reported attention lift and reproducible business impact.
+
+**Evidence:** [[CrossMediaSearchResponse]], [[GinnyMarvin]], [[YouTube]], [[MarketingAttribution]]
+
+**Qualifications:**
+
+- The evidence is one 2016 Search Engine Land report of Google-supplied aggregate figures; Google did not publish the counterfactual baseline, attribution window, query rules, unique-user count, uncertainty, absolute brand values, or a Google Search-versus-YouTube split.
+- Search can reflect curiosity, confusion, comparison, criticism, or prior interest and does not by itself establish favorable sentiment, ad recall, sales, customer value, profit, or generalization to other events and periods.
 
 ### Facebook Ad Costs Are Auction Contextual
 
