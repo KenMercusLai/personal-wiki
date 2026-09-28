@@ -6168,3 +6168,11 @@ Added [[AndrewChen]]'s 2012 framing of the growth hacker as a marketer-coder spa
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Growth Hacking vs Value Hacking - By
+
+Added [[ValueHacking]] as a customer-value and segmentation qualification on metric-first [[GrowthHacking]]. Updated [[GrowthHacking]], [[Valve]], and [[WeChat]] from their complete ordered evidence inventories, and created [[Gojek]] as the source's principal employer-linked adjacency example. Preserved the distinctions between proxy movement, activation, repeated preference, and durable value while qualifying the informal “value function” model, selective retrospective company cases, missing segment and causal evidence, expansion risk, and promotional Gojek framing. Opened both unique local images: omitted the duplicated tree-growth banner as decorative and retained the local/global-extrema diagram once under a readable canonical filename.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

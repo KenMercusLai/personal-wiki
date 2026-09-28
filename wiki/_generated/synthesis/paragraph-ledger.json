@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "1cb6bac853ee1a04ac3e43b0014cc63c5ace8c266b71667152a09296a7b7e1ef",
       "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
       "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
       "9ab015792f13656fc784fc8e73601cdcf717b6a0e8119cacd1e4dbdd9c40d44e",
@@ -583,11 +584,31 @@
       "e226d6a51f62d5c8c9639ebb398b96a6b1ae6e4e270af3a22fcda30b6101e2d4",
       "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0"
     ],
-    "paragraph_count": 581
+    "paragraph_count": 582
   },
-  "overview_commit": "8222c2e15fc0f87b0faf5f23930b84391d8d5ebd",
-  "overview_digest": "f0c693e04bad52306043b10fb5f960d9b3d65209cf7a85932681a7b410fccdf4",
+  "overview_commit": "13b80237d82b052635ad671c3dd2f8a1e1f72b63",
+  "overview_digest": "bcc9454d56cb434ca147b99b595c47177e9211af2fbe6b94349f9b14fb2f1fb1",
   "paragraphs": [
+    {
+      "id": "1cb6bac853ee1a04ac3e43b0014cc63c5ace8c266b71667152a09296a7b7e1ef",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "psychology-and-personal-development"
+      ],
+      "text": "The newest value-hacking essay adds [[ValueHacking]] as a customer-value qualification on [[GrowthHacking]]. North Star metrics and activation milestones can organize work, but they remain proxies: an ecommerce team can increase GMV without improving buyer-seller matching, and a one-time “a-ha” event does not establish repeated preference or retention. When repeated experiments reach a local maximum, the proposed response is to cluster users by behavior and perceived value, test a coherent segment with its own impact measures, and revisit the audience, use case, capability, or offering rather than continuing to optimize one aggregate function. The McCafé, [[Valve]], [[WeChat]], and [[Gojek]] examples frame adjacent use cases as new value functions, but the article is one practitioner essay with selective retrospective cases, no controlled comparisons, no segment-level results, and an employer-linked promotional Gojek passage. Its durable contribution is therefore a decision boundary—keep growth proxies tied to customer outcomes and reopen product discovery when they diverge or plateau—not evidence that diversification reliably beats focus. Both unique local images were opened; the duplicated tree-growth banner was omitted as decorative, while the extrema diagram was retained once under a canonical name because it directly supports the local-maximum analogy.",
+      "topic_scores": {
+        "business-and-markets": 2,
+        "psychology-and-personal-development": 2,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "Gojek",
+        "GrowthHacking",
+        "ValueHacking",
+        "Valve",
+        "WeChat"
+      ]
+    },
     {
       "id": "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
       "primary_topic": "business-and-markets",
