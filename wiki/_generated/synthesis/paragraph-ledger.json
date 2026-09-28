@@ -551,12 +551,13 @@
       "91f9c87f5c65691fd47fceac38228ec1861d90ea77a4636a48fdc22042bc68d2",
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
       "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a",
-      "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039"
+      "dcc5b0a42af86176b434861e3141c9b8480a199124dbdb110495dcdf6db1e039",
+      "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd"
     ],
-    "paragraph_count": 551
+    "paragraph_count": 552
   },
-  "overview_commit": "ee2bad989065e8d7df680454f9b4cefc976c8843",
-  "overview_digest": "9c260d2f0fc161db47c9717cc550c4c9aceeb8e77757b22d9fc323c9d711f68d",
+  "overview_commit": "80d90ec49a3bc3e17033eb0c46861872b724b952",
+  "overview_digest": "88b5112ddf230b08e431e2ef4a86dc74f52d570dec0e67ab79526f2218d48afc",
   "paragraphs": [
     {
       "id": "a523b67e51c89e44a592d3496674dbd58abef5a07ef9b1f2913c05a801df0bfe",
@@ -11154,6 +11155,27 @@
         "RickKelly",
         "SimonParkin",
         "WorkplaceSexismInTech"
+      ]
+    },
+    {
+      "id": "621c3f6b3c42633198f53dffb814c8a34ebb6c7a6fa6bd748b0bc31d1912fbbd",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "[[BenWeber]]'s 2016 [[StarCraft]] forecast sharpens the wiki's boundary between game milestones and more demanding decision environments. [[AlphaGo]] combined learned components, self-play, and search in a fully observable turn-based game; [[StarCraftAITestbed]] adds fog-of-war inference, control over many heterogeneous units, economic-to-tactical time horizons, evolving maps and counters, rare all-in strategies, limited simulation access, and real-time timing. The result also qualifies [[ReinforcementLearning]]: scalable experience generation is only one requirement, while state and action abstraction, opponent diversity, adaptation, and hybrid reactive control can determine whether the learned policy is usable. The source remains a 2016 proposal rather than evidence of a completed system, and the unavailable task-environment figure prevents a full cell-by-cell transcription of its comparison.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 2,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "AlphaGo",
+        "BenWeber",
+        "ReinforcementLearning",
+        "StarCraft",
+        "StarCraftAITestbed"
       ]
     }
   ],

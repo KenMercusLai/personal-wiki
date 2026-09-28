@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: ee2bad989065e8d7df680454f9b4cefc976c8843
+as_of_overview_commit: 80d90ec49a3bc3e17033eb0c46861872b724b952
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 726
-source_count: 726
-paragraph_count: 551
+episode_count: 727
+source_count: 727
+paragraph_count: 552
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Culture joins creative form with infrastructure, discovery, governance, economic
 
 ### Governance and Institutions
 
-Authority, data, defaults, technical states, and delegated power need fair process, staged controls, traceability, recourse, consent, and recovery boundaries.
+Authority, data, defaults, technical states, delegated power, and benchmark boundaries need fair process, staged controls, traceability, recourse, consent, and recovery.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].

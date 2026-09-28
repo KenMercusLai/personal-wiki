@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [DeepMind Challenges for StarCraft](sources/gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft.md) - Ben Weber's 2016 forecast frames StarCraft as a coupled test of hidden-state inference, action abstraction, strategic adaptation, robust training, simulation access, and real-time control.
 - [0 Bugs Policy](sources/gal-zellermayer-0-bugs-policy.md) - Gal Zellermayer proposes fixing or explicitly closing every new defect instead of retaining an indefinitely deferred bug inventory, while leaving evidence and traceability limits explicit.
 - [Gaijin Engineer in Tokyo](sources/gaijin-engineer-in-tokyo-alejandro-wainzinger-medium.md) - Alejandro Wainzinger gives a qualified first-person account of engineering systems, communication, hierarchy, overwork, and outsider status inside Japanese companies.
 - [Front Series A Deck](sources/front-series-a-deck-mathilde-collin-medium.md) - Mathilde Collin connects Front's fundraising readiness and concentrated Series A process with investor-valued capital efficiency and expansion, plus gaps in acquisition, projections, engagement data, and buyer definition.
@@ -743,6 +744,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Great Video Game Exodus](sources/gamasutra-the-great-video-game-exodus.md) - Simon Parkin connects game-industry career exits to contract churn, relocation, crunch, production uncertainty, post-launch work, weak comparative pay, ownership constraints, and sexism.
 
 ## Entities
+- [Ben Weber](entities/BenWeber.md) - StarCraft AI researcher and competition founder represented through his 2016 account of expert-level game-agent challenges.
+- [DeepMind](entities/DeepMind.md) - AI research organization presented through AlphaGo and a prospective 2016 StarCraft challenge.
+- [StarCraft](entities/StarCraft.md) - Real-time strategy game represented as a partially observable, high-dimensional, adaptive AI environment.
 - [Gal Zellermayer](entities/GalZellermayer.md) - VMware Israel R&D manager represented through a practitioner proposal for prompt fix-or-close defect decisions.
 - [Alejandro Wainzinger](entities/AlejandroWainzinger.md) - Software engineer represented through a qualified first-person account of technical and cultural adaptation in Tokyo workplaces.
 - [Steven J. Keteyian](entities/StevenKeteyian.md) - Historical editor-in-chief profile centered on practitioner-facing research translation and skepticism toward health and fitness fads.
@@ -2077,6 +2081,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kristen Koster](entities/KristenKoster.md) - Early Ultima Online designer whose account links sexism, role displacement, caregiving, and extreme on-call expectations.
 
 ## Concepts
+- [StarCraft as an AI Testbed](concepts/StarCraftAITestbed.md) - Benchmark framing that joins hidden state, hierarchical control, strategic change, rare tactics, simulation limits, and real-time deadlines.
 - [Zero Bugs Policy](concepts/ZeroBugsPolicy.md) - Defect-inventory rule that replaces indefinite bug deferral with prompt repair or explicit non-repair decisions.
 - [Cross-Cultural Workplace Adaptation](concepts/CrossCulturalWorkplaceAdaptation.md) - Learning an unfamiliar workplace's technical, linguistic, relational, and institutional system without turning culture into an excuse for avoidable harm.
 - [Research-to-Practice Translation](concepts/ResearchToPracticeTranslation.md) - Interpretation of appropriately conducted research into usable professional guidance while preserving evidence scope and uncertainty.

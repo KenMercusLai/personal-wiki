@@ -5856,3 +5856,11 @@ Added [[SimonParkin]]'s 2018 account of game-industry career exit as an interact
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | DeepMind Challenges for StarCraft
+
+Added Ben Weber's 2016 forecast of expert-level StarCraft AI as a coupled problem of partial observability, decision complexity, strategic change, adversarial edge cases, simulation access, and real-time execution. Created [[BenWeber]], [[DeepMind]], [[StarCraft]], and [[StarCraftAITestbed]]; updated [[AlphaGo]] and [[ReinforcementLearning]] from their complete ordered evidence inventories. The lead `.jpg` is actually an unrelated HTML blogs page, while both externally hosted article figures were unavailable; the match image adds no unique textual claim, but the task-environment table could not be independently transcribed and is explicitly qualified in the source note.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
