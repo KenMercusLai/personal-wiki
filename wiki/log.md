@@ -5872,3 +5872,15 @@ Added the Los Angeles Times' 2019 account of the [[GameBoy]] as both a practical
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | The Scoop: Inside the Longest Atlassian Outage of All Time
+
+Added [[GergelyOrosz]]'s account of [[Atlassian]]'s April 2022 cloud outage, where a deprecation script used the wrong execution mode and tenant list, backups lacked a fast selective-restoration path, and customer disruption lasted as long as nine days. Created [[IncidentCommunication]] and updated Atlassian, [[SystemReliability]], and [[ChangeSafety]] from their complete ordered evidence inventories, distinguishing backup existence from granular recovery and technical restoration from customer response. Preserved uncertainty in the affected-user estimate and the limits of second-party reporting and selected interviews. The source contained no effective image references.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

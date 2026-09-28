@@ -4,10 +4,10 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 7803cb7fff573a109767e6dd980a5ecbcb36c7ca
+as_of_overview_commit: 65993f2ce15f80d89e934805fceff881d6865b86
 summary: "A qualified map of technology, business, culture, governance, psychology, health, work, and society grounded in source-scoped evidence."
-episode_count: 728
-source_count: 728
+episode_count: 729
+source_count: 729
 paragraph_count: 553
 topic_count: 9
 ---

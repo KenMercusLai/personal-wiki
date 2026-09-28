@@ -11,7 +11,8 @@ sources:
   - upgrading-github-from-rails-3-2-to-5-2-the-github-blog
   - cloudflare-outage-on-february-20-2026
   - deploy-release-part-1-turbine-labs
-last_updated: 2026-09-27
+  - gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -39,13 +40,15 @@ Cloudflare's 2026 BYOIP outage extends the same discipline from software release
 
 The incident also strengthens the distinction between reverting an executable and restoring state. Stopping the task ended new deletions, but did not reconstruct every prefix and binding. Some customers could re-advertise, about 800 prefixes returned through Cloudflare's broader mitigation, and the remaining roughly 300 needed configuration recovery across the edge. Safe configuration change therefore needs versioned known-good snapshots and an explicit separation between customer-configured intent and the operational state applied to production.
 
+Atlassian's 2022 outage supplies a parallel tenant-data case. A plugin-deprecation script used both the wrong execution mode and the wrong customer identifiers, permanently deleting data for about 400 customers rather than marking it for deletion. Although data was reportedly recoverable, the company lacked a fast selective-restore path that would leave unaffected tenants unchanged. For destructive maintenance, validating both operation and target set, dry-running the exact procedure, preferring reversible state transitions, and rehearsing restoration at tenant granularity are therefore part of change safety rather than downstream backup concerns.
+
 ## Key Claims
 - Production change is a major source of reliability risk, whether the changed artifact is code, infrastructure, authoritative data, or operational configuration.
 - Separating deployment from traffic release, then using staged exposure, health mediation, and rate or breadth circuit breakers, reduces blast radius by limiting early customer impact and propagation.
 - Critical systems may need mandatory process rules and serious enforcement even when they slow delivery.
 - Monitoring must include user-facing health so a technically accepted change can be stopped when customer behavior degrades.
 - Production-like staging and task-runner scenario tests can catch risks before users or production data become the first realistic test.
-- Code or process reversion can stop further harm, but it does not restore persistent, client-visible, dependent, or operational state; known-good snapshots, disabling, reconstruction, or forward repair may be required.
+- Code or process reversion can stop further harm, but it does not restore persistent, client-visible, dependent, operational, or tenant state; known-good snapshots, selective restoration, reconstruction, or forward repair may be required.
 - Regulated change safety requires objective evidence, validation constraints, trusted provenance, and audit records.
 
 ## Evidence
@@ -71,16 +74,18 @@ The incident also strengthens the distinction between reverting an executable an
 - Schema and test boundary: [[cloudflare-outage-on-february-20-2026]] attributes the selection error to an empty-valued query parameter plus missing task-runner coverage, then proposes stronger schema validation.
 - Stateful restoration: [[cloudflare-outage-on-february-20-2026]] says stopping and reverting the change did not restore removed service bindings; the last roughly 300 prefixes required a global configuration rollout.
 - Health-mediated containment: [[cloudflare-outage-on-february-20-2026]] proposes snapshots, staged rollout, customer-service signals, and circuit breakers for unusually rapid or broad withdrawals.
+- Destructive-operation targeting: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says an Atlassian deprecation script used both the wrong execution mode and wrong tenant IDs.
+- Reversible deletion: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] recommends marking data for deletion rather than immediately deleting production state.
+- Tenant-level recovery: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says Atlassian could restore data but not rapidly for the affected subset without affecting other customers.
 
 ## Counterevidence & Qualifications
-The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. An inactive production version can still mutate shared data, consume capacity, or affect queues and control planes, so deployment is only near-zero customer risk when those side effects are isolated. Instance share may also differ from traffic or customer exposure. Staging realism reduces but does not eliminate release risk because production traffic, scale, data, task scheduling, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana, GitHub, Cloudflare, and Turbine Labs accounts are practitioner or company-authored sources rather than controlled comparisons; none should be overgeneralized into a universal recovery playbook. Cloudflare's proposed controls were not yet reported as complete, and routing, typed schemas, snapshots, circuit breakers, and health signals can themselves be incomplete or wrong.
+The sources do not cover all change-management contexts. Some code and immutable infrastructure changes can be reverted safely when data formats, clients, and compatibility boundaries remain controlled; others require forward fixes or data repair. An inactive production version can still mutate shared data, consume capacity, or affect queues and control planes, so deployment is only near-zero customer risk when those side effects are isolated. Instance share may also differ from traffic or customer exposure. Staging realism reduces but does not eliminate release risk because production traffic, scale, data, task scheduling, and failure timing can still differ. Compliance evidence can prove specific controls, but it does not automatically prove the whole system is safe or that the controls are the right ones. The Asana, GitHub, Cloudflare, Turbine Labs, and Atlassian accounts are practitioner, company-authored, or second-party sources rather than controlled comparisons; none should be overgeneralized into a universal recovery playbook. Proposed controls may also remain incomplete, and routing, typed schemas, snapshots, circuit breakers, target validation, and health signals can themselves be wrong.
 
 ## What Changed
 - Added deployment-versus-release separation as a customer-exposure boundary.
 - Extended change safety from software release to authoritative configuration and automated operational tasks.
-- Added typed request semantics and task-runner scenarios to pre-production verification.
-- Added health-mediated snapshots and rate or breadth circuit breakers to staged containment.
-- Strengthened recovery around configured-versus-operational state and dependent-object reconstruction.
+- Extended destructive-change validation to execution mode, target set, reversible deletion, and tenant-level recovery.
+- Strengthened recovery around configured-versus-operational state, dependent-object reconstruction, and selective restore.
 
 ## Related Concepts
 - [[SystemReliability]] - safe change is one core reliability layer.
@@ -96,3 +101,4 @@ The sources do not cover all change-management contexts. Some code and immutable
 - [[ComplianceArchitecture]] - regulated change safety depends on evidence and validation architecture.
 - [[IncrementalFrameworkUpgrade]] - migration milestones make compatibility and rollout risk observable in smaller units.
 - [[NetworkAutomation]] - automated network changes need the same staged controls and recovery boundaries as software releases.
+- [[IncidentCommunication]] - bounded technical change and candid customer response address different parts of incident harm.

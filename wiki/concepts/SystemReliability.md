@@ -8,7 +8,8 @@ sources:
   - a-look-at-auth0-cloud-architecture-5-years-in
   - asanas-september-8-outage
   - details-on-the-january-9th-2017-asana-outage
-last_updated: 2026-09-27
+  - gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time
+last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
@@ -28,11 +29,13 @@ Asana adds a smaller but vivid incident case. A logging bug from a late deployme
 
 Asana's later capacity outage shows why automation, capacity margin, overload behavior, and load shedding must be designed together. A hung lock prevented web-server provisioning, non-paging warnings were ignored, and exceptional Monday traffic exceeded the weekend fleet. The servers did not merely slow down: memory exhaustion blocked cheap forks, the OOM killer removed the preinitialized master, and expensive process startup turned memory pressure into CPU saturation. Throttling some free-user traffic restored health almost immediately while slower fleet expansion completed.
 
+Atlassian adds a recovery-granularity boundary. Retaining backups did not produce fast recovery after a script deleted data for about 400 tenants, because the available process could not restore that subset without changing unaffected customers. Reliability therefore requires practiced restoration at the likely failure boundary—not merely backup existence—along with support and status channels that remain usable when the primary product is unavailable.
+
 ## Key Claims
 - Reliability spans code, design, change, operations, and recovery rather than one technical layer.
 - Known principles are necessary but insufficient without concrete implementation details.
 - Fail-fast behavior and deliberate load shedding protect online services from resource exhaustion, nonlinear collapse, and uncontrolled backlog.
-- Dependency classification, degradation, capacity protection, and disaster recovery are design-level reliability controls.
+- Dependency classification, degradation, capacity protection, and granular, practiced disaster recovery are design-level reliability controls.
 - Change-related incidents require canarying, monitoring, rollback, blast-radius reduction, tests, probes, observability, playbooks, and failover exercises.
 - Production-like staging and clear observability can reveal architecture, data, traffic, saturation, and failure-mode risks before or during incidents.
 - Reliability is difficult because it requires sustained investment even when avoided failures are hard to see.
@@ -49,18 +52,17 @@ Asana's later capacity outage shows why automation, capacity margin, overload be
 - Capacity-control chain: [[details-on-the-january-9th-2017-asana-outage]] connects an indefinitely hung provisioning lock, missing timeouts, non-paging alerts, reduced weekend capacity, and exceptional demand.
 - Overload collapse: [[details-on-the-january-9th-2017-asana-outage]] says failed process forks led to OOM termination of the master process, after which from-scratch startup saturated CPU.
 - Load shedding: [[details-on-the-january-9th-2017-asana-outage]] says throttling a fraction of free-user traffic restored fleet health almost immediately while added capacity took longer.
+- Selective restoration: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] says Atlassian retained recoverable data but lacked automation to restore hundreds of affected tenants without changing others.
+- Independent response paths: [[gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time]] reports that the Jira-based support route was unavailable to some customers during the Jira outage.
 - Organizational layer: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] argues that postmortem recommendations repeat known principles, but teams struggle to sustain the investment needed to implement them.
 - Business priority: [[wen-ding-xing-nan-de-bu-shi-ji-shu-er-shi]] uses Taobao and high-stakes businesses as examples where making reliability a top business target changed outcomes.
 
 ## Counterevidence & Qualifications
-The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. Load shedding also encodes a product-policy choice: Asana protected paying customers and most free users rather than treating all requests equally. The staging article recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0 and Asana are company-authored accounts and source-date-specific, especially around cloud-provider choices, service capabilities, and internal incident process.
+The sources argue from practitioner experience and named examples rather than comparative measurement. Bixuan's fail-fast emphasis is explicitly strongest for online services; queueing, batch, streaming, or safety-critical systems may require different overload behavior and recovery semantics. Load shedding also encodes a product-policy choice: Asana protected paying customers and most free users rather than treating all requests equally. The staging article recognizes cost constraints, so production resemblance may need to preserve behavioral structure without matching production resource size exactly. Auth0 and Asana are company-authored accounts, while the Atlassian source is second-party reporting with a broad affected-user estimate; all are source-date-specific and none proves current controls.
 
 ## What Changed
-- Created the general reliability concept to complement existing AI-harness and game-server-specific reliability pages.
-- Added production-like staging as a pre-release reliability layer.
-- Added Auth0 as a large-scale SaaS case connecting reliability to cloud HA, observability, deployment, testing, and playbooks.
-- Added Asana's outage as a concrete load-interaction and incident-diagnosis case.
-- Added Asana's capacity outage as a case in silent automation failure, nonlinear overload collapse, and load shedding.
+- Qualified disaster recovery: backup existence is insufficient without selective, practiced restoration at the failure boundary.
+- Added independent customer-support and status paths as reliability dependencies during primary-service failure.
 
 ## Related Concepts
 - [[RobustProgramming]] - code-level reliability is one layer of system reliability.
@@ -75,3 +77,4 @@ The sources argue from practitioner experience and named examples rather than co
 - [[HarnessEngineering]] - both rely on scaffolds, feedback signals, and constraints to make technical work dependable.
 - [[GameServerScaleAndStability]] - game-server stability is a domain-specific instance of broader system reliability.
 - [[DeploymentAutomation]] - release and rollback mechanics are part of reliability during change-induced incidents.
+- [[IncidentCommunication]] - trustworthy, resilient updates help customers manage prolonged service failure.

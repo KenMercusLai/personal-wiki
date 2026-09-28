@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [The Scoop: Inside the Longest Atlassian Outage of All Time](sources/gergely-orosz-the-scoop-inside-the-longest-atlassian-outage-of-all-time.md) - Gergely Orosz connects Atlassian's destructive April 2022 maintenance error and missing selective restore tooling to a nine-day outage and prolonged communication failure.
 - [Game Boys Have Infinite Lives](sources/game-boys-have-infinite-lives-at-30-they-live-on-in-unexpected-ways-los-angeles-times.md) - A Game Boy anniversary feature connects practical mature-technology tradeoffs with hardware modification, chiptune performance, and low-resolution photography.
 - [DeepMind Challenges for StarCraft](sources/gamasutra-ben-webers-blog-deepmind-challenges-for-starcraft.md) - Ben Weber's 2016 forecast frames StarCraft as a coupled test of hidden-state inference, action abstraction, strategic adaptation, robust training, simulation access, and real-time control.
 - [0 Bugs Policy](sources/gal-zellermayer-0-bugs-policy.md) - Gal Zellermayer proposes fixing or explicitly closing every new defect instead of retaining an indefinitely deferred bug inventory, while leaving evidence and traceability limits explicit.
@@ -745,6 +746,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Great Video Game Exodus](sources/gamasutra-the-great-video-game-exodus.md) - Simon Parkin connects game-industry career exits to contract churn, relocation, crunch, production uncertainty, post-launch work, weak comparative pay, ownership constraints, and sexism.
 
 ## Entities
+- [Gergely Orosz](entities/GergelyOrosz.md) - Software-engineering writer represented through a reported analysis of Atlassian's April 2022 cloud outage.
 - [Game Boy](entities/GameBoy.md) - Nintendo's 1989 handheld represented through practical product tradeoffs and long-lived musical, photographic, and customization uses.
 - [Nintendo](entities/Nintendo.md) - Game company represented through the Game Boy and a source-bounded strategy of accessibility and product form over specification leadership.
 - [Gunpei Yokoi](entities/GunpeiYokoi.md) - Nintendo inventor associated with the Game Boy and Lateral Thinking with Withered Technology.
@@ -2085,6 +2087,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Kristen Koster](entities/KristenKoster.md) - Early Ultima Online designer whose account links sexism, role displacement, caregiving, and extreme on-call expectations.
 
 ## Concepts
+- [Incident Communication](concepts/IncidentCommunication.md) - Timely, candid, actionable, and audience-appropriate communication during service failure.
 - [Lateral Thinking with Withered Technology](concepts/LateralThinkingWithWitheredTechnology.md) - Product philosophy that creates new user value by recombining mature technology rather than maximizing specifications.
 - [Hardware Afterlives](concepts/HardwareAfterlives.md) - Repair, customization, repurposing, and selective preservation that give physical products useful post-market roles.
 - [Chiptune](concepts/Chiptune.md) - Music made through characteristic game-system sound hardware, represented here by portable Game Boy composition and performance.
