@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
       "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
       "472ece86d144195e2ce3d99462cb0e855a3a27bba6f3bbff86f6e49addb17405",
       "9b4597b712ebf9e1e815af2d1f8c59b2ed598776d8eb3377108745d727c03233",
@@ -550,11 +551,34 @@
       "d5366bed048f5deebd7925fd759a1debc30911901170e34b6235df38b6a6a716",
       "9888894b209880d972ef48833ef56daf90d2e408b4455629677ebf18f4b8bd6a"
     ],
-    "paragraph_count": 548
+    "paragraph_count": 549
   },
-  "overview_commit": "2d7d03aab10792d1f5133b681f3511c8e262e473",
-  "overview_digest": "46fe2aaf21957e0659358aa94d9ee242c9d9711f803b2bd613b2ba5a233b10f6",
+  "overview_commit": "d46862120d4d357f7e8584a4cd03264897c8d3fa",
+  "overview_digest": "c5a18944d34782ad196f889ed6321551bce980cba90f9d0955d2de1c7e2dd92b",
   "paragraphs": [
+    {
+      "id": "a07086c58e5e18b06991addc6844142ad974cffab90d1a487b903f57e8481587",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[GalZellermayer]] source adds [[ZeroBugsPolicy]] as a defect-inventory rule: a bug found while implementing a story means the story is not done, while every other new defect should be fixed now or in the next sprint when worthwhile, or explicitly closed rather than indefinitely deferred. This sharpens [[AgileSoftwareDevelopment]] by making completion honest and extends [[InternalSoftwareQuality]] with defect-age economics: memory fades, environments disappear, code changes, and retained bugs repeatedly consume triage attention. The five retained planning images make the displacement mechanism visible—two bugs initially fit above sprint capacity, feature reprioritization pushes both below it, and the next sprint begins with another defect plus new features. The policy targets zero open bug inventory, not defect-free software; closing a low-value bug leaves the behavior intact. The source is one 2016 practitioner essay from a [[VMware]] Israel manager, with no comparative quality, throughput, severity, or customer-outcome data, and its “only way” rhetoric does not address safety, security, accessibility, contractual, regulatory, audit, or dependency cases that require traceability or bounded deferral.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "AgileSoftwareDevelopment",
+        "GalZellermayer",
+        "InternalSoftwareQuality",
+        "VMware",
+        "ZeroBugsPolicy"
+      ]
+    },
     {
       "id": "da170dd647d19025bfc0fe1cf9a2ff4ccb45515dc3b766fe9eed3818238b9244",
       "primary_topic": "work-education-and-society",

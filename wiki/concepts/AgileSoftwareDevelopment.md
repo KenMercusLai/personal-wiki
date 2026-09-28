@@ -8,6 +8,7 @@ sources:
   - chris-james-how-to-go-fast
   - constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab
   - elegant-coding-the-problem-with-todays-software-thought-leaders
+  - gal-zellermayer-0-bugs-policy
 last_updated: 2026-09-27
 knowledge_schema: synthesis-v1
 ---
@@ -28,14 +29,16 @@ The Ophan case extends this from product-team advice to an internal newsroom too
 
 The Elegant Coding essay challenges the evidence beneath broader Agile claims. Its strongest point is not that Agile has been disproved, but that popularity, manifesto authority, anecdotes, and consulting success do not demonstrate productivity or return-on-investment effects. This creates a second requirement alongside practice depth: claims that Agile causes outcomes should identify the intervention, context, comparison, and evidence, and should remain “not proven” when those are absent.
 
+Zellermayer adds a strict defect-decision practice to the definition of done. Bugs found while implementing a story mean the story is unfinished; regression, customer, and post-completion defects should be fixed now or in the next sprint when worthwhile, otherwise explicitly closed rather than deferred. The durable agile contribution is bounded decision latency and honest completion, not the universal claim that one bug policy fits every context. Formal traceability, safety, security, and dependency constraints may require recorded or temporarily deferred known issues.
+
 ## Key Claims
-- Agile depends on interconnected value, planning, collaboration, and reliable-delivery practices rather than isolated rituals, while claims about its causal benefits require empirical support.
+- Agile depends on interconnected value, planning, collaboration, reliable-delivery, and explicit completion practices rather than isolated rituals, while claims about its causal benefits require empirical support.
 - Technical practices are often under-taught, creating a gap between agile vocabulary and agile capability.
 - [[ExtremeProgramming]] is an important practice foundation for the Agile movement.
 - Production delivery and observation help teams learn what is valuable in real use.
 - Agile requirements work benefits from collaborative story writing, explicit ready/done agreements, and user stories that remain conversation starters.
 - Sustainable agile speed depends on small feedback loops, low WIP, and shared understanding of the user's problem.
-- Internal tools can evolve through the same minimum-first loop when domain users have direct access and a regular path for feature feedback.
+- A story with an unresolved in-sprint defect has not met a meaningful definition of done.
 
 ## Evidence
 - Practice web: [[blog-martin-fowler-foreword-to-the-art-of-agile-development]] says agile work requires interconnected management and technical practices.
@@ -47,6 +50,7 @@ The Elegant Coding essay challenges the evidence beneath broader Agile claims. I
 - User-story conversation: [[chris-james-how-to-go-fast]] says user stories should describe user problems and success measures rather than dictate implementation.
 - Internal-product iteration: [[constantly-tweaking-how-the-guardian-continues-to-develop-its-in-house-analytics-system-nieman-journalism-lab]] describes Ophan growing from a three-minute hack-day prototype through mobile, multi-level views, alerts, and experiments in response to newsroom feedback.
 - Evidential burden: [[elegant-coding-the-problem-with-todays-software-thought-leaders]] argues that Agile outcome claims should be treated as unproven when they lack citations, data, or comparative study.
+- Defect completion: [[gal-zellermayer-0-bugs-policy]] treats in-sprint bugs as unfinished story work and argues that deferred defects repeatedly lose to features in mixed backlogs.
 
 ## Counterevidence & Qualifications
 The current evidence comes from Fowler's foreword and is intentionally normative. It criticizes ceremony-led agile adoption but does not compare named agile frameworks empirically or define when lightweight Scrum-like practice may be sufficient.
@@ -59,9 +63,11 @@ The Ophan report calls its development agile and documents minimum-first iterati
 
 The Elegant Coding essay is a polemic rather than a systematic evidence review. It correctly separates unsupported claims from disproved ones, but it neither evaluates the full Agile research literature nor substantiates its allegations that advocates' commercial incentives explain their positions. Its criticism therefore raises an evidence requirement without establishing that Agile is ineffective.
 
+The zero-bugs article is likewise practitioner evidence. It does not compare teams, measure quality or throughput, or address regulated and safety-critical defect records. Its “only way” rhetoric should be narrowed to a useful proposal: decide known defects promptly, preserve an honest definition of done, and make any non-repair or bounded-deferral risk explicit.
+
 ## What Changed
-- Added an explicit evidence standard for causal claims about Agile productivity, communication, and return on investment.
-- Distinguished “not proven” from “disproved” and qualified the critic's own unsupported incentive claims.
+- Added prompt defect decisions and unresolved in-sprint bugs to the definition-of-done synthesis.
+- Qualified zero-bug practice for traceability, safety, security, and bounded-deferral contexts.
 
 ## Related Concepts
 - [[ExtremeProgramming]] - agile practice tradition Fowler presents as a central pillar.
@@ -74,3 +80,4 @@ The Elegant Coding essay is a polemic rather than a systematic evidence review. 
 - [[CodeReviewPractice]] - review ceremony should be tuned to trust, risk, and feedback-loop cost.
 - [[NewsroomAnalytics]] - domain setting in which the Ophan feedback loop shaped an internal analytics product.
 - [[EvidenceBasedSoftwareEngineering]] - requires Agile outcome claims to match confidence to empirical support.
+- [[ZeroBugsPolicy]] - applies a fix-or-close inventory rule to agile defect handling.

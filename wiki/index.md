@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [0 Bugs Policy](sources/gal-zellermayer-0-bugs-policy.md) - Gal Zellermayer proposes fixing or explicitly closing every new defect instead of retaining an indefinitely deferred bug inventory, while leaving evidence and traceability limits explicit.
 - [Gaijin Engineer in Tokyo](sources/gaijin-engineer-in-tokyo-alejandro-wainzinger-medium.md) - Alejandro Wainzinger gives a qualified first-person account of engineering systems, communication, hierarchy, overwork, and outsider status inside Japanese companies.
 - [Front Series A Deck](sources/front-series-a-deck-mathilde-collin-medium.md) - Mathilde Collin connects Front's fundraising readiness and concentrated Series A process with investor-valued capital efficiency and expansion, plus gaps in acquisition, projections, engagement data, and buyer definition.
 - [From Side Project to 25 Million Downloads](sources/from-side-project-to-25-million-downloads-codecademy-medium.md) - Ryan Hanna traces Sworkit from a Codecademy-supported learning project through Lifehacker distribution, paid release, full-time operation, acquisition, and reported mass-market scale.
@@ -740,6 +741,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [From the Editor: ACSM's Health & Fitness Journal](sources/from-the-editor-acsm-s-health-fitness-journal.md) - Steven Keteyian frames accurate research translation as a health and fitness professional duty and previews one practitioner issue without supplying the featured studies' evidence.
 
 ## Entities
+- [Gal Zellermayer](entities/GalZellermayer.md) - VMware Israel R&D manager represented through a practitioner proposal for prompt fix-or-close defect decisions.
 - [Alejandro Wainzinger](entities/AlejandroWainzinger.md) - Software engineer represented through a qualified first-person account of technical and cultural adaptation in Tokyo workplaces.
 - [Steven J. Keteyian](entities/StevenKeteyian.md) - Historical editor-in-chief profile centered on practitioner-facing research translation and skepticism toward health and fitness fads.
 - [American College of Sports Medicine](entities/AmericanCollegeOfSportsMedicine.md) - Professional organization presented through its certifications, programs, and publishing role in translating sports-medicine research.
@@ -2066,6 +2068,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Nexercise](entities/Nexercise.md) - Fitness-app company that acquired and merged with Sworkit and appointed Ryan Hanna as a product and engineering executive.
 
 ## Concepts
+- [Zero Bugs Policy](concepts/ZeroBugsPolicy.md) - Defect-inventory rule that replaces indefinite bug deferral with prompt repair or explicit non-repair decisions.
 - [Cross-Cultural Workplace Adaptation](concepts/CrossCulturalWorkplaceAdaptation.md) - Learning an unfamiliar workplace's technical, linguistic, relational, and institutional system without turning culture into an excuse for avoidable harm.
 - [Research-to-Practice Translation](concepts/ResearchToPracticeTranslation.md) - Interpretation of appropriately conducted research into usable professional guidance while preserving evidence scope and uncertainty.
 - [Early Startup Demand Validation](concepts/EarlyStartupDemandValidation.md) - Evidence ladder separating launch attention, qualified intent, signup, activation, retention, payment, and model correction.

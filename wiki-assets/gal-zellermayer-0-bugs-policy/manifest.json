@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "source_key": "gal-zellermayer-0-bugs-policy",
+  "images": [
+    {
+      "file": "mixed-backlog-before-planning.jpg",
+      "alt": "Preplanning backlog mixing two bugs with four user stories"
+    },
+    {
+      "file": "sprint-capacity-cutoff.jpg",
+      "alt": "Sprint planning capacity line below two bugs and one user story"
+    },
+    {
+      "file": "critical-feature-reprioritization.jpg",
+      "alt": "Critical stop-application story moved above a Safari help-page bug"
+    },
+    {
+      "file": "bugs-pushed-below-features.jpg",
+      "alt": "Three feature stories committed while two bugs fall below sprint capacity"
+    },
+    {
+      "file": "next-sprint-bug-accumulation.jpg",
+      "alt": "Next sprint backlog with new features ahead of three accumulated bugs"
+    }
+  ]
+}

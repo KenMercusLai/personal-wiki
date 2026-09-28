@@ -5832,3 +5832,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | 0 Bugs Policy
+
+Added [[GalZellermayer]]'s fix-or-close rule for new defects and created [[ZeroBugsPolicy]]; updated [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]], and [[VMware]] from their complete ordered source inventories. Preserved the distinction between zero open bug inventory and defect-free software, narrowed the article's “only way” rhetoric to a practitioner proposal, and added boundaries for safety, security, accessibility, contracts, regulation, audit trails, dependencies, and other contexts requiring traceability or bounded deferral. Opened all five local planning images and retained the complete evidence-bearing sequence under descriptive canonical filenames with a matching manifest.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
