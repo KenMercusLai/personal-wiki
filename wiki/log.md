@@ -6176,3 +6176,11 @@ Added [[ValueHacking]] as a customer-value and segmentation qualification on met
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Growth as a false signal in Y Combinator startups
+
+Added [[StartupGrowthSignalQuality]] to distinguish real but short-lived early growth from durable demand supported by retention, engagement, customer enthusiasm, and unit economics. Created [[DougRenert]] and [[TandemCapital]], and updated [[YCombinator]] and [[PaulGraham]] from their complete ordered evidence inventories with the Demo Day metric critique and its methodological limits. The source's three evidence-bearing chart URLs returned HTTP 404, so no visual assets were retained and no claims depend on unavailable image-only detail.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

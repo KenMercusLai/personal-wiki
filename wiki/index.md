@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Growth as a false signal in Y Combinator startups](sources/growth-as-a-false-signal-in-y-combinator-startups-techcrunch.md) - Doug Renert argues that short-window revenue growth is weak standalone evidence without base size, persistence, retention, engagement, and viable unit economics.
 - [Growth Hacking vs Value Hacking - By](sources/growth-hacking-vs-value-hacking-by.md) - Practitioner essay arguing that teams should treat growth metrics as proxies for customer value, segment users by distinct value functions, and pursue adjacent propositions when existing optimization plateaus.
 - [Growth Engineering at Netflix — Accelerating Innovation](sources/growth-engineering-at-netflix-accelerating-innovation.md) - Netflix joins continuous signup experimentation with a stateless client protocol, centralized orchestration, state-machine decisions, instrumentation, and fault tolerance across markets and devices.
 - [Grow the Puzzle Around You](sources/grow-the-puzzle-around-you-jessica-livingston.md) - Jessica Livingston explains how atypical founder strengths, complementary roles, batch investing, and high-touch support shaped Y Combinator.
@@ -1777,6 +1778,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Y Combinator](entities/YCombinator.md) - Startup accelerator built around batch investing, shared founder infrastructure, complementary evaluation, and high-touch support.
 - [Andrew Chen](entities/AndrewChen.md) - Startup writer framing engineering-led growth, founder struggle, cadence-aware product metrics, pitching, creator-economy dynamics, writing, relationship compounding, and career choices.
 - [Paul Graham](entities/PaulGraham.md) - Y Combinator cofounder associated with technical judgment, direct founder advice, program design, and startup-stage models.
+- [Doug Renert](entities/DougRenert.md) - Tandem Capital cofounder arguing that brief early growth should be tested against persistence, retention, engagement, and economics.
+- [Tandem Capital](entities/TandemCapital.md) - Venture firm whose anonymized YC Demo Day analysis illustrates the limits of constant-rate growth extrapolation.
 - [Peter Attia](entities/PeterAttia.md) - Longevity author whose book Outlive supplies the VO2 max graph that Andrew Chen says changed his exercise behavior.
 - [Outlive](entities/Outlive.md) - Peter Attia longevity book cited for a VO2 max graph linking cardiovascular fitness with future functional capacity.
 - [Instapaper](entities/Instapaper.md) - Read-later service that grew from a narrow offline-reading side project through mixed early revenue, platform expansion, acquisitions, and a mature reading workflow.
@@ -2825,6 +2828,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Blitzscaling](concepts/Blitzscaling.md) - High-risk startup growth strategy that prioritizes speed over efficiency when competitive timing makes delay dangerous.
 - [Startup Scaling](concepts/StartupScaling.md) - Stage-sensitive change of startup organization, processes, leadership, and operating systems as scale increases.
 - [Product-Market Fit](concepts/ProductMarketFit.md) - Boundary where evidence of real market pull, willingness to pay, and repeatable value justifies shifting from discovery toward growth and organization-building.
+- [Startup Growth Signal Quality](concepts/StartupGrowthSignalQuality.md) - Standard for interpreting early growth through base size, time window, repeatability, retention, and unit economics.
 - [Trough of Sorrow](concepts/TroughOfSorrow.md) - Pre-product-market-fit startup phase after launch excitement fades and before market pull becomes clear.
 - [Doing Things That Do Not Scale](concepts/DoingThingsThatDoNotScale.md) - Manual, high-touch startup work used to create early customer love and learn before automation.
 - [Startup Hiring At Scale](concepts/StartupHiringAtScale.md) - Transition from slow early hiring to recruiting systems that preserve standards through role clarity, evidence, and decision checks under growth pressure.

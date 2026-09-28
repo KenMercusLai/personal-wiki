@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "46a83cb4dee4bd69e86a2ed639d53fad425c9da06987230ed1ec53ffb57d7c36",
       "1cb6bac853ee1a04ac3e43b0014cc63c5ace8c266b71667152a09296a7b7e1ef",
       "84cc0ff03ab91aa124033c8d1642591155c05352306c5df5275db6357a5fdaa6",
       "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
@@ -584,11 +585,28 @@
       "e226d6a51f62d5c8c9639ebb398b96a6b1ae6e4e270af3a22fcda30b6101e2d4",
       "96e63a4af26bf1f118fa63c808fa8fbd67a039ec9d34eef7ef9c5fa2b207bcf0"
     ],
-    "paragraph_count": 582
+    "paragraph_count": 583
   },
-  "overview_commit": "13b80237d82b052635ad671c3dd2f8a1e1f72b63",
-  "overview_digest": "bcc9454d56cb434ca147b99b595c47177e9211af2fbe6b94349f9b14fb2f1fb1",
+  "overview_commit": "f877d466d0c225d052c29ddce7e682660e17bcea",
+  "overview_digest": "556d350999a0b70e6274e77a6e7da8c5bcd8ff90d75c9f4dca9eb2a1e4b14b3d",
   "paragraphs": [
+    {
+      "id": "46a83cb4dee4bd69e86a2ed639d53fad425c9da06987230ed1ec53ffb57d7c36",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [],
+      "text": "The newest [[DougRenert]] source adds [[StartupGrowthSignalQuality]] as a boundary around early startup traction. In a sample of 22 anonymized [[YCombinator]] Demo Day companies, reported month-over-month revenue growth ranged from 6% to 200%, with a 60% average and 41% median; mechanically carrying those rates forward for one year produces about $21 billion in combined monthly revenue. The calculation is intentionally unrealistic, and that is the point: a percentage does not reveal its starting base, persistence, cohort behavior, acquisition cause, or economic durability. A launch article, waitlist opening, or influencer burst can create authentic measured growth without proving repeatable demand, so engagement, retention, customer enthusiasm, and [[UnitEconomics]] remain necessary complements before growth is treated as evidence of [[ProductMarketFit]]. The critique itself is source-scoped: firms and starting values are withheld, two revenues use an assumed 15% take rate on GMV, later outcomes are absent, and it does not show that sophisticated investors expected constant compounding. All three evidence-bearing chart URLs returned HTTP 404, so their aggregate prose-repeated values were retained but any additional company-level visual detail could not be inspected.",
+      "topic_scores": {
+        "business-and-markets": 6,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "DougRenert",
+        "ProductMarketFit",
+        "StartupGrowthSignalQuality",
+        "UnitEconomics",
+        "YCombinator"
+      ]
+    },
     {
       "id": "1cb6bac853ee1a04ac3e43b0014cc63c5ace8c266b71667152a09296a7b7e1ef",
       "primary_topic": "business-and-markets",

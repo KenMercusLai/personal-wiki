@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: 13b80237d82b052635ad671c3dd2f8a1e1f72b63
-summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, support, distribution, and trust."
-episode_count: 766
-source_count: 766
-paragraph_count: 582
+as_of_overview_commit: f877d466d0c225d052c29ddce7e682660e17bcea
+summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, economics, and trust."
+episode_count: 767
+source_count: 767
+paragraph_count: 583
 topic_count: 9
 ---
 
@@ -17,7 +17,7 @@ topic_count: 9
 ## Executive Summary
 
 - [[EvidenceBasedSoftwareEngineering]] distinguishes unsupported claims from disproved ones: [[GregWilson]]'s reported critique treats authority, popularity, publication venue, adoption, and anecdote as insufficient evidence for causal software outcomes, so claims about [[AgileSoftwareDevelopment]] or specific techniques should state uncertainty, context, comparison, and empirical support; the same symmetric standard constrains the essay's criticism of [[MartinFowler]].
-- [[ProductLifecycleTrust]] treats continued support as a portfolio-level business asset: [[RonAmadeo]] argues that repeated closures make consumers, enterprises, developers, and hardware partners discount unrelated future products, with [[GoogleStadia]] launch questions showing reputation spillover and [[PhilHarrison]]’s investment assurance remaining incomplete without lifecycle, migration, and recourse evidence; [[DeveloperPlatformTrust]] therefore extends beyond endpoint availability to pricing, enforcement, support, and whole-product continuity.
+- [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]].
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior.
 - [[IndieGameDevelopment]] and [[AudienceCenteredGameDesign]] treat games as expressive experiences whose relevance depends on identity, care, relationships, themes, controls, and challenge, while [[GameLocalization]], [[AutomatedGameTesting]], [[GameServerScaleAndStability]], [[ContinuousGameServerUpdates]], and [[ServerSideGameLogic]] show that equivalent player experience also depends on translation, verification, delivery, and live operations.
 - Platform-operated decision systems need explicit controls because ranking, personalization, mapping, payments, ads, and welfare or campaign tools can shape what people see, receive, or trust.
@@ -36,10 +36,10 @@ Technical progress depends on calibrated evidence, explicit state, verification,
 
 ### Business and Markets
 
-Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, risk discipline, and growth systems that connect engineering, experiments, and reliable execution.
+Durable value joins customer outcomes, sustainable economics, governed distribution, operating capability, lifecycle trust, and growth signals interpreted through base size, persistence, retention, and unit economics.
 
+- [[StartupGrowthSignalQuality]] separates a measured early growth rate from durable traction: [[DougRenert]]’s [[YCombinator]] case argues that base size, time window, acquisition cause, engagement, retention, customer enthusiasm, and [[UnitEconomics]] must accompany revenue change before it supports [[ProductMarketFit]]. Evidence: [[StartupGrowthSignalQuality]], [[DougRenert]], [[YCombinator]], [[UnitEconomics]], [[ProductMarketFit]].
 - [[SearchPlatformDisintermediation]] extends [[PlatformDistributionDependence]] and [[AggregationTheory]] into organic search: [[CaseyWinters]] argues that mobile answers, vertical option cards, and build-buy-partner entry let [[Google]] absorb discovery formerly supplied by aggregator category pages, while listing-level participation preserves visibility at the cost of customer-interface control and makes differentiated direct demand the more durable defense. Evidence: [[SearchPlatformDisintermediation]], [[PlatformDistributionDependence]], [[AggregationTheory]], [[CaseyWinters]], [[Google]].
-- [[SuperApp]] economics begin with a frequent use case and expand into adjacent demand, but control differs by model: [[GoogleMaps]] uses advertising, APIs, and partners to reduce fulfillment burden, [[Meituan]] operates more transactions and delivery, [[Grab]] uses localized mobility to enter delivery and finance, and [[WeChat]] combines messaging, mini programs, payments, and commerce. Evidence: [[SuperApp]], [[GoogleMaps]], [[Meituan]], [[Grab]], [[WeChat]].
 
 ### Cross-domain
 
