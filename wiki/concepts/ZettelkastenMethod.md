@@ -10,7 +10,8 @@ sources:
   - create-zettel-from-reading-notes-zettelkasten-method
   - create-a-zettelkasten-for-your-notes-to-improve-thinking-and-writing-zettelkasten-method
   - extend-your-mind-and-memory-with-a-zettelkasten-zettelkasten-method
-last_updated: 2026-09-28
+  - herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
@@ -18,7 +19,7 @@ knowledge_schema: synthesis-v1
 [[ZettelkastenMethod]] is a note-taking approach that stores compact, linkable thought units and uses relationships among notes to develop larger arguments and unexpected connections.
 
 ## Current Synthesis
-The sources present Zettelkasten as a small-note tradition, an end-to-end writing workflow, and a practice that needs a suitable domain of use. Its value is not merely that notes are short: durable storage externalizes memory, while fleeting capture and selective literature notes are processed into independently understandable permanent notes, then compared and linked so questions, themes, and drafts can develop from accumulated material. Tietze's accounts give this network a communication model: stable note identity, loose filing, direct links, keywords, and growing relational complexity let queries return recognizable but sometimes unexpected material. His paper-to-digital example adds an intermediate synthesis step: regroup reading slips around purpose, definitions, arguments, or topics rather than source order; write a general note for each cluster; then branch into reusable detail notes and feed discoveries back into the overview. Links, logical sequences, maps of content, and a relatively flat structure make later recombination possible, while orphan notes expose the maintenance constraint that link density should be earned rather than staged for graph aesthetics.
+The sources present Zettelkasten as a small-note tradition, an end-to-end writing workflow, and a practice that needs a suitable domain of use. Its value is not merely that notes are short: durable storage externalizes memory, while fleeting capture and selective literature notes are processed into independently understandable permanent notes, then compared and linked so questions, themes, and drafts can develop from accumulated material. Tietze's accounts give this network a communication model: stable note identity, loose filing, direct links, keywords, and growing relational complexity let queries return recognizable but sometimes unexpected material. His paper-to-digital example adds an intermediate synthesis step: regroup reading slips around purpose, definitions, arguments, or topics rather than source order; write a general note for each cluster; then branch into reusable detail notes and feed discoveries back into the overview. Lui adds a longer-running hybrid practice: handwriting first supplies focus and a physical size limit, regular new-card placement forces review, and digitization becomes useful once retrieval friction outweighs the paper medium's benefits. Links, logical sequences, maps of content, and a relatively flat structure make later recombination possible, while orphan notes expose the maintenance constraint that link density should be earned rather than staged for graph aesthetics. The resulting method is better treated as an adaptable operating discipline than a fixed reproduction of Luhmann's exact setup.
 
 ## Key Claims
 - Zettelkasten is a thinking and writing system in which capture and literature notes are processed into durable, independently understandable permanent notes.
@@ -27,7 +28,7 @@ The sources present Zettelkasten as a small-note tradition, an end-to-end writin
 - Themes and arguments can develop bottom-up from accumulated evidence, including contrary material, rather than being limited to a predetermined outline.
 - Durable storage and meaningful, navigable relationships play different roles: the former preserves thought, while the latter can return informative surprise beyond a reference archive or attractive graph.
 - Reading notes can be regrouped orthogonally to source order around the reader's intent before they become overview and detail Zettel.
-- Digital tools remove paper-card limits but do not remove the need for selective processing, concise thought units, and active human judgment.
+- Paper and digital media impose different useful constraints, so a hybrid can begin with selective handwriting and move toward searchable, portable files when retrieval friction grows.
 
 ## Evidence
 - Atomic note rationale: [[zhong-kou-nan-tiao-de-bi-ji-ge-qu-suo-xu-de-gong-ju]] cites the argument that each note should stay concise enough to fit a single idea.
@@ -47,14 +48,19 @@ The sources present Zettelkasten as a small-note tradition, an end-to-end writin
 - Retrieval architecture: [[create-a-zettelkasten-for-your-notes-to-improve-thinking-and-writing-zettelkasten-method]] combines stable identifiers and direct links with keywords or tags as an indirect discovery mechanism.
 - Storage-link distinction: [[extend-your-mind-and-memory-with-a-zettelkasten-zettelkasten-method]] separates external memory supplied by durable notes from the unexpected combinations supplied by manually created links.
 - Cross-text discovery: [[extend-your-mind-and-memory-with-a-zettelkasten-zettelkasten-method]] argues that decomposing texts and retaining their relations enables later comparison of similarities and oppositions.
+- Sustained hybrid practice: [[herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten]] reports roughly 800 cards after a year, with handwriting for selection and brevity followed by transcription into a digital database.
+- Review as mechanism: [[herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten]] says that placing each new card requires revisiting older material and identifies this regular review as the practice's most important part.
+- Retrieval-triggered digitization: [[herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten]] describes scanning about 300 cards once identifiers and physical placement made finding notes too slow.
+- Adaptation and portability: [[herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten]] treats Markdown export and personal modification as more important than reproducing a canonical tool or workflow.
 
 ## Counterevidence & Qualifications
-The sources do not establish Zettelkasten as universally superior. Big-note workflows may better organize established knowledge or linear arguments, and card notes can become self-referential when the user lacks a substantive domain or real output. Forced links create the appearance of richness while hiding shallow understanding. The communication-partner and extended-mind framings are conceptual models rather than measured evidence that durable storage or dense links reliably improve memory, creativity, or output; persistence also depends on custody, formats, retrieval practice, and note quality. The instruction not to sort is best read as resisting premature fixed hierarchy because the same sources still endorse IDs, keywords, and emergent clusters. Tietze's paper workflow is a personal demonstration with a short, focused book, not evidence that paper capture or pre-clustering is always preferable. The later workflow source also shifts between two three-part taxonomies—fleeting/literature/permanent notes and fleeting/permanent/project notes—so these are best read as overlapping process and lifecycle distinctions, not one settled classification.
+The sources do not establish Zettelkasten as universally superior. Big-note workflows may better organize established knowledge or linear arguments, and card notes can become self-referential when the user lacks a substantive domain or real output. Forced links create the appearance of richness while hiding shallow understanding. The communication-partner and extended-mind framings are conceptual models rather than measured evidence that durable storage or dense links reliably improve memory, creativity, or output; persistence also depends on custody, formats, retrieval practice, and note quality. The instruction not to sort is best read as resisting premature fixed hierarchy because the same sources still endorse IDs, keywords, and emergent clusters. Tietze's paper workflow is a personal demonstration with a short, focused book, while Lui's year-long account is likewise self-reported and supplies no comparison with all-digital or non-Zettelkasten practice. His successful 2021 Markdown export demonstrates a migration path, not complete interoperability or metadata preservation. The later workflow source also shifts between two three-part taxonomies—fleeting/literature/permanent notes and fleeting/permanent/project notes—while Lui omits a separate literature-note box, so these are best read as adaptable process and lifecycle distinctions rather than one settled classification.
 
 ## What Changed
-- Distinguished durable storage's external-memory role from links' proposed discovery role.
-- Added cross-text comparison and broad topic coverage as routes to unexpected combinations over time.
-- Qualified the extended-mind metaphor as practitioner reasoning without measured cognitive outcomes.
+- Added regular review and card placement as the operating mechanism that keeps older material available.
+- Added a paper-first, digital-later hybrid whose transition is triggered by retrieval friction.
+- Added portability and personal adaptation as method-level requirements rather than incidental tool preferences.
+- Qualified the new benefits and migration claim as one practitioner's self-report and a single 2021 export test.
 
 ## Related Concepts
 - [[NoteGranularity]] - Zettelkasten is one low-granularity note-file strategy.

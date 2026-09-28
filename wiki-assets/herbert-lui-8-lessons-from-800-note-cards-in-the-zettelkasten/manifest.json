@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "source_key": "herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten",
+  "images": [
+    {
+      "file": "physical-slip-boxes.jpg",
+      "alt": "Two physical slip boxes holding hundreds of handwritten index cards arranged in numbered sections"
+    },
+    {
+      "file": "linked-numbered-note-cards.jpg",
+      "alt": "Three handwritten cards with hierarchical identifiers showing a linked sequence of ideas"
+    },
+    {
+      "file": "handwritten-quantity-hypothesis-card.jpg",
+      "alt": "Handwritten 4×6 card condensing a problem hypothesis into five short points and one conclusion"
+    },
+    {
+      "file": "notion-zettelkasten-database.png",
+      "alt": "Notion knowledge database showing card titles, creation dates, analog identifiers, and 846 records"
+    },
+    {
+      "file": "markdown-export-files.png",
+      "alt": "Finder window showing a Notion export as individually named Markdown note files"
+    },
+    {
+      "file": "cited-handwritten-note-card.jpg",
+      "alt": "Handwritten card preserving a quotation with author, book title, and page number"
+    }
+  ]
+}

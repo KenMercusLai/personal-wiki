@@ -6288,3 +6288,11 @@ Added a practitioner account of health as workload-sensitive quality of service,
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | 8 Lessons from 800 Note Cards in the Zettelkasten
+
+Added [[HerbertLui]]'s year-long account of a roughly 800-card [[ZettelkastenMethod]], emphasizing paper constraints, regular review, gradual writing development, retrieval-triggered digitization, Markdown portability, and personal adaptation over orthodoxy. Created [[HerbertLui]] and updated [[ZettelkastenMethod]], [[PersonalKnowledgeManagement]], [[NoteToolFit]], [[NiklasLuhmann]], and [[Notion]] from their complete ordered evidence inventories. Opened all seven local images; retained six evidence-bearing photographs or screenshots under descriptive canonical filenames and omitted one redundant stack photograph. Preserved the source's first-person, non-comparative limits and qualified its handwriting, memory, productivity, and export-interoperability claims.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

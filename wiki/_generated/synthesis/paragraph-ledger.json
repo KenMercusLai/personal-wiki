@@ -591,12 +591,13 @@
       "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527",
       "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d",
       "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e",
-      "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb"
+      "14f4dd4f686150b5ff2b79df3c04adf3a4878b02d2077075885e8676128da5cb",
+      "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa"
     ],
-    "paragraph_count": 591
+    "paragraph_count": 592
   },
-  "overview_commit": "4b0f3b9227d612d3fbc2e86520d64f5dd23a2ec1",
-  "overview_digest": "2635ef2a5a9e29f9eafbac89cb16cfcdfe9374cad9eb7d7615c9736b6dfb3723",
+  "overview_commit": "2423eaf934a565b97f57508beb93ac08ef0e859c",
+  "overview_digest": "fafcc0d23e7525e930419701f40665cce9fcb68551ab9fa710629556d0fa037a",
   "paragraphs": [
     {
       "id": "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
@@ -11972,6 +11973,23 @@
         "Prometheus",
         "ServiceHealthChecks",
         "Spillway"
+      ]
+    },
+    {
+      "id": "28b0dd9b5c9734368736a398e4af6f023cad74300e04d0c380e1d457f9a884aa",
+      "primary_topic": "culture-and-media",
+      "secondary_topics": [],
+      "text": "The newest [[HerbertLui]] source adds a year-long, roughly 800-card practitioner case to the wiki's [[ZettelkastenMethod]] cluster. The account makes regular review, not card accumulation, the operating mechanism: each new card creates an occasion to revisit older material, find a meaningful placement, and let article or book threads develop gradually. It also adds a lifecycle to [[NoteToolFit]] and [[PersonalKnowledgeManagement]]. Handwritten 4×6 cards initially provide focus, selection effort, and a hard length limit; digital transcription becomes valuable when physical identifiers and locations make retrieval too slow; and Markdown export supplies a practical exit criterion even when Notion is sometimes sluggish. Lui's willingness to omit a separate literature-note box and modify [[NiklasLuhmann]]'s model supports an adaptive rather than orthodox reading of the method. The evidence remains one self-reported 2021 retrospective: it does not compare outcomes against other workflows, and its memory, creativity, productivity, and interoperability claims are not independently established. All seven local images were opened; six evidence-bearing photographs or screenshots were retained under descriptive canonical filenames, while one redundant stack photograph was omitted.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "culture-and-media": 2
+      },
+      "wikilinks": [
+        "HerbertLui",
+        "NiklasLuhmann",
+        "NoteToolFit",
+        "PersonalKnowledgeManagement",
+        "ZettelkastenMethod"
       ]
     }
   ],

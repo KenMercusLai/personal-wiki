@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [8 Lessons from 800 Note Cards in the Zettelkasten](sources/herbert-lui-8-lessons-from-800-note-cards-in-the-zettelkasten.md) - Herbert Lui describes a paper-first, review-driven Zettelkasten that moves digital when retrieval slows and stays portable through Markdown export.
 - [Health Checks and Graceful Degradation in Distributed Systems](sources/health-checks-and-graceful-degradation-in-distributed-systems.md) - Practitioner essay reframing health as workload-sensitive quality of service and using Imgix's Spillway broker to illustrate feedback, bounded queues, rejection, and backpressure.
 - [Hardware is the new software – the morning paper](sources/hardware-is-the-new-software-the-morning-paper.md) - The Morning Paper summarizes Andrew Baumann's argument that interacting x86 extensions combine software-scale complexity with hardware deployment lag and compatibility costs.
 - [Hard Questions: What Should Happen to People’s Online Identity When They Die?](sources/hard-questions-what-should-happen-to-peoples-online-identity-when-they-die-facebook-newsroom.md) - Monika Bickert explains Facebook's 2017 memorialization, deletion, legacy-contact, and message-privacy choices as a balance among user intent, grief, survivor conflict, and third-party privacy.
@@ -798,6 +799,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Halfway There: The Road to $1M ARR](sources/halfway-there-the-road-to-1m-arr.md) - Mariano Rodriguez Colombelli traces Beamer from a Hibox notification MVP through niche focus, rapid customer learning, organic distribution, profitability, and small-team SaaS scale.
 
 ## Entities
+- [Herbert Lui](entities/HerbertLui.md) - Writer represented through a paper-first, review-driven, portable Zettelkasten practice developed over roughly 800 cards.
 - [Imgix](entities/Imgix.md) - Real-time image-processing company used as the setting for the Spillway adaptive-load case.
 - [Spillway](entities/Spillway.md) - Imgix reverse proxy and request broker coordinating variable-cost transformation work through worker feedback and bounded queues.
 - [HAProxy](entities/HAProxy.md) - Load balancer whose agent-check interface can receive dynamic backend weight, connection-limit, and state feedback.
