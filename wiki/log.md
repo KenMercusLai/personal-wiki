@@ -5376,6 +5376,10 @@ Added Farnam Street's synthesis of [[JeffBezos]]'s one-way-door/two-way-door heu
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-28] ingest | Google data collection research
+
+Added Digital Content Next's summary of Douglas C. Schmidt's 2018 research on passive [[Google]] collection through [[Android]], [[Chrome]], location telemetry, advertising identifiers, and DoubleClick cookies. Updated Google, Android, Chrome, [[IdentityResolution]], and [[LocationDataPrivacy]] from their complete ordered evidence inventories, while qualifying the historical device comparisons as configuration-sensitive and distinguishing communications from distinct observations or present behavior. Opened both unique local images, deduplicated the repeated location-signals illustration, and retained it with the Google advertising-analysis flow diagram at their semantic positions.
+
 ## [2026-09-28] ingest | From Pull and Push to Here and Now: the grand bargain of Facebook and the Feed is unraveling. What comes next?
 
 Added [[HereAndNowMedia]] as Alex Danco's qualified media-scarcity thesis, distinguishing access to varied ephemeral expression from ownership of a shared presence layer organized around participation, location, immediacy, or mutability. Created a source-bounded [[Twitch]] profile and updated [[AlexDanco]], [[EmergentLayerTheory]], [[Facebook]], [[Snapchat]], [[Instagram]], [[AugmentedReality]], and [[SocialLivestreaming]] from their complete ordered evidence inventories. Preserved the essay's 2016 historical scope, its speculative and non-falsified profit-pool claims, Danco's lack of firsthand Twitch use, and counterexamples to a literal one-self policy or guaranteed authenticity through ephemerality. Opened all four local images; omitted three decorative duplicate title covers and did not use the remaining 60-by-37-pixel diagram because its labels remain unreadable after lossless enlargement, so no asset manifest was created.
@@ -5415,10 +5419,6 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Exploring Effective User Signals
 
 Added [[SophiaFeng]]'s account of more than twenty Pinterest Growth Activation experiments on profile-signal coverage, onboarding, and personalization. Created Sophia Feng and [[ContextualSignalCollection]], and updated [[Pinterest]] from its complete ordered evidence inventory with the contrast between a damaging pre-registration request and a successful post-signup explanatory step. Preserved the limits of first-party relative metrics, missing statistical detail and long-term outcomes, and the source's dated binary gender framing and absent consent, privacy, inclusivity, and fairness analysis. Opened the sole local image and retained its Google-authentication control flow under a descriptive canonical filename with a complete manifest.
-
-## [2026-09-28] lint | Wiki health check
-
-Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 
@@ -6024,6 +6024,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] ingest | Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive
 
 Added Skift's 2019 comparison of [[GoogleMaps]], [[WeChat]], [[Grab]], and [[Meituan]], and created [[SuperApp]] to distinguish messaging-, mobility-, commerce-, and discovery-led platform paths. Updated Google Maps and WeChat from their complete ordered evidence inventories; created source-bounded profiles for Grab and Meituan; and preserved the differences between Google's advertising-and-partner model and transaction platforms with in-house fulfillment. Qualified the article's analyst-estimated Maps revenue, disputed category boundary, regional behavior claims, partner handoffs, map-centered scope, specialist-app depth, and regulatory exposure. Opened and omitted the decorative header; the duplicated second `.png` was actually unrelated HTML and was omitted because the GPS issue in its caption was fully repeated in prose.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-28] lint | Wiki health check
 

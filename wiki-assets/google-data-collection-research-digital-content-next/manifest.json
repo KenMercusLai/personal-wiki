@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "google-data-collection-research-digital-content-next",
+  "images": [
+    {
+      "file": "mobile-location-signals.png",
+      "alt": "A mobile user surrounded by Wi-Fi, Bluetooth, and cell-tower signals that can expose location"
+    },
+    {
+      "file": "google-advertising-analysis-flow.png",
+      "alt": "Google advertising and analytics products exchanging collected data and served ads through a shared analysis environment"
+    }
+  ]
+}

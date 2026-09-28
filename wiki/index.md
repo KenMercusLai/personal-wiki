@@ -7,6 +7,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Sources
 - [Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive](sources/google-maps-is-ready-to-transform-the-world-of-superapps-a-skift-deep-dive-skift.md) - Skift compares Google Maps' discovery-led platform expansion with WeChat, Grab, and Meituan while preserving limits around local context, partner fulfillment, regional habits, regulation, and estimated revenue.
+- [Google data collection research](sources/google-data-collection-research-digital-content-next.md) - Digital Content Next summarizes 2018 experiments on passive Android and Chrome telemetry, background location communication, and Google advertising-identifier linkage.
 - [Good/Bad Product Manager](sources/good-bad-product-manager-wildbit-medium.md) - Wildbit reframes product management around team health, direct customer learning, facilitative strategy, realistic priorities, and hands-on execution.
 - [Good Product Teams vs. Bad Product Teams](sources/good-product-teams-vs-bad-product-teams.md) - Justin Bauer contrasts customer-connected, strategy-led, learning-oriented product teams with siloed teams measured mainly by output.
 - [Good CEOs Do Just 3 Things](sources/good-ceos-do-just-3-things-mitchell-harper-medium.md) - Mitchell Harper turns a three-part CEO model into practical guidance on strategy communication, critical hiring, and adverse-case cash discipline.
@@ -1287,7 +1288,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [The Startup](entities/TheStartup.md) - Medium entrepreneurship publication context for the Greenhouse organization-design article.
 - [Joel Gascoigne](entities/JoelGascoigne.md) - Buffer CEO authoring public updates about operating metrics, sustainable remote growth, and leadership transition.
 - [Firefox](entities/Firefox.md) - Mozilla browser product framed as an independent, privacy-oriented alternative to Chrome in the 2017 Browse Against the Machine campaign.
-- [Chrome](entities/Chrome.md) - Google browser that grew through architecture, Chromium, extensions, broad distribution, and enterprise tooling into a dominant platform and web-governance concern.
+- [Chrome](entities/Chrome.md) - Google browser that grew into a dominant platform while also appearing as a background data-collection surface in a 2018 Android experiment.
 - [8VC](entities/8VC.md) - Venture-firm and publication context for Joe Lonsdale's startup-hiring advice.
 - [Andrew Bosworth](entities/AndrewBosworth.md) - Product and engineering leader represented by power-aware reviews, time stewardship, and systematic workplace information seeking.
 - [CB Insights](entities/CBInsights.md) - Startup, venture, and market-intelligence publisher represented by failure research, company-strategy analysis, and Anand Sanwal's operating retrospective.
@@ -1819,7 +1820,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
-- [Google](entities/Google.md) - Search, web-platform, mobile, geospatial, advertising, data-processing, cloud-infrastructure, and enterprise-security actor represented from developer lookup through platform governance.
+- [Google](entities/Google.md) - Search, web-platform, mobile, geospatial, advertising, data-processing, cloud-infrastructure, and enterprise-security actor whose cross-product reach also creates passive-collection and identity-linkage risks.
 - [Google AdWords](entities/GoogleAdWords.md) - Google's self-service advertising product used as a product-management case for reconciling sales, engineering, relevance, and revenue constraints.
 - [Google Play](entities/GooglePlay.md) - Google's Android marketplace, pairing sustained download scale with weaker direct spending and significant distribution-governance responsibilities.
 - [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
@@ -1864,7 +1865,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [QNX](entities/QNX.md) - Unix-like platform BlackBerry acquired in 2010 as a late attempt to modernize its smartphone software base.
 - [WebOS](entities/WebOS.md) - Palm's Linux-based smartphone platform, launched with Palm Pre but unable to overcome late timing and weak ecosystem momentum.
 - [Windows Phone](entities/WindowsPhone.md) - Microsoft's smartphone platform and Nokia's selected replacement ecosystem, undermined by weak ecosystem momentum and Android's free licensing model.
-- [Android](entities/Android.md) - Google's broad mobile ecosystem, combining global reach and Google Play download scale with fragmentation, data-access, monetization, and governance tradeoffs.
+- [Android](entities/Android.md) - Google's broad mobile ecosystem, combining reach and distribution with fragmentation, monetization, app-governance, and passive telemetry tradeoffs.
 - [iOS](entities/IOS.md) - Apple's mobile ecosystem, service-control surface, interaction-design environment, and high-spending App Store base.
 - [Microsoft](entities/Microsoft.md) - Software and platform company framed through profitable origins, intangible economics, mobile-era adaptation, product innovation, and OpenAI partnership safeguards.
 - [Microsoft Word for Mac](entities/MicrosoftWordForMac.md) - Product case where Mac-specific performance and experience mattered more than internal code-base convergence.
@@ -2351,7 +2352,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Managerial Responsibility](concepts/ManagerialResponsibility.md) - Leadership model in which authority increases the obligation to develop others, absorb difficult work, diagnose failures, and own fair personnel decisions.
 - [Co-Founder Fit](concepts/CoFounderFit.md) - Evolving compatibility among founders across trust, values, capabilities, roles, ambition, economics, communication, and support.
 - [Marketplace Rebundling](concepts/MarketplaceRebundling.md) - Consolidation of narrow marketplace use cases into broader category platforms when frequency, transaction value, shared liquidity, and limited user attention favor breadth.
-- [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, cookie, or partner identifiers to a durable person-level identity for recognition and targeting, with heightened privacy risk.
+- [Identity Resolution](concepts/IdentityResolution.md) - Linking browser, device, advertising, cookie, or partner identifiers to a durable person-level identity, including joins to signed-in accounts.
 - [Team Productivity](concepts/TeamProductivity.md) - Net useful group output after coordination, rework, maintenance, decision quality, and effects on colleagues are included.
 - [Cross-Functional Product Teams](concepts/CrossFunctionalProductTeams.md) - Explicit design, engineering, and product-management ownership connected by lightweight communication, shared direction, early participation, and accountable decision rights.
 - [Inclusive Hiring](concepts/InclusiveHiring.md) - Early design of sourcing, transparent evidence criteria, candidate access, calibration, and team conditions for varied contributors.
@@ -3145,7 +3146,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Mobile Internet](concepts/MobileInternet.md) - View that smartphone access is the primary mass-market internet rather than a reduced desktop-web subset.
 - [Mobile Platform Discovery](concepts/MobilePlatformDiscovery.md) - Problem of how users and brands find services when search, app stores, charts, operating systems, notifications, messaging, ads, and traffic holders shape attention.
 - [Digital Cartography](concepts/DigitalCartography.md) - Screen-based, dynamic, personalized, and platform-mediated mapmaking shaped by data, design, law, and commercial context.
-- [Location Data Privacy](concepts/LocationDataPrivacy.md) - Privacy problem created when systems collect or infer where people are, where they go, and what they seek there.
+- [Location Data Privacy](concepts/LocationDataPrivacy.md) - Privacy problem created when systems collect or infer where people are, including through background device communication without active interaction.
 - [User-Generated Mapping](concepts/UserGeneratedMapping.md) - Map-building pattern where public, volunteer, customer, or community contributions update and enrich map data.
 - [Media Brand Portfolio](concepts/MediaBrandPortfolio.md) - Operating multiple distinct audience-facing media brands with different consumer uses and revenue surfaces.
 - [Nine-Box Media Operating Model](concepts/NineBoxMediaOperatingModel.md) - BuzzFeed's matrix crossing three content engines with advertising, commerce, and studio revenue opportunities.

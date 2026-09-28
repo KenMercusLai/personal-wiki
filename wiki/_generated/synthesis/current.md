@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-28
-as_of_overview_commit: 8339e67d041b418e5eab4951da57b8efa10f07d6
+as_of_overview_commit: 29d5f139ddcfb6d352877a64e1612e583bab7fd8
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, and control."
-episode_count: 747
-source_count: 747
-paragraph_count: 566
+episode_count: 748
+source_count: 748
+paragraph_count: 567
 topic_count: 9
 ---
 
@@ -43,46 +43,46 @@ Durable value joins customer outcomes, coherent product and team design, sustain
 
 ### Cross-domain
 
-Cross-domain reasoning makes lifecycle, data, attention, cost, security, interface, reversibility, and distribution constraints inspectable.
+Cross-domain findings connect inspectable infrastructure, transferable models, feedback loops, and governance while preserving context and evidence limits.
 
 - Infrastructure becomes useful when it turns hidden flows into inspectable layers, from [[PersonalDataInfrastructure]] and [[HumanProgrammingInterface]] over local exports to [[EmailMarketingAtScale]] over billion-message campaign behavior. Evidence: [[EmailMarketingAtScale]], [[HumanProgrammingInterface]], [[PersonalDataInfrastructure]].
 - Human limits such as [[AttentionManagement]] and [[ThumbReachErgonomics]] are design constraints, not soft afterthoughts: calendars, productivity tools, and mobile navigation all fail when they ignore available attention or physical reach. Evidence: [[AttentionManagement]], [[ReachNavigation]], [[ThumbReachErgonomics]].
 
 ### Culture and Media
 
-Culture emerges from creative form, infrastructure, discovery, audience practice, governance, economics, and preservation; reach alone is insufficient.
+Media and culture combine expression, identity, distribution, monetization, platform power, and the operational infrastructure behind durable audience value.
 
 - [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], and [[CreatorEconomyStartups]] show that low-friction direct payment can improve niche creator economics, while [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], and [[StreamingContentEconomics]] show publishers and culture platforms still combining advertising, commerce, licensing, studio work, subscriptions, and distribution leverage; [[AppleMusicCulturePlatform]], [[AppleMusic]], and [[JimmyIovine]] add relationships, curation, original shows, and cultural relevance as proposed differentiation beyond catalog access and subscriber scale. Evidence: [[DigitalMediaMonetization]], [[NicheSubscriptionPublishing]], [[CreatorEconomyStartups]], [[PlatformPublisherRevenue]], [[MediaBrandPortfolio]], [[StreamingContentEconomics]], [[HunterWalk]], [[Buzzfeed]], [[AppleMusicCulturePlatform]], [[AppleMusic]], [[JimmyIovine]].
 - [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], and [[SocialMediaCuration]] show publishers and readers adapting to platform-native surfaces, while [[LiveJournal]], [[EmergentProductIdentity]], and [[CommunityGovernanceDebt]] show that privacy, configurability, support expectations, and community norms can become a cultural form that new ownership or commercialization cannot change without changing what users value. Evidence: [[DistributedPublishingStrategy]], [[PlatformSpecificEditorialStrategy]], [[SocialInteractionMetrics]], [[SocialMediaCuration]], [[Twitter]], [[BleacherReport]], [[LiveJournal]], [[EmergentProductIdentity]], [[CommunityGovernanceDebt]], [[Dreamwidth]], [[PlatformAbuseResponse]].
 
 ### Governance and Institutions
 
-Authority and automation require explicit ownership, intended and observed state, fair process, staged controls, traceability, recourse, and recovery.
+Institutions need explicit authority, evidence, appeal, transparency, and accountability where platforms or automated systems allocate visibility, opportunity, or risk.
 
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].
 - [[SystemArchitecturePrinciples]] shows technical standards acting as operational governance: service and API conventions let monitoring, traffic, resilience, configuration, telemetry, deployment, and middleware controls share interpretable boundaries, while [[APIErrorHandling]] demonstrates why generic infrastructure needs preserved protocol semantics and [[ContextualTechnologySelection]] keeps governance rules defeasible by local evidence. [[ZeroBugsPolicy]] adds a defect-state transition—fix or explicitly close instead of indefinite deferral—but responsible use preserves records and formal risk decisions where safety, security, accessibility, contracts, regulation, or auditability require them. Evidence: [[SystemArchitecturePrinciples]], [[APIErrorHandling]], [[ContextualTechnologySelection]], [[ChenHao]], [[ZeroBugsPolicy]], [[AgileSoftwareDevelopment]], [[InternalSoftwareQuality]].
 
 ### History and Geopolitics
 
-Historical learning should reconstruct lineages, institutions, interfaces, geography, and path dependence rather than copy visible winners as recipes.
+Historical cases show that visible products and practices preserve long lineages, path dependence, institutional context, and selection effects rather than simple recipes.
 
 ### Psychology and Personal Development
 
-Judgment and development depend on scarce attention, identity, consent, feedback, incentives, trust, reversible learning, relationships, and context.
+Human outcomes depend on bounded attention, identity, trust, incentives, relationships, evidence calibration, and privacy-aware control over behavioral data.
 
 - [[ForumCommunityDesign]] shows that online community outcomes depend partly on architecture: specialized scope, durable threads, search, and pseudonymity can support reusable knowledge and safer identity formation, while [[Facebook]] Groups favor discovery, sharing, real-name continuity, and existing relationships. Evidence: [[ForumCommunityDesign]], [[Facebook]], [[SocialProof]], [[JessicaSalvatore]], [[LouisePendry]].
 - [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], and [[EmanuelMaidenberg]] converge on deliberately allocating scarce time and attention rather than letting defaults consume them; leverage can mean buying help or ending a low-value persuasion contest, while [[UtilityOrientedUX]] applies the same principle to products, [[VisualAttention]] shows how stimulus-driven cues compete with top-down goals, and [[AutomaticAdvertisingInfluence]] qualifies the model by separating conscious attention from possible associative effects. Evidence: [[PersonalProductivity]], [[OpportunityCost]], [[AttentionManagement]], [[FounderTimeLeverage]], [[FounderInvestorFit]], [[ElizabethDunn]], [[EmanuelMaidenberg]], [[UtilityOrientedUX]], [[ProductFlowFriction]], [[Usability]], [[Uber]], [[CognitiveOverheadInProductDesign]], [[VisualAttention]], [[BehaviorDesign]], [[AttentionEconomy]], [[AutomaticAdvertisingInfluence]], [[JohnValJohn]].
 
 ### Science, Health, and Climate
 
-Direct evidence is narrow and source-scoped, strongest around condition-specific mental-health and attention claims; broad climate conclusions remain unsupported.
+Direct conclusions remain narrow and source-scoped, with mental-health findings separated from technology and work material routed into the topic indirectly.
 
 - [[DepressionAndSocialMedia]] is framed as a condition-specific interaction: during an existing episode, learned feed anticipation may persist despite anhedonia, while depleted control, impaired attention, curated comparison, and public-private identity dissonance can worsen distress; app and notification boundaries may help some people. Evidence: [[DepressionAndSocialMedia]], [[IsabellaHeuser]], [[DeannaZandt]], [[AttentionManagement]], [[SocialMediaCuration]], [[SocialMediaClinicalCare]].
 - [[AttentionManagement]] is treated as a scarce work resource protected by single-tasking, simplified information streams, offline work, and reducing procrastination-related mental interference. Evidence: [[AttentionManagement]], [[TimeManagementQuadrants]].
 
 ### Work, Education, and Society
 
-Work and learning depend on accessible entry, active practice, protected focus, feedback, proportional authority, safe reporting, fair incentives, and recovery.
+Work and learning improve through accessible practice, feedback, judgment, role clarity, fair incentives, consent, opportunity, and boundaries around attention and power.
 
 - [[EndUserComputing]] can lower the entry barrier to [[ProgrammingLiteracy]] through integrated setup and task-relevant primitives, but [[ProgrammerMindset]] and the historical [[Codecademy]] evidence show that motivation and immediate success do not guarantee reasoning, retention, debugging, feedback, maintainability, or independent transfer. Evidence: [[EndUserComputing]], [[ProgrammingLiteracy]], [[ProgrammerMindset]], [[Codecademy]].
 - [[HunterWalk]] argues that low-friction checkout, direct creator affinity, and higher niche per-customer revenue enabled paid content and [[CreatorEconomyStartups]]; the later panel adds that platforms should support monetization, discovery, interpretable data, community, and burnout while creators preserve direct audience relationships against platform change. [[AttentionBasedAdvertising]] adds a proposed path in which [[Brave]] users redirect [[BasicAttentionToken]] rewards to publishers and creators. [[Vine]] adds the retention boundary: fragmented creator networks can make attention portable enough for creators to shift effort toward better monetization. Evidence on [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], and [[AlgorithmicFeastAndFamine]] therefore shows why audience access, transaction tools, support, or redistributed ad revenue do not by themselves secure durable creator work. Evidence: [[HunterWalk]], [[CreatorEconomyStartups]], [[CreatorPowerLaw]], [[LinkInBioCompetition]], [[CreatorGraduationProblem]], [[AlgorithmicFeastAndFamine]], [[DigitalMediaMonetization]], [[EllenChisa]], [[Medium]], [[NickRockwell]], [[Stripe]], [[AttentionBasedAdvertising]], [[Brave]], [[BasicAttentionToken]], [[Vine]].

@@ -4,8 +4,8 @@ generated: true
 topic_id: psychology-and-personal-development
 title: "Psychology and Personal Development"
 last_updated: 2026-09-28
-as_of_overview_commit: a6cc8b047615134b6df99b9d9d46255c3d6b379c
-input_digest: d32002de48637dffea506f66a30544089cf9ff89f1ca8d13589e9deea8ef8a60
+as_of_overview_commit: 29d5f139ddcfb6d352877a64e1612e583bab7fd8
+input_digest: 9e300ab47b4777d780432e9076c9a51e3d254a61f804c1bdbf300d8a32fc64d9
 ---
 
 # Psychology and Personal Development
@@ -95,13 +95,14 @@ input_digest: d32002de48637dffea506f66a30544089cf9ff89f1ca8d13589e9deea8ef8a60
 
 ### Identity Linked Targeting Raises Attention Governance Risk
 
-[[IdentityResolution]] and [[AudienceTargeting]] show how transient browsing events can become durable person-level profiles; [[Sharenting]] extends that risk to children whose profiles may begin through adult posts, purchases, relationships, and metadata before meaningful consent. [[AnonymousSocialPrivacyArchitecture]] uses local transformation, tokenized delivery, record separation, privileged-access controls, and disclosure thresholds to seek social relevance without routine direct linkage, while [[ZeroWidthTextFingerprinting]] shows that recipient identity can still be invisibly reattached to content, making privacy, purpose limitation, operator trust, and evidentiary reliability part of the behavioral system.
+[[IdentityResolution]] and [[AudienceTargeting]] show how transient browsing events can become durable person-level profiles; the historical [[Google]] case extends this from cross-partner cookies to vertically integrated [[Android]], [[Chrome]], advertising, and signed-in account signals, while [[LocationDataPrivacy]] shows that collection can occur without direct interaction. [[Sharenting]] extends the risk to children whose profiles may begin through adult posts, purchases, relationships, and metadata before meaningful consent. [[AnonymousSocialPrivacyArchitecture]] uses local transformation, tokenized delivery, record separation, privileged-access controls, and disclosure thresholds to seek social relevance without routine direct linkage, while [[ZeroWidthTextFingerprinting]] shows that recipient identity can still be invisibly reattached to content, making privacy, purpose limitation, operator trust, and evidentiary reliability part of the behavioral system.
 
-**Evidence:** [[Acxiom]], [[AnalyticsVidhya]], [[AnonymousSocialPrivacyArchitecture]], [[AnonymousSourcing]], [[AudienceTargeting]], [[ChildrensCommissioner]], [[DataFactories]], [[DavidByttow]], [[IdentityResolution]], [[Secret]], [[Sharenting]], [[ZeroWidthTextFingerprinting]]
+**Evidence:** [[Acxiom]], [[AnalyticsVidhya]], [[AnonymousSocialPrivacyArchitecture]], [[AnonymousSourcing]], [[AudienceTargeting]], [[ChildrensCommissioner]], [[DataFactories]], [[DavidByttow]], [[IdentityResolution]], [[Google]], [[Android]], [[Chrome]], [[LocationDataPrivacy]], [[Secret]], [[Sharenting]], [[ZeroWidthTextFingerprinting]]
 
 **Qualifications:**
 
 - The advertising mechanism comes from a conceptual 2018 tutorial built around third-party cookies, not a current legal, technical, or behavioral evaluation.
+- The Google collection evidence is an advocacy-oriented summary of 2018 research that does not reproduce the complete protocol or raw traffic; request counts are not necessarily distinct observations, device comparisons are configuration-sensitive, and the findings do not establish current controls, retention, or use.
 - The zero-width technique is one author's implementation account and reported success; the marker can be stripped, normalized, corrupted, or forged, and it identifies a rendered account rather than proving which human copied the text.
 - Secret's design is a founder-authored 2014 account without an independent audit or attack results; shared-salt contact hashes remain enumerable, server-side decryption preserves operator access, and delivery thresholds do not establish a formal anonymity guarantee.
 - The sources do not establish matching accuracy, informed consent, acceptable use, fairness, user control, or sufficient corroboration for consequential action.

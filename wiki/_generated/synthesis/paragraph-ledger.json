@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7f02cdfe51d04f5299fb802c835b15eb5142f7e60ef108f7009b3a50cd564f92",
       "88ce7accb96d8fad750bc20ba85c951480beb5699e892f451330ecf88a094748",
       "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
       "713ed2d881cb5f9d973ae7f0cf39707566ae10f8195412711b36d4d5de30cd90",
@@ -568,11 +569,30 @@
       "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
       "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64"
     ],
-    "paragraph_count": 566
+    "paragraph_count": 567
   },
-  "overview_commit": "8339e67d041b418e5eab4951da57b8efa10f07d6",
-  "overview_digest": "8bd4db904a018cf43490b3dcf06b7ce50ba304d6e62660f046f3bda651594d55",
+  "overview_commit": "29d5f139ddcfb6d352877a64e1612e583bab7fd8",
+  "overview_digest": "eaf2b261818dd79047973a93eb129861a195c0044085782da567fe12d1a702d7",
   "paragraphs": [
+    {
+      "id": "7f02cdfe51d04f5299fb802c835b15eb5142f7e60ef108f7009b3a50cd564f92",
+      "primary_topic": "psychology-and-personal-development",
+      "secondary_topics": [],
+      "text": "The newest Google data-collection source adds a historically specific mechanism to the wiki's broader [[DataFactories]], [[IdentityResolution]], and [[LocationDataPrivacy]] accounts. Digital Content Next's summary of Douglas C. Schmidt's 2018 research reports 340 location communications in 24 hours from a stationary [[Android]] phone with [[Chrome]] active in the background, nearly 50 times the hourly Google requests observed on the tested idle iOS/Safari device and nearly 10 times the Android-to-[[Google]] frequency of the Apple-device-to-Apple comparison. More consequential than request volume alone is the proposed join: Android device identifiers and DoubleClick cookies can connect nominally pseudonymous app or third-party browsing activity to a signed-in Google identity. The retained system diagram places Google Analytics, DoubleClick, AdWords, AdSense, AdMob, AMP, and surveys around a shared analysis environment, making vertically integrated device, browser, account, analytics, and advertising reach part of the privacy boundary. These findings qualify privacy models focused only on active product use, user-facing settings, or downstream anonymization, but remain bounded: the article is an advocacy-oriented summary that does not reproduce the complete protocol or raw traffic, communication counts are not necessarily distinct observations, comparisons are configuration-sensitive, and 2018 behavior does not establish current controls, retention, or use. Both unique images were opened and retained; the repeated location-signals illustration was deduplicated.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "psychology-and-personal-development": 2
+      },
+      "wikilinks": [
+        "Android",
+        "Chrome",
+        "DataFactories",
+        "Google",
+        "IdentityResolution",
+        "LocationDataPrivacy"
+      ]
+    },
     {
       "id": "88ce7accb96d8fad750bc20ba85c951480beb5699e892f451330ecf88a094748",
       "primary_topic": "business-and-markets",
