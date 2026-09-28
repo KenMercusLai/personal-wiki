@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Four Questions Towards Understanding User Adoption of Your Product](sources/four-questions-towards-understanding-user-adoption-of-your-product.md) - Josh Elman proposes interviewing active users who initially abandoned a product and later returned to identify activation messages, obstacles, and successful behaviors.
 - [Founder's Guide to Automation](sources/founders-guide-to-automation-fundersclub.md) - FundersClub argues for automating stable recurring startup work while preserving human oversight, escalation, and high-touch learning with first customers.
 - [Founder of Pandora on Lessons from Near Dot Com Bust to Billion Dollar IPO](sources/founder-of-pandora-on-lessons-from-near-dot-com-bust-to-billion-dollar-ipo-first-round-review.md) - Tim Westergren connects Pandora's software focus, prolonged cash crisis, team endurance, founder-role recasting, and post-IPO scale.
 - [Founder Stories: A Hacker's Hacker](sources/founder-stories-a-hackers-hacker-openocean.md) - OpenOcean profiles Monty Widenius through MySQL's long development, open-source commercialization, developer-led culture, MariaDB, and OpenOcean.
@@ -718,6 +719,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Adaptive Path](entities/AdaptivePath.md) - Design and research organization represented through its source-scoped role in Twitter's 2009 user-adoption research.
 - [Tim Westergren](entities/TimWestergren.md) - Pandora founder represented through music-discovery work, strategic focus, crisis leadership, and a later move from CEO to strategy.
 - [Pandora](entities/Pandora.md) - Music-discovery company that evolved from Savage Beast Technologies through a cash crisis, leadership recasting, and an IPO.
 - [Joe Kennedy](entities/JoeKennedy.md) - Pandora CEO presented as Tim Westergren's complementary leadership partner after a founder-role transition.
@@ -2711,6 +2713,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Net Promoter Score](concepts/NetPromoterScore.md) - Customer-loyalty metric and survey program that subtracts detractor share from promoter share and turns open-ended comments into product input.
 - [Product Storytelling](concepts/ProductStorytelling.md) - Communicating product direction through past-present-future narrative and supporting ROI models.
 - [User Research Pattern Threshold](concepts/UserResearchPatternThreshold.md) - Lightweight qualitative research rule that treats three matching target-user observations as an actionable pattern.
+- [Bounceback User Research](concepts/BouncebackUserResearch.md) - Contrastive activation research with users who abandoned a product, returned after a gap, and then became habitually active.
 - [Iterative Product Shipping](concepts/IterativeProductShipping.md) - Releasing product work in frequent staged versions so each release creates evidence, reduces bugs, and guides investment.
 - [Product Retrospectives](concepts/ProductRetrospectives.md) - Structured team reflection that turns iteration or project experience into a small, prioritized set of product and process changes.
 - [Cross-Domain Wisdom](concepts/CrossDomainWisdom.md) - WHY-level understanding that transfers across domains because it captures reusable explanatory patterns.

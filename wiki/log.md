@@ -5678,3 +5678,11 @@ Added [[StartupOperationsAutomation]] as a bounded practice of simplifying stabl
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Four Questions Towards Understanding User Adoption of Your Product
+
+Added [[BouncebackUserResearch]] as a contrastive activation method centered on users who abandoned a first attempt, returned after a meaningful gap, and then became active. Created a source-bounded [[AdaptivePath]] profile and updated [[JoshElman]] from his complete ordered evidence inventory with the four-question sequence linking initial motivation, failed expectations, return triggers, and successful second-attempt behavior. Connected the reported [[Twitter]] case to [[FirstMileProductExperience]], [[ProductEngagementLadder]], and [[ProductLedRetention]], while preserving survivorship, recall, sampling, and causal limits and treating ten interviews and a six-month cadence as unvalidated practitioner heuristics. The supplied Markdown contains no image references, so no asset manifest was needed.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
