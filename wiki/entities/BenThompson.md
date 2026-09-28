@@ -10,12 +10,13 @@ sources:
   - data-factories-stratechery-by-ben-thompson
   - facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson
   - faceless-publishers-stratechery-by-ben-thompson
+  - google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson
 last_updated: 2026-09-28
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, [[Apple]]'s mature vertical hardware strategy, [[Amazon]]'s scale-driven services model, [[AggregationTheory]], advertising super-aggregators as [[DataFactories]], [[AggregatorMonopolyPower]], and the unbundling of editorial brands from scalable publishing operations.
+[[BenThompson]] is the [[Stratechery]] author represented in the wiki through analyses of software business models, platform incentives, [[Apple]]'s mature vertical hardware strategy, [[Amazon]]'s scale-driven services model, [[AggregationTheory]], advertising super-aggregators as [[DataFactories]], [[AggregatorMonopolyPower]], the unbundling of editorial brands from scalable publishing operations, and [[TransportationAsAService]] as an integration of vehicles, maps, routing, riders, capital, and regulation.
 
 ## Current Profile
 The Adobe source presents Thompson as analyzing [[Adobe]]'s shift to [[CreativeCloud]] through the economics of packaged software, SaaS, productivity apps, and mobile platforms. His argument moves from user-level willingness to pay to producer incentives and then to platform-owner strategy: subscriptions can help app makers survive, but they can also help platform owners retain users who depend on indispensable apps. The Apple middle-age source shows the same incentive lens applied to a hardware company: Thompson argues that [[AppleMusic]] and Services should be understood as ways to differentiate and sell Apple devices, with [[HomePod]] as a case where service adoption bridges into hardware profit. The Apple social-network source adds a measurement lens: if Apple wants investors to value engagement and installed-base monetization, Thompson argues it should disclose active customers and revenue per user rather than only active devices and Services revenue.
@@ -28,6 +29,8 @@ The Facebook monopoly essay applies surplus analysis to a free, multi-sided aggr
 
 The faceless-publisher essay applies the same system-boundary and scale reasoning to media operations. Thompson argues that internet distribution atomized creators and audience-facing brands while pushing advertising sales, technology, subscriptions, support, and administration toward shared scale. The Ringer and Vox Media partnership supplies the case: creator ownership and editorial independence remain visible while reusable backend functions consolidate.
 
+The transportation essay applies capability decomposition to a market in transition. Thompson separates drivers, cars, mapping, routing, and riders, then traces how their economics change from UberX to pooling, commuter sharing, and autonomous fleets. His 2016 competitive judgment resists reducing the market to self-driving technology: Google's lead in maps and autonomy had to be integrated with routing, capital deployment, approval, and customer demand, while Uber's marketplace advantage would weaken when drivers disappeared. The company ranking remains a forecast, but the five-component model extends his recurring practice of locating power at system boundaries rather than in a headline product alone.
+
 ## Key Characteristics
 - Frames technology announcements and regulation through business-model incentives and system boundaries.
 - Uses economic-surplus reasoning to explain why packaged productivity software misprices different users.
@@ -35,7 +38,7 @@ The faceless-publisher essay applies the same system-boundary and scale reasonin
 - Treats app-store subscriptions as a platform-retention tool while distinguishing services revenue from a company's underlying business model.
 - Interprets Apple through vertical integration, installed-base leverage, and market maturity rather than through a simple services-pivot story.
 - Uses reporting choices, customer metrics, and engagement programs to test whether a company's public story matches its underlying economics.
-- Separates goals, strategies, and tactics while tracing how anchor demand, scale economics, demand control, data transformation, surplus allocation, and operational unbundling shape platform and publishing power.
+- Separates goals, strategies, tactics, and capability layers while tracing how anchor demand, scale economics, routing, capital, demand control, data transformation, surplus allocation, and operational unbundling shape platform power.
 
 ## Evidence
 - Business-model lens: [[adobes-subscription-model-why-platform-owners-should-care-stratechery-by-ben-thompson]] says Adobe's announcement matters because new business models are rarer than new product versions.
@@ -52,14 +55,18 @@ The faceless-publisher essay applies the same system-boundary and scale reasonin
 - Multi-sided monopoly lens: [[facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson]] looks beyond Facebook's zero user price to publisher surplus, advertising scarcity, and innovation incentives.
 - Dynamic competition distinction: [[facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson]] separates the incentive to build a new monopoly from the social cost of allowing an established monopolist unrestricted defense.
 - Publishing unbundling: [[faceless-publishers-stratechery-by-ben-thompson]] separates creator-owned brands and labor-intensive editorial work from scalable technology, advertising sales, subscriptions, support, and administration.
+- Capability decomposition: [[google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson]] models transportation through drivers, cars, mapping, routing, and riders rather than treating autonomy as a complete service.
+- Network-effect transition: [[google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson]] argues that autonomous fleets remove Uber's scarce driver side while increasing the importance of fleet utilization and dispatch.
+- Competitive asymmetry: [[google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson]] contrasts Google's maps and vehicle technology with Uber's routing, service model, and customer attachment.
+- Forecast discipline: [[google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson]] makes manufacturing time, government approval, capital appetite, and existential urgency explicit parts of the 2016 company ranking.
 
 ## Qualifications
-This page covers Thompson only through seven Stratechery articles. It does not summarize his broader publishing history, later writing, or current views. The Amazon grocery-services and faceless-publisher theses were prospective in 2017 and should not be read as verified later outcomes. The data-factory proposal is likewise not evidence that profile disclosure changed privacy outcomes or competition, and its user-agency premise is qualified by unequal time, skill, money, advice, and ability to exit dominant services. The Facebook monopoly article is an economic strategy essay rather than a legal or empirical antitrust finding; its publisher, advertising, and innovation effects remain incompletely measured.
+This page covers Thompson only through eight Stratechery articles. It does not summarize his broader publishing history, later writing, or current views. The Amazon grocery-services, faceless-publisher, and transportation-service theses were prospective in 2016-2017 and should not be read as verified later outcomes. The TaaS article does not establish later autonomous-driving leadership, routing defensibility, fleet economics, or regulatory approval. The data-factory proposal is likewise not evidence that profile disclosure changed privacy outcomes or competition, and its user-agency premise is qualified by unequal time, skill, money, advice, and ability to exit dominant services. The Facebook monopoly article is an economic strategy essay rather than a legal or empirical antitrust finding; its publisher, advertising, and innovation effects remain incompletely measured.
 
 ## What Changed
-- Added Thompson's model of creator atomization paired with consolidated publishing operations.
-- Added The Ringer–Vox Media partnership as his concrete case for separating brand ownership from backend scale.
-- Preserved the model as a 2017 hypothesis with unresolved dependency and bargaining-power questions.
+- Added Thompson's five-component transportation-service model and staged transition from ride-hailing to autonomous fleets.
+- Extended his system-boundary method to routing, mapping, customer habit, capital deployment, and government approval.
+- Preserved the Uber-versus-Google ranking as a 2016 forecast rather than a later outcome claim.
 
 ## Relationships
 - [[Stratechery]] - publication where Thompson's article appears.
@@ -79,3 +86,6 @@ This page covers Thompson only through seven Stratechery articles. It does not s
 - [[FacelessPublishingInfrastructure]] - Thompson's model for shared monetization, technology, and operations behind independent creator brands.
 - [[TheRinger]] - creator-owned publication used as the partnership case.
 - [[VoxMedia]] - backend provider whose reusable sales and technology capabilities motivate the model.
+- [[TransportationAsAService]] - capability stack Thompson uses to separate autonomous vehicles from a complete operating service.
+- [[Uber]] - incumbent whose routing, service model, and customer attachment anchor Thompson's 2016 competitive case.
+- [[Google]] - mapping and autonomy leader whose missing service layers complicate a technology-first forecast.

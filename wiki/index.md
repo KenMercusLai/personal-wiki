@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Google, Uber, and the Evolution of Transportation-as-a-Service](sources/google-uber-and-the-evolution-of-transportation-as-a-service-stratechery-by-ben-thompson.md) - Ben Thompson decomposes autonomous ride service into drivers, cars, maps, routing, and riders, then compares Google's technology lead with Uber's operating and customer advantages.
 - [Google Is Making the Same Mistake Now That Microsoft Did in the 90s](sources/google-is-making-the-same-mistake-now-that-microsoft-did-in-the-90s-macworld.md) - Jason Snell compares Google's Material-styled iOS apps with Windows-derived Office for Mac to argue that host-platform fit can matter more than vendor-wide consistency.
 - [Google Maps Is Ready to Transform the World of Superapps: A Skift Deep Dive](sources/google-maps-is-ready-to-transform-the-world-of-superapps-a-skift-deep-dive-skift.md) - Skift compares Google Maps' discovery-led platform expansion with WeChat, Grab, and Meituan while preserving limits around local context, partner fulfillment, regional habits, regulation, and estimated revenue.
 - [Google data collection research](sources/google-data-collection-research-digital-content-next.md) - Digital Content Next summarizes 2018 experiments on passive Android and Chrome telemetry, background location communication, and Google advertising-identifier linkage.
@@ -1588,7 +1589,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Analytics Vidhya](entities/AnalyticsVidhya.md) - AI and data-science education publisher behind the language-modeling tutorial.
 - [Adobe](entities/Adobe.md) - Productivity-software company used as the source's flagship example of moving packaged creative tools to subscriptions.
 - [Anil Dash](entities/AnilDash.md) - Product operator and longtime Twitter observer offering the source's turnaround critique.
-- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing software business models, platforms, aggregation, data factories, monopoly power, and publishing infrastructure.
+- [Ben Thompson](entities/BenThompson.md) - Stratechery author analyzing business models, platforms, aggregation, monopoly power, publishing infrastructure, and transportation-service capability stacks.
 - [Bill Simmons](entities/BillSimmons.md) - Writer and founder whose creator-owned Ringer brand illustrates editorial independence paired with shared publishing infrastructure.
 - [The Ringer](entities/TheRinger.md) - Independent sports-and-culture publication using Vox Media for advertising sales and technology.
 - [Vox Media](entities/VoxMedia.md) - Media company framed as a scalable technology and advertising backend for independently owned publications.
@@ -1616,7 +1617,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Women in Product](entities/WomenInProduct.md) - Publication or Medium collection context for the rule-of-threes product-management source.
 - [Loadmill](entities/Loadmill.md) - Testing-product and publisher context for production-like staging and traffic-based verification advice.
 - [Shazam](entities/Shazam.md) - Music-recognition app used as an example of visible offline product use creating word-of-mouth discovery.
-- [Uber](entities/Uber.md) - Transportation marketplace connecting early-adopter growth, platform trust, destination-first product redesign, rough but valued service, career judgment, and subsidy-backed unit economics.
+- [Uber](entities/Uber.md) - Transportation marketplace connecting early growth and trust with routing, customer habit, autonomous-service transition, product infrastructure, and subsidy-backed economics.
 - [Buffer](entities/Buffer.md) - Social-media scheduling SaaS used as a guest-blogging, remote-work, operating-transparency, continuous-feedback, and founder-vision-alignment case.
 - [Leo Widrich](entities/LeoWidrich.md) - Buffer co-founder who left in 2017 while remaining a non-executive board member and advisor.
 - [Sunil Sadasivan](entities/SunilSadasivan.md) - Buffer CTO and early technical leader who left in 2017 after strategic misalignment about Buffer's next phase.
@@ -1822,7 +1823,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Edgar Dale](entities/EdgarDale.md) - Educational theorist cited for Dale's Cone of Experience.
 - [Firecracker](entities/Firecracker.md) - MicroVM isolation technology discussed as useful execution isolation but not semantic agent isolation.
 - [Gateway API Inference Extension](entities/GatewayAPIInferenceExtension.md) - Endpoint-picker extension for inference routing, evaluated for byte-based token estimates and centralized EPP architecture.
-- [Google](entities/Google.md) - Search, web-platform, mobile, geospatial, advertising, data-processing, cloud-infrastructure, and enterprise-security actor whose cross-product reach also creates passive-collection and identity-linkage risks.
+- [Google](entities/Google.md) - Search, web, mobile, geospatial, advertising, data, cloud, and security actor whose maps and autonomy work also supplied part of a forecast transportation-service stack.
 - [Google AdWords](entities/GoogleAdWords.md) - Google's self-service advertising product used as a product-management case for reconciling sales, engineering, relevance, and revenue constraints.
 - [Google Play](entities/GooglePlay.md) - Google's Android marketplace, pairing sustained download scale with weaker direct spending and significant distribution-governance responsibilities.
 - [Ed Parsons](entities/EdParsons.md) - Google's geospatial technologist and cartographic evangelist for personalized, screen-native, and privacy-sensitive maps.
@@ -1944,7 +1945,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Steven Covey](entities/StevenCovey.md) - Productivity author cited for the urgent/important time-management quadrants.
 - [Steve Ridout](entities/SteveRidout.md) - Solo founder of Readlang whose three-year retrospective adds early-stage bootstrapped SaaS economics to the wiki.
 - [Stripe](entities/Stripe.md) - Developer-oriented payment infrastructure and an organization case for patient hiring, compatibility, written scaling communication, and early design involvement.
-- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's platform, Apple maturity, and customer-metrics analyses.
+- [Stratechery](entities/Stratechery.md) - Technology-strategy publication context for Ben Thompson's business-model, platform, organizational-boundary, and transportation-capability analyses.
 - [Supabase](entities/Supabase.md) - Hosted Postgres-style backend discussed as needing its official edge-compatible JavaScript client on Cloudflare.
 - [Temporal](entities/Temporal.md) - Durable workflow system contrasted with nondeterministic, untrusted LLM agent execution.
 - [Tim Berners-Lee](entities/TimBernersLee.md) - CERN engineer credited in the source with inventing HTTP and the World Wide Web.
@@ -2692,6 +2693,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Deep Learning Scaling](concepts/DeepLearningScaling.md) - Contested link between increasing compute, data, model size, and transferable deep-learning capability.
 - [Autonomous Driving Safety](concepts/AutonomousDrivingSafety.md) - Reliability problem spanning perception, maps, fleet learning, simulation, handoff, social coordination, and public legitimacy in open-world traffic.
 - [Autonomous Vehicle Data Network Effects](concepts/AutonomousVehicleDataNetworkEffects.md) - Fleet-learning advantages from shared maps, driving behavior data, and simulation, qualified by interpretability, pooling, interoperability, and diminishing returns.
+- [Transportation as a Service](concepts/TransportationAsAService.md) - Five-component mobility stack connecting drivers, cars, mapping, routing, and riders across ride-hailing, pooling, commuting, and autonomous fleets.
 - [Automotive Interface Transition](concepts/AutomotiveInterfaceTransition.md) - Shift from feature-heavy car dashboards toward sensor-fused software platforms, direct action, partial autonomy, and eventually reduced driver-interface burden.
 - [Automobility Second-Order Effects](concepts/AutomobilitySecondOrderEffects.md) - Downstream social, economic, spatial, labor, energy, and surveillance effects of electric and autonomous vehicle adoption.
 - [Small Team Leverage](concepts/SmallTeamLeverage.md) - Startup pattern where a compact team with little capital reaches outsized usage through focus, timing, network support, and execution.

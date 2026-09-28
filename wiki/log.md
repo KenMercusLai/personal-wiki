@@ -6040,3 +6040,11 @@ Added [[JasonSnell]]'s comparison of Google's 2016 Material-styled iOS applicati
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Google, Uber, and the Evolution of Transportation-as-a-Service
+
+Added [[BenThompson]]'s 2016 [[Stratechery]] framework for [[TransportationAsAService]] as five coupled components: drivers, cars, mapping, routing, and riders. Updated [[Uber]], [[Google]], Ben Thompson, and Stratechery from their complete ordered evidence inventories, distinguishing Google's mapping and autonomy lead from Uber's pooled-routing experience, service model, customer habit, and existential urgency. Preserved the company ranking as a forecast qualified by autonomy's removal of the driver-side network effect, unresolved fleet capital and labor, government approval, routing defensibility, subsidy-backed economics, and later outcomes. Opened and retained the sole local image as a transition diagram linking UberX customer relationships, UberPool routing, and UberHop/Waze commuter sharing to Google self-driving cars.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

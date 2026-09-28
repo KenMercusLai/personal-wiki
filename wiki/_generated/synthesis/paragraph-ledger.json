@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "79ef7fcdb9a50c0863a86e985899c173a001e767b1a968bfdd3edbd37cf35f62",
       "7f02cdfe51d04f5299fb802c835b15eb5142f7e60ef108f7009b3a50cd564f92",
       "88ce7accb96d8fad750bc20ba85c951480beb5699e892f451330ecf88a094748",
       "482ca6216975aea76f65de5d71a9b88d716a56928b8119bc7a1baf0dac17b67d",
@@ -569,11 +570,31 @@
       "e6fbb741339418c0f442cc2adee06762b6b940de5a68a900c45459ca54cc1dfa",
       "084a8d2c3866288ba13766fe21ea38130674d8e3904dc3f9aed4617018b12f64"
     ],
-    "paragraph_count": 567
+    "paragraph_count": 568
   },
-  "overview_commit": "a6069630407d288cc87e02d5a1fb756d16f9eef0",
-  "overview_digest": "eaf2b261818dd79047973a93eb129861a195c0044085782da567fe12d1a702d7",
+  "overview_commit": "cbf45bb08e592d5c187ad732bde23b846bed5f07",
+  "overview_digest": "9bb6da9ccfaf2bbabc35500a9f84951a50e8d1f83d1f5b3702162f3d3545cfb5",
   "paragraphs": [
+    {
+      "id": "79ef7fcdb9a50c0863a86e985899c173a001e767b1a968bfdd3edbd37cf35f62",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [],
+      "text": "The newest Stratechery source adds [[TransportationAsAService]] as a five-component operating stack of drivers, cars, mapping, routing, and riders. [[BenThompson]] argues that the path from UberX to autonomous fleets is not a straight substitution of robotic cars for human drivers: UberX's two-sided liquidity matters less once drivers cease to be scarce, while UberPool makes real-world multi-rider routing, pickup behavior, and fleet utilization more valuable. Waze-style commuter matching supplies a transitional \"human self-driving car\" model because the vehicle and driver are already making the trip. In the source's 2016 comparison, [[Google]] led in detailed maps and autonomous technology, while [[Uber]] led in routing, service operations, customer habit, and existential commitment; fleet manufacturing, capital appetite, and government approval gave the incumbent time to catch up. The durable synthesis is capability integration, not the predicted winner. The essay does not establish later autonomy outcomes, permanent routing defensibility, acceptable fleet returns, or the labor required for remote assistance, maintenance, charging, cleaning, and safety operations, while [[SubsidizedUnitEconomics]] separates customer attachment from profitability. The inspected diagram was retained because it visually joins UberX customer relationships, UberPool routing, and UberHop/Waze commuter sharing to the proposed autonomous-service transition.",
+      "topic_scores": {
+        "ai-and-technology": 2,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "BenThompson",
+        "Google",
+        "SubsidizedUnitEconomics",
+        "TransportationAsAService",
+        "Uber"
+      ]
+    },
     {
       "id": "7f02cdfe51d04f5299fb802c835b15eb5142f7e60ef108f7009b3a50cd564f92",
       "primary_topic": "psychology-and-personal-development",
