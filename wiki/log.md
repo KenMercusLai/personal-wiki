@@ -5686,3 +5686,11 @@ Added [[BouncebackUserResearch]] as a contrastive activation method centered on 
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Four fundamentals of workplace automation
+
+Added [[WorkplaceAutomation]] as an activity-level model that separates technical potential within jobs from wholesale occupational replacement, realized adoption, and worker outcomes. Created source-bounded profiles for [[McKinsey]], [[MichaelChui]], [[JamesManyika]], and [[MehdiMiremadi]], and updated [[AugmentedIntelligence]] from its complete ordered evidence inventory with job and process redesign as the mechanism that can convert partial automation into greater expert capacity. Preserved the analysis's limits as a preliminary 2015 US model whose demonstrations, wage exposure, and selected process cases do not establish current feasibility, adoption, returns, job loss, meaningful work, or equitable transition. The supplied Markdown contains no effective image references: its two exhibit labels have no embedded assets, so no visual evidence was used and no asset manifest was created.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

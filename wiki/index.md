@@ -718,6 +718,8 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
+- [Four fundamentals of workplace automation](sources/four-fundamentals-of-workplace-automation-mckinsey.md) - McKinsey's 2015 activity-level model argues that partial automation will reshape many more jobs than it eliminates wholesale, making process redesign, augmentation, adoption constraints, and transition risks central.
+
 ## Entities
 - [Adaptive Path](entities/AdaptivePath.md) - Design and research organization represented through its source-scoped role in Twitter's 2009 user-adoption research.
 - [Tim Westergren](entities/TimWestergren.md) - Pandora founder represented through music-discovery work, strategic focus, crisis leadership, and a later move from CEO to strategy.
@@ -2008,6 +2010,11 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
+- [McKinsey & Company](entities/McKinsey.md) - Consulting and research organization represented through its 2015 activity-level analysis of workplace automation.
+- [Michael Chui](entities/MichaelChui.md) - McKinsey Global Institute principal and coauthor of the 2015 workplace-automation analysis.
+- [James Manyika](entities/JamesManyika.md) - McKinsey Global Institute director and coauthor of the 2015 workplace-automation analysis.
+- [Mehdi Miremadi](entities/MehdiMiremadi.md) - McKinsey principal and coauthor of the 2015 workplace-automation analysis.
+
 ## Concepts
 - [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating an existential startup threat through credible sacrifice, candor, team commitment, strategic boundaries, and explicit fairness limits.
 - [Open-Source Commercialization](concepts/OpenSourceCommercialization.md) - Revenue and licensing arrangements intended to fund public software development without abandoning community participation.
@@ -3095,5 +3102,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 - [Product Manager Hiring](concepts/ProductManagerHiring.md) - Role-specific hiring system linking PM responsibilities to varied sourcing, structured evidence, reciprocal evaluation, and honest candidate closing.
 - [Technical Decision Review](concepts/TechnicalDecisionReview.md) - Structured inquiry testing a technical plan's purpose, failure modes, detection signals, response options, and reversibility.
+
+- [Workplace Automation](concepts/WorkplaceAutomation.md) - Activity-level framework for automating parts of jobs while redesigning processes, roles, skills, controls, and accountability.
 
 ## Syntheses
