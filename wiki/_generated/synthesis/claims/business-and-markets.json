@@ -2,6 +2,24 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "startup-survival-aligns-focus-crisis-and-role-fit",
+      "qualifications": [
+        "The evidence is one successful founder's retrospective relayed by an investor publication, without independent verification, comparison with failed companies, or employee, successor, partner, investor, and board perspectives.",
+        "Nearly two and a half years of unpaid work and founder credit-card financing create legal, ethical, coercion, inequality, and burnout risks; survival does not make those sacrifices safe, fair, or repeatable."
+      ],
+      "statement": "[[Pandora]] links three stage-dependent operating choices: [[StartupFocus]] bounded a cash-poor software company away from hardware expansion, [[StartupCrisisLeadership]] joined product belief, leader-first sacrifice, transparency, camaraderie, and motivation-aware hiring during financial distress, and [[CEOScalingRole]] let [[TimWestergren]] move from broad execution into strategy alongside [[JoeKennedy]] as a complementary CEO.",
+      "status": "source-scoped",
+      "supporting_wikilinks": [
+        "Pandora",
+        "StartupFocus",
+        "StartupCrisisLeadership",
+        "CEOScalingRole",
+        "TimWestergren",
+        "JoeKennedy"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "camera-transformation-links-product-and-self-presentation",
       "qualifications": [
         "The evidence is one interpretive 2016 essay without comparative usage, retention, revenue, identity, wellbeing, technical-performance, or acquisition-return measures.",

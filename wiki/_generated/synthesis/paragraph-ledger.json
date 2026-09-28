@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "50766921b76cf44d3c860cbbfcb2d57bbf8017ec29d59d2bd7bf36c6389c57e6",
       "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
       "fd4cb27428aba74248aabb4fea2a40df8ef170e1c9e4e0b5700336d834373874",
       "55f77e7c934495a87b1997d3e5754a63e558f240e000dc0dd5859676b356b955",
@@ -540,11 +541,37 @@
       "75b21dfe6bcb85d06536b831820ee9fe7cf0aa5be90459e41f196c24d4e72fe1",
       "9aa390578f04a86bb3dc73dd9eda29783de427de07d77afa413d60b19a2ef162"
     ],
-    "paragraph_count": 538
+    "paragraph_count": 539
   },
-  "overview_commit": "3ddd900b343043aeacb5c3666187988151610a8e",
-  "overview_digest": "a50499b6af36510a686c92db2669cd8e31d33bab9481683e7537fd09031f3ce3",
+  "overview_commit": "a6d3fef6e440693084d77e8ad580ddfed9078624",
+  "overview_digest": "4c2972f617b177c6809821edbc50d33b46128c9d1e8af470e0faeb8c92efa2ad",
   "paragraphs": [
+    {
+      "id": "50766921b76cf44d3c860cbbfcb2d57bbf8017ec29d59d2bd7bf36c6389c57e6",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest [[TimWestergren]] source adds [[Pandora]] as a non-linear startup-survival and founder-role case. The company began in 1999 as the B2B Savage Beast Technologies, using the [[MusicGenomeProject]] to address music discovery; a seven-person team reportedly won a [[BestBuy]] kiosk test with a rough web prototype, then kept the company inside software rather than taking on hardware work where IBM held greater capability and bargaining power. This extends [[StartupFocus]] from product and portfolio choice into ecosystem boundaries: adjacent revenue can still be dangerous when it changes capital needs, negotiation exposure, and operating competence. New [[StartupCrisisLeadership]] captures Westergren's account of nearly two and a half years in which roughly 50 core employees worked without salary: product belief, founder-first sacrifice, transparency, camaraderie, and motivation-aware hiring are presented as mutually reinforcing sources of endurance. The concept remains sharply qualified because the evidence is one successful founder's retrospective, and personal credit-card debt plus prolonged unpaid labor create survivorship, coercion, legal, financial-inequality, and burnout risks that cohesion cannot erase. The article also deepens [[CEOScalingRole]]: Westergren moved from music specialist through many operating titles, then from CEO to chief strategy officer when [[JoeKennedy]] became a complementary CEO partner rather than removing the founder from the company. By the retrospective Pandora had completed an IPO and employed more than 700 people, but the source does not independently verify its operational figures, isolate which practices caused survival, or include employee, Kennedy, IBM, Best Buy, investor, or board perspectives. Its sole local image was opened and retained once as a contextual photograph of Westergren among compact discs.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 5,
+        "culture-and-media": 1,
+        "governance-and-institutions": 1,
+        "psychology-and-personal-development": 1,
+        "work-education-and-society": 3
+      },
+      "wikilinks": [
+        "BestBuy",
+        "CEOScalingRole",
+        "JoeKennedy",
+        "MusicGenomeProject",
+        "Pandora",
+        "StartupCrisisLeadership",
+        "StartupFocus",
+        "TimWestergren"
+      ]
+    },
     {
       "id": "6c386a85a61409f180f51ce7b724bb54e90c97bfeb1f9a1edf734846f274facf",
       "primary_topic": "business-and-markets",

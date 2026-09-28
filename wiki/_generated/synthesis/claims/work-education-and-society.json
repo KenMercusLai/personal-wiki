@@ -2,6 +2,20 @@
   "claims": [
     {
       "global_candidate": false,
+      "id": "crisis-cohesion-needs-a-fairness-boundary",
+      "qualifications": [
+        "The Pandora account is a founder-centered retrospective and does not include employees who left, could not absorb missing pay, or interpreted the crisis differently.",
+        "Cohesion and visible founder sacrifice do not establish informed consent, legal compliance, financial safety, or the absence of sunk-cost, equity, scarcity, or social pressure."
+      ],
+      "statement": "[[StartupCrisisLeadership]] treats product belief, leader-first sacrifice, candid bad-news communication, careful hiring, and camaraderie as possible sources of coordination under pressure, while the [[Pandora]] case makes prolonged unpaid labor a firm fairness and power boundary rather than a general model of commitment.",
+      "status": "qualified",
+      "supporting_wikilinks": [
+        "StartupCrisisLeadership",
+        "Pandora"
+      ]
+    },
+    {
+      "global_candidate": false,
       "id": "online-dating-absent-ties-can-change-matching",
       "qualifications": [
         "The integration and marriage-strength results come from a stylized model whose race, gender, orientation, preference, and relationship assumptions do not represent the full population or platform environment.",

@@ -5662,3 +5662,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-28] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-28] ingest | Founder of Pandora on Lessons from Near Dot Com Bust to Billion Dollar IPO
+
+Added [[TimWestergren]]'s retrospective on building [[Pandora]] from Savage Beast Technologies through a Best Buy kiosk test, a prolonged cash crisis, repeated financing, founder-role recasting, and an IPO. Created Tim Westergren, Pandora, [[JoeKennedy]], [[MusicGenomeProject]], and [[StartupCrisisLeadership]]; updated [[StartupFocus]], [[StartupTeamBond]], [[CEOScalingRole]], and [[BestBuy]] from their complete ordered evidence inventories. Preserved the account's limits as a founder narrative, including survivorship bias, unverified operational figures, and the financial, power, legal, and fairness risks hidden by heroic accounts of personal debt and nearly two and a half years of unpaid work. Opened the sole local image and retained it once under a descriptive canonical filename as a contextual photograph of Westergren among compact discs.
+
+## [2026-09-28] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

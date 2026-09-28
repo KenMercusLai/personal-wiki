@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Founder of Pandora on Lessons from Near Dot Com Bust to Billion Dollar IPO](sources/founder-of-pandora-on-lessons-from-near-dot-com-bust-to-billion-dollar-ipo-first-round-review.md) - Tim Westergren connects Pandora's software focus, prolonged cash crisis, team endurance, founder-role recasting, and post-IPO scale.
 - [Founder Stories: A Hacker's Hacker](sources/founder-stories-a-hackers-hacker-openocean.md) - OpenOcean profiles Monty Widenius through MySQL's long development, open-source commercialization, developer-led culture, MariaDB, and OpenOcean.
 - [Founder Friendly? No thanks](sources/founder-friendly-no-thanks-sam-gerstenzang-medium.md) - Sam Gerstenzang argues that boards should respect founder operating context without promising unconditional loyalty when leadership fit or conduct conflicts with the company's needs.
 - [For the Love of God, Please Tell Me What Your Company Does](sources/for-the-love-of-god-please-tell-me-what-your-company-does-by.md) - A practitioner essay argues that homepages should identify the offer before presenting generic aspiration, while its screenshots add important counterevidence about layered clarity.
@@ -716,6 +717,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Find, Vet and Close the Best Product Managers](sources/find-vet-and-close-the-best-product-managers-first-round-review.md) - Todd Jackson defines PM responsibilities, varied candidate profiles, structured interviews, a panel exercise, and motivation-aware closing.
 
 ## Entities
+- [Tim Westergren](entities/TimWestergren.md) - Pandora founder represented through music-discovery work, strategic focus, crisis leadership, and a later move from CEO to strategy.
+- [Pandora](entities/Pandora.md) - Music-discovery company that evolved from Savage Beast Technologies through a cash crisis, leadership recasting, and an IPO.
+- [Joe Kennedy](entities/JoeKennedy.md) - Pandora CEO presented as Tim Westergren's complementary leadership partner after a founder-role transition.
+- [Music Genome Project](entities/MusicGenomeProject.md) - Music-discovery project that anchored Westergren's early specialist role inside Pandora.
 - [Monty Widenius](entities/MontyWidenius.md) - Programmer-founder presented as MySQL's principal early author, MySQL AB's coding-focused CTO, MariaDB's founder, and an OpenOcean founding partner.
 - [MySQL AB](entities/MySQLAB.md) - Company that developed and commercialized MySQL through open distribution, paid use, customer feedback, and developer-led hiring.
 - [MySQL](entities/MySQL.md) - Open-source relational database developed from Monty Widenius's long-running database work.
@@ -2001,6 +2006,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Todd Jackson](entities/ToddJackson.md) - Product leader represented through a stage-sensitive framework for defining, evaluating, and closing product-manager candidates.
 
 ## Concepts
+- [Startup Crisis Leadership](concepts/StartupCrisisLeadership.md) - Coordinating an existential startup threat through credible sacrifice, candor, team commitment, strategic boundaries, and explicit fairness limits.
 - [Open-Source Commercialization](concepts/OpenSourceCommercialization.md) - Revenue and licensing arrangements intended to fund public software development without abandoning community participation.
 - [Developer-Led Technical Culture](concepts/DeveloperLedTechnicalCulture.md) - Organizational pattern combining hands-on technical leadership, visible work-sample hiring, delegated responsibility, and contributor autonomy.
 - [Startup Board Governance](concepts/StartupBoardGovernance.md) - Balancing founder operating knowledge with director challenge, evaluation, coaching boundaries, and stage-dependent leadership decisions.
