@@ -589,12 +589,13 @@
       "31576f5b424bdfce04ac6455afd90a01d02771ba0f029498d458dd3a8bdcc4ef",
       "fc934dcb38776b801cd06d957a927b7a23b6736234ea626b24205a2c8c2c95ea",
       "e6e861264b526b17f032499097b6fc81348b39a02a4c24222dfb465fdb6a8527",
-      "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d"
+      "e242b4cbbc5b6bfd88a14480d547fe6b13a96e105a516c4ee2e7d2f03211f68d",
+      "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e"
     ],
-    "paragraph_count": 589
+    "paragraph_count": 590
   },
-  "overview_commit": "db2b8dd1f6b9657c2c7962093fa343d1404b79ff",
-  "overview_digest": "f0d214ee63c0673a916d3123dc67275d05f7a3878b898b88fdc35afaebb3b76f",
+  "overview_commit": "c5fa813fb3b3d7b5b206f6fb59afebc6a2273ce2",
+  "overview_digest": "ffb86c3a2f297721727ea13da6bd22f47f4996b651708e4bf682e599305a701b",
   "paragraphs": [
     {
       "id": "010d40aad03db81287929d3b800f3456416e18a3a2f1484e5f5eaaee04fb6106",
@@ -11928,6 +11929,24 @@
         "HappyXiao",
         "MarcAndreessen",
         "ProlificPractice"
+      ]
+    },
+    {
+      "id": "a866ca0b867e9ffc052e35efaaf1e6be7e45c91841668656428367b82ab6dd6e",
+      "primary_topic": "governance-and-institutions",
+      "secondary_topics": [],
+      "text": "The newest [[MonikaBickert]] source adds [[PosthumousAccountGovernance]] as a multi-party extension of online identity. [[Facebook]]'s stated 2017 default was conservative continuity when a user's wishes were unknown: label the profile “Remembering,” block new logins, and preserve the content and audience boundaries the person left behind. Advance deletion preferences or a legacy contact could change that outcome, but the contact's enumerated powers did not amount to inheriting the identity or its private messages. This sharpens [[ContextCollapse]] because posthumous access can expose material beyond the audience chosen while the user was alive, and it adds living correspondents as independent privacy stakeholders even when a bereaved relative has a compelling reason to seek answers. Digital memory itself remains ambivalent: photographs, messages, and posts can support continued connection, while automated reminders and resurfaced material can renew grief. The evidence is a first-party policy explanation rather than a comparative or outcome study; preservation is still a substantive default, next-of-kin accounts of intent may be hard to verify, and the legal and product details are historical rather than current guidance. The recovered lead illustration was retained because it directly depicts the memorialized “Remembering” state; two decorative divider graphics were omitted.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "governance-and-institutions": 3,
+        "history-and-geopolitics": 1,
+        "psychology-and-personal-development": 1
+      },
+      "wikilinks": [
+        "ContextCollapse",
+        "Facebook",
+        "MonikaBickert",
+        "PosthumousAccountGovernance"
       ]
     }
   ],

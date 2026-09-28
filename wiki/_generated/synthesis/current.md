@@ -4,11 +4,11 @@ schema_version: 1
 generated: true
 synthesis_source: compact
 last_updated: 2026-09-29
-as_of_overview_commit: db2b8dd1f6b9657c2c7962093fa343d1404b79ff
+as_of_overview_commit: c5fa813fb3b3d7b5b206f6fb59afebc6a2273ce2
 summary: "A qualified map of how technology, markets, institutions, culture, work, and human limits interact through evidence, infrastructure, incentives, lifecycle risk, and trust."
-episode_count: 777
-source_count: 777
-paragraph_count: 589
+episode_count: 778
+source_count: 778
+paragraph_count: 590
 topic_count: 9
 ---
 
@@ -57,7 +57,7 @@ Media and culture combine expression, identity, distribution, monetization, plat
 
 ### Governance and Institutions
 
-Institutions need explicit authority, evidence, appeal, transparency, compatibility boundaries, and cross-system accountability where platforms allocate visibility, opportunity, or risk.
+Institutions need explicit authority, evidence, appeal, transparency, compatible defaults, bounded stewardship, and cross-system accountability where platforms allocate visibility, identity, opportunity, privacy, or risk.
 
 - [[NetworkedInformationManipulation]] makes the [[AttentionEconomy]] an adversarial governance surface: [[4chan]] and [[DanahBoyd]]'s selected cases show coordinated actors exploiting platform ranking, social propagation, journalistic incentives, ambiguity, and harassment to gain visibility or power, so content rules alone are insufficient without cross-system accountability, abuse response, and institutional resilience. Evidence: [[NetworkedInformationManipulation]], [[AttentionEconomy]], [[4chan]], [[DanahBoyd]].
 - [[ManagerialResponsibility]] treats organizational authority as an obligation to reinforce strengths, diagnose before blaming, develop judgment, delegate desirable work, absorb difficult problems, and rely on influence rather than command; [[ContinuousWorkplaceFeedback]] and [[CompassionateManagement]] make that responsibility useful only when curiosity and humane action remain bounded by fair process. Evidence: [[ManagerialResponsibility]], [[ContinuousWorkplaceFeedback]], [[CompassionateManagement]], [[HenryWard]].

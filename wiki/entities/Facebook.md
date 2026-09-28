@@ -21,12 +21,13 @@ sources:
   - facebooks-algorithm-isnt-surfacing-one-third-of-our-posts-and-its-getting-worse
   - from-pull-and-push-to-here-and-now-the-grand-bargain-of-facebook-and-the-feed-is-unraveling-what-comes-next
   - ghost-in-the-machine-snapchat-isnt-mobile-first-its-something-else-entirely
-last_updated: 2026-09-28
+  - hard-questions-what-should-happen-to-peoples-online-identity-when-they-die-facebook-newsroom
+last_updated: 2026-09-29
 knowledge_schema: synthesis-v1
 ---
 
 ## Overview
-[[Facebook]] appears as a mobile social, messaging, media-distribution, advertising, and data platform whose broad graph and demand aggregation created substantial reach while producing recurring tensions around identity, context, publisher dependence, attention incentives, privacy, and product fit.
+[[Facebook]] appears as a mobile social, messaging, media-distribution, advertising, and data platform whose broad graph and demand aggregation created substantial reach while producing recurring tensions around identity, context, publisher dependence, attention incentives, privacy, product fit, and stewardship of accounts after death.
 
 ## Current Profile
 Facebook adapted from desktop social networking to mobile and sought influence over messaging, discovery, publishing, advertising, and post-browser interaction. Its authenticated graph could provide identity and distribution infrastructure, but the same breadth mixed family, friends, coworkers, brands, and weak ties. Ranking made that heterogeneous graph usable for a media feed while reducing direct access for publishers and making low-stakes personal expression harder to place.
@@ -37,8 +38,10 @@ Basche adds a temporal and interaction contrast: Facebook’s ranked feed remain
 
 Facebook's power extends beyond the visible feed. The sources describe platform dependency, publisher reach volatility, processed advertising profiles, and Onavo-derived competitive intelligence. They also identify limits: messaging layers depend on mobile OS owners; Groups trade discovery for pseudonymity and retrieval; attention-linked advertising may conflict with bounded use; and Facebook's scale remains exposed to cultural, organizational, regulatory, and attention shifts.
 
+The 2017 posthumous-account policy extends persistent identity across the account lifecycle. Facebook described memorialization as its default when a user's wishes were unknown: block new logins, preserve existing visibility, and label the profile “Remembering.” Deletion instructions and a nominated legacy contact could alter that outcome, but the contact received limited stewardship rather than the ability to impersonate the user or read private messages. This makes identity continuity a governance problem among the deceased person, survivors, living correspondents, platform rules, and law.
+
 ## Key Characteristics
-- Adapted to mobile while competing across messaging, discovery, publishing, advertising, live video, AR, and VR surfaces.
+- Adapted to mobile while competing across messaging, discovery, publishing, advertising, live video, AR, VR, and posthumous identity-management surfaces.
 - Aggregates a broad social graph whose usefulness depends heavily on ranking and context.
 - Provides identity and distribution infrastructure while creating dependency for startups, publishers, advertisers, and communities.
 - Processes user, content, advertiser, third-party, and external-web inputs into recommendations, targeting, profiles, and reported competitive intelligence.
@@ -53,12 +56,13 @@ Facebook's power extends beyond the visible feed. The sources describe platform 
 - Graph and community fit: [[are-forums-still-relevant-in-a-facebook-world]] and [[design-conflicts-in-messenger-day-quora-design-medium]] show that distribution strength can conflict with pseudonymity, retrieval, intimate broadcasting, and unranked exposure.
 - Data and competitive power: [[data-factories-stratechery-by-ben-thompson]], [[facebook-and-the-cost-of-monopoly-stratechery-by-ben-thompson]], and [[facebook-knew-about-snaps-struggles-months-before-the-public-engadget]] connect demand, processed profiles, copied innovation, and rival telemetry.
 - Attention and wellbeing: [[facebooks-desperate-smoke-screen-study-hacks-cal-newport]] frames an engagement incentive conflict, while [[facebooks-mental-health-problem-anxy-magazine-medium]] gives a qualified first-person account of harmful checking and comparison during an existing depressive episode.
+- Account lifecycle and survivor privacy: [[hard-questions-what-should-happen-to-peoples-online-identity-when-they-die-facebook-newsroom]] describes memorialization, deletion preferences, limited legacy-contact powers, continued audience boundaries, and protection of private messages after death.
 
 ## Qualifications
-The evidence is a collection of 2015-2018 snapshots and outside interpretations, not a current or complete company history. The “one-self” bargain, context-collapse diagnosis, trust loss, copying effects, engagement conflict, monopoly costs, “phonebook” role, and strategic value of Onavo are plausible mechanisms without internal causal proof. Publisher data come from one page; mental-health evidence is experiential; Groups can provide real support; authenticated identity can create trust as well as exposure; and large networks can benefit users even while weakening supplier leverage. None of the sources establishes later product outcomes, current practices, or that Snapchat or any single factor caused Facebook’s sharing shifts.
+The evidence is a collection of 2015-2018 snapshots and outside interpretations, not a current or complete company history. The “one-self” bargain, context-collapse diagnosis, trust loss, copying effects, engagement conflict, monopoly costs, “phonebook” role, and strategic value of Onavo are plausible mechanisms without internal causal proof. Publisher data come from one page; mental-health evidence is experiential; Groups can provide real support; authenticated identity can create trust as well as exposure; and large networks can benefit users even while weakening supplier leverage. The posthumous-account material is Facebook's own 2017 explanation, not an independent audit or a statement of current policy. None of the sources establishes later product outcomes or that Snapchat or any single factor caused Facebook's sharing shifts.
 
 ## What Changed
-- Recast persistent identity as a qualified tradeoff between feed distribution and variance in self-expression.
+- Extended persistent identity into posthumous account governance, including memorialization, deletion, bounded stewardship, and third-party message privacy.
 - Added Instagram Stories and camera-first ephemerality as a response to that tradeoff, not only as competitive copying.
 - Compressed the profile into current claims grouped across graph, identity, distribution, data, and incentive mechanisms.
 - Preserved the “grand bargain” and “here and now” as Danco's 2016 interpretation rather than platform fact or validated forecast.
@@ -75,3 +79,4 @@ The evidence is a collection of 2015-2018 snapshots and outside interpretations,
 - [[EngagementIncentiveConflict]] - names the tension between bounded use and advertising-linked attention.
 - [[ForumCommunityDesign]] - contrasts social distribution with pseudonymity, durable structure, and retrieval.
 - [[AuthenticallyMobile]] - contrasts a phone-adapted feed with experiences constituted by mobile cameras, connectivity, and context.
+- [[PosthumousAccountGovernance]] - extends Facebook's identity choices to preservation, deletion, stewardship, and privacy after death.

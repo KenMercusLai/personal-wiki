@@ -3,6 +3,7 @@ title: "Overview"
 type: synthesis
 tags: []
 sources:
+  - hard-questions-what-should-happen-to-peoples-online-identity-when-they-die-facebook-newsroom
   - halide-one-year-later-halide
   - hacking-the-attention-economy-data-society-points
   - guide-37signals-how-we-communicate
@@ -1901,7 +1902,11 @@ The newest [[DanahBoyd]] source extends [[AttentionEconomy]] from a commercial i
 
 The newest [[HappyXiao]] source adds emotional outcome detachment to the wiki's creator-practice model. Borrowing a [[MarcAndreessen]] anecdote about [[AndreessenHorowitz]] and professional gamblers, it argues that creators should make one piece after another, loosen each attempt's connection to applause or visible numbers, attend to their own growth, and play a longer game. This strengthens [[ProlificPractice]] by separating the repetition needed for learning from the emotional verdict attached to a single result, and it sharpens [[CreatorPlatformMetrics]] by distinguishing scheduled evidence review from compulsive reward-seeking. The useful synthesis is not to ignore data or suppress feeling: metrics can still reveal topic fit, packaging, distribution, and commercial outcomes, while persistent weak results can justify changing craft or strategy. The source is a very short personal essay built on a second-hand gambling analogy; it supplies no outcome evidence and does not establish that emotional suppression or risk-taking improves judgment. Its Markdown contains no image references, so no visual asset or manifest was required.
 
+The newest [[MonikaBickert]] source adds [[PosthumousAccountGovernance]] as a multi-party extension of online identity. [[Facebook]]'s stated 2017 default was conservative continuity when a user's wishes were unknown: label the profile “Remembering,” block new logins, and preserve the content and audience boundaries the person left behind. Advance deletion preferences or a legacy contact could change that outcome, but the contact's enumerated powers did not amount to inheriting the identity or its private messages. This sharpens [[ContextCollapse]] because posthumous access can expose material beyond the audience chosen while the user was alive, and it adds living correspondents as independent privacy stakeholders even when a bereaved relative has a compelling reason to seek answers. Digital memory itself remains ambivalent: photographs, messages, and posts can support continued connection, while automated reminders and resurfaced material can renew grief. The evidence is a first-party policy explanation rather than a comparative or outcome study; preservation is still a substantive default, next-of-kin accounts of intent may be hard to verify, and the legal and product details are historical rather than current guidance. The recovered lead illustration was retained because it directly depicts the memorialized “Remembering” state; two decorative divider graphics were omitted.
+
 ## Open Questions
+- Which combination of advance directives, default rules, appeals, and limited steward capabilities best respects a deceased user's intent while protecting survivors and living correspondents?
+- How should platforms test and control grief-sensitive reminders without assuming that preservation, resurfacing, or suppression is uniformly comforting?
 - Which leading indicators distinguish a real cross-domain inflection from a compelling collection of old technologies, isolated demonstrations, and adoption anecdotes?
 - When does task-adjacent algorithmic guidance build durable capability, and when does it deskill workers or intensify opaque coordination and surveillance?
 - Which decision, follow-up, participation, and information-flow measures can show whether a recurring staff meeting creates coordination value beyond the time it consumes?

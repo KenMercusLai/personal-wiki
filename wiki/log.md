@@ -6105,6 +6105,10 @@ Ran lint. See lint-report.md for details.
 
 Ran lint. See lint-report.md for details.
 
+## [2026-09-29] ingest | Hard Questions: What Should Happen to People’s Online Identity When They Die?
+
+Added [[MonikaBickert]]'s 2017 explanation of Facebook's memorialization, deletion, legacy-contact, and private-message policies, creating [[PosthumousAccountGovernance]] as a multi-party framework for user intent, survivor needs, third-party privacy, and incomplete inheritance law. Updated [[Facebook]] from its complete ordered evidence inventory to extend persistent identity across the account lifecycle, while preserving the source's first-party, historical, legal-scope, and outcome-evidence limits. Recovered all three images from Meta's migrated article, retained the evidence-bearing memorialized-profile illustration, and omitted two decorative divider graphics.
+
 ## [2026-09-29] ingest | Ground Control To Silicon Valley
 
 Added [[NitashaTiku]]'s 2016 critique of [[CodeConference]] as both a valuable access venue and a protected elite social environment, including [[KaraSwisher]]'s dual role as combative interviewer and conference co-founder. Created [[AccessJournalism]], [[TechnologyElitePower]], and [[EscapistTechnofuturism]], and updated [[ElonMusk]] and [[SiliconValley]] from their complete ordered evidence inventories with the source's account of charismatic future-setting, concentrated control, limited representation, and softened media scrutiny. Opened both local images, retained the clearer full-frame photograph of Musk on the conference's red-chair stage, and omitted the near-duplicate tighter crop.
@@ -6260,6 +6264,10 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] ingest | Happy Xiao - 如何扩散
 
 Added [[HappyXiao]]'s account of [[MorningBrew]] and [[AustinRief]] iterating a college ambassador program from selective recruitment, through automated volume, to a tiered hybrid that concentrated coaching, peer access, scripts, and flyers around active participants. Created [[MorningBrew]], [[AustinRief]], and [[CampusAmbassadorPrograms]], and updated [[HappyXiao]] from his complete ordered evidence inventory. Preserved the secondary-retelling, historical, self-reported, attribution, retention, cost, and generalization limits around student reliability, concentrated contribution, and cash incentives. The source contains no image references, so no visual asset or manifest was required.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
 
 ## [2026-09-29] lint | Wiki health check
 
