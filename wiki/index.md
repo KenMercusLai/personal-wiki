@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [GraphQL: A success story for PayPal Checkout](sources/graphql-a-success-story-for-paypal-checkout-paypal-engineering-medium.md) - PayPal describes Checkout's progression from atomic and orchestrated REST through Bulk REST to client-shaped, schema-discoverable GraphQL.
 - [GraphQL vs. REST](sources/graphql-vs-rest-apollo-graphql.md) - Apollo compares REST routes and server-shaped resources with GraphQL schemas, client-selected fields, relationship traversal, and resolver-composed responses.
 - [Gradually, then suddenly](sources/gradually-then-suddenly-oreilly.md) - Tim O'Reilly surveys gradual technological shifts nearing visible consequence and argues for human-machine partnership, institutional capacity, and deliberate moral choice.
 - [Gossip, Rumors, and Lies](sources/gossip-rumors-and-lies-rands-in-repose.md) - Rands in Repose frames staff meetings around concrete start conditions, separate runner and historian roles, story-producing metrics, team-owned topics, rumor correction, shared notes, and continuing value tests.
@@ -1636,7 +1637,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [HubSpot](entities/HubSpot.md) - Inbound-marketing SaaS used as a free-tool acquisition, product-evolution, and explicit vacation-policy example.
 - [Craigslist](entities/Craigslist.md) - Broad classifieds incumbent used as an example of decomposing a bloated product into focused startup opportunities.
 - [Groupon](entities/Groupon.md) - Deals company used as an example of sharing, referrals, and daily email driving bargain distribution.
-- [PayPal](entities/PayPal.md) - Payments company used as a cash-referral growth example and as foundational web-payment infrastructure that made merchant commerce viable.
+- [PayPal](entities/PayPal.md) - Payments company represented through referral growth, web-payment infrastructure, prototype payments, and Checkout API evolution.
 - [Ahmad Iqbal](entities/AhmadIqbal.md) - Merchant-founder who turned Nadeef customer-call experiments into Shopify apps such as Scout, Raven Callback, and Pizza Party.
 - [Nadeef](entities/Nadeef.md) - Shopify bidet store where abandoned-checkout calls, VIP thank-yous, and customer-experience app ideas were tested.
 - [Scout](entities/Scout.md) - Shopify abandoned-checkout alert app built after manual customer calls worked at Nadeef.
@@ -2142,8 +2143,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Postmark](entities/Postmark.md) - Product-team context for Wildbit's account of customer learning, facilitation, priorities, and execution.
 
 ## Concepts
-- [GraphQL](concepts/GraphQL.md) - Typed API query and execution model combining schemas, client-selected fields, relationship traversal, and resolver-composed responses.
-- [REST API](concepts/RESTAPI.md) - HTTP-oriented resource interface built from URLs, methods, status semantics, handler dispatch, and server-defined representations.
+- [GraphQL](concepts/GraphQL.md) - Typed API model combining client-selected fields, resolver execution, schema discovery, and fewer application-data round trips.
+- [REST API](concepts/RESTAPI.md) - HTTP resource interface whose atomic, orchestration, and bulk-composition patterns trade simplicity against client round trips and coupling.
 - [Staff Meetings](concepts/StaffMeetings.md) - Recurring leadership forums governed by concrete coordination needs, distinct facilitation and recordkeeping roles, purposeful agendas, shared notes, and explicit reassessment.
 - [Product Lifecycle Trust](concepts/ProductLifecycleTrust.md) - Confidence that a product and its supporting services will last long enough to justify adoption and dependency costs.
 - [Search Platform Disintermediation](concepts/SearchPlatformDisintermediation.md) - Shift from external search referrals toward platform-owned answers, option ranking, and vertical discovery.

@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
       "9ab015792f13656fc784fc8e73601cdcf717b6a0e8119cacd1e4dbdd9c40d44e",
       "0c5c3a2db506ca2945b067a15e94003f587a782d621911e1b593f8e4b9d38f34",
       "79ef7fcdb9a50c0863a86e985899c173a001e767b1a968bfdd3edbd37cf35f62",
@@ -576,11 +577,27 @@
       "573d22d150fc44e4f06a60ff7046a1eb4d8e1f2bde9697daee9db31e822d458c",
       "ab4198ad2d9c391bb999d4c1c238fcd7695771a9291faf1711c20e8faa7e18cd"
     ],
-    "paragraph_count": 574
+    "paragraph_count": 575
   },
-  "overview_commit": "f086155eb0cb170742a3e84bf672eb20bd815a7f",
-  "overview_digest": "2b9dee8a2f4d366d188f72e824f1e78694fa448aef9b2bb31cf78e328a5cc18f",
+  "overview_commit": "d5442844d2c3b14eff948cf031ef66df505057d1",
+  "overview_digest": "e533a3355f91b4db2561d64d5faca1d36dbc7d1ee4a65a5ddc9e9002b7f41c44",
   "paragraphs": [
+    {
+      "id": "7bac7ef19d1d782e347fd1746e9874d189e143013ab43b8c501f2c6b3b60763f",
+      "primary_topic": "business-and-markets",
+      "secondary_topics": [
+        "work-education-and-society"
+      ],
+      "text": "The newest PayPal Engineering source turns the wiki's [[GraphQL]]-versus-[[RESTAPI]] interface comparison into a production Checkout case. PayPal reports that small atomic REST endpoints imposed at least 700 ms of network time per round trip at the 99th percentile, excluding server work; a combined orchestration response then accumulated unused fields as experiments grew, while a client-composed Bulk REST request was rarely used because it exposed verbs, endpoints, parameters, and dependencies and still selected whole resources. GraphQL preserved client control at field level behind a discoverable schema. In a six-week mobile-SDK project, three developers reportedly progressed on UI and API work in parallel without extensive internal API knowledge, and more than 30 applications or teams were building or consuming GraphQL a year later. This supports fewer client trips, reduced over-fetching, schema discovery, and field-usage visibility as plausible performance and productivity mechanisms, but the company-authored account reports no controlled before-and-after latency, conversion, error-rate, backend-work, authorization, caching, or maintenance results. Two full-resolution Checkout interfaces were retained; six evidence-oriented thumbnails were too low-resolution to interpret reliably, and their prose-repeated content was not used as independent evidence.",
+      "topic_scores": {
+        "business-and-markets": 1,
+        "work-education-and-society": 1
+      },
+      "wikilinks": [
+        "GraphQL",
+        "RESTAPI"
+      ]
+    },
     {
       "id": "9ab015792f13656fc784fc8e73601cdcf717b6a0e8119cacd1e4dbdd9c40d44e",
       "primary_topic": "ai-and-technology",

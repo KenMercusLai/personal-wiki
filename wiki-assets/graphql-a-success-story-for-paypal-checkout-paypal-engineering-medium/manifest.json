@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "graphql-a-success-story-for-paypal-checkout-paypal-engineering-medium",
+  "images": [
+    {
+      "file": "paypal-checkout-modal.png",
+      "alt": "PayPal Checkout modal showing shipping, funding, and purchase confirmation in one interface"
+    },
+    {
+      "file": "mobile-paypal-checkout.png",
+      "alt": "Mobile checkout offering PayPal, Venmo, and PayPal Credit as funding choices"
+    }
+  ]
+}

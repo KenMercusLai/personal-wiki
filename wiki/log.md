@@ -6096,3 +6096,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | GraphQL: A success story for PayPal Checkout
+
+Added PayPal Engineering's Checkout progression from atomic and orchestrated REST through Bulk REST to GraphQL. Updated [[GraphQL]], [[RESTAPI]], and [[PayPal]] from their complete ordered evidence inventories with the reported 700 ms 99th-percentile network-trip cost, the six-week three-developer mobile-SDK case, schema-driven parallel work, field-level evolution, and adoption across more than 30 applications or teams. Preserved the company-authored source boundary and missing controlled latency, conversion, backend-cost, reliability, and maintenance comparisons. Opened all 12 distinct local images referenced by 13 embeds, retained two full-resolution Checkout interfaces, omitted four decorative or duplicate images, and omitted six evidence-oriented thumbnails whose 60-pixel width made them uninterpretable beyond prose-repeated captions.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.
