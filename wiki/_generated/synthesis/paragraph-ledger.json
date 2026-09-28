@@ -1,6 +1,7 @@
 {
   "coverage": {
     "assigned_paragraph_ids": [
+      "b03c8f95040fd51199d5945a21ab709456003a8d08d1d0d52d3cf01495023c49",
       "995bb2bc737455283d985755e17f4267b2bf66d79ba8aa96bf15bd9e885e2a8a",
       "8675ebc7b7df4945c33713275138aeb142d7c0c138809319dfeb8b226d08a050",
       "27c65aabb0fcbe96cb66fa1f3a43c143a0388a5276ea7a45412c2b8d6dfe7ff8",
@@ -600,11 +601,33 @@
       "13a9b85927d4f7dee4f4a245e48ac04ed1c5f166ccfe7724cefd5076e0158c2f",
       "09b19aabfd10cc2c449911fad70a3a2080c19bd88ff1c7507e1a3c3418cfa30b"
     ],
-    "paragraph_count": 598
+    "paragraph_count": 599
   },
-  "overview_commit": "45ed2a0930727d2becd808fadb793dc24c70d58d",
-  "overview_digest": "eb7f3274eeb5c7de43d823d6302c851fce0d799292e76e79a07cebe9cd3edcbc",
+  "overview_commit": "1b826be568b62147854deca71166d5e4196733a8",
+  "overview_digest": "be79ea5be22fbfb65f7ea4377e71fccfa483bb7aa1ab63c7bc335735fa203dd4",
   "paragraphs": [
+    {
+      "id": "b03c8f95040fd51199d5945a21ab709456003a8d08d1d0d52d3cf01495023c49",
+      "primary_topic": "ai-and-technology",
+      "secondary_topics": [
+        "business-and-markets",
+        "governance-and-institutions"
+      ],
+      "text": "The newest [[JordanStaniscia]] source adds [[InputModalityIndependence]] as the modality-specific edge of [[Usability]] and [[CapabilityAccessibility]]. A Surface Pro participant could read and scroll a desktop web article by touch but could never reveal the product's hover-only paragraph-commenting controls, showing that a wide viewport or laptop form does not guarantee pointer hover. The durable rule is asymmetric: hover can still communicate clickability, preview outcomes, and provide efficient pointer shortcuts, but an essential action needs a discoverable touch-operable primary route. The case also sharpens [[UserTesting]] and support practice because a Mac-centered team initially dismissed the failed session as an anomalous device problem; reports that a primary laptop action is impossible may instead reveal a hidden capability assumption. The evidence is one observed participant in a short 2016 practitioner essay, not a prevalence study, and it does not separately test keyboard access, assistive technology, stylus use, or all multimodal combinations. The source's 2-in-1 growth discussion is a historical forecast, its Apple device claim is unsupported, and its capture contains conflicting metadata and byline dates. All six local images were opened; the Surface Pro touch illustration and four-state UI example were retained at their semantic positions, two decorative click-hand illustrations and their thumbnails were omitted, and the UI example's 58-by-60-pixel labels could not be recovered reliably.",
+      "topic_scores": {
+        "ai-and-technology": 1,
+        "business-and-markets": 1,
+        "governance-and-institutions": 1,
+        "history-and-geopolitics": 1
+      },
+      "wikilinks": [
+        "CapabilityAccessibility",
+        "InputModalityIndependence",
+        "JordanStaniscia",
+        "Usability",
+        "UserTesting"
+      ]
+    },
     {
       "id": "995bb2bc737455283d985755e17f4267b2bf66d79ba8aa96bf15bd9e885e2a8a",
       "primary_topic": "business-and-markets",

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "source_key": "hover-is-dead-long-live-hover",
+  "images": [
+    {
+      "file": "surface-pro-touch-input.png",
+      "alt": "Touch gesture illustrated over a Microsoft Surface Pro with its keyboard attached"
+    },
+    {
+      "file": "optional-hover-ui-example.png",
+      "alt": "Four-panel interface example showing several card states and one highlighted combined layout"
+    }
+  ]
+}

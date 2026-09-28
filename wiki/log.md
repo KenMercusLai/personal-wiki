@@ -6380,3 +6380,11 @@ Ran lint. See lint-report.md for details.
 ## [2026-09-29] lint | Wiki health check
 
 Ran lint. See lint-report.md for details.
+
+## [2026-09-29] ingest | Hover is dead. Long live hover.
+
+Added [[JordanStaniscia]]'s 2016 argument that touch-enabled laptops break the assumption that a desktop-sized interface has reliable hover. Created [[InputModalityIndependence]] and updated [[CapabilityAccessibility]] and [[Usability]] from their complete ordered evidence inventories: hover remains useful for pointer feedback and optional shortcuts, but essential actions need a discoverable, touch-operable primary path. Preserved the source's one-session evidence limit, historical forecast, unsupported Apple device claim, and conflicting captured dates. Opened all six effective local images; retained the Surface Pro touch illustration and small four-state UI example under descriptive canonical filenames, omitted two decorative click-hand illustrations and their two duplicate thumbnails, and recorded that the 58-by-60 UI capture is too low-resolution for reliable label recovery.
+
+## [2026-09-29] lint | Wiki health check
+
+Ran lint. See lint-report.md for details.

@@ -6,6 +6,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) - living synthesis across all sources
 
 ## Sources
+- [Hover is dead. Long live hover.](sources/hover-is-dead-long-live-hover.md) - Jordan Staniscia argues that hybrid touch laptops make hover unreliable, so essential actions need a touch-operable primary path while hover remains useful for feedback and shortcuts.
 - [Houseparty's Teenage Consultants Help Design the App](sources/housepartys-teenage-consultants-help-design-the-app.md) - Yiren Lu compares Houseparty's school visits with Musical.ly's continuous user groups to show how adult teams involved teenage users in design, learning, and early network spread.
 - [Hiring is Broken... And It Isn't Worth Fixing](sources/hiring-is-broken-and-it-isnt-worth-fixing-daedtech.md) - Erik Dietrich proposes replacing high-volume cold interviews with longer-lived evidence relationships while commenters expose the alternative's access, bias, relevance, and candidate-leverage trade-offs.
 - [Hierarchy of Trust: The 5 Experiential Levels of Website Commitment](sources/hierarchy-of-trust-the-5-experiential-levels-of-website-commitment.md) - A five-level UX framework for matching requests for information, money, and relationship commitment to trust already earned.
@@ -810,6 +811,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Here’s The Technique That Ambitious People Use To Get What They Want](sources/heres-the-technique-that-ambitious-people-use-to-get-what-they-want-ryanholiday.md) - Ryan Holiday argues that researched, specific proposals turn interviews and meetings into demonstrations of contribution while acknowledging frequent rejection, unequal burden, and ethically neutral capability.
 
 ## Entities
+- [Jordan Staniscia](entities/JordanStaniscia.md) - Interaction-design author arguing that hover should enhance pointer use without becoming the sole path to an essential action.
 - [Houseparty](entities/Houseparty.md) - Synchronous group video-chat app shaped through school-based teenage feedback and spread through dense local relationships.
 - [Alex Zhu](entities/AlexZhu.md) - Musical.ly founder represented through deliberate youth targeting and continuous pre-code user participation.
 - [Yiren Lu](entities/YirenLu.md) - Journalist examining demographic distance, teenage product participation, and social-app adoption.
@@ -2238,6 +2240,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Spencer Coon](entities/SpencerCoon.md) - Hibox and Beamer co-founder involved in the semi-pivot and organizational separation.
 
 ## Concepts
+- [Input Modality Independence](concepts/InputModalityIndependence.md) - Design property that keeps essential actions discoverable and operable without exclusive dependence on hover or another single input capability.
 - [Participatory Product Design](concepts/ParticipatoryProductDesign.md) - Involving intended users in ideas, artifacts, and product choices before and during implementation, with explicit sampling and power boundaries.
 - [Hierarchy of Trust](concepts/HierarchyOfTrust.md) - Five-level UX framework for calibrating website requests to established relevance, preference, information trust, and relationship readiness.
 - [Briefcase Technique](concepts/BriefcaseTechnique.md) - Researched, concrete proposal used to demonstrate judgment and initiative in a consequential meeting without guaranteeing acceptance or ethical merit.
